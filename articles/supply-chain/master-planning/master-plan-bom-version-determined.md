@@ -1,13 +1,13 @@
 ---
-title: "MK versijas noteikšana"
-description: "Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu."
+title: MK versijas noteikšana
+description: Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,26 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: cf125e2b75c4dfa406f4f05b249e6fdb49c84b7d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325093"
 ---
-
-# <a name="determine-the-bom-version"></a><span data-ttu-id="b5db7-103">MK versijas noteikšana</span><span class="sxs-lookup"><span data-stu-id="b5db7-103">Determine the BOM version</span></span>
+# <a name="determine-the-bom-version"></a><span data-ttu-id="cc72d-103">MK versijas noteikšana</span><span class="sxs-lookup"><span data-stu-id="cc72d-103">Determine the BOM version</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b5db7-104">Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="b5db7-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
+<span data-ttu-id="cc72d-104">Ja krājuma noklusējuma pasūtījuma veids ir Ražošana, tad pieprasījuma izvēršanas laikā plānošanas programmā tiek atrasta derīga MK versija, pamatojoties uz atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="cc72d-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 
-<span data-ttu-id="b5db7-105">Vietas dimensija vienmēr ir zināma, un tā ir norādīta pieprasījuma transakcijā.</span><span class="sxs-lookup"><span data-stu-id="b5db7-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="b5db7-106">Tālāk aprakstītais process tiek lietots, lai noteiktu, kuru MK versiju izmantot.</span><span class="sxs-lookup"><span data-stu-id="b5db7-106">The following process is used to determine the BOM version to use:</span></span>
+<span data-ttu-id="cc72d-105">Vietas dimensija vienmēr ir zināma, un tā ir norādīta pieprasījuma transakcijā.</span><span class="sxs-lookup"><span data-stu-id="cc72d-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="cc72d-106">Tālāk aprakstītais process tiek lietots, lai noteiktu, kuru MK versiju izmantot.</span><span class="sxs-lookup"><span data-stu-id="cc72d-106">The following process is used to determine the BOM version to use:</span></span>
 
--   <span data-ttu-id="b5db7-107">Ja pieprasījuma vietā krājumam ir definēta MK versija, tiek lietots vietai specifiskais MK.</span><span class="sxs-lookup"><span data-stu-id="b5db7-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
--   <span data-ttu-id="b5db7-108">Ja pieprasījuma vietā krājumam nav definēta no vietas atkarīga MK versija, tiek lietots vispārīgs MK.</span><span class="sxs-lookup"><span data-stu-id="b5db7-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="b5db7-109">Vispārīgais MK nenosaka vietu, tas ir derīga vairākām vietām.</span><span class="sxs-lookup"><span data-stu-id="b5db7-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="b5db7-110">Ja pastāv vispārīgs MK, tiek izmantots tas.</span><span class="sxs-lookup"><span data-stu-id="b5db7-110">If there is a general BOM, it is used.</span></span>
--   <span data-ttu-id="b5db7-111">Ja nav izmantojamas vispārīgas MK versijas, pieprasījuma izvēršana šajā vietā apstājas.</span><span class="sxs-lookup"><span data-stu-id="b5db7-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
+-   <span data-ttu-id="cc72d-107">Ja pieprasījuma vietā krājumam ir definēta MK versija, tiek lietots vietai specifiskais MK.</span><span class="sxs-lookup"><span data-stu-id="cc72d-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
+-   <span data-ttu-id="cc72d-108">Ja pieprasījuma vietā krājumam nav definēta no vietas atkarīga MK versija, tiek lietots vispārīgs MK.</span><span class="sxs-lookup"><span data-stu-id="cc72d-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="cc72d-109">Vispārīgais MK nenosaka vietu, tas ir derīga vairākām vietām.</span><span class="sxs-lookup"><span data-stu-id="cc72d-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="cc72d-110">Ja pastāv vispārīgs MK, tiek izmantots tas.</span><span class="sxs-lookup"><span data-stu-id="cc72d-110">If there is a general BOM, it is used.</span></span>
+-   <span data-ttu-id="cc72d-111">Ja nav izmantojamas vispārīgas MK versijas, pieprasījuma izvēršana šajā vietā apstājas.</span><span class="sxs-lookup"><span data-stu-id="cc72d-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
 
-<span data-ttu-id="b5db7-112">Derīgai MK versijai, vietai specifiskai vai vispārīgai, jāatbilst vajadzīgajiem datuma un daudzuma kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="b5db7-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
-
+<span data-ttu-id="cc72d-112">Derīgai MK versijai, vietai specifiskai vai vispārīgai, jāatbilst vajadzīgajiem datuma un daudzuma kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="cc72d-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "PowerBI.com risinājumu sākumlapa"
-description: "Šajā tēmā ir uzskaitīti pieejamie PowerBI.com risinājumi, kā arī ir norādīti resursi, kur par attiecīgajiem risinājumiem varat uzzināt vairāk."
+title: PowerBI.com risinājumu sākumlapa
+description: Šajā tēmā ir uzskaitīti pieejamie PowerBI.com risinājumi, kā arī ir norādīti resursi, kur par attiecīgajiem risinājumiem varat uzzināt vairāk.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,53 +18,51 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316698"
 ---
-
-# <a name="powerbicom-solutions-home-page"></a><span data-ttu-id="36a5c-103">PowerBI.com risinājumu sākumlapa</span><span class="sxs-lookup"><span data-stu-id="36a5c-103">PowerBI.com solutions home page</span></span>
+# <a name="powerbicom-solutions-home-page"></a><span data-ttu-id="053c6-103">PowerBI.com risinājumu sākumlapa</span><span class="sxs-lookup"><span data-stu-id="053c6-103">PowerBI.com solutions home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="36a5c-104">Dynamics 365 for Finance and Operations vidēm ir pieejami šādi PowerBI.com risinājumi.</span><span class="sxs-lookup"><span data-stu-id="36a5c-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span>
+<span data-ttu-id="053c6-104">Dynamics 365 for Finance and Operations vidēm ir pieejami tālāk norādītie PowerBI.com risinājumi.</span><span class="sxs-lookup"><span data-stu-id="053c6-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span>
 
-## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="36a5c-105">PowerBI.com risinājumi ir pieejami Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="36a5c-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="053c6-105">PowerBI.com risinājumi ir pieejami Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="053c6-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="36a5c-106">Tālāk minētie PowerBI.com risinājumi ir pieejami LCS koplietojamo līdzekļu bibliotēkā.</span><span class="sxs-lookup"><span data-stu-id="36a5c-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="36a5c-107">Skatiet informāciju par versiju koplietojamo līdzekļu bibliotēkā, lai lejupielādētu pareizo versiju jūsu videi.</span><span class="sxs-lookup"><span data-stu-id="36a5c-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="36a5c-108">Lielākā daļa sarakstā minēto PowerBI.com risinājumu ir iegulti analītiskajās darbvietās programmas Dynamics 365 for Finance and Operations jaunākajās versijās.</span><span class="sxs-lookup"><span data-stu-id="36a5c-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="36a5c-109">Izmantojot analītiskās darbvietas, minētos risinājumus nav nepieciešams lejupielādēt no LCS koplietojamo līdzekļu bibliotēkas.</span><span class="sxs-lookup"><span data-stu-id="36a5c-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="36a5c-110">Attiecīgajos gadījumos sarakstā iekļautās tēmas norāda, kur šie PowerBI.com risinājumi ir iegulti programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36a5c-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span>
-
-- [<span data-ttu-id="36a5c-111">Faktiski pret budžetu</span><span class="sxs-lookup"><span data-stu-id="36a5c-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="36a5c-112">Skaidras naudas apskats</span><span class="sxs-lookup"><span data-stu-id="36a5c-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="36a5c-113">Atlīdzības un atvieglojumi</span><span class="sxs-lookup"><span data-stu-id="36a5c-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="36a5c-114">Izmaksu uzskaites analīze</span><span class="sxs-lookup"><span data-stu-id="36a5c-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
-- [<span data-ttu-id="36a5c-115">Kredītu un iekasēšanas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="36a5c-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="36a5c-116">Darbinieku zināšanas un attīstība</span><span class="sxs-lookup"><span data-stu-id="36a5c-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="36a5c-117">Finanšu veiktspēja</span><span class="sxs-lookup"><span data-stu-id="36a5c-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="36a5c-118">Pamatlīdzekļu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="36a5c-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="36a5c-119">Organizācijas apmācība</span><span class="sxs-lookup"><span data-stu-id="36a5c-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="36a5c-120">Prakses pārvaldnieks</span><span class="sxs-lookup"><span data-stu-id="36a5c-120">Practice manager</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="36a5c-121">Ražošanas veiktspēja</span><span class="sxs-lookup"><span data-stu-id="36a5c-121">Production performance</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="36a5c-122">Pirkšanas tēriņu analīze</span><span class="sxs-lookup"><span data-stu-id="36a5c-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
-- [<span data-ttu-id="36a5c-123">Personāla atlase</span><span class="sxs-lookup"><span data-stu-id="36a5c-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="36a5c-124">Pārdošanas un ienesīguma veiktspēja</span><span class="sxs-lookup"><span data-stu-id="36a5c-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="36a5c-125">Kreditoru maksājumi</span><span class="sxs-lookup"><span data-stu-id="36a5c-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="36a5c-126">Noliktavas veiktspēja</span><span class="sxs-lookup"><span data-stu-id="36a5c-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="36a5c-127">Darbaspēka rādītāji</span><span class="sxs-lookup"><span data-stu-id="36a5c-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
-
-## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="36a5c-128">PowerBI.com risinājumi ir pieejami pakalpojumā AppSource</span><span class="sxs-lookup"><span data-stu-id="36a5c-128">PowerBI.com solutions available from AppSource</span></span>
-
-<span data-ttu-id="36a5c-129">Tālāk minētie PowerBI.com risinājumi ir pieejami pakalpojumā [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="36a5c-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+<span data-ttu-id="053c6-106">Tālāk minētie PowerBI.com risinājumi ir pieejami LCS koplietojamo līdzekļu bibliotēkā.</span><span class="sxs-lookup"><span data-stu-id="053c6-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="053c6-107">Skatiet informāciju par versiju koplietojamo līdzekļu bibliotēkā, lai lejupielādētu pareizo versiju jūsu videi.</span><span class="sxs-lookup"><span data-stu-id="053c6-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="36a5c-130">Šie risinājumi ir novecojuši, kā dokumentēts tēmā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="36a5c-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+> <span data-ttu-id="053c6-108">Vairums tālāk esošajā sarakstā ietverto PowerBI.com risinājumu ir iegulti jaunāko Dynamics 365 for Finance and Operations versiju analītiskajās darbvietās.</span><span class="sxs-lookup"><span data-stu-id="053c6-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="053c6-109">Izmantojot analītiskās darbvietas, minētos risinājumus nav nepieciešams lejupielādēt no LCS koplietojamo līdzekļu bibliotēkas.</span><span class="sxs-lookup"><span data-stu-id="053c6-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="053c6-110">Attiecīgajos gadījumos sarakstā iekļautās tēmas norāda, kur šie PowerBI.com risinājumi ir iegulti programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="053c6-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span>
 
-- <span data-ttu-id="36a5c-131">Izmaksu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="36a5c-131">Cost management</span></span>
-- [<span data-ttu-id="36a5c-132">Finanšu veiktspēja</span><span class="sxs-lookup"><span data-stu-id="36a5c-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="36a5c-133">Mazumtirdzniecības kanāla veiktspēja </span><span class="sxs-lookup"><span data-stu-id="36a5c-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+- [<span data-ttu-id="053c6-111">Faktiski pret budžetu</span><span class="sxs-lookup"><span data-stu-id="053c6-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="053c6-112">Skaidras naudas apskats</span><span class="sxs-lookup"><span data-stu-id="053c6-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="053c6-113">Atlīdzības un atvieglojumi</span><span class="sxs-lookup"><span data-stu-id="053c6-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="053c6-114">Izmaksu uzskaites analīze</span><span class="sxs-lookup"><span data-stu-id="053c6-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
+- [<span data-ttu-id="053c6-115">Kredītu un iekasēšanas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="053c6-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="053c6-116">Darbinieku zināšanas un attīstība</span><span class="sxs-lookup"><span data-stu-id="053c6-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="053c6-117">Finanšu veiktspēja</span><span class="sxs-lookup"><span data-stu-id="053c6-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="053c6-118">Pamatlīdzekļu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="053c6-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="053c6-119">Organizācijas apmācība</span><span class="sxs-lookup"><span data-stu-id="053c6-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="053c6-120">Prakses pārvaldnieks</span><span class="sxs-lookup"><span data-stu-id="053c6-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="053c6-121">Ražošanas veiktspēja</span><span class="sxs-lookup"><span data-stu-id="053c6-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="053c6-122">Pirkšanas tēriņu analīze</span><span class="sxs-lookup"><span data-stu-id="053c6-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
+- [<span data-ttu-id="053c6-123">Personāla atlase</span><span class="sxs-lookup"><span data-stu-id="053c6-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="053c6-124">Pārdošanas un ienesīguma veiktspēja</span><span class="sxs-lookup"><span data-stu-id="053c6-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="053c6-125">Kreditoru maksājumi</span><span class="sxs-lookup"><span data-stu-id="053c6-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="053c6-126">Noliktavas veiktspēja</span><span class="sxs-lookup"><span data-stu-id="053c6-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="053c6-127">Darbaspēka rādītāji</span><span class="sxs-lookup"><span data-stu-id="053c6-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
 
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="053c6-128">Pakalpojumā AppSource pieejamie PowerBI.com risinājumi</span><span class="sxs-lookup"><span data-stu-id="053c6-128">PowerBI.com solutions available from AppSource</span></span>
+
+<span data-ttu-id="053c6-129">Pakalpojumā [Microsoft AppSource](https://appsource.microsoft.com) ir pieejami tālāk norādītie PowerBI.com risinājumi.</span><span class="sxs-lookup"><span data-stu-id="053c6-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="053c6-130">Šie risinājumi ir novecojuši, kā tas ir dokumentēts rakstā [Vietnē AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="053c6-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="053c6-131">Izmaksu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="053c6-131">Cost management</span></span>
+- [<span data-ttu-id="053c6-132">Finanšu veiktspēja</span><span class="sxs-lookup"><span data-stu-id="053c6-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="053c6-133">Mazumtirdzniecības kanāla veiktspēja </span><span class="sxs-lookup"><span data-stu-id="053c6-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)

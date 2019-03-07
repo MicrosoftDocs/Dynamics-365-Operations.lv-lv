@@ -1,13 +1,13 @@
---- 
-title: "Izmaksu elementa dimensijas kartēšana"
-description: "Izmaksu kontrolieris var izmantot šo procedūru, lai kartētu izmaksu elementa dimensiju uz izmaksu elementu dimensiju MXMF juridiskajā personā."
+---
+title: Izmaksu elementa dimensijas kartēšana
+description: Izmaksu kontrolieris var izmantot šo procedūru, lai kartētu izmaksu elementa dimensiju uz izmaksu elementu dimensiju MXMF juridiskajā personā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,33 +15,32 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 52b9f6a5b71349d404fe9621b58f58aab843a71f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308510"
 ---
-# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="2ba50-103">Izmaksu elementa dimensijas kartēšana</span><span class="sxs-lookup"><span data-stu-id="2ba50-103">Map a cost element dimension</span></span>
+# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="697d2-103">Izmaksu elementa dimensijas kartēšana</span><span class="sxs-lookup"><span data-stu-id="697d2-103">Map a cost element dimension</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2ba50-104">Izmaksu kontrolieris var izmantot šo procedūru, lai kartētu izmaksu elementa dimensiju uz izmaksu elementu dimensiju MXMF juridiskajā personā.</span><span class="sxs-lookup"><span data-stu-id="2ba50-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="2ba50-105">Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="2ba50-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="697d2-104">Izmaksu kontrolieris var izmantot šo procedūru, lai kartētu izmaksu elementa dimensiju uz izmaksu elementu dimensiju MXMF juridiskajā personā.</span><span class="sxs-lookup"><span data-stu-id="697d2-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="697d2-105">Šajā ierakstā tiek izmantots USP2 demonstrācijas datu uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="697d2-105">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="2ba50-106">Dodieties uz sadaļu Izmaksu uzskaite > Dimensijas > Izmaksu elementa dimensijas.</span><span class="sxs-lookup"><span data-stu-id="2ba50-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
-2. <span data-ttu-id="2ba50-107">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2ba50-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="2ba50-108">Šim piemēram atlasiet Izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="2ba50-108">For this example, select Cost elements.</span></span>  
-3. <span data-ttu-id="2ba50-109">Noklikšķiniet uz Dimensiju kartējumi.</span><span class="sxs-lookup"><span data-stu-id="2ba50-109">Click Dimension mappings.</span></span>
-4. <span data-ttu-id="2ba50-110">Noklikšķiniet uz Konfigurēt kartējumus no šīs dimensijas.</span><span class="sxs-lookup"><span data-stu-id="2ba50-110">Click Configure mappings from this dimension.</span></span>
-5. <span data-ttu-id="2ba50-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="2ba50-111">Click New.</span></span>
-6. <span data-ttu-id="2ba50-112">Laukā Uz dimensiju ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="2ba50-112">In the To dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="2ba50-113">Šim piemēram atlasiet MXMF izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="2ba50-113">For this example, select MXMF Cost elements.</span></span>  
-7. <span data-ttu-id="2ba50-114">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="2ba50-114">Click New.</span></span>
-8. <span data-ttu-id="2ba50-115">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="2ba50-115">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="2ba50-116">Laukā Avota dimensijas elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="2ba50-116">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="2ba50-117">Šim piemēram atlasiet dimensijas elementu 606400 Tālrunis & Faksa izdevumi.</span><span class="sxs-lookup"><span data-stu-id="2ba50-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
-10. <span data-ttu-id="2ba50-118">Laukā Mērķa dimensijas elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="2ba50-118">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="2ba50-119">Šim piemēram atlasiet dimensijas elementu 6001004 Telefono.</span><span class="sxs-lookup"><span data-stu-id="2ba50-119">For this example, select dimension member 6001004 Telefono.</span></span>  
-11. <span data-ttu-id="2ba50-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="2ba50-120">Click Save.</span></span>
-
+1. <span data-ttu-id="697d2-106">Dodieties uz sadaļu Izmaksu uzskaite > Dimensijas > Izmaksu elementa dimensijas.</span><span class="sxs-lookup"><span data-stu-id="697d2-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="697d2-107">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="697d2-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="697d2-108">Šim piemēram atlasiet Izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="697d2-108">For this example, select Cost elements.</span></span>  
+3. <span data-ttu-id="697d2-109">Noklikšķiniet uz Dimensiju kartējumi.</span><span class="sxs-lookup"><span data-stu-id="697d2-109">Click Dimension mappings.</span></span>
+4. <span data-ttu-id="697d2-110">Noklikšķiniet uz Konfigurēt kartējumus no šīs dimensijas.</span><span class="sxs-lookup"><span data-stu-id="697d2-110">Click Configure mappings from this dimension.</span></span>
+5. <span data-ttu-id="697d2-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="697d2-111">Click New.</span></span>
+6. <span data-ttu-id="697d2-112">Laukā Uz dimensiju ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="697d2-112">In the To dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="697d2-113">Šim piemēram atlasiet MXMF izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="697d2-113">For this example, select MXMF Cost elements.</span></span>  
+7. <span data-ttu-id="697d2-114">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="697d2-114">Click New.</span></span>
+8. <span data-ttu-id="697d2-115">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="697d2-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="697d2-116">Laukā Avota dimensijas elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="697d2-116">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="697d2-117">Šim piemēram atlasiet dimensijas elementu 606400 Tālrunis & Faksa izdevumi.</span><span class="sxs-lookup"><span data-stu-id="697d2-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
+10. <span data-ttu-id="697d2-118">Laukā Mērķa dimensijas elements ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="697d2-118">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="697d2-119">Šim piemēram atlasiet dimensijas elementu 6001004 Telefono.</span><span class="sxs-lookup"><span data-stu-id="697d2-119">For this example, select dimension member 6001004 Telefono.</span></span>  
+11. <span data-ttu-id="697d2-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="697d2-120">Click Save.</span></span>
 

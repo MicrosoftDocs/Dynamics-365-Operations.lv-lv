@@ -1,13 +1,13 @@
 ---
-title: "Debitoru un preču ienesīguma novērtēšana"
-description: "Šajā rakstā ir paskaidrots, kā varat izmantot atmiņā saglabāto datu un reāllaika analīzi, la piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus, izmantojot Microsoft Dynamics 365 for Retail datus."
+title: Debitoru un preču ienesīguma novērtēšana
+description: Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu informācijai par debitoru un preču ienesīgumu no Microsoft Dynamics 365 for Retail datiem, pētītu šo informāciju un gūtu ieskatus par to.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,42 +19,40 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326013"
 ---
-
-# <a name="assess-customer-and-product-profitability"></a><span data-ttu-id="322aa-103">Novērtēt debitoru un preču ienesīgumu</span><span class="sxs-lookup"><span data-stu-id="322aa-103">Assess customer and product profitability</span></span>
+# <a name="assess-customer-and-product-profitability"></a><span data-ttu-id="0d39a-103">Novērtēt debitoru un preču ienesīgumu</span><span class="sxs-lookup"><span data-stu-id="0d39a-103">Assess customer and product profitability</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="322aa-104">Šajā rakstā ir paskaidrots, kā varat izmantot atmiņā saglabāto datu un reāllaika analīzi, la piekļūtu informācijai par debitoriem un preču ienesīgumu, pētītu šo informāciju un gūtu par to ieskatus, izmantojot Microsoft Dynamics 365 for Retail datus.</span><span class="sxs-lookup"><span data-stu-id="322aa-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Retail data.</span></span>
+<span data-ttu-id="0d39a-104">Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu informācijai par debitoru un preču ienesīgumu no Microsoft Dynamics 365 for Retail datiem, pētītu šo informāciju un gūtu ieskatus par to.</span><span class="sxs-lookup"><span data-stu-id="0d39a-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Retail data.</span></span>
 
-<span data-ttu-id="322aa-105">Programmatūrā Dynamics 365 for Retail lietotāji var pētīt labāko debitoru (no 10 līdz 100) ienesīgumu dažādos organizācijas hierarhijas līmeņos, pamatojoties uz vienu no tālāk norādītajiem kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="322aa-105">As part of Dynamics 365 for Retail, users can study profitability for the top customers (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="0d39a-105">Programmā Dynamics 365 for Retail lietotāji var pētīt labāko debitoru (10–100) ienesīgumu dažādos organizācijas hierarhijas līmeņos, pamatojoties uz kādu no tālāk norādītajiem kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="0d39a-105">As part of Dynamics 365 for Retail, users can study profitability for the top customers (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
-- <span data-ttu-id="322aa-106">Pārdošanas summa</span><span class="sxs-lookup"><span data-stu-id="322aa-106">Sales amount</span></span>
-- <span data-ttu-id="322aa-107">Daudzums</span><span class="sxs-lookup"><span data-stu-id="322aa-107">Quantity</span></span>
-- <span data-ttu-id="322aa-108">Bruto peļņas norma</span><span class="sxs-lookup"><span data-stu-id="322aa-108">Gross profit margin</span></span>
-- <span data-ttu-id="322aa-109">Uzcenojuma procenti</span><span class="sxs-lookup"><span data-stu-id="322aa-109">Margin percentage</span></span>
+- <span data-ttu-id="0d39a-106">Pārdošanas summa</span><span class="sxs-lookup"><span data-stu-id="0d39a-106">Sales amount</span></span>
+- <span data-ttu-id="0d39a-107">Daudzums</span><span class="sxs-lookup"><span data-stu-id="0d39a-107">Quantity</span></span>
+- <span data-ttu-id="0d39a-108">Bruto peļņas norma</span><span class="sxs-lookup"><span data-stu-id="0d39a-108">Gross profit margin</span></span>
+- <span data-ttu-id="0d39a-109">Uzcenojuma procenti</span><span class="sxs-lookup"><span data-stu-id="0d39a-109">Margin percentage</span></span>
 
-<span data-ttu-id="322aa-110">Lai veiktu šo izvērtēšanu, var izmantot inovatīvo pārskatu **Lielākie debitori**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.</span><span class="sxs-lookup"><span data-stu-id="322aa-110">For this assessment, you can use the out-of-box **Top customers** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="0d39a-110">Lai veiktu šo izvērtēšanu, var izmantot inovatīvo pārskatu **Lielākie debitori**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.</span><span class="sxs-lookup"><span data-stu-id="0d39a-110">For this assessment, you can use the out-of-box **Top customers** report, which you can open from any of the following locations:</span></span>
 
-- <span data-ttu-id="322aa-111">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Lielāko debitoru pārskats**</span><span class="sxs-lookup"><span data-stu-id="322aa-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top customers report**</span></span>
-- <span data-ttu-id="322aa-112">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Lielāko debitoru pārskats**</span><span class="sxs-lookup"><span data-stu-id="322aa-112">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top customers report**</span></span>
+- <span data-ttu-id="0d39a-111">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Lielāko debitoru pārskats**</span><span class="sxs-lookup"><span data-stu-id="0d39a-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top customers report**</span></span>
+- <span data-ttu-id="0d39a-112">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Lielāko debitoru pārskats**</span><span class="sxs-lookup"><span data-stu-id="0d39a-112">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top customers report**</span></span>
 
-<span data-ttu-id="322aa-113">Līdzīgi lietotāji var pētīt augstākās kvalitātes preču (10–100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vēra tālāk norādītos kritērijus.</span><span class="sxs-lookup"><span data-stu-id="322aa-113">Likewise, users can study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="0d39a-113">Līdzīgi lietotāji var pētīt augstākās kvalitātes preču (10–100) rentabilitāti dažādos organizācijas hierarhijas līmeņos, ņemot vēra tālāk norādītos kritērijus.</span><span class="sxs-lookup"><span data-stu-id="0d39a-113">Likewise, users can study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
-- <span data-ttu-id="322aa-114">Pārdošanas summa</span><span class="sxs-lookup"><span data-stu-id="322aa-114">Sales amount</span></span>
-- <span data-ttu-id="322aa-115">Daudzums</span><span class="sxs-lookup"><span data-stu-id="322aa-115">Quantity</span></span>
-- <span data-ttu-id="322aa-116">Bruto peļņas norma</span><span class="sxs-lookup"><span data-stu-id="322aa-116">Gross profit margin</span></span>
-- <span data-ttu-id="322aa-117">Uzcenojuma procenti</span><span class="sxs-lookup"><span data-stu-id="322aa-117">Margin percentage</span></span>
+- <span data-ttu-id="0d39a-114">Pārdošanas summa</span><span class="sxs-lookup"><span data-stu-id="0d39a-114">Sales amount</span></span>
+- <span data-ttu-id="0d39a-115">Daudzums</span><span class="sxs-lookup"><span data-stu-id="0d39a-115">Quantity</span></span>
+- <span data-ttu-id="0d39a-116">Bruto peļņas norma</span><span class="sxs-lookup"><span data-stu-id="0d39a-116">Gross profit margin</span></span>
+- <span data-ttu-id="0d39a-117">Uzcenojuma procenti</span><span class="sxs-lookup"><span data-stu-id="0d39a-117">Margin percentage</span></span>
 
-<span data-ttu-id="322aa-118">Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.</span><span class="sxs-lookup"><span data-stu-id="322aa-118">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="0d39a-118">Lai veiktu šo izvērtēšanu, var izmantot standarta komplektācijā iekļauto pārskatu **Labākās preces**, kuru var atvērt, izmantojot vienu no tālāk norādītajiem ceļiem.</span><span class="sxs-lookup"><span data-stu-id="0d39a-118">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
-- <span data-ttu-id="322aa-119">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="322aa-119">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="322aa-120">Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="322aa-120">**Category and product management** workspace &gt; **Retail** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="322aa-121">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="322aa-121">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
-
+- <span data-ttu-id="0d39a-119">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="0d39a-119">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="0d39a-120">Darbvieta **Kategorijas un preču pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Preces un kategorijas** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="0d39a-120">**Category and product management** workspace &gt; **Retail** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="0d39a-121">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Labāko preču pārskats**</span><span class="sxs-lookup"><span data-stu-id="0d39a-121">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>

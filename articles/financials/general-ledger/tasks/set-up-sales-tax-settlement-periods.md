@@ -1,13 +1,13 @@
---- 
-title: "Iestatīt PVN apmaksas periodus"
-description: "PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā."
+---
+title: Iestatīt PVN apmaksas periodus
+description: PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,49 +16,48 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326197"
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="11a17-103">Iestatīt PVN apmaksas periodus</span><span class="sxs-lookup"><span data-stu-id="11a17-103">Set up sales tax settlement periods</span></span>
+# <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="df0ff-103">Iestatīt PVN apmaksas periodus</span><span class="sxs-lookup"><span data-stu-id="df0ff-103">Set up sales tax settlement periods</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="11a17-104">PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā.</span><span class="sxs-lookup"><span data-stu-id="11a17-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="11a17-105">Nomaksas procesu iespējams palaist maksājumu periodam, noteiktam datumu intervālam.</span><span class="sxs-lookup"><span data-stu-id="11a17-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="11a17-106">Tiks segti visi nodokļu kodi, kas saistīti ar apmaksas periodu.</span><span class="sxs-lookup"><span data-stu-id="11a17-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="11a17-107">Atkarībā no saistītās PVN iestādes iestatījumiem, nodokļu parāds tiek grāmatots vai nu kreditoram vai Virsgrāmatas kontā.</span><span class="sxs-lookup"><span data-stu-id="11a17-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
+<span data-ttu-id="df0ff-104">PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā.</span><span class="sxs-lookup"><span data-stu-id="df0ff-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="df0ff-105">Nomaksas procesu iespējams palaist maksājumu periodam, noteiktam datumu intervālam.</span><span class="sxs-lookup"><span data-stu-id="df0ff-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="df0ff-106">Tiks segti visi nodokļu kodi, kas saistīti ar apmaksas periodu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="df0ff-107">Atkarībā no saistītās PVN iestādes iestatījumiem, nodokļu parāds tiek grāmatots vai nu kreditoram vai Virsgrāmatas kontā.</span><span class="sxs-lookup"><span data-stu-id="df0ff-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
 
 
 
-<span data-ttu-id="11a17-108">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="11a17-108">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="df0ff-108">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="df0ff-108">This task uses the USMF demo company.</span></span>
 
 
 
-1. <span data-ttu-id="11a17-109">Pārejiet uz sadaļu Nodokļi > Netiešie nodokļi > PVN > PVN apmaksas periodi.</span><span class="sxs-lookup"><span data-stu-id="11a17-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
-2. <span data-ttu-id="11a17-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="11a17-110">Click New.</span></span>
-3. <span data-ttu-id="11a17-111">Ierakstiet vērtību laukā Apmaksas periods.</span><span class="sxs-lookup"><span data-stu-id="11a17-111">In the Settlement period field, type a value.</span></span>
-4. <span data-ttu-id="11a17-112">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="11a17-112">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="11a17-113">Laukā Iestāde atlasiet PVN iestādi, kas saņem apmaksas perioda pārskatus un maksājumus.</span><span class="sxs-lookup"><span data-stu-id="11a17-113">In the Authority field, select the sales tax authority that receives the reports and the payments that are created for the settlement period.</span></span>
-6. <span data-ttu-id="11a17-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="11a17-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="11a17-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="11a17-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="11a17-116">Laukā Apmaksas nosacījumi noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="11a17-116">In the Terms of payment field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="11a17-117">Saistītā nodokļu iestāde var tikt iestatīta kā kreditors un PVN apmaksai tiek izveidots atvērts kreditora rēķins.</span><span class="sxs-lookup"><span data-stu-id="11a17-117">The related Sales tax authority can be set up as a vendor and the Sales tax settlement will create an open vendor invoice.</span></span> <span data-ttu-id="11a17-118">Apmaksas nosacījumi norāda atvērta kreditora rēķina apmaksas datumu.</span><span class="sxs-lookup"><span data-stu-id="11a17-118">The Terms of payment defines the Due date for the open vendor invoice.</span></span>  
-9. <span data-ttu-id="11a17-119">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="11a17-119">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="11a17-120">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="11a17-120">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="11a17-121">Atlasiet apmaksas perioda intervālu veidu.</span><span class="sxs-lookup"><span data-stu-id="11a17-121">Select a type for the settlement period intervals.</span></span>
-12. <span data-ttu-id="11a17-122">Ievadiet perioda intervāla vienību skaitu periodā.</span><span class="sxs-lookup"><span data-stu-id="11a17-122">Enter the number of Period interval units per period.</span></span> <span data-ttu-id="11a17-123">Piemēram, ceturksnī ir 3 mēneši.</span><span class="sxs-lookup"><span data-stu-id="11a17-123">For example, a quarter has 3 months.</span></span>
-13. <span data-ttu-id="11a17-124">Atlasiet vai notīriet izvēles rūtiņu Izmantot pakešveida apstrādi PVN apmaksai.</span><span class="sxs-lookup"><span data-stu-id="11a17-124">Select or clear the Use batch processing for sales tax settlement check box.</span></span>
-    * <span data-ttu-id="11a17-125">Apmaksas process apmaksas periodam var tikt apstrādāts fonā kā pakešuzdevums.</span><span class="sxs-lookup"><span data-stu-id="11a17-125">The settlement process for the settlement period can be processed as batch job in the background.</span></span> <span data-ttu-id="11a17-126">Tas ir ieteicams gadījumos, kad vienā laika periodā ir liels skaits nodokļu transakciju.</span><span class="sxs-lookup"><span data-stu-id="11a17-126">This is recommended for a large number of tax transactions within a period interval.</span></span>  
-14. <span data-ttu-id="11a17-127">Atzīmējiet izvēles rūtiņu Novērst korespondējošu nodokļu transakciju ģenerēšanu vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="11a17-127">Select or clear the Prevent generating offset tax transactions check box.</span></span>
-    * <span data-ttu-id="11a17-128">Pēc noklusējuma sistēma ģenerē korespondējošās nodokļu transakcijas, kamēr notiek segšanas process, un tas var radīt veiktspējas problēmas, ja kādā periodā ir liels skaits nodokļu transakciju.</span><span class="sxs-lookup"><span data-stu-id="11a17-128">By default, the system generates offset tax transactions during the settlement process, which cause can performance issue if there are a large number of tax transactions within a period interval.</span></span> <span data-ttu-id="11a17-129">Atzīmējiet šo izvēles rūtiņu, lai novērstu korespondējošu nodokļu transakciju ģenerēšanu.</span><span class="sxs-lookup"><span data-stu-id="11a17-129">Select this check box to prevent generating offset tax transactions.</span></span>
-15. <span data-ttu-id="11a17-130">Izvērsiet cilni Perioda intervāli.</span><span class="sxs-lookup"><span data-stu-id="11a17-130">Expand the Period intervals tab.</span></span>
-16. <span data-ttu-id="11a17-131">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="11a17-131">Click Add.</span></span>
-17. <span data-ttu-id="11a17-132">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="11a17-132">In the list, mark the selected row.</span></span>
-18. <span data-ttu-id="11a17-133">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="11a17-133">In the From date field, enter a date.</span></span>
-19. <span data-ttu-id="11a17-134">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="11a17-134">In the To date field, enter a date.</span></span>
-20. <span data-ttu-id="11a17-135">Noklikšķiniet uz Jauns perioda intervāls.</span><span class="sxs-lookup"><span data-stu-id="11a17-135">Click New period interval.</span></span>
-    * <span data-ttu-id="11a17-136">Kad pirmā perioda intervāls ir ievadīts, jaunus periodus var izveidot automātiski.</span><span class="sxs-lookup"><span data-stu-id="11a17-136">Once the first period interval has been entered, new periods can be created automatically.</span></span> <span data-ttu-id="11a17-137">Pēc nepieciešamības varat atgriezties un pievienot jaunus periodu intervālus.</span><span class="sxs-lookup"><span data-stu-id="11a17-137">You can come back and add new period intervals as required.</span></span>  
-21. <span data-ttu-id="11a17-138">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="11a17-138">Close the page.</span></span>
-
+1. <span data-ttu-id="df0ff-109">Pārejiet uz sadaļu Nodokļi > Netiešie nodokļi > PVN > PVN apmaksas periodi.</span><span class="sxs-lookup"><span data-stu-id="df0ff-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+2. <span data-ttu-id="df0ff-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="df0ff-110">Click New.</span></span>
+3. <span data-ttu-id="df0ff-111">Ierakstiet vērtību laukā Apmaksas periods.</span><span class="sxs-lookup"><span data-stu-id="df0ff-111">In the Settlement period field, type a value.</span></span>
+4. <span data-ttu-id="df0ff-112">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="df0ff-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="df0ff-113">Laukā Iestāde atlasiet PVN iestādi, kas saņem apmaksas perioda pārskatus un maksājumus.</span><span class="sxs-lookup"><span data-stu-id="df0ff-113">In the Authority field, select the sales tax authority that receives the reports and the payments that are created for the settlement period.</span></span>
+6. <span data-ttu-id="df0ff-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="df0ff-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="df0ff-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="df0ff-116">Laukā Apmaksas nosacījumi noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-116">In the Terms of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="df0ff-117">Saistītā nodokļu iestāde var tikt iestatīta kā kreditors un PVN apmaksai tiek izveidots atvērts kreditora rēķins.</span><span class="sxs-lookup"><span data-stu-id="df0ff-117">The related Sales tax authority can be set up as a vendor and the Sales tax settlement will create an open vendor invoice.</span></span> <span data-ttu-id="df0ff-118">Apmaksas nosacījumi norāda atvērta kreditora rēķina apmaksas datumu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-118">The Terms of payment defines the Due date for the open vendor invoice.</span></span>  
+9. <span data-ttu-id="df0ff-119">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-119">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="df0ff-120">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="df0ff-120">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="df0ff-121">Atlasiet apmaksas perioda intervālu veidu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-121">Select a type for the settlement period intervals.</span></span>
+12. <span data-ttu-id="df0ff-122">Ievadiet perioda intervāla vienību skaitu periodā.</span><span class="sxs-lookup"><span data-stu-id="df0ff-122">Enter the number of Period interval units per period.</span></span> <span data-ttu-id="df0ff-123">Piemēram, ceturksnī ir 3 mēneši.</span><span class="sxs-lookup"><span data-stu-id="df0ff-123">For example, a quarter has 3 months.</span></span>
+13. <span data-ttu-id="df0ff-124">Atlasiet vai notīriet izvēles rūtiņu Izmantot pakešveida apstrādi PVN apmaksai.</span><span class="sxs-lookup"><span data-stu-id="df0ff-124">Select or clear the Use batch processing for sales tax settlement check box.</span></span>
+    * <span data-ttu-id="df0ff-125">Apmaksas process apmaksas periodam var tikt apstrādāts fonā kā pakešuzdevums.</span><span class="sxs-lookup"><span data-stu-id="df0ff-125">The settlement process for the settlement period can be processed as batch job in the background.</span></span> <span data-ttu-id="df0ff-126">Tas ir ieteicams gadījumos, kad vienā laika periodā ir liels skaits nodokļu transakciju.</span><span class="sxs-lookup"><span data-stu-id="df0ff-126">This is recommended for a large number of tax transactions within a period interval.</span></span>  
+14. <span data-ttu-id="df0ff-127">Atzīmējiet izvēles rūtiņu Novērst korespondējošu nodokļu transakciju ģenerēšanu vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="df0ff-127">Select or clear the Prevent generating offset tax transactions check box.</span></span>
+    * <span data-ttu-id="df0ff-128">Pēc noklusējuma sistēma ģenerē korespondējošās nodokļu transakcijas, kamēr notiek segšanas process, un tas var radīt veiktspējas problēmas, ja kādā periodā ir liels skaits nodokļu transakciju.</span><span class="sxs-lookup"><span data-stu-id="df0ff-128">By default, the system generates offset tax transactions during the settlement process, which cause can performance issue if there are a large number of tax transactions within a period interval.</span></span> <span data-ttu-id="df0ff-129">Atzīmējiet šo izvēles rūtiņu, lai novērstu korespondējošu nodokļu transakciju ģenerēšanu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-129">Select this check box to prevent generating offset tax transactions.</span></span>
+15. <span data-ttu-id="df0ff-130">Izvērsiet cilni Perioda intervāli.</span><span class="sxs-lookup"><span data-stu-id="df0ff-130">Expand the Period intervals tab.</span></span>
+16. <span data-ttu-id="df0ff-131">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="df0ff-131">Click Add.</span></span>
+17. <span data-ttu-id="df0ff-132">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-132">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="df0ff-133">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="df0ff-133">In the From date field, enter a date.</span></span>
+19. <span data-ttu-id="df0ff-134">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-134">In the To date field, enter a date.</span></span>
+20. <span data-ttu-id="df0ff-135">Noklikšķiniet uz Jauns perioda intervāls.</span><span class="sxs-lookup"><span data-stu-id="df0ff-135">Click New period interval.</span></span>
+    * <span data-ttu-id="df0ff-136">Kad pirmā perioda intervāls ir ievadīts, jaunus periodus var izveidot automātiski.</span><span class="sxs-lookup"><span data-stu-id="df0ff-136">Once the first period interval has been entered, new periods can be created automatically.</span></span> <span data-ttu-id="df0ff-137">Pēc nepieciešamības varat atgriezties un pievienot jaunus periodu intervālus.</span><span class="sxs-lookup"><span data-stu-id="df0ff-137">You can come back and add new period intervals as required.</span></span>  
+21. <span data-ttu-id="df0ff-138">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="df0ff-138">Close the page.</span></span>
 

@@ -1,13 +1,13 @@
 ---
-title: "Talent vižu noņemšana"
-description: "Šajā tēmā ir detalizēti aprakstīta Microsoft Dynamics 365 for Talent izmēģinājuma vai ražošanas vides noņemšanas procedūra."
+title: Talent vižu noņemšana
+description: Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,61 +17,60 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305397"
 ---
-# <a name="remove-talent-environments"></a><span data-ttu-id="748ac-103">Talent vižu noņemšana</span><span class="sxs-lookup"><span data-stu-id="748ac-103">Remove Talent environments</span></span>
+# <a name="remove-talent-environments"></a><span data-ttu-id="a387b-103">Talent vides noņemšana</span><span class="sxs-lookup"><span data-stu-id="a387b-103">Remove Talent environments</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="748ac-104">Šajā tēmā ir detalizēti aprakstīta Microsoft Dynamics 365 for Talent izmēģinājuma vai ražošanas vides noņemšanas procedūra.</span><span class="sxs-lookup"><span data-stu-id="748ac-104">This topic walks you through the process of removing a test drive or production environment for Microsoft Dynamics 365 for Talent.</span></span>
+<span data-ttu-id="a387b-104">Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="a387b-104">This topic walks you through the process of removing a test drive or production environment for Microsoft Dynamics 365 for Talent.</span></span>
 
-## <a name="removing-a-test-drive-environment"></a><span data-ttu-id="748ac-105">Izmēģinājuma vides noņemšana</span><span class="sxs-lookup"><span data-stu-id="748ac-105">Removing a test drive environment</span></span>
+## <a name="removing-a-test-drive-environment"></a><span data-ttu-id="a387b-105">Izmēģinājuma vides noņemšana</span><span class="sxs-lookup"><span data-stu-id="a387b-105">Removing a test drive environment</span></span>
 
-<span data-ttu-id="748ac-106">Talent izmēģinājuma vides tiek nodrošinātas, izmantojot 60 dienu derīguma termiņa politiku.</span><span class="sxs-lookup"><span data-stu-id="748ac-106">Talent test drives are provisioned with a 60-day expiration policy.</span></span> <span data-ttu-id="748ac-107">Taču izmēģinājuma vides īpašnieki var ātrāk beigt izmēģinājumu, veicot tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="748ac-107">However, owners of test drive environments have the option to end their trial early by completing the following steps.</span></span> 
+<span data-ttu-id="a387b-106">Talent izmēģinājuma vides tiek nodrošinātas, izmantojot 60 dienu derīguma termiņa politiku.</span><span class="sxs-lookup"><span data-stu-id="a387b-106">Talent test drives are provisioned with a 60-day expiration policy.</span></span> <span data-ttu-id="a387b-107">Taču izmēģinājuma vides īpašnieki var ātrāk beigt izmēģinājumu, veicot tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="a387b-107">However, owners of test drive environments have the option to end their trial early by completing the following steps.</span></span> 
 
-1. <span data-ttu-id="748ac-108">Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="748ac-108">Navigate to the [PowerApps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
-2. <span data-ttu-id="748ac-109">Atlasiet **Vides**.</span><span class="sxs-lookup"><span data-stu-id="748ac-109">Select **Environments**.</span></span>
-3. <span data-ttu-id="748ac-110">Atlasiet izmēģinājuma vidi, kuras nosaukuma formāts līdzinās šim: TestDrive — alias@domain.</span><span class="sxs-lookup"><span data-stu-id="748ac-110">Select the test drive environment, which has a naming pattern similar to this: TestDrive - alias@domain</span></span>
-4. <span data-ttu-id="748ac-111">Atlasiet **Dzēst** un apstipriniet dzēšanu.</span><span class="sxs-lookup"><span data-stu-id="748ac-111">Select **Delete** and confirm the decision.</span></span> 
+1. <span data-ttu-id="a387b-108">Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="a387b-108">Navigate to the [PowerApps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
+2. <span data-ttu-id="a387b-109">Atlasiet **Vides**.</span><span class="sxs-lookup"><span data-stu-id="a387b-109">Select **Environments**.</span></span>
+3. <span data-ttu-id="a387b-110">Atlasiet izmēģinājuma vidi, kuras nosaukuma formāts līdzinās šim: TestDrive — aizstājvārds@domēns.</span><span class="sxs-lookup"><span data-stu-id="a387b-110">Select the test drive environment, which has a naming pattern similar to this: TestDrive - alias@domain</span></span>
+4. <span data-ttu-id="a387b-111">Atlasiet **Dzēst** un apstipriniet dzēšanu.</span><span class="sxs-lookup"><span data-stu-id="a387b-111">Select **Delete** and confirm the decision.</span></span> 
 
-<span data-ttu-id="748ac-112">Esošā izmēģinājuma vide tiek noņemta.</span><span class="sxs-lookup"><span data-stu-id="748ac-112">The existing test drive environment will be removed.</span></span> <span data-ttu-id="748ac-113">Kad tā ir noņemta, jūs varat reģistrēties jaunas izmēģinājuma vides saņemšanai.</span><span class="sxs-lookup"><span data-stu-id="748ac-113">When it is removed, you can sign up for a new test drive environment.</span></span> 
+<span data-ttu-id="a387b-112">Esošā izmēģinājuma vide tiek noņemta.</span><span class="sxs-lookup"><span data-stu-id="a387b-112">The existing test drive environment will be removed.</span></span> <span data-ttu-id="a387b-113">Kad tā ir noņemta, jūs varat reģistrēties jaunas izmēģinājuma vides saņemšanai.</span><span class="sxs-lookup"><span data-stu-id="a387b-113">When it is removed, you can sign up for a new test drive environment.</span></span> 
 
-## <a name="removing-a-production-environment"></a><span data-ttu-id="748ac-114">Ražošanas vides noņemšana</span><span class="sxs-lookup"><span data-stu-id="748ac-114">Removing a production environment</span></span>
+## <a name="removing-a-production-environment"></a><span data-ttu-id="a387b-114">Ražošanas vides noņemšana</span><span class="sxs-lookup"><span data-stu-id="a387b-114">Removing a production environment</span></span>
 
-<span data-ttu-id="748ac-115">Šajā tēmā tiek pieņemts, ka esat iegādājies programmatūru Talent, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu.</span><span class="sxs-lookup"><span data-stu-id="748ac-115">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or an enterprise architecture (EA) agreement.</span></span> 
+<span data-ttu-id="a387b-115">Šajā tēmā tiek pieņemts, ka esat iegādājies programmatūru Talent, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu.</span><span class="sxs-lookup"><span data-stu-id="a387b-115">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or an enterprise architecture (EA) agreement.</span></span> 
 
-<span data-ttu-id="748ac-116">Tā kā katra Talent vide ir ietverta atsevišķā PowerApps vidē, ir pieejamas divas iespējas.</span><span class="sxs-lookup"><span data-stu-id="748ac-116">Since a single Talent environment is “contained” within a single PowerApps environment, there are two options to consider.</span></span> <span data-ttu-id="748ac-117">Pirmā iespēja ietver visas PowerApps vides noņemšanu, bet otrā iespēja ietver tikai Talent vides noņemšanu.</span><span class="sxs-lookup"><span data-stu-id="748ac-117">The first option involves removing the entire PowerApps environment; the second option involves removing only Talent.</span></span> <span data-ttu-id="748ac-118">Pirmo iespēju ir ieteicams izvēlēties gadījumā, ja esat izveidojis PowerApps vidi tikai Talent nodrošināšanai un esat tikko sācis ieviešanu vai vēl nav izveidota neviena integrācija.</span><span class="sxs-lookup"><span data-stu-id="748ac-118">The first option is preferred when you have created a PowerApps environment expressly for the purpose of provisioning Talent, and you've just begun implementation, or you don’t have any established integrations.</span></span> <span data-ttu-id="748ac-119">Otrā iespēja ir piemērota gadījumā, ja jums ir izveidota PowerApps vide ar bagātīgiem datiem, kas ir saistīti ar PowerApps programmām un plūsmām.</span><span class="sxs-lookup"><span data-stu-id="748ac-119">The second option is appropriate when you have an established PowerApps environment populated with rich data that's leveraged in PowerApps and Flows.</span></span>
+<span data-ttu-id="a387b-116">Tā kā katra Talent vide ir ietverta atsevišķā PowerApps vidē, ir pieejamas divas iespējas.</span><span class="sxs-lookup"><span data-stu-id="a387b-116">Since a single Talent environment is “contained” within a single PowerApps environment, there are two options to consider.</span></span> <span data-ttu-id="a387b-117">Pirmā iespēja ietver visas PowerApps vides noņemšanu, bet otrā iespēja ietver tikai Talent vides noņemšanu.</span><span class="sxs-lookup"><span data-stu-id="a387b-117">The first option involves removing the entire PowerApps environment; the second option involves removing only Talent.</span></span> <span data-ttu-id="a387b-118">Pirmo iespēju ir ieteicams izvēlēties gadījumā, ja esat izveidojis PowerApps vidi tikai Talent nodrošināšanai un esat tikko sācis ieviešanu vai vēl nav izveidota neviena integrācija.</span><span class="sxs-lookup"><span data-stu-id="a387b-118">The first option is preferred when you have created a PowerApps environment expressly for the purpose of provisioning Talent, and you've just begun implementation, or you don’t have any established integrations.</span></span> <span data-ttu-id="a387b-119">Otrā iespēja ir piemērota gadījumā, ja jums ir izveidota PowerApps vide ar bagātīgiem datiem, kas ir saistīti ar PowerApps programmām un plūsmām.</span><span class="sxs-lookup"><span data-stu-id="a387b-119">The second option is appropriate when you have an established PowerApps environment populated with rich data that's leveraged in PowerApps and Flows.</span></span>
 
 > [!Important]
-> <span data-ttu-id="748ac-120">Pirms PowerApps vides noņemšanas pārliecinieties, vai tā netiek izmantota bagātīgu datu integrācijai ārpus Talent tvēruma.</span><span class="sxs-lookup"><span data-stu-id="748ac-120">Before removing the PowerApps environment, ensure it is not being used for rich data integrations outside the scope of Talent.</span></span> <span data-ttu-id="748ac-121">Ņemiet arī vērā, ka noklusējuma PowerApps vides nevar noņemt.</span><span class="sxs-lookup"><span data-stu-id="748ac-121">Also note that the default PowerApps environments cannot be removed.</span></span> 
+> <span data-ttu-id="a387b-120">Pirms PowerApps vides noņemšanas pārliecinieties, vai tā netiek izmantota bagātīgu datu integrācijai ārpus Talent tvēruma.</span><span class="sxs-lookup"><span data-stu-id="a387b-120">Before removing the PowerApps environment, ensure it is not being used for rich data integrations outside the scope of Talent.</span></span> <span data-ttu-id="a387b-121">Ņemiet arī vērā, ka noklusējuma PowerApps vides nevar noņemt.</span><span class="sxs-lookup"><span data-stu-id="a387b-121">Also note that the default PowerApps environments cannot be removed.</span></span> 
 
-<span data-ttu-id="748ac-122">Lai noņemtu visu PowerApps vidi, tostarp Talent vidi un saistītās programmas un plūsmas, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="748ac-122">To remove the entire PowerApps environment, including Talent and the associated Apps and Flows:</span></span>
+<span data-ttu-id="a387b-122">Lai noņemtu visu PowerApps vidi, tostarp Talent vidi un saistītās programmas un plūsmas, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="a387b-122">To remove the entire PowerApps environment, including Talent and the associated Apps and Flows:</span></span>
 
-1. <span data-ttu-id="748ac-123">Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="748ac-123">Navigate to the [PowerApps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
-2. <span data-ttu-id="748ac-124">Atlasiet **Vides**.</span><span class="sxs-lookup"><span data-stu-id="748ac-124">Select **Environments**.</span></span>
-3. <span data-ttu-id="748ac-125">Atlasiet noņemamo vidi.</span><span class="sxs-lookup"><span data-stu-id="748ac-125">Select the environment to be removed.</span></span>
-4. <span data-ttu-id="748ac-126">Atlasiet **Dzēst** un apstipriniet dzēšanu.</span><span class="sxs-lookup"><span data-stu-id="748ac-126">Select **Delete** and confirm the decision.</span></span> 
-5. <span data-ttu-id="748ac-127">Uzgaidiet, līdz ir pabeigta dzēšana.</span><span class="sxs-lookup"><span data-stu-id="748ac-127">Wait until the deletion is complete.</span></span>
-6. <span data-ttu-id="748ac-128">Pierakstieties pakalpojumā [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS), izmantojot kontu, ko izmantojāt, lai abonētu programmatūru Talent.</span><span class="sxs-lookup"><span data-stu-id="748ac-128">Sign in to [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS) using the account that you used to subscribe to Talent.</span></span> 
-7. <span data-ttu-id="748ac-129">Atlasiet Talent projektu, kurā ir ietverta vide.</span><span class="sxs-lookup"><span data-stu-id="748ac-129">Select the Talent Project that contains the environment.</span></span> 
-8. <span data-ttu-id="748ac-130">LCS projektā atlasiet elementu **Talent programmas pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="748ac-130">In your LCS project, select the **Talent App Management** tile.</span></span> 
-9. <span data-ttu-id="748ac-131">Atlasiet noņemamo instanci.</span><span class="sxs-lookup"><span data-stu-id="748ac-131">Select the instance to remove.</span></span> 
-10. <span data-ttu-id="748ac-132">Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu.</span><span class="sxs-lookup"><span data-stu-id="748ac-132">Select **Remove instance** and confirm your decision.</span></span>  
+1. <span data-ttu-id="a387b-123">Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="a387b-123">Navigate to the [PowerApps Admin center](https://admin.businessplatform.microsoft.com/).</span></span>
+2. <span data-ttu-id="a387b-124">Atlasiet **Vides**.</span><span class="sxs-lookup"><span data-stu-id="a387b-124">Select **Environments**.</span></span>
+3. <span data-ttu-id="a387b-125">Atlasiet noņemamo vidi.</span><span class="sxs-lookup"><span data-stu-id="a387b-125">Select the environment to be removed.</span></span>
+4. <span data-ttu-id="a387b-126">Atlasiet **Dzēst** un apstipriniet dzēšanu.</span><span class="sxs-lookup"><span data-stu-id="a387b-126">Select **Delete** and confirm the decision.</span></span> 
+5. <span data-ttu-id="a387b-127">Uzgaidiet, līdz ir pabeigta dzēšana.</span><span class="sxs-lookup"><span data-stu-id="a387b-127">Wait until the deletion is complete.</span></span>
+6. <span data-ttu-id="a387b-128">Pierakstieties pakalpojumā [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS), izmantojot kontu, ko izmantojāt, lai abonētu programmatūru Talent.</span><span class="sxs-lookup"><span data-stu-id="a387b-128">Sign in to [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS) using the account that you used to subscribe to Talent.</span></span> 
+7. <span data-ttu-id="a387b-129">Atlasiet Talent projektu, kurā ir ietverta vide.</span><span class="sxs-lookup"><span data-stu-id="a387b-129">Select the Talent Project that contains the environment.</span></span> 
+8. <span data-ttu-id="a387b-130">LCS projektā atlasiet elementu **Talent programmas pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="a387b-130">In your LCS project, select the **Talent App Management** tile.</span></span> 
+9. <span data-ttu-id="a387b-131">Atlasiet noņemamo instanci.</span><span class="sxs-lookup"><span data-stu-id="a387b-131">Select the instance to remove.</span></span> 
+10. <span data-ttu-id="a387b-132">Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu.</span><span class="sxs-lookup"><span data-stu-id="a387b-132">Select **Remove instance** and confirm your decision.</span></span>  
 
-<span data-ttu-id="748ac-133">Lai noņemtu Talent vidi no esošas PowerApps vides, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="748ac-133">To remove a Talent environment from an existing PowerApps environment, complete the following steps.</span></span> <span data-ttu-id="748ac-134">Ņemiet vērā, ka nepieciešamība sazināties ar atbalsta dienestu un Talent DevOps darba grupu ir pagaidu prasība, kas ir jāizpilda, līdz šis līdzeklis tiks tiešā veidā iespējots LCS.</span><span class="sxs-lookup"><span data-stu-id="748ac-134">Note that the need to involve support and contact the Talent DevOps team is temporary until this feature is enabled directly in LCS.</span></span>
+<span data-ttu-id="a387b-133">Lai noņemtu Talent vidi no esošas PowerApps vides, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="a387b-133">To remove a Talent environment from an existing PowerApps environment, complete the following steps.</span></span> <span data-ttu-id="a387b-134">Ņemiet vērā, ka nepieciešamība sazināties ar atbalsta dienestu un Talent DevOps darba grupu ir pagaidu prasība, kas ir jāizpilda, līdz šis līdzeklis tiks tiešā veidā iespējots LCS.</span><span class="sxs-lookup"><span data-stu-id="a387b-134">Note that the need to involve support and contact the Talent DevOps team is temporary until this feature is enabled directly in LCS.</span></span>
 
-1. <span data-ttu-id="748ac-135">Sazinieties ar atbalsta dienestu, lai iesniegtu noņemšanas pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="748ac-135">Contact Support to initiate a removal request.</span></span>
-2. <span data-ttu-id="748ac-136">Atbalsta dienesta darba grupa iesniedz noņemšanas pieprasījumu Talent DevOps darba grupai.</span><span class="sxs-lookup"><span data-stu-id="748ac-136">The Support team will initiate a removal request with the Talent DevOps team.</span></span> 
-3. <span data-ttu-id="748ac-137">Turpiniet darbu, kad saņemat paziņojumu par vides noņemšanu.</span><span class="sxs-lookup"><span data-stu-id="748ac-137">Continue after you receive word that the environment has been removed.</span></span>
-4.  <span data-ttu-id="748ac-138">Pierakstieties pakalpojumā LCS, izmantojot to pašu kontu, ko izmantojāt, lai abonētu Talent.</span><span class="sxs-lookup"><span data-stu-id="748ac-138">Sign in to LCS using the account that you used to subscribe to Talent.</span></span> 
-5. <span data-ttu-id="748ac-139">Atlasiet Talent projektu, kurā ir ietverta vide.</span><span class="sxs-lookup"><span data-stu-id="748ac-139">Select the Talent project that contains the environment.</span></span> 
-6. <span data-ttu-id="748ac-140">LCS projektā atlasiet elementu **Talent programmas pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="748ac-140">In your LCS project, select the **Talent App Management** tile.</span></span> 
-7. <span data-ttu-id="748ac-141">Atlasiet noņemamo instanci, kam ir jānorāda izvietošanas statuss **Neizdevās**.</span><span class="sxs-lookup"><span data-stu-id="748ac-141">Select the instance you would like to remove, which should be marked with a Deployment status of **Failed**.</span></span>
-8. <span data-ttu-id="748ac-142">Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu.</span><span class="sxs-lookup"><span data-stu-id="748ac-142">Select **Remove instance** and confirm your decision.</span></span> 
-
+1. <span data-ttu-id="a387b-135">Sazinieties ar atbalsta dienestu, lai iesniegtu noņemšanas pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="a387b-135">Contact Support to initiate a removal request.</span></span>
+2. <span data-ttu-id="a387b-136">Atbalsta dienesta darba grupa iesniedz noņemšanas pieprasījumu Talent DevOps darba grupai.</span><span class="sxs-lookup"><span data-stu-id="a387b-136">The Support team will initiate a removal request with the Talent DevOps team.</span></span> 
+3. <span data-ttu-id="a387b-137">Turpiniet darbu, kad saņemat paziņojumu par vides noņemšanu.</span><span class="sxs-lookup"><span data-stu-id="a387b-137">Continue after you receive word that the environment has been removed.</span></span>
+4.  <span data-ttu-id="a387b-138">Pierakstieties pakalpojumā LCS, izmantojot to pašu kontu, ko izmantojāt, lai abonētu Talent.</span><span class="sxs-lookup"><span data-stu-id="a387b-138">Sign in to LCS using the account that you used to subscribe to Talent.</span></span> 
+5. <span data-ttu-id="a387b-139">Atlasiet Talent projektu, kurā ir ietverta vide.</span><span class="sxs-lookup"><span data-stu-id="a387b-139">Select the Talent project that contains the environment.</span></span> 
+6. <span data-ttu-id="a387b-140">LCS projektā atlasiet elementu **Talent programmas pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="a387b-140">In your LCS project, select the **Talent App Management** tile.</span></span> 
+7. <span data-ttu-id="a387b-141">Atlasiet noņemamo instanci, kam ir jānorāda izvietošanas statuss **Neizdevās**.</span><span class="sxs-lookup"><span data-stu-id="a387b-141">Select the instance you would like to remove, which should be marked with a Deployment status of **Failed**.</span></span>
+8. <span data-ttu-id="a387b-142">Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu.</span><span class="sxs-lookup"><span data-stu-id="a387b-142">Select **Remove instance** and confirm your decision.</span></span> 
 

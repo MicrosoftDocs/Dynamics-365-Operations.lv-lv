@@ -1,13 +1,13 @@
 ---
-title: "Lietotāja preferences finanšu atskaišu veidotājā"
-description: "Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas."
+title: Lietotāja preferences finanšu atskaišu veidotājā
+description: Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,60 +18,58 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324219"
 ---
-
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="653c8-104">Lietotāja preferences finanšu atskaišu veidotājā</span><span class="sxs-lookup"><span data-stu-id="653c8-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="bc808-104">Lietotāja preferences finanšu atskaišu veidotājā</span><span class="sxs-lookup"><span data-stu-id="bc808-104">User preferences in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="653c8-105">Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi.</span><span class="sxs-lookup"><span data-stu-id="653c8-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="653c8-106">Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="653c8-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span>
+<span data-ttu-id="bc808-105">Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi.</span><span class="sxs-lookup"><span data-stu-id="bc808-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="bc808-106">Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="bc808-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span>
 
-## <a name="set-user-preferences"></a><span data-ttu-id="653c8-107">Lietotāja preferenču iestatīšana</span><span class="sxs-lookup"><span data-stu-id="653c8-107">Set user preferences</span></span>
+## <a name="set-user-preferences"></a><span data-ttu-id="bc808-107">Lietotāja preferenču iestatīšana</span><span class="sxs-lookup"><span data-stu-id="bc808-107">Set user preferences</span></span>
 
-1. <span data-ttu-id="653c8-108">Atskaišu veidotāja izvēlnē **Rīki** noklikšķiniet uz **Opcijas**.</span><span class="sxs-lookup"><span data-stu-id="653c8-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2. <span data-ttu-id="653c8-109">Dialoglodziņā **Opcijas** atlasiet savas preferences.</span><span class="sxs-lookup"><span data-stu-id="653c8-109">In the **Options** dialog box, select your preferences.</span></span>
-3. <span data-ttu-id="653c8-110">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="653c8-110">Click **OK**.</span></span>
+1. <span data-ttu-id="bc808-108">Atskaišu veidotāja izvēlnē **Rīki** noklikšķiniet uz **Opcijas**.</span><span class="sxs-lookup"><span data-stu-id="bc808-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2. <span data-ttu-id="bc808-109">Dialoglodziņā **Opcijas** atlasiet savas preferences.</span><span class="sxs-lookup"><span data-stu-id="bc808-109">In the **Options** dialog box, select your preferences.</span></span>
+3. <span data-ttu-id="bc808-110">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="bc808-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="653c8-111">Opciju dialoglodziņa opcijas</span><span class="sxs-lookup"><span data-stu-id="653c8-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="bc808-111">Opciju dialoglodziņa opcijas</span><span class="sxs-lookup"><span data-stu-id="bc808-111">Options dialog box options</span></span>
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="653c8-112">Lietotāja opcija</span><span class="sxs-lookup"><span data-stu-id="653c8-112">User option</span></span></th>
-<th><span data-ttu-id="653c8-113">Apraksts</span><span class="sxs-lookup"><span data-stu-id="653c8-113">Description</span></span></th>
+<th><span data-ttu-id="bc808-112">Lietotāja opcija</span><span class="sxs-lookup"><span data-stu-id="bc808-112">User option</span></span></th>
+<th><span data-ttu-id="bc808-113">Apraksts</span><span class="sxs-lookup"><span data-stu-id="bc808-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="653c8-114">Startējot</span><span class="sxs-lookup"><span data-stu-id="653c8-114">At startup</span></span></td>
-<td><span data-ttu-id="653c8-115">Atlasiet, kas ir redzams, kad tiek startēts pārskatu veidotājs.</span><span class="sxs-lookup"><span data-stu-id="653c8-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="653c8-116">Izvēlieties vienu no šīm opcijām:</span><span class="sxs-lookup"><span data-stu-id="653c8-116">Select one of the following options:</span></span>
+<td><span data-ttu-id="bc808-114">Startējot</span><span class="sxs-lookup"><span data-stu-id="bc808-114">At startup</span></span></td>
+<td><span data-ttu-id="bc808-115">Atlasiet, kas ir redzams, kad tiek startēts pārskatu veidotājs.</span><span class="sxs-lookup"><span data-stu-id="bc808-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="bc808-116">Izvēlieties vienu no šīm opcijām:</span><span class="sxs-lookup"><span data-stu-id="bc808-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="653c8-117"><strong>Ielādēt pēdējo ielādēto atskaiti</strong> — atvērt pēdējo skatīto atskaiti.</span><span class="sxs-lookup"><span data-stu-id="653c8-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="653c8-118"><strong>Rādīt atvēršanas logu</strong> — atvērt logu <strong>Atvērt</strong>.</span><span class="sxs-lookup"><span data-stu-id="653c8-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="653c8-119">Logs <strong>Atvērt</strong> satur meklēšanas logu, kuru varat izmantot, lai ātri atrastu veidošanas blokus.</span><span class="sxs-lookup"><span data-stu-id="653c8-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="653c8-120"><strong>Rādīt tukšu vidi</strong> — atvērt tukšu veidotāja logu.</span><span class="sxs-lookup"><span data-stu-id="653c8-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="bc808-117"><strong>Ielādēt pēdējo ielādēto atskaiti</strong> — atvērt pēdējo skatīto atskaiti.</span><span class="sxs-lookup"><span data-stu-id="bc808-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="bc808-118"><strong>Rādīt atvēršanas logu</strong> — atvērt logu <strong>Atvērt</strong>.</span><span class="sxs-lookup"><span data-stu-id="bc808-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="bc808-119">Logs <strong>Atvērt</strong> satur meklēšanas logu, kuru varat izmantot, lai ātri atrastu veidošanas blokus.</span><span class="sxs-lookup"><span data-stu-id="bc808-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="bc808-120"><strong>Rādīt tukšu vidi</strong> — atvērt tukšu veidotāja logu.</span><span class="sxs-lookup"><span data-stu-id="bc808-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr>
-<td><span data-ttu-id="653c8-121">Rādīt apstiprinājumu, pirms tiek aizvērts pārskatu veidotājs</span><span class="sxs-lookup"><span data-stu-id="653c8-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="653c8-122">Atlasiet, vai saņemt brīdinājumu, kad programmu aizverat.</span><span class="sxs-lookup"><span data-stu-id="653c8-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="653c8-123">Šis ziņojums palīdz garantēt, ka programmu neaizverat nejauši.</span><span class="sxs-lookup"><span data-stu-id="653c8-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
+<td><span data-ttu-id="bc808-121">Rādīt apstiprinājumu, pirms tiek aizvērts pārskatu veidotājs</span><span class="sxs-lookup"><span data-stu-id="bc808-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="bc808-122">Atlasiet, vai saņemt brīdinājumu, kad programmu aizverat.</span><span class="sxs-lookup"><span data-stu-id="bc808-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="bc808-123">Šis ziņojums palīdz garantēt, ka programmu neaizverat nejauši.</span><span class="sxs-lookup"><span data-stu-id="bc808-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="653c8-124">Automātiski lietot šūnu pasvītrojumu kolonnu virsrakstiem</span><span class="sxs-lookup"><span data-stu-id="653c8-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="653c8-125">Atlasiet, vai ievieto pasvītrojumu šūnā, kas satur jaunu kolonnas virsrakstu.</span><span class="sxs-lookup"><span data-stu-id="653c8-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<td><span data-ttu-id="bc808-124">Automātiski lietot šūnu pasvītrojumu kolonnu virsrakstiem</span><span class="sxs-lookup"><span data-stu-id="bc808-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="bc808-125">Atlasiet, vai ievieto pasvītrojumu šūnā, kas satur jaunu kolonnas virsrakstu.</span><span class="sxs-lookup"><span data-stu-id="bc808-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="653c8-126">Management Reporter failu atrašanās vieta</span><span class="sxs-lookup"><span data-stu-id="653c8-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="653c8-127">Norādiet failu noklusējuma atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="653c8-127">Specify the default location for files.</span></span> <span data-ttu-id="653c8-128">Programma šo noklusējuma atrašanās vietu izmanto, kad eksportējat veidošanas bloku grupas.</span><span class="sxs-lookup"><span data-stu-id="653c8-128">The application uses the default location when you export building block groups.</span></span></td>
+<td><span data-ttu-id="bc808-126">Management Reporter failu atrašanās vieta</span><span class="sxs-lookup"><span data-stu-id="bc808-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="bc808-127">Norādiet failu noklusējuma atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="bc808-127">Specify the default location for files.</span></span> <span data-ttu-id="bc808-128">Programma šo noklusējuma atrašanās vietu izmanto, kad eksportējat veidošanas bloku grupas.</span><span class="sxs-lookup"><span data-stu-id="bc808-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="additional-resources"></a><span data-ttu-id="653c8-129">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="653c8-129">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bc808-129">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="bc808-129">Additional resources</span></span>
 
-[<span data-ttu-id="653c8-130">Finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="653c8-130">Financial reporting</span></span>](financial-reporting-intro.md)
-
+[<span data-ttu-id="bc808-130">Finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="bc808-130">Financial reporting</span></span>](financial-reporting-intro.md)
