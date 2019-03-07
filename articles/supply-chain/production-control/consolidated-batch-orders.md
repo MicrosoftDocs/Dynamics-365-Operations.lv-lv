@@ -1,13 +1,13 @@
 ---
-title: "Konsolidēti partijas pasūtījumi"
-description: "Šajā rakstā ir aprakstīts konsolidēto partijas pasūtījumu jēdziens."
+title: Konsolidēti partijas pasūtījumi
+description: Šajā rakstā ir aprakstīts konsolidēto partijas pasūtījumu jēdziens.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,31 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 49c2df19168855e6e6ab9ff061bcdce698947b20
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358811"
 ---
-
-# <a name="consolidated-batch-orders"></a><span data-ttu-id="f0d79-103">Konsolidēti partijas pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="f0d79-103">Consolidated batch orders</span></span>
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="6095a-103">Konsolidēti partijas pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="6095a-103">Consolidated batch orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f0d79-104">Šajā rakstā ir aprakstīts konsolidēto partijas pasūtījumu jēdziens.</span><span class="sxs-lookup"><span data-stu-id="f0d79-104">This article describes the concept of consolidated batch orders.</span></span>
+<span data-ttu-id="6095a-104">Šajā rakstā ir aprakstīts konsolidēto partijas pasūtījumu jēdziens.</span><span class="sxs-lookup"><span data-stu-id="6095a-104">This article describes the concept of consolidated batch orders.</span></span>
 
-<span data-ttu-id="f0d79-105">Saražotais lielapjoma krājums ir pamatkrājums, bet iepakotais krājums ir apakškrājums.</span><span class="sxs-lookup"><span data-stu-id="f0d79-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="f0d79-106">Lielapjoma un iepakotā krājuma saistību tiek izteikta lielapjoma krājuma pārveidē.</span><span class="sxs-lookup"><span data-stu-id="f0d79-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="f0d79-107">Šī lielapjoma krājuma pārveide ir definēta pašā lielapjoma krājumā.</span><span class="sxs-lookup"><span data-stu-id="f0d79-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
+<span data-ttu-id="6095a-105">Saražotais lielapjoma krājums ir pamatkrājums, bet iepakotais krājums ir apakškrājums.</span><span class="sxs-lookup"><span data-stu-id="6095a-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="6095a-106">Lielapjoma un iepakotā krājuma saistību tiek izteikta lielapjoma krājuma pārveidē.</span><span class="sxs-lookup"><span data-stu-id="6095a-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="6095a-107">Šī lielapjoma krājuma pārveide ir definēta pašā lielapjoma krājumā.</span><span class="sxs-lookup"><span data-stu-id="6095a-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-<span data-ttu-id="f0d79-108">Iepakotos krājumus var iepakot viena vai vairāku izmēru konteineros, kas tiek uzskatīti par vienu vienību.</span><span class="sxs-lookup"><span data-stu-id="f0d79-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="f0d79-109">Konsolidējot pasūtījumus no lielapjoma krājuma, visus saistītos partijas pasūtījumus varat skatīt vienā skatījumā — tas noder, lai noteiktu visu atlikušo darbu, kas vēl jāpaveic.</span><span class="sxs-lookup"><span data-stu-id="f0d79-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
+<span data-ttu-id="6095a-108">Iepakotos krājumus var iepakot viena vai vairāku izmēru konteineros, kas tiek uzskatīti par vienu vienību.</span><span class="sxs-lookup"><span data-stu-id="6095a-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="6095a-109">Konsolidējot pasūtījumus no lielapjoma krājuma, visus saistītos partijas pasūtījumus varat skatīt vienā skatījumā — tas noder, lai noteiktu visu atlikušo darbu, kas vēl jāpaveic.</span><span class="sxs-lookup"><span data-stu-id="6095a-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-<span data-ttu-id="f0d79-110">Konsolidētā partijas pasūtījumā var ietilpt jebkāda tālāk uzskaitīto pasūtījumu kombinācija.</span><span class="sxs-lookup"><span data-stu-id="f0d79-110">A consolidated batch order can contain any combination of the following orders:</span></span>
+<span data-ttu-id="6095a-110">Konsolidētā partijas pasūtījumā var ietilpt jebkāda tālāk uzskaitīto pasūtījumu kombinācija.</span><span class="sxs-lookup"><span data-stu-id="6095a-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   <span data-ttu-id="f0d79-111">Viens lielapjoma pasūtījums un vairāki iepakotie pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="f0d79-111">A single bulk order and multiple packed orders</span></span>
--   <span data-ttu-id="f0d79-112">Vairāki lielapjoma pasūtījumi un vairāki iepakotie pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="f0d79-112">Multiple bulk orders and multiple packed orders</span></span>
--   <span data-ttu-id="f0d79-113">Vairāki lielapjoma pasūtījumi un viens iepakotais pasūtījums</span><span class="sxs-lookup"><span data-stu-id="f0d79-113">Multiple bulk orders and a single packed order</span></span>
--   <span data-ttu-id="f0d79-114">Tikai iepakotie pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="f0d79-114">Only packed orders</span></span>
-
+-   <span data-ttu-id="6095a-111">Viens lielapjoma pasūtījums un vairāki iepakotie pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="6095a-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="6095a-112">Vairāki lielapjoma pasūtījumi un vairāki iepakotie pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="6095a-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="6095a-113">Vairāki lielapjoma pasūtījumi un viens iepakotais pasūtījums</span><span class="sxs-lookup"><span data-stu-id="6095a-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="6095a-114">Tikai iepakotie pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="6095a-114">Only packed orders</span></span>
 
 
 

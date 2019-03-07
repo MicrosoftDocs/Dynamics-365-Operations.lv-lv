@@ -1,13 +1,13 @@
---- 
-title: "Kandidātu izvēles rīku noteikšana un ieviešana"
-description: "Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa."
+---
+title: Kandidātu izvēles rīku noteikšana un ieviešana
+description: Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
@@ -16,46 +16,45 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332729"
 ---
-# <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="b7bc4-103">Kandidātu izvēles rīku noteikšana un ieviešana</span><span class="sxs-lookup"><span data-stu-id="b7bc4-103">Identify and deploy candidate selection tools</span></span>
+# <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="a5593-103">Kandidātu izvēles rīku noteikšana un ieviešana</span><span class="sxs-lookup"><span data-stu-id="a5593-103">Identify and deploy candidate selection tools</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b7bc4-104">Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="b7bc4-105">Taču iespējams, ka kandidāti ar jums nepieciešamajam prasmēm jau strādā jūsu organizācijā.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="b7bc4-106">Noteiktu prasmju kopu varat meklēt starp esošajiem darbiniekiem vai jauniem kandidātiem.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="b7bc4-107">Šādi personāla atlases darbinieks var ātri apkopot un izskatīt datus par kandidātiem, kas vakantam amatam ir pieteikušies tagad vai iepriekš, vai atrastu potenciālos kandidātus starp jau esošajiem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="b7bc4-108">Izmantojiet šo uzdevuma ierakstu, lai uzzinātu, kā prasmju kartēšanas funkcionalitāte jums var palīdzēt atrast vakantajam amatam vispiemērotāko personu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="b7bc4-109">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-109">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="a5593-104">Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.</span><span class="sxs-lookup"><span data-stu-id="a5593-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="a5593-105">Taču iespējams, ka kandidāti ar jums nepieciešamajam prasmēm jau strādā jūsu organizācijā.</span><span class="sxs-lookup"><span data-stu-id="a5593-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="a5593-106">Noteiktu prasmju kopu varat meklēt starp esošajiem darbiniekiem vai jauniem kandidātiem.</span><span class="sxs-lookup"><span data-stu-id="a5593-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="a5593-107">Šādi personāla atlases darbinieks var ātri apkopot un izskatīt datus par kandidātiem, kas vakantam amatam ir pieteikušies tagad vai iepriekš, vai atrastu potenciālos kandidātus starp jau esošajiem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="a5593-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="a5593-108">Izmantojiet šo uzdevuma ierakstu, lai uzzinātu, kā prasmju kartēšanas funkcionalitāte jums var palīdzēt atrast vakantajam amatam vispiemērotāko personu.</span><span class="sxs-lookup"><span data-stu-id="a5593-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="a5593-109">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="a5593-109">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="b7bc4-110">Pārejiet uz sadaļu Personāla vadība > Zināšanas > Prasmju analīze > Prasmju kartēšanas profili.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-110">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
-2. <span data-ttu-id="b7bc4-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-111">Click New.</span></span>
-3. <span data-ttu-id="b7bc4-112">Laukā Prasmju kartēšana ievadiet savas prasmju kartēšanas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-112">In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="b7bc4-113">Piemērs: Grāmatvedis.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-113">Example: Accountant.</span></span>
-4. <span data-ttu-id="b7bc4-114">Laukā Apraksts ievadiet prasmju kartējuma aprakstu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-114">In the Description field, enter a description of the skill mapping..</span></span>
-5. <span data-ttu-id="b7bc4-115">Laukā Datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-115">In the Date field, enter a date.</span></span>
-6. <span data-ttu-id="b7bc4-116">Noklikšķiniet uz Iegūt profilu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-116">Click Retrieve profile.</span></span>
-    * <span data-ttu-id="b7bc4-117">Lietojiet vienumu Iegūt profilu, lai no atlasītās personas, darba vai kursa kā meklēšanas pamata iegūtu sertifikāta, prasmju un izglītības datus.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-117">Use Retrieve profile to pull in the Certificate, Skill, and Education data from a selected Person, Job or Course as the basis for your search.</span></span>   <span data-ttu-id="b7bc4-118">Pēc tam varat pievienot vai noņemt kritērijus, norādīt, vai kritēriji ir obligāti, kā arī kārtot kritērijus pēc to svarīguma.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-118">You can then add or remove criteria, state if the criteria is optional and rank the importance of the criteria.</span></span>  
-7. <span data-ttu-id="b7bc4-119">Noklikšķiniet uz Darbs.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-119">Click Job.</span></span>
-8. <span data-ttu-id="b7bc4-120">Laukā Darbs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-120">In the Job field, enter or select a value.</span></span>
-9. <span data-ttu-id="b7bc4-121">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-121">Click OK.</span></span>
-10. <span data-ttu-id="b7bc4-122">Izvērsiet diapazona kopsavilkuma cilni un pievienojiet visu nepieciešamo papildinformāciju, piemēram, nodaļu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-122">Expand the range fast tab, and add any additional information, such as department.</span></span>
-11. <span data-ttu-id="b7bc4-123">Izvērst sertifikātu kopsavilkuma cilni, lai apskatītu vai rediģētu sertifikātus.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-123">Expand the certificates fast tab to view or edit the certificates.</span></span>
-12. <span data-ttu-id="b7bc4-124">Izvērst kopsavilkuma cilni Prasmes, lai apskatītu vai rediģētu prasmes.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-124">Expand the Skills fast tab to view or edit the skills.</span></span>
-13. <span data-ttu-id="b7bc4-125">Izvērst kopsavilkuma cilni Izglītība, lai apskatītu vai rediģētu izglītības kritērijus.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-125">Expand the Education fast tab to view or edit the education criteria.</span></span>
-14. <span data-ttu-id="b7bc4-126">Noklikšķiniet uz Izpildīt.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-126">Click Execute.</span></span>
-15. <span data-ttu-id="b7bc4-127">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-127">Click OK.</span></span>
-16. <span data-ttu-id="b7bc4-128">Klikšķiniet Rezultāts.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-128">Click Result.</span></span>
-17. <span data-ttu-id="b7bc4-129">Klikšķiniet Rezultāts.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-129">Click Result.</span></span>
-18. <span data-ttu-id="b7bc4-130">Klikšķiniet Atsākt.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-130">Click Resume.</span></span>
-19. <span data-ttu-id="b7bc4-131">Noklikšķiniet uz Sertifikāti.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-131">Click Certificates.</span></span>
-    * <span data-ttu-id="b7bc4-132">Varat rakties detalizētākos datos par katru uzskaitīto personu un skatīt sīkāku informāciju par šo personu izglītību, prasmēm, profesionālo pieredzi un citiem datiem.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-132">You can drill further into each person listed and see details regarding their education, skills, professional experience etc.</span></span>  
-20. <span data-ttu-id="b7bc4-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-133">Close the page.</span></span>
-21. <span data-ttu-id="b7bc4-134">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-134">Close the page.</span></span>
-22. <span data-ttu-id="b7bc4-135">Vēlreiz atlasiet rezultātu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-135">Select result again.</span></span>
-23. <span data-ttu-id="b7bc4-136">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-136">Click Report.</span></span>
-    * <span data-ttu-id="b7bc4-137">Atskaitē vislabākās atbilstības ir uzskaitītas atskaites augšpusē.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-137">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="b7bc4-138">Varat redzēt, ka ir uzskaitīts starpības elements.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-138">You can see that there is a gap element listed.</span></span>  <span data-ttu-id="b7bc4-139">Šis vienums apzīmē atšķirību starp prasmju kartējumā uzskaitīto līmeni un attiecīgajai personai piešķirto prasmju līmeni.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-139">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
-24. <span data-ttu-id="b7bc4-140">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-140">Close the page.</span></span>
-25. <span data-ttu-id="b7bc4-141">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="b7bc4-141">Click Save.</span></span>
-
+1. <span data-ttu-id="a5593-110">Pārejiet uz sadaļu Personāla vadība > Zināšanas > Prasmju analīze > Prasmju kartēšanas profili.</span><span class="sxs-lookup"><span data-stu-id="a5593-110">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
+2. <span data-ttu-id="a5593-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a5593-111">Click New.</span></span>
+3. <span data-ttu-id="a5593-112">Laukā Prasmju kartēšana ievadiet savas prasmju kartēšanas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="a5593-112">In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="a5593-113">Piemērs: Grāmatvedis.</span><span class="sxs-lookup"><span data-stu-id="a5593-113">Example: Accountant.</span></span>
+4. <span data-ttu-id="a5593-114">Laukā Apraksts ievadiet prasmju kartējuma aprakstu.</span><span class="sxs-lookup"><span data-stu-id="a5593-114">In the Description field, enter a description of the skill mapping..</span></span>
+5. <span data-ttu-id="a5593-115">Laukā Datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="a5593-115">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="a5593-116">Noklikšķiniet uz Iegūt profilu.</span><span class="sxs-lookup"><span data-stu-id="a5593-116">Click Retrieve profile.</span></span>
+    * <span data-ttu-id="a5593-117">Lietojiet vienumu Iegūt profilu, lai no atlasītās personas, darba vai kursa kā meklēšanas pamata iegūtu sertifikāta, prasmju un izglītības datus.</span><span class="sxs-lookup"><span data-stu-id="a5593-117">Use Retrieve profile to pull in the Certificate, Skill, and Education data from a selected Person, Job or Course as the basis for your search.</span></span>   <span data-ttu-id="a5593-118">Pēc tam varat pievienot vai noņemt kritērijus, norādīt, vai kritēriji ir obligāti, kā arī kārtot kritērijus pēc to svarīguma.</span><span class="sxs-lookup"><span data-stu-id="a5593-118">You can then add or remove criteria, state if the criteria is optional and rank the importance of the criteria.</span></span>  
+7. <span data-ttu-id="a5593-119">Noklikšķiniet uz Darbs.</span><span class="sxs-lookup"><span data-stu-id="a5593-119">Click Job.</span></span>
+8. <span data-ttu-id="a5593-120">Laukā Darbs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a5593-120">In the Job field, enter or select a value.</span></span>
+9. <span data-ttu-id="a5593-121">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a5593-121">Click OK.</span></span>
+10. <span data-ttu-id="a5593-122">Izvērsiet diapazona kopsavilkuma cilni un pievienojiet visu nepieciešamo papildinformāciju, piemēram, nodaļu.</span><span class="sxs-lookup"><span data-stu-id="a5593-122">Expand the range fast tab, and add any additional information, such as department.</span></span>
+11. <span data-ttu-id="a5593-123">Izvērst sertifikātu kopsavilkuma cilni, lai apskatītu vai rediģētu sertifikātus.</span><span class="sxs-lookup"><span data-stu-id="a5593-123">Expand the certificates fast tab to view or edit the certificates.</span></span>
+12. <span data-ttu-id="a5593-124">Izvērst kopsavilkuma cilni Prasmes, lai apskatītu vai rediģētu prasmes.</span><span class="sxs-lookup"><span data-stu-id="a5593-124">Expand the Skills fast tab to view or edit the skills.</span></span>
+13. <span data-ttu-id="a5593-125">Izvērst kopsavilkuma cilni Izglītība, lai apskatītu vai rediģētu izglītības kritērijus.</span><span class="sxs-lookup"><span data-stu-id="a5593-125">Expand the Education fast tab to view or edit the education criteria.</span></span>
+14. <span data-ttu-id="a5593-126">Noklikšķiniet uz Izpildīt.</span><span class="sxs-lookup"><span data-stu-id="a5593-126">Click Execute.</span></span>
+15. <span data-ttu-id="a5593-127">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a5593-127">Click OK.</span></span>
+16. <span data-ttu-id="a5593-128">Klikšķiniet Rezultāts.</span><span class="sxs-lookup"><span data-stu-id="a5593-128">Click Result.</span></span>
+17. <span data-ttu-id="a5593-129">Klikšķiniet Rezultāts.</span><span class="sxs-lookup"><span data-stu-id="a5593-129">Click Result.</span></span>
+18. <span data-ttu-id="a5593-130">Klikšķiniet Atsākt.</span><span class="sxs-lookup"><span data-stu-id="a5593-130">Click Resume.</span></span>
+19. <span data-ttu-id="a5593-131">Noklikšķiniet uz Sertifikāti.</span><span class="sxs-lookup"><span data-stu-id="a5593-131">Click Certificates.</span></span>
+    * <span data-ttu-id="a5593-132">Varat rakties detalizētākos datos par katru uzskaitīto personu un skatīt sīkāku informāciju par šo personu izglītību, prasmēm, profesionālo pieredzi un citiem datiem.</span><span class="sxs-lookup"><span data-stu-id="a5593-132">You can drill further into each person listed and see details regarding their education, skills, professional experience etc.</span></span>  
+20. <span data-ttu-id="a5593-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a5593-133">Close the page.</span></span>
+21. <span data-ttu-id="a5593-134">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a5593-134">Close the page.</span></span>
+22. <span data-ttu-id="a5593-135">Vēlreiz atlasiet rezultātu.</span><span class="sxs-lookup"><span data-stu-id="a5593-135">Select result again.</span></span>
+23. <span data-ttu-id="a5593-136">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="a5593-136">Click Report.</span></span>
+    * <span data-ttu-id="a5593-137">Atskaitē vislabākās atbilstības ir uzskaitītas atskaites augšpusē.</span><span class="sxs-lookup"><span data-stu-id="a5593-137">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="a5593-138">Varat redzēt, ka ir uzskaitīts starpības elements.</span><span class="sxs-lookup"><span data-stu-id="a5593-138">You can see that there is a gap element listed.</span></span>  <span data-ttu-id="a5593-139">Šis vienums apzīmē atšķirību starp prasmju kartējumā uzskaitīto līmeni un attiecīgajai personai piešķirto prasmju līmeni.</span><span class="sxs-lookup"><span data-stu-id="a5593-139">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
+24. <span data-ttu-id="a5593-140">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a5593-140">Close the page.</span></span>
+25. <span data-ttu-id="a5593-141">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a5593-141">Click Save.</span></span>
 

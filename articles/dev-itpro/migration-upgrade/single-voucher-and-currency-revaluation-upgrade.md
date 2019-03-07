@@ -1,13 +1,13 @@
 ---
-title: "Viena dokumenta žurnālu un valūtas pārvērtēšanas jaunināšana"
-description: "Dažas organizācijas ievada žurnālus, kuros ir viens dokuments, kurā ir vairāk nekā viens debitors vai kreditors, un tās arī izpilda ārvalstu valūtas pārvērtēšanas procesu debitoru un kreditoru parādiem. Šajā tēmā ir aprakstītas darbības, kuras šīm organizācijām jāveic, jauninot uz Microsoft Dynamics 365 for Operations programmas versiju 1611."
+title: Viena dokumenta žurnālu un valūtas pārvērtēšanas jaunināšana
+description: Dažas organizācijas ievada žurnālus, kuros ir viens dokuments, kurā ir vairāk nekā viens debitors vai kreditors, un tās arī izpilda ārvalstu valūtas pārvērtēšanas procesu debitoru un kreditoru parādiem. Šajā tēmā ir aprakstītas darbības, kuras šīm organizācijām jāveic, jauninot uz Microsoft Dynamics 365 for Operations programmas versiju 1611.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,26 +17,24 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 343fa226e1cf9072696082e9ebf0a1629e553ae9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328152"
 ---
-
-# <a name="upgrade-single-voucher-journals-and-currency-revaluations"></a><span data-ttu-id="176f9-104">Viena dokumenta žurnālu un valūtas pārvērtēšanas jaunināšana</span><span class="sxs-lookup"><span data-stu-id="176f9-104">Upgrade single-voucher journals and currency revaluations</span></span>
+# <a name="upgrade-single-voucher-journals-and-currency-revaluations"></a><span data-ttu-id="a1f83-104">Vienotu dokumentu žurnālu un valūtas pārvērtēšanu jaunināšana</span><span class="sxs-lookup"><span data-stu-id="a1f83-104">Upgrade single-voucher journals and currency revaluations</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="176f9-105">Dažas organizācijas ievada žurnālus, kuros ir viens dokuments, kurā ir vairāk nekā viens debitors vai kreditors, un tās arī izpilda ārvalstu valūtas pārvērtēšanas procesu debitoru un kreditoru parādiem.</span><span class="sxs-lookup"><span data-stu-id="176f9-105">Some organizations enter journals that contain a single voucher that has more than one customer or vendor, and they also run the Accounts receivable or Accounts payable foreign currency revaluation process.</span></span> <span data-ttu-id="176f9-106">Šajā tēmā ir aprakstītas darbības, kuras šīm organizācijām jāveic, jauninot uz Microsoft Dynamics 365 for Operations programmas versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="176f9-106">This topic describes the steps that these organizations should follow when they upgrade to Microsoft Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="a1f83-105">Dažas organizācijas ievada žurnālus, kuros ir viens dokuments, kurā ir vairāk nekā viens debitors vai kreditors, un tās arī izpilda ārvalstu valūtas pārvērtēšanas procesu debitoru un kreditoru parādiem.</span><span class="sxs-lookup"><span data-stu-id="a1f83-105">Some organizations enter journals that contain a single voucher that has more than one customer or vendor, and they also run the Accounts receivable or Accounts payable foreign currency revaluation process.</span></span> <span data-ttu-id="a1f83-106">Šajā tēmā ir aprakstītas darbības, kuras šīm organizācijām jāveic, jauninot uz Microsoft Dynamics 365 for Operations programmas versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="a1f83-106">This topic describes the steps that these organizations should follow when they upgrade to Microsoft Dynamics 365 for Operations version 1611.</span></span>
 
-<span data-ttu-id="176f9-107">Veiciet šīs darbības, jauninot uz Microsoft Dynamics 365 for Operations programmas versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="176f9-107">Follow these steps when you upgrade to Microsoft Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="a1f83-107">Veiciet šīs darbības, jauninot uz Microsoft Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="a1f83-107">Follow these steps when you upgrade to Microsoft Dynamics 365 for Operations version 1611.</span></span>
 
-1.  <span data-ttu-id="176f9-108">Pirms veicat jaunināšanu uz programmu Dynamics 365 for Operations, izpildiet ārvalstu valūtas pārvērtēšanas procesu debitoru un kreditoru parādiem.</span><span class="sxs-lookup"><span data-stu-id="176f9-108">Before you upgrade to Dynamics 365 for Operations, run the foreign currency revaluation processes for Accounts receivable and Accounts payable.</span></span> <span data-ttu-id="176f9-109">Laukā **Metode** iestatiet vienumu **Rēķina datums**.</span><span class="sxs-lookup"><span data-stu-id="176f9-109">Set the **Method** field to **Invoice date**.</span></span> <span data-ttu-id="176f9-110">Tiek izveidota pārvērtēšanas darbība, kas atceļ pēdējo ārvalstu valūtas pārvērtēšanu.</span><span class="sxs-lookup"><span data-stu-id="176f9-110">A revaluation transaction is created that reverses the last foreign currency revaluation.</span></span> <span data-ttu-id="176f9-111">Tādējādi atvērtās darbības tiek vērtētas pēc to sākotnējās uzskaites valūtas.</span><span class="sxs-lookup"><span data-stu-id="176f9-111">Therefore, the open transactions are valued at their original accounting currency.</span></span>
-2.  <span data-ttu-id="176f9-112">Jauniniet uz Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="176f9-112">Upgrade to Dynamics 365 for Operations version 1611.</span></span>
-3.  <span data-ttu-id="176f9-113">Vēlreiz izpildiet ārvalstu valūtas pārvērtēšanu debitoru un kreditoru parādiem.</span><span class="sxs-lookup"><span data-stu-id="176f9-113">Run the Accounts receivable and Accounts payable foreign currency revaluation processes again.</span></span> <span data-ttu-id="176f9-114">Šoreiz laukā **Metode** iestatiet vienumu **Standarta**.</span><span class="sxs-lookup"><span data-stu-id="176f9-114">This time, set the **Method** field to **Standard**.</span></span> <span data-ttu-id="176f9-115">Tiek izveidota jauna pārvērtēšanas darbība, kas ir balstīta uz pašreizējiem maiņas kursiem.</span><span class="sxs-lookup"><span data-stu-id="176f9-115">A new revaluation transaction is created that is based on the current exchange rates.</span></span> <span data-ttu-id="176f9-116">Ar šo darbību tiek ierakstīta nerealizētā peļņa/zaudējumi un pareizais Virsgrāmatas kopsavilkuma konts.</span><span class="sxs-lookup"><span data-stu-id="176f9-116">This transaction records the unrealized gain/loss and the correct summary ledger account.</span></span>
-
+1.  <span data-ttu-id="a1f83-108">Pirms veicat jaunināšanu uz programmu Dynamics 365 for Operations, izpildiet ārvalstu valūtas pārvērtēšanas procesu debitoru un kreditoru parādiem.</span><span class="sxs-lookup"><span data-stu-id="a1f83-108">Before you upgrade to Dynamics 365 for Operations, run the foreign currency revaluation processes for Accounts receivable and Accounts payable.</span></span> <span data-ttu-id="a1f83-109">Laukā **Metode** iestatiet vienumu **Rēķina datums**.</span><span class="sxs-lookup"><span data-stu-id="a1f83-109">Set the **Method** field to **Invoice date**.</span></span> <span data-ttu-id="a1f83-110">Tiek izveidota pārvērtēšanas darbība, kas atceļ pēdējo ārvalstu valūtas pārvērtēšanu.</span><span class="sxs-lookup"><span data-stu-id="a1f83-110">A revaluation transaction is created that reverses the last foreign currency revaluation.</span></span> <span data-ttu-id="a1f83-111">Tādējādi atvērtās darbības tiek vērtētas pēc to sākotnējās uzskaites valūtas.</span><span class="sxs-lookup"><span data-stu-id="a1f83-111">Therefore, the open transactions are valued at their original accounting currency.</span></span>
+2.  <span data-ttu-id="a1f83-112">Jauniniet uz Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="a1f83-112">Upgrade to Dynamics 365 for Operations version 1611.</span></span>
+3.  <span data-ttu-id="a1f83-113">Vēlreiz izpildiet ārvalstu valūtas pārvērtēšanu debitoru un kreditoru parādiem.</span><span class="sxs-lookup"><span data-stu-id="a1f83-113">Run the Accounts receivable and Accounts payable foreign currency revaluation processes again.</span></span> <span data-ttu-id="a1f83-114">Šoreiz laukā **Metode** iestatiet vienumu **Standarta**.</span><span class="sxs-lookup"><span data-stu-id="a1f83-114">This time, set the **Method** field to **Standard**.</span></span> <span data-ttu-id="a1f83-115">Tiek izveidota jauna pārvērtēšanas darbība, kas ir balstīta uz pašreizējiem maiņas kursiem.</span><span class="sxs-lookup"><span data-stu-id="a1f83-115">A new revaluation transaction is created that is based on the current exchange rates.</span></span> <span data-ttu-id="a1f83-116">Ar šo darbību tiek ierakstīta nerealizētā peļņa/zaudējumi un pareizais Virsgrāmatas kopsavilkuma konts.</span><span class="sxs-lookup"><span data-stu-id="a1f83-116">This transaction records the unrealized gain/loss and the correct summary ledger account.</span></span>
 
 
 

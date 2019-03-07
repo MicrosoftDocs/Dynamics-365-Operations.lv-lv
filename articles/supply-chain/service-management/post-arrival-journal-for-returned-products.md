@@ -1,63 +1,60 @@
 ---
-title: "Grāmatot atgrieztu preču saņemšanas žurnālu"
-description: "Grāmatojiet atgrieztu preču saņemšanas žurnālu."
+title: Grāmatot atgrieztu preču saņemšanas žurnālu
+description: Grāmatojiet atgrieztu preču saņemšanas žurnālu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 75f37ce016acb4b479a9cf4dff205562ce00f02c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343585"
 ---
-
-
-# <a name="post-arrival-journal-for-returned-products"></a><span data-ttu-id="d8521-103">Grāmatot atgrieztu preču saņemšanas žurnālu</span><span class="sxs-lookup"><span data-stu-id="d8521-103">Post arrival journal for returned products</span></span> 
+# <a name="post-arrival-journal-for-returned-products"></a><span data-ttu-id="7c69c-103">Grāmatot atgrieztu preču saņemšanas žurnālu</span><span class="sxs-lookup"><span data-stu-id="7c69c-103">Post arrival journal for returned products</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d8521-104">Lai apstrādātu atgriešanu, vispirms pārbaudiet atgriezto daudzumu un atjauniniet daudzuma lauku krājumu saņemšanas žurnālā.</span><span class="sxs-lookup"><span data-stu-id="d8521-104">To process a return, first validate the return quantity, update the quantity field in the item arrival journal.</span></span> <span data-ttu-id="d8521-105">Pēc tam atlasiet atgriešanas metodes kodu vai norādiet, ka atgrieztās preces ir jāpārbauda.</span><span class="sxs-lookup"><span data-stu-id="d8521-105">Then select a disposition code or indicate that the returned items have to be inspected.</span></span> <span data-ttu-id="d8521-106">Pēc šo darbību veikšanas jūs varat iegrāmatot krājumu saņemšanas žurnālā atgriešanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="d8521-106">After completing these steps, you can post the item arrival journal for the return order.</span></span>
+<span data-ttu-id="7c69c-104">Lai apstrādātu atgriešanu, vispirms pārbaudiet atgriezto daudzumu un atjauniniet daudzuma lauku krājumu saņemšanas žurnālā.</span><span class="sxs-lookup"><span data-stu-id="7c69c-104">To process a return, first validate the return quantity, update the quantity field in the item arrival journal.</span></span> <span data-ttu-id="7c69c-105">Pēc tam atlasiet atgriešanas metodes kodu vai norādiet, ka atgrieztās preces ir jāpārbauda.</span><span class="sxs-lookup"><span data-stu-id="7c69c-105">Then select a disposition code or indicate that the returned items have to be inspected.</span></span> <span data-ttu-id="7c69c-106">Pēc šo darbību veikšanas jūs varat iegrāmatot krājumu saņemšanas žurnālā atgriešanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="7c69c-106">After completing these steps, you can post the item arrival journal for the return order.</span></span>
 
-1.  <span data-ttu-id="d8521-107">Noklikšķiniet uz **Krājumu pārvaldība** \> **Periodiskās darbības** \> **Saņemšanas pārskats**.</span><span class="sxs-lookup"><span data-stu-id="d8521-107">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
+1.  <span data-ttu-id="7c69c-107">Noklikšķiniet uz **Krājumu pārvaldība** \> **Periodiskās darbības** \> **Saņemšanas pārskats**.</span><span class="sxs-lookup"><span data-stu-id="7c69c-107">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
 
-2.  <span data-ttu-id="d8521-108">Filtrā **Iestatījumu nosaukums** atlasiet vienumu **Atgriešanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="d8521-108">In the **Setup name** filter, select **Return order**.</span></span>
+2.  <span data-ttu-id="7c69c-108">Filtrā **Iestatījumu nosaukums** atlasiet vienumu **Atgriešanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="7c69c-108">In the **Setup name** filter, select **Return order**.</span></span>
 
-3.  <span data-ttu-id="d8521-109">Ja saņemšanas saraksts ir garš, izmantojiet zonas **Diapazons** laukus, lai sarakstu saīsinātu.</span><span class="sxs-lookup"><span data-stu-id="d8521-109">If the list of receipts is long, use the fields in the **Range** area to narrow the list.</span></span>
+3.  <span data-ttu-id="7c69c-109">Ja saņemšanas saraksts ir garš, izmantojiet zonas **Diapazons** laukus, lai sarakstu saīsinātu.</span><span class="sxs-lookup"><span data-stu-id="7c69c-109">If the list of receipts is long, use the fields in the **Range** area to narrow the list.</span></span>
 
-4.  <span data-ttu-id="d8521-110">Atrodiet atgriešanas pasūtījuma rindu, ko vēlaties grāmatot, atlasiet rūtiņu **Atlasīt saņemšanai** un noklikšķiniet uz **Sākt saņemšanu**.</span><span class="sxs-lookup"><span data-stu-id="d8521-110">Locate the line of the return order that you want to post, select its **Select for arrival** box, and then click **Start arrival**.</span></span>
+4.  <span data-ttu-id="7c69c-110">Atrodiet atgriešanas pasūtījuma rindu, ko vēlaties grāmatot, atlasiet rūtiņu **Atlasīt saņemšanai** un noklikšķiniet uz **Sākt saņemšanu**.</span><span class="sxs-lookup"><span data-stu-id="7c69c-110">Locate the line of the return order that you want to post, select its **Select for arrival** box, and then click **Start arrival**.</span></span>
 
-5.  <span data-ttu-id="d8521-111">Noklikšķiniet uz **Žurnāli** \> **Rādīt saņemšanas no ieejas plūsmām**, lai atvērtu veidlapu **Novietojumu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="d8521-111">Click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
+5.  <span data-ttu-id="7c69c-111">Noklikšķiniet uz **Žurnāli** \> **Rādīt saņemšanas no ieejas plūsmām**, lai atvērtu veidlapu **Novietojumu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="7c69c-111">Click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
     
 
     > [!TIP]
-    > <P><span data-ttu-id="d8521-112">Lai apskatītu detalizētu informāciju, atlasiet žurnālu un pēc tam noklikšķiniet uz <STRONG>Rindas</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d8521-112">To view detailed information, select a journal, and then click <STRONG>Lines</STRONG>.</span></span></P>
+    > <P><span data-ttu-id="7c69c-112">Lai apskatītu detalizētu informāciju, atlasiet žurnālu un pēc tam noklikšķiniet uz <STRONG>Rindas</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7c69c-112">To view detailed information, select a journal, and then click <STRONG>Lines</STRONG>.</span></span></P>
 
 
-6.  <span data-ttu-id="d8521-113">Veiciet nepieciešamos atjauninājumus un pēc tam noklikšķiniet uz **Grāmatot**.</span><span class="sxs-lookup"><span data-stu-id="d8521-113">Make any necessary updates, and then click **Post**.</span></span>
+6.  <span data-ttu-id="7c69c-113">Veiciet nepieciešamos atjauninājumus un pēc tam noklikšķiniet uz **Grāmatot**.</span><span class="sxs-lookup"><span data-stu-id="7c69c-113">Make any necessary updates, and then click **Post**.</span></span>
 
-<span data-ttu-id="d8521-114">Kad žurnāls ir iegrāmatots, atgrieztie krājumi tiek reģistrēti krājumos un veidlapa **Atgriešanas pasūtījumi** norāda, ka krājumi ir nonākuši noliktavā.</span><span class="sxs-lookup"><span data-stu-id="d8521-114">After the journal is posted, the returned items are registered in inventory, and the **Return orders** form indicates that the items have arrived at the warehouse.</span></span>
+<span data-ttu-id="7c69c-114">Kad žurnāls ir iegrāmatots, atgrieztie krājumi tiek reģistrēti krājumos un veidlapa **Atgriešanas pasūtījumi** norāda, ka krājumi ir nonākuši noliktavā.</span><span class="sxs-lookup"><span data-stu-id="7c69c-114">After the journal is posted, the returned items are registered in inventory, and the **Return orders** form indicates that the items have arrived at the warehouse.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d8521-115">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="d8521-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7c69c-115">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="7c69c-115">See also</span></span>
 
-<span data-ttu-id="d8521-116">[Noliktavas žurnāls (forma)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d8521-116">[Location journal (form)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))</span></span>
+<span data-ttu-id="7c69c-116">[Noliktavas žurnāls (forma)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7c69c-116">[Location journal (form)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))</span></span>
 
   
-
 
 

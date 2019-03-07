@@ -1,13 +1,13 @@
---- 
-title: "Krājumu līmeņu inicializēšana noliktavā"
-description: "Šajā procedūrā parādīts, kā manuāli atjaunot rīcībā esošo krājumu, izmantojot krājumu kustības žurnālu."
+---
+title: Krājumu līmeņu inicializēšana noliktavā
+description: Šajā procedūrā parādīts, kā manuāli atjaunot rīcībā esošo krājumu, izmantojot krājumu kustības žurnālu.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,47 +17,46 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4bfa40c19e34631edb68b8cff42e7f72eb9ce2ad
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332292"
 ---
-# <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="cb652-103">Krājumu līmeņu inicializēšana noliktavā</span><span class="sxs-lookup"><span data-stu-id="cb652-103">Initialize stock levels in the warehouse</span></span>
+# <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="32263-103">Krājumu līmeņu inicializēšana noliktavā</span><span class="sxs-lookup"><span data-stu-id="32263-103">Initialize stock levels in the warehouse</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cb652-104">Šajā procedūrā parādīts, kā manuāli atjaunot rīcībā esošo krājumu, izmantojot krājumu kustības žurnālu.</span><span class="sxs-lookup"><span data-stu-id="cb652-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="cb652-105">(Ir iespējams atjaunināt rīcībā esošos krājumus, importējot transakcijas datu elementos.) Šo ceļvedi var palaist demonstrācijas datu uzņēmumā USMF, kur ir pieejami visi nepieciešamie priekšnosacījumi, piemēram, žurnāla nosaukums, krājuma iestatījumi, grāmatošanas metodes un konti.</span><span class="sxs-lookup"><span data-stu-id="cb652-105">(It’s also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="cb652-106">Šajā ceļvedī ir ieteiktas noteiktas vērtības krājumam un izmantotās dimensijas.</span><span class="sxs-lookup"><span data-stu-id="cb652-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="cb652-107">Ja jūs izvēlēsieties citu krājumu, jums var būt nepieciešams ievadīt vērtības citām dimensijām.</span><span class="sxs-lookup"><span data-stu-id="cb652-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
+<span data-ttu-id="32263-104">Šajā procedūrā parādīts, kā manuāli atjaunot rīcībā esošo krājumu, izmantojot krājumu kustības žurnālu.</span><span class="sxs-lookup"><span data-stu-id="32263-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="32263-105">(Ir iespējams atjaunināt rīcībā esošos krājumus, importējot transakcijas datu elementos.) Šo ceļvedi var palaist demonstrācijas datu uzņēmumā USMF, kur ir pieejami visi nepieciešamie priekšnosacījumi, piemēram, žurnāla nosaukums, krājuma iestatījumi, grāmatošanas metodes un konti.</span><span class="sxs-lookup"><span data-stu-id="32263-105">(It’s also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="32263-106">Šajā ceļvedī ir ieteiktas noteiktas vērtības krājumam un izmantotās dimensijas.</span><span class="sxs-lookup"><span data-stu-id="32263-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="32263-107">Ja jūs izvēlēsieties citu krājumu, jums var būt nepieciešams ievadīt vērtības citām dimensijām.</span><span class="sxs-lookup"><span data-stu-id="32263-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
 
-1. <span data-ttu-id="cb652-108">Dodieties uz Krājumu vadība > Žurnāla ieraksti > Krājumi > Kustība.</span><span class="sxs-lookup"><span data-stu-id="cb652-108">Go to Inventory management > Journal entries > Items > Movement.</span></span>
-2. <span data-ttu-id="cb652-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="cb652-109">Click New.</span></span>
-3. <span data-ttu-id="cb652-110">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cb652-110">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="cb652-111">Atlasiet IMov.</span><span class="sxs-lookup"><span data-stu-id="cb652-111">Select IMov.</span></span>
-    * <span data-ttu-id="cb652-112">Dažādiem uzņēmējdarbības nolūkiem ieteicams izmantot atšķirīgas žurnāla nosaukuma veidnes.</span><span class="sxs-lookup"><span data-stu-id="cb652-112">It’s a good practise to use different journal name templates for the different business purposes.</span></span>  
-5. <span data-ttu-id="cb652-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cb652-113">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="cb652-114">Laukā Korespondējošais konts norādiet vērtības "140200".</span><span class="sxs-lookup"><span data-stu-id="cb652-114">In the Offset account field, specify the values '140200'.</span></span>
-    * <span data-ttu-id="cb652-115">Tas ir korespondējošais konts, kas būs noklusējuma korespondējošais konts žurnāla rindās.</span><span class="sxs-lookup"><span data-stu-id="cb652-115">This is the offset account that will be the default account on the journal lines.</span></span> <span data-ttu-id="cb652-116">Ir iespējams ignorēt noklusējumu, piešķirot dažādus korespondējošos kontus katrai rindai.</span><span class="sxs-lookup"><span data-stu-id="cb652-116">It’s possible to override the default to assign different offset accounts per line.</span></span>  
-7. <span data-ttu-id="cb652-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="cb652-117">Click OK.</span></span>
-8. <span data-ttu-id="cb652-118">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="cb652-118">Click New.</span></span>
-9. <span data-ttu-id="cb652-119">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cb652-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="cb652-120">Atlasiet krājumu A0001.</span><span class="sxs-lookup"><span data-stu-id="cb652-120">Select item A0001.</span></span>
-11. <span data-ttu-id="cb652-121">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cb652-121">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="cb652-122">Noklikšķiniet uz cilnes Krājumu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="cb652-122">Click the Inventory dimensions tab.</span></span>
-13. <span data-ttu-id="cb652-123">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cb652-123">In the Site field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="cb652-124">Atlasiet vietu 1.</span><span class="sxs-lookup"><span data-stu-id="cb652-124">Select site 1.</span></span>
-15. <span data-ttu-id="cb652-125">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cb652-125">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="cb652-126">Atlasiet noliktavu 13.</span><span class="sxs-lookup"><span data-stu-id="cb652-126">Select warehouse 13.</span></span>
-17. <span data-ttu-id="cb652-127">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="cb652-127">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="cb652-128">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="cb652-128">In the Location field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="cb652-129">Atlasiet novietojumu 13.</span><span class="sxs-lookup"><span data-stu-id="cb652-129">Select location 13.</span></span>
-20. <span data-ttu-id="cb652-130">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="cb652-130">In the Quantity field, enter a number.</span></span>
-21. <span data-ttu-id="cb652-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="cb652-131">Click Save.</span></span>
-22. <span data-ttu-id="cb652-132">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="cb652-132">Click Post.</span></span>
-23. <span data-ttu-id="cb652-133">Atzīmējiet vai notīriet izvēles rūtiņu Visas grāmatošanas kļūdas pārsūtīt uz jaunu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="cb652-133">Check or uncheck the Transfer all posting errors to a new journal check box.</span></span>
-    * <span data-ttu-id="cb652-134">Ja iespējosiet šo opciju, jebkuras neiegrāmatotas rindas tiks kopētas uz jaunu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="cb652-134">If you enable this option, any lines that fail to post will be copied to a new journal.</span></span> <span data-ttu-id="cb652-135">Žurnāla informāciju var izmantot, lai labotu problēmas un pēc tam vēlreiz grāmatot rindas.</span><span class="sxs-lookup"><span data-stu-id="cb652-135">You can use the information in the log to correct the issues and then re-post the lines.</span></span>  
-24. <span data-ttu-id="cb652-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="cb652-136">Click OK.</span></span>
-25. <span data-ttu-id="cb652-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="cb652-137">Close the page.</span></span>
-26. <span data-ttu-id="cb652-138">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="cb652-138">Close the page.</span></span>
-
+1. <span data-ttu-id="32263-108">Dodieties uz Krājumu vadība > Žurnāla ieraksti > Krājumi > Kustība.</span><span class="sxs-lookup"><span data-stu-id="32263-108">Go to Inventory management > Journal entries > Items > Movement.</span></span>
+2. <span data-ttu-id="32263-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="32263-109">Click New.</span></span>
+3. <span data-ttu-id="32263-110">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="32263-110">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="32263-111">Atlasiet IMov.</span><span class="sxs-lookup"><span data-stu-id="32263-111">Select IMov.</span></span>
+    * <span data-ttu-id="32263-112">Dažādiem uzņēmējdarbības nolūkiem ieteicams izmantot atšķirīgas žurnāla nosaukuma veidnes.</span><span class="sxs-lookup"><span data-stu-id="32263-112">It’s a good practise to use different journal name templates for the different business purposes.</span></span>  
+5. <span data-ttu-id="32263-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="32263-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="32263-114">Laukā Korespondējošais konts norādiet vērtības "140200".</span><span class="sxs-lookup"><span data-stu-id="32263-114">In the Offset account field, specify the values '140200'.</span></span>
+    * <span data-ttu-id="32263-115">Tas ir korespondējošais konts, kas būs noklusējuma korespondējošais konts žurnāla rindās.</span><span class="sxs-lookup"><span data-stu-id="32263-115">This is the offset account that will be the default account on the journal lines.</span></span> <span data-ttu-id="32263-116">Ir iespējams ignorēt noklusējumu, piešķirot dažādus korespondējošos kontus katrai rindai.</span><span class="sxs-lookup"><span data-stu-id="32263-116">It’s possible to override the default to assign different offset accounts per line.</span></span>  
+7. <span data-ttu-id="32263-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="32263-117">Click OK.</span></span>
+8. <span data-ttu-id="32263-118">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="32263-118">Click New.</span></span>
+9. <span data-ttu-id="32263-119">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="32263-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="32263-120">Atlasiet krājumu A0001.</span><span class="sxs-lookup"><span data-stu-id="32263-120">Select item A0001.</span></span>
+11. <span data-ttu-id="32263-121">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="32263-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="32263-122">Noklikšķiniet uz cilnes Krājumu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="32263-122">Click the Inventory dimensions tab.</span></span>
+13. <span data-ttu-id="32263-123">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="32263-123">In the Site field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="32263-124">Atlasiet vietu 1.</span><span class="sxs-lookup"><span data-stu-id="32263-124">Select site 1.</span></span>
+15. <span data-ttu-id="32263-125">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="32263-125">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="32263-126">Atlasiet noliktavu 13.</span><span class="sxs-lookup"><span data-stu-id="32263-126">Select warehouse 13.</span></span>
+17. <span data-ttu-id="32263-127">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="32263-127">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="32263-128">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="32263-128">In the Location field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="32263-129">Atlasiet novietojumu 13.</span><span class="sxs-lookup"><span data-stu-id="32263-129">Select location 13.</span></span>
+20. <span data-ttu-id="32263-130">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="32263-130">In the Quantity field, enter a number.</span></span>
+21. <span data-ttu-id="32263-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="32263-131">Click Save.</span></span>
+22. <span data-ttu-id="32263-132">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="32263-132">Click Post.</span></span>
+23. <span data-ttu-id="32263-133">Atzīmējiet vai notīriet izvēles rūtiņu Visas grāmatošanas kļūdas pārsūtīt uz jaunu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="32263-133">Check or uncheck the Transfer all posting errors to a new journal check box.</span></span>
+    * <span data-ttu-id="32263-134">Ja iespējosiet šo opciju, jebkuras neiegrāmatotas rindas tiks kopētas uz jaunu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="32263-134">If you enable this option, any lines that fail to post will be copied to a new journal.</span></span> <span data-ttu-id="32263-135">Žurnāla informāciju var izmantot, lai labotu problēmas un pēc tam vēlreiz grāmatot rindas.</span><span class="sxs-lookup"><span data-stu-id="32263-135">You can use the information in the log to correct the issues and then re-post the lines.</span></span>  
+24. <span data-ttu-id="32263-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="32263-136">Click OK.</span></span>
+25. <span data-ttu-id="32263-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="32263-137">Close the page.</span></span>
+26. <span data-ttu-id="32263-138">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="32263-138">Close the page.</span></span>
 

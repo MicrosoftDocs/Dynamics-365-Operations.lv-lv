@@ -1,13 +1,13 @@
---- 
+---
 title: " Preču iepakojumu izveide pirkšanas pasūtījumiem"
-description: "Šajā procedūrā ir aprakstīts, ka izveidot preču pakotni un izmantot to pirkšanas pasūtījumā."
+description: Šajā procedūrā ir aprakstīts, ka izveidot preču pakotni un izmantot to pirkšanas pasūtījumā.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,61 +16,60 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: b7a7386a9be15f4eeef7aaab73cb320b71994eea
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360444"
 ---
-# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="4bc41-103"> Preču iepakojumu izveide pirkšanas pasūtījumiem</span><span class="sxs-lookup"><span data-stu-id="4bc41-103">Create product packages for purchase orders</span></span>
+# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="83fa6-103"> Preču iepakojumu izveide pirkšanas pasūtījumiem</span><span class="sxs-lookup"><span data-stu-id="83fa6-103">Create product packages for purchase orders</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4bc41-104">Šajā procedūrā ir aprakstīts, ka izveidot preču pakotni un izmantot to pirkšanas pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="4bc41-105">Pirkšanas pasūtījums tiks izmantots, lai izveidotu pasūtījumu iepriekš definētai preču kopai.</span><span class="sxs-lookup"><span data-stu-id="4bc41-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="4bc41-106">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="4bc41-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="83fa6-104">Šajā procedūrā ir aprakstīts, ka izveidot preču pakotni un izmantot to pirkšanas pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="83fa6-105">Pirkšanas pasūtījums tiks izmantots, lai izveidotu pasūtījumu iepriekš definētai preču kopai.</span><span class="sxs-lookup"><span data-stu-id="83fa6-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="83fa6-106">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="83fa6-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-product-package"></a><span data-ttu-id="4bc41-107">Preču pakotnes izveide</span><span class="sxs-lookup"><span data-stu-id="4bc41-107">Create a product package</span></span>
-1. <span data-ttu-id="4bc41-108">Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Krājumu pārvaldība > Papildināšana > Preču pakotnes.</span><span class="sxs-lookup"><span data-stu-id="4bc41-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
-2. <span data-ttu-id="4bc41-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="4bc41-109">Click New.</span></span>
-3. <span data-ttu-id="4bc41-110">Laukā Pakotnes numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="4bc41-110">In the Package number field, type a value.</span></span>
-4. <span data-ttu-id="4bc41-111">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="4bc41-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="4bc41-112">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="4bc41-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="4bc41-114">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="4bc41-114">Click Add.</span></span>
-8. <span data-ttu-id="4bc41-115">Laukā Krājuma kods ierakstiet 0160.</span><span class="sxs-lookup"><span data-stu-id="4bc41-115">In the Item number field, type '0160'.</span></span>
-9. <span data-ttu-id="4bc41-116">Laukā Lielums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-116">In the Size field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="4bc41-117">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="4bc41-118">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="4bc41-118">In the Quantity field, enter a number.</span></span>
-12. <span data-ttu-id="4bc41-119">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="4bc41-119">Click Add.</span></span>
-13. <span data-ttu-id="4bc41-120">Laukā Krājuma kods ierakstiet 0160.</span><span class="sxs-lookup"><span data-stu-id="4bc41-120">In the Item number field, type '0160'.</span></span>
-14. <span data-ttu-id="4bc41-121">Laukā Varianta numurs noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="4bc41-122">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-122">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="4bc41-123">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="4bc41-123">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="4bc41-124">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="4bc41-124">Click Add.</span></span>
-18. <span data-ttu-id="4bc41-125">Laukā Krājuma kods ierakstiet 0175.</span><span class="sxs-lookup"><span data-stu-id="4bc41-125">In the Item number field, type '0175'.</span></span>
-19. <span data-ttu-id="4bc41-126">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="4bc41-126">In the Quantity field, enter a number.</span></span>
-20. <span data-ttu-id="4bc41-127">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="4bc41-127">Click Save.</span></span>
-21. <span data-ttu-id="4bc41-128">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-128">Close the page.</span></span>
+## <a name="create-a-product-package"></a><span data-ttu-id="83fa6-107">Preču pakotnes izveide</span><span class="sxs-lookup"><span data-stu-id="83fa6-107">Create a product package</span></span>
+1. <span data-ttu-id="83fa6-108">Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Krājumu pārvaldība > Papildināšana > Preču pakotnes.</span><span class="sxs-lookup"><span data-stu-id="83fa6-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
+2. <span data-ttu-id="83fa6-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="83fa6-109">Click New.</span></span>
+3. <span data-ttu-id="83fa6-110">Laukā Pakotnes numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="83fa6-110">In the Package number field, type a value.</span></span>
+4. <span data-ttu-id="83fa6-111">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="83fa6-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="83fa6-112">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="83fa6-113">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="83fa6-114">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="83fa6-114">Click Add.</span></span>
+8. <span data-ttu-id="83fa6-115">Laukā Krājuma kods ierakstiet 0160.</span><span class="sxs-lookup"><span data-stu-id="83fa6-115">In the Item number field, type '0160'.</span></span>
+9. <span data-ttu-id="83fa6-116">Laukā Lielums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-116">In the Size field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="83fa6-117">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="83fa6-118">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="83fa6-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="83fa6-119">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="83fa6-119">Click Add.</span></span>
+13. <span data-ttu-id="83fa6-120">Laukā Krājuma kods ierakstiet 0160.</span><span class="sxs-lookup"><span data-stu-id="83fa6-120">In the Item number field, type '0160'.</span></span>
+14. <span data-ttu-id="83fa6-121">Laukā Varianta numurs noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="83fa6-122">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="83fa6-123">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="83fa6-123">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="83fa6-124">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="83fa6-124">Click Add.</span></span>
+18. <span data-ttu-id="83fa6-125">Laukā Krājuma kods ierakstiet 0175.</span><span class="sxs-lookup"><span data-stu-id="83fa6-125">In the Item number field, type '0175'.</span></span>
+19. <span data-ttu-id="83fa6-126">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="83fa6-126">In the Quantity field, enter a number.</span></span>
+20. <span data-ttu-id="83fa6-127">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="83fa6-127">Click Save.</span></span>
+21. <span data-ttu-id="83fa6-128">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-128">Close the page.</span></span>
 
-## <a name="add-package-to-purchase-order"></a><span data-ttu-id="4bc41-129">Iepakojuma pievienošana pirkšanas pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="4bc41-129">Add package to purchase order</span></span>
-1. <span data-ttu-id="4bc41-130">Pārejiet uz sadaļu Kreditori > Pirkšanas pasūtījumi > Visi pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="4bc41-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="4bc41-131">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="4bc41-131">Click New.</span></span>
-3. <span data-ttu-id="4bc41-132">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="4bc41-133">Sarakstā atlasiet to pašu kreditoru, kam iepriekš tika izveidota preču pakotne, ja kreditors tika atlasīts.</span><span class="sxs-lookup"><span data-stu-id="4bc41-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
-5. <span data-ttu-id="4bc41-134">Pārslēdziet sadaļas Vispārīgi paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-134">Toggle the expansion of the General section.</span></span>
-6. <span data-ttu-id="4bc41-135">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-135">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="4bc41-136">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-136">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="4bc41-137">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="4bc41-138">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-138">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="4bc41-139">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="4bc41-139">Click OK.</span></span>
-11. <span data-ttu-id="4bc41-140">Pārslēdziet sadaļas Detalizēta rindas informācija paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="4bc41-140">Toggle the expansion of the Line details section.</span></span>
-12. <span data-ttu-id="4bc41-141">Noklikšķiniet uz cilnes Preču pakotnes.</span><span class="sxs-lookup"><span data-stu-id="4bc41-141">Click the Product packages tab.</span></span>
-13. <span data-ttu-id="4bc41-142">Noklikšķiniet uz Pirkšanas pasūtījuma rinda.</span><span class="sxs-lookup"><span data-stu-id="4bc41-142">Click Purchase order line.</span></span>
-14. <span data-ttu-id="4bc41-143">Noklikšķiniet uz Izveidot rindas, izmantojot pakotni.</span><span class="sxs-lookup"><span data-stu-id="4bc41-143">Click Create lines from package.</span></span>
-15. <span data-ttu-id="4bc41-144">Sarakstā atrodiet un atlasiet preču pakotni, kas tika izveidota iepriekšējā darbībā.</span><span class="sxs-lookup"><span data-stu-id="4bc41-144">In the list, find and select the product package created in previous step.</span></span>
-16. <span data-ttu-id="4bc41-145">Laukā Daudzums ierakstiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="4bc41-145">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="4bc41-146">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="4bc41-146">Click Create.</span></span>
-18. <span data-ttu-id="4bc41-147">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="4bc41-147">Click Save.</span></span>
-
+## <a name="add-package-to-purchase-order"></a><span data-ttu-id="83fa6-129">Iepakojuma pievienošana pirkšanas pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="83fa6-129">Add package to purchase order</span></span>
+1. <span data-ttu-id="83fa6-130">Pārejiet uz sadaļu Kreditori > Pirkšanas pasūtījumi > Visi pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="83fa6-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="83fa6-131">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="83fa6-131">Click New.</span></span>
+3. <span data-ttu-id="83fa6-132">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="83fa6-133">Sarakstā atlasiet to pašu kreditoru, kam iepriekš tika izveidota preču pakotne, ja kreditors tika atlasīts.</span><span class="sxs-lookup"><span data-stu-id="83fa6-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
+5. <span data-ttu-id="83fa6-134">Pārslēdziet sadaļas Vispārīgi paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-134">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="83fa6-135">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-135">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="83fa6-136">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-136">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="83fa6-137">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="83fa6-138">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-138">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="83fa6-139">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="83fa6-139">Click OK.</span></span>
+11. <span data-ttu-id="83fa6-140">Pārslēdziet sadaļas Detalizēta rindas informācija paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="83fa6-140">Toggle the expansion of the Line details section.</span></span>
+12. <span data-ttu-id="83fa6-141">Noklikšķiniet uz cilnes Preču pakotnes.</span><span class="sxs-lookup"><span data-stu-id="83fa6-141">Click the Product packages tab.</span></span>
+13. <span data-ttu-id="83fa6-142">Noklikšķiniet uz Pirkšanas pasūtījuma rinda.</span><span class="sxs-lookup"><span data-stu-id="83fa6-142">Click Purchase order line.</span></span>
+14. <span data-ttu-id="83fa6-143">Noklikšķiniet uz Izveidot rindas, izmantojot pakotni.</span><span class="sxs-lookup"><span data-stu-id="83fa6-143">Click Create lines from package.</span></span>
+15. <span data-ttu-id="83fa6-144">Sarakstā atrodiet un atlasiet preču pakotni, kas tika izveidota iepriekšējā darbībā.</span><span class="sxs-lookup"><span data-stu-id="83fa6-144">In the list, find and select the product package created in previous step.</span></span>
+16. <span data-ttu-id="83fa6-145">Laukā Daudzums ierakstiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="83fa6-145">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="83fa6-146">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="83fa6-146">Click Create.</span></span>
+18. <span data-ttu-id="83fa6-147">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="83fa6-147">Click Save.</span></span>
 

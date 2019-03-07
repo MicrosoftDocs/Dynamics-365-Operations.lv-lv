@@ -1,13 +1,13 @@
---- 
-title: "Preces dzīves cikla stāvokļa piešķiršana izlaistai precei"
-description: "Šajā procedūrā ir parādīts, kā piešķirt preces dzīves cikla stāvokli izlaistai precei."
+---
+title: Preces dzīves cikla stāvokļa piešķiršana izlaistai precei
+description: Šajā procedūrā ir parādīts, kā piešķirt preces dzīves cikla stāvokli izlaistai precei.
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,26 +15,25 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348645"
 ---
-# <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="39189-103">Preces dzīves cikla stāvokļa piešķiršana izlaistai precei</span><span class="sxs-lookup"><span data-stu-id="39189-103">Assign a product lifecycle state to a released product</span></span>
+# <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="a970b-103">Preces dzīves cikla stāvokļa piešķiršana izlaistai precei</span><span class="sxs-lookup"><span data-stu-id="a970b-103">Assign a product lifecycle state to a released product</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="39189-104">Šajā procedūrā ir parādīts, kā piešķirt preces dzīves cikla stāvokli izlaistai precei.</span><span class="sxs-lookup"><span data-stu-id="39189-104">This procedure shows how to assign a product lifecycle state to a released product.</span></span> <span data-ttu-id="39189-105">Priekšnosacījums: pirms šī ceļveža atskaņošanas nepieciešams atskaņot uzdevumu ceļvedi “Jauna preces dzīves cikla stāvokļa izveidošana", lai pārliecinātos, ka ir izveidots vismaz viens preces dzīves cikla stāvoklis.</span><span class="sxs-lookup"><span data-stu-id="39189-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that at least one product lifecycle state is created before you can play this guide.</span></span>
+<span data-ttu-id="a970b-104">Šajā procedūrā ir parādīts, kā piešķirt preces dzīves cikla stāvokli izlaistai precei.</span><span class="sxs-lookup"><span data-stu-id="a970b-104">This procedure shows how to assign a product lifecycle state to a released product.</span></span> <span data-ttu-id="a970b-105">Priekšnosacījums: pirms šī ceļveža atskaņošanas nepieciešams atskaņot uzdevumu ceļvedi “Jauna preces dzīves cikla stāvokļa izveidošana", lai pārliecinātos, ka ir izveidots vismaz viens preces dzīves cikla stāvoklis.</span><span class="sxs-lookup"><span data-stu-id="a970b-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that at least one product lifecycle state is created before you can play this guide.</span></span>
 
 
-## <a name="find-a-released-product-that-you-want-to-assign-a-product-lifcycle-state"></a><span data-ttu-id="39189-106">Atrodiet izlaistu preci, kurai vēlaties piešķirt preces dzīves cikla stāvokli</span><span class="sxs-lookup"><span data-stu-id="39189-106">Find a released product that you want to assign a product lifcycle state</span></span>
-1. <span data-ttu-id="39189-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="39189-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="39189-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="39189-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="39189-109">Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību “d”.</span><span class="sxs-lookup"><span data-stu-id="39189-109">For example, filter on the Item number field with a value of 'd'.</span></span>
-3. <span data-ttu-id="39189-110">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="39189-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="39189-111">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="39189-111">Click Edit.</span></span>
-5. <span data-ttu-id="39189-112">Laukā Preces dzīves cikla stāvoklis ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="39189-112">In the Product lifecycle state field, enter or select a value.</span></span>
-6. <span data-ttu-id="39189-113">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="39189-113">Click Save.</span></span>
-
+## <a name="find-a-released-product-that-you-want-to-assign-a-product-lifcycle-state"></a><span data-ttu-id="a970b-106">Atrodiet izlaistu preci, kurai vēlaties piešķirt preces dzīves cikla stāvokli</span><span class="sxs-lookup"><span data-stu-id="a970b-106">Find a released product that you want to assign a product lifcycle state</span></span>
+1. <span data-ttu-id="a970b-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="a970b-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="a970b-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="a970b-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="a970b-109">Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību “d”.</span><span class="sxs-lookup"><span data-stu-id="a970b-109">For example, filter on the Item number field with a value of 'd'.</span></span>
+3. <span data-ttu-id="a970b-110">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a970b-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="a970b-111">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a970b-111">Click Edit.</span></span>
+5. <span data-ttu-id="a970b-112">Laukā Preces dzīves cikla stāvoklis ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a970b-112">In the Product lifecycle state field, enter or select a value.</span></span>
+6. <span data-ttu-id="a970b-113">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a970b-113">Click Save.</span></span>
 
