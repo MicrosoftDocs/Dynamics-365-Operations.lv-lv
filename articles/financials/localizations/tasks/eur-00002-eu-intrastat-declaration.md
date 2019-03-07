@@ -1,13 +1,13 @@
---- 
-title: "EUR-00002 Ģenerēt ES Intrastat deklarāciju"
-description: "Šajā procedūrā ir aprakstīti soļi, kas nepieciešami, lai eksportētu Intrastat deklarāciju elektroniskā faila formātā un priekšskatītu deklarācijas datus Excel formātā."
+---
+title: EUR-00002 Ģenerēt ES Intrastat deklarāciju
+description: Šajā procedūrā ir aprakstīti soļi, kas nepieciešami, lai eksportētu Intrastat deklarāciju elektroniskā faila formātā un priekšskatītu deklarācijas datus Excel formātā.
 author: Anasyash
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371306"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 Ģenerēt ES Intrastat deklarāciju
 
@@ -58,7 +58,7 @@ Lai varētu veikt šo procedūru, ir jāveic transakciju pārsūtīšana uz Intr
     * Ievadiet noapaļošanas precizitāti, piemēram, ievadiet “0,01”.  
 7. Ievadiet skaitli laukā Aiz komata esošo ciparu skaits summai.
     * Piemēram, ievadiet “2”.  
-8. Atlasiet opciju laukā Noapaļošana zem 1 kg.
+8. Atlasiet opciju laukā Noapaļošana zem 1 kg.
     * Piemēram, atlasiet “Noapaļošana uz augšu līdz 1 kg”.  
 9. Ievadiet skaitli laukā Noapaļošanas nosacījums.
     * Piemēram, ievadiet “1”, lai noapaļotu svaru līdz veselam skaitlim.  
@@ -113,5 +113,4 @@ Lai varētu veikt šo procedūru, ir jāveic transakciju pārsūtīšana uz Intr
 26. Laukā Virziens atlasiet opciju.
     * Piemēram atlasiet “Izejošie krājumi”.  
 27. Noklikšķiniet uz OK.
-
 

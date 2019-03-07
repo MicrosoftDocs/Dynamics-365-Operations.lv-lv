@@ -1,51 +1,50 @@
 ---
-title: "Power BI satura pakotne Prakses pārvaldnieks"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Prakses pārvaldnieks
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367804"
 ---
-
-# <a name="practice-manager-power-bi-content"></a>Power BI satura pakotne Prakses pārvaldnieks
+# <a name="practice-manager-power-bi-content"></a>Power BI satura pakotne Prakses pārvaldnieks
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Prakses pārvaldnieks**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Prakses pārvaldnieks**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
-Power BI satura pakotne **Prakses pārvaldnieks** ir izveidota prakses pārvaldnieku un projektu vadītāju vajadzībām. Tā nodrošina galvenos rādītājus, kas ir saistīti ar organizācijas pašreizējo projektu. Informācijas panelis sniedz pārskatu par projektiem un saistītajiem debitoriem. Lai veidotu pārskatu par noteiktām juridiskajām personām, var izmantot pārskata līmeņa filtru. Šim Power BI saturam dati tiek izvilkti no projekta uzskaites apkopojuma mērījumiem.
+Power BI satura pakotne **Prakses pārvaldnieks** ir izveidota prakses pārvaldnieku un projektu vadītāju vajadzībām. Tā nodrošina galvenos rādītājus, kas ir saistīti ar organizācijas pašreizējo projektu. Informācijas panelis sniedz pārskatu par projektiem un saistītajiem debitoriem. Lai veidotu pārskatu par noteiktām juridiskajām personām, var izmantot pārskata līmeņa filtru. Šī Power BI satura pakotne izgūst datus no projekta uzskaites apkopošanas mērījumiem.
 
-Power BI **Prakses pārvaldnieks** saturā ir ietvertas piecas pārskata lapas: viena kopsavilkuma lapa un četras lapas, kurās ir sniegta detalizēta informācija par projekta izmaksu, ieņēmumu, nopelnītās vērtības pārvaldības un laika rādītājiem, kas ir sadalīti dažādās dimensijās.
+Power BI satura pakotnē **Prakses pārvaldnieks** ir ietvertas piecas pārskata lapas: viena apskata lapa un četras lapas, kurās ir sniegta detalizēta informācija par projekta izmaksu, ieņēmumu, nopelnītās vērtības pārvaldības un laika rādītājiem, kas ir sadalīti vairākās dimensijās.
 
 Visas satura pakotnē ietvertās summas ir norādītas sistēmas valūtā. Sistēmas valūtu varat iestatīt lapā **Sistēmas parametri**.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 
-Power BI satura pakotne **Prakses pārvaldnieks** tiek rādīta darbvietā **Projektu pārvaldība**.
+Power BI satura pakotne **Prakses pārvaldnieks** tiek rādīta darbvietā **Projektu pārvaldība**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 
-Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir iekļauti katrā Power BI satura pakotnes **Prakses pārvaldnieks** pārskata lapā.
+Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir iekļauti katrā Power BI satura pakotnes **Prakses pārvaldnieks** pārskata lapā.
 
 | Pārskata lapa       | Metrika |
 |-------------------|---------|
@@ -55,11 +54,11 @@ Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem,
 | EVM               | Izmaksu un grafika veiktspējas rādītājs pa projektiem |
 | Stundas             | <ul><li>Faktisko apmaksājamo izmantoto stundu, faktisko apmaksājamo neproduktīvo stundu un budžeta stundu salīdzinājums</li><li>Faktisko apmaksājamo izmantoto stundu un faktisko apmaksājamo neproduktīvo stundu salīdzinājums pa projektiem</li><li>Faktisko apmaksājamo izmantoto stundu un faktisko apmaksājamo neproduktīvo stundu salīdzinājums pa resursiem</li><li>Faktisko apmaksājamo stundu koeficients pa projektiem</li><li>Faktisko apmaksājamo stundu koeficients pa resursiem</li></ul> |
 
-Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Plašāku informāciju par filtrēšanu un piespraušanu programmatūrā Power BI skatiet tēmā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
+Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
-**Prakses pārvaldnieka** Power BI satura pārskatu lapu aizpildīšanai tiek lietots tālāk minētie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
+Power BI satura pakotnes **Prakses pārvaldnieks** pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
 
 Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek izmantoti katrā elementā.
 
@@ -119,4 +118,3 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Galvenais apkopošanas mērījums       | Lauks               | Apraksts |
 |---------------------------------|---------------------|-------------|
 | Pabeigtās aktivitātes plānotās izmaksas | Sum(TotalCostPrice) | Visu pabeigtus uzdevumus ietverošo projekta transakciju veidu novērtētas izmaksu cenas kopsumma. |
-

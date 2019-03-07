@@ -1,13 +1,13 @@
 ---
-title: "Finanšu pārskata komponenti"
-description: "Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Rakstā ir paskaidrots, kā organizēt un bloķēt veidošanas blokus un kā strādāt ar veidošanas bloku grupām."
+title: Finanšu pārskata komponenti
+description: Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Rakstā ir paskaidrots, kā organizēt un bloķēt veidošanas blokus un kā strādāt ar veidošanas bloku grupām.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368149"
 ---
-
 # <a name="financial-report-components"></a>Finanšu pārskata komponenti
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Šajā rakstā ir paskaidrots, kā sakārtot un bloķēt veidošanas blokus.
 
-Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāciju vismazākajos komponentos jeb veidošanas blokos, lai šos komponentus varētu pēc nepieciešamības jaukt un kombinēt. Tādēļ jūsu atskaišu formatējums atrodas atsevišķi no jūsu finanšu datiem un atskaites noformējumu varat mainīt, nemainot finanšu datus savā Microsoft Dynamics ERP sistēmā. Izmantojot šo veidošanas bloku pieeju, ir iespējams kombinēt tekstu, summas un aprēķinus, lai veidotu jums nepieciešamās atskaites. Turklāt šī elastība atbalsta radošu pieeju, atvieglojot darbību apskatīšanu dažādos veidos. Atsevišķie atskaites definīcijas veidošanas bloki ir līdzīgi trīsdimensiju izklājlapai, bet tie sniedz vairāk iespēju. Atskaites definīcija norāda rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, kas ir jāizmanto šai atskaitei. Tas iekļauj arī informāciju par to, kur glabāt ģenerēto atskaiti un kā to formatēt.
+Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāciju vismazākajos komponentos jeb veidošanas blokos, lai šos komponentus varētu pēc nepieciešamības jaukt un kombinēt. Tāpēc pārskatu formatējums ir nošķirts no finanšu datiem un varat mainīt pārskata noformējumu, neizmainot finanšu datus savā Microsoft Dynamics ERP sistēmā. Izmantojot šo veidošanas bloku pieeju, ir iespējams kombinēt tekstu, summas un aprēķinus, lai veidotu jums nepieciešamās atskaites. Turklāt šī elastība atbalsta radošu pieeju, atvieglojot darbību apskatīšanu dažādos veidos. Atsevišķie atskaites definīcijas veidošanas bloki ir līdzīgi trīsdimensiju izklājlapai, bet tie sniedz vairāk iespēju. Atskaites definīcija norāda rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, kas ir jāizmanto šai atskaitei. Tas iekļauj arī informāciju par to, kur glabāt ģenerēto atskaiti un kā to formatēt.
 
 ## <a name="building-blocks-of-a-report"></a>Pārskata veidošanas bloki
 
@@ -82,7 +81,7 @@ Varat skatīt visus veidošanas blokus, kas ir piešķirti veidošanas bloku gru
 
 ### <a name="export-a-building-block-group"></a>Veidošanas bloku grupas eksportēšana
 
-Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bloku grupā ietvertos veidošanas blokus. Eksportēto veidošanas bloku grupu var izmantot kā dublējumkopiju. Varat arī kopēt eksportētos datus no vienas Finance and Operations instalācijas uz citu. Pārskatu veidotājā kopā ar veidošanas bloku grupu tiek ietverti arī ar atsauci izmantotie fontu stili un dimensiju kopas.
+Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bloku grupā ietvertos veidošanas blokus. Eksportēto veidošanas bloku grupu var izmantot kā dublējumkopiju. Varat arī kopēt eksportētos datus no vienas Finance and Operations instalācijas uz citu. Pārskatu veidotājā kopā ar veidošanas bloku grupu ir ietverti arī ar atsauci norādītie fontu stili un dimensiju kopas.
 
 1. Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
 2. Dialoglodziņā **Veidošanas bloku grupas** atlasiet eksportējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Eksportēt**.
@@ -128,4 +127,3 @@ Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas pi
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-

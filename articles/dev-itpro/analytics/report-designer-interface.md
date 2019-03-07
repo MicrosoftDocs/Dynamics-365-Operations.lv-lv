@@ -1,13 +1,13 @@
 ---
-title: "Pārskatu veidotāja saskarne"
-description: "Šajā rakstā ir paskaidrots, kā pārvietoties atskaišu veidotājā un kā izmantot dažādās opcijas, lai izpildītu jūsu konkrētās prasības."
+title: Pārskatu veidotāja saskarne
+description: Šajā rakstā ir paskaidrots, kā pārvietoties atskaišu veidotājā un kā izmantot dažādās opcijas, lai izpildītu jūsu konkrētās prasības.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e9b77e2b510a72d1e3fe3c68c997d58245a86a27
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368034"
 ---
-
 # <a name="report-designer-interface"></a>Pārskatu veidotāja saskarne
 
 [!include [banner](../includes/banner.md)]
@@ -139,7 +138,7 @@ Izvēlne **Rīki** ir pieejama visiem lietotājiem, bet dažām komandām ir ier
 |-------------------------------|-------------|
 | Aizsargāt                       | Pašreizējam veidošanas blokam tiek lietota parole. Komanda ir pieejama lietotājiem, kuriem ir **veidotāja** vai **administratora** loma. |
 | Pārskatu rindas statuss           | Atvērt dialoglodziņu **Pārskata rindas statuss**, kur varat redzēt visus nesen ģenerētos pārskatus un detalizētu informāciju par katru pārskatu. |
-| Avota sistēmas informācija     | Tiek parādīti Microsoft Dynamics ERP sistēmas iestatījumi. Komanda ir pieejama lietotājiem, kuriem ir **veidotāja** vai **administratora** loma. |
+| Avota sistēmas informācija     | Tiek parādīti jūsu Microsoft Dynamics ERP sistēmas iestatījumi. Komanda ir pieejama lietotājiem, kuriem ir **veidotāja** vai **administratora** loma. |
 | Paņemtie krājumi             | Tiek parādītas pašreiz atvērtās rindu, kolonnu, pārskatu koka un pārskatu definīcijas. Komanda ir pieejama lietotājiem, kuriem ir **veidotāja** vai **administratora** loma. |
 | Atsvaidzināt kešotos finanšu datus | Tiek atjaunināti finanšu dimensiju kolonnās ietvertie dati. |
 | Opcijas                       | Atvērt dialoglodziņu **Opcijas**, kurā varat mainīt lietotāja preferences pārskata veidotāja videi. |
@@ -229,4 +228,3 @@ Atskaišu veidotāja rīkjosla sniedz ātru piekļuvi komandām, kas paredzētas
 [Finanšu pārskati](financial-reporting-intro.md)
 
 [Ģenerēt finanšu pārskatu](generate-financial-report.md)
-

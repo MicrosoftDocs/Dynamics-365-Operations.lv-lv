@@ -1,13 +1,13 @@
 ---
 title: Izmaksu elementu dimensijas
-description: "Kā viens no pamatelementiem Izmaksu uzskaitē, izmaksu elementa dimensijas tiek izmantotas, lai sadalītu kategorijās un izsekotu, uz kurieni plūst izmaksas."
+description: Kā viens no pamatelementiem Izmaksu uzskaitē, izmaksu elementa dimensijas tiek izmantotas, lai sadalītu kategorijās un izsekotu, uz kurieni plūst izmaksas.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f47c75b6f6f4533501070f78698de82cf70f9bd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366079"
 ---
-
 # <a name="cost-element-dimensions"></a>Izmaksu elementu dimensijas
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Lai vienkāršotu izmaksu elementa dimensijas dalībnieku iestatīšanu Izmaksu 
 
 ## <a name="implementation-considerations"></a>Ieviešanas apsvērumi
 Tā kā izmaksu elementi pārstāv izmaksu informācijas zemāko līmeni, jums nepieciešams pārliecināties, ka visi izmaksu elementi, kas ir nepieciešami vadības pārskata izveidei, ir iekļauti, īstenojot izmaksu elementu struktūru. Var būt sarežģīti atrast atbilstošu izmaksu elementu skaitu izmaksu kontrolei. Tā kā pastāv tūkstošiem izmaksu elementu, var būt sarežģīti kontrolēt katru izmaksu elementu. Alternatīva metode - jūs varat grupēt izmaksu elementus un pārvaldīt izmaksu kontroli uzkrātajā līmenī.
-
 
 
 

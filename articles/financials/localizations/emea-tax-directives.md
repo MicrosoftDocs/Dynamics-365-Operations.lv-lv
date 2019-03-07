@@ -1,13 +1,13 @@
 ---
-title: "Nodokļu direktīvas Eiropai"
-description: "Var norādīt, vai iekļaut PVN kodu skaidrojumu pārdošanas rēķinos un projekta rēķinos. Atsauces numurus var drukāt uz pārdošanas rēķiniem, brīva teksta rēķiniem un projekta rēķiniem."
+title: Nodokļu direktīvas Eiropai
+description: Var norādīt, vai iekļaut PVN kodu skaidrojumu pārdošanas rēķinos un projekta rēķinos. Atsauces numurus var drukāt uz pārdošanas rēķiniem, brīva teksta rēķiniem un projekta rēķiniem.
 author: epodkolz
 manager: AnnBe
 ms.date: 05/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 42861a66b44d6156341bf2d4d895a4bf35295ee6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 1a2d4531e13d158dd8b93d9b9e94a17a8f94c50a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371258"
 ---
-
 # <a name="tax-directives-for-europe"></a>Nodokļu direktīvas Eiropai
 
 [!include [banner](../includes/banner.md)]
@@ -31,5 +30,4 @@ ES direktīvā ir noteikumi, kas visām Dalībvalstīm ir jāievēro attiecība
 
 - Lai pārdošanas rēķinā, brīva teksta rēķinā vai projekta rēķinu pārskatā drukātu PVN kodu aprakstu, PVN kodiem iestatiet nodokļu direktīvas atsauces tekstu.
 - Kredīta notām sākotnēja rēķina numurs un datums tiek drukāti kopā ar labojuma pamatojumu.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Krājumu žurnāla pārskati"
-description: "Kad lietojat konfigurējamus krājumu pārskatus, kuru pamatā ir elektronisko pārskatu veidošana, ir nepieciešams iestatīt attiecības starp konkrētu pārskatu un žurnāla tipu."
+title: Krājumu žurnāla pārskati
+description: Kad lietojat konfigurējamus krājumu pārskatus, kuru pamatā ir elektronisko pārskatu veidošana, ir nepieciešams iestatīt attiecības starp konkrētu pārskatu un žurnāla tipu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalName
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7077522e02f6b91d335c70adc26e23524d65aae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ca43a81ab3e1dfcfec6a69369121265c54dae9a8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371262"
 ---
-
 # <a name="inventory-journal-reports"></a>Krājumu žurnāla pārskati
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Lai iestatītu attiecības starp konkrētu pārskatu un kādu žurnāla tipu, la
 | Latvija             | Pārvietojuma pavadzīme              | Pārsūtījums         | InternalTransferDeliveryNote\_LV        |
 | Latvija             | Uzskaitīšanas dokumenta pārskats            | Inventarizācija         | CountedDocument\_LV                     |
 | Latvija             | Inventarizācijas saraksta pārskats                | Inventarizācija         | Inventarizācijas saraksts                           |
-
 
 
 

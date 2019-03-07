@@ -1,13 +1,13 @@
 ---
-title: "Avansa turētāji"
-description: "Uzziniet par avansa turētāju funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Avansa turētāji
+description: Uzziniet par avansa turētāja funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
 author: LizaGolub
 manager: AnnBe
 ms.date: 08/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
 ms.openlocfilehash: 1fc13461ab166d8f20ea2f56f641c86c3172f33b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371266"
 ---
-
 # <a name="advance-holders"></a>Avansa turētāji
 
 [!include [banner](../includes/banner.md)]
 
-Uzziniet par avansa turētāju funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
+Uzziniet par avansa turētāja funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
 
 *Avansa turētājs* ir uzņēmuma darbinieks, kurš atbild par organizācijas nodrošinātu izdevumu summu. Avansa turētājs var būt tikai uzņēmuma nodarbinātais. Kad notiek sagāde, avansa turētājs ziņo uzņēmumam par notikušajiem izdevumiem. Uzņēmums darbiniekam atlīdzina šo izdevumu summu. Uzņēmums kontrolē bilanci katram avansa turētājam. Lietotāji juridiskajās personās, kas atrodas Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā, var atainot specifiskas transakcijas, kuras pavada tādu uzņēmuma darbinieku operācijas, kuri ir atbildīgi par organizācijas nodrošinātu izdevumu summu.
 
@@ -124,7 +123,7 @@ Lai priekšskatītu un drukātu pārskatu, pamatojoties uz avansa turētāju tra
 
 ## <a name="advance-holder-transactions"></a>Avansa turētāju darbības
 
-Uzziniet, kā strādāt ar avansa turētāju transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.
+Uzziniet, kā strādāt ar avansa turētāja transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.
 
 Šiem darbiniekiem, kuri ir avansa turētāji, transakcijas var grāmatot, izmantojot avansa turētāju kontus. Lai izsekotu visas avansa turētāja transakcijas, var izmantot katram avansa turētājam norādīto nodarbinātā ID. Šis numurs kā konta numurs avansa turētāju transakcijām tiek izgūts lapās **Virsgrāmatas žurnāli** un **Avansa turētāju transakcijas**.
 
@@ -160,7 +159,6 @@ Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai
 
 - [Avansa maksājums darbiniekam (Austrumeiropa)](tasks/advance-payment-employee.md)
 - [Avansa turētāji Krievijai](rus-advance-holders.md)
-
 
 
 

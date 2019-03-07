@@ -1,13 +1,13 @@
 ---
-title: "ISO20022 failu importēšana"
-description: "Šajā tēmā izskaidrots, kā importēt maksājumu failus ISO 20022 camt.054 un pain.002 formātā programmā Microsoft Dynamics 365 for Finance and Operations."
+title: ISO20022 failu importēšana
+description: Šajā tēmā ir paskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations importēt ISO 20022 camt.054 un pain.002 formāta maksājumu failus.
 author: neserovleo
 manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,15 +16,14 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d91e937c62d4d498e67d753e39676514835f4161
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371282"
 ---
-
-# <a name="import-iso20022-files"></a>Importēt ISO20022 failus
+# <a name="import-iso20022-files"></a>ISO20022 failu importēšana
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +35,7 @@ Varat importēt maksājumu failus, kas ir tālāk norādītajos formātos.
 ## <a name="prerequisites-for-importing-the-camt054-credit-advice-file"></a>Priekšnosacījumi camt.054 kredīta izziņas faila importēšanai
 Lai bankas paziņojumus camt.054.001.002 formātā varētu importēt debitoru maksājumu žurnālā, jums ir jāizpilda tālāk norādītie priekšnosacījumi.
 
-1. Importējiet **ISO20022 camt.054** elektronisko pārskatu veidošanas (ER) konfigurāciju no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS). Pēc tam lapas **Debitora maksāšanas metode** laukā **Importēt formāta konfigurāciju** atlasiet šo konfigurāciju. Papildinformāciju skatiet rakstā [Maksāšanas metožu failu formāti](emea-select-file-formats-for-the-method-of-payments.md).
+1. Importējiet **ISO20022 camt.054** formāta elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurāciju no portāla Microsoft Dynamics Lifecycle Services (LCS). Pēc tam lapas **Debitora maksāšanas metode** laukā **Importēt formāta konfigurāciju** atlasiet šo konfigurāciju. Papildinformāciju skatiet rakstā [Maksāšanas metožu failu formāti](emea-select-file-formats-for-the-method-of-payments.md).
 2. Lapā **Visi debitori** ievadiet katra debitora nosaukumu un organizācijas numuru.
 3. Lapā **Debitora bankas konts** iestatiet debitora bankas konta ierakstu, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs.
 4. Lapā **Bankas konti** iestatiet juridiskās personas bankas kontus, ievadot šādu informāciju: IBAN vai bankas konta numurs un SWIFT kods vai reģistrācijas numurs, valūta un adrese.
@@ -130,4 +129,3 @@ Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Ele
 - [Maksājuma metodes iestatīšana ISO20022 pārvietošanai kredītā](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Maksājumu metodes iestatīšana ISO20022 tiešajam debetam](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Kreditoru un kreditoru bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-

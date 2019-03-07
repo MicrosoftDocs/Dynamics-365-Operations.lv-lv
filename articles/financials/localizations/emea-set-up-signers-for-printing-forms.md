@@ -1,13 +1,13 @@
 ---
-title: "Iestatīt parakstītājus drukātajām formām"
-description: "Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi."
+title: Iestatīt parakstītājus drukātajām formām
+description: Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c81625e9a042bf88268759065727bde332d37ea9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 51449f2f8448a493ebf7e4496cebdb90d902869a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371312"
 ---
-
 # <a name="set-up-signers-for-print-forms"></a>Iestatīt parakstītājus drukātajām formām
 
 [!include [banner](../includes/banner.md)]
@@ -118,11 +117,11 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 </tr>
 <tr class="even">
 <td>Vārds, uzvārds</td>
-<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong>). Ja parakstītāja vārds nav iekļauts šajā sarakstā, ievadiet parakstītāja pilno vārdu manuāli.</td>
+<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong>). Ja parakstītāja vārds nav iekļauts šajā sarakstā, manuāli ievadiet parakstītāja pilnu vārdu.</td>
 </tr>
 <tr class="odd">
 <td>Amata nosaukums</td>
-<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav iekļauts šajā sarakstā, ievadiet parakstītāja amatu manuāli.</td>
+<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav iekļauts šajā sarakstā, manuāli ievadiet parakstītāja amatu.</td>
 </tr>
 <tr class="even">
 <td>Konta kods</td>
@@ -163,7 +162,6 @@ Funkcionalitāte Amatpersonas rāda noklusējuma sākotnēji definētos parakst�
 -   Kases orderis
 
 **Piezīme.** Pēc dokumenta grāmatošanas amatpersonas vairs nevar rediģēt.
-
 
 
 

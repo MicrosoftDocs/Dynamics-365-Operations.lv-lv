@@ -1,14 +1,14 @@
 ---
-title: "Drošības un lomu pārvaldība programmā Attract"
-description: "Šajā tēmā ir sniegta informācija par lomu drošību programmā Microsoft Dynamics 365 for Talent - Attract."
+title: Drošības un lomu pārvaldība programmā Attract
+description: Šajā tēmā ir sniegta informācija par lomu drošību programmā Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374784"
 ---
-
-# <a name="security-and-role-management-in-attract"></a>Drošības un lomu pārvaldība programmā Attract
+# <a name="security-and-role-management-in-attract"></a>Drošības un lomu pārvaldība pakalpojumā Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract izmanto uz lomām balstītu drošību. Citiem vārdiem sakot, piekļuve netiek piešķirta atsevišķiem lietotājiem, bet gan drošības lomām, un lietotāji tiek piešķirti šīm drošības lomām. Lietotājam, kas ir piešķirts kādai drošības lomai, ir piekļuve ar šo lomu saistītajai privilēģiju kopai.
+Microsoft Dynamics 365 for Talent: Attract izmanto no lomas atkarīgu drošību. Citiem vārdiem sakot, piekļuve netiek piešķirta atsevišķiem lietotājiem, bet gan drošības lomām, un lietotāji tiek piešķirti šīm drošības lomām. Lietotājam, kas ir piešķirts kādai drošības lomai, ir piekļuve ar šo lomu saistītajai privilēģiju kopai.
 
 Attract nodrošina piecas tālāk uzskaitītās lietotāju pamata lomas.
 
@@ -53,7 +52,7 @@ Nākamajās sadaļās ir sniegts augsta līmeņa apraksts par katru lomu. Tēmā
 
 ## <a name="administrator"></a>Administrators
 
-Lietotāji, kas ir piešķirti lomai “Administrators”, var piekļūt un mainīt visus datus programmā Attract. Administratori var izveidot, lasīt, atjaunināt un dzēst datus. Viņiem ir piekļuve administrēšanas centram, kur viņi var konfigurēt Attract programmu un iestatīt lietotāju informāciju. Iesakām piešķir lomu “Administrators” vismaz vienai personai. Pēc noklusējuma programmu Microsoft PowerApps vides administrators tiek iestatīts kā administrators programmā Attract. Ja reģistrējāties programmas Attract izmēģinājumversijai, jums tiek automātiski piešķirta loma “Administrators”. Lai izveidotu darbus, pašlaik lietotājiem ar lomu “Administrators” ir nepieciešama arī loma “Personāla atlases darbinieks” vai loma “Par pieņemšanu darbā atbildīgais vadītājs”.
+Lietotāji, kas ir piešķirti lomai “Administrators”, var piekļūt un mainīt visus datus programmā Attract. Administratori var izveidot, lasīt, atjaunināt un dzēst datus. Viņiem ir piekļuve administrēšanas centram, kur viņi var konfigurēt Attract programmu un iestatīt lietotāju informāciju. Iesakām piešķir lomu “Administrators” vismaz vienai personai. Pēc noklusējuma Microsoft PowerApps vides administrators tiek iestatīts kā administrators programmā Attract. Ja reģistrējāties programmas Attract izmēģinājumversijai, jums tiek automātiski piešķirta loma “Administrators”. Lai izveidotu darbus, pašlaik lietotājiem ar lomu “Administrators” ir nepieciešama arī loma “Personāla atlases darbinieks” vai loma “Par pieņemšanu darbā atbildīgais vadītājs”.
 
 ## <a name="hiring-manager"></a>Par pieņemšanu darbā atbildīgais vadītājs:
 
@@ -65,7 +64,7 @@ Lietotājiem, kas ir piešķirti lomai “Personāla atlases darbinieks”, ir p
 
 ## <a name="interviewer"></a>Intervētājs
 
-Kā intervētāju darbā pieņemšanas grupai var pievienot jebkuru lietotāju, kuram organizācijā ir Microsoft Azure Active Directory (Azure AD) konts. Lietotāji, kas ir piešķirti lomai “Intervētājs”, var skatīt darba informāciju un kandidāta datus darbiem, kuriem šie lietotāji ir ietverti darbā pieņemšanas grupā. Šiem darbiem intervētāji var izteikt arī ieteikumus par pieņemšanu darbā un sniegt atsauksmes par kandidātiem. Taču viņi nevar atjaunināt darba informāciju vai kandidāta datus.
+Kā intervētāju darbā pieņemšanas grupai var pievienot jebkuru lietotāju, kuram ir Azure Active Directory (Azure AD) konts attiecīgajā organizācijā. Lietotāji, kas ir piešķirti lomai “Intervētājs”, var skatīt darba informāciju un kandidāta datus darbiem, kuriem šie lietotāji ir ietverti darbā pieņemšanas grupā. Šiem darbiem intervētāji var izteikt arī ieteikumus par pieņemšanu darbā un sniegt atsauksmes par kandidātiem. Taču viņi nevar atjaunināt darba informāciju vai kandidāta datus.
 
 ## <a name="read-only"></a>Tikai lasāms
 
@@ -108,7 +107,7 @@ Tālāk norādītās privilēģijas attiecas uz darbam raksturīgo informāciju 
 | Pārcelt uz nākamo posmu           | Var noraidīt, ja lietotājs ir darbā pieņemšanas grupā | Var pārcelt, ja lietotājs ir darbā pieņemšanas grupā | Nav atļauts |
 | Palaist piedāvājumu pārvaldību | Var sākt piedāvājumu pārvaldību | Pastāv konfigurācijas opcija piedāvājumu aktivitātei. | Nav atļauts |
 
-\*\* Konfigurācijas opcija sadaļā [atsauksmju aktivitāšu iestatīšana](./activities-attract.md#feedback-activity) kontrolē to, vai intervētāji var redzēt viens otra atsauksmes.
+\*\* Konfigurācijas opcija sadaļā [atsauksmju aktivitāšu iestatīšana](activities-attract.md#feedback-activity) kontrolē to, vai intervētāji var redzēt viens otra atsauksmes.
 
 ## <a name="process-templates"></a>Procesa veidnes
 
@@ -146,4 +145,3 @@ Kandidāti ir personas, kas ir pievienotas talantu kopai, bet nav saistītas ar 
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profils — informāciju par kandidātu | Izveidot, lasīt, atjaunināt un dzēst | Izveidot, lasīt, atjaunināt un dzēst | Nav piekļuves   |
 | Dokumenti                   | Izveidot, lasīt, atjaunināt un dzēst | Izveidot, lasīt, atjaunināt un dzēst | Nav piekļuves   |
-

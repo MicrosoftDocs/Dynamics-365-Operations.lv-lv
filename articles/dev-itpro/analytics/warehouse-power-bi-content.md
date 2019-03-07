@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Noliktavas veiktspēja"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Noliktavas veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Noliktavas veiktspēja
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Noliktavas veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,37 +18,36 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365366"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Power BI saturs Noliktavas veiktspēja
+# <a name="warehouse-performance-power-bi-content"></a>Power BI satura pakotne Noliktavas veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā **Noliktavas veiktspēja**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Noliktavas veiktspēja**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
-Power BI saturs **Noliktavas veiktspēja** tika izveidots, lai noliktavas un operāciju pārvaldnieki varētu pārraudzīt svarīgus ienākošos, izejošos un krājumu rādītājus. Tajā tiek izmantoti noliktavas pārvaldības, preču un citi transakciju dati no jūsu sistēmas un ir sniegts gan apkopojuma skats par noliktavas veiktspēju, gan sadalījums par kreditoriem, preču grupām un precēm, kā arī vietām un noliktavām.
+Power BI satura pakotne **Noliktavas veiktspēja** tika izveidota, lai noliktavas un operāciju pārvaldnieki varētu pārraudzīt svarīgus ienākošos, izejošos un krājumu rādītājus. Tajā tiek izmantoti noliktavas pārvaldības, preču un citi transakciju dati no jūsu sistēmas un ir sniegts gan apkopojuma skats par noliktavas veiktspēju, gan sadalījums par kreditoriem, preču grupām un precēm, kā arī vietām un noliktavām.
 
-Noliktavas pārvaldnieki Power BI saturu **Noliktavas veiktspēja** var izmantot, lai mērītu trīs tālāk aprakstītās jomas.
+Noliktavas pārvaldnieki Power BI satura pakotni **Noliktavas veiktspēja** var izmantot, lai mērītu trīs tālāk aprakstītās jomas.
 
 - **Ienākošā veiktspēja** — mēriet, cik labi ir kreditora rādītāji salīdzinājumā ar debitoru prasībām (citiem vārdiem sakot, izmēriet piegādes veiktspēju), un mēriet izvietošanas veiktspēju, lai perioda gaitā varētu identificēt ar nodarbinātajiem vai krājumiem saistītās problēmas. Ir svarīgi zināt, vai kreditori piegādes veic laicīgi, pirms termiņa vai pēc termiņa beigām, lai jūs varētu noteikt, kā kreditora veiktspēja ietekmē vispārējo izvietošanas veiktspēju. Kreditors, kurš piegādi veic ārpus datumu diapazona, par kuru vienojāties, var radīt papildu spiedienu uz noliktavu, jo rodas neparedzēts darbs, un tas var palielināt vidējo izvietošanas laiku.
 - **Nosūtīšanas veiktspēja** — mēriet, vai jūsu noliktava sūtījumus debitoriem veic pilnā apmērā un paredzētajā laikā (citiem vārdiem sakot, mēriet izejošās nosūtīšanas un piegādes veiktspēju), lai varētu identificēt jebkādas problēmas saistībā ar precēm, vietām vai noliktavām, vai īpašiem debitoriem. Ja konstatējat, ka uz noteiktiem apgabaliem vai pilsētām nosūtīšana notiek par vēlu, iespējams, ir jāpievērš lielāka uzmanība transportēšanai vai kontu pārvaldībai.
-- **Novietojuma krājumu precizitāte** — krājumu precizitāte ir svarīga noliktavas iekšējā biznesa informācija (BI). Ir ļoti svarīgi noteikt, cik precīzi notiek jūsu inventarizācija kopumā. Taču tāpat ir svarīgi noteikt, cik precīzi jūs glabājat krājumus pareizajos novietojumos, kā arī ir svarīgi izcelt neatbilstība datus, lai krājumiem varētu atrast labākas pozīcijas vai noteiktiem krājumiem uzsākt kopēju inventarizāciju. (Pašlaik kā labojumfails tiek piegādāta jaunā, uz krājumiem balstītā inventarizācijas funkcionalitāte.) Ja šo Power BI saturu izmantojat, lai noteiktu rīcībā esošo krājumu datu pareizību katram novietojumam, savos veikalos varat arī konstatēt zādzības. Varat arī noteikt, vai kādos novietojumos ir rīcībā esošie daudzumi, kas atšķiras no uzņēmuma resursu plānošanas (enterprise resource planning — ERP) datiem. Šie novietojumi varētu būt pārāk lieli, vai inventarizācija tajos varētu būt neiespējama. Alternatīvi kādas fiziskās pozicionēšanas varētu darboties slikti, tādēļ atsevišķa tipa krājumus varētu būt sarežģīti sinhronizēt ar rīcībā esošo krājumu datiem.
+- **Novietojuma krājumu precizitāte** — krājumu precizitāte ir svarīga noliktavas iekšējā biznesa informācija (BI). Ir ļoti svarīgi noteikt, cik precīzi notiek jūsu inventarizācija kopumā. Taču tāpat ir svarīgi noteikt, cik precīzi jūs glabājat krājumus pareizajos novietojumos, kā arī ir svarīgi izcelt neatbilstība datus, lai krājumiem varētu atrast labākas pozīcijas vai noteiktiem krājumiem uzsākt kopēju inventarizāciju. (Pašlaik kā labojumfails tiek piegādāta jaunā, uz krājumiem balstītā inventarizācijas funkcionalitāte.) Ja šo Power BI saturu izmantojat, lai noteiktu rīcībā esošo krājumu datu pareizību katram novietojumam, savos veikalos varat arī konstatēt zādzības. Varat arī noteikt, vai kādos novietojumos ir rīcībā esošie daudzumi, kas atšķiras no uzņēmuma resursu plānošanas (enterprise resource planning — ERP) datiem. Šie novietojumi varētu būt pārāk lieli, vai inventarizācija tajos varētu būt neiespējama. Alternatīvi kādas fiziskās pozicionēšanas varētu darboties slikti, tādēļ atsevišķa tipa krājumus varētu būt sarežģīti sinhronizēt ar rīcībā esošo krājumu datiem.
 
-## <a name="accessing-the-power-bi-content-pack"></a>Piekļuve Power BI satura pakotnei
-Power BI satura pakotne **Noliktavas veiktspēja** tiek rādīta lapā **Noliktavas veiktspēja** (**Noliktavas pārvaldība** \> **Pieprasījumi un pārskati** \> **Noliktavas veiktspējas analīze** \> **Noliktavas veiktspēja**).
+## <a name="accessing-the-power-bi-content-pack"></a>Piekļuve Power BI satura pakotnei
+Power BI satura pakotne **Noliktavas veiktspēja** tiek rādīta lapā **Noliktavas veiktspēja** (**Noliktavas pārvaldība** \> **Pieprasījumi un pārskati** \> **Noliktavas veiktspējas analīze** \> **Noliktavas veiktspēja**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
-Power BI saturs **Noliktavas veiktspēja** ietver pārskatu. Šis pārskats sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas. Nākamajā tabulā ir sniegts apskats par vizualizācijām Power BI saturā **Noliktavas veiktspēja**.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji
+Power BI saturs **Noliktavas veiktspēja** ietver pārskatu. Šis pārskats sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par vizualizācijām Power BI satura pakotnē **Noliktavas veiktspēja**.
 
-| Pārskata lapa                 | Diagrammas                                   | Apraksts |
+| Pārskata lapa                 | Diagrammas                                   | apraksts |
 |-----------------------------|------------------------------------------|-------------|
 | Ienākošā veiktspēja         | Kopējie izvietojumi                          | Izvietošanas darba rindu skaits, kāds tiek apstrādāts noteiktā laika posmā. |
 | Ienākošā veiktspēja         | Izvietošanas vidējais laiks                    | Stundās izteikts vidējais laiks visām apstrādātajām pirkšanas pasūtījumu izvietošanas rindām no krājumu reģistrācijas līdz pēdējās izvietošanas apstrādāšanai. |
@@ -79,7 +78,7 @@ Power BI saturs **Noliktavas veiktspēja** ietver pārskatu. Šis pārskats sas
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc vietas/noliktavas              | Pirms norunātā laika, laikā vai pēc norunātā laika nosūtītais procentuālais daudzums pēc vietas vai noliktavas. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Datu modeļa un aprēķinu izprašana
-Power BI satura **Noliktavas veiktspēja** pārskatu lapu aizpildīšanai tiek lietoti tālāk minētie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
+Power BI satura pakotnes **Noliktavas veiktspēja** pārskata lapu aizpildīšanai tiek lietoti tālāk minētie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
 
 Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mērījumi.
 
@@ -113,4 +112,3 @@ Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mēr�
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc preces                       | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc debitora                      | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc vietas/noliktavas              | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
-

@@ -1,13 +1,13 @@
 ---
-title: "Skatīt nosegšanas transakcijas Austrumeiropai"
-description: "Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem."
+title: Skatīt nosegšanas transakcijas Austrumeiropai
+description: Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustVendTransPostingLog_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0ba1731e4b0dcdeb4591d49dacf517f36e472eef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ac75d1900a428777374dcc9d7eea10ce4d15b1e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371268"
 ---
-
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Skatīt nosegšanas transakcijas Austrumeiropai
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Ar nosegšanu saistītā informācija tiek tverta un to var parādīt lapā **No
 -   **Sīknaudas starpība** — rēķins tiek nosegts ar maksājumu, kura summa nedaudz atšķiras no rēķina summas.
 -   **Nosacījuma nodokļu grāmatošana** — rēķins tiek nosegts ar maksājumu, kuram tiek lietots nosacījuma nodoklis.
 -   **Starpuzņēmumu nosegšana** — lai rēķinu nosegtu ar maksājumu no kādas organizācijas, tiek lietota starpuzņēmumu funkcionalitāte.
-
 
 
 

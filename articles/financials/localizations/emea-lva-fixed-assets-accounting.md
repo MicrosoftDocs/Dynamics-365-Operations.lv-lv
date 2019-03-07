@@ -1,13 +1,13 @@
 ---
 title: " Pamatlīdzekļu uzskaite nodokļu aprēķinam"
-description: "Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai."
+description: Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepreciationProfile, AssetTable, AssetTaxDepreciation
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d66f1f02377429f0cf9cea48c0ed939e194ecbfb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 50fe1c515e2265bb6b956fc6c9cb6386d8769ccf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371286"
 ---
-
 # <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
 
 [!include [banner](../includes/banner.md)]
@@ -84,7 +83,6 @@ Lai skatītu nodokļu nolietojuma informāciju, noklikšķiniet uz **Nodokļu no
 
 ## <a name="print-the-tax-depreciation-report"></a>Drukāt nodokļu nolietojuma pārskatu
 Pārskats **Nodokļu nolietojums** lietotājiem Latvijā sniedz iespēju veidot nodokļu pārskatus, kas ir saistīti ar uzņēmuma pamatlīdzekļiem. Lai drukātu šo pārskatu, dodieties uz lapu **Nodokļu nolietojuma aprēķins**, atlasiet kādu konkrētu pārskatu, kuram veidot kopsavilkumu līmenī **Kategorija**. Noklikšķiniet uz **Nodokļu nolietojuma aprēķins** kategorijām, kam nav izveidots kopsavilkums, izmantojot pārskatu **Nodokļu nolietojums**.
-
 
 
 

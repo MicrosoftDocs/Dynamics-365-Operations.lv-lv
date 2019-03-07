@@ -1,13 +1,13 @@
---- 
-title: "Ārpus zonu pārskatu ģenerēšana un palaišana"
-description: "Izmantojiet šo uzdevumu ceļvedi, lai palaistu ārpus zonu pārskatus galvenajā pārvaldē no dažādām darbvietām un vaicājumiem, un pārdošanas pārskatiem, kas atrodas sadaļā Mazumtirdzniecība un komercija."
+---
+title: Ārpus zonu pārskatu ģenerēšana un palaišana
+description: Izmantojiet šo uzdevumu ceļvedi, lai palaistu ārpus zonu pārskatus galvenajā pārvaldē no dažādām darbvietām un vaicājumiem, un pārdošanas pārskatiem, kas atrodas sadaļā Mazumtirdzniecība un komercija.
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365251"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Ārpus zonu pārskatu ģenerēšana un palaišana
 
@@ -66,5 +66,4 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 4. Noklikšķiniet uz OK.
 5. Noklikšķiniet uz Eksportēt.
 6. Noklikšķiniet uz PDF.
-
 

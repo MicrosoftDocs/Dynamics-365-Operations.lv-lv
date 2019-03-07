@@ -1,13 +1,13 @@
 ---
-title: "Mazie kases posteņi Austrumeiropai"
-description: "Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas."
+title: Mazie kases posteņi Austrumeiropai
+description: Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RCashBalance, RCashCountStatementForm, RCashPosting, RCashRemainLimit, RCashReportJour_PL, RCashTable, RCashTableBalance, RCashTableCredLimit, RCashTableLastRevaluation, RCashTableTransactions, RCashTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 77159c0ef8e8046b50fa1dae60423823865e80b5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4467987c4bb25ec7c44550c9e941298e459bbf22
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371310"
 ---
-
 # <a name="petty-cash-for-eastern-europe"></a>Mazie kases posteņi Austrumeiropai
 
 [!include [banner](../includes/banner.md)]
@@ -102,7 +101,7 @@ Lai kādam kases kontam iestatītu kases bilances kontroles kārtulas, atlasiet 
 <ul>
 <li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
 <li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Kases dokuments tiek ratificēts vai apstiprināts.</li>
-<li><strong>Kļūda</strong> — limits nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu, un kases dokuments netiek ratificēts vai apstiprināts.</li>
+<li><strong>Kļūda</strong> — nedrīkst pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un kases dokuments netiek ratificēts vai apstiprināts.</li>
 </ul>
 Papildinformāciju par kases dokumentu apstiprināšanas procesu skatiet tālāk šīs tēmas sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.</td>
 </tr>
@@ -192,7 +191,7 @@ Lai iestatītu noklusējuma vērtības kases un bankas vadības parametriem mazo
 <ul>
 <li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
 <li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Šī operācija tiek grāmatota.</li>
-<li><strong>Kļūda</strong> — limits nevar tikt pārsniegts. Lietotājs saņem kļūdas ziņojumu, un operācija netiek grāmatota.</li>
+<li><strong>Kļūda</strong> — nedrīkst pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un operācija netiek grāmatota.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -275,7 +274,7 @@ Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases
 </tr>
 <tr class="even">
 <td>Pasūtījuma numurs</td>
-<td>Ja šim kases kontam nav norādīta neviena cita numuru sērija, šis lauks tiek aizpildīts automātiski, pamatojoties uz parametros norādīto numuru sēriju. Ja nepieciešams, šajā lauka pasūtījuma numuru varat ievadīt manuāli. Lai nepieļautu kases dokumentu numerācijas nesakritības, tiek lietota šāda kontrole: kases dokumentam, kura operācijas datums ir agrāks, numurs nevar būt lielāks par numuru tādam kases dokumentam, kura operācijas datums ir vēlāks. Ja jums šāda kontrole nav nepieciešama, tad kases un bankas vadības parametros atzīmējiet izvēles rūtiņu <strong>Grāmatošana agrākā datumā</strong>.</td>
+<td>Ja šim kases kontam nav norādīta neviena cita numuru sērija, šis lauks tiek aizpildīts automātiski, pamatojoties uz parametros norādīto numuru sēriju. Ja nepieciešams, šajā lauka pasūtījuma numuru varat ievadīt manuāli. Lai nepieļautu kases dokumentu numerācijas nesakritības, tiek lietots šāds kontroles kritērijs: tāda kases dokumenta numurs, kura operācijas datums ir agrāks, nedrīkst būt lielāks par tāda kases dokumenta numuru, kura operācijas datums ir vēlāks. Ja šis kontroles kritērijs nav nepieciešams, tad kases un bankas vadības parametru sadaļā atzīmējiet izvēles rūtiņu <strong>Grāmatošana agrākā datumā</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Apstiprināšanas statuss</td>
@@ -310,8 +309,8 @@ Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases
 <td>Pārstāvja tips</td>
 <td>Šim laukam var būt tālāk aprakstītās vērtības.
 <ul>
-<li><strong>Nodarbinātais</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar darbiniekiem, ja laukam <strong>Korespondējošais konts</strong> ir iestatīta vērtība <strong>Virsgrāmata</strong> vai <strong>Banka</strong>, vai saraksts ar kontrahenta kontaktpersonām, ja laukam <strong>Korespondējošais konts</strong> ir iestatīta vērtība <strong>Debitors</strong> vai <strong>Kreditors</strong>. Lai iestatītu pārstāvjus, dodieties uz <strong>Pamata</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Kontaktpersonas</strong> &gt; <strong>Kontaktpersona</strong>.</li>
-<li><strong>Cits</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar citiem debitoriem. Lai iestatītu saņēmējus, kas netiek rādīti tabulā <strong>Debitori</strong> vai <strong>Kreditori</strong>, dodieties uz <strong>Virsgrāmata</strong> &gt; <strong>Saņēmēji</strong>. Šis tips ir pieejams tikai Latvijai. (Ir jābūt iespējotai konfigurācijas atslēgai <strong>CSELatvia</strong>.)</li>
+<li><strong>Nodarbinātais</strong> — uzmeklēšanas sadaļā <strong>Pārstāvis</strong> ir ietverts darbinieku saraksts, ja ir iestatīta lauka <strong>Korespondējošais konts</strong> vērtība <strong>Virsgrāmata</strong> vai <strong>Banka</strong>, vai kontrahenta kontaktpersonu saraksts, ja ir iestatīta lauka <strong>Korespondējošais konts</strong> vērtība <strong>Debitors</strong> vai <strong>Kreditors</strong>. Lai iestatītu pārstāvjus, dodieties uz <strong>Pamata</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Kontaktpersonas</strong> &gt; <strong>Kontaktpersona</strong>.</li>
+<li><strong>Cits</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar citiem debitoriem. Lai iestatītu saņēmējus, kas netiek rādīti tabulā <strong>Debitori</strong> vai <strong>Kreditori</strong>, pārejiet uz sadaļu uz <strong>Virsgrāmata</strong> &gt; <strong>Saņēmēji</strong>. Šis tips ir pieejams tikai Latvijai. (Ir jābūt iespējotai konfigurācijas atslēgai <strong>CSELatvia</strong>.)</li>
 <li><strong>Kreditors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar kreditoriem. Lai iestatītu kreditorus, dodieties uz <strong>Parādi kreditoriem</strong> &gt; <strong>Kreditori</strong>.</li>
 <li><strong>Debitors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar debitoriem. Lai iestatītu debitorus, dodieties uz <strong>Debitoru parādi</strong> &gt; <strong>Debitori</strong>.</li>
 </ul></td>
@@ -441,7 +440,7 @@ Tālāk norādītos uzdevumus var izpildīt šeit: **Kases un bankas vadība** &
 <tbody>
 <tr class="odd">
 <td>Pārbaudīt atlikuma limitu</td>
-<td>Pārbaudiet atlikumu atlasītajam kases kontam noteiktajā datumā un parādiet rezultātu informatīvā ziņojumā. Atlikuma aprēķina var skaitīt tikai apstiprinātās transakcijas. Netiek ņemtas vērā transakcijas, kuras ir atzīmētas kā <strong>Algām</strong>.</td>
+<td>Pārbaudiet atlikumu atlasītajam kases kontam noteiktajā datumā un parādiet rezultātu informatīvā ziņojumā. Atlikuma aprēķina var skaitīt tikai apstiprinātās transakcijas. Netiek ņemtas vērā transakcijas, kas ir atzīmētas ar statusu <strong>Algām</strong>.</td>
 </tr>
 <tr class="even">
 <td>Skaidras naudas atlikuma pārrēķins</td>
@@ -475,7 +474,6 @@ Nosegtā summa tiek rādīta laukā <strong>Nosegts valūtā</strong>, lapā <st
 | Kases transakcija                              | Lai skatītu kases transakcijas, dodieties uz **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Kases transakcijas**. Izmantojiet funkciju **Filtrēt**, lai norādītu papildu kritērijus kases transakciju atlases ierobežošanai. |
 | Reģistrācijas žurnāls (Igaunijai, Krievijai) | Pārskats sadaļā **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Reģistrācijas žurnāls** ataino visus izdotos kases ienākumu un kases izdevumu orderus.                                   |
 | Kases grāmata (Latvijai, Lietuvai, Krievijai)     | Pārskats sadaļā **Kases un bankas vadība** &gt; **Pieprasījumi un pārskati** &gt; **Kases grāmatas žurnāls** ataino faktiskās kases līdzekļu kustības (ieņēmumus un izdevumus).                                                            |
-
 
 
 

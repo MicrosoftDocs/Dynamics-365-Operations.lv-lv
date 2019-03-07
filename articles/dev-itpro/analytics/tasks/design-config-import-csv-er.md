@@ -1,13 +1,13 @@
---- 
-title: "ER konfigurāciju noformēšana datu importēšanai no ārējiem CSV failiem"
-description: "Izmantojiet šo procedūru, lai noformētu elektronisko pārskatu veidošanas (ER) konfigurācijas datu importēšanai programmā Dynamics 365 for Finance and Operations no ārējā faila CSV formātā."
+---
+title: ER konfigurāciju noformēšana datu importēšanai no ārējiem CSV failiem
+description: Izmantojiet šo procedūru, lai izveidotu elektronisko pārskatu (Electronic reporting — ER) konfigurācijas datu importēšanai lietojumprogrammā Dynamics 365 for Finance and Operations no ārēja CSV formāta faila.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365228"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER konfigurāciju noformēšana datu importēšanai no ārējiem CSV failiem
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Izmantojiet šo procedūru, lai noformētu elektronisko pārskatu veidošanas (ER) konfigurācijas datu importēšanai programmā Dynamics 365 for Finance and Operations no ārējā faila CSV formātā. Šīs procedūras ietvaros jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Lai izpildītu šīs darbības, vispirms ir jāizpilda procedūra “ER Konfigurācijas nodrošinātāja izveide un atzīmēšana ar aktīvu statusu”. 
+Izmantojiet šo procedūru, lai izveidotu elektronisko pārskatu (Electronic reporting — ER) konfigurācijas datu importēšanai lietojumprogrammā Dynamics 365 for Finance and Operations no ārēja CSV formāta faila. Šīs procedūras ietvaros jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Lai izpildītu šīs darbības, vispirms ir jāizpilda procedūra “ER Konfigurācijas nodrošinātāja izveide un atzīmēšana ar aktīvu statusu”. 
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot USMF datu kopu. 
 
 Ir jāveic arī tālāk norādīto failu lokāla lejupielāde un saglabāšana: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Procesu var konfigurēt, lai ārējie faili XML, TXT vai CSV formātā tiek importēti uz tabulām programmā Dynamics 365 for Finance and Operations. Vispirms ir jāizveido abstrakts datu modelis importēto datu atspoguļošanai; no biznesa skatu punkta — šim nolūkam tiek izveidota ER datu modeļa konfigurācija. Pēc tam definējiet importētā faila struktūru, kas kartē uz izveidoto datu modeli, kā veidu, lai pārnestu datus no faila uz abstrakto datu modeli, — šim nolūkam tiek izveidota ER formāta konfigurācija. Pēc tam ER datu modeļa konfigurācija ir jāpaplašina ar jaunu modeļa kartējumu, kas apraksta veidu, kādā dati no importētā faila un saglabātie dati no abstraktā datu modeļa tiek lietoti, lai atjauninātu programmas tabulas vai datu elementus.  
+    * Varat konfigurēt procesu ārēju XML, TXT vai CSV formāta failu importēšanai tabulās lietojumprogrammā Dynamics 365 for Finance and Operations. Vispirms ir jāizveido abstrakts datu modelis importēto datu atspoguļošanai; no biznesa skatu punkta — šim nolūkam tiek izveidota ER datu modeļa konfigurācija. Pēc tam definējiet importētā faila struktūru, kas kartē uz izveidoto datu modeli, kā veidu, lai pārnestu datus no faila uz abstrakto datu modeli, — šim nolūkam tiek izveidota ER formāta konfigurācija. Pēc tam ER datu modeļa konfigurācija ir jāpaplašina ar jaunu modeļa kartējumu, kas apraksta veidu, kādā dati no importētā faila un saglabātie dati no abstraktā datu modeļa tiek lietoti, lai atjauninātu programmas tabulas vai datu elementus.  
     * Tālāk minēto soļu aprakstā ir norādīts, kā ārēji izsekotas kreditoru transakcijas tiek importētas no ārējā CSV faila izmantošanai vēlāk kreditora nodokļa 1099 nosegšanas formās.   
     * Pārliecinieties, ka konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
@@ -119,5 +119,4 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot iepriekš lejup
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas visas 7 importētā CSV faila rindas. Datus saturošo lauku virsraksta 1. rinda tika izlaista, 4 transakcijas tika pareizi parsētas un 2 transakcijas tika atpazītas kā nederīgas.   
 3. Aizvērt lapu.
 4. Aizvērt lapu.
-
 

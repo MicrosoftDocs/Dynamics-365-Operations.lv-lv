@@ -1,13 +1,13 @@
---- 
-title: "Budžeta noteikta pirkšanas pasūtījuma izveide"
-description: "Izmantojiet šo procedūru, lai izveidotu pirkšanas pasūtījumu, kurā ir pārbaudīts pieejamais budžets."
+---
+title: Budžeta noteikta pirkšanas pasūtījuma izveide
+description: Izmantojiet šo procedūru, lai izveidotu pirkšanas pasūtījumu, kurā ir pārbaudīts pieejamais budžets.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e82e40d67547f5932a4805f2580e8c9f58def284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cc024caa54db6629a1e573df295fe8333996647
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366539"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Budžeta noteikta pirkšanas pasūtījuma izveide
 
@@ -61,5 +61,4 @@ Izmantojiet šo procedūru, lai izveidotu pirkšanas pasūtījumu, kurā ir pār
 3. Noklikšķiniet uz Finanšu dati.
 4. Noklikšķiniet uz Skatīt budžeta pārbaudes kļūdas vai brīdinājumus.
 5. Noklikšķiniet uz Aizvērt.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Paralēlu zaru konfigurēšana darbplūsmā"
-description: "Lai konfigurētu paralēlu zaru, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras."
+title: Paralēlu zaru konfigurēšana darbplūsmā
+description: Lai konfigurētu paralēlu zaru, darbplūsmas redaktorā izpildiet tālāk aprakstītās procedūras.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 73626ad21dfe2be7400f321a3eee272c896276f3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367344"
 ---
-
 # <a name="configure-parallel-branches-in-a-workflow"></a>Paralēlu zaru konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
@@ -52,4 +51,3 @@ Lai noformētu un konfigurētu paralēla zara elementus, izpildiet tālāk aprak
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Izveidot darbplūsmu](create-workflow.md)
-

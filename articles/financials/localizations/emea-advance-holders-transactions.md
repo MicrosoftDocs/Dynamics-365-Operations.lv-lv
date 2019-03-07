@@ -1,13 +1,13 @@
 ---
-title: "Avansa turētāju darbības"
-description: "Uzziniet, kā strādāt ar avansa turētāju transakcijām programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Avansa turētāju darbības
+description: Uzziniet, kā strādāt ar avansa turētāja transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f71df6fff803855cf08ca0672604ae97efe3f40e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3e1fbb37c75052f10fdac3d3361e2c93c3c8a56c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371332"
 ---
-
 # <a name="advance-holder-transactions"></a>Avansa turētāju darbības
 
 [!include [banner](../includes/banner.md)]
 
-Uzziniet, kā strādāt ar avansa turētāju transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.
+Uzziniet, kā strādāt ar avansa turētāja transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.
 
 Šiem darbiniekiem, kuri ir avansa turētāji, transakcijas var grāmatot, izmantojot avansa turētāju kontus. Lai izsekotu visas avansa turētāja transakcijas, var izmantot katram avansa turētājam norādīto nodarbinātā ID. Šis numurs kā konta numurs avansa turētāju transakcijām tiek izgūts lapās **Virsgrāmatas žurnāli** un **Avansa turētāju transakcijas**.
 
@@ -64,5 +63,4 @@ Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Avansa maksājums darbiniekam (Austrumeiropa)](tasks/advance-payment-employee.md)
-
 

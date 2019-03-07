@@ -1,13 +1,13 @@
 ---
 title: Operations resursi
-description: "Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie var būt dažādu veidu, ar dažādām iespējām."
+description: Operācijas resursi izpilda projekta vai ražošanas procesa aktivitātes. Tie var būt dažādu veidu, ar dažādām iespējām.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366608"
 ---
-
 # <a name="operations-resources"></a>Operations resursi
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ Ja resursu grupa tiek lietota kā racionāla darba šūna, darba šūnas noslodz
 
 ## <a name="costing-resources"></a>Izmaksu aprēķināšanas resursi
 Definējot aktivitāti, piemēram, maršruta operāciju vai projekta stundu budžetu, varat norādīt prasību pēc noteikta darbības veikšanas resursa vai resursu grupas. Tomēr ir iespējams norādīt arī prasību pēc noteikta darbību veikšanas resursa veida vai darbību veikšanas resursa, kam ir konkrētas prasmes vai kompetence. Šī iemesla dēļ faktiska resursu piešķire netiek veikta līdz brīdim, kad ieplānota aktivitāte un ir rezervēta noslodze. Tāpēc maršruta operācijā var norādīt, ka novērtēšana un MK aprēķini jāveic, izmantojot konkrētu darbību veikšanas resursu. Šo darbību veikšanas resursu dēvē par izmaksu aprēķināšanas resursu. Varat arī pārsūtīt izmaksu kategorijas un darbības veikšanas laikus no izmaksu aprēķināšanas resursiem uz aktivitāti. Kad darbības veikšana ieplānota, novērtēšana un MK aprēķins tiek veikts, izmantojot faktiski ieplānotos darbību veikšanas resursus.
-
 
 
 
