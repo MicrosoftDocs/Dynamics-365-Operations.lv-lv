@@ -1,13 +1,13 @@
 ---
-title: "Konsolidācijas kontu grupas un papildu konsolidācijas konti"
-description: "Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī skaidrots to lietojums programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Konsolidācijas kontu grupas un papildu konsolidācijas konti
+description: Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī paskaidrota to lietošana programmā Microsoft Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,41 +18,39 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: f1c463ee54512b07f5e45c4df995aefed6110cb0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366401"
 ---
-
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="9f167-103">Konsolidācijas kontu grupas un papildu konsolidācijas konti</span><span class="sxs-lookup"><span data-stu-id="9f167-103">Consolidation account groups and additional consolidation accounts</span></span>
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="4e50d-103">Konsolidācijas kontu grupas un papildu konsolidācijas konti</span><span class="sxs-lookup"><span data-stu-id="4e50d-103">Consolidation account groups and additional consolidation accounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9f167-104">Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī skaidrots to lietojums programmā Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9f167-104">This topic provides information about consolidation account groups and additional consolidation accounts, and explains how they are used in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+<span data-ttu-id="4e50d-104">Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī paskaidrota to lietošana programmā Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4e50d-104">This topic provides information about consolidation account groups and additional consolidation accounts, and explains how they are used in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="consolidation-account-groups"></a><span data-ttu-id="9f167-105">Konsolidācijas kontu grupas</span><span class="sxs-lookup"><span data-stu-id="9f167-105">Consolidation account groups</span></span>
+<a name="consolidation-account-groups"></a><span data-ttu-id="4e50d-105">Konsolidācijas kontu grupas</span><span class="sxs-lookup"><span data-stu-id="4e50d-105">Consolidation account groups</span></span>
 ----------------------------
 
-<span data-ttu-id="9f167-106">Konsolidācijas kontu grupas jums ļauj veidot grupas no kontiem, kurus vēlaties izmantot datu konsolidēšanai.</span><span class="sxs-lookup"><span data-stu-id="9f167-106">Consolidation account groups let you create groups of the accounts that you want to use to consolidate data.</span></span> <span data-ttu-id="9f167-107">Parasti konsolidācijas kontu grupa pārstāv likumā noteiktu kontu plānu vai kartē kontus uz uzņēmuma vadības definētu grupu.</span><span class="sxs-lookup"><span data-stu-id="9f167-107">Most often, a consolidation account group represents a government-mandated chart of accounts or maps accounts to a group that is defined by the company's headquarters.</span></span> <span data-ttu-id="9f167-108">Konsolidācijas kontu grupas ir atrodamas moduļa **Konsolidācijas** apgabalā **Iestatīšana**.</span><span class="sxs-lookup"><span data-stu-id="9f167-108">You can find consolidation account groups in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="9f167-109">Kad pievienojat jaunu grupu, šai kontu grupai ir jāievada unikāls identifikators un nosaukums.</span><span class="sxs-lookup"><span data-stu-id="9f167-109">When you add a new group, you enter a unique identifier for the account group and a name.</span></span>
+<span data-ttu-id="4e50d-106">Konsolidācijas kontu grupas jums ļauj veidot grupas no kontiem, kurus vēlaties izmantot datu konsolidēšanai.</span><span class="sxs-lookup"><span data-stu-id="4e50d-106">Consolidation account groups let you create groups of the accounts that you want to use to consolidate data.</span></span> <span data-ttu-id="4e50d-107">Parasti konsolidācijas kontu grupa pārstāv likumā noteiktu kontu plānu vai kartē kontus uz uzņēmuma vadības definētu grupu.</span><span class="sxs-lookup"><span data-stu-id="4e50d-107">Most often, a consolidation account group represents a government-mandated chart of accounts or maps accounts to a group that is defined by the company's headquarters.</span></span> <span data-ttu-id="4e50d-108">Konsolidācijas kontu grupas ir atrodamas moduļa **Konsolidācijas** apgabalā **Iestatīšana**.</span><span class="sxs-lookup"><span data-stu-id="4e50d-108">You can find consolidation account groups in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="4e50d-109">Kad pievienojat jaunu grupu, šai kontu grupai ir jāievada unikāls identifikators un nosaukums.</span><span class="sxs-lookup"><span data-stu-id="4e50d-109">When you add a new group, you enter a unique identifier for the account group and a name.</span></span>
 
-## <a name="additional-consolidation-accounts"></a><span data-ttu-id="9f167-110">Papildu konsolidācijas konti</span><span class="sxs-lookup"><span data-stu-id="9f167-110">Additional consolidation accounts</span></span>
-<span data-ttu-id="9f167-111">Papildu konsolidācijas konti jums ļauj konsolidācijas kontu grupai piešķirt kontu no jau esoša kontu plāna.</span><span class="sxs-lookup"><span data-stu-id="9f167-111">Additional consolidation accounts let you assign an account from an existing chart of accounts to a consolidation account group.</span></span> <span data-ttu-id="9f167-112">Pēc tam varat norādīt konsolidācijas konta vērtību un nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="9f167-112">You can then specify a consolidation account value and name.</span></span> 
+## <a name="additional-consolidation-accounts"></a><span data-ttu-id="4e50d-110">Papildu konsolidācijas konti</span><span class="sxs-lookup"><span data-stu-id="4e50d-110">Additional consolidation accounts</span></span>
+<span data-ttu-id="4e50d-111">Papildu konsolidācijas konti jums ļauj konsolidācijas kontu grupai piešķirt kontu no jau esoša kontu plāna.</span><span class="sxs-lookup"><span data-stu-id="4e50d-111">Additional consolidation accounts let you assign an account from an existing chart of accounts to a consolidation account group.</span></span> <span data-ttu-id="4e50d-112">Pēc tam varat norādīt konsolidācijas konta vērtību un nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="4e50d-112">You can then specify a consolidation account value and name.</span></span> 
 
-<span data-ttu-id="9f167-113">Papildu konsolidācijas konti ir atrodami moduļa **Konsolidācijas** apgabalā **Iestatīšana**.</span><span class="sxs-lookup"><span data-stu-id="9f167-113">You can find additional consolidation accounts in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="9f167-114">Kad veidojat jaunu konsolidācijas kontu, ir jānorāda tālāk uzskaitītā informācija.</span><span class="sxs-lookup"><span data-stu-id="9f167-114">When you create a new consolidation account, you must specify the following information:</span></span>
+<span data-ttu-id="4e50d-113">Papildu konsolidācijas konti ir atrodami moduļa **Konsolidācijas** apgabalā **Iestatīšana**.</span><span class="sxs-lookup"><span data-stu-id="4e50d-113">You can find additional consolidation accounts in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="4e50d-114">Kad veidojat jaunu konsolidācijas kontu, ir jānorāda tālāk uzskaitītā informācija.</span><span class="sxs-lookup"><span data-stu-id="4e50d-114">When you create a new consolidation account, you must specify the following information:</span></span>
 
--   <span data-ttu-id="9f167-115">**Galvenais konts** — šis lauks ir uzmeklēšana, kas rāda visus galvenos kontus, kuri ir balstīti uz lapā atlasīto kontu plānu.</span><span class="sxs-lookup"><span data-stu-id="9f167-115">**Main account** – This field is a lookup that shows all the main accounts that are based on the chart of accounts that you selected on the page.</span></span> <span data-ttu-id="9f167-116">Kad atlasāt kādu kontu, šis nosaukums tiek automātiski ievadīts laukā **Galvenā konta nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="9f167-116">When you select an account, the name is automatically entered in the **Main account name** field.</span></span>
--   <span data-ttu-id="9f167-117">**Konsolidācijas kontu grupa** — izmantojiet šo lauku, lai norādītu grupu, kurai kontu piešķirt.</span><span class="sxs-lookup"><span data-stu-id="9f167-117">**Consolidation account group** – Use this field to specify the group to assign the account to.</span></span> <span data-ttu-id="9f167-118">Ja konsolidēšanu veicat divos dažādos veidos, tad tas pats konts jums ir jāpievieno visām četrām konsolidācijas kontu grupām.</span><span class="sxs-lookup"><span data-stu-id="9f167-118">If you consolidate in two different ways, you must add the same account to all four consolidation account groups.</span></span>
--   <span data-ttu-id="9f167-119">**Konsolidācijas konts** — ievadiet konsolidācijas konta vērtību.</span><span class="sxs-lookup"><span data-stu-id="9f167-119">**Consolidation account** – Enter the value of the consolidation account.</span></span> <span data-ttu-id="9f167-120">Šai vērtībai nav jābūt kontam no kontu plāna.</span><span class="sxs-lookup"><span data-stu-id="9f167-120">This value doesn't have to be an account from a chart of accounts.</span></span> <span data-ttu-id="9f167-121">Tā var būt jebkāda jums nepieciešama vērtība.</span><span class="sxs-lookup"><span data-stu-id="9f167-121">It can be any value that you require.</span></span>
--   <span data-ttu-id="9f167-122">**Konsolidācijas konta nosaukums** — ievadiet nosaukumu kontam, kuru vēlaties rādīt pieprasījumos un pārskatos.</span><span class="sxs-lookup"><span data-stu-id="9f167-122">**Consolidation account name** – Enter the name of account as you want it to appear on inquiries and reports.</span></span>
--   <span data-ttu-id="9f167-123">**SAT līmenis** — šis laiks tiek izmantots, lai iesniegtu kontu izrakstus Meksikas nodokļu iestādēm.</span><span class="sxs-lookup"><span data-stu-id="9f167-123">**SAT level** – This field is used to report account statements to the Mexican tax authorities.</span></span> 
+-   <span data-ttu-id="4e50d-115">**Galvenais konts** — šis lauks ir uzmeklēšana, kas rāda visus galvenos kontus, kuri ir balstīti uz lapā atlasīto kontu plānu.</span><span class="sxs-lookup"><span data-stu-id="4e50d-115">**Main account** – This field is a lookup that shows all the main accounts that are based on the chart of accounts that you selected on the page.</span></span> <span data-ttu-id="4e50d-116">Kad atlasāt kādu kontu, šis nosaukums tiek automātiski ievadīts laukā **Galvenā konta nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="4e50d-116">When you select an account, the name is automatically entered in the **Main account name** field.</span></span>
+-   <span data-ttu-id="4e50d-117">**Konsolidācijas kontu grupa** — izmantojiet šo lauku, lai norādītu grupu, kurai kontu piešķirt.</span><span class="sxs-lookup"><span data-stu-id="4e50d-117">**Consolidation account group** – Use this field to specify the group to assign the account to.</span></span> <span data-ttu-id="4e50d-118">Ja konsolidēšanu veicat divos dažādos veidos, tad tas pats konts jums ir jāpievieno visām četrām konsolidācijas kontu grupām.</span><span class="sxs-lookup"><span data-stu-id="4e50d-118">If you consolidate in two different ways, you must add the same account to all four consolidation account groups.</span></span>
+-   <span data-ttu-id="4e50d-119">**Konsolidācijas konts** — ievadiet konsolidācijas konta vērtību.</span><span class="sxs-lookup"><span data-stu-id="4e50d-119">**Consolidation account** – Enter the value of the consolidation account.</span></span> <span data-ttu-id="4e50d-120">Šai vērtībai nav jābūt kontam no kontu plāna.</span><span class="sxs-lookup"><span data-stu-id="4e50d-120">This value doesn't have to be an account from a chart of accounts.</span></span> <span data-ttu-id="4e50d-121">Tā var būt jebkāda jums nepieciešama vērtība.</span><span class="sxs-lookup"><span data-stu-id="4e50d-121">It can be any value that you require.</span></span>
+-   <span data-ttu-id="4e50d-122">**Konsolidācijas konta nosaukums** — ievadiet nosaukumu kontam, kuru vēlaties rādīt pieprasījumos un pārskatos.</span><span class="sxs-lookup"><span data-stu-id="4e50d-122">**Consolidation account name** – Enter the name of account as you want it to appear on inquiries and reports.</span></span>
+-   <span data-ttu-id="4e50d-123">**SAT līmenis** — šis laiks tiek izmantots, lai iesniegtu kontu izrakstus Meksikas nodokļu iestādēm.</span><span class="sxs-lookup"><span data-stu-id="4e50d-123">**SAT level** – This field is used to report account statements to the Mexican tax authorities.</span></span> 
 
-<span data-ttu-id="9f167-124">Kad esat beidzis veidot savas konsolidācijas kontu grupas un papildu konsolidācijas kontus, varat atlasīt grupu procesā Konsolidēt tiešsaistē.</span><span class="sxs-lookup"><span data-stu-id="9f167-124">When you've finished creating your consolidation account groups and additional consolidation accounts, you can select the group in the Consolidate online process.</span></span>
+<span data-ttu-id="4e50d-124">Kad esat beidzis veidot savas konsolidācijas kontu grupas un papildu konsolidācijas kontus, varat atlasīt grupu procesā Konsolidēt tiešsaistē.</span><span class="sxs-lookup"><span data-stu-id="4e50d-124">When you've finished creating your consolidation account groups and additional consolidation accounts, you can select the group in the Consolidate online process.</span></span>
 
 
-<span data-ttu-id="9f167-125">Plašāku informāciju skatiet šeit: [Izveidot konsolidācijas grupas un papildu konsolidācijas kontus](../general-ledger/tasks/create-consolidation-groups.md)</span><span class="sxs-lookup"><span data-stu-id="9f167-125">For more information, see [Create consolidation groups and additional consolidation accounts](../general-ledger/tasks/create-consolidation-groups.md).</span></span> 
-
+<span data-ttu-id="4e50d-125">Plašāku informāciju skatiet šeit: [Izveidot konsolidācijas grupas un papildu konsolidācijas kontus](../general-ledger/tasks/create-consolidation-groups.md)</span><span class="sxs-lookup"><span data-stu-id="4e50d-125">For more information, see [Create consolidation groups and additional consolidation accounts](../general-ledger/tasks/create-consolidation-groups.md).</span></span> 
 
 
 
