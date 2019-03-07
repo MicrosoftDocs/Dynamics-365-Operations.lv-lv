@@ -1,13 +1,13 @@
---- 
-title: "Pirkšanas atgriešanas pasūtījuma izveide"
-description: "Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP."
+---
+title: Pirkšanas atgriešanas pasūtījuma izveide
+description: Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354142"
 ---
 # <a name="create-a-purchase-return-order"></a>Pirkšanas atgriešanas pasūtījuma izveide
 
@@ -77,5 +77,4 @@ ms.lasthandoff: 09/29/2017
     * Šis lauks tiek lietots, lai ievadītu atsauci, kas tiks izmantota kā dokuments produktu ieejas plūsmas žurnālam.  
 5. Noklikšķiniet uz OK.
     * Tagad preces ir reģistrētas kā nosūtītas pirkuma atgriešanas pasūtījumā, un ir izveidots produktu ieejas plūsmas žurnāls. Produktu ieejas plūsmas darbību var izmantot, lai pārskatītu ar pirkšanas pasūtījumu izveidotos žurnālus un redzētu, kas un kad tika saņemts vai atgriezts.  
-
 

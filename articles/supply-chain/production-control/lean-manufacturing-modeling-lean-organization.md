@@ -1,13 +1,13 @@
 ---
-title: "Racionālas organizācijas modelēšana"
-description: "Šajā rakstā ir sniegta informācija par racionālās organizācijas modelēšanas galvenajiem jēdzieniem."
+title: Racionālas organizācijas modelēšana
+description: Šajā rakstā ir sniegta informācija par racionālās organizācijas modelēšanas galvenajiem jēdzieniem.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350991"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Racionālas organizācijas modelēšana
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Ražošanas scenārijos, kuru pamatā ir ražošanas pasūtījumi, materiāls ti
 
 Lai samazinātu piegādes izpildes laikus un liekus krājumus starp resursiem, ko izraisa partiju ražošana, Lean manufacturing ražošanas un noliktavas papildināšanā ievieš Kanban papildināšanu un lielveikalus. Parasti šie līdzekļi izjauc daļēji neatkarīgu Kanban ciklu ražošanu. Pabeigtas preces pasūtījums vairs neizraisa Kanban papildināšanu nepabeigtai precei. 
 
-Lai atjaunotu ražošanas un izmaksu kontekstu dažādiem Kanban scenārijiem, kas tiek piedāvāti programmā Microsoft Dynamics 365 for Finance and Operations, kā Lean manufacturing pamats ir ieviestas uz aktivitātēm balstītas ražošanas plūsmas. Visi Kanban nosacījumi attiecas uz šo iepriekš definētu struktūru. Ar aktivitāti saistīts modelis atbalsta plašu scenāriju klāsta iestatījumus. Taču šis modelis nevairo sarežģītību ražotnes darbiniekiem, jo visi scenāriji lieto to pašu uz aktivitātēm balstīto lietotāja interfeisu.
+Lai atjaunotu ražošanas un izmaksu kontekstu dažādiem Kanban scenārijiem, kas tiek piedāvāti programmāMicrosoft Dynamics 365 for Finance and Operations, kā lean manufacturing pamats ir ieviestas uz aktivitātēm balstītas ražošanas plūsmas. Visi Kanban nosacījumi attiecas uz šo iepriekš definētu struktūru. Ar aktivitāti saistīts modelis atbalsta plašu scenāriju klāsta iestatījumus. Taču šis modelis nevairo sarežģītību ražotnes darbiniekiem, jo visi scenāriji lieto to pašu uz aktivitātēm balstīto lietotāja interfeisu.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Nepabeigtas preces (ne no MK līmeņiem)
 Lean manufacturing ir integrēti Kanban, kas paredzēti inventarizētām precēm un nepabeigtām precēm vienotā sistēmā, līdz ar to piedāvājot vienotu lietotāju pieredzi visos gadījumos. Šīs arhitektūras dēļ vairs nav jāievieš papildu MK līmeņi, lai Kanban varētu izmantot nepabeigtām precēm. Šī arhitektūra palīdz arī līdz minimumam samazināt krājumu transakcijas.
@@ -65,7 +64,6 @@ Lai labāk atbalstītu nepārtrauktu uzlabošanu, ražošanas plūsma tiek ievie
 
 ## <a name="simplicity"></a>Vienkāršība
 Lai ieviestu Lean Manufacturing, mēs izvēlējāmies ražošanas plūsmas un aktivitātes pieeju, kas sniedz iespēju modelēt vienkāršus un sarežģītus ražošanas scenārijus vienā mērogojamā arhitektūrā. Aktivitātes pieeja nodrošina vēl vienkāršāku procesu tiem lietotājiem, kuriem tas ir nepieciešams: ražotnē un loģistikas nodaļā nodarbinātajiem. Pretojoties uz aktivitātes balstītiem darbiem salīdzinot ar krājumu transakcijām, unificēts lietotāja interfeiss visiem lean manufacturing variantiem pārsūta biznesa sarežģītību no lietotāja interfeisa tur, kur tai jābūt: ražošanas plūsma kā lean manufacturing pamats.
-
 
 
 

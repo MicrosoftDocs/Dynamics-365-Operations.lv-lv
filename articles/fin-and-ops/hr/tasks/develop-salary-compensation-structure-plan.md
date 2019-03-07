@@ -1,13 +1,13 @@
---- 
-title: "Algas/atlīdzības organizācijas un plāna izstrāde"
-description: "Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas."
+---
+title: Algas/atlīdzības organizācijas un plāna izstrāde
+description: Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332775"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Algas/atlīdzības organizācijas un plāna izstrāde
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 09/14/2018
     * Atlasiet kritērijus, kādiem darbiniekam ir jāatbilst, lai darbinieks būtu piemērots šim atlīdzību plānam. Kritēriji var ietvert faktorus Nodaļa, Arodbiedrība, Atrašanās vieta (Atlīdzības reģions), Darbs, Funkcija, Darba tips vai Atlīdzības līmenis. Lai darbinieks būtu piemērots atlīdzību plānam, šim darbiniekam ir jāatbilst visiem norādītajiem kritērijiem. Ja nav norādīts neviens kritērijs, šim atlīdzību plānam ir piemēroti visi darbinieki. Ja darbinieks neatbilst piemērotības kārtulās norādītajiem kritērijiem vai kādam atlīdzību plānam nav norādīta piemērotības kārtula, tad šis atlīdzību plāns netiks parādīts uzmeklēšanā, kad darbiniekam tiek veidots Fiksētas atlīdzības ieraksts.  
 7. Aizvērt lapu.
 8. Aizvērt lapu.
-
 

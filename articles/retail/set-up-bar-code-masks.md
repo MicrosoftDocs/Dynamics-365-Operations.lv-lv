@@ -1,13 +1,13 @@
 ---
-title: "Svītrkodu masku iestatīšana"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem."
+title: Svītrkodu masku iestatīšana
+description: Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340618"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Svītrkodu masku iestatīšana
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Svītrkoda maskas tiek izmantotas, lai izveidotu svītrkodus un ātri identific�
 | Darbinieks         | Norāda svītrkoda segmentu darbinieka ID numuram, kas tiek izmantots, lai veiktu POS pieteikšanos ar svītrkodu. |
 | Debitors         | Norāda debitora ID segmentu. |
 | Datu ievade       | *Vēl nav ieviests.* |
-| Atlaides kods    | *Novecojis* kopš Dynamics 365 for Retail 2017. gada pavasara laidiena. Iepriekš: norāda atlaižu kodu svītrkodam, kas tiek izmantots, lai pievienotu atlaidi pārdošanas punkta transakcijai. |
+| Atlaides kods    | *Novecojis*, sākot ar Dynamics 365 for Retail 2017. gada pavasara laidienu. Iepriekš: norāda atlaižu kodu svītrkodam, kas tiek izmantots, lai pievienotu atlaidi pārdošanas punkta transakcijai. |
 | Kupona kods      | Norāda svītrkoda kupona kodu, kas izmantots, lai pievienotu atlaidi mazumtirdzniecības pasūtījumam. Tas aizstāja atlaides kodu. |
 | Dāvanu karte        | Norāda dāvanu kartes numuru, izdodot dāvanu karti vai veicot ar to apmaksu. |
 | Lojalitātes programmas karte     | Pievieno transakcijai lojalitātes programmas debitoru, un to var izmantot, veicot maksājumu lojalitātes programmas ietvaros. |
@@ -84,4 +83,3 @@ Svītrkoda maskas ir jāpiešķir svītrkodiem, pirms tos var izmantot. Turpinot
 5. Noklikšķiniet uz **Saglabāt**.
 
 Svītrkoda masku var izmantot, lai izveidotu svītrkodus precēm. Minētās darbības ir piemēri, kā izveidot svītrkoda maskas precēm, taču tās arī norāda, kā izveidot svītrkoda maskas visiem pārējiem atbalstītajiem svītrkodu tipiem. Svītrkodu maskas, tipi un garumi jāpielāgo izmantošanai attiecīgajā vidē.
-

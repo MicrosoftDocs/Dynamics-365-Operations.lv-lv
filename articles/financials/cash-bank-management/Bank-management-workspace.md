@@ -1,13 +1,13 @@
 ---
-title: "Bankas pārvaldības darbvieta"
-description: "Šajā tēmā ir sniegta informācija par darbvietu Banku vadība. Šajā darbvietā tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem, un tajā ir ietverts skats Kopsavilkums un lapa Analīze. Skatā Kopsavilkums tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija. Lapā Analīze tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas."
+title: Bankas pārvaldības darbvieta
+description: Šajā tēmā ir sniegta informācija par darbvietu Banku vadība. Šajā darbvietā tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem, un tajā ir ietverts skats Kopsavilkums un lapa Analīze. Skatā Kopsavilkums tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija. Lapā Analīze tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fdc0d1e5ea02cdcff9f7f5ede4ab685f54365698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348369"
 ---
 # <a name="bank-management-workspace"></a>Bankas pārvaldības darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Darbvietā **Banku vadība** tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem. Darbvietā ir ietverts skats **Kopsavilkums** un lapa **Analīze**. Skatā **Kopsavilkums** tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija. Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas.
+Darbvietā **Banku vadība** tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem. Darbvietā ir ietverts skats **Kopsavilkums** un lapa **Analīze**. Skatā **Kopsavilkums** tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija. Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar bankas kontu bilancēm saistītas vizualizācijas.
 
 ## <a name="summary-view"></a>Skats Kopsavilkums
 
@@ -64,4 +64,3 @@ Lapā **Analīze** ir sniegti svarīgi rādītāji par pašreizējā uzņēmuma 
 -   Bilance pēc valūtas
 
 Darbvietā **Naudas pārskats — visi uzņēmumi** varat skatīt bankas informācijas analīzi par visiem uzņēmumiem.
-

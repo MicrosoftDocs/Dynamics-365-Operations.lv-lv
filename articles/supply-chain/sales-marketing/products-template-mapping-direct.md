@@ -1,40 +1,39 @@
 ---
-title: "Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales"
-description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales"
+title: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
+description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348254"
 ---
-
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Lai varētu lietot risinājumu No potenciāla klienta līdz skaidrai naudai, vispirms izlasiet rakstu [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales
+Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
@@ -79,7 +78,7 @@ Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Finance a
 
 > [!NOTE]
 > - Preces sinhronizācija neizdosies, ja vien nebūs pieejams cenrādis atbilstošajā valūta.
-> - Varat kontrolēt izmantoto cenrādi ar integrāciju, datu integrācijas projektā kartējot elementu pricelevelid.name [noklusējuma cenrādis (nosaukums)]. Ievadē jāizmanto tikai mazie burti. Piemēram, sadaļā Pārdošana cenrāža ar nosaukumu “Standarta” noklusējuma vērtība būtu šāda: mērķa lauks: pricelevelid.name [noklusējuma cenrādis (nosaukums)] un kartes veids: [ { "transformType": "Default", "defaultValue": "standard" } ].
+> - Varat kontrolēt izmantoto cenrādi ar integrāciju, datu integrācijas projektā kartējot elementu pricelevelid.name [noklusējuma cenrādis (nosaukums)]. Ievadē jāizmanto tikai mazie burti. Piemēram, modulī Pārdošana cenrāža ar nosaukumu “Standarta” noklusējuma vērtība būtu šāda: mērķa lauks: pricelevelid.name [Noklusējuma cenrādis (nosaukums)] un kartes veids: [ { "transformType": "Default", "defaultValue": "standarta" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
@@ -120,7 +119,6 @@ Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī D
 [Programmā Finance and Operations ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-invoice-template-mapping-direct.md)
-
 
 
 

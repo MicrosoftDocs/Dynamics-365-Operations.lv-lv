@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Pārdošanas un ienesīguma veiktspēja"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts pārdošanas un ienesīguma veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Pārdošanas un ienesīguma veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360421"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI saturs Pārdošanas un ienesīguma veiktspēja
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts **pārdošanas un ienesīguma veiktspējas** Microsoft Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Pārdošanas un ienesīguma veiktspēja**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
-**Pārdošanas un ienesīguma veiktspēja** Power BI saturs tika izveidots, lai pārdošanas vadītāji var uzraudzīt galvenos ieņēmumu, bruto peļņas un peļņas normas pārdošanas rādītājus. Tas izmanto pārdošanas transakciju datus un nodrošina gan uzņēmuma līmeņa pārdošanas rādītāju apkopošanas skatu, gan pārdošanas veiktspējas datu sadalījumu pēc debitora un preces.
+Power BI satura pakotne **Pārdošanas un ienesīguma veiktspēja** ir izveidota, lai pārdošanas vadītāji varētu uzraudzīt galvenos ieņēmumu, bruto peļņas un peļņas normas pārdošanas rādītājus. Tas izmanto pārdošanas transakciju datus un nodrošina gan uzņēmuma līmeņa pārdošanas rādītāju apkopošanas skatu, gan pārdošanas veiktspējas datu sadalījumu pēc debitora un preces.
 
 Pārskati izceļ ieņēmumus un peļņas palielinājumu laika gaitā. Tāpēc pārskatus var izmantot, lai brīdinātu vadītājus par pozitīvām un negatīvām tendencēm saistībā ar atsevišķiem kreditoriem un precēm. Turklāt diagrammas salīdzina dažādu preču kategoriju un debitoru grupu ieņēmumus un peļņu. Tāpēc kategorijas un reģionālie vadītāji var noteikt labākos un sliktākos rezultātus. Visbeidzot, visaptverošs pārskats atzīmē atsevišķus debitora ieņēmumus salīdzinājumā ar peļņas normu. Tāpēc kontu pārvaldniekiem ir uz datiem balstīts pamatojums tam, ko tie var izmantot, lai pielāgotu pārdošanas un mārketinga pasākumus katra debitora profilam.
 
@@ -49,11 +48,11 @@ Ienesīgumu var analizēt tālāk minētajos veidos.
 - Bruto peļņas izmaiņas gadu no gada
 - Debitora ienesīgums (pēc ieņēmumu un peļņas normas attiecības)
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI satura pakotne **Pārdošanas un ienesīguma veiktspēja** tiek rādīta lapā **Pārdošanas un ienesīguma veiktspēja** (**Pārdošana un mārketings** \> **Pieprasījumi un pārskati** \> **Pārdošanas apjoma analīze** \> **Pārdošanas un ienesīguma veiktspēja**).
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+Power BI satura pakotne **Pārdošanas un ienesīguma veiktspēja** tiek rādīta lapā **Pārdošanas un ienesīguma veiktspēja** (**Pārdošana un mārketings** \> **Pieprasījumi un pārskati** \> **Pārdošanas apjoma analīze** \> **Pārdošanas un ienesīguma veiktspēja**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
-**Pārdošanas un ienesīguma veiktspējas** Power BI satura pakotnē ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par satura rādītāju vizualizēšanu.
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji
+Power BI satura pakotnē **Pārdošanas un ienesīguma veiktspēja** ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Tālāk esošajā tabulā ir sniegts apskats par satura rādītāju vizualizēšanu.
 
 | Pārskata lapa            | Diagrammas                                     | Elementi                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
@@ -78,9 +77,9 @@ Power BI satura pakotne **Pārdošanas un ienesīguma veiktspēja** tiek rādī
 \* Šī gada un pagājušā gada ieņēmumi un palielinājums pēc pārdošanas kategorijas.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-**Pārdošanas un ienesīguma veiktspējas** Power BI satura pārskata aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
+Power BI satura pakotnes **Pārdošanas un ienesīguma veiktspēja** pārskata aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).
 
-Šajā saturā ietvertie apkopošanas mērījumi ir apakškopa tiem apkopošanas mērījumiem, kas ir pieejami pārdošanas kubā programmatūrā Microsoft Dynamics AX 2012 un Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ieraksta [Power BI integrācija elementu krātuvē programmatūrā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par apkopošanas mērījumu izvietošanas elementu krātuvē procedūru.
+Šajā satura pakotnē ietvertie apkopošanas mērījumi ir to apkopošanas mērījumu apakškopa, kas ir pieejami pārdošanas kubā programmās Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ziņas [Power BI integrācija elementu krātuvē programmā Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) sadaļā par procedūru apkopošanas mērījumu sagatavošanai elementu krātuvē.
 
 Tālāk ir norādīti elementa Rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti kā satura pamatdati.
 
@@ -109,4 +108,3 @@ Tālāk minētās pārdošanas kuba galvenās dimensijas tiek izmantotas kā fil
 | Datumi            | Datumi                                                |
 
 Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
-

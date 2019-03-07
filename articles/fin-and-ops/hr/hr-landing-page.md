@@ -1,13 +1,13 @@
 ---
-title: "Personāla vadība"
-description: "Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība."
+title: Personāla vadība
+description: Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341768"
 ---
-
 # <a name="human-resources"></a>Personāla vadība
 
 [!include [banner](../includes/banner.md)]
@@ -77,11 +76,11 @@ Papildus darbinieku atlīdzināšanai, izmantojot samaksas par darbu, algas un p
 
 - [Pārvaldīt atvieglojumu programmu](../../talent/manage-benefit-program.md)
 - [Atvieglojumu piemērojamības ierobežojumi](../../talent/benefit-eligibility-policies.md)
-- [Pārvaldīt darbiniekiem aizdotus krājumus](../../talent/loan-items.md)
+- [Nodarbinātajiem aizdotu krājumu pārvaldīšana](../../talent/loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Uzturēt darbavietas drošību un atbilstību
+## <a name="maintain-workplace-safety-and-compliance"></a>Darbvietas drošības un atbilstības uzturēšana
 
-Sistēma Microsoft Dynamics AX jums var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam “Amerikāņi ar īpašām vajadzībām” un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
+Programma Microsoft Dynamics AX var palīdzēt uzturēt drošu darba vidi, kas atbilst piemērojamajiem tiesību aktiem, tostarp likumam Amerikāņi ar īpašām vajadzībām un tiesību aktiem par imigrāciju un naturalizāciju. Piemēram, noteiktiem darbiem varat pārvaldīt fiziskās prasības, kā arī sekot līdzi pieprasījumiem par izmitināšanu, kas jūsu organizācijai var palīdzēt optimizēt tās darbaspēka prasmes.
 
 - [Formas I-9 nodarbinātības pārbaude](localizations/noam-usa-form-i-9-verification.md)
 - [Ievērot likumu Amerikāņi ar īpašām vajadzībām](localizations/noam-usa-comply-ada.md)
@@ -95,4 +94,3 @@ Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izman
 - [Projektēt anketu](../../talent/design-questionnaires.md)
 - [Izplatīt un aizpildīt anketu](../../talent/distribute-questionnaires.md)
 - [Skatīt un novērtēt anketas rezultātus](../../talent/evaluate-questionnaire-results.md)
-

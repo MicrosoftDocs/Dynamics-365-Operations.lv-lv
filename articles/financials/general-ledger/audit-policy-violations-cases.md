@@ -1,13 +1,13 @@
 ---
-title: "Audita ierobežojuma nosacījumu pārkāpumi un gadījumi"
-description: "Rakstā ir paskaidrots, kā no audita ierobežojumu nosacījumu pārkāpumiem tiek ģenerēti audita gadījumi. Tajā ir iekļauta arī informācija par dažādiem veidiem, kā audita ierobežojumi izmanto dokumentu atlases datumu diapazonu."
+title: Audita ierobežojuma nosacījumu pārkāpumi un gadījumi
+description: Rakstā ir paskaidrots, kā no audita ierobežojumu nosacījumu pārkāpumiem tiek ģenerēti audita gadījumi. Tajā ir iekļauta arī informācija par dažādiem veidiem, kā audita ierobežojumi izmanto dokumentu atlases datumu diapazonu.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c3ed72f829ca4060fe0a4c03b6d4a47a98cdebd6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2376a1d6e86eba9f5021cc08dcfaea52f131a3d7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352532"
 ---
-
 # <a name="audit-policy-violations-and-cases"></a>Audita ierobežojuma nosacījumu pārkāpumi un gadījumi
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Tālāk ir minēti daži citi veidi, kā audita ierobežojums izmanto dokumentu 
 
 
 Plašāku informāciju skatiet rakstā [Audita ierobežojuma nosacījumi](audit-policy-rules.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Partijas līdzsvarošana"
-description: "Šajā tēmā ir aprakstīts partijas līdzsvarošanas process."
+title: Partijas līdzsvarošana
+description: Šajā tēmā ir aprakstīts partijas līdzsvarošanas process.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358627"
 ---
-
 # <a name="batch-balancing"></a>Partijas līdzsvarošana
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā tiek nodrošināts partijas līdzsvarošanas process. 
 
-Noskatieties [video par partijas līdzsvarošanu programmā Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
+Skatieties [video par partijas līdzsvarošanu programmā Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Partijas līdzsvarošanas procesā tiek aprēķināts ražošanas partijā izmantojamais sastāvdaļu daudzums, izmantojot atlasītajā preču partijā aktīvo sastāvdaļu koncentrāciju.
 
@@ -194,4 +193,3 @@ Ir viens kārtulas izņēmums: partijas līdzsvarošanai var lietot partijas pas
 Ja formulā ir aktīvā sastāvdaļa precei, kas ir iespējota noliktavas pārvaldības procesiem, bet partijas numurs ir rezervāciju hierarhijā zemāks par vērtību Atrašanās vieta, partijas pasūtījums nav lietojams partijas līdzsvarošanā.
 
 Partijas pasūtījums, kas nav lietojams par partijas līdzsvarošanā, tiek pakļauts parastajam partijas pasūtījumu procesa ciklam.
-

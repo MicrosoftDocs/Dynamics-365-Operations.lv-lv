@@ -1,13 +1,13 @@
 ---
-title: "Konfigurācijas atslēgas un datu elementi"
-description: "Šajā tēmā ir aprakstītas attiecības starp konfigurācijas atslēgām un datu elementiem programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Konfigurācijas atslēgas un datu elementi
+description: Šajā tēmā ir aprakstītas konfigurācijas atslēgu un datu elementu attiecības programmā Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336478"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Konfigurācijas atslēgas un datu elementi
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Izmantojot elementu saraksta atsvaidzināšanas laikā veidotos konfigurācijas 
 Ikreiz, kad atjaunināt konfigurācijas atslēgas elementa, tabulas vai lauka līmenī, ir jāatsvaidzina elementu saraksts datu pārvaldības platformā. Šis process nodrošina, ka platforma paņem jaunākos konfigurācijas atslēgas iestatījumus. Kamēr nebūs atsvaidzināts elementu saraksts, elementu saraksta lapā tiks rādīts tālāk norādītais brīdinājums. Atjauninātās konfigurācijas atslēgas izmaiņas stāsies spēkā nekavējoties pēc elementu saraksta atsvaidzināšanas. Ieteicams validēt esošos datus projektus un darbus, lai nodrošinātu, ka pēc konfigurācijas atslēgu izmaiņu stāšanās spēkā tie darbojas, kā paredzēts.
 
 ![Mērķa lauki](./media/Target_fields_3.png)
-

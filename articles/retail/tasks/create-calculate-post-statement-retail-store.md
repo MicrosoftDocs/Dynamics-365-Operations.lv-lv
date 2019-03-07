@@ -1,13 +1,13 @@
---- 
+---
 title: " Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatošana"
-description: "Šajā procedūrā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības."
+description: Šajā procedūrā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354395"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Mazumtirdzniecības veikala izraksta izveide, aprēķins un grāmatošana
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un izpildes darbības ir aprakstītas citās tēmās. Lai izpildītu šo procedūru, jābūt transakcijām, kas tika izveidotas POS un pēc tam atgādātas sistēmā Dynamics AX. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati. Šo procedūru var skatīt Microsoft Dynamics AX. Lūdzu, ņemiet vērā, ka Dynamics AX tagad tiek dēvēts par Microsoft Dynamics 365 for Operations.
+Šajā procedūrā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un izpildes darbības ir aprakstītas citās tēmās. Lai izpildītu šo procedūru, ir nepieciešamas transakcijas, kas ir pabeigtas POS un pēc tam importētas programmā Dynamics AX. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati. Šī procedūra var attiekties uz programmu Microsoft Dynamics AX. Lūdzu, ņemiet vērā, ka programma Dynamics AX tagad tiek saukta par Microsoft Dynamics 365 for Operations.
 
 1. Dodieties uz Visas darbvietas > .. > Mazumtirdzniecības veikala finanses.
 2. Noklikšķiniet uz Jauns izraksts.
@@ -47,5 +47,4 @@ ms.lasthandoff: 02/07/2018
 10. Noklikšķiniet uz Aizvērt.
 11. Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Kanāli > Mazumtirdzniecības veikala finanses.
 12. Noklikšķiniet uz cilnes Iegrāmatotie izraksti.
-
 

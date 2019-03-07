@@ -1,14 +1,14 @@
 ---
-title: "Mērvienību pārveidošana katram preces variantam"
-description: "Šajā tēmā ir paskaidrots, kā var iestatīt mērvienību pārveidošanu preču variantiem."
+title: Mērvienību pārveidošana katram preces variantam
+description: Šajā tēmā ir paskaidrots, kā var iestatīt mērvienību pārveidošanu preču variantiem.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 12/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345931"
 ---
-
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mērvienību pārveidošana katram preces variantam
 
 [!include [banner](../includes/banner.md)]
@@ -94,4 +93,3 @@ Izlaistajiem preces variantiem Mazs, Vidējs un Liels ir tāda pati mērvienī
 Ja precei ir daudz preces variantu ar dažādām mērvienību pārveidošanām, ieteicams eksportēt mērvienību pārveidošanas no lapas **Mērvienību pārveidošana** uz Excel izklājlapu, atjaunināt pārveidošanas un pēc tam publicēt tās atpakaļ programmā Finance and Operations.
 
 Opciju eksportēt uz programmu Excel un publicēt rediģētās vērtības atpakaļ programmā Finance and Operations iespējo, izmantojot vienumu izvēlnē **Atvērt, izmantojot Microsoft Office** lapas **Mērvienību pārveidošana** darbību rūtī.
-

@@ -1,13 +1,13 @@
 ---
-title: "Navigācijas meklēšana"
-description: "Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcijas, lai pārietu uz lapām sistēmā Microsoft Dynamics 365 for Finance and Operations."
+title: Navigācijas meklēšana
+description: Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz Microsoft Dynamics 365 for Finance and Operations lapām.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353015"
 ---
-
 # <a name="navigation-search"></a>Navigācijas meklēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcijas, lai pārietu uz lapām sistēmā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz Microsoft Dynamics 365 for Finance and Operations lapām.
 
 Finance and Operations nodrošina funkcijas visdažādākajām nozarēm un vertikālēm. Lietojumprogrammā ir ietverti vairāki apgabali un lapas, kas palīdz veikt dažādus uzdevumus. Lai ātri atrastu uzdevumu veikšanai nepieciešamās lapas, izmantojiet navigācijas meklēšanas līdzekli.
 
@@ -64,4 +63,3 @@ Meklēšanas rezultātu sarakstā tiek parādīti ne vairāk kā 10 vienumi. Ja 
 ## <a name="development"></a>Izstrāde
 
 No izstrādes viedokļa navigācijas meklēšanas funkcionalitāte ir ļoti vienkārši izmantojama, jo izvēļņu vienumus meklēšanas rezultātos ir iespējams parādīt gandrīz uzreiz pēc to izvietošanas. Ja uz izvēļņu vienumiem ir izveidota saite no navigācijas rūts vai informācijas paneļa, tie automātiski kļūst meklējami.
-

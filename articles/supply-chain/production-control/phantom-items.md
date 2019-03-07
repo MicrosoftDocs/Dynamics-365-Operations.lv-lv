@@ -1,13 +1,13 @@
 ---
-title: "Fantoma krājumi"
-description: "Šajā sadaļā ir sniegta detalizēta informācija par to, kā fantoma rindas veidu var izmantot materiālu komplektu (MK) un formulas rindām programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Fantoma krājumi
+description: Šajā tēmā ir detalizēti aprakstīts, kā rindas tipu Fantoms var izmantot materiālu komplekta (MK) un formulas rindām programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validfrom: 
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.search.validfrom: ''
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341814"
 ---
-
 # <a name="phantom-items"></a>Fantoma krājumi
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Nākamajā attēlā ir parādīts, kā iepriekšējais konstruēšanas MK tiek p
 
 Atšķirībā no konstruēšanas MK, kurā bija divas operāciju lapas, ražošanas MK ir tikai viena operāciju lapa. Iepakojuma operācija, kas ir saistīta ar daļu G, arī ir pārnesta, un tā tagad ir preces H operācijas lapas daļa. Elektroierīces montāža ir pirmajā operācija. Šai secībai ir jēga, jo šī ierīce tiek izmantota nākamajā darbībā, kas ir iekārtas montāža. Pēdējā operācija ir iepakošanas darbība, kurā tiek izmantoti divi iepakojuma materiāli (C un D).
 
-Programmā Microsoft Dynamics 365 for Finance and Operations pāreja no konstruēšanas MK un ražošanas MK ir iespējota, izmantojot fantoma MK rindas veidu. Kā jau termins “fantoms” norāda, pārejas starp abiem MK viediem laikā daļa F un G ir pazudusi. Šajā piemērā fantoma rindas veids tiek lietots daļas F un G MK rindās konstruēšanas MK. Izveidojot ražošanas vai partijas pasūtījumu, konstruēšanas MK tiek kopēts ražošanas vai partijas pasūtījumā. Pēc tam, novērtējot pasūtījumu, rodas pāreja no konstruēšanas MK uz ražošanas MK, kā parādīts iepriekšējos attēlos. Saskaņā ar operācijas lapu otrajā attēlā iepakojuma materiāls C un D tiek ievadīts operācijai. 
+Programmā Microsoft Dynamics 365 for Finance and Operations pāreja no konstruēšanas MK uz ražošanas MK ir tiek nodrošināta, izmantojot MK rindas tipu Fantoms. Kā jau termins “fantoms” norāda, pārejas starp abiem MK viediem laikā daļa F un G ir pazudusi. Šajā piemērā fantoma rindas veids tiek lietots daļas F un G MK rindās konstruēšanas MK. Izveidojot ražošanas vai partijas pasūtījumu, konstruēšanas MK tiek kopēts ražošanas vai partijas pasūtījumā. Pēc tam, novērtējot pasūtījumu, rodas pāreja no konstruēšanas MK uz ražošanas MK, kā parādīts iepriekšējos attēlos. Saskaņā ar operācijas lapu otrajā attēlā iepakojuma materiāls C un D tiek ievadīts operācijai. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Daudzlīmeņu fantoma MK struktūras
 Fantoma rindas veidu var izmantot daudzlīmeņu MK struktūrās, kā parādīts nākamajā attēlā. Šajā attēlā (a) ir preces G MK un (b) ir daļas E un F un preces G maršruta lapa. 
@@ -74,4 +73,3 @@ Fantoma MK var izmantot arī MK, kam ir maršruta tīkls. Maršruta tīklā vien
 Nākamajā attēlā (a) ir preces G un daļas F MK un (b) ir preces G un daļas F maršruta lapa.
 
 ![Prece G un daļa F ar maršruta lapām](media/product-G-part-F-with-route-sheet.png)
-

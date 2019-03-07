@@ -1,13 +1,13 @@
---- 
-title: "Pienākumu sadales konfliktu identificēšana un atrisināšana"
-description: "Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem lietotājiem."
+---
+title: Pienākumu sadales konfliktu identificēšana un atrisināšana
+description: Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem lietotājiem.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353107"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Pienākumu sadales konfliktu identificēšana un atrisināšana
 
@@ -48,5 +48,4 @@ Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem l
     * Atlasiet nosacījumu.  
 2. Noklikšķiniet uz Apstiprināt pienākumus un lomas.
     * Ja jebkuras esošās lomas pārkāpj atlasīto nosacījumu, tiek parādīts ziņojums, kas ietver lomas nosaukumu un konfliktējošo pienākumu nosaukumus. Administratoram vai nu jānorāda drošības riska mazinājums vai jāmodificē loma, lai tā nepārkāptu pienākumu sadales nosacījumus.     Ja neviena loma nepārkāpj atlasīto nosacījumu, ziņojumā norādīts, ka visas lomas ir atbilstošas.  
-
 

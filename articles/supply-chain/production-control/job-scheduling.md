@@ -1,13 +1,13 @@
 ---
-title: "Darbu plānošana"
-description: "Šajā rakstā ir sniegta informācija par darbu plānošanu, kas ir daudz detalizētāka plānošanas forma nekā operāciju plānošana. Darbu plānošanu var izmantot, lai plānotu atsevišķus darbus vai veikalu pasūtījumus un kontrolētu ražošanas vidi."
+title: Darbu plānošana
+description: Šajā rakstā ir sniegta informācija par darbu plānošanu, kas ir daudz detalizētāka plānošanas forma nekā operāciju plānošana. Darbu plānošanu var izmantot, lai plānotu atsevišķus darbus vai veikalu pasūtījumus un kontrolētu ražošanas vidi.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339537"
 ---
-
 # <a name="job-scheduling"></a>Darbu plānošana
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ Darbu plānošanā darbiem tiek piešķirti resursi. Katrā darba pasūtījumā 
 
 ## <a name="resource-efficiency"></a>Resursu efektivitāte
 Darbu plānošana ņem vērā resursiem norādītos efektivitātes procentus. Efektivitātes procenti samazina vai palielina resursam rezervēto laiku. Tāpēc tiek palielināts vai samazināts arī izpildes laiks. Aprēķināšanai tiek izmantota šāda formula: plānošanas laiks = laiks x 100 ÷ efektivitātes procenti. Šajā formulā *Laiks* ietver gan izpildes laiku, gan iestatīšanas laiku.
-
 
 
 

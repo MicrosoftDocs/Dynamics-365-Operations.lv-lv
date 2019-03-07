@@ -1,13 +1,13 @@
 ---
-title: "Pirkšanas ierobežojumi"
-description: "Šajā rakstā ir sniegta informācija par pirkšanas ierobežojumiem. Pirkšanas ierobežojumi ir nosacījumu kopums, kas kontrolē pieprasījumu procesu. Pirkšanas ierobežojumi palīdz sagādes administratoriem ieviest sagādes stratēģiju, izveidojot politikas struktūru, kas ir saskaņota ar organizācijas stratēģiskajām pirkšanas prasībām."
+title: Pirkšanas ierobežojumi
+description: Šajā rakstā ir sniegta informācija par pirkšanas ierobežojumiem. Pirkšanas ierobežojumi ir nosacījumu kopums, kas kontrolē pieprasījumu procesu. Pirkšanas ierobežojumi palīdz sagādes administratoriem ieviest sagādes stratēģiju, izveidojot politikas struktūru, kas ir saskaņota ar organizācijas stratēģiskajām pirkšanas prasībām.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358765"
 ---
-
 # <a name="purchasing-policies"></a>Pirkšanas ierobežojumi
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ Izmantojot pirkšanas pasūtījuma izveides un pieprasījuma konsolidācijas nos
     -   **Neatļaut pieprasījuma konsolidāciju** — apstiprinātās pirkšanas pieprasījuma rindas nav piemērotas pieprasījuma konsolidācijai. Šī opcija ir atlasīta pēc noklusējuma un attiecas tikai uz pirkšanas pieprasījuma rindām, kurām nepieciešama manuāla apstrāde pirkšanas pasūtījuma izveidošanai.
     -   **Vienmēr atļaut pieprasījuma konsolidāciju** — visas apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. **Piezīme:** atlasot opciju **Vienmēr atļaut pieprasījuma konsolidāciju** cilnē **Pieprasījuma konsolidācija** un atlasot opciju **Automātiski izveidot pirkšanas pasūtījumus** cilnē **Manuāla pirkšanas pasūtījuma izveide**, visi pirkšanas pieprasījumi tiek aizturēti manuālai apstrādei.
     -   **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos** — definējiet kritērijus, kas nosaka, vai apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. Katram pirkšanas pieprasījuma rindas veidam varat iestatīt kritērijus pēc sagādes kategorijas un piegādātāja. Ja atlasāt opciju **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos**, varat iestatīt kritērijus pēc sagādes kategorijas un kreditora katram pirkšanas pieprasījuma rindas tipam. Atlasot sagādes kategoriju, tiek atlasītas arī visas apakškategorijas šajā sagādes kategorijā. Ja atlasāt opciju **Visas** noteiktam rindas tipam, visas šī tipa pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai.
-
 
 
 

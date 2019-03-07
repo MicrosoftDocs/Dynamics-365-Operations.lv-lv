@@ -1,13 +1,13 @@
 ---
-title: "Pielāgotu lauku izveidošana un darbs ar tiem"
-description: "Šajā tēmā parādīts, kā Microsoft Dynamics 365 for Finance and Operations noteiktiem lietotājiem ļauj izveidot pielāgotus laukus un pielāgot programmu sava uzņēmuma vajadzībām."
+title: Pielāgotu lauku izveide un darbs ar tiem
+description: Šajā tēmā parādīts, kā Microsoft Dynamics 365 for Finance and Operations noteiktiem lietotājiem ļauj izveidot pielāgotus laukus un pielāgot programmu sava uzņēmuma vajadzībām.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348024"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>Pielāgotu lauku izveidošana un darbs ar tiem
+# <a name="create-and-work-with-custom-fields"></a>Pielāgotu lauku izveide un darbs ar tiem
 
 [!include [banner](../includes/banner.md)]
 
-Lai gan Microsoft Dynamics 365 for Finance and Operations nodrošina plašu lietošanai gatavu lauku kopu dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Tādēļ programmā Finance and Operations varat izveidot pielāgotus laukus un programmu pielāgot sava uzņēmuma vajadzībām (ja jums ir nepieciešamās atļaujas, lai piekļūtu šim līdzeklim).
+Lai gan Microsoft Dynamics 365 for Finance and Operations nodrošina plašu lietošanai gatavu lauku kopu dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Tādēļ programmā Finance and Operations varat izveidot pielāgotus laukus un programmu pielāgot sava uzņēmuma vajadzībām (ja jums ir nepieciešamās atļaujas, lai piekļūtu šim līdzeklim).
 
 Pielāgotu lauku pievienošanas iespēja ir pieejama 13. platformas atjauninājumā un jaunākās tā versijās.
 
@@ -160,4 +159,3 @@ Veiktspējas un tehnisku iemeslu dēļ pielāgotos laukus pašlaik var pievienot
 - Tabula nedrīkst paplašināt citu tabulu.
 - Tabula nedrīkst būt atzīmēta kā sistēmas tabula.
 - Tabula nedrīkst būt pagaidu tabula.
-

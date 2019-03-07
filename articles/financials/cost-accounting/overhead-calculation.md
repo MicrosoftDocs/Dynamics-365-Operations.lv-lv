@@ -1,13 +1,13 @@
 ---
-title: "Pieskaitāmo izmaksu aprēķins"
-description: "Šajā tēmā ir aprakstīti tipiskie procesi pieskaitāmo izmaksu aprēķināšanai un piešķiršanai."
+title: Pieskaitāmo izmaksu aprēķins
+description: Šajā tēmā ir aprakstīti tipiskie procesi pieskaitāmo izmaksu aprēķināšanai un piešķiršanai.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335121"
 ---
-
 # <a name="overhead-calculation"></a>Pieskaitāmo izmaksu aprēķins
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ Finanšu grāmatvedībā 10 000,00 izmaksas par elektrību tiek grāmatotas uz 
 
 > [!NOTE]
 > Šajā tēmā ir parādīts, kā primārais izmaksu elements, 10001 Elektrība, plūst caur izmaksu objektiem. Tāpēc šīs pieskaitāmās izmaksas tiek sadalītas līdz zemākajam līmenim organizācijā. Citiem vārdiem sakot — izmaksas sedz zemākajā līmenī esošie izmaksu objekti. Ja ir nepieciešama vizuāla izmaksu plūsma starp izmaksu objektiem, varat izmantot izmaksu apkopošanas politiku kārtulas, lai šo izmaksu plūsmu vizualizētu. Sīkāku informāciju skatiet šeit: [Izmaksu apkopošanas politika](cost-rollup.md).
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Informācijas atrašana, izmantojot uzmeklēšanu"
-description: "Programmatūrā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir pārlūki, kas var palīdzēt jums viegli atrast pareizo vai vajadzīgo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā."
+title: Informācijas meklēšana, izmantojot uzmeklēšanu
+description: Sistēmā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328359"
 ---
-
-# <a name="find-information-by-using-lookups"></a>Informācijas atrašana, izmantojot uzmeklēšanu
+# <a name="find-information-by-using-lookups"></a>Informācijas meklēšana, izmantojot uzmeklēšanu
 
 [!include [banner](../includes/banner.md)]
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir pārlūki, kas var palīdzēt jums viegli atrast pareizo vai vajadzīgo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.
+Sistēmā Microsoft Dynamics 365 for Finance and Operations daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.
 
 ## <a name="responsive-lookups"></a>Reaģējoša uzmeklēšana
 
@@ -85,4 +84,3 @@ Tā vietā lietotājam ir jānotīra uzmeklēšanas vadīklas vērtība, jāatve
 Pēc filtra lietošanas (skatiet nākamo attēlu) lietotājs var atrast un atlasīt rindu kā parasti.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-

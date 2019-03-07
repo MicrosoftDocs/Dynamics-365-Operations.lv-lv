@@ -1,13 +1,13 @@
 ---
-title: "Projekta rēķinu izrakstīšana"
-description: "Šajā rakstā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām."
+title: Projekta rēķinu izrakstīšana
+description: Šajā rakstā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346322"
 ---
-
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ Viens un tas pats dokuments var ietvert transakcijas, kas ir atlasītas kreditē
 Lai kreditētu rēķinā iekļautu summu, jums vispirms ir jāatlasa rēķinā iekļautā summa, kuru vēlaties kreditēt, un pēc tam jāizveido kredīta nota. Kredīta nota ir jāizveido, vadoties pēc tās pašas procedūras, ko jūs izmantotu debitora rēķina izveidošanai. 
 
 Varat izveidot rēķinu ar negatīvu summu — šāds rēķins kļūst par rēķinu, kurš tiek klasificēts kā kredīta nota. Lai izveidotu un drukātu kredīta notu, jums ir jāatlasa transakcijas, kas iepriekš tika grāmatotas debitora rēķinam, un pēc tam jāmaina šīs transakcijas. Izņemot gadījumus, kad juridiskās personas primārā adrese ir Vācijā, rēķina nosaukums ir “Labojošs rēķins”.
-
 
 
 

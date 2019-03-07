@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas pasūtījuma izmaksu novērtējums"
-description: "Šajā rakstā ir sniegta informācija par ražošanas izmaksu novērtējumu. Ražošanas izmaksu novērtējums sniedz plānotajam ražošanas pasūtījuma daudzumam paredzētās krājuma ražošanas materiālu un veiktspējas patēriņa izmaksas."
+title: Ražošanas pasūtījuma izmaksu novērtējums
+description: Šajā rakstā ir sniegta informācija par ražošanas izmaksu novērtējumu. Ražošanas izmaksu novērtējums sniedz plānotajam ražošanas pasūtījuma daudzumam paredzētās krājuma ražošanas materiālu un veiktspējas patēriņa izmaksas.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93546fc170757ee2c39144842bae12d78400fd32
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3ea3998014eb9ac2fd4610b5d52bd792d4f73869
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350485"
 ---
-
 # <a name="production-order-cost-estimation"></a>Ražošanas pasūtījuma izmaksu novērtējums
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ Izmaksu novērtējums sniedz arī tālāk uzskaitīto informāciju.
 -   Cenu informācijas salīdzinājumu no iepriekšējās ražošanas
 -   Budžeta un prognozēšanas informācija
 -   Noteiktas cenas uzturēšanai nepieciešamo ražošanas apmēru novērtējumi
-
 
 
 

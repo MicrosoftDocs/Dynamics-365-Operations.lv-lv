@@ -1,31 +1,30 @@
 ---
-title: "Vienības izmaksu cena un atgrieztā laidiena ID"
-description: "Iespējams, vēlēsities, lai atgriezto preču izmaksas būtu vienādas ar preču izmaksām brīdī, kad pārdevāt preces debitoram. To var izdarīt, izmantojot **Atgrieztā laidiena ID**."
+title: Vienības izmaksu cena un atgrieztā laidiena ID
+description: Iespējams, vēlēsities, lai atgriezto preču izmaksas būtu vienādas ar preču izmaksām brīdī, kad pārdevāt preces debitoram. To var izdarīt, izmantojot **Atgrieztā laidiena ID**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335144"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Vienības izmaksu cena un atgrieztā laidiena ID        
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Pēc noklusējuma, pievienojot krājumus atgriešanas pasūtījumam, tie tiek at
 
 3.  Veidlapā **Izveidot atgriešanas pasūtījumu** atlasiet debitora kontu un pēc tam noklikšķiniet uz **Labi**.
 
-4.  Veidlapā **Atgriešanas pasūtījums - AKA kods: %1, %2** atlasiet krājumu un pēc tam ievadiet negatīvu daudzumu laukā **Daudzums**.
+4.  Formā **Atgriešanas pasūtījums — AKA kods: %1, %2** atlasiet krājumu un pēc tam ievadiet negatīvu daudzumu laukā **Daudzums**.
 
 5.  Noklikšķiniet uz kopsavilkuma cilnes **Detalizēta informācija par rindu**.
 
@@ -64,7 +63,7 @@ Atgriešanas rindu izveidei vēlams izmantot šo metodi. Lai izmantotu preču iz
 
 3.  Veidlapā **Izveidot atgriešanas pasūtījumu** atlasiet debitora kontu un pēc tam noklikšķiniet uz **Labi**.
 
-4.  Veidlapā **Atgriešanas pasūtījums - AKA kods: %1, %2**, sadaļā **Darbību rūts** noklikšķiniet uz **Atrast pārdošanas pasūtījumu**.
+4.  Formas **Atgriešanas pasūtījums — AKA kods: %1, %2**, sadaļā **Darbību rūts** noklikšķiniet uz vienuma **Atrast pārdošanas pasūtījumu**.
 
 5.  Veidlapā **Atrast pārdošanas pasūtījumu** atlasiet atgriežamo rēķina rindu un pēc tam noklikšķiniet uz **Labi**.
     
@@ -94,7 +93,7 @@ Ja izmantojat lauku **Atgrieztā laidiena ID** atgriešanas pasūtījuma rindā,
 
 4.  Izveidojiet atgriešanas pasūtījumu debitoram. Veidlapā **Atrast pārdošanas pasūtījumu** atlasiet rēķina rindu un pēc tam noklikšķiniet uz **Labi**.
 
-5.  Veidlapā **Atgriešanas pasūtījums - AKA kods: %1, %2** pārbaudiet, vai ir izveidots atgriešanas pasūtījums, lai atgrieztu pārbaudes krājumu. Atgriešanas pasūtījuma iestatītais daudzums ir -5,00.
+5.  Formā **Atgriešanas pasūtījums — AKA kods: %1, %2** pārbaudiet, vai ir ģenerēts atgriešanas pasūtījums, lai atgrieztu pārbaudes krājumu. Atgriešanas pasūtījuma iestatītais daudzums ir -5,00.
     
     Laukā **Atgrieztā laidiena ID** tiek parādīts laidiena ID. Šis laidiena ID tiek ņemts no debitoram pārdotā krājuma sākotnējā pārdošanas pasūtījuma. Laukā **Vienības izmaksu cena** tiek parādīta izmaksu cena no sākotnējās pārdošanas rindas.
 
@@ -104,12 +103,11 @@ Ja izmantojat lauku **Atgrieztā laidiena ID** atgriešanas pasūtījuma rindā,
 
 8.  Iegrāmatojiet rēķinu atgriešanas pasūtījumam. Saraksta lapā **Visi pārdošanas pasūtījumi** atlasiet pārdošanas pasūtījumu, kuram pasūtījuma tips ir **Atgrieztais pasūtījums**.
 
-9.  Atveriet veidlapu **Krājumu darbības**. Pārbaudiet, vai atgriešanas izmaksas ir 7,00 par gabalu, izmantojot vērtību laukā **Vienības izmaksu cena**, ar kopsummu 35,00 laukā **Izmaksu summa**. Varat atvērt veidlapu **Krājumu darbības** no veidlapas **Atgriešanas pasūtījums - AKA kods: %1, %2**. Režģī **Rindas** noklikšķiniet uz **Krājums** \> **Darbības**.
+9.  Atveriet veidlapu **Krājumu darbības**. Pārbaudiet, vai atgriešanas izmaksas ir 7,00 par gabalu, izmantojot vērtību laukā **Vienības izmaksu cena**, ar kopsummu 35,00 laukā **Izmaksu summa**. Varat atvērt formu **Krājumu transakcijas** formā **Atgriešanas pasūtījums — AKA kods: %1, %2**. Režģī **Rindas** noklikšķiniet uz **Krājums** \> **Darbības**.
 
 10. Sadaļā Krājumu un noliktavas pārvaldība izmantojiet veidlapu **Slēgšana un pielāgošana**, lai palaistu procedūru **3. Aizvērt**.
     
     Šī darbība pielāgo izmaksas sākotnējā pārdošanas rindā, kuru aprēķinātā vērtība bija -35,00 (5 gabali \* 7,00), uz -30.00 (5 gabali \* 6,00). Tas ir tādēļ, ka krājumu modeļu grupa izmanto metodi “pirmie iekšā, pirmie ārā” (FIFO) un pirmā pirkšanas pasūtījuma FIFO izmaksas ir 6,00 vienības par gabalu. Turklāt šī darbība pielāgo izmaksas pārdoto preču atgriešanas rindā atbilstoši izmaksām par gabalu sākotnējā pārdošanas rindā. Tādēļ izmaksas atgriešanas rindās tiek pielāgotas no 35,00 uz 30,00.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Power BI satura pakotne Atvieglojumi"
-description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Atvieglojumi
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,38 +16,37 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355246"
 ---
-
-# <a name="benefits-power-bi-content"></a>Power BI satura pakotne Atvieglojumi
+# <a name="benefits-power-bi-content"></a>Power BI satura pakotne Atvieglojumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Atvieglojumi**. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Atvieglojumi**. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI satura pakotne **Atvieglojumi** tiek rādīta darbvietā **Atvieglojumu pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+Power BI satura pakotne **Atvieglojumi** tiek rādīta darbvietā **Atvieglojumu pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Programma Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- Microsoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Talent
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
-Power BI satura pakotnē **Atvieglojumi** iekļautajos pārskatos ir ietvertas gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+Power BI satura pakotnes **Atvieglojumi** pārskatos ir ietvertas gan diagrammas, gan tabulas, kurās ir sniegta papildinformācija. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                      | Saturs                                                                                       |
 |-----------------------------|------------------------------------------------------------------------------------------------|
 | Pārskats par reģistrēšanos atvieglojumiem | Vispopulārākie un vismazāk populārie plāni pēc reģistrāciju skaita, reģistrāciju skaits pēc darbinieku grupas un atlasītā atvieglojumu plāna opcijas |
 | Darbinieka atvieglojumi           | Darbinieka reģistrācija pēc atlasītā atvieglojuma                                                        |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Power BI satura pakotnē **Atvieglojumi** ietverto pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
+Power BI satura pakotnes **Atvieglojumi** pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
 
 | Elements                   | Saturs                                                                                                   | Attiecības ar citiem elementiem |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -71,4 +70,3 @@ Power BI satura pakotnē **Atvieglojumi** ietverto pārskatu aizpildīšanai ti
 | Darbinieka vārds            | Vārds, uzvārds un pilnais vārds                                                                       | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka amats           | Nosaukums un darba stāža datums                                                                                   | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Uzņēmums, Atlīdzība, Ģeogrāfiskā vieta, Darbinieka vārds, Pārskati par, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs, Atvieglojumi |
-

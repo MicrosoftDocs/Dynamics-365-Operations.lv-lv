@@ -1,13 +1,13 @@
 ---
-title: "Standarta izmaksu konvertēšanas priekšnoteikumi"
-description: "Šajā tēmā ir aprakstīti uzdevumi, kas ir jāveic pirms standarta izmaksu konvertēšanas izpildes."
+title: Standarta izmaksu konvertēšanas priekšnoteikumi
+description: Šajā tēmā ir aprakstīti uzdevumi, kas ir jāveic pirms standarta izmaksu konvertēšanas izpildes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351934"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Standarta izmaksu konvertēšanas priekšnoteikumi
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Pirms veicat standarta izmaksu konvertēšanu, izpildiet tālāk norādītās da
 
         Aktīvs izmaksu sadalījums nozīmē to, ka, iespējojot saražotā krājuma izmaksas, rezultāts tiek saglabāts izmaksu grupas segmentā krājuma izmaksu ierakstā. Ja nenoradāt vērtību laukā **Izmaksu sadalījums**, standarta izmaksu krājumiem netiek uzturēta izmaksu grupas segmentācija. T.i., saražoto krājumu standarta cena tiks aprēķināta un pielietota kā viena summa bez izmaksu grupas segmentācijas un saražoto elementu izmaksu ieguldījums tiks apvienots vienā summā.
     -   Izmantojiet lauku **Novirzes no standarta**, lai atlasītu apkopoto novirzi vai novirzi pēc izmaksu grupas. Ja atlasāt novirzi pēc izmaksu grupas, varat norādīt pirkšanas cenas novirzes un ražošanas novirzes pēc izmaksu grupas. Tas ļauj arī norādīt četrus ražošanas novirzes vidus (laidiena lieluma, daudzuma, cenas un aizvietošanas novirzes). Ja atlasāt apkopoto novirzi, nevarat norādīt novirzes pēc izmaksu grupas un četrus ražošanas novirzes veidus. Ir iespējams tikai apskatīt apkopoto produkcijas novirzi. Ierobežojumi attiecībā uz novirzēm no standarta ir neatkarīgi no izmaksu sadalījuma ierobežojumiem. T.i., ir iespējams atlasīt tikai izmaksu sadalījumu ierobežojumu un atlasīt novirzes pēc izmaksu grupas, tā, lai produkcijas novirzes pēc izmaksu grupas joprojām tiks paturētas.
-
 
 
 

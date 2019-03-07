@@ -1,13 +1,13 @@
 ---
-title: "Kravu pārvadāšanas maršrutu ar vairākām pieturām plānošana"
-description: "Šajā raksta ir izklāstīti dažādie elementi, ko izmantojat, lai plānotu transportēšanas maršrutus programmatūrā Microsoft Dynamics 365 for Finance and Operations."
+title: Kravu pārvadāšanas maršrutu ar vairākām pieturām plānošana
+description: Šajā raksta ir aprakstīti dažādie elementi, ko izmantojat transportēšanas maršrutu plānošanai programmā Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328313"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Kravu pārvadāšanas maršrutu ar vairākām pieturām plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā raksta ir izklāstīti dažādie elementi, ko izmantojat, lai plānotu transportēšanas maršrutus programmatūrā Microsoft Dynamics 365 for Finance and Operations.
+Šajā raksta ir aprakstīti dažādie elementi, ko izmantojat transportēšanas maršrutu plānošanai programmā Microsoft Dynamics 365 for Finance and Operations.
 
 Kompleksiem transportēšanas maršrutiem, kuros ir vairākas pieturvietas, varat izmantot maršrutu plānus un maršrutu ceļvežus. Ja viens un tas pats maršruts tiks izmantots regulāri, varat iestatīt plānotu maršrutu.
 
@@ -51,7 +50,6 @@ Plānots maršruts ir iepriekš noteikts maršruta plāns, kam ir nosūtīšanas
 
 ## <a name="load-building-workbench"></a>Noslodzes plānošanas rīks
 Lai ierosinātu kravu, Kravas plānošanas rīks izmanto debitoru adreses un piegādes datumus no pārdošanas pasūtījumiem, un pieejamos plānotos maršrutus. Pēc noklusējuma vērtības no maršruta tiek ievadītas rīkā. Taču varat norādīt datumu “no”, kas ir agrāks par maršrutā esošo datumu “no”. Kad krava tiek ierosināta, tiek pārbaudīta piegādes adrese un piegādes datums visiem atvērtajiem pārdošanas pasūtījumiem. Ja piegādes adreses pasta indekss atbilst maršruta plānā esoša pārkraušanas punkta pasta indeksam un ja piegādes datums ir kritērijos atlasītajā diapazonā, tad šai kravai tiek ierosināts pārdošanas pasūtījums. Tiek ņemta vērā arī kravas veidnes noslodze. Vienlaikus tiek ierosināta tikai viena krava. Ja jums ir pārdošanas pasūtījums, kas nav iekļauts, iespējams, jums ir jāizmanto cita kravas veidne (piemēram, kravas veidne lielākai kravas automašīnai vai konteineram) vai jāplāno papildu piegāde.
-
 
 
 

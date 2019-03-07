@@ -1,13 +1,13 @@
 ---
-title: "Budžeta plānošanas pārskats"
-description: "Šajā rakstā tiek iepazīstināts ar budžeta plānošanu, un tajā ir ietverta informācija, kas jums palīdz konfigurēt budžeta plānošanu un iestatīt budžeta plānošanas procesus."
+title: Budžeta plānošanas pārskats
+description: Šajā rakstā tiek iepazīstināts ar budžeta plānošanu, un tajā ir ietverta informācija, kas jums palīdz konfigurēt budžeta plānošanu un iestatīt budžeta plānošanas procesus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329923"
 ---
-
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/13/2018
 
 Budžeta plānošana tiek veikta, kad sagatavojat budžetus, kurus ieviesīs organizācija. Organizācija var konfigurēt budžeta plānošanu un pēc tam iestatīt budžeta plānošanas procesus atbilstoši savai politikai, procedūrām un budžeta sagatavošanas prasībām. 
 
-Gūstot izpratni par koncepcijām un terminoloģiju, kas tiek izmantotas Microsoft Dynamics 365 for Finance and Operations vidē, būs vieglāk īstenot savas organizācijas budžeta plānošanu.
+Kad sapratīsit programmā Microsoft Dynamics 365 for Finance and Operations izmantotos jēdzienus un terminoloģiju, varēsit vieglāk ieviest budžeta plānošanu savā organizācijā.
 
 ### <a name="key-terms"></a>Galvenie termini
 
@@ -58,7 +57,7 @@ Budžeta plānošanu var izmantot tālāk norādīto uzdevumu izpildei.
 -   Automātiski maršrutējiet budžeta plānus kopā ar darblapām, pamatojuma dokumentiem un citiem pielikumiem turpmākai pārskatīšanai un apstiprināšanai.
 -   Konsolidējiet vairākus budžeta plānus no zemāka organizācijas līmeņa vienā pamata budžeta plānā augstākā organizācijas līmenī. Varat arī izstrādāt vienu budžeta plānu augstākā organizācijas līmenī un piešķirt budžetu zemākiem organizācijas līmeņiem.
 
-Budžeta plānošana ir integrēta citos programmatūras Microsoft Dynamics 365 for Finance and Operations moduļos. Tāpēc varat ietvert informāciju no iepriekšējiem budžetiem, faktiskajiem izdevumiem, pamatlīdzekļiem un cilvēkresursiem. Tā kā budžeta plānošana ir arī integrēta ar Microsoft Excel un Microsoft Word, varat izmantot šīs programmas, lai strādātu ar budžeta plānošanas datiem. Piemēram, budžeta pārvaldnieks var eksportēt nodaļas budžeta pieprasījumu no budžeta plāna scenārija uz Excel darblapu. Datus var analizēt, atjaunināt un veido diagrammas darblapās un pēc tam publicēt budžeta plāna rindās.
+Budžeta plānošana ir integrēta citos Microsoft Dynamics 365 for Finance and Operations moduļos. Tāpēc varat ietvert informāciju no iepriekšējiem budžetiem, faktiskajiem izdevumiem, pamatlīdzekļiem un cilvēkresursiem. Tā kā budžeta plānošana ir integrēta arī programmās Microsoft Excel un Microsoft Word, varat izmantot šīs programmas, lai strādātu ar budžeta plānošanas datiem. Piemēram, budžeta pārvaldnieks var eksportēt nodaļas budžeta pieprasījumu no budžeta plāna scenārija uz Excel darblapu. Datus var analizēt, atjaunināt un veido diagrammas darblapās un pēc tam publicēt budžeta plāna rindās.
 
 ## <a name="configuring-budget-planning"></a>Budžeta plānošanas konfigurēšana
 Lapā **Budžeta plānošanas konfigurācija** ir lielākā iestatījumu daļa, kas jums nepieciešama, lai iestatītu budžeta plānošanu. Turpmākajās sadaļās aprakstīti galvenie faktori, kas jāņem vērā, kad konfigurējat budžeta plānošanu. Kad esat pabeidzis konfigurēšanu, uzstādiet budžeta plānošanas procesus.
@@ -188,7 +187,6 @@ Izvēlnē **Darbības** varat arī izveidot jaunu procesu, kopējot jau esošu p
 Cita noderīga komanda izvēlnē **Darbības** ir **Skatīt budžeta procesa statusu**. Šī komanda grafiski parāda budžeta plānus procesā, kā arī attiecīgos datus, piemēram, plānu darbplūsmu statusu, kopsavilkumus pēc summas un vienības, kā arī satur viena klikšķa navigācijas iespēju uz pašiem budžeta plāniem.
 
 [![Budžeta plānošanas procesa statuss](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

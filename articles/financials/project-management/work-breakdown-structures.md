@@ -1,13 +1,13 @@
 ---
-title: "Darba sadalījuma struktūras"
-description: "Darba sadalījuma struktūra (Work Breakdown Structure — WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu."
+title: Darba sadalījuma struktūras
+description: Darba sadalījuma struktūra (Work Breakdown Structure — WBS) ir projekta ietvaros veicamā darba apraksts. Tā ir uzdevumu hierarhija, kas norāda projekta grupas izpratni par darba saturu un katra komponenta vai uzdevuma lielumu, izmaksām un ilgumu.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358903"
 ---
-
 # <a name="work-breakdown-structures"></a>Darba sadalījuma struktūras
 
 [!include [banner](../includes/banner.md)]
@@ -314,7 +313,6 @@ Darbs = Resursu skaits × Ilgums × Stundu skaits standarta darba dienā
 Visas plānošanas kļūdas varat labot vienlaicīgi, noklikšķinot uz **Labot visas plānošanas kļūdas**. 
 
 Vai arī varat labot plānošanas kļūdas atsevišķi, noklikšķinot uz brīdinājuma ikonas katram uzdevumam.
-
 
 
 

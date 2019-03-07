@@ -1,13 +1,13 @@
 ---
-title: "Sadarbība ar kreditoriem, izmantojot kreditoru portālu"
-description: "Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām."
+title: Sadarbība ar kreditoriem, izmantojot kreditoru portālu
+description: Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,28 +18,27 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339882"
 ---
-
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarbība ar kreditoriem, izmantojot kreditoru portālu
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarboties ar kreditoriem, izmantojot kreditoru portālu
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 
-Šajā tēmā sniegtā informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām. Dynamics 365 for Operations versijā 1611 kreditoru portāla funkcionalitāte ir aizstāta ar paplašināto kreditoru sadarbības funkcionalitāti. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbības izmantošana darbam ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
+Šajā tēmā sniegtā informācija attiecas tikai uz 2016. gada februāra un 2016. gada maija Dynamics AX versijām. Dynamics 365 for Operations versijā 1611 kreditoru portāla funkcionalitāte ir aizstāta ar paplašināto kreditoru sadarbības funkcionalitāti. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbības izmantošana darbam ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
 
-Kreditoru portāls ir paredzēts kreditoriem, kuriem nav elektronisko datu savstarpējas apmaiņas (EDI) integrācijas ar programmu Microsoft Dynamics AX pirkšanas pasūtījumu (PP) informācijas apmaiņai. Portāls ļauj iepirkuma aģentiem nosūtīt PP kreditoram un pēc tam saņemt atbildi Akceptēts vai Noraidīts tieši programmā Dynamics AX.  
+Kreditoru portāls ir paredzēts kreditoriem, kas neizmanto elektronisko datu savstarpējās apmaiņas (electronic data interchange — EDI) integrāciju ar programmu Microsoft Dynamics AX, lai nodrošinātu pirkšanas pasūtījumu (PP) informācijas apmaiņu. Portāls sniedz pirkšanas aģentiem iespēju nosūtīt PP kreditoram un pēc tam saņemt atbildi Apstiprināts vai Noraidīts tieši programmā Dynamics AX.  
 
 Procesu var konfigurēt tā, lai apstiprinājums no kreditora automātiski apstiprinātu pasūtījumu. Šajā gadījumā sekošana ir nepieciešama tikai laiku pa laikam, kad pasūtījums tiek noraidīts vai kad kreditora apstiprinājums tiek reģistrēts kā atbilde, bet PP statuss netiek atjaunināts uz **Akceptēts**, jo apstiprinājuma procesā radās problēma.
 
 ## <a name="po-confirmation-and-rejection"></a>PP akceptēšana un noraidīšana
-PP tiek sagatavoti programmā Dynamics AX. Ja jums ir PP, kura statuss ir **Apstiprināts**, tas tiek nosūtīts kreditoram, ģenerējot apstiprinājuma pieprasījumu. Ja vēlaties pievērst kreditora uzmanību jaunam PP, var izmantot arī drukas pārvaldības sistēmu, lai nosūtītu PP pa e-pastu. PP parādās kreditoru portālā, un tajā ir ietverta opcija, kuru kreditors var izmantot, lai to apstiprinātu vai noraidītu. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas.  
+Programmā Dynamics AX tiek sagatavoti PP. Ja jums ir PP, kura statuss ir **Apstiprināts**, tas tiek nosūtīts kreditoram, ģenerējot apstiprinājuma pieprasījumu. Ja vēlaties pievērst kreditora uzmanību jaunam PP, var izmantot arī drukas pārvaldības sistēmu, lai nosūtītu PP pa e-pastu. PP parādās kreditoru portālā, un tajā ir ietverta opcija, kuru kreditors var izmantot, lai to apstiprinātu vai noraidītu. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas.  
 
 Kreditoru portālā kreditors var redzēt pasūtījuma rindas. Šīs rindas ietver informāciju, piemēram, ārējo preces numuru, dimensijas, cenu informāciju, daudzumu, piegādes datumu un piegādes adresi. Kreditors var izveidot pārskatu, kurā attēlota PP informācija, kā arī kopējā cena. Maksas, kas attiecas uz kreditoru, tiek rādītas, ja kreditors noklikšķina uz pogas **Maksas** galvenē vai uz rindām. Kreditori var importēt PP informāciju savā sistēmā, izmantojot funkcionalitāti **Eksportēt programmā Excel**.  
 
@@ -63,7 +62,7 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 
 | Darbība                                                   | Statuss un versija                                                                                    |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| PP sākotnējā versija tiek izveidota programmā Dynamics AX. | Statuss ir **Apstiprināts**.                                                                           |
+| Programmā Dynamics AX tiek izveidota PP sākotnējā versija. | Statuss ir **Apstiprināts**.                                                                           |
 | PP tiek nosūtīts uz kreditoru portālu.                     | Versija tiek reģistrēta kreditoru portālā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**.    |
 | Jūs veicat izmaiņas pēc kreditora pieprasījuma.  | Statuss tiek mainīts atpakaļ uz **Apstiprināts**.                                                            |
 | Jūs nosūtāt PP jauno versiju uz kreditoru portālu. | Jaunā versija tiek reģistrēta kreditoru portālā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
@@ -73,9 +72,9 @@ Lai apskatītu pirkšanas pasūtījumu versijas, kas ir nosūtītas kreditoram, 
 
 Pasūtījumi, kuri nosūtīti kreditoram kā atbilde un kuriem ir statuss **Tiek pārskatīts ārēji**, parādīsies sarakstā **Pirkšanas pasūtījumi nosūtīti uz kreditoru portālu, tiek gaidīta atbilde** vai **Pirkšanas pasūtījumi nosūtīti uz kreditoru portālu, atbildēšanai ir nepieciešama darbība**. Ja maināt pasūtījumu, kas ir nosūtīts kreditoram, tā, ka statuss mainās atpakaļ uz **Apstiprināts**, tas vairs neparādās šajos sarakstos. Lai redzētu, vai no kreditora iepriekš ir saņemta atbilde uz pasūtījumu, noklikšķiniet uz **Žurnāli** &gt; **Apstiprinājuma pieprasījumi**.  
 
-Kreditoriem nav jāapstiprina PP kreditoru portālā. Tie var arī nosūtīt e-pasta ziņojumu vai informēt par PP pieņemšanu, izmantojot citus kanālus. Pēc tam var apstiprināt pasūtījumu manuāli programmā Dynamics AX. Šajā gadījumā tiek saņemts brīdinājums, ka pasūtījums tiek akceptēts, pat tad, ja nav atbildes no kreditora. Pēc tam PP tiek parādīts apstiprināšanas vēsturē kreditoru portālā kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Turklāt kreditoram vairs nav iespējas apstiprināt vai noraidīt PP.  
+Kreditoriem nav jāapstiprina PP kreditoru portālā. Tie var arī nosūtīt e-pasta ziņojumu vai informēt par PP pieņemšanu, izmantojot citus kanālus. Pēc tam varat manuāli apstiprināt pasūtījumu programmā Dynamics AX. Šajā gadījumā tiek saņemts brīdinājums, ka pasūtījums tiek akceptēts, pat tad, ja nav atbildes no kreditora. Pēc tam PP tiek parādīts apstiprināšanas vēsturē kreditoru portālā kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Turklāt kreditoram vairs nav iespējas apstiprināt vai noraidīt PP.  
 
-**Piezīme.** PO versija, kas ir pieejama citiem procesiem programmā Dynamics AX, vienmēr ir jaunākā versija, pat ja šī versija vēl nav reģistrēta.
+**Piezīme.** Citiem procesiem programmā Dynamics AX vienmēr ir pieejama jaunākā PP versija pat tad, ja šī versija vēl nav reģistrēta.
 
 ### <a name="change-management"></a>Izmaiņu pārvaldība
 
@@ -88,7 +87,7 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 
 |                                                    Darbība                                                     |                                                                                                                                                                                                                      Statuss un versija                                                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           PP sākotnējā versija tiek izveidota programmā Dynamics AX.                            |                                                                                                                                                                                                            Statuss ir <strong>Melnraksts</strong>.                                                                                                                                                                                                             |
+|                           Programmā Dynamics AX tiek izveidota PP sākotnējā versija.                            |                                                                                                                                                                                                            Statuss ir <strong>Melnraksts</strong>.                                                                                                                                                                                                             |
 | PP tiek iesniegts apstiprināšanas procesam. (Tas ir iekšējs process, kurā kreditors nav iesaistīts.) |                                                                                                                        Statuss tiek mainīts no <strong>Melnraksts</strong> uz <strong>Tiek pārskatīts</strong> un uz <strong>Apstiprinājums</strong>, ja PP nav noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija.                                                                                                                        |
 |                                      PP tiek nosūtīts uz kreditoru portālu                                      |                                                                                                                                                                      Versija tiek reģistrēta kreditoru portālā, un statuss tiek mainīts uz <strong>Tiek pārskatīts ārēji</strong>.                                                                                                                                                                       |
 |                            Jūs veicat izmaiņas pēc kreditora pieprasījuma.                            |                                                                                                                                                                                                    Statuss tiek mainīts atpakaļ uz <strong>Melnraksts</strong>.                                                                                                                                                                                                     |
@@ -102,7 +101,6 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 [Kreditoru sadarbības lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md)
 
 [Kreditora sadarbības rēķinu izveides darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

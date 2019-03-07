@@ -1,32 +1,31 @@
 ---
-title: "Piekļuves tiesību definēšana izmaksu objektu kontrolieriem"
-description: "Šajā tēmā ir sniegta informācija par piekļuves tiesībām izmaksu objektu kontrolieriem."
+title: Piekļuves tiesību definēšana izmaksu objektu kontrolieriem
+description: Šajā tēmā ir sniegta informācija par piekļuves tiesībām izmaksu objektu kontrolieriem.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355545"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Piekļuves tiesības izmaksu objekta kontrolierim
 
 [!include [banner](../includes/banner.md)]
@@ -93,13 +92,13 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
 
     - Kartēs norādītās bilances
 
-- Microsoft Power BI
+- Microsoft Power BI:
 
-    - Power Bi vizualizācijās attēlotie dati
-    - Programmas Microsoft Dynamics 365 for Finance and Operations klientā iegultās datu Power BI vizualizācijas
+    - Power BI vizualizācijās redzamie dati
+    - Datu Power BIvizualizācijas, kas ir iegultas Microsoft Dynamics 365 for Finance and Operations klientā
 
 > [!IMPORTANT]
-> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Šajā tēmā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darbvietas **Izmaksu kontrole** lietošanas.
 
 Papildu resursi
@@ -107,4 +106,3 @@ Papildu resursi
 - [Izmaksu kontroles darbvieta](cost-control-workspace.md)
 - [Dimensiju hierarhija](dimension-hierarchy.md)
 - [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

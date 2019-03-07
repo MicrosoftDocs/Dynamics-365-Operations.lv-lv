@@ -1,13 +1,13 @@
---- 
-title: "Iestatīt atsevišķas numuru sērijas"
-description: "Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami."
+---
+title: Iestatīt atsevišķas numuru sērijas
+description: Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362215"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Iestatīt atsevišķas numuru sērijas
 
@@ -43,5 +43,4 @@ Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ie
 8. Izvērsiet sadaļu Vispārīgi.
     * Kopsavilkuma cilnē Vispārīgi, norādiet, vai numuru sērija ir manuāla, un nepārtraukta vai ar pārtraukumiem. Turklāt, ievadiet mazāko un lielāko numuru, ko var izmantot šajā numuru sērijā.     Nav ieteicams numuru sēriju ar pārtraukumiem mainīt pret nepārtrauktu numuru sēriju. Šāda numuru sērija nevar būt patiesi nepārtraukta. Šī izmaiņa var izraisīt arī atslēgu dublikātu pārkāpumus datu bāzē. Turklāt nepārtrauktām numuru sērijām ir lielāka ietekme uz veiktspēju.   
 9. Noklikšķiniet uz Saglabāt.
-
 

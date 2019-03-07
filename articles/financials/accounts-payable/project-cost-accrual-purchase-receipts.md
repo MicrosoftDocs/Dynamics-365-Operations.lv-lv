@@ -1,13 +1,13 @@
 ---
-title: "Uzkrātās projekta izmaksas pirkšanas pavadzīmēs"
-description: "Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations var izsekot uzkrātās projekta izmaksas pirkšanas pavadzīmēs."
+title: Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
+description: Šajā tēmā ir aprakstīts, kā var izsekot uzkrātajām projekta izmaksām pirkšanas pavadzīmēs programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340434"
 ---
-
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations var izsekot uzkrātās projekta izmaksas pirkšanas pavadzīmēs. 
+Šajā tēmā ir aprakstīts, kā var izsekot uzkrātajām projekta izmaksām pirkšanas pavadzīmēs programmā Microsoft Dynamics 365 for Finance and Operations. 
 
 Bieži vien projekta rēķini tiek saņemti vēlāk par preču un pakalpojumu piegādi, un tas var būtiski ietekmēt projekta izpildes pamatrādītājus (KPI). Ir svarīgi, lai jūs varētu izsekot šīs transakcijas gan finanšu, gan projekta pārskatos.
 
@@ -82,7 +81,6 @@ Lapā **Fiksētās izmaksas** tiek slēgti 1. darbības ietvaros izveidotie ier
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 Kreditora rēķina stāvoklis ir Nenokārtots, līdz tiek saņemts faktiskais kreditora rēķins.
-
 
 
 

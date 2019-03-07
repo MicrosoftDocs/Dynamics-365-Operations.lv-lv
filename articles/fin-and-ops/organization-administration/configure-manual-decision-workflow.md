@@ -1,13 +1,13 @@
 ---
-title: "Manuālu lēmumu konfigurēšana darbplūsmā"
-description: "Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus."
+title: Manuālu lēmumu konfigurēšana darbplūsmā
+description: Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341400"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>Manuālu lēmumu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
     </tr>
     <tr>
     <td>Lietotājs</td>
-    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
+    <td>Īpaši Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
     <td>
     <ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
@@ -372,4 +371,3 @@ Veiciet šīs darbības, ja lēmums ir jāpieņem noteiktā laikā.
     - **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lēmums tiktu pieņemts līdz decembra trešās nedēļas piektdienai.
 
 4. Ja laika ierobežojums ir pārsniegts, sistēma pieņems lēmumu. Sarakstā **Darbība** atlasiet opciju, kura sistēmai būtu jāizvēlas.
-

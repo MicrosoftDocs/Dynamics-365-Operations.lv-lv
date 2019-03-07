@@ -1,13 +1,13 @@
 ---
-title: "Maksāšanas metodes"
-description: "Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process."
+title: Maksāšanas metodes
+description: Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328980"
 ---
-
 # <a name="payment-methods"></a>Maksāšanas metodes
 
 [!include [banner](includes/banner.md)]
 
 Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
 
-Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu u.c. formā. Sistēmas iestatīšanas laikā programmatūrā Dynamics 365 for Retail ir jākonfigurē katrs maksājuma tips, ko mazumtirgotājs pieņem. Nākamajā sarakstā ir aprakstīts katrs maksājuma tips, ko var iestatīt programmatūrā Dynamics 365 for Retail.
+Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu u.c. formā. Sistēmas iestatīšanas laikā programmā Dynamics 365 for Retail ir jākonfigurē katrs maksājuma veids, ko pieņem mazumtirgotājs. Tālāk esošajā sarakstā ir aprakstīts katrs maksājuma veids, ko var iestatīt programmā Dynamics 365 for Retail.
 
 - **Skaidra nauda** – nauda fiziskā valūtas formā, piemēram, banknotes un monētas. Šī valūta var būt uzņēmuma valūta vai veikala vietējā valūta.
 - **Čeks** – maksāšanas līdzeklis noteiktas summas maksājuma noteiktā valūtā izrakstīšanai noteiktā bankā. Čeks parasti ir derīgs nenoteiktu laiku vai sešus mēnešus pēc izsniegšanas datuma, ja vien nav norādīts cits derīguma periods. Šis periods atšķiras atkarībā no bankas, kurā ir izrakstīts čeks. Ir pieejami dažādi čeku veidi, piemēram, pasūtījuma čeki, skaitītāja čeki, uzrādītāja čeki un saņēmēja čeki. Varat iestatīt čekus kā maksājuma metodi katram veikalam. Čekus var pieņemt valūtā, kas ir noteikta uzņēmuma līmenī vai veikala līmenī. Jums ir jāiestata čekus kā maksājuma metodi, pirms jūs varat pieņemt čeku kā maksājumu veikalā.
@@ -50,4 +49,3 @@ Lai iestatītu maksāšanas metodes, ir jāizpilda tālāk aprakstītie uzdevumi
 2. Izveidojiet uzņēmuma līmeņa karšu veidus un karšu numurus. Ja tiek pieņemtas kredītkartes vai debetkartes, ir jāizveido viena maksājumu metode maksājumiem ar kartēm un pēc tam ir jāizveido organizācijas līmeņa karšu veidi un karšu numuri.
 3. Iestatiet veikala maksājuma metodes. Saistiet maksājuma metodes ar katru veikalu un pēc tam ievadiet veikalam raksturīgos maksājuma metodes iestatījumus.
 4. Iestatiet veikalu kartes maksājuma metodes. Veiciet kartes iestatījumus visām kartes maksājuma metodēm, kas tiek pieņemtas veikalā.
-

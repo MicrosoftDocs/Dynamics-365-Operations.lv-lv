@@ -1,31 +1,30 @@
 ---
-title: "Kuponu iestatīšana pārdošanai mazumtirdzniecībā"
-description: "Šajā tēmā sniegts pārskats par mazumtirdzniecības kuponiem un izskaidrots, kā tos iestatīt."
+title: Kuponu iestatīšana pārdošanai mazumtirdzniecībā
+description: Šajā tēmā sniegts pārskats par mazumtirdzniecības kuponiem un izskaidrots, kā tos iestatīt.
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336593"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>Kuponu iestatīšana pārdošanai mazumtirdzniecībā
 
 [!include [banner](includes/banner.md)]
@@ -38,10 +37,10 @@ Katrs kupons ir saistīts ar vienu mazumtirdzniecības atlaidi. Cenu grupas, kas
 
 Pamatā kuponi ir papildu apstiprināšana papildus mazumtirdzniecības atlaidēm. Kupons sniedz kupona kodus un svītrkodus, kas nepieciešami kopā ar šo kodu datumu diapazoniem. Kupons nodrošina arī papildu lietošanas ierobežojumus un klientiem nepieciešamos rekvizītus. Atlaide nodrošina preču kopu, kam kupons ir derīgs. Atlaides cenu grupas sniedz klientu, kanālu vai katalogu kopu, kam kupons ir derīgs.
 
-Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie jāsaista, atlasot atlaidi programmatūras Microsoft Dynamics 365 for Retail kupona lapā.
+Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie ir jāsaista, atlasot atlaidi programmas Microsoft Dynamics 365 for Retail kuponu lapā.
 
 > [!NOTE]
-> Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki Microsoft Dynamics 365 for Retail atlaides lapas lauki kļūst tikai lasāmi, jo tos pārvalda kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
+> Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki lauki programmas Microsoft Dynamics 365 for Retail atlaižu lapā kļūst tikai lasāmi, jo to pārvaldībai tiek izmantoti kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 
@@ -76,9 +75,8 @@ Lai iestatītu kuponu, ir jāiestata kupona svītrkods un divas kupona numuru s�
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Daļēju atjauninājumu ietekme uz kuponiem
 
-Programmatūrā Dynamics 365 for Retail kupona funkcionalitāte ietver vairākus atšķirīgus līdzekļus. Microsoft Dynamics 365 for Retail headquarters (HQ) un kanālu var daļēji atjaunināt starp komponentiem. Tāpēc ir svarīgi saprast, kā daļēji atjauninājumi ietekmēt kupona funkcionalitāti kopumā.
+Kupona funkcionalitātē ir ietverti daudzi atšķirīgi programmas Dynamics 365 for Retail līdzekļi. Microsoft Dynamics 365 for Retail galvenā pārvalde (headquarters — HQ) un kanāls var tikt daļēji atjaunināti vairākos komponentos. Tāpēc ir svarīgi saprast, kā daļēji atjauninājumi ietekmēt kupona funkcionalitāti kopumā.
 
 - **HQ tiek daļēji atjaunināts, bet Retail serveris un POS — netiek atjaunināti.** HQ atjauninājumā tiek atjaunināts kupons un atlaižu lapas, un mazumtirdzniecības cenu noteikšanas programma arī tiek atjaunināta. Ja tiek atjaunināts tikai viens no šiem diviem komponentiem, dažas Retail lapas neatbildīs cenu aprēķina datiem. Tāpēc atlaižu aprēķinu laikā var rasties neparedzēti atlaižu aprēķini var kļūdas.
 - **HQ tiek atjaunināts, bet Retail serveris un POS — netiek atjaunināti (N-1).** Ne visus mazumtirdzniecības veikalus var atjaunināt vienlaicīgi, tādēļ HQ ieteicams atjaunināt pirms mazumtirdzniecības veikalu atjaunināšanas. N-1 scenārijā jaunā funkcionalitāte, kas ir saistīta ar kuponiem, nebūs pieejama veikalos, kas vēl nav atjaunināti. Piemēram, kupona funkcionalitāte ievieš rindas “Izslēgt”. Ja atlaidei izmantojat rindu izslēgšanu, tās netiks piemērotas mazumtirdzniecības veikalā, kurā darbojas vecāka versija.
 - **HQ netiek atjaunināts, bet Retail serveris un POS — tiek atjaunināti (N+1).** Atjauninātā Retail servera cenu noteikšanas programma var apstrādāt mantojuma atlaižu kodus cenu aprēķinu laikā, tādēļ šajā scenārijā atjauninājumam nevajadzētu ietekmēt darbību.
-

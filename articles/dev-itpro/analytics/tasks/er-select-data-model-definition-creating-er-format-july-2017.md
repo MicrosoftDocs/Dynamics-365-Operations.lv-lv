@@ -1,13 +1,13 @@
---- 
-title: "Datu modeļu definīciju atlase, veidojot formātus"
-description: "Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”."
+---
+title: Datu modeļu definīciju atlase, veidojot formātus
+description: Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334500"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Datu modeļu definīciju atlase, veidojot formātus
 
@@ -81,7 +81,7 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER
     * Izmantojiet ER izstrādes rīku, lai norādītu nepieciešamo saknes vienumu modeļa kartējumus.  
 2. Noklikšķiniet uz Veidotājs.
     * Simulējiet atlasītā modeļa kartējums iestatīšanu atlasītajam modeļa saknes vienumam.  
-3. Kokā atlasiet "Dynamics 365 for Operations\Table records".
+3. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 4. Noklikšķiniet uz Pievienot sakni.
 5. Laukā Nosaukums ierakstiet “Virsgrāmata”.
 6. Laukā Tabula ierakstiet 'LedgerJournalTrans'.
@@ -98,5 +98,4 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER
 4. Ievadiet vai atlasiet kādu vērtību laukā Datu modelis.
     * Ņemiet vērā, ka tagad ir pieejams tikai viens saknes vienums, lai kartētu programmas datu avotus. Kad ir ieviests vismaz viens modeļa kartējums, kā modeļa definīciju ER formāta pievienošanas laikā var atlasīt tikai modeļa saknes vienumus, kas ir kartēti programmas datu avotiem.   
 5. Aizvērt lapu.
-
 

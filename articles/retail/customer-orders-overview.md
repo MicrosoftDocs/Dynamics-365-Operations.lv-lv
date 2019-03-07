@@ -1,13 +1,13 @@
 ---
-title: "Debitoru pasūtījumi pārdošanas punktā Retail Modern POS (MPOS)"
-description: "Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem pārdošanas punktā Retail Modern POS (MPOS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām."
+title: Debitoru pasūtījumi programmā Retail Modern POS (MPOS)
+description: Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem programmā Retail Modern POS (MPOS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336616"
 ---
-
-# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Debitoru pasūtījumi pārdošanas punktā Retail Modern POS (MPOS)
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Debitoru pasūtījumi programmā Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem pārdošanas punktā Retail Modern POS (MPOS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
+Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem programmā Retail Modern POS (MPOS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
 
 Visaptveroša kanāla mazumtirdzniecības pasaulē daudzi mazumtirgotāji nodrošina iespēju izmantot debitoru pasūtījumus jeb īpašos pasūtījumus, lai izpildītu dažādas preču un izpildes prasības. Tālāk uzskaitīti daži tipiski scenāriji.
 
@@ -57,9 +56,9 @@ Tālāk ir aprakstīti daži no parametriem, ko var iestatīt lapā **Mazumtirdz
 
 ## <a name="transaction-flow-for-customer-orders"></a>Transakciju plūsma debitoru pasūtījumiem
 
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Izveidot debitora pasūtījumu pārdošanas punktā Retail Modern POS
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Debitora pasūtījuma izveide programmā Retail Modern POS
 
-1. Pievienojiet transakcijai debitoru.
+1. Pievienojiet darbībai debitoru.
 2. Pievienojiet grozam preces.
 3. Noklikšķiniet uz **Izveidot debitora pasūtījumu** un pēc tam atlasiet pasūtījuma tipu. Pasūtījuma tips var būt **Debitora pasūtījums** vai **Piedāvājums**.
 4. Noklikšķiniet uz **Nosūtīt atlasīto** vai **Nosūtīt visu**, lai preces nosūtītu uz adresi debitora kontā, norādiet pieprasīto nosūtīšanas datumu un norādiet nosūtīšanas maksas.
@@ -97,9 +96,8 @@ Debitoru pasūtījumus no pārdošanas punkta (point of sale — POS) klienta v
 1. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profils** &gt; **Funkcionalitātes profili**.
 2. Kopsavilkuma cilnē **Vispārīgi** opcijai **Izveidot debitora pasūtījumu asinhronā režīmā** iestatiet vērtību **Jā**.
 
-Kad opcija **Izveidot debitora pasūtījumu asinhronā režīmā** ir iestatīta uz **Jā**, debitoru pasūtījumi vienmēr tiek veidoti asinhronajā režīmā, pat tad, ja ir pieejams pakalpojums Retail Transaction Service (RTS). Ja šī opcija ir iestatīta uz **Nē**, tad debitoru pasūtījumi vienmēr tiek veidoti sinhronajā režīmā, izmantojot RTS. Kad debitoru pasūtījumi tiek veidoti asinhronajā režīmā, tie tiek izvilkti un ievietoti programmatūrā Dynamics 365 for Retail, izmantojot vilkšanas (Pull — P) darbus. Kad manuāli vai pakešuzdevuma apstrādes ietvaros tiek palaista funkcija **Sinhronizēt pasūtījumus**, programmatūrā Dynamics 365 for Retail tiek izveidoti atbilstošie pārdošanas pasūtījumi.
+Ja ir iestatīta opcijas **Izveidot debitora pasūtījumu asinhronā režīmā** vērtība **Jā**, debitoru pasūtījumi vienmēr tiek izveidoti asinhronajā režīmā pat tad, ja ir pieejams pakalpojums Retail Transaction Service (RTS). Ja šī opcija ir iestatīta uz **Nē**, tad debitoru pasūtījumi vienmēr tiek veidoti sinhronajā režīmā, izmantojot RTS. Kad debitoru pasūtījumi tiek veidoti asinhronajā režīmā, tie tiek izvilkti un ievietoti programmatūrā Dynamics 365 for Retail, izmantojot vilkšanas (Pull — P) darbus. Kad manuāli vai pakešuzdevuma apstrādes ietvaros tiek palaista funkcija **Sinhronizēt pasūtījumus**, programmatūrā Dynamics 365 for Retail tiek izveidoti atbilstošie pārdošanas pasūtījumi.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Hibrīda debitoru pasūtījumi](hybrid-customer-orders.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Organizācijas administrēšanas sākumlapa"
-description: "Šajā tēmā ir norādīti resursi, kas jums palīdzēs izmantot programmatūru Microsoft Dynamics 365 for Finance and Operations savā organizācijā."
+title: Organizācijas administrēšanas sākumlapa
+description: Šajā tēmā ir norādīti resursi, kas palīdzēs izmantot programmu Microsoft Dynamics 365 for Finance and Operations jūsu organizācijā.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332821"
 ---
-
 # <a name="organization-administration-home-page"></a>Organizācijas administrēšanas sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīts saturs, kas prasmīgiem lietotājiem un administratoriem palīdzēs konfigurēt programmatūru Microsoft Dynamics 365 for Finance and Operations. Šis saturs viņiem palīdzēs sistēmu konfigurēt tā, lai jūsu organizācijai un komercdarbībai tā darbotos efektīvi un bez traucējumiem.
+Šajā tēmā ir norādīts saturs, kas palīdzēs pieredzējušiem lietotājiem un administratoriem konfigurēt programmu Microsoft Dynamics 365 for Finance and Operations. Šis saturs viņiem palīdzēs sistēmu konfigurēt tā, lai jūsu organizācijai un komercdarbībai tā darbotos efektīvi un bez traucējumiem.
 
 Liela daļa no šeit uzskaitītā satura attiecas uz līdzekļiem modulī **Organizācijas administrēšana**. Taču ir pāris uzdevumu, piemēram, ieraksta veidņu izveidošana un lietošana, ko var veikt jebkurā modulī, lai palīdzētu jūsu organizācijai darboties efektīvāk.
 
@@ -103,4 +102,3 @@ Ierakstu veidnes var jums palīdzēt izveidot ierakstus ātrāk. Varat izveidot 
 - [Dokumentu pārvaldības konfigurēšana](configure-document-management.md)
 - [Konfigurēt un sūtīt e-pastu](configure-email.md)
 - [Datuma/laika dati un laika joslas](date-time-zones.md)
-

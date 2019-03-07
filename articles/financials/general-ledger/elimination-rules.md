@@ -1,13 +1,13 @@
 ---
-title: "Korekciju kārtulas"
-description: "Šajā tēmā ir sniegta informācija par korekciju kārtulām un dažādām korekciju ziņošanas iespējām."
+title: Korekciju kārtulas
+description: Šajā tēmā ir sniegta informācija par korekciju kārtulām un dažādām korekciju ziņošanas iespējām.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333097"
 ---
-
 # <a name="elimination-rules"></a>Korekciju kārtulas
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Jūsu juridiska persona — juridiska persona A — pārdod logrīkus citai juri
 Visas šīs transakcijas ir starpuzņēmumu transakcijas, kuras tiek grāmatotas abu pušu kontos. Turklāt šajās transakcijās var tikt iekļautas uzcenojuma un nocenošanas summas, kad starpuzņēmumu pārdošanas summa nav vienāda ar preču vērtību.
 
 ## <a name="set-up-elimination-rules"></a>Korekcijas noteikumu iestatīšana
-Iestatot korekciju kārtulas programmā Microsoft Dynamics 365 for Finance and Operations, ir ieteicams izveidot korekciju veikšanai paredzētu finanšu dimensiju. Vairums klientu tai piešķir nosaukumu Darījumu partneris vai tamlīdzīgu. Ja izlemjat kādu finanšu dimensiju nelietot, jums noteikti ir nepieciešami galvenie konti, kas ir raksturīgi tikai starpuzņēmumu transakcijām. 
+Iestatot korekciju kārtulas programmā Microsoft Dynamics 365 for Finance and Operations, ir ieteicams izveidot finanšu dimensiju, kas ir īpaši paredzēta korekcijas nolūkiem. Vairums klientu tai piešķir nosaukumu Darījumu partneris vai tamlīdzīgu. Ja izlemjat kādu finanšu dimensiju nelietot, jums noteikti ir nepieciešami galvenie konti, kas ir raksturīgi tikai starpuzņēmumu transakcijām. 
 
 Korekciju iestatījumi atrodamas moduļa Konsolidācijas apgabalā Iestatīšana. Kad esat ievadījis kārtulas aprakstu, ir jāizvēlas uzņēmums, uz kuru šis korekciju žurnāls tiks grāmatots. Tam ir jābūt uzņēmumam, kuram juridiskās personas iestatījumos ir atlasīta opcija **Lietot finanšu korekciju procesā**. 
 
@@ -153,7 +152,6 @@ Korekciju transakcijas var apstrādāt divos veidos — kamēr notiek konsolid�
 Ja kāds uzņēmums ir definēts kā korekcijas uzņēmums, tad modulī Konsolidācijas atlasiet vienumu **Korekciju žurnāls**. Pēc žurnāla nosaukuma atlasīšanas noklikšķiniet uz **Rindas**. Priekšlikumu varat palaist, atlasot izvēlni **Priekšlikumi** un pēc tam atlasot vienumu **Korekcijas priekšlikums**.
 
 Atlasiet uzņēmumu, kurš ir konsolidēto datu avots, un pēc tam izvēlieties kārtulu, kuru vēlaties apstrādāt. Ievadiet sākuma datumu, kad sākt meklēt korekcijas summas, un beigu datumu, kad beigt meklēt korekcijas summas. Lauks **VG grāmatošanas datums** ir datums, kurš tiek izmantots žurnāla grāmatošanai virsgrāmatā. Kad noklikšķināt uz **Labi**, varat pārskatīt summas un grāmatot šo žurnālu.
-
 
 
 

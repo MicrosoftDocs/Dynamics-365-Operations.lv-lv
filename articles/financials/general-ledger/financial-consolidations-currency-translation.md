@@ -1,14 +1,14 @@
 ---
-title: "Finanšu konsolidācijas un valūtas pārrēķināšana"
-description: "Šajā tēmā ir aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā."
+title: Finanšu konsolidācijas un valūtas pārrēķināšana
+description: Šajā tēmā ir aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354004"
 ---
-
 # <a name="financial-consolidations-and-currency-translation"></a>Finanšu konsolidācijas un valūtas pārrēķināšana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma iepazīstina ar pieeju, kas konsolidācijai tiek izmantota gan programmā Microsoft Dynamics 365 for Finance and Operations, gan finanšu pārskatu veidošanā. Tēmā ir aprakstīti scenāriji, kas ietver vairāku uzņēmumu pārskatu veidošanu, apkopojumu, elimināciju un mazākuma līdzdalības daļu. Tajā ir arī paskaidrots, kā rīkoties īpašās situācijās, piemēram, scenārijos, kur juridiskajām personām ir dažādi finanšu periodi vai dažādi kontu plāni.
+Šajā tēmā ir aprakstīta pieeja, kas tiek izmantota konsolidācijai gan programmā Microsoft Dynamics 365 for Finance and Operations, gan modulī Finanšu pārskatu izveide. Tēmā ir aprakstīti scenāriji, kas ietver vairāku uzņēmumu pārskatu veidošanu, apkopojumu, elimināciju un mazākuma līdzdalības daļu. Tajā ir arī paskaidrots, kā rīkoties īpašās situācijās, piemēram, scenārijos, kur juridiskajām personām ir dažādi finanšu periodi vai dažādi kontu plāni.
 
 Šī tēma tika rakstīta lietotājiem un funkcionāliem konsultantiem, pieņemot, ka lasītājiem ir vispārīga izpratne par programmu Finance and Operations un par finanšu pārskatu sniegšanu. Pamata iestatījumi netiek apskatīti.
 
@@ -181,4 +180,3 @@ Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie 
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
-

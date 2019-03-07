@@ -1,13 +1,13 @@
---- 
-title: "Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana"
-description: "Izveidojot sākotnējo budžeta ierakstu un izmantojot budžeta modeli un dimensiju vērtības, kas satur sākotnējā budžeta summas, var atcelt sākotnējās budžeta summas."
+---
+title: Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana
+description: Izveidojot sākotnējo budžeta ierakstu un izmantojot budžeta modeli un dimensiju vērtības, kas satur sākotnējā budžeta summas, var atcelt sākotnējās budžeta summas.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9d1c34ac2bd94196b7bad599e9aca7ed942ae9c8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344942"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana
 
@@ -50,5 +50,4 @@ Izveidojot sākotnējo budžeta ierakstu un izmantojot budžeta modeli un dimens
     * Neobligāti: var atlasīt opciju Atcelt sākotnējo budžetu. Ievērojiet, ka var atcelt visus sākotnējā budžeta ierakstus vai tikai tos sākotnējā budžeta ierakstus, kam ir jūsu noradītais budžeta kods.  
     * Lai veiktu papildu atlasi, lapas augšdaļā noklikšķiniet uz atbloķēšanas ikonas.  
 18. Noklikšķiniet uz Atjaunināt.
-
 

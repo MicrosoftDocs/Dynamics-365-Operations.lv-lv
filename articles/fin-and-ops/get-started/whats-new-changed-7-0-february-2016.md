@@ -1,13 +1,13 @@
 ---
-title: "Jaunumi un izmaiņas programmatūrā Dynamics AX 7.0 (2016. gada februāra izlaidumā)"
-description: "Šajā rakstā ir aprakstītas funkcijas, kas versijā Microsoft Dynamics AX 7.0 ir jaunas vai ir mainītas. Šī versija satur gan platformas, gan programmas līdzekļus, un tā tika izlaista 2016. gada februārī."
+title: Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics AX 7.0. Šī versija satur gan platformas, gan programmas līdzekļus, un tā tika izlaista 2016. gada februārī.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334891"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmatūrā Dynamics AX 7.0 (2016. gada februāra izlaidumā)
+# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas funkcijas, kas versijā Microsoft Dynamics AX 7.0 ir jaunas vai ir mainītas. Šī versija satur gan platformas, gan programmas līdzekļus, un tā tika izlaista 2016. gada februārī.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics AX 7.0. Šī versija satur gan platformas, gan programmas līdzekļus, un tā tika izlaista 2016. gada februārī.
 
 ## <a name="cost-management"></a>Izmaksu pārvaldība
 
@@ -37,8 +36,8 @@ ms.lasthandoff: 12/18/2018
 <thead>
 <tr>
 <th>Ko iespējams izdarīt?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -113,13 +112,13 @@ ms.lasthandoff: 12/18/2018
 
 ## <a name="developer"></a>Izstrādātājs
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
 | Mākonī izveidojiet tīmeklī pieejamus risinājumus, kam var piekļūt no daudzām ierīcēm. | Nav pieejams | Dynamics AX pašreizējā versija ir balstīta uz jaunu tīmekļa klienta un klienta struktūru. | Saviem lietotājiem varat sniegt nākamās paaudzes risinājumus. |
 | Savu risinājumu izstrādāšanai lietojiet Microsoft Visual Studio. | Microsoft MorphX ir galvenā izstrādes vide, bet noteikta izstrāde notiek programmā Visual Studio. | Visual Studio ir vienīgā izstrādes vide. | Tā patur jau pazīstamās Dynamics AX 2012 koncepcijas un nemanāmi pielāgo tās Visual Studio struktūrai un paraugiem. Tas ļauj izmantot standarta savstarpējo savietojamību ar citām .NET valodām un projektiem. |
 | Kopējo starpniekvalodu (Common Intermediate Language — CIL) kompilējiet visiem līdzekļiem. | Valoda X++ tiek kompilēta uz P kodu. | Pilnīgi jaunais X++ kompilators ģenerē CIL visiem līdzekļiem. CIL ir tā pati starpniekvaloda, ko izmanto citas valodas ar .NET bāzi. | CIL ir ātrāka, spēj efektīvāk izmantot atsauces uz klasēm pārvaldītajās dinamisko saišu bibliotēkās (Dynamic-Link Library — DLL) un spēj darboties uz lielas .NET utilītu rīku bāzes. |
-| Biznesa informācijas (BI) atskaites un vizualizācijas iegulstiet Microsoft Dynamics AX klientā. | Nav pieejams | Izveidojiet ārkārtīgi intuitīvas un plūstošas vizualizācijas. | Šī iespēja sniedz lēmumu pieņemšanai nepieciešamos uz BI balstītos ieskatus. |
-| Integrējiet programmatūrā Microsoft Office. | Nav pieejams | Jauno iespēju klāstā ietilpst programma Excel datu savienotājs, lapa **Darbgrāmatas veidotājs**, Eksportēšanas API un Dokumentu pārvaldība. | Saviem lietotājiem varat izveidot produktivitātes risinājumus. |
+| Veiciet biznesa informācijas (BI) atskaišu un vizualizāciju iegulšanu Microsoft Dynamics AX klientā. | Nav pieejams | Izveidojiet ārkārtīgi intuitīvas un plūstošas vizualizācijas. | Šī iespēja sniedz lēmumu pieņemšanai nepieciešamos uz BI balstītos ieskatus. |
+| Integrējiet ar Microsoft Office. | Nav pieejams | Jauno iespēju klāstā ietilpst programma Excel datu savienotājs, lapa **Darbgrāmatas veidotājs**, Eksportēšanas API un Dokumentu pārvaldība. | Saviem lietotājiem varat izveidot produktivitātes risinājumus. |
 | Automatizējiet būvēšanu, testēšanu un izvietošanu. | Daļēji pieejams | Izvietojiet izstrādātāja topoloģiju, izmantojot izstrādātāja un būvējuma VM. Automātiski konfigurējiet būvējuma VM, lai atklātu, būvētu moduļus no Visual Studio Online (VSO) un izpildītu testus. Tiek atbalstīta C\# un X++ moduļu kompilēšana un atsauces. | Šī iespēja palielina izstrādātāju produktivitāti, samazinot izmaksas un testēšanai un pārbaudēm nepieciešamo darbu. |
 | Pielāgojiet ar pārklājumiem un paplašinājumiem. | Paplašinājumi nav pieejami. | Dynamics AX pašreizējai versijai ir jauns pielāgošanas modelis. | Varat pielāgot Microsoft vai trešo pušu Microsoft partneru sniegto modeļu elementu pirmkodu un metadatus. |
 | Veidojiet jaunas vadīklas un lietotāja interfeisa elementus, izmantojot X++ un modernu tīmekļa struktūru. | Pielāgotās vadīklas ir atkarīgas no ārējām struktūrām, piemēram, struktūrām Microsoft ActiveX un Windows prezentāciju pamats (Windows Presentation Foundation — WPF). | Pašreizējā versijā vadīklu būvēšana ir vienkāršāka. X++ struktūru var lietot programmu funkcionalitātei un biznesa loģikai, un klients uz HTML/JavaScript bāzes ļauj izmantot modernas vizualizācijas. | Jūsu vadīklas var izstrādāt tā, lai tās izskatītos un darbotos tāpat kā Dynamics AX standarta komplektācijā iekļautās (Out-of-box — OOB) vadīklas. |
@@ -135,13 +134,13 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Kontu struktūras eksportējiet uz Microsoft Excel.</td>
+<td>Eksportēt kontu struktūras uz Microsoft Excel.</td>
 <td>Nav pieejams</td>
 <td>Tagad varat atlasīt kādu konta struktūru un eksportēt to uz Excel.</td>
 <td>Daudzi klienti pieprasīja iespēju kontu struktūras eksportēt uz Excel, lai filtrēšana būtu vienkāršāka.</td>
@@ -218,7 +217,7 @@ ms.lasthandoff: 12/18/2018
 <td>Lietotājs var izvēlēties atskaites detalizētības līmeni un lapas iestatījumus, Dynamics AX klienta finanšu atskaitē izmantojot opciju Drukāt.</td>
 <td>Izdrukātās atskaites tiek drukātas veidā, kādā lietotāji tās vēlas, nevis kā tīmekļa lapas.</td>
 </tr><tr>
-<td>Analizējiet finanšu datus, izmantojot Power BI satura pakotni "Finanšu veiktspējas pārraudzība".</td>
+<td>Analizējiet finanšu datus, izmantojot Power BI satura pakotni “Finanšu veiktspējas pārraudzība”.</td>
 <td>Nav pieejams</td>
 <td>Vietnē PowerBI.com atlasiet vienumu <strong>Iegūt datus</strong> un pēc tam atlasiet satura pakotni <strong>Dynamics AX — Finanšu veiktspēja</strong>. Ievadiet sava Dynamics AX galapunkta vietrādi URL, lai redzētu, kā jūsu dati tiek atspoguļoti šajā informācijas panelī.</td>
 <td>Ar trīs vai četriem klikšķiem organizācijas var izvietot Power BI informācijas paneli, kas ietver svarīgus finanšu datus. Saturu var personalizēt pēc organizācijas.</td>
@@ -269,7 +268,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -284,7 +283,7 @@ ms.lasthandoff: 12/18/2018
 <td>Produktīvi strādājiet, izmantojot jauno uzdevumu ierakstītāju.</td>
 <td>AX 2012 uzdevumu ierakstītājam ir nepieciešama tieša piekļuve programmas objektu servera (Application Object Server — AOS) datoram un paaugstinātas privilēģijas, un tas nesniedz nekādas rediģēšanas opcijas.</td>
 <td>Jauno uzdevumu ierakstītāju var izmantot tieši no tīmekļa klienta. Lai piekļūtu uzdevumu ierakstītājam, nav nepieciešamas administratora privilēģijas. Ierakstītās darbības var skatīt reālajā laikā, kad tās ierakstāt, ir ieviestas jaunas rediģēšanas opcijas, un Uzdevumu ierakstītājs atbalsta vairāk scenāriju, papildus jau esošajiem biznesa procesu modelētāja (BPM) scenārijiem.</td>
-<td>Jaunais Uzdevumu ierakstītājs nodrošina racionalizētu funkcionalitāti un sniedz jaunas iespējas programmā Dynamics AX. Dažas no šīm iespējām ir pieejamas jau tagad, un turpmāk sekos vēl vairāk iespēju.</td>
+<td>Jaunais uzdevumu ierakstītājs nodrošina racionalizētu funkcionalitāti un sniedz jaunas iespējas programmā Dynamics AX. Dažas no šīm iespējām ir pieejamas jau tagad, un turpmāk sekos vēl vairāk iespēju.</td>
 </tr>
 <tr>
 <td>Palīdziet lietotājiem labāk izprast viņu gaidāmo darbu ar darbvietām.</td>
@@ -314,7 +313,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -322,7 +321,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <td>Piekļūstiet strukturētai procedurālai palīdzībai (uzdevumu ceļvežiem) un konceptuālām tēmām, noklikšķinot uz <strong>Palīdzība</strong>.</td>
 <td>AX 2012 palīdzības sistēma novirza uz HTML tēmām, kas tiek glabātas lokālajā tīmekļa serverī. Debitori un partneri var izveidot paši savu palīdzību.</td>
-<td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti pakalpojumu Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft dokumentu vietnes. Papildinformāciju skatiet tēmās <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX palīdzība — darba sākšana</a> un <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Jaunie pieejamie uzdevumu ceļveži (2016. gada februāris)</a>.</td>
+<td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft dokumentu vietnes. Papildinformāciju skatiet tēmās <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX palīdzība — darba sākšana</a> un <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Jaunie pieejamie uzdevumu ceļveži (2016. gada februāris)</a>.</td>
 <td>Uzdevumu ceļveži sniedz strukturētu, interaktīvu pieredzi, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Varat lejupielādēt un pielāgot uzdevumu ceļvežus, ko nodrošina Microsoft. Tēmā ir sniegts ātrāks un elastīgāks veids, kā izveidot, piegādāt un atjaunināt preces dokumentāciju. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.</td>
 </tr>
 </tbody>
@@ -335,7 +334,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -420,14 +419,14 @@ Nav pievienoti jauni līdzekļi.
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Konfigurējiet un ģenerējiet elektroniskos dokumentus, lai ievērotu juridiskās prasības dažādās valstīs/reģionos.</td>
-<td>Elektroniskie dokumenti ir iekodēti ar X++ vai kā paplašināmās stila lapas valodas transformācijas (XSLT). Lai veiktu jebkādas formāta korekcijas, ir jāveic izstrādes darbs. Piekļuve datiem un formatējumam nav izolēta. Pielāgotai formāta izvietošanai ir nepieciešama jauna Microsoft Dynamics AX labojumfailu pakotne, kas ignorē esošo formātu. Pielāgotas katra formāta modifikācijas ir nepieciešams manuāli portēt uz jaunas Microsoft Dynamics AX labojumfailu pakotnes pirmkodu.</td>
+<td>Elektroniskie dokumenti ir iekodēti ar X++ vai kā paplašināmās stila lapas valodas transformācijas (XSLT). Lai veiktu jebkādas formāta korekcijas, ir jāveic izstrādes darbs. Piekļuve datiem un formatējumam nav izolēta. Pielāgotai formāta izvietošanai ir nepieciešama jauna Microsoft Dynamics AX labojumfailu pakotne, kas ignorē esošo formātu. Pielāgotas katra formāta modifikācijas ir nepieciešams manuāli pārnest uz jaunas Microsoft Dynamics AX labojumfailu pakotnes pirmkodu.</td>
 <td>Elektronisko atskaišu veidošana (Electronic Reporting — ER) ir jauns elektronisko dokumentu konfigurēšanas un veidošanas rīks, kura mērķauditorija ir biznesa lietotājs, nevis izstrādātājs. ER kā dokumentu formātu datu avotus ļauj iestatīt datu modeļus, kas ir atkarīgi no domēna, bet ir neatkarīgi no Microsoft Dynamics AX datu bāzes. Biznesa lietotājs var konfigurēt formātus, pamatojoties uz šiem no domēna atkarīgajiem datu modeļiem (piemēram, maksājumiem, Intrastat atskaitēm vai nodokļu atskaitēm). Lietotājs konfigurē formātus, izmantojot vienkāršus vizuālos rīkus, kas ir līdzīgi kā programmā Excel. Pašlaik ER atbalsta elektronisko dokumentu ģenerēšanu teksta, XML un Excel formātā. Šos dokumentus var ģenerēt vienlaicīgi un iepakot zip failos. Datu modeļiem un formātiem tiek atbalstīta versiju izveide. Formāta versijām var būt derīguma periodi. Katrs datu modelis vai formāta versija tiek glabāti atsevišķā konfigurācijā un izplatīti partneriem un debitoriem, izmantojot LCS. Partneri un debitori var pielāgot Microsoft datu modeļus un formātus vai izveidot paši savus. ER šādas partneru un debitoru veiktās konfigurācijas izmaiņas saglabā kā izmaiņas Microsoft konfigurācijās, tādējādi vienkāršojot jaunināšanu uz jaunām Microsoft konfigurāciju versijām. Izmantojot LCS, partneri savu datu modeli un formāta konfigurācijas var arī kopīgot ar citiem partneriem un debitoriem, kuri tos var pielāgot un kopīgot. Izmaiņu pielāgošana un vienkārša jaunināšana tiek atbalstītas visā pielāgošanas ķēdē.</td>
 <td>ER vienkāršo elektronisko dokumentu formātu izveidošanu, uzturēšanu un jaunināšanu, lai ievērotu juridiskās prasības dažādās valstīs/reģionos. ER paātrina un vienkāršo elektronisko dokumentu formātu veidošanas un pārbaudīšanas procesu. Šīs izmaiņas var veikt biznesa lietotāji, nevis izstrādātāji. Partneriem un debitoriem ER ļauj ātrāk un vieglāk savus formāta pielāgojumus jaunināt uz jaunām formātu versijām, kuras izlaiž Microsoft vai citi partneri. ER sniedz vienotu veidu (izmantojot LCS), kā Microsoft un partneri elektronisko dokumentu konfigurācijas var izplatīt citiem partneriem un debitoriem. Turklāt ER partneriem un debitoriem vienkāršo elektronisko dokumentu formātu pielāgošanu, jaunināšanu un izplatīšanu savām specifiskajām biznesa vajadzībām.</td>
 </tr>
@@ -538,24 +537,24 @@ Nav pievienoti jauni līdzekļi.
 
 ## <a name="manufacturing"></a>Ražošana
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 |
+| Ko iespējams izdarīt? | Dynamics AX 2012 |
 |------------------|------------------|
 | Ražošanas pasūtījumiem izpildiet materiālu pieejamības pārbaudes atsevišķā lapā, kas tiek atvērta no darbvietas **Ražošanas stāva pārvaldība**. | Nav pieejams |
 | Sāciet ražošanas darbus un ziņojiet par to norisi, izmantojot jauno lapu **Darbu kartes ierīce**. | Forma **Darba reģistrācija** galvenokārt tiek izmantota par mērķi lielos termināļa ekrānos, un UI elementiem parasti var piekļūt ar peles klikšķiem. |
 
 ## <a name="master-planning-and-forecasting"></a>Vispārējā plānošana un prognozēšana
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
 | Brīdiniet lietotāju, ja pārdošanas pasūtījums vai ražošanas pasūtījums nav gatavs piegādei līdz paredzētajam datumam. | Vispārējās plānošanas izveidotie brīdinājumi tiek saukti par *aizkavēšanās paziņojumiem*. *Aizkavēšanās* ir starp divām pusēm noslēgts līgums par kāda līdzekļa pirkšanu vai pārdošanu par cenu, par kuru puses ir vienojušās šodien (*aizkavēšanās cenu*), lai gan piegāde un maksājums tiks veikts vēlāk (*piegādes datumā*). | *Aizkavēšanās ziņojumi* un *aizkavēšanās datumi* attiecīgi ir pārdēvēti par *aprēķinātajām aizkavēm* un *aizkavēšanās datumiem*. | AX 2012 versijā lietotā terminoloģija bija neprecīza un izraisīja nepareizus tulkojumus. |
 | Gūstiet ātru ieskatu par vispārējās plānošanas izpildes statusu, steidzami plānotajiem pasūtījumiem un plānotajiem pasūtījumiem, kas izraisa aizkaves. | Šī informācija ir pieejama, bet tā ir izkaisīta pa vairākām formām. | Darbvieta **Vispārējā plānošana** sniedz acumirklī uztveramu informāciju par laiku, kad tika izpildīta pēdējā vispārējā plānošana, vai radās kādas kļūdas, kādi ir steidzami plānotie pasūtījumi un kuri plānotie pasūtījumi izraisa aizkaves. | Varat lietderīgi izmantot darbvietas sniegto apskatu. Saistītā informācija ir apkopota tā, lai vadītu vispārējo plānošanu un palīdzētu uzlabot produktivitāti. |
 | Izmantojiet programmu Excel, lai atjauninātu pieprasījuma apjoma prognozes. | Nav pieejams | Kad ievadāt pieprasījuma apjoma prognozes, veicat atjauninājumus un dzēšat pieprasījuma apjoma prognozes, varat izmantot integrāciju ar Excel. | Tas palīdz uzlabot efektivitāti un produktivitāti. |
-| Prognozējiet turpmāko pieprasījumu un izveidojiet pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskiem transakciju datiem. | Versijā Microsoft Dynamics AX 2012 R3 prognožu modeļi Microsoft SQL Server analītiskajos pakalpojumos tiek izmantoti, lai izveidotu pieprasījuma apjoma prognozes. | Novērtējiet nākotnes pieprasījumu, izmantojot Microsoft Azure mašīnmācīšanās mākoņa pakalpojuma jaudu un vērienu. Mašīnmācīšanās prognozēšanas modeļi ir vienkārši lietojami un paplašināmi, lai atbilstu debitoru vēlmēm. Pakalpojums veic visatbilstošāko modeļu atlasi un piedāvā galvenos veiktspējas rādītājus (Key Performance Indicators — KPI), ko var izmantot, lai aprēķinātu prognozes precizitāti. | Ģenerējiet precīzākas prognozes, izmantojot mašīnmācīšanās metodes. |
+| Prognozējiet turpmāko pieprasījumu un izveidojiet pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskiem transakciju datiem. | Versijā Microsoft Dynamics AX 2012 R3 prognožu modeļi Microsoft SQL Server analīzes pakalpojumos tiek izmantoti, lai izveidotu pieprasījuma apjoma prognozes. | Novērtējiet nākotnes pieprasījumu, izmantojot Microsoft Azure mašīnmācīšanās mākoņa pakalpojuma jaudu un vērienu. Mašīnmācīšanās prognozēšanas modeļi ir vienkārši lietojami un paplašināmi, lai atbilstu debitoru vēlmēm. Pakalpojums veic visatbilstošāko modeļu atlasi un piedāvā galvenos veiktspējas rādītājus (Key Performance Indicators — KPI), ko var izmantot, lai aprēķinātu prognozes precizitāti. | Ģenerējiet precīzākas prognozes, izmantojot mašīnmācīšanās metodes. |
 | Optimizējiet pasūtījuma datumu un daudzumu, pamatojoties uz vispārējās plānošanas izpildes sniegto vizuālo apskatu pār saistītajām darbībām. | Darbību diagrammas apskats ir pieejams, bet tajā tiek rādītas visas saistītās darbības. Kad darbības tiek lietotas, tās nekavējoties pazūd no šī skata. | Darbību diagramma sniedz labāku apskatu. Tā ietver opcijas, kuras jums ļauj rādīt tikai lietotās darbības un tieši saistītās darbības. Kad darbības tiek lietotas, ir tiek pelēkotas, bet joprojām tiek rādītas. Tāpēc apskats tiek saglabāts. Darbību diagrammai ir pievienota papildinformācija, lai datus parādītu vienā lapā. | Jūsu produktivitāte uzlabojas, jo koncentrējaties tikai uz svarīgajām darbībām. |
 
 ## <a name="procurement-and-sourcing"></a>Sagāde un avoti
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
 | Izmantojiet darbvietu **Pirkšanas pasūtījumu sagatavošana**, lai gūtu ātru ieskatu par sagatavošanā esošo pirkšanas pasūtījumu statusu. | Netiek atbalstīts | Darbvieta **Pirkšanas pasūtījumu sagatavošana** sniedz apskatu par pasūtījumiem no brīža, kad tie tiek izveidoti kā melnraksts, un darbplūsmā seko līdzi to apstiprināšanas stāvokļiem un tālāk uz ratificēšanu. | Jūsu pirkšanas struktūrvienībai vairs nav nepieciešams meklēt informāciju no vairākām lapām — tagad struktūrvienība var izmantot darbvietas sniegto apskatu. |
 | Izmantojiet darbvietu **Pirkšanas pasūtījuma ieejas plūsma un papilddati**, lai gūtu ātru ieskatu par pirkšanas pasūtījumiem, kas gaida ieejas plūsmu, lai palīdzētu ar turpmākajiem datiem un darbībām. | Netiek atbalstīts | Darbvieta **Pirkšanas pasūtījuma ieejas plūsma un papilddati** sniedz apskatu par ratificētajiem pirkšanas pasūtījumiem, kuri gaida ieejas plūsmu vai sūtījumus. Šī darbvieta ietver sarakstus ar nokavētajām ieejas plūsmām un gaidošajām ieejas plūsmām, lai palīdzētu ar proaktīvo pārskatīšanu un piegādātāja turpmākajiem datiem un darbībām. Šajā darbvietā ir arī uzskaitīti pirkšanas pasūtījumi, kuriem noliktavā ir notikusi saņemšanas reģistrācija, lai palīdzētu garantēt, ka ieejas plūsma tiek grāmatota. Pārskatīšanai ir pieejamas pirkšanas pasūtījumu atgriešanas, kas vēl nav nosūtītas. | Jūsu pirkšanas struktūrvienība var izmantot šīs darbvietas sniegto apskatu. Saistītā informācija ir apkopota tā, lai vadītu turpmāko datu un darbību procedūras un palīdzētu uzlabot produktivitāti. |
@@ -563,7 +562,7 @@ Nav pievienoti jauni līdzekļi.
 
 ## <a name="projects"></a>Projekti
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
 | Rezervējiet darbiniekus projektos kā resursus. | Līdzīgi kā resursi, arī darbinieki projektos tiek tieši rezervēti papildus resursiem. | Tabulu Resurss, kur tiek glabāti resursi ražošanai un izgatavošanai, tagad var izmantot, lai projektam kā resursus rezervētu darbiniekus. | Kad rezervējat projektus, jums ir nepieciešams rezervēt tikai resursus. |
 
@@ -578,7 +577,7 @@ Microsoft Azure viesotais līdzeklis Retail HQ piedāvā visu komerciālo operā
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -655,7 +654,7 @@ Darbvieta <strong>Katalogu pārvaldība</strong> sniedz šādu funkcionalitāti:
 <tr>
 <td>Pārvaldiet mazumtirdzniecības IT operācijas.</td>
 <td>Lietotājam ir nepieciešams iekļūt vairākām formām.</td>
-<td>Darbvieta <strong>Mazumtirdzniecības IT</strong> noteiktam kanālam Commerce Data Exchange vaicājumus ļauj veikt vienuviet, lai jūs varētu izpildīt šādus uzdevumus:
+<td>Darbvieta <strong>Mazumtirdzniecības IT</strong> noteiktam kanālam Commerce Data Exchange vaicājumus ļauj veikt vienuviet, lai jūs varētu izpildīt šādus uzdevumus:
 <ul>
 <li>Lejupielādējiet sesijas.</li>
 <li>Augšupielādējiet sesijas.</li>
@@ -677,7 +676,7 @@ Darbvieta <strong>Katalogu pārvaldība</strong> sniedz šādu funkcionalitāti:
 <td>Šīs atskaites debitoriem ļauj izmantot vairāk BI, lai prognozētu tendences, atklātu ieskatus un pastāvīgi strādātu ar maksimālu veiktspēju.</td>
 </tr>
 <tr>
-<td>Analizējiet mazumtirdzniecības kanāla pārdošanas datus, izmantojot Power BI satura pakotni "Mazumtirdzniecības kanāla veiktspējas pārraudzība".</td>
+<td>Analizējiet mazumtirdzniecības kanāla pārdošanas datus, izmantojot Power BI satura pakotni “Mazumtirdzniecības kanāla veiktspējas pārraudzība”.</td>
 <td>Nav pieejams</td>
 <td>Vietnē PowerBI.com atlasiet <strong>Iegūt datus</strong> un pēc tam atlasiet satura pakotni <strong>Dynamics AX — Mazumtirdzniecības kanāla veiktspēja</strong>. Ievadiet sava Dynamics AX galapunkta vietrādi URL, lai redzētu, kā jūsu dati tiek atspoguļoti šajā informācijas panelī.</td>
 <td>Ar trīs vai četriem klikšķiem organizācijas var izvietot Power BI informācijas paneli, kas ietver svarīgus finanšu datus. Saturu var personalizēt pēc organizācijas. Turklāt Power BI informācijas paneļa elementus lietotāji var iegult savās personalizētajās darbvietās programmā Dynamics AX, lai uzreiz redzētu analītisko informāciju.</td>
@@ -703,7 +702,7 @@ Darbvieta <strong>Katalogu pārvaldība</strong> sniedz šādu funkcionalitāti:
 
 ### <a name="retail-hardware-station"></a>Retail aparatūras stacija
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
 | Iespējojiet POS ierīces, lai veidotu savienojumu ar perifērijas ierīcēm, piemēram, printeriem, kases aparātiem vai maksājumu ierīcēm. | Lai norādītu izmantojamās ierīces, tiek lietots MPOS aparatūras profils. | Pievienotas aparatūras profils atbalsta daudzveidīgāku aparatūru no vienas stacijas uz nākamo. Jauns Aparatūras stacijas profils atbalsta unikālu termināļa ID katrai aparatūras stacijai, kad tiek apstrādātas elektronisko līdzekļu pārskaitījumu (EFT) transakcijas. EFT atbalsts ir sapludināts ar aparatūras staciju, lai mazinātu MPOS līdzdalību EFT maksājumu apstrādē. | Šādi implementācijām tiek nodrošināta lielāka elastība. Tas arī sniedz uzlabotu drošību un samazina pakļaušanu kredītkartes datiem. |
 
@@ -716,7 +715,7 @@ Mazumtirdzniecības servera un datu pārvaldība patērētājiem un uzņēmumiem
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -734,11 +733,11 @@ Mazumtirdzniecības servera un datu pārvaldība patērētājiem un uzņēmumiem
 <td>Tas nodrošina viesotus un mērogojamus e-komercijas pakalpojumus, ko var izmantot ar trešās puses tiešsaistes veikaliem.</td>
 </tr>
 <tr>
-<td>Pārvietojiet datus starp Microsoft Dynamics AX iekšējo biroju un kanāliem, izmantojot Commerce Data Exchange.</td>
-<td>Commerce Data Exchange ir sistēma, kas pārsūta datus starp Microsoft Dynamics AX un mazumtirdzniecības kanāliem, piemēram, tiešsaistes veikaliem vai fiziskajiem veikaliem. Plašāku informāciju skatiet tēmā <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Pārvietojiet datus starp Microsoft Dynamics AX operāciju uzskaites daļu un kanāliem, izmantojot Commerce Data Exchange.</td>
+<td>Commerce Data Exchange ir sistēma, kas pārsūta datus starp Microsoft Dynamics AX un mazumtirdzniecības kanāliem, piemēram, tiešsaistes veikaliem vai fiziskajiem veikaliem. Papildinformāciju skatiet <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Pastāv funkcionāla paritāte ar Microsoft Dynamics AX 2012 CU8. Taču ņemiet vērā šādu informāciju:
 <ul>
-<li>Sistēma Commerce Data Exchange ir pārstrādāta lietošanai mākonī.</li>
+<li>Commerce Data Exchange ir pārstrādāta lietošanai mākonī.</li>
 <li>Async pakalpojums izmanto tiešu datu bāzes piekļuvi uz kanāla datu bāzi.</li>
 <li>Commerce Data Exchange: Real-Time Service tiek viesots kā Microsoft Dynamics AX pielāgots pakalpojums.</li>
 <li>MPOS pārvalda sinhronizēšanu starp bezsaistes datu bāzēm un mazumtirdzniecības serveri.</li>
@@ -762,7 +761,7 @@ Mazumtirdzniecības servera un datu pārvaldība patērētājiem un uzņēmumiem
 <td>Nav pieejams</td>
 <td>Tiek nodrošināta šāda funkcionalitāte:
 <ul>
-<li>Uzlabota drošība, ko sniedz Azure AD balstīta aktivizēšana mākonim.</li>
+<li>Uzlabota drošība, ko sniedz uz Azure AD balstīta aktivizēšana mākonim.</li>
 <li>Uzlabota drošība marķieru pārvaldībai.</li>
 <li>Uzlabota uzticamība, problēmu novēršana un kļūdu ziņošana aktivizēšanas laikā</li>
 <li>Vienkāršoti ar aktivizēšanu saistītie IT administrēšanas uzdevumi.</li>
@@ -770,7 +769,7 @@ Mazumtirdzniecības servera un datu pārvaldība patērētājiem un uzņēmumiem
 </ul></td>
 <td>Tas nodrošina šādas priekšrocības:
 <ul>
-<li>Drošība ir uzlabota, izmantojot Azure AD un ierīces marķieri/ID (RS izsaukumi, kas izmanto marķieri, lietotājam raksturīga programmas krātuve).</li>
+<li>Drošība ir uzlabota, izmantojot Azure AD un ierīces marķieri/ID (RS zvani, kas izmanto marķieri, lietotājam raksturīga programmas krātuve).</li>
 <li>Tas aptur neatļautu MPOS attālo lietošanu (ierīces lietojamības bloķēšanu).</li>
 <li>Tas izseko MPOS ierīces PCI atbilstības nolūkos.</li>
 <li>Tas kartē fiziskās ierīces ar biznesa elementu (reģistru), izmantojot ierīces marķieri.</li>
@@ -808,7 +807,7 @@ Mazumtirdzniecība sniedz pilnīgu mobilo pieredzi jebkurā vietā un jebkurā l
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -874,7 +873,7 @@ Mazumtirdzniecība sniedz pilnīgu mobilo pieredzi jebkurā vietā un jebkurā l
 
 Uz mazumtirdzniecību un komerciju koncentrēta konfigurēšanas opcija palīdz racionalizēt mazumtirdzniecībai raksturīgos izvietojumus.
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
 | Lietojiet informācijas paneli Komercijas rekvizīti. | Ir pieejama apgabala lapa ar saitēm uz izvēlnes vienumiem. | Informācijas panelis Komercijas rekvizīti sniedz saites uz bieži izmantotajiem uzdevumiem, tostarp saites uz darbvietām, Power BI tīmekļa vadību, izlasi, nesenajām lapām un pašreizējiem darba elementiem. | Uzlabotais informācijas panelis darbiniekiem sniedz lielākas iespējas, padarot viņu darbu efektīvāku un nodrošinot elastīgu sākumpunktu jebkuram mazumtirdzniecībai raksturīgam uzdevumam. |
 | Lietojiet datu elementus, lai piekļūtu konta izmaiņām. | Konta izmaiņas tiek eksportētas uz mapi failu sistēmā. | Konta izmaiņām var piekļūt, izmantojot datu elementus. | Šis līdzeklis sniedz lielāku elastību, kad datus pārvietojat starp dažādām sistēmām. Turklāt šo līdzekli var uzlabot ar OData programmām. |
@@ -889,7 +888,7 @@ Uz mazumtirdzniecību un komerciju koncentrēta konfigurēšanas opcija palīdz 
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -914,7 +913,7 @@ Uz mazumtirdzniecību un komerciju koncentrēta konfigurēšanas opcija palīdz 
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -928,7 +927,7 @@ Uz mazumtirdzniecību un komerciju koncentrēta konfigurēšanas opcija palīdz 
 <li>Trigeri pirms un pēc darbībām, kas jums ļauj ērti paplašināt darbplūsmu.</li>
 <li>Programmu un operāciju trigeri.</li>
 </ul>
-Turklāt ir pieejama struktūra, kas jums ļauj veidot un iepakot šos komponentus, izmantojot MSBuild, un pēc tam efektīvi izvietot savus pielāgojumus, izmantojot Microsoft Dynamics Lifecycle Services (LCS).</td>
+Turklāt ir pieejama struktūra, kas jums ļauj veidot un iekļaut pakotnē šos komponentus, izmantojot MSBuild, un pēc tam efektīvi izvietot savus pielāgojumus, izmantojot Microsoft Dynamics Lifecycle Services (LCS).</td>
 <td>Mazumtirgotājiem ir ļoti specifiskas prasības, kas ir atkarīgas no operācijas vertikālajām un ģeogrāfiskajām īpašībām. Sniedzot ērti paplašināmu platformu, mēs iespējojam lietojumu dažādās vertikālēs un tirgos. Tā kā arī mazumtirdzniecībai ir ļoti izplatīta arhitektūra, spēja efektīvi izvietot ievērojami uzlabo produktivitāti.</td>
 </tr>
 </tbody>
@@ -943,7 +942,7 @@ Lifecycle Services (LCS) sniedz pakalpojumu kopu, ko debitori un partneri var iz
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -992,7 +991,7 @@ Pastāv uzlabota "zema pieskāriena" klienta komponenta instalācija, izmantojot
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -1023,15 +1022,14 @@ Nav pievienoti jauni līdzekļi.
 
 Nav pievienoti jauni līdzekļi.
 
-## <a name="warehouse-management"></a>Noliktavas pārvaldība
+## <a name="warehouse-management"></a>Noliktavas vadība
 
-| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
+| Ko iespējams izdarīt? | Dynamics AX 2012 | Dynamics AX 7.0 | Kāpēc tas ir svarīgi? |
 |------------------|------------------|-----------------|------------------------|
-| Lejupielādējiet, instalējiet un konfigurējiet noliktavas mobilo ierīču portālu. | Šo portālu varat lejupielādēt, instalēt un konfigurēt Microsoft Dynamics AX instalēšanas procesa laikā, izmantojot standarta iestatījumu. Tas ir izstrādāts automātiskai lokālajai izvietošanai un konfigurēšanai. | Varat lejupielādēt savrupu instalētāju, izmantojot izvēlnes vienumu modulī Noliktavas pārvaldība. Tas ir izstrādāts automātiskai lokālajai izvietošanai un konfigurēšanai. | Kad iestatāt mobilās ierīces funkcionalitāti, noliktavas mobilo ierīču portāls ir jāinstalē un jākonfigurē lokāli, un ir jāiegūst savienojums ar Dynamics AX mākonī. |
+| Lejupielādējiet, instalējiet un konfigurējiet noliktavas mobilo ierīču portālu. | Šo portālu varat lejupielādēt, instalēt un konfigurēt Microsoft Dynamics AX instalēšanas procesa laikā, izmantojot standarta iestatījumu. Tas ir izstrādāts automātiskai lokālajai izvietošanai un konfigurēšanai. | Varat lejupielādēt savrupu instalētāju, izmantojot izvēlnes vienumu modulī Noliktavas pārvaldība. Tas ir izstrādāts automātiskai lokālajai izvietošanai un konfigurēšanai. | Kad iestatāt mobilās ierīces funkcionalitāti, noliktavas mobilo ierīču portāls ir jāinstalē un jākonfigurē lokāli, un ir jāiegūst savienojums ar Dynamics AX mākonī. |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunumi un izmaiņas](whats-new-changed.md)
 
 [Pieejami jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
-

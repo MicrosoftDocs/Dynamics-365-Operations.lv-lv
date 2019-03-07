@@ -1,13 +1,13 @@
 ---
-title: "Piešķirt laiku darbu komplektā iekļautiem darbiem"
-description: "Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi."
+title: Piešķirt laiku darbu komplektā iekļautiem darbiem
+description: Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a5204288ce3eaabb605f136ea788d235f408f349
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329118"
 ---
-
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Piešķirt laiku darbu komplektā iekļautiem darbiem
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ Ja vēlaties ražošanas izmaksas aprēķināt atbilstoši reālajām izmaksām,
 | 3. darbs | (3,33 ÷ 5) × 12,00 USD                 | USD 8,00                | 5 stundas        | USD 40,00         |
 
 Koriģētās vienas stundas izmaksas un darba laiks tiek iegrāmatots ražošanas žurnālā. **Piezīme.** Ja lapā **Ražošanas pasūtījumu noklusējuma iestatījumi** ir atzīmēta cilnes **Vispārīgi** opcija **Izmaksu kategorija**, katram darbam faktiski patērētais laiks tiek pārnests ražošanas žurnālā, kur izmaksas tiek attiecinātas uz konkrēta darba izmaksu kategoriju.
-
 
 
 

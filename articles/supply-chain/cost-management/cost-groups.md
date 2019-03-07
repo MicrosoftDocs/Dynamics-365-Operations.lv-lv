@@ -1,13 +1,13 @@
 ---
 title: Izmaksu grupas
-description: "Izmaksu grupas sniedz pamatu izmaksu seguma segmentēšanai un analīzei ražotā krājuma aprēķinātajā izmaksā, kā, piemēram, materiālu, darba un papildus atbalsta izmaksu segumus. Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija."
+description: Izmaksu grupas sniedz pamatu izmaksu seguma segmentēšanai un analīzei ražotā krājuma aprēķinātajā izmaksā, kā, piemēram, materiālu, darba un papildus atbalsta izmaksu segumus. Izmaksu grupu segmentācijai ir vairāki sinonīmi, kā, piemēram, izmaksu sadalīšana, izmaksu dekompozīcija vai izmaksu klasifikācija.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337421"
 ---
-
 # <a name="cost-groups"></a>Izmaksu grupas
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Izmaksu grupai var tikt piešķirts izmaksu grupas tips un uzvedība papildus se
 
 -   **Izmaksu grupas tips** — katrai izmaksu grupai ir jāpiešķir izmaksu grupas tips, lai norādītu, ka izmaksu grupa attiecas uz tiešu materiālu, tiešu ražošanu, tiešiem ārpakalpojumiem vai attiecas uz netiešu vai nedefinētu materiālu, ražošanu un ārpakalpojumiem. Izmaksu grupa, kas norādīta kā tiešs materiāls, var tikt piešķirta krājumiem. Tiešas ražošanas izmaksu grupa var tikt piešķirta izmaksu kategorijām. Tiešā ārpakalpojumu izmaksu grupa var tikt piešķirta pakalpojuma preces veidam, kas ļauj klasificēt ar pakalpojuma iegādi saistītas izmaksas ar pakalpojumu apakšlīgumu slēgšanas darbībām. Netieša izmaksu grupa var tikt piešķirta papildizdevumu vai nodokļu netiešajām izmaksām. Izmaksu grupa, kas norādīta kā netieša, var tikt piešķirta krājumiem, izmaksu kategorijām vai netiešajām izmaksām. Izmaksu grupu veida piešķiršana kalpo vairākiem mērķiem. Pirmkārt, tā ierobežo iespēju piešķirt izmaksu grupu un skatīt piemēroto izmaksu grupu sarakstu. Otrkārt, tā sniedz papildus segmentāciju pārskatīšanas mērķiem. Treškārt, tā var tikt izmantota, lai piešķirtu virsgrāmatas kontus novirzēm.
 -   **Darbība** — katrai izmaksu grupai neobligāti var tikt piešķirta darbība, lai norādītu uz izmaksu grupu kā piederošu fiksētajām vai mainīgām izmaksām. Izmaksu grupa, kuras uzvedības vērtība ir nulle, tiek pieskaitīta pie mainīgajām izmaksām. Darbības piešķiršanu izmanto tikai atskaites mērķiem. Piemēram: izmaksas var tikt parādītas ar fiksēto un mainīgo izmaksu segmentāciju izmaksu lapā un lapā**Izmaksu izvērsums pa izmaksu grupām**. Peļņas procentu iestatījumu piešķiršana katrai izmaksu grupai padara iespējamu materiālu komplekta (MK) aprēķinu, kas nodrošina ieteicamo pārdošanas cenu, kas pamatojas uz pieeju izmaksas-plus-uzcenojums.
-
 
 
 

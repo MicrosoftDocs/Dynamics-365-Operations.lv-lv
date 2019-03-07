@@ -1,13 +1,13 @@
 ---
-title: "Vietas seguma vispārējā plānošana, ja noliktava nav obligāta"
-description: "Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram nodrošinājumam ir iestatīta vietas dimensija."
+title: Vietas seguma vispārējā plānošana, ja noliktava nav obligāta
+description: Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram nodrošinājumam ir iestatīta vietas dimensija.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9475a7fbe40d7feb60c23e0d7164222469dffa75
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0b97f5f9a9a1447027e55d6c6b30253506caff70
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353935"
 ---
-
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Vietas seguma vispārējā plānošana, ja noliktava nav obligāta
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Para
 [Vispārējā plānošana — vietas un noliktavas segums, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
 [Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
-
 
 
 

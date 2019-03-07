@@ -1,13 +1,13 @@
 ---
-title: "Datu importēšanas un eksportēšanas darbi"
-description: "Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība."
+title: Datu importēšanas un eksportēšanas darbi
+description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360214"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Datu importēšanas un eksportēšanas darbi
 
 [!include [banner](../includes/banner.md)]
 
-Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus programmā Microsoft Dynamics 365 for Finance and Operations, ir jālieto darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
+Datu importēšanas un eksportēšanas darbu izveidei un pārvaldībai programmā Microsoft Dynamics 365 for Finance and Operations, tiek izmantota darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
 
 > [!NOTE]
 > Šajā tēmā tiek pieņemts, ka pārzināt [datu elementus](data-entities.md).
@@ -158,4 +157,3 @@ Sagatavošanas tabulas varat iztīrīt, izmantojot līdzekli **Sagatavošanas iz
 - **Datu projekti** — ja ir atlasīts tikai datu projekts, atlasītajam datu projektam tiek dzēsti visi ieraksti visiem elementiem un visos darbos.
 
 Šīs opcijas varat arī kombinēt, lai dzēšamo ierakstu kopu ierobežotu vēl vairāk.
-

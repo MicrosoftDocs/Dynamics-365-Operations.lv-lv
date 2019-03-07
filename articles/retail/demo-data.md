@@ -1,37 +1,36 @@
 ---
-title: "Demonstrācijas datu ekrāna izkārtojumi pārdošanas punktos Retail Modern POS (MPOS) un Cloud POS"
-description: "Šajā tēmā ir sniegta informācija par programmā Microsoft Dynamics 365 for Retail ietvertajiem pārdošanas punkta (POS) funkciju demonstrācijas datu ekrāna izkārtojumiem."
+title: Demonstrācijas datu ekrāna izkārtojumi programmās Retail Modern POS (MPOS) un Cloud POS
+description: Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Microsoft Dynamics 365 for Retail kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352486"
 ---
-
-# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi pārdošanas punktos Retail Modern POS (MPOS) un Cloud POS
+# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi programmās Retail Modern POS (MPOS) un Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par programmā Microsoft Dynamics 365 for Retail ietvertajiem pārdošanas punkta (POS) funkciju demonstrācijas datu ekrāna izkārtojumiem.
+Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Microsoft Dynamics 365 for Retail kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
 
 ## <a name="overview"></a>Pārskats
 
@@ -108,7 +107,7 @@ Tālāk esošajā tabulā ir norādīti standarta ekrāna izšķirtspējām nodr
 \* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.
 
 > [!TIP]
-> POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Retail Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat modulī Retail skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
+> POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Retail Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat modulī Retail skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
 ![Ekrāna izkārtojumi un izkārtojumu izšķirtspēja/lielums modulī Mazumtirdzniecība un POS sistēmā](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ Dažādajiem ekrāna izkārtojumiem ir nodrošināti lietotāji. Izmantojot tāl
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

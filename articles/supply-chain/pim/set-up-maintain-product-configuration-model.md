@@ -1,13 +1,13 @@
 ---
-title: "Preces konfigurācijas modeļa iestatīšana"
-description: "Šajā rakstā ir aprakstītas iestatīšanas un preču konfigurācijas modeļa izveidošanas darbības."
+title: Preces konfigurācijas modeļa iestatīšana
+description: Šajā rakstā ir aprakstītas iestatīšanas un preču konfigurācijas modeļa izveidošanas darbības.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360674"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Preces konfigurācijas modeļa iestatīšana
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 02/07/2018
 | Pārbaudiet preces konfigurācijas modeli.                         | Pārbaudiet preces konfigurācijas modeli lapā **Detalizēta informācija par ierobežojumam atbilstošu preces konfigurācijas modeli** vai **Preču konfigurācijas modeļu saraksts**. Veicot preču konfigurācijas modeļu pārbaudi, tiek imitēts preces modeļa konfigurācijas process, kas notiek pasūtījuma apstrādes laikā.                                                                                                |
 | Izveidojiet preces konfigurācijas modeļa veidni.                | Izveidojiet preces konfigurācijas modeļa veidni lapā **Konfigurācijas veidnes**. Konfigurācijas veidnē ir ietvertas preces konfigurācijas modeļa atribūtu vērtības. Atlasiet atribūtu vērtības lapā **Konfigurēt rindu**. Preces modeļa konfigurācijas laikā varat izvēlēties ielādēt preces modeļa konfigurācijas veidni.                                                   |
 | Konfigurējiet krājumu.                                          | Preču konfigurācijas modeļus var konfigurēt pārdošanas pasūtījumā, pārdošanas piedāvājumā, pirkšanas pasūtījumā vai ražošanas pasūtījumā.                                                                                                                                                                                                                                                                           |
-
 
 
 

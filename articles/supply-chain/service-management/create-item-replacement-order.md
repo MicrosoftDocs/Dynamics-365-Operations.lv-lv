@@ -1,30 +1,29 @@
 ---
-title: "Krājumu aizstāšanas pasūtījuma izveidošana"
-description: "Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas pārbaudei."
+title: Krājumu aizstāšanas pasūtījuma izveidošana
+description: Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas pārbaudei.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355016"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Krājumu aizstāšanas pasūtījuma izveidošana 
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas
 
 1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atdošanas pasūtījumi** \> **Visi atdošanas pasūtījumi**.
 
-2.  Izveidojiet jaunu atgriešanas pasūtījumu vai atlasiet atgriešanas pasūtījumu sarakstā, lai atvērtu veidlapu **Atgriešanas pasūtījums — AKA kods: %1, %2**.
+2.  Izveidojiet jaunu atgriešanas pasūtījumu vai atlasiet atgrieztu pasūtījumu sarakstā, lai atvērtu formu **Atgriešanas pasūtījums — AKA kods: %1, %2**.
 
 3.  Noklikšķiniet uz **Atgriešanas rinda** un pēc tam atlasiet **Krājuma aizstājējs**.
 
@@ -50,13 +49,13 @@ Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas
 
 1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atdošanas pasūtījumi** \> **Visi atdošanas pasūtījumi**.
 
-2.  Izveidojiet jaunu atgriešanas pasūtījumu vai atlasiet atgriešanas pasūtījumu sarakstā, lai atvērtu veidlapu **Atgriešanas pasūtījums — AKA kods: %1, %2**.
+2.  Izveidojiet jaunu atgriešanas pasūtījumu vai atlasiet atgriešanas pasūtījumu sarakstā, lai atvērtu formu **Atgriešanas pasūtījums — AKA kods: %1, %2**.
 
-3.  Noklikšķiniet uz **Atrast pārdošanas pasūtījumu**, ja vēlaties identificēt atgrieztā krājuma pārdošanas pasūtījumu. Aizpildiet veidlapu **Atrast pārdošanas pasūtījumu** un pēc tam noklikšķiniet uz **Labi**, lai veidlapu aizvērtu un atgrieztos veidlapā **Atgriešanas pasūtījums — AKA kods: %1, %2**. Atgriezto krājumu pārdošanas pasūtījuma rinda tiek kopēta atgriešanas pasūtījumā.
+3.  Noklikšķiniet uz **Atrast pārdošanas pasūtījumu**, ja vēlaties identificēt atgrieztā krājuma pārdošanas pasūtījumu. Aizpildiet formu **Atrast pārdošanas pasūtījumu** un pēc tam noklikšķiniet uz **Labi**, lai aizvērtu formu un atgrieztos formā **Atgriešanas pasūtījums — AKA kods: %1, %2**. Atgriezto krājumu pārdošanas pasūtījuma rinda tiek kopēta atgriešanas pasūtījumā.
 
 4.  Lai atvērtu veidlapu **Pārdošanas pasūtījuma izveide**, noklikšķiniet uz **Aizstāšanas pasūtījums**.
 
-5.  Atzīmējiet izvēles rūtiņu **Kopēt atgriešanas pasūtījuma rindas**, lai uz šo pārdošanas pasūtījumu pārsūtītu detalizētu informāciju no atgriešanas pasūtījuma, ko izvēlējāties veidlapā **Atgriešanas pasūtījums — AKA kods: %1, %2**.
+5.  Atzīmējiet izvēles rūtiņu **Kopēt atgriešanas pasūtījuma rindas**, lai uz šo pārdošanas pasūtījumu pasūtītu detalizētu informāciju no atgriešanas pasūtījuma, ko atlasījāt formā **Atgriešanas pasūtījums — AKA kods: %1, %2**.
 
 6.  Ja nepieciešams, ievadiet vai mainiet detaļas.
     
@@ -66,6 +65,5 @@ Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas
     
     Ja pārdošanas līguma identifikators tiek automātiski rādīts laukā **Pārdošanas līguma ID**, pārdošanas līgums ir saistīts ar pārdošanas pasūtījuma virsrakstu krājumu aizstāšanas pasūtījumam. Ja ir piemērojama saistība pārdošanas līgumā, kas vēl nav izpildīts, un pārdošanas pasūtījums tiek izveidots pirms pārdošanas līguma termiņa beigām, tiek izveidota saite starp pārdošanas līguma rindu un pārdošanas pasūtījuma rindu. Tādēļ informācija no pārdošanas līguma, piemēram, preces cena, tiek kopēta jaunajā pārdošanas pasūtījuma rindā. 
   
-
 
 

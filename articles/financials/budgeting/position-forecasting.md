@@ -1,13 +1,13 @@
 ---
-title: "Pozīciju prognozēšana"
-description: "Izdevumi, kas ir saistīti ar darbiniekiem, bieži veido lielu daļu no organizācijas izmaksām. Pozīciju prognozēšana ļauj jums plānot šos izdevumus un iekļaut tos budžetu plānošanā."
+title: Pozīciju prognozēšana
+description: Izdevumi, kas ir saistīti ar darbiniekiem, bieži veido lielu daļu no organizācijas izmaksām. Pozīciju prognozēšana ļauj jums plānot šos izdevumus un iekļaut tos budžetu plānošanā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356166"
 ---
-
 # <a name="position-forecasting"></a>Pozīciju prognozēšana
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,7 @@ Ieņēmumu izmaksu elements, kas atlasīts atlīdzības grupā, tiek lietots, ka
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognozes pozīciju izveide esošajiem amatiem
 
-Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes pozīcijas, izmantojot informāciju no programmatūrā Microsoft Dynamics 365 for Finance and Operations esošajiem amatiem neatkarīgi no tā, vai amats pašlaik ir aizņemts vai brīvs. 
+Lai nodrošinātu visprecīzāko budžeta plānošanu, varat izveidot prognozes amatus, izmantojot detalizētu informāciju no esošajiem amatiem programmā Microsoft Dynamics 365 for Finance and Operations, neatkarīgi no tā, vai amats pašlaik ir vai nav aizpildīts. 
 
 Funkcija **Pievienot esošos amatus** parāda visus organizācijas amatus. Iestatot **No** datumu, varat mainīt amatu sarakstu, lai tajā ir amati, kas pastāvējusi kādā datumā agrāk vai parasti nākotnē (piemēram, nākamā budžeta cikla sākumu). Atlasiet budžeta plānošanas procesu un budžeta plāna scenāriju, atlasiet amatus sarakstā un pēc tam noklikšķiniet uz **Labi**, lai izveidotu prognozes pozīcijas atlasītajiem amatiem. Ievērojiet, ka var izveidot tikai vienu prognozes pozīciju katram esošajam amatam budžeta plānošanas procesā un scenārijā. Tomēr, varat izveidot papildu versijas, piešķirot citus budžeta plāna scenārijus. 
 
@@ -216,7 +215,6 @@ Budžeta plāna scenāriji, ko var atlasīt kā avotu, ir ierobežoti ar scenār
 Budžeta plāna rindas rāda budžeta summu avotu (prognozes pozīcijas numuru), bet nav saistītas. Tāpēc prognozes pozīcijas izmaiņas netiek parādītas budžeta plāna rindā, un izmaiņas budžeta plāna rindā tiek parādītas prognozes pozīcijā. Ja maināt prognozes pozīciju un vēlaties iekļaut budžeta plānā atjauninājumus, prognozes pozīcija jāiekļauj plānā vēlreiz. Tomēr atcerieties, ka šis process noņem visas rindas, kur šī prognozes pozīcija tiek piešķirta. Tāpēc jebkuras izmaiņas, kuras veicāt šajās rindās, tiek noņemtas. 
 
 Lai redzētu, kuros budžeta plānos prognozes pozīcija tika iekļauta, jūs varat ģenerēt pārskatu **Prognozes pozīcijas pēc budžeta plāna**. Vai arī prognozes pozīcijā varat atvērt papildinformāciju **Saistītie budžeta plāni**, lai apskatītu plānus.
-
 
 
 

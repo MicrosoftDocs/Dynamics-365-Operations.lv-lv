@@ -1,13 +1,13 @@
 ---
-title: "No aktivitātēm atkarīgu apakšlīgumu slēgšana"
-description: "Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes."
+title: No aktivitātēm atkarīgu apakšlīgumu slēgšana
+description: Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350048"
 ---
-
 # <a name="activity-based-subcontracting"></a>No aktivitātēm atkarīgu apakšlīgumu slēgšana
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations ir pieejamas divas apakšlīgumu slēgšanas metodes: izmantojot ražošanas pasūtījumus un lean manufacturing. Ja izmantojat lean manufacturing metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean manufacturing izmaksu aprēķināšanas risinājumā.
+Programmā Microsoft Dynamics 365 for Finance and Operations ir pieejamas divas apakšlīgumu slēgšanas metodes: ražošanas pasūtījumi un lean manufacturing. Ja izmantojat lean manufacturing metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean manufacturing izmaksu aprēķināšanas risinājumā.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Ražošanas plūsmas, kurās piedalās apakšuzņēmēji
 Ja par kādām aktivitātēm ir noslēgts apakšlīgums, ražošanas plūsmas pamatprincipi nemainās. Joprojām notiek materiālu plūsma starp novietojumiem, procesa aktivitātes materiālus pārvērš par precēm un pārsūtīšanas aktivitātes materiālus vai preces pārvieto no viena novietojuma uz citu. Novietojumus un darba šūnas varat modelēt kā kreditora pārvaldītas, piešķirot kreditora kontu kādai noliktavai vai kādam resursu grupas resursam.  
@@ -89,7 +88,7 @@ Attiecībā uz procesa aktivitātēm lapas **Detalizēta informācija par** **ak
 ## <a name="service-quantity-calculation"></a>Pakalpojuma daudzuma aprēķins
 Viss pirkšanas process ir balstīts uz krājuma atsauci kādam pakalpojumam. Šī krājuma atsauce tiek mērīta pakalpojuma mērvienībās. Parasti pakalpojumu daudzums tiek izteikts kā pakalpojumu skaits (vienības) vai laiks. Lai aprēķinātu pakalpojuma daudzumu, pamatojoties uz reģistrēto Kanban darbu pabeigšanu, varat izmantot tālāk aprakstītās metodes.
 
--   **No darbu skaita atkarīgais aprēķins** — viens Kanban darbs ir vienāds ar *n*pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Ja izmantojat lean manufacturing, tad viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
+-   **No darbu skaita atkarīgais aprēķins** — viens Kanban darbs ir vienāds ar *n* pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Ja izmantojat lean manufacturing, tad viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
 -   **No preču daudzuma atkarīgais aprēķins** — pakalpojuma daudzums tiek izteikts relatīvi pret plānoto/piegādāto preču daudzumu. Kad ir aprēķināts piegādāto preču daudzums, kļūdainos daudzumus var iekļaut vai izslēgt. Šī aprēķināšanas metode attiecas uz visiem gadījumiem, kad pastāv vienošanās par pakalpojuma cenu par apstrādātās preces vienību.
 -   **No aktivitātes laika atkarīgais aprēķins** — teorētiskie aktivitātes laiki tiek aprēķināti, pamatojoties uz aktivitātes apstrādāšanas laiku, kopējo apstrādāto daudzumu un apstrādātās preces caurlaides koeficientu. Šī aprēķināšanas metode attiecas uz pakalpojumiem, kas tiek apmaksāti pēc stundu skaita un kam pastāv novirze attiecībā uz apstrādātās preces laiku.
 
@@ -104,7 +103,6 @@ Bieži vien ļaudis uzskata, ka transportēšana nav produktīva un nevairo nek�
 Kad izmantojat lean manufacturing, no aktivitātēm atkarīga apakšlīgumu slēgšana jums ļauj integrēt pārvadātājus un transporta kreditorus, kuri materiālus un preces pārvieto starp atrašanās vietām ražošanas plūsmā. Modelējot transportēšanas aktivitāti, varat piešķirt pārvadātāju vai kreditoru. Pārsūtīšanas aktivitātes/darbs ir atkarīgs no pakalpojuma un pirkšanas līguma, un pirkšanas pasūtījumus un ieejas plūsmas paziņojumus varat izveidot, pamatojoties uz faktiskajiem pārsūtīšanas darbiem. Šī funkcionalitāte ir tāda pati kā funkcionalitāte apakšlīgumā paredzētajām procesa aktivitātēm.  
 
 Tāpēc programmatūra Dynamics 365 for Finance and Operations tagad atbalsta MK aprēķinu, kas ietver transportēšanas pakalpojumus, saistīto pirkšanas pasūtījumu izveidi, integrētu ieejas plūsmas reģistrēšanu un transportēšanas pakalpojumu izmaksu integrēšanu ražošanas plūsmas izmaksu aprēķināšanā.
-
 
 
 

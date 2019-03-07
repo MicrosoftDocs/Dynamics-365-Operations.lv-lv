@@ -1,13 +1,13 @@
 ---
-title: "Noliktavas mobilo ierīču displeja iestatījumi"
-description: "Šajā rakstā ir izskaidrots, kā iestatīt mobilās ierīces displeja izskatu un kartēt vadīklu tastatūras īsinājumtaustiņus, piemēram, pogas."
+title: Noliktavas mobilo ierīču displeja iestatījumi
+description: Šajā rakstā ir izskaidrots, kā iestatīt mobilās ierīces displeja izskatu un kartēt vadīklu tastatūras īsinājumtaustiņus, piemēram, pogas.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328037"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Noliktavas mobilo ierīču displeja iestatījumi
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Kā daļu no mobilās ierīces konfigurācijas var definēt dažādus izkārtoju
 -    laukā **CSS fails** ievadiet CSS faila nosaukumu. Iekļaujiet .css faila nosaukuma paplašinājumu.
 -   Laukā **Mobilās ierīces displeja iestatījumu skats** norādiet ASPX failu. **Neiekļaujiet** .aspx faila nosaukuma paplašinājumu.
 
-CSS un ASPX failus jānovieto īpašā direktorijā, lai interneta informācijas pakalpojumu (IIS) programma tos varētu ielādēt. Varētu būt noderīgi definēt dažādus CSS failus, ja mobilās ierīces funkcionalitātei izmantojat dažādos pārlūkos vai dažāda veida aparatūrā, kas pieprasa dažādas izkārtojuma vadīklas. Vienkāršus iestatījumus, piemēram, fona krāsu, fontu un fonta lielumu tekstam, un pogu platumu un uzvedību var viegli kontrolēt, izmantojot CSS failus dažādos veidos. ASPX fails tiek izmantots, lai parādītu mobilo vietni servera puses ASP.NET programmā. Šis fails kontrolē veidu, kā ir izkārtota HTML vispārējā struktūra. Šo funkcionalitāti ir ieteicams pielāgot tikai tad, ja jums ir nopietnas strukturālās problēmas ar HTML un JavaScript, un šis kods ir jāmaina jūsu konkrētajām ierīcēm. Lai kartētu HTML vadīklas mobilās ierīces lapā īsinājumtaustiņos, lapā **Mobilās ierīces displeja iestatījumi** laukā **Īsinājumtaustiņš** piešķiriet taustiņiem ciparu kodus. Var izmantot izvēlni **Skatīt īsinājumtaustiņu kodus** mobilajā ierīcē, lai atrastu ciparzīmju kodus. Ievērojiet, ka kartējumi var atšķirties atkarībā no izmantotās aparatūras. Lai izveidotu kartēšanu, jāizmanto tālāk aprakstītā sintakse.
+CSS un ASPX failus jānovieto īpašā direktorijā, lai interneta informācijas pakalpojumu (IIS) programma tos varētu ielādēt. Varētu būt noderīgi definēt dažādus CSS failus, ja mobilās ierīces funkcionalitātei izmantojat dažādos pārlūkos vai dažāda veida aparatūrā, kas pieprasa dažādas izkārtojuma vadīklas. Vienkāršus iestatījumus, piemēram, fona krāsu, fontu un fonta lielumu tekstam, un pogu platumu un uzvedību var viegli kontrolēt, izmantojot CSS failus dažādos veidos. ASPX formāta fails tiek izmantots, lai parādītu mobilo vietni servera puses ASP.NET programmā. Šis fails kontrolē veidu, kā ir izkārtota HTML vispārējā struktūra. Šo funkcionalitāti ir ieteicams pielāgot tikai tad, ja jums ir nopietnas strukturālās problēmas ar HTML un JavaScript, un šis kods ir jāmaina jūsu konkrētajām ierīcēm. Lai kartētu HTML vadīklas mobilās ierīces lapā īsinājumtaustiņos, lapā **Mobilās ierīces displeja iestatījumi** laukā **Īsinājumtaustiņš** piešķiriet taustiņiem ciparu kodus. Var izmantot izvēlni **Skatīt īsinājumtaustiņu kodus** mobilajā ierīcē, lai atrastu ciparzīmju kodus. Ievērojiet, ka kartējumi var atšķirties atkarībā no izmantotās aparatūras. Lai izveidotu kartēšanu, jāizmanto tālāk aprakstītā sintakse.
 
 &lt;vadīklas nosaukums&gt;(&lt;taustiņa nosaukums&gt;)=&lt;taustiņa kods&gt;;
 
@@ -68,7 +67,7 @@ Request.UserHostAddress=&lt;lietotāja resursdatora adrese&gt;|HostName=&lt;liet
 -   **&lt;lietotāja resursdatora nosaukums&gt;**  — .NET regulārā izteiksme, kas atbilst pieprasītāja tīkla nosaukumam.
 -   **&lt;lietotāja aģents&gt;**  — .NET regulārā izteiksme, kas atbilst pārlūkprogrammas identifikatoram, ko izmanto pieprasītājs.
 
-Tālāk minētais piemērs iespējo programmas Internet Explorer 8 lietošanu:
+Tālāk esošais piemērs sniedz iespēju lietot programmu Internet Internet Explorer 8.
 
 Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 
@@ -87,7 +86,7 @@ Var izmantot lapu **Mobilās ierīces teksta krāsas**, lai kontrolētu dažāda
 Lai atlasītu krāsu, lapā **Atlasīt krāsu** noklikšķiniet uz paletes vai ierakstiet heksadecimālo krāsas kodu.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Mobilajās ierīces lietojamā datumu formāta definēšana
-Katrai instalācijai varat paplašināt pieņemto datumu formātu sarakstu. Piemēram, šī iespēja var būt noderīga, ja vēlaties norādīt tādu formātu, kas ļauj darbiniekam ērtāk ievadīt datumus mobilajā ierīcē. Noklusējuma formātu nosaka lietotāja noklusējuma valoda, kas ir norādīta laukā **Valoda** lapā **Lietotāja opcijas**. (Tā pati lapa tiek izmantota arī, lai darbinieku saistītu ar konkrētu noliktavas darba lietotāju.) **Piezīme.** Noliktavas mobilo ierīču portāls neizmanto lauka **Datuma, laika un skaitļu formāts** iestatījumu lapā **Valodas un reģiona preferences**. Lai mainītu datuma formātu, jums jāzina Microsoft .NET Framework regulārās izteiksmes. Papildinformāciju skatiet šeit: [.NET Framework regulārās izteiksmes](http://go.microsoft.com/fwlink/?LinkId=391260). Lai definētu datuma formātus, rediģējiet failu Dates.ini, kas noliktavas mobilo ierīču portāla serverī atrodas šeit: Saturs\\Iestatījumi\\Dates.ini. Šis fails izmanto .NET regulārās izteiksmes, lai norādītu datuma formātu. Regulārajai izteiksmei ir jāietver apakšizteiksmes, kas izveido nosauktas grupas dienai, mēnesim un gadam (DDMMGG), kā parādīts šajā piemērā:
+Katrai instalācijai varat paplašināt pieņemto datumu formātu sarakstu. Piemēram, šī iespēja var būt noderīga, ja vēlaties norādīt tādu formātu, kas ļauj darbiniekam ērtāk ievadīt datumus mobilajā ierīcē. Noklusējuma formātu nosaka lietotāja noklusējuma valoda, kas ir norādīta laukā **Valoda** lapā **Lietotāja opcijas**. (Tā pati lapa tiek izmantota arī, lai darbinieku saistītu ar konkrētu noliktavas darba lietotāju.) **Piezīme.** Noliktavas mobilo ierīču portāls neizmanto lauka **Datuma, laika un skaitļu formāts** iestatījumu lapā **Valodas un reģiona preferences**. Lai mainītu datuma formātu, ir jāzina Microsoft .NET Framework parastās izteiksmes. Papildinformāciju skatiet šeit: [.NET Framework regulārās izteiksmes](http://go.microsoft.com/fwlink/?LinkId=391260). Lai definētu datuma formātus, rediģējiet failu Dates.ini, kas noliktavas mobilo ierīču portāla serverī atrodas šeit: Saturs\\Iestatījumi\\Dates.ini. Šis fails izmanto .NET regulārās izteiksmes, lai norādītu datuma formātu. Regulārajai izteiksmei ir jāietver apakšizteiksmes, kas izveido nosauktas grupas dienai, mēnesim un gadam (DDMMGG), kā parādīts šajā piemērā:
 
 ^(?&lt;diena&gt;\\d{2})(?&lt;mēnesis&gt;\\d{2})(?&lt;gads&gt;\\d{2})$
 
@@ -101,7 +100,6 @@ Vienā failā var norādīt vairāk nekā vienu izteiksmi. Katrai izteiksmei jā
 --------
 
 [Mobilo ierīču konfigurācija darbam noliktavā](configure-mobile-devices-warehouse.md)
-
 
 
 

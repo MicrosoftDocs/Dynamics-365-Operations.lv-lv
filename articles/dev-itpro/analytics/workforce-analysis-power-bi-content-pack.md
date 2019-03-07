@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Darbaspēka rādītāji"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Darbaspēka rādītāji. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Darbaspēka rādītāji
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Darbaspēka rādītāji. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345793"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>Power BI saturs Darbaspēka rādītāji
+# <a name="workforce-metrics-power-bi-content"></a>Power BI satura pakotne Darbaspēka rādītāji
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Darbaspēka rādītāji**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Darbaspēka rādītāji**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI saturs **Darbaspēka rādītāji** tiek rādīts darbvietā **Personāla pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+Power BI saturs **Darbaspēka rādītāji** tiek rādīts darbvietā **Personāla pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Programma Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- Microsoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji
 Tālāk esošajā tabulā ir uzskaitīti katrā pārskatā sniegtie rādītāji.
 
 | Pārskats                                           | Metrika |
@@ -57,9 +56,9 @@ Tālāk esošajā tabulā ir uzskaitīti katrā pārskatā sniegtie rādītāji.
 | Darbinieku dzimšanas dienas                               | Dzimšanas dienas šomēnes, dzimšanas dienas nākamajā mēnesī, darbinieku dzimšanas dienas un dzimšanas dienas pēc mēneša un nodaļas |
 | Masveida darbā pieņemšanas projekti                               | Kopējais masveida darbā pieņemšanas projektu skaits, masveida darbā pieņemšanas projekti pēc statusa, masveida darbā pieņemšanas projekti pēc nodaļas un īpašnieka, masveida darbā pieņemšanas projekti pēc darba un masveida darbā pieņemšanas projekti |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu programmatūrā Power BI skatiet tēmā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Noteikti lejupielādējiet Power BI satura pakotni **Darbaspēka rādītāji**, kas ir paredzēta jūsu lietotajai Microsoft Dynamics 365 versijai.
+Noteikti lejupielādējiet Power BI satura pakotni **Darbaspēka rādītāji**, kas attiecas uz izmantoto Microsoft Dynamics 365 versiju.
 
 > [!NOTE]
 > Pakalpojumā Lifecycle Services pieejamie .pbix formāta faili ir paredzēti tikai programmatūrai Dynamics 365 for Finance and Operations.
@@ -88,4 +87,3 @@ Tālāk esošajā tabulā ir redzami elementi, uz kuriem šis saturs tika balst�
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                 | Uzņēmums, Ģeogrāfiskā vieta, Darbinieka vārds, Kam atskaitās, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs |
 | Masveida darbā pieņemšanas projekts        | Masveida darbā pieņemšanas projektu skaits, projekta īpašnieks un projekta statuss                     | Uzņēmums, masveida darbā pieņemšanas rinda |
 | Masveida darbā pieņemšanas rinda           | Nodaļa, nodarbinātības tips un amats                                           | Datums, darbs, masveida darbā pieņemšanas projekts |
-

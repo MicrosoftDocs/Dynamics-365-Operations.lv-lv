@@ -1,13 +1,13 @@
---- 
-title: "ER modeļu kartējumu definēšana un datu avotu atlasīšana tiem"
-description: "Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var atlasīt datu avotus datu modelim Elektroniskie pārskati."
+---
+title: ER modeļu kartējumu definēšana un datu avotu atlasīšana tiem
+description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var atlasīt datu avotus datu modelim Elektroniskie pārskati.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348875"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER modeļu kartējumu definēšana un datu avotu atlasīšana tiem
 
@@ -51,7 +51,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Pašreizējā modeļa kartēšanai nepieciešamo datu avotu definēšana
 1. Noklikšķiniet uz Veidotājs.
-2. Kokā atlasiet "Dynamics 365 for Operations\Table records".
+2. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 3. Noklikšķiniet uz Pievienot sakni.
     * Ievadiet šo datu avotu, lai piekļūtu maksājumu transakcijām.  
 4. Laukā Nosaukums ierakstiet “Transakcijas”.
@@ -110,7 +110,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 41. Kokā izvērsiet sadaļu "Transakcija".
 42. Koka struktūrā izvērsiet vai sakļaujiet zaru “Transactions\$Amount".
 43. Koka struktūrā izvērsiet vai sakļaujiet zaru “Transakcijas”.
-44. Kokā atlasiet "Dynamics 365 for Operations\Table records".
+44. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 45. Noklikšķiniet uz Pievienot sakni.
     * Ievadiet šo datu avotu, lai piekļūtu uzņēmuma bankas konta detaļām.  
 46. Laukā Nosaukums ierakstiet "BankAccount".
@@ -157,5 +157,4 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 70. Aizvērt lapu.
 71. Aizvērt lapu.
 72. Aizvērt lapu.
-
 

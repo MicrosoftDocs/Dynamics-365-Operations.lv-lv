@@ -1,13 +1,13 @@
---- 
-title: "Jaunu darbu definēšana"
-description: "Šis uzdevums koncentrējas uz jauna darba izveidi."
+---
+title: Jaunu darbu definēšana
+description: Šis uzdevums koncentrējas uz jauna darba izveidi.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347932"
 ---
 # <a name="define-new-jobs"></a>Jaunu darbu definēšana
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/14/2018
 21. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 22. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 23. Pārslēdziet sadaļas Prasmes paplašinājumu.
-    * Ņemiet vērā, ka kopsavilkuma cilņu lauki Prasmes, Izglītība un Sertifikāti ir tukši. Pēc informācijas kopēšanas no darba veidnes, informācija šajos laukos tiks ievadīta vienā solī.   
+    * Ņemiet vērā, ka kopsavilkuma cilņu lauki Prasmes, Izglītība un Sertifikāti ir tukši. Pēc informācijas kopēšanas no darba veidnes, informācija šajos laukos tiks ievadīta vienā solī.   
 24. Noklikšķiniet uz Saglabāt.
 25. Noklikšķiniet uz Kopēt no.
 26. Noklikšķiniet uz Kopēt no veidnes.
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 32. Pārslēdziet sadaļas Sertifikāti paplašinājumu.
 33. Pārslēdziet sadaļas Izglītība paplašinājumu.
 34. Noklikšķiniet uz Saglabāt.
-
 

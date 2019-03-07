@@ -1,13 +1,13 @@
 ---
-title: "Manuāls nolietojuma aprēķins"
-description: "Šajā rakstā ir sniegts pārskats par manuālo nolietojuma metodi."
+title: Manuāls nolietojuma aprēķins
+description: Šajā rakstā ir sniegts pārskats par manuālo nolietojuma metodi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14e385e60e10146a0855a467af57a0a31fcc53bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331004"
 ---
-
 # <a name="manual-depreciation"></a>Manuāls nolietojuma aprēķins
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Ja atlasāt lauka <strong>Perioda biežums</strong> vērtību *<strong><em>Reizi
 | 31. decembris | (11 000 – 1000) × 50% = 5000 |
 
 Intervālu procentuālo vērtību kopsummai nav jābūt 100. Taču, ja lapā **Pamatlīdzekļu nolietojuma aprēķina tabula** esošā lauka**Uzkrātie procenti** vērtība nav **100**, tiek parādīts attiecīgs ziņojums.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Rindas definīcijas finanšu atskaišu veidotājā"
-description: "Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē. Rindas definīciju var kombinēt ar kolonnas definīcijām, atskaišu koka definīcijām un atskaites definīcijām, lai izveidotu veidošanas bloku grupu, kuru var izmantot vairāki uzņēmumi."
+title: Rindas definīcijas finanšu atskaišu veidotājā
+description: Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē. Rindas definīciju var kombinēt ar kolonnas definīcijām, atskaišu koka definīcijām un atskaites definīcijām, lai izveidotu veidošanas bloku grupu, kuru var izmantot vairāki uzņēmumi.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350439"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Rindas definīcijas finanšu atskaišu veidotājā
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda ka
 Rindas definīcijas var ietvert līdz 20 000 finanšu dimensiju rindu, kā arī tālāk minēto informāciju.
 
 - Aprakstošs teksts, kas piešķir atskaitei jēgu, izveidojot sadaļu virsrakstus, rindas un atstarpes, piemēram, **Skaidra nauda** vai **Kopējie ieņēmumi**.
-- Saites uz finanšu datiem, kas var ietvert dimensiju vērtības programmā Microsoft Dynamics 365 for Finance and Operations
+- Saites uz finanšu datiem, kuros var būt ietvertas dimensiju vērtības programmā Microsoft Dynamics 365 for Finance and Operations.
 
     > [!NOTE]
     > Varat iestatīt, lai katru reizi, kad tiek ģenerēts pārskats, rindu definīcijai tiktu iegūti dati no finanšu dimensiju sistēmas.
@@ -158,7 +157,7 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 
 ### <a name="format-row-text"></a>Rindas teksta formatēšana
 
-Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir norādīts kolonnas definīcijā un atskaites definīcijā. Teksta formātu varat modificēt, izmantojot formatēšanas rīkjoslas vadīklas. Šīs vadīklas ir standarta Microsoft Windows vadīklas.
+Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir norādīts kolonnas definīcijā un atskaites definīcijā. Teksta formātu varat modificēt, izmantojot formatēšanas rīkjoslas vadīklas. Tās ir Microsoft Windows standarta vadīklas.
 
 1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
 2. Atlasiet formatējamās šūnas. Lai atlasītu vairākas šūnas, atlasīšanas laikā turiet taustiņu Ctrl.
@@ -189,4 +188,3 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-

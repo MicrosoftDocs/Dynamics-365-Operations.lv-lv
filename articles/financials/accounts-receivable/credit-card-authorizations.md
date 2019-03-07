@@ -1,13 +1,13 @@
 ---
-title: "Kredītkartes iestatīšana, autorizācija un nolasīšana"
-description: "Šajā rakstā ir sniegts pārskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 for Finance and Operations. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju."
+title: Kredītkartes iestatīšana, autorizācija un nolasīšana
+description: Šajā rakstā ir sniegts apskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 for Finance and Operations. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343010"
 ---
-
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredītkartes iestatīšana, autorizācija un nolasīšana
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Šajā rakstā ir sniegts pārskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 for Finance and Operations. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
+Šajā rakstā ir sniegts apskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 for Finance and Operations. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Kredītkartes maksājumu pakalpojuma iestatīšana
 ------------------------------------------
@@ -78,7 +77,6 @@ Ja nosūtāt daļu pasūtījuma, tiek nolasīta daļējā pasūtījuma summa un 
 
 ## <a name="voiding-an-authorization"></a>Autorizācijas anulēšana
 Lai anulētu kredītkartes autorizāciju, varat mainīt maksājuma metodi, izvēloties citu metodi, kuras vieds nav Kredītkarte.
-
 
 
 

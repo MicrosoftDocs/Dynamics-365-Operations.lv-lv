@@ -1,13 +1,13 @@
---- 
-title: "Iekasēšanas informācijas pārskatīšana"
-description: "Šajā procedūrā parādīts, kā pārskatīt iekasēšanas informāciju, kā arī aprakstītas dažādas iestatīšanas opcijas un iekasēšanas transakcijas."
+---
+title: Iekasēšanas informācijas pārskatīšana
+description: Šajā procedūrā parādīts, kā pārskatīt iekasēšanas informāciju, kā arī aprakstītas dažādas iestatīšanas opcijas un iekasēšanas transakcijas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349105"
 ---
 # <a name="review-collections-information"></a>Iekasēšanas informācijas pārskatīšana
 
@@ -131,5 +131,4 @@ ms.lasthandoff: 09/29/2017
     * Atlasiet iekasēšanas gadījumu, kas ir saistīts ar debitoru, vai atstājiet šo lauku tukšu. Ja gadījums ir atlasīts, šajā formā tiek parādītas tikai tās transakcijas un darbības, kas ir saistītas ar šo gadījumu.  
 8. Noklikšķiniet uz Rādīt sarakstu.
     * Atlasiet debitora kontu vai akceptējiet noklusējuma ierakstu. Pēc noklusējuma saraksta lapā vai formā, no kuras atvērāt šo formu, tiek atlasīts šis debitora konts. Ja formu atvērāt no saraksta lapas, sarakstā ietvertie debitori ir tie, kuri ir ietverti iekasēšanas kopā, kas tiek izmantota saraksta lapā.  
-
 

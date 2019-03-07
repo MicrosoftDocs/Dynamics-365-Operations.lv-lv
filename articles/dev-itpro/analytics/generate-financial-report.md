@@ -1,13 +1,13 @@
 ---
-title: "Ģenerēt finanšu pārskatus"
-description: "Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu."
+title: Ģenerēt finanšu pārskatus
+description: Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340894"
 ---
-
 # <a name="generate-financial-reports"></a>Ģenerēt finanšu pārskatus
 
 [!include [banner](../includes/banner.md)]
@@ -41,9 +40,9 @@ Pārskatu ģenerēšanai ir pieejamas tālāk norādītās opcijas.
 
 Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs Atskaites definīcija .
 
-## <a name="generate-a-financial-report"></a>Finanšu pārskata ģenerēšana
+## <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
 
-Lai ģenerētu finanšu pārskatu, izmantojot Microsoft Dynamics 365 for Finance and Operations, dodieties uz **Virsgrāmata** \> **Pieprasījumi un pārskati** \> **Finanšu pārskati**.
+Lai ģenerētu finanšu pārskatu, izmantojot Microsoft Dynamics 365 for Finance and Operations, pārejiet uz sadaļu **Virsgrāmata** \> **Pieprasījumi un pārskati** \> **Finanšu pārskati**.
 
 - Atlasiet pārskatu, ko vēlaties ģenerēt, un noklikšķiniet uz **Ģenerēt**.
 - Aizpildiet lauku **Pārskata datums** un noklikšķiniet uz **Labi**.
@@ -115,7 +114,7 @@ Trūkstošie konti tiek noteikti, izmantojot mazāko un lielāko vērtību no ri
 > [!TIP]
 > Lai pārbaudītu datu pareizību, šo procesu ir ieteicams veikt ikreiz pirms mēneša pārskatu izveides, kā arī jaunu veidošanas bloku izveides laikā.
 
-Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtība. Ja iespējams, izmantojiet diapazonus veidošanas blokos, lai iekļautu jaunus kontus, kad tie tiek izveidoti. Ja jebkura pārskata definīcijā kā uzņēmums ir iestatīts @ANY, varat pieteikties noteiktā uzņēmumā un izpildīt trūkstošo kontu analīzi šim uzņēmumam.
+Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtība. Kad iespējams, veidošanas blokos izmantojiet diapazonus, lai ietvertu jaunus kontus pēc to izveides. Ja pārskata definīcijā uzņēmuma iestatījums ir @ANY, varat pieteikties konkrēta uzņēmuma profilā un izpildīt trūkstošo kontu analīzi šajā uzņēmumā.
 
 > [!NOTE]
 > Ja tika pievienots jauns uzņēmums, jums šis jaunais uzņēmums ir jāpievieno atskaišu kokiem jebkurā esošā atskaitē, citādi šis uzņēmums netiks iekļauts trūkstošo kontu analīzē.
@@ -158,4 +157,3 @@ Kad palaižat trūkstošo kontu analīzi, ir pieejami tālāk norādītie īsin�
 [Finanšu pārskati](financial-reporting-intro.md)
 
 [Pārskatu noformētāja interfeiss](report-designer-interface.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem"
-description: "Šajā tēmā izskaidrots, kā iestatīt kārtulas, lai brīdinātu klientu apkalpošanas pārstāvjus par potenciāli krāpniecisku informāciju, kad tiek apstrādāti pasūtījumi. Var definēt īpašus kodus, kas tiek izmantoti, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus."
+title: Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
+description: Šajā tēmā izskaidrots, kā iestatīt kārtulas, lai brīdinātu klientu apkalpošanas pārstāvjus par potenciāli krāpniecisku informāciju, kad tiek apstrādāti pasūtījumi. Var definēt īpašus kodus, kas tiek izmantoti, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361502"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ Pasūtījums tiek saglabāts, tas tiek atzīmēts ar karodziņu **Neapstrādāt*
 Lai skatītu un pārvaldītu pasūtījumus, kas ir aizturēti pārkāpuma pārskatīšanai, dodieties uz **Mazumtirdzniecība** \> **Debitori** \> **Pasūtījumu aizturēšana**. Lapā **Pasūtījumu aizturēšana** atlasiet ierakstu sarakstā un pēc tam noklikšķiniet uz **Pasūtījuma aizturēšana**, lai atvērtu detalizētāku skatu, kurā ietverta informācija par aizturēšanas iemeslu. Kopsavilkuma cilnē **Detalizēta informācija par pārkāpumu** varat skatīt sistemātiskos pārkāpumu kritērijus, kuriem tika noteikta atbilstība attiecīgā pasūtījuma gadījumā, un izmantotos vērtējumus. Ja pasūtījums tika aizturēts manuāli, varat pārskatīt visus komentārus, kurus ievadīja lietotājs, kas aizturēja pasūtījumu, apskatot kopsavilkuma cilnes **Piezīmes** sadaļu **Pārkāpuma piezīmes**.
 
 Lai iegūtu vairāk informācijas par to, kā darboties ar pasūtījumu aizturēšanu, skatiet sadaļu [Pasūtījumu aizturēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

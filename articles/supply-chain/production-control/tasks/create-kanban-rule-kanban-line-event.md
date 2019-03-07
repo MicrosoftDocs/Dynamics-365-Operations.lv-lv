@@ -1,13 +1,13 @@
---- 
-title: "Kanban kārtulas izveide, izmantojot Kanban rindas notikumu"
-description: "Ar šo procedūru tiek izveidots Kanban nosacījums, izmantojot Kanban rindas notikuma iestatījumu izvilkuma aktivizēšanai no procesa aktivitātes."
+---
+title: Kanban kārtulas izveide, izmantojot Kanban rindas notikumu
+description: Ar šo procedūru tiek izveidots Kanban nosacījums, izmantojot Kanban rindas notikuma iestatījumu izvilkuma aktivizēšanai no procesa aktivitātes.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bff5f16c1911739a29d50c546c3c2a9ab85c2371
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ef7b8e920d22cbc4f96676e68a263f2da7f232c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350232"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Kanban kārtulas izveide, izmantojot Kanban rindas notikumu
 
@@ -68,5 +68,4 @@ Ar šo procedūru tiek izveidots Kanban nosacījums, izmantojot Kanban rindas no
 3. Izvērsiet sadaļu Vairāki Kanban.
     * Ņemiet vērā, ka Kanban vērtībai 27 tika izveidots, lai apstrādātu aktivitāti, pamatojoties uz izveidoto Kanban nosacījumu.  
     * Šis ir pēdējais solis.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem"
-description: "Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte nebūs pieejama turpmākajās Microsoft Dynamics 365 for Finence and Operations versijās, tāpēc nav ieteicams izmantot šo grāmatošanas metodi, jo uzskaite ietekmē norēķinu apstrādi."
+title: Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
+description: Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Finance and Operations turpmākajās versijās, kā rezultātā nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330360"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte nebūs pieejama turpmākajās Microsoft Dynamics 365 for Finence and Operations versijās, tāpēc nav ieteicams izmantot šo grāmatošanas metodi, jo uzskaite ietekmē norēķinu apstrādi. 
+Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 for Finance and Operations turpmākajās versijās, kā rezultātā nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
 
 Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairākiem debitoriem vai kreditoriem, ir bilances pārskaitījumi starp debitoriem, un tīkla bilances starp debitoriem un kreditoriem tajā pašā organizācijā. 
 
@@ -249,7 +248,6 @@ Lai novērstu nevēlamas problēmas ar turpmāku nosegšanu šai darbībai, vien
 | **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | 001         | Debitors         | US-008      |                 |           |  75,00     | Virsgrāmata          | 999999---          |
 | 002         | Kreditors           | 1001        |                 |  75,00    |            | Virsgrāmata          | 999999---          |
-
 
 
 

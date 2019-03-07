@@ -1,13 +1,13 @@
---- 
-title: "Pārdošanas notikumu Kanban kārtulas izveide"
-description: "Šī procedūra fokusējas uz iestatījumiem, kas ir vajadzīgi, lai izveidotu Kanban nosacījumus, kas tiek izraisīti pārdošanas pasūtījuma izveides laikā."
+---
+title: Pārdošanas notikumu Kanban kārtulas izveide
+description: Šī procedūra fokusējas uz iestatījumiem, kas ir vajadzīgi, lai izveidotu Kanban nosacījumus, kas tiek izraisīti pārdošanas pasūtījuma izveides laikā.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2bee6e81acd029406c95237f0b4ba4ab2565ea1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342021"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Pārdošanas notikumu Kanban kārtulas izveide
 
@@ -73,5 +73,4 @@ ms.lasthandoff: 09/29/2017
 1. Noklikšķiniet uz Preces un piegādes.
 2. Noklikšķiniet uz Skatīt piesaistes koku.
     * Ņemiet vērā, ka tiek izveidots Kanban ar tādu pašu daudzumu kā pārdošanas rindā. Varat arī redzēt, ko problēmām ar materiāliem vajadzēja saražot L0050. Šā ir pēdējā darbība šajā procedūrā.  
-
 

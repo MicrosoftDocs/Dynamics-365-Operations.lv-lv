@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Darbinieku zināšanas un attīstība"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations — darbinieku zināšanas un attīstība."
+title: Power BI satura pakotne Darbinieka zināšanas un attīstība
+description: Šajā tēmā ir aprakstīt Finance and Operations Power BI satura pakotne Darbinieku zināšanas un attīstība.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352923"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>Power BI saturs Darbinieku zināšanas un attīstība
+# <a name="employee-competencies-and-development-power-bi-content"></a>Power BI satura pakotne Darbinieka zināšanas un attīstība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Power BI saturs Finance and Operations — darbinieku zināšanas un attīstība. 
+Šajā tēmā ir aprakstīt Finance and Operations Power BI satura pakotne Darbinieku zināšanas un attīstība. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat uzzināt lapā [Vadītā apmācība par Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat saņemt lapā [Power BI vadītā apmācība](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                            | Saturs                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -40,7 +39,7 @@ Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations dat
 | Prasmju profils                     | Prasmju profils atlasītajam darbiniekam                |
 | Prasmju analīze                    | Prasmes pēc tipa un vērtējuma                              |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Finance and Operations dati tiek izmantoti satura pakotnes Darbinieku zināšanas un attīstība pārskatu aizpildīšanai. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.
@@ -71,4 +70,3 @@ Finance and Operations dati tiek izmantoti satura pakotnes Darbinieku zināšana
 | Workforce\_WorkerName             | Vārds, uzvārds un pilnais vārds                                                                       | |
 | Darbaspēks\_WorkerTitle            | Nosaukums un darba stāža datums                                                                                   | |
 | Darbaspēks\_WorkerTrend             | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Darbaspēks\_Uzņēmums, Darbaspēks\_Atlīdzība, Darbaspēks\_GeographicLocation, Darbaspēks\_Veiktspēja, Darbaspēks\_WorkerName, Darbaspēks\_ReportsToWorkerName, Darbaspēks\_CalendarOffset, Darbaspēks\_Datums, Darbaspēks\_WorkerTitle, Darbaspēks\_Demogrāfiskie dati, Darbaspēks\_Nodarbinātība, Darbaspēks\_Darbs |
-

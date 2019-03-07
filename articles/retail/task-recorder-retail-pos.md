@@ -1,13 +1,13 @@
 ---
-title: "Uzdevumu ierakstītājs un palīdzība pārdošanas punktam Retail Modern POS (MPOS) un Cloud POS"
-description: "Šajā tēmā ir aprakstīts, kā lietot uzdevuma reģistrētāju programmās Retail Modern POS un Cloud POS"
+title: Retail Modern POS (MPOS) un Cloud POS uzdevumu ierakstītājs un palīdzība
+description: Šajā tēmā ir aprakstīts, kā lietot uzdevuma reģistrētāju programmās Retail Modern POS un Cloud POS
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346000"
 ---
-
-# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Uzdevumu ierakstītājs un palīdzība pārdošanas punktam Retail Modern POS (MPOS) un Cloud POS
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) un Cloud POS uzdevumu ierakstītājs un palīdzība
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā lietot uzdevuma reģistrētāju programmās Retail Modern POS un Cloud POS
+Šajā tēmā ir aprakstīts, kā lietot uzdevuma reģistrētāju programmās Retail Modern POS un Cloud POS
 
 ## <a name="overview"></a>Pārskats
 
@@ -56,7 +55,7 @@ Lai POS iespējotu uzdevuma reģistrēšanu, veiciet tālāk norādītas darbīb
 
 Lai izveidotu jaunu ierakstu, izmantojot uzdevuma reģistrētāju, veiciet tālāk norādītās darbības.
 
-1. Palaidiet programmu Retail Modern POS vai Cloud POS un pierakstieties.
+1. Palaidiet programmu Retail Modern POS vai Cloud POS un pierakstieties.
 2. Lapas **Iestatījumi** sadaļā **Uzdevuma reģistrētājs** noklikšķiniet uz **Atvērt uzdevuma reģistrētāju**. Tiek parādīta rūts **Uzdevuma reģistrētājs**. Varat noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, lai aizvērtu rūti **Uzdevuma reģistrētājs** pirms jaunas reģistrēšanas sesijas sākšanas. Lai atkārtoti atvērtu rūti, atkārtojiet 2. darbību.
 
     [![Rūts Uzdevuma reģistrētājs](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
@@ -69,7 +68,7 @@ Lai izveidotu jaunu ierakstu, izmantojot uzdevuma reģistrētāju, veiciet tāl�
     > [![Jautājuma zīme](./media/help.jpg)](./media/help.jpg)
 
 4. Pēc noklikšķināšanas uz **Sākt** uzdevuma reģistrētājs tiek pārslēgts reģistrēšanas režīmā. Rūtī **Uzdevuma reģistrētājs** tiek rādīta ar reģistrēšanas procesu saistītā informācija un vadīklas.
-5. Veiciet vajadzīgās darbības programmas Retail Modern POS vai Cloud POS lietotāja interfeisā (UI).
+5. Veiciet vajadzīgās darbības programmas Retail Modern POS vai Cloud POS lietotāja interfeisā (UI).
 6. Lai beigtu reģistrēšanas sesiju, noklikšķiniet uz **Apturēt**.
 
 ## <a name="download-options"></a>Lejupielādes opcijas
@@ -80,7 +79,7 @@ Kad beidzat reģistrēšanas sesiju, tiek parādītas vairākas ierakstu lejupie
 
 ### <a name="save-to-this-pc"></a>Saglabāt šajā datorā
 
-Varat izmantot ieraksta pakotni, lai demonstrētu uzdevuma ceļvedi, uzturētu ierakstu vai rediģētu ierakstā esošās anotācijas. (Šis līdzeklis vēl nav ieviests programmās Retail Modern POS un Cloud POS.)
+Varat izmantot ieraksta pakotni, lai demonstrētu uzdevuma ceļvedi, uzturētu ierakstu vai rediģētu ierakstā esošās anotācijas. (Šis līdzeklis vēl nav ieviests programmās Retail Modern POS un Cloud POS.)
 
 ### <a name="export-as-word-document"></a>Eksportēt kā Word dokumentu
 
@@ -108,7 +107,7 @@ Lai atsāktu reģistrēšanas sesiju pēc tās pārtraukšanas noklikšķiniet u
 
 ### <a name="capture-screenshots"></a>Veikt ekrānuzņēmumus
 
-Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāj interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, opcijai **Veikt ekrānuzņēmumu** iestatiet vērtību **Jā** un pēc tam uzņemiet ierakstu. Kad ierakstīšana ir pabeigta, noklikšķiniet uz **Apturēt** un lejupielādējiet Word dokumentu. Dokumentā būs ietvertas darbības ar attiecīgajiem ekrānuzņēmumiem.
+Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāja interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, opcijai **Veikt ekrānuzņēmumu** iestatiet vērtību **Jā** un pēc tam uzņemiet ierakstu. Kad ierakstīšana ir pabeigta, noklikšķiniet uz **Apturēt** un lejupielādējiet Word dokumentu. Dokumentā būs ietvertas darbības ar attiecīgajiem ekrānuzņēmumiem.
 
 > [!NOTE]
 > Funkcija Veikt ekrānuzņēmumu netiek atbalstīta programmā Cloud POS.
@@ -137,14 +136,13 @@ Laukā **Teksts** ievadītais teksts tiek rādīts *virs* darbības teksta uzdev
 
 Laukā **Piezīmes** ievadītais teksts tiek rādīts *zem* darbības teksta uzdevuma reģistrētājā. Lai izlasītu piezīmes tekstu, lietotājam ir jāizvērš darbības teksts uznirstošajā logā. Šī atrašanās vieta ir piemērota papildinformācijai vai citai informācijai, kas lietotājam var noderēt lietotājam, taču nav nepieciešama, lai veiktu darbību.
 
-## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Palīdzība programmās Retail Modern POS un Cloud POS
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Palīdzība programmās Retail Modern POS un Cloud POS
 
-Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveidošana ar palīdzības sistēmu](../fin-and-ops/get-started/help-connect.md). Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Microsoft Dynamics 365 for Retail palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** (jautājuma zīme) ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu.
+Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveidošana ar palīdzības sistēmu](../fin-and-ops/get-started/help-connect.md). Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Microsoft Dynamics 365 for Retail palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** (jautājuma zīme) ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu.
 
 [![Poga Palīdzība](./media/help.jpg)](./media/help.jpg)
 
 Kad meklēšanas rezultātu sarakstā noklikšķināt uz uzdevuma ceļveža, varat skatīt darbības palīdzības tēmas formātā vai eksportēt darbības Word dokumenta formātā.
 
 > [!NOTE]
-> Palīdzība programmās Retail Modern POS un Cloud POS nevar parādīt uzdevumu ceļvežus, ņemot vērā, kuru veidlapu pašlaik atvērāt vai kuru darbību izpildāt. Meklēšanas lodziņā ierakstiet procesa nosaukumu un pēc tam noklikšķiniet uz **Meklēt**.
-
+> Palīdzība programmās Retail Modern POS un Cloud POS nevar parādīt uzdevumu ceļvežus, ņemot vērā, kuru veidlapu pašlaik atvērāt vai kuru darbību izpildāt. Meklēšanas lodziņā ierakstiet procesa nosaukumu un pēc tam noklikšķiniet uz **Meklēt**.

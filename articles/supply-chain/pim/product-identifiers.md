@@ -1,49 +1,48 @@
 ---
-title: "Preču identifikatori"
-description: "Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem."
+title: Preču identifikatori
+description: Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335420"
 ---
-
 # <a name="product-identifiers"></a>Preču identifikatori 
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
 
-Kad strādājat ar ražotnē vai noliktavā esošajām precēm programmatūrā Microsoft Dynamics ERP vai Microsoft Dynamics CRM, ir vajadzīga efektīva šo preču un preču variantu identificēšanas metode.
+Strādājot ar ražotnē vai noliktavā esošajām precēm programmā Microsoft Dynamics ERP vai Microsoft Dynamics CRM, ir vajadzīga efektīva šo preču un preču variantu identificēšanas stratēģija.
 
 ## <a name="unique-product-numberproduct-id"></a>Unikāls preces numurs/preces ID
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations galvenais preces identifikators ir preces numurs (unikālais preces ID). Šo numuru var automātiski ģenerēt, izmantojot numuru sēriju, vai manuāli saistīt ar preci. Preču variantu numurus var definēt, izmantojot preču nomenklatūras veidni.
+Programmā Microsoft Dynamics 365 for Finance and Operations preces galvenais identifikators ir preces numurs (unikālais preces ID). Šo numuru var automātiski ģenerēt, izmantojot numuru sēriju, vai manuāli saistīt ar preci. Preču variantu numurus var definēt, izmantojot preču nomenklatūras veidni.
 
 Bieži vien preces numurs nav sākotnēji izveidots programmatūrā Finance and Operations. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam programmatūrā Finance and Operations visu darbību veikšanai tiek izmantoti numuri.
 
 Ieviešot Finance and Operations, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
 
-Ja lietojat pakalpojumu Common Data Service (CDS), programmatūrā Finance and Operations lietotais preces numurs tiek izmantots arī pakalpojumā CDS. Preču varianti tiek sinhronizēti ar pakalpojumu CDS kā atšķirīgas preces.
+Ja lietojat pakalpojumu Common Data Service (CDS), programmā Finance and Operations lietotais preces numurs tiek izmantots arī pakalpojumā CDS. Preču varianti tiek sinhronizēti ar pakalpojumu CDS kā atšķirīgas preces.
 
 ## <a name="item-number-and-product-dimensions"></a>Krājuma numurs un preces dimensijas
 
@@ -186,4 +185,3 @@ Tagad varat izmantot datu elementus **Preces elementa Common Data Service identi
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Preces un preces variantu meklēšana pasūtījuma izveides laikā](search-products-product-variants.md)
-

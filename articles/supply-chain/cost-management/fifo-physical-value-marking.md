@@ -1,13 +1,13 @@
 ---
-title: "FIFO ar fizisko vērtību un iezīmēšanu"
-description: "Pirmie iekšā, pirmie ārā (FIFO) ir krājumu modelis, kur pirmie saņemtie krājumi tiek arī pirmie izdoti. Finansiāli apstrādātie izdotie krājumi tiek nosegti ar pirmajiem finansiāli apstrādātajiem saņemtajiem krājumiem saskaņā ar krājumu darbību finansiālo datumu."
+title: FIFO ar fizisko vērtību un iezīmēšanu
+description: Pirmie iekšā, pirmie ārā (FIFO) ir krājumu modelis, kur pirmie saņemtie krājumi tiek arī pirmie izdoti. Finansiāli apstrādātie izdotie krājumi tiek nosegti ar pirmajiem finansiāli apstrādātajiem saņemtajiem krājumiem saskaņā ar krājumu darbību finansiālo datumu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348829"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ar fizisko vērtību un iezīmēšanu
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Jaunā aprēķinātā vidēja izmaksu cena ietekmē finansiāli atjaunoto darīj
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 - Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Quantity@Unitprice.
 - Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
 - Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
@@ -92,7 +91,7 @@ Ar darījumu 5b tiks nosegta saņemšanas darbība 1b. Šai izdošanas darbībai
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 - Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Quantity@Unitprice.
 - Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
 - Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
@@ -122,14 +121,13 @@ Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atja
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 - Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājumu transakcijas vērtība šādā formātā: Quantity@Unitprice.
+- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Quantity@Unitprice.
 - Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
 - Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
 - Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
-
 
 
 

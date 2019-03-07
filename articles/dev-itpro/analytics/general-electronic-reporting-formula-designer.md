@@ -1,13 +1,13 @@
 ---
-title: "Formulas veidotājs elektronisko pārskatu veidošanā (ER)"
-description: "Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju."
+title: Formulas veidotājs elektronisko pārskatu veidošanā (ER)
+description: Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju.
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331280"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot formulas, lai nodrošinātu atbilstību dokumenta izpildes un formatējuma prasībām. Šīs formulas līdzinās Microsoft Excel formulām. Formulās tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas, datu tipu pārveidošanas un citas (biznesa jomai specifiskas funkcijas).
+Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot formulas, lai nodrošinātu atbilstību dokumenta izpildes un formatējuma prasībām. Šīs formulas līdzinās formulām programmā Microsoft Excel. Formulās tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas, datu tipu pārveidošanas un citas (biznesa jomai specifiskas funkcijas).
 
 ## <a name="formula-designer-overview"></a>Pārskats par formulas veidotāju
 
 ER atbalsta formulas veidotāju. Tāpēc veidošanas laikā varat konfigurēt izteiksmes, kuras var izmantot tālāk norādīto uzdevumu izpildes laikā.
 
-- Pārveidot datus, kuri ir saņemti no programmas Microsoft Dynamics 365 for Finance and Operations datu bāzes un kas ir jāievada ER datu modelī, kuru ir paredzēts lietot kā ER formāta datu avotu. (Šie pārveidojumi var iekļaut, piemēram, filtrēšanu, grupēšanu un datu tipa pārveidošanu.)
+- To datu pārveidošana, kuri ir saņemti no Microsoft Dynamics 365 for Finance and Operations datu bāzes un ir jāievada ER datu modelī, kas ir paredzēts izmantošanai kā datu avots ER formātiem. (Šie pārveidojumi var iekļaut, piemēram, filtrēšanu, grupēšanu un datu tipa pārveidošanu.)
 - Datu formatēšana tādiem datiem, kas ir jāsūta uz ģenerēto elektronisko dokumentu saskaņā ar noteikta ER formāta izkārtojumu un nosacījumiem. (Formatēšanu var veikt, piemēram, saskaņā ar pieprasīto valodu, kultūru vai kodējumu.)
 - Elektronisko dokumentu izveides procesa kontrolēšana. (Piemēram, izteiksmes var iespējot vai atspējot noteiktu formāta elementu izvadi atkarībā no datu apstrādes. Tās var arī pārtraukt dokumenta izveides procesu vai sūtīt ziņojumus lietotājiem.)
 
@@ -692,7 +691,7 @@ Kad šie datu avoti ir definēti, varat izmantot tādu izteiksmi kā <strong>FIL
 <tr>
 <td>JSONVALUE (identifikators, ceļš)</td>
 <td>Parsēt datus formātā JavaScript Object Notation (JSON), kuriem piekļūst ar norādīto ceļu, lai izgūtu skalāru vērtību, kas ir balstīta uz norādīto ID.</td>
-<td>Datu avotā <strong>$JsonField</strong> ir šādi dati JSON formātā: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Šim datu avotam funkcija </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> atgriež vērtību <strong>7.3.1234.1</strong> ar datu tipu <strong>String</strong>.</td>
+<td>Datu avotā <strong>$JsonField</strong> ir ietverti tālāk norādītie dati JSON formātā: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Šim datu avotam funkcija </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> atgriež vērtību <strong>7.3.1234.1</strong> ar datu tipu <strong>String</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -743,4 +742,3 @@ ER jums ļauj paplašināt funkciju sarakstu, kuras tiek lietotas ER izteiksmēs
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [Paplašināt elektronisko pārskatu veidošanas (ER) funkciju sarakstu](general-electronic-reporting-formulas-list-extension.md)
-

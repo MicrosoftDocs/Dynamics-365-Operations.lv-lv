@@ -1,13 +1,13 @@
 ---
-title: "Izmaksu pārvaldības parametri"
-description: "Tālāk norādītie parametri kontrolē darbvietas Izdevumu pārvaldība darbību."
+title: Izmaksu pārvaldības parametri
+description: Tālāk norādītie parametri kontrolē darbvietas Izdevumu pārvaldība darbību.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355936"
 ---
-
 # <a name="expense-management-parameters"></a>Izmaksu pārvaldības parametri
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ ms.lasthandoff: 04/13/2018
 |  <strong>Rādīt korupcijas novēršanas pārbaudi</strong>  | Atlasiet šo opciju, lai rādītu korupcijas novēršanas tekstu, veidojot jaunu izdevumu pārskatu. Pēc tam var iespējot noteiktas izdevumu kategorijas, kas prasīs izdevumu pārskatā atlasīt korupcijas novēršanas pārbaudi. Piemēram, dāvanu kategorija, kas saistīta ar valsts amatpersonas izdevumiem, var prasīt darbiniekam apstiprināt, ka izdevumi atbilst uzņēmuma politikai attiecībā uz valsts amatpersonām. |
 | <strong>Ziņojums iesniedzējam saistībā ar korupcijas novēršanu</strong> |                                                                                             Ievadiet tekstu, kas tiks parādīts darbiniekam, kad viņš veidos jaunu izdevumu pārskatu. Noklikšķiniet uz pogas <strong>Tulkojumi</strong>, lai ievadītu valodai specifisku tekstu, kas tiks parādīts atbilstoši lietotāja valodai.                                                                                             |
 | <strong>Ziņojums apstiprinātājam saistībā ar korupcijas novēršanu</strong>  |                                                                                             Ievadiet tekstu, kas tiks parādīts apstiprinātājam, kad viņš veidos jaunu izdevumu pārskatu. Noklikšķiniet uz pogas <strong>Tulkojumi</strong>, lai ievadītu valodai specifisku tekstu, kas tiks parādīts atbilstoši lietotāja valodai.                                                                                             |
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)"
-description: "Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
+title: Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)
+description: Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,32 +17,31 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341354"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka. 
+Šajā rakstā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka. 
 
-## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX (2016. gada maija visu valdu laidienā) ietvertie uzdevumu ceļveži
+## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs — visas valodas)
 
-APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu ceļveži, kurus ir paredzēts izmantot kā palīdzības materiālus kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada maijs) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 > [!NOTE]
-> Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics AX 2016. gada maija atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Dynamics AX versijās.
+> Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics AX 2016. gada maija atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Microsoft Dynamics AX versijās.
 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
 | BPM rinda                                                                 | Valsts/reģions                    |
 |--------------------------------------------------------------------------|-----------------------------------|
-| OIOBL elektronisko rēķinu izrakstīšanas iestatīšana                                       | Dānija                           |
+| OIOUBL elektronisko rēķinu izrakstīšanas iestatīšana                                       | Dānija                           |
 | EUR-00002 Ģenerēt ES Intrastat deklarāciju                           | Eiropa                            |
 | EUR-00002 Pārsūtīt transakcijas uz Intrastat                         | Eiropa                            |
 | FR-00004 Atjaunināt debitora maksāšanas metodi                            | Eiropa                            |
@@ -195,4 +194,3 @@ APQC vienotajā bibliotēkā (2016. gada maija laidienā) ir ietverti uzdevumu
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
-

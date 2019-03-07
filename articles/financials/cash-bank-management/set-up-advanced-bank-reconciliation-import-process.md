@@ -1,13 +1,13 @@
 ---
-title: "Iestatīt detalizētās bankas darbību saskaņošanas importa procesu"
-description: "Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem."
+title: Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
+description: Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a04517de6e7695cd27bbc6e6a825e1ccaac7306
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334569"
 ---
-
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
 
 [!include [banner](../includes/banner.md)]
 
-Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
+Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. 
 
 Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Finance and Operations atbalsta trīs bankas izraksta formātus: ISO20022, MT940 un BAI2.
 
 ## <a name="sample-files"></a>Parauga faili
-Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izrakstu no sākotnējā formāta pārveido formātā, kuru var izmantot Finance and Operations. Nepieciešamie resursu faili ir atrodami Microsoft Visual Studio programmu pārlūka zarā **Resursi**. Kad faili ir atrasti, kopējiet tos uz vienu zināmu vietu, lai iestatīšanas procesa laikā tos varētu ērti augšupielādēt.
+Visiem trim formātiem jums ir nepieciešami faili, kas elektronisko bankas izrakstu no sākotnējā formāta pārveido formātā, kuru var izmantot Finance and Operations. Nepieciešamie resursu faili ir pieejami Microsoft Visual Studio lietojumprogrammu pārlūka mezglā **Resursi**. Kad faili ir atrasti, kopējiet tos uz vienu zināmu vietu, lai iestatīšanas procesa laikā tos varētu ērti augšupielādēt.
 
 | Resursa nosaukums                                           | Faila nosaukums                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -176,7 +175,6 @@ Visbeidzot ir jāpārbauda, vai varat importēt savu bankas izrakstu.
 8.  Noklikšķiniet uz **Labi**.
 
 Ja importēšana notika sekmīgi, jūs saņemat ziņojumu, ka jūsu izraksts tika importēts. Ja importēšana nebija sekmīga, darbvietas **Datu pārvaldība** sadaļā **Darbu vēsture** atrodiet šo darbu. Noklikšķiniet uz **Detalizēta informācija par izpildi** šim darbam, lai atvērtu lapu **Izpildes kopsavilkums**, un pēc tam noklikšķiniet uz **Skatīt izpildes žurnālu**, lai skatītu importēšanas kļūdas.
-
 
 
 

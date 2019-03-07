@@ -1,13 +1,13 @@
 ---
-title: "Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos"
-description: "Šajā tēmā aprakstīta izteiksmes ierobežojumu un tabulas ierobežojumu lietošana. Ierobežojumi, lai kontrolē atribūta vērtības, ko varat atlasīt, kad konfigurējat preces pārdošanas piedāvājumam, pirkšanas pasūtījumam vai ražošanas pasūtījumam. Var izmantot izteiksmes ierobežojumus vai tabulas ierobežojumus, atkarībā no tā, kā vēlaties veidot ierobežojumus."
+title: Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos
+description: Šajā tēmā aprakstīta izteiksmes ierobežojumu un tabulas ierobežojumu lietošana. Ierobežojumi, lai kontrolē atribūta vērtības, ko varat atlasīt, kad konfigurējat preces pārdošanas piedāvājumam, pirkšanas pasūtījumam vai ražošanas pasūtījumam. Var izmantot izteiksmes ierobežojumus vai tabulas ierobežojumus, atkarībā no tā, kā vēlaties veidot ierobežojumus.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356649"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 </tr>
 <tr class="even">
 <td>Power</td>
-<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas ir asociatīvs ar labo pusi.) Tādēļ <strong>Power[a, b, c]</strong> ir ekvivalents ar <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
+<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas ir labēji asociatīvs.) Tāpēc izteiksme <strong>Power[a, b, c]</strong> ir vienāda ar izteiksmi <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operators:</strong> Power[x, 2] == y</li>
@@ -223,7 +222,7 @@ Piemēri nākamajā tabulā parada, kā rakstīt infiksālo pieraksti.
 |        (x)        |                           Iekavas ignorē noklusējuma prioritāti.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kāpēc mani izteiksmes ierobežojumi nevalidējas pareizi?
-Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Tālāk ir saraksts ar rezervētajiem atslēgvārdiem, kurus jūs nevarat izmantot.
+Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Tālāk ir sniegts to rezervēto atslēgvārdu saraksts, kurus nevarat izmantot.
 
 -   Ceiling
 -   Element
@@ -252,7 +251,6 @@ Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribū
 [Izteiksmes ierobežojuma izveidošana (uzdevuma ceļvedis)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Aprēķina pievienošana preces konfigurācijas modelim (uzdevuma ceļvedis)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

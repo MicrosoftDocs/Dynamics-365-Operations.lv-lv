@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru sadarbība ar ārējiem kreditoriem"
-description: "Šajā tēmā ir paskaidrots, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem."
+title: Kreditoru sadarbība ar ārējiem kreditoriem
+description: Šajā tēmā ir paskaidrots, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350025"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Kreditoru sadarbība ar ārējiem kreditoriem
 
 [!include [banner](../includes/banner.md)]
 
-Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (electronic data interchange — EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
+Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
 
 Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Finance and Operations versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
+> Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Finance and Operations versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -94,7 +93,7 @@ Nākamajā tabulā ir parādīta tipiska informācijas apmaiņa atkarībā no kr
 <tbody>
 <tr class="even">
 <td>Kreditors <strong>pieņem</strong> pasūtījumu, un programmatūra Finance and Operations ir konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
-<td>Pasūtījuma statuss tiek atjaunināts uz <strong>Akceptēts</strong>. Ja kaut kādu iemeslu dēļ šo pasūtījumu nevar atjaunināt, kreditora atbilde joprojām tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. 
+<td>Pasūtījuma statuss tiek atjaunināts uz <strong>Akceptēts</strong>. Ja kaut kādu iemeslu dēļ pasūtījumu nevar atjaunināt, kreditora atbilde joprojām tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. 
 
 Kreditoram nosūtītais pirkšanas pasūtījums, kura statuss ir <strong>Tiek pārskatīts ārēji</strong>, tiek atjaunināts ar akceptētajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiek automātiski iestatīta uz statusu <strong>Akceptēts</strong>. Kad pirkšanas pasūtījums ir akceptēts, tas tiek rādīts kreditoru sadarbības interfeisā.</td>
 </tr>
@@ -260,4 +259,3 @@ Lietotājs, kurš iestata piedāvājuma pieprasījuma procesa parametrus, var iz
 - %createddate%
 
 Ja ir neieciešams kāds grozījums, un tas tiek nosūtīts pēc piedāvājuma pieprasījuma nosūtīšanas, šis piedāvājuma pieprasījums tiek atkārtoti nosūtīts visiem uzaicinātajiem kreditoriem. Publicētais dokuments tiek arī atjaunināts lapā **Atvērtie publicētie piedāvājumu pieprasījumi**.
-

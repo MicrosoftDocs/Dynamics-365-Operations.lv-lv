@@ -1,13 +1,13 @@
 ---
-title: "Sagādes un avotu sākumlapa"
-description: "Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami sagādes un avotu modulī."
+title: Sagādes un avotu sākumlapa
+description: Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami sagādes un avotu modulī.
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338594"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
 [!include [banner](../includes/banner.md)]
@@ -58,9 +57,9 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md)
 -   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniskais dokuments)
 -   [Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbību](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md)  (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijas)
+-   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md) (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijās)
 -   [Kreditoru portāla lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
--   [Mobilā darbvieta Kreditoru sadarbība Microsoft Dynamics 365 for Finance and Operations programmai](vendor-collaboration-mobile-workspace.md)
+-   [Mobilā darbvieta Kreditoru sadarbība programmai Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Sagādes preču pārvaldība
 -   [Sagādes katalogi](procurement-catalogs.md)
@@ -102,7 +101,6 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (tehniskais apraksts)
 -   [Pirkšanas ierobežojumi](purchase-policies.md)
 -   [Pirkšanas ierobežojumu izveide](tasks/create-purchasing-policies.md)
-
 
 
 

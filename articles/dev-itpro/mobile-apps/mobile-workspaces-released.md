@@ -1,13 +1,13 @@
 ---
-title: "Pieejamās mobilās darbvietas"
-description: "Šajā tēmā ir uzskaitītas lietošanai pieejamās mobilās darbvietas."
+title: Pieejamās mobilās darbvietas
+description: Šajā tēmā ir uzskaitītas lietošanai pieejamās mobilās darbvietas.
 author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354970"
 ---
-
 # <a name="available-mobile-workspaces"></a>Pieejamās mobilās darbvietas
 
 [!include [banner](../includes/banner.md)]
@@ -30,9 +29,9 @@ ms.lasthandoff: 08/09/2018
 Šajā tēmā ir uzskaitītas mobilās darbvietas, kuras ir pieejamas lietošanai Dynamics 365 for Unified Operations mobilajā programmā.
 
 > [!NOTE]
-> Iepriekš šīs mobilās programmas nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.
+> Mobilās programmas iepriekšējais nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.
 
-| Mobilā darbvieta     | Apraksts   | Pieejamība   |
+| Mobilā darbvieta     | apraksts   | Pieejamība   |
 |----------------------|---------------|--------------|
 |[Uzņēmuma direktorijs](company-directory-mobile-workspace.md)| Sniedz iespēju skatīt informāciju par citiem organizācijas darbiniekiem un ar viņiem sazināties.| 2017. jūnijs |    
 |[Mana darba grupa](manager-self-service-mobile-workspace.md)| Varat skatīt savus tiešos pārskatus un paplašinātos darbiniekus, kā arī sūtīt uzslavas personām viņu pārskatu ķēdē.|2017. jūnijs |     
@@ -44,5 +43,4 @@ ms.lasthandoff: 08/09/2018
 | [Rīcībā esošie krājumi](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Gūstiet ieskatu par rezervētajiem un pieejamajiem krājumiem.                                                                                                    |   2017. janvāris       |
 | [Pārdošanas pasūtījumi](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Skatiet aktuālāko informāciju par pārdošanas pasūtījumiem.                                                                                                                          |  2017. janvāris                  |
 | [Kreditoru sadarbība](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Sniedz ieskatu kreditoriem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām. |2017. janvāris    |
-
 

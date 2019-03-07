@@ -1,13 +1,13 @@
 ---
-title: "Kreditora sadarbības rēķinu izveides darbvieta"
-description: "Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas."
+title: Kreditora sadarbības rēķinu izveides darbvieta
+description: Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340526"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Kreditora sadarbības rēķinu izveides darbvieta
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
 
-**Kreditora sadarbības rēķinu izveides** darbvietu var izmantot, lai skatītu kreditoru rēķinu informāciju un iesniegtu rēķinus programmatūrā Microsoft Dynamics 365 for Finance and Operations, izmantojot darbplūsmas iespējas.
+Darbvietu **Kreditoru sadarbības rēķinu izveidošana** var izmantot, lai skatītu kreditoru rēķinu informāciju un lai iesniegtu rēķinus programmā Microsoft Dynamics 365 for Finance and Operations, izmantojot darbplūsmas iespējas.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Kreditoru sadarbības rēķinu izveidošanas darbvieta
@@ -60,7 +59,6 @@ Jauna kreditora rēķina izveide no pirkšanas pasūtījuma
 Jūs varat izveidot jaunu kreditora rēķinu, atlasot darbību **Jauns** **Kreditora sadarbības rēķinu izveides** darbvietā. Kreditoram jāsniedz pirkšanas pasūtījuma numurs un rēķina numurs. Pēc noklusējuma visas kreditora pirkšanas pasūtījuma rindas tiek iekļautas rēķinā. Daudzuma un izmaksu informāciju var rediģēt pirms kreditora rēķina iesniegšanas darbplūsmai. Pirms rēķina iesniegšanas jūs varat pievienot failus, piezīmes, attēlus un URL vietrāžus.
 
 Papildinformāciju skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

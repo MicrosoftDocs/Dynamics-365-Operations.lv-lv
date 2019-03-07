@@ -1,13 +1,13 @@
 ---
-title: "Bieži uzdotie jautājumi par adrešu grāmatām"
-description: "Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par adrešu grāmatām programmatūrā Microsoft Dynamics 365 for Finance and Operations."
+title: Bieži uzdotie jautājumi par adrešu grāmatām
+description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem saistībā ar adrešu grāmatām programmā Microsoft Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337812"
 ---
-
 # <a name="address-books-faq"></a>Bieži uzdotie jautājumi par adrešu grāmatām
 
 [!include [banner](../includes/banner.md)]
@@ -68,5 +67,4 @@ Pušu ierakstus varat ievadīt globālajā adrešu grāmatā vai atbilstošajā 
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Vai varu tulkot adreses informāciju pušu ierakstiem?
 
-Varat iestatīt adreses informācijas tulkojumus, lai programmatūrā Microsoft Dynamics 365 for Finance and Operations informācija būtu redzama jūsu lietotāja valodā (sistēmas valodā), bet dokumentos, piemēram, pārdošanas pasūtījumos, būtu redzama citā valodā. Varat ievadīt tulkojumus valstu/reģionu nosaukumiem, adreses nolūkiem un nosaukumu/vārdu secībām. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs izveidojat pārdošanas pasūtījumu kādam debitoram Francijā. Šajā gadījumā programmā debitora ierakstu varat skatīt dāņu valodā, adreses informāciju drukātajā pārdošanas pasūtījumā varat rādīt franču valodā. Kad iestatāt tulkojumus, tulkojums jums ir jāievada katram vienumam sarakstā. Katrs vienums, kam neievadāt tulkojumu, tiks rādīts sistēmas valodā. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs sūtāt dokumentu debitoram Spānijā. Ja adreses informācijai neesat ievadījis tulkojumus Spāņu (ESP), šī informācija tiks rādīta dāņu valodā gan programmā, gan izdrukātajā dokumentā.
-
+Varat iestatīt adreses informācijas tulkojumus tā, lai programmā Microsoft Dynamics 365 for Finance and Operations informācija tiktu rādīta jūsu lietotāja valodā (sistēmas valodā), bet dokumentos, piemēram, pārdošanas pasūtījumos, tā tiktu rādīta citā valodā. Varat ievadīt tulkojumus valstu/reģionu nosaukumiem, adreses nolūkiem un nosaukumu/vārdu secībām. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs izveidojat pārdošanas pasūtījumu kādam debitoram Francijā. Šajā gadījumā programmā debitora ierakstu varat skatīt dāņu valodā, adreses informāciju drukātajā pārdošanas pasūtījumā varat rādīt franču valodā. Kad iestatāt tulkojumus, tulkojums jums ir jāievada katram vienumam sarakstā. Katrs vienums, kam neievadāt tulkojumu, tiks rādīts sistēmas valodā. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs sūtāt dokumentu debitoram Spānijā. Ja adreses informācijai neesat ievadījis tulkojumus Spāņu (ESP), šī informācija tiks rādīta dāņu valodā gan programmā, gan izdrukātajā dokumentā.

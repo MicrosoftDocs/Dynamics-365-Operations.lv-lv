@@ -1,34 +1,33 @@
 ---
-title: "Divkāršā valūta"
-description: "Šajā tēmā ir sniegta informācija par divkāršo valūtu, kad pārskata valūtu izmanto kā otro uzskaites valūtu programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Divkāršā valūta
+description: Šajā tēmā ir sniegta informācija par divkāršo valūtu — gadījumu, kad pārskata valūta tiek izmantota kā otrā uzskaites valūta programmā Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330314"
 ---
-
 # <a name="dual-currency"></a>Divkāršā valūta
 
 [!include [banner](../includes/banner.md)]
 
-Funkcionalitāte, kas tika ieviesta programmas Microsoft Dynamics 365 for Finance and Operations versijā 8.1 (2018. gada oktobris) ļauj pārskata valūtu pielāgot un izmantot kā otro uzskaites valūtu. Šī funkcionalitāte tiek saukta par *divkāršo valūtu*. Divkāršās valūtas izmaiņas nevar izslēgt, izmantojot konfigurācijas atslēgu vai parametru. Tā kā pārskata valūta tiek izmantota kā otrā norēķinu valūta, ir mainīts veids, kādā tiek aprēķināta pārskata valūta grāmatošanas loģikā.
+Funkcionalitāte, kas tika ieviesta Microsoft Dynamics 365 for Finance and Operations versijā 8.1 (2018. gada oktobris), sniedz iespēju mainīt pārskata valūtas pielietojumu un izmantot to kā otro uzskaites valūtu. Šī funkcionalitāte tiek saukta par *divkāršo valūtu*. Divkāršās valūtas izmaiņas nevar izslēgt, izmantojot konfigurācijas atslēgu vai parametru. Tā kā pārskata valūta tiek izmantota kā otrā norēķinu valūta, ir mainīts veids, kādā tiek aprēķināta pārskata valūta grāmatošanas loģikā.
 
 Turklāt dažādi moduļi ir uzlaboti, lai izsekotu, iekļautu pārskatos un izmantotu pārskata valūtu dažādos procesos. Izmaiņas attiecas uz moduļiem **Virsgrāmata**, **Finanšu pārskati**, **Kreditori**, **Debitori**, **Kases un bankas vadība**, un **Pamatlīdzekļi**. Pēc jaunināšanas ir jāveic noteikti soļi attiecībā uz moduļiem Kases un bankas vadība un Pamatlīdzekļi. Tādēļ uzmanīgi izlasiet šīs tēmas attiecīgās sadaļas.
 
@@ -184,4 +183,3 @@ Turklāt nolietojuma procesā ir veiktas būtiskas izmaiņas. Šīm izmaiņām i
     - Ja nolietojuma transakcijas tips ir ievadīts pamatlīdzekļu žurnālā, pārskata valūtas summas tiks parādītas jaunajās kolonnās. Šīs summas var mainīt.
     - Ja uzskaites valūta un pārskata valūtas virsgrāmatā ir vienādas, summas tiks sinhronizētas. Ja maināt summu **Kredīts**, summa **Kredīts pārskata valūtā** tiks automātiski mainīta, lai nodrošinātu savstarpēju atbilstību.
     - Ievadot pamatlīdzekļu žurnālā jebkuru citu transakcijas tipu, summas **Debets pārskata valūtā** un **Kredīts pārskata valūtā** nekad netiek rādītas nedz pirms, nedz pēc grāmatošanas. Uzskaites valūtas un pārskata valūtas summas joprojām ir pieejamas dokumentā, kas tiek grāmatots virsgrāmatā.
-

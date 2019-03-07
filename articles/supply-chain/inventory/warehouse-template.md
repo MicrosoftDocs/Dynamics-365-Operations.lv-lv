@@ -1,32 +1,31 @@
 ---
-title: "Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, izmantojot noliktavas konfigurācijas veidni."
+title: Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
+description: Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, izmantojot noliktavas konfigurācijas veidni.
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338065"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ Varat lejupielādēt zip failu šai datu pakotnei. Šajā failā ir visi dati at
 
 Žurnālā **Skatīt izpildi** ir sniegta detalizēta informācija par katru importēto datu elementu. Varat izmantot sagatavošanas posmu datu skatu, lai ātri nokļūtu pie mērķa datiem. Šādi varat redzēt, kā importētie dati izskatās saistītajās programmas lapās. Kad lietojat noklusējuma datu veidnes, importēšanas secība katram datu elementam darbojas iepriekš definētā veidā, lai palīdzētu nodrošināt, ka visi atkarīgie dati tiek importēti vispirms. Ja daļu no projekta veido pielāgotie datu elementi, jums ir jāpārliecinās, vai ir definēta pareizā secība. Papildinformāciju skatiet šeit: [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigurācijas kopēšanai no viena uzņēmuma uz jaunu uzņēmumu vienas instances ietvaros, noskatieties šo 3 minūšu video pakalpojumā YouTube: [Noliktavas veidnes izmantošana, lai kopētu konfigurāciju, programmā Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigurācijas kopēšanai no viena uzņēmuma uz jaunu uzņēmumu vienas instances ietvaros, noskatieties šo 3 minūšu video pakalpojumā YouTube: [Noliktavas veidnes izmantošana, lai kopētu konfigurāciju, programmā Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs)
 
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md)
-

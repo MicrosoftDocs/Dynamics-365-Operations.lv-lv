@@ -1,13 +1,13 @@
 ---
-title: "Kontu struktūru konfigurēšana"
-description: "Šajā tēmā ir sniegta informācija par kontu struktūrām un finanšu dimensijām."
+title: Kontu struktūru konfigurēšana
+description: Šajā tēmā ir sniegta informācija par kontu struktūrām un finanšu dimensijām.
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351727"
 ---
-
 # <a name="configure-account-structures"></a>Kontu struktūru konfigurēšana
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ Iestatot kontu struktūras, varat ievērot dažas labākās prakses. Taču tās 
 Kad esat apmierināts ar jaunajiem iestatījumiem vai izmaiņām konta struktūrā, tā ir jāaktivizē. Ja konta struktūra ir piešķirta kādai virsgrāmatai, šī aktivizēšana var būt ilgstošs process, jo visas negrāmatotās transakcijas sistēmā ir jāsinhronizē ar jauno struktūru. Konta struktūras izmaiņām nav ietekmes uz grāmatotajām transakcijām.
 
 Papildinformāciju skatiet tēmās [Kontu plānu plānošana](plan-chart-of-accounts.md), [Finanšu dimensijas](financial-dimensions.md) un [Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)](enter-account-dimension-combinations-segmented-entry-control.md).
-

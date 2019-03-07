@@ -1,13 +1,13 @@
 ---
-title: "Atrisināt neatbilstību rēķinu kopsummu saskaņošanas laikā"
-description: "Rēķinu kopsummu salīdzināšanu var izmantot, lai palīdzētu garantēt, ka rēķina kopsummas neatšķiras no paredzētajām summām vairāk par pieņemamo novirzi."
+title: Atrisināt neatbilstību rēķinu kopsummu saskaņošanas laikā
+description: Rēķinu kopsummu salīdzināšanu var izmantot, lai palīdzētu garantēt, ka rēķina kopsummas neatšķiras no paredzētajām summām vairāk par pieņemamo novirzi.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 67aa0b89eed1f82290659029dfcce92ca3710aea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18250a735d0421daa90b923504aeb94b5003a6a7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331510"
 ---
-
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Atrisināt neatbilstību rēķinu kopsummu saskaņošanas laikā
 
 [!include [banner](../includes/banner.md)]
@@ -43,6 +42,5 @@ Kad neatbilstība ir identificēta, var būt nepieciešams sazināties ar kredit
 -   Pieprasīt no kreditora visu kredītu un jaunu, labotu rēķinu.
 
 Plašāku informāciju skatiet šeit: [Izpēte/izņēmumu novēršana](tasks/research-resolve-exceptions.md).
-
 
 

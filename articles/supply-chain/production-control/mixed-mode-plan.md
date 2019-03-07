@@ -1,13 +1,13 @@
 ---
-title: "Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana"
-description: "Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu."
+title: Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana
+description: Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358236"
 ---
-
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Finance and Operations nodrošina materiālu plūsmu atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi). 
+Šajā tēmā ir sniegta informācija par jaukta režīma plānošanu. Jaukta režīma plānošanā savu piegādes ķēdi varat modelēt, pamatojoties uz materiālu plūsmu. Microsoft Dynamics 365 for Finance and Operations nodrošina materiālu plūsmas atbilstību jūsu modeļiem neatkarīgi no atlasītās piegādes politikas (Kanban, ražošanas pasūtījumi, pirkšanas pasūtījumi, partijas pasūtījumi vai pārsūtīšanas pasūtījumi). 
 
 Varat atlasīt vispārējo stratēģiju preces piegādei, neatkarīgi no preces struktūras.  
 
@@ -67,7 +66,6 @@ Darbam, kas nav atkarīgs no piedāvājuma politikas, nav jāmaina informācija 
 
 ## <a name="process-manufacturing--the-production-type"></a>Ražošanas process — ražošanas veids
 Lai nodrošinātu pilnīgu pielāgojamību jauktajā režīmā, ir ieteicams visām precēm lietot ražošanas veida MK. Šādā gadījumā preces piedāvājuma nodrošināšanai varat izmantot ražošanas pasūtījumus, Kanban, pārsūtīšanas pasūtījumus vai pirkšanas pasūtījumus. Ražošanas procesam ir jāizmanto ražošanas veids **Formula**, **Līdzprodukts**, **Blakusprodukts** vai **Plānošanas krājums**. Šiem ražošanas veidiem nevar izmantot Kanban un ražošanas pasūtījumus.
-
 
 
 

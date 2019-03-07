@@ -1,40 +1,39 @@
 ---
-title: "Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas"
-description: "Šajā tēmā ir sniegta detalizēta informācija par pārdošanas punkta (POS) operācijām programmā Microsoft Dynamics 365 for Retail. Tajā ir norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā."
+title: Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
+description: Šajā tēmā ir sniegta detalizēta informācija par pārdošanas punkta (POS) operācijām programmā Microsoft Dynamics 365 for Retail. Tajā ir norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353820"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
 [!include [banner](includes/banner.md)]
 
-Vairums darbību, ko lietotājs veic pārdošanas punktā (POS), tiek uzskatītas par operācijām. Operācijas var konfigurēt un pārvaldīt programmas Microsoft Dynamics 365 for Retail operāciju uzskaites daļā. Daudzas operācijas var pievienot pogām, kas ir ietvertas POS pogu režģī. Pēc tam lietotāji var atlasīt pogas, lai izsauktu attiecīgās operācijas un veiktu ar tām saistītās funkcijas. Citas operācijas ir ietvertas galvenajā POS programmā, un tās var izsaukt, izmantojot ekrānā redzamās pogas vai arī citu darbplūsmu vai procesu ietvaros.
+Vairums darbību, ko lietotājs veic pārdošanas punktā (POS), tiek uzskatītas par operācijām. Operācijas tiek konfigurēts un pārvaldītas Microsoft Dynamics 365 for Retail operāciju uzskaites daļā. Daudzas operācijas var pievienot pogām, kas ir ietvertas POS pogu režģī. Pēc tam lietotāji var atlasīt pogas, lai izsauktu attiecīgās operācijas un veiktu ar tām saistītās funkcijas. Citas operācijas ir ietvertas galvenajā POS programmā, un tās var izsaukt, izmantojot ekrānā redzamās pogas vai arī citu darbplūsmu vai procesu ietvaros.
 
-Tālāk esošajā tabulā ir sniegta detalizēta informācija par Dynamics 365 for Retail paredzētajās programmās Retail Modern POS un Cloud POS pieejamajām operācijām. Tabulā ir arī norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā.
+Tālāk esošajā tabulā ir sniegta detalizēta informācija par operācijām, kas ir pieejamas Dynamics 365 for Retail programmās Retail Modern POSun Cloud POS. Tabulā ir arī norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā.
 
-Dažas operācijas pašlaik nav pieejamas Dynamics 365 for Retail paredzētajā programmā Retail Modern POS vai Cloud POS. Dažas no šīm operācijām ir lokalizācijai raksturīgas operācijas, kam ir nepieciešami papildu paplašinājumi un konfigurācija. Dažas ir programmatūras Microsoft Dynamics AX 2012 līdzekļi, kas pašlaik netiek atbalstīti.
+Dažas operācijas pašlaik nav pieejamas Dynamics 365 for Retail programmā Retail Modern POS vai Cloud POS. Dažas no šīm operācijām ir lokalizācijai raksturīgas operācijas, kam ir nepieciešami papildu paplašinājumi un konfigurācija. Citas ir Microsoft Dynamics AX 2012 līdzekļi, kas pašlaik netiek atbalstīti.
 
 Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operācijas.
 
@@ -43,7 +42,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 - **Sveiciena ekrāns** — operācijas var izsaukt, izmantojot POS pogu režģus, kas ir konfigurēti POS sveiciena ekrānā.
 
 > [!NOTE]
-> Tālāk norādītās darbības attiecas uz Dynamics 365 for Retail jaunāko versiju. Dažas darbības var atšķirties vai nebūt pieejamas iepriekšējās versijās.
+> Tālāk norādītās operācijas attiecas uz jaunāko Dynamics 365 for Retail versiju. Dažas darbības var atšķirties vai nebūt pieejamas iepriekšējās versijās.
 
 | ID | Operācija | apraksts | Pogu režģis | Transakciju ekrāns | Sveiciena ekrāns | Pieejama bezsaistē | Lokalizācijai raksturīga |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -199,4 +198,3 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 § Ja POS ir bezsaistē, atgriešanai var atsaukt tikai pašreizējā bezsaistes datu bāzē saglabātās transakcijas.
 
 \*\* Ja POS ir bezsaistē, žurnālā tiek rādītas tikai pašreizējā bezsaistes kanāla datu bāzē saglabātās transakcijas.
-

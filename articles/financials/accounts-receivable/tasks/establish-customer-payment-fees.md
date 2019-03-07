@@ -1,13 +1,13 @@
---- 
-title: "Debitoru maksājumu papildu maksu izveide"
-description: "Izveidojiet maksāšanas papildmaksas debitoru maksājumiem."
+---
+title: Debitoru maksājumu papildu maksu izveide
+description: Izveidojiet maksāšanas papildmaksas debitoru maksājumiem.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5acb202d46ef39376a01ca592f60926786d11186
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 659f4560747cea73c61a9b748a980946ca252bd6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354832"
 ---
 # <a name="establish-customer-payment-fees"></a>Debitoru maksājumu papildu maksu izveide
 
@@ -60,5 +60,4 @@ Izveidojiet maksāšanas papildmaksas debitoru maksājumiem.
 18. Atlasiet papildmaksas valūtu laukā Papildmaksas valūta.
     * Šī ir valūta, kurā tiks izveidota papildmaksa.  
 19. Noklikšķiniet uz Saglabāt.
-
 

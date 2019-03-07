@@ -1,32 +1,31 @@
 ---
-title: "Krājumu drošības rezerves izpilde"
-description: "Šajā tēmā ir apskatīta krājumu drošības rezerves izpilde un veids, kā iestatīt drošības rezervi krājumiem."
+title: Krājumu drošības rezerves izpilde
+description: Šajā tēmā ir apskatīta krājumu drošības rezerves izpilde un veids, kā iestatīt drošības rezervi krājumiem.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341538"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Krājumu drošības rezerves izpilde
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ Krājumu drošības rezerves prasības transakcijas izpildes prioritāte tiek sa
 Vispārējās plānošanas segšanas posmā krājumu drošības rezerves papildināšanai vairs netiek samazināta prioritāte. Rīcībā esošos krājumus var izmantot pirms visiem pārējiem pieprasījuma veidiem. Aizkaves aprēķināšanas laikā tiks pievienota jauna loģika, pārskatot aizkavētās pārdošanas rindas, MK rindu prasības un visus citus pieprasījuma veidus, lai noteiktu, vai tos varētu piegādāt laikā, ja vien tiktu izmantota krājumu drošības rezerve. Ja sistēma konstatē, ka tā var samazināt aizkaves, izmantojot krājumu drošības rezervi, tad pārdošanas rindās vai MK rindās to sākotnējā vajadzība tiks aizstāta ar krājumu drošības rezervi, un tās vietā sistēma aktivizēs krājumu drošības rezerves papildināšanu.
 
 Ja plāns vai krājums nav iestatīts aizkavētajam aprēķinam, krājumu drošības rezerves ierobežojumam ir tāda pati prioritāte kā visiem citiem pieprasījuma veidiem. Tas nozīmē, ka rīcībā esošo un citu pieejamo krājumu rezerve ir pirms citiem pieprasījuma veidiem.
-

@@ -1,13 +1,13 @@
 ---
-title: "Ražotā krājuma konstanto izmaksu amortizācija"
-description: "Ražota krājuma konstantas izmaksas atspoguļo operāciju iestatījumu laikus un komponentus ar konstantu daudzumu vai konstantu brāķa apjomu."
+title: Ražotā krājuma konstanto izmaksu amortizācija
+description: Ražota krājuma konstantas izmaksas atspoguļo operāciju iestatījumu laikus un komponentus ar konstantu daudzumu vai konstantu brāķa apjomu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329463"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Ražotā krājuma konstanto izmaksu amortizācija
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ Ražota krājuma uzskaites laidiena apjoma daudzums tiek izmantots materiālu ko
 -   Noteikts aprēķinu daudzums pasūtījumam noteiktā MK aprēķinā − Pasūtījumam noteiktu MK aprēķinu var veikt līnijas krājumam pārdošanas pasūtījumā, pārdošanas pieprasījumā vai pakalpojuma pasūtījumā. Noteiktais aprēķinu daudzums izmanto sākotnējā rindas elementa daudzumu, bet noklusējuma daudzumu var pārlabot. Jūs varat atlasīt, vai pasūtījumam noteiktais MK aprēķins izmanto pasūtījuma veikšanas vai daudzlīmeņu izvēršanas režīmu.
 
 Ražoto krājumu amortizēto konstanto izmaksu aprēķinātais apjoms ir nosaukts par maksām.
-
 
 
 

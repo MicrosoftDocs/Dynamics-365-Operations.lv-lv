@@ -1,14 +1,14 @@
 ---
-title: "Pievienot finanšu dimensijas CFO darbvietai"
-description: "Šajā tēmā izskaidrots, kā CFO darbvietai pievienot finanšu dimensijas, lai tās varētu izmantot virsgrāmatas un budžeta pārskatos."
+title: Pievienot finanšu dimensijas CFO darbvietai
+description: Šajā tēmā izskaidrots, kā CFO darbvietai pievienot finanšu dimensijas, lai tās varētu izmantot virsgrāmatas un budžeta pārskatos.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332683"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Pievienot finanšu dimensijas CFO darbvietai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā finanšu direktora (CFO) darbvietai pievienot finanšu dimensijas, lai tās varētu izmantot virsgrāmatas un budžeta pārskatos. CFO darbvietā ir cilne **Apskats** un cilne **Finanšu**. Abās šajās cilnēs pieejamos pārskatus nodrošina divi mēri: LedgerActivityMeasure un BudgetActivityMeasure. Programmatūrā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs) pastāv relācija starp šiem diviem mēriem un elementu DimensionCombinationEntity. Tādējādi var atlasīt dimensijas.
+Šajā tēmā izskaidrots, kā finanšu direktora (CFO) darbvietai pievienot finanšu dimensijas, lai tās varētu izmantot virsgrāmatas un budžeta pārskatos. CFO darbvietā ir cilne **Apskats** un cilne **Finanšu**. Abās šajās cilnēs pieejamos pārskatus nodrošina divi mēri: LedgerActivityMeasure un BudgetActivityMeasure. Programmas Microsoft Dynamics 365 for Finance and Operations izdevumā Enterprise Edition (2017. gada jūlijs) pastāv relācija starp šiem diviem mēriem un elementu DimensionCombinationEntity. Tādējādi var atlasīt dimensijas.
 
 1. Finance and Operations lapā **Elementu krātuve** atjauniniet **LedgerActivityMeasure** un **BudgetActivityMeasure** mērus.
-2. Microsoft Visual Studio atveriet programmu Lietojumprogrammas pārlūks un meklējiet **LedgerCFO**.
+2. Programmā Microsoft Visual Studio atveriet lietojumprogrammu pārlūku un meklējiet **LedgerCFO**.
 3. Sadaļā **Resursi** atveriet **LedgerCFOWorkspacePBIX**.
-4. Kad resurss tiek atvērts Microsoft Power BI darbvirsmā, atlasiet **Iegūt datus**, atlasiet **SQL Server datu bāze** un pēc tam atlasiet **Izveidot savienojumu**.
+4. Kad resurss tiek atvērts Microsoft Power BI darbvirsmā, atlasiet vienumu **Iegūt datus**, vienumu **SQL Server datu bāze** un pēc tam vienumu **Izveidot savienojumu**.
 5. Ievadiet servera nosaukumu un ievadiet **AxDW** kā datu bāzi. Atlasiet **DirectQuery** un pēc tam **Labi**.
 6. Meklējiet un atlasiet **LedgerActivityMeasure\_DimensionCombination** un pēc tam atlasiet **Ielādēt**.
 
@@ -57,4 +56,3 @@ ms.lasthandoff: 11/03/2017
 16. Izveidojiet projektu un pēc tam atveriet lietojumprogrammu, lai skatītu rezultātus.
 
     [![Izpildīta darbvieta](./media/workspace.png)](./media/workspace.png)
-

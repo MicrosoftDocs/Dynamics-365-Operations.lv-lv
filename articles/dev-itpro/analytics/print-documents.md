@@ -1,13 +1,13 @@
 ---
-title: "Dokumentu drukāšana"
-description: "Programmatūrā Microsoft Dynamics 365 for Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti."
+title: Dokumentu drukāšana
+description: Programmā Microsoft Dynamics 365 for Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362054"
 ---
-
 # <a name="document-printing"></a>Dokumentu drukāšana
 
 [!include [banner](../includes/banner.md)]
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.
+Programmā Microsoft Dynamics 365 for Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.
 
 ## <a name="printing-overview"></a>Drukāšanas apskats
 
-Programmatūra Microsoft Dynamics 365 for Finance and Operations nodrošina integrētus pakalpojumus un klienta programmas, kas ļauj ērti ģenerēt, glabāt un izplatīt dokumentus, kuri atbalsta biznesa aktivitātes. Programmatūrā Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Turklāt Finance and Operations lapas un pārskatus varat eksportēt tieši no klienta PDF failu vai Microsoft Office dokumentu veidā. Visbeidzot, sadalītā noslodze jums ļauj drukāt biznesa dokumentus tieši no mobilās ierīces, izmantojot tīkla resursus. Lai gan drukāšanas prasības var būt dažādas, visām nozarēm parasti ir jāizveido izdrukātās biznesa dokumentu kopijas, izmantojot programmatūru Finance and Operations. Dokumentu drukāšana tīkla ierīcēs no viesotām programmām rada virkni unikālu problēmu. Daži piemēri:
+Microsoft Dynamics 365 for Finance and Operations nodrošina integrētus pakalpojumus un klienta lietojumprogrammas, kas sniedz iespēju viegli ģenerēt, glabāt un izplatīt dokumentus, kuri atbalsta biznesa aktivitāti. Programmatūrā Finance and Operations varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Turklāt klientā varat tiešā veidā eksportēt Finance and Operations lapas un pārskatus PDF failu vai Microsoft Office dokumentu formātā. Visbeidzot, sadalītā noslodze jums ļauj drukāt biznesa dokumentus tieši no mobilās ierīces, izmantojot tīkla resursus. Lai gan drukāšanas prasības var būt dažādas, visām nozarēm parasti ir jāizveido izdrukātās biznesa dokumentu kopijas, izmantojot programmatūru Finance and Operations. Dokumentu drukāšana tīkla ierīcēs no viesotām programmām rada virkni unikālu problēmu. Daži piemēri:
 
 - Lietotāja ierīcē var nebūt pieejami drukas draiveri.
 - Lietotāja ierīce var nebūt savienota ar uzņēmuma tīklu.
@@ -53,8 +52,8 @@ Nākamajā tabulā ir aprakstīti trīs primārie drukāšanas scenāriji Financ
 Tā kā atkarībā no scenārija risinājumi ir dažādi, Finance and Operations programmas nodrošina tālāk aprakstītos iebūvētos pakalpojumus un rīkus, lai palīdzētu lietotājiem sasniegt savus mērķus.
 
 - **1. scenārijs** tiek atbalstīts pārlūkprogrammas HTML5 klienta renderēšanā.
-- **2. scenārijs** izmanto klienta programmas un Microsoft Office 365 pakalpojumus.
-- **3. scenārijam** ir nepieciešams atbalsts no klienta programmām un no pakalpojumiem, kas tiek viesoti pakalpojumā Microsoft Azure.
+- **2. scenārija** ietvaros tiks izmantotas klienta lietojumprogrammas un Microsoft Office 365 pakalpojumi.
+- **3. scenārijam** ir nepieciešams pakalpojumā Microsoft Azure viesoto pakalpojumu un klienta lietojumprogrammu atbalsts.
 
 Papildus platformai, kas tiek izvietota Azure abonementā, Finance and Operations programmas debitoriem nodrošina integrētu, pirmās puses Azure programmu, kas viņiem palīdz dokumentu drukāšanai vienkāršāk izmantot domēnā viesotas ierīces.
 
@@ -63,7 +62,7 @@ Kamēr viesoto programmu izveidotie dokumenti gaida izdrukāšanu tīklam pievie
 
 **Izpildes secība**
 
-1. Pārskats tiek ģenerēts ar Microsoft SQL Server Reporting Services (SSRS), un tas tiek glabāts Azure BLOB krātuvē. Pievienotie printera iestatījumi tiek glabāti kopā ar dokumentu.
+1. Pakalpojumā Microsoft SQL Server Reporting Services (SSRS) tiek ģenerēts pārskats, un tas tiek saglabāts Azure BLOB krātuvē. Pievienotie printera iestatījumi tiek glabāti kopā ar dokumentu.
 2. Dokumentu maršrutēšanas aģents veic vaicājumus par aktīviem darbiem Azure Service Bus rindā.
 3. Dokumentu maršrutēšanas aģents šo dokumentu lejupielādē un spolē uz tīkla printeri.
 
@@ -76,4 +75,3 @@ Nākamajā diagrammā ir redzami pamata komponenti, kas palīdz atbalstīt tīkl
 [![pakalpojuma-komponenti-drukāšanai-tīklā\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Ņemiet vērā, ka vienu printeri var reģistrēt vairākiem dokumentu maršrutēšanas aģentiem. Lai atrisinātu printera preferences, viesotais pakalpojums izmanto tīkla ceļu, kas unikāli identificē katru tīkla printeri. Līdz ar to pat gadījumos, kad printeris ir reģistrēts vairākiem klientiem, Finance and Operations programmu pieejamo printeru sarakstā tas tiek rādīts kā viena atlase.
-
