@@ -1,13 +1,13 @@
 ---
-title: "Pārdošanas pasūtījumu mobilā darbvieta"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Pārdošanas pasūtījumi. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā."
+title: Pārdošanas pasūtījumu mobilā darbvieta
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Pārdošanas pasūtījumi. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,129 +18,127 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365067"
 ---
-
-# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="629f4-104">Pārdošanas pasūtījumu mobilā darbvieta</span><span class="sxs-lookup"><span data-stu-id="629f4-104">Sales orders mobile workspace</span></span>
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="901a1-104">Pārdošanas pasūtījumu mobilā darbvieta</span><span class="sxs-lookup"><span data-stu-id="901a1-104">Sales orders mobile workspace</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="629f4-105">Šajā tēmā ir sniegta informācija par mobilo darbvietu **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="629f4-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="629f4-106">Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā.</span><span class="sxs-lookup"><span data-stu-id="629f4-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
+<span data-ttu-id="901a1-105">Šajā tēmā ir sniegta informācija par mobilo darbvietu **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="901a1-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="901a1-106">Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā.</span><span class="sxs-lookup"><span data-stu-id="901a1-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-<span data-ttu-id="629f4-107">Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="629f4-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
+<span data-ttu-id="901a1-107">Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile</span><span class="sxs-lookup"><span data-stu-id="901a1-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="629f4-108">Pārskats</span><span class="sxs-lookup"><span data-stu-id="629f4-108">Overview</span></span>
-<span data-ttu-id="629f4-109">Mobilajā darbvietā **Pārdošanas pasūtījumi** var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="629f4-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="629f4-110">Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju.</span><span class="sxs-lookup"><span data-stu-id="629f4-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="629f4-111">Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="629f4-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="629f4-112">Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="629f4-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
+## <a name="overview"></a><span data-ttu-id="901a1-108">Pārskats</span><span class="sxs-lookup"><span data-stu-id="901a1-108">Overview</span></span>
+<span data-ttu-id="901a1-109">Mobilajā darbvietā **Pārdošanas pasūtījumi** var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="901a1-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="901a1-110">Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju.</span><span class="sxs-lookup"><span data-stu-id="901a1-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="901a1-111">Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="901a1-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="901a1-112">Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="901a1-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-<span data-ttu-id="629f4-113">Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="629f4-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
+<span data-ttu-id="901a1-113">Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="901a1-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a><span data-ttu-id="629f4-114">Skatīt visus pārdošanas pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="629f4-114">View all sales orders</span></span>
-<span data-ttu-id="629f4-115">Šajā skatā tiek rādīti visi pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="629f4-115">This view lists all sales orders.</span></span>
+### <a name="view-all-sales-orders"></a><span data-ttu-id="901a1-114">Skatīt visus pārdošanas pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="901a1-114">View all sales orders</span></span>
+<span data-ttu-id="901a1-115">Šajā skatā tiek rādīti visi pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="901a1-115">This view lists all sales orders.</span></span>
 
--   <span data-ttu-id="629f4-116">Lai atlasītu apskatāmos pārdošanas pasūtījumus, izmantojiet kādu no tālāk norādītajiem filtriem.</span><span class="sxs-lookup"><span data-stu-id="629f4-116">Use one of the following filters to select the sales orders to view:</span></span>
+-   <span data-ttu-id="901a1-116">Lai atlasītu apskatāmos pārdošanas pasūtījumus, izmantojiet kādu no tālāk norādītajiem filtriem.</span><span class="sxs-lookup"><span data-stu-id="901a1-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   <span data-ttu-id="629f4-117">Meklēt pēc pārdošanas pasūtījuma</span><span class="sxs-lookup"><span data-stu-id="629f4-117">Search by sales order</span></span>
-    -   <span data-ttu-id="629f4-118">Meklēt pēc debitora konta</span><span class="sxs-lookup"><span data-stu-id="629f4-118">Search by customer account</span></span>
-    -   <span data-ttu-id="629f4-119">Meklēt pēc debitora nosaukuma</span><span class="sxs-lookup"><span data-stu-id="629f4-119">Search by customer name</span></span>
-    -   <span data-ttu-id="629f4-120">Meklēt pēc statusa</span><span class="sxs-lookup"><span data-stu-id="629f4-120">Search by status</span></span>
-    -   <span data-ttu-id="629f4-121">Meklēt pēc nodošanas izpildei statusa</span><span class="sxs-lookup"><span data-stu-id="629f4-121">Search by release status</span></span>
-    -   <span data-ttu-id="629f4-122">Meklēt pēc izveides datuma un laika</span><span class="sxs-lookup"><span data-stu-id="629f4-122">Search by created date and time</span></span>
+    -   <span data-ttu-id="901a1-117">Meklēt pēc pārdošanas pasūtījuma</span><span class="sxs-lookup"><span data-stu-id="901a1-117">Search by sales order</span></span>
+    -   <span data-ttu-id="901a1-118">Meklēt pēc debitora konta</span><span class="sxs-lookup"><span data-stu-id="901a1-118">Search by customer account</span></span>
+    -   <span data-ttu-id="901a1-119">Meklēt pēc debitora nosaukuma</span><span class="sxs-lookup"><span data-stu-id="901a1-119">Search by customer name</span></span>
+    -   <span data-ttu-id="901a1-120">Meklēt pēc statusa</span><span class="sxs-lookup"><span data-stu-id="901a1-120">Search by status</span></span>
+    -   <span data-ttu-id="901a1-121">Meklēt pēc nodošanas izpildei statusa</span><span class="sxs-lookup"><span data-stu-id="901a1-121">Search by release status</span></span>
+    -   <span data-ttu-id="901a1-122">Meklēt pēc izveides datuma un laika</span><span class="sxs-lookup"><span data-stu-id="901a1-122">Search by created date and time</span></span>
     
--   <span data-ttu-id="629f4-123">Pēc pārdošanas pasūtījumu atlasīšanas varat skatīt detalizētu informāciju par noteiktiem pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="629f4-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="629f4-124">Varat aplūkot tālāk aprakstīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="629f4-124">Specifically, you can view the following information:</span></span>
+-   <span data-ttu-id="901a1-123">Pēc pārdošanas pasūtījumu atlasīšanas varat skatīt detalizētu informāciju par noteiktiem pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="901a1-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="901a1-124">Varat aplūkot tālāk aprakstīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="901a1-124">Specifically, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="629f4-125">Debitora nosaukuma un adreses informācija</span><span class="sxs-lookup"><span data-stu-id="629f4-125">Customer name and address information</span></span>
-    -   <span data-ttu-id="629f4-126">Dažādi datumi saistībā ar pārdošanas pasūtījumu, piemēram, pieprasītais nosūtīšanas datums un apstiprinātais nosūtīšanas datums</span><span class="sxs-lookup"><span data-stu-id="629f4-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
-    -   <span data-ttu-id="629f4-127">Kontaktinformācija par pasūtījuma veicēju</span><span class="sxs-lookup"><span data-stu-id="629f4-127">Contact information for the order taker</span></span>
-    -   <span data-ttu-id="629f4-128">Debitora kontaktinformācija</span><span class="sxs-lookup"><span data-stu-id="629f4-128">Customer contact information</span></span>
-    -   <span data-ttu-id="629f4-129">Pasūtījuma rindas</span><span class="sxs-lookup"><span data-stu-id="629f4-129">Order lines</span></span>
-    -   <span data-ttu-id="629f4-130">Sūtījumi, kas norāda pārdošanas pasūtījuma nosūtīšanas veidu un laiku</span><span class="sxs-lookup"><span data-stu-id="629f4-130">Shipments that show how and when a sales order was shipped</span></span>
+    -   <span data-ttu-id="901a1-125">Debitora nosaukuma un adreses informācija</span><span class="sxs-lookup"><span data-stu-id="901a1-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="901a1-126">Dažādi datumi saistībā ar pārdošanas pasūtījumu, piemēram, pieprasītais nosūtīšanas datums un apstiprinātais nosūtīšanas datums</span><span class="sxs-lookup"><span data-stu-id="901a1-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="901a1-127">Kontaktinformācija par pasūtījuma veicēju</span><span class="sxs-lookup"><span data-stu-id="901a1-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="901a1-128">Debitora kontaktinformācija</span><span class="sxs-lookup"><span data-stu-id="901a1-128">Customer contact information</span></span>
+    -   <span data-ttu-id="901a1-129">Pasūtījuma rindas</span><span class="sxs-lookup"><span data-stu-id="901a1-129">Order lines</span></span>
+    -   <span data-ttu-id="901a1-130">Sūtījumi, kas norāda pārdošanas pasūtījuma nosūtīšanas veidu un laiku</span><span class="sxs-lookup"><span data-stu-id="901a1-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a><span data-ttu-id="629f4-131">Skatīt noteikta debitora pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="629f4-131">View orders for a customer</span></span>
-<span data-ttu-id="629f4-132">Šajā skatā tiek rādīti pārdošanas pasūtījumi pēc debitora.</span><span class="sxs-lookup"><span data-stu-id="629f4-132">This view lists sales orders by customer.</span></span>
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="901a1-131">Skatīt noteikta debitora pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="901a1-131">View orders for a customer</span></span>
+<span data-ttu-id="901a1-132">Šajā skatā tiek rādīti pārdošanas pasūtījumi pēc debitora.</span><span class="sxs-lookup"><span data-stu-id="901a1-132">This view lists sales orders by customer.</span></span>
 
--   <span data-ttu-id="629f4-133">Lai skatītu noteikta debitora pārdošanas pasūtījumus, izmantojiet tālāk norādītos filtrus,.</span><span class="sxs-lookup"><span data-stu-id="629f4-133">Use one of the following filters to view orders for a customer:</span></span>
+-   <span data-ttu-id="901a1-133">Lai skatītu noteikta debitora pārdošanas pasūtījumus, izmantojiet tālāk norādītos filtrus,.</span><span class="sxs-lookup"><span data-stu-id="901a1-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   <span data-ttu-id="629f4-134">Meklēt pēc nosaukuma</span><span class="sxs-lookup"><span data-stu-id="629f4-134">Search by name</span></span>
-    -   <span data-ttu-id="629f4-135">Meklēt pēc konta</span><span class="sxs-lookup"><span data-stu-id="629f4-135">Search by account</span></span>
+    -   <span data-ttu-id="901a1-134">Meklēt pēc nosaukuma</span><span class="sxs-lookup"><span data-stu-id="901a1-134">Search by name</span></span>
+    -   <span data-ttu-id="901a1-135">Meklēt pēc konta</span><span class="sxs-lookup"><span data-stu-id="901a1-135">Search by account</span></span>
 
--   <span data-ttu-id="629f4-136">Kad esat atlasījis debitoru, varat aplūkot tālāk norādīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="629f4-136">After you select a customer, you can view the following information:</span></span>
+-   <span data-ttu-id="901a1-136">Kad esat atlasījis debitoru, varat aplūkot tālāk norādīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="901a1-136">After you select a customer, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="629f4-137">Debitora nosaukums un grupa</span><span class="sxs-lookup"><span data-stu-id="629f4-137">Customer name and group</span></span>
-    -   <span data-ttu-id="629f4-138">Debitora kontaktinformācija</span><span class="sxs-lookup"><span data-stu-id="629f4-138">Customer contact information</span></span>
-    -   <span data-ttu-id="629f4-139">Debitora pārdošanas pasūtījumi un detalizēta informācija par šiem pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="629f4-139">Customer sales orders and details about those sales orders:</span></span>
+    -   <span data-ttu-id="901a1-137">Debitora nosaukums un grupa</span><span class="sxs-lookup"><span data-stu-id="901a1-137">Customer name and group</span></span>
+    -   <span data-ttu-id="901a1-138">Debitora kontaktinformācija</span><span class="sxs-lookup"><span data-stu-id="901a1-138">Customer contact information</span></span>
+    -   <span data-ttu-id="901a1-139">Debitora pārdošanas pasūtījumi un detalizēta informācija par šiem pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="901a1-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   <span data-ttu-id="629f4-140">Debitora nosaukuma un adreses informācija</span><span class="sxs-lookup"><span data-stu-id="629f4-140">Customer name and address information</span></span>
-        -   <span data-ttu-id="629f4-141">Dažādi pārdošanas pasūtījumu datumi</span><span class="sxs-lookup"><span data-stu-id="629f4-141">Various sales order dates</span></span>
-        -   <span data-ttu-id="629f4-142">Kontaktinformācija par pasūtījuma veicēju</span><span class="sxs-lookup"><span data-stu-id="629f4-142">Contact information for the order taker</span></span>
-        -   <span data-ttu-id="629f4-143">Debitora kontaktinformācija</span><span class="sxs-lookup"><span data-stu-id="629f4-143">Customer contact information</span></span>
-        -   <span data-ttu-id="629f4-144">Pasūtījuma rindas</span><span class="sxs-lookup"><span data-stu-id="629f4-144">Order lines</span></span>
-        -   <span data-ttu-id="629f4-145">Sūtījumi, kas norāda pārdošanas pasūtījuma nosūtīšanas veidu un laiku</span><span class="sxs-lookup"><span data-stu-id="629f4-145">Shipments that show how and when a sales order was shipped</span></span>
+        -   <span data-ttu-id="901a1-140">Debitora nosaukuma un adreses informācija</span><span class="sxs-lookup"><span data-stu-id="901a1-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="901a1-141">Dažādi pārdošanas pasūtījumu datumi</span><span class="sxs-lookup"><span data-stu-id="901a1-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="901a1-142">Kontaktinformācija par pasūtījuma veicēju</span><span class="sxs-lookup"><span data-stu-id="901a1-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="901a1-143">Debitora kontaktinformācija</span><span class="sxs-lookup"><span data-stu-id="901a1-143">Customer contact information</span></span>
+        -   <span data-ttu-id="901a1-144">Pasūtījuma rindas</span><span class="sxs-lookup"><span data-stu-id="901a1-144">Order lines</span></span>
+        -   <span data-ttu-id="901a1-145">Sūtījumi, kas norāda pārdošanas pasūtījuma nosūtīšanas veidu un laiku</span><span class="sxs-lookup"><span data-stu-id="901a1-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="629f4-146">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="629f4-146">Prerequisites</span></span>
-<span data-ttu-id="629f4-147">Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.</span><span class="sxs-lookup"><span data-stu-id="629f4-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="901a1-146">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="901a1-146">Prerequisites</span></span>
+<span data-ttu-id="901a1-147">Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.</span><span class="sxs-lookup"><span data-stu-id="901a1-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="629f4-148">Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi</span><span class="sxs-lookup"><span data-stu-id="629f4-148">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations</span></span> 
-<span data-ttu-id="629f4-149">Ja jūsu organizācijai ir izvietota programmatūra Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="629f4-149">If the Dynamics 365 for Finance and Operations has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="629f4-150">Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span><span class="sxs-lookup"><span data-stu-id="629f4-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="901a1-148">Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="901a1-148">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations</span></span> 
+<span data-ttu-id="901a1-149">Ja jūsu organizācijai ir izvietota programma Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="901a1-149">If the Dynamics 365 for Finance and Operations has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="901a1-150">Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span><span class="sxs-lookup"><span data-stu-id="901a1-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="629f4-151">Priekšnosacījumi, ja lietojat Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.</span><span class="sxs-lookup"><span data-stu-id="629f4-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
-<span data-ttu-id="629f4-152">Ja jūsu organizācija ir izvietota Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi.</span><span class="sxs-lookup"><span data-stu-id="629f4-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="901a1-151">Priekšnosacījumi, ja izmantojat Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju</span><span class="sxs-lookup"><span data-stu-id="901a1-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="901a1-152">Ja jūsu organizācijai ir izvietota Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi.</span><span class="sxs-lookup"><span data-stu-id="901a1-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="629f4-153">Priekšnoteikumi</span><span class="sxs-lookup"><span data-stu-id="629f4-153">Prerequisite</span></span></th>
-<th><span data-ttu-id="629f4-154">Loma</span><span class="sxs-lookup"><span data-stu-id="629f4-154">Role</span></span></th>
-<th><span data-ttu-id="629f4-155">Apraksts</span><span class="sxs-lookup"><span data-stu-id="629f4-155">Description</span></span></th>
+<th><span data-ttu-id="901a1-153">Priekšnoteikumi</span><span class="sxs-lookup"><span data-stu-id="901a1-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="901a1-154">Loma</span><span class="sxs-lookup"><span data-stu-id="901a1-154">Role</span></span></th>
+<th><span data-ttu-id="901a1-155">Apraksts</span><span class="sxs-lookup"><span data-stu-id="901a1-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="629f4-156">Ieviesiet KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="629f4-156">Implement KB 4013633.</span></span></td>
-<td><span data-ttu-id="629f4-157">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="629f4-157">System administrator</span></span></td>
+<td><span data-ttu-id="901a1-156">Ieviesiet KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="901a1-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="901a1-157">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="901a1-157">System administrator</span></span></td>
 
-<td><span data-ttu-id="629f4-158">KB 4013633 ir X++ atjauninājums jeb metadatu labojumfails, kurā ir ietverta mobilā darbvieta <strong>Pārdošanas pasūtījumi</strong>.</span><span class="sxs-lookup"><span data-stu-id="629f4-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="629f4-159">Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.</span><span class="sxs-lookup"><span data-stu-id="629f4-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
+<td><span data-ttu-id="901a1-158">KB 4013633 ir X++ atjauninājums jeb metadatu labojumfails, kurā ir ietverta mobilā darbvieta <strong>Pārdošanas pasūtījumi</strong>.</span><span class="sxs-lookup"><span data-stu-id="901a1-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="901a1-159">Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.</span><span class="sxs-lookup"><span data-stu-id="901a1-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><span data-ttu-id="629f4-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="629f4-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
-<li><span data-ttu-id="629f4-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</span><span class="sxs-lookup"><span data-stu-id="629f4-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
-<li><span data-ttu-id="629f4-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</span><span class="sxs-lookup"><span data-stu-id="629f4-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
-<li><span data-ttu-id="629f4-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</span><span class="sxs-lookup"><span data-stu-id="629f4-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
+<li><span data-ttu-id="901a1-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="901a1-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="901a1-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</span><span class="sxs-lookup"><span data-stu-id="901a1-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="901a1-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</span><span class="sxs-lookup"><span data-stu-id="901a1-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="901a1-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</span><span class="sxs-lookup"><span data-stu-id="901a1-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="629f4-164">Publicējiet mobilo darbvietu <strong>Pārdošanas pasūtījumi</strong>.</span><span class="sxs-lookup"><span data-stu-id="629f4-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
-<td><span data-ttu-id="629f4-165">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="629f4-165">System administrator</span></span></td>
-<td><span data-ttu-id="629f4-166">Skatiet tēmu <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>.</span><span class="sxs-lookup"><span data-stu-id="629f4-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="901a1-164">Publicējiet mobilo darbvietu <strong>Pārdošanas pasūtījumi</strong>.</span><span class="sxs-lookup"><span data-stu-id="901a1-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="901a1-165">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="901a1-165">System administrator</span></span></td>
+<td><span data-ttu-id="901a1-166">Skatiet tēmu <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>.</span><span class="sxs-lookup"><span data-stu-id="901a1-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="629f4-167">Mobilās programmas lejupielāde un instalēšana</span><span class="sxs-lookup"><span data-stu-id="629f4-167">Download and install the mobile app</span></span>
-<span data-ttu-id="629f4-168">Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="629f4-168">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="901a1-167">Mobilās programmas lejupielāde un instalēšana</span><span class="sxs-lookup"><span data-stu-id="901a1-167">Download and install the mobile app</span></span>
+<span data-ttu-id="901a1-168">Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="901a1-168">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [<span data-ttu-id="629f4-169">Android tālruņiem</span><span class="sxs-lookup"><span data-stu-id="629f4-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="629f4-170">Tālruņiem iPhone</span><span class="sxs-lookup"><span data-stu-id="629f4-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="901a1-169">Android tālruņiem</span><span class="sxs-lookup"><span data-stu-id="901a1-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="901a1-170">Tālruņiem iPhone</span><span class="sxs-lookup"><span data-stu-id="901a1-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="629f4-171">Pierakstīšanās mobilajā programmā</span><span class="sxs-lookup"><span data-stu-id="629f4-171">Sign in to the mobile app</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="901a1-171">Pierakstīšanās mobilajā programmā</span><span class="sxs-lookup"><span data-stu-id="901a1-171">Sign in to the mobile app</span></span>
 
-1.  <span data-ttu-id="629f4-172">Palaidiet programmu savā mobilajā ierīcē.</span><span class="sxs-lookup"><span data-stu-id="629f4-172">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="629f4-173">Ievadiet savu Dynamics 365 vietrādi URL.</span><span class="sxs-lookup"><span data-stu-id="629f4-173">Enter your Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="629f4-174">Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli.</span><span class="sxs-lookup"><span data-stu-id="629f4-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="629f4-175">Ievadiet savus akreditācijas datus.</span><span class="sxs-lookup"><span data-stu-id="629f4-175">Enter your credentials.</span></span>
-4.  <span data-ttu-id="629f4-176">Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="629f4-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="629f4-177">Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.</span><span class="sxs-lookup"><span data-stu-id="629f4-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+1.  <span data-ttu-id="901a1-172">Palaidiet programmu savā mobilajā ierīcē.</span><span class="sxs-lookup"><span data-stu-id="901a1-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="901a1-173">Ievadiet savu Dynamics 365 vietrādi URL.</span><span class="sxs-lookup"><span data-stu-id="901a1-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="901a1-174">Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli.</span><span class="sxs-lookup"><span data-stu-id="901a1-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="901a1-175">Ievadiet savus akreditācijas datus.</span><span class="sxs-lookup"><span data-stu-id="901a1-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="901a1-176">Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas.</span><span class="sxs-lookup"><span data-stu-id="901a1-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="901a1-177">Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.</span><span class="sxs-lookup"><span data-stu-id="901a1-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="629f4-178">[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="629f4-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="901a1-178">[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="901a1-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="629f4-179">Informācijas par kāda debitora pārdošanas pasūtījumiem skatīšana, izmantojot mobilo darbvietu Pārdošanas pasūtījums</span><span class="sxs-lookup"><span data-stu-id="629f4-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="901a1-179">Informācijas par kāda debitora pārdošanas pasūtījumiem skatīšana, izmantojot mobilo darbvietu Pārdošanas pasūtījums</span><span class="sxs-lookup"><span data-stu-id="901a1-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  <span data-ttu-id="629f4-180">Mobilajā ierīcē atlasiet darbvietu **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="629f4-180">On your mobile device, select the **Sales orders** workspace.</span></span>
-2.  <span data-ttu-id="629f4-181">Atlasiet vienumu **Skatīt noteikta debitora pasūtījumus**.</span><span class="sxs-lookup"><span data-stu-id="629f4-181">Select **View orders for a customer**.</span></span>
-3.  <span data-ttu-id="629f4-182">Debitora atrašanas nolūkos izmatojiet konta vai debitora nosaukuma informāciju.</span><span class="sxs-lookup"><span data-stu-id="629f4-182">Use account or customer name information to find the customer.</span></span>
-4.  <span data-ttu-id="629f4-183">Atlasiet debitoru.</span><span class="sxs-lookup"><span data-stu-id="629f4-183">Select the customer.</span></span>
-5.  <span data-ttu-id="629f4-184">Atlasiet vienumu **Kontaktinformācija** vai **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="629f4-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="629f4-185">Ja atlasāt vienumu **Pārdošanas pasūtījumi**, tiek parādīts šī debitora pārdošanas pasūtījumu saraksts.</span><span class="sxs-lookup"><span data-stu-id="629f4-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
-6.  <span data-ttu-id="629f4-186">Atlasiet vienumu **Pārdošanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="629f4-186">Select **Sales order**.</span></span> <span data-ttu-id="629f4-187">Tagad varat skatīt informāciju par pārdošanas pasūtījuma rindām, informāciju par sūtījumiem, debitora kontaktinformāciju un pasūtījuma veicēja kontaktinformāciju.</span><span class="sxs-lookup"><span data-stu-id="629f4-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
-
+1.  <span data-ttu-id="901a1-180">Mobilajā ierīcē atlasiet darbvietu **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="901a1-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="901a1-181">Atlasiet vienumu **Skatīt noteikta debitora pasūtījumus**.</span><span class="sxs-lookup"><span data-stu-id="901a1-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="901a1-182">Debitora atrašanas nolūkos izmatojiet konta vai debitora nosaukuma informāciju.</span><span class="sxs-lookup"><span data-stu-id="901a1-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="901a1-183">Atlasiet debitoru.</span><span class="sxs-lookup"><span data-stu-id="901a1-183">Select the customer.</span></span>
+5.  <span data-ttu-id="901a1-184">Atlasiet vienumu **Kontaktinformācija** vai **Pārdošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="901a1-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="901a1-185">Ja atlasāt vienumu **Pārdošanas pasūtījumi**, tiek parādīts šī debitora pārdošanas pasūtījumu saraksts.</span><span class="sxs-lookup"><span data-stu-id="901a1-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="901a1-186">Atlasiet vienumu **Pārdošanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="901a1-186">Select **Sales order**.</span></span> <span data-ttu-id="901a1-187">Tagad varat skatīt informāciju par pārdošanas pasūtījuma rindām, informāciju par sūtījumiem, debitora kontaktinformāciju un pasūtījuma veicēja kontaktinformāciju.</span><span class="sxs-lookup"><span data-stu-id="901a1-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
