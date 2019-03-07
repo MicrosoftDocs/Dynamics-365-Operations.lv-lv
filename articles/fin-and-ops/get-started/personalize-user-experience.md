@@ -1,13 +1,13 @@
 ---
-title: "Lietotāja pieredzes personalizēšana"
-description: "Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations."
+title: Lietotāja pieredzes personalizēšana
+description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363480"
 ---
-
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā personalizēt programmatūru Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir paskaidrots, kā varat personalizēt programmu Microsoft Dynamics 365 for Finance and Operations.
 
 Programmā Finance and Operations ir trīs galvenās personalizēšanas klases.
 
@@ -115,7 +114,7 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 - Izmantojiet pogu **Ievietot**, lai redzētu sarakstu ar elementiem, ko var ievietot lapā.
 
     - Atlasiet rīku **Lauks** zem pogas **Ievietot**, lai savai lapai pievienotu lauku. Kad izmantojat rīku **Lauks**, varat pievienot tikai tādus laukus, kas veido daļu no lapas definīcijas, bet pašlaik attiecīgajā lapā netiek rādīti. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Pielāgoti lauki](user-defined-fields.md). Kad ir atlasīts rīks **Lauks**, jums vispirms ir jāatlasa grupa vai apgabals, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas ir saistīti ar atlasīto grupu vai apgabalu. Šajā dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot, un pēc tam atlasiet **Ievietot**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
-    - Atlasiet rīku **PowerApp** zem pogas **Ievietot**, lai lapā iegultu programmu, kura tika izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [PowerApps iegulšana](embed-power-apps.md).
+    - Atlasiet rīku **PowerApp** sadaļā **Ievietot**, lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [PowerApps iegulšana](embed-power-apps.md).
 
 - Atlasiet pogu **Pārvaldīt**, lai skatītu ar visām pašreizējas lapas personalizēšanas darbībām saistīto pārvaldības opciju sarakstu.
 
@@ -171,4 +170,3 @@ Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iesta
 Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
 
 Tādējādi, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme tabulas opcijas **Parādīt dimensijas** ietvaros. Galu galā šīs izmaiņas attieksies ne tikai uz vienu konkrēto lapu, bet uz visām lapām.
-

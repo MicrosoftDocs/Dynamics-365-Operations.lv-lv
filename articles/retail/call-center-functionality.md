@@ -1,13 +1,13 @@
 ---
-title: "Zvanu centra pārdošanas funkcionalitāte"
-description: "Šajā tēmā ir sniegts pārskats par zvanu centra pārdošanas funkcionalitāti programmā Microsoft Dynamics 365 for Retail."
+title: Zvanu centra pārdošanas funkcionalitāte
+description: Šajā tēmā ir sniegts apskats par zvanu centra pārdošanas funkcionalitāti programmā Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,27 +19,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363158"
 ---
-
 # <a name="call-center-sales-functionality"></a>Zvanu centra pārdošanas funkcionalitāte
 
 [!include [banner](includes/banner.md)]
 
-Pakalpojumā Dynamics 365 for Retail zvanu centrs ir Retail kanāla veids, ko var norādīt programmā. Norādot noteiktu kanālu savām zvanu centra struktūrvienībām, sistēma var saistīt noteiktus datu noklusējumus un pasūtījumu apstrādes noklusējumus ar pārdošanas pasūtījumiem, ko izveidojis zvanu centra kanāla lietotājs.
+Programmā Dynamics 365 for Retail zvanu centrs ir mazumtirdzniecības kanāla veids, ko var definēt lietojumprogrammā. Norādot noteiktu kanālu savām zvanu centra struktūrvienībām, sistēma var saistīt noteiktus datu noklusējumus un pasūtījumu apstrādes noklusējumus ar pārdošanas pasūtījumiem, ko izveidojis zvanu centra kanāla lietotājs.
 
 Zvanu centra funkcijas ietver īpašas mazumtirdzniecības cenas, piedāvājumus, katalogus, dāvanu kartes, lojalitātes programmas un kuponus. Zvanu centra pasūtījumus papildina pārdošanas punkta programma, lai atbalstītu šķērskanālu pasūtījuma izpildes scenārijus.
 
-Jāņem vērā, ka, lai arī zvanu centra modulis var tikt izmantots arī citās nozarēs ārpus mazumtirdzniecības, pašreizējais Dynamics 365 for Retail zvanu centra programmas laidiens nav optimizēts izmantošanai starpuzņēmumu (B2B) pasūtījumu apstrādes scenārijiem vai scenārijiem, kur pasūtījumiem ir liels pārdošanas rindu skaits. Iesakām lietotājiem, kas vēlas izmantot zvanu centra funkcijas pasūtījumu apstrādei ārpus tipiskas tiešo darījumu ar patērētājiem apstrādes, pietiekami ilgi pārbaudīt un pārliecināties, ka zvanu centra funkcionalitātes iespējošana atbilst funkcionālajām un veiktspējas vajadzībām.
+Ir svarīgi ņemt vērā, ka, lai arī zvanu centra moduli var izmantot arī citās nozarēs, ne tikai mazumtirdzniecībā, pašreizējais Dynamics 365 for Retail zvanu centra lietojumprogrammas laidiens nav optimizēts izmantošanai starpuzņēmumu (B2B) pasūtījumu apstrādes scenārijiem vai scenārijiem, kuros pasūtījumiem ir liels pārdošanas rindu skaits. Iesakām lietotājiem, kas vēlas izmantot zvanu centra funkcijas pasūtījumu apstrādei ārpus tipiskas tiešo darījumu ar patērētājiem apstrādes, pietiekami ilgi pārbaudīt un pārliecināties, ka zvanu centra funkcionalitātes iespējošana atbilst funkcionālajām un veiktspējas vajadzībām.
 
 Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī lietotājam draudzīgu klientu pakalpojumu programmu, kas ļauj lietotājiem vieglāk atrast klientu kontus un pārskatīt visus saistītos klienta pasūtījumu datus un atribūtus. Klientu apkalpošanas ekrāns ir izstrādāts, lai ļautu lietotājam ātri piekļūtu ar pasūtījumu saistītajiem datiem, kas ļaus atbildēt uz visbiežākajiem ar pasūtījumiem saistītiem jautājumiem, kas saņemti no klientiem.
 
-Šī lapa sniedz saites uz atbilstošo dokumentāciju, kas saistīti ar zvanu centra līdzekļu iestatīšanu, konfigurēšanu un lietošanu pakalpojumā Dynamics 365 for Retail.
+Šajā lapā ir sniegtas saites uz atbilstošo dokumentāciju, kas ir saistīta ar zvanu centra līdzekļu iestatīšanu, konfigurēšanu un funkcionālo lietošanu programmā Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Zvanu centra konfigurēšana
 
@@ -68,4 +67,3 @@ Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī li
 ## <a name="configure-continuity-programs"></a>Nepārtrauktības programmu konfigurēšana
 
 [Nepārtrauktības programmas iestatīšana zvanu centram](set-up-continuity-program.md)
-

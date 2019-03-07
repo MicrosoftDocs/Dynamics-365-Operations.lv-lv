@@ -1,13 +1,13 @@
 ---
-title: "Krājumu pārvaldības sākumlapa"
-description: "Šajā tēmā ir sniegts pārskats par moduli Krājumu vadība."
+title: Krājumu pārvaldības sākumlapa
+description: Šajā tēmā ir sniegts pārskats par moduli Krājumu vadība.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364929"
 ---
-
 # <a name="inventory-management"></a>Krājumu vadība 
 
 [!include [banner](../includes/banner.md)]
@@ -49,16 +48,15 @@ Tālāk esošajā mācību kartē ir parādītas galvenās koncepcijas un uzdevu
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/).
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
 
 ### <a name="inventory-accounting"></a>Krājumu uzskaite 
 Papildinformāciju skatiet tēmā [Krājumu uzskaite modulī Izmaksu pārvaldība](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Ražošanas un piegādes ķēdes pārvaldības emuāri
-Viedokļi, jaunumi un cita informācija par moduli Krājumu vadība un citiem risinājumiem ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [Piegādes ķēdes pārvaldības programmatūrā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Viedokļi, jaunumi un cita informācija par moduli Krājumu vadība un citiem risinājumiem ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Uzdevumu ceļveži
 Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**.
-
 
 

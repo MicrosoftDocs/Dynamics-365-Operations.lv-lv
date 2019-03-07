@@ -1,31 +1,30 @@
 ---
-title: "Atgriezto krājumu daļēju piegāžu saņemšana"
-description: "Daļējas piegādes tiek definētas atgriešanas pasūtījuma rindās, nevis atgriešanas pasūtījuma sūtījumā."
+title: Atgriezto krājumu daļēju piegāžu saņemšana
+description: Daļējas piegādes tiek definētas atgriešanas pasūtījuma rindās, nevis atgriešanas pasūtījuma sūtījumā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363917"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>Atgriezto krājumu daļēju piegāžu saņemšana    
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Ja atgrieztajā sūtījumā ir mazāk nekā pilns daudzums no atgriešanas pasū
 
 ## <a name="register-and-post-a-partial-quantity"></a>Reģistrēt un grāmatot daļēju daudzumu
 
-1.  Kad ir atlasīts atgriešanas pasūtījums saņemšanai, veidlapā **Saņemšanas darbību apskats — noliktava: %1, doks: %2, žurnāla nosaukums: %3**, noklikšķiniet uz **Sākt saņemšanu**, lai izveidotu saņemšanas žurnālu un tad noklikšķiniet uz **Žurnāli** \> **Rādīt saņemšanas no ieejas plūsmām**, lai atvērtu veidlapu **Novietojumu žurnāls**.
+1.  Kad ir atlasīts atgriešanas pasūtījums saņemšanai, formā **Saņemšanas darbību apskats — noliktava: %1, doks: %2, žurnāla nosaukums: %3** noklikšķiniet uz **Sākt saņemšanu**, lai izveidotu saņemšanas žurnālu, un pēc tam noklikšķiniet uz vienuma **Žurnāli** \> **Rādīt saņemšanas no ieejas plūsmām**, lai atvērtu formu **Novietojumu žurnāls**.
 
 2.  Atlasiet žurnāla rindu, ar kuru vēlaties strādāt, un pēc tam noklikšķiniet uz **Rindas**, lai atvērtu veidlapu **Žurnāla rindas, novietojumi**.
 
@@ -48,7 +47,6 @@ Ja atgrieztajā sūtījumā ir mazāk nekā pilns daudzums no atgriešanas pasū
 4.  Laukā **Atdalīt daudzumu** ierakstiet kopējo saņemto krājumu daudzumu un pēc tam noklikšķiniet uz **Labi**.
 
 5.  Veidlapā **Žurnāla rindas, novietojumi** atlasiet saņemto krājumu daudzuma rindu un pēc tam noklikšķiniet uz **Grāmatot**. Jūs varat grāmatot papildu daudzuma rindu pēc tam, kad krājumi tiek saņemti.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Preču klāsta pārvaldība"
-description: "Šajā tēmā ir paskaidroti preču klāsta pārvaldības pamatkoncepti risinājumā Microsoft Dynamics 365 for Retail un ieviešanas iespējas jūsu projektā."
+title: Preču klāsta pārvaldība
+description: Šajā tēmā ir paskaidroti pamata jēdzieni, kas tiek izmantoti preču klāsta pārvaldībai programmā Microsoft Dynamics 365 for Retail, un ir sniegti jūsu projekta ieviešanas apsvērumi.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365044"
 ---
-
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Pārskats
 
-Risinājumā Microsoft Dynamics 365 for Retail ir pieejams *preču klāsts*, kas ļauj pārvaldīt preču pieejamību atšķirīgos kanālos. Preču klāsti norāda, kuras preces ir pieejamas noteiktos veikalos un noteiktā periodā.
+Programmā Microsoft Dynamics 365 for Retail ir pieejami *preču klāsti*, kas sniedz iespēju pārvaldīt preču pieejamību dažādos kanālos. Preču klāsti norāda, kuras preces ir pieejamas noteiktos veikalos un noteiktā periodā.
 
 Risinājumā Retail ir preču klāsts viena vai vairāku kanālu (vai kanālu grupas, ja tiek izmantotas organizācijas hierarhijas) kartējums ar vienu vai vairākām precēm (vai preču grupām, ja tiek izmantotas kategoriju hierarhijas).
 
@@ -108,4 +107,3 @@ Retail implementēšanas nolūkā plānojot un pārvadot preču klāstus, ņemie
 - **Preču klāstā neesošu preču pārdošana un ieņēmumi no tām** — šī iespēja palīdz mazumtirgotājiem efektīvi pārvaldīt preču klāstus, ļaujot ierobežot pieejamo preču skaitu līdz precēm, kas pieder pie veikala pamata preču komplekta. Šī iespēja arī palīdz mazumtirgotājiem rīkoties situācijās, kad prece kļūdaini tiek izlaista preču klāstā vai kad prece tiek atgriezta ārpus preču klāsta derīguma termiņiem.
 
 Ja kanāla datu bāzē preces dati nepastāv, POS veic reālā laika zvanu galvenajam birojam, lai izgūtu nepieciešamo informāciju, lai preci varētu pārdot, atgriezt vai ietvert debitora pasūtījumā. Šādā veidā izgūta preces informācija ir pieejama tikai šīs transakcijas ietvaros. Prece netiek pievienota preču klāsta definīcijai. Tādēļ nepieciešamības gadījumā tiks veikti turpmāki reāllaika zvani.
-

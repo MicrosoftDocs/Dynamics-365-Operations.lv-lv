@@ -1,13 +1,13 @@
---- 
-title: "Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem"
-description: "Šajā procedūrā parādīts, kā izveidot un apstrādāt pārkraušanu sadales centrā, lai izplatītu preces no pirkšanas pasūtījuma saņemšanas vietas uz vienu vai vairākiem veikaliem."
+---
+title: Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
+description: Šajā procedūrā parādīts, kā izveidot un apstrādāt pārkraušanu sadales centrā, lai izplatītu preces no pirkšanas pasūtījuma saņemšanas vietas uz vienu vai vairākiem veikaliem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/17/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364400"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 14. Noklikšķiniet uz Jā.
 15. Sarakstā atrodiet un atlasiet noliktavu, kur preces tika saņemtas.
 16. Noklikšķiniet uz Pasūtījums, lai skatītu pasūtījumus, kas tika izveidoti atlasītajai noliktavai.
-
 

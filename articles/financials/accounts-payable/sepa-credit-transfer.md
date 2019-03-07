@@ -1,13 +1,13 @@
 ---
-title: "SEPA kredīta pārskaitījuma apskats"
-description: "Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu."
+title: SEPA kredīta pārskaitījuma apskats
+description: Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363779"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
 
 [!include [banner](../includes/banner.md)]
@@ -52,10 +51,10 @@ EPC, kas sastāv no Eiropas bankām, izstrādā komerciālās un tehniskās stru
 SEPA kredīta pārskaitījums ir viena uzņēmuma vai privātpersonas maksājums citam uzņēmumam vai privātpersonai. Maksājumiem ir jābūt eiro valūtā, un attiecībā uz abām pusēm ir jābūt iekļautam starptautiskajam bankas konta numuram (International Bank Account Number — IBAN) un bankas identifikācijas kodam (Bank Identifier Code — BIC). (BIC arī tiek saukts par Pasaules starpbanku finanšu telekomunikāciju sabiedrības \[SWIFT\] kodu.) Turklāt transakcijas izmaksas ir jāsadala starp abām pusēm. Starp pusēm veiktajos kredīta pārskaitījumos ir jāizmanto XML faili, kas atbilst ISO 20022 maksājumu apstrādes standartiem un XML formātam, kā noteikusi EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kā tiek īstenots kredīta pārskaitījums?
-Eiropas valstu kredīta pārskaitījuma maksājuma formāts tiek īstenots, izmantojot programmatūrā Microsoft Dynamics 365 for Finance and Operations ietvertās elektronisko atskaišu veidošanas (Electronic reporting — ER) un maksājumu veidu funkcijas. Dažiem kredīta pārskaitījuma formātiem, kuri tiek lietoti citos reģionos, joprojām tiek izmantota mantojuma maksājumu struktūra. Daudzu citu formātu vidū ir pieejami 12 ISO 20022 kredīta pārskaitīšanas failu formāti. Šie eksporta formāti atbilst SEPA ISO 20022 XML standartam. Tie tiek izmantoti, lai izveidotu maksājumu pārsūtīšanas valūtā, kas nav eiro, valstīm/reģioniem, kuros tie tiek izmantoti, un eiro maksājumus atbilstoši EPC izlaistās SEPA kredīta pārskaitījumu shēmas noteikumu rokasgrāmatas versijai 8.2. Lai varētu ieviest kredīta pārskaitījumus, jums ir jāsazinās ar savu banku, lai iegūtu programmatūru, kas ir nepieciešama elektronisko banku operāciju failu augšupielādēšanai. Šo programmatūru jūs izmantosit, lai pārsūtītu XML failus, kas ietver maksājumu uzdevumus uz jūsu banku.
+Eiropas valstu kredīta pārskaitījuma maksājuma formāts ir ieviests, izmantojot programmas Microsoft Dynamics 365 for Finance and Operations elektronisko pārskatu izveides (Electronic reporting — ER) un maksājuma veidu funkcionalitāti. Dažiem kredīta pārskaitījuma formātiem, kuri tiek lietoti citos reģionos, joprojām tiek izmantota mantojuma maksājumu struktūra. Daudzu citu formātu vidū ir pieejami 12 ISO 20022 kredīta pārskaitīšanas failu formāti. Šie eksporta formāti atbilst SEPA ISO 20022 XML standartam. Tie tiek izmantoti, lai izveidotu maksājumu pārsūtīšanas valūtā, kas nav eiro, valstīm/reģioniem, kuros tie tiek izmantoti, un eiro maksājumus atbilstoši EPC izlaistās SEPA kredīta pārskaitījumu shēmas noteikumu rokasgrāmatas versijai 8.2. Lai varētu ieviest kredīta pārskaitījumus, jums ir jāsazinās ar savu banku, lai iegūtu programmatūru, kas ir nepieciešama elektronisko banku operāciju failu augšupielādēšanai. Šo programmatūru jūs izmantosit, lai pārsūtītu XML failus, kas ietver maksājumu uzdevumus uz jūsu banku.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Kādi kredīta pārskaitījumu formāti pašlaik tiek atbalstīti programmatūrā Finance and Operations?
-Vienmēr atveriet koplietojamo līdzekļu bibliotēku pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko sarakstu, kurā ietverti pieejamie faili, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamajā sadaļā “Kas man ir jāiestata?” ir norādīta saite uz tēmu, kurā paskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
+Vienmēr atveriet koplietojamo līdzekļu bibliotēku portālā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko to pieejamo failu sarakstu, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamajā sadaļā “Kas man ir jāiestata?” ir norādīta saite uz tēmu, kurā paskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Kas man ir jāiestata?
 -   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
@@ -92,7 +91,7 @@ Noteiktu parametru saraksts ir atkarīgs no kredīta pārskaitījuma formāta. N
 <td>Formāts</td>
 <td>Atlasiet formātu pārskaitījumu informācijai, atkarībā no jūsu valsts/reģiona vai bankas prasībām:
 <ul>
-<li><strong>Strd</strong> — atlasiet šo opciju, lai izmantotu strukturēto formātu, kad viena maksājuma rinda tiek segta pret vienu rēķinu. Šī opcija nav pieejama valstij/reģionam specifiskajos eksporta formātos Francijai, Vācijai un Nīderlandei.</li>
+<li><strong>Strd</strong> — atlasiet šo opciju, lai izmantotu strukturēto formātu, kad viena maksājuma rinda tiek segta pret vienu rēķinu. Šī opcija nav pieejama Francijas, Vācijas un Nīderlandes valstij/reģionam raksturīgajiem eksporta formātiem.</li>
 <li><strong>Ustrd</strong> — atzīmējiet šo opciju, lai izmantotu nestrukturēto formātu, kad maksājums tiek segts pret vairākiem rēķiniem. Nosegtajiem rēķiniem rēķinu numuri tiek apvienoti un izmantoti kā pārskaitījuma informācija. Saskaņā ar ISO 20022 vadlīnijām nestrukturētā pārskaitījumu informācija ir ierobežota līdz 140 rakstzīmēm.</li>
 </ul></td>
 </tr>
@@ -124,7 +123,6 @@ Starptautiskais bankas konta numurs (IBAN) un bankas identifikācijas kods (BIC)
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Kā maksājuma failu nosūtīt uz banku?
 Kad ģenerējat maksājumus, tiek ģenerēts maksājuma fails, un jums tiek lūgts no tīmekļa pārlūkprogrammas to saglabāt jebkurā pieejamā vietā. Nākamā darbība ir XML faila sūtīšana uz jūsu banku. Šis process ir atkarīgs no bankas. Izpildiet savas bankas sniegtās instrukcijas, lai failus iesniegtu apstrādei bankā.
-
 
 
 

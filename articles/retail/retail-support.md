@@ -1,35 +1,34 @@
 ---
-title: "Saņemt atbalstu darbā ar Dynamics 365 for Retail"
-description: "Šajā sadaļā ir izskaidrots, kā saņemt palīdzību darbā ar Microsoft Dynamics 365 for Retail."
+title: Atbalsta saņemšana saistībā ar Dynamics 365 for Retail
+description: Šajā rakstā ir paskaidrots, kā saņemt palīdzību saistībā ar Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364055"
 ---
-
-# <a name="get-support-for-dynamics-365-for-retail"></a>Saņemt atbalstu darbā ar Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-for-retail"></a>Atbalsta saņemšana saistībā ar Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-Šajā sadaļā ir izskaidrots, kā saņemt palīdzību darbā ar Dynamics 365 for Retail.
+Šajā rakstā ir paskaidrots, kā saņemt palīdzību saistībā ar Dynamics 365 for Retail.
 
 ## <a name="contact-support"></a>Sazināties ar atbalsta dienestu
 
@@ -49,7 +48,7 @@ Lai saņemtu atbalstu darbā ar programmu Retail, izmantojiet nākamajā tabulā
 <tbody>
 <tr>
 <td>Jautājiet kopienai.</td>
-<td>Dodieties uz kopienas lapu <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a>, lai atrastu Dynamics kopienas sniegtās atbildes uz jūsu jautājumiem.</td>
+<td>Apmeklējiet <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> kopienas lapu, lai saņemtu atbildes uz saviem jautājumiem no Dynamics kopienas locekļiem.</td>
 </tr>
 <tr>
 <td>Izmantojiet problēmu meklētāja rīku.</td>
@@ -67,12 +66,12 @@ Lai saņemtu atbalstu darbā ar programmu Retail, izmantojiet nākamajā tabulā
 </tr>
 <tr>
 <td>Atveriet atbalsta komandai iesniegto biļeti.</td>
-<td>Ja rodas problēmas, kad mēģināt iesniegt biļeti korporācijai Microsoft, izmantojot LCS <strong>atbalsta</strong> elementu, skatiet informāciju, kā sazināties ar Microsoft Dynamics Regional Operations Center, šajā rakstā: <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Saziņa ar Microsoft Business Solutions atbalsta dienestu</a>. Atbalsta komanda var palīdzēt atrisināt šādas tehniskas problēmas:
+<td>Ja rodas problēmas, kad mēģināt iesniegt biļeti korporācijai Microsoft, izmantojot LCS elementu <strong>Atbalsts</strong>, skatiet rakstu <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Saziņa ar Microsoft Business Solutions atbalsta dienestu</a>, lai saņemtu informāciju par saziņu ar Microsoft Dynamics reģionālo operāciju centru. Atbalsta komanda var palīdzēt atrisināt šādas tehniskas problēmas:
 <ul>
 <li>Kļūdas, kas rodas, kad izmantojat LCS, vai problēmas, kas rodas, ja mēģināt piekļūt LCS.</li>
 <li>Kļūdas, kas rodas, izmantojot programmu Retail.</li>
 </ul>
-Ja rodas tehniski jautājumi par pieteikšanos un piekļuvi CustomerSource, e-apmācības, meklēšanas, zināšanu bāzes, failu lejupielādes un lapu vai sistēmas kļūdām, apmeklējiet lapu <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Tīmekļa vietnes atbalsts</a>.</td>
+Ja jums rodas tehniski jautājumi saistībā ar pieteikšanos CustomerSource un piekļuvi tam, e-apmācību, meklēšanu, zināšanu bāzi, failu lejupielādi un lapas vai sistēmas kļūdām, apmeklējiet vietni <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Tīmekļa vietnes atbalsts</a>.</td>
 </tr>
 <tr>
 <td>Saņemiet palīdzību saistībā ar jautājumiem par Retail vai Finance and Operations licencēšanu.</td>
@@ -85,5 +84,4 @@ Ja rodas tehniski jautājumi par pieteikšanos un piekļuvi CustomerSource, e-ap
 </tbody>
 </table>
 
-Plašāku informāciju par Microsoft Dynamics atbalsta piedāvājumiem skatiet šeit: [Microsoft Dynamics tiešsaistes atbalsts](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Papildinformāciju par Microsoft Dynamics atbalsta piedāvājumiem skatiet rakstā [Microsoft Dynamics tiešsaistes atbalsts](https://dynamics.microsoft.com/en-us/support/).

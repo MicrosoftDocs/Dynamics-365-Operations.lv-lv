@@ -1,13 +1,13 @@
 ---
-title: "Atgrieztās pārdotās preces"
-description: "Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu."
+title: Atgrieztās pārdotās preces
+description: Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362698"
 ---
-
 # <a name="sales-returns"></a>Atgrieztās pārdotās preces
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
 
-Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izveidots atgriešanas pasūtījums.
+Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas programmā Microsoft Dynamics 365 for Finance and Operations tiek izveidots atgriešanas pasūtījums.
 
 ## <a name="return-order-process"></a>Atgriešanas pasūtījuma apstrādes process
 Tālāk esošajā attēlā ir sniegts pārskats par atgriešanas pasūtījuma apstrādes procesu.  
@@ -133,11 +132,11 @@ Papildus atgriezto preču atgriešanas metodes noteikšanai atgriešanas metožu
 <ul>
 <li>Puses pietiekamā mērā uzticas viena otrai.</li>
 <li>Bojātā krājuma atgriešanas izmaksas ir pārāk lielas.</li>
-<li>Krājuma vienības nevar pievienot atpakaļ krājumiem. Fiziska atgriešana nav nepieciešama citu apstākļu dēļ.</li>
+<li>Krājumu vienības nevar pievienot atpakaļ krājumiem. Fiziska atgriešana nav nepieciešama citu apstākļu dēļ.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Kredīts</td>
+<td>Kredītkarte</td>
 <td><ul>
 <li>Klients tiek kreditēts par summu, kas tiek aprēķināta, no pārdošanas cenas atņemot visas maksas vai papildmaksas.</li>
 <li>Krājumu vērtība tiek palielināta par atgrieztā krājuma izmaksām.</li>
@@ -329,7 +328,6 @@ Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu. Atgrieztais krāju
 ![Atgriešanas pasūtījuma rinda, kas ir izveidota, izmantojot funkciju Atrast pārdošanas pasūtījumu ](./media/SalesReturn11.png)  
 
 >[Piezīme!] Parametri **Atlaide** un **Vienības izmaksu cena** ir iestatīti pareizi. Tāpēc notiek debitora rēķina precīza anulēšana.
-
 
 
 
