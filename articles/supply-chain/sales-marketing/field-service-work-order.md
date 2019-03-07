@@ -1,37 +1,36 @@
 ---
-title: "Risinājumā Field Service ietverto darba pasūtījumu sinhronizācija ar pārdošanas pasūtījumiem risinājumā Finance and Operations"
-description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem risinājumā Finance and Operations."
+title: Risinājumā Field Service ietverto darba pasūtījumu sinhronizācija ar pārdošanas pasūtījumiem risinājumā Finance and Operations
+description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem risinājumā Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: lv-lv
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324104"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Risinājumā Field Service ietverto darba pasūtījumu sinhronizācija ar pārdošanas pasūtījumiem risinājumā Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Microsoft Dynamics 365 for Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem risinājumā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem programmā Microsoft Dynamics 365 for Finance and Operations.
 
 [![Biznesa procesu sinhronizēšana risinājumos Finance and Operations un Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -273,4 +272,3 @@ Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004), vai (msdyn_allocated ne true))
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

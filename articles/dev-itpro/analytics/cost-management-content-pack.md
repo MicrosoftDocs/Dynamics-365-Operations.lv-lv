@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Izmaksu pārvaldība"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI saturā Izmaksu pārvaldība."
+title: Power BI satura pakotne Izmaksu pārvaldība
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu pārvaldība.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,36 +19,35 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327807"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Power BI saturs Izmaksu pārvaldība
+# <a name="cost-management-power-bi-content"></a>Power BI satura pakotne Izmaksu pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Pārskats
 
-Microsoft Power BI saturs **Izmaksu pārvaldība** ir paredzēts krājumu grāmatvežiem vai tādām personām organizācijā, kuras ir atbildīgas par vai ieinteresētas attiecībā uz krājumu vai nepabeigtās ražošanas (NP) statusu vai kuras ir atbildīgas par vai ieinteresētas attiecībā uz standarta izmaksu noviržu analīzi.
+Microsoft Power BI satura pakotne **Izmaksu pārvaldība** ir paredzēta krājumu grāmatvežiem vai tādām personām organizācijā, kuras ir atbildīgas vai interesējas par krājumu vai nepabeigtās ražošanas (NP) statusu vai kuras ir atbildīgas vai interesējas par standarta izmaksu novirzes analīzi.
 
 > [!NOTE]
-> Power BI saturs **Izmaksu pārvaldība**, kas aprakstīts šajā tēmā, attiecas uz Dynamics 365 for Finance and Operations 8.0.
+> Šajā tēmā ir aprakstītā Power BI satura pakotne **Izmaksu pārvaldība** ir paredzēta programmai Dynamics 365 for Finance and Operations 8.0.
 > 
-> Power BI satura pakotne **Izmaksu pārvaldība**, kas pieejama AppSource vietnē, ir novecojusi. Papildinformāciju par šo atbalsta pārtraukšanu skatiet sadaļā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Vietnē AppSource pieejamā Power BI satura pakotne **Izmaksu pārvaldība** ir novecojusi. Papildinformāciju par šo novecošanu skatiet rakstā [Vietnē AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Šis Power BI saturs nodrošina kategorizētu formātu, kas palīdz jums pārraudzīt krājumu veiktspēju un vizualizēt izmaksu plūsmu caur tiem. Varat gūt vadības ieskatus, piemēram, par apgrozījuma koeficientu, dienu skaitu, kurā krājumi ir pieejami, precizitāti un “ABC klasifikāciju” jūsu izvēlētajā uzkrātajā līmenī (uzņēmums, krājums, krājumu grupa vai vieta). Informāciju, kas ir pieejama, var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
+Šī Power BI satura pakotne nodrošina kategorizētu formātu, kas palīdz uzraudzīt krājumu veiktspēju un vizualizēt izmaksu plūsmu caur tiem. Varat gūt vadības ieskatus, piemēram, par apgrozījuma koeficientu, dienu skaitu, kurā krājumi ir pieejami, precizitāti un “ABC klasifikāciju” jūsu izvēlētajā uzkrātajā līmenī (uzņēmums, krājums, krājumu grupa vai vieta). Informāciju, kas ir pieejama, var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
 
-Power BI saturs ir veidots, balstoties uz apkopoto mērījumu **CostObjectStatementCacheMonthly**, kuram kā primārais datu avots ir tabula **CostObjectStatementCache**. Šo tabulu pārvalda datu kopas kešatmiņas struktūra. Pēc noklusējuma šī tabula tiek atjaunināta ik pēc 24 stundām, bet datu kopas kešatmiņas konfigurācijā varat mainīt atjaunināšanas biežumu vai iespējot manuālu atjaunināšanu. Manuālo atjaunināšanu var palaist darbvietā **Izmaksu administrēšana** vai darbvietā **Izmaksu analīze**.
+Power BI satura pakotne ir veidota, pamatojoties uz apkopoto mērījumu **CostObjectStatementCacheMonthly**, kura galvenais datu avots ir tabula **CostObjectStatementCache**. Šo tabulu pārvalda datu kopas kešatmiņas struktūra. Pēc noklusējuma šī tabula tiek atjaunināta ik pēc 24 stundām, bet datu kopas kešatmiņas konfigurācijā varat mainīt atjaunināšanas biežumu vai iespējot manuālu atjaunināšanu. Manuālo atjaunināšanu var palaist darbvietā **Izmaksu administrēšana** vai darbvietā **Izmaksu analīze**.
 
-Pēc katra atjauninājuma tabulā **CostObjectStatementCache** apkopotais mērījums **CostObjectStatementCacheMonthly** ir jāatjaunina, pirms tiek atjaunināti dati Power BI vizualizācijās.
+Ikreiz, kad tiek atjaunināta tabula **CostObjectStatementCache**, ir jāatjaunina apkopotais mērījums **CostObjectStatementCacheMonthly**, un tikai pēc tam drīkst atjaunināt Power BI vizualizācijās ietvertos datus.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 
-Power BI saturs **Izmaksu pārvaldība** tiek parādīts darbvietās **Izmaksu administrēšana** un **Izmaksu analīze**.
+Power BI satura pakotne **Izmaksu pārvaldība** tiek rādīta darbvietās **Izmaksu administrēšana** un **Izmaksu analīze**.
 
 Darbvietā **Izmaksu administrēšana** ir šādas cilnes:
 
@@ -63,11 +62,11 @@ Darbvietā **Izmaksu analīze** ir šādas cilnes:
 - **Ražošanas uzskaites analīze** — šajā cilnē ir parādīts Power BI saturs.
 - **Standarta izmaksu novirzes analīze** — šajā cilnē ir parādīts Power BI saturs.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautās pārskata lapas
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautās pārskatu lapas
 
-Power BI satura pakotnē **Izmaksu pārvaldība** ir ietverta pārskata lapu kopa, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. 
+Power BI satura pakotnē **Izmaksu pārvaldība** ir ietvertas vairākas pārskatu lapas, kurās ir iekļauta rādītāju kopa. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. 
 
-Tālāk redzamajās tabulās ir sniegts apskats par vizualizācijām Power BI saturā **Izmaksu pārvaldība**.
+Tālāk esošajās tabulās ir sniegts apskats par vizualizācijām Power BI satura pakotnē **Izmaksu pārvaldība**.
 
 ### <a name="inventory-accounting-status"></a>Krājumu uzskaites statuss
 
@@ -173,9 +172,9 @@ Tālāk redzamajās tabulās ir sniegts apskats par vizualizācijām Power BI s
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
-Dati no Microsoft Dynamics 365 for Finance and Operations tiek izmantoti, lai aizpildītu pārskata lapas Power BI saturā **Izmaksu pārvaldība**. Šie dati tiek attēloti kā apkopoti mērījumi, kuri pa posmiem tiek izveidoti elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet tēmā [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
+Power BI satura pakotnes **Izmaksu pārvaldība** pārskatu lapu aizpildīšanai tiek izmantoti Microsoft Dynamics 365 for Finance and Operations dati. Šie dati tiek parādīti kā apkopoti mērījumi, kuri ir pieejami elementu krātuvē, kas ir analīzes veikšanai optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
 
-Tālāk minēto objektu galvenie apkopošanas mērījumi tiek izmantoti kā Power BI satura pamatdati.
+Power BI satura pakotnes izveidei tiek izmantoto tālāk norādīto objektu galvenie apkopotie mērījumi.
 
 | Objekts                          | Galvenie apkopošanas mērījumi | Dynamics 365 for Finance and Operations datu avots | Lauks               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
@@ -184,7 +183,7 @@ Tālāk minēto objektu galvenie apkopošanas mērījumi tiek izmantoti kā Powe
 | CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
 | CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
 
-Tālāk redzamajā tabulā ir norādīti galvenie aprēķinātie mērījumi Power BI saturā.
+Tālāk esošajā tabulā ir norādīti galvenie aprēķinātie mērījumi Power BI satura pakotnē.
 
 | Mērs                            | Aprēķins |
 |------------------------------------|-------------|
@@ -209,4 +208,3 @@ Tālāk minētās galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu
 | Juridiskas personas                                          | Juridisko personu nosaukumi                              |
 | Finanšu kalendāri                                        | Finanšu kalendārs, Gads, Ceturksnis, Periods, Mēnesis   |
 | Atrašanās vieta                                                    | ID, Nosaukums, Adrese, Rajons, Valsts               |
-

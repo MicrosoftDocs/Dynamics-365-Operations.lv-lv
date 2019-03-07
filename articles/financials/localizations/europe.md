@@ -1,13 +1,13 @@
 ---
 title: Eiropa
-description: "Šajā tēmā ir sniegtas saites uz Eiropai paredzētajiem Microsoft Dynamics 365 for Finance and Operations dokumentācijas resursiem."
+description: Šajā tēmā ir sniegtas saites uz Eiropai paredzētajiem Microsoft Dynamics 365 for Finance and Operations dokumentācijas resursiem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321735"
 ---
-
 # <a name="europe"></a>Eiropa 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir ietverta informācija un saites uz resursiem, kas var palīdzēt iestatīt programmu Dynamics 365 for Finance and Operations juridiskām personām ar primāro adresi Eiropā. 
+Šajā tēmā ir ietverta informācija un saites uz resursiem, kas var palīdzēt iestatīt programmu Dynamics 365 for Finance and Operations juridiskām personām, kuru galvenā adrese ir Eiropā. 
 
 - [Avansa turētāji](emea-advance-holders.md)
  - [Avansu turētāju transakcijas](emea-advance-holders-transactions.md)
@@ -44,7 +43,7 @@ ms.lasthandoff: 09/17/2018
 - [Faila formāti maksāšanas metodēm](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finanšu pakalpojumu (ESR) integrācija](emea-fiscal-service-integration.md)
 - [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Pārsūtīšanas dokumenta ģenerēšana iekšējai krājumu pārsūtīšanai](tasks/transfer-document-internal-inventory-transfer.md)
+- [Pārsūtīšanas dokumenta ģenerēšana iekšējo krājumu pārsūtīšanai](tasks/transfer-document-internal-inventory-transfer.md)
 - [ES pārdošanas saraksta pārskata ģenerēšana](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 faili
   - [ISO20022 failu importēšana](emea-ISO20022-file-formats.md)
@@ -99,5 +98,4 @@ ms.lasthandoff: 09/17/2018
 
 - [Elektronisko pārskatu veidošanas apskats](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 

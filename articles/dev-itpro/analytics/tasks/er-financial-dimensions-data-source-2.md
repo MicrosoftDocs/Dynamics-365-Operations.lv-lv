@@ -1,13 +1,13 @@
---- 
-title: "ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)"
-description: "Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem."
+---
+title: ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)
+description: Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319596"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER Finanšu dimensijas, ko izmanto kā datu avotu (2. daļa: Modeļa kartēšana)
 
@@ -43,7 +43,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 8. Laukā Apraksts ierakstiet 'Dimensiju datu kartēšana'.
 9. Noklikšķiniet uz Saglabāt.
 10. Noklikšķiniet uz Veidotājs.
-11. Kokā atlasiet "Dynamics 365 for Operations\Table".
+11. Kokā atlasiet 'Dynamics 365 for Operations\Tabula'.
 12. Noklikšķiniet uz Pievienot sakni.
 13. Laukā Nosaukums ierakstiet "Uzņēmums".
 14. Laukā Tabula ierakstiet "CompanyInfo".
@@ -59,7 +59,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 21. Atlasiet Jā laukā Jautāt galveno kontu.
     * Iestatiet “Jautāt galveno kontu” uz Jā, lai atļautu lietotājiem atlasīt galveno kontu kā daļu no dimensiju saraksta.   Ja ir iestatīts uz Nē, galvenais konts netiks iekļauts dimensiju sarakstā, un opcija “Vai galvenais konts ir obligāts” ir iespējota. Ja opcija “Vai galvenais konts ir obligāts” ir iestatīta uz Jā, iekļaujiet galveno kontu dimensiju sarakstā, neatkarīgi no lietotāja veiktās atlases.  
 22. Noklikšķiniet uz OK.
-23. Kokā atlasiet "Dynamics 365 for Operations\Table records".
+23. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 24. Noklikšķiniet uz Pievienot sakni.
 25. Laukā Nosaukums ierakstiet 'LedgerJournal'.
 26. Laukā Pieprasīt vaicājumu atlasiet Jā.
@@ -143,5 +143,4 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 3. Noklikšķiniet uz Mainīt statusu.
 4. Noklikšķiniet uz Pabeigt.
 5. Noklikšķiniet uz OK.
-
 

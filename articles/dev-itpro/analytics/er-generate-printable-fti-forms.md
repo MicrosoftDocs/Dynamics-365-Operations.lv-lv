@@ -1,13 +1,13 @@
 ---
-title: "Drukājamu FTI veidlapu ģenerēšana"
-description: "Šajā tēmā ir izskaidrots, kā elektronisko pārskatu veidošanas (ER) platformu var izmantot, lai drukājamas brīva teksta rēķinu (FTI) veidlapas ģenerētu kā Microsoft Office dokumentus."
+title: Drukājamu FTI veidlapu ģenerēšana
+description: Šajā tēmā ir paskaidrots, kā izmantot elektronisko pārskatu izveides (Electronic reporting — ER) struktūru, lai ģenerētu drukājamas brīva teksta rēķinu (free text invoice — FTI) formas Microsoft Office dokumentu formātā.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325530"
 ---
-
-# <a name="generate-printable-fti-forms"></a>Drukājamu FTI veidlapu ģenerēšana
+# <a name="generate-printable-fti-forms"></a>Drukājamu FTI formu ģenerēšana
 
 [!include[banner](../includes/banner.md)]
 
-Elektronisko pārskatu veidošanas (ER) platformu var izmantot, lai drukājamas brīva teksta rēķinu (FTI) veidlapas ģenerētu kā Microsoft Office dokumentus. Šajā tēmā ir sniegta informācija par to, kā veidot savas konfigurācijas, kā arī detalizēta informācija par pieejamajām konfigurācijas veidnēm.
+Elektronisko pārskatu izveides (ER) struktūra sniedz iespēju ģenerēt drukājamas brīva teksta rēķinu (FTI) formas Microsoft Office dokumentu formātā. Šajā tēmā ir sniegta informācija par to, kā veidot savas konfigurācijas, kā arī detalizēta informācija par pieejamajām konfigurācijas veidnēm.
 
 ## <a name="overview"></a>Pārskats
 
-Papildus esošajai drukājamu FTI veidlapu ģenerēšanas iespējai, izmantojot Microsoft SQL Server pārskatu izveides pakalpojumus (SSRS), tagad varat izmantot arī ER platformu. Drukājamās FTI veidlapas varat pārvaldīt programmās Microsoft Office Excel un Word. Varat arī modificēt izkārtojumu, datu plūsmu un formatējumu, lai nodrošinātu atbilstību konkrētām prasībām, neveicot koda izmaiņas.
+Papildus esošajai iespējai ģenerēt drukājamas FTI formas, izmantojot Microsoft SQL Server Reporting Services (SSRS), tagad varat izmantot arī ER struktūru. Varat pārvaldīt drukājamās FTI formas programmās Microsoft Office Excel un Word. Varat arī modificēt izkārtojumu, datu plūsmu un formatējumu, lai nodrošinātu atbilstību konkrētām prasībām, neveicot koda izmaiņas.
 
 > [!NOTE]
 > Ja vēlaties vispirms iepazīties ar pārskatu par esošajām drukājamo FTI veidlapu risinājuma parauga ER konfigurācijām, atveriet uzreiz sadaļu **ER konfigurāciju parauga lejupielāde, lai ģenerētu drukājamas FTI veidlapas**, kas pieejama tālāk šajā tēmā.
@@ -112,16 +111,16 @@ FTI veidlapas varat arī ģenerēt, kad grāmatojat FTI, ieslēdzot iestatījum
 ER platforma ģenerētajiem dokumentiem pašlaik atbalsta tālāk norādītos galamērķus.
 
 - **Lejupielādētais fails** — ģenerētās veidlapas tiek piedāvātas kā lejupielādes, ko var saglabāt, izmantojot pārlūkprogrammu.
-- **Ekrāns** — Microsoft Office 365 programma Excel tiek izmantota ģenerēto FTI veidlapu priekšskatīšanai Excel formātā.
-- **SharePoint mape** — ģenerētās veidlapas tiek saglabātas atbilstoši dokumentu pārvaldības platformas iestatījumiem.
-- **Programmu arhīvs** — ģenerētās veidlapas tiek saglabātas kā Microsoft Azure krātuves izpildes žurnāla ierakstu pielikumi.
+- **Ekrāns** — programma Microsoft Office 365 Excel tiek izmantota ģenerēto FTI formu priekšskatīšanai Excel formātā.
+- **SharePoint mape** — ģenerētās formas tiek saglabātas atbilstoši dokumentu pārvaldības struktūras iestatījumiem.
+- **Lietojumprogrammas arhīvs** — ģenerētās formas tiek glabātas kā izpildes žurnāla ierakstu pielikumi Microsoft Azure krātuvē.
 - **E-pasts** — ģenerētās veidlapas tiek nosūtītas kā e-pasta pielikumi.
 
 > [!NOTE]
 > Ģenerētās FTI veidlapas nevar nosūtīt tieši uz printeri, jo pašlaik netiek atbalstīta tiešā drukāšana, kas izmanto Dynamics printera maršrutēšanas aģentu.
 
 ## <a name="download-sample-er-configurations-to-generate-printable-fti-forms"></a>ER konfigurāciju parauga lejupielāde, lai ģenerētu drukājamas FTI veidlapas
-Varat lejupielādēt ER konfigurāciju paraugu, lai to izmantotu kā FTI risinājuma veidni. Konfigurācijas tiek glabātas Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Tālāk norādītas ietvertās konfigurācijas.
+Varat lejupielādēt ER konfigurāciju paraugu, lai to izmantotu kā FTI risinājuma veidni. Konfigurācijas tiek glabātas Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Tālāk norādītas ietvertās konfigurācijas.
 
 - Konfigurācijā **Debitora rēķinu izrakstīšanas modelis** ir ietverts nepieciešamais datu modelis un modeļa kartējums.
 - Konfigurācijā **Debitora FTI pārskats (GER)** ir ietverts formāta paraugs.
@@ -211,19 +210,18 @@ Ja organizācijas e-pasta veidne, kam ir iepriekš definētais **ERFTITMP** ID, 
 
 ![Augšupielādēt e-pasta veidni](media/FTIbyGER-EmailTemplateBody.png)
 
-ER formāta parauga ER izteiksme **Emailing.TxtToUse.Subject** ir konfigurēta tā, lai visus viettura %1 gadījumus aizstātu ar apstrādātā rēķina ID.
+ER formāta parauga ER izteiksme **Emailing.TxtToUse.Subject** ir konfigurēta tā, lai visas viettura %1 instances aizstātu ar apstrādes rēķina ID.
 
 Formāta parauga izteiksme **Emailing.TxtToUse.Body** ir konfigurēta tālāk norādītajiem vietturu aizstāšanas gadījumiem.
 
-- %1 tiek aizstāts ar debitora kontaktpersonas vārdu.
-- %2 tiek aizstāts ar uzņēmuma nosaukumu.
-- %3 tiek aizstāts ar debitora nosaukumu.
-- %4 tiek aizstāts ar uzņēmuma kontaktpersonas vārdu.
-- %5 tiek aizstāts ar uzņēmuma kontaktpersonas amata nosaukumu.
-- %6 tiek aizstāts ar uzņēmuma kontaktpersonas e-pasta adresi.
+- Vietturis %1 tiek aizstāts ar debitora kontaktpersonas vārdu.
+- Vietturis %2 tiek aizstāts ar uzņēmuma nosaukumu.
+- Vietturis %3 tiek aizstāts ar debitora nosaukumu/vārdu.
+- Vietturis %4 tiek aizstāts ar uzņēmuma kontaktpersonas vārdu.
+- Vietturis %5 tiek aizstāts ar uzņēmuma kontaktpersonas amata nosaukumu.
+- Vietturis %6 tiek aizstāts ar uzņēmuma kontaktpersonas e-pasta adresi.
 
 ![E-pasta adrese](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Papildu resursi
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Darba sākšana ar Talent"
-description: "Šajā tēmā ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm, kā arī izveidot savienojumu ar palīdzības resursiem, kas ir pieejami produktā un vietnē docs.microsoft.com."
+title: Darba sākšana ar Talent
+description: Šajā tēmā ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm, kā arī izveidot savienojumu ar palīdzības resursiem, kas ir pieejami produktā un vietnē docs.microsoft.com.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305385"
 ---
 # <a name="get-started-with-talent"></a>Darba sākšana ar Talent
 
 [!include [banner](includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Talent var viegli izmainīt lietotāja interfeisu un iestatīt opcijas, kas padara programmatūru intuitīvāku un piemērotāku jūsu vajadzībām. Šajā tēmā ir ietvertas saites uz tēmām, kurās ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm. Tēmā ir ietvertas arī saites uz informāciju, kas var palīdzēt jums efektīvi un precīzi atrast informāciju sistēmā. 
+Programmā Microsoft Dynamics 365 for Talent var viegli izmainīt lietotāja interfeisu un iestatīt opcijas, kas padara programmatūru intuitīvāku un piemērotāku jūsu vajadzībām. Šajā tēmā ir ietvertas saites uz tēmām, kurās ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm. Tēmā ir ietvertas arī saites uz informāciju, kas var palīdzēt jums efektīvi un precīzi atrast informāciju sistēmā. 
 
 > [!NOTE] 
-> Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Tālāk minētie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Dynamics 365 for Retail, tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums ir Dynamics 365 for Talent, bet tēmās, kas galvenokārt ir saistītas ar pamatproduktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 ## <a name="personalizing-talent"></a>Programmas Talent personalizēšana 
-Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Dynamics 365 for Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu. 
+Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Dynamics 365 for Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu. 
 
 -   [Lietotāja iespēju personalizēšana](../fin-and-ops/get-started/personalize-user-experience.md) — šajā tēmā ir paskaidroti dažādie veidi, kā varat personalizēt programmu Talent un pielāgot produkta daļas atbilstoši savām vēlmēm.
 
@@ -58,12 +58,11 @@ Tālāk norādītajās tēmās ir paskaidrots, kā izmantot uzmeklēšanu un mek
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80).
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80).
 
 ### <a name="blogs"></a>Emuāri
-Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejami [Microsoft Dynamics 365 for Talent emuārā](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Viedokļi, ziņas un cita informācija par moduli “Parādi kreditoriem” un citiem risinājumiem ir pieejama sadaļā [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Videoklipi
-Skatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

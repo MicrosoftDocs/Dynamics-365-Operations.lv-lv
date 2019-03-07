@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru pievienošana"
-description: "Šajā tēmā ir aprakstīts jaunu kreditoru pievienošanas process. Tajā ir izskaidrotas darbības, kas šī procesa gaitā ir jāveic lietotājiem ar dažādām lomām."
+title: Kreditoru pievienošana
+description: Šajā tēmā ir aprakstīts jaunu kreditoru pievienošanas process. Tajā ir izskaidrotas darbības, kas šī procesa gaitā ir jāveic lietotājiem ar dažādām lomām.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322149"
 ---
-
 # <a name="onboard-vendors"></a>Kreditoru pievienošana
 [!include [banner](../includes/banner.md)]
 
@@ -66,7 +65,7 @@ Nākamajā tabulā ir parādīta informācija, kas ir ietverta šajā elementā 
 | Kontaktpersonas vārds  | Tās personas vārds, kura tiks aicināta reģistrēt kreditora informāciju. |
 | Kontakta otrais vārds | Tās personas otrais vārds, kura tiks aicināta reģistrēt kreditora informāciju. |
 | Kontaktpersonas uzvārds   | Tās personas uzvārds, kura tiks aicināta reģistrēt kreditora informāciju. |
-| Kontaktpersonas e-pasta adrese       | E-pasta adrese, kas tiks izmantota, lai izveidotu jaunu lietotāju programmā Finance and Operations, un kas tiks reģistrēta nomnieka Azure Active Directory (Azure AD) kontā. |
+| Kontaktpersonas e-pasta adrese       | E-pasta adrese, kas tiks izmantota, lai izveidotu jaunu lietotāju programmā Finance and Operations, un kas tiks reģistrēta nomnieka Azure Active Directory (Azure AD) kontā. |
 | Iesniegšanas datums               | Datums, kad pieprasījums tika izveidots ārējā sistēmā. |
 | Juridiska persona                 | Juridiskā persona, kurā kreditors pieprasa kļūt par kreditoru. Šai vērtībai ir jābūt juridiskās personas kodam, kas ir reģistrēts programmā Finance and Operations. Ja importēšanas procesa gaitā nav saņemta nekāda vērtība, tiek lietota vērtība no sagādes un avotu parametriem. |
 | Kreditora tips                  | Kreditors var būt organizācija vai persona. Kreditora tips nosaka veidu, kādā kreditors visbeidzot tiek izveidots. |
@@ -174,5 +173,4 @@ Potenciālā piegādātāja reģistrācijas pieprasījumam izmantojot darbību *
 |  Piegādātāja pieprasījums ir izveidots  |                                                                     Kreditora reģistrācijas vednis ir pabeigts.                                                                      | Tiek izveidots pieprasījums deaktivizēt lietotāju, un tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.<blockquote>[!NOTE]<br>Darbību <strong>Dzēst</strong> nevar lietot, kad piegādātāja pieprasījumam darbplūsmā notiek pārskatīšanas process.</blockquote> |
 |         Apstiprināts         |                                                                               Piegādātāja pieprasījums ir apstiprināts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
 |         Noraidīts         |                                                                               Piegādātāja pieprasījums ir noraidīts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
-
 

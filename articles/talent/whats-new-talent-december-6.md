@@ -1,31 +1,31 @@
 ---
-title: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR."
+title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 09936c7161a7e303a0ada2f48ef3281b81a67295
 ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/10/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305386"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)
 
 [!include [banner](includes/banner.md)]
 
@@ -62,7 +62,7 @@ Sākot ar atjauninājumu Platform update 22, operators "ir viens no" filtra rūt
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Konfigurēt Apvienotās Karalistes algu aprēķina integrēšanu starp Talent un Dayforce
 
-Integrēšana starp Microsoft Dynamics 365 for Talent un Ceridian Dayforce ir pieejama priekšskatījumā Apvienotajai Karalistei. Papildinformāciju skatiet tēmā [Konfigurēt algu aprēķina integrēšanu starp Talent un Dayforce](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration).
+Integrēšana starp Dynamics 365 for Talent un Ceridian Dayforce ir pieejama priekšskatījumā Apvienotajai Karalistei. Papildinformāciju skatiet tēmā [Konfigurēt algu aprēķina integrēšanu starp Talent un Dayforce](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Drīzumā
 
@@ -142,5 +142,4 @@ Atjauninātajiem kartējumiem jāizskatās šādi.
 ![Uzdevums No sadaļas Nodarbinātie uz sadaļu Darbs](./media/WorkerMapping.png)
 
 ![Lauka Dzimums pārveidošana](./media/WorkerTransform.png)
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR."
+title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
 author: tfehr
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: tfehr
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 71946d84f8e3cd8eafe50651cb845cb0371bebd2
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 5e329b4a18b07e047f8e992f43e9463361dd36ed
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/19/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305253"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR 
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR 
 
 [!include [banner](includes/banner.md)]
 
@@ -37,4 +36,3 @@ Katru nedēļu ir jauni programmas Talent laidieni. Šie laidieni ir uzskaitīti
 Satura rādītājs arī turpmāk tiks atjaunināts katru nedēļu, tādēļ apskatiet to atkārtoti, lai atrastu visus jaunos līdzekļus un izmaiņas jaunākajos programmas Talent laidienos.
 
 [!include [release notes](../fin-and-ops/includes/release-notes.md)]
-

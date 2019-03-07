@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas kontroles un projekta pārvaldības uzskaitē izmantojamās izmaksu kategorijas"
-description: "Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā rakstā ir sniegta informācija par izmaksu kategorijām, kas jānorāda šādiem ražošanas un projekta nolūkiem paredzētiem ražošanas darba veidiem."
+title: Ražošanas kontroles un projekta pārvaldības uzskaitē izmantojamās izmaksu kategorijas
+description: Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā rakstā ir sniegta informācija par izmaksu kategorijām, kas jānorāda šādiem ražošanas un projekta nolūkiem paredzētiem ražošanas darba veidiem.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326036"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Ražošanas kontroles un projekta pārvaldības uzskaitē izmantojamās izmaksu kategorijas
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un p
 -   Parasti izmaksu kategorijai piešķirtajai kategoriju grupai tiek definēti ar izmaksām un pārdošanu saistītie virsgrāmatas konti. Tomēr atsevišķai izmaksu kategorijai var norādīt noteiktus kontus.
 
 Papildu pogas lapā **Izmaksu kategorijas** ļauj piekļūt ar projektu saistītai informācijai par atlasīto izmaksu kategoriju. Piemēram, var skatīt ar projektu saistītas transakcijas, definēt darbiniekus vai projektus, noteikt stundu izmaksas un pārdošanas cenas un skatīt pārskatus.
-
 
 
 

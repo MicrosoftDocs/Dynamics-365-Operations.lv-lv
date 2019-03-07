@@ -1,13 +1,13 @@
 ---
-title: "Talent nodrošināšana"
-description: "Šajā tēmā ir izklāstīta jaunas vides nodrošināšana pakalpojumam Microsoft Dynamics 365 for Talent."
+title: Talent nodrošināšana
+description: Šajā tēmā ir detalizēti aprakstīta jaunas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305364"
 ---
-# <a name="provision-talent"></a>Talent nodrošināšana
+# <a name="provision-talent"></a>Talent nodrošinājums
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir izklāstīta jaunas ražošanas vides nodrošināšana pakalpojumam Microsoft Dynamics 365 for Talent. Šajā tēmā tiek pieņemts, ka pakalpojumu Talent iegādājāties, izmantojot mākoņrisinājumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (Enterprise Architecture — AE) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kur jau ir ietverts Talent pakalpojumu plāns, bet nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.
+Šajā tēmā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent. Šajā tēmā tiek pieņemts, ka pakalpojumu Talent iegādājāties, izmantojot mākoņrisinājumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (Enterprise Architecture — AE) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Talent pakalpojumu plāns, un nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.
 
-Lai sāktu, globālajam administratoram ir jāpierakstās pakalpojumā [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) un jāizveido jauns Talent projekts. Nav nepieciešama palīdzība no atbalsta dienesta vai Dynamics Service tehniskajiem (Dynamics Service Engineering — DSE) pārstāvjiem, izņemot gadījumus, kad Talent nodrošināšanu jums neļauj veikt kāda licencēšanas problēma.
+Lai sāktu, globālajam administratoram ir jāpierakstās pakalpojumā [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) un jāizveido jauns Talent projekts. Nav nepieciešama palīdzība no atbalsta dienesta vai Dynamics Service tehniskajiem (Dynamics Service Engineering — DSE) pārstāvjiem, izņemot gadījumus, kad Talent nodrošināšanu jums neļauj veikt kāda licencēšanas problēma.
 
 ## <a name="create-an-lcs-project"></a>LCS projekta izveidošana
 Lai lietotu LCS un pārvaldītu savas Talent vides, vispirms ir jāizveido LCS projekts.
@@ -38,7 +38,7 @@ Lai lietotu LCS un pārvaldītu savas Talent vides, vispirms ir jāizveido LCS p
 1. Pierakstieties pakalpojumā [LCS](https://lcs.dynamics.com/Logon/Index), izmantojot to pašu kontu, ko lietojat Talent abonēšanai.
 2. Atlasiet pluszīmi (**+**), lai izveidotu projektu.
 3. Kā produkta nosaukumu un produkta versiju atlasiet **Microsoft Dynamics 365 for Talent**.
-4. Atlasiet **Dynamics 365 for Talent** metodoloģiju.
+4. Atlasiet metodoloģiju **Dynamics 365 for Talent**.
 5. Atlasiet **Izveidot**.
 
 Informāciju par to, kā sākt darbu ar pakalpojumu Talent, skatiet **Talent** metodoloģijā, ko izveidojāt savā jaunajā projektā. Kad projekta izveidošana ir pabeigta, izpildiet tālāk norādīto procedūru, lai nodrošinātu savu Talent vidi.
@@ -47,7 +47,7 @@ Informāciju par to, kā sākt darbu ar pakalpojumu Talent, skatiet **Talent** m
 Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā vidē.
 
 1. LCS projektā atlasiet elementu **Talent programmas pārvaldība**.
-2. Pakalpojums Talent vienmēr tiek nodrošināts Microsoft PowerApps vidē, lai iespējotu PowerApps integrēšanu un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav PowerApps vides, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav PowerApps vides, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/en-us/pricing/).
@@ -79,7 +79,7 @@ Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā
  
    **Noklusējuma PowerApps vides** Lai gan katram nomniekam tiek automātiski nodrošināta noklusējuma PowerApps vide, tās nav ieteicams izmantot programmatūrā Talent, jo visi nomnieku lietotāji var piekļūt PowerApps videi un nejauši sabojāt ražošanas datus, izmēģinot vai iepazīstot PowerApps vai Flow integrāciju.
    
-   <strong>Izmēģinājuma vides</strong> Ir izveidotas vides ar līdzīgu nosaukumu kā “TestDrive — alias@domain”, kurām ir 60 dienu izmēģinājuma periods, pēc kura beigām beidzas vides derīgums un tā tiek automātiski noņemta.
+   <strong>Izmēģinājuma vides</strong> Ir izveidotas vides, kuru nosaukumi līdzinās šim: “TestDrive — aizstājvārds@domēns” un kurām ir 60 dienu izmēģinājuma periods, pēc kura beigām beidzas vides derīgums un tā tiek automātiski noņemta.
    
    **Neatbalstītie reģioni** Pašlaik Talent tiek atbalstīts tikai šādos reģionos: ASV, Eiropa vai Austrālija.
   
@@ -87,5 +87,4 @@ Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā
  
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
 Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Piekļuvi var piesķirt, [pievienojot lietotājus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [piešķirot viņiem atbilstošās lomas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) pamata personāla vadības vidē. Globālajam administratoram, kas izvietoja Talent, ir jāpalaiž arī programmas Attract un Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieku lietotājiem.  Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt programmām Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas.
-
 

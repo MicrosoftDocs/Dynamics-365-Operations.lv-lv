@@ -1,13 +1,13 @@
 ---
-title: "Pārdošanas punkta (POS) ekrāna izkārtojumi"
-description: "Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 — Retail pārdošanas punkta (POS) ekrāna izkārtojumu."
+title: Pārdošanas punkta (POS) ekrāna izkārtojumi
+description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 for Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321896"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) ekrāna izkārtojumi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 — Retail pārdošanas punkta (POS) ekrāna izkārtojumu.
+Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 for Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
 
 Retail pārdošanas punkta (POS) lietotāja interfeisu (User Interface — UI) var konfigurēt, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un/vai lietotājiem.
 
@@ -51,7 +50,7 @@ Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norā
 - **Apraksts** — varat norādīt jēgpilnu nosaukumu, kas palīdzēs noteikt konkrētajai situācijai piemērotāko profilu.
 - **Dizains** — varat atlasīt dizainu Gaišs vai Tumšs. Dizains ietekmē fontu un fona krāsas visā programmā.
 - **Izcēluma krāsa** — izcēluma krāsa tiek izmantota visā POS interfeisā, lai izceltu vai iezīmētu noteiktus vizuālos elementus, piemēram elementus, komandpogas vai hipersaites. Parasti šos elementus var izmantot, lai veiktu kādu darbību.
-- **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām. Šis līdzeklis ir pieejams tikai Microsoft Dynamics 365 for Retail versijā 1611.
+- **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām. Šis līdzeklis ir pieejams tikai Microsoft Dynamics 365 for Retail versijā 1611.
 - **Pieteikšanās foni** — varat norādīt pierakstīšanās ekrāna fona attēlu. Fona attēla faila lielumam ir jābūt pēc iespējas mazākam, jo lielu failu uzglabāšana un ielāde var ietekmēt lietojumprogrammas darbību un veiktspēju.
 - **Lietojumprogrammas fons** — varat norādīt fona attēlu, kas visā programmā jāizmanto tīrtoņa fona krāsas vietā. Pieteikšanās ekrāna fona faila lielumam jābūt pēc iespējas mazākam.
 
@@ -165,7 +164,7 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 - **Pogas rekvizīti** — varat konfigurēt pogas rekvizītus, ar peles labo pogu noklikšķinot uz pogas un izmantojot saīšņu izvēlni.
 
     > [!IMPORTANT]
-    > Dažas pogu rindas iestatījumu attiecas tikai uz Enterprise POS, bet ne uz Retail Modern POS vai Cloud POS.
+    > Daži pogu režģa iestatījumi attiecas tikai uz programmu Enterprise POS, nevis uz Retail Modern POS vai Cloud POS.
 
     ![Pogu rindas pogas rekvizīti](../retail/media/Button-grid-button-properties.png)
 
@@ -185,7 +184,7 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
     - **Pielāgots dizains** — pēc noklusējuma POS pogas izmanto vizuālā profila izcēluma krāsu. Atzīmējot izvēles rūtiņu **Lietot pielāgotu tēmu**, varat norādīt papildu krāsas.
 
         > [!NOTE]
-        > Retail Modern POS un Cloud POS izmanto tikai **fona krāsas** un **fonta krāsas** vērtības.
+        > Programmas Retail Modern POS un Cloud POS izmanto tikai parametru **Fona krāsa** un **Fonta krāsa** vērtības.
 
     - **Pogas attēls** — uz pogām var būt attēloti attēli vai ikonas. Atlasiet no pieejamiem attēliem, kas pieejami šeit: **Retail \> Kanāla iestatījumi \> POS iestatījumi \> POS \>Attēli**.
 
@@ -194,4 +193,3 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Instalēt Retail POS izkārtojuma veidotāju](install-pos-layout-designer.md)
-

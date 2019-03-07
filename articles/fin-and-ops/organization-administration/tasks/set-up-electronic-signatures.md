@@ -1,13 +1,13 @@
---- 
-title: "Elektronisko parakstu iestatīšana"
-description: "Izmantojiet šo procedūru, lai iestatītu elektroniskos parakstus."
+---
+title: Elektronisko parakstu iestatīšana
+description: Izmantojiet šo procedūru, lai iestatītu elektroniskos parakstus.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318584"
 ---
 # <a name="set-up-electronic-signatures"></a>Elektronisko parakstu iestatīšana
 
@@ -77,5 +77,4 @@ Izmantojiet šo procedūru, lai iestatītu elektroniskos parakstus. Elektroniska
     * Norādiet, kad pieprasīt parakstus.     Atlasiet Vienmēr, ja paraksts ir nepieciešams katru reizi, kad mainās laukā esošie dati.     Atlasiet Tikai, ja paraksts ir nepieciešams tikai noteiktos apstākļos. Ja atlasāt Tikai, jāatlasa arī viena no šīm opcijām: Ja ir ievietots ieraksts, Kad tiek atjaunināts ieraksts vai Kad ieraksts tiek dzēsts.  
 10. Noklikšķiniet uz Saglabāt.
 11. Aizvērt lapu.
-
 

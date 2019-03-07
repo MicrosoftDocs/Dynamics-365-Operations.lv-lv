@@ -1,38 +1,37 @@
 ---
-title: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada augusts)"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR."
+title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada augusts)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305363"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada augusts)
 
 [!include [banner](includes/banner.md)]
 
 **8.1.104 būvējums**
 
-Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Dynamics 365 for Talent Core HR.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent Core HR.
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Skatiet vadītāju patstāvīgi lietojamā pakalpojuma ierakstus, kam beidzas derīgums
 
@@ -78,7 +77,7 @@ Ar šo līdzekli varat iestatīt uzkrājuma perioda principu plāna līmenī, la
 
 Ja konfigurēts, lai izmantotu vienu no darbiniekam specifiskiem datumiem, reģistrācijas process izmanto norādīto datumu, lai aprēķinātu uzkrāšanas periodus. Uzkrāšanas perioda princips tiek parādīts arī darbinieka plāna reģistrācijā, lai palīdzētu jums saprast, kas tiek izmantots uzkrāšanas procesa laikā.
 
-## <a name="microsoft-word-integration"></a>Microsoft Word integrācija
+## <a name="microsoft-word-integration"></a>Microsoft Word integrēšana
 
 Dokumentu veidnes ir iespējotas visā Core HR programmatūrā. Šis līdzeklis ļauj izveidot vēstules un pārskatus uz jūsu izveidotās Word veidnes bāzes.
 
@@ -88,4 +87,3 @@ Papildinformācija par šo līdzekli ir pieejama vietnē [Office integrāciju ap
 ## <a name="other-fixes"></a>Citi labojumi
 
 Šajā izlaidumā ir ietverti arī vairāki kļūdu labojumi, jaunu vienumu pievienojums, esošo vienumu labojumi un lokalizētas marķējumu izmaiņas.
-

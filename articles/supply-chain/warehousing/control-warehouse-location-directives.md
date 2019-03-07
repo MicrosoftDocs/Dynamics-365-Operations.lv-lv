@@ -1,13 +1,13 @@
 ---
-title: "Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas"
-description: "Šajā tēmā ir sniegta informācija par to kā izmantot darba veidnes un vietas direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā."
+title: Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
+description: Šajā tēmā ir sniegta informācija par to kā izmantot darba veidnes un vietas direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325415"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par to kā izmantot darba veidnes un vietas direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 
-Norādījumi, ko noliktavas darbinieki saņem mobilajā ierīcē, ir atkarīgi no darba veidnēm, kuras iestatāt programmatūrā Microsoft Dynamics 365 for Finance and Operations, lai definētu dažādos noliktavas procesus un uzdevumus. Darba veidnes nosaka, kā darbs tiek veikts katram noliktavas procesam. Saistot novietojuma direktīvu ar darba veidnēm, var palīdzēt garantēt, ka darbs notiek noteiktās noliktavu fiziskās daļās.
+Tas, kādas instrukcijas noliktavas darbinieki saņem mobilajā ierīcē, ir atkarīgs no darba veidnēm, kuras iestatāt programmā Microsoft Dynamics 365 for Finance and Operations, lai definētu dažādos noliktavas procesus un uzdevumus. Darba veidnes nosaka, kā darbs tiek veikts katram noliktavas procesam. Saistot novietojuma direktīvu ar darba veidnēm, var palīdzēt garantēt, ka darbs notiek noteiktās noliktavu fiziskās daļās.
 
 ## <a name="work-templates"></a>Darbu veidnes
 Lapa **Darbu veidnes** ļauj definēt darba operācijas, kas jāveic noliktavā. Parasti, noliktavas darba operācijas sastāv no darbību pāra: noliktavas darbinieks paņem rīcībā esošos krājumus vienā novietojumā un pēc tam liek paņemtos krājumus citā novietojumā. 
@@ -163,4 +162,3 @@ Atzīmējiet šo opciju, lai lietotu partijas stratēģijas krājumiem, kam ir i
 Šajā piemērā ir aprakstīts pirkšanas pasūtījuma process, kur vietas direktīvai ir jāatrod brīva vieta noliktavā krājuma vienībām, kas ir tikko reģistrētas saņemšanas dokā. Vispirms ir jāatrod brīva vieta noliktavā, konsolidējot rīcībā esošos krājumus. Ja konsolidācija nav iespējama, tad ir jāatrod tukša vieta. 
 
 Šādā gadījumā ir jādefinē divas vietas direktīvas darbības. Pirmajai darbībai secībā ir jāizmanto stratēģija **Konsolidēt** un otrajai vajadzētu izmantot stratēģiju **Tukšs novietojums bez ienākoša darba**. Ja tiek definēta trešā darbība pārpildes scenārija apstrādei, iespējami divi galarezultāti, kurā noliktavā vairs nav vietas: darbu var izveidot arī tad, ja nav definētas vietas, vai darba izveides process var neizdoties. Rezultātu nosaka iestatījumi lapā **Novietojuma direktīvas kļūmes**, kur varat izlemt, vai atlasīt opciju **Pārtraukt darbu, ja rodas ar novietojuma direktīvu saistīta kļūme** katram darba pasūtījuma tipam.
-

@@ -1,13 +1,13 @@
 ---
-title: "Pasūtījumu solīšana"
-description: "Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus."
+title: Pasūtījumu solīšana
+description: Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312351"
 ---
-
 # <a name="order-promising"></a>Pasūtījumu solīšana
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Jūs izveidojat pārdošanas pasūtījuma rindu par preci un ievadāt **150** k�
 Tā kā piegādes datuma kontroles metode ir ATP, tiek aprēķināti ATP dati, lai atrastu agrāko iespējamo nosūtīšanas datumu. Pamatojoties uz šiem iestatījumiem, tiek ņemts vērā aizkavētais pirkšanas pasūtījums un pārdošanas pasūtījums, un iegūtais ATP daudzums pašreizējam datumam ir 0. Rīt, kad ir paredzēts saņemt aizkavēto pirkšanas pasūtījumu, ATP daudzums tiek aprēķināts kā vairāk par 0 (šajā gadījumā tas tiek aprēķināts kā 125). Taču 10 dienas pēc šī brīža, kad ir plānots saņemt papildu pirkšanas pasūtījumu par 100 gab., ATP daudzums kļūst vairāk par 150.  
 
 Tāpēc nosūtīšanas datums tiek iestatīts uz 10 dienām no šī brīža, pamatojoties uz ATP aprēķinu. Tādējādi jūs klientu informējat, ka pieprasīto daudzumu var piegādāt 10 dienas no šī brīža.
-
 
 
 

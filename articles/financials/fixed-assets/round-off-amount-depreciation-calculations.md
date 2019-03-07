@@ -1,13 +1,13 @@
 ---
-title: "Noapaļotas nolietojuma aprēķinu summas"
-description: "Šajā rakstā ir izskaidrots lauks Nolietojuma noapaļošana, kas redzams lapā Grāmatas iestatīšana."
+title: Noapaļotas nolietojuma aprēķinu summas
+description: Šajā rakstā ir izskaidrots lauks Nolietojuma noapaļošana, kas redzams lapā Grāmatas iestatīšana.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7721e46a72e0f8133ed67c597a066a97ffd61669
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0ad57b076542c38d3c29dba4caacf830de6f7200
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308418"
 ---
-
 # <a name="round-off-amount-for-depreciation-calculations"></a>Noapaļotas nolietojuma aprēķinu summas
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Nolietojums bez noapaļošanas ir aprēķināts par summu 2444,44. Saskaņā ar 
 | Noapaļoš 1,00   | 2444,00            |
 | Noapaļoš 10,00  | 2440,00            |
 | Noapaļoš 100,00 | 2400,00            |
-
 
 
 

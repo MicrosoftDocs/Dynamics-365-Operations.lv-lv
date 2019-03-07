@@ -1,14 +1,14 @@
 ---
 title: Viens dokuments
-description: "Viens dokuments ļauj finanšu žurnālos (virsgrāmatas žurnālā, pamatlīdzekļu žurnālā, kreditoru maksājumu žurnālā u. c. žurnālos) ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu."
+description: Viens dokuments ļauj finanšu žurnālos (virsgrāmatas žurnālā, pamatlīdzekļu žurnālā, kreditoru maksājumu žurnālā u. c. žurnālos) ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu.
 author: kweekley
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
+ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 26ae31efe55eeaf6d09ef14112811ea8977bfb0a
-ms.openlocfilehash: 62c30ea748c49b0a3cfe544c7ba10eb52389c50a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/05/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308556"
 ---
-
 # <a name="one-voucher"></a>Viens dokuments
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ Pēc tam ģenerējat pārskatu **Izdevumi pēc kreditora** darbvietā **Finanšu
 - **2018. gada pavasara laidiens** — pēc noklusējuma šī funkcionalitāte būs izslēgta, izmantojot lapas **Virsgrāmatas parametri** cilnes **Vispārīgi** parametru **Atļaut vairākas transakcijas vienā dokumentā**. Taču šo funkcionalitāti varat ieslēgt, ja jūsu organizācijā tiek izmantots kāds no tālāk šajā tēmā uzskaitītajiem scenārijiem trūkstošās funkcionalitātes nodrošināšanai.
 
     - Ja klientiem ir biznesa scenārijs, kam nav nepieciešama funkcionalitāte “Viens dokuments”, šiem klientiem nevajadzētu ieslēgt šo funkcionalitāti. Microsoft nelabos kļūdas šajā tēmā tālāk norādītajās jomās, ja šī funkcionalitāte tiek izmantota, kaut gan pastāv cits risinājums.
-    - Pārtrauciet funkcionalitātes “Viens dokuments” izmantošanu integrēšanai programmā Microsoft Dynamics 365 for Finance and Operations, izņemot gadījumus, kad šī funkcionalitāte ir nepieciešama kādas trūkstošās funkcionalitātes nodrošināšanai.
+    - Pārtrauciet funkcionalitātes Viens dokuments izmantošanu integrācijai programmā Microsoft Dynamics 365 for Finance and Operations, ja vien šī funkcionalitāte nav nepieciešama kāda funkcionālā trūkuma novēršanai.
 
 - **Vēlāki laidieni** — tiks nodrošināta visa trūkstošā funkcionalitāte. **Pēc trūkstošās funkcionalitātes nodrošināšanas un jauno līdzekļu piegādāšanas līdz funkcionalitātes “Viens dokuments” neatgriezeniskai izslēgšanai paies vismaz viens gads**, jo klientiem un neatkarīgajiem programmatūras izstrādātājiem (Independent Software Vendors — ISV) ir nepieciešams pietiekams laiks, lai reaģētu uz jauno funkcionalitāti. Piemēram, viņiem varētu būt nepieciešams atjaunināt savus biznesa procesus, elementus un integrācijas.
 
@@ -153,7 +152,7 @@ Organizācijas bieži vēlas virsgrāmatā grāmatot kopsavilkuma formā, lai sa
 
 Šis scenārijs parasti attiecas uz mazumtirdzniecības organizācijām, kur debitori var izmantot vairākas maksājuma metodes, lai norēķinātos par pirkumiem. Šādā gadījumā organizācijai ir nepieciešams reģistrēt vairākus negrāmatotus maksājumus un segt tos atbilstoši debitora rēķinam.
 
-Microsoft Dynamics 365 for Operations versijā 1611 (2016. gada novembrī) tika pievienots jauns līdzeklis, kas ļauj segt vairākus negrāmatotus maksājumus, izmantojot vienu rēķinu. Vairāki debitoru maksājumi vairs nav jāievada vienā dokumentā.
+Jauns līdzeklis, kas ir pievienots Microsoft Dynamics 365 for Operations versijā 1611 (2016. gada novembris), sniedz iespēju nosegt vairākus negrāmatotus maksājumus, izmantojot vienu rēķinu. Vairāki debitoru maksājumi vairs nav jāievada vienā dokumentā.
 
 ### <a name="import-bank-statement-transactions"></a>Bankas izraksta transakciju importēšana
 

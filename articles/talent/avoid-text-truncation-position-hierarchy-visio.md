@@ -1,37 +1,36 @@
 ---
-title: "Izvairīšanās no teksta saīs. amatu hierarhijā un eksport. uz Visio"
-description: "Šajā tēmā paskaidrots, kā atrisināt problēmu, ja personu vārdi un amatu nosaukumi tiek saīsināti, kad debitori skata amatu hierarhiju programmā Microsoft Dynamics 365 for Talent. Teksta saīsināšana var apgrūtināt ekrānuzņ. veikšanu vai hierarhijas drukāšanu."
+title: Izvairīšanās no teksta saīs. amatu hierarhijā un eksport. uz Visio
+description: Šajā tēmā ir paskaidrots, kā atrisināt problēmu, kas izraisa personu vārdu un amatu nosaukumu saīsināšanu, kad debitori skata amatu hierarhiju programmā Microsoft Dynamics 365 for Talent. Teksta saīsināšana var apgrūtināt ekrānuzņ. veikšanu vai hierarhijas drukāšanu.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305284"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Izvairīšanās no teksta saīs. amatu hierarhijā un eksport. uz Visio
 
 [!include [banner](includes/banner.md)]
 
-**Izsniegt**
+**Izejas plūsma**
 
-Kad debitors skata amatu hierarhiju programmā Microsoft Dynamics 365 for Talent, personu vārdi un amatu nosaukumi tiek saīsināti. Tādēļ var būt grūti veikt ekrānuzņēmumu vai izdrukāt un izplatīt hierarhiju.
+Kad debitors skata amatu hierarhiju programmā Microsoft Dynamics 365 for Talent, tiek saīsināti personu vārdi un amatu nosaukumi. Tādēļ var būt grūti veikt ekrānuzņēmumu vai izdrukāt un izplatīt hierarhiju.
 
 ![Amatu hierarhija](media/position-h.png)
 
@@ -41,7 +40,7 @@ Tas tiek darīts ar nolūku.
 
 **Izšķirtspēja**
 
-Diemžēl lietotāji nevar viegli mainīt teksta lielumu. Tomēr amatu hierarh. var eksportēt no progr. Talent un tad to importēt pakalpojumā Microsoft Visio. Lai gan raksts tika izveidots programmai Microsoft Dynamics AX 2012, process attiecas arī uz Talent: [Pozīcijas hierarhijas eksportēšana uz Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Diemžēl lietotāji nevar viegli mainīt teksta lielumu. Tomēr amatu hierarh. var eksportēt no progr. Talent un tad to importēt pakalpojumā Microsoft Visio. Lai gan šis raksts tika rakstīts par programmu Microsoft Dynamics AX 2012, process attiecas arī uz programmu Talent: [Amatu hierarhijas eksportēšana uz programmu Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Rīkojieties šādi, lai eksp. uz Visio.
 
@@ -49,7 +48,7 @@ Rīkojieties šādi, lai eksp. uz Visio.
 
     Lai iekļautu papildu informāciju organizācijas struktūras diagrammā, pievienojiet laukus sarakstā **Amati**, lai tie būtu pieejami, vēlāk izmantojot vedni šajā procedūrā.
 
-2. Darbību rūtī atlasiet pogu **Atvērt, izmantojot Microsoft Office** un tad sadaļā **Eksportēt uz Excel** atlasiet **Amati**. Vai arī nospiediet Ctrl+T.
+2. Darbību rūtī atlasiet pogu **Atvērt, izmantojot Microsoft Office** un pēc tam sadaļā **Eksportēt uz Excel** atlasiet vienumu **Amati**. Vai arī nospiediet Ctrl+T.
 
     ![Saraksta lapas Amati eksports uz Excel](media/org-admin.png)
 
@@ -107,4 +106,3 @@ Pamatojoties uz laukiem, kas atlasīti iekļaušanai diagrammā, katrs zars rād
 **Papildu opcija**
 
 Programmā Talent var lietot arī darbvietu **Personas**, lai skatītu ar hierarhiju saistīto informāciju.
-

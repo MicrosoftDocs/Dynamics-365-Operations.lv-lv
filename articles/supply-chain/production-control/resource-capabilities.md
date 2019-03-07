@@ -1,13 +1,13 @@
 ---
-title: "Resursu iespējas"
-description: "Šajā rakstā ir sniegta informācija par resursu iespējām. Iespēja ir operācijas resursa pieejamība konkrētas aktivitātes izpildīšanai. Rakstā ir izskaidrots, kā iespējas un saistītās koncepcijas, piemēram, prasmes līmenis un prioritāte, tiek izmantotas, lai atlasītu attiecīgos darbības resursus."
+title: Resursu iespējas
+description: Šajā rakstā ir sniegta informācija par resursu iespējām. Iespēja ir operācijas resursa pieejamība konkrētas aktivitātes izpildīšanai. Rakstā ir izskaidrots, kā iespējas un saistītās koncepcijas, piemēram, prasmes līmenis un prioritāte, tiek izmantotas, lai atlasītu attiecīgos darbības resursus.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319297"
 ---
-
 # <a name="resource-capabilities"></a>Resursu iespējas
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Definējot resursu prasības ražošanas maršrutam, kā prasības var norādīt
 
 ## <a name="competencies-for-human-resources"></a>Cilvēkresursu zināšanas
 Ja jums ir operācijas resursi ar tipu **Cilvēkresursi**, kas ir saistīti ar darbiniekiem Cilvēkresursos, jūs varat arī izmantot darbinieku zināšanas, definējot resursu prasības ražošanas maršrutam. Citiem vārdiem sakot, varat arī norādīt prasības specifiskām prasmēm, kursiem, sertifikātiem vai amatiem. Pēc tam plānošanas programma var atlasīt resursus, kas ir saistīti ar darbiniekiem, un atlases pamatā būs šo darbinieku zināšanas. Zināšanas ir iestatītas Cilvēkresursos, nevis lapā **Resursu iespējas** lapu. Definējot prasmes, kursus, sertifikātus vai amatus kā resursu prasības, ir jāizmanto moduļa Personāla vadība funkcionalitāte un katrs resurss, kura veids ir **Cilvēkresursi**, ir jāsaista ar atbilstošu nodarbinātā veidu. Ja nelietojat moduļa Personāla vadība funkcionalitāti, varat lapā **Resursu iespējas** definēt iespējas, kas līdzinās kompetencēm modelī Personāla vadība vai ir to dublikāti. Tomēr, lapā **Resursu iespējas** nav funkcionalitātes, kas ir nepieciešama, lai saglabātu prasmes, kursus, sertifikācijas vai amatus.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Galveno kontu veidi
-description: "Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā."
+description: Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31d070972afd76f6069924e2c9a1ca3bcb4ba8d2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313869"
 ---
-
 # <a name="main-account-types"></a>Galveno kontu veidi
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Izveidojot galveno kontu lapā Galvenie konti — kontu plāns, ir jāatlasa gal
 -   Pārskatu sagatavošana — šie galvenie konti tiek izmantoti finanšu pārskatu sagatavošanai tikai Brazīlijā.
 
 Plašāku informāciju skatiet šeit: [Iestatīt galvenā konta kategorijas](tasks/set-up-main-account-categories.md).
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Apstiprināšanas procesu konfigurēšana darbplūsmā"
-description: "Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus."
+title: Apstiprināšanas procesu konfigurēšana darbplūsmā
+description: Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325645"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Apstiprināšanas procesu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ Varat lietotājiem nosūtīt paziņojumus, kad dokuments ir apstiprināts, norai
     </tr>
     <tr>
     <td><strong>Lietotājs</strong></td>
-    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
+    <td>Īpaši Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
     <td>
     <ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
-    <li><strong>Pieejamie lietotāji</strong>: sarakstā ir ietverti visi Microsoft Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
+    <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi Microsoft Dynamics 365 for Finance and Operations lietotāji. Atlasiet lietotājus, kuriem sūtīt paziņojumus, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Apstiprināšanas process sastāv no apstiprināšanas darbībām. Veiciet šād
 1. Darbplūsmas redaktorā veiciet dubultklikšķi uz apstiprināšanas procesa. Darbplūsmas redaktorā tiek parādītas apstiprināšanas procesa darbības.
 2. Lai pievienotu apstiprināšanas darbību, velciet darbību no apgabala **Darbplūsmas elementi** uz audekla.
 3. Lai konfigurētu apstiprināšanas darbību, skatiet sadaļu [Apstiprinājuma darbības konfigurēšana](configure-approval-step-workflow.md).
-

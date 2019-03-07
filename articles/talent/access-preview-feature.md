@@ -1,14 +1,14 @@
 ---
-title: "Piekļuve priekšskatījuma līdzekļiem programmā Talent"
-description: "Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus, un tajā ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam."
+title: Piekļuve priekšskatījuma līdzekļiem programmā Talent
+description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus, un tajā ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305299"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Piekļuve priekšskatījuma līdzekļiem programmā Talent
 
 [!include[banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ Pastāvīgi izstrādājot jaunas mūsu produktu iespējas, mēs vēlamies piedā
 
 ## <a name="enable-or-disable-preview-features"></a>Priekšskatījuma līdzekļu iespējošana vai atspējošana
 
-Varat izmantot iestatījumu **Priekšskatījuma līdzekļi** Microsoft Dynamics 365 for Talent administratoru centrā, lai iespējotu vai atspējotu līdzekļu priekšskatījumu. Pēc noklusējuma iestatījums ir izslēgts. Līdzekļu priekšskatījuma iespējošanas vai atspējošanas darbība atkarīga no vides.
+Varat izmantot iestatījumu **Priekšskatījuma līdzekļi** Dynamics 365 for Talent administratoru centrā, lai iespējotu vai atspējotu priekšskatījuma līdzekļus. Pēc noklusējuma iestatījums ir izslēgts. Līdzekļu priekšskatījuma iespējošanas vai atspējošanas darbība atkarīga no vides.
 
 > [!IMPORTANT]
 > Ieslēdzot iestatījumu **Priekšskatījuma līdzekļi**, tie tiek iespējoti visiem lietotājiem jūsu organizācijā, kas ir tajā vidē. Izslēdzot šo iestatījumu, priekšskatījuma līdzekļi tiek atspējoti un kļūst nepieejami jūsu lietotājiem. Priekšskatījuma līdzekļiem ir ierobežots atbalsts pakalpojumā Talent. Tiem var izmantot mazāk privātuma un drošības pasākumu, un tie nav ietverti Talent pakalpojumu līmeņa līgumā. Jūs nedrīkstat lietot priekšskatījuma līdzekļus, lai apstrādātu personas datus (t.i., jebkura informācija, kas varētu identificēt jūs) vai apstrādāt citus datus, uz ko attiecas juridiskas vai normatīvas atbilstības prasības.
 
 ### <a name="enable-or-disable-preview-features-for-your-organization"></a>Priekšskatījuma līdzekļu iespējošana vai atspējošana jūsu organizācijai
 
-#### <a name="attract"></a>Attract
+#### <a name="attract"></a>Piesaiste
 
-1. Pierakstieties Microsoft Dynamics 365 for Talent: Attract.
+1. Pierakstieties programmā Microsoft Dynamics 365 for Talent: Attract.
 2. Izvēlnē **Iestatīšana** (zobrata simbols) augšējā labajā stūrī atlasiet **Administratora iestatījumi**.
 3. Cilnē **Līdzekļu pārvaldība** atlasiet opciju blakus **Priekšskatījuma līdzekļi**, tā kļūst zila.
 4. Varat arī kontrolēt atsevišķus līdzekļus, šajā lapā iespējojot/atspējojot noteiktus līdzekļus.
@@ -92,4 +91,3 @@ Neiekļaujiet personas datus (jebkāda informācija, kas ļauj identificēt jūs
 
 > [!TIP]
 > Ielieciet šo tēmu grāmatzīmēs un atgriezieties, lai uzzinātu par jauniem pievienotiem priekšskatījuma līdzekļiem.
-

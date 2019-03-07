@@ -1,13 +1,13 @@
 ---
-title: "Attract līdzekļi un iespējas"
-description: "Šajā tēmā ir aprakstīti programmā Attract pieejamie līdzekļi jauna darbinieka pieņemšanas procesa pārvaldībai."
+title: Attract līdzekļi un iespējas
+description: Šajā tēmā ir aprakstīti programmā Attract pieejamie līdzekļi jauna darbinieka pieņemšanas procesa pārvaldībai.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305318"
 ---
 # <a name="attract-features-and-capabilities"></a>Attract līdzekļi un iespējas
 
@@ -33,7 +33,7 @@ Programma Attract nodrošina iespējas jauna darbinieka pieņemšanas procesa p�
 Šajā tēmā ir aprakstīti programmā Attract pieejamie līdzekļi.
 
 ## <a name="attract-dashboard"></a>Attract informācijas panelis
-Informācijas panelī darbā pieņemšanas grupas dalībnieki var skatīt detalizētu informāciju par vakancēm, ar kurām viņi ir saistīti. Turklāt par pieņemšanu darbā atbildīgais vadītājs vai personāla atlases darbinieks var izmantot informācijas paneli, lai pievienotu jaunas vakances programmai Attract, izveidojot tās pa vienai vai vienlaikus importējot vairākas vakances no Microsoft Excel izklājlapas.
+Informācijas panelī darbā pieņemšanas grupas dalībnieki var skatīt detalizētu informāciju par vakancēm, ar kurām viņi ir saistīti. Turklāt par pieņemšanu darbā atbildīgais vadītājs vai personāla atlases darbinieks var izmantot informācijas paneli, lai pievienotu jaunus darbus programmai Attract, izveidojot darbus pa vienam vai vienlaikus importējot vairākus darbus no Microsoft Excel izklājlapas.
 
 ## <a name="jobs"></a>Darbi
 Lapā **Darbs** var skatīt un rediģēt detalizētu informāciju, piemēram, pienākumu aprakstu un vakances atrašanās vietu. Lapā **Darbs** arī tiek veidota darbā pieņemšanas grupa un varat pievienot vai mainīt grupā ietvertos personāla atlases darbiniekus un intervētājus. Lapā **Darbs** varat arī pievienot jaunus kandidātus.
@@ -46,4 +46,3 @@ Programma Attract nodrošina iepriekš definētu darbā pieņemšanas procesu, k
 
 ## <a name="candidate-app"></a>Kandidāta programma
 Tiklīdz kandidāti tiek pievienots kādai vakancei, viņi saņem e-pasta ziņojumu, kurā ir ietverta tīmekļa programmas iegūšanas saite. Šajā programmā ir sniegta detalizēta informācija par vakanci, un tā tiek izmantota, lai sazinātos ar darbā pieņemšanas grupu. Kandidāti var to izmantot arī informācijas sniegšanai par savu pieejamību intervijām.
-

@@ -1,13 +1,13 @@
 ---
-title: "Standarta izmaksu atjaunināšana vidē, kas nav saistīta ar ražošanu"
-description: "Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt standarta izmaksas vidē, kas nav saistīta ar ražošanu."
+title: Standarta izmaksu atjaunināšana vidē, kas nav saistīta ar ražošanu
+description: Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt standarta izmaksas vidē, kas nav saistīta ar ražošanu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323023"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Standarta izmaksu atjaunināšana vidē, kas nav saistīta ar ražošanu
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Lai labotu, pielāgotu vai atjauninātu jauno krājumu standarta izmaksas, veici
 4.  Izmantojiet lapu **Izmaksu aprēķināšanas versijas uzturēšana**, lai mainītu bloķējošo karodziņu un tādējādi atļautu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto izmaksu ierakstu aktivizēšanu.
 5.  Izmantojiet lapu **Aktivizēt cenas** (ko var atvērt, izmantojot lapu **Izmaksu aprēķināšanas versijas uzturēšana**), lai atļautu visu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto krājumu izmaksu ierakstu aktivizēšanu. Var aktivizēt arī atsevišķu krājumu neapstiprināto izmaksu ierakstus, lapā **Krājuma cena** noklikšķinot uz pogas **Aktivizēt neapstiprinātās cenas**.
 6.  Lai nepieļautu papildu datu uzturēšanu, izmantojiet lapu **Izmaksu aprēķināšanas versijas iestatīšana**, lai mainītu bloķējošos karodziņus, kas ir iekļauti otrajā izmaksu aprēķināšanas versijā. Bloķēšana novērsīs jaunu nenokārtotu izmaksu ievadi un nenokārtoto izmaksu aktivizāciju.
-
 
 
 

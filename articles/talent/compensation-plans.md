@@ -1,13 +1,13 @@
 ---
-title: "Atlīdzības plāni"
-description: "Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas."
+title: Atlīdzības plāni
+description: Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: e80b3ebc9c374073ff5a2dfc8c2acf1d7f6c6287
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 86070204769b866b947405436437eb0eb746de11
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305297"
 ---
-
 # <a name="compensation-plans"></a>Atlīdzības plāni
 
 [!include [banner](includes/banner.md)]
@@ -56,7 +55,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 <td>Ar fiksētājām atlīdzības darbībām tiek sasniegti divi mērķi:
 <ul>
 <li>Darbības var norādīt, kāda informācija ir jāreģistrē, kad mainās darbinieka atlīdzība. Piemēram, varat pieprasīt, lai tiktu reģistrēts izmaiņu iemesls, piemēram, paaugstināšana vai pazemināšana amatā.</li>
-<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, darbības ar tipu Kapitāls darbinieku algas salīdzinās ar minimālo atsauces punktu darbinieka līmenim un nodrošinās, ka darbiniekam tiek izmaksāts vismaz minimums.</li>
+<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, izpildot tipa Kapitāls darbības, darbinieku alga tiek salīdzināta ar darbinieka līmeņa minimālo atsauces punktu un tiek nodrošināts, ka darbiniekam tiek samaksāta vismaz minimālā summa.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -65,7 +64,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="odd">
 <td>Diapazona lietojuma matrica</td>
-<td>Diapazona lietojuma matrica jums palīdz pārcelt darbiniekus uz kontrolpunktu viņu darbiem. Diapazona lietojumu varat arī izmantot, lai uzņēmumā kontrolētu apmaksas likmes kapitālu, neņemot vērā atsevišķa darbinieka veiktspēju vai uzņēmuma vispārējo veiktspēju. Piemēram, darbinieki, kas savā diapazonā ir zemāk apmaksāti, saņem lielāku procentuālo pieaugumu nekā darbinieki, kas savā diapazonā ir augstāk apmaksāti. Šādi varat sistemātiski nobīdīt kapitāla atšķirības. Diapazona lietojums tiek aprēķināts šādi: (Fiksēta apmaksas likme - Diapazona minimums) ÷ (Diapazona maksimums - Diapazona minimums).</td>
+<td>Diapazona lietojuma matrica jums palīdz pārcelt darbiniekus uz kontrolpunktu viņu darbiem. Varat izmantot diapazona lietojumu arī apmaksas likmes kapitāla kontrolei uzņēmumā, neņemot vērā atsevišķa darbinieka veiktspēju vai kopējo uzņēmuma veiktspēju. Piemēram, darbinieki, kas savā diapazonā ir zemāk apmaksāti, saņem lielāku procentuālo pieaugumu nekā darbinieki, kas savā diapazonā ir augstāk apmaksāti. Šādi varat sistemātiski nobīdīt kapitāla atšķirības. Diapazona lietojums tiek aprēķināts šādi: (Fiksēta apmaksas likme - Diapazona minimums) ÷ (Diapazona maksimums - Diapazona minimums).</td>
 </tr>
 <tr class="even">
 <td>Atsauces punkta iestatījumi</td>
@@ -132,7 +131,6 @@ Katru reizi, kad tiek palaists procesa notikums, tiek izveidots atlīdzības not
 
 ## <a name="recommendations"></a>Ieteikumi
 Pēc procesa notikuma palaišanas varat ieteikt korekcijas darbinieka nopelnu palielinājumam vai piemaksas summai, pamatojoties uz procesa notikuma aprēķinātajām vadlīnijām. Lai darbiniekiem sniegtu ieteikumus, ieteikumi ir jāiespējo, kad iestatāt atlīdzību plānus vai kad iestatāt procesa notikumu.
-
 
 
 

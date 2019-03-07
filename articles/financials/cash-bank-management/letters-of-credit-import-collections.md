@@ -1,13 +1,13 @@
 ---
-title: "Kredītvēstules un importa inkaso"
-description: "Šajā rakstā ir sniegta vispārīga informācija par akreditīviem un importa inkaso. Abu tipu bankas dokumenti bieži tiek lietoti pārrobežu preču pirkšanai un pārdošanai."
+title: Kredītvēstules un importa inkaso
+description: Šajā rakstā ir sniegta vispārīga informācija par akreditīviem un importa inkaso. Abu tipu bankas dokumenti bieži tiek lietoti pārrobežu preču pirkšanai un pārdošanai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323046"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Kredītvēstules un importa inkaso
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Kredītvēstule var būt **atsaucama** vai **neatsaucama**. Kredītvēstules rak
 Importa inkaso ir līgums starp banku un eksportētāju (pārdevēju), kurā banka piekrīt piegādāt sūtījuma dokumentāciju starptautiskajam importētājam (pircējam). Sūtījuma dokumentāciju banka piegādā, saņemot maksājumu par nosūtāmajām precēm skaidrā naudā vai saņemot parakstītu maksājuma uzdevumu. 
 
 Importa inkaso palīdz nodrošināt, ka pārdevējam tiek samaksāts, kad pircējs saņem sūtījuma dokumentus, lai veiktu importēto preču piegādi.
-
 
 
 

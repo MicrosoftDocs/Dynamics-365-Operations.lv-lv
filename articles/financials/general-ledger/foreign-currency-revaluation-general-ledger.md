@@ -1,13 +1,13 @@
 ---
-title: "Ārvalstu valūtas pārvērtēšana Virsgrāmatai"
-description: "Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā."
+title: Ārvalstu valūtas pārvērtēšana Virsgrāmatai
+description: 'Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā.'
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315548"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
 [!include [banner](../includes/banner.md)]
@@ -68,7 +67,7 @@ Pārvērtēšanas procesu var izpildīt vienai vai vairākām juridiskajām pers
 
 Pārvērtēšanu var palaist vienai vai vairākām ārvalstu valūtām. Uzmeklēšanas sarakstā ir iekļautas visas valūtas, kas ir grāmatotas norādītajā datumu diapazonā saistībā ar attiecīgo galvenā konta veidu (Bilance vai Peļņa un zaudējumi) pārvērtēšanai atlasītajām juridiskām personām. Šajā sarakstā ir iekļauta uzskaites valūta, taču, ja tā tiek atlasīta, nekas netiek pārvērtēts. 
 
-Ja vēlaties pārskatīt Virsgrāmatas pārvērtēšanas rezultātu, iestatiet opcijas **Priekšskatīt pirms grāmatošanas** vērtību **Jā**. Virsgrāmatas priekšskatījums atšķiras no ārvalstu valūtas pārvērtēšanas simulācijas modulī Debitoru parādi vai Parādi kreditoriem. Simulācija modulī Debitoru parādi vai Parādi kreditoriem ir pārskats, taču Virsgrāmatas priekšskatījumu var grāmatot, atkārtoti neveicot pārvērtēšanas procesu. Priekšskatījuma rezultātus var eksportēt uz Microsoft Excel, lai uzturētu summu aprēķināšanas vēsturi. Ja vēlaties priekšskatīt pārvērtēšanas rezultātus, nevar izmantot pakešapstrādi. No priekšskatījuma lietotājam ir iespēja grāmatot visu juridisko personu rezultātus, izmantojot pogu **Grāmatot**. Ja kādas juridiskās personas rezultātos pastāv problēma, lietotājam ir arī iespēja grāmatot juridisko personu apakškopu, izmantojot pogu **Atlasīt grāmatojamās juridiskās personas**. 
+Ja vēlaties pārskatīt Virsgrāmatas pārvērtēšanas rezultātu, iestatiet opcijas **Priekšskatīt pirms grāmatošanas** vērtību **Jā**. Virsgrāmatas priekšskatījums atšķiras no ārvalstu valūtas pārvērtēšanas simulācijas modulī Debitoru parādi vai Parādi kreditoriem. Simulācija modulī Debitoru parādi vai Parādi kreditoriem ir pārskats, taču Virsgrāmatas priekšskatījumu var grāmatot, atkārtoti neveicot pārvērtēšanas procesu. Priekšskatījuma rezultātus var eksportēt uz programmu Microsoft Excel, lai saglabātu summu aprēķināšanas vēsturi. Ja vēlaties priekšskatīt pārvērtēšanas rezultātus, nevar izmantot pakešapstrādi. No priekšskatījuma lietotājam ir iespēja grāmatot visu juridisko personu rezultātus, izmantojot pogu **Grāmatot**. Ja kādas juridiskās personas rezultātos pastāv problēma, lietotājam ir arī iespēja grāmatot juridisko personu apakškopu, izmantojot pogu **Atlasīt grāmatojamās juridiskās personas**. 
 
 Pēc ārvalstu valūtas pārvērtēšanas procesa pabeigšanas tiek izveidots ieraksts, kas sniedz iespēju izsekot katras izpildes vēsturi.  Katrai juridiskajai personai un grāmatošanas līmenim tiek izveidots atsevišķs ieraksts.
 
@@ -116,7 +115,6 @@ Tiks izveidots tālāk norādītais uzskaites ieraksts.
 Ja ir nepieciešams anulēt pārvērtēšanas transakciju, atlasiet pogu **Anulēt transakciju** lapā **Ārvalstu valūtas pārvērtēšana**. Tiek izveidots jauns ārvalstu valūtas pārvērtēšanas vēsturiskais ieraksts, lai uzturētu vēsturiskos auditācijas pierakstus par to, kad pārvērtēšana notika vai tika anulēta. 
 
 Varat anulēt pārvērtēšanas rezultātus neatkarīgi no datumu secības, taču var būt nepieciešams anulēt arī jaunāku pārvērtēšanu, lai nodrošinātu, ka katra pārvērtētā galvenā konta bilance ir pareiza. Anulēšanu var veikt neatkarīgi no datumu secības, jo nevar kontrolēt to, kuri galvenie konti un cik bieži tiek pārvērtēti. Piemēram, organizācija var izvēlēties pārvērtēt savus skaidras naudas galvenos kontus reizi ceturksnī, taču visus citus galvenos kontus reizi mēnesī.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)"
-description: "Šajā rakstā ir aprakstītas funkcijas, kas Microsoft Dynamics AX programmas versijā 7.0.1 ir jaunas vai ir mainītas. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014."
+title: Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics AX programmas versijā 7.0.1. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314513"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas funkcijas, kas Microsoft Dynamics AX programmas versijā 7.0.1 ir jaunas vai ir mainītas. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics AX programmas versijā 7.0.1. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014.
 
 ## <a name="electronic-reporting-er"></a>Elektronisko atskaišu veidošana (ER)
 
@@ -38,13 +37,13 @@ ms.lasthandoff: 12/18/2018
 | Konfigurējiet izpildlaika dialoglodziņu elektronisko atskaišu veidošanas (Electronic reporting —ER) atskaišu noformēšanai, lai lietotāji varētu izvēlēties vēlamās finanšu dimensijas. | Izpildlaikā ER atskaites izpildes dialoglodziņā lietotāji var atlasīt vairākas finanšu dimensijas. Atlasīto finanšu dimensiju detalizētā informācija tiek rādīta elektroniskajā dokumentā, kas tiek ģenerēts. |
 | Konfigurēt piekļuvi vairākām finanšu dimensijām ER atskaites veidošanas laikā, izmantojot vienu kartēšanu uz nepieciešamo datu avotu. | To pašu ER atskaites konfigurāciju var izmantot, lai veidotu elektroniskus dokumentus, kuros transakciju dati ir norādīti kopā ar informāciju par finanšu dimensijām, neatkarīgi no lietotāja atlasīto vai pašreizējai juridiskajai personai vai instancei konfigurēto finanšu dimensiju skaita. |
 | Konfigurējiet ER atskaiti, lai ievadītu datus dinamiski ģenerētās elektroniska dokumenta kolonnās, kurš tiek veidots OPENXML darblapas formātā. | ER atskaite var ievadīt datus OPENXML darblapā, kas tiek ģenerēta, horizontāli replicējot kolonnas. Līdz ar to tādu pašu ER atskaites konfigurāciju var izmantot atkārtoti, lai ģenerētu elektroniskus dokumentus, kuros ir atšķirīgs dinamiski ģenerēto kolonnu skaits. |
-| Konfigurējiet ER galamērķus, lai formāta izvades rezultāts būtu vērsts uz konkrētu galamērķi: failu, e-pasta ziņojumu vai arhīvu (Microsoft SharePoint mapes vai Microsoft Azure krātuve). | Iepriekš, kad izpildījāt ER konfigurēšanu, tika parādīts ziņojuma lodziņš, kas lietotājam pieprasīja kaut ko darīt, lai failu saglabātu vai atvērtu. Tagad varat jau iepriekš konfigurēt adresātu katrai formāta konfigurācijai un katram izvades komponentam (mapei vai failam) atsevišķi. Lietotāji, kuriem ir atbilstošas piekļuves tiesības, mērķa iestatījumus var modificēt arī izpildlaikā. |
+| Konfigurējiet ER galamērķus, lai formāta izvades rezultāts būtu vērsts uz konkrētu galamērķi: failu, e-pasta ziņojumu vai arhīvu (Microsoft SharePoint mape vai Microsoft Azure krātuve). | Iepriekš, kad izpildījāt ER konfigurēšanu, tika parādīts ziņojuma lodziņš, kas lietotājam pieprasīja kaut ko darīt, lai failu saglabātu vai atvērtu. Tagad varat jau iepriekš konfigurēt adresātu katrai formāta konfigurācijai un katram izvades komponentam (mapei vai failam) atsevišķi. Lietotāji, kuriem ir atbilstošas piekļuves tiesības, mērķa iestatījumus var modificēt arī izpildlaikā. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>POS — Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
 
 | Ko iespējams izdarīt? | Kāpēc tas ir svarīgi? |
 |------------------|------------------------|
-| Izmantojiet pārlūku Google Chrome. | Mākoņa POS mazumtirgotāji tagad var palaist no pārlūka Chrome un var baudīt visu funkcionalitāti, kas ir pieejami Microsoft Edge un Internet Explorer mākoņa POS versijā. |
+| Izmantojiet pārlūku Google Chrome. | Mazumtirgotāji tagad var palaist Cloud POS no pārlūkprogrammas Chrome un var baudīt visu funkcionalitāti, kas ir pieejama Cloud POS Microsoft Edge un Internet Explorer versijā. |
 
 ## <a name="financial-reporting"></a>Finanšu pārskati
 
@@ -107,4 +106,3 @@ ms.lasthandoff: 12/18/2018
 [Jaunumi un izmaiņas](whats-new-changed.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
-

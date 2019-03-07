@@ -1,13 +1,13 @@
---- 
-title: "Atvieglojumu piemērojamības apstrāde"
-description: "Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process."
+---
+title: Atvieglojumu piemērojamības apstrāde
+description: Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 859bf2ef369173ce4b6bc380820ea157ae86e13a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325553"
 ---
 # <a name="benefit-eligibility-process"></a>Atvieglojumu piemērojamības apstrāde
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/17/2018
 24. Noklikšķiniet uz Rādīt rezultātus.
 25. Atveriet kolonnas filtru Statuss.
 26. Kārtot no A uz Z
-
 

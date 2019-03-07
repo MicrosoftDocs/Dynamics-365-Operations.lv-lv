@@ -1,13 +1,13 @@
 ---
-title: "Apmaksa atbilstoši reģistrācijām"
-description: "Šajā tēmā ir paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbinātaisu reģistrācijām."
+title: Apmaksa atbilstoši reģistrācijām
+description: Šajā tēmā ir paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbinātaisu reģistrācijām.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321114"
 ---
-
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Ja nodarbinātais darbdienā neierodas darbā un šim nodarbinātajam nav nevien
 - Automātiski ievietot kavējumu
 
 Aprēķinot ikdienas reģistrācijas nodarbinātajam, kuram ir iespējots brīvā režīma laiks, kā noklusējuma kavējuma kods tiek izmantots laukā **Automātiski ievietot brīvo režīmu -** norādītais kavējuma kods. Ja nodarbinātajam nav iespējots brīvā režīma laiks, tiek izmantots laukā **Automātiski ievietot kavējumu** norādītais kavējuma kods. Ja uzņēmumā ir gan tādi nodarbinātie, kuriem ir iespējots brīvā režīma laiks, gan tādi nodarbinātie, kuriem nav iespējots brīvā režīma laiks, ir jāiestata abi parametri.
-

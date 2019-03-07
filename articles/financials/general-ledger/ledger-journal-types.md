@@ -1,13 +1,13 @@
 ---
-title: "Virsgrāmatas žurnālu tipi"
-description: "Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem."
+title: Virsgrāmatas žurnālu tipi
+description: Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308671"
 ---
-
 # <a name="ledger-journal-types"></a>Virsgrāmatas žurnālu tipi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem. Izmantojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem. Lietojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Microsoft Dynamics 365 for Finance and Operations.
 
 | Žurnāla tips                      | Nolūks                       | Ievadiet darbības šajā lapā                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ ms.lasthandoff: 10/16/2018
 | Kreditora rēķina reģistrēšana          | Grāmatojiet kreditoru rēķinus, kas ir žurnālā.                                                                                                                                                                                                                                                                                                                 | Rēķinu žurnāls                                                |
 | Atkārtoti izrakstīta kreditora parādzīme     | Atkārtoti izrakstiet parādzīmi, ko iepriekš izpirkusi jūsu organizācijas banka.                                                                                                                                                                                                                                                                      | Parādzīmju izlikšanas žurnāls                                 |
 | Kreditoru parādzīmju apmaksa     | Izveidojiet kreditora parādzīmes segšanas darbības.                                                                                                                                                                                                                                                                                                          | Parādzīmju apmaksas žurnāls                                 |
-
 
 
 

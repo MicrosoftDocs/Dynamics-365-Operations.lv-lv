@@ -1,13 +1,13 @@
 ---
-title: "Perifērijas ierīču savienošana ar pārdošanas punktu (POS)"
-description: "Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS."
+title: Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
+description: Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308786"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
 
 > [!NOTE]
-> Konkrētas instalēšanas instrukcijas skatiet rakstā [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md) un [Retail Modern POS pašapkalpošanās lejupielādēšana/instalēšana un Modern POS un Cloud POS ierīces aktivizēšana](retail-modern-pos-device-activation.md).
+> Konkrētus instalēšanas norādījumus skatiet rakstos [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md) un [Retail Modern POS pašapkalpošanās risinājuma lejupielāde/instalēšana un Modern POS un Cloud POS ierīces aktivizēšana](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Galvenie komponenti
 
@@ -188,4 +187,3 @@ Ar aktivizēšanu saistītā papildinformācija ietver darbinieku, kurš mainīj
 ### <a name="client-data-synchronization"></a>Klienta datu sinhronizācija
 
 Visas izmaiņas POS klientā, izņemot izmaiņas ierīces aktivizēšanas statusā, ir nepieciešams sinhronizēt ar kanālu datu bāzi, lai tās stātos spēkā. Lai sinhronizētu izmaiņas ar kanālu datu bāzi, pārejiet uz sadaļu **Mazumtirdzniecība**  &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks** un palaidiet nepieciešamo sadales grafiku. Lai sinhronizētu klienta datu izmaiņas jums ir jāpalaiž sadales grafiki “Reģistri” un “Kanāla konfigurācija”.
-

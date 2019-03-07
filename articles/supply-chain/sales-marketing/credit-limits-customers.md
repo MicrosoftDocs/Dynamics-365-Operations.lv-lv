@@ -1,13 +1,13 @@
 ---
-title: "Debitoru kredīta limiti"
-description: "Šajā rakstā ir sniegts apskats par to, kā kredītkaršu limiti darbojas programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Debitoru kredīta limiti
+description: Šajā rakstā ir sniegts apskats par to, kā darbojas kredīta limiti programmā Microsoft Dynamics 365 for Finance and Operations.
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e00828ea24434da6dfd7443153b007ea728375f3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312673"
 ---
-
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
 [!include [banner](../includes/banner.md)]
@@ -115,10 +114,8 @@ Lai norādītu, vai ir jāparāda brīdinājums vai kļūda, ja tiek pārsniegts
 
 |    Lauks                                                               |    Apraksts                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Ziņojums, pārsniedzot kredīta limitu (apgabalā Kredītreitings)     |    Atlasiet, kā lietotājiem tiek rādīti ziņojumi par kredīta limitu pārsniegšanu. Atlasiet no tālāk aprakstītajām opcijām.
-Kļūda — tiek parādīts kļūdas ziņojums. Tas parasti pārtrauc pašreizējo operāciju, un pirms procesa turpināšanas konflikts ir jāatrisina.     Brīdinājums — tiek parādīts brīdinājuma ziņojums, bet procesu var turpināt.                     |
-|    Ziņojums, pārsniedzot kredīta limitu (apgabalā AIF)               |    Atlasiet, kā ziņojumi par kredīta limita pārsniegšanu tiek piegādāti žurnālā. Atlasiet no tālāk aprakstītajām opcijām.
-Kļūda — formā Izņēmumi tiek parādīts kļūdas ziņojums, un dokuments netiek apstrādāts, kamēr kļūda nav atrisināta.     Brīdinājums — formā Izņēmumi tiek parādīts brīdinājuma ziņojums, bet procesu var turpināt.        |
+|    Ziņojums, pārsniedzot kredīta limitu (apgabalā Kredītreitings)     |    Atlasiet, kā lietotājiem tiek rādīti ziņojumi par kredīta limitu pārsniegšanu. Atlasiet no tālāk aprakstītajām opcijām.        Kļūda — tiek parādīts kļūdas ziņojums. Tas parasti pārtrauc pašreizējo operāciju, un pirms procesa turpināšanas konflikts ir jāatrisina.     Brīdinājums — tiek parādīts brīdinājuma ziņojums, bet procesu var turpināt.                     |
+|    Ziņojums, pārsniedzot kredīta limitu (apgabalā AIF)               |    Atlasiet, kā ziņojumi par kredīta limita pārsniegšanu tiek piegādāti žurnālā. Atlasiet no tālāk aprakstītajām opcijām.        Kļūda — formā Izņēmumi tiek parādīts kļūdas ziņojums, un dokuments netiek apstrādāts, kamēr kļūda nav atrisināta.     Brīdinājums — formā Izņēmumi tiek parādīts brīdinājuma ziņojums, bet procesu var turpināt.        |
 
 **Kā norādīt kredīta limita summu konkrētam debitoram?**
 
@@ -142,4 +139,3 @@ Reizēm debitora kredīta limitu var būt nepieciešams pārbaudīt manuāli. De
 1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Pārdošanas pasūtījumi** \> **Visi pārdošanas pasūtījumi**. Veiciet dubultklikšķi uz pārdošanas pasūtījuma.
 
 2.  Formas **Pārdošanas pasūtījums** darbību rūts cilnē **Pārvaldīt** noklikšķiniet uz **Pārbaudīt kredīta limitu**.
-

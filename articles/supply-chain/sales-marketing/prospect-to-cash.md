@@ -1,39 +1,38 @@
 ---
-title: "No potenciālā klienta līdz skaidrai naudai"
-description: "Šajā tēmā ir sniegts apskats par risinājumu No potenciālā klienta līdz skaidrai naudai programmās Microsoft Dynamics 365 for Finance and Operations un Microsoft Dynamics 365 for Sales."
+title: No potenciālā klienta līdz skaidrai naudai
+description: Šajā tēmā ir sniegts apskats par risinājumu No potenciālā klienta līdz skaidrai naudai, kas darbojas programmās Microsoft Dynamics 365 for Finance and Operations un Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309499"
 ---
-
 # <a name="prospect-to-cash"></a>No potenciālā klienta līdz skaidrai naudai
 
 [!include [banner](../includes/banner.md)]
 
-Risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tiešu sinhronizāciju programmās Dynamics 365 for Finance and Operations un Dynamics 365 for Sales. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Kamēr notiek datu plūsma starp Finance and Operations un Sales, programmā Sales varat veikt pārdošanas un mārketinga aktivitātes, un varat tikt galā ar pasūtījuma izpildi, izmantojot krājumu vadību programmā Finance and Operations. 
+Risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tiešu sinhronizāciju programmās Dynamics 365 for Finance and Operations un Dynamics 365 for Sales. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Kamēr notiek datu plūsma starp Finance and Operations un Sales, programmā Sales varat veikt pārdošanas un mārketinga aktivitātes, un varat tikt galā ar pasūtījuma izpildi, izmantojot krājumu vadību programmā Finance and Operations. 
 
-Lai iegūtu papildinformāciju par integrāciju No potenciālā klienta līdz skaidrai naudai, noskatieties īso YouTube video: [No potenciālā klienta līdz skaidrai naudai](https://www.youtube.com/watch?v=AVV9x5x-XCg).
+Lai iegūtu papildinformāciju par risinājuma No potenciālā klienta līdz skaidrai naudai integrāciju, noskatieties īso YouTube video [Risinājuma No potenciālā klienta līdz skaidrai naudai integrācija](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos tiešās sinhronizācijas tipus.
 
@@ -47,13 +46,13 @@ Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai
 ## <a name="system-requirements-for-finance-and-operations"></a>Sistēmas prasības programmai Finance and Operations
 Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tālāk norādītajās versijās.
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (2017. gada decembris)
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (2017. gada decembris)
 
-- Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada decembris) — programmas būvējums 7.3.11971.56116 ar Platformas 12. atjauninājumu (7.0.4709.41129)
+- Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada decembris) — lietojumprogrammas būvējums 7.3.11971.56116 ar 12. platformas atjauninājumu (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs)
+### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijs)
 
-- Dynamics 365 for Finance and Operations Enterprise Edition (2017. jūlijs) — ar Platformas 8. atjauninājumu (programmas būvējums 7.2.11792.56024 ar platformas būvējumu 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijs) — ar 8. platformas atjauninājumu (lietojumprogrammas būvējums 7.2.11792.56024 ar platformas būvējumu 7.0.4565.16212).
 - Ir nepieciešami tālāk minētie labojumfaili.
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)**  — šis labojumfails ļauj veikt pārdošanas pasūtījumu sinhronizēšanu no Sales uz Finance and Operations, izmantojot līdzekli Datu integrācija. Tas nodrošina arī vairākus citus uzlabojumus.
@@ -63,9 +62,9 @@ Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tāl
     > [!NOTE]
     > Ir nepieciešams instalēt tikai labojumfailu KB4045570, jo tā instalācijā ir ietvertas citos labojumfailos ietvertās izmaiņas. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations, versija 1611 (2016. gada novembris)
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations versija 1611 (2016. gada novembris)
 
-- Dynamics 365 for Finance and Operations, versija 1611 (2016. gada novembris) ar platformas 8. atjauninājumu vai jaunāku
+- Dynamics 365 for Finance and Operations versija 1611 (2016. gada novembris) ar 8. platformas atjauninājumu vai jaunāka versija
 
 - Ir nepieciešami tālāk minētie labojumfaili.
 
@@ -81,6 +80,5 @@ Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tāl
 
 Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābūt instalētiem tālāk uzskaitītajiem komponentiem.
 
-- Dynamics 365 for Sales versija 1612 (8.2.1.207) (DB 8.2.1.207) tiešsaistes versija vai jaunāka versija.
-- Risinājums “No potenciālā klienta līdz skaidrai naudai” programmai Dynamics 365 for Sales, versija 1.15.0.0 vai jaunāka. Risinājumu var lejupielādēt no pakalpojuma AppSource. [Lejupielādēt Dynamics 365, No potenciālā klienta līdz skaidrai naudai](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
-
+- Dynamics 365 for Sales versija 1612 (8.2.1.207) (DB 8.2.1.207) (tiešsaistes versija) vai jaunāka versija
+- Risinājuma No potenciālā klienta līdz skaidrai naudai programmai Dynamics 365 for Sales versija 1.15.0.0 vai jaunāka versija. Risinājumu var lejupielādēt no pakalpojuma AppSource. [Lejupielādēt Dynamics 365, No potenciālā klienta līdz skaidrai naudai](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

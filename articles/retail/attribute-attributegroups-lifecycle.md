@@ -1,37 +1,36 @@
 ---
-title: "Atribūti un atribūtu grupas"
-description: "Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus."
+title: Atribūti un atribūtu grupas
+description: Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326243"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Atribūti un atribūtu grupas
 
 [!include [banner](includes/banner.md)]
 
-*Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādām mazumtirdzniecības personām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
+*Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādiem mazumtirdzniecības elementiem, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
 
 Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 
@@ -104,7 +103,7 @@ Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu
 
 Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Finance and Operations standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
 
-Informāciju par pārējo opciju mērķi skatiet tēmā [Pārskats par SharePoint Server 2013 meklēšanas shēmu](https://technet.microsoft.com/library/jj219669.aspx).
+Informāciju par šo pārējo opciju mērķi skatiet rakstā [SharePoint Server 2013 meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atribūtu filtra iestatījumi
 
@@ -257,4 +256,3 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 
     > [!NOTE]
     > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
-

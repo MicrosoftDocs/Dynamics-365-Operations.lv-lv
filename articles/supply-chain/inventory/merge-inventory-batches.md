@@ -1,13 +1,13 @@
 ---
-title: "Sapludināt krājumu partijas"
-description: "Šajā rakstā ir sniegta informācija par to kā, konsolidēt divu vai vairāku krājumu partijas sapludinātā partijā."
+title: Sapludināt krājumu partijas
+description: Šajā rakstā ir sniegta informācija par to kā, konsolidēt divu vai vairāku krājumu partijas sapludinātā partijā.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319826"
 ---
-
 # <a name="merge-inventory-batches"></a>Sapludināt krājumu partijas
 
 [!include [banner](../includes/banner.md)]
@@ -61,12 +60,12 @@ Jā, ir dažas lietas, kas ir jāiestata pirms varēs lietot partiju sapludinā�
 <td>Izlaistās preces</td>
 <td>Tālāk ir norādīti krājuma ieteicamie iestatījumi.
 <ul>
-<li>Lai automātiski ģenerētu sapludināto partiju numurus, partiju numuru grupai ir jāpiešķir izlaistā prece. Partijas numuru var ievadīt manuāli, veidojot sapludinātu partiju vai atlasot esošo partijas numuru. Atlasot esošo partijas numuru, pārbaudiet, vai atlasītā partija nav ietverta nevienā ar krājumiem saistītā transakcijā.</li>
-<li>Ja tiek izmantots izlaistās preces glabāšanas laika vai derīguma termiņa datumus, sapludinātās partijas datumi tiek aprēķināti, izmantojot laukā <strong>Partiju sapludināšanas datuma aprēķins</strong> atlasītos datus. Pieejamas šādas opcijas
+<li>Lai automātiski ģenerētu sapludināto partiju numurus, partiju numuru grupai ir jāpiešķir izlaistā prece. Partijas numuru var ievadīt manuāli, veidojot sapludinātu partiju vai atlasot esošo partijas numuru. Ja atlasāt esošu partijas numuru, pārliecinieties, vai atlasītā partija nav ietverta nevienā krājumu transakcijā.</li>
+<li>Ja izlaistajai precei izmantojat glabāšanas laika vai derīguma termiņa datumus, sapludinātās partijas datumi tiek aprēķināti, pamatojoties uz laukā <strong>Partiju sapludināšanas datuma aprēķins</strong> atlasīto vērtību. Pieejamas šādas opcijas
 <ul>
 <li><strong>Tuvākais</strong> — aprēķini tiek veikti pēc partiju sapludināšanai atlasītajai avota partijai norādītā tuvākā datuma.</li>
 <li><strong>Pēdējais</strong> — aprēķini tiek veikti pēc partiju sapludināšanai atlasītajai avota partijai norādītā pēdējā datuma.</li>
-<li><strong>Manuāli</strong> — aprēķini netiek veikti. Ja visām avota partijām ir vienāds datums, datums tiek piedāvāts. Šo datumu var mainīt. Ja avota partiju datumi atšķiras, to var ievadīt manuāli.</li>
+<li><strong>Manuāli</strong> — aprēķini netiek veikti. Ja visām avota partijām ir vienāds datums, datums tiek piedāvāts. Šo datumu var mainīt. Ja avota partiju datumi atšķiras, varat manuāli ievadīt datumu.</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -141,4 +140,3 @@ Partiju sapludināšanas krājumu žurnālu var apstiprināt saraksta lapā **Vi
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kāpēc pēc krājuma ar pieļaujamo svaru sapludināšanas krājumu žurnālā netiek rādīta informāciju par pieļaujamo svaru?
 Krājumus ar pieļaujamo svaru var sapludināt līdzīgi kā citus krājumus. Tomēr informācija par pieļaujamo svaru krājumu žurnālā nav redzama. Informāciju par pieļaujamo svaru ieteicams pārbaudīt pirms ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu.
-

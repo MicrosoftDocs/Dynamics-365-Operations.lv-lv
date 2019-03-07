@@ -1,13 +1,13 @@
 ---
-title: "Nodaļu izveide un ietveršana nodaļu hierarhijā"
-description: "Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo apgabalu. Nodaļa ir atbildīga par noteiktu organizācijas jomu, piemēram, pārdošanu, uzskaiti vai personāla vadību. Nodaļas var izmantot, lai ziņotu par funkcionālām jomām. Nodaļām var būt peļņas un zaudējumu atbildība."
+title: Nodaļu izveide un ietveršana nodaļu hierarhijā
+description: Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo apgabalu. Nodaļa ir atbildīga par noteiktu organizācijas jomu, piemēram, pārdošanu, uzskaiti vai personāla vadību. Nodaļas var izmantot, lai ziņotu par funkcionālām jomām. Nodaļām var būt peļņas un zaudējumu atbildība.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305300"
 ---
-
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Nodaļu izveide un ietveršana nodaļu hierarhijā
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ Lai pievienotu nodaļu nodaļu hierarhijai, rīkojieties šādi.
 
 ## <a name="steps-for-creating-a-department"></a>Norādījumi par nodaļas izveidi
 Sīku jaunas nodaļas izveides procedūras aprakstu skatiet tēmā [Jaunu nodaļu definēšana](../fin-and-ops/hr/tasks/define-new-departments.md). 
-

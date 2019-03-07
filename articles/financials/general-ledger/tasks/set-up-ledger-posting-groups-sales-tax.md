@@ -1,13 +1,13 @@
---- 
-title: "Virsgrāmatas grāmatošanas grupu izveide pievienotās vērtības nodoklim"
-description: "PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virsgrāmatas grāmatošanas grupās."
+---
+title: Virsgrāmatas grāmatošanas grupu izveide pievienotās vērtības nodoklim
+description: PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virsgrāmatas grāmatošanas grupās.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308349"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Virsgrāmatas grāmatošanas grupu izveide pievienotās vērtības nodoklim
 
@@ -48,5 +48,4 @@ PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virs
 11. Laukā Debitora termiņatlaide atlasiet galveno kontu, kurā grāmatot termiņatlaides PVN kodiem, kas saistīti ar šo Virsgrāmatas grāmatošanas grupu.
     * Tas nav obligāti un, ja nav ievadīts neviens konts, tiks izmantots termiņatlaižu kodu galvenais konts. Ja izmantojat PVN grupu opciju PVN atgriešana termiņatlaidēs, var būt noderīgi izmantot atšķirīgus kontus Virsgrāmatas grāmatošanas grupām.  
 12. Noklikšķiniet uz Saglabāt.
-
 

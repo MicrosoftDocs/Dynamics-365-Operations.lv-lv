@@ -1,13 +1,13 @@
 ---
-title: "Centralizētie maksājumi norēķiniem ar piegādātājiem"
-description: "Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās."
+title: Centralizētie maksājumi norēķiniem ar piegādātājiem
+description: Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54329582abd36a8ca896ce731ce06ca4de58bbb0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327071"
 ---
-
 # <a name="centralized-payments-for-accounts-payable"></a>Centralizētie maksājumi norēķiniem ar piegādātājiem
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 | Fabrikam (Fabrikam West) kreditora parādi      |              | 75,00         |
 | Parādi kreditoriem (Fabrikam West)     | 25,00        |               |
 | Pienākas Fabrikam East (Fabrikam West) |              | 25,00         |
-
 
 
 

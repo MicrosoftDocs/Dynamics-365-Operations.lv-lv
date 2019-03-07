@@ -1,13 +1,13 @@
 ---
-title: "Trīsvirzienu atbilstības ierobežojumi"
-description: "Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri."
+title: Trīsvirzienu atbilstības ierobežojumi
+description: Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318952"
 ---
-
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Viņš ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
-    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst programmatūrā Microsoft Dynamics 365 for Finance and Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
+    -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 for Finance and Operations definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
         -   Vienības neto cenu salīdzināšana — rēķina rindā norādītā vienības neto cena atbilst pirkšanas pasūtījuma rindā norādītajai vienības neto cenai saskaņā ar pielaides procentuālo vērtību. Šajā piemērā izmantotā vienības neto cenas pielaide ir +8%.
         -   Cenu kopsummu salīdzināšana — rēķina rindā norādītā neto summa atbilst pirkšanas pasūtījuma rindā norādītajai neto summai saskaņā ar pielaides procentuālo vērtību, summu vai procentuālo vērtību un summu. Šajā piemērā izmantotā cenu kopsummu salīdzināšanas pielaide ir +15%.
 
@@ -143,7 +142,6 @@ Ja ir nepieciešamas apstiprināt tādu rēķinu grāmatošanu, kuriem pastāv r
 
 
 Papildinformāciju skatiet sadaļā [Kreditoru rēķinu salīdzināšana](accounts-payable-invoice-matching.md).
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana"
-description: "Viena klikšķa veidotāju varat izmantot, lai veikaliem, reģistriem, kasieriem un vadītājiem veidotu dažādus pārdošanas punktu Retail Modern POS (MPOS) un mākoņa POS izkārtojumus gan ainavorientācijas, gan portretorientācijas režīmā."
+title: Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana
+description: Varat izmantot viena klikšķa veidotāju, lai veikaliem, kases sistēmām, kasieriem un vadītājiem izveidotu dažādus programmu Retail Modern POS (MPOS) un Cloud POS izkārtojumus ainavorientācijas vai portretorientācijas režīmā.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,29 +19,28 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327646"
 ---
-
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana
 
 [!include [banner](includes/banner.md)]
 
-Viena klikšķa veidotāju varat izmantot, lai veikaliem, reģistriem, kasieriem un vadītājiem veidotu dažādus pārdošanas punktu Retail Modern POS (MPOS) un mākoņa POS izkārtojumus gan ainavorientācijas, gan portretorientācijas režīmā.
+Varat izmantot viena klikšķa veidotāju, lai veikaliem, kases sistēmām, kasieriem un vadītājiem izveidotu dažādus programmu Retail Modern POS (MPOS) un Cloud POS izkārtojumus ainavorientācijas vai portretorientācijas režīmā.
 
 Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka kases aparāta izkārtojums. Izkārtojums kontrolē dažādu objektu pozīcijas. Piemēri tostarp ir kopējais izkārtojums, krājumu režģa izkārtojums, debitoru izkārtojums, maksājumu izkārtojums un dažādu izvēlnes pogu izkārtojums. Izkārtojumi ietver arī vispārējo pārdošanas interfeisa izskatu, kas tiek rādīts nodarbinātajiem.
 
 ## <a name="install-the-one-click-designer"></a>Instalēt viena klikšķa veidotāju
 
-1. Programmatūrā Microsoft Dynamics 365 for Retail izmantojiet kreisajā augšējā stūrī esošo izvēlni, lai pārietu uz sadaļu **Mazumtirdzniecība** **un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
+1. Programmā Microsoft Dynamics 365 for Retail izmantojiet augšējā kreisajā pusē esošo izvēlni, lai pārietu uz sadaļu **Mazumtirdzniecība** **un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
 2. Atlasiet jebkuru izkārtojumu, kura programmas tips ir **Modern POS operētājsistēmai Windows** vai **Mākoņa POS**, un pēc tam noklikšķiniet uz **Izkārtojuma veidotājs**.
-3. Lai instalētu viena klikšķa veidotāju, pārlūkprogrammas Internet Explorer loga apakšā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**. (Citās pārlūkprogrammās šī paziņojumu josla var tikt parādīta citā vietā.)
+3. Internet Explorer loga apakšdaļā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**, lai instalētu viena klikšķa veidotāju. (Citās pārlūkprogrammās šī paziņojumu josla var tikt parādīta citā vietā.)
 4. Lai instalētu Mazumtirdzniecības veidotāja resursdatoru, parādītajā ziņojuma lodziņā **Programmas palaišana - Drošības brīdinājums** noklikšķiniet uz **Palaist**. Norises indikators rāda instalēšanas norises gaitu.
-5. Kad instalēšana ir pabeigta, lapā **Pierakstīties** ievadiet savu Microsoft Dynamics 365 for Retail lietotājvārdu un paroli, un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu šo veidotāju.
+5. Kad instalēšana ir pabeigta, lapā **Pierakstīšanās** ievadiet savu Microsoft Dynamics 365 for Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
 6. Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, varat noformēt pats savu izkārtojumu vai mainīt esošo izkārtojumu.
 
     [![Izkārtojums viena klikšķa veidotājā](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,16 +51,15 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 
     **Risinājumi.**
 
-    - Pārlūkprogrammā Internet Explorer pārliecinieties, ka šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Konfidencialitāte** &gt; **Atrast uznirstošo elementu bloķētāju** un mainiet iestatījumu, ja tas ir nepieciešams.
-    - Pārlūkprogrammā Internet Explorer programmatūras Dynamics 365 for Retail vietrādi URL pievienojiet savām uzticamajām vietnēm. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+    - Pārlūkprogrammā Internet Explorer pārliecinieties, vai šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Konfidencialitāte** &gt; **Atrast uznirstošo elementu bloķētāju** un mainiet iestatījumu, ja tas ir nepieciešams.
+    - Pārlūkprogrammā Internet Explorer pievienojiet Dynamics 365 for Retail vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 - Programma nestartējas un jums liek sazinieties ar kreditoru.
 
-    **Risinājums.** Pārlūkprogrammā Internet Explorer programmatūras Dynamics 365 for Retail vietrādi URL pievienojiet savām uzticamajām vietnēm. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+    **Risinājums.** Pārlūkprogrammā Internet Explorer pievienojiet Dynamics 365 for Retail vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 **Zināma problēma.** Veidotājs nedarbojas pareizi pārlūkprogrammās Google Chrome un Mozilla Firefox. Mēs strādājam, lai šo problēmu novērstu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Konfigurēt, lejupielādēt, instalēt un aktivizēt pārdošanas punktu Retail Modern POS](retail-modern-pos-device-activation.md)
-
+[Retail Modern POS konfigurēšana, lejupielāde, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md)

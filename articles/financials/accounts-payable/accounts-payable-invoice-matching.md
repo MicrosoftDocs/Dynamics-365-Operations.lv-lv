@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru rēķinu salīdzināšana"
-description: "Parādu kreditoriem rēķinu salīdzināšana ir kreditoru rēķinu, pirkšanas pasūtījumu un produktu ieejas plūsmu informācijas salīdzināšanas process."
+title: Kreditoru rēķinu salīdzināšana
+description: Parādu kreditoriem rēķinu salīdzināšana ir kreditoru rēķinu, pirkšanas pasūtījumu un produktu ieejas plūsmu informācijas salīdzināšanas process.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dc5e072f23cbb0dcc2d3d1d390070bb11a2d2f06
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310281"
 ---
-
 # <a name="accounts-payable-invoice-matching"></a>Kreditoru rēķinu salīdzināšana
 
 [!include [banner](../includes/banner.md)]
@@ -191,7 +190,6 @@ Kreditoru rēķinu pamatā bieži ir produktu ieejas plūsmas, kas parāda fakti
 -   Skatīt un apstiprināt cenu salīdzināšanas neatbilstības rēķinā norādītās vienības neto cenā un pirkšanas pasūtījuma vienības neto cenā. Varat iestatīt cenas tolerances procentuālos daudzumus juridiskajām personām, kreditoriem un krājumiem. Ja kreditora rēķina rindu cena neietilpst pieņemamajās cenas tolerances robežās, varat rēķinu saglabāt, līdz tas ir apstiprināts grāmatošanai vai līdz saņemat labojumu no kreditora.
 
 Plašāku informāciju skatiet sadaļā [Trīsvirzienu atbilstības ierobežojumi](three-way-matching-policies.md) un [Parādu kreditoriem rēķinu saskaņošanas pārbaudes iestatīšana](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
-
 
 
 

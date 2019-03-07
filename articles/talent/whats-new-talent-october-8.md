@@ -1,32 +1,31 @@
 ---
-title: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 1. oktobris)"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR."
+title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 1. oktobris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-07
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 657c19896b20a514dc5308bf7fb086085b482fec
 ms.openlocfilehash: 92eb1508905309294e17b770829b1c5a22be1316
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305357"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 8. oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 8. oktobris)
 
 [!include [banner](includes/banner.md)]
 
@@ -44,4 +43,3 @@ Piešķirot darbiniekiem atvaļinājumu, piemaksas pakāpes bāze nosaka, cik da
 ## <a name="known-issue"></a>Zināma problēma
 
 **Problēma:** pievienojot nodarbinātajam jaunu pielikumu, tiek deaktivizēta poga **Jauns** un **Rediģēt**. **Risinājums:** pirms pielikuma lapas atvēršanas pārbaudiet, vai lapā **Nodarbinātais** ir aizvērta papildinformācija. Ja, ielādējot lapu **Nodarbinātais**, papildinformācija ir aizvērta, pielikumu pogas tiek iespējotas. (Šī problēma tiks novērsta nākamajā platformas atjauninājumā.)
-

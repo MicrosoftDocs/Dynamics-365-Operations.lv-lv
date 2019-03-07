@@ -1,13 +1,13 @@
 ---
-title: "Materiālu aizstāšana ražošanā"
-description: "Šajā tēmā aprakstīts, kā aizstāt materiālus ražošanas procesa laikā."
+title: Materiālu aizstāšana ražošanā
+description: Šajā tēmā aprakstīts, kā aizstāt materiālus ražošanas procesa laikā.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327623"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Materiālu aizstāšana ražošanā
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Plānošanas laikā materiālu var aizstāt tikai tad, ja lietojat formulas, nev
 
 ## <a name="substituting-material-during-production"></a>Materiāla aizvietošana ražošanas laikā
 Aplūkosim šādu scenāriju: metināšanai nepieciešams metāla plāksnes gabals. Darba laikā noliktavas darbinieks informē mašīnas operatoru, ka plāksnes nav krājumā. Tiek pieņemts lēmums, ka plāksni var aizstāt ar nedaudz biezāku plāksni. Šādi var pabeigt darbu. Materiālu var pievienot MK atvērtam ražošanas pasūtījumam. Ja ražošanas pasūtījuma statuss ir **Sākts**, pievienojot jaunu elementu ražošanas MK, lietotājiem tiek prasīts atkārtoti izvērtēt pasūtījumu. Pēc materiāla pievienošanas jaunajam elementam var izveidot jaunu izdošanas sarakstu. Nav nepieciešama jaunā materiāla pievienošana ražošanas MK. Tā vietā jauno materiālu var pievienot tieši ražošanas izdošanas sarakstam. Pēc tam, iegrāmatojot izdošanas sarakstu, sistēma pievieno materiālu ražošanas MK.
-
 
 
 

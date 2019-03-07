@@ -1,33 +1,32 @@
 ---
-title: "Algu aprēķina integrācijas konfigurēšana pakalpojumos Talent un Dayforce"
-description: "Šajā tēmā ir izskaidrots, kā konfigurēt integrāciju pakalpojumos Microsoft Dynamics 365 for Talent un Ceridian Dayforce, lai varētu apstrādāt maksājuma izpildi."
+title: Algu aprēķina integrācijas konfigurēšana pakalpojumos Talent un Dayforce
+description: Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 for Talent un Ceridian Dayforce integrāciju, lai varētu apstrādāt maksājuma izpildi.
 author: jcart1106
 manager: AnnBe
 ms.date: 07/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305289"
 ---
-
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Algu aprēķina integrācijas konfigurēšana pakalpojumos Talent un Dayforce
+# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Talent un Dayforce algu aprēķina integrācijas konfigurēšana
 
 [!include [banner](includes/banner.md)]
 
-Integrācija pakalpojumos Microsoft Dynamics 365 for Talent un Ceridian Dayforce izmanto vairākas konfigurācijas darbības, kas ir aprakstītas šajā tēmā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan pakalpojumā Talent, gan pakalpojumā Dayforce.
+Microsoft Dynamics 365 for Talent un Ceridian Dayforce integrācijai tiek izmantotas vairākas konfigurācijas darbības, kas ir aprakstītas šajā tēmā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan pakalpojumā Talent, gan pakalpojumā Dayforce.
 
 Ja maksājumu izpildei izmantojat tādu pakalpojumu kā Dayforce, jums ir jāiespējo integrācija pakalpojumā Talent. Integrācijai ir nepieciešami noteikti Talent dati. Tādēļ ir jāpārliecinās, vai uz Dayforce kartētie dati pakalpojumā Talent ir konfigurēti veidā, kas atbalsta integrāciju. Integrācija izmanto tālāk norādītās vispārējās datu kategorijas.
 
@@ -40,7 +39,7 @@ Ja maksājumu izpildei izmantojat tādu pakalpojumu kā Dayforce, jums ir jāies
 
 ## <a name="enable-the-integration"></a>Integrācijas iespējošana
 
-Lai izveidotu savienojumu ar Dayforce, pakalpojumā Talent ir jāieslēdz integrācija un jāievada konfigurācijas informācija. Ja vēlaties, lai izveidotā Virsgrāmatas transakcija tiktu importēta programmā Microsoft Dynamics 365 for Finance and Operations, jums ir arī jāiestata Microsoft Azure krātuves konts un jāievada Azure krātuves savienojuma virkne programmā Finance and Operations.
+Lai izveidotu savienojumu ar Dayforce, pakalpojumā Talent ir jāieslēdz integrācija un jāievada konfigurācijas informācija. Ja vēlaties, lai izveidotā Virsgrāmatas transakcija tiktu importēta programmā Microsoft Dynamics 365 for Finance and Operations, ir jāiestata arī Microsoft Azure krātuves konts un programmā Finance and Operations jāievada Azure krātuves savienojuma virkne.
 
 Lai pakalpojumā Talent ieslēgtu integrāciju, veiciet tālāk norādītās darbības.
 
@@ -662,4 +661,3 @@ Darbinieki var sniegt pases informāciju. Šīs informācijas identifikācijas t
 - Beigu datums
 
 Darbinieki var sniegt vairākus identifikācijas numurus, kuru identifikācijas tips ir **Pase**. Taču pakalpojumā Dayforce tiek integrēts tikai pašreizējais aktīvais pases ieraksts. Ja visiem pases ierakstiem ir beidzies derīgiem, pakalpojumā Dayforce tiek integrēta pēdējā izdotā pase.
-

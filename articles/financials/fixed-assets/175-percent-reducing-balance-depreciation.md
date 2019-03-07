@@ -1,13 +1,13 @@
 ---
-title: "175 procentu degresīvā nolietojuma aprēķināšanas metode"
-description: "Šajā tēmā ir sniegts pārskats par 175 procentu degresīvā nolietojuma aprēķināšanas metodi."
+title: 175 procentu degresīvā nolietojuma aprēķināšanas metode
+description: Šajā tēmā ir sniegts pārskats par 175 procentu degresīvā nolietojuma aprēķināšanas metodi.
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a63293dbf24c27733f8013947aeab5792fa0db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320171"
 ---
-
 # <a name="175-percent-reducing-balance-depreciation"></a>175 procentu degresīvā nolietojuma aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
@@ -76,17 +75,16 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 | Lietošanas ilgums gados             | 5.      |
 | Gada nolietojuma procenti | 35%    |
 
-Izmantojot 175% degresīvā nolietojuma aprēķināšanas metodi, 175 procenti tiek dalīti ar lietošanas ilgumu gados. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
+Izmantojot 175% degresīvā nolietojuma aprēķināšanas metodi, 175 procenti tiek dalīti ar lietošanas ilgumu gados. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
 
 | Periods | Ikgadējā nolietojuma summas aprēķins | Atlikusī vērtība                  | Atlikusī vērtība gada beigās |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| 1. gads | (11 000 – 1000) × 35% = 3500                | 11 000 – 3500 = 7500      | 11 000 – 1000 – 3500 = 6500        |
-| 2. gads | 6500 × 35% = 2275                           | 7500 – 2275 = 5225       | 6500 – 2275 = 4225                 |
-| 3. gads | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
+| 1. gads | (11 000 – 1000) × 35% = 3500                | 11 000 – 3500 = 7500      | 11 000 – 1000 – 3500 = 6500        |
+| 2. gads | 6500 × 35% = 2275                           | 7500 – 2275 = 5225       | 6500 – 2275 = 4225                 |
+| 3. gads | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
 
 > [!NOTE] 
 > Kad summa, kas tiek aprēķināta, izmantojot 175% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
-
 
 
 

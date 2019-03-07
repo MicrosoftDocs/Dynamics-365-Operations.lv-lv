@@ -1,13 +1,13 @@
 ---
-title: "Kanālam raksturīgo atlaižu definēšana"
-description: "Bieži vien mazumtirgotāji dažādos kanālos iestata dažādas atlaides. Šajā tēmā ir pārskatītas koncepcijas, kas jums ir jāzina, lai izveidotu atlaidi noteiktam kanālam."
+title: Kanālam raksturīgo atlaižu definēšana
+description: Bieži vien mazumtirgotāji dažādos kanālos iestata dažādas atlaides. Šajā tēmā ir pārskatītas koncepcijas, kas jums ir jāzina, lai izveidotu atlaidi noteiktam kanālam.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318607"
 ---
-
 # <a name="define-channel-specific-discounts"></a>Kanālam raksturīgo atlaižu definēšana
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ Bieži vien mazumtirgotāji dažādos kanālos iestata dažādas atlaides. Šaj�
 
 Bieži vien mazumtirgotāji dažādos kanālos piedāvā dažādas atlaides. Iespējams, tas tiek darīts ar mērķi strādāt atbilstoši vietējā tirgus apstākļiem vai tikt galā ar konkurējošiem mazumtirgotājiem.
 
-Programmatūrā Dynamics 365 for Retail kanālam raksturīgās atlaides tiek definētas, izmantojot cenu grupas. Cenu grupas var piešķirt vienam vai vairākiem no šiem elementiem: kanāli, katalogi, piederības un lojalitātes programmas. Šajā rakstā ir aprakstīti kanāli, bet šie paši principi attiecas uz katalogu atlaidēm, piederības atlaidēm un lojalitātes atlaidēm.
+Microsoft Dynamics 365 for Retail izmanto cenu grupas, lai definētu kanālam raksturīgās atlaides. Cenu grupas var piešķirt vienam vai vairākiem no šiem elementiem: kanāli, katalogi, piederības un lojalitātes programmas. Šajā rakstā ir aprakstīti kanāli, bet šie paši principi attiecas uz katalogu atlaidēm, piederības atlaidēm un lojalitātes atlaidēm.
 
 ## <a name="price-groups"></a>Cenu grupas
 
@@ -63,4 +62,3 @@ Nākamajā piemērā ir parādīti kanāla atlaižu iestatīšanas procedūrā i
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Cenu korekcijas un atlaides](price-adjustments-discounts.md)
-

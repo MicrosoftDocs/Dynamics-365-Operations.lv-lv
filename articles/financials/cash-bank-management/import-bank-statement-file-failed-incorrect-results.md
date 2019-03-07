@@ -1,13 +1,13 @@
 ---
-title: "Bankas izraksta faila importēšanas problēmu novēršana"
-description: "Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilst programmā Microsoft Dynamics 365 for Finance and Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas."
+title: Bankas izraksta faila importēšanas problēmu novēršana
+description: Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmā Microsoft Dynamics 365 for Finance and Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a4006bf35673e3bb61bcf11619ecc68d295f29eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324449"
 ---
-
 # <a name="bank-statement-file-import-troubleshooting"></a>Bankas izraksta faila importēšanas problēmu novēršana
 
 [!include [banner](../includes/banner.md)]
 
-Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilst programmā Microsoft Dynamics 365 for Finance and Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
+Ir svarīgi, lai no bankas saņemtais bankas izraksta fails atbilstu programmā Microsoft Dynamics 365 for Finance and Operations atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
 
 <a name="what-is-the-error"></a>Kāda kļūda radusies?
 ------------------
@@ -65,7 +64,7 @@ BAI2 un MT940 faili ir teksta faili, un tiem nepieciešama korekcija, lai iespē
 
 Lai iegūtu papildus informāciju, skatiet <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
 
-1.  Startējiet Microsoft Visual Studio.
+1.  Palaidiet Microsoft Visual Studio.
 2.  Izveidojiet konsoles pieteikumu.
 3.  Atveriet atbilstošo XSLT.
 4.  Noklikšķiniet uz XLST un tās rekvizītu lapas.
@@ -76,7 +75,7 @@ Lai iegūtu papildus informāciju, skatiet <https://msdn.microsoft.com/en-us/lib
 
 ### <a name="format-the-xslt-output"></a>XSLT izvades formatēšana
 
-Transformācijas darbības laikā tiek izveidots izvades fails, kuru var skatīt programmā Visual Studio. Izmantojiet Ctrl+A, Ctrl+K un Ctrl+D, lai ātri formatētu izvades failu.
+Transformācijas izpildes laikā tiek izveidots izvades fails, ko varat skatīt programmā Visual Studio. Izmantojiet Ctrl+A, Ctrl+K un Ctrl+D, lai ātri formatētu izvades failu.
 
 ### <a name="adjust-the-transformation"></a>Transformācijas korekcija
 
@@ -99,7 +98,6 @@ Dažreiz debets var tikt importēts kā kredīts un kredīts var tikt importēts
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Maiņu un naudas kastes pārvaldība"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt un izmantot mazumtirdzniecības pārdošanas punkta (point of sale — POS) maiņas."
+title: Maiņu un naudas kastes pārvaldība
+description: Šajā tēmā ir paskaidrots, kā iestatīt un izmantot mazumtirdzniecības pārdošanas punkta (point of sale — POS) maiņas.
 author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313018"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>Maiņu un naudas kastes pārvaldība
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt un izmantot mazumtirdzniecības pārdošanas punkta (point of sale — POS) maiņas.
 
-Programmā Microsoft Dynamics 365 for Retail termins *maiņa* attiecas uz POS transakciju datiem un darbībām, kas tiek veiktas noteiktā laika intervālā. Katrai maiņai paredzētā naudas summa tiek salīdzināta ar summu, kas tika aprēķināta un deklarēta.
+Programmā Microsoft Dynamics 365 for Retail termins *maiņa* attiecas uz POS transakciju datiem un darbībām, kas tiek veiktas noteiktā laika intervālā. Katrai maiņai paredzētā naudas summa tiek salīdzināta ar summu, kas tika aprēķināta un deklarēta.
 
 Parasti maiņas tiek atvērtas darba dienas sākumā. Šajā brīdī lietotājs deklarē sākuma summu, kas ir pieejama naudas kastē. Pēc tam pārdošanas darbības tiek veiktas visas dienas garumā. Visbeidzot, dienas beigās naudas kastē esošā nauda tiek skaitīta un tiek deklarētas slēgšanas summas. Maiņa tiek slēgta un tiek ģenerēts Z pārskats. Z pārskatā norāda, vai ir izveidojies pārpalikums vai iztrūkums.
 
@@ -70,7 +69,7 @@ Lai veikalā izmantotu koplietotas maiņas, sadaļā **Mazumtirdzniecība \> Ka
 
 ## <a name="shift-and-drawer-operations"></a>Naudas kastu un maiņu darbības
 
-Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Šajā sadaļā ir aprakstītas šīs maiņas darbības programmās Microsoft Dynamics 365 for Retail Modern POS un Cloud POS.
+Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Šajā sadaļā ir aprakstītas šīs maiņas darbības programmās Microsoft Dynamics 365 for Retail Modern POS un Cloud POS.
 
 ### <a name="open-shift"></a>Atvērt maiņu
 
@@ -159,4 +158,3 @@ Dodieties uz **Mazumtirdzniecība \> Kanāli \> Mazumtirdzniecības veikali \
 Šāds iestatījums nodrošinās, ka operāciju uzskaites daļas pārskati ietver tās pašas darbības, kas ietvertas POS maiņās, un dati tiek apkopoti pēc attiecīgās maiņas.
 
 Plašāku informāciju par izrakstu un slēgšanas metodēm skatiet tēmā [Veikalu konfigurācijas mazumtirdzniecības izrakstiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-

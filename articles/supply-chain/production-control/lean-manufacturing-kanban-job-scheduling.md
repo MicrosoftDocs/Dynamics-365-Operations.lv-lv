@@ -1,13 +1,13 @@
 ---
-title: "Kanban darbu plānošana metodei lean manufacturing"
-description: "Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus."
+title: Kanban darbu plānošana metodei lean manufacturing
+description: Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 52e69ed130f28701e6e393327f9bd634eacd3b1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315939"
 ---
-
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošana metodei lean manufacturing
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Plānošanu var aktivizēt automātiski, ja iestatāt Kanban nosacījuma paramet
 Šī koncepcija ļauj padarīt Kanban lielumu mazāku par faktiskās ekonomiskās partijas lielumu. Piemēram, konkrēta krājuma (vai krājumu saimes) ekonomiskās partijas lielums ir 30. Tā vietā, lai izveidotu Kanban, kas izmantot preču daudzumu 30, varat konfigurēt Kanban nosacījumu tā, lai preču daudzums būtu 10 un parametra **Automātiskais plānošanas daudzums** vērtība būtu **3**. Lai gan automātiskā plānošana plāno Kanban darbus darba šūnai tikai tad, ja pastāv trīs neplānotie darbi, plānotājs un ražotnes vadītājs var skaidri redzēt, ka divi neplānotie darbi gaida izpildi. Plānotājs vai ražotnes pārvaldnieks var iekļaut šos divus darbus ražošanā, ieplānojot tos manuāli vai izveidojot papildu Kanban.
 
 ## <a name="manual-scheduling"></a>Manuālā plānošana
-Manuālai plānošanai programmā Microsoft Dynamics AX 2012 ir ieviests Kanban plānošanas panelis. Manuālo plānošanu var kombinēt ar automātisko plānošanu. Kanban plānošanas panelis ļauj jums plānot darbus un izņemt darbus no plāna, mainīt tos secību vai pārvietot to no perioda uz periodu. Darbus, kas ir balstīti uz Kanban nosacījumiem, kur vērtība **Automātistā plānošana** ir lielāka par **0**, var manuāli izslēgt no plāna. Tomēr, šie darbi tiks pārplānoti, kad notiks nākamais automātiskās plānošanas notikums (t.i., kad tiek izveidots jauns Kanban). Manuālai plānošanai ir pieejamas šādas opcijas:
+Manuālai plānošanai programmā Microsoft Dynamics AX 2012 ir ieviests Kanban plānošanas panelis. Manuālo plānošanu var kombinēt ar automātisko plānošanu. Kanban plānošanas panelis ļauj jums plānot darbus un izņemt darbus no plāna, mainīt tos secību vai pārvietot to no perioda uz periodu. Darbus, kas ir balstīti uz Kanban nosacījumiem, kur vērtība **Automātistā plānošana** ir lielāka par **0**, var manuāli izslēgt no plāna. Tomēr, šie darbi tiks pārplānoti, kad notiks nākamais automātiskās plānošanas notikums (t.i., kad tiek izveidots jauns Kanban). Manuālai plānošanai ir pieejamas šādas opcijas:
 
 -   **Plānot** plāno atlasītos darbus atbilstoši to izpildes datumam. (Šī opcija līdzinās automātiskai plānošanai.)
 -   **Plānot uz priekšu no datuma** mēģina plānot atlasītos darbus atbilstoši to izpildes datumam, bet ierobežo rezultātu, izmantojot norādīto agrāko sākuma datumu.
@@ -71,7 +70,6 @@ Saraksta lapa **Kanban darbu plānošana** satur papildinformāciju, kur redzama
 
 <a name="additional-resources"></a>Papildu resursi
 --------
-
 
 
 

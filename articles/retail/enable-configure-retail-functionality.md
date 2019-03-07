@@ -1,13 +1,13 @@
 ---
-title: "Sākumdatu inicializēšana jaunās Retail vidēs"
-description: "Šajā rakstā ir aprakstīti dati, kas tiek izveidoti kā daļa no inicializēšanas procesa programmatūrai Microsoft Dynamics 365 for Retail."
+title: Sākumdatu inicializēšana jaunās Retail vidēs
+description: Šajā rakstā ir aprakstīti dati, kas tiek izveidoti Microsoft Dynamics 365 for Retail inicializācijas procesa ietvaros.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327899"
 ---
-
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Sākumdatu inicializēšana jaunās Retail vidēs
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir aprakstīti dati, kas tiek izveidoti kā daļa no inicializēšanas procesa programmatūrai Microsoft Dynamics 365 for Retail.
+Šajā rakstā ir aprakstīti dati, kas tiek izveidoti Microsoft Dynamics 365 for Retail inicializācijas procesa ietvaros.
 
-Pēc mazumtirdzniecības risinājuma izvietošanas caur Microsoft Dynamics Lifecycle Services (LCS), ir jāinicializē mazumtirdzniecības konfigurācija, lai izveidotu pamata konfigurācijas datus.
+Pēc mazumtirdzniecības risinājuma izvietošanas, izmantojot portālu Microsoft Dynamics Lifecycle Services (LCS), ir jāinicializē mazumtirdzniecības konfigurācija, lai izveidotu pamata konfigurācijas datus.
 
 > [!IMPORTANT]
 > Pirms mazumtirdzniecības konfigurācijas inicializēšanas, pārliecinieties, ka esat norādījis valodu un pasta adresi katrai juridiskajai personai, kur tiks iestatīti mazumtirdzniecības veikali. Šī darbība ir jāveic katrai juridiskajai personai, kura tiks izmantota mazumtirdzniecībai.
 
 Lai inicializētu mazumtirdzniecības konfigurāciju, rīkojieties šādi.
 
-1. Startējiet Dynamics 365 for Retail klientu.
+1. Palaidiet Dynamics 365 for Retail klientu.
 2. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Headquarters iestatīšana** &gt; **Parametri** &gt; **Mazumtirdzniecības parametri**.
 3. Noklikšķiniet uz **Inicializēt**.
 
@@ -56,9 +55,9 @@ Inicializācija izveido šādus noklusējuma konfigurācijas datus:
 - Kanālu pārskati
 - Atribūta metadati
 - Elementa validēšanas veidnes
-- Pakešuzdevums Commerce Data Exchange sesijas vēstures dzēšanai
+- Commerce Data Exchangesesijas vēstures dzēšanas pakešuzdevums
 
-Turklāt Dynamics 365 for Retail datu bāzei ir iespējota reģistrēšana, kas ir saistīta ar maksājumu karšu nozari (PCI).
+Turklāt, Dynamics 365 for Retail datu bāzei ir iespējota reģistrācija, kas ir saistīta ar maksājumu karšu nozari (PCI).
 
 > [!NOTE]
 > Pastāv iespēja atsevišķi konfigurēt mazumtirdzniecības plānotāju. Šī opcija ļauj atiestatīt mazumtirdzniecības plānotāja konfigurāciju uz noklusētajiem iestatījumiem.
@@ -70,4 +69,3 @@ Pēc inicializēšanas pabeigšanas, jums ir jākonfigurē papildu mazumtirdznie
 - Mazumtirdzniecības kanāli
 - Reģistri un ierīces
 - Preču klāsts
-

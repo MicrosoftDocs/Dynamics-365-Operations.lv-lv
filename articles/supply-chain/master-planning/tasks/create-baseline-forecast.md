@@ -1,13 +1,13 @@
---- 
-title: "Bāzlīnijas prognozes izveide"
-description: "Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu."
+---
+title: Bāzlīnijas prognozes izveide
+description: Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d23e245ed1c084c26554ef3f859fdadaef9990d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310051"
 ---
 # <a name="create-a-baseline-forecast"></a>Bāzlīnijas prognozes izveide
 
@@ -81,5 +81,4 @@ Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika s�
 4. Esat veicis manuālās prognozes korekcijas. Ievērojiet grafisko norādi nākamajā darbībā.
 5. Noklikšķiniet uz Detalizēta informācija par prognozes rindu.
     * Šajā lapā varat apskatīt precizitātes vērtības, vēsturisko pieprasījumu un prognozi. Varat arī veikt prognožu izmaiņas.  
-
 

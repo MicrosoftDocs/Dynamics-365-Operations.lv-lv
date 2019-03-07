@@ -1,13 +1,13 @@
 ---
-title: "Pārskats par ražošanas procesu"
-description: "Šajā tēmā ir sniegts pārskats par ražošanas procesiem. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai."
+title: Pārskats par ražošanas procesu
+description: Šajā tēmā ir sniegts pārskats par ražošanas procesiem. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318009"
 ---
-
 # <a name="production-process-overview"></a>Pārskats par ražošanas procesu
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem
 [Preču konfigurācijas modeļi](../pim/product-configuration-models.md)
 
 [LEAN ražošanas process](lean-manufacturing-overview.md)
-
 
 
 

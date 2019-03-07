@@ -1,13 +1,13 @@
 ---
-title: "Elektronisko pārskatu (ER) galamērķi"
-description: "Varat konfigurēt adresātu katrai elektronisko atskaišu (Electronic Reporting — ER) formāta konfigurācijai un tā izvades komponentu (mapi vai failu). Lietotāji, kuriem ir piešķirtas atbilstošas piekļuves tiesības, galamērķa iestatījumus var modificēt arī izpildlaikā. Šajā rakstā ir paskaidrota ER galamērķu pārvaldība, atbalstītie galamērķu tipi un drošības apsvērumi."
+title: Elektronisko pārskatu (ER) galamērķi
+description: Varat konfigurēt adresātu katrai elektronisko atskaišu (Electronic Reporting — ER) formāta konfigurācijai un tā izvades komponentu (mapi vai failu). Lietotāji, kuriem ir piešķirtas atbilstošas piekļuves tiesības, galamērķa iestatījumus var modificēt arī izpildlaikā. Šajā rakstā ir paskaidrota ER galamērķu pārvaldība, atbalstītie galamērķu tipi un drošības apsvērumi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314927"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Elektronisko pārskatu (ER) galamērķi
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ Varat konfigurēt adresātu katrai elektronisko atskaišu (Electronic Reporting 
 Elektronisko atskaišu (ER) formāta konfigurācijas parasti satur vismaz vienu izvades komponentu: failu. Parasti konfigurācijas ietver vairākus dažādu tipu failu izvades komponentus (piemēram, XML, TXT vai XLSX), kuri ir grupēti vienā mapē vai vairākās mapēs. ER galamērķu pārvaldība jums ļauj sākotnēji konfigurēt, kas notiek, kad tiek palaists katrs komponents. Pēc noklusējuma, kad tiek palaista kāda konfigurācija, tiek parādīts dialoglodziņš, ko lietotājs var izmantot, lai failu saglabātu vai atvērtu. Tāda pati uzvedība tiek izmantota arī tad, kad importējat kādu ER konfigurāciju un neesat tai konfigurējis nekādu noteiktu galamērķi. Kad galvenajam izvades komponentam ir izveidots galamērķis, šis galamērķis ignorē noklusējuma uzvedību un mape vai fails tiek nosūtīti saskaņā ar galamērķa iestatījumiem.
 
 ## <a name="availability-and-general-prerequisites"></a>Pieejamības un vispārīgie priekšnosacījumi
-ER galamērķu funkcionalitāte nav pieejama programmatūrā Microsoft Dynamics AX 7.0 (2016. gada februāra laidienā). Tāpēc, lai varēti izmantot visas šajā tēmā aprakstītās funkcijas, ir jāinstalē programmatūras Microsoft Dynamics 365 for Operations versija 1611 (2016. gada novembra laidiens). Ja vēlaties, varat instalēt vienu no tālāk norādītajiem priekšnosacījumiem. Taču ņemiet vērā, ka šī alternatīva sniedz ierobežotāku ER galamērķa funkcionalitāti.
+ER galamērķu funkcionalitāte nav pieejama versijā Microsoft Dynamics AX 7.0 (2016. gada februāris). Tāpēc, lai varēti izmantot visas šajā tēmā aprakstītās funkcionalitātes, ir jāinstalē Microsoft Dynamics 365 for Operations versija 1611 (2016. gada novembris). Ja vēlaties, varat instalēt vienu no tālāk norādītajiem priekšnosacījumiem. Taču ņemiet vērā, ka šī alternatīva sniedz ierobežotāku ER galamērķa funkcionalitāti.
 
-- Microsoft Dynamics AX programmas versija 7.0.1 (2016. gada maijs)
+- Lietojumprogrammas Microsoft Dynamics AX versija 7.0.1 (2016. gada maijs)
 - ER galamērķa pārvaldības [programmas labojumfails](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Varat iestatīt galamērķus tikai ER konfigurācijām, kas ir importētas, un formātiem, kas ir pieejami lapā **Elektronisko atskaišu veidošanas konfigurācijas**.
@@ -94,7 +93,7 @@ Izmantojiet šo e-pasta ziņojuma tipu, ja izmantotajā konfigurācijā ir zars 
 
 ### <a name="archive-destination"></a>Arhīva galamērķis
 
-Šo opciju varat izmantot, lai izvadi sūtītu uz Microsoft SharePoint mapi vai Microsoft Azure krātuvi. Opciju **Iespējots** iestatiet uz **Jā**, lai izvadi sūtītu uz galamērķi, kas ir definēts ar atlasīto dokumentu tipu. Atlasei ir pieejami tikai tie dokumentu tipi, kur grupa ir iestatīta uz **Fails**. Dokumentu tipus ir jādefinē sadaļā **Organizācijas administrēšana** &gt; **Dokumentu pārvaldība** &gt; **Dokumentu tipi**. Konfigurēšana ER galamērķiem ir tāda pati kā konfigurēšana dokumentu pārvaldības sistēmai.
+Varat izmantot šo opciju, lai nosūtītu izvadi uz Microsoft SharePoint mapi vai Microsoft Azure krātuvi. Opciju **Iespējots** iestatiet uz **Jā**, lai izvadi sūtītu uz galamērķi, kas ir definēts ar atlasīto dokumentu tipu. Atlasei ir pieejami tikai tie dokumentu tipi, kur grupa ir iestatīta uz **Fails**. Dokumentu tipus ir jādefinē sadaļā **Organizācijas administrēšana** &gt; **Dokumentu pārvaldība** &gt; **Dokumentu tipi**. Konfigurēšana ER galamērķiem ir tāda pati kā konfigurēšana dokumentu pārvaldības sistēmai.
 
 [![Lapa Dokumentu tipi](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
@@ -105,9 +104,9 @@ Atrašanās vieta nosaka, kur fails tiek saglabāts. Kad ir iespējots galamēr�
 
 #### <a name="sharepoint"></a>SharePoint
 
-Failu varat saglabāt norādītajā SharePoint mapē. Noklusējuma SharePoint serveri varat definēt sadaļā **Organizācijas administrēšana** &gt; **Dokumentu pārvaldība** &gt; **Dokumentu pārvaldības parametri**, cilnē **SharePoint**. Kad SharePoint mape ir konfigurēta, varat to atlasīt kā mapi, kur tiks saglabāta ER izvade šim dokumentu tipam.
+Varat saglabāt failu norādītajā SharePoint mapē. Noklusējuma SharePoint serveri varat definēt cilnes **SharePoint** sadaļā **Organizācijas administrēšana** &gt; **Dokumentu pārvaldība** &gt; **Dokumentu pārvaldības parametri**. Kad SharePoint mape ir konfigurēta, varat to atlasīt kā šī dokumentu tipa ER izvades mērķa mapi.
 
-[![SharePoint mapes atlasīšana](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
+[![SharePoint mapes atlase](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Azure krātuve
 
@@ -119,11 +118,11 @@ Ja opciju **Iespējots** iestatāt uz **Jā**, tad pēc konfigurācijas izpildī
 
 ### <a name="screen-destination"></a>Ekrāna galamērķis
 
-Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priekšskatījums. Noteiktu tipu failus, piemēram, XML, TXT vai PDF failus, varat skatīt tieši pārlūkprogrammas logā. Citu tipu failiem, piemēram, Microsoft Excel vai Word failiem, tiek izmantots pakalpojums Microsoft Office Online.
+Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priekšskatījums. Noteiktu tipu failus, piemēram, XML, TXT vai PDF failus, varat skatīt tieši pārlūkprogrammas logā. Citi tipu failiem, piemēram, Microsoft Excel vai Word failiem, tiek izmantots pakalpojums Microsoft Office Online.
 
-### <a name="power-bi-destination"></a>Power BI galamērķis
+### <a name="power-bi-destination"></a>Power BI galamērķis
 
-Iestatiet opcijas **Iespējots** vērtību **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas programmatūras Dynamics 365 for Finance and Operations instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kura ir jākonfigurē šim nolūkam. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas konfigurācijas izmantošana, lai pakalpojumā Power BI nodrošinātu datus no programmatūras Dynamics 365 for Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Iestatiet opcijas **Iespējots** vērtību **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas Finance and Operations instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kas ir jākonfigurē šim mērķim. Papildinformāciju skatiet rakstā [Elektronisko pārskatu veidošanas konfigurācijas izmantošana, lai pakalpojumā Power BI nodrošinātu datus no programmas Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Lai ignorētu noklusējuma uzvedību (t.i., dialoglodziņu kādai konfigurācijai), varat izveidot galamērķa atsauci un faila galamērķi galvenajam izvades komponentam un pēc tam atspējot visus galamērķus.
@@ -158,11 +157,10 @@ Galamērķis **Fails** tiek izmantots, lai kontrolētu dialoglodziņu. Ja iespē
 
 Šī formula ir atkarīga no ER konfigurācijas. Piemēram, ja lietojat konfigurāciju ISO 20022 kredīta pārskaitījums, varat lietot **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** vai **model.Payments.Creditor.Identification.SourceID**, lai iegūtu saistītu kreditora kontu.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Viena no manām formāta konfigurācijām ietver vairākus failus, kas ir grupēti vienā mapē (piemēram, mapē Mape1 ietilpst faili Fails1, Fails2 un Fails3). Kā iestatīt galamērķus tā, lai fails Mape1.zip netiktu izveidots vispār, Fails1 tiktu nosūtīts pa e-pastu, Fails2 tiktu nosūtīts uz SharePoint, bet failu Fails3 es varētu atvērt uzreiz pēc konfigurācijas izpildīšanas?
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Viena no manām formāta konfigurācijām ietver vairākus failus, kas ir grupēti vienā mapē (piemēram, mapē Mape1 ietilpst faili Fails1, Fails2 un Fails3). Kā iestatīt galamērķus tā, lai fails Mape1.zip netiktu izveidots vispār, fails Fails1 tiktu nosūtīts pa e-pastu, fails Fails2 tiktu nosūtīts uz SharePoint, bet failu Fails3 varētu atvērt uzreiz pēc konfigurācijas izpildīšanas?
 
 Priekšnosacījums ir tāds, ka jūsu formātam ir jābūt pieejamam ER konfigurācijās. Ja jums ir jūsu formāts, atveriet lapu **Elektronisko atskaišu galamērķi** un izveidojiet jaunu atsauci uz šo konfigurāciju. Pēc tam jums ir nepieciešami četri failu galamērķi — viens katram izvades komponentam. Izveidojiet pirmo failu galamērķi, piešķiriet tam nosaukumu, piemēram, **Mape**, un atlasiet faila nosaukumu, kas apzīmē kādu mapi jūsu konfigurācijā. Pēc tam noklikšķiniet uz **Iestatījumi** un pārliecinieties, ka visi galamērķi ir atspējoti. Šim failu galamērķim mape netiks izveidota. Pēc noklusējuma, tā kā starp failiem un pamata mapēm pastāv hierarhiskas atkarības, šie faili darbosies tādā pašā veidā. Citiem vārdiem sakot — tie netiks nekur sūtīti. Lai ignorētu šo noklusējuma uzvedību, jums ir jāizveido vēl trīs failu galamērķi — viens katram failam. Katram galamērķa iestatījumos jums ir jāiespējo tas galamērķis, uz kuru šis fails ir jānosūta.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-

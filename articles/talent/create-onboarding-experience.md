@@ -1,13 +1,13 @@
 ---
-title: "Aizraujošas pievienošanas pieredzes izveidošana"
-description: "Ja pievienošana tiek darīta labi, tā jaunajiem darbiniekiem palīdz sajusties piederīgiem savai jaunajai organizācijai."
+title: Aizraujošas pievienošanas pieredzes izveidošana
+description: Ja pievienošana tiek darīta labi, tā jaunajiem darbiniekiem palīdz sajusties piederīgiem savai jaunajai organizācijai.
 author: tbisaacs
-manager: 
+manager: ''
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: 0dbc3247e1a5a8134184c8fe98fa8692fbf27c94
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305283"
 ---
-
 # <a name="create-an-engaging-onboarding-experience"></a>Aizraujošas pievienošanas pieredzes izveidošana
 
 [!include [banner](includes/banner.md)]
 
-Ja pievienošana tiek veikta efektīvi, tā palīdz jaunajiem darbiniekiem strādāt efektīvāk, vienlaikus gūstot sajūtu, ka viņi iederas savā jaunajā lomā. Pievienošana var palīdzēt jaunajiem darbiniekiem ātrāk un precīzāk apgūt savu jauno lomu, nekā tas notiktu bez pievienošanas, un dod viņiem handikapu attiecībā uz sekmīgam darbam noderīgu attiecību veidošanu. Savukārt neefektīva pievienošanas pieredze darbiniekiem var likt apšaubīt savu lēmumu par pievienošanos jūsu organizācijai. Pētījumā, ko Gartner veica 2014. gadā, tika konstatēts, ka gandrīz viena trešdaļa no 1005 respondentiem, kuri aizgāja no darba pirmo 6 mēnešu laikā, to izdarīja, jo viņiem nebija skaidras jauno vadītāju sniegtās vadlīnijas, apmācība nebija efektīva, vai arī viņiem jaunajā vidē neizveidojās efektīvas attiecības.
+Ja pievienošana tiek veikta efektīvi, tā palīdz jaunajiem darbiniekiem strādāt efektīvāk, vienlaikus gūstot sajūtu, ka viņi iederas savā jaunajā lomā. Pievienošana var palīdzēt jaunajiem darbiniekiem ātrāk un precīzāk apgūt savu jauno lomu, nekā tas notiktu bez pievienošanas, un dod viņiem handikapu attiecībā uz sekmīgam darbam noderīgu attiecību veidošanu. Savukārt neefektīva pievienošanas pieredze darbiniekiem var likt apšaubīt savu lēmumu par pievienošanos jūsu organizācijai. Pētījumā, ko 2014. gadā veica Gartner, tika konstatēts, ka gandrīz viena trešdaļa no 1005 respondentiem, kuri aizgāja no darba pirmo sešu mēnešu laikā, to izdarīja, jo viņiem nebija skaidras vadības sniegtās vadlīnijas, apmācība bija neefektīva vai arī viņiem neizdevās izveidot efektīvas attiecības jaunajā vidē.
 
 ## <a name="have-an-onboarding-program-in-place"></a>Izmantojiet pievienošanas programmu
 Ir svarīgi saprast, kā un kur varat uzlabot savu pievienošanas procesu. Tālāk norādītie jautājumi jums varētu palīdzēt sistemātiski analizēt un uzlabot savu pievienošanas procesu.
@@ -90,5 +89,4 @@ Kad ieviešat jaunu pievienošanas programmu, īpaša uzmanība ir jāpievērš 
 - Vai nupat nolīgto darbinieku apmierinātība pieaug? 
 
 Mēriet šos rādītājus un veiciet mazus uzlabojumus ar katru jauno darbinieka nolīgšanu.
-
 

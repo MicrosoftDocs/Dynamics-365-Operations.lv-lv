@@ -1,31 +1,30 @@
 ---
-title: "Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas"
-description: "Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Attract."
-author: 
+title: Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
+description: Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305307"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
 
 [!include[banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ Potenciālo kandidātu kopas īpašnieks un līdzstrādnieki var pievienot kandi
 
     - Lai pievienotu iekšēju kandidātu, varat meklēt personu pēc e-pasta adreses. Pēc veiksmīgas meklēšanas tiek aizpildīta kandidāta e-pasta adrese, vārds un uzvārds. Ja jums ir pieejams kandidāta CV vai jebkādi saistītie dokumenti par kandidātu, tagad varat tos augšupielādēt. Pēc tam atlasiet **Pievienot**, lai pievienotu kandidātu potenciālo kandidātu kopai.
     - Lai pievienotu ārēju kandidātu, manuāli ievadiet kandidāta e-pasta adresi, vārdu un uzvārdu. Ja jums ir pieejams kandidāta CV vai jebkādi saistītie dokumenti, tagad varat tos augšupielādēt. Pēc tam atlasiet **Pievienot**, lai pievienotu kandidātu potenciālo kandidātu kopai.
-    - Lai pievienotu vairākus kandidātus, atlasiet cilni **No Excel**. Pēc tam varat lejupielādēt atbilstošo Microsoft Excel veidni, ievadīt kandidātu informāciju, saglabāt Excel darblapu un augšupielādēt to lietojumprogrammā.
+    - Lai pievienotu vairākus kandidātus, atlasiet cilni **No Excel**. Pēc tam varat lejupielādēt atbilstošo Microsoft Excel veidni, ievadīt detalizētu informāciju par kandidātiem, saglabāt Excel darblapu un augšupielādēt to lietojumprogrammā.
 
         Ja darblapā tiek atrastas kļūdas, tiek parādīti atbilstoši ziņojumi. Pēc tam varat novērst kļūdas un vēlreiz mēģināt augšupielādēt darblapu. Ja vairs netiek atrasta neviena kļūda, atlasiet **Pievienot**, lai augšupielādētu darblapu. Darblapa tiek apstrādāta fonā, un, kad visi kandidāti ir pievienoti potenciālo kandidātu kopai, jūs saņemat attiecīgu paziņojumu.
 
@@ -108,7 +107,7 @@ Visiem lietotājiem ir pieejams viens un tas pats kandidātu profilu skats. Atla
 
 - Cilnē **Dokumenti** tiek rādīti visi dokumenti, ko kandidāts ir pievienojis no sava profila vai kopā ar darba pieteikumiem. Šo cilni var izmantot, lai pārvaldītu kandidāta CV, pavadvēstules, darbu portfeli utt. Varat izmantot šo cilni arī dokumentu pievienošanai.
 
-    Lai skatītu dokumentu, atlasiet dokumenta nosaukumu dokumentu sarakstā. Varat skatīt Microsoft Word dokumentus lietojumprogrammā, izmantojot Microsoft Office 365. Varat arī lejupielādēt dokumentus savā lokālajā datorā, katram dokumentam izmantojot opciju **Lejupielādēt**.
+    Lai skatītu dokumentu, atlasiet dokumenta nosaukumu dokumentu sarakstā. Varat skatīt Microsoft Word dokumentu lietojumprogrammā, izmantojot Microsoft Office 365. Varat arī lejupielādēt dokumentus savā lokālajā datorā, katram dokumentam izmantojot opciju **Lejupielādēt**.
 
 - Cilnē **LinkedIn** tiek rādīta kandidāta LinkedIn informācija. Lai izmantotu šo cilni, jums ir jāizveido savienojums ar savu LinkedIn kontu lietotāja iestatījumu sadaļā un jūsu vidē ir jābūt izveidotam savienojumam ar LinkedIn Recruiter. Papildinformāciju skatiet tēmā [Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ Bieži vien vēlaties saglabāt iespēju sazināties ar piemērotiem kandidātie
 1. Pieteikuma lapā atlasiet **Pievienot potenciālo kandidātu kopai**. Tiek parādīts to potenciālo kandidātu kopu saraksts, kurām varat piekļūt.
 
 1. Atlasiet vai meklējiet potenciālo kandidātu kopu un pēc tam atlasiet **Pievienot**, lai pievienotu kandidātu konkrētajai potenciālo kandidātu kopai.
-

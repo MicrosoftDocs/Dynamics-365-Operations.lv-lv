@@ -1,13 +1,13 @@
 ---
-title: "Cenas simulācija"
-description: "Šajā rakstā ir sniegta informācija par cenu simulāciju piedāvājumiem. Cenu simulācija jums piedāvājuma procesa laikā palīdz novērtēt ieturējumu ietekmi uz turpmāku pārdošanas cenu, pirms piekrītat lietot noteiktu cenu."
+title: Cenas simulācija
+description: Šajā rakstā ir sniegta informācija par cenu simulāciju piedāvājumiem. Cenu simulācija jums piedāvājuma procesa laikā palīdz novērtēt ieturējumu ietekmi uz turpmāku pārdošanas cenu, pirms piekrītat lietot noteiktu cenu.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316537"
 ---
-
 # <a name="price-simulation"></a>Cenas simulācija
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Lai nodrošinātu, ka atlaides un cenas tiek aprēķinātas pareizi, uzmanieties
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Atlaižu tipi tirdzniecības līgumos
 
-Tirdzniecības līgumiem programmatūrā Microsoft Dynamics 365 for Finance and Operations var lietot četru veidu cenu atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
+Tirdzniecības līgumiem programmā Microsoft Dynamics 365 for Finance and Operations var lietot četru veidu cenas atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
 
 -   **Pārdošanas cena** — krājumiem var norādīt atsevišķas pārdošanas cenas. Kad tiek izveidotas piedāvājuma rindas, programma meklē pareizo pārdošanas cenu attiecībā uz krājumu un pārsūta to uz piedāvājuma rindām. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, neietekmē cenas simulāciju. Pārdošanas cena, kas tiek izmantota piedāvājuma rindā, ataino tirdzniecības līgumu.
 -   **Rindas atlaide** — krājumiem tiek norādītas īpašas atlaides, ņemot vērā pasūtīto daudzumu. Pirms cenu simulācijas sākšanas rindas summas parasti tiek samazinātas ar rindas atlaidi. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, ietekmē cenas simulāciju.
@@ -143,7 +142,6 @@ Palaidiet cenas simulāciju un lietojiet 10 procentu kopējo atlaidi BR-12 vien�
 | Jauns kopējā ieguldījuma koeficients                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 Cenu simulācija ietekmē tikai to rindu, kurai tā tiek izmantota, un samazina šīs rindas kopsummu.
-
 
 
 

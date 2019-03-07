@@ -1,31 +1,30 @@
 ---
 title: Pakalpojumu objektu grupas
-description: "Objektu grupas ir noderīgas, ja pārskata izveides nolūkos vai statistikas nolūkos ir jāveic objektu datu sakārtošana vai filtrēšana."
+description: Objektu grupas ir noderīgas, ja pārskata izveides nolūkos vai statistikas nolūkos ir jāveic objektu datu sakārtošana vai filtrēšana.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc5b1bf93deaf60a3c6384671ad575c73871eb35
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2ab3ed8a8f36f980473b17b5dfed8cb3d0054253
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312236"
 ---
-
 # <a name="service-object-groups"></a>Pakalpojumu objektu grupas 
 
 [!include [banner](../includes/banner.md)]
@@ -65,6 +64,5 @@ Varat grupai piešķirt pakalpojumu objektus, izmantojot formu **Pakalpojumu obj
 ## <a name="see-also"></a>Skatiet arī
 
 [Pakalpojumu objektu izveide](create-service-objects.md)
-
 
 

@@ -1,13 +1,13 @@
---- 
-title: "ER konfigurāciju noformēšana ienākošo dokumentu parsēšanai"
-description: "Šajā procedūrā ir parādīts, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai parsētu ienākošu elektronisku dokumentu."
+---
+title: ER konfigurāciju noformēšana ienākošo dokumentu parsēšanai
+description: Šajā procedūrā ir parādīts, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai parsētu ienākošu elektronisku dokumentu.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326105"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigurāciju noformēšana ienākošo dokumentu parsēšanai
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 08/09/2018
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-    * Šis scenārijs tiks izmantots, lai parādītu iespējas, ko sniedz ienākošo elektronisko dokumentu parsēšana XML formātā: ERP programma (Dynamics 365 for Finance and Operations) pieprasa datus no tīmekļa pakalpojuma (piemēram, http://efsta.org/ finanšu pakalpojuma EFSTA) un parsē ienākošās atbildes, lai attiecīgi atjauninātu programmas datus. Visefektīvākajai parsēšanai tiek izmantots viens ER formāts, neraugoties uz paredzamo ienākošo dokumentu XML formātā atšķirīgo struktūru.   
+    * Lai demonstrētu ienākošo elektronisko dokumentu parsēšanas XML formātā iespējas, tiks izmantots šāds scenārijs: ERP lietojumprogramma (Dynamics 365 for Finance and Operations) pieprasa datus no tīmekļa pakalpojuma (piemēram, http://efsta.org/ finanšu pakalpojuma EFSTA) un parsē ienākošās atbildes, lai attiecīgi atjauninātu lietojumprogrammas datus. Visefektīvākajai parsēšanai tiek izmantots viens ER formāts, neraugoties uz paredzamo ienākošo dokumentu XML formātā atšķirīgo struktūru.   
 
 ## <a name="import-and-review-er-configurations"></a>ER konfigurāciju importēšana un pārskatīšana
 Importējiet ER modeļa konfigurāciju, kura satur parauga datu modeli, kas paredzēts ienākošā faila informācijas glabāšanai.  
@@ -110,5 +110,4 @@ Jūs palaidīsit izveidoto modeļa kartējumu testēšanas nolūkos, lai redzēt
     * Noklikšķiniet uz Pārlūkot un atlasiet failu Response4.xml.  
 16. Noklikšķiniet uz OK.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka tagad atbildes tips ir pareizi atpazīts kā līdzvērtīgs failam Response1.xml.  
-
 

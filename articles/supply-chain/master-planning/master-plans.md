@@ -1,13 +1,13 @@
 ---
-title: "Vispārējie plāni"
-description: "Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību."
+title: Vispārējie plāni
+description: Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9585cfe2bc7ccc60dc69741994785869ba71b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c530284f83f13bce6941bf889aaddbb1a1e82dae
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325047"
 ---
-
 # <a name="master-plans"></a>Vispārējie plāni
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Varat arī iestatīt sākotnējo dinamisko plānu tā, lai tas tiktu atjaunots a
 [Taktiskās un operatīvās plānošanas nošķiršana vispārējās plānošanas ietvaros](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
 [Vispārējā plānošana: vai izmantot statisko un dinamisko vispārējo plānu vai izmantot vienu plānu?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
-
 
 
 

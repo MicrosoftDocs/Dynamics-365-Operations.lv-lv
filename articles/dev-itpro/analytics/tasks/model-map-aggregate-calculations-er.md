@@ -1,13 +1,13 @@
---- 
-title: "Modeļa kartējumu konfigurāciju izmantošana apkopotajiem aprēķiniem datu bāzes līmenī"
-description: "Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantot iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti."
+---
+title: Modeļa kartējumu konfigurāciju izmantošana apkopotajiem aprēķiniem datu bāzes līmenī
+description: Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantot iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313639"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modeļa kartējumu konfigurāciju izmantošana apkopotajiem aprēķiniem datu bāzes līmenī
 
@@ -37,7 +37,7 @@ Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu el
 3. Kokā atlasiet “Intrastat modelis\Intrastat parauga kartēšana”.
 4. Noklikšķiniet uz Veidotājs.
 5. Noklikšķiniet uz Veidotājs.
-6. Kokā atlasiet "Dynamics 365 for Operations\Table records".
+6. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 7. Noklikšķiniet uz Pievienot sakni.
     * Pievienojiet jaunu datu avotu, kurā ir norādīti ieraksti, ko vēlaties grupēt.  
 8. Laukā Nosaukums ierakstiet “Transakcijas”.
@@ -116,5 +116,4 @@ Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu el
 67. Kokā izvērsiet “Preces ieraksts(Intrastat)”.
 68. Noklikšķiniet uz Saglabāt.
     * Ņemiet vērā, ka lauks “Izpilde” norāda, ka šī grupēšana tiks veikta izpildes laikā atmiņā pat tad, ja nav definēts neviens apkopojums un atlasītais datu avots, kura tips ir “Tabulas ieraksti”, attiecas uz to pašu “Intrastat” tabulu. Tas skaidrojams ar to, ka datu avots satur dažus aprēķinātus laukus, kurus vēl nevar transformēt SQL datu bāzes līmenī.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "PowerBI.com risinājums Finanšu veiktspēja"
-description: "Šajā tēmā ir aprakstīts PowerBI.com risinājums Finanšu veiktspēja."
+title: PowerBI.com risinājums Finanšu veiktspēja
+description: Šajā tēmā ir aprakstīts PowerBI.com risinājums Finanšu veiktspēja.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,25 +17,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315111"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šis PowerBI.com risinājums ir novecojis, kā dokumentēts tēmā [AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šis PowerBI.com risinājums ir novecojis, kā tas ir dokumentēts rakstā [Vietnē AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Šajā tēmā ir aprakstīts PowerBI.com risinājums **Finanšu veiktspēja**. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="main-account-setup"></a>Galvenā konta iestatīšana
-Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Kad tiek izmantoti šie kontu tipi, pārskatu veidošana, izmantojot Power BI, apgriež zīmes un šīs summas rāda kā pozitīvas.
+Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Ja tiek izmantoti šie kontu tipi un tiek veikta pārskatu izveide, izmantojot Power BI, zīmes tiek mainītas uz pretējām un summas tiek rādītas kā pozitīvas vērtības.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>PowerBI.com risinājumā ietvertie informācijas paneļi un pārskati
 Informācijas panelī ir apkopoti datu elementi, kas ir balstīti uz pamata pārskatiem. Katrs elements satur apkopotu informāciju par pašreizējo gadu visos uzņēmumos attiecīgajā organizācijā. Tālāk ir norādīti daži elementi.
@@ -71,7 +70,7 @@ Katrs elements balstās uz atbalsta pārskatu. Šie pārskati satur gan diagramm
 | Izdevumu analīze            | Kopējie izdevumi, faktisko un budžeta kopējo izdevumu attiecība pēc juridiskas personas, faktiskie un budžeta kopējie izdevumi pa ceturkšņiem, kopējie izdevumi pēc kontu kategorijas un darbības izmaksu koeficients |
 | Rēķinos iekļauto ieņēmumu analīze     | Debitoru parādu kopsumma, debitoru parādu kopsumma pēc juridiskās personas, debitoru parādu kopsumma pēc ceturkšņa un debitoru parādu kontu atlikumi<blockquote>[!NOTE] Šī informācija neietver sākuma bilances debitoru parādu virsgrāmatas kontiem. Tā rāda debitoru parādos grāmatoto jauno transakciju kopsummu.</blockquote> |
 
-Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet sadaļā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk norādītie elementi.
@@ -89,5 +88,4 @@ PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk 
 - Virsgrāmatas
 - ChartofAccounts
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai pārskatos un informācijas panelī iekļautu papildu aprēķinus, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.
-
+Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai iekļautu papildu aprēķinus pārskatos un informācijas panelī, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.

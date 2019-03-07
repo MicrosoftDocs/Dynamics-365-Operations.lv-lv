@@ -1,13 +1,13 @@
 ---
-title: "Atjaunināt jaunas ražošanas vienības standarta izmaksas"
-description: "Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt jauna ražojamā krājuma standarta izmaksas."
+title: Atjaunināt jaunas ražošanas vienības standarta izmaksas
+description: Šajā rakstā ir sniegti norādījumi par to, kā atjaunināt jauna ražojamā krājuma standarta izmaksas.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325507"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Atjaunināt jaunas ražošanas vienības standarta izmaksas
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Lai pievienotu jaunus ražošanas krājumus iesaldētajā periodā, veiciet tāl
 5.  Izmantojiet lapu **Izmaksu aprēķināšanas versijas iestatījumi**, lai mainītu bloķējošo karodziņu un tādējādi atļautu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto izmaksu ierakstu aktivizēšanu.
 6.  Izmantojiet lapu **Aktivizēt cenas** (ko var atvērt, izmantojot lapu **Izmaksu aprēķināšanas versijas uzturēšana**), lai iespējotu visu otrajā izmaksu aprēķināšanas versijā iekļauto neapstiprināto krājumu izmaksu ierakstu aktivizēšanu. Var iespējot arī atsevišķu krājumu neapstiprināto izmaksu ierakstus, lapā **Krājuma cena** noklikšķinot uz pogas **Aktivizēt neapstiprinātās cenas**.
 7.  Lai nepieļautu papildu datu uzturēšanu un mainītu bloķējošos karodziņus, kas ir iekļauti otrajā izmaksu aprēķināšanas versijā, izmantojiet lapu **Izmaksu aprēķināšanas versijas iestatīšana**. Bloķēšanas politika nepieļauj jaunu neapstiprinātu izmaksu ievadi un aktivizāciju.
-
 
 
 

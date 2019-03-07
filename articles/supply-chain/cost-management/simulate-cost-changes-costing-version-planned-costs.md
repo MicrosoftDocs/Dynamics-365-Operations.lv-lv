@@ -1,13 +1,13 @@
 ---
-title: "Simulēt izmaksu izmaiņas, plānotajām izmaksām izmantojot izmaksu aprēķināšanas versiju"
-description: "Šajā rakstā ir paskaidrots, kā varat simulēt izmaksu izmaiņu ietekmi uz ražota krājuma aprēķinātajām izmaksām, izmantojot atsevišķu izmaksu aprēķināšanas versiju plānotajām izmaksām."
+title: Simulēt izmaksu izmaiņas, plānotajām izmaksām izmantojot izmaksu aprēķināšanas versiju
+description: Šajā rakstā ir paskaidrots, kā varat simulēt izmaksu izmaiņu ietekmi uz ražota krājuma aprēķinātajām izmaksām, izmantojot atsevišķu izmaksu aprēķināšanas versiju plānotajām izmaksām.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318883"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simulēt izmaksu izmaiņas, plānotajām izmaksām izmantojot izmaksu aprēķināšanas versiju
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Nākamajos scenārijos ir ilustrēts, kā izmaksu aprēķināšanas versijas sim
 -   Simulējiet izmaksu maiņu netiešo izmaksu aprēķināšanas formulā. Piemēram, izmaksu izmaiņas varētu atspoguļot gaidāmu ražošanas pieskaitāmo izmaksu palielināšanos vai samazināšanos. Lai definētu izmaiņas netiešo izmaksu aprēķināšanas formulā, izmantojiet lapu **Izmaksu aprēķināšanas lapas iestatīšana**, lai gaidošo izmaksu ierakstu ievadītu izmaksu aprēķināšanas versijas simulācijā un lai izmaiņas validētu un saglabātu.
 
 Pēc simulēto izmaksu izmaiņu ievadīšanas aprēķiniet to ražoto krājumu izmaksas, ko ietekmēja šīs izmaksu izmaiņas. Izmantojiet lapu **Aprēķins** izmaksu aprēķināšanas versijas simulācijai, un identificējiet atlasītos ražotos krājumus, ko ietekmēs izmaksu izmaiņas. MK aprēķini tiek lietoti visiem ražotajiem krājumiem, ja vien neesat atlasījis konkrētus krājumus. Kā alternatīvu varat izmantot MK aprēķināšanas opciju “kur lietots” atjauninājumiem. Skatiet krājuma izmaksu ierakstus izmaksu aprēķināšanas simulācijas versijā, lai analizētu, kā simulētās izmaksu izmaiņas ietekmēja atlasīto ražoto krājumu izmaksas. Izmantojiet lapu **Krājuma cena** un lapu **Aprēķināt krājuma izmaksas**, lai skatītu un analizētu izmaksas.
-
 
 
 

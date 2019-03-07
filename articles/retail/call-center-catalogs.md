@@ -1,13 +1,13 @@
 ---
 title: Zvanu centra katalogi
-description: "Šajā tēmā ir aprakstīta zvanu centram raksturīgā funkcionalitāte, kas tiek lietota katalogiem programmā Microsoft Dynamics 365 for Retail."
+description: Šajā tēmā ir aprakstīta zvanu centram raksturīgā katalogu funkcionalitāte programmā Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,25 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322747"
 ---
-
 # <a name="call-center-catalogs"></a>Zvanu centra katalogi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta zvanu centram raksturīgā funkcionalitāte, kas ir saistīta ar katalogu iespējām programmā Microsoft Dynamics 365 for Retail.
+Šajā tēmā ir aprakstīta zvanu centram raksturīgā funkcionalitāte, kas ir saistīta ar katalogu iespējām programmā Microsoft Dynamics 365 for Retail.
 
-Programmā Dynamics 365 for Retail atrodamos katalogu līdzekļus var izmantot dažādiem nolūkiem. Sākotnēji katalogu līdzekļi tika izveidoti ar mērķi atbalstīt trešo pušu e-komercijas integrācijas. Katalogu iestatīšana uzņēmumiem ļāva izveidot preču un atribūtu grupējumus, kurus varēja publicēt ārēji, lai tos izmantotu ar trešās puses e-komercijas risinājumu.
+Programmā Dynamics 365 for Retail pieejamos katalogu līdzekļus var izmantot dažādiem nolūkiem. Sākotnēji katalogu līdzekļi tika izveidoti ar mērķi atbalstīt trešo pušu e-komercijas integrācijas. Katalogu iestatīšana uzņēmumiem ļāva izveidot preču un atribūtu grupējumus, kurus varēja publicēt ārēji, lai tos izmantotu ar trešās puses e-komercijas risinājumu.
 
-Kad programmai Dynamics 365 for Retail tika pievienots zvanu centra kanāla atbalsts, kataloga jēdziens tika paplašināts, pievienojot papildu atbalsta un pārvaldības līdzekļus saistībā ar tradicionālajiem reklāmkatalogiem tieši patērētājiem. Uzņēmums, kas strādā tieši ar patērētājiem, bieži vien izveido drukātus katalogus, kuri pēc tam tiek nosūtīti vienam vai vairākiem klientu segmentiem. Šajos katalogos parasti ir noteikti veicināšanas pasākumi vai piedāvājumi, kas ir spēkā tikai tad, ja pasūtījuma izveidošanas laikā klients norāda kataloga identifikācijas kodu.
+Kad programmai Dynamics 365 for Retail tika pievienots zvanu centra kanāla atbalsts, kataloga jēdziens tika paplašināts, lai pievienotu papildu atbalsta un pārvaldības līdzekļus saistībā ar tradicionālajiem tieši uz patērētajiem orientētajiem mārketinga katalogiem. Uzņēmums, kas strādā tieši ar patērētājiem, bieži vien izveido drukātus katalogus, kuri pēc tam tiek nosūtīti vienam vai vairākiem klientu segmentiem. Šajos katalogos parasti ir noteikti veicināšanas pasākumi vai piedāvājumi, kas ir spēkā tikai tad, ja pasūtījuma izveidošanas laikā klients norāda kataloga identifikācijas kodu.
 
-Tieši uz patērētāju vēstas mārketinga kampaņas ir ļoti koncentrētas uz izsekošanu, kāda ir reakcija uz šiem katalogiem, lai pārliecinātos, ka attaisnojas to ražošanas un sūtīšanas izmaksas. Lai izsekotu reakciju, kataloga aizmugurē parasti tiek drukāts kods, un pēc tam šis kods tiek pieprasīts un lietots, kad kataloga saņēmējs zvana, lai veiktu pasūtījumu pa tālruni (vai — tagad tas notiek biežāk — šo kodu var ievadīt, kad klients veic pasūtījumu tiešsaistē). Lai gan nozarē pastāv dažādi apzīmējumu, kas tiek izmantoti kataloga izsekošanas koda identificēšanai (tostarp atslēgas kods, veicināšanas kods, kataloga kods, avota kods), programmā Dynamics 365 for Retail šis kods ir **Avota koda ID**.
+Tieši uz patērētāju vēstas mārketinga kampaņas ir ļoti koncentrētas uz izsekošanu, kāda ir reakcija uz šiem katalogiem, lai pārliecinātos, ka attaisnojas to ražošanas un sūtīšanas izmaksas. Lai izsekotu reakciju, kataloga aizmugurē parasti tiek drukāts kods, un pēc tam šis kods tiek pieprasīts un lietots, kad kataloga saņēmējs zvana, lai veiktu pasūtījumu pa tālruni (vai — tagad tas notiek biežāk — šo kodu var ievadīt, kad klients veic pasūtījumu tiešsaistē). Lai gan pastāv dažādi nozares termini, ar kuriem tiek apzīmēts šis kataloga izsekošanas kods (tostarp atslēgas kods, veicināšanas kods, kataloga kods, avota kods), programmā Dynamics 365 for Retail šis kods tiek saukts par **Avota koda ID**.
 
 ## <a name="basic-catalog-setup"></a>Pamata kataloga iestatīšana
 
@@ -93,7 +92,7 @@ Konfigurējot katalogā ietvertās preces, izmantojiet darbību **Preču lapas i
 
 ## <a name="catalog-requests"></a>Kataloga pieprasījumi
 
-Tā kā katalogi tiek konfigurēti un publicēti programmā Dynamics 365 for Retail, var izmantot līdzekli **Sūtīt katalogu**. Šis līdzeklis ir pieejams lapā **Klientu meklēšana** un lapā **Klientu apkalpošana**. Pēc klienta ieraksta atlasīšanas, izmantojot lapu **Klientu meklēšana** vai skatot atlasītā klienta kontu no lapas **Klientu apkalpošana**, lietotāji var atlasīt opciju **Sūtīt katalogu**, kas atver dialoglodziņu, ļaujot lietotājam izvēlēties no visu publicēto un aktīvo katalogu saraksta. Lietotājs var atlasīt sūtīšanai katalogu un daudzumu, kā arī konkrētu avota koda ID. Pēc noklikšķināšanas uz pogas **Sūtīt** tiek saglabāts pieprasījums, kuru pēc tam var pārvaldīt, izdrukājot pārskatu **Kataloga pieprasījumi**. Šis pārskats ir atrodams, pārejot uz **Retail** \> **Zvanu centra pārskati** \> **Kataloga pieprasījumu pārskats**. Tajā ir uzskaitīti visi kataloga pieprasījumi, tostarp informācija par klienta vārdu un adresi tam klientam, kurš šo katalogu pieprasīja. Šo pārskatu var izmantot iekšēji vai datus var pārsūtīt trešajai pusei, kas atbalsta ārējās procedūras fiziskai kataloga nosūtīšanai klientam.
+Kad programmā Dynamics 365 for Retail ir konfigurēti un publicēti katalogi, var izmantot līdzekli **Sūtīt katalogu**. Šis līdzeklis ir pieejams lapā **Klientu meklēšana** un lapā **Klientu apkalpošana**. Pēc klienta ieraksta atlasīšanas, izmantojot lapu **Klientu meklēšana** vai skatot atlasītā klienta kontu no lapas **Klientu apkalpošana**, lietotāji var atlasīt opciju **Sūtīt katalogu**, kas atver dialoglodziņu, ļaujot lietotājam izvēlēties no visu publicēto un aktīvo katalogu saraksta. Lietotājs var atlasīt sūtīšanai katalogu un daudzumu, kā arī konkrētu avota koda ID. Pēc noklikšķināšanas uz pogas **Sūtīt** tiek saglabāts pieprasījums, kuru pēc tam var pārvaldīt, izdrukājot pārskatu **Kataloga pieprasījumi**. Šis pārskats ir atrodams, pārejot uz **Retail** \> **Zvanu centra pārskati** \> **Kataloga pieprasījumu pārskats**. Tajā ir uzskaitīti visi kataloga pieprasījumi, tostarp informācija par klienta vārdu un adresi tam klientam, kurš šo katalogu pieprasīja. Šo pārskatu var izmantot iekšēji vai datus var pārsūtīt trešajai pusei, kas atbalsta ārējās procedūras fiziskai kataloga nosūtīšanai klientam.
 
 ## <a name="additional-features"></a>Papildu līdzekļi
 
@@ -102,4 +101,3 @@ Cilnē **Katalogi** ir pieejamas arī opcijas vērtību **Maksājumu grafiks** u
 ## <a name="additional-notes"></a>Papildu piezīmes
 
 Pašlaik, ja pārdošanas pasūtījumam zvanu centrā tiek lietots kāds avota koda ID, tas tiek izmantots, lai vadītu katalogam raksturīgās cenas, veicināšanas pasākumus, skriptus un papildu pārdošanas/šķērspārdošanas. Sistēma neaizliedz un nenovērš iespēju pārdošanas pasūtījumā pasūtīt preci, kas nav ietverta katalogā. Ja tiek pasūtīts kāds krājums, kas neietilpst katalogā, sistēma vispirms izmanto vērtību **Cenu grupa**, kas krājuma cenai vai veicināšanas pasākumiem ir definēta attiecīgajā zvanu centra kanālā (**Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**). Ja netiek atrasta neviena raksturīgā kanāla cena, šim krājumam tiek izmantota pārdošanas pamatcena.
-

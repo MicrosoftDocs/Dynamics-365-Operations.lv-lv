@@ -1,13 +1,13 @@
---- 
-title: "Formātu modificēšana, atkārtoti lietojot Excel veidnes"
-description: "Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra “ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML”."
+---
+title: Formātu modificēšana, atkārtoti lietojot Excel veidnes
+description: Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra “ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML”.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327117"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Formātu modificēšana, atkārtoti lietojot Excel veidnes
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra “ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML”.
 
-Šajā procedūrā paskaidrots, kā modificēt elektroniskā pārskata (ER) formāta konfigurāciju, atkārtoti lietojot Microsoft Excel veidni, kura ir modificēta. Šajā procedūrā importēsiet modificētu Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot GBSI datu kopu. Pirms darba sākšanas lejupielādējiet un saglabājiet failu SampleVendPaymWsReport2.xlsx, kurš ir norādīts palīdzības tēmā “Elektronisko pārskatu veidošanas formāta mainīšana, atkārtoti pielietojot Microsoft Excel veidni” (modify-electronic-reporting-format-reapply-excel-template/).
+Šīs procedūras aprakstā ir paskaidrots, kā izmainīt elektronisko pārskatu izveides (Electronic reporting — ER) formāta konfigurāciju, atkārtoti lietojot izmainītu Microsoft Excel veidni. Šajā procedūrā importēsiet modificētu Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot GBSI datu kopu. Pirms darba sākšanas lejupielādējiet un saglabājiet failu SampleVendPaymWsReport2.xlsx, kurš ir norādīts palīdzības tēmā “Elektronisko pārskatu veidošanas formāta mainīšana, atkārtoti pielietojot Microsoft Excel veidni” (modify-electronic-reporting-format-reapply-excel-template/).
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  
@@ -83,5 +83,4 @@ Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra �
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Izmantot ER formāta modificēto melnraksta versiju lietošanai maksājumu žurnāla apstrādei
     * Pārskatiet izveidoto darblapu, ieskaitot jauno maksājuma informācijas rindu — maksājuma datumu.  
-
 

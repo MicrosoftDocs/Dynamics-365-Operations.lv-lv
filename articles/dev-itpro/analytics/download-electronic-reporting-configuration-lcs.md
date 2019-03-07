@@ -1,13 +1,13 @@
 ---
-title: "Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services"
-description: "Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no Microsoft Dynamics Lifecycle Services (LCS)."
+title: Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services
+description: Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no portāla Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315755"
 ---
-
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no Microsoft Dynamics Lifecycle Services (LCS).
+Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no portāla Microsoft Dynamics Lifecycle Services (LCS).
 
-Šī apmācība palīdzēs jums veikt elektronisko atskaišu veidošanas (ER) konfigurāciju jaunāko versiju lejupielādi no Microsoft Dynamics Lifecycle Services (LCS).
+Šajā apmācībā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (ER) konfigurāciju jaunāko versiju no portāla Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Pierakstieties programmatūrā Dynamics 365 for Finance and Operations, izmantojot kādu no tālāk norādītajām lomām.
 
@@ -75,4 +74,3 @@ ms.lasthandoff: 09/22/2018
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-

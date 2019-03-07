@@ -1,13 +1,13 @@
 ---
-title: "Kreditora daļējas summas maksājumi"
-description: "Reizēm jūs veicat kreditoram maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās."
+title: Kreditora daļējas summas maksājumi
+description: Reizēm jūs veicat kreditoram maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2644e0a27eff3e45ddcddb89c9aac9230190788f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d8c012d3e88f3f4fe2e60f1db59978e326c42681
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318906"
 ---
-
 # <a name="vendor-payments-for-a-partial-amount"></a>Kreditoru maksājumi par daļēju summu
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ Ja vēl atlikusī nosedzamā summa ir ļoti neliela, varat veikt daļējo maksā
 
 
 Plašāku informāciju skatiet šeit: [Kreditora maksājumu pārskats](../cash-bank-management/tasks/vendor-payment-overview.md).
-

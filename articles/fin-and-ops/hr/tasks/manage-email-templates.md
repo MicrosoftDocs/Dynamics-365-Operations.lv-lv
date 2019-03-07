@@ -1,13 +1,13 @@
---- 
-title: "E-pasta veidņu pārvaldība"
-description: "Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grāmatzīmēm un izmantot to veidnēs, kuras izmantojat efektīvai saziņai ar kandidātiem."
+---
+title: E-pasta veidņu pārvaldība
+description: Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grāmatzīmēm un izmantot to veidnēs, kuras izmantojat efektīvai saziņai ar kandidātiem.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f8eface8fd47378e25c7baeca9a84fa41097dfbe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eeaf1675b6653ab2c8c04d05ec1bff3cd0bb18d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309614"
 ---
 # <a name="manage-email-templates"></a>E-pasta veidņu pārvaldība
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grāmatzīmēm un izmantot to veidnēs, kuras izmantojat efektīvai saziņai ar kandidātiem. Lai to paveiktu, izveidojiet veidni, kas satur standarta tekstu un dažas grāmatzīmes, kur paredzēts ievietot sistēmas datus. Piemēram, varat ievietot kandidāta adresi un kontaktinformāciju Microsoft Word dokumentā, kuru varēsit izmantot saziņai ar šo kandidātu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grāmatzīmēm un izmantot to veidnēs, kuras izmantojat efektīvai saziņai ar kandidātiem. Lai to paveiktu, izveidojiet veidni, kas satur standarta tekstu un dažas grāmatzīmes, kur paredzēts ievietot sistēmas datus. Piemēram, varat ievietot kandidāta adresi un kontaktinformāciju Microsoft Word dokumentā, ko varat izmantot, kad sazināties ar šo kandidātu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Izvēlieties grāmatzīmes, kuras nepieciešams izmantot e-pasta veidnēs
@@ -50,5 +50,4 @@ Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grā
 8. Turpiniet rakstīt e-pasta ziņojumu, ievietojot grāmatzīmju laukus vietās, kur tie nepieciešami.
     * Turpiniet rakstīt e-pasta ziņojumu, ievietojot grāmatzīmju laukus vietās, kur tie nepieciešami.  
 9. Noklikšķiniet uz Saglabāt.
-
 

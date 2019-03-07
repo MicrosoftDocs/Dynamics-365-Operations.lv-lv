@@ -1,14 +1,14 @@
 ---
 title: E-pasta veidnes
-description: "Šajā tēmā ir sniegta informācija par e-pasta veidnēm, kuras varat izveidot un izmantot programmā Microsoft Dynamics 365 for Talent - Attract."
+description: Šajā tēmā ir sniegta informācija par e-pasta ziņojumu veidnēm, ko varat izveidot un izmantot programmā Microsoft Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305359"
 ---
-
 # <a name="email-templates"></a>E-pasta veidnes
 [!include[banner](../includes/banner.md)]
 
-Izmantojot e-pasta veidņu bibliotēku, administratori var nodrošināt vienotu dizainu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 for Talent: Attract. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi programmā Attract ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
+Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var radīt vienotu stilu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 for Talent: Attract. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi programmā Attract ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
 
 > [!NOTE]
 > Lai izmantotu e-pasta veidnes, jūsu organizācijai ir jābūt pieejamai visaptverošās darbā pieņemšanas pievienojumprogrammai.
 
 ## <a name="global-template-configurations"></a>Globālās veidņu konfigurācijas
 
-Lai nodrošinātu konsekventu zīmolradi visos e-pasta ziņojumos, administratoram vispirms jāiestata globālā galvene un kājene visām e-pasta veidnēm. Administrēšanas centra cilnes **E-pasta veidņu iestatījumi** sadaļā **Galvene** administrators var augšupielādēt attēlu, kas tiks izmantots kā galvene vai reklāmkarogs visos e-pasta ziņojumos. Attēls var būt uzņēmuma logotips, iespiests uzraksts vai cits reprezentatīvs attēls. Ieteicamais platums ir no 25 līdz 800 pikseļiem un augstums — no 25 līdz 150 pikseļiem, jo šie izmēri ir optimāli lielākajai daļai e-pasta klientu, piemēram, Microsoft Outlook. Attēla failam jābūt JPEG, JPG, PNG vai SVG formātā, un faila lielumam jābūt mazākam par 1 megabaitu (MB). Pēc attēla augšupielādes tiek ģenerēts un parādīts galvenes priekšskatījums. Ja ir jānoņem vai jānomaina galvenes attēls, administrators var izmantot opciju **Noņemt** virs priekšskatījuma.
+Lai nodrošinātu konsekventu zīmolradi visos e-pasta ziņojumos, administratoram vispirms jāiestata globālā galvene un kājene visām e-pasta veidnēm. Administrēšanas centra cilnes **E-pasta veidņu iestatījumi** sadaļā **Galvene** administrators var augšupielādēt attēlu, kas tiks izmantots kā galvene vai reklāmkarogs visos e-pasta ziņojumos. Attēls var būt uzņēmuma logotips, iespiests uzraksts vai cits reprezentatīvs attēls. Ir ieteicams iestatīt platumu no 25 līdz 800 pikseļiem un augstumu no 25 līdz 150 pikseļiem, jo šie izmēri ir optimāli piemēroti vairumam e-pasta klientu, piemēram, Microsoft Outlook. Attēla failam jābūt JPEG, JPG, PNG vai SVG formātā, un faila lielumam jābūt mazākam par 1 megabaitu (MB). Pēc attēla augšupielādes tiek ģenerēts un parādīts galvenes priekšskatījums. Ja ir jānoņem vai jānomaina galvenes attēls, administrators var izmantot opciju **Noņemt** virs priekšskatījuma.
 
 Sadaļā **Kājene** administrators var sniegt saites uz uzņēmuma konfidencialitātes politiku saziņai un uz noteikumiem un nosacījumiem. Šīs saites ir iekļautas kājenē, kas tiek ģenerēta automātiski. Pēc tam tiek parādīts šīs kājenes priekšskatījums.
 
@@ -69,7 +68,7 @@ Veidnes lauku **Adresāts** nevar rediģēt, jo saņēmējs jau tika atlasīts, 
 
 Kopijas (Cc) rindā var pievienot personas, piemēram, **Personāla atlases darbinieks** vai **Par pieņemšanu darbā atbildīgais vadītājs**. Kad e-pasta ziņojums tiek nosūtīts, šīs lomas tiek automātiski aizstātas ar atbilstošajiem lietotājiem, pamatojoties uz darba kontekstu.
 
-Tēmas rinda un pamatteksts atbalsta vietturus. Vietturus var ievietot, ierakstot **\#** un pēc tam atlasot atbilstošu vietturi automātiskās pabeigšanas nolaižamajā sarakstā. Lapas labajā pusē tiek parādīts pieejamo vietturu saraksts. Kad e-pasta ziņojums tiek nosūtīts, vietturi tiek automātiski aizstāti, pamatojoties uz darba kontekstu un saņēmēju. Piemēram, tāda e-pasta veidne, kas tiek nosūtīts kandidātiem, satur vietturi \#{Candidate\_Name}. Nosūtot e-pasta ziņojumu kandidātam, kuru sauc Kamerons, vietturis tiks aizstāts ar vārdu Kamerons.
+Tēmas rinda un pamatteksts atbalsta vietturus. Vietturus var ievietot, ierakstot **\#** un pēc tam atlasot atbilstošu vietturi automātiskās pabeigšanas nolaižamajā sarakstā. Lapas labajā pusē tiek parādīts pieejamo vietturu saraksts. Kad e-pasta ziņojums tiek nosūtīts, vietturi tiek automātiski aizstāti, pamatojoties uz darba kontekstu un saņēmēju. Piemēram, kandidātiem sūtīta e-pasta ziņojuma veidnē ir ietverts vietturis \#{Candidate\_Name}. Nosūtot e-pasta ziņojumu kandidātam, kuru sauc Kamerons, vietturis tiks aizstāts ar vārdu Kamerons.
 
 Pamatteksta redaktors ir bagātinātā teksta redaktors, kas ļauj mainīt teksta stilu un formātu. Tas arī ļauj ievietot hipersaites un enkurus.
 
@@ -81,4 +80,3 @@ Kad darbā pieņemšanas grupa sūta e-pasta ziņojumu, tā var izmantot veidnes
 
 > [!NOTE] 
 > E-pasta ziņojumiem, kas tiek nosūtīti automātiski, var izveidot vairākas veidnes. Tomēr tikai vienu veidni var iestatīt kā aktīvo veidni. Tā kā šo procesu aktivizē notikumi, tikai administrators var noteikt, kura veidne jāizmanto, balstoties uz žetonu **Noklusējums** un **Automātiskā sūtīšana** kombināciju veidņu bibliotēkā.
-
