@@ -1,13 +1,13 @@
 ---
-title: "Brīva teksta rēķina labošana"
-description: "Šajā rakstā ir paskaidrots, kā labot brīva teksta rēķinu, kas jau ir iegrāmatots, un kā to vēlreiz izsniegt kā labotu rēķinu."
+title: Brīva teksta rēķina labošana
+description: Šajā rakstā ir paskaidrots, kā labot brīva teksta rēķinu, kas jau ir iegrāmatots, un kā to vēlreiz izsniegt kā labotu rēķinu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c8c1b90b7b2c02a53e53cc13d70445a237b126d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cbae4c444db29a8dc7f3040aa78e45c0da092efd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364607"
 ---
-
 # <a name="correct-a-free-text-invoice"></a>Brīva teksta rēķina labošana
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Atcelšanas un labošanas rēķinus varat identificēti divējādi:
 
 > [!NOTE]
 > Šis līdzeklis ir pieejams tikai tad, ja ir atlasīta konfigurācijas atslēga **Brīva teksta rēķina labojums**.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Elektronisko pārskatu veidošanas (ER) konfigurēšana datu ievilkšanai pakalpojumā Power BI"
-description: "Šajā tēmā ir paskaidrots, kā varat lietot savu elektronisko pārskatu (Electronic Reporting — ER) konfigurāciju, lai organizētu datu pārsūtīšanu no jūsu Finance and Operations instances uz Power BI pakalpojumiem."
+title: Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
+description: Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu izveides (Electronic Reporting — ER) konfigurāciju, lai nodrošinātu datu pārsūtīšanu no savas Finance and Operations instances uz Power BI pakalpojumiem.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335788"
 ---
-
-# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronisko pārskatu veidošanas (ER) konfigurēšana datu ievilkšanai pakalpojumā Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā varat lietot savu elektronisko pārskatu (Electronic Reporting — ER) konfigurāciju, lai organizētu datu pārsūtīšanu no jūsu Finance and Operations instances uz Power BI pakalpojumiem. Kā piemērs šajā tēmā ir izmantotas Intrastat transakcijas, kas veido pārsūtāmos biznesa datus. Power BI kartes vizualizācija šos Intrastat transakciju datus izmanto, lai sniegtu skatu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzei Power BI pārskatā.
+Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu izveides (Electronic Reporting — ER) konfigurāciju, lai nodrošinātu datu pārsūtīšanu no savas Finance and Operations instances uz Power BI pakalpojumiem. Kā piemērs šajā tēmā ir izmantotas Intrastat transakcijas, kas veido pārsūtāmos biznesa datus. Power BI kartes vizualizācijas funkcija izmanto šos Intrastat darbību datus, lai Power BI pārskatā parādītu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzi.
 
 ## <a name="overview"></a>Pārskats
 
-Microsoft Power BI ir kolekcija ar programmatūras pakalpojumiem, programmām un savienotājiem, kas savstarpēji sadarbojas, ārējos datu avotus padarot par saprotamiem, vizuāli visaptverošiem un interaktīviem ieskatiem. Elektroniskā pārskatu veidošana (Electronic reporting — ER) programmā Microsoft Dynamics 365 for Finance and Operations lietotājiem ļauj vienkārši konfigurēt datu avotus un sakārtot datu pārsūtīšanu no Finance and Operations uz Power BI. Dati tiek pārsūtīti kā faili OpenXML darblapas (Microsoft Excel darbgrāmatas faila) formātā. Pārsūtītie faili tiek glabāti pakalpojumā Microsoft SharePoint Server, kas ir konfigurēts šim nolūkam. Glabātie faili tiek izmantoti pakalpojumā Power BI, vai veidotu pārskatus, kuri ietver vizualizācijas (tabulas, diagrammas, kartes un citus elementus). Power BI pārskati tiek koplietoti ar Power BI lietotājiem, un tiem tiek piekļūts Power BI informācijas paneļos un Finance and Operations lapās. Šajā tēmā ir paskaidroti tālāk uzskaitītie uzdevumi.
+Microsoft Power BI ir programmatūras pakalpojumu, programmu un savienotāju kopa, kuras komponenti savstarpēji sadarbojas, lai no ārējiem datu avotiem iegūtu saprotamus, vizuāli visaptverošus un interaktīvus ieskatus. Modulis Elektronisko pārskatu izveide (ER) sniedz Microsoft Dynamics 365 for Finance and Operations lietotājiem iespēju viegli konfigurēt datu avotus un konfigurēt datu pārsūtīšanu no programmas Finance and Operations uz pakalpojumu Power BI. Dati tiek pārsūtīti kā OpenXML darblapas (Microsoft Excel darbgrāmatas) formāta faili. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server serverī, kas ir konfigurēts šim nolūkam. Glabātie faili tiek izmantoti pakalpojumā Power BI, lai izveidotu pārskatus, kuros ir ietvertas vizualizācijas (tabulas, diagrammas, kartes utt.). Power BI pārskati tiek kopīgoti ar Power BI lietotājiem, un tiem var piekļūt Power BI informācijas paneļos un Finance and Operations lapās. Šajā tēmā ir paskaidroti tālāk uzskaitītie uzdevumi.
 
 - Konfigurējiet programmu Finance and Operations.
 - Sagatavojiet savu ER formāta konfigurāciju, lai saņemtu datus no Finance and Operations.
-- Konfigurējiet ER vidi datu pārsūtīšanai uz Power BI.
-- Lietojiet pārsūtītos datus Power BI pārskata veidošanai.
-- Padariet Power BI pārskatu pieejamu programmā Finance and Operations.
+- Konfigurējiet ER vidi datu pārsūtīšanai uz pakalpojumu Power BI.
+- Izmantojiet pārsūtītos datus, lai izveidotu Power BI pārskatu.
+- Padariet Power BI pārskatu pieejamu programmā Finance and Operations.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Lai izpildītu šajā tēmā aprakstīto piemēru, jums ir nepieciešama tālāk norādītā piekļuve.
@@ -50,17 +49,17 @@ Lai izpildītu šajā tēmā aprakstīto piemēru, jums ir nepieciešama tālāk
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
-- Piekļuve pakalpojumam SharePoint Server, kas ir konfigurēts lietošanai ar Finance and Operations
+- Piekļuve SharePoint Server serverim, kas ir konfigurēts lietošanai kopā ar programmu Finance and Operations
 - Piekļuve Power BI struktūrai
 
 ## <a name="configure-document-management-parameters"></a>Konfigurēt dokumentu pārvaldības parametrus
-1. Lapā **Dokumentu pārvaldības parametri** konfigurējiet piekļuvi pakalpojumam SharePoint Server, kas tiks izmantots tajā uzņēmumā, kurā esat pierakstījies (šajā piemērā tas ir DEMF uzņēmums).
-2. Pārbaudiet savienojumu ar SharePoint Server, lai pārliecinātos, ka jums ir piešķirta piekļuve.
+1. Lapā **Dokumentu pārvaldības parametri** konfigurējiet piekļuvi SharePoint Server serverim, kas tiks izmantots uzņēmumā, kurā esat pierakstījies (šajā piemērā tas ir uzņēmums DEMF).
+2. Pārbaudiet savienojumu ar SharePoint Server serveri, lai pārliecinātos, vai jums ir piešķirtas piekļuves tiesības.
 
     [![Lapa Dokumentu pārvaldības parametri](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
-3. Atveriet konfigurēto SharePoint vietni. Izveidojiet jaunu mapi, kur ER saglabās Excel failus, kuros ir biznesa dati, kas Power BI pārskatiem ir nepieciešami kā Power BI datu kopu avots.
-4. Programmā Finance and Operations, lapā **Dokumentu tipi** izveidojiet jaunu dokumenta tipu, kas tiks izmantots, lai piekļūtu jūsu tikko izveidotajai SharePoint mapei. Ievadiet vērtību **Fails** laukā **Grupa** un vērtību **SharePoint** laukā **Atrašanās vieta**, un pēc tam ievadiet SharePoint mapes adresi.
+3. Atveriet konfigurēto SharePoint vietni. Izveidojiet jaunu mapi, kurā modulim ER ir jāsaglabā Excel faili, kuros ir ietverti biznesa dati, kas ir nepieciešami Power BI pārskatiem izmantošanai kā Power BI datu kopu avots.
+4. Programmas Finance and Operations lapā **Dokumentu tipi** izveidojiet jaunu dokumenta tipu, kas tiks izmantots, lai piekļūtu jaunizveidotajai SharePoint mapei. Ievadiet vērtību **Fails** laukā **Grupa** un vērtību **SharePoint** laukā **Vieta** un pēc tam ievadiet SharePoint mapes adresi.
 
     [![Lapa Dokumentu tipi](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
@@ -70,7 +69,7 @@ Lai izpildītu šajā tēmā aprakstīto piemēru, jums ir nepieciešama tālāk
 3. Darbvietā **Elektronisko pārskatu veidošana** nepieciešamo pakalpojumu sniedzēju padariet aktīvu, noklikšķinot uz **Iestatīt kā aktīvu**. Lai iegūtu papildinformāciju, noskatieties uzdevuma ceļvedi **ER Atlasīt pakalpojumu sniedzēju**.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Izmantot ER datu modeli kā datu avotu
-Jums ir nepieciešams ER datu modelis kā biznesa datu avots, kurš tiks izmantots Power BI pārskatos. Šis datu modelis tiek augšupielādēts no ER konfigurācijas krātuves. Papildinformāciju skatiet tēmā [Lejupielādēt elektronisko pārskatu veidošanas konfigurācijas no Lifecycle Services](download-electronic-reporting-configuration-lcs.md) vai noskatieties uzdevuma ceļvedi **ER Importēt konfigurāciju no Lifecycle Services**. Atlasiet **Intrastat** kā datu modeli, kurš tiks augšupielādēts no atlasītā ER konfigurāciju repozitorija. (Šajā piemērā tiek lietota modeļa 1. versija.) Pēc tam varat piekļūt ER modeļa konfigurācijai **Intrastat** lapā **Konfigurācijas**.
+Kā Power BI pārskatos izmantojamais biznesa datu avots ir jāizmanto ER datu modelis. Šis datu modelis tiek augšupielādēts no ER konfigurācijas krātuves. Papildinformāciju skatiet tēmā [Lejupielādēt elektronisko pārskatu veidošanas konfigurācijas no Lifecycle Services](download-electronic-reporting-configuration-lcs.md) vai noskatieties uzdevuma ceļvedi **ER Importēt konfigurāciju no Lifecycle Services**. Atlasiet **Intrastat** kā datu modeli, kurš tiks augšupielādēts no atlasītā ER konfigurāciju repozitorija. (Šajā piemērā tiek lietota modeļa 1. versija.) Pēc tam varat piekļūt ER modeļa konfigurācijai **Intrastat** lapā **Konfigurācijas**.
 
 [![Lapa Konfigurācijas](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
@@ -113,7 +112,7 @@ Tiek ģenerēts tālāk norādītais izvades rezultāts. Faila nosaukums ir **Im
 ## <a name="configure-the-er-destination"></a>Konfigurēt ER adresātu
 Ir nepieciešams konfigurēt ER struktūru, lai jaunā ER formāta konfigurācijas izvades rezultātu sūtītu īpašā veidā.
 
-- Šis izvades rezultāts ir jānosūta uz atlasītā SharePoint Server mapi.
+- Izvades rezultāts ir jānosūta uz atlasītā SharePoint Server servera mapi.
 - Katrai formātā konfigurācijas izpildei ir jāizveido tā paša Excel faila jauna versija.
 
 Lapā **Elektroniskie pārskati** (**Organizācijas administrēšana** &gt; **Elektroniskie pārskati**) noklikšķiniet uz vienuma **Elektroniskās pārskatu veidošanas adresāts** un pievienojiet jaunu adresātu. Laukā **Atsauce** atlasiet iepriekš izveidoto formāta konfigurāciju **Importēšanas/eksportēšanas aktivitātes**. Izpildiet tālāk aprakstītās darbības, lai atsaucei pievienotu jaunu faila adresāta ierakstu.
@@ -123,7 +122,7 @@ Lapā **Elektroniskie pārskati** (**Organizācijas administrēšana** &gt; **E
 
 Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam dialoglodziņā **Adresāta iestatījumi** izpildiet tālāk aprakstītās darbības.
 
-1. Cilnē **Power BI** opcijai **Iespējots** iestatiet vērtību **Jā**.
+1. Cilnē **Power BI** iestatiet opcijas **Iespējots** vērtību **Jā**.
 2. Laukā **SharePoint** atlasiet iepriekš izveidoto dokumenta tipu **Kopīgots**.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>Plānot konfigurētā ER formāta izpildi
@@ -134,7 +133,7 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 
 3. Atlasiet konfigurācijas **Importēšanas/eksportēšanas aktivitātes** pabeigto versiju un pēc tam noklikšķiniet uz **Palaist**. Ievērojiet, ka konfigurētais adresāts tiek lietots izvades rezultātam, kurš tiek ģenerēts Excel formātā.
 4. Opcijai **Pakešapstrāde** iestatiet vērtību **Jā**, lai šo pārskatu palaistu neuzraudzītā režīmā.
-5. Noklikšķiniet uz **Periodiskums**, lai šī pakešuzdevuma izpildei plānotu nepieciešamo periodiskumu. Periodiskums nosaka, cik bieži atjauninātie dati no Finance and Operations tiks pārsūtīti uz Power BI.
+5. Noklikšķiniet uz **Periodiskums**, lai šī pakešuzdevuma izpildei plānotu nepieciešamo periodiskumu. no periodiskuma ir atkarīgs tas, cik bieži atjauninātie dati tiek pārsūtīti no programmas Finance and Operations uz pakalpojumu Power BI.
 
     [![Dialoglodziņš Elektronisko pārskatu parametri](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
@@ -142,17 +141,17 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 
     [![Lapa Pakešuzdevumi](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
-7. Kad šis darbs tiek palaists pirmo reizi, adresāts izveido jaunu Excel failu, kuram ir atlasītajā SharePoint mapē konfigurētais nosaukums. Katrā turpmākajā šī darba palaišanas reizē adresāts izveido jaunu šī Excel faila versiju.
+7. Pirmo reizi izpildot šo darbu, galamērķa sistēma izveido jaunu Excel failu ar konfigurēto nosaukumu atlasītajā SharePoint mapē. Katrā turpmākajā šī darba palaišanas reizē adresāts izveido jaunu šī Excel faila versiju.
 
     [![Jauna Excel faila versija](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
-## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Izveidot Power BI datu kopu, izmantojot ER formāta izvades rezultātu
-1. Pierakstieties pakalpojumā Power BI un atveriet esošu Power BI grupu (darbvieta) vai izveidojiet jaunu grupu. Noklikšķiniet uz **Pievienot** izvēlnē **Faili** sadaļā **Importējiet datus vai izveidojiet savienojumu ar tiem** vai noklikšķiniet uz pluszīmes (**+**), kas atrodas blakus vienumam **Datu kopas** kreisajā rūtī.
+## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Power BI datu kopas izveide, izmantojot ER formāta izvades rezultātu
+1. Pierakstieties pakalpojumā Power BI un atveriet esošu Power BI grupu (darbvietu) vai izveidojiet jaunu grupu. Noklikšķiniet uz **Pievienot** izvēlnē **Faili** sadaļā **Importējiet datus vai izveidojiet savienojumu ar tiem** vai noklikšķiniet uz pluszīmes (**+**), kas atrodas blakus vienumam **Datu kopas** kreisajā rūtī.
 
     [![Datu kopas izveidošana](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. Atlasiet opciju **SharePoint – Grupas vietnes** un pēc tam ievadiet SharePoint Server ceļu, kuru izmantojat (mūsu piemērā tas ir `https://ax7partner.litware.com`).
-3. Pārlūkojiet mapi **/Koplietotie dokumenti/GER dati/PowerBI** un atlasiet Excel failu, kuru izveidojāt kā jaunās Power BI datu kopas datu avotu.
+2. Atlasiet **SharePoint — darba grupas vietnes** un pēc tam ievadiet izmantotā SharePoint Server servera ceļu (mūsu piemērā tas ir `https://ax7partner.litware.com`).
+3. Pārlūkojiet līdz mapei **/Koplietotie dokumenti/GER dati/PowerBI** un atlasiet izveidoto Excel failu kā jaunās Power BI datu kopas datu avotu.
 
     [![Excel faila atlasīšana](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
 
@@ -160,17 +159,17 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 
     [![Datu kopa informācijas panelī](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
-5. Konfigurējiet šīs datu kopas atsvaidzināšanas grafiku, lai piespiestu veikt periodisku atjaunināšanu. Periodiskie atjauninājumi ļauj patērēt jaunus biznesa datus, kas tiek saņemti no Finance and Operations, izmantojot periodisku ER pārskata izpildi ar jaunām pakalpojumā SharePoint Server esošā Excel faila versijām.
+5. Konfigurējiet šīs datu kopas atsvaidzināšanas grafiku, lai piespiestu veikt periodisku atjaunināšanu. Periodiskie atjauninājumi sniedz iespēju lietot jaunos biznesa datus, kas tiek saņemti no programmas Finance and Operations, periodiski izpildot ER pārskatu ar jaunām SharePoint Server serverī izveidotā Excel faila versijām.
 
-## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Izveidot Power BI pārskatu, izmantojot jauno datu kopu
-1. Noklikšķiniet uz iepriekš izveidotās **Importēšanas un eksportēšanas informācija** Power BI datu kopas.
+## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Power BI pārskata izveide, izmantojot jauno datu kopu
+1. Noklikšķiniet uz iepriekš izveidotās Power BI datu kopas **Importēšanas un eksportēšanas informācija**.
 2. Konfigurējiet vizualizāciju. Piemēram, atlasiet vizualizāciju **Kartogramma** un konfigurējiet to tālāk aprakstītajā veidā.
 
     - Datu kopas lauku **CountryOrigin** piešķiriet kartes vizualizācijas laukam **Atrašanās vieta**.
     - Datu kopas lauku **Summa** piešķiriet kartes vizualizācijas laukam **Krāsu piesātinājums**.
     - Datu kopas laukus **Aktivitāte** un **Gads** pievienojiet kartes vizualizācijas lauku kolekcijai **Filtri**.
 
-3. Saglabājiet šo Power BI pārskatu kā **Importēšanas un eksportēšanas informācijas pārskats**.
+3. Saglabājiet šo Power BI pārskatu ar nosaukumu **Importēšanas un eksportēšanas informācijas pārskats**.
 
     [![Importēšanas un eksportēšanas informācijas pārskats](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
 
@@ -180,16 +179,16 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 
     [![Intrastat transakciju saraksts](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
 
-5. Gaidiet nākamo plānoto ER pārskata izpildi un nākamo plānoto Power BI datu kopas atjaunināšanu. Pēc tam pārskatiet Power BI pārskatu (atlasiet, lai rādītu tikai importa transakcijas). Tagad atjauninātajā kartē tiek rādīta Itālija.
+5. Gaidiet nākamo plānoto ER pārskata izpildi un nākamo plānoto Power BI datu kopas atjaunināšanu. Pēc tam skatiet Power BI pārskatu (atlasiet tikai importēšanas transakciju rādīšanas režīmu). Tagad atjauninātajā kartē tiek rādīta Itālija.
 
     [![Atjaunināta karte](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
-## <a name="access-power-bi-report-in-finance-and-operations"></a>Piekļūt Power BI pārskatam programmā Finance and Operations
-Iestatiet integrāciju starp programmu Finance and Operations un pakalpojumu Power BI. Papildinformāciju skatiet tēmā [Power BI integrācijas konfigurēšana darbvietām](configure-power-bi-integration.md).
+## <a name="access-power-bi-report-in-finance-and-operations"></a>Piekļuve Power BI pārskatam programmā Finance and Operations
+Iestatiet programmas Finance and Operations un pakalpojuma Power BI integrāciju. Papildinformāciju skatiet rakstā [Power BI integrācijas konfigurēšana darbvietām](configure-power-bi-integration.md).
 
-1. Lapā **Elektronisko pārskatu darbvieta**, kas atbalsta Power BI integrāciju (**Organizācijas administrēšana** &gt; **Darbvietas** &gt; **Elektronisko pārskatu darbvieta**), noklikšķiniet uz **Opcijas** &gt; **Atvērt katalogu pārskatu**.
-2. Atlasiet jūsu izveidoto Power BI pārskatu **Importēšanas un eksportēšanas informācija**, lai šis pārskats atlasītajā lapā tiktu rādīts kā darbības vienums.
-3. Noklikšķiniet uz darbības vienuma, lai atvērtu Finance and Operations lapu, kurā ir redzams pārskats, ko noformējāt pakalpojumā Power BI.
+1. Darbvietas **Elektronisko pārskatu izveide** lapā, kas atbalsta Power BI integrāciju (**Organizācijas administrēšana** &gt; **Darbvietas** &gt; **Elektronisko pārskatu izveides darbvieta**), noklikšķiniet uz **Opcijas** &gt; **Atvērt pārskatu katalogu**.
+2. Atlasiet jūsu izveidoto Power BI pārskatu **Importēšanas un eksportēšanas informācija**, lai šis pārskats tiktu parādīts kā darbības vienums atlasītajā lapā.
+3. Noklikšķiniet uz darbības vienuma, lai atvērtu Finance and Operations lapu, kurā ir redzams pārskats, ko noformējāt pakalpojumā Power BI.
 
     [![Importēšanas un eksportēšanas informācijas pārskats](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
@@ -198,4 +197,3 @@ Iestatiet integrāciju starp programmu Finance and Operations un pakalpojumu Pow
 [Elektroniskās pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Maršruti un operācijas"
-description: "Šajā tēmā ir sniegta informācija par maršrutiem un operācijām."
+title: Maršruti un operācijas
+description: Šajā tēmā ir sniegta informācija par maršrutiem un operācijām.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 ms.author: sorenand
 audience: Application User
@@ -19,14 +19,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333350"
 ---
-
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ ms.lasthandoff: 05/08/2018
 <a name="overview"></a>Pārskats
 --------
 
-Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā Microsoft Dynamics 365 for Finance and Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
+Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmā Microsoft Dynamics 365 for Finance and Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
 
 -   **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
 -   **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
@@ -240,7 +239,6 @@ Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai r
 [Resursu iespējas](resource-capabilities.md)
 
 [Elektronisko parakstu apskats](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
-
 
 
 

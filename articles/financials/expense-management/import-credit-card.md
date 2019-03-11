@@ -1,13 +1,13 @@
 ---
-title: "Kredītkaršu transakciju importēšana un uzturēšana"
-description: "Šajā tēmā ir paskaidrots, kā importēt un uzturēt ar izdevumiem saistītas kredītkaršu transakcijas. Šīs transakcijas var iestatīt tā, lai tās regulāri tiktu importētas automātiski, vai tās var importēt manuāli, kad vien nepieciešams."
+title: Kredītkaršu transakciju importēšana un uzturēšana
+description: Šajā tēmā ir paskaidrots, kā importēt un uzturēt ar izdevumiem saistītas kredītkaršu transakcijas. Šīs transakcijas var iestatīt tā, lai tās regulāri tiktu importētas automātiski, vai tās var importēt manuāli, kad vien nepieciešams.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322655"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredītkaršu transakciju importēšana un uzturēšana
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Papildinformāciju par datu elementiem skatiet rakstā [Datu elementi](../../dev
 Kad darbinieka ieraksts tiek izbeigts, šī darbinieka domēna pakalpojuma Active Directory (AD DS) konts tiek atspējots. Taču var pastāvēt aktīvas kredītkaršu transakcijas, kuras joprojām ir jāietver izdevumos un ir jākompensē. No lapas **Kredītkaršu transakcijas** šo darbinieku varat atkārtoti piešķirt jebkurai kredītkartes transakcijai, kur saistītais darbinieks ir atlaists.
 
 Atlasiet vienu vai vairākas kredītkaršu transakcijas un pēc tam atlasiet **Atkārtoti piešķirt transakcijas**. Pēc tam varat atlasīt citu darbinieku, kuram šīs kredītkaršu transakcijas piešķirt. Kad kredītkaršu transakcijas ir piešķirtas atkārtoti, tās var atlasīt izdevumu pārskatam un apmaksāt caur izdevumu pārskata kompensēšanas parasto procesu.
-

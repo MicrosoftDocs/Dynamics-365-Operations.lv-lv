@@ -1,13 +1,13 @@
---- 
-title: "Kreditora maksājumu papildu maksu definēšana"
-description: "Iestatiet kreditoru maksājumu papildmaksas."
+---
+title: Kreditora maksājumu papildu maksu definēšana
+description: Iestatiet kreditoru maksājumu papildmaksas.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363204"
 ---
 # <a name="define-vendor-payment-fees"></a>Kreditora maksājumu papildu maksu definēšana
 
@@ -58,5 +58,4 @@ Iestatiet kreditoru maksājumu papildmaksas. Šajā uzdevumā tiek izmantots dem
 17. Laukā Papildmaksas valūta atlasiet valūtu, kurā papildmaksa tiek noteikta.
     * Šī valūta attiecas uz papildmaksu. Apmaksas valūta tiek izmantota, lai definētu to, kad papildmaksas kārtula ir jānovērtē, pamatojoties uz maksājuma valūtu. Piemēram, jūsu banka var iekasēt komisijas maksu, kad maksājums tiek veikts EUR, bet citiem maksājumiem komisijas maksa netiek noteikta.  
 18. Noklikšķiniet uz Saglabāt.
-
 

@@ -1,35 +1,34 @@
 ---
-title: "Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas"
-description: "Šajā tēmā ir aprakstīts, kā importēt datus programmā Microsoft Dynamics 365 for Finance and Operations, izmantojot Excel datu elementu veidnes."
+title: Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas
+description: Šajā tēmā ir aprakstīts, kā importēt datus programmā Microsoft Dynamics 365 for Finance and Operations, izmantojot Excel datu elementu veidnes.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351267"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas
 
 [!include [banner](../includes/banner.md)]
 
-Datu pārvaldība programmā Microsoft Dynamics 365 for Finance and Operations atbalsta ar programmu Microsoft Excel saistītas datu elementu veidnes. Šajās veidnēs var būt viena vai vairākas darblapas. Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos. Kā piemēru varētu minēt vietas un noliktavas.
+Microsoft Dynamics 365 for Finance and Operations modulis Datu pārvaldība atbalsta Microsoft Excel-datu elementu veidnes. Šajās veidnēs var būt viena vai vairākas darblapas. Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos. Kā piemēru varētu minēt vietas un noliktavas.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Faila augšupielādēšana vienu reizi un kartēšana uz visiem elementiem
 Apskatīsim piemēru, kur vienā Excel failā ir darblapas ar nosaukumu **Vietas** un **Noliktavas**. Lai iestatītu datu importēšanas projektu, jūs pievienotu pirmo datu elementu, **Vietas**, un pēc tam augšupielādētu šo failu. Kā šim elementam izmantojamo darblapu varat atlasīt **Vietas**.
@@ -51,4 +50,3 @@ Gadījumos, kad kādā datu projektā esošiem elementiem ir nepieciešams augš
 ## <a name="upload-a-file-using-run-project"></a>Faila augšupielādēšana, izmantojot opciju Palaist projektu
 
 Varat augšupielādēt Excel failu, kamēr izmantojat opciju **Palaist projektu**, lai izpildītu importēšanas projektu. Uzmanieties, lai augšupielādētu tikai failus, kuros ir tādas pašas darblapas kā esošajiem kartējumiem uz datu elementiem datu projektā. Ja no jauna augšupielādētajā failā kāda darblapa netiek atrasta, sistēma parāda kļūdas ziņojumu un pārtrauc importēšanu. Ja kādam elementam ir jāmaina kartēšana uz darblapu, tad kartējumi datu projektā vispirms ir jāatjaunina no datu projekta, un tikai pēc tam šo failu var izmantot funkcionalitātē **Palaist projektu**.
-

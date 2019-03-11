@@ -1,13 +1,13 @@
 ---
-title: "Pārskatu ģenerēšana, pievienojot saturu kā neapstrādātu XML"
-description: "Varat noformēt elektronisko pārskatu (Electronic Reporting — ER) formātus, kas izejošos dokumentus ģenerē XML formātā."
+title: Pārskatu ģenerēšana, pievienojot saturu kā neapstrādātu XML
+description: Varat noformēt elektronisko pārskatu (Electronic Reporting — ER) formātus, kas izejošos dokumentus ģenerē XML formātā.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312190"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Pārskatu ģenerēšana, pievienojot saturu kā neapstrādātu XML
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ Varat izmantot jauno **RAW XML** formāta elementu, lai noformētu elektronisko 
 > Ņemiet vērā, ka šī struktūra nekontrolē to, vai XML saturs, kurš tiek ievietots ģenerētajā dokumentā, izmantojot **RAW XML** formāta elementu, ir pareizs.
 
 Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevumu ceļvežus **ER Neapstrādātu XML datu izmantošana XML pārskatu ģenerēšanai (1. daļa. Datu modeļa noformēšana)** un **ER Neapstrādātu XML datu izmantošana XML pārskatu ģenerēšanai (2. daļa. Pārskata noformēšana un palaišana)**, kuri veido daļu no biznesa procesa **7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)** un kurus var lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684). Šajos uzdevumu ceļvežos ir izklāstīts ER formāta konfigurēšanas process neapstrādātu XML datu ievietošanai ģenerētajos failos.
-

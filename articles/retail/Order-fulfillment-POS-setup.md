@@ -1,13 +1,13 @@
 ---
-title: "Pasūtījuma izpildes iestatīšana veikaliem"
-description: "Šajā tēmā ir sniegts apskats par to, kā iestatīt veikala pasūtījuma izpildi."
+title: Pasūtījuma izpildes iestatīšana veikaliem
+description: Šajā tēmā ir sniegts apskats par to, kā iestatīt veikala pasūtījuma izpildi.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: c8c2e56a1f65d28991dca3e1da4159efe81f2bf3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350255"
 ---
-
-
 # <a name="set-up-order-fulfillment-for-stores"></a>Pasūtījuma izpildes iestatīšana veikaliem
 
 [!include [banner](includes/banner.md)]
@@ -133,4 +131,3 @@ Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu l
 - Veidošanas datums
 - Piegādes datums
 - Saņemšanas datums
-

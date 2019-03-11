@@ -1,13 +1,13 @@
 ---
-title: "Statistiskās bāzlīnijas prognozes ģenerēšana"
-description: "Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos."
+title: Statistiskās bāzlīnijas prognozes ģenerēšana
+description: Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326427"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Ja prognozes stratēģija ir iestatīta ar opciju **Kopēt vēsturiskā piepras�
 
 Lai nepieļautu ražošanas plānos pārpratumus, noteiktu prognožu intervālu skaitu var sasaldēt. Šis skaits tiek iestatīts laukā **Sasaldēt periodu**. Laukā **Koriģēta pieprasījuma apjoma prognoze** tiek atspējotas iesaldēto intervālu šūnas, vizuāli norādot, ka šīs vērtības nedrīkst mainīt. 
 
-Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja lietojat Microsoft Dynamics 365 for Finance and Operations pakalpojumu Pieprasījuma prognozēšana, trūkstošos periodus var aizpildīt četros veidos. Varat izvēlēties izmantojamo metodi, lapā **Pieprasījuma prognozēšanas parametri** iestatot parametru MISSING\_VALUE\_SUBSTITUTION . 
+Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja izmantojat Microsoft Dynamics 365 for Finance and Operations pieprasījuma prognozēšanas pakalpojumu, trūkstošos intervālus varat aizpildīt četros veidos. Varat izvēlēties izmantojamo metodi, lapā **Pieprasījuma prognozēšanas parametri** iestatot parametru MISSING\_VALUE\_SUBSTITUTION . 
 
 Laukā **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** ir jāiestata prognozes intervāla sākuma datums, piemēram, ASV ir jāiestata svētdiena, ja prognozēšanas intervāls ir nedēļa. Sistēma nodrošina lauka **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** vērtības automātisku pielāgošanu atbilstoši prognozes intervāla sākumam. 
 
@@ -72,7 +71,6 @@ Ja prognoze tiek ģenerēta nevis par lielu krājumu kopu, bet, piemēram, tikai
 [Manuālu bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
 [Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md)
-
 
 
 

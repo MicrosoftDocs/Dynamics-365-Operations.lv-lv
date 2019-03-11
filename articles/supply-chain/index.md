@@ -1,36 +1,31 @@
 ---
-title: "Piegādes ķēdes pārvaldības sākumlapa"
-description: "Šajā lapā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations."
+# required metadata
+title: Piegādes ķēdes pārvaldības sākumlapa
+description: Šajā lapā ir saraksts ar palīdzības tēmām un citiem resursiem piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: 
+ms.search.scope: 'Core, Operations'
+ms.custom: null
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: null
 ms.author: shylaw
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: '2016-11-30'
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/09/2018
-
 ---
 
 # <a name="supply-chain-management-home-page"></a>Piegādes ķēdes pārvaldības sākumlapa
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas attiecas uz piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. 
+Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz lapu <a href="https://roadmap.dynamics.com/">Dynamics 365 rīcības plāns</a>. 
@@ -53,19 +48,19 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 ## <a name="videos"></a>Videoklipi
 
-Šie īsie videoklipi sniedz informāciju par jaunajiem līdzekļiem, kas iekļauti Microsoft Dynamics 365 for Finance and Operations versijā 8.0 (2018. gada aprīlis).
+Šie īsie videoklipi palīdzēs jums apgūt jaunos līdzekļus, kas ir pieejami Microsoft Dynamics 365 for Finance and Operations versijā 8.0 (2018. gada aprīlis).
 
 - [Darba pasūtījumu sinhronizēšana starp Field Service un Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-Šie īsie videoklipi sniedz informāciju par jaunajiem līdzekļiem, kas iekļauti programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (2017. gada decembris).
+Šie īsie videoklipi palīdzēs jums apgūt jaunos līdzekļus, kas ir pieejami Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (2017. gada decembris).
 
--  [Integrēšana no potenciālā klienta uz skaidru naudu](https://youtu.be/AVV9x5x-XCg) 
+-  [Moduļa “No potenciālā klienta uz skaidru naudu” integrēšana](https://youtu.be/AVV9x5x-XCg) 
 -  [Optimizācijas padomnieks](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Noliktavas veidnes izmantošana, lai kopētu konfigurāciju](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Šie īsie videoklipi sniedz informāciju par jaunajiem līdzekļiem, kas iekļauti programmā Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs).
+Šie īsie videoklipi palīdzēs jums apgūt jaunos līdzekļus, kas ir pieejami Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (2017. gada jūlijs).
 
--  [Darba sākšana risinājumā Izmaksu uzskaite](https://youtu.be/1pUDtJQZ8FU)
+-  [Darba sākšana ar moduli “Izmaksu uzskaite”](https://youtu.be/1pUDtJQZ8FU)
 -  [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)
 -  [Excel izmantošana izmaksu analīzei](https://youtu.be/-HKHYdClvx8)
 -  [Pirkšanas pasūtījumu apstiprināšana mobilajā ierīcē](https://youtu.be/gZ-gOlJe7H8)
@@ -81,20 +76,20 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 -  [Pieprasījuma prognozēšanas funkcionalitātes paplašināšana](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Vispārēja plānošana — padomi un metodes problēmu novēršanai](https://youtu.be/7v8BPmEs9Dg)
--  [Palīdzība, ja MRP darbojas lēni](https://youtu.be/RLXybx20B5o)
+-  [Palīgā! MRP darbojas lēni!](https://youtu.be/RLXybx20B5o)
 
 **Preču informācijas pārvaldība**
 
--  [Preču konfigurators risinājumā Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+-  [Preču konfigurators programmā Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 
 **Noliktavas pārvaldība** 
 
 <!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [Efektīvākā noliktavas pārvaldības sistēmas lietošana](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Visefektīvākā noliktavas pārvaldības sistēmas izmantošana](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [Uzlabota R3 noliktavas pārvaldība — ienākošā apstrāde un min./maks. papildināšana](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [Uzlabota R3 noliktavas pārvaldība — izejošā apstrāde un pieprasījuma papildināšana ikdienā](https://youtu.be/Og0gLlVp7jA)
--  [Etiķetes jaunajā Microsoft Dynamics AX 2012 R3 noliktavas pārvaldības sistēmā](https://youtu.be/5w1MngVchBA)
--  [Dynamics AX 2012 R3: uzlabota noliktavas pārvaldības sistēma — ražošanas process ikdienā](https://www.youtube.com/embed/QUxXUrN-7n4)
+-  [Uzlabota R3 noliktavas pārvaldība — Viena diena izejošās apstrādes un pieprasījuma papildināšana dzīvē](https://youtu.be/Og0gLlVp7jA)
+-  [Etiķetes jaunajā Microsoft Dynamics AX 2012 R3 noliktavas pārvaldībā](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: Uzlabota noliktavas pārvaldība — Viena diena procesa ražošanas dzīvē](https://www.youtube.com/embed/QUxXUrN-7n4)
 
 **Ražošanas kontrole**
 
@@ -102,19 +97,18 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 **Transportēšanas pārvaldība**
 
--  [Transportēšanas pārvaldība (TMS) jaunajā Microsoft Dynamics AX versijā](https://youtu.be/jgmTgJIgEFQ)
+-  [Transportēšanas pārvaldība (TMS) jaunajā Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Emuāri
-Daudzi raksti par ražošanu un piegādes ķēdes pārvaldību ir atrodami <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā</a> un <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā</a>. Vairumā šo rakstu aplūkota iepriekšējā Finance and Operations versija, bet šie paši jēdzieni joprojām attiecas uz pašreizējo versiju, kā arī procedūras pašreizējā versijā ir līdzīgas. 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā</a> un <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā</a> ir atrodamas daudzas tēmas par ražošanu un piegādes ķēdes pārvaldību. Vairums šo rakstu bija uzrakstīti iepriekšējai Finance and Operations versijai, bet joprojām ir spēkā tie paši jēdzieni, un procedūras pašreizējā versijā ir līdzīgas. 
 
 ## <a name="white-papers"></a>Tehniskie dokumenti
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Izmaksu uzskaites praktiskie uzdevumi</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: pieejams iegādei un Kanban darbu plānošana</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">MK aprēķināšana, izmantojot izmaksu aprēķina lapu</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations sekmētā mobilitāte noliktavā</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations nodrošinātā mobilitāte noliktavā</a>
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
-Informāciju par Microsoft Dynamics 365 for Finance and Operations apmācību skatiet <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics mācību portālā</a>. (ir nepieciešams CustomerSource konts) 
-
+Informāciju par Microsoft Dynamics 365 for Finance and Operations apmācībām skatiet <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics mācību portālā</a>. (ir nepieciešams CustomerSource konts) 
 
 

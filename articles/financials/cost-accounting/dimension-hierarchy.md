@@ -1,32 +1,31 @@
 ---
 title: Dimensiju hierarhija
-description: "Šajā tēmā ir sniegta informācija par dimensiju hierarhijām. Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite."
+description: Šajā tēmā ir sniegta informācija par dimensiju hierarhijām. Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320217"
 ---
-
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.
 > [!NOTE]
 > - Ja ir nepieciešamas dažādas perspektīvas, vienai dimensijai var izveidot vairākas dimensiju hierarhijas.
 > - Dimensiju hierarhiju var saistīt tikai ar vienu dimensiju.
-> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Ja pārskatu veidošanai izmantojat programmu Microsoft Excel vai Microsoft Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan Excel, gan Power BI ir nepieciešama fiksēta shēma.
+> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Ja pārskatu izveidei izmantojat Microsoft Excel vai Microsoft Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan programmai Excel, gan pakalpojumam Power BI ir nepieciešama fiksēta shēma.
 > - Dimensiju hierarhija nav atkarīga no datuma. Tāpēc visas dimensiju hierarhijas izmaiņas tiek nekavējoties saglabātas ierakstā, un jūs nevarat salīdzināt stāvokli pirms noteikta datuma un pēc noteikta datuma.
 
 ## <a name="dimension-hierarchy-type"></a>Dimensiju hierarhijas tips
@@ -172,7 +171,7 @@ Lai pārvietotu mezglu uz jaunu vietu hierarhijā, ir jāatlasa mērķa mezgls. 
 - **Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.
 
 > [!NOTE] 
-> Eksportējot datus uz programmu Excel vai Power BI, netiek saglabāta mezglu secība, jo šajos rīkos pēc noklusējuma tiek izmantota burtciparu kārtošanas secība. Secība ir jāmaina manuāli.
+> Eksportējot datus uz programmu Excel vai pakalpojumu Power BI, netiek saglabāta mezglu secība, jo šie rīki pēc noklusējuma izmantoto burtciparu kārtošanas secību. Secība ir jāmaina manuāli.
 
 ## <a name="define-dimension-hierarchies-for-reporting"></a>Dimensiju hierarhiju definēšana pārskatu izveidei
 
@@ -196,11 +195,11 @@ Dimensiju hierarhijas ir pieejamas tālāk norādītajos pārskatu rīkos. Šī 
         - Viena izmaksu objektu dimensiju hierarhija (pēc izvēles)
         - Viena statistisko dimensiju hierarhija (pēc izvēles)
 
-- Power BI:
+- Power BI:
 
     - ir pieejamas visas dimensiju hierarhijas.
     
-Ja veidojat pārskatus, izmantojot programmu Excel vai Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka programmā Excel un Power BI ir nepieciešama fiksēta shēma. Ja hierarhijā ir vairāk nekā 15 līmeņi, papildu līmeņi netiek eksportēti. Normalizētajā tabulā ir ietverts katra hierarhijas dimensijas elementa ierakts. Tāpēc notiek automatizēta apkopošana. Tas palīdz nodrošināt, ka jebkurā no 15 pieejamajiem hierarhijas līmeņiem joprojām ir pareiza bilance.
+Ja izveidojat pārskatus, izmantojot programmu Excel vai pakalpojumu Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka programmā Excel un pakalpojumā Power BI ir nepieciešama fiksēta shēma. Ja hierarhijā ir vairāk nekā 15 līmeņi, papildu līmeņi netiek eksportēti. Normalizētajā tabulā ir ietverts katra hierarhijas dimensijas elementa ierakts. Tāpēc notiek automatizēta apkopošana. Tas palīdz nodrošināt, ka jebkurā no 15 pieejamajiem hierarhijas līmeņiem joprojām ir pareiza bilance.
 
 Tālāk ir sniegts pārskatu struktūrā ietvertas dimensiju hierarhijas piemērs.
 
@@ -326,12 +325,11 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
 
     - Kartēs norādītās bilances
 
-- Power BI:
+- Power BI:
 
-    - Power Bi vizualizācijās attēlotie dati
-    - Programmas Microsoft Dynamics 365 for Finance and Operations klientā iegultās datu Power BI vizualizācijas
+    - Power BI vizualizācijās redzamie dati
+    - Datu Power BI vizualizācijas, kas ir iegultas Microsoft Dynamics 365 for Finance and Operations klientā
 
 > [!NOTE] 
-> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Piekļuves saraksta hierarhija nepalīdz aizsargāt datu eksportēšanu uz programmu Excel. Tāpēc pārskatu rīku drīkst izmantot tikai izmaksu grāmatveži un vadītāji, kuriem ir nepieciešama pilna piekļuve datu skatīšanai.
-

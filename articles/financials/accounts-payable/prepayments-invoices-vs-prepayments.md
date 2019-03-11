@@ -1,13 +1,13 @@
 ---
-title: "Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu"
-description: "Šajā tēmā ir aprakstītas un salīdzinātas divas metodes, ko organizācijas var izmantot avansa maksājumu (priekšapmaksas) veikšanai. Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus."
+title: Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu
+description: Šajā tēmā ir aprakstītas un salīdzinātas divas metodes, ko organizācijas var izmantot avansa maksājumu (priekšapmaksas) veikšanai. Izmantojot vienu metodi, ir jāizveido priekšapmaksas rēķins, kas saistīts ar pirkšanas pasūtījumu. Izmantojot otru metodi, ir jāizveido priekšapmaksas žurnāla dokumenti, vispirms izveidojot žurnāla ierakstus un atzīmējot tos kā priekšapmaksas žurnāla dokumentus.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310143"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Grāmatvedības prakse daudzās valstīs un reģionos pieprasa, ka priekšapmaks
 3.  Izveidot maksājumu žurnālu un pēc tam izveidojiet jaunu maksājumu.
 4.  Var atzīmēt maksājumu kā priekšapmaksa. Ja maksājums ir atzīmēts kā priekšapmaksa, maksājums tiek grāmatots Virsgrāmatas kontos, kas ir definēti 1. un 2. darbības laikā iestatītajā grāmatošanas profilā. Turklāt, ja maksājums ir atzīmēts kā priekšapmaksa, tiek aprēķināti nodokļi. Dažas valstis pieprasa, lai nodokļi tiktu samaksāti, reģistrējot priekšapmaksu, pat ja nav rēķina.
 5.  Grāmatojiet priekšapmaksu.
-6.  Pēc izvēles. Varat pirms rēķina izveides segt maksājumu pret pirkuma pasūtījumu vai pārdošanas pasūtījumu. Pārdošanas pasūtījuma vai pirkšanas pasūtījuma lapā izmantojiet darbību rūts opciju **Transakciju nosegšana**.
+6.  Pēc izvēles. Varat nosegt maksājumu pret pirkuma pasūtījumu vai pārdošanas pasūtījumu pirms rēķina izveides. Pārdošanas pasūtījuma vai pirkšanas pasūtījuma lapā izmantojiet darbību rūts opciju **Transakciju nosegšana**.
 7.  Kad piegādātājs piegādā preces vai pakalpojumus, reģistrējiet rēķinu. Ja 6. darbībā veicāt priekšapmaksu atbilstoši pirkšanas pasūtījumam vai pārdošanas pasūtījumam, priekšapmaksa tiek automātiski veikta atbilstoši izveidotajam rēķinam. Ja priekšapmaksa nav veikta atbilstoši pirkšanas pasūtījumam vai pārdošanas pasūtījumam, varat veikt to manuāli atbilstoši rēķinam, klientu vai piegādātāju lapā, lietojot opciju **Transakciju noslēgšana**. Priekšapmaksas summa tad tiek atsaukta no īslaicīgā piegādātāju/klientu virsgrāmatas konta. Turklāt, ja tika aprēķināti nodokļi, tie tiks atcelti, jo rēķinā ir faktiskie nodokļi.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Priekšapmaksas rēķinu izrakstīšanas procesa pārskats
@@ -63,7 +62,6 @@ Priekšapmaksas rēķini ir parastā uzņēmumu darbības prakse. Piegādātājs
 3.  Norēķinu ar piegādātājiem koordinators ieraksta priekšapmaksas rēķinu atbilstoši pirkšanas pasūtījumam, un pēc tam priekšapmaksas rēķins tiek apmaksāts.
 4.  Pēc tam, kad piegādātājs piegādā preces vai pakalpojumus un ir saņemti saistītā piegādātāja rēķini, norēķinu ar piegādātājiem koordinators lieto priekšapmaksas summu, kas jau tika apmaksāta atbilstoši rēķinam.
 5.  Norēķinu ar piegādātājiem koordinators veic maksājumu un sedz atlikušo rēķina summu.
-
 
 
 

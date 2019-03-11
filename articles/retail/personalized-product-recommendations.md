@@ -1,13 +1,13 @@
 ---
-title: "Personalizēti preču ieteikumi"
-description: "Šajā tēmā ir sniegta informācija par Dynamics 365 for Retail preču ieteikumiem, kas var tikt rādīti pārdošanas punkta (POS) ierīcē."
+title: Personalizēti preču ieteikumi
+description: Šajā tēmā ir sniegta informācija par Dynamics 365 for Retailpreču ieteikumiem, kas var tikt rādīti pārdošanas punkta (POS) ierīcē.
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326473"
 ---
-
 # <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 > [!NOTE]
 > Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas. Papildinformāciju skatiet šeit: [Noņemtie vai novecojušie līdzekļi](../dev-itpro/migration-upgrade/deprecated-features.md).
 
-Izmantojot programmatūru Dynamics 365 for Retail, pārdošanas punkta (POS) ierīcē var tikt rādīti preču ieteikumi. Ieteikumi ir krājumi, kas debitoru varētu interesēt, pamatojoties uz debitora pirkumu vēsturi, krājumiem debitora vēlmju sarakstā, kā arī krājumiem, ko citi debitori ir nopirkuši tiešsaistes un fiziskajos veikalos. Ja mazumtirgotājam ir plašs katalogs, ieteikumi palīdz debitoram atklāt preces. Preču ieteikumi nodrošina, ka debitoram tiek piedāvātas viņa interesēm un iepirkumu vēsturei atbilstošas preces, un tādējādi var palīdzēt mazumtirgotājiem veikt papildu pārdošanu un šķērspārdošanu un uzlabot klientu lojalitātes saglabāšanas rādītājus. Programmatūrā Dynamics 365 for Retail preču ieteikumi tiek nodrošināti, izmantojot pakalpojumu Cognitive Services un Microsoft Azure algoritmisko mācīšanos.
+Izmantojot programmu Dynamics 365 for Retail, pārdošanas punkta (POS) ierīcē var tikt rādīti preču ieteikumi. Ieteikumi ir krājumi, kas debitoru varētu interesēt, pamatojoties uz debitora pirkumu vēsturi, krājumiem debitora vēlmju sarakstā, kā arī krājumiem, ko citi debitori ir nopirkuši tiešsaistes un fiziskajos veikalos. Ja mazumtirgotājam ir plašs katalogs, ieteikumi palīdz debitoram atklāt preces. Preču ieteikumi nodrošina, ka debitoram tiek piedāvātas viņa interesēm un iepirkumu vēsturei atbilstošas preces, un tādējādi var palīdzēt mazumtirgotājiem veikt papildu pārdošanu un šķērspārdošanu un uzlabot klientu lojalitātes saglabāšanas rādītājus. Programmā Dynamics 365 for Retail preču ieteikumi tiek nodrošināti, izmantojot pakalpojumu Cognitive Services un Microsoft Azure algoritmisko mācīšanos.
 
 ## <a name="scenarios"></a>Scenāriji
 
@@ -53,7 +52,7 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
     - Ja veikala darbinieks pievieno transakcijai debitoru, ieteikumu programma nodrošina personalizētus ieteikumus, izmantojot debitora transakciju vēsturi un grozam pievienoto preču sarakstu.
 
     > [!NOTE]
-    > Lai lapā **Transakcija** tiktu rādīti ieteikumi, mazumtirgotājam ir jāatjaunina ekrāna izkārtojums programmatūrā Dynamics 365 for Retail. Lapā **Transakcijas** ir jāaktivizē vadīkla **Ieteikumi**.
+    > Lai lapā **Transakcija** tiktu rādīti ieteikumi, mazumtirgotājam ir jāatjaunina ekrāna izkārtojums programmā Dynamics 365 for Retail. Lapā **Transakcijas** ir jāaktivizē vadīkla **Ieteikumi**.
 
     [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
@@ -77,13 +76,13 @@ Lai iestatītu preču ieteikumus, ir jāveic tālāk norādītās darbības.
 
 Kad atsvaidzināt elementu **Elementu krātuve**, tiek veiktas tālāk norādītās darbības.
 
-- No programmatūras Dynamics 365 for Retail operāciju datu bāzes tiek izgūti dati, kuru formāts atbilst Cognitive Services nepieciešamajam formātam, un šie dati tiek nosūtīti uz elementu krātuvi.
+- No Dynamics 365 for Retail operāciju datu bāzes tiek izgūti pakalpojumam Cognitive Services nepieciešamā formāta dati, un šie dati tiek nosūtīti uz elementu krātuvi.
 - Šie dati tiek izmantoti pakalpojumā Azure Data Factory (ADF), lai ADF aktivitāšu ietvaros attīrītu datus, izmantojot Hive skriptus. Attīrītie dati tiek uzglabāti BLOB krātuvē.
 - Dati no BLOB krātuves tiek izmantoti Cognitive Services API, lai apmācītu ieteikumu modeli.
 
 Ja aktivizējat opciju **Iespējot ieteikumus** un palaižat konfigurācijas darbus, tiek veiktas tālāk norādītās darbības.
 
-- No API tiek izgūti modeļa akreditācijas dati un ID, un tie tiek saglabāti Dynamics 365 for Retail operāciju datu bāzē (AOS failā web.config), kā arī mazumtirdzniecības serverī.
+- No API tiek izgūti modeļa akreditācijas dati un ID, un tie tiek saglabāti Dynamics 365 for Retail operāciju datu bāzē (AOS failā web.config), kā arī Retail Server serverī.
 - Modeļa akreditācijas dati un ID tiek padarīti pieejami CRT, lai varētu izpildīt tiešsaistes preču ieteikumu izsaukumus no programmām Cloud POS un MPOS.
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Problēmu novēršana, ja preču ieteikumi jau ir iespējoti
@@ -94,4 +93,3 @@ Ja aktivizējat opciju **Iespējot ieteikumus** un palaižat konfigurācijas dar
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Ieteikumu vadīklas pievienošana POS ierīces lapā Transakcijas](add-recommendations-control-pos-screen.md)
-

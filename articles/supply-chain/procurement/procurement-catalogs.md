@@ -1,13 +1,13 @@
 ---
-title: "Sagādes katalogi"
-description: "Šajā rakstā ir detalizēti aprakstīts, kā iepirkumu speciālisti var iestatīt un uzturēt sagādes katalogus. Sagādes katalogos ir noteikti krājumi un pakalpojumi, ko uzņēmuma darbinieki var pasūtīt iekšējai lietošanai."
+title: Sagādes katalogi
+description: Šajā rakstā ir detalizēti aprakstīts, kā iepirkumu speciālisti var iestatīt un uzturēt sagādes katalogus. Sagādes katalogos ir noteikti krājumi un pakalpojumi, ko uzņēmuma darbinieki var pasūtīt iekšējai lietošanai.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9f49c25e8d653219c9a2e5bead0c25f09898e27b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358420"
 ---
-
 # <a name="procurement-catalogs"></a>Sagādes katalogi
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Atjauninājumi tiek publicēti automātiski vai manuāli atkarībā no opcijas, 
 --------
 
 [Sagādes kategoriju hierarhijas iestatīšana (uzdevuma ceļvedis)](tasks/set-up-procurement-category-hierarchy.md)
-
 
 
 

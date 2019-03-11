@@ -1,13 +1,13 @@
 ---
-title: "Izmaksu aprēķināšanas lapas"
-description: "Aprēķina shēmas iestatīšana ietver divus mērķus. Kā pirmo mērķi jūs nosakiet formātu pārdoto preču izmaksu informācijas parādīšanai par ražoto vienību vai ražošanas pasūtījumu. Noformētais ekrāns ir nosauktā aprēķina shēma. Kā otro mērķi jūs nosakiet pamatu netiešo izmaksu aprēķināšanai. Aprēķina shēmas iestatījums balstās uz izmaksu grupas līdzekli informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šajā rakstā ir aprakstīti divi izmaksu aprēķināšanas shēmu iestatīšanas mērķi."
+title: Izmaksu aprēķināšanas lapas
+description: Aprēķina shēmas iestatīšana ietver divus mērķus. Kā pirmo mērķi jūs nosakiet formātu pārdoto preču izmaksu informācijas parādīšanai par ražoto vienību vai ražošanas pasūtījumu. Noformētais ekrāns ir nosauktā aprēķina shēma. Kā otro mērķi jūs nosakiet pamatu netiešo izmaksu aprēķināšanai. Aprēķina shēmas iestatījums balstās uz izmaksu grupas līdzekli informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šajā rakstā ir aprakstīti divi izmaksu aprēķināšanas shēmu iestatīšanas mērķi.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312765"
 ---
-
 # <a name="costing-sheets"></a>Izmaksu aprēķināšanas lapas
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Divas bloķēšanas politikas aprēķinu versijai nosaka, vai izmaksas var tikt 
 Pēc aprēķina shēmas formāta un aprēķinu netiešām izmaksām noteikšanas jums ir jāveic atsevišķa darbība, lai validētu un saglabātu informāciju. Izmaksu aprēķina lapa norāda uzņēmumā plaši izmantoto formātu, lai pastāvīgi parādītu pārdoto preču pašizmaksas informāciju. 
 
 Izmaksu aprēķina lapa tiek parādīta kā daļa no lapas **Aprēķināt krājuma izmaksas**. Izmaksu aprēķina lapu var parādīt saražotā krājuma aprēķināto izmaksu ierakstam lapā **Krājuma cena** vai pasūtījuma raksturīgo aprēķinu ierakstam lapā **MK aprēķina rezultāti**. To var arī parādīt, kā ražošanas pasūtījuma daļu lapā **Cenas aprēķināšana**.
-
 
 
 

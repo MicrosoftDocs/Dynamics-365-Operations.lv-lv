@@ -1,13 +1,13 @@
 ---
-title: "Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu"
-description: "Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā tēmā ir paskaidrots šis saskaņošanas process."
+title: Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
+description: Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations. Šajā tēmā ir paskaidrots šis saskaņošanas process.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364975"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
 
 [!include [banner](../includes/banner.md)]
 
-Līdzeklis Detalizēta bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations Šajā tēmā ir paskaidrots šis saskaņošanas process.  
+Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations. Šajā tēmā ir paskaidrots šis saskaņošanas process.  
 
 <a name="import-an-electronic-bank-statement"></a>Importētu elektronisku bankas izrakstu
 -----------------------------------
@@ -94,7 +93,6 @@ Kad jūsu saskaņošanas process ir pabeigts, jums šī bankas darbību saskaņo
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Grāmatot jaunas transakcijas, kas ir saistītas ar saskaņošanu
 Bankas izraksta transakcijas, kas saskaņošanas darblapā tika atzīmētas kā **Jauns**, tiek grāmatotas lapā **Bankas izraksts**. Lapā **Bankas izraksts** atlasiet izraksta ID, lai skatītu detalizētu informāciju par šo izrakstu. Izvēlnē **Uzskaite** varat izmantot opcijas **Skatīt sadales** un **Skatīt uzskaiti**, lai skatītu detalizētu informāciju par jaunajām transakcijām un saistītajiem virsgrāmatas ierakstiem. Atlasiet opciju **Grāmatot**, lai bankas izraksta rindas, kuras bija atzīmētas kā **Jauns**, grāmatotu virsgrāmatā. Ņemiet vērā, ka katram bankas izrakstam grāmatošanu var veikt tikai vienu reizi.
-
 
 
 

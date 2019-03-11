@@ -1,38 +1,37 @@
 ---
-title: "Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 10. septembris)"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR."
+title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 10. septembris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 7d4a049a44374276655dce696b5bbbe2e6f9fba9
 ms.openlocfilehash: b41ce93c8ae93054d2b0d71340b99e0910d4510f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305368"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 10. septembris)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 10. septembris)
 
 [!include [banner](includes/banner.md)]
 
 **8.1.138.0 būvējums**
 
-Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>Noteikta darba dienas laika izmantošana brīvā laika pieprasījumos (nepilna darba diena)
 
@@ -101,4 +100,3 @@ Ja ir iestatīts līdzeklis Attract, lietotājiem personāla vadības lapā **Da
 - Pieņemot darbā līgumdarbinieku, cilnei **Kompensācija** pieprasījumu/darbību lapā nav jābūt pieejamai.
 - Pieprasījuma par darba attiecību pārtraukšanu procesu var turpināt tikai tad, kad visos pieprasītajos laukos ir ievadīti dati.
 - Ir novērstas kārtošanas secības un datumu parādīšanas problēmas personāla vadības analīzē.
-

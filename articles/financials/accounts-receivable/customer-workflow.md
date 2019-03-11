@@ -1,13 +1,13 @@
 ---
-title: "Debitora darbplūsma"
-description: "Šajā tēmā ir sniegta informācija par debitora darbplūsmu. Jūs maināt noteiktus debitora informācijas laukus un pēc tam, izmantojot darbplūsmu, nosūtāt izmaiņas apstiprināšanai, pirms tās tiek pievienotas debitora informācijai."
+title: Debitora darbplūsma
+description: Šajā tēmā ir sniegta informācija par debitora darbplūsmu. Jūs maināt noteiktus debitora informācijas laukus un pēc tam, izmantojot darbplūsmu, nosūtāt izmaiņas apstiprināšanai, pirms tās tiek pievienotas debitora informācijai.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,25 +16,24 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302589"
 ---
-
 # <a name="customer-workflow"></a>Debitora darbplūsma
 
 [!include [banner](../includes/banner.md)]
 
-Debitora darbplūsma ir pievienota Microsoft Dynamics 365 for Finance and Operations versijai 8.0.4. Varat mainīt noteiktus debitora informācijas laukus un pēc tam, izmantojot darbplūsmu, nosūtīt izmaiņas apstiprināšanai, pirms tās tiek pievienotas debitora informācijai.
+Šī debitora darbplūsma ir pievienota Microsoft Dynamics 365 for Finance and Operations versijai 8.0.4. Varat mainīt noteiktus debitora informācijas laukus un pēc tam, izmantojot darbplūsmu, nosūtīt izmaiņas apstiprināšanai, pirms tās tiek pievienotas debitora informācijai.
 
 ## <a name="set-up-the-customer-workflow"></a>Iestatīt debitora darbplūsmu
 
 Lai varētu izmantot debitora darbplūsmas līdzekli, tas vispirms ir jāiespējo.
 
-1. Dodieties uz sadaļu **Debitoru parādi \> Iestatīšana \> Debitoru moduļa parametri**.
+1. Dodieties uz sadaļu **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
 2. Lai iespējotu līdzekli, atveriet cilnes **Vispārīgie iestatījumi** kopsavilkuma cilni **Debitora apstiprinājums** un opcijai **Iespējot klienta apstiprinājumus** iestatiet opciju **Jā**.
 3. Laukā **Datu elementa režīms** atlasiet datu elementu vēlamo izturēšanos datu importēšanas brīdī. Ir pieejamas šādas iespējas.
 
@@ -43,7 +42,7 @@ Lai varētu izmantot debitora darbplūsmas līdzekli, tas vispirms ir jāiespēj
     - **Izveidot izmaiņu priekšlikumus** – tiks mainīti visi lauki, izņemot laukus, kam ir iespējota darbplūsma. Šo lauku jaunās vērtības tiks pievienotas debitora informācijai kā piedāvātās izmaiņas, un tiks automātiski sākta darbplūsma.
 
 4. Pēc tam debitora lauku sarakstā atlasiet izvēles rūtiņu **Iespējot** pie katra lauka, kas jāapstiprina pirms izmaiņu veikšanas.
-5. Dodieties uz sadaļu **Debitoru parādi \> Iestatīšana \> Debitoru moduļa darbplūsmas**.
+5. Dodieties uz sadaļu **Debitoru parādi \> Iestatīšana \> Debitoru parādu darbplūsmas**.
 6. Atlasiet **Jauna**.
 7. Atlasiet **Piedāvāto klienta izmaiņu darbplūsma**. 
 8. Iestatiet darbplūsmu atbilstoši jūsu apstiprināšanas procesam. Izmaiņas tiks piemērotas debitora informācijai, izmantojot darbplūsmas apstiprināšanas elementu **Darbplūsmas apstiprinājums piedāvātajām klienta izmaiņām**.
@@ -62,4 +61,3 @@ Ja ir piedāvātas vismaz vienas izmaiņas, darbību rūtī tiek rādītas divas
     Lapas statuss tiek mainīts uz **Izmaiņas, kas gaida apstiprinājumu**.
 
 Darbplūsma atbilst Finance and Operations standarta darbplūsmu procesam. Apstiprinātājs tiek virzīts uz lapu **Debitors**, kurā var pārskatīt izmaiņas lapā **Piedāvātās izmaiņas** un pēc tam atlasīt **Darbplūsma \> Apstiprināt**, lai apstiprinātu darbplūsmu. Kad apstiprināšana ir pilnībā pabeigta, lauki tiek atjaunināti atbilstoši jūsu piedāvātajām vērtībām.
-

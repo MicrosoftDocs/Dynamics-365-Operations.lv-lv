@@ -1,13 +1,13 @@
 ---
-title: "Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus"
-description: "Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem."
+title: Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
+description: Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374401"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem. 
 
@@ -165,7 +163,6 @@ Dažiem ierakstiem varat norādīt turpmākās ierakstu izmaiņas. Tālāk norā
 </table>
 
 Varat modificēt iepriekš esošajā tabulā ietverto informāciju par amatu vai darbu un norādīt datumu, kas amata vai darba izmaiņām ir jāstājas spēkā. Piemēram, amatu var piešķirt tikai vienam darbiniekam, taču Sandžejs Patels, kurš ir piešķirts amatam “Grāmatvedis A”, aizies no darba pēc divām nedēļām. Pēc tam Sandžeja Patelu aizstās Džo Hīlijs. Lai gan Sandžejs joprojām ir piešķirts savam amatam, varat piešķirt šim amatam arī Džo Hīliju tā, lai šī piešķire stātos spēkā tikai pēc Sandžeja pēdējās darba dienas.
-
 
 
 

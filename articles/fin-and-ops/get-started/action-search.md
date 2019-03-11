@@ -1,13 +1,13 @@
 ---
-title: "Darbību meklēšana"
-description: "Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības."
+title: Darbību meklēšana
+description: Šajā rakstā ir aprakstīta darbības meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317503"
 ---
-
 # <a name="action-search"></a>Darbību meklēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīta darbību meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
+Šajā rakstā ir aprakstīta darbības meklēšanas funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
 
 ## <a name="introduction"></a>Ievads
 
-Programmatūras Microsoft Dynamics 365 for Finance and Operations lapās galvenokārt tiek rādītas komandas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšdaļā, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās. Iepriekšējās versijās taustiņu padomu līdzeklis jums ļauj ātri piekļūt jebkurai pogai darbību rūtī, nospiežot taustiņu Alt un pēc tam burtu sēriju.
+Microsoft Dynamics 365 for Finance and Operations lapās komandas galvenokārt tiek rādītas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšpusē, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās. Iepriekšējās versijās taustiņu padomu līdzeklis jums ļauj ātri piekļūt jebkurai pogai darbību rūtī, nospiežot taustiņu Alt un pēc tam burtu sēriju.
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 

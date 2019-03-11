@@ -1,13 +1,13 @@
 ---
 title: Noliktavas darba politikas
-description: "Noliktavas darba politikas kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci."
+description: Noliktavas darba politikas kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325599"
 ---
-
 # <a name="warehouse-work-policies"></a>Noliktavas darba politikas
 
 [!include [banner](../includes/banner.md)]
 
-Noliktavas darba politikas programmatūrā Microsoft Dynamics 365 for Finance and Operations kontrolē to vai ražošanas noliktavas procesi izraisa noliktavas darbu izveidi, pamatojoties uz darba pasūtījuma veidu, krājumu novietojumu un preci.
+Noliktavas darba politikas programmā Microsoft Dynamics 365 for Finance and Operations kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci.
 
 Šī darba politika kontrolē to, vai ražošanā noliktavas procesiem tiek izveidots noliktavas darbs. Šo darba politiku varat iestatīt, izmantojot kombināciju no vienumiem **darba pasūtījuma veidi**, **krājumu novietojums** un **prece**. Piemēram, prece L0101 tiek ziņota kā pabeigta uz izvades novietojumu 001. Vēlāk šī pabeigtā prece tiek patērēta citā ražošanas pasūtījumā izvades novietojumā 001. Šajā gadījumā varat iestatīt darba politiku, lai neļautu izveidot darbu gatavo preču izvietošanai, kad preci L0101 ziņojat kā pabeigtu uz izvades novietojumu 001. Darba politika ir atsevišķs elements, ko var aprakstīt ar tālāk norādīto informāciju.
 
@@ -126,7 +125,7 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Sarakstā atlasiet resursu grupu “5102”.</td>
+<td>Sarakstā atlasiet resursu grupu &#39;5102&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,17 +135,17 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Laukā “Izvades noliktava” ievadiet “51”.</td>
+<td>Laukā Izvades noliktava ievadiet &#39;51&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Laukā “Izvades novietojums” ievadiet “001”.</td>
+<td>Laukā Izvades vieta ievadiet &#39;001&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>Novietojums 001 nav no numura zīmes atkarīgs novietojums. Novietojumu, kas nav atkarīgs no numura zīmes, var iestatīt tikai tad, ja attiecīgajam novietojumam ir piemērojama darba politika.</td>
+<td>Novietojums 001 nav no numura zīmes atkarīgs novietojums. Novietojumu, kas nav atkarīgs no numura zīmes, var iestatīt tikai tad, ja attiecīgajam novietojumam ir piemērojama darba politika.</td>
 </tr>
 <tr>
 <td colspan="3"><strong>Apakšuzdevums: izveidot ražošanas pasūtījumu un norādīt to kā pabeigtu.</strong></td>
@@ -169,7 +168,7 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Laukā “Krājuma kods” ievadiet “L0101”.</td>
+<td>Laukā Krājuma kods ievadiet &#39;L0101&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -204,17 +203,17 @@ DARBĪBAS (25)
 <tr>
 <td></td>
 <td>11.</td>
-<td>Laukā “Automātisks MK patēriņš” atlasiet “Nekad”.</td>
+<td>Laukā Automātisks MK patēriņš atlasiet &#39;Nekad&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>12.</td>
-<td>Noklikšķiniet uz Labi.</td>
+<td>Noklikšķiniet uz OK.</td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td>Noklikšķiniet uz Ziņot kā pabeigtu.</td>
+<td>Uzklikšķiniet Reģistrēt pabeigšanu.</td>
 </tr>
 <tr>
 <td></td>
@@ -248,7 +247,6 @@ DARBĪBAS (25)
 </tr>
 </tbody>
 </table>
-
 
 
 

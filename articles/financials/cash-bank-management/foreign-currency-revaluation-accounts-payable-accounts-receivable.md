@@ -1,13 +1,13 @@
 ---
-title: "Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana"
-description: "Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību."
+title: Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana
+description: Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341331"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Kreditoriem un debitoru parādu ārvalstu valūtas pārvērtēšana
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas 
     -   **Nav** — netiek iegrāmatota neviena finanšu dimensija. Ja konta struktūrā ir noteikta obligāta finanšu dimensija, pārvērtēšanas process tiek veikts, bet tiek izveidoti uzskaites ieraksti bez finanšu dimensijām. Vispirms tiek parādīts brīdinājuma ziņojums, kas ļauj pārvērtēšanu atcelt.
     -   **Tabula** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas debitora un kreditora konta finanšu dimensijas.
     -   **Grāmatošana** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas pārvērtētās transakcijas finanšu dimensijas. Pēc noklusējuma pārvērtēšanas transakcijas AR/AP galvenajam kontam tiek izmantotas sākotnējās transakcijas AR/AP virsgrāmatas konta finanšu dimensijas, bet pārvērtēšanas transakcijas nerealizētās peļņas/zuduma galvenajam kontam tiek izmantotas sākotnējās transakcijas izdevumu/līdzekļu/ieņēmumu virsgrāmatas konta finanšu dimensijas.
-
 
 
 

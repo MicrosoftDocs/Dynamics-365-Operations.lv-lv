@@ -1,13 +1,13 @@
 ---
-title: "Konfigurēt programmas lauku nosaukumus programmā Noliktava"
-description: "Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 for Finance and Operations."
+title: Konfigurēt programmas lauku nosaukumus programmā Noliktava
+description: Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351336"
 ---
-
 # <a name="configure-app-field-names-in-warehousing-app"></a>Konfigurēt programmas lauku nosaukumus programmā Noliktava
 
 [!include [banner](../includes/banner.md)]
@@ -143,8 +142,7 @@ Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Programmas Microsoft Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](install-configure-warehousing-app.md)
-
+[Microsoft Dynamics 365 for Finance and Operations — Warehousing instalēšana un konfigurēšana](install-configure-warehousing-app.md)
 
 
 

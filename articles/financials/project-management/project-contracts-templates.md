@@ -1,13 +1,13 @@
 ---
-title: "Projekta līgumu un projektu sinhronizēšana tieši no Project Service Automation uz Finance and Operations"
-description: "Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Project Service Automation ietverto projekta līgumu un projektu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations."
+title: Projekta līgumu un projektu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
+description: Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantoti, lai tiešā veidā sinhronizētu programmā Microsoft Dynamics 365 for Project Service Automation ietvertos projekta līgumus un projektus ar programmu Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312121"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta līgumu un projektu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Project Service Automation ietverto projekta līgumu un projektu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantoti, lai tiešā veidā sinhronizētu programmā Microsoft Dynamics 365 for Project Service Automation ietvertos projekta līgumus un projektus ar programmu Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
-> Ja izmantojat Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, jums ir jāinstalē KB 4074835.
+> Ja lietojat Microsoft Dynamics 365 for Finance and Operations Enterprise Edition versiju 7.3.0, ir jāinstalē KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Datu plūsma programmas Project Service Automation sinhronizēšanai ar programmu Finance and Operations
 
 > [!NOTE]
-> Lai varētu izmantot integrēšanas risinājumu programmas Project Service Automation integrēšanai programmā Finance and Operations, jums ir jāapgūst Microsoft Dynamics 365 datu integrācijas līdzeklis.
+> Pirms varat izmantot risinājumu Project Service Automation integrācijai programmā Finance and Operations, ir jāiepazīst Microsoft Dynamics 365 līdzeklis Datu integrācija.
 
 Risinājums, lai veiktu integrēšanu no programmas Project Service Automation programmā Finance and Operations, izmanto līdzekli Datu integrācija, lai sinhronizētu datus programmu Project Service Automation un Finance and Operations instancēs. Integrācijas veidne, kas ir pieejama līdzeklī Datu integrācija, iespējo datu plūsmu par projekta līgumiem, projektiem, projekta līguma rindām un projekta līguma rindas atskaites punktiem no programmas Project Service Automation programmā Finance and Operations.
 
@@ -95,8 +94,8 @@ Izmantojot risinājumu, lai veiktu integrēšanu no programmas Project Service A
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
 - Pirms projekta līgumu un projektu sinhronizēšanas ir jāveic kontu sinhronizēšana.
-- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_organizationalunits** uz **msdyn\_name \[Name\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Plašāku informāciju skatiet šeit: [Datu integrēšana Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_projects** uz **msdynce\_projectnumber \[Project Number\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Plašāku informāciju skatiet šeit: [Datu integrēšana Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_organizationalunits** uz **msdyn\_name \[Name\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Papildinformāciju skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_projects** uz **msdynce\_projectnumber \[Project Number\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Papildinformāciju skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - Entītiju **SourceDataID** projekta līgumiem un projektiem var atjaunināt uz citu vērtību vai noņemt no kartējuma. Noklusējuma veidnes vērtība ir **Project Service Automation**.
 - Kartējums **PaymentTerms** ir jāatjaunina, lai tas norādītu derīgus maksāšanas noteikumus programmā Finance and Operations. Varat arī noņemt kartējumu no projekta uzdevuma. Noklusējuma vērtību kartē ir norādītas demonstrācijas datu noklusējuma vērtības. Nākamajā tabulā ir parādītas vērtības programmā Project Service Automation.
 
@@ -111,7 +110,7 @@ Izmantojot risinājumu, lai veiktu integrēšanu no programmas Project Service A
 
 Ja ir izpildīti tālāk norādītie nosacījumi, datu filtrēšanai ir jāizmanto Microsoft Power Query programmai Excel.
 
-- Jums ir pārdošanas pasūtījumi programmā Microsoft Dynamics 365 for Sales.
+- Programmā Microsoft Dynamics 365 for Sales ir izveidoti pārdošanas pasūtījumi.
 - Jums ir vairākas organizācijas vienības programmā Project Service Automation, un šīs organizācijas vienības tiek kartētas uz vairākām juridiskajām personām programmā Finance and Operations.
 
 Ja ir jāizmanto Power Query, ievērojiet tālāk minētos norādījumus.
@@ -135,4 +134,3 @@ Tālāk esošajos attēlos ir redzami piemēri veidnes uzdevuma kartēšanai lī
 [![Veidnes kartēšana](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Veidnes kartēšana](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

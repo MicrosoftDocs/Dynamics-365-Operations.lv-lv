@@ -1,13 +1,13 @@
 ---
-title: "Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)"
-description: "Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas tika izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai MicrosoftDynamics 365 for Operations (2016. gada novembra visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka."
+title: Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)
+description: Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics 365 for Operations (2016. gada novembris — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,26 +17,25 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348921"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas tika izlaisti Microsoft APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics 365 for Operations (2016. gada novembra visu valodu laidienā). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics 365 for Operations (2016. gada novembris — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 
-APQC vienotajā bibliotēkā (2016. gada novembra visu valodu laidienā) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar programmatūru Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3. platformas atjauninājumu, Microsoft Dynamics AX 2. platformas atjauninājumu, Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada novembris — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3. platformas atjauninājumu, Microsoft Dynamics AX 2. platformas atjauninājumu, Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 > [!NOTE]
-> Zvaigznīte (\*) blakus biznesa procesu modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics 365 for Operations 2016. gada novembra atjauninājumam un netiek atbalstīts agrākās Microsoft Dynamics AX versijās.
+> Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics 365 for Operations 2016. gada novembra atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Microsoft Dynamics AX versijās.
 
-### <a name="accounts-payable"></a>Kreditoru parādi
+### <a name="accounts-payable"></a>Kreditori
 
 | BPM rinda                                                                                           | Valsts/reģions |
 |----------------------------------------------------------------------------------------------------|----------------|
@@ -549,4 +548,3 @@ APQC vienotajā bibliotēkā (2016. gada novembra visu valodu laidienā) ir ie
 [Pieejami jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
 [Pieejami jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
-

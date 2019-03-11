@@ -1,13 +1,13 @@
 ---
-title: "Anketu izplatīšana un plānošana"
-description: "Šajā tēmā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs."
+title: Anketu izplatīšana un plānošana
+description: Šajā tēmā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs.
 author: kherr75
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: eafcb047117eab73fddbd93c4c1d0aafb0023ebd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305275"
 ---
-
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
 
 [!include [banner](includes/banner.md)]
@@ -84,7 +83,7 @@ Anketas grafikam plānošanas tipu varat norādīt lapā **Anketu grafiki**.
 
 Atsauču tipus var izmantot, lai ievadītu kritērijus respondentiem, kurus varat atlasīt, kad plānojat anketu. 
 
-Izmantojiet lapu **Atsauču tipi**, lai anketai iestatītu atsauču tipus. Katrs atsauču tips atbilst tabulai programmā Microsoft Dynamics 365 for Finance and Operations. Kad veidojat anketu grafikus, tabulā varat norādīt atsevišķus ierakstus vai ierakstu diapazonu, ar kuriem anketa būs saistīta. 
+Izmantojiet lapu **Atsauču tipi**, lai anketai iestatītu atsauču tipus. Katrs atsauču tips atbilst tabulai programmā Microsoft Dynamics 365 for Finance and Operations. Kad veidojat anketu grafikus, tabulā varat norādīt atsevišķus ierakstus vai ierakstu diapazonu, ar kuriem anketa būs saistīta. 
 
 Piemēram, ja atlasāt tabulu Kursi, varat izlemt, kuram konkrētajam kursam šī anketa būs paredzēta. Kad iestatāt atsauci tabulai Kursi, lapā **Kursi** kļūst pieejami daži lauki un pogas.
 
@@ -132,6 +131,5 @@ Anketas var tikt padarītas pieejamas noteiktiem lietotājiem vai lietotāju gru
 [Anketu lietošana](questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
-
 
 

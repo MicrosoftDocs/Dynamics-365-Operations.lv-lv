@@ -1,13 +1,13 @@
---- 
-title: "EUR-00015 Pušu meklēšana pēc PVN ID"
-description: "Šajā procedūrā ir parādīts, kā pabeigt puses meklēšanu, izmantojot reģistrācijas ID."
+---
+title: EUR-00015 Pušu meklēšana pēc PVN ID
+description: Šajā procedūrā ir parādīts, kā pabeigt puses meklēšanu, izmantojot reģistrācijas ID.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: ec36ead402882c1022811b7b398a03c6325ef7c0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371298"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Pušu meklēšana pēc PVN ID
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/14/2018
 6. Laukā Reģistrācijas numurs ierakstiet vērtību.
 7. Noklikšķiniet uz Meklēt.
     * Tiks parādītas visas puses ar šo reģistrācijas ID.  
-
 

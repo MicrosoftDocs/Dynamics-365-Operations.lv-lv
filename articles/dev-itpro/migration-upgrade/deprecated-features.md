@@ -1,13 +1,13 @@
 ---
-title: "Noņemtie vai novecojušie līdzekļi"
-description: "Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt."
+title: Noņemtie vai novecojušie līdzekļi
+description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329256"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti līdzekļi, kas programmā Dynamics 365 for Finance and Operations ir noņemti vai novecojuši.
+Šajā tēmā ir aprakstīti līdzekļi, kas ir novecojuši vai noņemti no programmas Dynamics 365 for Finance and Operations.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
@@ -37,12 +36,12 @@ ms.lasthandoff: 12/04/2018
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 > [!Note]
-> Sākot ar Dynamics 365 for Finance and Operations, 2017. gada jūlija laidienu ar 8. platformas atjauninājumu, katram noņemtajam vai novecojušajam līdzeklim ir norādīti izvietojumu veidi. Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.
+> Sākot ar programmas Dynamics 365 for Finance and Operations 2017. gada jūlija laidienu ar 8. platformas atjauninājumu, ir norādīts katra noņemtajā vai novecojušā līdzekļa izvietojumu veids. Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.
 
 > [!Note]
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
 
-## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem
 Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. 
@@ -64,7 +63,7 @@ Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai.
 | **Vai aizstāts ar citu līdzekli?**   | Jā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu |
 
 ### <a name="financial-reports-generator-for-russia"></a>Finanšu pārskatu veidotājs Krievijai
 Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai. Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti. 
@@ -75,7 +74,7 @@ Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz 
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem. Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata. |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai
 Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.
@@ -86,7 +85,7 @@ Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi t�
 | **Vai aizstāts ar citu līdzekli?**   | Jā.  |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata, nodokļi |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu |
 
 
 ### <a name="profit-tax-register-wizard"></a>Peļņas nod. reģ. vednis
@@ -97,14 +96,14 @@ Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis r
 | **Novecošanas/noņemšanas pamatojums** | Līdzeklis nav saderīgs ar Dynamics 365 for Finance and Operations paplašināšanas modeli. |
 | **Vai aizstāts ar citu līdzekli?**   | Nav |
 | **Ietekmētie produkta apgabali**         | Nodokļi |
-| **Izvietošanas iespēja**              | Viss |
-| **Statuss**                         | Noņemts kā Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu |
 
 
-## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 ar 15. platformas atjauninājumu
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 ar 15. platformas atjauninājumu
 Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 ar platformas 12. atjauninājumu
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations Enterprise Edition 7.3 ar 12. platformas atjauninājumu
 
 ### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
 Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -115,7 +114,7 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
 | **Ietekmētie produkta apgabali**         | Personalizēti preču ieteikumi pārdošanas punktā.                                                    |
 | **Izvietošanas iespēja**              | Visi                                                                                      |
-| **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas attiecas uz klientiem, kuru ierīcēs darbojas Dynamics 365 for Operations 1611 vai jaunāka versija.  |
+| **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Operations 1611 un jaunākas tās versijas.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums
 Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: [Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)). Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.
@@ -125,8 +124,8 @@ Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER�
 | **Novecošanas/noņemšanas pamatojums** | Koda noslēgšanas iniciatīva  |
 | **Vai aizstāts ar citu līdzekli?**   | Nav. Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.<br><br>Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi. Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase**, kas attiecas uz šo pielāgoto programmas klasi.  |
 | **Ietekmētie produkta apgabali**         | Elektronisko pārskatu veidošanas struktūra                                                      |
-| **Izvietošanas iespēja**              | Visi                                                                                      |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.    |
+| **Izvietošanas iespēja**              | Visus                                                                                      |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Finance and Operations Enterprise Edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Pārskats “Krājumi pēc krājumu grupas” un “Krājumi pēc krājumu dimensijas vecumstruktūras”
 
@@ -140,13 +139,13 @@ Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations. L
 | **Izvietošanas iespēja**        | Visi|
 | **Statuss**                       | Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3. Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods. Šo kodu ir plānots noņemt turpmākajos laidienos. |
 
-### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource pieejamās Power BI satura pakotnes
-Tā kā pakalpojumā Microsoft Power BI notika produktu atjauninājumi, satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kuras pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Vietnē AppSource pieejamās Power BI satura pakotnes
+Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
-| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kuras pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām programmām, kuras ļauj veikt risinājumu integrēšanu datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet šeit: [Iegultais Power BI darbvietās](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
+| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām lietojumprogrammām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība, Finanses un Retail                                                                                               |
 | **Izvietošanas iespēja**              | Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)                                                                                                            |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.    |
@@ -220,10 +219,10 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
 | **Ietekmētie produkta apgabali**         | Personalizēti preču ieteikumi pārdošanas punktā.                                                    |
 | **Izvietošanas iespēja**              | Visi                                                                                      |
-| **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas attiecas uz klientiem, kuru ierīcēs darbojas Dynamics 365 for Retail 7.2 vai jaunāka versija. |
+| **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Retail 7.2 un jaunākas tās versijas. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 2017. gada jūlija izdevums ar platformas 8. atjauninājumu
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations Enterprise Edition 2017. gada jūlija izdevums ar 8. platformas atjauninājumu
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valūtas konvertēšana uzskaites un pārskata valūtām
 
@@ -244,7 +243,7 @@ Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās.       |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet tēmē [Programmas Microsoft Dynamics 365 for Finance and Operations — Noliktava instalēšana un konfigurēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Microsoft Dynamics 365 for Finance and Operations — Warehousing instalēšana un konfigurēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Ietekmētie produkta apgabali**         | Noliktavas pārvaldība, Transportēšanas pārvaldība     |
 | **Izvietošanas iespēja**              | Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.               |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2019. gada 4. ceturksnis.   |
@@ -258,10 +257,10 @@ Atbilstības kārtula tika izmantota, lai atlasītu un atzīmētu bankas dokumen
 | **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums.                                                                         |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Saskaņojamo dokumentu atrašanai ir jāizmanto kolonnu filtrēšanas iespējas. |
 | **Ietekmētie produkta apgabali**         | Kases un bankas vadība                                                               |
-| **Izvietošanas iespēja**              | Visi                                                                                    |
+| **Izvietošanas iespēja**              | Visus                                                                                    |
 | **Statuss**                         | Noņemts kopš 2017. gada jūlija.                                                               |
 
-## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 ar platformas 3. atjauninājumu
+## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 ar 3. platformas atjauninājumu
 
 ### <a name="aeb-payment-formats-for-spain"></a>AEB maksājumu formāti Spānijai
 
@@ -298,7 +297,7 @@ Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēš
 
 ### <a name="chart-of-accounts-tool-for-spain"></a>Rīks Kontu plāns Spānijai
 
-Šis rīks tiek lietots, kad kontu plānam Spānijā ir nepieciešamas būtiskas izmaiņas. Lietotāji jauno kontu plānu var importēt Microsoft Excel vai teksta formātā, kā arī var importēt finanšu pārskatus.
+Šis rīks tiek lietots, kad kontu plānam Spānijā ir nepieciešamas būtiskas izmaiņas. Lietotāji var importēt jaunu kontu plānu programmas Microsoft Excel vai teksta formātā, kā arī var importēt finanšu pārskatus.
 
 |   |  |
 |------------|--------------------|
@@ -342,7 +341,7 @@ Maksājuma formāts EDIFACT-DIRDEB maksājumu iekasēšanai (tiešais debets).
 
 ### <a name="edivat-for-belgium"></a>EDIVAT Beļģijai
 
-EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmantojot drošu pastu. Microsoft Dynamics AX 2012 patur tikai lasāmo risinājumu, lai ļautu piekļūt vēsturiskajiem datiem.
+EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmantojot drošu pastu. Programmā Microsoft Dynamics AX 2012 tiek saglabāts tikai lasīšanas risinājums, lai nodrošinātu piekļuvi vēsturiskajiem datiem.
 
 |   |  |
 |------------|--------------------|
@@ -353,7 +352,7 @@ EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmanto
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Maksājumu importēšanas formāts eGiro EDIFACT CREMUL Norvēģijai
 
-eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja kredīta izziņas paziņojums), kurš tiek izmantots automātiskai debitoru maksājumu grāmatošanai. Programmā Microsoft Dynamics AX eGiro ir ieviests kā debitoru maksājumu importēšanas formāts.
+eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja kredīta izziņas paziņojums), kurš tiek izmantots automātiskai debitoru maksājumu grāmatošanai. Programmā Microsoft Dynamics AX eGiro ir ieviests kā debitoru maksājumu importēšanas formāts.
 
 |   |  |
 |------------|--------------------|
@@ -481,7 +480,7 @@ Personāla vadības algas informācija
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar pamata lapām Alga un Personāla vadība.  |
 | **Vai aizstāts ar citu līdzekli?**   | Lapas **Atvieglojumi**, **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** \> **Alga**. |
 | **Ietekmētie produkta apgabali**         | Personāla vadība, Alga   |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations versijas 1611.    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
 ### <a name="performance-management-goal-workflow"></a>Veiktspējas pārvaldības mērķu darbplūsma
 
@@ -492,7 +491,7 @@ Veiktspējas pārvaldība ietver mērķu pārvaldīšanu un integrēšanu ar vei
 | **Novecošanas/noņemšanas pamatojums** | Veiktspējas pārvaldība tika pārveidota, un mērķa lapu skaits tika samazināts, lai vienkāršotu šo procesu.                 |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Mērķi ir redzami vadītājiem, izmantojot portālu Vadītāja pašapkalpošanās, un vadītājs tos var mainīt un apskatīt. |
 | **Ietekmētie produkta apgabali**         | Cilvēkkapitāla pārvaldība       |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations versijas 1611.    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai
 
@@ -514,7 +513,7 @@ Radiofrekvences identifikācija (RFID) ir datu vākšanas tehnoloģija, kas izma
 | **Novecošanas/noņemšanas pamatojums** | Zems klientu lietojums un ierobežota līdzekļu kopa.   |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                              |
 | **Ietekmētie produkta apgabali**         | Krājumu vadība                            |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations 1611. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations 1611. |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Pārskats par valsts rēķinu numerāciju Latvijai
 
@@ -545,7 +544,7 @@ Uzņēmuma vadītāja un galvenā grāmatveža vārdus var norādīta uzņēmuma
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās   |
 | **Vai aizstāts ar citu līdzekli?**   | Daļēji aizstāts ar līdzekli Transportēšanas pārvaldība |
 | **Ietekmētie produkta apgabali**         | Pārdošana un mārketings, Krājumu vadība  |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations versijas 1611.  |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.  |
 
 ### <a name="telepay-payment-formats-for-norway"></a>Maksājumu formāti Telepay Norvēģijai
 
@@ -573,10 +572,10 @@ Divi formāti maksājumu eksportēšanai ir pieejami Somijā. LM02 (FI) tiek izm
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Risinājums Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu vadība**, dublē funkcionalitāti, kas ir pieejama modulī **Noliktavas vadība**, kurš tika izlaists versijā Microsoft Dynamics AX 2012 R3.                                                                         |
-| **Vai aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība**, kas tika izlaists versijā AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 un Microsoft Dynamics AX 2012 R3 CU9 aizstāj līdzekļus modulī Noliktavas vadība II. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
+| **Novecošanas/noņemšanas pamatojums** | Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība**, bija tāda pati funkcionalitāte kā modulim **Noliktavas vadība**, kas tika izlaists atjauninājumā Microsoft Dynamics AX 2012 R3.                                                                         |
+| **Vai aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība**, kas tika izlaists atjauninājumos AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
 | **Ietekmētie produkta apgabali**         | Krājumu vadība, Pārdošana un mārketings, Sagāde un avoti   |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations versijas 1611.    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
 ### <a name="worker-reminders-in-human-resources"></a>Darbinieku atgādinājumi personāla vadībā
 
@@ -587,7 +586,7 @@ Personāla vadības algas informācija
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums                                                           |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                  |
 | **Ietekmētie produkta apgabali**         | Personāla vadība                                                     |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations versijas 1611 |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611 |
 
 ### <a name="workflow-for-creating-goals"></a>Darbplūsma mērķu izveidošanai
 
@@ -595,12 +594,12 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Programmatūrā Microsoft Dynamics 365 for Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.     |
-| **Vai ir aizstāts ar citu līdzekli?**   | Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu. Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti. Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem. |
+| **Novecošanas/noņemšanas pamatojums** | Programmā Microsoft Dynamics 365 for Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.     |
+| **Vai aizstāts ar citu līdzekli?**   | Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu. Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti. Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem. |
 | **Ietekmētie produkta apgabali**         | Cilvēkkapitāla pārvaldība                 |
-| **Statuss**                         | Noņemts kopš Dynamics 365 for Operations versijas 1611. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611. |
 
-## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
+## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
 
 
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Spēja atcelt kreditora rēķinā veiktās izmaiņas
@@ -609,30 +608,30 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Veiktspējas uzlabojums        |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                             |
-| **Ietekmētie produkta apgabali**         | Parādi kreditoriem               |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0. |
+| **Ietekmētie produkta apgabali**         | Kreditori               |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0. |
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD un AxBC integrācijas
 
-Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Dynamics AX ietver pakalpojumus, kuru pamatā ir dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML ietver virsraksta informāciju, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Dokuments\>** klases.
+Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Dokuments\>** klases.
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | AIF un AxDs arhitektūru nevarēja mērogot uz mākoņa pakalpojumu. Radās veiktspējas problēmas saistībā ar lielapjoma importēšanu.                                        |
 | **Vai aizstāts ar citu līdzekli?**   | Šis līdzeklis ir aizstāts ar datu importēšanas/eksportēšanas struktūru, kura atbalsta periodisku lielapjoma importēšanu/eksportēšanu. Strādājot ar AxBC, ieteicams lietot faktiskās tabulas. |
 | **Ietekmētie produkta apgabali**         | AxDs, AxBCs un AIF   |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
 ### <a name="boms-without-bom-versions"></a>MK bez MK versijām
 
-Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1. Pašreizējā Dynamics AX versijā konfigurācijas atslēgu **MK versijas** nevar atspējot.
+Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1. Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu **MK versijas**.
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Konfigurācijas atslēgas izmantošana, lai kontrolētu MK versijas, netiek mērogota mākoņa vidē. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                                      |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība, Krājumu vadība                                    |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                                                          |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                                          |
 
 ### <a name="brazilian-bordero"></a>Brazīlijas Bordero
 
@@ -674,7 +673,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli.   |
-| **Vai aizstāts ar citu līdzekli?**   | Produktam Microsoft Power BI paredzētā satura pakotne Pārraudzīt finanšu veiktspēju ietvers galvenos finanšu rādītājus, kuri iepriekš bija pieejami biznesa analizatorā. |
+| **Vai aizstāts ar citu līdzekli?**   | Microsoft Power BI satura pakotnē Finanšu veiktspējas pārraudzība tiks ietverti galvenie finanšu rādītāji, kas iepriekš bija pieejami biznesa analizatorā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata      |
 | **Statuss**                         | Novecojis: biznesa analizatora lietošana ir novecojusi.    |
 
@@ -685,9 +684,9 @@ Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt orga
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mantojuma pieeja biznesa informācijai (BI), zems klientu lietojums un ierobežota līdzekļu kopa |
-| **Vai aizstāts ar citu līdzekli?**   | Ar jauniem BI risinājumiem pašreizējai Dynamics AX versijai                                      |
+| **Vai aizstāts ar citu līdzekli?**   | Jauni BI risinājumi pašreizējai Dynamics AX versijai                                      |
 | **Ietekmētie produkta apgabali**         | Sagāde un avoti, Parādi kreditoriem, Pārdošana un mārketings, Debitoru parādi         |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                                                               |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                                               |
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Mainīt dokumenta datuma funkciju rēķinu apstiprināšanas žurnālā
 
@@ -695,8 +694,8 @@ Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt orga
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums                                                               |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Grāmatotajā kreditora transakcijā var mainīt dokumenta datumu. |
-| **Ietekmētie produkta apgabali**         | Parādi kreditoriem                                                        |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                                          |
+| **Ietekmētie produkta apgabali**         | Kreditori                                                        |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                          |
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>ClieOp03 maksājuma formāts Nīderlandei
 
@@ -713,30 +712,30 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Debitoru lietojuma trūkums. Microsoft SharePoint ietver tādas pašas iespējas, kādas bija pieejamas atbilstības centrā. |
+| **Novecošanas/noņemšanas pamatojums** | Debitoru lietojuma trūkums. Microsoft SharePoint nodrošina tādas pašas iespējas, kādas bija pieejamas atbilstības centrā. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē   |
 | **Ietekmētie produkta apgabali**         | Atbilstība un iekšējā kontrole  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.    |
 
 ### <a name="connector-for-microsoft-dynamics"></a>Microsoft Dynamics paredzētā Connector sistēma
 
-Šis rīks tika izmantots, lai atslēgas datus no Microsoft Dynamics CRM integrētu Microsoft Dynamics ERP programmās.
+Šis rīks tika izmantots programmā Microsoft Dynamics CRM ietverto pamatdatu integrēšanai Microsoft Dynamics ERP lietojumprogrammās.
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli. |
 | **Vai aizstāts ar citu līdzekli?**   | Common Data Service                                      |
 | **Ietekmētie produkta apgabali**         | Microsoft Dynamics paredzētā Connector sistēma                         |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                           |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                           |
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Konteinera vienība un rīcībā esošie vairākdimensiju krājumi
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Kopš versijas AX 2012 šī funkcionalitāte ir aizstāta ar konsolidēto partijas pasūtījumu līdzekļu kopu. Šī līdzekļu kopa ietver konsolidēto rīcībā esošo krājumu skatu. |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Sākot ar versiju AX 2012, šī funkcionalitāte ir aizstāta ar konsolidēto partijas pasūtījumu līdzekļu kopu. Šī līdzekļu kopa ietver konsolidēto rīcībā esošo krājumu skatu. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība, Ražošanas kontrole, Krājumu vadība, Pārdošana un mārketings  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0. |
 
 ### <a name="cue-group-metadata"></a>Norādījumu grupas metadati
 
@@ -745,7 +744,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 | **Novecošanas/noņemšanas pamatojums** | Norādījumu grupas tika izmantotas, lai papildinformācijas apgabalā parādītu vienu vai vairākus norādījumus. Pastāvēja uzņemšanas ierobežojumi, un bija arī veiktspējas problēmas, jo ieraksta izmaiņas primārajā formā izraisīja vienu vaicājumu katram norādījumu grupas norādījumam. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē      |
 | **Ietekmētie produkta apgabali**         | Visi moduļi    |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.  |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.  |
 
 ### <a name="cue-metadata"></a>Norādījuma metadati
 
@@ -754,7 +753,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 | **Novecošanas/noņemšanas pamatojums** | Norādījuma metadati bija ierobežoti ar informāciju par skaitu vai summu.    |
 | **Vai aizstāts ar citu līdzekli?**   | Tika ieviesti elementa metadati, lai modelēšanai nodrošinātu lielāku elastību. Piemēram, varat modelēt pašreizējo skaitu, navigāciju un galvenos veiktspējas rādītājus (KPI). Skaita elementa metadati ir tiešs norādījuma metadatu aizstājējs. |
 | **Ietekmētie produkta apgabali**         | Visi moduļi           |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0      |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0      |
 
 ### <a name="danish-check-format"></a>Dānijas čeka formāts
 
@@ -767,26 +766,26 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 ### <a name="data-partitions"></a>Datu nodalījumi
 
-Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX datu bāzē.
+Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX datu bāzē.
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai varētu izmantot datu izolēšanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur mums ir piekļuve platformas kā pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), daudz efektīvāk ir datu bāzi lietot kā izolācijas konteineru, nevis veikt izolēšanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances. |
+| **Novecošanas/noņemšanas pamatojums** | Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai nodrošinātu datu nošķiršanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur var piekļūt platformas pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), izmantot datu bāzi kā nošķiršanas konteineru ir daudz efektīvāk, nekā veikt nošķiršanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances. |
 | **Vai aizstāts ar citu līdzekli?**   | Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.    |
 | **Ietekmētie produkta apgabali**         | Visi moduļi  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.  |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.  |
 
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Datu bāzes un failu koplietošanas krātuve pielikumiem
 
-Microsoft Dynamics AX 2012 ļāva izmantot krātuvi pielikumiem datu bāzē un failu koplietojumos. Abas šīs opcijas vairs netiek atbalstītas.
+Programmā Microsoft Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu koplietojumos. Abas šīs opcijas vairs netiek atbalstītas.
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem. Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve. Azure Blob krātuve ir ekvivalents krātuvei datu bāzē, jo dokumentiem var piekļūt, tikai izmantojot Dynamics 365 for Finance and Operations klienta formas. Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību. Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz. |
+| **Novecošanas/noņemšanas pamatojums** | Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem. Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve. Azure Blob krātuve ir līdzvērtīga krātuvei datu bāzē, jo vienīgais veids, kā piekļūt dokumentiem, ir izmantot Dynamics 365 for Finance and Operations klienta formas. Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību. Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.   |
 | **Ietekmētie produkta apgabali**         | Visi moduļi  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
 ### <a name="delimitation"></a>Norobežošana
 
@@ -795,27 +794,27 @@ Microsoft Dynamics AX 2012 ļāva izmantot krātuvi pielikumiem datu bāzē un 
 | **Novecošanas/noņemšanas pamatojums** | Šai funkcionalitātei netika atrasts pielietojums. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                     |
 | **Ietekmētie produkta apgabali**         | Laiks un apmeklētība                    |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.         |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.         |
 
 ### <a name="desktop-client"></a>Darbvirsmas klients
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Dynamics AX klienta lietošana ir pārveidota tā, lai uzlabotu izmantojamību dažādās platformās un ierīcēs.                      |
+| **Novecošanas/noņemšanas pamatojums** | Ir pārveidotas Dynamics AX klienta lietošanas iespējas, lai uzlabotu lietojamību dažādās platformās un ierīcēs.                      |
 | **Vai aizstāts ar citu līdzekli?**   | Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu. |
 | **Ietekmētie produkta apgabali**         | Visi moduļi  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
 ### <a name="direct-database-connection"></a>Tiešs datu bāzes savienojums
 
-Programmā Dynamics AX 2012 R3 Retail Modern POS var izveidot tiešu savienojumu ar kanāla DB līdzīgi kā Uzņēmuma POS. Tas bija papildinājums Retail Modern POS standarta sakaru metodei, kas nodrošināja saziņu ar Retail Server starpniecību.
+Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tiešu savienojumu ar kanāla DB līdzīgi kā programma Enterprise POS. Šī funkcija bija pieejama papildus Retail Modern POS standarta sakaru metodei, izmantojot Retail Server.
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Programmatūras Dynamics 365 for Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē. Tagad tiek atbalstīti tikai standarta Retail Server sakari.  |
-| **Ietekmētie produkta apgabali**         | Kanāla DB/Retail Modern POS   |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.  |
+| **Ietekmētie produkta apgabali**         | Kanāla DB/Retail Modern POS   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>Holandes SWIFT MT940
 
@@ -844,25 +843,25 @@ Programmā Dynamics AX 2012 R3 Retail Modern POS var izveidot tiešu savienojumu
 | **Novecošanas/noņemšanas pamatojums** | Ir nodrošināta viena klienta platforma.  |
 | **Vai aizstāts ar citu līdzekli?**   | Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu. |
 | **Ietekmētie produkta apgabali**         | Visi moduļi  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
-### <a name="environmental-sustainability"></a>Vides ilgtspējība
+### <a name="environmental-sustainability"></a>Vides ilgtspēja
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems klientu lietojums un ierobežota līdzekļu kopa  |
 | **Vai aizstāts ar citu līdzekli?**   | Nē              |
 | **Ietekmētie produkta apgabali**         | Atbilstības un iekšējās vadīklas, Parādi kreditoriem  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0. |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0. |
 
 ### <a name="form-activex-and-managed-host-controls"></a>Forma ActiveX un pārvaldītās resursdatora vadīklas
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | ActiveX un pārvaldīto resursdatora vadīklu pamatā ir novecojušais darbvirsmas klients. |
-| **Vai aizstāts ar citu līdzekli?**   | Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, kuru pamatā ir HTML, CSS un JavaScript, un tā ir pirmās klases kontrole Microsoft Visual Studio rīku vidē. |
+| **Vai aizstāts ar citu līdzekli?**   | Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, izmantojot valodas HTML, CSS un JavaScript, un tā ir augstākā līmeņa kontroles līdzeklis Microsoft Visual Studio rīku vidē. |
 | **Ietekmētie produkta apgabali**         | Visi moduļi     |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.       |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.       |
 
 ### <a name="generate-prenotes-by-using-a-batch"></a>Ģenerēt pārbaudes, izmantojot paketi
 
@@ -873,7 +872,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 | **Novecošanas/noņemšanas pamatojums** | Nav formas, ar kuru saglabāt un parādīt iegūto pārbaudes failu, kad tas tiek ģenerēts, izmantojot pakešuzdevumu. |
 | **Vai aizstāts ar citu līdzekli?**   | Pārbaudes joprojām var ģenerēt, un lietotājs kontrolē vietu, kur šis fails tiek saglabāts.   |
 | **Ietekmētie produkta apgabali**         | Parādi kreditoriem, Debitoru parādi, Kases un bankas vadība  |
-| **Statuss**                         | Noņemts kopš AX 7.0.    |
+| **Statuss**                         | Noņemts, sākot ar AX 7.0.    |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Vācu DTAUS maksājuma eksportēšana un konta izraksta importēšana (kopsummas un transakcijas)
 
@@ -917,10 +916,10 @@ Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma 
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Finanšu Microsoft SQL Server pārskatu izveides pakalpojumu (SSRS) atskaites ir aizstātas ar pārvaldības atskaišu sastādītāja iespējām un noklusējuma atskaitēm. |
-| **Vai aizstāts ar citu līdzekli?**   | Ar pārvaldības atskaišu sastādītāju (pašreizējā Dynamics AX versijā apzīmēts kā **Finanšu pārskati**)    |
+| **Novecošanas/noņemšanas pamatojums** | Finanšu Microsoft SQL Server Reporting Services (SSRS) pārskati ir aizstāti ar Management Reporter iespējām un noklusējuma pārskatiem. |
+| **Vai aizstāts ar citu līdzekli?**   | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu **Finanšu pārskatu veidošana**)    |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata   |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
 ### <a name="infopart-and-formpart-metadata"></a>InfoPart un FormPart metadati
 
@@ -929,7 +928,7 @@ Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma 
 | **Novecošanas/noņemšanas pamatojums** | InfoPart un FormPart metadati ļāva izveidot papildinformācijas lodziņus diviem dažādiem klientiem. |
 | **Vai aizstāts ar citu līdzekli?**   | InfoPart metadati, kas bija vienkāršotā formas definīcija, ar jaunināšanas rīkiem ir pārveidoti par formu. FormPart metadati, kas veidoja atsauci uz formu, ir aizstāti ar tiešāku atsauci, ko veido jaunināšanas rīki. |
 | **Ietekmētie produkta apgabali**         | Visi moduļi    |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.        |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.        |
 
 ### <a name="main-account-list-page"></a>Galvenā konta saraksta lapa
 
@@ -940,7 +939,7 @@ Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija
 | **Novecošanas/noņemšanas pamatojums** | Bilances informācija ir pieejama saraksta lapā **Apgrozījuma bilance** pēc konta un dimensijas.  |
 | **Vai aizstāts ar citu līdzekli?**   | Sadaļā **Galvenie konti** ir ietverts tāds pats kontu saraksts, kas atrodas saraksta lapā **Galvenais konts**. Režģa skats sadaļā **Galvenie konti** arī rāda vēl mazāku, režģa tipa skatu. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata      |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.    |
 
 ### <a name="malaysia-and-singapore-bank-cash-flow-report"></a>Malaizijas un Singapūras bankas naudas plūsmas atskaite
 
@@ -966,7 +965,7 @@ Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija
 
 ### <a name="mexico-realized-and-unrealized-vat"></a>Meksikas realizētais un nerealizētais PVN
 
-Microsoft Dynamics AX 2012 nerealizēto pievienotās vērtības nodokli (PVN) pārvaldīja, izmantojot Meksikai raksturīgo funkcionalitāti, kas paredzēta nerealizētajiem nodokļiem.
+Programmā Microsoft Dynamics AX 2012 nerealizētais pievienotās vērtības nodoklis (PVN) tika pārvaldīts, izmantojot Meksikai raksturīgo nerealizētā nodokļa pārvaldības funkcionalitāti.
 
 |   |  |
 |------------|--------------------|
@@ -975,7 +974,7 @@ Microsoft Dynamics AX 2012 nerealizēto pievienotās vērtības nodokli (PVN) p�
 | **Ietekmētie produkta apgabali**         | Nodokļi   |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums. |
 
-### <a name="microsoft-outlook-integration"></a>Microsoft Outlook integrācija
+### <a name="microsoft-outlook-integration"></a>Microsoft Outlook integrēšana
 
 
 |   |  |
@@ -983,7 +982,7 @@ Microsoft Dynamics AX 2012 nerealizēto pievienotās vērtības nodokli (PVN) p�
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar Microsoft Exchange Server integrāciju. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā                                                                            |
 | **Ietekmētie produkta apgabali**         | Pārdošana un mārketings                                                            |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                                                 |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                                 |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Krājumu un noliktavas vadības žurnālu privāta bloķēšana
 
@@ -994,7 +993,7 @@ Krājumu un noliktavas žurnāli vairs neatbalsta iespēju atzīmēt žurnālu k
 | **Novecošanas/noņemšanas pamatojums** | Šai funkcionalitātei netika atrasts pielietojums. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                     |
 | **Ietekmētie produkta apgabali**         | Krājumu vadība                   |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.         |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.         |
 
 ### <a name="product-builder"></a>Preču konfigurators
 
@@ -1002,18 +1001,18 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Preču konfigurators X++ kodu atklāja lietotājiem, un Dynamics AX pašreizējā versijā tas netiek atbalstīts. Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.  |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kur jau tika paziņots, ka turpmākās versijās līdzeklis Preču konfigurators kļūs novecojis. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Novecošanas/noņemšanas pamatojums** | Preču konfiguratorā gala lietotājs varēja redzēt X++ kodu, tāpēc tas netiek atbalstīts pašreizējā Dynamics AX versijā. Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.  |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība, Pārdošana un mārketings  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.      |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.      |
 
 ### <a name="production-floor-app"></a>Ražotnes programma
 Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Ar pāreju uz tīmekļa klientu, ir iespējams nodrošināt līdzīgu funkcionalitāti, izmantojot vietējo Dynamics AX 7.0 klientu. Darbu kartes ierīce nodrošina ražotnes lietot. interf., kas optimizēts skārienier. un planšetdat. formu faktoriem. |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Darbu kartes ierīce, kas ir Dynamics AX 7.0 iekšējā sastāvdaļa.                                                                           |
+| **Novecošanas/noņemšanas pamatojums** | Pārejot uz tīmekļa klientu, var nodrošināt līdzīgu funkcionalitāti, izmantojot vietējo Dynamics AX 7.0 klientu. Darbu kartes ierīce nodrošina ražotnes lietot. interf., kas optimizēts skārienier. un planšetdat. formu faktoriem. |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Darbu kartes ierīce, kas ir iegulta versijā Dynamics AX 7.0.                                                                           |
 | **Ietekmētie produkta apgabali**         | Ražošanas kontrole                                                |
 | **Statuss**                         | Novecojis: šim līdzeklim vēl nav noteikts noņemšanas datums no Microsoft veikala.                                                |
 
@@ -1024,30 +1023,30 @@ Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Dynamics AX pašreizējā versija neatbalsta etiķešu izmaiņu veikšanu izpildlaikā. |
+| **Novecošanas/noņemšanas pamatojums** | Pašreizējā Dynamics AX versija neatbalsta etiķešu izmaiņas izpildlaikā. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                            |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība                                                |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                                                |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                                |
 
 ### <a name="retail-server-connectivity-using-http"></a>Retail Server savienojamība, izmantojot HTTP
 
-Programmā Dynamics AX 2012 R3 Retail Server varēja darboties, izmantojot HTTP sakarus (nedroši). To varēja veikt papildus standarta sakariem, izmantojot HTTPS.
+Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja izmantot HTTP sakarus (bez aizsardzības). To varēja veikt papildus standarta sakariem, izmantojot HTTPS.
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Jauno drošības prasību dēļ tagad tiek atbalstīti tikai droši sakari, izmantojot TLS 1.2 (vai jaunāka versija, ja pieejama). Pašapkalpošanās instalētājs automātiski konfigurēs datoru šādam saziņas veidam. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Tagad tiek atbalstīti tikai standarta HTTPS sakari. |
-| **Ietekmētie produkta apgabali**         | Retail serveris  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0. |
+| **Ietekmētie produkta apgabali**         | Mazumtirdzniecības serveris  |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0. |
 
 ### <a name="role-center-pages"></a>Informācijas centru lapas
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Lapas Lomu centrs tika veidotas uz novecojušās uzņēmuma portāla platformas, kura pašreizējā Dynamics AX versijā ir aizstāta ar jauno tīmekļa klienta platformu. |
+| **Novecošanas/noņemšanas pamatojums** | Informācijas centra lapas bija veidotas, izmantojot novecojušo uzņēmuma portāla platformu, kas pašreizējā Dynamics AX versijā ir aizstāta ar jauno tīmekļa klienta platformu. |
 | **Vai aizstāts ar citu līdzekli?**   | Jaunais darbvietas formas modelis lietotājiem sniedz uz procesu centrētu dizainu, kas nodrošina ērtu piekļuvi bieži lietotajiem uzdevumiem šajā procesā.                       |
 | **Ietekmētie produkta apgabali**         | Visi moduļi    |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0   |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0   |
 
 ### <a name="sales-tax-jurisdictions"></a>PVN jurisdikcijas
 
@@ -1056,7 +1055,7 @@ Programmā Dynamics AX 2012 R3 Retail Server varēja darboties, izmantojot HTTP 
 | **Novecošanas/noņemšanas pamatojums** | Zems klientu lietojums un ierobežota līdzekļu kopa |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                           |
 | **Ietekmētie produkta apgabali**         | ASV pārdošanas nodoklis                                 |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.               |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.               |
 
 ### <a name="sites-services"></a>Site Services
 
@@ -1064,10 +1063,10 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Ar Dynamics AX izmantotajai Microsoft Azure infrastruktūrai ir jaunas iespējas, ko var izmantot šī līdzekļa vietā (piemēram, Azure vietnes). |
+| **Novecošanas/noņemšanas pamatojums** | Programmā Dynamics AX izmantotajai Microsoft Azure infrastruktūrai ir jaunas iespējas, ko var izmantot šī līdzekļa vietā (piemēram, Azure vietnes). |
 | **Vai aizstāts ar citu līdzekli?**   | Nē   |
 | **Ietekmētie produkta apgabali**         | HR personāla atlase, Pieteikumu pārvaldība, Piedāvājumu pieprasījums, Kreditora reģistrēšana, Sadarbības darbvietas iespējām un kampaņām  |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.    |
 
 ### <a name="ssas-demand-forecasting-strategy"></a>SSAS pieprasījuma prognozēšanas stratēģija
 
@@ -1076,7 +1075,7 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 | **Novecošanas/noņemšanas pamatojums** | Līdzekļa dizainu nevar atbalstīt jaunajā mākoņa arhitektūrā. |
 | **Vai aizstāts ar citu līdzekli?**   | Azure algoritmiskās mācīšanās pieprasījuma prognozēšanas stratēģija                           |
 | **Ietekmētie produkta apgabali**         | Vispārējā plānošana                                                              |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.                                               |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                               |
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Kreditora rēķinu kopa bez detalizētās informācijas par grāmatošanu
 
@@ -1084,20 +1083,20 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums. Šī funkcionalitāte ir aizstāta ar rēķinu žurnālu, kuram ir darbplūsmas funkcionalitāte. |
 | **Vai aizstāts ar citu līdzekli?**   | Ar rēķinu žurnāla darbplūsmas iespējām.     |
-| **Ietekmētie produkta apgabali**         | Parādi kreditoriem |
-| **Statuss**                         | Noņemts kopš Dynamics AX 7.0.    |
+| **Ietekmētie produkta apgabali**         | Kreditori |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.    |
 
 
 ### <a name="virtual-company-accounts"></a>Virtuālie datu faili
 
-Virtuālo datu failu līdzeklis vairs netiek atbalstīts programmā Dynamics AX. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
+Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
 
 |   |  | 
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | - Pirms datu šķirošanas tabulās ir jāiestata virtuālie datu faili. Virtuālo datu failu modernizēšana esošajā implementācijā ir ļoti sarežģīta.<br><br>- Tā kā pašreizējā Dynamics AX versijā ir bijis tik daudz datu normēšanas, ir kļuvis sarežģīti zināt, ko nepieciešams pievienot tabulu kolekcijām. Piemēram, ir grūti zināt, kuras tabulas kopīgot. Tāpat ir nepieciešams pievienot arī visas tabulas, uz kurām pastāv atsauces no virtuālajā datu failā esošajām tabulām. Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila. Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.<br><br>- Kad tabula ir daļa no virtuāla datu faila, tā zaudē informāciju par datu izcelsmi, un tiek reģistrēts tikai virtuālais datu fails.   |
+| **Novecošanas/noņemšanas pamatojums** | - Pirms datu šķirošanas tabulās ir jāiestata virtuālie datu faili. Virtuālo datu failu modernizēšana esošajā implementācijā ir ļoti sarežģīta.<br><br>- Tā kā pašreizējā Dynamics AX versijā ir veikta apjomīga datu normalizācija, ir grūti zināt, ko pievienot tabulu kolekcijām. Piemēram, ir grūti zināt, kuras tabulas kopīgot. Tāpat ir nepieciešams pievienot arī visas tabulas, uz kurām pastāv atsauces no virtuālajā datu failā esošajām tabulām. Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila. Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.<br><br>- Kad tabula ir daļa no virtuāla datu faila, tā zaudē informāciju par datu izcelsmi, un tiek reģistrēts tikai virtuālais datu fails.   |
 | **Vai aizstāts ar citu līdzekli?** | Lai tabulas padarītu pieejamas no visiem uzņēmumiem, var izmantot globālās tabulas. Pašlaik aizstājēja nav. |   
 | **Ietekmētie produkta apgabali**       | Visi moduļi |   
-| **Statuss**                       | Noņemts kopš Dynamics AX 7.0.   |   
+| **Statuss**                       | Noņemts, sākot ar Dynamics AX 7.0.   |   
 
 ### <a name="windows-8-tablet-app"></a>Windows 8 planšetdatoru programma
 
@@ -1108,7 +1107,7 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 | **Novecošanas/noņemšanas pamatojums** | Programmatūra Dynamics 365 for Finance and Operations ir saderīga ar planšetdatoriem. Planšetdatoru programma vairs nav nepieciešama.    |
 | **Vai aizstāts ar citu līdzekli?**   | Nē.          |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība   |
-| **Statuss**                         | Noņemts: šī funkcionalitāte ir pieejama tikai versijai Dynamics AX 2012 R3. |
+| **Statuss**                         | Noņemts: šī funkcionalitāte ir pieejama tikai versijā Dynamics AX 2012 R3. |
 
 ### <a name="workplanner"></a>Darbu plānotājs
 
@@ -1124,8 +1123,7 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 |                                                 |                                                                                                          |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Novecošanas/noņemšanas pamatojums</strong> |                         Šī funkcionalitāte ir aizstāta ar citu līdzekli.                         |
-|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Ar pārvaldības atskaišu sastādītāju (pašreizējā Dynamics AX versijā apzīmēts kā <strong>Finanšu pārskati</strong>) |
+|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong>) |
 |     <strong>Ietekmētie produkta apgabali</strong>     |                                              Virsgrāmata                                              |
-|             <strong>Statuss</strong>             |                                      Noņemts kopš Dynamics AX 2012                                      |
-
+|             <strong>Statuss</strong>             |                                      Noņemts, sākot ar Dynamics AX 2012                                      |
 

@@ -1,32 +1,31 @@
 ---
-title: "Vispārējās plānošanas sākumlapa"
-description: "Vispārējā plānošana ļauj uzņēmumiem noteikt un ieplānot nākotnes nepieciešamības pēc izejmateriāliem un jaudas, lai sasniegtu uzņēmuma mērķus."
+title: Vispārējās plānošanas sākumlapa
+description: Vispārējā plānošana ļauj uzņēmumiem noteikt un ieplānot nākotnes nepieciešamības pēc izejmateriāliem un jaudas, lai sasniegtu uzņēmuma mērķus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314789"
 ---
-
 # <a name="master-planning-home-page"></a>Vispārējās plānošanas sākumlapa
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Plānošanu veido trīs tālāk norādītie galvenie procesi.
 
 -  **Prognožu plānošana** — Prognožu grafiks aprēķina bruto vajadzības. Tas ir balstīts uz nākotnes plānošanu (jeb prognozēm) un ļauj uzņēmumiem veikt materiālu un jaudas ilgtermiņa plānošanu. Papildinformāciju skatiet šeit: [Prognožu plānošana](introduction-demand-forecasting.md). 
 
--  **Starpuzņēmumu vispārējā plānošana** — Starpuzņēmumu vispārējais plāns aprēķina neto vajadzības dažādās juridiskajās personās. Tas savieno pieprasījumu un piedāvājumu starp uzņēmumiem — ne tikai īstermiņa, apstiprināto pieprasījumu un piedāvājumu, bet arī ilgtermiņa, plānoto (tādu, kas vēl nav apstiprināts) pieprasījumu un piedāvājumu. Papildinformāciju skatiet šeit: [Starpuzņēmumu vispārējā plānošana](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (elektroniskās mācības) (ir nepieciešams CustomerSource konts). 
+-  **Starpuzņēmumu vispārējā plānošana** — Starpuzņēmumu vispārējais plāns aprēķina neto vajadzības dažādās juridiskajās personās. Tas savieno pieprasījumu un piedāvājumu starp uzņēmumiem — ne tikai īstermiņa, apstiprināto pieprasījumu un piedāvājumu, bet arī ilgtermiņa, plānoto (tādu, kas vēl nav apstiprināts) pieprasījumu un piedāvājumu. Papildinformāciju skatiet šeit: [Starpuzņēmumu vispārējā plānošana](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (elektroniskās mācības) (nepieciešams CustomerSource konts). 
 
 Uzņēmumi var mainīt plāna izvadi. Viņi var palaist reģeneratīvu plānošanu, neto izmaiņu plānošanu vai abas. Reģeneratīvie plāni atjaunina visas prasības, bet neto izmaiņu plāni atjaunina tikai plānu par krājumiem ar jaunām vajadzībām, kas ir radušās kopš pēdējās plānošanas izpildes.
 
@@ -69,10 +68,10 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="roadmaps"></a>Rīcības plāni
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/).
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
 
 ### <a name="blogs"></a>Emuāri
-Viedokļi, jaunumi un cita informācija par moduli Vispārējā plānošana un citiem risinājumiem ir pieejami šeit: [Dynamics AX Manufacturing R&D darba grupas emuārs](https://blogs.msdn.microsoft.com/axmfg) un šeit: [Piegādes ķēdes pārvaldības programmā Dynamics AX R&D darba grupas emuārs](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Viedokļi, jaunumi un cita informācija par moduli Vispārējā plānošana un citiem risinājumiem ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Uzdevumu ceļveži
 Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**.
@@ -84,7 +83,6 @@ Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļ
 -  [Pieprasījuma prognozēšanas funkcionalitātes paplašināšana](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Vispārēja plānošana — padomi un metodes problēmu novēršanai](https://youtu.be/7v8BPmEs9Dg)
 -  [Palīdzība, ja MRP darbojas lēni.](https://youtu.be/RLXybx20B5o)
-
 
 
 

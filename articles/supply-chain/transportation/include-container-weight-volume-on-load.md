@@ -1,13 +1,13 @@
 ---
-title: "Konteinera svara un tilpuma ietveršana kravā"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt un lietot funkcionalitāti konteinera svara un tilpuma ietveršanai kravās."
+title: Konteinera svara un tilpuma ietveršana kravā
+description: Šajā tēmā ir aprakstīts, kā iestatīt un lietot funkcionalitāti konteinera svara un tilpuma ietveršanai kravās.
 author: pjacobse
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: adbaa379889d373d597b2f6882b78f82bd71ae57
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4190b5cb05cccc3d762d8ad153ecbd467fa0a332
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356603"
 ---
-
 # <a name="include-container-weight-and-volume-on-load"></a>Konteinera svara un tilpuma ietveršana kravā
 
 [!include [banner](../includes/banner.md)]
@@ -46,4 +45,3 @@ Par kravu uzskatāmo konteineru skaits tiek aprēķināts, pamatojoties uz konte
 -   Lai konteineram iestatītu svaru un tilpumu, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru tipi**.
 
 -   Lai iestatītu konteinera izmantojuma procentuālo vērtību, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru grupas** un ievadiet vērtību laukā **Konteinera izmantojuma procentuālā vērtība**.
-

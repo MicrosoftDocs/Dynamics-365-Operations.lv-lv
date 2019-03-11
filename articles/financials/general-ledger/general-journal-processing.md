@@ -1,13 +1,13 @@
 ---
-title: "Virsgrāmatas žurnāla apstrāde"
-description: "Šajā sadaļā ir aprakstītas programmas Microsoft Dynamics 365 for Finance and Operations iespējas, kas var palīdzēt vienkāršot Virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli."
+title: Virsgrāmatas žurnāla apstrāde
+description: Šajā tēmā ir aprakstītas programmā Microsoft Dynamics 365 for Finance and Operations pieejamās iespējas, kas var palīdzēt atvieglot Virsgrāmatas žurnāla apstrādi, kā arī palīdzēt nodrošināt, ka tiek iegūti pareizie dati un netiek pārkāpti iekšējās kontroles kritēriji.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358443"
 ---
-
 # <a name="general-journal-processing"></a>Virsgrāmatas žurnāla apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Šajā sadaļā ir aprakstītas programmas Microsoft Dynamics 365 for Finance and Operations iespējas, kas var palīdzēt vienkāršot Virsgrāmatas žurnālu apstrādi un arī nodrošināt pareizu datu ieguvi un pienācīgu iekšējo kontroli.  
+Šajā tēmā ir aprakstītas programmā Microsoft Dynamics 365 for Finance and Operations pieejamās iespējas, kas var palīdzēt atvieglot Virsgrāmatas žurnāla apstrādi, kā arī palīdzēt nodrošināt, ka tiek iegūti pareizie dati un netiek pārkāpti iekšējās kontroles kritēriji.  
 
 ## <a name="journal-names"></a>Žurnālu nosaukumi
 
@@ -55,7 +54,7 @@ Lapā **Žurnālu nosaukumi**, jūs varat iestatīt šādus elementus:
 Virsgrāmatas žurnālos ir pieejama opcija **Automātiskās atgriešana**. Piemēram, jums ir uzkrājuma korekcija, kur faktiskais dokuments vēl nav apstrādāts, kā parādīts šajā attēlā.
 [![Virsgrāmatas žurnāla storno](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Excel pievienojumprogramma žurnāla ierakstu veidošanai nodrošina papildu automatizācijas līmeni un atvieglo datu ievadi. Darbība **Atvērt rindas programmā Excel** ir pieejama lapās **Virsgrāmatas žurnāls** un **Žurnāla dokuments**. 
+Microsoft Excel pievienojumprogramma žurnāla ierakstu izveidei nodrošina papildu automatizācijas līmeni un atvieglo datu ievadi. Darbība **Atvērt rindas programmā Excel** ir pieejama lapās **Virsgrāmatas žurnāls** un **Žurnāla dokuments**. 
 
 Lapā **Periodiskie žurnāli**, jūs varat iestatīt periodiskos žurnālus, lai automatizētu žurnāla apstrādi. 
 
@@ -97,4 +96,3 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 Vairumā žurnālu opcija **Simulēt grāmatošanu** ir pieejama izvēlnē **Apstiprināt**. Apstiprinot žurnālu, izmantojot funkciju **Apstiprināt**, sistēma pārbauda, vai žurnālā nav noteiktu kļūdas nosacījumu. Ja tiek izmantota funkcija **Simulēt grāmatošanu**, sistēma palaiž visus tos pašus procesus, kas tiek palaisti grāmatošanas laikā bez faktiskas žurnāla grāmatošanas. Pēc tam varat pārskatīt parādītos grāmatošanas ziņojumus, izlabot atrastās kļūdas, un pēc tam noklikšķiniet uz izvēlnes **Grāmatot**, lai grāmatotu žurnālu. 
 
 Opcija **Simulēt grāmatošanu** nav pieejama pakešveida apstrādei. Taču ir pieejams pakešveida grāmatošanas simulēšanas kods, un izstrādātāji var paplašināt kodu, lai pievienotu šo funkcionalitāti.  
-

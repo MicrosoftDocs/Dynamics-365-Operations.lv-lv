@@ -1,13 +1,13 @@
---- 
-title: "Darbinieka reģistrēšana mainīgās atlīdzības plānā"
-description: "Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem."
+---
+title: Darbinieka reģistrēšana mainīgās atlīdzības plānā
+description: Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329578"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Darbinieka reģistrēšana mainīgās atlīdzības plānā
 
@@ -42,5 +42,4 @@ Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās at
     * Ja darbiniekam piemaksā ir jāpiešķir vienota summa, šo summu var iestatīt šeit.  
 8. Pārslēdziet sadaļas Organizatoriskās prioritātes paplašinājumu.
     * Ja jāņem vērā darbinieka veiktspēja, kas novērtēta saistībā citu struktūrvienību vai nodaļu, kas neatbilst darbinieka amatam piešķirtajai, nodaļu var ignorēt. Procentu kolonnas summai jābūt 100.  
-
 

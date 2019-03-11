@@ -1,13 +1,13 @@
---- 
-title: "Nodarbinātības pārbaudes i9 pārbaude"
-description: "Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu."
+---
+title: Nodarbinātības pārbaudes i9 pārbaude
+description: Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333327"
 ---
 # <a name="employment-verification-i9-verification"></a>Nodarbinātības pārbaudes i9 pārbaude
 
@@ -54,5 +54,4 @@ Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Cont
 21. Laukā I-9 dokumenta tips izvēlieties darbinieka iesniegtā dokumenta tipu.
 22. Laukā Dokumenta numurs ievadiet vai atlasiet kādu vērtību.
 23. Noklikšķiniet uz Saglabāt.
-
 

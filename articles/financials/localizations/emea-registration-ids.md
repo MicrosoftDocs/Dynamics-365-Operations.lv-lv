@@ -1,13 +1,13 @@
 ---
-title: "Reģistrācijas ID"
-description: "Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu."
+title: Reģistrācijas ID
+description: Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350508"
 ---
-
 # <a name="registration-ids"></a>Reģistrācijas ID
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Reģistrācijas kategorija ir valsts/reģiona reģistrācijas identifikators, ka
 |-----------------------|----------------|
 | Reģistrācijas tips     | Reģistrācijas tips konkrētajā valstī/reģionā.|
 | Iekļaut         | Ierobežojuma veids, kas attiecas uz nodokļa reģistrācijas tipu: Nav, Persona, Organizācija.|
-| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Tālāk ir sniegts visu programmas Microsoft Dynamics 365 for Finance and Operations atbalstīto kategoriju saraksts. |
+| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Tālāk ir sniegts viss programmā Microsoft Dynamics 365 for Finance and Operations atbalstīto kategoriju saraksts. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Ievadīt reģistrācijas ID globālās adrešu grāmatas ierakstiem
 
@@ -80,28 +79,28 @@ Programmatūras Microsoft Dynamics 365 for Finance and Operations globālajā a
 Iespēja meklēt puses ierakstus, pamatojoties uz reģistrācijas ID, ir pieejama ar pusi, juridisko personu, kreditoru, debitoru un darbinieku saistītajās formās. Noklikšķiniet uz **Reģistrācijas ID meklēšana**, lai atvērtu lapu **Reģistrācijas ID meklēšanas kritēriji**. Norādiet meklēšanas kritērijus un noklikšķiniet uz **Atrast**. Sistēma parāda atlasītos ierakstus no globālās adrešu grāmatas un saistītos pušu ierakstu tipus.
 
 ## <a name="supported-registration-categories"></a>Atbalstītās reģistrācijas kategorijas
-Tālāk esošajā tabulā ir norādīti programmatūrā Dynamics 365 for Finance and Operations atbalstītie reģistrācijas veidi. Ja pārzināt reģistrācijas ID laukus programmatūrā Microsoft Dynamics AX 2012, šajā tabulā ir norādīta arī šo lauku saistība ar Dynamics 365 for Finance and Operations reģistrācijas kategorijām.
+Tālāk esošajā tabulā ir norādīti programmatūrā Dynamics 365 for Finance and Operations atbalstītie reģistrācijas veidi. Ja pārzināt reģistrācijas ID laukus programmā Microsoft Dynamics AX 2012, šajā tabulā ir norādīta arī šo lauku saistība ar Finance and Operations reģistrācijas kategorijām.
 
-| Dynamics 365 for Finance and Operations reģistrācijas kategorija         |Valsts/reģions  | Dynamics AX 2012 termins/lauks|
+| Dynamics 365 for Finance and Operations reģistrācijas kategorija         |Valsts/reģions  | Dynamics AX 2012 termins/lauks|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| PVN ID                                                        | Visas Eiropas Savienības (ES) valstis|  PVN reģistrācijas numurs (tiesību aktos noteiktais veids NODOKĻA ID programmatūrā AX 2012 R3)|
-| Uzņēmuma ID (COID)                                          | Beļģija Čehija Igaunija Ungārija Latvija Lietuva Polija Šveice | Uzņēmuma numurs (EnterpriseNumber) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Uzņēmuma kods (EnterpriseCode) Reģistrācijas numurs (RegNum\_W) UID (tiesību aktos noteiktais veids UID programmatūrā AX 2012 R3) |
+| PVN ID                                                        | Visas Eiropas Savienības (ES) valstis|  PVN reģistrācijas numurs (tiesību aktos noteiktā veida NODOKĻA ID programmā AX 2012 R3)|
+| Uzņēmuma ID (COID)                                          | Beļģija Čehija Igaunija Ungārija Latvija Lietuva Polija Šveice | Uzņēmuma numurs (EnterpriseNumber) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Reģistrācijas numurs (RegNum\_W) Uzņēmuma numurs (EnterpriseCode) Reģistrācijas numurs (RegNum\_W) UID (tiesību aktos noteiktā veida UID programmā AX 2012 R3) |
 | Filiāles ID                                                     | Beļģija            | Filiāles numurs (BranchNumber)|
 | Spisová značka (Reģistrācijas numurs, Izdevējiestāde, Sadaļa) | Čehija     | Iekļaušanas numurs (CommercialRegisterInsetNumber) Glabājas komercreģistrā (CommercialRegister) Komercreģistra sadaļa (CommercialRegisterSection)|
 | Debitora muitas ID                                           | Somija | Debitora muitas numurs (CustomsCustomerNumber\_FI)|
-| INN                                                           | Krievijas Federācija| INN (tiesību aktos noteiktais veids INN programmatūrā AX 2012 R3)|
-| RRC                                                           | Krievijas Federācija| RRC (tiesību aktos noteiktais veids RRC programmatūrā AX 2012 R3)|
-| OKDP                                                          | Krievijas Federācija| OKDP (tiesību aktos noteiktais veids OKDP programmatūrā AX 2012 R3)|
-| OKPO                                                          | Krievijas Federācija| OKPO (tiesību aktos noteiktais veids OKPO programmatūrā AX 2012 R3)|
-| RCOAD                                                         | Krievijas Federācija| RCOAD (tiesību aktos noteiktais veids RCOAD programmatūrā AX 2012 R3)|
-| OGRN                                                          | Krievijas Federācija| OGRN (tiesību aktos noteiktais veids OGRN programmatūrā AX 2012 R3) |
-| SNILS                                                         | Krievijas Federācija| SNILS (tiesību aktos noteiktais veids SNILS programmatūrā AX 2012 R3)|
-| CIFTS                                                         | Krievijas Federācija| CIFTS (tiesību aktos noteiktais veids CIFTS programmatūrā AX 2012 R3)|
+| Nodokļu maksātāja kods                                                           | Krievijas Federācija| Nodokļu maksātāja kods (tiesību aktos noteiktā veida nodokļu maksātāja kods programmā AX 2012 R3)|
+| RIK                                                           | Krievijas Federācija| RIK (tiesību aktos noteiktā veida RIK programmā AX 2012 R3)|
+| OKDP                                                          | Krievijas Federācija| OKDP (tiesību aktos noteiktā veida OKDP programmā AX 2012 R3)|
+| OKPO                                                          | Krievijas Federācija| OKPO (tiesību aktos noteiktā veida OKPO programmā AX 2012 R3)|
+| VATIOK                                                         | Krievijas Federācija| VATIOK (tiesību aktos noteiktā veida VATIOK programmā AX 2012 R3)|
+| OGRN                                                          | Krievijas Federācija| OGRN (tiesību aktos noteiktā veida OGRN programmā AX 2012 R3) |
+| SNILS                                                         | Krievijas Federācija| SNILS (tiesību aktos noteiktā veida SNILS programmā AX 2012 R3)|
+| CIFTS                                                         | Krievijas Federācija| CIFTS (tiesību aktos noteiktā veida CIFTS programmā AX 2012 R3)|
 | Pase                                                      | Spānija             | Pase|
 | Oficiāls identifikācijas dokuments                              | Spānija             | Oficiāls identifikācijas dokuments|
 | Dzīvesvietas sertifikāts                                         | Spānija             | Dzīvesvietas sertifikāts|
 | Cits identifikācijas dokuments                                 | Spānija             | Cits identifikācijas dokuments|
-| Nav saskaitīts                                                  | Spānija             | Nav pieejams versijā AX 2012 R3|
+| Nav saskaitīts                                                  | Spānija             | Nav pieejams programmā AX 2012 R3|
 
 
 Papildinformāciju par reģistrācijas ID apstrādāšanu, tostarp nepieciešamajiem priekšnosacījumiem, skatiet tālāk norādītajos uzdevumu ierakstos, kas paredzēti PVN ID pakalpojumā Lifecycle Services (LCS).
@@ -109,7 +108,6 @@ Papildinformāciju par reģistrācijas ID apstrādāšanu, tostarp nepieciešam
 -   Iestatīt PVN ID
 -   Kreditora PVN ID reģistrācija
 -   Pušu meklēšana pēc PVN ID
-
 
 
 

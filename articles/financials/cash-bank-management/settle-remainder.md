@@ -1,34 +1,31 @@
 ---
-title: "Atlikuma nokārtošana"
-description: "Jūs varat apmaksāt atlikušo no norēķinu darbības, ieskaitot šo summu virsgrāmatas kontā."
+title: Atlikuma nokārtošana
+description: Jūs varat apmaksāt atlikušo no norēķinu darbības, ieskaitot šo summu virsgrāmatas kontā.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367206"
 ---
-
 # <a name="settle-remainder"></a>Atlikuma nokārtošana
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jūs varat apmaksāt atlikušo no norēķinu darbības, ieskaitot šo summu virsgrāmatas kontā vai citam debitoram. Jūs varat nokārtot atlikumu, kad sedzat žurnālā ievadītās summas, vai kad tikai sedzat atvērtās transakcijas.
 
@@ -73,4 +70,3 @@ Lai nokārtotu atlikumu, veiciet tālāk norādītās darbības.
 7)  Jūs varat arī izvēlēties, vai līdz ar atlikuma nokārtošanu izveidot maksājumu žurnālu, vai tikai grāmatot bez žurnāla. Lai izveidotu maksājumu žurnālu, opcijai **Labot žurnālā** atlasiet **Jā**. Varēsiet labot maksājumu žurnālu, ko veidojat.
 8)  Noklikšķiniet uz **Nokārtot atlikumu**. Ja izvēlējāties izveidot žurnālu, poga mainīsies uz **Izveidot žurnālu**. Noklikšķiniet uz **Izveidot žurnālu**.
 9)  Ja esat izveidojis maksājumu žurnālu, žurnāla lapa atvērsies pēc noklikšķināšanas uz **Nokārtot atlikumu**. Žurnālam tiks pievienota papildu žurnāla rinda ar atlikuma norēķinu summu kā summu un ar atlikuma norēķinu kontu kā korespondējošo kontu. Ja pievienojāt debitoru vai kreditoru, lai varētu pārvietot norēķinu summu uz citu debitora vai kreditora kontu, žurnālam tiks pievienota papildu rinda, lai pārvietotu norēķinu summu uz attiecīgo debitora vai kreditora kontu.
-

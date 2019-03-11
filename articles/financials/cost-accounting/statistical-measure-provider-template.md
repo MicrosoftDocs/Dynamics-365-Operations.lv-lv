@@ -1,32 +1,31 @@
 ---
-title: "Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes"
-description: "Šajā tēmā ir sniegta informācija par statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnēm. Statistiskos dimensiju elementus var izmantot kā sadalījuma pamatu politikās, piemēram, izmaksu sadalē un izmaksu sadalījumā. Tos var izmantot arī, lai izveidotu izmaksu patēriņa pārskatu beznaudas vērtībām."
+title: Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
+description: Šajā tēmā ir sniegta informācija par statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnēm. Statistiskos dimensiju elementus var izmantot kā sadalījuma pamatu politikās, piemēram, izmaksu sadalē un izmaksu sadalījumā. Tos var izmantot arī, lai izveidotu izmaksu patēriņa pārskatu beznaudas vērtībām.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360306"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ Tālāk ir daži parastu statistisko dimensijas elementu piemēri.
 
 ## <a name="statistical-measure-provider-template"></a>Statistisko mērījumu nodrošinātāja veidne
 
-Statistiskos mērījumus var iegūt no dažāda veida avotiem. Microsoft Dynamics 365 for Finance and Operations ir lielisks statistisko mēru ieguves avots. Statistisko mērvienību nodrošinātāja veidni var izmantot, lai viegli konfigurētu statistiskos mērījumus, kurus vēlaties izgūt.
+Statistiskos mērījumus var iegūt no dažāda veida avotiem. Microsoft Dynamics 365 for Finance and Operations ir lielisks statistisko mēru ieguves avots. Statistisko mērvienību nodrošinātāja veidni var izmantot, lai viegli konfigurētu statistiskos mērījumus, kurus vēlaties izgūt.
 
 Statistisko mērījumu nodrošinātāja veidnes definīcija ir vispārīga, un to var atkārtoti izmantot vairākiem statistiskajiem dimensijas elementiem.
 
@@ -132,13 +131,13 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
 
 **Datu avots**
 
-| Nosaukums        | Datu savienotājs                                                                     | Statisko dimensiju elements |
+| Vārds        | Datu savienotājs                                                                     | Statisko dimensiju elements |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations — statistiskie mēri | FTE                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations — statistiskie mēri | FTE                         |
 
 **Datu nodrošinātāja konfigurācija**
 
@@ -220,13 +219,13 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 for Finance and Operations — statistiskie mēri**, jo vēlaties izgūt datus no programmatūras Finance and Operations.
 
 **Datu avots**
 
 | Nosaukums           | Datu savienotājs                                                                     | Statisko dimensiju elements |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakotne CC D365FO | Dynamics 365 for Finance and Operations — statistiskie mēri | Pakotnes kopija                      |
+| Pakotne CC D365FO | Dynamics 365 for Finance and Operations — statistiskie mēri | Pakotnes kopija                      |
 
 Sistēma atpazīst, ka ProdRouteTrans ir tabula, kur katrs ieraksts pieder atsevišķai juridiskai personai. Tāpēc jums būs jāizvēlas juridiskā persona, no kuras jāimportē darbības.
 
@@ -347,4 +346,3 @@ Ja iepriekš definētais dimensijas elementa sadalījuma pamats Elektrība ir pi
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sadalījuma pamati](allocation-bases.md)
-

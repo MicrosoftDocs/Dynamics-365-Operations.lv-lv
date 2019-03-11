@@ -1,14 +1,14 @@
 ---
-title: "Administratora iestatījumi programmā Attract"
-description: "Šajā tēmā ir paskaidrota līdzekļu funkciju iespējošana organizācijām un lietotājiem programmā Attract."
-author: 
+title: Administratora iestatījumi programmā Attract
+description: Šajā tēmā ir paskaidrota līdzekļu funkciju iespējošana organizācijām un lietotājiem programmā Attract.
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,18 +18,17 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305305"
 ---
-
-# <a name="admin-settings-in-attract"></a>Administratora iestatījumi programmā Attract
+# <a name="admin-settings-in-attract"></a>Administratora iestatījumi pakalpojumā Attract
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract administrēšanas centrā ir ietverti lietojumprogrammas Attract konfigurēšanas iestatījumi, integrēšanas opcijas un iestatīšanas opcijas.
+MicrosoftDynamics 365 for Talent: Attract administrēšanas centrā ir ietverti lietojumprogrammas Attract konfigurēšanas iestatījumi, integrēšanas opcijas un iestatīšanas opcijas.
 
 ## <a name="company-information"></a>Uzņēmuma informācija
 
@@ -69,4 +68,3 @@ Varat arī konfigurēt ar kandidātu pieredzi saistītās opcijas. Piemēram, vi
 Varat arī iestatīt piedāvājumu beigu datumu un pieprasīt tā ievērošanu. Ja iestatāt opcijas **Pieprasīt beigu datumu visiem piedāvājumiem** vērtību **Jā**, piedāvājumu derīgums beidzas, kad ir pagājis jūsu norādītais stundu vai dienu skaits.
 
 Papildinformāciju par piedāvājumu pārvaldību skatiet tēmā [Piedāvājumu pārvaldības iestatīšana](./offer-setup.md).
-

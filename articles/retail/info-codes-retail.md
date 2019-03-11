@@ -1,13 +1,13 @@
 ---
-title: "Informācijas kodi un informācijas kodu grupas"
-description: "Šajā rakstā ir sniegts pārskats par informācijas kodiem, informācijas kodu grupām un par to, kā tos izmantot."
+title: Informācijas kodi un informācijas kodu grupas
+description: Šajā rakstā ir sniegts pārskats par informācijas kodiem, informācijas kodu grupām un par to, kā tos izmantot.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340825"
 ---
-
 # <a name="info-codes-and-info-code-groups"></a>Informācijas kodi un informācijas kodu grupas
 
 [!include [banner](includes/banner.md)]
@@ -43,7 +42,7 @@ Infokodi nodrošina veidu, kā iegūt datus pārdošanas punkta (POS) reģistrā
 
 ## <a name="info-codes-group"></a>Infokodu grupa
 
-Programmatūrā Dynamics 365 for Retail varat izveidot infokodu grupas. Infokodu grupas papildina lietošanas iespēju elastību, ļaujot definēt mazāku skaitu informācijas kodu un pēc tam tos izmantot daudzveidīgāk. Infokodu grupas varat izmantot tālāk aprakstītajos veidos.
+Programmā Dynamics 365 for Retail varat izveidot infokodu grupas. Infokodu grupas papildina lietošanas iespēju elastību, ļaujot definēt mazāku skaitu informācijas kodu un pēc tam tos izmantot daudzveidīgāk. Infokodu grupas varat izmantot tālāk aprakstītajos veidos.
 
 - Definējiet mazāku skaitu infokodu un ērti izmantojiet tos atkārtoti. Infokodu grupās iekļautajiem infokodiem nav iepriekš definētu atkarību no citiem infokodiem. Vienu un to pašu infokodu varat iekļaut vairākās infokodu grupās, un pēc tam izmantot prioritātes noteikšanu, lai tos pašus infokodus sniegtu katrai konkrētajai situācijai vispiemērotākajā secībā.
 - Saistiet informācijas kodus ar citiem informācijas kodiem vai informācijas kodu grupām, lai apkopotu informāciju par preci vai darījumu jums nepieciešamajā veidā, bez nepieciešamības definēt atsevišķu informācijas kodu vai piesaistīt informācijas kodu katram scenārijam.
@@ -57,4 +56,3 @@ Varat saistīt infokodus, lai pēc viena infokoda aktivizēšanas uzreiz tiktu a
 **2. piemērs: infokodu piesaistīšana infokodu grupām**
 
 Kad pārdodat noteiktas preces, piemēram, mobilās ierīces, jūs parasti vēlaties iegūt noteiktu informācijas kopumu, piemēram, tālruņa numuru, mobilās ierīces identifikatoru (MEID) un sērijas numuru. Tomēr vēlaties arī planšetdatoriem iegūt citādu informāciju nekā mobilajam tālrunim. Varat iestatīt informācijas kodu grupu, kas ietver uzvednes par tālruņa numuru, MEID un sērijas numuru, un pēc tam saistīt šo informācijas kodu grupu ar atsevišķu informācijas kodu. Kad tiek aktivizēts precei raksturīgais infokods, šo infokodu grupu var aktivizēt kā nākamo, ļaujot jums iegūt kopējos datus bez nepieciešamības definēt vairākas saistītu infokodu kopas katrai ierīcei.
-

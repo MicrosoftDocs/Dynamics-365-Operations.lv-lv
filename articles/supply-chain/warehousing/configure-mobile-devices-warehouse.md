@@ -1,13 +1,13 @@
 ---
-title: "Mobilo ierīču iestatīšana darbam noliktavā"
-description: "Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē."
+title: Mobilo ierīču iestatīšana darbam noliktavā
+description: Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347955"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
 [!include [banner](../includes/banner.md)]
@@ -174,7 +173,7 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 </tr>
 <tr>
 <td>Numura zīmes ielāde</td>
-<td>Izmantojiet šo opciju, kad iestatāt noliktavu pirmo reizi. Skenējiet visas noliktavas vienības visos noliktavas novietojumos. Novietojumiem ir jābūt atkarīgiem no noliktavas vienības. Šo opciju nevar izmantot, ja krājumu rezervēšanas hierarhijā vienums <strong>Sērijas numurs</strong> vai <strong>Partijas numurs</strong> ir novietots virs vienuma <strong>Novietojums</strong>.</td>
+<td>Izmantojiet šo opciju, pirmo reizi iestatot noliktavu. Skenējiet visas noliktavas vienības visos noliktavas novietojumos. Novietojumiem ir jābūt atkarīgiem no noliktavas vienības. Šo opciju nevar izmantot, ja krājumu rezervēšanas hierarhijā vienums <strong>Sērijas numurs</strong> vai <strong>Partijas numurs</strong> atrodas virs vienuma <strong>Vieta</strong>.</td>
 </tr>
 <tr>
 <td>Cikla inventarizācija</td>
@@ -213,7 +212,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 </tr>
 <tr class="even">
 <td>Sistēmas noteikts</td>
-<td>Programmatūra Microsoft Dynamics 365 for Finance and Operations kontrolē darbiniekam piešķirtā darba tipu un secību, kādā darbinieks veic šo darbu. Kad atlasāt šo opciju, darbību rūtī varat noklikšķināt uz <strong>Sistēmā noteikts darbs</strong>, lai atvērtu lapu <strong>Sistēmā noteikta kārtošanas secība</strong>, kur varat iestatīt darba kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks šo darbu veid. Varat pievienot tik daudz kritēriju, cik nepieciešams.</td>
+<td>Programma Microsoft Dynamics 365 for Finance and Operations kontrolē nodarbinātajam piešķirtā darba tipu un secību, kādā nodarbinātais veic šo darbu. Kad atlasāt šo opciju, darbību rūtī varat noklikšķināt uz <strong>Sistēmā noteikts darbs</strong>, lai atvērtu lapu <strong>Sistēmā noteikta kārtošanas secība</strong>, kur varat iestatīt darba kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks šo darbu veid. Varat pievienot tik daudz kritēriju, cik nepieciešams.</td>
 </tr>
 <tr class="odd">
 <td>Lietotāja noteikts</td>
@@ -225,7 +224,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 </tr>
 <tr class="odd">
 <td>Sistēmas grupēšana</td>
-<td>Programmatūra Microsoft Dynamics 365 for Finance and Operations grupē darbiniekam paredzēto darbu, pamatojoties uz norādīto lauku. Piemēram, izdošanas darbs tiek grupēts, kad darbinieks skenē sūtījuma ID, kravas ID vai jebkuru vērtību, ar kuru var saistīt katru darba vienību. Ja atlasāt šo opciju, ir nepieciešams aizpildīt tālāk norādītos laukus.
+<td>Programma Microsoft Dynamics 365 for Finance and Operations grupē nodarbinātā darbu, pamatojoties uz norādītu lauku. Piemēram, izdošanas darbs tiek grupēts, kad darbinieks skenē sūtījuma ID, kravas ID vai jebkuru vērtību, ar kuru var saistīt katru darba vienību. Ja atlasāt šo opciju, ir nepieciešams aizpildīt tālāk norādītos laukus.
 <ul>
 <li><strong>Sistēmas grupēšanas lauks</strong> — atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
 <li><strong>Sistēmas grupēšanas etiķete</strong> — ievadiet tekstu, lai norādītu darbiniekam, kas ir jāskenē, lai grupētu darbu.</li>
@@ -238,7 +237,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 <li><strong>Validēts, lietotāja noteikts lauks</strong> — atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
 <li><strong>Validēta, lietotāja noteikta etiķete</strong> — ievadiet tekstu, lai norādītu darbiniekam, kas ir jāskenē, kad izdošanas darbu grupē sistēma.</li>
 </ul>
-Šī opcija ir noderīga, piemēram, ja ir paredzēts iekraut vairākas paletes. Ja atlasāt lauka <strong>Validēts, lietotāja noteikts</strong> vērtību <strong>LoadId</strong>, darbinieks var izdot jebkuru ar kravu saistīto paleti Ja darbinieks skenē krājumu, kas nav saistīts ar kravu, viņš saņem kļūdas ziņojumu.</td>
+Šī opcija ir noderīga, piemēram, ja ir paredzēts iekraut vairākas paletes. Ja atlasāt lauka <strong>Validēts, lietotāja noteikts</strong> vērtību <strong>LoadId</strong>, darbinieks var izdot jebkuru ar kravu saistīto paleti Ja nodarbinātais skenē krājumu, kas nav saistīts ar kravu, tiek parādīts kļūdas ziņojums.</td>
 </tr>
 <tr class="odd">
 <td>Klastera izdošana</td>
@@ -246,7 +245,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 </tr>
 <tr class="even">
 <td>Cikla inventarizācijas grupēšana</td>
-<td>Darbinieks atlasa zonu, darba pūlu vai novietojumu, un programmatūra Microsoft Dynamics 365 for Finance and Operations piešķir darbu, pamatojoties uz atlasi. Ja atlasāt šo opciju, varat darbību rūtī noklikšķināt uz <strong>Cikla inventarizācija</strong>, lai norādītu papildu parādāmo informāciju, kā arī varat norādīt, cik reižu darbiniekam ir jāatkārto inventarizācija, ja tiek konstatēta atšķirība.</td>
+<td>Nodarbinātais atlasa zonu, darba pūlu vai vietu, un programma Microsoft Dynamics 365 for Finance and Operations piešķir darbu, pamatojoties uz atlasi. Ja atlasāt šo opciju, varat darbību rūtī noklikšķināt uz <strong>Cikla inventarizācija</strong>, lai norādītu papildu parādāmo informāciju, kā arī varat norādīt, cik reižu darbiniekam ir jāatkārto inventarizācija, ja tiek konstatēta atšķirība.</td>
 </tr>
  <tr class="odd">
 <td>Transporta iekraušana</td>
@@ -282,7 +281,7 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Noenkuroja pēc</td>
-<td>Ja izmantojat noenkurošanu, ir jānorāda, vai vēlaties noenkurot pēc sūtījuma vai kravas.</td>
+<td>Ja izmantojat noenkurošanu, ir jānorāda, vai noenkurošana ir jāveic pēc sūtījuma vai kravas.</td>
 </tr>
 <tr class="even">
 <td>Audita veidnes ID</td>
@@ -306,11 +305,11 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Atspējot cikla inventarizācijas robežvērtības</td>
-<td>Atlasiet šo opciju, lai ignorētu cikla inventarizācijas robežvērtības. Ja atlasāt šo opciju, cikla inventarizācijas darbs netiek izveidots, ja tiek pārsniegtas robežvērtības.</td>
+<td>Atlasiet šo opciju, lai ignorētu cikla inventarizācijas robežvērtības. Ja atlasāt šo opciju un tiek pārsniegtas robežvērtības, netiek izveidots cikla inventarizācijas darbs.</td>
 </tr>
 <tr class="even">
 <td>Parādīt partijas metodes kodu</td>
-<td>Atlasiet šo opciju, lai attēlotu partijas atgriešanas metodes kodus. Piemēram, var tikt rādīti partijas atgriešanas metodes kodi, kad tiks saņemta atgriezta partija. Pēc tam darbinieki var novērtēt partijas statusu vai kvalitāti un atlasīt atbilstošo kodu. Partijas atgriešanas metodes kodā ietvertie noteikumi nosaka, vai partija būs pieejama citiem noliktavas procesiem. Ja neatlasāt šo opciju, tiek izmantots kāds no tālāk norādītajiem partijas atgriešanas metodes kodiem.
+<td>Atlasiet šo opciju, lai attēlotu partijas atgriešanas metodes kodus. Piemēram, var tikt rādīti partijas atgriešanas metodes kodi, kad tiks saņemta atgriezta partija. Pēc tam darbinieki var novērtēt partijas statusu vai kvalitāti un atlasīt atbilstošo kodu. Partijas atgriešanas metodes kodā ietvertie noteikumi nosaka, vai partija būs pieejama citiem noliktavas procesiem. Ja neatlasāt šo opciju, tiek izmantots viens no tālāk norādītajiem partijas atgriešanas metodes kodiem.
 <ul>
 <li>Ja saņemat jaunu partijas numuru, tiek izmantots noklusējuma partijas atgriešanas metodes kods, kas ir norādīts krājumu modeļu grupai</li>
 <li>Tiek izmantots tas partijas atgriešanas metodes kods, kas jau ir piešķirts partijai</li>
@@ -334,7 +333,7 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Grupēt izvietošanu</td>
-<td>Atlasiet šo opciju, lai grupētu izvietošanas darbu. Šī opcija ir pieejama tad, ja darbu ir grupējis darbinieks vai programmatūra Microsoft Dynamics 365 for Finance and Operations. Kad darbinieks ir pabeidzis visu izdošanas darbu grupā, tai pašai grupai tiek izveidots izvietošanas darbs.</td>
+<td>Atlasiet šo opciju, lai grupētu izvietošanas darbu. Šī opcija ir pieejama tad, ja nodarbinātais vai programma Microsoft Dynamics 365 for Finance and Operations ir grupējusi darbu. Kad darbinieks ir pabeidzis visu izdošanas darbu grupā, tai pašai grupai tiek izveidots izvietošanas darbs.</td>
 </tr>
 <tr class="even">
 <td>Krājumu korekciju veidi</td>
@@ -357,8 +356,8 @@ Tabulā ir sniegts šo opciju apraksts.
 <td>Norādiet, vai darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Pieejamas šādas opcijas
 <ul>
 <li><strong>Nav</strong> — darbinieks var izdot jebkuru novietojumā esošo partiju. Darbinieks nesaņem nekādu ziņojumu.</li>
-<li><strong>Brīdināt</strong> — darbinieks var izdot jebkuru novietojumā esošo partiju, taču, ja tā nav vecākā partija, tiek parādīts brīdinājuma ziņojums.</li>
-<li><strong>Uzspiest</strong> — darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Ja izdotā partija nav vecākā partija, darbinieks saņem kļūdas ziņojumu. <strong>Piezīme.</strong> Šī opcija darbojas tikai tad, ja krājumam piešķirtajā rezervēšanas hierarhijā vienums <strong>Partijas numurs</strong> atrodas zem vienuma <strong>Novietojums</strong>.</li>
+<li><strong>Brīdināt</strong> — nodarbinātais var izdot jebkuru vietā esošo partiju, taču, ja tā nav vecākā partija, tiek parādīts brīdinājuma ziņojums.</li>
+<li><strong>Uzspiest</strong> — darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Ja tā nav vecākā partija, nodarbinātais saņem kļūdas ziņojumu. <strong>Piezīme.</strong> Šī opcija darbojas tikai tad, ja krājumam piešķirtajā rezervēšanas hierarhijā vienums <strong>Partijas numurs</strong> atrodas zem vienuma <strong>Novietojums</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -367,11 +366,11 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="even">
 <td>Sistēmas grupēšanas lauks</td>
-<td>Atlasiet lauku, kas nosaka, kā programmatūra Microsoft Dynamics 365 for Finance and Operations grupēs darbinieku veikto izdošanas darbu. Piemēram, ja atlasīsiet lauku <strong>ShipmentId</strong>, darbinieks skenēs sūtījuma ID, lai grupētu izdošanas darbu. Pēc tam viss ar sūtījumu saistītais darbs tiks piešķirts darbiniekam. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Ir arī jāievada teksts laukā <strong>Sistēmas grupēšanas etiķete</strong>, lai norādītu darbiniekam, kas ir jāskenē.</td>
+<td>Atlasiet lauku, lai noteiktu, kā programma Microsoft Dynamics 365 for Finance and Operations grupēs nodarbināto izdošanas darbu. Piemēram, ja atlasīsiet lauku <strong>ShipmentId</strong>, darbinieks skenēs sūtījuma ID, lai grupētu izdošanas darbu. Pēc tam viss ar sūtījumu saistītais darbs tiks piešķirts darbiniekam. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Ir arī jāievada teksts laukā <strong>Sistēmas grupēšanas etiķete</strong>, lai norādītu darbiniekam, kas ir jāskenē.</td>
 </tr>
 <tr class="odd">
 <td>Sistēmas grupēšanas etiķete</td>
-<td>Ievadiet tekstu, tiek rādīts darbiniekam, lai norādītu, kas ir jāskenē, ja programmatūra Microsoft Dynamics 365 for Finance and Operations grupē izdošanas darbu. Piemēram, ja izmantojat lauku <strong>ShipmentId</strong>, lai grupētu izdošanas darbu pēc sūtījuma, varat šajā laukā ievadīt vērtību <strong>Sūtījuma ID</strong>. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Turklāt laikā <strong>Sistēmas grupēšanas lauks</strong> ir jāatlasa lauks, pēc kura grupēt.</td>
+<td>Ievadiet tekstu, lai norādītu nodarbinātajam, kad ir jāskenē, ja programma Microsoft Dynamics 365 for Finance and Operations grupē izdošanas darbu. Piemēram, ja izmantojat lauku <strong>ShipmentId</strong>, lai grupētu izdošanas darbu pēc sūtījuma, varat šajā laukā ievadīt vērtību <strong>Sūtījuma ID</strong>. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Turklāt laikā <strong>Sistēmas grupēšanas lauks</strong> ir jāatlasa lauks, pēc kura grupēt.</td>
 </tr>
 <tr class="even">
 <td>Lietot noklusējuma datus</td>
@@ -387,13 +386,13 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Darba veidnes kods</td>
-<td>Atlasiet darba veidni, kurā procesam tiks izveidots darbs. Piemēram, ja saņemat krājumu kādam pirkšanas pasūtījumam, izvietošanas darbs tiks ģenerēts, pamatojoties uz darba veidni. Ja neatlasāt darba veidni, programmatūra Microsoft Dynamics 365 for Finance and Operations piešķir veidni, pamatojoties uz vaicājuma kritērijiem. Plašāku informāciju par darbu veidnēm skatiet sadaļā <a href="control-warehouse-location-directives.md">Noliktavas darbu kontrolēšana ar darba veidnēm un novietojuma direktīvām</a>.</td>
+<td>Atlasiet darba veidni, kurā procesam tiks izveidots darbs. Piemēram, ja saņemat krājumu kādam pirkšanas pasūtījumam, izvietošanas darbs tiks ģenerēts, pamatojoties uz darba veidni. Ja neatlasāt darba veidni, programma Microsoft Dynamics 365 for Finance and Operations piešķir veidni, pamatojoties uz vaicājuma kritērijiem. Plašāku informāciju par darbu veidnēm skatiet sadaļā <a href="control-warehouse-location-directives.md">Noliktavas darbu kontrolēšana ar darba veidnēm un novietojuma direktīvām</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Pieprasīšana, lai darbinieki, izdodot krājumus, apstiprinātu preci, novietojumu vai daudzumu
-Varat iestatīt darba apstiprinājumus, kas nosaka, ka darbiniekam, strādājot noliktavā, ir jāreģistrē novietojums vai daudzums, izmantojot mobilo ierīci. Darba apstiprinājumi palīdz nodrošināt, ka darbinieks atrodas pareizajā novietojumā un strādā ar pareizo krājumu daudzumu. Varat arī programmatūrā Microsoft Dynamics 365 for Finance and Operations iespējot automātisku darbinieka veiktās reģistrācijas apstiprināšanu. Ja iespējojat automātisko apstiprināšanu, nevarat pieprasīt arī novietojuma vai daudzuma apstiprinājumus. Darba apstiprinājumos tiek ietvertas arī preces un preču varianti. Turklāt varat arī reģistrēt apstiprinājumus, skenējot svītrkodu. Lai apstiprinātu preces un preču variantus, jums jāievada preces vai preces varianta ID. Šis ID var būt preces ID, preces meklēšanas ID, ārējais ID, GTIN vai svītrkods. Pēc tam, kad ievadīsiet ID vai noskenēsiet svītrkodu, mobilajā ierīcē tiks parādītas preces varianta dimensijas. 
+Varat iestatīt darba apstiprinājumus, kas nosaka, ka darbiniekam, strādājot noliktavā, ir jāreģistrē novietojums vai daudzums, izmantojot mobilo ierīci. Darba apstiprinājumi palīdz nodrošināt, ka darbinieks atrodas pareizajā novietojumā un strādā ar pareizo krājumu daudzumu. Varat arī iespējot automātisku darbinieka reģistrācijas apstiprināšanu programmā Microsoft Dynamics 365 for Finance and Operations. Ja iespējojat automātisko apstiprināšanu, nevarat pieprasīt arī novietojuma vai daudzuma apstiprinājumus. Darba apstiprinājumos tiek ietvertas arī preces un preču varianti. Turklāt varat arī reģistrēt apstiprinājumus, skenējot svītrkodu. Lai apstiprinātu preces un preču variantus, jums jāievada preces vai preces varianta ID. Šis ID var būt preces ID, preces meklēšanas ID, ārējais ID, GTIN vai svītrkods. Pēc tam, kad ievadīsiet ID vai noskenēsiet svītrkodu, mobilajā ierīcē tiks parādītas preces varianta dimensijas. 
 
 Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot darba apstiprinājumus.
 
@@ -420,6 +419,5 @@ Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot 
 
 [Mobilās ierīces izvēlnes vienuma iestatīšana saņemto krājumu reģistrēšanai (uzdevuma ceļvedis)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Krājumu statusu lietošanas priekšrocības](../inventory/inventory-statuses.md)
-
 
 

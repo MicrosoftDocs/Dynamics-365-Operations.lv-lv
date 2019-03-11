@@ -1,13 +1,13 @@
---- 
-title: "Darbinieku savainojumu un slimību informācijas uzturēšana"
-description: "Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšana, jo šeit tiek izmantota daļa iestatīšanas informācijas."
+---
+title: Darbinieku savainojumu un slimību informācijas uzturēšana
+description: Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšana, jo šeit tiek izmantota daļa iestatīšanas informācijas.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332614"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Darbinieku savainojumu un slimību informācijas uzturēšana
 
@@ -92,5 +92,4 @@ Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšan
     * Piemērs: rentgena uznēmums apliecina lūzumu, jālieto šina  
 36. Noklikšķiniet uz Saglabāt.
     * Incidenta statusu var atjaunināt jebkurā laikā.  Iestatīt incidentam statusu Aktīvs, ja trauma vai slimība vēl tiek ārstēts.  Slēdzgtam incidentam var tikai pievienot vai noņemt ar to saistītās izmaksas, ārstēšanu vai sistematizāciju.  Lai modificētu citu informāciju, incidents atkārtoti jāaktivizē.  
-
 

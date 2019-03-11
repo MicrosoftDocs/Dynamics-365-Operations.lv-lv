@@ -1,13 +1,13 @@
 ---
-title: "Anketu veidošana"
-description: "Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot."
+title: Anketu veidošana
+description: Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305324"
 ---
-
 # <a name="design-questionnaires"></a>Anketu veidošana
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ Numuru sēriju kodi tiek izmantoti, lai kārtotu jautājumus un atbildes. Pamato
 Lai varētu izveidot savus datus, jums ir jādefinē visi parametri. Anketas parametru iestatījumus varat modificēt jebkurā laikā.
 
 ## <a name="questionnaire-components"></a>Anketas komponenti
-Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu. Ja vēlaties, anketas jautājumus varat grupēt rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
+Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu. Pēc izvēles varat grupēt aptaujas jautājumus rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -238,5 +237,4 @@ Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jaut�
 [Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
-
 

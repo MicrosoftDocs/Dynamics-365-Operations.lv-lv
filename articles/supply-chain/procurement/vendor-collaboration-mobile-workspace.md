@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru sadarbības mobilā darbvieta"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Kreditoru sadarbība. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām."
+title: Kreditoru sadarbības mobilā darbvieta
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Kreditoru sadarbība. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358650"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Kreditoru sadarbība**. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
 
 ## <a name="overview"></a>Pārskats 
-Mobilā darbvieta **Kreditoru sadarbība** kreditoriem pastāvīgi nodrošina informāciju par jaunajiem pirkšanas pasūtījumiem, lai viņi varētu skatīt pirkšanas pasūtījumus un pēc tam atbildēt uz tiem Microsoft Dynamics 365 for Finance and Operations tīmekļa klientā. 
+Mobilā darbvieta **Kreditoru sadarbība** kreditoriem pastāvīgi nodrošina informāciju par jaunajiem pirkšanas pasūtījumiem, lai viņi varētu redzēt pirkšanas pasūtījumus un uz tiem reaģēt Microsoft Dynamics 365 for Finance and Operations tīmekļa klientā. 
 
 >[!NOTE]
 > Mobilā darbvieta ir jālieto kā papildinājums kreditoru sadarbības tīmekļa interfeisam, nevis kā tā aizstājējs. 
@@ -60,25 +59,25 @@ Mobilā darbvieta **Kreditoru sadarbība** kreditoram ļauj veikt tālāk norād
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi 
-Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar Platformas 3. atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar Platformas 3. atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
+Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
 
 <table>
 <thead>
 <tr class="header">
 <th>Priekšnoteikumi</th>
 <th>Loma</th>
-<th>Apraksts</th>
+<th>apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ja izmantojat Platformas 3. atjauninājumu, ir jāievieš KB 3216943.</td>
+<td>Ja izmantojat 3. platformas atjauninājumu, ir jāievieš KB 3216943.</td>
 <td>Sistēmas administrators</td>
-<td>KB 3216943 ir binārais atjauninājums, kas ir nepieciešams, ja izmantojat Platformas 3. atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
+<td>KB 3216943 ir binārais atjauninājums, kas ir nepieciešams, ja izmantojat 3. platformas atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
 <li>Lejupielādējiet KB 3216943 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Instalējiet bināro atjauninājumu, kas ir nodrošināts kā izvietojama pakotne. Informāciju par to, kā lietot izvietojamu pakotni, skatiet sadaļā <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietot izvietojamu pakotni</a>.</li>
@@ -120,7 +119,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 4.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 5.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
@@ -171,4 +170,3 @@ Tiek rādītas visas pasūtījuma rindas atbildē veiktās izmaiņas. Taču aug�
 
 ### <a name="open-confirmed-orders"></a>Atvērtie apstiprinātie pasūtījumi
 Kad debitors apstiprina pirkšanas pasūtījumu (t.i., pirkšanas pasūtījuma statuss mainās uz **Apstiprināts**), tas tiek parādīts atvērto apstiprināto pasūtījumu sarakstā. Tas šajā sarakstā paliek, līdz debitors to reģistrē kā saņemtu.
-

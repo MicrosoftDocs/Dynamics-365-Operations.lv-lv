@@ -1,33 +1,32 @@
 ---
-title: "Elektr. ziņojumapm."
-description: "Šajā tēmā sniegts apsk. un iestat. inf. attiec. uz elektr. ziņojumapm. progr. Microsoft Dynamics 365 for Finance and Operations."
+title: Elektr. ziņojumapm.
+description: Šajā tēmā ir sniegts apskats par elektronisko ziņojumapmaiņu un tās iestatīšanai nepieciešamo informāciju programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357937"
 ---
-
-# <a name="electronic-messaging"></a>Elektr. ziņojumapm.
+# <a name="electronic-messaging"></a>Elektroniskā ziņojumapmaiņa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegts apsk. un iestat. inf. attiec. uz elektr. ziņojumapm. progr. Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir sniegts apskats par elektronisko ziņojumapmaiņu un tās iestatīšanai nepieciešamo informāciju programmā Microsoft Dynamics 365 for Finance and Operations.
 
 Nesen valdības un likumdošanas iestādes dažādās valstīs un reģionos visā pasaulē ieviesa pārskatu veidošanas prasības uzņēmumiem, kas reģistrēti attiecīgajās valstīs vai reģionos. Prasību mērķis ir nodrošināt iespēju iegūt datus no minētajiem uzņēmumiem elektroniskā formātā tieši no sistēmām, kurās tika veikta to uzskaite, uzglabāšana un apstrāde.
 
@@ -39,7 +38,7 @@ Elektroniskā ziņojumapm. balstās uz šādiem elementiem:
 
 - **Elektroniskais ziņojums** — pārskats vai deklarācija, par ko ir jāziņo un/vai kas jānosūta iekšēji. Piemērs ir pārskats, ko nosūta nodokļu iestādei.
 - **Elektroniskā ziņojuma vienumi** — ieraksti, kas jāiekļauj ziņojumā, par kuru tiek ziņots.
-- **Elektroniska ziņojuma apstrāde** — saistītu vai nesaistītu darbību ķēde, kas ir jāpalaiž, lai apkopotu vajadzīgos datus, ģenerētu pārskatus, uzglabātu datus Microsoft Azure Blob krātuvē, pārsūtītu pārskatus ārpus sistēmas, iegūtu atbildes no sistēmas ārpuses un atjauninātu datu bāzi, pamatojoties uz saņemto informāciju.
+- **Elektroniskā ziņojumu apstrāde** — saistītu vai nesaistītu darbību ķēde, kas ir jāizpilda, lai savāktu nepieciešamos datus, ģenerētu pārskatus, uzglabātu datus Microsoft Azure Blob krātuvē, pārsūtītu pārskatus ārpus sistēmas, saņemtu atbildes no sistēmas ārpuses un atjauninātu datu bāzi, pamatojoties uz saņemto informāciju.
 
 Šajā attēlā ir parādīta elektroniskās ziņojumapmaiņas datu plūsma.
 
@@ -47,7 +46,7 @@ Elektroniskā ziņojumapm. balstās uz šādiem elementiem:
 
 Elektronisko ziņojumu funkcionalitāte atbalsta šādus scenārijus:
 
-- Manuāli izveidojiet ziņoj. un izveidojiet pārsk., kas balstīti uz dažādiem saistītiem eksportēšanas ER formātiem: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, teksts un Microsoft Word.
+- Manuāli izveidojiet ziņojumus un ģenerējiet pārskatus, pamatojoties uz dažādu veidu saistītajiem eksportēšanas ER formātiem: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, teksts un Microsoft Word.
 - Automātiski izveidojiet un apstrādājiet ziņojumus, kas balstīti uz inform., kas tika pieprasītas un iegūta no iestādes, izmantojot saistīto import. ER formātu.
 - Apkopojiet un apstrādājiet inf. no datu avota (Finance and Operations tabula) kā ziņojumu vienumus.
 - Glabājiet papildu inform. un novērtējiet dažādas vērtības, izsaucot īpaši definētas izpildāmās klases saistībā ar ziņojumiem vai ziņojumu krājumiem.
@@ -452,4 +451,3 @@ Tagad varat dzēst vai atjaunināt ziņojuma statusu. Lai atjaunin. ziņ. status
 ![Ziņojuma statusa atjaun.](media/update-status.png)
 
 Ziņojuma statuss tiek atjaunināts uz **Sagatavots**, un tagad var ģenerēt pārskatu, atlasot **Ģenerēt pārskatu**. Tiek ģenerēts pārskats, un ziņoj. statuss un darb. žurn. tiek atjaunināti. Lai skatītu ģenerēto pārskatu, atlasiet pogu **Pielikums** darbību rūtī.
-

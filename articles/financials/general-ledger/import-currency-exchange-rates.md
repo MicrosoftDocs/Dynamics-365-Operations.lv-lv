@@ -1,13 +1,13 @@
 ---
-title: "Importēt valūtas maiņas kursus"
-description: "Ja juridiskā persona ir saņēmusi rēķinus ārvalstu valūtās, ārvalstu valūta ir jākonvertē lokālajā valūtā. Tas nozīmē, ka ir nepieciešami jaunākie dažādu valūtu maiņas kursi. Šajā tēmā ir sniegts pārskats par iestatījumiem un apstrādi, kas ir nepieciešami, lai importētu ārvalstu valūtu maiņas kursus, kurus internetā ir publicējuši maiņas kursu nodrošinātāji, piemēram, Eiropas Centrālā banka un Krievijas Centrālā banka."
+title: Importēt valūtas maiņas kursus
+description: Ja juridiskā persona ir saņēmusi rēķinus ārvalstu valūtās, ārvalstu valūta ir jākonvertē lokālajā valūtā. Tas nozīmē, ka ir nepieciešami jaunākie dažādu valūtu maiņas kursi. Šajā tēmā ir sniegts pārskats par iestatījumiem un apstrādi, kas ir nepieciešami, lai importētu ārvalstu valūtu maiņas kursus, kurus internetā ir publicējuši maiņas kursu nodrošinātāji, piemēram, Eiropas Centrālā banka un Krievijas Centrālā banka.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333396"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Importēt valūtas maiņas kursus
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Ja juridiskā persona ir saņēmusi rēķinus ārvalstu valūtās, ārvalstu val
 Tālāk esošajās sadaļās ir aprakstīta informācijas plūsma, kas tiek izmantota ārvalstu valūtu maiņas kursu importēšanas iestatīšanai un apstrādei.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Maiņas kursu nodrošinātāja konfigurēšana
-Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas ir nepieciešama maiņas kursu nodrošinātājiem. Izmantojiet lapu **Konfigurēt maiņas kursu nodrošinātājus**, lai atlasītu maiņas kursu nodrošinātājus. Daži maiņas kursu nodrošinātāji ir ietverti Microsoft Dynamics 365 for Finance and Operations demonstrācijas datu kopā. Tālāk esošajā tabulā ir sniegts lapā pieejamo vadīklu apraksts.
+Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas ir nepieciešama maiņas kursu nodrošinātājiem. Izmantojiet lapu **Konfigurēt maiņas kursu nodrošinātājus**, lai atlasītu maiņas kursu nodrošinātājus. Microsoft Dynamics 365 for Finance and Operations demonstrācijas datu kopā ir ietverti maiņas kursu nodrošinātāji. Tālāk esošajā tabulā ir sniegts lapā pieejamo vadīklu apraksts.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +55,6 @@ Lapā **Valūtas maiņas kursi** varat importēt maiņas kursus no maiņas kursu
 | **Izveidot nepieciešamos valūtu pārus**    | Izmantojot šo izvēles rūtiņu, tiek kontrolēta valūtu pāru automātiskā izveide gadījumā, ja importētie valūtu pāri nepastāv. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem.                                                                                                                                                                                               |
 | **Ignorēt esošos maiņas kursus**   | Izmantojot šo izvēles rūtiņu, tiek kontrolēta valūtu pāra esošā maiņas kursa atjaunināšana gadījumā, ja jau pastāv maiņas kurss konkrētā datumā. Ja šī izvēles rūtiņa nav atzīmēta un jau pastāv cits maiņas kurss konkrētajos datumos, jaunais maiņas kurss netiek importēts.                                                                                       |
 | **Novērst importēšanu uz valsts svētku dienām** | Izmantojot šo izvēles rūtiņu, tiek kontrolēts tas, vai ir jāimportē maiņas kurss datumā, kas ir valsts svētku diena. Piemēram, ja šī izvēles rūtiņa ir atzīmēta un kā maiņas kursu nodrošinātājs tiek izmantota Eiropas Centrālā banka, sistēmā netiek atjaunināts maiņas kurss valsts svētku dienā, kas attiecas uz pašreizējo juridisko personu. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem. |
-
 
 
 

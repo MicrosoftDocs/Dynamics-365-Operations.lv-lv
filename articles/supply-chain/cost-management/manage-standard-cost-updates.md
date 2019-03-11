@@ -1,13 +1,13 @@
 ---
-title: "Standarta izmaksu atjauninājumu pārvaldība"
-description: "Standarta izmaksu datu atjauninājumus var pārvaldīt, izmantojot divas dažādas pieejas — vienas versijas pieeju vai divu versiju pieeju."
+title: Standarta izmaksu atjauninājumu pārvaldība
+description: Standarta izmaksu datu atjauninājumus var pārvaldīt, izmantojot divas dažādas pieejas — vienas versijas pieeju vai divu versiju pieeju.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367551"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Standarta izmaksu atjauninājumu pārvaldība
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Tālāk sniegtajā piemērā ir parādīts, kā vienas versijas un divu versiju 
 -   **Divu versiju pieeja izmaksu datu atjauninājumiem** — divu versiju pieejai nepieciešama papildu izmaksu aprēķināšanas versija, kas satur tikai izmaksu atjauninājumus. Šī versija identifikators ir 2016-STD-IZMAIŅAS. Izmaksu atjauninājumi tiek reģistrēti versijā 2016-STD-CHANGES, un tiem tiek iestatīts statuss Gaida. Ja tiek izmantota divu versiju pieeja, saražoto krājumu gaidāmo izmaksu MK aprēķiniem ir nepieciešams atkāpšanās datu avots. Tas ir tāpēc, ka papildu izmaksu aprēķināšanas versija 2016-STD-IZMAIŅAS satur tikai izmaksu datu apakškopu. Atkāpšanās var būt izteikta kā aktīvās izmaksas vai kā izmaksu aprēķināšanas versija 2016-STD, jo tās abas norāda versijā 2016-STD-IZMAIŅAS neietverto izmaksu datu avotu. Kad gaidāmās izmaksas kļūst aktīvas, izmaksu aprēķināšanas versija 2016-STD-IZMAIŅAS satur pašreizējās aktīvās izmaksas, kas ataino atjauninājumus, bet sākotnējā izmaksu aprēķināšanas versija 2016-STD paliek nemainīga. Ja tiek izmantota divu versiju pieeja, ir jāiestata sākotnējās izmaksu aprēķināšanas versijas bloķēšanas politikas, lai nepieļautu atjauninājumus. Papildu izmaksu aprēķināšanas versijai ir jāiestata tādas pašas bloķēšanas politikas, izņemot noteikto sākuma datumu un selektīvo bloķēšanas politiku izmantošanu, lai atļautu atjauninājumus. Noteiktajam sākuma datumam jātiek atjauninātam ar katru izmaiņu paketi, lai parādītu prognozēto aktivizēšanas datumu.
 
 Šajā piemērā tika izmantota viena papildu izmaksu aprēķināšanas versija, lai pārvaldītu atjauninājumus par 2016. gadu. Var izmantot vairākas izmaksu aprēķināšanas versijas, piemēram, atsevišķu versiju katram atjauninājumu paketei. Ja tiek izmantotas vairākas papildu izmaksu aprēķināšanas versijas, atkāpšanās ir jāizsaka kā aktīvās izmaksas, jo aktīvās izmaksas ir ietvertas vairākās izmaksu aprēķināšanas versijās.
-
 
 
 

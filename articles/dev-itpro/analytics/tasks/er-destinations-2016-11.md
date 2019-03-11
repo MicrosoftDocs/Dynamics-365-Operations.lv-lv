@@ -1,13 +1,13 @@
---- 
-title: "ER Konfigurēt adresātus"
-description: "Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem."
+---
+title: ER Konfigurēt adresātus
+description: Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309867"
 ---
 # <a name="er-configure-destinations"></a>ER Konfigurēt adresātus
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/14/2018
 
 Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DEMF. Juridiskas personas primārās adreses valsts\reģions ir Vācija, tomēr šai procedūrai var izmantot jebkuru juridisko personu. 
 
-Formāts, ko lieto šajā piemērā, ir ISO20022 pārvietošana kredītā, taču var izmantot jebkuru formātu, kas jau ir importēts. Ņemiet vērā, ka šī procedūra ir viena faila un adresāta iestatīšanas piemērs. Papildu informāciju par elektroniskās pārskatu veidošanas adresātu pārvaldību var atrast Dynamics 365 for Finance and Operations palīdzības vietnē.
+Formāts, ko lieto šajā piemērā, ir ISO20022 pārvietošana kredītā, taču var izmantot jebkuru formātu, kas jau ir importēts. Ņemiet vērā, ka šī procedūra ir viena faila un adresāta iestatīšanas piemērs. Papildu informāciju par elektroniskās pārskatu veidošanas adresātu pārvaldību var atrast Dynamics 365 for Finance and Operations palīdzībā.
 
 1. Dodieties uz Organizācijas administrēšana > Elektroniskie pārskati > Elektroniskās pārskatu veidošanas adresāts.
 2. Noklikšķiniet uz Jauns, lai izveidotu jaunu adresātu kopu attiecīgajam formātam.
@@ -60,5 +60,4 @@ Formāts, ko lieto šajā piemērā, ir ISO20022 pārvietošana kredītā, taču
 20. Noklikšķiniet uz OK.
 21. Ierakstiet vērtību laukā Tēma.
 22. Noklikšķiniet uz OK.
-
 

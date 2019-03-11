@@ -1,13 +1,13 @@
---- 
-title: "Pirkšanas pasūtījumu darba veidnes iestatīšana"
-description: "Šajā procedūrā aprakstīta vienkāršas darba veidnes izveide, kuru paredzēts izmantot saņemto krājumu izvietošanai."
+---
+title: Pirkšanas pasūtījumu darba veidnes iestatīšana
+description: Šajā procedūrā aprakstīta vienkāršas darba veidnes izveide, kuru paredzēts izmantot saņemto krājumu izvietošanai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d737f9dfd1888602266a87853e54407618ae2781
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbbe019bdca2d5182466a20370418a14032fe63d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318032"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Pirkšanas pasūtījumu darba veidnes iestatīšana
 
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
     * Izdošanas un izvietošanas instrukcijas ir kopa. Katrai izdošanas/izvietošanas kopai ir jābūt vienai un tai pašai darba klasei. Izmantojiet to pašu darba klasi, kuru norādījāt izdošanas instrukcijai.  
 7. Noklikšķiniet uz Saglabāt.
     * Pievērsiet uzmanību, ka tagad ir atzīmēta izvēles rūtiņa Derīgs.  
-
 

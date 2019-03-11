@@ -1,13 +1,13 @@
 ---
-title: "Automātiska nosegšana un prioritāšu noteikšana"
-description: "Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu."
+title: Automātiska nosegšana un prioritāšu noteikšana
+description: Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318975"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Automātiska nosegšana un prioritāšu noteikšana
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 
-Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt sedzamās transakcijas, vai arī programmatūrā Microsoft Dynamics 365 for Finance and Operations šīs transakcijas var tikt atlasītas automātiski, izmantojot automātiskās segšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
+Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt nosedzamās transakcijas, var arī programma Microsoft Dynamics 365 for Finance and Operations var atlasīt transakcijas automātiski, izmantojot automātiskās nosegšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
 
 -   Lietotāja definētas nosegšanas prioritātes
 -   Automātiskā nosegšana pēc noklusējuma
@@ -44,9 +43,9 @@ Turpmākajās sadaļās ir aprakstīts, kā transakcijas tiek nosegtas katrai me
 
 | Transakcija   | Datums        | Summa | Nosacījumi atlaidei skaidrā naudā | Termiņatlaides datums | Komentāri                                                                                                                                                                                      |
 |---------------|-------------|--------|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rēķins 1     | 15.augusts   | 100,00 | 2%14, neto 30        | 29.augusts          |                                                                                                                                                                                               |
-| Rēķins 2     | 1.septembris | 250,00 | 2%14, neto 30        | 15.septembris       |                                                                                                                                                                                               |
-| Rēķins 3     | 15.oktobris  | 500,00 | 2% 14/neto 30        | 29.oktobris         |                                                                                                                                                                                               |
+| Rēķins 1     | 15.augusts   | 100,00 | 2%14, neto 30        | 29.augusts          |                                                                                                                                                                                               |
+| Rēķins 2     | 1.septembris | 250,00 | 2%14, neto 30        | 15.septembris       |                                                                                                                                                                                               |
+| Rēķins 3     | 15. oktobris  | 500,00 | 2% 14/neto 30        | 29.oktobris         |                                                                                                                                                                                               |
 | Procentu paziņojums | 15.oktobris  | 7,00   |                     |                    | Šis procentu paziņojums ir par 1. un 2. rēķinu. Summa tiek aprēķināta kā 2 procenti no summām, kuru apmaksa ir nokavēta par 30 dienām vai vairāk. Piemēram, 0,02 × (100,00 + 250,00) = 7,00. |
 
 ## <a name="user-defined-settlement-priority"></a>Lietotāja definētas nosegšanas prioritātes
@@ -79,7 +78,6 @@ Ja nav nevienas lietotāja definētas nosegšanas prioritātes, transakcijas tie
 | Rēķins 2     | 01.09.2015.   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Rēķins 3     | 15.10.2015. |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Procentu paziņojums | 15.10.2015. |         | 7,00                           | 0,00             | 0,00    | USD      |
-
 
 
 

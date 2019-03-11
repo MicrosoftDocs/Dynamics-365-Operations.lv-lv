@@ -1,13 +1,13 @@
 ---
-title: "ES pārdošanas saraksta pārskats"
-description: "Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu."
+title: ES pārdošanas saraksta pārskats
+description: Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371324"
 ---
-
 # <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Izmantojot ESL, katras ES dalībvalsts nodokļu iestādes var pārbaudīt, vai P
 ES pārdošanas saraksta pārskatam var veikt šādus uzdevumus:
 
 -   Apkopot informāciju par EK tirdzniecības darbībām. EK tirdzniecības darbība var būt pārdošanas rēķins, brīva teksta rēķins, projekta rēķins vai kreditora rēķins. Darbība ir identificēta, pamatojoties uz darījumu partnera valsti/reģionu. Dažādu veidu EK tirdzniecības darbības tiek apkopotas ES pārdošanas saraksta tabulā, kur tās tiek attēlotas kopējā formā. Katrs ieraksts ESL tabulā atspoguļo vienu darījumu un sastāv no darījumu partnera PVN maksātāja reģistrācijas numura, kā arī norādīto preču un pakalpojumu kopējā vērtība.
--   (Izvēles iespēja) Priekšskatīt **ES pārdošanas saraksta** pārskatu. Jūs varat apskatīt un pārbaudīt **ES pārdošanas saraksta** pārskatu norādītajam periodam Microsoft Excel darbgrāmatas formā.
+-   (Izvēles iespēja) Priekšskatīt **ES pārdošanas saraksta** pārskatu. Varat priekšskatīt un pārbaudīt pārskatu **ES pārdošanas saraksts** par norādīto periodu Microsoft Excel darbgrāmatas formātā.
 -   Izveidot **ES pārdošanas saraksta** pārskatu. **ES pārdošanas saraksta** pārskats tiek izveidots elektronisko faila īpašā formātā, kas ir specifisks katrai ES dalībvalstij. Parasti **ES pārdošanas saraksta** pārskats satur pamatinformāciju par pārskatu sniedzošu pusi, un piegādāto preču un pakalpojumu vērtības. Informācija tiek grupēta pēc valsts un numuru darījumu partnera PVN maksātāja reģistrācijas numura.
 -   Aizvērt ES pārdošanas saraksta pārskata periodu. Pēc tam, kad **ES pārdošanas saraksta** pārskats tiek izveidots un iesniegts iestādēm, jūs varat atzīmēt ESL tabulu kā **Slēgts**. Šīs darbības netiks iekļautas papildu pārskatos.
 
@@ -122,7 +121,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 <li>Cilne <strong>Valsts/reģiona parametri</strong>: identificējiet ES dalībvalstīs. Katrai ES dalībvalstij, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
 <li><strong>Valsts/reģions</strong> – atlasiet valsti/reģionu.</li>
-<li><strong>Valsts/reģiona tips</strong> – ja vērtība <strong>Valsts/reģions</strong> ir valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>Iekšzemes</strong>. Ja vērtība <strong>Valsts/reģions</strong> ir cita ES dalībvalsts, nevis valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>ES</strong>. Ja vērtība <strong>Valsts/reģions</strong> nav ES dalībvalsts, atlasiet <strong>Trešā valsts/reģions</strong>.</li>
+<li><strong>Valsts/reģiona tips</strong> – ja vērtība <strong>Valsts/reģions</strong> ir valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>Iekšzemes</strong>. Ja vērtība <strong>Valsts/reģions</strong> ir cita ES dalībvalsts, nevis valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>ES</strong>. Ja lauka <strong>Valsts/reģions</strong> vērtība nav ES dalībvalsts, atlasiet vienumu <strong>Trešā valsts/reģions</strong>.</li>
 </ul></li>
 <li>Cilne <strong>Numuru sērijas</strong>: rindā, kur vērtība <strong>Atsauce</strong> vērtība ir <strong>ES pārdošanas saraksts</strong>, atlasiet numuru sērijas kodu.</li>
 </ul></td>
@@ -158,7 +157,6 @@ Jūs varat izveidot pārskatu **ES pārdošanas saraksts**, izmantojot funkciju 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pārdošanas saraksta pārskata perioda aizvēršana
 
 Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts**), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
-
 
 
 

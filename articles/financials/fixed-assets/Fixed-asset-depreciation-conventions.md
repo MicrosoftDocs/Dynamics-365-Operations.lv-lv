@@ -1,13 +1,13 @@
 ---
-title: "Pamatlīdzekļu nolietojuma konvencijas"
-description: "Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojuma konvencijām."
+title: Pamatlīdzekļu nolietojuma konvencijas
+description: Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojuma konvencijām.
 author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337444"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Pamatlīdzekļu nolietojuma konvencijas
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Nolietojuma konvencijas var piešķirt pamatlīdzekļu grupas grāmatas iestatī
 | Puse mēneša (mēneša 15. datums) |                                                                                                                                                        Lai aprēķinātu nolietojuma atskaitījumus par gadu, kad īpašums nodots ekspluatācijā, reiziniet visa gada nolietojumu ar daļskaitli. Minētā daļskaitļa skaitītājs (augšējais skaitlis) ir pilno mēnešu skaits gadā, kurā īpašums ir lietošanā, pieskaitot 1/2 jeb (0,5). Saucējs (apakšējais skaitlis) ir 12. Ja īpašums tiek izslēgts pirms atkopšanas perioda beigām, izmantojiet tādu pašu metodi, lai aprēķinātu nolietojuma atskaitījumus par gadu, kurā veikta izslēgšana.                                                                                                                                                        |
 | Pusgads (gada sākums) |                                                                                                                                                                                                                                                          Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada pirmajā pusē, sāk aprēķināt nolietojumu gada (pilnā gada) pirmajā dienā. Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada otrajā pusē, sāk aprēķināt nolietojumu gada (pilnā gada) viduspunktā.                                                                                                                                                                                                                                                          |
 |   Puse gada (nākamais gads)   |                                                            Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada pirmajā pusē, sāk aprēķināt nolietojumu gada (pilnā gada) pirmajā dienā. Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada otrajā pusē, sāk aprēķināt nolietojumu nākamā gada pirmajā dienā. Pamatlīdzekļi, kas ir norakstīti gada pirmajā pusē, uzskatāmi par norakstītiem nolietojuma vajadzībām iepriekšējā gada pēdējā dienā. Nolietojums, kas grāmatots pašreizējā gadā, ir jāstornē vai jākoriģē. Pamatlīdzekļi, kas ir norakstīti otrajā gada pusē, uzskatāmi par norakstītiem nolietojuma vajadzībām norakstīšanas gada pēdējā dienā.                                                            |
-
 

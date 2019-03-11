@@ -1,13 +1,13 @@
---- 
+---
 title: 'Izmaksu elementu izveide  '
-description: "Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos."
+description: Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bbaf4f7533d51d554d838e8e9e2aa05ca451298a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e665fc53455e457a2488f4ec28ebb5b715d90eb
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321712"
 ---
 # <a name="create-cost-elements"></a>Izmaksu elementu izveide   
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos. Šajā procedūrā ir izskaidrots, kā izveidot izmaksu elementu, importējot galvenos kontus un izmantojot datu savienojumu. Lai izveidotu šo procedūru, tika izmantots demonstrācijas uzņēmums USMF. Šī procedūra ir paredzēta līdzeklim Izmaksu uzskaite, kas tika pievienots Dynamics 365 for Operations versijā 1611.
+Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos. Šajā procedūrā ir izskaidrots, kā izveidot izmaksu elementu, importējot galvenos kontus un izmantojot datu savienojumu. Lai izveidotu šo procedūru, tika izmantots demonstrācijas uzņēmums USMF. Šī procedūra ir paredzēta kā izmaksu uzskaites līdzeklis, kas tika pievienots Dynamics 365 for Operations versijai 1611.
 
 
 ## <a name="create-new-cost-elements"></a>Izveidot jaunus izmaksu elementus
@@ -57,5 +57,4 @@ Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos. Šajā proced
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>Skatīt importētos kontus kā izmaksu elementus
 1. Noklikšķiniet uz Skatīt dimensijas elementus.
     * Skatiet importētos virsgrāmatas kontus kā izmaksu elementus, uz kuriem var aizplūst izmaksas jūsu uzņēmumā.  
-
 

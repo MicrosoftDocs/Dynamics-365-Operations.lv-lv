@@ -1,37 +1,36 @@
 ---
-title: "Risinājumā Field Service ietverto līguma rēķinu sinhronizēšana ar brīva teksta rēķiniem risinājumā Finance and Operations"
-description: "Šajā tēmā aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Microsoft Dynamics 365 for Field Service ietverto līguma rēķinu sinhronizēšanai ar brīvā teksta rēķiniem risinājumā Microsoft Dynamics 365 for Finance and Operations."
+title: Risinājumā Field Service ietverto līguma rēķinu sinhronizēšana ar brīva teksta rēķiniem risinājumā Finance and Operations
+description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Field Service ietverto līgumu rēķinu sinhronizēšanai ar brīva teksta rēķiniem programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333258"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Risinājumā Field Service ietverto līguma rēķinu sinhronizēšana ar brīva teksta rēķiniem risinājumā Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Microsoft Dynamics 365 for Field Service ietverto līguma rēķinu sinhronizēšanai ar brīvā teksta rēķiniem risinājumā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Field Service ietverto līgumu rēķinu sinhronizēšanai ar brīva teksta rēķiniem programmā Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 
@@ -59,7 +58,7 @@ Lai varētu veikt līguma rēķinu sinhronizāciju, ir nepieciešama tālāk nor
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Rēķinus, kas izveidoti no līguma risinājumā Field Service, var sinhronizēt ar risinājumu Finance and Operations, izmantojot Common Data Service (CDS) datu integrācijas projektu. Šo rēķinu atjauninājumi tiks sinhronizēti ar brīvā teksta rēķiniem risinājumā Finance and Operations, ja brīvā teksta rēķinu uzskaites statuss ir **Apstrāde**. Pēc brīvā teksta rēķinu grāmatošanas risinājumā Finance and Operations un pēc uzskaites statusa atjaunināšanas uz **Pabeigts** vairs nav iespējams sinhronizēt atjauninājumus no Field Service.
+Rēķinus, kas ir izveidoti no līguma programmā Field Service, var sinhronizēt ar programmu Finance and Operations, izmantojot Common Data Service (CDS) datu integrācijas projektu. Šo rēķinu atjauninājumi tiks sinhronizēti ar brīvā teksta rēķiniem risinājumā Finance and Operations, ja brīvā teksta rēķinu uzskaites statuss ir **Apstrāde**. Pēc brīvā teksta rēķinu grāmatošanas risinājumā Finance and Operations un pēc uzskaites statusa atjaunināšanas uz **Pabeigts** vairs nav iespējams sinhronizēt atjauninājumus no Field Service.
 
 ## <a name="field-service-crm-solution"></a>Risinājums Field Service CRM
 
@@ -107,4 +106,3 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Līguma rēķini (no Field Service uz Fin and Ops): Rēķina rindas
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

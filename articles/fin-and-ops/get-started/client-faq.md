@@ -1,13 +1,13 @@
 ---
-title: "Bieži uzdodiet jautājumi par Finance and Operations klientu"
-description: "Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 for Finance and Operations klientu."
+title: Bieži uzdodiet jautājumi par Finance and Operations klientu
+description: Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 for Finance and Operations klientu.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,28 +17,27 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316721"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>Bieži uzdodiet jautājumi par Finance and Operations klientu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 for Finance and Operations klientu.
+Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 for Finance and Operations klientu.
 
 ## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Kāpēc netiek ielādēti simboli, kad izmantoju programmatūru Dynamics 365 for Finance and Operations?
 
 Jūsu pārlūkprogrammas drošības iestatījumi var liegt simbolu pareizu ielādēšanu. Lai atrisinātu šo problēmu, mēģiniet veikt šādas darbības:
 
-- Ja šī problēma rodas pārlūkprogrammā Internet Explorer, noklikšķiniet uz **Rīki** un pēc tam — uz **Interneta opcijas**. Pēc tam dialoglodziņā Interneta opcijas, cilnē **Konfidencialitāte** noklikšķiniet uz **Pielāgots līmenis** un pārliecinieties, ka ir atlasīta opcija **Fontu lejupielāde**.
+- Ja šī problēma rodas pārlūkprogrammā Internet Explorer, noklikšķiniet uz **Rīki** un pēc tam noklikšķiniet uz **Interneta opcijas**. Pēc tam dialoglodziņā Interneta opcijas, cilnē **Konfidencialitāte** noklikšķiniet uz **Pielāgots līmenis** un pārliecinieties, ka ir atlasīta opcija **Fontu lejupielāde**.
 - Pretējā gadījumā, iespējams, Dynamics 365 for Finance and Operations vietne ir jāpievieno uzticamo vietņu sarakstam.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Es labprāt izmantotu lenti, kāda bija pieejama programmā Dynamics AX 2012. Vai darbību rūšu cilnes ir iespējams turēt atvērtas visu laiku?
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Man pietrūkst lentes, kas bija pieejama programmā Dynamics AX 2012. Vai darbību rūšu cilnes ir iespējams turēt atvērtas visu laiku?
 
 Mēs plānojam drīzumā ieviest šo līdzekli. Tad lietotājiem būs iespēja izvēlēties, ka darbību rūtīs cilnes ir atvērtas visu laiku. Pretējā gadījumā, ja cilnes netiek izmantotas, tās tiek sakļautas, lai iegūtu vairāk ekrāna vietas lapai.
 
@@ -56,4 +55,3 @@ Opcija **Skatīt detalizētu informāciju** ir pieejama vairākos veidos:
 
 - Ja vadīklai ir pieejama iespēja **Skatīt detalizētu informāciju** un ja vadīklai ir vērtība, šī vērtība tiek parādīta kā hipersaite. Varat noklikšķināt uz hipersaites, lai atvērtu lappusi, kurā ir papildu informācija.
 - Funkcija **Skatīt detalizētu informāciju** ir pieejama arī Dynamics 365 for Finance and Operations īsinājumizvēlnēs. Papildinformāciju par to, kādos gadījumos tiek parādītas Dynamics 365 for Finance and Operations īsinājumizvēlnes, kad noklikšķināt ar labo peles pogu, skatiet iepriekšējā sadaļā.
-

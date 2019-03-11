@@ -1,13 +1,13 @@
 ---
-title: "Veiktspējas pārvaldība"
-description: "Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus."
+title: Veiktspējas pārvaldība
+description: Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305260"
 ---
-
 # <a name="performance-management"></a>Veiktspējas pārvaldība
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Ja **veiktspējas žurnāla** lapai piekļūstat no darbvietas **ESS**, tad šaj
 
 Veiktspējas žurnālu varat arī saistīt ar ārēju vietni, saglabājot šīs vietnes vietrādi URL. Ja žurnāls ir saistīts ar mērķiem vai veiktspējas pārskatiem, to ir iespējams arī saistīt ar vienu vai vairākiem šādiem elementiem. Ja veiktspējas žurnālam piekļūstat no lapas **MSS**, varat ievadīt to pašu informāciju, ko varat ievadīt darbinieka žurnālam. Papildus varat norādīt darbinieku, kam šis žurnāls tiek veidots. Varat izvēlēties, vai vadītāja žurnālu kopīgot ar jūsu darbinieku.
 
-### <a name="praise"></a>Uzslava
+### <a name="send-feedback"></a>Atsauksmju sūtīšana
 
-Veiktspējas žurnālā ir papildu līdzeklis ar nosaukumu Uzslava. Kad noklikšķināt uz **Sūtīt uzslavu**, varat atlasīt kādu darbinieku un sniegt atsauksmes par šo darbinieku pa e-pastu. Šis ziņojums ir nosūtīts darbiniekam, kurš tiek uzslavēts, šī darbinieka vadītājam, darbiniekam, kurš sūta uzslavu, jā arī šī darbinieka vadītājam. Veiktspējas žurnāla ieraksts tiek izveidots katrai personai, kura saņem uzslavas ziņojumu.
+Veiktspējas žurnālā ir ietverts papildu līdzeklis ar nosaukumu Atsauksmes. Kad noklikšķināt uz **Sūtīt atsauksmes**, varat atlasīt darbinieku un pa e-pastu sniegt atsauksmes šim darbiniekam. Ziņojums tiek nosūtīts darbiniekam, kurš saņem atsauksmes, šī darbinieka vadītājam, darbiniekam, kurš sūta atsauksmes, jā arī šī darbinieka vadītājam. Katrai personai, kura saņem atsauksmju ziņojumu, tiek izveidots veiktspējas žurnāla ieraksts.
 
 ## <a name="goals"></a>Mērķi
 **Veiktspējas mērķu** lapa jums palīdz sekot līdzi mērķiem, kurus sev izveidojāt pats vai kurus jums izveidoja jūsu vadītājs. Varat izveidot neierobežotu skaitu mērķu, un šos mērķus var izvietot dažādos periodos un veiktspējas pārskatos. Varat arī izveidot vienkāršus vai sarežģītus mērķus, atkarībā no informācijas apjoma, ko vēlaties ievadīt par mērķi. Veiktspējas pārskatos mērķi nav obligāti. 
@@ -151,7 +150,6 @@ Veiktspējas žurnāla avotu veidi apraksta, no kurienes veiktspējas žurnāls 
 ### <a name="review-types"></a>Pārskatu tipi
 
 Veiktspējas pārskatu tipi jums palīdzēt kontrolēt pārskata uzvedību. Varat iespējot vai atspējot darbplūsmu kādam pārskatam. Ja pārskatā netiek izmantota darbplūsma, varat definēt noklusējuma statusu, kas tiks izmantots, veidojot šo pārskatu. Varat arī izlemt, vai pārskata izrakstīšana ir jāveic darbiniekam, vadītājam, vai viņiem abiem.
-
 
 
 

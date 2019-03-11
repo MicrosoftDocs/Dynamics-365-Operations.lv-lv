@@ -1,13 +1,13 @@
---- 
-title: "Kandidāta pieņemšana darbā, izmantojot personāla atlasi"
-description: "Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu."
+---
+title: Kandidāta pieņemšana darbā, izmantojot personāla atlasi
+description: Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9057a3ada63ab91f25475a07266f45acd5088af4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328290"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/14/2018
 14. Izvērsiet vai sakļaujiet sadaļu Adreses.
 15. Izvērsiet vai sakļaujiet sadaļu Kontaktinformācija.
 16. Izvērsiet vai sakļaujiet sadaļu Personiskā informācija.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Veikala pasūtījumu izpilde"
-description: "Šajā tēmā ir sniegts apskats par veikala pasūtījumu izpildi."
+title: Veikala pasūtījumu izpilde
+description: Šajā tēmā ir sniegts apskats par veikala pasūtījumu izpildi.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363687"
 ---
-
 # <a name="store-order-fulfillment"></a>Veikala pasūtījumu izpilde
 
 [!include [banner](includes/banner.md)]
@@ -106,7 +105,7 @@ Ja ir atlasītas rindas un šīm rindām tiek drukāts izdošanas saraksts, tās
 - **Iegūtais statuss:** izdots vai daļēji izdots
 - **Iegūtais iekšējās uzskaites daļas statuss:** izdots vai daļēji izdots
 
-Kad fiziskais izdošanas process ir izpildīts, rindas var atzīmēt kā **Izdots**. Atlasot rindu un atzīmējot to kā **Izdots**, tiek veikts reāllaika izsaukums atjaunināt šo pasūtījuma rindu programmā Dynamics 365 for Retail. Kad rinda pārdošanas punktā tiek atzīmēta kā **Izdots**, tās statuss iekšējās uzskaites daļā arī tiek atjaunināts uz **Izdots** un krājumu transakcijas norāda, ka krājumu daudzums ir samazinājies par norādīto daudzumu.
+Kad fiziskais izdošanas process ir izpildīts, rindas var atzīmēt kā **Izdots**. Atlasot rindu un atzīmējot ar statusu **Izdots**, tiek veikts reāllaika pieprasījums atjaunināt šo pasūtījuma rindu programmā Dynamics 365 for Retail. Kad rinda pārdošanas punktā tiek atzīmēta kā **Izdots**, tās statuss iekšējās uzskaites daļā arī tiek atjaunināts uz **Izdots** un krājumu transakcijas norāda, ka krājumu daudzums ir samazinājies par norādīto daudzumu.
 
 Kad pasūtījumi tiek apstrādāti laika gaitā, daļējus daudzumus var apstrādāt konkrētai rindai. Ja ir atlasīta kāda rinda, tiek veikta darbība **Atzīmēt kā izdotu** un daudzums ir lielāks par vienu, lietotājam tiek parādīts aicinājums norādīt daudzumu. Atlikušais daudzums, ko ir paredzēts izdot, tiek aizpildīts automātiski. Ja norādītais daudzums ir mazāks par atlikušo daudzumu, rindas statuss mainās uz **Daļēji izdots**. Kad šī pasūtījuma rinda tiek atjaunināta iekšējās uzskaites daļā, tā atspoguļo arī daļēji izdoto statusu un krājumu atjaunināšanai tiek izmantots lietotāja ievadītais daudzums.
 
@@ -219,4 +218,3 @@ Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu l
 - Veidošanas datums
 - Piegādes datums
 - Saņemšanas datums
-

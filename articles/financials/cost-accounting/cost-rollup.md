@@ -1,32 +1,31 @@
 ---
-title: "Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana"
-description: "Šajā tēmā ir sniegta informācija par to, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas atbilst organizācijas pārskatu un izmaksu izsekojamības prasībām."
+title: Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana
+description: Šajā tēmā ir sniegta informācija par to, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas atbilst organizācijas pārskatu un izmaksu izsekojamības prasībām.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356143"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
 [!include [banner](../includes/banner.md)]
@@ -251,15 +250,15 @@ Lapā **Detalizēta izmaksu objekta izmaksu bilances žurnāla ieraksta informā
 | CC003       | Montāža     | SC-CC002 | Finansēt         | 11.527,75   | 31.01.2017. |
 | CC004       | Iepakošana    | SC-CC002 | Finansēt         | 6.207,25    | 31.01.2017. |
 
-Pēc **pieskaitāmo izmaksu aprēķina** pabeigšanas varat izveidot rezultātu pārskatus, izmantojot tādus rīkus kā Microsoft SharePoint Workspace, Excel vai Power BI.
+Pēc darbības **Pieskaitāmo izmaksu aprēķins** pabeigšanas varat izveidot rezultātu pārskatus, izmantojot tādus rīkus kā Microsoft SharePoint Workspace, Excel vai Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Pārskatu skatīšana programmā Excel 
 
 Dimensiju hierarhijas sniedz iespēju skatīt datus dažādos apkopojuma līmeņos.
 
-Tālāk esošajā piemērā ir parādīta Power Pivot pārskata skatīšana programmā Excel.
+Tālāk sniegtajā piemērā ir aprakstīta Power Pivot pārskatu izveide programmā Excel.
 
-| **Peļņas un zaudējumu aprēķins** | **Izmaksu objekts** |                |               |               |  **Kopsumma**    |
+| **Peļņas un zaudējumu aprēķins** | **Izmaksu objekts** |                |               |               |  **Kopā**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Primārās izmaksas**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -302,4 +301,3 @@ Skaidrais **izmaksu sadalījuma** un **izmaksu apkopošanas politiku** nošķīr
 -  [Izmaksu elementu dimensijas](cost-elements.md)
 -  [Dimensiju hierarhijas](dimension-hierarchy.md)
 -  [Pieskaitāmo izmaksu aprēķināšana](overhead-calculation.md)
-

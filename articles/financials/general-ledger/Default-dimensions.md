@@ -1,13 +1,13 @@
 ---
-title: "Finanšu dimensijas un grāmatošana"
-description: "Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā."
+title: Finanšu dimensijas un grāmatošana
+description: Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327945"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti d
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Kontu plāns un finanšu dimensiju komponenti
 
-Microsoft Dynamics 365 for Finance and Operations ir bagāta ar kārtulām saistīta sistēma galveno kontu un finanšu dimensiju vērtību derīgu kombināciju definēšanai. Šī sadaļa sniegts īss katra komponenta funkcionalitātes apraksts un skaidrots, kur tas atrodams.
+Programmā Microsoft Dynamics 365 for Finance and Operations ir pieejama visaptveroša, uz kārtulām balstīta sistēma galveno kontus un finanšu dimensiju vērtību derīgo kombināciju definēšanai. Šī sadaļa sniegts īss katra komponenta funkcionalitātes apraksts un skaidrots, kur tas atrodams.
 
 ### <a name="account-structures"></a>Kontu struktūras
 
@@ -57,9 +56,9 @@ Noklusējuma dimensijas tiek iegūtas no dažādām vietām, piemēram, šablona
 Lietotājiem bieži vien rodas jautājumi par dažādu komponentu darbības secību. Ir ļoti svarīgi izprast secību, kādā tiek lietotas noklusējuma dimensijas, jo šī secība ietekmē iestatīšanas metodi.
 
 > [!NOTE]
-> Šī informācija attiecas tikai uz noklusējuma dimensiju lietošanu lietojumprogrammā. Ja importējat datus, izmantojot Microsoft Excel vai datu pārvaldības struktūru, modelis atšķiras.
+> Šī informācija attiecas tikai uz noklusējuma dimensiju lietošanu lietojumprogrammā. Ja importējat datus, izmantojot Microsoft Excel vai datu pārvaldības struktūru, darbība atšķiras.
 
-### <a name="example-1"></a>1. piemērs
+### <a name="example-1"></a>1. piemērs
 
 **Konta struktūra**
 
@@ -123,9 +122,8 @@ Daži no tālāk norādītajiem resursiem attiecas uz vecākām Finance and Oper
 
 [Plānot kontu plānu](plan-chart-of-accounts.md) 
 
-[Kontu plāna plānošana AX 2012 (emuārs)](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — šī saite norāda uz septiņu daļu izdevuma 1. daļu.
+[Kontu plāna plānošanas programmā AX 2012 emuārs](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
 
 [Dimensiju noklusējuma vērtību lietošana uzskaites sadalēs](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Dimensiju noklusējuma vērtību lietošana dimensiju struktūrā](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

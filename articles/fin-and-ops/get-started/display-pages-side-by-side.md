@@ -1,13 +1,13 @@
 ---
-title: "Lapu parādīšana līdzās, izmantojot līdzekli Atvērt jaunā logā"
-description: "Šajā rakstā ir paskaidrots, kā parādīt lapas līdzās programmatūrā Microsoft Dynamics 365 for Finance and Operations."
+title: Lapu parādīšana līdzās, izmantojot līdzekli Atvērt jaunā logā
+description: Šajā rakstā ir paskaidrots, kā parādīt lapas līdzās programmā Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330176"
 ---
-
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Lapu parādīšana līdzās, izmantojot līdzekli Atvērt jaunā logā
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Parādīt lapas blakus, izmantojot līdzekli Atvērt jaunā logā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā parādīt lapas līdzās programmatūrā Microsoft Dynamics 365 for Finance and Operations.
+Šajā rakstā ir paskaidrots, kā parādīt lapas līdzās programmā Microsoft Dynamics 365 for Finance and Operations.
 
-Microsoft Dynamics 365 for Finance and Operations palīdz efektīvi izpildīt uzdevumus. Dažos gadījumos, iespējams, vēlēsieties skatīt vairākas lappuses līdzās, lai ātri veiktu uzdevumus. Piemēram, iespējams, vēlēsieties apstiprināt vai ievadīt rindas vairāk nekā vienā žurnālā. Parasti, lai to izdarītu, ir jāpāriet atpakaļ un uz priekšu no lapas, kurā ir parādīts žurnālu saraksts, uz lapu, kurā ir parādītas attiecīgā žurnāla rindas. Tomēr līdzeklis **Atvērt jaunā logā** ļauj parādīt šīs lapas blakus, lai jūs varētu ātri veikt uzdevumus.
+Microsoft Dynamics 365 for Finance and Operations palīdz efektīvi veikt uzdevumus. Dažos gadījumos, iespējams, vēlēsieties skatīt vairākas lappuses līdzās, lai ātri veiktu uzdevumus. Piemēram, iespējams, vēlēsieties apstiprināt vai ievadīt rindas vairāk nekā vienā žurnālā. Parasti, lai to izdarītu, ir jāpāriet atpakaļ un uz priekšu no lapas, kurā ir parādīts žurnālu saraksts, uz lapu, kurā ir parādītas attiecīgā žurnāla rindas. Tomēr līdzeklis **Atvērt jaunā logā** ļauj parādīt šīs lapas blakus, lai jūs varētu ātri veikt uzdevumus.
 
 Turpinot iepriekš minēto piemēru, skatot rindas, varat noklikšķināt uz ikonas **Atvērt jaunā logā**.
 
@@ -50,4 +49,3 @@ Pirms līdzekļa **Atvērt jaunā logā** lietošanas ir jākonfigurē pārlūkp
 Līdzeklis **Atvērt jaunā logā** ir pieejams tikai tad, ja logā ir atvērta vairāk nekā viena lapa. Turklāt uznirstošais logs automātiski aizveras, kad vairs nav atvērta neviena lapa (t. i., aizverot pēdējo lappusi attiecīgajā logā). Programmatūrā Dynamics 365 for Finance and Operations atvērtās lapas tiek aizvērtas arī tad, kad pārejat uz citu lietojumprogrammas apgabalu. Tādēļ, ja ir atvērti uznirstošie logi un jūs pārejat uz citu apgabalu programmā, uznirstošie logi tiek automātiski aizvērti, jo sistēma aizvēra lapas attiecīgajos logos.
 
 Uznirstošo logu augšējā joslā ir parādīta informācija par uzņēmumu, kurā lapa tika atvērta, un tā ir tikai lasāma. Turklāt uznirstošie logi ir atkarīgi no galvenā Dynamics 365 for Finance and Operations pārlūkprogrammas loga. Ja galvenais logs tiek aizvērts vai atsvaidzināts, visi atvērtie uznirstošie logi kļūst tikai lasāmi. Tas nozīmē, ka joprojām varat apskatīt informāciju šajos logos, bet nevarēsiet ar to mijiedarboties.
-

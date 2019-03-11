@@ -1,13 +1,13 @@
 ---
-title: "MK un formulas rindu izlaišana nosūtīšanai uz noliktavu"
-description: "Šajā tēmā ir aprakstīts, kā izejmateriālus MK rindām un formulas rindām izlaist nosūtīšanai uz noliktavu."
+title: MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
+description: Šajā tēmā ir aprakstīts, kā izejmateriālus MK rindām un formulas rindām izlaist nosūtīšanai uz noliktavu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343148"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ MK un formulas rindu izlaišanai izmantotā metode tiek kontrolēta ar parametru
 - **Izlaist MK un formulas rindas kā daļu no ražošanas vai partijas pasūtījuma izlaišanas** — ar šo metodi MK un formulas rindas ražošanas vai partijas pasūtījumam tiek izlaistas kā daļa no pasūtījuma izlaišanas procesa. Ražošanas vai partijas pasūtījuma izlaišanas laikā parasti ražošanas darbi tiek izlaisti nodošanai ražotnes darbiniekiem un tiek drukāta ražošanas dokumentācija. Šī procesa laikā pasūtījuma statuss tiek arī mainīts uz **Izlaists**.
 - **Izlaist MK un formulas rindas ar pakešuzdevumu vai kā manuālu mijiedarbību** — izmantojot šo metodi, MK un formulas rindas var izlaist vienīgi ar pakešuzdevumu **Automātiska MK un formulas rindu izlaišana** vai kā manuālu mijiedarbību. Lai MK un formulas rindas izlaistu manuāli, ražošanas pasūtījuma saraksta lapas vai ražošanas pasūtījuma informācijas lapas darbību rūtī atlasiet **Izlaist pārvietošanai uz noliktavu**.
 
-Īsu demonstrāciju par to, kā izlaist MK un formulas rindas nosūtīšanai uz ražošanu, izmantojot pakešuzdevumu, noskatieties šo īso YouTube video: [Ražošanas izdošanas izlaišana uz noliktavu pakešveidā](https://www.youtube.com/watch?v=8urAJn50dQ8).
+Īsu demonstrāciju par to, kā izlaist MK un formulas rindas nosūtīšanai uz ražošanu, izmantojot pakešuzdevumu, skatieties šajā īsajā YouTube video: [Ražošanas izdošanas izlaišana uz noliktavu pakešveidā](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>MK un formulas rindu izlaišana, izmantojot pakešuzdevumu
 
@@ -84,7 +83,7 @@ Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas oper�
 
 ![Piemērs par materiāla izlaišanu katram operācijas numuram](media/two-operations.PNG)
 
-Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, varat skatīties šajā YouTube videoklipā: [Ražošanas pasūtījuma izlaišanas procesa uzlabojumi programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
+Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, skatiet šajā īsajā YouTube video: [Ražošanas pasūtījuma izlaišanas procesa uzlabojumi programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materiāla izlaišana proporcionāli pabeigto preču daudzumam
 
@@ -99,4 +98,3 @@ Izejmateriālu varat izlaist daļējam gatavo preču daudzumam vai noteiktā vie
     Pieejamās mērvienības ir definētas ar pabeigto preču vienību secību grupas ID.
 
     Piemēram, pabeigtai precei ir šāda mērvienību konvertēšana starp mārciņām (mārc.) un paletēm (PL): 1 PL = 100 mārc. Lai izveidotu ražošanas pasūtījumu 10 000 mārc. pabeigto preču, varat izlaist izejmateriālus tādam palešu skaitam, kādu plānojat saražot. Kā vienību atlasiet **PL** un pēc tam atlasiet atbilstošu skaitu laukā **Daudzums**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Brīdinājumu noteikumu veidošana"
-description: "Šajā tēmā ir sniegta informācija par brīdinājumiem un izskaidrots, kā izveidot brīdinājuma kārtulu tā, lai varētu saņemt paziņojumu par notikumiem, piemēram, par datumu, kas iestājas, vai noteiktām izmaiņām, kuras ir veiktas."
+title: Brīdinājumu noteikumu veidošana
+description: Šajā tēmā ir sniegta informācija par brīdinājumiem un izskaidrots, kā izveidot brīdinājuma kārtulu tā, lai varētu saņemt paziņojumu par notikumiem, piemēram, par datumu, kas iestājas, vai noteiktām izmaiņām, kuras ir veiktas.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: cbf4917424e72a70a6d513b5daf45f6bf9cd57c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329417"
 ---
-
 # <a name="create-alert-rules"></a>Brīdinājumu noteikumu veidošana
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="getting-started"></a>Darba sākšana
 
-Pirms brīdinājuma kārtulas iestatīšanas padomājiet, kad un kādās situācijās vēlaties saņemt brīdinājumus. Kad ir zināms, par kuriem notikumiem vēlaties saņemt paziņojumus, programmā Microsoft Dynamics 365 for Finance and Operations atveriet lapu, kurā tiek parādīti dati, kas izraisa šo notikumu. Notikums var būt datums, kas iestājas, vai noteiktas izmaiņas, kuras ir veiktas. Tāpēc ir jāatver lapa, kur ir norādīts datums vai kur ir redzams lauks, kur tiek parādītas izmaiņas vai jaunais ieraksts, kurš tiek izveidots. Kad šī informācija ir iegūta, var izveidot brīdinājuma kārtulu.
+Pirms brīdinājuma kārtulas iestatīšanas padomājiet, kad un kādās situācijās vēlaties saņemt brīdinājumus. Kad zināt, par kuru notikumu vēlaties saņemt paziņojumus, programmā Microsoft Dynamics 365 for Finance and Operations atveriet lapu, kurā ir redzami dati, kas izraisa šo notikumu. Notikums var būt datums, kas iestājas, vai noteiktas izmaiņas, kuras ir veiktas. Tāpēc ir jāatver lapa, kur ir norādīts datums vai kur ir redzams lauks, kur tiek parādītas izmaiņas vai jaunais ieraksts, kurš tiek izveidots. Kad šī informācija ir iegūta, var izveidot brīdinājuma kārtulu.
 
 Izveidojot brīdinājuma kārtulu, tiek definēti kritēriji, kuri ir jāizpilda, lai tiktu aktivizēts brīdinājums. Varat domāt par tādiem kritērijiem kā atbilstība starp notikuma iestāšanos un noteiktu apstākļu sakritību. Ja rodas notikums, sistēma sāk pārbaudi saskaņā ar programmā Finance and Operations iestatītajiem nosacījumiem.
 
@@ -84,4 +83,3 @@ Dialoglodziņa **Izveidot brīdinājuma kārtulu** kopsavilkuma cilnē **Brīdin
 7. Kopsavilkuma cilnē **Brīdināt ar** laukā **Tēma** apstipriniet e-pasta ziņojuma noklusējuma tēmas virsrakstu vai ierakstiet jaunu tēmu. Šis teksts tiek izmantots kā virsraksta tēma e-pasta ziņojumiem, ko saņemat, kad aktivizējas brīdinājums.
 8. Laukā **Ziņojums** ievadiet izvēles ziņojumu. Šis teksts tiek izmantots kā ziņojums, ko saņemat, kad aktivizējas brīdinājums.
 9. Lai saglabātu iestatījumus un izveidotu brīdinājuma kārtulu, atlasiet **Labi**.
-

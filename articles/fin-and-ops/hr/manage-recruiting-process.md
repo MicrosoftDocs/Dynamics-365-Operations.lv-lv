@@ -1,13 +1,13 @@
 ---
-title: "Personāla atlases procesu pārvaldība"
-description: "Šajā tēmā ir aprakstīta metode, kuru personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesā veicamajām darbībām, kas iekļauj sludinājumu par vakancēm publicēšanas pasākumus, informācijas par kandidātu un pieteikumu noskaidrošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi organizācijā izsludināto vakanču aizpildīšanai."
+title: Personāla atlases procesu pārvaldība
+description: Šajā tēmā ir aprakstīta metode, kuru personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesā veicamajām darbībām, kas iekļauj sludinājumu par vakancēm publicēšanas pasākumus, informācijas par kandidātu un pieteikumu noskaidrošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi organizācijā izsludināto vakanču aizpildīšanai.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345678"
 ---
-
 # <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ Lai noskaidrotu vakancei iespējami piemērotos kandidātus, var izmantot opciju
 ## <a name="hiring-applicants"></a>Kandidātu pieņemšana darbā
 
 Lai pieņemtu kandidātu darbā, izmantojiet lapu **Pieteikumi**. Pieņemot kandidātu darbā, pieteikuma ierakstam tiek piemērots statuss **Pieņemts darbā**, un kandidāta personiskais ieraksts globālajā adrešu grāmatā tiek saistīts ar jaunā darbinieka ierakstu. Jaunā darbinieka datu izmaiņas globālajā adrešu grāmatā arī tiek parādītas pieteikuma ierakstā. Tas var palīdzēt samazināt ievadāmo datu apjomu, ja jaunais nodarbinātais vēlāk piesakās citam amatam jūsu uzņēmumā. Lai pieņemtu esošu nodarbināto jaunā amatā, nolaižamajā sarakstā **Pieteikuma statuss** noklikšķiniet uz **Mainīt pozīciju**, tādējādi uzsākot amata maiņas procesu.
-

@@ -1,13 +1,13 @@
 ---
-title: "Kreditora darbplūsma"
-description: "Modificējiet kreditora informāciju un izmantojiet darbplūsmu, lai to apstiprinātu."
+title: Kreditora darbplūsma
+description: Modificējiet kreditora informāciju un izmantojiet darbplūsmu, lai to apstiprinātu.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329693"
 ---
-
 # <a name="vendor-workflow"></a>Kreditora darbplūsma
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Ja ir vismaz viena piedāvātā izmaiņa, darbību rūtī tiek rādītas divas p
 1. Atlasiet cilni **Piedāvātās izmaiņas**, lai atvērtu lapu **Piedāvātās izmaiņas**, un pārskatiet veiktās izmaiņas.
 2. Atlasiet cilni **Darbplūsma \> Iesniegt, lai iesniegtu izmaiņas darbplūsmā**.
 
-    Statuss lapā tiek mainīts uz **Izmaiņas gaida apstiprinājumu**.
+    Lapas statuss tiek mainīts uz **Izmaiņas, kas gaida apstiprinājumu**.
 
-Darbplūsma atbilst standarta darbplūsmas procesam sistēmā Microsoft Dynamics 365 for Finance and Operations. Apstiprinātājs tiek novirzīts uz lapu **Kreditors**, kurā viņš vai viņa var pārskatīt izmaiņas lapā **Piedāvātās izmaiņas** lapu un pēc tam atlasīt cilni **Darbplūsma \>Apstiprināt**, lai apstiprinātu darbplūsmu. Pēc tam, kad ir veikti visi apstiprinājumi, lauki tiek atjaunināti ar jūsu piedāvātajām vērtībām.
-
+Darbplūsma atbilst standarta darbplūsmas procesam sistēmā Microsoft Dynamics 365 for Finance and Operations. Apstiprinātājs tiek novirzīts uz lapu **Kreditors**, kurā viņš vai viņa var pārskatīt izmaiņas lapā **Piedāvātās izmaiņas** lapu un pēc tam atlasīt cilni **Darbplūsma \>Apstiprināt**, lai apstiprinātu darbplūsmu. Kad apstiprināšana ir pilnībā pabeigta, lauki tiek atjaunināti atbilstoši jūsu piedāvātajām vērtībām.

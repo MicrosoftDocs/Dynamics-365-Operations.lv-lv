@@ -1,35 +1,34 @@
 ---
-title: "Kreditoru maksājumu darbvieta"
-description: "Šajā tēmā ir sniegta informācija par darbvietu Kreditoru maksājumi. Darbvietā Kreditoru maksājumi tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi."
+title: Kreditoru maksājumu darbvieta
+description: Šajā tēmā ir sniegta informācija par darbvietu Kreditoru maksājumi. Darbvietā Kreditoru maksājumi tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346115"
 ---
-
 # <a name="vendor-payments-workspace"></a>Kreditoru maksājumu darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Darbvietā **Kreditoru maksājumi** tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi. Šajā darbvietā ir ietverts skats **Mans darbs** un lapa **Analīze**. Skatā **Mans darbs** tiek rādīti kopsavilkuma elementi, kreditoru transakciju režģi un saistītā kreditoru informācija. Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar kreditoru maksājumiem saistītas vizualizācijas.
+Darbvietā **Kreditoru maksājumi** tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi. Šajā darbvietā ir ietverts skats **Mans darbs** un lapa **Analīze**. Skatā **Mans darbs** tiek rādīti kopsavilkuma elementi, kreditoru transakciju režģi un saistītā kreditoru informācija. Lapā **Analīze** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar kreditoru maksājumiem saistītas vizualizācijas.
 
 ## <a name="my-work-view"></a>Skats Mans darbs
 
@@ -69,5 +68,4 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 |         Maksājumu darbplūsma          |                                                                                <ul><li>Kreditora maksājumu darbplūsmas instances</li><li>Kreditora maksājumu darbplūsmas instances pēc apstiprinātāja</li><li>Kreditora maksājumu darbplūsmas instances pēc uzņēmuma</li><li>Vidējais dienu skaits darbplūsmā pēc apstiprinātāja</li></ul>                                                                                |
 |    Kreditora bilance pret debitora bilanci     |                                                                                                                   <ul><li>Kreditora bilance pret debitora bilanci</li><li>Kreditora bilance pret debitora bilanci pēc uzņēmuma</li><li>Kreditora bilances pret debitora bilanci detaļas</li></ul>                                                                                                                    |
 |    Rēķini ar maksājuma aizturi     |                                                                                         <ul><li>Rēķini ar maksājuma aizturi</li><li>Rēķinu ar maksājuma aizturi detaļas</li><li>Rēķini ar maksājuma aizturi pēc uzņēmuma</li><li>Rēķini ar maksājuma aizturi pēc kreditoru grupas</li></ul>                                                                                          |
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Naudas plūsmas prognozēšana"
-description: "Šajā tēmā ir sniegts pārskats par naudas plūsmas prognozēšanas procesu. Tajā ir arī paskaidrots, kā naudas plūsmas prognozēšana ir integrēta citos sistēmas moduļos."
+title: Naudas plūsmas prognozēšana
+description: Šajā tēmā ir sniegts pārskats par naudas plūsmas prognozēšanas procesu. Tajā ir arī paskaidrots, kā naudas plūsmas prognozēšana ir integrēta citos sistēmas moduļos.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324495"
 ---
-
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Darbvietā **Naudas pārskats — visi uzņēmumi** tiek rādīti naudas plūsm
 
 Darbvietā **Naudas pārskats — pašreizējais uzņēmums** tiek rādīti naudas plūsmas prognozēšanas analīzes dati uzņēmumam definētajā uzskaites valūtā. Analīzei izmantoto uzskaites valūtu var definēt lapā **Virsgrāmata**. Šajā darbvietā ir sniegts pārskats par pašreizējā uzņēmuma naudas plūsmas prognozēšanu un bankas kontu bilancēm. Skaidras naudas ieejas un izejas plūsmas diagramma sniedz pārskatu par gaidāmo naudas plūsmu un bilancēm uzskaites valūtā, kā arī detalizētu informāciju par prognozētajām transakcijām. Varat skatīt arī prognozētās bilances noteiktā valūtā.
 
-Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā “Power BI satura pakotne Naudas pārskats”.
+Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā “Power BI satura pakotne Skaidras naudas apskats”.
 
 Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas datus par noteiktiem kontiem, pasūtījumiem un krājumiem.
 
@@ -138,5 +137,4 @@ Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas
 - **Visi pirkšanas pasūtījumi**: cilnē **Rēķins** atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu atlasītā pirkšanas pasūtījuma prognozēto skaidras naudas ietekmi.
 - **Piegādes apjoma prognoze**: atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu gaidāmās naudas plūsmas, kas ir saistītas ar atlasīto krājuma piegādes apjoma prognozi.
 - **Pieprasījuma apjoma prognoze**: atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu gaidāmās naudas plūsmas, kas ir saistītas ar atlasīto krājuma pieprasījuma apjoma prognozi.
-
 

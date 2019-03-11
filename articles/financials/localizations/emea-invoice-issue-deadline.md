@@ -1,13 +1,13 @@
 ---
-title: "Rēķina izsniegšanas termiņš"
-description: "Šajā rakstā ir izskaidrots, kā iestatīt parametrus, lai aprēķinātu izpildes termiņus kreditoru un debitori rēķinu izrakstīšanai Eiropas Savienībā (ES)."
+title: Rēķina izsniegšanas termiņš
+description: Šajā rakstā ir izskaidrots, kā iestatīt parametrus, lai aprēķinātu izpildes termiņus kreditoru un debitori rēķinu izrakstīšanai Eiropas Savienībā (ES).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371320"
 ---
-
 # <a name="invoice-issue-deadline"></a>Rēķina izsniegšanas termiņš
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Izmantojiet lapu **Iestatīt rēķina izrakstīšanas izpildes termiņa aprēķi
 Varat iestatīt arī datumu kontroles parametrus, lai nodrošinātu, ka debitoru rēķini un kredīta notas debitoru transakcijām tiek ģenerēti noteiktā periodā pēc piegādes veikšanas. Šie parametri ir pieejami lapas **Debitoru moduļa parametri** apgabalā **Rēķinu datumu kontrole**.
 
 ## <a name="example"></a>Paraugs
-Lai programmā Microsoft Dynamics 365 for Finance and Operations iestatītu, ka sūtījumiem ES robežās rēķina izrakstīšanas izpildes termiņi tiek aprēķināti tā mēneša piecpadsmitajā dienā, kas ir pēc sūtījuma piegādāšanas, izveidojiet datumu intervāla kodu un aprēķina kārtulu ar tālāk sniegtajiem iestatījumiem.
+Lai iestatītu programmu Microsoft Dynamics 365 for Finance and Operations ES teritorijā veikto piegāžu rēķina izrakstīšanas izpildes termiņu aprēķināšanu tā mēneša piecpadsmitajā dienā, kas seko piegādes datumam, izveidojiet datumu intervāla kodu un aprēķina kārtulu, izmantojot tālāk norādītos iestatījumus.
 
 ### <a name="date-interval-code"></a>Datumu intervāla kods
 
@@ -118,7 +117,6 @@ Ja nevarat piekļūt lapām, kas tiek izmantotas šajā rakstā minēto uzdevumu
 </tr>
 </tbody>
 </table>
-
 
 
 

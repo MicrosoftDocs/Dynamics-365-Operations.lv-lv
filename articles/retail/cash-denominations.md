@@ -1,13 +1,13 @@
 ---
-title: "Pārdošanas punkta (POS) skaidras naudas denomināciju konfigurēšana"
-description: "Skaidras naudas denomināciju banknotēm un monētām var definēt operāciju uzskaites daļā, ko izmanto kasieri, pārdevēji un vadītāji veikalā POS ietvaros."
+title: Pārdošanas punkta (POS) skaidras naudas denomināciju konfigurēšana
+description: Skaidras naudas denomināciju banknotēm un monētām var definēt operāciju uzskaites daļā, ko izmanto kasieri, pārdevēji un vadītāji veikalā POS ietvaros.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343516"
 ---
-
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) skaidras naudas denomināciju konfigurēšana
 
 [!include [banner](includes/banner.md)]
@@ -53,4 +52,3 @@ Maksājot skaidrā naudā POS, lietotājs var izmantot banknotes denominācijas,
 
 - **Lielāks vai vienāds ar summu apmaksai** — pēc noklusējuma POS parāda tikai tādu banknošu denominācijas, kas ir lielākas par summu apmaksai, un tas ļauj norēķināties ar vienu pieskārienu. Piemēram, ja summa apmaksai ir 7,50 USD, POS tiek rādītas šādas denominācijas: 10 USD, 20 USD, 50 USD un 100 USD. Pieskaroties kādai no šīm summām, automātiski tiek veikti norēķini par šo summu. 1 USD un 5 USD banknotes netiek rādītas, jo šīs summas ir mazākas par summu apmaksai.
 - **Visas denominācijas** — atlasiet šo opciju, lai POS vienmēr rādītu visas denominācijas neatkarīgi no summas apmaksai. Tas nozīmē, ka lietotājs var izmantot banknošu kombinācijas, lai sasniegtu summu apmaksai. Piemēram, ja summa apmaksai ir 25,00 USD, lietotājs var izvēlēties 20 USD un 5 USD banknotes apmaksas pabeigšanai.
-

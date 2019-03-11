@@ -1,13 +1,13 @@
 ---
-title: "Mobilā darbvieta Uzņēmuma direktorijs"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Uzņēmuma direktorijs, kas sniedz lietotājiem iespēju skatīt informāciju par citiem organizācijas darbiniekiem un sazināties ar tiem."
+title: Mobilā darbvieta Uzņēmuma direktorijs
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Uzņēmuma direktorijs, kas sniedz lietotājiem iespēju skatīt informāciju par citiem organizācijas darbiniekiem un sazināties ar tiem.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308625"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Mobilā darbvieta Uzņēmuma direktorijs
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Uzņēmuma direktorijs**. Šī darbvieta sniedz lietotājiem iespēju skatīt informāciju par citiem organizācijas darbiniekiem un ar viņiem sazināties.
 
-Šo mobilo darbvietu var lietot, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+Šo mobilo darbvietu var izmantot kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Pārskats
 Mobilā darbvieta **Uzņēmuma direktorijs** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus.
@@ -53,12 +52,12 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 <tbody>
 <tr class="odd">
 <td>Organizācijā ir jābūt izvietotam vienam no tālāk norādītajiem produktiem.
-<ul><li>Programma Microsoft Dynamics 365 for Finance and Operations</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
+<li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>Sistēmas administrators</td>
-<td>Ja organizācijā vēl nav izvietots risinājums Finance and Operations, skatiet tēmu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja organizācijā vēl nav izvietots risinājums Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
+<td>Ja jūsu organizācijā vēl nav izvietota programma Finance and Operations, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja jūsu organizācijā vēl nav izvietota programma Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
 </td>
 </tr>
 <tr class="even">
@@ -77,7 +76,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
@@ -91,4 +90,3 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 1.  Mobilajā programmā atlasiet darbvietu **Uzņēmuma direktorijs**.
 2.  Laukā **Meklēšana** ievadiet darbinieka vārdu, uzvārdu, amatu vai nodaļu, lai sāktu meklēšanu.
 3.  Atlasiet darbinieku. Tiek parādīta lapa **Darbinieka profils**. Šajā lapā ir sniegta tāda informācija kā darbinieka vārds, uzvārds, amats un nodaļa.
-

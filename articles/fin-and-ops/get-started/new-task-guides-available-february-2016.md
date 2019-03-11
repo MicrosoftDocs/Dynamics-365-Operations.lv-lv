@@ -1,13 +1,13 @@
 ---
-title: "Jauni uzdevumu ceļveži (2016. gada februāris)"
-description: "Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas šādas bibliotēkas: APQC vienotā bibliotēka programmatūrai Microsoft Dynamics 365 for Operations (2016. gada februāra laidiens) un Darba sākšana (2016. gada februāra laidiens)."
+title: Jauni uzdevumu ceļveži (2016. gada februāris)
+description: Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas tādas bibliotēkas kā APQC vienotā bibliotēka programmai Microsoft Dynamics 365 for Operations (2016. gada februāris) un Darba sākšana (2016. gada februāris).
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,23 +17,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366447"
 ---
-
 # <a name="new-task-guides-february-2016"></a>Jauni uzdevumu ceļveži (2016. gada februāris)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī. Publicēto bibliotēku klāstā ietilpst (2016. gada februāra) APQC vienotā bibliotēka programmatūrai Microsoft Dynamics AX un (2016. gada februāra) Darba sākšana.
+Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī. Tika publicētas tādas bibliotēkas kā APQC vienotā bibliotēka programmai Microsoft Dynamics AX(2016. gada februāris) un Darba sākšana (2016. gada februāris).
 
-## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži (2016. gada februāra) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada februāris)
 
-(2016. gada februāra) APQC vienotajā bibliotēkā ir iekļauti uzdevumu ceļveži, kurus ir paredzēts lietot laidiena Dynamics AX 7.0.0 palīdzībai. Ja jums ir nepieciešamas šo ceļvežu lokalizētās versijas, tās ir pieejamas (2016. gada maija) APQC vienotajā bibliotēkā programmatūrai Microsoft Dynamics AX. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli saistībā ar laidienu Dynamics AX 7.0.0. Ja jums ir nepieciešamas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
 
 ### <a name="accounts-payable"></a>Kreditoru parādi
 
@@ -633,7 +632,7 @@ ms.lasthandoff: 12/18/2018
 | Elektroniskie pārskati                               | Globālais         |
 | Darbinieku pašapkalpošanās                              | Globālais         |
 | Kā samazināt jūsu vidējo maksājuma saņemšanas termiņu          | Globālais         |
-| Ievads AX lokalizēšanas funkcionalitātē      | Globālais         |
+| Ievads AX lokalizēšanas funkcionalitātē      | Globālais         |
 | Iepazīstināšana ar valstij specifiskajiem līdzekļiem attiecībā uz Japānu | Japāna          |
 | Izcenojuma un veicināšanu pārvaldība                      | Globālais         |
 | Vadītāja pašapkalpošanās                               | Globālais         |
@@ -647,4 +646,3 @@ ms.lasthandoff: 12/18/2018
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "Esošas aktivitātes pievienošana ražošanas plūsmas versijai"
-description: "Izveidojot jaunu ražošanas plūsmu versijas, varat izvēlēties, vai jaunajai versijai pievienot aktivitātes, kas izveidots vecākām versijām."
+---
+title: Esošas aktivitātes pievienošana ražošanas plūsmas versijai
+description: Izveidojot jaunu ražošanas plūsmu versijas, varat izvēlēties, vai jaunajai versijai pievienot aktivitātes, kas izveidots vecākām versijām.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityAddExisting, PlanActivityAddExistingLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 032855125ccd14fbdc1e1bdb735c92ce70853fb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a74fb34db71ba4b539c1b6ede361329aaeb94920
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313616"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>Esošas aktivitātes pievienošana ražošanas plūsmas versijai
 
@@ -55,5 +55,4 @@ Lai varētu izpildīt šo uzdevumu, ir nepieciešama ražošanas plūsma ar jau 
     * Atrodiet un atlasiet esošu aktivitāti, kas jāpievieno jaunajai ražošanas plūsmas versijai.  Ņemiet vērā, ka sarakstā ir redzamas visas aktivitātes, kas ir izveidotas plūsmas visu iepriekšējo versiju konkrētajai ražošanas plūsmai.  
 3. Ievadiet vai atlasiet vērtību laukā Aktivitāte.
 4. Noklikšķiniet uz OK.
-
 

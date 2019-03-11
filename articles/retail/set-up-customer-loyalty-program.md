@@ -1,13 +1,13 @@
 ---
-title: "Lojalitātes programmas apskats"
-description: "Šajā tēmā ir aprakstītas lojalitātes programmas iespējas programmā Microsoft Dynamics 365 for Retail un atbilstošās iestatīšanas darbības, kas palīdz mazumtirgotājam ērti uzsākt darbu ar savām lojalitātes programmām."
+title: Lojalitātes programmas pārskats
+description: Šajā tēmā ir aprakstītas lojalitātes programmas iespējas programmā Microsoft Dynamics 365 for Retail un atbilstošās iestatīšanas darbības, kas palīdz mazumtirgotājam viegli sākt darbu ar savām lojalitātes programmām.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320125"
 ---
-
 # <a name="loyalty-overview"></a>Lojalitātes programmas apskats
 
 [!include [banner](includes/banner.md)]
 
-Lojalitātes programmas var palīdzēt paaugstināt klientu lojalitāti, atlīdzinot klientiem par viņu veikto mijiedarbību ar mazumtirgotāja zīmolu. Programmā Microsoft Dynamics 365 for Retail varat iestatīt vienkāršās vai kompleksās lojalitātes programmas, kas tiek piemērotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā. Šajā tēmā ir aprakstītas lojalitātes programmas iespējas programmā Microsoft Dynamics 365 for Retail un atbilstošās iestatīšanas darbības, kas palīdz mazumtirgotājam ērti uzsākt darbu ar savām lojalitātes programmām.
+Lojalitātes programmas var palīdzēt paaugstināt klientu lojalitāti, atlīdzinot klientiem par viņu veikto mijiedarbību ar mazumtirgotāja zīmolu. Programmā Microsoft Dynamics 365 for Retail varat iestatīt vienkāršas vai sarežģītas lojalitātes programmas, kas tiek lietotas jūsu juridiskajām personām jebkurā mazumtirdzniecības kanālā. Šajā tēmā ir aprakstītas lojalitātes programmas iespējas programmā Microsoft Dynamics 365 for Retail un atbilstošās iestatīšanas darbības, kas palīdz mazumtirgotājam viegli sākt darbu ar savām lojalitātes programmām.
 
 Lojalitātes programmu var iestatīt tā, lai tajā būtu ietvertas tālāk aprakstītās opcijas.
 
@@ -43,7 +42,7 @@ Lojalitātes programmu var iestatīt tā, lai tajā būtu ietvertas tālāk apra
 
 ## <a name="setting-up-loyalty-programs"></a>Lojalitātes programmas iestatīšana
 
-Lai nodrošinātu lojalitātes funkciju programmā Dynamics 365 for Retail, jāiestata vairāki komponenti. Šajā diagrammā redzami lojalitātes programmas komponenti un tas, kā tie saistīti viens ar otru.
+Lai iespējotu lojalitātes programmas līdzekli programmā Dynamics 365 for Retail, ir jāiestata vairāki komponenti. Šajā diagrammā redzami lojalitātes programmas komponenti un tas, kā tie saistīti viens ar otru.
 
 ![Lojalitātes programmas iestatīšanas procesu plūsma](./media/loyaltyprocess.gif "Lojalitātes programmas komponenti un to savstarpējās saistības")
 
@@ -70,7 +69,7 @@ Lai nodrošinātu lojalitātes funkciju programmā Dynamics 365 for Retail, jāi
 
 | Procesa nosaukums                         | Apraksts | Lapas nosaukums |
 |--------------------------------------|-------------|-----------|
-| 1050 (Informācija par lojalitātes programmu)           | Sāciet šo procesu, lai sūtītu lojalitātes programmas datus no Dynamics 365 for Retail uz mazumtirdzniecības veikaliem. Ir ieteicams šo procesu ieplānot un palaist to biežāk, tādējādi lojalitātes programmas dati tiks nosūtīti uz visiem veikaliem. | Sadales grafiks |
+| 1050 (Informācija par lojalitātes programmu)           | Izpildiet šo procesu, lai nosūtītu lojalitātes programmas datus no programmas Dynamics 365 for Retail uz mazumtirdzniecības veikaliem. Ir ieteicams šo procesu ieplānot un palaist to biežāk, tādējādi lojalitātes programmas dati tiks nosūtīti uz visiem veikaliem. | Sadales grafiks |
 | Procesa lojalitātes programmas shēmas              | Palaidiet šo procesu, lai saistītu lojalitātes programmas shēmas ar mazumtirdzniecības kanāliem, kas tiek piešķirta lojalitātes programmas shēmai. Šo procesu var ieplānot tā, lai to varētu palaist kā pakešveida apstrādi. Šis process ir jāpalaiž, ja maināt lojalitātes programmas konfigurācijas datus, piemēram, lojalitātes programmas shēmas, lojalitātes programmas vai lojalitātes programmas atlīdzības punktus. | Procesa lojalitātes programmas shēmas |
 | Apstrādāt bezsaistes lojalitātes programmu darījumus | Palaidiet šo procesu, lai atjauninātu lojalitātes programmas kartes tā, lai tiktu iekļauti bezsaistē apstrādāti darījumi. Šis process tiek lietots tikai tad, ja lapā **Retail koplietojamie parametri** ir atzīmēta izvēles rūtiņa **Iegūt bezsaistē**, lai atlīdzības varētu nopelnīt bezsaistē. | Apstrādāt bezsaistes lojalitātes programmu darījumus |
 | Atjaunināt lojalitātes programmas kartes pakāpes            | Palaidiet šo procesu, lai izvērtētu klienta punktu nopelnīšanas darbības atbilstoši lojalitātes programmas pakāpju kārtulām un atjauninātu klienta pakāpes statusu. Šis process ir nepieciešams tikai tad, ja maināt līmeņu noteikumus lojalitātes programmā un vēlaties atjauninātos noteikumus piemērot jau izsniegtajām lojalitātes programmas kartēm. Šo procesu var palaist kā pakešveida apstrādi vai tikai konkrētām kartēm. | Atjaunināt lojalitātes programmas kartes pakāpes |
@@ -90,7 +89,7 @@ Kā daļu no 2018. gada oktobra laidiena programma Retail ir ieguvusi jaunu loj
 
     ![Izslēgtās piederības](./media/Excluded%20affiliations.png "Piederību izslēgšana no lojalitātes programmas punktu pelnīšanas")
     
-- Mazumtirgotāji var ģenerēt lojalitātes programmas karšu numurus kanālos. Pirms 2018. gada oktobra atjauninājuma mazumtirgotāji varēja izmantot fiziskas lojalitātes kartes vai ģenerēt lojalitātes karti, izmantojot unikālu informāciju par klientu, piemēram, tālruņa numuru. Lai iespējotu lojalitātes programmas karšu automātisko ģenerēšanu mazumtirdzniecības veikalos, ar veikalu saistītajā funkcionalitātes profilā ieslēdziet opciju **Ģenerēt lojalitātes programmas kartes numuru**. Lai izsniegtu lojalitātes programmas kartes klientiem tiešsaistes kanālos, mazumtirgotāji var izmantot IssueLoyaltyCard API. Mazumtirgotāji var nodrošināt lojalitātes programmas kartes numuru šim API, kurš tiks izmantots lojalitātes programmas kartes ģenerēšanai, vai sistēma var izmantot programmā Dynamics 365 for Retail iestatīto lojalitātes programmas numuru sēriju. Taču, ja API izsaukšanas laikā nav nevienas numuru sērijas un mazumtirgotājs nenorāda lojalitātes programmas kartes numuru, tiek parādīta kļūda.
+- Mazumtirgotāji var ģenerēt lojalitātes programmas karšu numurus kanālos. Pirms 2018. gada oktobra atjauninājuma mazumtirgotāji varēja izmantot fiziskas lojalitātes kartes vai ģenerēt lojalitātes karti, izmantojot unikālu informāciju par klientu, piemēram, tālruņa numuru. Lai iespējotu lojalitātes programmas karšu automātisko ģenerēšanu mazumtirdzniecības veikalos, ar veikalu saistītajā funkcionalitātes profilā ieslēdziet opciju **Ģenerēt lojalitātes programmas kartes numuru**. Lai izsniegtu lojalitātes programmas kartes klientiem tiešsaistes kanālos, mazumtirgotāji var izmantot IssueLoyaltyCard API. Mazumtirgotāji var nodrošināt šim API lojalitātes programmas kartes numuru, kas tiks izmantots lojalitātes programmas kartes ģenerēšanai, vai arī sistēma izmanto programmā Dynamics 365 for Retail iestatīto lojalitātes programmas karšu numuru sēriju. Taču, ja API izsaukšanas laikā nav nevienas numuru sērijas un mazumtirgotājs nenorāda lojalitātes programmas kartes numuru, tiek parādīta kļūda.
 
     ![Lojalitātes programmas kartes ģenerēšana](./media/Generate%20loyalty%20card.png "Lojalitātes programmas kartes numura automātiska ģenerēšana")
 
@@ -118,12 +117,29 @@ Kā daļu no 2018. gada oktobra laidiena programma Retail ir ieguvusi jaunu loj
 
     ![Punkti, kam beidzas derīguma termiņš](./media/Expiring%20points.png "Derīguma termiņam tuvojošos punktu skatīšana")
     
-## <a name="upcoming-enhancements"></a>Gaidāmie uzlabojumi
 
-Programmas Dynamics 365 for Retail turpmākajos ikmēneša atjauninājumos kļūst pieejami tālāk aprakstītie līdzekļi.
-    
-- Klienti vēlas iespēju skatīt informāciju par savu lojalitātes programmas bilanci pret patērētāju vērstos kanālos. Līdzīgi ir arī svarīgi, lai kasieri varētu redzēt klienta vēsturi attiecībā uz lojalitātes programmas punktiem pārdošanas punktā MPOS/CPOS, lai spētu ātri atbildēt uz jebkādiem klienta vaicājumiem. Gaidāmajos ikmēneša laidienos klienti un kasieri varēs apskatīt informāciju par lojalitātes programmas vēsturi.
-- Daudzi mazumtirgotāji var piešķirt lojalitātes programmas punktus, tikai balstoties uz pārdošanas transakcijām, bet mazumtirgotāji, kas vairāk koncentrējas uz klientiem, vēlaties apbalvot savus klientiem par jebkādām mijiedarbībām ar šī mazumtirgotāja zīmolu. Piemēram, šie mazumtirgotāji vēlas sniegt atlīdzības par tiešsaistes aptaujas aizpildīšanu, veikala apmeklēšanu, mazumtirgotāju atzīmēšanu ar “patīk” tīklā Facebook, Twitter ziņu publicēšanu par šo mazumtirgotāju un citām aktivitātēm. Nākotnē mēs pievienosim iespēju piešķirt lojalitātes programmas punktus par klientu aktivitātēm. Lai to izdarītu, mazumtirgotājs var definēt tipu “Cits aktivitāšu tips” un definēt nopelnīšanas kārtulas šīm aktivitātēm. Mēs padarīsim pieejamu arī Retail Server API, ko var izsaukt, kad ir identificēta kāda aktivitāte, kura izmanto attiecīgo nopelnīšanas kārtulu, lai piešķirtu nepieciešamos lojalitātes programmas punktus.
-- Lai iespējotu visus kanālus patiesi aptverošu mazumtirdzniecības pieredzi, mēs ļausim klientiem nopelnīt un izpirkt lojalitātes programmas punktus visos kanālos.
-- Bezmaksas nosūtīšana vai nosūtīšana ar atlaidi ir viens no īpaši motivējošajiem faktoriem, lai klienti iepirktos tiešsaistē. Lai mazumtirgotāji varētu iestatīt sūtīšanas akcijas, mēs ieviesīsim jaunu akciju tipu, kurā mazumtirgotājs var definēt sliekšņus, pēc kuru sasniegšanas klienti kvalificējas sūtīšanai ar atlaidi vai bezmaksas sūtīšanai.
+- Versijas 8.1.3 laidienā zvanu centra kanālā ir iespējota opcija Maksāt ar lojalitātes programmas punktiem. Lai iespējotu šo opciju, izveidot lojalitātes programmas norēķinu veidu un saistiet to ar zvanu centru. 
 
+>[!NOTE]
+> Tā kā lojalitātes programmas maksājumi ir iestatīti kā maksājumu ar karti, lapā **Kartes iestatīšana** ir jāatlasa kāda karte. 
+
+![Lojalitātes programmas kartes iestatīšana](./media/LoyaltyCardSetup.png "Lojalitātes programmas kartes iestatīšana")
+
+Pēc šo iestatījumu veikšanas debitori var izpirkt savus lojalitātes programmas punktus zvanu centrā. Turklāt esam vēl vairāk uzlabojuši lietotāju pieredzi, nodrošinot parametra Summa, ko var apmaksāt ar lojalitātes punktiem, lai zvanu centra lietotāji varētu skatīt lojalitātes programmas bilanci, nepārejot uz citu ekrānu.
+
+- Daudzi mazumtirgotāji piešķir lojalitātes programmas punktus, pamatojoties tikai uz pārdošanas transakcijām, taču mazumtirgotāji, kas vairāk orientējas uz debitoriem, vēlas atlīdzināt debitoriem par jebkuru mijiedarbību ar attiecīgo zīmolu. Piemēram, šie mazumtirgotāji vēlas sniegt atlīdzības par tiešsaistes aptaujas aizpildīšanu, veikala apmeklēšanu, mazumtirgotāja profila atzīmēšanu ar Patīk pakalpojumāFacebook vai Twitter sīkziņu publicēšanu par šo mazumtirgotāju. Lai to izdarītu, mazumtirgotājs var definēt neierobežotu skaitu cita aktivitātes veida aktivitāšu un definēt tām attiecīgās pelnīšanas kārtulas. Ir pieejams arī pakļauts Retail Server API PostNonTransactionalActivityLoyaltyPoints, ko var izsaukt, kad tiek noteikta aktivitāte, par kuru debitoram ir jāpiešķir lojalitātes programmas punkti. Šim API ir nepieciešami parametri Lojalitātes kartes ID, Kanāla ID un Cita aktivitātes veida ID, lai varētu atrast debitoru, kuram ir jānodrošina atlīdzība, un noteikt šis aktivitātes pelnīšanas kārtulu. 
+
+    Punktu piešķiršana par aktivitātēm, kas nav saistītas ar transakcijām, parasti sastāv no divām galvenajām darbībām, kas ir norādītas tālāk.
+    - Noteikšana, ka ir notikusi aktivitāte, par kuru ir jānodrošina atlīdzība.
+    - Atbilstošā punktu skaita piešķiršana.
+
+    Pirmā ir ārpus programmas Microsoft Dynamics 365 for Retail veikta darbība, piemēram, Twitter sīkziņas publicēšana par zīmolu vai zīmola profila atzīmēšana ar Patīk pakalpojumā Facebook. Kad ir atpazīta šī aktivitāte, mazumtirgotāji var izsaukt iepriekš minēto Retail Server API un reāllaikā piešķirt lojalitātes programmas punktus. Šādos gadījumos nav nepieciešama pārskatīšanas darbība, jo ir notikusi aktivitāte un ir jāpiešķir atbilstošais punktu skaits. Taču noteiktos gadījumos mazumtirgotājs var vēlēties pārskatīt ierakstus pirms punktu piešķiršanas. Piemēram, mazumtirgotājs veikalā rīko semināru, kuram debitori var reģistrēties e-komercijas tīmekļa vietnē vai jebkurā citā notikumu reģistrācijas lietojumprogrammā. Taču lojalitātes programmas punkti ir jāpiešķir tikai tiem debitoriem, kuri ir ieradušies. Šādiem gadījumiem versijas 10.0 laidienā ir ietverts datu elements ar nosaukumu **Mazumtirdzniecības lojalitātes programmas citas aktivitātes veida rindas**. Šis datu elements sniedz mazumtirgotājiem iespēju izmantot datu importēšanas/eksportēšanas struktūru (Data Import/Export Framework — DIXF) vai OData API, lai reģistrētu aktivitātes, par kurām debitoriem ir jāpiešķir lojalitātes programmas punkti. Datu elements nodrošina aktivitāšu glabāšanu žurnālā ar nosaukumu **Citu aktivitāšu lojalitātes programmas rindas**, ko var izmantot pārskatīšanas un izmainīšanas nolūkiem. Pēc datu pārskatīšanas IT lietotājs var manuāli grāmatot aktivitāšu rindas vai izpildīt darbu ar nosaukumu **Apstrādāt cita aktivitātes veida lojalitātes programmas rindas**, kas nodrošina visu negrāmatoto aktivitāšu rindu grāmatošanu un punktu piešķiršanu debitoriem, pamatojoties uz pelnīšanas kārtulām. Iepriekš aprakstītajā gadījumā notikumu reģistrācijas lietojumprogramma izsauc OData API, lai nosūtītu debitora informāciju uz programmu Dynamics 365 for Retail. Taču IT lietotājs var grāmatot tikai to debitoru aktivitāšu rindas, kuri apmeklēja semināru, un dzēst citu debitoru aktivitāšu rindas. 
+
+> [!NOTE]
+> Pašlaik sistēma prasa lietotājiem piespiedu kārtā iestatīt numuru sēriju citiem aktivitātes veidiem, taču turpmākajos laidienos tā nebūs obligāta darbība. Lai iestatītu numuru sēriju, pārejiet uz sadaļu **Mazumtirdzniecības koplietojamie parametri > Numuru sērijas** un atlasiet numuru sēriju vienumam **Lojalitātes programmas cita aktivitātes veida ID**.
+
+- Lai debitoriem nodrošinātu labu apkalpošanu un ātri izpildītu debitoru pieprasījumus, ir svarīgi kasierim nodrošināt piekļuvi visam debitora profilam. Versijas 10.0 laidienā kasieris varēs POS sistēmā skatīt lojalitātes programmas vēstures informāciju, kā arī informāciju par saistīto lojalitātes programmu un pakāpi.
+- Bezmaksas nosūtīšana vai nosūtīšana ar atlaidi ir viens no īpaši motivējošajiem faktoriem, lai klienti iepirktos tiešsaistē. Lai mazumtirgotāji varētu iestatīt piegādes akcijas, versijas 10.0 laidienā ir ieviests jauns akcijas veids ar nosaukumu Piegādes sliekšņa atlaide, kurā mazumtirgotājs var definēt sliekšņus, pēc kuru sasniegšanas debitori var saņemt piegādes atlaidi vai bezmaksas piegādi. Piemēram, bezmaksas piegāde divu dienu laikā pasūtījumiem virs 35 USD vai bezmaksas piegāde divu dienu laikā visiem lojalitātes programmas debitoriem. Šīs atlaides attiecas tikai uz pasūtījumiem lietotajām piegādes maksām. Tā kā mazumtirgotājs var iestatīt vairākus maksu veidus, piemēram, apstrādes un uzstādīšanas maksas, mazumtirgotājam ir jānorāda, kuras maksas tiek uzskatītas par piegādes maksām. Šī konfigurācijas parametra nosaukums ir Piegādes maksu kods, un tas ir pieejams lapas **Mazumtirdzniecības parametri** cilnē **Debitoru pasūtījumi**. Šai atlaidei ir pieejamas visas esošās standarta atlaides iespējas, piemēram, iespēja mazumtirgotājam ierobežot šīs atlaides, izmantojot kuponus, lai šīs atlaides varētu saņemt tikai tie debitori, kuriem ir kuponi. Turklāt šīm atlaidēm tiek izmantota cenu grupu iespēja, lai noteiktu piemērotību šo atlaižu saņemšanai. Piemēram, mazumtirgotājs var izvēlēties izpildīt šīs akcijas tikai tiešsaistes kanālos un/vai visos kanālos noteiktām debitoru grupām, piemēram, lojalitātes programmas debitoriem. Ja pasūtījuma rindas ar norādīto piegādes režīmu atbilst definētajam slieksnim, tiek lietota piegādes atlaide un piegādes maksas tiek samazinātas, pamatojoties uz iestatīto atlaidi. 
+
+> [!NOTE]
+> Atšķirībā no citām periodiskajām atlaidēm, piemēram, daudzuma, vienkāršajām, komplekta un sliekšņa atlaidēm, piegādes atlaidei netiek izveidotas atlaižu rindas — piegādes maksas ir jārediģē tiešā veidā.

@@ -1,31 +1,30 @@
 ---
-title: "Pakalpojumu objektu saistības"
-description: "Ir iespējams izveidot pakalpojuma objekta relāciju starp pakalpojuma objektu un pakalpojumu līgumu vai pakalpojuma pasūtījumu."
+title: Pakalpojumu objektu saistības
+description: Ir iespējams izveidot pakalpojuma objekta relāciju starp pakalpojuma objektu un pakalpojumu līgumu vai pakalpojuma pasūtījumu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 03047b3eccf3c90d4cf7426ddaec83f10dbea1b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 0e54a0dc9b643077d45fe76e073772e81f99ea44
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314375"
 ---
-
 # <a name="service-object-relations"></a>Pakalpojumu objektu saistības 
 
 [!include [banner](../includes/banner.md)]
@@ -78,5 +77,4 @@ Piekļūstiet BOM Designer ar pakalpojumu objektu relācijas palīdzību.
 ## <a name="automatically-created-service-orders"></a>Automātiski izveidoti pakalpojumu pasūtījumi
 
 Ja pakalpojumu līgumam tiek automātiski izveidoti pakalpojuma pasūtījumi, tad pakalpojumu objektu relācijas līgumā tiek izveidotas arī pakalpojumu pasūtījumos.
-
 

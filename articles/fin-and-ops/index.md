@@ -1,37 +1,32 @@
 ---
-title: "Microsoft Dynamics 365 for Finance and Operations dokumentācija"
-description: "Microsoft Dynamics 365 for Finance and Operations dokumentācija."
+# required metadata
+title: Microsoft Dynamics 365 for Finance and Operations dokumentācija
+description: Dokumentācija programmai Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
 ---
 
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations dokumentācija
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations dokumentācija
 
 [!include [banner](includes/banner.md)]
 
-Uzziniet, kā programmu Microsoft Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā, izmantojot tālāk norādītos resursus, lai atrastu lietotājiem, izstrādātājiem un IT speciālistiem paredzētu lielisku saturu. 
+Uzziniet, kā programmu Microsoft Dynamics 365 for Finance and Operations izmantot sava uzņēmuma labā, izmantojot tālāk norādītos resursus, lai atrastu lietotājiem, izstrādātājiem un IT speciālistiem paredzētu lielisku saturu. 
 
-Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dynamics 365 for Retail un Microsoft Dynamics 365 for Talent. 
+Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dynamics 365 for Retail un Microsoft Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -43,7 +38,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">Pirms iegādes</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Reģistrācija priekšskatījuma abonementam</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Reģistrēšanās priekšskatījuma abonementam</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Izvietošanas opcijas izvēle</a></p>
  <p><a href="get-started/purchase-on-premises.md">Finance and Operations (lokālas versijas) iegāde</a></p>
 
@@ -53,10 +48,10 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <p><a href="imp-lifecycle/prepare-go-live.md">Sagatavošana palaišanai</a></p>
 
 <h3><a href="../financials/index.md">Finanšu pārvaldība</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable.md">Kreditori</a></p>
-<p><a href="../financials/accounts-receivable/accounts-receivable.md">Debitori</a></p>
+<p><a href="../financials/accounts-payable/accounts-payable.md">Parādi kreditoriem</a></p>
+<p><a href="../financials/accounts-receivable/accounts-receivable.md">Debitoru parādi</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Budžeta veidošana</a></p>
-<p><a href="../financials/cash-bank-management/cash-bank-management.md">Skaidras naudas un bankas pārvaldība</a></p>
+<p><a href="../financials/cash-bank-management/cash-bank-management.md">Kases un bankas vadība</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules.md">Atbilstība</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Izmaksu uzskaite</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">Pamatlīdzekļi</a></p>
@@ -88,7 +83,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Informācija</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Analīze</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">Biznesa dokumenti</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Finanšu pārskati</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Finanšu pārskatu veidošana</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting.md">Normatīvajos aktos paredzēto pārskatu veidošana</a></p>
 
 
@@ -115,7 +110,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 </td>
 <td>
 <h3>Saistītie produkti</h3>
-<h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
+<h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Zvanu centrs</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Kanāla iestatīšana un pārvaldība</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS un Cloud POS</p>
@@ -131,4 +126,3 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Microsoft Dyn
 
 </tbody>
 </table>
-

@@ -1,35 +1,34 @@
 ---
-title: "Pamatlīdzekļu pārvaldības darbvieta"
-description: "Šajā tēmā ir sniegta informācija par darbvietu Pamatlīdzekļu pārvaldība. Šajā darbvietā tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Tā ietver kopsavilkuma skatu un analīzes skatu."
+title: Pamatlīdzekļu pārvaldības darbvieta
+description: Šajā tēmā ir sniegta informācija par darbvietu Pamatlīdzekļu pārvaldība. Šajā darbvietā tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Tā ietver kopsavilkuma skatu un analīzes skatu.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352325"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>Pamatlīdzekļu pārvaldības darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Darbvietā **Pamatlīdzekļu pārvaldība** tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Šajā darbvietā ir ietverts kopsavilkuma skats analīzes skats. Cilnē **Mans darbs** tiek rādīti kopsavilkuma elementi, detalizēta informācija par pamatlīdzekli un saistīta informācija par pamatlīdzekļiem pašreizējā uzņēmumā. Power BI analīzes sadaļai tieši darbvietā varat pievienot arī analīzes iespējas. Cilnē **Analīze – visi uzņēmumi** izmanto Microsoft Power BI iespējas, lai rādītu ar pamatlīdzekļiem visos uzņēmumos saistīto vizuālo informāciju.
+Darbvietā **Pamatlīdzekļu pārvaldība** tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Šajā darbvietā ir ietverts kopsavilkuma skats analīzes skats. Cilnē **Mans darbs** tiek rādīti kopsavilkuma elementi, detalizēta informācija par pamatlīdzekli un saistīta informācija par pamatlīdzekļiem pašreizējā uzņēmumā. Varat arī tiešā vieda darbvietā pievienot analīzes iespējas Power BI analīzes sadaļai. Cilnē **Analīze — visi uzņēmumi** tiek izmantotas Microsoft Power BI iespējas, lai parādītu vizuālo informāciju, kas ir saistīta ar pamatlīdzekļiem visos uzņēmumos.
 
 ## <a name="my-work"></a>Mans darbs
 
@@ -75,4 +74,3 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 | Novērtējumu kartes        | Pamatlīdzekļu detalizēta informācija |
 
 Lai skatītu analīzi ar datiem, vispirms ir jāatsvaidzina apkopošanas mērījums AssetTransactionMeasure lapā **Elementu krātuve**.
-

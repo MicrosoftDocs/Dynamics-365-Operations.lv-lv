@@ -1,13 +1,13 @@
 ---
-title: "Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai"
-description: "Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai."
+title: Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai
+description: Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: fab099ccd8f3dd9269143670fee0abdc24ff4782
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0c82abe7a34d5882611f0fbd54b2817d54c11eaa
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371271"
 ---
-
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai
 
 [!include [banner](../includes/banner.md)]
@@ -53,11 +52,10 @@ Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā un P
 </tr>
 <tr class="odd">
 <td>Pārbaudīt rēķina numuru</td>
-<td>Ja ir atzīmēta šī opcija, tad rēķina grāmatošanas procesa laikā sistēma pārbauda, vai šāds rēķina numurs grāmatotajiem rēķiniem jau nepastāv. Ja šāds numurs pastāv, tiek parādīts kļūdas ziņojums.</td>
+<td>Ja ir atlasīta šī opcija, tad rēķina grāmatošanas procesa laikā sistēma pārbauda, vai šāds rēķina numurs jau nav piešķirts kādam no grāmatotajiem rēķiniem. Ja šāds numurs pastāv, tiek parādīts kļūdas ziņojums.</td>
 </tr>
 </tbody>
 </table>
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Pasūtījumu izveides termiņi"
-description: "Šajā rakstā ir sniegta informācija par pasūtījuma izveides termiņiem. Pasūtījuma izveides termiņš ir pēdējais laiks, kas nosaka, vai debitora pasūtījums tiek apstrādāts (un izpildīts) tā, it kā tas būtu jāsaņem šodien vai nākamajā dienā."
+title: Pasūtījumu izveides termiņi
+description: Šajā rakstā ir sniegta informācija par pasūtījuma izveides termiņiem. Pasūtījuma izveides termiņš ir pēdējais laiks, kas nosaka, vai debitora pasūtījums tiek apstrādāts (un izpildīts) tā, it kā tas būtu jāsaņem šodien vai nākamajā dienā.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 412ab5e2e411a93da2424cb8959b4270594bbf57
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308763"
 ---
-
 # <a name="order-entry-deadlines"></a>Pasūtījumu izveides termiņi
 
 [!include [banner](../includes/banner.md)]
@@ -107,7 +106,6 @@ Tabulā parādīts, kā pasūtījumu izveides termiņi A un B vietā tiek pārve
 --------
 
 [Piegādes grafiki](delivery-schedules.md)
-
 
 
 

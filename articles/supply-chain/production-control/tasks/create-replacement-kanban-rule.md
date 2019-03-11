@@ -1,13 +1,13 @@
---- 
-title: "Aizstāšanas Kanban kārtulas izveide"
-description: "Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu kanban nosacījumu noteiktā datumā."
+---
+title: Aizstāšanas Kanban kārtulas izveide
+description: Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu kanban nosacījumu noteiktā datumā.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c8a9367d4796999857e473bcbe36a709d534f3b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362284"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Aizstāšanas Kanban kārtulas izveide
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a>Modificējiet maksimālo daudzumu kanban nosacījuma nomaiņai
 1. Iestatiet maksimālo daudzumu uz "100".
     * Izvērsiet daudzumu kopsavilkuma cilni, lai redzētu lauku Maksimālais daudzums. Nomainot maksimālo daudzumu uz 100, ļaus apstrādāt līdz pat 100 kanban.    Šā ir pēdējā darbība šajā uzdevumā.  
-
 

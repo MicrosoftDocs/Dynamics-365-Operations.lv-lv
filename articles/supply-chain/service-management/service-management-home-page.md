@@ -1,32 +1,30 @@
 ---
-title: "Pakalpojumu pārvaldība"
-description: "Izmantojiet sadaļu Pakalpojumu pārvaldība, lai izveidotu pakalpojumu līgumus un pakalpojumu abonementus, apstrādātu pakalpojumu pasūtījumus un klientu pieprasījumus, un lai pārvaldītu un analizētu pakalpojumu piegādes klientiem."
+title: Pakalpojumu pārvaldība
+description: Izmantojiet sadaļu Pakalpojumu pārvaldība, lai izveidotu pakalpojumu līgumus un pakalpojumu abonementus, apstrādātu pakalpojumu pasūtījumus un klientu pieprasījumus, un lai pārvaldītu un analizētu pakalpojumu piegādes klientiem.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
 ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343815"
 ---
-
-
 # <a name="service-management"></a>Pakalpojumu pārvaldība 
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +48,7 @@ Lietojiet atskaišu rīkus, lai pārraudzītu pakalpojumu pasūtījuma summas un
 
 ## <a name="business-processes"></a>Biznesa procesi
 
-Nākamajā diagrammā ir parādīti augstā līmeņa biznesa procesi modulim **Pakalpojumu pārvaldība**, kā arī parādīts, kur pakalpojuma procesi iekļaujas citos moduļos programmatūrā Microsoft Dynamics 365 for Finance and Operations.
+Tālāk esošajā diagrammā ir parādīti moduļa **Pakalpojumu pārvaldība** augsta līmeņa biznesa procesi un ir norādīts, kur apkalpošanas procesi ir integrēti citos Microsoft Dynamics 365 for Finance and Operations moduļos.
 
 [![Pakalpojumu pārvaldības biznesa procesu diagramma](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
@@ -72,5 +70,4 @@ Pakalpojumu pārvaldību var integrēt ar šādiem moduļiem:
   - [Personāla vadība](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   
-
 

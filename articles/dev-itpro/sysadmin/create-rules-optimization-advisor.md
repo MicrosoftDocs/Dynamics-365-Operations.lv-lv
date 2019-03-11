@@ -1,32 +1,31 @@
 ---
-title: "Kārtulu izveide optimizācijas padomniekam"
-description: "Šajā tēmā ir aprakstīts, kā pievienot jaunas kārtulas darbvietai Optimizācijas padomnieks."
+title: Kārtulu izveide optimizācijas padomniekam
+description: Šajā tēmā ir aprakstīts, kā pievienot jaunas kārtulas darbvietai Optimizācijas padomnieks.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354165"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>Kārtulu izveide optimizācijas padomniekam
 
 [!include [banner](../includes/banner.md)]
@@ -103,11 +102,11 @@ Vēl divas metodes, kas jāievieš, ir **opportunityTitle** un **opportunityDeta
 
 Metodes **opportunityTitle** atgrieztais nosaukums tiek parādīts darbvietas **Optimizācijas padomnieks** kolonnā **Optimizācijas iespēja**. Tas ir redzams arī kā galvene sānu rūtī, kurā parādīta papildinformācija par iespēju. Parasti šai metodei tiek piešķirts atribūts **DiagnosticRuleSubscription**, kas izmanto tālāk norādītos argumentus. 
 
-* **Diagnostikas apgabals** — tipa**DiagnosticArea** uzskaitījums, kas apraksta, kuram programmas apgabalam kārtula pieder, piemēram, **DiagnosticArea::SCM**. 
+* **Diagnostikas apgabals** — tipa **DiagnosticArea** uzskaitījums, kas norāda, kuram lietojumprogrammas apgabalam pieder kārtula, piemēram, **DiagnosticArea::SCM**. 
 
 * **Kārtulas nosaukums** — virkne ar kārtulas nosaukumu. Tas tiks parādīts formas **Diagnostikas apstiprināšanas kārtula** kolonnā **Kārtulas nosaukums** (**DiagnosticsValidationRuleMaintain**). 
 
-* **Izpildes biežums** — tipa **DiagnosticRunFrequency** uzskaitījums, kas apraksta, cik bieži ir jāpalaiž kārtula, piemēram, **DiagnosticRunFrequency::Daily**. 
+* **Izpildes biežums** — tipa **DiagnosticRunFrequency** uzskaitījums, kas norāda, cik bieži ir jāpalaiž kārtula, piemēram, **DiagnosticRunFrequency::Daily**. 
 
 * **Kārtulas apraksts** — virkne, kas sniedz detalizētāku kārtulas aprakstu. Tas tiks parādīts formas **Diagnostikas apstiprināšanas kārtula** kolonnā **Kārtulas apraksts** (**DiagnosticsValidationRuleMaintain**). 
 
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 Kārtula tiks parādīta formā **Diagnostikas apstiprināšanas kārtula**, kas pieejama, atverot sadaļas **Sistēmas administrēšana** > **Periodiskie uzdevumi** > **Uzturēt diagnostikas apstiprināšanas kārtulu**. Lai tā tiktu novērtēta, atveriet sadaļas **Sistēmas administrēšana** > **Periodiskie uzdevumi** > **Ieplānot diagnostikas apstiprināšanas kārtulu** un atlasiet kārtulas biežumu, piemēram, **Katru dienu**. Noklikšķiniet uz **Labi**. Lai skatītu jauno iespēju, atveriet sadaļas **Sistēmas administrēšana** > **Optimizācijas padomnieks**. 
 
-Tālāk esošais piemērs ir koda fragments ar kārtulas karkasu, tostarp visām nepieciešamajām metodēm un atribūtiem. Tas palīdz jums sākt rakstīt jaunas kārtulas. Piemērā izmantotās etiķetes un darbības izvēlnes vienumi ir paredzēti tikai demonstrācijas nolūkiem.
+Tālāk esošais piemērs ir koda fragments ar kārtulas karkasu, tostarp visām nepieciešamajām metodēm un atribūtiem. Tas palīdz jums sākt rakstīt jaunas kārtulas. Piemēra ietvaros izmantotās etiķetes un darbību izvēlnes vienumi ir izmantoti tikai demonstrācijas nolūkos.
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Lai uzzinātu plašāku informāciju, noskatieties īso YouTube video: [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
+Lai iegūtu papildinformāciju, skatiet īso YouTube video: [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

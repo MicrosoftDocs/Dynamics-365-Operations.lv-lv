@@ -1,13 +1,13 @@
 ---
-title: "Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Projekta laika ieraksts. Šajā darbvietā lietotāji, izmantojot savu mobilo ierīci, var ievadīt un saglabāt laiku attiecībā pret projektu."
+title: Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Projekta laika ieraksts. Šajā darbvietā lietotāji, izmantojot savu mobilo ierīci, var ievadīt un saglabāt laiku attiecībā pret projektu.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333005"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Projekta laika ieraksts**. Šajā darbvietā lietotāji, izmantojot savu mobilo ierīci, var ievadīt un saglabāt laiku attiecībā pret projektu.
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations. 
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile 
 
 ## <a name="overview"></a>Pārskats
 Kā daļa no ikdienas darba projektu resursi bieži vien atrodas uz vietas vai ceļā. Mobilā darbvieta **Projekta laika ieraksts** lietotājiem pašu izvēlētā mobilajā ierīcē ļauj ievadīt apmaksājamo vai neapmaksājamo laiku attiecībā uz projektu. Tāpēc projekta resursi laika ierakstus var reģistrēt jebkurā laikā un vietā. Tāpat viņi var arī skatīt jau reģistrētos laika ierakstus. 
@@ -48,11 +47,11 @@ Jo īpaši **Projekta laika ieraksts** mobilo darbvietā, lietotāji var veikt �
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi
-Ja jūsu organizācijai ir izvietota programmatūra Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Projekta laika ieraksts**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Projekta laika ieraksts**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
+Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
 
 <table>
 <thead>
@@ -69,7 +68,7 @@ Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versi
 <td>Sistēmas administrators</td>
 <td>KB 4018050 ir X++ atjauninājums vai metadatu labojumfails, kas ietver mobilo darbvietu <strong>Projekta laika ieraksts</strong>. Lai ieviestu KB 4018050, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojama pakotni,</a> kas ietver modeļus <strong>ApplicationSuite</strong> un <strong>ProjectMobile</strong>, un pēc tam šo izvietojamo pakotni augšupielādējiet pakalpojumā LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</li>
@@ -114,4 +113,3 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 11. Atlasiet rindas rekvizītu.
 12. Pēc izvēles: ievadiet jebkādus ārējus un iekšējus komentārus.
 13. Atlasiet **Gatavs**.
-

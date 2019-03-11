@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas veiktspējas Power BI saturs"
-description: "Šajā tēmā ir aprakstīts, kas ir iekļauts ražošanas veiktspējas Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Ražošanas veiktspēja
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Ražošanas veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,38 +16,37 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365964"
 ---
-
-# <a name="production-performance-power-bi-content"></a>Ražošanas veiktspējas Power BI saturs
+# <a name="production-performance-power-bi-content"></a>Power BI satura pakotne Ražošanas veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts **ražošanas veiktspējas** Microsoft Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Ražošanas veiktspēja**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
-**Ražošanas veiktspējas** Power BI saturs paredzēts ražošanas vadītājiem vai organizācijas darbiniekiem, kuri ir atbildīgi par ražošanas kontroli.
+Power BI satura pakotne **Ražošanas veiktspēja** ir paredzēts ražošanas vadītājiem vai organizācijas darbiniekiem, kuri ir atbildīgi par ražošanas kontroli.
 
-Iekļautajos pārskatos varat izmantot Power BI, lai uzraudzītu ražošanas darbību veiktspēju attiecībā uz savlaicīgu izpildi, kvalitāti un izmaksām. Pārskatos tiek izmantoti transakciju dati no ražošanas pasūtījumiem un partijas pasūtījumiem, un tie nodrošina uzņēmuma ražošanas metrikas apkopojuma un metrikas sadalījuma pēc produkta un resursa skatus.
+Iekļautie pārskati sniedz iespēju izmantot pakalpojumu Power BI, lai uzraudzītu ražošanas darbību veiktspēju attiecībā uz savlaicīgu izpildi, kvalitāti un izmaksām. Pārskatos tiek izmantoti transakciju dati no ražošanas pasūtījumiem un partijas pasūtījumiem, un tie nodrošina uzņēmuma ražošanas metrikas apkopojuma un metrikas sadalījuma pēc produkta un resursa skatus.
 
-Power BI saturs izceļ organizācijas spēju savlaicīgi un pilnībā izpildīt ražošanas procesus. Nākotnes veiktspēja tiek prognozēta, pamatojoties uz ražošanas plāniem. Visaptveroši pārskati sniedz detalizētu ieskatu par produktu brāķiem, ko izraisa ražošana, kā arī par brāķu proporcijām attiecībā uz resursiem un operācijām.
+Power BI satura pakotne sniedz ieskatu par organizācijas spēju savlaicīgi un pilnībā izpildīt ražošanas procesus. Nākotnes veiktspēja tiek prognozēta, pamatojoties uz ražošanas plāniem. Visaptveroši pārskati sniedz detalizētu ieskatu par produktu brāķiem, ko izraisa ražošana, kā arī par brāķu proporcijām attiecībā uz resursiem un operācijām.
 
-Šis Power BI saturs ļauj arī analizēt ražošanas novirzes. Ražošanas novirzes tiek aprēķinātas kā novērtēto izmaksu un realizēto izmaksu starpība. Ražošanas novirzes tiek aprēķinātas, ja ražošanas pasūtījumiem vai partijas pasūtījumiem ir statuss **Pabeigts**.
+Šī Power BI satura pakotne sniedz arī iespēju analizēt ražošanas novirzes. Ražošanas novirzes tiek aprēķinātas kā novērtēto izmaksu un realizēto izmaksu starpība. Ražošanas novirzes tiek aprēķinātas, ja ražošanas pasūtījumiem vai partijas pasūtījumiem ir statuss **Pabeigts**.
 
-**Ražošanas veiktspējas** Power BI saturā ir iekļauti dati no ražošanas pasūtījumiem un partijas pasūtījumiem. Pārskatos nav iekļauti dati, kas ir saistīti ar Kanban ražošanām.
+Power BI satura pakotnē **Ražošanas veiktspēja** ir iekļauti dati no ražošanas pasūtījumiem un partijas pasūtījumiem. Pārskatos nav iekļauti dati, kas ir saistīti ar Kanban ražošanām.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražošanas veiktspēja** (**Ražošanas kontrole** \> **Pieprasījumi un pārskati**\> **Ražošanas veiktspējas analīze** \> **Ražošanas veiktspēja**). 
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražošanas veiktspēja** (**Ražošanas kontrole** \> **Pieprasījumi un pārskati** \> **Ražošanas veiktspējas analīze** \> **Ražošanas veiktspēja**). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI saturā iekļautā metrika
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji
 
-**Ražošanas veiktspējas** Power BI saturā ir iekļauta pārskata lapu kopa. Katra lapa sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas.
+Power BI satura pakotnē **Ražošanas veiktspēja** ir iekļauta pārskata lapu kopa. Katra lapa sastāv no rādītāju kopas, kuri ir vizualizēti kā diagrammas, elementi un tabulas.
 
 Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām, kas ir iekļautas.
 
@@ -63,9 +62,9 @@ Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām, kas ir i
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
-**Ražošanas veiktspējas** Power BI satura pārskatu lapās tiek lietoti tālāk minētie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju par elementu veikalu lasiet emuārā [Power BI integrācija elementu krātuvē programmatūrā Dynamics](power-bi-integration-entity-store.md).
+Power BI satura pakotnes **Ražošanas veiktspēja** pārskatu lapās tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju par elementu krātuvi skatiet rakstā [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
 
-Sekojošajā tabulā redzami galvenie apkopošanas mērījumi, kas tiek izmantoti kā Power BI satura pamatdati.
+Tālāk esošajā tabulā ir norādīti galvenie apkopošanas mērījumi, kas tiek izmantoti Power BI satura pakotnes izveidei.
 
 | Elements                   | Galvenie apkopošanas mērījumi  | Dynamics 365 for Finance and Operations datu avots | Lauks              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
@@ -130,4 +129,3 @@ Sekojošajā tabulā ir norādītās galvenās dimensijas, kas tiek izmantotas k
 | Elementi                  | ID un nosaukums                                                   |
 | Resursi                 | Resursa ID, resursa nosaukums, resursa veids un resursu grupa |
 | Preces                  | Preces numurs, preces nosaukums, krājuma ID un krājumu grupa         |
-

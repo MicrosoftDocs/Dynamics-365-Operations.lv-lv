@@ -1,13 +1,13 @@
 ---
-title: "Noliktavas konfigurācija"
-description: "Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus."
+title: Noliktavas konfigurācija
+description: Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318446"
 ---
-
 # <a name="warehouse-configuration"></a>Noliktavas konfigurācija
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 **Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas pārvaldība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
-Noliktavas pārvaldības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations nodrošina pielāgojamus veidus, kā definēt noliktavas izkārtojumu atbilstoši mainīgajām vajadzībām, lai varētu sasniegt optimālu noliktavas efektivitāti.
+Noliktavu vadības sistēma programmatūrā Microsoft Dynamics 365 for Finance and Operations sniedz jums elastīgus veidus, kā definēt savas noliktavas izkārtojumu, lai tas atbilstu mainīgajām vajadzībām, tāpēc varat sasniegt optimālu noliktavas efektivitāti.
 
 -   Optimālai preču izvietošanai varat izveidot augstas prioritātes un zemas prioritātes glabāšanas zonas.
 -   Noliktavas varat sadalīt zonās, lai pielāgotos dažādām glabāšanas vajadzībām, piemēram, temperatūras prasībām vai dažādiem krājumu apgrozījuma ātrumiem.
@@ -116,7 +115,6 @@ Lai varētu vieglāk un ātrāk definēt darbības, kas ir saistītas ar katru n
 --------
 
 [Novietojumu konfigurēšana noliktavā ar iespējotu NPS (uzdevuma ceļvedis)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Analīzes pievienošana darbvietām, izmantojot Power BI Embedded"
-description: "Šajā tēmā ir parādīts, kā iegult Power BI pārskatu darbvietas cilnē Analīze."
+title: Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
+description: Šajā tēmā ir aprakstīts, kā iegult Power BI pārskatu darbvietas cilnē Analīze.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355223"
 ---
-
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes pievienošana darbvietām, izmantojot Power BI Embedded
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šis līdzeklis tiek atbalstīts programmā Dynamics 365 for Finance and Operations (versija 7.2 un jaunākas versijas).
+> Šis līdzeklis tiek atbalstīts programmā Dynamics 365 for Finance and Operations (7.2 un jaunākās versijās).
 
 ## <a name="introduction"></a>Ievads
-Šajā tēmā ir parādīts, kā iegult Microsoft Power BI pārskatu darbvietas cilnē **Analīze**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
+Šajā tēmā ir aprakstīts, kā iegult Microsoft Power BI pārskatu darbvietas cilnē **Analīze**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 + Piekļuve izstrādātāju videi, kas darbina platformas 8. atjauninājumu vai jaunāku atjauninājumu.
-+ Analītisks pārskats (.pbix fails), kas tika izveidots, izmantojot programmu Microsoft Power BI Desktop, un kam ir no elementu krātuves datu bāzes iegūts datu modelis.
++ Analītisks pārskats (.pbix formāta fails), kurš ir izveidots, izmantojot Microsoft Power BI Desktop, un kura datu modelis ir iegūts no elementu krātuves datu bāzes.
 
 ## <a name="overview"></a>Pārskats
 Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat jaunu darbvietu, varat izmantot iegultos analītiskos skatus, lai nodrošinātu visaptverošus un interaktīvus biznesa datu skatus. Analītiskās darbvietas cilnes pievienošanas procesā ir četras darbības.
@@ -46,12 +45,12 @@ Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat j
 4. Neobligāti: pievienojiet paplašinājumus, lai pielāgotu skatu.
 
 > [!NOTE]
-> Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šī lapa ir lielisks informācijas avots, kas var palīdzēt jums izveidot pārliecinošus analītisko pārskatu risinājumus.
+> Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šī lapa ir lielisks informācijas avots, kas var palīdzēt jums izveidot pārliecinošus analītisko pārskatu risinājumus.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>.pbix faila kā resursa pievienošana
-Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvietā. Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Pirms sākat, izveidojiet vai iegūstiet Power BI pārskatu, ko iegulsit darbvietā. Papildinformāciju par to, kā izveidot analītiskus pārskatus, skatiet rakstā [Darba sākšana ar Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
-Izpildiet tālāk norādītās darbības, lai pievienotu .pbix failu kā Visual Studio projekta artefaktu.
+Izpildiet tālāk norādītās darbības, lai pievienotu .pbix formāta failu kā Visual Studio projekta artefaktu.
 
 1. Izveidojiet jaunu projektu atbilstošajā modelī.
 2. Risinājumu pārlūkā atlasiet projektu, noklikšķiniet uz tā ar peles labo pogu un pēc tam atlasiet **Pievienot** \> **Jauns vienums**.
@@ -69,7 +68,7 @@ Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Cilnes vadīklas pievienošana programmas darbvietai
 Šajā piemērā paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības modelī, pievienojot cilni **Analīze** formas **FMClerkWorkspace** definīcijai.
 
-Tālāk esošajā attēlā parādīts, kā forma **FMClerkWorkspace** izskatās Microsoft Visual Studio noformētājā.
+Tālāk esošajā attēlā ir parādīts, kā izskatās forma **FMClerkWorkspace** Microsoft Visual Studio noformētājā.
 
 ![Forma FMClerkWorkspace pirms izmaiņām](media/analytical-workspace-definition-before.png)
 
@@ -154,7 +153,7 @@ Esat pabeidzis uzdevumu ar biznesa loģikas pievienošanu, kas inicializē iegul
 ## <a name="reference"></a>Atsauce
 
 ### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl metode
-Šajā sadaļā sniegta informācija par palīga klasi, kas tiek izmantota, lai Power BI pārskatu (.pbix resursu) iegultu formu grupas vadīklā.
+Šajā sadaļā ir sniegta informācija par palīga klasi, kas tiek izmantota, lai iegultu Power BI pārskatu (.pbix formāta resursu) formu grupas vadīklā.
 
 #### <a name="syntax"></a>Sintakse
 ```
@@ -172,9 +171,8 @@ public static void initializeReportControl(
 | Nosaukums             | Apraksts                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------|
 | resourceName     | .pbix resoursa nosaukums.                                                                              |
-| formGroupControl | Formu grupas vadīkla, kam jālieto Power BI pārskatu vadīkla.                                              |
+| formGroupControl | Formu grupas vadīkla, kam ir jālieto Power BI pārskatu vadīkla.                                              |
 | defaultPageName  | Noklusējuma lapas nosaukums.                                                                                       |
 | showFilterPane   | Būla vērtība, kas norāda, vai filtra rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**).     |
 | showNavPane      | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**). |
-| defaultFilters   | Noklusējuma filtri Power BI pārskatam.                                                                 |
-
+| defaultFilters   | Power BI pārskata noklusējuma filtri.                                                                 |

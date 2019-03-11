@@ -1,13 +1,13 @@
 ---
-title: "Pārdošanas punkta (POS) programma un lietotāja valodas iestatījumi"
-description: "Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS."
+title: Pārdošanas punkta (POS) programma un lietotāja valodas iestatījumi
+description: Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336754"
 ---
-
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Pārdošanas punkta (POS) programma un lietotāja valodas iestatījumi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS.
+Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Retail Modern POS (MPOS) un Cloud POS.
 
 ## <a name="overview"></a>Pārskats
 
-Programmas Retail Modern POS (MPOS) un Cloud POS atbalsta vides, kurās veikala un lietotāja iestatījumos var atšķirties valodas iestatījumi un tulkojumi. Piemēram, veikals var atrasties reģionā, kur vairums debitoru runā angļu valodā, taču daži nodarbinātie vēlas izmantot lietojumprogrammu ar tulkojumiem franču valodā.
+Programmas Retail Modern POS (MPOS) un Cloud POS atbalsta vides, kurās veikala un lietotāja iestatījumos var tikt izmantoti dažādi valodas iestatījumi un tulkojumi. Piemēram, veikals var atrasties reģionā, kur vairums debitoru runā angļu valodā, taču daži nodarbinātie vēlas izmantot lietojumprogrammu ar tulkojumiem franču valodā.
 
 ## <a name="data-language"></a>Datu valoda
 
@@ -67,4 +66,3 @@ POS lietotāja valodas iestatījums tiek iestatīts, lapas **Darbinieks** sadaļ
 | **Uzņēmums** | Noklusējums                    | Noklusējums                                                       |
 | **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                             |
 | **Lietotājs**    | Ignorē veikalu vai uzņēmumu | Nekad                                                         |
-

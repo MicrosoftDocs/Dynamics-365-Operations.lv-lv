@@ -1,13 +1,13 @@
 ---
-title: "Pieprasījuma prognozēšanas iestatīšana"
-description: "Šajā tēmā ir aprakstīti iestatīšanas uzdevumi, kas jāizpilda, sagatavotos pieprasījuma prognozēšanas izpildei."
+title: Pieprasījuma prognozēšanas iestatīšana
+description: Šajā tēmā ir aprakstīti iestatīšanas uzdevumi, kas jāizpilda, sagatavotos pieprasījuma prognozēšanas izpildei.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330452"
 ---
-
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
 [!include [banner](../includes/banner.md)]
@@ -43,11 +42,11 @@ Krājumam un tā dimensijām jābūt iekļautiem tikai vienā krājumu sadalīju
 Lai krājumu sadalījuma principam pievienotu noliktavas vienību (stock keeping unit — SKU), dodieties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Pieprasījuma prognozēšana** &gt; **Krājumu sadalījuma principi**. Lai piešķirtu krājumu sadalījuma principam, izmantojiet lapu **Krājumu piešķiršana**.
 
 ## <a name="intercompany-planning-groups"></a>Starpuzņēmumu plānošanas grupas
-Pieprasījuma prognozēšanas laikā tiek izveidotas starpuzņēmumu prognozes. Programmatūrā Microsoft Dynamics 365 for Finance and Operations uzņēmumi, kuriem tiek kopā veikta plānošana, tiek grupēti vienā starpuzņēmumu plānošanas grupā. Lai katram uzņēmumam norādītu, kuri krājumu sadalījuma principi jāņem vērā, veicot pieprasījuma prognozēšanu, krājumu sadalījuma princips ir jāsaista ar starpuzņēmumu plānošanas grupas dalībnieku, dodoties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Starpuzņēmumu plānošanas grupas**. 
+Pieprasījuma prognozēšanas laikā tiek izveidotas starpuzņēmumu prognozes. Programmā Microsoft Dynamics 365 for Finance and Operations uzņēmumi, kuriem plānošana tiek veikta kopā, tiek grupēti vienā starpuzņēmumu plānošanas grupā. Lai katram uzņēmumam norādītu, kuri krājumu sadalījuma principi jāņem vērā, veicot pieprasījuma prognozēšanu, krājumu sadalījuma princips ir jāsaista ar starpuzņēmumu plānošanas grupas dalībnieku, dodoties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Starpuzņēmumu plānošanas grupas**. 
 
 Pēc noklusējuma, ja starpuzņēmumu plānošanas grupas dalībniekiem nav piešķirts neviens krājumu sadalījuma princips, pieprasījuma apjoma prognoze tiek aprēķināta visiem krājumiem, kas ir piešķirti visiem krājumu sadalījuma principiem visos Dynamics 365 for Finance and Operations uzņēmumos. Lapā **Statistiskās bāzlīnijas prognozes ģenerēšana** ir pieejamas papildu uzņēmumu un krājumu sadalījuma principu filtrēšanas opcijas. 
 
-Pārskatiet prognozēto krājumu skaitu. Nevajadzīgie krājumi var radīt izmaksu palielināšanos, ja tiek izmantots pakalpojums Microsoft Azure Machine Learning.
+Pārskatiet prognozēto krājumu skaitu. Nevajadzīgie krājumi var izraisīt izmaksu palielināšanos, ja izmantojat Microsoft Azure algoritmisko mācīšanos.
 
 ## <a name="demand-forecasting-parameters"></a>Pieprasījuma prognozēšanas parametri
 Lai iestatītu pieprasījuma prognozēšanas parametrus, dodieties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Pieprasījuma prognozēšanas parametri**. Tā kā pieprasījuma prognozēšana ietver starpuzņēmumus, iestatījumiem ir globāla nozīme. Tas nozīmē, ka iestatījumi attiecas uz visiem uzņēmumiem. 
@@ -64,7 +63,7 @@ Jebkurā brīdī dimensiju sarakstam var pievienot pieprasījuma prognozēšanā
 
 No pieprasījuma prognozēšanas perspektīvas uz visiem krājumi neattiecas vienādi principi. Līdzīgus krājumus var grupēt pēc viena krājumu sadalījuma principa, un parametrus, piemēram, transakcijas tipus un prognozes metodes iestatījumus, var iestatīt katram krājumu sadalījuma principam. Noklikšķiniet uz **Krājumu sadalījuma princips** lapas **Pieprasījuma prognozēšanas parametri** kreisajā rūtī. 
 
-Lai ģenerētu prognozi, programmatūrā Dynamics 365 for Finance and Operations tiek izmantots algoritmiskās mācīšanās tīmekļa pakalpojums. Ja pierakstāties pakalpojumā Microsoft Azure Machine Learning Studio, lai izveidotu savienojumu ar pakalpojumu, programmatūrā Dynamics 365 for Finance and Operations ir jāievada tālāk norādītā informācija.
+Lai ģenerētu prognozi, programmatūrā Dynamics 365 for Finance and Operations tiek izmantots algoritmiskās mācīšanās tīmekļa pakalpojums. Ja pierakstāties pakalpojumā Microsoft Azure Machine Learning Studio, tad, lai izveidotu savienojumu ar pakalpojumu, programmā Finance and Operations ir jāievada tālāk norādītā informācija.
 
 -   Tīmekļa pakalpojuma lietojumprogrammas interfeisa (API) atslēga
 -   Tīmekļa pakalpojuma galapunkta URL
@@ -86,7 +85,6 @@ Lai skatītu Dynamics 365 for Finance and Operations pieprasījuma prognozēša
 [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
 
 [Manuālu bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
-
 
 
 

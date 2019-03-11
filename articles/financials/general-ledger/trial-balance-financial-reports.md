@@ -1,13 +1,13 @@
 ---
-title: "Apgrozījuma bilances finanšu pārskati"
-description: "Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām."
+title: Apgrozījuma bilances finanšu pārskati
+description: Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309108"
 ---
-
 # <a name="trial-balance-financial-reports"></a>Apgrozījuma bilances finanšu pārskati
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 <a name="default-trial-balance-reports"></a>Noklusējuma apgrozījuma bilances pārskati
 -----------------------------
 
-Microsoft Dynamics 365 for Finance and Operations modulī Finanšu pārskati ir pieejami trīs apgrozījuma bilances pārskati.
+Microsoft Dynamics 365 for Finance and Operations finanšu pārskatu veidošanas vidē pieejami trīs apgrozījuma bilances pārskati.
 
 | Noklusējuma pārskats                                 | Ko tā dara                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +107,6 @@ Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija. Š�
 [Skatīt finanšu pārskatus](view-financial-reports.md)
 
 [Dynamics finanšu pārskatu veidošanas emuārs](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

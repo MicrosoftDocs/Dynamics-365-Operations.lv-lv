@@ -1,13 +1,13 @@
 ---
-title: "Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)"
-description: "Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli."
+title: Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)
+description: Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9addb2897bac68115a38f0239764ab65af2378c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a4d8be319d74610bb2c1d4532a6d204d092bce84
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315663"
 ---
-
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)
 
 [!include [banner](../includes/banner.md)]
@@ -110,7 +109,6 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 </tr>
 </tbody>
 </table>
-
 
 
 

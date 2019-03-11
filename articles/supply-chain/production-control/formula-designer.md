@@ -1,32 +1,31 @@
 ---
-title: "Formulas veidotājs"
-description: "Šajā tēmā ir paskaidrots, kā izmantot formulas veidotāju, lai analizētu un uzturētu formulas koka skatā."
+title: Formulas veidotājs
+description: Šajā tēmā ir paskaidrots, kā izmantot formulas veidotāju, lai analizētu un uzturētu formulas koka skatā.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 31a46230251be3a654092a4acc05a404533001b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348507"
 ---
-
 # <a name="formula-designer"></a>Formulas veidotājs
 
 [!include [banner](../includes/banner.md)]
@@ -68,7 +67,7 @@ Formulai un maršrutam lietotais filtrs tiek rādīts formulu veidotāja virsrak
 <tbody>
 <tr class="odd">
 <td>Preces dimensijas</td>
-<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. Ņemiet vērā — ja formulu veidotāju atverat precei, kas nav preces šablons, tad dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nekādas preču dimensijas.</p></td>
+<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. Ņemiet vērā, ka gadījumā, ja atverat formulu veidotāju precei, kas nav preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</p></td>
 </tr>
 <tr class="even">
 <td>Atrašanās vieta</td>
@@ -121,5 +120,4 @@ Noklikšķiniet uz **Iestatīšana**, lai pielāgotu formulu veidotāja koka ska
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     MK     | Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti koka struktūrā. Formulu veidotājs abu ciļņu apakšdaļā rāda atlasītos kritērijus. |
 |    Maršruts    |                                           Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti maršrutiem.                                           |
-
 

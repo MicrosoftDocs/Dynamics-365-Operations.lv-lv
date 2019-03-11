@@ -1,13 +1,13 @@
 ---
-title: "Brīdinājumi"
-description: "Šajā tēmā ir sniegta vispārēja informācija par brīdinājumu pakešveida apstrādi programmā Microsoft Dynamics 365 for Finance and Operations. Brīdinājumus var izmantot, lai saņemtu informāciju par notikumiem, kurus vēlaties izsekot darbdienas laikā."
+title: Brīdinājumi
+description: Šajā tēmā ir sniegta vispārīga informācija par brīdinājumiem programmā Microsoft Dynamics 365 for Finance and Operations. Brīdinājumus var izmantot, lai saņemtu informāciju par notikumiem, kurus vēlaties izsekot darbdienas laikā.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367459"
 ---
-
 # <a name="alerts"></a>Brīdinājumi
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Par brīdinājumiem
-Brīdinājumus ģenerē kritisko notikumu ziņošanas sistēma par programmā Microsoft Dynamics 365 Finance and Operations. Brīdinājumus var izmantot, lai saņemtu informāciju par notikumiem, kurus vēlaties izsekot darbdienas laikā. Jūs varat viegli izveidot brīdinājumu kārtulas, lai tādējādi saņemtu brīdinājumus par nokavētām piegādēm, dzēstiem pasūtījumiem, cenu izmaiņām vai citiem notikumiem, uz kuriem jāreaģē.
+Brīdinājumi veido paziņojumu sistēmu, kas informē par kritiskiem notikumiem programmā Microsoft Dynamics 365 for Finance and Operations. Brīdinājumus var izmantot, lai saņemtu informāciju par notikumiem, kurus vēlaties izsekot darbdienas laikā. Jūs varat viegli izveidot brīdinājumu kārtulas, lai tādējādi saņemtu brīdinājumus par nokavētām piegādēm, dzēstiem pasūtījumiem, cenu izmaiņām vai citiem notikumiem, uz kuriem jāreaģē.
 
 Uzņēmuma resursu plānošanas (ERP) procesā ir vairāki tipiski scenāriji, kuros var izmantot programmas Finance and Operations brīdinājumu funkciju. Tālāk ir sniegti daži piemēri.
 
@@ -78,4 +77,3 @@ Brīdinājuma kārtula ietver piecus komponentus.
 ## <a name="email-notifications-from-alerts"></a>E-pasta paziņojumi no brīdinājumiem
 
 E-pasta paziņojumi no brīdinājumiem vēl nav iespējoti. Šī funkcija tiks iespējota ar turpmāku atjauninājumu.
-

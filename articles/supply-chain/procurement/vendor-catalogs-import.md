@@ -1,39 +1,38 @@
 ---
-title: "Piegādātāju katalogu importēšana"
-description: "Šajā tēmā ir aprakstīts piegādātāju katalogu datu importēšanas process."
+title: Piegādātāju katalogu importēšana
+description: Šajā tēmā ir aprakstīts piegādātāju katalogu datu importēšanas process.
 author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362031"
 ---
-
-# <a name="import-vendor-catalogs"></a>Piegādātāju katalogu importēšana
+# <a name="import-vendor-catalogs"></a>Importēt piegādātāju katalogus
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Piegādātāju katalogu importēšana
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations iepirkumu speciālisti var izveidot un uzturēt katalogus, ko uzņēmuma darbinieki var izmantot, pasūtot krājumus un pakalpojumus iekšējai lietošanai. Lai izveidotu sagādes katalogu, varat pievienot krājumus un pakalpojumus, kurus vēlaties padarīt pieejamus darbiniekiem, Tas ir izdarāms, vai nu importējot preču kataloga datus, vai manuāli pievienojot preču kataloga datus preces šablonam. 
+Programmā Microsoft Dynamics 365 for Finance and Operations iepirkumu speciālisti var izveidot un uzturēt katalogus, ko uzņēmuma darbinieki var izmantot, pasūtot krājumus un pakalpojumus iekšējai lietošanai. Lai izveidotu sagādes katalogu, varat pievienot krājumus un pakalpojumus, kurus vēlaties padarīt pieejamus darbiniekiem, Tas ir izdarāms, vai nu importējot preču kataloga datus, vai manuāli pievienojot preču kataloga datus preces šablonam. 
 
-Piegādātāja iesniegtos kataloga datus varat augšupielādēt Microsoft Dynamics 365 klientā.
+Kreditora iesniegtos kataloga datus varat augšupielādēt Microsoft Dynamics 365 klientā.
 
 Preces datiem, ko piegādātājs jums iesniedz kataloga uzturēšanas pieprasījuma (Catalog Maintenance Request — CMR) faila formā, ir jābūt XML faila formātā. CMR failā ir jābūt informācijai par precēm, ko šis piegādātājs piegādā jūsu uzņēmumam.
 
@@ -53,7 +52,7 @@ Lai importētu piegādātāja kataloga datus, jums ir jāizpilda tālāk minēti
 
 6.  Augšupielādējiet CMR failu.
 
-7.  Pārskatiet, apstipriniet vai noraidiet preces šajā piegādātāju katalogā. Preces tiek automātiski kartētas uz sagādes kategorijām programmatūrā Dynamics 365 for Finance and Operations. 
+7.  Pārskatiet, apstipriniet vai noraidiet preces šajā piegādātāju katalogā. Preces tiek automātiski kartētas uz sagādes kategorijām programmatūrā Dynamics 365 for Finance and Operations. 
     
 Apstiprinātās preces tiek pievienotas preces šablonam un izlaistas atlasītajām juridiskajām personām. Sagādes katalogam var pievienot tikai apstiprinātās preces.
 
@@ -70,4 +69,3 @@ Kataloga importēšanas faila veidne ir XSD fails, ko izmanto, lai izveidotu CMR
 3. Dialoglodziņā **Saglabāt kā** atlasiet atrašanās vietu, kur vēlaties saglabāt kataloga faila veidni, un saglabājiet failu.
 
 Papildinformāciju un piemērus skatiet šajā emuāra ierakstā: [Piegādātāju katalogi sistēmā Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-

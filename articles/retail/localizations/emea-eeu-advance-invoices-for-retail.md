@@ -1,13 +1,13 @@
 ---
-title: "Avansa rēķini programmai Retail Austrumeiropā"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt avansa paziņojumus programmai Retail Austrumeiropā."
+title: Avansa rēķini programmai Retail Austrumeiropā
+description: Šajā tēmā ir paskaidrots, kā iestatīt avansa paziņojumus programmai Retail Austrumeiropā.
 author: epopov
 manager: annbe
 ms.date: 10/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,15 +15,14 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: ba2cfb176242e2e611375c9943a9e4da2b2bb02a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371270"
 ---
-
 # <a name="advance-invoices-for-retail-for-eastern-europe"></a>Avansa rēķini programmai Retail Austrumeiropā
 [!include [banner](../includes/banner.md)]
 
@@ -70,7 +69,7 @@ PVN priekšapmaksas žurnāla dokumenta summā nedrīkst grāmatot, ja ir ieslē
 
 ## <a name="print-advance-invoices"></a>Avansa rēķinu drukāšana
 
-Var drukāt avansa rēķinus no POS, izmantojot Microsoft Windows printeri, kas ir savienots ar aparatūras staciju. Pastāv divas opcijas avansa rēķina drukāšanai no POS.
+Varat drukāt avansa rēķinus no POS, izmantojot Microsoft Windows printeri, kas ir pievienots aparatūras stacijai. Pastāv divas opcijas avansa rēķina drukāšanai no POS.
 
 - **Drukāt avansa rēķinu pēc transakcijas noslēgšanas POS.** Šī opcija tiek izpildīta automātiski, ja avansa rēķins tika izveidots un Windows printeris tika pareizi iestatīts. Šādā gadījumā tiek drukāts tikai pēdējais avansa rēķinu, kas saistīts ar debitora pasūtījumu.
 - **Atkārtoti drukāt avansa rēķinu no transakciju žurnālā.** Atlasiet **Rādīt žurnālu**, lai atvērtu transakciju žurnālu, atrodiet debitora pasūtījumu un pēc tam atlasiet **Drukāt avansa rēķinu**. Šādā gadījumā tiek drukāti visi avansa rēķini, kas saistīti ar debitora pasūtījumu.
@@ -88,4 +87,3 @@ Veiciet šādas darbības, lai iespējotu dokumentu drukāšanu no POS, izmantoj
 
 4. Atveriet sadaļu **Mazumtirdzniecība \> Mazumtirdzniecības IT \> Sadales grafiks**.
 5. Atlasiet darbu **1090** un pēc tam atlasiet **Izpildīt tūlīt**.
-

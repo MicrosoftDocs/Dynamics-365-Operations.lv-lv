@@ -1,29 +1,29 @@
 ---
-title: "Sadalīto pasūtījumu pārvaldība (DOM)"
-description: "Šajā tēmā ir aprakstīta sadalīto pasūtījumu pārvaldības (DOM) funkcionalitāte programmā Microsoft Dynamics 365 for Retail."
+title: Sadalīto pasūtījumu pārvaldība (DOM)
+description: Šajā tēmā ir aprakstīta sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte programmā Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302593"
 ---
 # <a name="distributed-order-management-dom"></a>Sadalīto pasūtījumu pārvaldība (DOM)
 
@@ -59,9 +59,9 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
     - **Maksimālais automātiskās izpildes mēģinājumu skaits** — norādiet, cik reižu DOM programma mēģinās nodot pasūtījuma rindu uz noteiktu vietu. Ja DOM programma nevar nodot pasūtījuma rindu uz noteiktu vietu ar norādīto mēģinājumu skaitu, tā atzīmēs pasūtījuma rindu kā izņēmumu. Pēc tam šī rinda tiks izlaista turpmākajās izpildēs, līdz statuss tiek atiestatīts manuāli.
     - **Lokālās krātuves reģiona rādiuss** — ievadiet vērtību. Šis lauks palīdz noteikt, kā vietas tiek grupētas un uzskatītas par vienādām attiecībā uz attālumu. Piemēram, ievadot **100**, visi veikali vai sadales centri 100 jūdžu rādiusā no izpildes adreses tiek uzskatīti par vienādiem attiecībā uz attālumu.
-    - **Risinātāja veids** — atlasiet vērtību. Ar Retail tiek izlaisti divi risinātāja veidi: **ražošanas risinātājs** un **vienkāršotais risinātājs**. Visām iekārtām, kurās tiks darbināta DOM (t.i., visiem serveriem, kas ietilpst DOM pakešuzdevumu grupā), ir jāatlasa **ražošanas risinātājs**. Ražošanas risinātājam ir nepieciešama īpaša licences atslēga, kas pēc noklusējuma tiek licencēta un izvietota ražošanas vidēs. Vidēm, kas nav ražošanas vides, šī licences atslēga jāizvieto manuāli. Lai manuāli izvietotu licences atslēgu, rīkojieties šādi:
+    - **Risinātāja veids** — atlasiet vērtību. Ar Retail tiek izlaisti divi risinātāja veidi: **ražošanas risinātājs** un **vienkāršotais risinātājs**. Visām iekārtām, kurās tiks darbināta DOM (t.i., visiem serveriem, kas ietilpst DOM pakešuzdevumu grupā), ir jāatlasa **ražošanas risinātājs**. Ražošanas risinātājam ir nepieciešama īpaša licences atslēga, kas pēc noklusējuma tiek licencēta un izvietota ražošanas vidēs. Vidēm, kas nav ražošanas vides, šī licences atslēga ir jāizvieto manuāli. Lai manuāli izvietotu licences atslēgu, izpildiet tālāk aprakstītos norādījumus.
 
-        1. Pakalpojumā Microsoft Dynamics Lifecycle Services atveriet koplietojamo līdzekļu bibliotēku, atlasiet vienumu **Modelis** kā līdzekļa veidu un lejupielādējiet failu **DOM licence**.
+        1. Portālā Microsoft Dynamics Lifecycle Services atveriet koplietojamo līdzekļu bibliotēku, kā līdzekļa veidu atlasiet **Modelis** un lejupielādējiet failu **DOM licence**.
         2. Palaidiet Microsoft interneta informācijas pakalpojumu (IIS) pārvaldnieku, ar peles labo pogu noklikšķiniet uz vienuma **AOS pakalpojuma tīmekļa vietne** un pēc tam atlasiet **Pārlūkot**. Tiek atvērts Windows Explorer logs ar direktoriju **\<AOS service root\>\\webroot**. Pierakstiet \<AOS Service root\> ceļu, jo tas būs jāizmanto nākamajā darbībā.
         3. Kopējiet konfigurācijas failu direktorijā **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
         4. Dodieties uz Retail Headquarters klientu un atveriet lapu **DOM parametri**. Cilnes **Risinātājs** laukā **Risinātāja veids** atlasiet **Ražošanas risinātājs** un pārliecinieties, ka netiek rādīti kļūdu ziņojumi.
@@ -229,4 +229,3 @@ Tālāk minēti daži apsvērumi, kas jāņem vērā, izmantojot DOM līdzekli:
 - Pašlaik DOM ņem vērā tikai pasūtījumus, kas izveidoti no mazumtirdzniecības kanāliem. Pārdošanas pasūtījumi tiek identificēti kā mazumtirdzniecības pārdošanas pasūtījumi, ja opcijai **Mazumtirdzniecība** ir atlasīts iestatījums **Jā**.
 - Uzņēmums Microsoft nav pārbaudījis DOM ar papildu noliktavas pārvaldības funkcijām. Klientiem un partneriem ir jānosaka, vai DOM ir saderīga ar papildu noliktavas pārvaldības funkcijām un procesiem, kuri attiecas uz viņiem.
 - DOM ir pieejama tikai programmas Retail mākoņa versijai. Tā netiek atbalstīta lokālos izvietojumos.
-

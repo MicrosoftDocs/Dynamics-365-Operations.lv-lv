@@ -1,34 +1,34 @@
 ---
-title: "SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem"
-description: "Šajā tēmā ir sniegta informācija par SQL Server pārskatu izveides pakalpojumu (SSRS) konfigurēšanu lokālam izvietojumam."
+title: SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem
+description: Šajā tēmā ir sniegta informācija par SQL Server pārskatu izveides pakalpojumu (SSRS) konfigurēšanu lokālam izvietojumam.
 author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315134"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem
 
 [!include [banner](../includes/banner.md)]
 
-Izmantojiet šajā tēmā aprakstītās darbības, lai SQL Server pārskatu izveides pakalpojumus (SSRS) konfigurētu konkrētajai programmas Microsoft Dynamics 365 for Finance and Operations (lokāla versija) izvietošanai.
+Izmantojiet šajā tēmā aprakstītās darbības, lai konfigurētu SQL Server Reporting Services (SSRS) savā Microsoft Dynamics 365 for Finance and Operations (lokālajā) izvietojumā.
 
 1. Atveriet programmu Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieks.
 2. Atstājiet noklusējuma vērtības laukā **Servera nosaukums**, kam ir jābūt pašreizējās mašīnas nosaukumam, un laukā **Pārskatu servera instance** — **MSSQLSERVER**.
@@ -87,11 +87,10 @@ Izmantojiet šajā tēmā aprakstītās darbības, lai SQL Server pārskatu izv
 
     [![Cilne Paplašināma izvietošana](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
 
-    Nemainiet cilnes **Power BI integrācija** noklusējuma iestatījumus.
+    Nemainiet noklusējuma iestatījumus cilnē **Power BI integrācija**.
 
     [![Cilne Power BI integrācija](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. Noklikšķiniet uz **Iziet**, lai aizvērtu programmu **Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieks**.
 
     [![Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieka aizvēršana](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Faktiski pret budžetu"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Faktiski pret budžetu. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Faktiski pret budžetu
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Faktiski pret budžetu. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
 author: ryansandness
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: sericks
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: c801544e9e37a528203f5a1730aa8cb526d63dbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343493"
 ---
-
-# <a name="actual-vs-budget-power-bi-content"></a>Power BI saturs Faktiski pret budžetu
+# <a name="actual-vs-budget-power-bi-content"></a>Power BI satura pakotne Faktiski pret budžetu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Faktiski pret budžetu**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Faktiski pret budžetu**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
-Power BI saturs **Faktiski pret budžetu** tika izveidots personām, kas savā organizācijā atbild par faktiskās izpildes uzraudzīšanu salīdzinājumā ar budžetā paredzēto izpildi. Power BI saturs **Faktiski pret budžetu** nodrošina ieskatu jūsu budžeta novirzēs. Lai gūtu lielāku izpratni par noviržu iemeslu, budžetu pašreizējam gadam var analizēt pēc konta kategorijas, budžeta koda, galvenā konta, galvenā konta aprakstiem vai finanšu perioda.
+Power BI satura pakotne **Faktiski pret budžetu** ir izveidota personām, kas savā organizācijā atbild par faktiskās un budžetā paredzētās veiktspējas salīdzinājuma uzraudzību. Power BI satura pakotne **Faktiski pret budžetu** nodrošina ieskatu budžeta novirzēs. Lai gūtu lielāku izpratni par noviržu iemeslu, budžetu pašreizējam gadam var analizēt pēc konta kategorijas, budžeta koda, galvenā konta, galvenā konta aprakstiem vai finanšu perioda.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Pārskati no Power BI satura pakotnes **Faktiski pret budžetu** tiek rādīti darbvietās **Virsgrāmatas budžeti un prognozes** un **CFO**.
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+Power BI satura pakotnes **Faktiski pret budžetu** pārskati tiek rādīti darbvietās **Virsgrāmatas budžeti un prognozes** un **CFO**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
-Nākamajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir atrodami katrā Power BI satura **Faktiski pret budžetu** pārskata lapā.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir iekļauti katrā Power BI satura pakotnes **Faktiski pret budžetu** pārskata lapā.
 
 | Pārskats                      | Metrika                                                                             |
 |-----------------------------|-------------------------------------------------------------------------------------|
@@ -59,4 +58,3 @@ Nākamajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir
 | Virsgrāmatas                   | Virsgrāmatas, ko var izmantot, lai pārskatu filtrētu pašreizējai virsgrāmatai              |
 | Budžetu kodi              | Budžetu kodi, pēc kuriem filtrēt pārskatus                                                |
 | Juridiskās personas            | Juridiskās personas, ko var izmantot, lai pārskatu filtrētu pašreizējai juridiskajai personai |
-

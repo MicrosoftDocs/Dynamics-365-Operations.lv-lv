@@ -1,13 +1,13 @@
 ---
-title: "Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana"
-description: "Dažu personāla vadības (PV) parametru iestatījumi tiek koplietoti uzņēmumu starpā, savukārt citu parametru iestatījumi ir raksturīgi noteiktam uzņēmumam. Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus PV parametrus."
+title: Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana
+description: Dažu personāla vadības (PV) parametru iestatījumi tiek koplietoti uzņēmumu starpā, savukārt citu parametru iestatījumi ir raksturīgi noteiktam uzņēmumam. Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus PV parametrus.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305380"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Dažu personāla vadības (PV) parametru iestatījumi tiek koplietoti uzņēmumu
 Divas lapas tiek izmantotas, lai iestatītu personāla vadības parametrus (PV). Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir specifiski uzņēmumam (citiem vārdiem sakot, iestatījumi attiecas uz vienu uzņēmumu), izmanto lapu **Personāla vadības parametri**. Lapā **Personāla vadības parametri** iestatījumi ir sadalīti sešās cilnēs:
 
 -   Vispārējs
--   Personāla atlase nav iekļauta programmatūrā Dynamics 365 for Talent
+-   Personāla atlase — tā nav iekļauta programmā Dynamics 365 for Talent
 -   Atlīdzība
 -   Numuru sērijas
 -   Likums par ģimenes un medicīniskajiem atvaļinājumiem (FMLA)
@@ -50,7 +49,7 @@ Iestatījumi cilnē **Atlīdzība** definē, vai lietotājiem ir jāapstiprina, 
 ### <a name="previously-released-functionality"></a>Iepriekš izlaistā funkcionalitāte
 Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Organizācijas administrēšana** &gt; **Numuru sērijas** &gt; **Numuru sērijas**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Ja izmantojat Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Ja lietojat programmu Dynamics 365 for Talent
 Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Sistēmas administrēšana** &gt; **cilne Saites** &gt; **Numuru sērijas** &gt; **Numuru sērijas**). 
 
 Iestatījumi cilnē **FMLA** definē, cik stundas darbiniekam jānostrādā, lai varētu pretendēt uz FMLA pabalstiem, nodarbinātības ilgumu, kas ir nepieciešams šim nolūkam, un nodarbinātības sākuma datumu, kas tiek izmantots, lai noteiktu nodarbinātības ilgumu. Iestatījumi arī nosaka FMLA stundu skaitu, kas darbiniekiem pienākas un FMLA atvaļinājumu kalendāru, ko izmanto, lai aprēķinātu, cik FMLA stundas darbinieki ir izlietojuši. Cilne **FMLA** ir pieejama tikai uzņēmumiem Amerikas Savienotajās Valstīs. 
@@ -61,7 +60,6 @@ Iestatījumi cilnē **FMLA** definē, cik stundas darbiniekam jānostrādā, lai
 --------
 
 [Iestatīt HR parametrus dažādām juridiskajām personām](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

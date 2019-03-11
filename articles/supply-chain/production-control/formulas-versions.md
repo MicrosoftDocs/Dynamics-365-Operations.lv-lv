@@ -1,32 +1,31 @@
 ---
 title: Formulas un formulu versijas
-description: "Šajā tēmā ir sniegta informācija par formulām un formulu versijām. Formula procesa ražošanā nosaka konkrētu procesu materiālus, sastāvdaļas un rezultātus. Formulas tiek izmantotas, lai procesa ražošanā plānotu un ražotu preces."
+description: Šajā tēmā ir sniegta informācija par formulām un formulu versijām. Formula procesa ražošanā nosaka konkrētu procesu materiālus, sastāvdaļas un rezultātus. Formulas tiek izmantotas, lai procesa ražošanā plānotu un ražotu preces.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350117"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Formulas un formulu versijas
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ Līdzeklis Mērogojams ir pieejams tikai tad, ja krājuma komponenti formulā ir
 
 ## <a name="use-step-consumption"></a>Pakāpeniskā patēriņa lietošana
 Pakāpeniskais patēriņš likvidē nepieciešamību kādai sastāvdaļai ievadīt daudzumu cilnē **Formulas rinda**. Tā vietā pakāpeniskais patēriņš ir konfigurēts tā, lai tam būtu vērtība **No sērijas** un vērtība **Daudzums**. Tiek atlasīta informācija no pakāpeniskā patēriņa katram sērijas ierakstam, kas apmierina partijas pasūtījuma daudzumu. Pakāpeniskais patēriņš ir noderīgs, ja patēriņa ātrums nav lineārs attiecībā pret partijas pasūtījuma lielumu un tikai palielina vajadzību, kad ir sasniegts noteikts daudzuma slieksnis. Lai iespējotu šo līdzekli jaunai formulai, zem grupas **Patēriņa aprēķins** attiecīgās sastāvdaļas formulas iestatījumu no **Standarta** mainiet uz **Pakāpenisks**. Šo patēriņa metodi varat norādīt lapas **Formulas rinda** cilnē **Iestatījumi**.
-

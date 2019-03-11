@@ -1,13 +1,13 @@
 ---
-title: "Nolietojuma grāmatas jaunināšanas apskats"
-description: "Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmatūrā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā līdzeklī, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu."
+title: Nolietojuma grāmatas jaunināšanas apskats
+description: Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359317"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Nolietojuma grāmatas jaunināšanas apskats
 
 [!include [banner](../includes/banner.md)]
 
-Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmatūrā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā līdzeklī, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu. 
+Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu. 
 
 Jaunināšanas process jūsu esošos iestatījumus un visas pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija **Grāmatot virsgrāmatā** ir iestatīta uz **Nē**. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz **Nav**. Nolietojuma grāmatas transakcijas tiks pārvietotas uz pamatlīdzekļu transakcijām. 
 
@@ -81,7 +80,6 @@ Kad lietojat metodi ar sistēmas ģenerēto numuru sēriju (1. opcija), jaunin�
 Kad lietojat metodi ar lietotāja definētu pastāvošu numuru sēriju (2. opcija), tad datu jaunināšana pārbauda, vai datu bāzē katram nodalījumam un uzņēmumam ar nolietojuma grāmatas transakcijām pastāv numuru sērija ar norādīto tvērumu. Ja tā pastāv, jaunināšana izmantos apstrādi pa vienai rindai, lai piešķirtu dokumentu numurus, kā norādīts ar numuru sēriju, izmantojot numuru sērijas struktūru. Ja šī numuru sērija norādītajā tvērumā nepastāv, tad jaunināšana izmantos noklusējuma sistēmas definētas numuru sērijas metodi, lai piešķirtu dokumentu numurus, un pēc sadales izveidos jaunu numuru sēriju ar norādītajiem noklusējuma parametriem.
 
 Ar jebkuru no šīm metodēm datu jaunināšanas skripts izmantos arī numuru sēriju laukam **Dokumentu sērija** jaunajos virsgrāmatas žurnālu nosaukumos, kas tiek izveidoti iepriekšējiem nolietojuma grāmatas žurnāla nosaukumiem.
-
 
 
 

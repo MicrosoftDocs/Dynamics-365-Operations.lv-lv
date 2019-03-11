@@ -1,13 +1,13 @@
 ---
 title: Cenu versijas
-description: "Šajā rakstā ir sniegta informācija par izmaksu aprēķināšanas versijām, par to uzturēšanu un datu tipiem, kurus tajās varat iekļaut. Izmaksu aprēķināšanas versijas galvenais mērķis ir iekļaut izmaksu ierakstus par krājumiem, izmaksu kategorijas un netiešo izmaksu aprēķinu formulas."
+description: Šajā rakstā ir sniegta informācija par izmaksu aprēķināšanas versijām, par to uzturēšanu un datu tipiem, kurus tajās varat iekļaut. Izmaksu aprēķināšanas versijas galvenais mērķis ir iekļaut izmaksu ierakstus par krājumiem, izmaksu kategorijas un netiešo izmaksu aprēķinu formulas.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330153"
 ---
-
 # <a name="costing-versions"></a>Cenu versijas
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Galvenais iemesls, kāpēc iespējot pirkšanas cenas datus, ir definēt pirkša
 Lai iespējotu pirkšanas cenas saturu, jums vispirms ir jādefinē MK aprēķinu grupa, kas ietver izmaksu cenu modeli krājuma pirkšanas cenai, un jāpiešķir MK aprēķinu grupa iegādātajiem krājumiem. Pēc tam jums ir jāizmanto izmaksu cenu modelis MK aprēķinu grupai, kad veicat MK aprēķinus, kuros tiek izmantotas plānotās izmaksas, lai aprēķinātu saražoto krājumu pārdošanas cenu. 
 
 Pirkšanas cenu ieraksti krājumiem tiek izmantoti arī kā uzziņu informācija. Krājuma pirkšanas cenas ieraksta statusu mainot no **Gaidošs** uz **Aktīvs**, varat atjaunināt krājuma bāzes pirkšanas cenu. Taču pirkšanas pamatcena nav atkarīga no vietas, un to var manuāli pārrakstīt. Krājuma pirkšanas pamatcena tiek izmantota kā pirkšanas pasūtījumu noklusējuma pirkšanas cena.
-
 
 
 

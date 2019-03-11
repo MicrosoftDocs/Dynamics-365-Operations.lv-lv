@@ -1,36 +1,35 @@
 ---
-title: "Izvēle starp Retail Modern POS (MPOS) un Cloud POS"
-description: "Šajā tēmā ir izskaidrotas galvenās atšķirības starp Retail Modern POS un Cloud POS. Tajā ir aprakstīti arī dažādi faktori, kas ir jāņem vērā mazumtirgotājiem, kuri ievieš Microsoft Dynamics 365 for Retail, lai izdarītu savām prasībām visatbilstošāko izvēli."
+title: Retail Modern POS (MPOS) vai Cloud POS izvēle
+description: Šajā tēmā ir paskaidrotas programmu Retail Modern POS un Cloud POS galvenās atšķirības. Tajā ir aprakstīti arī dažādi faktori, kas ir jāņem vērā mazumtirgotājiem, kuri ievieš Microsoft Dynamics 365 for Retail, lai izvēlētos savām prasībām piemērotāko risinājumu.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336248"
 ---
-
-# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Izvēle starp Retail Modern POS (MPOS) un Cloud POS
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) vai Cloud POS izvēle
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēma ieviesējiem tiek sniegta papildu fona informācija, padomi un norādījumi par faktoriem, kas ir jāņem vērā, izvietojot programmatūru Microsoft Dynamics 365 for Retail. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
+Šajā tēma ir sniegta ieviesējiem paredzēta papildu pamatinformācija, padomi un norādījumi par faktoriem, kas ir jāņem vērā, izvietojot programmu Microsoft Dynamics 365 for Retail. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
 
 ## <a name="insights"></a>Insights
 
@@ -40,10 +39,10 @@ Programmatūra Retail sniedz plašu izvietošanas un topoloģijas opciju klāstu
 
 Retail atbalsta tālāk norādītās POS opcijas.
 
-- Retail Modern POS (MPOS) operētājsistēmai Microsoft Windows
-- MPOS tālrunim Microsoft Windows Phone
+- Retail Modern POS (MPOS) operētājsistēmai Microsoft Windows
+- MPOS Microsoft Windows tālrunim
 - MPOS ierīcei Apple iPad vai Google Android planšetdatoram
-- Cloud POS (CPOS), kas atbalsta pārlūkprogrammu Microsoft Edge, Internet Explorer, un Google Chrome
+- Cloud POS (CPOS), kas atbalsta pārlūkprogrammas Microsoft Edge, Internet Explorer un Google Chrome
 
 Visos gadījumos POS (MPOS un CPOS) koplieto to pašu pamata programmas kodu. Tas ir svarīgi tālāk norādīto iemeslu dēļ.
 
@@ -58,10 +57,10 @@ Lai gan MPOS un CPOS lielā mērā ir vienādi, pastāv dažas būtiskas atšķi
 
 #### <a name="mpos"></a>MPOS
 
-MPOS operētājsistēmā Windows, iOS vai Android ir programma, kas tiek iepakota, instalēta un apkalpota attiecīgajā ierīcē.
+MPOS Windows, iOS vai Android ierīcē ir lietojumprogramma, kas ir iepakota, instalēta un apkalpota šajā ierīcē.
 
 - **Windows** — programma MPOS for Windows ietver visu programmas kodu, kā arī iegulto Commerce Runtime (CRT). 
-- **iOS/Android** — šajās platformās programma darbojas kā resursdators CPOS programmas kodam. Citiem vārdiem sakot — programmas kods tiek ņemts no CPOS servera pakalpojumā Microsoft Azure vai Retail Store Scale Unit (RSSU). Papildinformāciju skatiet šeit: [Retail Store Scale Unit pārskats](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** — šajās platformās lietojumprogramma darbojas kā CPOS lietojumprogrammas koda resursdators. Citiem vārdiem sakot, lietojumprogrammas kods tiek iegūts no CPOS servera pakalpojumā Microsoft Azure vai Retail Store Scale Unit (RSSU). Papildinformāciju skatiet rakstā [Retail Store Scale Unit apskats](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -74,10 +73,10 @@ Papildus platformai un formas faktoram mazumtirgotājiem ir jāizvēlas arī izv
 | POS programma         | Retail serveris | Pieejama bezsaistē |
 |-------------------------|---------------|-------------------|
 | MPOS for Windows        | Mākonis vai RSSU | Jā               |
-| MPOS for iOS vai Android | Mākonis vai RSSU | Nē                |
-| Cloud POS               | Mākonis vai RSSU | Nē                |
+| MPOS operētājsistēmai iOS vai Android | Mākonis vai RSSU | Nav                |
+| Cloud POS               | Mākonis vai RSSU | Nav                |
 
-#### <a name="retail-server"></a>Retail serveris
+#### <a name="retail-server"></a>Mazumtirdzniecības serveris
 
 Retail serveris ir komponents, kas vieso CRT. CRT satur visu POS izmantoto biznesa loģiku, un tas nodrošina piekļuvi kanāla datu bāzei. Atrodoties tiešsaistē, visi POS klienti veikalā izmanto Retail serveri. Retail serveri var izvietot mākoni vai veikalā (RSSU).
 
@@ -87,7 +86,7 @@ Programma MPOS for Windows atbalsta bezsaistes režīmu. Bezsaistes režīmā PO
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS perifērijas/aparatūras apsvērumi
 
-Mazumtirgotājiem ir jāņem vērā arī veids, kā POS piekļūs ierīcēm un perifērijas ierīcēm, piemēram, printeriem, kases aparātiem un maksājumu termināļiem. Tikai programma MPOS for Windows atbalsta tiešu saziņu ar šīm ierīcēm. Programmai MPOS for Windows Phone, iOS vai Android, kā arī programmai Cloud POS ir nepieciešama aparatūras stacija, lai piekļūtu šīm ierīcēm. Aparatūras stacijas var būt speciālas viena POS reģistra stacijas vai veikala reģistru koplietotas stacijas. Papildinformāciju par aparatūras stacijām skatiet šeit: [Retail aparatūras stacijas konfigurēšana un instalēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Mazumtirgotājiem ir jāņem vērā arī veids, kā POS piekļūs ierīcēm un perifērijas ierīcēm, piemēram, printeriem, kases aparātiem un maksājumu termināļiem. Tikai programma MPOS for Windows atbalsta tiešu saziņu ar šīm ierīcēm. Operētājsistēmai Windows Phone, iOS vai Android paredzētajai programmai MPOS un programmai Cloud POS ir nepieciešama aparatūras stacija, lai piekļūtu šīm ierīcēm. Aparatūras stacijas var būt speciālas viena POS reģistra stacijas vai veikala reģistru koplietotas stacijas. Papildinformāciju par aparatūras stacijām skatiet šeit: [Retail aparatūras stacijas konfigurēšana un instalēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
 
 ## <a name="implementation-considerations"></a>Ieviešanas apsvērumi
 
@@ -106,4 +105,3 @@ Plānojot POS implementēšanu savos mazumtirdzniecības veikalos, ir jāapsver 
 - **Aparatūras ierīces/perifērijas ierīces** — svarīgs Retail POS sistēmas aspekts ir tā pieejamība POS perifērijas ierīču lietošanai, piemēram, printeriem, kases aparātiem un maksājumu termināļiem. Lai gan visas pieejamās POS opcijas var izmantot perifērijas ierīces, tiešā veidā tās atbalsta tikai programma MPOS for Windows. Visām pārējām programmām ir nepieciešama viena aparatūras stacija vai vairākas. Lai gan šī pieeja sniedz papildu elastību, ir nepieciešams izvietot, konfigurēt un apkalpot papildu komponentus.
 - **Sistēmas prasības** — dažādām POS programmām ir atšķirīgas sistēmas prasības. Pirms izvēles pieņemšanas noteikti pārbaudiet visjaunāko informāciju. Piemēram, tā kā CPOS darbojas pārlūkprogrammā, tas atbalsta plašāku operētājsistēmu klāstu. Papildinformāciju par sistēmas prasībām skatiet šeit: [Sistēmas prasības mākoņa izvietojumiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Izvietošana un apkalpošana** — izvietošanas sarežģītība un apkalpošanas prasības var atšķirties atkarībā no programmas un izvietošanas izvēlēm. Piemēram, mākonī viesotam CPOS izvietojumam nav nepieciešams veikt instalēšanu un atjaunināšanu katru ierīcē. Tāpēc šī pieeja ievērojami samazina sarežģītību un izmaksas. Taču, ja MPOS izvietojat katrā reģistrā un iespējojat bezsaistes režīmu, un izvietot arī koplietojamas aparatūras stacijas, jūs ievērojami palielināt pārvaldāmo galapunktu skaitu.
-

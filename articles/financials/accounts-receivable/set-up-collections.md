@@ -1,13 +1,13 @@
 ---
-title: "Kredīta un iekasēšanas iestatīšana"
-description: "Šajā rakstā ir paskaidrots, kā iestatīt iekasēšanas funkcionalitāti."
+title: Kredīta un iekasēšanas iestatīšana
+description: Šajā rakstā ir paskaidrots, kā iestatīt iekasēšanas funkcionalitāti.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f35981396c782b530737adac8ad62d0ff4b0f77e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351842"
 ---
-
 # <a name="set-up-credit-and-collections"></a>Kredīta un iekasēšanas iestatīšana
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Iestatiet žurnālu nosaukumus, kas tiek izmantoti, kad lapā **Iekasēšana** t
 Iestatiet noklusējuma pamatojuma kodu, kas tiek izmantots, kad lapā **Iekasēšana** transakcijas tiek norakstītas. Šo kodu varat mainīt norakstīšanas procesa laikā.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Iestatīt mapi e-pasta pielikumiem un izveidot e-pasta veidnes
-Ja no lapas **Iekasēšana** sūtīsiet e-pasta ziņojumus, kuriem ir Microsoft Excel pielikumi, šādiem ziņojumiem varat izveidot papildu e-pasta veidnes.
+Ja no lapas **Iekasēšana** tiks sūtīti e-pasta ziņojumi ar Microsoft Excel formāta pielikumiem, varat izveidot šiem ziņojumiem paredzētas izvēles e-pasta ziņojumu veidnes.
 
 ## <a name="set-up-accounts-receivable-parameters-for-collections"></a>Iestatīt debitoru moduļa parametrus iekasēšanai
 Iestatiet debitoru moduļa parametrus, kas tiek rādīti cilnē **Iekasēšana**.
@@ -77,7 +76,7 @@ Iestatiet norakstīšanas kontu, kas tiek izmantots virsgrāmatas norakstīšana
 Atjauniniet bankas kontus, lai tiem būtu aktuālais žurnāls, kad lapā **Iekasēšana** tiek identificēti NSF maksājumi. Cilnē **Valūtas pārvaldība**, laukā **NSF maksājumu žurnāls** atlasiet kādu maksājumu žurnālu.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Iestatīt Outlook iestatījumus lapas Iekasēšana lietotājiem
-Lai darbinieki varētu izveidot aktivitātes vai sūtīt e-pasta ziņojumus, izmantojot lapu **Iekasēšana**, jums ir jāpārbauda, ka ir atlasīta konfigurācijas atslēga **Microsoft Outlook sinhronizācija** un ka šiem darbiniekiem ir iestatīta Outlook sinhronizēšana.
+Lai nodarbinātie varētu izveidot aktivitātes vai sūtīt e-pasta ziņojumus, izmantojot lapu **Iekasēšana**, vispirms ir jāpārbauda, vai ir atlasīta konfigurācijas atslēga **Microsoft Outlook sinhronizācija** un šiem nodarbinātajiem ir iestatīta Outlook sinhronizācija.
 
 ## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Iestatīt e-pasta un adreses iestatījumus debitoru iekasēšanas kontaktpersonām
 Ja vēlaties sūtīt e-pasta ziņojumus kontaktpersonām, kas norādītas formā **Iekasēšana**, iestatiet debitoru kontaktpersonu e-pasta adreses. Iekasēšanas kontaktpersona tiek izmantota kā noklusējuma kontaktpersona lapā **Iekasēšana**. Varat uzstādīt debitora pārskatu adresi, ja pārskatos ir jālieto adrese, kas nav primārā adrese. 
@@ -100,5 +99,4 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
  - [Atgādinājuma vēstuļu apstrāde](tasks/process-collection-letters.md)
 
  - [Iekasēšanas informācijas pārskatīšana](tasks/review-collections-information.md)
-
 

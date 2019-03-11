@@ -1,13 +1,13 @@
 ---
-title: "Saņemšanas darbību apskats"
-description: "Šajā tēmā ir sniegta informācija par līdzekli Saņemšanas pārskats. Lapa Saņemšanas pārskats ir šī līdzekļa daļa, un tā sniedz pārskatu par visiem krājumiem, kurus paredzēts saņemt kā ienākošos krājumus."
+title: Saņemšanas darbību apskats
+description: Šajā tēmā ir sniegta informācija par līdzekli Saņemšanas pārskats. Lapa Saņemšanas pārskats ir šī līdzekļa daļa, un tā sniedz pārskatu par visiem krājumiem, kurus paredzēts saņemt kā ienākošos krājumus.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 43e49fb6e8deead7c6dfe24a25337aeb35f1fcc0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356005"
 ---
-
 # <a name="arrival-overview"></a>Saņemšanas darbību apskats
 
 [!include [banner](../includes/banner.md)]
@@ -122,4 +121,3 @@ Kad visas preces ir reģistrētas, noliktavas pārvaldnieks vai pirkšanas vadī
 
 ## <a name="summary"></a>Kopsavilkums
 Lapa **Saņemšanas pārskats** var palīdzēt noliktavas pārvaldniekam un noliktavas darbiniekiem sniegt pārskatu par paredzamo darbu, kas jāveic saņemšanas procesa ietvaros. Lapu var arī izmantot, lai sāktu krājumu saņemšanas procesu, lai palīdzētu nodrošināt, ka krājumi tiek izsekoti, pirmo reizi nonākot noliktavā.
-

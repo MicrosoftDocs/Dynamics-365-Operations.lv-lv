@@ -1,13 +1,13 @@
---- 
-title: "Importa akreditatīvs"
-description: "Šajā procedūrā ir aprakstīts kredītvēstules importēšanas process."
+---
+title: Importa akreditatīvs
+description: Šajā procedūrā ir aprakstīts kredītvēstules importēšanas process.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313570"
 ---
 # <a name="import-letter-of-credit"></a>Importa akreditatīvs
 
@@ -185,5 +185,4 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
     * Pārbaudiet pārskatu, kurā ir norādītas transakcijas.  
     * Pārbaudiet, vai pārskatā ir ietvertas transakcijas ar šādiem elementiem Bankas dokumenta numurs, Iestādes ierobežojums, Izmantotā summa un Iestādes bilances summa.  
 8. Aizvērt lapu.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas apakšuzņēmēja darba pārvaldība"
-description: "Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas."
+title: Ražošanas apakšuzņēmēja darba pārvaldība
+description: Šajā tēmā ir paskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326588"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Ražošanas apakšuzņēmēja darba pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
+Šajā tēmā ir paskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
 
 [Ražošanas procesu](production-process-overview.md) ietvaros darbu var veikt kreditoriem piederoši vai kreditoru administrēti resursi. Parasti kreditora resursi tiek izmantoti, lai apmierinātu periodiski radīto papildu pieprasījumu, kas pārsniedz uzņēmuma resursu ražīgumu. Kreditors, iespējams, var piedāvāt arī īpašas [resursu iespējas](resource-capabilities.md) vai resursus par zemāku cenu.  
 
@@ -41,7 +40,7 @@ Ja tiek izmantotas apakšuzņēmēja operācijas vai aktivitātes, tās ietekmē
 
 Iekšējiem resursiem parasti tiek piešķirta fiksēta izmaksu likme par periodu. Turpretim apakšuzņēmēja resursu izmaksas tiek noteiktas, pamatojoties uz saistītā pakalpojuma pirkšanas cenu. Pakalpojums tiek definēts kā cita prece, un tas tiek izmantots konkrētās apakšuzņēmēja operācijas sagādes un iegādes procesu vadībai.  
 
-Pašlaik programmatūrā Microsoft Dynamics 365 for Finance and Operations nav īpašas daļēji pabeigto preču koncepcijas. Ja ražošanas pasūtījuma ietvaros izejmateriālu pārveidošanai par gatavo preci ir nepieciešamas vairākas operācijas, šī pasūtījuma gatavā prece tiek grāmatota atpakaļ krājumos tikai pēdējās operācijas laikā. Daļēji pabeigtās preces, kas tika iegūtas iepriekšējo operāciju laikā, tiek uzskaitītas kā nepabeigtais darbs (NP), taču tās netiek grāmatotas vai izsekotas krājumos. Lai gan maršrutus un materiālu komplektus (MK) var sadalīt vairākās mazākās vienībās, tādējādi tiek palielināts pārvaldāmo preču, MK un maršrutu skaits.  
+Pašlaik programmā Microsoft Dynamics 365 for Finance and Operations nav īpaša daļēji pabeigto preču jēdziena. Ja ražošanas pasūtījuma ietvaros izejmateriālu pārveidošanai par gatavo preci ir nepieciešamas vairākas operācijas, šī pasūtījuma gatavā prece tiek grāmatota atpakaļ krājumos tikai pēdējās operācijas laikā. Daļēji pabeigtās preces, kas tika iegūtas iepriekšējo operāciju laikā, tiek uzskaitītas kā nepabeigtais darbs (NP), taču tās netiek grāmatotas vai izsekotas krājumos. Lai gan maršrutus un materiālu komplektus (MK) var sadalīt vairākās mazākās vienībās, tādējādi tiek palielināts pārvaldāmo preču, MK un maršrutu skaits.  
 
 Ir pieejamas divas metodes ražošanas operāciju apakšuzņēmēja darbu pārvaldībai. Šīm metodēm atšķiras veids, kā var modelēt apakšlīgumu slēgšanas procesus, kā tiek atainotas daļēji pabeigtās preces procesa ietvaros un kā tiek pārvaldīta izmaksu kontrole.
 
@@ -101,7 +100,6 @@ Lai papildinātu materiālus šajā noliktavā, varat izmantot dažādas stratē
 **Piezīme.** Viena ražošanas pasūtījuma ražošanas maršruts nedrīkst ietvert vairākas vietas. Šis noteikums attiecas arī uz apakšuzņēmēja darbu. Tāpēc kreditora pārvaldītām materiālu atrašanās vietām atbilstošās noliktavas ir jādefinē tajā pašā vietā, kur ir definēti maršrutā izmantotie iekšējie resursi. Lai gan ražošanas plūsmas var ietvert vairākas vietas, to ietvaros daļēji pabeigtās preces nevar transportēt no vienas vietas uz citu, jo šī operācija ir saistīta ar izmaksu konteksta izmaiņām.  
 
 Parasti apakšuzņēmēja resursu grupas atrašanās vieta un izvades noliktava tiek tieši piešķirtas atrašanās vietai un noliktavai, kas tiek izmantotas nākamajā maršruta vai ražošanas plūsmas posmā. Šāda iestatīšana palīdz samazināt izveidojamo darba pārskatu skaitu vai modelējamo papildu pārsūtīšanas operāciju skaitu.
-
 
 
 

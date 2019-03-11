@@ -1,34 +1,34 @@
 ---
-title: "Piedāvājumu pārvaldības iestatīšana"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt piedāvājumus programmā Talent."
+title: Piedāvājumu pārvaldības iestatīšana
+description: Šajā tēmā ir aprakstīts, kā iestatīt piedāvājumus programmā Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376511"
 ---
 # <a name="set-up-offer-management"></a>Piedāvājumu pārvaldības iestatīšana 
 
 [!include [banner](includes/banner.md)]
 
-Kad kandidāts tiek pārvietots uz piedāvājuma posmu programmā Dynamics 365 for Talent: Attract, jums ir jānodrošina, ka kandidātam var ātri izveidot piedāvājumus, pēc nepieciešamības tos apstiprināt un izsūtīt attiecīgajam kandidātam. Tā kā lielākā daļa piedāvājumu ir standarta piedāvājumi, tos var izveidot no atkārtoti izmantojamām veidnēm. Programmā Attract visi piedāvājumi tiek apkopoti piedāvājumu paketē, kas ir kolekcija no viena vai vairākiem piedāvājumu dokumentiem. 
+Kad kandidāts tiek pārvietots uz piedāvājuma posmu programmā Dynamics 365 for Talent: Attract, ir jānodrošina, ka var ātri izveidot kandidātam paredzētos piedāvājumus, pēc nepieciešamības tos apstiprināt un nosūtīt attiecīgajam kandidātam. Tā kā lielākā daļa piedāvājumu ir standarta piedāvājumi, tos var izveidot no atkārtoti izmantojamām veidnēm. Programmā Attract visi piedāvājumi tiek apkopoti piedāvājumu paketē, kas ir kolekcija no viena vai vairākiem piedāvājumu dokumentiem. 
 
 Šajā tēmā ir uzskaitītas visas darbības, kas Attract administratoram būtu jāizpilda, lai kā daļu no piedāvājumu pārvaldības iespējām programmā Attract iesaistītu dažādas piedāvājumu pakotņu veidnes. Lietotājiem, kuriem nav administratora lomas, nav piekļuves šīm iespējām.
 
@@ -80,7 +80,7 @@ Lai sagatavotu datu kārtulu CSV failu, izpildiet tālāk aprakstītos norādīj
 
 1.  Lai augšupielādētu diapazona vērtību, nosaukumu **Gada alga** piešķiriet gan 3., gan 4. kolonnai. Lai augšupielādētu konkrētu vērtību, nevis diapazonu, nosaukumu **Gada alga** piešķiriet tikai 3. kolonnai.
 
-1.  Aizpildiet Microsoft Excel failu atkarībā no jūsu pieprasītajām lomām.
+1.  Aizpildiet Microsoft Excel failu, pamatojoties uz nepieciešamajām lomām.
 
 1.  Pārliecinieties, vai katrā rindā ir unikāla kombinācija no visām vērtībām kopā.
 
@@ -203,5 +203,7 @@ Piedāvājuma veidošanas procesā ir vairākas daļas, kuras var konfigurēt At
 
     - ESign — šī ir standarta komplektācijā iekļautā noklusējuma opcija, ar kuru lietotājs var parakstīt piedāvājumu, ievadot savu vārdu un iniciāļus.
 
-Plašāku informāciju par piedāvājuma izveidošanas procesu skatiet šeit: [Piedāvājumu izveide, apstiprināšana un parakstīšana](./creating-offers.md).
+>[!NOTE]
+> Lai iegūtu Adobe Sign licenci bezmaksas izmēģinājumversiju, noklikšķiniet uz šīs [saites](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Plašāku informāciju par piedāvājuma izveidošanas procesu skatiet šeit: [Piedāvājumu izveide, apstiprināšana un parakstīšana](./creating-offers.md).

@@ -1,13 +1,13 @@
 ---
-title: "Manuālu uzdevumu konfigurēšana darbplūsmā"
-description: "Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus."
+title: Manuālu uzdevumu konfigurēšana darbplūsmā
+description: Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309752"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Manuālu uzdevumu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais u
     </tr>
     <tr>
     <td>Lietotājs</td>
-    <td>Noteikti Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
+    <td>Īpaši Microsoft Dynamics 365 for Finance and Operations lietotāji</td>
     <td>
     <ol>
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
@@ -383,4 +382,3 @@ Kad manuālais uzdevums ir piešķirts lietotājam, lietotājam ir jāveic darb�
 5. Atzīmējiet izvēles rūtiņu **Deleģēt**, lai lietotājs varētu piešķirt uzdevumu citam lietotājam.
 6. Atzīmējiet izvēles rūtiņu **Piešķirt no jauna**, lai lietotājs varētu piešķirt no jauna uzdevumu citam lietotājam darba vienumu rindā.
 7. Atzīmējiet izvēles rūtiņu **Nodot izpildei**, lai lietotājs varētu piešķirt no jauna uzdevumu darba vienumu rindā. Pēc tam uzdevumu var pabeigt cits lietotājs.
-

@@ -1,13 +1,13 @@
 ---
-title: "Reizinātāja nolietojums"
-description: "Šajā rakstā ir sniegts pārskats par koeficienta nolietojuma metodi."
+title: Reizinātāja nolietojums
+description: Šajā rakstā ir sniegts pārskats par koeficienta nolietojuma metodi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 44fa540c31e5302ccf0a65b44b3c45a4c1e1fd1f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338801"
 ---
-
 # <a name="factor-depreciation"></a>Reizinātāja nolietojums
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ Iegādes cena ir 100 000, koeficents ir 20, lietošanas ilgums ir 10 gadi, un 
 
 ## <a name="straight-line-depreciation"></a>Lineārais nolietojums
 Lauka **Koeficients** vērtība ir **50**. Šādā gadījumā nolietojums visos periodos ir vienāds un ir jāņem vērā ietekme, ko izraisa citos laukos norādītas vērtības, kā tas ir aprakstīts rakstā [Lineārā lietošanas ilguma nolietojums](straight-line-service-life-depreciation.md).
-
 
 
 

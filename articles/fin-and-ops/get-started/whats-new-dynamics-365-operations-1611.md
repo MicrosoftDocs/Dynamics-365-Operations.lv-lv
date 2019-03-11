@@ -1,13 +1,13 @@
 ---
-title: "Jaunumi un izmaiņas versijā Dynamics 365 for Operations version 1611 (2016. gada novembris)"
-description: "Šajā tēmā ir aprakstītas funkcijas, kas Dynamics 365 for Operations programmas versijā 1611 ir jaunas vai ir mainītas."
+title: Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmas Dynamics 365 for Operations versijā 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339077"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Jaunumi un izmaiņas versijā Dynamics 365 for Operations version 1611 (2016. gada novembris)
+# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas funkcijas, kas Dynamics 365 for Operations programmas versijā 1611 ir jaunas vai ir mainītas.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmas Dynamics 365 for Operations versijā 1611.
 
 ## <a name="cost-accounting"></a>Izmaksu uzskaite
 
@@ -265,7 +264,7 @@ ms.lasthandoff: 12/18/2018
 <td>Jūs varat definēt laika periodu veiktspējas pārskatam, pārskata sākuma un beigu datumi tiek ievadīti automātiski. Tomēr šos noklusējuma datumus varat mainīt pēc nepieciešamības.</td>
 </tr>
 <tr>
-<td>Piekļuve piecām jaunām personāla vadības Power BI satura pakotnēm</td>
+<td>Piekļuve piecām jaunām personāla vadības Power BI satura pakotnēm</td>
 <td>Jaunās satura pakotnes sniedz personāla vadības organizācijām un personāla vadības nodaļu vadītājiem iespēju analizēt tālāk norādīto.
 <p>Darbaspēka rādītāji</p>
 <ul>
@@ -344,7 +343,7 @@ ms.lasthandoff: 12/18/2018
 <li>Zviedrija</li>
 </ul>
 </td>
-<td>Dynamics 365 for Operations ir pieejama papildu 18 valstīs. Kā daļu no mūsu darba, lai padarītu lokalizāciju vieglāku un vairāk konfigurējamu, regulēšanas elektroniskā pārskata funkcijas tika konvertētas uz Elektroniskā pārskata (ER) konfigurācijām, un daži regulēšanas Microsoft SQL Server pārskatu izveides pakalpojumu (SSRS) pārskati tika pārveidoti ER konfigurācijās, ko izmanto Excel veidnes. Šie konvertētie līdzekļi tiek īpaši minēti vēlāk šajā tabulā.</td>
+<td>Dynamics 365 for Operations ir pieejama papildu 18 valstīs. Kā daļu no mūsu darba, lai padarītu lokalizāciju vieglāku un vairāk konfigurējamu, regulēšanas elektroniskā pārskata funkcijas tika konvertētas uz Elektroniskā pārskata (ER) konfigurācijām, un daži regulēšanas Microsoft SQL Server pārskatu izveides pakalpojumu (SSRS) pārskati tika pārveidoti ER konfigurācijās, kas izmanto Excel veidnes. Šie konvertētie līdzekļi tiek īpaši minēti vēlāk šajā tabulā.</td>
 </tr>
 <tr>
 <td>Japāna – grupējiet pamatlīdzekļus, drukājot veidlapu 26 un tai pievienotās tabulas.</td>
@@ -621,15 +620,15 @@ ms.lasthandoff: 12/18/2018
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|
 | Konfigurēt ER pārskatus, lai ievietotu datus vairākos formātos, no Dokumentu pārvaldības krātuves elektroniskajos ziņojumos, kas tiek ģenerēti. | ER pārskati var ievietot datus elektroniskos ziņojumos, kas tiek ģenerēti no Dokumentu pārvaldības krātuves. Tāpēc biznesa dokumentu pielikumus var pievienot elektroniskajiem ziņojumiem, kas tiek izveidoti šim dokumentam, saskaņā ar likumdošanas prasībām. Pašlaik šos pielikumus var pievienot MIME formātā XML ziņojumam, kas tiek ģenerēts. Alternatīvi, pielikumus var pievienot Base64 formātā binārajam ziņojumam, kas tiek ģenerēts. |
-| Konfigurēt ER pārskatus, lai izveidotu elektroniskus dokumentus Excel, Microsoft Word vai PDF formātā. | Viena konfigurācija ļauj ER pārskatiem ģenerēt elektroniskus dokumentus trīs dažādos formātos: OpenXML darblapa (Excel), Word un XML veidlapu datu formāts (XFDF) (PDF). Lietotāji var atlasīt formātu, pievienojot formāta veidni ER pārskatam kā Excel, Word vai PDF dokumentu. |
+| Konfigurējiet ER pārskatus, lai izveidotu elektroniskus dokumentus Excel, Microsoft Word vai PDF formātā. | Viena konfigurācija ļauj ER pārskatiem ģenerēt elektroniskus dokumentus trīs dažādos formātos: OpenXML darblapa (Excel), Word un XML veidlapu datu formāts (XFDF) (PDF). Lietotāji var atlasīt formātu, pievienojot formāta veidni ER pārskatam kā Excel, Word vai PDF dokumentu. |
 | Konfigurēt ER pārskatus, lai ievietotu datus elektronisko dokumentu lappušu galvenēs un kājenēs, kas tiek ģenerēti OpenXML darblapas formātā, un lai kontrolētu lapu pārtraukumus. | ER pārskati var ievadīt biznesa datus lappušu galvenēs un kājenēs, kā arī kontrolēt, kur parādās lappuses pārtraukumi. Tādējādi, pārskati var atbalstīt ģenerēto elektronisko dokumentu lapu statiskas augšējās un apakšējās sadaļas. Tie atbalsta arī noteiktu šo dokumentu lapošanu, lai tie atbilstu likumdošanas prasībām. |
 | Konfigurējiet ER pārskatu adresātus, lai rezultāts tiek nosūtīts pa e-pastu, un biznesa dati un ER loģika (izteiksmes) var tikt izmantoti, lai izpildlaikā norādītu e-pasta adresi, kas jāizmanto. | Iepriekš, konfigurējot ER adresātu, izvades adresāta e-pasta adresi varēja definēt noformēšanas laikā. Tagad jūs varat konfigurēt izteiksmi ER formātā. Šo izteiksmi tad var atlasīt adresātā kā e-pasta adreses avotu katrai formāta konfigurācijai, un katram rezultāta komponentam (mape vai fails) atsevišķi. Tādējādi, izpildot ER pārskatu, katru izveidoto failu var nosūtīt citam saņēmējam, un e-pasta adresi var definēt, pamatojoties uz ER loģiku un biznesa datiem. |
-| Konfigurējiet ER pārskatu adresātu, lai rezultāts tiek nosūtīts uz Microsoft SharePoint mapi kā no jauna nosaukts fails, vai jauna esošā faila versija, un lai biznesa datus Microsoft Power BI struktūrā varētu izmantot kā datu kopu vai pārskatu. | Konfigurējot ER pārskatus, jūs varat viegli (bez kodēšana) sagatavot pieprasītos biznesa datus, lai tos varētu izmantot Power BI struktūrā. Izpildot šos ER pārskatus, jūs varat nodrošināt Power BI struktūru ar atbilstošiem biznesa datiem un/vai Excel pārskatiem, kas jau ir pieejami. Ja plānojat pārskata izpildes atkārtošanās režīmā, jūs varat izveidot ieplānotu biznesa datu sadali no Dynamics 365 for Operations uz Power BI, lai atbalstītu Power BI pārskatu atjaunināšanas grafiku. |
+| Konfigurējiet ER pārskatu adresātu, lai rezultāts tiktu nosūtīts uz Microsoft SharePoint mapi kā no jauna nosaukts fails, vai jauna esošā faila versija, un lai biznesa datus Microsoft Power BI struktūrā varētu izmantot kā datu kopu vai pārskatu. | Konfigurējot ER pārskatus, jūs varat viegli (bez kodēšanas) sagatavot pieprasītos biznesa datus, lai tos varētu izmantot Power BI struktūrā. Izpildot šos ER pārskatus, jūs varat nodrošināt Power BI struktūru ar atbilstošiem biznesa datiem un/vai Excel pārskatiem, kas jau ir pieejami. Ja plānojat pārskata izpildes atkārtošanās režīmā, jūs varat izveidot ieplānotu biznesa datu sadali no Dynamics 365 for Operations uz Power BI, lai atbalstītu Power BI pārskatu atjaunināšanas grafiku. |
 | Konfigurējiet ER pārskatus, lai izmantotu daļu no elektroniska dokumenta, kas jau ir izveidots kā datu avots, lai ģenerētu pārējo šī dokumenta daļu. | Jūs varat konfigurēt ER pārskatus, kas veido rezultātu teksta formātā, lai veiktu dokumenta rindas uzskaiti. Šo informāciju var izmantot citās dokumenta daļās, lai izveidotu rindas, kas ietver kopsavilkuma informāciju. Kopsavilkuma informācija (kopsummas un numuri) var būt aprēķināta un drukāta uz elektroniskiem dokumentiem, kas tiek ģenerēti, neprasot papildu datu transformācijas. Tādējādi šis līdzeklis uzlabo pārskata izpildes veiktspēju, un palīdz nākotnē vieglāk uzturēt konfigurēto ER formātu. |
 | Konfigurējiet ER pārskatus, lai norādītu faila nosaukuma paplašinājumu elektroniskajam dokumentam, kas tiek ģenerēts teksta formātā. | Jūs varat konfigurēt ER pārskatus, lai izveidotu rezultātu teksta formātā, lai to var saglabāt kā failu ar noteiktu paplašinājumu. Papildus noklusējuma. txt paplašinājumam, jūs varat konfigurēt tādus paplašinājumus kā .csv un .prn, saskaņā ar formāta specifikāciju. |
 | Veidojiet jaunus ER pārskatus, kas ir balstīti uz konkrētu ER modeļa versiju. | Iepriekš, izveidojot jaunu ER formātu, tikai atlasītā ER modeļa jaunāko versiju varēja izmantot kā formāta datu avota atrašanās vietu. Tagad ir iespējams atlasīt jebkuru pieejamo atlasītā ER modeļa versiju. Šī funkcija ļauj uzturēt ER pārskatus pašreizējam gadam, un paralēli veidot jaunu ER modeļa versiju nākamajam gadam. |
 | Meklēt datu avoti un formātus/modeļus pēc teksta, vai atlasītā artefakta ar vienu klikšķi. Aktīvi risiniet pārskatījuma konfliktus, un risiniet konfliktus starp konfigurācijām. Konfigurējiet ER pārskatus, lai izveidotu vairākus pārbaudes ziņojumus par kļūdām, kas tiek atklātas līdz pārskata izpilde tiek apturēta. | Vairāki lietotāja pieredzes (UX) uzlabojumi ER struktūrā palīdz lietotājiem strādāt ar ER efektīvi un viegli. |
-| Rādīt **ER** darbvietu Power BI pārskatos. | Lietotāji var konfigurēt **ER darbvietas** lapu, lai tajā tiktu iekļauti jauni izvēlnes elementi un dinamiskie elementi, kas izpilda Power BI pārskatus. |
+| Rādīt **ER** darbvietu Power BI pārskatos. | Lietotāji var konfigurēt lapu **ER darbvieta**, lai tajā tiktu iekļauti jauni izvēlnes elementi un dinamiskie elementi, kas izpilda Power BI pārskatus. |
 
 ## <a name="payroll"></a>Alga
 
@@ -643,7 +642,7 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr>
 <td>Konfigurējiet apmaksas ierakstus un apstrādājiet algas, izmantojot funkcionalitāti, kas ir ekvivalenta moduļa <strong>Alga</strong> funkcionalitātei sistēmā Microsoft Dynamics AX 2012 R3.</td>
-<td>Tagad jūs varat konfigurēt un apstrādāt US alga, izmantojot līdzekļu kopu, kas ir ekvivalenta līdzekļu kopai sistēmā AX 2012 R3.
+<td>Tagad jūs varat konfigurēt un apstrādāt ASV algu, izmantojot līdzekļu kopu, kas ir ekvivalenta līdzekļu kopai sistēmā AX 2012 R3.
 <ul>
 <li>Jūs varat konfigurēt apmaksas ciklus un apmaksas periodus, darba ciklus un darba periodus, ieņēmumu kodus un ieņēmumu kodu grupas, grafikus, atvaļinājumu veidus un atvieglojumu uzkrājumu plānus.</li>
 <li>Jūs varat arī iestatīt obligātus ieturējumus nodokļiem un atvieglojumiem, un reģistrēt algas informāciju amatiem un darbiniekiem, pārskatu un analīzes nolūkiem.</li>
@@ -746,7 +745,7 @@ Viengabala visaptveroša kanāla komercija attiecas uz pārvaldību un pasūtīj
 
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|
-| Patērētājs: Pašreizējā laidiena uz patērētāju virzītā mobilā lietojumprogramma iespējo šādas funkcijas - produktu meklēšana, kategoriju pārlūkošana, pievienošana grozam un norēķināšanās kā viesim. Mazumtirgotāji arī var pielietot sava uzņēmuma zīmolu lietojumprogrammā, un pēc tam izvietot pakotni Android un iOS lietojuprogrammu veikaliem. | Mazumtirgotāji var viegli izveidot uz patērētāju virzītu mobilo lietojumprogrammu, kas ļauj klientiem pārlūkot, meklēt preces un nosūtīt preces kā viesim no mobilajām ierīcēm. |
+| Patērētājs: Pašreizējā laidiena uz patērētāju virzītā mobilā lietojumprogramma iespējo šādas funkcijas - produktu meklēšana, kategoriju pārlūkošana, pievienošana grozam un norēķināšanās kā viesim. Mazumtirgotāji arī var pielietot sava uzņēmuma zīmolu programmā un pēc tam izveidot pakotni Android un iOS programmu veikaliem. | Mazumtirgotāji var viegli izveidot uz patērētāju virzītu mobilo lietojumprogrammu, kas ļauj klientiem pārlūkot, meklēt preces un nosūtīt preces kā viesim no mobilajām ierīcēm. |
 | Klientu vēlmju saraksti e-komercijas tiešsaistes veikaliem | Neatkarīgi programmatūras piegādātāji (ISV) var izmantot vēlmju saraksta vadīklu, lai ļautu lietotājiem izveidot un pārvaldīt vairākus sarakstus tiešsaistes veikalos, un skatīt/lietot šos sarakstus POS. |
 | Asinhronā debitora izveide, izmantojot e-komercijas tiešsaistes veikalus | ISV tagad var izveidot debitoru kontus pat tad, ja Commerce Data Exchange: Real-Time Service nav pieejams. |
 | Publicēt kanāla preces no Mazumtirdzniecības servera trešās puses veikalos. | Mazumtirdzniecības serveris tagad atbalsta autentifikāciju pakalpojums pakalpojumam. ISV var izmantot kanāla preču publicēšanu no Mazumtirdzniecības servera trešās puses veikalos. |
@@ -764,7 +763,7 @@ Viengabala visaptveroša kanāla komercija attiecas uz pārvaldību un pasūtīj
 
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|
-| Skatiet personalizētus ieteikumus vairākās saskares vietās pārdošanas punktā (POS), lai noteiktu, kas debitoru varētu interesēt, pamatojoties uz viņa pirkumu vēsturi, krājumiem viņa vēlmju sarakstā, kā arī krājumiem, kurus citi debitori ir nopirkuši tiešsaistes un fiziskajos veikalos. | Ja mazumtirgotājam ir plašs preču katalogs, personalizētie ieteikumi palīdz debitoram atklāt preces un veikala darbiniekiem efektīvi apkalpot klientus. Preču ieteikumi nodrošina, ka klientam tiek piedāvātas viņa interesēm un iepirkumu vēsturei atbilstošas preces, un tādējādi var palīdzēt mazumtirgotājiem veikt papildu pārdošanu un uzlabot klientu lojalitātes saglabāšanas rādītājus. Programmatūrā Microsoft Dynamics 365 for Retail preču ieteikumi tiek nodrošināti, izmantojot pakalpojumu Cognitive Services un Microsoft Azure algoritmisko mācīšanos. |
+| Skatiet personalizētus ieteikumus vairākās saskares vietās pārdošanas punktā (POS), lai noteiktu, kas debitoru varētu interesēt, pamatojoties uz viņa pirkumu vēsturi, krājumiem viņa vēlmju sarakstā, kā arī krājumiem, kurus citi debitori ir nopirkuši tiešsaistes un fiziskajos veikalos. | Ja mazumtirgotājam ir plašs preču katalogs, personalizētie ieteikumi palīdz debitoram atklāt preces un veikala darbiniekiem efektīvi apkalpot klientus. Preču ieteikumi nodrošina, ka klientam tiek piedāvātas viņa interesēm un iepirkumu vēsturei atbilstošas preces, un tādējādi var palīdzēt mazumtirgotājiem veikt papildu pārdošanu un uzlabot klientu lojalitātes saglabāšanas rādītājus. Programmā Microsoft Dynamics 365 for Retail preču ieteikumi tiek nodrošināti, izmantojot pakalpojumu Cognitive Services un Microsoft Azure algoritmisko mācīšanos. |
 
 ### <a name="pos-task-recorder"></a>POS uzdevumu reģistrētājs
 
@@ -783,9 +782,9 @@ Veikala sistēma ir izvietošanas izvēle mazumtirgotājiem, kas palīdz vadīt 
 - Mazumtirdzniecības serveris un veikala datu bāze ir veikalā kopā ar Async klienta pakalpojumu.
 - Mazumtirdzniecības serveris veikalā sazinās tieši ar Programmas objektu serveri (AOS), HQ veikala sistēmai.
 - Atbalsta krustu termināļa scenārijus, kur nav HQ savienojamības.
-- Retail Modern POS un Mākoņa POS vienmēr sazinās ar Mazumtirdzniecības serveri veikalā.
-- Atbalsta Retail Modern POS un Mākoņa POS, ja nav HQ savienojamības.
-- Atbalsta Retail Modern POS – konkrētu bezsaistes datu bāzi (izolēta, lai sasniegtu katru Retail Modern POS gadījums), ja nav HQ savienojamības.
+- Retail Modern POS un Cloud POS vienmēr sazinās ar Retail Server veikalā.
+- Atbalsta Retail Modern POS un Cloud POS, ja nav HQ savienojamības.
+- Atbalsta Retail Modern POS noteiktu bezsaistes datu bāzi (izolēta atsevišķām Retail Modern POS instancēm), ja nav HQ savienojamības.
 - Autentifikācijas ir balstīta uz pakalpojums-pakalpojumam tikai Veikala sistēmai.
 - Reāllaika pakalpojuma zvani netiek atbalstīti, ja nav interneta savienojuma.
 - Retail Modern POS tiešā datu bāzes savienojamība ar kanāla datu bāzi netiek atbalstīta.
@@ -793,17 +792,17 @@ Veikala sistēma ir izvietošanas izvēle mazumtirgotājiem, kas palīdz vadīt 
 
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|
-| Mazumtirgotājs lejupielādē Veikala sistēmas pašapkalpošanās instalētāju no Dynamics AX HQ datu bāzes kanāla lapas, un lejupielādē konfigurācijas failu. | Mazumtirgotājs var efektīvi lejupielādēt pašapkalpošanās pakotni. |
+| Mazumtirgotājs lejupielādē Veikala sistēmas pašapkalpošanās instalētāju no Dynamics AX HQ datu bāzes kanāla lapas un lejupielādē konfigurācijas failu. | Mazumtirgotājs var efektīvi lejupielādēt pašapkalpošanās pakotni. |
 | Mazumtirgotājs instalē Veikala sistēmu, izmantojot pašapkalpošanās instalētāju. | Mazumtirgotājs var instalēt Veikala sistēmu, izmantojot pašapkalpošanās pakotni. |
 | IT vadītājs konfigurē Veikala sistēmu Dynamics 365 for Operations (kanāla datu bāze, kanāla profils, veikals, izvietojama pakotne). | IT vadītājs var konfigurēt Veikala sistēmu vieglāk un efektīvāk. |
-| Mazumtirgotājs izmanto Retail Modern POS lokālā veikalā, un var veikt reāllaika darbības, piemēram, izsniegt dāvanu kartes, ja ir savienojums. | Mazumtirgotājs var veikt reāllaika darbības no Veikala sistēmas, ja ir savienojums. |
+| Mazumtirgotājs izmanto Retail Modern POS lokālā veikalā un var veikt reāllaika darbības, piemēram, izsniegt dāvanu kartes, ja ir savienojums. | Mazumtirgotājs var veikt reāllaika darbības no Veikala sistēmas, ja ir savienojums. |
 | Mazumtirgotājs var sinhronizēt datus no lokālā Veikala sistēmas uz HQ katru reizi, kad ir savienojums. | Mazumtirgotājs sinhronizēt uz un no Veikala sistēmas, ja ir savienojums. |
 | Mazumtirgotājam var būt drošs savienojums starp lokālā Veikala sistēmu un HQ. | Mazumtirgotājs var droši sazināties no Veikala sistēmas, ja ir savienojums. |
 | IT vadītājs un Microsoft Operations var pārraudzīt un veidot pārskatu par lokālo Veikala sistēmu (diagnostika un pārskata veidošanas izmaiņas). | IT vadītājs un Microsoft Operations var pārraudzīt Veikala sistēmu droši un efektīvi novērst problēmas. |
 
 ### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Universālās Windows platformas programma Retail Modern POS
 
-Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1 programma galddatoriem un planšetdatoriem, un kā mākoņa POS galddatoru vai planšetdatoru pārlūkprogrammām. Šajā laidienā Retail Modern POS tiek pārvērsts par Universālās Windows platformas programmu (UWP). Šī izmaiņas ļaus palaist Retail Modern POS jebkurā Windows 10 ierīcē (galddators, planšetdators vai viedtālrunis), un pat pārslēgties starp skatiem ierīcēm ar iespējotu nepārtrauktību.
+Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1 programma galddatoriem un planšetdatoriem, un kā mākoņa POS galddatoru vai planšetdatoru pārlūkprogrammām. Šajā laidienā Retail Modern POS tiek pārvērsts par Universālās Windows platformas programmu (UWP). Šī izmaiņas ļaus palaist Retail Modern POS jebkurā Windows 10 ierīcē (galddators, planšetdators vai viedtālrunis) un pat pārslēgties starp skatiem ierīcēm ar iespējotu Continuum funkcionalitāti.
 
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|
@@ -828,7 +827,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 | Sniegt iespēju kreditoriem atbildēt uz katru pirkšanas pasūtījuma rindu un ierosināt izmaiņas. | Dažos gadījumos kreditori vēlas pieņemt dažas pirkšanas pasūtījuma rindas, bet citas - noraidīt. Kreditori tagad var individuāli pārvaldīt pirkšanas pasūtījuma rindas. Katra rinda var būt noraidīta, pieņemta vai pieņemta ar izmaiņām. Piemēram, kreditori var mainīt piegādes datumu, sadalīt piegādi un daudzumu vai ieteikt alternatīvu krājumu. |
 | Sniegt kreditoriem iespēju pārvaldīt informāciju par kontaktpersonu. | Kreditori var uzturēt sava uzņēmuma kontaktpersonas informāciju. Šī informācija ietver vārdus, e-pasta adreses un tālruņu numurus. Piekļuve šai funkcijai tiek nodrošināta ar īpašu drošības lomu. |
 | Koplietojiet dokumentus, kas ir saistīti ar kreditoru pirkšanas pasūtījumiem. | Kad nepieciešams koplietot dokumentu ar kreditoru, piemēram, dokumentu par prasībām, ir ērti saistīt dokumentu ar atbilstošo pirkšanas pasūtījumu. Kreditors var koplietot piezīmes un pielikumus ar klientu, saistot dokumentu ar viņa vai viņas atbildi uz pirkšanas pasūtījumu. Dokumentu pārvaldība ir pakārtotā atbalsta struktūra, un tikai piezīmes un pielikumi, kas tiek klasificēti kā "ārēji", var tikt koplietoti ar kreditoriem. |
-| Jaunu kreditora lietotāju nodrošināšana. | Ja jūsu kreditori izmanto kreditoru sadarbības interfeisu, viņiem ir ērts veids, kā pieprasīt jaunus lietotāju kontus, kad jaunām kontaktpersonām nepieciešama piekļuve kreditoru sadarbības interfeisam. Sagādes profesionāļi var iesniegt pieprasījumu lietotāja kontam kontaktpersonai kreditora organizācijā. Kreditora kontaktpersona, kura jau ir kreditoru sadarbības lietotājs, var arī iesniegt šo pieprasījuma veidu. Šis pieprasījums galu galā izveido jaunu lietotāju sistēmā Dynamics 365 for Operations, ar kreditoram noteiktām drošības lomām. Tas atvieglo arī pieprasījumu portālam Microsoft Azure B2B, sniegt lietotājam jaunu Azure Active Directory (Azure AD) lietotāja kontu. Kreditori var pieprasīt arī deaktivizēt noteiktus kreditoru interfeisa lietotāju kontus, vai mainīt to drošības lomas. |
+| Jaunu kreditora lietotāju nodrošināšana. | Ja jūsu kreditori izmanto kreditoru sadarbības interfeisu, viņiem ir ērts veids, kā pieprasīt jaunus lietotāju kontus, kad jaunām kontaktpersonām nepieciešama piekļuve kreditoru sadarbības interfeisam. Sagādes profesionāļi var iesniegt pieprasījumu lietotāja kontam kontaktpersonai kreditora organizācijā. Kreditora kontaktpersona, kura jau ir kreditoru sadarbības lietotājs, var arī iesniegt šo pieprasījuma veidu. Šis pieprasījums galu galā izveido jaunu lietotāju sistēmā Dynamics 365 for Operations ar kreditoram noteiktām drošības lomām. Tas atvieglo arī pieprasījumu portālam Microsoft Azure B2B sniegt lietotājam jaunu Azure Active Directory (Azure AD) lietotāja kontu. Kreditori var pieprasīt arī deaktivizēt noteiktus kreditoru interfeisa lietotāju kontus, vai mainīt to drošības lomas. |
 | Uzziniet vairāk par kreditoru sadarbību sistēmā Dynamics 365 for Operations. | Plašāku informāciju par kreditoru sadarbību skatiet [Kreditoru sadarbība ar ārējiem kreditoriem](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Kreditoru sadarbība ar debitoriem](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Pārvaldīt kreditoru sadarbības lietotājus](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Iestatīt un uzturēt kreditoru sadarbību](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md), un [Kreditora sadarbības rēķinu izveides darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Starpuzņēmuma pasūtījumu apstrāde
@@ -884,9 +883,9 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|
-| Modelēt dažādus konteineru veidus. | Jūs varat izmantot dažādus konteineru veidus noliktavā, lai optimizētu uzglabāšanu un citu iemeslu dēļ. Jaunajam elementam Konteinera veids ir konteinera veidu fiziskie raksturlielumi. Tagad jūs varat saistīt noliktavas vienības ar noteiktu konteinera veidu, un izmantot novietojuma dimensijas ierobežojumus. Piemēram, šo funkciju varat izmantot, lai kontrolētu, cik paletes (vai citu konteineru veidu) tiek atļautas noteiktā vietā. Konteineru veidi tika pievienoti arī vienību secību grupām, lai pievienotu noklusējuma konteineru veidus saņemšanas procesam. Konteineru veidi var tikt lietoti kopā ar ienākošajām un izejošajām novietojuma direktīvām. Tās var izmantot arī rīcībā esošo krājumu skatā, lai noteiktu, cik daudz konteineru veidu pašlaik tiek uzglabāts. Papildinformācijai skatiet emuāra ziņu [Ar konteinera tipu saistītu noliktavas vienību lietošana, lai vadītu noliktavas pārvaldības procesus](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Lai gan šī emuāra ziņa apraksta Microsoft Dynamics AX 2012 atjauninājumu, tas pats atbalsts tagad tika pievienots Dynamics 365 for Operations. |
+| Modelēt dažādus konteineru veidus. | Jūs varat izmantot dažādus konteineru veidus noliktavā, lai optimizētu uzglabāšanu un citu iemeslu dēļ. Jaunajam elementam Konteinera veids ir konteinera veidu fiziskie raksturlielumi. Tagad jūs varat saistīt noliktavas vienības ar noteiktu konteinera veidu, un izmantot novietojuma dimensijas ierobežojumus. Piemēram, šo funkciju varat izmantot, lai kontrolētu, cik paletes (vai citu konteineru veidu) tiek atļautas noteiktā vietā. Konteineru veidi tika pievienoti arī vienību secību grupām, lai pievienotu noklusējuma konteineru veidus saņemšanas procesam. Konteineru veidi var tikt lietoti kopā ar ienākošajām un izejošajām novietojuma direktīvām. Tās var izmantot arī rīcībā esošo krājumu skatā, lai noteiktu, cik daudz konteineru veidu pašlaik tiek uzglabāts. Papildinformācijai skatiet emuāra ziņu [Ar konteinera tipu saistītu noliktavas vienību lietošana, lai vadītu noliktavas pārvaldības procesus](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Lai gan šī emuāra ziņa apraksta Microsoft Dynamics AX 2012 atjauninājumu, tas pats atbalsts tagad ir pievienots Dynamics 365 for Operations. |
 | Atsaukt sūtījumus. | Noliktavā jums ir jābūt iespējai apstrādāt kavētas izmaiņas. Piemēram, dažas preces var būt bojātas, tāpēc jūs nevarat tās nosūtīt. Vai arī klients varētu veikt vēlu pieprasījums atcelt vai mainīt pasūtījumu. Dynamics 365 for Operations tagad ļauj jums atsaukt sūtījumu. Tādējādi jūs varat atcelt pavadzīmi, lai vēlāk to varētu atjaunināt ar pareiziem daudzumiem. Līdzīgi, saņemšanas plūsmā var atcelt produktu ieejas plūsmu, lai varētu izveidot atjauninātu versiju. |
-| Izmantojiet paletes ar jauktiem krājumiem. | Tagad jūs var saņemt un reģistrēt "jauktas" paletes. Jaukta palete sastāv no dažādiem krājumiem, kas tiek apvienoti uz vienas paletes vienam vai vairākiem pirkšanas pasūtījumiem vai rindām. Visas reģistrācijas var apkopot vienā noliktavas vienībā. Šis process tiek iespējots, izmantojot noliktavas mobilo ierīci. Piemēram, ja jauktu krājumu palete tiek piegādāta noliktavā, saņemšanas darbinieks identificē krājumus un daudzums uz paletes pirms palete tiek pārvietota uz specializētu izvietošanas vietu. Izvietošanas vietas tiek identificētas saskaņā ar darba veidnēm un novietojuma direktīvām. Ja izvietošanas vietas ir sadalītas vairākiem krājumiem, ar fiksētām vietām, šī funkcija izveido tik daudz izvietošanas darba rindu, cik dažādu krājumu ir uz jauktās paletes. Šī funkcija padara saņemto jaukto krājumu paletes reģistrāciju un izvietošanu ātrāku un elastīgāku. Papildinformācijai skatiet emuāra ziņu [Saņemt un reģistrēt paleti ar jauktām pirmdokumenta rindām, izmantojot 1 noliktavas vienību — pirkšanas pasūtījuma atbilstības noteikšana](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) un informācija par jauktu palešu atbalstu [paziņojumā par mūsu neseno kumulatīvo atjauninājumu](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Lai gan šī emuāra ziņa apraksta AX 2012 atjauninājumu, tas pats atbalsts tagad tika pievienots Dynamics 365 for Operations. |
+| Izmantojiet paletes ar jauktiem krājumiem. | Tagad jūs var saņemt un reģistrēt "jauktas" paletes. Jaukta palete sastāv no dažādiem krājumiem, kas tiek apvienoti uz vienas paletes vienam vai vairākiem pirkšanas pasūtījumiem vai rindām. Visas reģistrācijas var apkopot vienā noliktavas vienībā. Šis process tiek iespējots, izmantojot noliktavas mobilo ierīci. Piemēram, ja jauktu krājumu palete tiek piegādāta noliktavā, saņemšanas darbinieks identificē krājumus un daudzums uz paletes pirms palete tiek pārvietota uz specializētu izvietošanas vietu. Izvietošanas vietas tiek identificētas saskaņā ar darba veidnēm un novietojuma direktīvām. Ja izvietošanas vietas ir sadalītas vairākiem krājumiem, ar fiksētām vietām, šī funkcija izveido tik daudz izvietošanas darba rindu, cik dažādu krājumu ir uz jauktās paletes. Šī funkcija padara saņemto jaukto krājumu paletes reģistrāciju un izvietošanu ātrāku un elastīgāku. Papildinformācijai skatiet emuāra ziņu [Saņemt un reģistrēt paleti ar jauktām pirmdokumenta rindām, izmantojot 1 noliktavas vienību — pirkšanas pasūtījuma atbilstības noteikšana](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) un informācija par jauktu palešu atbalstu [paziņojumā par mūsu neseno kumulatīvo atjauninājumu](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Lai gan šī emuāra ziņa apraksta AX 2012 atjauninājumu, tas pats atbalsts tagad ir pievienots Dynamics 365 for Operations. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Papildu funkciju uzlabojumi Piegādes ķēdes pārvaldībā
 
@@ -946,4 +945,3 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunumi un izmaiņas](whats-new-changed.md)
-

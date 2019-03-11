@@ -1,13 +1,13 @@
 ---
-title: "Redzamība materiālu izņēmumos"
-description: "Šajā tēmā ir aprakstīts, kā varat iegūt labāku redzamību par izņēmumiem attiecībā uz izejmateriāliem ražošanas pasūtījumos un partijas pasūtījumos."
+title: Redzamība materiālu izņēmumos
+description: Šajā tēmā ir aprakstīts, kā varat iegūt labāku redzamību par izņēmumiem attiecībā uz izejmateriāliem ražošanas pasūtījumos un partijas pasūtījumos.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344758"
 ---
 # <a name="visibility-into-material-exceptions"></a>Redzamība materiālu izņēmumos
 
@@ -67,4 +67,3 @@ Kad šis elements tiek atlasīts, tiek atvērta lapa **Visi ražošanas kopumi**
 Elementā **Atvērtais noliktavas darbs, kam jāpievērš uzmanība** tiek rādīts skaits ar MK un formulas rindām, kuras ir izlaistas pārvietošanai uz noliktavu, kurās ir neapstrādāts darbs un kurās izejmateriālu datums ir agrāks par vai vienāds ar darbvietas datumu. Šis rindas ir nepieciešams arī patērēt ar operācijas resursu, kas attiecas uz darbvietas filtru.
 
 Kad šis elements tiek atlasīts, tiek atvērta lapa **Viss darbs**. Šī lapa tiek filtrēta pēc tādu atvērto darba virsrakstu skaita, kuros ir darba rindas no izlaistajām MK un formulas rindām, kas atbilst šī elementa kritērijiem. No lapas **Viss darbs** šo darbu varat apstrādāt manuāli.
-

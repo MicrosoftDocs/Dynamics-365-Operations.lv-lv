@@ -1,13 +1,13 @@
 ---
-title: "Pārvieto vidējo vērtību"
-description: "Slīdošā vidējā metode ir pastāvīgo izmaksu aprēķināšanas metode, kuras pamatā ir vidējā vērtība un kuras ietvaros krājumu izdošanas izmaksas nemainās, kad mainās pirkšanas izmaksas. Starpība tiek kapitalizēta, pamatojoties uz proporcionālu aprēķinu. Atlikusī summa tiek iekļauta izdevumos."
+title: Pārvieto vidējo vērtību
+description: Slīdošā vidējā metode ir pastāvīgo izmaksu aprēķināšanas metode, kuras pamatā ir vidējā vērtība un kuras ietvaros krājumu izdošanas izmaksas nemainās, kad mainās pirkšanas izmaksas. Starpība tiek kapitalizēta, pamatojoties uz proporcionālu aprēķinu. Atlikusī summa tiek iekļauta izdevumos.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348070"
 ---
-
 # <a name="moving-average"></a>Pārvieto vidējo vērtību
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ Lapā **Krājumu darbības** ir redzams, ka izdevumos ir iekļauta summa 4,00, j
 | 8. oktobris        | 8. oktobris    | Slīdošā vidējā pārvērtēšana |          | 4,00   | 16,00             |
 |                  | 31. oktobris   | Summa                      | 2        | 32,00  | 16,00             |
 
- **Piezīme.** Opciju **Transakcijas laika kārtošana** nevar izmantot virsgrāmatas un krājumu saskaņošanai. Pārskats ir jādrukā, izmantojot opciju **Grāmatošanas datums**.
-
+ **Piezīme.** Opciju **Transakcijas laika kārtošana** nevar izmantot virsgrāmatas un krājumu saskaņošanai. Pārskats ir jādrukā, izmantojot opciju **Grāmatošanas datums**.
 
 
 

@@ -1,39 +1,34 @@
 ---
-title: "Esiet sveicināti risinājumā Dynamics 365 for Retail"
-description: "Sākumlapa risinājumam Dynamics 365 for Retail"
+# required metadata
+title: Laipni lūdzam programmā Dynamics 365 for Retail!
+description: Sākumlapa programmai Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.search.scope: 'Core, Operations, Retail'
+ms.custom: null
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
 ---
 
-# <a name="welcome-to-dynamics-365-for-retail"></a>Esiet sveicināti risinājumā Dynamics 365 for Retail
+# <a name="welcome-to-dynamics-365-for-retail"></a>Laipni lūdzam programmā Dynamics 365 for Retail!
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina unificētu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
+Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
 > [!NOTE]
-> Risinājums Dynamics 365 for Retail ir cieši saistīts ar Dynamics 365 for Finance and Operations un Dynamics 365 for Talent. Šī funkcionalitāte var būt pieejama visos trīs produktos. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations; tēmās, kas galvenokārt ir saistītas ar cilvēkresursiem, produkta nosaukums ir Dynamics 365 for Talent.
+> Programma Dynamics 365 for Retail ir cieši saistīta ar programmu Dynamics 365 for Finance and Operations un Dynamics 365 for Talent. Visos trīs produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations; bet tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums ir Dynamics 365 for Talent.
 
 Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
@@ -77,22 +72,21 @@ Lai definētu attiecības starp veikalu, veikalā esošajiem POS reģistriem un
 
 ## <a name="customize-and-administer-retail-environments"></a>Retail vides pielāgošana un administrēšana
 
-Ja jums tiek lūgts pielāgot savu vidi vai ja atbildat par savas sistēmas izvietošanu un uzturēšanu, papildus vispārīgajam saturam apskatiet programmai Retail raksturīgo izstrādātāja un sistēmas administratora saturu.
+Ja jums tiek lūgts pielāgot savu vidi vai ja atbildat par savas sistēmas izvietošanu un uzturēšanu, papildus vispārīgajam saturam noteikti apskatiet programmai Retail raksturīgo izstrādātāja un sistēmas administratora saturu.
 
-- [Dynamics 365 for Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
-- [Dynamics 365 for Finance and Operations izstrāde un administrēšana](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 for Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
+- [Izstrāde un administrēšana programmai Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/).
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
 
 ### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par Retail un citiem risinājumiem ir atrodama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog).
+Viedokļi, ziņas un cita informācija par Retail un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog).
 
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudzas ziņas par risinājumu Retail. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai Retail versijai, šīs pašas koncepcijas joprojām ir spēkā, un procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par Retail. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai Retail versijai, joprojām ir spēkā tie paši jēdzieni, un procedūras pašreizējā versijā ir līdzīgas.
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
-

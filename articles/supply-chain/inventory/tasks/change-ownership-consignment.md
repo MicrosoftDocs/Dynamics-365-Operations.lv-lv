@@ -1,13 +1,13 @@
---- 
-title: "Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu"
-description: "Šajā procedūrā parādīts kā nomainīt sūtījuma krājumu īpašnieku no kreditora uz jūsu juridisko personu, ja ražošanā ir pieprasījums pēc krājuma."
+---
+title: Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu
+description: Šajā procedūrā parādīts kā nomainīt sūtījuma krājumu īpašnieku no kreditora uz jūsu juridisko personu, ja ražošanā ir pieprasījums pēc krājuma.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d1324da6996230eb383e2f37d3a133ec35cb0f41
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319021"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
     * Kad žurnāls ir grāmatots, kreditora krājumi tiek nodoti, izmantojot atsauci "Īpašumtiesību maiņa”. Krājumi tiek saņemti kā rīcībā esoši, izmantojot krājuma darbību, kas tiek atjaunināta ar pirkšanas pasūtījuma produktu ieejas plūsmu. Ņemiet vērā, ka tiek izveidotas tikai darbības, kas ir saistītas ar grāmatoto žurnālu. Netiek izveidotas nekādas paredzētās Krājumu darbības.  
 2. Noklikšķiniet uz OK.
 3. Aizvērt lapu.
-
 

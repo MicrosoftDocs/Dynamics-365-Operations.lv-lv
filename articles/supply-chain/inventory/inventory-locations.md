@@ -1,13 +1,13 @@
 ---
-title: "Krājumu vietas"
-description: "Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas."
+title: Krājumu vietas
+description: Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSLocation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 789272e1ee02c7f5dbab4e325cefe56425a3d1a7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 11be82682fc870cb21959d9e531ff8bf67993fa3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350807"
 ---
-
 # <a name="inventory-locations"></a>Krājumu vietas
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Varat kopēt novietojumus no vienas noliktavas uz citu, kā arī izveidot noviet
 --------
 
 [Jauna noliktavas izkārtojuma izveide (uzdevuma ceļvedis)](tasks/create-new-warehouse-layout.md)
-

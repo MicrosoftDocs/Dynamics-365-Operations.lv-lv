@@ -1,13 +1,13 @@
 ---
-title: "Talent sistēmas prasības un atjaunināšanas politika"
-description: "Šajā tēmā uzskaitītas prasības sistēmai Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika."
+title: Talent sistēmas prasības un atjaunināšanas politika
+description: Šajā tēmā uzskaitītas prasības sistēmai Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika.
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305241"
 ---
-
 # <a name="talent-system-requirements-and-update-policy"></a>Talent sistēmas prasības un atjaunināšanas politika
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā uzskaitītas prasības sistēmai Microsoft Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika.
+Šajā tēmā uzskaitītas prasības sistēmai Microsoft Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika.
 
 ## <a name="supported-web-browsers"></a>Atbalstītās tīmekļa pārlūkprogrammas
 
@@ -47,11 +46,11 @@ Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties 
 > * Darbplūsmas redaktors tiek startēts kā ClickOnce programma. ClickOnce programmas atbalsta tikai Microsoft Edge un Internet Explorer (atbalstītā Microsoft Windows versijā). Darbplūsmas redaktora ClickOnce programmai ir nepieciešama 64 bitu saderīga operētājsistēma.
 > * Lai priekšskatītu PDF failus, ieteicams izmantot modernas pārlūkprogrammas, piemēram, Microsoft Edge (jaunāko publiski pieejamo versiju) operētājsistēmā Windows 10 vai Google Chrome (jaunāko publiski pieejamo versiju) operētājsistēmā Windows 10, Windows 8.1, Windows 8, Windows 7 vai Google Nexus 10 planšetdatoros.
 >   Tīkla prasības
-> * Programmatūra Dynamics 365 for Talent ir izstrādāta tīkliem, kuru latentums ir 250–300 milisekundes (ms) vai mazāks. Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Microsoft Dynamics 365 for Talent. Ieteicams pārbaudīt tīkla latentumu vietnē [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
-> * Joslas platuma prasības programmai Dynamics 365 for Talent ir atkarīgas no scenārija. Tipiskākajiem scenārijiem ir nepieciešams joslas platums, kas ir lielāks par 50 kilobaitiem sekundē (KB/s).
+> * Dynamics 365 for Talent ir izstrādāta tīkliem, kuru latentums nepārsniedz 250–300 milisekundes (ms). Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Dynamics 365 for Talent. Ieteicams pārbaudīt tīkla latentumu vietnē [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+> * Joslas platuma prasības programmai Dynamics 365 for Talent ir atkarīgas no jūsu scenārija. Tipiskākajiem scenārijiem ir nepieciešams joslas platums, kas ir lielāks par 50 kilobaitiem sekundē (KB/s).
 > 
 > [!WARNING]
-> Neaprēķiniet nepieciešamo joslas platumu no klienta novietojuma, reizinot lietotāju skaitu ar minimālo nepieciešamo joslas platumu. Noteikta novietojuma vienlaicīgu izmantošanu ir ļoti grūti aprēķināt. Debitoriem, kurus uztrauc joslas platuma prasības, izmantojiet Dynamics 365 for Talent izmēģinājuma versiju.
+> Neaprēķiniet nepieciešamo joslas platumu no klienta novietojuma, reizinot lietotāju skaitu ar minimālo nepieciešamo joslas platumu. Noteikta novietojuma vienlaicīgu izmantošanu ir ļoti grūti aprēķināt. Debitoriem, kurus uztrauc joslas platuma prasības, izmantojiet Dynamics 365 for Talent izmēģinājuma versiju.
 
 ## <a name="supported-microsoft-office-applications"></a>Atbalstītās Microsoft Office programmas
 
@@ -62,5 +61,4 @@ Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties 
 
 Microsoft Dynamics 365 for Talent tiek apkalpots kā mākoņa piedāvājums. Dynamics 365 for Talent atjauninājumus pastāvīgi un automātiski piemēro Microsoft.
 
-Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs.  Programmatūras Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.
-
+Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs.  Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.

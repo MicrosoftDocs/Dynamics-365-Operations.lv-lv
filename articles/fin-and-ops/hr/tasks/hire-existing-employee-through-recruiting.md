@@ -1,13 +1,13 @@
---- 
-title: "Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi"
-description: "Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācijas darbinieki."
+---
+title: Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
+description: Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācijas darbinieki.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365389"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 
@@ -40,5 +40,4 @@ Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācij
 8. Varat atlasīt arī iemesla kodu. Piemērs: reorganizācija
 9. Noklikšķiniet uz Mainīt amatu.
     * Šajā laikā var mainīt arī atlīdzību. Ja šajā laikā nepiešķirat atlīdzību, to var mainīt, ieejot darbinieka formā, atlasot cilni Atlīdzība un izvēloties "Fiksēts plāns". Kad esat atlasījis "Mainīt amatu", pieteikuma statuss tiks atjaunināts uz "Nodarbināts".  
-
 

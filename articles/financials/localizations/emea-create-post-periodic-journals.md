@@ -1,13 +1,13 @@
 ---
-title: "Sadalīt periodus periodiskajos žurnālos"
-description: "Šajā tēmā ir sniegta informācija par dalītiem periodiem periodiskos žurnālos vai cikliskos žurnālos juridiskām personām Čehijas Republikā, Igaunijā, Ungārijā, Latvijā, Lietuvā, Polijā un Krievijā."
+title: Sadalīt periodus periodiskajos žurnālos
+description: Šajā tēmā ir sniegta informācija par dalītiem periodiem periodiskos žurnālos vai cikliskos žurnālos juridiskām personām Čehijas Republikā, Igaunijā, Ungārijā, Latvijā, Lietuvā, Polijā un Krievijā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c7a2acd8565c33d0e6dccf92fc66a1413b3c7263
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 60c8b10af7c77cf8ae566014e2cacd939d01c9e8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371274"
 ---
-
 # <a name="split-periods-in-periodic-journals"></a>Sadalīt periodus periodiskajos žurnālos
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Kāda apdrošināšanas sabiedrība jūsu uzņēmumam piedāvā atlaidi, veicot 
 | **Perioda intervāls**   | Nosakiet intervālu starp grāmatošanas periodiem.                                                                                                                                                              |
 
 Piemēram, lai ģenerētu ceturkšņa grāmatojumus, laukā **Periodu skaits** ievadiet **4**, laukā **Vienība** atlasiet vērtību **Mēneši** un laukā **Periodu intervāls** ievadiet **3**. Sistēma ģenerē četras žurnāla rindas ar 3 mēnešu intervāliem, un katra no tām ietver vienu ceturto daļu no jūsu ievadītās žurnāla rindas summas. Līdzīga funkcionalitāte ir pieejama arī virsgrāmatas žurnālam. Kad apskatāt virsgrāmatas žurnāla rindas, atlasiet **Periodiskais žurnāls** &gt; **Saglabāt žurnālu**.
-
 
 
 

@@ -1,32 +1,31 @@
 ---
-title: "Darbu izveide, apstiprināšana un publicēšana programmā Attract"
-description: "Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu."
+title: Darbu izveide, apstiprināšana un publicēšana programmā Attract
+description: Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305339"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Darbu izveide, apstiprināšana un publicēšana programmā Attract
 
 [!include [banner](includes/banner.md)]
@@ -45,7 +44,7 @@ Cilnē **Darba informācija** ir iekļauta informācija par darba pienākumiem u
 
 Pēc noklusējuma laukā **Vakanču skaits** ir iestatīta vērtība **1**. Tomēr vērtību var mainīt. Kad darbam ir sagatavots piedāvājums, vērtība laukā **Pieejamo vakanču skaits** tiek samazināta.
 
-Ja administrēšanas centrā ir ieslēgta amatu pārvaldība, ir pieejama meklēšana **Atjaunināt amatus**. Šī meklēšana nolasa elementu JobPosition pakalpojumā Common Data Service programmām un atgriež amatu sarakstu, kurus var atlasīt attiecīgajam darbam. Ja atlasīto amatu skaits pārsniedz atvērto amatu skaitu, saņemsit brīdinājumu. Brīdinājumu arī saņemsit gadījumā, ja amats tiek izmantots vairākos darbos.
+Ja administrēšanas centrā ir ieslēgta amatu pārvaldība, ir pieejama meklēšana **Atjaunināt amatus**. Veicot šo meklēšanu, tiek nolasīts elements JobPosition pakalpojumā Common Data Service programmām un tiek atgriezts amatu saraksts, kurus var atlasīt attiecīgajam darbam. Ja atlasīto amatu skaits pārsniedz atvērto amatu skaitu, saņemsit brīdinājumu. Brīdinājumu arī saņemsit gadījumā, ja amats tiek izmantots vairākos darbos.
 
 > [!NOTE]
 > Amatu pārvaldība ir pieejama tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums.
@@ -75,7 +74,7 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 ## <a name="postings"></a>Grāmatojumi
 
-Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsoft Dynamics 365 for Talent karjeras vietne) vai LinkedIn. 
+Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsof Dynamics 365 for Talent karjeras vietne) vai LinkedIn. 
 
 > [!NOTE]
 > Ir trīs svarīgas lietas, kas jāņem vērā par darbu publicēšanu pakalpojumā LinkedIn.
@@ -162,11 +161,10 @@ Lai izveidotu darbu, veiciet šādas darbības.
 11. Atlasiet **Saglabāt**.
 12. Ja atlasījāt apstiprināšanas procesa izmantošanu, veiciet šādas darbības:
 
-    1. Atlasiet **+ pievienot apstiprinātāju** un pēc tam ievadiet lietotāju, kuram ir Azure AD konts. Var pievienot vairākus apstiprinātājus.
+    1. Atlasiet **+ Pievienot apstiprinātāju** un pēc tam ievadiet lietotāju, kuram ir Azure AD konts. Var pievienot vairākus apstiprinātājus.
     2. Atlasiet **Nosūtīt apstiprinātājiem**.
 
     Darba laukā **Darba statuss** ir iestatīta vērtība **Gaida**. Pēc tam, kad lauka **Darba statuss** vērtība mainās uz **Apstiprināts**, darbu var aktivizēt.
 
 13. Lai aktivizētu darbu, atlasiet **Aktivizēt**.
 14. Lai publicētu darbu, atveriet sadaļu **Publicētie darbi** un pēc tam atlasiet **Publicēt tagad** vietnē Talent Careers vai LinkedIn.
-

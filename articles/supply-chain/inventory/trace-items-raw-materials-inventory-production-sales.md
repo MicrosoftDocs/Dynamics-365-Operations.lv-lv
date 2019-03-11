@@ -1,13 +1,13 @@
 ---
-title: "Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdošanā"
-description: "Šajā tēmā ir aprakstīts, kā jūs varat izmantot krājuma izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti, tiek izmantoti vai tiks izmantoti ražošanas un pārdošanas procesos."
+title: Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdošanā
+description: Šajā tēmā ir aprakstīts, kā jūs varat izmantot krājuma izsekošanu, lai identificētu, kur krājumi vai izejmateriāli ir izmantoti, tiek izmantoti vai tiks izmantoti ražošanas un pārdošanas procesos.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310074"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdošanā
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Ja vēlaties izmantot opciju **Jauna atpakaļ vērsta izsekošana** vai **Jauna 
 Cilnē <strong>Detalizēta informācija</strong> pieejamos datus var saglabāt XML faila formātā, darbību rūtī zem darbības *<strong><em>Izsekošana</em></strong>* noklikšķinot uz <strong>Eksportēt</strong>. Papildus izsekošanas datiem XML formāta failā ir iekļauti dati par izsekošanas kritērijiem, pamatlīmeni un rīcībā esošo daudzumu. Detalizētās informācijas par izsekošanu saglabāšanas iespēja ir noderīga, piemēram, ja vēlaties pievienot informāciju kvalitātes pārbaudes pasūtījumam vai citos atbilstības novērtēšanas dokumentos. Varat norādīt faila saglabāšanas vietu. Lai tūlītēji skatītu failu, atlasiet opciju <strong>Parādīt dokumentu</strong>. <strong>Piezīme.</strong> Fails tiek saglabāts arī tad, ja vēlaties to tikai apskatīt. Pēc noklusējuma pārlūkprogrammas logā tiek atvērts XML fails. Taču var arī noklikšķināt ar peles labo pogu uz faila un atlasīt <strong>Atvērt ar</strong> un pēc tam atlasīt programmu, kura jāizmanto satura parādīšanai.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Vai es varu aprēķināt bilanci noteiktam krājumam vai komponentei?
-Kopsavilkuma lapās pieejamo informāciju var eksportēt programmā Microsoft Excel. Atveriet attiecīgo lapu, noklikšķiniet uz ikonas **Atvērt programmā Microsoft Office** un pēc tam atlasiet **Eksportēt programmā Microsoft Excel**. Šī funkcionalitāte ir īpaši noderīga, ja vēlaties aprēķināt krājuma vai komponenta masas bilanci lapā **Transakciju kopsavilkums**. Lapā **Transakciju kopsavilkums** var filtrēt pēc krājuma vai komponenta un papildus arī pēc partijas un pēc tam eksportēt datus programmā Excel. Programmā Excel varat, piemēram, atdalīt rīcībā esošo daudzumu, pārdoto daudzumu un ražošanā izmantoto summu.
+Informāciju varat eksportēt no kopsavilkuma lapām uz Microsoft Excel. Atveriet attiecīgo lapu, noklikšķiniet uz ikonas **Atvērt programmā Microsoft Office** un pēc tam atlasiet **Eksportēt programmā Microsoft Excel**. Šī funkcionalitāte ir īpaši noderīga, ja vēlaties aprēķināt krājuma vai komponenta masas bilanci lapā **Transakciju kopsavilkums**. Lapā **Transakciju kopsavilkums** var filtrēt pēc krājuma vai komponenta un papildus arī pēc partijas un pēc tam eksportēt datus programmā Excel. Programmā Excel varat, piemēram, atdalīt rīcībā esošo daudzumu, pārdoto daudzumu un ražošanā izmantoto summu.
 
 ## <a name="can-i-investigate-whether-there-is-a-history-of-issues-with-items-or-raw-materials"></a>Vai var noskaidrot, vai ar krājumu vai izejmateriālu ir bijušas problēmas?
 Izsekošanas datos ir iekļauta informācija par kvalitātes pasūtījumiem un neatbilstībām, kas saistītas ar krājumu vai izejmateriālu. Lai skatītu kopsavilkumu par kvalitātes pārbaudes pasūtījumiem un neatbilstībām, darbību rūtī noklikšķinot uz **Kvalitātes pasūtījumi** vai **Neatbilstības**. **Piezīme.** Destruktīvi kvalitātes pasūtījumi izsekošanas datos var būt redzami vairāk nekā vienu reizi. Izveidojot dokumentam, piemēram, pirkšanas pasūtījumam, destruktīvu kvalitātes pasūtījumu, tas tiek parādīts katrai dokumenta transakcijai.
@@ -141,4 +140,3 @@ Var izveidot pārskatu **Nosūtīts debitoriem**, lai noskaidrotu nosūtīto kr�
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Vai es varu izsekot līdzproduktus un blakusproduktus?
 Izsekot var arī līdzproduktus, bet nevar izsekot blakusprodukts, jo parasti tiem netiek piešķirtas izsekošanas dimensijas. Krājuma izsekošanas gadījumā izsekošanas dati iekļauj visus saistītos līdzproduktus. Detalizētajā informācijā līmenis, kas satur līdzproduktu, ietver vārdu "līdzprodukts". Skatīt var arī detalizētu informāciju par līdzproduktu, atlasot līmeni izsekošanas datos un pēc tam noklikšķinot uz kopsavilkuma cilnes **Ražošana**.
-

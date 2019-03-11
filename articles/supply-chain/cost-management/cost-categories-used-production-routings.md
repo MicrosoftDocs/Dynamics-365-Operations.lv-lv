@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas maršrutēšanā izmantotās izmaksu kategorijas"
-description: "Šis raksts sniedz informāciju par izmaksu kategorijām, kas attiecas uz ražošanas vidēm, kurās izmanto maršrutēšanu."
+title: Ražošanas maršrutēšanā izmantotās izmaksu kategorijas
+description: Šis raksts sniedz informāciju par izmaksu kategorijām, kas attiecas uz ražošanas vidēm, kurās izmanto maršrutēšanu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315801"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>Ražošanas maršrutēšanā izmantotās izmaksu kategorijas
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ Izmaksu kategorijas izmaksu ieraksts var attiekties uz vietu vai visu uzņēmumu
 Maršrutēšanas operācija parasti pārmanto izmaksu kategorijas, kas tiek piešķirtas operācijas resursam vai galvenajai darbībai. Izveidojot ražošanas pasūtījumu, maršrutēšanas operācija ražošanas maršrutā ir saistīts ar atlasīto maršruta versiju. Izmaksu kategorijas, kas piešķirtas darbības ražošanas maršrutā, var ignorēt. 
 
 Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un pārskatu sagatavošanu. Šajā gadījumā izmaksu kategorija ir nepieciešama ražošanas un projekta mērķiem. Atzīmējot izmaksu kategoriju ar karodziņu par izmantošanu projektos, jādefinē papildu ar projektu saistīta informācija.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Virsgrāmata un finanšu atskaišu veidošanas sākumlapa"
-description: "Izmantojiet Virsgrāmatu, lai definētu un pārvaldītu juridiskās personas finanšu ierakstus."
+title: Virsgrāmata un finanšu atskaišu veidošanas sākumlapa
+description: Izmantojiet Virsgrāmatu, lai definētu un pārvaldītu juridiskās personas finanšu ierakstus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: lv-lv
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363365"
 ---
-
 # <a name="general-ledger"></a>Virsgrāmata 
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Izmantojiet Virsgrāmatu, lai definētu un pārvaldītu juridiskās personas fin
  - [Plānot kontu plānu](plan-chart-of-accounts.md)
  - [Galvenā konta tipi](main-account-types.md)
 
-Var sadalīt vai piešķirt naudas summas vienam vai vairākiem kontiem vai kontu un dimensiju kombinācijām, pamatojoties uz sadalījuma noteikumiem. Ir divu tipu sadalījumi: fiksētais un mainīgais. Var arī kārtot transakcijas starp Virsgrāmatas kontiem un pārvērtēt valūtas summas. Finanšu gada beigās jums ir jāģenerē slēgšanas transakcijas un jāsagatavo jūsu konti nākošajam finanšu gadam. Varat izmantot konsolidācijas funkcionalitāti, lai kombinētu finanšu rezultātus no vairākām juridiskajām personām vienā apvienotā organizācijā. Apakšuzņēmumi var būt tajā pašā Microsoft Dynamics 365 for Finance and Operations datu bāzē vai atsevišķās datu bāzēs.
+Var sadalīt vai piešķirt naudas summas vienam vai vairākiem kontiem vai kontu un dimensiju kombinācijām, pamatojoties uz sadalījuma noteikumiem. Ir divu tipu sadalījumi: fiksētais un mainīgais. Var arī kārtot transakcijas starp Virsgrāmatas kontiem un pārvērtēt valūtas summas. Finanšu gada beigās jums ir jāģenerē slēgšanas transakcijas un jāsagatavo jūsu konti nākošajam finanšu gadam. Varat izmantot konsolidācijas funkcionalitāti, lai kombinētu finanšu rezultātus no vairākām juridiskajām personām vienā apvienotā organizācijā. Apakšuzņēmumi var būt ietverti tajā pašā Microsoft Dynamics 365 for Finance and Operations datu bāzē vai atsevišķās datu bāzēs.
 
 - [Konsolidēšanas un koriģēšanas apskats](../budgeting/consolidation-elimination-overview.md)
 - [Virsgrāmatas konta bilances](general-ledger-account-balances.md)
@@ -60,18 +59,17 @@ Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Informācija par laidien
 
 ### <a name="videos"></a>Videoklipi
 
-Skatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejami [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Daudzi raksti par virsgrāmatu ir publicēti [Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai virsgrāmatas versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par Virsgrāmatu. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai virsgrāmatas versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
 #### <a name="community-blogs"></a>Kopienas emuāri
 
-- [Kas jums būtu jāzina par Dynamics 365 for Finance and Operations Virsgrāmatu](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
+- [Svarīgākā informācija par Virsgrāmatu programmā Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 

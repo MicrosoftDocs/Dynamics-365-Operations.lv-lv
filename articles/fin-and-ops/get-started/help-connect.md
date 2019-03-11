@@ -1,13 +1,13 @@
 ---
-title: "Savienojuma izveide ar palīdzības sistēmu"
-description: "Šajā tēmā ir aprakstīti programmatūrai Microsoft Dynamics 365 for Finance and Operations paredzētās palīdzības sistēmas komponenti, sniegts apskats par to, kā tos savienot, un kopsavilkums par to, kā izveidot pielāgotu palīdzību."
+title: Savienojuma izveide ar palīdzības sistēmu
+description: Šajā tēmā ir aprakstīti Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponenti, kā arī ir sniegts apskats par savienojumu izveidi ar tiem un kopsavilkums par pielāgota palīdzības satura izveidi.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317733"
 ---
-
 # <a name="connect-the-help-system"></a>Savienojuma izveide ar palīdzības sistēmu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponenti. Tajā ir sniegts pārskats par to, kā izveidot savienojumu ar šiem komponentiem, kā arī kopsavilkums par to, kā izveidot pielāgotus palīdzības materiālus.
+Šajā tēmā ir paskaidroti Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponenti. Tajā ir sniegts pārskats par to, kā izveidot savienojumu ar šiem komponentiem, kā arī kopsavilkums par to, kā izveidot pielāgotus palīdzības materiālus.
 
 ## <a name="help-architecture"></a>Palīdzības arhitektūra
 
@@ -44,7 +43,7 @@ Nākamajā attēlā ir redzamas Finance and Operations palīdzības sistēmas da
 ## <a name="connecting-the-help-system"></a>Savienojuma izveide ar palīdzības sistēmu
 
 > [!NOTE]
-> Cilne **Uzdevumu ceļveži** pašlaik nav pieejama versijā Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Palīdzība saistībā ar procedūrām ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) gan versijai Retail, gan versijai Talent.
+> Programmās Microsoft Dynamics 365 for Talent un Microsoft Dynamics 365 for Retail pašlaik nav pieejama cilne **Uzdevumu ceļveži**. Mēs pašlaik strādājam pie tā, šo funkcionalitāti iespējotu nākamajos laidienos. Uzdevumu ceļveži versijas Talent funkcionalitātē Darba sākšana joprojām ir pieejami pamata funkcionalitātes segšanai. Palīdzība saistībā ar procedūrām ir pieejama arī vietnē docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) gan versijai Retail, gan versijai Talent.
 
 Izmantojot lapu **Sistēmas parametri**, sistēmas administratori izveido savienojumu ar palīdzības sistēmas daļām implementācijas nolūkā.
 
@@ -102,4 +101,3 @@ Microsoft ir sniedzis tehn. dokum. un parauga kodu, kas apraksta, kā veidot un 
 [Pārskats par uzdevuma reģistrētāju](../../dev-itpro/user-interface/task-recorder.md)
 
 [Kā izveidot uzdevuma ierakstu, ko lietot kā dokumentāciju vai apmācību](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

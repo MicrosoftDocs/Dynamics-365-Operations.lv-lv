@@ -1,13 +1,13 @@
---- 
-title: "Brīva teksta rēķina veidnes piešķiršana debitoram"
-description: "Šajā uzdevumā parādīts, kā debitoram piešķirt brīvā teksta rēķina veidni."
+---
+title: Brīva teksta rēķina veidnes piešķiršana debitoram
+description: Šajā uzdevumā parādīts, kā debitoram piešķirt brīvā teksta rēķina veidni.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318929"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Brīva teksta rēķina veidnes piešķiršana debitoram
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 10. Atlasiet atkārtošanās shēmu.
     * Dienas — atlasiet šo opciju un ievadiet dienu skaitu laukā Uz. Piemēram, ja ievadāt 15, tad rēķins šim debitoram tiks ģenerēts ik pēc 15 dienām.  Nedēļas — atlasiet šo opciju un ievadiet nedēļu skaitu laukā Uz. Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc divām nedēļām.  Mēneša — atlasiet šo opciju un ievadiet mēnešu skaitu laukā Uz. Piemēram, ja ievadāt 6, tad rēķins šim debitoram tiks ģenerēts ik pēc sešiem mēnešiem.  Gada — atlasiet šo opciju un ievadiet gadu skaitu laukā Uz. Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc diviem gadiem.  
 11. Ievadiet skaitli laukā Uz.
-
 

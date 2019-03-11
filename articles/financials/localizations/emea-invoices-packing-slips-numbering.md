@@ -1,13 +1,13 @@
 ---
-title: "Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus."
+title: Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
+description: Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2dfd1a1c9574083f33a3312a20a9910d2ed6895c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e995d361313eb6f30f887af2f1a8231ff7c94f06
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371294"
 ---
-
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 
 [!include [banner](../includes/banner.md)]
@@ -126,7 +125,6 @@ Turklāt tālāk norādītās formas tiek papildinātas ar lauku **Atjaunināmie
 -   Pirkšanas produktu ieejas plūsmas grāmatošanas forma
 
 Lauks “**Atjaunināmie dokumenti**” ietekmē lauku “**Dokumenta statuss**” žurnālā “**Pavadzīmju žurnāls**” un "**Rēķinu žurnāls**". Veidojot dokumentu **Pavadzīme**, lauka “**Dokumenta statuss**”vērtība ir vienāda ar vērtību “**Nav**”. Ja laukā “**Atjaunināmie dokumenti**” tika izvēlēta kāda **Pavadzīme**, tad tās “**Dokumenta statuss**” ir “**Bojāts**”, bet “**Dokumenta statuss**” tādam dokumentam **Pavadzīme**, kur tas tika izdarīts, ir “**Atcelts**”.
-
 
 
 

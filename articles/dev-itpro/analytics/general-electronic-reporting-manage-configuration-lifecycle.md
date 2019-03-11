@@ -1,13 +1,13 @@
 ---
-title: "Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība"
-description: "Šajā tēmā ir aprakstīts, kā pārvaldīt Microsoft Dynamics 365 for Finance and Operations risinājuma elektronisko pārskatu (ER) konfigurāciju dzīves ciklu."
+title: Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība
+description: Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Microsoft Dynamics 365 for Finance and Operations risinājumam.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5724ba62bfb2c6e75ae895dc9285966c25f387a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 76ea412a3c10bf33fc06603bab8b94b2eadb9803
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344804"
 ---
-
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pārvaldīt Microsoft Dynamics 365 for Finance and Operations risinājuma elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
+Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Microsoft Dynamics 365 for Finance and Operations risinājumam.
 
-## <a name="overview"></a>Apskats
+## <a name="overview"></a>Pārskats
 
-Elektronisko pārskatu veidošana (Electronic reporting — ER) ir programma, kas programmatūrā Microsoft Dynamics 365 for Finance and Operations atbalsta ar likumu noteiktos un valstij specifiskos elektroniskos dokumentus. Kopumā ER spēj veikt šādus uzdevumus attiecībā uz vienu elektronisko dokumentu. Papildinformāciju skatiet tēmā [Pārskats par elektronisko pārskatu veidošanu](general-electronic-reporting.md).
+Elektronisko pārskatu izveide (ER) ir programma, kas nodrošina ar likumu noteikto un valstij raksturīgo elektronisko dokumentu atbalstu programmā Microsoft Dynamics 365 for Finance and Operations. Kopumā ER spēj veikt šādus uzdevumus attiecībā uz vienu elektronisko dokumentu. Papildinformāciju skatiet tēmā [Pārskats par elektronisko pārskatu veidošanu](general-electronic-reporting.md).
 
 - Izveidot elektroniskā dokumenta veidni:
 
@@ -89,4 +88,3 @@ Izstrādes vidē izstrādātās ER konfigurācijas var augšupielādēt testē�
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-

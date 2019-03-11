@@ -1,13 +1,13 @@
 ---
-title: "Konfigurācijas noteikumi"
-description: "Šajā rakstā ir sniegta vispārīga informācija par konfigurācijas kārtulām. Konfigurācijas kārtulas nosaka attiecības starp krājumiem materiālu komplektos (MK), kas attiecas uz precēm, kurām tiek izmantota konfigurācijas atbilstoši dimensijām tehnoloģija."
+title: Konfigurācijas noteikumi
+description: Šajā rakstā ir sniegta vispārīga informācija par konfigurācijas kārtulām. Konfigurācijas kārtulas nosaka attiecības starp krājumiem materiālu komplektos (MK), kas attiecas uz precēm, kurām tiek izmantota konfigurācijas atbilstoši dimensijām tehnoloģija.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 13f37cb4e472e91862e963a4952adcf61e6adcea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8bbec5a0e6b6d9c3001fc36c7bdd053f92112fea
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319366"
 ---
-
 # <a name="configuration-rules"></a>Konfigurācijas noteikumi
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Izmaiņas konfigurācijas noteikumos neietekmē esošās konfigurācijas. Taču 
 --------
 
 [Preces konfigurācija atbilstoši dimensijām](dimension-based-product-configuration.md)
-
 
 
 

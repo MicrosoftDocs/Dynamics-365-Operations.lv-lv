@@ -1,13 +1,13 @@
 ---
-title: "Rindu definīciju šūnu modificēšana"
-description: "Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt."
+title: Rindu definīciju šūnu modificēšana
+description: Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323644"
 ---
-
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Varat ierobežot rindu ar esošu grāmatas kodu. Kolonnas definīcijā jāiekļa
 Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un darījumu atribūtus. Šie atribūti darbojas kā virtuāli kontu segmenti, un tie var ietvert papildu informāciju par kontu vai darījumu. Šī papildu informācija var būt konta ID, partijas ID, pasta indeksi un citi atribūti. Ja jūsu grāmatvedības sistēmā tiek atbalstīti atribūti, rindas definīcijā kā rindu modifikatorus varat izmantot kontu atribūtus vai darījumu atribūtus. Papildinformāciju par rindas informācijas ignorēšanu skatiet šajā rakstā iepriekš aprakstītajā tēmā Kolonnas definīcijas ignorēšana.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Šūnas Saite uz finanšu dimensijām norādīšana
-Šūna **Saite uz finanšu dimensijām** satur saites uz finanšu datiem, kas ir jāiekļauj katrā pārskata rindā. Šajā šūnā tiek ietvertas dimensiju vērtības, taču to vietā varat norādīt Microsoft Excel darblapas šūnas, vai arī papildus — segmenta vai dimensiju vērtības. Lai atvērtu dialoglodziņu **Dimensijas**, veiciet dubultklikšķi uz šūnas **Saite uz finanšu dimensijām**.
+Šūna **Saite uz finanšu dimensijām** satur saites uz finanšu datiem, kas ir jāiekļauj katrā pārskata rindā. Šajā šūnā ir ietvertas dimensiju vērtības, taču segmentu vērtību vai dimensiju vērtību vietā vai papildus tam varat norādīt Microsoft Excel darblapas šūnas. Lai atvērtu dialoglodziņu **Dimensijas**, veiciet dubultklikšķi uz šūnas **Saite uz finanšu dimensijām**.
 
 > [!NOTE]
-> Pārskatu veidotājs Microsoft Dynamics ERP sistēmā nevar atlasīt kontus, dimensijas vai laukus, kuros ir ietverta kāda no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Lai norādītu informāciju rindai, kas jau ir rindas definīcijā, pievienojiet informāciju šūnā **Saite uz finanšu dimensijām**. Lai pievienotu jaunas rindas, kurās ir saite uz finanšu datiem, un izveidotu jaunas pārskata definīcijas rindas, izmantojiet dialoglodziņu **Ievietot rindas no**. Kolonnas nosaukums tiek mainīts atkarībā no kolonnas konfigurācijas (skatiet tālāk redzamo tabulu).
+> Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Lai norādītu informāciju rindai, kas jau ir ietverta rindas definīcijā, pievienojiet šo informāciju šūnā **Saite uz finanšu dimensijām**. Lai pievienotu jaunas rindas, kurās ir saite uz finanšu datiem, un izveidotu jaunas pārskata definīcijas rindas, izmantojiet dialoglodziņu **Ievietot rindas no**. Kolonnas nosaukums tiek mainīts atkarībā no kolonnas konfigurācijas (skatiet tālāk redzamo tabulu).
 
 | Atlasītais saites tips       | Kolonnas Saite apraksts tiek mainīts šādi |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Kad dialoglodziņā **Dimensijas** ievadāt galvenā segmenta vērtību, varat i
 Jūs varat norādīt segmentu vērtību vai dimensiju vērtību diapazonu. Norādot diapazonu, priekšrocība ir tas, ka nav nepieciešams atjaunināt rindas definīciju katru reizi, kad finanšu datiem tiek pievienota jauna segmenta vērtība vai dimensijas vērtība. Piemēram, izmantojot diapazonu **+Konts=\[6100:6900\]**, rindas summas aprēķinam tiek izgūtas vērtības no 6100.–6900. konta. Kad diapazons ietver aizstājējzīmi (?), atskaišu veidotājs nevērtē diapazonu katrai rakstzīmei. Tā vietā tiek noteikti diapazona zemākā un augstākā vērtība, un tad tiek iekļautas robežvērtības un visas vērtības starp tām.
 
 > [!NOTE]
-> Pārskatu veidotājs Microsoft Dynamics ERP sistēmā nevar atlasīt kontus, dimensijas vai laukus, kuros ir ietverta kāda no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
+> Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Vairāku segmentu vai vairāku dimensiju diapazoni
 
 Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\\financial-dimensions\\dimension-by-dimension basis. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams.
 
 > [!NOTE] 
-> Pārskatu veidotājs Microsoft Dynamics ERP sistēmā nevar atlasīt kontus, dimensijas vai laukus, kuros ir ietverta kāda no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
+> Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Pievienošana citiem kontiem vai atskaitīšana no tiem rindas definīcijā
 Lai saskaitītu vai atņemtu naudas summas vienā kontā no cita konta naudas summas, šūnā **Saite uz finanšu dimensijām** varat izmantot plus zīmi (+) un mīnus zīmi (-). Tālāk tabulā ir redzami formāti, kas tiek atbalstīti finanšu datu saitēs, lai saskaitītu vai atņemtu esošo summu vērtības.
@@ -456,10 +455,10 @@ Lai saskaitītu vai atņemtu naudas summas vienā kontā no cita konta naudas su
 | Atņemiet segmenta vērtību diapazonu.                                                     | -Konts=\[1200:1205\]                                                                                       |
 | Atņemiet segmenta vērtību diapazonu, kas satur aizstājējzīmes.                    | -Konts=\[120?:130?\]                                                                                       |
 
-Lai gan kontus varat modificēt nepastarpināti, varat izmantot arī dialoglodziņu **Dimensijas**, lai jūsu finanšu datu saitēm lietotu pareizo formatējumu. Jebkurā vērtībā var ietvert aizstājējzīmes (? vai \*). Taču pārskatu noformētājs nevar Microsoft Dynamics ERP sistēmā atlasīt kontus, dimensijas vai laukus, kuros ir ietverta kāda no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }.
+Lai gan kontus varat modificēt nepastarpināti, varat izmantot arī dialoglodziņu **Dimensijas**, lai jūsu finanšu datu saitēm lietotu pareizo formatējumu. Jebkurā vērtībā var ietvert aizstājējzīmes (? vai \*). Taču pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }.
 
 > [!NOTE]
-> Lai atņemtu vērtības, šīs vērtības ir jāliek iekavās. Piemēram, ja ievadāt diapazonu **450?-(4509)**, tas tiek parādīts kā **+Konts=\[4509\]-Konts=\[450?\]** un pārskatu noformētajam tiek dota komanda 4509. konta segmenta summu atņemt no summas jebkurā konta segmentā, kura numurs sākas ar 450.
+> Lai vērtības atņemtu, tās jāieraksta iekavās. Piemēram, ja ievadāt diapazonu **450?-(4509)**, tas tiek parādīts kā **+Konts=\[4509\]-Konts=\[450?\]** un pārskatu noformētajam tiek dota komanda 4509. konta segmenta summu atņemt no summas jebkurā konta segmentā, kura numurs sākas ar 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Pieskaitiet vai atņemiet kontus no citiem kontiem
 
@@ -533,4 +532,3 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-

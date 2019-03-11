@@ -1,13 +1,13 @@
 ---
-title: "Kvalitātes pārvaldības apskats"
-description: "Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 for Finance and Operations varat izmantot kvalitātes pārvaldību, lai uzlabotu produktu kvalitāti savā piegādes ķēdē."
+title: Kvalitātes pārvaldības apskats
+description: Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338318"
 ---
-
 # <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 for Finance and Operations varat izmantot kvalitātes pārvaldību, lai uzlabotu produktu kvalitāti savā piegādes ķēdē.
+Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 
-Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Microsoft Dynamics 365 for Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
+Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar labojumu pārskatu izveidi, programma Microsoft Dynamics 365 for Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
 
 Papildus neatbilstības pārvaldības funkcionalitātei kvalitātes pārvaldība ietver arī funkcionalitāti problēmu izsekošanai pēc problēmas tipa (pat iekšējām problēmām) un risinājumu identificēšanai īstermiņā vai ilgtermiņā. Statistika par galvenajiem darba kvalitātes rādītājiem (KPI) sniedz ieskatu par iepriekšējām neatbilstības problēmām un risinājumiem, kas tika izmantoti to labošanai. Vēsturiskos datus varat izmantot, lai pārskatītu iepriekšējo kvalitātes pasākumu efektivitāti un noteiktu, kuri pasākumi ir piemēroti turpmākai izmantošanai.
 
@@ -260,7 +259,7 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 <tr>
 <td>Karantīnas pasūtījums</td>
 <td>Pirms vai pēc tam, kad karantīnas pasūtījums tiek ziņots kā pabeigts vai beidzies</td>
-<td>Nevar ģenerēt kvalitātes pārbaudes pasūtījumus, kam ir nepieciešami destruktīvie testi. Tiek pieņemts, ka karantīnas pasūtījuma funkcionalitāte veic atbrīvošanos no iznīcinātā materiāla.</td>
+<td>Nevar ģenerēt kvalitātes pārbaudes pasūtījumus, kam ir nepieciešami destruktīvi testi. Tiek pieņemts, ka karantīnas pasūtījuma funkcionalitāte nodrošina atbrīvošanos no iznīcinātā materiāla.</td>
 <td>Kvalitātes pārbaudes pasūtījuma pieprasījums var norādīt noteiktu vietu, krājumu vai kreditoru, vai šo nosacījumu kombināciju.</td>
 <td>Manuāli ģenerēts kvalitātes pārbaudes pasūtījums, kas atbilst karantīnas pasūtījumam, var izmantot informāciju kvalitātes saistības ierakstā, piemēram, testēšanas iztveršanas plānu.</td>
 </tr>
@@ -290,7 +289,7 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 <td>Kvalitātes pārbaudes pasūtījumu nevar automātiski ģenerēt transakcijai krājumu žurnālā vai arī pārsūtīšanas pasūtījuma transakcijām.</td>
 <td></td>
 <td></td>
-<td>Krājumu daudzumam kvalitātes pārbaudes pasūtījums ir jāveido manuāli. Fiziski rīcībā esošie krājumi ir obligāti.</td>
+<td>Krājuma daudzumam noliktavā ir manuāli jāizveido kvalitātes pārbaudes pasūtījums. Fiziski rīcībā esošie krājumi ir obligāti.</td>
 </tr>
 </tbody>
 </table>
@@ -338,7 +337,7 @@ Ir jādefinē kvalitātes piesaiste katrai biznesa procesā ietvertajai variāci
 </tr>
 <tr class="even">
 <td>Krājumu kvalitātes grupas</td>
-<td>Izmantojiet šo lapu, lai iestatītu, rediģētu un skatītu krājumus, kas ir piešķirti kvalitātes grupai vai kvalitātes grupām, kuras ir piešķirtas kādam krājumam. Kvalitātes grupa norāda kopējās testēšanas vajadzības krājumam. Kad lapā <strong>Testu grupas</strong> ir definētas testa prasības, varat definēt kārtulas automātiskai kvalitātes pārbaudes pasūtījumu ģenerēšanai. Lai vienkāršotu šo procesu, jūs nedefinējat kārtulas atsevišķiem krājumiem. Tā vietā jūs definējat kārtulas kvalitātes grupai, izmantojot lapu <strong>Kvalitātes saistības</strong>. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītai kvalitātes grupai, lai šai grupai piešķirtu atbilstošos krājumus. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītam krājumam, lai šim krājumam piešķirtu atbilstošās kvalitātes grupas.</td>
+<td>Izmantojiet šo lapu, lai iestatītu, rediģētu un skatītu krājumus, kas ir piešķirti kvalitātes grupai vai kvalitātes grupām, kuras ir piešķirtas kādam krājumam. Kvalitātes grupa norāda kopējās testēšanas vajadzības krājumam. Kad lapā <strong>Testu grupas</strong> ir definētas testa prasības, varat definēt kārtulas automātiskai kvalitātes pārbaudes pasūtījumu ģenerēšanai. Lai vienkāršotu šo procesu, netiek definētas kārtulas atsevišķiem krājumiem. Tā vietā jūs definējat kārtulas kvalitātes grupai, izmantojot lapu <strong>Kvalitātes saistības</strong>. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītai kvalitātes grupai, lai šai grupai piešķirtu atbilstošos krājumus. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītam krājumam, lai šim krājumam piešķirtu atbilstošās kvalitātes grupas.</td>
 <td>Ražošanas uzņēmums iegādājas vairākus izejmateriālus, kuriem ir tādas pašas testēšanas vajadzības ienākošajai pārbaudei. Uzņēmums definē kvalitātes grupu un pēc tam piešķir krājumu numurus, kas ir saistīti ar izejmateriāliem šai grupai. Vēlāk uzņēmums iegādājas jauna tipa izejmateriālu, kuram ir tādas pašas testēšanas vajadzības. Tā vietā, lai jaunajam materiālam iestatītu jaunas testēšanas vajadzības, jaunā materiāla krājumu kodu uzņēmums pievieno jau esošajai kvalitātes grupai. Tas pats ražošanas uzņēmums ražo arī krājumus, kuriem ir tādas pašas ražošanas testēšanas vajadzības, un krājumus, kuriem ir tādas pašas vajadzības, sūta uz testēšanu pirms sūtīšanas. Uzņēmums definē divas papildu kvalitātes grupas un pēc tam piešķir atbilstošos krājumu numurus katrai grupai.</td>
 </tr>
 <tr class="odd">
@@ -362,4 +361,3 @@ Ir jādefinē kvalitātes piesaiste katrai biznesa procesā ietvertajai variāci
 [Kvalitātes pārvaldības procesi](quality-management-processes.md)
 
 [Neatbilstības pārvaldības iespējošana](enable-nonconformance-management.md)
-

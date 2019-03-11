@@ -1,13 +1,13 @@
 ---
-title: "Darbplūsmu izveide"
-description: "Šajā tēmā ir paskaidrots, kā izveidot darbplūsmu."
+title: Darbplūsmu izveide
+description: Šajā tēmā ir paskaidrots, kā izveidot darbplūsmu.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353360"
 ---
-
 # <a name="create-workflows"></a>Darbplūsmu izveide
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="open-the-workflow-editor"></a>Atveriet darbplūsmas redaktoru
 
-Tas, kādus darbplūsmas tipus varat izveidot, ir atkarīgs no Microsoft Dynamics 365 for Finance and Operations moduļa, kurā strādājat. Izpildiet šeit aprakstītās darbības, lai atlasītu izveidojamo darbplūsmas tipu un atvērtu darbplūsmas redaktoru.
+Tas, kāda veida darbplūsmas varat izveidot, ir atkarīgs no Microsoft Dynamics 365 for Finance and Operations moduļa, kurā strādājat. Izpildiet šeit aprakstītās darbības, lai atlasītu izveidojamo darbplūsmas tipu un atvērtu darbplūsmas redaktoru.
 
 1. Atveriet moduli, kuram vēlaties izveidot jaunu darbplūsmu. Piemēram, lai izveidotu darbplūsmu pirkšanas pieprasījumiem, noklikšķiniet uz **Sagāde un avoti**.
 2. Noklikšķiniet uz **Iestatīšana** &gt; **\[Moduļa nosaukums\] darbplūsmas**.
@@ -85,4 +84,3 @@ Kad esat gatavs saglabāt un aktivizēt darbplūsmu, izpildiet tālāk aprakstī
 
     - Lai aktivizētu šo darbplūsmas versiju, noklikšķiniet uz **Aktivizēt jauno versiju**. Kad darbplūsma ir aktīva, lietotāji var tajā iesniegt dokumentus apstrādei.
     - Ja nevēlaties aktivizēt šo versiju, noklikšķiniet uz **Neaktivizēt jauno versiju**. Varat aktivizēt darbplūsmu vēlāk.
-

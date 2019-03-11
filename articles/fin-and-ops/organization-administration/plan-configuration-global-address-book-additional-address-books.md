@@ -1,13 +1,13 @@
 ---
-title: "Globālās adrešu grāmatas un citu adrešu grāmatu plānošana"
-description: "Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālās adrešu grāmatas un jebkādu papildu adrešu grāmatu iestatīšanas un konfigurēšanas programmā Microsoft Dynamics 365 for Finance and Operations. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā."
+title: Globālās adrešu grāmatas un citu adrešu grāmatu plānošana
+description: Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālās adrešu grāmatas un jebkuru papildu adrešu grāmatu iestatīšanas un konfigurēšanas programmā Microsoft Dynamics 365 for Finance and Operations. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 20795cb8dd752a32f6c57fdb8f369691e41139b3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332660"
 ---
-
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Globālās adrešu grāmatas un citu adrešu grāmatu plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālās adrešu grāmatas un jebkādu papildu adrešu grāmatu iestatīšanas un konfigurēšanas programmā Microsoft Dynamics 365 for Finance and Operations. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā.
+Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālās adrešu grāmatas un jebkuru papildu adrešu grāmatu iestatīšanas un konfigurēšanas programmā Microsoft Dynamics 365 for Finance and Operations. Dažu lēmumu pieņemšanas nolūkos ir nepieciešams apstiprināt lēmumus, kas jau ir pieņemti citās preces jomās, piemēram, organizācijas hierarhijā.
 
 ## <a name="global-address-book"></a>Globālā adrešu grāmata
 
@@ -67,4 +66,3 @@ Adrešu grāmatas varat izveidot jebkurā laikā, kā arī jebkurā laikā varat
 **Lēmums:**
 
 - Kurām grupām ir piekļuve katrai jaunajai adrešu grāmatai, ko jūs veidosiet?
-

@@ -1,13 +1,13 @@
 ---
-title: "Piedāvājumu pieprasījumi (RFQ)"
-description: "Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem."
+title: Piedāvājumu pieprasījumi (RFQ)
+description: Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351290"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Piedāvājumu pieprasījumi (RFQ)
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumie
 
 Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt**) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja jūsu sistēma ir iestatīta kreditoru sadarbībai, kreditori var tiešā veidā ievadīt piedāvājumus programmatūrā Microsoft Dynamics 365 for Finance and Operations. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
+Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmā Microsoft Dynamics 365 for Finance and Operations. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
 Ja pēc piedāvājuma pieprasījuma nosūtīšanas ir nepieciešams veikt tā grozījumus, pēc grozījumu pabeigšanas šo piedāvājuma pieprasījumu varat nosūtīt kreditoriem vēlreiz, izmantojot abas grozījumu darbības: Izveidot un Finalizēt.+
 
@@ -58,7 +57,7 @@ Kad piedāvājumus saņemat pa e-pastu, šos piedāvājumus varat apstrādāt no
 Ja no kāda kreditora ir nepieciešama vēl viena iterācija, atlasiet **Atgriezt** lapā **Piedāvājuma pieprasījums**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukāšanas iestatījumiem.
 
 > [!NOTE]
-> Lapas **Piedāvājuma pieprasījums** nosaukums ir mainījies. Iepriekšējos Dynamics 365 for Finance and Operations izvedumos šī lapa saucās **Atbilde uz piedāvājuma pieprasījumu**.
+> Lapas **Piedāvājuma pieprasījums** nosaukums ir mainījies. Iepriekšējos Dynamics 365 for Finance and Operations laidienos šīs lapas nosaukums ir **Atbilde uz piedāvājuma pieprasījumu**.
 
 Ja savam piedāvājuma pieprasījuma gadījumam pievienojāt punktu skaitīšanas kritērijus, piedāvājuma pieprasījumā ir punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējie rādītāji ir redzami piedāvājuma pieprasījumā un laikā, kad salīdzināt atbildes lapā **Salīdzināt atbildes**. Lapā **Salīdzināt atbildes** varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.
 
@@ -268,5 +267,4 @@ Nākamajā piemērā varat redzēt visaugstāko un viszemāko statusu piedāvāj
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Pieņemiet vienu piedāvājumu. (vai vismaz vienu rindu) |                          Saņemts                           |                           Pieņemts                           |                    Saņemts                    |                    Pieņemts                     |                   Saņemts                   |                   Pieņemts                    |
 |           Atsakiet visus pārējos piedāvājumus.           |                          Atteikts                           |                           Pieņemts                           |                    Atteikts                    |                    Pieņemts                     |                   Atteikts                   |                   Pieņemts                    |
-
 

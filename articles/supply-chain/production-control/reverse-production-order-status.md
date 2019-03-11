@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas pasūtījuma statusa atsaukšana"
-description: "Šajā tēmā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu."
+title: Ražošanas pasūtījuma statusa atsaukšana
+description: Šajā tēmā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367321"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Ražošanas pasūtījuma statusa atsaukšana
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Izlaists** uz **iep
 
 ## <a name="from-started-to-released"></a>No Sākts uz Izlaists
 Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Sākts** uz **Izlaists**, tiek atsaukts visu to krājumu statuss, kas ir reģistrēti kā pabeigti. Ja materiāls ir izdots vai ir veikta ieejošā vai izejošā piegāde ražošanai, šie iestatījumi tiek atsaukti. Ražošanas pasūtījuma MK rindu lauka**Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Materiālu patēriņš**. Ja operācijām ražošanas maršrutā ir reģistrēts laiks vai daudzumi ir reģistrēti kā pabeigti, šie iestatījumi tiek atsaukti. Ražošanas maršruta lauka**Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Maršruta patēriņš**. Tiek atsaukti visu to krājumu iestatījumi, kas ir grāmatoti kā notiekošs process vai nepabeigtā ražošana. Lapā **Ražošanas pasūtījumu informācija** tiek atiestatīti lauki, kuros ir redzams daudzums, kas ir sākts vai reģistrēts kā pabeigts. Tiek atiestatīti arī šo transakciju datumi.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Apmācība"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Apmācība."
+title: Power BI satura pakotne Mācības
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Mācības.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,39 +15,38 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321459"
 ---
-
-# <a name="learning-power-bi-content"></a>Power BI saturs Apmācība
+# <a name="learning-power-bi-content"></a>Power BI satura pakotne Mācības
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Apmācība**.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Mācības**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
 
-Power BI saturā **Apmācība** iekļautajos pārskatos ir ietvertas gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Power BI satura pakotnes **Mācības** pārskatos ir ietvertas gan diagrammas, gan tabulas, kurās ir sniegta papildinformācija. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                | Saturs |
 |-----------------------|----------|
 | Apmācības apskats     | Citu pārskatu kopsavilkums |
-| Kursa analīze       | Reģistrācija pēc atrašanās vietas, dalībnieks pēc statusa, kursi pēc tipa katram uzņēmumam un kursu apmeklētība pēc darba |
+| Kursa analīze       | Reģistrācija pēc atrašanās vietas, dalībnieks pēc statusa, kursi pēc tipa katram uzņēmumam un kursu apmeklētība pēc darba |
 | Reģistrācijas analīze | Reģistrācijas saraksts |
 | Kursu veidi          | Kursu tipi pēc prasmēm |
 | Instruktoru analīze   | Kursu un instruktoru koeficients, instruktoru skaits, kursi pēc instruktora, kursi katram instruktoram un kursu darba kārtība pēc instruktora |
 | Piedāvātie kursi       | Kursu saraksts |
 | Kursu veidošana        | Kursu darba kārtība |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
-Power BI saturā **Apmācība** ietverto pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
+Power BI satura pakotnes **Mācības** pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
 
 | Elements           | Saturs                                                         | Attiecības ar citiem elementiem |
 |------------------|------------------------------------------------------------------|-----------------------------------|
@@ -64,4 +63,3 @@ Power BI saturā **Apmācība** ietverto pārskatu aizpildīšanai tiek izmanto
 | Pozīcija         | Pozīcija, amats un pilnas slodzes ekvivalents (FTE)                  | Kursa darba kārtība, kursa dalībnieki |
 | Darbinieka vārds    | Vārds, uzvārds un pilnais vārds                             | Kursa dalībnieki |
 | Darbinieka amats   | Nosaukums un darba stāža datums                                         | Kursa dalībnieki |
-

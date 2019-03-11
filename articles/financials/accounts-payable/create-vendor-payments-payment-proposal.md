@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu"
-description: "Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas."
+title: Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu
+description: Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327416"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu
 
 [!include [banner](../includes/banner.md)]
@@ -70,14 +69,14 @@ Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieej
 
 ### <a name="option-1-by-cash-discount"></a>1. iespēja: pēc termiņatlaides
 
-Eiprila atlasa priekšlikuma tipu **Termiņatlaide**. Viņa ievada datumu diapazonu no 26. jūnija līdz 10. jūlijam. Priekšlikumā tiek iekļauti tālāk norādītie rēķini.
+Eiprila atlasa priekšlikuma tipu **Termiņatlaide**. Viņa ievada datumu diapazonu no 26. jūnija līdz 10. jūlijam. Priekšlikumā tiek iekļauti tālāk norādītie rēķini.
 
 -   1002, jo atlaides datums (4. jūlijs) atbilst maksājuma datumu diapazonam.
 -   1004, jo atlaides datums (1. jūlijs) atbilst maksājuma datumu diapazonam.
 
 Priekšlikumā netiek iekļauti tālāk norādītie rēķini.
 
--   1001, jo atlaides datums (29. jūnijs) ir jau pagājis un šis rēķins vairs nav piemērots termiņatlaides saņemšanai.
+-   1001, jo atlaides datums (29. jūnijs) ir jau pagājis un šis rēķins vairs nav piemērots termiņatlaides saņemšanai.
 -   1003, jo šim rēķinam nav termiņatlaides datuma.
 
 ### <a name="option-2-by-due-date"></a>2. iespēja: pēc apmaksas datuma
@@ -102,7 +101,7 @@ Eiprila atlasa priekšlikuma tipu **Izpildes datums un termiņatlaide**. Viņa i
 
 Priekšlikumā netiek iekļauti tālāk norādītie rēķini.
 
--   1001, jo atlaides datums (29. jūnijs) ir jau pagājis, tāpēc šis rēķins vairs nav piemērots termiņatlaides saņemšanai, un apmaksas datums (15. jūlijs) neatbilst datumu diapazonam.
+-   1001, jo atlaides datums (29. jūnijs) ir jau pagājis, tāpēc šis rēķins vairs nav piemērots termiņatlaides saņemšanai, un apmaksas datums (15. jūlijs) neatbilst datumu diapazonam.
 
 ## <a name="country-specific-considerations"></a>Valstij specifiski apsvērumi
 ### <a name="norway"></a>Norvēģija
@@ -120,8 +119,7 @@ Dimensiju kontrole ļauj kontrolēt ģenerēto rindu grupēšanu pēc maksājuma
 
 #### <a name="bank-account-selection"></a>Bankas konta atlase
 
-Varat definēt standarta debeta maksājumu kontu katrai maksājumu metodei neatkarīgi no valsts konteksta. Tas tiks iestatīts maksājuma rindās, kuras ģenerētas saskaņā ar priekšlikumu. Izmantojot bankas konta līdzekli, varat definēt vairākus debeta bankas kontus, ko pārvalda dimensija un valūta vai to kombinācija, lai izmantotu dažādus debeta bankas kontus atkarībā no katras kombinācijas. Šīs kombinācijas varat iestatīt lapā **Maksājumu metodes**, izmantojot pogu **Banku konti**, kas ir pieejama visām maksāšanas metodēm, kurām atlasīts iestatījums **Grāmatošanas konta tips** = **Banka**.
-
+Varat definēt standarta debeta maksājumu kontu katrai maksājumu metodei neatkarīgi no valsts konteksta. Tas tiks iestatīts maksājuma rindās, kuras ģenerētas saskaņā ar priekšlikumu. Izmantojot bankas konta līdzekli, varat definēt vairākus debeta bankas kontus, ko pārvalda dimensija un valūta vai to kombinācija, lai izmantotu dažādus debeta bankas kontus atkarībā no katras kombinācijas. Varat iestatīt šīs kombinācijas lapā **Maksājumu metodes**, izmantojot pogu **Banku konti**, kas ir pieejama visām maksāšanas metodēm, kurām ir atlasīts iestatījums **Grāmatošanas konta veids** = **Banka**.
 
 
 

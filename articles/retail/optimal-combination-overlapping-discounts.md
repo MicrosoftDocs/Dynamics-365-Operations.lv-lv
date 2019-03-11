@@ -1,13 +1,13 @@
 ---
-title: "Optimālās pārklāto atlaižu kombinācijas noteikšana"
-description: "Ja atlaides pārklājas, ir jānosaka pārklāto atlaižu kombinācija, kas rada vismazāko transakcijas kopsummu vai lielāko kopējo atlaidi. Ja atlaides summa mainās atbilstoši nopirkto preču cenai, piemēram, parastās mazumtirdzniecības atlaides “pērc 1, saņem 1 X procentu atlaidi” (BOGO) gadījumā, šim procesam ir jāveic kombināciju optimizēšana."
+title: Optimālās pārklāto atlaižu kombinācijas noteikšana
+description: Ja atlaides pārklājas, ir jānosaka pārklāto atlaižu kombinācija, kas rada vismazāko transakcijas kopsummu vai lielāko kopējo atlaidi. Ja atlaides summa mainās atbilstoši nopirkto preču cenai, piemēram, parastās mazumtirdzniecības atlaides “pērc 1, saņem 1 X procentu atlaidi” (BOGO) gadījumā, šim procesam ir jāveic kombināciju optimizēšana.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360697"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimālās pārklāto atlaižu kombinācijas noteikšana
 
 [!include [banner](includes/banner.md)]
 
 Ja atlaides pārklājas, ir jānosaka pārklāto atlaižu kombinācija, kas rada vismazāko transakcijas kopsummu vai lielāko kopējo atlaidi. Ja atlaides summa mainās atbilstoši nopirkto preču cenai, piemēram, parastās mazumtirdzniecības atlaides “pērc 1, saņem 1 X procentu atlaidi” (BOGO) gadījumā, šim procesam ir jāveic kombināciju optimizēšana.
 
-Šis raksts attiecas uz programmatūru Microsoft Dynamics AX 2012 R3 ar labojumfailu KB 3105973 (izlaists 2015. gada 2. novembrī) vai jaunāku versiju, kā arī uz Microsoft Dynamics 365 for Retail. Lai noteiktu kombinācijas atlaides, kas pārklājas, un tās laicīgi piemērotu, esam ieviesuši metodi, kā lietot atlaides, kas pārklājas. Šī metode tiek dēvēta par **robežvērtības ranžēšanu**. Robežvērtības ranžēšana tiek izmantota, ja iespējamo pārklāto atlaižu kombināciju novērtēšanai nepieciešamais laiks pārsniedz sliekšņvērtību, ko var konfigurēt lapā **Mazumtirdzniecības parametri**. Robežvērtības ranžēšanas metodes ietvaros tiek aprēķināta katras pārklātās atlaides vērtība, izmantojot kopīgo preču atlaides vērtību. Pēc tam pārklātās atlaides tiek lietotas secībā no lielākās relatīvās vērtības līdz mazākajai relatīvajai vērtībai. Detalizētu informāciju par jauno metodi skatiet sadaļā “Robežvērtība” šī raksta turpinājumā. Robežvērtības ranžēšana netiek lietota, ja citas transakcijā ietvertās preces neietekmē preces atlaides summas. Piemēram, šī metode netiek lietota divām parastajām atlaidēm vai parastajai atlaidei un vienas preces daudzuma atlaidei.
+Šis raksts attiecas uz programmu Microsoft Dynamics AX 2012 R3 ar KB 3105973 (2015. gada 2. novembra laidiens) vai jaunāku tās versiju un programmu Microsoft Dynamics 365 for Retail. Lai noteiktu kombinācijas atlaides, kas pārklājas, un tās laicīgi piemērotu, esam ieviesuši metodi, kā lietot atlaides, kas pārklājas. Šī metode tiek dēvēta par **robežvērtības ranžēšanu**. Robežvērtības ranžēšana tiek izmantota, ja iespējamo pārklāto atlaižu kombināciju novērtēšanai nepieciešamais laiks pārsniedz sliekšņvērtību, ko var konfigurēt lapā **Mazumtirdzniecības parametri**. Robežvērtības ranžēšanas metodes ietvaros tiek aprēķināta katras pārklātās atlaides vērtība, izmantojot kopīgo preču atlaides vērtību. Pēc tam pārklātās atlaides tiek lietotas secībā no lielākās relatīvās vērtības līdz mazākajai relatīvajai vērtībai. Detalizētu informāciju par jauno metodi skatiet sadaļā “Robežvērtība” šī raksta turpinājumā. Robežvērtības ranžēšana netiek lietota, ja citas transakcijā ietvertās preces neietekmē preces atlaides summas. Piemēram, šī metode netiek lietota divām parastajām atlaidēm vai parastajai atlaidei un vienas preces daudzuma atlaidei.
 
 ## <a name="discount-examples"></a>Atlaižu piemēri
 
@@ -85,4 +84,3 @@ Lai novērstu eksponenciāli pieaugošā novērtējamo kombināciju daudzuma pro
 ![Pārklāto atlaižu kombinācija 06](./media/overlapping-discount-combo-06.jpg)
 
 Kad ir aprēķināta katras atlaides robežvērtība kopīgo preču kopā, tad kopīgajām precēm tiek lietotas visas atlaides secībā no lielākās robežvērtības līdz mazākajai robežvērtībai. Šīs metodes ietvaros ikreiz pēc atsevišķas atlaides instances lietošanas netiek salīdzinātas visas atlikušās atlaižu iespējas. Tā vietā tiek vienu reizi salīdzinātas pārklātās atlaides, kas pēc tam tiek lietotas noteiktajā secībā. Netiek veikta papildu salīdzināšana. Sliekšņvērtību programmatūras pārslēgšanai uz robežvērtības metodi varat konfigurēt lapas **Mazumtirdzniecības parametri** cilnē **Atlaide**. Pieņemamais kopējās atlaides parēķina laiks atšķirtas dažādās mazumtirdzniecības nozarēs. Taču parasti šis laiks ir no dažiem desmitiem milisekunžu līdz vienai sekundei.
-

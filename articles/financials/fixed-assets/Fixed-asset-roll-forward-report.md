@@ -1,14 +1,14 @@
 ---
-title: "Pamatlīdzekļu atjaunošanas pārskats"
-description: "Šajā tēmā izskaidrots, kā izmantot pārskatu Pamatlīdzekļu atjaunošana."
+title: Pamatlīdzekļu atjaunošanas pārskats
+description: Šajā tēmā izskaidrots, kā izmantot pārskatu Pamatlīdzekļu atjaunošana.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313754"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Pamatlīdzekļu atjaunošanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Pārskats **Pamatlīdzekļu atjaunošana** viegli lasāmā Microsoft Excel formātā nodrošina detalizētus pamatlīdzekļu datus, kas jums nepieciešami perioda slēgšanai, finanšu pārskatiem un nodokļu pārskatiem. Šajā pārskatā ietvertas pamatlīdzekļu sākuma un beigu bilances kopā ar perioda novērtēšanas kustībām un visiem perioda laikā notikušajiem jaunu līdzekļu iegādes un izslēgšanas gadījumiem. Dati tiek sniegti par atsevišķiem pamatlīdzekļiem, un tiek arī apkopotas pamatlīdzekļu grupu un juridisko personu vērtības.
+Pārskats **Pamatlīdzekļu atjaunošana** viegli lasāmā Microsoft Excel formātā nodrošina detalizētus pamatlīdzekļu datus, kas ir nepieciešami perioda slēgšanai, finanšu pārskatiem un nodokļu pārskatiem. Šajā pārskatā ietvertas pamatlīdzekļu sākuma un beigu bilances kopā ar perioda novērtēšanas kustībām un visiem perioda laikā notikušajiem jaunu līdzekļu iegādes un izslēgšanas gadījumiem. Dati tiek sniegti par atsevišķiem pamatlīdzekļiem, un tiek arī apkopotas pamatlīdzekļu grupu un juridisko personu vērtības.
 
-Pārskatā **Pamatlīdzekļu atjaunošana** izmantota elektronisko pārskatu (ER) platforma. Pirms pārskata palaišanas no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS) ir jāimportē pamatlīdzekļu modeļu un pamatlīdzekļu atjaunošanas konfigurācijas. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Pārskatā **Pamatlīdzekļu atjaunošana** izmantota elektronisko pārskatu (ER) platforma. Pirms pārskata izpildes no portāla Microsoft Dynamics Lifecycle Services (LCS) ir jāimportē pamatlīdzekļu modeļu un pamatlīdzekļu atjaunošanas konfigurācijas. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Šis pārskats ir pieejams risinājumā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 vai kā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlija) labojumfails. Vidēs, kurās ir 2017. gada jūlija laidiens, ir jālieto trīs labojumfaili.
+Šis pārskats ir pieejams versijā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 vai kā labojumfails versijai Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijs). Vidēs, kurās ir 2017. gada jūlija laidiens, ir jālieto trīs labojumfaili.
 
 - **KB 4041754:** elektronisko pārskatu (ER) konfigurāciju nevar lejupielādēt no LCS, jo tā neattiecas uz pašreizējo programmas versiju pēc platformas atjauninājumu pakotnes lietošanas
 - **KB 4056107:** elektronisko pārskatu (GER) 5. kumulatīvais atjauninājums
@@ -66,5 +66,4 @@ Tālāk esošajā tabulā ir aprakstīti pārskatā pieejamie lauki.
 |            Izslēgšana: pārdošanas vērtība            |                                                                                               Pārdošanas vērtība pamatlīdzekļu grāmatai ar izslēgšanas-pārdošanas transakciju.                                                                                                |
 |           Izslēgšana: lūžņu vērtība            |                                                                                               Lūžņu vērtība pamatlīdzekļu grāmatai ar izslēgšanas-lūžņu transakciju.                                                                                               |
 |           Izslēgšana: peļņa/zaudējumi            |                                                                                 Peļņas vai zaudējumu vērtība, kas pamatlīdzekļu grāmatai aprēķināta kā daļa no izslēgšanas transakcijas.                                                                                 |
-
 

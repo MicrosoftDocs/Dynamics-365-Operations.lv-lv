@@ -1,13 +1,13 @@
 ---
-title: "Pārdošanas pasūtījumu mobilā darbvieta"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Pārdošanas pasūtījumi. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā."
+title: Pārdošanas pasūtījumu mobilā darbvieta
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Pārdošanas pasūtījumi. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365067"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Pārdošanas pasūtījumu mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Pārdošanas pasūtījumi**. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā. 
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
 
 ## <a name="overview"></a>Pārskats
 Mobilajā darbvietā **Pārdošanas pasūtījumi** var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu. Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju. Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu. 
@@ -84,11 +83,11 @@ Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pā
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi 
-Ja jūsu organizācijai ir izvietota programmatūra Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
+Ja jūsu organizācijai ir izvietota programma Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
+Ja jūsu organizācijai ir izvietota Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
 
 <table>
 <thead>
@@ -105,7 +104,7 @@ Ja jūsu organizācija ir izvietota Dynamics 365 for Operations versija 1611 a
 
 <td>KB 4013633 ir X++ atjauninājums jeb metadatu labojumfails, kurā ir ietverta mobilā darbvieta <strong>Pārdošanas pasūtījumi</strong>. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</li>
@@ -143,4 +142,3 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 4.  Atlasiet debitoru.
 5.  Atlasiet vienumu **Kontaktinformācija** vai **Pārdošanas pasūtījumi**. Ja atlasāt vienumu **Pārdošanas pasūtījumi**, tiek parādīts šī debitora pārdošanas pasūtījumu saraksts.
 6.  Atlasiet vienumu **Pārdošanas pasūtījums**. Tagad varat skatīt informāciju par pārdošanas pasūtījuma rindām, informāciju par sūtījumiem, debitora kontaktinformāciju un pasūtījuma veicēja kontaktinformāciju.
-

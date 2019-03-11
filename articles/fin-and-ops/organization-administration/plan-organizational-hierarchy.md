@@ -1,13 +1,13 @@
 ---
-title: "Organizācijas hierarhijas plānošana"
-description: "Pirms iestatāt organizācijas un organizāciju hierarhijas, ir jāpārliecinās, vai saprotat, kā vislabāk modelēt savu uzņēmumu."
+title: Organizācijas hierarhijas plānošana
+description: Pirms iestatāt organizācijas un organizāciju hierarhijas, ir jāpārliecinās, vai saprotat, kā vislabāk modelēt savu uzņēmumu.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331993"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Organizācijas hierarhijas plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Pirms organizāciju un organizācijas hierarhiju iestatīšanas programmatūrā Microsoft Dynamics 365 for Finance and Operations noteikti plānojiet sava uzņēmuma modelēšanas veidu. Organizācijas modelis būtiski ietekmē Finance and Operations ieviešanu un biznesa procesus.
+Pirms organizāciju un organizāciju hierarhiju iestatīšanas programmā Microsoft Dynamics 365 for Finance and Operations noteikti plānojiet uzņēmuma modelēšanas veidu. Organizācijas modelis būtiski ietekmē Finance and Operations ieviešanu un biznesa procesus.
 
 Organizācijas hierarhijas atspoguļo attiecības starp organizācijām, kas veido uzņēmumu. Tāpēc vissvarīgākais apsvērums, modelējot organizācijas, ir jūsu uzņēmuma struktūra. Mēs iesakām definēt organizācijas struktūras, pamatojoties uz atsauksmēm no vadošajiem darbiniekiem un funkcionālo jomu, piemēram, finanšu un uzskaites, cilvēkresursu, operāciju, sagādes un pārdošanas un mārketinga, augstākā līmeņa vadītājiem.
 
-Plānojot hierarhijas, ir svarīgi arī ņemt vērā attiecības starp organizācijas hierarhiju un finanšu dimensijām. Skatus jūsu uzņēmumam var iestatīt vairākas organizācijas hierarhijas. Izmantojot finanšu dimensijas, var izveidot ziņojumus, pamatojoties uz šiem skatiem. Sadarbojieties ar savu Microsoft Dynamics 365 for Finance and Operations partneri, lai izveidotu hierarhijas, kas atbilst gan organizācijas, gan likumā noteiktās pārskatu izveides vajadzības.
+Plānojot hierarhijas, ir svarīgi arī ņemt vērā attiecības starp organizācijas hierarhiju un finanšu dimensijām. Skatus jūsu uzņēmumam var iestatīt vairākas organizācijas hierarhijas. Izmantojot finanšu dimensijas, var izveidot ziņojumus, pamatojoties uz šiem skatiem. Sadarbojieties ar savu Microsoft Dynamics 365 for Finance and Operations partneri, lai izveidotu hierarhijas, kas atbilst gan organizācijas, gan likumā noteiktajām pārskatu izveides vajadzībām.
 
 > [!NOTE]
 > Lai gan finanšu dimensijas varat izmantot, lai apzīmētu juridiskās personas, bez nepieciešamības šīs juridiskās personas izveidot programmatūrā Finance and Operations, finanšu dimensijas nav paredzētas juridisko personu operāciju vai uzņēmējdarbības vajadzību nodrošināšanai. Programmatūras Finance and Operations starpvienību uzskaites funkcionalitāte ir paredzēta darbam tikai ar katras transakcijas ietvaros izveidotajiem uzskaites ierakstiem.
@@ -168,7 +167,7 @@ Pārvaldības struktūrvienības izmanto mātes juridiskās personas valsts kont
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ja organizācija ir modelēta kā juridiska persona
 
-Valstīm/reģioniem, kas tiek atbalstīti programmatūrā Finance and Operations, var izveidot lielāko daļu likumā noteikto pārskatu. Informāciju par to, kuri pārskati ir pieejami katrai valstij/reģionam, skatiet portāla [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) sadaļā par Finance and Operations. (Nepieciešama CustomerSource pieteikšanās.)
+Valstīm/reģioniem, kas tiek atbalstīti programmatūrā Finance and Operations, var izveidot lielāko daļu likumā noteikto pārskatu. Informāciju par to, kuri pārskati ir pieejami katrai valstij/reģionam, skatiet [Microsoft Dynamics lokalizācijas portāla](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) sadaļā par programmu Finance and Operations. (Ir nepieciešami CustomerSource pieteikšanās dati.)
 
 > [!NOTE]
 > Programmatūrā Finance and Operations grāmatošanas līmenis virsgrāmatā jums ļauj veidot pielāgošanas ierakstus mātes uzņēmumā, kas izmanto citādu uzskaites standartu nekā meitas uzņēmums. Piemēram, uzņēmumam, kas izmanto Apvienotās Karalistes vispārpieņemtos grāmatvedības principus (UK GAAP), varat veikt pielāgošanas ierakstus grāmatošanas līmeni. Šos ierakstus var konsolidēt mātes uzņēmumā, kas izmanto Amerikas Savienoto Valstu vispārpieņemtos grāmatvedības principus (GAAP). Pielāgošanas ieraksti neietekmē UK GAAP pārskatu.
@@ -243,4 +242,3 @@ Ieviešot organizācijas hierarhiju, ņemiet vērā šādu labāko praksi:
 - Pirms modelējat nopietnus restrukturizācijas scenārijus, izmantojiet hierarhijas derīguma datumus, lai veiktu ietekmes analīzi un apstiprināšanas pārbaudi.
 - Izmantojiet melnraksta režīmu, lai mainītu hierarhiju, pirms publicējat jaunu versiju ražošanas vidē.
 - Ierobežojiet cilvēku skaitu, kam ir atļaujas pievienot vai noņemt organizācijas no hierarhijas ražošanas vidē. Mazāks skaits samazina iespēju, ka var rasties dārgas kļūdas un ir jāveic labojumi.
-

@@ -1,13 +1,13 @@
 ---
-title: "Procentu likmju iestatīšana interešu kodam"
-description: "Procentu kodi satur iestatījumus, kas nosaka, kad procenti tiek aprēķināti un kā tie tiek aprēķināti nokavētiem kontiem."
+title: Procentu likmju iestatīšana interešu kodam
+description: Procentu kodi satur iestatījumus, kas nosaka, kad procenti tiek aprēķināti un kā tie tiek aprēķināti nokavētiem kontiem.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 665c58fd29fb986bf51e10f5814c4793940c0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317779"
 ---
-
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Procentu likmju iestatīšana interešu kodam
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ Iestatiet diapazona informāciju, kā norādīts tālāk.
 Procentu kodiem ir spēkā stāšanās datums. Ja procentu likmi vēlaties mainīt, varat izveidot **jaunu versiju**, kas ir spēkā no nākotnes datuma.
 
 Lai skatītu citādas versijas, varat izmantot izvēlnes vienumu **No datuma**, lai atlasītu robeždatuma. Varat arī atlasīt vienumu **Rādīt visus ierakstus**, lai skatītu visus procentu kodus lapā.
-
 
 
 

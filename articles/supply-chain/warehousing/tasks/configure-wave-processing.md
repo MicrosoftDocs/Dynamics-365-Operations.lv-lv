@@ -1,13 +1,13 @@
---- 
-title: "Kopuma apstrādes konfigurēšana"
-description: "Šajā ceļvedī aprakstīts, kā iestatīt kritērijus, kas nosaka, vai kopumi tiek apstrādāti manuāli vai automātiski, un darbam, kas tiek ģenerēts noliktavai, apstrādājot kopumu, kā arī vai kopumi tiek apstrādāti automātiski vai manuāli."
+---
+title: Kopuma apstrādes konfigurēšana
+description: Šajā ceļvedī aprakstīts, kā iestatīt kritērijus, kas nosaka, vai kopumi tiek apstrādāti manuāli vai automātiski, un darbam, kas tiek ģenerēts noliktavai, apstrādājot kopumu, kā arī vai kopumi tiek apstrādāti automātiski vai manuāli.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337513"
 ---
 # <a name="configure-wave-processing"></a>Kopuma apstrādes konfigurēšana
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 24. Laukā Pārvietot uz noliktavu, atlasiet opciju.
     * Pārdošanas pasūtījumiem un Kanban pasūtījumiem pirms pasūtījuma pārvietošanas uz noliktavu attiecīgie krājumi ir jārezervē. Pretējā gadījumā krājumus vai sadalījuma rindas nevar apstrādāt kopumā. Ražošanas pasūtījumiem, jums ir iespēja atlasīt Atļaut daļēju rezervēšanu. Tas var noderēt, piemēram, ja jums ir ražošanas sākšanai nepieciešamie materiāli, un varat pagaidīt, līdz kļūst pieejami papildu materiāli, lai pabeigtu procesu. Ja atlasāt šo opciju, pārvietošana uz noliktavu ir manuāli jāatkārto, kad papildu materiāli kļūst pieejami.  
 25. Aizvērt lapu.
-
 

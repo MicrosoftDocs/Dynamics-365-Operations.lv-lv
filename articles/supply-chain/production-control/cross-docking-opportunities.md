@@ -1,13 +1,13 @@
 ---
-title: "Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem"
-description: "Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru."
+title: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
+description: Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8691bb6702028070810a1503add33985de5ede3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329026"
 ---
-
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
 
 [!include [banner](../includes/banner.md)]
@@ -39,13 +38,13 @@ Pārkraušana sadales centrā no ražošanas novietojuma uz izejošās plūsmas 
 
 Ja nav tūlītēja preces pieprasījuma, tā ir jānovieto noliktavas novietojumos ražošanas vietā. Šis process tiek dēvēts arī par *iespējām atbilstošu pārkraušanu sadales centrā*, kas nozīmē, ka gadījumā, ja ir saņemts preces nosūtīšanas pieprasījums, ir jāizmanto šī iespēja, nevis jāpārvieto prece uz iekšējo noliktavu.
 
-Tālāk esošajā piemērā ir aprakstītas trīs ražošanas līnijas galā (2) sāktas plūsmas versijas.
+Tālāk sniegtajā piemērā ir aprakstītas trīs ražošanas līnijas galā (2) sāktas plūsmas versijas.
 
-Tiek reģistrēta preces pabeigšana, tā tiek pārvietota uz ražošanas izejas plūsmas novietojumu (3), un autoiekrāvēja vadītājs saņem paleti šajā novietojumā (3).
+Tiek reģistrēta preces pabeigšana, tā tiek pārvietota uz ražošanas izejas plūsmas vietu (3), un autoiekrāvēja vadītājs paņem paleti šajā vietā (3).
 
--   Ja pastāv plānota aktivitāte (6) preces pārvietošanai no ražošanas novietojuma (1) uz sadales centru (7), sistēma sniedz kravas automašīnas vadītājam norādījumus novietot paleti novietojumā pie angāra durvīm (4).
+-   Ja pastāv plānota aktivitāte (6) preces pārvietošanai no ražošanas vietas (1) uz sadales centru (7), sistēma sniedz kravas automašīnas vadītājam norādījumus novietot paleti vietā pie angāra durvīm (4).
 -   Ja angāra durvīm jau ir piešķirta piekabe, kravas automašīnas vadītājs saņem norādījumus uzreiz iekraut preci piekabē.
--   Ja nav plānotas aktivitātes preces pārvietošanai, autoiekrāvēja vadītājs saņem norādījumus novietot preci kādā novietojumā iekšējā noliktavā (5).
+-   Ja nepastāv plānota aktivitāte preces pārvietošanai, autoiekrāvēja vadītājs saņem norādījumus novietot preci kādā vietā iekšējā noliktavā (5).
 
 [![opportunistic cross-docking](./media/scenario1.png)](./media/scenario1.png)
 
@@ -111,7 +110,7 @@ Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvi
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>2. gadījums — pārkraušana sadales centrā no ražošanas uz pārsūtīšanas pasūtījumiem, izmantojot norīkojumu grafiku
 
-Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvietota uz angāra durvju novietojumu, kas ir norādīts angāra durvju novietojuma norīkojumu grafikā. Izmantot uzņēmuma USMF.
+Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvietota uz vietu pie angāra durvīm, kas ir norādīta vietu pie angāra durvīm norīkojumu grafikā. Izmantot uzņēmuma USMF.
 
 1.  Mainiet politiku pārkraušanai sadales centrā. Mainiet 1. gadījuma ietvaros izveidoto politiku pārkraušanai sadales centrā, atzīmējot izvēles rūtiņu **Pieprasījumam par pārkraušanu sadales centrā ir nepieciešams novietojums**.
 2.  Izveidojiet jaunu pārsūtīšanas pasūtījumu.
@@ -126,6 +125,5 @@ Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvi
 ### <a name="additional-information"></a>Papildinformācija
 
 -   Pārkraušana sadales centrā tiek atbalstīta gan ar partijas, gan ar sērijas numuru kontrolētiem krājumiem, kam partijas un sērijas numura dimensijas ir definētas virs un zem novietojuma rezervācijas hierarhijā. 
-
 
 

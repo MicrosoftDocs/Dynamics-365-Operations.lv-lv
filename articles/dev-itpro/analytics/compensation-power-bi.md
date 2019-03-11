@@ -1,13 +1,13 @@
 ---
-title: "Power BI satura pakotne Atlīdzība"
-description: "Šajā tēmā ir aprakstīta Power BI satura pakotne Atlīdzība. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem."
+title: Power BI satura pakotne Kompensācija
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Kompensācija. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,28 +16,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347288"
 ---
-
-# <a name="compensation-power-bi-content"></a>Power BI satura pakotne Atlīdzība
+# <a name="compensation-power-bi-content"></a>Power BI satura pakotne Kompensācija
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Atlīdzība**. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Kompensācija**. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
-## <a name="accessing-the-power-bi-content"></a>Piekļūšana Power BI saturam
-Power BI satura pakotne **Atlīdzība** tiek rādīta darbvietā **Kompensāciju pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
+## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+Power BI satura pakotne **Kompensācija** tiek rādīta darbvietā **Kompensāciju pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Programma Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- Microsoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Talent
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
-Power BI satura pakotnē **Atlīdzība** iekļautajos pārskatos ir ietvertas gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+Power BI satura pakotnes **Kompensācija** pārskatos ir ietvertas gan diagrammas, gan tabulas, kurās ir sniegta papildinformācija. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                     | Saturs |
 |----------------------------|----------|
@@ -46,10 +45,10 @@ Power BI satura pakotnē **Atlīdzība** iekļautajos pārskatos ir ietvertas g
 | Pozīciju apmaksas analīze      | Lielākā un mazākā stundu darba un algas apmaksa, vislabāk un vissliktāk apmaksātās pozīcijas un pilnas slodzes un pusslodzes pozīcijas |
 | Atlīdzības plāna analīze | Darbinieka reģistrācija pēc atlasītā atvieglojuma |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-Power BI satura pakotnē **Atlīdzība** ietverto pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
+Power BI satura pakotnes **Kompensācija** pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
 
 | Elements                   | Saturs                                                                                                   | Attiecības ar citiem elementiem |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -73,4 +72,3 @@ Power BI satura pakotnē **Atlīdzība** ietverto pārskatu aizpildīšanai tie
 | Darbinieka vārds            | Vārds, uzvārds un pilnais vārds                                                                       | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka amats           | Nosaukums un darba stāža datums                                                                                   | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Uzņēmums, Atlīdzība, Ģeogrāfiskā vieta, Darbinieka vārds, Pārskati par, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs, Atvieglojumi |
-

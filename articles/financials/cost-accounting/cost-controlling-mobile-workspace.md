@@ -1,13 +1,13 @@
 ---
-title: "Izmaksu kontrolēšanas mobilā darbvieta"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu kontrolēšana. Šī darbvieta ļauj izmaksu centra vadītājiem skatīt informāciju par izmaksu centra veiktspēju jebkurā laikā un vietā."
+title: Izmaksu kontrolēšanas mobilā darbvieta
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu kontrolēšana. Šī darbvieta ļauj izmaksu centra vadītājiem skatīt informāciju par izmaksu centra veiktspēju jebkurā laikā un vietā.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317572"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>Izmaksu kontrolēšanas mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Izmaksu kontrolēšana**. Šī darbvieta ļauj izmaksu centra vadītājiem skatīt informāciju par izmaksu centra veiktspēju jebkurā laikā un vietā.
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
 
 ## <a name="overview"></a>Pārskats
 Mobilā darbvieta **Izmaksu kontrole** sniedz tūlītēju skatu uz izmaksu centru pašreizējo veiktspēju, faktiskās izmaksas salīdzinot ar budžetā paredzētajām izmaksām. Varat skatīt detalizētu informāciju ar atsevišķu izmaksu elementu statusu.
@@ -63,7 +62,7 @@ Mobilajā darbvietā **Izmaksu kontrolēšana** ir pieejamas tālāk norādītā
     -   Faktiski pret budžetu (no gada sākuma)
     -   Faktiski pret pārskatīto budžetu (no gada sākuma)
 
-    Katrā kartē tiek rādītas šādas summas: Faktiski, Budžets, Novirze un Novirze %.
+    Katrā kartē tiek rādītas šādas summas: Faktiski, Budžets, Novirze un Novirze %.
 
 -   **Saites:**
 
@@ -78,11 +77,11 @@ Mobilajā darbvietā **Izmaksu kontrolēšana** ir pieejamas tālāk norādītā
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi
-Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu kontrolēšana**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu kontrolēšana**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi.
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
+Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi.
 
 <table>
 <thead>
@@ -99,7 +98,7 @@ Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versi
 
 <td>KB 4013633 ir X++ atjauninājums jeb metadatu labojumfails, kurā ir ietverta mobilā darbvieta <strong>Izmaksu kontrolēšana</strong>. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</li>
@@ -144,5 +143,4 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 10. Atlasiet saiti **Informācija pašreizējam periodam**.
 11. Skatiet atsevišķu izmaksu elementu veiktspēju.
 12. Varat arī meklēt konkrētus izmaksu elementus.
-
 

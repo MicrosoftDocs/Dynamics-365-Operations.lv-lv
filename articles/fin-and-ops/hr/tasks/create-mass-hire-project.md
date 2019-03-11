@@ -1,13 +1,13 @@
---- 
-title: "Masveida darbā pieņemšanas projekta izveide"
-description: "Šajā procedūrā aprakstīts process masveida darbā pieņemšanas projekta iestatīšanai."
+---
+title: Masveida darbā pieņemšanas projekta izveide
+description: Šajā procedūrā aprakstīts process masveida darbā pieņemšanas projekta iestatīšanai.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f352435f8ad04f676aa786aae4669e3586a5715c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328221"
 ---
 # <a name="create-a-mass-hire-project"></a>Masveida darbā pieņemšanas projekta izveide
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
     * Pilna laika ekvivalenta vērtība pēc noklusējuma tiks ņemta no atlasītā darba. Ja nepieciešams, varat to izmainīt.  
     * Ja nepieciešams, atlasiet jauno amatu nodaļu.  
 13. Noklikšķiniet uz OK.
-
 

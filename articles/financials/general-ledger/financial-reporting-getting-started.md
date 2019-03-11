@@ -1,13 +1,13 @@
 ---
-title: "Finanšu pārskati"
-description: "Šajā tēmā ir aprakstīts, kur programmā Microsoft Dynamics 365 for Finance and Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts."
+title: Finanšu pārskati
+description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 for Finance and Operations un kā lietot finanšu pārskatu izveides iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316974"
 ---
-
 # <a name="financial-reporting"></a>Finanšu pārskati
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kur programmā Microsoft Dynamics 365 for Finance and Operations var piekļūt finanšu pārskatiem un kā lietot finanšu pārskatu iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
+Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 for Finance and Operations un kā lietot finanšu pārskatu izveides iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 
 <a name="accessing-financial-reporting"></a>Piekļuve finanšu atskaišu veidošanai
 -----------------------------
@@ -118,11 +117,10 @@ Kad noklikšķināt uz izvēlnes **Finanšu atskaišu veidošana**, tiek parād�
 No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī noklikšķinot uz **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti tikai pārskati, kas tika izveidoti tam uzņēmumam, kuru lietojat programmatūrā Finance and Operations. 
 
 > [!NOTE] 
-> Datorā, kurā tiek lejupielādēts pārskatu veidošanas klients, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt šeit: [Microsoft lejupielādes centrs](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
+> Datorā, kurā tiek lejupielādēts pārskatu izveides klients, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Skatīt finanšu pārskatus](view-financial-reports.md)
-
 
 
 

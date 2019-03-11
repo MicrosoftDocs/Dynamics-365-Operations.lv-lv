@@ -1,13 +1,13 @@
 ---
-title: "Lauku aprakstu skatīšana un eksportēšana"
-description: "Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus."
+title: Lauku aprakstu skatīšana un eksportēšana
+description: Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359340"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>Lauku aprakstu skatīšana un eksportēšana
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek nodrošināti apraksti par dažiem sarežģītākajiem laukiem. Šie apraksti tiek parādīti, kad novietojat peles kursoru uz lauka. Aprakstus varat skatīt un eksportēt lapā **Lauku apraksti**.
+Programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek nodrošināti apraksti par dažiem sarežģītākajiem laukiem. Šie apraksti tiek parādīti, kad novietojat peles kursoru uz lauka. Aprakstus varat skatīt un eksportēt lapā **Lauku apraksti**.
 
 Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarežģītākajiem laukiem, nevis tiem, kuru lietojums ir acīmredzams. Tādēļ dažās lapās nav neviena lauka apraksta, dažās lapās ir daži apraksti, bet dažās no sarežģītākajām lapām, piemēram, daudzās parametru lapās, ir daudz aprakstu.
 
@@ -43,7 +42,7 @@ Ja jums ir piekļuve Finance and Operations izstrādes videi, varat pievienot ja
 Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja apraksts nav pieejams, kad novietojat peles kursoru uz lauka, jūs redzat lauka nosaukumu.
 
 > [!NOTE]
-> Versijā Dynamics AX 7.0 (2016. gada februāris) lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.
+> Programmā Dynamics AX 7.0 (2016. gada februāris) lauku aprakstus var skatīt tikai lapā **Lauku apraksti**.
 
 Nākamajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**.
 
@@ -109,4 +108,3 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pielāgot lauku palīdzību](../../dev-itpro/user-interface/customize-field-help.md)
-

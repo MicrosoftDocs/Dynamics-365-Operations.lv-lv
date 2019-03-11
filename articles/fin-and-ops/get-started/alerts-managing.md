@@ -1,13 +1,13 @@
 ---
-title: "Brīdinājumu pakešveida apstrāde"
-description: "Šajā tēmā ir sniegta informācija par brīdinājumu pakešveida apstrādi programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Brīdinājumu pakešveida apstrāde
+description: Šajā tēmā ir sniegta informācija par brīdinājumu pakešveida apstrādi programmā Microsoft Dynamics 365 for Finance and Operations.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341929"
 ---
-
 # <a name="batch-processing-of-alerts"></a>Brīdinājumu pakešveida apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Brīdinājumus apstrādā, izmantojot pakešveida apstrādes funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations. Lai brīdinājumus varētu nosūtīt, ir jāiestata pakešveida apstrāde.
+Brīdinājumu apstrādei programmā Microsoft Dynamics 365 for Finance and Operations tiek izmantota pakešveida apstrādes funkcionalitāte. Lai brīdinājumus varētu nosūtīt, ir jāiestata pakešveida apstrāde.
 
 Programma Finance and Operations atbalsta divu veidu notikumus.
 
@@ -84,4 +83,3 @@ Ja tiek iestatīts pakešveida apstrādes logs, apstrādājot brīdinājuma kār
 
 1. Dodieties uz sadaļu **Sistēmas administrēšana** &gt; **Periodiskie uzdevumi** &gt; **Brīdinājumi** &gt; **Ar izpildes datumu saistīti brīdinājumi**.
 2. Dialoglodziņā **Ar izpildes datumu saistīti brīdinājumi** ievadiet attiecīgo informāciju.
-

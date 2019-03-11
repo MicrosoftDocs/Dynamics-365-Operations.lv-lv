@@ -1,13 +1,13 @@
 ---
-title: "Dabas resursu nodokļa pārskats"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN)."
+title: Dabas resursu nodokļa pārskats
+description: Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LvNRTaxItemGroupLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Latvia
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67b477b1b2e1d0836b236b6c4926dd6bd7c601fa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f3368432e64e5ede0b2775f53f73e9816aacf5f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371284"
 ---
-
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
 [!include [banner](../includes/banner.md)]
@@ -150,7 +149,6 @@ Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un
 14. Atlasiet par pārskatu atbildīgo personu.
 15. Atlasiet nodokļu iestādi.
 16. Noklikšķiniet uz **Labi**, lai drukātu deklarāciju par dabas resursu nodokli.
-
 
 
 

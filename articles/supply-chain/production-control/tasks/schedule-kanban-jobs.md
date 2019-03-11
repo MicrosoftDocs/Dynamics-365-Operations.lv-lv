@@ -1,13 +1,13 @@
---- 
+---
 title: Kanban darbu grafika izveide
-description: "Šajā procedūrā apskatīts Kanban darbu plānošanas process noteiktai darba šūnai."
+description: Šajā procedūrā apskatīts Kanban darbu plānošanas process noteiktai darba šūnai.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5170fecf0190591d74f45d35fecc4472e7f5e900
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359547"
 ---
 # <a name="schedule-kanban-jobs"></a>Kanban darbu grafika izveide
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 09/29/2017
 6. Noklikšķiniet uz Grafiks.
     * Ņemiet vērā, ka abi darbi tiek pievienoti izvēlētajam periodam.  
     * Sadaļā Perioda noslodze varat redzēt katra perioda slodzi. Laukā Patēriņš parādīts šī perioda plānotais patēriņš. Ja plānotais patēriņš ir lielāks par šajā periodā pieejamo noslodzi, tiks atlasīts pārslodzes patēriņš.  
-
 

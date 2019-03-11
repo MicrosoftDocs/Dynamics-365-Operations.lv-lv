@@ -1,13 +1,13 @@
 ---
-title: "Projektu vadība un uzskaite"
-description: "Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu."
+title: Projektu vadība un uzskaite
+description: Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311339"
 ---
-
 # <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Projektu vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēm
 
 [![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no lietotā nosaukuma šie projekti ietver resursus, grafikus un izmaksas, un projektu vadības un uzskaites funkcionalitāte programmatūrā Microsoft Dynamics 365 for Finance and Operations var palīdzēt planot, izpildīt un analizēt šos projektus.
+Zvanu centrā tādu darbību kopu aprakstīšanai, kas nepieciešamas, lai atrisinātu zvanu, var izmantot biļeti. Konsultāciju uzņēmumi, piemēram, vadības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras, savas darbības sauc par projektiem. Mārketinga nozarē veicamo darbu kopa ir kampaņa Uz projektiem balstītas ražošanas nozarēs ražošanas pasūtījums saista dažādus darbus, kuri jāveic, lai saražotu pabeigtas preces. Neatkarīgi no izmantotā nosaukuma šajos projektos ir ietverti resursi, grafiki un maksas, un projektu vadības un uzskaites funkcionalitāte programmā Microsoft Dynamics 365 for Finance and Operations var palīdzēt veikt šo projektu plānošanu, izpildi un analīzi.
 
 ## <a name="project-phases"></a>Projekta fāzes
 Lai gan šī procesa plūsma ir paredzēta ārējiem projektiem vai projektiem, kas tiek veikti vienam vai vairākiem debitoriem, funkcionalitāte attiecas arī uz iekšējiem izmaksu projektiem. 
@@ -206,7 +205,7 @@ Varat pasūtīt krājumus no uzņēmuma noliktavas izmantošanai projektā. Vai 
 
 Krājumu pasūtīšanas veids ir atkarīgs no tā, no kurienes tie tiek pasūtīti:
 
--   Lai pasūtītu krājumus no uzņēmuma noliktavas, pasūtījums ir jāievada kā krājumu vajadzība. Ja izmantojat lapu **Krājumu vajadzības**, varat iestatīt vajadzības tā, lai saņemtu krājumus ar daļēju piegādi. Tādējādi varat atlikt krājumu daudzuma patērēšanu līdz brīdim, kad krājumi ir nepieciešami.
+-   Lai pasūtītu krājumus no uzņēmuma noliktavas, pasūtījums ir jāievada kā krājumu vajadzība. Ja izmantojat lapu **Krājumu vajadzības**, varat iestatīt vajadzības tā, lai saņemtu krājumus ar daļēju piegādi. Tādējādi varat atlikt krājumu daudzuma patēriņu līdz brīdim, kad krājumi ir nepieciešami.
 -   Lai pasūtītu krājumus no ārējā kreditora, pasūtījums jāizveido kā pirkšanas pasūtījums lapā **Pirkšanas pasūtijums**.
 
 > [!NOTE] 
@@ -251,7 +250,7 @@ Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprē
 <tbody>
 <tr class="odd">
 <td>Kopējās izmaksas – faktiskās</td>
-<td>Novērtētās izmaksas ir jāievada manuāli. Kad ir aizpildīta kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong>, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu izmaiņas netiek izsekotas, pamatojoties uz, piemēram, viesnīcas pakalpojumu un maltīšu skaitu katrā periodā. Tā vietā: izsekošanas parasti balstās uz salīdzinājumu ar novērtēto stundu kopējo summu. Šai pieejai nav vajadzīgs budžeta modelis, un kopējās izmaksas vai kopējo daudzumu var mainīt manuāli. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> ir ievadīta kāda vērtība, programmatūra Finance and Operations salīdzina šo vērtību ar faktiskajām transakcijām, kas ir grāmatotas periodā, un pēc tam samazina vērtību kolonnā <strong>Daudzums pabeigšanai</strong> vai <strong>Pabeigšanas izmaksas</strong>.</td>
+<td>Novērtētās izmaksas ir jāievada manuāli. Kad ir aizpildīta kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong>, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu izmaiņas netiek izsekotas, pamatojoties uz, piemēram, katrā periodā reģistrēto viesnīcas apmeklējumu un maltīšu skaitu. Tā vietā: izsekošanas parasti balstās uz salīdzinājumu ar novērtēto stundu kopējo summu. Šai pieejai nav nepieciešams budžeta modelis, un var manuāli mainīt kopējās izmaksas vai kopējo daudzumu. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> ir ievadīta kāda vērtība, programmatūra Finance and Operations salīdzina šo vērtību ar faktiskajām transakcijām, kas ir grāmatotas periodā, un pēc tam samazina vērtību kolonnā <strong>Daudzums pabeigšanai</strong> vai <strong>Pabeigšanas izmaksas</strong>.</td>
 </tr>
 <tr class="even">
 <td>Kopējais budžets – faktiskais</td>
@@ -419,7 +418,7 @@ Lapā **Stundu lietojums** papildus vispārējā lietojuma koeficienta procentu�
 
 -   **Neiekļautās stundas** — šīs stundas nav iekļautas stundu lietojuma koeficientā.
 -   **Iekļautās stundas** šīs stundas tiek aprēķinātas, pievienojot lietojuma stundas un neproduktīvas stundas. Šīs stundas ir iekļautas lietojuma koeficientā.
--   **Neproduktīvās stundas** — aprēķinot apmaksas koeficientu, šīs stundas ir vienādas ar rēķinā neiekļaujamajām stundām. Aprēķinot efektivitātes koeficientu, šīs stundas ir vienādas ar neproduktīvajām stundām.
+-   **Neproduktīvās stundas** — aprēķinot apmaksas koeficientu, šīs stundas ir vienādas ar rēķinā neiekļaujamajām stundām. Aprēķinot efektivitātes koeficientu, šīs stundas ir vienādas ar neproduktīvajām stundām.
 -   **Lietojuma stundas** — aprēķinot apmaksas koeficientu, šīs stundas ir vienādas ar rēķinā neiekļaujamajām stundām. Aprēķinot efektivitātes koeficientu, šīs stundas ir vienādas ar produktīvajām stundām.
 
 Aprēķinot lietojuma koeficientu darbiniekam, varat izmantot normas stundas vai iekļautās stundas. Ja izmantojat iekļautās stundas, jums ir jānodrošina, lai darbinieki reģistrētu visu savu darba laiku attiecīgajiem darba laika uzskaites tabulas periodiem, jo aprēķins ir izteikts kā procenti no ievadīto stundu skaita. Aprēķinot stundu lietojuma koeficientu projektam, projekta līgumam, debitora ierakstam vai kategorijai, aprēķinam ir jāizmanto iekļautās stundas.
@@ -441,4 +440,3 @@ Pēc tam, kad ir veikts pārskata aprēķins, lapas **Projekta pārskati** daž�
 -   **Patēriņš** — informāciju par stundu, krājumu, izdevumu un algas darbību patēriņu.
 -   **Rēķins** — informācija par rēķiniem un starpkontu rēķinu izrakstīšanu.
 -   **Stundas likme** — stundu likmes stundām, kas grāmatotas ieņēmumu un izmaksu kontos.
-

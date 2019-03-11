@@ -1,13 +1,13 @@
 ---
-title: "150 procentu degresīvā nolietojuma aprēķināšanas metode"
-description: "Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi."
+title: 150 procentu degresīvā nolietojuma aprēķināšanas metode
+description: Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff4b40663f0da6bcc01b00f3f44cd8d8b43b56a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331625"
 ---
-
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentu degresīvā nolietojuma aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 | Lietošanas ilgums gados             | 5.      |
 | Gada nolietojuma procenti | 30%    |
 
-Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietošanas ilgumu gados. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
+Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietošanas ilgumu gados. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
 
 | Periods | Ikgadējā nolietojuma summas aprēķins | Atlikusī vērtība             | Atlikusī vērtība gada beigās |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -85,8 +84,7 @@ Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietošan
 | 3. gads | 4900 × 30% = 1470                           | 5900 – 1470 = 4430  | 4900 – 1470 = 3430                 |
 
 > [!NOTE]
-> Kad summa, kas tiek aprēķināta, izmantojot 150% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
-
+> Kad summa, kas tiek aprēķināta, izmantojot 150% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas tiktu aprēķināta, izmantojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti tiek izmantota lineārā metode.
 
 
 

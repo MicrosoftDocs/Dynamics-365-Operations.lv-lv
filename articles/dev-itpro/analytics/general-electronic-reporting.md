@@ -1,13 +1,13 @@
 ---
-title: "Elektronisko atskaišu veidošana (ER)"
-description: "Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma."
+title: Elektronisko atskaišu veidošana (ER)
+description: Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310810"
 ---
-
 # <a name="electronic-reporting-er"></a>Elektronisko atskaišu veidošana (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ ER ir rīks, kuru varat izmantot, lai konfigurētu gan ienākošo, gan izejošo 
 
 ER programma ir vērsta uz biznesa lietotājiem, nevis izstrādātājiem. Tā kā jūs konfigurējat formātus, nevis kodu, tad elektronisko dokumentu formātu izveidošanas un pielāgošanas process ir ātrāks un ērtāks.
 
-Pašlaik ER atbalsta darblapu formātus TEXT, XML, Microsoft Word dokuments un OPENXML. Taču paplašinājumu interfeiss sniedz atbalstu papildu formātiem.
+Pašlaik modulis ER atbalsta šādus darblapu formātus: TEXT, XML, Microsoft Word dokuments, un OPENXML Taču paplašinājumu interfeiss sniedz atbalstu papildu formātiem.
 
 ## <a name="capabilities"></a>Spējas
 ER programmai ir šādas iespējas:
 
-- Tā nodrošina vienu kopīgu rīku elektronisko pārskatu izveidei dažādos domēnos un aizstāj vairāk nekā 20 dažādas programmas, kas nodrošina noteikta veida elektronisko pārskatu izveides funkcijas programmā Microsoft Dynamics 365 for Finance and Operations.
+- Tā nodrošina vienu kopēju rīku elektronisko pārskatu izveidei dažādos domēnos un aizstāj vairāk nekā 20 dažādas programmas, kas izpilda kāda veida elektronisko pārskatu izveides darbības programmā Microsoft Dynamics 365 for Finance and Operations.
 - Tā nodrošina no pašreizējās Finance and Operations ieviešanas neatkarīgu pārskata formātu. Tas nozīmē, ka formātu var lietot dažādās Finance and Operations versijās.
 - Tā atbalsta pielāgota formāta izveidošanu, balstoties uz sākotnējo formātu. Turklāt tā ietver iespējas automātiskai pielāgotā formāta jaunināšanai, ja sākotnējais formāts tiek mainīts, jo ir ieviestas kādas lokalizācijas/pielāgošanas prasības.
 - Tas kļūst par primāro standarta rīku lokalizācijas prasību atbalstam elektronisko atskaišu izveidē — gan korporācijai Microsoft, gan Microsoft partneriem.
-- Tā atbalsta iespēju sadalīt formātus partneriem un klientiem, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
+- Tā atbalsta iespēju izplatīt formātus partneriem un debitoriem, izmantojot portālu Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="key-concepts"></a>Galvenie principi
 ### <a name="components"></a>Komponenti
@@ -72,7 +71,7 @@ Modeļa kartējumam, kas atbalsta izejošos elektroniskos dokumentus, ir tālāk
 
 - Kā datu modeļa datu avotus var izmantot dažādus Finance and Operations datu tipus. Piemēram, tā var izmantot tabulas, datu elementus, metodes vai uzskaitījumus.
 - Tā atbalsta lietotāja ievades parametrus, kurus var definēt kā datu modeļa datu avotus, kur izpildes laikā ir jānorāda kādi dati.
-- Tas atbalsta Finance and Operations datu pārveidošanu nepieciešamajās grupās. Tāpat tas ļauj filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas atgādina Microsoft Excel formulas, kā parādīts nākamajā attēlā. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu veidošanā](general-electronic-reporting-formula-designer.md)).
+- Tas atbalsta Finance and Operations datu pārveidošanu nepieciešamajās grupās. Turklāt tas sniedz iespēju filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas līdzinās Microsoft Excel formulām, kā tas ir parādīts tālāk esošajā attēlā. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu veidošanā](general-electronic-reporting-formula-designer.md)).
 
 [![Formulas veidotājs](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
@@ -94,13 +93,13 @@ Formāta komponents ir atskaišu veidošanas izvades shēma, kas tiks ģenerēta
 
 Formāta komponents atbalsta tālāk aprakstītās funkcijas.
 
-- Pārskatu izvade kā atsevišķu failu izveidošana dažādos formātos: piemēram, teksts, XML, Microsoft Word dokuments vai darblapa.
+- Pārskatu izveides izvade, izveidojot atsevišķus dažādu formātu, piemēram, teksta, XML, Microsoft Word dokumenta vai darblapas, failus.
 - Vairāku failu izveidošana atsevišķi un šo failu iekapsulēšana .zip failos.
 
 Formāta komponents jums ļauj pievienot noteiktus failus, kurus var izmantot pārskatu izvadē tālāk aprakstītajos veidos.
 
 - Excel darbgrāmatas, kas ietver darblapu, kuru var izmantot kā veidni izvadei OPENXML darblapas formātā
-- Word faili, kas ietver dokumentu, kuru var izmantot kā veidni izvadei Microsoft Word dokumenta formātā
+- Word faili, kuros ir ietverts dokumentu, kuru var izmantot kā veidni izvadei Microsoft Word dokumenta formātā
 - Citi faili, kurus var iekļaut formāta izvadē kā iepriekš definētus failus
 
 Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
@@ -170,7 +169,7 @@ Repozitorijs **Operācijas resursi** nodrošina piekļuvi to konfigurāciju sara
 
 Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts repozitorija reģistrācijas posmā. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās Finance and Operations instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Konfigurācijas varat arī importēt no repozitorija **LCS projekts** pašreizējā Finance and Operations instancē.
 
-Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā Finance and Operations instancē. Ņemiet vērā, ka šis repozitorija tips ir pieejams šādās Dynamics 365 for Finance and Operations vidēs:
+Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā Finance and Operations instancē. Ņemiet vērā, ka šī veida repozitorijam var piekļūt tālāk norādītajās Dynamics 365 for Finance and Operations vidēs.
 - mākoņvides, kas izvietotas izstrādes nolūkos (satur pievienoto komplektu pārbaudes modeļus)
 - lokāli izvietotas vides (lokāla vai vietēja biznesa datu izvietošana (LBD))
 
@@ -381,4 +380,3 @@ ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automāt
 [Lokalizācijas prasības — izveidot elektronisko atskaišu konfigurāciju](electronic-reporting-configuration.md)
 
 [Elektronisko atskaišu veidošanas konfigurācijas dzīves cikla pārvaldīšana](general-electronic-reporting-manage-configuration-lifecycle.md)
-

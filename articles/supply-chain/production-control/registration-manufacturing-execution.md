@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas izpildes reģistrācija"
-description: "Šajā tēmā ir aprakstītas galvenās koncepcijas un termini, kas ir jāsaprot, lai varētu konfigurēt un lietot ražošanas izpildi"
+title: Ražošanas izpildes reģistrācija
+description: Šajā tēmā ir aprakstītas galvenās koncepcijas un termini, kas ir jāsaprot, lai varētu konfigurēt un lietot ražošanas izpildi
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318170"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Ražošanas izpildes reģistrācija
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Darbinieki var veikt dažāda veida reģistrācijas ierakstus ražošanas izpild
 -   **Pārtraukuma reģistrēšana**(pieejams ar laika un apmeklētības ierakstiem) — darba dienas laikā darbinieki var veikt reģistrācijas ierakstu par to, ka viņi atstāj darba vietu, lai dotos pārtraukumā. Var iestatīt vairākus pārtraukumu veidus. Kad darbinieks atgriežas un piesakās vēlreiz, sistēmā tiek reģistrēts, ka darbinieks ir atgriezies, un pārtraukuma reģistrācija tiek pārtraukta.
 -   **Netiešu aktivitāšu reģistrēšana** (pieejams ar laika un apmeklētības ierakstiem) — netiešās aktivitātes ir ar ražošanu nesaistītas darbības, kuras darbinieki var veikt darba dienas laikā, piemēram, nodaļas sapulce, grupas sapulce vai apkopes darbi, kas saistīti ar veikala grīdas uzkopšanu. Darbinieki var veikt reģistrācijas par iestatītajām netiešām aktivitātēm.
 -   **Virsstundu reģistrēšana**(pieejams ar laika un apmeklētības ierakstiem) — darbinieki, kuriem ir lūgts strādāt ilgāk, var izvēlēties, vai papildu stundas reģistrēt kā brīva režīma laiks vai virsstundas.
-
 
 
 

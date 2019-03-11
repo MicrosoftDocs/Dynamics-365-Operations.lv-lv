@@ -1,13 +1,13 @@
 ---
-title: "Iepakojuma materiāli un papildmaksas"
-description: "Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos. Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam. Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem."
+title: Iepakojuma materiāli un papildmaksas
+description: Iepakojuma materiālu papildmaksas pārstrādes uzņēmumam tiek maksātas zināmos laika intervālos. Apmaksa tiek veikta par smaguma mērvienību katram iepakojuma vienības sastāvā esošajam materiālam. Iepakojuma materiālu papildmaksas tiek aprēķinātas un iekļautas atskaitēs, bet netiek grāmatotas virsgrāmatas transakcijas, jo papildmaksas netiek uzskatītas par valsts iestādei maksājamiem nodokļiem.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312305"
 ---
-
 # <a name="packing-materials-and-fees"></a>Iepakojuma materiāli un papildmaksas
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ Ja jūsu uzņēmums maksā iepakojuma materiālu maksas, nenorādiet debitora li
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Iepakojuma materiāla svaru drukāšana rēķinos
 Iepakojuma materiālu svaru varat drukāt rēķinā un norādīt, kurš maksā iepakojuma materiāla maksu. Svars tiek summēts pēc iepakojuma koda.
-
 
 
 

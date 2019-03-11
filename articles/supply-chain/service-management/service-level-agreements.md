@@ -1,31 +1,30 @@
 ---
-title: "Līgumi par pakalpojumu līmeni"
-description: "Līgumā par pakalpojumu līmeni (Service Level Agreement — SLA) klients piekrīt minimālajam atbildes laikam, pamatojoties uz laiku, kad pakalpojumu uzņēmums reģistrē problēmu un kad šī problēma ir atrisināta."
+title: Līgumi par pakalpojumu līmeni
+description: Līgumā par pakalpojumu līmeni (Service Level Agreement — SLA) klients piekrīt minimālajam atbildes laikam, pamatojoties uz laiku, kad pakalpojumu uzņēmums reģistrē problēmu un kad šī problēma ir atrisināta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cffe3a7766502dd5d888a7a99a32150967911301
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63389ed348e9b1bebe00d9aaa9f78b97ac39317b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364584"
 ---
-
 # <a name="service-level-agreements"></a>Līgumi par pakalpojumu līmeni        
 
 [!include [banner](../includes/banner.md)]
@@ -45,9 +44,9 @@ Var izveidot vairākus SLA, lai sniegtu pakalpojumu klientiem dažādus pakalpoj
 
 3.  Ierakstiet laiku, kādu vēlaties atļaut šim līgumam par pakalpojumu līmeni piesaistīto pakalpojumu izsaukumu veikšanai. Pēc tam atlasiet kādu kalendāru, ja šo līgumu par pakalpojumu līmeni vēlaties balstīt uz noteiktu kalendāru.
 
-## <a name="apply-a-service-level-agreement"></a>Līguma par pakalpojumu līmeni lietošana
+## <a name="apply-a-service-level-agreement"></a>Pakalpojumu līmeņa līguma piešķiršana
 
-SLA tiek lietots tieši pakalpojumu līgumam.
+SLA tiek piešķirts tieši pakalpojumu līgumam.
 
 Pakalpojumu pasūtījumi, ko izveidojat manuāli un ko pievienojat kādam pakalpojumu līgumam, kuram ir SLA, tiek mērīti attiecībā pret šo SLA.
 
@@ -80,6 +79,5 @@ Kad veidojat jaunu pakalpojumu pasūtījumu kādam pakalpojumu līgumam, kuram i
 [Atbilstības skatīšana attiecībā uz līgumiem par pakalpojumu līmeni](view-compliance-with-service-level-agreements.md)
 
   
-
 
 

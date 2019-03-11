@@ -1,13 +1,13 @@
 ---
-title: "Finanšu ieskati"
-description: "Darbvieta Finanšu ieskati izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus."
+title: Finanšu ieskati
+description: Darbvietā Finanšu ieskati tiek izmantots pakalpojums Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,31 +16,30 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308855"
 ---
-
 # <a name="financial-insights"></a>Finanšu ieskati
 
 [!include [banner](../includes/banner.md)]
 
-Darbvieta **Finanšu ieskati** izmanto pakalpojumu Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus. Pakalpojums Power BI ir iegults programmā Microsoft Dynamics 365 Finance and Operations. Darbvieta **Finanšu ieskati** ir paredzēta analītisku pārskatu veidošanai. Personas visā organizācijā var skatīt, pētīt, izprast un rīkoties. 
+Darbvietā **Finanšu ieskati** tiek izmantots pakalpojums Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus. Pakalpojums Power BI ir iespējots programmā Microsoft Dynamics 365 Finance and Operations. Darbvieta **Finanšu ieskati** ir paredzēta analītisku pārskatu veidošanai. Personas visā organizācijā var skatīt, pētīt, izprast un rīkoties. 
 
 **Finanšu ieskati** apvieno virsgrāmatas un apakšgrāmatu datus, lai nodrošinātu visaptverošāku informāciju par organizācijas finanšu veselību.
 
 > [!NOTE]
-> Šajā dokumentā izmantota tālāk norādītā Power BI terminoloģija.
+> Šajā dokumentā tiek izmantota tālāk norādītā Power BI terminoloģija.
 > 
 > - **Pārskats** — viens .pbix fails, kurā visās cilnēs ir saglabāti visi vizuālie dati.
 > - **Lapa** — cilne vienā .pbix failā. Katrā lapā var būt viens vizuālo datu vienums vai vairāki.
 > - **Vizuālie dati** — viens datu avots, piemēram, kartīte, KPI, diagramma, grafiks, matrica vai finanšu pārskats. Lapā, kurā kā vizuālie dati ir finanšu pārskats, nevar būt citu vizuālo datu to datu lieluma dēļ, par ko tiek sniegts pārskats.
 
-Pašlaik darbvieta **Finanšu ieskati** tiek izmantota, lai skatītu aktīvās juridiskās personas vai visu juridisko personu datus. Turpmākajos laidienos darbvieta tiks attīstīta par vietu, kurā varēsit izmantot pakalpojumu Power BI vizuālo datu rediģēšanai un izveidei.
+Pašlaik darbvieta **Finanšu ieskati** tiek izmantota, lai skatītu aktīvās juridiskās personas vai visu juridisko personu datus. Turpmākajos laidienos darbvieta tiks attīstīta par vietu, kurā varēsit izmantot pakalpojumu Power BI vizuālo datu rediģēšanai un izveidei.
 
 Darbvietā **CFO apskats** parādīti tie paši vizuālie dati, kas redzami darbvietā **Finanšu ieskati**, taču tās galvenais nolūks ir ļaut jums skatīt un filtrēt datus esošos pārskatos. Turpmākajos laidienos darbvietai **Finanšu ieskati** varēsit pievienot jaunus vizuālos datus. Jaunie vizuālie dati var arī būt pieejami darbvietās, kas paredzētas citām lomām, piemēram, projektu vadītāja vai kreditoriem maksājamo parādu vadītāja lomai. Darbvietā **CFO apskats** joprojām tiek rādīti visu juridisko personu dati neatkarīgi no juridiskajām personām, kam lomai ir piekļuve.
 
@@ -81,13 +80,13 @@ Iepriekšējā laidienā elementi LedgerActivityMeasure un VendPaymentBIMeasure 
 Varat definēt ciklisku pakešuzdevumu, lai regulāri atjauninātu elementu datus. Tā kā katrs elements atjaunināšanas laikā tiek pilnībā izveidots no jauna, uzmanīgi atlasiet elementu atjauninājumu laiku un biežumu. Primārais elements, kas tiek izmantots finanšu pārskatiem, ir elements FinancialReportingTransactionData. Tāpēc, iespējams, izlemsit šo elementu atjaunināt biežāk.
 
 ## <a name="security"></a>Drošība
-Pašlaik datus iegultajos Power BI pārskatos nevar ierobežot uz juridiskajām personām, kam lietotājam ir piekļuve. Tādēļ iegultie Power BI pārskati tiek kontrolēti, izmantojot pienākumus drošības iestatījumos. Pienākumi, kas ir definēti, ļauj piekļūt visu juridisko personu datiem vai tikai aktīvā uzņēmuma datiem. Tālāk esošajā tabulā ir parādīti esošie pienākumi un tiem piešķirtās lomas. Pienākumus var noņemt vai piešķirt dažādām lomām atbilstoši organizācijas prasībām.
+Pašlaik iegultajos Power BI pārskatos ietvertos datus nevar ierobežot, nodrošinot datus tikai par tām juridiskajām personām, kurām lietotājs var piekļūt. Tāpēc iegulto Power BI pārskatu kontrolei tiek izmantoti pienākumi, kas tiek konfigurēti drošības iestatījumos. Pienākumi, kas ir definēti, ļauj piekļūt visu juridisko personu datiem vai tikai aktīvā uzņēmuma datiem. Tālāk esošajā tabulā ir parādīti esošie pienākumi un tiem piešķirtās lomas. Pienākumus var noņemt vai piešķirt dažādām lomām atbilstoši organizācijas prasībām.
 
 | Nodoklis                                    | Lomas | Apraksts |
 |-----------------------------------------|-------|------------|
 | Skatīt CFO apskata darbvietu             | Finanšu direktors | Šis pienākums nodrošina piekļuvi darbvietai CFO apskats. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām. |
 | Skatīt pašreizējā uzņēmuma finanšu ieskatus | <ul><li>Grāmatvedis</li><li>Uzskaites vadītājs</li><li>Uzskaites supervizors</li><li>Auditors</li><li>Budžeta pārvaldnieks</li><li>Iestādes vadītājs</li><li>Finanšu direktors</li><li>Finanšu kontrolieris</li></ul> | Šis pienākums nodrošina piekļuvi darbvietai Finanšu ieskati. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Nevar pievienot citas juridiskās personas. |
-| Skatīt starpuzņēmumu finanšu ieskatus   | Risinājumā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 šis pienākums nav piešķirts lomai. Nākamajā laidienā šis pienākums tiks piešķirts lomai Finanšu direktors. | Šis pienākums nodrošina piekļuvi darbvietas CFO apskats izvēlnes vienumam. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām. |
+| Skatīt starpuzņēmumu finanšu ieskatus   | Programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 šis pienākums nav piešķirts lomai. Nākamajā laidienā šis pienākums tiks piešķirts lomai Finanšu direktors. | Šis pienākums nodrošina piekļuvi darbvietas CFO apskats izvēlnes vienumam. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Darbvietu “Finanšu pārskati” un “Finanšu ieskati” salīdzinājums
@@ -123,10 +122,10 @@ Papildus lietotāja interfeisam oriģinālajā darbvietā **CFO apskats**, taga
 - Pārdošana pēc debitora
 
 ## <a name="edit-visuals"></a>Vizuālo datu rediģēšana
-Sākotnējā darbvietas **Finanšu ieskati** laidienā nevar rediģēt nekādus vizuālos datus. Turpmākajos laidienos lietotāji, kuriem būs atbilstošas drošības atļaujas, varēs izveidot jaunus vizuālos datus, kopēt esošos vizuālos datus un rediģēt vizuālos datus. Lai gan .pbix faili, kas satur pārskatus, ir pieejami kā resursi, nav ieteicams rediģēt noklusējuma pārskatus. Tiks veiktas papildu izmaiņas datu modelī, noklusējuma pārskatos un pielāgotajos finanšu pārskata vizuālajos datos, kas tiek izmantoti finanšu pārskatu izveidei. Tādēļ, lai izmantotu jaunos līdzekļus un datu modeļa izmaiņas nākamajā laidienā, jums būs jāatkārto visas izmaiņas, ko būsit veicis noklusējuma pārskatos, izmantojot programmu Microsoft Power BI Desktop.
+Sākotnējā darbvietas **Finanšu ieskati** laidienā nevar rediģēt nekādus vizuālos datus. Turpmākajos laidienos lietotāji, kuriem būs atbilstošas drošības atļaujas, varēs izveidot jaunus vizuālos datus, kopēt esošos vizuālos datus un rediģēt vizuālos datus. Lai gan .pbix faili, kas satur pārskatus, ir pieejami kā resursi, nav ieteicams rediģēt noklusējuma pārskatus. Tiks veiktas papildu izmaiņas datu modelī, noklusējuma pārskatos un pielāgotajos finanšu pārskata vizuālajos datos, kas tiek izmantoti finanšu pārskatu izveidei. Tāpēc, lai varētu izmantot nākamajā laidienā ietvertos jaunos līdzekļus un datu modeļa izmaiņas, būs jāatkārto visas noklusējuma pārskatu izmaiņas, kas būs veiktas, izmantojot programmu Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Filtrēšana
-Lietotāji var filtrēt pārskatu, izmantojot kreisajā pusē esošo rūti **Filtrs**. Šī rūts ir tāda pati, kāda pieejama programmā Power BI Desktop. Ir dažādu līmeņu filtrēšana, un dažu veidu filtrēšana var nebūt pieejama atkarībā no tā, ko esat atlasījis lapā (cilnē), vai no tā, vai izmantojat detalizētas apskates iespējas.
+Lietotāji var filtrēt pārskatu, izmantojot kreisajā pusē esošo rūti **Filtrs**. Šī ir tā pati rūts, kas ir pieejama programmā Power BI Desktop. Ir dažādu līmeņu filtrēšana, un dažu veidu filtrēšana var nebūt pieejama atkarībā no tā, ko esat atlasījis lapā (cilnē), vai no tā, vai izmantojat detalizētas apskates iespējas.
 
 - **Pārskata līmeņa filtri** — šie filtri tiek lietoti visiem vizuālajiem datiem visās lapās (cilnēs).
 - **Lapas līmeņa filtri** — šie filtri tiek lietoti visiem vizuālajiem datiem aktīvajā cilnē. Šie filtri tiek lietoti papildus pārskata līmeņa filtriem.
@@ -174,13 +173,13 @@ Noklusējuma pārskatos tiek izmantotas tālāk norādītās dimensijas. Neviena
 
 ## <a name="drill-on-data"></a>Detalizēta datu rādīšana
 
-Izmantojot Power BI, ir pieejami dažādi detalizētās rādīšanas līmeņi. Katram līmenim ir cits nosaukums un funkcionalitāte. Var arī detalizēti rādīt rindas un kolonnas. Šajā sadaļā tiek aplūkotas dažādas opcijas, kā piemēru izmantojot finanšu pārskatu **Apgrozījuma bilance** un parādot, kā detalizēti rādīt rindas. Tā pati funkcionalitāte ir arī kolonnām. Ir tikai jānomaina iestatījums **Rādīt detalizēti**.
+Izmantojot Power BI, ir pieejami dažādi detalizētās rādīšanas līmeņi. Katram līmenim ir cits nosaukums un funkcionalitāte. Var arī detalizēti rādīt rindas un kolonnas. Šajā sadaļā tiek aplūkotas dažādas opcijas, kā piemēru izmantojot finanšu pārskatu **Apgrozījuma bilance** un parādot, kā detalizēti rādīt rindas. Tā pati funkcionalitāte ir arī kolonnām. Ir tikai jānomaina iestatījums **Rādīt detalizēti**.
 
 Tālāk esošajā attēlā pārskats **Apgrozījuma bilance** ir sakļauts līdz augstākajam rindu hierarhijas līmenim, galvenā konta tipam.
 
 ![Apgrozījuma bilance](./media/trial-balance.png)
 
-Lai skatītu nākamo hierarhijas līmeni, galvenā konta kategorijas, lauku **Rādīt detalizēti** iestatiet uz **Rindas** un pēc tam atlasiet pogu **Izvērst** (trešā poga pēc lauka Rādīt detalizēti). Tādējādi tiek izvērstas visas galvenā konta kategorijas. Pašlaik pakalpojumā Power BI nevar izvērst tikai vienu rindu vai kolonnu un vienlaikus skatīt visas pārējās rindas vai kolonnas.
+Lai skatītu nākamo hierarhijas līmeni, galvenā konta kategorijas, lauku **Rādīt detalizēti** iestatiet uz **Rindas** un pēc tam atlasiet pogu **Izvērst** (trešā poga pēc lauka Rādīt detalizēti). Tādējādi tiek izvērstas visas galvenā konta kategorijas. Pašlaik pakalpojumā Power BI nevar izvērst tikai vienu rindu vai kolonnu un vienlaikus joprojām skatīt visas pārējās rindas vai kolonnas.
 
 ![Apgrozījuma bilance](./media/trial-balance2.png)
 
@@ -194,7 +193,7 @@ Kad esat detalizēti parādījis vienu rindu un vēlaties atgriezties pilnajā a
 
 Varat turpināt izmantot pogu **Rādīt vispārīgi**, lai atgrieztos augstākajā rindu kopsavilkuma līmenī.
 
-Pakalpojumā Power BI ir arī poga, kas ļauj pāriet uz nākamo hierarhijas līmeni (otrā poga pēc lauka **Rādīt detalizēti**). Izmantojot šo pogu, rezultāts atšķiras no tā, kas tiek iegūts ar pogu **Izvērst** (trešā poga pēc lauka **Rādīt detalizēti**), kuru izmanto hierarhijas izvēršanai. Izvēršot hierarhiju, tā tiek saglabāta pārskatā. Piemēram, kā parādīts iepriekš, ja izvēršat galvenā konta tipu, pārskatā joprojām ir redzams galvenā konta tips. Taču, kad pārejat uz nākamo hierarhijas līmeni, pārskatā vairs netiek rādīta vecākhierarhija, kā parādīts tālāk esošajā attēlā.
+Pakalpojumā Power BI ir pieejama arī poga, kas sniedz iespēju pāriet uz nākamo hierarhijas līmeni (otrā poga pēc lauka **Rādīt detalizēti**). Izmantojot šo pogu, rezultāts atšķiras no tā, kas tiek iegūts ar pogu **Izvērst** (trešā poga pēc lauka **Rādīt detalizēti**), kuru izmanto hierarhijas izvēršanai. Izvēršot hierarhiju, tā tiek saglabāta pārskatā. Piemēram, kā parādīts iepriekš, ja izvēršat galvenā konta tipu, pārskatā joprojām ir redzams galvenā konta tips. Taču, kad pārejat uz nākamo hierarhijas līmeni, pārskatā vairs netiek rādīta vecākhierarhija, kā parādīts tālāk esošajā attēlā.
 
 ![Apgrozījuma bilance](./media/trial-balance5.png)
 
@@ -240,14 +239,13 @@ Finanšu pārskatu vizuālajiem datiem ir ierobežots parādāmo rindu skaits. P
 Ja tiek pārsniegts maksimālais skaits, finanšu pārskatā redzamās kopsummas ir nepareizas, jo vizuālajos datos nav ielādētas visas rindas.
 
 ### <a name="empty-rows"></a>Tukšas rindas
-Power BI nenodrošina opciju tukšu rindu paslēpšanai un rādīšanai. Ja rindā nav nekādu datu, šī rinda netiek rādīta vizuālajos datos.
+Power BI nenodrošina tukšu rindu paslēpšanas un rādīšanas opciju. Ja rindā nav nekādu datu, šī rinda netiek rādīta vizuālajos datos.
 
 
-## <a name="additional-resources-for-power-bi"></a>Power BI papildu resursi
+## <a name="additional-resources-for-power-bi"></a>Papildu resursi pakalpojumam Power BI
 
-Tālāk norādītajos resursos esošā informācija nav nepieciešama, lai iespējotu iegultos pārskatus darbvietai **CFO apskats** vai **Finanšu ieskati** ražošanas vidē. Taču tā ir noderīga izstrādes laukiem un situācijās, kurās vēlaties programmā Finance and Operations iegult savus Power BI pārskatus.
+Tālāk norādītajos resursos esošā informācija nav nepieciešama, lai iespējotu iegultos pārskatus darbvietai **CFO apskats** vai **Finanšu ieskati** ražošanas vidē. Taču tā ir noderīga izstrādes laukiem un gadījumā, ja vēlaties programmā Finance and Operations iegult savus Power BI pārskatus.
 
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

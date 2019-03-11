@@ -1,13 +1,13 @@
 ---
-title: "Projektu prognozes un budžeti"
-description: "Microsoft Dynamics 365 for Finance and Operations nodrošina projektu prognozes un projektu budžetus, kas sniedz iespēju pārvaldīt un kontrolēt projektus."
+title: Projektu prognozes un budžeti
+description: Microsoft Dynamics 365 for Finance and Operations nodrošina projektu prognozes un projektu budžetus, kas sniedz iespēju pārvaldīt un kontrolēt jūsu projektus.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310396"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Projektu prognozes un budžeti
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations nodrošina divus veidus, kā pārvaldīt un kontrolēt projektus: projektu prognozes un projektu budžetus. 
+Microsoft Dynamics 365 for Finance and Operations nodrošina divus projektu pārvaldības un kontroles viedus: projektu prognozes un projektu budžetus. 
 
 Lietojiet projektu prognozēšanu, ja jūsu organizācijai ir operatīva perspektīva un ja tas koncentrējas uz ieņēmumiem un izmaksām, kas ir atvasināti no noteiktām transakcijām. Izmantojiet projektu budžetu veidošanu, ja jūsu organizācija vairāk koncentrējas uz finanšu summām. 
 
@@ -80,7 +79,6 @@ Projektu budžeti tiek automātiski saistīti ar diviem prognožu modeļiem, vie
 Prognozes modeļiem ir vienlīmeņa hierarhija. Tas nozīmē, ka vienai projekta prognozei ir jābūt saistītai ar vienu prognozes modeli.
 
 Ja izmantojat projekta prognozēšanu, varat norādīt modeļus un apakšmodeļus. Pēc tam varat izveidot prognozes pēc nodaļas, laika perioda vai reģiona. Piemēram, var izveidot prognozes modeli gadam, un pēc tam izveidot apakšmodeļus reģionu Ziemeļaustrumi, Dienvidaustrumi, Ziemeļrietumi un Dienvidrietumi prognozēm, kuras nodod reģionālie vadītāji. Atlasot dažādas pieejamo pārskatu opcijas, varat skatīt informāciju pēc kopējās prognozes vai apakšmodeļa.
-
 
 
 

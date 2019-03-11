@@ -1,32 +1,31 @@
 ---
 title: Izmaksu kontroles darbvieta
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu kontrole. Šī darbvieta ir vieta, kur vadītāji, kuri ir atbildīgi par izmaksu objekta vai izmaksu objektu kopas kontroli vienas vai vairāku dimensiju ietvaros, var centralizēti piekļūt pārskatiem."
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu kontrole. Šī darbvieta ir vieta, kur vadītāji, kuri ir atbildīgi par izmaksu objekta vai izmaksu objektu kopas kontroli vienas vai vairāku dimensiju ietvaros, var centralizēti piekļūt pārskatiem.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c6a196c677ed27666efec8a180f1d3b7e7ee931c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363756"
 ---
-
 # <a name="cost-control-overview"></a>Pārskats par darbvietu Izmaksu kontrole 
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Kopsavilkuma cilnē **Datu filtrēšana** varat definēt pārskata pamata datus.
 |-------------------------------------------------------------------|-------------|
 | Izmaksu uzskaites virsgrāmata                                            | **Izmaksu uzskaites virsgrāmata**, kas tiek izmantota pārskata izveidei. Vērtība ir atkarīga no lauka **Izmaksu vadības ierīce** vērtības. |
 | Izmaksu vadības ierīce                                                 | No atlasītās vērtības ir atkarīgs tas, kura izmaksu kontroles virsgrāmata un kuri izmaksu objekti tiks izmantoti pārskata izveidei. |
-| Statistisko dimensiju hierarhija, Izmaksu elementu dimensiju hierarhija | Darbvietas **Izmaksu kontrole** konfigurācijas ieraksts var nodrošināt pārskatu par beznaudas vai naudas vērtībām, taču nevis vienā izkārtojumā. Atlasiet lauka **Izmaksu elementu dimensiju hierarhija**, lai veidotu pārskatu par naudas vērtībām. Atlasiet lauka **Statistisko dimensiju hierarhija**, lai veidotu pārskatu par beznaudas vērtībām. No atlasītā dimensiju hierarhijas ieraksta ir atkarīga pārskata veidošanas un apkopojuma līmeņu struktūra.<blockquote>[!NOTE]<br>Lai līdzās parādītu naudas un beznaudas vērtības, varat eksportēt datus uz programmu Microsoft Excel izmantošanai ar Microsoft Power BI satura pakotni.</blockquote> |
+| Statistisko dimensiju hierarhija, Izmaksu elementu dimensiju hierarhija | Darbvietas **Izmaksu kontrole** konfigurācijas ieraksts var nodrošināt pārskatu par beznaudas vai naudas vērtībām, taču nevis vienā izkārtojumā. Atlasiet lauka **Izmaksu elementu dimensiju hierarhija**, lai veidotu pārskatu par naudas vērtībām. Atlasiet lauka **Statistisko dimensiju hierarhija**, lai veidotu pārskatu par beznaudas vērtībām. No atlasītā dimensiju hierarhijas ieraksta ir atkarīga pārskata veidošanas un apkopojuma līmeņu struktūra.<blockquote>[!NOTE]<br>Lai līdzās skatītu naudas un beznaudas vērtības, varat eksportēt datus uz programmu Microsoft Excel izmantošanai ar Microsoft Power BI satura pakotni.</blockquote> |
 | Izmaksu objektu dimensiju hierarhija                                   | Atlasiet definētā pārskata mērķim piemērotas izmaksu objekta dimensijas hierarhiju. |
 | Budžeta sākotnējā versija                                           | Atlasiet tās budžeta versijas ID, kas šī pārskata kontekstā ir sākotnējais budžets. |
 | Budžeta pārskatītā versija                                            | Atlasiet tās budžeta versijas ID, kas šī pārskata kontekstā tiek izmantota kā sākotnējais budžets. |
@@ -157,6 +156,5 @@ Tālāk esošajā piemērā sadalījuma pamata tips ir **Formulas sadalījuma pa
 Papildu resursi 
 
 [Piekļuves tiesību definēšana izmaksu objektu kontrolieriem](access-rights-cost-object-controller.md)
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Piegādes alternatīvas"
-description: "Pārdošanas pasūtījumu ņēmēji var izmantot lapu Piegādes alternatīvas, lai uzzinātu par alternatīvām pasūtījumu izpildes iespējām."
+title: Piegādes alternatīvas
+description: Pārdošanas pasūtījumu ņēmēji var izmantot lapu Piegādes alternatīvas, lai uzzinātu par alternatīvām pasūtījumu izpildes iespējām.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 1fbf8f08322c954a482777abcf041ff0b9d8fb77
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328382"
 ---
-
 # <a name="delivery-alternatives"></a>Piegādes alternatīvas
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ Piegādes datuma kontroles metode paredz, kā sistēma nosaka piegādes datumus,
 <td><strong>Apraksts</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Neviens</strong></td>
+<td><strong>Neviena</strong>;</td>
 <td><ul>
 <li>Piegādes alternatīvas pārdošanas rindām netiek atbalstītas. Šī opcija izslēdz piegādes datu kontroli.</li>
 </ul></td>
@@ -150,7 +149,6 @@ Informācija šajā cilnē ir saistīta ar piegādes alternatīvo rindu, kas tie
 --------
 
 [Pasūtījumu solīšana](delivery-dates-available-promise-calculations.md)
-
 
 
 

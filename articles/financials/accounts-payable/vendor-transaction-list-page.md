@@ -1,13 +1,13 @@
 ---
-title: "Kreditora darbību saraksta lapa"
-description: "Šajā tēmā ir sniegta informācija par kreditora transakciju saraksta lapu sistēmai Microsoft Dynamics 365 for Finance and Operations."
+title: Kreditora darbību saraksta lapa
+description: Šajā tēmā ir sniegta informācija par saraksta lapu Kreditora transakcijas programmā Microsoft Dynamics 365 for Finance and Operations.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 99a169bd51e14f15c085f7547ec240b2787258cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341745"
 ---
-
 # <a name="vendor-transactions-list-page"></a>Kreditora darbību saraksta lapa
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi
 
 4. Dialoglodziņā var izpildīt dažādus uzdevumus. Atlasiet vienu vai vairākus dokumentus un pēc tam atlasiet vienu no tālāk norādītajām pogām.
 
-    - **Skatīt saistītos maksājumus** – ļauj skatīt visas maksājumu žurnālā izveidotās maksājumu žurnāla transakcijas, kas ir saistīts ar atlasīto dokumentu. Tiek parādītas arī visas nosegšanas darbības, kas ir saistītas ar šiem maksājumiem. Skatot saistītos maksājumus, šīs pogas apzīmējums mainās uz **Skatīt nosegšanas darbības**. Atlasiet **Skatīt nosegšanas darbības**, lai skatītu tikai tās transakcijas, kuras tika parādītas, pirmo reizi atvērot dialoglodziņu **Skatīt nosegšanas darbības**.
+    - **Skatīt saistīto** — parādīt visas konkrētā kreditora maksājumu žurnāla transakcijas un Virsgrāmatas žurnāla transakcijas, kas ir izveidotas žurnālos, kuros ir izveidoti sarakstā redzamie dokumenti. Piemēram, ja tiek rādīts maksājums, tad tiek parādīti visi maksājumi tajā maksājumu žurnālā, kurā ir izveidots šis maksājums. Ja tiek rādīts rēķins vai maksājums, kas ir izveidots Virsgrāmatas žurnālā, tad tiek parādīti visi dokumenti tajā Virsgrāmatas žurnālā, kurā ir izveidots šis rēķins vai maksājums. Tiek parādītas arī visas ar dokumentu sarakstu saistītas nosegšanas darbības. Skatot saistītos maksājumus, šīs pogas apzīmējums mainās uz **Skatīt nosegšanas darbības**. Atlasiet **Skatīt nosegšanas darbības**, lai skatītu tikai tās transakcijas, kuras tika parādītas, pirmo reizi atvērot dialoglodziņu **Skatīt nosegšanas darbības**.
     - **Skatīt vēsturi** — ļauj skatīt ar dokumentiem saistīto nosegšanas vēsturi. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
     - **Skatīt uzskaiti** — ļauj skatīt visus ar atlasītajiem dokumentiem saistītos dokumentus. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
-    - **Eksportēt** – eksportēt atlasītos vaučerus uz programmu Microsoft Excel.
+    - **Eksportēt** — eksportēt atlasītos dokumentus uz programmu Microsoft Excel.
     - **Nosegšanas transakcijas** — šī poga tiek parādīta tikai tad, ja oriģinālais atlasītais dokuments nav pilnībā nosegts. Atlasot šo pogu, tiek parādīts dialoglodziņš **Nosegšanas transakcijas**, kurā var atlasīt nosegšanas transakcijas.
     - **Nosegšanas darbību atsaukšana** — šī poga tiek parādīta tikai tad, ja oriģinālais atlasītais dokuments, ir pilnībā nosegts. Atlasot šo pogu, tiek parādīts dialoglodziņš **Nosegšanas darbību atsaukšana**, kurā var atsaukt nosegšanas darbības, kuras ir veiktas šim dokumentam.
 
@@ -98,4 +97,3 @@ Katra lauka izmaiņas citādi ietekmē transakciju.
 - **Rediģēt termiņatlaides nosacījumus** — termiņatlaides tiek mainītas atbilstoši bāzes datumam un termiņatlaides nosacījumiem.
 
 Kad maksājuma iestatījumu rediģēšana ir pabeigta, atlasiet **Aizvērt**, lai saglabātu izmaiņas.
-

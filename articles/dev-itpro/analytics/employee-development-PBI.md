@@ -1,13 +1,13 @@
 ---
-title: "Power BI saturs Darbinieku attīstība"
-description: "Šajā tēmā ir aprakstīts Power BI saturs Darbinieku attīstība."
+title: Power BI satura pakotne Darbinieku attīstība
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Darbinieku attīstība.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347173"
 ---
-
-# <a name="employee-development-power-bi-content"></a>Power BI saturs Darbinieku attīstība
+# <a name="employee-development-power-bi-content"></a>Power BI satura pakotne Darbinieku attīstība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Microsoft Power BI saturs **Darbinieku attīstība**.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Darbinieku attīstība**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
-Power BI satura pakotnē **Darbinieku attīstība** ietvertajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+Power BI satura pakotnes **Darbinieku attīstība** pārskatos ir ietvertas gan diagrammas, gan tabulas, kurās ir sniegta papildinformācija. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                        | Saturs |
 |-------------------------------|----------|
@@ -42,7 +41,7 @@ Power BI satura pakotnē **Darbinieku attīstība** ietvertajos pārskatos ir g
 | Veiktspējas vērtējuma analīze   | Darbinieki pēc zemākā un augstākā vērtējuma pēc darba, darbinieku vērtējumi pēc nodaļas, darbinieki pēc vērtējuma un pozīcijas tipa un augstākie un zemākie vērtējumi pēc pozīcijas |
 | Darbinieku veiktspējas analīze | Darbinieku vērtējumi atlasītajam vērtējumam pēc vadītāja |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Plašāku informāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Izveidot un konfigurēt informācijas paneli](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
@@ -70,4 +69,3 @@ Power BI satura pakotnē **Darbinieku attīstība** ietvertajos pārskatos ir g
 | Darbinieku prasmju analīze  | Sertificēts, līmenis, līmeņa datums un prasme                                                                    | Darbinieka vārds, Prasme |
 | Veiktspēja              | Vērtējums, apraksts un vērtēšanas modelis                                                                      | Pašreizējais darbinieks, Pašreizējā pozīcija, Darbinieka tendence, Darbam vēlamās prasmes, Iepriekšējās pozīcijas piešķire, Pozīcijas tendence, Darbinieks, ar kuru ir pārtrauktas darba attiecības |
 | Prasme                    | Prasme, prasmes tips un vērtējums                                                                              | Darbinieku prasmju analīze, Darbam vēlamās prasmes |
-

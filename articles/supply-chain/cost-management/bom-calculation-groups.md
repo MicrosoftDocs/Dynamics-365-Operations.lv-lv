@@ -1,13 +1,13 @@
 ---
-title: "MK aprēķinu grupas"
-description: "Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) aprēķinu grupām un to iestatīšanu. Lai izpildītu MK aprēķinu, ir jāiestata aprēķinu grupas un tās jāpiešķir atsevišķiem krājumiem, vai jāiestata noklusējuma aprēķinu grupa. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tad tiek izmantoti kā noklusējuma vērtības lapā MK aprēķins."
+title: MK aprēķinu grupas
+description: Šajā rakstā ir sniegta informācija par materiālu komplektu (MK) aprēķinu grupām un to iestatīšanu. Lai izpildītu MK aprēķinu, ir jāiestata aprēķinu grupas un tās jāpiešķir atsevišķiem krājumiem, vai jāiestata noklusējuma aprēķinu grupa. MK aprēķināšanas laikā aprēķinu iestatījumi no aprēķinu grupas tad tiek izmantoti kā noklusējuma vērtības lapā MK aprēķins.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362882"
 ---
-
 # <a name="bom-calculations-groups"></a>MK aprēķinu grupas
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ MK aprēķins ģenerē brīdinājuma ziņojumus. Varat skatīt brīdinājumus pa
 -   Identificēt, kad krājumam MK rindā ienesīguma procenti ir mazāki par vēlamajiem.
 
 Varat definēt vairākas MK aprēķinu grupas, atkarībā no tā, kāda brīdinājuma ziņojumu dažādība jums ir nepieciešama. Piemēram, vienai MK aprēķina grupai, kurai ir brīdinājuma nosacījumi par aktīvu MK un komponentu daudzums ir 0 (nulle), var pietikt ar komponentu izmaksu 0 (nulle). Kad sākat MK aprēķinu, varat ignorēt brīdinājuma nosacījumus, kas ir saistīti ar šo MK aprēķinu grupu. Brīdinājumu nosacījumus varat arī pievienot vai noņemt. Piemēram, ja pašreizējā situācijā nav iesaistīti maršrutēšanas dati, varat noņemt brīdinājuma nosacījumu par aktīvu maršrutu. **Piezīme.** Laiks un apmeklētība ietver lapu **Aprēķinu grupas**, bet šai lapai nav nekādas saistības ar MK aprēķinu grupām. Sadaļā Laiks un apmeklētība darbiniekus var piešķirt aprēķinu grupām, kas atspoguļo ar to pašu supervizoru vai vadītāju saistītu darbinieku grupēšanu. Darbinieku reģistrāciju aprēķinu supervizors vai vadītājs var izpildīt automātiski vai manuāli.
-
 
 
 

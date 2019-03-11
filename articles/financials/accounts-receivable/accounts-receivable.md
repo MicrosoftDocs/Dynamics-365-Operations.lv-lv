@@ -1,13 +1,13 @@
 ---
-title: "Moduļa “Debitoru parādi” sākumlapa"
-description: "Izmantojiet debitoru parādu moduli, lai izsekotu debitoru rēķinus un ienākošos maksājumus."
+title: Moduļa “Debitoru parādi” sākumlapa
+description: Izmantojiet moduli “Debitoru parādi”, lai izsekotu debitoru rēķinus un ienākošos maksājumus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302601"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Moduļa “Debitoru parādi” sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Izmantojiet debitoru parādu moduli, lai izsekotu debitoru rēķinus un ienākošos maksājumus. 
+Izmantojiet moduli “Debitoru parādi”, lai izsekotu debitoru rēķinus un ienākošos maksājumus. 
 
 Jūs varat izveidot debitoru rēķinus, kuru pamatā ir pārdošanas pasūtījumi vai pavadzīmes. Turklāt varat ievadīt brīvā teksta rēķinus, kas nav saistīti ar pārdošanas pasūtījumiem. Jūs varat saņemt maksājumus, izmantojot vairākus dažādus maksājuma veidus. Tie ietver vekseļus, skaidru naudu, čekus, kredītkartes un elektroniskos maksājumus. Ja jūsu organizācijā ietilpst vairākas juridiskās personas, varat izmantot centralizētos maksājumus, lai reģistrētu maksājumus vienā juridiskajā personā pārējo juridisko personu vārdā.
 
@@ -39,7 +38,7 @@ Jūs varat izveidot debitoru rēķinus, kuru pamatā ir pārdošanas pasūtījum
 
 [![Biznesa process](./media/AR-process.PNG)](./media/AR-process.PNG)
 
-## <a name="set-up-accounts-receivable"></a>Moduļa Debitori iestatīšana
+## <a name="set-up-accounts-receivable"></a>Moduļa “Debitoru parādi” iestatīšana
 
 Lai izsekotu debitoru rēķinus un maksājumus, ko saņemat no debitoriem, izmantojiet moduli Debitori. Varat iestatīt debitoru grupas, debitorus, grāmatošanas metodes, procentu paziņojumus, atgādinājuma vēstules, komisijas un ar debitoriem saistītos parametrus, maksas, piegādes un adresātus, kā arī vekseļus un citu veidu debitoru informāciju. 
 
@@ -49,16 +48,16 @@ Lai izsekotu debitoru rēķinus un maksājumus, ko saņemat no debitoriem, izman
         - [Debitoru grāmatošanas metodes](customer-posting-profiles.md)
         - [Kredītkartes iestatīšana, autorizēšana un nolasīšana](credit-card-authorizations.md)
         - [Debitora rēķina izveide](configure-customer-invoices.md)
-        - [Iestatīt un apstrādāt periodiskus rēķinus](set-up-process-recurring-invoices.md)
+        - [Periodisku rēķinu iestatīšana un apstrādāšana](set-up-process-recurring-invoices.md)
         - [Brīva teksta rēķina labošana](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
         - [Vekseļu iestatīšana](set-up-bills-exchange.md)
-        - [Procentu koda procentu likmes iestatīšana](set-up-interest-rates-interest-code.md)
+        - [Procentu likmju iestatīšana interešu kodam](set-up-interest-rates-interest-code.md)
         - [Procentu maksu atcelšana, atjaunošana vai anulēšana](waive-reinstate-reverse-interest-fees.md)
         - [SEPA tiešā debeta apskats](sepa-direct-debit-overview.md)
         - [SEPA tiešā debeta pilnvarojuma iestatīšana](sepa-direct-debit-mandate.md)
-        - [Debitoru moduļa slēgšana](close-accounts-receivable.md)
+        - [Moduļa “Debitoru parādi” slēgšana](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
 
@@ -67,7 +66,7 @@ Lai izsekotu debitoru rēķinus un maksājumus, ko saņemat no debitoriem, izman
 
 Debitoru iekasēšanas informācija tiek pārvaldīta vienā centrālā skatā — lapā Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
 
-[Kredīts un iekasēšana modulī Debitori](collections-credit-accounts-receivable.md)
+[Kredīts un iekasēšana modulī “Debitoru parādi”](collections-credit-accounts-receivable.md)
 
 [Moduļu Debitori un Kredīts un iekasēšana konfigurēšana](accounts-receivables-set-up-overview.md)
 
@@ -79,15 +78,15 @@ Pieņemiet dažādu veidu maksājumus no debitoriem, piemēram, vekseļus, skaid
 
 :::row:::
     :::column:::
-        - [Debitora maksājuma lietošana, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Centralizētie maksājumi modulim Debitoru parādi](centralized-payments-accounts-receivable.md)
+        - [Lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [Centralizētie maksājumi modulim “Debitoru parādi”](centralized-payments-accounts-receivable.md)
         - [Daļēja debitora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
         - [Daļēja debitora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
     :::column:::
         - [Nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām](settle-partial-customer-payment-discounts-credit-notes.md)
         - [Nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Debitoru atlīdzināšana](reimburse-customers.md)
+        - [Atlīdzināšana debitoriem](reimburse-customers.md)
         - [Debitoru maksājumi par daļēju summu](customer-payments-partial-amount.md)
     :::column-end:::
 :::row-end:::
@@ -97,13 +96,13 @@ Pieņemiet dažādu veidu maksājumus no debitoriem, piemēram, vekseļus, skaid
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz [Microsoft Dynamics 365 rīcības plānu](https://roadmap.dynamics.com/). 
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/). 
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli Debitori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Viedokļi, ziņas un cita informācija par moduli “Debitoru parādi” un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli Debitori. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Debitori versijai, joprojām ir spēkā tie paši jēdzieni, un procedūras pašreizējā versijā ir līdzīgas.
+[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli “Debitoru parādi”. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa “Debitoru parādi” versijai, joprojām ir spēkā tie paši jēdzieni. un procedūras pašreizējā versijā ir līdzīgas.
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
@@ -112,8 +111,7 @@ Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļ
 
 #### <a name="videos"></a>Videoklipi
 
-Skatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

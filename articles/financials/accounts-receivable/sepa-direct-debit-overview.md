@@ -1,13 +1,13 @@
 ---
-title: "SEPA tiešā debeta pārskats"
-description: "Vienoto eiro maksājumu zonu (SEPA) ir izveidojusi Eiropas Komisija un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona. Starp nacionālajiem un pārrobežu maksājumiem nav nekādas atšķirības. SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno. SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ). Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām."
+title: SEPA tiešā debeta pārskats
+description: Vienoto eiro maksājumu zonu (SEPA) ir izveidojusi Eiropas Komisija un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona. Starp nacionālajiem un pārrobežu maksājumiem nav nekādas atšķirības. SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno. SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ). Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359202"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>SEPA tiešā debeta pārskats
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ SEPA tiešā debeta elektronisko maksājumu failus varat ģenerēt šādos form�
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Kā veikt atmaksu un atgriešanu SEPA tiešā debeta transakcijām?
 Abās SEPA tiešā debeta shēmās debitoriem ir noteiktas tiesības uz atmaksu. Debitoram ir atļauts, nenorādot iemeslu, atsaukt jebkuras autorizētās transakcijas astoņu nedēļu laikā pēc izpildes termiņa. Neautorizētu transakciju gadījumā šis periods tiek pagarināts līdz 13 mēnešiem pēc izpildes termiņa. Jebkuru veikto maksājumu anulēšana ir jāveic manuāli, lapā Debitoru transakcijas izmantojot pogu Atcelt maksājumu.
-
 
 
 

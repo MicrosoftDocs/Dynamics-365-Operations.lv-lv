@@ -1,13 +1,13 @@
 ---
-title: "Mobilā darbvieta Mana grupa"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Mana grupa, kas vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus. Lietotāji var arī sūtīt uzslavas viņu pārskatu ķēdē ietvertajām personām."
+title: Mobilā darbvieta Mana grupa
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Mana grupa, kas vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus. Lietotāji var arī sūtīt uzslavas viņu pārskatu ķēdē ietvertajām personām.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346920"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Mobilā darbvieta Mana grupa
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Mana grupa**. Šī darbvieta vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus. Viņi var arī sūtīt uzslavas savā pārskatu ķēdē ietvertajām personām.
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
 
 ## <a name="overview"></a>Pārskats 
 Mobilā darbvieta **Mana grupa** vadītājiem sniedz iespējas veikt tālāk norādītos uzdevumus.
@@ -53,12 +52,12 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 <tbody>
 <tr class="odd">
 <td>Organizācijā ir jābūt izvietotam vienam no tālāk norādītajiem produktiem.
-<ul><li>Programma Microsoft Dynamics 365 for Finance and Operations</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
+<li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>Sistēmas administrators</td>
-<td>Ja organizācijā vēl nav izvietots risinājums Finance and Operations, skatiet tēmu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja organizācijā vēl nav izvietots risinājums Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
+<td>Ja jūsu organizācijā vēl nav izvietota programma Finance and Operations, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja jūsu organizācijā vēl nav izvietota programma Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
 </td>
 </tr>
 <tr class="even">
@@ -78,7 +77,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
@@ -99,4 +98,3 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 1.  Atlasiet vienumu **Sūtīt uzslavu**. 
 1. Ievadiet uzslavas tekstu, ko vēlaties nosūtīt. 
 1. Atlasiet **Gatavs**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Projekta resursu sadalījums"
-description: "Šajā tēmā ir sniegta informācija par projekta resursu sadalījumu."
+title: Projekta resursu sadalījums
+description: Šajā tēmā ir sniegta informācija par projekta resursu sadalījumu.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351658"
 ---
-
 # <a name="project-resourcing"></a>Projekta resursu sadalījums
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par projekta resursu sadalījumu.
 
-Viens no izaicinājumiem, ar ko projektu vadītāji un resursu pārvaldnieki saskaras projekta plānošanas posma laikā, ir resursu sadalījums, kura ietvaros viņiem ir jānosaka un jārezervē darbam projektā vajadzīgais resurss. Programmatūrā Microsoft Dynamics 365 for Finance and Operations projektu resursu sadalījuma iespējas sniedz iespēju definēt lomas, kas tiek uzskatītas kā pagaidu resursi, kurus var rezervēt noteiktai iesaistei vai iesaistes daļai. Šāds resursu sadalījuma veids ļauj projektu vadītājiem un resursu pārvaldniekiem veikt šādus uzdevumus:
+Viens no izaicinājumiem, ar ko projektu vadītāji un resursu pārvaldnieki saskaras projekta plānošanas posma laikā, ir resursu sadalījums, kura ietvaros viņiem ir jānosaka un jārezervē darbam projektā vajadzīgais resurss. Programmā Microsoft Dynamics 365 for Finance and Operations projektu resursu piešķiršanas iespējas sniedz iespēju definēt lomas, kas tiek uzskatītas par pagaidu resursiem, kurus var rezervēt noteiktai iesaistei vai iesaistes daļai. Šāds resursu sadalījuma veids ļauj projektu vadītājiem un resursu pārvaldniekiem veikt šādus uzdevumus:
 
 - Definēt lomu, kurai ir nepieciešamās kompetences, lai varētu vienkārši noteikt resursu atbilstību.
 - Izmantot lomas, lai definētu sākotnējo iesaistes grafiku, pamatojoties uz rezervētajiem resursiem.
@@ -351,4 +350,3 @@ Kad iepriekš norādītie uzdevumi ir izpildīti, pēc nepieciešamības varat i
 ## <a name="monitor-project-teams"></a>Projektu grupu pārraudzība
 1. Lapā **Visi projekti** atlasiet saiti **Projekta ID** projektam **XYZ jaunināšanas fāze 2**.
 2. Kopsavilkuma cilnē **Projekta grupa un plānošana** pārbaudiet, vai minētie projekta resursi ir pareizi.
-

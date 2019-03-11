@@ -1,13 +1,13 @@
 ---
-title: "Anketu rezultātu skatīšana un novērtēšana"
-description: "Šajā tēmā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus."
+title: Anketu rezultātu skatīšana un novērtēšana
+description: Šajā tēmā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305379"
 ---
-
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Anketu rezultātu skatīšana un novērtēšana
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/09/2018
 
 Kad respondenti ir izpildījuši anketu, anketas rezultātus varat skatīt un novērtēt vairākos veidos:
 
--   **Pabeigtās atbilžu sesijas** — skatiet detalizētu informāciju par anketām, ko respondenti ir aizpildījuši, un ģenerējiet atskaites, lai apkopotu atbildes un jebkādus iegūtos punktu.
+-   **Pabeigtās atbilžu sesijas** — skatiet detalizētu informāciju par anketām, ko respondenti ir aizpildījuši, un ģenerējiet atskaites, lai apkopotu atbildes un jebkādus iegūtos punktu.
 -   **Rezultātu grupas** — skatiet informāciju par anketu rezultātu grupām un statistiku. Rezultātu grupu statistiku var ģenerēt vienai anketas atbilžu sesijai vai visām atbilžu sesijām.
 -   **Anketu statistika** — norādiet kritērijus, lai aprēķinātu statistiku attiecībā uz noteiktu respondentu grupu.
 
@@ -54,9 +53,9 @@ Kad respondenti ir aizpildījuši kādu anketu, varat skatīt aizpildīto atbil�
 
 Lapā **Atbildes** varat skatīt detalizētu informāciju par atbildēm, iegūto punktu skaitu, respondenta atbildēm katrā rezultātu grupā, kā arī jautājumu hierarhiju, kas tika izmantota atlasītajā anketā, ja tika izmantota jautājumu hierarhija. Var arī ģenerēt un drukāt šādas atskaites:
 
--   **Rezultātu atskaite** — šajā atskaitē tiek rādīts grafisks attēlojums par nopelnīto punktu skaitu katrai rezultātu grupai atlasītajai atbilžu sesijai.
+-   **Rezultātu atskaite** — šajā atskaitē tiek rādīts grafisks attēlojums par nopelnīto punktu skaitu katrai rezultātu grupai atlasītajai atbilžu sesijai.
 -   **Atbilžu atskaite** — šajā atskaitē tiek rādītas atbildes, ko respondents atlasīja katram anketas jautājumam.
--   **Nepareizās atbildes** — šajā atskaitē tiek rādīta informācija, kas ir saistīta ar respondenta atlasītajām nepareizajām atbildēm.
+-   **Nepareizās atbildes** — šajā atskaitē tiek rādīta informācija, kas ir saistīta ar respondenta atlasītajām nepareizajām atbildēm.
 
 **Piezīme.** Atskaite **Rezultāti** ir pieejama tikai tad, ja anketai lietojat rezultātu grupas un ja lapā **Anketas** atlasījāt vienumu **Rezultātu lapa**. Atskaite **Atbilde** un atskaite **Nepareizās atbildes** ir pieejamas tikai tad, ja lapā **Anketas** atlasījāt vienumu **Atbilžu atskaite**.
 
@@ -81,5 +80,4 @@ Jūsu definētie iestatījumi tiek saglabāti, un tos var izmantot periodiskai r
 [Anketu lietošana](questionnaires.md)
 
 [Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
-
 

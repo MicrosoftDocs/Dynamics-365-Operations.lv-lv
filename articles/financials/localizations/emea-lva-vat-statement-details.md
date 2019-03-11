@@ -1,13 +1,13 @@
 ---
-title: "PVN deklarācijas informācija Latvijai"
-description: "Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā."
+title: PVN deklarācijas informācija Latvijai
+description: Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 4df1a7f706f243bc7ebce2eb90ac1d835039416b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7c0f7f32324b68db8430dc37fbd80c57a0eb3920
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371260"
 ---
-
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
 [!include [banner](../includes/banner.md)]
@@ -68,7 +67,6 @@ Lai pārskatītu vai mainītu PVN deklarācijas konfigurāciju, lapas **Pārskat
 
 ## <a name="generate-a-vat-statement"></a>Ģenerēt VAT deklarāciju
 Lai ģenerētu PVN XML failu, lapā **PVN maksājumi** atlasiet vienu vai vairākus dokumentus un pēc tam noklikšķiniet uz **Eksportēt PVN XML failu**.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Finanšu gada slēgšana"
-description: "Šajā procedūrā tiek aprakstīts gada beigu slēgšanas process, kas pārsūta bilances uz jaunu finanšu gadu."
+---
+title: Finanšu gada slēgšana
+description: Šajā procedūrā tiek aprakstīts gada beigu slēgšanas process, kas pārsūta bilances uz jaunu finanšu gadu.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 628b084dbcc85c3f7c08f209bdb325a110554ad9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4f2f1f1206f3cb3534ef93923d4945bb63814514
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367919"
 ---
 # <a name="close-the-fiscal-year"></a>Finanšu gada slēgšana
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 23. Gada beigu slēgšanas noklusējumi, kas jāpalaiž paketē.
     * Tas ir vislabākais veids kā ilgstošus procesus palaist pakešveida režīmā. Tas parasti ir viens no šiem procesiem, tāpēc pēc noklusējuma nepieciešams izmantot pakešveida režīmu.  
 24. Noklikšķiniet uz OK.
-
 

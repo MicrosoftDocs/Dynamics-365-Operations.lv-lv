@@ -1,13 +1,13 @@
 ---
-title: "Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations"
-description: "Šajā tēmā ir sniegts apskats par preču un noliktavas pārvaldības migrēšanas opcijām."
+title: Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
+description: Šajā tēmā ir sniegts apskats par preču un noliktavas pārvaldības migrēšanas opcijām.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324472"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par jaunināšanas procedūru, jauninot no Microsoft Dynamics AX 2012 R3, kur darbojas modulis WMSII, uz Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir sniegts apskats par jaunināšanas procedūru, jauninot no Microsoft Dynamics AX 2012 R3, kur darbojas modulis WMSII, uz Microsoft Dynamics 365 for Finance and Operations.
 
-Finance and Operations vairs neatbalsta Microsoft Dynamics AX 2012 moduli **WMSII**. Tā vietā varat izmantot moduli **Noliktavas pārvaldība**. Modulī WMSII finanšu krājumam varēja atlasīt krājumu dimensiju Novietojums un Paletes ID, taču programmatūrā Finance and Operations krājumu dimensiju Paletes ID nevar izmantot finanšu krājumam.
+Finance and Operations vairs neatbalsta Microsoft Dynamics AX 2012 mantoto moduli **WMSII**. Tā vietā varat izmantot moduli **Noliktavas pārvaldība**. Modulī WMSII finanšu krājumam varēja atlasīt krājumu dimensiju Novietojums un Paletes ID, taču programmatūrā Finance and Operations krājumu dimensiju Paletes ID nevar izmantot finanšu krājumam.
 
 Jaunināšanas laikā visas preces, kas ir saistītas ar noliktavas dimensiju grupu, kurā tiek izmantota krājumu dimensija Paletes ID, tiek identificētas, atzīmētas kā bloķētas un netiek apstrādātas jaunināšanai.
 
@@ -81,7 +80,6 @@ Pirms izlaisto preču lietošanas modulī **Noliktavas pārvaldība** precēm ir
 3.  Lapā **Rezervāciju hierarhija** definējiet jaunu rezervāciju hierarhiju saskaņā ar krājuma noliktavas un izsekošanas dimensiju grupām.
 4.  Izveidojiet vienu vai vairākas vienību secību grupas, kas ietver vismaz tās pašas vienības, kas tiek izmantotas krājumu uzskaites vienībām.
 5.  Noklikšķiniet uz **Noliktavas pārvaldība** &gt; **Iestatīšana** &gt; **Iespējot noliktavas pārvaldības procesus** &gt; **Mainīt noliktavas dimensiju grupu krājumiem**.
-6.  Lapā **Mainīt noliktavas dimensiju grupu krājumiem** pievienojiet krājumu kodus, noliktavas dimensiju grupas un vienību secību grupas. Šo darbību var veikt tieši lapā, izmantojot Microsoft Office integrāciju, vai izmantojot datu elementa apstrādi sadaļā [Datu pārvaldība](../../dev-itpro/data-entities/data-entities.md).
+6.  Lapā **Mainīt noliktavas dimensiju grupu krājumiem** pievienojiet krājumu kodus, noliktavas dimensiju grupas un vienību secību grupas. Šo darbību var veikt tieši lapā, izmantojot Microsoft Office integrāciju vai izmantojot datu elementa apstrādi sadaļā [Datu pārvaldība](../../dev-itpro/data-entities/data-entities.md).
 7.  Pārbaudiet izmaiņas. Kā daļa no pārbaudes procesa notiek dažādas datu integritātes pārbaudes. Lielāka jaunināšanas procesa ietvaros, iespējams, avota ieviešanā ir jākoriģē radušās problēmas. Šajā gadījumā būs nepieciešama papildu datu jaunināšana.
 8.  Apstrādājiet izmaiņas. Visu krājumu dimensiju atjaunināšana var ilgt kādu laiku. Varat pārraudzīt norisi, izmantojot pakešuzdevumus.
-

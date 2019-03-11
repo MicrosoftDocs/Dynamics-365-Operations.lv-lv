@@ -1,13 +1,13 @@
 ---
-title: "Klastera izdošanas iestatīšana"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt klastera izdošanu un kā piemērot krājumu apstiprinājumu ar klastera izdošanu."
+title: Klastera izdošanas iestatīšana
+description: Šajā tēmā ir aprakstīts, kā iestatīt klastera izdošanu un kā piemērot krājumu apstiprinājumu ar klastera izdošanu.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364101"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/11/2018
 
 Kad darba pasūtījumi ir nodoti nosūtīšanai uz noliktavu, darbinieks var izmantot mobilo ierīci, lai pasūtījumus piešķirtu klasterim. Klasterī darbiniekam tiks organizēts izdošanas darbs. Kad darba pasūtījums ir piešķirts klasterim, darbiniekam jāizmanto klastera izdošana, lai izpildītu pasūtījuma izdošanas darbu. Darbinieks nevar izmantot citas izdošanas metodes. Ja darba pasūtījums tiek piešķirts klasterim kļūdas dēļ, darbiniekam klasteris ir jāsadala un pēc tam tas no jauna jāizveido.
 
-Ja nepieciešams, darbinieks var nodot klasteri citam darbiniekam. Tādējādi klastera statuss tiek mainīts uz Nodots. Kad darbinieks izmanto mobilo ierīci, lai norādītu, ka izdošanas un izvietošanas darbs ir pabeigts, sūtījums vai krava ir jāapstiprina Dynamics 365 for Finance and Operations klientā.
+Ja nepieciešams, darbinieks var nodot klasteri citam darbiniekam. Tādējādi klastera statuss tiek mainīts uz Nodots. Kad nodarbinātais izmanto mobilo ierīci, lai norādītu, ka izdošanas un izvietošanas darbs ir pabeigts, sūtījums vai krava ir jāapstiprina Dynamics 365 for Finance and Operations klientā.
 
 ## <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
 
@@ -81,4 +80,3 @@ Ja tiek lietota klasteru izdošana, ir svarīgi veikt krājumu apstiprināšanu,
 1.  Mobilās ierīces izvēlnes vienumā atveriet iestatīšanas formu darba apstiprināšanai: **Noliktavas vadība** \> **Noliktavas vadība** \> **Iestatīšana** \> **Mobilā ierīce** \> **Mobilās ierīces izvēlnes vienumi**.
 
 2.  Mobilās ierīces izvēlnes vienumā atveriet sadaļu **Darba apstiprinājuma iestatīšana**. Opcija **Preces apstiprināšana** jums ļauj skenēšanas laikā mobilajā ierīcē pārbaudīt katru krājumu vienību.
-

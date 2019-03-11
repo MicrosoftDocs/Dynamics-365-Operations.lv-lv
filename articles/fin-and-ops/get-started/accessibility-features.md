@@ -1,33 +1,32 @@
 ---
-title: "Pieejamības līdzekļi"
-description: "Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām izmantot programmas Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent."
+title: Pieejamības līdzekļi
+description: Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām izmantot Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363411"
 ---
-
 # <a name="accessibility-features"></a>Pieejamības līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām izmantot programmas Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktors.
+Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām izmantot Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktoru.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows diktors un piekļuve tikai ar tastatūru
 
@@ -97,4 +96,3 @@ Produkti ir izstrādāti tā, lai tie darbotos dažādās ierīcēs un ar dažā
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Norādījumi par to, kā palīdzēt izstrādātājiem un klientiem savos pielāgojumos iekļaut pieejamu domāšanu
 
 Papildinformāciju par Microsoft labākajām praksēm attiecībā uz pieejamības iespējošanu skatiet šeit: [Pieejamība formās, produktos un vadīklās](../../dev-itpro/user-interface/enable-accessibility.md).
-

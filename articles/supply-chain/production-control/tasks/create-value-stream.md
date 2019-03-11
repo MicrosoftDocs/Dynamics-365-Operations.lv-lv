@@ -1,13 +1,13 @@
---- 
-title: "Vērtību plūsmas izveide"
-description: "Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā vai vairākās ražošanas plūsmās."
+---
+title: Vērtību plūsmas izveide
+description: Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā vai vairākās ražošanas plūsmās.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1d684e4e87b806035b1ec09c642ad0b07248fed2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59fa33dbbf2b5e0d5fd2f7975c1ace71cdd383bd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350278"
 ---
 # <a name="create-a-value-stream"></a>Vērtību plūsmas izveide
 
@@ -48,5 +48,4 @@ Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā v
 1. Noklikšķiniet uz Saglabāt.
 2. Aizvērt lapu.
 3. Atsvaidziniet lapu.
-
 

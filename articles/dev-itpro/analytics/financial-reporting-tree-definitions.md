@@ -1,13 +1,13 @@
 ---
-title: "Atskaišu koka definīcijas finanšu atskaitēs"
-description: "Šajā rakstā ir sniegta informācija par atskaišu koku definīcijām. Atkaišu koka definīcija ir atskaites komponents jeb veidošanas bloks, kas palīdz definēt jūsu organizācijas struktūru un hierarhiju."
+title: Atskaišu koka definīcijas finanšu atskaitēs
+description: Šajā rakstā ir sniegta informācija par atskaišu koku definīcijām. Atkaišu koka definīcija ir atskaites komponents jeb veidošanas bloks, kas palīdz definēt jūsu organizācijas struktūru un hierarhiju.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316951"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Atskaišu koka definīcijas finanšu atskaitēs
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ Atskaišu koka definīcija satur kolonnas, kas ir aprakstītas nākamajā tabul�
 
 | Pārskata koka kolonna | Apraksts |
 |-----------------------|-------------|
-| Uzņēmums               | Pārskata vienības uzņēmuma nosaukums. Vērtība **@ANY**, kas parasti tiek piešķirta tikai kopsavilkuma līmenim, sniedz iespēju pārskatu koku izmantot visiem uzņēmumiem. Visiem bērnelementu zariem ir piešķirts attiecīgs uzņēmums. |
+| Uzņēmums               | Pārskatu vienībā norādāmais uzņēmuma nosaukums. Izmantojot vērtību **@ANY**, kas parasti tiek piešķirta tikai kopsavilkuma līmenī, varat lietot pārskatu koku visos uzņēmumos. Visiem bērnelementu zariem ir piešķirts attiecīgs uzņēmums. |
 | Vienības nosaukums             | Kods, kas identificē šo pārskata vienību grafiskajā pārskatu kokā. Noteikti izveidojiet unikālu kodēšanas sistēmu, kas darbojas konsekventi un ko lietotājiem ir viegli saprast. |
 | Vienības apraksts      | Pārskata vienības nosaukums tiek parādīts atskaites galvenē vai kājenē, ja ievadāt **UnitDesc** kā kodu, cilnē **Galvenes un kājenes** pārskata definīcijā. Nosaukums parādās pārskata rindas aprakstā, ja ievadāt **UnitDesc**, šūnā **Apraksts** rindas definīcijā. |
 | Dimensijas            | Pārskata vienība, kas informāciju saņem tieši no finanšu datiem. Tā definē loģisko pozicionēšanu, kā arī konta un saistīto segmentu garumus. Katrai atskaites vienības rindai šajā kolonnā ir nepieciešama dimensija. Varat arī ievietot dimensiju kopsavilkuma vienības rindā (piemēram, izdevumiem, kas ir tieši saistīti ar šo vienību). Ja ievadāt dimensiju kopsavilkuma vienības rindā, tad kontus, kas tiek izmantoti pamata vienībās, nevajadzētu izmantot apakšvienībās. Pretējā gadījumā summas varētu dublēties. |
@@ -87,7 +86,7 @@ Lai izveidotu atskaišu koka definīciju, izpildiet šādas darbības.
     1. Šīs dimensijas laukā **No dimensijas**, ievadiet pirmo vērtību tās diapazonā.
     2. Laukā **Līdz dimensijai** ievadiet pēdējo vērtību tās diapazonā.
 
-9. Atkārtojiet 7. un 8. darbību katrai dimensijai apgabalā **Segmentu hierarhija un diapazoni**.
+9. Atkārtojiet 7. un 8. darbību katrai dimensijai apgabalā **Segmentu hierarhija un diapazoni**.
 10. Kad esat pabeidzis definēt veidu, kā jūsu atskaites vienības ir jāievieš jaunajā atskaišu kokā, noklikšķiniet uz **Labi**.
 11. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu pārskatu koku. Ievadiet unikālu nosaukumu un pārskata koka aprakstu, un pēc tam noklikšķiniet uz **Labi**.
 
@@ -107,7 +106,7 @@ Kad izmantojot atskaišu koku, summas no atskaites apakšvienībām varat apkopo
     > Ja norādāt dimensijas gan apakšvienībām, gan pamata vienībām, varat izraisīt datu dublēšanos šajā atskaitē.
 
 - Pārskata vienības, kas satur dimensijas pārskata kokā, atbilst dimensijām, kas tiek izmantotas rindu un kolonnu definīcijās. Dimensiju kombinācija nosaka šai vienībai atgrieztās summas. Piemēram, tālāk šajā rakstā sniegtajā 2. piemērā 6. un 7. rinda attiecīgi atgriež vērtības tikai nodaļām 00 un 01.
-- Summas pamata atskaites vienībām, kas atskaišu kokā nesatur dimensijas, tiek noteiktas no apakšvienību atskaites un apkopo summu uz norādīto pamatvienību. Piemēram, ja pamatvienībai (sk. Contoso USA datu apkopošanas piemēru 2. piemērā) ir divas apakšvienībās (022 un 023), un tā nesatur dimensijas, tad atskaite tiek ģenerēta katrai apakšvienībai un pamata vienībai. Pamata kopsumma sastāv no divām apakš-summām.
+- Summas pamata atskaites vienībām, kas atskaišu kokā nesatur dimensijas, tiek noteiktas no apakšvienību atskaites un apkopo summu uz norādīto pamatvienību. Piemēram, ja pamatvienībai (sk. Contoso USA datu apkopošanas piemēru 2. piemērā) ir divas apakšvienībās (022 un 023), un tā nesatur dimensijas, tad atskaite tiek ģenerēta katrai apakšvienībai un pamata vienībai. Pamata kopsumma sastāv no divām apakš-summām.
 
 ### <a name="manage-reporting-units"></a>Pārvaldīt pārskata vienības
 
@@ -166,9 +165,9 @@ Jūs varat neļaut noteiktiem lietotājiem un grupām piekļūt pārskata vienī
 3. Dialoglodziņā **Vienības drošība** atlasiet nosaukumu un pēc tam noklikšķiniet uz **Noņemt**.
 4. Noklikšķiniet uz **OK**.
 
-### <a name="link-to-reports"></a>Izveidot saiti uz atskaitēm
+### <a name="link-toreports"></a>Izveidot saiti uz atskaitēm
 
-Kad rindas definīcijā esat izveidojis kolonnu **Atskaite** un esat norādījis atskaiti, kuru iekļaut šajā atskaitē, atskaišu koks ir jāatjaunina ar saistīto kolonnu un informāciju par šo atskaiti. Atskaiti var importēt jebkurā atskaišu koka vienībā.
+Kad rindas definīcijā esat izveidojis **pārskata** kolonnu un esat norādījis pārskatu, kuru iekļaut šajā pārskatā, ir jāatjaunina atskaišu koks, izmantojot saistīto kolonnu un informāciju par pārskatu. Atskaiti var importēt jebkurā atskaišu koka vienībā.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificēt atskaiti atskaišu kokā
 
@@ -222,4 +221,3 @@ Nākamajos piemēros ir parādīta iespējamā informācija, kas tiek izmantota 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-

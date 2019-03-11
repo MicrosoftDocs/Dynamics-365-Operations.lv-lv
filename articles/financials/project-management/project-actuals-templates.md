@@ -1,13 +1,13 @@
 ---
-title: "Programmā Project Service Automation ietverto projekta faktisko vērtību tieša sinhronizēšana ar projekta integrācijas žurnālu grāmatošanai programmā Finance and Operations"
-description: "Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Project Service Automation ietverto projekta faktisko vērtību tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations."
+title: Programmā Project Service Automation ietverto projekta faktisko vērtību tieša sinhronizēšana ar projekta integrācijas žurnālu grāmatošanai programmā Finance and Operations
+description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Project Service Automation ietverto projekta faktisko summu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343355"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Programmā Project Service Automation ietverto projekta faktisko vērtību tieša sinhronizēšana ar projekta integrācijas žurnālu grāmatošanai programmā Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Project Service Automation ietverto projekta faktisko vērtību tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Project Service Automation ietverto projekta faktisko summu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
 
 Veidne sinhronizē programmā Project Service Automation ietvertās transakcijas ar izstādīšanas tabulu programmā Finance and Operations. Kad sinhronizācija ir pabeigta, jums ir **jāimportē** dati no izstādīšanas tabulas uz integrācijas žurnālu.
 
 > [!NOTE]
-> - Projekta faktisko vērtību integrācija ir pieejama Microsoft Dynamics 365 for Finance and Operations versijā 8.0.1 vai jaunākā versijā.
-> - Ja izmantojat programmu Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, pēc KB 4132657 un KB 4132660 instalēšanas varēsit izmantot veidnes, lai integrētu projekta uzdevumus, izdevumu transakciju kategorijas, stundu novērtējumus, izdevumu novērtējumus un faktiskās vērtības, kā arī konfigurēt funkcionalitātes bloķēšanu. Ja ir nepieciešams atiestatīt uzskaites sadali, ieteicams arī instalēt KB 4131710.
+> - Projekta faktisko vērtību integrācija ir pieejama Microsoft Dynamics 365 for Finance and Operations versijā 8.0.1 vai jaunākās versijās.
+> - Ja lietojat Microsoft Dynamics 365 for Finance and Operations Enterprise Edition versiju 7.3.0, pēc KB 4132657 un KB 4132660 instalēšanas varat izmantot veidnes, lai integrētu projekta uzdevumus, izdevumu transakciju kategorijas, stundu novērtējumus, izdevumu novērtējumus un faktiskās vērtības, kā arī konfigurēt funkcionalitātes bloķēšanu. Ja ir nepieciešams atiestatīt uzskaites sadali, ieteicams arī instalēt KB 4131710.
 > - Ja izmantojat Finance and Operations versiju 7.3.0 un pārceļat maksu transakcijas no programmas Project Service Automation, ir jāinstalē KB 4345320, lai šīs maksas ietvertu projekta rēķinā.
 > - Ja ievadāt PVN summas laika vai izdevumu transakcijās programmā Project Service Automation, ir jāinstalē Project Service Automation 7. atjauninājums. Pretējā gadījumā nodokļu faktiskās vērtības netiks saistītas ar attiecīgajām laika vai izdevumu faktiskajām vērtībām un netiks sinhronizētas ar programmu Finance and Operations. Lai iegūtu papildinformāciju, sazinieties ar atbalsta dienestu.
 
@@ -140,4 +140,3 @@ Tālāk esošajos attēlos ir redzami piemēri veidnes uzdevuma kartēšanai lī
 [![Veidnes kartēšana](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Veidnes kartēšana](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

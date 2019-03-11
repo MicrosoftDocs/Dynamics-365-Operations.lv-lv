@@ -1,34 +1,34 @@
 ---
-title: "Lokālo izvietojumu sākumlapa"
-description: "Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem."
+title: Lokālo izvietojumu sākumlapa
+description: Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373281"
 ---
 # <a name="on-premises-deployments-home-page"></a>Lokālo izvietojumu sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Izvērsiet programmu Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
+Varat izvietot programmu Microsoft Dynamics 365 for Finance and Operations (lokālo versiju). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
 
 ## <a name="get-started"></a>Sākt darbu
 - [Lokālas izvietošanas opcija](on-premises-overview.md)
@@ -59,16 +59,16 @@ Izvērsiet programmu Microsoft Dynamics 365 for Finance and Operations (lokāla
 ## <a name="retail"></a>Retail
 - [Retail iespējas, kas ir pieejamas lokālos izvietojumos](../../retail/retail-onprem.md)
 - [Retail kanāla komponentu instalēšanas darbības lokālā vidē](deploy-retail-onprem.md)
-- [Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../retail/retail-modern-pos-device-activation.md)
+- [ Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../retail/retail-modern-pos-device-activation.md)
 - [Retail Store Scale Unit konfigurēšana un instalēšana](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Jaunināt
+- [Jaunināšanas uz vietas process lokālām vidēm](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Citi resursi
-- [Lokālo izvietojumu problēmu novēršana](troubleshoot-on-prem.md)
+- [Lokālu izvietojumu problēmu novēršana](troubleshoot-on-prem.md)
 - [Lokālā diagnostika](on-premises-diagnostics.md)
 - [Līdzekļi, kas nav ieviesti lokālos izvietojumos](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Noņemtie vai novecojušie līdzekļi](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un lokāli laidieni](../migration-upgrade/on-prem-version-update-policy.md)
  
-

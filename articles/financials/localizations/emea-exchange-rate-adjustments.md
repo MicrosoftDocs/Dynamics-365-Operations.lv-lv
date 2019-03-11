@@ -1,13 +1,13 @@
 ---
-title: "Maiņas kursa korekcijas"
-description: "Šajā tēmā ir sniegta informācija par maiņas kursa korekciju juridiskām personām Igaunijā, Ungārijā, Čehijas Republikā, Latvijā, Lietuvā, Polijā un Krievijā."
+title: Maiņas kursa korekcijas
+description: Šajā tēmā ir sniegta informācija par maiņas kursa korekciju juridiskām personām Igaunijā, Ungārijā, Čehijas Republikā, Latvijā, Lietuvā, Polijā un Krievijā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: eece22113824fd520568dc46bbd384bda23c3c8d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc715a23e14d96e0ac93e47ff793e49fad24b93
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371336"
 ---
-
 # <a name="exchange-rate-adjustments"></a>Maiņas kursa korekcijas
 
 [!include [banner](../includes/banner.md)]
@@ -95,7 +94,6 @@ Saistībā ar šo pārvērtēšanu ievērojiet, ka 2013. gada 1. janvāra iera
 |3-Jan-13 | Kredītkarte | 0 CAD/5000 USD | Nerealizētā valūtas korekcijas peļņa | Ārvalstu valūtas pārvērtēšana | Peļņa no maiņas kursa | X |   |
 
 Sistēmas darbība ir vienāda neatkarīgi no tā, vai lapas **Virsgrāmatas parametri** sadaļas **Darbības anulēšana** opcija **Labojums** ir iestatīta uz **Jā** vai **Nē**.
-
 
 
 

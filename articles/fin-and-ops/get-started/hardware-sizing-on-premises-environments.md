@@ -1,30 +1,29 @@
 ---
-title: "Aparatūras lieluma maiņas prasības lokālām vidēm"
-description: "Šajā tēmā uzskaitītas aparatūras lieluma maiņas prasības lokālai videi."
+title: Aparatūras lieluma maiņas prasības lokālām vidēm
+description: Šajā tēmā uzskaitītas aparatūras lieluma maiņas prasības lokālai videi.
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340733"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,7 @@ Instanču skaita plānošanai izvietojumā ir pieejama [lieluma maiņas izklājl
     - 1–4 partijas pavedieni katram kodolam
     - Lielums atbilstoši pakešizpildes loga raksturlielumiem
 
-- Ņemiet vērā, ka AOS, datu pārvaldībai un partijai platformā Service Fabric ir viena loma. Lielums jāmaina šīm trīs darba slodzēm apvienotām, nevis atsevišķām kā programmā Microsoft Dynamics AX 2012.
+- Ņemiet vērā, ka AOS, datu pārvaldībai un partijai platformā Service Fabric ir viena loma. Ir jāmaina lielums atbilstoši šīm trīs darba slodzēm kopā, nevis atsevišķi kā programmā Microsoft Dynamics AX 2012.
 - Ir spēkā tie paši SQL Server mainīguma faktori.
 
 ### <a name="high-availability"></a>Augsta pieejamība
@@ -143,4 +142,3 @@ Vadības moduļa pakalpojums ir pakalpojums, kas pārvalda jūsu izvietojumu un 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizācija un pārabonēšana
 
 Tādi uzdevumam būtiski pakalpojumi kā AOS ir jāvieso virtuālajās mašīnās ar specializētiem resursiem — kodoliem, atmiņu un disku.
-

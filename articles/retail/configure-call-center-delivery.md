@@ -1,13 +1,13 @@
 ---
-title: "Zvanu centra piegādes veidu un maksu konfigurēšana"
-description: "Šajā tēmā ir aprakstīts, kā iestatīt piegādes veidus un maksas par zvanu centra pasūtījumu programmā Microsoft Dynamics 365 for Retail."
+title: Zvanu centra piegādes veidu un maksu konfigurēšana
+description: Šajā tēmā ir aprakstīts, kā iestatīt zvanu centrā veikta pasūtījuma piegādes veidus un maksas programmā Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,19 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328428"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Kad programmā Microsoft Dynamics 365 for Retail tiek veikts pārdošanas pasūtījums, ja persona, kas šo pārdošanas pasūtījumu ievadīja, ir saistīta ar kādu zvanu centra kanālu, tiek izmantota loģika un kārtulas, lai validētu piegādes veidu un aprēķinātu maksas par šo pasūtījumu.
+Kad programmā Microsoft Dynamics 365 for Retail tiek veikts pārdošanas pasūtījums, ja persona, kas ir ievadījusi šo pārdošanas pasūtījumu, ir saistīta ar zvanu centra kanālu, tiek izmantota loģika un kārtulas, lai validētu šī pasūtījuma piegādes veidu un aprēķinātu maksas par to.
 
 Kad veidojat pārdošanas pasūtījumu, piegādes veidu varat atlasīt pārdošanas pasūtījuma virsrakstā un pārdošanas pasūtījuma rindās. Virsrakstā atlasītais piegādes veids pēc noklusējuma tiek izmantots visām pārdošanas pasūtījuma rindām. Taču atsevišķās pārdošanas rindās šo noklusējuma piegādes veidu varat ignorēt, ja nepieciešams. Piegādes veidu varat definēt arī debitora ierakstā. Pēc tam šis piegādes veids pēc noklusējuma tiek izmantots pārdošanas pasūtījuma virsrakstā, kad šim debitoram tiek veidoti pasūtījumi.
 
@@ -96,4 +95,3 @@ Jebkuram jūsu konfigurētajam piegādes veidam pēc izvēles varat piesaistīt 
 Piemēram, pasūtījumiem, kas nākamajā dienā tiks nosūtīti pa gaisu, izdošana noliktavā katru dienu ir jāpaveic līdz 13.00. Tādā gadījumā var izveidot paātrinātās izpildes kodu, un šo kodu var saistīt ar visiem nākamās dienas piegādes veidiem, kas sistēmā ir konfigurēti. Kad noliktava izveido savu izdošanas kopumu, kā filtru var izmantot atbilstošo paātrinātas izpildes kodu laukā **Paātrināt izpildi**, lai izdošana tiktu palaista tikai pasūtījumiem, kuru piegādes veidi ir saistīti ar šo kodu.
 
 Turklāt, kad tiek izveidots zvanu centra pasūtījums, paātrinātās izpildes kodu var manuāli lietot pārdošanas pasūtījuma virsrakstam vai atsevišķai pārdošanas pasūtījuma rindai. Un atkal šo kodu var izmantot kārtošanai vai pārskatu veidošanai. Reizēm pasūtījums ir jāapstrādā uzmanīgi, jo ir radusies klientu apkalpošanas problēma. Tādā gadījumā pasūtījuma virsrakstam vai rindām var lietot noteiktu paātrinātās izpildes kodu, lai palīdzētu identificēt šo pasūtījumu un piešķirt tam prioritāti izpildes procesa laikā.
-

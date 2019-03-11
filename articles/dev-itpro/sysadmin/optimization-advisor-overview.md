@@ -1,37 +1,36 @@
 ---
-title: "Optimizācijas padomnieks"
-description: "Šajā tēmā ir aprakstīts, kā jūs varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Microsoft Dynamics 365 for Finance and Operations konfigurāciju."
+title: Optimizācijas padomnieks
+description: Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Microsoft Dynamics 365 Finance and Operations konfigurāciju.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335627"
 ---
-
 # <a name="optimization-advisor"></a>Optimizācijas padomnieks
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā jūs varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Microsoft Dynamics 365 for Finance and Operations konfigurāciju.
+Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Microsoft Dynamics 365 Finance and Operations konfigurāciju.
 
 ## <a name="overview"></a>Pārskats
 
@@ -39,7 +38,7 @@ Nepareiza moduļa konfigurācija iestatījumi var negatīvi ietekmēt līdzekļu
 
 Darbvieta **Optimizācijas padomnieks** ir rīks, kas ļauj prasmīgiem lietotājiem, biznesa analītiķiem, funkcionālajiem konsultantiem un IT atbalsta dienesta funkcijām identificēt moduļa konfigurācijas un biznesa datu problēmas. Optimizācijas padomnieks piedāvā labākās moduļa konfigurēšanas prakses un identificē novecojušus vai nepareizus biznesa datus.
 
-Optimizācijas padomnieks periodiski izpilda labākās prakses kārtulu kopu. Noklusējuma kārtulu kopa tiks izdota kopā ar Microsoft Dynamics 365 for Finance and Operations versiju 8.0 (2018. gada aprīlī). Tomēr lietotāji var arī izveidot kārtulas, kas ir īpaši paredzētas lietotāju pielāgojumiem, neatkarīgu programmatūras izstrādātāju (ISV) risinājumiem un biznesa datiem. Papildinformāciju par kārtulu veidošanu skatiet sadaļā [Jaunu kārtulu izveide](./create-rules-optimization-advisor.md).
+Optimizācijas padomnieks periodiski izpilda labākās prakses kārtulu kopu. Kopā ar Microsoft Dynamics 365 for Finance and Operations versiju 8.0 (2018. gada aprīlis) ir izlaista noklusējuma kārtulu kopa. Tomēr lietotāji var arī izveidot kārtulas, kas ir īpaši paredzētas lietotāju pielāgojumiem, neatkarīgu programmatūras izstrādātāju (ISV) risinājumiem un biznesa datiem. Papildinformāciju par kārtulu veidošanu skatiet sadaļā [Jaunu kārtulu izveide](./create-rules-optimization-advisor.md).
 
 Ja tiek noteikts kārtulas pārkāpums, tiek ģenerēta optimizācijas iespēja, kas parādās darbvietā **Optimizācijas padomnieks**. Lietotājs var veikt atbilstošos labojumus tieši darbvietā **Optimizācijas padomnieks**.
 
@@ -49,7 +48,7 @@ Uz optimizācijas iespējām attiecas standarta drošības politikas. Piemēram,
 
 Kad jūs izmantojat kādu no optimizācijas iespējām, sistēma aprēķina iespējas ietekmi uz biznesa procesu izpildlaika samazināšanos. Diemžēl, šis līdzeklis nav pieejams visām optimizācijas iespējām.
 
-Lai uzzinātu vairāk par optimizācijas padomnieku, noskatieties īso video [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Lai uzzinātu vairāk par optimizācijas padomnieku, noskatieties īso video [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Optimizācijas kārtulas
 
@@ -95,5 +94,4 @@ Lai deaktivizētu noteiktu kārtulu novērtēšanu, atlasiet kārtulas ģenerēt
 
 [Jaunu kārtulu izveide](./create-rules-optimization-advisor.md)
 
-[Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

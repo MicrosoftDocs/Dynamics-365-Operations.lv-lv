@@ -1,14 +1,14 @@
 ---
-title: "Inteliģentie ieteikumi"
-description: "Šajā tēmā ir paskaidrots, kā var izmantot algoritmisko mācīšanos, lai sniegtu ieteikumus darbiem un darba kandidātiem."
+title: Inteliģentie ieteikumi
+description: Šajā tēmā ir paskaidrots, kā var izmantot algoritmisko mācīšanos, lai sniegtu ieteikumus darbiem un darba kandidātiem.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305323"
 ---
-
 # <a name="intelligent-recommendations"></a>Inteliģentie ieteikumi
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Ikvienam ieteiktajam kandidātam kandidāta kartītē varat atlasīt **Skatīt k
 ## <a name="job-recommendations"></a>Darbu ieteikumi 
 
 Kad potenciālais darbinieks izmanto karjeras vietni, lai pieteiktos kādam darbam, tiek ieteikti citi attiecīgajā organizācijā pieejamie amati. Šie ieteikumi ir balstīti uz potenciālā darba ņēmēja iepriekšējiem pieteikumiem un CV vai kandidāta profilu. Tādēļ darbu ieteikumi palīdz potenciālajiem darba ņēmējiem ātri atpazīt sev vispiemērotākos darbus. Darbu ieteikumi potenciālajiem darba ņēmējiem tiek piedāvāti, ja karjeras vietnē ir publicēti vairāk nekā desmit darbi. Potenciālie darba ņēmēji no ieteikuma kartītes var atvērt detalizētu informāciju par attiecīgo darba sludinājumu. Viņi var arī sniegt atsauksmes par ieteikumiem, lai palīdzētu uzlabot turpmākos ieteikumus.
-

@@ -1,13 +1,13 @@
---- 
-title: "ER konfigurāciju atkarības no citiem komponentiem definēšana"
-description: "Lai veiktu šīs darbības, vispirms jāveic darbības uzdevuma ceļvedī \"ER: pārvaldīt modeļa kartēšanas konfigurācijas\", un jums ir nepieciešama piekļuve pakalpojumam Microsoft Dynamics Lifecycle Services (LCS)."
+---
+title: ER konfigurāciju atkarības no citiem komponentiem definēšana
+description: 'Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļa kartēšanas konfigurāciju pārvaldība” norādītās darbības un jums ir jābūt piešķirtai piekļuvei portālam Microsoft Dynamics Lifecycle Services (LCS).'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365090"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigurāciju atkarības no citiem komponentiem definēšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Lai veiktu šīs darbības, vispirms jāveic darbības uzdevuma ceļvedī "ER: pārvaldīt modeļa kartēšanas konfigurācijas", un jums ir nepieciešama piekļuve pakalpojumam Microsoft Dynamics Lifecycle Services (LCS).
+Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļa kartēšanas konfigurāciju pārvaldība” norādītās darbības un jums ir jābūt piešķirtai piekļuvei portālam Microsoft Dynamics Lifecycle Services (LCS).
 
-Šajā procedūrā ir aprakstīts, kā izstrādāt elektronisko pārskatu veidošanas (ER) konfigurāciju un norādīt tās saistību ar citiem programmatūras komponentiem, lai varētu nodrošināt, ka konfigurācija ir pareizi lejupielādēta konkrētai Microsoft Dynamics 365 for Finance and Operations versijai. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. 
+Šajā procedūrā ir parādīts, kā izstrādāt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurāciju un norādīt tās atkarību no citiem programmatūras komponentiem, lai varētu palīdzēt nodrošināt konfigurācijas pareizu lejupielādi noteiktā Microsoft Dynamics 365 for Finance and Operations versijā. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. 
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. 
 
@@ -59,10 +59,10 @@ Lai veiktu šīs darbības, vispirms jāveic darbības uzdevuma ceļvedī "ER: p
 15. Noklikšķiniet uz Rediģēt.
 16. Noklikšķiniet uz Jauns.
 17. Atlasiet komponentu Preces priekšnosacījums.
-18. Atlasiet Microsoft Dynamics AX 7.0 RTW.
+18. Atlasiet vienumu Microsoft Dynamics AX 7.0 RTW.
 19. Laukā Versija ierakstiet "[7.0.1265.3015,7.1)".
     * [7.0.1265.3015,7.1)  
-    * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad parauga datu modeļa konfigurācijas 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tai ir jābūt pabeigtai Microsoft Dynamics 365 for Finance and Operations Enterprise versijā ne vecākā par 7.1.1541.3036 vai jaunākā, bet ne jaunākā par papildversiju 1.   
+    * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad parauga datu modeļa konfigurācijas 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tā ir jāizpilda programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, kuras versija ir 7.0.1265.3015 vai jaunāka, taču nav jaunāka par papildversiju 1.   
 20. Noklikšķiniet uz Saglabāt.
 21. Aizvērt lapu.
 22. Noklikšķiniet uz Mainīt statusu.
@@ -139,6 +139,5 @@ Lai veiktu šīs darbības, vispirms jāveic darbības uzdevuma ceļvedī "ER: p
 25. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
 26. Kokā izvērsiet "Sample data model".
     * Ņemiet vērā, ka kartējuma konfigurācija "Sample mapping" tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo "Sample mapping" ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam Finance and Operations. Konfigurācija "Sample mapping (alternative)" netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
-    * Ja pierakstīsities Dynamics 365 for Finance and Operations Enterprise edition, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija "Sample mapping (alternative)" tiks lejupielādēta, savukārt konfigurācija "Sample mapping" tiks izlaista.  
-
+    * Ja pierakstīsities risinājumā Dynamics 365 for Finance and Operations, Enterprise izdevums, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija "Sample mapping (alternative)" tiks lejupielādēta, savukārt konfigurācija "Sample mapping" tiks izlaista.  
 

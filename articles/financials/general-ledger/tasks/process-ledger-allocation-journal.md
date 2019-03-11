@@ -1,13 +1,13 @@
---- 
-title: "Virsgrāmatas sadalījuma žurnāla apstrāde"
-description: "Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā."
+---
+title: Virsgrāmatas sadalījuma žurnāla apstrāde
+description: Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2046e25719c9023bee99736488a4ee6f22723fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7d299657758b1e1322aef07bfe8c71f7bf00b0ca
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335650"
 ---
 # <a name="process-ledger-allocation-journal"></a>Virsgrāmatas sadalījuma žurnāla apstrāde
 
@@ -43,5 +43,4 @@ Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadal�
 10. Noklikšķiniet uz Rindas.
 11. Noklikšķiniet uz Grāmatot.
 12. Noklikšķiniet uz Grāmatot.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru portāla lietotāja drošība"
-description: "Šajā rakstā ir paskaidrots, kā veikt drošības iestatīšanu ārējiem kreditoriem, kuri lieto kreditoru portālu. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām."
+title: Kreditoru portāla lietotāja drošība
+description: Šajā rakstā ir paskaidrots, kā veikt drošības iestatīšanu ārējiem kreditoriem, kuri lieto kreditoru portālu. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367068"
 ---
-
-# <a name="vendor-portal-user-security"></a>Kreditoru portāla lietotāja drošība
+# <a name="vendor-portal-user-security"></a>Kreditoru portāla lietotāju drošība
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir paskaidrots, kā veikt drošības iestatīšanu ārējiem kreditoriem, kuri lieto kreditoru portālu. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 
-Dynamics 365 for Operations versijā 1611 kreditoru portāla funkcionalitāte ir aizstāta ar paplašināto kreditoru sadarbības funkcionalitāti. Papildinformāciju par drošības iestatīšanu kreditoru sadarbībai skatiet rakstā [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md). Kreditoru portālā ārējiem kreditoriem ir pieejama ierobežota informācija par pirkšanas pasūtījumiem (PP). Ir svarīgi pareizi iestatīt lietotāja atļaujas kreditoru portālam programmā Microsoft Dynamics AX, lai kreditoriem netiktu netīšam nodrošināta piekļuve papildu informācijai jūsu Dynamics AX instalācijā. **Svarīgi:** atšķirībā no citiem lietotājiem, ārējiem kreditoriem nedrīkst būt loma **SystemUser**. Loma **SystemUser** piešķir piekļuvi privilēģiju kopai, kas nav piemērota ārējiem lietotājiem.
+Dynamics 365 for Operations versijā 1611 kreditoru portāla funkcionalitāte ir aizstāta ar paplašināto kreditoru sadarbības funkcionalitāti. Papildinformāciju par drošības iestatīšanu kreditoru sadarbībai skatiet rakstā [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md). Kreditoru portālā ārējiem kreditoriem ir pieejama ierobežota informācija par pirkšanas pasūtījumiem (PP). Ir svarīgi programmā Microsoft Dynamics AX pareizi iestatīt lietotāja atļaujas kreditoru portālā, lai kreditoriem netīšām nepiešķirtu tiesības piekļūt papildinformācijai jūsu Dynamics AX vidē. **Svarīgi:** atšķirībā no citiem lietotājiem, ārējiem kreditoriem nedrīkst būt loma **SystemUser**. Loma **SystemUser** piešķir piekļuvi privilēģiju kopai, kas nav piemērota ārējiem lietotājiem.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Kreditoru portāla lietotāja iestatīšana
 Pirms kādam kreditoru portāla lietotājam izveidot lietotāja kontu, jāiestata kreditors, lai atļautu kreditoru portāla sadarbību. Izmantojiet lauku **Pirkšanas pasūtījuma sadarbība** cilnē **Vispārējā** lapā **Kreditori**. Ārējiem kreditoriem, kuri lieto kreditoru portālu, jābūt šādiem iestatījumiem:
 
--   Microsoft Azure Active Directory (AAD) lietotāja konts ir jāreģistrē kreditoram Dynamics AX lapā **Lietotāji**.
--   Kreditoram ir jābūt drošības lomai **Kreditors (ārējs)**, nevis lomai **SystemUser**. **Piezīme:** loma **SystemUser** tiek automātiski piešķirta, kad izveidojat jaunu lietotāja kontu programmā Dynamics AX. Tāpēc šī loma ir jānoņem un jāapstiprina saņemtais brīdinājuma ziņojums.
+-   Kreditoram programmas Dynamics AX lapā **Lietotāji** ir jābūt reģistrētam Microsoft Azure Active Directory (AAD) lietotāja kontam.
+-   Kreditoram ir jābūt drošības lomai **Kreditors (ārējs)**, nevis lomai **SystemUser**. **Piezīme.** Kad izveidojat jaunu lietotāja kontu programmā Dynamics AX, tiek automātiski piešķirta loma **SystemUser**. Tāpēc šī loma ir jānoņem un jāapstiprina saņemtais brīdinājuma ziņojums.
 -   Kreditora lietotājam nevajadzētu piešķirt atļauju pievienot papildu laukus no PP tabulām PP skatā. Cilnē **Personalizēšana**, cilnē **Lietotāji** iestatiet lietotājam opciju **Atļaut skaidri izteiktu personalizēšanu** uz **Nē**.
 -   Lietotāja kontam ir jābūt saistītam ar reģistrētu kontaktpersonu. Lapā **Lietotāji** izvēlieties kontaktpersonu laukā **Nosaukums**. Personai, kuru atlasījāt, jābūt lomai **Kontaktpersona** attiecīgajam kreditoram.
 
@@ -48,7 +47,6 @@ Ja viena un tā pati persona pieprasa piekļuvi vairākiem kreditoru kontiem kre
 --------
 
 [Kreditoru sadarbība](collaborate-vendors-vendor-portal.md)
-
 
 
 

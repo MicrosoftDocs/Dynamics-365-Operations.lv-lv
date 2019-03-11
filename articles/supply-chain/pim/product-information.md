@@ -1,32 +1,31 @@
 ---
-title: "Preču informācijas pārskats"
-description: "Šajā tēmā ir sniegta informācija par preču informācijas pārvaldību. Preču informācijas pārvaldība darbojas ar kopīgoto preču definīciju, kategoriju un identifikatoriem visās juridiskajās personās, kā arī ar noteiktām preču konfigurācijām, lai ietilptu biznesa procesos."
+title: Preču informācijas pārskats
+description: Šajā tēmā ir sniegta informācija par preču informācijas pārvaldību. Preču informācijas pārvaldība darbojas ar kopīgoto preču definīciju, kategoriju un identifikatoriem visās juridiskajās personās, kā arī ar noteiktām preču konfigurācijām, lai ietilptu biznesa procesos.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363020"
 ---
-
 # <a name="product-information-overview"></a>Preču informācijas pārskats
 
 [!include [banner](../includes/banner.md)]
@@ -58,15 +57,15 @@ Preces galvenokārt nosaka pēc preces numura, nosaukuma un apraksta. Lai apraks
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Preces datu izplatīšana, imports un eksports
 
-Preces definīciju var izveidot programmatūrā Microsoft Dynamics 365 for Finance and Operations. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Finance and Operations instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
+Preces definīciju var izveidot programmā Microsoft Dynamics 365 for Finance and Operations. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Finance and Operations instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
 
-Lai atbalstītu preces datu izplatīšanu vairākās instancēs, Finance and Operations ļauj izmantot pakalpojumu Common Data Service. Preču definīcijas var eksportēt no Finance and Operations instances pakalpojumā Common Data Service. Preču definīcijas pēc tam var izmantot, lai nodrošinātu citas biznesa programmas, piemēram, Microsoft Dynamics 365 for Sales, ar preces datiem.
+Lai atbalstītu preces datu izplatīšanu daudzās instancēs, programma Finance and Operations sniedz iespēju izmantot pakalpojumu Common Data Service. Preču definīcijas var eksportēt no Finance and Operations instances uz pakalpojumu Common Data Service. Pēc tam preču definīcijas var izmantot, lai nodrošinātu preces datus citām biznesa lietojumprogrammām, piemēram, Microsoft Dynamics 365 for Sales.
 
 Ņemiet vērā, ka dinamiskās un elastīgās organizācijās, preču informācijas dati mainās katru dienu. Tādēļ precīzu un aktuālu preču datu uzturēšana ir būtisks biznesa process.
 
 ## <a name="product-masters-and-product-variants"></a>Preču šabloni un varianti
 
-Elastīgā pasaulē, ja preces ir ātri jāpielāgo klienta prasībām, preču definīcijas jānorāda kā preču kopa nevis atšķirīgas preces. Programmatūrā Microsoft Dynamics 365 for Finance and Operations šīs vispārīgās preces tiek dēvētas par *preču šabloniem*. Preču šabloni satur definīciju un kārtulas, kas norāda, kā atšķirīgas preces tiek aprakstītas un darbojas biznesa procesos. Pamatojoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces. Šīs atšķirīgās preces tiek sauktas par *preces variantiem*.
+Elastīgā pasaulē, ja preces ir ātri jāpielāgo klienta prasībām, preču definīcijas jānorāda kā preču kopa nevis atšķirīgas preces. Programmā Microsoft Dynamics 365 for Finance and Operations šīs vispārīgās preces tiek sauktas par *preču šabloniem*. Preču šabloni satur definīciju un kārtulas, kas norāda, kā atšķirīgas preces tiek aprakstītas un darbojas biznesa procesos. Pamatojoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces. Šīs atšķirīgās preces tiek sauktas par *preces variantiem*.
 
 Programmatūrā Finance and Operations preces šablons tiek saistīts ar preču dimensiju grupu un konfigurācijas tehnoloģiju, lai norādītu biznesa kārtulas. Preču dimensijas (krāsa, izmēri, stils un konfigurācija) ir specifiskas atribūtu kopas, ko var izmantot visā programmā, lai definētu un izsekotu noteiktu saistīto preču izturēšanos. Šīs dimensijas arī palīdz lietotājiem meklēt un identificēt preces.
 
@@ -97,4 +96,3 @@ Darbvietu veido elementu un divu sarakstu kopsavilkums. Sarakstā **Atvērtie pi
 ### <a name="manually-creating-a-new-released-product"></a>Manuāla jaunas izlaistās preces izveide
 
 Varat manuāli izveidot izlaistu preci vienā izpildē, atkarībā no organizācijas biznesa procesiem un noteikumiem par to, vai vajadzētu izmantot šo funkciju. Šī funkcija izveido jaunu preci un automātiski atbrīvo to pašreizējai juridiskajai personai. Lai izveidotu jaunu preci, noklikšķiniet uz **Izlaistās preces** darbvietā **Izlaisto preču uzturēšana** vai saraksta lapā **Izlaistā prece**.
-

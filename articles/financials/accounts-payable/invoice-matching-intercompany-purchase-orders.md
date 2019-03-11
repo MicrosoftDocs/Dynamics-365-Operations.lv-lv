@@ -1,13 +1,13 @@
 ---
-title: "Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi"
-description: "Pērkošo juridisko personu, kas ir iesaistīta starpuzņēmumu tirdzniecības transakcijā, var iestatīt kreditoru rēķinu salīdzināšanas lietošanai. Tādā gadījumā, lai varētu grāmatot starpuzņēmumu kreditoru rēķinus, ir jābūt ievērotām gan starpuzņēmumu tirdzniecības, gan kreditoru rēķinu salīdzināšanas grāmatošanas prasībām."
+title: Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
+description: Pērkošo juridisko personu, kas ir iesaistīta starpuzņēmumu tirdzniecības transakcijā, var iestatīt kreditoru rēķinu salīdzināšanas lietošanai. Tādā gadījumā, lai varētu grāmatot starpuzņēmumu kreditoru rēķinus, ir jābūt ievērotām gan starpuzņēmumu tirdzniecības, gan kreditoru rēķinu salīdzināšanas grāmatošanas prasībām.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357569"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Piemēram, izpildiet tālāk aprakstītās darbības.
 2.  Pārdošanas fabrikā izpildiet rēķina atjaunināšanu attiecībā uz ICSO999. Grāmatošana ir nesekmīga, jo šīs preces krājumi ir beigušies un vēl nav saņemti. Tāpēc finanšu informāciju nevar atjaunināt.
 3.  Pārdošanas fabrikā reģistrējiet, ka krājums ir saņemts, un grāmatojiet pavadzīmi attiecībā uz ICSO999. Pirkuma fabrikā tiek automātiski grāmatota produktu ieejas plūsma attiecībā uz ICPO333. Pirkuma fabrikā saņemtais daudzums krājumam B-R14 mainās uz 100.
 4.  Pārdošanas fabrikā izpildiet rēķina atjaunināšanu attiecībā uz ICSO999. Grāmatošana ir sekmīga abās juridiskajās personās. Pirkuma fabrikā daudzums, kas ir iegādāts krājumam B-R14, mainās uz 100. 
-
 
 
 

@@ -1,37 +1,36 @@
 ---
-title: "Mazumtirdzniecības preču kategoriju un preču pārvaldība"
-description: "Šajā tēmā ir aprakstīts, kā preču pārvaldnieki var izmantot mazumtirdzniecības preču kategorijas, lai pārvaldītu attiecības starp mazumtirdzniecības preču hierarhiju un izlaisto preču detalizētu informāciju."
+title: Mazumtirdzniecības preču kategoriju un preču pārvaldība
+description: Šajā tēmā ir aprakstīts, kā preču pārvaldnieki var izmantot mazumtirdzniecības preču kategorijas, lai pārvaldītu attiecības starp mazumtirdzniecības preču hierarhiju un izlaisto preču detalizētu informāciju.
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 19c972164474c972aab642c3cccc67cf396a6cb2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344689"
 ---
-
 # <a name="manage-retail-product-categories-and-products"></a>Mazumtirdzniecības preču kategoriju un preču pārvaldība
 
 [!include [banner](./includes/banner.md)]
 
-Šajā tēmā ir aprakstīts uzlabotais veids, kā risinājumā Microsoft Dynamics 365 for Retail pārvaldīt mazumtirdzniecības preču kategorijas un preces. Šie uzlabojumi preču pārvaldniekiem ļauj skatīt preces rekvizītu pamata struktūru, kas ir kopīga mazumtirdzniecības preču hierarhijai un izlaisto preču detalizētajai informācijai.
+Šajā tēmā ir aprakstīts uzlabots veids, kā pārvaldīt mazumtirdzniecības preču kategorijas un preces programmā Microsoft Dynamics 365 for Retail. Šie uzlabojumi preču pārvaldniekiem ļauj skatīt preces rekvizītu pamata struktūru, kas ir kopīga mazumtirdzniecības preču hierarhijai un izlaisto preču detalizētajai informācijai.
 
 Lai uzzinātu vairāk par mazumtirdzniecības preču kategoriju pārvaldību, darbvietā **Kategoriju un preču pārvaldība**, atlasiet elementu **Mazumtirdzniecības preču hierarhija**.
 
@@ -58,4 +57,3 @@ Turklāt uzlabotajā mazumtirdzniecības preču kategorijas struktūrā preču p
 Šo jauno uzlaboto preču rekvizītu struktūru var izmantot, lai atlasītu atjauninātos preču rekvizītus, kuri jāpārceļ pie saistītajām precēm. Lapas **Mazumtirdzniecības preču hierarhija** darbību rūtī atlasiet **Kategorija** un pēc tam atlasiet **Atjaunināt preces**, lai atvērtu dialoglodziņu **Atjaunināt preces**.
 
 ![Dialoglodziņš Atjaunināt preces](media/NewUpdateProductsEnhancedView.PNG)
-

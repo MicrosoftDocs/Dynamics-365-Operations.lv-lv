@@ -1,13 +1,13 @@
---- 
-title: "Izveidot brīvā teksta rēķinus"
-description: "Šajā tēmā izskaidrots, kā izveidot brīva teksta rēķinus."
+---
+title: Izveidot brīvā teksta rēķinus
+description: Šajā tēmā izskaidrots, kā izveidot brīva teksta rēķinus.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332246"
 ---
-
 # <a name="create-free-text-invoices"></a>Izveidot brīvā teksta rēķinus
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ Pēc rindu kopēšanas informāciju var mainīt pēc nepieciešamības.
 Brīva teksta rēķina izveidei varat izmantot veidni. Cilnes **Rēķins** veidnē atlasot vienumu **Jauns no veidnes**, varat atlasīt veidnes nosaukumu un debitora kontu, ko izmantot jaunā brīva teksta rēķina izveidē. Noklusējuma vērtības, piemēram, maksāšanas termiņus un maksāšanas metodi, var automātiski aizpildīt no debitora datiem, vai arī varat izmantot vērtības, kas tika saglabātas veidnē.
 
 Jauns brīva teksta rēķins ir izveidots, un tā vērtības var rediģēt pēc nepieciešamības.
-

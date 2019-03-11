@@ -1,13 +1,13 @@
 ---
-title: "Uzskaites avota pārlūks"
-description: "Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei."
+title: Uzskaites avota pārlūks
+description: Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: de5de039c0e3332943bae4846768fc628810906e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: d21f214ef8a29c19f0af1d4a2bdfc3264987f0b8
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330199"
 ---
-
 # <a name="accounting-source-explorer"></a>Uzskaites avota pārlūks
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
 
-Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Uzskaites avota pārlūku varat izmantot vai nu kā savrupu rīku, vai arī, lai analizētu virsgrāmatas uzskaites ierakstu detalizētos datus. Uzskaites avota pārlūku varat izmantot, piemēram, lai iegūt visdetalizētāko apgrozījuma bilances vai dokumenta transakcijas avota informāciju. Pēc tam varat izmantot līdzekli Eksportēt uz programmu Microsoft Excel, lai informāciju apstrādātu programmā Microsoft Excel (piemēram, izveidotu PivotTable vai PivotTable pārskatu).
+Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Uzskaites avota pārlūku varat izmantot vai nu kā savrupu rīku, vai arī, lai analizētu virsgrāmatas uzskaites ierakstu detalizētos datus. Uzskaites avota pārlūku varat izmantot, piemēram, lai iegūt visdetalizētāko apgrozījuma bilances vai dokumenta transakcijas avota informāciju. Pēc tam varat izmantot līdzekli Eksportēt uz programmu Microsoft Excel, lai veiktu informācijas papildu apstrādi programmā Microsoft Excel (piemēram, tabulā PivotTable vai PivotTable atskaitē).
 
 Uzskaites avota pārlūkā vienas un tās pašas kopsummas katram virsgrāmatas kontam vienmēr tiek rādītas kā Vispārīgas virsgrāmatas (piemēram, Apgrozījuma bilance). Apgrozījuma bilancē segmentus var parādīt atsevišķās kolonnās. Vienkārši izvēlieties atbilstošu finanšu dimensiju kopu. 
 
@@ -49,7 +48,6 @@ Avota dokumentiem, kas izmanto pirmdokumenta atsauces identitātes koncepciju, u
 -   Atlaides kreditoriem, precēm, nodaļām
 
 Šiem dokumentiem no uzskaites avota pārlūka var pārvietoties uz faktisko pirmdokumentu.
-
 
 
 

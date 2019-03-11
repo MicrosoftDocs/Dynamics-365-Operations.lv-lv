@@ -1,13 +1,13 @@
 ---
-title: "Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu"
-description: "Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel."
+title: Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu
+description: Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,26 +17,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340641"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt programmā Excel vai programmatūrā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt no programmas Excel vai Microsoft Dynamics 365 for Finance and Operations.
 
 Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un rediģēt šos datus, izmantojot Excel pievienojumprogrammu. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016.
 
 > [!NOTE]
 > Ja jūsu Microsoft Azure Active Directory (Azure AD) nomnieks ir konfigurēts Active Directory federācijas pakalpojumu (AD FS) lietošanai, pārliecinieties, ka ir instalēts 2016. gada maija Office atjauninājums, lai Excel pievienojumprogramma varētu nodrošināt pareizu jūsu pierakstīšanu.
 
-Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Elementa datu atvēršana programmā Excel, sākot darbu programmā Finance and Operations
 1. Kādā programmas Finance and Operations lapā atlasiet **Atvērt, izmantojot Microsoft Office**.
@@ -125,4 +124,3 @@ Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.
 - **Tiek rādīta poga Ielādēt sīkprogrammas** — ja pēc pierakstīšanās Excel pievienojumprogrammai tiek rādīta poga **Ielādēt sīkprogrammas**, visticamāk, esat pierakstījies, izmantojot nepareizu lietotāja kontu. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
 - **Saņemat ziņojumu “Aizliegts”**  — ja laikā, kad Excel pievienojumprogrammā notiek metadatu ielāde, saņemat ziņojumu “Aizliegts”, tad kontam, kas ir izmantots, lai pierakstītos Excel pievienojumprogrammā, nav atļaujas lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
 - **Virs programmas Excel tiek rādīta tukša tīmekļa lapa** — ja pierakstīšanās procesa laikā tiek atvērta tukša tīmekļa lapa, tad kontam ir nepieciešams AD FS, bet Excel versija, kurā darbojas Excel pievienojumprogramma, ir pārāk veca, lai ielādētu pierakstīšanās dialoglodziņu. Lai atrisinātu šo problēmu, atjauniniet izmantoto Excel versiju. Lai atjauninātu Excel versiju, kad esat uzņēmumā, kurš atrodas atliktajā kanālā, izmantojiet [Office izvietošanas rīku](https://technet.microsoft.com/library/jj219422.aspx), lai [no atliktā kanāla pārietu uz pašreizējo kanālu](https://technet.microsoft.com/library/mt455210.aspx).
-

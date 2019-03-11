@@ -1,13 +1,13 @@
 ---
-title: "Talent vižu noņemšana"
-description: "Šajā tēmā ir detalizēti aprakstīta Microsoft Dynamics 365 for Talent izmēģinājuma vai ražošanas vides noņemšanas procedūra."
+title: Talent vižu noņemšana
+description: Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305397"
 ---
-# <a name="remove-talent-environments"></a>Talent vižu noņemšana
+# <a name="remove-talent-environments"></a>Talent vides noņemšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir detalizēti aprakstīta Microsoft Dynamics 365 for Talent izmēģinājuma vai ražošanas vides noņemšanas procedūra.
+Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Izmēģinājuma vides noņemšana
 
@@ -36,7 +36,7 @@ Talent izmēģinājuma vides tiek nodrošinātas, izmantojot 60 dienu derīguma
 
 1. Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).
 2. Atlasiet **Vides**.
-3. Atlasiet izmēģinājuma vidi, kuras nosaukuma formāts līdzinās šim: TestDrive — alias@domain.
+3. Atlasiet izmēģinājuma vidi, kuras nosaukuma formāts līdzinās šim: TestDrive — aizstājvārds@domēns.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 
 
 Esošā izmēģinājuma vide tiek noņemta. Kad tā ir noņemta, jūs varat reģistrēties jaunas izmēģinājuma vides saņemšanai. 
@@ -73,5 +73,4 @@ Lai noņemtu Talent vidi no esošas PowerApps vides, veiciet tālāk norādītā
 6. LCS projektā atlasiet elementu **Talent programmas pārvaldība**. 
 7. Atlasiet noņemamo instanci, kam ir jānorāda izvietošanas statuss **Neizdevās**.
 8. Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu. 
-
 

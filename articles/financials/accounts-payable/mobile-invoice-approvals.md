@@ -1,13 +1,13 @@
 ---
-title: "Mobilie rēķinu apstiprinājumi"
-description: "Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei programmatūrā Dynamics 365 for Finance and Operations, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs."
+title: Mobilie rēķinu apstiprinājumi
+description: Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei programmā Dynamics 365 for Finance and Operations, kā lietojuma gadījumu izmantojot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,31 +17,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314398"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
 [!include [banner](../includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Finance and Operations ietvertās mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
+Programmā Microsoft Dynamics 365 for Finance and Operations pieejamās mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
 
 <a name="prerequisites"></a>Priekšnosacījumi
 -------------
 
-| Priekšnoteikumi                                                                                            | Apraksts                                                                                                                                                          |
+| Priekšnoteikumi                                                                                            | apraksts                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |[Mobilā platforma](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Vide, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembra versija)                   |
+| Dynamics 365 for Finance and Operations                                                                             | Vide, kurā ir instalēta Microsoft Dynamics 365 for Operations versija 1611 un Microsoft Dynamics for Operations 3. platformas atjauninājums (2016. gada novembris)                   |
 | Instalējiet labojumfailu KB 3204341.                                                                              | Uzdevumu reģistrētājs var kļūdaini reģistrēt divas nolaižamo dialoglodziņu aizvēršanas komandas; tas ir ietverts Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums) |
 | Instalējiet labojumfailu KB 3207800.                                                                              | Šis labojumfails sniedz iespēju skatīt pielikumus mobilajā klientā; tas ir ietverts Dynamics 365 for Operations 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums)           |
-| Instalējiet labojumfailu KB 3208224.                                                                              | Kreditoru rēķinu apstiprināšanas mobilās lietojumprogrammas kods; tas ir ietverts lietojumprogrammas Microsoft Dynamics AX versijā 7.0.1 (2016. gada maija izlaidums).                          |
-| Android, iOS vai Windows ierīce, kur ir instalēta Finance and Operations mobilā programma | Meklējiet programmu atbilstošajā programmu veikalā.                                                                                                                     |
+| Instalējiet labojumfailu KB 3208224.                                                                              | Kreditoru rēķinu apstiprināšanas mobilās lietojumprogrammas kods, kas ir ietverts lietojumprogrammas Microsoft Dynamics AX versijā 7.0.1 (2016. gada maijs).                          |
+| Android, iOS vai Windows ierīce, kurā ir instalēta Finance and Operations mobilā programma | Meklējiet programmu atbilstošajā programmu veikalā.                                                                                                                     |
 
 ## <a name="introduction"></a>Ievads
 Lai varētu apstiprināt kreditoru rēķinus mobilajā ierīcē, ir nepieciešami trīs labojumfaili, kas ir norādīti sadaļā Priekšnosacījumi. Šie labojumfaili nenodrošina rēķinu apstiprināšanas darbvietu. Lai uzzinātu, kas ir darbvieta attiecībā uz mobilajām ierīcēm, izlasiet mobilo ierīču risinājumu rokasgrāmatu, kas ir pieminēta sadaļā “Priekšnosacījumi”. Rēķinu apstiprināšanas darbplūsma ir jāizstrādā. 
@@ -126,7 +125,7 @@ Vienmēr, kad strādājat ar mobilo programmu veidotāju, noteikti publicējiet 
 ### <a name="create-the-workspace"></a>Darbvietas izveide
 
 1.  Pārlūkprogrammā atveriet programmatūru Finance and Operations un pierakstieties.
-2.  Pēc pierakstīšanās pievienojiet URL tekstu **&mode=mobile**, kā tas ir redzams šajā piemērā, un atsvaidziniet lapu: https://&lt;jūsuurl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**.
+2.  Pēc pierakstīšanās pievienojiet vietrādim URL tekstu **&mode=mobile**, kā tas ir parādīts šajā piemērā, un atsvaidziniet lapu: https://&lt;jūsuurl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**. Tiek parādīts mobilo programmu veidotājs, tāpat kā tiek parādīts uzdevuma reģistrētājs.
 4.  Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu darbvietu. Šī piemēra ietvaros piešķiriet darbvietai nosaukumu **Mani apstiprinājumi**.
 5.  Ievadiet aprakstu.
@@ -139,7 +138,7 @@ Vienmēr, kad strādājat ar mobilo programmu veidotāju, noteikti publicējiet 
 
 Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai piešķirto rēķinu saraksts. Lai izstrādātu šo mobilo lapu, izmantojiet Finance and Operations lapu **VendMobileInvoiceAssignedToMeListPage**. Pirms šīs procedūras pabeigšanas pārliecinieties, ka jums pārskatīšanai ir piešķirts vismaz viens kreditora rēķins un ka rēķina rindā ir divi sadales elementi. Šie iestatījumi atbilst šī scenārija prasībām.
 
-1.  Finance and Operations vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceAssignedToMeListPage**, lai atvērtu moduļa **Parādi kreditoriem** lapas **Gaidošie kreditoru rēķini, kas piešķirti man** mobilo versiju. Atkarībā no tā, cik rēķinu jums ir piešķirts sistēmā, šajā lapā tiek rādīti šie rēķini. Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešams jebkurš jums piešķirts rēķins, ko var izmantot mobilās lapas izstrādei. Jaunās pieejamās lapas ir īpaši izstrādātas kreditoru rēķinu mobilo scenāriju izstrādei. Tāpēc ir jāizmanto šīs lapas. URL ir jālīdzinās šim URL, un pēc tā ievades ir jātiek atvērtai attēlā redzamajai lapai: https://&lt;jūsuURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Lapa Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Finance and Operations vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceAssignedToMeListPage**, lai atvērtu moduļa **Parādi kreditoriem** lapas **Gaidošie kreditoru rēķini, kas piešķirti man** mobilo versiju. Atkarībā no tā, cik rēķinu jums ir piešķirts sistēmā, šajā lapā tiek rādīti šie rēķini. Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešams jebkurš jums piešķirts rēķins, ko var izmantot mobilās lapas izstrādei. Jaunās pieejamās lapas ir īpaši izstrādātas kreditoru rēķinu mobilo scenāriju izstrādei. Tāpēc ir jāizmanto šīs lapas. Vietrādim URL ir jālīdzinās šim vietrādim URL, un pēc tā ievades ir jātiek atvērtai attēlā redzamajai lapai: https://&lt;jūsuURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Lapa Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
 3.  Atlasiet savu darbvietu un noklikšķiniet uz **Rediģēt**.
 4.  Noklikšķiniet uz **Pievienot lapu**, lai izveidotu pirmo mobilo lapu.
@@ -488,7 +487,6 @@ Pamatojoties uz 2. scenārija prasībām, var izstrādāt tālāk norādītos 1
     3.  Ideālā gadījumā šī scenārija ietvaros sadales ir jārāda rēķina rindas kontekstā. Tāpēc nodrošiniet, lai lietotājs varētu detalizēti skatīt rindas informāciju, tādējādi piekļūstot sadales lapai. Izmantojiet lapas saites iespēju, lai nodrošinātu detalizēto apskati, tāpat kā to darījāt galvenes lapai un detalizētās informācijas lapai 1. scenārija ietvaros.
 
 2.  Tā kā 2. scenārija ietvaros ir paredzēts apstrādāt vairākus summas veidus (PVN, izmaksas utt.), ir noderīgi rādīt summas veida sadali. (Šī informācija tika atmesta 1. scenārija ietvaros.)
-
 
 
 

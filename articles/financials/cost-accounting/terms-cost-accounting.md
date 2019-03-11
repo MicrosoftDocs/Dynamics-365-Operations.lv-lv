@@ -1,13 +1,13 @@
 ---
-title: "Izmaksu uzskaites terminoloģija"
-description: "Šajā tēmā tiek definēti galvenie termini, kas tiek izmantoti Izmaksu uzskaitē."
+title: Izmaksu uzskaites terminoloģija
+description: Šajā tēmā tiek definēti galvenie termini, kas tiek izmantoti Izmaksu uzskaitē.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365941"
 ---
-
 # <a name="cost-accounting-terminology"></a>Izmaksu uzskaites terminoloģija
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Sadalījuma pamats tiek izmantots, lai mērītu aktivitātes, piemēram, izmanto
 
 **Izmaksu uzskaite**
 
-Izmaksu uzskaite ļauj jums apkopot datus no dažādiem avotiem, piemēram, virsgrāmata, apakšgrāmata, budžeti un statistiska informācija. Pēc tam jūs varat analizēt, apkopot un novērtēt izmaksu datus, tādējādi vadība var pieņemt vislabākos lēmumus cenas pielāgošanai, budžetiem, izmaksu kontrolei un tā tālāk. Datu avots, kas tiek izmantots izmaksu analīzei, tiek izmantots neatkarīgi Izmaksu uzskaitē. Tāpēc atjauninājumus Izmaksu uzskaitē neietekmē datu avots. Taču, apkopojot izmaksu datus no dažādiem avotiem un jo īpaši importējot galvenos kontus no virsgrāmatas kā izmaksu elementus programmatūrā Microsoft Dynamics 365 for Finance and Operations, rodas datu dublēšana, jo vieni tie paši dati pastāv gan Virsgrāmatā, gan modulī Izmaksu uzskaite. Šāda dublēšana ir nepieciešama, jo jūs izmantojat finanšu pārvaldību ārēju pārskatu veidošanai, un Izmaksu uzskaiti iekšēju pārskatu veidošanai.
+Izmaksu uzskaite ļauj jums apkopot datus no dažādiem avotiem, piemēram, virsgrāmata, apakšgrāmata, budžeti un statistiska informācija. Pēc tam jūs varat analizēt, apkopot un novērtēt izmaksu datus, tādējādi vadība var pieņemt vislabākos lēmumus cenas pielāgošanai, budžetiem, izmaksu kontrolei un tā tālāk. Datu avots, kas tiek izmantots izmaksu analīzei, tiek izmantots neatkarīgi Izmaksu uzskaitē. Tāpēc atjauninājumus Izmaksu uzskaitē neietekmē datu avots. Tomēr, apkopojot izmaksu datus no dažādiem avotiem, un jo īpaši, importējot galvenos kontus no virsgrāmatas programmā Microsoft Dynamics 365 for Finance and Operations kā izmaksu elementus, rodas datu dublēšana, jo tie paši dati pastāv gan Virsgrāmatā, gan Izmaksu uzskaitē. Šāda dublēšana ir nepieciešama, jo jūs izmantojat finanšu pārvaldību ārēju pārskatu veidošanai, un Izmaksu uzskaiti iekšēju pārskatu veidošanai.
 
 **Izmaksu uzskaites virsgrāmata**
 
@@ -119,7 +118,7 @@ Ir divu veidu dimensiju hierarhijas: kategorizēšanas hierarhija un klasifikāc
 Izmaksu uzskaite atbalsta datu integrēšanu no avota sistēmām, izmantojot datu savienotāju komplektu. Ir pieejami tālāk norādītie datu savienotāji.
 
 -  Importētās transakcijas (iepriekš konfigurētas)
--  Dynamics 365 for Finance and Operations (iepriekš konfigurēta)
+-  Dynamics 365 for Finance and Operations (iepriekš konfigurētas)
 -  Dynamics AX (nepieciešams konfigurēt)
 
 **Piezīme.** Datu savienotājs Importētās transakcijas ir balstīts uz datu elementiem.
@@ -128,7 +127,7 @@ Izmaksu uzskaite atbalsta datu integrēšanu no avota sistēmām, izmantojot dat
 
 Vairums avota sistēmu var sniegt datus, kas atbilst vienam vai vairākiem datu avotiem izmaksu uzskaitē. Lai datus no avota sistēmām saskaņotu ar datu avotu izmaksu uzskaitē, datu sniedzējs ir jākonfigurē. Nākamajā tabulā ir uzskaitīta datu sniedzēju pieejamība atkarībā no datu savienotāja un datu avota.
 
-|  **Datu avoti** |  **Importēto transakciju datu savienotājs** | **Dynamics 365 for Finance and Operations datu savienotājs**  | **Dynamics AX datu savienotājs**  |
+|  **Datu avoti** |  **Importēto transakciju datu savienotājs** | **Dynamics 365 for Finance and Operations datu savienotājs**  | **Dynamics AX datu savienotājs**  |
 |---|---|---|---|
 | Izmaksu elementu dimensiju elementi  |  Jā | Jā  | Jā  |
 |  Izmaksu objekta dimensiju elementi |  Jā | Jā  | Jā  |
@@ -204,6 +203,5 @@ Izraksti ir skati vadītājiem, kas atbild par izmaksu kontroli. Izrakstus defin
 **Versija**
 
 Versijas tiek izmantotas, lai simulētu, skatītu un salīdzinātu dažādus rezultātus. Pēc noklusējuma visas faktiskās izmaksas tiek skatītas vienu bāzes versijā, kas ir pazīstama kā *faktiskā*. Budžetiem un aprēķiniem jūs varat strādāt ar tik versijām, cik nepieciešams. Piemēram, budžeta datus var importēt sākotnējā versijā, un pēc tam pārskatīt budžetu pārskatītajā versijā. Aprēķiniem jūs varat izveidot vairākas versijas. Šajās dažādajās versijās, pēc tam var izveidot aprēķinus, izmantojot dažādus aprēķina noteikumus, kas tiks izmantoti izmaksu sadalījumam.
-
 
 

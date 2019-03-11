@@ -1,13 +1,13 @@
 ---
-title: "Papildināšana"
-description: "Šajā tēmā ir aprakstītas papildināšanas stratēģijas, kas ir pieejamas noliktavām, kuras izmanto noliktavas vadībā pieejamo funkcionalitāti."
+title: Papildināšana
+description: Šajā tēmā ir aprakstītas papildināšanas stratēģijas, kas ir pieejamas noliktavām, kuras izmanto noliktavas vadībā pieejamo funkcionalitāti.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344528"
 ---
-
 # <a name="replenishment"></a>Papildināšana
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ Pieprasījuma papildināšana tiek atbalstīta pārdošanas pasūtījumiem, pār
 ## <a name="minmax-replenishment"></a>Minimālā/maksimālā papildināšana
 Minimālajā/maksimālajā papildināšanā krājumi tiek papildināti tā, lai to daudzums būtu starp iestatīto minimālo un maksimālo ierobežojumu. Parasti šis process notiek vienu reizi katru dienu, lai palīdzētu garantēt, ka visi izdošanas novietojumi ir piepildīti līdz maksimālajam līmenim, pirms sākas izdošana. 
 
-Minimālās un maksimālās summas tiek iestatītas papildināšanas veidnē. Daudzi citi iestatījumi šajā veidnē līdzināties iestatījumiem veidnēs, kas tiek izmantotas kopuma pieprasījuma papildināšanai. Šajā veidnē ir jābūt vienai rindai katram krājumam un novietojumam. Kad veicat papildināšanu, izmantojot pakešuzdevumu, programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izvērtēts tas, vai papildināšana ir nepieciešama, izmantojot secību, kādā ir sakārtotas rindas. 
+Minimālās un maksimālās summas tiek iestatītas papildināšanas veidnē. Daudzi citi iestatījumi šajā veidnē līdzināties iestatījumiem veidnēs, kas tiek izmantotas kopuma pieprasījuma papildināšanai. Šajā veidnē ir jābūt vienai rindai katram krājumam un novietojumam. Ja izpildāt papildināšanu, izmantojot pakešuzdevumu, programma Microsoft Dynamics 365 for Finance and Operations novērtē, vai ir nepieciešama papildināšana, izmantojot secību, kādā ir sakārtotas rindas. 
 
 Ņemiet vērā, ka minimālās/maksimālās papildināšanas stratēģija nevar papildināt tukšu novietojumu, izņemot gadījumus, kad šis novietojums ir iestatīts kā krājuma fiksētais novietojums. Ja papildināmais novietojums nav fiksētais novietojums, tad sistēma nevar noteikt, kuri krājumi ir jāpapildina. Tādēļ pirms papildināšanas ir nepieciešams vismaz kaut kāds rīcībā esošais daudzums.
 
@@ -77,5 +76,4 @@ Tā vietā, lai pieprasījumu vajadzētu saskaitīt sadalījuma procesa beigās 
 |    Atrašanās vietu profili    |                                                                                                        Novietojumu profili ir nepieciešami, lai izveidotu novietojumus.                                                                                                        |
 |   Novietojuma direktīvas   |                                                       Novietojuma direktīvas ir nepieciešamas, lai vadītu darbu uz novietojumiem, kur ir nepieciešama papildināšana, un uz novietojumiem, no kuriem tiek iegūti krājumi.                                                        |
 |     Darbu veidnes      |                                                   Darba veidnes ar tipu <strong>Papildināšana</strong> ir nepieciešamas, lai izveidotu papildināšanas darbu un krājumus varētu pārvietot uz vēlamajiem novietojumiem.                                                    |
-
 

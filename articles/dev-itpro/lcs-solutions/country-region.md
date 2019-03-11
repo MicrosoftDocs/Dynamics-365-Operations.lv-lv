@@ -1,13 +1,13 @@
 ---
-title: "Lokalizācijas un normatīvie līdzekļi"
-description: "Šajā tēmā ir sniegts saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti."
+title: Lokalizācijas un normatīvie līdzekļi
+description: Šajā tēmā ir saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/01/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302603"
 ---
-
 # <a name="localization-and-regulatory-features"></a>Lokalizācijas un normatīvie līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Produktā Microsoft Dynamics 365 for Finance and Operations ir ietverta funkcionalitāte tām valstīm/reģioniem, kas minētas [produktu lokalizācijas, tulkošanas un pieejamības ceļvedī](https://aka.ms/ax-availabilityguide). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
+Microsoft Dynamics 365 for Finance and Operations ietver funkcionalitāti tām valstīm/reģioniem, kas ir norādīti ceļvedī [Produktu lokalizāciju un tulkojumu pieejamības ceļvedis](https://aka.ms/dynamics_365_international_availability_deck). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
 
 Šajā tēmā ir resursu saraksti, ar kuru palīdzību varat paveikt šādas darbības: 
 - uzzināt vairāk par valstij/reģionam specifisku risinājumu izstrādi;
@@ -42,15 +41,16 @@ Tālāk norādītajos resursos ir sniegti norādījumi un noderīga informācija
 -   [Atdalīt lokalizācijas modeļus](separate-localization-models.md)
 -   [Lietot valsts/reģiona kontekstu](apply-country-context.md)
 -   [Normatīvās sertifikācijas](regulatory-certifications.md)
--   [Klasificēt lokalizācijas līdzekļus](classify-localization-features.md)
+-   [Lokalizācijas līdzekļu klasificēšana](classify-localization-features.md)
 -   [Valstu kodi – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Lokalizācijas atjauninājumi un saziņa
+## <a name="regulatory-updates-and-communication"></a>Normatīvie atjauninājumi un saziņa
 Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jaunajiem lokalizācijas līdzekļiem. 
 
-### <a name="localization-updates"></a>Lokalizācijas atjauninājumi
--   [Lokalizācijas portāls](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (tiek atjaunināts vienreiz nedēļā)
--   [LCS problēmu meklētājs](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts vienreiz dienā)
+### <a name="regulatory-updates"></a>Normatīvie atjauninājumi
+-   [Normatīvie atjauninājumi](../../financials/localizations/regulatory-updates.md)
+-   [Lokalizācijas portāls](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (tiek atjaunināts katru nedēļu)
+-   [LCS problēmu meklētājs](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts katru dienu)
 
 ### <a name="communication-and-alerts"></a>Saziņa un brīdinājumi
 -   [Normatīvā uzraudzība un informēšana par normatīvajiem jaunumiem](regulatory-watch-communication.md)
@@ -67,14 +67,14 @@ Elektronisko pārskatu (ER) veidošanas rīks ļauj konfigurēt elektronisko dok
 -   [Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektroniskās pārskatu veidošanas adresāti](../analytics/electronic-reporting-destinations.md)
 -   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektronisko pārskatu veidošanas konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Konfigurēt elektroniskos pārskatus, lai atgādātu datus pakalpojumā Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektronisko dokumentu izveide un programmu datu atjaunināšana, izmantojot elektronisko pārskatu veidošanas rīku](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Elektronisko atskaišu veidošanas konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Elektronisko atskaišu konfigurēšana, lai nogādātu datus uz Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektronisko dokumentu izveide un programmu datu atjaunināšana, izmantojot elektronisko atskaišu veidošanas rīku](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Uzdevumu ceļveži
 Uzdevumu ceļveži ir pieejami produktu palīdzības rūtī, un tajos ir iekļauti norādījumi saistībā ar svarīgākajiem biznesa procesiem. Varat atvērt uzdevuma ceļvedi, lai uzzinātu par biznesa procesa darbībām, vai arī varat to atskaņot, lai skatītu informāciju par biznesa procesu un datu ievadi.
 
-Lai skatītu uzdevumu ceļvežus, pārejiet uz Microsoft Dynamics 365 for Finance and Operations lapu un noklikšķiniet uz Palīdzība. Lapā pieejamo uzdevumu ceļvežu saraksts ir uzskaitīts palīdzības rūtī. Palīdzības rūti varat izmantot arī uzdevumu ceļvežu meklēšanai pēc nosaukuma.
+Lai atrastu uzdevumu ceļvežus, pārejiet uz kādu lapu programmā Microsoft Dynamics 365 for Finance and Operations un noklikšķiniet uz Palīdzība. Uzdevumu ceļveži, kas izmanto attiecīgo lapu, ir uzskaitīti palīdzības rūtī. Palīdzības rūti varat izmantot arī uzdevumu ceļvežu meklēšanai pēc nosaukuma.
 
 Papildinformāciju skatiet sadaļā [Uzdevumu ceļveži](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
@@ -118,7 +118,6 @@ Papildinformāciju skatiet sadaļā [Uzdevumu ceļveži](../../fin-and-ops/get-s
         - [Amerikas Savienotās Valstis](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

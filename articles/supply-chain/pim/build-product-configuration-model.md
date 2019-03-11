@@ -1,13 +1,13 @@
 ---
-title: "Izveidot preces konfigurācijas modeli"
-description: "Nepieciešamība konfigurēt produktus tā, lai tie apmierinātu īpašas prasības, kļūst par normu nevis par izņēmumu gan starpuzņēmumu attiecībās, gan uzņēmumu un patērētāju attiecībās."
+title: Izveidot preces konfigurācijas modeli
+description: Nepieciešamība konfigurēt produktus tā, lai tie apmierinātu īpašas prasības, kļūst par normu nevis par izņēmumu gan starpuzņēmumu attiecībās, gan uzņēmumu un patērētāju attiecībās.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327462"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Izveidot preces konfigurācijas modeli
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti.
 
 Lietotāja definētu tabulas ierobežojumu veido lietotājs. Lietotājs atlasa atribūtu tipu kombināciju, kas pārstāvēs tabulas kolonnas, un pēc tam ievada vērtības no atlasīto atribūtu tipu domēniem, lai veidotu rindas tabulas ierobežojumā.  
 
-Sistēmas definēts tabulas ierobežojums tiek definēts, atlasot Microsoft Dynamics 365 for Finance and Operations tabulu, kas ir jāizmanto kā atsauce, un pēc tam atlasot šīs tabulas laukus, kas ir jāizmanto ierobežojuma kolonnu veidošanai. Tabulas ierobežojuma rindas ir Dynamics 365 for Finance and Operations tabulas rindas, kas ir pieejamas konfigurēšanas laikā.  
+Sistēmas definēts tabulas ierobežojums tiek definēts, atlasot kā atsauci izmantojamo Microsoft Dynamics 365 for Finance and Operations tabulu un pēc tam atlasot šī tabulas laukus, lai izveidotu ierobežojuma kolonnas. Tabulas ierobežojuma rindas ir Dynamics 365 for Finance and Operations tabulas rindas, kas ir pieejamas konfigurēšanas laikā.  
 
 Tabulas ierobežojums tiek iekļauts preces konfigurācijas modelī, izmantojot atsauci uz tabulas ierobežojuma definīciju un kartējot attiecīgos atribūtus modelī tabulas ierobežojuma kolonnās.
 
@@ -158,7 +157,6 @@ Konfigurācijas mērķis ir izveidot atšķirīgus preces variantus, kas atbilst
 ### <a name="multiple-sites-and-intercompany"></a>Vairākas vietas un vairāki uzņēmumi
 
 Ja konfigurācija tiks veikta vietā vai pat uzņēmumā, kas atšķiras no vietas vai uzņēmuma, kurā notiks ražošana, tiks izveidots MK un maršruts un tie tiks nodoti piegādātāja vietai piegādātāja uzņēmumā. Preces variants tiks izlaists visos uzņēmumos, kas piedalās piegādes ķēdē.
-
 
 
 

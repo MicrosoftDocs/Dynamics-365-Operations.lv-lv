@@ -1,13 +1,13 @@
 ---
 title: Anketas
-description: "Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus."
+description: Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305277"
 ---
-
 # <a name="questionnaires"></a>Anketas
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
 
-Izmantojot dažādus programmatūrā Microsoft Dynamics 365 for Finance and Operations pieejamos līdzekļus, varat pielāgot anketu atbilstoši savām īpašajām prasībām. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
+Varat pielāgot anketu atbilstoši savām konkrētajām prasībām, izmantojot dažādus programmā Microsoft Dynamics 365 for Finance and Operations pieejamos līdzekļus. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
 
 -   pārbaudītu darbinieku un kandidātu profesionālās iemaņas;
 -   Novērtēt, vai kursu dalībnieki apguva kursa materiālu.
@@ -58,5 +57,4 @@ Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzd
 [Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
-
 

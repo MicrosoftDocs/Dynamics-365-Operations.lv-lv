@@ -1,13 +1,13 @@
 ---
-title: "Virsgrāmatas sadalījuma kārtulas"
-description: "Šajā rakstā ir sniegta informācija par virsgrāmatas sadalījuma kārtulām. Tajā ir aprakstīti dažādi šo sadalījuma kārtulu un tiem izmantojamo sadalīšanas metožu komponenti."
+title: Virsgrāmatas sadalījuma kārtulas
+description: Šajā rakstā ir sniegta informācija par virsgrāmatas sadalījuma kārtulām. Tajā ir aprakstīti dažādi šo sadalījuma kārtulu un tiem izmantojamo sadalīšanas metožu komponenti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365734"
 ---
-
 # <a name="ledger-allocation-rules"></a>Virsgrāmatas sadalījuma kārtulas
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Katrai sadales kārtulai ir četri komponenti: vispārīgais, avota, galamērķa
 -   **Galamērķis** — šis komponents definē, kā sadales aprēķina rezultāts jāsadala un jāiekļauj norēķinos. Piemēram, katrai nodaļai var būt viena galamērķa rinda.
 -   **Korespondējošais konts** — šis komponents definē, kā jānosaka galvenie konti un dimensijas korespondējošiem ierakstiem, kas līdzsvaro galamērķa ierakstus. Lietotāja definētus ierakstus parasti izmanto to kontu un dimensiju vietā, kuru pamatā ir avots. Kad opcija **Datu avots** ir iestatīta uz **Fiksēta vērtība**, opciju **Avots** nevar izmantot kā opciju.
 -   **Virsgrāmatas sadalījuma pamata kārtulas** — šīs kārtulas izmanto savus avota filtra kritērijus, lai noteiktu, kuru virsgrāmatas bilanci lietot sadalījumam (piemēram, ieņēmumu departamenta). Katra sadalījuma pamata kārtulu var izmantot ar vairākām sadalījuma kārtulām.
-
 
 
 

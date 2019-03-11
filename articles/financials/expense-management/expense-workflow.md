@@ -1,13 +1,13 @@
 ---
-title: "Izdevumu darbplūsma"
-description: "Šajā tēmā ir izskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations var izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārskatīšanas procesu."
+title: Izdevumu darbplūsma
+description: Šajā tēmā ir paskaidrots, kā varat izmantot darbplūsmu sistēmu programmā Microsoft Dynamics 365 for Finance and Operations, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārbaudes procesu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310120"
 ---
-
 # <a name="expense-workflow"></a>Izdevumu darbplūsma
 
 [!include [banner](../includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Finance and Operations var izmantot darbplūsmu sistēmu, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārskatīšanas procesu. Varat iestatīt darbplūsmu, kas izmanto tālāk norādītos kritērijus, lai noteiktu, kurš apstiprina izdevumu pārskatus.
+Varat izmantot darbplūsmu sistēmu programmā Microsoft Dynamics 365 for Finance and Operations, lai modulī Izdevumu pārvaldība iestatītu izdevumu pārskatu pārbaudes procesu. Varat iestatīt darbplūsmu, kas izmanto tālāk norādītos kritērijus, lai noteiktu, kurš apstiprina izdevumu pārskatus.
 
 - Darbinieku pārskatu veidošanas hierarhija un sākotnēji definētu apstiprinājumu ierobežojumi
 - Vairāku līmeņu apstiprinājums, kas atbalsta pagaidu apstiprinātājus un galīgo apstiprinātāju
@@ -58,4 +57,3 @@ Nākamais process ir izdevumu pārskatam paredzētas izdevumu pārvaldības darb
 Kad atbilstība šīm prasībām ir pārbaudīta, izdevumu pārskats tiek grāmatots.
 
 Kad izdevumu pārskats ir iegrāmatots, tiek autorizēts maksājums par šo izdevumu pārskatu un darbinieks saņem kompensāciju.
-

@@ -1,13 +1,13 @@
 ---
-title: "Maksāšanas metodes zvanu centros"
-description: "Šajā tēmā ir aprakstītas dažādās maksāšanas metodes, ko varat izmantot zvanu centrā programmatūrā Microsoft Dynamics 365 for Retail."
+title: Maksāšanas metodes zvanu centros
+description: Šajā tēmā ir aprakstītas dažādās maksāšanas metodes, ko varat izmantot zvanu centrā programmatūrā Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355384"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Maksāšanas metodes zvanu centros
 
 [!include [banner](includes/banner.md)]
 
-Programmatūrā Microsoft Dynamics 365 for Retail zvanu centra kanāla konfigurācijā ietilpst iestatījums ar nosaukumu **Iespējot pasūtījuma pabeigšanu**. Šis iestatījums palīdz garantēt, ka visi pasūtījumi, ko kanāla lietotāji izveido, tiek izlaisti uz pasūtījuma apstrādi tikai tad, ja tiem ir priekšapmaksa vai iepriekš apstiprināts maksājums, kas ietilpst apstiprināto pielaižu robežās. Ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, zvanu centra lietotāji var ievadīt maksājumus attiecībā uz debitoru pārdošanas pasūtījumiem, izmantojot zvanu centra maksājumu apstrādes līdzekļus. Ja šis iestatījums ir izslēgts, zvanu centra lietotāji nevar izmantot zvanu centra maksājumu apstrādes līdzekļus, bet viņi joprojām var lietot priekšapmaksas attiecībā uz pārdošanas pasūtījumiem, izmantojot standarta funkcionalitāti Debitoru parādi.
+Programmatūrā Microsoft Dynamics 365 for Retail zvanu centra kanāla konfigurācijā ietilpst iestatījums ar nosaukumu **Iespējot pasūtījuma pabeigšanu**. Šis iestatījums palīdz garantēt, ka visi pasūtījumi, ko kanāla lietotāji izveido, tiek izlaisti uz pasūtījuma apstrādi tikai tad, ja tiem ir priekšapmaksa vai iepriekš apstiprināts maksājums, kas ietilpst apstiprināto pielaižu robežās. Ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, zvanu centra lietotāji var ievadīt maksājumus attiecībā uz debitoru pārdošanas pasūtījumiem, izmantojot zvanu centra maksājumu apstrādes līdzekļus. Ja šis iestatījums ir izslēgts, zvanu centra lietotāji nevar izmantot zvanu centra maksājumu apstrādes līdzekļus, bet viņi joprojām var lietot priekšapmaksas attiecībā uz pārdošanas pasūtījumiem, izmantojot standarta funkcionalitāti Debitoru parādi.
 
 Kā daļa no kanāla konfigurēšanas uzņēmumiem ir iespēja definēt maksājuma metodes, kas ir atļautas zvanu centra kanālam. Zvanu centra kanāls izmanto tādas pašas maksāšanas metodes, kādas ir definētas mazumtirdzniecības veikalu kanāliem.
 
@@ -54,4 +53,3 @@ Definējot maksājuma metodes, tām ir jābūt saistītam ar virsgrāmatu vai ba
 Atmaksas apstrādāšanas scenārijos zvanu centrs izmanto arī dažas maksāšanas metodes, kas ir definētas modulī Debitoru parādi. Lai konfigurētu šīs maksāšanas metodes, dodieties uz **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra atmaksas metodes**. Jums ir jāizpilda šī konfigurācija, lai apstrādātu debitoriem paredzētus atmaksas čekus. Piemēram, ja debitors sākotnēji maksāja par pasūtījumu, izmantojot skaidru naudu vai čeku, lietotājs varētu vēlēties nosūtīt debitoram atmaksas čeku, izmantojot moduli Debitoru parādi. Šajā gadījumā zvanu centra skaidras naudas un čeka maksājuma tipiem ir jābūt kartētiem uz pareizo maksāšanas metodi modulī Debitoru parādi, lai palīdzētu nodrošināt pareizu atmaksas apstrādāšanu.
 
 Turklāt, ja lietotājs apstrādā atgriešanas pasūtījumu kā zvanu centra lietotājs programmatūrā Retail, bet viņš vai viņa nevar šo atgriešanu saistīt ar sākotnējo pārdošanu, tad **Atgriešanas** maksāšanas metode ir jādefinē zvanu centra parametros. Dodieties uz **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri** un pēc tam cilnē **RMA/Atgriešana**, laukā **Maksāšanas metode** pārliecinieties, ka ir definēta kāda maksāšanas metode. Maksāšanas metode būs tā maksāšanas metode, kas tiek izmantota atmaksām. Parasti tā tiek definēta kā čeka metode vai debitora konta metode.
-

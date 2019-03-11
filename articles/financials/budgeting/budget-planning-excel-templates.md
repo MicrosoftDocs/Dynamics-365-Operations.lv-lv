@@ -1,13 +1,13 @@
 ---
-title: "Budžeta plānošanas veidnes programmai Excel"
-description: "Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem."
+title: Budžeta plānošanas veidnes programmai Excel
+description: Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, ko var izmantot kopā ar budžeta plāniem.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337053"
 ---
-
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, kuras var izmantot ar budžeta plāniem.
+Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, ko var izmantot kopā ar budžeta plāniem.
 
 Šajā tēmā ir parādīts, ka izveidot Excel veidnes, kuras tiks izmantotas ar budžeta plāniem, izmantojot standarta demonstrācijas datu kopu un piesakoties lietotājam ar administratora tiesībām. Papildinformāciju par darbu ar budžeta plānošanu skatiet sadaļā [Budžeta plānošanas apskats.](budget-planning-overview-configuration.md) Lai apgūtu moduļa konfigurēšanas un lietošanas pamatprincipus, varat izpildīt arī apmācību [Budžeta plānošana 101](budget-plan.md).
 
@@ -61,7 +60,7 @@ Excel veidnē būs visi elementi no budžeta plāna dokumenta izkārtojuma, kur 
 [![Paraugs](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Lai nepieļautu iespējamas problēmas saistībā ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot programmu Excel, vienam un tam pašam lietotājam ir jāpiesakās gan programmas Microsoft Dynamics 365 for Finance and Operations, gan Microsoft Dynamics Office pievienojumprogrammā Datu savienotājs.
+> Lai nepieļautu iespējamas problēmas saistībā ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot programmu Excel, programmā Microsoft Dynamics 365 for Finance and Operations un Microsoft Dynamics Office pievienojumprogrammā Datu savienotājs ir jāpiesakās vienam un tam pašam lietotājam.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Pievienot galveni budžeta plāna dokumenta veidnei
 Lai pievienotu galvenes informāciju, atlasiet augšējo rindu Excel failā un ievietojiet tukšas rindas. Programmā **Datu savienotājs** noklikšķiniet uz **Dizains**, lai Excel failam pievienotu galvenes laukus.
@@ -136,7 +135,6 @@ Jā, budžeta plāna veidnēs darbojas vairums Excel standarta iespēju. Ieteica
 Varat arī izveidot un lietot rakurstabulas un diagrammas budžeta datu papildu grupēšanai un vizualizēšanai. Cilnē **Dati**, grupā **Savienojumi** noklikšķiniet uz **Atsvaidzināt visu** un pēc tam noklikšķiniet uz **Savienojuma rekvizīti**. Noklikšķiniet uz cilnes **Lietojums**. Sadaļā **Atsvaidzināt** atzīmējiet izvēles rūtiņu **Atsvaidzināt datus faila atvēršanas laikā**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

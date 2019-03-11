@@ -1,13 +1,13 @@
 ---
-title: "Ražošanas iestatījumu prasības"
-description: "Šajā rakstā ir sniegta informācija par iestatīšanas prasībām, kas jāievēro, lai varētu strādāt ar ražošanas kontroli."
+title: Ražošanas iestatījumu prasības
+description: Šajā rakstā ir sniegta informācija par iestatīšanas prasībām, kas jāievēro, lai varētu strādāt ar ražošanas kontroli.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366631"
 ---
-
 # <a name="production-setup-requirements"></a>Ražošanas iestatījumu prasības
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Ja strādājat ar maršrutiem, tad operācijas ir nepieciešams definēt katram 
 1.  **Ražošanas grupas** — iestatiet ražošanas grupas, lai izveidotu relācijas starp ražošanas pasūtījumu un virsgrāmatas kontiem. Virsgrāmatas konti tiek izmantoti, lai pasūtījumus grāmatotu vai tos grupētu atskaišu veidošanai.
 2.  **Ražošanas kopas** — izveidojiet ražošanas pūlus, lai grupētu ražošanas pasūtījumus; šādi varat apstrādāt steidzamus ražošanas pasūtījumus vai dzēst un grāmatot pasūtījumu grupas.
 3.  **Rekvizīti** — definējiet rekvizītus, lai izveidotu īpašus atribūtus, kurus varat piešķirt saviem resursiem, lai kontrolētu ražošanas secību. Šie atribūti ir savienoti ar darba laiku veidni.
-
 
 
 

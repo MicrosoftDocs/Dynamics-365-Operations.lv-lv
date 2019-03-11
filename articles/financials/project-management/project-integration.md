@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Project klienta integrācija"
-description: "Projekta grafika plānošana un uzturēšana var būt sarežģīta, tādēļ projektu vadītājiem jāizmanto rīki, kas palīdz pārvaldīt šo uzdevumu. Integrācija ar Microsoft Project klientu nodrošina atbalstu projekta darba sadalījuma struktūras atvēršanai un pārvaldībai."
+title: Microsoft Project klienta integrācija
+description: Projekta grafika plānošana un uzturēšana var būt sarežģīta, tādēļ projektu vadītājiem jāizmanto rīki, kas palīdz pārvaldīt šo uzdevumu. Integrācija ar Microsoft Project klientu nodrošina atbalstu projekta darba sadalījuma struktūras atvēršanai un pārvaldībai.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317480"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Microsoft Project klienta integrācija
 
 [!include [banner](../includes/banner.md)]
@@ -33,24 +32,24 @@ ms.lasthandoff: 03/26/2018
 Projekta grafika plānošana un uzturēšana var būt sarežģīta, tādēļ projektu vadītājiem jāizmanto rīki, kas palīdz pārvaldīt šo uzdevumu. Integrācija ar Microsoft Project klientu nodrošina atbalstu projekta darba sadalījuma struktūras atvēršanai un pārvaldībai. Projektu vadītājs var publicēt visas izmaiņas Finance and Operations projekta darba sadalījuma struktūrā.
 
 > [!NOTE]
-> Ja izmantojat Microsoft Dynamics 365 for Finance and Operations jūlija atjauninājumu, jums ir jāinstalē KB 4054797 un 4055884.
+> Ja lietojat Microsoft Dynamics 365 for Finance and Operations jūlija atjauninājumu, ir jāinstalē KB 4054797 un 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Microsoft Project klienta pievienojumprogrammas konfigurēšana
-Lai iespējotu integrāciju ar Microsoft Project klientu, lietotāja klienta Microsoft Project programmā ir jāinstalē Microsoft Dynamics 365 pievienojumprogramma. To var izdarīt, atverot darbvietu **Projektu pārvaldība**.
+Lai iespējotu integrāciju ar Microsoft Project klientu, lietotāja klienta Microsoft Project lietojumprogrammā ir jāinstalē Microsoft Dynamics 365 pievienojumprogramma. To var izdarīt, atverot darbvietu **Projektu pārvaldība**.
 
 •   Darbvietas sadaļā **Saites** > **Iestatīšana** noklikšķiniet uz **Konfigurēt projekta klienta pievienojumprogrammu**.
 
 •   Noklikšķiniet uz **Atvērt**, un, kad tiek parādīta attiecīgā uzvedne, noklikšķiniet uz **Palaist**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Esošas melnraksta darba sadalījuma struktūras atvēršana un rediģēšana Microsoft Project klientā
-Ja projektam programmā Finance and Operations jau ir izveidota darba sadalījuma struktūra, šo darba sadalījuma struktūru var atvērt Microsoft Project klienta lietojumprogrammā, ja darba sadalījuma struktūrai ir melnraksta statuss. Lai atvērtu no lapas **Projekts**, cilnē **Plāns** noklikšķiniet uz saites **Atvērt programmā Microsoft Project**. Šo lapu var arī atvērt no Microsoft Project klienta lietojumprogrammas, cilnē **Microsoft Dynamics 365** noklikšķinot uz **Atvērt**. Sarakstā atlasiet vienumus **Juridiska persona** un **Projekts**.
+Ja projektam programmā Finance and Operations jau ir izveidota darba sadalījuma struktūra, šo darba sadalījuma struktūru var atvērt Microsoft Project klienta lietojumprogrammā, ja darba sadalījuma struktūrai ir melnraksta statuss. Lai to atvērtu lapā **Projekts**, cilnē **Plāns** noklikšķiniet uz saites **Atvērt programmā Microsoft Project**. Šo lapu var arī atvērt Microsoft Project klienta lietojumprogrammā, noklikšķinot uz **Atvērt** cilnē **Microsoft Dynamics 365**. Sarakstā atlasiet vienumus **Juridiska persona** un **Projekts**.
 
 > [!NOTE]
-> Ja izmantojat pārlūkprogrammu Internet Explorer, jums jānoklikšķina uz **Saglabāt**, lai manuāli atvērtu no vietas, kurā fails ir lejupielādēts. Vai arī noklikšķiniet uz **Saglabāt un atvērt**, lai failu atvērtu Microsoft Project klientā. Saglabājot failu, nepārdēvējiet to.
+> Ja izmantojat pārlūkprogrammu Internet Explorer, ir jānoklikšķina uz **Saglabāt**, lai manuāli atvērtu failu vietā, kur tas ir lejupielādēts. Vai arī noklikšķiniet uz **Saglabāt un atvērt**, lai failu atvērtu Microsoft Project klientā. Saglabājot failu, nepārdēvējiet to.
 
-Pirms veicat jebkādu rediģēšanu failā, izmantojot Microsoft Project klientu, jums tas ir jāpaņem. Cilnē **Microsoft Dynamics 365** noklikšķiniet uz **Paņemt**. Tādējādi citi lietotāji nevarēs vienlaikus rediģēt darba sadalījuma struktūru no programmas Finance and Operations. Lai darba sadalījuma struktūru publicētu pēc rediģēšanas pabeigšanas, cilnē **Microsoft Dynamics 365** noklikšķiniet uz **Atdot**.
+Pirms faila rediģēšanas, izmantojot Microsoft Project klientu, tas ir jāpaņem. Cilnē **Microsoft Dynamics 365** noklikšķiniet uz **Paņemt**. Tādējādi citi lietotāji nevarēs vienlaikus rediģēt darba sadalījuma struktūru programmā Finance and Operations. Lai publicētu darba sadalījuma struktūru pēc rediģēšanas pabeigšanas, noklikšķiniet uz **Atdot** cilnē **Microsoft Dynamics 365**.
 
-Ja projekta grupa jau ir pievienota projektam programmā Finance and Operations, resursu saraksts tiks aizpildīts ar grupas dalībniekiem. Ja projekta grupa vēl nav pievienota projektam, varat atlasīt resursus un izveidot grupu Microsoft Project klientā, cilnē **Microsoft Dynamics 365** noklikšķinot uz pogas **Resursi**. 
+Ja projekta grupa jau ir pievienota projektam programmā Finance and Operations, resursu saraksts tiks aizpildīts ar grupas dalībniekiem. Ja projektam vēl nav pievienota projekta grupa, varat atlasīt resursus un izveidot grupu Microsoft Project klientā, noklikšķinot uz pogas **Resursi** cilnē **Microsoft Dynamics 365**. 
 
 Ar programmu Finance and Operations kā daļa no atdošanas procesa tiks sinhronizēti tālāk norādītie dati.
 
@@ -89,9 +88,9 @@ Lai izveidotu jaunu darba sadalījuma struktūru, izmantojot Microsoft Project k
 
 4.  Atlasiet vienumu **Projekts**.
 
-5.  Cilnē **Microsoft Dynamics 365** noklikšķiniet uz **Paņemt**.
+5.  Noklikšķiniet uz **Paņemt** cilnē **Microsoft Dynamics 365**.
 
-6.  Kad fails ir gatavs publicēšanai programmā Finance and Operations, cilnē **Microsoft Dynamics 365** noklikšķiniet uz **Atdot**.
+6.  Kad fails ir gatavs publicēšanai programmā Finance and Operations, noklikšķiniet uz **Atdot** cilnē **Microsoft Dynamics 365**.
 
 ## <a name="replace-the-existing-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a>Esošas darba sadalījuma struktūras aizstāšana esošam projektam, izmantojot Microsoft Project klientu
 Lai izveidotu jaunu darba sadalījuma struktūru, izmantojot Microsoft Project klientu, un aizstātu esošu darba sadalījuma struktūru esošam projektam, veiciet tālāk norādītās darbības.
@@ -128,4 +127,3 @@ Lai izveidotu jaunu darba sadalījuma struktūru, izmantojot Microsoft Project k
 8.  Atlasiet vienumu **Kalendārs**, ko izmantot resursiem.
 
 11. Noklikšķiniet uz **Labi**.
-

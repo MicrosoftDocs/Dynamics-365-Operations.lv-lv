@@ -1,13 +1,13 @@
 ---
-title: "Žurnāla ierakstu un transakciju skatīšana"
-description: "Šajā rakstā ir paskaidroti dažādie veidi, kādā varat skatīt žurnālu ierakstus un transakcijas."
+title: Žurnāla ierakstu un transakciju skatīšana
+description: Šajā rakstā ir paskaidroti dažādie veidi, kādā varat skatīt žurnālu ierakstus un transakcijas.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: robinr
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366700"
 ---
-
 # <a name="view-journal-entries-and-transactions"></a>Žurnāla ierakstu un transakciju skatīšana
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Papildus finanšu pārskatiem varat izmantot tālāk aprakstītos Virsgrāmatas 
 - [Uzskaites avota pārlūks](../accounts-payable/accounting-source-explorer.md)
 - [Finanšu pārskati](financial-reporting-getting-started.md)
 - [Skatīt žurnālu ierakstus](tasks/view-journal-entries-or-transactions.md)
-
 
 
 

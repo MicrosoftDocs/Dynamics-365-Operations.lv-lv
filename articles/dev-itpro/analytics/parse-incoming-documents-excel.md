@@ -1,13 +1,13 @@
 ---
-title: "Ienākošo dokumentu parsēšana Excel formātā"
-description: "Šajā tēmā ir sniegta informācija par elektronisko pārskatu (Electronic Reporting — ER) formātu noformēšanu, lai parsētu ienākošajos Microsoft Excel failos esošo saturu."
+title: Ienākošo dokumentu parsēšana Excel formātā
+description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu izveides (Electronic Reporting — ER) formātu izstrādi ienākošo Microsoft Excel failu satura parsēšanai.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 490a9325be25908564a40478a1ee29feea67fc02
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 32fd82f0e46068c7ed7bfcfddc4ff84603bd20b4
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367482"
 ---
-
 # <a name="parse-incoming-documents-in-excel-format"></a>Ienākošo dokumentu parsēšana Excel formātā
 
 [!include[banner](../includes/banner.md)]
 
-Varat noformēt elektronisko pārskatu (Electronic Reporting — ER) formātus tā, lai parsētu ienākošos Microsoft Excel failus, kas ataino datus Microsoft Excel darbgrāmatās (XLSX formāta failus). Pēc tam saturu no šiem failiem varat izmantot, lai atjauninātu programmas datus. Tas ir noderīgi tālāk norādītajos gadījumos.
+Varat izstrādāt tādus elektronisko pārskatu izveides (ER) formātus ienākošo Microsoft Excel failus parsēšanai, kas atveido Microsoft Excel darbgrāmatās (XLSX formāta failos) ietvertos datus. Pēc tam saturu no šiem failiem varat izmantot, lai atjauninātu programmas datus. Tas ir noderīgi tālāk norādītajos gadījumos.
 
 - Esat noformējis jaunu modeli un formātu un vēlaties tos pārbaudīt izpildlaikā. Tādā gadījumā programma Excel simulē faktiskos programmas datus.
 - Pārvaldāt datus ārpus jūsu programmas programmā Excel un vēlaties šos datus importēt, lai iesniegtu noteiktu pārskatu.
 
-Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevumu ceļvežus **ER Datu importēšana no Microsoft Excel faila (1. daļa. Formāta noformēšana)** un **ER Datu importēšana no Microsoft Excel faila (2. daļa. Datu importēšana)** (tie veido daļu no 7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)). Šajos uzdevumu ceļvežos ir izklāstīts, kā ienākošo Excel failu var parsēt, izmantojot ER formātu, lai importētu informāciju no ienākošiem dokumentiem un atjauninātu programmas datus. Šo uzdevumu ceļvežu failus varat lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684).
+Lai uzzinātu vairāk par šo līdzekli, noskatieties uzdevumu ceļvežus **ER: datu importēšana no Microsoft Excel faila (1. daļa. Formāta izstrāde)** un **ER: datu importēšana no Microsoft Excel faila (2. daļa. Datu importēšana)** (tie ir ietverti biznesa procesā 7.5.4.3. IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)). Šajos uzdevumu ceļvežos ir izklāstīts, kā ienākošo Excel failu var parsēt, izmantojot ER formātu, lai importētu informāciju no ienākošiem dokumentiem un atjauninātu programmas datus. Šo uzdevumu ceļvežu failus varat lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684).
 
 Lai izpildītu iepriekš minētos uzdevumu ceļvežus, lejupielādējiet tālāk norādītos failus.
 
@@ -48,4 +47,3 @@ Ja vēl neesat atskaņojis tālāk norādīto uzdevuma ceļvedi, [ER Nepiecieša
 | Satura apraksts    | Fails                                                            |
 |------------------------|-----------------------------------------------------------------|
 | ER modeļa konfigurācija | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
-

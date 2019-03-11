@@ -1,14 +1,14 @@
 ---
-title: "Norādīt starpkursu"
-description: "Šajā tēmā ir sniegta informācija par starpkursiem programmā Microsoft Dynamics 365 for Finance and Operations."
+title: Norādīt starpkursu
+description: Šajā tēmā ir sniegta informācija par starpkursiem programmā Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 112f77738b33aae94babe0cf8e9e61ff2ea3d004
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320240"
 ---
-
 # <a name="specify-the-cross-rate"></a>Norādīt starpkursu
 
 [!include [banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Piemēram, uzskaites valūta ir USD, rēķina valūta ir CAD, un maksājuma val�
 3.  Debitora gadījumā saraksta lapā **Visi debitori** dodieties uz **Apkopot > Nosegt atvērtās darbības**. Kreditora gadījumā saraksta lapā **Visi kreditori** dodieties uz **Rēķins > Nosegt atvērtās darbības**. 
 4.  Izvēlieties transakciju, kas ir primārais maksājums, un pēc tam noklikšķiniet uz **Atzīmēt maksājumu**. Tiek atzīmēta izvēles rūtiņa kolonnā **Atzīmēt**, un kolonnā **Primārais maksājums** tiek parādīta informācijas ikona. 
 5.  Laukā **Starpkurss** ievadiet norēķina dienā spēkā esošo apmaiņas kursu starp rēķina valūtu un maksājuma valūtu. 
-

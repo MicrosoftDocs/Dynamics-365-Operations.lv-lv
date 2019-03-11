@@ -1,13 +1,13 @@
 ---
-title: "Detalizētas bankas darbību saskaņošanas iestatīšanas process"
-description: "Detalizētā bankas darbību saskaņošana ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana."
+title: Detalizētas bankas darbību saskaņošanas iestatīšanas process
+description: Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357339"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Detalizētas bankas darbību saskaņošanas iestatīšanas process
 
 [!include [banner](../includes/banner.md)]
 
-Detalizētā bankas darbību saskaņošana ļauj importēt elektroniskus bankas izrakstus un automātiski saskaņot tos ar bankas transakcijām programmā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
+Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmatūrā Microsoft Dynamics 365 for Finance and Operations.  Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
 
 Pirms detalizētās bankas darbību saskaņošanas funkcionalitātes lietošanas ir jāizpilda vairāki sagatavošanās darbi. Papildinformāciju par bankas izrakstu importa iestatīšanu skatiet rakstā [Iestatīt bankas izraksta importēšanas procesu](set-up-advanced-bank-reconciliation-import-process.md).  Tālāk ir aprakstītas prasības saskaņošanas procesa iestatīšanai.
 
@@ -59,7 +58,6 @@ Funkcionalitāte **Lietot bankas izrakstus kā elektronisko maksājumu apstiprin
 Lauks **Bankas konta nosaukumu izrakstos** ir nosaukums, kas tiek izmantots bankas kontam jūsu elektroniskajos bankas izrakstos.  Šis nosaukums tiek lietots, kad nepieciešams noteikt, kādas transakcijas importēt bankas kontam no izraksta, kurā var būt iekļauta informācija par vairākiem bankas kontiem. 
 
 Opcija **Saskaņot pēc importēšanas** automātiski validē šo bankas izrakstu, izveido jaunu bankas saskaņošanu un darblapu, ka arī izpilda noklusējuma atbilstības kārtulu kopu.  Šī funkcionalitāte procesu automatizē līdz vietai, kur transakciju atbilstība ir jānosaka manuāli.  Importēšanas laikā bankas konta iestatījums tiek pārslēgts uz noklusējuma vērtībām.
-
 
 
 

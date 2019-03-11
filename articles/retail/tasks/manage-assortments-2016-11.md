@@ -1,13 +1,13 @@
---- 
-title: "Pārvaldīt preču klāstus (2016. gada novembris)"
-description: "Šajā procedūrā tiek demonstrēts, kā izveidot un publicēt jaunu preču klāstu, un tajā tiek izmantots demonstrācijas datu uzņēmums USRT."
+---
+title: Pārvaldīt preču klāstus (2016. gada novembris)
+description: Šajā procedūrā tiek demonstrēts, kā izveidot un publicēt jaunu preču klāstu, un tajā tiek izmantots demonstrācijas datu uzņēmums USRT.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363664"
 ---
 # <a name="manage-assortments-november-2016"></a>Pārvaldīt preču klāstus (2016. gada novembris)
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Šajā procedūrā tiek demonstrēts, kā izveidot un publicēt jaunu preču klāstu, un tajā tiek izmantots demonstrācijas datu uzņēmums USRT. Šai procedūrai ir nepieciešama Dynamics AX programmas versija 7.0.1 vai jaunāka un Dynamics AX platformas versija 7.1.  
+Šajā procedūrā tiek demonstrēts, kā izveidot un publicēt jaunu preču klāstu, un tajā tiek izmantots demonstrācijas datu uzņēmums USRT. Šīs procedūras izpildei ir nepieciešama Dynamics AX lietojumprogrammas versija 7.0.1 vai jaunāka un Dynamics AX platformas versija 7.1.  
 
 1. Noklikšķiniet uz Kategorijas un preču pārvaldība.
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/14/2018
 ## <a name="publish-an-assortment"></a>Publicēt preču klāstu
 1. Noklikšķiniet uz Publicēt.
 2. Noklikšķiniet uz Jā.
-
 

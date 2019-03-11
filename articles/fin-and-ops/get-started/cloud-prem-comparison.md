@@ -1,52 +1,51 @@
 ---
-title: "Mākoņa un lokālās versijas līdzekļu salīdzinājums"
-description: "Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā."
+title: Mākoņa un lokālās versijas līdzekļu salīdzinājums
+description: Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā.
 author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313984"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir parādīts, vai katrs līdzeklis ir pieejams šajos produktos:
 
-+ Dynamics 365 for Finance and Operations kalendārs (mākonis)
-+ Microsoft Dynamics 365 for Finance and Operations (lokāla izvietošana)
++ Dynamics 365 for Finance and Operations (mākoņa versija)
++ Dynamics 365 for Finance and Operations (lokālā versija)
 
 Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās versijas atbalsts ir norādīts līdzeklim kopumā. Ja konkrēti līdzekļi atšķiras no apgabala kopumā, tad līdzekļi ir uzskaitīti atsevišķā kolonnas Līdzeklis rindā.
 
-## <a name="dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations
+## <a name="dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations
 
-| Apgabals | Līdzeklis | Mākonī | Lokāli |
+| Zona | Līdzeklis | Mākonis | Darba telpās |
 |---|---|---|---|
 | Atbilstība un sertifikācijas | | Jā | Jā |
-| | SOC 1 1. tipa sertifikācija | Jā | Nē |
+| | SOC 1 1. tipa sertifikācija | Jā | Nav |
 | Izmaksu uzskaite | | Jā | Jā |
-| | Izmaksu uzskaites satura pakotne pakalpojumam Power BI | Jā | Nē |
-| | Izmaksu uzskaites darbvieta mobilajai programmai | Jā | Nē |
+| | Power BI satura pakotne Izmaksu uzskaite | Jā | Nav |
+| | Izmaksu uzskaites darbvieta mobilajai programmai | Jā | Nav |
 | Izmaksu pārvaldība | | Jā | Jā |
-| | Izmaksu pārvaldības satura pakotne pakalpojumam Power BI | Jā | Nē |
+| | Power BI satura pakotne Izmaksu pārvaldība | Jā | Nav |
 | Datu pārvaldība un integrācija | | Jā | Jā |
 | | Konfigurācijas vadīts paplašinājums | Jā | Nav |
 | | Eksportēt datus uz jūsu pašu datu noliktavu | Jā | Jā |
@@ -57,12 +56,12 @@ Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās ver
 | Palīdzība | | Jā | Nē |
 | Personāla vadība | | Jā | Jā |
 | Informācija | | Jā | Jā |
-| | Elektroniskie pārskati (ER) — integrācija pakalpojumā LCS | Jā | Nē |
-| | Elektroniskie pārskati (ER) — integrācija pakalpojumā SharePoint | Jā | Nē |
-| | Integrācija pakalpojumā PowerBI.com | Jā | Nē |
+| | Elektroniskie pārskati (ER) — integrācija pakalpojumā LCS | Jā | Nav |
+| | Elektroniskie pārskati (ER) — integrācija pakalpojumā SharePoint | Jā | Nav |
+| | Integrācija pakalpojumā PowerBI.com | Jā | Nav |
 | | Analītiskās darbvietas | Jā | Nē |
-| | Inteliģents biznesa process: ieteikumi | Jā | Nē |
-| | Power BI pārskatu izveidošana ar OData, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus | Jā | Nē |
+| | Inteliģents biznesa process: ieteikumi | Jā | Nav |
+| | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus | Jā | Nav |
 | | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru | Jā | Nē |
 | | Telemetrija tiek pārsūtīta uz mākoni | Jā | Nē |
 | Krājumu vadība | | Jā | Jā |
@@ -77,23 +76,23 @@ Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās ver
 | Payroll | | Jā | Jā |
 | | Tiešais depozīts | Jā | Nē |
 | Sagāde un avoti | | Jā | Jā |
-| | Darbalaika beigu atzīmēšana ārējā katalogā no pirkšanas pieprasījuma | Jā | Nē |
-| | Power BI pārskati Pirkšanas tēriņu analīze | Jā | Nē |
+| | Darbalaika beigu atzīmēšana ārējā katalogā no pirkšanas pieprasījuma | Jā | Nav |
+| | Power BI satura pakotnes Pirkšanas tēriņu analīze pārskati | Jā | Nav |
 | Preču informācijas pārvaldība | | Jā | Jā |
 | Preces šablona dati | | Jā | Jā |
 | Ražošana | | Jā | Jā |
-| | Power BI pārskati Ražošanas veiktspēja | Jā | Nē |
+| | Power BI satura pakotnes Ražošanas veiktspēja pārskati | Jā | Nav |
 | Projektu vadība un uzskaite | | Jā | Jā |
 | Pārdošana | | Jā | Jā |
-| | Power BI pārskati Pārdošanas un ienesīguma veiktspēja | Jā | Nē |
+| | Power BI satura pakotnes Pārdošanas un ienesīguma veiktspēja pārskati | Jā | Nav |
 | Drošība | | Jā | Jā |
 | Pakalpojumu pārvaldība | | Jā | Jā |
 | Piegādes ķēdes pārvaldība | | Jā | Jā |
 | Transportēšanas pārvaldība | | Jā | Jā |
 | Kreditoru sadarbība | | Jā | Nav |
-| Noliktavas pārvaldība | | Jā | Jā |
+| Noliktavas vadība | | Jā | Jā |
 | | Mobilā noliktavas programma | Jā | Jā |
-| | Power BI pārskati Noliktavas | Jā | Nē |
+| | Power BI satura pakotnes Noliktavas pārskati | Jā | Nav |
 | Tīmekļa klients | | Jā | Jā |
 | | Uzdevumu ierakstītājs — Saglabāt vai ielādēt uzdevumu ierakstus no BPM bibliotēkas | Jā | Nē |
 | Atbalsts | | Jā | Jā |
@@ -111,20 +110,19 @@ Nākamajās tabulās ir uzskaitīti produktu apgabali. Mākoņa un lokālās ver
 | | Vides atjaunināšana | Jā | Nē |
 | Trace Parser un PerfTimer | | Jā | Nē |
 | Jaunināt | | Jā | Jā |
-| | Jaunināt | Jā | Nē |
+| | Jaunināt | Jā | Nav |
 | | Jaunināšana un atbalsts iepriekšējām versijām | Jā | Nav |
 | Visual Studio izstrāde | | Jā | Jā |
 
 ### <a name="retail"></a>Retail 
 Lai apskatītu mazumtirdzniecības iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, skatiet tēmu [Retail iespējas, kas ir pieejamas lokālos izvietojumos](../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
+## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 
-| Laukumu | Funkcija | Mākonis | Darba telpās |
+| Zona | Līdzeklis | Mākonis | Darba telpās |
 |---|---|---|---|
 | Visi Talent apgabali | Visi Talent līdzekļi | Jā | Nav |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Līdzekļi, kas nav ieviesti lokālos izvietojumos](features-not-implemented-on-prem.md)
-

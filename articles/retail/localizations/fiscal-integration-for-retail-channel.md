@@ -1,13 +1,13 @@
 ---
-title: "Finanšu integrācija mazumtirdzniecības kanālam"
-description: "Šajā tēmā ir sniegts apskats par finanšu integrāciju programmai Retail POS."
+title: Apskats par mazumtirdzniecības kanālu finanšu integrāciju
+description: Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Microsoft Dynamics 365 for Retail.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377139"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Finanšu integrācija mazumtirdzniecības kanālam
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Apskats par mazumtirdzniecības kanālu finanšu integrāciju
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir apskats par finanšu integrācijas funkcionalitāti, kas ir pieejama programmā Microsoft Dynamics 365 for Retail. Finanšu integrācijas funkcionalitāte ir struktūra, kas ir izstrādāta lokālo finanšu likumu atbalstīšanai ar mērķi novērst krāpšanu mazumtirdzniecības nozarē. Tālāk ir nepilnīgs saraksts ar tipiskajiem scenārijiem, uz kuriem attiektos finanšu integrācijas lietošana.
+## <a name="introduction"></a>Ievads
 
-- Finanšu dokumentu drukāšana un izsniegšana debitoram.
-- Informācijas iesniegšanas drošināšana saistībā ar POS veikto pārdošanu un atgriešanu uz ārēju pakalpojumu, ko nodrošina iestāde.
-- Datu aizsardzības izmantošana ar elektronisko parakstu, ko ir autorizējusi iestāde.
+Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Microsoft Dynamics 365 for Retail. Finanšu integrācija ietver integrāciju ar dažādām finanšu ierīcēm un pakalpojumiem, kas nodrošina mazumtirdzniecības pārdošanas darbību finanšu reģistrāciju saskaņā ar vietējiem likumiem par nodokļiem, kuru mērķis ir novērst ar nodokļiem saistītu krāpniecību mazumtirdzniecības nozarē. Tālāk ir norādīti daži tipiski scenāriji, kuros var izmantot finanšu integrāciju. 
 
-Šajā tēmā ir sniegtas vadlīnijas par finanšu integrācijas iestatīšanu, lai lietotāji varētu veikt tālāk norādītos uzdevumus. 
+- Reģistrējiet mazumtirdzniecības pārdošanas darbību finanšu ierīcē, kas ir savienota ar programmu Retail Point of Sale (POS), piemēram fiskālo printeri, un izdrukājiet debitoram paredzētu finanšu dokumentu.
+- Drošā veidā iesniedziet ar programmā Retail POS veiktajām pārdošanas un atgriešanas darbībām saistīto informāciju ārējā tīmekļa pakalpojumā, kura darbību nodrošina nodokļu iestāde.
+- Palīdziet nodrošināt pārdošanas transakciju datu nemaināmību, izmantojot ciparparakstus.
 
-- Konfigurēt finanšu savienotājus, kas ir finanšu ierīces vai pakalpojumi, kurus izmanto finanšu reģistrācijas nolūkiem, piemēram, finanšu datu saglabāšanai, digitālajiem parakstiem un drošinātai iesniegšanai.
-- Konfigurēt dokumentu nodrošinātāju, kas nosaka finanšu dokumentu ģenerēšanas izvades metodi un algoritmu.
-- Konfigurēt finanšu reģistrācijas procesu, kas nosaka darbību secību un katrā darbībā izmantoto savienotāju grupu.
-- Piešķirt finanšu reģistrācijas procesus POS funkcionalitātes profiliem.
-- Piešķirt savienotāju tehniskos profilus aparatūras profiliem (lokālajiem finanšu savienotājiem) vai POS funkcionalitātes profiliem (citiem finanšu savienotāju tipiem).
+Programmas Retail finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata mazumtirdzniecības scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugs sastāv no vairākiem programmas Retail komponentu paplašinājumiem un ir iekļauts programmas Retail programmatūras izstrādes komplektā (SDK). Papildinformāciju par finanšu integrācijas paraugiem, kas ir pieejami komplektā Retail SDK, skatiet rakstā [Finanšu integrācijas paraugi komplektā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail SDK apskats](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Finanšu integrācijas izpildes plūsma
-Nākamajā scenārijā ir parādīta parastā finanšu integrācijas izpildes plūsma.
+Lai nodrošinātu tādu scenāriju atbalstu, kurus neatbalstīta finanšu integrācijas paraugs, integrētu programmu Retail POS ar citām finanšu ierīcēm vai pakalpojumiem, vai izpildītu citās valstīs vai reģionos spēkā esošās prasības, ir jāpaplašina kāds no esošajiem finanšu integrācijas paraugiem vai jāizveido jauns paraugs, kā piemēru izmantojot esošu paraugu.
 
-1. Inicializējiet fiskālās reģistrācijas procesu.
-  
-   Kad ir izpildītas kādas darbības, kurām ir nepieciešama finanšu reģistrācija, piemēram, pēc mazumtirdzniecības transakcijas pabeigšanas, šis finanšu reģistrācijas process ir saistīts ar pašreizējo POS funkcionalitātes profilu.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Finanšu reģistrācijas process un finanšu integrācijas paraugi finanšu ierīcēm
 
-1. Meklējiet finanšu savienotāju.
-   
-   Katrai finanšu reģistrācijas procesā ietvertajai finanšu reģistrācijas darbībai sistēma nosaka atbilstību ar finanšu savienotāju sarakstu. Šiem savienotājiem ir funkcionālais profils, kas ir ietverts norādītajā savienotāju grupā, un saraksts ar savienotājiem, kuru tehniskais profils ir saistīts ar pašreizējo aparatūras profilu (tikai savienotāju tipam, kas ir vienāds ar **Lokāls**) vai ar pašreizējo POS funkcionalitātes profilu (citiem savienotāju tipiem).
-   
-1. Veiciet finanšu integrāciju.
+Finanšu reģistrācijas process programmā Retail POS var sastāvēt no vienas vai vairākām darbībām. Katra darbība ietver noteiktu mazumtirdzniecības transakciju vai notikumu finanšu reģistrāciju vienā finanšu ierīcē vai pakalpojumā. Finanšu reģistrācijai finanšu ierīcē, kas ir savienota ar aparatūras staciju, tiek izmantoti tālāk norādītie risinājuma komponenti.
 
-   Sistēma izpilda visas nepieciešamās darbības, kuras nosaka ar atrasto savienotāju saistītā komplektācija. Tas tiek darīts saskaņā ar šim savienotājam iepriekšējā darbībā atrastā funkcionālā profila un tehniskā profila iestatījumiem.
+- **Commerce Runtime (CRT) paplašinājums** — šo komponents nodrošina mazumtirdzniecības transakcijas/notikuma datu serializēšanu formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci, no finanšu ierīces saņemto atbilžu parsēšanu un atbilžu saglabāšanu kanāla datu bāzē. Šis paplašinājums nosaka arī konkrētās transakcijas un notikumus, kas ir jāreģistrē. Šis komponents bieži tiek saukts par *finanšu dokumentu nodrošinātāju*.
+- **Aparatūras stacija paplašinājums** — šis komponents nodrošina saziņas ar finanšu ierīci inicializāciju, pieprasījumu un tiešu komandu sūtīšanu uz finanšu ierīci, pamatojoties uz mazumtirdzniecības transakcijas/notikuma datiem, kas ir izgūti no finanšu dokumenta, un atbilžu saņemšanu no finanšu ierīces. Šis komponents bieži tiek saukts par *finanšu savienotāju*.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Pirms finanšu integrācijas lietošanas nepieciešamā iestatīšana
-Pirms sākat lietot finanšu integrācijas funkcionalitāti, vajadzētu definēt tālāk norādītos iestatījumus.
+Finanšu ierīces finanšu integrācijas paraugā ir ietverti CRT un aparatūras stacijas paplašinājumi attiecīgi finanšu dokumentu nodrošinātājam un finanšu savienotājam. Tajā ir ietvertas arī tālāk norādītās komponentu konfigurācijas.
 
-- Lapā **Mazumtirdzniecības parametri** definējiet numuru sēriju finanšu funkcionālā profila numuram.
-  
-- Lapā **Mazumtirdzniecības koplietojamie parametri** definējiet numuru sērijas tālāk norādītajām atsaucēm.
-  
-  - Finanšu tehniskā profila numurs
-  - Finanšu savienotāja grupas numurs
-  - Reģistrācijas procesa numurs
+- **Finanšu dokumentu nodrošinātāja konfigurācija** — šajā konfigurācijā ir definēta izvades metodi un finanšu dokumentu formāts. Tajā ir ietverta arī nodokļus un maksājuma metožu datu kartēšana, lai padarītu no programmas Retail POS saņemtos datus saderīgus ar finanšu ierīces programmaparatūrā iepriekš definētajām vērtībām.
+- **Finanšu savienotāja konfigurācija** — šajā konfigurācijā ir definēta fiziskā saziņa ar konkrēto finanšu ierīci.
 
-- Sadaļā **Retail > Kanāla iestatīšana > Finanšu integrācija > Finanšu savienotāji** izveidojiet vienumu **Finanšu savienotājs** katrai ierīcei vai pakalpojumam, ko plānojat izmantot finanšu integrācijas nolūkos.
+Noteiktas POS kases sistēmas finanšu reģistrācijas process tiek definēts, izmantojot atbilstošo iestatījumu POS funkcionalitātes profilā. Papildinformāciju par to, kā konfigurēt finanšu reģistrācijas procesu, augšupielādēt finanšu dokumentu nodrošinātāju un finanšu savienotāju konfigurācijas un mainīt to parametrus, redzēt rakstā [Finanšu reģistrācijas procesa iestatīšana](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Sadaļā **Retail > Kanāla iestatīšana > Finanšu integrācija > Finanšu dokumentu nodrošinātāji** izveidojiet vienumu **Finanšu dokumentu nodrošinātājs** visiem finanšu savienotājiem. Datu kartēšana tiek uzskatīta par daļu no finanšu dokumentu nodrošinātāja. Lai iestatītu citus datu kartējumus tam pašam savienotājam (piemēram, ja pastāv valstij raksturīgi noteikumi), jums vajadzētu izveidot dažādus finanšu dokumentu nodrošinātājus.
+Tālāk sniegtajā piemērā ir aprakstīta tipiska finanšu reģistrācijas izpildes plūsma finanšu ierīcei. Plūsma sākas ar notikumu POS sistēmā (piemēram, pārdošanas transakcijas pabeigšanu), un tajā ir ietverta tālāk norādītā darbību secība.
 
-- Sadaļā **Retail > Kanāla iestatīšana > Finanšu integrācija > Savienotāja funkcionālie profili** izveidojiet vienumu **Savienotāja funkcionālais profils** katram finanšu dokumentu nodrošinātājam.
-  - Atlasiet savienotāja nosaukumu.
-  - Atlasiet kādu dokumentu nodrošinātāju.
-  - Cilnē **Pakalpojuma iestatīšana** norādiet PVN likmju iestatījumus.
-  - Cilnē **Datu kartēšana** norādiet PVN kodu kartējumu un norēķinu tipu kartējumu.
+1. POS sistēma pieprasa finanšu dokumentu no programmas CRT.
+2. Programma CRT nosaka, vai pašreizējam notikumam ir nepieciešama finanšu reģistrācija.
+3. Pamatojoties uz finanšu reģistrācijas procesa iestatījumiem, programma CRT nosaka finanšu savienotāju un atbilstošo finanšu dokumentu nodrošinātāju, kas ir jāizmanto finanšu reģistrācijai.
+4. Programma CRT izpilda finanšu dokumentu nodrošinātāju, kas ģenerē finanšu dokumentu (piemēram, XML formāta dokumentu), kurš atbilst mazumtirdzniecības transakcijai vai notikumam.
+5. POS sistēma nosūta programmas CRT sagatavoto finanšu dokumentu uz aparatūras staciju.
+6. Aparatūras stacija izpilda finanšu savienotāju, kas apstrādā finanšu dokumentu un pārsūta to uz finanšu ierīci vai pakalpojumu.
+7. POS sistēma analizē no finanšu ierīces vai pakalpojuma saņemto atbildi, lai noteiktu, vai finanšu reģistrācija ir bijusi veiksmīga.
+8. Programma CRT saglabā atbildi kanāla datu bāzē.
 
-  #### <a name="examples"></a>Piemēri 
+![Risinājuma shēma](media/emea-fiscal-integration-solution.png "Risinājuma shēma")
 
-  |  | Formāts | Piemērs | 
-  |--------|--------|--------|
-  | PVN likmju iestatījumi | value : VATrate | 1 : 2000, 2 : 1800 |
-  | PVN kodu kartējums | VATcode : value | vat20 : 1, vat18 : 2 |
-  | Norēķinu tipu kartējums | TenderTyp : value | Cash : 1, Card : 2 |
+## <a name="error-handling"></a>Kļūdu apstrāde
 
-- Izveidojiet vienumu **Finanšu savienotāju grupas** sadaļā **Retail > Kanāla iestatīšana > Finanšu integrācija > Finanšu savienotāju grupa**. Savienotāju grupa ir apakškopa no funkcionālajiem profiliem, kas ir saistīti ar finanšu savienotājiem, kuri veic identiskas funkcijas un finanšu reģistrācijas procesā tiek izmantoti tajā pašā posmā.
+Finanšu integrācijas struktūra nodrošina tālāk norādītās opcijas kļūmju apstrādei finanšu reģistrācijas laikā.
 
-   - Pievienojiet funkcionālos profilus savienotāju grupai. Lapā **Funkcionālie profili** noklikšķiniet uz **Pievienot** un atlasiet kādu profila numuru.
-   - Ja vēlaties pārtraukt šī funkcionālā profila izmantošanu, vienumu **Atspējot** iestatiet uz **Jā**. 
-   
-     Šīs izmaiņas ietekmē tikai pašreizējo savienotāju grupu. Varat turpināt tā paša funkcionālā profila lietošanu citās savienotāju grupās.
+- **Mēģināt vēlreiz** — operatori var izmantot šo opciju gadījumā, ja kļūmi var ātri novērst un var atkārtoti izpildīt finanšu reģistrāciju. Piemēram, šo opciju var izmantot gadījumā, ja finanšu ierīce nav pievienota vai fiskālajā printerī ir beidzies vai iesprūdis papīrs.
+- **Atcelt** — šī opcija sniedz operatoriem iespēju atlikt pašreizējās transakcijas vai notikuma finanšu reģistrāciju, ja tā neizdodas. Pēc reģistrācijas atlikšanas operators var turpināt strādāt ar POS sistēmu un veikt jebkuru operāciju, kam nav nepieciešama finanšu reģistrācija. Kad POS sistēmā notiek notikums, kam ir nepieciešama finanšu reģistrācija (piemēram, tiek atvērta jauna transakcija), tiek automātiski parādīts kļūdu apstrādes dialoglodziņš, kurā operatoram tiek paziņots, ka iepriekšējā transakcija netika pareizi reģistrēta, un tiek norādītas kļūdu apstrādes iespējas.
+- **Izlaist** — operatori var izmantot šo opciju gadījumā, ja finanšu reģistrāciju var izlaist noteiktos apstākļos un POS sistēmā var turpināt veikt parastās operācijas. Piemēram, šo opciju var izmantot gadījumā, ja pārdošanas transakciju, kuras finanšu reģistrācija neizdevās, var reģistrēt īpašā papīra žurnālā.
+- **Atzīmēt kā reģistrētu** — operatori var izmantot šo opciju gadījumā, ja transakcija ir reģistrēta finanšu ierīcē (piemēram, ir izdrukāts finanšu dokuments), taču, saglabājot finanšu atbildi kanāla datu bāzē, ir radusies kļūme.
 
-     >[!NOTE]
-     > Vienā savienotāju grupā katram finanšu savienotājam var būt tikai viens funkcionālais profils.
+> [!NOTE]
+> Opcijas **Izlaist** un **Atzīmēt kā reģistrētu** pirms lietošanas ir jāaktivizē finanšu reģistrācijas procesa ietvaros. Turklāt operatoriem ir jāpiešķir atbilstošās atļaujas.
 
-- Sadaļā **Retail > Kanāla iestatīšana > Finanšu integrācija > Savienotāja tehniskie profili** izveidojiet vienumu **Savienotāja tehniskais profils** katram finanšu savienotājam.
-  - Atlasiet savienotāja nosaukumu.
-  - Atlasiet savienotāja tipu. 
-      - **Lokāls** — iestatiet šo tipu fiziskām ierīcēm vai programmām, kas ir instalētas lokāla mašīnā.
-      - **Iekšējs** — iestatiet šo tipu finanšu ierīcēm un pakalpojumiem, kas ir saistīti ar Retail Server.
-      - **Ārējs** — ārējiem finanšu pakalpojumiem, piemēram, tīmekļa portālam, ko nodrošina nodokļu iestāde.
-    
-  - Norādiet iestatījumus cilnē **Savienojums**.
+Izmantojot opcijas **Izlaist** un **Atzīmēt kā reģistrētu**, tiek iespējoti informācijas kodi, lai reģistrētu noteiktu informāciju par kļūmi, piemēram, kļūmes iemeslu vai pamatojumu finanšu reģistrācijai vai transakcijas reģistrācijas atzīmēšanai. Papildinformāciju par to, kā iestatīt kļūdu apstrādes parametrus, skatiet rakstā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > Iepriekš ielādētās konfigurācijas atjaunināta versija tiek ielādēta gan funkcionālajam, gan tehniskajam profilam. Ja atbilstošs savienotājs vai dokumentu nodrošinātājs jau tiek lietots, jums par to tiek paziņots. Pēc noklusējuma tiek saglabātas visas izmaiņas, kas funkcionālajā un tehniskajā profilā ir veiktas manuāli. Lai šos profilus pārrakstītu ar noklusējuma parametru kopu no kādas konfigurācijas, noklikšķiniet uz **Atjaunināt** lapā **Savienotāja funkcionālie profili** un lapā **Savienotāja tehniskie profili**.
- 
-- Sadaļā **Retail > Kanāla iestatīšana > Finanšu integrācija > Finanšu reģistrācijas process** izveidojiet vienumu **Finanšu reģistrācijas process** katram unikālajam finanšu integrācijas procesam. Reģistrācijas procesu nosaka reģistrācijas darbību secība un katrā darbībā izmantotā savienotāju grupa. 
-  
-  - Pievienojiet procesam reģistrācijas darbības.
-      - Noklikšķiniet uz **Pievienot**.
-      - Atlasiet kādu savienotāja tipu.
-      
-      >[!NOTE]
-      > Šis lauks nosaka, vai sistēma tehniskajā profilā meklē savienotāju, aparatūras profilos meklē savienotāja tipu **Lokāls** vai POS funkcionalitātes profilos meklē citus savienotāju tipus.
-      
-   - Atlasiet savienotāju grupu.
-   
-     >[!NOTE]
-     > Noklikšķiniet uz **Validēt**, lai pārbaudītu reģistrācijas procesa struktūras integritāti. Validācijas ir ieteicams veikt tālāk aprakstītajos gadījumos.
-       >- Jaunam reģistrācijas procesam, kad ir pabeigti visi iestatījumi, tostarp saistīšana ar POS funkcionalitātes profiliem un aparatūras profiliem.
-       >- Pēc atjauninājumu veikšanas esošam reģistrācijas procesam.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finanšu atbildes saglabāšana finanšu transakcijā
 
--  Saistiet finanšu reģistrācijas procesus ar POS funkcionalitātes profiliem sadaļā **Retail > Kanāla iestatīšana > POS iestatīšana > POS profili > Funkcionalitātes profili**.
-   - Noklikšķiniet uz **Rediģēt** un atlasiet vienumu **Procesa numurs** cilnē **Finanšu reģistrācijas process**.
-- Savienotāju tehniskos profilus saistiet ar aparatūras profiliem sadaļā **Retail > Kanāla iestatīšana > POS iestatīšana > POS profili > Aparatūras profili**.
-   - Noklikšķiniet uz **Rediģēt** un pēc tam noklikšķiniet uz **Jauns** cilnē **Finanšu tehniskais profils**.
-   - Atlasiet kādu savienotāja tehnisko profilu laukā **Profila numurs**.
-   
-     >[!NOTE]
-     > Vienam aparatūras profilam varat pievienot vairākus tehnisko profilus. Taču tas netiek atbalstīts, ja aparatūras profilam ir vairākas krustošanās ar jebkuru savienotāju grupu. Lai nepieļautu nepareizus iestatījumus, pēc visu aparatūras profilu atjaunināšanas ir ieteicams validēt reģistrācijas procesu.
+Ja transakcijas vai notikuma finanšu reģistrācija ir veiksmīga, kanāla datu bāzē tiek izveidota finanšu transakcija, kas tiek saistīta ar sākotnējo transakciju vai notikumu. Līdzīgi gadījumā, ja neveiksmīgai finanšu reģistrācijai tiek atlasīta opcija **izlaist** vai **Atzīmēt kā reģistrētu**, šī informācija tiek saglabāta finanšu transakcijā. Finanšu transakcijā ir ietverta finanšu ierīces vai pakalpojuma finanšu atbilde. Ja finanšu reģistrācijas process sastāv no vairākām darbībām, katrai procesa darbībai, kuras rezultāts ir veiksmīga vai neveiksmīga reģistrācija, tiek izveidota finanšu transakcija.
 
+Finanšu transakcijas tiek pārsūtītas uz moduli Mazumtirdzniecība kopā ar mazumtirdzniecības transakcijām, izmantojot funkciju *P darbs*. Lapas **Mazumtirdzniecības veikala transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar mazumtirdzniecības transakcijām.
+
+Finanšu transakcijā ir saglabāta tālāk norādītā detalizētā informācija.
+
+- Detalizēta informācija par finanšu reģistrācijas procesu (par procesu, savienotāju grupu, savienotāju utt.). Turklāt laukā **Kases sistēmas numurs** tiek glabāts finanšu ierīces sērijas numurs, ja šī informācija ir ietverta finanšu atbildē.
+- Finanšu reģistrācijas statuss: **Pabeigta**, ja reģistrācija ir bijusi veiksmīga; **Izlaista**, ja operators neveiksmīgai reģistrācijai ir atlasījis opciju **Izlaist**; vai **Atzīmēta kā reģistrēta**, ja operators ir atlasījis opciju **Atzīmēt kā reģistrētu**.
+- Informācijas koda transakcijas, kas ir saistītas ar atlasīto finanšu transakciju. Lai skatītu informācijas koda transakcijas, kopsavilkuma cilnē **Finanšu transakcijas** atlasiet finanšu transakciju, kuras statuss ir **Izlaista** vai **Atzīmēta kā reģistrēta**, un pēc tam atlasiet vienumu **Informācijas koda transakcijas**.
+
+## <a name="fiscal-texts-for-discounts"></a>Atlaižu finanšu teksts
+
+Dažās valstīs vai reģionos ir spēkā īpašas prasības attiecībā uz papildu tekstu, kas ir jādrukā finanšu dokumentos gadījumā, ja tiek lietotas dažāda veida atlaides. Finanšu integrācijas funkcionalitāte sniedz iespēju iestatīt atlaidei īpašu tekstu, kas tiek drukāts pēc atlaides rindas finanšu dokumentā. Manuālām atlaidēm varat konfigurēt finanšu tekstu informācijas kodam, kas POS funkcionalitātes profilā ir norādīts kā informācijas kods **Preces atlaide**. Papildinformāciju par to, kā iestatīt atlaižu finanšu tekstu, skatiet rakstā [Atlaižu finanšu teksta iestatīšana](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>Finanšu X un Z pārskatu drukāšana
+
+Finanšu integrācijas funkcionalitāte atbalsta tādu dienas beigu pārskatu ģenerēšanu, kas ir raksturīgi integrētajai finanšu ierīcei vai pakalpojumam.
+
+- POS ekrāna izkārtojumam ir jāpievieno jaunas pogas, kas nodrošina atbilstošo operāciju izpildi. Papildinformāciju skatiet rakstā [Finanšu X/Z pārskatu iestatīšana POS sistēmā](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- Finanšu integrācijas paraugā šīs operācijas ir jāsaskaņo ar atbilstošajām finanšu ierīces operācijām.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Finanšu integrācijas paraugi komplektā Retail SDK
+
+Pašlaik kopā ar programmu Retail izlaistajā komplektā Retail SDK ir pieejami tālāk norādītie finanšu integrācijas paraugi.
+
+- [Fiskālā printera integrācijas paraugs izmantošanai Itālijā](emea-ita-fpi-sample.md)
+- [Fiskālā printera integrācijas paraugs izmantošanai Polijā](emea-pol-fpi-sample.md)
+
+Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrācijas funkcionalitāte, taču pašlaik tai netiek izmantota finanšu integrācijas struktūra. Nākamajos atjauninājumos ir plānota šīs funkcionalitātes migrēšana uz finanšu integrācijas struktūru.
+
+- [Ciparparaksts izmantošanai Francijā](emea-fra-cash-registers.md)
+- [Ciparparaksts izmantošanai Norvēģijā](emea-nor-cash-registers.md)
+- [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

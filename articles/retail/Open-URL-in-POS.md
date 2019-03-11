@@ -1,36 +1,35 @@
 ---
-title: "URL atvērš. POS"
-description: "Šajā tēmā ir sniegts apskats par uzlabojumiem, kas ir ieviesti programmas Microsoft Dynamics 365 for Retail preču un debitoru meklēšanas funkcionalitātē."
+title: URL atvērš. POS
+description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Microsoft Dynamics 365 for Retail.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327094"
 ---
-
-# <a name="open-url-in-pos"></a>URL atvērš. POS
+# <a name="open-url-in-pos"></a>URL atvēršana POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā konfig. pogu sistēmā Retail POS (pārdošanas punkts), lai atvērtu URL. Šim līdzeklim nav nepieciešama koda pielāgošana, un to var konfigurēt persona, kurai nav izstrādātāja lomas.
+Šajā tēmā aprakstīts, kā konfig. pogu sistēmā Retail POS (pārdošanas punkts), lai atvērtu URL. Šim līdzeklim nav nepieciešama koda pielāgošana, un to var konfigurēt persona, kurai nav izstrādātāja lomas. Šis līdzeklis ir ietverts programmas Dynamics 365 for Finance and Operations versijas 8.1.3 laidienā (būvējums 8.1.227.10014) un jaunākās tās versijās. 
 
 Šis līdzeklis ļauj konfigurēt pogu sistēmā POS, izmantojot pogu režģa veidotāju, lai atvērtu URL. Pašlaik tas tiek atbalstīts šādās konfigurācijās:
 
@@ -56,18 +55,18 @@ Tīm. URL atvērš. ar POS tiek atbalst. tikai progr. Modern POS operētājs. Wi
 
 ## <a name="open-a-native-app-seamlessly"></a>Integrēti atv. iekš. progr.
 
-Windows, iOS un Android arī ļauj integrētāk atv. programmas, balstoties uz progr. protokola asociāciju. Ja progr. vēl nav konfig., lai veiktu atvēršanu no tīm. pārlūkprogr., var būt vajadzīgs izstrād., lai to konfigurētu.
+Turklāt operētājsistēmas Windows, iOS un Android nodrošina nemanāmāku programmu atvēršanu, pamatojoties uz programmu protokola saistību. Ja progr. vēl nav konfig., lai veiktu atvēršanu no tīm. pārlūkprogr., var būt vajadzīgs izstrād., lai to konfigurētu.
 
 - Windows — sk. [Iesp. progr. vietnēm, lietojot progr. URI apstrād.](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
 - iOS — sk. [Universālās saites izstrādātājiem](https://developer.apple.com/ios/universal-links/).
-- Android — sk. [Android progr. saišu apstrāde](https://developer.android.com/training/app-links/).
+- Informāciju par operētājsistēmu Android skatiet rakstā [Android programmu saišu apstrāde](https://developer.android.com/training/app-links/).
 
-| Klients                | Atvērt jaunā logā | Atv. iekš. pr. | Atvērt ar POS | Detalizēta                           |
+| Debitors                | Atvērt jaunā logā | Atv. iekš. pr. | Atvērt ar POS | Detalizēta                           |
 |-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
 | Modern POS Windows | ✓\*                | ✓               | ✓              | \* Atveras jaunā Modern POS logā |
 | Cloud POS             | ✓\*                | ✓               | X              | \* Atveras jaunā pārlūkprogrammas cilnē        |
 | Modern POS iOS     | ✓\*                | ✓               | X              | \* Atveras jaunā pārlūkprogrammas cilnē        |
-| Modern POS Android | ✓\*                | ✓               | X              | \* Atveras jaunā pārlūkprogrammas cilnē        |
+| Modern POS operētājsistēmā Android | ✓\*                | ✓               | X              | \* Atveras jaunā pārlūkprogrammas cilnē        |
 
 ## <a name="before-you-begin"></a>Pirms sākšanas
 
@@ -84,4 +83,3 @@ Lai konfigurētu URL, kas tiks atvērts POS, veiciet šādas darbības.
 5. Atl. **Atvērt URL** kā darbību.
 6. Ievadiet URL, kuru gribat izmantot.
 7. Konfigurējiet, vai atvērt URL jaunā logā.
-

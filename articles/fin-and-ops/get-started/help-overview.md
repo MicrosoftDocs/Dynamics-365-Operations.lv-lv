@@ -1,13 +1,13 @@
 ---
-title: "Finance and Operations palīdzības sistēma"
-description: "Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem."
+title: Finance and Operations palīdzības sistēma
+description: Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,28 +18,27 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350738"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Finance and Operations palīdzības sistēma
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem.
+Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem.
 
 > [!NOTE]
-> Šie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar programmatūru Retail, produkta nosaukums ir Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar programmatūru Talent, produkta nosaukums ir Dynamics 365 for Talent; un tēmās, kas ir saistītas ar galveno produktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Tālāk minētie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Dynamics 365 for Retail, tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums ir Dynamics 365 for Talent, bet tēmās, kas galvenokārt ir saistītas ar pamatproduktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 Palīdzības sistēmu koplieto šādi produkti:
 
-- Dynamics 365 for Finance and Operations
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
+- Dynamics 365 for Finance and Operations
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations ietver palīdzības sistēmu, kuras pamatā ir divi galvenie komponenti:
 
@@ -60,7 +59,7 @@ Vietne docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operatio
 - **Piekļuve visjaunākajam saturam** — vietne nodrošina ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc tā palīdz nodrošināt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.
 - **Saturs, ko ir rakstījuši speciālisti** — vietne nodrošina plašāku produkta dokumentācijas klāstu, ko var paplašināt kopienas dalībnieki gan korporācijā Microsoft, gan ārpus tās.
 - **Piekļuve dažāda veida saturam** — vietne sniedz iespēju ātri piekļūt dažāda veida saturam par programmatūru Finance and Operations, piemēram, uzdevumu ceļvežiem, videoklipiem un tēmām.
-- **Saturs, kas veicina jūsu biznesa procesus** — vietnē ir ietverts ar biznesa procesiem saistīts saturs, kas tiek nodrošināts, izmantojot biznesa procesu modelētāju (BPM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS).
+- **Saturs, kas veicina jūsu biznesa procesus** — vietnē ir ietverts ar biznesa procesiem saistīts saturs, kas tiek nodrošināts, izmantojot biznesa procesu modelētāju (BPM) portālā Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Meklēšana vietnē docs.microsoft.com
 
@@ -78,7 +77,7 @@ Palīdzību saistībā ar citiem Dynamics 365 produktiem varat iegūt, tos mekl
 
 ### <a name="use-an-rss-feed"></a>RSS plūsmas izmantošana
 
-Lai abonētu visu Unified Operations satura atjauninājumu RSS plūsmu, izmantojiet tālāk norādīto saiti pārlūkprogrammā, kas atbalsta RSS plūsmas, piemēram, Internet Explorer, vai RSS plūsmu pārvaldnieku.
+Lai abonētu visu Unified Operations satura atjauninājumu RSS plūsmu, izmantojiet tālāk norādīto saiti pārlūkprogrammā, kas atbalsta RSS plūsmas, piemēram, Internet Explorer, vai RSS plūsmu pārvaldniekā.
 
 [RSS plūsma](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
@@ -137,7 +136,7 @@ Lai piekļūtu palīdzības saturam programmatūrā Finance and Operations, nokl
 Rūtī Palīdzība varat piekļūt rakstiem, kas attiecas uz Finance and Operations klientu. Kad rūti Palīdzība atverat pirmo reizi un noklikšķināt uz cilnes **Palīdzība**, tiek parādīti raksti, kas attiecas uz programmatūrā Finance and Operations pašlaik atvērto lapu. Ja nav atrasts neviens raksts, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda raksta, pārlūkprogrammā tiek atvērta jauna cilne un tiek parādīts šis raksts.
 
 > [!IMPORTANT]
-> Šī sadaļa neattiecas uz Dynamics 365 for Talent. Programmatūras Talent palīdzības sistēmai tiek automātiski izveidots savienojums ar produkta uzdevumu ceļvežiem. Tāpat programmatūrai Talent nevar izveidot pielāgotus uzdevumu ceļvežus.
+> Šī sadaļa neattiecas uz programmu Dynamics 365 for Talent. Programmatūras Talent palīdzības sistēmai tiek automātiski izveidots savienojums ar produkta uzdevumu ceļvežiem. Tāpat programmatūrai Talent nevar izveidot pielāgotus uzdevumu ceļvežus.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Piekļuve uzdevumu ceļvežiem rūtī Palīdzība
 
@@ -158,7 +157,7 @@ Lapā **Sistēmas parametri** izpildiet šādas darbības:
 2. Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 3. Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
 
-    - Saistībā ar programmatūru Finance and Operations un Microsoft saturu atlasiet 2017. gada februāra QPC vienoto bibliotēku programmatūrai Microsoft Dynamics 365 for Finance and Operations.
+    - Lai iegūtu programmai Finance and Operations paredzēto Microsoft saturu, atlasiet 2017. gada februārī izlaisto QPC vienoto bibliotēku programmai Microsoft Dynamics 365 for Finance and Operations.
     - Versijai Retail mēs bibliotēku izlaidīsim jūlijā.
     - Nav nepieciešams atlasīt bibliotēku versijai Talent — savienojums ar pareizo bibliotēku jums ir izveidots.
 
@@ -194,10 +193,9 @@ Varat izveidot palīdz. lietotājiem, izveidojot pielāg. uzd. ceļvežus, vai s
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Vieso vai sniedz saites uz visu produktu dokumentāciju programmatūrai Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft bezmaksas elektroniskās apmācības vietne. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Sniedz mākonī pieejamu sadarbības darbvietu, ko klienti un partneri var izmantot, lai pārvaldītu Dynamics 365 for Finance and Operations projektus no pirmspārdošanas līdz ieviešanai un operācijām. Šī vietne ir noderīga visām ieviešanas fāzēm. |
-| [Atbalsta emuārs](http://aka.ms/AXSupportBlog)                                                    | Sniedz padomus un metodes, ko publicē Dynamics 365 for Finance and Operations atbalsta darba grupa. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Ir nodrošināta mākonī izvietota sadarbības darbvieta, ko debitori un partneri var izmantot, lai pārvaldītu Dynamics 365 for Finance and Operations projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Šī vietne ir noderīga visām ieviešanas fāzēm. |
+| [Atbalsta emuārs](http://aka.ms/AXSupportBlog)                                                    | Ir sniegti padomi un ieteikumi, ko ir publicējusi Dynamics 365 for Finance and Operations atbalsta darba grupa. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/)                                          | Vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Sniedz novērtējumu un pārdošanas informāciju. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Vieso noteiktus apmācību resursus programmatūrai Finance and Operations, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |
-

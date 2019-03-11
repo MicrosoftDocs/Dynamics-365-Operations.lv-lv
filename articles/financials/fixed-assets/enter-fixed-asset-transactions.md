@@ -1,13 +1,13 @@
 ---
-title: "Pamatlīdzekļu transakciju opcijas"
-description: "Šajā rakstā ir aprakstītas dažādās metodes, kas ir pieejamas pamatlīdzekļu transakciju izveidošanai."
+title: Pamatlīdzekļu transakciju opcijas
+description: Šajā tēmā ir aprakstītas dažādās pieejamās pamatlīdzekļu transakciju izveides metodes.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377186"
 ---
-
 # <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļu transakciju opcijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas dažādās metodes, kas ir pieejamas pamatlīdzekļu transakciju izveidošanai.
+Šajā tēmā ir aprakstītas dažādās pieejamās pamatlīdzekļu transakciju izveides metodes.
 
 Varat iestatīt pamatlīdzekļus, lai integrētu ar kreditoriem, debitoriem, sagādi un izcelsmi un Virsgrāmatu. Ja vēlaties, varat arī pārsūtīt noliktavas krājumu pārvaldību uz pamatlīdzekļiem iekšējai izmantošanai.
 
@@ -66,9 +65,6 @@ Jebkuru pamatlīdzekļa transakcijas tipu var grāmatot lapā Virsgrāmatas žur
 | ** **                               | Debitoru parādi      | Brīva teksta rēķins                         |
 
 
+Pamatlīdzekļa nolietojuma periodu atlikusī vērtība netiek atjaunināta, ja nolietojuma transakcijas veida žurnāla rinda tiek ievadīta manuāli vai importēta, izmantojot datu elementu. Šī vērtība tiek atjaunināta, kad žurnāla rinda tiek izveidota, izmantojot nolietojuma priekšlikuma procesu.
 
 Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asset-integration.md).
-
-
-
-

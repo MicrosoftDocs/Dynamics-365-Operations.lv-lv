@@ -1,13 +1,13 @@
 ---
-title: "Krājumu žurnāli"
-description: "Šajā tēmā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas."
+title: Krājumu žurnāli
+description: Šajā tēmā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas.
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: lv-lv
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361686"
 ---
-
 # <a name="inventory-journals"></a>Krājumu žurnāli
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 Šajā tēmā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas.
 
-Krājumu žurnāli programmatūrā Microsoft Dynamics 365 for Finance and Operations tiek izmantoti, lai grāmatotu dažādu veidu fizisko krājumu transakcijas, piemēram, izejas un ieejas plūsmu grāmatošanai, krājumu kustībām, materiālu komplektu (MK) izveidošanai un fizisko krājumu saskaņošanai. Visi šie krājumu žurnāli tiek izmantoti līdzīgā veidā, bet tie ir sadalīti dažādos tipos.
+Krājumu žurnāli programmā Microsoft Dynamics 365 for Finance and Operations tiek izmantoti, lai grāmatotu dažādu veidu fizisko krājumu transakcijas, piemēram, izejas un ieejas plūsmu grāmatošanu, krājumu kustības, materiālu komplektu (MK) izveidošanu un fizisko krājumu saskaņošanu. Visi šie krājumu žurnāli tiek izmantoti līdzīgā veidā, bet tie ir sadalīti dažādos tipos.
 
 ## <a name="types-of-inventory-journals"></a>Krājumu žurnālu tipi
 Ir pieejami tālāk minētie krājumu žurnālu tipi.
@@ -104,7 +103,7 @@ Datu elementi atbalsta šādus integrācijas scenāriju tipus:
 Plašāku informāciju skatiet sadaļā [Datu elementi](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Ne visi krājumu žurnāli ir iespējoti OData lietošanai, tādēļ nevar izmantot Excel datu savienotāju, lai datus publicētu, atjauninātu un importētu atpakaļ risinājumā Dynamics 365 for Finance and Operations. 
+> Dažos krājumu žurnālos nav iespējota OData lietošana, tāpēc datu publicēšanai, atjaunināšanai un importēšanai atpakaļ programmā Dynamics 365 for Finance and Operations nevarat izmantot Excel datu savienotāju. 
 
 Vēl viena atšķirība starp žurnāla datu elementiem ir iespēja izmantot saliktos elementus, kas ietver gan virsraksta, gan rindu datus. Pašlaik varat izmantot saliktos elementus šādiem mērķiem:
 -   Krājuma korekciju žurnāls
@@ -120,4 +119,3 @@ Vēl viena atšķirība starp žurnāla datu elementiem ir iespēja izmantot sal
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datu elementi](../../dev-itpro/data-entities/data-entities.md)
-

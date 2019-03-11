@@ -1,50 +1,49 @@
 ---
 title: Videoklipi programmai Finance and Operations
-description: "Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar Dynamics 365 for Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs."
+description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar Dynamics 365 for Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317825"
 ---
-
-# <a name="videos-for-finance-and-operations"></a>Videoklipi programmai Finance and Operations
+# <a name="videos-for-finance-and-operations"></a>Video programmai Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar Dynamics 365 for Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
+Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar Dynamics 365 for Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 
-## <a name="dynamics-365-youtube-channel"></a>Dynamics 365 YouTube kanāls
+## <a name="dynamics-365-youtube-channel"></a>Dynamics 365 YouTube kanāls
 
-[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmatūrai Dynamics 365 for Finance and Operations, kas tiek viesoti šajā kanālā.
+[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmatūrai Dynamics 365 for Finance and Operations, kas tiek viesoti šajā kanālā.
 
 Videoklipi ir uzskaitīti pēc līdzekļa, tāpēc ritiniet uz leju, lai redzētu visu sarakstu ar video saturu.
 
 #### <a name="data-integration"></a>Datu integrācija
 
 - [Integrēšana no potenciālā klienta uz skaidru naudu](https://youtu.be/AVV9x5x-XCg)
-- [Darba pasūtījuma sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Darba pasūtījumu sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Datu pārvaldība
 
-- [Datu elementu un datu pakotņu lietošana programmatūrā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [Datu elementu un datu pakotņu lietošana programmatūrā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
 #### <a name="development"></a>Izstrāde
 
@@ -67,30 +66,30 @@ Videoklipi ir uzskaitīti pēc līdzekļa, tāpēc ritiniet uz leju, lai redzēt
 
 #### <a name="intelligence"></a>Informācija
 
-- [Savas datu bāzes (BYOD) pārcelšana uz Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [Izmaksu pārvaldības pakalpojuma Power BI satura izmantošana sistēmā Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [Savas datu bāzes (BYOD) pārcelšana uz Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Izmaksu pārvaldības pakalpojuma Power BI satura izmantošana sistēmā Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 
 - [Līdzekļu bibliotēka pakalpojumā Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
 - [Mākoņvides](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [Atbalsta biļešu veidošana no Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [Atbalsta biļešu veidošana no Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
 - [Vides izvietošana](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
 - [Darba sākšana ar Lifecycle Services](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
 - [Koda izvietošana smilškastes vidē](https://www.youtube.com/watch?v=5azLeOO078k)
 - [Koda izvietošana ražošanas vidē](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
 - [Projektu implementēšana pakalpojumā Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [Koda atjaunināšanas un rīku procesu pārvaldīšana programmatūrā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [Koda jaunināšanas un rīku procesu pārvaldīšana programmatūrā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
 - [Biznesa procesu bibliotēku pārvaldīšana pakalpojumā Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
 - [Metodoloģijas pakalpojumā Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [Dynamics 365 for Finance and Operations ražošanas vides pieprasīšana](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Pieprasīt Dynamics 365 for Finance and Operations ražošanas vidi](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [Datu atsvaidzināšana ražošanas vidē](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Jauna Dynamics 365 for Finance and Operations platformas laidiena uzņemšana pēc platformas 3. atjauninājuma](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Jauna Dynamics 365 for Finance and Operations platformas laidiena uzņemšana pēc platformas 3. atjauninājuma](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Telemetrijas izmantošana, lai uzraudzītu galvenos veiktspējas rādītājus pakalpojumā Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Office integrācija
 
-- [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+- [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
 #### <a name="organization-administration"></a>Organizācijas administrēšana
 
@@ -136,7 +135,7 @@ Tehniskās sarunas [FastTrack for Dynamics 365 Tech Talks](https://infopedia.ev
 
 #### <a name="develop-and-customize"></a>Izstrāde un pielāgošana
 
-- [Azure integrācijas rīki programmatūrai Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Azure integrācijas rīki programmatūrai Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Paplašināmība (DYN384PAL2)](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Kā paplašināt vai būvēt jaunas analītiskās darbvietas (DYN321PAL)](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Veiktspējas testēšanas metode (DYN449PAL2)](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -145,13 +144,13 @@ Tehniskās sarunas [FastTrack for Dynamics 365 Tech Talks](https://infopedia.ev
 #### <a name="financial-reporting"></a>Finanšu pārskati
 
 - [Finanšu pārskati (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [Pārskatu veidošanas opcijas programmatūrā Dynamics 365 for Finance and Operations (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Pārskatu veidošanas opcijas programmatūrā Dynamics 365 for Finance and Operations (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="integration"></a>Integrācija
 
 - [CDS datu integrētājs (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integrācija (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Integrācija starp Dynamics 365 for Sales un Dynamics 365 for Finance & Operations, izmantojot CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Integrācija starp Dynamics 365 for Sales un Dynamics 365 for Finance & Operations, izmantojot CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integrācijas struktūra programmatūrā Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Uzdevumu automatizēšanas struktūra datu pārvaldībai (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
@@ -172,9 +171,9 @@ Tehniskās sarunas [FastTrack for Dynamics 365 Tech Talks](https://infopedia.ev
 
 #### <a name="retail"></a>Retail
 
-- [Dynamics 365 for Retail POS paplašināmība: dziļā ieniršana (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Mazumtirdzniecības arhitektūra un mazumtirdzniecības veikala mēroga vienība (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Jaunumi programmatūras Dynamics 365 for Retail POS paplašināmībā (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Retail POS paplašināmība: dziļā ieniršana (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Mazumtirdzniecības arhitektūra un Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Jaunumi programmatūras Dynamics 365 for Retail POS paplašināmībā (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Atbalsts
 
@@ -182,9 +181,9 @@ Tehniskās sarunas [FastTrack for Dynamics 365 Tech Talks](https://infopedia.ev
 
 #### <a name="upgrade-and-migration"></a>Jaunināšana un migrācija
 
-- [Migrēšanas rīki migrēšanai no AX 2009 uz Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [AX 2009 migrēšanas rīki (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Jaunināšana no AX 2012 uz Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Migrēšanas rīki migrēšanai no AX 2009 uz Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [AX 2009 migrēšanas rīki (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Jaunināšana no AX 2012 uz Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Kā jaunināt uz 7.2 (2017. jūlijs) no 7.0 (RTW)/7.1 (laidiens 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Azure DevOps iestatīšana (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
@@ -196,4 +195,3 @@ Tehniskās sarunas [FastTrack for Dynamics 365 Tech Talks](https://infopedia.ev
 - [Pakāpeniskas izdošanas process (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Vizuālā plānošana ražošanas pasūtījumiem un Kanban darbiem (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Noliktavas integrācija ražošanā (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Noliktavas mobilā programma (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

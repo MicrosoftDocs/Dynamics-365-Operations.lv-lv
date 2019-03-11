@@ -1,13 +1,13 @@
 ---
-title: "Mobilā darbvieta Izdevumu pārvaldība"
-description: "Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu pārvaldība. Šajā darbvietā lietotāji var iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienotu kvīti, un izveidot un pārvaldīt savus izdevumu pārskatus."
+title: Mobilā darbvieta Izdevumu pārvaldība
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu pārvaldība. Šajā darbvietā lietotāji var iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienotu kvīti, un izveidot un pārvaldīt savus izdevumu pārskatus.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344344"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Izmaksu pārvaldības mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Izmaksu pārvaldība**. Šajā darbvietā lietotāji var iegūt un augšupielādēt kvīti, ko vēlāk var pievienot izdevumu pārskatam. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienotu kvīti, un izveidot un pārvaldīt savus izdevumu pārskatus. Turklāt apstiprinātāji var izmantot mobilo darbvietu **Izmaksu pārvaldība**, lai skatītu viņiem piešķirtos izdevumu pārskatus un apstiprinātu vai noraidītu šos izdevumu pārskatus.
 
 
-Šī mobilā darbvieta ir paredzēta lietošanai, izmantojot mobilo programmu Microsoft Dynamics 365 for Unified Operations.
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
 
 
 ## <a name="overview"></a>Pārskats
@@ -42,11 +41,11 @@ Daudzos uzņēmumos komandējuma vai lietišķo izdevumu pārskatam, ko darbinie
 
 Mobilā darbvieta **Izmaksu pārvaldība** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus.
 
-- Uzņemt kvīts fotoattēlu un augšupielādēt to programmā Microsoft Dynamics 365 for Finance and Operations. Šo fotoattēlu vēlāk varat pievienot izdevumu pārskatam.
+- Uzņemiet kvīts fotoattēlu un augšupielādējiet to programmā Microsoft Dynamics 365 for Finance and Operations. Šo fotoattēlu vēlāk varat pievienot izdevumu pārskatam.
 - Augšupielādēt failu kā uzņemtu kvīti. Šo failu vēlāk varat pievienot izdevumu pārskatam.
 - Izveidot jaunu izdevumu rindu, izmantojot pievienoto kvīti. Vēlāk varat pievienot rindas krājumu izdevumu pārskatam un iesniegt to apstiprināšanai un atmaksāšanai.
 
-Ja izmantojat programmu Microsoft Dynamics 365 for Finance and Operations, tad varat izmantot arī tālāk norādītās funkcijas.
+Ja lietojat programmu Microsoft Dynamics 365 for Finance and Operations, varat izmantot arī tālāk norādītos līdzekļus.
 
 - Izveidot jaunu izdevumu pārskatu.
 - Pievienot kredītkartes transakcijas un citus iepriekš izveidotus izdevumus izdevumu pārskatam.
@@ -60,11 +59,11 @@ Ja izmantojat programmu Microsoft Dynamics 365 for Finance and Operations, tad v
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Programmas Microsoft Dynamics 365 for Finance and Operations izmantošanas priekšnoteikumi 
-Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, tad sistēmas administratoram ir jāpublicē mobilā darbvieta **Izmaksu pārvaldība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
+Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Izdevumu pārvaldība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja lietojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju.
-Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformu atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
+Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versi
 <td>Sistēmas administrators</td>
 <td>KB 4019015 ir X++ atjauninājums vai metadatu labojumfails, kas ietver mobilo darbvietu <strong>Izmaksu pārvaldība</strong>. Lai ieviestu KB 4019015, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni</a>, kas ietver modeļus <strong>ApplicationSuite</strong> un <strong>ExpenseMobile</strong>, un pēc tam izvietojamo pakotni augšupielādējiet pakalpojumā LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</li>
@@ -94,7 +93,7 @@ Ja jūsu organizācija ir izvietota Microsoft Dynamics 365 for Operations versi
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobilās programmas lejupielāde un instalēšana
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Operations.
 Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.
 
 - [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 22. Atlasiet **Iesniegt**.
 23. Ievadiet jebkādus komentārus apstiprinātājam.
 24. Atlasiet **Gatavs**.
-

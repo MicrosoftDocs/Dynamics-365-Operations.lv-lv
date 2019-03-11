@@ -1,13 +1,13 @@
 ---
-title: "Segšanas konfigurēšana"
-description: "Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā tēmā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi."
+title: Segšanas konfigurēšana
+description: Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā tēmā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319274"
 ---
-
 # <a name="configure-settlement"></a>Segšanas konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
 Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā tēmā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi. 
 
-Tālāk norādītie parametri ietekmē to, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek apstrādāta darbību segšana. Segšana ir rēķina nosegšanas process saistībā ar maksājumu vai kredīta notu. Šie parametri atrodas lapas **Debitoru moduļa parametri** un **Kreditoru moduļa parametri** apgabalā **Segšana**.
+Segšanu apstrādi programmā Microsoft Dynamics 365 for Finance and Operations ietekmē tālāk norādītie parametri. Segšana ir rēķina nosegšanas process saistībā ar maksājumu vai kredīta notu. Šie parametri atrodas lapas **Debitoru moduļa parametri** un **Kreditoru moduļa parametri** apgabalā **Segšana**.
 
 - **Automātiska segšana** — iestatiet šai opcijai **Jā**, ja transakcija ir jāsedz automātiski attiecībā pret citām atvērtajām transakcijām, kad tā tiek grāmatota. Ja šai opcijai tiek iestatīts **Nē**, lietotāji var manuāli nosegt transakcijas, kad tie ievada maksājumus, vai arī vēlāk, izmantojot lapu **Transakciju nosegšana**.
 - **Termiņatlaižu administrēšana** — norādiet, kā [termiņatlaide tiek apstrādāta, ja rēķins ir pārmaksāts](cash-discount-handling-overpayments.md). Pārmaksas gadījumā termiņatlaidi var samazināt, to var apstrādāt kā starpību vai atstāt kreditora vai debitora kontā.
@@ -68,4 +67,3 @@ Lai izvairītos no papildu uzskaites ierakstiem, debetu un kredītu tajā pašā
 
 -   Bieži vien organizācijas izmanto fiksētas dimensijas, lai nullētu finanšu dimensiju, kas nav nepieciešama. Parasti tas attiecas uz bilances kontiem, piemēram, debitoru parādiem/parādiem kreditoriem. Kontu struktūras var izmantot, lai neizsekotu finanšu dimensijas, kas parasti tiek nullētas.  Varat noņemt finanšu dimensiju bilances kontiem, likvidējot nepieciešamību izmantot fiksētas dimensijas.
 -   Ja jūsu organizācijai ir nepieciešamas fiksētas dimensijas debitoru parādu/parādu kreditoriem galvenajā kontā, atrodiet veidu, kā fiksētās dimensijas pēc noklusējuma lietot maksājumam, lai fiksētās dimensijas vērtība tiktu glabāta kreditora transakcijā šim maksājumam. Tādējādi sistēma var rekonstruēt debitoru parādu/parādu kreditoriem galveno kontu, lai ietvertu fiksētās dimensijas vērtības. Fiksētās dimensijas vērtību var definēt kā noklusējuma vērtību kreditoriem vai žurnāla nosaukumam maksājumu žurnālā.
-

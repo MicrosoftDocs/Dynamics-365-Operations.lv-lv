@@ -1,13 +1,13 @@
 ---
-title: "Zvanu centra kanālu iestatīšana"
-description: "Šajā tēmā ir sniegta informācija par to, kā apstrādāt pasūtījumus zvanu centriem, izmantojot programmatūru Microsoft Dynamics 365 for Retail."
+title: Zvanu centra kanālu iestatīšana
+description: Šajā tēmā ir sniegta informācija par to, kā apstrādāt zvanu centru pasūtījumus, izmantojot Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334845"
 ---
-
 # <a name="set-up-call-center-channels"></a>Zvanu centra kanālu iestatīšana
 
 [!include [banner](includes/banner.md)]
 
-Programmatūrā Microsoft Dynamics 365 for Retail uzņēmums var definēt vairākus zvanu centra kanālus. Zvanu centra kanāli tiek konfigurēti sadaļā **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**, un tie tiek noteikti juridiskajai iestādei.
+Uzņēmums var definēt vairākus zvanu centra kanālus programmā Microsoft Dynamics 365 for Retail. Zvanu centra kanāli tiek konfigurēti sadaļā **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**, un tie tiek noteikti juridiskajai iestādei.
 
 Kad ir izveidots jauns zvanu centra kanāls, tam tiek sistemātiski piešķirts pārvaldības struktūrvienības numurs. Tā kā zvanu centri tiek izveidoti kā pārvaldības struktūrvienības, zvanu centra kanālu lietotāji var piesaistīt dažādiem Retail līdzekļiem, piemēram, preču klāstiem, katalogiem un konkrētiem piegādes veidiem.
 
@@ -77,7 +76,6 @@ Kad definējat zvanu centra kanālu, jums ir jāsaista kanāla lietotāji ar šo
 
 Pārdošanas pasūtījuma virsrakstā karodziņš **Pārdošana mazumtirdzniecībā** pēc noklusējuma tiek ieslēgts visiem pasūtījumiem, ko izveido zvanu centra lietotāji. Pēc tam pasūtījumos var izmantot sistēmas mazumtirdzniecībai noteiktos cenu un veicināšanas līdzekļus.
 
-Lietotāji, kas nav saistīti ar kādu zvanu centra kanālu, izmanto programmatūras Microsoft Dynamics 365 for Finance and Operations standarta pasūtījuma izveides līdzekļus. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Retail pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, mazumtirdzniecības cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
+Lietotāji, kas nav saistīti ar zvanu centra kanālu, izmantot Microsoft Dynamics 365 for Finance and Operations standarta pasūtījuma izveides līdzekļus. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Retail pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, mazumtirdzniecības cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
 
 Kad esat beidzis konfigurēt zvanu centra kanālu un definēt kanāla lietotājus, lai palīdzētu garantēt vēlamo sistēmas uzvedību, pārliecinieties, vai ir definēti visi nepieciešamie zvanu centra parametri sadaļā **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri**. Pārliecinieties, vai ir norādītas arī saistītās numuru sērijas.
-

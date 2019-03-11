@@ -1,13 +1,13 @@
 ---
-title: "Organizēt atskaites komponentus atskaišu veidotājā"
-description: "Kad esat izveidojuši veidošanas blokus un ģenerējuši atskaites, ir noderīgi šos objektus sakārtot, lai lietotāji tos varētu vienkāršāk atrast. Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā."
+title: Organizēt atskaites komponentus atskaišu veidotājā
+description: Kad esat izveidojuši veidošanas blokus un ģenerējuši atskaites, ir noderīgi šos objektus sakārtot, lai lietotāji tos varētu vienkāršāk atrast. Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323943"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 <td>Detalizācijas līmenis</td>
 <td>Norādiet detalizētības līmeni, kāds ir iekļauts atskaitēs.
 <ul>
-<li><strong>Finanšu</strong> — augstākā līmeņa kopsavilkuma pārskats. Jūs nevarat rakties līdz kontiem un dimensijām, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot atskaišu koku.</li>
+<li><strong>Finanšu</strong> — augstākā līmeņa kopsavilkuma pārskats. Nevarat detalizēti skatīt kontus un dimensijas, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot pārskatu koku.</li>
 <li><strong>Finanšu un Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
 <li><strong>Finanšu, Konts un Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
 </ul></td>
@@ -117,7 +116,7 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 </tr>
 <tr>
 <td>Iekļaut visas pārskatu veidošanas valūtas</td>
-<td>Šeit ir uzskaitītas visas papildu atskaišu valūtas, kas ir konfigurētas jūsu Microsoft Dynamics ERP sistēmā. Atzīmējiet šo izvēles rūtiņu, lai ģenerētu papildu atskaites norādītajās valūtās. Lai skatītu šos pārskatus, pakalpojumā Tīmekļa skatītājs noklikšķiniet uz pogas <strong>Valūta</strong> un pēc tam atlasiet valūtu.</td>
+<td>Šeit ir norādītas visas papildu pārskatu valūtas, kas ir konfigurētas jūsu Microsoft Dynamics ERP sistēmā. Atzīmējiet šo izvēles rūtiņu, lai ģenerētu papildu atskaites norādītajās valūtās. Lai skatītu šos pārskatus, pakalpojumā Tīmekļa skatītājs noklikšķiniet uz pogas <strong>Valūta</strong> un pēc tam atlasiet valūtu.</td>
 </tr>
 <tr>
 <td>Datuma informācija netiek saglabāta ar pārskata definīciju</td>
@@ -150,4 +149,3 @@ Ar atskaites definīciju tiek saglabāti tikai noklusējuma bāzes perioda iesta
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-

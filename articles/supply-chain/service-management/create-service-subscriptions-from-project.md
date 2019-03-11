@@ -1,31 +1,30 @@
 ---
 title: Pakalpojuma abonementu izveide no projekta
-description: "Jūs varat izveidot pakalpojuma abonementu no projekta sadaļā Projektu pārvaldība un uzskaite."
+description: Jūs varat izveidot pakalpojuma abonementu no projekta sadaļā Projektu pārvaldība un uzskaite.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8524072425babc8ceb55e8268f64083cd2e6bc9c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 5211270eb45749529c38b3d3d9af974e7650d632
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/24/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347242"
 ---
-
 # <a name="create-service-subscriptions-from-a-project"></a>Pakalpojuma abonementu izveide no projekta    
 
 [!include [banner](../includes/banner.md)]
@@ -54,6 +53,5 @@ Tagad varat izveidot abonementa darbības.
 [Abonementa pārdošanas cenas](subscription-sales-prices.md)
 
   
-
 
 

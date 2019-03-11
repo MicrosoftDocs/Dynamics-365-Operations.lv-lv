@@ -1,13 +1,13 @@
 ---
-title: "PVN atgūšana, izmantojot izdevumu pārvaldību"
-description: "Šajā tēmā ir paskaidrots, kā saņemt atmaksu par attaisnotām pievienotās vērtības nodokļa (PVN) transakcijām."
+title: PVN atgūšana, izmantojot izdevumu pārvaldību
+description: Šajā tēmā ir paskaidrots, kā saņemt atmaksu par attaisnotām pievienotās vērtības nodokļa (PVN) transakcijām.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359570"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>PVN atgūšana, izmantojot izdevumu pārvaldību
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Kad Ārnijs ir gatavs nosūtīt izdevumu pārskata datus uz trešās puses kredi
 Ārnijam jāpārbauda, vai izdevumu pārskata transakcijas ir piemērotas PVN atgūšanai un vai pārskatiem ir pievienotas digitālas kvītis. Lai sāktu attaisnoto izdevumu apstrādi iekšzemes atgūšanai,Ārnijs atver lapu **Izdevumu nodokļu atgūšana** un atlasa izdevumu pārskatu, kas pieprasa pārbaudi. Viņš pārbauda, vai kvītīs ir norādīts uzņēmuma nosaukums nevis darbinieka vārds. PVN atgūšanas nolūkā kvītis jābūt norādītam uzņēmuma nosaukumam. Pēc tam Ārnijs pārbauda, vai tika izmantota pareizā PVN grupa un krājuma PVN kodi.
 
 Kad Ārnijs saņem papīra kvītis, viņš maina izdevumu pārskata statusu uz **Gatavs atgūšanai**. Pēc tam viņš var aizpildīt atgriešanas formu un iesniegt atbilstošajai nodokļu iestādei. Šajā gadījumā atbilstošā nodokļu iestāde ASV ir Internal Revenue Service (IRS).
-

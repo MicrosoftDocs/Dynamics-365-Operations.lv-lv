@@ -1,13 +1,13 @@
---- 
-title: "Izmaksu uzskaites virsgrāmatas datu avota pārvaldība"
-description: "Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas datu avotu."
+---
+title: Izmaksu uzskaites virsgrāmatas datu avota pārvaldība
+description: Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas datu avotu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319320"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Izmaksu uzskaites virsgrāmatas datu avota pārvaldība
 
@@ -36,7 +36,7 @@ Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas dat
 6. Noklikšķiniet uz Jauns.
 7. Laukā Nosaukums ierakstiet kādu vērtību.
 8. Laukā Datu nodrošinātājs ievadiet vai atlasiet kādu vērtību.
-    * Šajā piemērā atlasiet Dynamics 365 for Finance and Operations - virsgrāmatas ierakstus.  
+    * Šim piemēram atlasiet Dynamics 365 for Finance and Operations — Virsgrāmatas ieraksti.  
 9. Laukā Izmaksu elementa dimensija ievadiet vai atlasiet kādu vērtību.
     * Šim piemēram atlasiet Izmaksu elementi.  
 10. Noklikšķiniet uz Saglabāt.
@@ -46,5 +46,4 @@ Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas dat
 13. Noklikšķiniet uz Jauns.
 14. Laukā Grāmatošanas līmenis atlasiet Pašreizējais.
 15. Noklikšķiniet uz OK.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Ražošanas pasūtījuma plānošana"
-description: "Šajā procedūrā parādīts kā plānot ražošanas pasūtījumu."
+---
+title: Ražošanas pasūtījuma plānošana
+description: Šajā procedūrā parādīts kā plānot ražošanas pasūtījumu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 20e7ee023f39cc5d02b0f5b80fbb3ae3ad0c9774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
-ms.contentlocale: lv-lv
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346368"
 ---
 # <a name="schedule-a-production-order"></a>Ražošanas pasūtījuma plānošana
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 02/06/2018
     * Noslodzes grafika lapā tiek rādīta noslodze, kas tika rezervēta, izmantojot darbu plānu, kopējais stundu skaits, kas pašlaik ir rezervēts resursam, un stundu skaits, kas paliek pieejams darbu plānošanai resursam.  
 6. Aizvērt lapu.
 7. Aizvērt lapu.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Izdevumu pārvaldības konfigurēšana"
-description: "Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas programmatūras Microsoft Dynamics 365 for Finance and Operations."
+title: Izdevumu pārvaldības konfigurēšana
+description: Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms moduļa Izdevumu pārvaldība konfigurēšanas programmā Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322034"
 ---
-
 # <a name="configure-expense-management"></a>Izdevumu pārvaldības konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas jums ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas programmatūras Microsoft Dynamics 365 for Finance and Operations. Modulī Izdevumu pārvaldība jūs tostarp varat glabāt informāciju par maksāšanas metodēm, komandējumu pieprasījumiem, izdevumu pārskatiem, politikām un citiem faktoriem.
+Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms moduļa Izdevumu pārvaldība konfigurēšanas programmā Microsoft Dynamics 365 for Finance and Operations. Modulī Izdevumu pārvaldība jūs tostarp varat glabāt informāciju par maksāšanas metodēm, komandējumu pieprasījumiem, izdevumu pārskatiem, politikām un citiem faktoriem.
 
 Tā kā daudzi lēmumi, ko pieņemat, kad plānojat savu izdevumu pārvaldības konfigurāciju, ir atkarīgi no jūsu organizācijas hierarhijas un finanšu struktūras, jums ir nepieciešams skatīt plānošanas dokumentus šiem apgabaliem.
 
@@ -163,4 +162,3 @@ Izveidojot izdevumu pārskatu politikas, varat savai organizācijai palīdzēt t
 - Kad beidzas šīs politikas darbība?
 - Kāda ir politikas kārtula?
 - Kāds ir politikas kārtulas iznākums?
-

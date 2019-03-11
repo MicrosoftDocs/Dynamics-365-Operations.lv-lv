@@ -1,13 +1,13 @@
---- 
-title: "Ražošanas plūsmas modeļu definēšana"
-description: "Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean manufacturing darba šūnu noslodze."
+---
+title: Ražošanas plūsmas modeļu definēšana
+description: Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean manufacturing darba šūnu noslodze.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336731"
 ---
 # <a name="define-production-flow-models"></a>Ražošanas plūsmas modeļu definēšana
 
@@ -45,5 +45,4 @@ Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean 
     * Plānošanas laika periods norāda dienu skaitu, kurā var veikt noslodzes rezervācijas saistītajām darba šūnām. Plānošanas laika periodā ievadiet dienu skaitu.   Kanban procesa darbi, kuri atrodas ārpus šī perioda, netiek plānoti, izmantojot automātisko plānošanu. Plānošanas laika periods parasti ir divas reizes ilgāks par ražošanas plūsmā vai darba šūnā saražoto preču vidējo krājumu izpildes laiku. EPE cikls nedrīkst būt garāks par pusi no plānošanas laika perioda.     
 8. Laukā Noslodzes nepietiekamības sekas atlasiet kādu opciju.
     * Opcijas ir šādas: Atlikt — plānošanas notikuma viss pieprasījums tiek atlikts līdz nākamajai pieejamajai ražošanas dienai ar pieejamu caurlaidi. Atcelt — plānošanas notikuma automātiskā plānošana tiek pārtraukta un saistītie darbi tiek atstāti neplānoti.   Pievienot pieprasītajai dienai — pieprasītie darbi tiek plānoti pieprasītajā periodā. Tas rada šūnas pārslodzi attiecīgajai dienai, plānotājam ir jāveic pārskatīšana un ir nepieciešama manuāla iejaukšanās.   Sadalīt pieejamajos periodos — dažādi plānošanas notikuma darbi tiek sadalīti visās pieejamajās ražošanas dienās, sākot ar pirmo pieejamo dienu. Minimālais sadales daudzums ir Kanban darba daudzums. Sadalē tiek piešķirts minimālais plānošanas daudzums (Kanban daudzums) katrai dienai, kurā ir pieejama pietiekama caurlaide.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Ātrā importēšana un eksportēšana"
-description: "Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām."
+title: Ātrā importēšana un eksportēšana
+description: Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām.
 author: margoc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
-ms.service: 
-ms.technology: 
+ms.service: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: AX 2012
@@ -15,16 +15,15 @@ ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 
+ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357730"
 ---
-
 # <a name="quick-import-export"></a>Ātrā importēšana un eksportēšana
 
 [!include [banner](../../includes/banner.md)]
@@ -35,11 +34,10 @@ Esam pievienojuši līdzekli Ātrā importēšana un eksportēšana, lai lietot�
 
 - Šis līdzeklis atbalsta strādāšanu gan ar standarta, gan ar pielāgotajiem elementiem.
 - Varat importēt no failiem un — ja izmantojat ODBC datu avotu — varat atlasīt kādu vaicājumu, ko izmantot sava importa definēšanai.
-- Jums ir nepieciešami jau iepriekš definēti avota datu formāti elementiem AX vai Fails, un jums ir jāzina, kur tie atrodas.
+- Ir jābūt iepriekš definētiem avota datu formātiem elementam AX vai Fails, un jums ir jāzina, kur tie atrodas.
 - Lai izmantotu ātro importēšanu/eksportēšanu, jums nav nepieciešams izveidot apstrādes grupu — sistēma tādu izveidos automātiski, kad izpildīs importēšanas vai eksportēšanas darbu. Tāpat varat arī norādīt, lai tiktu saglabāta ar ātro importēšanu/eksportēšanu importēto datu vēsture.
 
   Ņemiet vērā, ka ātrā importēšana un eksportēšana pieņem, ka jūs pārzināt DIXF jēdzienus.
-
 
 
 

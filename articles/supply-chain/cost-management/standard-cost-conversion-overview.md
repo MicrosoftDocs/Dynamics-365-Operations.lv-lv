@@ -1,13 +1,13 @@
 ---
-title: "Standarta izmaksu pārveidošanas apskats"
-description: "Šajā rakstā ir sniegts procesa pārskats, kas palīdz iestatīt un palaist standarta izmaksu pārveidošanas procesu. Norādītās darbības ir jāveic pēc tam, kad ir pilnībā izpildīti standarta izmaksu pārveidošanas priekšnoteikumi."
+title: Standarta izmaksu pārveidošanas apskats
+description: Šajā rakstā ir sniegts procesa pārskats, kas palīdz iestatīt un palaist standarta izmaksu pārveidošanas procesu. Norādītās darbības ir jāveic pēc tam, kad ir pilnībā izpildīti standarta izmaksu pārveidošanas priekšnoteikumi.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5818bcf55cd7efc2d62f7b382a85653eb8bcbad6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313685"
 ---
-
 # <a name="standard-cost-conversion-overview"></a>Standarta izmaksu pārveidošanas apskats
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,7 @@ Izmantojiet lapu**Standarta izmaksu pārvēršanas**, lai norādītu atsevišķu
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Ievadiet vai aprēķiniet katra pārveidotā krājuma neapstiprinātās standarta izmaksas
 Izmantojiet lapu **Krājuma cena**, lai ievadītu neapstiprinātās standarta izmaksas pirkšanas un pārsūtīšanas krājumu piešķirtajā izmaksu aprēķināšanas versijā. Izmaksu ieraksti ir raksturīgi vietai, un krājuma nenokārtotās izmaksas ir jāievada no katras vietas. Izmantojiet lapu **Krājuma cena**, lai aprēķinātu saražoto krājumu neapstiprinātās standarta izmaksas. Saražotā krājuma neapstiprinātās izmaksas ir jāaprēķina katrai ražošanas vietai, ja vien vieta nav arī pārsūtīšanas vieta. Šajā gadījumā neapstiprinātās izmaksas jāievada manuāli. Dažiem krājumiem var būt norādīta krāsas, izmēra vai konfigurācijas dimensija. Lapā **Standarta izmaksu pārvēršanas** izvēles rūtiņa **Izmantot izmaksu cenu pēc varianta** norāda katras preču dimensijas kombinācijas standarta izmaksas. Ja šīs izvēles rūtiņas atlase ir noņemta, ir jāievada tikai krājuma neapstiprinātās izmaksas.
 
-## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Pārbaudiet un novērsiet jebkādas problēmas, kas saistītas ar pārveidojamiem krājumiem
+## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Pārbaudiet un novērsiet jebkādas problēmas, kas saistītas ar pārveidojamiem krājumiem
 Izmantojiet pārskatu**Standarta izmaksu pārveidošanas pārbaudes**, lai noskaidrotu problēmas, kas saistās ar pārveidojamiem krājumiem. Ja uz krājumu neattiecas nekādas problēmas, pārveidošanas ierakstā tiek nomainīts tā statuss **Pārbaudīts**. Ja uz krājumu attiecas problēmas, tās ir jānovērš un pēc tam vēlreiz jāpalaiž pārskata sagatavošana, līdz tiek mainīts krājuma statuss **Pārbaudīts**. Ja ar krājumu saistīto problēmu nevar savlaicīgi novērst, šo krājumu var dzēst pārveidošanas ierakstā un pēc tam pārveidot krājumu vēlāk.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Mainiet pārveidošanas ieraksta statusu uz Gatavs
@@ -100,7 +99,6 @@ Izmantojot pārskatu **Noviržu analīzes izraksts**, var analizēt pārvērtē�
 --------
 
 [Standarta izmaksu konvertēšanas priekšnoteikumi](prerequisites-standard-cost-conversion.md)
-
 
 
 

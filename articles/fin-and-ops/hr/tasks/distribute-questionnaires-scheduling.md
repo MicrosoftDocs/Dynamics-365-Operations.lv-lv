@@ -1,13 +1,13 @@
---- 
-title: "Aptauju sadalīšana, izmantojot plānošanu"
-description: "Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem."
+---
+title: Aptauju sadalīšana, izmantojot plānošanu
+description: Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b66389a7d63c51f059a39495b8c7fbd325ef41e8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d371873cbd16f050ca042f5c13d93781fe6fc732
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322195"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Aptauju sadalīšana, izmantojot plānošanu
 
@@ -88,5 +88,4 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 1. Noklikšķiniet uz Funkcijas.
 2. Noklikšķiniet uz Beigt.
 3. Noklikšķiniet uz OK.
-
 

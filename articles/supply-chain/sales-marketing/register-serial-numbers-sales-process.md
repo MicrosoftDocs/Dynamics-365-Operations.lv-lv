@@ -1,13 +1,13 @@
 ---
-title: "Sērijas numuru reģistrēšana pārdošanas procesā"
-description: "Šajā tēmā ir paskaidrots, kā pārdošanas procesa laikā varat reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim."
+title: Sērijas numuru reģistrēšana pārdošanas procesā
+description: Šajā tēmā ir paskaidrots, kā pārdošanas procesa laikā varat reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350416"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>Sērijas numuru reģistrēšana pārdošanas procesā
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ ms.lasthandoff: 05/08/2018
 
 Šajā tēmā ir paskaidrots, kā pārdošanas procesa laikā varat reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim.
 
-Daudzi uzņēmumi vēlaties tikai reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, un tiem nav jāglabā visu krājumu sērijas numuri no saņemšanas līdz izsniegšanas brīdim. Šādos gadījumos sistēma Microsoft Dynamics 365 for Finance and Operations ļauj reģistrēt sērijas numurus pavadzīmēs vai rēķinos, kad preces tiek pārdotas. Ja preces vēlāk tiek atgrieztas, varat atrast katras preces rēķinu, lai noteiktu, vai jūs esat preces pārdevējs un vai ir spēkā pakalpojumu sniegšanas vai garantijas saistības.
+Daudzi uzņēmumi vēlaties tikai reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, un tiem nav jāglabā visu krājumu sērijas numuri no saņemšanas līdz izsniegšanas brīdim. Šādos scenārijos programma Microsoft Dynamics 365 for Finance and Operations sniedz iespēju reģistrēt sērijas numurus pavadzīmēs vai rēķinos, kad tiek pārdotas preces. Ja preces vēlāk tiek atgrieztas, varat atrast katras preces rēķinu, lai noteiktu, vai jūs esat preces pārdevējs un vai ir spēkā pakalpojumu sniegšanas vai garantijas saistības.
 
-Ir jāiespējo sērijas numuru izmantošana pārdošanas procesā, atlasot opciju **Aktīvs pārdošanas procesā** lapā **Izsekošanas dimensiju grupas**. Pēc tam sistēmā Microsoft Dynamics 365 for Finance and Operations tiek veiktas tālāk norādītās darbības.
+Ir jāiespējo sērijas numuru izmantošana pārdošanas procesā, atlasot opciju **Aktīvs pārdošanas procesā** lapā **Izsekošanas dimensiju grupas**. Pēc tam programmā Microsoft Dynamics 365 for Finance and Operations notiek tālāk norādītais.
 -   Kopsavilkuma cilnē **Sērijas numuri** tiek atlasīta opcija **Sērijas numura kontrole**. Ja ir atlasīta šī opcija, katram krājumam pavadzīmē vai rēķinā ir jāreģistrē viens sērijas numurs.
 -   Tiek atcelta visu izsekošanas dimensijas grupas sērijas numuru opciju atlase, izņemot opciju **Tukša izejas plūsma atļauta**. Varat atlasīt opciju **Tukša izejas plūsma atļauta**, lai ignorētu sērijas numuru kontroli un atļautu preču iepakošanu un iekļaušanu rēķinā, nereģistrējot sērijas numurus.
 
@@ -58,8 +57,8 @@ Ja sērijas numuru nevar nolasīt vai ieskenēt, varat krājumam izveidot tukšu
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Vai var labot vai mainīt pārdošanas pasūtījumam reģistrētos sērijas numurus?
 Jā, varat labot sērijas numurus, ja ir izpildīti tālāk norādītie nosacījumi.
--   **Rēķini** — varat mainīt to krājumu sērijas numurus, kas vēl nav iekļauti rēķinos. Pēc tam tiek atjaunināta arī pavadzīme. Taču, ja pārdošanas pasūtījuma rinda ir labota, reģistrējot negatīvu daudzumu, nevarat mainīt šis pārdošanas pasūtījuma rindas sērijas numurus.
--   **Pavadzīmes** — nevarat daļēji labot pavadzīmes rindu, kurā ir ietverti serializēti krājumi. Ir jāatsauc pilnais rindas daudzums. Ja pavadzīme ir atcelta vai labota, atsauktie sērijas numuri nav atkārtoti jāreģistrē, izveidojot jaunu pavadzīmi tiem pašiem serializētajiem krājumiem. Tiks izmantoti jau reģistrētie numuri.
+-   **Rēķini** — varat mainīt to krājumu sērijas numurus, kas vēl nav iekļauti rēķinos. Pēc tam tiek atjaunināta arī pavadzīme. Taču, ja pārdošanas pasūtījuma rinda ir labota, reģistrējot negatīvu daudzumu, nevarat mainīt šis pārdošanas pasūtījuma rindas sērijas numurus.
+-   **Pavadzīmes** — nevarat daļēji labot pavadzīmes rindu, kurā ir ietverti serializēti krājumi. Ir jāatsauc pilnais rindas daudzums. Ja pavadzīme ir atcelta vai labota, atsauktie sērijas numuri nav atkārtoti jāreģistrē, izveidojot jaunu pavadzīmi tiem pašiem serializētajiem krājumiem. Tiks izmantoti jau reģistrētie numuri.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Vai varu skatīt sērijas numurus, kas tika nosūtīti kopā ar noteiktu pavadzīmi vai tika iekļauti rēķinā?
 Jā, pavadzīmju žurnāla vai rēķinu žurnāla rindā var palaist vaicājumu, lai apskatītu sarakstu ar visiem dokumentā iekļautajiem sērijas numuriem.
@@ -72,13 +71,12 @@ Nē, pārdošanas procesa laikā nevarat reģistrēt pieļaujamā svara krājumu
 
 ## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Vai varu reģistrēt sērijas numurus mazumtirdzniecības POS?
 
-Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas punktā (POS), kad lietotājs pārdod krājumu, kas ir piešķirts izsekošanas dimensiju grupai, kas ir iestatīta sērijas numuru izmantošanai tikai pārdošanas procesa laikā.
+Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas punktā (POS), kad lietotājs pārdod krājumu, kas ir piešķirts izsekošanas dimensiju grupai, kas ir iestatīta sērijas numuru izmantošanai tikai pārdošanas procesa laikā.
 
 ## <a name="what-security-roles-are-required-in-order-to-register-serial-numbers-during-the-sales-process"></a>Kādas drošības lomas ir nepieciešamas, lai varētu reģistrēt sērijas numurus pārdošanas procesa laikā?
 Šī funkcionalitāte ir pieejama visām lomām, kas var pārvaldīt pārdošanas pavadzīmes un pārdošanas rēķinus. Tālāk norādītie pienākumi ļauj darbiniekiem labot sērijas numurus un reģistrēt tukšus ierakstus tad, ja sērijas numurus nevar nolasīt vai noskenēt.
 -   Uzturēt sērijas numuru labojumu
 -   Uzturēt nenolasāmo sērijas numuru reģistrāciju
-
 
 
 

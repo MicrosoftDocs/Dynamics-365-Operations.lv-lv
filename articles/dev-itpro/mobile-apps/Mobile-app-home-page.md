@@ -1,13 +1,13 @@
 ---
-title: "Programmas Dynamics 365 for Unified Operations Mobile sākumlapa"
-description: "Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā."
+title: Programmas Dynamics 365 for Unified Operations Mobile sākumlapa
+description: Šajā tēmā ir aprakstīta programma Microsoft Dynamics 365 for Unified Operations Mobile un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: lv-lv
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321390"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Programmas Dynamics 365 for Unified Operations Mobile sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīta Microsoft Dynamics 365 for Unified Operations mobilā programma un sniegtas saites uz resursiem, kas jums var palīdzēt to ieviest savā organizācijā.
+Šajā tēmā ir aprakstīta programma Microsoft Dynamics 365 for Unified Operations Mobile un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 
 > [!NOTE]
-> Iepriekš šīs mobilās programmas nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.
+> Mobilās programmas iepriekšējais nosaukums bija *Microsoft Dynamics 365 for Finance and Operations*.
 
-<a name="overview"></a>Apskats
+<a name="overview"></a>Pārskats
 --------
 
 Šī mobilā programma jūsu organizācijai sniedz iespējas savus uzņēmējdarbības procesus padarīt pieejamus mobilajās ierīcēs. Kad IT administrators jūsu organizācijai ir iespējojis mobilās darbvietas, lietotāji var pierakstīties programmā un nekavējoties sākt biznesa procesu izpildi no savām mobilajām ierīcēm. Šī mobilā programma ietver tālāk norādītos līdzekļus, kas var palīdzēt uzlabot produktivitāti.
 
-- Lietotāji var skatīt biznesa datus, tos rediģēt un rīkoties ar šiem datiem, pat ja šo lietotāju tīkla savienojamība darbojas ar pārtraukumiem vai ja viņu mobilās ierīces ir pilnīgi bezsaistē. Kad ierīce no jauna izveido savienojumu ar tīklu, bezsaistes datu operācijas tiek automātiski sinhronizētas ar Dynamics 365 for Finance and Operations.
+- Lietotāji var skatīt biznesa datus, tos rediģēt un rīkoties ar šiem datiem, pat ja šo lietotāju tīkla savienojamība darbojas ar pārtraukumiem vai ja viņu mobilās ierīces ir pilnīgi bezsaistē. Kad ierīce no jauna izveido savienojumu ar tīklu, bezsaistes datu operācijas tiek automātiski sinhronizētas ar programmu Dynamics 365 for Finance and Operations.
 - IT administratori vai izstrādātāji var veidot un publicēt mobilās darbvietas, kas ir īpaši izstrādātas viņu organizācijai. Šī programmu izmanto jūsu jau esošos koda līdzekļus. Tāpēc jums nav nepieciešamības atkārtoti ieviest savas validēšanas procedūras, biznesa loģiku vai drošības konfigurāciju.
 - IT administratori vai izstrādātāji mobilās darbvietas var ērti projektēt, izmantojot norādīšanas un klikšķināšanas darbvietas veidotāju, kas ir iekļauts tīmekļa klientā.
 - IT administratori vai izstrādātāji pēc izvēles varat optimizēt darbvietas bezsaistes iespējas, izmantojot biznesa loģikas paplašināšanas struktūru. Tā kā datu apstrāde turpinās arī laikā, kamēr ierīce ir bezsaistē, jūsu mobilie scenāriji joprojām ir bagātīgi un plūstoši, pat ja ierīcēm nav pastāvīga savienojuma ar tīklu.
@@ -85,12 +84,12 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td>1</td>
 <td>Sistēmas administrators</td>
 <td>Ieviesiet programmatūru Finance and Operations savā organizācijā.</td>
-<td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Izvietot demonstrācijas vidi</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
+<td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistēmas administrators</td>
-<td><strong>Ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611:</strong> lejupielādējiet un instalējiet zināšanu bāzes rakstus, kuri iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
+<td><strong>Ja lietojat Microsoft Dynamics 365 for Operations versiju 1611:</strong> lejupielādējiet un instalējiet KB, kas iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
 <td>Papildinformāciju skatiet tālāk norādītajās tēmās.
 <ul>
 
@@ -119,7 +118,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <tr class="odd">
 <td>5.</td>
 <td>NPI</td>
-<td>Izveidojiet izvietojamu pakotni, kas ietver pielāgotas mobilās darbvietas, un augšupielādējiet šo pakotni uz Microsoft Dynamics Lifecycle Services (LCS).</td>
+<td>Izveidojiet izvietojamu pakotni, kurā ir ietvertas pielāgotas mobilās darbvietas, un augšupielādējiet šo pakotni portālā Microsoft Dynamics Lifecycle Services (LCS).</td>
 <td><a href="../deployment/create-apply-deployable-package.md">Izvietojamas pakotnes izveide</a></td>
 </tr>
 <tr class="even">
@@ -139,7 +138,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td>Lietotājs</td>
 <td>Lejupielādējiet un instalējiet mobilo programmu.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Programma Unified Operations Android ierīcēm</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Programma Unified Operations operētājsistēmai Android</a><BR/>
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">Programma Unified Operations iOS ierīcēm</a><BR/>
 (Windows Phone ierīces netiek atbalstītas)
 </td>
@@ -153,4 +152,3 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 </tr>
 </tbody>
 </table>
-

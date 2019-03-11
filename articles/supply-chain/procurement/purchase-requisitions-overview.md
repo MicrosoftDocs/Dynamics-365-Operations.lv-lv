@@ -1,13 +1,13 @@
 ---
-title: "Pirkšanas pieprasījuma apskats"
-description: "Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi."
+title: Pirkšanas pieprasījuma apskats
+description: Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309844"
 ---
-
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Kad pirkšanas pieprasījums ir apstiprināts, to var izmantot pirkšanas pasūt
 ## <a name="creating-purchase-requisitions"></a>Pirkšanas pieprasījumu izveidošana
 Pirkšanas pieprasījumu var izveidot lapā **Mani pirkšanas pieprasījumi**, kur var atlasīt nepieciešamos krājumus un pakalpojumus. Krājumus var izvēlēties jūsu organizācijas izveidotā sagādes katalogā vai var pieprasīt tos krājumus, kas nav atrodami katalogā, atlasot iepirkuma kategoriju un ievadot preces datus.  
 
-Pirms pirkšanas pieprasījuma iesniegšanas pārskatīšanai Microsoft Dynamics 365 for Finance and Operations klientā jākonfigurē darbplūsma. Izmantojiet darbplūsmu, lai apstrādātu pirkšanas pieprasījumu pārskatīšanas procesā no sākotnējā statusa **Uzmetums** līdz gala statusam **Apstiprināts**.
+Pirms varat iesniegt pirkšanas pieprasījumu pārskatīšanai, programmā Microsoft Dynamics 365 for Finance and Operations ir jākonfigurē darbplūsmas. Izmantojiet darbplūsmu, lai apstrādātu pirkšanas pieprasījumu pārskatīšanas procesā no sākotnējā statusa **Uzmetums** līdz gala statusam **Apstiprināts**.
 
 ### <a name="purchase-requisition-statuses"></a>Pirkšanas pieprasījumu statusi
 
@@ -69,7 +68,7 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 <tr class="odd">
 <td>Melnraksts</td>
 <td>Melnraksts</td>
-<td>Pirkšanas pieprasījums un tā rinda ir izveidota, bet tie nav iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, bet nav atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču nevar iesniegt vai atsaukt atsevišķu pirkšanas pieprasījuma rindu.</td>
+<td>Ir izveidots pirkšanas pieprasījums un pirkšanas pieprasījuma rinda, taču tie nav iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, taču nav atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču nevarat iesniegt vai atsaukt atsevišķu pirkšanas pieprasījuma rindu.</td>
 </tr>
 <tr class="even">
 <td>Tiek pārskatīts</td>
@@ -99,7 +98,7 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 <td>Visu pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta un ir veiktas visas pirkšanas pieprasījuma pārskatīšanas darbības.
 <ul>
 <li><strong>Apstiprināts</strong> — pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta, un rinda ir apstiprināta.</li>
-<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda bija apstiprināta, bet tā ir atcelta, jo nav vairs vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
+<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
 <li><strong>Slēgts</strong> — pirkšanas pieprasījuma rinda ir apstiprināta un dokuments ir izveidots atbilstoši pieprasījuma mērķim.
 <ul>
 <li>Ja pieprasījuma mērķis ir patēriņš, pirkšanas pasūtījuma rindai tiek ģenerēts pirkšanas pieprasījums.</li>
@@ -125,7 +124,7 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 <li>Ja pieprasījuma mērķis ir patēriņš, pirkšanas pasūtījuma rindai tiek ģenerēts pirkšanas pieprasījums.</li>
 <li>Ja pieprasījuma mērķis ir papildināšana, tiek ģenerēts viens vai vairāki izpildes dokumenti.</li>
 </ul></li>
-<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda bija apstiprināta, bet tā ir atcelta, jo nav vairs vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
+<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
 </ul>
 <strong>Piezīme.</strong> Ja slēgtajā pirkšanas pieprasījuma rindā minētā prece vairs nav vajadzīga, rinda ir jāanulē šai pirkšanas pieprasījuma rindai izveidotajā izpildes dokumentā.</td>
 </tr>
@@ -142,7 +141,7 @@ Izveidojot jūsu organizācijas pieprasījumu un izmantojot iepirkuma procedūra
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Pieprasījumi, kuru mērķis ir papildināšana
 
-Pieprasījums ar patēriņa mērķi attiecas uz to krājumu vai pakalpojumu vajadzības, kas tiks izmantoti iekšēji jūsu uzņēmumā. Šim mērķim izveidotais pieprasījums vienmēr tiek izpildīts pēc pirkšanas pasūtījuma. Ja programma Microsoft Dynamics 365 for Finance and Operations ir iestatīta tā, lai pirkšanas pasūtījumi tiktu izveidoti automātiski, tad pēc pirkšanas pieprasījuma apstiprināšanas tiek izveidoti pirkšanas pasūtījumi.
+Pieprasījums ar patēriņa mērķi attiecas uz to krājumu vai pakalpojumu vajadzības, kas tiks izmantoti iekšēji jūsu uzņēmumā. Šim mērķim izveidotais pieprasījums vienmēr tiek izpildīts pēc pirkšanas pasūtījuma. Ja programma Microsoft Dynamics 365 for Finance and Operations ir iestatīta automātiskai pirkšanas pasūtījumu ģenerēšana, tad pirkšanas pasūtījumi tiek izveidoti pēc pirkšanas pieprasījuma apstiprināšanas.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Pieprasījumi, kuru mērķis ir papildināšana
 
@@ -198,7 +197,6 @@ Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties �
 [Patēriņa pieprasījuma izveide (uzdevuma ceļvedis)](tasks/create-requisition-consumption.md)
 
 [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
-
 
 
 

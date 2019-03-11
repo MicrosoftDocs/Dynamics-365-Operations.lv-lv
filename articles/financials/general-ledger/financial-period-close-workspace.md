@@ -1,13 +1,13 @@
 ---
-title: "Finanšu perioda slēgšanas darbvieta"
-description: "Šajā rakstā ir sniegts pārskats par finanšu perioda slēgšanas darbvietu un saistīto konfigurāciju."
+title: Finanšu perioda slēgšanas darbvieta
+description: Šajā rakstā ir sniegts pārskats par finanšu perioda slēgšanas darbvietu un saistīto konfigurāciju.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326910"
 ---
-
 # <a name="financial-period-close-workspace"></a>Finanšu perioda slēgšanas darbvieta
 
 [!include [banner](../includes/banner.md)]
@@ -53,17 +52,17 @@ Uzdevumiem tiek izmantoti divi tālāk minētie rādītāji.
 -   Ikona ar izsaukuma zīmi norāda, ka uzdevuma izpilde ir nokavēta. Uzdevumiem, kuru izpilde ir nokavēta, arī apmaksas datums tiek izcelts sarkanā krāsā.
 -   Ikona ar slēdzeni norāda, ka uzdevums ir atkarīgs no citiem uzdevumiem, kas vēl nav izpildīti. Uzdevumu, kas ir bloķēts atkarību dēļ, nevar atzīmēt kā pabeigtu. Atkarības uzdevumam var iestatīt, izmantojot darbību **Iestatīt atkarību**.
 
-Uzdevuma nosaukums ir hipersaite uz Microsoft Dynamics 365 for Operations lapu vai citu tīmekļa lapu, kur lietotājam ir jāpariet, lai pabeigtu darbu. Šo hipersaiti varat iestatīt, izmantojot lauku **Uzdevuma saite**, kad rediģējat vai izveidojat kādu uzdevumu. 
+Uzdevuma nosaukums ar hipersaiti ir saistīts ar Microsoft Dynamics 365 for Operations lapu vai citu tīmekļa lapu, uz kuru lietotājam ir jāpāriet, lai pabeigtu darbu. Šo hipersaiti varat iestatīt, izmantojot lauku **Uzdevuma saite**, kad rediģējat vai izveidojat kādu uzdevumu. 
 
 Uzdevumam varat pievienot failus, piezīmes, attēlus un vietrāžus URL, izmantojot darbību **Pielikumi**. Piemēram, varat norādīt žurnāla numurus, kas tiek izmantoti kā daļa no uzdevuma, pievienot komentārus par noteiktu uzdevumu vai pievienot pārskata failu, kas tika izdrukāts kādam uzdevumam. Ja pastāv pielikums, uzdevumam tiek parādīta ikona kolonnā **Pielikums**. 
 
 Opcija **Uzdevums pabeigts** ir manuāli jāatlasa pēc tam, kad uzdevums ir pabeigts. Kad uzdevums ir atzīmēts kā pabeigts, lauks **Pabeigšanas datums** automātiski tiek atjaunināts ar pašreizējo datumu un laiku. Arī atkarību rādītāji tiek atbilstoši atjaunināti.
 
 ## <a name="all-financial-period-close-tasks-list-page"></a>Visu finanšu periodu slēgšanas uzdevumu saraksta lapa
-Visus pašreizējos un iepriekšējo periodu slēgšanas uzdevumus varat skatīt saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**. Šo saraksta lapu vislabāk izmantot slēgšanas procesa vēsturisko datu analīzē, jo tajā ir ietverta informācija par plānoto izpildes datumu, faktisko pabeigšanas datumu un personu, kas šo uzdevumu pabeidza. Šīs saraksta lapas informāciju varat ērti eksportēt uz programmu Microsoft Excel, lai veidotu pārskatus un veiktu auditus.
+Visus pašreizējos un iepriekšējo periodu slēgšanas uzdevumus varat skatīt saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**. Šo saraksta lapu vislabāk izmantot slēgšanas procesa vēsturisko datu analīzē, jo tajā ir ietverta informācija par plānoto izpildes datumu, faktisko pabeigšanas datumu un personu, kas šo uzdevumu pabeidza. Šajā saraksta lapā ietverto informāciju var ērti eksportēt uz programmu Microsoft Excel pārskatu izveides un auditēšanas nolūkā.
 
 ## <a name="financial-period-close-configuration-page"></a>Finanšu perioda slēgšanas konfigurācijas lapa
-Lai varētu izmantot darbvietu **Finanšu perioda slēgšana**, process ir jākonfigurē sistēmā Microsoft Dynamics 365 for Finance and Operations, izmantojot lapu **Finanšu perioda slēgšanas konfigurācija**. (Noklikšķiniet uz **Virsgrāmata** &gt; **Perioda slēgšana** &gt; **Finanšu perioda slēgšanas konfigurācija**.)
+Lai varētu izmantot darbvietu **Finanšu perioda slēgšana**, process ir jākonfigurē programmā Microsoft Dynamics 365 for Finance and Operations, izmantojot lapu **Finanšu perioda slēgšanas konfigurācija**. (Noklikšķiniet uz **Virsgrāmata** &gt; **Perioda slēgšana** &gt; **Finanšu perioda slēgšanas konfigurācija**.)
 
 ### <a name="resources"></a>Resursi
 
@@ -88,7 +87,7 @@ Finanšu slēgšanas veidni varat izmantot, lai definētu visus uzdevumus, kas i
 
 Veidnē uzdevumu var piešķirt vienam vai vairākiem uzņēmumiem, uz kuriem šis uzdevums attiecas. Ja katrā uzņēmumā šī darba izpildei tiek piešķirta cita persona, var būt noderīgi vienam darbam izveidot vairākus uzdevumus. Izveidojiet vienu uzdevumu katram uzņēmumam. 
 
-Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, lai palaistu valūtas pārvērtēšanas procesu kreditoriem, slēgšanas uzdevumu var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** programmā Microsoft Dynamics 365 for Finance and Operations. Varat arī saistīt ar ārējo vietrādi URL. 
+Izvēlnes vienums **Uzdevuma saite** ir saistīts ar uzdevuma darbu, un to var izmantot, lai no uzdevuma saites darbvietā pārietu tieši uz saistīto lapu. Piemēram, slēgšanas uzdevumu izpildīt valūtas pārvērtēšanas procesu kreditoriem var saistīt ar attiecīgo lapu **Ārvalstu valūtas pārvērtēšana** programmā Microsoft Dynamics 365 for Finance and Operations. Varat arī saistīt ar ārējo vietrādi URL. 
 
 > [!TIP]
 > Lai finanšu perioda slēgšanas uzdevumam piesaistītu noteiktu pārvaldības pārskata sastādītāja pārskatu, varat izmantot pārskata URL. Lai piekļūtu pārskata vietrādim URL, pārskatu veidotājā atveriet šo pārskatu un pēc tam noklikšķiniet uz **Fails** &gt; **Skatīt pārskatu**, lai pārskatu atvērtu tīmekļa pārlūkprogrammā. Pēc tam varat kopēt URL no pārlūkprogrammas adreses joslas un ielīmēt to laukā **Uzdevuma saites** **URL**. 
@@ -106,7 +105,6 @@ Piešķiriet kalendāru, kas ir piemērots slēgšanas grafikam, lai norādītu 
 Ir jādefinē arī uzņēmumi, kas tiks piesaistīti attiecīgajam slēgšanas grafikam. Ja veidnes uzdevumi tiek piešķirti vairākiem uzņēmumiem, atsevišķi uzdevumi tiek izveidoti katram uzņēmumam, kas tika iekļauts slēgšanas grafikā un piešķirts veidnes uzdevumam. 
 
 Kad slēgšanas grafiks ir pabeigts, atlasiet tam opciju **Slēgts**. Uzdevumu vēsture joprojām būs pieejama saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**, bet šis slēgšanas grafiks tiks noņemts no darbvietas. Kad slēgšanas grafiks ir atzīmēts kā **Slēgts**, tam vairs nevarat pievienot uzdevumus, rediģēt uzdevumus vai no tā noņemt uzdevumus.
-
 
 
 

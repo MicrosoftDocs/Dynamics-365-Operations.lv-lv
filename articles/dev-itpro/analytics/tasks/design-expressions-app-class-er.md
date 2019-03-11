@@ -1,13 +1,13 @@
---- 
-title: "ER izteiksmju noformēšana programmas klases metožu izsaukšanai"
-description: "Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs."
+---
+title: ER izteiksmju noformēšana programmas klases metožu izsaukšanai
+description: Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357247"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 
@@ -34,7 +34,7 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, ka konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.   
-    * Pieņemsim, ka veidojat procesu ienākošo bankas izrakstu parsēšanai pieteikumu datu atjaunināšanai. Jūs saņemsit ienākošos bankas izrakstus kā TXT failus, kas satur IBAN kodus. Bankas izrakstu importēšanas procesa ietvaros ir jāpārbauda šos IBAN kodus, izmantojot loģiku, kas jau ir pieejama programmā Dynamics 365 for Finance and Operations.   
+    * Pieņemsim, ka veidojat procesu ienākošo bankas izrakstu parsēšanai pieteikumu datu atjaunināšanai. Jūs saņemsit ienākošos bankas izrakstus kā TXT failus, kas satur IBAN kodus. Bankas izrakstu importēšanas procesa ietvaros ir jāpārbauda šo IBAN kodu pareizība, izmantojot loģiku, kas jau ir pieejama programmā Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importēt jaunu ER modeļa konfigurāciju
 1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
@@ -103,7 +103,7 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
     * Kartēšana uz datu modeli  
 6. Noklikšķiniet uz Saglabāt.
 7. Noklikšķiniet uz Veidotājs.
-8. Kokā atlasiet "Dynamics 365 for Operations\Klase".
+8. Koka struktūrā atlasiet Dynamics 365 for Operations\Klase.
 9. Noklikšķiniet uz Pievienot sakni.
     * Pievienojiet jaunu datu avotu, lai izsauktu esošo programmas loģiku IBAN kodu pārbaudei.  
 10. Laukā Nosaukums ierakstiet “check_codes”.
@@ -157,5 +157,4 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot lejupielādēto
     * Noklikšķiniet uz Pārlūkot un dodieties uz iepriekš lejupielādēto failu SampleIncomingMessage.txt.  
 2. Noklikšķiniet uz OK.
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas tikai 3 importētā TXT faila rindas. IBAN kods 4. rindā, kas nav derīgs, tika izlaists, un informācijas žurnālā ir reģistrēts kļūdas ziņojums.  
-
 

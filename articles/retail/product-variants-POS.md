@@ -1,32 +1,31 @@
 ---
-title: "Krājumu uzmeklēšana pārdošanas punktā (POS)"
-description: "Šajā tēmā ir aprakstītas opcijas, kas ir pieejamas krājumu informācijas apskatīšanai pārdošanas punktā (Point of Sale — POS)."
+title: Krājumu uzmeklēšana pārdošanas punktā (POS)
+description: Šajā tēmā ir aprakstītas opcijas, kas ir pieejamas krājumu informācijas apskatīšanai pārdošanas punktā (Point of Sale — POS).
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: lv-lv
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314421"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Krājumu uzmeklēšana pārdošanas punktā (POS)
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Krājumu pārlūkošana pārdošanas punktā (POS) palīdz mazumtirgotājiem sa
 
 Precīzs reāllaika skats uz krājumiem visā organizācijā palīdz veikala darbiniekiem nodrošināt laicīgu un izcilu klientu apkalpošanu. Šīm iespējām vislielākā nozīme ir brīdī, kad debitors ir gatavs pieņemt lēmumu par pirkumu. Ir svarīgi, lai kasieriem veikalā pie rokas būtu informācija par reālā laika krājumiem un viņi varētu dot precīzus solījumus par preču piegādi un savākšanu.
 
-Lapu **Krājumu pārlūkošana** varat atvērt no darbvietas **Retail Modern POS** vai no darbvietas **Retail Cloud POS**.
+Varat atvērt lapu **Krājumu pārlūkošana** darbvietā **Retail Modern POS** vai darbvietā **Retail Cloud POS**.
 
 ![Krājumu pārlūkošanas elements POS sākumlapā](media/POSHomepage.png)
 
@@ -53,7 +52,7 @@ Katrai vietai tiek rādīts arī daudzums **Rezervēts** un **Pasūtīts**.
 Šajā vietu sarakstā ir divu tālāk aprakstīto tipu elementi.
 
 - **Mazumtirdzniecības veikali** — sarakstā tiek rādīti veikali, kas tiek konfigurēti, izmantojot veikalu vietrāžu grupu pašreizējam veikalam programmā Retail Headquarters.
-- **Vairumtirdzniecības bāzes** — programmatūrā Microsoft Dynamics 365 for Retail var konfigurēt dažādu tipu vairumtirdzniecības bāzes (piemēram, noliktavas). Taču šajā sarakstā tiek rādīta informācija par krājumu pieejamību tikai vairumtirdzniecības bāzēm ar noklusējuma tipu **Standarta**.
+- **Sadales centri** — programmā Microsoft Dynamics 365 for Retail var konfigurēt dažādus sadales centru veidus (piemēram, noliktavas). Taču šajā sarakstā tiek rādīta informācija par krājumu pieejamību tikai vairumtirdzniecības bāzēm ar noklusējuma tipu **Standarta**.
 
     > [!NOTE]
     > Informācija par krājumu pieejamību netiek rādīta noliktavām ar POS tipu **Tranzīts**, **Karantīna** un **Preces ceļā**.
@@ -116,4 +115,3 @@ Nākamajā tabulā ir plašāka informācija par pieejamajām papildu darbībām
 | Pieejamība         | Rādīt ATP informāciju atlasītajai variantu kombinācijai attiecībā uz atlasīto atrašanās vietu. |
 | Rādīt visas vietas   | Pārslēgties uz standarta krājumu pārlūkošanas skatu un izcelt informāciju par krājumu pieejamību attiecībā uz nepieciešamo krājumu variantu visos veikalos šajā veikalu vietrāžu grupā, kā arī vairumtirdzniecības bāzēs ar tipu **Standarta/noklusējuma**. |
 | Skatīt detalizētu informāciju par preci | Novirzīt lietotāju uz saistītā preces šablona lapu **Informācija par preci**. |
-

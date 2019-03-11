@@ -1,13 +1,13 @@
 ---
-title: "Atlīdzības apstrāde"
-description: "Atlīdzības apstrāde dod iespēju aprēķināt jaunas bāzes atlīdzības summas jūsu darbiniekiem, pamatojoties uz kapitāla korekcijām, nopelnu palielinājuma mērķiem un veiktspēju."
+title: Atlīdzības apstrāde
+description: Atlīdzības apstrāde dod iespēju aprēķināt jaunas bāzes atlīdzības summas jūsu darbiniekiem, pamatojoties uz kapitāla korekcijām, nopelnu palielinājuma mērķiem un veiktspēju.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305336"
 ---
-
 # <a name="process-compensation"></a>Atlīdzības apstrāde
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Kad ir pārskatītas darbinieka atlīdzības summas un ir veiktas visas ieteicam
 Kad viena vai vairāku darbinieku notikumu statuss ir atjaunināts uz Apstiprināts, tos var ielādēt darbinieku fiksētās atlīdzības ierakstos. To var izdarīt, lapā **Darbinieku rezultāti** atsevišķi atlasot katru darbinieka notikumu un noklikšķinot uz pogas **Ielādēt darbinieka atlīdzību** vai lapā **Apstrādes rezultāti** noklikšķinot uz **Ielādēt atlīdzību**, lai vienlaikus ielādētu visus apstiprinātos darbinieka notikumus.
 
 Dialogā **Atlīdzības ielāde** noklikšķinot uz **Labi**, lapā **Darbinieku fiksētā atlīdzība** tiks pievienotas atlīdzības darbības rindas ar vērtību, kas nav nulle.
-

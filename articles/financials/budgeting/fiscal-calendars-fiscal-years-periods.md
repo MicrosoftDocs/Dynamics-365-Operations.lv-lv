@@ -1,13 +1,13 @@
 ---
-title: "Finanšu kalendāri, finanšu gadi un periodi"
-description: "Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai."
+title: Finanšu kalendāri, finanšu gadi un periodi
+description: Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 431d654aaffc27d54fd590dc7d5d2ab6c2313908
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361663"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Finanšu kalendāri, finanšu gadi un periodi
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Budžeta cikli ir laika posms, kurā tiek izmantots budžets. Budžeta cikli var
 
 ## <a name="maintain-periods-for-your-organization"></a>Uzturēt jūsu organizācijas periodus
 Lapu Virsgrāmatas kalendārs varat izmantot, lai apskatītu detalizētu informāciju par savas organizācijas izmantoto finanšu kalendāru, finanšu gadiem un periodiem. Varat arī mainīt periodu statusu un atlasīt lietotājus, kuriem atļauts grāmatot uzskaites transakcijas periodos. Piemēram, jauna perioda sākumā jūs, iespējams, vēlaties, lai kāda lietotāju grupa pabeidz finanšu darījumu grāmatošanu iepriekšējā periodā, bet citas grupas strādā tikai jaunajā periodā.
-
 
 
 

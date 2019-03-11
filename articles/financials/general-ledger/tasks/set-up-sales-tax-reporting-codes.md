@@ -1,13 +1,13 @@
---- 
-title: "Iestatīt PVN pārskatu kodus"
-description: "PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā."
+---
+title: Iestatīt PVN pārskatu kodus
+description: PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4543cf7eaa0b1ef8e32d3fdafa2c354cd3739256
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fa32a12e49b6578c41ceb8991237a19ae3f77e17
-ms.contentlocale: lv-lv
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335673"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Iestatīt PVN pārskatu kodus
 
@@ -41,5 +41,4 @@ PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā. Tos izmanto valstij 
 5. Pārskata teksta laukā ievadiet aprakstu, kuru parādīt pārskatos.
 6. Laukā Īss apraksts ievadiet aprakstu iekšējai lietošanai.
 7. Noklikšķiniet uz Saglabāt.
-
 

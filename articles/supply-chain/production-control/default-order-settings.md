@@ -1,13 +1,13 @@
 ---
-title: "Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem"
-description: "Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes."
+title: Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem
+description: Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326381"
 ---
-
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Pasūtījuma noklusējuma iestatījumi programmā Microsoft Dynamics 365 for Finance and Operations nosaka vietu un noliktavu, no kuras krājumi tiek iegūti vai kur tie tiek glabāti, minimālo, maksimālo, vairākkārtējo un standarta daudzumu, kas tiek izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiku, apturēšanas karodziņu un pasūtījuma solīšanas metodi. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
+Izmantojot pasūtījuma noklusējuma iestatījumus programmā Microsoft Dynamics 365 for Finance and Operations, tiek definēta vieta un noliktava krājumu ieguvei vai glabāšanai, minimālais, maksimālais, vairākkārtējais un standarta daudzums, kas tiks izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiks, apturēšanas karodziņš un pasūtījuma solīšanas metode. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
 
 Pasūtījuma noklusējuma iestatījumus varat definēt lapā **Pasūtījuma noklusējuma iestatījumi**. Lai atvērtu šo lapu, dodieties uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Izlaistās preces** &gt; **atlasiet kādu izlaisto preci** &gt; darbību rūtī **Plāns** vai **Pārvaldīt krājumus** &gt; **Pasūtījuma iestatījumi** &gt; **Pasūtījuma noklusējuma iestatījumi**.
 
@@ -170,7 +169,6 @@ Ja kārtulu sistēma pasūtījuma noklusējuma iestatījumiem ir pārāk apgrūt
 | 0    |      |               |       |                                      | 5.                  |                    |                                   |                 |
 
 Šajā gadījumā rangs nav īsti svarīgs, tāpēc varat izvēlēties to slēpt. Šis risinājums potenciāli izraisa uzturēšanas problēmu. Taču varat apsvērt iespēju izmantot šo iestatījumu, ja plānojat integrēšanu ar Preces dzīves cikla pārvaldības (Product Lifecycle Management — PLM) sistēmām.
-
 
 
 

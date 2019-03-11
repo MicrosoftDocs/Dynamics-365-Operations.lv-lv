@@ -1,13 +1,13 @@
 ---
-title: "Kopējo izmaksu sadalījuma metode"
-description: "Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem."
+title: Kopējo izmaksu sadalījuma metode
+description: Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: lv-lv
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341584"
 ---
-
 # <a name="total-cost-allocation-method"></a>Kopējo izmaksu sadalījuma metode
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Lauks **Blakusproduktu izmaksu sadalījums** lapā **Līdzprodukti** ir skaitīt
 -   **Procentuālā vērtība** ─ izmaksu summa tiek aprēķināta kā ražošanā patērēto izejmateriālu kopējo izmaksu procentuālā vērtība. Laukā tiek ievadīta aprēķinos izmantotā procentuālā vērtība.
 -   **Uz vienu sēriju** ─ izmaksu summa tiek aprēķināta kā summa uz vienu ražošanas pasūtījuma standarta partijas lielumu. Šī summa ir atkarīga no ražošanā izmantotā reģistrētā daudzuma. Laukā tiek ievadīta aprēķinos izmantotā summa.
 -   **Uz daudzuma vienības** ─ izmaksu summa tiek aprēķināta kā summa uz vienu reģistrēto ražošanā izmantoto formulas krājuma daudzuma vienību. Laukā tiek ievadīta aprēķinos izmantotā summa.
-
 
 
 

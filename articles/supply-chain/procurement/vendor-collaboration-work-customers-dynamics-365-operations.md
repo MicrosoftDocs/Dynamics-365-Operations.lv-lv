@@ -1,13 +1,13 @@
 ---
-title: "Kreditoru sadarbība ar debitoriem"
-description: "Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmatūrā Microsoft Dynamics 365 for Finance and Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījumu krājumus."
+title: Kreditoru sadarbība ar debitoriem
+description: Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību programmatūrā Microsoft Dynamics 365 for Finance and Operations, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
-ms.contentlocale: lv-lv
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342941"
 ---
-
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Microsoft Dynamics 365 for Finance and Operations. Kreditori var izpildīt biznesa procesu virknes no tālāk uzskaitītajām darbvietām.
+Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Microsoft Dynamics 365 for Finance and Operations. Kreditori var izpildīt biznesa procesu virknes no tālāk uzskaitītajām darbvietām.
 
 - **Pirkšanas pasūtījuma akceptēšana** — pārraudzīt un atbildēt uz pirkšanas pasūtījumiem (purchase order — PO).
 - **Piegādātāja piedāvājuma izteikšana** — skatīt piedāvājumu pieprasījumus (request for quotation — RFQ) un reaģēt uz tiem, ievadot piedāvājumus.
@@ -144,4 +143,3 @@ Ir pieejama šāda informācija: kreditora nosaukums, adreses, kontaktinformāci
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md)
-

@@ -1,39 +1,38 @@
 ---
-title: "Uzd. ceļv. sagl. pakalp. LCS un to atk."
-description: "Tēmā paskaidrots, kā sagl. uzd. ceļv. pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un tos atkārtot."
+title: Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
+description: Šajā tēmā ir paskaidrots, kā saglabāt uzdevumu ceļvežus pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un pēc tam tos atkārtoti skatīt.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: lv-lv
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305334"
 ---
-
-# <a name="save-task-guides-to-lcs-and-replay-them"></a>Uzd. ceļv. sagl. pakalp. LCS un to atk.
+# <a name="save-task-guides-to-lcs-and-replay-them"></a>Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
 
 [!include [banner](includes/banner.md)]
 
 **Informācija par vidi** 
 
-Microsoft Dynamics 365 for Talent, kas izvietota ar Microsoft Dynamics Lifecycle Services (LCS)
+Programma Microsoft Dynamics 365 for Talent, kas ir izvietota, izmantojot pakalpojumu Microsoft Dynamics Lifecycle Services (LCS)
 
-**Izsniegt**
+**Izejas plūsma**
 
 Debitors vēlas saglabāt jaunos uzdevumu ierakstus savā LCS projektā un tad atkārtot saglabātos uzd. ceļvežus.
 
@@ -66,4 +65,3 @@ Rīkojieties šādi, lai atkārtotu uzd. ceļv. no LCS.
 2. Atl. **Atvērt no LCS**.
 3. Atlasiet bibliotēku un BPM zaru, kurā ir saglabātais uzd. ceļvedis.
 4. Atv. uzd. ceļvedi.
-

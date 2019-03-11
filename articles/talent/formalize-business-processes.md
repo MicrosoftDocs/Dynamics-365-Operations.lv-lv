@@ -1,13 +1,13 @@
 ---
-title: "Biznesa procesu formalizēšana"
-description: "Šajā tēmā ir paskaidrots, kā, izmantojot funkciju Biznesa process, var izveidot to procesu biznesa procesa veidni, kuri ir jāpabeidz jūsu organizācijā."
+title: Biznesa procesu formalizēšana
+description: Šajā tēmā ir paskaidrots, kā, izmantojot funkciju Biznesa process, var izveidot to procesu biznesa procesa veidni, kuri ir jāpabeidz jūsu organizācijā.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: lv-lv
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305375"
 ---
 # <a name="formalize-business-processes"></a>Biznesa procesu formalizēšana
 
@@ -43,7 +43,7 @@ Katram biznesa procesam var definēt procesa īpašnieku. Procesa īpašnieks va
 Procesa īpašnieks nevar izveidot jaunus biznesa procesus vai biznesa procesu veidnes vai dzēst aktīvos biznesa procesus vai biznesa procesu veidnes.
 
 ## <a name="tasks"></a>Uzdevumi
-Biznesa process bieži ietver vairākus uzdevumus. Dažus uzdevumus, piemēram, iekšējā kursa piedāvājuma pārskatīšanu, var izpildīt programmā Microsoft Dynamics 365 for Talent. Šajā gadījumā opcija ir atlasīta laukā **Uzdevuma saite**. Citi uzdevumi var ietvert lapu pārskatīšanu vai aizpildīšanu tīmekļa vietnē. Šajā gadījumā **vietrādis URL** tiek atlasīts laukā **Uzdevuma saite**​. Tādā gadījumā var ievadīt tīmekļa vietnes adresi. Var ievadīt gan ārējās, gan iekšējās saites URL. Var izveidot arī manuāli izpildāmu darbību uzdevumus, piemēram, visu struktūras pieejamības pārskatīšana. Šajā gadījumā uzdevuma saite nav nepieciešama. Šī elastība ļauj izsekot visaptveroša procesa dažāda veida uzdevumus.
+Biznesa process bieži ietver vairākus uzdevumus. Dažus uzdevumus, piemēram, iekšējā kursa piedāvājuma pārskatīšanu, var izpildīt programmā Microsoft Dynamics 365 for Talent[?]. Šajā gadījumā opcija ir atlasīta laukā **Uzdevuma saite**. Citi uzdevumi var ietvert lapu pārskatīšanu vai aizpildīšanu tīmekļa vietnē. Šajā gadījumā **vietrādis URL** tiek atlasīts laukā **Uzdevuma saite**​. Tādā gadījumā var ievadīt tīmekļa vietnes adresi. Var ievadīt gan ārējās, gan iekšējās saites URL. Var izveidot arī manuāli izpildāmu darbību uzdevumus, piemēram, visu struktūras pieejamības pārskatīšana. Šajā gadījumā uzdevuma saite nav nepieciešama. Šī elastība ļauj izsekot visaptveroša procesa dažāda veida uzdevumus.
 
 Uzdevumu var piešķirt konkrētam darbiniekam vai pozīcijai. Piemēram, Kompensāciju un atvieglojumu jautājumu nodaļas vadītājs vienmēr ir persona, kas veic apdrošināšanas prēmiju pārskatīšanu. Tādēļ, izveidojot šo uzdevumu, atlasiet **Amats** laukā **Piešķires tips** un pēc tam atlasiet **Atlīdzību un atvieglojumu vadītājs** sarakstā **Amats**. Kad biznesa process tiek sākts, uzdevums tiek piešķirts darbiniekam, kas ieņem amatu **Atlīdzību un atvieglojumu vadītājs**. Lai uzdevumu piešķirtu konkrētam darbiniekam, atlasiet **Darbinieks** laukā **Piešķires tips** un pēc tam atlasiet attiecīgo personu.
 
@@ -58,7 +58,7 @@ Sarežģītiem uzdevumiem var būt nepieciešamas vairākas darbības vai person
 Biznesa procesa veidnē biznesa procesu varat sākt, atlasot **Sākt procesu**. Kad process ir sākts, uzdevumi ir izveidoti atlasītajiem darbiniekiem un/vai amatiem, kuri ir definēti veidnē iekļautajiem uzdevumiem. Pievienojot vai atņemot nobīdes dienu skaitu no mērķa datuma, visiem uzdevumiem tiek piešķirts izpildes datums, kā paskaidrots sadaļā“Uzdevumi”. Aktīvo biznesa procesu var skatīt darbvietā **Biznesa procesi**.
 
 ## <a name="employee-self-service"></a>Darbinieku pašapkalpošanās
-Kad uzdevums ir piešķirts darbiniekam, šo uzdevumu un visus citus piešķirtos uzdevumus darbinieks var skatīt lapā **Darbinieku patstāvīgi izmantojamais pakalpojums**. Katram biznesa procesa uzdevumam, kas darbiniekam tiek piešķirts, darbinieks var redzēt uzdevuma nosaukumu un aprakstu, norādījumus par tā izpildi un kontaktpersonas vārdu. No lapas **Darbinieku patstāvīgi izmantojamais pakalpojums** darbinieks var atvērt saistīto Microsoft Dynamics 365 lapu vai saistīto tīmekļa lapu un atzīmēt uzdevumus kā izpildes procesā, atceltus vai pabeigtus.
+Kad uzdevums ir piešķirts darbiniekam, šo uzdevumu un visus citus piešķirtos uzdevumus darbinieks var skatīt lapā **Darbinieku patstāvīgi izmantojamais pakalpojums**. Katram biznesa procesa uzdevumam, kas darbiniekam tiek piešķirts, darbinieks var redzēt uzdevuma nosaukumu un aprakstu, norādījumus par tā izpildi un kontaktpersonas vārdu. Lapā **Darbinieku patstāvīgi izmantojamais pakalpojums** darbinieks var atvērt arī saistīto Microsoft Dynamics 365 lapu vai saistīto tīmekļa lapu un atzīmēt uzdevumus kā izpildes procesā, atceltus vai pabeigtus.
 
 ## <a name="business-process-workspace"></a>Darbvieta Biznesa process
 Cilvēkresursu jautājumu speciālisti aktīvo biznesa procesu var skatīt darbvietā **Biznesa process**. Darbvietā ir norādīti visi aktīvie procesi un ar katru no tiem saistītie uzdevumi. Vispusīgu uzdevumu sarakstu var filtrēt pēc izpildes datuma. Darbvietā ir norādīti nokavētie uzdevumi un īpaši cilvēkresursu jautājumu speciālistam piešķirtie uzdevumi. Cilvēkresursu jautājumu speciālisti var arī atjaunināt visu uzdevumu statusu un, ja nepieciešams, mainīt piešķirtos uzdevumus, lai nodrošinātu vispārējā biznesa procesa izpildi.
@@ -74,5 +74,4 @@ Lai izveidotu vai kopētu biznesa procesu veidni vai sāktu biznesa procesu, pā
 - lai sāktu atlasīto biznesa procesu, piešķirtu uzdevumus un aprēķinātu izpildes datumus, atlasiet **Sākt procesu**;
 
 lai skatītu aktīvos procesus un saistītos uzdevumus, atveriet darbvietu **Biznesa procesi**.
-
 

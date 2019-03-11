@@ -1,13 +1,13 @@
 ---
-title: "Debitoru parādu kredīts un iekasēšana"
-description: "Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālajā skatā, izmantojot programmas Microsoft Dynamics 365 for Finance and Operations lapu Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori."
+title: Debitoru parādu kredīts un iekasēšana
+description: Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālā skatā, izmantojot Microsoft Dynamics 365 for Finance and Operations lapu Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
-ms.contentlocale: lv-lv
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lv-LV
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351681"
 ---
-
 # <a name="credit-and-collections-in-accounts-receivable"></a>Debitoru parādu kredīts un iekasēšana
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Katram vecumstruktūras periodam vecumstruktūras perioda definīcijā tiek izve
 Debitoru kopas ir vaicājumi, ar ko tiek definēta debitoru ierakstu grupa, ko var skatīt un pārvaldīt iekasēšanas vai vecumstruktūru procesu ietvaros. Izmantojiet debitoru kopas, lai filtrētu informāciju sarakstu lapās Vecas bilances, Kolekciju aktivitātes un Atgādinājumu gadījumi. Varat arī izmantot debitoru kopas, lai filtrētu debitoru kontus, kas tiek iekļauti vecumstruktūru momentuzņēmumu izveides laikā.
 
 ## <a name="collections-agents"></a>Iekasēšanas aģenti
-Pēc noklusējuma Microsoft Dynamics 365 for Finance and Operations lietotāji var skatīt visu debitora informāciju iekasēšanas sarakstu lapās. Varat izmantot iekasēšanas aģentu ierakstus, lai noteiktu debitoru kopas, kas ir pieejamas informācijas filtrēšanai iekasēšanas sarakstu lapās un lapā Iekasēšana. 
+Pēc noklusējuma Microsoft Dynamics 365 for Finance and Operations lietotāji var skatīt visu debitora informāciju iekasēšanas sarakstu lapās. Varat izmantot iekasēšanas aģentu ierakstus, lai noteiktu debitoru kopas, kas ir pieejamas informācijas filtrēšanai iekasēšanas sarakstu lapās un lapā Iekasēšana. 
 
 Iekasēšanas aģents ir persona, kas strādā ar debitoriem, lai nodrošinātu, ka maksājumi tiek saņemti savlaicīgi. Programmatūrā Dynamics 365 for Finance and Operations iekasēšanas aģenti ir darbinieki, kuri ir piešķirti lietotājiem lapā Lietotāja iestatījumi.
 
@@ -107,7 +106,6 @@ Plašāku informāciju skatiet šeit: [Debitora norakstīšanas žurnāla izveid
 --------------------------------------------
 
 Varat apstrādāt NSF maksājumus, lapā Iekasēšana noklikšķinot uz NSF maksājums. Noklikšķinot uz šīs pogas, maksājums tiek atcelts. Ja debitoram ir jāmaksā NSF maksa, maksājumu žurnālā tiek izveidota maksas transakcija. Maksas summa balstās uz automātisko maksu iestatījumiem. Automātiskās maksas, kas attiecas uz NSF maksājumiem, ir atkarīgas no maksu grupas, kas ietekmētajam bankas kontam ir atlasīta lapā Bankas konti.
-
 
 
 
