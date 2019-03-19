@@ -46,11 +46,15 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: Apmācība par izstrādes rīkiem
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: Datu bāzes BaseX instalēšana rīkam AppChecker
+        href: dev-tools/install-basex.md
     - name: Programmu pārlūks
       href: dev-tools/application-explorer.md
     - name: Projektu izveide un atkļūdošana
       href: dev-tools/build-debug-project.md
-    - name: Būvējuma operācijas
+    - name: Operāciju izveide
       href: dev-tools/build-operations.md
     - name: Koda redaktora funkcijas
       href: dev-tools/code-editor.md
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: Paplašināmības izmaiņas versijā 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: Paplašināmības izmaiņas versijā 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: Pamati
       items:
       - name: Traucējoši pielāgojumi
@@ -887,6 +893,7 @@ items:
   - name: Demonstrācijas vižu izvietošana
     href: deployment/deploy-demo-environment.md
   - name: Mākoņa izvietošana
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: Patstāvīgi izmantojama pakalpojuma izvietošana
       href: deployment/infrastructure-stack.md
@@ -1073,14 +1080,16 @@ items:
       href: dev-tools/update-development-tools.md
   - name: Atbalsta pārtraukšana
     items:
-    - name: Novecojušie API
-      href: migration-upgrade/deprecated-apis.md
-    - name: Novecojušie līdzekļi
+    - name: Noņemtie vai novecojušie līdzekļi
       href: migration-upgrade/deprecated-features.md
+    - name: Atbalsta pārtraukšana metodēm un metadatu elementiem
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: Novecojušie API (2017. gada jūnijs)
+      href: migration-upgrade/deprecated-apis.md
 - name: Sistēmas administrēšana
   href: sysadmin/system-administration-home-page.md
   items:
-  - name: Saišu pievienošana jūsu juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
+  - name: Saišu pievienošana uz jūsu juridiskajiem nosacījumiem un paziņojumu par konfidencialitāti
     href: sysadmin/legal-terms-privacy-statement.md
   - name: Atskaite par licenču kodiem un konfigurācijas atslēgām
     href: sysadmin/license-codes-configuration-keys-report.md
@@ -1122,6 +1131,8 @@ items:
       href: sysadmin/activeperiod.md
     - name: Pakešuzdevumu pārvaldnieka drošības loma
       href: sysadmin/runby.md
+    - name: Pakešuzdevums SQL indeksa defragmentēšanai
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: Optimizācijas padomnieks
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: Tulkošanas atmiņas faili
       href: lifecycle-services/use-translation-service-tm.md
-- name: Datu bāzes pārvaldība
+- name: Datu bāzes pārvietošanas operācijas
   items:
-  - name: Datu bāzu kopēšana no Azure SQL Database uz SQL Server vidēm
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: Datu bāzu kopēšana no SQL Server uz Azure SQL Database ražošanas vidēm
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: Datu bāzu atjaunošana vidēs, kas nav ražošanas vide
-    href: database/request-point-in-time-restore.md
-  - name: Datu bāzu kopiju eksportēšana vēlākai atjaunošanai
-    href: database/copy-operations-database.md
-  - name: Pieprasījums atsvaidzināt smilškastes datu bāzi
-    href: database/database-refresh.md
+  - name: Kopsavilkums
+    href: database/dbmovement-operations.md
+  - name: Ceļveži par ātru darba sākšanu
+    items:
+    - name: Atsvaidzināt datu bāzi
+      href: database/database-refresh.md
+    - name: Eksportēt datu bāzi
+      href: database/export-database.md
+    - name: Importēt datu bāzi
+      href: database/import-database.md
+    - name: Datu bāzes punkta laikā atjaunošana
+      href: database/database-point-in-time-restore.md
+  - name: Apmācība
+    items:
+    - name: Atsvaidzināšana apmācību nolūkos
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: Atkļūdošana un diagnostika
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: Zelta konfigurācijas veicināšana
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: Destruktīva testēšana
+      href: database/dbmovement-scenario-destructivetests.md
 - name: Atbalsts
   items:
   - name: Saņemt atbalstu saistībā ar pakalpojumu Finance and Operations un pakalpojumu Lifecycle Services
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Finance and Operations atbalsta pieredzes pārvaldība
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373327"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773806"
