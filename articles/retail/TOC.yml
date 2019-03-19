@@ -5,6 +5,10 @@ items:
   items:
   - name: Jaunumi un izmaiņas
     href: get-started/whats-new.md
+  - name: Priekšskatījuma līdzekļi risinājumā Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: Jaunumi un izmaiņas risinājumā Dynamics 365 for Retail (2019. gada aprīlis)
+    href: get-started/april-whats-new.md
   - name: Pirms Retail iegādes
     href: get-started/before-you-buy.md
   - name: Reģistrēšanās priekšskatījuma abonementam
@@ -109,7 +113,11 @@ items:
   - name: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Visu kanālu uzlabotās automātiskās izmaksas
-  href: omni-auto-charges.md
+  items:
+  - name: Papildu automātisko maksu konfigurēšana un lietošana
+    href: omni-auto-charges.md
+  - name: Sākuma automātisko izmaksu proporcionalitāte un grupēšana
+    href: pro-rate-charges-matching-lines.md
 - name: Zvanu centrs
   items:
   - name: Zvanu centra pārdošanas funkcionalitāte
@@ -387,7 +395,7 @@ items:
     - name: Kases sistēmas funkcionalitāte
       href: localizations/emea-swe-cash-registers.md
     - name: Paraugs Retail POS integrācijai ar vadības ierīcēm
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Retail uzdevumi
   items:
   - name: Preces izveide
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: POS pieprasījuma apstrādātāja ignorēšana
       href: dev-itpro/pos-handler.md
+    - name: Skatīt POS paplašinājuma pakotnes informāciju
+      href: view-pos-extension-package-details.md
   - name: Hardware Station un paplašināmība
     href: dev-itpro/hardware-station-extensibility.md
   - name: Retail Server paplašināmība
@@ -659,9 +669,9 @@ items:
     items:
     - name: Lojalitātes paplašinājums
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377255"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791642"
