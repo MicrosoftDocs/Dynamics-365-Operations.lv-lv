@@ -3,7 +3,7 @@ title: Kreditoru rēķinu salīdzināšana
 description: Parādu kreditoriem rēķinu salīdzināšana ir kreditoru rēķinu, pirkšanas pasūtījumu un produktu ieejas plūsmu informācijas salīdzināšanas process.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310281"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389937"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Kreditoru rēķinu salīdzināšana
 
@@ -49,7 +49,7 @@ Kreditoru rēķinu salīdzināšanai varat lietot šādus tipus:
 
 Divvirzienu salīdzināšana un trīsvirzienu salīdzināšana cenu informāciju vienmēr salīdzina ar vienības cenu. Varat arī konfigurēt šīs salīdzināšanas politikas, lai informāciju par cenu salīdzinātu pēc cenu kopsummas.
 -   Vienības neto cenu salīdzināšana — cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai salīdzina, vienības neto cenu katrai rindai rēķinā salīdzinot ar atbilstošo vienības neto cenu pirkšanas pasūtījumā. Vienības neto cena tiek noteikta ar šādu formulu: Rindas neto summa/Rindas daudzums.
--   Cenu kopsummas salīdzināšana — cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai salīdzina, neto summu (cenas kopsummu) katrai rindai rēķinā salīdzinot ar atbilstošo neto summu pirkšanas pasūtījumā. Neto summa tiek noteikta ar šādu formulu: (Vienības cena \* Rindas daudzums) + Rindas maksas - Rindas atlaides
+-   Cenu kopsummas salīdzināšana — cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai salīdzina, neto summu (cenas kopsummu) katrai rindai rēķinā salīdzinot ar atbilstošo neto summu pirkšanas pasūtījumā. Neto summa tiek noteikta ar šādu formulu: *(Vienības cena \* Rindas daudzums) + Rindas maksas - Rindas atlaides*. Nosakot cenas kopsummu atbilstību procentos, sistēma salīdzina vērtības, izmantojot darījuma valūtu. Nosakot cenas kopsummu atbilstību pēc summas, sistēma salīdzina vērtības, izmantojot uzskaites valūtu.
 
 Parasti rēķinu salīdzināšanas aprēķini tiek veikti automātiski, kad lapā Kreditora rēķins rediģējat kreditoru rēķinus. Alternatīvi rēķinu salīdzināšanu var veikt pēc pieprasījuma, ja nepieciešams. Rēķinu salīdzināšanu pēc pieprasījuma juridiskajai personai kontrolē funkcija Automātiski atjaunināt rēķina virsraksta statusu uz, kas atrodas lapā Kreditoru moduļa parametri, cilnē Rēķinu validēšana. Rēķinu salīdzināšanu var veikt arī kā daļu no rēķinu pārskatīšanas procesa. Rēķinu salīdzināšanas rezultātus varat skatīt lapā Kreditora rēķins un saistītajās rēķinu salīdzināšanas lapās.
 

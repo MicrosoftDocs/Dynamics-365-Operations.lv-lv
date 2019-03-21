@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
+ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308648"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773092"
 ---
 # <a name="workflow-system"></a>Darbplūsmas sistēma
 
@@ -71,3 +71,4 @@ Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 + [Konfigurēt paralēlu aktivitāti darbplūsmā](configure-parallel-activity-workflow.md)
 + [Konfigurēt paralēlu zaru darbplūsmā](configure-parallel-branch-workflow.md)
 + [Konfigurēt dokumenta rindas darbplūsmu](configure-line-item-workflow.md)
++ [Bieži uzdotie jautājumi par darbplūsmu](workflow-FAQ.md)

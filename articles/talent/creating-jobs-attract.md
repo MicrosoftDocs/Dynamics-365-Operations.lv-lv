@@ -3,7 +3,7 @@ title: Darbu izveide, apstiprināšana un publicēšana programmā Attract
 description: Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305339"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772815"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Darbu izveide, apstiprināšana un publicēšana programmā Attract
 
@@ -76,8 +76,23 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsof Dynamics 365 for Talent karjeras vietne) vai LinkedIn. 
 
+Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies.
+
+Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes funkcionalitāte programmā Attract](career-site.md).
+
 > [!NOTE]
-> Ir trīs svarīgas lietas, kas jāņem vērā par darbu publicēšanu pakalpojumā LinkedIn.
+> Darbu publicēšanas funkcionalitāte ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums programmai Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>Darbu publicēšana pakalpojumā LinkedIn 
+
+Pirms darba publicēšanas no programmas Attract pakalpojumā LinkedIn administratoram ir jāpievieno LinkedIn uzņēmuma ID un LinkedIn uzņēmuma nosaukums sadaļā **Administratora iestatījumi**. LinkedIn uzņēmuma ID ir vajadzīgs, lai nodrošinātu, ka darbi, kas publicēti no programmas Attract, tiek kartēti pareizā uzņēmuma lapā.
+
+LinkedIn uzņēmuma ID ir skaitļu virkne, kas unikāli identificē jūsu uzņēmumu pakalpojumā LinkedIn. Lai iegūtu vairāk informācijas par to, kā atrast LinkedIn uzņēmuma ID, lūdzu, apmeklējiet [LinkedIn vietni](https://aka.ms/findID).
+
+Lai atjauninātu LinkedIn uzņēmumu, atlasiet vienumu **Administrēšanas centrs** izvēlnē **Iestatījumi**  (zobrata simbols) un pēc tam atlasiet cilni **LinkedIn integrācija** . Sadaļā **Izveidot savienojumu ar LinkedIn** ievadiet LinkedIn uzņēmuma nosaukumu un uzņēmumu ID un pēc tam saglabājiet iestatījumus.
+
+> [!NOTE]
+> Ir četras svarīgas lietas, kas jāņem vērā par darbu publicēšanu pakalpojumā LinkedIn.
 > 1. Pakalpojumā LinkedIn publicētie darbi tiek publicēti kā darbi ar statusu “Limited Listings” (Ierobežoti saraksti). Ierobežotu sarakstu darbus nevar piedāvāt ārpus vietnes LinkedIn. Ja vēlaties reklamēt ierobežotu sarakstu darbus, kas publicēti pakalpojumā LinkedIn no programmas Attract, jums jāpielāgo LinkedIn tā, lai varētu izmantot opciju “Job Wrapping”. Lai iegūtu papildinformāciju, lūdzu, skatiet tālāk noradītās saites un sazinieties ar LinkedIn atbalsta dienestu.
 >
 >    [Limited Listings vs Premium Job Slots for Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai
 >
 >    Ja jums ir problēmas pēc šīs darbības, lūdzu, sazinieties ar LinkedIn atbalsta dienestu. 
 > 
+> 1. Darbi, kas publicēti LinkedIn, ir redzami reāllaika LinkedIn vietnē. Nav testēšanas vides darbu publicēšanai pakalpojumā LinkedIn. 
+>
 > 1. Pašreizējā LinkedIn darbu pakešveida publicēšanas procesa dēļ var paiet līdz 24 stundām, līdz vietnē LinkedIn publicētie darbi kļūst redzami kandidātiem LinkedIn.
 
-Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies.
-
-Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes funkcionalitāte programmā Attract](./career-site.md).
-
-> [!NOTE]
-> Darbu publicēšanas funkcionalitāte ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums programmai Attract.
 
 ## <a name="activate"></a>Aktivizēt
 

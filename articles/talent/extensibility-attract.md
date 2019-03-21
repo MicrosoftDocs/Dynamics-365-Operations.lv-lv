@@ -3,7 +3,7 @@ title: Paplašināmība programmā Attract
 description: Šajā tēmā ir aprakstīts, kā varat paplašināt lietojumprogrammu Dynamics 365 for Talent - Attract, izmantojot platformu Microsoft Power.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305293"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789655"
 ---
 # <a name="extensibility-in-attract"></a>Paplašināmība programmā Attract
 
 [!include[banner](../includes/banner.md)]
 
 Programma Dynamics 365 for Talent ir būvēta, izmantojot platformu Common Data Service (CDS) programmām, un to var dažādos veidos paplašināt, izmantojot platformu Microsoft Power un iespējas, ko sniedz Common Data Service programmām. Tāpēc varat konfigurēt un personalizēt sistēmu, izmantojot Microsoft PowerApps un Microsoft Flow. Varat arī iegūt papildu analīzes datus par personām, izmantojot Microsoft Power BI. Turklāt jaunās pielāgotās aktivitātes, piemēram, PowerApps un Tīmekļa satura (iframe) aktivitātes, ļauj jums adaptēt darbā pieņemšanas procesu labāk kā jebkad. Izmantojot šīs aktivitātes, varat pielāgot darbā pieņemšanas procesu atbilstoši sava uzņēmuma vajadzībām un procedūrām, un varat nodrošināt, lai gan darbā pieņemšanas grupai, gan kandidātiem būtu vienota un pielāgota funkcionalitāte.
+
+## <a name="extending-option-sets-in-attract"></a>Opciju kopu paplašināšana programmā Attract
+
+**Opciju kopa** (salasīšanas saraksts) ir lauka veids, kuru var iekļaut elementā. Tas nosaka opciju kopu. Opciju kopas parādīšanai veidlapā izmanto nolaižamā saraksta vadīklu.  Programmā Attract ir vairāki lauki, kas ir opciju kopas.  Mēs sākam ieviest iespēju opciju kopas paplašināšanai, ietverot lauku Noraidīšanas pamatojums, lauku Nodarbinātības veids un lauku Darba stāža veids.   Pievienot var arī to opciju lokalizētās parādīšanas etiķetes opcijas, kuras tiek pievienotas.  Lai iegūtu sīkāku informāciju, skatiet šādu saiti: [Opciju kopas etiķetes pielāgošana](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> Lai izmantotu darba publicēšanas pakalpojumā LinkedIn funkcionalitāti, ir jāizmanto lauks **Nodarbinātības veids** un **Darba stāžs veids** lapā **Darba informācija**. Šo lauku noklusējuma vērtības nodrošina pakalpojums LinkedIn, un tās tiek rādītas, kad darbs tiek publicēts. Tāpēc, ja darbs tiek publicēts pakalpojumā LinkedIn un mainīts šo lauku esošās opciju kopas vērtības, darbs joprojām tiek publicēts, taču pakalpojumā LinkedIn netiek parādītas pielāgotās lauka **Nodarbinātības veids** un **Darba stāža veids** vērtības.  
+
+Tālāk ir norādītas darbības, kas jāveic, lai atjauninātu lauku **Noraidīšanas iemesls** ar vērtībām, kas ir raksturīgi jūsu biznesam.  
+
+1. Lai paplašinātu opciju kopu **Noraidīšanas iemesls**, dodieties uz [PowerApps administratora tīmekļa vietni.](Https://admin.powerapps.microsoft.com)
+2. Iespējams, tiek parādīta uzvedne ar norādi pierakstīties savā kontā. Ierakstiet savu lietotāja ID un paroles akreditācijas datus, kurus izmantojat, lai pieteiktos programmā Dynamics365 un/vai Office365 un pēc tam noklikšķiniet uz **Tālāk**.
+3. Cilnē **Vides** atlasiet vidi, kuru vēlaties pārvaldīt, un veiciet dubultklikšķi, lai parādītu cilni **Detalizēta informācija**.
+4. Cilnē **Detalizēta informācija** atlasiet **Dynamics 365 administrācijas centrs**.
+5. Atlasiet instanci, kuru vēlaties pārveidot un atlasiet **Atvērt**.
+6. Pārejiet uz sadaļu **Iestatījumi**, pēc tam uz sadaļu **Pielāgojumi** un izvēlieties **Pielāgot sistēmu**.
+7. Atrodiet elementu, kura opciju kopu vēlaties paplašināt, atlasot opciju **Elementi** un paplašinot grupu. Šajā piemērā tas būs **Darba pieteikuma elements**.
+8. Dodieties uz lauku, kura opciju kopu vēlaties paplašināt, atlasot opciju **Lauki**. Šajā piemērā tas būs **msdyn_rejectionreason**. Veiciet dubultklikšķi uz attiecīgā lauka.
+9. Laukā **Opciju kopa** izvēlieties **Rediģēt**.
+10. Atlasiet ikonu **+**.
+11. Ievadiet vērtību laukā **Etiķete**.  (Tai ir jābūt unikālai vērtībai, tā nedrīkst atkārtoties.)
+12. Atlasiet **Saglabāt**.
+13. Atlasiet **Publicēt** lapas augšdaļā.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Microsoft Power Platform pilnvērtīga izmantošana 
 
@@ -45,7 +68,7 @@ Piemēram, universitāšu karjeras iespēju izstādes varat padarīt vienkārš�
 
 Varat izmantot Microsoft Flow, lai izveidotu automatizētas darbplūsmas, kas tiek izpildītas, izmantojot Attract datus. Varat ērti izveidot savienojumu ar simtiem populāru programmu un pakalpojumu, nerakstot nekādu kodu. Izveidojot plūsmas, kas mijiedarbojas ar Attract elementiem Darbs, Kandidāts un Pieteikums platformā Common Data Service programmām, varat automatizēt dažādas darbības. Piemēram, kad kandidāts pieņem kādu piedāvājumu, var tikt nosūtīts paziņojums personāla atlases darba grupai vai šīs ziņas var tikt paziņotas vietnē Twitter. Papildinformāciju par plūsmām skatiet rakstā [Microsoft Flow dokumentācija](https://docs.microsoft.com/en-us/flow/).
 
-### <a name="power-bi"></a>Power BI
+### <a name="power-bi"></a>Power BI
 
 Power BI sniedz iespēju izveidot un skatīt pielāgotus pārskatus un informācijas paneļus, kas sniedz dziļāku ieskatu par jūsu Attract datiem. Papildinformāciju par pakalpojumu Power BI un to, kā izveidot interaktīvus pārskatus un informācijas paneļus, skatiet rakstā[Power BI dokumentācija](https://docs.microsoft.com/en-us/power-bi/).
 

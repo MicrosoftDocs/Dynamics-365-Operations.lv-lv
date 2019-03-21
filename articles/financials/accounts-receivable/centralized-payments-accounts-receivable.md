@@ -3,7 +3,7 @@ title: Centralizēti maksājumi debitoriem
 description: Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc viena un tā pati transakcija nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330751"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390147"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Centralizēti maksājumi debitoriem
 
@@ -33,7 +33,7 @@ Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveido
 
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tāpēc viena un tā pati transakcija nav jāievada vairākās juridiskajās personās. Turklāt organizācija arī ietaupa laiku, jo maksājumu priekšlikumu, nosegšanas un atvērto vai slēgto transakciju rediģēšanas procesi centralizētajiem maksājumiem notiek racionalizēti. 
 
-Organizācijā ar centralizētiem maksājumiem operācijām ir daudz juridisko personu, un katra juridiskā persona pārvalda savu rēķinos saņemamo informāciju. Maksājumus visām juridiskajām personām saņem viena juridiskā persona, kura tiek saukta par maksājuma juridisko personu. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņem realizēto ieguvumu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaižu transakcijas, kas ir saistītas ar centralizēto maksājumu. 
+Organizācijā ar centralizētiem maksājumiem operācijām ir daudz juridisko personu, un katra juridiskā persona pārvalda savu rēķinos saņemamo informāciju. Maksājumus visām juridiskajām personām saņem viena juridiskā persona, kura tiek saukta par maksājuma juridisko personu. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņem realizēto ieguvumu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaižu transakcijas, kas ir saistītas ar centralizēto maksājumu. Centralizēto maksājumu žurnāla rindā vienumam **Konta tips** jābūt atlasītam iestatījumam Debitors. Vienumam **Korespondējošā konta tips** jābūt atlasītam iestatījumam Banka vai Virsgrāmata. Bankas kontam jābūt pašreizējā uzņēmumā. 
 
 Turpmākie piemēri parāda, kā tiek veikta grāmatošana dažādās situācijās. Turpmākā konfigurācija attiecas uz visiem šiem piemēriem.
 
@@ -296,8 +296,3 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam West)    |              | 75,00         |
 | Maksājuma veicējs - Fabrikam East (Fabrikam West) | 25,00        |               |
 | Debitoru parādi (Fabrikam West)    |              | 25,00         |
-
-
-
-
-

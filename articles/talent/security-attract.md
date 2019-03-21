@@ -3,7 +3,7 @@ title: Drošības un lomu pārvaldība programmā Attract
 description: Šajā tēmā ir sniegta informācija par lomu drošību programmā Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374784"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789701"
 ---
 # <a name="security-and-role-management-in-attract"></a>Drošības un lomu pārvaldība pakalpojumā Attract
 
@@ -100,14 +100,16 @@ Tālāk norādītās privilēģijas attiecas uz darbam raksturīgo informāciju 
 | Dati vai darbība          | Personāla atlases darbinieks | Par pieņemšanu darbā atbildīgais vadītājs: | Intervētājs |
 |-------------------------|-----------|----------------|-------------|
 | Pieteikumu dokumenti   | Izveidot, lasīt, atjaunināt un dzēst darbiem, kuriem lietotājs ir ietverts darbā pieņemšanas grupā | Izveidot, lasīt, atjaunināt un dzēst darbiem, kuriem lietotājs ir ietverts darbā pieņemšanas grupā | Tikai lasāms |
-| Pieteikumu piezīmes       | Izveidot, lasīt, atjaunināt un dzēst darbiem, kuriem lietotājs ir ietverts darbā pieņemšanas grupā | Izveidot, lasīt, atjaunināt un dzēst darbiem, kuriem lietotājs ir ietverts darbā pieņemšanas grupā | Izveidot |
+| Pieteikumu piezīmes       | Izveidot, lasīt, atjaunināt un dzēst darbiem, kuriem lietotājs ir ietverts darbā pieņemšanas grupā | Izveidot, lasīt, atjaunināt un dzēst darbiem, kuriem lietotājs ir ietverts darbā pieņemšanas grupā | Tikai lasāms|
 | Pieteikumu aktivitāte    | Skatīt, ja lietotājs ir darbā pieņemšanas grupā | Skatīt, ja lietotājs ir darbā pieņemšanas grupā | Tikai lasāms |
 | Pieteikumu atsauksmes    | Pievienot un skatīt visas atsauksmes, ja lietotājs ir darbā pieņemšanas grupā | Pievienot un skatīt visas atsauksmes, ja lietotājs ir darbā pieņemšanas grupā | Var pievienot atsauksmes\*\* |
 | Noraidīt pieteikumu      | Var noraidīt, ja lietotājs ir darbā pieņemšanas grupā | Nav atļauts | Nav atļauts |
 | Pārcelt uz nākamo posmu           | Var noraidīt, ja lietotājs ir darbā pieņemšanas grupā | Var pārcelt, ja lietotājs ir darbā pieņemšanas grupā | Nav atļauts |
 | Palaist piedāvājumu pārvaldību | Var sākt piedāvājumu pārvaldību | Pastāv konfigurācijas opcija piedāvājumu aktivitātei. | Nav atļauts |
 
-\*\* Konfigurācijas opcija sadaļā [atsauksmju aktivitāšu iestatīšana](activities-attract.md#feedback-activity) kontrolē to, vai intervētāji var redzēt viens otra atsauksmes.
+
+\*\* Konfigurācijas opcija sadaļā [atsauksmju aktivitāšu iestatīšana](./activities-attract.md) kontrolē to, vai intervētāji var redzēt viens otra atsauksmes.
+
 
 ## <a name="process-templates"></a>Procesa veidnes
 

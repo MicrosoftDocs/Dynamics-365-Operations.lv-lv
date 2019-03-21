@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376511"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768886"
 ---
 # <a name="set-up-offer-management"></a>Piedāvājumu pārvaldības iestatīšana 
 
@@ -199,11 +199,11 @@ Piedāvājuma veidošanas procesā ir vairākas daļas, kuras var konfigurēt At
 - **Kandidāta piedāvājuma pieredze** — kā administrators varat izvēlēties iestatīt, vai visiem piedāvājumiem ir beigu datums un — ja tāds ir — kādai ir jābūt beigu datuma noklusējuma nobīdei. Varat arī konfigurēt to, vai kandidāti var noraidīt kādu piedāvājumu.
 
 - **Elektroniskie paraksti** — kā administrators varat arī izvēlēties metodi, kuru kandidātiem izmantot, lai parakstītu piedāvājumus.
-    - Adobe Sign — visas piedāvājumu pakotnes tiks nosūtītas un parakstītas, izmantojot Adobe Sign. Katram piedāvājumu izveidotājam, kurš publicē piedāvājumu, ir nepieciešama programmai Attract piesaistīta Adobe Sign licence. 
+    - Adobe Sign — visas piedāvājumu pakotnes tiks nosūtītas un parakstītas, izmantojot Adobe Sign. Katram piedāvājumu izveidotājam, kurš publicē piedāvājumu, ir nepieciešams programmai Attract piesaistīts Adobe Sign konts. Lai iegūtu Adobe Sign licenci bezmaksas izmēģinājumversiju, noklikšķiniet uz šīs [saites](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign — visas piedāvājumu pakotnes tiks nosūtītas un parakstītas, izmantojot DocuSign. Katram piedāvājumu izveidotājam, kurš publicē piedāvājumu, ir nepieciešams programmai Attract piesaistīts DocuSign konts. 
+    
     - ESign — šī ir standarta komplektācijā iekļautā noklusējuma opcija, ar kuru lietotājs var parakstīt piedāvājumu, ievadot savu vārdu un iniciāļus.
 
->[!NOTE]
-> Lai iegūtu Adobe Sign licenci bezmaksas izmēģinājumversiju, noklikšķiniet uz šīs [saites](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Plašāku informāciju par piedāvājuma izveidošanas procesu skatiet šeit: [Piedāvājumu izveide, apstiprināšana un parakstīšana](./creating-offers.md).

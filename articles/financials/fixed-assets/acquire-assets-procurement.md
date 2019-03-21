@@ -3,7 +3,7 @@ title: Iegūt līdzekļus, izmantojot sagādi
 description: Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355798"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778228"
 ---
 # <a name="acquire-assets-through-procurement"></a>Iegūt līdzekļus, izmantojot sagādi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas.
+Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas. Viena pirkšanas rinda izveidos vienu pamatlīdzekli neatkarīgi no daudzuma pirkšanas rindā. Ja nepieciešams izveidot vairākus pamatlīdzekļus, ir jāizveido vairākas pirkšanas rindas.
 
  Pamatlīdzekļu un kreditoru saistīšanai ir pieejamas tālāk aprakstītās metodes, un visiem pamatlīdzekļiem ir jāizmanto vienāda metode.
 -   Pirms pamatlīdzekļa numura pievienošanas pirkšanas pasūtījuma vai kreditora rēķina rindā ir manuāli jāizveido pamatlīdzekļa ieraksts. Iegrāmatojot kreditora rēķinu, automātiski tiek iegrāmatota pamatlīdzekļa iegādes transakcija. Šī metode ir pēc noklusējuma.

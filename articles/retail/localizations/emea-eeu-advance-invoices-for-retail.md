@@ -16,14 +16,15 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba2cfb176242e2e611375c9943a9e4da2b2bb02a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0dd49d6fc3294342ebc13d16eb871d0b20229b0c
+ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371270"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "760703"
 ---
 # <a name="advance-invoices-for-retail-for-eastern-europe"></a>Avansa rēķini programmai Retail Austrumeiropā
+
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par Austrumeiropas lokalizāciju un attiecas uz mazumtirdzniecības nozari.
@@ -32,7 +33,7 @@ Polijā, Ungārijā un Čehijas Republikā, saņemot priekšapmaksu no debitora 
 
 Kad tiek veikts galīgais pārdošanas pasūtījuma rēķina grāmatojums, galīgajā dokumentā jāietver avansa rēķins un ir jānorāda visas priekšapmaksas.
 
-Ja pārdošanas pasūtījumi tiek izveidoti no debitoru parādiem, ir manuāli jāizveido avansa rēķini, izmantojot procedūru, kas aprakstīta tēmā [Avansa rēķini Austrumeiropas valstīm](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). Ja pārdošanas pasūtījumi tiek izveidoti ar POS starpniecību, sistēma izveido un grāmato avansa rēķinus jūsu vietā.
+Ja pārdošanas pasūtījumi tiek izveidoti no debitoru parādiem, ir manuāli jāizveido avansa rēķini, izmantojot procedūru, kas aprakstīta tēmā [Avansa rēķini Austrumeiropas valstīm](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). Ja pārdošanas pasūtījumi tiek izveidoti ar POS starpniecību, sistēma izveido un grāmato avansa rēķinus jūsu vietā.
 
 ## <a name="supported-scenarios"></a>Atbalstītie scenāriji
 

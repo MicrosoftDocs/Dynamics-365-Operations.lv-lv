@@ -3,7 +3,7 @@ title: Piedāvājumu izveide, apstiprināšana un parakstīšana
 description: Šajā tēmā ir aprakstīts, kā izveidot, apstiprināt un parakstīt piedāvājumu kandidātam, izmantojot programmu Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ad7ce1e089d2a8b5c52e7cd01bb3d89070004b1
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305361"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768909"
 ---
 # <a name="creating-approving-and-signing-offers"></a>Piedāvājumu izveide, apstiprināšana un parakstīšana
 
@@ -104,15 +104,20 @@ Pastāv vairākas darbības, kuras var veikt pirms piedāvājuma nosūtīšanas 
 
 -  Iespējams, ka vēlēsities iekļaut piedāvājuma pieņemšanas procesā papildu dokumentus. Jums būs iespēja norādīt nepieciešamo dokumentu tipu.
 
-- Elektroniskā paraksta opcija: ja par velamo elektroniskās parakstīšanas metodi tika izvēlēta programma Adobe Sign, piedāvājuma veidotājiem ir jāpievieno Adobe Sign licence. To var izdarīt divos veidos. Dodieties uz cilnes **Piedāvājums** sadaļu Lietotājs **Iestatījumi** un sadaļā **Savienojumi** izvēlieties izveidot savienojumu ar **Adobe Sign**. Vai arī jums tiks lūgts pievienot nosūtīto piedāvājumu kandidāta ekrānam, ja savienojums jau nav ticis izveidots, pamatojoties uz lietotāja iestatījumiem. 
+- Elektroniskā paraksta opcija: pastāv divi veidi, kā izveidot savienojumu ar izvēlēto elektroniskā paraksta nodrošinātāju. Dodieties uz cilnes **Piedāvājums** sadaļu **Lietotāja iestatījumi** un sadaļā **Savienojumi** izveidojiet savienojumu ar **Adobe Sign** vai **DocuSign**. Vai arī jums tiks lūgts pievienot lapu **Nosūtīt piedāvājumu kandidātam**, ja savienojums vēl nav izveidots, pamatojoties uz lietotāja iestatījumiem. Elektroniskā paraksta kontu nepieciešams pievienot tikai vienu reizi. Visām viena lietotāja turpmāk nosūtītajām piedāvājumu pakotnēm tiks izmantota viena un tā pati licence. 
 
-> [!NOTE]
-> Lietotājiem ir jāizveido savienojums ar Adobe Sign kontu tikai vienreiz. Visām viena lietotāja turpmāk nosūtītajām piedāvājumu pakotnēm tiks izmantota viena un tā pati licence. 
+### <a name="adobe-sign"></a>Adobe Sign
+Ja par vēlamo elektroniskās parakstīšanas metodi tika izvēlēta programma Adobe Sign, šajā darbībā piedāvājuma veidotājiem ir jāpievieno Adobe Sign licence. 
+
+### <a name="docusign"></a>DocuSign
+Ja par vēlamo elektroniskās parakstīšanas metodi tika izvēlēta programma DocuSign, piedāvājuma veidotājiem ir jāpievieno DocuSign licence. Pēc pierakstīšanās noklusējuma konts un atļaujas, kas saistītas ar lietotāja DocuSign profilu, ir savienotas ar programmu Talent Attract. 
 
 -  Nepieciešamības gadījumā var skatīt un rediģēt e-pasta veidni.
 
 Kad piedāvājums ir gatavs un jūs noklikšķināt uz **Nosūtīt kandidātam**, kandidāts saņems e-pasta ziņojumu, ka piedāvājums ir pieejams skatīšanai.
 
+>[!NOTE]
+> Ja izmantojat Adobe Sign vai DocuSign un rodas kļūda, nosūtot piedāvājumu kandidātam, pamēģiniet atvienot un atkāroti pievienot elektroniskā paraksta lietotāja kontu, izmantojot sadaļu **Lietotāja iestatījumi**. Ja problēma netiek novērsta, sazinieties ar mūsu atbalsta dienestu, izmantojot saiti **Ziņot par problēmu**.
 
 ## <a name="candidates-actions-after-receiving-an-offer"></a>Kandidāta darbības pēc piedāvājuma saņemšanas
 

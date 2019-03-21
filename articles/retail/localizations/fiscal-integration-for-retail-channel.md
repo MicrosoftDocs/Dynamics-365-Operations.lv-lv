@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377139"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773281"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Apskats par mazumtirdzniecības kanālu finanšu integrāciju
 
@@ -30,7 +30,7 @@ ms.locfileid: "377139"
 
 ## <a name="introduction"></a>Ievads
 
-Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Microsoft Dynamics 365 for Retail. Finanšu integrācija ietver integrāciju ar dažādām finanšu ierīcēm un pakalpojumiem, kas nodrošina mazumtirdzniecības pārdošanas darbību finanšu reģistrāciju saskaņā ar vietējiem likumiem par nodokļiem, kuru mērķis ir novērst ar nodokļiem saistītu krāpniecību mazumtirdzniecības nozarē. Tālāk ir norādīti daži tipiski scenāriji, kuros var izmantot finanšu integrāciju. 
+Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Microsoft Dynamics 365 for Retail. Finanšu integrācija ietver integrāciju ar dažādām finanšu ierīcēm un pakalpojumiem, kas nodrošina mazumtirdzniecības pārdošanas darbību finanšu reģistrāciju saskaņā ar vietējiem likumiem par nodokļiem, kuru mērķis ir novērst ar nodokļiem saistītu krāpniecību mazumtirdzniecības nozarē. Tālāk ir norādīti daži tipiski scenāriji, kuros var izmantot finanšu integrāciju.
 
 - Reģistrējiet mazumtirdzniecības pārdošanas darbību finanšu ierīcē, kas ir savienota ar programmu Retail Point of Sale (POS), piemēram fiskālo printeri, un izdrukājiet debitoram paredzētu finanšu dokumentu.
 - Drošā veidā iesniedziet ar programmā Retail POS veiktajām pārdošanas un atgriešanas darbībām saistīto informāciju ārējā tīmekļa pakalpojumā, kura darbību nodrošina nodokļu iestāde.
@@ -87,6 +87,7 @@ Ja transakcijas vai notikuma finanšu reģistrācija ir veiksmīga, kanāla datu
 
 Finanšu transakcijas tiek pārsūtītas uz moduli Mazumtirdzniecība kopā ar mazumtirdzniecības transakcijām, izmantojot funkciju *P darbs*. Lapas **Mazumtirdzniecības veikala transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar mazumtirdzniecības transakcijām.
 
+
 Finanšu transakcijā ir saglabāta tālāk norādītā detalizētā informācija.
 
 - Detalizēta informācija par finanšu reģistrācijas procesu (par procesu, savienotāju grupu, savienotāju utt.). Turklāt laukā **Kases sistēmas numurs** tiek glabāts finanšu ierīces sērijas numurs, ja šī informācija ir ietverta finanšu atbildē.
@@ -115,4 +116,5 @@ Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrāc
 
 - [Ciparparaksts izmantošanai Francijā](emea-fra-cash-registers.md)
 - [Ciparparaksts izmantošanai Norvēģijā](emea-nor-cash-registers.md)
-- [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](./retail-sdk-control-unit-sample.md)
+

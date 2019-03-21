@@ -3,7 +3,7 @@ title: Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana
 description: Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu mazumtirdzniecības kanāliem.
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377317"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773331"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana
 
@@ -175,7 +175,7 @@ Dažos gadījumos uz finanšu dokumenta jādrukā īpašs teksts, ja tiek piemē
     3. Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.
 
     > [!NOTE]
-    > Ja tai pašai transakcijas rindai tiek piemērotas vairākas atlaides, finanšu dokumentā būs ietverti finanšu teksti no visām atlaidēm, kuras ir saistītas ar attiecīgo transakcijas rindu. 
+    > Ja tai pašai transakcijas rindai tiek piemērotas vairākas atlaides, finanšu dokumentā būs ietverti finanšu teksti no visām atlaidēm, kuras ir saistītas ar attiecīgo transakcijas rindu.
 
 ## <a name="set-error-handling-settings"></a>Kļūdu apstrādes iestatījumu veikšana
 
@@ -210,3 +210,4 @@ Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas poga
     2. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu X** pogas rekvizītu.
     3. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu Z** pogas rekvizītu.
     4. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai pārsūtītu izmaiņas uz kanāla datu bāzi.
+

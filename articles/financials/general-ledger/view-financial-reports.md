@@ -1,9 +1,9 @@
 ---
-title: Skatīt finanšu pārskatus
-description: Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu atskaites programmatūrā Microsoft Dynamics 365 for Finance and Operations. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
+title: Finanšu pārskatu skatīšana
+description: Šajā tēmā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus programmā Microsoft Dynamics 365 for Finance and Operations. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312949"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791445"
 ---
-# <a name="view-financial-reports"></a>Skatīt finanšu pārskatus
+# <a name="view-financial-reports"></a>Finanšu pārskatu skatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā skatīt un izpētīt finanšu atskaites programmatūrā Microsoft Dynamics 365 for Finance and Operations. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
+Šajā tēmā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus programmā Microsoft Dynamics 365 for Finance and Operations. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 
 <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
 ----------------------------
@@ -67,18 +67,15 @@ Jebkurā laikā finanšu pārskatu var parādīt jebkurā valūtā. Lai pārskat
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Finanšu pārskata kopskata parādīšana
 Finanšu pārskats var ietvert detalizētas rindas un kopsavilkuma rindas. Detalizētās rindas ir rindas, kas ietver galvenos kontus vai dimensijas. Kopsavilkuma rindas ir apraksts, kopsumma un aprēķina rinda. Lai parādītu tikai pārskata kopsavilkuma rindas, noklikšķiniet uz **Rādīt** un pēc tam noklikšķiniet uz **Tikai kopsavilkuma rindas**. Pārskats tiek sakļauts un tiek parādītas tikai kopsavilkuma rindas. Lai skatītu detalizētas rindas kopā ar kopsavilkuma rindām, noklikšķiniet uz **Rādīt** un pēc tam vēlreiz noklikšķiniet uz **Tikai kopsavilkuma rindas**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Iepriekšējā mēneša finanšu pārskata atvēršana
-Varat skatīt pašreizējā mēneša vai iepriekšējo mēnešu pārskatus, neveicot atkātrotu pārskatu ģenerēšanu. Lai atvērtu iepriekšējā mēneša pārskatu, noklikšķiniet uz **Parādīt** un pēc tam noklikšķiniet uz **Iepriekšējie pārskati**. Tiek parādīts saraksts ar iepriekšējiem mēnešiem, kad pārskats tika ģenerēts. Izvērsiet mēnesi, par kuru skatīt pārskatu, atlasiet datumu un pēc tam noklikšķiniet uz **Labi**. Tiek parādīts iepriekšējā mēneša pārskats. Lai atgrieztos pašreizējā mēneša pārskatā, noklikšķiniet uz **Atcelt**.
-
 ## <a name="print-a-financial-report"></a>Finanšu pārskata drukāšana
-Lai drukātu finanšu pārskatu, darbību rūtī noklikšķiniet uz **Drukāt** un pēc tam izpildiet vienu vai vairākas no tālāk minētajām darbībām, lai iestatītu drukas opcijas.
+Drukājot finanšu pārskatu, tiek izveidots PDF formāta fails, ko pēc tam var manuāli izdrukāt. Lai izveidotu drukājamu finanšu pārskatu, darbību rūtī noklikšķiniet uz **Drukāt** un pēc tam izpildiet vienu vai vairākas no tālāk minētajām darbībām, lai iestatītu drukas opcijas.
 
 -   Lai drukātajā pārskata iekļautu dažādus detalizācijas līmeņus, iestatiet slīdni **Jā** vai **Nē**. Ja pārskats izmanto pārskata koku, var izvēlēties, vai iekļaut visus pārskata vienumus vai tikai pašreizējo pārskata vienumu.
 -   Lai iestatītu lappuses izmērus, sarakstā atlasiet lappuses izmērus.
 -   Lai iestatītu lappuses izkārtojumu, sarakstā atlasiet izkārtojumu. Ja vēlaties, lai pārskata saturs tiktu ietilpināts lappusē atbilstoši atlasītajam platumam, iestatiet slīdni uz **Jā**.
 -   Lai iestatītu lappuses piemales, ierakstiet augšējās, apakšējās, kreisās un labās piemales lielumu collās.
 
-Kad esat pabeidzis iestatīt drukas opcijas, noklikšķiniet uz **Drukāt**, lai drukātu pārskatu. Ja nevēlaties drukāt pārskatu, noklikšķiniet uz **Atcelt**. Tiek parādīts drukātā pārskata priekšskatījums. Varat atlasīt printeri, uz kuru vēlaties sūtīt pārskatu, kā arī varat pielāgot drukas opcijas.
+Kad esat pabeidzis iestatīt drukas opcijas, noklikšķiniet uz **Drukāt**, lai turpinātu un saņemtu uzvedni ar jautājumu, vai vēlaties failu lejupielādēt vai saglabāt pakalpojumā OneDrive vai SharePoint. Ja izlemjat, ka nevēlaties tirpināt, tā vietā noklikšķiniet uz **Atcelt**. Kad turpināt, serverī tiek sākta pārskata atveidošana un jums tiek parādīta uzvedne ar aicinājumu lejupielādēt pārskatu PDF formātā. Tagad varat skatīt pārskatu PDF skatītājā, kur varat atlasīt printeri, uz kuru ir jāsūta pārskats, un veikt jebkādus drukas opciju papildu pielāgojumus.
 
 ## <a name="export-a-financial-report"></a>Finanšu pārskata eksportēšana
 Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksportēt**. Pārskats tiks eksportēts programmā Microsoft Excel, un pārlūkprogrammā tiks parādīts aicinājums atvērt vai saglabāt eksportēto failu. Eksporta iestatījumi, kas tiek definēti pārskata noformējumā, tiek lietoti eksportētajam pārskatam.    
@@ -86,7 +83,7 @@ Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksport�
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Finanšu pārskati programmai Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Finanšu pārskatu veidošana](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
