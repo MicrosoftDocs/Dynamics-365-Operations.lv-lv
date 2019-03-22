@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a925d16239ec78b09403a0c0db1346e35b7eee20
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302575"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403266"
 ---
 # <a name="fixed-assets-home-page"></a>Pamatlīdzekļu sākumlapa
 
@@ -39,15 +39,13 @@ Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc 
 
 ### <a name="additional-resources"></a>Papildu resursi
 
-#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli “Pamatlīdzekļi” un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par moduli “Pamatlīdzekļi”. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa “Parādi kreditoriem” versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 

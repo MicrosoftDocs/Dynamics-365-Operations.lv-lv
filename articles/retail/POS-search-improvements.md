@@ -3,7 +3,7 @@ title: Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313593"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789873"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -69,7 +69,7 @@ Lokālās preču meklēšanas funkcionalitāte tagad ir lietotājam vēl draudz�
 
 ## <a name="customer-search"></a>Debitora meklēšana
 
-Debitora meklēšana tiek lietota, lai dažādos nolūkos atrastu debitorus. Piemēram, kasieri var vēlēties apskatīt debitora vēlmju sarakstu vai pirkumu vēsturi vai pievienot debitoru kādai transakcijai. Vairāku atslēgvārdu meklēšanas gadījumā debitoru meklēšanas algoritms atgriež visus debitorus, kas atbilst kādam no meklētajiem atslēgvārdiem. Taču debitori, kas atbilst vislielākajam skaitam atslēgvārdu, tiek rādīti rezultātu augšpusē. Šī uzvedība ir vienāda ar veidu, kā rezultātus rāda pārējās meklēšanas programmas. Tās vispirms rāda rezultātus, kas atbilst lielākajam skaitam meklēto vārdu, un pēc tam tās rāda rezultātus, kas meklētajiem atslēgvārdiem atbilst daļēji. Šī uzvedība kasieriem palīdz situācijās, kur viņi meklēšanai izmanto vairākus atslēgvārdus, bet vienā no atslēgvārdiem ir pareizrakstības kļūda.
+Debitora meklēšana tiek lietota, lai dažādos nolūkos atrastu debitorus. Piemēram, kasieri var vēlēties apskatīt debitora vēlmju sarakstu vai pirkumu vēsturi vai pievienot debitoru kādai transakcijai. Meklēšanas algoritms atbilst meklēšanas terminiem ar vērtībām, kas pastāv šādos debitora rekvizītos: vārds, uzvārds, e-pasta adrese, tālrunis, lojalitātes programmas kartes numurs, adrese un konta numurs. No tiem vārda un uzvārda rekvizīts ir viselastīgākais, ja ir jāveic vairāku atslēgvārdu meklēšana, jo algoritms atgriež visus debitorus, kas atbilst kādam no meklētajiem atslēgvārdiem, un debitori, kas atbilst vairumam atslēgvārdu, tiek parādīti rezultātu augšdaļā. Šī darbība palīdz kasieriem situācijās, kad viņi veic meklēšanu, ievadot pilnu vārdu un uzvārdu, bet uzvārds un vārds sākotnējās datu ievades laikā ir apmainīti vietām. Tomēr veiktspējas dēļ visi pārējie rekvizīti saglabā meklēšanas atslēgvārdu secību, tādēļ, ja meklēšanas atslēgvārdi neatbilst secībai, kādā dati ir saglabāti, rezultāti netiek atgriezti.
 
 Pēc noklusējuma debitora meklēšana tiek veikta debitoru adrešu grāmatās, kuras ir saistītas ar veikalu. Šī tipa meklēšana tiek saukta par *lokālo debitoru meklēšanu*. Taču darbinieki debitorus var meklēt arī globāli. Citiem vārdiem sakot — viņi var meklēt gan uzņēmuma veikalos, gan visās pārējās juridiskajās personās. Šī tipa meklēšana tiek saukta par *attālo debitoru meklēšanu*.
 

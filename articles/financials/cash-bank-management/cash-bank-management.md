@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d15ff8add8a77c27a9f0153c9e881ecae3d9da78
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302605"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403312"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Kases un bankas vadības sākumlapa
 
@@ -84,15 +84,13 @@ Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas banka
 
 ### <a name="additional-resources"></a>Papildu resursi
 
-#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli “Kases un bankas vadība” un citiem risinājumiem ir atrodama [Microsoft Dynamics 365 emuārā] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz ziņu par moduli “Kases un bankas vadība”. Lai gan dažas no šīm ziņām tika rakstītas par moduļa “Kases un bankas vadība” iepriekšējo versiju, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 

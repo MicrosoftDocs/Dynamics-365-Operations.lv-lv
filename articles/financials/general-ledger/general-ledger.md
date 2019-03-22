@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363365"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403241"
 ---
 # <a name="general-ledger"></a>Virsgrāmata 
 
@@ -53,21 +53,19 @@ Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="whats-new"></a>Kas jauns
+#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Informācija par laidienu](https://docs.microsoft.com/en-us/business-applications-release-notes/). 
+Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Microsoft Dynamics 365 informācija par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+
+#### <a name="blogs"></a>Emuāri
+
+Viedokļi, jaunumi un cita informācija ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — finanšu emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+
+[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
 ### <a name="videos"></a>Videoklipi
 
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-### <a name="blogs"></a>Emuāri
-
-Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejami [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-[Microsoft Dynamics AX produktu darba grupas emuārā](https://blogs.msdn.microsoft.com/dax/) ir daudz rakstu par Virsgrāmatu. Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai virsgrāmatas versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
-
-[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
 #### <a name="community-blogs"></a>Kopienas emuāri
 

@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329256"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836352"
 ---
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
@@ -35,11 +35,77 @@ ms.locfileid: "329256"
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-> [!Note]
+> [!NOTE]
 > Sākot ar programmas Dynamics 365 for Finance and Operations 2017. gada jūlija laidienu ar 8. platformas atjauninājumu, ir norādīts katra noņemtajā vai novecojušā līdzekļa izvietojumu veids. Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.
 
-> [!Note]
+> [!NOTE]
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 ar atjauninājumu Platform update 25 pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījumu laidieniem skatiet sadaļā [Standarta un pirmā laidiena servisa atjauninājumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Novecojušie API un iespējamas traucējumus radošas izmaiņas
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Atvasināšana no iekšējām klasēm ir novecojusi
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Laidienos pirms atjauninājuma Platform update 25 bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar atjauninājumu Platform update 25, kompilators parādīs brīdinājuma ziņojumu, ja veiksiet šādu mēģinājumu.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Kompilatora brīdinājums tiks aizstāts ar kļūdu turpmākajā platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi, ja darbināt atjauninājumu Platform update 25 vai jaunāku versiju, to var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis — brīdinājums tiks aizstāts ar kompilēšanas kļūdu turpmākajā platformas atjauninājumā. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Iekšējo metožu ignorēšana ir novecojusi
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Laidienos pirms atjauninājuma Platform update 25 bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar atjauninājumu Platform update 25, kompilators parādīs brīdinājuma ziņojumu, ja veiksiet šādu mēģinājumu.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajā platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi, ja darbināt atjauninājumu Platform update 25 vai jaunāku versiju, to var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis — brīdinājums tiks aizstāts ar kompilēšanas kļūdu turpmākajā platformas atjauninājumā. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
+
+### <a name="print-to-screen-functionality"></a>Drukāšanas uz ekrāna funkcionalitāte
+Klienti var izmantot darbību **Importēt**, kas paredzēta pārskatu skatītāja kontrolē, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Versija bez lapdales HTML priekšskatījumā **nenodrošina** precīzu atbilstību fiziskajiem dokumentiem, kas galu galā tiek izveidoti programmā Finance and Operations. Pilnībā ieviešot PDF kā standarta formātu biznesa operācijām, mēs varējām ievērojami vienkāršot lietotāja opcijas mijiedarbībai ar pieteikumu pārskatiem un uzlabot dokumentu atveides procesu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Turpmāk PDF dokumenti būs noklusējuma formāts pārskatiem, kurus atveido programma Finance and Operations.   |
+| **Ietekmētie produkta apgabali**         | Šīs izmaiņas **neietekmē** klientu scenārijus, kuros pārskati tiek izplatīti elektroniski vai nosūtīti tieši uz printeriem.    |
+| **Izvietošanas iespēja**              | Visus  |
+| **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums. 2019. gada maija platformas atjauninājumā ir paredzēta funkcionalitāte, lai automātiski lejupielādētu pieteikumu pārskatus pārlūkprogrammā kā PDF dokumentus. <br><br>**Svarīgi:** esošajiem klientiem, kuri izmanto funkciju Drukāt uz ekrāna, ir ieteicams informēt [atbalsta dienestu](../lifecycle-services/lcs-support.md) pirms veikt jaunināšanu uz atjauninājumu Platform update 26. |
+
+### <a name="client-kpi-controls"></a>Klienta KPI vadīklas
+Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI) programmā Visual Studio, un lietotājs var veikt to turpmāku pielāgošanu.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Tādu vietējā klienta vadīklu gadījumā, ko izmanto, lai definētu KPI, ir zema klientu aktivitāte un ir nepieciešams izstrādātājs, lai pievienotu izsekojamus rādītājus. |
+| **Vai ir aizstāts ar citu līdzekli?**   | PowerBI.com pakalpojums nodrošina pasaules līmeņa rīkus KPI definēšanai un pārvaldībai, balstoties uz datiem no ārējiem avotiem.  Turpmākajos laidienos ir paredzēta iespēja pakalpojumā PowerBI.com viesotus risinājumus iegult programmas darbvietās.   |
+| **Ietekmētie produkta apgabali**         | Šis atjauninājums neļaus izstrādātājiem ieviest jaunas KPI vadīklas Visual Studio noformētājā.    |
+| **Izvietošanas iespēja**              | Visus  |
+| **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Novecojušie API un turpmākas traucējumus radošas izmaiņas
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Lauku grupas, kas ietver nederīgas lauku atsauces
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums*, nevis *kļūda*, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās.  |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
+| **Izvietošanas iespēja**              | Visi. |
+| **Statuss**                         | Novecojis — brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās. Paredzams, ka tas tiks veikts atjauninājumā Platform update 30. |
+
+#### <a name="complete-list"></a>Pilnīgs saraksts
+Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu
 
@@ -52,7 +118,7 @@ Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis rež
 | **Vai aizstāts ar citu līdzekli?**   | Opciju Asinhroni un plānoto partiju var izmantot opcijas Sinhroni vietā.   |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata, Debitori, Kreditori, Sagāde, Izdevumu    |
 | **Izvietošanas iespēja**              | Visus  |
-| **Statuss**                         | Novecojis — funkcionalitātes noņemšanas mērķa laikposms ir 10.0 versija.|
+| **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 10.0 versija.|
 
 ### <a name="electronic-reporting-for-russia"></a>Elektroniskā pārskata veidošanas formāts Krievijai
 Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai. 

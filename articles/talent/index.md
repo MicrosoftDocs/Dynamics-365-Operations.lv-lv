@@ -75,7 +75,7 @@ Varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, k
 
 ## <a name="develop-and-train-employees"></a>Darbinieku attīstības veicināšana un apmācība
 
-Lai palīdzētu saviem darbiniekiem sasniegt viņu karjeras mērķus, vienlaikus nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot darba izpildes novērtējumus un sekot līdzi atsauksmēm. Lai palīdzētu darbiniekiem attīstīt nepieciešamās prasmes, varat arī iestatīt instruktorus, kursu tipus, kursus, kursu aprakstus, darba kārtības, izsekošanu un sesijas, pirms kursam piešķirat kādu instruktoru vai kursam reģistrējat kādu personu. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
+Lai palīdzētu darbiniekiem sasniegt karjeras mērķus, vienlaikus nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, veidot izpildes novērtējumus un izsekot atsauksmēm. Lai palīdzētu darbiniekiem attīstīt nepieciešamās prasmes, varat iestatīt arī instruktorus, kursu veidus, kursus, kursu aprakstus, dienas kārtības, izsekošanu un sesijas, pirms piešķirat kursam instruktoru vai reģistrējat kursam dalībnieku. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
 
 -   [Veiktspējas pārvaldība](performance-management-overview.md)
 -   [Darbaspēka prasmju izmantošana atbilstoši biznesa vajadzībām](skills.md)

@@ -3,7 +3,7 @@ title: Finanšu kalendāri, finanšu gadi un periodi
 description: Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361663"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778205"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Finanšu kalendāri, finanšu gadi un periodi
 
@@ -43,7 +43,7 @@ Slēgšanas periods tiek lietots, lai dalītu Virsgrāmatas darījumus, kas tiek
 Kad veidojat slēgšanas periodu, atlasiet kādu periodu, kura statuss ir Atvērts un kuram ir datumi, ko vēlaties izmantot. Jaunais slēgšanas periods kopēs esošā perioda sākuma un beigu datumu. Sākotnējais periods turpinās pastāvēt. Piemēram, jūs atlasāt 12. periodu, kas ir pēdējais finanšu gada periods un kurā ir ietverti datumi no 1. augusta līdz 31. augustam. Jūs ievadāt slēgšanas perioda nosaukumu, piemēram “Slēgšana”. Kad esat izveidojis jaunu slēgšanas periodu, jums ir sākotnējais periods un slēgšanas periods. Abiem datumi sākas 1. augustā un beidzas 31. augustā.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Atlasīt finanšu kalendārus Virsgrāmatām, pamatlīdzekļiem un budžeta cikliem
-Finanšu kalendāri tiek izmantoti ar pamatlīdzekļu nolietojumu, finanšu transakcijām un budžeta cikliem. Veidojot finanšu kalendāru, varat to izmantot vairākiem nolūkiem. Jūs varat atlasīt finanšu kalendāru vērtības modelim vai nolietojuma grāmata, lai padarītu to par pamatlīdzekļu kalendāru. Varat atlasīt finanšu kalendāru Virsgrāmatai, lai padarītu to par Virsgrāmatas kalendāru. Varat arī atlasīt finanšu kalendāru budžeta ciklam, lai padarītu to par budžeta kalendāru. Varat izmantot vienu un to pašu finanšu kalendāru visiem šiem nolūkiem.
+Finanšu kalendāri tiek izmantoti ar pamatlīdzekļu nolietojumu, finanšu transakcijām un budžeta cikliem. Veidojot finanšu kalendāru, varat to izmantot vairākiem nolūkiem. Atlasīt var pamatlīdzekļu grāmatas finanšu kalendāru, lai padarītu to par pamatlīdzekļu kalendāru. Varat atlasīt finanšu kalendāru Virsgrāmatai, lai padarītu to par Virsgrāmatas kalendāru. Varat arī atlasīt finanšu kalendāru budžeta ciklam, lai padarītu to par budžeta kalendāru. Varat izmantot vienu un to pašu finanšu kalendāru visiem šiem nolūkiem.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Atlasīt finanšu kalendāru savai juridiskajai personai
 
@@ -51,7 +51,7 @@ Formā Virsgrāmata atlasiet finanšu kalendāru, ko vēlaties izmantot virsgrā
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Atlasīt finanšu kalendāru pamatlīdzekļiem
 
-Varat atlasīt finanšu kalendāru vērtības modelim vai nolietojuma grāmatai, un šis finanšu kalendārs tiks izmantots pamatlīdzekļiem, kas lieto atlasīto vērtības modeli vai nolietojuma grāmatu. Varat atlasīt no jebkura finanšu kalendāra, kas ir definēts lapā Finanšu kalendāri.
+Atlasīt var pamatlīdzekļu grāmatas finanšu kalendāru, un šis finanšu kalendārs tiks izmantots pamatlīdzekļiem, kas lieto atlasīto grāmatu. Varat atlasīt no jebkura finanšu kalendāra, kas ir definēts lapā Finanšu kalendāri.
 
 ### <a name="define-budget-cycle-time-spans"></a>Definēt budžeta cikla laika posmus
 

@@ -3,7 +3,7 @@ title: Multikanālu papildu automātiskās maksas
 description: Šajā tēmā ir aprakstītas iespējas pārvaldīt pasūtījuma papildu maksas mazumtirdzniecības kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekļus.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345563"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789775"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Multikanālu papildu automātiskās maksas
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par to, kā konfigurēt un izvietot papildu automātisko maksu līdzekli, kas ir pieejams Dynamics 365 for Retail versijā 10.0.
@@ -49,7 +48,7 @@ Lapā **Mazumtirdzniecība \> Mazumtirdzniecības iestatīšana \> Parametri 
 
 ![Parametrs Papildu automātiskās maksas](media/advancedchargesparameter.png)
 
-Kad ir iespējotas papildu automātiskās maksas, izveidojot debitora pasūtījumu Piegādāt visu vai Piegādāt atlasīto, lietotājiem vairs netiek prasīts manuāli ievadīt piegādes maksu POS terminālī. POS pasūtījuma maksas tiek sistemātiski aprēķinātas un pievienotas POS transakcijai (ja tiek atrasta izveidotā pasūtījuma kritērijiem atbilstoša automātisko maksājumu tabula). Lietotāji var arī manuāli pievienot vai uzturēt galvas vai rindas līmeņa maksas, izmantojot jaunās POS operācijas, ko var pievienot POS ekrāna izkārtojumiem.  
+Kad ir iespējotas papildu automātiskās maksas, izveidojot debitora pasūtījumu Piegādāt visu vai Piegādāt atlasīto, lietotājiem vairs netiek parādīta uzvedne ar norādi manuāli ievadīt piegādes maksu POS terminālī. POS pasūtījuma maksas tiek sistemātiski aprēķinātas un pievienotas POS transakcijai (ja tiek atrasta izveidotā pasūtījuma kritērijiem atbilstoša automātisko maksājumu tabula). Lietotāji var arī manuāli pievienot vai uzturēt galvas vai rindas līmeņa maksas, izmantojot jaunās POS operācijas, ko var pievienot POS ekrāna izkārtojumiem.  
 
 Kad ir iespējotas papildu automātiskās maksas, vairs netiek izmantoti esošie vienumu **Piegādes maksu kods** un **Atmaksāt piegādes maksas** parametri sadaļā **Mazumtirdzniecības parametri**. Šie parametri tiek lietoti tikai tad, ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Nē**.
 
@@ -67,6 +66,8 @@ Tālāk ir norādītas jaunās operācijas.
 - **143. Pārrēķināt maksas** — izmantojiet šo operāciju, lai pilnībā pārrēķinātu pārdošanas transakcijas maksas. Visas lietotāja iepriekš pārrakstītās automātiskās maksas tiek pārrēķinātas, pamatojoties uz pašreizējo groza konfigurāciju.  
 
 Tāpat kā visām POS operācijām, arī šai operācijai var izveidot drošības konfigurācijas, lai pieprasītu, ka vadītājam ir jāapstiprina operācijas izpilde.
+
+Ir svarīgi atzīmēt, ka iepriekš uzskaitītās POS operācijas var pievienot POS izkārtojumam arī tad, ja parametrs **Izmantot papildu automātiskās maksas** ir atspējots. Šādā gadījumā organizācijas vēl joprojām iegūst papildu priekšrocības, kas ļauj skatīt manuāli pievienotās maksas un rediģēt tās, izmantojot operāciju **Pārvaldīt maksas**. Lietotāji var izmantot arī POS transakciju operāciju **Pievienot virsraksta maksas** un **Pievienot rindas maksas** arī tad, ja parametrs **Izmanto papildu automātiskās maksas** ir atspējots. Ja parametrs **Izmantot papildu automātiskās maksas** ir atspējots, izmantošanas gadījumā operācijai **Pārrēķināt maksas** ir zemāka funkcionalitāte. Šajā gadījumā neviena vērtība netiks pārrēķināta, un visas transakcijai manuāli pievienotās maksas tiks atiestatītas uz $0,00.
 
 ## <a name="use-case-examples"></a>Lietošanas gadījumu piemēri
 Šajā sadaļā ir aprakstīti lietošanas gadījumu piemēri, lai palīdzētu jums saprast, kā konfigurēt un izmantot automātiskās maksas un papildmaksas mazumtirdzniecības kanāla pasūtījumu kontekstā. Šajos piemēros ir aprakstīta lietojumprogrammas darbība gadījumā, ja ir iespējots parametrs **Izmantot papildu automātiskās maksas**.
@@ -207,3 +208,7 @@ Organizācijai ir ieteicams pievienot kvīts kājenei arī brīvā teksta laukus
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Maksu aprēķināšanas liegšana līdz POS pasūtījuma pabeigšanai
 
 Dažas organizācijas var izvēlēties pirms maksu parēķināšanas uzgaidīt, līdz lietotājs ir pabeidzis visu pārdošanas rindu pievienošanu POS transakcijai. Lai nepieļautu maksu aprēķināšanu, kamēr POS transakcijai tiek pievienoti krājumi, iespējojiet parametru **Manuāls maksas aprēķins** veikalam izmantotajā **funkcionalitātes profilā**. Ja ir iespējots šis parametrs, kad POS lietotājs ir pabeidzis preču pievienošanu POS transakcijai, viņam ir jāizmanto operācija **Aprēķināt kopsummas**. Pēc tam operācija **Aprēķināt kopsummas** aktivizē jebkuru pasūtījuma galvas vai rindas līmeņa automātisko maksu aprēķinu, ja tas ir attiecināms.
+
+### <a name="charges-override-reports"></a>Maksu ignorēšanas pārskati
+
+Ja lietotāji manuāli ignorē aprēķinātās maksas vai pievieno transakcijai manuālas maksas, šie dati būs pieejami auditēšanai pārskatā **Maksu ignorēšanas vēsture**. Pārskats ir pieejams sadaļā **Mazumtirdzniecība \> Pieprasījumi un pārskati \> Maksu ignorēšanas vēsture**.  Ir svarīgi atzīmēt, ka šim pārskatam nepieciešamie dati tiek importēti no kanāla datu bāzes uz HQ, izmantojot "P" sadales grafika darbus. Tāpēc informācija par POS veiktajām ignorēšanas darbībām tūlītēji var nebūt pieejama šajā pārskatā, bet tikai tad, kad ar šo darbu HQ ir augšupielādēti saglabātie darbību dati. 

@@ -3,7 +3,7 @@ title: Datu importēšanas un eksportēšanas darbi
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360214"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834664"
 ---
 # <a name="data-import-and-export-jobs"></a>Datu importēšanas un eksportēšanas darbi
 
@@ -128,6 +128,9 @@ Darbu var vienlaikus nodrošināt pēc lomām, lietotājiem un juridiskajām per
 
 ## <a name="run-the-import-or-export-job"></a>Importēšanas vai eksportēšanas darba palaišana
 Darbu varat palaist vienu reizi, pēc darba definēšanas atlasot pogu **Importēt** vai **Eksportēt**. Lai iestatītu periodisko darbu, atlasiet **Izveidot periodisku datu darbu**.
+
+[!NOTE]
+Importēšanas vai eksportēšanas darbu var izpildīt asinhroni, atlasot pogu **Importēt** vai **Eksportēt**. Asinhronai izpildei tiek izmantota asinhronā struktūra programmā Finance and Operations, kas atšķiras no pakešuzdevumu struktūras. Tomēr tāpat kā pakešuzdevumu struktūrai arī asinhronajai struktūrai var tikt veikta ierobežošana un tā rezultātā darba izpilde var nenotikt nekavējoties. Darbus arī var izpildīt sinhroni, atlasot **Importēt tūlīt** vai **Eksportēt tūlīt**. Tas sāk darbu nekavējoties un ir noderīgi, ja asinhrona vai pakešuzdevumu izpilde netiek uzsākta ierobežošanas dēļ. Darbus var izpildīt arī kā pakešuzdevumu, izvēloties opciju **Izpilde partijā**. Uz partijas resursiem attiecas ierobežošana, tādēļ pakešuzdevuma izpilde var nenotikt nekavējoties. Asinhronā opcija ir noderīga, kad lietotāji mijiedarbojas tieši ar lietotāja interfeisu un nav tik pieredzējuši, lai saprastu pakešuzdevumu plānošanu. Pakešuzdevuma izmantošana ir alternatīvs risinājums, ja ir nepieciešams eksportēt vai importēt lielu apjomu. Pakešuzdevumus var plānot izpildei noteiktā pakešuzdevumu grupā — tas sniedz lielāku kontroli slodzes līdzsvarošanas ziņā. Ja asinhronai un pakešuzdevumu izpildei tiek veikta ierobežošana liela sistēmas resursu izmantojuma dēļ, tad kā tūlītēju risinājumu var izmantot sinhronu importēšanas/eksportēšanas versiju. Sinhronā opcija sāksies nekavējoties un bloķēs lietotāja interfeisu, jo notiek sinhrona izpilde. Pārlūkprogrammas logam jāpaliek atvērtam, kad notiek sinhrona darbība.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Pārbaudīšana, vai darba norise notiek paredzētajā veidā
 Gan eksportēšanas, gan importēšanas darbiem problēmu novēršanai un izmeklēšanai ir pieejama darbu vēsture. Vēsturiskās darbu izpildes ir sakārtotas pēc laika diapazoniem.

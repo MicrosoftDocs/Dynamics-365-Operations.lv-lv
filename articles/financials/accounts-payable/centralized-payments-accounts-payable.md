@@ -3,7 +3,7 @@ title: Centralizētie maksājumi norēķiniem ar piegādātājiem
 description: Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327071"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390170"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Centralizētie maksājumi norēķiniem ar piegādātājiem
 
@@ -33,7 +33,7 @@ Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveido
 
 Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kas apstrādā visus maksājumus. Tāpēc vieniem un tiem pašiem maksājumiem nav jāievada vairākās juridiskajās personās. Turklāt organizācijas ietaupa laiku, jo maksāšanas process tiek racionalizēts.
 
-Organizācijā ar centralizētiem maksājumiem ir daudz juridisku personu, un katra juridiskā persona pārvalda savu piegādātāju rēķinus. Maksājumi visām juridiskajām personām tiek iegūti no vienas juridiska personas, kas zināma kā maksājuma dokumentā norādītā juridiskā persona. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņems realizēto peļņu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaides, kas saistītas ar starpuzņēmumu maksājumiem. 
+Organizācijā ar centralizētiem maksājumiem ir daudz juridisku personu, un katra juridiskā persona pārvalda savu piegādātāju rēķinus. Maksājumi visām juridiskajām personām tiek iegūti no vienas juridiska personas, kas zināma kā maksājuma dokumentā norādītā juridiskā persona. Apmaksas segšanas laikā tiek veidotas piemērojamās izpildes termiņa un izpildes veicēja darbības. Varat norādīt, kura no organizācijas juridiskajām personām saņems realizēto peļņu vai realizēto zaudējumu transakcijas un kā tiks apstrādātas termiņatlaides, kas saistītas ar starpuzņēmumu maksājumiem. Centralizēto maksājumu žurnāla rindā vienumam **Konta tips** jābūt atlasītam iestatījumam Kreditors. Vienumam **Korespondējošā konta tips** jābūt atlasītam iestatījumam Banka vai Virsgrāmata. Bankas kontam jābūt pašreizējā uzņēmumā. 
 
 Turpmākie piemēri parāda, kā tiek veikta grāmatošana dažādās situācijās. Turpmākā konfigurācija attiecas uz visiem šiem piemēriem.
 

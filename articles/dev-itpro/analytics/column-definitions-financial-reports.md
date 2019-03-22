@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356350"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832152"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
@@ -62,7 +62,7 @@ Kolonnas definīcija var saturēt divas līdz 255 kolonnas.
 Kolonnas definīcijā ietilpst tālāk uzskaitīta informācija.
 
 - Rindas definīcijas aprakstu kolonna
-- Summu kolonnas, kurās ir redzami dati no finanšu datiem, Microsoft Excel darblapas vai aprēķiniem, kuru pamatā ir citi dati kolonnas definīcijā
+- Summu kolonnas, kurās ir redzami dati no finanšu datiem vai aprēķiniem, kuru pamatā ir citi dati kolonnas definīcijā
 - Formatēšanas kolonnas
 - Atribūtu kolonnas
 
@@ -170,7 +170,7 @@ Jūs varat izmantot dialoglodziņu **Kolonnas galvene**, lai pievienotu, modific
 
 ### <a name="create-an-automatically-generated-header"></a>Izveidot automātiski ģenerētu galveni
 
-Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgās vērtības, kas tiek atjauninātas katru reizi, kad tiek ģenerēts pārskats. Šos kodus var ietvert jebkurā kolonnas virsrakstā, lai norādītu pārskata informāciju, kas var atsķirties, piemēram, datumus vai periodu numurus. Tādējādi vienu kolonnas definīciju varat izmantot vairākām pārskatu definīcijām, laika periodiem un pārskatu kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonām **CALC**, **FD**, un **WKS**. Pārskatā redzamās informācijas izskats ir atkarīgs no tā, kā automātiskais teksts tiek parādīts kolonnas virsraksta šūnā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tādēļ teksts pārskatā tiks attēlots tādā pašā izskatā. Piemēram, standarta kalendārajā gadā **@CalMonthLong** atrisina mēnesi **7** uz **Jūlijs**. Ja mēneša nosaukumam jābūt rakstītam ar lielajiem burtiem (piemēram, **JŪLIJS**), laukā **Kolonnas galvenes teksts** automātiskā teksta kodu ierakstiet ar lielajiem burtiem. Piemēram, ievadiet **@CALMONTHLONG**. Kodus un tekstu var kombinēt. Piemēram, jūs ievadāt šādu galvenes tekstu: **Periods @FinanšuPeriods-@FinanšuGads no @SākumaDatums līdz @BeiguDatums**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**.
+Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgās vērtības, kas tiek atjauninātas katru reizi, kad tiek ģenerēts pārskats. Šos kodus var ietvert jebkurā kolonnas virsrakstā, lai norādītu pārskata informāciju, kas var atsķirties, piemēram, datumus vai periodu numurus. Tādējādi vienu kolonnas definīciju varat izmantot vairākām pārskatu definīcijām, laika periodiem un pārskatu kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonnām **CALC** un **FD**. Pārskatā redzamās informācijas izskats ir atkarīgs no tā, kā automātiskais teksts tiek parādīts kolonnas virsraksta šūnā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tādēļ teksts pārskatā tiks attēlots tādā pašā izskatā. Piemēram, standarta kalendārajā gadā **@CalMonthLong** atrisina mēnesi **7** uz **Jūlijs**. Ja mēneša nosaukumam jābūt rakstītam ar lielajiem burtiem (piemēram, **JŪLIJS**), laukā **Kolonnas galvenes teksts** automātiskā teksta kodu ierakstiet ar lielajiem burtiem. Piemēram, ievadiet **@CALMONTHLONG**. Kodus un tekstu var kombinēt. Piemēram, jūs ievadāt šādu galvenes tekstu: **Periods @FinanšuPeriods-@FinanšuGads no @SākumaDatums līdz @BeiguDatums**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**.
 
 > [!NOTE]
 > Dažu teksta vērtību formāts, piemēram, pilnā datuma vērtību formāts, ir atkarīgs no jūsu Dynamics 365 for Finance and Operations servera reģionālajiem iestatījumiem. Lai mainītu šos iestatījumus, noklikšķiniet uz pogas **Sākums**, noklikšķiniet uz **Vadības panelis**, un pēc tam noklikšķiniet uz **Reģions un valoda**. Tālāk redzamajā tabulā ir aprakstītas kolonnu virsrakstiem pieejamās automātiskā teksta opcijas.
@@ -291,7 +291,7 @@ Kad norādāt kolonnas definīciju, formatēšanas kolonnas detalizētās rindas
 1. Pārskatu veidotājā atveriet modificējamo kolonnas definīciju.
 2. Šūnā **Papildu atstarpes pirms kolonnas**, ievadiet atstarpju skaits, ko ievietot starp kolonnām.
 
-### <a name="specify-a-currency"></a>Valūtas norādīšana
+### <a name="specify-a-format-currency-override"></a>Formāta vai valūtas ignorēšanas norādīšana
 
 Šūna **Formatēšana/Valūtas ignorēšana** norāda decimāldaļas, valūtas un procentu formatēšanu kolonnā. Šis formatējums aizstāj formatējumu, kas ir norādīts pārskata definīcijā vai sistēmas noklusējuma iestatījumos.
 
@@ -361,7 +361,7 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Finanšu dati vai Excel darblapā esošie dati tiek parādīti, kad rindas definīcijā izmantojat kolonnu <strong>Saite uz finanšu dimensijām</strong> vai kolonnu <strong>Saite uz darblapu</strong>. Atlasot kolonnas tipu <strong>FD</strong>, tālāk norādītajās rindās tiek automātiski rādīti noklusējuma iestatījumi. <ul>
+    <td>Finanšu dati tiek rādīti, kad lietojat kolonnu <strong>Saite uz finanšu dimensijām</strong> rindu definīcijā. Atlasot kolonnas tipu <strong>FD</strong>, tālāk norādītajās rindās tiek automātiski rādīti noklusējuma iestatījumi. <ul>
     <li><strong>Uzskaites kods/atribūtu kategorija:</strong> FAKTISKAIS</li>
     <li><strong>Uzskaites kods/atribūtu kategorija:</strong> FAKTISKAIS</li>
     <li><strong>Finanšu gads:</strong> PAMATA</li>
@@ -394,14 +394,6 @@ Informācijas tips, ko satur katra kolonna pārskatā, tiek norādīts ar vērt�
     <tr>
     <td>LAPA</td>
     <td>Pārskatā tiek ievietots vertikāls lapas pārtraukums. Kolonnas <strong>LAPA</strong> labajā pusē esošās kolonnas tiek rādītas citā lapā.</td>
-    </tr>
-    <tr>
-    <td>DL</td>
-    <td>Tiek parādīti no Excel darblapas izgūtie dati. Atlasot kolonnas tipu <strong>WKS</strong>, tālāk norādītajās rindās tiek automātiski rādīti noklusējuma iestatījumi. <ul>
-    <li><strong>Finanšu gads:</strong> PERIODISKS</li>
-    <li><strong>Periods:</strong> PAMATA</li>
-    </ul>
-Šos noklusējuma iestatījumus var mainīt.</td>
     </tr>
     <tr>
     <td>ATR</td>
@@ -518,13 +510,13 @@ Precīzai salīdzināšanai jūs varat arī izmantot jebkuru burtu un ciparu rak
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Daudzvalūtu pārskata formatēšana kolonnas definīcijā
 
-Daudzvalūtu pārskatā varat skatīt summas galvenajā (vietējā) valūtā, funkcionālajā (noklusējuma) valūtā vai pārskata valūtā. Uzņēmuma funkcionālā valūta tiek definēta Microsoft Dynamics ERP sistēmā. Pievērsiet uzmanību, ka šis ERP iestatījums nav viens un tas pats kā operētājsistēmas reģionālās opcijas iestatījums, kur varat konfigurēt noklusējuma valūtas simbolu, kas ir jāizmanto pārskatos. Kolonnas definīcijā ir pieejamas tālāk norādītas šūnas, kas ir saistītas ar valūtas datiem.
+Daudzvalūtu pārskatā var parādīt summas virsgrāmatas uzskaites valūtā, virsgrāmatas pārskata valūtā, sākotnējā darījuma valūtā vai pārrēķinātajā pārskata valūtā. Uzņēmuma uzskaites valūta tiek definēta virsgrāmatas iestatījumos. Pievērsiet uzmanību, ka šis iestatījums nav tas pats, kas operētājsistēmas reģionālo opciju iestatījums, kur varat konfigurēt noklusējuma valūtas simbolu, kas ir jāizmanto pārskatos. Kolonnas definīcijā ir pieejamas tālāk norādītas šūnas, kas ir saistītas ar valūtas datiem.
 
-- **Valūtas parādīšana** — norādiet valūtas tipu (nacionālā, funkcionālā vai pārskata), kurā tiek rādītas transakcijas. Šī funkcionalitāte dažreiz tiek saukta par valūtas pārrēķināšanu. Valūtas pārrēķināšana nodrošina iespēju pārskatā ietvert virsgrāmatas summas, kas ir norādītas citā valūtā nekā uzņēmuma funkcionālā valūtā vai valūtā, kurā ievadījāt darījumu.
+- **Valūtas parādīšana** — norādiet valūtas tipu (uzskaites, pārskata, darījuma vai pārrēķinātā pārskata valūta), kurā tiek rādīti darījumi. Pārrēķināšanas uz pārskata valūtu funkcionalitāte dažreiz tiek dēvēta par valūtas pārrēķināšanu. Valūtas pārrēķināšana nodrošina iespēju pārskatā ietvert virsgrāmatas summas, kas ir norādītas citā valūtā nekā uzņēmuma funkcionālā vai pārskata valūtā vai valūtā, kurā ievadījāt darījumu.
 - **Valūtas filtrs** – norādiet valūtas filtru. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas atlasītajā valūtā.
 
-> [!NOTE]
-> Lai izveidotu pārskatus, kuros tiek izmantotas vairākas valūtās, jums ir jāatlasa izvēles rūtiņa **Iekļaut visas pārskatu veidošanas valūtas** pārskata definīcijas cilnē **Pārskats**. Lai noteiktu uzņēmuma funkcionālo valūtu, veiciet šīs darbības.
+> 
+Lai noteiktu uzņēmuma uzskaites valūtu, veiciet šīs darbības.
 
 1. Pārskatu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz vienuma **Uzņēmumi**.
 2. Dialoglodziņā **Uzņēmumi**, atlasiet uzņēmumu, un tad noklikšķiniet **Skatīt**.
@@ -533,20 +525,18 @@ Daudzvalūtu pārskatā varat skatīt summas galvenajā (vietējā) valūtā, fu
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valūtas norādīšana daudzvalūtu pārskatā
 
 1. Pārskatu veidotājā atveriet modificējamo kolonnas definīciju.
-2. Veiciet dubultklikšķi uz šūnas **Valūtas parādīšana** atbilstošajā **FD** kolonnā, un pēc tam atlasiet valūtas informācijas parādīšanas opciju: **Nacionālā/izcelsmes valūta**, **Funkcionālā valūta no uzņēmuma informācijas** vai pārskata valūta.
+2. Veiciet dubultklikšķi uz šūnas **Valūtas parādīšana** atbilstošajā **FD** kolonnā, un pēc tam atlasiet valūtas informācijas parādīšanas opciju: **Virsgrāmatas uzskaites valūta**, **Virsgrāmatas pārskata**, darījuma valūta, vai atlasiet pārrēķināšanu citā pārskata valūta.
 3. Veiciet dubultklikšķi uz šūnas **Valūtas filtrs** atbilstošajā **FD** kolonnā, un pēc tam sarakstā atlasiet atbilstošu valūtas kodu. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas šajā valūtā.
 
-> [!NOTE]
-> Šeit aprakstītās opcijas var atšķirties atkarībā no ERP sistēmas. Papildinformāciju skatiet savā [Microsoft ERP sistēmas dokumentācijā](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Šūnu “Valūtas attēlojums” un “Valūtas filtrs” piemērs
 
 Lietotāja Phyllis atlasīja šādu valūtu kolonnas definīcijā:
 
 - **Valūtas filtrs:** jēna
-- **Valūtas parādīšana:** funkcionālā (ASV dolāri)
+- **Valūtas parādīšana:** uzskaites valūta no virsgrāmatas (ASV dolāri)
 
-Ņemot vērā Filisas atlasīto valūtas filtru, pārskatā ir iekļauti tikai tie darījumi, kas tika ievadīti Japānas jenās (JPY). Ņemot vērā viņas atlasīto valūtas attēlojumu, pārskatā tiek rādīti tikai darījumi funkcionālajā valūtā — ASV dolāros (USD).
+Ņemot vērā Filisas atlasīto valūtas filtru, pārskatā ir iekļauti tikai tie darījumi, kas tika ievadīti Japānas jenās (JPY). Ņemot vērā viņas atlasīto valūtas attēlojumu, pārskatā tiek rādīti tikai darījumi uzskaites valūtā — ASV dolāros (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Valūtas filtra un valūtas attēlojuma kombinācijas
 
@@ -555,10 +545,10 @@ Lietotāja Phyllis atlasīja šādu valūtu kolonnas definīcijā:
 
 | Šūna Valūtas attēlojums                        | Šūna Valūtas filtrs | Pārskata rezultāts |
 |----------------------------------------------|----------------------|---------------|
-| Galvenā/sākotnējā valūta                 | **JĒNA**              | **Y6 000** – rezultāts rāda tikai darbības, kas tika ievadītas JPY. |
-| Informācijā par uzņēmumu norādītā funkcionālā valūta | **JĒNA**              |**$60** – rezultāts rāda tikai darbības, kas tika ievadītas JPY, un attēlo tās darbības USD.<blockquote>[!NOTE] Konvertēšanas maiņas kurss ir aptuveni JPY 100 par vienu ASV dolāru.</blockquote> |
-| Informācijā par uzņēmumu norādītā funkcionālā valūta | Tukšs                | **$2310** – rezultāts rāda visus datus funkcionālajā valūtā, kas ir norādīta uzņēmuma informācijā.<blockquote>[!NOTE] Šī summa ir visu darījumu summa funkcionālajā valūtā.</blockquote> |
-| Galvenā/sākotnējā valūta                 | Nav                | **$2250** – rezultāts rāda visas summas valūtā, kurā tika veikta darbība. |
+| Darbības valūta                 | **JĒNA**              | **Y6 000** – rezultāts rāda tikai darbības, kas tika ievadītas JPY. |
+| Uzskaites valūta no virsgrāmatas | **JĒNA**              |**$60** – rezultāts rāda tikai darbības, kas tika ievadītas JPY, un attēlo tās darbības USD.<blockquote>[!NOTE] Konvertēšanas maiņas kurss ir aptuveni JPY 100 par vienu ASV dolāru.</blockquote> |
+| Uzskaites valūta no virsgrāmatas | Tukšs                | **$2310** — rezultāts rāda visus datus uzskaites valūtā, kas ir norādīta virsgrāmatā.<blockquote>[!NOTE] Šī summa ir visu darījumu summa uzskaites valūtā.</blockquote> |
+| Darbības valūta                 | Tukšs                | **$2250** – rezultāts rāda visas summas valūtā, kurā tika veikta darbība. Tas nozīmē, ka kopsumma tiek iegūta, saskaitot dažādu valūtu summas. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Kolonna Aprēķins kolonnas definīcijā
 

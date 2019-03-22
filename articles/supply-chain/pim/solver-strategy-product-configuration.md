@@ -3,7 +3,7 @@ title: Risinātāja stratēģija preces konfigurācijai
 description: Šajā tēmā ir aprakstīts, kā varat izmantot risinātāja stratēģiju, lai uzlabotu preču konfigurāciju.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351152"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403920"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Risinātāja stratēģija preces konfigurācijai
 
@@ -62,8 +62,8 @@ Tālāk esošajā tabulā sniegti ieteikumi par risinātāja stratēģijas izman
 | Risinātāja stratēģija      | Stratēģijas izmantošana šajā scenārijā |
 |----------------------|-----------------------------------|
 | Noklusētā vērtība              | Stratēģija **Noklusējuma** ir optimizēta tādu modeļu risināšanai, kuru pamatā ir tabulas ierobežojumi. Debitoru ieviešanas gadījumu pētījumi liecina, ka šī stratēģija ir visefektīvākā stratēģija scenārijos, kuros plaši tiek izmantoti tabulas ierobežojumi. |
-| Vispirms domēns ar minimālu vērtību skaitu | Stratēģijas **Vispirms domēns ar minimālu vērtību skaitu** un **No augšas uz leju** ir cieši saistītas. Debitoru ieviešanas gadījumu pētījumi liecina, ka stratēģija **No augšas uz leju**, kas tika ieviesta 8. kumulatīvajā atjauninājumā, pārspēj stratēģiju **Vispirms domēns ar minimālu vērtību skaitu**. Tomēr stratēģija **Vispirms domēns ar minimālu vērtību skaitu** ir saglabāta produktā atpakaļsaderības nodrošināšanai. Pierādīts, ka abas šīs risinātāja stratēģijas efektīvāk risina modeļus, kas satur vairākas aritmētiskas izteiksmes bez tabulas ierobežojumiem. Taču dažos gadījumos stratēģija **Noklusējuma** pārspēj abas šīs stratēģijas. Tādēļ izmēģiniet katru stratēģiju. |
-| No augšas uz leju             | Stratēģijas **Vispirms domēns ar minimālu vērtību skaitu** un **No augšas uz leju** ir cieši saistītas. Debitoru ieviešanas gadījumu pētījumi liecina, ka stratēģija **No augšas uz leju**, kas tika ieviesta 8. kumulatīvajā atjauninājumā, pārspēj stratēģiju **Vispirms domēns ar minimālu vērtību skaitu**. Tomēr stratēģija **Vispirms domēns ar minimālu vērtību skaitu** ir saglabāta produktā atpakaļsaderības nodrošināšanai. Pierādīts, ka abas šīs risinātāja stratēģijas efektīvāk risina modeļus, kas satur vairākas aritmētiskas izteiksmes bez tabulas ierobežojumiem. Taču dažos gadījumos stratēģija **Noklusējuma** pārspēj abas šīs stratēģijas. Tādēļ izmēģiniet katru stratēģiju. |
+| Vispirms domēni ar minimālu vērtību skaitu | Stratēģijas **Vispirms domēni ar minimālu vērtību skaitu** un **No augšas uz leju** ir cieši saistītas. Debitoru ieviešanas gadījumu pētījumi liecina, ka stratēģija **No augšas uz leju** sniedz labākus rezultātu nekā stratēģija **Vispirms domēni ar minimālu vērtību skaitu**. Tomēr produktā ir saglabāta stratēģija **Vispirms domēni ar minimālu vērtību skaitu**, lai nodrošinātu atpakaļsaderību. Pierādīts, ka abas šīs risinātāja stratēģijas efektīvāk risina modeļus, kas satur vairākas aritmētiskas izteiksmes bez tabulas ierobežojumiem. Taču dažos gadījumos stratēģija **Noklusējuma** pārspēj abas šīs stratēģijas. Tādēļ izmēģiniet katru stratēģiju. |
+| No augšas uz leju             | Stratēģijas **Vispirms domēni ar minimālu vērtību skaitu** un **No augšas uz leju** ir cieši saistītas. Debitoru ieviešanas gadījumu pētījumi liecina, ka stratēģija **No augšas uz leju** sniedz labākus rezultātu nekā stratēģija **Vispirms domēni ar minimālu vērtību skaitu**. Tomēr produktā ir saglabāta stratēģija **Vispirms domēni ar minimālu vērtību skaitu**, lai nodrošinātu atpakaļsaderību. Pierādīts, ka abas šīs risinātāja stratēģijas efektīvāk risina modeļus, kas satur vairākas aritmētiskas izteiksmes bez tabulas ierobežojumiem. Taču dažos gadījumos stratēģija **Noklusējuma** pārspēj abas šīs stratēģijas. Tādēļ izmēģiniet katru stratēģiju. |
 | Z3                   | Kā noklusējuma risinātāja stratēģiju ieteicams izmantot stratēģiju **Z3**. Ja uztraucaties par veiktspēju un mērogojamību, varat izvērtēt pārējās stratēģijas. |
 
 ## <a name="additional-resources"></a>Papildu resursi

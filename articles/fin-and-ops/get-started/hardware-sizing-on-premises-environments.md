@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340733"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768418"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
@@ -86,7 +86,7 @@ Lai izprastu lieluma maiņas prasības, jums ir jāzina maksimālais apstrādāj
     - Papildu funkcionalitātes, piemēram, datu bāzes žurnāla un brīdinājumu, izmantošana. Īpaši izteikta datu bāzes reģistrācija vēl vairāk samazinās caurlaidi stundā katram kodolam zem 3 tūkst. rindām.
     - Datu salikuma sarežģītība — vienkāršs kontu plāns un detalizēts kontu plānu katrs atšķirīgi ietekmē caurlaidi (šis ir viens piemērs).
     - Transakciju raksturojums.
-    - 2–4 GB atmiņas katram kodolam.
+    - 2–16 GB atmiņas katram kodolam.
     - Papildu datu bāzes DB serverī, piemēram, pārvaldības pārskatu sastādītājs un SSRS datu bāzes.
     - Pagaidu DB = 15% no DB lieluma ar fiziskajiem procesoriem atbilstošu failu skaitu.
     - SAN lielums un caurlaide, pamatojoties uz kopējo vienlaicīgo transakciju apjomu/lietojumu.

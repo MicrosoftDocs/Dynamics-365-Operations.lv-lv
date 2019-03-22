@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 for Finance and Operations normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375994"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832105"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -40,6 +40,14 @@ Ja kolonnā Datuma ir norādīts mēnesis, normatīvo atjauninājumu ir plānots
 |      2019. marts          |   10.0.0      | Austrija      |   Kammerumlage 2019 izmaiņas (pirkšanas nodoklis)    |
 |      2019. marts          |   10.0.0      |   Brazīlija    |     SPED EFD iemaksas — izkārtojums Nr. 004 un 005  |
 |      2019. marts          |   10.0.0      |    Malaizija     |Malaizijā GST ir aizstāts ar SST pārdošana un pakalpojumu nodokli        |
+|      2019. aprīlis          |   10.0.1      |    Austrija     |Mazumtirdzniecība — finanšu integrācija         |
+|      2019. aprīlis          |   10.0.1      |    Eiropa     |E-rēķinu izrakstīšana — debitoru rēķinu eksportēšana PEPPOL BIS 3 formātā         |
+|      2019. aprīlis          |   10.0.1      |    Eiropa     |E-rēķinu izrakstīšana — kreditoru rēķinu importēšana no PEPPOL BIS 3 formāta         |
+|      2019. aprīlis          |   10.0.1      |   Vācija     |E-rēķinu izrakstīšana — debitoru rēķinu eksportēšana xRechnung 1.1 formātā         |
+|      2019. aprīlis          |   10.0.1      |    Apvienotā Karaliste     |[PVN deklarācijas iesniegšanas izmaiņas (nodokļu digitalizācija)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019. aprīlis          |   10.0.1      |    Brazīlija     |NF-e jauns NT 2018.005         |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada         |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada (pārdošanas un pirkšanas grāmatu formāti)  |
 
 ## <a name="additional-resources"></a>Papildu resursi
 - Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pieteikties).

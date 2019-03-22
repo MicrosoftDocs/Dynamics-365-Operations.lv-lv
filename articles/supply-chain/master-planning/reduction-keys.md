@@ -3,7 +3,7 @@ title: Samazināšanas principi
 description: Šajā rakstā ir sniegti piemēri, kas izskaidro, kā iestatīt samazināšanas principu. Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem. Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e62431a1fdbeb81dda68297f034ee00adece079
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364814"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770920"
 ---
 # <a name="reduction-keys"></a>Samazināšanas principi
 
@@ -98,6 +98,7 @@ Vairāmā gadījumu sistēmas ir iestatītas tā, lai darbības samazina piepras
 
    Šajā prognozē nav skaidri izteikta perioda starp prognozes datumiem: starp pirmo un otro datumu ir četru dienu ilgs posms, un starp otro un trešo datumu ir septiņu ilgs dienu posms. Šie dažādie posmi ir dinamiskais periods.
 2. Izveidojiet pārdošanas pasūtījuma rindas, kā norādīts tālāk.
+
    | Datums                             | Pārdošanas pasūtījumu daudzums |
    |----------------------------------|----------------------|
    | Iepriekšējā gada 15. decembris | 500                  |

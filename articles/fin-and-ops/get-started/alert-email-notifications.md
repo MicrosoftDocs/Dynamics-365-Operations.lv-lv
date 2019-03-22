@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373798"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775068"
 ---
 # <a name="client-alert-notifications-by-email"></a>Klienta brīdinājuma paziņojumi pa e-pastu
 
@@ -48,7 +48,7 @@ Tālāk esošajā attēlā ir redzams dialoglodziņš **Brīdinājuma nosacījum
 
 ## <a name="alert-notification-email-templates"></a>Brīdinājumu e-pasta paziņojumu veidnes
 
-Pakalpojums nosūta e-pasta paziņojumus, izmantojot iepriekš definētas e-pasta ziņojumu veidnes, kas sniedz brīdinājuma paziņojuma pamatinformāciju. Šajā informācijā ir ietverta tieša saite uz lapu, kurā tika definēts brīdinājuma nosacījums.
+Pakalpojums nosūta e-pasta paziņojumus, izmantojot iepriekš definētas e-pasta ziņojumu veidnes, kas sniedz brīdinājuma paziņojuma pamatinformāciju.
 
 Tālāk esošajā attēlā ir redzama pa e-pastu saņemto brīdinājumu paziņojumu struktūra.
 

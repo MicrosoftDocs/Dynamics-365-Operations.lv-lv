@@ -1,9 +1,9 @@
 ---
 title: Rindu definīciju šūnu modificēšana
-description: Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
+description: Šajā tēmā ir izskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323644"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379668"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir paskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
+Šajā tēmā ir izskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Rindas koda norādīšana rindas definīcijā
 
@@ -386,7 +386,7 @@ Varat ierobežot rindu ar esošu grāmatas kodu. Kolonnas definīcijā jāiekļa
 Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un darījumu atribūtus. Šie atribūti darbojas kā virtuāli kontu segmenti, un tie var ietvert papildu informāciju par kontu vai darījumu. Šī papildu informācija var būt konta ID, partijas ID, pasta indeksi un citi atribūti. Ja jūsu grāmatvedības sistēmā tiek atbalstīti atribūti, rindas definīcijā kā rindu modifikatorus varat izmantot kontu atribūtus vai darījumu atribūtus. Papildinformāciju par rindas informācijas ignorēšanu skatiet šajā rakstā iepriekš aprakstītajā tēmā Kolonnas definīcijas ignorēšana.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Šūnas Saite uz finanšu dimensijām norādīšana
-Šūna **Saite uz finanšu dimensijām** satur saites uz finanšu datiem, kas ir jāiekļauj katrā pārskata rindā. Šajā šūnā ir ietvertas dimensiju vērtības, taču segmentu vērtību vai dimensiju vērtību vietā vai papildus tam varat norādīt Microsoft Excel darblapas šūnas. Lai atvērtu dialoglodziņu **Dimensijas**, veiciet dubultklikšķi uz šūnas **Saite uz finanšu dimensijām**.
+Šūna **Saite uz finanšu dimensijām** satur saites uz finanšu datiem, kas ir jāiekļauj katrā pārskata rindā. Šī šūnā ietver dimensiju vērtības. Lai atvērtu dialoglodziņu **Dimensijas**, veiciet dubultklikšķi uz šūnas **Saite uz finanšu dimensijām**.
 
 > [!NOTE]
 > Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Lai norādītu informāciju rindai, kas jau ir ietverta rindas definīcijā, pievienojiet šo informāciju šūnā **Saite uz finanšu dimensijām**. Lai pievienotu jaunas rindas, kurās ir saite uz finanšu datiem, un izveidotu jaunas pārskata definīcijas rindas, izmantojiet dialoglodziņu **Ievietot rindas no**. Kolonnas nosaukums tiek mainīts atkarībā no kolonnas konfigurācijas (skatiet tālāk redzamo tabulu).
@@ -394,9 +394,7 @@ Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un 
 | Atlasītais saites tips       | Kolonnas Saite apraksts tiek mainīts šādi |
 |----------------------------------|----------------------------------------------------|
 | Finanšu dimensijas             | Saite uz finanšu dimensijām                       |
-| Ārējā darblapa               | Saite uz darblapu                                  |
-| Finanšu dimensijas un darblapa | Saite uz finanšu dimensijām un darblapu           |
-| Management Reporter pārskats       | Management Reporter pārskats                         |
+| Sniegt pārskatu par darblapu                 | Finanšu pārskata izveide                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Dimensijas vai diapazona norādīšana
 

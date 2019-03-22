@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357937"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832199"
 ---
 # <a name="electronic-messaging"></a>Elektroniskā ziņojumapmaiņa
 
@@ -69,6 +69,7 @@ Ja neimportējat datu elementu pakotni, varat manuāli iestatīt elektronisko zi
 - [Papildlauki](#additional-fields)
 - [Izpildāmās klases darbības](#executable-class-settings)
 - [Ierakstu aizpildīšanas darbības](#populate-records-actions)
+- [Tīmekļa lietojumprogrammas](#web-applications)
 - [Tīmekļa pakalpojuma iestatījumi](#web-service-settings)
 - [Ziņojuma apstrādes darbības](#message-processing-actions)
 - [Elektroniska ziņojuma apstrāde](#electronic-message-processing)
@@ -85,27 +86,49 @@ Ziņojumu vienumu veidi norāda ierakstu veidus, kas tiks izmantoti elektron. zi
 
 Ziņojumu krājumu statusi norāda statusus, kas attieksies uz ziņojumu vienumiem apstrādē, kuru iestatāt. Ziņ. vien. veidus var iestatīt lapā **Ziņ. vien. statusi** (**Nodoklis** \> **Iestatījumi** \> **Elektr. ziņojumi** \> **Ziņojumu vienumu statusi**).
 
+Ziņojuma vienuma statusa parametrs **Atļaut dzēšanu** nosaka, vai lietotājam tiks atļauts dzēst ziņojuma vienumu ar šo statusu, izmantojot formu **Elektroniskie ziņojumi**  vai formu **Elektronisko ziņojumu vienumi**. 
+
 ### <a name="message-statuses"></a>Ziņojuma statusi
 
 Iestatiet ziņojumu statusus, kam jābūt pieejamiem ziņojumu apstrādē. Ziņojumu statusus var iestatīt lapā **Ziņojumu statusi** (**Nodoklis** \> **Iestatījumi** \> **Elektr. ziņojumi** \> **Ziņojumu statusi**).
+
+Lauka apraksts:
+
+| Lauka nosaukums           | Apraksts |
+|----------------------|-------------|
+|Ziņojuma statuss        | Elektroniskā ziņojuma statusa unikālais nosaukums, kas raksturo ziņojuma stāvokli katrā brīdī. Šis nosaukums tiks parādīts formā Elektroniskie ziņojumi un žurnālā, kas saistīts ar elektronisko ziņojumu. |
+|Apraksts           | Apraksts, kas attiecas uz elektroniskā ziņojuma statusu      |
+|Atbildes tips         | Dažu darbību apstrāde var izraisīt vairāk nekā vienu atbildes tipu. Kā, piemēram, tipa **Tīmekļa pakalpojums** darbība var izraisīt vai nu atbildes tipu **Izpildīts veiksmīgi**, vai **Tehniska kļūda** atkarībā no darbības izpildes rezultāta. Šajā gadījumā jādefinē ziņojuma statuss abiem atbilžu tipiem. Skatiet tēmu [Ziņojumu apstrādes darbību tipi](#message-processing-action-types), lai iegūtu plašāku informāciju par darbību tipiem un ar tiem saistīto atbilžu tipiem. |
+|Ziņojuma krājuma statuss   |Ir gadījumi, kad elektroniskā ziņojuma statuss attiecīgi ietekmē saistīto ziņojumu vienumu statusu. Saistiet šādu ziņojumu vienumu statusu šajā laukā, atlasot no meklēšanas. |
+|Atļaut dzēšanu          | Elektroniskā ziņojuma statusa parametrs **Atļaut dzēšanu** nosaka, vai lietotājam tiks atļauts dzēst elektronisko ziņojumu ar šo statusu, izmantojot formu **Elektroniskie ziņojumi**.            |
 
 ### <a name="additional-fields"></a>Papildlauki
 
 Elektronisko ziņojumu funkcionalitāte ļauj aizpildīt ierakstus no transakciju tabulas. Šādā veidā var sagatavot ierakstus pārskatiem un pēc tam ziņot par tiem. Dažreiz nav pietiekami daudz informācijas transakciju tabulā, lai ziņotu par ierakstu saskaņā ar pārskatu prasībām. Var aizpildīt visu informāciju, kas ir jāziņo par ierakstu, izveidojot papildu laukus. Papildu laukus var saistīt gan ar ziņojumiem, gan ziņojumu vienumiem. Papildu laukus var iestatīt lapā **Papildu lauki** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Papildu lauki**).
 
-Nākamajā tabulā ir aprakstīti lauki lapā **Papildu lauki**.
+Nākamajā tabulā ir aprakstīti galvenie lauki lapā **Papildu lauki**.
 
-| Lauks                | apraksts |
+| Lauks                | Apraksts |
 |----------------------|-------------|
 | Lauka nosaukums           | Ievadiet ar procesu saistīto ziņojumu vienumu papildu atribūta nosaukumu. Šis nosaukums tiek parādīts lietotāja interfeisā, strādājot ar procesu. To var izmantot arī ER konfigurācijās, kas ir saistītas ar procesu. |
 | apraksts          | Ievadiet ar procesu saistīto ziņojumu vienumu papildu atribūta aprakstu. |
-| Lauka vērtība          | Ievadiet lauka vērt., ko izmantot saist. ar ziņ. vienumu pārsk. veid. laikā. |
-| Lauka apraksts    | Ievadiet lauka vērtības aprakstu, ko izmantot saistībā ar ziņ. vienumu pārsk. veid. laikā. |
+| Lietotāja labojumi            | Ja lietotājam ir nepieciešams mainīt papildu lauka vērtību lietotāja interfeisā, iestatiet šo izvēles rūtiņu ar **Jā**, pretējā gadījumā ar **Nē**. |
+| Skaitītājs              | Ja papildu laukam jāsatur sērijas numuru noteiktā elektroniskajā ziņojumā, atzīmējiet šo izvēles rūtiņu. Papildu lauka vērtības tiek aizpildītas automātiski darbības ar tipu “Elektroniskā pārskata veidošanas eksports” palaišanas laikā.  |
+| Paslēpts               | Ja papildu laukam lietotāja interfeisā jābūt paslēptam, atzīmējiet šo izvēles rūtiņu.  |
+
+Katra papildu lauka apstrādei var būt dažādas vērtības. Kopsavilkuma cilnē Vērtības varat definēt šādas vertības:
+
+| Lauks                | Apraksts |
+|----------------------|-------------|
+| Lauka vērtība          | Ievadiet lauka vērtību, ko izmantot saistībā ar ziņojumu vai ziņojuma vienumu pārskata veidošanas laikā. |
+| Lauka apraksts    | Ievadiet lauka vērtības aprakstu, ko izmantot saistībā ar ziņojumu vai ziņojuma vienumu pārskata veidošanas laikā. |
 | Konta veids         | Dažas papildu lauku vērtības var lietot tikai ar noteiktiem konta tipiem. Atlasiet vienu no šīm vērtībām: **Visi**, **Debitors** vai **Kreditors**. |
 | Konta kods         | Ja atlasījāt **Debitors** vai **Kreditors** laukā **Konta tips**, varat vēl vairāk ierobežot lauka vērtību izmantošanu ar noteiktu grupu vai tabulu. |
 | Konta/grupas numurs | Ja atlasījāt **Debitors** vai **Kreditors** laukā **Konta tips** un ja ievadījāt grupu vai tabulu laukā **Konta kods**, šajā laukā var ievadīt noteiktu grupu vai kontrahentu. |
 | Ir spēkā            | Norādiet datumu, kad vērtība ir jāsāk ņemt vērā. |
 | Termiņa beigas           | Norādiet datumu, kad vērtība ir jābeidz ņemt vērā. |
+
+Laukos **Konta/grupas numurs**, **Konta kods**, **Ir spēkā**, **Termiņa beigas** definēto kritēriju kombinācijas pēc noklusējuma neietekmē papildu lauka vērtību atlasi, bet var tikt izmantotas izpildāmā klasē, lai īstenotu kādu noteiktu papildu lauka vērtības aprēķina loģiku.
 
 ### <a name="executable-class-settings"></a>Izpildāmās klases darbības
 
@@ -120,6 +143,8 @@ Izpildāmo klasi varat iestatīt manuāli lapā **Izpildāmās klases iestatīju
 | Izpildāmās klases nosaukums | Atlasiet X++ izpildāmo klasi. |
 | Izpildes līmenis       | Šis lauks tiek iestatīts autom., jo vērtībai jābūt iepriekš definētai atlasītajai izpildāmajai klasei. Šis lauks ierobežo saistītās vērtēšanas palaišanas līmeni. |
 | Klases apraksts     | Šis lauks tiek iestatīts autom., jo vērtībai jābūt iepriekš definētai atlasītajai izpildāmajai klasei. |
+
+Dažām izpildāmām klasēm var būt obligātie parametri, kas jānosaka pirms izpildāmā klase tiek palaista pirmo reizi. Lai definētu šādus parametrus, noklikšķiniet uz pogas **Parametri** rūtī Darbības, iestatiet atbilstošās vērtības un dialoga loga laukus un noklikšķiniet uz pogas **Labi**. Ir svarīgi noklikšķināt uz pogas **Labi**, citādi pamatparametri netiks saglabāti un izpildāmā klase netiks pareizi izsaukta.
 
 ### <a name="populate-records-actions"></a>Ierakstu aizpildīšanas darbības
 
@@ -143,6 +168,37 @@ Cilnē **Datu avotu iestatīšana** pievienojiet rindu katram datu avotam, kas t
 | Dokumenta konta lauks | Atlasiet lauku, no kura jāņem dokumenta konts atlasītajā tabulā. |
 | Lietotāja vaicājums             | Ja ir atzīmēta šī izv. rūtiņa, var iestatīt vaicājumu, atlasot **Rediģēt vaicājumu** virs režģa. Pretējā gadījumā visi ieraksti tiks aizpildīti no datu avotu. |
 
+### <a name="web-applications"></a>Tīmekļa lietojumprogrammas
+
+Jūs izmantojat tīmekļa programmu lapu, lai iestatītu parametrus tīmekļa programmas atbalstam atvērt standartu OAuth 2.0, kas ļauj lietotājam piešķirt “drošu deleģēto piekļuvi” programmai lietotāju vārdā, nenorādot lietotāju piekļuves akreditācijas datus. Šajā lapā varat arī izpildīt autorizēšanas procesu, iegūstot autorizācijas kodu un piekļuves marķieri. Tīmekļa programmas iestatījumus varat iestatīt lapā **Tīmekļa programmas** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Tīmekļa programmas**).
+
+Nākamajā tabulā ir aprakstīti lauki lapā **Tīmekļa programmas**.
+
+| Lauks                         | Apraksts |
+|-------------------------------|-------------|
+| Lietojumprogrammas nosaukums              | Ievadiet tīmekļa programmas nosaukumu. |
+| Apraksts                   | Ievadiet tīmekļa programmas aprakstu. |
+| Pamata vietrādis URL                      | Ievadiet tīmekļa programmas interneta pamatadresi. |
+| Autorizācijas URL ceļš        | Norādiet URL izveides ceļu autorizēšanai.  |
+| Marķiera URL ceļš                | Norādiet URL izveides ceļu marķierim.  |
+| Novirzīšanas vietrādis URL                  | Ievadiet novirzīšanas URL.  |
+| Klienta ID                     | Ievadiet tīmekļa programmas klienta ID.  |
+| Klienta noslēpums                 | Ievadiet tīmekļa programmas klienta noslēpumu.  |
+| Servera marķieris                  | Ievadiet tīmekļa programmas servera marķieri.  |
+| Autorizācijas formāta kartēšana  | Atlasiet elektronisko pārskatu veidošanas (ER) formātu, kas jāizmanto, lai ģenerētu autorizācijas pieprasījumu.   |
+| Importēt marķieru modeļa kartēšanu    | Atlasiet ER importēšānas modeļa kartēšanu, kas jāizmanto, lai saglabātu piekļuves marķieri.  |
+| Piešķirtais diapazons      Piekļuves marķiera termiņa beigas ir  | Šis lauks tiks atjauninātas automātiski. Tā vērtība parāda tīmekļa programmas pieprasījumiem piešķirto diapazonu.  |
+| Pieņemt                        | Norādiet tīmekļa pieprasījuma pieņemšanas rekvizītu. Piemēram, “application/vnd.hmrc.1.0+json”.  |
+| Satura veids           | Norādiet satura veidu. Piemēram, “application/json”.  |
+
+Tālāk noradītās funkcijas autorizēšanas procesa atbalstam ir pieejamas lapā **Tīmekļa programmas**.
+-   **Iegūt autorizācijas kodu** — inicializē tīmekļa programmas autorizāciju.
+-   **Iegūt piekļuves marķieri** — inicializē piekļuves marķiera ieguvi.
+-   **Atsvaidzināt piekļuves marķieri** — atsvaidzina piekļuves marķieri.
+
+Kad tīmekļa programmas piekļuves marķieris ir saglabāts šifrētā formātā sistēmas datubāzē, to var izmantot tīmekļa pakalpojumu pieprasījumiem. Drošības nolūkos piekļuvi piekļuves marķierim ir jāierobežo tikai tām drošības lomām, kurām ir atļauts risināt šos pieprasījumus. Ja lietotājs ārpus drošības grupas mēģina risināt pieprasījumu, izņēmums informē lietotāju, ka viņam nav atļauts sadarboties, izmantojot atlasīto tīmekļa programmu.
+Izmantojiet kopsavilkuma tabulu **Drošības lomas** lapā Nodokļi > Iestatījumi > Elektroniskie ziņojumi > Tīmekļa programmas, lai iestatītu lomas, kurām jābūt piekļuvei piekļuves marķierim. Ja drošības lomas tīmekļa programmai nav definētas, tikai sistēmas administrators var sadarboties, izmantojot šo tīmekļa programmu.
+
 ### <a name="web-service-settings"></a>Tīmekļa pakalpojuma iestatījumi
 
 Tīm. pakalp. iestatījumus izmanto, lai iestatītu tiešo datu pārs. uz tīm. pakalp. Tīmekļa pak. iestatījumus var iestatīt lapā **Tīm. pak. iestat.** (**Nodoklis** \> **Iestatījumi** \> **Elektr. ziņojumi** \> **Tīm. pak. iestat.**).
@@ -153,13 +209,17 @@ Nākamajā tabulā ir aprakstīti lauki lapā **Tīmekļa pakalpojumu iestatīju
 |-------------------------|-------------|
 | Tīmekļa pakalpojums             | Ievadiet tīmekļa pak. nosaukumu. |
 | apraksts             | Ievadiet tīmekļa pakalpojuma aprakstu. |
-| Interneta adrese        | Ievadiet tīm. pakalpojuma interneta adresi. |
+| Interneta adrese        | Ievadiet tīm. pakalpojuma interneta adresi. Ja tīmekļa programma tīmekļa pakalpojumam ir norādīta un interneta adresei jābūt tādai pašai kāda ir definēta atlasītajai tīmekļa programmai, noklikšķiniet uz pogas **Kopēt pamata URL**, lai kopētu tīmekļa programmas **Pamata URL** uz tīmekļa pakalpojuma lauku **Interneta adrese**.  |
 | Sertifikāts             | Atlasiet Key Vault sertifikātu, kas iestatīts iepriekš. |
+| Tīmekļa lietojumprogramma         | Atlasiet Key Vault sertifikātu, kas iestatīts iepriekš. |
 | Atbildes veids — XML | Iestatiet šai opcijai **Jā**, ja atbildes tips ir XML. |
 | Pieprasīšanas metode          | Norādiet pieprasījuma metodi. HTTP definē pieprasījuma metožu kopu, kas norāda darbību, kura jāveic attiecīgajam resursam. Metode var būt **GET**, **POST** vai cita HTTP metode. |
 | Pieprasījuma galvenes         | Norādiet piepras. galv. Pieprasījuma galvene ir HTTP galvene, ko var izmantot HTTP pieprasījumā un kas nav saistīta ar ziņojuma saturu. |
+| Pieņemt                  | Norādiet tīmekļa pieprasījuma pieņemšanas rekvizītu. |
 | Akceptēt kodēšanu         | Norādiet kodēš. akceptēšanu. Kodēšanas akceptēšanas pieprasījuma HTTP galvene izziņo klientam saprotamu satura kodēšanu. Šī satura kodēšana parasti ir saspiešanas algoritms. |
 | Satura veids            | Norādiet satura tipu. Satura tipa elementa galvene norāda resursa plašsaziņas līdzekļu tipu. |
+| Sekmīgas atbildes kods   | Norādiet HTTP statusa kodu, kas norāda, ka pieprasījums bija veiksmīgs. |
+| Pieprasījuma galveņu formāta kartēšana  | Atlasiet ER formātu tīmekļa pieprasījuma galvenes ģenerēšanai. |
 
 ### <a name="message-processing-actions"></a>Ziņojuma apstrādes darbības
 
@@ -172,17 +232,21 @@ Tabulā ir aprakstīti lapā **Ziņojumu apstrādes darbības** esošie lauki.
 | Lauks                   | apraksts |
 |-------------------------|-------------|
 | Darbības veids             | Atlasiet darbības tipu. Informāciju par pieejamajām opcijām skatiet sadaļā [Ziņojumu apstrādes darbību tipi](#message-processing-action-types). |
-| Formāta kartēšana          | Atlasiet ER formātu, kas jāizsauc attiecīgajai darbībai. Šis lauks ir pieejams tikai darbību tipiem **Elektr. pārsk. veidoš. eksports**, **Elektr. pārsk. veidoš. imports** un **Elektr. pārsk. veidoš. eksporta ziņojums**. |
-| Ziņojuma krājuma veids       | Atlasiet ierakstu tipu, kuram ir jāizvērtē attiecīgā darbība. Šis lauks ir pieejams darbību tipiem **Ziņojuma vienuma izpildes līmenis**, **Elektr. pārsk. veidoš. eksports** un **Elektr. pārsk. veidoš. imports**, kā arī dažiem citiem tipiem. Ja šis lauks ir atstāts tukšs, tiek novērtēti visi ziņojumu vienumu tipi, kas definēti ziņojumu apstrādei. |
+| Formāta kartēšana          | Atlasiet ER formātu, kas jāizsauc attiecīgajai darbībai. Šis lauks ir pieejams tikai darbību tipiem **Elektr. pārsk. veidoš. eksports**, **Elektr. pārsk. veidoš. imports**, **Elektr. pārsk. veidoš. eksporta ziņojums**. |
+| Formāta kartējums URL ceļam | Atlasiet ER formātu, kas jāizsauc attiecīgajai darbībai. Šis lauks ir pieejams tikai darbību tipiem **Tīmekļa pakalpojumi** un tiek izmantots, lai veidotu ceļu URL adresei, kas tiks pievienota interneta pamatadresei, kas norādīta atlasītajam tīmekļa serverim. |
+| Ziņojuma krājuma veids       | Atlasiet ierakstu tipu, kuram ir jāizvērtē attiecīgā darbība. Šis lauks ir pieejams darbību tipiem **Ziņojuma vienuma izpildes līmenis**, **Elektr. pārsk. veidoš. eksports**, **Elektr. pārsk. veidoš. imports** un **Tīmekļa pakalpojumi**, kā arī dažiem citiem tipiem. Ja šis lauks ir atstāts tukšs, tiek novērtēti visi ziņojumu vienumu tipi, kas definēti ziņojumu apstrādei. |
 | Izpildāmā klase        | Atlasiet iepriekš izveidotos izpildāmās klases iestatījumus. Šis lauks ir pieejams tikai darbību tipiem **Ziņojuma vienuma izpildes līmenis** un **Ziņojuma vienuma izpildes līmenis**. |
 | Ierakstu aizpildīšanas darbība | Atlasiet iepriekš iestatīto ierakstu aizpildīšanas darbību. Šis lauks ir pieejams tikai darbību tipam **Aizpildīt ierakstus**. |
+| Tīmekļa pakalpojums  | Atlasiet iepriekš iestatīto tīmekļa pakalpojumu. Šis lauks ir pieejams tikai darbību tipam **Tīmekļa pakalpojumi**.  |
+| Faila nosaukums  | Norādiet nosaukumu failam, kas izraisīs darbību — atbildi no tīmekļa servera vai pārskata ģenerēšanu. Šis lauks ir pieejams tikai darbību tipiem **Tīmekļa pakalpojumi** un **Elektroniskā pārskata veidošanas eksporta ziņojums**.   |
+| Rādīt dialoglodziņu  | Atzīmējiet šo izvēles rūtiņu, ja dialogs ir jāparāda lietotājam pirms pārskata izveidošanas. Šis lauks ir pieejams tikai darbību tipam **Elektroniskā pārskata veidošanas eksporta ziņojums**.   |
 
 ##### <a name="message-processing-action-types"></a>Ziņojumu apstrādes darbību tipi
 
 Laukā **Darbības tips** ir pieejamas tālāk norādītās opcijas.
 
-- **Aizpildīt ierakstus** — darbība **Aizpildīt ierakstus** jāiestata iepriekš. Saistiet to ar darbības tipu **Aizpildīt ierakstus**, lai to varētu iekļaut apstrādē. Tiek pieņemts, ka šis darb. tips tiek izmantots pirmajai darbībai ziņojumu apstrādē. Tādēļ šim darbības tipam var iestatīt tikai beigu statusu. Sākotnējo statusu nevar iestatīt.
 - **Izveidot ziņojumu** — lietojiet šo tipu, lai lietotāji manuāli izveidotu ziņojumus lapā **Elektr. ziņoj**. Šim darbības tipam nevar iestatīt sākotnējo statusu.
+- **Aizpildīt ierakstus** — darbība **Aizpildīt ierakstus** jāiestata iepriekš. Saistiet to ar darbības tipu **Aizpildīt ierakstus**, lai to varētu iekļaut apstrādē. Tiek pieņemts, ka šo darbības tipu lieto vai nu pirmajai darbībai ziņojumu apstrādē (ja iepriekš nav izveidots elektroniskais ziņojums), vai kā darbību, kas pievieno ziņojumu vienumus iepriekš izveidotam ziņojumam (pēc darbības tipa **Izveidot ziņojumu**). Tādēļ šim darbības tipam var iestatīt tikai ziņojumu vienumu beigu statusu. Sākotnējo statusu var iestatīt tikai ziņojumam.
 - **Ziņojuma izpildes līmenis** — lietojiet šo tipu, lai iestatītu izpildāmo klasi, kas jānovērtē ziņojuma līmenī.
 - **Ziņojuma vienuma izpildes līmenis** — lietojiet šo tipu, lai iestatītu izpildāmo klasi, kas jānovērtē ziņojuma vienuma līmenī.
 - **Elektr. pārskata veidošanas eksports** — lietojiet šo tipu darbībām, kuras ģenerē pārskatu, kas balstās uz eksportēšanas ER konfigurāciju ziņoj. vienuma līmenī.
@@ -190,15 +254,15 @@ Laukā **Darbības tips** ir pieejamas tālāk norādītās opcijas.
 - **Elektr. pārsk. veidošanas imports** — lietojiet šo tipu darbībām, kuras ģenerē pārskatu, kas balstās uz importēšanas ER konfigurāciju.
 - **Ziņoj. līm. lietotāja apstrāde** — lietojiet šo tipu darbībām, kas paredz manuālas lietot. darbības. Piemēram, lietotājs var atjaunināt ziņojumu statusu.
 - **Lietotāja apstrāde** — lietojiet šo tipu darbībām, kas paredz manuālu lietotāja darbību. Piemēram, lietotājs var atjaunināt ziņojumu vienumu statusu.
-- **Tīm. pakalpojums** — lietojiet šo tipu darbībām, kas ģenerēto pārskatu nosūta uz tīm. pakalpojumu. Šo darbības tipu neizmanto Itālijas pirkšanas un pārdošanas rēķinu paziņojumu pārskatiem.
+- **Tīm. pakalpojums** — lietojiet šo tipu darbībām, kas ģenerēto pārskatu nosūta uz tīm. pakalpojumu. Šo darbības tipu neizmanto Itālijas pirkšanas un pārdošanas rēķinu paziņojumu pārskatiem. Darbību tipam **Tīmekļa pakalpojumi** lapas **Ziņojumu apstrādes darbības** kopsavilkuma cilnē **Detalizēta papildinformācija** varat norādīt **Apstiprinājuma teksts**. Šis apstiprinājuma teksts tiks parādīts lietotājam pirms atlasītā tīmekļa pakalpojuma pieprasījuma risināšanas.
 - **Pieprasīt verifikāciju** — lietojiet šo tipu, lai piepr. verif. no servera.
 
 #### <a name="initial-statuses-fasttab"></a>Cilne Sākotnējie statusi
 
 > [!NOTE]
-> Kopsav. cilne **Sākotnējie statusi** nav pieejama darbībām, kuru sākotn. tips ir **Aizpildīt ierakstus** vai **Izveidot ziņojumu**.
+> Kopsavilkuma cilne **Sākotnējie statusi** nav pieejama darbībām, kuru sākotnējais tips ir **Izveidot ziņojumu**.
 
-| Lauks               | apraksts                                                                                         |
+| Lauks               | Apraksts                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
 | Ziņojuma krājuma statuss | Atlasiet ziņojuma vienuma statusu, kuram ir jānovērtē atlasītā ziņojumu apstrādes darbība. |
 | apraksts         | Atlasītā ziņojuma vienuma statusa apraksts.                                                  |
@@ -212,11 +276,29 @@ Laukā **Darbības tips** ir pieejamas tālāk norādītās opcijas.
 | Atbildes veids       | Atlasītā ziņojuma statusa atbildes tips. |
 | Ziņojuma krājuma statuss | Atlasiet beigu statusus, kuriem jābūt pieejamiem pēc atlasītās ziņojumu apstrādes darbības novērtēšanas. Šis lauks ir pieejams tikai ziņojumu apstrādes darbībām, kas tiek novērtētas ziņojuma vienuma līmenī. Piemēram, tas ir pieejams darbību tipiem **Lietotāja apstrāde** un **Ziņojuma krājuma izpildes līmenis**. Ziņojumu apstrādes darbībām, kuras tiek novērtētas ziņojuma līmenī, šis lauks rāda ziņojuma vienuma statusu, kas tika iestatīts atlasītajam ziņojuma statusam. |
 
+Nākamajā tabulā parādīts, kādi rezultātu statusi ir jāiestata saistībā uz darbību tipiem.
+
+| Elektroniskā ziņojuma darbības tips\ atbildes veids  | Izpildīts veiksmīgi  | Biznesa kļūda  | Tehniska kļūda  | Lietotāja definēts  | Atcelt  |
+|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
+| Izveidot ziņojumu                                  | X            |         |       |     |                 |
+| Elektroniskā pārskata veidošanas eksports                     | X            |         |       |     |                 |
+| Elektroniskā pārskata veidošanas imports                     |              |         |       |     |                 |
+| Tīmekļa pakalpojums                                     | X            |         | X     |     |                 |
+| Lietotāja apstrāde                                 |              |         |       |     |                 |
+| Ziņojuma izpildes līmenis                         |              |         |       |     |                 |
+| Aizpildīt ierakstus                                |              |         |       |     |                 |
+| Ziņojuma krājuma izpildes līmenis                    |              |         |       |     |                 |
+| Pieprasīt verifikāciju                            | X            |  X      | X     |     |                 |
+| Elektronisko pārskatu veidošanas eksporta ziņojums             | X            |         |       |     |                 |
+| Ziņojuma līmeņa lietotāja apstrāde                   |              |         |       |     |                 |
+
 ### <a name="electronic-message-processing"></a>Elektroniska ziņojuma apstrāde
 
-Elektroniska ziņojuma apstrāde ir elektronisko ziņojumu funkcionalitātes pamatkoncepts. Tā apkopo darbības, kuras jānovērtē elektroniskajam ziņojumam. Darbības var saistīt, izmantojot sākotnējo statusu un beigu statusu. Vai arī darbības, kuru tips ir **Lietotāja apstrāde**, var sākt neatkarīgi. Lapā **Elektroniska ziņojuma apstrāde** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Elektroniska ziņojuma apstrāde**) var arī atlasīt papildu laukus, kuri ir jāatbalsta apstrādei.
+Elektroniska ziņojuma apstrāde ir elektronisko ziņojumu funkcionalitātes pamatkoncepts. Tā apkopo darbības, kuras jānovērtē elektroniskajam ziņojumam. Darbības var saistīt, izmantojot sākotnējo statusu un beigu statusu. Vai arī darbības, kuru tips ir **Lietotāja apstrāde**, var sākt neatkarīgi. Lapā **Elektroniskā ziņojuma apstrāde** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Elektroniskā ziņojuma apstrāde**) varat arī atlasīt papildu laukus, kuri ir jāatbalsta apstrādei vai nu ziņojuma līmenī, vai ziņojuma vienumu līmenī.
 
-Kopsav. cilne **Darbība** ļauj pievienot iepr. definētas darb. apstrādei. Var norādīt, vai darbība ir jāpalaiž atsevišķi vai arī to var sākt apstrāde. (Lietot. darbības jāpalaiž atsevišķi.)
+Kopsav. cilne **Darbība** ļauj pievienot iepr. definētas darb. apstrādei. Var norādīt, vai darbība ir jāpalaiž atsevišķi vai arī to var sākt apstrāde. Lai definētu, vai darbību var inicializēt tikai lietotājs, atzīmējiet izvēles rūtiņu **Izpildīt atsevišķi** apstrādes darbībām. Noņemiet atzīmi parametram **Izpildīt atsevišķi**, ja vēlaties, lai darbība tiktu izpildīta apstrādē, kad ziņojumu vai ziņojumu vienumu statuss ir definēts kā sākotnējais statuss šai darbībai. Darbības tips **Lietotāja darbība** ir jāpalaiž tikai atsevišķi. 
+
+Dažreiz var būt nepieciešams apkopot vairākas secīgas darbības, pat ja pirmā no tām ir definēta atsevišķai palaišanai. Piemēram, kad ir nepieciešams, lai pārskata ģenerēšanu inicializē lietotājs, bet pēc tam, kad pārskats ir ģenerēts, tas nekavējoties jānosūta uz tīmekļa pakalpojumu, un atbildes no tīmekļa pakalpojuma ir jāatspoguļo sistēmā. Šādam nolūkam varat izmantot parametru **Nedalāma sērija**. Lai to izdarītu, noklikšķiniet uz pogas **Nedalāma sērija** lapas **Elektronisko ziņojumu apstrāde** kopsavilkuma cilnes **Darbība** darbību rūtī, izveidojiet sēriju un atlasiet to kolonnā **Nedalāma sērija**, kur apkopotas darbības, kas ir vienmēr izpildāmas kopā. Pirmo darbību šajā gadījumā var iestatīt kā **Izpildīt atsevišķi**, bet visas pārējās nevar.
 
 Kopsav. cilne **Ziņ. vienuma papildu lauki** ļauj pievienot iepriekš defin. papildu laukus, kas saistīti ar ziņ. vienumiem. Ir jāpievieno papildu lauki katram ziņojuma vienuma tipam, ar kuru lauki ir saistīti.
 
@@ -238,16 +320,22 @@ Kopsav. cilnē **Ziņojumi** tiek rādīti atlasītās apstrādes elektron. ziņ
 
 - **Jauns** — šī poga ir saistīta ar darbībām, kuru tips ir **Izveidot ziņojumu**.
 - **Dzēst** — šī poga ir pieejama, ja atlasītā ziņojuma pašreizējam statusam ir atzīmēta izvēles rūtiņa **Atļaut dzēšanu**.
+- **Apkopot datus** — šī poga ir saistīta ar darbības tipu **Aizpildīt ierakstus**.
 - **Ģenerēt pārskatu** — šī poga ir saistīta ar darbību tipu **Elektr. pārsk. veidoš. eksporta ziņojums**.
 - **Sūtīt pārskatu** — šī poga ir saistīta ar darbību tipu **Tīmekļa pakalpojums**.
+- **Importēt atbildi** — šī poga ir saistīta ar darbību tipu **Elektroniskā pārskata veidošanas imports**.
 - **Atjaunināt statusu** — šī poga ir saistīta ar darbību tipu **Ziņojuma līmeņa lietotāja apstrāde**.
 - **Ziņojuma vienumi** — atv. lapu **Elektr. ziņoj. vienumi**.
 
-Kopsav. cilnē **Darbību žurnāls** ir redzama inform. par visām darbībām, kas izpildītas atlasītajam ziņojumam.
+Kopsav. cilnē **Darbību žurnāls** ir redzama inform. par visām darbībām, kas izpildītas atlasītajam ziņojumam. Ja darbība atgriež kļūdu, informācija par kļūdu būs pievienota saistītajai darbību žurnāla rindai. Atlasiet rindu un noklikšķiniet uz **saspraudes** pogas lapas augšējā labajā stūrī, lai pārskatītu informāciju par kļūdu.
 
 Kopsavilkuma cilnē **Ziņojuma papildu lauki** ir redzami visi papildu lauki, kas definēti ziņojumiem apstrādes iestatījumos. Tajā arī redzamas šo papildu lauku vērtības.
 
-Kopsav. cilnē **Ziņojuma vienumi** ir redzami visi ziņ. vienumi, kas saistīti ar atlasīto ziņojumu.
+Kopsav. cilnē **Ziņojuma vienumi** ir redzami visi ziņ. vienumi, kas saistīti ar atlasīto ziņojumu. Katram ziņojuma vienumam var izmantot kādu no tālāk noradītajām funkcijām atkarībā no attiecīgā ziņojuma vienuma statusa.
+
+- **Dzēst** — šī poga ir pieejama, ja atlasītā ziņojuma vienuma pašreizējam statusam ir atzīmēta izvēles rūtiņa **Atļaut dzēšanu**.
+- **Atjaunināt statusu** — šī poga ir saistīta ar darbību tipu **Lietotāja apstrāde**.
+- **Oriģinālais dokuments** — šī poga ļauj lietotājam atvērt lapu ar atlasītā ziņojuma oriģinālo dokumentu.
 
 Var pārskatīt visus atlasītā ziņojuma pielikumus. Šie pielikumi ir pārskati, kas jau ir ģenerēti un saņemti. Atlasiet ziņojumu, kuram pārskatīt pielikumus, un pēc tam atlasiet pogu **Pielikums** darbību rūtī.
 
