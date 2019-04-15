@@ -8,6 +8,14 @@ items:
     - name: Jaunumi un izmaiņas programmā Talent
       href: whats-new.md
       items:
+      - name: 2019. gada 2. aprīlis
+        href: whats-new-talent-april-2-2019.md
+      - name: 2019. gada 26. marts
+        href: whats-new-talent-march-26-2019.md
+      - name: 2019. gada 20. marts
+        href: whats-new-talent-march-20.md
+      - name: 2019. gada 14. marts
+        href: whats-new-talent-march-14.md
       - name: 2019. gada 5. marts
         href: whats-new-talent-march-5.md
       - name: 2019. gada 27. februāris
@@ -20,49 +28,53 @@ items:
         href: whats-new-talent-january-29.md
       - name: 2019. gada 23. janvāris
         href: whats-new-talent-january-23.md
-      - name: 2019. gada 17. janvāris
-        href: whats-new-talent-january-17.md
-      - name: 2019. gada 11. janvāris
-        href: whats-new-talent-january-11.md
-      - name: 2018. gada 14. decembris
-        href: whats-new-talent-december-14.md
-      - name: 2018. gada 6. decembris
-        href: whats-new-talent-december-6.md
-      - name: 2018. gada 27. novembris
-        href: whats-new-talent-november-27.md
-      - name: 2018. gada 15. novembris
-        href: whats-new-talent-november-15.md
-      - name: 2018. gada 31. oktobris
-        href: whats-new-talent-october-31.md
-      - name: 2018. gada 19. oktobris
-        href: whats-new-talent-october-19.md
-      - name: 2018. gada 15. oktobris
-        href: whats-new-talent-october-11.md
-      - name: 2018. gada 8. oktobris
-        href: whats-new-talent-october-8.md
-      - name: 2018. gada 1. oktobris
-        href: whats-new-talent-october-01.md
-      - name: 2018. gada 24. septembris
-        href: whats-new-talent-september-24.md
-      - name: 2018. gada 17. septembris
-        href: whats-new-talent-september-17-2018.md
-      - name: 2018. gada 10. septembris
-        href: whats-new-talent-september-10.md
-      - name: 2018. gada augusts
-        href: whats-new-talent-august2018.md
-      - name: 2018. gada jūlijs
-        href: whats-new-talent-july2018.md
+      - name: Jaunumu arhīvi, 2019. gads
+        items:
+        - name: 2019. gada 17. janvāris
+          href: whats-new-talent-january-17.md
+        - name: 2019. gada 11. janvāris
+          href: whats-new-talent-january-11.md
+      - name: Jaunumu arhīvi, 2018. gads
+        items:
+        - name: 2018. gada 14. decembris
+          href: whats-new-talent-december-14.md
+        - name: 2018. gada 6. decembris
+          href: whats-new-talent-december-6.md
+        - name: 2018. gada 27. novembris
+          href: whats-new-talent-november-27.md
+        - name: 2018. gada 15. novembris
+          href: whats-new-talent-november-15.md
+        - name: 2018. gada 31. oktobris
+          href: whats-new-talent-october-31.md
+        - name: 2018. gada 19. oktobris
+          href: whats-new-talent-october-19.md
+        - name: 2018. gada 15. oktobris
+          href: whats-new-talent-october-11.md
+        - name: 2018. gada 8. oktobris
+          href: whats-new-talent-october-8.md
+        - name: 2018. gada 1. oktobris
+          href: whats-new-talent-october-01.md
+        - name: 2018. gada 24. septembris
+          href: whats-new-talent-september-24.md
+        - name: 2018. gada 17. septembris
+          href: whats-new-talent-september-17-2018.md
+        - name: 2018. gada 10. septembris
+          href: whats-new-talent-september-10.md
+        - name: 2018. gada augusts
+          href: whats-new-talent-august2018.md
+        - name: 2018. gada jūlijs
+          href: whats-new-talent-july2018.md
     - name: Sistēmas prasības un atjaunināšanas politika
       href: talent-versions-update-policy.md
     - name: Talent nodrošinājums
       href: provisioning-talent.md
     - name: Talent vides noņemšana
       href: remove-talent-environment.md
-    - name: Nodrošinājums Talent modulārajām programmām
+    - name: Nodrošinājums Talent moduļu programmām
       href: modular-app-tech-faq.md
     - name: PowerApps programmu iegulšana
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR un Common Data Service programmām
+    - name: Core HR un Common Data Service
       href: CoreHREntities.md
     - name: Piekļuve priekšskatījuma līdzekļiem
       href: access-preview-feature.md
@@ -102,9 +114,11 @@ items:
       href: Process-templates-Attract.md
     - name: Darbu izveide, apstiprināšana un grāmatošana pakalpojumā Attract
       href: Creating-jobs-Attract.md
-    - name: Plānošana, izmantojot potenciālo kandidātu kopas
+    - name: Darbu grāmatošana ārējās vietnēs no pakalpojuma Attract
+      href: posting-jobs-external.md
+    - name: Plānošana, izmantojot kandidātu kopas
       href: attract-talent-pools.md
-    - name: Avoti ar LinkedIn Recruiter
+    - name: Avoti, izmantojot LinkedIn Recruiter
       href: attract-linked-in-recruiter.md
     - name: Darbā pieņemšanas procesa aktivitātes pakalpojumā Attract
       href: activities-attract.md
@@ -128,6 +142,8 @@ items:
       href: Intelligent-Recommendations.md
     - name: Aizraujošas pievienošanās pieredzes izveidošana
       href: create-onboarding-experience.md
+    - name: Kandidātu profilu un pieteikumu avotu izsekošana
+      href: source-tracking.md
     - name: Attract visaptverošas darbā pieņemšanas pievienojumprogrammas iespējas
       href: attract-comprehensive-hiring.md
   - name: Darbinieku motivēšana
@@ -201,8 +217,16 @@ items:
       href: data-integration.md
     - name: Bieži uzdotie jautājumi par integrāciju
       href: talent-fo-integration.md
-    - name: Periodisks datu eksports, izmantojot Azure Logic Apps
+    - name: Periodiska datu eksportēšana, izmantojot Azure Logic Apps
       href: tutorial-integration-recurring-export.md
+  - name: Paplašināmība
+    items:
+    - name: Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
+      href: extensibility-examples.md
+    - name: Paplašināmība pakalpojumā Attract
+      href: extensibility-attract.md
+    - name: Pielāgotie lauki pakalpojumā Core HR
+      href: corehr-custom-fields.md
   - name: Office integrācija
     items:
     - name: Office integrēšanas apmācība
@@ -322,9 +346,9 @@ items:
       href: save-play-task-guides-LCS.md
     - name: Piekļuve privātām adresēm atbilstoši drošības lomai
       href: security-roles-addresses.md
-    - name: Programma Talent nav redzama starp Microsoft Dynamics 365 programmām (CDS1.0)
+    - name: Programma Talent nav redzama starp Microsoft Dynamics 365 programmām (Common Data Service 1.0)
       href: talent-not-in-home-CDS.md
-    - name: Lietotājs var piekļūt Core HR, bet nevar piekļūt programmai Onboard vai Attract
+    - name: Lietotājs var piekļūt Core HR, bet nevar piekļūt pakalpojumam Onboard vai Attract
       href: user-access-core-hr.md
     - name: Atskaišu veidošanas iespējas programmā Talent
       href: talent-reporting-options.md
@@ -332,9 +356,9 @@ items:
       href: talent-FO-integration.md
     - name: Azure Active Directory lietotāji nav atrodami vadīklā Personu atlasītājs
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782756"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969451"
