@@ -3,7 +3,7 @@ title: Programmā Finance and Operations ietverto projektu saraksta sinhronizē�
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto projektu sinhronizēšanai ar programmu Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312512"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842608"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Programmā Finance and Operations ietverto projektu saraksta sinhronizēšana ar programmu Field Service
 
@@ -38,13 +38,13 @@ ms.locfileid: "312512"
 Tālāk minētā veidne un pamata uzdevumi tiek izmantoti, lai veiktu risinājumā Microsoft Dynamics 365 for Finance and Operations ietverto projektu sinhronizēšanu ar Microsoft Dynamics 365 for Field Service.
 
 **Veidne līdzeklī Datu integrācija**
-- Projekti (no programmas Finance and Operations programmā Field Service)
+- Projekti (no Fin and Ops uz Field Service)
 
 **Uzdevums datu integrācijas projektā**
 - Projekti
 
 Lai varētu veikt projektu saraksta sinhronizāciju, ir nepieciešami tālāk norādītie sinhronizācijas uzdevumi.
-- Konti (no programmas Sales programmā Finance and Operations) 
+- Konti (no Sales uz Fin and Ops) 
 
 ## <a name="entity-set"></a>Elementu kopa
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Iespējojiet izmaiņu izsekošanu datu elementu projektiem.
 ## <a name="template-mapping-in-data-integration"></a>Veidnes kartējums līdzeklī Datu integrācija
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Projekti (no programmas Finance and Operations programmā Field Service): Projekti
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projekti (no Fin and Ops uz Field Service): Projekti
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProject1.png)](./media/FSProject1.png)

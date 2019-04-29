@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363480"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975855"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir paskaidrots, kā varat personalizēt programmu Microsoft Dynamics 365 for Finance and Operations.
 
@@ -47,6 +48,8 @@ Lapā **Lietotāja opcijas** ir vairāki visas sistēmas mēroga iestatījumi pa
 - **Preferences** — atlasiet noklusējuma vērtības, kas tiek izmantotas katru reizi, kad atverat programmu Finance and Operations. Šīs vērtības ietver uzņēmumu, sākuma lapu un noklusējuma skata/rediģēšanas režīmu. (Skata/rediģēšanas režīms nosaka, vai katru reizi, kad lapu atverat, lapa ir bloķēta un to var tikai apskatīt, vai lapa ir atvērta rediģēšanai.) Šajā cilnē ir arī opcijas valodai, laika joslai un datuma, laika un skaitļu formātam. Visbeidzot šajā cilnē ir dažādas preferences, kas dažādos laidienos ir atšķirīgas.
 - **Konts** — pielāgojiet savu lietotājvārdu un citas ar kontu saistītas opcijas.
 - **Darbplūsma** — atlasiet ar darbplūsmu saistītas opcijas.
+
+Papildus lietotāja iestatījumu pārveidošanai var arī apskatīt un izdzēst lietojuma un personalizētos datus, noklikšķinot uz pogas **Lietojuma dati**. Lietojot programmu, daudzi atlases elementi tiek saglabāti, lai turpmāk vienkāršotu sistēmas izmantošanu. It īpaši cilne **Personalizēšana** ļauj skatīt un pārvaldīt izmaiņas, kuras personīgi veiktas sistēmas lapās. Izmantojot šo cilni, var arī atiestatīt funkciju izsaukšanu un uznirstošos logus, kuros tiek parādītas produkta jaunas funkcijas (opcija pieejama platformas atjauninājumā 26), lai atkal tiek saņemts brīdinājums par iepriekš izmantotajām funkcijām.  
 
 ## <a name="implicit-personalizations"></a>Netiešās personalizācijas
 
@@ -160,7 +163,7 @@ Lietotāji ar administratora privilēģijām lapā **Personalizācija** var arī
 
 - **Lietot** — varat importēt vai atlasīt kādu personalizāciju vienam vai vairākiem lietotājiem. Lai personalizāciju lietotu vienam lietotājam vai vairākiem, vispirms atlasiet kādu lomu un lietotājus, kuriem ir šī loma. Pēc tam atlasiet esošu personalizāciju, kuru lietot atlasītajiem lietotājiem, vai importējiet personalizēšanas failu. Personalizācija tiek validēta un tiek lietota visiem atlasītajiem lietotājiem nākamajā reizē, kad viņi atver atlasīto lapu.
 - **Notīrīt** — varat notīrīt visas lapai vai darbvietai paredzētās personalizācijas vienam vai vairākiem lietotājiem. Vispirms atlasiet lapu vai darbvietu, lai redzētu sarakstu ar lietotājiem, kuri to ir personalizējuši. Pēc tam atlasiet lietotājus, kuriem ir nepieciešams notīrīt šīs lapas vai darbvietas personalizācijas, un atlasiet **Notīrīt**. Tiek dzēstas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja šai lapai vai darbvietai bija saglabāta kāda personalizācija, šo personalizāciju var importēt vēlreiz.
-- **Pārvaldnieks pēc lietotāja** — atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko šis lietotājs ir personalizējis. Pēc tam varat iespējot vai atspējot atlasītā lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizāciju atlasītajam lietotājam.
+- **Pārvaldnieks pēc lietotāja** — atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko lietotājs ir personalizējis. Pēc tam varat iespējot vai atspējot atlasītā lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizāciju atlasītajam lietotājam. Turklāt var atiestatīt atlasītā lietotāja funkciju izsaukšanu, kas ļauj atkal parādīt visus iepriekš noraidītos uznirstošos logus, kuros varēja skatīt jaunās funkcijas, nākamreiz, kad lietotājs saskaras arī šīm funkcijām.   
 - **Sistēma** — varat īslaicīgi atspējot visas personalizācijas visiem lietotājiem sistēmā. Šajā gadījumā personalizācijas tiek dzēstas. Visas lapas vienkārši tiek atiestatītas uz to noklusējuma stāvokli visiem lietotājiem. Ja vēlāk personalizāciju atkal iespējojat, visas personalizācijas tiek atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Izdzēstas personalizācijas nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Krājumu dimensiju personalizēšana

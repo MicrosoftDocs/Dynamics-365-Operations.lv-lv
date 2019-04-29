@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782942"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949901"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 27. februāris)
 
@@ -77,9 +77,9 @@ Tagad darbinieka fiksētajai atlīdzībai, darbinieka mainīgās atlīdzības pi
 
 Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. Piemēram, vadītāju vai reģionālo darbinieku ierakstiem. Šīs izmaiņas sniedz personāla vadības (Human resources — HR) speciālistam iespēju pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. No drošības lomām, ko var piešķirt fiksētajiem un mainīgajiem plāniem, ir atkarīga piekļuve plāniem un ar tiem saistītajiem darbinieku datiem (piemēram, algu informācijai vai prēmiju ierakstiem). Šo atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar konkrētajām piekļuves atļaujām.
 
-### <a name="platform-update-24"></a>Platformas update 24
+### <a name="platform-update-24"></a>Platform update 24
 
-Papildinformāciju par Microsoft Dynamics 365 for Finance and Operations 24. platformas atjauninājumu (2019. gada marts) skatiet rakstā [Priekšskatījuma līdzekļi Finance and Operations 24. platformas atjauninājumā (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Papildinformāciju par Microsoft Dynamics 365 for Finance and Operations atjauninājumu Platform update 24 (2019. gada marts) skatiet rakstā [Priekšskatījuma līdzekļi Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Fiksētas atlīdzības iespējošana darbiniekiem ar gaidāmām amatu piešķirēm
 
@@ -87,7 +87,7 @@ Bieži vien darbiniekiem, kas pievienojas organizācijai, ir vēlāks sākuma da
 
 ## <a name="known-issues"></a>Zināmās problēmas
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Core HR integrācijas veidnes izmaiņas (no Talent Common Data Service uz Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR integrācijas veidnes izmaiņas (no Talent Common Data Service uz Finance and Operations)
 Core HR veidne ir atjaunināta, padarot to par papildu vaicājuma veidni. Tāpēc projektiem, kas ir izveidoti, izmantojot šo veidni, pēc noklusējuma ir pieejams papildu vaicājums. Turklāt visas noklusējuma kartējumu funkcijas ir redzamas tikai papildu vaicājuma redaktorā. (Noklusējuma kartēšanas funkcijas kartējumos ir apzīmētas ar burtiem “FN”.)
 
 Papildinformāciju par kartējumu kļūdām skatiet rakstā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 14. decembris)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Lai atjauninātu esošu vedni, veiciet tālāk norādītās darbības.
 
     - **No elementa Darba amati uz elementu Amati:** noņemiet šo kartējumu.
     - **No elementa Darba amati uz elementu Amatu pamatdarba piešķire:** noņemiet šo kartējumu.
-    - **No elementa Darba amati uz elementu Pamata amats:** pievienot jaunu kartējumu no pakalpojuma Common Data Service programmām elementa **Darba amati** uz programmas Finance and Operations elementu **Pamata amats**. Pārvietojiet to uz 7. pozīciju sērijā.
+    - **No elementa Darba amati uz elementu Pamata amats:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Pamata amats**. Pārvietojiet to uz 7. pozīciju sērijā.
 
         [![Kartējums no elementa Darba amati uz elementu Pamata amats](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **No elementa Darba amati uz elementu Detalizēta informācija par amatu:** pievienot jaunu kartējumu no pakalpojuma Common Data Service programmām elementa **Darba amati** uz programmas Finance and Operations elementu **Detalizēta informācija par amatu**. Pārvietojiet to uz 8. pozīciju sērijā.
+    - **No elementa Darba amati uz elementu Detalizēta informācija par amatu:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Detalizēta informācija par amatu**. Pārvietojiet to uz 8. pozīciju sērijā.
 
         [![Kartējums no elementa Darba amati uz elementu Detalizēta informācija par amatu](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **No elementa Darba amati uz elementu Amatu ieņemšanas ilgumi:** pievienot jaunu kartējumu no pakalpojuma Common Data Service programmām elementa **Darba amati** uz programmas Finance and Operations elementu **Amatu ieņemšanas ilgumi**.
+    - **No elementa Darba amati uz elementu Amatu ieņemšanas ilgumi:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Amatu ieņemšanas ilgumi**.
 
         [![Kartējums no elementa Darba amati uz elementu Amatu ieņemšanas ilgumi](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **No elementa Darba amati uz elementu Pozīciju hierarhijas:** pievienot jaunu kartējumu no pakalpojuma Common Data Service programmām elementa **Darba amati** uz programmas Finance and Operations elementu **Pozīciju hierarhijas**. Atlasiet **Papildu vaicājums**, lai projektā padarītu pieejamu savu papildu vaicājumu.
+    - **No elementa Darba amati uz elementu Pozīciju hierarhijas:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Pozīciju hierarhijas**. Atlasiet **Papildu vaicājums**, lai projektā padarītu pieejamu savu papildu vaicājumu.
 
        [![Poga Papildu vaicājums](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

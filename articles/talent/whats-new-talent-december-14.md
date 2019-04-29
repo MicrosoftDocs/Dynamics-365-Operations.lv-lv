@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305242"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949855"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 14. decembris)
 
@@ -65,7 +65,7 @@ Ar šīm izmaiņām pakalpojumā Power BI tagad tiek atbalstītas liekās dienas
 
 ### <a name="integration-between-core-hr-and-attract"></a>Integrācija starp Core HR un Attract
 
-Ir veiktas izmaiņas, lai atjauninātu integrāciju starp Core HR un Attract saistībā darbā pieņemamajiem kandidātiem. Lai darbā pieņemamie kandidāti būtu redzami darbvietā **Personāla vadība**, izmanto šādas CDS programmām (CDS 2.0) entītijas:
+Ir veiktas izmaiņas, lai atjauninātu integrāciju starp Core HR un Attract saistībā darbā pieņemamajiem kandidātiem. Lai darbā pieņemamie kandidāti būtu redzami darbvietā **Personāla vadība**, tiek izmantotas tālāk aprakstītās Common Data Service entītijas.
 
 Darba pieteikums
 - Statusa iemeslam jābūt iestatītam kā Piedāvājums pieņemts
@@ -139,11 +139,11 @@ Uzdevumam No sadaļas Nodarbinātie uz sadaļu Darbs ir jāatjaunina šādi kart
 
 Ir jāatjaunina arī lauka Dzimums pārveidošana. Atlasiet **fn** (funkcijas) kartes veidu vienumam Dzimums un atjauniniet šādus vērtību kartējumus.
 
-| CDS vērtība                   | Finance and Operations vērtība                     |
+| Common Data Service vērtība                   | Finance and Operations vērtība                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Vīrietis                                             |
 | 75440001                    | Sieviete                                           |
-| 75440002                    | Neviens                                             | 
+| 75440002                    | Nav                                             | 
 | 75440003                    | Nenoteikts                                      |
 
 Atjauninātajiem kartējumiem jāizskatās, kā norādīts tālāk redzamajos attēlos.

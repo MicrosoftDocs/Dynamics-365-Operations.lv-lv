@@ -1,7 +1,7 @@
 ---
 title: Kreditora daļējas summas maksājumi
 description: Reizēm jūs veicat kreditoram maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2644e0a27eff3e45ddcddb89c9aac9230190788f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 617aa35cf1510e90c8c0b5dcfcff070d7db075b8
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318906"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896607"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Kreditoru maksājumi par daļēju summu
 

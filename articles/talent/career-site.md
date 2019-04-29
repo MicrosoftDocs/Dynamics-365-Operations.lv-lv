@@ -1,29 +1,29 @@
 ---
 title: Karjeras vietnes funkcionalitāte programmā Attract
 description: Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Attract.
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389974"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898935"
 ---
 # <a name="career-site-functionality-in-attract"></a>Karjeras vietnes funkcionalitāte programmā Attract
 
@@ -43,15 +43,15 @@ Lai iestatītu vērtības tālāk minētajiem vienumiem, pierakstieties programm
 
 -   **Organizācijas logotips** — organizācijas logotipa attēls parādās karjeras vietnes augšējā kreisajā stūrī. Atlasot organizācijas logotipa attēlu, kandidāti pāriet uz lapu, kurā norādīti visi atvērtie darbi.
 
-    >   [!NOTE] 
-    >   Logotipa attēlam, kas parādās karjeras vietnē, ir fiksēts augstums 20 pikseļi (px). Attēls, ko pievienojat administrēšanas centrā, tiek mērogots atbilstoši vajadzīgajam izmēram. Tāpēc atkarībā no attēla platums var mainīties.
+    > [!NOTE] 
+    > Logotipa attēlam, kas parādās karjeras vietnē, ir fiksēts augstums 20 pikseļi (px). Attēls, ko pievienojat administrēšanas centrā, tiek mērogots atbilstoši vajadzīgajam izmēram. Tāpēc atkarībā no attēla platums var mainīties.
  
 Lai iestatītu vērtības tālāk minētajiem vienumiem, pierakstieties programmā Attract kā administrators, izvēlnē **Iestatījumi** atlasiet vienumu **Administrēšanas centrs** un pēc tam atlasiet cilni **Karjeras vietnes pārvaldība**.
 
 -   **Meklētājoptimizācija** — ja šis vienums ir iespējots, visus publiskos darbus, kas publicēti Attract karjeras vietnē, varēs atrast, izmantojot meklētājprogrammas, piemēram, Bing un Google.
 
-    >   [!NOTE] 
-    >   Var būt aizkave starp šī iestatījuma ieslēgšanu un meklēšanas rezultātu parādīšanu atkarībā no izmantotajām meklētājprogrammām.
+    > [!NOTE] 
+    > Var būt aizkave starp šī iestatījuma ieslēgšanu un meklēšanas rezultātu parādīšanu atkarībā no izmantotajām meklētājprogrammām.
          
 ## <a name="career-site-urls"></a>Karjeras vietnes vietrāži URL
 
@@ -81,15 +81,17 @@ Kandidātiem ir pieejamas šādas pierakstīšanās opcijas Attract karjeras vie
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-Azure AD pierakstīšanās ir paredzēta tikai iekšējiem kandidātiem. Tāpēc to var lietot tikai iekšējie kandidāti, kuri izmanto attiecīgā uzņēmuma Azure AD akreditācijas datus. Piemēram, kandidāts, kas pašlaik ir Contoso Ltd darbinieks, vēlas pieteikties darbam nesaistītā uzņēmumā Alpine Ski House. Šajā gadījumā pierakstīšanās būs neveiksmīga, ja darbinieks mēģina lietot savus Azure AD akreditācijas datus no Contoso Ltd.
+Azure AD pierakstīšanās ir paredzēta tikai iekšējiem kandidātiem. Tāpēc to var lietot tikai iekšējie kandidāti, kuri izmanto attiecīgā uzņēmuma Azure AD akreditācijas datus. Piemēram, kandidāts, kas pašlaik ir Contoso Ltd darbinieks, vēlas pieteikties darbam nesaistītā uzņēmumā Alpine Ski House. Šajā gadījumā pierakstīšanās būs neveiksmīga, ja darbinieks mēģina lietot savus Azure AD akreditācijas datus no Contoso Ltd. 
+
+Kandidātiem jāpiesakās, izmantojot Azure AD, ja darbs, kuru viņi skata vai kuram viņi piesakās, ir norādīts kā tikai iekšējs.
 
 ## <a name="create-and-maintain-a-profile"></a>Profila izveide un uzturēšana
 
 Pēc kandidātu pierakstīšanās karjeras vietnē viņi var atlasīt **Mans profils** navigācijas joslā lapas augšdaļā, lai izveidotu un uzturētu savu profilu.
 Profils ietver personisko informāciju, informāciju par darba pieredzi, izglītības informāciju, dokumentus, saites un informāciju par prasmju kopām. Pēc tam, kad profils ir izveidots, to var izmantot, lai pieteiktos kandidātu interesējošiem darbiem. Profili arī palīdz programmai Attract ieteikt kandidātiem piemērotus darbus.
 
->   [!NOTE]
->   Ja kandidāts izmanto e-pasta ID, lai pierakstītos, lietojot kādu no iepriekš minētajiem autentifikācijas nodrošinātājiem, minētais e-pasta ID tiks atiestatīts uz kontaktpersonas e-pasta ID, kas saistīts ar attiecīgo profilu. Tomēr kontaktpersonas e-pasta ID var mainīt jebkurā laikā, un tas ir pilnīgi neatkarīgs no e-pasta ID. Programma Attract vienmēr izmantos kontaktpersonas e-pasta ID, kas tiks saistīts ar jūsu profilu, visiem e-pasta ziņojumiem.
+> [!NOTE]
+> Ja kandidāts izmanto e-pasta ID, lai pierakstītos, lietojot kādu no iepriekš minētajiem autentifikācijas nodrošinātājiem, minētais e-pasta ID tiks atiestatīts uz kontaktpersonas e-pasta ID, kas saistīts ar attiecīgo profilu. Tomēr kontaktpersonas e-pasta ID var mainīt jebkurā laikā, un tas ir pilnīgi neatkarīgs no e-pasta ID. Programma Attract vienmēr izmantos kontaktpersonas e-pasta ID, kas tiks saistīts ar jūsu profilu, visiem e-pasta ziņojumiem.
 
 ## <a name="find-the-right-job"></a>Piemērota darba atrašana
 
@@ -97,13 +99,38 @@ Darbu saraksta lapā kandidāti var meklēt konkrētu darbu, ievadot meklējamos
 
 Kandidāti var apskatīt arī ieteikto darbu kopu karjeras vietnē. Kandidātam ieteiktie darbi balstās uz kandidāta iepriekšējiem pieteikumiem, profilu un CV.
 
->   [!NOTE] 
->   Darba ieteikumi tiek rādīti tikai tad, ja karjeras vietnē ir publicēti vismaz 10 darbi un ja kandidāts ir aizpildījis savu profilu.
+> [!NOTE] 
+> Darba ieteikumi tiek rādīti tikai tad, ja karjeras vietnē ir publicēti vismaz 10 darbi un ja kandidāts ir aizpildījis savu profilu.
+
+Iekšējie kandidāti var arī redzēt, kurš ir katra darba par pieņemšanu darbā atbildīgais vadītājs un/vai personāla atlases darbinieks, ja viņi vēlas sazināties ar šiem darbā pieņemšanas grupas dalībniekiem. Tomēr ārējie kandidāti nevienam darbam nevar skatīt darbā pieņemšanas grupu.
+
+## <a name="contact-the-hiring-team"></a>Sazināties ar darbā pieņemšanas grupu
+Tikai iekšējie kandidāti var sazināties ar darbā pieņemšanas grupu. Šis ierobežojums attiecas uz visiem darbiem neatkarīgi no tā, vai tie ir tikai iekšēji vai izlikti publiskai apskatei.
+
+Kandidāti var vēlēties sazināties ar darbā pieņemšanas grupu, lai paustu interesi par publiskoto darbu vai uzzinātu par to vairāk. Viņi var sazināties ar jebkuru darbā pieņemšanas grupas dalībnieku, kurš ir uzskaitīts (par pieņemšanu darbā atbildīgais vadītājs vai personāla atlases darbinieki). Viņi pēc izvēles var arī pievienot ziņojumam CV vai atlasīt esošu CV, kuru viņi iepriekš augšupielādējuši kā daļu no sava profila.
+
+Pēc tam, kad iekšējais kandidāts atlasa darbā pieņemšanas grupas dalībniekus, ar kuriem sazināties, Attract nosūta e-pasta ziņojumu šīm personām kandidāta vārdā. Vienlaikus kandidāta profils tiek pievienots posmam **Potenciālais klients**, ja šis posms darbam ir pieejams. Posmā **Potenciālais klients** personāla atlases darbinieki vai par darbā pieņemšanu atbildīgie vadītāji var skatīt kandidātus, kuri ir sazinājušies ar viņiem. Viņi var arī pārskatīt kandidātu profilus un aicināt potenciālos kandidātus pieteikties.
+
+Kandidāti var pieteikties darbam, par kuru viņi jau ir sazinājušies ar darbā pieņemšanas grupas dalībniekiem. Pēc pieteikšanās kandidāti vairs nevar sazināties ar darbā pieņemšanas grupu, izmantojot karjeras vietni.
 
 ## <a name="apply-for-jobs"></a>Pieteikšanās darbiem
 
-Pēc tam, kad kandidāti ir atraduši piemērotu darbu, viņi var pieteikties, izmantojot pogu **Pieteikties** lapā **Darba informācija**. Šajā brīdī kandidāti var izveidot jaunu profilu vai pārskatīt informāciju savā esošajā profilā.
+Pēc tam, kad kandidāti ir atraduši piemērotu darbu, viņi var pieteikties, izmantojot pogu **Pieteikties** lapā **Darba informācija**. Šajā brīdī kandidāti var izveidot jaunu profilu vai pārskatīt informāciju savā esošajā profilā.
 Ja nepieciešams, kandidāti var arī augšupielādēt CV un pēc tam iesniegt darba pieteikumu.
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Pieteikšanās iespējošana darbiem, izmantojot LinkedIn profilus
+
+Varat atvieglo kandidātiem pieteikšanos jūsu amatiem, konfigurējot Attract tā, lai viņi varētu pieteikties, izmantojot LinkedIn.
+
+> [!NOTE] 
+> Jums nepieciešama viena vai vairākas personāla atlases darbinieka licences no LinkedIn, pirms varat atļaut kandidātiem pieteikties, izmantojot LinkedIn.
+
+1. Piesakieties pakalpojumā Attract kā administrators.
+2. Atlasiet pogu **Iestatījumi** (zobrata simbols) lapas labās puses augšējā stūrī un pēc tam atlasiet **Administrēšanas centrs**.
+3. Atlasiet cilni **LinkedIn integrācija** un izveidojiet savienojumu ar LinkedIn personāla atlases darbinieka kontu.
+4. Sadaļā **LinkedIn Recruiter System Connect integrācija** iestatījumam **Pieteikties, izmantojot LinkedIn** atlasiet opciju **Iespējots**.
+
+Pēc tam, kad iestatījums ir iespējots, kandidāti var pieteikties, izmantojot viņu esošā LinkedIn profila datus. Ja kandidāti piesakās, izvēloties pogu **Pieteikties, izmantojot LinkedIn**, viņi tiek aicināti autentificēties ar LinkedIn, ja viņi vēl nav pieteikusies. Pēc tam, kad viņi ir autentificēti, viņu LinkedIn profils aizstāj visus esošos profila datus, kas redzami pieteikuma lapā. Kandidāti var rediģēt informāciju pēc nepieciešamības un pēc tam iesniegt pieteikumu. Ja kandidāts pāriet prom no lapas, nepiesakoties darbam, viņa profila dati netiek atjaunināti programmā Attract.
 
 ## <a name="check-application-status"></a>Pieteikuma statusa pārbaude
 

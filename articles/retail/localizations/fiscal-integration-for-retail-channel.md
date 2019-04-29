@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773281"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950408"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Apskats par mazumtirdzniecības kanālu finanšu integrāciju
 
@@ -81,12 +81,37 @@ Finanšu integrācijas struktūra nodrošina tālāk norādītās opcijas kļūm
 
 Izmantojot opcijas **Izlaist** un **Atzīmēt kā reģistrētu**, tiek iespējoti informācijas kodi, lai reģistrētu noteiktu informāciju par kļūmi, piemēram, kļūmes iemeslu vai pamatojumu finanšu reģistrācijai vai transakcijas reģistrācijas atzīmēšanai. Papildinformāciju par to, kā iestatīt kļūdu apstrādes parametrus, skatiet rakstā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Neobligāta finanšu reģistrācija
+
+Finanšu reģistrācija var būt obligāta dažām operācijām, bet neobligāta citām. Piemēram, regulāras pārdošanas un atgriešanas finanšu reģistrācija var būt obligāta, bet ar klienta iemaksām saistītu operāciju finanšu reģistrācija var būt neobligāta. Šajā gadījumā finanšu reģistrācijas neveikšana pārdošanas darījumam bloķē turpmāku pārdošanu, bet finanšu reģistrācijas neveikšana attiecībā uz klienta iemaksu nebloķē turpmāku pārdošanu. Lai nodalītu obligātas un neobligātas operācijas, ieteicams tās apstrādāt, izmantojot dažādus dokumentu nodrošinātājus un iestatīt atsevišķus soļus finanšu reģistrācijas procesā šiem nodrošinātājiem. Parametram **Kļūdas gadījumā turpināt** ir jābūt iespējotam visiem soļiem, kas saistīti ar papildu finanšu reģistrāciju. Papildinformāciju par to, kā iestatīt kļūdu apstrādes parametrus, skatiet rakstā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Manuāla finanšu reģistrācijas izpilde
+
+Ja darījuma vai notikuma finanšu reģistrācija ir atlikta pēc kļūmes (piemēram, ja operators atlasīja **Atcelt** kļūdu apstrādes dialoglodziņā), varat manuāli atkārtoti izpildīt finanšu reģistrāciju, izsaucot atbilstošu operāciju. Papildinformāciju skatiet tēmā [Atliktas finanšu reģistrācijas manuālas izpildes iespējošana](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Finanšu reģistrācijas darbspējas pārbaude
+
+Finanšu reģistrācijas darbspējas pārbaudes procedūra pārbauda finanšu ierīces vai pakalpojuma pieejamību noteiktu notikumu gadījumā. Ja pašlaik nevar izpildīt finanšu reģistrāciju, operators saņem iepriekšēju paziņojumu.
+
+POS veic darbspējas pārbaudi šādu notikumu gadījumā:
+
+- Tiek atvērts jauns darījums.
+- Tiek veikta aizturēta darījuma atsaukšana.
+- Tiek pabeigts pārdošanas vai atgriešanas darījums.
+
+Ja darbspējas pārbaude neizdodas, POS rāda darbspējas pārbaudes dialoglodziņu. Minētajā dialoglodziņā ir pieejamas šādas pogas:
+
+- **Labi** — šī poga ļauj operatoram ignorēt darbspējas pārbaudes kļūdu un turpināt, lai apstrādātu darījumu. Operatori var atlasīt šo pogu tikai tad, ja tiem ir iespējota atļauja **Atļaut izlaist darbspējas pārbaudes kļūdu**.
+- **Atcelt** — ja operators izvēlas šo pogu, POS atceļ pēdējo darbību (piemēram, krājums nav pievienots jaunam darījumam).
+
+> [!NOTE]
+> Darbspējas pārbaude tiek izpildīta tikai tad, ja pašreizējai operācijai obligāti jāveic finanšu reģistrācija un ja parametrs **Kļūdas gadījumā turpināt** ir atspējots pašreizējam finanšu reģistrācijas procesa solim. Plašāku informāciju skatiet tēmā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finanšu atbildes saglabāšana finanšu transakcijā
 
 Ja transakcijas vai notikuma finanšu reģistrācija ir veiksmīga, kanāla datu bāzē tiek izveidota finanšu transakcija, kas tiek saistīta ar sākotnējo transakciju vai notikumu. Līdzīgi gadījumā, ja neveiksmīgai finanšu reģistrācijai tiek atlasīta opcija **izlaist** vai **Atzīmēt kā reģistrētu**, šī informācija tiek saglabāta finanšu transakcijā. Finanšu transakcijā ir ietverta finanšu ierīces vai pakalpojuma finanšu atbilde. Ja finanšu reģistrācijas process sastāv no vairākām darbībām, katrai procesa darbībai, kuras rezultāts ir veiksmīga vai neveiksmīga reģistrācija, tiek izveidota finanšu transakcija.
 
-Finanšu transakcijas tiek pārsūtītas uz moduli Mazumtirdzniecība kopā ar mazumtirdzniecības transakcijām, izmantojot funkciju *P darbs*. Lapas **Mazumtirdzniecības veikala transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar mazumtirdzniecības transakcijām.
-
+Finanšu darījumi tiek pārsūtīti uz moduli Retail Headquarters kopā ar mazumtirdzniecības darījumiem, izmantojot funkciju *P darbs*. Lapas **Mazumtirdzniecības veikala transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar mazumtirdzniecības transakcijām.
 
 Finanšu transakcijā ir saglabāta tālāk norādītā detalizētā informācija.
 
@@ -109,12 +134,13 @@ Finanšu integrācijas funkcionalitāte atbalsta tādu dienas beigu pārskatu ģ
 
 Pašlaik kopā ar programmu Retail izlaistajā komplektā Retail SDK ir pieejami tālāk norādītie finanšu integrācijas paraugi.
 
-- [Fiskālā printera integrācijas paraugs izmantošanai Itālijā](emea-ita-fpi-sample.md)
-- [Fiskālā printera integrācijas paraugs izmantošanai Polijā](emea-pol-fpi-sample.md)
+- [Fiskālā printera integrācijas piemērs Itālijai](emea-ita-fpi-sample.md)
+- [Fiskālā printera integrācijas piemērs Polijai](emea-pol-fpi-sample.md)
+- [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai](emea-aut-fi-sample.md)
+- [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Čehijas Republikai](emea-cze-fi-sample.md)
 
 Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrācijas funkcionalitāte, taču pašlaik tai netiek izmantota finanšu integrācijas struktūra. Nākamajos atjauninājumos ir plānota šīs funkcionalitātes migrēšana uz finanšu integrācijas struktūru.
 
 - [Ciparparaksts izmantošanai Francijā](emea-fra-cash-registers.md)
 - [Ciparparaksts izmantošanai Norvēģijā](emea-nor-cash-registers.md)
 - [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](./retail-sdk-control-unit-sample.md)
-

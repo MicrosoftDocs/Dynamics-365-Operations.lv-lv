@@ -3,7 +3,7 @@ title: Maršruti un operācijas
 description: Šajā tēmā ir sniegta informācija par maršrutiem un operācijām.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333350"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850672"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -59,11 +59,10 @@ Ja sadaļā Ražošanas kontroles parametri iespējojat sarežģītākos maršru
 
 [![Maršruta tīkls](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Piezīmes.**
-
--   Katrai operācijai var būt tikai viena nākamā operācija, un visam maršrutam ir jābeidzas ar vienu operāciju.
--   Nevar garantēt, ka vairākas operācijas, kam ir viena un tā pati nākamā operācija (piemēram, 30. un 40. operācija iepriekš esošajā attēlā), tiešām tiks veiktas vienlaikus. Operāciju plānošanu var ierobežot resursu pieejamība un noslodze.
--   Kā operācijas numuru nevar norādīt skaitli 0 (nulle). Šis numurs ir rezervēts un tiek izmantots, lai norādītu, ka maršruta pēdējai operācijai nav nākamās operācijas.
+> [!NOTE]
+> -   Katrai operācijai var būt tikai viena nākamā operācija, un visam maršrutam ir jābeidzas ar vienu operāciju.
+> -   Tādējādi nevar garantēt, ka vairākas operācijas, kam ir viena un tā pati nākamā operācija (piemēram, 30. un 40. operācija iepriekšējā attēlā), tiešām tiks veiktas paralēli. Operāciju plānošanu var ierobežot resursu pieejamība un noslodze.
+> -   Kā operācijas numuru nevar norādīt skaitli 0 (nulle). Šis numurs ir rezervēts un tiek izmantots, lai norādītu, ka maršruta pēdējai operācijai nav nākamās operācijas.
 
 ### <a name="parallel-operations"></a>Vienlaicīgās operācijas
 
@@ -122,7 +121,8 @@ Varat arī norādīt, ka operācijas saite ir raksturīga kādai vietai. Tādēj
 
 Operāciju saites nodrošina lielu pielāgojamību maršrutu definēšanas laikā. Turklāt noklusējuma rekvizītu definēšanas iespēja palīdz samazināt uzturamo pamatdatu apjomu. Taču šīs pielāgojamības dēļ jums ir jāņem vērā konteksts, kurā modificējat operācijas saiti.  
 
-**Piezīme.** Tā kā darbības rekvizīti ir ietverti operācijas saitēs, kas atbilst noteiktai operācijai noteiktā maršrutā, visiem vienas operācijas (piemēram, operācijas Montāža) gadījumiem ir vienādi iestatīšanas un izpildes laiki, resursu vajadzības un citi rekvizīti. Tāpēc, ja vienā maršrutā ir nepieciešami divi operācijas gadījumi ar atšķirīgiem izpildes laikiem, ir jāizveido divas atsevišķas operācijas, piemēram, 1. montāža un 2. montāža.
+> [!NOTE]
+> Tā kā darbības rekvizīti katrai operācijai katrā maršrutā tiek glabāti operācijas relācijās, visiem vienas operācijas (piemēram, operācijas Montāža) gadījumiem ir vienādi iestatīšanas un izpildes laiki un resursu vajadzības. Tāpēc, ja vienā maršrutā ir nepieciešami divi operācijas gadījumi ar atšķirīgiem izpildes laikiem, ir jāizveido divas atsevišķas operācijas, piemēram, 1. montāža un 2. montāža.
 
 ### <a name="modifying-product-specific-routes"></a>Precei raksturīgo maršrutu modificēšana
 
@@ -132,7 +132,8 @@ Lapā **Maršruts** varat modificēt operācijas darbības rekvizītus, piemēra
 
 Varat arī manuāli izveidot maršrutam un izlaistajai precei raksturīgu operāciju, izmantojot funkciju **Kopēt un rediģēt relāciju**.  
 
-**Piezīme.** Ja pievienojat maršrutam jaunu operāciju lapā **Maršruts**, operācijas saite tiek izveidota tikai pašreizējai izlaistajai precei. Tāpēc, ja maršruts tiek izmantots arī citu izlaisto preču ražošanai, netiek izveidota šīm izlaistajām precēm paredzēta operācijas saite un maršrutu vairs nevar izmantot šo izlaisto preču ražošanai.
+> [!NOTE]
+> Ja maršrutam pievienojat jaunu operāciju lapā **Maršruts**, operācijas relācija tiek izveidota tikai pašreizējai izlaistajai precei. Tāpēc, ja maršruts tiek izmantots arī citu izlaisto preču ražošanai, netiek izveidota šīm izlaistajām precēm paredzēta operācijas saite un maršrutu vairs nevar izmantot šo izlaisto preču ražošanai.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Maršrutam raksturīgo operāciju saišu uzturēšana
 
@@ -228,17 +229,32 @@ Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai r
 -   **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
 -   **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 
+### <a name="set-up-route-groups"></a>Iestatīt maršrutu grupas
 
-<a name="additional-resources"></a>Papildu resursi
---------
+Maršrutu grupas varat definēt un to maršrutu vai darbu tipu varat iestatīt sadaļā **Ražošanas kontrole > Iestatīšana > Maršruti > Maršrutu grupas**. Katram maršruta/darba tipam maršrutu grupā varat atlasīt vai notīrīt tālāk aprakstītās opcijas.
 
-[Materiālu komplekti un formulas](bill-of-material-bom.md)
+- **Aktivizēšana** — atlasiet šo opciju, lai atlasītajam darba tipam iespējotu aprēķinus un plānošanu un lai saņemtu atsauksmes par darbu, kad tiek veikta darbu plānošana. Šī opcija ir jāatlasa, lai iespējotu darba tipu, un pēc tam ir jāatlasa pārējās opcijas šim darba tipam. Ja aktivizācija nav atlasīta, darba tips netiek iespējots neatkarīgi no pārējo opciju atlases. 
+- **Darbu vadība** — atlasiet šo opciju, lai šo darba tipu iekļautu darbu pārvaldībā, kad tiek veikta darbu plānošana. 
+- **Darba laiks** — atlasiet šo opciju, lai darba tipu plānotu saskaņā ar darba laika kalendāru, kas definēts operācijas resursiem, citādi tiek lietots gregoriāņu kalendārs. Darba laiku var plānot vai nu saskaņā ar gregoriāņu kalendāru, vai ar definēto darba laika kalendāru. Ja tiek atlasīta šī opcija, plānošana balstās uz definēto darba laika kalendāru. Turklāt darba tipa darbs tiek plānots no pusnakts tajā datumā, kas ir definēts kā darba sākuma datums.
+- **Noslodze** — atlasiet šo opciju, lai rezervētu noslodzi darba tipam, kad tiek veikta darbu plānošana. Ja atlasāt šo opciju, noslodze tiek rezervēta, kad atlasītajam darba tipam tiek veikta darbu plānošana. Tas sniedz pārskatu par to, kuri darba tipi katrā maršrutu grupā izmanto operācijas resursus. Piemēram, gadījumā, kad žāvēšanas resursi ir deficīta resursi, šie resursi ir jānorāda kā deficīti. Žāvēšanas operācijas, kas ir piešķirtas gaidīšanas laika darba tipiem, rezervēs žāvēšanas resursus. 
 
-[Ražošanas maršrutēšanā izmantotās izmaksu kategorijas](../cost-management/cost-categories-used-production-routings.md)
+Katram darba tipam jums tas vispirms ir jāaktivizē vai jādeaktivizē. Ja deaktivizēts, netiks ņemts vērā neviens no citiem iestatījumiem (darbu vadība, darba laiks un noslodze), jo šis darba tips nav aktīvs. 
 
-[Resursu iespējas](resource-capabilities.md)
+Darba tipu klāstā ir atrodama Pārklāšanās. Pārklāšanās ļauj vienlaikus veikt dažādus darbus. Ka darbi pārklājas, resursus var izmantot, bet tos nevar rezervēt noteiktiem darbiem.
+Tādēļ, ja iestatījumam Pārklāšanās ir atlasīta opcija Aktivizēšana, pārējiem iestatījumiem (darbu vadībai, darba laikam un noslodzei) šajā maršrutu grupā nav nekādas ietekmes. 
 
-[Elektronisko parakstu apskats](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Kad jaunināt versijas, var rasties šāda kļūda: **"Plānošanas programmas izsaukšanas laikā radās CLR kļūda"**. Ja rodas šāda kļūda, dodieties uz lapu **Maršrutu grupas** un visiem maršrutiem, kur ir aktivizēta opcija **Pārklāšanās**, notīriet opcijas **Darbu vadība**, **Darba laiks** un **Noslodze**. 
+
+## <a name="additional-resources"></a>Papildu resursi
+
+- [Materiālu komplekti un formulas](bill-of-material-bom.md)
+
+- [Ražošanas maršrutēšanā izmantotās izmaksu kategorijas](../cost-management/cost-categories-used-production-routings.md)
+
+- [Resursu iespējas](resource-capabilities.md)
+
+- [Elektronisko parakstu apskats](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

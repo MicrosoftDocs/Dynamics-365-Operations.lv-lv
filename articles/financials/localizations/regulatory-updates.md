@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 for Finance and Operations normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832105"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992840"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -28,12 +28,18 @@ ms.locfileid: "832105"
 
 Šajā tēmā ir sniegts to normatīvi atjauninājumu saraksts, ko ir plānots izlaist Microsoft Dynamics 365 for Finance and Operations atbalstītajās lokalizācijās. Piegādes termiņi var tikt mainīti, un plānotā funkcionalitāte var tikt mainīta vai netikt izlaista. Papildinformāciju lasiet [Microsoft politikā](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Normatīvie atjauninājumi atšķiras no normatīvajiem līdzekļiem. Lai iegūtu informāciju par plānotajiem vai izlaistajiem normatīvajiem līdzekļiem, skatiet tālāk norādītos resursus.
+Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Lai iegūtu informāciju par citiem plānotajiem un izlaistajiem līdzekļiem konkrētajai valstij, skatiet tālāk norādītos resursus.
 
-- [Piezīmes par Dynamics 365 un platformas Power laidieniem](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Jaunumi programmā Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
 
-Ja kolonnā Datuma ir norādīts mēnesis, normatīvo atjauninājumu ir plānots nodrošināt šī mēneša laikā. Piegādes datums var būt jebkura diena šajā mēnesī, nevis tikai pirmā mēneša diena.
+Microsoft cenšas ieviest jaunas normatīvās prasības iespējami drīz. Faktiskais nodrošināšanas datums ir atkarīgs no likuma izsludināšanas datuma, detalizētās informācijas par prasībām pieejamību no vietējām iestādēm, validācijas rīku pieejamības, kā arī no izmaiņu apjoma un sarežģītības. 
+
+Mēs plānojam nodrošināt normatīvos atjauninājumus kā vienas versijas pakalpojuma atjauninājumus, kas tiek izlaisti savlaicīgi, lai klienti var veikt atjauninājumus un sagatavoties uz izmaiņu spēkā stāšanās datumu (attiecas uz transakciju normatīvajiem atjauninājumiem) vai pirmajam obligātajam ziņošanas termiņam (attiecas uz normatīvajiem atjauninājumiem, kas saistīti ar atskaišu iesniegšanu). Klienti un partneri var priekšskatīt jaunot normatīvos atjauninājumus priekšskatījuma agrīnas pieņemšanas programmā (Preview Early Adoption Program, PEAP).
+
+Ja paziņojums tiek saņemts vēlu, pieprasījuma dati vai validācijas instrumentu pieejamība tiek novēlota vai izmaiņas ir īpaši apjomīgas un sarežģītas, iespējams, ka normatīvo atjauninājumu nevar sagatavot līdz ikmēneša atjauninājuma vispārējās pieejamības datumam. Šādos gadījumos normatīvais atjauninājums dažiem pieejamajiem ikmēneša atjauninājumiem tiek nosūtīts labojumfailu veidā.
+
+Lai iegūtu informāciju par jaunāko normatīvo atjauninājumu plānu, skatiet nākamo tabulu. 
 
 |Plānotais izlaides datums|Partijas versija|Valsts/reģions|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
@@ -47,7 +53,9 @@ Ja kolonnā Datuma ir norādīts mēnesis, normatīvo atjauninājumu ir plānots
 |      2019. aprīlis          |   10.0.1      |    Apvienotā Karaliste     |[PVN deklarācijas iesniegšanas izmaiņas (nodokļu digitalizācija)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. aprīlis          |   10.0.1      |    Brazīlija     |NF-e jauns NT 2018.005         |
 |      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada         |
-|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada (pārdošanas un pirkšanas grāmatu formāti)  |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada (pārdošanas un pirkšanas grāmatas) 
+|      2019. maijs            |   10.0.2      | Brazīlija      |   SPED ECD Layout 7   |
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 - Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pieteikties).

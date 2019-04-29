@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6586761fc62c13c701e8a8f61e15eedc66e2f751
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305333"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856811"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 17. septembris)
 
@@ -37,13 +37,13 @@ ms.locfileid: "305333"
 
 Atvaļinājuma plāniem ir pievienots jauns uzkrājuma veids. Faktisko uzkrājuma grafiku tagad var veidot pēc nodarbinātības mēnešu skaita vai nostrādātajām stundām. Sīkāku informāciju skatiet šeit: [Brīvais laiks pēc uzkrātajām nostrādātajām stundām](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Platformas update 18
+## <a name="platform-update-18"></a>Platform update 18
 
-Platformas atjauninājums 18 tagad ir iekļauts programmas Talent laidienā. 
+Atjauninājums Platform update 18 tagad ir iekļauts programmas Talent laidienā. 
 
 -   Obligātos un citus laukus var slēpt, izmantojot personalizēšanu. Tas ļauj lietotājiem iegūt vienkāršotu pieredzi, ja obligātie lauki, kuri saskaņā ar biznesa loģiku ir iestatīti pēc noklusējuma, netiek parādīti. Slēptie obligātie lauki īslaicīgi tiek parādīti, ja, veicot saglabāšanu, tie ir tukši.
 
--   Platformas atjauninājumā 18 Talent tīmekļa vietnes klients tagad savieto tās vizuālo informāciju, izmantojot Microsoft Fluent Design.
+-   Atjauninājumā Platform update 18 Talent tīmekļa vietnes klients tagad savieto tās vizuālo informāciju, izmantojot Microsoft Fluent Design.
 
     -   Ja lauki ir atvērti “lasāmā režīmā”, laukos var vienkārši atlasīt rediģēšanas opciju, lai pārslēgtu veidlapu rediģēšanai.
 

@@ -1,30 +1,30 @@
 ---
 title: Darbu izveide, apstiprināšana un publicēšana programmā Attract
 description: Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772815"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969353"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Darbu izveide, apstiprināšana un publicēšana programmā Attract
 
@@ -44,7 +44,7 @@ Cilnē **Darba informācija** ir iekļauta informācija par darba pienākumiem u
 
 Pēc noklusējuma laukā **Vakanču skaits** ir iestatīta vērtība **1**. Tomēr vērtību var mainīt. Kad darbam ir sagatavots piedāvājums, vērtība laukā **Pieejamo vakanču skaits** tiek samazināta.
 
-Ja administrēšanas centrā ir ieslēgta amatu pārvaldība, ir pieejama meklēšana **Atjaunināt amatus**. Veicot šo meklēšanu, tiek nolasīts elements JobPosition pakalpojumā Common Data Service programmām un tiek atgriezts amatu saraksts, kurus var atlasīt attiecīgajam darbam. Ja atlasīto amatu skaits pārsniedz atvērto amatu skaitu, saņemsit brīdinājumu. Brīdinājumu arī saņemsit gadījumā, ja amats tiek izmantots vairākos darbos.
+Ja administrēšanas centrā ir ieslēgta amatu pārvaldība, ir pieejama meklēšana **Atjaunināt amatus**. Veicot šo meklēšanu, tiek nolasīts elements JobPosition pakalpojumā Common Data Service un tiek atgriezts amatu saraksts, kurus var atlasīt attiecīgajam darbam. Ja atlasīto amatu skaits pārsniedz atvērto amatu skaitu, saņemsit brīdinājumu. Brīdinājumu arī saņemsit gadījumā, ja amats tiek izmantots vairākos darbos.
 
 > [!NOTE]
 > Amatu pārvaldība ir pieejama tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums.
@@ -74,9 +74,7 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 ## <a name="postings"></a>Grāmatojumi
 
-Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsof Dynamics 365 for Talent karjeras vietne) vai LinkedIn. 
-
-Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies.
+Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsof Dynamics 365 for Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies. Kad darbs tiek publicēts kā tikai iekšējs, kandidātiem ir nepieciešams AAD konts, lai skatītu darbu un pieteiktos tam. Ja darbs ir publicēts kā publisks, kandidāti var skatīt darbus un pieteikties tiem, izmantojot visas autentifikācijas iespējas. 
 
 Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes funkcionalitāte programmā Attract](career-site.md).
 
@@ -95,7 +93,7 @@ Lai atjauninātu LinkedIn uzņēmumu, atlasiet vienumu **Administrēšanas cent
 > Ir četras svarīgas lietas, kas jāņem vērā par darbu publicēšanu pakalpojumā LinkedIn.
 > 1. Pakalpojumā LinkedIn publicētie darbi tiek publicēti kā darbi ar statusu “Limited Listings” (Ierobežoti saraksti). Ierobežotu sarakstu darbus nevar piedāvāt ārpus vietnes LinkedIn. Ja vēlaties reklamēt ierobežotu sarakstu darbus, kas publicēti pakalpojumā LinkedIn no programmas Attract, jums jāpielāgo LinkedIn tā, lai varētu izmantot opciju “Job Wrapping”. Lai iegūtu papildinformāciju, lūdzu, skatiet tālāk noradītās saites un sazinieties ar LinkedIn atbalsta dienestu.
 >
->    [Limited Listings vs Premium Job Slots for Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>    [Limited Listings vs Premium Job Slots for Job Wrapping (Ierobežoti saraksti salīdzinājumā ar darbu Premium vietām opcijā “Job Wrapping”)](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
 >
 >    [Job Wrapping FAQ](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
 >
@@ -137,16 +135,21 @@ Pēc tam, kad darbs ir saglabāts, to var iesniegt apstiprināšanai. Šajā tab
 
 Darbu sarakstā var filtrēt darba statusus.
 
-Apstiprinājumus var nosūtīt jebkuram Microsoft Azure Active Directory (Azure AD) lietotājam uzņēmumā. Apstiprinājumi tiek sūtīti paralēli visiem cilvēkiem, kas ir norādīti kā apstiprinātāji. Pēc tam, kad darbs ir apstiprināts, to var aktivizēt.
+Apstiprinājumus var nosūtīt jebkuram Microsoft Azure Active Directory (Azure AD) lietotājam uzņēmumā. Apstiprinājumi tiek sūtīti paralēli visiem cilvēkiem, kas ir norādīti kā apstiprinātāji. Visiem apstiprinātājiem ir jāapstiprina darbs, pirms to var pārvietot uz priekšu. Ja viens apstiprinātājs noraida darbu, darbam tiek rādīts statuss **Noraidīts**. Pēc tam, kad darbs ir apstiprināts, to var aktivizēt.
 
-Cilvēki, kas ir norādīti kā apstiprinātāji, saņems paziņojumu programmā Attract, lai informētu tos, ka tiem ir jāapstiprina vienums. Apstiprinājuma vienums tiks parādīts arī informācijas paneļa sadaļā **Piešķirts jums**. Pēc tam, kad kāds pieņem vai apstiprina darbu, darbā pieņemšanas grupa saņems paziņojumu. Visbeidzot, darbā pieņemšanas grupa saņems paziņojumu, kad darbs tiek apstiprināts.
+Ja lietotājs rediģē darbu pēc tam, kad tas ir apstiprināts, bet nav aktivizēts, darba statuss tiks atiestatīts uz **Melnraksts**, un darbs ir atkārtoti jāiesniedz apstiprināšanai. Pēc apstiprināta darba aktivizēšanas to nevar rediģēt.
+
+Cilvēki, kas ir norādīti kā apstiprinātāji, saņems paziņojumu programmā Attract un e-pasta ziņojumu, lai informētu tos, ka tiem ir jāapstiprina vienums.  E-pasta ziņojumā apstiprinātāji var noklikšķināt uz saites, lai atvērtu darbu, pārskatītu detalizētu informāciju un apstiprinātu vai noraidītu. Pēc tam, kad darba statuss tiek iestatīts kā **Apstiprināts** vai **Noraidīts**, iesniedzējs tiek informēts programmā Attract, un viņam tiek nosūtīts e-pasta ziņojums. Turklāt apstiprinātāji saņem atgādinājuma e-pasta ziņojumu, ja viņi nav reaģējuši uz apstiprinājuma pieprasījumu 24 stundu laikā.
+
+> [!NOTE]
+> Varat izveidot pielāgotas e-pasta veidnes apstiprinājuma e-pasta ziņojumiem. Plašāku informāciju skatiet rakstā [E-pasta veidņu izveide un pārvaldība](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Darba izveide
 
 Lai izveidotu darbu, veiciet šādas darbības.
 
 1. Atveriet sadaļu **Darbi**.
-2. Atlasiet **Jauna**.
+2. Atlasiet **Jauns**.
 3. Laukā **Amata nosaukums** ievadiet amata nosaukumu. Laukā **Loma** ievadiet lomu.
 4. Laukā **Veidne** atlasiet veidni. Varat arī atlasīt vienumu **Izlaist**. Atlasot **Izlaist**, tiek izmantota veidne, kas atzīmēta kā noklusējuma veidne.
 

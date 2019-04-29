@@ -3,7 +3,7 @@ title: PVN maksājumi un noapaļošanas kārtulas
 description: Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 05/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: vstehman
+ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03336c834e74cd12d039c7b9692874843811746
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1e1c1bb1c792eb79888a1df209f2eebaf14a38dd
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367850"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842442"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVN maksājumi un noapaļošanas kārtulas
 
@@ -37,7 +37,7 @@ Noapaļošanas starpība tiek grāmatota PVN noapaļošanas kontā, kas ir atlas
 
 Tālāk sniegtajā piemērā ir attēlots, kā darbojas noapaļošanas kārtula nodokļu iestādei.
 
-### <a name="example"></a>Piemērs:
+## <a name="examples"></a>Piemēri
 
 Kopējā PVN summa par periodu atbilst kredīta bilancei –98 765,43. Juridiskā persona ir saņēmusi lielāku PVN summu, nekā tā ir samaksājusi. Tāpēc juridiskā persona ir parādā nodokļu iestādei. 
 
@@ -57,7 +57,68 @@ Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, iz
 | Uz zemāku                            | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
 | Noapaļošana                         | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
 | Pašu priekšrocība kredīta bilancei | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Pašu priekšrocība debeta bilancei  | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
+| Pašu priekšrocība debeta bilancei  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+
+
+### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Noapaļošana netiek veikta, jo noapaļošanai ir 0,00
+
+noapaļošana (1,0151, 0,00) = 1,0151 noapaļošana (1,0149, 0,0) = 1,0149
+
+### <a name="normal-round-and-round-precision-is-001"></a>Normāla noapaļošana, un noapaļošanas precizitāte ir 0,01
+
+<table>
+  <tr>
+    <td>Noapaļošana
+    </td>
+    <td>Aprēķina process
+    </td>
+  </tr>
+    <tr>
+    <td>noapaļošana (1,015, 0,01) = 1,02
+    </td>
+    <td>
+      <ol>
+        <li>noapaļošana (1,015 / 0,01, 0) = noapaļošana (101,5, 0) = 102
+        </li>
+        <li>102 * 0,01 = 1,02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>noapaļošana (1,014, 0,01) = 1,01
+    </td>
+    <td> <ol>
+        <li>noapaļošana (1,014 / 0,01, 0) = noapaļošana (101,4, 0) = 101
+        </li>
+        <li>101 * 0,01 = 1,01
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>noapaļošana (1,011, 0,02) = 1,02
+    </td>
+    <td> <ol>
+        <li>noapaļošana (1,011 / 0,02, 0) = noapaļošana (50,55, 0) = 51
+        </li>
+        <li>51 * 0,02 = 1,02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>noapaļošana (1,009, 0,02) = 1,00
+    </td>
+    <td> <ol>
+        <li>noapaļošana (1,009 / 0,02, 0) = noapaļošana (50,45, 0) = 50
+        </li>
+        <li>50 * 0,02 = 1,00
+        </li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
 > [!NOTE]                                                                                  
 > Ja atlasāt opciju Pašu priekšrocība, noapaļošana vienmēr tiek veikta atbilstoši juridiskās personas interesēm. 
@@ -66,6 +127,7 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 - [PVN apskats](indirect-taxes-overview.md)
 - [PVN maksājuma izveide](tasks/create-sales-tax-payment.md)
 - [Izveidot PVN transakcijas dokumentos](tasks/create-sales-tax-transactions-documents.md)
-- [Grāmatoto PVN darījumu skatīšana](tasks/view-posted-sales-tax-transactions.md)
+- [Grāmatoto PVN transakciju skatīšana](tasks/view-posted-sales-tax-transactions.md)
+- [noapaļošanas funkcija](https://msdn.microsoft.com/en-us/library/aa850656.aspx)
 
 

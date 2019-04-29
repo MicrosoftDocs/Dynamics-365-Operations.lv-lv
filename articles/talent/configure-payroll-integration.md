@@ -1,26 +1,26 @@
 ---
 title: Algu aprēķina integrācijas konfigurēšana pakalpojumos Talent un Dayforce
 description: Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 for Talent un Ceridian Dayforce integrāciju, lai varētu apstrādāt maksājuma izpildi.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305289"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898448"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Talent un Dayforce algu aprēķina integrācijas konfigurēšana
 
@@ -357,6 +357,9 @@ Ja ģenerējat algas darbiniekiem Amerikas Savienotajās Valstīs un Kanādā, i
 
 - Amatiem ir jānorāda nodaļas.
 - Izmaksu centri ir jāiestata kā finanšu dimensijas, un tiem ir jābūt pirmajiem elementiem noklusējuma finanšu dimensijas virknē.
+
+> [!NOTE] 
+> Varat konfigurēt Talent, lai amatiem būtu jānorāda nodaļa. Lai to izdarītu, pārejiet uz **Personāla vadības kopīgotie amati > Amati > Pieprasīt amatiem nodaļas**. Ieteicams piemērot šo iestatījumu integrācijai.
 
 ### <a name="job-types"></a>Darba tipi
 

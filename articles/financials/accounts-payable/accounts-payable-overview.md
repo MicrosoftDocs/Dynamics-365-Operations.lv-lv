@@ -1,7 +1,7 @@
 ---
 title: Kreditoru konfigurēšana
 description: Šajā rakstā ir aprakstītas lapas, kas tiek izmantotas, lai iestatītu moduļa Parādi kreditoriem pamata un papildu funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations. Tajā ir aprakstītas arī iestatīšanas darbības, kas ir jāizpilda, pirms sākat iestatīt moduli Parādi kreditoriem.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a832a30870f77578503bae6eea17ad1d0881d91
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bf3226060eddf01fb218e99cae4097fecfe56e25
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "326703"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896630"
 ---
 # <a name="configure-accounts-payable"></a>Kreditoru konfigurēšana
 

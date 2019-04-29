@@ -3,7 +3,7 @@ title: Finanšu pārskatu skatīšana
 description: Šajā tēmā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus programmā Microsoft Dynamics 365 for Finance and Operations. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791445"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894592"
 ---
 # <a name="view-financial-reports"></a>Finanšu pārskatu skatīšana
 
@@ -46,12 +46,11 @@ Finanšu pārskati var ietvert vairākus detalizācijas līmeņus. Finanšu līm
 Ja dati ir budžeta dati, varat atvērt budžeta konta ierakstus. Lai aizvērtu jebkuru pārskata līmeni un atgrieztos sākuma punktā, varat nospiediest taustiņu Esc vai augšējā labajā pusē noklikšķināt uz pogas **Aizvērt** (**X**).
 
 ## <a name="change-report-options"></a>Pārskata opciju maiņa
-Var mainīt pārskata datumu, lietot atribūtu un dimensiju filtrus vai mainīt budžeta scenāriju pārskatā **Faktiskās pret budžeta**. Darbību rūti noklikšķiniet uz **Pārskata opcijas** un pēc tam izpildiet vienu vai vairākas no tālāk minētajām darbībām.
+Varat lietot atribūtu un dimensiju filtrus vai mainīt budžeta scenāriju pārskatā **Faktiskās pret budžeta**. Darbību rūti noklikšķiniet uz **Pārskata opcijas** un pēc tam izpildiet vienu vai vairākas no tālāk minētajām darbībām.
 
--   Lai mainītu pārskata pamata periodu un gadu, atlasiet pamata periodu un pamata gadu un pēc tam noklikšķiniet uz **Labi**.
 -   Lai pārskatam lietotu atribūta filtrus, atlasiet **Pievienot atribūta filtru**. Atlasiet atribūtu, ierakstiet atribūta vērtību un tad noklikšķiniet uz **Labi**. Piemēram, atlasot atribūtu **Konta kategorija**, ievadiet **PĀRDOŠANA** kā atribūta vērtību. Lai noņemtu atribūtu filtru, noklikšķiniet uz **Notīrīt**.
 -   Lai pārskatam lietotu dimensiju filtrus, atlasiet **Pievienot dimensiju filtru**. Atlasiet dimensiju un pēc tam vai nu ierakstiet dimensijas ID, vai atlasiet dimensiju sarakstā. Lai noņemtu dimensiju filtru, noklikšķiniet uz **Notīrīt**.
--   Lai mainītu scenāriju pārskatā **Faktiskās pret budžeta**, atlasiet jaunu scenāriju un pēc tam noklikšķiniet uz **Labi**. Ja atlasītais scenārijs ir citam gadam, noteikti atjauniniet pamata gadu. Piemēram, ja pašreizējais scenārijs ir par FY2015 gadu, un jūs atlasījāt jaunu scenāriju FY2016 gadam, pamata gads ir jānomaina uz **2016**.
+-   Lai mainītu scenāriju pārskatā **Faktiskās pret budžeta**, atlasiet jaunu scenāriju un pēc tam noklikšķiniet uz **Labi**. Ja atlasītais scenārijs ir citam finanšu gadam, netiks atgriezti nekādi rezultāti. Piemēram, ja tiek ģenerēts pārskats gadam FY2015 un pašreizējais scenārijs ir paredzēts gadam FY2015, un ja jaunais scenārijs tiek atlasīts gadam FY2016, netiek atgriezti nekādi rezultāti. Ja ir nepieciešams jauns scenārijs citam finanšu gadam, ģenerējiet jaunu pārskata versiju ar attiecīgo scenāriju saistītajam finanšu gadam.
 
 Noklikšķinot uz **Labi**, pārskatā tiek lietotas visas atlasītās opcijas. Ja izlemjat, ka nevēlaties lietot atlasītās opcijas, noklikšķiniet uz **Atcelt**.
 

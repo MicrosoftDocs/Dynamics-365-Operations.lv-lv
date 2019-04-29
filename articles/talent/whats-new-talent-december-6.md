@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305386"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949947"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)
 
@@ -34,7 +34,7 @@ ms.locfileid: "305386"
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Core HR.
 
 
-## <a name="platform-update-22"></a>Platformas update 22
+## <a name="platform-update-22"></a>Platform update 22
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Eksportēt līdz pat 1 miljonam rindu uz programmu Excel
 
@@ -42,7 +42,7 @@ Līdzekli Eksportēt uz Excel tagad iespējams konfigurēt tā, lai ļautu lieto
 
 ### <a name="restyled-personalization-toolbar"></a>Pārveidota personalizēšanas rīkjosla
 
-Personalizēšanas rīkjosla ir pārveidota atjauninājumā Platform Update 22, lai palīdzētu lietotājiem vieglāk pielāgot programmas Talent izmantošanu. Tika veiktas tālāk norādītās izmaiņas. 
+Personalizēšanas rīkjosla ir pārveidota atjauninājumā Platform update 22, lai palīdzētu lietotājiem vieglāk pielāgot programmas Talent izmantošanu. Tika veiktas tālāk norādītās izmaiņas. 
 
 -  Tagad katra personalizēšanas rīka nosaukums tiek rādīts kopā ar ikonu, kas palīdz lietotājiem ātri atpazīt rīku, kuru tie vēlas izmantot.
 -  Tagad arī tiek rādīts apraksts, kā izmantot pašreizējā rīka aprakstu, kas palīdz lietotājiem saprast, kā veikt nepieciešamās personalizācijas.  
@@ -135,7 +135,7 @@ Uzdevumam No sadaļas Nodarbinātie uz sadaļu Darbs ir jāatjaunina šādi kart
 
 Ir jāatjaunina arī lauka Dzimums pārveidošana. Atlasiet **fn** (funkcijas) kartes veidu vienumam Dzimums un atjauniniet šādus vērtību kartējumus.
 
-| CDS vērtība   | Finance and Operations vērtība | | ------------|------------------ -----------| | 75440000    | Vīrietis                         | | 75440001    | Sieviete                       | | 75440002    | Neviens                         | | 75440003    | Nenoteikts                  |
+| Common Data Service vērtība   | Finance and Operations vērtība | | ------------|------------------ -----------| | 75440000    | Vīrietis                         | | 75440001    | Sieviete                       | | 75440002    | Nav                         | | 75440003    | Nenoteikts                  |
 
 Atjauninātajiem kartējumiem jāizskatās šādi.
 

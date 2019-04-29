@@ -1,7 +1,7 @@
 ---
 title: Drošības un lomu pārvaldība programmā Attract
 description: Šajā tēmā ir sniegta informācija par lomu drošību programmā Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789701"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993695"
 ---
 # <a name="security-and-role-management-in-attract"></a>Drošības un lomu pārvaldība pakalpojumā Attract
 
@@ -70,6 +70,16 @@ Kā intervētāju darbā pieņemšanas grupai var pievienot jebkuru lietotāju, 
 
 Lietotājiem, kas ir piešķirti lomai “Tikai lasāms”, ir tikai lasīšanas piekļuve visiem datiem Attract vidē. Taču šie lietotāji nevar izveidot vai rediģēt nekādus datus.
 
+## <a name="find-out-which-roles-you-have"></a>Savu lomu noskaidrošana
+
+1.  Programmā Attract noklikšķiniet uz jautājuma zīmes (**?**) lapas augšējā labajā stūrī.
+
+2.  Noklikšķiniet uz **Par**.
+
+    Parādītajā logā tiek rādīts, kuras lomas jums ir programmā Attract.
+
+    ![Attract licences tipa skatīšana](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Deleģētās lomas
 
 Katram darbam, saistībā ar kuriem lietotāji ir ietverti darbā pieņemšanas grupā, personāla atlases darbinieki un par pieņemšanu darbā atbildīgie vadītāji var deleģēt vienu vai vairākus savus delegātus. Taču viņi nevar norādīt delegātus citām personām attiecīgajā darbā pieņemšanas grupā.

@@ -3,7 +3,7 @@ title: Deleģēt darba vienumus darbplūsmā
 description: Ja plānojat kādu laiku neatrasties birojā vai citu iemeslu dēļ nespēt reaģēt uz darba vienumiem, tad darba vienumus varat deleģēt vai mainīt to piešķiri pret citiem lietotājiem.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346253"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976785"
 ---
-# <a name="delegate-work-items-in-a-workflow"></a>Deleģēt darba vienumus darbplūsmā
+# <a name="delegate-work-items-in-a-workflow"></a>Darba vienumu deleģēšana darbplūsmā
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ja plānojat kādu laiku neatrasties birojā vai citu iemeslu dēļ nespēt reaģēt uz darba vienumiem, tad darba vienumus varat deleģēt vai mainīt to piešķiri pret citiem lietotājiem. Šī procedūra jums palīdz konfigurēt sistēmu, lai savus darba vienumus automātiski deleģētu citam lietotājam.
+## <a name="manually-delegate-a-work-item"></a>Manuāla darba vienības deleģēšana
 
+Lai deleģētu atsevišķu darba vienību, atlasiet opciju **Deleģēt** izvēlnē **Darbplūsma** un pēc tam ievadiet deleģējamo lietotāju kopā ar komentāru. Tādējādi darba vienība tiek atkārtoti piešķirta konkrētajam lietotājam, lai šis lietotājs varētu to pabeigt.
 
+## <a name="automatically-delegate-work-items"></a>Automātiska darba vienību deleģēšana
 
-Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Ja plānojat atrasties ārpus biroja vai noteiktu laika periodu nevarēsiet rīkoties ar darba vienībām citu iemeslu dēļ, varat automātiski deleģēt jaunas darba vienības citiem lietotājiem, izmantojot lapu **Lietotāja opcijas**.
 
-
-## <a name="set-up-automatic-delegation"></a>Iestatīt automātisku deleģēšanu
+### <a name="set-up-automatic-delegation"></a>Iestatīt automātisku deleģēšanu
 1. Dodieties uz Vispārīgi > Iestatīšana > Lietotāja opcijas.
 2. Noklikšķiniet uz cilnes Darbplūsma.
     * Pārliecinieties, ka sadaļa Deleģēšana ir izvērsta.    Lai sistēmu konfigurētu automātiskai jūsu darba vienumu deleģēšanai citiem lietotājiem, ir jāizveido deleģēšanas kārtulas, kuras norāda, kad tiek deleģēti noteikta tipa darba vienumi. Lai izveidotu deleģēšanas kārtulu, izpildiet tālāk aprakstītās darbības.  
