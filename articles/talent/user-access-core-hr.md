@@ -1,7 +1,7 @@
 ---
 title: Lietot. piekļūst Core HR, bet ne progr. Onboard/Attract
 description: Šajā tēmā paskaidrots, kā atrisināt problēmu, kad lietotājs var piekļūt Microsoft Dynamics 365 for Talent Core HR, bet nevar piekļūt programmai Attract vai Onboard.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,40 +9,40 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 2e5d0b1bf993aec89c7d2c6d4916732f5824310d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ece6a81c54ef1421284fc79ab82ed3e31a972255
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305352"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "855660"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a><span data-ttu-id="a2f09-103">Lietotājs var piekļūt Core HR, bet nevar piekļūt programmai Onboard vai Attract</span><span class="sxs-lookup"><span data-stu-id="a2f09-103">User can access Core HR but not the Onboard or Attract app</span></span>
+# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a><span data-ttu-id="7f51e-103">Lietotājs var piekļūt Core HR, bet nevar piekļūt programmai Onboard vai Attract</span><span class="sxs-lookup"><span data-stu-id="7f51e-103">User can access Core HR but not the Onboard or Attract app</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a2f09-104">**Informācija par vidi**</span><span class="sxs-lookup"><span data-stu-id="a2f09-104">**Environment details**</span></span>
+<span data-ttu-id="7f51e-104">**Informācija par vidi**</span><span class="sxs-lookup"><span data-stu-id="7f51e-104">**Environment details**</span></span>
 
-- <span data-ttu-id="a2f09-105">Microsoft Dynamics Lifecycle Services (LCS) izvietošanu veica lietotājs A.</span><span class="sxs-lookup"><span data-stu-id="a2f09-105">The Microsoft Dynamics Lifecycle Services (LCS) deployment was done by user A.</span></span>
-- <span data-ttu-id="a2f09-106">Lietotājs A pievienoja lietotāju B kā Microsoft Dynamics 365 for Talent Core HR lietotāju.</span><span class="sxs-lookup"><span data-stu-id="a2f09-106">User A added user B as a user to Microsoft Dynamics 365 for Talent Core HR.</span></span>
+- <span data-ttu-id="7f51e-105">Microsoft Dynamics Lifecycle Services (LCS) izvietošanu veica lietotājs A.</span><span class="sxs-lookup"><span data-stu-id="7f51e-105">The Microsoft Dynamics Lifecycle Services (LCS) deployment was done by user A.</span></span>
+- <span data-ttu-id="7f51e-106">Lietotājs A pievienoja lietotāju B kā Microsoft Dynamics 365 for Talent Core HR lietotāju.</span><span class="sxs-lookup"><span data-stu-id="7f51e-106">User A added user B as a user to Microsoft Dynamics 365 for Talent Core HR.</span></span>
 
-<span data-ttu-id="a2f09-107">**Izejas plūsma**</span><span class="sxs-lookup"><span data-stu-id="a2f09-107">**Issue**</span></span>
+<span data-ttu-id="7f51e-107">**Problēma**</span><span class="sxs-lookup"><span data-stu-id="7f51e-107">**Issue**</span></span>
 
-<span data-ttu-id="a2f09-108">Lietot. B var piekļūt Core HR, bet nevar piekļūt Talent: Attract vai Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="a2f09-108">User B can access Core HR, but can't access the Talent: Attract or Talent: Onboard app.</span></span> <span data-ttu-id="a2f09-109">Kad lietotājs mēģina doties uz **Programmu izmantošana**, tā vietā tiek atvērta izmēģinājuma vide.</span><span class="sxs-lookup"><span data-stu-id="a2f09-109">When the user tries to go to **Experience apps**, he or she is taken to a trial environment instead.</span></span>
+<span data-ttu-id="7f51e-108">Lietot. B var piekļūt Core HR, bet nevar piekļūt Talent: Attract vai Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="7f51e-108">User B can access Core HR, but can't access the Talent: Attract or Talent: Onboard app.</span></span> <span data-ttu-id="7f51e-109">Kad lietotājs mēģina doties uz **Programmu izmantošana**, tā vietā tiek atvērta izmēģinājuma vide.</span><span class="sxs-lookup"><span data-stu-id="7f51e-109">When the user tries to go to **Experience apps**, he or she is taken to a trial environment instead.</span></span>
 
-<span data-ttu-id="a2f09-110">**Risinājums**</span><span class="sxs-lookup"><span data-stu-id="a2f09-110">**Solution**</span></span>
+<span data-ttu-id="7f51e-110">**Risinājums**</span><span class="sxs-lookup"><span data-stu-id="7f51e-110">**Solution**</span></span>
 
-<span data-ttu-id="a2f09-111">Lietotājam B ir jāpiešķir tiesības skatīt Microsoft PowerApps vidi, kuru lietotājs A izveidoja nodrošināšanas procesa laikā.</span><span class="sxs-lookup"><span data-stu-id="a2f09-111">User B must be assigned the rights to view the Microsoft PowerApps environment that user A created during the provisioning process.</span></span>
+<span data-ttu-id="7f51e-111">Lietotājam B ir jāpiešķir tiesības skatīt Microsoft PowerApps vidi, kuru lietotājs A izveidoja nodrošināšanas procesa laikā.</span><span class="sxs-lookup"><span data-stu-id="7f51e-111">User B must be assigned the rights to view the Microsoft PowerApps environment that user A created during the provisioning process.</span></span>
 
-<span data-ttu-id="a2f09-112">Papildinform. skatiet sadaļas [Talent nodrošinājums](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) iedaļā “Piekļuves piešķiršana videi”.</span><span class="sxs-lookup"><span data-stu-id="a2f09-112">For information, see the "Granting access to the environment" section in [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
+<span data-ttu-id="7f51e-112">Papildinform. skatiet sadaļas [Talent nodrošinājums](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) iedaļā “Piekļuves piešķiršana videi”.</span><span class="sxs-lookup"><span data-stu-id="7f51e-112">For information, see the "Granting access to the environment" section in [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
 
-<span data-ttu-id="a2f09-113">**Ilgterm. risināj.**</span><span class="sxs-lookup"><span data-stu-id="a2f09-113">**Long-term solution**</span></span>
+<span data-ttu-id="7f51e-113">**Ilgterm. risināj.**</span><span class="sxs-lookup"><span data-stu-id="7f51e-113">**Long-term solution**</span></span>
 
-<span data-ttu-id="a2f09-114">Microsoft apsver iespēju automāt. piešķirt atbilstošās tiesības programmām Onboard un Attract, pievienojot lietotāju Core HR.</span><span class="sxs-lookup"><span data-stu-id="a2f09-114">Microsoft is considering automatically assigning the appropriate rights to Onboard and Attract when a user is added to Core HR.</span></span>
+<span data-ttu-id="7f51e-114">Microsoft apsver iespēju automāt. piešķirt atbilstošās tiesības programmām Onboard un Attract, pievienojot lietotāju Core HR.</span><span class="sxs-lookup"><span data-stu-id="7f51e-114">Microsoft is considering automatically assigning the appropriate rights to Onboard and Attract when a user is added to Core HR.</span></span>

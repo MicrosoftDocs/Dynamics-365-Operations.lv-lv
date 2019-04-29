@@ -1,7 +1,7 @@
 ---
 title: Nodarbinātajiem aizdotu priekšmetu pārvaldīšana
 description: Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,50 +10,50 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 6c22e85360c3e6e40e0338960866b96d66a0ba50
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5942016374eb2c681e65b2d6151824924f290dc2
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305257"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859026"
 ---
-# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="9092b-103">Nodarbinātajiem aizdotu priekšmetu pārvaldīšana</span><span class="sxs-lookup"><span data-stu-id="9092b-103">Manage items that are lent to workers</span></span>
+# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="c8984-103">Nodarbinātajiem aizdotu priekšmetu pārvaldīšana</span><span class="sxs-lookup"><span data-stu-id="c8984-103">Manage items that are lent to workers</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="9092b-104">Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="9092b-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
+<span data-ttu-id="c8984-104">Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="c8984-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
-<span data-ttu-id="9092b-105">Tālāk ir uzskaitīti tādu priekšmetu piemēri, ko uzņēmums var aizdot saviem darbiniekiem:</span><span class="sxs-lookup"><span data-stu-id="9092b-105">The following points list examples of items that a company might lend to workers:</span></span>
--   <span data-ttu-id="9092b-106">Mobilie tālruņi</span><span class="sxs-lookup"><span data-stu-id="9092b-106">Mobile telephones</span></span>
--   <span data-ttu-id="9092b-107">Automašīnas</span><span class="sxs-lookup"><span data-stu-id="9092b-107">Automobiles</span></span>
--   <span data-ttu-id="9092b-108">Datortehnika</span><span class="sxs-lookup"><span data-stu-id="9092b-108">Computer equipment</span></span>
+<span data-ttu-id="c8984-105">Tālāk ir uzskaitīti tādu priekšmetu piemēri, ko uzņēmums var aizdot saviem darbiniekiem:</span><span class="sxs-lookup"><span data-stu-id="c8984-105">The following points list examples of items that a company might lend to workers:</span></span>
+-   <span data-ttu-id="c8984-106">Mobilie tālruņi</span><span class="sxs-lookup"><span data-stu-id="c8984-106">Mobile telephones</span></span>
+-   <span data-ttu-id="c8984-107">Automašīnas</span><span class="sxs-lookup"><span data-stu-id="c8984-107">Automobiles</span></span>
+-   <span data-ttu-id="c8984-108">Datortehnika</span><span class="sxs-lookup"><span data-stu-id="c8984-108">Computer equipment</span></span>
 
-<span data-ttu-id="9092b-109">Katram fiziskajam priekšmetam ir nepieciešams atbilstošs patapinājuma priekšmets.</span><span class="sxs-lookup"><span data-stu-id="9092b-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="9092b-110">Katrā patapinājuma priekšmeta ierakstā ir jāapraksta, kas tiek aizdots, kurš ir atbildīgs par patapinājumu un cik dienas šo priekšmetu darbiniekam var patapināt.</span><span class="sxs-lookup"><span data-stu-id="9092b-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="9092b-111">Vienlaikus varat izveidot vairākus patapinājuma priekšmetus, piemēram, tādiem priekšmetiem kā atslēgas, piekļuves kartes vai formastērpi.</span><span class="sxs-lookup"><span data-stu-id="9092b-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
+<span data-ttu-id="c8984-109">Katram fiziskajam priekšmetam ir nepieciešams atbilstošs patapinājuma priekšmets.</span><span class="sxs-lookup"><span data-stu-id="c8984-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="c8984-110">Katrā patapinājuma priekšmeta ierakstā ir jāapraksta, kas tiek aizdots, kurš ir atbildīgs par patapinājumu un cik dienas šo priekšmetu darbiniekam var patapināt.</span><span class="sxs-lookup"><span data-stu-id="c8984-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="c8984-111">Vienlaikus varat izveidot vairākus patapinājuma priekšmetus, piemēram, tādiem priekšmetiem kā atslēgas, piekļuves kartes vai formastērpi.</span><span class="sxs-lookup"><span data-stu-id="c8984-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
 
-<span data-ttu-id="9092b-112">Kad priekšmets tiek patapināts, ievadiet datumu, kad tas ticis patapināts, un plānoto atpakaļatdošanas datumu.</span><span class="sxs-lookup"><span data-stu-id="9092b-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="9092b-113">Kad priekšmets tiek atdots atpakaļ, ievadiet faktisko atpakaļatdošanas datumu.</span><span class="sxs-lookup"><span data-stu-id="9092b-113">When the item is returned, enter the actual return date.</span></span>
+<span data-ttu-id="c8984-112">Kad priekšmets tiek patapināts, ievadiet datumu, kad tas ticis patapināts, un plānoto atpakaļatdošanas datumu.</span><span class="sxs-lookup"><span data-stu-id="c8984-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="c8984-113">Kad priekšmets tiek atdots atpakaļ, ievadiet faktisko atpakaļatdošanas datumu.</span><span class="sxs-lookup"><span data-stu-id="c8984-113">When the item is returned, enter the actual return date.</span></span>
 
-<span data-ttu-id="9092b-114">Izmantojot darbvietu Darbinieku patstāvīgi izmantojamais pakalpojums, darbinieki var skatīt patapinājuma priekšmetu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="9092b-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="9092b-115">Viņi var arī rediģēt esošos ierakstus vai ievadīt jaunus patapinājuma priekšmetus, ja viņi ir saņēmuši papildu fiziskos priekšmetus.</span><span class="sxs-lookup"><span data-stu-id="9092b-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="9092b-116">Darbplūsmu var iestatīt tā, lai jauno vai esošo patapinājuma priekšmetu izmaiņas novirzītu uz apstiprināšanas procesu.</span><span class="sxs-lookup"><span data-stu-id="9092b-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
+<span data-ttu-id="c8984-114">Izmantojot darbvietu Darbinieku patstāvīgi izmantojamais pakalpojums, darbinieki var skatīt patapinājuma priekšmetu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="c8984-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="c8984-115">Viņi var arī rediģēt esošos ierakstus vai ievadīt jaunus patapinājuma priekšmetus, ja viņi ir saņēmuši papildu fiziskos priekšmetus.</span><span class="sxs-lookup"><span data-stu-id="c8984-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="c8984-116">Darbplūsmu var iestatīt tā, lai jauno vai esošo patapinājuma priekšmetu izmaiņas novirzītu uz apstiprināšanas procesu.</span><span class="sxs-lookup"><span data-stu-id="c8984-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
 
-<span data-ttu-id="9092b-117">Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm.</span><span class="sxs-lookup"><span data-stu-id="9092b-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="9092b-118">Tāpat viņiem var piešķirt atļauju pievienot jaunus patapinājuma priekšmetus savu darbinieku vārdā.</span><span class="sxs-lookup"><span data-stu-id="9092b-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
+<span data-ttu-id="c8984-117">Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm.</span><span class="sxs-lookup"><span data-stu-id="c8984-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="c8984-118">Tāpat viņiem var piešķirt atļauju pievienot jaunus patapinājuma priekšmetus savu darbinieku vārdā.</span><span class="sxs-lookup"><span data-stu-id="c8984-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
 
- <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="9092b-119"> Ziņošana par nozaudētiem vai laikā neatdotiem patapinājuma priekšmetiem</span><span class="sxs-lookup"><span data-stu-id="9092b-119">Account for lost or misplaced loan items</span></span>
+ <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="c8984-119"> Ziņošana par nozaudētiem vai laikā neatdotiem patapinājuma priekšmetiem</span><span class="sxs-lookup"><span data-stu-id="c8984-119">Account for lost or misplaced loan items</span></span>
 -----------------------------------------
 
-<span data-ttu-id="9092b-120">Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9092b-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="9092b-121">Pēc tam dzēsiet priekšmetu vai paturiet to apskatā un mainiet aprakstu, lai norādītu, ka priekšmets nav pieejams.</span><span class="sxs-lookup"><span data-stu-id="9092b-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
+<span data-ttu-id="c8984-120">Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas ierakstu.</span><span class="sxs-lookup"><span data-stu-id="c8984-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="c8984-121">Pēc tam dzēsiet priekšmetu vai paturiet to apskatā un mainiet aprakstu, lai norādītu, ka priekšmets nav pieejams.</span><span class="sxs-lookup"><span data-stu-id="c8984-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="9092b-122">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="9092b-122">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="c8984-122">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="c8984-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="9092b-123">Personāla vadība</span><span class="sxs-lookup"><span data-stu-id="9092b-123">Human resources</span></span>](index.md)
+[<span data-ttu-id="c8984-123">Personāla vadība</span><span class="sxs-lookup"><span data-stu-id="c8984-123">Human resources</span></span>](index.md)
 
 
 
