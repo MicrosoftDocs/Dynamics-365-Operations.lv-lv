@@ -3,7 +3,7 @@ title: Projektu vadība un uzskaite
 description: Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu.
 author: KimANelson
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 82a2da882ba951c2ff6420b726e0546e9073d2e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311339"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969404"
 ---
 # <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
 
@@ -300,7 +300,7 @@ Pamatojoties uz iestatījumiem, jūs varat prognozēt ienākošās naudas plūsm
 -   **Projekta datums:** 2012. gada 5. marts.
 -   **Rēķina datums:** 2012. gada 31. marts. Šis datums tiek noteikts, pamatojoties uz rēķinu biežumu. Šajā piemērā rēķinu biežums ir uzstādīts pašreizējam mēnesim. Tādējādi par visām marta mēnesī grāmatotajām darbībām rēķini tiks izrakstīti mēneša pēdējā dienā.
 -   **Izpildes datums:** 2012. gada 14. aprīlis Šis datums tiek noteikts, pamatojoties uz projektam iestatītajiem maksājuma nosacījumiem. Šajā piemērā atlasītais maksāšanas termiņš ir 14 dienas. Līdz ar to rēķina datumam tiek pieskaitītas 14 dienas, iegūstot izpildes termiņu — 2012. gada 14. aprīli.
--   **Paredzamais pārdošanas apmaksas datums:** 2012. gada 27. aprīlis. Šis datums tiek aprēķināts, saskaitot lapas **Projektu vadības un uzskaites parametri** laukā **Vispārējā bufera dienas** norādīto dienu skaitu, lapas **Projekta līgumi** laukā **Individuālā bufera dienas** norādīto dienu skaitu un laukā **Izpildes datums** norādīto dienu skaitu. Šajā piemērā jūs ievadījāt **3** laukā **Vispārējā bufera dienas** un **10** laukā **Individuālā bufera dienas**. Līdz ar to izpildes datumam tiek pieskaitītas 13 dienas, iegūstot paredzamo pārdošanas apmaksas datumu — 2012. gada 27. aprīli.
+-   **Paredzamais pārdošanas apmaksas datums:** 2012. gada 27. aprīlis. Šis datums tiek aprēķināts, saskaitot lapas **Projektu vadības un uzskaites parametri** laukā **Vispārējā bufera dienas** norādīto dienu skaitu, lapas **Projekta līgumi** laukā **Individuālā bufera dienas** norādīto dienu skaitu un laukā **Izpildes datums** norādīto dienu skaitu. Šajā piemērā jūs ievadījāt **3** laukā **Vispārējā bufera dienas** un **10** laukā **Individuālā bufera dienas**. Līdz ar to izpildes datumam tiek pieskaitītas 13 dienas, iegūstot paredzamo pārdošanas apmaksas datumu — 2012. gada 27. aprīli.
 
 Vispārējā bufera dienas var aizstāt individuālā bufera dienas vai tikt pieskaitītas individuālā bufera dienām:
 

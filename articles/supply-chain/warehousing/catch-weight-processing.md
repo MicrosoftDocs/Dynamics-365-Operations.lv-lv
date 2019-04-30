@@ -3,7 +3,7 @@ title: Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 description: Šajā tēmā ir aprakstīts, kā izmantot darba veidnes un vietas direktīvas, lai noteiktu noliktavā veikta darba veidu un vietu.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777276"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946437"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -97,7 +97,9 @@ Piemēram, tiek izmantota pieļaujamā svara vienība **Kaste** un jūs saņemat
 
 Ja netiek izmantota pieļaujamā svara etiķešu izsekošanas metode, var noteikt katras dimensiju kopas (piemēram, katras noliktavas vienības un izsekošanas dimensijas) svaru. Svaru var arī noteikt apkopotajā līmenī, piemēram, piecām noliktavas vienībām (paletēm).
 
-Izejošās plūsmas svara noteikšanas metodēm varat definēt to, vai svēršana tiek veikta katrai pieļaujamā svara vienībai (t.i., kastei) vai svars tiek noteikts izdodamajam daudzumam (piemēram, trīs kastēm). Ņemiet vērā, ka gadījumā, ja tiek izmantota opcija **Nav noteikts**, ražošanas rindas izdošanas procesam tiek izmantots vidējais svars.
+Izejošās plūsmas svara noteikšanas metodēm varat definēt to, vai svēršana tiek veikta katrai pieļaujamā svara vienībai (t.i., kastei) vai svars tiek noteikts izdodamajam daudzumam (piemēram, trīs kastēm). Ņemiet vērā, ka gadījumā, ja tiek izmantota opcija **Nav noteikts**, ražošanas rindas izdošanas un iekšējās kustības procesiem tiek izmantots vidējais svars.
+
+Lai neļautu noliktavas pārvaldības izdošanas procesiem fiksēt svaru, kas var izraisīt pieļaujamā svara peļņas/zaudējumu korekcijas, var izmantot izejošā svara novirzes metodi.
 
 ## <a name="supported-scenarios"></a>Atbalstītie scenāriji
 
@@ -121,14 +123,12 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
  
 ### <a name="order-processing"></a>Pasūtījuma apstrādāšana
 
-- Netiek atbalstīta starpuzņēmumu pasūtījumu apstrāde.
 - Iepriekšēja paziņojuma par nosūtīšanu (IPPN/iepakošanas struktūras) izveides laikā netiek atbalstīta informācija par svaru.
 - Pasūtījuma daudzums ir jāuztur, pamatojoties uz pieļaujamā svara vienību.
  
 ### <a name="inbound-warehouse-processing"></a>Ienākošās plūsmas apstrāde noliktavā
 
 - Saņemot noliktavas vienības, reģistrācijas laikā ir jāpiešķir svars, jo iepriekšējā paziņojumā par nosūtīšanu nav ietverta informācija par svaru. Ja tiek izmantoti pieļaujamā svara etiķešu procesi, katrai pieļaujamā svara vienībai ir manuāli jāpiešķir etiķete.
-- Pieļaujamā svara precēm netiek atbalstīta jauktu noliktavas vienību saņemšana.
  
 ### <a name="inventory-and-warehouse-operations"></a>Krājumu un noliktavas darbības
 
@@ -169,7 +169,6 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Citi ierobežojumi un darbības saistībā ar pieļaujamā svara preču apstrādi noliktavas pārvaldības ietvaros
 
-- Ja noliktavas programmā veiktās apstrādes ietvaros tiek noteiktas pieļaujamā svara etiķetes, lietotājs nevar atcelt darbplūsmu.
 - Tādu izdošanas procesu laikā, kuru ietvaros lietotājam netiek prasīts norādīt izsekošanas dimensijas, svara piešķiršana tiek veikta, pamatojoties uz vidējo svaru. Šī darbība notiek tad, ja, piemēram, vienā vietā tiek izmantotas vairākas izsekošanas dimensijas un pēc tam, kad lietotājs ir apstrādājis izdošanu, šajā vietā ir palikusi tikai viena izsekošanas dimensijas vērtība.
 - Ja tiek rezervēti tādas pieļaujamā svara preces krājumi, kas ir konfigurēta noliktavas pārvaldības procesiem, rezervēšana tiek veikta, pamatojoties uz definēto minimālo svaru pat tad, ja šis daudzums ir vienāds ar pēdējo rīcībā esošo krājumu apstrādājamo daudzumu. Šī darbība atšķiras no darbības, kas tiek izmantota krājumiem, kuri nav konfigurēti noliktavas pārvaldības procesiem.
 - Procesiem, kuru ietvaros noslodzes aprēķinam tiek izmantots svars (kopuma sliekšņiem, maksimālajiem darba pārtraukumiem, konteinera maksimālajām vērtībām, vietu noslodzei utt.), netiek izmantots faktiskais krājumu svars. Tā vietā, procesi tiek veikti, pamatojoties uz precei definēto fiziskās apstrādes svaru.
@@ -193,3 +192,5 @@ Pašlaik pieļaujamā svara etiķešu funkcionalitāte tiek atbalstīta tikai t�
 - Kad konteineri tiek atkārtoti atvērti.
 - Kad tiek reģistrēta formulas preču pabeigšana, izmantojot noliktavas programmu.
 - Kad tiek apstrādātas transporta kravas, izmantojot noliktavas programmu.
+
+Pieļaujamā svara etiķeti var izveidot, izmantojot noliktavas programmas procesu, manuāli izveidot veidlapā vai izveidot, izmantojot datu elementu procesu. Ja pieļaujamā svara etiķete tiek saistīta ar ienākošā pirmdokumenta rindu, piemēram, pirkšanas pasūtījuma rindu, etiķete tiek reģistrēta. Ja rinda tiek izmantota izejošajai apstrādei. Etiķete tiek atjaunināta kā nosūtīta.

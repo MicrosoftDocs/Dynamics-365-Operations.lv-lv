@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836352"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992887"
 ---
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
@@ -41,45 +41,114 @@ ms.locfileid: "836352"
 > [!NOTE]
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Mantotā noklusējuma darbību uzvedība
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Noklusējuma darbību mantotās uzvedības rezultātā tiek izveidota neparedzēta kolonna ar noklusējuma darbības saiti pēc tam, kad tabulas kolonnas ir pārkārtotas, izmantojot personalizēšanu. Jaunais fiksēto noklusējuma darbību līdzeklis to koriģē. Papildinformāciju skatiet tēmā [Fiksētās noklusējuma darbības tabulās](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 21. platformas atjauninājumu, tika ieviests “fiksēto noklusējuma darbību” līdzeklis. Šo līdzekli var iespējot lapā **Klienta veiktspējas opcijas**. |
+| **Ietekmētie produkta apgabali**         | Tabulas tīmekļa klientā |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: sākot ar 2020. gada aprīli, fiksētās noklusējuma darbības būs noklusējuma uzvedība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Mantotā filtrēšanas darbība "ir viens no"
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Filtrēšanas darbība “ir viens no” tika pārstrādāta 22. platformas atjauninājumā, paredzot, ka nākotnē tā būs vienīgā filtrēšanas darbība “ir viens no”. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 22. platformas atjauninājumu, uzlabota filtrēšanas darbība “ir viens no” kļuva pieejama lapā **Klienta veiktspējas opcijas**. Papildinformāciju skatiet sadaļā [Optimizēta filtra “ir viens no” izmantošana](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: sākot ar 2020. gada aprīli, uzlabotā filtrēšanas darbība “ir viens no” būs noklusējuma darbība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Atvasināšana no iekšējām klasēm ir novecojusi
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Kompilatora brīdinājums tiks aizstāts ar kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.|
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Iekšējo metožu ignorēšana ir novecojusi
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parametrs, lai iespējotu pārdošanas pasūtījumus ar vairākiem projekta līguma finansējuma avotiem
+Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta līgumam ir vairāki finansējuma avoti, tiek iespējots, izmantojot sadaļas **Projektu pārvaldības parametri** iestatījumu **Atļaut pārdošanas pasūtījumus projektam ar vairākiem finansējuma avotiem**. Pēc noklusējuma šis parametrs nav iespējots. 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Funkcionalitāte vienmēr būs iespējota pēc parametra noņemšanas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.   |
+| **Ietekmētie produkta apgabali**         |Parametrs **Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem** tiks noņemts. Pēc parametra noņemšanas tiks mainītas šādas metodes: **ctrlSalesOrderTable** metode **ProjStatusType** klasē, **validate** metode **ProjId** laukā un **run** metode **SalescreateOrder** formā. Pēc parametra noņemšanas būs novecojušas šādas metodes: **IsSalesOrderAllowedForMultipleFundingSources** metode **ProjTable** tabulas failā, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** metode **ProjTable** tabulas failā, **AllowSalesOrdersForMultipleFundingSources** datu lauks **ProjParameters** formā un **ProjParameterEntity** failos, **IsAssociatedToMultipleFundingSourcesContract** privātā metode **ProjTable** tabulas failā. |
+| **Izvietošanas iespēja**              | Visus  |
+| **Statuss**                         | Atbalsta pārtraukšana ir paredzēta 2020. gada aprīļa laidienu kopumā. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Mantoti darbplūsmas pārskati izsekošanas un gadījumu statusam
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mantotajiem darbplūsmas ziņojumiem izsekošanas un gadījumu statusam tiek pārtraukts atbalsts, jo uz tiem vairs nav atsauces navigācijā. Pārskatu nosaukumi ir WorkflowWorkflowInstanceByStatusReport un WorkflowWorkflowTrackingReport. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Tā vietā var izmantot darbplūsmas vēstures formu. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada aprīlis. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 ar atjauninājumu Platform update 25 pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījumu laidieniem skatiet sadaļā [Standarta un pirmā laidiena servisa atjauninājumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Novecojušie API un iespējamas traucējumus radošas izmaiņas
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Atvasināšana no iekšējām klasēm ir novecojusi
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Laidienos pirms atjauninājuma Platform update 25 bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar atjauninājumu Platform update 25, kompilators parādīs brīdinājuma ziņojumu, ja veiksiet šādu mēģinājumu.|
-| **Vai ir aizstāts ar citu līdzekli?**   | Kompilatora brīdinājums tiks aizstāts ar kļūdu turpmākajā platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi, ja darbināt atjauninājumu Platform update 25 vai jaunāku versiju, to var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
-| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
+| **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Kompilatora brīdinājums tiks aizstāts ar kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.|
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis — brīdinājums tiks aizstāts ar kompilēšanas kļūdu turpmākajā platformas atjauninājumā. |
+| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Iekšējo metožu ignorēšana ir novecojusi
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Laidienos pirms atjauninājuma Platform update 25 bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar atjauninājumu Platform update 25, kompilators parādīs brīdinājuma ziņojumu, ja veiksiet šādu mēģinājumu.|
-| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajā platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi, ja darbināt atjauninājumu Platform update 25 vai jaunāku versiju, to var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
-| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
+| **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis — brīdinājums tiks aizstāts ar kompilēšanas kļūdu turpmākajā platformas atjauninājumā. |
+| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
 
-### <a name="print-to-screen-functionality"></a>Drukāšanas uz ekrāna funkcionalitāte
-Klienti var izmantot darbību **Importēt**, kas paredzēta pārskatu skatītāja kontrolē, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer
+Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Versija bez lapdales HTML priekšskatījumā **nenodrošina** precīzu atbilstību fiziskajiem dokumentiem, kas galu galā tiek izveidoti programmā Finance and Operations. Pilnībā ieviešot PDF kā standarta formātu biznesa operācijām, mēs varējām ievērojami vienkāršot lietotāja opcijas mijiedarbībai ar pieteikumu pārskatiem un uzlabot dokumentu atveides procesu. |
+| **Novecošanas/noņemšanas pamatojums** | Versija bez lapdales HTML priekšskatījumā **nenodrošina** precīzu atbilstību fiziskajiem dokumentiem, kas galu galā tiek izveidoti programmā Finance and Operations. Pilnībā ieviešot PDF kā standarta formātu biznesa dokumentiem, lietotāji var izmantot modernas skatīšanas iespējas ar uzlabotu veiktspēju, veidojot pieteikumu pārskatus. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Turpmāk PDF dokumenti būs noklusējuma formāts pārskatiem, kurus atveido programma Finance and Operations.   |
 | **Ietekmētie produkta apgabali**         | Šīs izmaiņas **neietekmē** klientu scenārijus, kuros pārskati tiek izplatīti elektroniski vai nosūtīti tieši uz printeriem.    |
 | **Izvietošanas iespēja**              | Visus  |
-| **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums. 2019. gada maija platformas atjauninājumā ir paredzēta funkcionalitāte, lai automātiski lejupielādētu pieteikumu pārskatus pārlūkprogrammā kā PDF dokumentus. <br><br>**Svarīgi:** esošajiem klientiem, kuri izmanto funkciju Drukāt uz ekrāna, ir ieteicams informēt [atbalsta dienestu](../lifecycle-services/lcs-support.md) pirms veikt jaunināšanu uz atjauninājumu Platform update 26. |
+| **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums. 2019. gada maija platformas atjauninājumā ir paredzēta funkcionalitāte, lai automātiski priekšskatītu pieteikumu pārskatus, izmantojot iegulto PDF skatītāju. |
 
 ### <a name="client-kpi-controls"></a>Klienta KPI vadīklas
 Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI) programmā Visual Studio, un lietotājs var veikt to turpmāku pielāgošanu.
@@ -102,7 +171,7 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās.  |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
 | **Izvietošanas iespēja**              | Visi. |
-| **Statuss**                         | Novecojis — brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās. Paredzams, ka tas tiks veikts atjauninājumā Platform update 30. |
+| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās. Paredzams, ka tas tiks veikts atjauninājumā Platform update 30. |
 
 #### <a name="complete-list"></a>Pilnīgs saraksts
 Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).
@@ -110,7 +179,7 @@ Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem
-Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. 
+Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. Papildinformāciju skatiet emuārā [Virsgrāmatas parametri — partijas pārsūtīšanas kārtulas](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15.
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations Enterprise Edition 7.3 ar 12. platformas atjauninājumu
 
 ### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
-Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Lietotāji to var lejupielādēt no valsts portāla.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
-Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās.       |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Microsoft Dynamics 365 for Finance and Operations — Warehousing instalēšana un konfigurēšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Microsoft Dynamics 365 for Finance and Operations — Warehousing instalēšana un konfigurēšana](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Ietekmētie produkta apgabali**         | Noliktavas pārvaldība, Transportēšanas pārvaldība     |
 | **Izvietošanas iespēja**              | Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.               |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2019. gada 4. ceturksnis.   |
@@ -687,6 +756,17 @@ Programmu integrācijas struktūrā (Application Integration Framework — AIF) 
 | **Vai aizstāts ar citu līdzekli?**   | Šis līdzeklis ir aizstāts ar datu importēšanas/eksportēšanas struktūru, kura atbalsta periodisku lielapjoma importēšanu/eksportēšanu. Strādājot ar AxBC, ieteicams lietot faktiskās tabulas. |
 | **Ietekmētie produkta apgabali**         | AxDs, AxBCs un AIF   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
+
+### <a name="billing-code-rate-scripts"></a>Norēķinu koda likmes skripti
+
+Norēķinu skripti tika izmantoti, lai aprēķinātu norēķinu likmes norēķinu kodiem. Šiem skriptiem bija nepieciešama pielāgota izstrāde programmēšanas valodā C Sharp vai Visual Basic. Pašreizējā Dynamics AX versijā **norēķinu koda likmes skripti** netiek atbalstīti.
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Programmā Dynamics AX 7.0 netika pievienots atbalsts pielāgotiem C Sharp vai Visual Basic skriptiem. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē                                                                                      |
+| **Ietekmētie produkta apgabali**         | Publiskais sektors, modulis “Debitoru parādi”                                    |
+| **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>MK bez MK versijām
 
@@ -1068,7 +1148,7 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Preču konfiguratorā gala lietotājs varēja redzēt X++ kodu, tāpēc tas netiek atbalstīts pašreizējā Dynamics AX versijā. Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.  |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība, Pārdošana un mārketings  |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.      |
 

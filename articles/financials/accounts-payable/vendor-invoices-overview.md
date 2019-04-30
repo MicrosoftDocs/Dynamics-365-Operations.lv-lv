@@ -1,9 +1,9 @@
 ---
 title: Pārskats par kreditora rēķiniem
 description: Šajā rakstā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329762"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975806"
 ---
 # <a name="vendor-invoices-overview"></a>Pārskats par kreditora rēķiniem
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem. 
 
-<a name="vendor-invoices"></a>Kreditora rēķini
----------------
+## <a name="vendor-invoices"></a>Kreditora rēķini
 
 Kreditora rēķins no pirkšanas pasūtījuma ir rēķins, kas tiek izveidots, kad preces vai pakalpojumi tiek saņemti saskaņā ar kreditoram iesniegtu pirkšanas pasūtījumu. Kreditora rēķinā tiek ietverts virsraksts un viena vai vairākas rindas ar krājumiem vai pakalpojumiem. Kreditora rēķins tiek izmantots ciklā “produktu ieejas plūsmas pirkšanas pasūtījums–kreditora rēķins”. 
 
@@ -79,10 +79,17 @@ Plašāku informāciju skatiet šeit: [Kreditora rēķina reģistrēšana un atb
 
 Jūs varat vienlaikus strādāt ar vairākiem rēķiniem un grāmatot tos. Ja ir jāizveido vairāki rēķini, izmantojiet lapu **Gaidošie kreditoru rēķini**. Ja ir nepieciešams grāmatot un drukāt vairākus kreditoru rēķinus, izmantojiet rēķinu apstiprināšanas žurnāla lapu. Ja lietojat rēķinu apstiprināšanas žurnālu, pirkšanas pasūtījumam ir jābūt grāmatotai vismaz vienai produktu ieejas plūsmai, un rēķinam par pirkšanas pasūtījumu ir jābūt grāmatotam rēķinu reģistrā. Rēķina finanšu informācija tiek ņemta no rēķina, kas ir grāmatots reģistrā.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Lietošanā esošu kreditoru rēķinu atkopšana
 
-Papildinformāciju skatiet šeit: 
+Kamēr kreditora rēķins tiek lietots, cits lietotājs to nevar rediģēt. Taču rēķina stāvoklis reizēm var norādīt, ka rēķins tiek lietots, lai gan tas netiek aktīvi rediģēts. Piemēram, iespējams, programma ir pārstājusi reaģēt, kamēr rēķins tika rediģēts, vai kāds lietotājs ir nejauši atstājis rēķinu atvērtu programmā.
 
- - [Kreditoru rēķinu ierobežojumu iestatīšana](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+Varat izmantot lapu **Atkopt kreditoru rēķinus**, lai atkoptu vai izlaistu kreditoru rēķinus, kas tiek lietoti vairāk nekā četras stundas, un tos varētu rediģēt. Šo lapu var atvērt no navigācijas **Periodiskais uzdevums** vai elementa darbvietā **Kreditora rēķina ieraksts**. Kad rēķins ir atkopts, tas ir pieejams rediģēšanai lapā **Kreditora rēķins**.
+
+Lapai **Atkopt kreditoru rēķinus** varat piekļūt tikai tad, ja jums ir piešķirts drošības pienākums un privilēģija **Atkopt lietošanā esošus kreditoru rēķinus**. Turklāt ir jābūt ieslēgtam parametram **Atļaut kreditoru rēķinu atkopšanu** lapā **Parādu kreditoriem parametri**.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+ - [Kreditoru rēķinu politiku iestatīšana](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Rēķinu datu ievade kreditoru modulī, izmantojot kreditora rēķinu](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 

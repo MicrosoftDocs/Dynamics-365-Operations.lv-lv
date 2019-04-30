@@ -1,25 +1,25 @@
 ---
 title: Interviju plānošana un atsauksmes
 description: Šajā tēmā ir sniegta informācija par interviju plānošanas un atsauksmju aktivitātēm programmā Attract.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374940"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989941"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Interviju plānošana un atsauksmes
 
@@ -28,6 +28,8 @@ ms.locfileid: "374940"
 ## <a name="scheduler-activity"></a>Aktivitāte Plānotājs
 
 Aktivitāte Plānotājs ir izvēles aktivitāte, kas sastāv no diviem komponentiem: Kandidāta pieejamības pieprasījums un Grafiks. Komponents Kandidāta pieejamība sniedz jums iespēju izmantot e-pastu, lai pieprasītu kandidāta pieejamību. Komponents Grafiks sniedz iespēju ieplānot intervijas, saskaņojot grafiku ar kandidātu un darbā pieņemšanas grupu.
+
+Lai iestatītu plānotāja aktivitāti, kas ietver vai ierobežo kandidātus, kuru plānošana ir paredzēta, atlasiet vērtību laukā**Personas, kuras paredzēts plānot**. Pieejamās opcijas ir **Visi kandidāti**, **Ārējie kandidāti** un **Iekšējie kandidāti**. Piemēram, ja vēlaties izlaist iekšējos kandidātus pirmajā plānošanas kārtā, varat piešķirt plānotāja aktivitāti tikai ārējiem kandidātiem, iestatot vienumam **Personas, kuras paredzēts plānot** opciju **Ārējie kandidāti**.
 
 ### <a name="candidate-availability-request"></a>Kandidāta pieejamības pieprasījums
 
@@ -54,7 +56,7 @@ Ir pieejamas vairākas konfigurācijas, ko var izmantot interviju plānotājs, l
 
 2. Atlasiet katram intervijas notikuma intervijas ilgumu un pēc tam noklikšķiniet uz **Labi**, lai sāktu grafika izveidi.
 
-    Ja ir atlasīts vienums **Ieteikumi**, tiek rādīti ieteikumi un interviju režģis tiek daļēji aizpildīts. Varat skatīt visu atlasīto intervētāju pašreizējo kalendārā reģistrēto pieejamību. Varat arī skatīt kandidāta kalendāru, ja tas ir iekšējs kandidāts.
+    Ja ir atlasīts vienums **Ieteikumi**, tiek rādīti ieteikumi un interviju režģis tiek daļēji aizpildīts. Varat skatīt visu atlasīto intervētāju pašreizējo kalendārā reģistrēto pieejamību. Varat arī skatīt kandidāta kalendāru, ja tas ir iekšējs kandidāts. Intervētājiem un iekšējiem kandidātiem var skatīt aizņemtos laika posmus, darba laiku, laiku ārpus biroja un arī noteikt, vai tie ir atzīmējuši savā kalendārā darbu citur noteiktos laika posmos. 
 
 3. Ja nav pieejams neviens ieteikums, kolonnā **Intervētāji** noklikšķiniet uz laika nišas, norādiet intervijas nosaukumu un detalizētu informāciju un aizpildiet detalizētu informāciju par vietu, ja tas ir nepieciešams. Varat izvēlēties intervijai pievienot **Skype darbam** saiti.
 
@@ -73,7 +75,7 @@ Ir pieejamas vairākas konfigurācijas, ko var izmantot interviju plānotājs, l
 
     Intervētāja atbildes tiek reģistrētas un parādītas programmā Attract. Ja intervētājs noraida uzaicinājumu, jums par to tiek paziņots, lai jūs veiktu izmaiņas. Lai skatītu viņu atbildi programmas **Plānotājs** režģa skatā, noklikšķiniet uz burbuļa ikonas.
 
-[![Attract personāla atlases speciālista skats intervētāja atbildes skatīšanai](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![Attract personāla atlases speciālista skats intervētāja atbildes skatīšanai](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Kad interviju grafiks ir sagatavots kopīgošanai ar kandidātu, noklikšķiniet uz **Nosūtīt kandidātam**. Varat izvēlēties kandidātam rādīt vai nerādīt intervētāju vārdus un nišas.
 
@@ -82,10 +84,21 @@ Ir pieejamas vairākas konfigurācijas, ko var izmantot interviju plānotājs, l
 >[!NOTE] 
 > Kandidāta kalendārā reģistrētā pieejamība tiek parādīta tikai tad, ja tas ir iekšējs kandidāts. Līdzīgi, tikai iekšējiem kandidātiem var uzlabot interviju grafika ieteikumus. Pašlaik kandidāti (ārējie vai iekšējie) nesaņem e-pasta uzaicinājumu uz sapulci. Tā vietā kandidāts saņem tikai kopsavilkumu par intervijām.
 
-## <a name="feedback-activity"></a>Aktivitāte Atsauksmes
+Kandidāti saņems e-pastu, kurā ir apkopots viņu interviju cikls. E-pasts satur .ics failu, ko var saglabāt viņu personiskajā kalendārā, lai nodrošinātu ērtāku piekļuvi un paziņojumu par interviju.
 
-Aktivitāte Atsauksmes ir darba veidnes izvēles aktivitāte. Šī aktivitāte sniedz intervijas dalībniekiem iespēju ievadīt kandidātam paredzētus ieteikumus vai komentārus ar atsauksmēm. Ja tiek atlasīts lauks **Pārmantot aktivitātes Atsauksmes dalībniekus no darbā pieņemšanas grupas**, personāla atlases speciālists, par pieņemšanu darbā atbildīgais vadītājs un intervētāji tiek automātiski pievienoti aktivitātei Atsauksmes. Organizācijas var atļaut intervētajiem skatīt citu personu atsauksmes pirms savu atsauksmju iesniegšanas. Organizācijas var atļaut intervētājiem arī rediģēt savas atsauksmes pēc to iesniegšanas. Intervētājiem tiek atgādināts iesniegt atsauksmes par nesen veiktajām intervijām, pamatojoties uz iepriekš iestatītu konfigurāciju darba veidnes ietvaros. Darbā pieņemšanas vadītājs vai darbam piesaistītais personāla atlases speciālists varat arī manuāli atgādināt intervētājam par atsauksmju iesniegšanu.
+>[!TIP] 
+> Ja atkārtoti nosūtāt kandidātiem intervijas grafiku, viņi saņems pielikumā vēl vienu .ics failu. Ir ieteicams atjaunināt kandidāta intervijas kopsavilkuma e-pasta veidnes, lai nodrošinātu, ka kandidāti dzēš iepriekš pievienotos interviju notikumus un neredz savā kalendārā dublikātus. 
+
+## <a name="feedback-activity"></a>Atsauksmju sniegšanas aktivitāte
+
+Aktivitāte Atsauksmes ir darba veidnes izvēles aktivitāte. Šī aktivitāte sniedz intervijas dalībniekiem iespēju ievadīt kandidātam paredzētus ieteikumus vai komentārus ar atsauksmēm. 
+
+Lai iekļautu vai ierobežotu kandidātus, par kuriem tiek sniegtas atsauksmes, atlasiet vērtību laukā **Personas, par kurām intervētājiem jāsniedz atsauksmes**.  Pieejamās opcijas ir **Visi kandidāti**, **Ārējie kandidāti** un **Iekšējie kandidāti**. Piemēram, ja vēlaties izlaist iekšējos kandidātus pirmajā plānošanas kārtā, iestatiet vienumam **Personas, par kurām intervētājiem jāsniedz atsauksmes** opciju **Ārējie kandidāti**.
+
+Ja atlasāt lauku **Pārmantot aktivitātes Atsauksmes dalībniekus no darbā pieņemšanas grupas**, personāla atlases speciālists, par pieņemšanu darbā atbildīgais vadītājs un intervētāji tiek automātiski pievienoti aktivitātei Atsauksmes. Organizācijas var atļaut intervētajiem skatīt citu personu atsauksmes pirms savu atsauksmju iesniegšanas. Organizācijas var atļaut intervētājiem arī rediģēt savas atsauksmes pēc to iesniegšanas. Intervētājiem tiek atgādināts iesniegt atsauksmes par nesen veiktajām intervijām, pamatojoties uz iepriekš iestatītu konfigurāciju darba veidnes ietvaros. Darbā pieņemšanas vadītājs vai darbam piesaistītais personāla atlases speciālists varat arī manuāli atgādināt intervētājam par atsauksmju iesniegšanu.
 
 ## <a name="interview-activity"></a>Aktivitāte Intervija
 
-Aktivitāte Intervija ir izvēles aktivitāte, kas sastāv no trīs komponentiem: Kandidāta pieejamības pieprasījums, Grafiks un Atsauksmes. Izmantojiet aktivitāti Intervija darba veidnē, ja vēlaties komponentus Kandidāta pieejamības pieprasījums, Grafiks un Atsauksme iekļaut procesā, nevis tos izmantot atsevišķi darbā pieņemšanas procesa ietvaros.
+Aktivitāte Intervija ir izvēles aktivitāte, kas sastāv no trīs komponentiem: **Kandidāta pieejamības pieprasījums**, **Grafiks** un **Atsauksmes**. Izmantojiet intervijas aktivitāti darba veidnē, ja vēlaties visus komponentus Kandidāta pieejamības pieprasījums, Grafiks un Atsauksmes iekļaut procesā, nevis tos izmantot atsevišķi.
+
+Lai iekļautu vai ierobežotu kandidātus, kurus paredzēts intervēt, atlasiet vērtību laukā **Personas, kuras paredzēts intervēt**. Pieejamās opcijas ir **Visi kandidāti**, **Ārējie kandidāti** un **Iekšējie kandidāti**. Piemēram, ja vēlaties izlaist iekšējos kandidātus pirmajā intervēšanas kārtā, iestatiet vienumam **Personas, kuras paredzēts intervēt** opciju **Ārējie kandidāti**.

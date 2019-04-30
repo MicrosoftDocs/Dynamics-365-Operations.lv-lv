@@ -3,7 +3,7 @@ title: Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa
 description: Šajā tēmā ir norādīti resursi, kurus varat izmantot, lai uzzinātu vairāk par biznesa informācijas un atskaišu veidošanas rīkiem, kas ir pieejami programmā Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302571"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902846"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa
 
@@ -33,10 +33,10 @@ ms.locfileid: "302571"
 ## <a name="get-started"></a>Darba sākšana
 - [Piekļuve informācijai un atskaišu veidošana](information-access-reporting.md)
 - [Tehniskas sarunas: Atskaišu veidošanas opcijas](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: biznesa informācija](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (emuārs)
+- [Finance and Operations: Power BI Analīzes un Reporting Services emuārs](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (emuārs)
 
 ## <a name="analytical-workspaces"></a>Analītiskās darbvietas
-Finance and Operations nodrošina interaktīvus pārskatus, kas ir integrēti lietojumprogrammas darbvietās. Darbvietās var izmantot bagātīgas infografikas un vizuālos līdzekļus, ko atbalsta Microsoft Power BI. Šīs infografikas un vizuālie līdzekļi ietver daudzas trešo pušu nodrošinātās vadīklas. Tādējādi darbvietas lietotājiem var sniegt izteikti vizuālu un interaktīvu pieredzi.
+Finance and Operations nodrošina interaktīvas atskaites, kas ir integrētas programmas darbvietās. Darbvietās var izmantot bagātīgas infografikas un vizuālos līdzekļus, ko atbalsta Microsoft Power BI. Šīs infografikas un vizuālie līdzekļi ietver daudzas trešo pušu nodrošinātās vadīklas. Tādējādi darbvietas lietotājiem var sniegt izteikti vizuālu un interaktīvu pieredzi.
 
 Lietotāji var mijiedarboties ar datiem, lapā noklikšķinot uz vizuālajiem līdzekļiem vai pieskaroties tiem. Viņi turpat darbvietā var skatīt cēloņsakarības un veikt vienkāršas scenāriju operācijas. Pateicoties lieliskajiem interaktīvajiem vizuālajiem līdzekļiem, datu izpēte un slēpto tendenču atklāšana jūsu lietotājiem būs interesanta un aizraujoša pieredze.
 

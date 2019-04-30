@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782941"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949809"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 5. marts)
 
@@ -35,7 +35,7 @@ ms.locfileid: "782941"
 
 ### <a name="extending-option-sets-in-attract"></a>Opciju kopu paplašināšana programmā Attract
 
-Programmā Attract ir vairāki lauki, kas ir opciju kopas pakalpojumā Common Data Service (CDS). Ir ieviestas jaunas iespējas, lai paplašinātu opciju kopas, tostarp lauks **Noraidīšanas pamatojums**, lauks **Nodarbinātības veids** un lauks **Darba stāža veids**.
+Programmā Attract ir vairāki lauki, kas ir opciju kopas pakalpojumā Common Data Service. Ir ieviestas jaunas iespējas, lai paplašinātu opciju kopas, tostarp lauks **Noraidīšanas pamatojums**, lauks **Nodarbinātības veids** un lauks **Darba stāža veids**.
 
 > [!IMPORTANT]
 > Lai izmantotu darba publicēšanas pakalpojumā LinkedIn funkcionalitāti, ir jāizmanto lauki **Nodarbinātības veids** un **Darba stāžs veids** lapā **Darba informācija**. Šo lauku noklusējuma vērtības nodrošina pakalpojums LinkedIn, un tās tiek rādītas, kad darbs tiek publicēts. Ja publicējat darbus pakalpojumā LinkedIn un izmaināt šo lauku esošās opciju kopas vērtības, darbs joprojām tiek publicēts, taču pakalpojumā LinkedIn netiek parādītas pielāgotās lauku **Nodarbinātības veids** un **Darba stāža veids** vērtības.
@@ -70,13 +70,13 @@ Bieži vien darbinieki pievienojas organizācijai ar vēlāku sākuma datumu. Š
 ### <a name="other-miscellaneous-bug-fixes"></a>Citi dažādu kļūdu labojumi
 Šajā laidienā ir ietverti citi nelieli kļūdu labojumi.
 
-### <a name="upgrade-to-cds-for-apps"></a>Pakalpojuma CDS programmām jauninājums
-Drīz būs pienācis jaunināšanas uz pakalpojumu CDS programmām termiņš. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz pakalpojumu Common Data Service programmām](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
+Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Drīzumā
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Papildu atlīdzības drošība (fiksētā un mainīgā)
 Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem, piemēram, vadītāju vai reģionālo darbinieku ierakstiem. Šīs izmaiņas sniedz iespēju pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem var piešķirt drošības lomas, no kurām ir atkarīga piekļuve plāniem un ar tiem saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem. Šo atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar konkrētajām piekļuves atļaujām.
 
-###  <a name="platform-update-24"></a>Platformas update 24
-Papildinformāciju par 24. platformas atjauninājumu skatiet [Jaunumi un izmaiņas Finance and Operations 24. platformas atjauninājumā (2019. gada marts)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24"></a>Platform update 24
+Papildinformāciju par atjauninājumu Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

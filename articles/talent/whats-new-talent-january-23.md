@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 135be837a82af8cee22d83c015a78da3b89b7978
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f27698c257301f52e5c77eaa8a04ca13a0315825
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305254"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859625"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2019. gada 23. janvāris)
 
@@ -53,5 +53,5 @@ Mainot darbu amatam, darba laukos pēc noklusējuma tiek iestatīts amats. Tiks 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Turpmāk darbā pieņemtajiem darbiniekiem netiek rādīts izmēģinājuma periods un kalendārs.
 Ar šīm izmaiņām lapā **Pārvaldīt izmaiņas** ir pievienoti lauki **Izmēģinājuma periods** un **Kalendārs**, lai nodrošinātu datu ievadi turpmākiem un iepriekšējiem darbiniekiem.
 
-### <a name="platform-update-23"></a>Platformas update 23
+### <a name="platform-update-23"></a>Platform update 23
 Atjauninājumā Platform update 23 ir iekļauti nelieli kļūdu labojumi. Plašāku informāciju skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Finance and Operations atjauninājumā Platform update 23 (2019. gada janvāris)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

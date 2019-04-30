@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773331"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898981"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana
 
@@ -60,7 +60,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
 2. Augšupielādējiet finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurācijas.
 
     Finanšu dokumentu nodrošinātājs ir atbildīgs par finanšu dokumentu sagatavošanu, kuri norāda mazumtirdzniecības transakcijas un notikumus, kas reģistrēti POS, tādā formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci vai pakalpojumu. Piemēram, finanšu dokumentu nodrošinātājs var izveidot finanšu dokumenta attēlojumu XML formātā.
-    
+
     Finanšu savienotājs ir atbildīgs par saziņu ar finanšu ierīci vai pakalpojumu. Piemēram, finanšu savienotājs var nosūtīt finanšu dokumentu, kuru izveidoja finanšu dokumentu nodrošinātājs XML formātā, uz fiskālo printeri. Plašāku informāciju par finanšu integrācijas komponentiem skatiet tēmā [Finanšu reģistrācijas process un finanšu integrācijas paraugi finanšu ierīcēm](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Lapā **Finanšu savienotāji** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu savienotāji**) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot finanšu integrācijas nolūkos.
@@ -150,7 +150,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
     - Pēc tam, kad veiktas esošā finanšu reģistrācijas procesa izmaiņas, un šīs izmaiņas var izraisīt cita finanšu savienotāja atlasi izpildes laikā (piemēram, mainot savienotāju grupu finanšu reģistrācijas procesa darbībai, iespējojot savienotāja funkcionālo profilu savienotāja grupā vai pievienojot jaunu savienotāja funkcionālo profilu savienotāja grupai).
     - Pēc izmaiņu veikšanas saistībā ar savienotāja tehnisko profilu piešķiri aparatūras profiliem.
 
-8. Lapā **Sadales plānotājs** palaidiet darbus **1070** un **1090**, lai pārsūtītu datus uz kanāla datu bāzi.
+8. Lapā **Sadales grafiks** palaidiet darbus **1070** un **1090**, lai pārsūtītu datus uz kanāla datu bāzi.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Atlaižu finanšu teksta iestatīšana
 
@@ -185,8 +185,12 @@ Kļūdu apstrādes opcijas, kas pieejamas finanšu integrācijā, tiek iestatīt
 
     - **Atļaut izlaist** — šis parametrs iespējo opciju **Izlaist** kļūdu apstrādes dialoglodziņā.
     - **Atļaut atzīmēt kā reģistrētu** — šis parametrs iespējo opciju **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā.
+    - **Kļūdas gadījumā turpināt** — ja šis parametrs ir iespējots, finanšu reģistrācijas process POS reģistrā var turpināties arī tad, ja transakcijas vai notikuma finanšu reģistrācija ir nesekmīga. Pretējā gadījumā, lai palaistu nākamās transakcijas vai notikuma finanšu reģistrāciju, operatoram ir atkārtot jāmēģina izpildīt nesekmīgo finanšu reģistrāciju, jāizlaiž šī reģistrācija vai attiecīgā transakcija vai notikums ir jāatzīmē kā reģistrēts. Plašāku informāciju skatiet rakstā [Neobligātā finanšu reģistrācija](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Opcijām **Izlaist** un **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā ir nepieciešama atļauja **Atļaut izlaist vai atzīmēt kā reģistrētu**. Tādēļ lapā **Atļauju grupas** (**Mazumtirdzniecība \> Darbinieki \> Atļauju grupas**) iespējojiet atļauju **Atļaut izlaist vai atzīmēt kā reģistrētu**.
+    > [!NOTE]
+    > Ja ir iespējots parametrs **Kļūdas gadījumā turpināt**, parametrs **Atļaut izlaist** un parametrs **Atļaut atzīmēt kā reģistrētu** automātiski tiek atspējots.
+
+2. Opcijām **Izlaist** un **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā ir nepieciešama atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**. Tādēļ lapā **Atļauju grupas** (**Mazumtirdzniecība \> Darbinieki \> Atļauju grupas**) ir jāiespējo atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**.
 3. Opcijas **Izlaist** un **Atzīmēt kā reģistrētu** ļauj operatoriem ievadīt papildu informāciju, kad finanšu reģistrācija neizdodas. Lai šī funkcionalitāte būtu pieejama, ir jānorāda informācijas kodi **Izlaist** un **Atzīmēt kā reģistrētu** finanšu savienotāju grupā. Pēc tam operatoru ievadītā informācija tiek saglabāta kā informācijas koda transakcija, kas saistīta ar finanšu transakciju. Plašāku informāciju par informācijas kodiem skatiet tēmā [Informācijas kodi un informācijas kodu grupas](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Kļūdu apstrādes opcijas, kas pieejamas finanšu integrācijā, tiek iestatīt
     > - **Finanšu dokuments** — obligāts dokuments, kas ir veiksmīgi jāreģistrē (piemēram, finanšu dokuments).
     > - **Ar finansēm nesaistīts dokuments** — transakcijas vai notikuma papildu dokuments (piemēram, dāvanu karte).
 
+4. Ja operatoram ir jāspēj turpināt pašreizējās operācijas apstrādāšanu (piemēram, transakcijas izveidošanu vai pabeigšanu) arī pēc darbspējas pārbaudes kļūda rašanās, iespējojiet atļauju **Atļaut izlaist darbspējas pārbaudes kļūdu** lapā **Atļauju grupas** (**Mazumtirdzniecība \> Darbinieki \> Atļauju grupas**). Plašāku informāciju par darbspējas pārbaudes procedūru skatiet rakstā [Finanšu reģistrācijas darbspējas pārbaude](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>POS finanšu X/Z pārskatu iestatīšana
 
 Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas pogas POS izkārtojumam.
@@ -211,3 +217,12 @@ Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas poga
     3. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu Z** pogas rekvizītu.
     4. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai pārsūtītu izmaiņas uz kanāla datu bāzi.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Atliktas finanšu reģistrācijas manuālas izpildes iespējošana
+
+Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izkārtojumam jums ir jāpievieno jauna poga.
+
+- Lapā **Pogu rindas** sekojiet instrukcijām sadaļā [Pielāgotas operāciju pogas pievienošana POS izkārtojumam programmā Mazumtirdzniecība](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), lai instalētu veidotāju un atjauninātu POS izkārtojumu.
+
+    1. Atlasiet atjaunināmo izkārtojumu.
+    2. Pievienojiet jaunu pogu un iestatiet pogas rekvizītu **Pabeigt finanšu reģistrācijas procesu**.
+    3. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.

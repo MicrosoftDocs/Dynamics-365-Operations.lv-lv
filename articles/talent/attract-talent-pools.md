@@ -1,29 +1,29 @@
 ---
 title: Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
 description: Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305307"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949348"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
 
@@ -44,7 +44,7 @@ Lai izveidotu un kopīgotu potenciālo kandidātu kopu, veiciet tālāk norādī
 
     Cilnē **Manas kandidātu kopas** tiek rādītas visas potenciālo kandidātu kopas, kurām varat piekļūt, kā arī informācija par katru no tām. Ir sniegta informācija par kopas īpašnieku un tajā ietverto kandidātu skaitu.
 
-1. Augšējā labajā stūrī atlasiet **+Jauna**, lai atvērtu dialoglodziņu **Potenciālo kandidātu kopas izveide**.
+1. Lapas augšējā labajā stūrī atlasiet **Jauna**, lai atvērtu dialoglodziņu **Potenciālo kandidātu kopas izveide**.
 1. Ievadiet unikālu potenciālo kandidātu kopas nosaukumu.
 1. Lai pievienotu personas kā kopas līdzstrādniekus, atrodiet viņu vārdus, izmantojot personu atlasītāju, un pēc tam pievienojiet šīs personas sarakstam. Potenciālo kandidātu kopu varat kopīgot tikai tiem lietotājiem, kuriem ir piešķirta loma Personāla atlases darbinieks, Par pieņemšanu darbā atbildīgais vadītājs vai Attract administrators.
 1. Atlasiet **Pievienot**, lai izveidotu potenciālo kandidātu kopu.
@@ -78,26 +78,35 @@ Potenciālo kandidātu kopas īpašnieks un līdzstrādnieki var pievienot kandi
 
 ## <a name="search-and-view-candidate-profiles"></a>Kandidātu profilu meklēšana un skatīšana
 
-Potenciālo kandidātu kopas lietotāji var skatīt kandidāta profilu, LinkedIn informāciju, saistītos dokumentus vai visu pieteikumu vēsturi. Varat arī visā savā kandidātu datu bāzē meklēt jebkuru kandidātu, kas jebkad ir pieteicies jebkurai vakancei jūsu organizācijā vai kas jebkad ir ticis pievienots jebkurai potenciālo kandidātu kopai.
+> [!NOTE] 
+> Šis līdzeklis pašreiz ir priekšskatījumā. Ja vēlaties to izmēģināt, jums [tā ir jāieslēdz pakalpojuma Attract administratora iestatījumos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Izmantojiet meklēšanas lauku cilnes **Manas kandidātu kopas** augšdaļā, lai meklētu visā savā kandidātu datu bāzē.
-1. Meklējiet dažādus profila atribūtus. Atlasiet meklēšanas atribūtu kategoriju, izveidojiet meklēšanas vaicājumu un pēc tam atlasiet pa labi vērstās bultiņas pogu (**-\>**), lai veiktu meklēšanu.
+Kandidātu kopas ļauj skatīt kandidāta profilu, LinkedIn informāciju, saistītos dokumentus un pieteikumu vēsturi. Varat meklēt visā datu bāzē visus kandidātus, kas pievienoti jebkurai kandidātu kopai, tostarp slēgtos un aktīvos kandidātus.
 
-    Varat uzmeklēt kandidātus pēc kandidāta vārda, organizācijas, kurā viņš strādā, atzīmētajām prasmēm, izglītības vēstures, pašreizējā amata vai iegūtā līmeņa, ja šī informācija ir ietverta kandidāta profilā.
+>[!NOTE]
+> Pievienojot kandidātus, jauno vienumu indeksēšana meklēšanai var ilgt līdz 15 minūtēm.
 
-    Varat arī izveidot meklēšanas vaicājumu, kurā kā kritēriji tiek izmantoti divi no šiem kritērijiem vai vairāk. Apvienojiet kritērijus, izmantojot operatoru **and**.
+Pateicoties uzlabotajai meklēšanas pieredzei, varat veikt meklēšanu visos kandidātu dokumentos un filtrēt pēc sudraba medaļas ieguvējiem, avotiem, prasmēm, izglītības un citiem parametriem. Iepriekšējās versijās bija jānorāda elements, kurā vēlējāties meklēt. Programmā Attract meklēšanu tagad var veikt visos ar kandidātu saistītajos laukos un kārtot rezultātus.
 
-    Ja kādi kandidāti atbilst jūsu meklēšanas vaicājumam, tie tiek ietverti meklēšanas rezultātu sarakstā.
+1. Lai sāktu jaunu meklēšanu kandidātu datu bāzē, ievadiet tekstu, kuru vēlaties meklēt, meklēšanas lodziņā cilnē **Kandidātu kopas**. 
 
-1. Lai precizētu rezultātus, varat atjaunināt meklēšanas vaicājumu, izmantojot augšpusē esošo meklēšanas lauku.
+Varat ierakstīt kandidāta vārdu vai jebkuru meklēto atribūtu. Lai atdalītu atribūtus, lietojiet atstarpi.
 
-    Vai arī izmantojiet labajā pusē esošo viedo filtru sarakstu. Šie viedie filtri tiek dinamiski pielāgoti meklēšanas rezultātiem.
+Varat sašaurināt rezultātus, mainot meklēšanas vaicājumu vai izmantojot viedos filtrus lapas kreisajā pusē.
 
-    Meklēšanas rezultātu sarakstā ir ietvertas 20 populārākās prasmes, mācību iestādes, organizācijas utt., kas visbiežāk ir minētas kandidātu sarakstā. Varat pievienot papildu filtrus jebkuram no šiem atribūtiem, lai vēl vairāk precizētu meklēšanas rezultātus.
+Meklēšanas rezultātos tiek izcelti dažādie atribūti, kas atbilda jūsu meklēšanas vaicājumam. Atlasiet jebkuru kandidātu, kura profilu vēlaties skatīt.
 
-1. Kad esat atradis kandidātu, atlasiet šī kandidāta rindiņu, lai skatītu kandidāta profilu.
+### <a name="syntax-highlights"></a>Sintakses izcēlumi 
 
-Visiem lietotājiem ir pieejams viens un tas pats kandidātu profilu skats. Atlasiet kandidāta rindiņu meklēšanas rezultātu sarakstā vai potenciālo kandidātu kopā, lai skatītu šī kandidāta profilu. Cilnē **Profils** tiek rādīta visa informācija par prasmēm, darba pieredzi un izglītību, ko kandidāts ir augšupielādējis no karjeras portāla.
+| Operators | Lietojums                                                      | Paraugs              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Meklē apakšvirknes; var izmantot, lai atgrieztu visus ierakstus | Ievade: Mi\* <br></br> Rezultāts: viri ieraksti, kas satur laukus, kuri sākas ar “Mi”, piemēram, Microsoft, Micro systems, Midtown Enterprises vai Middleton <br></br>Ievade: \* <br></br> Rezultāts: visi ieraksti datu bāzē |
+| “”       | Meklē precīzu atbilstību                                | Ievade: “Microsoft” <br></br> Rezultāts: visi ieraksti, kas satur “Microsoft”                    |
+
+>[!WARNING]
+> Neizslēdziet atbilstības meklēšanu savai Common Data Service instancei. Tādējādi tiek atspējota Attract meklēšanas pieredze.
+
+Visiem lietotājiem ir pieejams viens un tas pats kandidātu profilu skats. Cilnē **Profils** tiek rādīta visa informācija par prasmēm, darba pieredzi un izglītību, ko kandidāts ir norādījis kā sava pieteikuma daļu, izmantojot karjeras portālu.
 
 - Varat skatīt kandidāta kontaktinformāciju. Varat arī pēc nepieciešamības rediģēt vai atjaunināt informāciju, izmantojot pogu **Rediģēt detalizēto informāciju**.
 
@@ -117,7 +126,7 @@ Meklēšana rezultātu sarakstā vai potenciālo kandidātu kopā ietvertos kand
 
 1. Atrodiet kandidātu, izmantojot meklēšanas opciju, un pēc tam atveriet šī kandidāta profilu. Vai arī atveriet potenciālo kandidātu kopu cilnē **Manas kandidātu kopas**, meklējiet kandidātu savā potenciālo kandidātu kopā un pēc tam atveriet kandidāta profilu.
 
-1. Kandidāta profila lapas augšējā labajā stūrī atlasiet **+Pievienot darbam**. 
+1. Kandidāta profila lapas augšējā labajā stūrī atlasiet **Pievienot darbam**. 
      
      Tiek parādīts to vakanču saraksts, ar kurām esat saistīts kā darbā pieņemšanas grupas dalībnieks un personāla atlases darbinieks vai par pieņemšanu darbā atbildīgais vadītājs.
 

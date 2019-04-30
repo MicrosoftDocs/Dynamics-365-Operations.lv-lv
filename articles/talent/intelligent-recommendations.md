@@ -1,29 +1,29 @@
 ---
 title: Inteliģentie ieteikumi
 description: Šajā tēmā ir paskaidrots, kā var izmantot algoritmisko mācīšanos, lai sniegtu ieteikumus darbiem un darba kandidātiem.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305323"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896561"
 ---
 # <a name="intelligent-recommendations"></a>Inteliģentie ieteikumi
 
@@ -32,8 +32,9 @@ ms.locfileid: "305323"
 Algoritmiskā mācīšanās var noderēt personāla atlases darbiniekiem un darbā pieņemšanas vadītājiem, lai ātri atpazītu amatiem piemērotākos kandidātus. Tā var noderēt arī potenciālajiem darba ņēmējiem, lai atrasto savam profilam un interesēm vispiemērotāko amatu. Izmantojot šos līdzekļus un sniedzot atsauksmes, laika gaitā ieteikumi uzlabojas.
 
 > [!NOTE] 
-> - Inteliģento ieteikumu līdzekļi ir pieejami tikai kopā ar visaptverošās darbā pieņemšanas pievienojumprogrammu.
-> - Lai iespējotu kandidāta un darba ieteikumu līdzekļus, administratoram ir jāieslēdz to priekšskatījuma opcijas. Administrēšanas centra cilnē **Līdzekļu pārvaldība** pārliecinieties, vai opcija **Priekšskatījuma līdzekļi** ir iestatīta uz **Ieslēgts**. Pēc tam pārliecinieties, vai atsevišķā opcija **Kandidāta ieteikums** un opcija **Darba ieteikums** ir iestatīta uz **Ieslēgts**.
+> - Inteliģento ieteikumu līdzekļi ir pieejami tikai kopā ar [visaptverošo darbā pieņemšanas pievienojumprogrammu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Šajā tēmā minētā funkcionalitāte ir pieejama kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Lai lietotu šo funkciju, lūdziet administratoram iespējot to, izmantojot sadaļu **Administratora iestatījumi** programmā Attract. Iestatiet vienumiem **Kandidāta ieteikums**, **Darba ieteikums** un **Potenciālā kandidāta ieteikums** opciju **Ieslēgts**. Papildinformāciju skatiet tēmā [Piekļuve priekšskatījuma līdzekļiem programmā Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Kandidātu ieteikumi
 
@@ -43,4 +44,15 @@ Ikvienam ieteiktajam kandidātam kandidāta kartītē varat atlasīt **Skatīt k
 
 ## <a name="job-recommendations"></a>Darbu ieteikumi 
 
-Kad potenciālais darbinieks izmanto karjeras vietni, lai pieteiktos kādam darbam, tiek ieteikti citi attiecīgajā organizācijā pieejamie amati. Šie ieteikumi ir balstīti uz potenciālā darba ņēmēja iepriekšējiem pieteikumiem un CV vai kandidāta profilu. Tādēļ darbu ieteikumi palīdz potenciālajiem darba ņēmējiem ātri atpazīt sev vispiemērotākos darbus. Darbu ieteikumi potenciālajiem darba ņēmējiem tiek piedāvāti, ja karjeras vietnē ir publicēti vairāk nekā desmit darbi. Potenciālie darba ņēmēji no ieteikuma kartītes var atvērt detalizētu informāciju par attiecīgo darba sludinājumu. Viņi var arī sniegt atsauksmes par ieteikumiem, lai palīdzētu uzlabot turpmākos ieteikumus.
+Kad potenciālais darbinieks izmanto karjeras vietni, lai pieteiktos kādam darbam, Attract iesaka citus attiecīgajā organizācijā pieejamos amatus. Šie ieteikumi ir balstīti uz potenciālā darba ņēmēja iepriekšējiem pieteikumiem un CV vai kandidāta profilu. Tādēļ darbu ieteikumi palīdz potenciālajiem darba ņēmējiem ātri atpazīt sev vispiemērotākos darbus. Darbu ieteikumi potenciālajiem darba ņēmējiem tiek piedāvāti, ja karjeras vietnē ir publicēti vairāk nekā desmit darbi. Potenciālie darba ņēmēji no ieteikuma kartītes var atvērt detalizētu informāciju par attiecīgo darba sludinājumu. Viņi var arī sniegt atsauksmes par ieteikumiem, lai palīdzētu uzlabot turpmākos ieteikumus.
+
+## <a name="prospect-recommendations"></a>Potenciālo kandidātu ieteikumi 
+
+Kad atbrīvojas jauns amats, visu iepriekšējo pieteikuma iesniedzēju un kandidātu kopuma izskatīšana var aizņemt ilgu laiku. Lai saņemtu programmas Attract palīdzību, varat izmantot viedos algoritmiskās mācīšanās algoritmus. Tas nozīmē, ka Attract izskata visus kandidātus un iesaka atbilstošos kandidātus, tiklīdz izveidojat darbu. Lai skatītu šos ieteikumus, iespējojiet darbam posmu **Potenciālais kandidāts**. Programmai Attract var būt nepieciešams zināms laiks, lai skenētu visu kandidātu datu bāzi un lai sniegtu ieteikumus.
+
+Ieteikumi tiek parādīti kā kartītes cilnē **Potenciālie kandidāti** visiem darbiem, kuriem ir iespējots posms **Potenciālie kandidāti**. Šajās kartītēs ir minētas prasmes, kas norādītas potenciālā kandidāta profilā, kā arī informācija par izglītības kvalifikāciju. Ja atrodat piemērotu ieteikumu, varat pievienot kandidātu kā potenciālu kandidātu attiecīgajam darbam.
+
+> [!NOTE]
+> Ja programmas Attract lietošanu uzsākāt nesen, pirms šīs iespējas izmantošanas ir nepieciešami vismaz 10 kandidāti, kuriem ir pilns profils vai CV.
+
+Lai izvairītos no iespējamas neobjektivitātes ieteikumos, programma Attract skenē kandidātu profilus tikai, lai iegūtu informāciju par prasmēm, kvalifikācijām un citiem atslēgvārdiem, kuri atbilst pienākumu aprakstam. Turklāt Attract pirms novērtēšanas noņem no kandidātu profiliem personas identifikācijas informāciju.

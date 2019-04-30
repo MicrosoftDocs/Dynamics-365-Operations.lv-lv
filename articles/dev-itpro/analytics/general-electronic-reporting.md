@@ -3,14 +3,14 @@ title: Elektronisko atskaišu veidošana (ER)
 description: Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310810"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902964"
 ---
 # <a name="electronic-reporting-er"></a>Elektronisko atskaišu veidošana (ER)
 
@@ -163,21 +163,33 @@ Lai uzzinātu, kā reģistrēt jaunu ER nodrošinātāju, noskatieties uzdevuma
 
 #### <a name="repository"></a>Repozitorijs
 
-ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti četri ER repozitoriju tipi: **Operāciju resursi**, **LCS projekts (LCS)**, **Failu sistēma** un **Regulējošās konfigurācijas pakalpojumi (RCS)**.
+ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi ER repozitoriju tipi: 
 
-Repozitorijs **Operācijas resursi** nodrošina piekļuvi to konfigurāciju sarakstam, ko korporācija Microsoft kā ER konfigurāciju nodrošinātājs ir izlaidusi Finance and Operations risinājuma ietvaros. Šīs konfigurācijas var importēt pašreizējā Finance and Operations instancē un izmantot elektronisko pārskatu veidošanai. Tās var izmantot arī papildu lokalizācijām un pielāgojumiem.
+- LCS koplietojamā bibliotēka
+- LCS projekts
+- Failu sistēma
+- Regulatory Configuration Services (RCS)
+- Operāciju resursi
+
+
+Repozitorijs **LCS koplietotā bibliotēka** nodrošina piekļuvi konfigurāciju sarakstam koplietojamo līdzekļu bibliotēkā pakalpojumā Lifecycle Services (LCS). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS koplietojamo līdzekļu bibliotēkas jaunākās ER konfigurāciju versijas var importēt pašreizējā Finance and Operations instancē.
 
 Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts repozitorija reģistrācijas posmā. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās Finance and Operations instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Konfigurācijas varat arī importēt no repozitorija **LCS projekts** pašreizējā Finance and Operations instancē.
 
-Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā Finance and Operations instancē. Ņemiet vērā, ka šī veida repozitorijam var piekļūt tālāk norādītajās Dynamics 365 for Finance and Operations vidēs.
-- mākoņvides, kas izvietotas izstrādes nolūkos (satur pievienoto komplektu pārbaudes modeļus)
-- lokāli izvietotas vides (lokāla vai vietēja biznesa datu izvietošana (LBD))
+Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā Finance and Operations instancē. 
 
-Papildinformāciju skatiet lapā [Importēt elektronisko pārskatu (ER) konfigurācijas](./electronic-reporting-import-ger-configurations.md).
+Ņemiet vērā, ka šī veida repozitorijam var piekļūt tālāk norādītajās Dynamics 365 for Finance and Operations vidēs.
 
-Repozitorijs **RCS instance** nodrošina piekļuvi noteiktas RCS instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigur. no atlasītās RCS inst. pašreizējā Finance and Operations instancē un izmantot elektronisko pārskatu veidošanā.
+- Mākoņvides, kas izvietotas izstrādes nolūkos (satur pievienoto komplektu pārbaudes modeļus)
+- Lokāli izvietotas vides 
 
-Papildinformāciju skatiet lapā [Importēt elektronisko pārskatu (ER) konfigurācijas no regulējošās konfigurācijas pakalpojumiem (RCS)](./rcs-download-configurations.md).
+Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju importēšana](./electronic-reporting-import-ger-configurations.md).
+
+Repozitorijs **RCS instance** nodrošina piekļuvi noteiktas RCS instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigurācijas no atlasītās RCS instances pašreizējā Finance and Operations instancē, lai tās varētu izmantot elektronisko pārskatu veidošanai.
+
+Papildinformāciju skatiet tēmā [Importēt elektronisko pārskatu (ER) konfigurācijas no Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+
+Repozitorijs **Operācijas resursi** nodrošina piekļuvi to konfigurāciju sarakstam, ko korporācija Microsoft kā ER konfigurāciju nodrošinātājs ir sākotnēji izlaidusi Finance and Operations risinājuma ietvaros. Šīs konfigurācijas var importēt pašreizējā Finance and Operations instancē un izmantot elektronisko pārskatu veidošanai vai paraugu uzdevumu ceļvežu atskaņošanai. Tās var izmantot arī papildu lokalizācijām un pielāgojumiem. Ņemiet vērā, ka jaunākās versijas, ko nodrošina Microsoft ER konfigurācijas, ir jāimportē no LCS koplietojamo līdzekļu bibliotēkas, izmantojot attiecīgo ER repozitoriju.
 
 Nepiec. repozitorijus **LCS projekts**, **Failu sistēma** un **Regulējošās konfigurācijas pakalpojumi (RCS)** var atsevišķi reģ. katram pašreizējās Finance and Operations instances konfigurāciju nodrošinātājam. Katru repozitoriju var piešķirt noteiktam konfigurācijas nodrošinātājam.
 
@@ -377,6 +389,5 @@ ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automāt
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Lokalizācijas prasības — izveidot elektronisko atskaišu konfigurāciju](electronic-reporting-configuration.md)
-
-[Elektronisko atskaišu veidošanas konfigurācijas dzīves cikla pārvaldīšana](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Lokalizācijas prasības — izveidot elektronisko atskaišu konfigurāciju](electronic-reporting-configuration.md)
+- [Elektronisko atskaišu veidošanas konfigurācijas dzīves cikla pārvaldīšana](general-electronic-reporting-manage-configuration-lifecycle.md)

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353820"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842726"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -93,7 +93,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 614 | Rediģēt debitora pasūtījumu | Atsaukt atlasīto pasūtījumu, lai to varētu izmainīt POS sistēmā. | Nē | Nē | Nē | Nē | Nē |
 | 615 | Rediģēt piedāvājumu | Atsaukt atlasīto piedāvājumu, lai to varētu izmainīt POS sistēmā. | Nē | Nē | Nē | Nē | Nē |
 | 518 | Izdevumu konti | Reģistrējiet naudas summu, kas tiek izņemta no naudas kastes neparedzētu izdevumu segšanai. | Jā | Jā | Jā | Jā | Nē |
-| 919 | Paplašinātā pieteikšanās | Piešķirt vai noņemt atļauju pierakstīties, skenējot svītrkodu vai novelkot karti. | Jā | Jā | Jā | Nē | Nē |
+| 919 | Paplašinātā pieteikšanās | Piešķirt vai noņemt atļauju pierakstīties, skenējot svītrkodu vai novelkot karti. | Jā | Jā | Jā | Jā | Nē |
 | 1201 | Mainīgais ieraksts | Šī operācija sniedz lietotājam iespēju pievienot papildu naudu pašreizējā naudas kastē vai maiņā. | Jā | Jā | Jā | Jā | Nē |
 | 1218 | Veikt perifērijas ierīces piespiedu atbloķēšanu | Šī operācija tiek iekšēji izmantota sistēmā, lai atbloķētu POS perifērijas ierīces. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 520 | Dāvanu kartes bilance | Parādīt dāvanu kartes bilanci. | Jā | Jā | Nē | Nē | Nē |

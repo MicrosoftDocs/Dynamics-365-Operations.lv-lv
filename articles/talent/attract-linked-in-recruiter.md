@@ -1,7 +1,7 @@
 ---
-title: Kandidātu piesaiste, izmantojot LinkedIn Recruiter
+title: Avoti, izmantojot LinkedIn Recruiter
 description: Šajā tēmā ir sniegta informācija par algoritmiskās mācīšanās izmantošanu, lai iegūtu darba un amata kandidātu ieteikumus.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,23 +10,23 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305265"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859578"
 ---
-# <a name="sourcing-with-linkedin-recruiter"></a>Kandidātu piesaiste, izmantojot LinkedIn Recruiter
+# <a name="sourcing-with-linkedin-recruiter"></a>Avoti, izmantojot LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
 LinkedIn ir pasaulē lielākā potenciālo kandidātu datu bāze un bieži vien galvenā sistēma, ko izmanto personāla atlases darbinieki, lai atrastu kandidātus aktuālajām vakancēm, sazinātos ar šiem kandidātiem un piesaistītu viņus. LinkedIn Recruiter integrācija programmā Dynamics 365 for Talent: Attract atvieglo pieņemšanu darbā un datu sinhronizāciju abās sistēmās.
@@ -34,7 +34,7 @@ LinkedIn ir pasaulē lielākā potenciālo kandidātu datu bāze un bieži vien 
 > [!NOTE]
 > Lai varētu izmantot LinkedIn Recruiter integrāciju ar Attract, ir nepieciešams visaptverošais darbā pieņemšanas papildinājums un LinkedIn Recruiter licences.
 
-## <a name="set-up-linkedin-recruiter-with-attract"></a>LinkedIn Recruiter iestatīšana programmā Attract 
+## <a name="set-up-linkedin-recruiter-with-attract"></a>LinkedIn Recruiter iestatīšana ar Attract 
 
 Lai varētu izmantot LinkedIn Recruiter iespējas, vispirms Attract instancē ir jākonfigurē līguma līmeņa vai uzņēmuma līmeņa piekļuve. Lai pabeigtu konfigurēšanas procesu, ir jāizmanto lietotāja konts, kas LinkedIn Recruiter līgumā ir norādīts kā administrators. Veiciet tālāk norādītās darbības, lai konfigurētu LinkedIn Recruiter programmā Attract.
 
@@ -74,7 +74,7 @@ Tiek parādīta sistēma Attract un dažas opcijas, ko var ieslēgt.
 
 [![LinkedIn Recruiter integrācija ir pabeigta](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
 
-## <a name="using-linkedin-recruiter-capabilities"></a>LinkedIn Recruiter iespēju lietošana
+## <a name="using-linkedin-recruiter-capabilities"></a>LinkedIn Recruiter iespēju izmantošana
 
 Kad Attract administrators ir iespējojis LinkedIn Recruiter iespējas, tām var piekļūt par pieņemšanu darbā atbildīgie vadītāji un personāla atlases darbinieki. Lai izmantotu šīs iespējas, sadaļā **Lietotāja iestatījumi** izveidojiet savienojumu ar savu LinkedIn kontu. Dažas iespējas kļūst pieejamas pēc tam, kad ir izveidots savienojums gan administratora, gan lietotāja iestatījumu sadaļā.
 
@@ -132,11 +132,11 @@ Lai skatītu InMail vēsturi, pārejiet uz kandidāta profilu, pārejiet uz ciln
 
 ### <a name="notes-history"></a>Piezīmju vēsture 
 
-LinkedIn piezīmju vēsture ir pieejama tad, ja ir pieejama līguma līmeņa piekļuve pakalpojumam LinkedIn Recruiter. Ja ir iespējots šis līdzeklis, varat skatīt piezīmes par kandidātu, kuras ir saglabājuši dažādi jūsu organizācijas personāla atlases darbinieki.
+LinkedIn piezīmju vēsture ir pieejama tad, ja ir iespējota līguma līmeņa piekļuve pakalpojumam LinkedIn Recruiter. Ja ir iespējots šis līdzeklis, varat skatīt piezīmes par kandidātu, kuras ir saglabājuši dažādi jūsu organizācijas personāla atlases darbinieki.
 
 Lai skatītu piezīmju vēsturi, pārejiet uz kandidāta profilu, atveriet cilni **LinkedIn** un ritiniet līdz lapas apakšdaļai, kur ir pieejama vēsture. Varat skatīt visas piezīmes par kandidātu pakalpojumā LinkedIn Recruiter.
 
-### <a name="inmail-stub-profile"></a>InMailpasakņa profils
+### <a name="inmail-stub-profile"></a>InMail pasakņa profils
 
 InMail pasakņa profils ir pieejams tad, ja ir iespējota līguma līmeņa piekļuve pakalpojumam LinkedIn Recruiter. Ja kandidāti piekrīt kopīgot savu LinkedIn profilu ar jebkuru jūsu organizācijas lietotāju, jūs varat izsekot kandidātus programmā Attract un katram kandidātam tiek izveidots jauns kandidāta ieraksts. Kandidāta e-pasta adresi varat skatīt, ja kandidāts ar e-pasta adresi jau ir reģistrēts sistēmā vai ir izvēlējies koplietot adresi ar personāla atlases darbinieku.
 
