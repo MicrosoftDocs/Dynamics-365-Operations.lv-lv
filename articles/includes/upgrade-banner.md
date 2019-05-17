@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="6ee69-101">Šis līdzeklis pašlaik ir pieejams tikai pēc uzaicinājuma.</span><span class="sxs-lookup"><span data-stu-id="6ee69-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="6ee69-102">Lai izvirzītu jūsu organizāciju dalībai, lūdzu, aizpildiet [šo aptauju](https://aka.ms/ax2012upgrade).</span><span class="sxs-lookup"><span data-stu-id="6ee69-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
