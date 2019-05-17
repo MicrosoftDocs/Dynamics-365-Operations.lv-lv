@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 39133474b4a66e53a5525e7c90216342a6f9ed34
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859878"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517120"
 ---
 # <a name="welcome-to-dynamics-365-for-talent"></a>Laipni lūdzam programmā Dynamics 365 for Talent!
 
@@ -71,7 +71,7 @@ Programmā Dynamics 365 for Talent ir ietverta programma Attract, kas var palīd
 
 Varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
 
--   [Atlīdzības plāni](compensation-plans.md)
+-   [Kompensācijas plāni](compensation-plans.md)
 -   [Procesa kompensācija](process-compensation.md)
 -   [Fiksētās atlīdzības plānu izveidošana](create-fixed-compensation-plans.md)
 -   [Mainīgās atlīdzības plānu izveidošana](create-variable-compensation-plans.md)

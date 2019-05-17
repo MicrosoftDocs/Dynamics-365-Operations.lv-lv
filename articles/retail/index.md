@@ -1,26 +1,30 @@
 ---
-# required metadata
 title: Laipni lūdzam programmā Dynamics 365 for Retail!
 description: Sākumlapa programmai Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: null
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 'Core, Operations, Retail'
-ms.custom: null
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 3b7bad688103db469965e41b2fdc7228fcddc04f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517122"
 ---
-
 # <a name="welcome-to-dynamics-365-for-retail"></a>Laipni lūdzam programmā Dynamics 365 for Retail!
 
 [!include [banner](includes/banner.md)]

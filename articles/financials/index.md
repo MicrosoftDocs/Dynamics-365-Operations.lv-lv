@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Finanšu pārvaldības sākumlapa
 description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d57d3bdc5354823888d695ed6bf734584bff95d1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513269"
 ---
-
 # <a name="financial-management-home-page"></a>Finanšu pārvaldības sākumlapa
 
 [!include [banner](includes/banner.md)]
@@ -30,8 +34,8 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 :::row:::
     :::column:::
-        - [Parādi kreditoriem](accounts-payable/accounts-payable.md) 
-        - [Debitoru parādi](accounts-receivable/accounts-receivable.md)
+        - [Kreditori](accounts-payable/accounts-payable.md) 
+        - [Debitori](accounts-receivable/accounts-receivable.md)
         - [Budžeta veidošana](budgeting/budgeting-overview.md) 
         - [Kases un bankas vadība](cash-bank-management/cash-bank-management.md)
         - [Izmaksu uzskaite](cost-accounting/cost-accounting-home-page.md)
