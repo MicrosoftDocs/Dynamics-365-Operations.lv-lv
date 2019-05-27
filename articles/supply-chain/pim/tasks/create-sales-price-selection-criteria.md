@@ -17,40 +17,40 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1ce4388cc4bea8314e131690409ad181c9174bcc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336064"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567772"
 ---
-# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="c116c-103">Pārdošanas cenu atlases kritēriju izveide</span><span class="sxs-lookup"><span data-stu-id="c116c-103">Create sales price selection criteria</span></span>
+# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="67c14-103">Pārdošanas cenu atlases kritēriju izveide</span><span class="sxs-lookup"><span data-stu-id="67c14-103">Create sales price selection criteria</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c116c-104">Šajā procedūrā parādīts kā izveidot pārdošanas cenas atlases kritēriju atribūtam atbilstošu pārdošanas cenu modeļiem.</span><span class="sxs-lookup"><span data-stu-id="c116c-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="c116c-105">Šīs procedūras veikšanai ir nepieciešams, lai vismaz viens pārdošanas cenu modelis būtu pieejams.</span><span class="sxs-lookup"><span data-stu-id="c116c-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="c116c-106">Šajā piemērā tiek izmantots cenu modelis Skaļruņa risinājuma pārdošanas cenas modelis demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="c116c-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="c116c-107">Parasti produktu menedžeris izmanto šo procedūru.</span><span class="sxs-lookup"><span data-stu-id="c116c-107">Typically, a product manager uses this procedure.</span></span>
+<span data-ttu-id="67c14-104">Šajā procedūrā parādīts kā izveidot pārdošanas cenas atlases kritēriju atribūtam atbilstošu pārdošanas cenu modeļiem.</span><span class="sxs-lookup"><span data-stu-id="67c14-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="67c14-105">Šīs procedūras veikšanai ir nepieciešams, lai vismaz viens pārdošanas cenu modelis būtu pieejams.</span><span class="sxs-lookup"><span data-stu-id="67c14-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="67c14-106">Šajā piemērā tiek izmantots cenu modelis Skaļruņa risinājuma pārdošanas cenas modelis demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="67c14-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="67c14-107">Parasti produktu menedžeris izmanto šo procedūru.</span><span class="sxs-lookup"><span data-stu-id="67c14-107">Typically, a product manager uses this procedure.</span></span>
 
 
-## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="c116c-108">Jauna kritērija pievienošana esošajam pārdošanas cenas modelim</span><span class="sxs-lookup"><span data-stu-id="c116c-108">Add a new criterion for an existing sales price model</span></span>
-1. <span data-ttu-id="c116c-109">Noklikšķiniet uz Preces varianta modeļa definīcija.</span><span class="sxs-lookup"><span data-stu-id="c116c-109">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="c116c-110">Noklikšķiniet uz Preču konfigurācijas modeļi.</span><span class="sxs-lookup"><span data-stu-id="c116c-110">Click Product configuration models.</span></span>
-3. <span data-ttu-id="c116c-111">Sarakstā atlasiet rindu Skaļruņa risinājuma preces modelim, bet nenoklikšķiniet uz modeļa nosaukuma saites.</span><span class="sxs-lookup"><span data-stu-id="c116c-111">In the list, select the row for the Speaker solution product model, but don’t click the link for the model name.</span></span>
-4. <span data-ttu-id="c116c-112">Darbību rūtī noklikšķiniet uz Modelis.</span><span class="sxs-lookup"><span data-stu-id="c116c-112">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="c116c-113">Noklikšķiniet uz Cenas modeļa kritēriji.</span><span class="sxs-lookup"><span data-stu-id="c116c-113">Click Price model criteria.</span></span>
-6. <span data-ttu-id="c116c-114">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c116c-114">Click New.</span></span>
-7. <span data-ttu-id="c116c-115">Laukā Nosaukums ierakstiet 'Debitoru grupa 10'.</span><span class="sxs-lookup"><span data-stu-id="c116c-115">In the Name field, type ‘Customer group 10’.</span></span>
-    * <span data-ttu-id="c116c-116">Cenas modeļa kritērija nosaukums tiek izmantots, lai palīdzētu identificēt pamata atlases kritērijus.</span><span class="sxs-lookup"><span data-stu-id="c116c-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
-8. <span data-ttu-id="c116c-117">Laukā Cenas modelis ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c116c-117">In the Price model field, enter or select a value.</span></span>
-9. <span data-ttu-id="c116c-118">Laukā Pasūtījuma tips atlasiet Pārdošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="c116c-118">In the Order type field, select Sales order.</span></span>
-    * <span data-ttu-id="c116c-119">Pasūtījuma tips nosaka datu bāzes laukus, kas būs pieejami atlases vaicājumā.</span><span class="sxs-lookup"><span data-stu-id="c116c-119">The order type determines the database fields that will be available for the selection query.</span></span>  
-10. <span data-ttu-id="c116c-120">Laukā Spēkā no ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="c116c-120">In the Valid from field, enter a date.</span></span>
-11. <span data-ttu-id="c116c-121">Laukā Beidzas pēc ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="c116c-121">In the Expire by field, enter a date.</span></span>
-12. <span data-ttu-id="c116c-122">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c116c-122">Click Save.</span></span>
+## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="67c14-108">Jauna kritērija pievienošana esošajam pārdošanas cenas modelim</span><span class="sxs-lookup"><span data-stu-id="67c14-108">Add a new criterion for an existing sales price model</span></span>
+1. <span data-ttu-id="67c14-109">Noklikšķiniet uz Preces varianta modeļa definīcija.</span><span class="sxs-lookup"><span data-stu-id="67c14-109">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="67c14-110">Noklikšķiniet uz Preču konfigurācijas modeļi.</span><span class="sxs-lookup"><span data-stu-id="67c14-110">Click Product configuration models.</span></span>
+3. <span data-ttu-id="67c14-111">Sarakstā atlasiet rindu Skaļruņa risinājuma preces modelim, bet nenoklikšķiniet uz modeļa nosaukuma saites.</span><span class="sxs-lookup"><span data-stu-id="67c14-111">In the list, select the row for the Speaker solution product model, but don’t click the link for the model name.</span></span>
+4. <span data-ttu-id="67c14-112">Darbību rūtī noklikšķiniet uz Modelis.</span><span class="sxs-lookup"><span data-stu-id="67c14-112">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="67c14-113">Noklikšķiniet uz Cenas modeļa kritēriji.</span><span class="sxs-lookup"><span data-stu-id="67c14-113">Click Price model criteria.</span></span>
+6. <span data-ttu-id="67c14-114">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="67c14-114">Click New.</span></span>
+7. <span data-ttu-id="67c14-115">Laukā Nosaukums ierakstiet 'Debitoru grupa 10'.</span><span class="sxs-lookup"><span data-stu-id="67c14-115">In the Name field, type ‘Customer group 10’.</span></span>
+    * <span data-ttu-id="67c14-116">Cenas modeļa kritērija nosaukums tiek izmantots, lai palīdzētu identificēt pamata atlases kritērijus.</span><span class="sxs-lookup"><span data-stu-id="67c14-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
+8. <span data-ttu-id="67c14-117">Laukā Cenas modelis ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="67c14-117">In the Price model field, enter or select a value.</span></span>
+9. <span data-ttu-id="67c14-118">Laukā Pasūtījuma tips atlasiet Pārdošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="67c14-118">In the Order type field, select Sales order.</span></span>
+    * <span data-ttu-id="67c14-119">Pasūtījuma tips nosaka datu bāzes laukus, kas būs pieejami atlases vaicājumā.</span><span class="sxs-lookup"><span data-stu-id="67c14-119">The order type determines the database fields that will be available for the selection query.</span></span>  
+10. <span data-ttu-id="67c14-120">Laukā Spēkā no ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="67c14-120">In the Valid from field, enter a date.</span></span>
+11. <span data-ttu-id="67c14-121">Laukā Beidzas pēc ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="67c14-121">In the Expire by field, enter a date.</span></span>
+12. <span data-ttu-id="67c14-122">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="67c14-122">Click Save.</span></span>
 
-## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="c116c-123">Izveidot vaicājumu atlases kritērijiem</span><span class="sxs-lookup"><span data-stu-id="c116c-123">Create the query for the selection criteria</span></span>
-1. <span data-ttu-id="c116c-124">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="c116c-124">Click Edit.</span></span>
-2. <span data-ttu-id="c116c-125">Laukā Tabula atlasiet Debitorus.</span><span class="sxs-lookup"><span data-stu-id="c116c-125">In the Table field, select Customers.</span></span> 
-3. <span data-ttu-id="c116c-126">Laukā Lauks atlasiet Debitoru grupu.</span><span class="sxs-lookup"><span data-stu-id="c116c-126">In the Field field, select Customer group.</span></span>
-    * <span data-ttu-id="c116c-127">Šajā piemērā atlases kritērijiem tiks izmantota noteikta debitoru grupa.</span><span class="sxs-lookup"><span data-stu-id="c116c-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
-4. <span data-ttu-id="c116c-128">Laukā Kritēriji atlasiet debitoru grupu 10.</span><span class="sxs-lookup"><span data-stu-id="c116c-128">In the Criteria field, select Customer group 10.</span></span> 
-5. <span data-ttu-id="c116c-129">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="c116c-129">Click OK.</span></span>
+## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="67c14-123">Izveidot vaicājumu atlases kritērijiem</span><span class="sxs-lookup"><span data-stu-id="67c14-123">Create the query for the selection criteria</span></span>
+1. <span data-ttu-id="67c14-124">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="67c14-124">Click Edit.</span></span>
+2. <span data-ttu-id="67c14-125">Laukā Tabula atlasiet Debitorus.</span><span class="sxs-lookup"><span data-stu-id="67c14-125">In the Table field, select Customers.</span></span> 
+3. <span data-ttu-id="67c14-126">Laukā Lauks atlasiet Debitoru grupu.</span><span class="sxs-lookup"><span data-stu-id="67c14-126">In the Field field, select Customer group.</span></span>
+    * <span data-ttu-id="67c14-127">Šajā piemērā atlases kritērijiem tiks izmantota noteikta debitoru grupa.</span><span class="sxs-lookup"><span data-stu-id="67c14-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
+4. <span data-ttu-id="67c14-128">Laukā Kritēriji atlasiet debitoru grupu 10.</span><span class="sxs-lookup"><span data-stu-id="67c14-128">In the Criteria field, select Customer group 10.</span></span> 
+5. <span data-ttu-id="67c14-129">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="67c14-129">Click OK.</span></span>
 

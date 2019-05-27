@@ -17,60 +17,60 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4b9ef0026129d958b4214bb6e235c288de023d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321367"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566653"
 ---
-# <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="eca79-103">Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīšanai</span><span class="sxs-lookup"><span data-stu-id="eca79-103">Generate a transfer document for an internal inventory transfer</span></span>
+# <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="0f5f1-103">Pārsūtīšanas dokumentu ģenerēšana iekšējo krājumu pārsūtīšanai</span><span class="sxs-lookup"><span data-stu-id="0f5f1-103">Generate a transfer document for an internal inventory transfer</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="eca79-104">Šajā procedūrā ir aprakstīts, kā izveidot preču kustības uzņēmuma robežās pārsūtīšanas dokumentus.</span><span class="sxs-lookup"><span data-stu-id="eca79-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="eca79-105">Šī procedūra ir pieejama tikai juridiskām personām, kuru primārā adrese ir Lietuvā.</span><span class="sxs-lookup"><span data-stu-id="eca79-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="eca79-106">Šī procedūra ir izveidota, izmantojot demonstrācijas datu uzņēmumu DEMF, kura primārā adrese ir Lietuvā.</span><span class="sxs-lookup"><span data-stu-id="eca79-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="eca79-107">Lai varētu pabeigt šo procedūru, ir jāizpilda procedūra “Iestatīt preču kustības uzņēmuma robežās pārsūtīšanas dokumentus”.</span><span class="sxs-lookup"><span data-stu-id="eca79-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="eca79-108">Šī procedūra ir paredzēta krājumu grāmatvežiem.</span><span class="sxs-lookup"><span data-stu-id="eca79-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="eca79-109">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="eca79-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="0f5f1-104">Šajā procedūrā ir aprakstīts, kā izveidot preču kustības uzņēmuma robežās pārsūtīšanas dokumentus.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="0f5f1-105">Šī procedūra ir pieejama tikai juridiskām personām, kuru primārā adrese ir Lietuvā.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="0f5f1-106">Šī procedūra ir izveidota, izmantojot demonstrācijas datu uzņēmumu DEMF, kura primārā adrese ir Lietuvā.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="0f5f1-107">Lai varētu pabeigt šo procedūru, ir jāizpilda procedūra “Iestatīt preču kustības uzņēmuma robežās pārsūtīšanas dokumentus”.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="0f5f1-108">Šī procedūra ir paredzēta krājumu grāmatvežiem.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="0f5f1-109">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-transfer-order"></a><span data-ttu-id="eca79-110">Izveidot pārsūtīšanas pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="eca79-110">Create a transfer order</span></span>
-1. <span data-ttu-id="eca79-111">Dodieties uz sadaļu Krājumu pārvaldība > Ienākošie pasūtījumi > Pārsūtīšanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="eca79-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
-2. <span data-ttu-id="eca79-112">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="eca79-112">Click New.</span></span>
-3. <span data-ttu-id="eca79-113">Laukā No noliktavas ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-113">In the From warehouse field, enter or select a value.</span></span>
-4. <span data-ttu-id="eca79-114">Laukā Uz noliktavu ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-114">In the To warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="eca79-115">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="eca79-115">Click Add.</span></span>
-6. <span data-ttu-id="eca79-116">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="eca79-116">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="eca79-117">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-117">In the Item number field, enter or select a value.</span></span>
+## <a name="create-a-transfer-order"></a><span data-ttu-id="0f5f1-110">Izveidot pārsūtīšanas pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="0f5f1-110">Create a transfer order</span></span>
+1. <span data-ttu-id="0f5f1-111">Dodieties uz sadaļu Krājumu pārvaldība > Ienākošie pasūtījumi > Pārsūtīšanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
+2. <span data-ttu-id="0f5f1-112">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-112">Click New.</span></span>
+3. <span data-ttu-id="0f5f1-113">Laukā No noliktavas ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-113">In the From warehouse field, enter or select a value.</span></span>
+4. <span data-ttu-id="0f5f1-114">Laukā Uz noliktavu ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-114">In the To warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="0f5f1-115">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-115">Click Add.</span></span>
+6. <span data-ttu-id="0f5f1-116">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-116">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="0f5f1-117">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-117">In the Item number field, enter or select a value.</span></span>
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="eca79-118">Ievadīt pārsūtīšanas pasūtījuma transportēšanas datus</span><span class="sxs-lookup"><span data-stu-id="eca79-118">Enter transportation details for the transfer order</span></span>
-1. <span data-ttu-id="eca79-119">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="eca79-119">Click Save.</span></span>
-2. <span data-ttu-id="eca79-120">Darbību rūtī noklikšķiniet uz Sūtīt.</span><span class="sxs-lookup"><span data-stu-id="eca79-120">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="eca79-121">Noklikšķiniet uz Transportēšanas dati.</span><span class="sxs-lookup"><span data-stu-id="eca79-121">Click Transportation details.</span></span>
-4. <span data-ttu-id="eca79-122">Laukā Drukāt transportēšanas datus atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="eca79-122">Select Yes in the Print transportation details field.</span></span>
-5. <span data-ttu-id="eca79-123">Laukā Preces izsniedza ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-123">In the Goods issued by field, enter or select a value.</span></span>
-6. <span data-ttu-id="eca79-124">Laukā Iepakojums ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-124">In the Package field, type a value.</span></span>
-7. <span data-ttu-id="eca79-125">Ievadiet vērtību laukā Noslodzes riska līmenis.</span><span class="sxs-lookup"><span data-stu-id="eca79-125">In the Risk level of the load field, type a value.</span></span>
-8. <span data-ttu-id="eca79-126">Ievadiet vai atlasiet vērtību laukā Pārvadātājs.</span><span class="sxs-lookup"><span data-stu-id="eca79-126">In the Carrier field, enter or select a value.</span></span>
-9. <span data-ttu-id="eca79-127">Ievadiet vai atlasiet vērtību laukā Modelis.</span><span class="sxs-lookup"><span data-stu-id="eca79-127">In the Model field, enter or select a value.</span></span>
-10. <span data-ttu-id="eca79-128">Laukā Reģistrācijas numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-128">In the Registration number field, type a value.</span></span>
-11. <span data-ttu-id="eca79-129">Ievadiet vērtību laukā Piekabes reģistrācijas numurs.</span><span class="sxs-lookup"><span data-stu-id="eca79-129">In the Trailer registration number field, type a value.</span></span>
-12. <span data-ttu-id="eca79-130">Ievadiet vai atlasiet vērtību laukā Transportlīdzekļa vadītājs.</span><span class="sxs-lookup"><span data-stu-id="eca79-130">In the Driver field, enter or select a value.</span></span>
-13. <span data-ttu-id="eca79-131">Laukā Autovadītāja vārds ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="eca79-131">In the Driver name field, type a value.</span></span>
-14. <span data-ttu-id="eca79-132">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="eca79-132">Click Save.</span></span>
-15. <span data-ttu-id="eca79-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="eca79-133">Close the page.</span></span>
+## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="0f5f1-118">Ievadīt pārsūtīšanas pasūtījuma transportēšanas datus</span><span class="sxs-lookup"><span data-stu-id="0f5f1-118">Enter transportation details for the transfer order</span></span>
+1. <span data-ttu-id="0f5f1-119">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-119">Click Save.</span></span>
+2. <span data-ttu-id="0f5f1-120">Darbību rūtī noklikšķiniet uz Sūtīt.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-120">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="0f5f1-121">Noklikšķiniet uz Transportēšanas dati.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-121">Click Transportation details.</span></span>
+4. <span data-ttu-id="0f5f1-122">Laukā Drukāt transportēšanas datus atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-122">Select Yes in the Print transportation details field.</span></span>
+5. <span data-ttu-id="0f5f1-123">Laukā Preces izsniedza ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-123">In the Goods issued by field, enter or select a value.</span></span>
+6. <span data-ttu-id="0f5f1-124">Laukā Iepakojums ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-124">In the Package field, type a value.</span></span>
+7. <span data-ttu-id="0f5f1-125">Ievadiet vērtību laukā Noslodzes riska līmenis.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-125">In the Risk level of the load field, type a value.</span></span>
+8. <span data-ttu-id="0f5f1-126">Ievadiet vai atlasiet vērtību laukā Pārvadātājs.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-126">In the Carrier field, enter or select a value.</span></span>
+9. <span data-ttu-id="0f5f1-127">Ievadiet vai atlasiet vērtību laukā Modelis.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-127">In the Model field, enter or select a value.</span></span>
+10. <span data-ttu-id="0f5f1-128">Laukā Reģistrācijas numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-128">In the Registration number field, type a value.</span></span>
+11. <span data-ttu-id="0f5f1-129">Ievadiet vērtību laukā Piekabes reģistrācijas numurs.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-129">In the Trailer registration number field, type a value.</span></span>
+12. <span data-ttu-id="0f5f1-130">Ievadiet vai atlasiet vērtību laukā Transportlīdzekļa vadītājs.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-130">In the Driver field, enter or select a value.</span></span>
+13. <span data-ttu-id="0f5f1-131">Laukā Autovadītāja vārds ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-131">In the Driver name field, type a value.</span></span>
+14. <span data-ttu-id="0f5f1-132">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-132">Click Save.</span></span>
+15. <span data-ttu-id="0f5f1-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-133">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="eca79-134">Skatīt negrāmatotā pārsūtīšanas pasūtījuma pavadzīmi</span><span class="sxs-lookup"><span data-stu-id="eca79-134">View the packing slip for the unposted transfer order</span></span>
-1. <span data-ttu-id="eca79-135">Noklikšķiniet uz Pavadzīme.</span><span class="sxs-lookup"><span data-stu-id="eca79-135">Click Packing slip.</span></span>
-2. <span data-ttu-id="eca79-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="eca79-136">Click OK.</span></span>
-3. <span data-ttu-id="eca79-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="eca79-137">Close the page.</span></span>
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="0f5f1-134">Skatīt negrāmatotā pārsūtīšanas pasūtījuma pavadzīmi</span><span class="sxs-lookup"><span data-stu-id="0f5f1-134">View the packing slip for the unposted transfer order</span></span>
+1. <span data-ttu-id="0f5f1-135">Noklikšķiniet uz Pavadzīme.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-135">Click Packing slip.</span></span>
+2. <span data-ttu-id="0f5f1-136">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-136">Click OK.</span></span>
+3. <span data-ttu-id="0f5f1-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-137">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="eca79-138">Skatīt grāmatotā pārsūtīšanas pasūtījuma pavadzīmi</span><span class="sxs-lookup"><span data-stu-id="eca79-138">View the packing slip for the posted transfer order</span></span>
-1. <span data-ttu-id="eca79-139">Darbību rūtī noklikšķiniet uz Pārsūtīšanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="eca79-139">On the Action Pane, click Transfer order.</span></span>
-2. <span data-ttu-id="eca79-140">Darbību rūtī noklikšķiniet uz Sūtīt.</span><span class="sxs-lookup"><span data-stu-id="eca79-140">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="eca79-141">Noklikšķiniet uz Nosūtīt pārsūtīšanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="eca79-141">Click Ship transfer order.</span></span>
-4. <span data-ttu-id="eca79-142">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="eca79-142">Click the General tab.</span></span>
-5. <span data-ttu-id="eca79-143">Atlasiet opciju laukā Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="eca79-143">In the Update field, select an option.</span></span>
-6. <span data-ttu-id="eca79-144">Noklikšķiniet uz cilnes Apskats.</span><span class="sxs-lookup"><span data-stu-id="eca79-144">Click the Overview tab.</span></span>
-7. <span data-ttu-id="eca79-145">Ierakstiet vērtību laukā Pavadzīme.</span><span class="sxs-lookup"><span data-stu-id="eca79-145">In the Packing slip field, type a value.</span></span>
-8. <span data-ttu-id="eca79-146">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="eca79-146">Click OK.</span></span>
-9. <span data-ttu-id="eca79-147">Darbību rūtī noklikšķiniet uz Sūtīt.</span><span class="sxs-lookup"><span data-stu-id="eca79-147">On the Action Pane, click Ship.</span></span>
-10. <span data-ttu-id="eca79-148">Noklikšķiniet uz Pavadzīme.</span><span class="sxs-lookup"><span data-stu-id="eca79-148">Click Packing slip.</span></span>
-11. <span data-ttu-id="eca79-149">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="eca79-149">Click OK.</span></span>
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="0f5f1-138">Skatīt grāmatotā pārsūtīšanas pasūtījuma pavadzīmi</span><span class="sxs-lookup"><span data-stu-id="0f5f1-138">View the packing slip for the posted transfer order</span></span>
+1. <span data-ttu-id="0f5f1-139">Darbību rūtī noklikšķiniet uz Pārsūtīšanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-139">On the Action Pane, click Transfer order.</span></span>
+2. <span data-ttu-id="0f5f1-140">Darbību rūtī noklikšķiniet uz Sūtīt.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-140">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="0f5f1-141">Noklikšķiniet uz Nosūtīt pārsūtīšanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-141">Click Ship transfer order.</span></span>
+4. <span data-ttu-id="0f5f1-142">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-142">Click the General tab.</span></span>
+5. <span data-ttu-id="0f5f1-143">Atlasiet opciju laukā Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-143">In the Update field, select an option.</span></span>
+6. <span data-ttu-id="0f5f1-144">Noklikšķiniet uz cilnes Apskats.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-144">Click the Overview tab.</span></span>
+7. <span data-ttu-id="0f5f1-145">Ierakstiet vērtību laukā Pavadzīme.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-145">In the Packing slip field, type a value.</span></span>
+8. <span data-ttu-id="0f5f1-146">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-146">Click OK.</span></span>
+9. <span data-ttu-id="0f5f1-147">Darbību rūtī noklikšķiniet uz Sūtīt.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-147">On the Action Pane, click Ship.</span></span>
+10. <span data-ttu-id="0f5f1-148">Noklikšķiniet uz Pavadzīme.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-148">Click Packing slip.</span></span>
+11. <span data-ttu-id="0f5f1-149">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0f5f1-149">Click OK.</span></span>
 

@@ -17,42 +17,42 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b842d76d2c02b7f5daa45c5a34c8f61029f6c035
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "855636"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507939"
 ---
-# <a name="benefit-eligibility-process"></a><span data-ttu-id="4e18c-103">Atvieglojumu piemērojamības apstrāde</span><span class="sxs-lookup"><span data-stu-id="4e18c-103">Benefit eligibility process</span></span>
+# <a name="benefit-eligibility-process"></a><span data-ttu-id="e5aa6-103">Atvieglojumu piemērojamības apstrāde</span><span class="sxs-lookup"><span data-stu-id="e5aa6-103">Benefit eligibility process</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4e18c-104">Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process.</span><span class="sxs-lookup"><span data-stu-id="4e18c-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="4e18c-105">Kad process ir pabeigts, varat skatīt rezultātus.</span><span class="sxs-lookup"><span data-stu-id="4e18c-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="4e18c-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="4e18c-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="e5aa6-104">Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="e5aa6-105">Kad process ir pabeigts, varat skatīt rezultātus.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="e5aa6-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="4e18c-107">Pārejiet uz sadaļu Personāla vadība > Atvieglojumi > Atvieglojumi.</span><span class="sxs-lookup"><span data-stu-id="4e18c-107">Go to Human resources > Benefits > Benefits.</span></span>
-2. <span data-ttu-id="4e18c-108">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="4e18c-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="4e18c-109">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="4e18c-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="4e18c-110">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="4e18c-110">Click Edit.</span></span>
-5. <span data-ttu-id="4e18c-111">Laukā Piemērojamība atlasiet vienumu Atbilstoši nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="4e18c-111">In the Eligibility field, select 'Rule based'.</span></span>
-6. <span data-ttu-id="4e18c-112">Laukā Nosacījuma tips atlasiet atvieglojumu ierobežojuma nosacījumu, kuru vēlaties lietot atvieglojumam.</span><span class="sxs-lookup"><span data-stu-id="4e18c-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
-7. <span data-ttu-id="4e18c-113">Darbību rūtī noklikšķiniet uz Atvieglojums.</span><span class="sxs-lookup"><span data-stu-id="4e18c-113">On the Action Pane, click Benefit.</span></span>
-8. <span data-ttu-id="4e18c-114">Noklikšķiniet uz Izveidot piemērojamības notikumu, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="4e18c-114">Click Create eligibility event to open the drop dialog.</span></span>
-9. <span data-ttu-id="4e18c-115">Laukā Noteikums ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="4e18c-115">In the Event field, type a value.</span></span>
-10. <span data-ttu-id="4e18c-116">Laukā Apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="4e18c-116">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="4e18c-117">Laukā Notikuma veids atlasiet Atvērt reģistrāciju.</span><span class="sxs-lookup"><span data-stu-id="4e18c-117">In the Event type field, select 'Open enrollment'.</span></span>
-12. <span data-ttu-id="4e18c-118">Laukā Vajadzības sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="4e18c-118">In the Coverage start date field, enter a date and time.</span></span>
-13. <span data-ttu-id="4e18c-119">Laukā Reģistrācijas perioda sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="4e18c-119">In the Enrollment period start date field, enter a date and time.</span></span>
-14. <span data-ttu-id="4e18c-120">Laukā Reģistrācijas dienas ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="4e18c-120">In the Days to enroll field, enter a number.</span></span>
-15. <span data-ttu-id="4e18c-121">Noklikšķiniet uz Izveidot notikumu.</span><span class="sxs-lookup"><span data-stu-id="4e18c-121">Click Create event.</span></span>
-16. <span data-ttu-id="4e18c-122">Kopsavilkuma cilnē Darbinieki noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="4e18c-122">Click Add in the Workers FastTab.</span></span>
-17. <span data-ttu-id="4e18c-123">Laukā Parādīt pēc tipa atlasiet Darbinieki.</span><span class="sxs-lookup"><span data-stu-id="4e18c-123">In the Show by type field, select 'Employees'.</span></span>
-18. <span data-ttu-id="4e18c-124">Laukā Parādīt pa juridiskajām personām atlasiet Pašreizējā juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="4e18c-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
-19. <span data-ttu-id="4e18c-125">Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.</span><span class="sxs-lookup"><span data-stu-id="4e18c-125">In the list, mark or unmark all rows.</span></span>
-20. <span data-ttu-id="4e18c-126">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="4e18c-126">Click OK.</span></span>
-21. <span data-ttu-id="4e18c-127">Noklikšķiniet uz Apstrādāt.</span><span class="sxs-lookup"><span data-stu-id="4e18c-127">Click Process.</span></span>
-22. <span data-ttu-id="4e18c-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="4e18c-128">Click OK.</span></span>
-23. <span data-ttu-id="4e18c-129">Atsvaidziniet lapu.</span><span class="sxs-lookup"><span data-stu-id="4e18c-129">Refresh the page.</span></span>
-24. <span data-ttu-id="4e18c-130">Noklikšķiniet uz Rādīt rezultātus.</span><span class="sxs-lookup"><span data-stu-id="4e18c-130">Click Show results.</span></span>
-25. <span data-ttu-id="4e18c-131">Atveriet kolonnas filtru Statuss.</span><span class="sxs-lookup"><span data-stu-id="4e18c-131">Open Status column filter.</span></span>
-26. <span data-ttu-id="4e18c-132">Kārtot no A uz Z</span><span class="sxs-lookup"><span data-stu-id="4e18c-132">Sort A to Z</span></span>
+1. <span data-ttu-id="e5aa6-107">Pārejiet uz sadaļu Personāla vadība > Atvieglojumi > Atvieglojumi.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="e5aa6-108">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e5aa6-109">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="e5aa6-110">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-110">Click Edit.</span></span>
+5. <span data-ttu-id="e5aa6-111">Laukā Piemērojamība atlasiet vienumu Atbilstoši nosacījumiem.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-111">In the Eligibility field, select 'Rule based'.</span></span>
+6. <span data-ttu-id="e5aa6-112">Laukā Nosacījuma tips atlasiet atvieglojumu ierobežojuma nosacījumu, kuru vēlaties lietot atvieglojumam.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
+7. <span data-ttu-id="e5aa6-113">Darbību rūtī noklikšķiniet uz Atvieglojums.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-113">On the Action Pane, click Benefit.</span></span>
+8. <span data-ttu-id="e5aa6-114">Noklikšķiniet uz Izveidot piemērojamības notikumu, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-114">Click Create eligibility event to open the drop dialog.</span></span>
+9. <span data-ttu-id="e5aa6-115">Laukā Noteikums ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-115">In the Event field, type a value.</span></span>
+10. <span data-ttu-id="e5aa6-116">Laukā Apraksts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-116">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="e5aa6-117">Laukā Notikuma veids atlasiet Atvērt reģistrāciju.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-117">In the Event type field, select 'Open enrollment'.</span></span>
+12. <span data-ttu-id="e5aa6-118">Laukā Vajadzības sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-118">In the Coverage start date field, enter a date and time.</span></span>
+13. <span data-ttu-id="e5aa6-119">Laukā Reģistrācijas perioda sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-119">In the Enrollment period start date field, enter a date and time.</span></span>
+14. <span data-ttu-id="e5aa6-120">Laukā Reģistrācijas dienas ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-120">In the Days to enroll field, enter a number.</span></span>
+15. <span data-ttu-id="e5aa6-121">Noklikšķiniet uz Izveidot notikumu.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-121">Click Create event.</span></span>
+16. <span data-ttu-id="e5aa6-122">Kopsavilkuma cilnē Darbinieki noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-122">Click Add in the Workers FastTab.</span></span>
+17. <span data-ttu-id="e5aa6-123">Laukā Parādīt pēc tipa atlasiet Darbinieki.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-123">In the Show by type field, select 'Employees'.</span></span>
+18. <span data-ttu-id="e5aa6-124">Laukā Parādīt pa juridiskajām personām atlasiet Pašreizējā juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
+19. <span data-ttu-id="e5aa6-125">Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-125">In the list, mark or unmark all rows.</span></span>
+20. <span data-ttu-id="e5aa6-126">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-126">Click OK.</span></span>
+21. <span data-ttu-id="e5aa6-127">Noklikšķiniet uz Apstrādāt.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-127">Click Process.</span></span>
+22. <span data-ttu-id="e5aa6-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-128">Click OK.</span></span>
+23. <span data-ttu-id="e5aa6-129">Atsvaidziniet lapu.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-129">Refresh the page.</span></span>
+24. <span data-ttu-id="e5aa6-130">Noklikšķiniet uz Rādīt rezultātus.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-130">Click Show results.</span></span>
+25. <span data-ttu-id="e5aa6-131">Atveriet kolonnas filtru Statuss.</span><span class="sxs-lookup"><span data-stu-id="e5aa6-131">Open Status column filter.</span></span>
+26. <span data-ttu-id="e5aa6-132">Kārtot no A uz Z</span><span class="sxs-lookup"><span data-stu-id="e5aa6-132">Sort A to Z</span></span>
 

@@ -17,28 +17,28 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f18f2ab02af571f81149ec3564bbac0f98b1d2c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356373"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550802"
 ---
-# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="60625-103">Skatīt grāmatotās PVN darbības</span><span class="sxs-lookup"><span data-stu-id="60625-103">View posted sales tax transactions</span></span>
+# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="34cbc-103">Skatīt grāmatotās PVN darbības</span><span class="sxs-lookup"><span data-stu-id="34cbc-103">View posted sales tax transactions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="60625-104">Varat apskatīt iegrāmatotās PVN transakcijas no dažādām lapām, atkarībā no tā, ko vēlaties apskatīt.</span><span class="sxs-lookup"><span data-stu-id="60625-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="60625-105">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="60625-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="34cbc-104">Varat apskatīt iegrāmatotās PVN transakcijas no dažādām lapām, atkarībā no tā, ko vēlaties apskatīt.</span><span class="sxs-lookup"><span data-stu-id="34cbc-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="34cbc-105">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="34cbc-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="60625-106">Dodieties uz Nodokļi > Pieprasījumi un pārskati > PVN pieprasījumi > Grāmatotais PVN.</span><span class="sxs-lookup"><span data-stu-id="60625-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
-2. <span data-ttu-id="60625-107">Noklikšķiniet uz Rādīt filtrus.</span><span class="sxs-lookup"><span data-stu-id="60625-107">Click Show filters.</span></span>
-3. <span data-ttu-id="60625-108">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="60625-108">Close the page.</span></span>
-4. <span data-ttu-id="60625-109">Pārejiet uz sadaļu Nodokļi > Netiešie nodokļi > PVN > PVN apmaksas periodi.</span><span class="sxs-lookup"><span data-stu-id="60625-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
-5. <span data-ttu-id="60625-110">Izvērsiet sadaļu Perioda intervāli.</span><span class="sxs-lookup"><span data-stu-id="60625-110">Expand the Period intervals section.</span></span>
-6. <span data-ttu-id="60625-111">Atlasiet interesējošo intervālu.</span><span class="sxs-lookup"><span data-stu-id="60625-111">Select the interval you are interested in.</span></span>
-7. <span data-ttu-id="60625-112">Attēlojiet iegrāmatotās PVN transakcijas atlasītajam nomaksas perioda intervālam.</span><span class="sxs-lookup"><span data-stu-id="60625-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
-8. <span data-ttu-id="60625-113">Varat arī tālāk filtrēt iegrāmatoto PVN transakciju sarakstu.</span><span class="sxs-lookup"><span data-stu-id="60625-113">You can further filter the list of posted sales tax transactions.</span></span>
-9. <span data-ttu-id="60625-114">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="60625-114">Close the page.</span></span>
-10. <span data-ttu-id="60625-115">Pārejiet uz sadaļu Nodokļi > Netiešie nodokļi > PVN > PVN kodi.</span><span class="sxs-lookup"><span data-stu-id="60625-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
-11. <span data-ttu-id="60625-116">Darbības rūtī noklikšķiniet uz vienuma PVN kods.</span><span class="sxs-lookup"><span data-stu-id="60625-116">On the Action Pane, click Sales tax code.</span></span>
-12. <span data-ttu-id="60625-117">Noklikšķiniet uz Grāmatotais PVN.</span><span class="sxs-lookup"><span data-stu-id="60625-117">Click Posted sales tax.</span></span>
+1. <span data-ttu-id="34cbc-106">Dodieties uz Nodokļi > Pieprasījumi un pārskati > PVN pieprasījumi > Grāmatotais PVN.</span><span class="sxs-lookup"><span data-stu-id="34cbc-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
+2. <span data-ttu-id="34cbc-107">Noklikšķiniet uz Rādīt filtrus.</span><span class="sxs-lookup"><span data-stu-id="34cbc-107">Click Show filters.</span></span>
+3. <span data-ttu-id="34cbc-108">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="34cbc-108">Close the page.</span></span>
+4. <span data-ttu-id="34cbc-109">Pārejiet uz sadaļu Nodokļi > Netiešie nodokļi > PVN > PVN apmaksas periodi.</span><span class="sxs-lookup"><span data-stu-id="34cbc-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+5. <span data-ttu-id="34cbc-110">Izvērsiet sadaļu Perioda intervāli.</span><span class="sxs-lookup"><span data-stu-id="34cbc-110">Expand the Period intervals section.</span></span>
+6. <span data-ttu-id="34cbc-111">Atlasiet interesējošo intervālu.</span><span class="sxs-lookup"><span data-stu-id="34cbc-111">Select the interval you are interested in.</span></span>
+7. <span data-ttu-id="34cbc-112">Attēlojiet iegrāmatotās PVN transakcijas atlasītajam nomaksas perioda intervālam.</span><span class="sxs-lookup"><span data-stu-id="34cbc-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
+8. <span data-ttu-id="34cbc-113">Varat arī tālāk filtrēt iegrāmatoto PVN transakciju sarakstu.</span><span class="sxs-lookup"><span data-stu-id="34cbc-113">You can further filter the list of posted sales tax transactions.</span></span>
+9. <span data-ttu-id="34cbc-114">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="34cbc-114">Close the page.</span></span>
+10. <span data-ttu-id="34cbc-115">Pārejiet uz sadaļu Nodokļi > Netiešie nodokļi > PVN > PVN kodi.</span><span class="sxs-lookup"><span data-stu-id="34cbc-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
+11. <span data-ttu-id="34cbc-116">Darbības rūtī noklikšķiniet uz vienuma PVN kods.</span><span class="sxs-lookup"><span data-stu-id="34cbc-116">On the Action Pane, click Sales tax code.</span></span>
+12. <span data-ttu-id="34cbc-117">Noklikšķiniet uz Grāmatotais PVN.</span><span class="sxs-lookup"><span data-stu-id="34cbc-117">Click Posted sales tax.</span></span>
 
