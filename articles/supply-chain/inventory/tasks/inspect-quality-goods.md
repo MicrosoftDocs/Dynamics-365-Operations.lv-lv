@@ -18,42 +18,42 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315433"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545409"
 ---
-# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="dffe0-103">Preču kvalitātes pārbaude</span><span class="sxs-lookup"><span data-stu-id="dffe0-103">Inspect the quality of goods</span></span>
+# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="981b5-103">Preču kvalitātes pārbaude</span><span class="sxs-lookup"><span data-stu-id="981b5-103">Inspect the quality of goods</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="dffe0-104">Šajā procedūrā parādīts, kā apstrādāt kvalitātes pārbaudes pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="dffe0-105">Šo ceļvedi varat izpildīt demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="dffe0-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="dffe0-106">Pirms sākat šo piemēra procedūru, jums ir jāapstiprina pirkšanas pasūtījums 000016 un jāiegrāmato produktu ieejas plūsma.</span><span class="sxs-lookup"><span data-stu-id="dffe0-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="dffe0-107">Šādi automātiski tiks izveidots kvalitātes pārbaudes pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="dffe0-107">This will automatically create a quality order.</span></span> <span data-ttu-id="dffe0-108">Kvalitātes pārbaudes parasti veic kvalitātes darbinieks.</span><span class="sxs-lookup"><span data-stu-id="dffe0-108">Quality inspections are typically carried out by a quality clerk.</span></span>
+<span data-ttu-id="981b5-104">Šajā procedūrā parādīts, kā apstrādāt kvalitātes pārbaudes pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="981b5-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="981b5-105">Šo ceļvedi varat izpildīt demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="981b5-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="981b5-106">Pirms sākat šo piemēra procedūru, jums ir jāapstiprina pirkšanas pasūtījums 000016 un jāiegrāmato produktu ieejas plūsma.</span><span class="sxs-lookup"><span data-stu-id="981b5-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="981b5-107">Šādi automātiski tiks izveidots kvalitātes pārbaudes pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="981b5-107">This will automatically create a quality order.</span></span> <span data-ttu-id="981b5-108">Kvalitātes pārbaudes parasti veic kvalitātes darbinieks.</span><span class="sxs-lookup"><span data-stu-id="981b5-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="dffe0-109">Atlasiet kvalitātes pārbaudes pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-109">Select a quality order</span></span>
-1. <span data-ttu-id="dffe0-110">Dodieties uz Krājumu vadība > Periodiskie uzdevumi > Kvalitātes vadība > Kvalitātes pārbaudes pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="dffe0-110">Go to Inventory management > Periodic tasks > Quality management > Quality orders.</span></span>
-2. <span data-ttu-id="dffe0-111">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="dffe0-112">Atlasiet kvalitātes pārbaudes pasūtījumu, kas tika izveidots pirms šīs procedūras uzsākšanas.</span><span class="sxs-lookup"><span data-stu-id="dffe0-112">Select the quality order that was created before you started this procedure.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="981b5-109">Atlasiet kvalitātes pārbaudes pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="981b5-109">Select a quality order</span></span>
+1. <span data-ttu-id="981b5-110">Dodieties uz Krājumu vadība > Periodiskie uzdevumi > Kvalitātes vadība > Kvalitātes pārbaudes pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="981b5-110">Go to Inventory management > Periodic tasks > Quality management > Quality orders.</span></span>
+2. <span data-ttu-id="981b5-111">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="981b5-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="981b5-112">Atlasiet kvalitātes pārbaudes pasūtījumu, kas tika izveidots pirms šīs procedūras uzsākšanas.</span><span class="sxs-lookup"><span data-stu-id="981b5-112">Select the quality order that was created before you started this procedure.</span></span>  
 
-## <a name="record-test-results"></a><span data-ttu-id="dffe0-113">Testa rezultātu reģistrēšana</span><span class="sxs-lookup"><span data-stu-id="dffe0-113">Record test results</span></span>
-1. <span data-ttu-id="dffe0-114">Noklikšķiniet uz Rezultāti.</span><span class="sxs-lookup"><span data-stu-id="dffe0-114">Click Results.</span></span>
-2. <span data-ttu-id="dffe0-115">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="dffe0-115">Click Edit.</span></span>
-3. <span data-ttu-id="dffe0-116">Ierakstiet skaitli laukā Rezultātu daudzums.</span><span class="sxs-lookup"><span data-stu-id="dffe0-116">In the Result quantity field, enter a number.</span></span>
-4. <span data-ttu-id="dffe0-117">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-117">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="dffe0-118">Laukā Iznākums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-118">In the Outcome field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="dffe0-119">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-119">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="dffe0-120">Šajā piemērā rezultāta pamatā ir iepriekš definēts iznākums.</span><span class="sxs-lookup"><span data-stu-id="dffe0-120">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="dffe0-121">Parasti tiek ierakstīts specifiskāks testa rezultāts, piemēram, izmērs vai cita dimensija.</span><span class="sxs-lookup"><span data-stu-id="dffe0-121">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
-7. <span data-ttu-id="dffe0-122">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="dffe0-122">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="dffe0-123">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="dffe0-123">Click Save.</span></span>
-9. <span data-ttu-id="dffe0-124">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-124">Close the page.</span></span>
+## <a name="record-test-results"></a><span data-ttu-id="981b5-113">Testa rezultātu reģistrēšana</span><span class="sxs-lookup"><span data-stu-id="981b5-113">Record test results</span></span>
+1. <span data-ttu-id="981b5-114">Noklikšķiniet uz Rezultāti.</span><span class="sxs-lookup"><span data-stu-id="981b5-114">Click Results.</span></span>
+2. <span data-ttu-id="981b5-115">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="981b5-115">Click Edit.</span></span>
+3. <span data-ttu-id="981b5-116">Ierakstiet skaitli laukā Rezultātu daudzums.</span><span class="sxs-lookup"><span data-stu-id="981b5-116">In the Result quantity field, enter a number.</span></span>
+4. <span data-ttu-id="981b5-117">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="981b5-117">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="981b5-118">Laukā Iznākums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="981b5-118">In the Outcome field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="981b5-119">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="981b5-119">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="981b5-120">Šajā piemērā rezultāta pamatā ir iepriekš definēts iznākums.</span><span class="sxs-lookup"><span data-stu-id="981b5-120">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="981b5-121">Parasti tiek ierakstīts specifiskāks testa rezultāts, piemēram, izmērs vai cita dimensija.</span><span class="sxs-lookup"><span data-stu-id="981b5-121">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
+7. <span data-ttu-id="981b5-122">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="981b5-122">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="981b5-123">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="981b5-123">Click Save.</span></span>
+9. <span data-ttu-id="981b5-124">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="981b5-124">Close the page.</span></span>
 
-## <a name="validate-the-quality-order"></a><span data-ttu-id="dffe0-125">Pārbaudīt kvalitātes pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="dffe0-125">Validate the quality order</span></span>
-1. <span data-ttu-id="dffe0-126">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="dffe0-126">Click Validate.</span></span>
-2. <span data-ttu-id="dffe0-127">Laukā Pārbaudīja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-127">In the Validated by field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="dffe0-128">Atlasiet lietotāju, kas veic pārbaudi.</span><span class="sxs-lookup"><span data-stu-id="dffe0-128">Select the user performing the inspection.</span></span>  
-3. <span data-ttu-id="dffe0-129">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="dffe0-129">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="dffe0-130">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="dffe0-130">Click Select.</span></span>
-5. <span data-ttu-id="dffe0-131">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="dffe0-131">Click OK.</span></span>
-6. <span data-ttu-id="dffe0-132">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="dffe0-132">Close the page.</span></span>
+## <a name="validate-the-quality-order"></a><span data-ttu-id="981b5-125">Pārbaudīt kvalitātes pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="981b5-125">Validate the quality order</span></span>
+1. <span data-ttu-id="981b5-126">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="981b5-126">Click Validate.</span></span>
+2. <span data-ttu-id="981b5-127">Laukā Pārbaudīja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="981b5-127">In the Validated by field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="981b5-128">Atlasiet lietotāju, kas veic pārbaudi.</span><span class="sxs-lookup"><span data-stu-id="981b5-128">Select the user performing the inspection.</span></span>  
+3. <span data-ttu-id="981b5-129">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="981b5-129">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="981b5-130">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="981b5-130">Click Select.</span></span>
+5. <span data-ttu-id="981b5-131">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="981b5-131">Click OK.</span></span>
+6. <span data-ttu-id="981b5-132">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="981b5-132">Close the page.</span></span>
 

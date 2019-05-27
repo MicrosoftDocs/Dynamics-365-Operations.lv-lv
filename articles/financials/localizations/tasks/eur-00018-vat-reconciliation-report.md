@@ -16,28 +16,28 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5822a60456376647f2687fc2d211db3296575d47
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 712140b61be323e40617243b23a7eb2500058f7f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371322"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538145"
 ---
-# <a name="eur-00018-vat-reconciliation-report"></a><span data-ttu-id="11350-103">EUR-00018 PVN saskaņošanas pārskats</span><span class="sxs-lookup"><span data-stu-id="11350-103">EUR-00018 VAT reconciliation report</span></span>
+# <a name="eur-00018-vat-reconciliation-report"></a><span data-ttu-id="b0f6b-103">EUR-00018 PVN saskaņošanas pārskats</span><span class="sxs-lookup"><span data-stu-id="b0f6b-103">EUR-00018 VAT reconciliation report</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="11350-104">Šajā procedūrā parādīts, kā izveidot nodokļu saskaņošanas pārskatu, kas ir pieejams Islandes un Norvēģijas juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="11350-104">This procedure shows how to generate the tax reconciliation report that is available for Icelandic and Norwegian legal entities.</span></span> <span data-ttu-id="11350-105">Šis uzdevums ir izveidots, izmantojot demonstrācijas uzņēmuma DEMF datus, norādot Norvēģiju kā juridiskās personas primārās adreses valsti/reģionu.</span><span class="sxs-lookup"><span data-stu-id="11350-105">This task was created using the demo data company DEMF with the country/region of legal entity primary address updated to be Norway.</span></span>
+<span data-ttu-id="b0f6b-104">Šajā procedūrā parādīts, kā izveidot nodokļu saskaņošanas pārskatu, kas ir pieejams Islandes un Norvēģijas juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-104">This procedure shows how to generate the tax reconciliation report that is available for Icelandic and Norwegian legal entities.</span></span> <span data-ttu-id="b0f6b-105">Šis uzdevums ir izveidots, izmantojot demonstrācijas uzņēmuma DEMF datus, norādot Norvēģiju kā juridiskās personas primārās adreses valsti/reģionu.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-105">This task was created using the demo data company DEMF with the country/region of legal entity primary address updated to be Norway.</span></span>
 
-1. <span data-ttu-id="11350-106">Pārejiet uz sadaļu Nodokļi > Pieprasījumi un pārskati > PVN pārskati > Nodokļu saskaņošanas pārskats.</span><span class="sxs-lookup"><span data-stu-id="11350-106">Go to Tax > Inquiries and reports > Sales tax reports > Tax reconciliation report.</span></span>
-2. <span data-ttu-id="11350-107">Ievadiet vai atlasiet vērtību laukā No konta.</span><span class="sxs-lookup"><span data-stu-id="11350-107">In the From account field, enter or select a value.</span></span>
-    * <span data-ttu-id="11350-108">Atlasiet vērtību 200140.</span><span class="sxs-lookup"><span data-stu-id="11350-108">Select the value 200140.</span></span>  
-3. <span data-ttu-id="11350-109">Ievadiet vai atlasiet vērtību laukā Uz kontu.</span><span class="sxs-lookup"><span data-stu-id="11350-109">In the To account field, enter or select a value.</span></span>
-    * <span data-ttu-id="11350-110">Atlasiet vērtību 600180.</span><span class="sxs-lookup"><span data-stu-id="11350-110">Select the value 600180.</span></span>  
-4. <span data-ttu-id="11350-111">Laukā Maksājuma periods, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="11350-111">In the Settlement period field, enter or select a value.</span></span>
-    * <span data-ttu-id="11350-112">Atlasiet vērtību Pirmd.</span><span class="sxs-lookup"><span data-stu-id="11350-112">Select the value Mon.</span></span>  
-5. <span data-ttu-id="11350-113">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="11350-113">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="11350-114">Atlasiet vērtību 2015-11-01.</span><span class="sxs-lookup"><span data-stu-id="11350-114">Select the value 2015-11-01.</span></span>  
-6. <span data-ttu-id="11350-115">Laukā Rādīt detalizētu informāciju atlasiet opciju Jā.</span><span class="sxs-lookup"><span data-stu-id="11350-115">Select Yes in the Show details field.</span></span>
-7. <span data-ttu-id="11350-116">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="11350-116">Click OK.</span></span>
+1. <span data-ttu-id="b0f6b-106">Pārejiet uz sadaļu Nodokļi > Pieprasījumi un pārskati > PVN pārskati > Nodokļu saskaņošanas pārskats.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-106">Go to Tax > Inquiries and reports > Sales tax reports > Tax reconciliation report.</span></span>
+2. <span data-ttu-id="b0f6b-107">Ievadiet vai atlasiet vērtību laukā No konta.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-107">In the From account field, enter or select a value.</span></span>
+    * <span data-ttu-id="b0f6b-108">Atlasiet vērtību 200140.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-108">Select the value 200140.</span></span>  
+3. <span data-ttu-id="b0f6b-109">Ievadiet vai atlasiet vērtību laukā Uz kontu.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-109">In the To account field, enter or select a value.</span></span>
+    * <span data-ttu-id="b0f6b-110">Atlasiet vērtību 600180.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-110">Select the value 600180.</span></span>  
+4. <span data-ttu-id="b0f6b-111">Laukā Maksājuma periods, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-111">In the Settlement period field, enter or select a value.</span></span>
+    * <span data-ttu-id="b0f6b-112">Atlasiet vērtību Pirmd.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-112">Select the value Mon.</span></span>  
+5. <span data-ttu-id="b0f6b-113">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-113">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="b0f6b-114">Atlasiet vērtību 2015-11-01.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-114">Select the value 2015-11-01.</span></span>  
+6. <span data-ttu-id="b0f6b-115">Laukā Rādīt detalizētu informāciju atlasiet opciju Jā.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-115">Select Yes in the Show details field.</span></span>
+7. <span data-ttu-id="b0f6b-116">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="b0f6b-116">Click OK.</span></span>
 
