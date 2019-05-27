@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: ad5add2b572ccb6bff175806b965f63b53986152
-ms.sourcegitcommit: 45b79d1e587e03f5cde2766cdec4eaa7a2a897a3
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "949786"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518601"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Programma Talent nav redzama starp Microsoft Dynamics 365 programmām (Common Data Service 1.0)
 
@@ -32,7 +32,7 @@ ms.locfileid: "949786"
 
 Debitors neredz programmu Microsoft Dynamics 365 for Talent starp Microsoft Dynamics 365 programmām.
 
-**Risinājums**
+**Izšķirtspēja**
 
 Lietotājs ir jāpievieno lomai Vides veidotājs programmas Microsoft PowerApps videi.
 

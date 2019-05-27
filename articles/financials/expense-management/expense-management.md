@@ -1,9 +1,9 @@
 ---
-title: Izmaksu pārvaldība
-description: Izmantojiet līdzekli Izdevumu pārvaldība, lai izveidotu integrētu darbplūsmu, kurā varat glabāt informāciju par maksājuma metodēm, importēt kredītkaršu transakcijas un sekot līdzi naudai, ko tērē darbinieki, kad izraisa zaudējumus jūsu biznesam.
+title: Izdevumu pārvaldība
+description: Šajā tēmā ir sniegta vispārīga informācija par līdzekli Izdevumu pārvaldība, kā arī saites uz papildu resursiem. Varat izmantot līdzekli Izdevumu pārvaldība, lai izveidotu integrētu darbplūsmu, kurā varat glabāt informāciju par maksājuma metodēm, importēt kredītkaršu transakcijas un sekot līdzi naudai, ko tērē darbinieki, kad izraisa zaudējumus jūsu biznesam.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403218"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538613"
 ---
-# <a name="expense-management"></a>Izmaksu pārvaldība
+# <a name="expense-management"></a>Izdevumu pārvaldība
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Izmantojiet līdzekli Izdevumu pārvaldība, lai izveidotu integrētu darbplūsmu, kurā varat glabāt informāciju par maksājuma metodēm, importēt kredītkaršu transakcijas un sekot līdzi naudai, ko tērē darbinieki, kad izraisa zaudējumus jūsu biznesam. Jūs varat arī definēt izdevumu politikas un automatizēt ceļa izdevumu atmaksāšanu. 
+Varat izmantot līdzekli Izdevumu pārvaldība, lai izveidotu integrētu darbplūsmu, kurā varat glabāt informāciju par maksājuma metodēm, importēt kredītkaršu transakcijas un sekot līdzi naudai, ko tērē darbinieki, kad izraisa zaudējumus jūsu biznesam. Jūs varat arī definēt izdevumu politikas un automatizēt ceļa izdevumu atmaksāšanu.
 
-[Izdevumu pārvaldības plānošana](plan-expense-management.md) 
+Papildinformāciju skatiet sadaļā [Izdevumu pārvaldības konfigurēšana](plan-expense-management.md).
 
-### <a name="additional-resources"></a>Papildu resursi
+## <a name="additional-resources"></a>Papildu resursi
 
-#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Microsoft Dynamics 365 informācija par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158).
 
-#### <a name="blogs"></a>Emuāri
+#### <a name="expense-report-entry"></a>Izdevumu pārskata ieraksts
 
-Viedokļi, jaunumi un cita informācija ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — finanšu emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Izdevumu pārskata ieraksts ir pārveidots, lai vienkāršotu pieredzi un samazinātu laiku, kas nepieciešams izdevumu pārskatu pabeigšanai. Šo funkcionalitāti varat ieslēgt sadaļā Līdzekļu pārvaldība. Varat pievienot jaunu iestatīšanas lapu, lai konfigurētu izdevumu lauku redzamību un norādītu, kādi dati tiek pieprasīti, ir neobligāti vai nav pieejami, kad tiek ievadīti izdevumu pārskati. Kad šī funkcionalitāte ir ieslēgta, ir pieejama jauna izdevumu darbvieta. Šī darbvieta aizstāj iepriekšējo izdevumu darbvieta un ir uzlabotās ierakstīšanas darbības galvenā lapa.
 
-[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations. 
+Papildinformāciju skatiet sadaļā [Izdevumu pārskati jaunā izskatā](ExpenseWorkspaceNew.md).
 
-#### <a name="task-guides"></a>Uzdevumu ceļveži
-Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
+### <a name="blogs"></a>Emuāri
 
-#### <a name="videos"></a>Videoklipi
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+
+[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek nodrošināts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
+
+### <a name="task-guides"></a>Uzdevumu ceļveži
+
+Papildu palīdzība ir pieejama uzdevumu ceļvežu formā pakalpojumā Microsoft Dynamics 365 for Finance and Operations. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā atlasiet pogu **Palīdzība**.
+
+### <a name="videos"></a>Videoklipi
 
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-
-
-

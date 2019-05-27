@@ -3,7 +3,7 @@ title: Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 description: Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331280"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541272"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -440,12 +440,17 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>Atgriezt norādīto sarakstu, kad vaicājums ir modificēts filtrēšanai atbilstoši norādītajam nosacījumam. Šī funkcija atšķiras no funkcijas <strong>WHERE</strong>, jo norādītais nosacījums tiek lietots datu bāzes līmenī visiem ER datu avotiem ar tipu <strong>Tabulas ieraksti</strong>. Sarakstu un nosacījumu var definēt, izmantojot tabulas un relācijas.</td>
 <td>Ja parametrs <strong>Vendor</strong> ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> atgriež tikai kreditoru grupā 40 ietverto kreditoru sarakstu. Ja parametrs <strong>Vendor</strong> ir konfigurēts kā ER datu avots, kurš atsaucas uz tabulu VendTable, un ja parametrs <strong>parmVendorBankGroup</strong> ir konfigurēts kā ER datu avots, kurš atgriež vērtību ar datu tipu <strong>String</strong>, funkcija <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> atgriež sarakstu, kurā ir tikai to kreditoru konti, kas pieder noteiktai banku grupai.</td>
 </tr>
+<tr>
+<td>INDEX (saraksts, indekss)</td>
+<td>Šī funkcija atgriež ierakstu, ko sarakstā atlasa noteikts skaitliskais indekss. Tiek parādīts izņēmums, ja indekss neietilpst sarakstā esošo ierakstu diapazonā.</td>
+<td>Ja ievadāt datu avotu <strong>DS</strong> tipam <strong>Aprēķinātais lauks</strong> un tajā ir izteiksme <strong>SPLIT ("A|B|C", “|”), 2)</strong>, izteiksme <strong>DS.Value</strong> atgriež teksta vērtību “B”. Arī izteiksme <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> atgriež “B” teksta vērtību.</td>
+</tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Loģiskas funkcijas
 
-| Funkcija | Apraksts | Piemērs |
+| Funkcija | Apraksts | Paraugs |
 |----------|-------------|---------|
 | CASE (izteiksme, 1. opcija, 1. rezultāts \[, 2. opcija, 2. rezultāts\] … \[, noklusējuma rezultāts\]) | Norādītās izteiksmes vērtību novērtēt pret norādītajām alternatīvajām opcijām. Atgriezt tās opcijas rezultātu, kas ir vienāda ar izteiksmes vērtību. Pretējā gadījumā atgriezt pēc izvēles ievadīto noklusējuma rezultātu, ja noklusējuma rezultāts ir norādīts. (Noklusējuma rezultāts ir pēdējais parametrs, kura priekšā neatrodas opcija.) | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** atgriež virkni **"WINTER"**, ja pašreizējās Finance and Operations sesijas datums ir diapazonā no oktobra līdz decembrim. Pretējā gadījumā šī izteiksme atgriež tukšu virkni. |
 | IF (nosacījums, 1. vērtība, 2. vērtība) | Atgriezt pirmo norādīto vērtību, ja norādītais nosacījums tiek izpildīts. Pretējā atgriezt otro norādīto vērtību. Ja 1. vērtība un 2. vērtība ir ieraksti vai ierakstu saraksti, rezultātā ir ietverti tikai tie lauki, kas ir iekļauti abos sarakstos. | **IF (1=2, "nosacījums tiek izpildīts", "nosacījums netiek izpildīts")** atgriež virkni **"nosacījums netiek izpildīts"**. |

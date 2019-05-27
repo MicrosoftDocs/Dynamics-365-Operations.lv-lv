@@ -3,7 +3,7 @@ title: Pārdošanas pasūtījumu tieša sinhronizēšana programmās Sales un Fi
 description: Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339123"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539118"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
 
@@ -146,6 +146,16 @@ Pirms pārdošanas pasūtījumu sinhronizēšanas ir svarīgi sistēmās atjauni
 ### <a name="setup-in-finance-and-operations"></a>Iestatīšana programmā Finance and Operations
 
 - Pārejiet uz sadaļu **Pārdošana un mārketings** &gt; **Periodiskie uzdevumi** &gt; **Aprēķināt pārdošanas kopsummas** un iestatiet darba izpildi pakešuzdevuma režīmā. Iestatiet opcijas **Aprēķināt kopsummas pārdošanas pasūtījumiem** vērtību **Jā**. Šī darbība ir svarīga, jo ar programmu Sales tiek sinhronizēti tikai tie pārdošanas pasūtījumi, kuriem ir aprēķinātas pārdošanas kopsummas. Pakešuzdevuma izpildes biežumam ir jāatbilst pārdošanas pasūtījumu sinhronizēšanas biežumam.
+
+Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas izcelsme. Pārdošanas izcelsme tiek izmantota, lai atšķirtu tādus pārdošanas pasūtījumus risinājumā Finance and Operations, kuri izveidoti no darba pasūtījumiem risinājumā Field Service. Ja pārdošanas pasūtījuma pārdošanas izcelsmes tips ir **Darba pasūtījuma integrācija**, pārdošanas pasūtījuma galvenē tiek parādīts lauks **Ārējā darba pasūtījuma statuss**. Turklāt pārdošanas izcelsme nodrošina, ka pārdošanas pasūtījumi, kas izveidoti no darba pasūtījumiem risinājumā Field Service, tiek filtrēti, sinhronizējot risinājumā Finance and Operations esošos pārdošanas pasūtījumus ar risinājumu Field Service.
+
+1. Atveriet sadaļu **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Pārdošanas izcelsme**.
+2. Atlasiet **Jauns**, lai izveidotu jaunu pārdošanas izcelsmi.
+3. Laukā **Pārdošanas izcelsme** ievadiet pārdošanas izcelsmes nosaukumu, piemēram, **SalesOrder**.
+4. Laukā **Apraksts** ievadiet aprakstu, piemēram, **Pārdošanas pasūtījums no Pārdošanas**.
+5. Atzīmējiet izvēles rūtiņu **Izcelsmes tipa piešķire**.
+6. Laukā **Pārdošanas izcelsmes tips** iestatiet vērtību **Pārdošanas pasūtījuma integrācija**.
+7. Atlasiet **Saglabāt**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Iestatīšana līdzekļa Datu integrācija projektā ar veidni Pārdošanas pasūtījumi (no Sales uz Fin and Ops) — tieši
 
