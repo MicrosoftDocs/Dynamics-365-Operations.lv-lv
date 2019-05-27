@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: de5de039c0e3332943bae4846768fc628810906e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330199"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559378"
 ---
 # <a name="accounting-source-explorer"></a>Uzskaites avota pārlūks
 
@@ -31,7 +31,7 @@ ms.locfileid: "330199"
 
 Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
 
-Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Uzskaites avota pārlūku varat izmantot vai nu kā savrupu rīku, vai arī, lai analizētu virsgrāmatas uzskaites ierakstu detalizētos datus. Uzskaites avota pārlūku varat izmantot, piemēram, lai iegūt visdetalizētāko apgrozījuma bilances vai dokumenta transakcijas avota informāciju. Pēc tam varat izmantot līdzekli Eksportēt uz programmu Microsoft Excel, lai veiktu informācijas papildu apstrādi programmā Microsoft Excel (piemēram, tabulā PivotTable vai PivotTable atskaitē).
+Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Uzskaites avota pārlūku varat izmantot vai nu kā savrupu rīku, vai arī, lai analizētu virsgrāmatas uzskaites ierakstu detalizētos datus. Uzskaites avota pārlūku varat izmantot, piemēram, lai iegūt visdetalizētāko apgrozījuma bilances vai dokumenta transakcijas avota informāciju. Pēc tam varat izmantot līdzekli Eksportēt uz programmu MS EXcel, lai veiktu informācijas papildu apstrādi programmā Microsoft Excel (piemēram, tabulā PivotTable vai PivotTable atskaitē).
 
 Uzskaites avota pārlūkā vienas un tās pašas kopsummas katram virsgrāmatas kontam vienmēr tiek rādītas kā Vispārīgas virsgrāmatas (piemēram, Apgrozījuma bilance). Apgrozījuma bilancē segmentus var parādīt atsevišķās kolonnās. Vienkārši izvēlieties atbilstošu finanšu dimensiju kopu. 
 

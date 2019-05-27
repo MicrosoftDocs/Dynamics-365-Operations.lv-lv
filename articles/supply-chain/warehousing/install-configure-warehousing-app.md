@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316123"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559190"
 ---
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing instalēšana un konfigurēšana
 
@@ -91,10 +91,10 @@ Ierīcē instalētā programma ir jākonfigurē savienojuma izveidei ar Finance 
 1.  Programmā pārejiet uz sadaļu **Savienojuma iestatījumi**.
 2.  Noņemiet atzīmi no lauka **Demonstrācijas režīms**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Ievadiet sekojošo informāciju: 
-    + **Azure Active Directory klienta ID** — klienta ID tiek iegūts, veicot 9. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
-    + **Azure Active Directory klienta noslēpums** — klienta noslēpums tiek iegūts, veicot 11. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
-    + **Azure Active Directory resurss** — Azure AD direktorija resurss, kas atbilst Finance and Operations saknes vietrādim URL. **Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
-    + **Azure Active Directory nomnieks** — Azure AD direktorija nomnieks, kas tiek izmantots kopā ar Finance and Operations serveri: `https://login.windows.net/your-AD-tenant-ID`. Piemēram: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **Azure Active direktorija klienta ID** — klienta ID tiek iegūts, veicot 9. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
+    + **Azure Active direktorija klienta noslēpums** — klienta noslēpums tiek iegūts, veicot 11. darbību sadaļā “Izveidot tīmekļa pakalpojuma programmu pakalpojumā Active Directory”. 
+    + **Azure Active direktorija resurss** — Azure AD direktorija resurss, kas atbilst Finance and Operations saknes vietrādim URL. **Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
+    + **Azure Active direktorija nomnieks** — Azure AD direktorija nomnieks, kas tiek izmantots kopā ar Finance and Operations serveri: `https://login.windows.net/your-AD-tenant-ID`. Piemēram: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Piezīme**. Šī lauka vērtības beigās nedrīkst ievadīt uz priekšu vērstās slīpsvītras rakstzīmi (/). 
     + **Uzņēmums** — ievadiet to juridisko personu programmatūrā Finance and Operations, ar programmai ir jāizveido savienojums. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Atlasiet pogu **Atpakaļ** lietojumprogrammas apakšējā kreisajā stūrī. Tagad programmā tiek izveidots savienojums ar Finance and Operations serveri un parādīts noliktavas darbinieka pieteikšanās ekrāns. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

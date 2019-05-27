@@ -3,7 +3,7 @@ title: Bankas ārvalstu valūtas pārvērtēšana
 description: Šajā tēmā ir sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir ietverta informācija par iestatīšanu, procesa izpildi, procesa aprēķināšanu un pārvērtēšanas darbību anulēšanu.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976681"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538636"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Bankas ārvalstu valūtas pārvērtēšana
 
@@ -52,7 +52,7 @@ Pirms ārvalstu valūtas pārvērtēšanas procesu izpildes ir jāieslēdz banka
 3. Cilnē **Numuru sērijas** pievienojiet ārvalstu valūtas pārvērtēšanas numuru sēriju.
 4. Atsvaidziniet pārlūku, lai skatītu **Ārvalstu valūtas pārvērtēšana** apgabala lapas sadaļā **Periodiskie uzdevumi**.
 
-Šis līdzeklis ir jāieslēdz katrai juridiskajai personai, kas izmantos ārvalstu valūtas pārvērtēšanu.
+Šis līdzeklis ir jāieslēdz katrai juridiskajai personai, kas izmantos ārvalstu valūtas pārvērtēšanu. Ja jums ir piešķirta Sistēmas administratora vai Līdzekļu pārziņa loma, varat izslēgt šo darbību, iespējojot līdzekli **Bankas pārvērtēšanas iespējošana bez parametra** darbvietā **Līdzekļu pārvaldība**.
 
 > [!NOTE]
 > Ja juridiskā persona izmanto krievu, poļu vai ungāru valsts/reģiona kodu, varat uzreiz izmantot bankas ārvalstu valūtas pārvērtēšanu. Nav iespējams izmantot ārvalstu valūtas pārvērtēšanu, kas tiek izmantota citām valstīm vai reģioniem.

@@ -3,7 +3,7 @@ title: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas
 description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto krājumu korekciju un pārsūtīšanas darbību sinhronizēšanai ar programmu Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: e94fa87c2f8b66574d6c5b2930cebf2e1b144fea
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842419"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1536300"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Programmā Field Service ietverto krājumu korekcijas darbību sinhronizēšana ar programmu Finance and Operations
 

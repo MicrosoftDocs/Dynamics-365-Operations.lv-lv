@@ -17,17 +17,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309867"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544867"
 ---
 # <a name="er-configure-destinations"></a>ER Konfigurēt adresātus
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DEMF. Juridiskas personas primārās adreses valsts\reģions ir Vācija, tomēr šai procedūrai var izmantot jebkuru juridisko personu. 
+Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DEMF. Juridiskas personas primārās adreses valsts/reģions ir Vācija, tomēr šai procedūrai var izmantot jebkuru juridisko personu. 
 
 Formāts, ko lieto šajā piemērā, ir ISO20022 pārvietošana kredītā, taču var izmantot jebkuru formātu, kas jau ir importēts. Ņemiet vērā, ka šī procedūra ir viena faila un adresāta iestatīšanas piemērs. Papildu informāciju par elektroniskās pārskatu veidošanas adresātu pārvaldību var atrast Dynamics 365 for Finance and Operations palīdzībā.
 

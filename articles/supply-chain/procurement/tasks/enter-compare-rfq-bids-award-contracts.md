@@ -1,9 +1,9 @@
 ---
 title: Ievadīt un salīdzināt PP piedāvājumus un piešķirt līgumus
-description: Šajā procedūrā ir parādīts, kā ievadīt atbildes uz PP, noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt piedāvājumu vienam no kreditoriem.
+description: Šajā procedūrā ir parādīts, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt līgumu vienam no kreditoriem.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,130 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd4876acfebcc9595abb358cfc9b355e93041d6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 45ddab03810b331bcd8965f6a2ba699ffb138910
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350002"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1533356"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Ievadīt un salīdzināt PP piedāvājumus un piešķirt līgumus
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā ievadīt atbildes uz PP, noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt piedāvājumu vienam no kreditoriem. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Pirms sākšanas jums ir nepieciešams PP ar divām rindām, kas ir nosūtīts vismaz diviem kreditoriem. Kā priekšnosacījumu tā izveidošanai varat palaist procedūru “Izveidot piedāvājuma pieprasījumu”. Lai varētu palaist šo procedūru, ir nepieciešams iestatīt punktu skaitīšanas kritērijus.
+Šajā procedūrā ir parādīts, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), noteikt punktu skaitu un salīdzināt saņemtos piedāvājumus, un kā pēc tam piešķirt līgumu vienam no kreditoriem, kurš iesniedza piedāvājumu. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu **USMF**.
 
+Pirms šīs procedūras sākšanas jums ir nepieciešams PP ar divām rindām, kas ir nosūtīts vismaz diviem kreditoriem. Lai izveidotu šo PP, pabeidziet procedūru [Piedāvājuma pieprasījuma izveide](create-request-quotation.md). Lai varētu pabeigt šo procedūru, ir nepieciešams iestatīt arī punktu skaitīšanas kritērijus.
 
-## <a name="enter-a-reply-from-a-vendor"></a>Ievadīt atbildi no kreditora
-1. Dodieties uz Sagāde un avoti > Piedāvājumu pieprasījumi > Visi piedāvājumu pieprasījumi.
-2. Atlasiet PP, kura statuss ir Nosūtīts, un noklikšķiniet uz numura Piedāvājuma pieprasījuma gadījums saites.
-    * PP ir jāsūta vismaz 2 kreditoriem.  
-3. Noklikšķiniet uz Virsraksts, lai dotos uz kreditoru sarakstu.
-4. Atlasiet kreditoru, kuram vēlaties ievadīt PP atbildi.
-5. Noklikšķiniet uz Ievadīt atbildi.
-6. Darbību rūtī noklikšķiniet uz Atbilde.
-7. Noklikšķiniet uz Kopēt datus uz atbildēm.
-    * Ar šo darbību atlasītie dati, piemēram, daudzums, no PP gadījuma tiks kopēti uz PP atbildi. Alternatīvi šo darbību varat izlaist un visus atbildes laukus aizpildīt manuāli, kad rediģējat atbildi.  
-8. Noklikšķiniet uz Rediģēt.
-9. Laukā Vienības cena ievadiet kādu skaitli.
-10. Izvēlēties otru piedāvājuma rindu.
-11. Laukā Vienības cena ievadiet kādu skaitli.
+Varat ievadīt piedāvājumu vai nu kā kreditors, vai kā sagādes speciālists. Papildinformāciju skatiet šeit: [Kreditoru sadarbības iestatīšana un uzturēšana](../set-up-maintain-vendor-collaboration.md).
 
-## <a name="score-the-bid"></a>Skaitīt piedāvājuma punktus
-1. Noklikšķiniet uz Virsraksts, lai dotos uz piedāvājuma punktu skaitīšanu.
-2. Izvērsiet piedāvājuma punktu skaitīšanas sadaļu.
-3. Laukā Punktu skaits ievadiet numuru vienam no punktu skaitīšanas kritērijiem.
-    * Ja peles kursoru novietojat virs viena no punktu skaitīšanas kritērija, ar rīka padomu tiek parādīts nepieciešamo punktu diapazons. Šajā demonstrācijā jebkuram kritērijam varat pievienot skaitli no 1 līdz 5.  
-4. Atlasiet citu punktu skaitīšanas kritēriju.
-5. Laukā Punktu skaits ievadiet kādu numuru.
-6. Izvērsiet sadaļu Anketas.
-    * Ja PP gadījumam ir anketa, kas tika nosūtīta kreditoriem, tad anketas sadaļā varat ievadīt viņu atbildes.  
-7. Aizvērt lapu.
+## <a name="enter-a-reply-as-a-vendor"></a>Atbildes ievadīšana kreditora lomā
 
-## <a name="enter-a-reply-for-another-vendor"></a>Ievadīt atbildi citam kreditoram
-1. Atlasiet nākamo kreditoru, noņemot atzīmi tā kreditora izvēles rūtiņai, kuram tikko ievadījāt atbildi, un pēc tam atzīmējot rindu nākamajam kreditoram.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-3. Noklikšķiniet uz Ievadīt atbildi.
-4. Noklikšķiniet uz Kopēt datus uz atbildēm.
-5. Noklikšķiniet uz Rediģēt.
-6. Laukā Vienības cena ievadiet kādu skaitli.
-7. Izvēlēties otru piedāvājuma rindu.
-8. Laukā Vienības cena ievadiet kādu skaitli.
+1. Informācijas panelī atlasiet **Piegādātāja piedāvājuma izteikšana**.
+2. Sarakstā **Jauni aicinājumi izteikt piedāvājumus** atrodiet nupat nosūtīto PP. Atlasiet PP, lai pārskatītu pieprasīto informāciju.
+3. Atlasiet **PP pielikumi**, lai pārskatītu pievienotos pielikumus.
+4. Atlasiet **Piedāvājums**, lai laukus padarītu rediģējamus. Ņemiet vērā, ka laukā **Piedāvājuma norise** ir iestatīta vērtība **Kreditors atjaunina**.
+5. Virsrakstā un rindās ievadiet vērtības no piedāvājuma atbildes.
+6. Ja piedāvājumam jāpievieno kāds pielikums, izvēlieties **Piedāvājuma pielikumi**.
+7. Atlasiet kopsavilkuma cilni **Solīšanas norādījumu krājumi**, lai noskaidrotu, vai ir nepieciešami dokumenti.
+8. Atlasiet kopsavilkuma cilni **Grozījumi**, lai noskaidrotu, vai PP ir grozīts.
+9. Kopsavilkuma cilnē atlasiet vienumu **Anketa**. Uz visām šeit parādītajām anketām ir jāatbild.
+10. Atlasiet kopsavilkuma cilni **Detalizēta informācija par rindu**, lai skatītu paplašinātu informāciju par rindu.
+11. Atlasiet **Atiestatīt no PP** tikai tad, ja ir jāatiestata ievadītās vērtības uz sākotnējām PP vērtībām.
+12. Varat saglabāt piedāvājumu jebkurā laikā un veikt papildu apstrādi vēlāk, ja nav pagājis derīguma beigu datums un laiks. Šādā gadījumā varat meklēt piedāvājumu sarakstā **Notiekošie piedāvājumi** darbvietā **Piegādātāja piedāvājuma izteikšana**.
+13. Kad piedāvājums ir gatavs nosūtīšanai, atlasiet **Iesniegt.** Atlasiet **Noraidīt**, ja nevēlaties izteikt piedāvājumu.
 
-## <a name="score-the-second-bid"></a>Skaitīt otra piedāvājuma punktus
-1. Noklikšķiniet uz Virsraksts, lai dotos uz piedāvājuma punktu skaitīšanu.
-2. Laukā Punktu skaits ievadiet kādu numuru.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Laukā Punktu skaits ievadiet kādu numuru.
+    Iesniegtie piedāvājumi ir pieejami sarakstā **Iesniegtie piedāvājumi** darbvietā **Piegādātāja piedāvājuma izteikšana**.
+
+14. Kad piedāvājums ir iesniegts, to var atsaukt jebkurā laikā pirms beigu datuma un laika. Ņemiet vērā, ka, atsaucot piedāvājumu, tas netiek uzskatīts par iesniegtu.
+
+    Kad sagādes nodaļa ir piedāvājumu ir akceptējusi vai noraidījusi,, tas tiek rādīts sarakstā **Piešķirtie piedāvājumi** vai **Zaudētie piedāvājumi** darbvietā **Piegādātāja piedāvājuma izteikšana**.
+
+## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Kreditora atbildes ievadīšana sagādes speciālista lomā
+
+1. Pārliecinieties, vai ir iestatīta atļauja rediģēt kreditoru piedāvājumus. Dodieties uz **Sagāde un avoti \> Iestatīšana \> Sagādes un avotu parametri**. Cilnē **Piedāvājumu pieprasījumi** opcijai **Pircējs var rediģēt piegādātāju piedāvājumu** iestatiet vērtību **Jā**.
+2. Dodieties uz **Sagāde un avoti \> Piedāvājumu pieprasījumi \> Visi piedāvājuma pieprasījumi**.
+3. Atlasiet PP, kura statuss ir **Nosūtīts**, un atlasiet saiti laukā **Piedāvājuma pieprasījuma gadījums**.
+4. Atlasiet **Pārvaldīt atbildes**. Parādītajā lapā ir redzams katra kreditora PP, kuram tika nosūtīts uzaicinājums izteikt piedāvājumu.
+5. Atlasiet PP, uz kuru nav atbildēts. ( Laukam **Atbildes norise** laukam jābūt iestatītam kā **Nav sākts**.)
+6. Atlasiet **Rediģēt \> Rediģēt PP atbildi**.
+
+    Tiek atvērta lapa **PP atbilde**. Kā sagādes speciālists tagad varat ievadīt atbildi kreditora vārdā. Ņemiet vērā, ka laukā **Piedāvājuma norise** ir iestatīta vērtība **Pircējs atjaunina**.
+
+7. Ievadiet piedāvājuma datus. Pēc pabeigšanas atlasiet **Iesniegt**.
+
+## <a name="score-the-bids"></a>Piedāvājumu punktu skaitīšana
+
+1. Lapā **Visi piedāvājuma pieprasījumi** atlasiet PP gadījumu, kura atbilžu punktus vēlaties skaitīt.
+2. Atlasiet **Pārvaldīt atbildes**.
+3. Atlasiet atbildi, kurai skaitīt punktus.
+4. Atlasiet **Virsraksts**, lai varētu skatīt piedāvājuma punktu skaitu.
+5. Kopsavilkuma cilnes **Piedāvājuma punktu skaitīšana** laukā **Punktu skaits** ievadiet numuru vienam no punktu skaitīšanas kritērijiem.
+
+    Ja peles kursoru novietojat virs punktu skaitīšanas kritērija, rīka padomā tiek parādīts nepieciešamo punktu diapazons. Šajā demonstrācijā jebkuram punktu skaitīšanas kritērijam varat pievienot skaitli no 1 līdz 5.
+
+6. Atkārtojiet 5. darbību citam punktu skaitīšanas kritērijam.
+7. Ja PP gadījumam ir anketa, kas tika nosūtīta kreditoriem, tad kopsavilkuma cilnē **Anketas** varat ievadīt kreditoru atbildes.
+8. Aizvērt lapu.
+9. Atkārtojiet 1. līdz 8. darbību visiem citiem piedāvājumiem.
 
 ## <a name="compare-the-replies"></a>Salīdzināt atbildes
-1. Darbību rūtī noklikšķiniet uz Vispārīgi.
-2. Noklikšķiniet uz Salīdzināt atbildes.
-3. Laukā Rangs ievadiet kādu numuru.
-    * Šajā lapā tiek rādīti piedāvājumi ar virsrakstu un rindām, kā arī kopējo punktu skaitu virsraksta līmenī. Rindas varat salīdzināt, kārtojot režģī, lai salīdzināmās rindas atrastos līdzās. Informācijā ir iekļautas arī tālāk uzskaitītās vērtības. Daudzums: kreditora piedāvātais daudzums. Šis daudzums var nebūt vienāds ar daudzumu, kas norādīts PP.   Neto summa: kreditora piedāvātā cena pēc visu atlaižu atņemšanas rindā norādītajiem krājumiem.   Novirze: dienu skaits, par kādu piedāvājuma virsrakstā vai rindā norādītais piegādes datums atšķiras no PP virsrakstā vai PP rindā pieprasītā piegādes datuma.   Katram piedāvājumam varat ievadīt rangu.  
-4. Atlasiet virsraksta rindu otram piedāvājumam, kuram vēlaties noteikt rangu.
-5. Laukā Rangs ievadiet kādu numuru.
-6. Noklikšķiniet uz Saglabāt.
+
+1. Darbību rūts cilnē **Vispārīgi** atlasiet **Salīdzināt atbildes**.
+2. Laukā **Rangs** ievadiet kādu numuru.
+
+    Šajā lapā tiek rādīti piedāvājumi ar virsrakstu un rindu informāciju, kā arī kopējo punktu skaitu virsraksta līmenī. Rindas varat salīdzināt, kārtojot režģi, lai salīdzināmās rindas atrastos līdzās. Ir iekļauta arī tālāk norādītā informācija.
+
+    - **Daudzums** — kreditora piedāvātais daudzums. Šis daudzums var nebūt vienāds ar daudzumu, kas norādīts PP.
+    - **Neto summa** — kreditora piedāvātā cena pēc visu atlaižu atņemšanas rindā norādītajiem krājumiem.
+    - **Novirze** — dienu skaits, par kādu piedāvājuma virsrakstā vai rindā norādītais piegādes datums atšķiras no PP virsrakstā vai rindā pieprasītā piegādes datuma. Katram piedāvājumam varat ievadīt rangu.
+
+3. Atlasiet virsraksta rindu otram piedāvājumam, kuram vēlaties noteikt rangu.
+4. Laukā **Rangs** ievadiet kādu numuru.
+5. Atlasiet **Saglabāt**.
 
 ## <a name="reject-a-bid"></a>Noraidīt piedāvājumu
+
 1. Atlasiet virsraksta rindu piedāvājumam, kuru vēlaties noraidīt.
-    * Vienlaicīgi varat pieņemt, noraidīt vai atgriezt tikai vienu piedāvājumu vai viena piedāvājuma rindas.  
-2. Atzīmējiet izvēles rūtiņu Atzīmēt.
-    * Ja piedāvājuma virsrakstā atzīmējat izvēles rūtiņu Atzīmēt, tad tiek atzīmētas arī visas rindas. Piedāvājumā varat arī atzīmēt rindu apakškopu, lai tās noraidītu vai pieņemtu. Ir iespējams pieņemt viena kreditora piedāvājumu noteiktām PP rindām, un pēc tam pārējās PP rindas piešķirt citam kreditoram, taču tas ir jādara 2 darbībās un vienlaicīgi tikai vienā piedāvājumā. Ja pastāv citas rindas, varat pieņemt tikai sākotnējo piedāvājuma rindu vai tās alternatīvu, bet ne abas.  
-3. Noklikšķiniet uz Noraidīt.
-4. Noklikšķiniet uz Parametri, lai atvērtu nolaižamo dialogu.
-5. Laukā Noraidīšanas pamatojums ievadiet vai atlasiet kādu vērtību.
-    * Atteikuma pamatojums tiks saglabāts atbildē.  
-6. Noklikšķiniet uz OK.
-7. Noklikšķiniet uz OK.
-8. Aizvērt lapu.
-9. Aizvērt lapu.
-10. Atsvaidziniet lapu.
+
+    Vienlaicīgi varat pieņemt, noraidīt vai atgriezt tikai vienu piedāvājumu vai viena piedāvājuma rindas.
+
+2. Atzīmējiet izvēles rūtiņu **Atzīmēt**.
+
+    Ja piedāvājuma virsrakstā atzīmējat izvēles rūtiņu **Atzīmēt**, tad tiek atzīmētas arī visas rindas. Lai noraidītu vai pieņemtu tikai dažas no piedāvājuma rindām, varat iezīmēt tikai šīs rindas. Turklāt varat pieņemt viena kreditora priekšlikumu dažās PP rindās, bet pārējās PP rindas piešķirt citam kreditoram. Tomēr ir jāapstrādā viens piedāvājums vienlaikus.
+
+    Ja pastāv citas rindas, varat pieņemt sākotnējo piedāvājuma rindu vai tās alternatīvu, bet ne abas.
+
+3. Atlasiet **Noraidīt**.
+4. Atlasiet **Parametri**un pēc tam laukā **Noraidīšanas pamatojums** ievadiet vai atlasiet pamatojumu piedāvājuma noraidīšanai.
+
+    Pamatojums tiek saglabāts atbildē.
+
+5. Atlasiet **Labi**.
+6. Atlasiet **Labi**.
 
 ## <a name="accept-a-bid"></a>Pieņemt piedāvājumu
-1. Atlasiet piedāvājumu, kuru vēlaties pieņemt, un pēc tam noklikšķiniet uz saites laukā Piedāvājuma pieprasījums.
-2. Darbību rūtī noklikšķiniet uz Atbilde.
-3. Noklikšķiniet uz Akceptēt.
-    * Ja esat atzīmējis vienas rindas, bet ne citas, tad pieņemšanas darbībā tiks iekļautas tikai atzīmētās rindas. Vai vēlaties pieņemt visas piedāvājuma rindas, tad rindas nav jāatzīmē.  
-4. Noklikšķiniet uz Parametri, lai atvērtu nolaižamo dialogu.
-    * Šādi jūs varat ierakstīt piedāvājuma pieņemšanas pamatojumu. Pamatojums tiks saglabāts piedāvājumā.  
-5. Laukā Pieņemšanas pamatojums ievadiet vai atlasiet kādu vērtību.
-6. Noklikšķiniet uz OK.
-7. Noklikšķiniet uz OK.
-    * Kad noklikšķināt uz Labi, ar šo tiek izveidots pirkšanas pasūtījums, pamatojoties uz PP pieņemšanā iekļautajām rindām. Ja pastāv citi piedāvājumi, kas nav apstrādāti (pieņemti, noraidīti vai atgriezti), tad sistēma jums piedāvā noraidīt atlikušos piedāvājumus.  
 
-## <a name="view-the-purchase-order-thats-been-generated"></a>Skatīt ģenerēto pirkšanas pasūtījumu
-1. Darbību rūtī noklikšķiniet uz Vispārīgi.
-2. Noklikšķiniet uz Pirkšanas pasūtījums.
-    * Šeit varat redzēt pirkšanas pasūtījumu, kas tika ģenerēts, kad pieņēmāt piedāvājumu.  
-3. Aizvērt lapu.
-4. Aizvērt lapu.
-5. Aizvērt lapu.
-6. Aizvērt lapu.
+1. Atlasiet piedāvājumu, kuru vēlaties pieņemt, un pēc tam atlasiet saiti laukā **Piedāvājuma pieprasījums**.
 
+    Ja atrodaties lapā **Salīdzināt piedāvājuma pieprasījumu atbildes**, izceltais piedāvājums, kam ir fokuss, ir piedāvājums, ko sistēma apsvērs pieņemšanas darbības laikā. Varat pieņemt rindas tikai no viena piedāvājuma vienlaikus.
+
+2. Darbību rūtī atlasiet **Atbilde**.
+3. Atlasiet **Pieņemt**.
+
+    Ja esat atzīmējis tikai noteiktas rindas, pieņemšanas darbība iekļaus tikai šīs rindas. Ja vēlaties pieņemt visas piedāvājuma rindas, tad rindas nav jāatzīmē.
+
+4. Atlasiet **Parametri**un pēc tam laukā **Pieņemšanas pamatojums** ievadiet vai atlasiet pamatojumu piedāvājuma pieņemšanai.
+
+    Pamatojums tiek saglabāts piedāvājumā.
+
+5. Atlasiet **Labi**.
+6. Atlasiet **Labi**.
+
+    Kad atlasāt **Labi**, tiek izveidots pirkšanas pasūtījums, pamatojoties uz PP pieņemšanā iekļautajām rindām. Ja pastāv citi piedāvājumi, kas nav apstrādāti (pieņemti, noraidīti vai atgriezti), tad sistēma jums piedāvā noraidīt tos.
+
+## <a name="view-the-purchase-order-that-is-generated"></a>Skatīt ģenerēto pirkšanas pasūtījumu
+
+- Darbību rūts cilnē **Vispārīgi** atlasiet **Pirkšanas pasūtījums**.
+
+    Lapā, kas tiek parādīta, ir pirkšanas pasūtījums, kas tika ģenerēts, kad pieņēmāt piedāvājumu.

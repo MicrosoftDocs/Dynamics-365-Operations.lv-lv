@@ -20,11 +20,11 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335420"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546229"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori 
 
@@ -132,7 +132,7 @@ Diemžēl nepastāv standarta funkcijas, kas sniedz iespēju meklēt preces pēc
 | Ārējie kodi izlaisto preču variantiem | Ārējais kods | Ārējais kods, ārējo kodu klases, krājuma numurs, preces dimensijas | Ārējie kodi atbilst noteiktai juridiskajai personai. Importēšanai ir jāizmanto definēta kodu klase. Importējiet kodu klases, izmantojot elementu **Ārējo kodu klases izlaistajām precēm**. Lietojot šo elementu, preces varianti tiek norādīti, izmantojot krājuma numuru un preces dimensijas. |
 | Izlaisto preces variantu ārējie kodi pēc preces numura identifikatora | Ārējais kods | Ārējais kods, ārējo kodu klases, preces numurs | Ārējie kodi atbilst noteiktai juridiskajai personai. Importēšanai ir jāizmanto definēta kodu klase. Importējiet kodu klases, izmantojot elementu **Ārējo kodu klases izlaistajām precēm**. Lietojot šo elementu, preces varianti tiek norādīti, izmantojot varianta preces numuru. (Sākot ar nākamo nozīmīgo laidienu.) |
 | GTIN | Nav attiecināms | Nav attiecināms | Pašlaik nav neviena noteikta elementa, kas tiek izmantots GTIN kodu importēšanai un eksportēšanai. Ir ieteicams tā vietā izmanto elementu **Krājuma svītrkods**. |
-| Preces elementa Common Data Service identifikatora elements | Nav attiecināms | Krājuma kods, krājuma saīsinātais nosaukums, preces saīsinātais nosaukums, kreditora krājuma numurs, debitora krājuma numurs, ārējie kodi, GTIN kodi, svītrkodi | Šis elements nodrošina visu identifikatoru apvienošanu vienā datu modelī, varētu viegli eksportēt visus identifikatorus un to saistītos veidus, izmantojot vienu interfeisu. Izmantojiet elementu **Preces elementa identifikatora kods**, lai eksportētu identifikatoru kodus un aprakstus. Izmantojiet elementu **Preču elementu identifikatoru tvērums**, lai identifikatorā eksportētu papildu tvēruma informāciju, piemēram, informāciju par pusi, juridisko personu, daudzumu vai mērvienību. |
+| Preces elementa common data service identifikatora elements | Nav attiecināms | Krājuma kods, krājuma saīsinātais nosaukums, preces saīsinātais nosaukums, kreditora krājuma numurs, debitora krājuma numurs, ārējie kodi, GTIN kodi, svītrkodi | Šis elements nodrošina visu identifikatoru apvienošanu vienā datu modelī, varētu viegli eksportēt visus identifikatorus un to saistītos veidus, izmantojot vienu interfeisu. Izmantojiet elementu **Preces elementa identifikatora kods**, lai eksportētu identifikatoru kodus un aprakstus. Izmantojiet elementu **Preču elementu identifikatoru tvērums**, lai identifikatorā eksportētu papildu tvēruma informāciju, piemēram, informāciju par pusi, juridisko personu, daudzumu vai mērvienību. |
 
 ### <a name="product-and-item-number-sequences"></a>Preču un krājumu numuru sērijas
 
@@ -162,7 +162,7 @@ Tālāk esošajā tabulā ir sniegts pārskats par importēšanas un manuālas i
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Preces elementa identifikators (visu preces identifikatoru eksportēšana)
 
-Preču elementu identifikatoru modelis tika izveidots, lai CDS versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā CDS versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa Common Data Service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
+Preču elementu identifikatoru modelis tika izveidots, lai CDS versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā CDS versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa common data service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
 
 Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem no visām galvenās juridiskās personas atsauces tabulām, izmantojot periodisku pakešuzdevumu. Jums ir jāatlasa juridiskā persona un preču kategoriju hierarhija, lai definētu globālo preces šablona tvērumu. Globālo preces Common Data Service identifikatoru tabulu var ģenerēt tikai tādām precēm, kas ir izlaistas atlasītajai juridiskajai personai un ir ietvertas preču hierarhijā, kura preču kategoriju hierarhijā ir atlasīta lomai **Common Data Service**.
 
@@ -180,7 +180,7 @@ Veiciet tālāk norādītās darbības, lai konfigurētu vidi.
 
 4. Kad esat pabeidzis preču identifikatoru kodu veidu definēšanu, varat izveidot globālajā tabulā ietvertos identifikatorus, sākot darbu **Izveidot preču elementu identifikatorus** lapā**Preču elementu identifikatoru kodi**. Šis darbs ir jāizpilda kā pakešuzdevums. Šis darbs ir jāiestata kā periodisks pakešuzdevums, lai tabula tiktu aizpildīta atbilstoši jauniem ierakstiem.
 
-Tagad varat izmantot datu elementus **Preces elementa Common Data Service identifikatora elements**, **Preces elementa identifikatora kods** un **Preču elementu identifikatoru tvērums**, lai eksportētu identifikatorus neatkarīgi no mērķa sistēmas.
+Tagad varat izmantot datu elementus **Preces elementa common data service identifikatora elements**, **Preces elementa identifikatora kods** un **Preču elementu identifikatoru tvērums**, lai eksportētu identifikatorus neatkarīgi no mērķa sistēmas.
 
 ## <a name="related-topic"></a>Saistītā tēma
 

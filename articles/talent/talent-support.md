@@ -1,9 +1,9 @@
 ---
 title: Atbalsta saņemšana saistībā ar Talent
-description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Dynamics 365 for Talent.
+description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/18/2018
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,32 +15,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 39aadda6e4c221e243d55e2fd60bbc8484d3b21d
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
+ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992816"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538777"
 ---
 # <a name="get-support-for-talent"></a>Atbalsta saņemšana saistībā ar Talent
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir izskaidrots, kā saņemt palīdzību darbā ar Talent: Core HR, Attract and Onboard.
+Šajā sadaļā ir izskaidrots, kā saņemt palīdzību darbā ar Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract un Dynamics 365 Talent: Onboard.
 
-<a name="contact-support"></a>Sazināties ar atbalsta dienestu
----------------
+## <a name="support-for-talent"></a>Programmas Talent atbalsts
 
-Izmantojiet šajā sadaļā sniegto informāciju, lai sazinātos ar Microsoft, ja jums ir tehniski jautājumi par programmu Talent.
+Lai saņemtu atbalstu darbā ar programmu Talent, izmantojiet nākamajā tabulā norādītos resursus. Šie resursi ir uzskaitīti tādā secībā, kādā mēs tos iesakām izmantot problēmu novēršanas procesā.
 
-### <a name="talent-support"></a>Atbalsts darbā ar Talent 
+| Uzdevums | Papildinformācija |
+|------|------------------|
+| Jautājiet kopienai. | Dodieties uz lapu [Dynamics 365 for Talent kopiena](https://community.dynamics.com/365/talent), lai saņemtu palīdzību par jautājumiem. Lai atrastu atbildes, ievadiet jautājumu meklēšanas laukā blakus tekstam **Ir jautājums**. Lai uzdotu jautājumu, atlasiet **Uzdot jautājumu**. |
+| Izmantojiet mākoņa darbinātā atbalsta rīku. | Sadaļā [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) pārejiet uz savu projektu un atlasiet elementu **Atbalsts**. Šeit varat iesniegt problēmas divos tālāk minētajos veidos.<ul><li>Cilnē **Aktīvās problēmas** atlasiet iesniedzamo problēmu un pēc tam atlasiet **Iesniegt korporācijai Microsoft**.</li><li>Cilnē **Iesniegts korporācijai Microsoft** atlasiet **Iesniegt jaunu incidentu**, lai iesniegtu jaunu problēmu.</li></ul> |
+| Saņemiet atbalstu programmā. | Lapas augšējā labajā stūrī atlasiet pogu **Palīdzība** (**?**). Pēc tam, ja ir atvērta programma Core HR, atlasiet opciju **Atbalsts**. Ja ir atvērta programma Attract vai Onboard, atlasiet **Ziņot par problēmu**. Par problēmām tiek ziņots LCS cilnē **Aktīvās problēmas**, kur administrators var noteikt, vai nodrošināt iekšējo atbalstu vai iesniegt problēmas korporācijai Microsoft. (Ja jums ir savrupa Onboard versija, problēmas tiek iesniegtas tieši korporācijai Microsoft.) |
+| Saņemiet palīdzību par Talent licencēšanas jautājumiem. | Sazinieties ar vietējo partneri vai Microsoft tirdzniecības pārstāvi. |
+| Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Talant. | Lietojumprogrammas Talent galvenajā lapā atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 lietojumprogrammas idejas](https://experience.dynamics.com/ideas/), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |
 
-Lai saņemtu atbalstu darbā ar programmu Talent, izmantojiet nākamajā tabulā sniegtos resursus. Šie resursi ir uzskaitīti tādā secībā, kādā mēs tos iesakām izmantot problēmu novēršanas procesā.
+## <a name="support-for-the-onboard-stand-alone-app"></a>Onboard savrupās programmas atbalsts
 
-| **Uzdevums**                                                | **Papildinformācija**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jautāt kopienai                                      | Dodieties uz lapu [Jautāt kopienai](https://community.dynamics.com/365/talent), lai meklētu atbildes ar jautājumiem un izmantojiet opciju “Palīdzība” un tēmas programmā Core HR.                                                                                                                                                                                                                                                                                                                                                                                  |
-| Mākoņa darbinātā atbalsta rīka izmantošana                     | Lapā [Lifecycle Services (LCS)](https://lcs.dynamics.com/) elements **Atbalsts** ir rīks, kas palīdz pārvaldīt atbalsta incidentus. Lai iesniegtu jautājumus par problēmām tieši korporācijai Microsoft, dodieties uz elementu **Atbalsta** LCS projektā vai izmantojiet LCS **atbalsta biļešu sadaļu** un noklikšķiniet uz **Mākoņa darbinātais atbalsts**. Varat uzradīt problēmas divos veidos: 1. Ja jautājums par problēmu tiek pieteikts, izmantojot LCS, cilnē **Aktīva problēma** atlasiet problēmu un pēc tam noklikšķiniet uz **Iesniegt korporācijai Microsoft**. 2. Cilnē **Iesniegts korporācijai Microsoft** noklikšķiniet uz **Iesniegt jaunu incidentu**, lai iesniegtu jautājumu par jaunu problēmu.  |
-| Atbalsts programmā                                 | Atlasiet izvēlnē ikonu **?** un pēc tam atlasiet **Atbalsts (Core HR) Ziņot par problēmu (Attract, Onboard)**. Problēmas tiks ziņotas LCS cilnē **Aktīvās problēmas**. Ņemiet vērā — ja iegādājaties savrupo Onboard versiju, problēmas Ziņot par problēmu tiks sūtītas korporācijai Microsoft.  |
-| Palīdzības saņemšana par Talent licencēšanas jautājumiem         | Sazinieties ar vietējo partneri vai Microsoft tirdzniecības pārstāvi.     |
-| Jaunu līdzekļu un funkcionalitātes programmā Talant pieprasīšana | Galvenajā programmas Talent lapā atlasiet ikonu **?** un pēc tam atlasiet **Idejas** vai izmantojiet saiti [Idejas](https://experience.dynamics.com/ideas/), lai skatītu, meklētu, pievienotu jaunas idejas vai balsotu par tām.          |                                                                                                                                                                                                                                                                                           
+Lai saņemtu atbalstu darbā ar savrupo programmu Onboard, izmantojiet nākamajā tabulā sniegtos resursus. Šie resursi ir uzskaitīti tādā secībā, kādā mēs tos iesakām izmantot problēmu novēršanas procesā. Varat atrast visas šīs atbalsta opcijas, atlasot pogu **Palīdzība** (**?**) lapas augšējā labajā stūrī.
+
+| Uzdevums | Papildinformācija |
+|------|------------------|
+| Jautājiet kopienai. | Dodieties uz lapu [Dynamics 365 for Talent kopiena](https://community.dynamics.com/365/talent), lai saņemtu palīdzību. Lai atrastu atbildes, ievadiet jautājumu meklēšanas laukā blakus tekstam **Ir jautājums**. Lai uzdotu jautājumu, atlasiet **Uzdot jautājumu**. |
+| Ziņojiet par problēmu. | Lapas augšējā labajā stūrī atlasiet pogu **Palīdzība** (**?**) un atlasiet **Ziņot par problēmu**. Ievadiet problēmas aprakstu un norādiet e-pasta adresi, ja vēlaties saņemt informāciju par problēmu. |
+| Saņemiet palīdzību par Talent licencēšanas jautājumiem. | Sazinieties ar vietējo partneri vai Microsoft tirdzniecības pārstāvi. |
+| Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Onboard. | Atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 for Talent: Onboard idejas](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |

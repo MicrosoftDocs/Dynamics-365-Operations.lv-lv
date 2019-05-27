@@ -17,12 +17,12 @@ ms.search.region: Latvia
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 67b477b1b2e1d0836b236b6c4926dd6bd7c601fa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1664c2448894b7884f425d2dab0e282a09d49802
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371284"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538164"
 ---
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 

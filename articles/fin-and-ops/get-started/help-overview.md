@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350738"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538960"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations palīdzības sistēma
 
@@ -90,8 +90,6 @@ Mēs labprāt saņemam klientu atsauksmes. Varat pievienot komentāru vai ieteik
 Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet komentāru lapas apakšdaļā.
 
 1. Noklikšķiniet uz **Atsauksmes**, lai pārietu uz lapas apakšdaļā esošo komentāru sadaļu, un pēc tam noklikšķiniet uz **Atsauksmes par produktu** vai **Pierakstīties, lai sniegtu atsauksmes par dokumentāciju**.
-
-    ![Atsauksmes](./media/comments.png)
 
 2. Ievadiet komentārus un pēc tam noklikšķiniet uz **Iesniegt atsauksmes**.
 

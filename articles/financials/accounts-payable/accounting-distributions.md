@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320470"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559484"
 ---
 # <a name="accounting-distributions"></a>Uzskaites sadales
 
@@ -52,7 +52,7 @@ Vispārīgās uzskaites sadales iespējas nodrošina tālāk aprakstītās uzska
     -   Poga **Labot** parādās un ir iespējota dokumentiem, kas atbalsta labojumus. Komanda **Labot** izveido jaunas sadales. Vispirms tiek izveidotas sadales, kas atsauc sākotnējās sadales. Šīs sadales nevar modificēt. Pēc tam tiek izveidotas jaunas, pareizas uzskaites sadales. Šīs sadales var modificēt, ja var modificēt sākotnējās sadales.
     -   Poga **Detalizēta informācija par projektu** ir iespējota kā paplašinājums, ja rinda ir saistīta ar projektu. Projekta uzskaites sadales ļauj modificēt detalizētu informāciju, piemēram, finansējuma avotu un rindas rekvizītus.
     -   Pašreizējā dokumenta uzskaites statusu varat redzēt sadaļā **Atsauce**. Statuss ir visam dokumentam, un tas norāda, vai dokumenta apstrāde vēl notiek vai ir pabeigta.
--   ** Skatīt sadales** — skatiet visu dokumenta rindu un naudas summu uzskaites sadales. No šī skata uzskaites sadales nevar modificēt.
+-   **Skatīt sadales** — skatiet visu dokumenta rindu un naudas summu uzskaites sadales. No šī skata uzskaites sadales nevar modificēt.
 
 
 Papildinformāciju skatiet sadaļā [Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem](accounting-distributions-subledger-journal-entries-vendor-invoices.md).

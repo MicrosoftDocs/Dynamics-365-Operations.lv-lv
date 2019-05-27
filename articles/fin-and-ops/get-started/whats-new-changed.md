@@ -3,7 +3,7 @@ title: Jaunumi un izmaiņas
 description: Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem programmas Microsoft Dynamics 365 for Finance and Operations jaunākajās versijās.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 47b8a5354635303e8ce280d09201e7823137661f
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 2b6884165c6f0811a649e8fd5db831260ed1508e
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975783"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538983"
 ---
 # <a name="whats-new-or-changed"></a>Jaunumi un izmaiņas
 
@@ -52,6 +52,12 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </thead>
 <tbody>
 <tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0.3</td>
+<td>10.0.107</td>
+<td>2019. jūnijs</td>
+<td><a href="whats-new-changed-10-0-3.md">Priekšskatījuma līdzekļi Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs)</a></td>
+</tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
 <td>10.0.80</td>
@@ -160,7 +166,13 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platform update 26</td>
+<td>Platformas update 27</td>
+<td>7.0.5286</td>
+<td>2019. jūnijs</td>
+<td><a href="whats-new-platform-update-27.md">Priekšskatījuma līdzekļi Dynamics 365 for Finance and Operations atjauninājumā Platform Update 27 (2019. gada jūnijs)</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Platformas update 26</td>
 <td>7.0.5257</td>
 <td>2019. maijs</td>
 <td><a href="whats-new-platform-update-26.md">Priekšskatījuma līdzekļi Dynamics 365 for Finance and Operations atjauninājumā Platform Update 26 (2019. gada maijs)</a></td>

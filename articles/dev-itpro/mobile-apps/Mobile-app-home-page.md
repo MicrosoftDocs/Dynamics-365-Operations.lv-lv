@@ -18,11 +18,11 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321390"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554466"
 ---
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Programmas Dynamics 365 for Unified Operations Mobile sākumlapa
 
@@ -84,7 +84,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td>1</td>
 <td>Sistēmas administrators</td>
 <td>Ieviesiet programmatūru Finance and Operations savā organizācijā.</td>
-<td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
+<td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics  365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
