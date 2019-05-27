@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992887"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527675"
 ---
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
@@ -66,26 +66,6 @@ ms.locfileid: "992887"
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: sākot ar 2020. gada aprīli, uzlabotā filtrēšanas darbība “ir viens no” būs noklusējuma darbība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Atvasināšana no iekšējām klasēm ir novecojusi
-
-|   |  |
-|------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Kompilatora brīdinājums tiks aizstāts ar kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.|
-| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
-| **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Iekšējo metožu ignorēšana ir novecojusi
-
-|   |  |
-|------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
-| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
-| **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parametrs, lai iespējotu pārdošanas pasūtījumus ar vairākiem projekta līguma finansējuma avotiem
 Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta līgumam ir vairāki finansējuma avoti, tiek iespējots, izmantojot sadaļas **Projektu pārvaldības parametri** iestatījumu **Atļaut pārdošanas pasūtījumus projektam ar vairākiem finansējuma avotiem**. Pēc noklusējuma šis parametrs nav iespējots. 

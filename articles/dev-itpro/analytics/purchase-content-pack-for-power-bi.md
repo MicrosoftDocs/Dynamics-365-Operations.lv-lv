@@ -3,7 +3,7 @@ title: Power BI satura pakotne Pirkšanas tēriņu analīze
 description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Pirkšanas tēriņu analīze. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313846"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527721"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Power BI satura pakotne Pirkšanas tēriņu analīze
 
@@ -44,88 +44,88 @@ Saturam tiek izmantoti pirkumu transakciju dati, un tas nodrošina gan uzņēmum
 Power BI satura pakotne **Pirkšanas tēriņu analīze** tiek rādīta lapā **Pirkšanas un tēriņu rādītāju analīze** (**Sagāde un avoti** \> **Pieprasījumi un pārskati** \> **Pirkšanas rādītāju analīze** \> **Pirkšanas un tēriņu rādītāju analīze**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji
-Power BI satura pakotnē **Pirkšanas tēriņu analīze** ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām.
+Power BI satura pakotnē **Pirkšanas tēriņu analīze** ir iekļauts pārskats, kas sastāv no rādītāju kopas. Šie rādītāji tiek vizualizēti kā diagrammas, elementi un tabulas. 
 
-<table>
-<thead>
-<tr>
-<th>Pārskata lapa</th>
-<th>Diagrammas</th>
-<th>Elementi</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Pirkumi pēc kreditora</td>
-<td><ul>
-<li>Pirmie 10 kreditori pēc pirkšanas (joslu grēdu diagramma)</li>
-<li>Pirkumu kopsumma pēc kreditoru grupas/valsts/nosaukuma (sektoru diagramma)</li>
-<li>Pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</li>
-<li>Vidējie pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)</li>
-</ul></td>
-<td><ul>
-<li>Kopējā pirkšana</li>
-<li>Pirkumu palielinājums pa gadiem</li>
-<li>Kreditoru kopskaits</li>
-<li>Aktīvo kreditoru kopskaits</li>
-</ul></td>
-</tr>
-<tr>
-<td>Pirkumi pēc preces</td>
-<td><ul>
-<li>Pirkumi pēc sagādes kategorijas/preces nosaukuma (stabiņu diagramma)</li>
-<li>Pirkumu kopsumma pēc sagādes kategorijas/preces nosaukuma (sektoru diagramma)</li>
-<li>Pirmās 10 preces pēc pirkšanas (joslu grēdu diagramma)</li>
-</ul></td>
-<td><ul>
-<li>Preču kopskaits</li>
-<li>Aktīvo preču kopskaits procentos no preču kopskaita</li>
-<li>To preču skaits, kas veido 80% pirkumu</li>
-</ul></td>
-</tr>
-<tr>
-<td>Pirkumi pēc perioda*</td>
-<td><ul>
-<li>Pirkumi pēc mēneša/dienas (stabiņu diagramma)</li>
-<li>Apkopotā pirkumu novirze pa gadiem (ūdenskrituma diagramma)</li>
-<li>Pirkumu kopsummas palielinājums pa gadiem (stabiņu diagramma)</li>
-<li>Sagādes izraksts (matrica)</li>
-</ul></td>
-<td><ul>
-<li>Pirkumu palielinājums pa gadiem</li>
-<li>Pirkumu palielinājums (%)</li>
-</ul></td>
-</tr>
-<tr>
-<td>Pirkumi pēc kreditora atrašanās vietas</td>
-<td><ul>
-<li>Pirkumi pēc pilsētas</li>
-<li>Pirkumu palielinājums pa gadiem (%)</li>
-<li>Pirkumi pēc valsts</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Pirkumu tēriņu analīze pēc laika</td>
-<td><ul>
-<li>Pašreizējā gada pirkumi pēc mēneša/dienas (līniju diagramma)</li>
-<li>Pašreizējā un pagājušā gada pirkumi (līniju un stabiņu diagramma)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Pirkumu tēriņu analīze pēc kreditora</td>
-<td><ul>
-<li>Pirmo 10 kreditoru pirkumi procentos (%) no pirkumiem (piltuves diagramma)</li>
-<li>Pirmie 10 kreditori ar palielinātiem tēriņiem pa gadiem</li>
-<li>Pirmie 10 kreditori ar samazinātiem tēriņiem pa gadiem</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 
-\* Šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas
+### <a name="purchase-by-vendor-report-page"></a>Pārskata lapa pirkumiem pēc kreditora
+**Diagrammas**
+- Pirmie 10 kreditori pēc pirkšanas (joslu grēdu diagramma)
+- Pirkumu kopsumma pēc kreditoru grupas/valsts/nosaukuma (sektoru diagramma)
+- Pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)
+- Vidējie pirkumi pēc kreditoru grupas/valsts/nosaukuma (stabiņu diagramma)
+
+**Elementi**
+- Kopējā pirkšana
+- Pirkumu palielinājums pa gadiem
+- Kreditoru kopskaits
+- Aktīvo kreditoru kopskaits
+
+**Piemērs**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Pārskata lapa pirkumiem pēc preces
+
+**Diagrammas**
+- Pirkumi pēc sagādes kategorijas/preces nosaukuma (stabiņu diagramma)
+- Pirkumu kopsumma pēc sagādes kategorijas/preces nosaukuma (sektoru diagramma)
+- Pirmās 10 preces pēc pirkšanas (joslu grēdu diagramma)
+
+**Elementi**
+- Preču kopskaits</li>
+- Aktīvo preču kopskaits procentos no preču kopskaita
+- To preču skaits, kas veido 80% pirkumu
+
+**Piemērs**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Pārskata lapa pirkumiem pēc perioda
+Šajā lapā parādīti šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas.
+
+**Diagrammas** 
+- Pirkumi pēc mēneša/dienas (stabiņu diagramma)
+- Apkopotā pirkumu novirze pa gadiem (ūdenskrituma diagramma)
+- Pirkumu kopsummas palielinājums pa gadiem (stabiņu diagramma)
+- Sagādes izraksts (matrica)
+
+**Elementi**
+- Pirkumu palielinājums pa gadiem
+- Pirkumu palielinājums (%)
+
+**Piemērs**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Pārskata lapa pirkumiem pēc vietas
+
+**Diagrammas**
+- Pirkumi pēc pilsētas
+- Pirkumu palielinājums pa gadiem (%)
+- Pirkumi pēc valsts
+
+**Piemērs**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Pārskata lapa pirkumu tēriņu analīzei pēc laika
+
+**Diagrammas** 
+- Pašreizējā gada pirkumi pēc mēneša/dienas (līniju diagramma)
+- Pašreizējā un pagājušā gada pirkumi (līniju un stabiņu diagramma)
+
+**Piemērs**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Pārskata lapa pirkumu tēriņu analīzei pēc kreditora
+
+**Diagrammas** 
+- Pirmo 10 kreditoru pirkumi procentos (%) no pirkumiem (piltuves diagramma)
+- Pirmie 10 kreditori ar palielinātiem tēriņiem pa gadiem
+- Pirmie 10 kreditori ar samazinātiem tēriņiem pa gadiem
+
+**Piemērs** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Datu modelis un elementi
 Power BI satura pakotnes **Pirkšanas tēriņu analīze** pārskatu lapu aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Apskats par Power BI integrāciju elementu krātuvē](power-bi-integration-entity-store.md).

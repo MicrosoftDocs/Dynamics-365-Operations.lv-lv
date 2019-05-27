@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842726"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505100"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -71,6 +71,8 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 640 | Notīrīt rindā norādīto tirdzniecības pārstāvi | Noņemt no pašlaik atlasītās rindas komisijas pārdošanas grupu (pārdošanas pārst.). | Jā | Jā | Nē | Jā | Nē |
 | 121 | Dzēst pārdevēju | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 1055 | Maiņas slēgšana | Slēgt pašreizējo maiņu, drukāt Z pārskatu un izrakstīt lietotāju no sistēmas. | Jā | Jā | Jā | Nē | Nē |
+| 139 | Noslēgt transakciju | Lietotājam parāda uzvedni, lai atlasītu maksājuma metodi | Jā | Jā | Nē | Jā | Nē |
+| 620 | Izveidot debitora pasūtījumu | Pārveidot POS transakciju par debitora pasūtījumu. | Jā | Jā | Nē | Jā\* | Nē |
 | 925 | Kopēt bankas čeku | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Jā |
 | 620 | Izveidot debitora pasūtījumu | Pārveidot POS transakciju par debitora pasūtījumu. | Jā | Jā | Nē | Jā\* | Nē |
 | 621 | Izveidot piedāvājumu | Pārveidot POS transakciju par pārdošanas piedāvājumu. | Jā | Jā | Nē | Jā\* | Nē |

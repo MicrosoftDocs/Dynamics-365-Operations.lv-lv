@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353797"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530872"
 ---
 # <a name="define-financial-dimensions"></a>Finanšu dimensiju definēšana
 
@@ -32,8 +32,8 @@ ms.locfileid: "353797"
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Uz elementu balstītas finanšu dimensijas izveide
 1. Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Dimensijas > Finanšu dimensijas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Lietotāja vērtības no atlasiet sistēmas definētu elementu, uz kuru balstīt finanšu dimensiju. 
+2. Klikšķiniet Jauns.
+3. Veidlapas laukā Lietotāja vērtības atlasiet sistēmas definētu elementu, uz kuru balstīt finanšu dimensiju. 
 4. Laukā Dimensijas nosaukums ievadiet vērtību, lai aprakstītu finanšu dimensiju.
     * Nosaukums var atšķirties no sistēmas definētā elementa nosaukuma, bet nedrīkst saturēt atstarpes vai īpašas rakstzīmes.  
 5. Noklikšķiniet uz Aktivizēt.
@@ -46,8 +46,8 @@ ms.locfileid: "353797"
 
 ## <a name="create-a-custom-financial-dimension"></a>Pielāgotās finanšu dimensijas izveide
 1. Aizvērt lapu.
-2. Noklikšķiniet uz Jauns.
-3. Laukā "Izmantot vērtības no" atlasiet <Custom dimension>.
+2. Klikšķiniet Jauns.
+3. Laukā Izmantot vērtības no atlasiet Pielāgota dimensija.
 4. Laukā Dimensijas nosaukums ievadiet vērtību, lai aprakstītu finanšu dimensiju.
     * Nosaukumā nedrīkst būt atstarpes vai īpašas rakstzīmes.  
     * Lai ierobežotu summas un tipa informāciju, ko var ievadīt dimensiju vērtībām, var norādīt arī konta masku.   
