@@ -1,9 +1,9 @@
 ---
-title: Segšanas pārskats
-description: Šajā rakstā ir sniegta vispārīga informācija par nosegšanas procesu. Šeit ir sniegta informācija par nosedzamo transakciju veidiem, kad un kā transakcijas var nosegt un par nosegšanas procesa rezultātiem.
+title: Segšanas apskats
+description: Šajā tēmā ir sniegta vispārīga informācija par nosegšanas procesu. Šeit ir sniegta informācija par nosedzamo transakciju veidiem, kad un kā transakcijas var nosegt un par nosegšanas procesa rezultātiem.
 author: kweekley
 manager: AnnBe
-ms.date: 12/06/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e13bdcdcf6dac68a95e6c2759a66bc59013464cb
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338295"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539971"
 ---
-# <a name="settlement-overview"></a>Segšanas pārskats
+# <a name="settlement-overview"></a>Segšanas apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta vispārīga informācija par nosegšanas procesu. Šeit ir sniegta informācija par nosedzamo transakciju veidiem, kad un kā transakcijas var nosegt un par nosegšanas procesa rezultātiem.
+Šajā tēmā ir sniegta vispārīga informācija par nosegšanas procesu. Šeit ir sniegta informācija par nosedzamo transakciju veidiem, kad un kā transakcijas var nosegt un par nosegšanas procesa rezultātiem.
 
 Veicot segšanu, viena dokumenta transakcijas tiek attiecinātas uz cita dokumenta transakcijām. lai palielinātu vai samazinātu katra dokumenta bilanci. Piemēram, maksājumu var attiecināt uz rēķinu. Dažādus transakciju tipus var segt dažādos laikos un ar dažādām metodēm. Segšana var arī izraisīt jaunu transakciju ģenerēšanu.
 
@@ -40,7 +40,7 @@ Moduļos Kreditoru parādi un Debitoru parādi segšanu var veikt jebkura tipa t
 Transakcijas var segt maksājuma ievades laikā. Piemēram, kad veicat maksājumu kreditoram, parasti atlasāt apmaksājamos rēķinus. Atlasot rēķinus, jūs tos atzīmējat segšanai ar maksājumu. Kad debitoru maksājumu apstrādes darbinieki reģistrē debitora maksājumu, viņi var atzīmēt atbilstošos rēķinus segšanai, pamatojoties uz debitora maksājumam pievienoto informāciju. Lai atzīmētu sedzamās transakcijas, tiek izmantota lapa **Transakciju nosegšana**. Šo lapu var atvērt jebkurā neiegrāmatotā rēķinā vai maksājumā. Kad tiek grāmatota transakcija, tiek grāmatota arī segšana. Transakcijas var segt arī pēc to grāmatošanas. Varat ievadīt un grāmatot debitora maksājumu, nesedzot to ar rēķiniem. Taču vispirms, iespējams, ir jāveic izpēte, lai pārliecinātos, ka maksājums tiek segts ar pareizo rēķinu. Lapu **Transakciju segšana** var atvērt lapā **Visi debitori** vai **Visi kreditori** vai jebkura kreditora vai debitora lapu **Transakcijas**. Varat arī rezervēt grāmatotās priekšapmaksas noteiktam rēķinam, atzīmējot maksājumu segšanai ar pirkšanas pasūtījumu vai pārdošanas pasūtījumu. Šādā gadījumā maksājumam joprojām ir atvērta bilance, taču to nevar segt ar citu rēķinu. Maksājums tiek automātiski segts ar rēķinu, kas ir izveidots no pirkšanas pasūtījuma vai pārdošanas pasūtījuma.
 
 ## <a name="how-to-settle-transactions"></a>Kā segt transakcijas
-Transakcijas var segt manuāli, automātiski vai izmantojot abu šo metožu kombināciju. Segšanas metodes izvēle ir atkarīga no uzņēmējdarbības procesiem, ko pēc tam var ieviest, iestatot segšanu lapās Kreditoru parādu parametri un Debitoru parādu parametri. Varat izveidot kreditoru maksājumus un debitoru tiešā debeta maksājumus, izmantojot maksājuma priekšlikumu, kas tiek izmantots, lai atlasītu apmaksājamos rēķinus. Maksājuma priekšlikums tiek uzsākts manuāli, taču vēlāk, kad tiek izveidoti maksājumi, sistēmā Microsoft Dynamics 365 for Finance and Operations atlasītie rēķini tiek automātiski atzīmēti segšanai. Ja maksājumi tiek izveidoti manuāli, varat izmantot lapu **Transakciju segšana**, lai atlasītu rēķinus segšanai. Varat manuāli atlasīt rēķinus vai arī varat izmantot opciju **Atzīmēt pēc prioritātes**, lai rēķini tiktu automātiski atzīmēti segšanai. Opcija **Atzīmēt pēc prioritātes** ir pieejama tikai modulī Debitoru parādi. Lai iespējotu šo opciju, izmantojiet lapu **Norēķinu prioritāte** sadaļā Debitoru parādu parametri. Ja maksājumus apstrādājošais darbinieks ievada maksājumu, taču nesedz šo maksājumu pirms tā grāmatošanas, maksājums var tikt segts automātiski. Varat iespējot automātisko segšanu lapās Debitoru parādu parametri un Kreditoru parādu parametri. Ja izmantojat automātisko segšanu, varat izmantot iepriekš definētu segšanas secību vai definēt savu segšanas prioritātes secību lapā Debitoru parādu parametri. Šī funkcionalitāte ir pieejama tikai modulī Debitoru parādi.
+Transakcijas var segt manuāli, automātiski vai izmantojot abu šo metožu kombināciju. Segšanas metodes izvēle ir atkarīga no uzņēmējdarbības procesiem, ko pēc tam var ieviest, iestatot segšanu lapās Kreditoru parādu parametri un Debitoru parādu parametri. Varat izveidot kreditoru maksājumus un debitoru tiešā debeta maksājumus, izmantojot maksājuma priekšlikumu, kas tiek izmantots, lai atlasītu apmaksājamos rēķinus. Maksājuma priekšlikums tiek uzsākts manuāli, un vēlāk, kad tiek izveidoti maksājumi, sistēmā Dynamics 365 for Finance and Operations atlasītie rēķini tiek automātiski atzīmēti segšanai. Ja maksājumi tiek izveidoti manuāli, varat izmantot lapu **Transakciju segšana**, lai atlasītu rēķinus segšanai. Varat manuāli atlasīt rēķinus vai arī varat izmantot opciju **Atzīmēt pēc prioritātes**, lai rēķini tiktu automātiski atzīmēti segšanai. Opcija **Atzīmēt pēc prioritātes** ir pieejama tikai modulī Debitoru parādi. Lai iespējotu šo opciju, izmantojiet lapu **Norēķinu prioritāte** sadaļā Debitoru parādu parametri. Ja maksājumus apstrādājošais darbinieks ievada maksājumu, taču nesedz šo maksājumu pirms tā grāmatošanas, maksājums var tikt segts automātiski. Varat iespējot automātisko segšanu lapās Debitoru parādu parametri un Kreditoru parādu parametri. Automātiskā nosegšana veic transakcijas vienas juridiskās personas ietvaros un neveic nosegšanu starp vairākām juridiskajām personām. Ja izmantojat automātisko segšanu, varat izmantot iepriekš definētu segšanas secību vai definēt savu segšanas prioritātes secību lapā Debitoru parādu parametri. Šī funkcionalitāte ir pieejama tikai modulī Debitoru parādi.
 
 ## <a name="results-of-settlement"></a>Segšanas rezultāti
 Sedzot darbības, tiek atbilstoši palielināta vai samazināta katras transakcijas atlikusī bilance. Tipiskā gadījumā, kad tiek segts rēķins un maksājums, katras transakcijas statuss un bilance tiek atjaunināti atbilstoši tālāk norādītajiem noteikumiem.

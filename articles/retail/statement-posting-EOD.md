@@ -3,7 +3,7 @@ title: Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 description: Šajā tēmā ir aprakstīti izrakstu grāmatošanas līdzeklim veiktie uzlabojumi.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321436"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541295"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
@@ -43,7 +43,7 @@ Programmatūra Finance and Operations ietver tālāk norādītās validācijas, 
 - Visām operācijām, kas attiecīgajam izrakstam tiek veiktas tā dzīves cikla laikā (operācijām Izveidot, Aprēķināt, Notīrīt, Grāmatot un citām) ir jāizmanto tā pati konfigurācijas atslēga. Piemēram, nevar izveidot un aprēķināt kādu izrakstu, kamēr ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksts (mantojuma)**, un pēc tam mēģināt to pašu izrakstu grāmatot, kamēr ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksts**.
 
 > [!NOTE]
-> Iesakām izmantot konfigurācijas atslēgu **Mazumtirdzniecības izraksti** uzlabotajam izrakstu grāmatošanas līdzeklim, ja vien jums nav pārliecinoši iemesli konfigurācijas atslēgas **Mazumtirdzniecības izraksti (mantojuma)** izmantošanai tās vietā. Microsoft turpinās ieguldīt jaunajā un uzlabotajā izrakstu grāmatošanas līdzeklī, un ir svarīgi, lai jūs pārietu uz tā lietošanu pēc iespējas ātrāk, izmantojot tā sniegtās priekšrocības. Mantojuma izrakstu grāmatošanas līdzeklis nākamajos laidienos kļūs novecojis.
+> Iesakām izmantot konfigurācijas atslēgu **Mazumtirdzniecības izraksti** uzlabotajam izrakstu grāmatošanas līdzeklim, ja vien jums nav pārliecinoši iemesli konfigurācijas atslēgas **Mazumtirdzniecības izraksti (mantojuma)** izmantošanai tās vietā. Microsoft turpinās ieguldīt jaunajā un uzlabotajā izrakstu grāmatošanas līdzeklī, un ir svarīgi, lai jūs pārietu uz tā lietošanu pēc iespējas ātrāk, izmantojot tā sniegtās priekšrocības. Mantojuma izrakstu grāmatošanas līdzeklis ir novecojis, sākot ar 8.0 laidienu.
 
 ## <a name="setup"></a>Iestatīšana
 
@@ -56,11 +56,15 @@ Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Mazumtirdzn
 
 - **Atspējot nepieciešamo uzskaiti** — kad šī opcija ir iestatīta uz **Jā**, grāmatošanas process izrakstam turpinās pat tad, ja starpība starp aprēķināto summu un transakcijas summu izrakstā ir ārpus sliekšņa vērtības, kas mazumtirdzniecības veikaliem ir definēta kopsavilkuma cilnē **Izraksts**.
 
-Turklāt kopsavilkuma cilnē **Pakešapstrāde** ir ieviests lauks **Maksimālais paralēli grāmatojamo izrakstu skaits**. Šis lauks nosaka vienlaikus pildāmo pakešuzdevumu skaitu. Pašlaik šī lauka vērtība jums ir jāiestata manuāli.
+Turklāt kopsavilkuma cilnē **Pakešveida apstrāde** cilnē **Posting** lapā **Mazumtirdzniecības rekvizīti** ir ieviesti tālāk minētie parametri. 
 
-Turklāt ar jaunu grāmatošanas procesu, ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Mazumtirdzniecības parametri**). Šis nosacījums ir spēkā, pat ja organizācija neizmanto dāvanu kartes.
+- **Maksimālais paralēli grāmatojamo izrakstu skaits** — šajā laukā noteikts pakešuzdevumu skaits, kas tiks izmantoti vairāku izrakstu grāmatošanai. 
+- **Maksimālais pasūtījumu apstrādes pēc ieraksta pavedienu skaits** — šis lauks atspoguļo maksimālo pavedienu skaitu, ko izmanto ieraksta grāmatošanas pakešuzdevums, lai izveidotu pārdošanas pasūtījumus vienam ierakstam un izrakstītu rēķinu. Kopējais pavedienu skaits, kas tiks izmantots izraksta grāmatošanas procesā, tiks aprēķināts, ņemot vērā vērtību šajā parametrā, kas reizināta ar parametra **Maksimālais paralēli grāmatojamo izrakstu skaits** vērtību. Iestatot pārāk lielu šī parametra vērtību par lielu, var negatīvi ietekmēt izraksta grāmatošanas procesa veiktspēju.
+- **Maksimālais apkopojumā iekļauto transakciju rindu skaits** — šis lauks nosaka transakciju rindu skaitu, kas tiks iekļautas vienā apkopotā transakcijā, pirms tiek izveidota jauna. Apkopotās transakcijas tiek veidotas, pamatojoties uz dažādiem apkopošanas kritērijiem, piemēram, debitors, biznesa datums vai finanšu dimensijas. Ir svarīgi atzīmēt, ka vienas mazumtirdzniecības transakcijas rindas netiks sadalītas pa dažādām apkopotām transakcijām. Tas nozīmē, ka ir iespējams, ka rindu skaits apkopotajā transakcijā ir nedaudz lielāks vai zemāks, pamatojoties uz tādiem faktoriem kā atšķirīgu preču skaits.
+- **Maksimālais pavedienu skaits veikala transakciju pārbaudei** — šis lauks nosaka pavedienu skaitu, kas tiks izmantoti mazumtirdzniecības transakciju pārbaudei, Mazumtirdzniecības transakciju pārbaude ir obligāta darbība, kas jāizpilda, pirms transakcijas var tikt ievilktas pārskatos. Turklāt ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Mazumtirdzniecības parametri**). Tas ir jādefinē, pat ja organizācija neizmanto dāvanu kartes.
 
-Ņemiet vērā, ka visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Mazumtirdzniecības parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
+> [!NOTE]
+> Visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Mazumtirdzniecības parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
 
 ## <a name="processing"></a>Apstrādāšana
 

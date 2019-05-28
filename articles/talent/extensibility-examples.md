@@ -3,14 +3,14 @@ title: Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — para
 description: Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 for Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949924"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518536"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
 
@@ -101,7 +101,21 @@ Organizācijai var būt steidzami nepieciešams noteikts prasmju kopums. Šīs p
 
 Lai lejupielādētu veidni **Flow — SharePoint integrācija**, atveriet [Plūsma — SharePoint integrācija](https://go.microsoft.com/fwlink/?linkid=2082109) Microsoft lejupielādes centrā.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Administratora konsole kandidātu kopu pārvaldīšanai
 
+Iespējojot integrāciju ar LinkedIn, pakalpojums Attract automātiski izveido LinkedIn kandidātu kopu. Kad personāla atlases darbinieks veic saziņu InMail formātā ar kandidātu, izmantojot LinkedIn, pakalpojums Attract izveido kandidāta profilu un kandidāts kļūst par LinkedIn kandidātu kopas dalībnieku. Šī PowerApps programma ir noderīga, lai reorganizētu kandidātus kandidātu kopās, pamatojoties uz prasmēm.
+
+Palaidiet šo PowerApps programmu kā administratora konsoli, lai izpildītu tālāk minētos uzdevumus.
+
+- Kandidātu iekļaušana kandidātu kopas sarakstā
+- Kandidātu pievienošana un noņemšana no kandidātu kopas
+- Kandidātu pārvietošana no vienas kandidātu kopas uz citu
+- Pirms pārvietošanas veikta noteikšana, kuri kandidāti jau ir iekļauti kandidātu kopā
+- Kandidātu prasmju pārbaude pirms to pārvietošanas uz citām kandidātu kopām
+
+Šajā PowerApps programmā tiek lietotas “daudzi pret daudziem” tipa attiecības, tāpēc to var izmantot kā veidni citiem scenārijiem, kur nepieciešams iegūt ierakstus ar “daudzi pret daudziem” tipa attiecībām.
+
+Lai lejupielādētu veidni **Administratora konsole kandidātu kopu pārvaldīšanai**, dodieties uz sadaļu [Administratora konsole kandidātu kopu pārvaldīšanai](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) Microsoft lejupielādes centrā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

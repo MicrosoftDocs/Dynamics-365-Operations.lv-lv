@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "368172"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571641"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei
 
@@ -78,7 +78,7 @@ Zemāk varat atrast visu to etiķešu aprakstus, kas ir iekļautas veidnē.
 |< Header >< Sender >< Credential domain=”” > | Pircēja uzņēmuma domēns.|
 |< Header >< Sender >< Credential >< Identity >< /Identity> | Pircēja uzņēmuma identitāte.|
 |< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Pircēja uzņēmuma koplietojamais noslēpums.|
-|< Pieprasījuma režīms deploymentMode=”” >|Pārbaudes vai ražošanas izvietošana.|
+|< Request deploymentMode=”” >|Pārbaudes vai ražošanas izvietošana.|
 |< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Kreditora atzīmēšanas galapunkta URL.|
 
 ### <a name="extrinsic-elements"></a>Ārēji elementi
@@ -95,11 +95,11 @@ Ar iepriekšēju datumu grāmatots ziņojums ir ziņojums, kas tiek saņemts no 
 |< ItemIn quantity=”” > |Daudzums|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Ārējā krājuma ID|
 |< ItemDetail>< UnitPrice >< Money currency=”” >| Valūta|
-|< ItemDetail >< UnitPrice >< Nauda >< /Money >| Vienības cena|
-|< ItemDetail >< Apraksta ShortName=”” >|Preces nosaukums|
-|< ItemDetail >< Apraksts >< /Description >|Iekļauts krājuma aprakstā; preces nosaukums, ja ShortName vērtība nav norādīta.|
+|< ItemDetail >< UnitPrice >< Money >< /Money >| Vienības cena|
+|< ItemDetail >< Description ShortName=”” >|Preces nosaukums|
+|< ItemDetail >< Description >< /Description >|Iekļauts krājuma aprakstā; preces nosaukums, ja ShortName vērtība nav norādīta.|
 |< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure >|Vienība|
-|< ItemDetail >< Klasifikācija >< /Classification >|Iekļauts rēķina aprakstā|
+|< ItemDetail >< Classification >< /Classification >|Iekļauts rēķina aprakstā|
 |< ItemDetail >< Classification domain=”” >|Iekļauts rēķina aprakstā|
 
 ## <a name="delete-an-external-catalog"></a>Dzēš ārējo katalogu

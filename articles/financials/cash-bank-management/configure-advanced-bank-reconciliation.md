@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357339"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561596"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Detalizētas bankas darbību saskaņošanas iestatīšanas process
 
@@ -34,7 +34,7 @@ Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektronisk
 Pirms detalizētās bankas darbību saskaņošanas funkcionalitātes lietošanas ir jāizpilda vairāki sagatavošanās darbi. Papildinformāciju par bankas izrakstu importa iestatīšanu skatiet rakstā [Iestatīt bankas izraksta importēšanas procesu](set-up-advanced-bank-reconciliation-import-process.md).  Tālāk ir aprakstītas prasības saskaņošanas procesa iestatīšanai.
 
 ## <a name="transaction-codes"></a>Transakciju kodi
-Transakciju kodus var izmantot kā daļu no bankas darbību saskaņošanas atbilstības kārtulām.  Transakciju kodi palīdz noteikt tikai viena tipa atbilstošās transakcijas programmatūrā Dynamics 365 for Finance and Operations un jūsu bankas izrakstā.  Lai veiktu šāda veida saskaņošanu, vispirms ir jādefinē transakciju tipi, kas tiek izmantoti bankas transakcijām programmatūrā Dynamics 365 for Finance and Operations, un pēc tam šie tipi ir jākartē ar jūsu bankā izmantotajiem izraksta transakciju kodiem.  Dynamics 365 for Finance and Operations bankas transakciju tipus var definēt lapā **Bankas transakcijas veids**.  Šī ir arī tā vietā, kur jūs definējat galveno kontu, kuru izmantot ar attiecīgo transakcijas tipu saistītajiem grāmatojumiem. 
+Transakciju kodus var izmantot kā daļu no bankas darbību saskaņošanas atbilstības kārtulām.  Transakciju kodi palīdz noteikt tikai viena tipa atbilstošās transakcijas programmatūrā Finance and Operations un jūsu bankas izrakstā.  Lai veiktu šāda veida saskaņošanu, vispirms ir jādefinē transakciju tipi, kas tiek izmantoti bankas transakcijām programmatūrā Dynamics 365 for Finance and Operations, un pēc tam šie tipi ir jākartē ar jūsu bankā izmantotajiem izraksta transakciju kodiem.  Dynamics 365 for Finance and Operations bankas transakciju tipus var definēt lapā **Bankas transakcijas veids**.  Šī ir arī tā vietā, kur jūs definējat galveno kontu, kuru izmantot ar attiecīgo transakcijas tipu saistītajiem grāmatojumiem. 
 
 Kad esat definējis Dynamics 365 for Finance and Operations bankas transakciju kodus, varat tos piesaistīt elektroniskajos bankas izrakstos izmantotajiem transakciju kodiem.  Šī kartēšana notiek, izmantojot lapu **Transakciju kodu kartēšana**.  Transakciju kodu kartējums katram bankas kontam tiek izpildīts atsevišķi.
 

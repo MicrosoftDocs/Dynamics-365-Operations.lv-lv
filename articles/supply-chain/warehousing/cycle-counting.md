@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323230"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560669"
 ---
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
@@ -113,7 +113,7 @@ Cikla inventarizācijas plānu var ieplānot, lai cikla inventarizācijas darbu 
 Lai izveidotu cikla inventarizācijas darbu manuāli, var izmantot lapu **Cikla inventarizācijas darbs pēc krājuma** vai **Cikla inventarizācijas darbs pēc novietojuma**. Jūs varat norādīt maksimālo izveidojamo cikla inventarizāciju skaitu. Piemēram, ja noliktavas vadītājs norāda vērtību **5**, cikla inventarizācijas darbs tiek izveidots piecos novietojumos pat tad, ja šis krājums ir iekļauts 10 novietojumos. Jūs arī varat atlasīt darba kopas ID, kam jāpiešķir izveidotie cikla inventarizācijas darba ID. Kad darba kopas ID tiek apstrādāts cikla inventarizācijai, šai darba kopai piešķirtie cikla inventarizācijas darba ID tiek apstrādāti kā grupa.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Cikla inventarizācijas izpilde, izmantojot mobilo ierīci
-Ir pieejamas vairākas metodes, kā var apstrādāt cikla inventarizācijas darbu, izmantojot programmatūru Microsoft Dynamics 365 for Finance and Operations mobilajā ierīcē.
+Ir pieejamas vairākas metodes, kā var apstrādāt cikla inventarizācijas darbu, izmantojot programmatūru Finance and Operations mobilajā ierīcē.
 
 -   **Lietotāja vadība** — darbinieks var norādīt cikla inventarizācijas darba ID ar statusu **Atvērts**.
 -   **Sistēmas noteikts** — programmatūrā Dynamics 365 for Finance and Operations darbiniekam tiek piešķirts cikla inventarizācijas darba ID.

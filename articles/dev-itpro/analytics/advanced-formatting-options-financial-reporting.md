@@ -1,16 +1,16 @@
 ---
 title: Papildu formatēšanas opcijas finanšu pārskatos
 description: Veidojot finanšu pārskatu, ir pieejamas papildu formatēšanas funkcijas, ieskaitot filtrus dimensijām, ierobežojumus kolonnām un pārskata vienībām, nedrukājamas rindas un IF/THEN/ELSE apgalvojumus aprēķinos.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335581"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502569"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Papildu formatēšanas opcijas finanšu pārskatos
 
@@ -41,6 +41,7 @@ Tabula paskaidro papildu formatēšanas funkcijas, kas ir pieejamas, veidojot p�
 | Kolonnas ierobežojums         | Kolonnu ierobežojums rindas definīcijā ir noderīgs vērtību paslēpšanai, kas attiecas tikai uz dažām pārskata rindām. Kad rindā tiek veikti procentu vērtību aprēķini, kolonnas ierobežojums neļauj kopsummas kolonnas vai citu kolonnu drukāšanu, ja šie numuri nav piemērojami. |
 | Kolonnas atkāpe               | Jūs varat pievienot kolonnu pārtraukumus rindas definīcijā, lai parādītu pārskata informāciju blakus. Jūs varat pievienot vairākus kolonnas pārtraukumus vienā rindas definīcijā, un kolonnas galvenes tiek atkārtotas katras kolonnas augšpusē pēc kolonnas pārtraukuma. Pārskata komentāri tiek rādīti starp kolonnu pārtraukumiem. |
 | IF/THEN/ELSE apgalvojumi     | Var modificēt aprēķinus rindas definīcijā vai kolonnas definīcijā. |
+| Izmantot vienpēdiņas /(/'/'/) un simbolu & kā dimensiju vērtības | Pārskata noformējumam varat izmantot dimensiju vērtības, tostarp simbolu &. |
 
 ## <a name="advanced-cell-placement"></a>Papildu šūnu novietojums
 Papildu šūnu novietojums, vai *forsēšana*, ietver noteiktas vērtības novietojumu noteiktās šūnās. Piemēram, forsēšanu bieži lieto, lai pārvietotu pareizu līdzsvaru skaidras naudas plūsmas pārskatā. Jūs varat izmantot forsēšanu šādiem mērķiem:
@@ -297,3 +298,9 @@ Apgalvojums **IF/THEN/ELSE** ļauj jebkuram aprēķinam būt atkarīgam no citas
 
 > [!NOTE]
 > Jūs nevarat ievietot aprēķina rezultātu nevienā citā kolonnā. Rezultātiem jābūt kolonnā, kas satur formulu.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Izmantot vienpēdiņas /(/'/'/) un simbolu & kā dimensiju vērtības rindā, kolonnā vai kokā
+
+Varat noformēt pārskatus, izmantojot dimensiju vērtības, kas ietver zīmi &. 
+
+Jebkurā laukā **Saite uz finanšu dimensiju** varat ievadīt tādu vērtību kā **/'P&L/'**. Iekļaujot vienpēdiņas /(/' /'/) abās dimensijas vērtības pusēs, tiek norādīts, ka izmantojat literāļa vērtību, piemēram, ietverot zīmi &. 

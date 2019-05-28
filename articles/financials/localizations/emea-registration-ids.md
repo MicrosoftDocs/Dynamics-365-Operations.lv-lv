@@ -18,11 +18,11 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350508"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571154"
 ---
 # <a name="registration-ids"></a>Reģistrācijas ID
 
@@ -58,7 +58,7 @@ Reģistrācijas kategorija ir valsts/reģiona reģistrācijas identifikators, ka
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Ievadīt reģistrācijas ID globālās adrešu grāmatas ierakstiem
 
-Programmatūras Microsoft Dynamics 365 for Finance and Operations globālajā adrešu grāmatā (global address book — GAB) ir apkopota informācija par debitoru, kreditoru, kontaktpersonu, biznesa attiecību un juridisko personu adresēm. Papildinformāciju skatiet rakstā, [Globālās adrešu grāmatas apskats](../../fin-and-ops/organization-administration/overview-global-address-book.md). Puses ierakstos, kas saglabāti globālajā adrešu grāmatā, var būt viens vai vairāki adrešu ieraksti. Šīs adreses tiek izmantotas dažādiem nolūkiem, piemēram, norēķiniem vai piegādēm. Adrešu informācijai reģistrācijas ID varat iestatīt debitoriem, kreditoriem, darbiniekiem un juridiskajām personām. Atrodiet puses (juridiskās personas, kreditora, debitora, darbinieka) ierakstu, kuram vēlaties ievadīt reģistrācijas ID, un pēc tam ar šo pusi, juridisko personu, kreditoru, debitoru, darbinieku saistītajās formās noklikšķiniet uz **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**. Cilnē **Nodokļa reģistrācija** noklikšķiniet uz **Pievienot** un ievadiet tālāk norādīto informāciju par šo reģistrācijas ID.
+Programmatūras Finance and Operations globālajā adrešu grāmatā (global address book — GAB) ir apkopota informācija par debitoru, kreditoru, kontaktpersonu, biznesa attiecību un juridisko personu adresēm. Papildinformāciju skatiet rakstā, [Globālās adrešu grāmatas apskats](../../fin-and-ops/organization-administration/overview-global-address-book.md). Puses ierakstos, kas saglabāti globālajā adrešu grāmatā, var būt viens vai vairāki adrešu ieraksti. Šīs adreses tiek izmantotas dažādiem nolūkiem, piemēram, norēķiniem vai piegādēm. Adrešu informācijai reģistrācijas ID varat iestatīt debitoriem, kreditoriem, darbiniekiem un juridiskajām personām. Atrodiet puses (juridiskās personas, kreditora, debitora, darbinieka) ierakstu, kuram vēlaties ievadīt reģistrācijas ID, un pēc tam ar šo pusi, juridisko personu, kreditoru, debitoru, darbinieku saistītajās formās noklikšķiniet uz **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**. Cilnē **Nodokļa reģistrācija** noklikšķiniet uz **Pievienot** un ievadiet tālāk norādīto informāciju par šo reģistrācijas ID.
 
 
 |Lauks                |Apraksts                                                |

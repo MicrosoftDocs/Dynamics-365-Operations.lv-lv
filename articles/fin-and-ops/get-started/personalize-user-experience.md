@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975855"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528848"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -75,7 +75,7 @@ Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir t
 
 Turklāt visparastākie tiešās personalizēšanas tipi ir pieejami, noklikšķinot ar peles labo pogu uz kāda elementa un pēc tam atlasot **Personalizēt**. (Ņemiet vērā, ka ne visus lapā esošos elementus var personalizēt.) Kad lietojat šo personalizēšanas metodi, tiek parādīts elementa rekvizītu logs.
 
-[![Elementa rekvizītu personalizēšana](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Elementa rekvizītu personalizēšana](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norādītajos veidos.
 
@@ -91,7 +91,7 @@ Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespē
 
 Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, izmantojot citus mehānismus (piemēram, pārkārtojot elementus), var izmantot rīkjoslu **Personalizēšana**. Lai atvērtu rīkjoslu **Personalizēšana**, elementa rekvizītu logā atlasiet **Personalizēt šo formu**. Vienumu **Personalizēt šo formu** varat atlasīt arī katras lapas darbību rūts cilnes **Opcijas** grupā **Personalizēt**.
 
-[![Personalizēšanas rīkjosla](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Personalizēšanas rīkjosla](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Pārvietošanās lapā
 

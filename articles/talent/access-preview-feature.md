@@ -1,12 +1,12 @@
 ---
 title: Piekļuve priekšskatījuma līdzekļiem programmā Talent
 description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus, un tajā ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856328"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518594"
 ---
 # <a name="access-preview-features-in-talent"></a>Piekļuve priekšskatījuma līdzekļiem programmā Talent
 
@@ -72,6 +72,7 @@ Varat izmantot iestatījumu **Priekšskatījuma līdzekļi** Dynamics 365 for Ta
 
 - **Kandidāta pieteikšanās** — iekšējie un ārējie kandidāti tagad var pieteikties tieši no vakanču lapas karjeras vietnē.
 - **Piedāvājumu pārvaldība** — lietotāji tagad var izveidot piedāvājumu vēstules no veidnēm, kas ietver vietturus. Kad kandidāts nokļūst piedāvājuma posmā, darbā pieņēmēji un vadītāji var izmantot piedāvājuma rīku, lai sagatavotu oficiālo piedāvājumu kandidātam, izmantojot veidnes, sūtīt piedāvājumu iekšējai apstiprināšanai un nosūtīt piedāvājumu kandidātam parakstīšanai. Laika gaitā piedāvājuma rīkam tiks pievienotas jaunas funkcijas, un priekšskatījuma līdzeklis tiks atjaunināts ar tām, tiklīdz tās būs gatavas laišanai klajā priekšskatījumam.
+- **[Analīzes pārskati](analytic-reports.md)**  — par pieņemšanu darbā atbildīgās grupas var skatīt atsevišķa darba galvenos rādītājus, izmantojot pārskatus Darba analīze, vai apkopotus rādītājus par visiem darbiem pārskatos Analīzes centrmezgls.
 
 ### <a name="core-hr"></a>Core HR
 

@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334891"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561814"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
 
@@ -119,7 +119,7 @@ ms.locfileid: "334891"
 | Kopējo starpniekvalodu (Common Intermediate Language — CIL) kompilējiet visiem līdzekļiem. | Valoda X++ tiek kompilēta uz P kodu. | Pilnīgi jaunais X++ kompilators ģenerē CIL visiem līdzekļiem. CIL ir tā pati starpniekvaloda, ko izmanto citas valodas ar .NET bāzi. | CIL ir ātrāka, spēj efektīvāk izmantot atsauces uz klasēm pārvaldītajās dinamisko saišu bibliotēkās (Dynamic-Link Library — DLL) un spēj darboties uz lielas .NET utilītu rīku bāzes. |
 | Veiciet biznesa informācijas (BI) atskaišu un vizualizāciju iegulšanu Microsoft Dynamics AX klientā. | Nav pieejams | Izveidojiet ārkārtīgi intuitīvas un plūstošas vizualizācijas. | Šī iespēja sniedz lēmumu pieņemšanai nepieciešamos uz BI balstītos ieskatus. |
 | Integrējiet ar Microsoft Office. | Nav pieejams | Jauno iespēju klāstā ietilpst programma Excel datu savienotājs, lapa **Darbgrāmatas veidotājs**, Eksportēšanas API un Dokumentu pārvaldība. | Saviem lietotājiem varat izveidot produktivitātes risinājumus. |
-| Automatizējiet būvēšanu, testēšanu un izvietošanu. | Daļēji pieejams | Izvietojiet izstrādātāja topoloģiju, izmantojot izstrādātāja un būvējuma VM. Automātiski konfigurējiet būvējuma VM, lai atklātu, būvētu moduļus no Visual Studio Online (VSO) un izpildītu testus. Tiek atbalstīta C\# un X++ moduļu kompilēšana un atsauces. | Šī iespēja palielina izstrādātāju produktivitāti, samazinot izmaksas un testēšanai un pārbaudēm nepieciešamo darbu. |
+| Automatizējiet būvēšanu, testēšanu un izvietošanu. | Daļēji pieejams | Izvietojiet izstrādātāja topoloģiju, izmantojot izstrādātāja un būvējuma VM. Automātiski konfigurējiet būvējumu VM, lai atklātu Visual Studio Online (VSO), būvētu no tā modeļus un izpildītu testus. Tiek atbalstīta C\# un X++ moduļu kompilēšana un atsauces. | Šī iespēja palielina izstrādātāju produktivitāti, samazinot izmaksas un testēšanai un pārbaudēm nepieciešamo darbu. |
 | Pielāgojiet ar pārklājumiem un paplašinājumiem. | Paplašinājumi nav pieejami. | Dynamics AX pašreizējai versijai ir jauns pielāgošanas modelis. | Varat pielāgot Microsoft vai trešo pušu Microsoft partneru sniegto modeļu elementu pirmkodu un metadatus. |
 | Veidojiet jaunas vadīklas un lietotāja interfeisa elementus, izmantojot X++ un modernu tīmekļa struktūru. | Pielāgotās vadīklas ir atkarīgas no ārējām struktūrām, piemēram, struktūrām Microsoft ActiveX un Windows prezentāciju pamats (Windows Presentation Foundation — WPF). | Pašreizējā versijā vadīklu būvēšana ir vienkāršāka. X++ struktūru var lietot programmu funkcionalitātei un biznesa loģikai, un klients uz HTML/JavaScript bāzes ļauj izmantot modernas vizualizācijas. | Jūsu vadīklas var izstrādāt tā, lai tās izskatītos un darbotos tāpat kā Dynamics AX standarta komplektācijā iekļautās (Out-of-box — OOB) vadīklas. |
 | Novērtējiet un pielāgojiet veiktspēju, izmantojot jaunus rīkus. | Nav pieejams PerfSDK, Datu paplašināšanas rīkkopa, Trace Parser tīmekļa programma un PerfTimer. | Jauno līdzekļu klāstā ietilpst PerfSDK, Datu paplašināšanas rīkkopa, Trace Parser tīmekļa programma un PerfTimer. | Programmatūras izstrādes komplekts (Software Development Kit — SDK) jums ļauj testēt un pārbaudīt visu būtisko biznesa procesu darbību viena lietotāja un, ja piemērojams, vairāklietotāju testa režīmā. Datu paplašināšanas rīkkopa jums ļauj pareizi izvērst visus veiktspējas testus, kam ir nepieciešams pareizi izvērst pamatdatus un transakciju datus. Trace Parser jums ļauj izpildīt viena lietotāja vai vairāklietotāju veiktspējas testu. PerfTimer jums ļauj redzēt, vai kāds no vaicājumiem vai jebkurš specifiskas metodes izsaukums izraisa kādas veiktspējas problēmas. Tāpēc jums nav nepieciešams veikt izsekošanu un visu detalizēti analizēt. |
@@ -670,7 +670,7 @@ Darbvieta <strong>Katalogu pārvaldība</strong> sniedz šādu funkcionalitāti:
 <td>Datu elementi debitoriem ļauj veikt metadatu vadītu datu importēšanu un eksportēšanu. Turklāt OData elementi programmu Dynamics AX debitoriem ļauj integrēt trešās puses programmās.</td>
 </tr>
 <tr>
-<td>Veiciet viedo analīzi, izmantojot BI atskaites no Microsoft Dynamics AX un POS klienta.</td>
+<td>Veiciet viedo analīzi, izmantojot BI atskaites no Mycrosoft Dynamis AX un POS klienta.</td>
 <td>Ir pieejamas vairāk nekā 25 iekšējai lietošanai paredzētās atskaites un 5 kanāla puses atskaites.</td>
 <td>Ir pieejamas vairāk nekā 30 iekšējai lietošanai paredzētās atskaites un 10 kanāla puses atskaites.</td>
 <td>Šīs atskaites debitoriem ļauj izmantot vairāk BI, lai prognozētu tendences, atklātu ieskatus un pastāvīgi strādātu ar maksimālu veiktspēju.</td>

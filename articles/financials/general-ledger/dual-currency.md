@@ -3,7 +3,7 @@ title: Divkāršā valūta
 description: Šajā tēmā ir sniegta informācija par divkāršo valūtu — gadījumu, kad pārskata valūta tiek izmantota kā otrā uzskaites valūta programmā Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330314"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532252"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
@@ -61,6 +61,9 @@ Dažādiem pārskatiem un pieprasījumiem arī tika pievienota loģika, lai ner�
 ## <a name="financial-journals"></a>Finanšu žurnāli
 
 Finanšu žurnāli, piemēram, virsgrāmatas žurnāls un kreditoru rēķinu žurnāls, ir atjaunināti tā, ka tie ietver papildu informāciju par pārskata valūtu. Dokumentu un žurnālu kopsummas tagad tiek rādītas pārskata valūtā. Turklāt informācija par pārskata valūtas maiņas kursu tagad parādās žurnāla rindu cilnē **Vispārēji**. Tādējādi varat pārlabot pārskata valūtas maiņas kursu, ievadot transakcijas.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Kreditoru rēķini, pārdošanas pasūtījumi un pārdošanas līgumi
+Kreditora rēķini, pārdošanas pasūtījumi un pārdošanas līgumi ir atjaunināti, lai iekļautu pārskata valūtas fiksēto valūtas kursu. Fiksētu valūtas kursu var norādīt gan uzskaites valūtai, gan pārskata valūtai, ja darījuma valūta atšķiras. Ja uzskaites valūta un pārskata valūta ir viena un tā pati, fiksētais valūtas kurss tiks sinhronizēts, izmantojot uzskaites valūtas fiksēto kursu kā pārskata valūtas fiksēto kursu. Šai konfigurācijai nevar mainīt pārskata valūtas fiksēto valūtas kursu. Ja uzskaites valūta un pārskata valūta atšķiras, transakcijas ieraksta laikā fiksētu valūtas kursu var norādīt gan uzskaites valūtai, gan pārskata valūtai. Ja pārskata valūta nav definēta virsgrāmatā, lauks **Pārskata valūtas fiksētais valūtas kurss** nav iespējots un netiek aprēķināta pārskata valūtas summa.
 
 ## <a name="module-changes"></a>Moduļu izmaiņas
 

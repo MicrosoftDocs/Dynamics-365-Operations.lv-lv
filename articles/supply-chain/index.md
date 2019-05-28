@@ -1,26 +1,30 @@
 ---
-# required metadata
 title: Piegādes ķēdes pārvaldības sākumlapa
 description: Šajā lapā ir saraksts ar palīdzības tēmām un citiem resursiem piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 'Core, Operations'
-ms.custom: null
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: shylaw
-ms.search.validFrom: '2016-11-30'
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517115"
 ---
-
 # <a name="supply-chain-management-home-page"></a>Piegādes ķēdes pārvaldības sākumlapa
 
 [!include [banner](includes/banner.md)]

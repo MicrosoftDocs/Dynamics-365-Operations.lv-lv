@@ -3,7 +3,7 @@ title: Talent sistēmas prasības un atjaunināšanas politika
 description: Šajā tēmā uzskaitītas prasības sistēmai Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856305"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518567"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent sistēmas prasības un atjaunināšanas politika
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā uzskaitītas prasības sistēmai Microsoft Dynamics 365 for Talent. Turklāt ir ieskicēta atjaunināšanas politika.
+Šajā tēmā ir aprakstītas pakalpojuma Microsoft Dynamics 365 for Talent prasības, ieskaitot programmas Attract, Onboard un Core HR. Tajā ir arī norādītas valstis un reģioni, kur ir pieejama programma Talent, kā arī informācija par valodām un lokalizāciju, kas jāizmanto programmas Talent datiem. Turklāt šajā tēmā ir nodrošināta programmas Talent atjaunināšanas politika.
 
 ## <a name="supported-web-browsers"></a>Atbalstītās tīmekļa pārlūkprogrammas
 
@@ -57,8 +57,17 @@ Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties 
 * Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet tēmā [Office integrācijas problēmu novēršana](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integrācijas problēmu novēršana").
 * Lai skatītu dokumentus, kas izveidoti, izmantojot funkcijas Eksportēt programmā Excel vai Eksportēt programmā Word, ir jābūt instalētai programmai Microsoft Office 2007 vai jaunākai versijai.
 
+## <a name="regional-availability-languages-and-localization"></a>Reģionālā pieejamība, valodas un lokalizācija
+
+Jūs varat lejupielādēt PDF failu ar valstīm, reģioniem un valodām, ko atbalsta programma Talent, lapā [Microsoft Dynamics 365 starptautiskā pieejamība](https://docs.microsoft.com/dynamics365/get-started/availability). 
+
+> [!NOTE]
+> Lietotāja interfeiss ir lokalizēts citās valodās, bet visi lietotāja dati tiek saglabāti tajā valodā, kādā tika ievadīti. Varat izveidot e-pasta ziņojumus un veidnes citās valodās, taču dati, piemēram, plānošanas informācija, pagaidām ir pieejami tikai angļu valodā.
+
+Ja esat izstrādātājs un vēlaties izveidot valstij vai reģionam specifiskus pielāgojumus vai izveidot risinājumu valstij vai reģionam, ko Microsoft pašlaik neatbalsta, skatiet lapu [Globalizācija](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
 ## <a name="update-policy"></a>Atjaunināšanas politika
 
 Microsoft Dynamics 365 for Talent tiek apkalpots kā mākoņa piedāvājums. Dynamics 365 for Talent atjauninājumus pastāvīgi un automātiski piemēro Microsoft.
 
-Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs.  Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.
+Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs. Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.

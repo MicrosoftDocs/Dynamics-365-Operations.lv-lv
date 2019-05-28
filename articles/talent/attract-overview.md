@@ -3,7 +3,7 @@ title: Attract līdzekļi un iespējas
 description: Šajā tēmā ir aprakstīti programmā Attract pieejamie līdzekļi jauna darbinieka pieņemšanas procesa pārvaldībai.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80e4d6359e51841e28ab5ef96e281838831db92
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859740"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518591"
 ---
 # <a name="attract-features-and-capabilities"></a>Attract līdzekļi un iespējas
 
@@ -46,3 +46,6 @@ Programma Attract nodrošina iepriekš definētu darbā pieņemšanas procesu, k
 
 ## <a name="candidate-app"></a>Kandidāta programma
 Tiklīdz kandidāti tiek pievienots kādai vakancei, viņi saņem e-pasta ziņojumu, kurā ir ietverta tīmekļa programmas iegūšanas saite. Šajā programmā ir sniegta detalizēta informācija par vakanci, un tā tiek izmantota, lai sazinātos ar darbā pieņemšanas grupu. Kandidāti var to izmantot arī informācijas sniegšanai par savu pieejamību intervijām.
+
+## <a name="analytic-reports"></a>Analīzes pārskati
+Par pieņemšanu darbā atbildīgās grupas var skatīt atsevišķa darba galvenos darbā pieņemšanas rādītājus vai apkopotus rādītājus par visiem darbiem [analīzes pārskatos pakalpojumā Attract.](analytic-reports.md) Šis līdzeklis pašlaik ir [priekšskatījums](access-preview-feature.md) klientiem ar [Visaptverošo darbā pieņemšanas papildinājumu.](attract-comprehensive-hiring.md)

@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321735"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545466"
 ---
 # <a name="europe"></a>Eiropa 
 
@@ -90,7 +90,7 @@ ms.locfileid: "321735"
   - [PVN maiņas kursi](emea-vat-exchange-rate.md)
   - [PVN saskaņošanas pārskats](tasks/eur-00018-vat-reconciliation-report.md)
   - [PVN reģistra transakcijas Austrumeiropai](emea-vat-register-transactions.md)
-  - [PVN pārskati](emea-vat-reporting.md)
+  - [PVN pārskatu veidošana](emea-vat-reporting.md)
   - [PVN pārskata izveide un iesniegšana](tasks/create-submit-vat-report.md)
   - [Skatīt nosegšanas transakcijas](emea-transactions-settlement-form.md)
 

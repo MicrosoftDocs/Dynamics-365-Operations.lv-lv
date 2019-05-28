@@ -1,9 +1,9 @@
 ---
 title: Pasūtījumu paziņojumu parādīšana pārdošanas punktā (POS)
-description: Šajā tēmā ir aprakstīts, kā pārdošanas punktā iespējot pasūtījumu paziņojumu rādīšanu, un aprakstīta paziņojumu struktūra Izstrādātāji šos paziņojumus varēs pārveidot par operācijām (papildus pasūtījumu izpildes operācijām).
+description: Šajā tēmā ir aprakstīts, kā pārdošanas punktā iespējot pasūtījumu paziņojumu rādīšanu, un aprakstīta paziņojumu struktūra
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361341"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530274"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Pasūtījumu paziņojumu parādīšana pārdošanas punktā (POS)
 
@@ -55,7 +55,7 @@ Pēc visu darbību pabeigšanas darbinieki varēs skatīt paziņojumus programm�
 - **Izdot veikalā** — ar šo grupu tiek rādīts tādu pasūtījumu skaits, kuru piegādes metode ir **Izdošana** un kuriem izdošana ir plānota no pašreizējā veikala. Varat nospiest uz grupas numura, lai atvērtu lapu **Pasūtījuma izpilde**. Šajā gadījumā lapa tiek filtrēta tā, lai rādītu tikai aktīvos pasūtījumus, kas tika iestatīti izdošanai no pašreizējā veikala.
 - **Nosūtīt no veikala** — ar šo grupu tiek rādīts tādu pasūtījumu skaits, kuru piegādes metode ir **Nosūtīšana** un kuriem nosūtīšana ir plānota no pašreizējā veikala. Varat nospiest uz grupas numura, lai atvērtu lapu **Pasūtījuma izpilde**. Šajā gadījumā lapa tiek filtrēta tā, lai rādītu tikai aktīvos pasūtījumus, kas tika iestatīti nosūtīšanai no pašreizējā veikala.
 
-Kad veikalam izpildei tiek piešķirti jauni pasūtījumi, paziņojumu ikona mainās, lai rādītu jaunos paziņojumus, un tiek atjaunināts atbilstošo grupu skaits. Pat ja grupas tiek atsvaidzinātas ar regulāri, POS lietotāji var manuāli atsvaidzināt grupas jebkurā laikā, atlasot pogu **Atsvaidzināt** blakus grupas nosaukumam. Visbeidzot, ja grupai ir jauns krājums, ko pašreizējais darbinieks nav skatījis, grupai parāda sprādziena simbols, kas norāda par jaunu saturu.
+Kad veikalam izpildei tiek piešķirti jauni pasūtījumi, paziņojumu ikona mainās, lai rādītu jaunos paziņojumus, un tiek atjaunināts atbilstošo grupu skaits. Kaut gan grupas tiek atsvaidzinātas regulāri, POS lietotāji var manuāli atsvaidzināt grupas jebkurā laikā, atlasot pogu **Atsvaidzināt** blakus grupas nosaukumam. Visbeidzot, ja grupai ir jauns krājums, ko pašreizējais darbinieks nav skatījis, grupai parāda sprādziena simbols, kas norāda par jaunu saturu.
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Reāllaika satura iespējošana uz POS pogas
 
@@ -67,6 +67,10 @@ Tagad uz POS pogas var parādīt skaitu, lai darbinieki varētu viegli noteikt,
 Tālāk attēlā ir parādīts reāllaika satura iestatījumi pogas režģa veidotājā.
 
 ![Reāllaika satura iestatījumi pogas režģa veidotājā](./media/ButtonGridDesigner.png "Reāllaika satura iestatījumi pogas režģa veidotājā")
+
+Lai parādītu paziņojumu skaitu uz pogas, ir jāpārliecinās, ka tiek atjaunināts atbilstošais ekrāna izkārtojums. Lai noteiktu ekrāna izkārtojumu, ko izmanto POS, augšējā labajā stūrī atlasiet ikonu **Iestatījumi** un piefiksējiet rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja**. Izmantojot pārlūkprogrammu Edge, dodieties uz lapu **Ekrāna izkārtojums** pakalpojumā Dynamics 365 for Finance and Operations, atrodiet iepriekš noteiktos rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja** un atzīmējiet izvēles rūtiņu **Iespējot tiešsaistes saturu**. Dodieties uz **Mazumtirdzniecība > Mazumtirdzniecības IT > Sadales grafiks** un palaidiet darbu 1090 (Registers), lai sinhronizētu izkārtojuma izmaiņas. 
+
+![Atrast ekrāna izkārtojumu, ko izmanto POS](./media/Choose_screen_layout.png "Atrast ekrāna izkārtojumu ")
 
 Tālāk attēlā ir parādīts rezultāts, atlasot dažāda izmēra pogu **Augšējā labajā stūrī** vai **Vidū** laukā **Satura pielāgošana**.
 
