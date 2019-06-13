@@ -1,371 +1,588 @@
-- name: Dynamics 365 for Talent
-  href: index.md
-  items:
-    - name: Darba sākšana
-      href: talent-get-started.md
-      items:
-        - name: Jaunumi un izmaiņas programmā Talent
-          href: whats-new.md
-          items:
-            - name: "2019.\_gada 6.\_maijs"
-              href: whats-new-talent-may-6-2019.md
-            - name: "2019.\_gada 30.\_aprīlis"
-              href: whats-new-talent-april-30-2019.md
-            - name: "2019.\_gada 25.\_aprīlis"
-              href: whats-new-talent-april-25-2019.md
-            - name: "2019.\_gada 16.\_aprīlis"
-              href: whats-new-talent-april-16-2019.md
-            - name: "2019.\_gada 9.\_aprīlis"
-              href: whats-new-talent-april-9-2019.md
-            - name: "2019.\_gada 2.\_aprīlis"
-              href: whats-new-talent-april-2-2019.md
-            - name: "2019.\_gada 26.\_marts"
-              href: whats-new-talent-march-26-2019.md
-            - name: "2019.\_gada 20.\_marts"
-              href: whats-new-talent-march-20.md
-            - name: "2019.\_gada 14.\_marts"
-              href: whats-new-talent-march-14.md
-            - name: "2019.\_gada 5.\_marts"
-              href: whats-new-talent-march-5.md
-            - name: "Jaunumu arhīvi, 2019.\_gads"
-              items:
-                - name: "2019.\_gada 27.\_februāris"
-                  href: whats-new-talent-feb-27.md
-                - name: "2019.\_gada 14.\_februāris"
-                  href: whats-new-talent-feb14.md
-                - name: "2019.\_gada 7.\_februāris"
-                  href: whats-new-talent-february-7.md
-                - name: "2019.\_gada 31.\_janvāris"
-                  href: whats-new-talent-january-29.md
-                - name: "2019.\_gada 23.\_janvāris"
-                  href: whats-new-talent-january-23.md
-                - name: "2019.\_gada 17.\_janvāris"
-                  href: whats-new-talent-january-17.md
-                - name: "2019.\_gada 11.\_janvāris"
-                  href: whats-new-talent-january-11.md
-            - name: "Jaunumu arhīvi, 2018.\_gads"
-              items:
-                - name: "2018.\_gada 14.\_decembris"
-                  href: whats-new-talent-december-14.md
-                - name: "2018.\_gada 6.\_decembris"
-                  href: whats-new-talent-december-6.md
-                - name: "2018.\_gada 27.\_novembris"
-                  href: whats-new-talent-november-27.md
-                - name: "2018.\_gada 15.\_novembris"
-                  href: whats-new-talent-november-15.md
-                - name: "2018.\_gada 31.\_oktobris"
-                  href: whats-new-talent-october-31.md
-                - name: "2018.\_gada 19.\_oktobris"
-                  href: whats-new-talent-october-19.md
-                - name: "2018.\_gada 15.\_oktobris"
-                  href: whats-new-talent-october-11.md
-                - name: "2018.\_gada 8.\_oktobris"
-                  href: whats-new-talent-october-8.md
-                - name: "2018.\_gada 1.\_oktobris"
-                  href: whats-new-talent-october-01.md
-                - name: "2018.\_gada 24.\_septembris"
-                  href: whats-new-talent-september-24.md
-                - name: "2018.\_gada 17.\_septembris"
-                  href: whats-new-talent-september-17-2018.md
-                - name: "2018.\_gada 10.\_septembris"
-                  href: whats-new-talent-september-10.md
-                - name: "2018.\_gada augusts"
-                  href: whats-new-talent-august2018.md
-                - name: "2018.\_gada jūlijs"
-                  href: whats-new-talent-july2018.md
-        - name: Sistēmas prasības un atjaunināšanas politika
-          href: talent-versions-update-policy.md
-        - name: Talent nodrošinājums
-          href: provisioning-talent.md
-        - name: Talent vides noņemšana
-          href: remove-talent-environment.md
-        - name: Nodrošinājums programmai Onboard
-          href: modular-app-tech-faq.md
-        - name: PowerApps programmu iegulšana
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: "Core\_HR un Common Data Service"
-          href: CoreHREntities.md
-        - name: Piekļuve priekšskatījuma līdzekļiem
-          href: access-preview-feature.md
-        - name: Atbalsta saņemšana saistībā ar Talent
-          href: talent-support.md
-    - name: 'Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus'
-      href: departments-jobs-positions.md
-      items:
-        - name: Darba komponentu iestatīšana
-          href: create-job.md
-        - name: Nodaļu izveidošana un to iekļaušana nodaļu hierarhijā
-          href: create-department-add-department-hierarchy.md
-        - name: "HR\_parametru iestatīšana dažādās juridiskajās personās"
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: "Uzņēmumam raksturīgu HR\_parametru iestatīšana"
-          href: set-up-company-specific-hr-parameters.md
-        - name: Bieži uzdotie jautājumi par personāla darbībām
-          href: personnel-actions-faq.md
-        - name: Biznesa procesu formalizēšana
-          href: formalize-business-processes.md
-        - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
-          href: workflow-manage-employee-information.md
-    - name: Atvaļinājumu un kavējumu pārvaldība
-      href: leave-absence-overview.md
-      items:
-        - name: Atvaļinājumu un kavējumu koncepcijas
-          href: leave-absence-concepts.md
-        - name: 'Brīvā laika uzkrāšana, pamatojoties uz nostrādātajām stundām'
-          href: leave-accrue-hours-worked.md
-        - name: Darba laika kalendāri
-          href: working-time-calendars.md
-    - name: Organizācijas personāla komplektēšana
-      items:
-        - name: Kuru Attract versiju izvēlēties?
-          href: attract-comprehensive-hiring.md
-        - name: Attract līdzekļi un iespējas
-          href: attract-overview.md
-        - name: Procesa veidnes izveide pakalpojumā Attract
-          href: Process-templates-Attract.md
-        - name: 'Darbu izveide, apstiprināšana un grāmatošana programmā Attract'
-          href: Creating-jobs-Attract.md
-        - name: Darbu grāmatošana ārējās vietnēs no pakalpojuma Attract
-          href: posting-jobs-external.md
-        - name: Avota kandidāti ar kandidātu kopām
-          href: attract-talent-pools.md
-        - name: 'Avoti, izmantojot LinkedIn Recruiter'
-          href: attract-linked-in-recruiter.md
-        - name: Aktivitātes darbā pieņemšanas procesa ietvaros
-          href: activities-attract.md
-        - name: Interviju plānošana un atsauksmes
-          href: interview-scheduling-feedback.md
-        - name: Paplašināmība
-          href: extensibility-attract.md
-        - name: Karjeras vietnes funkcionalitāte programmā Attract
-          href: career-site.md
-        - name: Piedāvājumu pārvaldības iestatīšana
-          href: offer-setup.md
-        - name: 'Piedāvājumu izveide, apstiprināšana un parakstīšana'
-          href: creating-offers.md
-        - name: E-pasta veidnes
-          href: email-templates.md
-        - name: Drošības un lomu pārvaldība pakalpojumā Attract
-          href: security-attract.md
-        - name: Administratora iestatījumi pakalpojumā Attract
-          href: Admin-Settings-Attract.md
-        - name: Inteliģentie ieteikumi
-          href: Intelligent-Recommendations.md
-        - name: Aizraujošas pievienošanās pieredzes izveidošana
-          href: create-onboarding-experience.md
-        - name: Kandidātu profilu un pieteikumu avotu izsekošana
-          href: source-tracking.md
-        - name: Analītisko pārskatu izmantošana darbā pieņemšanas procesa ieskatiem
-          href: analytic-reports.md
-    - name: Darbinieku motivēšana
-      items:
-        - name: Kompensācijas plāni
-          href: compensation-plans.md
-        - name: Fiksētās atlīdzības plānu izveidošana
-          href: create-fixed-compensation-plans.md
-        - name: Mainīgās atlīdzības plānu izveidošana
-          href: create-variable-compensation-plans.md
-        - name: Kompensācijas apstrāde
-          href: process-compensation.md
-        - name: Darba komponentu iestatīšana
-          href: create-job.md
-    - name: Darbinieku attīstības veicināšana un apmācība
-      items:
-        - name: Veiktspējas pārvaldība
-          href: performance-management-overview.md
-        - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
-          href: skills.md
-        - name: Apmācību kursu iestatīšana
-          href: courses.md
-    - name: Atvieglojumu programmas definēšana un pārvaldība
-      items:
-        - name: Atvieglojumu programmas definēšana un pārvaldība
-          href: manage-benefit-program.md
-        - name: Atvieglojumu piemērojamības politikas
-          href: benefit-eligibility-policies.md
-        - name: Pieejamās aprūpes akta (ACA) pārskatu ģenerēšana
-          href: generate-aca-reports.md
-        - name: Nodarbinātajiem aizdotu krājumu pārvaldīšana
-          href: loan-items.md
-    - name: Anketas
-      href: questionnaires.md
-      items:
-        - name: Anketu projektēšana
-          href: design-questionnaires.md
-        - name: Anketu izplatīšana un plānošana
-          href: distribute-questionnaires.md
-        - name: Anketu rezultātu skatīšana un novērtēšana
-          href: evaluate-questionnaire-results.md
-    - name: Darbavietas drošība un atbilstība (ASV)
-      items:
-        - name: Atbildēšana uz personas datu pieprasījumu programmā Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: "Formas\_I-9 nodarbinātības verificēšana"
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Atbilstība ADA prasībām
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Informācija
-      items:
-        - name: Iegultais Power BI darbvietās
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Mobilā programma
-      items:
-        - name: Mobilās darbvietas
-          items:
-            - name: Mobilā darbvieta Uzņēmuma direktorijs
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mobilā darbvieta Mana grupa
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Mobilo darbvietu publicēšana
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Integrācija
-      items:
-        - name: Integrēšana programmā Dynamics 365 for Finance and Operations
-          href: talent-financeandoperations-integration.md
-        - name: Algu aprēķina integrācijas konfigurēšana starp Talent un Dayforce
-          href: configure-payroll-integration.md
-        - name: Datu integrācijas norādījumi programmai Dynamics 365 for Talent
-          href: data-integration.md
-        - name: Bieži uzdotie jautājumi par integrāciju
-          href: talent-fo-integration.md
-        - name: 'Periodiska datu eksportēšana, izmantojot Azure Logic Apps'
-          href: tutorial-integration-recurring-export.md
-    - name: Paplašināmība
-      items:
-        - name: "Talent paplašināšana, izmantojot PowerApps un Microsoft Flow\_— paraugsituācijas"
-          href: extensibility-examples.md
-        - name: Personāla atlases datu izmaiņu izsekošana
-          href: process-auditing.md
-        - name: Paplašināmība pakalpojumā Attract
-          href: extensibility-attract.md
-        - name: "Pielāgotie lauki pakalpojumā Core\_HR"
-          href: corehr-custom-fields.md
-    - name: Office integrācija
-      items:
-        - name: Office integrēšanas apmācība
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Elementa datu atjaunināšana programmā Excel
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Atvēršanas Excel programmā pieredzes izveide
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Office integrācijas problēmu novēršana
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Organizācijas administrēšana
-      items:
-        - name: Numuru sērijas
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Atsevišķu numuru sēriju iestatīšana
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 'Numuru sēriju iestatīšana, izmantojot vedni'
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Organizācijas un organizāciju hierarhijas
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Organizācijas hierarhijas plānošana
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Organizāciju hierarhijas izveide
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Juridiskās personas izveide
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Pārvaldības struktūrvienības izveide
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Globālā adrešu grāmata
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Plāns globālajai adrešu grāmatai un citiem elementiem
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Globālās adrešu grāmatas konfigurēšana
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Bieži uzdotie jautājumi par adrešu grāmatām
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Darbplūsma
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Darbplūsmas elementi
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Darbības darbplūsmas apstiprināšanas procesos
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Izveidot darbplūsmas
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: Konfigurēt darbplūsmas rekvizītus
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt manuālus uzdevumus
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt automatizētus uzdevumus
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt apstiprinājuma procesus
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt apstiprinājuma darbības
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt manuālus lēmumus
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt nosacījuma lēmumus
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt paralēlas aktivitātes
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt paralēlus zarus
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt dokumenta rindas darbplūsmas
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Konfigurēt darbplūsmas ziņojumu apstrādes pakešuzdevumu
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Darba vienumu deleģēšana darbplūsmā
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Darbplūsmas vēstures skatīšana
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Atļaušana lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Brīdinājumi
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Brīdinājumu kārtulu veidošana
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Brīdinājumu pakešveida apstrāde
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Pieteikumu pārvaldība
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: 'Pieteikumu drošības, procesu un kategoriju plānošana'
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Dokumentu pārvaldības konfigurēšana
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: E-pasta konfigurēšana un sūtīšana
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Datuma/laika dati un laika joslas
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Personāla vadības uzdevumi
-      items:
-        - name: Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Mērķa izveide
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Veiktspējas pārskata izveide
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Pakalpojuma Talent problēmu novēršana
-      items:
-        - name: Analīzes pārskati netiek atjaunināti
-          href: analytic-reports-not-updated.md
-        - name: Nevar izveidot vidi PowerApps administrēšanas centrā
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Talent klienta atvienošanās
-          href: client-disconnects.md
-        - name: Izvairīšanās no teksta saīsināšanas amatu hierarhijā un eksportēšana uz Visio
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: Atlīdzības procesa palaišana
-          href: run-compensation-process.md
-        - name: Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
-          href: save-play-task-guides-LCS.md
-        - name: Piekļuve privātām adresēm atbilstoši drošības lomai
-          href: security-roles-addresses.md
-        - name: "Programma Talent nav redzama starp Microsoft Dynamics\_365 programmām (Common Data Service\_1.0)"
-          href: talent-not-in-home-CDS.md
-        - name: "Lietotājs var piekļūt Core\_HR, bet nevar piekļūt pakalpojumam Onboard vai Attract"
-          href: user-access-core-hr.md
-        - name: Atskaišu veidošanas iespējas programmā Talent
-          href: talent-reporting-options.md
-        - name: Bieži uzdotie jautājumi par integrāciju
-          href: talent-FO-integration.md
-        - name: Azure Active Directory lietotāji nav atrodami vadīklā Personu atlasītājs
-          href: people-picker-user-not-found.md
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>TOC.8820d6.dea47d376e4da04c15c94a8207856ec23522f4a7.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>dea47d376e4da04c15c94a8207856ec23522f4a7</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>7e223ddd04184fe5a9861be1405fcc0eb8dd166c</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/04/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\TOC.yml</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101">
+          <source>Dynamics 365 for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102">
+          <source>Get started</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Darba sākšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Get started with Talent</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Darba sākšana ar Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>What's new or changed in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Jaunumi un izmaiņas programmā Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>May 28, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 28. maijs</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>May 21, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 21. maijs</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>May 13, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 13. maijs</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>May 6, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 6. maijs</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>April 30, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 30. aprīlis</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>April 25, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 25. aprīlis</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>April 16, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 16. aprīlis</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>April 9, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019. gada 9. aprīlis</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>April 2, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 2. aprīlis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>March 26, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 26. marts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>March 20, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 20. marts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>March 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 14. marts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>March 5, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 5. marts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>What's new archives 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunumu arhīvi, 2019. gads</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>February 27, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 27. februāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>February 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 14. februāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>February 7, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 7. februāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>January 31, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 31. janvāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>January 23, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 23. janvāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>January 17, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 17. janvāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>January 11, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada 11. janvāris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>What's new archives 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunumu arhīvi, 2018. gads</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>December 14, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 14. decembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>December 6, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 6. decembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>November 27, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 27. novembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>November 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 15. novembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>October 31, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 31. oktobris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>October 19, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 19. oktobris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>October 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 15. oktobris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>October 8, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 8. oktobris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>October 1, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 1. oktobris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>September 24, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 24. septembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>September 17, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 17. septembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>September 10, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada 10. septembris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>August 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada augusts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>July 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018. gada jūlijs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>System requirements and update policy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sistēmas prasības un atjaunināšanas politika</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Provision Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent nodrošinājums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Remove Talent environments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent vides noņemšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Provisioning for the Onboard app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodrošinājums programmai Onboard</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Embed PowerApps apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">PowerApps programmu iegulšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Core HR and Common Data Service</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR un Common Data Service</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Access preview features</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Piekļuve priekšskatījuma līdzekļiem</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Get support for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atbalsta saņemšana saistībā ar Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Staff your organization with Attract</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Organizācijas personāla pārvaldība, izmantojot Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Which version of Attract?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kuru Attract versiju izvēlēties?</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Attract features and capabilities</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract līdzekļi un iespējas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Create a process template in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Procesa veidnes izveide pakalpojumā Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Create, approve, and post jobs in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darbu izveide, apstiprināšana un grāmatošana programmā Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Post jobs to external career sites from Attract</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Darbu grāmatošana ārējās karjeras vietnēs no pakalpojuma Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Source candidates by using talent pools</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Sourcing with LinkedIn Recruiter</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Darbinieku pieņemšana, izmantojot LinkedIn Recruiter</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Activities in the hiring processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Aktivitātes darbā pieņemšanas procesa ietvaros</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Interview scheduling and feedback</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Interviju plānošana un atsauksmes</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paplašināmība pakalpojumā Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Career site functionality in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Karjeras vietnes funkcionalitāte programmā Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Set up offer management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Piedāvājumu pārvaldības iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Create, approve, and sign offers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piedāvājumu izveide, apstiprināšana un parakstīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Email templates</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E-pasta veidnes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Security and role management in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Drošības un lomu pārvaldība pakalpojumā Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Admin settings in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Administratora iestatījumi pakalpojumā Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Intelligent recommendations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inteliģentie ieteikumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Create an engaging onboarding experience</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizraujošas pievienošanās pieredzes izveidošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Track sources for candidate profiles and applications</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kandidātu profilu un pieteikumu avotu izsekošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Use analytic reports for hiring process insights</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Analītisko pārskatu izmantošana darbā pieņemšanas procesa ieskatiem</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Manage your workforce with Core HR</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Darbaspēka pārvaldība, izmantojot Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Organize your workforce</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Darbaspēka pārvaldība</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Organize your workforce by using departments, jobs, and positions</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darba komponentu iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Create departments and include them in the department hierarchy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodaļu izveidošana un to iekļaušana nodaļu hierarhijā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Set up HR parameters across legal entities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HR parametru iestatīšana dažādās juridiskajās personās</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Set up company-specific HR parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzņēmumam raksturīgu HR parametru iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Personnel actions FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bieži uzdotie jautājumi par personāla darbībām</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Formalize business processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Biznesa procesu formalizēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Use workflows to manage employee information</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Set up number sequences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Numuru sēriju iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Number sequence overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Pārskats par numuru sērijām</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Set up number sequences on an individual basis</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atsevišķu numuru sēriju iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Set up number sequences by using a wizard</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Numuru sēriju iestatīšana, izmantojot vedni</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Configure organizations and organizational hierarchies</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Organizāciju un organizāciju hierarhiju konfigurēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Organizations overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Pārskats par organizācijām</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Plan your organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Organizācijas hierarhijas plānošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Create an organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Organizāciju hierarhijas izveide</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create a legal entity</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Juridiskās personas izveide</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Create an operating unit</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pārvaldības struktūrvienības izveide</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Set up a global address book</source><target logoport:matchpercent="70" state="translated" state-qualifier="fuzzy-match">Globālās adrešu grāmatas iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Global address book overview</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Pārskats par globālo adrešu grāmatu</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Plan for the global address book and others</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Plāns globālajai adrešu grāmatai un citiem elementiem</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Configure the global address book</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Globālās adrešu grāmatas konfigurēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Address books FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Bieži uzdotie jautājumi par adrešu grāmatām</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Configure workflows</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match">Darbplūsmu konfigurēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Workflow overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Pārskats par darbplūsmu</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Workflow elements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darbplūsmas elementi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Actions in workflow approval processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darbības darbplūsmas apstiprināšanas procesos</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Create workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidot darbplūsmas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Configure workflow properties</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt darbplūsmas rekvizītus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Configure manual tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt manuālus uzdevumus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Configure automated tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt automatizētus uzdevumus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Configure approval processes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt apstiprinājuma procesus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Configure approval steps</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt apstiprinājuma darbības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Configure manual decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt manuālus lēmumus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Configure conditional decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt nosacījuma lēmumus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Configure parallel activities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt paralēlas aktivitātes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Configure parallel branches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt paralēlus zarus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Configure line-item workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt dokumenta rindas darbplūsmas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Configure the message processing batch job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt darbplūsmas ziņojumu apstrādes pakešuzdevumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Delegate work items in a workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darba vienumu deleģēšana darbplūsmā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>View workflow history</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Darbplūsmas vēstures skatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Enable users to receive workflow-related email messages</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atļaušana lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Set up alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Iestatīt brīdinājumus</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Alerts overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Pārskats par brīdinājumiem</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Create alert rules</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Brīdinājumu kārtulu veidošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Batch processing of alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Brīdinājumu pakešveida apstrāde</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Manage cases</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">Pieteikumu pārvaldība</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Case management overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Pārskats par pieteikumu pārvaldību</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Plan case security, processes, and categories</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pieteikumu drošības, procesu un kategoriju plānošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Configure document management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dokumentu pārvaldības konfigurēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Configure and send email</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">E-pasta konfigurēšana un sūtīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Date/time data and time zones</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Datuma/laika dati un laika joslas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Set up leave and absence</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Atvaļinājumu un kavējumu iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Manage leave and absence</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atvaļinājumu un kavējumu pārvaldība</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Leave and absence concepts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atvaļinājumu un kavējumu koncepcijas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Accrue time off based on hours worked</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Brīvā laika uzkrāšana, pamatojoties uz nostrādātajām stundām</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Working time calendars</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darba laika kalendāri</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Set up compensation plans</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">Atlīdzības plānu iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Compensation plans overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Pārskats par atlīdzības plāniem</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Create fixed compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Fiksētās atlīdzības plānu izveidošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Create variable compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Mainīgās atlīdzības plānu izveidošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Process compensation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kompensācijas apstrāde</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darba komponentu iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Develop and train employees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbinieku attīstības veicināšana un apmācība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Performance management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veiktspējas pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Align workforce skills with business needs</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Darbaspēka prasmju saskaņošana ar biznesa vajadzībām</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Set up training courses</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Apmācību kursu iestatīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Add to your performance journal and send praise to someone</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Create a goal</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mērķa izveide</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Create a performance review</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Veiktspējas pārskata izveide</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Define and manage a benefits program</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atvieglojumu programmas definēšana un pārvaldība</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Define and manage a benefits program</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Atvieglojumu programmas definēšana un pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Benefit eligibility policies</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atvieglojumu piemērojamības politikas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Generate Affordable Care Act (ACA) reports</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pieejamās aprūpes akta (ACA) pārskatu ģenerēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Manage items lent to workers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Nodarbinātajiem aizdotu krājumu pārvaldīšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Evaluate key metrics with questionnaires</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Galveno rādītāju novērtēšana, izmantojot anketas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Gather information with questionnaires</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Informācijas vākšana, izmantojot anketas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Design questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Anketu projektēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Distribute and schedule questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Anketu izplatīšana un plānošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>View and evaluate the results of questionnaires</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anketu rezultātu skatīšana un novērtēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Workplace safety and compliance (United States)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbavietas drošība un atbilstība (ASV)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Respond to a request for personal data in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atbildēšana uz personas datu pieprasījumu programmā Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Form I-9 employment verification</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Formas I-9 nodarbinātības verificēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Comply with the ADA</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atbilstība ADA prasībām</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Integrācija</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Integrate with Dynamics 365 for Finance and Operations</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Integrācija ar Dynamics 365 for Finance and Operations</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Configure the payroll integration between Talent and Dayforce</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Algu aprēķina integrācijas konfigurēšana starp Talent un Dayforce</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Data integration guidance for Dynamics 365 for Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu integrācijas norādījumi programmai Dynamics 365 for Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bieži uzdotie jautājumi par integrāciju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Recurring data export using Azure Logic apps</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Periodiska datu eksportēšana, izmantojot Azure Logic Apps</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office integrācija</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Office integration tutorial</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office integrēšanas apmācība</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Update entity data in Excel</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Elementa datu atjaunināšana programmā Excel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Create Open in Excel experiences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Atvēršanas Excel programmā pieredzes izveide</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Troubleshoot the Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office integrācijas problēmu novēršana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Extensibility</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paplašināmība</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Embedded Power BI in workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Iegultais Power BI darbvietās</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Extend Talent by using PowerApps and Microsoft Flow - Example scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Mobile app</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobilā programma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobilās darbvietas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Company directory mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobilā darbvieta Uzņēmuma direktorijs</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>My team mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobilā darbvieta Mana grupa</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Publish mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobilo darbvietu publicēšana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Track changes in recruiting data</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Personāla atlases datu izmaiņu izsekošana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paplašināmība pakalpojumā Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Custom fields in Core HR</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pielāgotie lauki pakalpojumā Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Troubleshoot Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pakalpojuma Talent problēmu novēršana</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Analytic reports aren't updated</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Analīzes pārskati netiek atjaunināti</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Can't create an environment in the PowerApps Admin center</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Nevar izveidot vidi PowerApps administrēšanas centrā</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Talent client disconnects</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent klienta atvienošanās</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Avoid text truncation on the position hierarchy and export to Visio</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvairīšanās no teksta saīsināšanas amatu hierarhijā un eksportēšana uz Visio</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Run the compensation process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlīdzības procesa palaišana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Save task guides to LCS and replay them</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Access to private addresses by security role</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piekļuve privātām adresēm atbilstoši drošības lomai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programma Talent nav redzama starp Microsoft Dynamics 365 programmām (Common Data Service 1.0)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>User can access Core HR but not the Onboard or Attract app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietotājs var piekļūt Core HR, bet nevar piekļūt pakalpojumam Onboard vai Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Reporting options in Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atskaišu veidošanas iespējas programmā Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bieži uzdotie jautājumi par integrāciju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Azure Active Directory users not found in People Picker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Azure Active Directory lietotāji nav atrodami vadīklā Personu atlasītājs</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
