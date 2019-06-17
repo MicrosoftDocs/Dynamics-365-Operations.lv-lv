@@ -1,1255 +1,4029 @@
----
-title: Noņemtie vai novecojušie līdzekļi
-description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
-author: sericks007
-manager: AnnBe
-ms.date: 04/12/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
-ms.search.scope: Operations
-ms.custom: 21821
-ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
-ms.search.region: Global
-ms.author: sericks
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527675"
----
-# <a name="removed-or-deprecated-features"></a><span data-ttu-id="8fad5-103">Noņemtie vai novecojušie līdzekļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-103">Removed or deprecated features</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="8fad5-104">Šajā tēmā ir aprakstīti līdzekļi, kas ir novecojuši vai noņemti no programmas Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8fad5-104">This topic describes features that have been removed or deprecated for Dynamics 365 for Finance and Operations.</span></span>
-
-- <span data-ttu-id="8fad5-105">*Noņemts* līdzeklis produktā vairs nav pieejams.</span><span class="sxs-lookup"><span data-stu-id="8fad5-105">A *removed* feature is no longer available in the product.</span></span>
-- <span data-ttu-id="8fad5-106">*Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.</span><span class="sxs-lookup"><span data-stu-id="8fad5-106">A *deprecated* feature is not in active development and may be removed in a future update.</span></span>
-
-<span data-ttu-id="8fad5-107">Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši.</span><span class="sxs-lookup"><span data-stu-id="8fad5-107">This list is intended to help you consider these removals and deprecations for your own planning.</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="8fad5-108">Sākot ar programmas Dynamics 365 for Finance and Operations 2017. gada jūlija laidienu ar 8. platformas atjauninājumu, ir norādīts katra noņemtajā vai novecojušā līdzekļa izvietojumu veids.</span><span class="sxs-lookup"><span data-stu-id="8fad5-108">Starting with the Dynamics 365 for Finance and Operations July 2017 release with platform update 8, the type of deployments are noted for each removed or deprecated feature.</span></span> <span data-ttu-id="8fad5-109">Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.</span><span class="sxs-lookup"><span data-stu-id="8fad5-109">All of the previous releases mentioned in this topic supported cloud deployments only.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="8fad5-110">Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep).</span><span class="sxs-lookup"><span data-stu-id="8fad5-110">Detailed information about objects in Finance and Operations can be found in the [Technical reference reports](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep).</span></span> <span data-ttu-id="8fad5-111">Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-111">You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of Finance and Operations.</span></span>
-
-
-## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a><span data-ttu-id="8fad5-112">Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-112">Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="8fad5-113">Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena.</span><span class="sxs-lookup"><span data-stu-id="8fad5-113">Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26 is available to targeted users as part of a preview release.</span></span> <span data-ttu-id="8fad5-114">Saturs un funkcionalitāte var tikt mainīti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-114">The content and the functionality are subject to change.</span></span> <span data-ttu-id="8fad5-115">Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-115">For more information about preview releases, see [Service update availability](../../fin-and-ops/get-started/public-preview-releases.md).</span></span>
-
-### <a name="legacy-default-action-behavior"></a><span data-ttu-id="8fad5-116">Mantotā noklusējuma darbību uzvedība</span><span class="sxs-lookup"><span data-stu-id="8fad5-116">Legacy default action behavior</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-117">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-117">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-118">Noklusējuma darbību mantotās uzvedības rezultātā tiek izveidota neparedzēta kolonna ar noklusējuma darbības saiti pēc tam, kad tabulas kolonnas ir pārkārtotas, izmantojot personalizēšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-118">The legacy behavior for default actions in grids results in an unexpected column having the default action link after grid columns have been reordered via personalization.</span></span> <span data-ttu-id="8fad5-119">Jaunais fiksēto noklusējuma darbību līdzeklis to koriģē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-119">The new sticky default action feature corrects this.</span></span> <span data-ttu-id="8fad5-120">Papildinformāciju skatiet tēmā [Fiksētās noklusējuma darbības tabulās](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action).</span><span class="sxs-lookup"><span data-stu-id="8fad5-120">For more details, see [Sticky default actions in grids](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action).</span></span> |
-| <span data-ttu-id="8fad5-121">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-121">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-122">Sākot ar 21. platformas atjauninājumu, tika ieviests “fiksēto noklusējuma darbību” līdzeklis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-122">Starting in Platform update 21, a feature for "sticky default actions" was introduced.</span></span> <span data-ttu-id="8fad5-123">Šo līdzekli var iespējot lapā **Klienta veiktspējas opcijas**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-123">This feature can be enabled on the **Client performance options** page.</span></span> |
-| <span data-ttu-id="8fad5-124">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-124">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-125">Tabulas tīmekļa klientā</span><span class="sxs-lookup"><span data-stu-id="8fad5-125">Grids in the web client</span></span> |
-| <span data-ttu-id="8fad5-126">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-126">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-127">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-127">All</span></span> |
-| <span data-ttu-id="8fad5-128">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-128">**Status**</span></span>                         | <span data-ttu-id="8fad5-129">Novecojis: sākot ar 2020. gada aprīli, fiksētās noklusējuma darbības būs noklusējuma uzvedība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības.</span><span class="sxs-lookup"><span data-stu-id="8fad5-129">Deprecated: Starting in April 2020, sticky default actions will be the default behavior, without a mechanism to revert to the legacy behavior.</span></span> |
-
-### <a name="legacy-is-one-of-filtering-experience"></a><span data-ttu-id="8fad5-130">Mantotā filtrēšanas darbība "ir viens no"</span><span class="sxs-lookup"><span data-stu-id="8fad5-130">Legacy "is one of" filtering experience</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-131">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-131">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-132">Filtrēšanas darbība “ir viens no” tika pārstrādāta 22. platformas atjauninājumā, paredzot, ka nākotnē tā būs vienīgā filtrēšanas darbība “ir viens no”.</span><span class="sxs-lookup"><span data-stu-id="8fad5-132">The "is one of" filtering experience went through a redesign in Platform update 22,with the plan for this to eventually be the only "is one of" filtering experience.</span></span> |
-| <span data-ttu-id="8fad5-133">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-133">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-134">Sākot ar 22. platformas atjauninājumu, uzlabota filtrēšanas darbība “ir viens no” kļuva pieejama lapā **Klienta veiktspējas opcijas**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-134">Starting in Platform update 22, an improved "is one of" filtering experience became available on the **Client performance options** page.</span></span> <span data-ttu-id="8fad5-135">Papildinformāciju skatiet sadaļā [Optimizēta filtra “ir viens no” izmantošana](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).</span><span class="sxs-lookup"><span data-stu-id="8fad5-135">For more information, see [Optimized is one of filtering experience](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).</span></span> |
-| <span data-ttu-id="8fad5-136">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-136">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-137">Tīmekļa klients</span><span class="sxs-lookup"><span data-stu-id="8fad5-137">Web client</span></span> |
-| <span data-ttu-id="8fad5-138">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-138">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-139">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-139">All</span></span> |
-| <span data-ttu-id="8fad5-140">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-140">**Status**</span></span>                         | <span data-ttu-id="8fad5-141">Novecojis: sākot ar 2020. gada aprīli, uzlabotā filtrēšanas darbība “ir viens no” būs noklusējuma darbība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības.</span><span class="sxs-lookup"><span data-stu-id="8fad5-141">Deprecated: Starting in April 2020, the improved "is one of" experience will be the default behavior, without a mechanism to revert to the legacy behavior.</span></span> |
-
-### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a><span data-ttu-id="8fad5-142">Parametrs, lai iespējotu pārdošanas pasūtījumus ar vairākiem projekta līguma finansējuma avotiem</span><span class="sxs-lookup"><span data-stu-id="8fad5-142">Parameter to enable sales orders with multiple project contract funding sources</span></span>
-<span data-ttu-id="8fad5-143">Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta līgumam ir vairāki finansējuma avoti, tiek iespējots, izmantojot sadaļas **Projektu pārvaldības parametri** iestatījumu **Atļaut pārdošanas pasūtījumus projektam ar vairākiem finansējuma avotiem**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-143">Support for creating project-based sales orders where the project contract has multiple funding sources is enabled with the **Project management parameters** setting **Allow sales orders for project with multiple funding sources**.</span></span> <span data-ttu-id="8fad5-144">Pēc noklusējuma šis parametrs nav iespējots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-144">By default, this parameter is not enabled.</span></span> 
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-145">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-145">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-146">Funkcionalitāte vienmēr būs iespējota pēc parametra noņemšanas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-146">The functionality will always be enabled after the parameter is removed.</span></span> |
-| <span data-ttu-id="8fad5-147">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-147">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-148">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="8fad5-148">No.</span></span> <span data-ttu-id="8fad5-149">Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.</span><span class="sxs-lookup"><span data-stu-id="8fad5-149">The functionality to support project-based sales orders with multiple funding sources will always be enabled.</span></span>   |
-| <span data-ttu-id="8fad5-150">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-150">**Product areas affected**</span></span>         |<span data-ttu-id="8fad5-151">Parametrs **Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem** tiks noņemts.</span><span class="sxs-lookup"><span data-stu-id="8fad5-151">The **Allow sales orders for projects with multiple funding sources** parameter will be removed.</span></span> <span data-ttu-id="8fad5-152">Pēc parametra noņemšanas tiks mainītas šādas metodes: **ctrlSalesOrderTable** metode **ProjStatusType** klasē, **validate** metode **ProjId** laukā un **run** metode **SalescreateOrder** formā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-152">The following methods will be modified when the parameter is removed: **ctrlSalesOrderTable** method in **ProjStatusType** class, **validate** method for **ProjId** field, and **run** method in **SalescreateOrder** form.</span></span> <span data-ttu-id="8fad5-153">Pēc parametra noņemšanas būs novecojušas šādas metodes: **IsSalesOrderAllowedForMultipleFundingSources** metode **ProjTable** tabulas failā, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** metode **ProjTable** tabulas failā, **AllowSalesOrdersForMultipleFundingSources** datu lauks **ProjParameters** formā un **ProjParameterEntity** failos, **IsAssociatedToMultipleFundingSourcesContract** privātā metode **ProjTable** tabulas failā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-153">The following methods will be deprecated when the parameter is removed: **IsSalesOrderAllowedForMultipleFundingSources** in **ProjTable** table file, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** method in **ProjTable** table file, **AllowSalesOrdersForMultipleFundingSources** data field in **ProjParameters** form and **ProjParameterEntity** files, **IsAssociatedToMultipleFundingSourcesContract** private method in **ProjTable** table file.</span></span> |
-| <span data-ttu-id="8fad5-154">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-154">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-155">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-155">All</span></span>  |
-| <span data-ttu-id="8fad5-156">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-156">**Status**</span></span>                         | <span data-ttu-id="8fad5-157">Atbalsta pārtraukšana ir paredzēta 2020. gada aprīļa laidienu kopumā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-157">Deprecation is planned for the April 2020 release wave.</span></span> |
-
-### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a><span data-ttu-id="8fad5-158">Mantoti darbplūsmas pārskati izsekošanas un gadījumu statusam</span><span class="sxs-lookup"><span data-stu-id="8fad5-158">Legacy workflow reports for tracking and instance status</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-159">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-159">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-160">Mantotajiem darbplūsmas ziņojumiem izsekošanas un gadījumu statusam tiek pārtraukts atbalsts, jo uz tiem vairs nav atsauces navigācijā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-160">The legacy workflow reports for tracking and instance status are being deprecated because they are no longer referenced from the navigation.</span></span> <span data-ttu-id="8fad5-161">Pārskatu nosaukumi ir WorkflowWorkflowInstanceByStatusReport un WorkflowWorkflowTrackingReport.</span><span class="sxs-lookup"><span data-stu-id="8fad5-161">The report names are WorkflowWorkflowInstanceByStatusReport and WorkflowWorkflowTrackingReport.</span></span> |
-| <span data-ttu-id="8fad5-162">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-162">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-163">Tā vietā var izmantot darbplūsmas vēstures formu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-163">The workflow history form can be used instead.</span></span> |
-| <span data-ttu-id="8fad5-164">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-164">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-165">Tīmekļa klients</span><span class="sxs-lookup"><span data-stu-id="8fad5-165">Web client</span></span> |
-| <span data-ttu-id="8fad5-166">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-166">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-167">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-167">All</span></span> |
-| <span data-ttu-id="8fad5-168">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-168">**Status**</span></span>                         | <span data-ttu-id="8fad5-169">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada aprīlis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-169">Deprecated: Target timeframe for the functionality to be removed is April 2020.</span></span> |
-
-## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a><span data-ttu-id="8fad5-170">Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-170">Dynamics 365 for Finance and Operations 10.0.1 with platform update 25</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="8fad5-171">Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena.</span><span class="sxs-lookup"><span data-stu-id="8fad5-171">Dynamics 365 for Finance and Operations 10.0.1 with Platform update 25 is available to targeted users as part of a preview release.</span></span> <span data-ttu-id="8fad5-172">Saturs un funkcionalitāte var tikt mainīti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-172">The content and the functionality are subject to change.</span></span> <span data-ttu-id="8fad5-173">Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-173">For more information about preview releases, see [Service update availability](../../fin-and-ops/get-started/public-preview-releases.md).</span></span>
-
-### <a name="deprecated-apis-and-potential-breaking-changes"></a><span data-ttu-id="8fad5-174">Novecojušie API un iespējamas traucējumus radošas izmaiņas</span><span class="sxs-lookup"><span data-stu-id="8fad5-174">Deprecated APIs and potential breaking changes</span></span>
-
-
-#### <a name="deriving-from-internal-classes-is-deprecated"></a><span data-ttu-id="8fad5-175">Atvasināšana no iekšējām klasēm ir novecojusi</span><span class="sxs-lookup"><span data-stu-id="8fad5-175">Deriving from internal classes is deprecated</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-176">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-176">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-177">Pirms 25. platformas atjauninājuma bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī.</span><span class="sxs-lookup"><span data-stu-id="8fad5-177">Before Platform update 25, it was possible to create a class or table that derives from an internal class/table that is defined in another package/module.</span></span> <span data-ttu-id="8fad5-178">Šāda kodēšanas prakse nav droša.</span><span class="sxs-lookup"><span data-stu-id="8fad5-178">This is not a safe coding practice.</span></span> <span data-ttu-id="8fad5-179">Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-179">As of Platform update 25, the compiler will display a warning.</span></span> |
-| <span data-ttu-id="8fad5-180">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-180">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-181">Kompilatora brīdinājums tiks aizstāts ar kļūdu 26. platformas atjauninājumā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-181">The compiler warning will be replaced by an error in Platform update 26.</span></span> <span data-ttu-id="8fad5-182">Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-182">This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</span></span> <span data-ttu-id="8fad5-183">Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.</span><span class="sxs-lookup"><span data-stu-id="8fad5-183">This change only affects development and compile time.</span></span>|
-| <span data-ttu-id="8fad5-184">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-184">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-185">Visual Studio izstrādes rīki</span><span class="sxs-lookup"><span data-stu-id="8fad5-185">Visual Studio development tools</span></span> |
-| <span data-ttu-id="8fad5-186">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-186">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-187">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-187">All</span></span> |
-| <span data-ttu-id="8fad5-188">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-188">**Status**</span></span>                         | <span data-ttu-id="8fad5-189">Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-189">Deprecated: The warning will become a compilation error in Platform update 26.</span></span> |
-
-#### <a name="overriding-internal-methods-is-deprecated"></a><span data-ttu-id="8fad5-190">Iekšējo metožu ignorēšana ir novecojusi</span><span class="sxs-lookup"><span data-stu-id="8fad5-190">Overriding internal methods is deprecated</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-191">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-191">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-192">Pirms 25. platformas atjauninājuma bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī.</span><span class="sxs-lookup"><span data-stu-id="8fad5-192">Before Platform update 25, it was possible to override an internal method in a derived class that is defined in another package/module.</span></span> <span data-ttu-id="8fad5-193">Šāda kodēšanas prakse nav droša.</span><span class="sxs-lookup"><span data-stu-id="8fad5-193">This is not a safe coding practice.</span></span> <span data-ttu-id="8fad5-194">Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-194">As of Platform update 25, the compiler will display a warning.</span></span> |
-| <span data-ttu-id="8fad5-195">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-195">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-196">Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu 26. platformas atjauninājumā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-196">This warning will be replaced by a compile error in Platform update 26.</span></span> <span data-ttu-id="8fad5-197">Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-197">This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</span></span> <span data-ttu-id="8fad5-198">Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.</span><span class="sxs-lookup"><span data-stu-id="8fad5-198">This change only affects development and compile time.</span></span> |
-| <span data-ttu-id="8fad5-199">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-199">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-200">Visual Studio izstrādes rīki</span><span class="sxs-lookup"><span data-stu-id="8fad5-200">Visual Studio development tools</span></span> |
-| <span data-ttu-id="8fad5-201">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-201">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-202">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-202">All</span></span> |
-| <span data-ttu-id="8fad5-203">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-203">**Status**</span></span>                         | <span data-ttu-id="8fad5-204">Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-204">Deprecated: The warning will become a compilation error in Platform update 26.</span></span> |
-
-
-## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a><span data-ttu-id="8fad5-205">Dynamics 365 for Finance and Operations 8.1.3 ar 23. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-205">Dynamics 365 for Finance and Operations 8.1.3 with platform update 23</span></span>
-
-### <a name="sql-server-reporting-services-reportviewer-control"></a><span data-ttu-id="8fad5-206">SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer</span><span class="sxs-lookup"><span data-stu-id="8fad5-206">SQL Server Reporting Services ReportViewer Control</span></span>
-<span data-ttu-id="8fad5-207">Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-207">Customers can use the **Export** action provided by the embedded SQL Server Reporting Services (SSRS) ReportViewer control to download documents produced by Finance and Operations applications.</span></span> <span data-ttu-id="8fad5-208">Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.</span><span class="sxs-lookup"><span data-stu-id="8fad5-208">This HTML-based presentation of the report offers users a non-paginated preview of the document.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-209">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-209">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-210">Versija bez lapdales HTML priekšskatījumā **nenodrošina** precīzu atbilstību fiziskajiem dokumentiem, kas galu galā tiek izveidoti programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8fad5-210">The non-paginated nature of the HTML-based preview experience does **not** deliver fidelity with the physical documents ultimately produced by Finance and Operations.</span></span> <span data-ttu-id="8fad5-211">Pilnībā ieviešot PDF kā standarta formātu biznesa dokumentiem, lietotāji var izmantot modernas skatīšanas iespējas ar uzlabotu veiktspēju, veidojot pieteikumu pārskatus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-211">By fully embracing PDF as the standard format for business documents, users are able to take advantage of a modern viewing experience with improved performance when producing application reports.</span></span> |
-| <span data-ttu-id="8fad5-212">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-212">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-213">Turpmāk PDF dokumenti būs noklusējuma formāts pārskatiem, kurus atveido programma Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8fad5-213">Going forward, PDF documents will be the default format for reports rendered by Finance and Operations.</span></span>   |
-| <span data-ttu-id="8fad5-214">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-214">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-215">Šīs izmaiņas **neietekmē** klientu scenārijus, kuros pārskati tiek izplatīti elektroniski vai nosūtīti tieši uz printeriem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-215">This change does **not** impact customer scenarios where reports are distributed electronically or sent directly to printers.</span></span>    |
-| <span data-ttu-id="8fad5-216">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-216">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-217">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-217">All</span></span>  |
-| <span data-ttu-id="8fad5-218">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-218">**Status**</span></span>                         | <span data-ttu-id="8fad5-219">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-219">Deprecated: A removal date has not been set for this feature.</span></span> <span data-ttu-id="8fad5-220">2019. gada maija platformas atjauninājumā ir paredzēta funkcionalitāte, lai automātiski priekšskatītu pieteikumu pārskatus, izmantojot iegulto PDF skatītāju.</span><span class="sxs-lookup"><span data-stu-id="8fad5-220">The functionality to automatically preview application reports using an embedded PDF viewer is planned for the May 2019 Platform update.</span></span> |
-
-### <a name="client-kpi-controls"></a><span data-ttu-id="8fad5-221">Klienta KPI vadīklas</span><span class="sxs-lookup"><span data-stu-id="8fad5-221">Client KPI controls</span></span>
-<span data-ttu-id="8fad5-222">Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI) programmā Visual Studio, un lietotājs var veikt to turpmāku pielāgošanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-222">Embedded key performance indicators (KPIs) could be modeled in Visual Studio by a developer and further customized by the end user.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-223">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-223">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-224">Tādu vietējā klienta vadīklu gadījumā, ko izmanto, lai definētu KPI, ir zema klientu aktivitāte un ir nepieciešams izstrādātājs, lai pievienotu izsekojamus rādītājus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-224">The native client controls used to define KPIs have low customer uptake and rely on a developer to add trackable metrics.</span></span> |
-| <span data-ttu-id="8fad5-225">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-225">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-226">PowerBI.com pakalpojums nodrošina pasaules līmeņa rīkus KPI definēšanai un pārvaldībai, balstoties uz datiem no ārējiem avotiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-226">PowerBI.com service delivers world-class tooling for defining and managing KPIs based on data from external sources.</span></span>  <span data-ttu-id="8fad5-227">Turpmākajos laidienos ir paredzēta iespēja pakalpojumā PowerBI.com viesotus risinājumus iegult programmas darbvietās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-227">In an upcoming release, we plan to enable you to embed solutions hosted on PowerBI.com in application workspaces.</span></span>   |
-| <span data-ttu-id="8fad5-228">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-228">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-229">Šis atjauninājums neļaus izstrādātājiem ieviest jaunas KPI vadīklas Visual Studio noformētājā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-229">This update will prevent developers from introducing new KPI controls in Visual Studio designer.</span></span>    |
-| <span data-ttu-id="8fad5-230">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-230">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-231">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-231">All</span></span>  |
-| <span data-ttu-id="8fad5-232">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-232">**Status**</span></span>                         | <span data-ttu-id="8fad5-233">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-233">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="deprecated-apis-and-future-breaking-changes"></a><span data-ttu-id="8fad5-234">Novecojušie API un turpmākas traucējumus radošas izmaiņas</span><span class="sxs-lookup"><span data-stu-id="8fad5-234">Deprecated APIs and future breaking changes</span></span>
-
-#### <a name="field-groups-containing-invalid-field-references"></a><span data-ttu-id="8fad5-235">Lauku grupas, kas ietver nederīgas lauku atsauces</span><span class="sxs-lookup"><span data-stu-id="8fad5-235">Field groups containing invalid field references</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-236">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-236">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-237">Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces.</span><span class="sxs-lookup"><span data-stu-id="8fad5-237">It is possible for table metadata definitions to have field groups containing invalid field references.</span></span> <span data-ttu-id="8fad5-238">Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums*, nevis *kļūda*, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-238">This issue is currently categorized as a *compiler warning* rather than an *error*, meaning that the deployable package creation and deployment can proceed without fixing the issue.</span></span> <span data-ttu-id="8fad5-239">Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS).</span><span class="sxs-lookup"><span data-stu-id="8fad5-239">If deployed, this can cause runtime failures in Financial Reporting and SQL Server Reporting Services (SSRS).</span></span> <span data-ttu-id="8fad5-240">Lai novērstu šo problēmu:</span><span class="sxs-lookup"><span data-stu-id="8fad5-240">To fix this issue:</span></span><br><br><span data-ttu-id="8fad5-241">1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-241">1. Remove the invalid field reference from the table field group definition.</span></span><br><br><span data-ttu-id="8fad5-242">2. Pārkompilējiet.</span><span class="sxs-lookup"><span data-stu-id="8fad5-242">2. Recompile.</span></span><br><br><span data-ttu-id="8fad5-243">3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-243">3. Ensure any warnings or errors are addressed.</span></span> |
-| <span data-ttu-id="8fad5-244">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-244">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-245">Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-245">This warning will be replaced by a compile error in the future.</span></span>  |
-| <span data-ttu-id="8fad5-246">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-246">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-247">Visual Studio izstrādes rīki.</span><span class="sxs-lookup"><span data-stu-id="8fad5-247">Visual Studio development tools.</span></span> |
-| <span data-ttu-id="8fad5-248">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-248">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-249">Visi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-249">All.</span></span> |
-| <span data-ttu-id="8fad5-250">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-250">**Status**</span></span>                         | <span data-ttu-id="8fad5-251">Novecojis: brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-251">Deprecated: The warning will become a compile-time error in the future.</span></span> <span data-ttu-id="8fad5-252">Paredzams, ka tas tiks veikts atjauninājumā Platform update 30.</span><span class="sxs-lookup"><span data-stu-id="8fad5-252">We're currently targeting Platform update 30.</span></span> |
-
-#### <a name="complete-list"></a><span data-ttu-id="8fad5-253">Pilnīgs saraksts</span><span class="sxs-lookup"><span data-stu-id="8fad5-253">Complete list</span></span>
-<span data-ttu-id="8fad5-254">Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-254">To access the full list of APIs that are being deprecated, see [Deprecation of methods and meta data elements](deprecation-deletion-apis.md).</span></span>
-
-## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a><span data-ttu-id="8fad5-255">Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-255">Dynamics 365 for Finance and Operations 8.1 with platform update 20</span></span>
-
-### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a><span data-ttu-id="8fad5-256">Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem</span><span class="sxs-lookup"><span data-stu-id="8fad5-256">Batch transfer rules for subledger journal account entries</span></span>
-<span data-ttu-id="8fad5-257">Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-257">The Synchronous transfer mode is being deprecated in the General ledger parameters.</span></span>  <span data-ttu-id="8fad5-258">Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-258">This mode is replaced by Asynchronous and scheduled batch only, which already exist as options for transfer.</span></span> <span data-ttu-id="8fad5-259">Papildinformāciju skatiet emuārā [Virsgrāmatas parametri — partijas pārsūtīšanas kārtulas](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).</span><span class="sxs-lookup"><span data-stu-id="8fad5-259">For additional information, see the [General Ledger Parameters – Batch transfer rules](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) blog.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-260">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-260">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-261">Mēs noņēmām sinhrono opciju veiktspējas ietekmes uz sistēmu dēļ.</span><span class="sxs-lookup"><span data-stu-id="8fad5-261">We are removing the synchronous option due to performance impact to the system.</span></span> |
-| <span data-ttu-id="8fad5-262">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-262">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-263">Opciju Asinhroni un plānoto partiju var izmantot opcijas Sinhroni vietā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-263">Asynchronous and scheduled batch are options to use in place of Synchronous.</span></span>   |
-| <span data-ttu-id="8fad5-264">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-264">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-265">Virsgrāmata, Debitori, Kreditori, Sagāde, Izdevumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-265">General Ledger, Accounts payable, Accounts Receivable, Procurement, Expense</span></span>    |
-| <span data-ttu-id="8fad5-266">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-266">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-267">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-267">All</span></span>  |
-| <span data-ttu-id="8fad5-268">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-268">**Status**</span></span>                         | <span data-ttu-id="8fad5-269">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 10.0 versija.</span><span class="sxs-lookup"><span data-stu-id="8fad5-269">Deprecated: Target timeframe for the functionality to be removed is the 10.0 version.</span></span>|
-
-### <a name="electronic-reporting-for-russia"></a><span data-ttu-id="8fad5-270">Elektroniskā pārskata veidošanas formāts Krievijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-270">Electronic reporting for Russia</span></span>
-<span data-ttu-id="8fad5-271">Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-271">Feature for configuring .txt and .xml file formats of declarations.</span></span> 
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-272">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-272">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-273">Nomainīts ar elektronisku iesniegšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-273">Replaced with Electronic reporting.</span></span> |
-| <span data-ttu-id="8fad5-274">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-274">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-275">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-275">Yes.</span></span> |
-| <span data-ttu-id="8fad5-276">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-276">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-277">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-277">General Ledger</span></span> |
-| <span data-ttu-id="8fad5-278">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-278">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-279">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-279">All</span></span> |
-| <span data-ttu-id="8fad5-280">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-280">**Status**</span></span>                         | <span data-ttu-id="8fad5-281">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-281">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
-
-### <a name="financial-reports-generator-for-russia"></a><span data-ttu-id="8fad5-282">Finanšu pārskatu veidotājs Krievijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-282">Financial reports generator for Russia</span></span>
-<span data-ttu-id="8fad5-283">Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-283">A tool for setting up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</span></span> <span data-ttu-id="8fad5-284">Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-284">Functional parts: Export data to XLS and DOC report templates, queries, fixed requisites are removed.</span></span> 
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-285">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-285">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-286">Noņemtās daļas ir aizstātas ar elektroniskajiem pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-286">Removed parts are replaced with Electronic reporting.</span></span> |
-| <span data-ttu-id="8fad5-287">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-287">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-288">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-288">Yes.</span></span> <span data-ttu-id="8fad5-289">Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-289">Financial reports setup user interface should be used for setting up data collection rules by GL accounts or tax registers.</span></span> <span data-ttu-id="8fad5-290">Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-290">Export data to various file types, fixed requisites and query-like data collection rules should be configured in Electronic reporting.</span></span> |
-| <span data-ttu-id="8fad5-291">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-291">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-292">Virsgrāmata.</span><span class="sxs-lookup"><span data-stu-id="8fad5-292">General ledger.</span></span> |
-| <span data-ttu-id="8fad5-293">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-293">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-294">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-294">All</span></span> |
-| <span data-ttu-id="8fad5-295">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-295">**Status**</span></span>                         | <span data-ttu-id="8fad5-296">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-296">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
-
-### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a><span data-ttu-id="8fad5-297">Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-297">Integration with external providers for sending electronic reporting through communication channels for Russia</span></span>
-<span data-ttu-id="8fad5-298">Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.</span><span class="sxs-lookup"><span data-stu-id="8fad5-298">Feature exporting generated electronic files of declarations to folder for further sending to official providers of electronic reporting as well as importing state back.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-299">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-299">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-300">Aizstāts ar konfigurējamu elektronisko ziņojumu līdzekli.</span><span class="sxs-lookup"><span data-stu-id="8fad5-300">Replaced with electronic messages configurable feature.</span></span> |
-| <span data-ttu-id="8fad5-301">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-301">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-302">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-302">Yes.</span></span>  |
-| <span data-ttu-id="8fad5-303">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-303">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-304">Virsgrāmata, nodokļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-304">General Ledger, Tax</span></span> |
-| <span data-ttu-id="8fad5-305">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-305">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-306">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-306">All</span></span> |
-| <span data-ttu-id="8fad5-307">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-307">**Status**</span></span>                         | <span data-ttu-id="8fad5-308">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-308">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
-
-
-### <a name="profit-tax-register-wizard"></a><span data-ttu-id="8fad5-309">Peļņas nod. reģ. vednis</span><span class="sxs-lookup"><span data-stu-id="8fad5-309">Profit tax register wizard</span></span>
-<span data-ttu-id="8fad5-310">Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei.</span><span class="sxs-lookup"><span data-stu-id="8fad5-310">Feature for creating templates for new profit tax registers.</span></span> <span data-ttu-id="8fad5-311">Šis līdzeklis rada X++ objektus jauniem reģistriem, kuri pēc tam tiek izveidoti kā veidnes ar pievienotu atbilstošu aprēķina loģiku.</span><span class="sxs-lookup"><span data-stu-id="8fad5-311">This feature creates X++ objects for new registers, which are then  created as templates with the appropriate calculation logic added in.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-312">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-312">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-313">Līdzeklis nav saderīgs ar Dynamics 365 for Finance and Operations paplašināšanas modeli.</span><span class="sxs-lookup"><span data-stu-id="8fad5-313">Feature is not compatible with the Dynamics 365 for Finance and Operations extensibility model.</span></span> |
-| <span data-ttu-id="8fad5-314">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-314">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-315">Nav</span><span class="sxs-lookup"><span data-stu-id="8fad5-315">No</span></span> |
-| <span data-ttu-id="8fad5-316">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-316">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-317">Nodokļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-317">Tax</span></span> |
-| <span data-ttu-id="8fad5-318">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-318">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-319">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-319">All</span></span> |
-| <span data-ttu-id="8fad5-320">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-320">**Status**</span></span>                         | <span data-ttu-id="8fad5-321">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-321">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
-
-
-## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a><span data-ttu-id="8fad5-322">Dynamics 365 for Finance and Operations 8.0 ar 15. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-322">Dynamics 365 for Finance and Operations 8.0 with platform update 15</span></span>
-<span data-ttu-id="8fad5-323">Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-323">No features have been removed or deprecated with this release.</span></span> <span data-ttu-id="8fad5-324">15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.</span><span class="sxs-lookup"><span data-stu-id="8fad5-324">Platform update 15 is cumulative and contains new or changed features from Platform update 13, Platform update 14, and Platform update 15.</span></span>
-
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a><span data-ttu-id="8fad5-325">Dynamics 365 for Finance and Operations Enterprise Edition 7.3 ar 12. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-325">Dynamics 365 for Finance and Operations, Enterprise edition 7.3 with platform update 12</span></span>
-
-### <a name="personalized-product-recommendations"></a><span data-ttu-id="8fad5-326">Personalizēti preču ieteikumi</span><span class="sxs-lookup"><span data-stu-id="8fad5-326">Personalized product recommendations</span></span> 
-<span data-ttu-id="8fad5-327">Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-327">Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</span></span> <span data-ttu-id="8fad5-328">Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](../../retail/personalized-product-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-328">For more information, see [Personalized product recommendations](../../retail/personalized-product-recommendations.md).</span></span>  
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-329">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-329">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-330">Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-330">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span>  |
-| <span data-ttu-id="8fad5-331">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-331">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-332">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-332">No.</span></span> <span data-ttu-id="8fad5-333">Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-333">However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</span></span>   |
-| <span data-ttu-id="8fad5-334">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-334">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-335">Personalizēti preču ieteikumi pārdošanas punktā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-335">Personalized product recommendations in POS.</span></span>                                                    |
-| <span data-ttu-id="8fad5-336">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-336">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-337">Visi</span><span class="sxs-lookup"><span data-stu-id="8fad5-337">All</span></span>                                                                                      |
-| <span data-ttu-id="8fad5-338">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-338">**Status**</span></span>                         |<span data-ttu-id="8fad5-339">Noņemts kopš 2018. gada 15. februāra.</span><span class="sxs-lookup"><span data-stu-id="8fad5-339">Removed as of February 15, 2018.</span></span> <span data-ttu-id="8fad5-340">Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Operations 1611 un jaunākas tās versijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-340">This affects customers running Dynamics 365 for Operations 1611 and later.</span></span>  |
-
-### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a><span data-ttu-id="8fad5-341">Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums</span><span class="sxs-lookup"><span data-stu-id="8fad5-341">Extension of the list of Electronic reporting (ER) functions</span></span>
-<span data-ttu-id="8fad5-342">Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: [Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)).</span><span class="sxs-lookup"><span data-stu-id="8fad5-342">The possibility to introduce custom functions to be used in the ER expression builder (for more information, see [Extend the list of Electronic reporting functions](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) is not supported any more.</span></span> <span data-ttu-id="8fad5-343">Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.</span><span class="sxs-lookup"><span data-stu-id="8fad5-343">Due to changes of the ER APIs, the API to call built-in functions from the ER expression builder became internal and can’t be extended any longer.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-344">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-344">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-345">Koda noslēgšanas iniciatīva</span><span class="sxs-lookup"><span data-stu-id="8fad5-345">Code sealing initiative</span></span>  |
-| <span data-ttu-id="8fad5-346">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-346">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-347">Nav.</span><span class="sxs-lookup"><span data-stu-id="8fad5-347">None.</span></span> <span data-ttu-id="8fad5-348">Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-348">Whenever a new built-in function is needed, a new extension request must be addressed to the ER framework team.</span></span><br><br><span data-ttu-id="8fad5-349">Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-349">As a temporary work around while the requested function is under development by the ER team, the required logic can be programmed as a method of a custom application class.</span></span> <span data-ttu-id="8fad5-350">Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase**, kas attiecas uz šo pielāgoto programmas klasi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-350">This method can be accessed in an ER expression as a property of the added ER data source of the **Application\Class** type that refers to that custom application class.</span></span>  |
-| <span data-ttu-id="8fad5-351">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-351">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-352">Elektronisko pārskatu veidošanas struktūra</span><span class="sxs-lookup"><span data-stu-id="8fad5-352">Electronic reporting framework</span></span>                                                      |
-| <span data-ttu-id="8fad5-353">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-353">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-354">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-354">All</span></span>                                                                                      |
-| <span data-ttu-id="8fad5-355">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-355">**Status**</span></span>                         | <span data-ttu-id="8fad5-356">Noņemts, sākot ar Dynamics 365 for Finance and Operations Enterprise Edition 7.3.</span><span class="sxs-lookup"><span data-stu-id="8fad5-356">Removed as of Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</span></span>    |
-
-### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a><span data-ttu-id="8fad5-357">Pārskats “Krājumi pēc krājumu grupas” un “Krājumi pēc krājumu dimensijas vecumstruktūras”</span><span class="sxs-lookup"><span data-stu-id="8fad5-357">Inventory by item group and Inventory by inventory dimension aging reports</span></span>
-
-<span data-ttu-id="8fad5-358">Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8fad5-358">These two reports are no longer supported in Finance and Operations.</span></span> <span data-ttu-id="8fad5-359">Lai uzlabotu lietotāju funkcionalitāti, to vietā var izmantot pārskatu **Krājumu vecumstruktūras**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-359">Instead, the **Inventory aging** report can be used to improve the user experience.</span></span>
-
-|   |  |
-|--------------|-----------------------|
-| <span data-ttu-id="8fad5-360">**Novecošanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-360">**Reason for deprecation**</span></span>       | <span data-ttu-id="8fad5-361">Funkcionalitātes dublēšanās</span><span class="sxs-lookup"><span data-stu-id="8fad5-361">Duplicate functionality</span></span>  |
-| <span data-ttu-id="8fad5-362">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-362">**Replaced by another feature?**</span></span> | <span data-ttu-id="8fad5-363">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-363">Yes.</span></span> <span data-ttu-id="8fad5-364">Šie abi pārskati ir aizstāti ar pārskatu **Krājumu vecumstruktūras**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-364">The two reports have been replaced by the **Inventory aging** report.</span></span>     |
-| <span data-ttu-id="8fad5-365">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-365">**Product areas affected**</span></span>       | <span data-ttu-id="8fad5-366">Krājumu pārvaldība, Izmaksu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-366">Inventory management, Cost management</span></span>        |
-| <span data-ttu-id="8fad5-367">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-367">**Deployment option**</span></span>        | <span data-ttu-id="8fad5-368">Visi</span><span class="sxs-lookup"><span data-stu-id="8fad5-368">All</span></span>|
-| <span data-ttu-id="8fad5-369">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-369">**Status**</span></span>                       | <span data-ttu-id="8fad5-370">Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3.</span><span class="sxs-lookup"><span data-stu-id="8fad5-370">Deprecated: The menu items for the two reports have been removed in version 7.3.</span></span> <span data-ttu-id="8fad5-371">Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods.</span><span class="sxs-lookup"><span data-stu-id="8fad5-371">However, the code for the reports remains in the product.</span></span> <span data-ttu-id="8fad5-372">Šo kodu ir plānots noņemt turpmākajos laidienos.</span><span class="sxs-lookup"><span data-stu-id="8fad5-372">The plan is to remove the code in a future release.</span></span> |
-
-### <a name="power-bi-content-packs-available-on-appsource"></a><span data-ttu-id="8fad5-373">Vietnē AppSource pieejamās Power BI satura pakotnes</span><span class="sxs-lookup"><span data-stu-id="8fad5-373">Power BI content packs available on AppSource</span></span>
-<span data-ttu-id="8fad5-374">Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-374">The **Cost management**, **Financial performance**, and **Retail channel performance** content packs, available on the [Microsoft AppSource](https://appsource.microsoft.com) site, are deprecated as a consequence of product updates in Microsoft Power BI.</span></span> <span data-ttu-id="8fad5-375">Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.</span><span class="sxs-lookup"><span data-stu-id="8fad5-375">System administration forms used to deploy these content packs to PowerBI.com are also being deprecated in Finance and Operations.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-376">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-376">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-377">Produktu atjauninājumi pakalpojumā Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="8fad5-377">Product updates in Microsoft Power BI.</span></span> |
-| <span data-ttu-id="8fad5-378">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-378">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-379">Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī.</span><span class="sxs-lookup"><span data-stu-id="8fad5-379">The **Cost management**, **Financial performance**, and **Retail channel performance** content packs, available on the [AppSource](https://appsource.microsoft.com) site, are being replaced by analytical applications which allow for solution integrations at the database level.</span></span> <span data-ttu-id="8fad5-380">Papildinformāciju par analītiskām lietojumprogrammām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-380">For more information about analytical applications, see [Embedded Power BI in workspackes](../../dev-itpro/analytics/embed-power-bi-workspaces.md).</span></span>    |
-| <span data-ttu-id="8fad5-381">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-381">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-382">Izmaksu pārvaldība, Finanses un Retail</span><span class="sxs-lookup"><span data-stu-id="8fad5-382">Cost management, Finance, and Retail</span></span>                                                                                               |
-| <span data-ttu-id="8fad5-383">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-383">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-384">Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)</span><span class="sxs-lookup"><span data-stu-id="8fad5-384">Cloud only (Integration with PowerBI.com is not supported in on-premises deployments.)</span></span>                                                                                                            |
-| <span data-ttu-id="8fad5-385">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-385">**Status**</span></span>                         | <span data-ttu-id="8fad5-386">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-386">Deprecated: Target timeframe for the functionality removal is Q2 2018.</span></span>    |
-
-### <a name="standard-ui-in-data-management-workspace"></a><span data-ttu-id="8fad5-387">Standarta UI datu pārvaldības darbvietā</span><span class="sxs-lookup"><span data-stu-id="8fad5-387">Standard UI in data management workspace</span></span>
-
-<span data-ttu-id="8fad5-388">Standarta UI datu pārvaldībā ir pārmantotais UI, un tas ir noklusējuma UI, kurš tiek radīts lietotājiem, kad viņi apmeklē datu pārvaldības darbvietu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-388">The standard UI in data management is the legacy UI, which is the default UI presented to the users when they visit the data management workspace.</span></span>
-
-|   |  |
-|------------------|-------------------------|
-| <span data-ttu-id="8fad5-389">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-389">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-390">Mēs cenšamies jaunajā UI nodrošināt jaunu lietotāja funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-390">We are investing in providing new user experiences in the new UI.</span></span>             |
-| <span data-ttu-id="8fad5-391">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-391">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-392">Veco UI nomaina jaunais UI, kura nosaukums ir *Uzlabotie skati*.</span><span class="sxs-lookup"><span data-stu-id="8fad5-392">The new UI called *Enhanced views* is replacing the old UI.</span></span>            |
-| <span data-ttu-id="8fad5-393">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-393">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-394">Datu pārvaldības darbvieta</span><span class="sxs-lookup"><span data-stu-id="8fad5-394">Data management workspace</span></span>                                                     |
-| <span data-ttu-id="8fad5-395">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-395">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-396">Visi</span><span class="sxs-lookup"><span data-stu-id="8fad5-396">All</span></span>                                                                           |
-| <span data-ttu-id="8fad5-397">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-397">**Status**</span></span>                         | <span data-ttu-id="8fad5-398">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-398">Deprecated: Target timeframe for the functionality to be removed is Q2 2018.</span></span> |
-
-### <a name="excise-sales-tax-service-tax-for-india"></a><span data-ttu-id="8fad5-399">Akcīze, PVN, pakalpojuma nodoklis Indijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-399">Excise, Sales Tax, Service Tax for India</span></span>
-
-<span data-ttu-id="8fad5-400">Šie nodokļi ir ietilpināti Indijas GST.</span><span class="sxs-lookup"><span data-stu-id="8fad5-400">These taxes have been subsumed into Indian GST.</span></span>
-
-|                                             |                                                                         |
-|---------------------------------------------|-------------------------------------------------------------------------|
-| <span data-ttu-id="8fad5-401">**Noņemšanas vai novecošanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-401">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="8fad5-402">Šie nodokļi ir ietilpināti Indijas GST.</span><span class="sxs-lookup"><span data-stu-id="8fad5-402">These taxes have been subsumed into Indian GST.</span></span>                          |
-| <span data-ttu-id="8fad5-403">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-403">**Replaced by another feature?**</span></span>            | <span data-ttu-id="8fad5-404">Indijas GST</span><span class="sxs-lookup"><span data-stu-id="8fad5-404">Indian GST</span></span>                                                              |
-| <span data-ttu-id="8fad5-405">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-405">**Product areas affected**</span></span>                  | <span data-ttu-id="8fad5-406">Nodokļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-406">Tax</span></span>                                                                     |
-| <span data-ttu-id="8fad5-407">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-407">**Deployment option**</span></span>                       | <span data-ttu-id="8fad5-408">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-408">All modules</span></span>                                                   |
-| <span data-ttu-id="8fad5-409">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-409">**Status**</span></span>                                  | <span data-ttu-id="8fad5-410">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-410">Deprecated: A removal date has not been set for this feature.</span></span> |    
-
-### <a name="file-validation-utility-fvu-for-india"></a><span data-ttu-id="8fad5-411">Failu validēšanas utilīta (FVU) Indijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-411">File Validation Utility (FVU) for India</span></span>
-
-|                                             |                                                                         |
-|---------------------------------------------|-------------------------------------------------------------------------|
-| <span data-ttu-id="8fad5-412">**Noņemšanas vai novecošanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-412">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="8fad5-413">Debitoru lietojuma trūkums</span><span class="sxs-lookup"><span data-stu-id="8fad5-413">Lack of customer usage</span></span>                                                  |
-| <span data-ttu-id="8fad5-414">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-414">**Replaced by another feature?**</span></span>            | <span data-ttu-id="8fad5-415">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-415">No</span></span>                                                                      |
-| <span data-ttu-id="8fad5-416">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-416">**Product areas affected**</span></span>                  | <span data-ttu-id="8fad5-417">Indijas ieturētais nodoklis</span><span class="sxs-lookup"><span data-stu-id="8fad5-417">Indian withholding tax</span></span>                                                  |
-| <span data-ttu-id="8fad5-418">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-418">**Deployment option**</span></span>                       | <span data-ttu-id="8fad5-419">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-419">All modules</span></span>                                                                    |
-| <span data-ttu-id="8fad5-420">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-420">**Status**</span></span>                                  | <span data-ttu-id="8fad5-421">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-421">Deprecated: A removal date has not been set for this feature.</span></span>   |        
-
-### <a name="tdstcs-certificate-for-india"></a><span data-ttu-id="8fad5-422">TDS/TCS sertifikāts Indijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-422">TDS/TCS certificate for India</span></span>
-
-<span data-ttu-id="8fad5-423">Lietotāji to var lejupielādēt no valsts portāla.</span><span class="sxs-lookup"><span data-stu-id="8fad5-423">Users can download this from the government portal.</span></span>
-
-|                                             |                                                                         |
-|---------------------------------------------|-------------------------------------------------------------------------|
-| <span data-ttu-id="8fad5-424">**Noņemšanas vai novecošanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-424">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="8fad5-425">Debitoru lietojuma trūkums</span><span class="sxs-lookup"><span data-stu-id="8fad5-425">Lack of customer usage</span></span>                                                  |
-| <span data-ttu-id="8fad5-426">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-426">**Replaced by another feature?**</span></span>            | <span data-ttu-id="8fad5-427">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-427">No</span></span>                                                                      |
-| <span data-ttu-id="8fad5-428">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-428">**Product areas affected**</span></span>                  | <span data-ttu-id="8fad5-429">Indijas ieturētais nodoklis</span><span class="sxs-lookup"><span data-stu-id="8fad5-429">Indian withholding tax</span></span>                                                  |
-| <span data-ttu-id="8fad5-430">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-430">**Deployment option**</span></span>                       | <span data-ttu-id="8fad5-431">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-431">All modules</span></span>                                                                   |
-| <span data-ttu-id="8fad5-432">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-432">**Status**</span></span>                                  | <span data-ttu-id="8fad5-433">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-433">Deprecated: A removal date has not been set for this feature.</span></span>     |    
-
-### <a name="exportimport-exim-incentive-scheme-for-india"></a><span data-ttu-id="8fad5-434">Eksporta/importa (EXIM) veicināšanas shēma Indijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-434">Export/import (EXIM) incentive scheme for India</span></span>
-
-
-|                                             |                                                                         |
-|---------------------------------------------|-------------------------------------------------------------------------|
-| <span data-ttu-id="8fad5-435">**Noņemšanas vai novecošanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-435">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="8fad5-436">Debitoru lietojuma trūkums</span><span class="sxs-lookup"><span data-stu-id="8fad5-436">Lack of customer usage</span></span>                                                  |
-| <span data-ttu-id="8fad5-437">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-437">**Replaced by another feature?**</span></span>            | <span data-ttu-id="8fad5-438">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-438">No</span></span>                                                                      |
-| <span data-ttu-id="8fad5-439">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-439">**Product areas affected**</span></span>                  | <span data-ttu-id="8fad5-440">Eksportēšana un importēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-440">Import and export</span></span>                                                       |
-| <span data-ttu-id="8fad5-441">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-441">**Deployment option**</span></span>                       | <span data-ttu-id="8fad5-442">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-442">All modules</span></span>                                                                    |
-| <span data-ttu-id="8fad5-443">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-443">**Status**</span></span>                                  | <span data-ttu-id="8fad5-444">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-444">Deprecated: A removal date has not been set for this feature.</span></span>  |    
-
-
-## <a name="dynamics-365-for-retail-72"></a><span data-ttu-id="8fad5-445">Dynamics 365 for Retail 7.2</span><span class="sxs-lookup"><span data-stu-id="8fad5-445">Dynamics 365 for Retail 7.2</span></span>
-
-### <a name="personalized-product-recommendations"></a><span data-ttu-id="8fad5-446">Personalizēti preču ieteikumi</span><span class="sxs-lookup"><span data-stu-id="8fad5-446">Personalized product recommendations</span></span> 
-<span data-ttu-id="8fad5-447">Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-447">Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</span></span> <span data-ttu-id="8fad5-448">Plašāku informāciju skatiet tēmā [Personalizēti preču ieteikumi](../../retail/personalized-product-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-448">For more information, see [Personalized product recommendations](../../retail/personalized-product-recommendations.md).</span></span>  
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-449">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-449">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-450">Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-450">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span>  |
-| <span data-ttu-id="8fad5-451">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-451">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-452">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-452">No.</span></span> <span data-ttu-id="8fad5-453">Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-453">However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</span></span>   |
-| <span data-ttu-id="8fad5-454">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-454">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-455">Personalizēti preču ieteikumi pārdošanas punktā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-455">Personalized product recommendations in POS.</span></span>                                                    |
-| <span data-ttu-id="8fad5-456">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-456">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-457">Visi</span><span class="sxs-lookup"><span data-stu-id="8fad5-457">All</span></span>                                                                                      |
-| <span data-ttu-id="8fad5-458">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-458">**Status**</span></span>                         |<span data-ttu-id="8fad5-459">Noņemts kopš 2018. gada 15. februāra.</span><span class="sxs-lookup"><span data-stu-id="8fad5-459">Removed as of February 15, 2018.</span></span> <span data-ttu-id="8fad5-460">Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Retail 7.2 un jaunākas tās versijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-460">This affects customers running Dynamics 365 for Retail 7.2  and later.</span></span> |
-
-
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a><span data-ttu-id="8fad5-461">Dynamics 365 for Finance and Operations Enterprise Edition 2017. gada jūlija izdevums ar 8. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-461">Dynamics 365 for Finance and Operations, Enterprise edition July 2017 with platform update 8</span></span>
-
-### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a><span data-ttu-id="8fad5-462">Valūtas konvertēšana uzskaites un pārskata valūtām</span><span class="sxs-lookup"><span data-stu-id="8fad5-462">Currency conversion for accounting and reporting currencies</span></span>
-
-<span data-ttu-id="8fad5-463">Valūtas konvertēšana uzskaites un pārskata valūtām tika ieviesta, kad tika ieviests eiro.</span><span class="sxs-lookup"><span data-stu-id="8fad5-463">Currency conversion for accounting and reporting currencies was introduced when the euro was introduced.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-464">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-464">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-465">Ierobežots lietojums un papildināšana ar juridiskās personas kopēšanas funkcionalitāti kā aizvietojumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-465">Limited usage and addition of the Copy legal entity functionality as a replacement.</span></span>      |
-| <span data-ttu-id="8fad5-466">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-466">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-467">Nē, bet tika pievienoti līdzekļi “Kopēt juridisko personu” un “Konfigurācijas”, lai būtu ērtāk pāriet uz uzņēmumu, kam ir mainīgas pamata prasības.</span><span class="sxs-lookup"><span data-stu-id="8fad5-467">No, but the Copy legal entity and Configurations features were added to make it easier to move to a company that has changing core requirements.</span></span> |
-| <span data-ttu-id="8fad5-468">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-468">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-469">Finanšu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-469">Financial management</span></span>     |
-| <span data-ttu-id="8fad5-470">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-470">**Status**</span></span>                         | <span data-ttu-id="8fad5-471">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-471">Deprecated: A removal date has not been set for this feature.</span></span>   |
-
-
-### <a name="warehouse-mobile-devices-portal"></a><span data-ttu-id="8fad5-472">Noliktavas mobilo ierīču portāls</span><span class="sxs-lookup"><span data-stu-id="8fad5-472">Warehouse mobile devices portal</span></span>
-
-<span data-ttu-id="8fad5-473">Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-473">Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</span></span> <span data-ttu-id="8fad5-474">Šis komponents vairs netiek atbalstīts programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8fad5-474">This component is no longer supported in Finance and Operations.</span></span> <span data-ttu-id="8fad5-475">WMDP funkcionalitāte ir aizstāta ar iekšēju programmu, kas uzlabo lietotāju iespējas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-475">A native app that improves the user experience has replaced the functionality of WMDP.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-476">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-476">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-477">Funkcionalitātes dublēšanās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-477">Duplicate functionality.</span></span>       |
-| <span data-ttu-id="8fad5-478">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-478">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-479">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-479">Yes.</span></span> <span data-ttu-id="8fad5-480">Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava.</span><span class="sxs-lookup"><span data-stu-id="8fad5-480">This feature has been replaced by Finance and Operations - Warehousing.</span></span> <span data-ttu-id="8fad5-481">Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Microsoft Dynamics 365 for Finance and Operations — Warehousing instalēšana un konfigurēšana](../../supply-chain/warehousing/install-configure-warehousing-app.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-481">For more information about setup and prerequisites, see [Install and configure Microsoft Dynamics 365 for Finance and Operations - Warehousing](../../supply-chain/warehousing/install-configure-warehousing-app.md).</span></span> |
-| <span data-ttu-id="8fad5-482">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-482">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-483">Noliktavas pārvaldība, Transportēšanas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-483">Warehouse management, Transportation management</span></span>     |
-| <span data-ttu-id="8fad5-484">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-484">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-485">Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-485">Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</span></span>               |
-| <span data-ttu-id="8fad5-486">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-486">**Status**</span></span>                         | <span data-ttu-id="8fad5-487">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2019. gada 4. ceturksnis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-487">Deprecated: Target timeframe for the functionality to be removed is Q4 2019.</span></span>   |
-
-### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a><span data-ttu-id="8fad5-488">Detalizētās bankas darbību atbilstības kārtula manuālai atbilstības noteikšanai</span><span class="sxs-lookup"><span data-stu-id="8fad5-488">Advanced bank reconciliation matching rule for manual matching</span></span>
-
-<span data-ttu-id="8fad5-489">Atbilstības kārtula tika izmantota, lai atlasītu un atzīmētu bankas dokumentu, manuāli nosakot dokumentu atbilstību saskaņošanas darblapā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-489">A matching rule was used to select and mark a bank document when documents were manually matched in the reconciliation worksheet.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-490">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-490">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-491">Ierobežots lietojums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-491">Limited usage.</span></span>                                                                         |
-| <span data-ttu-id="8fad5-492">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-492">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-493">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-493">No.</span></span> <span data-ttu-id="8fad5-494">Saskaņojamo dokumentu atrašanai ir jāizmanto kolonnu filtrēšanas iespējas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-494">Column filtering capabilities should be used to find documents for reconciliation.</span></span> |
-| <span data-ttu-id="8fad5-495">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-495">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-496">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-496">Cash and bank management</span></span>                                                               |
-| <span data-ttu-id="8fad5-497">**Izvietošanas iespēja**</span><span class="sxs-lookup"><span data-stu-id="8fad5-497">**Deployment option**</span></span>              | <span data-ttu-id="8fad5-498">Visus</span><span class="sxs-lookup"><span data-stu-id="8fad5-498">All</span></span>                                                                                    |
-| <span data-ttu-id="8fad5-499">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-499">**Status**</span></span>                         | <span data-ttu-id="8fad5-500">Noņemts kopš 2017. gada jūlija.</span><span class="sxs-lookup"><span data-stu-id="8fad5-500">Removed as of July 2017.</span></span>                                                               |
-
-## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a><span data-ttu-id="8fad5-501">Dynamics 365 for Operations 1611 ar 3. platformas atjauninājumu</span><span class="sxs-lookup"><span data-stu-id="8fad5-501">Dynamics 365 for Operations 1611 with platform update 3</span></span>
-
-### <a name="aeb-payment-formats-for-spain"></a><span data-ttu-id="8fad5-502">AEB maksājumu formāti Spānijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-502">AEB payment formats for Spain</span></span>
-
-<span data-ttu-id="8fad5-503">Consejo Superior Bancario maksājumu formāti tika izmantoti, lai pārskaitījumu failus nosūtītu uz banku debitoru un kreditoru maksājumiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-503">The Consejo Superior Bancario payment formats were used to send remittance files to the bank for customer payments and vendor payments.</span></span> <span data-ttu-id="8fad5-504">Šo formātu saturu noteica Asociación Española de Banca.</span><span class="sxs-lookup"><span data-stu-id="8fad5-504">The content of these formats was determined by the Asociación Española de Banca.</span></span> <span data-ttu-id="8fad5-505">Tas attiecas uz Cuaderno 19, 32, 58, 34.</span><span class="sxs-lookup"><span data-stu-id="8fad5-505">It covers Cuaderno 19, 32, 58, 34.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-506">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-506">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-507">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-507">The payment formats are no longer used.</span></span>                                  |
-| <span data-ttu-id="8fad5-508">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-508">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-509">Jā, ar ISO20022 formātiem Kredīta pārskaitījums un Tiešā debeta maksājums Spānijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-509">Yes, ISO20022 Credit transfer and Direct debit payment formats for Spain</span></span> |
-| <span data-ttu-id="8fad5-510">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-510">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-511">Parādi kreditoriem, Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-511">Accounts payable, Accounts receivable</span></span>                                    |
-| <span data-ttu-id="8fad5-512">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-512">**Status**</span></span>                         | <span data-ttu-id="8fad5-513">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-513">Deprecated: A removal date has not been set for this feature.</span></span>           |
-
-### <a name="bank-payments-transfer-for-lithuania"></a><span data-ttu-id="8fad5-514">Bankas maksājumu pārskaitījums Lietuvai</span><span class="sxs-lookup"><span data-stu-id="8fad5-514">Bank payments transfer for Lithuania</span></span>
-
-<span data-ttu-id="8fad5-515">Bankas maksājumu pārskaitījumi tika ģenerēti un drukāti, Lietuvai izmantojot eksporta formātu Maksājuma pārsūtījums (LT).</span><span class="sxs-lookup"><span data-stu-id="8fad5-515">Bank payment transfers were generated and printed by using the Payment transfer (LT) export format for Lithuania.</span></span> <span data-ttu-id="8fad5-516">Lietuvas tirgus 2005. gadā sāka izmantot LITAS — vienoto elektronisko banku sistēmu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-516">The Lithuanian market began to use LITAS, the unified electronic banking system, in 2005.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-517">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-517">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-518">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-518">The payment formats are no longer used.</span></span>                        |
-| <span data-ttu-id="8fad5-519">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-519">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-520">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Lietuvai</span><span class="sxs-lookup"><span data-stu-id="8fad5-520">Yes, ISO20022 Credit transfer payment format for Lithuania</span></span>     |
-| <span data-ttu-id="8fad5-521">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-521">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-522">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-522">Accounts payable</span></span>                                               |
-| <span data-ttu-id="8fad5-523">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-523">**Status**</span></span>                         | <span data-ttu-id="8fad5-524">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-524">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="bbs-direkte-remittering-payment-formats-for-norway"></a><span data-ttu-id="8fad5-525">Maksājumu formāti BBS Direkte Remittering Norvēģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-525">BBS Direkte Remittering payment formats for Norway</span></span>
-
-<span data-ttu-id="8fad5-526">Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēšanas eksportēšanu (tiešais debets) un atgrieztā ziņojuma importēšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-526">BBS Direkte Remittering payment formats include customer payment collection export (direct debit) and return message import.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-527">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-527">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-528">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-528">The payment formats are no longer used.</span></span>  |
-| <span data-ttu-id="8fad5-529">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-529">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-530">Tiešā debeta ziņojumu ģenerēšanai Norvēģijai var izmantot maksājumu formātu AvtaleGiro debitors.</span><span class="sxs-lookup"><span data-stu-id="8fad5-530">The AvtaleGiro customer payment format for Norway can be used to generate direct debit messages.</span></span> <span data-ttu-id="8fad5-531">Atgrieztā ziņojuma importēšana tiks ieviesta turpmākajos laidienos.</span><span class="sxs-lookup"><span data-stu-id="8fad5-531">Return message import will be implemented in future releases.</span></span> |
-| <span data-ttu-id="8fad5-532">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-532">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-533">Parādi kreditoriem, Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-533">Accounts payable, Accounts receivable</span></span>   |
-| <span data-ttu-id="8fad5-534">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-534">**Status**</span></span>                         | <span data-ttu-id="8fad5-535">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-535">Deprecated: A removal date has not been set for this feature.</span></span>                                                                                                 |
-
-### <a name="chart-of-accounts-tool-for-spain"></a><span data-ttu-id="8fad5-536">Rīks Kontu plāns Spānijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-536">Chart of Accounts tool for Spain</span></span>
-
-<span data-ttu-id="8fad5-537">Šis rīks tiek lietots, kad kontu plānam Spānijā ir nepieciešamas būtiskas izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-537">This tool is used when a chart of accounts in Spain requires major changes.</span></span> <span data-ttu-id="8fad5-538">Lietotāji var importēt jaunu kontu plānu programmas Microsoft Excel vai teksta formātā, kā arī var importēt finanšu pārskatus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-538">Users can import a new chart of accounts in Microsoft Excel or text format, and can also import financial statements.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-539">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-539">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-540">Ierobežots lietojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-540">Limited usage</span></span>                                                  |
-| <span data-ttu-id="8fad5-541">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-541">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-542">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-542">No</span></span>                                                             |
-| <span data-ttu-id="8fad5-543">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-543">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-544">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-544">General ledger</span></span>                                                 |
-| <span data-ttu-id="8fad5-545">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-545">**Status**</span></span>                         | <span data-ttu-id="8fad5-546">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-546">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="dom80-payment-format-for-belgium"></a><span data-ttu-id="8fad5-547">Maksājuma formāts Dom80 Beļģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-547">Dom80 payment format for Belgium</span></span>
-
-<span data-ttu-id="8fad5-548">Mantojuma Beļģijas maksājuma formāts maksājumu iekasēšanai (tiešais debets).</span><span class="sxs-lookup"><span data-stu-id="8fad5-548">Legacy Belgian payment format for payment collection (direct debit).</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-549">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-549">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-550">Šis maksājuma formāts vairs netiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-550">The payment format is no longer used.</span></span>                          |
-| <span data-ttu-id="8fad5-551">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-551">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-552">Jā, ar ISO 20022 maksājuma formātu Tiešais debets Beļģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-552">Yes, ISO 20022 Direct debit payment format for Belgium</span></span>         |
-| <span data-ttu-id="8fad5-553">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-553">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-554">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-554">Accounts receivable</span></span>                                            |
-| <span data-ttu-id="8fad5-555">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-555">**Status**</span></span>                         | <span data-ttu-id="8fad5-556">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-556">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="dtaezag-payment-formats-for-switzerland"></a><span data-ttu-id="8fad5-557">DTA/EZAG maksājumu formāti Šveicei</span><span class="sxs-lookup"><span data-stu-id="8fad5-557">DTA/EZAG payment formats for Switzerland</span></span>
-
-<span data-ttu-id="8fad5-558">AMNA/EZAG formāti ir integrēti ESR sistēmā, jo tiem var būt atsauces numurs.</span><span class="sxs-lookup"><span data-stu-id="8fad5-558">DTA/EZAG formats are integrated into the ESR system, because they can carry on the reference number.</span></span> <span data-ttu-id="8fad5-559">Tā kā atsauces numurs nav obligāts, šos formātus var izmantot, lai apstrādātu jebkurus kreditoru maksājumus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-559">Because the reference number isn’t mandatory, these formats can be used to process any vendor payments.</span></span> <span data-ttu-id="8fad5-560">Šos formātus lieto uzņēmumi, kuru bankas konta atrašanās vieta nav “Postfinance”.</span><span class="sxs-lookup"><span data-stu-id="8fad5-560">These formats are used by companies that have a bank account in a location other than “Postfinance.”</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-561">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-561">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-562">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-562">The payment formats are no longer used.</span></span>                        |
-| <span data-ttu-id="8fad5-563">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-563">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-564">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Šveicei</span><span class="sxs-lookup"><span data-stu-id="8fad5-564">Yes, ISO20022 Credit transfer payment format for Switzerland</span></span>   |
-| <span data-ttu-id="8fad5-565">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-565">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-566">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-566">Accounts payable</span></span>                                               |
-| <span data-ttu-id="8fad5-567">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-567">**Status**</span></span>                         | <span data-ttu-id="8fad5-568">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-568">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="edifact-dirdeb-payment-format-for-austria"></a><span data-ttu-id="8fad5-569">Maksājumu formāts EDIFACT-DIRDEB Austrijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-569">EDIFACT-DIRDEB payment format for Austria</span></span>
-
-<span data-ttu-id="8fad5-570">Maksājuma formāts EDIFACT-DIRDEB maksājumu iekasēšanai (tiešais debets).</span><span class="sxs-lookup"><span data-stu-id="8fad5-570">EDIFACT-DIRDEB payment format for payment collection (direct debit).</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-571">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-571">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-572">Šis maksājuma formāts vairs netiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-572">The payment format is no longer used.</span></span>                          |
-| <span data-ttu-id="8fad5-573">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-573">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-574">Jā, ar ISO 20022 maksājuma formātu Tiešais debets Austrijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-574">Yes, ISO 20022 Direct debit payment format for Austria</span></span>         |
-| <span data-ttu-id="8fad5-575">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-575">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-576">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-576">Accounts receivable</span></span>                                            |
-| <span data-ttu-id="8fad5-577">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-577">**Status**</span></span>                         | <span data-ttu-id="8fad5-578">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-578">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="edivat-for-belgium"></a><span data-ttu-id="8fad5-579">EDIVAT Beļģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-579">EDIVAT for Belgium</span></span>
-
-<span data-ttu-id="8fad5-580">EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmantojot drošu pastu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-580">EDIVAT is an obsolete Belgian standard for electronic declaration via secure mail.</span></span> <span data-ttu-id="8fad5-581">Programmā Microsoft Dynamics AX 2012 tiek saglabāts tikai lasīšanas risinājums, lai nodrošinātu piekļuvi vēsturiskajiem datiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-581">Microsoft Dynamics AX 2012 retains the read-only solution to enable access to the historical data.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-582">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-582">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-583">Šī funkcionalitāte vairs netiek izmantota.</span><span class="sxs-lookup"><span data-stu-id="8fad5-583">The functionality is no longer used.</span></span>                           |
-| <span data-ttu-id="8fad5-584">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-584">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-585">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-585">No</span></span>                                                             |
-| <span data-ttu-id="8fad5-586">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-586">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-587">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-587">General ledger</span></span>                                                 |
-| <span data-ttu-id="8fad5-588">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-588">**Status**</span></span>                         | <span data-ttu-id="8fad5-589">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-589">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a><span data-ttu-id="8fad5-590">Maksājumu importēšanas formāts eGiro EDIFACT CREMUL Norvēģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-590">eGiro EDIFACT CREMUL payment import format for Norway</span></span>
-
-<span data-ttu-id="8fad5-591">eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja kredīta izziņas paziņojums), kurš tiek izmantots automātiskai debitoru maksājumu grāmatošanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-591">eGiro is based on the international UN EDIFACT CREMUL (Multiple Credit Advice Message) standard that is used for automatic posting of customer payments.</span></span> <span data-ttu-id="8fad5-592">Programmā Microsoft Dynamics AX eGiro ir ieviests kā debitoru maksājumu importēšanas formāts.</span><span class="sxs-lookup"><span data-stu-id="8fad5-592">In Microsoft Dynamics AX, eGiro is implemented as a customer payment import format.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-593">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-593">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-594">Šis maksājuma formāts vairs netiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-594">The payment format is no longer used.</span></span>                                                     |
-| <span data-ttu-id="8fad5-595">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-595">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-596">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-596">No.</span></span> <span data-ttu-id="8fad5-597">Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-597">The format will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
-| <span data-ttu-id="8fad5-598">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-598">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-599">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-599">Accounts receivable</span></span>                                                                       |
-| <span data-ttu-id="8fad5-600">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-600">**Status**</span></span>                         | <span data-ttu-id="8fad5-601">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-601">Deprecated: A removal date has not been set for this feature.</span></span>                            |
-
-### <a name="external-inventory-for-poland"></a><span data-ttu-id="8fad5-602">Ārējie krājumi Polijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-602">External inventory for Poland</span></span>
-
-<span data-ttu-id="8fad5-603">Pierādījums par precēm, kas no kreditora tiek ņemtas pārdošanai bez pirkšanas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-603">Evidence of goods that are taken from a vendor for sales without purchase.</span></span> <span data-ttu-id="8fad5-604">Preces, ar kurām darbības tiek veiktas ārējos krājumos, neietekmē standarta krājumus, un tās var pārdot un pēc tam iegādāties automātiski.</span><span class="sxs-lookup"><span data-stu-id="8fad5-604">Goods that are handled in external inventory don’t affect standard inventory, and can be sold and then purchased automatically.</span></span> <span data-ttu-id="8fad5-605">Šis process izveido reālu krājumu kustības.</span><span class="sxs-lookup"><span data-stu-id="8fad5-605">This process creates real inventory movements.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-606">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-606">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-607">Aizstāts ar citu līdzekli</span><span class="sxs-lookup"><span data-stu-id="8fad5-607">Replaced by another feature</span></span>                                    |
-| <span data-ttu-id="8fad5-608">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-608">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-609">Jā, ar pamata funkcionalitāti Ienākošs sūtījums</span><span class="sxs-lookup"><span data-stu-id="8fad5-609">Yes, the core Inbound consignment functionality</span></span>                |
-| <span data-ttu-id="8fad5-610">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-610">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-611">Parādi kreditoriem, Krājumu vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-611">Accounts payable, Inventory management</span></span>                         |
-| <span data-ttu-id="8fad5-612">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-612">**Status**</span></span>                         | <span data-ttu-id="8fad5-613">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-613">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="financial-reports-generator-for-eastern-europe"></a><span data-ttu-id="8fad5-614">Finanšu pārskatu ģenerators Austrumeiropai</span><span class="sxs-lookup"><span data-stu-id="8fad5-614">Financial reports generator for Eastern Europe</span></span>
-
-<span data-ttu-id="8fad5-615">Tiek izmantots rīks, lai iestatītu uzskaites un nodokļu pārskatu datu vākšanu un eksportētu datus uz XLS un DOC pārskatu veidnēm.</span><span class="sxs-lookup"><span data-stu-id="8fad5-615">A tool is used to set up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-616">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-616">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-617">Ierobežots lietojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-617">Limited usage</span></span>                                                                            |
-| <span data-ttu-id="8fad5-618">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-618">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-619">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-619">No.</span></span> <span data-ttu-id="8fad5-620">Turpmākajos laidienos šis rīks tiks aizstāts ar elektronisko pārskatu veidošanas konfigurācijām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-620">The tool will be replaced by Electronic reporting configurations in future releases.</span></span> |
-| <span data-ttu-id="8fad5-621">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-621">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-622">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-622">General Ledger</span></span>                                                                           |
-| <span data-ttu-id="8fad5-623">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-623">**Status**</span></span>                         | <span data-ttu-id="8fad5-624">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-624">Deprecated: A removal date has not been set for this feature.</span></span>                           |
-
-### <a name="import-of-customer-payment-transactions-for-finland"></a><span data-ttu-id="8fad5-625">Debitora maksājumu transakciju importēšana Somijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-625">Import of customer payment transactions for Finland</span></span>
-
-<span data-ttu-id="8fad5-626">Varat atlasīt importa formātu Somijas maksājumiem, lai importētu debitoru maksājumu transakcijas no bankas nodrošināta ārēja faila.</span><span class="sxs-lookup"><span data-stu-id="8fad5-626">You can select an import format for Finnish payments to import customer payment transactions from an external file that the bank provides.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-627">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-627">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-628">Šis maksājuma formāts vairs netiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-628">The payment format is no longer used.</span></span>                                                     |
-| <span data-ttu-id="8fad5-629">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-629">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-630">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-630">No.</span></span> <span data-ttu-id="8fad5-631">Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-631">The format will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
-| <span data-ttu-id="8fad5-632">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-632">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-633">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-633">Accounts receivable</span></span>                                                                       |
-| <span data-ttu-id="8fad5-634">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-634">**Status**</span></span>                         | <span data-ttu-id="8fad5-635">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-635">Deprecated: A removal date has not been set for this feature.</span></span>                            |
-
-### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a><span data-ttu-id="8fad5-636">Maksājumu transakciju importēšana virsgrāmatas žurnālā Somijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-636">Import of payment transactions into a general ledger journal for Finland</span></span>
-
-<span data-ttu-id="8fad5-637">Formāts, kas ir raksturīgs Somijai, tiek izmantots, lai virsgrāmatā importētu uzskaites transakcijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-637">A format that is specific to Finland is used to import accounting transactions into the general ledger.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-638">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-638">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-639">Šis maksājuma formāts vairs netiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-639">The payment format is no longer used.</span></span>                                                     |
-| <span data-ttu-id="8fad5-640">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-640">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-641">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-641">No.</span></span> <span data-ttu-id="8fad5-642">Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-642">The format will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
-| <span data-ttu-id="8fad5-643">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-643">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-644">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-644">Accounts receivable</span></span>                                                                       |
-| <span data-ttu-id="8fad5-645">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-645">**Status**</span></span>                         | <span data-ttu-id="8fad5-646">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-646">Deprecated: A removal date has not been set for this feature.</span></span>                            |
-
-### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a><span data-ttu-id="8fad5-647">Integrācija ar Isabel sinhronizēto (CIS) Beļģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-647">Integration with Isabel synchronized (CIS) for Belgium</span></span>
-
-<span data-ttu-id="8fad5-648">Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standarts Beļģijā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-648">Isabel is the framework for electronic banking in Europe and is a de-facto standard in Belgium.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-649">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-649">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-650">Integrēšana ar Isabel klientu ir pārtraukta.</span><span class="sxs-lookup"><span data-stu-id="8fad5-650">Integration with Isabel client has been discontinued.</span></span>   |
-| <span data-ttu-id="8fad5-651">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-651">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-652">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-652">No.</span></span> <span data-ttu-id="8fad5-653">Maksājumu formāti, kas vairs netiek izmantoti, tiek aizstādi ar ISO20022 maksājuma formātu Kredīta pārskaitījums Beļģijai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-653">The payment formats that are no longer used are replaced by ISO20022 Credit transfer payment format for Belgium.</span></span> |
-| <span data-ttu-id="8fad5-654">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-654">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-655">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-655">Accounts payable</span></span>     |
-| <span data-ttu-id="8fad5-656">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-656">**Status**</span></span>                         | <span data-ttu-id="8fad5-657">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-657">Deprecated: A removal date has not been set for this feature.</span></span>    |
-
-### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a><span data-ttu-id="8fad5-658">Kontu plāna un uzskaites nosacījumu modifikācijas Spānijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-658">Modifications in the chart of accounts and accounting rules for Spain</span></span>
-
-<span data-ttu-id="8fad5-659">Šis līdzeklis tiek izmantots kontu plāna un uzskaites nosacījumu izmaiņām Spānijā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-659">This feature is used for changes in the chart of accounts and accounting rules in Spain.</span></span> <span data-ttu-id="8fad5-660">Tas kartē kontus, lai veco kontu plānu palīdzētu pārveidot par jaunu kontu plānu, un iepriekšējo finanšu gadu salīdzina ar jauno finanšu gadu, pat ja tie tika grāmatoti dažādos kontu numuros.</span><span class="sxs-lookup"><span data-stu-id="8fad5-660">It maps accounts to help transform the old chart of accounts into the new chart of accounts, and compares the previous fiscal year with the new fiscal year, even if they were posted to different account numbers.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-661">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-661">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-662">Ierobežots lietojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-662">Limited usage</span></span>                                                  |
-| <span data-ttu-id="8fad5-663">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-663">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-664">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-664">No</span></span>                                                             |
-| <span data-ttu-id="8fad5-665">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-665">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-666">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-666">General ledger</span></span>                                                 |
-| <span data-ttu-id="8fad5-667">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-667">**Status**</span></span>                         | <span data-ttu-id="8fad5-668">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-668">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="pagamento-fornittori-vendor-payment-format"></a><span data-ttu-id="8fad5-669">Kreditora maksājuma formāts Pagamento Fornittori</span><span class="sxs-lookup"><span data-stu-id="8fad5-669">Pagamento Fornittori vendor payment format</span></span>
-
-<span data-ttu-id="8fad5-670">Mantots Itālijas maksājuma formāts kredīta pārskaitījumiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-670">Legacy Italian payment format for credit transfers.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-671">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-671">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-672">Šis maksājuma formāts vairs netiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="8fad5-672">The payment format is no longer used.</span></span>                          |
-| <span data-ttu-id="8fad5-673">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-673">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-674">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Itālijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-674">Yes, ISO20022 Credit transfer payment format for Italy</span></span>         |
-| <span data-ttu-id="8fad5-675">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-675">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-676">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-676">Accounts payable</span></span>                                               |
-| <span data-ttu-id="8fad5-677">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-677">**Status**</span></span>                         | <span data-ttu-id="8fad5-678">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-678">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="payment-export-formats-for-estonia"></a><span data-ttu-id="8fad5-679">Maksājuma eksportēšanas formāti Igaunijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-679">Payment export formats for Estonia</span></span>
-
-<span data-ttu-id="8fad5-680">Formāti Telehansa un Teleservice tiek izmantoti bankas maksājumu eksportēšanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-680">The Telehansa and Teleservice formats are used for bank payment export.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-681">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-681">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-682">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-682">The payment formats are no longer used.</span></span>                        |
-| <span data-ttu-id="8fad5-683">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-683">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-684">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Igaunijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-684">Yes, ISO20022 Credit transfer payment format for Estonia</span></span>       |
-| <span data-ttu-id="8fad5-685">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-685">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-686">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-686">Accounts payable</span></span>                                               |
-| <span data-ttu-id="8fad5-687">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-687">**Status**</span></span>                         | <span data-ttu-id="8fad5-688">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-688">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="payment-file-archive-for-norway"></a><span data-ttu-id="8fad5-689">Maksājumu failu arhīvs Norvēģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-689">Payment file archive for Norway</span></span>
-
-<span data-ttu-id="8fad5-690">Kad tiek ģenerēti maksājumu faili, šo failu arhīvs automātiski arhivē visus failus, kas tiek izveidoti — pat failus, kas bija iepriekš rakstīti vai lasīti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-690">When payment files are generated, the file archive automatically archives all files that are created, even files that were previously written or read.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-691">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-691">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-692">Aizstāts ar citu līdzekli</span><span class="sxs-lookup"><span data-stu-id="8fad5-692">Replaced by another feature</span></span>                                        |
-| <span data-ttu-id="8fad5-693">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-693">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-694">Jā, ar arhivētajiem elektronisko pārskatu darbiem</span><span class="sxs-lookup"><span data-stu-id="8fad5-694">Yes, Electronic reporting archived jobs</span></span>                            |
-| <span data-ttu-id="8fad5-695">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-695">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-696">Parādi kreditoriem, Debitoru parādi, Organizācijas administrēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-696">Accounts payable, Accounts receivable, Organization administration</span></span> |
-| <span data-ttu-id="8fad5-697">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-697">**Status**</span></span>                         | <span data-ttu-id="8fad5-698">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-698">Deprecated: A removal date has not been set for this feature.</span></span>     |
-
-### <a name="payment-import-formats-for-estonia"></a><span data-ttu-id="8fad5-699">Maksājuma importēšanas formāti Igaunijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-699">Payment import formats for Estonia</span></span>
-
-<span data-ttu-id="8fad5-700">Formāti Telehansa un TeleTeenus tiek izmantoti bankas maksājumu importēšanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-700">The Telehansa and TeleTeenus formats are used for bank payment import.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-701">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-701">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-702">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-702">The payment formats are no longer used.</span></span>                                                    |
-| <span data-ttu-id="8fad5-703">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-703">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-704">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-704">No.</span></span> <span data-ttu-id="8fad5-705">Turpmākajos laidienos šie formāti tiks aizstāti ar ISO 20022 izraksta importēšanas formātiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-705">The formats will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
-| <span data-ttu-id="8fad5-706">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-706">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-707">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-707">Accounts receivable</span></span>                                                                        |
-| <span data-ttu-id="8fad5-708">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-708">**Status**</span></span>                         | <span data-ttu-id="8fad5-709">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-709">Deprecated: A removal date has not been set for this feature.</span></span>                             |
-
-### <a name="payroll-information-in-human-resources"></a><span data-ttu-id="8fad5-710">Algas informācija personāla vadībā</span><span class="sxs-lookup"><span data-stu-id="8fad5-710">Payroll information in Human Resources</span></span>
-
-<span data-ttu-id="8fad5-711">Personāla vadības algas informācija</span><span class="sxs-lookup"><span data-stu-id="8fad5-711">Human Resources Payroll information</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-712">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-712">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-713">Šī funkcionalitāte ir aizstāta ar pamata lapām Alga un Personāla vadība.</span><span class="sxs-lookup"><span data-stu-id="8fad5-713">This functionality has been replaced by core Payroll and Human Resources pages.</span></span>  |
-| <span data-ttu-id="8fad5-714">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-714">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-715">Lapas **Atvieglojumi**, **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-715">**Benefits**, **Earnings**, and other related pages that were previously in US Payroll have been reconfigured, and are now part of the core Human Resources configuration to help support external payroll processing.</span></span> <span data-ttu-id="8fad5-716">Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** \> **Alga**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-716">This functionality is accessed by using the **Human Resources 1** \> **Payroll** configuration key.</span></span> |
-| <span data-ttu-id="8fad5-717">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-717">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-718">Personāla vadība, Alga</span><span class="sxs-lookup"><span data-stu-id="8fad5-718">Human Resources, Payroll</span></span>   |
-| <span data-ttu-id="8fad5-719">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-719">**Status**</span></span>                         | <span data-ttu-id="8fad5-720">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="8fad5-720">Removed as of Dynamics 365 for Operations version 1611.</span></span>    |
-
-### <a name="performance-management-goal-workflow"></a><span data-ttu-id="8fad5-721">Veiktspējas pārvaldības mērķu darbplūsma</span><span class="sxs-lookup"><span data-stu-id="8fad5-721">Performance management goal workflow</span></span>
-
-<span data-ttu-id="8fad5-722">Veiktspējas pārvaldība ietver mērķu pārvaldīšanu un integrēšanu ar veiktspējas pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-722">Performance management includes goal management and integration with performance reviews.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-723">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-723">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-724">Veiktspējas pārvaldība tika pārveidota, un mērķa lapu skaits tika samazināts, lai vienkāršotu šo procesu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-724">Performance management was redesigned, and the number of goal pages was reduced to simplify the process.</span></span>                 |
-| <span data-ttu-id="8fad5-725">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-725">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-726">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-726">No.</span></span> <span data-ttu-id="8fad5-727">Mērķi ir redzami vadītājiem, izmantojot portālu Vadītāja pašapkalpošanās, un vadītājs tos var mainīt un apskatīt.</span><span class="sxs-lookup"><span data-stu-id="8fad5-727">Goals are visible to managers through the Manager Self Service portal, and can be changed and viewed by the manager.</span></span> |
-| <span data-ttu-id="8fad5-728">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-728">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-729">Cilvēkkapitāla pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-729">Human capital management</span></span>       |
-| <span data-ttu-id="8fad5-730">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-730">**Status**</span></span>                         | <span data-ttu-id="8fad5-731">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="8fad5-731">Removed as of Dynamics 365 for Operations version 1611.</span></span>    |
-
-### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a><span data-ttu-id="8fad5-732">Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-732">Postgirot and Postgirot Utland payment formats for Sweden</span></span>
-
-<span data-ttu-id="8fad5-733">Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-733">Postgirot and Postgirot Utland payment formats for Sweden.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-734">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-734">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-735">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-735">The payment formats are no longer used.</span></span>                        |
-| <span data-ttu-id="8fad5-736">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-736">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-737">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Zviedrijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-737">Yes, ISO20022 Credit transfer payment format for Sweden</span></span>        |
-| <span data-ttu-id="8fad5-738">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-738">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-739">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-739">Accounts payable</span></span>                                               |
-| <span data-ttu-id="8fad5-740">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-740">**Status**</span></span>                         | <span data-ttu-id="8fad5-741">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-741">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="radio-frequency-identifier"></a><span data-ttu-id="8fad5-742">Radiofrekvences identifikators</span><span class="sxs-lookup"><span data-stu-id="8fad5-742">Radio frequency identifier</span></span>
-
-<span data-ttu-id="8fad5-743">Radiofrekvences identifikācija (RFID) ir datu vākšanas tehnoloģija, kas izmanto elektroniskos tagus identifikācijas datu glabāšanai un prasībām atbilstošu lasītāju šo identifikācijas datu uztveršanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-743">Radio Frequency Identification (RFID) is a data-collection technology that uses electronic tags to store identification data and a no-line-of-sight requirement reader to capture the identification data.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-744">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-744">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-745">Zems klientu lietojums un ierobežota līdzekļu kopa.</span><span class="sxs-lookup"><span data-stu-id="8fad5-745">Low customer usage and a limited feature set.</span></span>   |
-| <span data-ttu-id="8fad5-746">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-746">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-747">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-747">No</span></span>                                              |
-| <span data-ttu-id="8fad5-748">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-748">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-749">Krājumu vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-749">Inventory management</span></span>                            |
-| <span data-ttu-id="8fad5-750">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-750">**Status**</span></span>                         | <span data-ttu-id="8fad5-751">Noņemts, sākot ar Dynamics 365 for Operations 1611.</span><span class="sxs-lookup"><span data-stu-id="8fad5-751">Removed as of Dynamics 365 for Operations 1611.</span></span> |
-
-### <a name="report-about-state-invoices-numbering-for-latvia"></a><span data-ttu-id="8fad5-752">Pārskats par valsts rēķinu numerāciju Latvijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-752">Report about state invoices numbering for Latvia</span></span>
-
-<span data-ttu-id="8fad5-753">Latvijas likumdošana nodrošina īpašus noteikumus par pārdošanas rēķinu numerāciju.</span><span class="sxs-lookup"><span data-stu-id="8fad5-753">Latvian legislation provides specific rules about the numbering of sales invoices.</span></span> <span data-ttu-id="8fad5-754">Šī funkcionalitāte jums ļauj pārdošanas rēķiniem piešķirt īpašus numurus, pamatojoties uz lietotāju vai lietotāju grupu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-754">The functionality lets you assign specific numbers to sales invoices, based on the user or user group.</span></span> <span data-ttu-id="8fad5-755">Pēc tam varat ģenerēt pārskatu vai XML failu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-755">You can then generate a report or an XML file.</span></span> <span data-ttu-id="8fad5-756">Varat arī izdrukāt pārskatu par izmantotajiem rēķinu numuriem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-756">You can also print a report about invoice numbers that are used.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-757">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-757">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-758">Valsts rēķinu numerācija vairs nav jāuztur.</span><span class="sxs-lookup"><span data-stu-id="8fad5-758">The state invoice numbering no longer has to be maintained.</span></span> <span data-ttu-id="8fad5-759">Pārskats par izmantotajiem rēķinu numuriem vairs nav nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="8fad5-759">The report about used invoice numbers is no longer required.</span></span> |
-| <span data-ttu-id="8fad5-760">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-760">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-761">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-761">No</span></span>       |
-| <span data-ttu-id="8fad5-762">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-762">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-763">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-763">Accounts receivable</span></span>    |
-| <span data-ttu-id="8fad5-764">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-764">**Status**</span></span>                         | <span data-ttu-id="8fad5-765">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-765">Deprecated: A removal date has not been set for this feature.</span></span>  |
-
-### <a name="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania"></a><span data-ttu-id="8fad5-766">Iestatīt uzņēmuma vadītāja un galvenā grāmatveža vārdus Lietuvai</span><span class="sxs-lookup"><span data-stu-id="8fad5-766">Set up the names of the manager and general accountant of a company for Lithuania</span></span>
-
-<span data-ttu-id="8fad5-767">Uzņēmuma vadītāja un galvenā grāmatveža vārdus var norādīta uzņēmuma informācijā un izmantot dažādās vietējo pārskatu izdrukās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-767">The names of the manager and the general accountant of a company can be specified in the company information and used in different local report printouts.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-768">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-768">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-769">Aizstāts ar citu līdzekli</span><span class="sxs-lookup"><span data-stu-id="8fad5-769">Replaced by another feature</span></span>                                     |
-| <span data-ttu-id="8fad5-770">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-770">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-771">Jā, šiem pašiem nolūkiem var izmantot amatpersonu iestatīšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-771">Yes, the setup of officials can be used for the same purpose.</span></span>   |
-| <span data-ttu-id="8fad5-772">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-772">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-773">Parādi kreditoriem, Debitoru parādi, Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-773">Accounts payable, Accounts receivable, Cash and bank management</span></span> |
-| <span data-ttu-id="8fad5-774">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-774">**Status**</span></span>                         | <span data-ttu-id="8fad5-775">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-775">Deprecated: A removal date has not been set for this feature.</span></span>  |
-
-### <a name="shipping-carrier-interface"></a><span data-ttu-id="8fad5-776">Sūtījumu pārvadātāja interfeiss</span><span class="sxs-lookup"><span data-stu-id="8fad5-776">Shipping carrier interface</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-777">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-777">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-778">Funkcionalitātes dublēšanās</span><span class="sxs-lookup"><span data-stu-id="8fad5-778">Duplicate functionality</span></span>   |
-| <span data-ttu-id="8fad5-779">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-779">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-780">Daļēji aizstāts ar līdzekli Transportēšanas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-780">Partially replaced by Transportation management</span></span> |
-| <span data-ttu-id="8fad5-781">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-781">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-782">Pārdošana un mārketings, Krājumu vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-782">Sales and marketing, Inventory management</span></span>  |
-| <span data-ttu-id="8fad5-783">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-783">**Status**</span></span>                         | <span data-ttu-id="8fad5-784">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="8fad5-784">Removed as of Dynamics 365 for Operations version 1611.</span></span>  |
-
-### <a name="telepay-payment-formats-for-norway"></a><span data-ttu-id="8fad5-785">Maksājumu formāti Telepay Norvēģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-785">Telepay payment formats for Norway</span></span>
-
-<span data-ttu-id="8fad5-786">Maksājumu formāti Telepay ietver kreditoru maksājumu eksportēšanu (kredīta pārskaitījums) un debitoru maksājumu iekasēšanu (tiešais debets).</span><span class="sxs-lookup"><span data-stu-id="8fad5-786">Telepay payment formats include vendor payment export (credit transfer) and customer payment collection (direct debit).</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-787">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-787">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-788">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-788">The payment formats are no longer used.</span></span>                                                        |
-| <span data-ttu-id="8fad5-789">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-789">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-790">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums un debitora maksājuma formātu AvtaleGiro Norvēģijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-790">Yes, ISO20022 Credit transfer payment format and AvtaleGiro customer payment format for Norway</span></span> |
-| <span data-ttu-id="8fad5-791">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-791">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-792">Parādi kreditoriem, Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-792">Accounts payable, Accounts receivable</span></span>                                                          |
-| <span data-ttu-id="8fad5-793">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-793">**Status**</span></span>                         | <span data-ttu-id="8fad5-794">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-794">Deprecated: A removal date has not been set for this feature.</span></span>                                 |
-
-### <a name="vendor-payment-export-formats-for-finland"></a><span data-ttu-id="8fad5-795">Kreditoru maksājumu eksportēšanas formāti Somijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-795">Vendor payment export formats for Finland</span></span>
-
-<span data-ttu-id="8fad5-796">Divi formāti maksājumu eksportēšanai ir pieejami Somijā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-796">Two formats for exporting payments are available for Finland.</span></span> <span data-ttu-id="8fad5-797">LM02 (FI) tiek izmantots iekšzemes maksājumiem un LUM2 (FI) tiek izmantots ārvalstu maksājumiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-797">LM02 (FI) is used for domestic payments, and LUM2 (FI) is used for foreign payments.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-798">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-798">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-799">Šie maksājumu formāti vairs netiek izmantoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-799">The payment formats are no longer used.</span></span>                        |
-| <span data-ttu-id="8fad5-800">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-800">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-801">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Somijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-801">Yes, ISO20022 Credit transfer payment format for Finland</span></span>       |
-| <span data-ttu-id="8fad5-802">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-802">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-803">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-803">Accounts payable</span></span>                                               |
-| <span data-ttu-id="8fad5-804">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-804">**Status**</span></span>                         | <span data-ttu-id="8fad5-805">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-805">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="warehouse-management-ii"></a><span data-ttu-id="8fad5-806">Noliktavas vadība II</span><span class="sxs-lookup"><span data-stu-id="8fad5-806">Warehouse management II</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-807">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-807">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-808">Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība**, bija tāda pati funkcionalitāte kā modulim **Noliktavas vadība**, kas tika izlaists atjauninājumā Microsoft Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="8fad5-808">The Warehouse management II solution (WMS II) that was available in the **Inventory management** module duplicates functionality that is in the **Warehouse management** module that was released in Microsoft Dynamics AX 2012 R3.</span></span>                                                                         |
-| <span data-ttu-id="8fad5-809">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-809">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-810">Modulis **Noliktavas vadība**, kas tika izlaists atjauninājumos AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-810">The **Warehouse management** module that was released in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8, and Dynamics AX 2012 R3 CU9 replaces the Warehouse management II features.</span></span> <span data-ttu-id="8fad5-811">Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II.</span><span class="sxs-lookup"><span data-stu-id="8fad5-811">The new module has more advanced features and more flexible warehouse management processes than Warehouse management II.</span></span> |
-| <span data-ttu-id="8fad5-812">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-812">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-813">Krājumu vadība, Pārdošana un mārketings, Sagāde un avoti</span><span class="sxs-lookup"><span data-stu-id="8fad5-813">Inventory management, Sales and marketing, Procurement and sourcing</span></span>   |
-| <span data-ttu-id="8fad5-814">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-814">**Status**</span></span>                         | <span data-ttu-id="8fad5-815">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="8fad5-815">Removed as of Dynamics 365 for Operations version 1611.</span></span>    |
-
-### <a name="worker-reminders-in-human-resources"></a><span data-ttu-id="8fad5-816">Darbinieku atgādinājumi personāla vadībā</span><span class="sxs-lookup"><span data-stu-id="8fad5-816">Worker reminders in Human Resources</span></span>
-
-<span data-ttu-id="8fad5-817">Personāla vadības algas informācija</span><span class="sxs-lookup"><span data-stu-id="8fad5-817">Human Resources Payroll information</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-818">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-818">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-819">Zems lietojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-819">Low usage</span></span>                                                           |
-| <span data-ttu-id="8fad5-820">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-820">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-821">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-821">No</span></span>                                                                  |
-| <span data-ttu-id="8fad5-822">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-822">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-823">Personāla vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-823">Human resources</span></span>                                                     |
-| <span data-ttu-id="8fad5-824">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-824">**Status**</span></span>                         | <span data-ttu-id="8fad5-825">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611</span><span class="sxs-lookup"><span data-stu-id="8fad5-825">Removed as of Dynamics 365 for Operations version 1611</span></span> |
-
-### <a name="workflow-for-creating-goals"></a><span data-ttu-id="8fad5-826">Darbplūsma mērķu izveidošanai</span><span class="sxs-lookup"><span data-stu-id="8fad5-826">Workflow for creating goals</span></span>
-
-<span data-ttu-id="8fad5-827">Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākām darbplūsmām, kas bija pieejamas, lai palīdzētu koordinēt veiktspējas pārvaldības procesu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-827">A workflow for managing the creation of employee goals is one of several workflows that were available to help coordinate the performance management process.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-828">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-828">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-829">Programmā Microsoft Dynamics 365 for Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.</span><span class="sxs-lookup"><span data-stu-id="8fad5-829">Performance management has been completely redesigned in Microsoft Dynamics 365 for Finance and Operations.</span></span>     |
-| <span data-ttu-id="8fad5-830">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-830">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-831">Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-831">The redesigned Performance management feature gives more control over the content of the goals, the measurements that are used to track progress, and the attachment of supporting documentation.</span></span> <span data-ttu-id="8fad5-832">Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-832">Goals can be stored as templates and then reused.</span></span> <span data-ttu-id="8fad5-833">Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-833">This feature can help you set up additional goals for your employees more quickly.</span></span> |
-| <span data-ttu-id="8fad5-834">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-834">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-835">Cilvēkkapitāla pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-835">Human capital management</span></span>                 |
-| <span data-ttu-id="8fad5-836">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-836">**Status**</span></span>                         | <span data-ttu-id="8fad5-837">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</span><span class="sxs-lookup"><span data-stu-id="8fad5-837">Removed as of Dynamics 365 for Operations version 1611.</span></span> |
-
-## <a name="dynamics-ax-70"></a><span data-ttu-id="8fad5-838">Dynamics AX 7.0</span><span class="sxs-lookup"><span data-stu-id="8fad5-838">Dynamics AX 7.0</span></span> 
-
-
-### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a><span data-ttu-id="8fad5-839">Spēja atcelt kreditora rēķinā veiktās izmaiņas</span><span class="sxs-lookup"><span data-stu-id="8fad5-839">Ability to cancel changes to a vendor invoice</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-840">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-840">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-841">Veiktspējas uzlabojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-841">Performance enhancement</span></span>        |
-| <span data-ttu-id="8fad5-842">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-842">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-843">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-843">No</span></span>                             |
-| <span data-ttu-id="8fad5-844">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-844">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-845">Kreditori</span><span class="sxs-lookup"><span data-stu-id="8fad5-845">Accounts payable</span></span>               |
-| <span data-ttu-id="8fad5-846">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-846">**Status**</span></span>                         | <span data-ttu-id="8fad5-847">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-847">Removed as of Dynamics AX 7.0.</span></span> |
-
-### <a name="aif-axd-and-axbc-integrations"></a><span data-ttu-id="8fad5-848">AIF, AxD un AxBC integrācijas</span><span class="sxs-lookup"><span data-stu-id="8fad5-848">AIF, AxD, and AxBC integrations</span></span>
-
-<span data-ttu-id="8fad5-849">Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-849">In Application Integration Framework (AIF), data can be exchanged with external systems through business logic that is exposed as services.</span></span> <span data-ttu-id="8fad5-850">Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC).</span><span class="sxs-lookup"><span data-stu-id="8fad5-850">Dynamics AX includes services that are based on documents and .NET Business Connector (AxBC).</span></span> <span data-ttu-id="8fad5-851">Dokuments tiek izveidots, izmantojot XML.</span><span class="sxs-lookup"><span data-stu-id="8fad5-851">A document is created by using XML.</span></span> <span data-ttu-id="8fad5-852">XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-852">The XML includes header information that is added to create a *message* that can be transferred into or out of Dynamics AX.</span></span> <span data-ttu-id="8fad5-853">Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-853">Examples of documents include sales orders and purchase orders.</span></span> <span data-ttu-id="8fad5-854">Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-854">However, almost any entity, such as a customer, can be represented by a document.</span></span> <span data-ttu-id="8fad5-855">Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Dokuments\>** klases.</span><span class="sxs-lookup"><span data-stu-id="8fad5-855">Services that are based on documents use the **Axd \<Document\>** classes.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-856">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-856">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-857">AIF un AxDs arhitektūru nevarēja mērogot uz mākoņa pakalpojumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-857">The architecture of AIF and AxDs could not be scaled to a cloud service.</span></span> <span data-ttu-id="8fad5-858">Radās veiktspējas problēmas saistībā ar lielapjoma importēšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-858">There were performance issues around bulk import.</span></span>                                        |
-| <span data-ttu-id="8fad5-859">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-859">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-860">Šis līdzeklis ir aizstāts ar datu importēšanas/eksportēšanas struktūru, kura atbalsta periodisku lielapjoma importēšanu/eksportēšanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-860">This feature is replaced by the Data Import/Export framework, which supports recurring bulk import/export.</span></span> <span data-ttu-id="8fad5-861">Strādājot ar AxBC, ieteicams lietot faktiskās tabulas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-861">For AxBC, we recommend that you use the actual tables.</span></span> |
-| <span data-ttu-id="8fad5-862">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-862">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-863">AxDs, AxBCs un AIF</span><span class="sxs-lookup"><span data-stu-id="8fad5-863">AxDs, AxBCs, and AIF</span></span>   |
-| <span data-ttu-id="8fad5-864">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-864">**Status**</span></span>                         | <span data-ttu-id="8fad5-865">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-865">Removed as of Dynamics AX 7.0.</span></span>   |
-
-### <a name="billing-code-rate-scripts"></a><span data-ttu-id="8fad5-866">Norēķinu koda likmes skripti</span><span class="sxs-lookup"><span data-stu-id="8fad5-866">Billing code rate scripts</span></span>
-
-<span data-ttu-id="8fad5-867">Norēķinu skripti tika izmantoti, lai aprēķinātu norēķinu likmes norēķinu kodiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-867">Billing scripts were used to calculate billing rates for billing codes.</span></span> <span data-ttu-id="8fad5-868">Šiem skriptiem bija nepieciešama pielāgota izstrāde programmēšanas valodā C Sharp vai Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="8fad5-868">This scripts required custom development in the C Sharp or Visual Basic programming language.</span></span> <span data-ttu-id="8fad5-869">Pašreizējā Dynamics AX versijā **norēķinu koda likmes skripti** netiek atbalstīti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-869">In the current version of Dynamics AX, the **billing code rate scripts** are not supported.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-870">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-870">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-871">Programmā Dynamics AX 7.0 netika pievienots atbalsts pielāgotiem C Sharp vai Visual Basic skriptiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-871">The support for the custom C Sharp or Visual Basic scripts was not added in Dynamics AX 7.0.</span></span> |
-| <span data-ttu-id="8fad5-872">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-872">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-873">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-873">No</span></span>                                                                                      |
-| <span data-ttu-id="8fad5-874">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-874">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-875">Publiskais sektors, modulis “Debitoru parādi”</span><span class="sxs-lookup"><span data-stu-id="8fad5-875">Public sector, Accounts receivable</span></span>                                    |
-| <span data-ttu-id="8fad5-876">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-876">**Status**</span></span>                         | <span data-ttu-id="8fad5-877">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-877">Removed as of Dynamics AX 7.0.</span></span>                                                          |
-
-### <a name="boms-without-bom-versions"></a><span data-ttu-id="8fad5-878">MK bez MK versijām</span><span class="sxs-lookup"><span data-stu-id="8fad5-878">BOMs without BOM versions</span></span>
-
-<span data-ttu-id="8fad5-879">Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1.</span><span class="sxs-lookup"><span data-stu-id="8fad5-879">When the **BOM versions** configuration key was disabled, bill of materials (BOM) versions were hidden in all forms, and the system forced a 1:1 relationship between released products and BOMs.</span></span> <span data-ttu-id="8fad5-880">Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu **MK versijas**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-880">In the current version of Dynamics AX, the **BOM versions** configuration key can't be disabled.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-881">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-881">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-882">Konfigurācijas atslēgas izmantošana, lai kontrolētu MK versijas, netiek mērogota mākoņa vidē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-882">Using a configuration key to control BOM versions doesn't scale in a cloud environment.</span></span> |
-| <span data-ttu-id="8fad5-883">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-883">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-884">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-884">No</span></span>                                                                                      |
-| <span data-ttu-id="8fad5-885">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-885">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-886">Preču informācijas pārvaldība, Krājumu vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-886">Product information management, Inventory management</span></span>                                    |
-| <span data-ttu-id="8fad5-887">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-887">**Status**</span></span>                         | <span data-ttu-id="8fad5-888">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-888">Removed as of Dynamics AX 7.0.</span></span>                                                          |
-
-### <a name="brazilian-bordero"></a><span data-ttu-id="8fad5-889">Brazīlijas Bordero</span><span class="sxs-lookup"><span data-stu-id="8fad5-889">Brazilian Bordero</span></span>
-
-<span data-ttu-id="8fad5-890">Īpaša maksāšanas metode Brazīlijas uzņēmumiem</span><span class="sxs-lookup"><span data-stu-id="8fad5-890">Specific method of payment for Brazilian companies</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-891">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-891">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-892">Brazīlijas lokalizācijā ir pārtraukts atbalsts Brazīlijas maksāšanas metodei Bordero</span><span class="sxs-lookup"><span data-stu-id="8fad5-892">Support for the Brazilian Bordero method of payment has been discontinued from Brazilian localization</span></span> |
-| <span data-ttu-id="8fad5-893">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-893">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-894">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-894">No</span></span>   |
-| <span data-ttu-id="8fad5-895">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-895">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-896">Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-896">Accounts payable</span></span>   |
-| <span data-ttu-id="8fad5-897">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-897">**Status**</span></span>                         | <span data-ttu-id="8fad5-898">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-898">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="brazilian-sintegra-statement"></a><span data-ttu-id="8fad5-899">Brazīlijas izraksts Sintegra</span><span class="sxs-lookup"><span data-stu-id="8fad5-899">Brazilian Sintegra statement</span></span>
-
-<span data-ttu-id="8fad5-900">Federālā nodokļa izraksts ICMS nodokļiem</span><span class="sxs-lookup"><span data-stu-id="8fad5-900">Federal tax statement for ICMS tax</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-901">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-901">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-902">Šis izraksts vairs nav lietojams noteiktos Brazīlijas štatos.</span><span class="sxs-lookup"><span data-stu-id="8fad5-902">This statement is no longer applicable in some Brazilian states.</span></span> |
-| <span data-ttu-id="8fad5-903">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-903">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-904">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-904">No.</span></span> <span data-ttu-id="8fad5-905">Lietotāji var izmantot vispārīgo elektronisko atskaišu veidošanas rīku, lai konfigurētu šo izrakstu, ja konkrētās situācijās tas ir nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="8fad5-905">Users can use Generic Electronic reporting tool to configure the statement if required under specific situations.</span></span> |
-| <span data-ttu-id="8fad5-906">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-906">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-907">Finanšu grāmatas</span><span class="sxs-lookup"><span data-stu-id="8fad5-907">Fiscal books</span></span>    |
-| <span data-ttu-id="8fad5-908">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-908">**Status**</span></span>                         | <span data-ttu-id="8fad5-909">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-909">Deprecated: A removal date has not been set for this feature.</span></span>   |
-
-### <a name="brazilian-scan-contingency-mode-for-nf-e"></a><span data-ttu-id="8fad5-910">Brazīlijas NF-e nejaušību režīms SCAN</span><span class="sxs-lookup"><span data-stu-id="8fad5-910">Brazilian SCAN contingency mode for NF-e</span></span>
-
-<span data-ttu-id="8fad5-911">(SCAN) nejaušību vide tiek izmantota, lai ģenerētu, eksportētu un importētu Nota Fiscal eletrônica (NF-e) statusu, kad nav pieejama vide Secretaria da Fazenda (SEFAZ).</span><span class="sxs-lookup"><span data-stu-id="8fad5-911">(SCAN) contingency environment is used to generate, export, and import the status of a Nota Fiscal eletrônica (NF-e) when the environment of Secretaria da Fazenda (SEFAZ) is not available.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-912">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-912">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-913">Šī nejaušību metode vairs nav lietojama visos Brazīlijas štatos</span><span class="sxs-lookup"><span data-stu-id="8fad5-913">This method of contingency is no longer applicable in all Brazilian states</span></span> |
-| <span data-ttu-id="8fad5-914">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-914">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-915">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-915">No</span></span>                                                                          |
-| <span data-ttu-id="8fad5-916">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-916">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-917">Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-917">Accounts receivable</span></span>                                                         |
-| <span data-ttu-id="8fad5-918">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-918">**Status**</span></span>                         | <span data-ttu-id="8fad5-919">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-919">Deprecated: A removal date has not been set for this feature.</span></span>              |
-
-### <a name="business-analyzer"></a><span data-ttu-id="8fad5-920">Biznesa analizators</span><span class="sxs-lookup"><span data-stu-id="8fad5-920">Business Analyzer</span></span>
-
-<span data-ttu-id="8fad5-921">Šī mobilā programmas lietotājiem ļauj pārskatīt galvenos biznesa rādītājus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-921">This mobile application let users review key business metrics.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-922">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-922">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-923">Šī funkcionalitāte ir aizstāta ar citu līdzekli.</span><span class="sxs-lookup"><span data-stu-id="8fad5-923">This functionality has been replaced by another feature.</span></span>   |
-| <span data-ttu-id="8fad5-924">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-924">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-925">Microsoft Power BI satura pakotnē Finanšu veiktspējas pārraudzība tiks ietverti galvenie finanšu rādītāji, kas iepriekš bija pieejami biznesa analizatorā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-925">The Monitor financial performance content pack for Microsoft Power BI will include key financial metrics that were previously available in Business Analyzer.</span></span> |
-| <span data-ttu-id="8fad5-926">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-926">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-927">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-927">General ledger</span></span>      |
-| <span data-ttu-id="8fad5-928">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-928">**Status**</span></span>                         | <span data-ttu-id="8fad5-929">Novecojis: biznesa analizatora lietošana ir novecojusi.</span><span class="sxs-lookup"><span data-stu-id="8fad5-929">Deprecated: The use of Business Analyzer has been deprecated.</span></span>    |
-
-### <a name="business-statistics"></a><span data-ttu-id="8fad5-930">Vadības statistika</span><span class="sxs-lookup"><span data-stu-id="8fad5-930">Business statistics</span></span>
-
-<span data-ttu-id="8fad5-931">Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt organizācijas veiktspēju</span><span class="sxs-lookup"><span data-stu-id="8fad5-931">The setup of business statistics inquiries that can help you analyze the performance of the organization</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-932">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-932">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-933">Mantojuma pieeja biznesa informācijai (BI), zems klientu lietojums un ierobežota līdzekļu kopa</span><span class="sxs-lookup"><span data-stu-id="8fad5-933">Legacy approach to business intelligence (BI), low customer usage, and a limited feature set</span></span> |
-| <span data-ttu-id="8fad5-934">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-934">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-935">Jauni BI risinājumi pašreizējai Dynamics AX versijai</span><span class="sxs-lookup"><span data-stu-id="8fad5-935">New BI solutions for the current version of Dynamics AX</span></span>                                      |
-| <span data-ttu-id="8fad5-936">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-936">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-937">Sagāde un avoti, Parādi kreditoriem, Pārdošana un mārketings, Debitoru parādi</span><span class="sxs-lookup"><span data-stu-id="8fad5-937">Procurement and sourcing, Accounts payable, Sales and marketing, Accounts receivable</span></span>         |
-| <span data-ttu-id="8fad5-938">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-938">**Status**</span></span>                         | <span data-ttu-id="8fad5-939">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-939">Removed as of Dynamics AX 7.0.</span></span>                                                               |
-
-### <a name="change-document-date-function-in-invoice-approval-journal"></a><span data-ttu-id="8fad5-940">Mainīt dokumenta datuma funkciju rēķinu apstiprināšanas žurnālā</span><span class="sxs-lookup"><span data-stu-id="8fad5-940">Change document date function in Invoice approval journal</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-941">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-941">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-942">Zems lietojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-942">Low usage</span></span>                                                               |
-| <span data-ttu-id="8fad5-943">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-943">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-944">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-944">Yes.</span></span> <span data-ttu-id="8fad5-945">Grāmatotajā kreditora transakcijā var mainīt dokumenta datumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-945">The document date on the posted vendor transaction can be changed.</span></span> |
-| <span data-ttu-id="8fad5-946">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-946">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-947">Kreditori</span><span class="sxs-lookup"><span data-stu-id="8fad5-947">Accounts payable</span></span>                                                        |
-| <span data-ttu-id="8fad5-948">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-948">**Status**</span></span>                         | <span data-ttu-id="8fad5-949">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-949">Removed as of Dynamics AX 7.0.</span></span>                                          |
-
-### <a name="clieop03-payment-format-for-the-netherlands"></a><span data-ttu-id="8fad5-950">ClieOp03 maksājuma formāts Nīderlandei</span><span class="sxs-lookup"><span data-stu-id="8fad5-950">ClieOp03 payment format for the Netherlands</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-951">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-951">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-952">Šis formāts Nīderlandē vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-952">The format is no longer applicable in the Netherlands, because it has been replaced by SEPA functionality.</span></span> |
-| <span data-ttu-id="8fad5-953">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-953">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-954">SEPA maksājumu eksportēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-954">SEPA payments export</span></span>  |
-| <span data-ttu-id="8fad5-955">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-955">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-956">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-956">All modules</span></span>     |
-| <span data-ttu-id="8fad5-957">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-957">**Status**</span></span>                         | <span data-ttu-id="8fad5-958">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-958">Deprecated: A removal date has not been set for this feature.</span></span>   |
-
-### <a name="compliance-center"></a><span data-ttu-id="8fad5-959">Atbilstības centrs</span><span class="sxs-lookup"><span data-stu-id="8fad5-959">Compliance Center</span></span>
-
-<span data-ttu-id="8fad5-960">Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pārvaldīšanai, lai nodrošinātu atbilstību ar Sarbanes-Oxley likumu saistītajām iniciatīvām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-960">The Compliance Center was an Enterprise Portal site for managing the documentation requirements for compliance initiatives that are related to the Sarbanes-Oxley law.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-961">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-961">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-962">Debitoru lietojuma trūkums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-962">Lack of customer usage.</span></span> <span data-ttu-id="8fad5-963">Microsoft SharePoint nodrošina tādas pašas iespējas, kādas bija pieejamas atbilstības centrā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-963">Microsoft SharePoint includes the same capability that was available in the Compliance Center.</span></span> |
-| <span data-ttu-id="8fad5-964">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-964">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-965">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-965">No</span></span>   |
-| <span data-ttu-id="8fad5-966">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-966">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-967">Atbilstība un iekšējā kontrole</span><span class="sxs-lookup"><span data-stu-id="8fad5-967">Compliance and internal controls</span></span>  |
-| <span data-ttu-id="8fad5-968">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-968">**Status**</span></span>                         | <span data-ttu-id="8fad5-969">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-969">Removed as of Dynamics AX 7.0.</span></span>    |
-
-### <a name="connector-for-microsoft-dynamics"></a><span data-ttu-id="8fad5-970">Microsoft Dynamics paredzētā Connector sistēma</span><span class="sxs-lookup"><span data-stu-id="8fad5-970">Connector for Microsoft Dynamics</span></span>
-
-<span data-ttu-id="8fad5-971">Šis rīks tika izmantots programmā Microsoft Dynamics CRM ietverto pamatdatu integrēšanai Microsoft Dynamics ERP lietojumprogrammās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-971">This tool was used to integrate key data from Microsoft Dynamics CRM to Microsoft Dynamics ERP applications.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-972">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-972">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-973">Šī funkcionalitāte ir aizstāta ar citu līdzekli.</span><span class="sxs-lookup"><span data-stu-id="8fad5-973">This functionality has been replaced by another feature.</span></span> |
-| <span data-ttu-id="8fad5-974">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-974">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-975">Common Data Service</span><span class="sxs-lookup"><span data-stu-id="8fad5-975">Common data service</span></span>                                      |
-| <span data-ttu-id="8fad5-976">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-976">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-977">Microsoft Dynamics paredzētā Connector sistēma</span><span class="sxs-lookup"><span data-stu-id="8fad5-977">Connector for Microsoft Dynamics</span></span>                         |
-| <span data-ttu-id="8fad5-978">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-978">**Status**</span></span>                         | <span data-ttu-id="8fad5-979">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-979">Removed as of Dynamics AX 7.0.</span></span>                           |
-
-### <a name="container-unit-and-multi-dimension-on-hand"></a><span data-ttu-id="8fad5-980">Konteinera vienība un rīcībā esošie vairākdimensiju krājumi</span><span class="sxs-lookup"><span data-stu-id="8fad5-980">Container unit and multi dimension on-hand</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-981">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-981">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-982">Funkcionalitātes dublēšanās</span><span class="sxs-lookup"><span data-stu-id="8fad5-982">Duplicate functionality</span></span> |
-| <span data-ttu-id="8fad5-983">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-983">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-984">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-984">Yes.</span></span> <span data-ttu-id="8fad5-985">Sākot ar versiju AX 2012, šī funkcionalitāte ir aizstāta ar konsolidēto partijas pasūtījumu līdzekļu kopu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-985">Since AX 2012, this functionality has been replaced by the consolidated batch orders feature set.</span></span> <span data-ttu-id="8fad5-986">Šī līdzekļu kopa ietver konsolidēto rīcībā esošo krājumu skatu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-986">This feature set includes the consolidated on-hand view.</span></span> |
-| <span data-ttu-id="8fad5-987">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-987">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-988">Preču informācijas pārvaldība, Ražošanas kontrole, Krājumu vadība, Pārdošana un mārketings</span><span class="sxs-lookup"><span data-stu-id="8fad5-988">Product information management, Production control, Inventory management, Sales and marketing</span></span>  |
-| <span data-ttu-id="8fad5-989">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-989">**Status**</span></span>                         | <span data-ttu-id="8fad5-990">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-990">Removed as of Dynamics AX 7.0.</span></span> |
-
-### <a name="cue-group-metadata"></a><span data-ttu-id="8fad5-991">Norādījumu grupas metadati</span><span class="sxs-lookup"><span data-stu-id="8fad5-991">Cue group metadata</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-992">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-992">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-993">Norādījumu grupas tika izmantotas, lai papildinformācijas apgabalā parādītu vienu vai vairākus norādījumus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-993">Cue groups were used to display one or more Cues in the FactBox area.</span></span> <span data-ttu-id="8fad5-994">Pastāvēja uzņemšanas ierobežojumi, un bija arī veiktspējas problēmas, jo ieraksta izmaiņas primārajā formā izraisīja vienu vaicājumu katram norādījumu grupas norādījumam.</span><span class="sxs-lookup"><span data-stu-id="8fad5-994">There was limited uptake, and there were also performance concerns, because a record change in a parent form caused one query per Cue in the Cue group.</span></span> |
-| <span data-ttu-id="8fad5-995">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-995">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-996">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-996">No</span></span>      |
-| <span data-ttu-id="8fad5-997">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-997">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-998">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-998">All modules</span></span>    |
-| <span data-ttu-id="8fad5-999">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-999">**Status**</span></span>                         | <span data-ttu-id="8fad5-1000">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1000">Removed as of Dynamics AX 7.0.</span></span>  |
-
-### <a name="cue-metadata"></a><span data-ttu-id="8fad5-1001">Norādījuma metadati</span><span class="sxs-lookup"><span data-stu-id="8fad5-1001">Cue metadata</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1002">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1002">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1003">Norādījuma metadati bija ierobežoti ar informāciju par skaitu vai summu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1003">Cue metadata was limited to count or sum information.</span></span>    |
-| <span data-ttu-id="8fad5-1004">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1004">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1005">Tika ieviesti elementa metadati, lai modelēšanai nodrošinātu lielāku elastību.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1005">Tile metadata was introduced to provide more flexibility for modeling.</span></span> <span data-ttu-id="8fad5-1006">Piemēram, varat modelēt pašreizējo skaitu, navigāciju un galvenos veiktspējas rādītājus (KPI).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1006">For example, you can model current counts, navigation, and key performance indicators (KPIs).</span></span> <span data-ttu-id="8fad5-1007">Skaita elementa metadati ir tiešs norādījuma metadatu aizstājējs.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1007">Count tile metadata is the direct replacement of the Cue metadata.</span></span> |
-| <span data-ttu-id="8fad5-1008">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1008">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1009">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1009">All modules</span></span>           |
-| <span data-ttu-id="8fad5-1010">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1010">**Status**</span></span>                         | <span data-ttu-id="8fad5-1011">Noņemts, sākot ar Dynamics AX 7.0</span><span class="sxs-lookup"><span data-stu-id="8fad5-1011">Removed as of Dynamics AX 7.0</span></span>      |
-
-### <a name="danish-check-format"></a><span data-ttu-id="8fad5-1012">Dānijas čeka formāts</span><span class="sxs-lookup"><span data-stu-id="8fad5-1012">Danish check format</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1013">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1013">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1014">Ir pārtraukta atbalsta sniegšana Dānijas čeka formāta izkārtojumam, un šī atskaite ir noņemta no DK lokalizācijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1014">Support for the Danish check format layout has been discontinued, and the report has been removed from DK localization.</span></span> |
-| <span data-ttu-id="8fad5-1015">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1015">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1016">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1016">No</span></span>    |
-| <span data-ttu-id="8fad5-1017">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1017">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1018">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1018">All modules</span></span>    |
-| <span data-ttu-id="8fad5-1019">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1019">**Status**</span></span>                         | <span data-ttu-id="8fad5-1020">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1020">Deprecated: A removal date has not been set for this feature.</span></span>  |
-
-### <a name="data-partitions"></a><span data-ttu-id="8fad5-1021">Datu nodalījumi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1021">Data partitions</span></span>
-
-<span data-ttu-id="8fad5-1022">Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX datu bāzē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1022">Data partitions provide a logical separation of data in the Microsoft Dynamics AX database.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1023">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1023">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1024">Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai nodrošinātu datu nošķiršanu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1024">Data partitions were introduced in Microsoft Dynamics AX 2012 R2 to enable data isolation.</span></span> <span data-ttu-id="8fad5-1025">Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1025">In a common scenario, a company has subsidiaries, and the data from one subsidiary should not be visible to another subsidiary, even though both subsidiaries are managed by the same IT department.</span></span> <span data-ttu-id="8fad5-1026">Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1026">However, extra scripts and management overhead throughout the program were required in order to create new partitions and populate them with data, and to back up partition data.</span></span> <span data-ttu-id="8fad5-1027">Mākonī, kur var piekļūt platformas pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), izmantot datu bāzi kā nošķiršanas konteineru ir daudz efektīvāk, nekā veikt nošķiršanu programmā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1027">In the cloud, where we have access to platform as a service (PaaS) database services (Microsoft Azure SQL Database), it's much more efficient to use a database as the isolation container than to do isolation in the program.</span></span> <span data-ttu-id="8fad5-1028">Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1028">Regardless of whether data partitioning is required for subsidiaries, for multiple tenants, or just for scale, we believe that the scenarios can be handled better through multiple instances of Finance and Operations.</span></span> |
-| <span data-ttu-id="8fad5-1029">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1029">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1030">Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1030">Customers using data partitions must use multiple instances of Finance and Operations if database level separation is a critical issue.</span></span>    |
-| <span data-ttu-id="8fad5-1031">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1031">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1032">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1032">All modules</span></span>  |
-| <span data-ttu-id="8fad5-1033">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1033">**Status**</span></span>                         | <span data-ttu-id="8fad5-1034">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1034">Removed as of Dynamics AX 7.0.</span></span>  |
-
-
-### <a name="database-and-file-share-storage-for-attachments"></a><span data-ttu-id="8fad5-1035">Datu bāzes un failu koplietošanas krātuve pielikumiem</span><span class="sxs-lookup"><span data-stu-id="8fad5-1035">Database and file share storage for attachments</span></span>
-
-<span data-ttu-id="8fad5-1036">Programmā Microsoft Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu koplietojumos.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1036">Microsoft Dynamics AX 2012 allowed storage of attachments in the database and in file shares.</span></span> <span data-ttu-id="8fad5-1037">Abas šīs opcijas vairs netiek atbalstītas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1037">Both of those options are no longer supported.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1038">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1038">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1039">Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1039">Files share storage is no longer supported because cloud-hosted environments cannot communicate with local file shares.</span></span> <span data-ttu-id="8fad5-1040">Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1040">Database storage has been deprecated in favor of Azure Blob storage.</span></span> <span data-ttu-id="8fad5-1041">Azure Blob krātuve ir līdzvērtīga krātuvei datu bāzē, jo vienīgais veids, kā piekļūt dokumentiem, ir izmantot Dynamics 365 for Finance and Operations klienta formas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1041">Azure Blob storage is equivalent to storage in the database, as documents can only be accessed through Dynamics 365 for Finance and Operations client forms.</span></span> <span data-ttu-id="8fad5-1042">Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1042">This provides the added benefit of providing storage that doesn't negatively affect the performance of the database.</span></span> <span data-ttu-id="8fad5-1043">Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1043">Blob storage is the default storage mechanism for Document Management and works immediately.</span></span> |
-| <span data-ttu-id="8fad5-1044">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1044">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1045">Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1045">Database storage has been deprecated in favor of Azure Blob storage.</span></span>   |
-| <span data-ttu-id="8fad5-1046">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1046">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1047">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1047">All modules</span></span>  |
-| <span data-ttu-id="8fad5-1048">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1048">**Status**</span></span>                         | <span data-ttu-id="8fad5-1049">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1049">Removed as of Dynamics AX 7.0.</span></span>   |
-
-### <a name="delimitation"></a><span data-ttu-id="8fad5-1050">Norobežošana</span><span class="sxs-lookup"><span data-stu-id="8fad5-1050">Delimitation</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1051">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1051">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1052">Šai funkcionalitātei netika atrasts pielietojums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1052">No use of the functionality was found.</span></span> |
-| <span data-ttu-id="8fad5-1053">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1053">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1054">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1054">No</span></span>                                     |
-| <span data-ttu-id="8fad5-1055">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1055">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1056">Laiks un apmeklētība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1056">Time and attendance</span></span>                    |
-| <span data-ttu-id="8fad5-1057">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1057">**Status**</span></span>                         | <span data-ttu-id="8fad5-1058">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1058">Removed as of Dynamics AX 7.0.</span></span>         |
-
-### <a name="desktop-client"></a><span data-ttu-id="8fad5-1059">Darbvirsmas klients</span><span class="sxs-lookup"><span data-stu-id="8fad5-1059">Desktop client</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1060">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1060">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1061">Ir pārveidotas Dynamics AX klienta lietošanas iespējas, lai uzlabotu lietojamību dažādās platformās un ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1061">The Dynamics AX client experience has been redesigned to improve usability across multiple platforms and devices.</span></span>                      |
-| <span data-ttu-id="8fad5-1062">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1062">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1063">Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1063">The new web client is based on the desktop Form metadata and programming model that have been modified to provide a rich web platform.</span></span> |
-| <span data-ttu-id="8fad5-1064">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1064">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1065">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1065">All modules</span></span>  |
-| <span data-ttu-id="8fad5-1066">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1066">**Status**</span></span>                         | <span data-ttu-id="8fad5-1067">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1067">Removed as of Dynamics AX 7.0.</span></span>   |
-
-### <a name="direct-database-connection"></a><span data-ttu-id="8fad5-1068">Tiešs datu bāzes savienojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-1068">Direct database connection</span></span>
-
-<span data-ttu-id="8fad5-1069">Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tiešu savienojumu ar kanāla DB līdzīgi kā programma Enterprise POS.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1069">In Dynamics AX 2012 R3, Retail Modern POS could connect directly to the Channel DB in similar fashion to Enterprise POS.</span></span> <span data-ttu-id="8fad5-1070">Šī funkcija bija pieejama papildus Retail Modern POS standarta sakaru metodei, izmantojot Retail Server.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1070">This was in addition to the standard communication method of Retail Modern POS communicating through Retail Server.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1071">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1071">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1072">Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1072">Direct database connectivity required lower security protocols and was primarily used to achieve the highest levels of performance.</span></span> <span data-ttu-id="8fad5-1073">Programmatūras Dynamics 365 for Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1073">Due to the performance and security enhancements that have occurred in Finance and Operations, this functionality now causes more issues than it solves.</span></span> |
-| <span data-ttu-id="8fad5-1074">**Vai ir aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1074">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1075">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1075">No.</span></span> <span data-ttu-id="8fad5-1076">Tagad tiek atbalstīti tikai standarta Retail Server sakari.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1076">Only standard Retail Server communication is now supported.</span></span>  |
-| <span data-ttu-id="8fad5-1077">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1077">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1078">Kanāla DB/Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="8fad5-1078">Channel DB/Retail Modern POS</span></span>   |
-| <span data-ttu-id="8fad5-1079">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1079">**Status**</span></span>                         | <span data-ttu-id="8fad5-1080">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1080">Removed as of Dynamics AX 7.0.</span></span>  |
-
-### <a name="dutch-swift-mt940"></a><span data-ttu-id="8fad5-1081">Holandes SWIFT MT940</span><span class="sxs-lookup"><span data-stu-id="8fad5-1081">Dutch SWIFT MT940</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1082">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1082">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1083">Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1083">Generic functionality is now used instead of localized functionality.</span></span>                    |
-| <span data-ttu-id="8fad5-1084">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1084">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1085">Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1085">Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</span></span> |
-| <span data-ttu-id="8fad5-1086">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1086">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1087">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1087">All modules</span></span>                                                                              |
-| <span data-ttu-id="8fad5-1088">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1088">**Status**</span></span>                         | <span data-ttu-id="8fad5-1089">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1089">Deprecated: A removal date has not been set for this feature.</span></span>                           |
-
-### <a name="ebilanz-xbrl-for-germany"></a><span data-ttu-id="8fad5-1090">eBilanz (XBRL Vācijai)</span><span class="sxs-lookup"><span data-stu-id="8fad5-1090">eBilanz (XBRL for Germany)</span></span>
-
-<span data-ttu-id="8fad5-1091">Šī funkcionalitāte nodrošināja paplašināmās komerciālo atskaišu valodas (eXtensible Business Reporting Language — XBRL) izvades, kas ir paredzēta speciāli Vācijas eBilanz taksonomijai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1091">This functionality provided eXtensible Business Reporting Language (XBRL) output that is intended specifically for the German eBilanz taxonomy.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1092">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1092">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1093">Debitoru lietojuma trūkums</span><span class="sxs-lookup"><span data-stu-id="8fad5-1093">Lack of customer usage</span></span>  |
-| <span data-ttu-id="8fad5-1094">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1094">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1095">Šis līdzeklis nav aizstāts ar citu līdzekli, bet Vācijas tirgū ir pieejamas vairākas specializētas XBRL pakotnes, kas nodrošina bagātīgu XBRL funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1095">This feature hasn't been replaced by another feature, but multiple specialized XBRL packages that provide rich XBRL functionality are available for the German market.</span></span> |
-| <span data-ttu-id="8fad5-1096">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1096">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1097">Management Reporter</span><span class="sxs-lookup"><span data-stu-id="8fad5-1097">Management Reporter</span></span>      |
-| <span data-ttu-id="8fad5-1098">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1098">**Status**</span></span>                         | <span data-ttu-id="8fad5-1099">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1099">Deprecated: A removal date has not been set for this feature.</span></span>  |
-
-### <a name="enterprise-portal-client"></a><span data-ttu-id="8fad5-1100">Uzņēmuma portāla klients</span><span class="sxs-lookup"><span data-stu-id="8fad5-1100">Enterprise Portal client</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1101">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1101">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1102">Ir nodrošināta viena klienta platforma.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1102">A single client platform has been provided.</span></span>  |
-| <span data-ttu-id="8fad5-1103">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1103">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1104">Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1104">The new web client is based on the desktop form metadata and programming model that have been modified to provide a rich web platform.</span></span> |
-| <span data-ttu-id="8fad5-1105">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1105">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1106">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1106">All modules</span></span>  |
-| <span data-ttu-id="8fad5-1107">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1107">**Status**</span></span>                         | <span data-ttu-id="8fad5-1108">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1108">Removed as of Dynamics AX 7.0.</span></span>   |
-
-### <a name="environmental-sustainability"></a><span data-ttu-id="8fad5-1109">Vides ilgtspēja</span><span class="sxs-lookup"><span data-stu-id="8fad5-1109">Environmental sustainability</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1110">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1110">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1111">Zems klientu lietojums un ierobežota līdzekļu kopa</span><span class="sxs-lookup"><span data-stu-id="8fad5-1111">Low customer usage and a limited feature set</span></span>  |
-| <span data-ttu-id="8fad5-1112">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1112">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1113">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1113">No</span></span>              |
-| <span data-ttu-id="8fad5-1114">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1114">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1115">Atbilstības un iekšējās vadīklas, Parādi kreditoriem</span><span class="sxs-lookup"><span data-stu-id="8fad5-1115">Compliance and internal controls, Accounts payable</span></span>  |
-| <span data-ttu-id="8fad5-1116">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1116">**Status**</span></span>                         | <span data-ttu-id="8fad5-1117">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1117">Removed as of Dynamics AX 7.0.</span></span> |
-
-### <a name="form-activex-and-managed-host-controls"></a><span data-ttu-id="8fad5-1118">Forma ActiveX un pārvaldītās resursdatora vadīklas</span><span class="sxs-lookup"><span data-stu-id="8fad5-1118">Form ActiveX and Managed Host controls</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1119">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1119">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1120">ActiveX un pārvaldīto resursdatora vadīklu pamatā ir novecojušais darbvirsmas klients.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1120">The ActiveX and Managed Host controls are based on the deprecated desktop client.</span></span> |
-| <span data-ttu-id="8fad5-1121">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1121">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1122">Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, izmantojot valodas HTML, CSS un JavaScript, un tā ir augstākā līmeņa kontroles līdzeklis Microsoft Visual Studio rīku vidē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1122">The extensible control framework supports building new controls that are based on HTML, CSS, and JavaScript, and is a first-class control in the Microsoft Visual Studio Tooling environment.</span></span> |
-| <span data-ttu-id="8fad5-1123">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1123">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1124">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1124">All modules</span></span>     |
-| <span data-ttu-id="8fad5-1125">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1125">**Status**</span></span>                         | <span data-ttu-id="8fad5-1126">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1126">Removed as of Dynamics AX 7.0.</span></span>       |
-
-### <a name="generate-prenotes-by-using-a-batch"></a><span data-ttu-id="8fad5-1127">Ģenerēt pārbaudes, izmantojot paketi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1127">Generate prenotes by using a batch</span></span>
-
-<span data-ttu-id="8fad5-1128">Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to joprojām var izdarīt.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1128">Prenote generation can't be done by using a batch, but it can still be done by a user.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1129">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1129">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1130">Nav formas, ar kuru saglabāt un parādīt iegūto pārbaudes failu, kad tas tiek ģenerēts, izmantojot pakešuzdevumu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1130">No form exists to persist and display the resulting prenote file when it's generated by using a batch.</span></span> |
-| <span data-ttu-id="8fad5-1131">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1131">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1132">Pārbaudes joprojām var ģenerēt, un lietotājs kontrolē vietu, kur šis fails tiek saglabāts.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1132">Prenotes can still be generated, and the user has control over the location where the file is saved.</span></span>   |
-| <span data-ttu-id="8fad5-1133">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1133">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1134">Parādi kreditoriem, Debitoru parādi, Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1134">Accounts payable, Accounts receivable, Cash and bank management</span></span>  |
-| <span data-ttu-id="8fad5-1135">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1135">**Status**</span></span>                         | <span data-ttu-id="8fad5-1136">Noņemts, sākot ar AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1136">Removed as of AX 7.0.</span></span>    |
-
-### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a><span data-ttu-id="8fad5-1137">Vācu DTAUS maksājuma eksportēšana un konta izraksta importēšana (kopsummas un transakcijas)</span><span class="sxs-lookup"><span data-stu-id="8fad5-1137">German DTAUS payment export and account statement import (totals and transactions)</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1138">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1138">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1139">Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar vienotās eiro maksājumu zonas (Single Euro Payments Area — SEPA) funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1139">The format is no longer applicable in Germany, because it has been replaced by Single Euro Payments Area (SEPA) functionality.</span></span>                    |
-| <span data-ttu-id="8fad5-1140">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1140">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1141">Jā, šī funkcionalitāte ir aizstāta ar SEPA maksājumu eksportēšanas un detalizētās bankas darbību saskaņošanas funkcionalitāti kontu pārskatu importēšanai.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1141">Yes, this functionality has been replaced by SEPA payment export and advanced bank reconciliation functionality for importing account statements.</span></span> |
-| <span data-ttu-id="8fad5-1142">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1142">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1143">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1143">All modules</span></span>  |
-| <span data-ttu-id="8fad5-1144">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1144">**Status**</span></span>                         | <span data-ttu-id="8fad5-1145">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1145">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="german-dtazv-payment-format"></a><span data-ttu-id="8fad5-1146">Vācijas DTAZV maksājumu formāts</span><span class="sxs-lookup"><span data-stu-id="8fad5-1146">German DTAZV payment format</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1147">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1147">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1148">Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1148">The format is no longer applicable in Germany, because it has been replaced by SEPA functionality.</span></span> |
-| <span data-ttu-id="8fad5-1149">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1149">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1150">SEPA maksājumu eksportēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-1150">SEPA payments export</span></span>    |
-| <span data-ttu-id="8fad5-1151">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1151">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1152">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1152">All modules</span></span>   |
-| <span data-ttu-id="8fad5-1153">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1153">**Status**</span></span>                         | <span data-ttu-id="8fad5-1154">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1154">Deprecated: A removal date has not been set for this feature.</span></span>    |
-
-### <a name="german-mt940-import"></a><span data-ttu-id="8fad5-1155">Vācu MT940 importēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-1155">German MT940 import</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1156">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1156">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1157">Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1157">Generic functionality is now used instead of localized functionality.</span></span>                    |
-| <span data-ttu-id="8fad5-1158">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1158">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1159">Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1159">Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</span></span> |
-| <span data-ttu-id="8fad5-1160">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1160">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1161">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1161">All modules</span></span>                                                                              |
-| <span data-ttu-id="8fad5-1162">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1162">**Status**</span></span>                         | <span data-ttu-id="8fad5-1163">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1163">Deprecated: A removal date has not been set for this feature.</span></span>                           |
-
-### <a name="german-xml-eu-sales-list"></a><span data-ttu-id="8fad5-1164">Vācijas XML ES pārdošanas saraksts</span><span class="sxs-lookup"><span data-stu-id="8fad5-1164">German XML EU Sales list</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1165">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1165">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1166">Vairs netiek atbalstīts XML formāts Vācijas ES pārdošanas saraksta atskaitēm.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1166">The XML format for German EU Sales List reporting is no longer supported.</span></span> <span data-ttu-id="8fad5-1167">Lai ES pārdošanas saraksta atskaites iesniegtu Vācijas nodokļu birojā, var izmantot tikai ELMA5 teksta faila formātu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1167">Only the ELMA5 text file format can be used to submit the EU Sales List report to the German Tax Office.</span></span> |
-| <span data-ttu-id="8fad5-1168">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1168">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1169">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1169">No</span></span>         |
-| <span data-ttu-id="8fad5-1170">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1170">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1171">Nodokļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1171">Tax</span></span>        |
-| <span data-ttu-id="8fad5-1172">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1172">**Status**</span></span>                         | <span data-ttu-id="8fad5-1173">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1173">Deprecated: A removal date has not been set for this feature.</span></span>   |
-
-### <a name="gl-ssrs-reports"></a><span data-ttu-id="8fad5-1174">GL SSRS atskaites</span><span class="sxs-lookup"><span data-stu-id="8fad5-1174">GL SSRS reports</span></span>
-
-<span data-ttu-id="8fad5-1175">Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma apgrozījuma bilance**, **Detalizēta apgrozījuma bilance**, **Kontu plāns**, **Auditācijas pieraksti**, **Bilances** un **Bilances saraksts**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1175">Reports that include the following menu items have been removed: **Summary trial balance**, **Detailed trial balance**, **Chart of accounts**, **Audit trail**, **Balances**, and **Balance list**.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1176">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1176">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1177">Finanšu Microsoft SQL Server Reporting Services (SSRS) pārskati ir aizstāti ar Management Reporter iespējām un noklusējuma pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1177">Financial Microsoft SQL Server Reporting Services (SSRS) reports have been replaced by Management Reporter capabilities and default reports.</span></span> |
-| <span data-ttu-id="8fad5-1178">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1178">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1179">Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu **Finanšu pārskatu veidošana**)</span><span class="sxs-lookup"><span data-stu-id="8fad5-1179">Management Reporter (labeled **Financial reporting** in the current version of Dynamics AX)</span></span>    |
-| <span data-ttu-id="8fad5-1180">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1180">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1181">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-1181">General ledger</span></span>   |
-| <span data-ttu-id="8fad5-1182">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1182">**Status**</span></span>                         | <span data-ttu-id="8fad5-1183">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1183">Removed as of Dynamics AX 7.0.</span></span>   |
-
-### <a name="infopart-and-formpart-metadata"></a><span data-ttu-id="8fad5-1184">InfoPart un FormPart metadati</span><span class="sxs-lookup"><span data-stu-id="8fad5-1184">InfoPart and FormPart metadata</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1185">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1185">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1186">InfoPart un FormPart metadati ļāva izveidot papildinformācijas lodziņus diviem dažādiem klientiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1186">InfoPart and FormPart metadata enabled the creation of FactBoxes for two different clients.</span></span> |
-| <span data-ttu-id="8fad5-1187">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1187">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1188">InfoPart metadati, kas bija vienkāršotā formas definīcija, ar jaunināšanas rīkiem ir pārveidoti par formu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1188">InfoPart metadata, which was a simplified form definition, is converted into a Form by upgrade tooling.</span></span> <span data-ttu-id="8fad5-1189">FormPart metadati, kas veidoja atsauci uz formu, ir aizstāti ar tiešāku atsauci, ko veido jaunināšanas rīki.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1189">FormPart metadata, which referenced a Form, is replaced by a more direct reference that is created by upgrade tooling.</span></span> |
-| <span data-ttu-id="8fad5-1190">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1190">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1191">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1191">All modules</span></span>    |
-| <span data-ttu-id="8fad5-1192">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1192">**Status**</span></span>                         | <span data-ttu-id="8fad5-1193">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1193">Removed as of Dynamics AX 7.0.</span></span>        |
-
-### <a name="main-account-list-page"></a><span data-ttu-id="8fad5-1194">Galvenā konta saraksta lapa</span><span class="sxs-lookup"><span data-stu-id="8fad5-1194">Main account list page</span></span>
-
-<span data-ttu-id="8fad5-1195">Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija</span><span class="sxs-lookup"><span data-stu-id="8fad5-1195">A list of accounts for the legal entity and related balance information</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1196">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1196">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1197">Bilances informācija ir pieejama saraksta lapā **Apgrozījuma bilance** pēc konta un dimensijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1197">Balance information is available on the **Trial balance** list page by account and dimension.</span></span>  |
-| <span data-ttu-id="8fad5-1198">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1198">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1199">Sadaļā **Galvenie konti** ir ietverts tāds pats kontu saraksts, kas atrodas saraksta lapā **Galvenais konts**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1199">**Main accounts** contains the same list of accounts that the **Main account** list page contained.</span></span> <span data-ttu-id="8fad5-1200">Režģa skats sadaļā **Galvenie konti** arī rāda vēl mazāku, režģa tipa skatu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1200">The grid view in **Main accounts** also shows an even smaller, grid-like view.</span></span> |
-| <span data-ttu-id="8fad5-1201">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1201">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1202">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-1202">General ledger</span></span>      |
-| <span data-ttu-id="8fad5-1203">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1203">**Status**</span></span>                         | <span data-ttu-id="8fad5-1204">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1204">Removed as of Dynamics AX 7.0.</span></span>    |
-
-### <a name="malaysia-and-singapore-bank-cash-flow-report"></a><span data-ttu-id="8fad5-1205">Malaizijas un Singapūras bankas naudas plūsmas atskaite</span><span class="sxs-lookup"><span data-stu-id="8fad5-1205">Malaysia and Singapore bank cash flow report</span></span>
-
-<span data-ttu-id="8fad5-1206">Šis līdzeklis lietotājam ļauj drukāt naudas plūsmas atskaiti, kurā ir redzamas transakcijas un detalizēta informācija par skaidras naudas ienākošajām un izejošajām plūsmām attiecībā uz noteiktu laika diapazonu atlasītajiem bankas kontiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1206">This feature let the user print a cash flow report that shows transactions and details of the cash inflows and outflows for a specific date range for selected bank accounts.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1207">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1207">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1208">Šo pašu informāciju var saņemt pieprasošās bankas transakcijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1208">The same information can be obtained from the Inquiry bank transaction.</span></span> |
-| <span data-ttu-id="8fad5-1209">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1209">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1210">Ar pieprasošās bankas transakciju</span><span class="sxs-lookup"><span data-stu-id="8fad5-1210">The Inquiry bank transaction</span></span>                                            |
-| <span data-ttu-id="8fad5-1211">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1211">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1212">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1212">Cash and bank management</span></span>                                                |
-| <span data-ttu-id="8fad5-1213">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1213">**Status**</span></span>                         | <span data-ttu-id="8fad5-1214">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1214">Deprecated: A removal date has not been set for this feature.</span></span>          |
-
-### <a name="mexican-cfd-electronic-invoice"></a><span data-ttu-id="8fad5-1215">Meksikas CFD elektroniskais rēķins</span><span class="sxs-lookup"><span data-stu-id="8fad5-1215">Mexican CFD electronic invoice</span></span>
-
-<span data-ttu-id="8fad5-1216">Šis līdzeklis ļāva ģenerēt Meksikas elektroniskos rēķinus, izmantojot metodi Comprobante Fiscal Digital (CFD), kurā uzņēmums paraksta rēķinu, no valdības pieprasot saistīto autorizāciju.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1216">This feature enabled the generation of Mexican electronic invoices by using the Comprobante Fiscal Digital (CFD) method, where the company signs the invoice by requesting the related authorization from the government.</span></span> <span data-ttu-id="8fad5-1217">Šis līdzeklis nodrošina arī ikmēneša atskaiti, kas ietver visus šajā periodā izsniegtos elektroniskos rēķinus.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1217">This feature also provides a monthly report that includes all electronics invoices that were issued in the period.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1218">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1218">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1219">Šī metode vairs nav piemērojama.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1219">The method is no longer applicable.</span></span> <span data-ttu-id="8fad5-1220">Nodokļu iestādes atzina par novecojušu elektronisko rēķinu ģenerēšanu, izmantojot CFD metodi, un aizstāja ar metodi Comprobante Fiscal Digital a través de Internet (CFDI), kur parakstīšana tiek deleģēta trešās puses nodrošinātājam (PAC).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1220">The generation of electronic invoices by using the CFD method was deprecated by the tax authorities and replaced by the Comprobante Fiscal Digital a través de Internet (CFDI) method, where the signing is delegated to the third-party provider (PAC).</span></span> <span data-ttu-id="8fad5-1221">Ikmēneša atskaite ir noņemta, un vaicājuma opcija lietotājam ļauj pieprasīt uzziņas par vēsturiskajām transakcijām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1221">The monthly report has been removed, and an inquiry option lets users inquire about historical transactions.</span></span> |
-| <span data-ttu-id="8fad5-1222">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1222">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1223">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1223">No</span></span>    |
-| <span data-ttu-id="8fad5-1224">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1224">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1225">Debitori, Projekts</span><span class="sxs-lookup"><span data-stu-id="8fad5-1225">Account receivables, Project</span></span>   |
-| <span data-ttu-id="8fad5-1226">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1226">**Status**</span></span>                         | <span data-ttu-id="8fad5-1227">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1227">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="mexico-realized-and-unrealized-vat"></a><span data-ttu-id="8fad5-1228">Meksikas realizētais un nerealizētais PVN</span><span class="sxs-lookup"><span data-stu-id="8fad5-1228">Mexico realized and unrealized VAT</span></span>
-
-<span data-ttu-id="8fad5-1229">Programmā Microsoft Dynamics AX 2012 nerealizētais pievienotās vērtības nodoklis (PVN) tika pārvaldīts, izmantojot Meksikai raksturīgo nerealizētā nodokļa pārvaldības funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1229">Microsoft Dynamics AX 2012 managed unrealized value-added tax (VAT) by using Mexico-specific functionality for unrealized tax.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1230">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1230">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1231">Funkcionalitātes dublēšanās</span><span class="sxs-lookup"><span data-stu-id="8fad5-1231">Duplicate functionality</span></span>  |
-| <span data-ttu-id="8fad5-1232">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1232">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1233">Jā, šī funkcionalitāte ir aizstāta ar standarta nosacījuma pārdošanas nodokļa funkcionalitāti, ko nodrošina pamats.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1233">Yes, this functionality has been replaced by standard conditional sales tax functionality that is provided by Core.</span></span> |
-| <span data-ttu-id="8fad5-1234">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1234">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1235">Nodokļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1235">Tax</span></span>   |
-| <span data-ttu-id="8fad5-1236">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1236">**Status**</span></span>                         | <span data-ttu-id="8fad5-1237">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1237">Deprecated: A removal date has not been set for this feature.</span></span> |
-
-### <a name="microsoft-outlook-integration"></a><span data-ttu-id="8fad5-1238">Microsoft Outlook integrēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-1238">Microsoft Outlook integration</span></span>
-
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1239">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1239">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1240">Šī funkcionalitāte ir aizstāta ar Microsoft Exchange Server integrāciju.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1240">This functionality has been replaced by Microsoft Exchange Server integration.</span></span> |
-| <span data-ttu-id="8fad5-1241">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1241">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1242">Jā</span><span class="sxs-lookup"><span data-stu-id="8fad5-1242">Yes</span></span>                                                                            |
-| <span data-ttu-id="8fad5-1243">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1243">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1244">Pārdošana un mārketings</span><span class="sxs-lookup"><span data-stu-id="8fad5-1244">Sales and marketing</span></span>                                                            |
-| <span data-ttu-id="8fad5-1245">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1245">**Status**</span></span>                         | <span data-ttu-id="8fad5-1246">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1246">Removed as of Dynamics AX 7.0.</span></span>                                                 |
-
-### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a><span data-ttu-id="8fad5-1247">Krājumu un noliktavas vadības žurnālu privāta bloķēšana</span><span class="sxs-lookup"><span data-stu-id="8fad5-1247">Private blocking of inventory and warehouse management journals</span></span>
-
-<span data-ttu-id="8fad5-1248">Krājumu un noliktavas žurnāli vairs neatbalsta iespēju atzīmēt žurnālu kā privātu atlasītam lietotājam.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1248">The inventory and warehouse journals no longer support the ability to mark a journal as private for a selected user.</span></span> <span data-ttu-id="8fad5-1249">Tiek atbalstīta tikai žurnālu kā privātu bloķēšana lietotāju grupām un bloķēšanas rediģēšanas laikā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1249">Only the process of blocking journals as private for user groups and blocking during editing is supported.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1250">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1250">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1251">Šai funkcionalitātei netika atrasts pielietojums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1251">No use of the functionality was found.</span></span> |
-| <span data-ttu-id="8fad5-1252">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1252">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1253">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1253">No</span></span>                                     |
-| <span data-ttu-id="8fad5-1254">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1254">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1255">Krājumu vadība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1255">Inventory management</span></span>                   |
-| <span data-ttu-id="8fad5-1256">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1256">**Status**</span></span>                         | <span data-ttu-id="8fad5-1257">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1257">Removed as of Dynamics AX 7.0.</span></span>         |
-
-### <a name="product-builder"></a><span data-ttu-id="8fad5-1258">Preču konfigurators</span><span class="sxs-lookup"><span data-stu-id="8fad5-1258">Product builder</span></span>
-
-<span data-ttu-id="8fad5-1259">Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pārdošanas pasūtījuma, pirkšanas pasūtījuma, ražošanas pasūtījuma, pārdošanas piedāvājuma, projektu piedāvājuma vai krājuma vajadzības.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1259">Product builder was used to dynamically configure items from a sales order, purchase order, production order, sales quotation, project quotation, or item requirement.</span></span> <span data-ttu-id="8fad5-1260">Pamatojoties uz preces modeli, kam bija modelēšanas mainīgie, lietotājs varēja atlasīt klienta prasībām atbilstošas vērtības un iegūt unikālu preces variantu, kuram bija MK un maršruts.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1260">Based on a product model that had modeling variables, the user could select values to meet the customer requirements and get a unique product variant that had a BOM and route.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1261">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1261">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1262">Preču konfiguratorā gala lietotājs varēja redzēt X++ kodu, tāpēc tas netiek atbalstīts pašreizējā Dynamics AX versijā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1262">Product builder exposed X++ code to end users and isn't supported in the current version of Dynamics AX.</span></span> <span data-ttu-id="8fad5-1263">Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1263">It has been removed to avoid duplicate maintenance efforts on overlapping, sizeable codebases.</span></span>  |
-| <span data-ttu-id="8fad5-1264">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1264">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1265">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1265">Yes.</span></span> <span data-ttu-id="8fad5-1266">Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1266">The constraint-based configuration was introduced in Dynamics AX 2012 where the depreciation of Product builder in future versions was already announced.</span></span> <span data-ttu-id="8fad5-1267">Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1267">The constraint-based configuration technology is selected on the product masters to enable the configuration.</span></span> <span data-ttu-id="8fad5-1268">Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](../../supply-chain/pim/build-product-configuration-model.md).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1268">To learn more, see [Build a product configuration model](../../supply-chain/pim/build-product-configuration-model.md).</span></span> |
-| <span data-ttu-id="8fad5-1269">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1269">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1270">Preču informācijas pārvaldība, Pārdošana un mārketings</span><span class="sxs-lookup"><span data-stu-id="8fad5-1270">Product information management, Sales and marketing</span></span>  |
-| <span data-ttu-id="8fad5-1271">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1271">**Status**</span></span>                         | <span data-ttu-id="8fad5-1272">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1272">Removed as of Dynamics AX 7.0.</span></span>      |
-
-### <a name="production-floor-app"></a><span data-ttu-id="8fad5-1273">Ražotnes programma</span><span class="sxs-lookup"><span data-stu-id="8fad5-1273">Production Floor app</span></span>
-<span data-ttu-id="8fad5-1274">Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1274">This is the app for tablet devices running Windows 8.1 RT and Windows 8.1 Pro.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1275">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1275">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1276">Pārejot uz tīmekļa klientu, var nodrošināt līdzīgu funkcionalitāti, izmantojot vietējo Dynamics AX 7.0 klientu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1276">With the change to a web-based client, it is possible to deliver similar functionality through the native Dynamics AX 7.0 client.</span></span> <span data-ttu-id="8fad5-1277">Darbu kartes ierīce nodrošina ražotnes lietot. interf., kas optimizēts skārienier. un planšetdat. formu faktoriem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1277">The Job Card Device provides a production floor user interface that is optimized for touch and tablet form factors.</span></span> |
-| <span data-ttu-id="8fad5-1278">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1278">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1279">Jā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1279">Yes.</span></span> <span data-ttu-id="8fad5-1280">Darbu kartes ierīce, kas ir iegulta versijā Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1280">The Job Card Device, which is a native part of Dynamics AX 7.0.</span></span>                                                                           |
-| <span data-ttu-id="8fad5-1281">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1281">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1282">Ražošanas kontrole</span><span class="sxs-lookup"><span data-stu-id="8fad5-1282">Production control</span></span>                                                |
-| <span data-ttu-id="8fad5-1283">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1283">**Status**</span></span>                         | <span data-ttu-id="8fad5-1284">Novecojis: šim līdzeklim vēl nav noteikts noņemšanas datums no Microsoft veikala.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1284">Deprecated: A removal date from the Microsoft store has not yet been set for this feature.</span></span>                                                |
-
-
-### <a name="rename-product-dimension"></a><span data-ttu-id="8fad5-1285">Pārdēvējiet preces dimensiju</span><span class="sxs-lookup"><span data-stu-id="8fad5-1285">Rename product dimension</span></span>
-
-<span data-ttu-id="8fad5-1286">Šis līdzeklis jums ļauj nosaukumu vienai no trim standarta preces dimensijām (lielumam, krāsai vai stilam) mainīt pret nosaukumu, kas labāk atbilst jūsu biznesa vajadzībām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1286">This feature let you change the name of one of the three standard product dimensions (size, color, or style) to a name that better suited your business requirements.</span></span> <span data-ttu-id="8fad5-1287">Pārdēvēšana iekļāva visas etiķetes, kurās tika izmantots šis preces dimensijas nosaukums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1287">Renaming included all the labels where the product dimension name was used.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1288">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1288">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1289">Pašreizējā Dynamics AX versija neatbalsta etiķešu izmaiņas izpildlaikā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1289">The current version of Dynamics AX doesn't support label changes at run time.</span></span> |
-| <span data-ttu-id="8fad5-1290">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1290">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1291">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1291">No</span></span>                                                                            |
-| <span data-ttu-id="8fad5-1292">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1292">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1293">Preču informācijas pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1293">Product information management</span></span>                                                |
-| <span data-ttu-id="8fad5-1294">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1294">**Status**</span></span>                         | <span data-ttu-id="8fad5-1295">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1295">Removed as of Dynamics AX 7.0.</span></span>                                                |
-
-### <a name="retail-server-connectivity-using-http"></a><span data-ttu-id="8fad5-1296">Retail Server savienojamība, izmantojot HTTP</span><span class="sxs-lookup"><span data-stu-id="8fad5-1296">Retail Server connectivity using HTTP</span></span>
-
-<span data-ttu-id="8fad5-1297">Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja izmantot HTTP sakarus (bez aizsardzības).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1297">In Dynamics AX 2012 R3, the Retail Server could function using HTTP communication (non-secured).</span></span> <span data-ttu-id="8fad5-1298">To varēja veikt papildus standarta sakariem, izmantojot HTTPS.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1298">This was in addition to the standard communication using HTTPS.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1299">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1299">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1300">Jauno drošības prasību dēļ tagad tiek atbalstīti tikai droši sakari, izmantojot TLS 1.2 (vai jaunāka versija, ja pieejama).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1300">Due to new security requirements, only secured communication using TLS 1.2 (or above, as available) is now supported.</span></span> <span data-ttu-id="8fad5-1301">Pašapkalpošanās instalētājs automātiski konfigurēs datoru šādam saziņas veidam.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1301">The self-service installer will automatically configure the computer for this communication.</span></span> |
-| <span data-ttu-id="8fad5-1302">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1302">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1303">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1303">No.</span></span> <span data-ttu-id="8fad5-1304">Tagad tiek atbalstīti tikai standarta HTTPS sakari.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1304">Only standard HTTPS communication is now supported.</span></span> |
-| <span data-ttu-id="8fad5-1305">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1305">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1306">Mazumtirdzniecības serveris</span><span class="sxs-lookup"><span data-stu-id="8fad5-1306">Retail Server</span></span>  |
-| <span data-ttu-id="8fad5-1307">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1307">**Status**</span></span>                         | <span data-ttu-id="8fad5-1308">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1308">Removed as of Dynamics AX 7.0.</span></span> |
-
-### <a name="role-center-pages"></a><span data-ttu-id="8fad5-1309">Informācijas centru lapas</span><span class="sxs-lookup"><span data-stu-id="8fad5-1309">Role Center pages</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1310">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1310">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1311">Informācijas centra lapas bija veidotas, izmantojot novecojušo uzņēmuma portāla platformu, kas pašreizējā Dynamics AX versijā ir aizstāta ar jauno tīmekļa klienta platformu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1311">Role Center pages were built on the deprecated Enterprise Portal platform, which has been replaced by the new web client platform in the current version of Dynamics AX.</span></span> |
-| <span data-ttu-id="8fad5-1312">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1312">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1313">Jaunais darbvietas formas modelis lietotājiem sniedz uz procesu centrētu dizainu, kas nodrošina ērtu piekļuvi bieži lietotajiem uzdevumiem šajā procesā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1313">The new Workspace form pattern provides users with a process-centered design that provides easy access to commonly used tasks within that process.</span></span>                       |
-| <span data-ttu-id="8fad5-1314">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1314">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1315">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1315">All modules</span></span>    |
-| <span data-ttu-id="8fad5-1316">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1316">**Status**</span></span>                         | <span data-ttu-id="8fad5-1317">Noņemts, sākot ar Dynamics AX 7.0</span><span class="sxs-lookup"><span data-stu-id="8fad5-1317">Removed as of Dynamics AX 7.0</span></span>   |
-
-### <a name="sales-tax-jurisdictions"></a><span data-ttu-id="8fad5-1318">PVN jurisdikcijas</span><span class="sxs-lookup"><span data-stu-id="8fad5-1318">Sales tax jurisdictions</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1319">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1319">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1320">Zems klientu lietojums un ierobežota līdzekļu kopa</span><span class="sxs-lookup"><span data-stu-id="8fad5-1320">Low customer usage and a limited feature set</span></span> |
-| <span data-ttu-id="8fad5-1321">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1321">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1322">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1322">No</span></span>                                           |
-| <span data-ttu-id="8fad5-1323">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1323">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1324">ASV pārdošanas nodoklis</span><span class="sxs-lookup"><span data-stu-id="8fad5-1324">US sales tax</span></span>                                 |
-| <span data-ttu-id="8fad5-1325">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1325">**Status**</span></span>                         | <span data-ttu-id="8fad5-1326">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1326">Removed as of Dynamics AX 7.0.</span></span>               |
-
-### <a name="sites-services"></a><span data-ttu-id="8fad5-1327">Site Services</span><span class="sxs-lookup"><span data-stu-id="8fad5-1327">Sites Services</span></span>
-
-<span data-ttu-id="8fad5-1328">Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus paplašina uz internetu, neizmantojot IT atbalstu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1328">Sites Services let you build websites that extend your business processes to the Internet without IT support.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1329">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1329">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1330">Programmā Dynamics AX izmantotajai Microsoft Azure infrastruktūrai ir jaunas iespējas, ko var izmantot šī līdzekļa vietā (piemēram, Azure vietnes).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1330">The Microsoft Azure infrastructure that is used by Dynamics AX has new capabilities that can be used instead (for example, Azure sites).</span></span> |
-| <span data-ttu-id="8fad5-1331">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1331">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1332">Nē</span><span class="sxs-lookup"><span data-stu-id="8fad5-1332">No</span></span>   |
-| <span data-ttu-id="8fad5-1333">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1333">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1334">HR personāla atlase, Pieteikumu pārvaldība, Piedāvājumu pieprasījums, Kreditora reģistrēšana, Sadarbības darbvietas iespējām un kampaņām</span><span class="sxs-lookup"><span data-stu-id="8fad5-1334">HR recruiting, Case management, Request for quotes, Vendor registration, Collaborative workspaces for opportunities and campaigns</span></span>  |
-| <span data-ttu-id="8fad5-1335">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1335">**Status**</span></span>                         | <span data-ttu-id="8fad5-1336">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1336">Removed as of Dynamics AX 7.0.</span></span>    |
-
-### <a name="ssas-demand-forecasting-strategy"></a><span data-ttu-id="8fad5-1337">SSAS pieprasījuma prognozēšanas stratēģija</span><span class="sxs-lookup"><span data-stu-id="8fad5-1337">SSAS demand forecasting strategy</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1338">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1338">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1339">Līdzekļa dizainu nevar atbalstīt jaunajā mākoņa arhitektūrā.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1339">The design of the feature cannot be supported in the new cloud architecture.</span></span> |
-| <span data-ttu-id="8fad5-1340">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1340">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1341">Azure algoritmiskās mācīšanās pieprasījuma prognozēšanas stratēģija</span><span class="sxs-lookup"><span data-stu-id="8fad5-1341">Azure Machine Learning demand forecasting strategy</span></span>                           |
-| <span data-ttu-id="8fad5-1342">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1342">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1343">Vispārējā plānošana</span><span class="sxs-lookup"><span data-stu-id="8fad5-1343">Master planning</span></span>                                                              |
-| <span data-ttu-id="8fad5-1344">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1344">**Status**</span></span>                         | <span data-ttu-id="8fad5-1345">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1345">Removed as of Dynamics AX 7.0.</span></span>                                               |
-
-### <a name="vendor-invoice-pool-excluding-posting-details"></a><span data-ttu-id="8fad5-1346">Kreditora rēķinu kopa bez detalizētās informācijas par grāmatošanu</span><span class="sxs-lookup"><span data-stu-id="8fad5-1346">Vendor invoice pool excluding posting details</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1347">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1347">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1348">Zems lietojums.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1348">Low usage.</span></span> <span data-ttu-id="8fad5-1349">Šī funkcionalitāte ir aizstāta ar rēķinu žurnālu, kuram ir darbplūsmas funkcionalitāte.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1349">This functionality has been replaced by the Invoice journal that has workflow functionality.</span></span> |
-| <span data-ttu-id="8fad5-1350">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1350">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1351">Ar rēķinu žurnāla darbplūsmas iespējām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1351">Workflow capabilities of the Invoice journal.</span></span>     |
-| <span data-ttu-id="8fad5-1352">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1352">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1353">Kreditori</span><span class="sxs-lookup"><span data-stu-id="8fad5-1353">Accounts payable</span></span> |
-| <span data-ttu-id="8fad5-1354">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1354">**Status**</span></span>                         | <span data-ttu-id="8fad5-1355">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1355">Removed as of Dynamics AX 7.0.</span></span>    |
-
-
-### <a name="virtual-company-accounts"></a><span data-ttu-id="8fad5-1356">Virtuālie datu faili</span><span class="sxs-lookup"><span data-stu-id="8fad5-1356">Virtual company accounts</span></span>
-
-<span data-ttu-id="8fad5-1357">Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1357">The virtual companies feature is no longer supported in Dynamics AX.</span></span> <span data-ttu-id="8fad5-1358">Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1358">The virtual companies feature let users set up tables that could be shared by a set of companies.</span></span> <span data-ttu-id="8fad5-1359">Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx).</span><span class="sxs-lookup"><span data-stu-id="8fad5-1359">For a description of the feature, see [Company accounts and Virtual company accounts](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx).</span></span> <span data-ttu-id="8fad5-1360">Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1360">The feature works by grouping tables into collections that are assigned to virtual companies, which are groups of existing “real” companies.</span></span> <span data-ttu-id="8fad5-1361">Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1361">Queries are created so that all the companies in the virtual company can access the data in the tables of the associated table collections.</span></span>
-
-|   |  | 
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1362">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1362">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1363">- Pirms datu šķirošanas tabulās ir jāiestata virtuālie datu faili.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1363">- Virtual companies must be set up before data is stored in the tables.</span></span> <span data-ttu-id="8fad5-1364">Virtuālo datu failu modernizēšana esošajā implementācijā ir ļoti sarežģīta.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1364">Retrofitting virtual companies onto an existing implementation is very difficult.</span></span><br><br><span data-ttu-id="8fad5-1365">- Tā kā pašreizējā Dynamics AX versijā ir veikta apjomīga datu normalizācija, ir grūti zināt, ko pievienot tabulu kolekcijām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1365">- Because there has been so much data normalization in the current version of Dynamics AX, it has become difficult to know what to add to the table collections.</span></span> <span data-ttu-id="8fad5-1366">Piemēram, ir grūti zināt, kuras tabulas kopīgot.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1366">For example, it's difficult to know which tables to share.</span></span> <span data-ttu-id="8fad5-1367">Tāpat ir nepieciešams pievienot arī visas tabulas, uz kurām pastāv atsauces no virtuālajā datu failā esošajām tabulām.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1367">All the tables referenced from tables that are in a virtual company must also added.</span></span> <span data-ttu-id="8fad5-1368">Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1368">Because of table normalization, even simple master data that is spread across multiple tables must be part of the virtual company.</span></span> <span data-ttu-id="8fad5-1369">Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1369">Any mistake that is made here will cause functional issues.</span></span><br><br><span data-ttu-id="8fad5-1370">- Kad tabula ir daļa no virtuāla datu faila, tā zaudē informāciju par datu izcelsmi, un tiek reģistrēts tikai virtuālais datu fails.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1370">- When a table is part of a virtual company, it loses information about the origin of the data, and only the virtual company is recorded.</span></span>   |
-| <span data-ttu-id="8fad5-1371">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1371">**Replaced by another feature?**</span></span> | <span data-ttu-id="8fad5-1372">Lai tabulas padarītu pieejamas no visiem uzņēmumiem, var izmantot globālās tabulas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1372">Global tables can be used to make tables accessible from all companies.</span></span> <span data-ttu-id="8fad5-1373">Pašlaik aizstājēja nav.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1373">Currently, there is no replacement.</span></span> |   
-| <span data-ttu-id="8fad5-1374">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1374">**Product areas affected**</span></span>       | <span data-ttu-id="8fad5-1375">Visi moduļi</span><span class="sxs-lookup"><span data-stu-id="8fad5-1375">All modules</span></span> |   
-| <span data-ttu-id="8fad5-1376">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1376">**Status**</span></span>                       | <span data-ttu-id="8fad5-1377">Noņemts, sākot ar Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1377">Removed as of Dynamics AX 7.0.</span></span>   |   
-
-### <a name="windows-8-tablet-app"></a><span data-ttu-id="8fad5-1378">Windows 8 planšetdatoru programma</span><span class="sxs-lookup"><span data-stu-id="8fad5-1378">Windows 8 tablet app</span></span>
-
-<span data-ttu-id="8fad5-1379">Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprināšanas funkcijas.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1379">The Windows 8 tablet app provided functionality for expense entry and approval.</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1380">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1380">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1381">Programmatūra Dynamics 365 for Finance and Operations ir saderīga ar planšetdatoriem.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1381">Finance and Operations is compatible with tablets.</span></span> <span data-ttu-id="8fad5-1382">Planšetdatoru programma vairs nav nepieciešama.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1382">The tablet app is no longer required.</span></span>    |
-| <span data-ttu-id="8fad5-1383">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1383">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1384">Nē.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1384">No.</span></span>          |
-| <span data-ttu-id="8fad5-1385">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1385">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1386">Izmaksu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1386">Expense management</span></span>   |
-| <span data-ttu-id="8fad5-1387">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1387">**Status**</span></span>                         | <span data-ttu-id="8fad5-1388">Noņemts: šī funkcionalitāte ir pieejama tikai versijā Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1388">Removed: This functionality is only available for Dynamics AX 2012 R3.</span></span> |
-
-### <a name="workplanner"></a><span data-ttu-id="8fad5-1389">Darbu plānotājs</span><span class="sxs-lookup"><span data-stu-id="8fad5-1389">Workplanner</span></span>
-
-|   |  |
-|------------|--------------------|
-| <span data-ttu-id="8fad5-1390">**Novecošanas/noņemšanas pamatojums**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1390">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="8fad5-1391">Zems lietojums</span><span class="sxs-lookup"><span data-stu-id="8fad5-1391">Low usage</span></span> |
-| <span data-ttu-id="8fad5-1392">**Vai aizstāts ar citu līdzekli?**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1392">**Replaced by another feature?**</span></span>   | <span data-ttu-id="8fad5-1393">Nē, bet lapa **Profila saistība**, kura tiek atvērta no lapas **Profilu grupas**, atbalsta tādu pašu biznesa scenāriju kā novecojusī lapa **Darbu plānotājs**.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1393">No, but the **Profile relation** page, which is opened from the **Profile groups** page, supports the same business scenario as the deprecated **Workplanner** page.</span></span> |
-| <span data-ttu-id="8fad5-1394">**Ietekmētie produkta apgabali**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1394">**Product areas affected**</span></span>         | <span data-ttu-id="8fad5-1395">Laiks un apmeklētība</span><span class="sxs-lookup"><span data-stu-id="8fad5-1395">Time and attendance</span></span>     |
-| <span data-ttu-id="8fad5-1396">**Statuss**</span><span class="sxs-lookup"><span data-stu-id="8fad5-1396">**Status**</span></span>                         | <span data-ttu-id="8fad5-1397">Šis kods nav noņemts.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1397">The code has not been removed.</span></span> <span data-ttu-id="8fad5-1398">Taču forma JmgWorkPlanner netika migrēta.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1398">However, the form, JmgWorkPlanner, was not migrated.</span></span>    |
-
-### <a name="x-financial-statements"></a><span data-ttu-id="8fad5-1399">X++ finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="8fad5-1399">X++ financial statements</span></span>
-
-|                                                 |                                                                                                          |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="8fad5-1400"><strong>Novecošanas/noņemšanas pamatojums</strong></span><span class="sxs-lookup"><span data-stu-id="8fad5-1400"><strong>Reason for deprecation/removal</strong></span></span> |                         <span data-ttu-id="8fad5-1401">Šī funkcionalitāte ir aizstāta ar citu līdzekli.</span><span class="sxs-lookup"><span data-stu-id="8fad5-1401">This functionality has been replaced by another feature.</span></span>                         |
-|  <span data-ttu-id="8fad5-1402"><strong>Vai aizstāts ar citu līdzekli?</strong></span><span class="sxs-lookup"><span data-stu-id="8fad5-1402"><strong>Replaced by another feature?</strong></span></span>  | <span data-ttu-id="8fad5-1403">Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong>)</span><span class="sxs-lookup"><span data-stu-id="8fad5-1403">Management Reporter (labeled <strong>Financial reporting</strong> in the current version of Dynamics AX)</span></span> |
-|     <span data-ttu-id="8fad5-1404"><strong>Ietekmētie produkta apgabali</strong></span><span class="sxs-lookup"><span data-stu-id="8fad5-1404"><strong>Product areas affected</strong></span></span>     |                                              <span data-ttu-id="8fad5-1405">Virsgrāmata</span><span class="sxs-lookup"><span data-stu-id="8fad5-1405">General ledger</span></span>                                              |
-|             <span data-ttu-id="8fad5-1406"><strong>Statuss</strong></span><span class="sxs-lookup"><span data-stu-id="8fad5-1406"><strong>Status</strong></span></span>             |                                      <span data-ttu-id="8fad5-1407">Noņemts, sākot ar Dynamics AX 2012</span><span class="sxs-lookup"><span data-stu-id="8fad5-1407">Removed as of Dynamics AX 2012</span></span>                                      |
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="deprecated-features.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>deprecated-features.a8ef67.9daba2449b6a20634c13117cedb6b63fcc8ee674.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>9daba2449b6a20634c13117cedb6b63fcc8ee674</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>fcae2e7938d7dbd94b76b0948b084d90d5fc919c</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\migration-upgrade\deprecated-features.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Removed or deprecated features</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemtie vai novecojušie līdzekļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes features that have been removed, or that are planned for removal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Removed or deprecated features</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemtie vai novecojušie līdzekļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic describes features that have been removed or deprecated for Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir aprakstīti līdzekļi, kas ir novecojuši vai noņemti no programmas Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>A <bpt id="p1">*</bpt>removed<ept id="p1">*</ept> feature is no longer available in the product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Noņemts<ept id="p1">*</ept> līdzeklis produktā vairs nav pieejams.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>A <bpt id="p1">*</bpt>deprecated<ept id="p1">*</ept> feature is not in active development and may be removed in a future update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Novecojis<ept id="p1">*</ept> līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>This list is intended to help you consider these removals and deprecations for your own planning.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Starting with the Dynamics 365 for Finance and Operations July 2017 release with platform update 8, the type of deployments are noted for each removed or deprecated feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar programmas Dynamics 365 for Finance and Operations 2017. gada jūlija laidienu ar 8. platformas atjauninājumu, ir norādīts katra noņemtajā vai novecojušā līdzekļa izvietojumu veids.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>All of the previous releases mentioned in this topic supported cloud deployments only.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Detailed information about objects in Finance and Operations can be found in the <bpt id="p1">[</bpt>Technical reference reports<ept id="p1">](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā <bpt id="p1">[</bpt>Tehniskās atsauces pārskati<ept id="p1">](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of Finance and Operations.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Dynamics 365 for Finance and Operations 10.0.4</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.4</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>France: FEC Accounting data export in XML</source><target logoport:matchpercent="73" state="translated" state-qualifier="fuzzy-match">Francija: FEC uzskaites datu eksports XML formātā</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Replaced by TXT format, <bpt id="p1">**</bpt>French FEC audit file<ept id="p1">**</ept> is available through <bpt id="p2">**</bpt>General ledger<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Periodic tasks<ept id="p3">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt>Data export<ept id="p4">**</ept>.</source><target logoport:matchpercent="0" state="translated">Aizstāts ar TXT formātu, <bpt id="p1">**</bpt>Franču FEC audita fails<ept id="p1">**</ept> ir pieejams, izmantojot ceļu <bpt id="p2">**</bpt>Virsgrāmata<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Periodiskie uzdevumi<ept id="p3">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt>Datu eksports<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Yes</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>General ledger</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>All</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Deprecated.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Novecojis.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Target timeframe for the functionality to be removed is July 2020.</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada jūlijs.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Dynamics 365 for Finance and Operations 10.0.4 with Platform update 28</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Dynamics 365 for Finance and Operations 10.0.4 with Platform update 28 is available to targeted users as part of a preview release.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>The content and the functionality are subject to change.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saturs un funkcionalitāte var tikt mainīti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>For more information about preview releases, see <bpt id="p1">[</bpt>Service update availability<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā <bpt id="p1">[</bpt>Pakalpojuma atjauninājumu pieejamība<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Legacy navigation bar</source><target logoport:matchpercent="69" state="translated" state-qualifier="fuzzy-match">Mantotā navigācijas josla</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Header alignment with other Dynamics and Office products.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Galvenes līdzinājums ar citiem Dynamics un Office produktiem.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>For more details, see <bpt id="p1">[</bpt>Updated navigation bar that aligns with the Office header<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar)</ept>.</source><target logoport:matchpercent="0" state="translated">Plašāku informāciju skatiet tēmā <bpt id="p1">[</bpt>Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar)</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Starting in Platform update 24, a restyled navigation bar that features search was introduced.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Sākot ar atjauninājumu Platform update 24, tika ieviesta pārveidota navigācijas josla ar meklēšanas iespējām.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Web client</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīmekļa klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>All</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Deprecated: Starting in April 2020, the legacy navigation bar will no longer be available.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Novecojis: sākot ar 2020. aprīli, mantotā navigācijas josla vairs nebūs pieejama.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Until that point, customers can revert to the legacy navigation bar through the <bpt id="p1">**</bpt>Client performance options<ept id="p1">**</ept> page.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Līdz tam brīdim klienti var atgriezties pie mantotās navigācijas joslas, izmantojot lapu <bpt id="p1">**</bpt>Klienta veiktspējas opcijas<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26 is available to targeted users as part of a preview release.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>The content and the functionality are subject to change.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saturs un funkcionalitāte var tikt mainīti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>For more information about preview releases, see <bpt id="p1">[</bpt>Service update availability<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā <bpt id="p1">[</bpt>Pakalpojuma atjauninājumu pieejamība<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Legacy default action behavior</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantotā noklusējuma darbību uzvedība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The legacy behavior for default actions in grids results in an unexpected column having the default action link after grid columns have been reordered via personalization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklusējuma darbību mantotās uzvedības rezultātā tiek izveidota neparedzēta kolonna ar noklusējuma darbības saiti pēc tam, kad tabulas kolonnas ir pārkārtotas, izmantojot personalizēšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>The new sticky default action feature corrects this.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunais fiksēto noklusējuma darbību līdzeklis to koriģē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>For more details, see <bpt id="p1">[</bpt>Sticky default actions in grids<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju skatiet tēmā <bpt id="p1">[</bpt>Fiksētās noklusējuma darbības tabulās<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Starting in Platform update 21, a feature for "sticky default actions" was introduced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar 21. platformas atjauninājumu, tika ieviests “fiksēto noklusējuma darbību” līdzeklis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>This feature can be enabled on the <bpt id="p1">**</bpt>Client performance options<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo līdzekli var iespējot lapā <bpt id="p1">**</bpt>Klienta veiktspējas opcijas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Grids in the web client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tabulas tīmekļa klientā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Deprecated: Starting in April 2020, sticky default actions will be the default behavior, without a mechanism to revert to the legacy behavior.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: sākot ar 2020. gada aprīli, fiksētās noklusējuma darbības būs noklusējuma uzvedība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Legacy "is one of" filtering experience</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantotā filtrēšanas darbība "ir viens no"</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>The "is one of" filtering experience went through a redesign in Platform update 22,with the plan for this to eventually be the only "is one of" filtering experience.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filtrēšanas darbība “ir viens no” tika pārstrādāta 22. platformas atjauninājumā, paredzot, ka nākotnē tā būs vienīgā filtrēšanas darbība “ir viens no”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Starting in Platform update 22, an improved "is one of" filtering experience became available on the <bpt id="p1">**</bpt>Client performance options<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar 22. platformas atjauninājumu, uzlabota filtrēšanas darbība “ir viens no” kļuva pieejama lapā <bpt id="p1">**</bpt>Klienta veiktspējas opcijas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>For more information, see <bpt id="p1">[</bpt>Optimized is one of filtering experience<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju skatiet sadaļā <bpt id="p1">[</bpt>Optimizēta filtra “ir viens no” izmantošana<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Web client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīmekļa klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Deprecated: Starting in April 2020, the improved "is one of" experience will be the default behavior, without a mechanism to revert to the legacy behavior.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: sākot ar 2020. gada aprīli, uzlabotā filtrēšanas darbība “ir viens no” būs noklusējuma darbība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Parameter to enable sales orders with multiple project contract funding sources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametrs, lai iespējotu pārdošanas pasūtījumus ar vairākiem projekta līguma finansējuma avotiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Support for creating project-based sales orders where the project contract has multiple funding sources is enabled with the <bpt id="p1">**</bpt>Project management parameters<ept id="p1">**</ept> setting <bpt id="p2">**</bpt>Allow sales orders for project with multiple funding sources<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta līgumam ir vairāki finansējuma avoti, tiek iespējots, izmantojot sadaļas <bpt id="p2">**</bpt>Projektu pārvaldības parametri<ept id="p2">**</ept> iestatījumu <bpt id="p1">**</bpt>Atļaut pārdošanas pasūtījumus projektam ar vairākiem finansējuma avotiem<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>By default, this parameter is not enabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc noklusējuma šis parametrs nav iespējots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>The functionality will always be enabled after the parameter is removed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitāte vienmēr būs iespējota pēc parametra noņemšanas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nr.p.k.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>The functionality to support project-based sales orders with multiple funding sources will always be enabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>The <bpt id="p1">**</bpt>Allow sales orders for projects with multiple funding sources<ept id="p1">**</ept> parameter will be removed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametrs <bpt id="p1">**</bpt>Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem<ept id="p1">**</ept> tiks noņemts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>The following methods will be modified when the parameter is removed: <bpt id="p1">**</bpt>ctrlSalesOrderTable<ept id="p1">**</ept> method in <bpt id="p2">**</bpt>ProjStatusType<ept id="p2">**</ept> class, <bpt id="p3">**</bpt>validate<ept id="p3">**</ept> method for <bpt id="p4">**</bpt>ProjId<ept id="p4">**</ept> field, and <bpt id="p5">**</bpt>run<ept id="p5">**</ept> method in <bpt id="p6">**</bpt>SalescreateOrder<ept id="p6">**</ept> form.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc parametra noņemšanas tiks mainītas šādas metodes: <bpt id="p1">**</bpt>ctrlSalesOrderTable<ept id="p1">**</ept> metode <bpt id="p2">**</bpt>ProjStatusType<ept id="p2">**</ept> klasē, <bpt id="p3">**</bpt>validate<ept id="p3">**</ept> metode <bpt id="p4">**</bpt>ProjId<ept id="p4">**</ept> laukā un <bpt id="p5">**</bpt>run<ept id="p5">**</ept> metode <bpt id="p6">**</bpt>SalescreateOrder<ept id="p6">**</ept> formā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>The following methods will be deprecated when the parameter is removed: <bpt id="p1">**</bpt>IsSalesOrderAllowedForMultipleFundingSources<ept id="p1">**</ept> in <bpt id="p2">**</bpt>ProjTable<ept id="p2">**</ept> table file, <bpt id="p3">**</bpt>IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled<ept id="p3">**</ept> method in <bpt id="p4">**</bpt>ProjTable<ept id="p4">**</ept> table file, <bpt id="p5">**</bpt>AllowSalesOrdersForMultipleFundingSources<ept id="p5">**</ept> data field in <bpt id="p6">**</bpt>ProjParameters<ept id="p6">**</ept> form and <bpt id="p7">**</bpt>ProjParameterEntity<ept id="p7">**</ept> files, <bpt id="p8">**</bpt>IsAssociatedToMultipleFundingSourcesContract<ept id="p8">**</ept> private method in <bpt id="p9">**</bpt>ProjTable<ept id="p9">**</ept> table file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc parametra noņemšanas būs novecojušas šādas metodes: <bpt id="p1">**</bpt>IsSalesOrderAllowedForMultipleFundingSources<ept id="p1">**</ept> metode <bpt id="p2">**</bpt>ProjTable<ept id="p2">**</ept> tabulas failā, <bpt id="p3">**</bpt>IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled<ept id="p3">**</ept> metode <bpt id="p4">**</bpt>ProjTable<ept id="p4">**</ept> tabulas failā, <bpt id="p5">**</bpt>AllowSalesOrdersForMultipleFundingSources<ept id="p5">**</ept> datu lauks <bpt id="p6">**</bpt>ProjParameters<ept id="p6">**</ept> formā un <bpt id="p7">**</bpt>ProjParameterEntity<ept id="p7">**</ept> failos, <bpt id="p8">**</bpt>IsAssociatedToMultipleFundingSourcesContract<ept id="p8">**</ept> privātā metode <bpt id="p9">**</bpt>ProjTable<ept id="p9">**</ept> tabulas failā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Deprecation is planned for the April 2020 release wave.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalsta pārtraukšana ir paredzēta 2020. gada aprīļa laidienu kopumā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Legacy workflow reports for tracking and instance status</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantoti darbplūsmas pārskati izsekošanas un gadījumu statusam</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>The legacy workflow reports for tracking and instance status are being deprecated because they are no longer referenced from the navigation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantotajiem darbplūsmas ziņojumiem izsekošanas un gadījumu statusam tiek pārtraukts atbalsts, jo uz tiem vairs nav atsauces navigācijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>The report names are WorkflowWorkflowInstanceByStatusReport and WorkflowWorkflowTrackingReport.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskatu nosaukumi ir WorkflowWorkflowInstanceByStatusReport un WorkflowWorkflowTrackingReport.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>The workflow history form can be used instead.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā vietā var izmantot darbplūsmas vēstures formu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Web client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīmekļa klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Deprecated: Target timeframe for the functionality to be removed is April 2020.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada aprīlis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Dynamics 365 for Finance and Operations 10.0.1 with platform update 25</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Dynamics 365 for Finance and Operations 10.0.1 with Platform update 25 is available to targeted users as part of a preview release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>The content and the functionality are subject to change.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saturs un funkcionalitāte var tikt mainīti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>For more information about preview releases, see <bpt id="p1">[</bpt>Service update availability<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā <bpt id="p1">[</bpt>Pakalpojuma atjauninājumu pieejamība<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Deprecated APIs and potential breaking changes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojušie API un iespējamas traucējumus radošas izmaiņas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Deriving from internal classes is deprecated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atvasināšana no iekšējām klasēm ir novecojusi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Before Platform update 25, it was possible to create a class or table that derives from an internal class/table that is defined in another package/module.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirms 25. platformas atjauninājuma bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>This is not a safe coding practice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šāda kodēšanas prakse nav droša.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>As of Platform update 25, the compiler will display a warning.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>The compiler warning will be replaced by an error in Platform update 26.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kompilatora brīdinājums tiks aizstāts ar kļūdu 26. platformas atjauninājumā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>This change only affects development and compile time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Visual Studio development tools</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visual Studio izstrādes rīki</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Deprecated: The warning will become a compilation error in Platform update 26.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Overriding internal methods is deprecated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iekšējo metožu ignorēšana ir novecojusi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Before Platform update 25, it was possible to override an internal method in a derived class that is defined in another package/module.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirms 25. platformas atjauninājuma bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>This is not a safe coding practice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šāda kodēšanas prakse nav droša.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>As of Platform update 25, the compiler will display a warning.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>This warning will be replaced by a compile error in Platform update 26.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu 26. platformas atjauninājumā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>This change only affects development and compile time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Visual Studio development tools</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visual Studio izstrādes rīki</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Deprecated: The warning will become a compilation error in Platform update 26.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Dynamics 365 for Finance and Operations 8.1.3 with platform update 23</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 8.1.3 ar 23. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>SQL Server Reporting Services ReportViewer Control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Customers can use the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> action provided by the embedded SQL Server Reporting Services (SSRS) ReportViewer control to download documents produced by Finance and Operations applications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klienti var izmantot darbību <bpt id="p1">**</bpt>Eksportēt<ept id="p1">**</ept>, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>This HTML-based presentation of the report offers users a non-paginated preview of the document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>The non-paginated nature of the HTML-based preview experience does <bpt id="p1">**</bpt>not<ept id="p1">**</ept> deliver fidelity with the physical documents ultimately produced by Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Versija bez lapdales HTML priekšskatījumā <bpt id="p1">**</bpt>nenodrošina<ept id="p1">**</ept> precīzu atbilstību fiziskajiem dokumentiem, kas galu galā tiek izveidoti programmā Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>By fully embracing PDF as the standard format for business documents, users are able to take advantage of a modern viewing experience with improved performance when producing application reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pilnībā ieviešot PDF kā standarta formātu biznesa dokumentiem, lietotāji var izmantot modernas skatīšanas iespējas ar uzlabotu veiktspēju, veidojot pieteikumu pārskatus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Going forward, PDF documents will be the default format for reports rendered by Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmāk PDF dokumenti būs noklusējuma formāts pārskatiem, kurus atveido programma Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>This change does <bpt id="p1">**</bpt>not<ept id="p1">**</ept> impact customer scenarios where reports are distributed electronically or sent directly to printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs izmaiņas <bpt id="p1">**</bpt>neietekmē<ept id="p1">**</ept> klientu scenārijus, kuros pārskati tiek izplatīti elektroniski vai nosūtīti tieši uz printeriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>The functionality to automatically preview application reports using an embedded PDF viewer is planned for the May 2019 Platform update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019. gada maija platformas atjauninājumā ir paredzēta funkcionalitāte, lai automātiski priekšskatītu pieteikumu pārskatus, izmantojot iegulto PDF skatītāju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Client KPI controls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klienta KPI vadīklas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Embedded key performance indicators (KPIs) could be modeled in Visual Studio by a developer and further customized by the end user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI) programmā Visual Studio, un lietotājs var veikt to turpmāku pielāgošanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>The native client controls used to define KPIs have low customer uptake and rely on a developer to add trackable metrics.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tādu vietējā klienta vadīklu gadījumā, ko izmanto, lai definētu KPI, ir zema klientu aktivitāte un ir nepieciešams izstrādātājs, lai pievienotu izsekojamus rādītājus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>PowerBI.com service delivers world-class tooling for defining and managing KPIs based on data from external sources.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PowerBI.com pakalpojums nodrošina pasaules līmeņa rīkus KPI definēšanai un pārvaldībai, balstoties uz datiem no ārējiem avotiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>In an upcoming release, we plan to enable you to embed solutions hosted on PowerBI.com in application workspaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmākajos laidienos ir paredzēta iespēja pakalpojumā PowerBI.com viesotus risinājumus iegult programmas darbvietās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>This update will prevent developers from introducing new KPI controls in Visual Studio designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis atjauninājums neļaus izstrādātājiem ieviest jaunas KPI vadīklas Visual Studio noformētājā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Deprecated APIs and future breaking changes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojušie API un turpmākas traucējumus radošas izmaiņas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Field groups containing invalid field references</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lauku grupas, kas ietver nederīgas lauku atsauces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>It is possible for table metadata definitions to have field groups containing invalid field references.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>This issue is currently categorized as a <bpt id="p1">*</bpt>compiler warning<ept id="p1">*</ept> rather than an <bpt id="p2">*</bpt>error<ept id="p2">*</ept>, meaning that the deployable package creation and deployment can proceed without fixing the issue.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī problēma pašlaik tiek klasificēta kā <bpt id="p1">*</bpt>kompilatora brīdinājums<ept id="p1">*</ept>, nevis <bpt id="p2">*</bpt>kļūda<ept id="p2">*</ept>, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>If deployed, this can cause runtime failures in Financial Reporting and SQL Server Reporting Services (SSRS).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>To fix this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai novērstu šo problēmu:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>1. Remove the invalid field reference from the table field group definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>2. Recompile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. Pārkompilējiet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>3. Ensure any warnings or errors are addressed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>This warning will be replaced by a compile error in the future.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Visual Studio development tools.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visual Studio izstrādes rīki.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>All.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Deprecated: The warning will become a compile-time error in the future.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>We're currently targeting Platform update 30.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paredzams, ka tas tiks veikts atjauninājumā Platform update 30.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Complete list</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pilnīgs saraksts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>To access the full list of APIs that are being deprecated, see <bpt id="p1">[</bpt>Deprecation of methods and meta data elements<ept id="p1">](deprecation-deletion-apis.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu <bpt id="p1">[</bpt>Atbalsta pārtraukšana metodēm un metadatu elementiem<ept id="p1">](deprecation-deletion-apis.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Dynamics 365 for Finance and Operations 8.1 with platform update 20</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Batch transfer rules for subledger journal account entries</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>The Synchronous transfer mode is being deprecated in the General ledger parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>This mode is replaced by Asynchronous and scheduled batch only, which already exist as options for transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>For additional information, see the <bpt id="p1">[</bpt>General Ledger Parameters – Batch transfer rules<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules)</ept> blog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju skatiet emuārā <bpt id="p1">[</bpt>Virsgrāmatas parametri — partijas pārsūtīšanas kārtulas<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>We are removing the synchronous option due to performance impact to the system.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mēs noņēmām sinhrono opciju veiktspējas ietekmes uz sistēmu dēļ.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>Asynchronous and scheduled batch are options to use in place of Synchronous.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Opciju Asinhroni un plānoto partiju var izmantot opcijas Sinhroni vietā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>General Ledger, Accounts payable, Accounts Receivable, Procurement, Expense</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata, Debitori, Kreditori, Sagāde, Izdevumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Deprecated: Target timeframe for the functionality to be removed is the 10.0 version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 10.0 versija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>Electronic reporting for Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektroniskā pārskata veidošanas formāts Krievijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Feature for configuring .txt and .xml file formats of declarations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>Replaced with Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nomainīts ar elektronisku iesniegšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>General Ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>Financial reports generator for Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu pārskatu veidotājs Krievijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>A tool for setting up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>Functional parts: Export data to XLS and DOC report templates, queries, fixed requisites are removed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>Removed parts are replaced with Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemtās daļas ir aizstātas ar elektroniskajiem pārskatiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Financial reports setup user interface should be used for setting up data collection rules by GL accounts or tax registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>Export data to various file types, fixed requisites and query-like data collection rules should be configured in Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>General ledger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>Integration with external providers for sending electronic reporting through communication channels for Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>Feature exporting generated electronic files of declarations to folder for further sending to official providers of electronic reporting as well as importing state back.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>Replaced with electronic messages configurable feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizstāts ar konfigurējamu elektronisko ziņojumu līdzekli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>General Ledger, Tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata, nodokļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>Profit tax register wizard</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peļņas nod. reģ. vednis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>Feature for creating templates for new profit tax registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>This feature creates X++ objects for new registers, which are then  created as templates with the appropriate calculation logic added in.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis rada X++ objektus jauniem reģistriem, kuri pēc tam tiek izveidoti kā veidnes ar pievienotu atbilstošu aprēķina loģiku.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Feature is not compatible with the Dynamics 365 for Finance and Operations extensibility model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Līdzeklis nav saderīgs ar Dynamics 365 for Finance and Operations paplašināšanas modeli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Finance and Operations 8.1 ar 20. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>Dynamics 365 for Finance and Operations 8.0 with platform update 15</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 8.0 ar 15. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>No features have been removed or deprecated with this release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>Platform update 15 is cumulative and contains new or changed features from Platform update 13, Platform update 14, and Platform update 15.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 with platform update 12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations Enterprise Edition 7.3 ar 12. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>Personalized product recommendations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizēti preču ieteikumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>For more information, see <bpt id="p1">[</bpt>Personalized product recommendations<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju skatiet tēmā <bpt id="p1">[</bpt>Personalizēti preču ieteikumi<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>Personalized product recommendations in POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizēti preču ieteikumi pārdošanas punktā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>Removed as of February 15, 2018.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts kopš 2018. gada 15. februāra.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>This affects customers running Dynamics 365 for Operations 1611 and later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Operations 1611 un jaunākas tās versijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>Extension of the list of Electronic reporting (ER) functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source>The possibility to introduce custom functions to be used in the ER expression builder (for more information, see <bpt id="p1">[</bpt>Extend the list of Electronic reporting functions<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)</ept>) is not supported any more.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: <bpt id="p1">[</bpt>Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>Due to changes of the ER APIs, the API to call built-in functions from the ER expression builder became internal and can’t be extended any longer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Code sealing initiative</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koda noslēgšanas iniciatīva</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>None.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>Whenever a new built-in function is needed, a new extension request must be addressed to the ER framework team.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>As a temporary work around while the requested function is under development by the ER team, the required logic can be programmed as a method of a custom application class.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>This method can be accessed in an ER expression as a property of the added ER data source of the <bpt id="p1">**</bpt>Application\Class<ept id="p1">**</ept> type that refers to that custom application class.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu <bpt id="p1">**</bpt>Programma\Klase<ept id="p1">**</ept>, kas attiecas uz šo pielāgoto programmas klasi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>Electronic reporting framework</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektronisko pārskatu veidošanas struktūra</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Removed as of Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Finance and Operations Enterprise Edition 7.3.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>Inventory by item group and Inventory by inventory dimension aging reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskats “Krājumi pēc krājumu grupas” un “Krājumi pēc krājumu dimensijas vecumstruktūras”</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>These two reports are no longer supported in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>Instead, the <bpt id="p1">**</bpt>Inventory aging<ept id="p1">**</ept> report can be used to improve the user experience.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai uzlabotu lietotāju funkcionalitāti, to vietā var izmantot pārskatu <bpt id="p1">**</bpt>Krājumu vecumstruktūras<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source><bpt id="p1">**</bpt>Reason for deprecation<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>Duplicate functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitātes dublēšanās</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>The two reports have been replaced by the <bpt id="p1">**</bpt>Inventory aging<ept id="p1">**</ept> report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie abi pārskati ir aizstāti ar pārskatu <bpt id="p1">**</bpt>Krājumu vecumstruktūras<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Inventory management, Cost management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krājumu pārvaldība, Izmaksu pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Deprecated: The menu items for the two reports have been removed in version 7.3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source>However, the code for the reports remains in the product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>The plan is to remove the code in a future release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo kodu ir plānots noņemt turpmākajos laidienos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>Power BI content packs available on AppSource</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vietnē AppSource pieejamās Power BI satura pakotnes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>The <bpt id="p1">**</bpt>Cost management<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Financial performance<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Retail channel performance<ept id="p3">**</ept> content packs, available on the <bpt id="p4">[</bpt>Microsoft AppSource<ept id="p4">](https://appsource.microsoft.com)</ept> site, are deprecated as a consequence of product updates in Microsoft Power BI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes <bpt id="p1">**</bpt>Izmaksu pārvaldība<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Finanšu veiktspēja<ept id="p2">**</ept> un <bpt id="p3">**</bpt>Mazumtirdzniecības kanāla veiktspēja<ept id="p3">**</ept>, kas ir pieejamas vietnē <bpt id="p4">[</bpt>Microsoft AppSource<ept id="p4">](https://appsource.microsoft.com)</ept>, ir novecojušas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>System administration forms used to deploy these content packs to PowerBI.com are also being deprecated in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>Product updates in Microsoft Power BI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktu atjauninājumi pakalpojumā Microsoft Power BI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>The <bpt id="p1">**</bpt>Cost management<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Financial performance<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Retail channel performance<ept id="p3">**</ept> content packs, available on the <bpt id="p4">[</bpt>AppSource<ept id="p4">](https://appsource.microsoft.com)</ept> site, are being replaced by analytical applications which allow for solution integrations at the database level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satura pakotnes <bpt id="p1">**</bpt>Izmaksu pārvaldība<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Finanšu veiktspēja<ept id="p2">**</ept> un <bpt id="p3">**</bpt>Mazumtirdzniecības kanāla veiktspēja<ept id="p3">**</ept>, kas pieejamas vietnē <bpt id="p4">[</bpt>AppSource<ept id="p4">](https://appsource.microsoft.com)</ept>, tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>For more information about analytical applications, see <bpt id="p1">[</bpt>Embedded Power BI in workspackes<ept id="p1">](../../dev-itpro/analytics/embed-power-bi-workspaces.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par analītiskām lietojumprogrammām skatiet rakstā <bpt id="p1">[</bpt>Darbvietās iegultais Power BI saturs<ept id="p1">](../../dev-itpro/analytics/embed-power-bi-workspaces.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>Cost management, Finance, and Retail</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmaksu pārvaldība, Finanses un Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>Cloud only (Integration with PowerBI.com is not supported in on-premises deployments.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Deprecated: Target timeframe for the functionality removal is Q2 2018.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>Standard UI in data management workspace</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Standarta UI datu pārvaldības darbvietā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>The standard UI in data management is the legacy UI, which is the default UI presented to the users when they visit the data management workspace.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Standarta UI datu pārvaldībā ir pārmantotais UI, un tas ir noklusējuma UI, kurš tiek radīts lietotājiem, kad viņi apmeklē datu pārvaldības darbvietu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>We are investing in providing new user experiences in the new UI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mēs cenšamies jaunajā UI nodrošināt jaunu lietotāja funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>The new UI called <bpt id="p1">*</bpt>Enhanced views<ept id="p1">*</ept> is replacing the old UI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veco UI nomaina jaunais UI, kura nosaukums ir <bpt id="p1">*</bpt>Uzlabotie skati<ept id="p1">*</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>Data management workspace</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu pārvaldības darbvieta</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>Deprecated: Target timeframe for the functionality to be removed is Q2 2018.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>Excise, Sales Tax, Service Tax for India</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Akcīze, PVN, pakalpojuma nodoklis Indijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>These taxes have been subsumed into Indian GST.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie nodokļi ir ietilpināti Indijas GST.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Noņemšanas vai novecošanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>These taxes have been subsumed into Indian GST.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie nodokļi ir ietilpināti Indijas GST.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>Indian GST</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indijas GST</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>File Validation Utility (FVU) for India</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Failu validēšanas utilīta (FVU) Indijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Noņemšanas vai novecošanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>Lack of customer usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru lietojuma trūkums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>Indian withholding tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indijas ieturētais nodoklis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>TDS/TCS certificate for India</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TDS/TCS sertifikāts Indijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>Users can download this from the government portal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietotāji to var lejupielādēt no valsts portāla.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Noņemšanas vai novecošanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>Lack of customer usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru lietojuma trūkums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source>Indian withholding tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indijas ieturētais nodoklis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Export/import (EXIM) incentive scheme for India</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eksporta/importa (EXIM) veicināšanas shēma Indijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Noņemšanas vai novecošanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>Lack of customer usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru lietojuma trūkums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>Import and export</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eksportēšana un importēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>Dynamics 365 for Retail 7.2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Retail 7.2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source>Personalized product recommendations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizēti preču ieteikumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>For more information, see <bpt id="p1">[</bpt>Personalized product recommendations<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju skatiet tēmā <bpt id="p1">[</bpt>Personalizēti preču ieteikumi<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>Personalized product recommendations in POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizēti preču ieteikumi pārdošanas punktā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>Removed as of February 15, 2018.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts kopš 2018. gada 15. februāra.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>This affects customers running Dynamics 365 for Retail 7.2  and later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Retail 7.2 un jaunākas tās versijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>Dynamics 365 for Finance and Operations, Enterprise edition July 2017 with platform update 8</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations Enterprise Edition 2017. gada jūlija izdevums ar 8. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>Currency conversion for accounting and reporting currencies</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valūtas konvertēšana uzskaites un pārskata valūtām</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>Currency conversion for accounting and reporting currencies was introduced when the euro was introduced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valūtas konvertēšana uzskaites un pārskata valūtām tika ieviesta, kad tika ieviests eiro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source>Limited usage and addition of the Copy legal entity functionality as a replacement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierobežots lietojums un papildināšana ar juridiskās personas kopēšanas funkcionalitāti kā aizvietojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source>No, but the Copy legal entity and Configurations features were added to make it easier to move to a company that has changing core requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē, bet tika pievienoti līdzekļi “Kopēt juridisko personu” un “Konfigurācijas”, lai būtu ērtāk pāriet uz uzņēmumu, kam ir mainīgas pamata prasības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>Financial management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="500">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="501">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="502">
+          <source>Warehouse mobile devices portal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noliktavas mobilo ierīču portāls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="503">
+          <source>Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="504">
+          <source>This component is no longer supported in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis komponents vairs netiek atbalstīts programmā Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="505">
+          <source>A native app that improves the user experience has replaced the functionality of WMDP.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">WMDP funkcionalitāte ir aizstāta ar iekšēju programmu, kas uzlabo lietotāju iespējas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="506">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="507">
+          <source>Duplicate functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitātes dublēšanās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="508">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="509">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="510">
+          <source>This feature has been replaced by Finance and Operations - Warehousing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="511">
+          <source>For more information about setup and prerequisites, see <bpt id="p1">[</bpt>Install and configure Microsoft Dynamics 365 for Finance and Operations - Warehousing<ept id="p1">](../../supply-chain/warehousing/install-configure-warehousing-app.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā <bpt id="p1">[</bpt>Microsoft Dynamics 365 for Finance and Operations — Warehousing instalēšana un konfigurēšana<ept id="p1">](../../supply-chain/warehousing/install-configure-warehousing-app.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="512">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="513">
+          <source>Warehouse management, Transportation management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noliktavas pārvaldība, Transportēšanas pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="514">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="515">
+          <source>Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="516">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="517">
+          <source>Deprecated: Target timeframe for the functionality to be removed is Q4 2019.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2019. gada 4. ceturksnis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="518">
+          <source>Advanced bank reconciliation matching rule for manual matching</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalizētās bankas darbību atbilstības kārtula manuālai atbilstības noteikšanai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="519">
+          <source>A matching rule was used to select and mark a bank document when documents were manually matched in the reconciliation worksheet.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbilstības kārtula tika izmantota, lai atlasītu un atzīmētu bankas dokumentu, manuāli nosakot dokumentu atbilstību saskaņošanas darblapā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="520">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="521">
+          <source>Limited usage.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierobežots lietojums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="522">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="523">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="524">
+          <source>Column filtering capabilities should be used to find documents for reconciliation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saskaņojamo dokumentu atrašanai ir jāizmanto kolonnu filtrēšanas iespējas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="525">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="526">
+          <source>Cash and bank management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kases un bankas vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="527">
+          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izvietošanas iespēja<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="528">
+          <source>All</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="529">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="530">
+          <source>Removed as of July 2017.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts kopš 2017. gada jūlija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="531">
+          <source>Dynamics 365 for Operations 1611 with platform update 3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Operations 1611 ar 3. platformas atjauninājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="532">
+          <source>AEB payment formats for Spain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AEB maksājumu formāti Spānijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="533">
+          <source>The Consejo Superior Bancario payment formats were used to send remittance files to the bank for customer payments and vendor payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consejo Superior Bancario maksājumu formāti tika izmantoti, lai pārskaitījumu failus nosūtītu uz banku debitoru un kreditoru maksājumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="534">
+          <source>The content of these formats was determined by the Asociación Española de Banca.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo formātu saturu noteica Asociación Española de Banca.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="535">
+          <source>It covers Cuaderno 19, 32, 58, 34.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas attiecas uz Cuaderno 19, 32, 58, 34.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="536">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="537">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="538">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="539">
+          <source>Yes, ISO20022 Credit transfer and Direct debit payment formats for Spain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 formātiem Kredīta pārskaitījums un Tiešā debeta maksājums Spānijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="540">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="541">
+          <source>Accounts payable, Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="542">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="543">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="544">
+          <source>Bank payments transfer for Lithuania</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bankas maksājumu pārskaitījums Lietuvai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="545">
+          <source>Bank payment transfers were generated and printed by using the Payment transfer (LT) export format for Lithuania.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bankas maksājumu pārskaitījumi tika ģenerēti un drukāti, Lietuvai izmantojot eksporta formātu Maksājuma pārsūtījums (LT).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="546">
+          <source>The Lithuanian market began to use LITAS, the unified electronic banking system, in 2005.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietuvas tirgus 2005. gadā sāka izmantot LITAS — vienoto elektronisko banku sistēmu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="547">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="548">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="549">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="550">
+          <source>Yes, ISO20022 Credit transfer payment format for Lithuania</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Lietuvai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="551">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="552">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="553">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="554">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="555">
+          <source>BBS Direkte Remittering payment formats for Norway</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti BBS Direkte Remittering Norvēģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="556">
+          <source>BBS Direkte Remittering payment formats include customer payment collection export (direct debit) and return message import.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēšanas eksportēšanu (tiešais debets) un atgrieztā ziņojuma importēšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="557">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="558">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="559">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="560">
+          <source>The AvtaleGiro customer payment format for Norway can be used to generate direct debit messages.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiešā debeta ziņojumu ģenerēšanai Norvēģijai var izmantot maksājumu formātu AvtaleGiro debitors.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="561">
+          <source>Return message import will be implemented in future releases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atgrieztā ziņojuma importēšana tiks ieviesta turpmākajos laidienos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="562">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="563">
+          <source>Accounts payable, Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="564">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="565">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="566">
+          <source>Chart of Accounts tool for Spain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rīks Kontu plāns Spānijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="567">
+          <source>This tool is used when a chart of accounts in Spain requires major changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis rīks tiek lietots, kad kontu plānam Spānijā ir nepieciešamas būtiskas izmaiņas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="568">
+          <source>Users can import a new chart of accounts in Microsoft Excel or text format, and can also import financial statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietotāji var importēt jaunu kontu plānu programmas Microsoft Excel vai teksta formātā, kā arī var importēt finanšu pārskatus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="569">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="570">
+          <source>Limited usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierobežots lietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="571">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="572">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="573">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="574">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="575">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="576">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="577">
+          <source>Dom80 payment format for Belgium</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājuma formāts Dom80 Beļģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="578">
+          <source>Legacy Belgian payment format for payment collection (direct debit).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantojuma Beļģijas maksājuma formāts maksājumu iekasēšanai (tiešais debets).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="579">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="580">
+          <source>The payment format is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis maksājuma formāts vairs netiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="581">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="582">
+          <source>Yes, ISO 20022 Direct debit payment format for Belgium</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO 20022 maksājuma formātu Tiešais debets Beļģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="583">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="584">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="585">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="586">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="587">
+          <source>DTA/EZAG payment formats for Switzerland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DTA/EZAG maksājumu formāti Šveicei</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="588">
+          <source>DTA/EZAG formats are integrated into the ESR system, because they can carry on the reference number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AMNA/EZAG formāti ir integrēti ESR sistēmā, jo tiem var būt atsauces numurs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="589">
+          <source>Because the reference number isn’t mandatory, these formats can be used to process any vendor payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā kā atsauces numurs nav obligāts, šos formātus var izmantot, lai apstrādātu jebkurus kreditoru maksājumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="590">
+          <source>These formats are used by companies that have a bank account in a location other than “Postfinance.”</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šos formātus lieto uzņēmumi, kuru bankas konta atrašanās vieta nav “Postfinance”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="591">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="592">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="593">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="594">
+          <source>Yes, ISO20022 Credit transfer payment format for Switzerland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Šveicei</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="595">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="596">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="597">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="598">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="599">
+          <source>EDIFACT-DIRDEB payment format for Austria</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāts EDIFACT-DIRDEB Austrijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="600">
+          <source>EDIFACT-DIRDEB payment format for payment collection (direct debit).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājuma formāts EDIFACT-DIRDEB maksājumu iekasēšanai (tiešais debets).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="601">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="602">
+          <source>The payment format is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis maksājuma formāts vairs netiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="603">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="604">
+          <source>Yes, ISO 20022 Direct debit payment format for Austria</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO 20022 maksājuma formātu Tiešais debets Austrijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="605">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="606">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="607">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="608">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="609">
+          <source>EDIVAT for Belgium</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EDIVAT Beļģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="610">
+          <source>EDIVAT is an obsolete Belgian standard for electronic declaration via secure mail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmantojot drošu pastu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="611">
+          <source>Microsoft Dynamics AX 2012 retains the read-only solution to enable access to the historical data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Microsoft Dynamics AX 2012 tiek saglabāts tikai lasīšanas risinājums, lai nodrošinātu piekļuvi vēsturiskajiem datiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="612">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="613">
+          <source>The functionality is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte vairs netiek izmantota.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="614">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="615">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="616">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="617">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="618">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="619">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="620">
+          <source>eGiro EDIFACT CREMUL payment import format for Norway</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu importēšanas formāts eGiro EDIFACT CREMUL Norvēģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="621">
+          <source>eGiro is based on the international UN EDIFACT CREMUL (Multiple Credit Advice Message) standard that is used for automatic posting of customer payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja kredīta izziņas paziņojums), kurš tiek izmantots automātiskai debitoru maksājumu grāmatošanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="622">
+          <source>In Microsoft Dynamics AX, eGiro is implemented as a customer payment import format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Microsoft Dynamics AX eGiro ir ieviests kā debitoru maksājumu importēšanas formāts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="623">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="624">
+          <source>The payment format is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis maksājuma formāts vairs netiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="625">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="626">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="627">
+          <source>The format will be replaced by ISO 20022 statement import formats in future releases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="628">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="629">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="630">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="631">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="632">
+          <source>External inventory for Poland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ārējie krājumi Polijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="633">
+          <source>Evidence of goods that are taken from a vendor for sales without purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierādījums par precēm, kas no kreditora tiek ņemtas pārdošanai bez pirkšanas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="634">
+          <source>Goods that are handled in external inventory don’t affect standard inventory, and can be sold and then purchased automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preces, ar kurām darbības tiek veiktas ārējos krājumos, neietekmē standarta krājumus, un tās var pārdot un pēc tam iegādāties automātiski.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="635">
+          <source>This process creates real inventory movements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis process izveido reālu krājumu kustības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="636">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="637">
+          <source>Replaced by another feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizstāts ar citu līdzekli</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="638">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="639">
+          <source>Yes, the core Inbound consignment functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar pamata funkcionalitāti Ienākošs sūtījums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="640">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="641">
+          <source>Accounts payable, Inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Krājumu vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="642">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="643">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="644">
+          <source>Financial reports generator for Eastern Europe</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu pārskatu ģenerators Austrumeiropai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="645">
+          <source>A tool is used to set up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiek izmantots rīks, lai iestatītu uzskaites un nodokļu pārskatu datu vākšanu un eksportētu datus uz XLS un DOC pārskatu veidnēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="646">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="647">
+          <source>Limited usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierobežots lietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="648">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="649">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="650">
+          <source>The tool will be replaced by Electronic reporting configurations in future releases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmākajos laidienos šis rīks tiks aizstāts ar elektronisko pārskatu veidošanas konfigurācijām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="651">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="652">
+          <source>General Ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="653">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="654">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="655">
+          <source>Import of customer payment transactions for Finland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitora maksājumu transakciju importēšana Somijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="656">
+          <source>You can select an import format for Finnish payments to import customer payment transactions from an external file that the bank provides.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat atlasīt importa formātu Somijas maksājumiem, lai importētu debitoru maksājumu transakcijas no bankas nodrošināta ārēja faila.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="657">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="658">
+          <source>The payment format is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis maksājuma formāts vairs netiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="659">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="660">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="661">
+          <source>The format will be replaced by ISO 20022 statement import formats in future releases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="662">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="663">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="664">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="665">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="666">
+          <source>Import of payment transactions into a general ledger journal for Finland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu transakciju importēšana virsgrāmatas žurnālā Somijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="667">
+          <source>A format that is specific to Finland is used to import accounting transactions into the general ledger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formāts, kas ir raksturīgs Somijai, tiek izmantots, lai virsgrāmatā importētu uzskaites transakcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="668">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="669">
+          <source>The payment format is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis maksājuma formāts vairs netiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="670">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="671">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="672">
+          <source>The format will be replaced by ISO 20022 statement import formats in future releases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="673">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="674">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="675">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="676">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="677">
+          <source>Integration with Isabel synchronized (CIS) for Belgium</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integrācija ar Isabel sinhronizēto (CIS) Beļģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="678">
+          <source>Isabel is the framework for electronic banking in Europe and is a de-facto standard in Belgium.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standarts Beļģijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="679">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="680">
+          <source>Integration with Isabel client has been discontinued.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integrēšana ar Isabel klientu ir pārtraukta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="681">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="682">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="683">
+          <source>The payment formats that are no longer used are replaced by ISO20022 Credit transfer payment format for Belgium.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti, kas vairs netiek izmantoti, tiek aizstādi ar ISO20022 maksājuma formātu Kredīta pārskaitījums Beļģijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="684">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="685">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="686">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="687">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="688">
+          <source>Modifications in the chart of accounts and accounting rules for Spain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kontu plāna un uzskaites nosacījumu modifikācijas Spānijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="689">
+          <source>This feature is used for changes in the chart of accounts and accounting rules in Spain.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis tiek izmantots kontu plāna un uzskaites nosacījumu izmaiņām Spānijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="690">
+          <source>It maps accounts to help transform the old chart of accounts into the new chart of accounts, and compares the previous fiscal year with the new fiscal year, even if they were posted to different account numbers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas kartē kontus, lai veco kontu plānu palīdzētu pārveidot par jaunu kontu plānu, un iepriekšējo finanšu gadu salīdzina ar jauno finanšu gadu, pat ja tie tika grāmatoti dažādos kontu numuros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="691">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="692">
+          <source>Limited usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierobežots lietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="693">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="694">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="695">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="696">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="697">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="698">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="699">
+          <source>Pagamento Fornittori vendor payment format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditora maksājuma formāts Pagamento Fornittori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="700">
+          <source>Legacy Italian payment format for credit transfers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantots Itālijas maksājuma formāts kredīta pārskaitījumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="701">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="702">
+          <source>The payment format is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis maksājuma formāts vairs netiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="703">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="704">
+          <source>Yes, ISO20022 Credit transfer payment format for Italy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Itālijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="705">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="706">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="707">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="708">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="709">
+          <source>Payment export formats for Estonia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājuma eksportēšanas formāti Igaunijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="710">
+          <source>The Telehansa and Teleservice formats are used for bank payment export.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formāti Telehansa un Teleservice tiek izmantoti bankas maksājumu eksportēšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="711">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="712">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="713">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="714">
+          <source>Yes, ISO20022 Credit transfer payment format for Estonia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Igaunijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="715">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="716">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="717">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="718">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="719">
+          <source>Payment file archive for Norway</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu failu arhīvs Norvēģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="720">
+          <source>When payment files are generated, the file archive automatically archives all files that are created, even files that were previously written or read.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad tiek ģenerēti maksājumu faili, šo failu arhīvs automātiski arhivē visus failus, kas tiek izveidoti — pat failus, kas bija iepriekš rakstīti vai lasīti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="721">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="722">
+          <source>Replaced by another feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizstāts ar citu līdzekli</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="723">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="724">
+          <source>Yes, Electronic reporting archived jobs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar arhivētajiem elektronisko pārskatu darbiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="725">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="726">
+          <source>Accounts payable, Accounts receivable, Organization administration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Debitoru parādi, Organizācijas administrēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="727">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="728">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="729">
+          <source>Payment import formats for Estonia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājuma importēšanas formāti Igaunijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="730">
+          <source>The Telehansa and TeleTeenus formats are used for bank payment import.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formāti Telehansa un TeleTeenus tiek izmantoti bankas maksājumu importēšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="731">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="732">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="733">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="734">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="735">
+          <source>The formats will be replaced by ISO 20022 statement import formats in future releases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmākajos laidienos šie formāti tiks aizstāti ar ISO 20022 izraksta importēšanas formātiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="736">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="737">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="738">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="739">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="740">
+          <source>Payroll information in Human Resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algas informācija personāla vadībā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="741">
+          <source>Human Resources Payroll information</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personāla vadības algas informācija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="742">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="743">
+          <source>This functionality has been replaced by core Payroll and Human Resources pages.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte ir aizstāta ar pamata lapām Alga un Personāla vadība.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="744">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="745">
+          <source><bpt id="p1">**</bpt>Benefits<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Earnings<ept id="p2">**</ept>, and other related pages that were previously in US Payroll have been reconfigured, and are now part of the core Human Resources configuration to help support external payroll processing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapas <bpt id="p1">**</bpt>Atvieglojumi<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Ienākumi<ept id="p2">**</ept> un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="746">
+          <source>This functionality is accessed by using the <bpt id="p1">**</bpt>Human Resources 1<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Payroll<ept id="p2">**</ept> configuration key.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu <bpt id="p1">**</bpt>Personāla vadība 1<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Alga<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="747">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="748">
+          <source>Human Resources, Payroll</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personāla vadība, Alga</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="749">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="750">
+          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="751">
+          <source>Performance management goal workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veiktspējas pārvaldības mērķu darbplūsma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="752">
+          <source>Performance management includes goal management and integration with performance reviews.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veiktspējas pārvaldība ietver mērķu pārvaldīšanu un integrēšanu ar veiktspējas pārskatiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="753">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="754">
+          <source>Performance management was redesigned, and the number of goal pages was reduced to simplify the process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veiktspējas pārvaldība tika pārveidota, un mērķa lapu skaits tika samazināts, lai vienkāršotu šo procesu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="755">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="756">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="757">
+          <source>Goals are visible to managers through the Manager Self Service portal, and can be changed and viewed by the manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērķi ir redzami vadītājiem, izmantojot portālu Vadītāja pašapkalpošanās, un vadītājs tos var mainīt un apskatīt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="758">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="759">
+          <source>Human capital management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilvēkkapitāla pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="760">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="761">
+          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="762">
+          <source>Postgirot and Postgirot Utland payment formats for Sweden</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="763">
+          <source>Postgirot and Postgirot Utland payment formats for Sweden.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="764">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="765">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="766">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="767">
+          <source>Yes, ISO20022 Credit transfer payment format for Sweden</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Zviedrijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="768">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="769">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="770">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="771">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="772">
+          <source>Radio frequency identifier</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Radiofrekvences identifikators</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="773">
+          <source>Radio Frequency Identification (RFID) is a data-collection technology that uses electronic tags to store identification data and a no-line-of-sight requirement reader to capture the identification data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Radiofrekvences identifikācija (RFID) ir datu vākšanas tehnoloģija, kas izmanto elektroniskos tagus identifikācijas datu glabāšanai un prasībām atbilstošu lasītāju šo identifikācijas datu uztveršanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="774">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="775">
+          <source>Low customer usage and a limited feature set.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems klientu lietojums un ierobežota līdzekļu kopa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="776">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="777">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="778">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="779">
+          <source>Inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krājumu vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="780">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="781">
+          <source>Removed as of Dynamics 365 for Operations 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="782">
+          <source>Report about state invoices numbering for Latvia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskats par valsts rēķinu numerāciju Latvijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="783">
+          <source>Latvian legislation provides specific rules about the numbering of sales invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Latvijas likumdošana nodrošina īpašus noteikumus par pārdošanas rēķinu numerāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="784">
+          <source>The functionality lets you assign specific numbers to sales invoices, based on the user or user group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte jums ļauj pārdošanas rēķiniem piešķirt īpašus numurus, pamatojoties uz lietotāju vai lietotāju grupu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="785">
+          <source>You can then generate a report or an XML file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam varat ģenerēt pārskatu vai XML failu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="786">
+          <source>You can also print a report about invoice numbers that are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat arī izdrukāt pārskatu par izmantotajiem rēķinu numuriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="787">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="788">
+          <source>The state invoice numbering no longer has to be maintained.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valsts rēķinu numerācija vairs nav jāuztur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="789">
+          <source>The report about used invoice numbers is no longer required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskats par izmantotajiem rēķinu numuriem vairs nav nepieciešams.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="790">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="791">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="792">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="793">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="794">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="795">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="796">
+          <source>Set up the names of the manager and general accountant of a company for Lithuania</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatīt uzņēmuma vadītāja un galvenā grāmatveža vārdus Lietuvai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="797">
+          <source>The names of the manager and the general accountant of a company can be specified in the company information and used in different local report printouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzņēmuma vadītāja un galvenā grāmatveža vārdus var norādīta uzņēmuma informācijā un izmantot dažādās vietējo pārskatu izdrukās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="798">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="799">
+          <source>Replaced by another feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizstāts ar citu līdzekli</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="800">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="801">
+          <source>Yes, the setup of officials can be used for the same purpose.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, šiem pašiem nolūkiem var izmantot amatpersonu iestatīšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="802">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="803">
+          <source>Accounts payable, Accounts receivable, Cash and bank management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Debitoru parādi, Kases un bankas vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="804">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="805">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="806">
+          <source>Shipping carrier interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sūtījumu pārvadātāja interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="807">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="808">
+          <source>Duplicate functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitātes dublēšanās</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="809">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="810">
+          <source>Partially replaced by Transportation management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daļēji aizstāts ar līdzekli Transportēšanas pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="811">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="812">
+          <source>Sales and marketing, Inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārdošana un mārketings, Krājumu vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="813">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="814">
+          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="815">
+          <source>Telepay payment formats for Norway</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti Telepay Norvēģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="816">
+          <source>Telepay payment formats include vendor payment export (credit transfer) and customer payment collection (direct debit).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu formāti Telepay ietver kreditoru maksājumu eksportēšanu (kredīta pārskaitījums) un debitoru maksājumu iekasēšanu (tiešais debets).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="817">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="818">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="819">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="820">
+          <source>Yes, ISO20022 Credit transfer payment format and AvtaleGiro customer payment format for Norway</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums un debitora maksājuma formātu AvtaleGiro Norvēģijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="821">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="822">
+          <source>Accounts payable, Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="823">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="824">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="825">
+          <source>Vendor payment export formats for Finland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditoru maksājumu eksportēšanas formāti Somijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="826">
+          <source>Two formats for exporting payments are available for Finland.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Divi formāti maksājumu eksportēšanai ir pieejami Somijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="827">
+          <source>LM02 (FI) is used for domestic payments, and LUM2 (FI) is used for foreign payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LM02 (FI) tiek izmantots iekšzemes maksājumiem un LUM2 (FI) tiek izmantots ārvalstu maksājumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="828">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="829">
+          <source>The payment formats are no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie maksājumu formāti vairs netiek izmantoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="830">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="831">
+          <source>Yes, ISO20022 Credit transfer payment format for Finland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Somijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="832">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="833">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="834">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="835">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="836">
+          <source>Warehouse management II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noliktavas vadība II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="837">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="838">
+          <source>The Warehouse management II solution (WMS II) that was available in the <bpt id="p1">**</bpt>Inventory management<ept id="p1">**</ept> module duplicates functionality that is in the <bpt id="p2">**</bpt>Warehouse management<ept id="p2">**</ept> module that was released in Microsoft Dynamics AX 2012 R3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī <bpt id="p1">**</bpt>Krājumu pārvaldība<ept id="p1">**</ept>, bija tāda pati funkcionalitāte kā modulim <bpt id="p2">**</bpt>Noliktavas vadība<ept id="p2">**</ept>, kas tika izlaists atjauninājumā Microsoft Dynamics AX 2012 R3.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="839">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="840">
+          <source>The <bpt id="p1">**</bpt>Warehouse management<ept id="p1">**</ept> module that was released in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8, and Dynamics AX 2012 R3 CU9 replaces the Warehouse management II features.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modulis <bpt id="p1">**</bpt>Noliktavas vadība<ept id="p1">**</ept>, kas tika izlaists atjauninājumos AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="841">
+          <source>The new module has more advanced features and more flexible warehouse management processes than Warehouse management II.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="842">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="843">
+          <source>Inventory management, Sales and marketing, Procurement and sourcing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krājumu vadība, Pārdošana un mārketings, Sagāde un avoti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="844">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="845">
+          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="846">
+          <source>Worker reminders in Human Resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbinieku atgādinājumi personāla vadībā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="847">
+          <source>Human Resources Payroll information</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personāla vadības algas informācija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="848">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="849">
+          <source>Low usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems lietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="850">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="851">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="852">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="853">
+          <source>Human resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personāla vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="854">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="855">
+          <source>Removed as of Dynamics 365 for Operations version 1611</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="856">
+          <source>Workflow for creating goals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbplūsma mērķu izveidošanai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="857">
+          <source>A workflow for managing the creation of employee goals is one of several workflows that were available to help coordinate the performance management process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākām darbplūsmām, kas bija pieejamas, lai palīdzētu koordinēt veiktspējas pārvaldības procesu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="858">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="859">
+          <source>Performance management has been completely redesigned in Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Microsoft Dynamics 365 for Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="860">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="861">
+          <source>The redesigned Performance management feature gives more control over the content of the goals, the measurements that are used to track progress, and the attachment of supporting documentation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="862">
+          <source>Goals can be stored as templates and then reused.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="863">
+          <source>This feature can help you set up additional goals for your employees more quickly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="864">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="865">
+          <source>Human capital management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilvēkkapitāla pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="866">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="867">
+          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="868">
+          <source>Dynamics AX 7.0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics AX 7.0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="869">
+          <source>Ability to cancel changes to a vendor invoice</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spēja atcelt kreditora rēķinā veiktās izmaiņas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="870">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="871">
+          <source>Performance enhancement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veiktspējas uzlabojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="872">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="873">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="874">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="875">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="876">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="877">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="878">
+          <source>AIF, AxD, and AxBC integrations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AIF, AxD un AxBC integrācijas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="879">
+          <source>In Application Integration Framework (AIF), data can be exchanged with external systems through business logic that is exposed as services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="880">
+          <source>Dynamics AX includes services that are based on documents and .NET Business Connector (AxBC).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="881">
+          <source>A document is created by using XML.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokuments tiek izveidots, izmantojot XML.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="882">
+          <source>The XML includes header information that is added to create a <bpt id="p1">*</bpt>message<ept id="p1">*</ept> that can be transferred into or out of Dynamics AX.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu <bpt id="p1">*</bpt>ziņojumu<ept id="p1">*</ept>, kuru var pārsūtīt uz programmu Dynamics AX vai no tās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="883">
+          <source>Examples of documents include sales orders and purchase orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="884">
+          <source>However, almost any entity, such as a customer, can be represented by a document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="885">
+          <source>Services that are based on documents use the <bpt id="p1">**</bpt>Axd <ph id="ph1">\&lt;</ph>Document<ph id="ph2">\&gt;</ph><ept id="p1">**</ept> classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uz dokumentiem balstītie pakalpojumi lieto <bpt id="p1">**</bpt>Axd <ph id="ph1">\&lt;</ph>Dokuments<ph id="ph2">\&gt;</ph><ept id="p1">**</ept> klases.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="886">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="887">
+          <source>The architecture of AIF and AxDs could not be scaled to a cloud service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AIF un AxDs arhitektūru nevarēja mērogot uz mākoņa pakalpojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="888">
+          <source>There were performance issues around bulk import.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Radās veiktspējas problēmas saistībā ar lielapjoma importēšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="889">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="890">
+          <source>This feature is replaced by the Data Import/Export framework, which supports recurring bulk import/export.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis ir aizstāts ar datu importēšanas/eksportēšanas struktūru, kura atbalsta periodisku lielapjoma importēšanu/eksportēšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="891">
+          <source>For AxBC, we recommend that you use the actual tables.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Strādājot ar AxBC, ieteicams lietot faktiskās tabulas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="892">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="893">
+          <source>AxDs, AxBCs, and AIF</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AxDs, AxBCs un AIF</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="894">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="895">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="896">
+          <source>Billing code rate scripts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norēķinu koda likmes skripti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="897">
+          <source>Billing scripts were used to calculate billing rates for billing codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norēķinu skripti tika izmantoti, lai aprēķinātu norēķinu likmes norēķinu kodiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="898">
+          <source>This scripts required custom development in the C Sharp or Visual Basic programming language.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šiem skriptiem bija nepieciešama pielāgota izstrāde programmēšanas valodā C Sharp vai Visual Basic.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="899">
+          <source>In the current version of Dynamics AX, the <bpt id="p1">**</bpt>billing code rate scripts<ept id="p1">**</ept> are not supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pašreizējā Dynamics AX versijā <bpt id="p1">**</bpt>norēķinu koda likmes skripti<ept id="p1">**</ept> netiek atbalstīti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="900">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="901">
+          <source>The support for the custom C Sharp or Visual Basic scripts was not added in Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Dynamics AX 7.0 netika pievienots atbalsts pielāgotiem C Sharp vai Visual Basic skriptiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="902">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="903">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="904">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="905">
+          <source>Public sector, Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Publiskais sektors, modulis “Debitoru parādi”</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="906">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="907">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="908">
+          <source>BOMs without BOM versions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MK bez MK versijām</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="909">
+          <source>When the <bpt id="p1">**</bpt>BOM versions<ept id="p1">**</ept> configuration key was disabled, bill of materials (BOM) versions were hidden in all forms, and the system forced a 1:1 relationship between released products and BOMs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad tika atspējota konfigurācijas atslēga <bpt id="p1">**</bpt>MK versijas<ept id="p1">**</ept>, materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="910">
+          <source>In the current version of Dynamics AX, the <bpt id="p1">**</bpt>BOM versions<ept id="p1">**</ept> configuration key can't be disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu <bpt id="p1">**</bpt>MK versijas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="911">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="912">
+          <source>Using a configuration key to control BOM versions doesn't scale in a cloud environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurācijas atslēgas izmantošana, lai kontrolētu MK versijas, netiek mērogota mākoņa vidē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="913">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="914">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="915">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="916">
+          <source>Product information management, Inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču informācijas pārvaldība, Krājumu vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="917">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="918">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="919">
+          <source>Brazilian Bordero</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brazīlijas Bordero</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="920">
+          <source>Specific method of payment for Brazilian companies</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Īpaša maksāšanas metode Brazīlijas uzņēmumiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="921">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="922">
+          <source>Support for the Brazilian Bordero method of payment has been discontinued from Brazilian localization</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brazīlijas lokalizācijā ir pārtraukts atbalsts Brazīlijas maksāšanas metodei Bordero</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="923">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="924">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="925">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="926">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="927">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="928">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="929">
+          <source>Brazilian Sintegra statement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brazīlijas izraksts Sintegra</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="930">
+          <source>Federal tax statement for ICMS tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Federālā nodokļa izraksts ICMS nodokļiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="931">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="932">
+          <source>This statement is no longer applicable in some Brazilian states.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis izraksts vairs nav lietojams noteiktos Brazīlijas štatos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="933">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="934">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="935">
+          <source>Users can use Generic Electronic reporting tool to configure the statement if required under specific situations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietotāji var izmantot vispārīgo elektronisko atskaišu veidošanas rīku, lai konfigurētu šo izrakstu, ja konkrētās situācijās tas ir nepieciešams.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="936">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="937">
+          <source>Fiscal books</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu grāmatas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="938">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="939">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="940">
+          <source>Brazilian SCAN contingency mode for NF-e</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brazīlijas NF-e nejaušību režīms SCAN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="941">
+          <source>(SCAN) contingency environment is used to generate, export, and import the status of a Nota Fiscal eletrônica (NF-e) when the environment of Secretaria da Fazenda (SEFAZ) is not available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(SCAN) nejaušību vide tiek izmantota, lai ģenerētu, eksportētu un importētu Nota Fiscal eletrônica (NF-e) statusu, kad nav pieejama vide Secretaria da Fazenda (SEFAZ).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="942">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="943">
+          <source>This method of contingency is no longer applicable in all Brazilian states</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī nejaušību metode vairs nav lietojama visos Brazīlijas štatos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="944">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="945">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="946">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="947">
+          <source>Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="948">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="949">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="950">
+          <source>Business Analyzer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biznesa analizators</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="951">
+          <source>This mobile application let users review key business metrics.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī mobilā programmas lietotājiem ļauj pārskatīt galvenos biznesa rādītājus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="952">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="953">
+          <source>This functionality has been replaced by another feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte ir aizstāta ar citu līdzekli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="954">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="955">
+          <source>The Monitor financial performance content pack for Microsoft Power BI will include key financial metrics that were previously available in Business Analyzer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Power BI satura pakotnē Finanšu veiktspējas pārraudzība tiks ietverti galvenie finanšu rādītāji, kas iepriekš bija pieejami biznesa analizatorā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="956">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="957">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="958">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="959">
+          <source>Deprecated: The use of Business Analyzer has been deprecated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: biznesa analizatora lietošana ir novecojusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="960">
+          <source>Business statistics</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vadības statistika</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="961">
+          <source>The setup of business statistics inquiries that can help you analyze the performance of the organization</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt organizācijas veiktspēju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="962">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="963">
+          <source>Legacy approach to business intelligence (BI), low customer usage, and a limited feature set</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantojuma pieeja biznesa informācijai (BI), zems klientu lietojums un ierobežota līdzekļu kopa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="964">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="965">
+          <source>New BI solutions for the current version of Dynamics AX</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauni BI risinājumi pašreizējai Dynamics AX versijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="966">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="967">
+          <source>Procurement and sourcing, Accounts payable, Sales and marketing, Accounts receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sagāde un avoti, Parādi kreditoriem, Pārdošana un mārketings, Debitoru parādi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="968">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="969">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="970">
+          <source>Change document date function in Invoice approval journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mainīt dokumenta datuma funkciju rēķinu apstiprināšanas žurnālā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="971">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="972">
+          <source>Low usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems lietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="973">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="974">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="975">
+          <source>The document date on the posted vendor transaction can be changed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grāmatotajā kreditora transakcijā var mainīt dokumenta datumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="976">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="977">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="978">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="979">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="980">
+          <source>ClieOp03 payment format for the Netherlands</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ClieOp03 maksājuma formāts Nīderlandei</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="981">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="982">
+          <source>The format is no longer applicable in the Netherlands, because it has been replaced by SEPA functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis formāts Nīderlandē vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="983">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="984">
+          <source>SEPA payments export</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SEPA maksājumu eksportēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="985">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="986">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="987">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="988">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="989">
+          <source>Compliance Center</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbilstības centrs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="990">
+          <source>The Compliance Center was an Enterprise Portal site for managing the documentation requirements for compliance initiatives that are related to the Sarbanes-Oxley law.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pārvaldīšanai, lai nodrošinātu atbilstību ar Sarbanes-Oxley likumu saistītajām iniciatīvām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="991">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="992">
+          <source>Lack of customer usage.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru lietojuma trūkums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="993">
+          <source>Microsoft SharePoint includes the same capability that was available in the Compliance Center.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft SharePoint nodrošina tādas pašas iespējas, kādas bija pieejamas atbilstības centrā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="994">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="995">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="996">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="997">
+          <source>Compliance and internal controls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbilstība un iekšējā kontrole</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="998">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="999">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1000">
+          <source>Connector for Microsoft Dynamics</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics paredzētā Connector sistēma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1001">
+          <source>This tool was used to integrate key data from Microsoft Dynamics CRM to Microsoft Dynamics ERP applications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis rīks tika izmantots programmā Microsoft Dynamics CRM ietverto pamatdatu integrēšanai Microsoft Dynamics ERP lietojumprogrammās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1002">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1003">
+          <source>This functionality has been replaced by another feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte ir aizstāta ar citu līdzekli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1004">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1005">
+          <source>Common data service</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Common Data Service</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1006">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1007">
+          <source>Connector for Microsoft Dynamics</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics paredzētā Connector sistēma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1008">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1009">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1010">
+          <source>Container unit and multi dimension on-hand</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konteinera vienība un rīcībā esošie vairākdimensiju krājumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1011">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1012">
+          <source>Duplicate functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitātes dublēšanās</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1013">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1014">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1015">
+          <source>Since AX 2012, this functionality has been replaced by the consolidated batch orders feature set.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākot ar versiju AX 2012, šī funkcionalitāte ir aizstāta ar konsolidēto partijas pasūtījumu līdzekļu kopu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1016">
+          <source>This feature set includes the consolidated on-hand view.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī līdzekļu kopa ietver konsolidēto rīcībā esošo krājumu skatu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1017">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1018">
+          <source>Product information management, Production control, Inventory management, Sales and marketing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču informācijas pārvaldība, Ražošanas kontrole, Krājumu vadība, Pārdošana un mārketings</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1019">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1020">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1021">
+          <source>Cue group metadata</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norādījumu grupas metadati</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1022">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1023">
+          <source>Cue groups were used to display one or more Cues in the FactBox area.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norādījumu grupas tika izmantotas, lai papildinformācijas apgabalā parādītu vienu vai vairākus norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1024">
+          <source>There was limited uptake, and there were also performance concerns, because a record change in a parent form caused one query per Cue in the Cue group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pastāvēja uzņemšanas ierobežojumi, un bija arī veiktspējas problēmas, jo ieraksta izmaiņas primārajā formā izraisīja vienu vaicājumu katram norādījumu grupas norādījumam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1025">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1026">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1027">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1028">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1029">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1030">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1031">
+          <source>Cue metadata</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norādījuma metadati</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1032">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1033">
+          <source>Cue metadata was limited to count or sum information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norādījuma metadati bija ierobežoti ar informāciju par skaitu vai summu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1034">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1035">
+          <source>Tile metadata was introduced to provide more flexibility for modeling.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tika ieviesti elementa metadati, lai modelēšanai nodrošinātu lielāku elastību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1036">
+          <source>For example, you can model current counts, navigation, and key performance indicators (KPIs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, varat modelēt pašreizējo skaitu, navigāciju un galvenos veiktspējas rādītājus (KPI).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1037">
+          <source>Count tile metadata is the direct replacement of the Cue metadata.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skaita elementa metadati ir tiešs norādījuma metadatu aizstājējs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1038">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1039">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1040">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1041">
+          <source>Removed as of Dynamics AX 7.0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1042">
+          <source>Danish check format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dānijas čeka formāts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1043">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1044">
+          <source>Support for the Danish check format layout has been discontinued, and the report has been removed from DK localization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir pārtraukta atbalsta sniegšana Dānijas čeka formāta izkārtojumam, un šī atskaite ir noņemta no DK lokalizācijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1045">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1046">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1047">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1048">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1049">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1050">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1051">
+          <source>Data partitions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu nodalījumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1052">
+          <source>Data partitions provide a logical separation of data in the Microsoft Dynamics AX database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu nodalījumi nodrošina loģisku datu nošķiršanu Microsoft Dynamics AX datu bāzē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1053">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1054">
+          <source>Data partitions were introduced in Microsoft Dynamics AX 2012 R2 to enable data isolation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu nodalījumi tika ieviesti versijā Microsoft Dynamics AX 2012 R2, lai nodrošinātu datu nošķiršanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1055">
+          <source>In a common scenario, a company has subsidiaries, and the data from one subsidiary should not be visible to another subsidiary, even though both subsidiaries are managed by the same IT department.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1056">
+          <source>However, extra scripts and management overhead throughout the program were required in order to create new partitions and populate them with data, and to back up partition data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1057">
+          <source>In the cloud, where we have access to platform as a service (PaaS) database services (Microsoft Azure SQL Database), it's much more efficient to use a database as the isolation container than to do isolation in the program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mākonī, kur var piekļūt platformas pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), izmantot datu bāzi kā nošķiršanas konteineru ir daudz efektīvāk, nekā veikt nošķiršanu programmā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1058">
+          <source>Regardless of whether data partitioning is required for subsidiaries, for multiple tenants, or just for scale, we believe that the scenarios can be handled better through multiple instances of Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1059">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1060">
+          <source>Customers using data partitions must use multiple instances of Finance and Operations if database level separation is a critical issue.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1061">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1062">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1063">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1064">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1065">
+          <source>Database and file share storage for attachments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu bāzes un failu koplietošanas krātuve pielikumiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1066">
+          <source>Microsoft Dynamics AX 2012 allowed storage of attachments in the database and in file shares.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Microsoft Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu koplietojumos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1067">
+          <source>Both of those options are no longer supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abas šīs opcijas vairs netiek atbalstītas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1068">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1069">
+          <source>Files share storage is no longer supported because cloud-hosted environments cannot communicate with local file shares.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1070">
+          <source>Database storage has been deprecated in favor of Azure Blob storage.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1071">
+          <source>Azure Blob storage is equivalent to storage in the database, as documents can only be accessed through Dynamics 365 for Finance and Operations client forms.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Azure Blob krātuve ir līdzvērtīga krātuvei datu bāzē, jo vienīgais veids, kā piekļūt dokumentiem, ir izmantot Dynamics 365 for Finance and Operations klienta formas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1072">
+          <source>This provides the added benefit of providing storage that doesn't negatively affect the performance of the database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1073">
+          <source>Blob storage is the default storage mechanism for Document Management and works immediately.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1074">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1075">
+          <source>Database storage has been deprecated in favor of Azure Blob storage.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1076">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1077">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1078">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1079">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1080">
+          <source>Delimitation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norobežošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1081">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1082">
+          <source>No use of the functionality was found.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šai funkcionalitātei netika atrasts pielietojums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1083">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1084">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1085">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1086">
+          <source>Time and attendance</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiks un apmeklētība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1087">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1088">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1089">
+          <source>Desktop client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbvirsmas klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1090">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1091">
+          <source>The Dynamics AX client experience has been redesigned to improve usability across multiple platforms and devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir pārveidotas Dynamics AX klienta lietošanas iespējas, lai uzlabotu lietojamību dažādās platformās un ierīcēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1092">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1093">
+          <source>The new web client is based on the desktop Form metadata and programming model that have been modified to provide a rich web platform.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1094">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1095">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1096">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1097">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1098">
+          <source>Direct database connection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiešs datu bāzes savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1099">
+          <source>In Dynamics AX 2012 R3, Retail Modern POS could connect directly to the Channel DB in similar fashion to Enterprise POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tiešu savienojumu ar kanāla DB līdzīgi kā programma Enterprise POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1100">
+          <source>This was in addition to the standard communication method of Retail Modern POS communicating through Retail Server.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcija bija pieejama papildus Retail Modern POS standarta sakaru metodei, izmantojot Retail Server.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1101">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1102">
+          <source>Direct database connectivity required lower security protocols and was primarily used to achieve the highest levels of performance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1103">
+          <source>Due to the performance and security enhancements that have occurred in Finance and Operations, this functionality now causes more issues than it solves.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmatūras Dynamics 365 for Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1104">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai ir aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1105">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1106">
+          <source>Only standard Retail Server communication is now supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagad tiek atbalstīti tikai standarta Retail Server sakari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1107">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1108">
+          <source>Channel DB/Retail Modern POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanāla DB/Retail Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1109">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1110">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1111">
+          <source>Dutch SWIFT MT940</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Holandes SWIFT MT940</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1112">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1113">
+          <source>Generic functionality is now used instead of localized functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1114">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1115">
+          <source>Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1116">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1117">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1118">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1119">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1120">
+          <source>eBilanz (XBRL for Germany)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">eBilanz (XBRL Vācijai)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1121">
+          <source>This functionality provided eXtensible Business Reporting Language (XBRL) output that is intended specifically for the German eBilanz taxonomy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte nodrošināja paplašināmās komerciālo atskaišu valodas (eXtensible Business Reporting Language — XBRL) izvades, kas ir paredzēta speciāli Vācijas eBilanz taksonomijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1122">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1123">
+          <source>Lack of customer usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitoru lietojuma trūkums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1124">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1125">
+          <source>This feature hasn't been replaced by another feature, but multiple specialized XBRL packages that provide rich XBRL functionality are available for the German market.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis nav aizstāts ar citu līdzekli, bet Vācijas tirgū ir pieejamas vairākas specializētas XBRL pakotnes, kas nodrošina bagātīgu XBRL funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1126">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1127">
+          <source>Management Reporter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Management Reporter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1128">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1129">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1130">
+          <source>Enterprise Portal client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzņēmuma portāla klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1131">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1132">
+          <source>A single client platform has been provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir nodrošināta viena klienta platforma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1133">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1134">
+          <source>The new web client is based on the desktop form metadata and programming model that have been modified to provide a rich web platform.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1135">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1136">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1137">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1138">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1139">
+          <source>Environmental sustainability</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vides ilgtspēja</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1140">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1141">
+          <source>Low customer usage and a limited feature set</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems klientu lietojums un ierobežota līdzekļu kopa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1142">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1143">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1144">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1145">
+          <source>Compliance and internal controls, Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbilstības un iekšējās vadīklas, Parādi kreditoriem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1146">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1147">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1148">
+          <source>Form ActiveX and Managed Host controls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Forma ActiveX un pārvaldītās resursdatora vadīklas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1149">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1150">
+          <source>The ActiveX and Managed Host controls are based on the deprecated desktop client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ActiveX un pārvaldīto resursdatora vadīklu pamatā ir novecojušais darbvirsmas klients.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1151">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1152">
+          <source>The extensible control framework supports building new controls that are based on HTML, CSS, and JavaScript, and is a first-class control in the Microsoft Visual Studio Tooling environment.</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, kuras ir balstītas uz valodu HTML, CSS un JavaScript un ir augstākā līmeņa vadīklas Microsoft Visual Studio Tooling vidē.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1153">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1154">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1155">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1156">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1157">
+          <source>Generate prenotes by using a batch</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ģenerēt pārbaudes, izmantojot paketi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1158">
+          <source>Prenote generation can't be done by using a batch, but it can still be done by a user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to joprojām var izdarīt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1159">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1160">
+          <source>No form exists to persist and display the resulting prenote file when it's generated by using a batch.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav formas, ar kuru saglabāt un parādīt iegūto pārbaudes failu, kad tas tiek ģenerēts, izmantojot pakešuzdevumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1161">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1162">
+          <source>Prenotes can still be generated, and the user has control over the location where the file is saved.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudes joprojām var ģenerēt, un lietotājs kontrolē vietu, kur šis fails tiek saglabāts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1163">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1164">
+          <source>Accounts payable, Accounts receivable, Cash and bank management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parādi kreditoriem, Debitoru parādi, Kases un bankas vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1165">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1166">
+          <source>Removed as of AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1167">
+          <source>German DTAUS payment export and account statement import (totals and transactions)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vācu DTAUS maksājuma eksportēšana un konta izraksta importēšana (kopsummas un transakcijas)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1168">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1169">
+          <source>The format is no longer applicable in Germany, because it has been replaced by Single Euro Payments Area (SEPA) functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar vienotās eiro maksājumu zonas (Single Euro Payments Area — SEPA) funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1170">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1171">
+          <source>Yes, this functionality has been replaced by SEPA payment export and advanced bank reconciliation functionality for importing account statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, šī funkcionalitāte ir aizstāta ar SEPA maksājumu eksportēšanas un detalizētās bankas darbību saskaņošanas funkcionalitāti kontu pārskatu importēšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1172">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1173">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1174">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1175">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1176">
+          <source>German DTAZV payment format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vācijas DTAZV maksājumu formāts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1177">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1178">
+          <source>The format is no longer applicable in Germany, because it has been replaced by SEPA functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1179">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1180">
+          <source>SEPA payments export</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SEPA maksājumu eksportēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1181">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1182">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1183">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1184">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1185">
+          <source>German MT940 import</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vācu MT940 importēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1186">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1187">
+          <source>Generic functionality is now used instead of localized functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1188">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1189">
+          <source>Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1190">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1191">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1192">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1193">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1194">
+          <source>German XML EU Sales list</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vācijas XML ES pārdošanas saraksts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1195">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1196">
+          <source>The XML format for German EU Sales List reporting is no longer supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vairs netiek atbalstīts XML formāts Vācijas ES pārdošanas saraksta atskaitēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1197">
+          <source>Only the ELMA5 text file format can be used to submit the EU Sales List report to the German Tax Office.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai ES pārdošanas saraksta atskaites iesniegtu Vācijas nodokļu birojā, var izmantot tikai ELMA5 teksta faila formātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1198">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1199">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1200">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1201">
+          <source>Tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1202">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1203">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1204">
+          <source>GL SSRS reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">GL SSRS atskaites</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1205">
+          <source>Reports that include the following menu items have been removed: <bpt id="p1">**</bpt>Summary trial balance<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Detailed trial balance<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Chart of accounts<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Audit trail<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Balances<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Balance list<ept id="p6">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: <bpt id="p1">**</bpt>Kopsavilkuma apgrozījuma bilance<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Detalizēta apgrozījuma bilance<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Kontu plāns<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Auditācijas pieraksti<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Bilances<ept id="p5">**</ept> un <bpt id="p6">**</bpt>Bilances saraksts<ept id="p6">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1206">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1207">
+          <source>Financial Microsoft SQL Server Reporting Services (SSRS) reports have been replaced by Management Reporter capabilities and default reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu Microsoft SQL Server Reporting Services (SSRS) pārskati ir aizstāti ar Management Reporter iespējām un noklusējuma pārskatiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1208">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1209">
+          <source>Management Reporter (labeled <bpt id="p1">**</bpt>Financial reporting<ept id="p1">**</ept> in the current version of Dynamics AX)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <bpt id="p1">**</bpt>Finanšu pārskatu veidošana<ept id="p1">**</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1210">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1211">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1212">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1213">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1214">
+          <source>InfoPart and FormPart metadata</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">InfoPart un FormPart metadati</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1215">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1216">
+          <source>InfoPart and FormPart metadata enabled the creation of FactBoxes for two different clients.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">InfoPart un FormPart metadati ļāva izveidot papildinformācijas lodziņus diviem dažādiem klientiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1217">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1218">
+          <source>InfoPart metadata, which was a simplified form definition, is converted into a Form by upgrade tooling.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">InfoPart metadati, kas bija vienkāršotā formas definīcija, ar jaunināšanas rīkiem ir pārveidoti par formu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1219">
+          <source>FormPart metadata, which referenced a Form, is replaced by a more direct reference that is created by upgrade tooling.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FormPart metadati, kas veidoja atsauci uz formu, ir aizstāti ar tiešāku atsauci, ko veido jaunināšanas rīki.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1220">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1221">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1222">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1223">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1224">
+          <source>Main account list page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Galvenā konta saraksta lapa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1225">
+          <source>A list of accounts for the legal entity and related balance information</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1226">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1227">
+          <source>Balance information is available on the <bpt id="p1">**</bpt>Trial balance<ept id="p1">**</ept> list page by account and dimension.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilances informācija ir pieejama saraksta lapā <bpt id="p1">**</bpt>Apgrozījuma bilance<ept id="p1">**</ept> pēc konta un dimensijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1228">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1229">
+          <source><bpt id="p1">**</bpt>Main accounts<ept id="p1">**</ept> contains the same list of accounts that the <bpt id="p2">**</bpt>Main account<ept id="p2">**</ept> list page contained.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sadaļā <bpt id="p1">**</bpt>Galvenie konti<ept id="p1">**</ept> ir ietverts tāds pats kontu saraksts, kas atrodas saraksta lapā <bpt id="p2">**</bpt>Galvenais konts<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1230">
+          <source>The grid view in <bpt id="p1">**</bpt>Main accounts<ept id="p1">**</ept> also shows an even smaller, grid-like view.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Režģa skats sadaļā <bpt id="p1">**</bpt>Galvenie konti<ept id="p1">**</ept> arī rāda vēl mazāku, režģa tipa skatu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1231">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1232">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1233">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1234">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1235">
+          <source>Malaysia and Singapore bank cash flow report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Malaizijas un Singapūras bankas naudas plūsmas atskaite</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1236">
+          <source>This feature let the user print a cash flow report that shows transactions and details of the cash inflows and outflows for a specific date range for selected bank accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis lietotājam ļauj drukāt naudas plūsmas atskaiti, kurā ir redzamas transakcijas un detalizēta informācija par skaidras naudas ienākošajām un izejošajām plūsmām attiecībā uz noteiktu laika diapazonu atlasītajiem bankas kontiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1237">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1238">
+          <source>The same information can be obtained from the Inquiry bank transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo pašu informāciju var saņemt pieprasošās bankas transakcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1239">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1240">
+          <source>The Inquiry bank transaction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ar pieprasošās bankas transakciju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1241">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1242">
+          <source>Cash and bank management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kases un bankas vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1243">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1244">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1245">
+          <source>Mexican CFD electronic invoice</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meksikas CFD elektroniskais rēķins</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1246">
+          <source>This feature enabled the generation of Mexican electronic invoices by using the Comprobante Fiscal Digital (CFD) method, where the company signs the invoice by requesting the related authorization from the government.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis ļāva ģenerēt Meksikas elektroniskos rēķinus, izmantojot metodi Comprobante Fiscal Digital (CFD), kurā uzņēmums paraksta rēķinu, no valdības pieprasot saistīto autorizāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1247">
+          <source>This feature also provides a monthly report that includes all electronics invoices that were issued in the period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis nodrošina arī ikmēneša atskaiti, kas ietver visus šajā periodā izsniegtos elektroniskos rēķinus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1248">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1249">
+          <source>The method is no longer applicable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī metode vairs nav piemērojama.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1250">
+          <source>The generation of electronic invoices by using the CFD method was deprecated by the tax authorities and replaced by the Comprobante Fiscal Digital a través de Internet (CFDI) method, where the signing is delegated to the third-party provider (PAC).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļu iestādes atzina par novecojušu elektronisko rēķinu ģenerēšanu, izmantojot CFD metodi, un aizstāja ar metodi Comprobante Fiscal Digital a través de Internet (CFDI), kur parakstīšana tiek deleģēta trešās puses nodrošinātājam (PAC).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1251">
+          <source>The monthly report has been removed, and an inquiry option lets users inquire about historical transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ikmēneša atskaite ir noņemta, un vaicājuma opcija lietotājam ļauj pieprasīt uzziņas par vēsturiskajām transakcijām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1252">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1253">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1254">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1255">
+          <source>Account receivables, Project</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitori, Projekts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1256">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1257">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1258">
+          <source>Mexico realized and unrealized VAT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meksikas realizētais un nerealizētais PVN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1259">
+          <source>Microsoft Dynamics AX 2012 managed unrealized value-added tax (VAT) by using Mexico-specific functionality for unrealized tax.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Microsoft Dynamics AX 2012 nerealizētais pievienotās vērtības nodoklis (PVN) tika pārvaldīts, izmantojot Meksikai raksturīgo nerealizētā nodokļa pārvaldības funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1260">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1261">
+          <source>Duplicate functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funkcionalitātes dublēšanās</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1262">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1263">
+          <source>Yes, this functionality has been replaced by standard conditional sales tax functionality that is provided by Core.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā, šī funkcionalitāte ir aizstāta ar standarta nosacījuma pārdošanas nodokļa funkcionalitāti, ko nodrošina pamats.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1264">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1265">
+          <source>Tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1266">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1267">
+          <source>Deprecated: A removal date has not been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim nav noteikts noņemšanas datums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1268">
+          <source>Microsoft Outlook integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Outlook integrēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1269">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1270">
+          <source>This functionality has been replaced by Microsoft Exchange Server integration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte ir aizstāta ar Microsoft Exchange Server integrāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1271">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1272">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1273">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1274">
+          <source>Sales and marketing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārdošana un mārketings</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1275">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1276">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1277">
+          <source>Private blocking of inventory and warehouse management journals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krājumu un noliktavas vadības žurnālu privāta bloķēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1278">
+          <source>The inventory and warehouse journals no longer support the ability to mark a journal as private for a selected user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krājumu un noliktavas žurnāli vairs neatbalsta iespēju atzīmēt žurnālu kā privātu atlasītam lietotājam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1279">
+          <source>Only the process of blocking journals as private for user groups and blocking during editing is supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiek atbalstīta tikai žurnālu kā privātu bloķēšana lietotāju grupām un bloķēšanas rediģēšanas laikā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1280">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1281">
+          <source>No use of the functionality was found.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šai funkcionalitātei netika atrasts pielietojums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1282">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1283">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1284">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1285">
+          <source>Inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krājumu vadība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1286">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1287">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1288">
+          <source>Product builder</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču konfigurators</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1289">
+          <source>Product builder was used to dynamically configure items from a sales order, purchase order, production order, sales quotation, project quotation, or item requirement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pārdošanas pasūtījuma, pirkšanas pasūtījuma, ražošanas pasūtījuma, pārdošanas piedāvājuma, projektu piedāvājuma vai krājuma vajadzības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1290">
+          <source>Based on a product model that had modeling variables, the user could select values to meet the customer requirements and get a unique product variant that had a BOM and route.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatojoties uz preces modeli, kam bija modelēšanas mainīgie, lietotājs varēja atlasīt klienta prasībām atbilstošas vērtības un iegūt unikālu preces variantu, kuram bija MK un maršruts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1291">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1292">
+          <source>Product builder exposed X++ code to end users and isn't supported in the current version of Dynamics AX.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču konfiguratorā gala lietotājs varēja redzēt X++ kodu, tāpēc tas netiek atbalstīts pašreizējā Dynamics AX versijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1293">
+          <source>It has been removed to avoid duplicate maintenance efforts on overlapping, sizeable codebases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1294">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1295">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1296">
+          <source>The constraint-based configuration was introduced in Dynamics AX 2012 where the depreciation of Product builder in future versions was already announced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1297">
+          <source>The constraint-based configuration technology is selected on the product masters to enable the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1298">
+          <source>To learn more, see <bpt id="p1">[</bpt>Build a product configuration model<ept id="p1">](../../supply-chain/pim/build-product-configuration-model.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju skatiet šeit: <bpt id="p1">[</bpt>Preces konfigurācijas modeļa izveidošana<ept id="p1">](../../supply-chain/pim/build-product-configuration-model.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1299">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1300">
+          <source>Product information management, Sales and marketing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču informācijas pārvaldība, Pārdošana un mārketings</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1301">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1302">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1303">
+          <source>Production Floor app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotnes programma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1304">
+          <source>This is the app for tablet devices running Windows 8.1 RT and Windows 8.1 Pro.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1305">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1306">
+          <source>With the change to a web-based client, it is possible to deliver similar functionality through the native Dynamics AX 7.0 client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejot uz tīmekļa klientu, var nodrošināt līdzīgu funkcionalitāti, izmantojot vietējo Dynamics AX 7.0 klientu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1307">
+          <source>The Job Card Device provides a production floor user interface that is optimized for touch and tablet form factors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbu kartes ierīce nodrošina ražotnes lietot. interf., kas optimizēts skārienier. un planšetdat. formu faktoriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1308">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1309">
+          <source>Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1310">
+          <source>The Job Card Device, which is a native part of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbu kartes ierīce, kas ir iegulta versijā Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1311">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1312">
+          <source>Production control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražošanas kontrole</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1313">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1314">
+          <source>Deprecated: A removal date from the Microsoft store has not yet been set for this feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novecojis: šim līdzeklim vēl nav noteikts noņemšanas datums no Microsoft veikala.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1315">
+          <source>Rename product dimension</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārdēvējiet preces dimensiju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1316">
+          <source>This feature let you change the name of one of the three standard product dimensions (size, color, or style) to a name that better suited your business requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis jums ļauj nosaukumu vienai no trim standarta preces dimensijām (lielumam, krāsai vai stilam) mainīt pret nosaukumu, kas labāk atbilst jūsu biznesa vajadzībām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1317">
+          <source>Renaming included all the labels where the product dimension name was used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārdēvēšana iekļāva visas etiķetes, kurās tika izmantots šis preces dimensijas nosaukums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1318">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1319">
+          <source>The current version of Dynamics AX doesn't support label changes at run time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pašreizējā Dynamics AX versija neatbalsta etiķešu izmaiņas izpildlaikā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1320">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1321">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1322">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1323">
+          <source>Product information management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču informācijas pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1324">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1325">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1326">
+          <source>Retail Server connectivity using HTTP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server savienojamība, izmantojot HTTP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1327">
+          <source>In Dynamics AX 2012 R3, the Retail Server could function using HTTP communication (non-secured).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja izmantot HTTP sakarus (bez aizsardzības).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1328">
+          <source>This was in addition to the standard communication using HTTPS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">To varēja veikt papildus standarta sakariem, izmantojot HTTPS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1329">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1330">
+          <source>Due to new security requirements, only secured communication using TLS 1.2 (or above, as available) is now supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauno drošības prasību dēļ tagad tiek atbalstīti tikai droši sakari, izmantojot TLS 1.2 (vai jaunāka versija, ja pieejama).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1331">
+          <source>The self-service installer will automatically configure the computer for this communication.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pašapkalpošanās instalētājs automātiski konfigurēs datoru šādam saziņas veidam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1332">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1333">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1334">
+          <source>Only standard HTTPS communication is now supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagad tiek atbalstīti tikai standarta HTTPS sakari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1335">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1336">
+          <source>Retail Server</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mazumtirdzniecības serveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1337">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1338">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1339">
+          <source>Role Center pages</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informācijas centru lapas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1340">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1341">
+          <source>Role Center pages were built on the deprecated Enterprise Portal platform, which has been replaced by the new web client platform in the current version of Dynamics AX.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informācijas centra lapas bija veidotas, izmantojot novecojušo uzņēmuma portāla platformu, kas pašreizējā Dynamics AX versijā ir aizstāta ar jauno tīmekļa klienta platformu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1342">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1343">
+          <source>The new Workspace form pattern provides users with a process-centered design that provides easy access to commonly used tasks within that process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunais darbvietas formas modelis lietotājiem sniedz uz procesu centrētu dizainu, kas nodrošina ērtu piekļuvi bieži lietotajiem uzdevumiem šajā procesā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1344">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1345">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1346">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1347">
+          <source>Removed as of Dynamics AX 7.0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1348">
+          <source>Sales tax jurisdictions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVN jurisdikcijas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1349">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1350">
+          <source>Low customer usage and a limited feature set</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems klientu lietojums un ierobežota līdzekļu kopa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1351">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1352">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1353">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1354">
+          <source>US sales tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ASV pārdošanas nodoklis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1355">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1356">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1357">
+          <source>Sites Services</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Site Services</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1358">
+          <source>Sites Services let you build websites that extend your business processes to the Internet without IT support.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus paplašina uz internetu, neizmantojot IT atbalstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1359">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1360">
+          <source>The Microsoft Azure infrastructure that is used by Dynamics AX has new capabilities that can be used instead (for example, Azure sites).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Dynamics AX izmantotajai Microsoft Azure infrastruktūrai ir jaunas iespējas, ko var izmantot šī līdzekļa vietā (piemēram, Azure vietnes).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1361">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1362">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1363">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1364">
+          <source>HR recruiting, Case management, Request for quotes, Vendor registration, Collaborative workspaces for opportunities and campaigns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HR personāla atlase, Pieteikumu pārvaldība, Piedāvājumu pieprasījums, Kreditora reģistrēšana, Sadarbības darbvietas iespējām un kampaņām</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1365">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1366">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1367">
+          <source>SSAS demand forecasting strategy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSAS pieprasījuma prognozēšanas stratēģija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1368">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1369">
+          <source>The design of the feature cannot be supported in the new cloud architecture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Līdzekļa dizainu nevar atbalstīt jaunajā mākoņa arhitektūrā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1370">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1371">
+          <source>Azure Machine Learning demand forecasting strategy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Azure algoritmiskās mācīšanās pieprasījuma prognozēšanas stratēģija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1372">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1373">
+          <source>Master planning</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vispārējā plānošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1374">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1375">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1376">
+          <source>Vendor invoice pool excluding posting details</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditora rēķinu kopa bez detalizētās informācijas par grāmatošanu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1377">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1378">
+          <source>Low usage.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems lietojums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1379">
+          <source>This functionality has been replaced by the Invoice journal that has workflow functionality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte ir aizstāta ar rēķinu žurnālu, kuram ir darbplūsmas funkcionalitāte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1380">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1381">
+          <source>Workflow capabilities of the Invoice journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ar rēķinu žurnāla darbplūsmas iespējām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1382">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1383">
+          <source>Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1384">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1385">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1386">
+          <source>Virtual company accounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virtuālie datu faili</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1387">
+          <source>The virtual companies feature is no longer supported in Dynamics AX.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1388">
+          <source>The virtual companies feature let users set up tables that could be shared by a set of companies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1389">
+          <source>For a description of the feature, see <bpt id="p1">[</bpt>Company accounts and Virtual company accounts<ept id="p1">](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī līdzekļa aprakstu varat skatīt šeit: <bpt id="p1">[</bpt>Datu faili un virtuālie datu faili<ept id="p1">](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1390">
+          <source>The feature works by grouping tables into collections that are assigned to virtual companies, which are groups of existing “real” companies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1391">
+          <source>Queries are created so that all the companies in the virtual company can access the data in the tables of the associated table collections.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1392">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1393">
+          <source>- Virtual companies must be set up before data is stored in the tables.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Pirms datu šķirošanas tabulās ir jāiestata virtuālie datu faili.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1394">
+          <source>Retrofitting virtual companies onto an existing implementation is very difficult.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virtuālo datu failu modernizēšana esošajā implementācijā ir ļoti sarežģīta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1395">
+          <source>- Because there has been so much data normalization in the current version of Dynamics AX, it has become difficult to know what to add to the table collections.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Tā kā pašreizējā Dynamics AX versijā ir veikta apjomīga datu normalizācija, ir grūti zināt, ko pievienot tabulu kolekcijām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1396">
+          <source>For example, it's difficult to know which tables to share.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, ir grūti zināt, kuras tabulas kopīgot.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1397">
+          <source>All the tables referenced from tables that are in a virtual company must also added.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpat ir nepieciešams pievienot arī visas tabulas, uz kurām pastāv atsauces no virtuālajā datu failā esošajām tabulām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1398">
+          <source>Because of table normalization, even simple master data that is spread across multiple tables must be part of the virtual company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1399">
+          <source>Any mistake that is made here will cause functional issues.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1400">
+          <source>- When a table is part of a virtual company, it loses information about the origin of the data, and only the virtual company is recorded.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Kad tabula ir daļa no virtuāla datu faila, tā zaudē informāciju par datu izcelsmi, un tiek reģistrēts tikai virtuālais datu fails.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1401">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1402">
+          <source>Global tables can be used to make tables accessible from all companies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai tabulas padarītu pieejamas no visiem uzņēmumiem, var izmantot globālās tabulas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1403">
+          <source>Currently, there is no replacement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pašlaik aizstājēja nav.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1404">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1405">
+          <source>All modules</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi moduļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1406">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1407">
+          <source>Removed as of Dynamics AX 7.0.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 7.0.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1408">
+          <source>Windows 8 tablet app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows 8 planšetdatoru programma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1409">
+          <source>The Windows 8 tablet app provided functionality for expense entry and approval.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprināšanas funkcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1410">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1411">
+          <source>Finance and Operations is compatible with tablets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmatūra Dynamics 365 for Finance and Operations ir saderīga ar planšetdatoriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1412">
+          <source>The tablet app is no longer required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Planšetdatoru programma vairs nav nepieciešama.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1413">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1414">
+          <source>No.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1415">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1416">
+          <source>Expense management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmaksu pārvaldība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1417">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1418">
+          <source>Removed: This functionality is only available for Dynamics AX 2012 R3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts: šī funkcionalitāte ir pieejama tikai versijā Dynamics AX 2012 R3.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1419">
+          <source>Workplanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbu plānotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1420">
+          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1421">
+          <source>Low usage</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zems lietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1422">
+          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1423">
+          <source>No, but the <bpt id="p1">**</bpt>Profile relation<ept id="p1">**</ept> page, which is opened from the <bpt id="p2">**</bpt>Profile groups<ept id="p2">**</ept> page, supports the same business scenario as the deprecated <bpt id="p3">**</bpt>Workplanner<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nē, bet lapa <bpt id="p1">**</bpt>Profila saistība<ept id="p1">**</ept>, kura tiek atvērta no lapas <bpt id="p2">**</bpt>Profilu grupas<ept id="p2">**</ept>, atbalsta tādu pašu biznesa scenāriju kā novecojusī lapa <bpt id="p3">**</bpt>Darbu plānotājs<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1424">
+          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ietekmētie produkta apgabali<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1425">
+          <source>Time and attendance</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiks un apmeklētība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1426">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statuss<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1427">
+          <source>The code has not been removed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis kods nav noņemts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1428">
+          <source>However, the form, JmgWorkPlanner, was not migrated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču forma JmgWorkPlanner netika migrēta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1429">
+          <source>X++ financial statements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X++ finanšu pārskati</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1430">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Reason for deprecation/removal<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Novecošanas/noņemšanas pamatojums<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1431">
+          <source>This functionality has been replaced by another feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte ir aizstāta ar citu līdzekli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1432">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Replaced by another feature?<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vai aizstāts ar citu līdzekli?<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1433">
+          <source>Management Reporter (labeled <bpt id="p1">&lt;strong&gt;</bpt>Financial reporting<ept id="p1">&lt;/strong&gt;</ept> in the current version of Dynamics AX)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <bpt id="p1">&lt;strong&gt;</bpt>Finanšu pārskatu veidošana<ept id="p1">&lt;/strong&gt;</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1434">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Product areas affected<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Ietekmētie produkta apgabali<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1435">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmata</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1436">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Status<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Statuss<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="1437">
+          <source>Removed as of Dynamics AX 2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noņemts, sākot ar Dynamics AX 2012</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

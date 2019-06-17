@@ -1,60 +1,132 @@
----
-title: Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
-description: Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: Currency
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 264254
-ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
-ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4cc6556351dca40c699bf76460db8e100b030580
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538172"
----
-# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a><span data-ttu-id="f9835-103">Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos</span><span class="sxs-lookup"><span data-stu-id="f9835-103">Update how amounts are displayed on reports and documents</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="f9835-104">Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.</span><span class="sxs-lookup"><span data-stu-id="f9835-104">This topic provides information about how to update how amounts are displayed on reports and other documents for Estonia, Latvia, Lithuania, Poland, Czech Republic, Hungary, and Russia.</span></span>
-
-<span data-ttu-id="f9835-105">Juridiskajām personām Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā valūtas vienībām un apakšvienībām varat iestatīt pilnos nosaukumus un īsos nosaukumus.</span><span class="sxs-lookup"><span data-stu-id="f9835-105">For legal entities in Estonia, Latvia, Lithuania, Poland, Czech Republic, Hungary, and Russia, you can set up full names and short names for currency units and subunits.</span></span> <span data-ttu-id="f9835-106">Šos nosaukumus var izmantot, lai pārveidotu summu rādīšanu dokumentos un pārskatos.</span><span class="sxs-lookup"><span data-stu-id="f9835-106">These names can be used to transform how amounts are represented on documents and reports.</span></span> <span data-ttu-id="f9835-107">Piemēram: summu **LTL 100,20** var rādīt kā **100 liti 20 centi**.</span><span class="sxs-lookup"><span data-stu-id="f9835-107">For example: The amount **LTL 100.20** can be displayed as **100 Litas 20 Centas**.</span></span>
-
-## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a><span data-ttu-id="f9835-108">Iestatīt pilnos un īsos nosaukumus valūtas vienībām un apakšvienībām</span><span class="sxs-lookup"><span data-stu-id="f9835-108">Set up full and short names for currency units and subunits</span></span>
-<span data-ttu-id="f9835-109">Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īsos nosaukumus, izpildiet tālāk sniegtos norādījumus.</span><span class="sxs-lookup"><span data-stu-id="f9835-109">To set up full and short names for currency units and subunits for a language, complete the following steps:</span></span>
-
-1. <span data-ttu-id="f9835-110">Atveriet lapu **Valūtas**.</span><span class="sxs-lookup"><span data-stu-id="f9835-110">Open the **Currencies** page.</span></span>
-2. <span data-ttu-id="f9835-111">Izvēlieties valūtu.</span><span class="sxs-lookup"><span data-stu-id="f9835-111">Select a currency.</span></span>
-3. <span data-ttu-id="f9835-112">Darbību rūtī noklikšķiniet uz **Locījumi**.</span><span class="sxs-lookup"><span data-stu-id="f9835-112">On the Action Pane, click **Declension**.</span></span>
-4. <span data-ttu-id="f9835-113">Lai kādai valodai pievienotu pilno nosaukumu un īso nosaukumu, noklikšķiniet uz **Jauns** un aizpildiet tālāk uzskaitītos laukus.</span><span class="sxs-lookup"><span data-stu-id="f9835-113">To add full name and short name for a language, click **New** and complete the following fields.</span></span>
-
-   |                                                                        |                                                                                                                                                                                                                                                                        |
-   |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                         <span data-ttu-id="f9835-114"><strong>Lauks</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-114"><strong>Field</strong></span></span>                         |                                                                                                                      <span data-ttu-id="f9835-115"><strong>Apraksts</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-115"><strong>Description</strong></span></span>                                                                                                                      |
-   |                       <span data-ttu-id="f9835-116"><strong>Valoda</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-116"><strong>Language</strong></span></span>                        |                                                                                                               <span data-ttu-id="f9835-117">Atlasiet pašreizējā teksta valodu.</span><span class="sxs-lookup"><span data-stu-id="f9835-117">Select the language for the current text.</span></span>                                                                                                                |
-   |    <span data-ttu-id="f9835-118"><strong>Vienskaitļa nominatīvs (vienības nosaukumu lauku grupa)</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-118"><strong>Singular nominative (Name of units field group)</strong></span></span>    |                                                                                       <span data-ttu-id="f9835-119">Ievadiet valūtas nosaukumu vienskaitļa formā.</span><span class="sxs-lookup"><span data-stu-id="f9835-119">Enter the singular form of the currency.</span></span> <span data-ttu-id="f9835-120">Piemēram, vienskaitļa forma no litiem ir “lits”.</span><span class="sxs-lookup"><span data-stu-id="f9835-120">For example, the singular form of Litas is Litas.</span></span>                                                                                       |
-   |     <span data-ttu-id="f9835-121"><strong>Daudzskaitļa nominatīvs (vienības nosaukumu lauku grupa)</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-121"><strong>Plural nominative (Name of units field group)</strong></span></span>     | <span data-ttu-id="f9835-122">Ievadiet valūtas nosaukumu daudzskaitļa formā.</span><span class="sxs-lookup"><span data-stu-id="f9835-122">Enter the plural form of the currency.</span></span> <span data-ttu-id="f9835-123">Ievadiet, piemēram, “liti”.</span><span class="sxs-lookup"><span data-stu-id="f9835-123">For example, enter Litai.</span></span> <span data-ttu-id="f9835-124"><strong>Piezīme</strong>. Lauki <strong>Vienskaitļa ģenitīvs</strong> un <strong>Daudzskaitļa ģenitīvs</strong> ir pieejami atkarībā no valodas, kas atlasīta laukā <strong>Valoda</strong>.</span><span class="sxs-lookup"><span data-stu-id="f9835-124"><strong>Note</strong>: The <strong>Singular genitive</strong> and <strong>Plural genitive</strong> fields are available based on the language that you select in the <strong>Language</strong> field.</span></span> |
-   | <span data-ttu-id="f9835-125"><strong>Vienskaitļa nominatīva lauks (daļu nosaukumu lauku grupa)</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-125"><strong>Singular nominative field (Name of parts field group)</strong></span></span> |                                                                                                        <span data-ttu-id="f9835-126">Ievadiet valūtas apakšvienības nosaukumu vienskaitļa formā.</span><span class="sxs-lookup"><span data-stu-id="f9835-126">Enter the singular form of the subunit of the currency.</span></span>                                                                                                         |
-   |     <span data-ttu-id="f9835-127"><strong>Daudzskaitļa nominatīvs (daļu nosaukumu lauku grupa)</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-127"><strong>Plural nominative (Name of parts field group)</strong></span></span>     |                                                                                                         <span data-ttu-id="f9835-128">Ievadiet valūtas apakšvienības nosaukumu daudzskaitļa formā.</span><span class="sxs-lookup"><span data-stu-id="f9835-128">Enter the plural form of the subunit of the currency.</span></span>                                                                                                          |
-   |    <span data-ttu-id="f9835-129"><strong>Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-129"><strong>Shortcut name of units (Short name field group)</strong></span></span>    |                                                                                         <span data-ttu-id="f9835-130">Ievadiet ISO kodu, lai identificētu attiecīgo valūtu.</span><span class="sxs-lookup"><span data-stu-id="f9835-130">Enter the ISO code to identify the currency.</span></span> <span data-ttu-id="f9835-131">Piemēram, ievadiet LTL, lai identificētu litus.</span><span class="sxs-lookup"><span data-stu-id="f9835-131">For example, enter LTL to identify Litas.</span></span>                                                                                         |
-   |   <span data-ttu-id="f9835-132"><strong>Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-132"><strong>Shortcut name for parts (Short name field group)</strong></span></span>    |                                                                                               <span data-ttu-id="f9835-133">Ievadiet valūtas apakšvienības apzīmējumu.</span><span class="sxs-lookup"><span data-stu-id="f9835-133">Enter the denomination of the currency subunit.</span></span> <span data-ttu-id="f9835-134">Ievadiet, piemēram, “centi”.</span><span class="sxs-lookup"><span data-stu-id="f9835-134">For example, enter Centas.</span></span>                                                                                               |
-   |       <span data-ttu-id="f9835-135"><strong>Saiklis “un” starp vienībām un daļām</strong></span><span class="sxs-lookup"><span data-stu-id="f9835-135"><strong>Conjunction 'and' between units and parts</strong></span></span>       |                                     <span data-ttu-id="f9835-136">Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”.</span><span class="sxs-lookup"><span data-stu-id="f9835-136">Select to print the conjunction “and” between the currency units and unit parts.</span></span> <span data-ttu-id="f9835-137">Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.</span><span class="sxs-lookup"><span data-stu-id="f9835-137">For example, on invoices or reports, the amount for LTL 100.20 will be displayed as 100 Litas and 20 Centas.</span></span>                                      |
-
-
-5. <span data-ttu-id="f9835-138">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="f9835-138">Click **Save**.</span></span>
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="emea-amount-printing-forms.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>emea-amount-printing-forms.548cfd.61d3ebe7204a248b6d4287215fc9ad42e9d08b76.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>61d3ebe7204a248b6d4287215fc9ad42e9d08b76</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-amount-printing-forms.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Update how amounts are displayed on reports and documents</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about how to update how amounts are displayed on reports and other documents for Estonia, Latvia, Lithuania, Poland, Czech Republic, Hungary, and Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Update how amounts are displayed on reports and documents</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about how to update how amounts are displayed on reports and other documents for Estonia, Latvia, Lithuania, Poland, Czech Republic, Hungary, and Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>For legal entities in Estonia, Latvia, Lithuania, Poland, Czech Republic, Hungary, and Russia, you can set up full names and short names for currency units and subunits.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juridiskajām personām Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā valūtas vienībām un apakšvienībām varat iestatīt pilnos nosaukumus un īsos nosaukumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>These names can be used to transform how amounts are represented on documents and reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šos nosaukumus var izmantot, lai pārveidotu summu rādīšanu dokumentos un pārskatos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>For example: The amount <bpt id="p1">**</bpt>LTL 100.20<ept id="p1">**</ept> can be displayed as <bpt id="p2">**</bpt>100 Litas 20 Centas<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram: summu <bpt id="p1">**</bpt>LTL 100,20<ept id="p1">**</ept> var rādīt kā <bpt id="p2">**</bpt>100 liti 20 centi<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Set up full and short names for currency units and subunits</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatīt pilnos un īsos nosaukumus valūtas vienībām un apakšvienībām</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>To set up full and short names for currency units and subunits for a language, complete the following steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īsos nosaukumus, izpildiet tālāk sniegtos norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Open the <bpt id="p1">**</bpt>Currencies<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atveriet lapu <bpt id="p1">**</bpt>Valūtas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Select a currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvēlieties valūtu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>On the Action Pane, click <bpt id="p1">**</bpt>Declension<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz <bpt id="p1">**</bpt>Locījumi<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>To add full name and short name for a language, click <bpt id="p1">**</bpt>New<ept id="p1">**</ept> and complete the following fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai kādai valodai pievienotu pilno nosaukumu un īso nosaukumu, noklikšķiniet uz <bpt id="p1">**</bpt>Jauns<ept id="p1">**</ept> un aizpildiet tālāk uzskaitītos laukus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Field<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Lauks<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Description<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Apraksts<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Language<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Valoda<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Select the language for the current text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet pašreizējā teksta valodu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Singular nominative (Name of units field group)<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vienskaitļa nominatīvs (vienības nosaukumu lauku grupa)<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Enter the singular form of the currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet valūtas nosaukumu vienskaitļa formā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>For example, the singular form of Litas is Litas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, vienskaitļa forma no litiem ir “lits”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Plural nominative (Name of units field group)<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Daudzskaitļa nominatīvs (vienības nosaukumu lauku grupa)<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Enter the plural form of the currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet valūtas nosaukumu daudzskaitļa formā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>For example, enter Litai.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet, piemēram, “liti”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note<ept id="p1">&lt;/strong&gt;</ept>: The <bpt id="p2">&lt;strong&gt;</bpt>Singular genitive<ept id="p2">&lt;/strong&gt;</ept> and <bpt id="p3">&lt;strong&gt;</bpt>Plural genitive<ept id="p3">&lt;/strong&gt;</ept> fields are available based on the language that you select in the <bpt id="p4">&lt;strong&gt;</bpt>Language<ept id="p4">&lt;/strong&gt;</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme<ept id="p1">&lt;/strong&gt;</ept>. Lauki <bpt id="p2">&lt;strong&gt;</bpt>Vienskaitļa ģenitīvs<ept id="p2">&lt;/strong&gt;</ept> un <bpt id="p3">&lt;strong&gt;</bpt>Daudzskaitļa ģenitīvs<ept id="p3">&lt;/strong&gt;</ept> ir pieejami atkarībā no valodas, kas atlasīta laukā <bpt id="p4">&lt;strong&gt;</bpt>Valoda<ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Singular nominative field (Name of parts field group)<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vienskaitļa nominatīva lauks (daļu nosaukumu lauku grupa)<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Enter the singular form of the subunit of the currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet valūtas apakšvienības nosaukumu vienskaitļa formā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Plural nominative (Name of parts field group)<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Daudzskaitļa nominatīvs (daļu nosaukumu lauku grupa)<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Enter the plural form of the subunit of the currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet valūtas apakšvienības nosaukumu daudzskaitļa formā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Shortcut name of units (Short name field group)<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Enter the ISO code to identify the currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet ISO kodu, lai identificētu attiecīgo valūtu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>For example, enter LTL to identify Litas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, ievadiet LTL, lai identificētu litus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Shortcut name for parts (Short name field group)<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Enter the denomination of the currency subunit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet valūtas apakšvienības apzīmējumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>For example, enter Centas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet, piemēram, “centi”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Conjunction 'and' between units and parts<ept id="p1">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Saiklis “un” starp vienībām un daļām<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Select to print the conjunction “and” between the currency units and unit parts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>For example, on invoices or reports, the amount for LTL 100.20 will be displayed as 100 Litas and 20 Centas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Saglabāt<ept id="p1">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

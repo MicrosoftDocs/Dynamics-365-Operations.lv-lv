@@ -1,90 +1,204 @@
----
-title: EUR-00012 ES ieraksta sertifikāta izsniegšana
-description: Šajā procedūrā ir izklāstīts, kā iespējot ES ieraksta sertifikātu, konfigurēt debitora kontu ierakstu sertifikātu izmantošanai un sertifikātu izsniegšanai.
-author: mrolecki
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustParameters, CustTable, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustEntryCertificateJour_W, SrsReportViewerForm
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: mrolecki
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee04632eee45aff1fe4b286c65024b0bc57bbb73
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538148"
----
-# <a name="eur-00012-issue-an-eu-entry-certificate"></a><span data-ttu-id="59b77-103">EUR-00012 ES ieraksta sertifikāta izsniegšana</span><span class="sxs-lookup"><span data-stu-id="59b77-103">EUR-00012 Issue an EU entry certificate</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="59b77-104">Šajā procedūrā ir izklāstīts, kā iespējot ES ieraksta sertifikātu, konfigurēt debitora kontu ierakstu sertifikātu izmantošanai un sertifikātu izsniegšanai.</span><span class="sxs-lookup"><span data-stu-id="59b77-104">This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</span></span> <span data-ttu-id="59b77-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma DEMF dati.</span><span class="sxs-lookup"><span data-stu-id="59b77-105">This procedure was created using the demo data company DEMF.</span></span>
-
-
-## <a name="enable-entry-certificate-management"></a><span data-ttu-id="59b77-106">Iespējot ieraksta sertifikāta pārvaldību</span><span class="sxs-lookup"><span data-stu-id="59b77-106">Enable entry certificate management</span></span>
-1. <span data-ttu-id="59b77-107">Pārejiet uz sadaļu Debitori > Iestatījumi > Debitoru parametri.</span><span class="sxs-lookup"><span data-stu-id="59b77-107">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
-2. <span data-ttu-id="59b77-108">Noklikšķiniet uz cilnes Sūtījumi.</span><span class="sxs-lookup"><span data-stu-id="59b77-108">Click the Shipments tab.</span></span>
-3. <span data-ttu-id="59b77-109">Izvērsiet sadaļu Ieraksta sertifikāts.</span><span class="sxs-lookup"><span data-stu-id="59b77-109">Expand the Entry certificate section.</span></span>
-4. <span data-ttu-id="59b77-110">Atlasiet Jā laukā Iespējot ieraksta sertifikāta pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="59b77-110">Select Yes in the Enable entry certificate management field.</span></span>
-5. <span data-ttu-id="59b77-111">Atlasiet Jā laukā Iespējot ieraksta sertifikāta izsniegšanu.</span><span class="sxs-lookup"><span data-stu-id="59b77-111">Select Yes in the Enable entry certificate issuing field.</span></span>
-6. <span data-ttu-id="59b77-112">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="59b77-112">Click the Number sequences tab.</span></span>
-7. <span data-ttu-id="59b77-113">Sarakstā atrodiet un atlasiet rindu Ieraksta sertifikāts.</span><span class="sxs-lookup"><span data-stu-id="59b77-113">In the list, find and select Entry certificate row.</span></span>
-8. <span data-ttu-id="59b77-114">Laukā Numuru sērijas kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="59b77-114">In the Number sequence code field, enter or select a value.</span></span>
-
-## <a name="set-up-a-customer"></a><span data-ttu-id="59b77-115">Debitora iestatīšana</span><span class="sxs-lookup"><span data-stu-id="59b77-115">Set up a customer</span></span>
-1. <span data-ttu-id="59b77-116">Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="59b77-116">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="59b77-117">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="59b77-117">Use the Quick Filter to find records.</span></span> <span data-ttu-id="59b77-118">Piemēram, filtrējiet pēc lauka Konts vērtības DE-015.</span><span class="sxs-lookup"><span data-stu-id="59b77-118">For example, filter on the Account field with a value of 'DE-015'.</span></span>
-3. <span data-ttu-id="59b77-119">Atveriet debitora konta detaļas.</span><span class="sxs-lookup"><span data-stu-id="59b77-119">Open customer account details.</span></span>
-4. <span data-ttu-id="59b77-120">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="59b77-120">Click Edit.</span></span>
-5. <span data-ttu-id="59b77-121">Izvērsiet sadaļu Rēķins un piegāde.</span><span class="sxs-lookup"><span data-stu-id="59b77-121">Expand the Invoice and delivery section.</span></span>
-6. <span data-ttu-id="59b77-122">Atlasiet Jā laukā Nepieciešams ieraksta sertifikāts.</span><span class="sxs-lookup"><span data-stu-id="59b77-122">Select Yes in the Entry certificate required field.</span></span>
-7. <span data-ttu-id="59b77-123">Atlasiet Jā laukā Izsniegt ieraksta sertifikātu.</span><span class="sxs-lookup"><span data-stu-id="59b77-123">Select Yes in the Issue entry certificate field.</span></span>
-8. <span data-ttu-id="59b77-124">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="59b77-124">Click Save.</span></span>
-
-## <a name="create-an-eu-entry-certificate-automatically"></a><span data-ttu-id="59b77-125">ES ieraksta sertifikāta automātiskā izveide</span><span class="sxs-lookup"><span data-stu-id="59b77-125">Create an EU entry certificate automatically</span></span>
-1. <span data-ttu-id="59b77-126">Pārejiet uz sadaļu Debitori > Pasūtījumi > Visi pārdošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="59b77-126">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="59b77-127">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="59b77-127">Click New.</span></span>
-3. <span data-ttu-id="59b77-128">Laukā Debitora konts ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="59b77-128">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="59b77-129">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="59b77-129">Click OK.</span></span>
-5. <span data-ttu-id="59b77-130">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="59b77-130">In the Item number field, enter or select a value.</span></span>
-6. <span data-ttu-id="59b77-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="59b77-131">Click Save.</span></span>
-7. <span data-ttu-id="59b77-132">Darbību rūtī noklikšķiniet uz Izdot un iepakot.</span><span class="sxs-lookup"><span data-stu-id="59b77-132">On the Action Pane, click Pick and pack.</span></span>
-8. <span data-ttu-id="59b77-133">Noklikšķiniet uz Grāmatot pavadzīmi.</span><span class="sxs-lookup"><span data-stu-id="59b77-133">Click Post packing slip.</span></span>
-9. <span data-ttu-id="59b77-134">Izvērsiet sadaļu Parametri.</span><span class="sxs-lookup"><span data-stu-id="59b77-134">Expand the Parameters section.</span></span>
-10. <span data-ttu-id="59b77-135">Laukā Daudzums atlasiet vērtību Visi.</span><span class="sxs-lookup"><span data-stu-id="59b77-135">In the Quantity field, select 'All'.</span></span>
-11. <span data-ttu-id="59b77-136">Notīriet izvēles rūtiņu Izsniegt ieraksta sertifikātu.</span><span class="sxs-lookup"><span data-stu-id="59b77-136">Clear the Issue entry certificate check box.</span></span>
-    * <span data-ttu-id="59b77-137">Ieraksta sertifikātu var izsniegt pavadzīmes grāmatošanas laikā vai pasūtījuma rēķina izrakstīšanas laikā.</span><span class="sxs-lookup"><span data-stu-id="59b77-137">An entry certificate can be issued during packing slip posting or during order invoicing.</span></span> <span data-ttu-id="59b77-138">Neatzīmējiet izvēles rūtiņu Izsniegt ieraksta sertifikātu, lai to izsniegtu vēlāk.</span><span class="sxs-lookup"><span data-stu-id="59b77-138">Leave the Issue entry certificate checkbox unchecked to issue it later.</span></span>  
-12. <span data-ttu-id="59b77-139">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="59b77-139">Click OK.</span></span>
-13. <span data-ttu-id="59b77-140">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="59b77-140">Click OK.</span></span>
-14. <span data-ttu-id="59b77-141">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-141">On the Action Pane, click Invoice.</span></span>
-15. <span data-ttu-id="59b77-142">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-142">Click Invoice.</span></span>
-    * <span data-ttu-id="59b77-143">Pārbaudiet, vai sadaļā Pārskats ir atzīmētas izvēles rūtiņas Nepieciešams ieraksta sertifikāts un Izsniegt ieraksta sertifikātu.</span><span class="sxs-lookup"><span data-stu-id="59b77-143">Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</span></span>  <span data-ttu-id="59b77-144">Var arī atzīmēt izvēles rūtiņu Drukāt ieraksta sertifikātu, lai atļautu veikt sertifikāta izdrukas.</span><span class="sxs-lookup"><span data-stu-id="59b77-144">You can also select the Print entry certificate check box to allow printing of the certificate.</span></span>  
-16. <span data-ttu-id="59b77-145">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="59b77-145">Click OK.</span></span>
-17. <span data-ttu-id="59b77-146">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="59b77-146">Click OK.</span></span>
-18. <span data-ttu-id="59b77-147">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-147">On the Action Pane, click Invoice.</span></span>
-19. <span data-ttu-id="59b77-148">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-148">Click Invoice.</span></span>
-20. <span data-ttu-id="59b77-149">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-149">On the Action Pane, click Invoice.</span></span>
-21. <span data-ttu-id="59b77-150">Noklikšķiniet uz Skatīt izsniegtos ierakstu sertifikātus.</span><span class="sxs-lookup"><span data-stu-id="59b77-150">Click View issued entry certificates.</span></span>
-22. <span data-ttu-id="59b77-151">Klikšķiniet Drukāt.</span><span class="sxs-lookup"><span data-stu-id="59b77-151">Click Print.</span></span>
-23. <span data-ttu-id="59b77-152">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="59b77-152">Close the page.</span></span>
-24. <span data-ttu-id="59b77-153">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="59b77-153">Click Change status.</span></span>
-25. <span data-ttu-id="59b77-154">Laukā Jauns statuss atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="59b77-154">In the New status field, select an option.</span></span>
-26. <span data-ttu-id="59b77-155">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="59b77-155">Click OK.</span></span>
-27. <span data-ttu-id="59b77-156">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="59b77-156">Close the page.</span></span>
-
-## <a name="create-an-eu-entry-certificate-manually"></a><span data-ttu-id="59b77-157">ES ieraksta sertifikāta manuālā izveide</span><span class="sxs-lookup"><span data-stu-id="59b77-157">Create an EU entry certificate manually</span></span>
-1. <span data-ttu-id="59b77-158">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-158">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="59b77-159">Noklikšķiniet uz Izveidot ieraksta sertifikātu.</span><span class="sxs-lookup"><span data-stu-id="59b77-159">Click Create entry certificate.</span></span>
-3. <span data-ttu-id="59b77-160">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="59b77-160">Click OK.</span></span>
-4. <span data-ttu-id="59b77-161">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="59b77-161">On the Action Pane, click Invoice.</span></span>
-5. <span data-ttu-id="59b77-162">Noklikšķiniet uz Skatīt izsniegtos ierakstu sertifikātus.</span><span class="sxs-lookup"><span data-stu-id="59b77-162">Click View issued entry certificates.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="eur-00012-issue-eu-entry-certificate.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>eur-00012-issue-eu-entry-certificate.2f67ef.5a566b1d25064e3fccc8953dc883aa63bd16a301.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>5a566b1d25064e3fccc8953dc883aa63bd16a301</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00012-issue-eu-entry-certificate.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>EUR-00012 Issue an EU entry certificate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 ES ieraksta sertifikāta izsniegšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā procedūrā ir izklāstīts, kā iespējot ES ieraksta sertifikātu, konfigurēt debitora kontu ierakstu sertifikātu izmantošanai un sertifikātu izsniegšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>EUR-00012 Issue an EU entry certificate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 ES ieraksta sertifikāta izsniegšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā procedūrā ir izklāstīts, kā iespējot ES ieraksta sertifikātu, konfigurēt debitora kontu ierakstu sertifikātu izmantošanai un sertifikātu izsniegšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company DEMF.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma DEMF dati.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Enable entry certificate management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iespējot ieraksta sertifikāta pārvaldību</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Accounts receivable &gt; Setup &gt; Accounts receivable parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejiet uz sadaļu Debitori &gt; Iestatījumi &gt; Debitoru parametri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Click the Shipments tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz cilnes Sūtījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Expand the Entry certificate section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvērsiet sadaļu Ieraksta sertifikāts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select Yes in the Enable entry certificate management field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet Jā laukā Iespējot ieraksta sertifikāta pārvaldību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Select Yes in the Enable entry certificate issuing field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet Jā laukā Iespējot ieraksta sertifikāta izsniegšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Click the Number sequences tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz cilnes Numuru sērijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the list, find and select Entry certificate row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sarakstā atrodiet un atlasiet rindu Ieraksta sertifikāts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Number sequence code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Numuru sērijas kods ievadiet vai atlasiet kādu vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Set up a customer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitora iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejiet uz sadaļu Debitori &gt; Debitori &gt; Visi debitori.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>For example, filter on the Account field with a value of 'DE-015'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, filtrējiet pēc lauka Konts vērtības DE-015.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Open customer account details.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atveriet debitora konta detaļas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Rediģēt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Expand the Invoice and delivery section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvērsiet sadaļu Rēķins un piegāde.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Select Yes in the Entry certificate required field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet Jā laukā Nepieciešams ieraksta sertifikāts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Select Yes in the Issue entry certificate field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet Jā laukā Izsniegt ieraksta sertifikātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saglabāt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Create an EU entry certificate automatically</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ES ieraksta sertifikāta automātiskā izveide</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejiet uz sadaļu Debitori &gt; Pasūtījumi &gt; Visi pārdošanas pasūtījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Jauns.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Customer account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Debitora konts ievadiet vai atlasiet kādu vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Labi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saglabāt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>On the Action Pane, click Pick and pack.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz Izdot un iepakot.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Click Post packing slip.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Grāmatot pavadzīmi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Expand the Parameters section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvērsiet sadaļu Parametri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In the Quantity field, select 'All'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Daudzums atlasiet vērtību Visi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Clear the Issue entry certificate check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notīriet izvēles rūtiņu Izsniegt ieraksta sertifikātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>An entry certificate can be issued during packing slip posting or during order invoicing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ieraksta sertifikātu var izsniegt pavadzīmes grāmatošanas laikā vai pasūtījuma rēķina izrakstīšanas laikā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Leave the Issue entry certificate checkbox unchecked to issue it later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neatzīmējiet izvēles rūtiņu Izsniegt ieraksta sertifikātu, lai to izsniegtu vēlāk.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudiet, vai sadaļā Pārskats ir atzīmētas izvēles rūtiņas Nepieciešams ieraksta sertifikāts un Izsniegt ieraksta sertifikātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>You can also select the Print entry certificate check box to allow printing of the certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Var arī atzīmēt izvēles rūtiņu Drukāt ieraksta sertifikātu, lai atļautu veikt sertifikāta izdrukas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Click View issued entry certificates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Skatīt izsniegtos ierakstu sertifikātus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Click Print.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klikšķiniet Drukāt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Mainīt statusu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In the New status field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Jauns statuss atlasiet kādu opciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Create an EU entry certificate manually</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ES ieraksta sertifikāta manuālā izveide</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Click Create entry certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Izveidot ieraksta sertifikātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Labi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī noklikšķiniet uz Rēķins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Click View issued entry certificates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Skatīt izsniegtos ierakstu sertifikātus.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

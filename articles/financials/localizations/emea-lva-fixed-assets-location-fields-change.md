@@ -1,48 +1,60 @@
----
-title: Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
-description: Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: AssetTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 266924
-ms.search.region: Latvia
-ms.author: v-elgolu
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c5240363e738813b7d1eff26f5d9f3fe9314efbf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538159"
----
-# <a name="fixed-assets-location-change-tracking-for-latvia"></a><span data-ttu-id="40f81-103">Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai</span><span class="sxs-lookup"><span data-stu-id="40f81-103">Fixed assets location change tracking for Latvia</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="40f81-104">Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.</span><span class="sxs-lookup"><span data-stu-id="40f81-104">This topic provides information about the change tracking functionality for fixed asset location fields for legal entities with a primary address in Latvia.</span></span>
-
-<span data-ttu-id="40f81-105">Juridiskajām personām, kuru primārā adrese atrodas Latvijā, kad lapā **Pamatlīdzeklis** modificējat tālāk uzskaitītos laukus, tiek saglabāts modifikāciju pārskats vēlākai apskatīšanai.</span><span class="sxs-lookup"><span data-stu-id="40f81-105">For legal entities with a primary address in Latvia, when you modify the following fields on the **Fixed asset** page, a record of the modification is saved for later viewing.</span></span>
-
--   <span data-ttu-id="40f81-106">Atbildīgā persona</span><span class="sxs-lookup"><span data-stu-id="40f81-106">Responsible</span></span>
--   <span data-ttu-id="40f81-107">Nodaļa</span><span class="sxs-lookup"><span data-stu-id="40f81-107">Department</span></span>
--   <span data-ttu-id="40f81-108">Novietojums</span><span class="sxs-lookup"><span data-stu-id="40f81-108">Location</span></span>
-
-<span data-ttu-id="40f81-109">Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz **Saglabāt** vai kad fokusu pārvietojat no lauka, kurā veicāt šīs izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="40f81-109">Your modification is saved when you click **Save** or when you move your focus away from the field where you made the change.</span></span> <span data-ttu-id="40f81-110">Šo lauku modifikāciju vēsturi varat apskatīt, izpildot tālāk sniegtos norādījumus.</span><span class="sxs-lookup"><span data-stu-id="40f81-110">You can view the modification history for these fields by completing the following steps:</span></span>
-
-1.  <span data-ttu-id="40f81-111">Noklikšķiniet uz **Pamatlīdzekļi** &gt; **Pamatlīdzekļi** &gt; **Pamatlīdzekļi**.</span><span class="sxs-lookup"><span data-stu-id="40f81-111">Click **Fixed assets** &gt; **Fixed assets** &gt; **Fixed assets**.</span></span>
-2.  <span data-ttu-id="40f81-112">Atlasiet pamatlīdzekli.</span><span class="sxs-lookup"><span data-stu-id="40f81-112">Select a fixed asset.</span></span>
-3.  <span data-ttu-id="40f81-113">Cilnē **Pamatlīdzeklis** noklikšķiniet uz **Pārsūtījumi** &gt; **Iekšējās pārsūtīšanas vēsture**.</span><span class="sxs-lookup"><span data-stu-id="40f81-113">On the **Fixed asset** tab, click **Transfers** &gt; **Internal transfer history**.</span></span>
-4.  <span data-ttu-id="40f81-114">Neobligāti: noklikšķiniet uz **Drukāt** &gt; **Pārvietošanas akts**.</span><span class="sxs-lookup"><span data-stu-id="40f81-114">Optional: Click **Print** &gt; **Internal transfer statement**.</span></span>
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="emea-lva-fixed-assets-location-fields-change.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>emea-lva-fixed-assets-location-fields-change.0866f7.3479b630ff180cc0e422be471f00dcf9c93f94d5.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>3479b630ff180cc0e422be471f00dcf9c93f94d5</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-lva-fixed-assets-location-fields-change.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Fixed assets location change tracking for Latvia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about the change tracking functionality for fixed asset location fields for legal entities with a primary address in Latvia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Fixed assets location change tracking for Latvia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about the change tracking functionality for fixed asset location fields for legal entities with a primary address in Latvia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti attiecībā uz pamatlīdzekļu novietojuma laukiem juridiskajām personām, kuru primārā adrese atrodas Latvijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>For legal entities with a primary address in Latvia, when you modify the following fields on the <bpt id="p1">**</bpt>Fixed asset<ept id="p1">**</ept> page, a record of the modification is saved for later viewing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juridiskajām personām, kuru primārā adrese atrodas Latvijā, kad lapā <bpt id="p1">**</bpt>Pamatlīdzeklis<ept id="p1">**</ept> modificējat tālāk uzskaitītos laukus, tiek saglabāts modifikāciju pārskats vēlākai apskatīšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Responsible</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbildīgā persona</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Department</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodaļa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Location</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novietojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Your modification is saved when you click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or when you move your focus away from the field where you made the change.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz <bpt id="p1">**</bpt>Saglabāt<ept id="p1">**</ept> vai kad fokusu pārvietojat no lauka, kurā veicāt šīs izmaiņas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>You can view the modification history for these fields by completing the following steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo lauku modifikāciju vēsturi varat apskatīt, izpildot tālāk sniegtos norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click <bpt id="p1">**</bpt>Fixed assets<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fixed assets<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fixed assets<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Pamatlīdzekļi<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Pamatlīdzekļi<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Pamatlīdzekļi<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Select a fixed asset.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet pamatlīdzekli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>On the <bpt id="p1">**</bpt>Fixed asset<ept id="p1">**</ept> tab, click <bpt id="p2">**</bpt>Transfers<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Internal transfer history<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilnē <bpt id="p1">**</bpt>Pamatlīdzeklis<ept id="p1">**</ept> noklikšķiniet uz <bpt id="p2">**</bpt>Pārsūtījumi<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Iekšējās pārsūtīšanas vēsture<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Optional: Click <bpt id="p1">**</bpt>Print<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Internal transfer statement<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neobligāti: noklikšķiniet uz <bpt id="p1">**</bpt>Drukāt<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Pārvietošanas akts<ept id="p2">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

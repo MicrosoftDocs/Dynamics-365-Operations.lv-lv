@@ -1,893 +1,2610 @@
----
-title: Retail perifērijas ierīces
-description: Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 01/16/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
-audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 268444
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: rubendel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571562"
----
-# <a name="retail-peripherals"></a><span data-ttu-id="89bf3-103">Retail perifērijas ierīces</span><span class="sxs-lookup"><span data-stu-id="89bf3-103">Retail peripherals</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="89bf3-104">Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm.</span><span class="sxs-lookup"><span data-stu-id="89bf3-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="89bf3-105">Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="89bf3-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
-
-## <a name="concepts"></a><span data-ttu-id="89bf3-106">Koncepcijas</span><span class="sxs-lookup"><span data-stu-id="89bf3-106">Concepts</span></span>
-
-### <a name="pos-registers"></a><span data-ttu-id="89bf3-107">POS kases sistēmas</span><span class="sxs-lookup"><span data-stu-id="89bf3-107">POS registers</span></span>
-
-<span data-ttu-id="89bf3-108">Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-108">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="89bf3-109">Pārdošanas punkta (POS) kases sistēma ir elements, kas tiek izmantots, lai noteiktu konkrētas POS instances raksturlielumus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-109">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="89bf3-110">Šie raksturlielumi ietver aparatūras profilu jeb ar kases sistēmu izmantoto mazumtirdzniecības perifērijas ierīču iestatījumus, veikalu, ar kuru ir kartēta šī kases sistēma, un vizuālo noformējumu, ko redz lietotājs, kurš pierakstās šajā kases sistēmā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-110">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
-
-### <a name="devices"></a><span data-ttu-id="89bf3-111">Ierīces</span><span class="sxs-lookup"><span data-stu-id="89bf3-111">Devices</span></span>
-
-<span data-ttu-id="89bf3-112">Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Ierīces**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-112">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="89bf3-113">Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru.</span><span class="sxs-lookup"><span data-stu-id="89bf3-113">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="89bf3-114">Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru.</span><span class="sxs-lookup"><span data-stu-id="89bf3-114">When a device is created, it's mapped to a POS register.</span></span> <span data-ttu-id="89bf3-115">Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē.</span><span class="sxs-lookup"><span data-stu-id="89bf3-115">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="89bf3-116">Ierīces var kartēt ar šiem lietojumprogrammu veidiem: Retail Modern POS, Retail Cloud POS, Retail Modern POS — Windows Phone, Retail Modern POS — Android un Retail Modern POS — ISP.</span><span class="sxs-lookup"><span data-stu-id="89bf3-116">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
-
-### <a name="retail-modern-pos"></a><span data-ttu-id="89bf3-117">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="89bf3-117">Retail Modern POS</span></span>
-
-<span data-ttu-id="89bf3-118">Modern POS ir operētājsistēmai Microsoft Windows paredzētā POS programma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-118">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="89bf3-119">To var izvietot operētājsistēmās (OS) Windows 10.</span><span class="sxs-lookup"><span data-stu-id="89bf3-119">It can be deployed on Windows 10 operating systems (OSs).</span></span>
-
-### <a name="cloud-pos"></a><span data-ttu-id="89bf3-120">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="89bf3-120">Cloud POS</span></span>
-
-<span data-ttu-id="89bf3-121">Cloud POS ir programmas Modern POS mākoņa versija, kam var piekļūt tīmekļa pārlūkprogrammā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-121">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
-
-### <a name="modern-pos-for-ios"></a><span data-ttu-id="89bf3-122">Modern POS operētājsistēmai iOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-122">Modern POS for iOS</span></span>
-
-<span data-ttu-id="89bf3-123">Modern POS operētājsistēmai iOS ir operētājsistēmai iOS paredzētā programmas Modern POS versija, ko var izvietot iOS ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-123">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
-
-### <a name="modern-pos-for-android"></a><span data-ttu-id="89bf3-124">Modern POS operētājsistēmai Android</span><span class="sxs-lookup"><span data-stu-id="89bf3-124">Modern POS for Android</span></span>
-
-<span data-ttu-id="89bf3-125">Modern POS operētājsistēmai Android ir operētājsistēmai Android paredzētā programmas Modern POS versija, ko var izvietot Android ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-125">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
-
-### <a name="pos-peripherals"></a><span data-ttu-id="89bf3-126">POS perifērās ierīces</span><span class="sxs-lookup"><span data-stu-id="89bf3-126">POS peripherals</span></span>
-
-<span data-ttu-id="89bf3-127">POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-127">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="89bf3-128">Parasti šīs perifērās ierīces ir sadalītas noteiktās klasēs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-128">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="89bf3-129">Papildinformāciju par šīm klasēm skatiet šīs tēmas sadaļā “Ierīču klases”.</span><span class="sxs-lookup"><span data-stu-id="89bf3-129">For more information about these classes, see the "Device classes" section of this topic.</span></span>
-
-### <a name="hardware-station"></a><span data-ttu-id="89bf3-130">Hardware Station</span><span class="sxs-lookup"><span data-stu-id="89bf3-130">Hardware station</span></span>
-
-<span data-ttu-id="89bf3-131">Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-131">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="89bf3-132">Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-132">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="89bf3-133">Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota mazumtirdzniecības perifērās ierīces loģika.</span><span class="sxs-lookup"><span data-stu-id="89bf3-133">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="89bf3-134">Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-134">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="89bf3-135">Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-135">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="89bf3-136">Aparatūras stacija ir iebūvēta programmā Modern POS operētājsistēmai Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-136">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="89bf3-137">Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-137">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="89bf3-138">Šādā gadījumā tai var piekļūt tīklā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-138">In this case, it can be accessed via a network.</span></span>
-
-### <a name="hardware-profile"></a><span data-ttu-id="89bf3-139">Aparatūras profils</span><span class="sxs-lookup"><span data-stu-id="89bf3-139">Hardware profile</span></span>
-
-<span data-ttu-id="89bf3-140">Navigācija: noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-140">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="89bf3-141">Aparatūras profils ir to ierīču saraksts, kas ir konfigurētas POS kases sistēmai vai aparatūras stacijai.</span><span class="sxs-lookup"><span data-stu-id="89bf3-141">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="89bf3-142">Aparatūras profilu var tieši kartēt ar POS kases sistēmu vai aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-142">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
-
-## <a name="devices-classes"></a><span data-ttu-id="89bf3-143">Ierīču klases</span><span class="sxs-lookup"><span data-stu-id="89bf3-143">Devices classes</span></span>
-<span data-ttu-id="89bf3-144">Parasti POS perifērās ierīces tiek sadalītas klasēs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-144">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="89bf3-145">Šajā sadaļā ir aprakstītas programmā Modern POS atbalstītās ierīces un sniegts pārskats par tām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-145">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
-
-### <a name="printer"></a><span data-ttu-id="89bf3-146">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-146">Printer</span></span>
-
-<span data-ttu-id="89bf3-147">Printeri var būt parastie POS kvīšu printeri un veselas lapas printeri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-147">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="89bf3-148">Printeru atbalsts tiek nodrošināts, izmantojot objektu saistīšanu un iegulšanu punktā Retail POS (OPOS) un Microsoft Windows draiveru interfeisus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-148">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="89bf3-149">Vienlaikus var lietot līdz diviem printeriem.</span><span class="sxs-lookup"><span data-stu-id="89bf3-149">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="89bf3-150">Šī iespēja ir piemērota scenārijiem, kuros ar kvīšu printeriem tiek drukātas debitoru kvītis par pārdošanu skaidrā naudā bez piegādes, bet debitoru pasūtījumi, kuros ir ietverts vairāk informācijas, tiek drukāti ar veselas lapas printeri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-150">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="89bf3-151">Kvīšu printerus var tieši pievienot datoram, izmantojot USB portu, pievienot tīklam, izmantojot Ethernet, vai pievienot, izmantojot Bluetooth savienojumu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-151">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
-
-### <a name="scanner"></a><span data-ttu-id="89bf3-152">Skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-152">Scanner</span></span>
-
-<span data-ttu-id="89bf3-153">Vienlaikus var lietot līdz diviem svītrkoda skeneriem.</span><span class="sxs-lookup"><span data-stu-id="89bf3-153">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="89bf3-154">Šī iespēja ir piemērota scenārijiem, kuros ir nepieciešams vieglāk pārvietojams skeneris, lai skenētu lielas vai smagas preces, bet vairumam standarta izmēra preču tiek izmantots nekustīgs iebūvētais skeneris, lai paātrinātu norēķināšanos.</span><span class="sxs-lookup"><span data-stu-id="89bf3-154">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="89bf3-155">Skeneru atbalstu var nodrošināt, izmantojot OPOS, universālās Windows platformas (UWP) vai svītrkoda/magnētiskās joslas nolasīšanas ierīces interfeisu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-155">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="89bf3-156">Skenera pievienošanai datoram var izmantot USB vai Bluetooth savienojumu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-156">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
-
-### <a name="msr"></a><span data-ttu-id="89bf3-157">MJL (magnētiskās joslas lasītājs)</span><span class="sxs-lookup"><span data-stu-id="89bf3-157">MSR</span></span>
-
-<span data-ttu-id="89bf3-158">Izmantojot OPOS draiverus var iestatīt vienu USB magnētiskās joslas lasītāju (MJL)</span><span class="sxs-lookup"><span data-stu-id="89bf3-158">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="89bf3-159">Ja vēlaties izmantot savrupu MJL elektronisko līdzekļu pārskaitījuma (EFT) maksājumu transakcijām, MJL pārvaldībai ir jāizmanto maksājumu savienotājs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-159">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="89bf3-160">Savrupu MJL var izmantot debitoru lojalitātes programmas datu ievadei, darbinieku pierakstīšanās nodrošināšanai un dāvanu kartes datu ievadei neatkarīgi no maksājumu savienotāja.</span><span class="sxs-lookup"><span data-stu-id="89bf3-160">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
-
-### <a name="cash-drawer"></a><span data-ttu-id="89bf3-161">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-161">Cash drawer</span></span>
-
-<span data-ttu-id="89bf3-162">Katrā aparatūras profilā var tikt atbalstītas līdz divām naudas kastēm.</span><span class="sxs-lookup"><span data-stu-id="89bf3-162">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="89bf3-163">Šī iespēja nodrošina to, ka vienlaikus katrā kases sistēmā var būt pieejamas divas aktīvās darba maiņas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-163">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="89bf3-164">Koplietotas maiņas gadījumā vai tad, ja vairākas mobilās POS ierīces vienlaikus lieto naudas kasti, katrā aparatūras profilā ir atļauts izmantot tikai vienu naudas kasi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-164">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="89bf3-165">Naudas kastes var tieši pievienot datoram, izmantojot USB portu, pievienot tīklam vai pievienot kvīšu printerim, izmantojot RJ12 interfeisu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-165">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="89bf3-166">Dažos gadījumos naudas kastes var arī pievienot, izmantojot Bluetooth savienojumu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-166">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
-
-### <a name="line-display"></a><span data-ttu-id="89bf3-167">Rindu displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-167">Line display</span></span>
-
-<span data-ttu-id="89bf3-168">Rindu displeji tiek izmantoti, lai debitoram transakcijas laikā parādītu preces, transakciju bilances un citu noderīgu informāciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-168">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="89bf3-169">Vienu rindu displeju var pievienot datoram, izmantojot USB portu un OPOS draiverus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-169">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
-
-### <a name="signature-capture"></a><span data-ttu-id="89bf3-170">Paraksta ieguve</span><span class="sxs-lookup"><span data-stu-id="89bf3-170">Signature capture</span></span>
-
-<span data-ttu-id="89bf3-171">Paraksta ieguves ierīces var tieši pievienot datoram, izmantojot USB portu un OPOS draiverus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-171">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="89bf3-172">Ja ir konfigurēta paraksta ieguve, debitoram tiek prasīts parakstīties uz ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-172">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="89bf3-173">Kad paraksts ir nodrošināts, tas tiek parādīts kasierim, lai viņš to apstiprinātu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-173">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
-
-### <a name="scale"></a><span data-ttu-id="89bf3-174">Mērogs</span><span class="sxs-lookup"><span data-stu-id="89bf3-174">Scale</span></span>
-
-<span data-ttu-id="89bf3-175">Svarus var pievienot datoram, izmantojot USP un OPOS draiverus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-175">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="89bf3-176">Ja transakcijai tiek pievienota prece, kas ir atzīmēta kā sverama prece, POS tiek nolasīta svara informācija no svariem, prece tiek pievienota transakcijai un tiek izmantoti no svariem saņemtie daudzuma dati.</span><span class="sxs-lookup"><span data-stu-id="89bf3-176">When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
-
-### <a name="pin-pad"></a><span data-ttu-id="89bf3-177">PIN bloks</span><span class="sxs-lookup"><span data-stu-id="89bf3-177">PIN pad</span></span>
-
-<span data-ttu-id="89bf3-178">Personas identifikācijas numura (PIN) bloku atbalsts tiek nodrošināts, izmantojot OPOS, taču to pārvaldībai ir jāizmanto maksājumu savienotājs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-178">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
-
-### <a name="secondary-display"></a><span data-ttu-id="89bf3-179">Sekundārais displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-179">Secondary display</span></span>
-
-<span data-ttu-id="89bf3-180">Ja ir konfigurēts sekundārais displejs, pamatinformācijas rādīšanai tiek izmantots 2. Windows displejs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-180">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="89bf3-181">Sekundārā displeja mērķis ir nodrošināt neatkarīga programmatūras izstrādātāja (NPI) paplašinājuma atbalstu, jo standarta konfigurācijā sekundāro displeju nevar konfigurēt un tajā tiek rādīts ierobežots saturs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-181">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
-
-### <a name="payment-device"></a><span data-ttu-id="89bf3-182">Maksājumu ierīce</span><span class="sxs-lookup"><span data-stu-id="89bf3-182">Payment device</span></span>
-
-<span data-ttu-id="89bf3-183">Maksājumu ierīces atbalts tiek nodrošināts, izmantojot maksājumu savienotāju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-183">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="89bf3-184">Maksājumu ierīces var veikt vienu vai daudzas no funkcijām, ko nodrošina citas ierīču klases.</span><span class="sxs-lookup"><span data-stu-id="89bf3-184">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="89bf3-185">Piemēram, maksājumu ierīce var darboties kā MJL/karšu lasītājs, rindu displejs, paraksta ieguves ierīce vai PIN bloks.</span><span class="sxs-lookup"><span data-stu-id="89bf3-185">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="89bf3-186">Maksājumu ierīču atbalsts tiek nodrošināts neatkarīgi no savrupo ierīču atbalsta, kas tiek nodrošināts citām ierīcēm, kuras ir iekļautas aparatūras profilā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-186">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
-
-## <a name="supported-interfaces"></a><span data-ttu-id="89bf3-187">Atbalstītie interfeisi</span><span class="sxs-lookup"><span data-stu-id="89bf3-187">Supported interfaces</span></span>
-
-### <a name="opos"></a><span data-ttu-id="89bf3-188">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-188">OPOS</span></span>
-
-<span data-ttu-id="89bf3-189">Lai palīdzētu nodrošināt to, ka kopā ar programmu Microsoft Dynamics 365 for Retail var lietot pēc iespējas lielāku ierīču klāstu, galvenā mazumtirdzniecības perifēro ierīču platforma, kas tiek atbalstīta programmā Microsoft Dynamics 365 for Retail, ir nozares standarta platforma OLE punktā POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-189">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="89bf3-190">Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš mazumtirdzniecības perifēro ierīču nozares standarta sakaru protokolus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-190">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="89bf3-191">OPOS ir plaši izplatīta standarta OLE punktā POS implementācija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-191">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="89bf3-192">Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta.</span><span class="sxs-lookup"><span data-stu-id="89bf3-192">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="89bf3-193">OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās.</span><span class="sxs-lookup"><span data-stu-id="89bf3-193">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="89bf3-194">OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru.</span><span class="sxs-lookup"><span data-stu-id="89bf3-194">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="89bf3-195">OPOS vadības elements sastāv no divām tālāk norādītajām daļām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-195">An OPOS control consists of two parts:</span></span>
-
-- <span data-ttu-id="89bf3-196">**Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-196">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="89bf3-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO).</span><span class="sxs-lookup"><span data-stu-id="89bf3-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="89bf3-198">Programmas Microsoft Dynamics 365 for Retail POS komponenta pārbaudei tiek izmantoti CCO objekti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-198">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="89bf3-199">Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Microsoft Dynamics 365 for Retail nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-199">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="89bf3-200">Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-200">You don't have to explicitly test each device type.</span></span>
-- <span data-ttu-id="89bf3-201">**Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci.</span><span class="sxs-lookup"><span data-stu-id="89bf3-201">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="89bf3-202">Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-202">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="89bf3-203">Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes.</span><span class="sxs-lookup"><span data-stu-id="89bf3-203">However, in some cases, you might have to download the service object from the manufacturer's website.</span></span> <span data-ttu-id="89bf3-204">Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-204">For example, a more recent service object might be available.</span></span> <span data-ttu-id="89bf3-205">Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-205">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
-
-<span data-ttu-id="89bf3-206">[![Vadības objekts un pakalpojumu objekts](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span><span class="sxs-lookup"><span data-stu-id="89bf3-206">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span></span>
-
-<span data-ttu-id="89bf3-207">OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā, pat ja tās iepriekš nav pārbaudītas kopā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-207">Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-208">OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-208">OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="89bf3-209">Pirmkārt, programmai Microsoft Dynamics 365 for Retail ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="89bf3-210">Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="89bf3-211">Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.</span><span class="sxs-lookup"><span data-stu-id="89bf3-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="89bf3-212">Windows</span><span class="sxs-lookup"><span data-stu-id="89bf3-212">Windows</span></span>
-
-<span data-ttu-id="89bf3-213">Kvīšu drukāšana POS ir optimizēta standartam OPOS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="89bf3-214">OPOS parasti nodrošina daudz ātrāku drukāšanu nekā operētājsistēma Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="89bf3-215">Tāpēc ir ieteicams izmantot OPOS, jo īpaši mazumtirdzniecības vidēs, kur tiek drukātas 40 kolonnu kvītis un ir jānodrošina ātra transakciju apstrāde.</span><span class="sxs-lookup"><span data-stu-id="89bf3-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="89bf3-216">Vairumam ierīču tiek lietoti OPOS vadības elementi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="89bf3-217">Taču daži OPOS kvīšu printeri atbalsta arī Windows draiverus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="89bf3-218">Izmantojot Windows draiveri, varat piekļūt jaunākajiem fontiem un tīklā lietot vienu printeri vairākām kases sistēmām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="89bf3-219">Taču Windows draiveru lietošanai ir trūkumi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="89bf3-220">Tālāk ir sniegti daži šo trūkumu piemēri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-220">Here are some examples of these drawbacks:</span></span>
-
-- <span data-ttu-id="89bf3-221">Ja tiek izmantoti Windows draiveri, pirms drukāšanas tiek renderēti attēli.</span><span class="sxs-lookup"><span data-stu-id="89bf3-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="89bf3-222">Tāpēc drukāšana ir lēnāka, nekā ar printeriem, kam tiek izmantoti OPOS vadības elementi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
-- <span data-ttu-id="89bf3-223">Ja tiek izmantoti Windows draiveri, ierīces, kas ir pievienotas, izmantojot printeri (ziedlapķēdē), var darboties nepareizi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-223">Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="89bf3-224">Piemēram, iespējams, netiks atvērta naudas kaste vai kvīšu printeris nedarbosies, kā ir paredzēts.</span><span class="sxs-lookup"><span data-stu-id="89bf3-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
-- <span data-ttu-id="89bf3-225">Turklāt OPOS atbalsta plašāku mazumtirdzniecības kvīšu printeriem raksturīgu mainīgo kopu, piemēram, papīra griešanas vai pavadzīmju drukāšanas mainīgos.</span><span class="sxs-lookup"><span data-stu-id="89bf3-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
-
-<span data-ttu-id="89bf3-226">Ja izmantotajam Windows printerim ir pieejami OPOS vadības elementi, printerim joprojām ir pareizi jādarbojas kopā ar programmu Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="89bf3-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
-
-### <a name="universal-windows-platform"></a><span data-ttu-id="89bf3-227">Universālā Windows platforma</span><span class="sxs-lookup"><span data-stu-id="89bf3-227">Universal Windows Platform</span></span>
-
-<span data-ttu-id="89bf3-228">Attiecībā uz mazumtirdzniecības perifērajām ierīcēm: UWP ir saistīta ar Windows Plug and Play ierīču atbalstu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="89bf3-229">Ja Plug and Play ierīce tiek pievienota operētājsistēmas Windows versijai, ka atbalsta šo ierīču veidu, ierīces pareizai lietošanai nav nepieciešami nekādi draiveri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="89bf3-230">Piemēram, ja operētājsistēmā Windows tiek noteikts Bluetooth skaļrunis, tiek noteikts, ka ierīces klases veids ir **Skaļrunis**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="89bf3-231">Tāpēc ierīce tiek apstrādāta kā skaļrunis.</span><span class="sxs-lookup"><span data-stu-id="89bf3-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="89bf3-232">Nav nepieciešami nekādi papildu iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-232">No additional setup is required.</span></span> <span data-ttu-id="89bf3-233">Var pievienot daudzas USB POS ierīces, un tās operētājsistēmā Windows tiek atpazītas kā cilvēka interfeisa ierīces (HID).</span><span class="sxs-lookup"><span data-stu-id="89bf3-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="89bf3-234">Taču operētājsistēmā, iespējams, nevar noteikt ierīces nodrošinātās iespējas, jo nav norādīta ierīces klase vai veids.</span><span class="sxs-lookup"><span data-stu-id="89bf3-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="89bf3-235">Operētājsistēmā Windows 10 ir pievienotas svītrkoda skeneru un MJL ierīču klases.</span><span class="sxs-lookup"><span data-stu-id="89bf3-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="89bf3-236">Tāpēc, ja operētājsistēmā Windows 10 ierīce tiek noteikta kā ietverta vienā no šīm klasēm, atbilstošajā laikā operētājsistēmā Windows tiek gaidīti notikumi no šīs ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="89bf3-237">Programma Modern POS atbalsta UWP MJL un skenerus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="89bf3-238">Tāpēc, kad tā ir gatava ievadei no kādas no šīm ierīcēm un ir pievienota kādā no šīm klasēm ietverta ierīce, šo ierīci var lietot.</span><span class="sxs-lookup"><span data-stu-id="89bf3-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="89bf3-239">Piemēram, ja Windows 10 datoram ir pievienots UWP svītrkoda skeneris un programmā Modern POS ir konfigurēta pierakstīšanās ar svītrkodu, pierakstīšanās ekrānā tiek aktivizēts svītrkoda skeneris.</span><span class="sxs-lookup"><span data-stu-id="89bf3-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="89bf3-240">Nav nepieciešami nekādi papildu iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-240">No additional setup is required.</span></span> <span data-ttu-id="89bf3-241">Operētājsistēmai Windows tiek pievienotas papildu apkalpošanas punkta UWP ierīču klases.</span><span class="sxs-lookup"><span data-stu-id="89bf3-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="89bf3-242">Šīs klases ietver naudas kastu un kvīšu printeru klases.</span><span class="sxs-lookup"><span data-stu-id="89bf3-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="89bf3-243">Programmā Modern POS vēl nav nodrošināts šo jauno klašu atbalsts.</span><span class="sxs-lookup"><span data-stu-id="89bf3-243">Support for these new device classes in Modern POS is pending.</span></span>
-
-### <a name="keyboard-wedge"></a><span data-ttu-id="89bf3-244">Svītrkoda/magnētiskās joslas nolasīšanas ierīce</span><span class="sxs-lookup"><span data-stu-id="89bf3-244">Keyboard wedge</span></span>
-
-<span data-ttu-id="89bf3-245">Svītrkoda/magnētiskās joslas nolasīšanas ierīces nodrošina datu sūtīšanu uz datoru tā, it kā šie dati būtu ievadīti ar tastatūru.</span><span class="sxs-lookup"><span data-stu-id="89bf3-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="89bf3-246">Tāpēc pēc noklusējuma skenētie vai nolasītie dati tiek nosūtīti POS interfeisā aktīvo lauku.</span><span class="sxs-lookup"><span data-stu-id="89bf3-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="89bf3-247">Dažos gadījumos šī darbība var izraisīt nepareizā veida datu ieskenēšanu nepareizajā laukā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="89bf3-248">Piemēram, svītrkods var tikt ieskenēts laikā, kas ir paredzēts kredītkartes datu ievadei.</span><span class="sxs-lookup"><span data-stu-id="89bf3-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="89bf3-249">Daudzos gadījumos POS pastāv loģika, kas nosaka, vai skenētie vai nolasītie dati ir svītrkods vai kartes nolasīšanas dati.</span><span class="sxs-lookup"><span data-stu-id="89bf3-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="89bf3-250">Tādējādi dati tiek pareizi apstrādāti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="89bf3-251">Taču, ja ierīces ir iestatītas kā OPOS, nevis kā svītrkoda/magnētiskās joslas nolasīšanas ierīces, ir pieejama plašāka kontrole pār to, kā var izmantot no šīm ierīcēm saņemtos datus, jo ir pieejams vairāk informācijas par ierīci, no kuras ir iegūti dati.</span><span class="sxs-lookup"><span data-stu-id="89bf3-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</span></span> <span data-ttu-id="89bf3-252">Piemēram, no svītrkoda skenera saņemtie dati tiek automātiski atpazīti kā svītrkods, un saistītais ieraksts datu bāzē tiek atrasts ātrāk un vienkāršāk nekā tad, ja tiek izmantota vispārējā virknes meklēšana, kā tas ir svītrkoda/magnētiskās joslas nolasīšanas ierīču gadījumā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
-
-### <a name="native-printer"></a><span data-ttu-id="89bf3-253">Vietējais printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-253">Native printer</span></span>
-
-<span data-ttu-id="89bf3-254">Vietējos (veida nosaukums aparatūras profilā ir Ierīce) printerus var konfigurēt, lai prasītu lietotājam atlasīt konkrētajam datoram konfigurētu printeri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="89bf3-255">Ja ir konfigurēts veida **Ierīce** printeris un programmā Modern POS tiek saņemta drukas komanda, lietotajam tiek prasīts sarakstā atlasīt printeri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="89bf3-256">Šī darbība atšķiras no Windows draiveru darbības, jo, ja tiek izmantots aparatūras profila printera veids **Windows**, netiek rādīts printeru saraksts.</span><span class="sxs-lookup"><span data-stu-id="89bf3-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="89bf3-257">Tā vietā laukā **Ierīces nosaukums** ir jānorāda printera nosaukums.</span><span class="sxs-lookup"><span data-stu-id="89bf3-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="89bf3-258">Windows</span><span class="sxs-lookup"><span data-stu-id="89bf3-258">Windows</span></span>
-
-<span data-ttu-id="89bf3-259">Ierīces veids **Windows** tiek lietots tikai printeriem.</span><span class="sxs-lookup"><span data-stu-id="89bf3-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="89bf3-260">Ja aparatūras profilā ir konfigurēts Windows printeris, ir jānorāda konkrētā printera nosaukums.</span><span class="sxs-lookup"><span data-stu-id="89bf3-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="89bf3-261">Ja ir konfigurēts Windows printeris un programmā Modern POS tiek saņemts drukas notikums, šis notikums tiek pārsūtīts uz norādīto Windows printeri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="89bf3-262">Lietotājam netiek prasīts atlasīt printeri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-262">The user won't be prompted to select a printer.</span></span>
-
-### <a name="network"></a><span data-ttu-id="89bf3-263">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-263">Network</span></span>
-
-<span data-ttu-id="89bf3-264">Tīklā tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras staciju, kas ir iebūvēta lietojumprogrammā Modern POS operētājsistēmai Windows, vai izmantojot citu Modern POS klientu IIS aparatūras staciju, var lietot tīklā adresējamas naudas kastes, kvīšu printerus un maksājumu termināļus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
-
-## <a name="hardware-station-deployment-options"></a><span data-ttu-id="89bf3-265">Aparatūras stacijas izvietošanas iespējas</span><span class="sxs-lookup"><span data-stu-id="89bf3-265">Hardware station deployment options</span></span>
-
-### <a name="ipc-built-in"></a><span data-ttu-id="89bf3-266">IPC (iebūvēta)</span><span class="sxs-lookup"><span data-stu-id="89bf3-266">IPC (built-in)</span></span>
-
-<span data-ttu-id="89bf3-267">Starpprocesu saziņas (IPC) aparatūras stacija ir iebūvēta lietojumprogrammā Modern POS operētājsistēmai Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="89bf3-268">Lai lietotu IPC aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="89bf3-269">Pēc tam izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="89bf3-270">Kad palaižat programmu Modern POS, ir aktivizēta IPC aparatūras stacija un konfigurētās POS perifērās ierīces ir gatavas lietošanai.</span><span class="sxs-lookup"><span data-stu-id="89bf3-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="89bf3-271">Ja kāda iemesla dēļ īslaicīgi nav nepieciešama lokālā aparatūra, izmantojiet operāciju **Pārvaldīt aparatūras stacijas**, lai izslēgtu aparatūras stacijas iespējas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="89bf3-272">Programmā Modern POS IPC aparatūras staciju var izmantot arī tiešai saziņai ar tīkla perifērajām ierīcēm.</span><span class="sxs-lookup"><span data-stu-id="89bf3-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
-
-### <a name="iis"></a><span data-ttu-id="89bf3-273">IIS</span><span class="sxs-lookup"><span data-stu-id="89bf3-273">IIS</span></span>
-
-<span data-ttu-id="89bf3-274">IIS jeb savrupo aparatūras stacijas versiju var izmantot divos veidos.</span><span class="sxs-lookup"><span data-stu-id="89bf3-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="89bf3-275">Apzīmējums “IIS” norāda, ka POS programmas savienojumam ar aparatūras staciju tiek izmantoti Microsoft interneta informācijas pakalpojumi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-275">The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="89bf3-276">POS lietojumprogrammas savienojumam ar IIS aparatūras staciju tiek izmantoti tīmekļa pakalpojumi, kas darbojas datorā, kuram ir pievienotas ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="89bf3-277">Ja tiek lietoti IIS, aparatūras stacijai pievienotās mazumtirdzniecības perifērās ierīces var izmantot jebkurā POS kases sistēmā, kas ir vienā tīklā ar IIS aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="89bf3-278">Tā kā tikai programma Modern POS operētājsistēmai Windows nodrošina iebūvētu mazumtirdzniecības perifēro ierīču atbalstu, visās citās lietojumprogrammas Modern POS versijās saziņai ar aparatūras profilā konfigurētajām POS perifērajām ierīcēm ir jāizmanto IIS aparatūras stacija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="89bf3-279">Tāpēc katrai IIS aparatūras stacijas instancei ir nepieciešams dators, kurā darbojas tīmekļa pakalpojums un lietojumprogramma, kas nodrošina saziņu ar ierīcēm.</span><span class="sxs-lookup"><span data-stu-id="89bf3-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="89bf3-280">IIS aparatūras stacija ir nepieciešama visām lietojumprogrammas Modern POS versijām, kas nav paredzētas operētājsistēmai Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
-
-#### <a name="dedicated"></a><span data-ttu-id="89bf3-281">Atvēlēts</span><span class="sxs-lookup"><span data-stu-id="89bf3-281">Dedicated</span></span>
-
-<span data-ttu-id="89bf3-282">Programmā Modern POS veida **Atvēlēts** aparatūras stacijas tiek izmantotas, lai noteiktu perifērās ierīces, kas ir tieši pievienotas datoram, kurā tiek darbināta lietojumprogramma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="89bf3-283">Taču veidu **Atvēlēts** var izmantot arī IIS aparatūras stacijām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="89bf3-284">Parasta stacionārā POS scenārijā, kurā tiek izmantota POS lietojumprogramma Cloud POS, aparatūras stacijas veids **Atvēlēts** tiek izmantots IIS aparatūras stacijām, kas ir izvietotas tajā pašā datorā, kurā tiek darbināta programma Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="89bf3-285">Attiecībā uz mazumtirdzniecības perifērajām ierīcēm: atvēlētā IIS aparatūras stacija nodrošina labāku mazumtirdzniecības perifēro ierīču atbalstu parastajā stacionārā POS scenārijos.</span><span class="sxs-lookup"><span data-stu-id="89bf3-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="89bf3-286">Atvēlētās aparatūras stacijas nodrošina visu to perifēro ierīču atbalstu, kas tiek atbalstītas aparatūras profilā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
-
-#### <a name="shared"></a><span data-ttu-id="89bf3-287">Koplietots</span><span class="sxs-lookup"><span data-stu-id="89bf3-287">Shared</span></span>
-
-<span data-ttu-id="89bf3-288">Koplietotās aparatūras stacijas ir paredzētas lietošanai vairākās POS ierīcēs dienas laikā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="89bf3-289">Koplietotās aparatūras stacijas ir optimizētas, lai nodrošinātu tikai naudas kastu, kvīšu printeri un maksājumu terminālu atbalstu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="89bf3-290">Nevarat tieši pievienot savrupus svītrkoda skenerus, MJL, rindu displejus, svarus vai citas ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="89bf3-291">Pretējā gadījumā, ja vairākās POS ierīcēs vienlaikus tiek mēģināts pieprasīt šīs perifērās ierīces, rodas konflikti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="89bf3-292">Tālāk ir aprakstīts, kā tiek pārvaldīti atbalstīto ierīču konflikti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-292">Here is how conflicts are managed for supported devices:</span></span>
-
-- <span data-ttu-id="89bf3-293">**Naudas kaste** — naudas kaste tiek atvērta, izmantojot uz ierīci nosūtītu notikumu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="89bf3-294">Vienīgā problēma, kas var rasties naudas kastes izsaukuma laikā, rodas, ja naudas kaste jau ir atvērta.</span><span class="sxs-lookup"><span data-stu-id="89bf3-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="89bf3-295">Ja tiek izmantotas koplietotas aparatūras stacijas, naudas kastēm aparatūras profilā ir jāiestata parametrs **Koplietots**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="89bf3-296">Šis iestatījums nodrošina to, ka brīdī, kad no POS tiek nosūtīta atvēršanas komanda, POS netiek pārbaudīts, vai naudas kaste jau ir atvērta.</span><span class="sxs-lookup"><span data-stu-id="89bf3-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
-- <span data-ttu-id="89bf3-297">**Kvīšu printeris** — ja uz aparatūras staciju vienlaikus tiek nosūtītas divas kvīts drukāšanas komandas, viena no komandām var tikt zaudēta atkarībā no ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="89bf3-298">Dažās ierīcēs ir iekšējā atmiņa vai pieprasījumu ierobežošanas līdzeklis, kas var novērst šo problēmu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="89bf3-299">Ja drukas komanda netiek veiksmīgi izpildīta, kasieris saņem kļūdas ziņojumu un var vēlreiz mēģināt nosūtīt drukas komandu no POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
-- <span data-ttu-id="89bf3-300">**Maksājumu terminālis** — ja kasieris mēģina veikt norēķinus par transakciju, izmantojot maksājumu termināli, kas jau tiek lietots, kasierim tiek parādīts ziņojums ar norādi, ka terminālis tiek lietots, un aicinājumu vēlāk mēģināt vēlreiz.</span><span class="sxs-lookup"><span data-stu-id="89bf3-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="89bf3-301">Parasti kasieri var redzēt, ka terminālis jau tiek lietots, un uzgaida, līdz ir pabeigta otra transakcija, pirms vēlreiz mēģina veikt norēķinus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
-
-<span data-ttu-id="89bf3-302">Kādā no nākamajiem laidieniem ir paredzēts ietvert validācijas līdzekli, lai noteiktu, vai ar aparatūras staciju kartētajam aparatūras profilam ir iestatītas neatbalstītas ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="89bf3-303">Ja tiek noteikta kāda neatbalstīta ierīce, lietotājs saņem ziņojumu par to, ka ierīces netiek atbalstītas lietošanai ar koplietotām aparatūras stacijām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="89bf3-304">Ja tiek izmantotas koplietotas aparatūras stacijas, kases sistēmas līmenī ir iestatīta opcijas **Atlasīt norēķinu brīdī** vērtība **Jā**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="89bf3-305">Šādā gadījumā, kad POS tiek atlasīti transakcijas norēķini, POS lietotājam tiek prasīts atlasīt aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="89bf3-306">Ja aparatūras stacija tiek atlasīta tikai norēķinu laikā, aparatūras stacijas atlase tiek tieši pievienota mobilo scenāriju POS darbplūsmai.</span><span class="sxs-lookup"><span data-stu-id="89bf3-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="89bf3-307">Papildu ieguvums ir tas, ka koplietošanas scenārijos netiek lietots maksājumu termināļa rindu displejs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="89bf3-308">Ja maksājumu terminālis tiek izmantots kā rindu displejs, citiem lietotājiem var tikt liegta iespēja izmantot šo termināli, līdz tiek pabeigta transakcija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="89bf3-309">Mobilajos scenārijos transakcijas rindas var tikt pievienotas ilgākā laika periodā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="89bf3-310">Tāpēc ir nepieciešama opcija **Atlasīt norēķinu brīdī**, lai nodrošinātu optimālu ierīces pieejamību.</span><span class="sxs-lookup"><span data-stu-id="89bf3-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
-
-### <a name="network-peripherals"></a><span data-ttu-id="89bf3-311">Tīkla perifērās ierīces</span><span class="sxs-lookup"><span data-stu-id="89bf3-311">Network peripherals</span></span>
-
-<span data-ttu-id="89bf3-312">Ierīču tīkla apzīmējums aparatūras profilā sniedz iespēju izveidot naudas kastu, kvīšu printeru un maksājumu termināļu tīkla savienojumu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
-
-#### <a name="modern-pos-for-windows"></a><span data-ttu-id="89bf3-313">Modern POS operētājsistēmai Windows</span><span class="sxs-lookup"><span data-stu-id="89bf3-313">Modern POS for Windows</span></span>
-
-<span data-ttu-id="89bf3-314">Tīkla perifēro ierīču IP adreses varat norādīt divās vietās.</span><span class="sxs-lookup"><span data-stu-id="89bf3-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="89bf3-315">Ja Modern POS Windows klientā tiek izmantota viena tīkla perifēro ierīču kopa, šo ierīču IP adreses ir jāiestata, izmantojot kases sistēmas darbību rūts opciju **IP konfigurēšana**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="89bf3-316">Ja tīkla ierīces tiks koplietotas vairākās POS kases sistēmās, aparatūras profilu, kam ir piešķirta tīkla ierīce, var tieši kartēt ar koplietotu aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="89bf3-317">Lai piešķirtu IP adreses, atlasiet aparatūras staciju lapā **Mazumtirdzniecības veikali** un pēc tam sadaļas **Aparatūras stacijas** laukā **IP konfigurēšana** norādiet tīkla ierīces, kas ir piešķirtas šai aparatūras stacijai.</span><span class="sxs-lookup"><span data-stu-id="89bf3-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="89bf3-318">Ja aparatūras stacijai ir piešķirtas tikai tīkla ierīces, šī aparatūras stacija nav jāizvieto.</span><span class="sxs-lookup"><span data-stu-id="89bf3-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="89bf3-319">Šādā gadījumā aparatūras stacija ir nepieciešama tikai tīklā adresējamo ierīču konceptuālai grupēšanai atbilstoši to atrašanās vietai mazumtirdzniecības veikalā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
-
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="89bf3-320">Cloud POS, Modern POS operētājsistēmai iOS un Modern POS operētājsistēmai Android</span><span class="sxs-lookup"><span data-stu-id="89bf3-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
-
-<span data-ttu-id="89bf3-321">Loģika, kas nodrošina fiziski pievienoto un tīklā adresējamo perifēro ierīču darbību, ir ietverta aparatūras stacijā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="89bf3-322">Tāpēc visiem POS klientiem, izņemot programmu Modern POS operētājsistēmai Windows, ir jāizvieto un jāaktivizē IIS aparatūras stacija, lai nodrošinātu POS saziņu ar perifērajām ierīcēm, neatkarīgi no tā, vai šīs perifērās ierīces ir fiziski savienotas ar aparatūras staciju vai adresētas tīklā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
-
-## <a name="setup-and-configuration"></a><span data-ttu-id="89bf3-323">Iestatīšana un konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="89bf3-323">Setup and configuration</span></span>
-
-### <a name="hardware-station-installation"></a><span data-ttu-id="89bf3-324">Aparatūras stacijas instalēšana</span><span class="sxs-lookup"><span data-stu-id="89bf3-324">Hardware station installation</span></span>
-
-<span data-ttu-id="89bf3-325">Informāciju skatiet tēmā [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-
-### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="89bf3-326">Modern POS operētājsistēmai Windows iestatīšana un konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="89bf3-326">Modern POS for Windows setup and configuration</span></span>
-
-<span data-ttu-id="89bf3-327">Informāciju skatiet rakstā [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-
-### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="89bf3-328">OPOS ierīces iestatīšana un konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="89bf3-328">OPOS device setup and configuration</span></span>
-
-<span data-ttu-id="89bf3-329">Papildinformāciju par OPOS komponentiem skatiet šī dokumenta sadaļā “Atbalstītie interfeisi”.</span><span class="sxs-lookup"><span data-stu-id="89bf3-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="89bf3-330">Parasti OPOS draiverus nodrošina ierīces ražotājs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="89bf3-331">Instalējot OPOS ierīces draiveri, kādā no tālāk norādītajām vietām Windows reģistrā tiek pievienota atslēga.</span><span class="sxs-lookup"><span data-stu-id="89bf3-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
-
-- <span data-ttu-id="89bf3-332">**32 bitu sistēma:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
-- <span data-ttu-id="89bf3-333">**64 bitu sistēma:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
-
-<span data-ttu-id="89bf3-334">Reģistra atrašanās vietā ServiceOPOS konfigurētās ierīces ir sakārtotas atbilstoši OPOS ierīču klasei.</span><span class="sxs-lookup"><span data-stu-id="89bf3-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="89bf3-335">Tiek saglabāti vairāki ierīču draiveri.</span><span class="sxs-lookup"><span data-stu-id="89bf3-335">Multiple device drivers are saved.</span></span>
-
-## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="89bf3-336">Atbalstītie scenāriji pēc aparatūras stacijas veida</span><span class="sxs-lookup"><span data-stu-id="89bf3-336">Supported scenarios by hardware station type</span></span>
-
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="89bf3-337">Klienta atbalsts — IPC aparatūras stacijas un IIS aparatūras stacijas salīdzinājums</span><span class="sxs-lookup"><span data-stu-id="89bf3-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
-
-<span data-ttu-id="89bf3-338">Tālāk esošajā tabulā ir norādītas atbalstītās topoloģijas un izvietošanas scenāriji.</span><span class="sxs-lookup"><span data-stu-id="89bf3-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
-
-| <span data-ttu-id="89bf3-339">Klients</span><span class="sxs-lookup"><span data-stu-id="89bf3-339">Client</span></span>      | <span data-ttu-id="89bf3-340">IPC aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-340">IPC hardware station</span></span> | <span data-ttu-id="89bf3-341">IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-341">IIS hardware station</span></span> |
-|-------------|----------------------|----------------------|
-| <span data-ttu-id="89bf3-342">Windows programma</span><span class="sxs-lookup"><span data-stu-id="89bf3-342">Windows app</span></span> | <span data-ttu-id="89bf3-343">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-343">Yes</span></span>                  | <span data-ttu-id="89bf3-344">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-344">Yes</span></span>                  |
-| <span data-ttu-id="89bf3-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="89bf3-345">Cloud POS</span></span>   | <span data-ttu-id="89bf3-346">Nav</span><span class="sxs-lookup"><span data-stu-id="89bf3-346">No</span></span>                   | <span data-ttu-id="89bf3-347">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-347">Yes</span></span>                  |
-| <span data-ttu-id="89bf3-348">Android</span><span class="sxs-lookup"><span data-stu-id="89bf3-348">Android</span></span>     | <span data-ttu-id="89bf3-349">Nav</span><span class="sxs-lookup"><span data-stu-id="89bf3-349">No</span></span>                   | <span data-ttu-id="89bf3-350">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-350">Yes</span></span>                  |
-| <span data-ttu-id="89bf3-351">iOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-351">iOS</span></span>         | <span data-ttu-id="89bf3-352">Nav</span><span class="sxs-lookup"><span data-stu-id="89bf3-352">No</span></span>                   | <span data-ttu-id="89bf3-353">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-353">Yes</span></span>                  |
-
-### <a name="network-peripherals"></a><span data-ttu-id="89bf3-354">Tīkla perifērās ierīces</span><span class="sxs-lookup"><span data-stu-id="89bf3-354">Network peripherals</span></span>
-
-<span data-ttu-id="89bf3-355">Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot lietojumprogrammā Modern POS operētājsistēmai Windows iebūvēto aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="89bf3-356">Visiem citiem klientiem ir jāizvieto IIS aparatūras stacija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-356">For all other clients, you must deploy an IIS hardware station.</span></span>
-
-| <span data-ttu-id="89bf3-357">Klients</span><span class="sxs-lookup"><span data-stu-id="89bf3-357">Client</span></span>      | <span data-ttu-id="89bf3-358">IPC aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-358">IPC hardware station</span></span> | <span data-ttu-id="89bf3-359">IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-359">IIS hardware station</span></span> |
-|-------------|----------------------|----------------------|
-| <span data-ttu-id="89bf3-360">Windows programma</span><span class="sxs-lookup"><span data-stu-id="89bf3-360">Windows app</span></span> | <span data-ttu-id="89bf3-361">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-361">Yes</span></span>                  | <span data-ttu-id="89bf3-362">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-362">Yes</span></span>                  |
-| <span data-ttu-id="89bf3-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="89bf3-363">Cloud POS</span></span>   | <span data-ttu-id="89bf3-364">Nav</span><span class="sxs-lookup"><span data-stu-id="89bf3-364">No</span></span>                   | <span data-ttu-id="89bf3-365">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-365">Yes</span></span>                  |
-| <span data-ttu-id="89bf3-366">Android</span><span class="sxs-lookup"><span data-stu-id="89bf3-366">Android</span></span>     | <span data-ttu-id="89bf3-367">Nav</span><span class="sxs-lookup"><span data-stu-id="89bf3-367">No</span></span>                   | <span data-ttu-id="89bf3-368">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-368">Yes</span></span>                  |
-| <span data-ttu-id="89bf3-369">iOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-369">iOS</span></span>         | <span data-ttu-id="89bf3-370">Nav</span><span class="sxs-lookup"><span data-stu-id="89bf3-370">No</span></span>                   | <span data-ttu-id="89bf3-371">Jā</span><span class="sxs-lookup"><span data-stu-id="89bf3-371">Yes</span></span>                  |
-
-## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="89bf3-372">Atbalstītie ierīču veidi pēc aparatūras stacijas veida</span><span class="sxs-lookup"><span data-stu-id="89bf3-372">Supported device types by hardware station type</span></span>
-
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="89bf3-373">Modern POS operētājsistēmai Windows ar IPC (iebūvētu) aparatūras staciju</span><span class="sxs-lookup"><span data-stu-id="89bf3-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="89bf3-374">Atbalstītā ierīču klase</span><span class="sxs-lookup"><span data-stu-id="89bf3-374">Supported device class</span></span></th>
-<th><span data-ttu-id="89bf3-375">Atbalstītie interfeisi</span><span class="sxs-lookup"><span data-stu-id="89bf3-375">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="89bf3-376">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-376">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-377">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-378">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-378">Windows driver</span></span></li>
-<li><span data-ttu-id="89bf3-379">Ierīce</span><span class="sxs-lookup"><span data-stu-id="89bf3-379">Device</span></span></li>
-<li><span data-ttu-id="89bf3-380">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-380">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-381">2. printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-381">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-382">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-383">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-383">Windows driver</span></span></li>
-<li><span data-ttu-id="89bf3-384">Ierīce</span><span class="sxs-lookup"><span data-stu-id="89bf3-384">Device</span></span></li>
-<li><span data-ttu-id="89bf3-385">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-385">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-386">Rindu displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-386">Line display</span></span></td>
-<td><span data-ttu-id="89bf3-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-387">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-388">Duālais displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-388">Dual display</span></span></td>
-<td><span data-ttu-id="89bf3-389">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-389">Windows driver</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-390">MJL (magnētiskās joslas lasītājs)</span><span class="sxs-lookup"><span data-stu-id="89bf3-390">MSR</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-391">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-392">UWP (Nav nepieciešama iestatīšana.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-392">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="89bf3-393">Svītrkoda/magnētiskās joslas nolasīšanas ierīce (Nav nepieciešama iestatīšana.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-393">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-394">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-394">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-395">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-396">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-396">Network</span></span>
-<blockquote><span data-ttu-id="89bf3-397">PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-397">NOTE: Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-398">2. dokumenta sastādītājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-398">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-399">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-399">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-400">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-400">Network</span></span>
-<blockquote><span data-ttu-id="89bf3-401">PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-401">NOTE: Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-402">Skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-402">Scanner</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-403">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-403">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-404">UWP (Nav nepieciešama iestatīšana.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-404">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="89bf3-405">Svītrkoda/magnētiskās joslas nolasīšanas ierīce (Nav nepieciešama iestatīšana.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-405">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-406">2. skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-406">Scanner 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-407">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-407">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-408">UWP (Nav nepieciešama iestatīšana.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-408">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="89bf3-409">Svītrkoda/magnētiskās joslas nolasīšanas ierīce (Nav nepieciešama iestatīšana.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-409">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-410">Mērogs</span><span class="sxs-lookup"><span data-stu-id="89bf3-410">Scale</span></span></td>
-<td><span data-ttu-id="89bf3-411">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-411">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-412">PIN bloks</span><span class="sxs-lookup"><span data-stu-id="89bf3-412">PIN pad</span></span></td>
-<td><span data-ttu-id="89bf3-413">OPOS (Atbalsts tiek nodrošināts, pielāgojot maksājumu savienotāju.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-413">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-414">Paraksta ieguve</span><span class="sxs-lookup"><span data-stu-id="89bf3-414">Signature capture</span></span></td>
-<td><span data-ttu-id="89bf3-415">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-415">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-416">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-416">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-417">Pielāgotu ierīču atbalsts</span><span class="sxs-lookup"><span data-stu-id="89bf3-417">Custom device support</span></span></li>
-<li><span data-ttu-id="89bf3-418">Tīkls (Papildinformāciju skatiet maksājumu savienotāja dokumentācijā.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-418">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="89bf3-419">Visi Modern POS klienti, kam ir atvēlēta IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-419">All Modern POS clients that have a dedicated IIS hardware station</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-420">Ja IIS aparatūras stacija ir atvēlēta, pastāv relācija viens pret vienu starp POS klientu un aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-420">When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="89bf3-421">Atbalstītā ierīču klase</span><span class="sxs-lookup"><span data-stu-id="89bf3-421">Supported device class</span></span></th>
-<th><span data-ttu-id="89bf3-422">Atbalstītie interfeisi</span><span class="sxs-lookup"><span data-stu-id="89bf3-422">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="89bf3-423">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-423">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-424">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-424">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-425">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-425">Windows driver</span></span>
-<blockquote><span data-ttu-id="89bf3-426">PIEZĪME. Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</span><span class="sxs-lookup"><span data-stu-id="89bf3-426">NOTE: For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></blockquote>
-</li>
-<li><span data-ttu-id="89bf3-427">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-427">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-428">2. printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-428">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-429">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-429">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-430">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-430">Windows driver</span></span></li>
-<li><span data-ttu-id="89bf3-431">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-431">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-432">Rindu displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-432">Line display</span></span></td>
-<td><span data-ttu-id="89bf3-433">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-433">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-434">MJL (magnētiskās joslas lasītājs)</span><span class="sxs-lookup"><span data-stu-id="89bf3-434">MSR</span></span></td>
-<td><span data-ttu-id="89bf3-435">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-435">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-436">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-436">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-437">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-438">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-438">Network</span></span>
-<blockquote><span data-ttu-id="89bf3-439">PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-439">NOTE: Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-440">2. dokumenta sastādītājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-440">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-441">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-441">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-442">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-442">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-443">Skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-443">Scanner</span></span></td>
-<td><span data-ttu-id="89bf3-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-444">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-445">2. skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-445">Scanner 2</span></span></td>
-<td><span data-ttu-id="89bf3-446">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-446">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-447">Mērogs</span><span class="sxs-lookup"><span data-stu-id="89bf3-447">Scale</span></span></td>
-<td><span data-ttu-id="89bf3-448">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-448">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-449">PIN bloks</span><span class="sxs-lookup"><span data-stu-id="89bf3-449">PIN pad</span></span></td>
-<td><span data-ttu-id="89bf3-450">OPOS (Atbalsts tiek nodrošināts, pielāgojot maksājumu savienotāju.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-450">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-451">Paraksta</span><span class="sxs-lookup"><span data-stu-id="89bf3-451">Sig.</span></span> <span data-ttu-id="89bf3-452">ieguve</span><span class="sxs-lookup"><span data-stu-id="89bf3-452">capture</span></span></td>
-<td><span data-ttu-id="89bf3-453">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-453">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-454">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-454">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-455">Pielāgotu ierīču atbalsts</span><span class="sxs-lookup"><span data-stu-id="89bf3-455">Custom device support</span></span></li>
-<li><span data-ttu-id="89bf3-456">Tīkls (Papildinformāciju skatiet maksājumu savienotāja dokumentācijā.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-456">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="89bf3-457">Visi Modern POS klienti, kam ir koplietota IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-457">All Modern POS clients that have a shared IIS hardware station</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-458">Ja IIS aparatūras stacija ir koplietota, aparatūras stacija var tikt vienlaikus lietota vairākās ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-458">When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="89bf3-459">Šādā gadījumā drīkst lietot tikai ierīces, kas ir norādītas tālāk esošajā tabulā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-459">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="89bf3-460">Ja mēģināsit koplietot ierīces, kas nav norādītas šajā tabulā, piemēram, svītrkoda skenerus un MJL, kad vairākās ierīcēs tiks mēģināts pieprasīt vienu perifērijas ierīci, radīsies kļūdas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-460">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="89bf3-461">Turpmāk šāda konfigurācija netiks pieļauta.</span><span class="sxs-lookup"><span data-stu-id="89bf3-461">In the future, such a configuration will be explicitly prevented.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="89bf3-462">Atbalstītā ierīču klase</span><span class="sxs-lookup"><span data-stu-id="89bf3-462">Supported device class</span></span></th>
-<th><span data-ttu-id="89bf3-463">Atbalstītie interfeisi</span><span class="sxs-lookup"><span data-stu-id="89bf3-463">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="89bf3-464">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-464">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-465">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-466">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-466">Windows driver</span></span>
-<blockquote><span data-ttu-id="89bf3-467">PIEZĪME. Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</span><span class="sxs-lookup"><span data-stu-id="89bf3-467">NOTE: For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></blockquote>
-</li>
-<li><span data-ttu-id="89bf3-468">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-468">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-469">2. printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-469">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-470">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-470">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-471">Windows draiveris</span><span class="sxs-lookup"><span data-stu-id="89bf3-471">Windows driver</span></span></li>
-<li><span data-ttu-id="89bf3-472">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-472">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-473">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-473">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-474">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-474">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-475">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-475">Network</span></span>
-<blockquote><span data-ttu-id="89bf3-476">PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-476">NOTE: Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-477">2. dokumenta sastādītājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-477">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-478">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-478">OPOS</span></span></li>
-<li><span data-ttu-id="89bf3-479">Tīkls</span><span class="sxs-lookup"><span data-stu-id="89bf3-479">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="89bf3-480">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-480">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="89bf3-481">Pielāgotu ierīču atbalsts</span><span class="sxs-lookup"><span data-stu-id="89bf3-481">Custom device support</span></span></li>
-<li><span data-ttu-id="89bf3-482">Tīkls (Papildinformāciju skatiet maksājumu savienotāja dokumentācijā.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-482">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="89bf3-483">Atbalstīto scenāriju konfigurācija</span><span class="sxs-lookup"><span data-stu-id="89bf3-483">Configuration for supported scenarios</span></span>
-
-<span data-ttu-id="89bf3-484">Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Kanāla klientu, tostarp kases sistēmu un aparatūras staciju, definēšana un uzturēšana](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-484">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-485">Attiecībā uz Microsoft Dynamics 365 for Retail versiju 1611: vairs netiek lietots aparatūras staciju profils.</span><span class="sxs-lookup"><span data-stu-id="89bf3-485">For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="89bf3-486">Atribūti, kas iepriekš bija jāiestata aparatūras stacijas profilā, tagad ir ietverti pašā aparatūras stacijā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-486">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
-
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="89bf3-487">Modern POS operētājsistēmai Windows ar IPC (iebūvētu) aparatūras staciju</span><span class="sxs-lookup"><span data-stu-id="89bf3-487">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
-
-<span data-ttu-id="89bf3-488">Šī konfigurācija visbiežāk tiek lietota parasto stacionāro POS kases sistēmām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-488">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="89bf3-489">Šajā scenārijā aparatūras profila informācija tiek tieši kartēta ar kases sistēmu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-489">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="89bf3-490">Arī EFT termināļa numurs ir jāiestata kases sistēmā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-490">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="89bf3-491">Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-491">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="89bf3-492">Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-492">Create a hardware profile where all the required peripherals are configured.</span></span>
-2. <span data-ttu-id="89bf3-493">Kartējiet aparatūras profilu ar POS kases sistēmu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-493">Map the hardware profile to the POS register.</span></span>
-3. <span data-ttu-id="89bf3-494">Izveidojiet veida **Atvēlēts** aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-494">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="89bf3-495">Pēc izvēles ievadiet aprakstu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-495">A description is optional.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="89bf3-496">Nav nepieciešams iestatīt nekādus citus aparatūras stacijas rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-496">You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="89bf3-497">Visa pārējā nepieciešama informācija, piemēram, aparatūras profils, tiks saņemta no kases sistēmas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-497">All other required information, such as the hardware profile, will come from the register itself.</span></span>
-
-4. <span data-ttu-id="89bf3-498">Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-498">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-5. <span data-ttu-id="89bf3-499">Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-499">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="89bf3-500">Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-500">Click **Run now** to sync changes to the POS.</span></span>
-6. <span data-ttu-id="89bf3-501">Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-501">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="89bf3-502">Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-502">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="89bf3-503">Instalējiet un aktivizējiet programmu Modern POS operētājsistēmai Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-503">Install and activate Modern POS for Windows.</span></span>
-8. <span data-ttu-id="89bf3-504">Palaidiet programmu Modern POS operētājsistēmai Windows un sāciet lietot pievienotās perifērās ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-504">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="89bf3-505">Visi Modern POS klienti, kam ir atvēlēta IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-505">All Modern POS clients that have a dedicated IIS hardware station</span></span>
-
-<span data-ttu-id="89bf3-506">Šo konfigurāciju var lietot visiem Modern POS klientiem, kam ir aparatūras stacija, kura tiek lietota tikai vienā POS kases sistēmā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-506">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="89bf3-507">Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-507">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="89bf3-508">Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-508">Create a hardware profile where all the required peripherals are configured.</span></span>
-2. <span data-ttu-id="89bf3-509">Izveidojiet veida **Atvēlēts** aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-509">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
-3. <span data-ttu-id="89bf3-510">Atvēlētajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-510">On the dedicated hardware station, set the following properties:</span></span>
-
-    - <span data-ttu-id="89bf3-511">**Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-511">**Host name** – The name of the host computer where the hardware station will run.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="89bf3-512">Programma Cloud POS var atrisināt **localhost**, lai noteiktu lokālo datoru, kurā tiek darbināta programma Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-512">Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="89bf3-513">Taču arī sertifikātā, kas ir nepieciešams, lai programmu Cloud POS savienotu pārī ar aparatūras staciju, ir jābūt norādītam datora nosaukumam “Localhost”.</span><span class="sxs-lookup"><span data-stu-id="89bf3-513">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="89bf3-514">Lai nepieļautu problēmas, ir ieteicams veikalam norādīt katras atvēlētās aparatūras stacijas instanci, ja tas ir nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="89bf3-514">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="89bf3-515">Katras aparatūras stacijas resursdatora nosaukumam ir jābūt vienādam ar tā konkrētā datora nosaukumu, kurā tiks izvietota aparatūras stacija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-515">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
-
-    - <span data-ttu-id="89bf3-516">**Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-516">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
-    - <span data-ttu-id="89bf3-517">**Aparatūras profils** — ja aparatūras stacijā nav nodrošināts aparatūras profils, tiek lietots kases sistēmai piešķirtais aparatūras profils.</span><span class="sxs-lookup"><span data-stu-id="89bf3-517">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
-    - <span data-ttu-id="89bf3-518">**EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-518">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="89bf3-519">Šo ID nodrošina kredītkaršu procesors.</span><span class="sxs-lookup"><span data-stu-id="89bf3-519">This ID is provided by the credit card processor.</span></span>
-    - <span data-ttu-id="89bf3-520">**Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-520">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
-
-4. <span data-ttu-id="89bf3-521">Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-521">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-5. <span data-ttu-id="89bf3-522">Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-522">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="89bf3-523">Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-523">Click **Run now** to sync changes to the POS.</span></span>
-6. <span data-ttu-id="89bf3-524">Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-524">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="89bf3-525">Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-525">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="89bf3-526">Instalējiet aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-526">Install the hardware station.</span></span> <span data-ttu-id="89bf3-527">Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet tēmā [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-527">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-8. <span data-ttu-id="89bf3-528">Instalējiet un aktivizējiet programmu Modern POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-528">Install and activate Modern POS.</span></span> <span data-ttu-id="89bf3-529">Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet rakstā [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-529">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-9. <span data-ttu-id="89bf3-530">Pierakstieties programmā Modern POS un atlasiet vienumu **Veikt operācijas bez naudas kastes**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-530">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
-10. <span data-ttu-id="89bf3-531">Sāciet operāciju **Pārvaldīt aparatūras stacijas**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-531">Start the **Manage hardware stations** operation.</span></span>
-11. <span data-ttu-id="89bf3-532">Noklikšķiniet uz **Pārvaldīt**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-532">Click **Manage**.</span></span>
-12. <span data-ttu-id="89bf3-533">Aparatūras stacijas pārvaldības lapā iestatiet attiecīgo opciju, lai ieslēgtu aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-533">On the hardware station management page, set the option to turn on the hardware station.</span></span>
-13. <span data-ttu-id="89bf3-534">Atlasiet izmantojamo aparatūras staciju un pēc tam noklikšķiniet uz **Savienot pārī**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-534">Select the hardware station to use, and then click **Pair**.</span></span>
-14. <span data-ttu-id="89bf3-535">Kad aparatūras stacija ir savienota pārī, noklikšķiniet uz **Aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-535">After the hardware station is paired, click **Close**.</span></span>
-15. <span data-ttu-id="89bf3-536">Aparatūras stacijas atlases lapā noklikšķiniet uz nesen atlasītās aparatūras stacijas, lai to aktivizētu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-536">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
-
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="89bf3-537">Visi Modern POS klienti, kam ir koplietota IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-537">All Modern POS clients that have a shared IIS hardware station</span></span>
-
-<span data-ttu-id="89bf3-538">Šo konfigurāciju var lietot visiem Modern POS klientiem, kuros aparatūras stacijas tiek koplietotas ar citām ierīcēm.</span><span class="sxs-lookup"><span data-stu-id="89bf3-538">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="89bf3-539">Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-539">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="89bf3-540">Izveidojiet aparatūras profilu, kurā ir konfigurētas nepieciešamās perifērās ierīces.</span><span class="sxs-lookup"><span data-stu-id="89bf3-540">Create a hardware profile where the required peripherals are configured.</span></span>
-2. <span data-ttu-id="89bf3-541">Izveidojiet veida **Koplietots** aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-541">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
-3. <span data-ttu-id="89bf3-542">Koplietotajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-542">On the shared hardware station, set the following properties:</span></span>
-
-    - <span data-ttu-id="89bf3-543">**Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-543">**Host name** – The name of the host computer where the hardware station will run.</span></span>
-    - <span data-ttu-id="89bf3-544">**Apraksts** — teksts, kas palīdz identificēt aparatūras staciju, piemēram, **Atgriešanas darbības** vai **Veikala lete**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-544">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
-    - <span data-ttu-id="89bf3-545">**Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-545">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
-    - <span data-ttu-id="89bf3-546">**Aparatūras profils** — katrai koplietotajai aparatūras stacijai ir nepieciešams aparatūras profils.</span><span class="sxs-lookup"><span data-stu-id="89bf3-546">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="89bf3-547">Aparatūras profilus var koplietot vairākās aparatūras stacijās, taču tiem ir jābūt kartētiem ar katru aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-547">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="89bf3-548">Turklāt ir ieteicams izmantot koplietotas darba maiņas, ja vairākās ierīcēs tiek lietota viena un tā pati aparatūras stacija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-548">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="89bf3-549">Lai iestatītu koplietotu darba maiņu, noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-549">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="89bf3-550">Katram koplietotajam aparatūras profilam atlasiet naudas kasti un iestatiet opcijas **Koplietojama maiņas naudas kaste** vērtību **Jā**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-550">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
-    - <span data-ttu-id="89bf3-551">**EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-551">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="89bf3-552">Šo ID nodrošina kredītkaršu procesors.</span><span class="sxs-lookup"><span data-stu-id="89bf3-552">This ID is provided by the credit card processor.</span></span>
-    - <span data-ttu-id="89bf3-553">**Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-553">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
-
-4. <span data-ttu-id="89bf3-554">Atkārtojiet 2. un 3. darbību ar katru papildu aparatūras staciju, kas ir nepieciešama veikalā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-554">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
-5. <span data-ttu-id="89bf3-555">Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-555">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-6. <span data-ttu-id="89bf3-556">Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-556">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="89bf3-557">Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-557">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="89bf3-558">Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-558">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="89bf3-559">Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-559">Click **Run now** to sync changes to the POS.</span></span>
-8. <span data-ttu-id="89bf3-560">Instalējiet aparatūras staciju katrā resursdatorā, ko iestatījāt, veicot 2. un 3. darbību.</span><span class="sxs-lookup"><span data-stu-id="89bf3-560">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="89bf3-561">Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet tēmā [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-561">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-9. <span data-ttu-id="89bf3-562">Instalējiet un aktivizējiet programmu Modern POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-562">Install and activate Modern POS.</span></span> <span data-ttu-id="89bf3-563">Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet rakstā [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-563">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-10. <span data-ttu-id="89bf3-564">Pierakstieties programmā Modern POS un atlasiet vienumu **Veikt operācijas bez naudas kastes**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-564">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
-11. <span data-ttu-id="89bf3-565">Sāciet operāciju **Pārvaldīt aparatūras stacijas**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-565">Start the **Manage hardware stations** operation.</span></span>
-12. <span data-ttu-id="89bf3-566">Noklikšķiniet uz **Pārvaldīt**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-566">Click **Manage**.</span></span>
-13. <span data-ttu-id="89bf3-567">Aparatūras stacijas pārvaldības lapā iestatiet attiecīgo opciju, lai ieslēgtu aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-567">On the hardware station management page, set the option to turn on the hardware station.</span></span>
-14. <span data-ttu-id="89bf3-568">Atlasiet izmantojamo aparatūras staciju un pēc tam noklikšķiniet uz **Savienot pārī**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-568">Select the hardware station to use, and then click **Pair**.</span></span>
-15. <span data-ttu-id="89bf3-569">Atkārtojiet 14. darbību ar katru aparatūras staciju, kas tiks lietota programmā Modern POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-569">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
-16. <span data-ttu-id="89bf3-570">Kad visas nepieciešamās aparatūras stacijas ir savienotas pārī, noklikšķiniet uz **Aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-570">After all the required hardware stations are paired, click **Close**.</span></span>
-17. <span data-ttu-id="89bf3-571">Aparatūras stacijas atlases lapā noklikšķiniet uz nesen atlasītās aparatūras stacijas, lai to aktivizētu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-571">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="89bf3-572">Ja ierīcēs bieži tiek lietotas dažādas aparatūras stacijas, ir ieteicams konfigurēt programmu Modern POS tā, lai, sākot norēķinu procesu, kasierim tiktu prasīts atlasīt aparatūras staciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-572">If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="89bf3-573">Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-573">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="89bf3-574">Atlasiet kases sistēmu un pēc tam iestatiet opcijas **Atlasīt norēķinu brīdī** vērtību **Jā**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-574">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="89bf3-575">Izmantojiet sadales grafiku **1090**, lai sinhronizētu izmaiņas ar kanālu datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-575">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
-
-## <a name="extensibility"></a><span data-ttu-id="89bf3-576">Paplašināmība</span><span class="sxs-lookup"><span data-stu-id="89bf3-576">Extensibility</span></span>
-
-<span data-ttu-id="89bf3-577">Informāciju par aparatūras stacijas paplašināmības scenārijiem skatiet tēmā [Aparatūras stacijas paplašināmība](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-577">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
-
-## <a name="security"></a><span data-ttu-id="89bf3-578">Drošība</span><span class="sxs-lookup"><span data-stu-id="89bf3-578">Security</span></span>
-
-<span data-ttu-id="89bf3-579">Saskaņā ar pašreizējiem drošības standartiem, ražošanas vidē ir jāizmanto tālāk norādītie iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="89bf3-579">According to current security standards, the following settings should be used in a production environment:</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-580">Aparatūras stacijas instalēšanas programma automātiski veic šos reģistra labojumus instalācijas pašapkalpošanās ietvaros.</span><span class="sxs-lookup"><span data-stu-id="89bf3-580">The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
-
-- <span data-ttu-id="89bf3-581">Ir jāatspējo drošligzdu slāņa (SSL) protokols.</span><span class="sxs-lookup"><span data-stu-id="89bf3-581">Secure Sockets Layer (SSL) should be disabled.</span></span>
-- <span data-ttu-id="89bf3-582">Drīkst būt iespējota un tikt lietota tikai transporta slāņa drošības (TLS) protokola versija 1.2 (vai jaunākā pašlaik pieejamā versija).</span><span class="sxs-lookup"><span data-stu-id="89bf3-582">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="89bf3-583">Pēc noklusējuma ir atspējots SSL protokols un visas TLS protokola versijas, izņemot TLS 1.2.</span><span class="sxs-lookup"><span data-stu-id="89bf3-583">By default, SSL and all versions of TLS except TLS 1.2 are disabled.</span></span>
-
-    <span data-ttu-id="89bf3-584">Lai rediģētu vai iespējotu šīs vērtības, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-584">To edit or enable these values, follow these steps:</span></span>
-
-    1. <span data-ttu-id="89bf3-585">Nospiediet taustiņu kombināciju Windows logotipa taustiņš+R, lai atvērtu logu **Izpildīt**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-585">Press the Windows logo key+R to open a **Run** window.</span></span>
-    2. <span data-ttu-id="89bf3-586">Laukā **Atvērt** ievadiet **Regedit** un pēc tam noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-586">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
-    3. <span data-ttu-id="89bf3-587">Ja tiek parādīts ziņojuma lodziņš **Lietotāja konta kontrole** noklikšķiniet uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-587">If a **User Account Control** message box appears, click **Yes**.</span></span>
-    4. <span data-ttu-id="89bf3-588">Logā **Reģistra redaktors** pārejiet uz ierakstu **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-588">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="89bf3-589">Ir automātiski ievadītas tālāk norādītās atslēgas, lai atļautu tikai TLS 1.2 lietošanu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-589">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
-
-        - <span data-ttu-id="89bf3-590">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="89bf3-590">TLS 1.2Server:Enabled=1</span></span>
-        - <span data-ttu-id="89bf3-591">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-591">TLS 1.2Server:DisabledByDefault=0</span></span>
-        - <span data-ttu-id="89bf3-592">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="89bf3-592">TLS 1.2Client:Enabled=1</span></span>
-        - <span data-ttu-id="89bf3-593">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-593">TLS 1.2Client:DisabledByDefault=0</span></span>
-        - <span data-ttu-id="89bf3-594">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-594">TLS 1.1Server:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-595">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-595">TLS 1.1Client:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-596">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-596">TLS 1.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-597">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-597">TLS 1.0Client:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-598">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-598">SSL 3.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-599">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-599">SSL 3.0Client:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-600">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-600">SSL 2.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="89bf3-601">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="89bf3-601">SSL 2.0Client:Enabled=0</span></span>
-
-- <span data-ttu-id="89bf3-602">Nedrīkst būt atvērti nekādi papildu tīkla porti, ja vien tie nav nepieciešami zināmiem, norādītiem iemesliem.</span><span class="sxs-lookup"><span data-stu-id="89bf3-602">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
-- <span data-ttu-id="89bf3-603">Ir jāatspējo krusteniskās izcelsmes resursu koplietošana, un ir jānorāda atļautās izcelsmes, kas tiek pieņemtas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-603">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
-- <span data-ttu-id="89bf3-604">Lai iegūtu sertifikātus, kas tiks izmantoti datoros, kuros tiek darbināta aparatūras stacija, drīkst izmantot tikai uzticamas sertificēšanas iestādes.</span><span class="sxs-lookup"><span data-stu-id="89bf3-604">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-605">Ir ļoti svarīgi pārskatīt IIS drošības vadlīnijas un maksājumu karšu nozares (PCI) prasības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-605">It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
-
-## <a name="peripheral-simulator"></a><span data-ttu-id="89bf3-606">Perifērijas simulators</span><span class="sxs-lookup"><span data-stu-id="89bf3-606">Peripheral simulator</span></span>
-
-<span data-ttu-id="89bf3-607">Informāciju skatiet tēmā [Mazumtirdzniecības perifēro ierīču simulators](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="89bf3-607">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
-
-## <a name="microsoft-tested-peripheral-devices"></a><span data-ttu-id="89bf3-608">Korporācijas Microsoft pārbaudītas perifērijas ierīces</span><span class="sxs-lookup"><span data-stu-id="89bf3-608">Microsoft-tested peripheral devices</span></span>
-
-### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="89bf3-609">IPC (iebūvētā) aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-609">IPC (built-in) hardware station</span></span>
-
-<span data-ttu-id="89bf3-610">Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC aparatūras staciju, kas ir iebūvēta programmā Modern POS operētājsistēmai Windows.</span><span class="sxs-lookup"><span data-stu-id="89bf3-610">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="89bf3-611">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-611">Printer</span></span>
-
-| <span data-ttu-id="89bf3-612">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-612">Manufacturer</span></span> | <span data-ttu-id="89bf3-613">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-613">Model</span></span>    | <span data-ttu-id="89bf3-614">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-614">Interface</span></span> | <span data-ttu-id="89bf3-615">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-615">Comments</span></span>                |
-|--------------|----------|-----------|-------------------------|
-| <span data-ttu-id="89bf3-616">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-616">Epson</span></span>        | <span data-ttu-id="89bf3-617">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="89bf3-617">Tm-T88IV</span></span> | <span data-ttu-id="89bf3-618">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-618">OPOS</span></span>      |                         |
-| <span data-ttu-id="89bf3-619">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-619">Epson</span></span>        | <span data-ttu-id="89bf3-620">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="89bf3-620">TM-T88V</span></span>  | <span data-ttu-id="89bf3-621">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-621">OPOS</span></span>      |                         |
-| <span data-ttu-id="89bf3-622">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-622">Star</span></span>         | <span data-ttu-id="89bf3-623">TSP650II</span><span class="sxs-lookup"><span data-stu-id="89bf3-623">TSP650II</span></span> | <span data-ttu-id="89bf3-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-624">OPOS</span></span>      |                         |
-| <span data-ttu-id="89bf3-625">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-625">Star</span></span>         | <span data-ttu-id="89bf3-626">TSP650II</span><span class="sxs-lookup"><span data-stu-id="89bf3-626">TSP650II</span></span> | <span data-ttu-id="89bf3-627">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-627">Custom</span></span>    | <span data-ttu-id="89bf3-628">Tīkla savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-628">Connected via network</span></span>   |
-| <span data-ttu-id="89bf3-629">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-629">Star</span></span>         | <span data-ttu-id="89bf3-630">mPOP</span><span class="sxs-lookup"><span data-stu-id="89bf3-630">mPOP</span></span>     | <span data-ttu-id="89bf3-631">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-631">OPOS</span></span>      | <span data-ttu-id="89bf3-632">Bluetooth savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-632">Connected via Bluetooth</span></span> |
-| <span data-ttu-id="89bf3-633">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-633">HP</span></span>           | <span data-ttu-id="89bf3-634">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-634">F7M67AA</span></span>  | <span data-ttu-id="89bf3-635">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-635">OPOS</span></span>      | <span data-ttu-id="89bf3-636">USB barošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-636">Powered USB</span></span>             |
-
-#### <a name="bar-code-scanner"></a><span data-ttu-id="89bf3-637">Svītrkoda skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-637">Bar code scanner</span></span>
-
-| <span data-ttu-id="89bf3-638">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-638">Manufacturer</span></span>  | <span data-ttu-id="89bf3-639">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-639">Model</span></span>         | <span data-ttu-id="89bf3-640">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-640">Interface</span></span> | <span data-ttu-id="89bf3-641">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-641">Comments</span></span> |
-|---------------|---------------|-----------|----------|
-| <span data-ttu-id="89bf3-642">Motorola</span><span class="sxs-lookup"><span data-stu-id="89bf3-642">Motorola</span></span>      | <span data-ttu-id="89bf3-643">DS9208</span><span class="sxs-lookup"><span data-stu-id="89bf3-643">DS9208</span></span>        | <span data-ttu-id="89bf3-644">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-644">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-645">Honeywell</span><span class="sxs-lookup"><span data-stu-id="89bf3-645">Honeywell</span></span>     | <span data-ttu-id="89bf3-646">1900</span><span class="sxs-lookup"><span data-stu-id="89bf3-646">1900</span></span>          | <span data-ttu-id="89bf3-647">UWP</span><span class="sxs-lookup"><span data-stu-id="89bf3-647">UWP</span></span>       |          |
-| <span data-ttu-id="89bf3-648">Simbols</span><span class="sxs-lookup"><span data-stu-id="89bf3-648">Symbol</span></span>        | <span data-ttu-id="89bf3-649">LS2208</span><span class="sxs-lookup"><span data-stu-id="89bf3-649">LS2208</span></span>        | <span data-ttu-id="89bf3-650">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-650">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-651">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="89bf3-651">HP Integrated</span></span> | <span data-ttu-id="89bf3-652">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-652">E1L07AA</span></span>       | <span data-ttu-id="89bf3-653">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-653">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-654">Datalogic</span><span class="sxs-lookup"><span data-stu-id="89bf3-654">Datalogic</span></span>     | <span data-ttu-id="89bf3-655">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="89bf3-655">Magellan 8400</span></span> | <span data-ttu-id="89bf3-656">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-656">OPOS</span></span>      |          |
-
-#### <a name="pin-pad"></a><span data-ttu-id="89bf3-657">PIN bloks</span><span class="sxs-lookup"><span data-stu-id="89bf3-657">PIN pad</span></span>
-
-| <span data-ttu-id="89bf3-658">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-658">Manufacturer</span></span> | <span data-ttu-id="89bf3-659">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-659">Model</span></span>  | <span data-ttu-id="89bf3-660">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-660">Interface</span></span> | <span data-ttu-id="89bf3-661">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-661">Comments</span></span>                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| <span data-ttu-id="89bf3-662">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-662">VeriFone</span></span>     | <span data-ttu-id="89bf3-663">1000SE</span><span class="sxs-lookup"><span data-stu-id="89bf3-663">1000SE</span></span> | <span data-ttu-id="89bf3-664">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-664">OPOS</span></span>      | <span data-ttu-id="89bf3-665">Nepieciešama maksājumu savienojuma pielāgošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-665">Requires customization of the payment connector</span></span> |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="89bf3-666">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-666">Payment terminal</span></span>
-
-| <span data-ttu-id="89bf3-667">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-667">Manufacturer</span></span> | <span data-ttu-id="89bf3-668">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-668">Model</span></span> | <span data-ttu-id="89bf3-669">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-669">Interface</span></span> | <span data-ttu-id="89bf3-670">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-670">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="89bf3-671">Equinox</span><span class="sxs-lookup"><span data-stu-id="89bf3-671">Equinox</span></span>      | <span data-ttu-id="89bf3-672">L5300</span><span class="sxs-lookup"><span data-stu-id="89bf3-672">L5300</span></span> | <span data-ttu-id="89bf3-673">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-673">Custom</span></span>    | <span data-ttu-id="89bf3-674">Nepieciešama maksājumu savienojuma pielāgošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-674">Requires customization of the payment connector</span></span>                                |
-| <span data-ttu-id="89bf3-675">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-675">VeriFone</span></span>     | <span data-ttu-id="89bf3-676">MX925</span><span class="sxs-lookup"><span data-stu-id="89bf3-676">MX925</span></span> | <span data-ttu-id="89bf3-677">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-677">Custom</span></span>    | <span data-ttu-id="89bf3-678">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-678">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="89bf3-679">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-679">VeriFone</span></span>     | <span data-ttu-id="89bf3-680">MX915</span><span class="sxs-lookup"><span data-stu-id="89bf3-680">MX915</span></span> | <span data-ttu-id="89bf3-681">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-681">Custom</span></span>    | <span data-ttu-id="89bf3-682">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-682">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="89bf3-683">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-683">Cash drawer</span></span>
-
-| <span data-ttu-id="89bf3-684">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-684">Manufacturer</span></span> | <span data-ttu-id="89bf3-685">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-685">Model</span></span>     | <span data-ttu-id="89bf3-686">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-686">Interface</span></span> | <span data-ttu-id="89bf3-687">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-687">Comments</span></span>                |
-|--------------|-----------|-----------|-------------------------|
-| <span data-ttu-id="89bf3-688">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-688">Star</span></span>         | <span data-ttu-id="89bf3-689">mPOP</span><span class="sxs-lookup"><span data-stu-id="89bf3-689">mPOP</span></span>      | <span data-ttu-id="89bf3-690">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-690">OPOS</span></span>      | <span data-ttu-id="89bf3-691">Bluetooth savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-691">Connected via Bluetooth</span></span> |
-| <span data-ttu-id="89bf3-692">APG</span><span class="sxs-lookup"><span data-stu-id="89bf3-692">APG</span></span>          | <span data-ttu-id="89bf3-693">Atwood</span><span class="sxs-lookup"><span data-stu-id="89bf3-693">Atwood</span></span>    | <span data-ttu-id="89bf3-694">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-694">Custom</span></span>    | <span data-ttu-id="89bf3-695">Tīkla savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-695">Connected via network</span></span>   |
-| <span data-ttu-id="89bf3-696">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-696">Star</span></span>         | <span data-ttu-id="89bf3-697">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="89bf3-697">SMD2-1317</span></span> | <span data-ttu-id="89bf3-698">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-698">OPOS</span></span>      |                         |
-| <span data-ttu-id="89bf3-699">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-699">HP</span></span>           | <span data-ttu-id="89bf3-700">QT457AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-700">QT457AA</span></span>   | <span data-ttu-id="89bf3-701">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-701">OPOS</span></span>      |                         |
-
-#### <a name="line-display"></a><span data-ttu-id="89bf3-702">Rindu displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-702">Line display</span></span>
-
-| <span data-ttu-id="89bf3-703">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-703">Manufacturer</span></span>  | <span data-ttu-id="89bf3-704">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-704">Model</span></span>   | <span data-ttu-id="89bf3-705">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-705">Interface</span></span> | <span data-ttu-id="89bf3-706">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-706">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="89bf3-707">HP integrated</span><span class="sxs-lookup"><span data-stu-id="89bf3-707">HP integrated</span></span> | <span data-ttu-id="89bf3-708">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-708">G6U79AA</span></span> | <span data-ttu-id="89bf3-709">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-709">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-710">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-710">Epson</span></span>         | <span data-ttu-id="89bf3-711">M58DC</span><span class="sxs-lookup"><span data-stu-id="89bf3-711">M58DC</span></span>   | <span data-ttu-id="89bf3-712">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-712">OPOS</span></span>      |          |
-
-#### <a name="signature-capture"></a><span data-ttu-id="89bf3-713">Paraksta ieguve</span><span class="sxs-lookup"><span data-stu-id="89bf3-713">Signature capture</span></span>
-
-| <span data-ttu-id="89bf3-714">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-714">Manufacturer</span></span> | <span data-ttu-id="89bf3-715">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-715">Model</span></span>  | <span data-ttu-id="89bf3-716">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-716">Interface</span></span> | <span data-ttu-id="89bf3-717">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-717">Comments</span></span> |
-|--------------|--------|-----------|----------|
-| <span data-ttu-id="89bf3-718">Scriptel</span><span class="sxs-lookup"><span data-stu-id="89bf3-718">Scriptel</span></span>     | <span data-ttu-id="89bf3-719">ST1550</span><span class="sxs-lookup"><span data-stu-id="89bf3-719">ST1550</span></span> | <span data-ttu-id="89bf3-720">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-720">OPOS</span></span>      |          |
-
-#### <a name="scale"></a><span data-ttu-id="89bf3-721">Mērogs</span><span class="sxs-lookup"><span data-stu-id="89bf3-721">Scale</span></span>
-
-| <span data-ttu-id="89bf3-722">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-722">Manufacturer</span></span> | <span data-ttu-id="89bf3-723">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-723">Model</span></span>         | <span data-ttu-id="89bf3-724">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-724">Interface</span></span> | <span data-ttu-id="89bf3-725">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-725">Comments</span></span> |
-|--------------|---------------|-----------|----------|
-| <span data-ttu-id="89bf3-726">Datalogic</span><span class="sxs-lookup"><span data-stu-id="89bf3-726">Datalogic</span></span>    | <span data-ttu-id="89bf3-727">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="89bf3-727">Magellan 8400</span></span> | <span data-ttu-id="89bf3-728">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-728">OPOS</span></span>      |          |
-
-#### <a name="msr"></a><span data-ttu-id="89bf3-729">MJL (magnētiskās joslas lasītājs)</span><span class="sxs-lookup"><span data-stu-id="89bf3-729">MSR</span></span>
-
-| <span data-ttu-id="89bf3-730">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-730">Manufacturer</span></span> | <span data-ttu-id="89bf3-731">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-731">Model</span></span>       | <span data-ttu-id="89bf3-732">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-732">Interface</span></span> | <span data-ttu-id="89bf3-733">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-733">Comments</span></span> |
-|--------------|-------------|-----------|----------|
-| <span data-ttu-id="89bf3-734">Magtek</span><span class="sxs-lookup"><span data-stu-id="89bf3-734">Magtek</span></span>       | <span data-ttu-id="89bf3-735">21073075</span><span class="sxs-lookup"><span data-stu-id="89bf3-735">21073075</span></span>    | <span data-ttu-id="89bf3-736">UWP</span><span class="sxs-lookup"><span data-stu-id="89bf3-736">UWP</span></span>       |          |
-| <span data-ttu-id="89bf3-737">Magtek</span><span class="sxs-lookup"><span data-stu-id="89bf3-737">Magtek</span></span>       | <span data-ttu-id="89bf3-738">21073062</span><span class="sxs-lookup"><span data-stu-id="89bf3-738">21073062</span></span>    | <span data-ttu-id="89bf3-739">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-739">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-740">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-740">HP</span></span>           | <span data-ttu-id="89bf3-741">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="89bf3-741">IDRA-334133</span></span> | <span data-ttu-id="89bf3-742">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-742">OPOS</span></span>      |          |
-
-### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="89bf3-743">Atvēlēta IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-743">Dedicated IIS hardware station</span></span>
-
-<span data-ttu-id="89bf3-744">Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot atvēlētu (nekoplietotu) IIS aparatūras staciju kopā ar programmām Modern POS operētājsistēmai Windows un Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-744">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="89bf3-745">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-745">Printer</span></span>
-
-| <span data-ttu-id="89bf3-746">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-746">Manufacturer</span></span> | <span data-ttu-id="89bf3-747">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-747">Model</span></span>    | <span data-ttu-id="89bf3-748">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-748">Interface</span></span> | <span data-ttu-id="89bf3-749">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-749">Comments</span></span>                  |
-|--------------|----------|-----------|---------------------------|
-| <span data-ttu-id="89bf3-750">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-750">Epson</span></span>        | <span data-ttu-id="89bf3-751">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="89bf3-751">Tm-T88IV</span></span> | <span data-ttu-id="89bf3-752">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-752">OPOS</span></span>      |                           |
-| <span data-ttu-id="89bf3-753">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-753">Epson</span></span>        | <span data-ttu-id="89bf3-754">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="89bf3-754">TM-T88V</span></span>  | <span data-ttu-id="89bf3-755">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-755">OPOS</span></span>      |                           |
-| <span data-ttu-id="89bf3-756">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-756">Star</span></span>         | <span data-ttu-id="89bf3-757">TSP650II</span><span class="sxs-lookup"><span data-stu-id="89bf3-757">TSP650II</span></span> | <span data-ttu-id="89bf3-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-758">OPOS</span></span>      |                           |
-| <span data-ttu-id="89bf3-759">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-759">Star</span></span>         | <span data-ttu-id="89bf3-760">TSP650II</span><span class="sxs-lookup"><span data-stu-id="89bf3-760">TSP650II</span></span> | <span data-ttu-id="89bf3-761">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-761">Custom</span></span>    | <span data-ttu-id="89bf3-762">Tīkla savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-762">Connected via network</span></span>     |
-| <span data-ttu-id="89bf3-763">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-763">HP</span></span>           | <span data-ttu-id="89bf3-764">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-764">F7M67AA</span></span>  | <span data-ttu-id="89bf3-765">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-765">OPOS</span></span>      | <span data-ttu-id="89bf3-766">USB barošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-766">Powered USB</span></span>               |
-
-#### <a name="bar-code-scanner"></a><span data-ttu-id="89bf3-767">Svītrkoda skeneris</span><span class="sxs-lookup"><span data-stu-id="89bf3-767">Bar code scanner</span></span>
-
-| <span data-ttu-id="89bf3-768">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-768">Manufacturer</span></span>  | <span data-ttu-id="89bf3-769">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-769">Model</span></span>   | <span data-ttu-id="89bf3-770">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-770">Interface</span></span> | <span data-ttu-id="89bf3-771">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-771">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="89bf3-772">Motorola</span><span class="sxs-lookup"><span data-stu-id="89bf3-772">Motorola</span></span>      | <span data-ttu-id="89bf3-773">DS9208</span><span class="sxs-lookup"><span data-stu-id="89bf3-773">DS9208</span></span>  | <span data-ttu-id="89bf3-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-774">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-775">Simbols</span><span class="sxs-lookup"><span data-stu-id="89bf3-775">Symbol</span></span>        | <span data-ttu-id="89bf3-776">LS2208</span><span class="sxs-lookup"><span data-stu-id="89bf3-776">LS2208</span></span>  | <span data-ttu-id="89bf3-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-777">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-778">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="89bf3-778">HP Integrated</span></span> | <span data-ttu-id="89bf3-779">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-779">E1L07AA</span></span> | <span data-ttu-id="89bf3-780">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-780">OPOS</span></span>      |          |
-
-#### <a name="pin-pad"></a><span data-ttu-id="89bf3-781">PIN bloks</span><span class="sxs-lookup"><span data-stu-id="89bf3-781">PIN pad</span></span>
-
-| <span data-ttu-id="89bf3-782">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-782">Manufacturer</span></span> | <span data-ttu-id="89bf3-783">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-783">Model</span></span>  | <span data-ttu-id="89bf3-784">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-784">Interface</span></span> | <span data-ttu-id="89bf3-785">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-785">Comments</span></span>                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| <span data-ttu-id="89bf3-786">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-786">VeriFone</span></span>     | <span data-ttu-id="89bf3-787">1000SE</span><span class="sxs-lookup"><span data-stu-id="89bf3-787">1000SE</span></span> | <span data-ttu-id="89bf3-788">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-788">OPOS</span></span>      | <span data-ttu-id="89bf3-789">Nepieciešama maksājumu savienojuma pielāgošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-789">Requires customization of the payment connector</span></span> |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="89bf3-790">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-790">Payment terminal</span></span>
-
-| <span data-ttu-id="89bf3-791">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-791">Manufacturer</span></span> | <span data-ttu-id="89bf3-792">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-792">Model</span></span> | <span data-ttu-id="89bf3-793">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-793">Interface</span></span> | <span data-ttu-id="89bf3-794">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-794">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="89bf3-795">Equinox</span><span class="sxs-lookup"><span data-stu-id="89bf3-795">Equinox</span></span>      | <span data-ttu-id="89bf3-796">L5300</span><span class="sxs-lookup"><span data-stu-id="89bf3-796">L5300</span></span> | <span data-ttu-id="89bf3-797">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-797">Custom</span></span>    | <span data-ttu-id="89bf3-798">Nepieciešama maksājumu savienojuma pielāgošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-798">Requires customization of the payment connector</span></span>                                |
-| <span data-ttu-id="89bf3-799">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-799">VeriFone</span></span>     | <span data-ttu-id="89bf3-800">MX925</span><span class="sxs-lookup"><span data-stu-id="89bf3-800">MX925</span></span> | <span data-ttu-id="89bf3-801">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-801">Custom</span></span>    | <span data-ttu-id="89bf3-802">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-802">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="89bf3-803">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-803">VeriFone</span></span>     | <span data-ttu-id="89bf3-804">MX915</span><span class="sxs-lookup"><span data-stu-id="89bf3-804">MX915</span></span> | <span data-ttu-id="89bf3-805">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-805">Custom</span></span>    | <span data-ttu-id="89bf3-806">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-806">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="89bf3-807">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-807">Cash drawer</span></span>
-
-| <span data-ttu-id="89bf3-808">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-808">Manufacturer</span></span> | <span data-ttu-id="89bf3-809">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-809">Model</span></span>     | <span data-ttu-id="89bf3-810">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-810">Interface</span></span> | <span data-ttu-id="89bf3-811">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-811">Comments</span></span>              |
-|--------------|-----------|-----------|-----------------------|
-| <span data-ttu-id="89bf3-812">APG</span><span class="sxs-lookup"><span data-stu-id="89bf3-812">APG</span></span>          | <span data-ttu-id="89bf3-813">Atwood</span><span class="sxs-lookup"><span data-stu-id="89bf3-813">Atwood</span></span>    | <span data-ttu-id="89bf3-814">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-814">Custom</span></span>    | <span data-ttu-id="89bf3-815">Tīkla savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-815">Connected via network</span></span> |
-| <span data-ttu-id="89bf3-816">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-816">Star</span></span>         | <span data-ttu-id="89bf3-817">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="89bf3-817">SMD2-1317</span></span> | <span data-ttu-id="89bf3-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-818">OPOS</span></span>      |                       |
-| <span data-ttu-id="89bf3-819">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-819">HP</span></span>           | <span data-ttu-id="89bf3-820">QT457AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-820">QT457AA</span></span>   | <span data-ttu-id="89bf3-821">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-821">OPOS</span></span>      |                       |
-
-#### <a name="line-display"></a><span data-ttu-id="89bf3-822">Rindu displejs</span><span class="sxs-lookup"><span data-stu-id="89bf3-822">Line display</span></span>
-
-| <span data-ttu-id="89bf3-823">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-823">Manufacturer</span></span>  | <span data-ttu-id="89bf3-824">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-824">Model</span></span>   | <span data-ttu-id="89bf3-825">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-825">Interface</span></span> | <span data-ttu-id="89bf3-826">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-826">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="89bf3-827">HP integrated</span><span class="sxs-lookup"><span data-stu-id="89bf3-827">HP integrated</span></span> | <span data-ttu-id="89bf3-828">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-828">G6U79AA</span></span> | <span data-ttu-id="89bf3-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-829">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-830">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-830">Epson</span></span>         | <span data-ttu-id="89bf3-831">M58DC</span><span class="sxs-lookup"><span data-stu-id="89bf3-831">M58DC</span></span>   | <span data-ttu-id="89bf3-832">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-832">OPOS</span></span>      |          |
-
-#### <a name="signature-capture"></a><span data-ttu-id="89bf3-833">Paraksta ieguve</span><span class="sxs-lookup"><span data-stu-id="89bf3-833">Signature capture</span></span>
-
-| <span data-ttu-id="89bf3-834">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-834">Manufacturer</span></span> | <span data-ttu-id="89bf3-835">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-835">Model</span></span>  | <span data-ttu-id="89bf3-836">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-836">Interface</span></span> | <span data-ttu-id="89bf3-837">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-837">Comments</span></span> |
-|--------------|--------|-----------|----------|
-| <span data-ttu-id="89bf3-838">Scriptel</span><span class="sxs-lookup"><span data-stu-id="89bf3-838">Scriptel</span></span>     | <span data-ttu-id="89bf3-839">ST1550</span><span class="sxs-lookup"><span data-stu-id="89bf3-839">ST1550</span></span> | <span data-ttu-id="89bf3-840">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-840">OPOS</span></span>      |          |
-
-#### <a name="scale"></a><span data-ttu-id="89bf3-841">Mērogs</span><span class="sxs-lookup"><span data-stu-id="89bf3-841">Scale</span></span>
-
-| <span data-ttu-id="89bf3-842">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-842">Manufacturer</span></span> | <span data-ttu-id="89bf3-843">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-843">Model</span></span>         | <span data-ttu-id="89bf3-844">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-844">Interface</span></span> | <span data-ttu-id="89bf3-845">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-845">Comments</span></span> |
-|--------------|---------------|-----------|----------|
-| <span data-ttu-id="89bf3-846">Datalogic</span><span class="sxs-lookup"><span data-stu-id="89bf3-846">Datalogic</span></span>    | <span data-ttu-id="89bf3-847">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="89bf3-847">Magellan 8400</span></span> | <span data-ttu-id="89bf3-848">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-848">OPOS</span></span>      |          |
-
-#### <a name="msr"></a><span data-ttu-id="89bf3-849">MJL (magnētiskās joslas lasītājs)</span><span class="sxs-lookup"><span data-stu-id="89bf3-849">MSR</span></span>
-
-| <span data-ttu-id="89bf3-850">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-850">Manufacturer</span></span> | <span data-ttu-id="89bf3-851">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-851">Model</span></span>       | <span data-ttu-id="89bf3-852">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-852">Interface</span></span> | <span data-ttu-id="89bf3-853">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-853">Comments</span></span> |
-|--------------|-------------|-----------|----------|
-| <span data-ttu-id="89bf3-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="89bf3-854">Magtek</span></span>       | <span data-ttu-id="89bf3-855">21073075</span><span class="sxs-lookup"><span data-stu-id="89bf3-855">21073075</span></span>    | <span data-ttu-id="89bf3-856">UWP</span><span class="sxs-lookup"><span data-stu-id="89bf3-856">UWP</span></span>       |          |
-| <span data-ttu-id="89bf3-857">Magtek</span><span class="sxs-lookup"><span data-stu-id="89bf3-857">Magtek</span></span>       | <span data-ttu-id="89bf3-858">21073062</span><span class="sxs-lookup"><span data-stu-id="89bf3-858">21073062</span></span>    | <span data-ttu-id="89bf3-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-859">OPOS</span></span>      |          |
-| <span data-ttu-id="89bf3-860">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-860">HP</span></span>           | <span data-ttu-id="89bf3-861">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="89bf3-861">IDRA-334133</span></span> | <span data-ttu-id="89bf3-862">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-862">OPOS</span></span>      |          |
-
-### <a name="shared-iis-hardware-station"></a><span data-ttu-id="89bf3-863">Koplietota IIS aparatūras stacija</span><span class="sxs-lookup"><span data-stu-id="89bf3-863">Shared IIS hardware station</span></span>
-
-<span data-ttu-id="89bf3-864">Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietotu IIS aparatūras staciju kopā ar programmām Modern POS operētājsistēmai Windows un Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-864">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="89bf3-865">Tiek atbalstīts tikai printeris, maksājumu terminālis un naudas kaste.</span><span class="sxs-lookup"><span data-stu-id="89bf3-865">Only a printer, payment terminal, and cash drawer are supported.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="89bf3-866">Printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-866">Printer</span></span>
-
-| <span data-ttu-id="89bf3-867">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-867">Manufacturer</span></span> | <span data-ttu-id="89bf3-868">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-868">Model</span></span>    | <span data-ttu-id="89bf3-869">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-869">Interface</span></span> | <span data-ttu-id="89bf3-870">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-870">Comments</span></span>                  |
-|--------------|----------|-----------|---------------------------|
-| <span data-ttu-id="89bf3-871">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-871">Epson</span></span>        | <span data-ttu-id="89bf3-872">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="89bf3-872">Tm-T88IV</span></span> | <span data-ttu-id="89bf3-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-873">OPOS</span></span>      |                           |
-| <span data-ttu-id="89bf3-874">Epson</span><span class="sxs-lookup"><span data-stu-id="89bf3-874">Epson</span></span>        | <span data-ttu-id="89bf3-875">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="89bf3-875">TM-T88V</span></span>  | <span data-ttu-id="89bf3-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-876">OPOS</span></span>      |                           |
-| <span data-ttu-id="89bf3-877">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-877">Star</span></span>         | <span data-ttu-id="89bf3-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="89bf3-878">TSP650II</span></span> | <span data-ttu-id="89bf3-879">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-879">OPOS</span></span>      |                           |
-| <span data-ttu-id="89bf3-880">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-880">Star</span></span>         | <span data-ttu-id="89bf3-881">TSP650II</span><span class="sxs-lookup"><span data-stu-id="89bf3-881">TSP650II</span></span> | <span data-ttu-id="89bf3-882">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-882">Custom</span></span>    | <span data-ttu-id="89bf3-883">Tīkla savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-883">Connected via network</span></span>     |
-| <span data-ttu-id="89bf3-884">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-884">HP</span></span>           | <span data-ttu-id="89bf3-885">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-885">F7M67AA</span></span>  | <span data-ttu-id="89bf3-886">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-886">OPOS</span></span>      | <span data-ttu-id="89bf3-887">USB barošana</span><span class="sxs-lookup"><span data-stu-id="89bf3-887">Powered USB</span></span>               |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="89bf3-888">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-888">Payment terminal</span></span>
-
-| <span data-ttu-id="89bf3-889">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-889">Manufacturer</span></span> | <span data-ttu-id="89bf3-890">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-890">Model</span></span> | <span data-ttu-id="89bf3-891">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-891">Interface</span></span> | <span data-ttu-id="89bf3-892">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-892">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="89bf3-893">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-893">VeriFone</span></span>     | <span data-ttu-id="89bf3-894">MX925</span><span class="sxs-lookup"><span data-stu-id="89bf3-894">MX925</span></span> | <span data-ttu-id="89bf3-895">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-895">Custom</span></span>    | <span data-ttu-id="89bf3-896">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-896">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="89bf3-897">VeriFone</span><span class="sxs-lookup"><span data-stu-id="89bf3-897">VeriFone</span></span>     | <span data-ttu-id="89bf3-898">MX915</span><span class="sxs-lookup"><span data-stu-id="89bf3-898">MX915</span></span> | <span data-ttu-id="89bf3-899">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-899">Custom</span></span>    | <span data-ttu-id="89bf3-900">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-900">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="89bf3-901">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-901">Cash drawer</span></span>
-
-| <span data-ttu-id="89bf3-902">Ražotājs</span><span class="sxs-lookup"><span data-stu-id="89bf3-902">Manufacturer</span></span> | <span data-ttu-id="89bf3-903">Modelis</span><span class="sxs-lookup"><span data-stu-id="89bf3-903">Model</span></span>     | <span data-ttu-id="89bf3-904">Interfeiss</span><span class="sxs-lookup"><span data-stu-id="89bf3-904">Interface</span></span> | <span data-ttu-id="89bf3-905">Komentāri</span><span class="sxs-lookup"><span data-stu-id="89bf3-905">Comments</span></span>              |
-|--------------|-----------|-----------|-----------------------|
-| <span data-ttu-id="89bf3-906">APG</span><span class="sxs-lookup"><span data-stu-id="89bf3-906">APG</span></span>          | <span data-ttu-id="89bf3-907">Atwood</span><span class="sxs-lookup"><span data-stu-id="89bf3-907">Atwood</span></span>    | <span data-ttu-id="89bf3-908">Pielāgot</span><span class="sxs-lookup"><span data-stu-id="89bf3-908">Custom</span></span>    | <span data-ttu-id="89bf3-909">Tīkla savienojums</span><span class="sxs-lookup"><span data-stu-id="89bf3-909">Connected via network</span></span> |
-| <span data-ttu-id="89bf3-910">Star</span><span class="sxs-lookup"><span data-stu-id="89bf3-910">Star</span></span>         | <span data-ttu-id="89bf3-911">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="89bf3-911">SMD2-1317</span></span> | <span data-ttu-id="89bf3-912">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-912">OPOS</span></span>      |                       |
-| <span data-ttu-id="89bf3-913">HP</span><span class="sxs-lookup"><span data-stu-id="89bf3-913">HP</span></span>           | <span data-ttu-id="89bf3-914">QT457AA</span><span class="sxs-lookup"><span data-stu-id="89bf3-914">QT457AA</span></span>   | <span data-ttu-id="89bf3-915">OPOS</span><span class="sxs-lookup"><span data-stu-id="89bf3-915">OPOS</span></span>      |                       |
-
-## <a name="troubleshooting"></a><span data-ttu-id="89bf3-916">Problēmu novēršana</span><span class="sxs-lookup"><span data-stu-id="89bf3-916">Troubleshooting</span></span>
-
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="89bf3-917">Programma Modern POS var nodrošināt aparatūras stacijas noteikšanu atlases sarakstā, taču nevar nodrošināt savienošanu pārī</span><span class="sxs-lookup"><span data-stu-id="89bf3-917">Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</span></span>
-
-<span data-ttu-id="89bf3-918">**Risinājums:** pārbaudiet tālāk sniegto iespējamo kļūmju sarakstu.</span><span class="sxs-lookup"><span data-stu-id="89bf3-918">**Solution:** Verify the following list of potential failure points:</span></span>
-
-- <span data-ttu-id="89bf3-919">Sertifikāts, kas tiek izmantots datorā, kurā tiek darbināta aparatūras stacija, ir iestatīts kā uzticams datorā, kurā tiek darbināta programma Modern POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-919">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
-
-    - <span data-ttu-id="89bf3-920">Lai pārbaudītu šo iestatījumu, tīmekļa pārlūkprogrammā dodieties uz šādu vietrādi URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span><span class="sxs-lookup"><span data-stu-id="89bf3-920">To verify this setup, in a web browser, go to the following URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span></span>
-    - <span data-ttu-id="89bf3-921">Šis URL izmanto programmu Ping, lai pārbaudītu, vai datoram var piekļūt, un pārlūkprogramma norāda, vai sertifikāts ir uzticams.</span><span class="sxs-lookup"><span data-stu-id="89bf3-921">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="89bf3-922">(Piemēram, pārlūkprogrammā Internet Explorer adreses joslā tiek parādīta slēdzenes ikona.</span><span class="sxs-lookup"><span data-stu-id="89bf3-922">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="89bf3-923">Kad noklikšķināt uz šīs ikona, pārlūkprogramma Internet Explorer pārbauda, vai sertifikāts pašlaik ir uzticams.</span><span class="sxs-lookup"><span data-stu-id="89bf3-923">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="89bf3-924">Varat instalēt sertifikātu lokālajā datorā, skatot detalizētu informāciju par parādīto sertifikātu.)</span><span class="sxs-lookup"><span data-stu-id="89bf3-924">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
-
-- <span data-ttu-id="89bf3-925">Datorā, kurā tiek darbināta aparatūras stacija, ugunsmūrī ir atvērts ports, kas tiks izmantots aparatūras stacijas darbībai.</span><span class="sxs-lookup"><span data-stu-id="89bf3-925">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
-- <span data-ttu-id="89bf3-926">Aparatūras stacijā ir pareizi instalēta tirgotāja informācija, izmantojot rīku Instalēt tirgotāja informāciju, kas tiek palaists aparatūras stacijas instalēšanas programmas darbības beigās.</span><span class="sxs-lookup"><span data-stu-id="89bf3-926">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
-
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="89bf3-927">Programma Modern POS nevar nodrošināt aparatūras stacijas noteikšanu atlases sarakstā</span><span class="sxs-lookup"><span data-stu-id="89bf3-927">Modern POS can't detect the hardware station in its list for selection</span></span>
-
-<span data-ttu-id="89bf3-928">**Risinājums:** šo problēmu var izraisīt jebkurš no tālāk norādītajiem faktoriem.</span><span class="sxs-lookup"><span data-stu-id="89bf3-928">**Solution:** Either of the following factors can cause this issue:</span></span>
-
-- <span data-ttu-id="89bf3-929">Aparatūras stacija nav pareizi iestatīta galvenajā birojā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-929">The hardware station hasn't been set up correctly in headquarters.</span></span> <span data-ttu-id="89bf3-930">Izmantojiet iepriekš šajā tēmā norādītās darbības, lai pārbaudītu, vai aparatūras stacijas profils un aparatūras stacija ir pareizi ievadīti.</span><span class="sxs-lookup"><span data-stu-id="89bf3-930">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
-- <span data-ttu-id="89bf3-931">Nav palaisti darbi, lai atjauninātu kanāla konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-931">The jobs haven't been run to update the channel configuration.</span></span> <span data-ttu-id="89bf3-932">Šādā gadījumā palaidiet kanāla konfigurācijas darbu Nr. 1070.</span><span class="sxs-lookup"><span data-stu-id="89bf3-932">In this case, run the 1070 job for channel configuration.</span></span>
-
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="89bf3-933">Programmā Modern POS nav atainoti jaunie naudas kastes iestatījumi</span><span class="sxs-lookup"><span data-stu-id="89bf3-933">Modern POS doesn't reflect new cash drawer settings</span></span>
-
-<span data-ttu-id="89bf3-934">**Risinājums:** slēdziet pašreizējo partiju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-934">**Solution:** Close the current batch.</span></span> <span data-ttu-id="89bf3-935">Naudas kastes izmaiņas netiek atjauninātas programmā Modern POS, līdz tiek slēgta pašreizējā partija.</span><span class="sxs-lookup"><span data-stu-id="89bf3-935">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
-
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="89bf3-936">Programmā Modern POS tiek ziņots problēmu ar mazumtirdzniecības perifēro ierīci</span><span class="sxs-lookup"><span data-stu-id="89bf3-936">Modern POS is reporting an issue with a retail peripheral</span></span>
-
-<span data-ttu-id="89bf3-937">**Risinājums:** tālāk ir norādīti daži izplatītākie gadījumi, kad rodas šī problēma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-937">**Solution:** Here are some typical causes of this issue:</span></span>
-
-- <span data-ttu-id="89bf3-938">Pārliecinieties, ka ir aizvērtas citas ierīču draiveru konfigurēšanas utilītas.</span><span class="sxs-lookup"><span data-stu-id="89bf3-938">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="89bf3-939">Ja šīs utilītas ir atvērtas, tās var traucēt ierīces pieprasīšanu programmā Modern POS vai aparatūras stacijā.</span><span class="sxs-lookup"><span data-stu-id="89bf3-939">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
-- <span data-ttu-id="89bf3-940">Ja mazumtirdzniecības perifērā ierīce tiek koplietota vairākās POS ierīcēs, pārliecinieties, ka tā ir ietverta vienā no tālāk norādītajām kategorijām.</span><span class="sxs-lookup"><span data-stu-id="89bf3-940">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
-
-    - <span data-ttu-id="89bf3-941">Naudas kaste</span><span class="sxs-lookup"><span data-stu-id="89bf3-941">Cash drawer</span></span>
-    - <span data-ttu-id="89bf3-942">Kvīšu printeris</span><span class="sxs-lookup"><span data-stu-id="89bf3-942">Receipt printer</span></span>
-    - <span data-ttu-id="89bf3-943">Maksājumu terminālis </span><span class="sxs-lookup"><span data-stu-id="89bf3-943">Payment terminal</span></span>
-
-    <span data-ttu-id="89bf3-944">Ja perifērā ierīce nav ietverta nevienā no šīm kategorijām, aparatūras stacija nav paredzēta perifērās ierīces koplietošanai vairākās POS ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="89bf3-944">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
-
-- <span data-ttu-id="89bf3-945">Dažreiz ierīču draiveri var izraisīt vispārīgo vadības objektu (CCO) darbības traucējumus.</span><span class="sxs-lookup"><span data-stu-id="89bf3-945">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="89bf3-946">Ja nesen ir instalēta kāda ierīce, taču tā nedarbojas pareizi vai ir radušās citas problēmas, šo problēmu bieži vien nav novērt, atkārtoti instalējot CCO.</span><span class="sxs-lookup"><span data-stu-id="89bf3-946">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="89bf3-947">Lai lejupielādētu CCO, apmeklējiet vietni <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="89bf3-947">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
-- <span data-ttu-id="89bf3-948">Ja pārbaudes vai problēmu novēršanas laikā bieži veicat perifēro ierīču izmaiņas, iespējams, ir nepieciešams atiestatīt IIS, negaidot līdz automātiskai kešatmiņas atsvaidzināšanai.</span><span class="sxs-lookup"><span data-stu-id="89bf3-948">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="89bf3-949">Lai atiestatītu IIS, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-949">To reset IIS, follow these steps:</span></span>
-
-    1. <span data-ttu-id="89bf3-950">Izvēlnē **Sākt** ievadiet **CMD**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-950">From the **Start** menu, type **CMD**.</span></span>
-    2. <span data-ttu-id="89bf3-951">Meklēšanas rezultātos noklikšķiniet uz **Komandu uzvedne** un pēc tam noklikšķiniet uz **Palaist kā administratoram**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-951">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
-    3. <span data-ttu-id="89bf3-952">Logā **Komandu uzvedne** ievadiet **iisreset /Restart** un pēc tam nospiediet taustiņu Enter.</span><span class="sxs-lookup"><span data-stu-id="89bf3-952">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
-    4. <span data-ttu-id="89bf3-953">Pēc IIS restartēšanas restartējiet programmu Modern POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-953">After IIS has restarted, restart Modern POS.</span></span>
-
-- <span data-ttu-id="89bf3-954">Ja bieži veicat perifēro ierīču izmaiņas un arī bieži palaižat un izslēdzat POS klientu, iepriekšējās POS sesijas process dllhost var traucēt pašreizējo sesiju.</span><span class="sxs-lookup"><span data-stu-id="89bf3-954">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="89bf3-955">Šādā gadījumā ierīce var būt nelietojama, līdz aizverat dinamisko saišu bibliotēku (DLL) resursu, kas nodrošina iepriekšējās sesijas pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="89bf3-955">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="89bf3-956">Lai aizvērtu DLL resursu, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="89bf3-956">To close the DLL host, follow these steps:</span></span>
-
-    1. <span data-ttu-id="89bf3-957">Izvēlnē **Sākt** ievadiet **Uzdevumu pārvaldnieks**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-957">From the **Start** menu, type **Task manager**.</span></span>
-    2. <span data-ttu-id="89bf3-958">Meklēšanas rezultātu sarakstā noklikšķiniet uz **Uzdevumu pārvaldnieks**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-958">In the search results, click **Task manager**.</span></span>
-    3. <span data-ttu-id="89bf3-959">Uzdevumu pārvaldnieka cilnē **Detalizēta informācija** noklikšķiniet uz kolonnas virsraksta **Nosaukums**, lai sakārtotu tabulu alfabēta secībā pēc nosaukuma.</span><span class="sxs-lookup"><span data-stu-id="89bf3-959">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
-    4. <span data-ttu-id="89bf3-960">Ritiniet uz leju līdz failam dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="89bf3-960">Scroll down until you find dllhost.exe.</span></span>
-    5. <span data-ttu-id="89bf3-961">Atlasiet katru DLL resursu un pēc tam noklikšķiniet uz **Beigt uzdevumu**.</span><span class="sxs-lookup"><span data-stu-id="89bf3-961">Select each DLL host, and then click **End task**.</span></span>
-    6. <span data-ttu-id="89bf3-962">Kad DLL resursi ir aizvērti, restartējiet programmu Modern POS.</span><span class="sxs-lookup"><span data-stu-id="89bf3-962">After the DLL hosts have been closed, restart Modern POS.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="89bf3-963">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="89bf3-963">Additional resources</span></span>
-
-[<span data-ttu-id="89bf3-964">Retail perifērijas ierīču simulators</span><span class="sxs-lookup"><span data-stu-id="89bf3-964">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="retail-peripherals-overview.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>retail-peripherals-overview.3a1cbf.a9fa49d0b3553ae70547aeea19d14bc6e6e08983.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a9fa49d0b3553ae70547aeea19d14bc6e6e08983</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>ffc37f7c2a63bada3055f37856a30424040bc9a3</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\retail-peripherals-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Retail peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail perifērijas ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains the concepts that are related to retail peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Retail peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail perifērijas ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains the concepts that are related to retail peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības perifērajām ierīcēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Concepts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koncepcijas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>POS registers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS kases sistēmas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navigācija: noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS iestatīšana<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Reģistri<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārdošanas punkta (POS) kases sistēma ir elements, kas tiek izmantots, lai noteiktu konkrētas POS instances raksturlielumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šie raksturlielumi ietver aparatūras profilu jeb ar kases sistēmu izmantoto mazumtirdzniecības perifērijas ierīču iestatījumus, veikalu, ar kuru ir kartēta šī kases sistēma, un vizuālo noformējumu, ko redz lietotājs, kurš pierakstās šajā kases sistēmā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Devices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Devices<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navigācija: noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS iestatīšana<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Ierīces<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>A device is an entity that represents a physical instance of a device that is mapped to a POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>When a device is created, it's mapped to a POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīces var kartēt ar šiem lietojumprogrammu veidiem: Retail Modern POS, Retail Cloud POS, Retail Modern POS — Windows Phone, Retail Modern POS — Android un Retail Modern POS — ISP.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Retail Modern POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Modern POS is the POS program for Microsoft Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS ir operētājsistēmai Microsoft Windows paredzētā POS programma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>It can be deployed on Windows 10 operating systems (OSs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">To var izvietot operētājsistēmās (OS) Windows 10.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS ir programmas Modern POS mākoņa versija, kam var piekļūt tīmekļa pārlūkprogrammā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Modern POS for iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai iOS ir operētājsistēmai iOS paredzētā programmas Modern POS versija, ko var izvietot iOS ierīcēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Modern POS for Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai Android ir operētājsistēmai Android paredzētā programmas Modern POS versija, ko var izvietot Android ierīcēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>POS peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS perifērās ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>POS peripherals are devices that are explicitly supported for POS functions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>These peripherals are typically divided into specific classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parasti šīs perifērās ierīces ir sadalītas noteiktās klasēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>For more information about these classes, see the "Device classes" section of this topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par šīm klasēm skatiet šīs tēmas sadaļā “Ierīču klases”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channels<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail stores<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>All retail stores<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navigācija: noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāli<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Mazumtirdzniecības veikali<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Visi mazumtirdzniecības veikali<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Select a store, and then click the <bpt id="p1">**</bpt>Hardware stations<ept id="p1">**</ept> FastTab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes <bpt id="p1">**</bpt>Aparatūras stacijas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The <bpt id="p1">**</bpt>Hardware station<ept id="p1">**</ept> setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatījums <bpt id="p1">**</bpt>Aparatūras stacija<ept id="p1">**</ept> ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota mazumtirdzniecības perifērās ierīces loģika.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>This setting at the channel level is used to determine characteristics of the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>It's also used to list hardware stations that are available for a Modern POS instance in a given store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The hardware station is built into the Modern POS program for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacija ir iebūvēta programmā Modern POS operētājsistēmai Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In this case, it can be accessed via a network.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā gadījumā tai var piekļūt tīklā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Hardware profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras profils</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navigācija: noklikšķiniet uz <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS iestatīšana<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profili<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Aparatūras profili<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>The hardware profile is a list of devices that are configured for a POS register or a hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras profils ir to ierīču saraksts, kas ir konfigurētas POS kases sistēmai vai aparatūras stacijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The hardware profile can be mapped directly to a POS register or a hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras profilu var tieši kartēt ar POS kases sistēmu vai aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Devices classes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīču klases</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>POS peripherals are typically divided into classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parasti POS perifērās ierīces tiek sadalītas klasēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>This section describes and gives an overview of the devices that Modern POS supports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā sadaļā ir aprakstītas programmā Modern POS atbalstītās ierīces un sniegts pārskats par tām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Printers include traditional POS receipt printers and full-page printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeri var būt parastie POS kvīšu printeri un veselas lapas printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeru atbalsts tiek nodrošināts, izmantojot objektu saistīšanu un iegulšanu punktā Retail POS (OPOS) un Microsoft Windows draiveru interfeisus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Up to two printers can be used at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienlaikus var lietot līdz diviem printeriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī iespēja ir piemērota scenārijiem, kuros ar kvīšu printeriem tiek drukātas debitoru kvītis par pārdošanu skaidrā naudā bez piegādes, bet debitoru pasūtījumi, kuros ir ietverts vairāk informācijas, tiek drukāti ar veselas lapas printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvīšu printerus var tieši pievienot datoram, izmantojot USB portu, pievienot tīklam, izmantojot Ethernet, vai pievienot, izmantojot Bluetooth savienojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Up to two bar code scanners can be used at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienlaikus var lietot līdz diviem svītrkoda skeneriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī iespēja ir piemērota scenārijiem, kuros ir nepieciešams vieglāk pārvietojams skeneris, lai skenētu lielas vai smagas preces, bet vairumam standarta izmēra preču tiek izmantots nekustīgs iebūvētais skeneris, lai paātrinātu norēķināšanos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skeneru atbalstu var nodrošināt, izmantojot OPOS, universālās Windows platformas (UWP) vai svītrkoda/magnētiskās joslas nolasīšanas ierīces interfeisu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>USB or Bluetooth can be used to connect a scanner to a computer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skenera pievienošanai datoram var izmantot USB vai Bluetooth savienojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MJL (magnētiskās joslas lasītājs)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojot OPOS draiverus var iestatīt vienu USB magnētiskās joslas lasītāju (MJL)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja vēlaties izmantot savrupu MJL elektronisko līdzekļu pārskaitījuma (EFT) maksājumu transakcijām, MJL pārvaldībai ir jāizmanto maksājumu savienotājs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Savrupu MJL var izmantot debitoru lojalitātes programmas datu ievadei, darbinieku pierakstīšanās nodrošināšanai un dāvanu kartes datu ievadei neatkarīgi no maksājumu savienotāja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Two cash drawers can be supported per hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katrā aparatūras profilā var tikt atbalstītas līdz divām naudas kastēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>This capability enables two active shifts per register to be available at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī iespēja nodrošina to, ka vienlaikus katrā kases sistēmā var būt pieejamas divas aktīvās darba maiņas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotas maiņas gadījumā vai tad, ja vairākas mobilās POS ierīces vienlaikus lieto naudas kasti, katrā aparatūras profilā ir atļauts izmantot tikai vienu naudas kasi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kastes var tieši pievienot datoram, izmantojot USB portu, pievienot tīklam vai pievienot kvīšu printerim, izmantojot RJ12 interfeisu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In some cases, cash drawers can also be connected via Bluetooth.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dažos gadījumos naudas kastes var arī pievienot, izmantojot Bluetooth savienojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu displeji tiek izmantoti, lai debitoram transakcijas laikā parādītu preces, transakciju bilances un citu noderīgu informāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>One line display can be connected to the computer via USB by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienu rindu displeju var pievienot datoram, izmantojot USB portu un OPOS draiverus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraksta ieguve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraksta ieguves ierīces var tieši pievienot datoram, izmantojot USB portu un OPOS draiverus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>When signature capture is configured, the customer is prompted to sign on the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja ir konfigurēta paraksta ieguve, debitoram tiek prasīts parakstīties uz ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>After the signature is provided, it's shown to the cashier for acceptance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad paraksts ir nodrošināts, tas tiek parādīts kasierim, lai viņš to apstiprinātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Scales can be connected to the computer via USP by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svarus var pievienot datoram, izmantojot USP un OPOS draiverus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja transakcijai tiek pievienota prece, kas ir atzīmēta kā sverama prece, POS tiek nolasīta svara informācija no svariem, prece tiek pievienota transakcijai un tiek izmantoti no svariem saņemtie daudzuma dati.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN bloks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personas identifikācijas numura (PIN) bloku atbalsts tiek nodrošināts, izmantojot OPOS, taču to pārvaldībai ir jāizmanto maksājumu savienotājs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Secondary display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sekundārais displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>When a secondary display is configured, the number 2 Windows display is used to show basic information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja ir konfigurēts sekundārais displejs, pamatinformācijas rādīšanai tiek izmantots 2. Windows displejs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sekundārā displeja mērķis ir nodrošināt neatkarīga programmatūras izstrādātāja (NPI) paplašinājuma atbalstu, jo standarta konfigurācijā sekundāro displeju nevar konfigurēt un tajā tiek rādīts ierobežots saturs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Payment device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu ierīce</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Payment device support is implemented through the payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu ierīces atbalts tiek nodrošināts, izmantojot maksājumu savienotāju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Payment devices can perform one or many of the functions that other device classes provide.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu ierīces var veikt vienu vai daudzas no funkcijām, ko nodrošina citas ierīču klases.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, maksājumu ierīce var darboties kā MJL/karšu lasītājs, rindu displejs, paraksta ieguves ierīce vai PIN bloks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu ierīču atbalsts tiek nodrošināts neatkarīgi no savrupo ierīču atbalsta, kas tiek nodrošināts citām ierīcēm, kuras ir iekļautas aparatūras profilā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalstītie interfeisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai palīdzētu nodrošināt to, ka kopā ar programmu Microsoft Dynamics 365 for Retail var lietot pēc iespējas lielāku ierīču klāstu, galvenā mazumtirdzniecības perifēro ierīču platforma, kas tiek atbalstīta programmā Microsoft Dynamics 365 for Retail, ir nozares standarta platforma OLE punktā POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš mazumtirdzniecības perifēro ierīču nozares standarta sakaru protokolus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>OPOS is a widely adopted implementation of the OLE for POS standard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS ir plaši izplatīta standarta OLE punktā POS implementācija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>It was developed in the mid-1990s and has been updated several times since then.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>OPOS controls handle communication between compatible hardware and the POS software.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>An OPOS control consists of two parts:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS vadības elements sastāv no divām tālāk norādītajām daļām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source><bpt id="p1">**</bpt>Control object<ept id="p1">**</ept> – The control object for a device class (such as line displays) provides the interface for the software program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vadības objekts<ept id="p1">**</ept> — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmas Microsoft Dynamics 365 for Retail POS komponenta pārbaudei tiek izmantoti CCO objekti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Microsoft Dynamics 365 for Retail nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>You don't have to explicitly test each device type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source><bpt id="p1">**</bpt>Service object<ept id="p1">**</ept> – The service object provides communication between the control object (CCO) and the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pakalpojumu objekts<ept id="p1">**</ept> — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Typically, the service object for a device is provided by the device manufacturer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>However, in some cases, you might have to download the service object from the manufacturer's website.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>For example, a more recent service object might be available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>To find the address of the manufacturer's website, see your hardware documentation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Control object and service object<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Vadības objekts un pakalpojumu objekts<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā, pat ja tās iepriekš nav pārbaudītas kopā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>OPOS support doesn't guarantee support for all devices that have OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirmkārt, programmai Microsoft Dynamics 365 for Retail ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>In addition, service objects might not always be up to date with the latest version of the CCOs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>You should also be aware that, in general, the quality of service objects varies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Receipt printing at the POS is optimized for OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvīšu drukāšana POS ir optimizēta standartam OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>OPOS tends to be much faster than printing through Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS parasti nodrošina daudz ātrāku drukāšanu nekā operētājsistēma Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc ir ieteicams izmantot OPOS, jo īpaši mazumtirdzniecības vidēs, kur tiek drukātas 40 kolonnu kvītis un ir jānodrošina ātra transakciju apstrāde.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>For most devices, you will use OPOS controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vairumam ierīču tiek lietoti OPOS vadības elementi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>However, some OPOS receipt printers also support Windows drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču daži OPOS kvīšu printeri atbalsta arī Windows draiverus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojot Windows draiveri, varat piekļūt jaunākajiem fontiem un tīklā lietot vienu printeri vairākām kases sistēmām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>However, there are drawbacks to using Windows drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču Windows draiveru lietošanai ir trūkumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Here are some examples of these drawbacks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir sniegti daži šo trūkumu piemēri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>When Windows drivers are used, images are rendered before printing occurs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek izmantoti Windows draiveri, pirms drukāšanas tiek renderēti attēli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Therefore, printing tends to be slower than it is on printers that use OPOS controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc drukāšana ir lēnāka, nekā ar printeriem, kam tiek izmantoti OPOS vadības elementi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek izmantoti Windows draiveri, ierīces, kas ir pievienotas, izmantojot printeri (ziedlapķēdē), var darboties nepareizi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>For example, the cash drawer might not open, or the slip printer might not word as you expect.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, iespējams, netiks atvērta naudas kaste vai kvīšu printeris nedarbosies, kā ir paredzēts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turklāt OPOS atbalsta plašāku mazumtirdzniecības kvīšu printeriem raksturīgu mainīgo kopu, piemēram, papīra griešanas vai pavadzīmju drukāšanas mainīgos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja izmantotajam Windows printerim ir pieejami OPOS vadības elementi, printerim joprojām ir pareizi jādarbojas kopā ar programmu Microsoft Dynamics 365 for Retail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Universal Windows Platform</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Universālā Windows platforma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attiecībā uz mazumtirdzniecības perifērajām ierīcēm: UWP ir saistīta ar Windows Plug and Play ierīču atbalstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja Plug and Play ierīce tiek pievienota operētājsistēmas Windows versijai, ka atbalsta šo ierīču veidu, ierīces pareizai lietošanai nav nepieciešami nekādi draiveri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the <bpt id="p1">**</bpt>Speaker<ept id="p1">**</ept> class type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, ja operētājsistēmā Windows tiek noteikts Bluetooth skaļrunis, tiek noteikts, ka ierīces klases veids ir <bpt id="p1">**</bpt>Skaļrunis<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Therefore, and it treats that device as a speaker.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc ierīce tiek apstrādāta kā skaļrunis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>No additional setup is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav nepieciešami nekādi papildu iestatījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Var pievienot daudzas USB POS ierīces, un tās operētājsistēmā Windows tiek atpazītas kā cilvēka interfeisa ierīces (HID).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču operētājsistēmā, iespējams, nevar noteikt ierīces nodrošinātās iespējas, jo nav norādīta ierīces klase vai veids.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>In Windows 10, device classes for bar code scanners and MSRs have been added.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Operētājsistēmā Windows 10 ir pievienotas svītrkoda skeneru un MJL ierīču klases.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc, ja operētājsistēmā Windows 10 ierīce tiek noteikta kā ietverta vienā no šīm klasēm, atbilstošajā laikā operētājsistēmā Windows tiek gaidīti notikumi no šīs ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Modern POS supports UWP MSRs and scanners.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programma Modern POS atbalsta UWP MJL un skenerus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc, kad tā ir gatava ievadei no kādas no šīm ierīcēm un ir pievienota kādā no šīm klasēm ietverta ierīce, šo ierīci var lietot.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, ja Windows 10 datoram ir pievienots UWP svītrkoda skeneris un programmā Modern POS ir konfigurēta pierakstīšanās ar svītrkodu, pierakstīšanās ekrānā tiek aktivizēts svītrkoda skeneris.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>No additional setup is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav nepieciešami nekādi papildu iestatījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Additional classes of point of service UWP devices are being added to Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Operētājsistēmai Windows tiek pievienotas papildu apkalpošanas punkta UWP ierīču klases.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>These classes include classes for cash drawers and receipt printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs klases ietver naudas kastu un kvīšu printeru klases.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Support for these new device classes in Modern POS is pending.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Modern POS vēl nav nodrošināts šo jauno klašu atbalsts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Keyboard wedge</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svītrkoda/magnētiskās joslas nolasīšanas ierīce</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svītrkoda/magnētiskās joslas nolasīšanas ierīces nodrošina datu sūtīšanu uz datoru tā, it kā šie dati būtu ievadīti ar tastatūru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc pēc noklusējuma skenētie vai nolasītie dati tiek nosūtīti POS interfeisā aktīvo lauku.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dažos gadījumos šī darbība var izraisīt nepareizā veida datu ieskenēšanu nepareizajā laukā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>For example, a bar code might be scanned into a field that is intended for input of credit card data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, svītrkods var tikt ieskenēts laikā, kas ir paredzēts kredītkartes datu ievadei.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daudzos gadījumos POS pastāv loģika, kas nosaka, vai skenētie vai nolasītie dati ir svītrkods vai kartes nolasīšanas dati.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Therefore, the data is handled correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tādējādi dati tiek pareizi apstrādāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču, ja ierīces ir iestatītas kā OPOS, nevis kā svītrkoda/magnētiskās joslas nolasīšanas ierīces, ir pieejama plašāka kontrole pār to, kā var izmantot no šīm ierīcēm saņemtos datus, jo ir pieejams vairāk informācijas par ierīci, no kuras ir iegūti dati.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, no svītrkoda skenera saņemtie dati tiek automātiski atpazīti kā svītrkods, un saistītais ieraksts datu bāzē tiek atrasts ātrāk un vienkāršāk nekā tad, ja tiek izmantota vispārējā virknes meklēšana, kā tas ir svītrkoda/magnētiskās joslas nolasīšanas ierīču gadījumā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Native printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vietējais printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vietējos (veida nosaukums aparatūras profilā ir Ierīce) printerus var konfigurēt, lai prasītu lietotājam atlasīt konkrētajam datoram konfigurētu printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>When a printer of the <bpt id="p1">**</bpt>Device<ept id="p1">**</ept> type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja ir konfigurēts veida <bpt id="p1">**</bpt>Ierīce<ept id="p1">**</ept> printeris un programmā Modern POS tiek saņemta drukas komanda, lietotajam tiek prasīts sarakstā atlasīt printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>This behavior differs from the behavior for Windows drivers, because the <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> printer type in the hardware profile doesn't show a list of printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī darbība atšķiras no Windows draiveru darbības, jo, ja tiek izmantots aparatūras profila printera veids <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept>, netiek rādīts printeru saraksts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Instead, it requires that a named printer be provided in the <bpt id="p1">**</bpt>Device name<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā vietā laukā <bpt id="p1">**</bpt>Ierīces nosaukums<ept id="p1">**</ept> ir jānorāda printera nosaukums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>The <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> device type is used for printers only.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīces veids <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> tiek lietots tikai printeriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja aparatūras profilā ir konfigurēts Windows printeris, ir jānorāda konkrētā printera nosaukums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja ir konfigurēts Windows printeris un programmā Modern POS tiek saņemts drukas notikums, šis notikums tiek pārsūtīts uz norādīto Windows printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>The user won't be prompted to select a printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietotājam netiek prasīts atlasīt printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīklā tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras staciju, kas ir iebūvēta lietojumprogrammā Modern POS operētājsistēmai Windows, vai izmantojot citu Modern POS klientu IIS aparatūras staciju, var lietot tīklā adresējamas naudas kastes, kvīšu printerus un maksājumu termināļus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Hardware station deployment options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas izvietošanas iespējas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>IPC (built-in)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC (iebūvēta)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Starpprocesu saziņas (IPC) aparatūras stacija ir iebūvēta lietojumprogrammā Modern POS operētājsistēmai Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai lietotu IPC aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Then create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the store where the register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam izveidojiet veida <bpt id="p1">**</bpt>Atvēlēts<ept id="p1">**</ept> aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad palaižat programmu Modern POS, ir aktivizēta IPC aparatūras stacija un konfigurētās POS perifērās ierīces ir gatavas lietošanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>If you temporarily don't require the local hardware for some reason, use the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation to turn off the hardware station capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja kāda iemesla dēļ īslaicīgi nav nepieciešama lokālā aparatūra, izmantojiet operāciju <bpt id="p1">**</bpt>Pārvaldīt aparatūras stacijas<ept id="p1">**</ept>, lai izslēgtu aparatūras stacijas iespējas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Modern POS IPC aparatūras staciju var izmantot arī tiešai saziņai ar tīkla perifērajām ierīcēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>IIS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>You can use the IIS or stand-alone version of the hardware station in two ways.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS jeb savrupo aparatūras stacijas versiju var izmantot divos veidos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apzīmējums “IIS” norāda, ka POS programmas savienojumam ar aparatūras staciju tiek izmantoti Microsoft interneta informācijas pakalpojumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS lietojumprogrammas savienojumam ar IIS aparatūras staciju tiek izmantoti tīmekļa pakalpojumi, kas darbojas datorā, kuram ir pievienotas ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek lietoti IIS, aparatūras stacijai pievienotās mazumtirdzniecības perifērās ierīces var izmantot jebkurā POS kases sistēmā, kas ir vienā tīklā ar IIS aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā kā tikai programma Modern POS operētājsistēmai Windows nodrošina iebūvētu mazumtirdzniecības perifēro ierīču atbalstu, visās citās lietojumprogrammas Modern POS versijās saziņai ar aparatūras profilā konfigurētajām POS perifērajām ierīcēm ir jāizmanto IIS aparatūras stacija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc katrai IIS aparatūras stacijas instancei ir nepieciešams dators, kurā darbojas tīmekļa pakalpojums un lietojumprogramma, kas nodrošina saziņu ar ierīcēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>The IIS hardware station is required for all non-Windows Modern POS applications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS aparatūras stacija ir nepieciešama visām lietojumprogrammas Modern POS versijām, kas nav paredzētas operētājsistēmai Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Dedicated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atvēlēts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Modern POS uses hardware stations of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type to detect that peripherals are directly connected to the computer where the app is being used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Modern POS veida <bpt id="p1">**</bpt>Atvēlēts<ept id="p1">**</ept> aparatūras stacijas tiek izmantotas, lai noteiktu perifērās ierīces, kas ir tieši pievienotas datoram, kurā tiek darbināta lietojumprogramma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>However, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type can also be used for IIS hardware stations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču veidu <bpt id="p1">**</bpt>Atvēlēts<ept id="p1">**</ept> var izmantot arī IIS aparatūras stacijām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parasta stacionārā POS scenārijā, kurā tiek izmantota POS lietojumprogramma Cloud POS, aparatūras stacijas veids <bpt id="p1">**</bpt>Atvēlēts<ept id="p1">**</ept> tiek izmantots IIS aparatūras stacijām, kas ir izvietotas tajā pašā datorā, kurā tiek darbināta programma Cloud POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attiecībā uz mazumtirdzniecības perifērajām ierīcēm: atvēlētā IIS aparatūras stacija nodrošina labāku mazumtirdzniecības perifēro ierīču atbalstu parastajā stacionārā POS scenārijos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Dedicated hardware stations support all peripherals that are supported in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atvēlētās aparatūras stacijas nodrošina visu to perifēro ierīču atbalstu, kas tiek atbalstītas aparatūras profilā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Shared</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietots</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotās aparatūras stacijas ir paredzētas lietošanai vairākās POS ierīcēs dienas laikā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotās aparatūras stacijas ir optimizētas, lai nodrošinātu tikai naudas kastu, kvīšu printeri un maksājumu terminālu atbalstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nevarat tieši pievienot savrupus svītrkoda skenerus, MJL, rindu displejus, svarus vai citas ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pretējā gadījumā, ja vairākās POS ierīcēs vienlaikus tiek mēģināts pieprasīt šīs perifērās ierīces, rodas konflikti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Here is how conflicts are managed for supported devices:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir aprakstīts, kā tiek pārvaldīti atbalstīto ierīču konflikti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source><bpt id="p1">**</bpt>Cash drawer<ept id="p1">**</ept> – The cash drawer is opened via an event that is sent to the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Naudas kaste<ept id="p1">**</ept> — naudas kaste tiek atvērta, izmantojot uz ierīci nosūtītu notikumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienīgā problēma, kas var rasties naudas kastes izsaukuma laikā, rodas, ja naudas kaste jau ir atvērta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>In the case of shared hardware stations, the cash drawer should be set to <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek izmantotas koplietotas aparatūras stacijas, naudas kastēm aparatūras profilā ir jāiestata parametrs <bpt id="p1">**</bpt>Koplietots<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis iestatījums nodrošina to, ka brīdī, kad no POS tiek nosūtīta atvēršanas komanda, POS netiek pārbaudīts, vai naudas kaste jau ir atvērta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source><bpt id="p1">**</bpt>Receipt printer<ept id="p1">**</ept> – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kvīšu printeris<ept id="p1">**</ept> — ja uz aparatūras staciju vienlaikus tiek nosūtītas divas kvīts drukāšanas komandas, viena no komandām var tikt zaudēta atkarībā no ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Some devices have internal memory or pooling that can prevent this issue.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dažās ierīcēs ir iekšējā atmiņa vai pieprasījumu ierobežošanas līdzeklis, kas var novērst šo problēmu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja drukas komanda netiek veiksmīgi izpildīta, kasieris saņem kļūdas ziņojumu un var vēlreiz mēģināt nosūtīt drukas komandu no POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source><bpt id="p1">**</bpt>Payment terminal<ept id="p1">**</ept> – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Maksājumu terminālis<ept id="p1">**</ept> — ja kasieris mēģina veikt norēķinus par transakciju, izmantojot maksājumu termināli, kas jau tiek lietots, kasierim tiek parādīts ziņojums ar norādi, ka terminālis tiek lietots, un aicinājumu vēlāk mēģināt vēlreiz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parasti kasieri var redzēt, ka terminālis jau tiek lietots, un uzgaida, līdz ir pabeigta otra transakcija, pirms vēlreiz mēģina veikt norēķinus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kādā no nākamajiem laidieniem ir paredzēts ietvert validācijas līdzekli, lai noteiktu, vai ar aparatūras staciju kartētajam aparatūras profilam ir iestatītas neatbalstītas ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek noteikta kāda neatbalstīta ierīce, lietotājs saņem ziņojumu par to, ka ierīces netiek atbalstītas lietošanai ar koplietotām aparatūras stacijām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>In the case of shared hardware stations, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> at the register level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek izmantotas koplietotas aparatūras stacijas, kases sistēmas līmenī ir iestatīta opcijas <bpt id="p1">**</bpt>Atlasīt norēķinu brīdī<ept id="p1">**</ept> vērtība <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā gadījumā, kad POS tiek atlasīti transakcijas norēķini, POS lietotājam tiek prasīts atlasīt aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja aparatūras stacija tiek atlasīta tikai norēķinu laikā, aparatūras stacijas atlase tiek tieši pievienota mobilo scenāriju POS darbplūsmai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu ieguvums ir tas, ka koplietošanas scenārijos netiek lietots maksājumu termināļa rindu displejs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja maksājumu terminālis tiek izmantots kā rindu displejs, citiem lietotājiem var tikt liegta iespēja izmantot šo termināli, līdz tiek pabeigta transakcija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>In mobile scenarios, lines might be added to a transaction over a longer period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mobilajos scenārijos transakcijas rindas var tikt pievienotas ilgākā laika periodā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Therefore, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is required in order to ensure optimum device availability.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc ir nepieciešama opcija <bpt id="p1">**</bpt>Atlasīt norēķinu brīdī<ept id="p1">**</ept>, lai nodrošinātu optimālu ierīces pieejamību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Network peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla perifērās ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīču tīkla apzīmējums aparatūras profilā sniedz iespēju izveidot naudas kastu, kvīšu printeru un maksājumu termināļu tīkla savienojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Modern POS for Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>You can specify IP addresses for network peripherals in two places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla perifēro ierīču IP adreses varat norādīt divās vietās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the <bpt id="p1">**</bpt>IP configuration<ept id="p1">**</ept> option on the Action Pane for the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja Modern POS Windows klientā tiek izmantota viena tīkla perifēro ierīču kopa, šo ierīču IP adreses ir jāiestata, izmantojot kases sistēmas darbību rūts opciju <bpt id="p1">**</bpt>IP konfigurēšana<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tīkla ierīces tiks koplietotas vairākās POS kases sistēmās, aparatūras profilu, kam ir piešķirta tīkla ierīce, var tieši kartēt ar koplietotu aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>To assign IP addresses, select that hardware station on the <bpt id="p1">**</bpt>Retail stores<ept id="p1">**</ept> page, and then use the <bpt id="p2">**</bpt>IP configuration<ept id="p2">**</ept> option in the <bpt id="p3">**</bpt>Hardware stations<ept id="p3">**</ept> section to specify the network devices that are assigned to that hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai piešķirtu IP adreses, atlasiet aparatūras staciju lapā <bpt id="p1">**</bpt>Mazumtirdzniecības veikali<ept id="p1">**</ept> un pēc tam sadaļas <bpt id="p3">**</bpt>Aparatūras stacijas<ept id="p3">**</ept> laukā <bpt id="p2">**</bpt>IP konfigurēšana<ept id="p2">**</ept> norādiet tīkla ierīces, kas ir piešķirtas šai aparatūras stacijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja aparatūras stacijai ir piešķirtas tikai tīkla ierīces, šī aparatūras stacija nav jāizvieto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā gadījumā aparatūras stacija ir nepieciešama tikai tīklā adresējamo ierīču konceptuālai grupēšanai atbilstoši to atrašanās vietai mazumtirdzniecības veikalā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>Cloud POS, Modern POS for iOS, and Modern POS for Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS, Modern POS operētājsistēmai iOS un Modern POS operētājsistēmai Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Loģika, kas nodrošina fiziski pievienoto un tīklā adresējamo perifēro ierīču darbību, ir ietverta aparatūras stacijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc visiem POS klientiem, izņemot programmu Modern POS operētājsistēmai Windows, ir jāizvieto un jāaktivizē IIS aparatūras stacija, lai nodrošinātu POS saziņu ar perifērajām ierīcēm, neatkarīgi no tā, vai šīs perifērās ierīces ir fiziski savienotas ar aparatūras staciju vai adresētas tīklā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatīšana un konfigurēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Hardware station installation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas instalēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>For information, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informāciju skatiet tēmā <bpt id="p1">[</bpt>Retail hardware station konfigurēšana un instalēšana<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Modern POS for Windows setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai Windows iestatīšana un konfigurēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>For information, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informāciju skatiet rakstā <bpt id="p1">[</bpt>Retail Modern POS konfigurēšana un instalēšana<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>OPOS device setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS ierīces iestatīšana un konfigurēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>For more information about OPOS components, see the "Supported interfaces" section of this document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par OPOS komponentiem skatiet šī dokumenta sadaļā “Atbalstītie interfeisi”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>Typically, OPOS drivers are provided by the device manufacturer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parasti OPOS draiverus nodrošina ierīces ražotājs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalējot OPOS ierīces draiveri, kādā no tālāk norādītajām vietām Windows reģistrā tiek pievienota atslēga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source><bpt id="p1">**</bpt>32-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>32 bitu sistēma:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source><bpt id="p1">**</bpt>64-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>64 bitu sistēma:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reģistra atrašanās vietā ServiceOPOS konfigurētās ierīces ir sakārtotas atbilstoši OPOS ierīču klasei.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>Multiple device drivers are saved.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiek saglabāti vairāki ierīču draiveri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>Supported scenarios by hardware station type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalstītie scenāriji pēc aparatūras stacijas veida</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source>Client support – IPC hardware station vs. IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klienta atbalsts — IPC aparatūras stacijas un IIS aparatūras stacijas salīdzinājums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>The following table shows the topologies and deployment scenarios that are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk esošajā tabulā ir norādītas atbalstītās topoloģijas un izvietošanas scenāriji.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>Client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>IPC hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>Windows app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows programma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>Network peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla perifērās ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot lietojumprogrammā Modern POS operētājsistēmai Windows iebūvēto aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>For all other clients, you must deploy an IIS hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visiem citiem klientiem ir jāizvieto IIS aparatūras stacija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>Client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klients</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>IPC hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>Windows app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows programma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source>Supported device types by hardware station type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalstītie ierīču veidi pēc aparatūras stacijas veida</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai Windows ar IPC (iebūvētu) aparatūras staciju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalstītā ierīču klase</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalstītie interfeisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>Device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīce</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>Device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīce</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>Dual display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Duālais displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MJL (magnētiskās joslas lasītājs)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (Nav nepieciešama iestatīšana.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Svītrkoda/magnētiskās joslas nolasīšanas ierīce (Nav nepieciešama iestatīšana.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit logoport:updated-at="2019-06-10T14:24:57Z" xml:space="preserve" translate="yes" id="397">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme.<ept id="p1">&lt;/strong&gt;</ept> Ja naudas kastei ir konfigurēta opcija <bpt id="p2">&lt;strong&gt;</bpt>Lietot koplietoto maiņu<ept id="p2">&lt;/strong&gt;</ept>, var iestatīt tikai vienu naudas kasti.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2. dokumenta sastādītājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
+        <target logoport:matchpercent="90" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme.<ept id="p1">&lt;/strong&gt;</ept> Ja naudas kastei ir konfigurēta opcija <bpt id="p2">&lt;strong&gt;</bpt>Lietot koplietoto maiņu<ept id="p2">&lt;/strong&gt;</ept>, var iestatīt tikai vienu naudas kasti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (Nav nepieciešama iestatīšana.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svītrkoda/magnētiskās joslas nolasīšanas ierīce (Nav nepieciešama iestatīšana.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source>Scanner 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (Nav nepieciešama iestatīšana.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svītrkoda/magnētiskās joslas nolasīšanas ierīce (Nav nepieciešama iestatīšana.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN bloks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>OPOS (Support is provided through customization of the payment connector.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (Atbalsts tiek nodrošināts, pielāgojot maksājumu savienotāju.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraksta ieguve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgotu ierīču atbalsts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls (Papildinformāciju skatiet maksājumu savienotāja dokumentācijā.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi Modern POS klienti, kam ir atvēlēta IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja IIS aparatūras stacija ir atvēlēta, pastāv relācija viens pret vienu starp POS klientu un aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atbalstītā ierīču klase</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atbalstītie interfeisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>Printer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit logoport:updated-at="2019-06-10T14:25:44Z" xml:space="preserve" translate="yes" id="426">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme.<ept id="p1">&lt;/strong&gt;</ept> Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>Line display</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rindu displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>MSR</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">MJL (magnētiskās joslas lasītājs)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit logoport:updated-at="2019-06-10T14:26:18Z" xml:space="preserve" translate="yes" id="439">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme.<ept id="p1">&lt;/strong&gt;</ept> Ja naudas kastei ir konfigurēta opcija <bpt id="p2">&lt;strong&gt;</bpt>Lietot koplietoto maiņu<ept id="p2">&lt;/strong&gt;</ept>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. dokumenta sastādītājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>Scanner 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN bloks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source>OPOS (Support is provided through customization of the payment connector.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (Atbalsts tiek nodrošināts, pielāgojot maksājumu savienotāju.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>Sig.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraksta</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ieguve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgotu ierīču atbalsts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls (Papildinformāciju skatiet maksājumu savienotāja dokumentācijā.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>All Modern POS clients that have a shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi Modern POS klienti, kam ir koplietota IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source>When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja IIS aparatūras stacija ir koplietota, aparatūras stacija var tikt vienlaikus lietota vairākās ierīcēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source>For this scenario, you should use only the devices that are listed in the following table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā gadījumā drīkst lietot tikai ierīces, kas ir norādītas tālāk esošajā tabulā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source>If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja mēģināsit koplietot ierīces, kas nav norādītas šajā tabulā, piemēram, svītrkoda skenerus un MJL, kad vairākās ierīcēs tiks mēģināts pieprasīt vienu perifērijas ierīci, radīsies kļūdas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>In the future, such a configuration will be explicitly prevented.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turpmāk šāda konfigurācija netiks pieļauta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atbalstītā ierīču klase</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atbalstītie interfeisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Printer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source>
+        <target logoport:matchpercent="91" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme.<ept id="p1">&lt;/strong&gt;</ept> Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2. printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows draiveris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
+        <target logoport:matchpercent="91" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Piezīme.<ept id="p1">&lt;/strong&gt;</ept> Ja naudas kastei ir konfigurēta opcija <bpt id="p2">&lt;strong&gt;</bpt>Lietot koplietoto maiņu<ept id="p2">&lt;/strong&gt;</ept>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. dokumenta sastādītājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgotu ierīču atbalsts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkls (Papildinformāciju skatiet maksājumu savienotāja dokumentācijā.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>Configuration for supported scenarios</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atbalstīto scenāriju konfigurācija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source>For more information about how to create hardware profiles, see <bpt id="p1">[</bpt>Define and maintain channel clients, including registers and hardware stations<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā <bpt id="p1">[</bpt>Kanāla klientu, tostarp kases sistēmu un aparatūras staciju, definēšana un uzturēšana<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attiecībā uz Microsoft Dynamics 365 for Retail versiju 1611: vairs netiek lietots aparatūras staciju profils.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source>Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūti, kas iepriekš bija jāiestata aparatūras stacijas profilā, tagad ir ietverti pašā aparatūras stacijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS operētājsistēmai Windows ar IPC (iebūvētu) aparatūras staciju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source>This configuration is the most typical configuration for traditional, fixed POS registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī konfigurācija visbiežāk tiek lietota parasto stacionāro POS kases sistēmām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>For this scenario, the hardware profile information is mapped directly to the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā scenārijā aparatūras profila informācija tiek tieši kartēta ar kases sistēmu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>The EFT terminal number should also be set on the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arī EFT termināļa numurs ir jāiestata kases sistēmā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>Create a hardware profile where all the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>Map the hardware profile to the POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kartējiet aparatūras profilu ar POS kases sistēmu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet veida <bpt id="p1">**</bpt>Atvēlēts<ept id="p1">**</ept> aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source>A description is optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc izvēles ievadiet aprakstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source>You don't have to set any other properties on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav nepieciešams iestatīt nekādus citus aparatūras stacijas rekvizītus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source>All other required information, such as the hardware profile, will come from the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visa pārējā nepieciešama informācija, piemēram, aparatūras profils, tiks saņemta no kases sistēmas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Mazumtirdzniecības IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sadales grafiks<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sadales grafiku <bpt id="p1">**</bpt>1090<ept id="p1">**</ept>, lai jauno aparatūras profilu sinhronizētu ar veikalu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="500">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izpildīt tūlīt<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="501">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sadales grafiku <bpt id="p1">**</bpt>1040<ept id="p1">**</ept>, lai jauno aparatūras staciju sinhronizētu ar veikalu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="502">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izpildīt tūlīt<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="503">
+          <source>Install and activate Modern POS for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalējiet un aktivizējiet programmu Modern POS operētājsistēmai Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="504">
+          <source>Start Modern POS for Windows, and begin to use the connected peripheral devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Palaidiet programmu Modern POS operētājsistēmai Windows un sāciet lietot pievienotās perifērās ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="505">
+          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi Modern POS klienti, kam ir atvēlēta IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="506">
+          <source>This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo konfigurāciju var lietot visiem Modern POS klientiem, kam ir aparatūras stacija, kura tiek lietota tikai vienā POS kases sistēmā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="507">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="508">
+          <source>Create a hardware profile where all the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="509">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet veida <bpt id="p1">**</bpt>Atvēlēts<ept id="p1">**</ept> aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="510">
+          <source>On the dedicated hardware station, set the following properties:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atvēlētajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="511">
+          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Resursdatora nosaukums<ept id="p1">**</ept> — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="512">
+          <source>Cloud POS can resolve <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept> to determine the local computer where Cloud POS is running.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programma Cloud POS var atrisināt <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept>, lai noteiktu lokālo datoru, kurā tiek darbināta programma Cloud POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="513">
+          <source>However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču arī sertifikātā, kas ir nepieciešams, lai programmu Cloud POS savienotu pārī ar aparatūras staciju, ir jābūt norādītam datora nosaukumam “Localhost”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="514">
+          <source>To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai nepieļautu problēmas, ir ieteicams veikalam norādīt katras atvēlētās aparatūras stacijas instanci, ja tas ir nepieciešams.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="515">
+          <source>For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katras aparatūras stacijas resursdatora nosaukumam ir jābūt vienādam ar tā konkrētā datora nosaukumu, kurā tiks izvietota aparatūras stacija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="516">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ports<ept id="p1">**</ept> — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="517">
+          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aparatūras profils<ept id="p1">**</ept> — ja aparatūras stacijā nav nodrošināts aparatūras profils, tiek lietots kases sistēmai piešķirtais aparatūras profils.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="518">
+          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>EFT POS numurs<ept id="p1">**</ept> — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="519">
+          <source>This ID is provided by the credit card processor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo ID nodrošina kredītkaršu procesors.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="520">
+          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pakotnes nosaukums<ept id="p1">**</ept> — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="521">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Mazumtirdzniecības IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sadales grafiks<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="522">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sadales grafiku <bpt id="p1">**</bpt>1090<ept id="p1">**</ept>, lai jauno aparatūras profilu sinhronizētu ar veikalu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="523">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izpildīt tūlīt<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="524">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sadales grafiku <bpt id="p1">**</bpt>1040<ept id="p1">**</ept>, lai jauno aparatūras staciju sinhronizētu ar veikalu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="525">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izpildīt tūlīt<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="526">
+          <source>Install the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalējiet aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="527">
+          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet tēmā <bpt id="p1">[</bpt>Retail hardware station konfigurēšana un instalēšana<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="528">
+          <source>Install and activate Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalējiet un aktivizējiet programmu Modern POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="529">
+          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet rakstā <bpt id="p1">[</bpt>Retail Modern POS konfigurēšana un instalēšana<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="530">
+          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties programmā Modern POS un atlasiet vienumu <bpt id="p1">**</bpt>Veikt operācijas bez naudas kastes<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="531">
+          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sāciet operāciju <bpt id="p1">**</bpt>Pārvaldīt aparatūras stacijas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="532">
+          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Pārvaldīt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="533">
+          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas pārvaldības lapā iestatiet attiecīgo opciju, lai ieslēgtu aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="534">
+          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet izmantojamo aparatūras staciju un pēc tam noklikšķiniet uz <bpt id="p1">**</bpt>Savienot pārī<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="535">
+          <source>After the hardware station is paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad aparatūras stacija ir savienota pārī, noklikšķiniet uz <bpt id="p1">**</bpt>Aizvērt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="536">
+          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas atlases lapā noklikšķiniet uz nesen atlasītās aparatūras stacijas, lai to aktivizētu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="537">
+          <source>All Modern POS clients that have a shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visi Modern POS klienti, kam ir koplietota IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="538">
+          <source>This configuration can be used for all Modern POS clients that share hardware stations with other devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo konfigurāciju var lietot visiem Modern POS klientiem, kuros aparatūras stacijas tiek koplietotas ar citām ierīcēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="539">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="540">
+          <source>Create a hardware profile where the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet aparatūras profilu, kurā ir konfigurētas nepieciešamās perifērās ierīces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="541">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet veida <bpt id="p1">**</bpt>Koplietots<ept id="p1">**</ept> aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="542">
+          <source>On the shared hardware station, set the following properties:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="543">
+          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Resursdatora nosaukums<ept id="p1">**</ept> — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="544">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Text that will help identify the hardware station, such as <bpt id="p2">**</bpt>Returns<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Front of store<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> — teksts, kas palīdz identificēt aparatūras staciju, piemēram, <bpt id="p2">**</bpt>Atgriešanas darbības<ept id="p2">**</ept> vai <bpt id="p3">**</bpt>Veikala lete<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="545">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ports<ept id="p1">**</ept> — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="546">
+          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – For shared hardware stations, each hardware station should have a hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aparatūras profils<ept id="p1">**</ept> — katrai koplietotajai aparatūras stacijai ir nepieciešams aparatūras profils.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="547">
+          <source>Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras profilus var koplietot vairākās aparatūras stacijās, taču tiem ir jābūt kartētiem ar katru aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="548">
+          <source>In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turklāt ir ieteicams izmantot koplietotas darba maiņas, ja vairākās ierīcēs tiek lietota viena un tā pati aparatūras stacija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="549">
+          <source>To set up a shared shift, click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iestatītu koplietotu darba maiņu, noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS iestatīšana<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profili<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Aparatūras profili<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="550">
+          <source>For each shared hardware profile, select the cash drawer, and set the <bpt id="p1">**</bpt>Shared shift drawer<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katram koplietotajam aparatūras profilam atlasiet naudas kasti un iestatiet opcijas <bpt id="p1">**</bpt>Koplietojama maiņas naudas kaste<ept id="p1">**</ept> vērtību <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="551">
+          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>EFT POS numurs<ept id="p1">**</ept> — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="552">
+          <source>This ID is provided by the credit card processor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo ID nodrošina kredītkaršu procesors.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="553">
+          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pakotnes nosaukums<ept id="p1">**</ept> — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="554">
+          <source>Repeat steps 2 and 3 for each additional hardware station that is required in the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atkārtojiet 2. un 3. darbību ar katru papildu aparatūras staciju, kas ir nepieciešama veikalā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="555">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Mazumtirdzniecības IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sadales grafiks<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="556">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sadales grafiku <bpt id="p1">**</bpt>1090<ept id="p1">**</ept>, lai jauno aparatūras profilu sinhronizētu ar veikalu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="557">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izpildīt tūlīt<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="558">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sadales grafiku <bpt id="p1">**</bpt>1040<ept id="p1">**</ept>, lai jauno aparatūras staciju sinhronizētu ar veikalu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="559">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izpildīt tūlīt<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="560">
+          <source>Install the hardware station on each host computer that you set up in steps 2 and 3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalējiet aparatūras staciju katrā resursdatorā, ko iestatījāt, veicot 2. un 3. darbību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="561">
+          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet tēmā <bpt id="p1">[</bpt>Retail hardware station konfigurēšana un instalēšana<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="562">
+          <source>Install and activate Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalējiet un aktivizējiet programmu Modern POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="563">
+          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet rakstā <bpt id="p1">[</bpt>Retail Modern POS konfigurēšana un instalēšana<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="564">
+          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties programmā Modern POS un atlasiet vienumu <bpt id="p1">**</bpt>Veikt operācijas bez naudas kastes<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="565">
+          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sāciet operāciju <bpt id="p1">**</bpt>Pārvaldīt aparatūras stacijas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="566">
+          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Pārvaldīt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="567">
+          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas pārvaldības lapā iestatiet attiecīgo opciju, lai ieslēgtu aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="568">
+          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet izmantojamo aparatūras staciju un pēc tam noklikšķiniet uz <bpt id="p1">**</bpt>Savienot pārī<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="569">
+          <source>Repeat step 14 for each hardware station that Modern POS will use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atkārtojiet 14. darbību ar katru aparatūras staciju, kas tiks lietota programmā Modern POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="570">
+          <source>After all the required hardware stations are paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad visas nepieciešamās aparatūras stacijas ir savienotas pārī, noklikšķiniet uz <bpt id="p1">**</bpt>Aizvērt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="571">
+          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas atlases lapā noklikšķiniet uz nesen atlasītās aparatūras stacijas, lai to aktivizētu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="572">
+          <source>If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja ierīcēs bieži tiek lietotas dažādas aparatūras stacijas, ir ieteicams konfigurēt programmu Modern POS tā, lai, sākot norēķinu procesu, kasierim tiktu prasīts atlasīt aparatūras staciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="573">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Mazumtirdzniecība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS iestatīšana<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Reģistri<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="574">
+          <source>Select the register, and then set the <bpt id="p1">**</bpt>Select upon tender<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kases sistēmu un pēc tam iestatiet opcijas <bpt id="p1">**</bpt>Atlasīt norēķinu brīdī<ept id="p1">**</ept> vērtību <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="575">
+          <source>Use the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojiet sadales grafiku <bpt id="p1">**</bpt>1090<ept id="p1">**</ept>, lai sinhronizētu izmaiņas ar kanālu datu bāzi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="576">
+          <source>Extensibility</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paplašināmība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="577">
+          <source>For information about extensibility scenarios for the hardware station, see <bpt id="p1">[</bpt>Hardware Station extensibility<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informāciju par aparatūras stacijas paplašināmības scenārijiem skatiet tēmā <bpt id="p1">[</bpt>Aparatūras stacijas paplašināmība<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="578">
+          <source>Security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Drošība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="579">
+          <source>According to current security standards, the following settings should be used in a production environment:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saskaņā ar pašreizējiem drošības standartiem, ražošanas vidē ir jāizmanto tālāk norādītie iestatījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="580">
+          <source>The hardware station installer will automatically make these registry edits as part of the installation through self-service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijas instalēšanas programma automātiski veic šos reģistra labojumus instalācijas pašapkalpošanās ietvaros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="581">
+          <source>Secure Sockets Layer (SSL) should be disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir jāatspējo drošligzdu slāņa (SSL) protokols.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="582">
+          <source>Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Drīkst būt iespējota un tikt lietota tikai transporta slāņa drošības (TLS) protokola versija 1.2 (vai jaunākā pašlaik pieejamā versija).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="583">
+          <source>By default, SSL and all versions of TLS except TLS 1.2 are disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc noklusējuma ir atspējots SSL protokols un visas TLS protokola versijas, izņemot TLS 1.2.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="584">
+          <source>To edit or enable these values, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai rediģētu vai iespējotu šīs vērtības, veiciet tālāk norādītās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="585">
+          <source>Press the Windows logo key+R to open a <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nospiediet taustiņu kombināciju Windows logotipa taustiņš+R, lai atvērtu logu <bpt id="p1">**</bpt>Izpildīt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="586">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Atvērt<ept id="p1">**</ept> ievadiet <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept> un pēc tam noklikšķiniet uz <bpt id="p3">**</bpt>Labi<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="587">
+          <source>If a <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept> message box appears, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek parādīts ziņojuma lodziņš <bpt id="p1">**</bpt>Lietotāja konta kontrole<ept id="p1">**</ept> noklikšķiniet uz <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="588">
+          <source>In the <bpt id="p1">**</bpt>Registry Editor<ept id="p1">**</ept> window, navigate to <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logā <bpt id="p1">**</bpt>Reģistra redaktors<ept id="p1">**</ept> pārejiet uz ierakstu <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="589">
+          <source>The following keys have been automatically entered to allow for TLS 1.2 only:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir automātiski ievadītas tālāk norādītās atslēgas, lai atļautu tikai TLS 1.2 lietošanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="590">
+          <source>TLS 1.2Server:Enabled=1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:Enabled=1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="591">
+          <source>TLS 1.2Server:DisabledByDefault=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:DisabledByDefault=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="592">
+          <source>TLS 1.2Client:Enabled=1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:Enabled=1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="593">
+          <source>TLS 1.2Client:DisabledByDefault=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:DisabledByDefault=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="594">
+          <source>TLS 1.1Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="595">
+          <source>TLS 1.1Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="596">
+          <source>TLS 1.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="597">
+          <source>TLS 1.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="598">
+          <source>SSL 3.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="599">
+          <source>SSL 3.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="600">
+          <source>SSL 2.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="601">
+          <source>SSL 2.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="602">
+          <source>No additional network ports should be open, unless they are required for known, specified reasons.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nedrīkst būt atvērti nekādi papildu tīkla porti, ja vien tie nav nepieciešami zināmiem, norādītiem iemesliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="603">
+          <source>Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir jāatspējo krusteniskās izcelsmes resursu koplietošana, un ir jānorāda atļautās izcelsmes, kas tiek pieņemtas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="604">
+          <source>Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iegūtu sertifikātus, kas tiks izmantoti datoros, kuros tiek darbināta aparatūras stacija, drīkst izmantot tikai uzticamas sertificēšanas iestādes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="605">
+          <source>It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir ļoti svarīgi pārskatīt IIS drošības vadlīnijas un maksājumu karšu nozares (PCI) prasības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="606">
+          <source>Peripheral simulator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perifērijas simulators</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="607">
+          <source>For information, see <bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informāciju skatiet tēmā <bpt id="p1">[</bpt>Mazumtirdzniecības perifēro ierīču simulators<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="608">
+          <source>Microsoft-tested peripheral devices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korporācijas Microsoft pārbaudītas perifērijas ierīces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="609">
+          <source>IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC (iebūvētā) aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="610">
+          <source>The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC aparatūras staciju, kas ir iebūvēta programmā Modern POS operētājsistēmai Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="611">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="612">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="613">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="614">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="615">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="616">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="617">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="618">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="619">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="620">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="621">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="622">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="623">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="624">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="625">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="626">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="627">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="628">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="629">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="630">
+          <source>mPOP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="631">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="632">
+          <source>Connected via Bluetooth</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bluetooth savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="633">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="634">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="635">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="636">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">USB barošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="637">
+          <source>Bar code scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svītrkoda skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="638">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="639">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="640">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="641">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="642">
+          <source>Motorola</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="643">
+          <source>DS9208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="644">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="645">
+          <source>Honeywell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Honeywell</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="646">
+          <source>1900</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1900</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="647">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="648">
+          <source>Symbol</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Simbols</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="649">
+          <source>LS2208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="650">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="651">
+          <source>HP Integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="652">
+          <source>E1L07AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="653">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="654">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="655">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="656">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="657">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN bloks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="658">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="659">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="660">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="661">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="662">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="663">
+          <source>1000SE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="664">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="665">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="666">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="667">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="668">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="669">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="670">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="671">
+          <source>Equinox</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="672">
+          <source>L5300</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="673">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="674">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="675">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="676">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="677">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="678">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="679">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="680">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="681">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="682">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="683">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="684">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="685">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="686">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="687">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="688">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="689">
+          <source>mPOP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="690">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="691">
+          <source>Connected via Bluetooth</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bluetooth savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="692">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="693">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="694">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="695">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="696">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="697">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="698">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="699">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="700">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="701">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="702">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="703">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="704">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="705">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="706">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="707">
+          <source>HP integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="708">
+          <source>G6U79AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="709">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="710">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="711">
+          <source>M58DC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="712">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="713">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraksta ieguve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="714">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="715">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="716">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="717">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="718">
+          <source>Scriptel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="719">
+          <source>ST1550</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="720">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="721">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="722">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="723">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="724">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="725">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="726">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="727">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="728">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="729">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MJL (magnētiskās joslas lasītājs)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="730">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="731">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="732">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="733">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="734">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="735">
+          <source>21073075</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="736">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="737">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="738">
+          <source>21073062</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="739">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="740">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="741">
+          <source>IDRA-334133</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="742">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="743">
+          <source>Dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atvēlēta IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="744">
+          <source>The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot atvēlētu (nekoplietotu) IIS aparatūras staciju kopā ar programmām Modern POS operētājsistēmai Windows un Cloud POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="745">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="746">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="747">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="748">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="749">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="750">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="751">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="752">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="753">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="754">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="755">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="756">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="757">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="758">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="759">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="760">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="761">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="762">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="763">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="764">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="765">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="766">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">USB barošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="767">
+          <source>Bar code scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svītrkoda skeneris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="768">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="769">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="770">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="771">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="772">
+          <source>Motorola</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="773">
+          <source>DS9208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="774">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="775">
+          <source>Symbol</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Simbols</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="776">
+          <source>LS2208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="777">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="778">
+          <source>HP Integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="779">
+          <source>E1L07AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="780">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="781">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN bloks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="782">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="783">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="784">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="785">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="786">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="787">
+          <source>1000SE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="788">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="789">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="790">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="791">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="792">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="793">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="794">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="795">
+          <source>Equinox</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="796">
+          <source>L5300</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="797">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="798">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="799">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="800">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="801">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="802">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="803">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="804">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="805">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="806">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="807">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="808">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="809">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="810">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="811">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="812">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="813">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="814">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="815">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="816">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="817">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="818">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="819">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="820">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="821">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="822">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu displejs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="823">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="824">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="825">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="826">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="827">
+          <source>HP integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="828">
+          <source>G6U79AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="829">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="830">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="831">
+          <source>M58DC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="832">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="833">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraksta ieguve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="834">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="835">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="836">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="837">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="838">
+          <source>Scriptel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="839">
+          <source>ST1550</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="840">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="841">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mērogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="842">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="843">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="844">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="845">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="846">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="847">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="848">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="849">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MJL (magnētiskās joslas lasītājs)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="850">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="851">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="852">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="853">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="854">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="855">
+          <source>21073075</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="856">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="857">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="858">
+          <source>21073062</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="859">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="860">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="861">
+          <source>IDRA-334133</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="862">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="863">
+          <source>Shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietota IIS aparatūras stacija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="864">
+          <source>The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietotu IIS aparatūras staciju kopā ar programmām Modern POS operētājsistēmai Windows un Cloud POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="865">
+          <source>Only a printer, payment terminal, and cash drawer are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiek atbalstīts tikai printeris, maksājumu terminālis un naudas kaste.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="866">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="867">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="868">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="869">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="870">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="871">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="872">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="873">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="874">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="875">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="876">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="877">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="878">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="879">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="880">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="881">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="882">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="883">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="884">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="885">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="886">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="887">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">USB barošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="888">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="889">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="890">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="891">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="892">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="893">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="894">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="895">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="896">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="897">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="898">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="899">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="900">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="901">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="902">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ražotājs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="903">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="904">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="905">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komentāri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="906">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="907">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="908">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgot</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="909">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tīkla savienojums</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="910">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="911">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="912">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="913">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="914">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="915">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="916">
+          <source>Troubleshooting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Problēmu novēršana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="917">
+          <source>Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programma Modern POS var nodrošināt aparatūras stacijas noteikšanu atlases sarakstā, taču nevar nodrošināt savienošanu pārī</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="918">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Verify the following list of potential failure points:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Risinājums:<ept id="p1">**</ept> pārbaudiet tālāk sniegto iespējamo kļūmju sarakstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="919">
+          <source>The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sertifikāts, kas tiek izmantots datorā, kurā tiek darbināta aparatūras stacija, ir iestatīts kā uzticams datorā, kurā tiek darbināta programma Modern POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="920">
+          <source>To verify this setup, in a web browser, go to the following URL: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai pārbaudītu šo iestatījumu, tīmekļa pārlūkprogrammā dodieties uz šādu vietrādi URL: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="921">
+          <source>This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis URL izmanto programmu Ping, lai pārbaudītu, vai datoram var piekļūt, un pārlūkprogramma norāda, vai sertifikāts ir uzticams.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="922">
+          <source>(For example, in Internet Explorer, a lock icon appears in the address bar.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Piemēram, pārlūkprogrammā Internet Explorer adreses joslā tiek parādīta slēdzenes ikona.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="923">
+          <source>When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad noklikšķināt uz šīs ikona, pārlūkprogramma Internet Explorer pārbauda, vai sertifikāts pašlaik ir uzticams.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="924">
+          <source>You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat instalēt sertifikātu lokālajā datorā, skatot detalizētu informāciju par parādīto sertifikātu.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="925">
+          <source>On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datorā, kurā tiek darbināta aparatūras stacija, ugunsmūrī ir atvērts ports, kas tiks izmantots aparatūras stacijas darbībai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="926">
+          <source>The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacijā ir pareizi instalēta tirgotāja informācija, izmantojot rīku Instalēt tirgotāja informāciju, kas tiek palaists aparatūras stacijas instalēšanas programmas darbības beigās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="927">
+          <source>Modern POS can't detect the hardware station in its list for selection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programma Modern POS nevar nodrošināt aparatūras stacijas noteikšanu atlases sarakstā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="928">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Either of the following factors can cause this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Risinājums:<ept id="p1">**</ept> šo problēmu var izraisīt jebkurš no tālāk norādītajiem faktoriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="929">
+          <source>The hardware station hasn't been set up correctly in headquarters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūras stacija nav pareizi iestatīta galvenajā birojā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="930">
+          <source>Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojiet iepriekš šajā tēmā norādītās darbības, lai pārbaudītu, vai aparatūras stacijas profils un aparatūras stacija ir pareizi ievadīti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="931">
+          <source>The jobs haven't been run to update the channel configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav palaisti darbi, lai atjauninātu kanāla konfigurāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="932">
+          <source>In this case, run the 1070 job for channel configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā gadījumā palaidiet kanāla konfigurācijas darbu Nr. 1070.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="933">
+          <source>Modern POS doesn't reflect new cash drawer settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Modern POS nav atainoti jaunie naudas kastes iestatījumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="934">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Close the current batch.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Risinājums:<ept id="p1">**</ept> slēdziet pašreizējo partiju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="935">
+          <source>Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kastes izmaiņas netiek atjauninātas programmā Modern POS, līdz tiek slēgta pašreizējā partija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="936">
+          <source>Modern POS is reporting an issue with a retail peripheral</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Modern POS tiek ziņots problēmu ar mazumtirdzniecības perifēro ierīci</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="937">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Here are some typical causes of this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Risinājums:<ept id="p1">**</ept> tālāk ir norādīti daži izplatītākie gadījumi, kad rodas šī problēma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="938">
+          <source>Make sure that other device driver configuration utilities are closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārliecinieties, ka ir aizvērtas citas ierīču draiveru konfigurēšanas utilītas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="939">
+          <source>If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja šīs utilītas ir atvērtas, tās var traucēt ierīces pieprasīšanu programmā Modern POS vai aparatūras stacijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="940">
+          <source>If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja mazumtirdzniecības perifērā ierīce tiek koplietota vairākās POS ierīcēs, pārliecinieties, ka tā ir ietverta vienā no tālāk norādītajām kategorijām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="941">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudas kaste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="942">
+          <source>Receipt printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvīšu printeris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="943">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksājumu terminālis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="944">
+          <source>If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja perifērā ierīce nav ietverta nevienā no šīm kategorijām, aparatūras stacija nav paredzēta perifērās ierīces koplietošanai vairākās POS ierīcēs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="945">
+          <source>Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dažreiz ierīču draiveri var izraisīt vispārīgo vadības objektu (CCO) darbības traucējumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="946">
+          <source>If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja nesen ir instalēta kāda ierīce, taču tā nedarbojas pareizi vai ir radušās citas problēmas, šo problēmu bieži vien nav novērt, atkārtoti instalējot CCO.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="947">
+          <source>To download the CCOs, visit <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai lejupielādētu CCO, apmeklējiet vietni <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="948">
+          <source>If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja pārbaudes vai problēmu novēršanas laikā bieži veicat perifēro ierīču izmaiņas, iespējams, ir nepieciešams atiestatīt IIS, negaidot līdz automātiskai kešatmiņas atsvaidzināšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="949">
+          <source>To reset IIS, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai atiestatītu IIS, veiciet tālāk norādītās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="950">
+          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvēlnē <bpt id="p1">**</bpt>Sākt<ept id="p1">**</ept> ievadiet <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="951">
+          <source>In the search results, right-click <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Run as administrator<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meklēšanas rezultātos noklikšķiniet uz <bpt id="p1">**</bpt>Komandu uzvedne<ept id="p1">**</ept> un pēc tam noklikšķiniet uz <bpt id="p2">**</bpt>Palaist kā administratoram<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="952">
+          <source>In the <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept> window, type <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> and then press Enter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logā <bpt id="p1">**</bpt>Komandu uzvedne<ept id="p1">**</ept> ievadiet <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> un pēc tam nospiediet taustiņu Enter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="953">
+          <source>After IIS has restarted, restart Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc IIS restartēšanas restartējiet programmu Modern POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="954">
+          <source>While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja bieži veicat perifēro ierīču izmaiņas un arī bieži palaižat un izslēdzat POS klientu, iepriekšējās POS sesijas process dllhost var traucēt pašreizējo sesiju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="955">
+          <source>In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā gadījumā ierīce var būt nelietojama, līdz aizverat dinamisko saišu bibliotēku (DLL) resursu, kas nodrošina iepriekšējās sesijas pārvaldību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="956">
+          <source>To close the DLL host, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai aizvērtu DLL resursu, veiciet tālāk norādītās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="957">
+          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>Task manager<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvēlnē <bpt id="p1">**</bpt>Sākt<ept id="p1">**</ept> ievadiet <bpt id="p2">**</bpt>Uzdevumu pārvaldnieks<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="958">
+          <source>In the search results, click <bpt id="p1">**</bpt>Task manager<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meklēšanas rezultātu sarakstā noklikšķiniet uz <bpt id="p1">**</bpt>Uzdevumu pārvaldnieks<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="959">
+          <source>In Task manager, on the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> tab, click the column header that is labeled <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> to sort the table alphabetically by name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzdevumu pārvaldnieka cilnē <bpt id="p1">**</bpt>Detalizēta informācija<ept id="p1">**</ept> noklikšķiniet uz kolonnas virsraksta <bpt id="p2">**</bpt>Nosaukums<ept id="p2">**</ept>, lai sakārtotu tabulu alfabēta secībā pēc nosaukuma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="960">
+          <source>Scroll down until you find dllhost.exe.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ritiniet uz leju līdz failam dllhost.exe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="961">
+          <source>Select each DLL host, and then click <bpt id="p1">**</bpt>End task<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet katru DLL resursu un pēc tam noklikšķiniet uz <bpt id="p1">**</bpt>Beigt uzdevumu<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="962">
+          <source>After the DLL hosts have been closed, restart Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad DLL resursi ir aizvērti, restartējiet programmu Modern POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="963">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu resursi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="964">
+          <source><bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Retail perifērijas ierīču simulators<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,258 +1,699 @@
----
-title: Atribūti un atribūtu grupas
-description: Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus.
-author: ashishmsft
-manager: AnnBe
-ms.date: 04/28/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: asharchw
-ms.search.validFrom: 2018-03-30
-ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552721"
----
-# <a name="attributes-and-attribute-groups"></a><span data-ttu-id="4cffa-103">Atribūti un atribūtu grupas</span><span class="sxs-lookup"><span data-stu-id="4cffa-103">Attributes and attribute groups</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="4cffa-104">*Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk).</span><span class="sxs-lookup"><span data-stu-id="4cffa-104">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="4cffa-105">Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādiem mazumtirdzniecības elementiem, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-105">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="4cffa-106">Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-106">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="4cffa-107">Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-107">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
-
-<span data-ttu-id="4cffa-108">Piemēram, parastam televizoram var būt tālāk minētie atribūti.</span><span class="sxs-lookup"><span data-stu-id="4cffa-108">For example, a typical television product might have the following attributes.</span></span>
-
-| <span data-ttu-id="4cffa-109">Kategorija</span><span class="sxs-lookup"><span data-stu-id="4cffa-109">Category</span></span>   | <span data-ttu-id="4cffa-110">Atribūts</span><span class="sxs-lookup"><span data-stu-id="4cffa-110">Attribute</span></span>                | <span data-ttu-id="4cffa-111">Pieļaujamās vērtības</span><span class="sxs-lookup"><span data-stu-id="4cffa-111">Permissible values</span></span>          | <span data-ttu-id="4cffa-112">Noklusētā vērtība</span><span class="sxs-lookup"><span data-stu-id="4cffa-112">Default value</span></span> |
-|------------|--------------------------|-----------------------------|---------------|
-| <span data-ttu-id="4cffa-113">TV un Video</span><span class="sxs-lookup"><span data-stu-id="4cffa-113">TV & Video</span></span> | <span data-ttu-id="4cffa-114">Zīmols</span><span class="sxs-lookup"><span data-stu-id="4cffa-114">Brand</span></span>                    | <span data-ttu-id="4cffa-115">Jebkura derīga zīmola vērtība</span><span class="sxs-lookup"><span data-stu-id="4cffa-115">Any valid brand value</span></span>       | <span data-ttu-id="4cffa-116">Neviens</span><span class="sxs-lookup"><span data-stu-id="4cffa-116">None</span></span>          |
-| <span data-ttu-id="4cffa-117">TV</span><span class="sxs-lookup"><span data-stu-id="4cffa-117">TV</span></span>         | <span data-ttu-id="4cffa-118">Ekrāna izmērs</span><span class="sxs-lookup"><span data-stu-id="4cffa-118">Screen Size</span></span>              | <span data-ttu-id="4cffa-119">20–80 collas</span><span class="sxs-lookup"><span data-stu-id="4cffa-119">20–80 inches</span></span>                | <span data-ttu-id="4cffa-120">Neviens</span><span class="sxs-lookup"><span data-stu-id="4cffa-120">None</span></span>          |
-|            | <span data-ttu-id="4cffa-121">Vertikālā izšķirtspēja</span><span class="sxs-lookup"><span data-stu-id="4cffa-121">Vertical Resolution</span></span>      | <span data-ttu-id="4cffa-122">480i, 720p, 1080i, vai 1080p</span><span class="sxs-lookup"><span data-stu-id="4cffa-122">480i, 720p, 1080i, or 1080p</span></span> | <span data-ttu-id="4cffa-123">1080p</span><span class="sxs-lookup"><span data-stu-id="4cffa-123">1080p</span></span>         |
-|            | <span data-ttu-id="4cffa-124">Ekrāna atsvaidzes intensitāte</span><span class="sxs-lookup"><span data-stu-id="4cffa-124">Screen Refresh Rate</span></span>      | <span data-ttu-id="4cffa-125">60 Hz, 120 Hz, vai 240 Hz</span><span class="sxs-lookup"><span data-stu-id="4cffa-125">60hz, 120hz, or 240hz</span></span>       | <span data-ttu-id="4cffa-126">60 Hz</span><span class="sxs-lookup"><span data-stu-id="4cffa-126">60hz</span></span>          |
-|            | <span data-ttu-id="4cffa-127">HDMI ievades</span><span class="sxs-lookup"><span data-stu-id="4cffa-127">HDMI Inputs</span></span>              | <span data-ttu-id="4cffa-128">0–10</span><span class="sxs-lookup"><span data-stu-id="4cffa-128">0–10</span></span>                        | <span data-ttu-id="4cffa-129">3</span><span class="sxs-lookup"><span data-stu-id="4cffa-129">3</span></span>             |
-|            | <span data-ttu-id="4cffa-130">DVI ievades</span><span class="sxs-lookup"><span data-stu-id="4cffa-130">DVI Inputs</span></span>               | <span data-ttu-id="4cffa-131">0–10</span><span class="sxs-lookup"><span data-stu-id="4cffa-131">0–10</span></span>                        | <span data-ttu-id="4cffa-132">1</span><span class="sxs-lookup"><span data-stu-id="4cffa-132">1</span></span>             |
-|            | <span data-ttu-id="4cffa-133">Kompozītie ievadi</span><span class="sxs-lookup"><span data-stu-id="4cffa-133">Composite Inputs</span></span>         | <span data-ttu-id="4cffa-134">0–10</span><span class="sxs-lookup"><span data-stu-id="4cffa-134">0–10</span></span>                        | <span data-ttu-id="4cffa-135">2</span><span class="sxs-lookup"><span data-stu-id="4cffa-135">2</span></span>             |
-|            | <span data-ttu-id="4cffa-136">Komponentās ievades</span><span class="sxs-lookup"><span data-stu-id="4cffa-136">Component Inputs</span></span>         | <span data-ttu-id="4cffa-137">0–10</span><span class="sxs-lookup"><span data-stu-id="4cffa-137">0–10</span></span>                        | <span data-ttu-id="4cffa-138">1</span><span class="sxs-lookup"><span data-stu-id="4cffa-138">1</span></span>             |
-| <span data-ttu-id="4cffa-139">LCD</span><span class="sxs-lookup"><span data-stu-id="4cffa-139">LCD</span></span>        | <span data-ttu-id="4cffa-140">3D gatavs</span><span class="sxs-lookup"><span data-stu-id="4cffa-140">3D Ready</span></span>                 | <span data-ttu-id="4cffa-141">Jā vai Nē</span><span class="sxs-lookup"><span data-stu-id="4cffa-141">Yes or No</span></span>                   | <span data-ttu-id="4cffa-142">Jā</span><span class="sxs-lookup"><span data-stu-id="4cffa-142">Yes</span></span>           |
-|            | <span data-ttu-id="4cffa-143">3D iespējots</span><span class="sxs-lookup"><span data-stu-id="4cffa-143">3D Enabled</span></span>               | <span data-ttu-id="4cffa-144">Jā vai Nē</span><span class="sxs-lookup"><span data-stu-id="4cffa-144">Yes or No</span></span>                   | <span data-ttu-id="4cffa-145">Nav</span><span class="sxs-lookup"><span data-stu-id="4cffa-145">No</span></span>            |
-| <span data-ttu-id="4cffa-146">Plazmas</span><span class="sxs-lookup"><span data-stu-id="4cffa-146">Plasma</span></span>     | <span data-ttu-id="4cffa-147">Ekspluatācijas temperatūra no</span><span class="sxs-lookup"><span data-stu-id="4cffa-147">Operating Temp From</span></span>      | <span data-ttu-id="4cffa-148">32–110 grādiem</span><span class="sxs-lookup"><span data-stu-id="4cffa-148">32–110 degrees</span></span>              | <span data-ttu-id="4cffa-149">32</span><span class="sxs-lookup"><span data-stu-id="4cffa-149">32</span></span>            |
-|            | <span data-ttu-id="4cffa-150">Ekspluatācijas temperatūra līdz</span><span class="sxs-lookup"><span data-stu-id="4cffa-150">Operating Temp To</span></span>        | <span data-ttu-id="4cffa-151">32–110 grādiem</span><span class="sxs-lookup"><span data-stu-id="4cffa-151">32–110 degrees</span></span>              | <span data-ttu-id="4cffa-152">100</span><span class="sxs-lookup"><span data-stu-id="4cffa-152">100</span></span>           |
-| <span data-ttu-id="4cffa-153">Projekcijas</span><span class="sxs-lookup"><span data-stu-id="4cffa-153">Projection</span></span> | <span data-ttu-id="4cffa-154">Kineskopa garantija</span><span class="sxs-lookup"><span data-stu-id="4cffa-154">Projection Tube Warranty</span></span> | <span data-ttu-id="4cffa-155">6, 12, vai 18 mēneši</span><span class="sxs-lookup"><span data-stu-id="4cffa-155">6, 12, or 18 months</span></span>         | <span data-ttu-id="4cffa-156">12.</span><span class="sxs-lookup"><span data-stu-id="4cffa-156">12</span></span>            |
-|            | <span data-ttu-id="4cffa-157">\# kineskopu skaits</span><span class="sxs-lookup"><span data-stu-id="4cffa-157">\# of Projection Tubes</span></span>   | <span data-ttu-id="4cffa-158">1–5</span><span class="sxs-lookup"><span data-stu-id="4cffa-158">1–5</span></span>                         | <span data-ttu-id="4cffa-159">3</span><span class="sxs-lookup"><span data-stu-id="4cffa-159">3</span></span>             |
-
-## <a name="attributes-and-attribute-types"></a><span data-ttu-id="4cffa-160">Atribūti un to veidi</span><span class="sxs-lookup"><span data-stu-id="4cffa-160">Attributes and attribute types</span></span>
-
-<span data-ttu-id="4cffa-161">Atribūti ir balstīti uz *atribūtu veidiem*.</span><span class="sxs-lookup"><span data-stu-id="4cffa-161">Attributes are based on *attribute types*.</span></span> <span data-ttu-id="4cffa-162">Atribūta veids norāda datu veidu, ko var ievadīt noteiktam atribūtam.</span><span class="sxs-lookup"><span data-stu-id="4cffa-162">The attribute type identifies the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="4cffa-163">Programmatūrā Finance and Operations pašlaik tiek atbalstīti tālāk aprakstītie atribūtu veidi.</span><span class="sxs-lookup"><span data-stu-id="4cffa-163">Finance and Operations currently supports the following attribute types:</span></span>
-
-- <span data-ttu-id="4cffa-164">**Valūta** — šis veids atbalsta valūtas vērtību.</span><span class="sxs-lookup"><span data-stu-id="4cffa-164">**Currency** – This type supports a currency value.</span></span> <span data-ttu-id="4cffa-165">Tas var būt saistīts (var atbalstīt vērtību diapazonu) vai palikt atvērts.</span><span class="sxs-lookup"><span data-stu-id="4cffa-165">It can be bounded (that is, it can support a range of values), or it can be left open.</span></span>
-- <span data-ttu-id="4cffa-166">**DateTime** — šis veids atbalsta datuma un laika vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-166">**DateTime** – This type supports a date and time value.</span></span> <span data-ttu-id="4cffa-167">Tas var būt saistīts vai palikt atvērts.</span><span class="sxs-lookup"><span data-stu-id="4cffa-167">It can be bounded or left open.</span></span>
-- <span data-ttu-id="4cffa-168">**Decimāldaļa** — šis veids atbalsta skaitliskās vērtības, kas ietver decimāldaļskaitļus.</span><span class="sxs-lookup"><span data-stu-id="4cffa-168">**Decimal** – This type supports a numerical value that includes decimal places.</span></span> <span data-ttu-id="4cffa-169">Tas atbalsta arī mērvienības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-169">It also supports a unit of measure.</span></span> <span data-ttu-id="4cffa-170">Tas var būt saistīts vai palikt atvērts.</span><span class="sxs-lookup"><span data-stu-id="4cffa-170">It can be bounded or left open.</span></span>
-- <span data-ttu-id="4cffa-171">**Vesels skaitlis** — šis veids atbalsta skaitliskas vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-171">**Integer** – This type supports a numerical value.</span></span> <span data-ttu-id="4cffa-172">Tas atbalsta arī mērvienības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-172">It also supports a unit of measure.</span></span> <span data-ttu-id="4cffa-173">Tas var būt saistīts vai palikt atvērts.</span><span class="sxs-lookup"><span data-stu-id="4cffa-173">It can be bounded or left open.</span></span>
-- <span data-ttu-id="4cffa-174">**Teksts** — šis veids atbalsta teksta vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-174">**Text** – This type supports a text value.</span></span> <span data-ttu-id="4cffa-175">Tas atbalsta arī iepriekš definētu iespējamo vērtību kopu (jeb *uzskaitījumu*).</span><span class="sxs-lookup"><span data-stu-id="4cffa-175">It also supports a predefined set of possible values (that is, an *enumeration*).</span></span>
-- <span data-ttu-id="4cffa-176">**Būla** — šis veids atbalsta binārās vērtības (**true** vai **false**).</span><span class="sxs-lookup"><span data-stu-id="4cffa-176">**Boolean** – This type supports a binary value (**true** or **false**).</span></span>
-- <span data-ttu-id="4cffa-177">**Atsauce** — šis veids satur atsauces uz citiem atribūtiem.</span><span class="sxs-lookup"><span data-stu-id="4cffa-177">**Reference** – This type references other attributes.</span></span>
-
-### <a name="set-up-attribute-types-in-finance-and-operations"></a><span data-ttu-id="4cffa-178">Atribūtu veidu iestatīšana programmatūrā Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4cffa-178">Set up attribute types in Finance and Operations</span></span>
-
-1. <span data-ttu-id="4cffa-179">Pierakstieties programmatūras Finance and Operations uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-179">Sign in to the Finance and Operations back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-180">Dodieties uz **Preču informācijas pārvaldība** &gt; **Iestatīšana** &gt; **Kategorijas un atribūti** &gt; **Atribūtu veidi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-180">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute types**.</span></span>
-3. <span data-ttu-id="4cffa-181">Izveidojiet divus atribūtu veidus **Teksts**, iestatiet opcijai **Pamatlīdzekļu saraksts** vērtību **Jā** un pēc tam pievienojiet vērtību sarakstu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-181">Create two attribute types of the **Text** type, set the **Fixed list** option to **Yes**, and then add a list of values:</span></span>
-
-    - <span data-ttu-id="4cffa-182">Vienam atribūta veidam piešķiriet nosaukumu **Lēcu forma** un pievienojiet šādas vērtības: **Ovāla**, **Kvadrāta** un **Taisnstūra**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-182">Name one attribute type **Lens shape**, and add the following values: **Oval**, **Square**, and **Rectangle**.</span></span>
-    - <span data-ttu-id="4cffa-183">Otram atribūta veidam piešķiriet nosaukumu **Saulesbriļļu zīmols** un pievienojiet šādas vērtības: **Ray ban**, **Aviator** un **Oakley**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-183">Name the other attribute type **Sunglass brand**, and add the following values: **Ray ban**, **Aviator**, and **Oakley**.</span></span>
-
-![Atribūtu tipi](media/AttributeType.png)
-
-### <a name="set-up-an-attribute-in-finance-and-operations"></a><span data-ttu-id="4cffa-185">Atribūtu iestatīšana programmatūrā Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4cffa-185">Set up an attribute in Finance and Operations</span></span>
-
-1. <span data-ttu-id="4cffa-186">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-186">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-187">Dodieties uz **Preču informācijas pārvaldība** &gt; **Iestatīšana** &gt; **Kategorijas un atribūti** &gt; **Atribūti**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-187">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attributes**.</span></span>
-3. <span data-ttu-id="4cffa-188">Izveidojiet atribūtu ar nosaukumu **Lēcas**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-188">Create an attribute that is named **Lens**.</span></span>
-4. <span data-ttu-id="4cffa-189">Iestatiet laukam **Atribūta veids** vērtību **Lēcu forma**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-189">Set the **Attribute type** field to **Lens shape**.</span></span>
-
-![Atribūti](media/Attribute.png)
-
-## <a name="attribute-metadata"></a><span data-ttu-id="4cffa-191">Atribūta metadati</span><span class="sxs-lookup"><span data-stu-id="4cffa-191">Attribute metadata</span></span>
-
-<span data-ttu-id="4cffa-192">*Atribūta metadati* ļauj atlasīt opcijas, lai norādītu katra preces atribūta izturēšanos.</span><span class="sxs-lookup"><span data-stu-id="4cffa-192">*Attribute metadata* lets you select options to specify how the attributes for each product should behave.</span></span> <span data-ttu-id="4cffa-193">Piemēram, varat norādīt, vai atribūti ir obligāti, vai tos var izmantot meklēšanā un kā filtru.</span><span class="sxs-lookup"><span data-stu-id="4cffa-193">For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</span></span>
-
-<span data-ttu-id="4cffa-194">Mazumtirdzniecības precēm atribūtu metadatu iestatījumus var ignorēt kanāla līmenī.</span><span class="sxs-lookup"><span data-stu-id="4cffa-194">For retail products, the attribute metadata settings can be overridden at the channel level.</span></span> <span data-ttu-id="4cffa-195">Šī iespēja tiks apspriestas tālāk šajā tēmā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-195">This capability will be discussed later in this topic.</span></span>
-
-<span data-ttu-id="4cffa-196">Iespējams pamanījāt, ka lapā **Atribūti** ir ietvertas opcijas, kas ir saistītas ar atribūtu metadatiem.</span><span class="sxs-lookup"><span data-stu-id="4cffa-196">As you might notice, the **Attributes** page includes options that are related to attribute metadata.</span></span> <span data-ttu-id="4cffa-197">Sadaļā **Atribūtu metadati attiecībā uz POS** viena opcija, kam ir nosaukums **Var precizēt**, ietekmē atribūta vērtību izturēšanos mazumtirdzniecības pārdošanas punktā (POS) vai veidu, kā sistēma apstrādā šīs atribūta vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-197">Under **Attribute metadata for POS**, one option that is named **Can be refined** affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</span></span> <span data-ttu-id="4cffa-198">Tikai atribūti, kam opcijai **Var precizēt** var iestatīt vērtību **Jā**, parādīsies precizēšanai vai preču filtrēšanai mazumtirdzniecības POS.</span><span class="sxs-lookup"><span data-stu-id="4cffa-198">Only attributes for which you may set the **Can be refined** option to **Yes**, will show up for refinement or filtering of products in the retail POS.</span></span>
-
-<span data-ttu-id="4cffa-199">Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu opcijas.</span><span class="sxs-lookup"><span data-stu-id="4cffa-199">Here are the remaining attribute metadata options on the **Attributes** page:</span></span>
-
-- <span data-ttu-id="4cffa-200">Meklējams</span><span class="sxs-lookup"><span data-stu-id="4cffa-200">Searchable</span></span>
-- <span data-ttu-id="4cffa-201">Izgūstams</span><span class="sxs-lookup"><span data-stu-id="4cffa-201">Retrievable</span></span>
-- <span data-ttu-id="4cffa-202">Var veidot vaicājumu</span><span class="sxs-lookup"><span data-stu-id="4cffa-202">Can be queried</span></span>
-- <span data-ttu-id="4cffa-203">Kārtojams</span><span class="sxs-lookup"><span data-stu-id="4cffa-203">Sortable</span></span>
-- <span data-ttu-id="4cffa-204">Atļaut vairākas vērtības</span><span class="sxs-lookup"><span data-stu-id="4cffa-204">Allow multiple values</span></span>
-- <span data-ttu-id="4cffa-205">Ignorēt burtu reģistru un formatējumu</span><span class="sxs-lookup"><span data-stu-id="4cffa-205">Ignore case and format</span></span>
-- <span data-ttu-id="4cffa-206">Pilnīga atbilstība</span><span class="sxs-lookup"><span data-stu-id="4cffa-206">Complete match</span></span>
-
-<span data-ttu-id="4cffa-207">Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="4cffa-207">These options were originally intended to improve the search functionality for the online storefront.</span></span> <span data-ttu-id="4cffa-208">Lai gan Finance and Operations standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK).</span><span class="sxs-lookup"><span data-stu-id="4cffa-208">Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</span></span> <span data-ttu-id="4cffa-209">Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-209">Customers can use this SDK to put products into a search index of their choice.</span></span> <span data-ttu-id="4cffa-210">Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-210">Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</span></span> <span data-ttu-id="4cffa-211">Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.</span><span class="sxs-lookup"><span data-stu-id="4cffa-211">In that way, they can build an optimal index to make sure that they index only attributes that, *in their opinion*, should be indexed.</span></span>
-
-<span data-ttu-id="4cffa-212">Informāciju par šo pārējo opciju mērķi skatiet rakstā [SharePoint Server 2013 meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).</span><span class="sxs-lookup"><span data-stu-id="4cffa-212">For information about the purpose of these remaining options, see [Overview of the search schema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).</span></span>
-
-## <a name="filter-settings-for-attributes"></a><span data-ttu-id="4cffa-213">Atribūtu filtra iestatījumi</span><span class="sxs-lookup"><span data-stu-id="4cffa-213">Filter settings for attributes</span></span>
-
-<span data-ttu-id="4cffa-214">Atribūtu filtra iestatījumi ļauj definēt to, kā atribūtu filtri tiek rādīti mazumtirdzniecības POS.</span><span class="sxs-lookup"><span data-stu-id="4cffa-214">Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</span></span> <span data-ttu-id="4cffa-215">Lai piekļūtu atribūta filtra iestatījumiem, Finance and Operations lapā **Atribūti** atlasiet atribūtu un pēc tam darbību rūtī atlasiet **Filtra iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-215">To access the filter settings for an attribute, on the **Attributes** page in Finance and Operations, select the attribute, and then, on the Action Pane, select **Filter settings**.</span></span>
-
-<span data-ttu-id="4cffa-216">Lapa **Filtra rādīšanas preferences** ietver šādus laukus:</span><span class="sxs-lookup"><span data-stu-id="4cffa-216">The **Filter display preferences** page includes the following fields:</span></span>
-
-- <span data-ttu-id="4cffa-217">**Nosaukums** — pēc noklusējuma šis lauks ir iestatīts uz atribūta nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-217">**Name** – By default, this field is set to the name of the attribute.</span></span> <span data-ttu-id="4cffa-218">Tomēr vērtību var mainīt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-218">However, you can change the value.</span></span>
-- <span data-ttu-id="4cffa-219">**Rādīšanas opcija** — ir pieejamas tālāk uzskaitītās opcijas.</span><span class="sxs-lookup"><span data-stu-id="4cffa-219">**Display option** – The following options are available:</span></span>
-
-    - <span data-ttu-id="4cffa-220">**Viena vērtība** — opcija ir pieejama šādiem atribūtu veidiem: **Būla**, **Valūta**, **Decimāldaļa**, **Vesels skaitlis** un **Teksts**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-220">**Single value** – This option is available for the following attribute types: **Boolean**, **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="4cffa-221">Šī opcija ļauj klientā atlasīt vienu vērtību šiem atribūtiem precizēšanas nolūkā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-221">This option enables single value selection for these attributes in the client for refinement.</span></span>
-    - <span data-ttu-id="4cffa-222">**Vairākas vērtības** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa**, **Vesels skaitlis** un **Teksts**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-222">**Multi value** – This option is available for the following attribute types: **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="4cffa-223">Šī opcija ļauj klientā atlasīt vairākas vērtības šim atribūtam precizēšanas nolūkā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-223">This option enables multi-value selection for this attribute in the client for refinement.</span></span>
-
-- <span data-ttu-id="4cffa-224">**Rādīšanas vadība** — ir pieejamas tālāk uzskaitītās opcijas.</span><span class="sxs-lookup"><span data-stu-id="4cffa-224">**Display control** – The following options are available:</span></span>
-
-    - <span data-ttu-id="4cffa-225">**Saraksts** — šī opcija ir pieejama visiem atribūtu veidiem.</span><span class="sxs-lookup"><span data-stu-id="4cffa-225">**List** – This option is available for the all attribute types.</span></span>
-    - <span data-ttu-id="4cffa-226">**Diapazons** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-226">**Range** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-    - <span data-ttu-id="4cffa-227">**Slīdnis** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-227">**Slider** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-    - <span data-ttu-id="4cffa-228">**Slīdnis ar joslām** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-228">**Slider with bars** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-
-- <span data-ttu-id="4cffa-229">**Sliekšņa vērtība** — šis iestatījums ir nepieciešams, ja atlasījāt **Diapazons** kā displeja vadības veidu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-229">**Threshold value** – This setting is required if you selected **Range** as the display control type.</span></span> <span data-ttu-id="4cffa-230">Vērtības var definēt, kā atdalītāju izmantojot semikolu (;).</span><span class="sxs-lookup"><span data-stu-id="4cffa-230">You can define values by using a semicolon (;) as a delimiter.</span></span>
-
-    <span data-ttu-id="4cffa-231">Piemēram, izmantojot filtru **Iepakojuma tilpums**, sliekšņa vērtība var būt **10; 20; 50; 100; 200; 500; 1000; 5000**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-231">For example, for the filter like **Bag Volume**, a threshold value can be **10; 20; 50; 100; 200; 500; 1000; 5000**.</span></span> <span data-ttu-id="4cffa-232">Šajā gadījumā mazumtirdzniecības POS rādīs tālāk minētos diapazonus.</span><span class="sxs-lookup"><span data-stu-id="4cffa-232">In this case, the retail POS will show the following ranges.</span></span> <span data-ttu-id="4cffa-233">Diapazonus, kam nav preču, tiks parādīti pelēkoti.</span><span class="sxs-lookup"><span data-stu-id="4cffa-233">Any ranges that don't have any products in the result set will appear dimmed.</span></span>
-
-    - <span data-ttu-id="4cffa-234">Mazāk nekā 10</span><span class="sxs-lookup"><span data-stu-id="4cffa-234">Less than 10</span></span>
-    - <span data-ttu-id="4cffa-235">10–20</span><span class="sxs-lookup"><span data-stu-id="4cffa-235">10 – 20</span></span>
-    - <span data-ttu-id="4cffa-236">20–50</span><span class="sxs-lookup"><span data-stu-id="4cffa-236">20 – 50</span></span>
-    - <span data-ttu-id="4cffa-237">50–100</span><span class="sxs-lookup"><span data-stu-id="4cffa-237">50 – 100</span></span>
-    - <span data-ttu-id="4cffa-238">100–200</span><span class="sxs-lookup"><span data-stu-id="4cffa-238">100 – 200</span></span>
-    - <span data-ttu-id="4cffa-239">200–500</span><span class="sxs-lookup"><span data-stu-id="4cffa-239">200 – 500</span></span>
-    - <span data-ttu-id="4cffa-240">500 vai vairāk</span><span class="sxs-lookup"><span data-stu-id="4cffa-240">500 or more</span></span>
-
-![Atribūtu filtra iestatījumi](media/AttributeFilterSettings.PNG)
-
-## <a name="attribute-groups"></a><span data-ttu-id="4cffa-242">Atribūtu grupas</span><span class="sxs-lookup"><span data-stu-id="4cffa-242">Attribute groups</span></span>
-
-<span data-ttu-id="4cffa-243">Kad atribūti ir definēti, tos var piešķirt atribūtu grupām.</span><span class="sxs-lookup"><span data-stu-id="4cffa-243">After attributes have been defined, they can be assigned to attribute groups.</span></span> <span data-ttu-id="4cffa-244">*Atribūtu grupa* tiek lietota, lai grupētu atsevišķus komponenta vai apakškomponenta atribūtus preces konfigurēšanas modelī.</span><span class="sxs-lookup"><span data-stu-id="4cffa-244">An *attribute group* is used to group the individual attributes for a component or subcomponent in a product configuration model.</span></span> <span data-ttu-id="4cffa-245">Atribūtu varat iekļaut arī vairākās atribūtu grupās.</span><span class="sxs-lookup"><span data-stu-id="4cffa-245">An attribute can be included in more than one attribute group.</span></span> <span data-ttu-id="4cffa-246">Atribūtu grupas var palīdzēt lietotājiem konfigurēt preces, jo dažādas atlases tiek sakārtotas noteiktā kontekstā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-246">Attribute groups can help users configure products, because the various selections are arranged in a specific context.</span></span> <span data-ttu-id="4cffa-247">Atribūtu grupas varat no jauna piešķirt mazumtirdzniecības kategorijām vai kanāliem.</span><span class="sxs-lookup"><span data-stu-id="4cffa-247">Attribute groups can be assigned to retail categories or retail channels.</span></span>
-
-<span data-ttu-id="4cffa-248">Atribūtiem var iestatīt arī noklusējuma vērtības, kas tiek iekļautas atribūtu grupā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-248">You can also set default values for attributes that are included in an attribute group.</span></span> <span data-ttu-id="4cffa-249">Piemēram, pievienojiet atribūtu grupai krāsas atribūtu un atlasiet **Zila** kā atribūta noklusējuma vērtību.</span><span class="sxs-lookup"><span data-stu-id="4cffa-249">For example, you add an attribute for color to an attribute group and select **Blue** as the default attribute value.</span></span> <span data-ttu-id="4cffa-250">Šajā gadījumā, ja atribūtu grupa tiek pievienota mazumtirdzniecības precei, kas ietver krāsu kā vienu no tās atribūtiem, **Zils** parādās kā noklusējuma krāsa attiecīgajai precei.</span><span class="sxs-lookup"><span data-stu-id="4cffa-250">In this case, when the attribute group is added to a retail product that includes color as one of its attributes, **Blue** appears as the default color for that product.</span></span>
-
-![Atribūtu grupas](media/AttributeGroup.png)
-
-### <a name="create-an-attribute-group"></a><span data-ttu-id="4cffa-252">Izveidot atribūtu grupu</span><span class="sxs-lookup"><span data-stu-id="4cffa-252">Create an attribute group</span></span>
-
-1. <span data-ttu-id="4cffa-253">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-253">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-254">Dodieties uz **Preču informācijas pārvaldība** &gt; **Iestatīšana** &gt; **Kategorijas un atribūti** &gt; **Atribūtu grupas**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-254">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute groups**.</span></span>
-3. <span data-ttu-id="4cffa-255">Izveido atribūtu grupu ar nosaukumu **Modernas saulesbrilles**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-255">Create an attribute group that is named **Fashion Sunglasses**.</span></span>
-4. <span data-ttu-id="4cffa-256">Pievienojiet šādus atribūtus: **Lēcu forma** un **Saulesbriļļu zīmols**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-256">Add the following attributes: **Lens shape** and **Sunglass brand**.</span></span>
-
-### <a name="assign-attribute-groups-to-retail-categories"></a><span data-ttu-id="4cffa-257">Atribūtu grupu piešķiršana mazumtirdzniecības kategorijām</span><span class="sxs-lookup"><span data-stu-id="4cffa-257">Assign attribute groups to retail categories</span></span>
-
-<span data-ttu-id="4cffa-258">Vienu vai vairākas atribūtu grupas var saistīt ar kategoriju mezgliem šāda veida mazumtirdzniecības kategoriju hierarhijās: mazumtirdzniecības preču hierarhija, kanāla navigācijas kategoriju hierarhija un papildu preču kategoriju hierarhija.</span><span class="sxs-lookup"><span data-stu-id="4cffa-258">One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</span></span> <span data-ttu-id="4cffa-259">Kad preces ir sadalītas kategorijās, tās manto atribūtus, kas ir iekļauti atribūtu grupās.</span><span class="sxs-lookup"><span data-stu-id="4cffa-259">Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</span></span>
-
-![Mazumtirdzniecības preču hierarhija — preču atribūtu grupas](media/AGRetailProdHierarchy.PNG)
-
-<span data-ttu-id="4cffa-261">Izpildiet tālāk minētās darbības, lai piešķirtu atribūtu grupas kategorijām Retail preču hierarhijā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-261">Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</span></span>
-
-1. <span data-ttu-id="4cffa-262">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-262">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-263">Dodieties uz **Retail** &gt; **Kategoriju un preču pārvaldība** &gt; **Mazumtirdzniecības preču hierarhija**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-263">Go to **Retail** &gt; **Category and product management** &gt; **Retail product hierarchy**.</span></span>
-3. <span data-ttu-id="4cffa-264">Atlasiet **modes navigācijas hierarhiju**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-264">Select **Fashion navigation hierarchy**.</span></span>
-4. <span data-ttu-id="4cffa-265">Sadaļā **Vīriešu apģērbi** atlasiet kategoriju **Bikses**, kopsavilkuma cilnē atlasiet **Preču atribūtu grupas** un pēc tam pievienojiet atribūtu grupu ar nosaukumu **Vīriešu siksnas**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-265">Under **Menswear**, select the **Pants** category, and then, on the **Product attribute groups** FastTab, add an attribute group that is named **Men's belt**.</span></span>
-5. <span data-ttu-id="4cffa-266">Atlasiet kategoriju **Modernas saulesbrilles** un pārbaudiet jaunos atribūtu grupas **Modernas saulesbrilles** atribūtus, atlasot **Skatītu atribūtus**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-266">Select the **Fashion sunglasses** category, and verify the new attributes in the **Fashion Sunglasses** attribute group by selecting **View attributes**.</span></span>
-
-    <span data-ttu-id="4cffa-267">Atribūtu grupā jābūt parādītam jaunajam atribūtam **Lēcu forma** un **Saulesbriļļu zīmols**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-267">The attribute group should show the new **Lens shape** and **Sunglass brand** attributes.</span></span>
-
-6. <span data-ttu-id="4cffa-268">Sadaļā **Vīriešu apģērbi** atlasiet kategoriju **Bikses**, pārbaudiet atribūtu grupas **Vīriešu siksnas** atribūtus, atlasot **Skatīt atribūtus**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-268">Under **Menswear**, select the **Pants** category, and verify the attributes for the **Men's belt** attribute group by selecting **View attributes**.</span></span>
-
-    <span data-ttu-id="4cffa-269">Atribūtu grupā ir jārāda atribūti **Vīriešu siksnu zīmols**, **Siksnas audums** un **Siksnas lielums**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-269">The attribute group should show the **Men's belt brand**, **Belt fabric**, and **Belt size** attributes.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="4cffa-270">Šo procedūru var izmantot arī, lai piešķirtu atribūtu grupas kategorijām kanāla navigācijas kategoriju hierarhijā un papildu preču kategoriju hierarhijā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-270">This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</span></span> <span data-ttu-id="4cffa-271">2. darbībā izmantojiet tālāk norādītos navigācijas ceļus.</span><span class="sxs-lookup"><span data-stu-id="4cffa-271">In step 2, use the following navigation paths:</span></span>
->
-> - <span data-ttu-id="4cffa-272">**Retail** &gt; **Kategorijas un preču pārvaldība** &gt; **Kanāla navigācijas kategorijas**</span><span class="sxs-lookup"><span data-stu-id="4cffa-272">**Retail** &gt; **Category and product management** &gt; **Channel navigation categories**</span></span>
-> - <span data-ttu-id="4cffa-273">**Retail** &gt; **Kategorijas un preču pārvaldība** &gt; **Papildu preču kategorijas**</span><span class="sxs-lookup"><span data-stu-id="4cffa-273">**Retail** &gt; **Category and product management** &gt; **Supplemental product categories**</span></span>
-
-### <a name="assign-attribute-groups-to-retail-stores"></a><span data-ttu-id="4cffa-274">Atribūtu grupu piešķiršana mazumtirdzniecības veikaliem</span><span class="sxs-lookup"><span data-stu-id="4cffa-274">Assign attribute groups to retail stores</span></span>
-
-<span data-ttu-id="4cffa-275">Vienu vai vairākas atribūtu grupas var saistīt ar vienu vai vairākiem mazumtirdzniecības veikaliem mazumtirdzniecības veikalu hierarhijā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-275">One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</span></span> <span data-ttu-id="4cffa-276">Kad preces ir bagātinātas noteiktiem mazumtirdzniecības veikaliem, tās manto atribūtus, kas ir iekļauti atribūtu grupās.</span><span class="sxs-lookup"><span data-stu-id="4cffa-276">Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</span></span>
-
-1. <span data-ttu-id="4cffa-277">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-277">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-278">Dodieties uz **Retail** &gt; **Kanāla iestatīšana** &gt; **Kanālu kategorijas un preču atribūti**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-278">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
-3. <span data-ttu-id="4cffa-279">Atribūtu grupu piešķiršana Hjūstonas kanālam</span><span class="sxs-lookup"><span data-stu-id="4cffa-279">Assign attribute groups to the Houston channel:</span></span>
-
-    1. <span data-ttu-id="4cffa-280">Atlasiet kanālu **Hjūstona**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-280">Select the **Houston** channel.</span></span>
-    2. <span data-ttu-id="4cffa-281">Kopsavilkuma cilnē **Atribūtu grupa** atlasiet **Pievienot** un pēc tam laukā **Nosaukums** atlasiet **SharePointProvisionedProductAttributeGroup**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-281">On the **Attribute group** FastTab, select **Add**, and then, in the **Name** field, select **SharePointProvisionedProductAttributeGroup**.</span></span>
-    3. <span data-ttu-id="4cffa-282">Vēlreiz atlasiet **Pievienot** un pēc tam laukā **Nosaukums** atlasiet **Vīriešu siksnas**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-282">Select **Add** again, and then, in the **Name** field, select **Men's belt**.</span></span>
-    4. <span data-ttu-id="4cffa-283">Vēlreiz atlasiet **Pievienot** un pēc tam laukā **Nosaukums** atlasiet **Modernas saulesbrilles**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-283">Select **Add** again, and then, in the **Name** field, select **Fashion Sunglasses**.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="4cffa-284">Opcija ļauj norādīt, ka šim kanālam ir jāmanto atribūtu grupas no tā pamata kanāla hierarhijā.</span><span class="sxs-lookup"><span data-stu-id="4cffa-284">An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</span></span> <span data-ttu-id="4cffa-285">Ja opcijai **Mantot** iestatīsiet **Jā**, atvasinātā kanāla mezgls pārmantos atribūtu grupas un visus atribūtus no šīm atribūtu grupām.</span><span class="sxs-lookup"><span data-stu-id="4cffa-285">If you set the **Inherit** option to **Yes**, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</span></span>
-
-4. <span data-ttu-id="4cffa-286">Iespējiet atribūtus, tā, lai tie būtu pieejami kanālā Hjūstona, veicot tālāk minētās darbības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-286">Enable the attributes so that they are available in the Houston channel:</span></span>
-
-    1. <span data-ttu-id="4cffa-287">Darbību rūtī atlasiet **Atribūtu metadatu iestatīšana**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-287">On the Action Pane, select **Set attribute metadata**.</span></span>
-    2. <span data-ttu-id="4cffa-288">Atlasiet kategorijas mezglu **Mode** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-288">Select the **Fashion** category node, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-    3. <span data-ttu-id="4cffa-289">Atlasiet kategorijas mezglu **Modes aksesuāri**, atlasiet kategoriju **Modernas saulesbrilles** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-289">Select the **Fashion Accessories** category node, select the **Fashion Sunglasses** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-    4. <span data-ttu-id="4cffa-290">Atlasiet kategorijas mezglu **Vīriešu apģērbi**, atlasiet kategoriju **Bikses** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-290">Select the **Menswear** category node, select the **Pants** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-
-![Kanālu kategorijas un preču īpašības — atribūtu grupas](media/CCPAttrGrp.png)
-
-## <a name="overriding-attribute-values"></a><span data-ttu-id="4cffa-292">Atribūta vērtību ignorēšāna</span><span class="sxs-lookup"><span data-stu-id="4cffa-292">Overriding attribute values</span></span>
-
-<span data-ttu-id="4cffa-293">Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-293">The default values of attributes can be overridden for individual products at the product level.</span></span> <span data-ttu-id="4cffa-294">Atribūtu noklusējuma vērtības arī var ignorēt atsevišķām precēm noteiktos katalogos, kas ir paredzēti specifiskiem mazumtirdzniecības kanāliem.</span><span class="sxs-lookup"><span data-stu-id="4cffa-294">Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</span></span>
-
-### <a name="override-the-attribute-values-of-an-individual-product"></a><span data-ttu-id="4cffa-295">Atsevišķas preces atribūtu vērtību ignorēšana</span><span class="sxs-lookup"><span data-stu-id="4cffa-295">Override the attribute values of an individual product</span></span>
-
-1. <span data-ttu-id="4cffa-296">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-296">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-297">Dodieties uz **Retail** &gt; **Kategoriju un preču pārvaldība** &gt; **Izpildei nodotās preces pēc kategorijas**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-297">Go to **Retail** &gt; **Category and product management** &gt; **Released products by category**.</span></span>
-3. <span data-ttu-id="4cffa-298">Atlasiet kategoriju mezglu **Mode** &gt; **Modes aksesuāri** &gt; **Modernas saulesbrilles**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-298">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
-4. <span data-ttu-id="4cffa-299">Režģī atlasiet nepieciešamo preci.</span><span class="sxs-lookup"><span data-stu-id="4cffa-299">Select the required product in the grid.</span></span> <span data-ttu-id="4cffa-300">Pēc tam darbību rūts grupas **Iestatīšana** cilnē **Prece** atlasiet **Preces īpašības**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-300">Then, on the Action Pane, on the **Product** tab, in the **Set up** group, select **Product attributes**.</span></span>
-5. <span data-ttu-id="4cffa-301">Kreisajā rūtī atlasiet atribūtu un pēc tam labajā rūtī atjauniniet tā vērtību.</span><span class="sxs-lookup"><span data-stu-id="4cffa-301">Select an attribute in the left pane, and then update its value in the right pane.</span></span>
-
-![Preces detalizētas informācijas lapa — preču īpašību grupas](media/ProdDetailsProdAttrValues.png)
-
-### <a name="override-the-attribute-values-of-products-in-a-catalog"></a><span data-ttu-id="4cffa-303">Kataloga preču atribūtu vērtību ignorēšana</span><span class="sxs-lookup"><span data-stu-id="4cffa-303">Override the attribute values of products in a catalog</span></span>
-
-1. <span data-ttu-id="4cffa-304">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-304">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-305">Dodieties uz **Retail** &gt; **Kataloga pārvaldība** &gt; **Visi katalogi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-305">Go to **Retail** &gt; **Catalog management** &gt; **All catalogs**.</span></span>
-3. <span data-ttu-id="4cffa-306">Atlasiet katalogu **Fabrikam Base Catalog**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-306">Select the **Fabrikam Base Catalog** catalog.</span></span>
-4. <span data-ttu-id="4cffa-307">Atlasiet kategoriju mezglu **Mode** &gt; **Modes aksesuāri** &gt; **Modernas saulesbrilles**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-307">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
-5. <span data-ttu-id="4cffa-308">Kopsavilkuma cilnē **Preces** atlasiet vajadzīgo preci un pēc tam atlasiet **Atribūti** virs preču režģa.</span><span class="sxs-lookup"><span data-stu-id="4cffa-308">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
-6. <span data-ttu-id="4cffa-309">Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-309">On the following FastTabs, update the values of the required attributes:</span></span>
-
-    - <span data-ttu-id="4cffa-310">Koplietotie preces plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="4cffa-310">Shared product media</span></span>
-    - <span data-ttu-id="4cffa-311">Koplietotās preces īpašības</span><span class="sxs-lookup"><span data-stu-id="4cffa-311">Shared product attributes</span></span>
-    - <span data-ttu-id="4cffa-312">Kanāla plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="4cffa-312">Channel media</span></span>
-    - <span data-ttu-id="4cffa-313">Kanāla preces īpašības</span><span class="sxs-lookup"><span data-stu-id="4cffa-313">Channel product attributes</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="4cffa-314">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</span><span class="sxs-lookup"><span data-stu-id="4cffa-314">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
-
-![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
-
-### <a name="override-the-attribute-values-of-products-in-a-channel"></a><span data-ttu-id="4cffa-316">Kanāla preču atribūtu vērtību ignorēšana</span><span class="sxs-lookup"><span data-stu-id="4cffa-316">Override the attribute values of products in a channel</span></span>
-
-1. <span data-ttu-id="4cffa-317">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-317">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="4cffa-318">Dodieties uz **Retail** &gt; **Kanāla iestatīšana** &gt; **Kanālu kategorijas un preču atribūti**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-318">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
-3. <span data-ttu-id="4cffa-319">Atlasiet kanālu **Hjūstona**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-319">Select the **Houston** channel.</span></span>
-4. <span data-ttu-id="4cffa-320">Kopsavilkuma cilnē **Preces** atlasiet vajadzīgo preci un pēc tam atlasiet **Atribūti** virs preču režģa.</span><span class="sxs-lookup"><span data-stu-id="4cffa-320">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="4cffa-321">Ja neviena prece nav pieejama, pievienojiet preces kopsavilkuma cilnē **Preces** atlasot **Pievienot** un pēc tam dialoglodziņā **Preču pievienošana** atlasot vēlamās preces.</span><span class="sxs-lookup"><span data-stu-id="4cffa-321">If no products are available, add products by selecting **Add** on the **Products** FastTab and then selecting the required products in the **Add products** dialog box.</span></span>
-
-5. <span data-ttu-id="4cffa-322">Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.</span><span class="sxs-lookup"><span data-stu-id="4cffa-322">On the following FastTabs, update the values of the required attributes:</span></span>
-
-    - <span data-ttu-id="4cffa-323">Koplietotie preces plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="4cffa-323">Shared product media</span></span>
-    - <span data-ttu-id="4cffa-324">Koplietotās preces īpašības</span><span class="sxs-lookup"><span data-stu-id="4cffa-324">Shared product attributes</span></span>
-    - <span data-ttu-id="4cffa-325">Kanāla plašsaziņas līdzekļi</span><span class="sxs-lookup"><span data-stu-id="4cffa-325">Channel media</span></span>
-    - <span data-ttu-id="4cffa-326">Kanāla preces īpašības</span><span class="sxs-lookup"><span data-stu-id="4cffa-326">Channel product attributes</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="4cffa-327">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</span><span class="sxs-lookup"><span data-stu-id="4cffa-327">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="attribute-attributegroups-lifecycle.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>attribute-attributegroups-lifecycle.90dcb9.7c722c311048258ce75170ac4276d397fe2828fe.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>7c722c311048258ce75170ac4276d397fe2828fe</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\attribute-attributegroups-lifecycle.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Attributes and attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūti un atribūtu grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes how to use attributes to provide a way to describe a product and its characteristics through user-defined fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Attributes and attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūti un atribūtu grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source><bpt id="p1">*</bpt>Attributes<ept id="p1">*</ept> provide a way to further describe a product and its characteristics through user-defined fields (such as <bpt id="p2">**</bpt>Memory size<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Hard disk capacity<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Is Energy star compliant<ept id="p4">**</ept>, and so on).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Atribūti<ept id="p1">*</ept> nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, <bpt id="p2">**</bpt>Atmiņas lielums<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Cietā diska apjoms<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Ir saderīgs ar Energy Star<ept id="p4">**</ept> un tā tālāk).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādiem mazumtirdzniecības elementiem, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>For example, a typical television product might have the following attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, parastam televizoram var būt tālāk minētie atribūti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Category</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kategorija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Attribute</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Permissible values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pieļaujamās vērtības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Default value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklusētā vērtība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>TV &amp; Video</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TV un Video</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Brand</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zīmols</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Any valid brand value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jebkura derīga zīmola vērtība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>None</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neviens</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>TV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Screen Size</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekrāna izmērs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>20–80 inches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20–80 collas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>None</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neviens</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Vertical Resolution</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vertikālā izšķirtspēja</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>480i, 720p, 1080i, or 1080p</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">480i, 720p, 1080i, vai 1080p</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>1080p</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1080p</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Screen Refresh Rate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekrāna atsvaidzes intensitāte</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>60hz, 120hz, or 240hz</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60 Hz, 120 Hz, vai 240 Hz</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>60hz</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60 Hz</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>HDMI Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HDMI ievades</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>DVI Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DVI ievades</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Composite Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kompozītie ievadi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Component Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komponentās ievades</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>LCD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>3D Ready</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D gatavs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Yes or No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā vai Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>3D Enabled</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D iespējots</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Yes or No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jā vai Nē</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Plasma</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plazmas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Operating Temp From</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekspluatācijas temperatūra no</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>32–110 degrees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 grādiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>32</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Operating Temp To</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekspluatācijas temperatūra līdz</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>32–110 degrees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 grādiem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>100</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Projection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Projekcijas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Projection Tube Warranty</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kineskopa garantija</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>6, 12, or 18 months</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6, 12, vai 18 mēneši</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><ph id="ph1">\#</ph> of Projection Tubes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\#</ph> kineskopu skaits</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>1–5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1–5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Attributes and attribute types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūti un to veidi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Attributes are based on <bpt id="p1">*</bpt>attribute types<ept id="p1">*</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūti ir balstīti uz <bpt id="p1">*</bpt>atribūtu veidiem<ept id="p1">*</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>The attribute type identifies the type of data that can be entered for a specific attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūta veids norāda datu veidu, ko var ievadīt noteiktam atribūtam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Finance and Operations currently supports the following attribute types:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programmatūrā Finance and Operations pašlaik tiek atbalstīti tālāk aprakstītie atribūtu veidi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> – This type supports a currency value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Valūta<ept id="p1">**</ept> — šis veids atbalsta valūtas vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>It can be bounded (that is, it can support a range of values), or it can be left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas var būt saistīts (var atbalstīt vērtību diapazonu) vai palikt atvērts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> – This type supports a date and time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> — šis veids atbalsta datuma un laika vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas var būt saistīts vai palikt atvērts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">**</bpt>Decimal<ept id="p1">**</ept> – This type supports a numerical value that includes decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Decimāldaļa<ept id="p1">**</ept> — šis veids atbalsta skaitliskās vērtības, kas ietver decimāldaļskaitļus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>It also supports a unit of measure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas atbalsta arī mērvienības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas var būt saistīts vai palikt atvērts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source><bpt id="p1">**</bpt>Integer<ept id="p1">**</ept> – This type supports a numerical value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vesels skaitlis<ept id="p1">**</ept> — šis veids atbalsta skaitliskas vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>It also supports a unit of measure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas atbalsta arī mērvienības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas var būt saistīts vai palikt atvērts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">**</bpt>Text<ept id="p1">**</ept> – This type supports a text value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Teksts<ept id="p1">**</ept> — šis veids atbalsta teksta vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>It also supports a predefined set of possible values (that is, an <bpt id="p1">*</bpt>enumeration<ept id="p1">*</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas atbalsta arī iepriekš definētu iespējamo vērtību kopu (jeb <bpt id="p1">*</bpt>uzskaitījumu<ept id="p1">*</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source><bpt id="p1">**</bpt>Boolean<ept id="p1">**</ept> – This type supports a binary value (<bpt id="p2">**</bpt>true<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Būla<ept id="p1">**</ept> — šis veids atbalsta binārās vērtības (<bpt id="p2">**</bpt>true<ept id="p2">**</ept> vai <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> – This type references other attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Atsauce<ept id="p1">**</ept> — šis veids satur atsauces uz citiem atribūtiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Set up attribute types in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu veidu iestatīšana programmatūrā Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Sign in to the Finance and Operations back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties programmatūras Finance and Operations uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute types<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Preču informācijas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategorijas un atribūti<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Atribūtu veidi<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Create two attribute types of the <bpt id="p1">**</bpt>Text<ept id="p1">**</ept> type, set the <bpt id="p2">**</bpt>Fixed list<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>, and then add a list of values:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet divus atribūtu veidus <bpt id="p1">**</bpt>Teksts<ept id="p1">**</ept>, iestatiet opcijai <bpt id="p2">**</bpt>Pamatlīdzekļu saraksts<ept id="p2">**</ept> vērtību <bpt id="p3">**</bpt>Jā<ept id="p3">**</ept> un pēc tam pievienojiet vērtību sarakstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Name one attribute type <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Oval<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Square<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Rectangle<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienam atribūta veidam piešķiriet nosaukumu <bpt id="p1">**</bpt>Lēcu forma<ept id="p1">**</ept> un pievienojiet šādas vērtības: <bpt id="p2">**</bpt>Ovāla<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Kvadrāta<ept id="p3">**</ept> un <bpt id="p4">**</bpt>Taisnstūra<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Name the other attribute type <bpt id="p1">**</bpt>Sunglass brand<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otram atribūta veidam piešķiriet nosaukumu <bpt id="p1">**</bpt>Saulesbriļļu zīmols<ept id="p1">**</ept> un pievienojiet šādas vērtības: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept> un <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Attribute types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu tipi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Set up an attribute in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu iestatīšana programmatūrā Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attributes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Preču informācijas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategorijas un atribūti<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Atribūti<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create an attribute that is named <bpt id="p1">**</bpt>Lens<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet atribūtu ar nosaukumu <bpt id="p1">**</bpt>Lēcas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Set the <bpt id="p1">**</bpt>Attribute type<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Lens shape<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet laukam <bpt id="p1">**</bpt>Atribūta veids<ept id="p1">**</ept> vērtību <bpt id="p2">**</bpt>Lēcu forma<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Attribute metadata</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūta metadati</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">*</bpt>Attribute metadata<ept id="p1">*</ept> lets you select options to specify how the attributes for each product should behave.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Atribūta metadati<ept id="p1">*</ept> ļauj atlasīt opcijas, lai norādītu katra preces atribūta izturēšanos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, varat norādīt, vai atribūti ir obligāti, vai tos var izmantot meklēšanā un kā filtru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>For retail products, the attribute metadata settings can be overridden at the channel level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mazumtirdzniecības precēm atribūtu metadatu iestatījumus var ignorēt kanāla līmenī.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>This capability will be discussed later in this topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī iespēja tiks apspriestas tālāk šajā tēmā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>As you might notice, the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page includes options that are related to attribute metadata.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iespējams pamanījāt, ka lapā <bpt id="p1">**</bpt>Atribūti<ept id="p1">**</ept> ir ietvertas opcijas, kas ir saistītas ar atribūtu metadatiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Under <bpt id="p1">**</bpt>Attribute metadata for POS<ept id="p1">**</ept>, one option that is named <bpt id="p2">**</bpt>Can be refined<ept id="p2">**</ept> affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sadaļā <bpt id="p1">**</bpt>Atribūtu metadati attiecībā uz POS<ept id="p1">**</ept> viena opcija, kam ir nosaukums <bpt id="p2">**</bpt>Var precizēt<ept id="p2">**</ept>, ietekmē atribūta vērtību izturēšanos mazumtirdzniecības pārdošanas punktā (POS) vai veidu, kā sistēma apstrādā šīs atribūta vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Only attributes for which you may set the <bpt id="p1">**</bpt>Can be refined<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, will show up for refinement or filtering of products in the retail POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tikai atribūti, kam opcijai <bpt id="p1">**</bpt>Var precizēt<ept id="p1">**</ept> var iestatīt vērtību <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>, parādīsies precizēšanai vai preču filtrēšanai mazumtirdzniecības POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Here are the remaining attribute metadata options on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir sniegtas pārējās lapā <bpt id="p1">**</bpt>Atribūti<ept id="p1">**</ept> pieejamās atribūtu metadatu opcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Searchable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meklējams</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Retrievable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izgūstams</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Can be queried</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Var veidot vaicājumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Sortable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kārtojams</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Allow multiple values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atļaut vairākas vērtības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Ignore case and format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ignorēt burtu reģistru un formatējumu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Complete match</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pilnīga atbilstība</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>These options were originally intended to improve the search functionality for the online storefront.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai gan Finance and Operations standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Customers can use this SDK to put products into a search index of their choice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In that way, they can build an optimal index to make sure that they index only attributes that, <bpt id="p1">*</bpt>in their opinion<ept id="p1">*</ept>, should be indexed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, <bpt id="p1">*</bpt>viņuprāt<ept id="p1">*</ept>, ir jāindeksē.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>For information about the purpose of these remaining options, see <bpt id="p1">[</bpt>Overview of the search schema in SharePoint Server 2013<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informāciju par šo pārējo opciju mērķi skatiet rakstā <bpt id="p1">[</bpt>SharePoint Server 2013 meklēšanas shēmas apskats<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Filter settings for attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu filtra iestatījumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu filtra iestatījumi ļauj definēt to, kā atribūtu filtri tiek rādīti mazumtirdzniecības POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>To access the filter settings for an attribute, on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page in Finance and Operations, select the attribute, and then, on the Action Pane, select <bpt id="p2">**</bpt>Filter settings<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai piekļūtu atribūta filtra iestatījumiem, Finance and Operations lapā <bpt id="p1">**</bpt>Atribūti<ept id="p1">**</ept> atlasiet atribūtu un pēc tam darbību rūtī atlasiet <bpt id="p2">**</bpt>Filtra iestatījumi<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>The <bpt id="p1">**</bpt>Filter display preferences<ept id="p1">**</ept> page includes the following fields:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapa <bpt id="p1">**</bpt>Filtra rādīšanas preferences<ept id="p1">**</ept> ietver šādus laukus:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – By default, this field is set to the name of the attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nosaukums<ept id="p1">**</ept> — pēc noklusējuma šis lauks ir iestatīts uz atribūta nosaukumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>However, you can change the value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tomēr vērtību var mainīt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source><bpt id="p1">**</bpt>Display option<ept id="p1">**</ept> – The following options are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Rādīšanas opcija<ept id="p1">**</ept> — ir pieejamas tālāk uzskaitītās opcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source><bpt id="p1">**</bpt>Single value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Boolean<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Decimal<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Integer<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Text<ept id="p6">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Viena vērtība<ept id="p1">**</ept> — opcija ir pieejama šādiem atribūtu veidiem: <bpt id="p2">**</bpt>Būla<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Valūta<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Decimāldaļa<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Vesels skaitlis<ept id="p5">**</ept> un <bpt id="p6">**</bpt>Teksts<ept id="p6">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>This option enables single value selection for these attributes in the client for refinement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī opcija ļauj klientā atlasīt vienu vērtību šiem atribūtiem precizēšanas nolūkā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source><bpt id="p1">**</bpt>Multi value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Text<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vairākas vērtības<ept id="p1">**</ept> — opcija ir pieejama šādiem atribūtu veidiem: <bpt id="p2">**</bpt>Valūta<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimāldaļa<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Vesels skaitlis<ept id="p4">**</ept> un <bpt id="p5">**</bpt>Teksts<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>This option enables multi-value selection for this attribute in the client for refinement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī opcija ļauj klientā atlasīt vairākas vērtības šim atribūtam precizēšanas nolūkā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source><bpt id="p1">**</bpt>Display control<ept id="p1">**</ept> – The following options are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Rādīšanas vadība<ept id="p1">**</ept> — ir pieejamas tālāk uzskaitītās opcijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source><bpt id="p1">**</bpt>List<ept id="p1">**</ept> – This option is available for the all attribute types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Saraksts<ept id="p1">**</ept> — šī opcija ir pieejama visiem atribūtu veidiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source><bpt id="p1">**</bpt>Range<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Diapazons<ept id="p1">**</ept> — opcija ir pieejama šādiem atribūtu veidiem: <bpt id="p2">**</bpt>Valūta<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimāldaļa<ept id="p3">**</ept> un <bpt id="p4">**</bpt>Vesels skaitlis<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source><bpt id="p1">**</bpt>Slider<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Slīdnis<ept id="p1">**</ept> — opcija ir pieejama šādiem atribūtu veidiem: <bpt id="p2">**</bpt>Valūta<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimāldaļa<ept id="p3">**</ept> un <bpt id="p4">**</bpt>Vesels skaitlis<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source><bpt id="p1">**</bpt>Slider with bars<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Slīdnis ar joslām<ept id="p1">**</ept> — opcija ir pieejama šādiem atribūtu veidiem: <bpt id="p2">**</bpt>Valūta<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimāldaļa<ept id="p3">**</ept> un <bpt id="p4">**</bpt>Vesels skaitlis<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source><bpt id="p1">**</bpt>Threshold value<ept id="p1">**</ept> – This setting is required if you selected <bpt id="p2">**</bpt>Range<ept id="p2">**</ept> as the display control type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sliekšņa vērtība<ept id="p1">**</ept> — šis iestatījums ir nepieciešams, ja atlasījāt <bpt id="p2">**</bpt>Diapazons<ept id="p2">**</ept> kā displeja vadības veidu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>You can define values by using a semicolon (;) as a delimiter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vērtības var definēt, kā atdalītāju izmantojot semikolu (;).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>For example, for the filter like <bpt id="p1">**</bpt>Bag Volume<ept id="p1">**</ept>, a threshold value can be <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, izmantojot filtru <bpt id="p1">**</bpt>Iepakojuma tilpums<ept id="p1">**</ept>, sliekšņa vērtība var būt <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>In this case, the retail POS will show the following ranges.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā gadījumā mazumtirdzniecības POS rādīs tālāk minētos diapazonus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Any ranges that don't have any products in the result set will appear dimmed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diapazonus, kam nav preču, tiks parādīti pelēkoti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Less than 10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mazāk nekā 10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>10 – 20</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10–20</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>20 – 50</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20–50</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>50 – 100</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">50–100</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>100 – 200</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100–200</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>200 – 500</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">200–500</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>500 or more</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">500 vai vairāk</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Attribute filter settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu filtra iestatījumi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>After attributes have been defined, they can be assigned to attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad atribūti ir definēti, tos var piešķirt atribūtu grupām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>An <bpt id="p1">*</bpt>attribute group<ept id="p1">*</ept> is used to group the individual attributes for a component or subcomponent in a product configuration model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Atribūtu grupa<ept id="p1">*</ept> tiek lietota, lai grupētu atsevišķus komponenta vai apakškomponenta atribūtus preces konfigurēšanas modelī.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>An attribute can be included in more than one attribute group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu varat iekļaut arī vairākās atribūtu grupās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Attribute groups can help users configure products, because the various selections are arranged in a specific context.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupas var palīdzēt lietotājiem konfigurēt preces, jo dažādas atlases tiek sakārtotas noteiktā kontekstā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Attribute groups can be assigned to retail categories or retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupas varat no jauna piešķirt mazumtirdzniecības kategorijām vai kanāliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>You can also set default values for attributes that are included in an attribute group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtiem var iestatīt arī noklusējuma vērtības, kas tiek iekļautas atribūtu grupā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>For example, you add an attribute for color to an attribute group and select <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> as the default attribute value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, pievienojiet atribūtu grupai krāsas atribūtu un atlasiet <bpt id="p1">**</bpt>Zila<ept id="p1">**</ept> kā atribūta noklusējuma vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In this case, when the attribute group is added to a retail product that includes color as one of its attributes, <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> appears as the default color for that product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā gadījumā, ja atribūtu grupa tiek pievienota mazumtirdzniecības precei, kas ietver krāsu kā vienu no tās atribūtiem, <bpt id="p1">**</bpt>Zils<ept id="p1">**</ept> parādās kā noklusējuma krāsa attiecīgajai precei.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Create an attribute group</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidot atribūtu grupu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute groups<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Preču informācijas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategorijas un atribūti<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Atribūtu grupas<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Create an attribute group that is named <bpt id="p1">**</bpt>Fashion Sunglasses<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveido atribūtu grupu ar nosaukumu <bpt id="p1">**</bpt>Modernas saulesbrilles<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Add the following attributes: <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pievienojiet šādus atribūtus: <bpt id="p1">**</bpt>Lēcu forma<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Saulesbriļļu zīmols<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Assign attribute groups to retail categories</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupu piešķiršana mazumtirdzniecības kategorijām</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienu vai vairākas atribūtu grupas var saistīt ar kategoriju mezgliem šāda veida mazumtirdzniecības kategoriju hierarhijās: mazumtirdzniecības preču hierarhija, kanāla navigācijas kategoriju hierarhija un papildu preču kategoriju hierarhija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad preces ir sadalītas kategorijās, tās manto atribūtus, kas ir iekļauti atribūtu grupās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Retail product hierarchy – Product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mazumtirdzniecības preču hierarhija — preču atribūtu grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izpildiet tālāk minētās darbības, lai piešķirtu atribūtu grupas kategorijām Retail preču hierarhijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail product hierarchy<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kategoriju un preču pārvaldība<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Mazumtirdzniecības preču hierarhija<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Select <bpt id="p1">**</bpt>Fashion navigation hierarchy<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>modes navigācijas hierarhiju<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Product attribute groups<ept id="p3">**</ept> FastTab, add an attribute group that is named <bpt id="p4">**</bpt>Men's belt<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sadaļā <bpt id="p1">**</bpt>Vīriešu apģērbi<ept id="p1">**</ept> atlasiet kategoriju <bpt id="p2">**</bpt>Bikses<ept id="p2">**</ept>, kopsavilkuma cilnē atlasiet <bpt id="p3">**</bpt>Preču atribūtu grupas<ept id="p3">**</ept> un pēc tam pievienojiet atribūtu grupu ar nosaukumu <bpt id="p4">**</bpt>Vīriešu siksnas<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Select the <bpt id="p1">**</bpt>Fashion sunglasses<ept id="p1">**</ept> category, and verify the new attributes in the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> attribute group by selecting <bpt id="p3">**</bpt>View attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kategoriju <bpt id="p1">**</bpt>Modernas saulesbrilles<ept id="p1">**</ept> un pārbaudiet jaunos atribūtu grupas <bpt id="p2">**</bpt>Modernas saulesbrilles<ept id="p2">**</ept> atribūtus, atlasot <bpt id="p3">**</bpt>Skatītu atribūtus<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The attribute group should show the new <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept> attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupā jābūt parādītam jaunajam atribūtam <bpt id="p1">**</bpt>Lēcu forma<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Saulesbriļļu zīmols<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and verify the attributes for the <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept> attribute group by selecting <bpt id="p4">**</bpt>View attributes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sadaļā <bpt id="p1">**</bpt>Vīriešu apģērbi<ept id="p1">**</ept> atlasiet kategoriju <bpt id="p2">**</bpt>Bikses<ept id="p2">**</ept>, pārbaudiet atribūtu grupas <bpt id="p3">**</bpt>Vīriešu siksnas<ept id="p3">**</ept> atribūtus, atlasot <bpt id="p4">**</bpt>Skatīt atribūtus<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>The attribute group should show the <bpt id="p1">**</bpt>Men's belt brand<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Belt fabric<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Belt size<ept id="p3">**</ept> attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupā ir jārāda atribūti <bpt id="p1">**</bpt>Vīriešu siksnu zīmols<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Siksnas audums<ept id="p2">**</ept> un <bpt id="p3">**</bpt>Siksnas lielums<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo procedūru var izmantot arī, lai piešķirtu atribūtu grupas kategorijām kanāla navigācijas kategoriju hierarhijā un papildu preču kategoriju hierarhijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>In step 2, use the following navigation paths:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. darbībā izmantojiet tālāk norādītos navigācijas ceļus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Channel navigation categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Retail <ph id="ph1">&amp;gt;</ph> Kategorijas un preču pārvaldība <ph id="ph2">&amp;gt;</ph> Kanāla navigācijas kategorijas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Supplemental product categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Retail <ph id="ph1">&amp;gt;</ph> Kategorijas un preču pārvaldība <ph id="ph2">&amp;gt;</ph> Papildu preču kategorijas</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Assign attribute groups to retail stores</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupu piešķiršana mazumtirdzniecības veikaliem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienu vai vairākas atribūtu grupas var saistīt ar vienu vai vairākiem mazumtirdzniecības veikaliem mazumtirdzniecības veikalu hierarhijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad preces ir bagātinātas noteiktiem mazumtirdzniecības veikaliem, tās manto atribūtus, kas ir iekļauti atribūtu grupās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kanālu kategorijas un preču atribūti<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Assign attribute groups to the Houston channel:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu grupu piešķiršana Hjūstonas kanālam</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kanālu <bpt id="p1">**</bpt>Hjūstona<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>On the <bpt id="p1">**</bpt>Attribute group<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and then, in the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Atribūtu grupa<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Pievienot<ept id="p2">**</ept> un pēc tam laukā <bpt id="p3">**</bpt>Nosaukums<ept id="p3">**</ept> atlasiet <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vēlreiz atlasiet <bpt id="p1">**</bpt>Pievienot<ept id="p1">**</ept> un pēc tam laukā <bpt id="p2">**</bpt>Nosaukums<ept id="p2">**</ept> atlasiet <bpt id="p3">**</bpt>Vīriešu siksnas<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vēlreiz atlasiet <bpt id="p1">**</bpt>Pievienot<ept id="p1">**</ept> un pēc tam laukā <bpt id="p2">**</bpt>Nosaukums<ept id="p2">**</ept> atlasiet <bpt id="p3">**</bpt>Modernas saulesbrilles<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Opcija ļauj norādīt, ka šim kanālam ir jāmanto atribūtu grupas no tā pamata kanāla hierarhijā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>If you set the <bpt id="p1">**</bpt>Inherit<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja opcijai <bpt id="p1">**</bpt>Mantot<ept id="p1">**</ept> iestatīsiet <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>, atvasinātā kanāla mezgls pārmantos atribūtu grupas un visus atribūtus no šīm atribūtu grupām.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Enable the attributes so that they are available in the Houston channel:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iespējiet atribūtus, tā, lai tie būtu pieejami kanālā Hjūstona, veicot tālāk minētās darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>On the Action Pane, select <bpt id="p1">**</bpt>Set attribute metadata<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbību rūtī atlasiet <bpt id="p1">**</bpt>Atribūtu metadatu iestatīšana<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> category node, and then, on the <bpt id="p2">**</bpt>Channel product attributes<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Include attribute<ept id="p3">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kategorijas mezglu <bpt id="p1">**</bpt>Mode<ept id="p1">**</ept> un pēc tam kopsavilkuma cilnē <bpt id="p2">**</bpt>Kanāla preces īpašības<ept id="p2">**</ept> katram atribūtam atlasiet <bpt id="p3">**</bpt>Iekļaut atribūtu<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Select the <bpt id="p1">**</bpt>Fashion Accessories<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kategorijas mezglu <bpt id="p1">**</bpt>Modes aksesuāri<ept id="p1">**</ept>, atlasiet kategoriju <bpt id="p2">**</bpt>Modernas saulesbrilles<ept id="p2">**</ept> un pēc tam kopsavilkuma cilnē <bpt id="p3">**</bpt>Kanāla preces īpašības<ept id="p3">**</ept> katram atribūtam atlasiet <bpt id="p4">**</bpt>Iekļaut atribūtu<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Select the <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kategorijas mezglu <bpt id="p1">**</bpt>Vīriešu apģērbi<ept id="p1">**</ept>, atlasiet kategoriju <bpt id="p2">**</bpt>Bikses<ept id="p2">**</ept> un pēc tam kopsavilkuma cilnē <bpt id="p3">**</bpt>Kanāla preces īpašības<ept id="p3">**</ept> katram atribūtam atlasiet <bpt id="p4">**</bpt>Iekļaut atribūtu<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Channel categories and product attributes – Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanālu kategorijas un preču īpašības — atribūtu grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Overriding attribute values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūta vērtību ignorēšāna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>The default values of attributes can be overridden for individual products at the product level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribūtu noklusējuma vērtības arī var ignorēt atsevišķām precēm noteiktos katalogos, kas ir paredzēti specifiskiem mazumtirdzniecības kanāliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>Override the attribute values of an individual product</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsevišķas preces atribūtu vērtību ignorēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Released products by category<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kategoriju un preču pārvaldība<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Izpildei nodotās preces pēc kategorijas<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kategoriju mezglu <bpt id="p1">**</bpt>Mode<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Modes aksesuāri<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Modernas saulesbrilles<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Select the required product in the grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Režģī atlasiet nepieciešamo preci.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>Then, on the Action Pane, on the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Set up<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam darbību rūts grupas <bpt id="p1">**</bpt>Iestatīšana<ept id="p1">**</ept> cilnē <bpt id="p2">**</bpt>Prece<ept id="p2">**</ept> atlasiet <bpt id="p3">**</bpt>Preces īpašības<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Select an attribute in the left pane, and then update its value in the right pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreisajā rūtī atlasiet atribūtu un pēc tam labajā rūtī atjauniniet tā vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Product details page – Product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preces detalizētas informācijas lapa — preču īpašību grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>Override the attribute values of products in a catalog</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kataloga preču atribūtu vērtību ignorēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Catalog management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All catalogs<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kataloga pārvaldība<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Visi katalogi<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>Select the <bpt id="p1">**</bpt>Fabrikam Base Catalog<ept id="p1">**</ept> catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet katalogu <bpt id="p1">**</bpt>Fabrikam Base Catalog<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kategoriju mezglu <bpt id="p1">**</bpt>Mode<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Modes aksesuāri<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Modernas saulesbrilles<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Preces<ept id="p1">**</ept> atlasiet vajadzīgo preci un pēc tam atlasiet <bpt id="p2">**</bpt>Atribūti<ept id="p2">**</ept> virs preču režģa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>On the following FastTabs, update the values of the required attributes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Shared product media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotie preces plašsaziņas līdzekļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Shared product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotās preces īpašības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>Channel media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanāla plašsaziņas līdzekļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Channel product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanāla preces īpašības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>Catalog product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kataloga preču īpašību grupas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>Override the attribute values of products in a channel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanāla preču atribūtu vērtību ignorēšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanāla iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kanālu kategorijas un preču atribūti<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kanālu <bpt id="p1">**</bpt>Hjūstona<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Preces<ept id="p1">**</ept> atlasiet vajadzīgo preci un pēc tam atlasiet <bpt id="p2">**</bpt>Atribūti<ept id="p2">**</ept> virs preču režģa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>If no products are available, add products by selecting <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Products<ept id="p2">**</ept> FastTab and then selecting the required products in the <bpt id="p3">**</bpt>Add products<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja neviena prece nav pieejama, pievienojiet preces kopsavilkuma cilnē <bpt id="p1">**</bpt>Preces<ept id="p1">**</ept> atlasot <bpt id="p2">**</bpt>Pievienot<ept id="p2">**</ept> un pēc tam dialoglodziņā <bpt id="p3">**</bpt>Preču pievienošana<ept id="p3">**</ept> atlasot vēlamās preces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>On the following FastTabs, update the values of the required attributes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk minētajās kopsavilkuma cilnēs atjauniniet nepieciešamo atribūtu vērtības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Shared product media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotie preces plašsaziņas līdzekļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Shared product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koplietotās preces īpašības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Channel media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanāla plašsaziņas līdzekļi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Channel product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanāla preces īpašības</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

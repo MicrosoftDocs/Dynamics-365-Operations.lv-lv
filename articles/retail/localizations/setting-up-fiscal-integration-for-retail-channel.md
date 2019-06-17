@@ -1,228 +1,492 @@
----
-title: Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana
-description: Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu mazumtirdzniecības kanāliem.
-author: josaw
-manager: annbe
-ms.date: 02/01/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.search.region: Global
-ms.search.industry: Retail
-ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525329"
----
-# <a name="set-up-the-fiscal-integration-for-retail-channels"></a><span data-ttu-id="af51d-103">Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="af51d-103">Set up the fiscal integration for Retail channels</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-## <a name="introduction"></a><span data-ttu-id="af51d-104">Ievads</span><span class="sxs-lookup"><span data-stu-id="af51d-104">Introduction</span></span>
-
-<span data-ttu-id="af51d-105">Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu mazumtirdzniecības kanāliem.</span><span class="sxs-lookup"><span data-stu-id="af51d-105">This topic provides guidelines for setting up the fiscal integration functionality for Retail channels.</span></span> <span data-ttu-id="af51d-106">Plašāku informāciju par finanšu integrāciju skatiet tēmā [Apskats par mazumtirdzniecības kanālu finanšu integrāciju](fiscal-integration-for-retail-channel.md).</span><span class="sxs-lookup"><span data-stu-id="af51d-106">For more information about the fiscal integration, see [Overview of fiscal integration for Retail channels](fiscal-integration-for-retail-channel.md).</span></span>
-
-<span data-ttu-id="af51d-107">Finanšu integrācijas iestatīšanas procedūra ietver šādus uzdevumus:</span><span class="sxs-lookup"><span data-stu-id="af51d-107">The process of setting up the fiscal integration includes the following tasks:</span></span>
-
-1. <span data-ttu-id="af51d-108">Konfigurēt finanšu savienotājus, kas apzīmē finanšu ierīces vai pakalpojumus, kurus izmanto finanšu reģistrācijas nolūkiem, piemēram, fiskālos printerus.</span><span class="sxs-lookup"><span data-stu-id="af51d-108">Configure fiscal connectors that represent fiscal devices or services that are used for fiscal registration purposes, such as fiscal printers.</span></span>
-2. <span data-ttu-id="af51d-109">Konfigurēt dokumentu nodrošinātājus, kas izveido finanšu dokumentus, kurus finanšu savienotāji reģistrēs finanšu ierīcēs vai pakalpojumos.</span><span class="sxs-lookup"><span data-stu-id="af51d-109">Configure document providers that generate fiscal documents that will be registered in fiscal devices or services by fiscal connectors.</span></span>
-3. <span data-ttu-id="af51d-110">Konfigurēt finanšu reģistrācijas procesu, kas nosaka finanšu reģistrācijas darbību secību un finanšu savienotājus un finanšu dokumentu nodrošinātājus, ko izmanto katrai darbībai.</span><span class="sxs-lookup"><span data-stu-id="af51d-110">Configure the fiscal registration process that defines a sequence of fiscal registration steps and the fiscal connectors and fiscal document providers that are used for each step.</span></span>
-4. <span data-ttu-id="af51d-111">Piešķirt finanšu reģistrācijas procesus pārdošanas punkta (POS) funkcionalitātes profiliem.</span><span class="sxs-lookup"><span data-stu-id="af51d-111">Assign the fiscal registration process to point of sale (POS) functionality profiles.</span></span>
-5. <span data-ttu-id="af51d-112">Piešķirt savienotāja tehniskos profilus aparatūras profiliem.</span><span class="sxs-lookup"><span data-stu-id="af51d-112">Assign connector technical profiles to hardware profiles.</span></span>
-
-## <a name="set-up-a-fiscal-registration-process"></a><span data-ttu-id="af51d-113">Finanšu reģistrācijas procesa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="af51d-113">Set up a fiscal registration process</span></span>
-
-<span data-ttu-id="af51d-114">Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē tālāk norādītie iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="af51d-114">Before you use the fiscal integration functionality, you should configure the following settings.</span></span>
-
-1. <span data-ttu-id="af51d-115">Atjauniniet mazumtirdzniecības parametrus.</span><span class="sxs-lookup"><span data-stu-id="af51d-115">Update retail parameters.</span></span>
-
-    1. <span data-ttu-id="af51d-116">Lapas **Mazumtirdzniecības koplietojamie parametri** cilnē **Vispārīgi** iestatiet opcijai **Iespējot finanšu integrāciju** vienumu **Jā**.</span><span class="sxs-lookup"><span data-stu-id="af51d-116">On the **Retail shared parameters** page, on the **General** tab, set the **Enable fiscal integration** option to **Yes**.</span></span> <span data-ttu-id="af51d-117">Cilnē **Numuru sērijas** definējiet numuru sērijas šādām atsaucēm:</span><span class="sxs-lookup"><span data-stu-id="af51d-117">On the **Number sequences** tab, define the number sequences for the following references:</span></span>
-
-        - <span data-ttu-id="af51d-118">Finanšu tehniskā profila numurs</span><span class="sxs-lookup"><span data-stu-id="af51d-118">Fiscal technical profile number</span></span>
-        - <span data-ttu-id="af51d-119">Finanšu savienotāja grupas numurs</span><span class="sxs-lookup"><span data-stu-id="af51d-119">Fiscal connector group number</span></span>
-        - <span data-ttu-id="af51d-120">Reģistrācijas procesa numurs</span><span class="sxs-lookup"><span data-stu-id="af51d-120">Registration process number</span></span>
-
-    2. <span data-ttu-id="af51d-121">Lapā **Mazumtirdzniecības parametri** definējiet numuru sēriju finanšu funkcionālā profila numuram.</span><span class="sxs-lookup"><span data-stu-id="af51d-121">On the **Retail parameters** page, define the number sequence for the fiscal functional profile number.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-122">Numuru sērijas nav obligātas.</span><span class="sxs-lookup"><span data-stu-id="af51d-122">Number sequences are optional.</span></span> <span data-ttu-id="af51d-123">Numurus visiem finanšu integrācijas elementiem var izveidot, izmantojot numuru sērijas vai manuāli.</span><span class="sxs-lookup"><span data-stu-id="af51d-123">Numbers for all fiscal integration entities can be generated either from number sequences or manually.</span></span>
-
-2. <span data-ttu-id="af51d-124">Augšupielādējiet finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="af51d-124">Upload configurations of fiscal connectors and fiscal document providers.</span></span>
-
-    <span data-ttu-id="af51d-125">Finanšu dokumentu nodrošinātājs ir atbildīgs par finanšu dokumentu sagatavošanu, kuri norāda mazumtirdzniecības transakcijas un notikumus, kas reģistrēti POS, tādā formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci vai pakalpojumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-125">A fiscal document provider is responsible for generating fiscal documents that represent retail transactions and events that are registered on the POS in a format that is also used for the interaction with a fiscal device or service.</span></span> <span data-ttu-id="af51d-126">Piemēram, finanšu dokumentu nodrošinātājs var izveidot finanšu dokumenta attēlojumu XML formātā.</span><span class="sxs-lookup"><span data-stu-id="af51d-126">For example, a fiscal document provider might generate a representation of a fiscal receipt in an XML format.</span></span>
-
-    <span data-ttu-id="af51d-127">Finanšu savienotājs ir atbildīgs par saziņu ar finanšu ierīci vai pakalpojumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-127">A fiscal connector is responsible for the communication with a fiscal device or service.</span></span> <span data-ttu-id="af51d-128">Piemēram, finanšu savienotājs var nosūtīt finanšu dokumentu, kuru izveidoja finanšu dokumentu nodrošinātājs XML formātā, uz fiskālo printeri.</span><span class="sxs-lookup"><span data-stu-id="af51d-128">For example, a fiscal connector might send a fiscal receipt that a fiscal document provider created in an XML format to a fiscal printer.</span></span> <span data-ttu-id="af51d-129">Plašāku informāciju par finanšu integrācijas komponentiem skatiet tēmā [Finanšu reģistrācijas process un finanšu integrācijas paraugi finanšu ierīcēm](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).</span><span class="sxs-lookup"><span data-stu-id="af51d-129">For more details about fiscal integration components, see [Fiscal registration process and fiscal integration samples for fiscal devices](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).</span></span>
-
-    1. <span data-ttu-id="af51d-130">Lapā **Finanšu savienotāji** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu savienotāji**) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot finanšu integrācijas nolūkos.</span><span class="sxs-lookup"><span data-stu-id="af51d-130">On the **Fiscal connectors** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal connectors**), upload an XML configuration for each device or service that you plan to use for fiscal integration purposes.</span></span>
-
-        > [!TIP]
-        > <span data-ttu-id="af51d-131">Atlasot **Skatīt**, varat skatīt visus funkcionālos un tehniskos profilus, kas ir saistīti ar pašreizējo finanšu savienotāju.</span><span class="sxs-lookup"><span data-stu-id="af51d-131">By selecting **View**, you can view all functional and technical profiles that are related to the current fiscal connector.</span></span>
-
-    2. <span data-ttu-id="af51d-132">Lapā **Finanšu dokumentu nodrošinātāji** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu dokumentu nodrošinātāji**) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot.</span><span class="sxs-lookup"><span data-stu-id="af51d-132">On the **Fiscal document providers** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal document providers**), upload an XML configuration for each device or service that you plan to use.</span></span>
-
-        > [!TIP]
-        > <span data-ttu-id="af51d-133">Atlasot **Skatīt**, varat skatīt visus funkcionālos profilus, kas ir saistīti ar pašreizējo finanšu dokumentu nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="af51d-133">By selecting **View**, you can view all functional profiles that are related to the current fiscal document provider.</span></span>
-
-    <span data-ttu-id="af51d-134">Finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurāciju piemērus skatiet tēmā [Finanšu integrācijas paraugi komplektā Retail SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).</span><span class="sxs-lookup"><span data-stu-id="af51d-134">For examples of configurations of fiscal connectors and fiscal document providers, see [Fiscal integration samples in the Retail SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-135">Datu kartēšana tiek uzskatīta par daļu no finanšu dokumentu nodrošinātāja.</span><span class="sxs-lookup"><span data-stu-id="af51d-135">Data mapping is considered part of a fiscal document provider.</span></span> <span data-ttu-id="af51d-136">Lai iestatītu citus datu kartējumus tam pašam savienotājam (piemēram, ja pastāv valstij raksturīgi noteikumi), jums vajadzētu izveidot dažādus finanšu dokumentu nodrošinātājus.</span><span class="sxs-lookup"><span data-stu-id="af51d-136">To set up different data mappings for the same connector (for example, state-specific regulations), you should create different fiscal document providers.</span></span>
-
-3. <span data-ttu-id="af51d-137">Izveidojiet savienotāja funkcionālos profilus un savienotāja tehniskos profilus.</span><span class="sxs-lookup"><span data-stu-id="af51d-137">Create connector functional profiles and connector technical profiles.</span></span>
-
-    1. <span data-ttu-id="af51d-138">Lapā **Savienotāja funkcionālie profili** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Savienotāja funkcionālie profili**) izveidojiet savienotāja funkcionālo profilu katrai finanšu savienotāja un ar šo finanšu savienotāju saistītā finanšu dokumentu nodrošinātāja kombinācijai.</span><span class="sxs-lookup"><span data-stu-id="af51d-138">On the **Connector functional profiles** page (**Retail \> Channel setup \> Fiscal integration \> Connector functional profiles**), create a connector functional profile for each combination of a fiscal connector and a fiscal document provider that is related to this fiscal connector.</span></span>
-
-        1. <span data-ttu-id="af51d-139">Atlasiet savienotāja nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-139">Select a connector name.</span></span>
-        2. <span data-ttu-id="af51d-140">Atlasiet kādu dokumentu nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="af51d-140">Select a document provider.</span></span>
-
-        <span data-ttu-id="af51d-141">Varat mainīt datu kartēšanas parametrus savienotāja funkcionālajā profilā.</span><span class="sxs-lookup"><span data-stu-id="af51d-141">You can change the data mapping parameters in a connector functional profile.</span></span> <span data-ttu-id="af51d-142">Lai atjaunotu noklusētos parametrus, kas definēti finanšu dokumentu nodrošinātāja konfigurācijā, atlasiet **Atjaunināt**.</span><span class="sxs-lookup"><span data-stu-id="af51d-142">To restore the default parameters that are defined in the fiscal document provider configuration, select **Update**.</span></span>
-
-        <span data-ttu-id="af51d-143">**Piemēri**</span><span class="sxs-lookup"><span data-stu-id="af51d-143">**Examples**</span></span>
-    
-        |   | <span data-ttu-id="af51d-144">Formāts</span><span class="sxs-lookup"><span data-stu-id="af51d-144">Format</span></span> | <span data-ttu-id="af51d-145">Paraugs</span><span class="sxs-lookup"><span data-stu-id="af51d-145">Example</span></span> |
-        |---|--------|---------|
-        | <span data-ttu-id="af51d-146">**PVN likmju iestatījumi**</span><span class="sxs-lookup"><span data-stu-id="af51d-146">**VAT rates settings**</span></span> | <span data-ttu-id="af51d-147">value : VATrate</span><span class="sxs-lookup"><span data-stu-id="af51d-147">value : VATrate</span></span> | <span data-ttu-id="af51d-148">1 : 2000, 2 : 1800</span><span class="sxs-lookup"><span data-stu-id="af51d-148">1 : 2000, 2 : 1800</span></span> |
-        | <span data-ttu-id="af51d-149">**PVN kodu kartējums**</span><span class="sxs-lookup"><span data-stu-id="af51d-149">**VAT codes mapping**</span></span> | <span data-ttu-id="af51d-150">VATcode : value</span><span class="sxs-lookup"><span data-stu-id="af51d-150">VATcode : value</span></span> | <span data-ttu-id="af51d-151">vat20 : 1, vat18 : 2</span><span class="sxs-lookup"><span data-stu-id="af51d-151">vat20 : 1, vat18 : 2</span></span> |
-        | <span data-ttu-id="af51d-152">**Norēķinu tipu kartējums**</span><span class="sxs-lookup"><span data-stu-id="af51d-152">**Tender types mapping**</span></span> | <span data-ttu-id="af51d-153">TenderType : value</span><span class="sxs-lookup"><span data-stu-id="af51d-153">TenderType : value</span></span> | <span data-ttu-id="af51d-154">Cash : 1, Card : 2</span><span class="sxs-lookup"><span data-stu-id="af51d-154">Cash : 1, Card : 2</span></span> |
-
-        > [!NOTE]
-        > <span data-ttu-id="af51d-155">Savienotāja funkcionālie profili attiecas tikai uz konkrētu uzņēmumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-155">Connector functional profiles are company-specific.</span></span> <span data-ttu-id="af51d-156">Ja plānojat izmantot to pašu finanšu savienotāja un finanšu dokumentu nodrošinātāja kombināciju dažādos uzņēmumos, ir jāizveido savienotāja funkcionālais profils katram uzņēmumam.</span><span class="sxs-lookup"><span data-stu-id="af51d-156">If you plan to use the same combination of a fiscal connector and a fiscal document provider in different companies, you should create a connector functional profile for each company.</span></span>
-
-    2. <span data-ttu-id="af51d-157">Lapā **Savienotāja tehniskie profili** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Savienotāja tehniskie profili**) izveidojiet savienotāja tehnisko profilu katram finanšu savienotājam.</span><span class="sxs-lookup"><span data-stu-id="af51d-157">On the **Connector technical profiles** page (**Retail \> Channel setup \> Fiscal integration \> Connector technical profiles**), create a connector technical profile for each fiscal connector.</span></span>
-
-        1. <span data-ttu-id="af51d-158">Atlasiet savienotāja nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-158">Select a connector name.</span></span>
-        2. <span data-ttu-id="af51d-159">Atlasiet kādu savienotāja tipu.</span><span class="sxs-lookup"><span data-stu-id="af51d-159">Select a connector type.</span></span> <span data-ttu-id="af51d-160">Ierīcēm, kas ir savienotas ar aparatūras staciju, atlasiet vienumu **Vietējais**.</span><span class="sxs-lookup"><span data-stu-id="af51d-160">For devices that are connected to a Hardware station, select **Local**.</span></span>
-
-            > [!NOTE]
-            > <span data-ttu-id="af51d-161">Pašlaik tiek atbalstīti tikai vietējie savienotāji.</span><span class="sxs-lookup"><span data-stu-id="af51d-161">Only local connectors are currently supported.</span></span>
-
-        <span data-ttu-id="af51d-162">Parametrus savienotāja tehniskā profila cilnēs **Ierīces** un **Iestatījumi** var mainīt.</span><span class="sxs-lookup"><span data-stu-id="af51d-162">Parameters on the **Device** and **Settings** tabs in a connector technical profile can be changed.</span></span> <span data-ttu-id="af51d-163">Lai atjaunotu noklusētos parametrus, kas definēti finanšu savienotāja konfigurācijā, atlasiet **Atjaunināt**.</span><span class="sxs-lookup"><span data-stu-id="af51d-163">To restore the default parameters that are defined in the fiscal connector configuration, select **Update**.</span></span> <span data-ttu-id="af51d-164">Ielādējot XML konfigurācijas jaunu versiju, tiek parādīts ziņojums, ka pašreizējais finanšu savienotājs vai finanšu dokumentu nodrošinātājs jau tiek izmantots.</span><span class="sxs-lookup"><span data-stu-id="af51d-164">While a new version of an XML configuration is loaded, you receive a message that states that the current fiscal connector or fiscal document provider is already being used.</span></span> <span data-ttu-id="af51d-165">Šī procedūra nepārlabo manuālās izmaiņas, kas iepriekš veiktas savienotāja funkcionālajos profilos un savienotāja tehniskajos profilos.</span><span class="sxs-lookup"><span data-stu-id="af51d-165">This procedure doesn't override manual changes that were previously made in connector functional profiles and connector technical profiles.</span></span> <span data-ttu-id="af51d-166">Lai lietotu noklusējuma parametru kopu no jaunas konfigurācijas, atlasiet vienumu **Atjaunināt** lapā **Savienotāja funkcionālie profili** vai lapā **Savienotāja tehniskie profili**.</span><span class="sxs-lookup"><span data-stu-id="af51d-166">To apply the default set of parameters from a new configuration, on the **Connector functional profiles** page or the **Connector technical profiles** page, select **Update**.</span></span>
-
-4. <span data-ttu-id="af51d-167">Izveidojiet finanšu savienotāju grupas.</span><span class="sxs-lookup"><span data-stu-id="af51d-167">Create fiscal connector groups.</span></span>
-
-    <span data-ttu-id="af51d-168">Savienotāju grupā ir apvienoti tādu finanšu savienotāju funkcionālie profili, kuri veic identiskas funkcijas un finanšu reģistrācijas procesā tiek izmantoti tajā pašā darbībā.</span><span class="sxs-lookup"><span data-stu-id="af51d-168">A fiscal connector group combines functional profiles of fiscal connectors that perform identical functions and are used at the same step of a fiscal registration process.</span></span> <span data-ttu-id="af51d-169">Piemēram, ja vairākus fiskālo printeru modeļus var izmantot mazumtirdzniecības veikalā, finanšu savienotājus šiem fiskālajiem printeriem var apvienot finanšu savienotāju grupā.</span><span class="sxs-lookup"><span data-stu-id="af51d-169">For example, if several fiscal printer models can be used in a retail store, fiscal connectors for those fiscal printers can be combined in a fiscal connector group.</span></span>
-    
-    1. <span data-ttu-id="af51d-170">Lapā **Finanšu savienotāju grupa** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu savienotāju grupas**) izveidojiet jaunu finanšu savienotāju grupu.</span><span class="sxs-lookup"><span data-stu-id="af51d-170">On the **Fiscal connector group** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal connector groups**), create a new fiscal connector group.</span></span>
-    2. <span data-ttu-id="af51d-171">Pievienojiet funkcionālos profilus savienotāju grupai.</span><span class="sxs-lookup"><span data-stu-id="af51d-171">Add functional profiles to the connector group.</span></span> <span data-ttu-id="af51d-172">Cilnē **Funkcionālie profili** atlasiet vienumu **Pievienot** un atlasiet kādu profila numuru.</span><span class="sxs-lookup"><span data-stu-id="af51d-172">On the **Functional profiles** tab, select **Add**, and select a profile number.</span></span> <span data-ttu-id="af51d-173">Katram finanšu savienotājam noteiktā savienotāju grupā var būt tikai viens funkcionālais profils.</span><span class="sxs-lookup"><span data-stu-id="af51d-173">Each fiscal connector in a connector group can only have one functional profile.</span></span>
-    3. <span data-ttu-id="af51d-174">Lai pārtrauktu attiecīgā funkcionālā profila izmantošanu, opcijai **Atspējot** iestatiet vienumu **Jā**.</span><span class="sxs-lookup"><span data-stu-id="af51d-174">To suspend use of the functional profile, set the **Disable** option to **Yes**.</span></span> <span data-ttu-id="af51d-175">Šīs izmaiņas ietekmē tikai pašreizējo savienotāju grupu.</span><span class="sxs-lookup"><span data-stu-id="af51d-175">This change affects only the current connector group.</span></span> <span data-ttu-id="af51d-176">Varat turpināt tā paša funkcionālā profila izmantošanu citās savienotāju grupās.</span><span class="sxs-lookup"><span data-stu-id="af51d-176">You can continue to use the same functional profile in other connector groups.</span></span>
-
-5. <span data-ttu-id="af51d-177">Izveidojiet finanšu reģistrācijas procesu.</span><span class="sxs-lookup"><span data-stu-id="af51d-177">Create a fiscal registration process.</span></span>
-
-    <span data-ttu-id="af51d-178">Finanšu reģistrācijas procesu nosaka reģistrācijas darbību secība un katrā darbībā izmantotā savienotāju grupa.</span><span class="sxs-lookup"><span data-stu-id="af51d-178">A fiscal registration process is defined by the sequence of registration steps and the connector group that is used for each step.</span></span>
-    
-    1. <span data-ttu-id="af51d-179">Lapā **Finanšu reģistrācijas process** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) izveidojiet jaunu ierakstu katram unikālajam finanšu reģistrācijas procesam.</span><span class="sxs-lookup"><span data-stu-id="af51d-179">On the **Fiscal registration process** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal registration processes**), create a new record for each unique process of fiscal registration.</span></span>
-    2. <span data-ttu-id="af51d-180">Pievienojiet procesam reģistrācijas darbības.</span><span class="sxs-lookup"><span data-stu-id="af51d-180">Add registration steps to the process:</span></span>
-
-        1. <span data-ttu-id="af51d-181">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="af51d-181">Select **Add**.</span></span>
-        2. <span data-ttu-id="af51d-182">Atlasiet finanšu savienotāja tipu.</span><span class="sxs-lookup"><span data-stu-id="af51d-182">Select a fiscal connector type.</span></span>
-        3. <span data-ttu-id="af51d-183">Laukā **Grupas numurs** atlasiet atbilstošo finanšu savienotāju grupu.</span><span class="sxs-lookup"><span data-stu-id="af51d-183">In the **Group number** field, select an appropriate fiscal connector group.</span></span>
-
-6. <span data-ttu-id="af51d-184">Piešķiriet finanšu reģistrācijas procesa elementus POS profiliem.</span><span class="sxs-lookup"><span data-stu-id="af51d-184">Assign entities of the fiscal registration process to POS profiles.</span></span>
-
-    1. <span data-ttu-id="af51d-185">Lapā **POS funkcionalitātes profili** (**Mazumtirdzniecība \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**) piešķiriet finanšu reģistrācijas procesu POS funkcionalitātes profilam.</span><span class="sxs-lookup"><span data-stu-id="af51d-185">On the **POS functionality profiles** page (**Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles**), assign the fiscal registration process to a POS functionality profile.</span></span> <span data-ttu-id="af51d-186">Atlasiet **Rediģēt** un pēc tam cilnes **Finanšu reģistrācijas process** laukā **Procesa numurs** atlasiet procesu.</span><span class="sxs-lookup"><span data-stu-id="af51d-186">Select **Edit**, and then, on the **Fiscal registration process** tab, in the **Process number** field, select a process.</span></span>
-    2. <span data-ttu-id="af51d-187">Lapā **POS aparatūras profils** (**Mazumtirdzniecība \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**) piešķiriet savienotāja tehnisko profilu aparatūras profilam.</span><span class="sxs-lookup"><span data-stu-id="af51d-187">On the **POS hardware profile** page (**Retail \> Channel setup \> POS setup \> POS profiles \> Hardware profiles**), assign connector technical profiles to a hardware profile.</span></span> <span data-ttu-id="af51d-188">Atlasiet **Rediģēt**, pievienojiet rindu cilnē **Finanšu perifērijas ierīces** un pēc tam laukā **Profila numurs** atlasiet savienotāja tehnisko profilu.</span><span class="sxs-lookup"><span data-stu-id="af51d-188">Select **Edit**, add a line on the **Fiscal peripherals** tab, and then, in the **Profile number** field, select a connector technical profile.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-189">Tam pašam aparatūras profilam varat pievienot vairākus tehniskos profilus.</span><span class="sxs-lookup"><span data-stu-id="af51d-189">You can add several technical profiles to the same hardware profile.</span></span> <span data-ttu-id="af51d-190">Tomēr aparatūras profilam vai POS funkcionalitātes profilam jābūt tikai vienam krustpunktam ar jebkuru finanšu savienotāju grupu.</span><span class="sxs-lookup"><span data-stu-id="af51d-190">However, a hardware profile or POS functionality profile should have only one intersection with any fiscal connector group.</span></span>
-
-    <span data-ttu-id="af51d-191">Finanšu reģistrācijas plūsmu nosaka finanšu reģistrācijas process, kā arī daži finanšu integrācijas komponentu parametri: paplašinājums Commerce Runtime finanšu dokumentu nodrošinātājam un paplašinājums Hardware Station finanšu savienotājam.</span><span class="sxs-lookup"><span data-stu-id="af51d-191">The fiscal registration flow is defined by the fiscal registration process and also by some parameters of fiscal integration components: the Commerce runtime extension for the fiscal document provider and the Hardware station extension for the fiscal connector.</span></span>
-
-    - <span data-ttu-id="af51d-192">Abonēšana notikumiem un transakcijām finanšu reģistrācijā ir iepriekš definēta finanšu dokumentu nodrošinātājā.</span><span class="sxs-lookup"><span data-stu-id="af51d-192">The subscription of events and transactions to fiscal registration is predefined in the fiscal document provider.</span></span>
-    - <span data-ttu-id="af51d-193">Finanšu dokumentu nodrošinātājs ir atbildīgs arī par fiskālajai reģistrācijai izmantotā finanšu savienotāja identificēšanu.</span><span class="sxs-lookup"><span data-stu-id="af51d-193">The fiscal document provider is also responsible for identifying the fiscal connector that is used for fiscal registration.</span></span> <span data-ttu-id="af51d-194">Tas atbilst savienotāja funkcionālajiem profiliem, kas ir iekļauti finanšu savienotāju grupā, kas ir norādīta finanšu reģistrācijas procesa pašreizējai darbībai ar savienotāja tehnisko profilu, kas ir piešķirts tādas aparatūras stacijas aparatūras profilam, ar kuru ir savienots pārī POS.</span><span class="sxs-lookup"><span data-stu-id="af51d-194">It matches the connector functional profiles that are included in the fiscal connector group that is specified for the current step of the fiscal registration process with the connector technical profile that is assigned to the hardware profile of the Hardware station that the POS is paired to.</span></span>
-    - <span data-ttu-id="af51d-195">Finanšu dokumentu nodrošinātājs izmanto datu kartēšanas iestatījumus no finanšu dokumentu nodrošinātāja konfigurācijas, lai pārveidotu transakciju/notikumu datus, piemēram, nodokļus un maksājumus, kamēr tiek izveidots finanšu dokuments.</span><span class="sxs-lookup"><span data-stu-id="af51d-195">The fiscal document provider uses the data mapping settings from the fiscal document provider configuration to transform transaction/event data such as taxes and payments while a fiscal document is generated.</span></span>
-    - <span data-ttu-id="af51d-196">Ja finanšu dokumentu nodrošinātājs izveido finanšu dokumentu, finanšu savienotājs var to nosūtīt uz finanšu ierīci tādu, kāds tas ir, vai parsēt to un pārveidot par ierīces lietojumprogrammas interfeisa (API) komandu sēriju atkarībā no tā, kā tiek apstrādāti sakari.</span><span class="sxs-lookup"><span data-stu-id="af51d-196">When the fiscal document provider generates a fiscal document, the fiscal connector can either send it to the fiscal device as is, or parse it and transform it into a sequence of commands of the device application programming interface (API), depending on how the communication is handled.</span></span>
-
-7. <span data-ttu-id="af51d-197">Lapā **Finanšu reģistrācijas process** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) atlasiet vienumu **Validēt**, lai validētu finanšu reģistrācijas procesu.</span><span class="sxs-lookup"><span data-stu-id="af51d-197">On the **Fiscal registration process** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal registration processes**), select **Validate** to validate the fiscal registration process.</span></span>
-
-    <span data-ttu-id="af51d-198">Ieteicams palaist šī tipa pārbaudes šādos gadījumos:</span><span class="sxs-lookup"><span data-stu-id="af51d-198">We recommend that you run this type of validation in the following cases:</span></span>
-    
-    - <span data-ttu-id="af51d-199">Pēc tam, kad ir pabeigti visi iestatījumi jaunam reģistrācijas procesam, tostarp piešķirot reģistrācijas procesus POS funkcionalitātes profiliem un aparatūras profiliem.</span><span class="sxs-lookup"><span data-stu-id="af51d-199">After you've completed all the settings for a new registration process, including when you assign registration processes to POS functionality profiles and hardware profiles.</span></span>
-    - <span data-ttu-id="af51d-200">Pēc tam, kad veiktas esošā finanšu reģistrācijas procesa izmaiņas, un šīs izmaiņas var izraisīt cita finanšu savienotāja atlasi izpildes laikā (piemēram, mainot savienotāju grupu finanšu reģistrācijas procesa darbībai, iespējojot savienotāja funkcionālo profilu savienotāja grupā vai pievienojot jaunu savienotāja funkcionālo profilu savienotāja grupai).</span><span class="sxs-lookup"><span data-stu-id="af51d-200">After you make changes to an existing fiscal registration process, and those changes might cause a different fiscal connector to be selected at runtime (for example, if you change the connector group for a fiscal registration process step, enable a connector functional profile in a connector group, or add a new connector functional profile to a connector group).</span></span>
-    - <span data-ttu-id="af51d-201">Pēc izmaiņu veikšanas saistībā ar savienotāja tehnisko profilu piešķiri aparatūras profiliem.</span><span class="sxs-lookup"><span data-stu-id="af51d-201">After you make changes in the assignment of connector technical profiles to hardware profiles.</span></span>
-
-8. <span data-ttu-id="af51d-202">Lapā **Sadales grafiks** palaidiet darbus **1070** un **1090**, lai pārsūtītu datus uz kanāla datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="af51d-202">On the **Distribution schedule** page, run the **1070** and **1090** jobs to transfer data to the channel database.</span></span>
-
-## <a name="set-up-fiscal-texts-for-discounts"></a><span data-ttu-id="af51d-203">Atlaižu finanšu teksta iestatīšana</span><span class="sxs-lookup"><span data-stu-id="af51d-203">Set up fiscal texts for discounts</span></span>
-
-<span data-ttu-id="af51d-204">Dažos gadījumos uz finanšu dokumenta jādrukā īpašs teksts, ja tiek piemērota atlaide.</span><span class="sxs-lookup"><span data-stu-id="af51d-204">In some cases, a special text must be printed on a fiscal receipt if a discount is applied.</span></span> <span data-ttu-id="af51d-205">Atlaižu finanšu tekstu var iestatīt lapā **Finanšu savienotāju grupa** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu savienotāju grupas**).</span><span class="sxs-lookup"><span data-stu-id="af51d-205">You can set up fiscal texts for discounts on the **Fiscal connector group** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal connector groups**).</span></span>
-
-- <span data-ttu-id="af51d-206">Manuālām atlaidēm, kuras tiek piemērotas POS, jāiestata finanšu teksts informācijas kodam vai informācijas kodu grupai, kas POS funkcionalitātes profilā ir norādīti kā informācijas kods **Preces atlaide**.</span><span class="sxs-lookup"><span data-stu-id="af51d-206">For manual discounts that are applied at the POS, you should set a fiscal text for the info code or info code group that is specified as the **Product discount** info code in the POS functionality profile.</span></span>
-
-    1. <span data-ttu-id="af51d-207">Lapā **Finanšu savienotāju grupa** atlasiet **Finanšu dokumenta teksts**.</span><span class="sxs-lookup"><span data-stu-id="af51d-207">On the **Fiscal connector group** page, select **Text for fiscal receipt**.</span></span>
-    2. <span data-ttu-id="af51d-208">Cilnē **Informācijas kodi** atlasiet **Pievienot** un atlasiet informācijas kodu vai informācijas kodu grupu.</span><span class="sxs-lookup"><span data-stu-id="af51d-208">On the **Info codes** tab, select **Add**, and select an info code or info code group.</span></span>
-    3. <span data-ttu-id="af51d-209">Vienumam **Informācijas koda numurs** atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="af51d-209">In the **Info code number**, select a value.</span></span>
-    4. <span data-ttu-id="af51d-210">Laukā **Apakškoda numurs** atlasiet vērtību, ja apakškods ir nepieciešams atlasītajam informācijas kodam.</span><span class="sxs-lookup"><span data-stu-id="af51d-210">In the **Subcode number** field, select a value if a subcode is required for the selected info code.</span></span>
-    5. <span data-ttu-id="af51d-211">Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.</span><span class="sxs-lookup"><span data-stu-id="af51d-211">In the **Text for fiscal receipt** field, specify a fiscal text that should be printed on a fiscal receipt.</span></span>
-    6. <span data-ttu-id="af51d-212">Iestatiet opcijai **Izdrukāt lietotāja ievadi finanšu dokumentā** vienumu **Jā**, lai pārlabotu tekstu uz finanšu dokumenta ar informāciju, ko lietotājs manuāli ievada POS.</span><span class="sxs-lookup"><span data-stu-id="af51d-212">Set the **Print user input on fiscal receipt** option to **Yes** to override the text on a fiscal receipt with information that a user manually enters at the POS.</span></span> <span data-ttu-id="af51d-213">Šī opcija attiecas tikai uz informācijas kodiem, kuriem ir ievades veids **Teksts**.</span><span class="sxs-lookup"><span data-stu-id="af51d-213">This option applies only to info codes that have an input type of **Text**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-214">Var norādīt finanšu tekstu vairākiem informācijas kodiem, lai nodrošinātu atbalstu scenārijiem, kuru ietvaros tiek izmantotas informācijas kodu grupas, saistīti informācijas kodi un aktivizēti informācijas kodi.</span><span class="sxs-lookup"><span data-stu-id="af51d-214">You can specify a fiscal text for several info codes to support scenarios where info code groups, linked info codes, and triggered info codes are used.</span></span> <span data-ttu-id="af51d-215">Šajos scenārijos finanšu dokumentā būs ietverti finanšu teksti no visiem informācijas kodiem, kas ir saistīti ar transakcijas rindu, kurai tika piemērota atlaide.</span><span class="sxs-lookup"><span data-stu-id="af51d-215">In these scenarios, the fiscal receipt will contain the fiscal texts from all info codes that are linked to the transaction line where the discount was applied.</span></span>
-
-- <span data-ttu-id="af51d-216">Kanālam raksturīgu atlaižu gadījumā ir jādefinē finanšu teksts atlaides ID.</span><span class="sxs-lookup"><span data-stu-id="af51d-216">For channel-specific discounts, you should define a fiscal text for the discount ID.</span></span>
-
-    1. <span data-ttu-id="af51d-217">Lapā **Finanšu savienotāju grupa** atlasiet **Finanšu dokumenta teksts**.</span><span class="sxs-lookup"><span data-stu-id="af51d-217">On the **Fiscal connector group** page, select **Text for fiscal receipt**.</span></span>
-    2. <span data-ttu-id="af51d-218">Cilnē **Atlaides** atlasiet **Pievienot** un atlasiet atlaides ID.</span><span class="sxs-lookup"><span data-stu-id="af51d-218">On the **Discounts** tab, select **Add**, and select a discount ID.</span></span>
-    3. <span data-ttu-id="af51d-219">Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.</span><span class="sxs-lookup"><span data-stu-id="af51d-219">In the **Text for fiscal receipt** field, specify a fiscal text that should be printed on a fiscal receipt.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-220">Ja tai pašai transakcijas rindai tiek piemērotas vairākas atlaides, finanšu dokumentā būs ietverti finanšu teksti no visām atlaidēm, kuras ir saistītas ar attiecīgo transakcijas rindu.</span><span class="sxs-lookup"><span data-stu-id="af51d-220">If several discounts are applied to the same transaction line, the fiscal receipt will contain fiscal texts from all discounts that are linked to those transaction line.</span></span>
-
-## <a name="set-error-handling-settings"></a><span data-ttu-id="af51d-221">Kļūdu apstrādes iestatījumu veikšana</span><span class="sxs-lookup"><span data-stu-id="af51d-221">Set error handling settings</span></span>
-
-<span data-ttu-id="af51d-222">Kļūdu apstrādes opcijas, kas pieejamas finanšu integrācijā, tiek iestatītas finanšu reģistrācijas procesā.</span><span class="sxs-lookup"><span data-stu-id="af51d-222">The error handling options that are available in the fiscal integration are set in the fiscal registration process.</span></span> <span data-ttu-id="af51d-223">Plašāku informāciju par kļūdu apstrādi finanšu integrācijā skatiet tēmā [Kļūdu apstrāde](fiscal-integration-for-retail-channel.md#error-handling).</span><span class="sxs-lookup"><span data-stu-id="af51d-223">For more information about error handling in the fiscal integration, see [Error handling](fiscal-integration-for-retail-channel.md#error-handling).</span></span>
-
-1. <span data-ttu-id="af51d-224">Lapā **Finanšu reģistrācijas process** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) varat iestatīt šādus parametrus katrai finanšu reģistrācijas procesa darbībai:</span><span class="sxs-lookup"><span data-stu-id="af51d-224">On the **Fiscal registration process** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal registration processes**), you can set the following parameters for each step of the fiscal registration process:</span></span>
-
-    - <span data-ttu-id="af51d-225">**Atļaut izlaist** — šis parametrs iespējo opciju **Izlaist** kļūdu apstrādes dialoglodziņā.</span><span class="sxs-lookup"><span data-stu-id="af51d-225">**Allow skip** – This parameter enables the **Skip** option in the error handling dialog box.</span></span>
-    - <span data-ttu-id="af51d-226">**Atļaut atzīmēt kā reģistrētu** — šis parametrs iespējo opciju **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā.</span><span class="sxs-lookup"><span data-stu-id="af51d-226">**Allow mark as registered** – This parameter enables the **Mark as registered** option in the error handling dialog box.</span></span>
-    - <span data-ttu-id="af51d-227">**Kļūdas gadījumā turpināt** — ja šis parametrs ir iespējots, finanšu reģistrācijas process POS reģistrā var turpināties arī tad, ja transakcijas vai notikuma finanšu reģistrācija ir nesekmīga.</span><span class="sxs-lookup"><span data-stu-id="af51d-227">**Continue on error** – If this parameter is enabled, the fiscal registration process can continue on the POS register if the fiscal registration of a transaction or event fails.</span></span> <span data-ttu-id="af51d-228">Pretējā gadījumā, lai palaistu nākamās transakcijas vai notikuma finanšu reģistrāciju, operatoram ir atkārtot jāmēģina izpildīt nesekmīgo finanšu reģistrāciju, jāizlaiž šī reģistrācija vai attiecīgā transakcija vai notikums ir jāatzīmē kā reģistrēts.</span><span class="sxs-lookup"><span data-stu-id="af51d-228">Otherwise, to run the fiscal registration of the next transaction or event, the operator must retry the failed fiscal registration, skip it, or mark the transaction or event as registered.</span></span> <span data-ttu-id="af51d-229">Plašāku informāciju skatiet rakstā [Neobligātā finanšu reģistrācija](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).</span><span class="sxs-lookup"><span data-stu-id="af51d-229">For more information, see [Optional fiscal registration](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-230">Ja ir iespējots parametrs **Kļūdas gadījumā turpināt**, parametrs **Atļaut izlaist** un parametrs **Atļaut atzīmēt kā reģistrētu** automātiski tiek atspējots.</span><span class="sxs-lookup"><span data-stu-id="af51d-230">If the **Continue on error** parameter is enabled, the **Allow skip** and **Allow mark as registered** parameters are automatically disabled.</span></span>
-
-2. <span data-ttu-id="af51d-231">Opcijām **Izlaist** un **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā ir nepieciešama atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**.</span><span class="sxs-lookup"><span data-stu-id="af51d-231">The **Skip** and **Mark as registered** options in the error handling dialog box require the **Allow skip registration or mark as registered** permission.</span></span> <span data-ttu-id="af51d-232">Tādēļ lapā **Atļauju grupas** (**Mazumtirdzniecība \> Darbinieki \> Atļauju grupas**) ir jāiespējo atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**.</span><span class="sxs-lookup"><span data-stu-id="af51d-232">Therefore, on the **Permission groups** page (**Retail \> Employees \> Permission groups**), enable the **Allow skip registration or mark as registered** permission.</span></span>
-3. <span data-ttu-id="af51d-233">Opcijas **Izlaist** un **Atzīmēt kā reģistrētu** ļauj operatoriem ievadīt papildu informāciju, kad finanšu reģistrācija neizdodas.</span><span class="sxs-lookup"><span data-stu-id="af51d-233">The **Skip** and **Mark as registered** options let operators enter additional information when fiscal registration fails.</span></span> <span data-ttu-id="af51d-234">Lai šī funkcionalitāte būtu pieejama, ir jānorāda informācijas kodi **Izlaist** un **Atzīmēt kā reģistrētu** finanšu savienotāju grupā.</span><span class="sxs-lookup"><span data-stu-id="af51d-234">To make this functionality available, you should specify the **Skip** and **Mark as registered** info codes on a fiscal connector group.</span></span> <span data-ttu-id="af51d-235">Pēc tam operatoru ievadītā informācija tiek saglabāta kā informācijas koda transakcija, kas saistīta ar finanšu transakciju.</span><span class="sxs-lookup"><span data-stu-id="af51d-235">The information that operators enter is then saved as an info code transaction that is linked to the fiscal transaction.</span></span> <span data-ttu-id="af51d-236">Plašāku informāciju par informācijas kodiem skatiet tēmā [Informācijas kodi un informācijas kodu grupas](../info-codes-retail.md).</span><span class="sxs-lookup"><span data-stu-id="af51d-236">For more details about info codes, see [Info codes and info code groups](../info-codes-retail.md).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-237">Trigera funkcija **Prece** netiek atbalstīta informācijas kodiem, kas tiek izmantoti opcijām **Izlaist** un **Atzīmēt kā reģistrētu** finanšu savienotāju grupās.</span><span class="sxs-lookup"><span data-stu-id="af51d-237">The **Product** trigger function isn't supported for the info codes that are used for **Skip** and **Mark as registered** in fiscal connector groups.</span></span>
-
-    - <span data-ttu-id="af51d-238">Lapas **Finanšu savienotāju grupa** cilnē **Informācijas kodi** atlasiet informācijas kodus vai informācijas kodu grupas laukos **Izlaist** un **Atzīmēt kā reģistrētu**.</span><span class="sxs-lookup"><span data-stu-id="af51d-238">On the **Fiscal connector group** page, on the **Info codes** tab, select info codes or info code groups in the **Skip** and **Mark as registered** fields.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="af51d-239">Jebkurā finanšu reģistrācijas procesa darbībā var izveidot vienu finanšu dokumentu un vienu ar finansēm nesaistītu dokumentu.</span><span class="sxs-lookup"><span data-stu-id="af51d-239">One fiscal document and one non-fiscal document can be generated on any step of a fiscal registration process.</span></span> <span data-ttu-id="af51d-240">Finanšu dokumentu nodrošinātāja paplašinājums norāda visus transakciju vai notikumu veidus saistībā ar finanšu dokumentiem vai arī ar finansēm nesaistītiem dokumentiem.</span><span class="sxs-lookup"><span data-stu-id="af51d-240">A fiscal document provider extension identifies every type of transaction or event as related to fiscal or non-fiscal documents.</span></span> <span data-ttu-id="af51d-241">Kļūdu apstrādes līdzeklis attiecas tikai uz finanšu dokumentiem.</span><span class="sxs-lookup"><span data-stu-id="af51d-241">The error handling feature applies only to fiscal documents.</span></span>
-    >
-    > - <span data-ttu-id="af51d-242">**Finanšu dokuments** — obligāts dokuments, kas ir veiksmīgi jāreģistrē (piemēram, finanšu dokuments).</span><span class="sxs-lookup"><span data-stu-id="af51d-242">**Fiscal document** – A mandatory document that should be registered successfully (for example, a fiscal receipt).</span></span>
-    > - <span data-ttu-id="af51d-243">**Ar finansēm nesaistīts dokuments** — transakcijas vai notikuma papildu dokuments (piemēram, dāvanu karte).</span><span class="sxs-lookup"><span data-stu-id="af51d-243">**Non-fiscal document** – A supplementary document for the transaction or event (for example, a gift card slip).</span></span>
-
-4. <span data-ttu-id="af51d-244">Ja operatoram ir jāspēj turpināt pašreizējās operācijas apstrādāšanu (piemēram, transakcijas izveidošanu vai pabeigšanu) arī pēc darbspējas pārbaudes kļūda rašanās, iespējojiet atļauju **Atļaut izlaist darbspējas pārbaudes kļūdu** lapā **Atļauju grupas** (**Mazumtirdzniecība \> Darbinieki \> Atļauju grupas**).</span><span class="sxs-lookup"><span data-stu-id="af51d-244">If the operator must be able to continue to process the current operation (for example, creation or finalization of a transaction) after a health check error occurs, you should enable the **Allow skip health check error** permission on the **Permission groups** page (**Retail \> Employees \> Permission groups**).</span></span> <span data-ttu-id="af51d-245">Plašāku informāciju par darbspējas pārbaudes procedūru skatiet rakstā [Finanšu reģistrācijas darbspējas pārbaude](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).</span><span class="sxs-lookup"><span data-stu-id="af51d-245">For more information about the health check procedure, see [Fiscal registration health check](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).</span></span>
-
-## <a name="set-up-fiscal-xz-reports-from-the-pos"></a><span data-ttu-id="af51d-246">POS finanšu X/Z pārskatu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="af51d-246">Set up fiscal X/Z reports from the POS</span></span>
-
-<span data-ttu-id="af51d-247">Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas pogas POS izkārtojumam.</span><span class="sxs-lookup"><span data-stu-id="af51d-247">To enable fiscal X/Z reports to be run from the POS, you should add new buttons to a POS layout.</span></span>
-
-- <span data-ttu-id="af51d-248">Lapā **Pogu rindas** sekojiet instrukcijām sadaļā [Pielāgotas operāciju pogas pievienošana POS izkārtojumam programmā Mazumtirdzniecība](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), lai instalētu veidotāju un atjauninātu POS izkārtojumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-248">On the **Button grids** page, follow the instructions in [Add a custom operation button to the POS layout in Retail headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) to install the designer and update a POS layout.</span></span>
-
-    1. <span data-ttu-id="af51d-249">Atlasiet atjaunināmo izkārtojumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-249">Select the layout to update.</span></span> 
-    2. <span data-ttu-id="af51d-250">Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu X** pogas rekvizītu.</span><span class="sxs-lookup"><span data-stu-id="af51d-250">Add a new button, and set the **Print fiscal X** button property.</span></span>
-    3. <span data-ttu-id="af51d-251">Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu Z** pogas rekvizītu.</span><span class="sxs-lookup"><span data-stu-id="af51d-251">Add a new button, and set the **Print fiscal Z** button property.</span></span>
-    4. <span data-ttu-id="af51d-252">Lapā **Sadales grafiks** palaidiet darbu **1090**, lai pārsūtītu izmaiņas uz kanāla datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="af51d-252">On the **Distribution schedule** page, run the **1090** job to transfer changes to the channel database.</span></span>
-
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a><span data-ttu-id="af51d-253">Atliktas finanšu reģistrācijas manuālas izpildes iespējošana</span><span class="sxs-lookup"><span data-stu-id="af51d-253">Enable manual execution of postponed fiscal registration</span></span>
-
-<span data-ttu-id="af51d-254">Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izkārtojumam jums ir jāpievieno jauna poga.</span><span class="sxs-lookup"><span data-stu-id="af51d-254">To enable manual execution of a postponed fiscal registration, you should add a new button to a POS layout.</span></span>
-
-- <span data-ttu-id="af51d-255">Lapā **Pogu rindas** sekojiet instrukcijām sadaļā [Pielāgotas operāciju pogas pievienošana POS izkārtojumam programmā Mazumtirdzniecība](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), lai instalētu veidotāju un atjauninātu POS izkārtojumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-255">On the **Button grids** page, follow the instructions in [Add a custom operation button to the POS layout in Retail headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) to install the designer and update a POS layout.</span></span>
-
-    1. <span data-ttu-id="af51d-256">Atlasiet atjaunināmo izkārtojumu.</span><span class="sxs-lookup"><span data-stu-id="af51d-256">Select the layout to update.</span></span>
-    2. <span data-ttu-id="af51d-257">Pievienojiet jaunu pogu un iestatiet pogas rekvizītu **Pabeigt finanšu reģistrācijas procesu**.</span><span class="sxs-lookup"><span data-stu-id="af51d-257">Add a new button, and set the **Complete fiscal registration process** button property.</span></span>
-    3. <span data-ttu-id="af51d-258">Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.</span><span class="sxs-lookup"><span data-stu-id="af51d-258">On the **Distribution schedule** page, run the **1090** job to transfer your changes to the channel database.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="setting-up-fiscal-integration-for-retail-channel.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>setting-up-fiscal-integration-for-retail-channel.bcaf21.fda94e77480b9d9455fc0e214e43772ab2921f2d.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>fda94e77480b9d9455fc0e214e43772ab2921f2d</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>ffc37f7c2a63bada3055f37856a30424040bc9a3</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\localizations\setting-up-fiscal-integration-for-retail-channel.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up the fiscal integration for Retail channels</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides guidelines for setting up the fiscal integration functionality for Retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu mazumtirdzniecības kanāliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up the fiscal integration for Retail channels</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Introduction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievads</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This topic provides guidelines for setting up the fiscal integration functionality for Retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu mazumtirdzniecības kanāliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>For more information about the fiscal integration, see <bpt id="p1">[</bpt>Overview of fiscal integration for Retail channels<ept id="p1">](fiscal-integration-for-retail-channel.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju par finanšu integrāciju skatiet tēmā <bpt id="p1">[</bpt>Apskats par mazumtirdzniecības kanālu finanšu integrāciju<ept id="p1">](fiscal-integration-for-retail-channel.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The process of setting up the fiscal integration includes the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu integrācijas iestatīšanas procedūra ietver šādus uzdevumus:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Configure fiscal connectors that represent fiscal devices or services that are used for fiscal registration purposes, such as fiscal printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt finanšu savienotājus, kas apzīmē finanšu ierīces vai pakalpojumus, kurus izmanto finanšu reģistrācijas nolūkiem, piemēram, fiskālos printerus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Configure document providers that generate fiscal documents that will be registered in fiscal devices or services by fiscal connectors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt dokumentu nodrošinātājus, kas izveido finanšu dokumentus, kurus finanšu savienotāji reģistrēs finanšu ierīcēs vai pakalpojumos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Configure the fiscal registration process that defines a sequence of fiscal registration steps and the fiscal connectors and fiscal document providers that are used for each step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurēt finanšu reģistrācijas procesu, kas nosaka finanšu reģistrācijas darbību secību un finanšu savienotājus un finanšu dokumentu nodrošinātājus, ko izmanto katrai darbībai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Assign the fiscal registration process to point of sale (POS) functionality profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piešķirt finanšu reģistrācijas procesus pārdošanas punkta (POS) funkcionalitātes profiliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Assign connector technical profiles to hardware profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piešķirt savienotāja tehniskos profilus aparatūras profiliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Set up a fiscal registration process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu reģistrācijas procesa iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Before you use the fiscal integration functionality, you should configure the following settings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē tālāk norādītie iestatījumi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Update retail parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atjauniniet mazumtirdzniecības parametrus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>On the <bpt id="p1">**</bpt>Retail shared parameters<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, set the <bpt id="p3">**</bpt>Enable fiscal integration<ept id="p3">**</ept> option to <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapas <bpt id="p1">**</bpt>Mazumtirdzniecības koplietojamie parametri<ept id="p1">**</ept> cilnē <bpt id="p2">**</bpt>Vispārīgi<ept id="p2">**</ept> iestatiet opcijai <bpt id="p3">**</bpt>Iespējot finanšu integrāciju<ept id="p3">**</ept> vienumu <bpt id="p4">**</bpt>Jā<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>On the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> tab, define the number sequences for the following references:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilnē <bpt id="p1">**</bpt>Numuru sērijas<ept id="p1">**</ept> definējiet numuru sērijas šādām atsaucēm:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Fiscal technical profile number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu tehniskā profila numurs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Fiscal connector group number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu savienotāja grupas numurs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Registration process number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reģistrācijas procesa numurs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>On the <bpt id="p1">**</bpt>Retail parameters<ept id="p1">**</ept> page, define the number sequence for the fiscal functional profile number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Mazumtirdzniecības parametri<ept id="p1">**</ept> definējiet numuru sēriju finanšu funkcionālā profila numuram.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Number sequences are optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numuru sērijas nav obligātas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Numbers for all fiscal integration entities can be generated either from number sequences or manually.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numurus visiem finanšu integrācijas elementiem var izveidot, izmantojot numuru sērijas vai manuāli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Upload configurations of fiscal connectors and fiscal document providers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Augšupielādējiet finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurācijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>A fiscal document provider is responsible for generating fiscal documents that represent retail transactions and events that are registered on the POS in a format that is also used for the interaction with a fiscal device or service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu dokumentu nodrošinātājs ir atbildīgs par finanšu dokumentu sagatavošanu, kuri norāda mazumtirdzniecības transakcijas un notikumus, kas reģistrēti POS, tādā formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci vai pakalpojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>For example, a fiscal document provider might generate a representation of a fiscal receipt in an XML format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, finanšu dokumentu nodrošinātājs var izveidot finanšu dokumenta attēlojumu XML formātā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>A fiscal connector is responsible for the communication with a fiscal device or service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu savienotājs ir atbildīgs par saziņu ar finanšu ierīci vai pakalpojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>For example, a fiscal connector might send a fiscal receipt that a fiscal document provider created in an XML format to a fiscal printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, finanšu savienotājs var nosūtīt finanšu dokumentu, kuru izveidoja finanšu dokumentu nodrošinātājs XML formātā, uz fiskālo printeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>For more details about fiscal integration components, see <bpt id="p1">[</bpt>Fiscal registration process and fiscal integration samples for fiscal devices<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju par finanšu integrācijas komponentiem skatiet tēmā <bpt id="p1">[</bpt>Finanšu reģistrācijas process un finanšu integrācijas paraugi finanšu ierīcēm<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connectors<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal connectors<ept id="p2">**</ept>), upload an XML configuration for each device or service that you plan to use for fiscal integration purposes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu savienotāji<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu savienotāji<ept id="p2">**</ept>) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot finanšu integrācijas nolūkos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>By selecting <bpt id="p1">**</bpt>View<ept id="p1">**</ept>, you can view all functional and technical profiles that are related to the current fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasot <bpt id="p1">**</bpt>Skatīt<ept id="p1">**</ept>, varat skatīt visus funkcionālos un tehniskos profilus, kas ir saistīti ar pašreizējo finanšu savienotāju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>On the <bpt id="p1">**</bpt>Fiscal document providers<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal document providers<ept id="p2">**</ept>), upload an XML configuration for each device or service that you plan to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu dokumentu nodrošinātāji<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu dokumentu nodrošinātāji<ept id="p2">**</ept>) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>By selecting <bpt id="p1">**</bpt>View<ept id="p1">**</ept>, you can view all functional profiles that are related to the current fiscal document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasot <bpt id="p1">**</bpt>Skatīt<ept id="p1">**</ept>, varat skatīt visus funkcionālos profilus, kas ir saistīti ar pašreizējo finanšu dokumentu nodrošinātāju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>For examples of configurations of fiscal connectors and fiscal document providers, see <bpt id="p1">[</bpt>Fiscal integration samples in the Retail SDK<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurāciju piemērus skatiet tēmā <bpt id="p1">[</bpt>Finanšu integrācijas paraugi komplektā Retail SDK<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Data mapping is considered part of a fiscal document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu kartēšana tiek uzskatīta par daļu no finanšu dokumentu nodrošinātāja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>To set up different data mappings for the same connector (for example, state-specific regulations), you should create different fiscal document providers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iestatītu citus datu kartējumus tam pašam savienotājam (piemēram, ja pastāv valstij raksturīgi noteikumi), jums vajadzētu izveidot dažādus finanšu dokumentu nodrošinātājus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Create connector functional profiles and connector technical profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet savienotāja funkcionālos profilus un savienotāja tehniskos profilus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>On the <bpt id="p1">**</bpt>Connector functional profiles<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Connector functional profiles<ept id="p2">**</ept>), create a connector functional profile for each combination of a fiscal connector and a fiscal document provider that is related to this fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Savienotāja funkcionālie profili<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Savienotāja funkcionālie profili<ept id="p2">**</ept>) izveidojiet savienotāja funkcionālo profilu katrai finanšu savienotāja un ar šo finanšu savienotāju saistītā finanšu dokumentu nodrošinātāja kombinācijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select a connector name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet savienotāja nosaukumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Select a document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kādu dokumentu nodrošinātāju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>You can change the data mapping parameters in a connector functional profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat mainīt datu kartēšanas parametrus savienotāja funkcionālajā profilā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>To restore the default parameters that are defined in the fiscal document provider configuration, select <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai atjaunotu noklusētos parametrus, kas definēti finanšu dokumentu nodrošinātāja konfigurācijā, atlasiet <bpt id="p1">**</bpt>Atjaunināt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Piemēri<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formāts</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paraugs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">**</bpt>VAT rates settings<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>PVN likmju iestatījumi<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>value : VATrate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">value : VATrate</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>1 : 2000, 2 : 1800</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1 : 2000, 2 : 1800</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">**</bpt>VAT codes mapping<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>PVN kodu kartējums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>VATcode : value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VATcode : value</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>vat20 : 1, vat18 : 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">vat20 : 1, vat18 : 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">**</bpt>Tender types mapping<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Norēķinu tipu kartējums<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>TenderType : value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TenderType : value</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Cash : 1, Card : 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cash : 1, Card : 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Connector functional profiles are company-specific.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Savienotāja funkcionālie profili attiecas tikai uz konkrētu uzņēmumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>If you plan to use the same combination of a fiscal connector and a fiscal document provider in different companies, you should create a connector functional profile for each company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja plānojat izmantot to pašu finanšu savienotāja un finanšu dokumentu nodrošinātāja kombināciju dažādos uzņēmumos, ir jāizveido savienotāja funkcionālais profils katram uzņēmumam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>On the <bpt id="p1">**</bpt>Connector technical profiles<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Connector technical profiles<ept id="p2">**</ept>), create a connector technical profile for each fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Savienotāja tehniskie profili<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Savienotāja tehniskie profili<ept id="p2">**</ept>) izveidojiet savienotāja tehnisko profilu katram finanšu savienotājam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Select a connector name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet savienotāja nosaukumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Select a connector type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kādu savienotāja tipu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>For devices that are connected to a Hardware station, select <bpt id="p1">**</bpt>Local<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ierīcēm, kas ir savienotas ar aparatūras staciju, atlasiet vienumu <bpt id="p1">**</bpt>Vietējais<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Only local connectors are currently supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pašlaik tiek atbalstīti tikai vietējie savienotāji.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Parameters on the <bpt id="p1">**</bpt>Device<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> tabs in a connector technical profile can be changed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametrus savienotāja tehniskā profila cilnēs <bpt id="p1">**</bpt>Ierīces<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Iestatījumi<ept id="p2">**</ept> var mainīt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>To restore the default parameters that are defined in the fiscal connector configuration, select <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai atjaunotu noklusētos parametrus, kas definēti finanšu savienotāja konfigurācijā, atlasiet <bpt id="p1">**</bpt>Atjaunināt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>While a new version of an XML configuration is loaded, you receive a message that states that the current fiscal connector or fiscal document provider is already being used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ielādējot XML konfigurācijas jaunu versiju, tiek parādīts ziņojums, ka pašreizējais finanšu savienotājs vai finanšu dokumentu nodrošinātājs jau tiek izmantots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>This procedure doesn't override manual changes that were previously made in connector functional profiles and connector technical profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī procedūra nepārlabo manuālās izmaiņas, kas iepriekš veiktas savienotāja funkcionālajos profilos un savienotāja tehniskajos profilos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>To apply the default set of parameters from a new configuration, on the <bpt id="p1">**</bpt>Connector functional profiles<ept id="p1">**</ept> page or the <bpt id="p2">**</bpt>Connector technical profiles<ept id="p2">**</ept> page, select <bpt id="p3">**</bpt>Update<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai lietotu noklusējuma parametru kopu no jaunas konfigurācijas, atlasiet vienumu <bpt id="p1">**</bpt>Atjaunināt<ept id="p1">**</ept> lapā <bpt id="p2">**</bpt>Savienotāja funkcionālie profili<ept id="p2">**</ept> vai lapā <bpt id="p3">**</bpt>Savienotāja tehniskie profili<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Create fiscal connector groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet finanšu savienotāju grupas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>A fiscal connector group combines functional profiles of fiscal connectors that perform identical functions and are used at the same step of a fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Savienotāju grupā ir apvienoti tādu finanšu savienotāju funkcionālie profili, kuri veic identiskas funkcijas un finanšu reģistrācijas procesā tiek izmantoti tajā pašā darbībā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>For example, if several fiscal printer models can be used in a retail store, fiscal connectors for those fiscal printers can be combined in a fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, ja vairākus fiskālo printeru modeļus var izmantot mazumtirdzniecības veikalā, finanšu savienotājus šiem fiskālajiem printeriem var apvienot finanšu savienotāju grupā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal connector groups<ept id="p2">**</ept>), create a new fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu savienotāju grupa<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu savienotāju grupas<ept id="p2">**</ept>) izveidojiet jaunu finanšu savienotāju grupu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Add functional profiles to the connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pievienojiet funkcionālos profilus savienotāju grupai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>On the <bpt id="p1">**</bpt>Functional profiles<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and select a profile number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilnē <bpt id="p2">**</bpt>Funkcionālie profili<ept id="p2">**</ept> atlasiet vienumu <bpt id="p1">**</bpt>Pievienot<ept id="p1">**</ept> un atlasiet kādu profila numuru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Each fiscal connector in a connector group can only have one functional profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katram finanšu savienotājam noteiktā savienotāju grupā var būt tikai viens funkcionālais profils.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>To suspend use of the functional profile, set the <bpt id="p1">**</bpt>Disable<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai pārtrauktu attiecīgā funkcionālā profila izmantošanu, opcijai <bpt id="p1">**</bpt>Atspējot<ept id="p1">**</ept> iestatiet vienumu <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>This change affects only the current connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs izmaiņas ietekmē tikai pašreizējo savienotāju grupu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>You can continue to use the same functional profile in other connector groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat turpināt tā paša funkcionālā profila izmantošanu citās savienotāju grupās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Create a fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet finanšu reģistrācijas procesu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>A fiscal registration process is defined by the sequence of registration steps and the connector group that is used for each step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu reģistrācijas procesu nosaka reģistrācijas darbību secība un katrā darbībā izmantotā savienotāju grupa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>On the <bpt id="p1">**</bpt>Fiscal registration process<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal registration processes<ept id="p2">**</ept>), create a new record for each unique process of fiscal registration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu reģistrācijas process<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu reģistrācijas procesi<ept id="p2">**</ept>) izveidojiet jaunu ierakstu katram unikālajam finanšu reģistrācijas procesam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Add registration steps to the process:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pievienojiet procesam reģistrācijas darbības.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Pievienot<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Select a fiscal connector type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet finanšu savienotāja tipu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>In the <bpt id="p1">**</bpt>Group number<ept id="p1">**</ept> field, select an appropriate fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Grupas numurs<ept id="p1">**</ept> atlasiet atbilstošo finanšu savienotāju grupu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Assign entities of the fiscal registration process to POS profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piešķiriet finanšu reģistrācijas procesa elementus POS profiliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>On the <bpt id="p1">**</bpt>POS functionality profiles<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS profiles <ph id="ph4">\&gt;</ph> Functionality profiles<ept id="p2">**</ept>), assign the fiscal registration process to a POS functionality profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>POS funkcionalitātes profili<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> POS iestatīšana <ph id="ph3">\&gt;</ph> POS profili <ph id="ph4">\&gt;</ph> Funkcionalitātes profili<ept id="p2">**</ept>) piešķiriet finanšu reģistrācijas procesu POS funkcionalitātes profilam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then, on the <bpt id="p2">**</bpt>Fiscal registration process<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process number<ept id="p3">**</ept> field, select a process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Rediģēt<ept id="p1">**</ept> un pēc tam cilnes <bpt id="p2">**</bpt>Finanšu reģistrācijas process<ept id="p2">**</ept> laukā <bpt id="p3">**</bpt>Procesa numurs<ept id="p3">**</ept> atlasiet procesu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>On the <bpt id="p1">**</bpt>POS hardware profile<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS profiles <ph id="ph4">\&gt;</ph> Hardware profiles<ept id="p2">**</ept>), assign connector technical profiles to a hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>POS aparatūras profils<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> POS iestatīšana <ph id="ph3">\&gt;</ph> POS profili <ph id="ph4">\&gt;</ph> Aparatūras profili<ept id="p2">**</ept>) piešķiriet savienotāja tehnisko profilu aparatūras profilam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, add a line on the <bpt id="p2">**</bpt>Fiscal peripherals<ept id="p2">**</ept> tab, and then, in the <bpt id="p3">**</bpt>Profile number<ept id="p3">**</ept> field, select a connector technical profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Rediģēt<ept id="p1">**</ept>, pievienojiet rindu cilnē <bpt id="p2">**</bpt>Finanšu perifērijas ierīces<ept id="p2">**</ept> un pēc tam laukā <bpt id="p3">**</bpt>Profila numurs<ept id="p3">**</ept> atlasiet savienotāja tehnisko profilu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>You can add several technical profiles to the same hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tam pašam aparatūras profilam varat pievienot vairākus tehniskos profilus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>However, a hardware profile or POS functionality profile should have only one intersection with any fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tomēr aparatūras profilam vai POS funkcionalitātes profilam jābūt tikai vienam krustpunktam ar jebkuru finanšu savienotāju grupu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>The fiscal registration flow is defined by the fiscal registration process and also by some parameters of fiscal integration components: the Commerce runtime extension for the fiscal document provider and the Hardware station extension for the fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu reģistrācijas plūsmu nosaka finanšu reģistrācijas process, kā arī daži finanšu integrācijas komponentu parametri: paplašinājums Commerce Runtime finanšu dokumentu nodrošinātājam un paplašinājums Hardware Station finanšu savienotājam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>The subscription of events and transactions to fiscal registration is predefined in the fiscal document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abonēšana notikumiem un transakcijām finanšu reģistrācijā ir iepriekš definēta finanšu dokumentu nodrošinātājā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>The fiscal document provider is also responsible for identifying the fiscal connector that is used for fiscal registration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu dokumentu nodrošinātājs ir atbildīgs arī par fiskālajai reģistrācijai izmantotā finanšu savienotāja identificēšanu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>It matches the connector functional profiles that are included in the fiscal connector group that is specified for the current step of the fiscal registration process with the connector technical profile that is assigned to the hardware profile of the Hardware station that the POS is paired to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas atbilst savienotāja funkcionālajiem profiliem, kas ir iekļauti finanšu savienotāju grupā, kas ir norādīta finanšu reģistrācijas procesa pašreizējai darbībai ar savienotāja tehnisko profilu, kas ir piešķirts tādas aparatūras stacijas aparatūras profilam, ar kuru ir savienots pārī POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>The fiscal document provider uses the data mapping settings from the fiscal document provider configuration to transform transaction/event data such as taxes and payments while a fiscal document is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu dokumentu nodrošinātājs izmanto datu kartēšanas iestatījumus no finanšu dokumentu nodrošinātāja konfigurācijas, lai pārveidotu transakciju/notikumu datus, piemēram, nodokļus un maksājumus, kamēr tiek izveidots finanšu dokuments.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>When the fiscal document provider generates a fiscal document, the fiscal connector can either send it to the fiscal device as is, or parse it and transform it into a sequence of commands of the device application programming interface (API), depending on how the communication is handled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja finanšu dokumentu nodrošinātājs izveido finanšu dokumentu, finanšu savienotājs var to nosūtīt uz finanšu ierīci tādu, kāds tas ir, vai parsēt to un pārveidot par ierīces lietojumprogrammas interfeisa (API) komandu sēriju atkarībā no tā, kā tiek apstrādāti sakari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>On the <bpt id="p1">**</bpt>Fiscal registration process<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal registration processes<ept id="p2">**</ept>), select <bpt id="p3">**</bpt>Validate<ept id="p3">**</ept> to validate the fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu reģistrācijas process<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu reģistrācijas procesi<ept id="p2">**</ept>) atlasiet vienumu <bpt id="p3">**</bpt>Validēt<ept id="p3">**</ept>, lai validētu finanšu reģistrācijas procesu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>We recommend that you run this type of validation in the following cases:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ieteicams palaist šī tipa pārbaudes šādos gadījumos:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>After you've completed all the settings for a new registration process, including when you assign registration processes to POS functionality profiles and hardware profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam, kad ir pabeigti visi iestatījumi jaunam reģistrācijas procesam, tostarp piešķirot reģistrācijas procesus POS funkcionalitātes profiliem un aparatūras profiliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>After you make changes to an existing fiscal registration process, and those changes might cause a different fiscal connector to be selected at runtime (for example, if you change the connector group for a fiscal registration process step, enable a connector functional profile in a connector group, or add a new connector functional profile to a connector group).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam, kad veiktas esošā finanšu reģistrācijas procesa izmaiņas, un šīs izmaiņas var izraisīt cita finanšu savienotāja atlasi izpildes laikā (piemēram, mainot savienotāju grupu finanšu reģistrācijas procesa darbībai, iespējojot savienotāja funkcionālo profilu savienotāja grupā vai pievienojot jaunu savienotāja funkcionālo profilu savienotāja grupai).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>After you make changes in the assignment of connector technical profiles to hardware profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc izmaiņu veikšanas saistībā ar savienotāja tehnisko profilu piešķiri aparatūras profiliem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>On the <bpt id="p1">**</bpt>Distribution schedule<ept id="p1">**</ept> page, run the <bpt id="p2">**</bpt>1070<ept id="p2">**</ept> and <bpt id="p3">**</bpt>1090<ept id="p3">**</ept> jobs to transfer data to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Sadales grafiks<ept id="p1">**</ept> palaidiet darbus <bpt id="p2">**</bpt>1070<ept id="p2">**</ept> un <bpt id="p3">**</bpt>1090<ept id="p3">**</ept>, lai pārsūtītu datus uz kanāla datu bāzi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Set up fiscal texts for discounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlaižu finanšu teksta iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>In some cases, a special text must be printed on a fiscal receipt if a discount is applied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dažos gadījumos uz finanšu dokumenta jādrukā īpašs teksts, ja tiek piemērota atlaide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>You can set up fiscal texts for discounts on the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal connector groups<ept id="p2">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlaižu finanšu tekstu var iestatīt lapā <bpt id="p1">**</bpt>Finanšu savienotāju grupa<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu savienotāju grupas<ept id="p2">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>For manual discounts that are applied at the POS, you should set a fiscal text for the info code or info code group that is specified as the <bpt id="p1">**</bpt>Product discount<ept id="p1">**</ept> info code in the POS functionality profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Manuālām atlaidēm, kuras tiek piemērotas POS, jāiestata finanšu teksts informācijas kodam vai informācijas kodu grupai, kas POS funkcionalitātes profilā ir norādīti kā informācijas kods <bpt id="p1">**</bpt>Preces atlaide<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Text for fiscal receipt<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu savienotāju grupa<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Finanšu dokumenta teksts<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>On the <bpt id="p1">**</bpt>Info codes<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and select an info code or info code group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilnē <bpt id="p1">**</bpt>Informācijas kodi<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Pievienot<ept id="p2">**</ept> un atlasiet informācijas kodu vai informācijas kodu grupu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>In the <bpt id="p1">**</bpt>Info code number<ept id="p1">**</ept>, select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienumam <bpt id="p1">**</bpt>Informācijas koda numurs<ept id="p1">**</ept> atlasiet vērtību.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>In the <bpt id="p1">**</bpt>Subcode number<ept id="p1">**</ept> field, select a value if a subcode is required for the selected info code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Apakškoda numurs<ept id="p1">**</ept> atlasiet vērtību, ja apakškods ir nepieciešams atlasītajam informācijas kodam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In the <bpt id="p1">**</bpt>Text for fiscal receipt<ept id="p1">**</ept> field, specify a fiscal text that should be printed on a fiscal receipt.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Finanšu dokumenta teksts<ept id="p1">**</ept> norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Set the <bpt id="p1">**</bpt>Print user input on fiscal receipt<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to override the text on a fiscal receipt with information that a user manually enters at the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet opcijai <bpt id="p1">**</bpt>Izdrukāt lietotāja ievadi finanšu dokumentā<ept id="p1">**</ept> vienumu <bpt id="p2">**</bpt>Jā<ept id="p2">**</ept>, lai pārlabotu tekstu uz finanšu dokumenta ar informāciju, ko lietotājs manuāli ievada POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>This option applies only to info codes that have an input type of <bpt id="p1">**</bpt>Text<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī opcija attiecas tikai uz informācijas kodiem, kuriem ir ievades veids <bpt id="p1">**</bpt>Teksts<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>You can specify a fiscal text for several info codes to support scenarios where info code groups, linked info codes, and triggered info codes are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Var norādīt finanšu tekstu vairākiem informācijas kodiem, lai nodrošinātu atbalstu scenārijiem, kuru ietvaros tiek izmantotas informācijas kodu grupas, saistīti informācijas kodi un aktivizēti informācijas kodi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>In these scenarios, the fiscal receipt will contain the fiscal texts from all info codes that are linked to the transaction line where the discount was applied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajos scenārijos finanšu dokumentā būs ietverti finanšu teksti no visiem informācijas kodiem, kas ir saistīti ar transakcijas rindu, kurai tika piemērota atlaide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>For channel-specific discounts, you should define a fiscal text for the discount ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanālam raksturīgu atlaižu gadījumā ir jādefinē finanšu teksts atlaides ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Text for fiscal receipt<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu savienotāju grupa<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Finanšu dokumenta teksts<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>On the <bpt id="p1">**</bpt>Discounts<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and select a discount ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilnē <bpt id="p1">**</bpt>Atlaides<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Pievienot<ept id="p2">**</ept> un atlasiet atlaides ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>In the <bpt id="p1">**</bpt>Text for fiscal receipt<ept id="p1">**</ept> field, specify a fiscal text that should be printed on a fiscal receipt.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Finanšu dokumenta teksts<ept id="p1">**</ept> norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>If several discounts are applied to the same transaction line, the fiscal receipt will contain fiscal texts from all discounts that are linked to those transaction line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tai pašai transakcijas rindai tiek piemērotas vairākas atlaides, finanšu dokumentā būs ietverti finanšu teksti no visām atlaidēm, kuras ir saistītas ar attiecīgo transakcijas rindu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Set error handling settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kļūdu apstrādes iestatījumu veikšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>The error handling options that are available in the fiscal integration are set in the fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kļūdu apstrādes opcijas, kas pieejamas finanšu integrācijā, tiek iestatītas finanšu reģistrācijas procesā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>For more information about error handling in the fiscal integration, see <bpt id="p1">[</bpt>Error handling<ept id="p1">](fiscal-integration-for-retail-channel.md#error-handling)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju par kļūdu apstrādi finanšu integrācijā skatiet tēmā <bpt id="p1">[</bpt>Kļūdu apstrāde<ept id="p1">](fiscal-integration-for-retail-channel.md#error-handling)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>On the <bpt id="p1">**</bpt>Fiscal registration process<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal registration processes<ept id="p2">**</ept>), you can set the following parameters for each step of the fiscal registration process:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Finanšu reģistrācijas process<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Kanāla iestatīšana <ph id="ph2">\&gt;</ph> Finanšu integrācija <ph id="ph3">\&gt;</ph> Finanšu reģistrācijas procesi<ept id="p2">**</ept>) varat iestatīt šādus parametrus katrai finanšu reģistrācijas procesa darbībai:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source><bpt id="p1">**</bpt>Allow skip<ept id="p1">**</ept> – This parameter enables the <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> option in the error handling dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Atļaut izlaist<ept id="p1">**</ept> — šis parametrs iespējo opciju <bpt id="p2">**</bpt>Izlaist<ept id="p2">**</ept> kļūdu apstrādes dialoglodziņā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source><bpt id="p1">**</bpt>Allow mark as registered<ept id="p1">**</ept> – This parameter enables the <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> option in the error handling dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Atļaut atzīmēt kā reģistrētu<ept id="p1">**</ept> — šis parametrs iespējo opciju <bpt id="p2">**</bpt>Atzīmēt kā reģistrētu<ept id="p2">**</ept> kļūdu apstrādes dialoglodziņā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source><bpt id="p1">**</bpt>Continue on error<ept id="p1">**</ept> – If this parameter is enabled, the fiscal registration process can continue on the POS register if the fiscal registration of a transaction or event fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kļūdas gadījumā turpināt<ept id="p1">**</ept> — ja šis parametrs ir iespējots, finanšu reģistrācijas process POS reģistrā var turpināties arī tad, ja transakcijas vai notikuma finanšu reģistrācija ir nesekmīga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Otherwise, to run the fiscal registration of the next transaction or event, the operator must retry the failed fiscal registration, skip it, or mark the transaction or event as registered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pretējā gadījumā, lai palaistu nākamās transakcijas vai notikuma finanšu reģistrāciju, operatoram ir atkārtot jāmēģina izpildīt nesekmīgo finanšu reģistrāciju, jāizlaiž šī reģistrācija vai attiecīgā transakcija vai notikums ir jāatzīmē kā reģistrēts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>For more information, see <bpt id="p1">[</bpt>Optional fiscal registration<ept id="p1">](fiscal-integration-for-retail-channel.md#optional-fiscal-registration)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju skatiet rakstā <bpt id="p1">[</bpt>Neobligātā finanšu reģistrācija<ept id="p1">](fiscal-integration-for-retail-channel.md#optional-fiscal-registration)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>If the <bpt id="p1">**</bpt>Continue on error<ept id="p1">**</ept> parameter is enabled, the <bpt id="p2">**</bpt>Allow skip<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Allow mark as registered<ept id="p3">**</ept> parameters are automatically disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja ir iespējots parametrs <bpt id="p1">**</bpt>Kļūdas gadījumā turpināt<ept id="p1">**</ept>, parametrs <bpt id="p2">**</bpt>Atļaut izlaist<ept id="p2">**</ept> un parametrs <bpt id="p3">**</bpt>Atļaut atzīmēt kā reģistrētu<ept id="p3">**</ept> automātiski tiek atspējots.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>The <bpt id="p1">**</bpt>Skip<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> options in the error handling dialog box require the <bpt id="p3">**</bpt>Allow skip registration or mark as registered<ept id="p3">**</ept> permission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Opcijām <bpt id="p1">**</bpt>Izlaist<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Atzīmēt kā reģistrētu<ept id="p2">**</ept> kļūdu apstrādes dialoglodziņā ir nepieciešama atļauja <bpt id="p3">**</bpt>Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Therefore, on the <bpt id="p1">**</bpt>Permission groups<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Employees <ph id="ph2">\&gt;</ph> Permission groups<ept id="p2">**</ept>), enable the <bpt id="p3">**</bpt>Allow skip registration or mark as registered<ept id="p3">**</ept> permission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tādēļ lapā <bpt id="p1">**</bpt>Atļauju grupas<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Darbinieki <ph id="ph2">\&gt;</ph> Atļauju grupas<ept id="p2">**</ept>) ir jāiespējo atļauja <bpt id="p3">**</bpt>Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>The <bpt id="p1">**</bpt>Skip<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> options let operators enter additional information when fiscal registration fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Opcijas <bpt id="p1">**</bpt>Izlaist<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Atzīmēt kā reģistrētu<ept id="p2">**</ept> ļauj operatoriem ievadīt papildu informāciju, kad finanšu reģistrācija neizdodas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>To make this functionality available, you should specify the <bpt id="p1">**</bpt>Skip<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> info codes on a fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai šī funkcionalitāte būtu pieejama, ir jānorāda informācijas kodi <bpt id="p1">**</bpt>Izlaist<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Atzīmēt kā reģistrētu<ept id="p2">**</ept> finanšu savienotāju grupā.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>The information that operators enter is then saved as an info code transaction that is linked to the fiscal transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam operatoru ievadītā informācija tiek saglabāta kā informācijas koda transakcija, kas saistīta ar finanšu transakciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>For more details about info codes, see <bpt id="p1">[</bpt>Info codes and info code groups<ept id="p1">](../info-codes-retail.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju par informācijas kodiem skatiet tēmā <bpt id="p1">[</bpt>Informācijas kodi un informācijas kodu grupas<ept id="p1">](../info-codes-retail.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>The <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> trigger function isn't supported for the info codes that are used for <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Mark as registered<ept id="p3">**</ept> in fiscal connector groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Trigera funkcija <bpt id="p1">**</bpt>Prece<ept id="p1">**</ept> netiek atbalstīta informācijas kodiem, kas tiek izmantoti opcijām <bpt id="p2">**</bpt>Izlaist<ept id="p2">**</ept> un <bpt id="p3">**</bpt>Atzīmēt kā reģistrētu<ept id="p3">**</ept> finanšu savienotāju grupās.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Info codes<ept id="p2">**</ept> tab, select info codes or info code groups in the <bpt id="p3">**</bpt>Skip<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Mark as registered<ept id="p4">**</ept> fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapas <bpt id="p1">**</bpt>Finanšu savienotāju grupa<ept id="p1">**</ept> cilnē <bpt id="p2">**</bpt>Informācijas kodi<ept id="p2">**</ept> atlasiet informācijas kodus vai informācijas kodu grupas laukos <bpt id="p3">**</bpt>Izlaist<ept id="p3">**</ept> un <bpt id="p4">**</bpt>Atzīmēt kā reģistrētu<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>One fiscal document and one non-fiscal document can be generated on any step of a fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jebkurā finanšu reģistrācijas procesa darbībā var izveidot vienu finanšu dokumentu un vienu ar finansēm nesaistītu dokumentu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>A fiscal document provider extension identifies every type of transaction or event as related to fiscal or non-fiscal documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finanšu dokumentu nodrošinātāja paplašinājums norāda visus transakciju vai notikumu veidus saistībā ar finanšu dokumentiem vai arī ar finansēm nesaistītiem dokumentiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>The error handling feature applies only to fiscal documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kļūdu apstrādes līdzeklis attiecas tikai uz finanšu dokumentiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source><bpt id="p1">**</bpt>Fiscal document<ept id="p1">**</ept> – A mandatory document that should be registered successfully (for example, a fiscal receipt).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Finanšu dokuments<ept id="p1">**</ept> — obligāts dokuments, kas ir veiksmīgi jāreģistrē (piemēram, finanšu dokuments).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source><bpt id="p1">**</bpt>Non-fiscal document<ept id="p1">**</ept> – A supplementary document for the transaction or event (for example, a gift card slip).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ar finansēm nesaistīts dokuments<ept id="p1">**</ept> — transakcijas vai notikuma papildu dokuments (piemēram, dāvanu karte).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>If the operator must be able to continue to process the current operation (for example, creation or finalization of a transaction) after a health check error occurs, you should enable the <bpt id="p1">**</bpt>Allow skip health check error<ept id="p1">**</ept> permission on the <bpt id="p2">**</bpt>Permission groups<ept id="p2">**</ept> page (<bpt id="p3">**</bpt>Retail <ph id="ph1">\&gt;</ph> Employees <ph id="ph2">\&gt;</ph> Permission groups<ept id="p3">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja operatoram ir jāspēj turpināt pašreizējās operācijas apstrādāšanu (piemēram, transakcijas izveidošanu vai pabeigšanu) arī pēc darbspējas pārbaudes kļūda rašanās, iespējojiet atļauju <bpt id="p1">**</bpt>Atļaut izlaist darbspējas pārbaudes kļūdu<ept id="p1">**</ept> lapā <bpt id="p2">**</bpt>Atļauju grupas<ept id="p2">**</ept> (<bpt id="p3">**</bpt>Mazumtirdzniecība <ph id="ph1">\&gt;</ph> Darbinieki <ph id="ph2">\&gt;</ph> Atļauju grupas<ept id="p3">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>For more information about the health check procedure, see <bpt id="p1">[</bpt>Fiscal registration health check<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju par darbspējas pārbaudes procedūru skatiet rakstā <bpt id="p1">[</bpt>Finanšu reģistrācijas darbspējas pārbaude<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Set up fiscal X/Z reports from the POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS finanšu X/Z pārskatu iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>To enable fiscal X/Z reports to be run from the POS, you should add new buttons to a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas pogas POS izkārtojumam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>On the <bpt id="p1">**</bpt>Button grids<ept id="p1">**</ept> page, follow the instructions in <bpt id="p2">[</bpt>Add a custom operation button to the POS layout in Retail headquarters<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept> to install the designer and update a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Pogu rindas<ept id="p1">**</ept> sekojiet instrukcijām sadaļā <bpt id="p2">[</bpt>Pielāgotas operāciju pogas pievienošana POS izkārtojumam programmā Mazumtirdzniecība<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept>, lai instalētu veidotāju un atjauninātu POS izkārtojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Select the layout to update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet atjaunināmo izkārtojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Add a new button, and set the <bpt id="p1">**</bpt>Print fiscal X<ept id="p1">**</ept> button property.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pievienojiet jaunu pogu un iestatiet <bpt id="p1">**</bpt>Drukāt finanšu X<ept id="p1">**</ept> pogas rekvizītu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Add a new button, and set the <bpt id="p1">**</bpt>Print fiscal Z<ept id="p1">**</ept> button property.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pievienojiet jaunu pogu un iestatiet <bpt id="p1">**</bpt>Drukāt finanšu Z<ept id="p1">**</ept> pogas rekvizītu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>On the <bpt id="p1">**</bpt>Distribution schedule<ept id="p1">**</ept> page, run the <bpt id="p2">**</bpt>1090<ept id="p2">**</ept> job to transfer changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Sadales grafiks<ept id="p1">**</ept> palaidiet darbu <bpt id="p2">**</bpt>1090<ept id="p2">**</ept>, lai pārsūtītu izmaiņas uz kanāla datu bāzi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Enable manual execution of postponed fiscal registration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atliktas finanšu reģistrācijas manuālas izpildes iespējošana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>To enable manual execution of a postponed fiscal registration, you should add a new button to a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izkārtojumam jums ir jāpievieno jauna poga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>On the <bpt id="p1">**</bpt>Button grids<ept id="p1">**</ept> page, follow the instructions in <bpt id="p2">[</bpt>Add a custom operation button to the POS layout in Retail headquarters<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept> to install the designer and update a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Pogu rindas<ept id="p1">**</ept> sekojiet instrukcijām sadaļā <bpt id="p2">[</bpt>Pielāgotas operāciju pogas pievienošana POS izkārtojumam programmā Mazumtirdzniecība<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept>, lai instalētu veidotāju un atjauninātu POS izkārtojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Select the layout to update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet atjaunināmo izkārtojumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Add a new button, and set the <bpt id="p1">**</bpt>Complete fiscal registration process<ept id="p1">**</ept> button property.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pievienojiet jaunu pogu un iestatiet pogas rekvizītu <bpt id="p1">**</bpt>Pabeigt finanšu reģistrācijas procesu<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>On the <bpt id="p1">**</bpt>Distribution schedule<ept id="p1">**</ept> page, run the <bpt id="p2">**</bpt>1090<ept id="p2">**</ept> job to transfer your changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Sadales grafiks<ept id="p1">**</ept> palaidiet darbu <bpt id="p2">**</bpt>1090<ept id="p2">**</ept>, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

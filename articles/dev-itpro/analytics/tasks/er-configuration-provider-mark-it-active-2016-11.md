@@ -1,48 +1,78 @@
----
-title: Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā statusā
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER).
-author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544913"
----
-# <a name="create-configuration-providers-and-mark-them-as-active"></a><span data-ttu-id="dbd86-103">Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā statusā</span><span class="sxs-lookup"><span data-stu-id="dbd86-103">Create configuration providers and mark them as active</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="dbd86-104">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER).</span><span class="sxs-lookup"><span data-stu-id="dbd86-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="dbd86-105">Katra ER konfigurācija atsauksies uz nodrošinātāju kā konfigurācijas autoru.</span><span class="sxs-lookup"><span data-stu-id="dbd86-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="dbd86-106">Šajā piemērā tiek izveidots konfigurēšanas pakalpojuma sniedzējs parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurēšanas pakalpojuma sniedzēji ir kopīgi visiem uzņēmumiem.</span><span class="sxs-lookup"><span data-stu-id="dbd86-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
-
-
-## <a name="create-a-provider"></a><span data-ttu-id="dbd86-107">Nodrošinātāja izveide</span><span class="sxs-lookup"><span data-stu-id="dbd86-107">Create a provider</span></span>
-1. <span data-ttu-id="dbd86-108">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="dbd86-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="dbd86-109">Noklikšķiniet uz Konfigurācijas nodrošinātāji.</span><span class="sxs-lookup"><span data-stu-id="dbd86-109">Click Configuration providers.</span></span>
-3. <span data-ttu-id="dbd86-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="dbd86-110">Click New.</span></span>
-    * <span data-ttu-id="dbd86-111">Nodrošinātāja ierakstam ir unikāls nosaukums un URL.</span><span class="sxs-lookup"><span data-stu-id="dbd86-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="dbd86-112">Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja “Litware, Inc.” (http://www.litware.com) ieraksts jau pastāv.</span><span class="sxs-lookup"><span data-stu-id="dbd86-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
-4. <span data-ttu-id="dbd86-113">Laukā Nosaukums ierakstiet Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="dbd86-113">In the Name field, type 'Litware, Inc.'.</span></span>
-    * <span data-ttu-id="dbd86-114">Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="dbd86-114">Litware, Inc.</span></span>  
-5. <span data-ttu-id="dbd86-115">Laukā Interneta adrese ierakstiet “http://www.litware.com”.</span><span class="sxs-lookup"><span data-stu-id="dbd86-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
-    * http://www.litware.com  
-6. <span data-ttu-id="dbd86-116">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="dbd86-116">Click Save.</span></span>
-7. <span data-ttu-id="dbd86-117">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="dbd86-117">Close the page.</span></span>
-
-## <a name="select-as-an-active-provider"></a><span data-ttu-id="dbd86-118">Atlasiet kā aktīvu nodrošinātāju</span><span class="sxs-lookup"><span data-stu-id="dbd86-118">Select as an active provider</span></span>
-1. <span data-ttu-id="dbd86-119">Atlasiet pakalpojumu sniedzēju Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="dbd86-119">Select the Litware, Inc. provider.</span></span>
-2. <span data-ttu-id="dbd86-120">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="dbd86-120">Click Set active.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="er-configuration-provider-mark-it-active-2016-11.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>er-configuration-provider-mark-it-active-2016-11.48153b.a4b1cd7a02cdf4c650af50199f4425eb53cef0a8.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a4b1cd7a02cdf4c650af50199f4425eb53cef0a8</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-configuration-provider-mark-it-active-2016-11.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Create configuration providers and mark them as active</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā statusā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Create configuration providers and mark them as active</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā statusā</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot konfigurācijas nodrošinātāju Elektroniskajos pārskatos (ER).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Each ER configuration will refer to the provider as the author of the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katra ER konfigurācija atsauksies uz nodrošinātāju kā konfigurācijas autoru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā piemērā tiek izveidots konfigurēšanas pakalpojuma sniedzējs parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurēšanas pakalpojuma sniedzēji ir kopīgi visiem uzņēmumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Create a provider</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodrošinātāja izveide</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejiet uz sadaļu Organizācijas administrēšana &gt; Darbvietas &gt; Elektronisko pārskatu veidošana.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click Configuration providers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Konfigurācijas nodrošinātāji.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Jauns.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>A provider record has a unique name and URL.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodrošinātāja ierakstam ir unikāls nosaukums un URL.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Review the content of this page and skip this procedure if a record for Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> already exists.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja “Litware, Inc.” (<ph id="ph1">https://www.litware.com)</ph> ieraksts jau pastāv.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Name field, type 'Litware, Inc.'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Nosaukums ierakstiet Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Litware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In the Internet address field, type '<ph id="ph1">https://www.litware.com</ph>'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Interneta adrese ierakstiet “<ph id="ph1">https://www.litware.com</ph>”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saglabāt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Select as an active provider</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet kā aktīvu nodrošinātāju</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Select the Litware, Inc. provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet pakalpojumu sniedzēju Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Iestatīt aktīvu.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
