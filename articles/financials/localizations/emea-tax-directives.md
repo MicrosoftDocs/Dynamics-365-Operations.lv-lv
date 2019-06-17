@@ -1,33 +1,48 @@
----
-title: Nodokļu direktīvas Eiropai
-description: Var norādīt, vai iekļaut PVN kodu skaidrojumu pārdošanas rēķinos un projekta rēķinos. Atsauces numurus var drukāt uz pārdošanas rēķiniem, brīva teksta rēķiniem un projekta rēķiniem.
-author: epodkolz
-manager: AnnBe
-ms.date: 05/12/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
-ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
-ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9ea8d22812d403f2e1f87a018fead62d44e3737b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538156"
----
-# <a name="tax-directives-for-europe"></a>Nodokļu direktīvas Eiropai
-
-[!include [banner](../includes/banner.md)]
-
-ES direktīvā ir noteikumi, kas visām Dalībvalstīm ir jāievēro attiecība uz rēķinu noteikumiem un rēķinu veidošanas laika iekļaujamo informāciju. ES direktīvā ir uzskaitīta informācija, kas piegādātājiem ir jāsniedz saviem klientiem, kuri atrodas ES. Rēķinā var būt, piemēram, ietverta atsauce, kas apraksta juridisko pamatojumu PVN nulles likmei vai atbrīvojumam no nodokļu maksāšanas. Ja rēķins koriģē agrāk izsniegtu rēķinu, piemēram, kredīta notu, ir jāiekļauj viennozīmīga atsauce uz sākotnējo rēķinu.
-
-- Lai pārdošanas rēķinā, brīva teksta rēķinā vai projekta rēķinu pārskatā drukātu PVN kodu aprakstu, PVN kodiem iestatiet nodokļu direktīvas atsauces tekstu.
-- Kredīta notām sākotnēja rēķina numurs un datums tiek drukāti kopā ar labojuma pamatojumu.
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="emea-tax-directives.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>emea-tax-directives.c8eacb.42861a66b44d6156341bf2d4d895a4bf35295ee6.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>42861a66b44d6156341bf2d4d895a4bf35295ee6</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-tax-directives.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Tax directives for Europe</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļu direktīvas Eiropai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can specify to include an explanation of sales tax codes on sales invoices and project invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Var norādīt, vai iekļaut PVN kodu skaidrojumu pārdošanas rēķinos un projekta rēķinos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>You can print reference numbers on sales invoices, free text invoices, and project invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsauces numurus var drukāt uz pārdošanas rēķiniem, brīva teksta rēķiniem un projekta rēķiniem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Tax directives for Europe</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļu direktīvas Eiropai</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>EU Directive provides regulations to be followed by all Member States regarding invoice rules and information that must be included when creating invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ES direktīvā ir noteikumi, kas visām Dalībvalstīm ir jāievēro attiecība uz rēķinu noteikumiem un rēķinu veidošanas laika iekļaujamo informāciju.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>EU Directive lists the information that is required by suppliers for their customers in the EU.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ES direktīvā ir uzskaitīta informācija, kas piegādātājiem ir jāsniedz saviem klientiem, kuri atrodas ES.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>For example, an invoice could include a reference that describes the legal grounds for a VAT zero-rating or an exemption.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rēķinā var būt, piemēram, ietverta atsauce, kas apraksta juridisko pamatojumu PVN nulles likmei vai atbrīvojumam no nodokļu maksāšanas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>If an invoice adjusts an earlier issued invoice, such as a credit note, an unambiguous reference should be made to the original invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja rēķins koriģē agrāk izsniegtu rēķinu, piemēram, kredīta notu, ir jāiekļauj viennozīmīga atsauce uz sākotnējo rēķinu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>To print a description of sales tax codes on a sales invoice, free text invoice, or project invoice report, set up the Tax Directive reference text on the sales tax codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai pārdošanas rēķinā, brīva teksta rēķinā vai projekta rēķinu pārskatā drukātu PVN kodu aprakstu, PVN kodiem iestatiet nodokļu direktīvas atsauces tekstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>For credit notes, the number and date of the original invoice are printed along with the reason for correction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kredīta notām sākotnēja rēķina numurs un datums tiek drukāti kopā ar labojuma pamatojumu.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

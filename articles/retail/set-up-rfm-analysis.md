@@ -1,99 +1,216 @@
----
-title: Nesenības, biežuma un naudas (RFM) analīzes iestatīšana
-description: Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.
-author: josaw1
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: MCRRFMDefinition
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 78943
-ms.assetid: 8ff9aac3-5ada-4150-85fd-18901c926d53
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: josaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553049"
----
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Nesenības, biežuma un naudas (RFM) analīzes iestatīšana
-
-[!include [banner](includes/banner.md)]
-
-Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.
-
-Nesenības, biežuma un naudas (RFM) analīze ir mārketinga rīks, ko jūsu uzņēmums var izmantot, lai novērtētu datus, kas tiek ģenerēti no debitoru pirkumiem. Pēc RFM analīzes iestatīšanas debitoriem tiek piešķirts aprēķinātais RFM rezultāts, balstoties uz to pirkumiem. RFM rezultāts var būt trīsciparu vērtējums vai kopējs skaitlis, atkarībā no tā, kā jūsu organizācija ir konfigurējusi RFM analīzi. Tālāk aprakstīts, kā šis vērtējums darbojas, ja jūsu organizācija izmanto trīsciparu vērtēšanas rezultātu.
-
-- Pirmais cipars ir debitora nesenības vērtējums — ik ilgs laiks ir pagājis, kopš debitors veica pirkumu no jūsu organizācijas.
-- Otrais cipars ir debitora biežuma vērtējums — cik bieži debitors veic pirkumus no jūsu organizācijas.
-- Trešais cipars ir debitora monetārais vērtējums — cik daudz debitors tērē, veicot pirkumus no jūsu organizācijas.
-
-Piemēram, jūsu organizācija ir noteikusi vērtējumus skalā no 1 līdz 5, kur 5 ir visaugstākais vērtējums. Šajā gadījumā debitora vērtējums 535 sniedz šādu informāciju par debitoru:
-
-- **Nesenības vērtējums 5** — debitors nesen veicis pirkumu.
-- **Biežuma vērtējums 3** — debitors pērk preces no jūsu organizācijas ar vidēju biežumu.
-- **Monetārais vērtējums 5** — veicot pirkumu, debitors iztērē ievērojamu naudas summu.
-
-Ja jūsu organizācija vērtējumam izmanto apkopotos skaitļus, individuāli vērtējumi tiek summēti. Tajā pašā piemērā debitora vērtējums ir 13 (5 + 3 + 5).
-
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Lai iestatītu RFM analīzi debitoriem jūsu organizācijā, izpildiet tālāk aprakstītos norādījumus
-
-1. Dodieties uz **Zvanu centrs** \> **Periodisks** \> **RFM analīze**.
-2. Lapā **RFM analīže** atlasiet **Jauns**. Laukā **RFM definīcija** ievadiet RFM definīcijas nosaukumu. Piemēram, varat nosaukt definīciju par RFM-A.
-3. Ievadiet sākuma datumu un beigu datumu šai RFM definīcijai.
-4. Kopsavilkuma cilnē **Vispārīgi** izpildiet tālāk aprakstītos norādījumus.
-
-    - Ja katrai RFM rezultāta sadaļai ir jāietver vienāds debitoru skaits, atzīmējiet izvēles rūtiņu **Vienmērīga sadale**.
-    - Atzīmējiet izvēles rūtiņu **Saskaitīt rezultātus**, lai sasummētu visus trīs rezultātus. Šādi debitoram tiktu piešķirts RFM rezultāts, piemēram, 13, nevis 535.
-    - Atzīmējiet izvēles rūtiņu **Saglabāt vēsturi**, lai pieprasītu sistēmai saglabāt debitoru statistiskos datus un šos datus varētu izmantot RFM rezultāta aprēķināšanai.
-
-5. Kopsavilkuma cilnē **Nesenība** izpildiet tālāk aprakstītos norādījumus.
-
-    - Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru nesenības rezultāta aprēķināšanai. Piemēram, ja jums ir 100 debitori, sadalījums 5 nodaļās, ka katram rezultātam ir 20 debitori. Tiem 20 debitoriem, kuri pirkumus veica pēdējie, nesenības rezultāts ir 5. Nākamajiem 20 debitoriem nesenības rezultāts ir 4 un tā tālāk. Ja jums ir 50 debitori, 10 debitoriem nesenības rezultāts ir 5, un 10 debitoriem nesenības rezultāts ir 4 un tā tālāk.
-    - Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt nesenības parametram salīdzinājumā ar pārējiem parametriem, aprēķinot debitora RFM rezultātu. Piemēram, varat piešķirt lielāku nozīmi nesenības rezultātam nekā naudas rezultātam.
-    - Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt nesenības rezultātu. Ja neievadāt vērtību, rezultāts netiks reizināts.
-    - Lauka **Periods** atlasiet laika periodu, pēc kura tiek aprēķināts nesenības rezultāts. Piemēram, pa nedēļām vai mēnešiem.
-
-6. Kopsavilkuma cilnē **Biežums** izpildiet tālāk aprakstītos norādījumus.
-
-    - Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru biežuma rezultāta aprēķināšanai.
-    - Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt biežuma parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.
-    - Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt biežuma rezultātu. Ja neievadāt vērtību, rezultāts netiks reizināts.
-
-7. Kopsavilkuma cilnē **Monetārs** izpildiet tālāk aprakstītos norādījumus.
-
-    - Laukā **Nodaļas** ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru monetārā rezultāta aprēķināšanai.
-    - Laukā **Prioritāte** atlasiet, cik lielu svaru vēlaties piešķirt monetārajam parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.
-    - Laukā **Reizinātājs** ievadiet vērtību, ar kuru reizināt monetāro rezultātu. Ja neievadāt vērtību, rezultāts netiks reizināts.
-    - Laukā **Bruto/neto** izvēlieties, vai, aprēķinot debitora monetāro rezultātu, ir jāizmanto rēķinā norādītā bruto vai neto summa.
-    - Ja debitora atgriešanas summas ir jāatņem no debitora rēķina kopējā aprēķina, atzīmējiet izvēles rūtiņu **Atņemt atgriešanas vērtību**.
-
-## <a name="view-a-customers-rfm-score"></a>Debitora RFM rādītāja skatīšana
-
-Lai skatītu klienta RFM rādītāju, izmantojiet tālāk aprakstīto procedūru.
-
-1. Dodieties uz **Zvanu centrs** \> **Žurnāli** \> **Klientu apkalpošana**.
-2. Lapas **Klientu apkalpošana** rūtī **Klientu apkalpošana**, meklēšanas laukos atlasiet meklējamā atslēgvārda veidu un ievadiet meklējamo tekstu.
-3. Atlasiet **Meklēt**.
-4. Lapā **Debitora meklēšana** atlasiet nepieciešamo debitora ierakstu un pēc tam noklikšķiniet uz **Atlasīt debitoru**.
-
-RFM rezultāts tiek rādīts lapas **Klientu apkalpošana** labajā pusē, grupā **Pasūtījumu vēsture**.
-
-## <a name="view-or-clear-the-history-of-an-rfm-analysis-record"></a>RFM analīzes ierakstu skatīšana vai vēstures notīrīšana
-
-Lai skatītu RFM analīzes ierakstus vai notīrītu vēsturi, izmantojiet tālāk aprakstīto procedūru.
-
-1. Dodieties uz **Zvanu centrs** \> **Periodisks** \> **RFM analīze**.
-2. Lapā **RFM analīze** atlasiet ierakstu, kuru vēlaties apskatīt.
-3. Lai skatītu ierakstu vēsturi, atlasiet kopsavilkuma cilni **Vēsture**.
-4. Lai notīrītu ieraksta vēsturi, atlasiet **Notīrīt vēsturi**.
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="set-up-rfm-analysis.md" target-language="lv-LV">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>set-up-rfm-analysis.69f5cb.c7cb79fa82b579bee01e51cb635597cc5f711a98.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>c7cb79fa82b579bee01e51cb635597cc5f711a98</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\set-up-rfm-analysis.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nesenības, biežuma un naudas (RFM) analīzes iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nesenības, biežuma un naudas (RFM) analīzes iestatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Recency, frequency, and monetary (RFM) analysis is a marketing tool that your organization can use to evaluate the data that is generated by customer purchases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nesenības, biežuma un naudas (RFM) analīze ir mārketinga rīks, ko jūsu uzņēmums var izmantot, lai novērtētu datus, kas tiek ģenerēti no debitoru pirkumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>After you set up RFM analysis, customers are assigned a calculated RFM score as they make purchases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc RFM analīzes iestatīšanas debitoriem tiek piešķirts aprēķinātais RFM rezultāts, balstoties uz to pirkumiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The RFM score can be a three-digit rating or an aggregate number, depending on how your organization has configured RFM analysis.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RFM rezultāts var būt trīsciparu vērtējums vai kopējs skaitlis, atkarībā no tā, kā jūsu organizācija ir konfigurējusi RFM analīzi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Here's how the rating works if your organization uses a three-digit rating for the score:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk aprakstīts, kā šis vērtējums darbojas, ja jūsu organizācija izmanto trīsciparu vērtēšanas rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The first digit is the customer's recency rating, which is how recently the customer made a purchase from your organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirmais cipars ir debitora nesenības vērtējums — ik ilgs laiks ir pagājis, kopš debitors veica pirkumu no jūsu organizācijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>The second digit is the customer's frequency rating, which is how often the customer makes purchases from your organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otrais cipars ir debitora biežuma vērtējums — cik bieži debitors veic pirkumus no jūsu organizācijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The third digit is the customer's monetary rating, which is how much the customer spends when he makes purchases from your organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Trešais cipars ir debitora monetārais vērtējums — cik daudz debitors tērē, veicot pirkumus no jūsu organizācijas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>For example, your organization has set the ratings on a scale of 1 through 5, where 5 is the highest rating.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, jūsu organizācija ir noteikusi vērtējumus skalā no 1 līdz 5, kur 5 ir visaugstākais vērtējums.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In this case, a customer rating of 535 tells you the following information about the customer:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā gadījumā debitora vērtējums 535 sniedz šādu informāciju par debitoru:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">**</bpt>Recency rating of 5<ept id="p1">**</ept> – The customer recently made a purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nesenības vērtējums 5<ept id="p1">**</ept> — debitors nesen veicis pirkumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">**</bpt>Frequency rating of 3<ept id="p1">**</ept> – The customer purchases products from your organization moderately often.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Biežuma vērtējums 3<ept id="p1">**</ept> — debitors pērk preces no jūsu organizācijas ar vidēju biežumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">**</bpt>Monetary rating of 5<ept id="p1">**</ept> – When the customer makes a purchase, he spends a significant amount of money.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Monetārais vērtējums 5<ept id="p1">**</ept> — veicot pirkumu, debitors iztērē ievērojamu naudas summu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>If your organization uses an aggregate number for the score, the individual ratings are added together.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja jūsu organizācija vērtējumam izmanto apkopotos skaitļus, individuāli vērtējumi tiek summēti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>For the same example, the customer has a rating of 13 (5 + 3 + 5).</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tajā pašā piemērā debitora vērtējums ir 13 (5 + 3 + 5).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Set up RFM analysis for the customers in your organization</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">Iestatīt RFM analīzi debitoriem jūsu organizācijā</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Go to <bpt id="p1">**</bpt>Call center<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Periodic<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM analysis<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Zvanu centrs<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Periodisks<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM analīze<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>On <bpt id="p1">**</bpt>RFM analysis<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>RFM analīže<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Jauns<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the <bpt id="p1">**</bpt>RFM definition<ept id="p1">**</ept> field, enter a name for the RFM definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>RFM definīcija<ept id="p1">**</ept> ievadiet RFM definīcijas nosaukumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>For example, you could call the definition RFM-A.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, varat nosaukt definīciju par RFM-A.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Enter a start date and end date for this RFM definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet sākuma datumu un beigu datumu šai RFM definīcijai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Vispārīgi<ept id="p1">**</ept> izpildiet tālāk aprakstītos norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>If each section of the RFM score must contain an equal count of customers, select the <bpt id="p1">**</bpt>Even distribution<ept id="p1">**</ept> check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja katrai RFM rezultāta sadaļai ir jāietver vienāds debitoru skaits, atzīmējiet izvēles rūtiņu <bpt id="p1">**</bpt>Vienmērīga sadale<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Select the <bpt id="p1">**</bpt>Add scores<ept id="p1">**</ept> check box to aggregate the three scores.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atzīmējiet izvēles rūtiņu <bpt id="p1">**</bpt>Saskaitīt rezultātus<ept id="p1">**</ept>, lai sasummētu visus trīs rezultātus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>For example, this would give a customer an RFM score of 13 instead of 535.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādi debitoram tiktu piešķirts RFM rezultāts, piemēram, 13, nevis 535.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Select the <bpt id="p1">**</bpt>Save history<ept id="p1">**</ept> check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atzīmējiet izvēles rūtiņu <bpt id="p1">**</bpt>Saglabāt vēsturi<ept id="p1">**</ept>, lai pieprasītu sistēmai saglabāt debitoru statistiskos datus un šos datus varētu izmantot RFM rezultāta aprēķināšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>On the <bpt id="p1">**</bpt>Recency<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Nesenība<ept id="p1">**</ept> izpildiet tālāk aprakstītos norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the <bpt id="p1">**</bpt>Divisions<ept id="p1">**</ept> field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Nodaļas<ept id="p1">**</ept> ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru nesenības rezultāta aprēķināšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, ja jums ir 100 debitori, sadalījums 5 nodaļās, ka katram rezultātam ir 20 debitori.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The 20 customers who have made purchases most recently have a recency score of 5.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiem 20 debitoriem, kuri pirkumus veica pēdējie, nesenības rezultāts ir 5.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>The next 20 customers have a recency score of 4, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nākamajiem 20 debitoriem nesenības rezultāts ir 4 un tā tālāk.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja jums ir 50 debitori, 10 debitoriem nesenības rezultāts ir 5, un 10 debitoriem nesenības rezultāts ir 4 un tā tālāk.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Prioritāte<ept id="p1">**</ept> atlasiet, cik lielu svaru vēlaties piešķirt nesenības parametram salīdzinājumā ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>For example, you might place more value on the recency score than the monetary score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, varat piešķirt lielāku nozīmi nesenības rezultātam nekā naudas rezultātam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the <bpt id="p1">**</bpt>Multiplier<ept id="p1">**</ept> field, enter the value by which to multiply the recency score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Reizinātājs<ept id="p1">**</ept> ievadiet vērtību, ar kuru reizināt nesenības rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>If you do not enter a value, the score will not be multiplied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja neievadāt vērtību, rezultāts netiks reizināts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> field, select the time period by which the recency score is calculated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lauka <bpt id="p1">**</bpt>Periods<ept id="p1">**</ept> atlasiet laika periodu, pēc kura tiek aprēķināts nesenības rezultāts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>For example, by week or by month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemēram, pa nedēļām vai mēnešiem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>On the <bpt id="p1">**</bpt>Frequency<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Biežums<ept id="p1">**</ept> izpildiet tālāk aprakstītos norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>In the <bpt id="p1">**</bpt>Divisions<ept id="p1">**</ept> field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Nodaļas<ept id="p1">**</ept> ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru biežuma rezultāta aprēķināšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Prioritāte<ept id="p1">**</ept> atlasiet, cik lielu svaru vēlaties piešķirt biežuma parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In the <bpt id="p1">**</bpt>Multiplier<ept id="p1">**</ept> field, enter the value by which to multiply the frequency score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Reizinātājs<ept id="p1">**</ept> ievadiet vērtību, ar kuru reizināt biežuma rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>If you do not enter a value, the score will not be multiplied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja neievadāt vērtību, rezultāts netiks reizināts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>On the <bpt id="p1">**</bpt>Monetary<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma cilnē <bpt id="p1">**</bpt>Monetārs<ept id="p1">**</ept> izpildiet tālāk aprakstītos norādījumus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>In the <bpt id="p1">**</bpt>Divisions<ept id="p1">**</ept> field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Nodaļas<ept id="p1">**</ept> ievadiet nodaļu vai grupu skaitu, kas tiks izmantots debitoru monetārā rezultāta aprēķināšanai.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Prioritāte<ept id="p1">**</ept> atlasiet, cik lielu svaru vēlaties piešķirt monetārajam parametram salīdzinājuma ar pārējiem parametriem, aprēķinot debitora RFM rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the <bpt id="p1">**</bpt>Multiplier<ept id="p1">**</ept> field, enter the value by which to multiply the monetary score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Reizinātājs<ept id="p1">**</ept> ievadiet vērtību, ar kuru reizināt monetāro rezultātu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>If you do not enter a value, the score will not be multiplied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja neievadāt vērtību, rezultāts netiks reizināts.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>In the <bpt id="p1">**</bpt>Gross/net<ept id="p1">**</ept> field, select whether the customer's monetary score should be calculated by using the gross or net invoice amount.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Bruto/neto<ept id="p1">**</ept> izvēlieties, vai, aprēķinot debitora monetāro rezultātu, ir jāizmanto rēķinā norādītā bruto vai neto summa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>If a customer's return amounts should be subtracted from the customer's total invoice calculation, select the <bpt id="p1">**</bpt>Subtract returns<ept id="p1">**</ept> check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja debitora atgriešanas summas ir jāatņem no debitora rēķina kopējā aprēķina, atzīmējiet izvēles rūtiņu <bpt id="p1">**</bpt>Atņemt atgriešanas vērtību<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>View a customer's RFM score</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitora RFM rādītāja skatīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Use this procedure to view a customer's RFM score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai skatītu klienta RFM rādītāju, izmantojiet tālāk aprakstīto procedūru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Go to <bpt id="p1">**</bpt>Call center<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Customer service<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Zvanu centrs<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Žurnāli<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Klientu apkalpošana<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>On the <bpt id="p1">**</bpt>Customer service<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Customer service<ept id="p2">**</ept> pane, in the search fields, select the keyword type to search on and enter the search text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapas <bpt id="p1">**</bpt>Klientu apkalpošana<ept id="p1">**</ept> rūtī <bpt id="p2">**</bpt>Klientu apkalpošana<ept id="p2">**</ept>, meklēšanas laukos atlasiet meklējamā atslēgvārda veidu un ievadiet meklējamo tekstu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Select <bpt id="p1">**</bpt>Search<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Meklēt<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>On the <bpt id="p1">**</bpt>Customer search<ept id="p1">**</ept> page, select the customer record that you want, and then click <bpt id="p2">**</bpt>Select customer<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Debitora meklēšana<ept id="p1">**</ept> atlasiet nepieciešamo debitora ierakstu un pēc tam noklikšķiniet uz <bpt id="p2">**</bpt>Atlasīt debitoru<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>The RFM score is displayed in the <bpt id="p1">**</bpt>Order history<ept id="p1">**</ept> group on the right side of the <bpt id="p2">**</bpt>Customer service<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RFM rezultāts tiek rādīts lapas <bpt id="p2">**</bpt>Klientu apkalpošana<ept id="p2">**</ept> labajā pusē, grupā <bpt id="p1">**</bpt>Pasūtījumu vēsture<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>View or clear the history of an RFM analysis record</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RFM analīzes ierakstu skatīšana vai vēstures notīrīšana</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Use this procedure to view or clear the history of an RFM analysis record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai skatītu RFM analīzes ierakstus vai notīrītu vēsturi, izmantojiet tālāk aprakstīto procedūru.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Go to <bpt id="p1">**</bpt>Call center<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Periodic<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM analysis<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dodieties uz <bpt id="p1">**</bpt>Zvanu centrs<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Periodisks<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM analīze<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>On the <bpt id="p1">**</bpt>RFM analysis<ept id="p1">**</ept> page, select the record that you want to view.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>RFM analīze<ept id="p1">**</ept> atlasiet ierakstu, kuru vēlaties apskatīt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>To view the record history, select the <bpt id="p1">**</bpt>History<ept id="p1">**</ept> FastTab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai skatītu ierakstu vēsturi, atlasiet kopsavilkuma cilni <bpt id="p1">**</bpt>Vēsture<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>To clear the history of the record, select <bpt id="p1">**</bpt>Clear history<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai notīrītu ieraksta vēsturi, atlasiet <bpt id="p1">**</bpt>Notīrīt vēsturi<ept id="p1">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
