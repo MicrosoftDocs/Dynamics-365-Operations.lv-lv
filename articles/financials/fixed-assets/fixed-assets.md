@@ -1,84 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="fixed-assets.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>fixed-assets.9b56a8.a925d16239ec78b09403a0c0db1346e35b7eee20.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>a925d16239ec78b09403a0c0db1346e35b7eee20</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\fixed-assets\fixed-assets.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Fixed assets home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļu sākumlapa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Fixed assets home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļu sākumlapa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can calculate adjustments to the fixed assets, and also dispose of them.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat aprēķināt pamatlīdzekļu pielāgojumus, kā arī izslēgt tos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojot virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības likumdošanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un izslēgšanas darbībām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The Fixed assets functionality incorporates many of these standards and rules.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/FA-process.PNG)](./media/FA-process.PNG)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Biznesa process<ept id="p1">](./media/FA-process.PNG)](./media/FA-process.PNG)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu resursi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>What's new and in development</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunumi un drīzumā gaidāmais</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features have been planned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet <bpt id="p1">[</bpt>Microsoft Dynamics 365 informāciju par laidienu<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emuāri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>You can find opinions, news, and other information on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat atrast viedokļus, jaunumus un citu informāciju <bpt id="p1">[</bpt>Microsoft Dynamics 365 emuārā<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> un <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations – Financials emuārā<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft Dynamics Operations partneru kopienas emuārā<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzdevumu ceļveži</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Videoklipi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apskatiet video pamācības, kas tagad ir pieejamas <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube kanālā<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Pamatlīdzekļu sākumlapa
+description: Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/31/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: AssetWorkspace
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 21481
+ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a925d16239ec78b09403a0c0db1346e35b7eee20
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1543845"
+---
+# <a name="fixed-assets-home-page"></a><span data-ttu-id="2518a-103">Pamatlīdzekļu sākumlapa</span><span class="sxs-lookup"><span data-stu-id="2518a-103">Fixed assets home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="2518a-104">Pamatlīdzekļi ir vērtību krājumi, piemēram, ēkas, transportlīdzekļi, zeme un aprīkojums, kas pieder privātpersonai vai organizācijai.</span><span class="sxs-lookup"><span data-stu-id="2518a-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
+
+<span data-ttu-id="2518a-105">Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu.</span><span class="sxs-lookup"><span data-stu-id="2518a-105">You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</span></span> <span data-ttu-id="2518a-106">Varat aprēķināt pamatlīdzekļu pielāgojumus, kā arī izslēgt tos.</span><span class="sxs-lookup"><span data-stu-id="2518a-106">You can calculate adjustments to the fixed assets, and also dispose of them.</span></span> <span data-ttu-id="2518a-107">Izmantojot virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību.</span><span class="sxs-lookup"><span data-stu-id="2518a-107">When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</span></span> <span data-ttu-id="2518a-108">Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības likumdošanai.</span><span class="sxs-lookup"><span data-stu-id="2518a-108">The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</span></span> <span data-ttu-id="2518a-109">Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un izslēgšanas darbībām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu.</span><span class="sxs-lookup"><span data-stu-id="2518a-109">Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</span></span> <span data-ttu-id="2518a-110">Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.</span><span class="sxs-lookup"><span data-stu-id="2518a-110">The Fixed assets functionality incorporates many of these standards and rules.</span></span>
+
+<span data-ttu-id="2518a-111">[![Biznesa process](./media/FA-process.PNG)](./media/FA-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="2518a-111">[![Business process](./media/FA-process.PNG)](./media/FA-process.PNG)</span></span>
+
+
+
+### <a name="additional-resources"></a><span data-ttu-id="2518a-112">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="2518a-112">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="2518a-113">Jaunumi un drīzumā gaidāmais</span><span class="sxs-lookup"><span data-stu-id="2518a-113">What's new and in development</span></span>
+
+<span data-ttu-id="2518a-114">Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158).</span><span class="sxs-lookup"><span data-stu-id="2518a-114">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="2518a-115">Emuāri</span><span class="sxs-lookup"><span data-stu-id="2518a-115">Blogs</span></span>
+
+<span data-ttu-id="2518a-116">Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="2518a-116">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="2518a-117">[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="2518a-117">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+#### <a name="task-guides"></a><span data-ttu-id="2518a-118">Uzdevumu ceļveži</span><span class="sxs-lookup"><span data-stu-id="2518a-118">Task guides</span></span>
+<span data-ttu-id="2518a-119">Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži.</span><span class="sxs-lookup"><span data-stu-id="2518a-119">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="2518a-120">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</span><span class="sxs-lookup"><span data-stu-id="2518a-120">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="2518a-121">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="2518a-121">Videos</span></span>
+
+<span data-ttu-id="2518a-122">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="2518a-122">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+
+
+
+
+
+

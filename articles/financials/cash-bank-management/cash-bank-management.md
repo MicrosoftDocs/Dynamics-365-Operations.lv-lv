@@ -1,186 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="cash-bank-management.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>cash-bank-management.bc9b73.d15ff8add8a77c27a9f0153c9e881ecae3d9da78.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>d15ff8add8a77c27a9f0153c9e881ecae3d9da78</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\cash-bank-management\cash-bank-management.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Cash and bank management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kases un bankas vadības sākumlapa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Cash and bank management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kases un bankas vadības sākumlapa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>These instruments include deposit slips, checks, bills of exchange, and promissory notes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo instrumentu klāstā ietilpst depozīta kvītis, čeki, vekseļi un parādzīmes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can also reconcile bank statements and print bank data on standard reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat arī saskaņot bankas izrakstus un drukāt bankas informāciju standarta pārskatos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Biznesa procesi<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Biznesa process<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">[</bpt>Cash discounts<ept id="p1">](cash-discounts.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Termiņatlaides<ept id="p1">](cash-discounts.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">[</bpt>Settlement overview<ept id="p1">](settlement-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Segšanas apskats<ept id="p1">](settlement-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](configure-settlement.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Segšanas konfigurēšana<ept id="p1">](configure-settlement.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Ārvalstu valūtas pārvērtēšana moduļiem “Parādi kreditoriem” un “Debitoru parādi”<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Letters of credit<ept id="p1">](letters-of-credit.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Akreditīvi<ept id="p1">](letters-of-credit.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>Letters of credit and import collections<ept id="p1">](letters-of-credit-import-collections.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Akreditīvi un importa inkaso<ept id="p1">](letters-of-credit-import-collections.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Letter of guarantee<ept id="p1">](letters-of-guarantee.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Garantijas vēstule<ept id="p1">](letters-of-guarantee.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Set up centralized payments<ept id="p1">](set-up-centralized-payments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Iestatīt centralizētos maksājumus<ept id="p1">](set-up-centralized-payments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Bank reconciliation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bankas darbību saskaņošana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>Advanced bank reconciliation overview<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Detalizētās bankas darbību saskaņošanas apskats<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Configure advanced bank reconciliation<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Konfigurēt detalizēto bankas darbību saskaņošanu<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Set up the advanced bank reconciliation import<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Iestatīt detalizētās bankas darbību saskaņošanas importu<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Reconcile bank statements using advanced bank reconciliation<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Set up bank reconciliation matching rules<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Iestatīt bankas darbību saskaņošanas atbilstības kārtulas<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Accounts payable payments and settlements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Moduļa “Parādi kreditoriem” maksājumi un norēķini</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Centralizētie maksājumi modulim “Parādi kreditoriem”<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt>Create vendor invoices using a payment proposal<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Izveidot kreditoru rēķinus, izmantojot maksājuma priekšlikumu<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Atsaukt kreditora maksājumu<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Kreditoru maksājumi par daļēju summu<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Priekšapmaksas rēķinu un priekšapmaksu apskats<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju kreditora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju kreditora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju kreditora maksājumu, kam ir atlaides kreditora kredīta notām<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has multiple discount periods<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju kreditora maksājumu, kam ir vairāki atlaižu periodi<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">[</bpt>Scenario: Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: piemērot atlaidi, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source><bpt id="p1">[</bpt>Scenario: Take a cash discount outside the cash discount period<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: piemērot termiņatlaidi ārpus termiņatlaides perioda<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Accounts receivable payments and settlements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Moduļa “Debitoru parādi” maksājumi un norēķini</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">[</bpt>Centralized payments for Accounts receivable<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Centralizētie maksājumi modulim “Debitoru parādi”<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">[</bpt>Customer payments for a partial amount<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Debitoru maksājumi par daļēju summu<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">[</bpt>Reimburse customers<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Atlīdzināt debitoriem<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">[</bpt>Scenario: Automatic settlement and prioritization<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: automātiska nosegšana un prioritāšu noteikšana<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">[</bpt>Scenario: Handling cash discount for overpayments<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: darbs ar termiņatlaidi pārmaksām<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju debitora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju debitora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has discounts on credit notes<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has multiple discount periods<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">[</bpt>Scenario: Use one customer payment to settle multiple invoice that span multiple discount periods<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenārijs: lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu resursi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>What's new and in development</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunumi un drīzumā gaidāmais</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features have been planned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet <bpt id="p1">[</bpt>Microsoft Dynamics 365 informāciju par laidienu<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emuāri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>You can find opinions, news, and other information on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat atrast viedokļus, jaunumus un citu informāciju <bpt id="p1">[</bpt>Microsoft Dynamics 365 emuārā<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> un <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations – Financials emuārā<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft Dynamics Operations partneru kopienas emuārā<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzdevumu ceļveži</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Videoklipi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Kases un bankas vadības sākumlapa
+description: Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/26/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: BankTreasurerWorkspace
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 21941
+ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d15ff8add8a77c27a9f0153c9e881ecae3d9da78
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570930"
+---
+# <a name="cash-and-bank-management-home-page"></a><span data-ttu-id="0b896-103">Kases un bankas vadības sākumlapa</span><span class="sxs-lookup"><span data-stu-id="0b896-103">Cash and bank management home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="0b896-104">Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus.</span><span class="sxs-lookup"><span data-stu-id="0b896-104">You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</span></span> 
+
+<span data-ttu-id="0b896-105">Šo instrumentu klāstā ietilpst depozīta kvītis, čeki, vekseļi un parādzīmes.</span><span class="sxs-lookup"><span data-stu-id="0b896-105">These instruments include deposit slips, checks, bills of exchange, and promissory notes.</span></span> <span data-ttu-id="0b896-106">Varat arī saskaņot bankas izrakstus un drukāt bankas informāciju standarta pārskatos.</span><span class="sxs-lookup"><span data-stu-id="0b896-106">You can also reconcile bank statements and print bank data on standard reports.</span></span>
+
+<span data-ttu-id="0b896-107">**Biznesa procesi**</span><span class="sxs-lookup"><span data-stu-id="0b896-107">**Business processes**</span></span>
+
+<span data-ttu-id="0b896-108">[![Biznesa process](./media/Cash-process.PNG)](./media/Cash-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="0b896-108">[![Business process](./media/Cash-process.PNG)](./media/Cash-process.PNG)</span></span>
+
+-   [<span data-ttu-id="0b896-109">Termiņatlaides</span><span class="sxs-lookup"><span data-stu-id="0b896-109">Cash discounts</span></span>](cash-discounts.md)
+-   [<span data-ttu-id="0b896-110">Segšanas apskats</span><span class="sxs-lookup"><span data-stu-id="0b896-110">Settlement overview</span></span>](settlement-overview.md)
+-   [<span data-ttu-id="0b896-111">Segšanas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="0b896-111">Configure settlement</span></span>](configure-settlement.md)
+-   [<span data-ttu-id="0b896-112">Ārvalstu valūtas pārvērtēšana moduļiem “Parādi kreditoriem” un “Debitoru parādi”</span><span class="sxs-lookup"><span data-stu-id="0b896-112">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [<span data-ttu-id="0b896-113">Akreditīvi</span><span class="sxs-lookup"><span data-stu-id="0b896-113">Letters of credit</span></span>](letters-of-credit.md)
+-   [<span data-ttu-id="0b896-114">Akreditīvi un importa inkaso</span><span class="sxs-lookup"><span data-stu-id="0b896-114">Letters of credit and import collections</span></span>](letters-of-credit-import-collections.md)
+-   [<span data-ttu-id="0b896-115">Garantijas vēstule</span><span class="sxs-lookup"><span data-stu-id="0b896-115">Letter of guarantee</span></span>](letters-of-guarantee.md)
+-   [<span data-ttu-id="0b896-116">Iestatīt centralizētos maksājumus</span><span class="sxs-lookup"><span data-stu-id="0b896-116">Set up centralized payments</span></span>](set-up-centralized-payments.md)
+
+### <a name="bank-reconciliation"></a><span data-ttu-id="0b896-117">Bankas darbību saskaņošana</span><span class="sxs-lookup"><span data-stu-id="0b896-117">Bank reconciliation</span></span>
+
+-   [<span data-ttu-id="0b896-118">Detalizētās bankas darbību saskaņošanas apskats</span><span class="sxs-lookup"><span data-stu-id="0b896-118">Advanced bank reconciliation overview</span></span>](advanced-bank-reconciliation-overview.md)
+-   [<span data-ttu-id="0b896-119">Konfigurēt detalizēto bankas darbību saskaņošanu</span><span class="sxs-lookup"><span data-stu-id="0b896-119">Configure advanced bank reconciliation</span></span>](configure-advanced-bank-reconciliation.md)
+-   [<span data-ttu-id="0b896-120">Iestatīt detalizētās bankas darbību saskaņošanas importu</span><span class="sxs-lookup"><span data-stu-id="0b896-120">Set up the advanced bank reconciliation import</span></span>](set-up-advanced-bank-reconciliation-import-process.md)
+-   [<span data-ttu-id="0b896-121">Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu</span><span class="sxs-lookup"><span data-stu-id="0b896-121">Reconcile bank statements using advanced bank reconciliation</span></span>](reconcile-bank-statements-advanced-bank-reconciliation.md)
+-   [<span data-ttu-id="0b896-122">Iestatīt bankas darbību saskaņošanas atbilstības kārtulas</span><span class="sxs-lookup"><span data-stu-id="0b896-122">Set up bank reconciliation matching rules</span></span>](set-up-bank-reconciliation-matching-rules.md)
+
+
+## <a name="accounts-payable-payments-and-settlements"></a><span data-ttu-id="0b896-123">Moduļa “Parādi kreditoriem” maksājumi un norēķini</span><span class="sxs-lookup"><span data-stu-id="0b896-123">Accounts payable payments and settlements</span></span>
+-   [<span data-ttu-id="0b896-124">Centralizētie maksājumi modulim “Parādi kreditoriem”</span><span class="sxs-lookup"><span data-stu-id="0b896-124">Centralized payments for Accounts payable</span></span>](../accounts-payable/centralized-payments-accounts-payable.md)
+-   [<span data-ttu-id="0b896-125">Izveidot kreditoru rēķinus, izmantojot maksājuma priekšlikumu</span><span class="sxs-lookup"><span data-stu-id="0b896-125">Create vendor invoices using a payment proposal</span></span>](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [<span data-ttu-id="0b896-126">Atsaukt kreditora maksājumu</span><span class="sxs-lookup"><span data-stu-id="0b896-126">Reverse a vendor payment</span></span>](../accounts-payable/reverse-vendor-payment.md)
+-   [<span data-ttu-id="0b896-127">Kreditoru maksājumi par daļēju summu</span><span class="sxs-lookup"><span data-stu-id="0b896-127">Vendor payments for a partial amount</span></span>](../accounts-payable/vendor-payments-partial-amount.md)
+-   [<span data-ttu-id="0b896-128">Priekšapmaksas rēķinu un priekšapmaksu apskats</span><span class="sxs-lookup"><span data-stu-id="0b896-128">Prepayment invoices and prepayments overview</span></span>](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [<span data-ttu-id="0b896-129">Scenārijs: nosegt daļēju kreditora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="0b896-129">Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [<span data-ttu-id="0b896-130">Scenārijs: nosegt daļēju kreditora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="0b896-130">Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [<span data-ttu-id="0b896-131">Scenārijs: nosegt daļēju kreditora maksājumu, kam ir atlaides kreditora kredīta notām</span><span class="sxs-lookup"><span data-stu-id="0b896-131">Scenario: Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [<span data-ttu-id="0b896-132">Scenārijs: nosegt daļēju kreditora maksājumu, kam ir vairāki atlaižu periodi</span><span class="sxs-lookup"><span data-stu-id="0b896-132">Scenario: Settle a partial vendor payment that has multiple discount periods</span></span>](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [<span data-ttu-id="0b896-133">Scenārijs: piemērot atlaidi, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi</span><span class="sxs-lookup"><span data-stu-id="0b896-133">Scenario: Take a discount that is more than the calculated discount for a vendor payment</span></span>](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [<span data-ttu-id="0b896-134">Scenārijs: piemērot termiņatlaidi ārpus termiņatlaides perioda</span><span class="sxs-lookup"><span data-stu-id="0b896-134">Scenario: Take a cash discount outside the cash discount period</span></span>](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+
+## <a name="accounts-receivable-payments-and-settlements"></a><span data-ttu-id="0b896-135">Moduļa “Debitoru parādi” maksājumi un norēķini</span><span class="sxs-lookup"><span data-stu-id="0b896-135">Accounts receivable payments and settlements</span></span>
+-   [<span data-ttu-id="0b896-136">Centralizētie maksājumi modulim “Debitoru parādi”</span><span class="sxs-lookup"><span data-stu-id="0b896-136">Centralized payments for Accounts receivable</span></span>](../accounts-receivable/centralized-payments-accounts-receivable.md)
+-   [<span data-ttu-id="0b896-137">Debitoru maksājumi par daļēju summu</span><span class="sxs-lookup"><span data-stu-id="0b896-137">Customer payments for a partial amount</span></span>](../accounts-receivable/customer-payments-partial-amount.md)
+-   [<span data-ttu-id="0b896-138">Atlīdzināt debitoriem</span><span class="sxs-lookup"><span data-stu-id="0b896-138">Reimburse customers</span></span>](../accounts-receivable/reimburse-customers.md)
+-   [<span data-ttu-id="0b896-139">Scenārijs: automātiska nosegšana un prioritāšu noteikšana</span><span class="sxs-lookup"><span data-stu-id="0b896-139">Scenario: Automatic settlement and prioritization</span></span>](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [<span data-ttu-id="0b896-140">Scenārijs: darbs ar termiņatlaidi pārmaksām</span><span class="sxs-lookup"><span data-stu-id="0b896-140">Scenario: Handling cash discount for overpayments</span></span>](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [<span data-ttu-id="0b896-141">Scenārijs: nosegt daļēju debitora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="0b896-141">Scenario: Settle a partial customer payment and settle the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [<span data-ttu-id="0b896-142">Scenārijs: nosegt daļēju debitora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="0b896-142">Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [<span data-ttu-id="0b896-143">Scenārijs: nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām</span><span class="sxs-lookup"><span data-stu-id="0b896-143">Scenario: Settle a partial customer payment that has discounts on credit notes</span></span>](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [<span data-ttu-id="0b896-144">Scenārijs: nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi</span><span class="sxs-lookup"><span data-stu-id="0b896-144">Scenario: Settle a partial customer payment that has multiple discount periods</span></span>](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [<span data-ttu-id="0b896-145">Scenārijs: lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem</span><span class="sxs-lookup"><span data-stu-id="0b896-145">Scenario: Use one customer payment to settle multiple invoice that span multiple discount periods</span></span>](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
+
+### <a name="additional-resources"></a><span data-ttu-id="0b896-146">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="0b896-146">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="0b896-147">Jaunumi un drīzumā gaidāmais</span><span class="sxs-lookup"><span data-stu-id="0b896-147">What's new and in development</span></span>
+
+<span data-ttu-id="0b896-148">Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158).</span><span class="sxs-lookup"><span data-stu-id="0b896-148">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="0b896-149">Emuāri</span><span class="sxs-lookup"><span data-stu-id="0b896-149">Blogs</span></span>
+
+<span data-ttu-id="0b896-150">Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="0b896-150">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="0b896-151">[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="0b896-151">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+#### <a name="task-guides"></a><span data-ttu-id="0b896-152">Uzdevumu ceļveži</span><span class="sxs-lookup"><span data-stu-id="0b896-152">Task guides</span></span>
+<span data-ttu-id="0b896-153">Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži.</span><span class="sxs-lookup"><span data-stu-id="0b896-153">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="0b896-154">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</span><span class="sxs-lookup"><span data-stu-id="0b896-154">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="0b896-155">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="0b896-155">Videos</span></span>
+
+<span data-ttu-id="0b896-156">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="0b896-156">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>

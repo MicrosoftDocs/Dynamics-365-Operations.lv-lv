@@ -1,576 +1,202 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="er-upgrade-format.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>er-upgrade-format.32ec25.151b8936a46a1945e98bfe0ed040ca50c93db4b0.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>151b8936a46a1945e98bfe0ed040ca50c93db4b0</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-upgrade-format.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>ER Upgrade your format by adopting a new, base version of that format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var uzturēt formāta konfigurāciju Elektroniskajos pārskatos (ER).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>ER Upgrade your format by adopting a new, base version of that format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var uzturēt formāta konfigurāciju Elektroniskajos pārskatos (ER).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī procedūra skaidro kā var izveidot pielāgotu formātu versiju, balstoties uz formātu, kas saņemts no konfigurācijas sniedzēja (CP).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>It also explains how to adopt a new, base version of that format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas arī skaidro, kā pieņemt jaunu, šī formāta bāzes versiju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai veiktu šīs darbības, vispirms jāveic darbības procedūrās "Izveidot konfigurācijas nodrošinātāju un iezīmēt to kā aktīvu" un "Izmantot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>These steps can be performed in the GBSI company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs darbības var veikt uzņēmumā GBSI.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Select format configuration for customization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet formāta konfigurāciju pielāgošanai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejiet uz sadaļu Organizācijas administrēšana &gt; Darbvietas &gt; Elektronisko pārskatu veidošana.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In this example, sample company Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> will act as a configuration provider that supports format configurations for electronic payments for a particular country.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā piemērā parauga uzņēmums “Litware, Inc.” (<ph id="ph1">https://www.litware.com)</ph> ir konfigurācijas nodrošinātājs, kas atbalsta formāta konfigurācijas elektroniskajiem maksājumiem attiecībā uz konkrētu valsti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Sample company Proseware, Inc. (<ph id="ph1">http://www.proseware.com)</ph> will act as a consumer of the format configuration that Litware, Inc. provided.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parauga uzņēmums “Proseware, Inc.” (<ph id="ph1">http://www.proseware.com)</ph> darbosies kā “Litware, Inc.” nodrošinātās formāta konfigurācijas patērētājs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Proseware, Inc. uses formats in certain regions of that country.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. izmanto formātus noteiktos attiecīgās valsts reģionos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click Reporting configurations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click Show filters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Rādīt filtrus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lietojiet šādus filtrus: Ievadiet “BAKS (UK fiktīvs)” filtra vērtību laukā “Nosaukums”, izmantojot filtra operatoru “sākas ar”</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>BACS (UK fictitious)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BAKS (UK fiktīvs)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasītā BAKS (UK fiktīvs) formāta konfigurācija pieder nodrošinātājam Litware, Inc.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Click Show filters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Rādīt filtrus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šo formāta versiju ar statusu Pabeigts uzņēmums Proseware, Inc. izmanto pielāgošanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Create a new configuration for your custom format of electronic document</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidojiet jaunu konfigurāciju jūsu elektroniskā dokumenta pielāgotajam formātam</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. saņēma BACS (UK fiktīvs) konfigurācijas versiju 1.1, kurā ietverts sākotnējais formāts elektronisko maksājumu dokumentu ģenerēšanai no Litware, Inc. saskaņā ar attiecīgo pakalpojuma abonementu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. vēlas sākt lietot šo metodi kā standartu savā valstī, tomēr ir nepieciešama pielāgošana, lai nodrošinātu atbalstu noteiktām reģionālajām prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. arī vēlas saglabāt iespēju jaunināt pielāgotu formātu, tiklīdz Litware, Inc. piedāvā jaunu tā versiju (ar izmaiņām, kas nodrošina atbalstu jaunām valstij raksturīgām prasībām), kā arī vēlas veikt jaunināšanu ar pēc iespējas zemākām izmaksām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai to izdarītu, Proseware, Inc. ir jāizveido konfigurācija, kā bāzi izmantojot Litware, Inc konfigurāciju BACS (UK fiktīvs).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Select Proseware, Inc. to make it an active provider.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet Proseware, Inc., lai to padarītu par aktīvu nodrošinātāju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Click Set active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Iestatīt aktīvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Click Reporting configurations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the tree, expand 'Payments (simplified model)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet konfigurāciju BACS (UK fiktīvs) no Litware, Inc. Uzņēmums Proseware, Inc. izmantos versiju 1.1. kā pielāgotās versijas bāzi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Click Create configuration to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>This lets you create a new configuration for a custom payment format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas jums ļauj izveidot jaunu konfigurāciju pielāgotam maksājuma formātam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunajā laukā, ievadiet 'Atvasināt no nosaukuma: BAKS (UK fiktīvs), Litware, Inc.'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet opciju Atvasināt, lai apstiprinātu BAKS (UK fiktīvs) izmantošanu kā pamatu pielāgotas versijas veidošanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the Name field, type 'BACS (UK fictitious custom)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Nosaukums ierakstiet 'BAKS (UK fiktīvs pielāgots)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>BACS (UK fictitious custom)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BAKS (UK fiktīvs pielāgots)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Apraksts ierakstiet “BAKS kreditora maksājums (UK fiktīvs pielāgots)”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>BACS vendor payment (UK fictitious custom)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BAKS kreditora maksājuma (UK fiktīvs pielāgots)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The active configuration provider (Proseware, Inc.) is automatically entered here.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šeit tiek automātiski ievadīts aktīvais konfigurācijas nodrošinātājs (Proseware, Inc.).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>This provider will be able to maintain this configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis nodrošinātājs varēs uzturēt šo konfigurāciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Other providers can use this configuration, but will not be able to maintain it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Citi nodrošinātāji var izmantot šo konfigurāciju, bet nevar uzturēt to.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Click Create configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klikšķiniet Izveidot konfigurāciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Customize your format for the electronic document</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgojiet jūsu elektroniskā dokumenta formātu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Click Designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Veidotājs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Click Expand/collapse.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Izvērst/sakļaut.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click Expand/collapse.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Izvērst/sakļaut.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Click Add to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>In the tree, select 'XML\Element'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet "XML\Elements".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>In the Name field, type 'IBAN'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Nosaukums ierakstiet "IBAN".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>IBAN</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IBAN</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\IBAN”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click Add to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In the tree, select 'Text\String'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet elementu “Teksts\Virkne”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Labi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Maximum length field, enter '60'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet '60' laukā Maksimālais garums.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Click the Mapping tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz cilnes Kartēšana.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>In the tree, expand 'model'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā izvērsiet elementu “modelis”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the tree, expand 'model\Payments'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet sadaļu “modelis\Maksājumi”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>In the tree, expand 'model\Payments\Creditor'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>In the tree, expand 'model\Payments\Creditor\Account'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Konts“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>In the tree, select 'model\Payments\Creditor\Account\IBAN'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Konts\IBAN”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\IBAN\Virkne”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Click Bind.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saistīt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saglabāt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Validate the customized format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudiet pielāgoto formātu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Click Validate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārbaudīt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudiet pielāgotā formāta izkārtojumu un datu kartējuma izmaiņas, lai pārliecinātos, ka visi saistījumi ir pareizi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Change the status of the current version of the custom format configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mainīt pielāgotā formāta konfigurācijas pašreizējās versijas statusu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izveidotās formāta konfigurācijas statusu no Melnraksts mainiet uz Pabeigts, lai to padarītu pieejamu maksājumu dokumenta ģenerēšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Click Change status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Mainīt statusu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Note that the current version of the selected configuration is in Draft status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Click Complete.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pabeigt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apraksta laukā ierakstiet vērtību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Note that the created configuration is saved as completed version 1.1.1.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.1.1.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas nozīmē, ka tā ir 1. versija pielāgotajam formātam BAKS (UK fiktīvs pielāgots), kura ir balstīta uz formāta BAKS (UK fiktīvs) 1. versiju, kas ir balstīta uz datu modeļa Maksājumi (vienkāršots modelis) 1. versiju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Test the customized format to generate payment files</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paralēlā Dynamics 365 for Finance and Operations Enterprise edition sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Select the BACS (UK fictitious custom) format in electronic payment method parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārliecinieties, ka izveidotais maksājuma fails satur nesen ieviesto XML mezglu ar IBAN kodu, saskaņā ar reģionālajām prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Update the existing country-specific configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atjauniniet esošo valstij specifisko konfigurāciju</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzņēmumam Litware, Inc. jāveic BACS (UK fiktīvs) konfigurācijas jaunināšana un jāievieš jaunās valstij raksturīgās prasības attiecībā uz elektroniskā dokumenta formāta pārvaldību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vēlāk, tas tiks ietverts jaunā šīs konfigurācijas versijā, kas tiks piedāvāta pakalpojuma abonentiem, ieskaitot Proseware, Inc.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ar reālo pakalpojumu sniegšanu saistītajos procesos katra jauna BACS (UK fiktīvs) versija var tikt importēta uzņēmumā Proseware, Inc. no Litware, Inc. konfigurāciju LCS repozitorija.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā procedūrā mēs simulēsim to, atjauninot BAKS (UK fiktīvs) pakalpojuma sniedzēja vārdā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Select Litware, inc. provider.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet pakalpojumu sniedzēju Litware, Inc.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Click Set active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Iestatīt aktīvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Click Reporting configurations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>In the tree, expand 'Payments (simplified model)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Melnraksta versija BACS (UK fiktīvs), kas pieder Litware, Inc., tiek atlasīta, lai veiktu izmaiņas atbilstoši jaunajām valstij raksturīgajām prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Localize the base format of the electronic document</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokalizējiet elektroniskā dokumenta pamatformātu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pieņemsim, ka pastāv jaunas valstij raksturīgās prasības, kuru atbalsts jānodrošina uzņēmumam Litware, Inc.: - Vērtība, kas paredzēta kreditora bankas SWIFT kodam katrā maksājuma transakcijā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Ģenerēšanas failā pastāv 100 rakstzīmju ierobežojums kreditora nosaukuma teksta garumam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>New country-specific requirements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunas valstij specifiskas prasības</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Select the draft version of the desired configuration to introduce required changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet vēlamās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Click Designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Veidotājs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Click Expand/collapse.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Izvērst/sakļaut.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Click Expand/collapse.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Izvērst/sakļaut.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Click Add to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>In the tree, select 'XML\Element'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet "XML\Elements".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>In the Name field, type 'SWIFT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā Nosaukums ierakstiet "SWIFT".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>SWIFT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SWIFT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\SWIFT”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Click Add to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>In the tree, select 'Text\String'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet elementu “Teksts\Virkne”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Labi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>In the Maximum length field, enter '100'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet '100' laukā Maksimālais garums.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Click the Mapping tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz cilnes Kartēšana.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>In the tree, expand 'model'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā izvērsiet elementu “modelis”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>In the tree, expand 'model\Payments'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet sadaļu “modelis\Maksājumi”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>In the tree, expand 'model\Payments\Creditor'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>In the tree, expand 'model\Payments\Creditor\Agent'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Aģents“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Aģents\SWIFT”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\SWIFT\Virkne”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Click Bind.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saistīt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saglabāt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Validate the localized format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Validēt lokalizēto formātu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Click Validate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārbaudīt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Change the status of the current version of the base format configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamatformāta konfigurācijas pašreizējās versijas statusa maiņa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nomainiet atjauninātā pamatformāta konfigurācijas statusu no Melnraksts uz Pabeigts, lai to padarītu pieejamu maksājumu dokumentu ģenerēšanai, un formāts konfigurācijas atjauninājumiem, kas izriet no tās.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Click Change status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Mainīt statusu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Note that the current version of the selected configuration is in Draft status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Click Complete.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pabeigt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apraksta laukā ierakstiet vērtību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Change the base version for the custom format configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mainiet bāzes versiju pielāgota formāta konfigurācijai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. tiek informēts, ka ir pieejama jauna BACS (UK fiktīvs) konfigurācijas versija 1.2 elektronisko maksājumu dokumentu ģenerēšanai saskaņā ar nesen izziņotajām valstij raksturīgajām prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Proseware, Inc. wants to start using it as a standard for the country.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. vēlas sākt to izmantot kā standartu valstij.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai to izdarītu, uzņēmumam Proseware, Inc. ir jāmaina pielāgotās konfigurācijas BACS (UK fiktīvs, pielāgots) bāzes konfigurācijas versiju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1.1 BAKS (UK fiktīvs) versijas vietā, izmantojiet jauno 1.2 versiju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārejiet uz sadaļu Organizācijas administrēšana &gt; Darbvietas &gt; Elektronisko pārskatu veidošana.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Select the Proseware, Inc. provider to mark it as active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet nodrošinātāju Proseware, Inc., lai iestatītu to kā aktīvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Click Set active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Iestatīt aktīvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Click Reporting configurations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>In the tree, expand 'Payments (simplified model)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā izvērsiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)\BAKS (UK fiktīvs pielāgots)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet BACS (UK fiktīvs pielāgots) konfigurāciju, kas pieder Proseware, Inc.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Use the draft version of the selected configuration to introduce required changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojiet atlasītās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Click Rebase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pārskatīt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet pamata konfigurācijas jauno 1.2 versiju, lai to lietotu kā jaunu bāzi konfigurācijas atjaunināšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka tika atklāti daži konflikti starp pielāgotas versijas un jaunas bāzes versijas sapludināšanu, kas nozīmē formāta izmaiņas, kuras nevar sapludināt automātiski.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Resolve rebase conflicts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atrisiniet pārskatījuma konfliktus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Click Designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Veidotājs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka izmaiņas kreditora nosaukuma teksta garuma ierobežojumā nevar tik atrisinātas automātiski.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Therefore, this is presented in a conflicts list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc tas ir norādīts konfliktu sarakstā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katram konfliktam ar tipu Atjauninājums ir pieejamas šādas opcijas: - Lietot iepriekšējo bāzes vērtību (poga virs režģa), lai izmantotu iepriekšējo pamata versijas vērtību (mūsu gadījumā: 0).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Piemērot bāzes vērtību (poga virs režģa), lai izmantotu jaunu pamata versijas vērtību (100 mūsu gadījumā).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>- Keep your own (custom) value (60 in our case).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Paturiet savu (pielāgotu) vērtību (mūsu gadījumā tā ir 60).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukuma teksta garumam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vēra, ka uzņēmumā Proseware, Inc. and Litware, Inc. tiek izmantotas pielāgotas un lokālas šī formāta versijas, izmantojot IBAN un SWIFT kodus ar saistītiem komponentiem, kas automātiski tiek apvienoti pārvaldības formātā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Click Apply base value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pievienot bāzes vērtību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukumiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Saglabāt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Saving the format will remove resolved conflicts from the conflicts list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saglabājot formātu, no konfliktu saraksta tiks noņemti atrisinātie konflikti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>Change the status of the new version of the custom format configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pielāgotā formāta konfigurācijas pašreizējās versijas statusa maiņa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>Click Change status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Mainīt statusu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>Change the status of the updated, custom format configuration from Draft to Completed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mainiet atjaunināta, pielāgota formāta konfigurācijas statusu no Melnraksts uz Pabeigts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>This will make the format configuration available for generating payment documents.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas šo formāta konfigurāciju padara pieejamu maksājumu dokumentu ģenerēšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Note that the current version of the selected configuration is in Draft status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Click Complete.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz Pabeigt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apraksta laukā ierakstiet vērtību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka izveidotās konfigurācija ir saglabāta kā pabeigta versija 1.2.2: bāzes BAKS (UK fiktīvs pielāgots) formāta versija 2, kas balstās uz bāzes BAKS (UK fiktīvs) formāta 2 versiju, kas balstās uz maksājumu (vienkāršots modelis) datu modeļa versiju 1.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Test the customized format for payment files generation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paralēlā Dynamics 365 for Finance and Operations Enterprise edition sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet izveidoto BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārliecinieties, vai izveidotais maksājuma fails satur Proseware, Inc. nesen ieviesto XML mezglu ar IBAN konta kodu, saskaņā ar reģionālajām prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Failam arī jāsatur Litware, Inc. nesen ieviestais XML mezgls SWIFT bankas koda uzrādīšanai saskaņā ar valsts prasībām.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju
+description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var uzturēt formāta konfigurāciju Elektroniskajos pārskatos (ER).
+author: NickSelin
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595444"
+---
+# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a><span data-ttu-id="5f59d-103">ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju</span><span class="sxs-lookup"><span data-stu-id="5f59d-103">ER Upgrade your format by adopting a new, base version of that format</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="5f59d-104">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var uzturēt formāta konfigurāciju Elektroniskajos pārskatos (ER).</span><span class="sxs-lookup"><span data-stu-id="5f59d-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="5f59d-105">Šī procedūra skaidro kā var izveidot pielāgotu formātu versiju, balstoties uz formātu, kas saņemts no konfigurācijas sniedzēja (CP).</span><span class="sxs-lookup"><span data-stu-id="5f59d-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="5f59d-106">Tas arī skaidro, kā pieņemt jaunu, šī formāta bāzes versiju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-106">It also explains how to adopt a new, base version of that format.</span></span>
+
+
+
+<span data-ttu-id="5f59d-107">Lai veiktu šīs darbības, vispirms jāveic darbības procedūrās "Izveidot konfigurācijas nodrošinātāju un iezīmēt to kā aktīvu" un "Izmantot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem".</span><span class="sxs-lookup"><span data-stu-id="5f59d-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="5f59d-108">Šīs darbības var veikt uzņēmumā GBSI.</span><span class="sxs-lookup"><span data-stu-id="5f59d-108">These steps can be performed in the GBSI company.</span></span>
+
+
+## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="5f59d-109">Atlasiet formāta konfigurāciju pielāgošanai</span><span class="sxs-lookup"><span data-stu-id="5f59d-109">Select format configuration for customization</span></span>
+1. <span data-ttu-id="5f59d-110">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="5f59d-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="5f59d-111">Šajā piemērā parauga uzņēmums “Litware, Inc.” (https://www.litware.com) ir konfigurācijas nodrošinātājs, kas atbalsta formāta konfigurācijas elektroniskajiem maksājumiem attiecībā uz konkrētu valsti.</span><span class="sxs-lookup"><span data-stu-id="5f59d-111">In this example, sample company Litware, Inc. (https://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="5f59d-112">Parauga uzņēmums “Proseware, Inc.” (http://www.proseware.com) darbosies kā “Litware, Inc.” nodrošinātās formāta konfigurācijas patērētājs.</span><span class="sxs-lookup"><span data-stu-id="5f59d-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="5f59d-113">Proseware, Inc. izmanto formātus noteiktos attiecīgās valsts reģionos.</span><span class="sxs-lookup"><span data-stu-id="5f59d-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
+2. <span data-ttu-id="5f59d-114">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="5f59d-114">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="5f59d-115">Noklikšķiniet uz Rādīt filtrus.</span><span class="sxs-lookup"><span data-stu-id="5f59d-115">Click Show filters.</span></span>
+4. <span data-ttu-id="5f59d-116">Lietojiet šādus filtrus: Ievadiet “BAKS (UK fiktīvs)” filtra vērtību laukā “Nosaukums”, izmantojot filtra operatoru “sākas ar”</span><span class="sxs-lookup"><span data-stu-id="5f59d-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="5f59d-117">BAKS (UK fiktīvs)</span><span class="sxs-lookup"><span data-stu-id="5f59d-117">BACS (UK fictitious)</span></span>  
+    * <span data-ttu-id="5f59d-118">Atlasītā BAKS (UK fiktīvs) formāta konfigurācija pieder nodrošinātājam Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="5f59d-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
+5. <span data-ttu-id="5f59d-119">Noklikšķiniet uz Rādīt filtrus.</span><span class="sxs-lookup"><span data-stu-id="5f59d-119">Click Show filters.</span></span>
+6. <span data-ttu-id="5f59d-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="5f59d-121">Šo formāta versiju ar statusu Pabeigts uzņēmums Proseware, Inc. izmanto pielāgošanai.</span><span class="sxs-lookup"><span data-stu-id="5f59d-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
+
+## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="5f59d-122">Izveidojiet jaunu konfigurāciju jūsu elektroniskā dokumenta pielāgotajam formātam</span><span class="sxs-lookup"><span data-stu-id="5f59d-122">Create a new configuration for your custom format of electronic document</span></span>
+    * <span data-ttu-id="5f59d-123">Proseware, Inc. saņēma BACS (UK fiktīvs) konfigurācijas versiju 1.1, kurā ietverts sākotnējais formāts elektronisko maksājumu dokumentu ģenerēšanai no Litware, Inc. saskaņā ar attiecīgo pakalpojuma abonementu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="5f59d-124">Proseware, Inc. vēlas sākt lietot šo metodi kā standartu savā valstī, tomēr ir nepieciešama pielāgošana, lai nodrošinātu atbalstu noteiktām reģionālajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="5f59d-125">Proseware, Inc. arī vēlas saglabāt iespēju jaunināt pielāgotu formātu, tiklīdz Litware, Inc. piedāvā jaunu tā versiju (ar izmaiņām, kas nodrošina atbalstu jaunām valstij raksturīgām prasībām), kā arī vēlas veikt jaunināšanu ar pēc iespējas zemākām izmaksām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="5f59d-126">Lai to izdarītu, Proseware, Inc. ir jāizveido konfigurācija, kā bāzi izmantojot Litware, Inc konfigurāciju BACS (UK fiktīvs).</span><span class="sxs-lookup"><span data-stu-id="5f59d-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
+1. <span data-ttu-id="5f59d-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-127">Close the page.</span></span>
+2. <span data-ttu-id="5f59d-128">Atlasiet Proseware, Inc., lai to padarītu par aktīvu nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-128">Select Proseware, Inc. to make it an active provider.</span></span>
+3. <span data-ttu-id="5f59d-129">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-129">Click Set active.</span></span>
+4. <span data-ttu-id="5f59d-130">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="5f59d-130">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="5f59d-131">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-131">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="5f59d-132">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</span><span class="sxs-lookup"><span data-stu-id="5f59d-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="5f59d-133">Atlasiet konfigurāciju BACS (UK fiktīvs) no Litware, Inc. Uzņēmums Proseware, Inc. izmantos versiju 1.1. kā pielāgotās versijas bāzi.</span><span class="sxs-lookup"><span data-stu-id="5f59d-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
+7. <span data-ttu-id="5f59d-134">Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-134">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="5f59d-135">Tas jums ļauj izveidot jaunu konfigurāciju pielāgotam maksājuma formātam.</span><span class="sxs-lookup"><span data-stu-id="5f59d-135">This lets you create a new configuration for a custom payment format.</span></span>  
+8. <span data-ttu-id="5f59d-136">Jaunajā laukā, ievadiet 'Atvasināt no nosaukuma: BAKS (UK fiktīvs), Litware, Inc.'.</span><span class="sxs-lookup"><span data-stu-id="5f59d-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
+    * <span data-ttu-id="5f59d-137">Atlasiet opciju Atvasināt, lai apstiprinātu BAKS (UK fiktīvs) izmantošanu kā pamatu pielāgotas versijas veidošanai.</span><span class="sxs-lookup"><span data-stu-id="5f59d-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
+9. <span data-ttu-id="5f59d-138">Laukā Nosaukums ierakstiet 'BAKS (UK fiktīvs pielāgots)'.</span><span class="sxs-lookup"><span data-stu-id="5f59d-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="5f59d-139">BAKS (UK fiktīvs pielāgots)</span><span class="sxs-lookup"><span data-stu-id="5f59d-139">BACS (UK fictitious custom)</span></span>  
+10. <span data-ttu-id="5f59d-140">Laukā Apraksts ierakstiet “BAKS kreditora maksājums (UK fiktīvs pielāgots)”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="5f59d-141">BAKS kreditora maksājuma (UK fiktīvs pielāgots)</span><span class="sxs-lookup"><span data-stu-id="5f59d-141">BACS vendor payment (UK fictitious custom)</span></span>  
+    * <span data-ttu-id="5f59d-142">Šeit tiek automātiski ievadīts aktīvais konfigurācijas nodrošinātājs (Proseware, Inc.).</span><span class="sxs-lookup"><span data-stu-id="5f59d-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="5f59d-143">Šis nodrošinātājs varēs uzturēt šo konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="5f59d-144">Citi nodrošinātāji var izmantot šo konfigurāciju, bet nevar uzturēt to.</span><span class="sxs-lookup"><span data-stu-id="5f59d-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+11. <span data-ttu-id="5f59d-145">Klikšķiniet Izveidot konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-145">Click Create configuration.</span></span>
+
+## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="5f59d-146">Pielāgojiet jūsu elektroniskā dokumenta formātu</span><span class="sxs-lookup"><span data-stu-id="5f59d-146">Customize your format for the electronic document</span></span>
+1. <span data-ttu-id="5f59d-147">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="5f59d-147">Click Designer.</span></span>
+2. <span data-ttu-id="5f59d-148">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="5f59d-148">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="5f59d-149">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="5f59d-149">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="5f59d-150">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="5f59d-151">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-151">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="5f59d-152">Kokā atlasiet "XML\Elements".</span><span class="sxs-lookup"><span data-stu-id="5f59d-152">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="5f59d-153">Laukā Nosaukums ierakstiet "IBAN".</span><span class="sxs-lookup"><span data-stu-id="5f59d-153">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="5f59d-154">IBAN</span><span class="sxs-lookup"><span data-stu-id="5f59d-154">IBAN</span></span>  
+8. <span data-ttu-id="5f59d-155">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="5f59d-155">Click OK.</span></span>
+9. <span data-ttu-id="5f59d-156">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
+10. <span data-ttu-id="5f59d-157">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-157">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="5f59d-158">Kokā atlasiet elementu “Teksts\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-158">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="5f59d-159">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="5f59d-159">Click OK.</span></span>
+13. <span data-ttu-id="5f59d-160">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="5f59d-161">Ievadiet '60' laukā Maksimālais garums.</span><span class="sxs-lookup"><span data-stu-id="5f59d-161">In the Maximum length field, enter '60'.</span></span>
+15. <span data-ttu-id="5f59d-162">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="5f59d-162">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="5f59d-163">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-163">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="5f59d-164">Kokā izvērsiet sadaļu “modelis\Maksājumi”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-164">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="5f59d-165">Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="5f59d-166">Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Konts“.</span><span class="sxs-lookup"><span data-stu-id="5f59d-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
+20. <span data-ttu-id="5f59d-167">Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Konts\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
+21. <span data-ttu-id="5f59d-168">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\IBAN\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
+22. <span data-ttu-id="5f59d-169">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-169">Click Bind.</span></span>
+23. <span data-ttu-id="5f59d-170">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-170">Click Save.</span></span>
+
+## <a name="validate-the-customized-format"></a><span data-ttu-id="5f59d-171">Pārbaudiet pielāgoto formātu</span><span class="sxs-lookup"><span data-stu-id="5f59d-171">Validate the customized format</span></span>
+1. <span data-ttu-id="5f59d-172">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-172">Click Validate.</span></span>
+    * <span data-ttu-id="5f59d-173">Pārbaudiet pielāgotā formāta izkārtojumu un datu kartējuma izmaiņas, lai pārliecinātos, ka visi saistījumi ir pareizi.</span><span class="sxs-lookup"><span data-stu-id="5f59d-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="5f59d-174">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-174">Close the page.</span></span>
+
+## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="5f59d-175">Mainīt pielāgotā formāta konfigurācijas pašreizējās versijas statusu</span><span class="sxs-lookup"><span data-stu-id="5f59d-175">Change the status of the current version of the custom format configuration</span></span>
+    * <span data-ttu-id="5f59d-176">Izveidotās formāta konfigurācijas statusu no Melnraksts mainiet uz Pabeigts, lai to padarītu pieejamu maksājumu dokumenta ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="5f59d-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
+1. <span data-ttu-id="5f59d-177">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-177">Click Change status.</span></span>
+    * <span data-ttu-id="5f59d-178">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</span><span class="sxs-lookup"><span data-stu-id="5f59d-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="5f59d-179">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-179">Click Complete.</span></span>
+3. <span data-ttu-id="5f59d-180">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="5f59d-180">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="5f59d-181">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="5f59d-181">Click OK.</span></span>
+5. <span data-ttu-id="5f59d-182">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-182">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="5f59d-183">Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.1.1.</span><span class="sxs-lookup"><span data-stu-id="5f59d-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="5f59d-184">Tas nozīmē, ka tā ir 1. versija pielāgotajam formātam BAKS (UK fiktīvs pielāgots), kura ir balstīta uz formāta BAKS (UK fiktīvs) 1. versiju, kas ir balstīta uz datu modeļa Maksājumi (vienkāršots modelis) 1. versiju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
+
+## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="5f59d-185">Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus</span><span class="sxs-lookup"><span data-stu-id="5f59d-185">Test the customized format to generate payment files</span></span>
+    * <span data-ttu-id="5f59d-186">Paralēlā Dynamics 365 for Finance and Operations Enterprise edition sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="5f59d-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="5f59d-187">Atlasiet BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros.</span><span class="sxs-lookup"><span data-stu-id="5f59d-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="5f59d-188">Pārliecinieties, ka izveidotais maksājuma fails satur nesen ieviesto XML mezglu ar IBAN kodu, saskaņā ar reģionālajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
+
+## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="5f59d-189">Atjauniniet esošo valstij specifisko konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="5f59d-189">Update the existing country-specific configuration</span></span>
+    * <span data-ttu-id="5f59d-190">Uzņēmumam Litware, Inc. jāveic BACS (UK fiktīvs) konfigurācijas jaunināšana un jāievieš jaunās valstij raksturīgās prasības attiecībā uz elektroniskā dokumenta formāta pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="5f59d-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="5f59d-191">Vēlāk, tas tiks ietverts jaunā šīs konfigurācijas versijā, kas tiks piedāvāta pakalpojuma abonentiem, ieskaitot Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="5f59d-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
+    * <span data-ttu-id="5f59d-192">Ar reālo pakalpojumu sniegšanu saistītajos procesos katra jauna BACS (UK fiktīvs) versija var tikt importēta uzņēmumā Proseware, Inc. no Litware, Inc. konfigurāciju LCS repozitorija.</span><span class="sxs-lookup"><span data-stu-id="5f59d-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="5f59d-193">Šajā procedūrā mēs simulēsim to, atjauninot BAKS (UK fiktīvs) pakalpojuma sniedzēja vārdā.</span><span class="sxs-lookup"><span data-stu-id="5f59d-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
+1. <span data-ttu-id="5f59d-194">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-194">Close the page.</span></span>
+2. <span data-ttu-id="5f59d-195">Atlasiet pakalpojumu sniedzēju Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="5f59d-195">Select Litware, inc. provider.</span></span>
+3. <span data-ttu-id="5f59d-196">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-196">Click Set active.</span></span>
+4. <span data-ttu-id="5f59d-197">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="5f59d-197">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="5f59d-198">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-198">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="5f59d-199">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</span><span class="sxs-lookup"><span data-stu-id="5f59d-199">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="5f59d-200">Melnraksta versija BACS (UK fiktīvs), kas pieder Litware, Inc., tiek atlasīta, lai veiktu izmaiņas atbilstoši jaunajām valstij raksturīgajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-200">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
+
+## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="5f59d-201">Lokalizējiet elektroniskā dokumenta pamatformātu</span><span class="sxs-lookup"><span data-stu-id="5f59d-201">Localize the base format of the electronic document</span></span>
+    * <span data-ttu-id="5f59d-202">Pieņemsim, ka pastāv jaunas valstij raksturīgās prasības, kuru atbalsts jānodrošina uzņēmumam Litware, Inc.: - Vērtība, kas paredzēta kreditora bankas SWIFT kodam katrā maksājuma transakcijā.</span><span class="sxs-lookup"><span data-stu-id="5f59d-202">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="5f59d-203">- Ģenerēšanas failā pastāv 100 rakstzīmju ierobežojums kreditora nosaukuma teksta garumam.</span><span class="sxs-lookup"><span data-stu-id="5f59d-203">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
+    * <span data-ttu-id="5f59d-204">Jaunas valstij specifiskas prasības</span><span class="sxs-lookup"><span data-stu-id="5f59d-204">New country-specific requirements</span></span>  
+    * <span data-ttu-id="5f59d-205">Atlasiet vēlamās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="5f59d-205">Select the draft version of the desired configuration to introduce required changes.</span></span>  
+1. <span data-ttu-id="5f59d-206">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="5f59d-206">Click Designer.</span></span>
+2. <span data-ttu-id="5f59d-207">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="5f59d-207">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="5f59d-208">Noklikšķiniet uz Izvērst/sakļaut.</span><span class="sxs-lookup"><span data-stu-id="5f59d-208">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="5f59d-209">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-209">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="5f59d-210">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-210">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="5f59d-211">Kokā atlasiet "XML\Elements".</span><span class="sxs-lookup"><span data-stu-id="5f59d-211">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="5f59d-212">Laukā Nosaukums ierakstiet "SWIFT".</span><span class="sxs-lookup"><span data-stu-id="5f59d-212">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="5f59d-213">SWIFT</span><span class="sxs-lookup"><span data-stu-id="5f59d-213">SWIFT</span></span>  
+8. <span data-ttu-id="5f59d-214">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="5f59d-214">Click OK.</span></span>
+9. <span data-ttu-id="5f59d-215">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Banka\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-215">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
+10. <span data-ttu-id="5f59d-216">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-216">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="5f59d-217">Kokā atlasiet elementu “Teksts\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-217">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="5f59d-218">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="5f59d-218">Click OK.</span></span>
+13. <span data-ttu-id="5f59d-219">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums\Kreditors\Nosaukums\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-219">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="5f59d-220">Ievadiet '100' laukā Maksimālais garums.</span><span class="sxs-lookup"><span data-stu-id="5f59d-220">In the Maximum length field, enter '100'.</span></span>
+15. <span data-ttu-id="5f59d-221">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="5f59d-221">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="5f59d-222">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-222">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="5f59d-223">Kokā izvērsiet sadaļu “modelis\Maksājumi”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-223">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="5f59d-224">Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-224">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="5f59d-225">Kokā izvērsiet elementu “modelis\Maksājumi\Kreditors\Aģents“.</span><span class="sxs-lookup"><span data-stu-id="5f59d-225">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
+20. <span data-ttu-id="5f59d-226">Koka struktūrā atlasiet zaru “modelis\Maksājumi\Kreditors\Aģents\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-226">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
+21. <span data-ttu-id="5f59d-227">Koka struktūrā atlasiet zaru “Xml\Ziņojums\Maksājumi\Krājums = model.Payments\Kreditors\Banka\SWIFT\Virkne”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-227">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
+22. <span data-ttu-id="5f59d-228">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-228">Click Bind.</span></span>
+23. <span data-ttu-id="5f59d-229">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-229">Click Save.</span></span>
+
+## <a name="validate-the-localized-format"></a><span data-ttu-id="5f59d-230">Validēt lokalizēto formātu</span><span class="sxs-lookup"><span data-stu-id="5f59d-230">Validate the localized format</span></span>
+1. <span data-ttu-id="5f59d-231">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-231">Click Validate.</span></span>
+2. <span data-ttu-id="5f59d-232">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-232">Close the page.</span></span>
+
+## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="5f59d-233">Pamatformāta konfigurācijas pašreizējās versijas statusa maiņa</span><span class="sxs-lookup"><span data-stu-id="5f59d-233">Change the status of the current version of the base format configuration</span></span>
+    * <span data-ttu-id="5f59d-234">Nomainiet atjauninātā pamatformāta konfigurācijas statusu no Melnraksts uz Pabeigts, lai to padarītu pieejamu maksājumu dokumentu ģenerēšanai, un formāts konfigurācijas atjauninājumiem, kas izriet no tās.</span><span class="sxs-lookup"><span data-stu-id="5f59d-234">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
+1. <span data-ttu-id="5f59d-235">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-235">Click Change status.</span></span>
+    * <span data-ttu-id="5f59d-236">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</span><span class="sxs-lookup"><span data-stu-id="5f59d-236">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="5f59d-237">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-237">Click Complete.</span></span>
+3. <span data-ttu-id="5f59d-238">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="5f59d-238">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="5f59d-239">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="5f59d-239">Click OK.</span></span>
+5. <span data-ttu-id="5f59d-240">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-240">In the list, find and select the desired record.</span></span>
+
+## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="5f59d-241">Mainiet bāzes versiju pielāgota formāta konfigurācijai</span><span class="sxs-lookup"><span data-stu-id="5f59d-241">Change the base version for the custom format configuration</span></span>
+    * <span data-ttu-id="5f59d-242">Proseware, Inc. tiek informēts, ka ir pieejama jauna BACS (UK fiktīvs) konfigurācijas versija 1.2 elektronisko maksājumu dokumentu ģenerēšanai saskaņā ar nesen izziņotajām valstij raksturīgajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-242">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="5f59d-243">Proseware, Inc. vēlas sākt to izmantot kā standartu valstij.</span><span class="sxs-lookup"><span data-stu-id="5f59d-243">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="5f59d-244">Lai to izdarītu, uzņēmumam Proseware, Inc. ir jāmaina pielāgotās konfigurācijas BACS (UK fiktīvs, pielāgots) bāzes konfigurācijas versiju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-244">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="5f59d-245">1.1 BAKS (UK fiktīvs) versijas vietā, izmantojiet jauno 1.2 versiju.</span><span class="sxs-lookup"><span data-stu-id="5f59d-245">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
+1. <span data-ttu-id="5f59d-246">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="5f59d-246">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="5f59d-247">Atlasiet nodrošinātāju Proseware, Inc., lai iestatītu to kā aktīvu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-247">Select the Proseware, Inc. provider to mark it as active.</span></span>
+3. <span data-ttu-id="5f59d-248">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-248">Click Set active.</span></span>
+4. <span data-ttu-id="5f59d-249">Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="5f59d-249">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="5f59d-250">Kokā izvērsiet “Maksājumi (vienkāršotais modelis)”.</span><span class="sxs-lookup"><span data-stu-id="5f59d-250">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="5f59d-251">Kokā izvērsiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)'.</span><span class="sxs-lookup"><span data-stu-id="5f59d-251">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+7. <span data-ttu-id="5f59d-252">Kokā atlasiet 'Maksājumi (vienkāršotais modelis)\BAKS (UK fiktīvs)\BAKS (UK fiktīvs pielāgots)'.</span><span class="sxs-lookup"><span data-stu-id="5f59d-252">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="5f59d-253">Atlasiet BACS (UK fiktīvs pielāgots) konfigurāciju, kas pieder Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="5f59d-253">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
+    * <span data-ttu-id="5f59d-254">Izmantojiet atlasītās konfigurācijas melnraksta versiju, lai ieviestu nepieciešamās izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="5f59d-254">Use the draft version of the selected configuration to introduce required changes.</span></span>  
+8. <span data-ttu-id="5f59d-255">Noklikšķiniet uz Pārskatīt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-255">Click Rebase.</span></span>
+    * <span data-ttu-id="5f59d-256">Atlasiet pamata konfigurācijas jauno 1.2 versiju, lai to lietotu kā jaunu bāzi konfigurācijas atjaunināšanai.</span><span class="sxs-lookup"><span data-stu-id="5f59d-256">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
+9. <span data-ttu-id="5f59d-257">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="5f59d-257">Click OK.</span></span>
+    * <span data-ttu-id="5f59d-258">Ņemiet vērā, ka tika atklāti daži konflikti starp pielāgotas versijas un jaunas bāzes versijas sapludināšanu, kas nozīmē formāta izmaiņas, kuras nevar sapludināt automātiski.</span><span class="sxs-lookup"><span data-stu-id="5f59d-258">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
+
+## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="5f59d-259">Atrisiniet pārskatījuma konfliktus</span><span class="sxs-lookup"><span data-stu-id="5f59d-259">Resolve rebase conflicts</span></span>
+1. <span data-ttu-id="5f59d-260">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="5f59d-260">Click Designer.</span></span>
+    * <span data-ttu-id="5f59d-261">Ņemiet vērā, ka izmaiņas kreditora nosaukuma teksta garuma ierobežojumā nevar tik atrisinātas automātiski.</span><span class="sxs-lookup"><span data-stu-id="5f59d-261">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="5f59d-262">Tāpēc tas ir norādīts konfliktu sarakstā.</span><span class="sxs-lookup"><span data-stu-id="5f59d-262">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="5f59d-263">Katram konfliktam ar tipu Atjauninājums ir pieejamas šādas opcijas: - Lietot iepriekšējo bāzes vērtību (poga virs režģa), lai izmantotu iepriekšējo pamata versijas vērtību (mūsu gadījumā: 0).</span><span class="sxs-lookup"><span data-stu-id="5f59d-263">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="5f59d-264">- Piemērot bāzes vērtību (poga virs režģa), lai izmantotu jaunu pamata versijas vērtību (100 mūsu gadījumā).</span><span class="sxs-lookup"><span data-stu-id="5f59d-264">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="5f59d-265">- Paturiet savu (pielāgotu) vērtību (mūsu gadījumā tā ir 60).</span><span class="sxs-lookup"><span data-stu-id="5f59d-265">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="5f59d-266">Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukuma teksta garumam.</span><span class="sxs-lookup"><span data-stu-id="5f59d-266">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
+    * <span data-ttu-id="5f59d-267">Ņemiet vēra, ka uzņēmumā Proseware, Inc. and Litware, Inc. tiek izmantotas pielāgotas un lokālas šī formāta versijas, izmantojot IBAN un SWIFT kodus ar saistītiem komponentiem, kas automātiski tiek apvienoti pārvaldības formātā.</span><span class="sxs-lookup"><span data-stu-id="5f59d-267">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
+2. <span data-ttu-id="5f59d-268">Noklikšķiniet uz Pievienot bāzes vērtību.</span><span class="sxs-lookup"><span data-stu-id="5f59d-268">Click Apply base value.</span></span>
+    * <span data-ttu-id="5f59d-269">Noklikšķiniet uz Lietot bāzes vērtību, lai pielietotu valstij raksturīgo 100 rakstzīmju limitu kreditora nosaukumiem.</span><span class="sxs-lookup"><span data-stu-id="5f59d-269">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
+3. <span data-ttu-id="5f59d-270">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-270">Click Save.</span></span>
+    * <span data-ttu-id="5f59d-271">Saglabājot formātu, no konfliktu saraksta tiks noņemti atrisinātie konflikti.</span><span class="sxs-lookup"><span data-stu-id="5f59d-271">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
+4. <span data-ttu-id="5f59d-272">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-272">Close the page.</span></span>
+
+## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="5f59d-273">Pielāgotā formāta konfigurācijas pašreizējās versijas statusa maiņa</span><span class="sxs-lookup"><span data-stu-id="5f59d-273">Change the status of the new version of the custom format configuration</span></span>
+1. <span data-ttu-id="5f59d-274">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="5f59d-274">Click Change status.</span></span>
+    * <span data-ttu-id="5f59d-275">Mainiet atjaunināta, pielāgota formāta konfigurācijas statusu no Melnraksts uz Pabeigts.</span><span class="sxs-lookup"><span data-stu-id="5f59d-275">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="5f59d-276">Tas šo formāta konfigurāciju padara pieejamu maksājumu dokumentu ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="5f59d-276">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="5f59d-277">Ņemiet vērā, ka atlasītās konfigurācijas pašreizējai versijai ir statuss Melnraksts.</span><span class="sxs-lookup"><span data-stu-id="5f59d-277">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="5f59d-278">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="5f59d-278">Click Complete.</span></span>
+3. <span data-ttu-id="5f59d-279">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="5f59d-279">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="5f59d-280">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="5f59d-280">Click OK.</span></span>
+    * <span data-ttu-id="5f59d-281">Ņemiet vērā, ka izveidotās konfigurācija ir saglabāta kā pabeigta versija 1.2.2: bāzes BAKS (UK fiktīvs pielāgots) formāta versija 2, kas balstās uz bāzes BAKS (UK fiktīvs) formāta 2 versiju, kas balstās uz maksājumu (vienkāršots modelis) datu modeļa versiju 1.</span><span class="sxs-lookup"><span data-stu-id="5f59d-281">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
+
+## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="5f59d-282">Pārbaudiet pielāgoto formātu, lai ģenerētu maksājuma failus</span><span class="sxs-lookup"><span data-stu-id="5f59d-282">Test the customized format for payment files generation</span></span>
+    * <span data-ttu-id="5f59d-283">Paralēlā Dynamics 365 for Finance and Operations Enterprise edition sesijā izpildiet procedūrā “Lietot izveidoto formātu, lai ģenerētu elektroniskos dokumentus maksājumiem” norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="5f59d-283">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="5f59d-284">Atlasiet izveidoto BAKS (UK fiktīvs pielāgots) formātu elektronisko maksājumu metodes parametros.</span><span class="sxs-lookup"><span data-stu-id="5f59d-284">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="5f59d-285">Pārliecinieties, vai izveidotais maksājuma fails satur Proseware, Inc. nesen ieviesto XML mezglu ar IBAN konta kodu, saskaņā ar reģionālajām prasībām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-285">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="5f59d-286">Failam arī jāsatur Litware, Inc. nesen ieviestais XML mezgls SWIFT bankas koda uzrādīšanai saskaņā ar valsts prasībām.</span><span class="sxs-lookup"><span data-stu-id="5f59d-286">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
+
