@@ -1,840 +1,155 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-lva-tax-natural-resources.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-lva-tax-natural-resources.e3d429.67b477b1b2e1d0836b236b6c4926dd6bd7c601fa.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>67b477b1b2e1d0836b236b6c4926dd6bd7c601fa</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-lva-tax-natural-resources.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Tax on natural resources report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļa pārskats</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains how to set up and generate the Tax on natural resources (NR Tax) report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Tax on natural resources report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļa pārskats</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic explains how to set up and generate the Tax on natural resources (NR Tax) report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Latvian companies must periodically submit a <bpt id="p1">**</bpt>Tax on natural resources<ept id="p1">**</ept> (<bpt id="p2">**</bpt>NR tax<ept id="p2">**</ept>) report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzņēmumiem Latvijā ir periodiski jāiesniedz pārskats <bpt id="p1">**</bpt>Dabas resursu nodoklis<ept id="p1">**</ept> (<bpt id="p2">**</bpt>DRN<ept id="p2">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This functionality applies only to legal entities in Latvia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī funkcionalitāte attiecas tikai uz juridiskajām personām Latvijā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Tax must also be calculated on imported or self-produced goods that are used internally.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodoklis ir jāaprēķina arī par importētajām vai pašu ražotajām precēm, kuras tiek lietotas iekšēji.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Finally, tax on natural resources must be calculated for packaging materials that are used to package goods that are sold within the reporting period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visbeidzot — dabas resursu nodoklis ir jāaprēķina par pārskata perioda laikā pārdoto iepakoto preču iepakojuma materiāliem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Prerequisites</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Priekšnosacījumi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Prerequisite</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Priekšnosacījums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>More information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformācija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Set up a tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet nodokļu iestādi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Set up the ledger posting group for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet virsgrāmatas grāmatošanas grupu dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Set up a settlement period for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet nosegšanas periodu dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Set up sales tax codes for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet PVN kodus dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Set up sales tax groups for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet PVN grupas dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Set up tax groups for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet nodokļu grupas dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Use the <bpt id="p1">**</bpt>Natural resources tax group<ept id="p1">**</ept> page to set up tax groups that define the correct sales tax codes, based on the intersection of the tax group and sales tax group for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojiet lapu <bpt id="p1">**</bpt>Dabas resursu nodokļu grupa<ept id="p1">**</ept>, lai iestatītu nodokļu grupas, kurās ir definēti pareizie PVN kodi, ņemot vērā nodokļu grupas un PVN grupas krustpunktu dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Set up inventory parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iestatiet krājumu parametrus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>On the <bpt id="p1">**</bpt>Inventory and warehouse management parameters<ept id="p1">**</ept> page, set the <bpt id="p2">**</bpt>Calculate packing material fees<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Krājumu un noliktavas vadības parametri<ept id="p1">**</ept> opcijai <bpt id="p2">**</bpt>Aprēķināt iepakojuma materiālu maksas<ept id="p2">**</ept> iestatiet vērtību <bpt id="p3">**</bpt>Jā<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the <bpt id="p1">**</bpt>Sales tax group<ept id="p1">**</ept> field, select a sales tax group for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>PVN grupa<ept id="p1">**</ept> atlasiet PVN grupu dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>By default, this sales tax group is used to find the sales tax code that is used for report calculations if a transaction that is transferred to the report has no sales tax group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc noklusējuma šī PVN grupa tiek lietota, lai atrastu PVN kodu, kurš tiek lietots pārskata aprēķinos, ja uz pārskatu pārsūtītajai transakcijai nav PVN grupas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Specify natural resources tax information for an item.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norādiet dabas resursu nodokļa informāciju kādam krājumam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In Product information management, on the <bpt id="p1">**</bpt>Released products<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Manage inventory<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Natural resource tax group<ept id="p3">**</ept> field, specify a value to calculate the Natural resources tax for an item in a sale or in inventory transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Preču informācijas pārvaldības lapā <bpt id="p1">**</bpt>Izlaistās preces<ept id="p1">**</ept>, cilnē <bpt id="p2">**</bpt>Pārvaldīt krājumus<ept id="p2">**</ept>, laukā <bpt id="p3">**</bpt>Dabas resursu nodokļa grupa<ept id="p3">**</ept> norādiet kādu vērtību, lai dabas resursu nodokli aprēķinātu kādam krājumam pārdošanas vai krājumu transakcijās.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Report setup</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskatu iestatīšana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Before you can generate the <bpt id="p1">**</bpt>Natural resources tax<ept id="p1">**</ept> report, you must set up the lines for each report layout.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai varētu ģenerēt pārskatu <bpt id="p1">**</bpt>Dabas resursu nodoklis<ept id="p1">**</ept>, ir jāiestata rindas katram pārskata izkārtojumam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Repeat the following steps for every line in each report layout.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katrā pārskata izkārtojumā katrai rindai izpildiet tālāk aprakstītās darbības.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Natural resources tax report setup<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Nodokļi<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>PVN<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Dabas resursu nodokļa pārskata iestatīšana<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Click <bpt id="p1">**</bpt>New<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Jauns<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the <bpt id="p1">**</bpt>Form number<ept id="p1">**</ept> field, select the form to set up:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Formas numurs<ept id="p1">**</ept> atlasiet iestatāmo formu no tālāk uzskaitītajām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">**</bpt>Form 2<ept id="p1">**</ept> – This form shows information about the use of natural resources and any environmental pollution that is generated within the reporting period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>2. forma<ept id="p1">**</ept> — šajā formā tiek rādīta informācija par dabas resursu lietojumu un visu vides piesārņojumu, kas ir ģenerēts pārskata periodā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">**</bpt>Form 3<ept id="p1">**</ept> – This form shows information about the tax on natural resources that is calculated for goods that were imported or produced by the company and sold in Latvia for the first time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>3. forma<ept id="p1">**</ept> — šajā formā tiek rādīta informācija par dabas resursu nodokli, kas ir aprēķināts precēm, kuras uzņēmums importēja vai saražoja un pārdeva Latvijā pirmo reizi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Select a sequence number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet sērijas numuru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>This number specifies the position of the line in the sequence of lines on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis numurs norāda rindas pozīciju pārskatā iekļauto rindu virknē.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept> field, select the type of report line:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Rindas tips<ept id="p1">**</ept> atlasiet pārskata rindas tipu no tālāk uzskaitītajiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">**</bpt>Header<ept id="p1">**</ept> – The line is printed as header lines on report pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Galvene<ept id="p1">**</ept> — šī rinda pārskatu lapās tiek drukāta kā galvenes rindas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">**</bpt>Line<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Rinda<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">**</bpt>Total<ept id="p1">**</ept> – The line shows the summarized line values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kopsumma<ept id="p1">**</ept> — rindā tiek rādīta rindu vērtību kopsumma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>If you selected <bpt id="p1">**</bpt>Line<ept id="p1">**</ept> in step 5, enter the line code for the <bpt id="p2">**</bpt>Natural resources tax<ept id="p2">**</ept> report line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja 5. darbībā atlasījāt <bpt id="p1">**</bpt>Rinda<ept id="p1">**</ept>, ievadiet rindas kodu pārskata rindai <bpt id="p2">**</bpt>Dabas resursu nodoklis<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, enter a brief description of the transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> ievadiet īsu transakcijas aprakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>In the <bpt id="p1">**</bpt>Total line code<ept id="p1">**</ept> field, enter the total line code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā the <bpt id="p1">**</bpt>Kopsummas rindas kods<ept id="p1">**</ept> ievadiet kopsummas rindas kodu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>If you selected <bpt id="p1">**</bpt>Line<ept id="p1">**</ept> in step 5, the <bpt id="p2">**</bpt>Warehouse<ept id="p2">**</ept> field shows the warehouse code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja 5. darbībā atlasījāt <bpt id="p1">**</bpt>Rinda<ept id="p1">**</ept>, laukā <bpt id="p2">**</bpt>Noliktava<ept id="p2">**</ept> tiek rādīts noliktavas kods.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>In the <bpt id="p1">**</bpt>Sales tax code<ept id="p1">**</ept> field, select the sales tax code that was created for the calculation of the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>PVN kods<ept id="p1">**</ept> atlasiet PVN kodu, kurš tika izveidots dabas resursu nodokļa aprēķinam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the <bpt id="p1">**</bpt>Packing material code<ept id="p1">**</ept> field, select the packing material code that was created for the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Iepakojuma materiālu kods<ept id="p1">**</ept> atlasiet iepakojuma materiālu kodu, kurš tika izveidots dabas resursu nodoklim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>This field isn't available if you select a sales tax code in the <bpt id="p1">**</bpt>Sales tax code<ept id="p1">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis lauks nav pieejams, ja laukā <bpt id="p1">**</bpt>PVN kods<ept id="p1">**</ept> ir atlasīts kāds PVN kods.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Only one of these two fields is available at a time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienlaicīgi ir pieejams tikai viens no šiem diviem laukiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Example: Form 2 layout</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemērs. 2. formas izkārtojums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>This example layout has the following information elements:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā piemērā izkārtojumā ietilpst tālāk uzskaitītie informācijas elementi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>A header that introduces the content of the report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Galvene, kas sniedz ievadu par pārskata saturu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Lines that show the descriptions and individual values to report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas, kurās ir redzams apraksts un atsevišķas pārskata vērtības</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>The total amounts for the line values</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu vērtību kopsummas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Form number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formas numurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Line type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas tips</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Sequence number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sērijas numurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Line code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apraksts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Total line code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsummas rindas kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Location Id</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novietojuma ID</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Natural resources Tax code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļa kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Packing material code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojuma materiāla kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Galvene</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>I.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Tax on utilization of natural resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodoklis par dabas resursu lietojumu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Utilization of natural resources (Total)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu lietojums (kopsumma)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>1.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Contoso Manufacturing Co</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contoso Manufacturing Co</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>785200</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">785200</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>NR-water</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NR-water</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>1.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Sandpit Nr1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smilšu karjers nr. 1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>600900</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">600900</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>NR-sand</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NR-sand</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Environment pollution (Total)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vides piesārņojums (kopsumma)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>2.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Contoso Manufacturing Co</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contoso Manufacturing Co</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>785200</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">785200</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>NR-CO2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NR-CO2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>7</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>2.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Reporting Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskata rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsumma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Total line (line1+ line2)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsummas rinda (1. rinda + 2. rinda)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Form 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>9</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Reporting Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskata rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Example: Form 3 layout</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piemērs. 3. formas izkārtojums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>This example layout has the following elements:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā piemērā izkārtojumā ietilpst tālāk uzskaitītie elementi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>A header that introduces the content of the report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Galvene, kas sniedz ievadu par pārskata saturu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Lines that show the descriptions and individual values to report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas, kurās ir redzams apraksts un atsevišķas pārskata vērtības</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>The total amounts for the line values</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindu vērtību kopsummas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Form number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formas numurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Line type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas tips</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Sequence number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sērijas numurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Line code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apraksts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Total line code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsummas rindas kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Location Id</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novietojuma ID</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Natural resources Tax code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļa kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Packing material code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojuma materiāla kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Galvene</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>I.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Tax on hazardous goods, packing materials and throwaway dishes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodoklis par bīstamām precēm, iepakojuma materiāliem un vienreizlietojamajiem traukiem</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsumma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Hazardous goods - Total:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bīstamas preces - Kopsumma:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>1.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Aluminum foil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alumīnija folija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>NR-GAlum</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NR-GAlum</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>1.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsumma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Packing materials - Total:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojuma materiāli - Kopsumma:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>2.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Packing: glass</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojums: stikls</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>PM-Glass</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PM-Glass</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>7</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>2.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Packing: plastics</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojums: plastmasa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>PM-Plastic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PM-Plastic</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>2.3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2.3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Packing: metal foil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojums: metāla folija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>PM-MetalF</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PM-MetalF</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>9</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>2.4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2.4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Packing: wood, paper, cartons</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iepakojums: koks, papīrs, kartons</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>PM-WPC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PM-WPC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Throwaway dishes - Total:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienreizlietojamie trauki - Kopsumma:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>11</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">11</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>3.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>plastics</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">plastmasa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>T-Plast</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">T-Plast</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>12</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>3.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Metal foil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Metāla folija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>T-MetalF</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">T-MetalF</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>13</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">13</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>3.3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Wood, paper, cartons</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koks, papīrs, kartons</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>T-WPC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">T-WPC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Form 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. forma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>Total</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>14</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Total line (line1+ line2 + line3)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsummas rinda (1. rinda + 2. rinda + 3. rinda)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>Generate the Natural resources tax report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ģenerēt dabas resursu nodokļa pārskatu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Natural resources taxes are calculated during inventory journal transactions, and when sales or project invoices are created for Latvian customers, if the transactions involve items that are subject to the Natural resources tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un gadījumos, kad Latvijas debitoriem tiek izveidoti pārdošanas vai projektu rēķini, ja transakcijās ir iesaistīti krājumi, uz kuriem attiecas dabas resursu nodoklis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>This section describes to get a list of the Natural resources tax transactions that are related to packing materials and print the Natural resources tax statement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā sadaļā ir aprakstīts, kā iegūt sarakstu ar dabas resursu nodokļa transakcijām, kas ir saistītas ar iepakojuma materiāliem, un kā izdrukāt dabas resursu nodokļa deklarāciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Declarations<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Tax on natural resources<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Nodokļi<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Deklarācijas<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>PVN<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Dabas resursu nodoklis<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Create natural resources tax lines on package<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izveidot<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Izveidot dabas resursu nodokļa rindas iepakojumam<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Enter the quarter and the year for the reporting period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to transfer the information that will be used to generate the report about the tax on packing materials for the reporting period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Labi<ept id="p1">**</ept>, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par iepakojuma materiāliem šajā pārskata periodā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Create natural resources tax lines on items<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Izveidot<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Izveidot dabas resursu nodokļa rindas krājumiem<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>Enter the quarter and the year for the reporting period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to transfer the information that will be used to generate the report about the tax on dangerous materials.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Labi<ept id="p1">**</ept>, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par bīstamu materiālu nodokli.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>After the Natural resources tax lines are created, you can manually add or modify the information on each line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad dabas resursu nodokļa rindas ir izveidotas, katrā rindā informāciju varat manuāli pievienot vai modificēt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lauks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apraksts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokuments</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>The voucher number in the ledger.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumenta numurs Virsgrāmatā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>The date of the Natural resources tax transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļa transakcijas datums.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>Invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rēķins</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>The identifier of the invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rēķina identifikators.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>Transaction type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transakcijas tips</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>The type of the Natural resources tax transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļa transakcijas tips.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>The available options are <bpt id="p1">**</bpt>Tax on dangerous items<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Tax on packing materials<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pieejamās opcijas ir <bpt id="p1">**</bpt>Bīstamu krājumu nodoklis<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Iepakojuma materiālu nodoklis<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Natural resource tax group</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļu grupa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>The tax group for natural resources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dabas resursu nodokļu grupa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>This field isn't available when <bpt id="p1">**</bpt>Tax on packing materials<ept id="p1">**</ept> is selected in the <bpt id="p2">**</bpt>Transaction type<ept id="p2">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis lauks nav pieejams, ja laukā <bpt id="p2">**</bpt>Transakcijas tips<ept id="p2">**</ept> ir atlasīta vērtība <bpt id="p1">**</bpt>Iepakojuma materiālu nodoklis<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>Sales tax group</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVN grupa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>The sales tax group that is created for Natural resources taxes that are calculated during a sale or a purchase transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārdošanas vai pirkšanas transakcijas laikā aprēķinātajiem dabas resursu nodokļiem izveidotā PVN grupa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>This field isn't available when <bpt id="p1">**</bpt>Tax on packing materials<ept id="p1">**</ept> is selected in the <bpt id="p2">**</bpt>Transaction type<ept id="p2">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis lauks nav pieejams, ja laukā <bpt id="p2">**</bpt>Transakcijas tips<ept id="p2">**</ept> ir atlasīta vērtība <bpt id="p1">**</bpt>Iepakojuma materiālu nodoklis<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>Sales tax code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVN kods</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>The code that identifies the sales tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kods, kas identificē PVN.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Tax Base Amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nodokļa bāzes summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>The original amount that the sales tax is calculated from.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākotnējā summa, no kuras tiek rēķināts PVN.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>This field isn't available when <bpt id="p1">**</bpt>Tax on packing materials<ept id="p1">**</ept> is selected in the <bpt id="p2">**</bpt>Transaction type<ept id="p2">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis lauks nav pieejams, ja laukā <bpt id="p2">**</bpt>Transakcijas tips<ept id="p2">**</ept> ir atlasīta vērtība <bpt id="p1">**</bpt>Iepakojuma materiālu nodoklis<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Tax amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVN summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>The calculated sales tax amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aprēķinātā PVN summa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>BOM line</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MK rinda</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Select this option if the transaction is a BOM (bill of materials) line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atzīmējiet šo opciju, ja transakcija ir MK (materuālu komplekta) rinda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>Reference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsauce</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>The module that generates the transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modulis, kas ģenerē šo transakciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>A number such as an order number, project number, or production number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numurs, piemēram, pasūtījuma numurs, projekta numurs vai ražošanas numurs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>Reference table ID</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsauces tabulas ID</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>The source table for the transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transakcijas avota tabula.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>Reference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsauce</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>The source reference field in a different table.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avota atsauces lauks citā tabulā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The fields in the <bpt id="p2">**</bpt>Packing material<ept id="p2">**</ept> field group are available only when you select <bpt id="p3">**</bpt>Tax on packing materials<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>Transaction type<ept id="p4">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Piezīme.<ept id="p1">**</ept> Lauku grupā <bpt id="p2">**</bpt>Iepakojuma materiāli<ept id="p2">**</ept> lauki ir pieejami tikai tad, ja laukā <bpt id="p4">**</bpt>Transakcijas tips<ept id="p4">**</ept> ir atlasīta opcija <bpt id="p3">**</bpt>Iepakojuma materiālu nodoklis<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>Click <bpt id="p1">**</bpt>Data validation<ept id="p1">**</ept> to validate the Natural resources tax transaction lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Datu validēšana<ept id="p1">**</ept>, lai validētu dabas resursu nodokļa transakciju rindas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>Correct any errors by manually editing the lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izlabojiet visas kļūdas, rindas rediģējot manuāli.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>Click <bpt id="p1">**</bpt>Print<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Drukāt<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>Enter the report year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadiet pārskata gadu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Select a managing director.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet rīkotājdirektoru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>Select the person who is responsible for the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet par pārskatu atbildīgo personu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Select the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet nodokļu iestādi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to print the statement for tax on natural resources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Labi<ept id="p1">**</ept>, lai drukātu deklarāciju par dabas resursu nodokli.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Dabas resursu nodokļa pārskats
+description: Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: LvNRTaxItemGroupLookup
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 270454
+ms.search.region: Latvia
+ms.author: v-lenest
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67b477b1b2e1d0836b236b6c4926dd6bd7c601fa
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549064"
+---
+# <a name="tax-on-natural-resources-report"></a><span data-ttu-id="1b3cc-103">Dabas resursu nodokļa pārskats</span><span class="sxs-lookup"><span data-stu-id="1b3cc-103">Tax on natural resources report</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="1b3cc-104">Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).</span><span class="sxs-lookup"><span data-stu-id="1b3cc-104">This topic explains how to set up and generate the Tax on natural resources (NR Tax) report.</span></span>
+
+<span data-ttu-id="1b3cc-105">Uzņēmumiem Latvijā ir periodiski jāiesniedz pārskats **Dabas resursu nodoklis** (**DRN**).</span><span class="sxs-lookup"><span data-stu-id="1b3cc-105">Latvian companies must periodically submit a **Tax on natural resources** (**NR tax**) report.</span></span> <span data-ttu-id="1b3cc-106">Šī funkcionalitāte attiecas tikai uz juridiskajām personām Latvijā.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-106">This functionality applies only to legal entities in Latvia.</span></span> <span data-ttu-id="1b3cc-107">Nodoklis ir jāaprēķina arī par importētajām vai pašu ražotajām precēm, kuras tiek lietotas iekšēji.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-107">Tax must also be calculated on imported or self-produced goods that are used internally.</span></span> <span data-ttu-id="1b3cc-108">Visbeidzot — dabas resursu nodoklis ir jāaprēķina par pārskata perioda laikā pārdoto iepakoto preču iepakojuma materiāliem.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-108">Finally, tax on natural resources must be calculated for packaging materials that are used to package goods that are sold within the reporting period.</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="1b3cc-109">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="1b3cc-109">Prerequisites</span></span>
+
+| <span data-ttu-id="1b3cc-110">Priekšnosacījums</span><span class="sxs-lookup"><span data-stu-id="1b3cc-110">Prerequisite</span></span>                                                   | <span data-ttu-id="1b3cc-111">Papildinformācija</span><span class="sxs-lookup"><span data-stu-id="1b3cc-111">More information</span></span>                                                                                                                                                                                                                                                                                                                                                                                            |
+|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="1b3cc-112">Iestatiet nodokļu iestādi.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-112">Set up a tax authority.</span></span>                                        |    |
+| <span data-ttu-id="1b3cc-113">Iestatiet virsgrāmatas grāmatošanas grupu dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-113">Set up the ledger posting group for the Natural resources tax.</span></span> |  |
+| <span data-ttu-id="1b3cc-114">Iestatiet nosegšanas periodu dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-114">Set up a settlement period for the Natural resources tax.</span></span>      |  |
+| <span data-ttu-id="1b3cc-115">Iestatiet PVN kodus dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-115">Set up sales tax codes for the Natural resources tax.</span></span>          | |
+| <span data-ttu-id="1b3cc-116">Iestatiet PVN grupas dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-116">Set up sales tax groups for the Natural resources tax.</span></span>         |  |
+| <span data-ttu-id="1b3cc-117">Iestatiet nodokļu grupas dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-117">Set up tax groups for the Natural resources tax.</span></span>               | <span data-ttu-id="1b3cc-118">Izmantojiet lapu **Dabas resursu nodokļu grupa**, lai iestatītu nodokļu grupas, kurās ir definēti pareizie PVN kodi, ņemot vērā nodokļu grupas un PVN grupas krustpunktu dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-118">Use the **Natural resources tax group** page to set up tax groups that define the correct sales tax codes, based on the intersection of the tax group and sales tax group for the Natural resources tax.</span></span>                                                                                                                                                                                                    |
+| <span data-ttu-id="1b3cc-119">Iestatiet krājumu parametrus.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-119">Set up inventory parameters.</span></span>                                   | <span data-ttu-id="1b3cc-120">Lapā **Krājumu un noliktavas vadības parametri** opcijai **Aprēķināt iepakojuma materiālu maksas** iestatiet vērtību **Jā**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-120">On the **Inventory and warehouse management parameters** page, set the **Calculate packing material fees** option to **Yes**.</span></span> <span data-ttu-id="1b3cc-121">Laukā **PVN grupa** atlasiet PVN grupu dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-121">In the **Sales tax group** field, select a sales tax group for the Natural resources tax.</span></span> <span data-ttu-id="1b3cc-122">Pēc noklusējuma šī PVN grupa tiek lietota, lai atrastu PVN kodu, kurš tiek lietots pārskata aprēķinos, ja uz pārskatu pārsūtītajai transakcijai nav PVN grupas.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-122">By default, this sales tax group is used to find the sales tax code that is used for report calculations if a transaction that is transferred to the report has no sales tax group.</span></span> |
+| <span data-ttu-id="1b3cc-123">Norādiet dabas resursu nodokļa informāciju kādam krājumam.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-123">Specify natural resources tax information for an item.</span></span>         | <span data-ttu-id="1b3cc-124">Preču informācijas pārvaldības lapā **Izlaistās preces**, cilnē **Pārvaldīt krājumus**, laukā **Dabas resursu nodokļa grupa** norādiet kādu vērtību, lai dabas resursu nodokli aprēķinātu kādam krājumam pārdošanas vai krājumu transakcijās.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-124">In Product information management, on the **Released products** page, on the **Manage inventory** tab, in the **Natural resource tax group** field, specify a value to calculate the Natural resources tax for an item in a sale or in inventory transactions.</span></span>                                                                                                                                              |
+
+## <a name="report-setup"></a><span data-ttu-id="1b3cc-125">Pārskatu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="1b3cc-125">Report setup</span></span>
+<span data-ttu-id="1b3cc-126">Lai varētu ģenerēt pārskatu **Dabas resursu nodoklis**, ir jāiestata rindas katram pārskata izkārtojumam.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-126">Before you can generate the **Natural resources tax** report, you must set up the lines for each report layout.</span></span> <span data-ttu-id="1b3cc-127">Katrā pārskata izkārtojumā katrai rindai izpildiet tālāk aprakstītās darbības.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-127">Repeat the following steps for every line in each report layout.</span></span>
+
+1.  <span data-ttu-id="1b3cc-128">Noklikšķiniet uz **Nodokļi** &gt; **Iestatīšana** &gt; **PVN** &gt; **Dabas resursu nodokļa pārskata iestatīšana**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-128">Click **Tax** &gt; **Setup** &gt; **Sales tax** &gt; **Natural resources tax report setup**.</span></span>
+2.  <span data-ttu-id="1b3cc-129">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-129">Click **New**.</span></span>
+3.  <span data-ttu-id="1b3cc-130">Laukā **Formas numurs** atlasiet iestatāmo formu no tālāk uzskaitītajām.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-130">In the **Form number** field, select the form to set up:</span></span>
+    -   <span data-ttu-id="1b3cc-131">**2. forma** — šajā formā tiek rādīta informācija par dabas resursu lietojumu un visu vides piesārņojumu, kas ir ģenerēts pārskata periodā.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-131">**Form 2** – This form shows information about the use of natural resources and any environmental pollution that is generated within the reporting period.</span></span>
+    -   <span data-ttu-id="1b3cc-132">**3. forma** — šajā formā tiek rādīta informācija par dabas resursu nodokli, kas ir aprēķināts precēm, kuras uzņēmums importēja vai saražoja un pārdeva Latvijā pirmo reizi.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-132">**Form 3** – This form shows information about the tax on natural resources that is calculated for goods that were imported or produced by the company and sold in Latvia for the first time.</span></span>
+
+4.  <span data-ttu-id="1b3cc-133">Atlasiet sērijas numuru.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-133">Select a sequence number.</span></span> <span data-ttu-id="1b3cc-134">Šis numurs norāda rindas pozīciju pārskatā iekļauto rindu virknē.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-134">This number specifies the position of the line in the sequence of lines on the report.</span></span>
+5.  <span data-ttu-id="1b3cc-135">Laukā **Rindas tips** atlasiet pārskata rindas tipu no tālāk uzskaitītajiem.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-135">In the **Line type** field, select the type of report line:</span></span>
+    -   <span data-ttu-id="1b3cc-136">**Galvene** — šī rinda pārskatu lapās tiek drukāta kā galvenes rindas.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-136">**Header** – The line is printed as header lines on report pages.</span></span>
+    -   <span data-ttu-id="1b3cc-137">**Rinda**</span><span class="sxs-lookup"><span data-stu-id="1b3cc-137">**Line**</span></span>
+    -   <span data-ttu-id="1b3cc-138">**Kopsumma** — rindā tiek rādīta rindu vērtību kopsumma.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-138">**Total** – The line shows the summarized line values.</span></span>
+
+6.  <span data-ttu-id="1b3cc-139">Ja 5. darbībā atlasījāt **Rinda**, ievadiet rindas kodu pārskata rindai **Dabas resursu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-139">If you selected **Line** in step 5, enter the line code for the **Natural resources tax** report line.</span></span>
+7.  <span data-ttu-id="1b3cc-140">Laukā **Apraksts** ievadiet īsu transakcijas aprakstu.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-140">In the **Description** field, enter a brief description of the transaction.</span></span>
+8.  <span data-ttu-id="1b3cc-141">Laukā the **Kopsummas rindas kods** ievadiet kopsummas rindas kodu.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-141">In the **Total line code** field, enter the total line code.</span></span> <span data-ttu-id="1b3cc-142">Ja 5. darbībā atlasījāt **Rinda**, laukā **Noliktava** tiek rādīts noliktavas kods.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-142">If you selected **Line** in step 5, the **Warehouse** field shows the warehouse code.</span></span>
+9.  <span data-ttu-id="1b3cc-143">Laukā **PVN kods** atlasiet PVN kodu, kurš tika izveidots dabas resursu nodokļa aprēķinam.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-143">In the **Sales tax code** field, select the sales tax code that was created for the calculation of the Natural resources tax.</span></span>
+10. <span data-ttu-id="1b3cc-144">Laukā **Iepakojuma materiālu kods** atlasiet iepakojuma materiālu kodu, kurš tika izveidots dabas resursu nodoklim.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-144">In the **Packing material code** field, select the packing material code that was created for the Natural resources tax.</span></span> <span data-ttu-id="1b3cc-145">Šis lauks nav pieejams, ja laukā **PVN kods** ir atlasīts kāds PVN kods.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-145">This field isn't available if you select a sales tax code in the **Sales tax code** field.</span></span> <span data-ttu-id="1b3cc-146">Vienlaicīgi ir pieejams tikai viens no šiem diviem laukiem.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-146">Only one of these two fields is available at a time.</span></span>
+
+### <a name="example-form-2-layout"></a><span data-ttu-id="1b3cc-147">Piemērs. 2. formas izkārtojums</span><span class="sxs-lookup"><span data-stu-id="1b3cc-147">Example: Form 2 layout</span></span>
+
+<span data-ttu-id="1b3cc-148">Šajā piemērā izkārtojumā ietilpst tālāk uzskaitītie informācijas elementi.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-148">This example layout has the following information elements:</span></span>
+
+-   <span data-ttu-id="1b3cc-149">Galvene, kas sniedz ievadu par pārskata saturu</span><span class="sxs-lookup"><span data-stu-id="1b3cc-149">A header that introduces the content of the report</span></span>
+-   <span data-ttu-id="1b3cc-150">Rindas, kurās ir redzams apraksts un atsevišķas pārskata vērtības</span><span class="sxs-lookup"><span data-stu-id="1b3cc-150">Lines that show the descriptions and individual values to report</span></span>
+-   <span data-ttu-id="1b3cc-151">Rindu vērtību kopsummas</span><span class="sxs-lookup"><span data-stu-id="1b3cc-151">The total amounts for the line values</span></span>
+
+| <span data-ttu-id="1b3cc-152">Formas numurs</span><span class="sxs-lookup"><span data-stu-id="1b3cc-152">Form number</span></span> | <span data-ttu-id="1b3cc-153">Rindas tips</span><span class="sxs-lookup"><span data-stu-id="1b3cc-153">Line type</span></span> | <span data-ttu-id="1b3cc-154">Sērijas numurs</span><span class="sxs-lookup"><span data-stu-id="1b3cc-154">Sequence number</span></span> | <span data-ttu-id="1b3cc-155">Rindas kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-155">Line code</span></span> | <span data-ttu-id="1b3cc-156">Apraksts</span><span class="sxs-lookup"><span data-stu-id="1b3cc-156">Description</span></span>                                | <span data-ttu-id="1b3cc-157">Kopsummas rindas kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-157">Total line code</span></span> | <span data-ttu-id="1b3cc-158">Novietojuma ID</span><span class="sxs-lookup"><span data-stu-id="1b3cc-158">Location Id</span></span> | <span data-ttu-id="1b3cc-159">Dabas resursu nodokļa kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-159">Natural resources Tax code</span></span> | <span data-ttu-id="1b3cc-160">Iepakojuma materiāla kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-160">Packing material code</span></span> |
+|-------------|-----------|-----------------|-----------|--------------------------------------------|-----------------|-------------|----------------------------|-----------------------|
+| <span data-ttu-id="1b3cc-161">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-161">Form 2</span></span>      | <span data-ttu-id="1b3cc-162">Galvene</span><span class="sxs-lookup"><span data-stu-id="1b3cc-162">Header</span></span>    | <span data-ttu-id="1b3cc-163">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-163">1</span></span>               |           | <span data-ttu-id="1b3cc-164">I.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-164">I.</span></span> <span data-ttu-id="1b3cc-165">Nodoklis par dabas resursu lietojumu</span><span class="sxs-lookup"><span data-stu-id="1b3cc-165">Tax on utilization of natural resources</span></span> |                 |             |                            |                       |
+| <span data-ttu-id="1b3cc-166">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-166">Form 2</span></span>      | <span data-ttu-id="1b3cc-167">Summa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-167">Total</span></span>     | <span data-ttu-id="1b3cc-168">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-168">2</span></span>               | <span data-ttu-id="1b3cc-169">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-169">1</span></span>         | <span data-ttu-id="1b3cc-170">Dabas resursu lietojums (kopsumma)</span><span class="sxs-lookup"><span data-stu-id="1b3cc-170">Utilization of natural resources (Total)</span></span>   | <span data-ttu-id="1b3cc-171">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-171">3</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-172">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-172">Form 2</span></span>      | <span data-ttu-id="1b3cc-173">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-173">Line</span></span>      | <span data-ttu-id="1b3cc-174">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-174">3</span></span>               | <span data-ttu-id="1b3cc-175">1.1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-175">1.1</span></span>       | <span data-ttu-id="1b3cc-176">Contoso Manufacturing Co</span><span class="sxs-lookup"><span data-stu-id="1b3cc-176">Contoso Manufacturing Co</span></span>                   | <span data-ttu-id="1b3cc-177">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-177">1</span></span>               | <span data-ttu-id="1b3cc-178">785200</span><span class="sxs-lookup"><span data-stu-id="1b3cc-178">785200</span></span>      | <span data-ttu-id="1b3cc-179">NR-water</span><span class="sxs-lookup"><span data-stu-id="1b3cc-179">NR-water</span></span>                   |                       |
+| <span data-ttu-id="1b3cc-180">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-180">Form 2</span></span>      | <span data-ttu-id="1b3cc-181">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-181">Line</span></span>      | <span data-ttu-id="1b3cc-182">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-182">4</span></span>               | <span data-ttu-id="1b3cc-183">1.2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-183">1.2</span></span>       | <span data-ttu-id="1b3cc-184">Smilšu karjers nr. 1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-184">Sandpit Nr1</span></span>                                | <span data-ttu-id="1b3cc-185">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-185">1</span></span>               | <span data-ttu-id="1b3cc-186">600900</span><span class="sxs-lookup"><span data-stu-id="1b3cc-186">600900</span></span>      | <span data-ttu-id="1b3cc-187">NR-sand</span><span class="sxs-lookup"><span data-stu-id="1b3cc-187">NR-sand</span></span>                    |                       |
+| <span data-ttu-id="1b3cc-188">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-188">Form 2</span></span>      | <span data-ttu-id="1b3cc-189">Summa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-189">Total</span></span>     | <span data-ttu-id="1b3cc-190">5</span><span class="sxs-lookup"><span data-stu-id="1b3cc-190">5</span></span>               | <span data-ttu-id="1b3cc-191">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-191">2</span></span>         | <span data-ttu-id="1b3cc-192">Vides piesārņojums (kopsumma)</span><span class="sxs-lookup"><span data-stu-id="1b3cc-192">Environment pollution (Total)</span></span>              | <span data-ttu-id="1b3cc-193">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-193">3</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-194">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-194">Form 2</span></span>      | <span data-ttu-id="1b3cc-195">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-195">Line</span></span>      | <span data-ttu-id="1b3cc-196">6</span><span class="sxs-lookup"><span data-stu-id="1b3cc-196">6</span></span>               | <span data-ttu-id="1b3cc-197">2.1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-197">2.1</span></span>       | <span data-ttu-id="1b3cc-198">Contoso Manufacturing Co</span><span class="sxs-lookup"><span data-stu-id="1b3cc-198">Contoso Manufacturing Co</span></span>                   | <span data-ttu-id="1b3cc-199">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-199">2</span></span>               | <span data-ttu-id="1b3cc-200">785200</span><span class="sxs-lookup"><span data-stu-id="1b3cc-200">785200</span></span>      | <span data-ttu-id="1b3cc-201">NR-CO2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-201">NR-CO2</span></span>                     |                       |
+| <span data-ttu-id="1b3cc-202">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-202">Form 2</span></span>      | <span data-ttu-id="1b3cc-203">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-203">Line</span></span>      | <span data-ttu-id="1b3cc-204">7</span><span class="sxs-lookup"><span data-stu-id="1b3cc-204">7</span></span>               | <span data-ttu-id="1b3cc-205">2.1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-205">2.1</span></span>       | <span data-ttu-id="1b3cc-206">Pārskata rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-206">Reporting Line</span></span>                             | <span data-ttu-id="1b3cc-207">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-207">2</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-208">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-208">Form 2</span></span>      | <span data-ttu-id="1b3cc-209">Kopsumma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-209">Total</span></span>     | <span data-ttu-id="1b3cc-210">8</span><span class="sxs-lookup"><span data-stu-id="1b3cc-210">8</span></span>               | <span data-ttu-id="1b3cc-211">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-211">3</span></span>         | <span data-ttu-id="1b3cc-212">Kopsummas rinda (1. rinda + 2. rinda)</span><span class="sxs-lookup"><span data-stu-id="1b3cc-212">Total line (line1+ line2)</span></span>                  |                 |             |                            |                       |
+| <span data-ttu-id="1b3cc-213">2. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-213">Form 2</span></span>      | <span data-ttu-id="1b3cc-214">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-214">Line</span></span>      | <span data-ttu-id="1b3cc-215">9</span><span class="sxs-lookup"><span data-stu-id="1b3cc-215">9</span></span>               | <span data-ttu-id="1b3cc-216">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-216">4</span></span>         | <span data-ttu-id="1b3cc-217">Pārskata rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-217">Reporting Line</span></span>                             |                 |             |                            |                       |
+
+### <a name="example-form-3-layout"></a><span data-ttu-id="1b3cc-218">Piemērs. 3. formas izkārtojums</span><span class="sxs-lookup"><span data-stu-id="1b3cc-218">Example: Form 3 layout</span></span>
+
+<span data-ttu-id="1b3cc-219">Šajā piemērā izkārtojumā ietilpst tālāk uzskaitītie elementi.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-219">This example layout has the following elements:</span></span>
+
+-   <span data-ttu-id="1b3cc-220">Galvene, kas sniedz ievadu par pārskata saturu</span><span class="sxs-lookup"><span data-stu-id="1b3cc-220">A header that introduces the content of the report</span></span>
+-   <span data-ttu-id="1b3cc-221">Rindas, kurās ir redzams apraksts un atsevišķas pārskata vērtības</span><span class="sxs-lookup"><span data-stu-id="1b3cc-221">Lines that show the descriptions and individual values to report</span></span>
+-   <span data-ttu-id="1b3cc-222">Rindu vērtību kopsummas</span><span class="sxs-lookup"><span data-stu-id="1b3cc-222">The total amounts for the line values</span></span>
+
+| <span data-ttu-id="1b3cc-223">Formas numurs</span><span class="sxs-lookup"><span data-stu-id="1b3cc-223">Form number</span></span> | <span data-ttu-id="1b3cc-224">Rindas tips</span><span class="sxs-lookup"><span data-stu-id="1b3cc-224">Line type</span></span> | <span data-ttu-id="1b3cc-225">Sērijas numurs</span><span class="sxs-lookup"><span data-stu-id="1b3cc-225">Sequence number</span></span> | <span data-ttu-id="1b3cc-226">Rindas kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-226">Line code</span></span> | <span data-ttu-id="1b3cc-227">Apraksts</span><span class="sxs-lookup"><span data-stu-id="1b3cc-227">Description</span></span>                                                       | <span data-ttu-id="1b3cc-228">Kopsummas rindas kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-228">Total line code</span></span> | <span data-ttu-id="1b3cc-229">Novietojuma ID</span><span class="sxs-lookup"><span data-stu-id="1b3cc-229">Location Id</span></span> | <span data-ttu-id="1b3cc-230">Dabas resursu nodokļa kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-230">Natural resources Tax code</span></span> | <span data-ttu-id="1b3cc-231">Iepakojuma materiāla kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-231">Packing material code</span></span> |
+|-------------|-----------|-----------------|-----------|-------------------------------------------------------------------|-----------------|-------------|----------------------------|-----------------------|
+| <span data-ttu-id="1b3cc-232">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-232">Form 3</span></span>      | <span data-ttu-id="1b3cc-233">Galvene</span><span class="sxs-lookup"><span data-stu-id="1b3cc-233">Header</span></span>    | <span data-ttu-id="1b3cc-234">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-234">1</span></span>               |           | <span data-ttu-id="1b3cc-235">I.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-235">I.</span></span> <span data-ttu-id="1b3cc-236">Nodoklis par bīstamām precēm, iepakojuma materiāliem un vienreizlietojamajiem traukiem</span><span class="sxs-lookup"><span data-stu-id="1b3cc-236">Tax on hazardous goods, packing materials and throwaway dishes</span></span> |                 |             |                            |                       |
+| <span data-ttu-id="1b3cc-237">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-237">Form 3</span></span>      | <span data-ttu-id="1b3cc-238">Kopsumma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-238">Total</span></span>     | <span data-ttu-id="1b3cc-239">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-239">2</span></span>               | <span data-ttu-id="1b3cc-240">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-240">1</span></span>         | <span data-ttu-id="1b3cc-241">Bīstamas preces - Kopsumma:</span><span class="sxs-lookup"><span data-stu-id="1b3cc-241">Hazardous goods - Total:</span></span>                                          | <span data-ttu-id="1b3cc-242">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-242">4</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-243">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-243">Form 3</span></span>      | <span data-ttu-id="1b3cc-244">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-244">Line</span></span>      | <span data-ttu-id="1b3cc-245">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-245">3</span></span>               | <span data-ttu-id="1b3cc-246">1.1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-246">1.1</span></span>       | <span data-ttu-id="1b3cc-247">Alumīnija folija</span><span class="sxs-lookup"><span data-stu-id="1b3cc-247">Aluminum foil</span></span>                                                     | <span data-ttu-id="1b3cc-248">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-248">1</span></span>               |             | <span data-ttu-id="1b3cc-249">NR-GAlum</span><span class="sxs-lookup"><span data-stu-id="1b3cc-249">NR-GAlum</span></span>                   |                       |
+| <span data-ttu-id="1b3cc-250">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-250">Form 3</span></span>      | <span data-ttu-id="1b3cc-251">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-251">Line</span></span>      | <span data-ttu-id="1b3cc-252">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-252">4</span></span>               | <span data-ttu-id="1b3cc-253">1.2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-253">1.2</span></span>       |                                                                   | <span data-ttu-id="1b3cc-254">1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-254">1</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-255">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-255">Form 3</span></span>      | <span data-ttu-id="1b3cc-256">Kopsumma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-256">Total</span></span>     | <span data-ttu-id="1b3cc-257">5</span><span class="sxs-lookup"><span data-stu-id="1b3cc-257">5</span></span>               | <span data-ttu-id="1b3cc-258">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-258">2</span></span>         | <span data-ttu-id="1b3cc-259">Iepakojuma materiāli - Kopsumma:</span><span class="sxs-lookup"><span data-stu-id="1b3cc-259">Packing materials - Total:</span></span>                                        | <span data-ttu-id="1b3cc-260">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-260">4</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-261">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-261">Form 3</span></span>      | <span data-ttu-id="1b3cc-262">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-262">Line</span></span>      | <span data-ttu-id="1b3cc-263">6</span><span class="sxs-lookup"><span data-stu-id="1b3cc-263">6</span></span>               | <span data-ttu-id="1b3cc-264">2.1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-264">2.1</span></span>       | <span data-ttu-id="1b3cc-265">Iepakojums: stikls</span><span class="sxs-lookup"><span data-stu-id="1b3cc-265">Packing: glass</span></span>                                                    | <span data-ttu-id="1b3cc-266">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-266">2</span></span>               |             |                            | <span data-ttu-id="1b3cc-267">PM-Glass</span><span class="sxs-lookup"><span data-stu-id="1b3cc-267">PM-Glass</span></span>              |
+| <span data-ttu-id="1b3cc-268">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-268">Form 3</span></span>      | <span data-ttu-id="1b3cc-269">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-269">Line</span></span>      | <span data-ttu-id="1b3cc-270">7</span><span class="sxs-lookup"><span data-stu-id="1b3cc-270">7</span></span>               | <span data-ttu-id="1b3cc-271">2.2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-271">2.2</span></span>       | <span data-ttu-id="1b3cc-272">Iepakojums: plastmasa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-272">Packing: plastics</span></span>                                                 | <span data-ttu-id="1b3cc-273">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-273">2</span></span>               |             |                            | <span data-ttu-id="1b3cc-274">PM-Plastic</span><span class="sxs-lookup"><span data-stu-id="1b3cc-274">PM-Plastic</span></span>            |
+| <span data-ttu-id="1b3cc-275">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-275">Form 3</span></span>      | <span data-ttu-id="1b3cc-276">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-276">Line</span></span>      | <span data-ttu-id="1b3cc-277">8</span><span class="sxs-lookup"><span data-stu-id="1b3cc-277">8</span></span>               | <span data-ttu-id="1b3cc-278">2.3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-278">2.3</span></span>       | <span data-ttu-id="1b3cc-279">Iepakojums: metāla folija</span><span class="sxs-lookup"><span data-stu-id="1b3cc-279">Packing: metal foil</span></span>                                               | <span data-ttu-id="1b3cc-280">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-280">2</span></span>               |             |                            | <span data-ttu-id="1b3cc-281">PM-MetalF</span><span class="sxs-lookup"><span data-stu-id="1b3cc-281">PM-MetalF</span></span>             |
+| <span data-ttu-id="1b3cc-282">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-282">Form 3</span></span>      | <span data-ttu-id="1b3cc-283">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-283">Line</span></span>      | <span data-ttu-id="1b3cc-284">9</span><span class="sxs-lookup"><span data-stu-id="1b3cc-284">9</span></span>               | <span data-ttu-id="1b3cc-285">2.4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-285">2.4</span></span>       | <span data-ttu-id="1b3cc-286">Iepakojums: koks, papīrs, kartons</span><span class="sxs-lookup"><span data-stu-id="1b3cc-286">Packing: wood, paper, cartons</span></span>                                     | <span data-ttu-id="1b3cc-287">2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-287">2</span></span>               |             |                            | <span data-ttu-id="1b3cc-288">PM-WPC</span><span class="sxs-lookup"><span data-stu-id="1b3cc-288">PM-WPC</span></span>                |
+| <span data-ttu-id="1b3cc-289">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-289">Form 3</span></span>      | <span data-ttu-id="1b3cc-290">Summa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-290">Total</span></span>     | <span data-ttu-id="1b3cc-291">10</span><span class="sxs-lookup"><span data-stu-id="1b3cc-291">10</span></span>              | <span data-ttu-id="1b3cc-292">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-292">3</span></span>         | <span data-ttu-id="1b3cc-293">Vienreizlietojamie trauki - Kopsumma:</span><span class="sxs-lookup"><span data-stu-id="1b3cc-293">Throwaway dishes - Total:</span></span>                                         | <span data-ttu-id="1b3cc-294">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-294">4</span></span>               |             |                            |                       |
+| <span data-ttu-id="1b3cc-295">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-295">Form 3</span></span>      | <span data-ttu-id="1b3cc-296">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-296">Line</span></span>      | <span data-ttu-id="1b3cc-297">11</span><span class="sxs-lookup"><span data-stu-id="1b3cc-297">11</span></span>              | <span data-ttu-id="1b3cc-298">3.1</span><span class="sxs-lookup"><span data-stu-id="1b3cc-298">3.1</span></span>       | <span data-ttu-id="1b3cc-299">plastmasa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-299">plastics</span></span>                                                          | <span data-ttu-id="1b3cc-300">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-300">3</span></span>               |             |                            | <span data-ttu-id="1b3cc-301">T-Plast</span><span class="sxs-lookup"><span data-stu-id="1b3cc-301">T-Plast</span></span>               |
+| <span data-ttu-id="1b3cc-302">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-302">Form 3</span></span>      | <span data-ttu-id="1b3cc-303">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-303">Line</span></span>      | <span data-ttu-id="1b3cc-304">12</span><span class="sxs-lookup"><span data-stu-id="1b3cc-304">12</span></span>              | <span data-ttu-id="1b3cc-305">3.2</span><span class="sxs-lookup"><span data-stu-id="1b3cc-305">3.2</span></span>       | <span data-ttu-id="1b3cc-306">Metāla folija</span><span class="sxs-lookup"><span data-stu-id="1b3cc-306">Metal foil</span></span>                                                        | <span data-ttu-id="1b3cc-307">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-307">3</span></span>               |             |                            | <span data-ttu-id="1b3cc-308">T-MetalF</span><span class="sxs-lookup"><span data-stu-id="1b3cc-308">T-MetalF</span></span>              |
+| <span data-ttu-id="1b3cc-309">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-309">Form 3</span></span>      | <span data-ttu-id="1b3cc-310">Rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-310">Line</span></span>      | <span data-ttu-id="1b3cc-311">13</span><span class="sxs-lookup"><span data-stu-id="1b3cc-311">13</span></span>              | <span data-ttu-id="1b3cc-312">3.3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-312">3.3</span></span>       | <span data-ttu-id="1b3cc-313">Koks, papīrs, kartons</span><span class="sxs-lookup"><span data-stu-id="1b3cc-313">Wood, paper, cartons</span></span>                                              | <span data-ttu-id="1b3cc-314">3</span><span class="sxs-lookup"><span data-stu-id="1b3cc-314">3</span></span>               |             |                            | <span data-ttu-id="1b3cc-315">T-WPC</span><span class="sxs-lookup"><span data-stu-id="1b3cc-315">T-WPC</span></span>                 |
+| <span data-ttu-id="1b3cc-316">3. forma</span><span class="sxs-lookup"><span data-stu-id="1b3cc-316">Form 3</span></span>      | <span data-ttu-id="1b3cc-317">Summa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-317">Total</span></span>     | <span data-ttu-id="1b3cc-318">14</span><span class="sxs-lookup"><span data-stu-id="1b3cc-318">14</span></span>              | <span data-ttu-id="1b3cc-319">4</span><span class="sxs-lookup"><span data-stu-id="1b3cc-319">4</span></span>         | <span data-ttu-id="1b3cc-320">Kopsummas rinda (1. rinda + 2. rinda + 3. rinda)</span><span class="sxs-lookup"><span data-stu-id="1b3cc-320">Total line (line1+ line2 + line3)</span></span>                                 |                 |             |                            |                       |
+
+## <a name="generate-the-natural-resources-tax-report"></a><span data-ttu-id="1b3cc-321">Ģenerēt dabas resursu nodokļa pārskatu</span><span class="sxs-lookup"><span data-stu-id="1b3cc-321">Generate the Natural resources tax report</span></span>
+<span data-ttu-id="1b3cc-322">Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un gadījumos, kad Latvijas debitoriem tiek izveidoti pārdošanas vai projektu rēķini, ja transakcijās ir iesaistīti krājumi, uz kuriem attiecas dabas resursu nodoklis.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-322">Natural resources taxes are calculated during inventory journal transactions, and when sales or project invoices are created for Latvian customers, if the transactions involve items that are subject to the Natural resources tax.</span></span> <span data-ttu-id="1b3cc-323">Šajā sadaļā ir aprakstīts, kā iegūt sarakstu ar dabas resursu nodokļa transakcijām, kas ir saistītas ar iepakojuma materiāliem, un kā izdrukāt dabas resursu nodokļa deklarāciju.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-323">This section describes to get a list of the Natural resources tax transactions that are related to packing materials and print the Natural resources tax statement.</span></span>
+
+1. <span data-ttu-id="1b3cc-324">Noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **PVN** &gt; **Dabas resursu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-324">Click **Tax** &gt; **Declarations** &gt; **Sales tax** &gt; **Tax on natural resources**.</span></span>
+2. <span data-ttu-id="1b3cc-325">Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas iepakojumam**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-325">Click **Create** &gt; **Create natural resources tax lines on package**.</span></span>
+3. <span data-ttu-id="1b3cc-326">Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-326">Enter the quarter and the year for the reporting period.</span></span>
+4. <span data-ttu-id="1b3cc-327">Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par iepakojuma materiāliem šajā pārskata periodā.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-327">Click **OK** to transfer the information that will be used to generate the report about the tax on packing materials for the reporting period.</span></span>
+5. <span data-ttu-id="1b3cc-328">Noklikšķiniet uz **Izveidot** &gt; **Izveidot dabas resursu nodokļa rindas krājumiem**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-328">Click **Create** &gt; **Create natural resources tax lines on items**.</span></span>
+6. <span data-ttu-id="1b3cc-329">Ievadiet attiecīgā pārskatu perioda ceturksni un gadu.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-329">Enter the quarter and the year for the reporting period.</span></span>
+7. <span data-ttu-id="1b3cc-330">Noklikšķiniet uz **Labi**, lai pārsūtītu informāciju, kura tiks izmantota, lai ģenerētu pārskatu par bīstamu materiālu nodokli.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-330">Click **OK** to transfer the information that will be used to generate the report about the tax on dangerous materials.</span></span>
+8. <span data-ttu-id="1b3cc-331">Kad dabas resursu nodokļa rindas ir izveidotas, katrā rindā informāciju varat manuāli pievienot vai modificēt.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-331">After the Natural resources tax lines are created, you can manually add or modify the information on each line.</span></span>
+
+   | <span data-ttu-id="1b3cc-332">Lauks</span><span class="sxs-lookup"><span data-stu-id="1b3cc-332">Field</span></span>                      | <span data-ttu-id="1b3cc-333">Apraksts</span><span class="sxs-lookup"><span data-stu-id="1b3cc-333">Description</span></span>                                                                                                                                                                                                                              |
+   |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   | <span data-ttu-id="1b3cc-334">Dokuments</span><span class="sxs-lookup"><span data-stu-id="1b3cc-334">Voucher</span></span>                    | <span data-ttu-id="1b3cc-335">Dokumenta numurs Virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-335">The voucher number in the ledger.</span></span>                                                                                                                                                                                                        |
+   | <span data-ttu-id="1b3cc-336">Datums</span><span class="sxs-lookup"><span data-stu-id="1b3cc-336">Date</span></span>                       | <span data-ttu-id="1b3cc-337">Dabas resursu nodokļa transakcijas datums.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-337">The date of the Natural resources tax transaction.</span></span>                                                                                                                                                                                       |
+   | <span data-ttu-id="1b3cc-338">Rēķins</span><span class="sxs-lookup"><span data-stu-id="1b3cc-338">Invoice</span></span>                    | <span data-ttu-id="1b3cc-339">Rēķina identifikators.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-339">The identifier of the invoice.</span></span>                                                                                                                                                                                                           |
+   | <span data-ttu-id="1b3cc-340">Transakcijas tips</span><span class="sxs-lookup"><span data-stu-id="1b3cc-340">Transaction type</span></span>           | <span data-ttu-id="1b3cc-341">Dabas resursu nodokļa transakcijas tips.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-341">The type of the Natural resources tax transaction.</span></span> <span data-ttu-id="1b3cc-342">Pieejamās opcijas ir **Bīstamu krājumu nodoklis** un **Iepakojuma materiālu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-342">The available options are **Tax on dangerous items** and **Tax on packing materials**.</span></span>                                                                                                |
+   | <span data-ttu-id="1b3cc-343">Dabas resursu nodokļu grupa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-343">Natural resource tax group</span></span> | <span data-ttu-id="1b3cc-344">Dabas resursu nodokļu grupa.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-344">The tax group for natural resources.</span></span> <span data-ttu-id="1b3cc-345">Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-345">This field isn't available when **Tax on packing materials** is selected in the **Transaction type** field.</span></span>                                                                                         |
+   | <span data-ttu-id="1b3cc-346">PVN grupa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-346">Sales tax group</span></span>            | <span data-ttu-id="1b3cc-347">Pārdošanas vai pirkšanas transakcijas laikā aprēķinātajiem dabas resursu nodokļiem izveidotā PVN grupa.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-347">The sales tax group that is created for Natural resources taxes that are calculated during a sale or a purchase transaction.</span></span> <span data-ttu-id="1b3cc-348">Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-348">This field isn't available when **Tax on packing materials** is selected in the **Transaction type** field.</span></span> |
+   | <span data-ttu-id="1b3cc-349">PVN kods</span><span class="sxs-lookup"><span data-stu-id="1b3cc-349">Sales tax code</span></span>             | <span data-ttu-id="1b3cc-350">Kods, kas identificē PVN.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-350">The code that identifies the sales tax.</span></span>                                                                                                                                                                                                  |
+   | <span data-ttu-id="1b3cc-351">Nodokļa bāzes summa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-351">Tax Base Amount</span></span>            | <span data-ttu-id="1b3cc-352">Sākotnējā summa, no kuras tiek rēķināts PVN.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-352">The original amount that the sales tax is calculated from.</span></span> <span data-ttu-id="1b3cc-353">Šis lauks nav pieejams, ja laukā **Transakcijas tips** ir atlasīta vērtība **Iepakojuma materiālu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-353">This field isn't available when **Tax on packing materials** is selected in the **Transaction type** field.</span></span>                                                                   |
+   | <span data-ttu-id="1b3cc-354">PVN summa</span><span class="sxs-lookup"><span data-stu-id="1b3cc-354">Tax amount</span></span>                 | <span data-ttu-id="1b3cc-355">Aprēķinātā PVN summa.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-355">The calculated sales tax amount.</span></span>                                                                                                                                                                                                         |
+   | <span data-ttu-id="1b3cc-356">MK rinda</span><span class="sxs-lookup"><span data-stu-id="1b3cc-356">BOM line</span></span>                   | <span data-ttu-id="1b3cc-357">Atzīmējiet šo opciju, ja transakcija ir MK (materuālu komplekta) rinda.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-357">Select this option if the transaction is a BOM (bill of materials) line.</span></span>                                                                                                                                                                 |
+   | <span data-ttu-id="1b3cc-358">Atsauce</span><span class="sxs-lookup"><span data-stu-id="1b3cc-358">Reference</span></span>                  | <span data-ttu-id="1b3cc-359">Modulis, kas ģenerē šo transakciju.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-359">The module that generates the transaction.</span></span>                                                                                                                                                                                               |
+   | <span data-ttu-id="1b3cc-360">Numurs</span><span class="sxs-lookup"><span data-stu-id="1b3cc-360">Number</span></span>                     | <span data-ttu-id="1b3cc-361">Numurs, piemēram, pasūtījuma numurs, projekta numurs vai ražošanas numurs.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-361">A number such as an order number, project number, or production number.</span></span>                                                                                                                                                                  |
+   | <span data-ttu-id="1b3cc-362">Atsauces tabulas ID</span><span class="sxs-lookup"><span data-stu-id="1b3cc-362">Reference table ID</span></span>         | <span data-ttu-id="1b3cc-363">Transakcijas avota tabula.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-363">The source table for the transaction.</span></span>                                                                                                                                                                                                    |
+   | <span data-ttu-id="1b3cc-364">Atsauce</span><span class="sxs-lookup"><span data-stu-id="1b3cc-364">Reference</span></span>                  | <span data-ttu-id="1b3cc-365">Avota atsauces lauks citā tabulā.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-365">The source reference field in a different table.</span></span>                                                                                                                                                                                         |
+
+   <span data-ttu-id="1b3cc-366">**Piezīme.** Lauku grupā **Iepakojuma materiāli** lauki ir pieejami tikai tad, ja laukā **Transakcijas tips** ir atlasīta opcija **Iepakojuma materiālu nodoklis**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-366">**Note:** The fields in the **Packing material** field group are available only when you select **Tax on packing materials** in the **Transaction type** field.</span></span>
+9. <span data-ttu-id="1b3cc-367">Noklikšķiniet uz **Datu validēšana**, lai validētu dabas resursu nodokļa transakciju rindas.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-367">Click **Data validation** to validate the Natural resources tax transaction lines.</span></span>
+10. <span data-ttu-id="1b3cc-368">Izlabojiet visas kļūdas, rindas rediģējot manuāli.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-368">Correct any errors by manually editing the lines.</span></span>
+11. <span data-ttu-id="1b3cc-369">Noklikšķiniet uz **Drukāt**.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-369">Click **Print**.</span></span>
+12. <span data-ttu-id="1b3cc-370">Ievadiet pārskata gadu.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-370">Enter the report year.</span></span>
+13. <span data-ttu-id="1b3cc-371">Atlasiet rīkotājdirektoru.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-371">Select a managing director.</span></span>
+14. <span data-ttu-id="1b3cc-372">Atlasiet par pārskatu atbildīgo personu.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-372">Select the person who is responsible for the report.</span></span>
+15. <span data-ttu-id="1b3cc-373">Atlasiet nodokļu iestādi.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-373">Select the tax authority.</span></span>
+16. <span data-ttu-id="1b3cc-374">Noklikšķiniet uz **Labi**, lai drukātu deklarāciju par dabas resursu nodokli.</span><span class="sxs-lookup"><span data-stu-id="1b3cc-374">Click **OK** to print the statement for tax on natural resources.</span></span>
+
+
+
+

@@ -1,345 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="cost.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>cost.4e88df.80e7a033467c3d94d55f06daa05f99bd27e19a29.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>80e7a033467c3d94d55f06daa05f99bd27e19a29</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\cost.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Cost configuration for distributed order management (DOM)</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes cost configuration for the distributed order management (DOM) functionality in Microsoft Dynamics 365 for Retail.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Šajā tēmā ir aprakstīta Microsoft Dynamics 365 for Retail izmaksu konfigurācijas sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Cost configuration for distributed order management (DOM)</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Organizations consider multiple cost components to determine the optimal location to fulfill an order from.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Organizācijām ieteicams izmantot vairākus izmaksu komponentus, lai noteiktu optimālu pasūtījuma izpildes vietu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Some of these cost components are shipping cost, handling cost, and packaging cost.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Daži no šiem izmaksu komponentiem ir piegādes izmaksas, apstrādes izmaksas un iepakojuma izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>A combination of these costs is calculated to determine the fulfillment location.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Šo izmaksu kombinācija tiek aprēķināta tādēļ, lai noteiktu izpildes vietu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>When the first iteration of distributed order management (DOM) in Microsoft Dynamics 365 for Retail optimized the assignment of orders to fulfillment locations, it factored in distance only.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Kad Microsoft Dynamics 365 for Retail pirmā sadalīto pasūtījumu pārvaldības (DOM) iterācija optimizē izpildes vietām piešķirtos pasūtījumus, tiek ņemts vērā tikai attālums.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Although distance can be correlated with cost, it isn't the same as cost.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Lai gan attālums var tikt saistīts ar izmaksām, tas nav tas pats, kas izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>For example, an overnight shipping method costs more than three-day shipping or seven-day shipping over the same distance.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Piemēram, vienā attālumā piegādes pa nakti izmaksas ir lielākas nekā piegādes trīs vai septiņu dienu laikā.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The cost configuration feature lets retailers define and configure additional cost components that will be calculated and factored in to determine the optimal location to fulfill order lines from.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Izmantojot izmaksu konfigurācijas funkciju, mazumtirgotāji var definēt un konfigurēt papildu izmaksu komponentus, kas tiks aprēķināti un ņemti vērā, nosakot optimālo vietu pasūtījumu rindu izpildei.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>When cost components are configured, the DOM solver uses only those cost definitions to determine the optimal location for order fulfillment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Kad izmaksu komponenti ir konfigurēti, lai noteiktu optimālo vietu pasūtījuma izpildei, DOM risinātājs izmanto tikai šīs izmaksu definīcijas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>It doesn't consider the distance component as a cost.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Attāluma komponents netiek uzskatīts par izmaksām.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>However, if no cost components are configured, the DOM solver does use the distance component as a cost to determine the optimal location for order fulfillment.</source><target logoport:matchpercent="72" state="translated" state-qualifier="fuzzy-match">Tomēr, ja neviens izmaksu komponents nav konfigurēts, lai noteiktu optimālo vietu pasūtījuma izpildei, DOM risinātājs neizmanto attāluma komponentu kā izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Set up cost components</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Izmaksu komponentu iestatīšana</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Two major cost component types can be defined in the system: <bpt id="p1">**</bpt>Shipping<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Other<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Sistēmā var definēt divu veidu galvenos izmaksu komponentus: <bpt id="p1">**</bpt>Piegāde<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Cits<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Both cost component types support multiple calculation bases, as shown in the following table.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Abiem izmaksu komponentu veidiem tiek atbalstītas vairākas aprēķinu bāzes, kā parādīts tālāk sniegtajā tabulā.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Cost component type</source><target logoport:matchpercent="76" state="translated" state-qualifier="fuzzy-match">Izmaksu komponenta veids</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Calculation basis</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Aprēķina bāze</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Shipping</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Piegāde</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Simple</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Vienkāršs</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Tiered</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Diferencēts</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Other</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Cits</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Sales order</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pārdošanas pasūtījums</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Sales line</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Pārdošanas rinda</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Location</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Vieta</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Shipping cost component type</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Piegādes izmaksu komponenta veids</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>This section explains how to set up each combination of the <bpt id="p1">**</bpt>Shipping<ept id="p1">**</ept> cost component type and a calculation basis for shipping costs.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Šajā sadaļā ir paskaidrots, kā iestatīt izmaksu komponenta veida <bpt id="p1">**</bpt>Piegāde<ept id="p1">**</ept> un piegādes izmaksu aprēķina bāzes kombinācijas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>It also explains how the DOM solver uses each combination.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Paskaidrots arī tas, kā DOM risinātājs izmanto katru kombināciju.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Cost component type = Shipping and Calculation basis = Simple</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Izmaksu komponenta veids = Piegāde; Aprēķina bāze = Vienkārša</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>If a combination of the <bpt id="p1">**</bpt>Shipping<ept id="p1">**</ept> cost component type and the <bpt id="p2">**</bpt>Simple<ept id="p2">**</ept> calculation basis is used, the shipping cost for a mode of delivery is based on either a flat cost or distance.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Ja tiek izmantots izmaksu komponenta veids <bpt id="p1">**</bpt>Piegāde<ept id="p1">**</ept> un aprēķina bāze <bpt id="p2">**</bpt>Vienkārša<ept id="p2">**</ept>, piegādes veida izmaksas tiek noteiktas, ņemot vērā fiksētās izmaksas vai izmaksas atkarībā no attāluma.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>You must set up the following fields for this combination:</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">**</bpt>Cost factor<ept id="p1">**</ept> – Enter a unique identifier for the cost factor.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Izmaksu faktors<ept id="p1">**</ept> — ievadiet unikālu izmaksu faktora identifikatoru.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Enter the name and description of the cost factor.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> — ievadiet izmaksu faktora nosaukumu un aprakstu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source><bpt id="p1">**</bpt>Start date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>End date<ept id="p2">**</ept> – You can use these fields to limit the cost factor for a specific date range.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Sākuma datums<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Beigu datums<ept id="p2">**</ept> — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>If you leave these fields blank, the cost factor is valid for an indefinite period.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">**</bpt>Active<ept id="p1">**</ept> – Indicate whether the cost factor is active.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Aktīvs<ept id="p1">**</ept> — norāda, vai izmaksu faktors ir aktīvs.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The DOM considers only active cost factors that are associated with the fulfillment profile.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">**</bpt>Company<ept id="p1">**</ept> – Specify the legal entity that the cost factor is configured for.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Uzņēmums<ept id="p1">**</ept> — norāda juridisku personu, kurai tiek konfigurēts izmaksu faktors.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>All lines of the calculation criteria must be for the same legal entity.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Visām aprēķina kritēriju rindām ir jānorāda viena un tā pati juridiskā persona.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">**</bpt>Modes of delivery<ept id="p1">**</ept> – Specify the modes of delivery that the cost is configured for.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Piegādes veidi<ept id="p1">**</ept> — norāda piegādes veidus, kam izmaksas tiek konfigurētas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">**</bpt>Calculation type<ept id="p1">**</ept> – Specify how the cost should be calculated for a specific mode of delivery.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Aprēķina veids<ept id="p1">**</ept> — norāda, kā jāaprēķina konkrētā piegādes veida izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Two calculation types are supported:</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Tiek atbalstīti divi tālāk norādītie aprēķinu veidi.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">**</bpt>Fixed<ept id="p1">**</ept> – A flat cost is used for the mode of delivery.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Fiksēts<ept id="p1">**</ept> — piegādes veidam tiek izmantotas fiksētās izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>If you select this calculation type, the <bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> field defines the flat cost.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Atlasot šo aprēķina veidu lauks <bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> tiek izmantots fiksēto izmaksu aprēķināšanai.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">**</bpt>Per-distance unit<ept id="p1">**</ept> – The cost for the mode of delivery is calculated as the cost value that is specified in the <bpt id="p2">**</bpt>Cost<ept id="p2">**</ept> field times the distance between the delivery address and the locations.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Attāluma vienība<ept id="p1">**</ept> — piegādes veida izmaksas tiek aprēķinātas kā izmaksu vērtība, kas norādīta laukā <bpt id="p2">**</bpt>Izmaksas<ept id="p2">**</ept>, reizinot attālumu starp piegādes adresi un atrašanās vietām.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source><bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> – Specify the cost value that is used in conjunction with the <bpt id="p2">**</bpt>Calculation type<ept id="p2">**</ept> field to compute the cost for a mode of delivery.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> — norāda izmaksu vērtību, kas tiek izmantota kopā ar lauku <bpt id="p2">**</bpt>Aprēķina veids<ept id="p2">**</ept>, lai aprēķinātu piegādes veida izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Cost component type = Shipping and Calculation basis = Tiered</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Izmaksu komponenta veids = Piegāde; Aprēķina bāze = Sadalīta</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>If a combination of the <bpt id="p1">**</bpt>Shipping<ept id="p1">**</ept> cost component type and the <bpt id="p2">**</bpt>Tiered<ept id="p2">**</ept> calculation basis is used, the shipping cost for a mode of delivery is based on either a flat cost or distance.</source><target logoport:matchpercent="95" state="translated" state-qualifier="fuzzy-match">Ja tiek izmantots izmaksu komponenta veids <bpt id="p1">**</bpt>Piegāde<ept id="p1">**</ept> un aprēķina bāze <bpt id="p2">**</bpt>Sadalīta<ept id="p2">**</ept>, piegādes veida izmaksas tiek noteiktas, ņemot vērā fiksētās izmaksas vai izmaksas atkarībā no attāluma.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>However, in this combination, the distance is based on a tiered range of distances.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Šajā kombinācijā attālums ir balstīts uz sadalītu attālumu diapazonu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>You must set up the following fields for this combination:</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">**</bpt>Cost factor<ept id="p1">**</ept> – Enter a unique identifier for the cost factor.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Izmaksu faktors<ept id="p1">**</ept> — ievadiet unikālu izmaksu faktora identifikatoru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Enter the name and description of the cost factor.</source>
-        <target logoport:matchpercent="78" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> — ievadiet izmaksu faktora nosaukumu un aprakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source><bpt id="p1">**</bpt>Default cost<ept id="p1">**</ept> – Specify the cost that should be used for a mode of delivery if the distance between the delivery address and the location doesn't fall into any of the tiered distances for the mode of delivery.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Noklusējuma izmaksas<ept id="p1">**</ept> — norāda izmaksas, kas jāizmanto piegādes veidam tad, ja attālums starp piegādes adresi un atrašanās vietu nav nevienā no piegādes veida sadalītajiem attālumiem.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source><bpt id="p1">**</bpt>Start date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>End date<ept id="p2">**</ept> – You can use these fields to limit the cost factor for a specific date range.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Sākuma datums<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Beigu datums<ept id="p2">**</ept> — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>If you leave these fields blank, the cost factor is valid for an indefinite period.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">**</bpt>Active<ept id="p1">**</ept> – Indicate whether the cost factor is active.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Aktīvs<ept id="p1">**</ept> — norāda, vai izmaksu faktors ir aktīvs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>The DOM considers only active cost factors that are associated with the fulfillment profile.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>Company<ept id="p1">**</ept> – Specify the legal entity that the cost factor is configured for.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Uzņēmums<ept id="p1">**</ept> — norāda juridisku personu, kurai tiek konfigurēts izmaksu faktors.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>All lines of the calculation criteria must be for the same legal entity.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Visām aprēķina kritēriju rindām ir jānorāda viena un tā pati juridiskā persona.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source><bpt id="p1">**</bpt>Modes of delivery<ept id="p1">**</ept> – Specify the modes of delivery that the cost is configured for.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Piegādes veidi<ept id="p1">**</ept> — norāda piegādes veidus, kam izmaksas tiek konfigurētas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source><bpt id="p1">**</bpt>Distance type<ept id="p1">**</ept> – Specify whether the tiered distance definition is an aerial distance or a road distance.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Attāluma veids<ept id="p1">**</ept> — norāda, vai sadalītais attālums jāaprēķina kā antenas attālums vai ceļa attālums.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source><bpt id="p1">**</bpt>Distance units<ept id="p1">**</ept> – Specify the unit that the tiered distance is measured in.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Attāluma vienības<ept id="p1">**</ept> — norāda vienību, kas jāizmanto sadalītā attāluma aprēķināšanā.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>Distance from<ept id="p1">**</ept> – Specify the start range for the tiered distance.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Attāluma sākums<ept id="p1">**</ept> — norāda sadalītā attāluma diapazona sākumu.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source><bpt id="p1">**</bpt>Distance to<ept id="p1">**</ept> – Specify the end range for the tiered distance.</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Attāluma beigas<ept id="p1">**</ept> — norāda sadalītā attāluma diapazona beigas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">**</bpt>Calculation type<ept id="p1">**</ept> – Specify how the cost should be calculated for a specific mode of delivery and tiered distance.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Aprēķina veids<ept id="p1">**</ept> — norāda, kā jāaprēķina konkrētā piegādes veida izmaksas un sadalītais attālums.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Two calculation types are supported:</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Tiek atbalstīti divi tālāk norādītie aprēķinu veidi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source><bpt id="p1">**</bpt>Fixed<ept id="p1">**</ept> – A flat cost is used for the mode of delivery.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Fiksēts<ept id="p1">**</ept> — piegādes veidam tiek izmantotas fiksētās izmaksas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>If you select this calculation type, the <bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> field defines the flat cost.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Atlasot šo aprēķina veidu lauks <bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> tiek izmantots fiksēto izmaksu aprēķināšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source><bpt id="p1">**</bpt>Per distance unit<ept id="p1">**</ept> – The cost for the mode of delivery and tiered distance is calculated as the cost value that is specified in the <bpt id="p2">**</bpt>Cost<ept id="p2">**</ept> field times the distance between the delivery address and the locations.</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Attāluma vienība<ept id="p1">**</ept> — piegādes veida un sadalītā attāluma izmaksas tiek aprēķinātas kā izmaksu vērtība, kas norādīta laukā <bpt id="p2">**</bpt>Izmaksas<ept id="p2">**</ept>, reizinot attālumu starp piegādes adresi un atrašanās vietām.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source><bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> – Specify the cost value that is used in conjunction with the <bpt id="p2">**</bpt>Calculation type<ept id="p2">**</ept> field to compute the cost for a mode of delivery.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> — norāda izmaksu vērtību, kas tiek izmantota kopā ar lauku <bpt id="p2">**</bpt>Aprēķina veids<ept id="p2">**</ept>, lai aprēķinātu piegādes veida izmaksas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>When you define tiered distances, the system validates that there are no missing or overlapping distances.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Definējot sadalītos attālumus, sistēma pārbauda, vai netrūkst kāda attāluma un vai nav tādu attālumu, kas pārklājas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>The distance type that is used for a mode of delivery must be the same across all the tiered distances.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Visiem sadalītajiem attālumiem piegādes veidam jāizmanto vienāds attāluma veids.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Other cost component type</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Cits izmaksu komponenta veids</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>This section explains how to set up each combination of the <bpt id="p1">**</bpt>Other<ept id="p1">**</ept> cost component type and an other cost type for non-shipping costs.</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Šajā sadaļā ir paskaidrots, kā iestatīt izmaksu komponenta veida <bpt id="p1">**</bpt>Cits<ept id="p1">**</ept> un cita ar piegādes izmaksām nesaistīta izmaksu veida kombinācijas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>It also explains how the DOM solver uses each combination.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Paskaidrots arī tas, kā DOM risinātājs izmanto katru kombināciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Cost component type = Other and Other cost type = Sales order</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Izmaksu komponenta veids = Cits; Cits izmaksu veids = Pārdošanas pasūtījums</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>A combination of the <bpt id="p1">**</bpt>Other<ept id="p1">**</ept> cost component type and the <bpt id="p2">**</bpt>Sales order<ept id="p2">**</ept> other cost type is used to define non-shipping costs at the sales order level.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Izmaksu komponenta veida <bpt id="p1">**</bpt>Cits<ept id="p1">**</ept> un cita izmaksu veida <bpt id="p2">**</bpt>Pārdošanas pasūtījums<ept id="p2">**</ept> kombinācija tiek izmantota, lai pārdošanas pasūtījuma līmenī definētu ar piegādi nesaistītas izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>You must set up the following fields for this combination:</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source><bpt id="p1">**</bpt>Cost factor<ept id="p1">**</ept> – Enter a unique identifier for the cost factor.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Izmaksu faktors<ept id="p1">**</ept> — ievadiet unikālu izmaksu faktora identifikatoru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Enter the name and description of the cost factor.</source>
-        <target logoport:matchpercent="78" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> — ievadiet izmaksu faktora nosaukumu un aprakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source><bpt id="p1">**</bpt>Start date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>End date<ept id="p2">**</ept> – You can use these fields to limit the cost factor for a specific date range.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Sākuma datums<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Beigu datums<ept id="p2">**</ept> — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>If you leave these fields blank, the cost factor is valid for an indefinite period.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source><bpt id="p1">**</bpt>Active<ept id="p1">**</ept> – Indicate whether the cost factor is active.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Aktīvs<ept id="p1">**</ept> — norāda, vai izmaksu faktors ir aktīvs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>The DOM considers only active cost factors that are associated with the fulfillment profile.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source><bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> – Specify the cost value for a non-shipping cost at the sales order level.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> — pārdošanas pasūtījuma līmenī norāda ar piegādi nesaistīto izmaksu vērtību.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Cost component type = Other and Other cost type = Sales line</source><target logoport:matchpercent="89" state="translated" state-qualifier="fuzzy-match">Izmaksu komponenta veids = Cits; Cits izmaksu veids = Pārdošanas rinda</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>A combination of the <bpt id="p1">**</bpt>Other<ept id="p1">**</ept> cost component type and the <bpt id="p2">**</bpt>Sales line<ept id="p2">**</ept> other cost type is used to define non-shipping costs at the sales order line level.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">Izmaksu komponenta veida <bpt id="p1">**</bpt>Cits<ept id="p1">**</ept> un cita izmaksu veida <bpt id="p2">**</bpt>Pārdošanas rinda<ept id="p2">**</ept> kombinācija tiek izmantota, lai pārdošanas pasūtījuma rindas līmenī definētu ar piegādi nesaistītas izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>You must set up the following fields for this combination:</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source><bpt id="p1">**</bpt>Cost factor<ept id="p1">**</ept> – Enter a unique identifier for the cost factor.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Izmaksu faktors<ept id="p1">**</ept> — ievadiet unikālu izmaksu faktora identifikatoru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Enter the name and description of the cost factor.</source>
-        <target logoport:matchpercent="78" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> — ievadiet izmaksu faktora nosaukumu un aprakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source><bpt id="p1">**</bpt>Start date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>End date<ept id="p2">**</ept> – You can use these fields to limit the cost factor for a specific date range.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Sākuma datums<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Beigu datums<ept id="p2">**</ept> — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>If you leave these fields blank, the cost factor is valid for an indefinite period.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source><bpt id="p1">**</bpt>Active<ept id="p1">**</ept> – Indicate whether the cost factor is active.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Aktīvs<ept id="p1">**</ept> — norāda, vai izmaksu faktors ir aktīvs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>The DOM considers only active cost factors that are associated with the fulfillment profile.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source><bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> – Specify the cost value for a non-shipping cost at the sales order line level.</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> — pārdošanas pasūtījuma rindas līmenī norāda ar piegādi nesaistīto izmaksu vērtību.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Cost component type = Other and Other cost type = Location</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Izmaksu komponenta veids = Cits; Cits izmaksu veids = Vieta</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>A combination of the <bpt id="p1">**</bpt>Other<ept id="p1">**</ept> cost component type and the <bpt id="p2">**</bpt>Location<ept id="p2">**</ept> other cost type is used to define non-shipping costs for a group of locations or an individual location.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Izmaksu komponenta veida <bpt id="p1">**</bpt>Cits<ept id="p1">**</ept> un cita izmaksu veida <bpt id="p2">**</bpt>Vieta<ept id="p2">**</ept> kombinācija tiek izmantota, lai atsevišķai vietai vai vietu grupai definētu ar piegādes izmaksām nesaistītas izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>You must set up the following fields for this combination:</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source><bpt id="p1">**</bpt>Cost factor<ept id="p1">**</ept> – Enter a unique identifier for the cost factor.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Izmaksu faktors<ept id="p1">**</ept> — ievadiet unikālu izmaksu faktora identifikatoru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Enter the name and description of the cost factor.</source>
-        <target logoport:matchpercent="78" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Apraksts<ept id="p1">**</ept> — ievadiet izmaksu faktora nosaukumu un aprakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source><bpt id="p1">**</bpt>Start date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>End date<ept id="p2">**</ept> – You can use these fields to limit the cost factor for a specific date range.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Sākuma datums<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Beigu datums<ept id="p2">**</ept> — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>If you leave these fields blank, the cost factor is valid for an indefinite period.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source><bpt id="p1">**</bpt>Active<ept id="p1">**</ept> – Indicate whether the cost factor is active.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>Aktīvs<ept id="p1">**</ept> — norāda, vai izmaksu faktors ir aktīvs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>The DOM considers only active cost factors that are associated with the fulfillment profile.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source><bpt id="p1">**</bpt>Fulfillment group<ept id="p1">**</ept> – Specify the group of locations that the non-shipping cost is defined for.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Izpildes vietu grupa<ept id="p1">**</ept> — norāda vietu grupu, kurai tiek definētas ar piegādi nesaistītās izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source><bpt id="p1">**</bpt>Fulfillment location<ept id="p1">**</ept> – Specify the location that the non-shipping cost is defined for.</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Izpildes vieta<ept id="p1">**</ept> — norāda vietu, kurai tiek definētas ar piegādi nesaistītās izmaksas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>You can't specify a fulfillment group and a fulfillment location on the same line for location-based calculation criteria.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Ja aprēķina kritērijos ir iestatīta atrašanās vieta, izpildes vietu un izpildes vietu grupu nevar norādīt vienā rindā.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source><bpt id="p1">**</bpt>Cost<ept id="p1">**</ept> – Specify the cost value for a non-shipping cost at the fulfillment group level or fulfillment location level.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Izmaksas<ept id="p1">**</ept> — izpildes grupas vai izpildes vietas līmeņos norāda ar piegādi nesaistīto izmaksu vērtību.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>For DOM to consider these costs when it's run, you must add the cost factor to the relevant fulfillment profile.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Lai DOM palaišanas laikā šīs izmaksas tiktu ņemtas vērā, izmaksu faktors ir jāpievieno attiecīgajam izpildes profilam.</target>
-        </trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)
+description: Šajā tēmā ir aprakstīta Microsoft Dynamics 365 for Retail izmaksu konfigurācijas sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte.
+author: josaw1
+manager: AnnBe
+ms.date: 12/05/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2018-12-15
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606783"
+---
+# <a name="cost-configuration-for-distributed-order-management-dom"></a><span data-ttu-id="cdb32-103">Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)</span><span class="sxs-lookup"><span data-stu-id="cdb32-103">Cost configuration for distributed order management (DOM)</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="cdb32-104">Organizācijām ieteicams izmantot vairākus izmaksu komponentus, lai noteiktu optimālu pasūtījuma izpildes vietu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-104">Organizations consider multiple cost components to determine the optimal location to fulfill an order from.</span></span> <span data-ttu-id="cdb32-105">Daži no šiem izmaksu komponentiem ir piegādes izmaksas, apstrādes izmaksas un iepakojuma izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-105">Some of these cost components are shipping cost, handling cost, and packaging cost.</span></span> <span data-ttu-id="cdb32-106">Šo izmaksu kombinācija tiek aprēķināta tādēļ, lai noteiktu izpildes vietu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-106">A combination of these costs is calculated to determine the fulfillment location.</span></span>
+
+<span data-ttu-id="cdb32-107">Kad Microsoft Dynamics 365 for Retail pirmā sadalīto pasūtījumu pārvaldības (DOM) iterācija optimizē izpildes vietām piešķirtos pasūtījumus, tiek ņemts vērā tikai attālums.</span><span class="sxs-lookup"><span data-stu-id="cdb32-107">When the first iteration of distributed order management (DOM) in Microsoft Dynamics 365 for Retail optimized the assignment of orders to fulfillment locations, it factored in distance only.</span></span> <span data-ttu-id="cdb32-108">Lai gan attālums var tikt saistīts ar izmaksām, tas nav tas pats, kas izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-108">Although distance can be correlated with cost, it isn't the same as cost.</span></span> <span data-ttu-id="cdb32-109">Piemēram, vienā attālumā piegādes pa nakti izmaksas ir lielākas nekā piegādes trīs vai septiņu dienu laikā.</span><span class="sxs-lookup"><span data-stu-id="cdb32-109">For example, an overnight shipping method costs more than three-day shipping or seven-day shipping over the same distance.</span></span>
+
+<span data-ttu-id="cdb32-110">Izmantojot izmaksu konfigurācijas funkciju, mazumtirgotāji var definēt un konfigurēt papildu izmaksu komponentus, kas tiks aprēķināti un ņemti vērā, nosakot optimālo vietu pasūtījumu rindu izpildei.</span><span class="sxs-lookup"><span data-stu-id="cdb32-110">The cost configuration feature lets retailers define and configure additional cost components that will be calculated and factored in to determine the optimal location to fulfill order lines from.</span></span>
+
+<span data-ttu-id="cdb32-111">Kad izmaksu komponenti ir konfigurēti, lai noteiktu optimālo vietu pasūtījuma izpildei, DOM risinātājs izmanto tikai šīs izmaksu definīcijas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-111">When cost components are configured, the DOM solver uses only those cost definitions to determine the optimal location for order fulfillment.</span></span> <span data-ttu-id="cdb32-112">Attāluma komponents netiek uzskatīts par izmaksām.</span><span class="sxs-lookup"><span data-stu-id="cdb32-112">It doesn't consider the distance component as a cost.</span></span> <span data-ttu-id="cdb32-113">Tomēr, ja neviens izmaksu komponents nav konfigurēts, lai noteiktu optimālo vietu pasūtījuma izpildei, DOM risinātājs neizmanto attāluma komponentu kā izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-113">However, if no cost components are configured, the DOM solver does use the distance component as a cost to determine the optimal location for order fulfillment.</span></span>
+
+## <a name="set-up-cost-components"></a><span data-ttu-id="cdb32-114">Izmaksu komponentu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="cdb32-114">Set up cost components</span></span>
+
+<span data-ttu-id="cdb32-115">Sistēmā var definēt divu veidu galvenos izmaksu komponentus: **Piegāde** un **Cits**.</span><span class="sxs-lookup"><span data-stu-id="cdb32-115">Two major cost component types can be defined in the system: **Shipping** and **Other**.</span></span>
+
+<span data-ttu-id="cdb32-116">Abiem izmaksu komponentu veidiem tiek atbalstītas vairākas aprēķinu bāzes, kā parādīts tālāk sniegtajā tabulā.</span><span class="sxs-lookup"><span data-stu-id="cdb32-116">Both cost component types support multiple calculation bases, as shown in the following table.</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="cdb32-117">Izmaksu komponenta veids</span><span class="sxs-lookup"><span data-stu-id="cdb32-117">Cost component type</span></span></th>
+<th><span data-ttu-id="cdb32-118">Aprēķina bāze</span><span class="sxs-lookup"><span data-stu-id="cdb32-118">Calculation basis</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="cdb32-119">Piegāde</span><span class="sxs-lookup"><span data-stu-id="cdb32-119">Shipping</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="cdb32-120">Vienkāršs</span><span class="sxs-lookup"><span data-stu-id="cdb32-120">Simple</span></span></li>
+<li><span data-ttu-id="cdb32-121">Diferencēts</span><span class="sxs-lookup"><span data-stu-id="cdb32-121">Tiered</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="cdb32-122">Cits</span><span class="sxs-lookup"><span data-stu-id="cdb32-122">Other</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="cdb32-123">Pārdošanas pasūtījums</span><span class="sxs-lookup"><span data-stu-id="cdb32-123">Sales order</span></span></li>
+<li><span data-ttu-id="cdb32-124">Pārdošanas rinda</span><span class="sxs-lookup"><span data-stu-id="cdb32-124">Sales line</span></span></li>
+<li><span data-ttu-id="cdb32-125">Vieta</span><span class="sxs-lookup"><span data-stu-id="cdb32-125">Location</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="shipping-cost-component-type"></a><span data-ttu-id="cdb32-126">Piegādes izmaksu komponenta veids</span><span class="sxs-lookup"><span data-stu-id="cdb32-126">Shipping cost component type</span></span>
+
+<span data-ttu-id="cdb32-127">Šajā sadaļā ir paskaidrots, kā iestatīt izmaksu komponenta veida **Piegāde** un piegādes izmaksu aprēķina bāzes kombinācijas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-127">This section explains how to set up each combination of the **Shipping** cost component type and a calculation basis for shipping costs.</span></span> <span data-ttu-id="cdb32-128">Paskaidrots arī tas, kā DOM risinātājs izmanto katru kombināciju.</span><span class="sxs-lookup"><span data-stu-id="cdb32-128">It also explains how the DOM solver uses each combination.</span></span>
+
+#### <a name="cost-component-type--shipping-and-calculation-basis--simple"></a><span data-ttu-id="cdb32-129">Izmaksu komponenta veids = Piegāde; Aprēķina bāze = Vienkārša</span><span class="sxs-lookup"><span data-stu-id="cdb32-129">Cost component type = Shipping and Calculation basis = Simple</span></span>
+
+<span data-ttu-id="cdb32-130">Ja tiek izmantots izmaksu komponenta veids **Piegāde** un aprēķina bāze **Vienkārša**, piegādes veida izmaksas tiek noteiktas, ņemot vērā fiksētās izmaksas vai izmaksas atkarībā no attāluma.</span><span class="sxs-lookup"><span data-stu-id="cdb32-130">If a combination of the **Shipping** cost component type and the **Simple** calculation basis is used, the shipping cost for a mode of delivery is based on either a flat cost or distance.</span></span>
+
+<span data-ttu-id="cdb32-131">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</span><span class="sxs-lookup"><span data-stu-id="cdb32-131">You must set up the following fields for this combination:</span></span>
+
+- <span data-ttu-id="cdb32-132">**Izmaksu faktors** — ievadiet unikālu izmaksu faktora identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="cdb32-132">**Cost factor** – Enter a unique identifier for the cost factor.</span></span>
+- <span data-ttu-id="cdb32-133">**Apraksts** — ievadiet izmaksu faktora nosaukumu un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-133">**Description** – Enter the name and description of the cost factor.</span></span>
+- <span data-ttu-id="cdb32-134">**Sākuma datums** un **Beigu datums** — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-134">**Start date** and **End date** – You can use these fields to limit the cost factor for a specific date range.</span></span> <span data-ttu-id="cdb32-135">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-135">If you leave these fields blank, the cost factor is valid for an indefinite period.</span></span>
+- <span data-ttu-id="cdb32-136">**Aktīvs** — norāda, vai izmaksu faktors ir aktīvs.</span><span class="sxs-lookup"><span data-stu-id="cdb32-136">**Active** – Indicate whether the cost factor is active.</span></span> <span data-ttu-id="cdb32-137">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-137">The DOM considers only active cost factors that are associated with the fulfillment profile.</span></span>
+- <span data-ttu-id="cdb32-138">**Uzņēmums** — norāda juridisku personu, kurai tiek konfigurēts izmaksu faktors.</span><span class="sxs-lookup"><span data-stu-id="cdb32-138">**Company** – Specify the legal entity that the cost factor is configured for.</span></span> <span data-ttu-id="cdb32-139">Visām aprēķina kritēriju rindām ir jānorāda viena un tā pati juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="cdb32-139">All lines of the calculation criteria must be for the same legal entity.</span></span>
+- <span data-ttu-id="cdb32-140">**Piegādes veidi** — norāda piegādes veidus, kam izmaksas tiek konfigurētas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-140">**Modes of delivery** – Specify the modes of delivery that the cost is configured for.</span></span>
+- <span data-ttu-id="cdb32-141">**Aprēķina veids** — norāda, kā jāaprēķina konkrētā piegādes veida izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-141">**Calculation type** – Specify how the cost should be calculated for a specific mode of delivery.</span></span> <span data-ttu-id="cdb32-142">Tiek atbalstīti divi tālāk norādītie aprēķinu veidi.</span><span class="sxs-lookup"><span data-stu-id="cdb32-142">Two calculation types are supported:</span></span>
+
+    - <span data-ttu-id="cdb32-143">**Fiksēts** — piegādes veidam tiek izmantotas fiksētās izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-143">**Fixed** – A flat cost is used for the mode of delivery.</span></span> <span data-ttu-id="cdb32-144">Atlasot šo aprēķina veidu lauks **Izmaksas** tiek izmantots fiksēto izmaksu aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="cdb32-144">If you select this calculation type, the **Cost** field defines the flat cost.</span></span>
+    - <span data-ttu-id="cdb32-145">**Attāluma vienība** — piegādes veida izmaksas tiek aprēķinātas kā izmaksu vērtība, kas norādīta laukā **Izmaksas**, reizinot attālumu starp piegādes adresi un atrašanās vietām.</span><span class="sxs-lookup"><span data-stu-id="cdb32-145">**Per-distance unit** – The cost for the mode of delivery is calculated as the cost value that is specified in the **Cost** field times the distance between the delivery address and the locations.</span></span>
+
+- <span data-ttu-id="cdb32-146">**Izmaksas** — norāda izmaksu vērtību, kas tiek izmantota kopā ar lauku **Aprēķina veids**, lai aprēķinātu piegādes veida izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-146">**Cost** – Specify the cost value that is used in conjunction with the **Calculation type** field to compute the cost for a mode of delivery.</span></span>
+
+#### <a name="cost-component-type--shipping-and-calculation-basis--tiered"></a><span data-ttu-id="cdb32-147">Izmaksu komponenta veids = Piegāde; Aprēķina bāze = Sadalīta</span><span class="sxs-lookup"><span data-stu-id="cdb32-147">Cost component type = Shipping and Calculation basis = Tiered</span></span>
+
+<span data-ttu-id="cdb32-148">Ja tiek izmantots izmaksu komponenta veids **Piegāde** un aprēķina bāze **Sadalīta**, piegādes veida izmaksas tiek noteiktas, ņemot vērā fiksētās izmaksas vai izmaksas atkarībā no attāluma.</span><span class="sxs-lookup"><span data-stu-id="cdb32-148">If a combination of the **Shipping** cost component type and the **Tiered** calculation basis is used, the shipping cost for a mode of delivery is based on either a flat cost or distance.</span></span> <span data-ttu-id="cdb32-149">Šajā kombinācijā attālums ir balstīts uz sadalītu attālumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-149">However, in this combination, the distance is based on a tiered range of distances.</span></span>
+
+<span data-ttu-id="cdb32-150">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</span><span class="sxs-lookup"><span data-stu-id="cdb32-150">You must set up the following fields for this combination:</span></span>
+
+- <span data-ttu-id="cdb32-151">**Izmaksu faktors** — ievadiet unikālu izmaksu faktora identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="cdb32-151">**Cost factor** – Enter a unique identifier for the cost factor.</span></span>
+- <span data-ttu-id="cdb32-152">**Apraksts** — ievadiet izmaksu faktora nosaukumu un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-152">**Description** – Enter the name and description of the cost factor.</span></span>
+- <span data-ttu-id="cdb32-153">**Noklusējuma izmaksas** — norāda izmaksas, kas jāizmanto piegādes veidam tad, ja attālums starp piegādes adresi un atrašanās vietu nav nevienā no piegādes veida sadalītajiem attālumiem.</span><span class="sxs-lookup"><span data-stu-id="cdb32-153">**Default cost** – Specify the cost that should be used for a mode of delivery if the distance between the delivery address and the location doesn't fall into any of the tiered distances for the mode of delivery.</span></span>
+- <span data-ttu-id="cdb32-154">**Sākuma datums** un **Beigu datums** — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-154">**Start date** and **End date** – You can use these fields to limit the cost factor for a specific date range.</span></span> <span data-ttu-id="cdb32-155">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-155">If you leave these fields blank, the cost factor is valid for an indefinite period.</span></span>
+- <span data-ttu-id="cdb32-156">**Aktīvs** — norāda, vai izmaksu faktors ir aktīvs.</span><span class="sxs-lookup"><span data-stu-id="cdb32-156">**Active** – Indicate whether the cost factor is active.</span></span> <span data-ttu-id="cdb32-157">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-157">The DOM considers only active cost factors that are associated with the fulfillment profile.</span></span>
+- <span data-ttu-id="cdb32-158">**Uzņēmums** — norāda juridisku personu, kurai tiek konfigurēts izmaksu faktors.</span><span class="sxs-lookup"><span data-stu-id="cdb32-158">**Company** – Specify the legal entity that the cost factor is configured for.</span></span> <span data-ttu-id="cdb32-159">Visām aprēķina kritēriju rindām ir jānorāda viena un tā pati juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="cdb32-159">All lines of the calculation criteria must be for the same legal entity.</span></span>
+- <span data-ttu-id="cdb32-160">**Piegādes veidi** — norāda piegādes veidus, kam izmaksas tiek konfigurētas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-160">**Modes of delivery** – Specify the modes of delivery that the cost is configured for.</span></span>
+- <span data-ttu-id="cdb32-161">**Attāluma veids** — norāda, vai sadalītais attālums jāaprēķina kā antenas attālums vai ceļa attālums.</span><span class="sxs-lookup"><span data-stu-id="cdb32-161">**Distance type** – Specify whether the tiered distance definition is an aerial distance or a road distance.</span></span>
+- <span data-ttu-id="cdb32-162">**Attāluma vienības** — norāda vienību, kas jāizmanto sadalītā attāluma aprēķināšanā.</span><span class="sxs-lookup"><span data-stu-id="cdb32-162">**Distance units** – Specify the unit that the tiered distance is measured in.</span></span>
+- <span data-ttu-id="cdb32-163">**Attāluma sākums** — norāda sadalītā attāluma diapazona sākumu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-163">**Distance from** – Specify the start range for the tiered distance.</span></span>
+- <span data-ttu-id="cdb32-164">**Attāluma beigas** — norāda sadalītā attāluma diapazona beigas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-164">**Distance to** – Specify the end range for the tiered distance.</span></span>
+- <span data-ttu-id="cdb32-165">**Aprēķina veids** — norāda, kā jāaprēķina konkrētā piegādes veida izmaksas un sadalītais attālums.</span><span class="sxs-lookup"><span data-stu-id="cdb32-165">**Calculation type** – Specify how the cost should be calculated for a specific mode of delivery and tiered distance.</span></span> <span data-ttu-id="cdb32-166">Tiek atbalstīti divi tālāk norādītie aprēķinu veidi.</span><span class="sxs-lookup"><span data-stu-id="cdb32-166">Two calculation types are supported:</span></span>
+
+    - <span data-ttu-id="cdb32-167">**Fiksēts** — piegādes veidam tiek izmantotas fiksētās izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-167">**Fixed** – A flat cost is used for the mode of delivery.</span></span> <span data-ttu-id="cdb32-168">Atlasot šo aprēķina veidu lauks **Izmaksas** tiek izmantots fiksēto izmaksu aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="cdb32-168">If you select this calculation type, the **Cost** field defines the flat cost.</span></span>
+    - <span data-ttu-id="cdb32-169">**Attāluma vienība** — piegādes veida un sadalītā attāluma izmaksas tiek aprēķinātas kā izmaksu vērtība, kas norādīta laukā **Izmaksas**, reizinot attālumu starp piegādes adresi un atrašanās vietām.</span><span class="sxs-lookup"><span data-stu-id="cdb32-169">**Per distance unit** – The cost for the mode of delivery and tiered distance is calculated as the cost value that is specified in the **Cost** field times the distance between the delivery address and the locations.</span></span>
+
+- <span data-ttu-id="cdb32-170">**Izmaksas** — norāda izmaksu vērtību, kas tiek izmantota kopā ar lauku **Aprēķina veids**, lai aprēķinātu piegādes veida izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-170">**Cost** – Specify the cost value that is used in conjunction with the **Calculation type** field to compute the cost for a mode of delivery.</span></span>
+
+> [!NOTE]
+> - <span data-ttu-id="cdb32-171">Definējot sadalītos attālumus, sistēma pārbauda, vai netrūkst kāda attāluma un vai nav tādu attālumu, kas pārklājas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-171">When you define tiered distances, the system validates that there are no missing or overlapping distances.</span></span>
+> - <span data-ttu-id="cdb32-172">Visiem sadalītajiem attālumiem piegādes veidam jāizmanto vienāds attāluma veids.</span><span class="sxs-lookup"><span data-stu-id="cdb32-172">The distance type that is used for a mode of delivery must be the same across all the tiered distances.</span></span>
+
+### <a name="other-cost-component-type"></a><span data-ttu-id="cdb32-173">Cits izmaksu komponenta veids</span><span class="sxs-lookup"><span data-stu-id="cdb32-173">Other cost component type</span></span>
+
+<span data-ttu-id="cdb32-174">Šajā sadaļā ir paskaidrots, kā iestatīt izmaksu komponenta veida **Cits** un cita ar piegādes izmaksām nesaistīta izmaksu veida kombinācijas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-174">This section explains how to set up each combination of the **Other** cost component type and an other cost type for non-shipping costs.</span></span> <span data-ttu-id="cdb32-175">Paskaidrots arī tas, kā DOM risinātājs izmanto katru kombināciju.</span><span class="sxs-lookup"><span data-stu-id="cdb32-175">It also explains how the DOM solver uses each combination.</span></span>
+
+#### <a name="cost-component-type--other-and-other-cost-type--sales-order"></a><span data-ttu-id="cdb32-176">Izmaksu komponenta veids = Cits; Cits izmaksu veids = Pārdošanas pasūtījums</span><span class="sxs-lookup"><span data-stu-id="cdb32-176">Cost component type = Other and Other cost type = Sales order</span></span>
+
+<span data-ttu-id="cdb32-177">Izmaksu komponenta veida **Cits** un cita izmaksu veida **Pārdošanas pasūtījums** kombinācija tiek izmantota, lai pārdošanas pasūtījuma līmenī definētu ar piegādi nesaistītas izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-177">A combination of the **Other** cost component type and the **Sales order** other cost type is used to define non-shipping costs at the sales order level.</span></span>
+
+<span data-ttu-id="cdb32-178">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</span><span class="sxs-lookup"><span data-stu-id="cdb32-178">You must set up the following fields for this combination:</span></span>
+
+- <span data-ttu-id="cdb32-179">**Izmaksu faktors** — ievadiet unikālu izmaksu faktora identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="cdb32-179">**Cost factor** – Enter a unique identifier for the cost factor.</span></span>
+- <span data-ttu-id="cdb32-180">**Apraksts** — ievadiet izmaksu faktora nosaukumu un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-180">**Description** – Enter the name and description of the cost factor.</span></span>
+- <span data-ttu-id="cdb32-181">**Sākuma datums** un **Beigu datums** — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-181">**Start date** and **End date** – You can use these fields to limit the cost factor for a specific date range.</span></span> <span data-ttu-id="cdb32-182">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-182">If you leave these fields blank, the cost factor is valid for an indefinite period.</span></span>
+- <span data-ttu-id="cdb32-183">**Aktīvs** — norāda, vai izmaksu faktors ir aktīvs.</span><span class="sxs-lookup"><span data-stu-id="cdb32-183">**Active** – Indicate whether the cost factor is active.</span></span> <span data-ttu-id="cdb32-184">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-184">The DOM considers only active cost factors that are associated with the fulfillment profile.</span></span>
+- <span data-ttu-id="cdb32-185">**Izmaksas** — pārdošanas pasūtījuma līmenī norāda ar piegādi nesaistīto izmaksu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cdb32-185">**Cost** – Specify the cost value for a non-shipping cost at the sales order level.</span></span>
+
+#### <a name="cost-component-type--other-and-other-cost-type--sales-line"></a><span data-ttu-id="cdb32-186">Izmaksu komponenta veids = Cits; Cits izmaksu veids = Pārdošanas rinda</span><span class="sxs-lookup"><span data-stu-id="cdb32-186">Cost component type = Other and Other cost type = Sales line</span></span>
+
+<span data-ttu-id="cdb32-187">Izmaksu komponenta veida **Cits** un cita izmaksu veida **Pārdošanas rinda** kombinācija tiek izmantota, lai pārdošanas pasūtījuma rindas līmenī definētu ar piegādi nesaistītas izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-187">A combination of the **Other** cost component type and the **Sales line** other cost type is used to define non-shipping costs at the sales order line level.</span></span>
+
+<span data-ttu-id="cdb32-188">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</span><span class="sxs-lookup"><span data-stu-id="cdb32-188">You must set up the following fields for this combination:</span></span>
+
+- <span data-ttu-id="cdb32-189">**Izmaksu faktors** — ievadiet unikālu izmaksu faktora identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="cdb32-189">**Cost factor** – Enter a unique identifier for the cost factor.</span></span>
+- <span data-ttu-id="cdb32-190">**Apraksts** — ievadiet izmaksu faktora nosaukumu un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-190">**Description** – Enter the name and description of the cost factor.</span></span>
+- <span data-ttu-id="cdb32-191">**Sākuma datums** un **Beigu datums** — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-191">**Start date** and **End date** – You can use these fields to limit the cost factor for a specific date range.</span></span> <span data-ttu-id="cdb32-192">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-192">If you leave these fields blank, the cost factor is valid for an indefinite period.</span></span>
+- <span data-ttu-id="cdb32-193">**Aktīvs** — norāda, vai izmaksu faktors ir aktīvs.</span><span class="sxs-lookup"><span data-stu-id="cdb32-193">**Active** – Indicate whether the cost factor is active.</span></span> <span data-ttu-id="cdb32-194">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-194">The DOM considers only active cost factors that are associated with the fulfillment profile.</span></span>
+- <span data-ttu-id="cdb32-195">**Izmaksas** — pārdošanas pasūtījuma rindas līmenī norāda ar piegādi nesaistīto izmaksu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cdb32-195">**Cost** – Specify the cost value for a non-shipping cost at the sales order line level.</span></span>
+
+#### <a name="cost-component-type--other-and-other-cost-type--location"></a><span data-ttu-id="cdb32-196">Izmaksu komponenta veids = Cits; Cits izmaksu veids = Vieta</span><span class="sxs-lookup"><span data-stu-id="cdb32-196">Cost component type = Other and Other cost type = Location</span></span>
+
+<span data-ttu-id="cdb32-197">Izmaksu komponenta veida **Cits** un cita izmaksu veida **Vieta** kombinācija tiek izmantota, lai atsevišķai vietai vai vietu grupai definētu ar piegādes izmaksām nesaistītas izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-197">A combination of the **Other** cost component type and the **Location** other cost type is used to define non-shipping costs for a group of locations or an individual location.</span></span>
+
+<span data-ttu-id="cdb32-198">Šai kombinācijai ir jāiestata tālāk norādītie lauki.</span><span class="sxs-lookup"><span data-stu-id="cdb32-198">You must set up the following fields for this combination:</span></span>
+
+- <span data-ttu-id="cdb32-199">**Izmaksu faktors** — ievadiet unikālu izmaksu faktora identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="cdb32-199">**Cost factor** – Enter a unique identifier for the cost factor.</span></span>
+- <span data-ttu-id="cdb32-200">**Apraksts** — ievadiet izmaksu faktora nosaukumu un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-200">**Description** – Enter the name and description of the cost factor.</span></span>
+- <span data-ttu-id="cdb32-201">**Sākuma datums** un **Beigu datums** — izmantojiet šos laukus, lai noteiktu izmaksu faktora derīguma termiņa datumu diapazonu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-201">**Start date** and **End date** – You can use these fields to limit the cost factor for a specific date range.</span></span> <span data-ttu-id="cdb32-202">Ja šos laukus atstāsit tukšus, izmaksu faktors būs derīgs neierobežotu periodu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-202">If you leave these fields blank, the cost factor is valid for an indefinite period.</span></span>
+- <span data-ttu-id="cdb32-203">**Aktīvs** — norāda, vai izmaksu faktors ir aktīvs.</span><span class="sxs-lookup"><span data-stu-id="cdb32-203">**Active** – Indicate whether the cost factor is active.</span></span> <span data-ttu-id="cdb32-204">DOM ņem vērā tikai aktīvos izmaksu faktorus, kuri ir saistīti ar izpildes profilu.</span><span class="sxs-lookup"><span data-stu-id="cdb32-204">The DOM considers only active cost factors that are associated with the fulfillment profile.</span></span>
+- <span data-ttu-id="cdb32-205">**Izpildes vietu grupa** — norāda vietu grupu, kurai tiek definētas ar piegādi nesaistītās izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-205">**Fulfillment group** – Specify the group of locations that the non-shipping cost is defined for.</span></span>
+- <span data-ttu-id="cdb32-206">**Izpildes vieta** — norāda vietu, kurai tiek definētas ar piegādi nesaistītās izmaksas.</span><span class="sxs-lookup"><span data-stu-id="cdb32-206">**Fulfillment location** – Specify the location that the non-shipping cost is defined for.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="cdb32-207">Ja aprēķina kritērijos ir iestatīta atrašanās vieta, izpildes vietu un izpildes vietu grupu nevar norādīt vienā rindā.</span><span class="sxs-lookup"><span data-stu-id="cdb32-207">You can't specify a fulfillment group and a fulfillment location on the same line for location-based calculation criteria.</span></span>
+
+- <span data-ttu-id="cdb32-208">**Izmaksas** — izpildes grupas vai izpildes vietas līmeņos norāda ar piegādi nesaistīto izmaksu vērtību.</span><span class="sxs-lookup"><span data-stu-id="cdb32-208">**Cost** – Specify the cost value for a non-shipping cost at the fulfillment group level or fulfillment location level.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="cdb32-209">Lai DOM palaišanas laikā šīs izmaksas tiktu ņemtas vērā, izmaksu faktors ir jāpievieno attiecīgajam izpildes profilam.</span><span class="sxs-lookup"><span data-stu-id="cdb32-209">For DOM to consider these costs when it's run, you must add the cost factor to the relevant fulfillment profile.</span></span>

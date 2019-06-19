@@ -1,258 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="trial-balance-financial-reports.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>trial-balance-financial-reports.b5c612.cd500c2880545ccae3cde7e2ead2fc5b83167d32.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>cd500c2880545ccae3cde7e2ead2fc5b83167d32</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\general-ledger\trial-balance-financial-reports.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Trial balance financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apgrozījuma bilances finanšu pārskati</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This article describes the default reports for trial balances.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Trial balance financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apgrozījuma bilances finanšu pārskati</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This article describes the default reports for trial balances.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Default trial balance reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklusējuma apgrozījuma bilances pārskati</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations finanšu pārskatu veidošanas vidē pieejami trīs apgrozījuma bilances pārskati.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Default report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklusējuma pārskats</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>What it does</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ko tā dara</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalizēta apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sniedz informāciju par bilanci visiem kontiem un iekļauj debeta un kredīta bilances, kā arī šo bilanču neto summu kopā ar transakcijas datumu, dokumentu un žurnāla aprakstu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Summary Trial Balance – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sniedz bilances informāciju visiem kontiem un iekļauj sākuma un beigu bilances, kā arī debeta un kredīta bilances kopā ar to neto starpību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Summary Trial Balance Year Over Year – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sniedz bilances informāciju visiem kontiem, un iekļauj sākuma un beigu bilances, kā arī debeta un kredīta bilances kopā ar to neto starpību attiecībā uz pašreizējo gadu un iepriekšējo gadu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Building blocks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veidošanas bloki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>The trial balance financial reports use the following building blocks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apgrozījuma bilances finanšu pārskati izmanto tālāk aprakstītos veidošanas blokus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Default report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklusējuma atskaite</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas definīcija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kolonnas definīcija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalizēta apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalizēta apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Summary Trial Balance – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Summary Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Summary Trial Balance Year Over Year – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apgrozījuma bilance — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Summary Trial Balance Year Over Year - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas definīcija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas definīcija, Apgrozījuma bilance – Noklusējums, ietver vienu rindu, kas apkopo datus no visiem galvenajiem kontiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Therefore, anyone can generate the report without having to make any modifications.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tāpēc ikviens var ģenerēt pārskatu bez nepieciešamības veikt modifikācijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>When you view the report, you drill into the single row to see details about each account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad apskatāt atskaiti, detalizējiet vienu rindu, lai apskatītu detalizētu informāciju par katru kontu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>You can modify the row definition so that it includes more detail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas definīciju varat modificēt, lai iekļautu vairāk informācijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai modificētu rindas definīciju "apgrozījuma bilance — noklusējuma" un iekļautu rindas visiem kontiem, rīkojieties kā aprakstīts tālāk.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Insert Rows from Dimensions<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Noklikšķiniet uz <bpt id="p1">**</bpt>Rediģēšana<ept id="p1">**</ept> un tad noklikšķiniet uz <bpt id="p2">**</bpt>Ievietot rindas no dimensijām<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>The <bpt id="p1">**</bpt>Insert Rows from Dimensions<ept id="p1">**</ept> command lets you choose the dimensions that you want to have in your row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komanda <bpt id="p1">**</bpt>Ievietot rindas no dimensijām<ept id="p1">**</ept> ļauj izvēlēties, kuras dimensijas vēlaties iekļaut rindas definīcijā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>For this row definition, you're going to use <bpt id="p1">**</bpt>Main Account<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šai rindas definīcijai izmantojiet <bpt id="p1">**</bpt>Galvenais konts<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Make sure that <bpt id="p1">**</bpt>Main Account<ept id="p1">**</ept> contains all ampersands (&amp;), and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārliecinieties, vai sadaļā <bpt id="p1">**</bpt>Galvenais konts<ept id="p1">**</ept> ir iekļautas visas rakstzīmes "&amp;", un noklikšķiniet uz <bpt id="p2">**</bpt>Labi<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The row definition now contains all the main accounts for your default legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagad rindas definīcija satur visus noklusējuma juridiskās personas galvenos kontus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kolonnas definīcija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Each trial balance report uses a different column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>These column definitions contain different types of columns to provide different levels of detail and financial data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņa detaļas un finanšu datus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">**</bpt>Detailed Trial Balance – Default column types:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Detalizēta apgrozījuma bilance — noklusējuma kolonnu tipi<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> — apraksts no rindas definīcijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> – Account codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> — kontu kodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">**</bpt>ATTR (3)<ept id="p1">**</ept> – Attributes:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ATTR (3)<ept id="p1">**</ept> — atribūti:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Transaction Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transakcijas datums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokuments</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Journal Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Žurnāla apraksts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai debetu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai kredītu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The net difference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> — neto starpība.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source><bpt id="p1">**</bpt>Summary Trial Balance – Default columns types:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kopsavilkuma apgrozījuma bilance — noklusējuma kolonnu tipi<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> – Account codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> — kontu kodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> — apraksts no rindas definīcijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> – An attribute:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> — atribūts:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokuments</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – The beginning balance financial data</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — sākuma bilances finanšu dati.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai debetu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai kredītu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The net difference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> — neto starpība.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The closing balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> — beigu atlikums.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">**</bpt>Summary Trial Balance Year Over Year – Default:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> – Account codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> — kontu kodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> — apraksts no rindas definīcijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> – An attribute</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> — atribūts:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokuments</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – The beginning balance financial data for the current year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — sākuma bilances finanšu dati pašreizējam gadam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits for the current year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai debetu pašreizējam gadam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits for the current year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai kredītu pašreizējam gadam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The net difference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> — neto starpība.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The closing balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> — beigu atlikums.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits for the last year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai debetu pagājušajam gadam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits for the last year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> — finanšu dati, kas satur tikai kredītu pagājušajam gadam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu resursi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source><bpt id="p1">[</bpt>Financial reporting<ept id="p1">](financial-reporting-getting-started.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finanšu pārskati<ept id="p1">](financial-reporting-getting-started.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source><bpt id="p1">[</bpt>View financial reports<ept id="p1">](view-financial-reports.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Skatīt finanšu pārskatus<ept id="p1">](view-financial-reports.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source><bpt id="p1">[</bpt>Dynamics Financial Reporting Blog<ept id="p1">](https://blogs.msdn.com/b/dynamics_financial_reporting/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamics finanšu pārskatu veidošanas emuārs<ept id="p1">](https://blogs.msdn.com/b/dynamics_financial_reporting/)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Apgrozījuma bilances finanšu pārskati
+description: Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām.
+author: jcart1106
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: LedgerTrialBalanceListPage
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 12314
+ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cd500c2880545ccae3cde7e2ead2fc5b83167d32
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595366"
+---
+# <a name="trial-balance-financial-reports"></a><span data-ttu-id="e4beb-104">Apgrozījuma bilances finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="e4beb-104">Trial balance financial reports</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="e4beb-105">Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm.</span><span class="sxs-lookup"><span data-stu-id="e4beb-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="e4beb-106">Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām.</span><span class="sxs-lookup"><span data-stu-id="e4beb-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
+
+<a name="default-trial-balance-reports"></a><span data-ttu-id="e4beb-107">Noklusējuma apgrozījuma bilances pārskati</span><span class="sxs-lookup"><span data-stu-id="e4beb-107">Default trial balance reports</span></span>
+-----------------------------
+
+<span data-ttu-id="e4beb-108">Microsoft Dynamics 365 for Finance and Operations finanšu pārskatu veidošanas vidē pieejami trīs apgrozījuma bilances pārskati.</span><span class="sxs-lookup"><span data-stu-id="e4beb-108">Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+
+| <span data-ttu-id="e4beb-109">Noklusējuma pārskats</span><span class="sxs-lookup"><span data-stu-id="e4beb-109">Default report</span></span>                                 | <span data-ttu-id="e4beb-110">Ko tā dara</span><span class="sxs-lookup"><span data-stu-id="e4beb-110">What it does</span></span>                                                                                                                                                                                        |
+|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="e4beb-111">Detalizēta apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-111">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="e4beb-112">Sniedz informāciju par bilanci visiem kontiem un iekļauj debeta un kredīta bilances, kā arī šo bilanču neto summu kopā ar transakcijas datumu, dokumentu un žurnāla aprakstu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-112">Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</span></span>                  |
+| <span data-ttu-id="e4beb-113">Kopsavilkuma apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-113">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="e4beb-114">Sniedz bilances informāciju visiem kontiem un iekļauj sākuma un beigu bilances, kā arī debeta un kredīta bilances kopā ar to neto starpību.</span><span class="sxs-lookup"><span data-stu-id="e4beb-114">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</span></span>                                        |
+| <span data-ttu-id="e4beb-115">Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-115">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="e4beb-116">Sniedz bilances informāciju visiem kontiem, un iekļauj sākuma un beigu bilances, kā arī debeta un kredīta bilances kopā ar to neto starpību attiecībā uz pašreizējo gadu un iepriekšējo gadu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-116">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</span></span> |
+
+## <a name="building-blocks"></a><span data-ttu-id="e4beb-117">Veidošanas bloki</span><span class="sxs-lookup"><span data-stu-id="e4beb-117">Building blocks</span></span>
+<span data-ttu-id="e4beb-118">Apgrozījuma bilances finanšu pārskati izmanto tālāk aprakstītos veidošanas blokus.</span><span class="sxs-lookup"><span data-stu-id="e4beb-118">The trial balance financial reports use the following building blocks.</span></span>
+
+| <span data-ttu-id="e4beb-119">Noklusējuma atskaite</span><span class="sxs-lookup"><span data-stu-id="e4beb-119">Default report</span></span>                                 | <span data-ttu-id="e4beb-120">Rindas definīcija</span><span class="sxs-lookup"><span data-stu-id="e4beb-120">Row definition</span></span>          | <span data-ttu-id="e4beb-121">Kolonnas definīcija</span><span class="sxs-lookup"><span data-stu-id="e4beb-121">Column definition</span></span>                              |
+|------------------------------------------------|-------------------------|------------------------------------------------|
+| <span data-ttu-id="e4beb-122">Detalizēta apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-122">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="e4beb-123">Apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-123">Trial Balance - Default</span></span> | <span data-ttu-id="e4beb-124">Detalizēta apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-124">Detailed Trial Balance - Default</span></span>               |
+| <span data-ttu-id="e4beb-125">Kopsavilkuma apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-125">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="e4beb-126">Apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-126">Trial Balance - Default</span></span> | <span data-ttu-id="e4beb-127">Kopsavilkuma apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-127">Summary Trial Balance - Default</span></span>                |
+| <span data-ttu-id="e4beb-128">Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-128">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="e4beb-129">Apgrozījuma bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-129">Trial Balance - Default</span></span> | <span data-ttu-id="e4beb-130">Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums</span><span class="sxs-lookup"><span data-stu-id="e4beb-130">Summary Trial Balance Year Over Year - Default</span></span> |
+
+### <a name="row-definition"></a><span data-ttu-id="e4beb-131">Rindas definīcija</span><span class="sxs-lookup"><span data-stu-id="e4beb-131">Row definition</span></span>
+
+<span data-ttu-id="e4beb-132">Rindas definīcija, Apgrozījuma bilance – Noklusējums, ietver vienu rindu, kas apkopo datus no visiem galvenajiem kontiem.</span><span class="sxs-lookup"><span data-stu-id="e4beb-132">The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</span></span> <span data-ttu-id="e4beb-133">Tāpēc ikviens var ģenerēt pārskatu bez nepieciešamības veikt modifikācijas.</span><span class="sxs-lookup"><span data-stu-id="e4beb-133">Therefore, anyone can generate the report without having to make any modifications.</span></span> <span data-ttu-id="e4beb-134">Kad apskatāt atskaiti, detalizējiet vienu rindu, lai apskatītu detalizētu informāciju par katru kontu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-134">When you view the report, you drill into the single row to see details about each account.</span></span> <span data-ttu-id="e4beb-135">Rindas definīciju varat modificēt, lai iekļautu vairāk informācijas.</span><span class="sxs-lookup"><span data-stu-id="e4beb-135">You can modify the row definition so that it includes more detail.</span></span> <span data-ttu-id="e4beb-136">Lai modificētu rindas definīciju "apgrozījuma bilance — noklusējuma" un iekļautu rindas visiem kontiem, rīkojieties kā aprakstīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="e4beb-136">To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</span></span>
+
+1.  <span data-ttu-id="e4beb-137">Noklikšķiniet uz **Rediģēšana** un tad noklikšķiniet uz **Ievietot rindas no dimensijām**.</span><span class="sxs-lookup"><span data-stu-id="e4beb-137">Click **Edit**, and then click **Insert Rows from Dimensions**.</span></span> <span data-ttu-id="e4beb-138">Komanda **Ievietot rindas no dimensijām** ļauj izvēlēties, kuras dimensijas vēlaties iekļaut rindas definīcijā.</span><span class="sxs-lookup"><span data-stu-id="e4beb-138">The **Insert Rows from Dimensions** command lets you choose the dimensions that you want to have in your row definition.</span></span> <span data-ttu-id="e4beb-139">Šai rindas definīcijai izmantojiet **Galvenais konts**.</span><span class="sxs-lookup"><span data-stu-id="e4beb-139">For this row definition, you're going to use **Main Account**.</span></span>
+2.  <span data-ttu-id="e4beb-140">Pārliecinieties, vai sadaļā **Galvenais konts** ir iekļautas visas rakstzīmes "&", un noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e4beb-140">Make sure that **Main Account** contains all ampersands (&), and then click **OK**.</span></span>
+
+<span data-ttu-id="e4beb-141">Tagad rindas definīcija satur visus noklusējuma juridiskās personas galvenos kontus.</span><span class="sxs-lookup"><span data-stu-id="e4beb-141">The row definition now contains all the main accounts for your default legal entity.</span></span>
+
+### <a name="column-definition"></a><span data-ttu-id="e4beb-142">Kolonnas definīcija</span><span class="sxs-lookup"><span data-stu-id="e4beb-142">Column definition</span></span>
+
+<span data-ttu-id="e4beb-143">Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija.</span><span class="sxs-lookup"><span data-stu-id="e4beb-143">Each trial balance report uses a different column definition.</span></span> <span data-ttu-id="e4beb-144">Šīs kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņa detaļas un finanšu datus.</span><span class="sxs-lookup"><span data-stu-id="e4beb-144">These column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+
+-   <span data-ttu-id="e4beb-145">**Detalizēta apgrozījuma bilance — noklusējuma kolonnu tipi**</span><span class="sxs-lookup"><span data-stu-id="e4beb-145">**Detailed Trial Balance – Default column types:**</span></span>
+    -   <span data-ttu-id="e4beb-146">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="e4beb-146">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="e4beb-147">**ACCT** — kontu kodi.</span><span class="sxs-lookup"><span data-stu-id="e4beb-147">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="e4beb-148">**ATTR (3)** — atribūti:</span><span class="sxs-lookup"><span data-stu-id="e4beb-148">**ATTR (3)** – Attributes:</span></span>
+        -   <span data-ttu-id="e4beb-149">Transakcijas datums</span><span class="sxs-lookup"><span data-stu-id="e4beb-149">Transaction Date</span></span>
+        -   <span data-ttu-id="e4beb-150">Dokuments</span><span class="sxs-lookup"><span data-stu-id="e4beb-150">Voucher</span></span>
+        -   <span data-ttu-id="e4beb-151">Žurnāla apraksts</span><span class="sxs-lookup"><span data-stu-id="e4beb-151">Journal Description</span></span>
+    -   <span data-ttu-id="e4beb-152">**FD** — finanšu dati, kas satur tikai debetu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-152">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="e4beb-153">**FD** — finanšu dati, kas satur tikai kredītu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-153">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="e4beb-154">**CALC** — neto starpība.</span><span class="sxs-lookup"><span data-stu-id="e4beb-154">**CALC** – The net difference</span></span>
+-   <span data-ttu-id="e4beb-155">**Kopsavilkuma apgrozījuma bilance — noklusējuma kolonnu tipi**</span><span class="sxs-lookup"><span data-stu-id="e4beb-155">**Summary Trial Balance – Default columns types:**</span></span>
+    -   <span data-ttu-id="e4beb-156">**ACCT** — kontu kodi.</span><span class="sxs-lookup"><span data-stu-id="e4beb-156">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="e4beb-157">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="e4beb-157">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="e4beb-158">**ATTR** — atribūts:</span><span class="sxs-lookup"><span data-stu-id="e4beb-158">**ATTR** – An attribute:</span></span>
+        -   <span data-ttu-id="e4beb-159">Dokuments</span><span class="sxs-lookup"><span data-stu-id="e4beb-159">Voucher</span></span>
+    -   <span data-ttu-id="e4beb-160">**FD** — sākuma bilances finanšu dati.</span><span class="sxs-lookup"><span data-stu-id="e4beb-160">**FD** – The beginning balance financial data</span></span>
+    -   <span data-ttu-id="e4beb-161">**FD** — finanšu dati, kas satur tikai debetu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-161">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="e4beb-162">**FD** — finanšu dati, kas satur tikai kredītu.</span><span class="sxs-lookup"><span data-stu-id="e4beb-162">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="e4beb-163">**CALC** — neto starpība.</span><span class="sxs-lookup"><span data-stu-id="e4beb-163">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="e4beb-164">**CALC** — beigu atlikums.</span><span class="sxs-lookup"><span data-stu-id="e4beb-164">**CALC** – The closing balance</span></span>
+-   <span data-ttu-id="e4beb-165">**Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums**</span><span class="sxs-lookup"><span data-stu-id="e4beb-165">**Summary Trial Balance Year Over Year – Default:**</span></span>
+    -   <span data-ttu-id="e4beb-166">**ACCT** — kontu kodi.</span><span class="sxs-lookup"><span data-stu-id="e4beb-166">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="e4beb-167">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="e4beb-167">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="e4beb-168">**ATTR** — atribūts:</span><span class="sxs-lookup"><span data-stu-id="e4beb-168">**ATTR** – An attribute</span></span>
+        -   <span data-ttu-id="e4beb-169">Dokuments</span><span class="sxs-lookup"><span data-stu-id="e4beb-169">Voucher</span></span>
+    -   <span data-ttu-id="e4beb-170">**FD** — sākuma bilances finanšu dati pašreizējam gadam.</span><span class="sxs-lookup"><span data-stu-id="e4beb-170">**FD** – The beginning balance financial data for the current year</span></span>
+    -   <span data-ttu-id="e4beb-171">**FD** — finanšu dati, kas satur tikai debetu pašreizējam gadam.</span><span class="sxs-lookup"><span data-stu-id="e4beb-171">**FD** – Financial data that contains only debits for the current year</span></span>
+    -   <span data-ttu-id="e4beb-172">**FD** — finanšu dati, kas satur tikai kredītu pašreizējam gadam.</span><span class="sxs-lookup"><span data-stu-id="e4beb-172">**FD** – Financial data that contains only credits for the current year</span></span>
+    -   <span data-ttu-id="e4beb-173">**CALC** — neto starpība.</span><span class="sxs-lookup"><span data-stu-id="e4beb-173">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="e4beb-174">**CALC** — beigu atlikums.</span><span class="sxs-lookup"><span data-stu-id="e4beb-174">**CALC** – The closing balance</span></span>
+    -   <span data-ttu-id="e4beb-175">**FD** — finanšu dati, kas satur tikai debetu pagājušajam gadam.</span><span class="sxs-lookup"><span data-stu-id="e4beb-175">**FD** – Financial data that contains only debits for the last year</span></span>
+    -   <span data-ttu-id="e4beb-176">**FD** — finanšu dati, kas satur tikai kredītu pagājušajam gadam.</span><span class="sxs-lookup"><span data-stu-id="e4beb-176">**FD** – Financial data that contains only credits for the last year</span></span>
+
+
+
+<a name="additional-resources"></a><span data-ttu-id="e4beb-177">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="e4beb-177">Additional resources</span></span>
+--------
+
+[<span data-ttu-id="e4beb-178">Finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="e4beb-178">Financial reporting</span></span>](financial-reporting-getting-started.md)
+
+[<span data-ttu-id="e4beb-179">Skatīt finanšu pārskatus</span><span class="sxs-lookup"><span data-stu-id="e4beb-179">View financial reports</span></span>](view-financial-reports.md)
+
+[<span data-ttu-id="e4beb-180">Dynamics finanšu pārskatu veidošanas emuārs</span><span class="sxs-lookup"><span data-stu-id="e4beb-180">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
+

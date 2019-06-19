@@ -1,144 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-foreign-currency-revaluation.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-foreign-currency-revaluation.1a7119.ab3218debfd3ad10b781ff3e7b4722f5d625f092.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>ab3218debfd3ad10b781ff3e7b4722f5d625f092</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-foreign-currency-revaluation.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Foreign currency revaluation for bank accounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ārvalstu valūtas pārvērtēšana bankas kontiem</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about foreign currency revaluation for bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanu bankas kontiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Currency revaluation for bank account transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valūtas pārvērtēšana bankas kontu transakcijām</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Revalue foreign currency amounts for bank account transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ārvalstu valūtas summu pārvērtēšana bankas kontu transakcijām</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This section applies only to legal entities that have a primary address in Poland.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī sadaļa attiecas tikai uz juridiskajām personām, kuru primārā adrese ir Polijā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can revalue foreign currency amounts for bank transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varat pārvērtēt ārvalstu valūtas summas bankas transakcijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can then create a report to view the bank transactions that have adjustments for foreign currency revaluations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam varat izveidot pārskatu, lai skatītu bankas transakcijas, kurām ir ārvalstu valūtas pārvērtēšanas korekcijas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Select <bpt id="p1">**</bpt>Cash and bank management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Periodic tasks<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Bank - Exchange adjustment (FIFO/LIFO)<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet vienumu <bpt id="p1">**</bpt>Skaidras naudas un bankas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Periodiskie uzdevumi<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Banka — Valūtas maiņas korekcija (FIFO un LIFO)<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>In the <bpt id="p1">**</bpt>On date<ept id="p1">**</ept> field, enter an end date for the revaluation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Datumā<ept id="p1">**</ept> ievadiet pārvērtēšanas beigu datumu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The calculation includes only transactions that have a date that is before the specified date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aprēķinos tiek iekļautas tikai transakcijas, kuru datums ir pirms norādītā datuma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Select <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Add<ept id="p3">**</ept> to add a bank account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Iekļaujamie ieraksti<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Filtrēt<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Pievienot<ept id="p3">**</ept>, lai pievienotu bankas kontu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>If you don't specify a bank account, amounts are revalued for all bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja nenorādīsit bankas kontu, tiek pārvērtētas visas bankas kontu summas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to close the query page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Labi<ept id="p1">**</ept>, lai aizvērtu vaicājuma lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>On the <bpt id="p1">**</bpt>Foreign currency revaluation<ept id="p1">**</ept> page, select the <bpt id="p2">**</bpt>Recalculation<ept id="p2">**</ept> check box to revalue foreign currency amounts for all open periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Ārvalstu valūtas pārvērtēšana<ept id="p1">**</ept> atzīmējiet izvēles rūtiņu <bpt id="p2">**</bpt>Pārrēķins<ept id="p2">**</ept>, lai pārvērtētu ārvalstu valūtas summas par visiem atvērtajiem periodiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Create a report to view bank transactions that have adjustments for foreign currency revaluations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskata izveide, lai skatītu bankas transakcijas, kurām ir ārvalstu valūtas pārvērtēšanas korekcijas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>This section applies only to legal entities that have a primary address in Poland.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī sadaļa attiecas tikai uz juridiskajām personām, kuru primārā adrese ir Polijā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Select <bpt id="p1">**</bpt>Cash and bank management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Bank - Exchange adjustment report<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Skaidras naudas un bankas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Pieprasījumi un pārskati<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Pārskats “Banka — Valūtas maiņas korekcija”<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Select <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> to find one or more bank accounts to view information for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet vienumu <bpt id="p1">**</bpt>Iekļaujamie ieraksti<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Filtrēt<ept id="p2">**</ept>, lai atrastu vienu vai vairākus bankas kontus, par kuriem skatīt informāciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Optional: In the <bpt id="p1">**</bpt>Bank account<ept id="p1">**</ept> field, select a bank account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neobligāti: laukā <bpt id="p1">**</bpt>Bankas konts<ept id="p1">**</ept> atlasiet bankas kontu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>If you leave this field blank, the report includes bank transaction details for all bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atstājot šo lauku tukšu, pārskatā tiek iekļauta bankas transakciju informācija par visiem bankas kontiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to generate the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Labi<ept id="p1">**</ept>, lai izveidotu pārskatu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Calculate exchange rate adjustments for bank account transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valūtas maiņas kursa korekciju aprēķins bankas konta transakcijām</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>This section applies only to legal entities that have a primary address in the Czech Republic, Estonia, Lithuania, or Latvia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī sadaļa attiecas tikai uz juridiskajām personām, kuru primārā adrese ir Čehijas Republikā, Igaunijā, Lietuvā vai Latvijā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>You must revalue and adjust bank accounts if there is a difference in the exchange rate between the accounting currency and the reporting currency.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir jāpārvērtē un jākoriģē banku konti, ja pastāv maiņas kursu atšķirība starp uzskaites valūtu un pārskata valūtu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>This task helps you calculate the correct balance in both the accounting currency and the reporting currency for the bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis uzdevums palīdz jums aprēķināt pareizo bilanci gan uzskaites valūtā, gan pārskata valūtā bankas kontos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Select <bpt id="p1">**</bpt>Cash and bank management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Cash and bank management parameters<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Skaidras naudas un bankas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Skaidras naudas un bankas pārvaldības parametri<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>On the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Reference<ept id="p2">**</ept> field, select a number sequence for the <bpt id="p3">**</bpt>Bank - Exchange adjustment<ept id="p3">**</ept> reference.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cilnes <bpt id="p1">**</bpt>Numuru sērijas<ept id="p1">**</ept> laukā <bpt id="p2">**</bpt>Atsauce<ept id="p2">**</ept> atlasiet numuru sēriju atsaucei <bpt id="p3">**</bpt>Banka — Valūtas maiņas korekcija<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Select <bpt id="p1">**</bpt>General ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Currency<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Currency exchange rates<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Virsgrāmata<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Valūta<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Valūtas maiņas kursi<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>On the <bpt id="p1">**</bpt>Currency exchange rates<ept id="p1">**</ept> page, you can define the exchange rate between two currencies or a currency pair.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Valūtas maiņas kursi<ept id="p1">**</ept> var definēt maiņas kursu starp divām valūtām vai valūtu pāri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>When you've finished, close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad esat beidzis, aizveriet lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Select <bpt id="p1">**</bpt>General ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Ledger<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Virsgrāmata<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Iestatīšana<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Virsgrāmata<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the <bpt id="p1">**</bpt>Unrealized gain<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Unrealized loss<ept id="p2">**</ept> fields, select the main account that the exchange rates are posted for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukos <bpt id="p1">**</bpt>Nerealizētā peļņa<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Nerealizētie zaudējumi<ept id="p2">**</ept> atlasiet galveno kontu, kurā tiek grāmatoti maiņas kursi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aizvērt lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Select <bpt id="p1">**</bpt>Cash and bank management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Periodic tasks<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Foreign currency revaluation<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Skaidras naudas un bankas pārvaldība<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Periodiskie uzdevumi<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Ārvalstu valūtas pārvērtēšana<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>In the <bpt id="p1">**</bpt>On date<ept id="p1">**</ept> field, select the revaluation date or adjustment date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Datumā<ept id="p1">**</ept> atlasiet pārvērtēšanas datumu vai korekcijas datumu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>In the <bpt id="p1">**</bpt>From currency<ept id="p1">**</ept> field, select the current currency code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>No valūtas<ept id="p1">**</ept> atlasiet pašreizējās valūtas kodu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the <bpt id="p1">**</bpt>To currency<ept id="p1">**</ept> field, select the currency that the adjustment should be made to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laukā <bpt id="p1">**</bpt>Uz valūtu<ept id="p1">**</ept> atlasiet valūtu, kura jākoriģē.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Select <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> to find the bank account, and then select <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Iekļaujamie ieraksti<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Filtrēt<ept id="p2">**</ept>, lai atrastu bankas kontu, un pēc tam atlasiet <bpt id="p3">**</bpt>Labi<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>On the <bpt id="p1">**</bpt>Foreign currency revaluation<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lapā <bpt id="p1">**</bpt>Ārvalstu valūtas pārvērtēšana<ept id="p1">**</ept> atlasiet <bpt id="p2">**</bpt>Labi<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The adjustment for the bank account transactions on the selected date is calculated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bankas kontu darījumu korekcija atlasītajā datumā tiek aprēķināta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>In the general ledger, you can view two separate transactions: one for the accounting currency and one for the reporting currency.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virsgrāmatā var skatīt divas atsevišķas transakcijas: uzskaites valūtai un pārskata valūtai.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Ārvalstu valūtas pārvērtēšana bankas kontiem
+description: Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanu bankas kontiem.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 03/28/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 11464
+ms.search.region: Czech Republic, Estonia, Latvia, Lithuania, Poland
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ab3218debfd3ad10b781ff3e7b4722f5d625f092
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547179"
+---
+# <a name="currency-revaluation-for-bank-account-transactions"></a><span data-ttu-id="109da-103">Valūtas pārvērtēšana bankas kontu transakcijām</span><span class="sxs-lookup"><span data-stu-id="109da-103">Currency revaluation for bank account transactions</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+## <a name="revalue-foreign-currency-amounts-for-bank-account-transactions"></a><span data-ttu-id="109da-104">Ārvalstu valūtas summu pārvērtēšana bankas kontu transakcijām</span><span class="sxs-lookup"><span data-stu-id="109da-104">Revalue foreign currency amounts for bank account transactions</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="109da-105">Šī sadaļa attiecas tikai uz juridiskajām personām, kuru primārā adrese ir Polijā.</span><span class="sxs-lookup"><span data-stu-id="109da-105">This section applies only to legal entities that have a primary address in Poland.</span></span>
+
+<span data-ttu-id="109da-106">Varat pārvērtēt ārvalstu valūtas summas bankas transakcijas.</span><span class="sxs-lookup"><span data-stu-id="109da-106">You can revalue foreign currency amounts for bank transactions.</span></span> <span data-ttu-id="109da-107">Pēc tam varat izveidot pārskatu, lai skatītu bankas transakcijas, kurām ir ārvalstu valūtas pārvērtēšanas korekcijas.</span><span class="sxs-lookup"><span data-stu-id="109da-107">You can then create a report to view the bank transactions that have adjustments for foreign currency revaluations.</span></span>
+
+1. <span data-ttu-id="109da-108">Atlasiet vienumu **Skaidras naudas un bankas pārvaldība** &gt; **Periodiskie uzdevumi** &gt; **Banka — Valūtas maiņas korekcija (FIFO un LIFO)**.</span><span class="sxs-lookup"><span data-stu-id="109da-108">Select **Cash and bank management** &gt; **Periodic tasks** &gt; **Bank - Exchange adjustment (FIFO/LIFO)**.</span></span>
+2. <span data-ttu-id="109da-109">Laukā **Datumā** ievadiet pārvērtēšanas beigu datumu.</span><span class="sxs-lookup"><span data-stu-id="109da-109">In the **On date** field, enter an end date for the revaluation.</span></span> <span data-ttu-id="109da-110">Aprēķinos tiek iekļautas tikai transakcijas, kuru datums ir pirms norādītā datuma.</span><span class="sxs-lookup"><span data-stu-id="109da-110">The calculation includes only transactions that have a date that is before the specified date.</span></span>
+3. <span data-ttu-id="109da-111">Atlasiet **Iekļaujamie ieraksti** &gt; **Filtrēt** &gt; **Pievienot**, lai pievienotu bankas kontu.</span><span class="sxs-lookup"><span data-stu-id="109da-111">Select **Records to include** &gt; **Filter** &gt; **Add** to add a bank account.</span></span> <span data-ttu-id="109da-112">Ja nenorādīsit bankas kontu, tiek pārvērtētas visas bankas kontu summas.</span><span class="sxs-lookup"><span data-stu-id="109da-112">If you don't specify a bank account, amounts are revalued for all bank accounts.</span></span>
+4. <span data-ttu-id="109da-113">Atlasiet **Labi**, lai aizvērtu vaicājuma lapu.</span><span class="sxs-lookup"><span data-stu-id="109da-113">Select **OK** to close the query page.</span></span>
+5. <span data-ttu-id="109da-114">Lapā **Ārvalstu valūtas pārvērtēšana** atzīmējiet izvēles rūtiņu **Pārrēķins**, lai pārvērtētu ārvalstu valūtas summas par visiem atvērtajiem periodiem.</span><span class="sxs-lookup"><span data-stu-id="109da-114">On the **Foreign currency revaluation** page, select the **Recalculation** check box to revalue foreign currency amounts for all open periods.</span></span>
+
+## <a name="create-a-report-to-view-bank-transactions-that-have-adjustments-for-foreign-currency-revaluations"></a><span data-ttu-id="109da-115">Pārskata izveide, lai skatītu bankas transakcijas, kurām ir ārvalstu valūtas pārvērtēšanas korekcijas</span><span class="sxs-lookup"><span data-stu-id="109da-115">Create a report to view bank transactions that have adjustments for foreign currency revaluations</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="109da-116">Šī sadaļa attiecas tikai uz juridiskajām personām, kuru primārā adrese ir Polijā.</span><span class="sxs-lookup"><span data-stu-id="109da-116">This section applies only to legal entities that have a primary address in Poland.</span></span>
+
+1. <span data-ttu-id="109da-117">Atlasiet **Skaidras naudas un bankas pārvaldība** &gt; **Pieprasījumi un pārskati** &gt; **Pārskats “Banka — Valūtas maiņas korekcija”**.</span><span class="sxs-lookup"><span data-stu-id="109da-117">Select **Cash and bank management** &gt; **Inquiries and reports** &gt; **Bank - Exchange adjustment report**.</span></span>
+2. <span data-ttu-id="109da-118">Atlasiet vienumu **Iekļaujamie ieraksti** &gt; **Filtrēt**, lai atrastu vienu vai vairākus bankas kontus, par kuriem skatīt informāciju.</span><span class="sxs-lookup"><span data-stu-id="109da-118">Select **Records to include** &gt; **Filter** to find one or more bank accounts to view information for.</span></span>
+3. <span data-ttu-id="109da-119">Neobligāti: laukā **Bankas konts** atlasiet bankas kontu.</span><span class="sxs-lookup"><span data-stu-id="109da-119">Optional: In the **Bank account** field, select a bank account.</span></span> <span data-ttu-id="109da-120">Atstājot šo lauku tukšu, pārskatā tiek iekļauta bankas transakciju informācija par visiem bankas kontiem.</span><span class="sxs-lookup"><span data-stu-id="109da-120">If you leave this field blank, the report includes bank transaction details for all bank accounts.</span></span>
+4. <span data-ttu-id="109da-121">Atlasiet **Labi**, lai izveidotu pārskatu.</span><span class="sxs-lookup"><span data-stu-id="109da-121">Select **OK** to generate the report.</span></span> 
+
+## <a name="calculate-exchange-rate-adjustments-for-bank-account-transactions"></a><span data-ttu-id="109da-122">Valūtas maiņas kursa korekciju aprēķins bankas konta transakcijām</span><span class="sxs-lookup"><span data-stu-id="109da-122">Calculate exchange rate adjustments for bank account transactions</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="109da-123">Šī sadaļa attiecas tikai uz juridiskajām personām, kuru primārā adrese ir Čehijas Republikā, Igaunijā, Lietuvā vai Latvijā.</span><span class="sxs-lookup"><span data-stu-id="109da-123">This section applies only to legal entities that have a primary address in the Czech Republic, Estonia, Lithuania, or Latvia.</span></span>
+
+<span data-ttu-id="109da-124">Ir jāpārvērtē un jākoriģē banku konti, ja pastāv maiņas kursu atšķirība starp uzskaites valūtu un pārskata valūtu.</span><span class="sxs-lookup"><span data-stu-id="109da-124">You must revalue and adjust bank accounts if there is a difference in the exchange rate between the accounting currency and the reporting currency.</span></span> <span data-ttu-id="109da-125">Šis uzdevums palīdz jums aprēķināt pareizo bilanci gan uzskaites valūtā, gan pārskata valūtā bankas kontos.</span><span class="sxs-lookup"><span data-stu-id="109da-125">This task helps you calculate the correct balance in both the accounting currency and the reporting currency for the bank accounts.</span></span>
+
+1. <span data-ttu-id="109da-126">Atlasiet **Skaidras naudas un bankas pārvaldība** &gt; **Iestatīšana** &gt; **Skaidras naudas un bankas pārvaldības parametri**.</span><span class="sxs-lookup"><span data-stu-id="109da-126">Select **Cash and bank management** &gt; **Setup** &gt; **Cash and bank management parameters**.</span></span>
+2. <span data-ttu-id="109da-127">Cilnes **Numuru sērijas** laukā **Atsauce** atlasiet numuru sēriju atsaucei **Banka — Valūtas maiņas korekcija**.</span><span class="sxs-lookup"><span data-stu-id="109da-127">On the **Number sequences** tab, in the **Reference** field, select a number sequence for the **Bank - Exchange adjustment** reference.</span></span>
+3. <span data-ttu-id="109da-128">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="109da-128">Close the page.</span></span>
+4. <span data-ttu-id="109da-129">Atlasiet **Virsgrāmata** &gt; **Iestatīšana** &gt; **Valūta** &gt; **Valūtas maiņas kursi**.</span><span class="sxs-lookup"><span data-stu-id="109da-129">Select **General ledger** &gt; **Setup** &gt; **Currency** &gt; **Currency exchange rates**.</span></span> <span data-ttu-id="109da-130">Lapā **Valūtas maiņas kursi** var definēt maiņas kursu starp divām valūtām vai valūtu pāri.</span><span class="sxs-lookup"><span data-stu-id="109da-130">On the **Currency exchange rates** page, you can define the exchange rate between two currencies or a currency pair.</span></span>
+5. <span data-ttu-id="109da-131">Kad esat beidzis, aizveriet lapu.</span><span class="sxs-lookup"><span data-stu-id="109da-131">When you've finished, close the page.</span></span>
+6. <span data-ttu-id="109da-132">Atlasiet **Virsgrāmata** &gt; **Iestatīšana** &gt; **Virsgrāmata**.</span><span class="sxs-lookup"><span data-stu-id="109da-132">Select **General ledger** &gt; **Setup** &gt; **Ledger**.</span></span> <span data-ttu-id="109da-133">Laukos **Nerealizētā peļņa** un **Nerealizētie zaudējumi** atlasiet galveno kontu, kurā tiek grāmatoti maiņas kursi.</span><span class="sxs-lookup"><span data-stu-id="109da-133">In the **Unrealized gain** and **Unrealized loss** fields, select the main account that the exchange rates are posted for.</span></span>
+7. <span data-ttu-id="109da-134">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="109da-134">Close the page.</span></span>
+8. <span data-ttu-id="109da-135">Atlasiet **Skaidras naudas un bankas pārvaldība** &gt; **Periodiskie uzdevumi** &gt; **Ārvalstu valūtas pārvērtēšana**.</span><span class="sxs-lookup"><span data-stu-id="109da-135">Select **Cash and bank management** &gt; **Periodic tasks** &gt; **Foreign currency revaluation**.</span></span>
+9. <span data-ttu-id="109da-136">Laukā **Datumā** atlasiet pārvērtēšanas datumu vai korekcijas datumu.</span><span class="sxs-lookup"><span data-stu-id="109da-136">In the **On date** field, select the revaluation date or adjustment date.</span></span>
+10. <span data-ttu-id="109da-137">Laukā **No valūtas** atlasiet pašreizējās valūtas kodu.</span><span class="sxs-lookup"><span data-stu-id="109da-137">In the **From currency** field, select the current currency code.</span></span> <span data-ttu-id="109da-138">Laukā **Uz valūtu** atlasiet valūtu, kura jākoriģē.</span><span class="sxs-lookup"><span data-stu-id="109da-138">In the **To currency** field, select the currency that the adjustment should be made to.</span></span>
+11. <span data-ttu-id="109da-139">Atlasiet **Iekļaujamie ieraksti** &gt; **Filtrēt**, lai atrastu bankas kontu, un pēc tam atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="109da-139">Select **Records to include** &gt; **Filter** to find the bank account, and then select **OK**.</span></span>
+12. <span data-ttu-id="109da-140">Lapā **Ārvalstu valūtas pārvērtēšana** atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="109da-140">On the **Foreign currency revaluation** page, select **OK**.</span></span> <span data-ttu-id="109da-141">Bankas kontu darījumu korekcija atlasītajā datumā tiek aprēķināta.</span><span class="sxs-lookup"><span data-stu-id="109da-141">The adjustment for the bank account transactions on the selected date is calculated.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="109da-142">Virsgrāmatā var skatīt divas atsevišķas transakcijas: uzskaites valūtai un pārskata valūtai.</span><span class="sxs-lookup"><span data-stu-id="109da-142">In the general ledger, you can view two separate transactions: one for the accounting currency and one for the reporting currency.</span></span>
