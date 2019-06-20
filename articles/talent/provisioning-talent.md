@@ -1,237 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="provisioning-talent.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>provisioning-talent.6d6b8d.03edb5d626f221863f45804ce84168692c2bd1f3.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>03edb5d626f221863f45804ce84168692c2bd1f3</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\talent\provisioning-talent.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Provision Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent nodrošināšana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic walks you through the process of provisioning a new environment for Microsoft Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir detalizēti aprakstīta jaunas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Provision Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent nodrošinājums</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic walks you through the process of provisioning a new production environment for Microsoft Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or enterprise architecture (EA) agreement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā tiek pieņemts, ka pakalpojumu Talent iegādājāties, izmantojot mākoņrisinājumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (Enterprise Architecture — AE) līgumu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>If you have an existing Microsoft Dynamics 365 license that already includes the Talent service plan, and you can't complete the steps in this topic, contact Support.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Talent pakalpojumu plāns, un nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>To begin, the global administrator should sign in to <bpt id="p1">[</bpt>Microsoft Dynamics Lifecycle Services<ept id="p1">](https://lcs.dynamics.com)</ept> (LCS) and create a new Talent project.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai sāktu, globālajam administratoram ir jāpierakstās pakalpojumā <bpt id="p1">[</bpt>Microsoft Dynamics Lifecycle Services<ept id="p1">](https://lcs.dynamics.com)</ept> (LCS) un jāizveido jauns Talent projekts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Unless a licensing issue prevents you from provisioning Talent, assistance from Support or Dynamics Service Engineering (DSE) representatives isn't required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nav nepieciešama palīdzība no atbalsta dienesta vai Dynamics Service tehniskajiem (Dynamics Service Engineering — DSE) pārstāvjiem, izņemot gadījumus, kad Talent nodrošināšanu jums neļauj veikt kāda licencēšanas problēma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Create an LCS project</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS projekta izveidošana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>To use LCS to manage your Talent environments, you must first create an LCS project.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai lietotu LCS un pārvaldītu savas Talent vides, vispirms ir jāizveido LCS projekts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Sign in to <bpt id="p1">[</bpt>LCS<ept id="p1">](https://lcs.dynamics.com/Logon/Index)</ept> by using the account that you used to subscribe to Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pierakstieties pakalpojumā <bpt id="p1">[</bpt>LCS<ept id="p1">](https://lcs.dynamics.com/Logon/Index)</ept>, izmantojot to pašu kontu, ko lietojat Talent abonēšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Select the plus sign (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>) to create a project.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet pluszīmi (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>), lai izveidotu projektu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Select <bpt id="p1">**</bpt>Microsoft Dynamics 365 for Talent<ept id="p1">**</ept> as the product name and product version.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kā produkta nosaukumu un produkta versiju atlasiet <bpt id="p1">**</bpt>Microsoft Dynamics 365 for Talent<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Select the <bpt id="p1">**</bpt>Dynamics 365 for Talent<ept id="p1">**</ept> methodology.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet metodoloģiju <bpt id="p1">**</bpt>Dynamics 365 for Talent<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Izveidot<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>For information about how to get started with Talent, see the <bpt id="p1">**</bpt>Talent<ept id="p1">**</ept> methodology that you created in your new project.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informāciju par to, kā sākt darbu ar pakalpojumu Talent, skatiet <bpt id="p1">**</bpt>Talent<ept id="p1">**</ept> metodoloģijā, ko izveidojāt savā jaunajā projektā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>After you've finished creating the project, complete the following procedure to provision your Talent environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad projekta izveidošana ir pabeigta, izpildiet tālāk norādīto procedūru, lai nodrošinātu savu Talent vidi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Provision a Talent project</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent projekta nodrošināšana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>After you've created an LCS project, you can provision Talent into an environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā vidē.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In your LCS project, select the <bpt id="p1">**</bpt>Talent App Management<ept id="p1">**</ept> tile.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">LCS projektā atlasiet elementu <bpt id="p1">**</bpt>Talent programmas pārvaldība<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Indicate whether this is a Sandbox or Production instance of Talent.</source><target logoport:matchpercent="99" state="translated" state-qualifier="fuzzy-match">Norādiet, vai šī ir Talent smilškastes vai ražošanas instance.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Early preview features may be available in Sandbox instances to allow for early feedback and testing.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select the <bpt id="p1">**</bpt>Include Demo Data<ept id="p1">**</ept> option if you want your environment to include the same demo data set used in the Talent Test Drive experience.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atlasiet opciju <bpt id="p1">**</bpt>Iekļaut demonstrācijas datus<ept id="p1">**</ept>, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Talent izmēģinājuma vides ietvaros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>This is beneficial for long-term demo or training environments, and should never be used for production environments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Note that you must choose this option upon initial deployment.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>You cannot update an existing deployment later.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Esošu izvietošanu vēlāk nevar atjaunināt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Talent is always provisioned into a Microsoft PowerApps environment to enable PowerApps integration and extensibility.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Read the “Selecting a PowerApps environment” section of this topic before you continue.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>If you don't already have a PowerApps environment, select Manage environments in LCS or navigate to the PowerApps Admin center.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja jums vēl nav pieejama PowerApps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Then follow the steps to <bpt id="p1">[</bpt>Create a PowerApps environment<ept id="p1">](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam izpildiet norādījumus par procedūru <bpt id="p1">[</bpt>PowerApps vides izveidošana<ept id="p1">](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>To view existing environments or create new environments, the tenant admin who provisions Talent must be assigned to the PowerApps P2 license.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>If your organization doesn't have a PowerApps P2 license, you can get one from your CSP or from the <bpt id="p1">[</bpt>PowerApps pricing page<ept id="p1">](https://powerapps.microsoft.com/en-us/pricing/)</ept>.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no <bpt id="p1">[</bpt>PowerApps izcenojuma lapas<ept id="p1">](https://powerapps.microsoft.com/en-us/pricing/)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Select the environment to provision Talent into.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Atlasiet vidi, kurā nodrošināt programmu Talent.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to agree to the terms and begin deployment.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Jā<ept id="p1">**</ept>, lai piekristu nosacījumiem un sāktu izvietošanu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Your new environment appears in the list of environments in the navigation pane on the left.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Jūsu jaunā vide tiek rādīta navigācijas rūts kreisajā pusē, sarakstā ar vidēm.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>However, you can't start to use the environment until the deployment status is updated to <bpt id="p1">**</bpt>Deployed<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču vidi nevar sākt izmantot, kamēr izvietošanas statuss tiek atjaunināts uz <bpt id="p1">**</bpt>Izvietots<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>This process typically takes a few minutes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šis process parasti aizņem dažas minūtes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>If the provisioning process is unsuccessful, you must contact Support.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja nodrošinājuma process ir nesekmīgs, sazinieties ar atbalsta dienestu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Select <bpt id="p1">**</bpt>Log on to Talent<ept id="p1">**</ept> to use your new environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlasiet <bpt id="p1">**</bpt>Pieteikties pakalpojumā Talent<ept id="p1">**</ept>, lai izmantotu jauno vidi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>If you haven't yet signed off on the final requirements, you can deploy a test instance of Talent in the project.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja vēl neesat izpildījis gala prasības, projektā varat izvietot Talent testa instanci.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>You can then use this instance to test your solution until you sign off.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>If you use your new environment for testing, you must repeat this procedure to create a production environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Because only two LCS environments are allowed as part of the Talent subscription, you might consider leveraging a free 60-day <bpt id="p1">[</bpt>Talent trial environment<ept id="p1">](https://dynamics.microsoft.com/en-us/talent/overview/)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tā kā Talent abonementa ietvaros ir atļautas tikai divas LCS vides, var apsvērt iespēju izmantot bezmaksas 60 dienu <bpt id="p1">[</bpt>Talent izmēģinājuma vidi<ept id="p1">](https://dynamics.microsoft.com/en-us/talent/overview/)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Although a trial environment is owned by the user who requested it, other users can be invited through the system administration experience for Core HR.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot pamata personāla vadības sistēmas administrēšanu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Trial environments contain fictitious data that can be used to explore the program in a safe manner.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>They aren't intended to be used as production environments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šīs vides nav paredzētas izmantošanai kā ražošanas vides.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Note that when a trial environment expires after 60 days, all the data that's in it is deleted and can't be recovered.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>You can sign up for a new trial environment after the existing environment expires.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Select a PowerApps environment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PowerApps vides izvēle</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>The integration between Talent and the PowerApps environments lets you integrate and extend the use of Talent data using PowerApps tools.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojot integrāciju starp Talent un PowerApps vidēm, varat integrēt un paplašināt Talent datu lietojumu, izmantojot PowerApps rīkus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Understanding the purpose of PowerApps environments will not only help you build apps to extend Talent, but will also help you select the correct environment when provisioning Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izpratne par PowerApps vides mērķi ne tikai palīdzēs izveidot programmas, lai paplašinātu programmatūru Talent, bet arī palīdzēs izvēlēties vajadzīgo vidi programmatūras Talent nodrošināšanas laikā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>For information about PowerApps environments, including environment scope, environment access, and creating and choosing an environment, see <bpt id="p1">[</bpt>Announcing PowerApps environments<ept id="p1">](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildinformāciju par PowerApps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā <bpt id="p1">[</bpt>Paziņojums par PowerApps vidēm<ept id="p1">](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Use the following guidance when determining which PowerApps environment to deploy Talent into:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā tālāk sniegtos norādījumus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In LCS, select <bpt id="p1">**</bpt>Manage environments<ept id="p1">**</ept>, or go directly to the PowerApps Admin center where you can view existing environments and create new environments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS atlasiet <bpt id="p1">**</bpt>Pārvaldīt vides<ept id="p1">**</ept> vai dodieties tieši uz PowerApps administrēšanas centru, kur varat skatīt esošās vides un izveidot jaunas vides.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>A single Talent environment is mapped to a single PowerApps environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katra Talent vide ir kartēta ar atsevišķu PowerApps vidi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>A PowerApps environment “contains” the Talent application, along with the corresponding PowerApps, Flow, and Common Data Service applications.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PowerApps vidē ir ietverta Talent lietojumprogramma, kā arī atbilstošās PowerApps, Flow un Common Data Service programmas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>If the PowerApps environment is deleted, so are the apps within it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ja tiek dzēsta PowerApps vide, kopā ar to tiek dzēstas arī programmas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>When provisioning a Talent environment, either "Trial" or "Production" can be provisioned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad veicat Talent vides nodrošināšanu, var nodrošināt vidi “Izmēģinājumversija” vai “Ražošana”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Choose the type of environment based on how the environment will be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vides tips ir jāizvēlas atkarībā no veida, kādā šī vide tiks izmantota.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Data integration and testing strategies should be considered, such as Sandbox, UAT, or Production.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir jāapsver datu integrācijas un pārbaudes metodes, piemēram, smilškastes, UAT vai ražošanas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>We recommend that you consider the various implications for your deployment, because it isn't easy to later change which Talent environment is mapped to a PowerApps environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mēs iesakām apsvērt dažādos izvietojuma saistīšanas iespējas, jo vēlāk nevar viegli mainīt ar PowerApps vidi kartēto Talent vidi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>The following PowerApps environments cannot be used for Talent and will be filtered from the selection list within LCS:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk norādītās PowerApps vides nevar lietot programmatūrā Talent, tāpēc tās netiek rādītas LCS esošajā atlases sarakstā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>Default Power Apps environments<ept id="p1">**</ept> - Although each tenant is automatically provisioned with a default PowerApps environment, we don't recommend using them with Talent because all tenant users have access to the PowerApps environment and could unintentionally corrupt production data when testing and exploring with PowerApps or Flow integrations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Noklusējuma PowerApps vides<ept id="p1">**</ept> — lai gan katram nomniekam tiek automātiski nodrošināta noklusējuma PowerApps vide, tās nav ieteicams izmantot programmatūrā Talent, jo visi nomnieku lietotāji var piekļūt PowerApps videi un nejauši sabojāt ražošanas datus, izmēģinot vai iepazīstot PowerApps vai Flow integrāciju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source><bpt id="p1">**</bpt>Trial environments<ept id="p1">**</ept> - These environments are created with an expiration date and will expire after that time, causing your environment and any Talent instances contained within to be removed automatically.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Izmēģinājuma vides<ept id="p1">**</ept> — šīs vides ir izveidotas beigu datumu, un tās pēc šī laika to derīgums beidzas, tāpēc vide un tajā ietvertās visas Talent instances tiek automātiski noņemtas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">**</bpt>Unsupported regions<ept id="p1">**</ept> - Currently Talent is only supported in the following regions: United States, Europe, United Kingdom, or Australia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Neatbalstītie reģioni<ept id="p1">**</ept> — pašlaik pakalpojums Talent tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienota Karaliste vai Austrālija.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>After you have determined the correct environment to use, you can continue with the provisioning process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Grant access to the environment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piekļuves piešķiršana videi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>By default, the global administrator who created the environment has access to it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>However, additional application users must be explicitly granted access.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taču citiem programmas lietotājiem piekļuve ir jāpiešķir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>To grant access, you need to add users and assign the appropriate roles to them in the Core HR environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai piešķirtu piekļuvi, ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Core HR vidē.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>The global administrator that deployed Talent must also launch both the Attract and Onboard applications to complete the initialization and enable access for other tenant users.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Globālajam administratoram, kas izvietoja Talent, ir jāpalaiž arī programmas Attract un Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieku lietotājiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Until this happens, other users will not be able to access Attract and Onboard applications and will get access violation errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt programmām Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>For more information, see <bpt id="p1">[</bpt>Create new users<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)</ept> and <bpt id="p2">[</bpt>Assign users to security roles<ept id="p2">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plašāku informāciju skatiet tēmā <bpt id="p1">[</bpt>Jaunu lietotāju izveide<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)</ept> un <bpt id="p2">[</bpt>Drošības lomu piešķiršana lietotājiem<ept id="p2">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)</ept>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Talent nodrošināšana
+description: Šajā tēmā ir detalizēti aprakstīta jaunas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent.
+author: andreabichsel
+manager: AnnBe
+ms.date: 05/15/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: 17271
+ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2017-11-20
+ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576925"
+---
+# <a name="provision-talent"></a>Talent nodrošinājums
+
+[!include [banner](includes/banner.md)]
+
+Šajā tēmā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent. Šajā tēmā tiek pieņemts, ka pakalpojumu Talent iegādājāties, izmantojot mākoņrisinājumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (Enterprise Architecture — AE) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Talent pakalpojumu plāns, un nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.
+
+Lai sāktu, globālajam administratoram ir jāpierakstās pakalpojumā [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) un jāizveido jauns Talent projekts. Nav nepieciešama palīdzība no atbalsta dienesta vai Dynamics Service tehniskajiem (Dynamics Service Engineering — DSE) pārstāvjiem, izņemot gadījumus, kad Talent nodrošināšanu jums neļauj veikt kāda licencēšanas problēma.
+
+## <a name="create-an-lcs-project"></a>LCS projekta izveidošana
+Lai lietotu LCS un pārvaldītu savas Talent vides, vispirms ir jāizveido LCS projekts.
+
+1. Pierakstieties pakalpojumā [LCS](https://lcs.dynamics.com/Logon/Index), izmantojot to pašu kontu, ko lietojat Talent abonēšanai.
+2. Atlasiet pluszīmi (**+**), lai izveidotu projektu.
+3. Kā produkta nosaukumu un produkta versiju atlasiet **Microsoft Dynamics 365 for Talent**.
+4. Atlasiet metodoloģiju **Dynamics 365 for Talent**.
+5. Atlasiet **Izveidot**.
+
+Informāciju par to, kā sākt darbu ar pakalpojumu Talent, skatiet **Talent** metodoloģijā, ko izveidojāt savā jaunajā projektā. Kad projekta izveidošana ir pabeigta, izpildiet tālāk norādīto procedūru, lai nodrošinātu savu Talent vidi.
+
+## <a name="provision-a-talent-project"></a>Talent projekta nodrošināšana
+Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā vidē.
+
+1. LCS projektā atlasiet elementu **Talent programmas pārvaldība**.
+2. Norādiet, vai šī ir Talent smilškastes vai ražošanas instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes. 
+3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Talent izmēģinājuma vides ietvaros. Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
+4. Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav pieejama PowerApps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+
+    > [!NOTE]
+    > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/en-us/pricing/).
+
+5. Atlasiet vidi, kurā nodrošināt programmu Talent.
+6. Atlasiet **Jā**, lai piekristu nosacījumiem un sāktu izvietošanu.
+
+    Jūsu jaunā vide tiek rādīta navigācijas rūts kreisajā pusē, sarakstā ar vidēm. Taču vidi nevar sākt izmantot, kamēr izvietošanas statuss tiek atjaunināts uz **Izvietots**. Šis process parasti aizņem dažas minūtes. Ja nodrošinājuma process ir nesekmīgs, sazinieties ar atbalsta dienestu.
+
+7. Atlasiet **Pieteikties pakalpojumā Talent**, lai izmantotu jauno vidi.
+
+    > [!NOTE]
+    > Ja vēl neesat izpildījis gala prasības, projektā varat izvietot Talent testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
+
+    > Tā kā Talent abonementa ietvaros ir atļautas tikai divas LCS vides, var apsvērt iespēju izmantot bezmaksas 60 dienu [Talent izmēģinājuma vidi](https://dynamics.microsoft.com/en-us/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot pamata personāla vadības sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+
+## <a name="select-a-powerapps-environment"></a>PowerApps vides izvēle
+
+Izmantojot integrāciju starp Talent un PowerApps vidēm, varat integrēt un paplašināt Talent datu lietojumu, izmantojot PowerApps rīkus. Izpratne par PowerApps vides mērķi ne tikai palīdzēs izveidot programmas, lai paplašinātu programmatūru Talent, bet arī palīdzēs izvēlēties vajadzīgo vidi programmatūras Talent nodrošināšanas laikā. Papildinformāciju par PowerApps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā [Paziņojums par PowerApps vidēm](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+
+Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā tālāk sniegtos norādījumus. 
+
+1. LCS atlasiet **Pārvaldīt vides** vai dodieties tieši uz PowerApps administrēšanas centru, kur varat skatīt esošās vides un izveidot jaunas vides.
+2. Katra Talent vide ir kartēta ar atsevišķu PowerApps vidi.
+3. PowerApps vidē ir ietverta Talent lietojumprogramma, kā arī atbilstošās PowerApps, Flow un Common Data Service programmas. Ja tiek dzēsta PowerApps vide, kopā ar to tiek dzēstas arī programmas. Kad veicat Talent vides nodrošināšanu, var nodrošināt vidi “Izmēģinājumversija” vai “Ražošana”. Vides tips ir jāizvēlas atkarībā no veida, kādā šī vide tiks izmantota. 
+4. Ir jāapsver datu integrācijas un pārbaudes metodes, piemēram, smilškastes, UAT vai ražošanas. Mēs iesakām apsvērt dažādos izvietojuma saistīšanas iespējas, jo vēlāk nevar viegli mainīt ar PowerApps vidi kartēto Talent vidi.
+5. Tālāk norādītās PowerApps vides nevar lietot programmatūrā Talent, tāpēc tās netiek rādītas LCS esošajā atlases sarakstā.
+ 
+    - **Noklusējuma PowerApps vides** — lai gan katram nomniekam tiek automātiski nodrošināta noklusējuma PowerApps vide, tās nav ieteicams izmantot programmatūrā Talent, jo visi nomnieku lietotāji var piekļūt PowerApps videi un nejauši sabojāt ražošanas datus, izmēģinot vai iepazīstot PowerApps vai Flow integrāciju.
+   
+    - **Izmēģinājuma vides** — šīs vides ir izveidotas beigu datumu, un tās pēc šī laika to derīgums beidzas, tāpēc vide un tajā ietvertās visas Talent instances tiek automātiski noņemtas.
+   
+    - **Neatbalstītie reģioni** — pašlaik pakalpojums Talent tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienota Karaliste vai Austrālija.
+  
+6. Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa. 
+ 
+## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
+Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Lai piešķirtu piekļuvi, ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Core HR vidē. Globālajam administratoram, kas izvietoja Talent, ir jāpalaiž arī programmas Attract un Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieku lietotājiem.  Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt programmām Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
