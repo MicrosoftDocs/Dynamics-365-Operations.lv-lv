@@ -1,219 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="ExpenseWorkspaceNew.md" target-language="lv-LV">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>ExpenseWorkspaceNew.43d6f6.c7a2b95456e812970b135d83f0f7e503310ce185.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c7a2b95456e812970b135d83f0f7e503310ce185</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>97ed74889a09ef385f6ecbab69e84a05ff42ee41</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/20/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\expense-management\ExpenseWorkspaceNew.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Expense reports reimagined</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izdevumu pārskati jaunā izskatā</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about the redesigned and reimagined experience for expense report entry in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šajā tēmā ir sniegta informācija par pārveidoto un pārdomāto izdevumu pārskata ierakstu pieredzi pakalpojumā Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>The new experience simplifies the process of completing expense reports and decreases the time that is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunā pieredze vienkāršo izdevumu pārskatu aizpildīšanas procesu un samazina nepieciešamo laiku.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Expense reports reimagined</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izdevumu pārskati jaunā izskatā</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izdevumu pārskata ieraksts ir pārveidots, lai vienkāršotu izdevumu pārskatu pabeigšanas procesu un samazinātu laiku, kas tam nepieciešams.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Here are the major components of the new expense experience:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk ir minēti jaunās izdevumu pieredzes galvenie elementi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>A new expense management workspace that lets you access your delegate's expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauna izdevumu pārvaldības darbvieta, kas nodrošina piekļuvi pārstāvja izdevumiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauna kvīšu salīdzināšanas pieredze, lai labāk parādītu virsraksta līmeņa kvītis un vienkāršotu kvīšu piesaistes procesu izdevumu rindām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>A new read-only grid that lets you view many more expense lines and additional columns of data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauns tikai lasāms režģis, kas ļauj skatīt daudz vairāk izdevumu rindu un papildu datu kolonnu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>You can now see all itemized and split lines, together with their parent expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagad varat skatīt visas detalizētās un sadalītās rindas kopā ar to pamata izdevumiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>A simplified pane for editing expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vienkāršota rūts izdevumu rediģēšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Redesigned error, warning, and policy messages to help guarantee that you have the correct context to understand what the issue is and how to resolve it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārveidoti kļūdu, brīdinājuma un politikas ziņojumi, lai palīdzētu nodrošināt, ka jūsu rīcībā ir atbilstošs konteksts, lai saprastu, kāda ir problēma un kā to atrisināt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Microsoft has removed many messages that appeared before users had an opportunity to complete their tasks and address the issues, such as the incomplete itemization message.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korporācija Microsoft ir noņēmusi daudzus ziņojumus, kas radās, pirms lietotājiem bija iespēja pabeigt savus uzdevumus un risināt problēmas, piemēram, nepabeigtas specifikācijas ziņojums.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A new page for specifying which fields are required by your organization, which fields are optional, and which fields should not be captured.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauna lapa, lai norādītu, kuri lauki ir nepieciešami organizācijai, kuri lauki nav obligāti un kuri lauki nav jātver.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>This page will help reduce the number of fields that users must to set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šī lapa palīdzēs samazināt to lauku skaitu, kas ir jāiestata lietotājiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauns izdevumu pārskatu izskats un funkcijas, lai pārskati vairs neizskatītos kā izstrādāti uzskaites speciālistiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>To turn on the new experience, use the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace to turn on the <bpt id="p2">**</bpt>Expense reports re-imagined<ept id="p2">**</ept> feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lai ieslēgtu jauno pieredzi, izmantojiet darbvietu <bpt id="p1">**</bpt>Funkciju pārvaldība<ept id="p1">**</ept> un ieslēdziet līdzekli <bpt id="p2">**</bpt>Izdevumu pārskati jaunā izskatā<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>When you turn on this feature, the following actions occur:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ieslēdzot šo līdzekli, notiek tālāk minētās darbības.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The existing expense workspace is replaced with the new workspace.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esošā izdevumu darbvieta tiek aizstāta ar jauno darbvietu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>A new menu item for expense field visibility is added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiek pievienots jauns izvēlnes elements izdevumu lauku redzamībai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>No existing menu items for expense reports (the existing page) or expense report fields are removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Netiek noņemti esošie izvēlnes elementi izdevumu pārskatiem (esošā lapa) vai izdevumu pārskata lauki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Workflows and any approvals still take you to the existing expense reports page.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Darbplūsmas un visi apstiprinājumi vēl aizvien novirza uz esošo izdevumu pārskatu lapu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Getting started video for new users</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Darba sākšanas videopamācība jauniem lietotājiem</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The <bpt id="p1">[</bpt>Expense experience in Dynamics 365 for Finance and Operations<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept> video (shown above) is included in the <bpt id="p2">[</bpt>Finance and Operations playlist<ept id="p2">](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)</ept> available on YouTube.</source><target logoport:matchpercent="0" state="translated">Videoklips <bpt id="p1">[</bpt>Izdevumu funkcionalitāte programmā Dynamics 365 for Finance and Operations<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept> (parādīts iepriekš) ir ietverts <bpt id="p2">[</bpt>Finance and Operations atskaņošanas sarakstā<ept id="p2">](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)</ept>, kurš ir pieejams vietnē YouTube.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>New features</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Jauni līdzekļi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>New feature</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Jauns līdzeklis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Description</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Apraksts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Expense field visibility</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Izdevumu lauka redzamība</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauna iestatīšanas lapa ļauj norādīt, kuri lauki ir jāatspējo organizācijai, kuri lauki ir obligāti un kuri lauki ir ieteicami.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Required fields</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Obligātie lauki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>New simple configuration lets you make some fields required without having to use the policy framework.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izmantojot jauno vienkāršo konfigurāciju, varat iestatīt dažus laukus kā obligātus, nelietojot politikas struktūru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Optional fields</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Papildu lauki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>A second page for optional fields is added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir pievienota otrā lapa papildu laukiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šādā veidā darbiniekiem nerodas iespaids, ka ir jāiestata šie lauki, bet tie ir viegli pieejami.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Add unattached receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nepievienoto kvīšu pievienošana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spēja pievienot nepievienotās kvītis izdevumu pārskatam ir labāk redzama darbvieta un izdevumu pārskatā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Improved messaging</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzlabota ziņojumapmaiņa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>There is better visibility into expense lines that have warnings or errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir labāk pārskatāmas izdevumu rindas, kurās ir brīdinājumi vai kļūdas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Reduction in messages in the message bar</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ziņojumu joslas ziņojumu samazināšana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informācijas žurnāla ziņojumu skaits ir samazināts, un ir veikti pasākumi, lai daudzos gadījumos novērstu ziņojumu dublikātu parādīšanu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Grouped together common actions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sagrupētas kopējās darbības</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfeiss ir uzlabots, pievienojot jaunas darbību pogas vairākumam kopējo līnijas līmeņa darbību un pievienojot daudzpunktes pogu (…) virsrakstam un citām retāk veicamām darbībām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>New workspace to increase visibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jauna darbvieta redzamības uzlabošanai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>A new workspace unifies features and links that let users move to different areas.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunā darbvietā ir apvienoto līdzekļi un saites, kas ļauj lietotājiem pārvietoties uz citām sadaļām.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Add existing expenses and receipts during expense creation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esošo izdevumu un kvīšu pievienošana izdevumu izveides laikā</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>When you create expense reports, you can add all or selected expenses and receipts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kad veidojat izdevumu pārskatus, varat pievienot visus vai atlasītos izdevumus un kvītis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Exchange rate calculator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valūtas maiņas kursa kalkulators</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir pievienots valūtas maiņas kursa kalkulators, kas ļauj aprēķināt valūtas maiņas kursu līgumā neietvertu daudzvalūtu transakciju veikšanai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Save and add new expense lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaunu izdevumu rindu saglabāšana un pievienošana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><bpt id="p1">**</bpt>Save<ept id="p1">**</ept> and <bpt id="p2">**</bpt>New<ept id="p2">**</ept> buttons are available when new expenses are entered, to help you quickly enter expense lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ievadot jaunus izdevumus, ir pieejamas pogas <bpt id="p1">**</bpt>Saglabāt<ept id="p1">**</ept> un <bpt id="p2">**</bpt>Jauns<ept id="p2">**</ept>, lai jūs varētu ātri ievadīt izdevumu rindas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Better visibility into split and itemized lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pārskatāmākas dalītās un detalizētās rindas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Itemized and split lines are added directly to the list of expenses, to increase visibility and help you easily determine whether there are policy errors or other errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalizētās un dalītās rindas tiek pievienotas tieši izdevumu sarakstam, lai uzlabotu redzamību un palīdzētu viegli noteikt, vai pastāv politikas kļūdas vai citas kļūdas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Show receipts during itemization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvīšu rādīšana specifikācijas laikā</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Receipts can be shown during itemization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvītis var rādīt specifikācijas laikā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>The initial release is focused on expense entry scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sākotnējais laidiens ir vērsts uz izdevumu ievades scenārijiem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Any expense report review or approval scenario will continue to use the existing expense entry page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visiem izdevumu pārskata pārskatīšanas vai apstiprināšanas scenārijiem arī turpmāk tiks lietota esošā izdevumu ierakstu lapa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>The following features are present on the existing page but aren't yet present on the new page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk minētie līdzekļi ir pieejami esošajā lapā, bet vēl nav iekļauti jaunajā lapā.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>These features will be reintroduced over the next several releases:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tālāk minētie līdzekļi tiks atkārtoti ieviesti vairākos nākamajos laidienos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Approvals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apstiprinājumi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Accounts payable approvals and the ability to edit the accounting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kreditoru apstiprinājumi un iespēja rediģēt uzskaiti</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Multiple entry points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vairāki ieejas punkti</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Travel requisition integration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komandējuma pieprasījumu integrācija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Data entity for expense field visibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datu elements izdevumu lauka redzamībai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Entry for per-diem expenses</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dienasnaudas izdevumu ieraksts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Line-level workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rindas līmeņa darbplūsma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Interim approver support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagaidu apstiprinātāja atbalsts</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Advanced itemization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzlabota specifikācija</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Izdevumu pārskati jaunā izskatā
+description: Šajā tēmā ir sniegta informācija par pārveidoto un pārdomāto izdevumu pārskata ierakstu pieredzi pakalpojumā Microsoft Dynamics 365 for Finance and Operations. Jaunā pieredze vienkāršo izdevumu pārskatu aizpildīšanas procesu un samazina nepieciešamo laiku.
+author: ryansandness
+manager: AnnBe
+ms.date: 05/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: ryansand
+ms.search.validFrom: 2019-6-30
+ms.dyn365.ops.version: 10.0.3
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592641"
+---
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="4efa7-104">Izdevumu pārskati jaunā izskatā</span><span class="sxs-lookup"><span data-stu-id="4efa7-104">Expense reports reimagined</span></span>
+
+[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="4efa7-105">Izdevumu pārskata ieraksts ir pārveidots, lai vienkāršotu izdevumu pārskatu pabeigšanas procesu un samazinātu laiku, kas tam nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="4efa7-105">Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required.</span></span> <span data-ttu-id="4efa7-106">Tālāk ir minēti jaunās izdevumu pieredzes galvenie elementi.</span><span class="sxs-lookup"><span data-stu-id="4efa7-106">Here are the major components of the new expense experience:</span></span>
+
+- <span data-ttu-id="4efa7-107">Jauna izdevumu pārvaldības darbvieta, kas nodrošina piekļuvi pārstāvja izdevumiem.</span><span class="sxs-lookup"><span data-stu-id="4efa7-107">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="4efa7-108">Jauna kvīšu salīdzināšanas pieredze, lai labāk parādītu virsraksta līmeņa kvītis un vienkāršotu kvīšu piesaistes procesu izdevumu rindām.</span><span class="sxs-lookup"><span data-stu-id="4efa7-108">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="4efa7-109">Jauns tikai lasāms režģis, kas ļauj skatīt daudz vairāk izdevumu rindu un papildu datu kolonnu.</span><span class="sxs-lookup"><span data-stu-id="4efa7-109">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="4efa7-110">Tagad varat skatīt visas detalizētās un sadalītās rindas kopā ar to pamata izdevumiem.</span><span class="sxs-lookup"><span data-stu-id="4efa7-110">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="4efa7-111">Vienkāršota rūts izdevumu rediģēšanai.</span><span class="sxs-lookup"><span data-stu-id="4efa7-111">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="4efa7-112">Pārveidoti kļūdu, brīdinājuma un politikas ziņojumi, lai palīdzētu nodrošināt, ka jūsu rīcībā ir atbilstošs konteksts, lai saprastu, kāda ir problēma un kā to atrisināt.</span><span class="sxs-lookup"><span data-stu-id="4efa7-112">Redesigned error, warning, and policy messages to help guarantee that you have the correct context to understand what the issue is and how to resolve it.</span></span> <span data-ttu-id="4efa7-113">Korporācija Microsoft ir noņēmusi daudzus ziņojumus, kas radās, pirms lietotājiem bija iespēja pabeigt savus uzdevumus un risināt problēmas, piemēram, nepabeigtas specifikācijas ziņojums.</span><span class="sxs-lookup"><span data-stu-id="4efa7-113">Microsoft has removed many messages that appeared before users had an opportunity to complete their tasks and address the issues, such as the incomplete itemization message.</span></span>
+- <span data-ttu-id="4efa7-114">Jauna lapa, lai norādītu, kuri lauki ir nepieciešami organizācijai, kuri lauki nav obligāti un kuri lauki nav jātver.</span><span class="sxs-lookup"><span data-stu-id="4efa7-114">A new page for specifying which fields are required by your organization, which fields are optional, and which fields should not be captured.</span></span> <span data-ttu-id="4efa7-115">Šī lapa palīdzēs samazināt to lauku skaitu, kas ir jāiestata lietotājiem.</span><span class="sxs-lookup"><span data-stu-id="4efa7-115">This page will help reduce the number of fields that users must to set.</span></span>
+- <span data-ttu-id="4efa7-116">Jauns izdevumu pārskatu izskats un funkcijas, lai pārskati vairs neizskatītos kā izstrādāti uzskaites speciālistiem.</span><span class="sxs-lookup"><span data-stu-id="4efa7-116">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
+
+<span data-ttu-id="4efa7-117">Lai ieslēgtu jauno pieredzi, izmantojiet darbvietu **Funkciju pārvaldība** un ieslēdziet līdzekli **Izdevumu pārskati jaunā izskatā**.</span><span class="sxs-lookup"><span data-stu-id="4efa7-117">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports re-imagined** feature.</span></span> <span data-ttu-id="4efa7-118">Ieslēdzot šo līdzekli, notiek tālāk minētās darbības.</span><span class="sxs-lookup"><span data-stu-id="4efa7-118">When you turn on this feature, the following actions occur:</span></span>
+
+- <span data-ttu-id="4efa7-119">Esošā izdevumu darbvieta tiek aizstāta ar jauno darbvietu.</span><span class="sxs-lookup"><span data-stu-id="4efa7-119">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="4efa7-120">Tiek pievienots jauns izvēlnes elements izdevumu lauku redzamībai.</span><span class="sxs-lookup"><span data-stu-id="4efa7-120">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="4efa7-121">Netiek noņemti esošie izvēlnes elementi izdevumu pārskatiem (esošā lapa) vai izdevumu pārskata lauki.</span><span class="sxs-lookup"><span data-stu-id="4efa7-121">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="4efa7-122">Darbplūsmas un visi apstiprinājumi vēl aizvien novirza uz esošo izdevumu pārskatu lapu.</span><span class="sxs-lookup"><span data-stu-id="4efa7-122">Workflows and any approvals still take you to the existing expense reports page.</span></span>
+
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="4efa7-123">Darba sākšanas videopamācība jauniem lietotājiem</span><span class="sxs-lookup"><span data-stu-id="4efa7-123">Getting started video for new users</span></span>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
+
+<span data-ttu-id="4efa7-124">Videoklips [Izdevumu funkcionalitāte programmā Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurš ir pieejams vietnē YouTube.</span><span class="sxs-lookup"><span data-stu-id="4efa7-124">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
+
+## <a name="new-features"></a><span data-ttu-id="4efa7-125">Jauni līdzekļi</span><span class="sxs-lookup"><span data-stu-id="4efa7-125">New features</span></span>
+
+| <span data-ttu-id="4efa7-126">Jauns līdzeklis</span><span class="sxs-lookup"><span data-stu-id="4efa7-126">New feature</span></span> | <span data-ttu-id="4efa7-127">Apraksts</span><span class="sxs-lookup"><span data-stu-id="4efa7-127">Description</span></span> |
+|---|----|
+| <span data-ttu-id="4efa7-128">Izdevumu lauka redzamība</span><span class="sxs-lookup"><span data-stu-id="4efa7-128">Expense field visibility</span></span> | <span data-ttu-id="4efa7-129">Jauna iestatīšanas lapa ļauj norādīt, kuri lauki ir jāatspējo organizācijai, kuri lauki ir obligāti un kuri lauki ir ieteicami.</span><span class="sxs-lookup"><span data-stu-id="4efa7-129">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="4efa7-130">Obligātie lauki</span><span class="sxs-lookup"><span data-stu-id="4efa7-130">Required fields</span></span> | <span data-ttu-id="4efa7-131">Izmantojot jauno vienkāršo konfigurāciju, varat iestatīt dažus laukus kā obligātus, nelietojot politikas struktūru.</span><span class="sxs-lookup"><span data-stu-id="4efa7-131">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="4efa7-132">Papildu lauki</span><span class="sxs-lookup"><span data-stu-id="4efa7-132">Optional fields</span></span> | <span data-ttu-id="4efa7-133">Ir pievienota otrā lapa papildu laukiem.</span><span class="sxs-lookup"><span data-stu-id="4efa7-133">A second page for optional fields is added.</span></span> <span data-ttu-id="4efa7-134">Šādā veidā darbiniekiem nerodas iespaids, ka ir jāiestata šie lauki, bet tie ir viegli pieejami.</span><span class="sxs-lookup"><span data-stu-id="4efa7-134">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="4efa7-135">Nepievienoto kvīšu pievienošana</span><span class="sxs-lookup"><span data-stu-id="4efa7-135">Add unattached receipts</span></span> | <span data-ttu-id="4efa7-136">Spēja pievienot nepievienotās kvītis izdevumu pārskatam ir labāk redzama darbvieta un izdevumu pārskatā.</span><span class="sxs-lookup"><span data-stu-id="4efa7-136">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="4efa7-137">Uzlabota ziņojumapmaiņa</span><span class="sxs-lookup"><span data-stu-id="4efa7-137">Improved messaging</span></span> | <span data-ttu-id="4efa7-138">Ir labāk pārskatāmas izdevumu rindas, kurās ir brīdinājumi vai kļūdas.</span><span class="sxs-lookup"><span data-stu-id="4efa7-138">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="4efa7-139">Ziņojumu joslas ziņojumu samazināšana</span><span class="sxs-lookup"><span data-stu-id="4efa7-139">Reduction in messages in the message bar</span></span>| <span data-ttu-id="4efa7-140">Informācijas žurnāla ziņojumu skaits ir samazināts, un ir veikti pasākumi, lai daudzos gadījumos novērstu ziņojumu dublikātu parādīšanu.</span><span class="sxs-lookup"><span data-stu-id="4efa7-140">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="4efa7-141">Sagrupētas kopējās darbības</span><span class="sxs-lookup"><span data-stu-id="4efa7-141">Grouped together common actions</span></span> | <span data-ttu-id="4efa7-142">Interfeiss ir uzlabots, pievienojot jaunas darbību pogas vairākumam kopējo līnijas līmeņa darbību un pievienojot daudzpunktes pogu (…) virsrakstam un citām retāk veicamām darbībām.</span><span class="sxs-lookup"><span data-stu-id="4efa7-142">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="4efa7-143">Jauna darbvieta redzamības uzlabošanai</span><span class="sxs-lookup"><span data-stu-id="4efa7-143">New workspace to increase visibility</span></span> | <span data-ttu-id="4efa7-144">Jaunā darbvietā ir apvienoto līdzekļi un saites, kas ļauj lietotājiem pārvietoties uz citām sadaļām.</span><span class="sxs-lookup"><span data-stu-id="4efa7-144">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="4efa7-145">Esošo izdevumu un kvīšu pievienošana izdevumu izveides laikā</span><span class="sxs-lookup"><span data-stu-id="4efa7-145">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="4efa7-146">Kad veidojat izdevumu pārskatus, varat pievienot visus vai atlasītos izdevumus un kvītis.</span><span class="sxs-lookup"><span data-stu-id="4efa7-146">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="4efa7-147">Valūtas maiņas kursa kalkulators</span><span class="sxs-lookup"><span data-stu-id="4efa7-147">Exchange rate calculator</span></span> | <span data-ttu-id="4efa7-148">Ir pievienots valūtas maiņas kursa kalkulators, kas ļauj aprēķināt valūtas maiņas kursu līgumā neietvertu daudzvalūtu transakciju veikšanai.</span><span class="sxs-lookup"><span data-stu-id="4efa7-148">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="4efa7-149">Jaunu izdevumu rindu saglabāšana un pievienošana</span><span class="sxs-lookup"><span data-stu-id="4efa7-149">Save and add new expense lines</span></span> | <span data-ttu-id="4efa7-150">Ievadot jaunus izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns**, lai jūs varētu ātri ievadīt izdevumu rindas.</span><span class="sxs-lookup"><span data-stu-id="4efa7-150">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="4efa7-151">Pārskatāmākas dalītās un detalizētās rindas</span><span class="sxs-lookup"><span data-stu-id="4efa7-151">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="4efa7-152">Detalizētās un dalītās rindas tiek pievienotas tieši izdevumu sarakstam, lai uzlabotu redzamību un palīdzētu viegli noteikt, vai pastāv politikas kļūdas vai citas kļūdas.</span><span class="sxs-lookup"><span data-stu-id="4efa7-152">Itemized and split lines are added directly to the list of expenses, to increase visibility and help you easily determine whether there are policy errors or other errors.</span></span> |
+| <span data-ttu-id="4efa7-153">Kvīšu rādīšana specifikācijas laikā</span><span class="sxs-lookup"><span data-stu-id="4efa7-153">Show receipts during itemization</span></span> | <span data-ttu-id="4efa7-154">Kvītis var rādīt specifikācijas laikā.</span><span class="sxs-lookup"><span data-stu-id="4efa7-154">Receipts can be shown during itemization.</span></span> |
+
+<span data-ttu-id="4efa7-155">Sākotnējais laidiens ir vērsts uz izdevumu ievades scenārijiem.</span><span class="sxs-lookup"><span data-stu-id="4efa7-155">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="4efa7-156">Visiem izdevumu pārskata pārskatīšanas vai apstiprināšanas scenārijiem arī turpmāk tiks lietota esošā izdevumu ierakstu lapa.</span><span class="sxs-lookup"><span data-stu-id="4efa7-156">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
+
+<span data-ttu-id="4efa7-157">Tālāk minētie līdzekļi ir pieejami esošajā lapā, bet vēl nav iekļauti jaunajā lapā.</span><span class="sxs-lookup"><span data-stu-id="4efa7-157">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="4efa7-158">Tālāk minētie līdzekļi tiks atkārtoti ieviesti vairākos nākamajos laidienos.</span><span class="sxs-lookup"><span data-stu-id="4efa7-158">These features will be reintroduced over the next several releases:</span></span>
+
+- <span data-ttu-id="4efa7-159">Apstiprinājumi</span><span class="sxs-lookup"><span data-stu-id="4efa7-159">Approvals</span></span>
+- <span data-ttu-id="4efa7-160">Kreditoru apstiprinājumi un iespēja rediģēt uzskaiti</span><span class="sxs-lookup"><span data-stu-id="4efa7-160">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="4efa7-161">Vairāki ieejas punkti</span><span class="sxs-lookup"><span data-stu-id="4efa7-161">Multiple entry points</span></span>
+- <span data-ttu-id="4efa7-162">Komandējuma pieprasījumu integrācija</span><span class="sxs-lookup"><span data-stu-id="4efa7-162">Travel requisition integration</span></span>
+- <span data-ttu-id="4efa7-163">Datu elements izdevumu lauka redzamībai</span><span class="sxs-lookup"><span data-stu-id="4efa7-163">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="4efa7-164">Dienasnaudas izdevumu ieraksts</span><span class="sxs-lookup"><span data-stu-id="4efa7-164">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="4efa7-165">Rindas līmeņa darbplūsma</span><span class="sxs-lookup"><span data-stu-id="4efa7-165">Line-level workflow</span></span>
+- <span data-ttu-id="4efa7-166">Pagaidu apstiprinātāja atbalsts</span><span class="sxs-lookup"><span data-stu-id="4efa7-166">Interim approver support</span></span>
+- <span data-ttu-id="4efa7-167">Uzlabota specifikācija</span><span class="sxs-lookup"><span data-stu-id="4efa7-167">Advanced itemization</span></span>
