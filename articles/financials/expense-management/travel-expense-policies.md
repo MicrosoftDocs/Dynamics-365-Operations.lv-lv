@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6923a4d5420cd768d1b0da24eab406033c17fd67
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1514443"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594940"
 ---
 # <a name="expense-policies"></a>Izdevumu ierobežojumi
 
@@ -44,11 +44,11 @@ Varat definēt trīs tipu politikas.
  
  - Pamatojums — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas darbiniekam vai vadītājam liek ievadīt politikas summas pārsniegšanas pamatojumu.        
 
-# <a name="policy-tips"></a>Politiku padomi
+## <a name="policy-tips"></a>Politiku padomi
 Tālāk ir minēti daži ieteikumi, kas var jums palīdzēt, izveidojot jaunas politikas izmaksu pārvaldībai. 
 * Politikām ir spēkā stāšanās datums, un tās nestāsies spēkā, ja politika tiek izveidota ar datumu pēc datuma, kad izdevumi radušies. Piemēram, ja šodien veidojat jaunu politiku, lai ieviestu maksimālos ēdināšanas izdevumus 50 ASV dolāru, apmērā, visi esošie izdevumi, kas ievadīti kopš vakardienas, netiks pārbaudīti attiecībā pret šo politiku.
 * Veidojot politiku izdevumu kategorijai, kas var būt detalizēta, apsveriet iespēju pievienot izdevumu rindas tipa nosacījumu. Dažas politikas, piemēram, kvīts pieprasīšana, var būt neatbilstošas detalizētām rindām, un tās ieteicams piemērot tikai virsraksta rindai vai nedetalizētai rindai. 
 
-# <a name="when-to-evaluate-policies"></a>Politiku novērtēšanas laiks
+## <a name="when-to-evaluate-policies"></a>Politiku novērtēšanas laiks
 
 Izdevumu pārvaldības parametros ir iespēja novērtēt izdevumu pārvaldības politikas, kad rinda tiek saglabāta vai kad tiek iesniegts izdevumu pārskats. Ja izvēlaties veikt novērtēšanu, kad rinda tiek saglabāta, tas nodrošina to, ka lietotājam agrāk tiek parādīts, kas jādara, lai pabeigtu izdevumu pārskatu uzreiz. Pretējā gadījumā varat aizkavēt politikas novērtēšanu un ietaupīt laiku, ja validācija tiek veikta beigās, kad notiek iesniegšana darbplūsmā.

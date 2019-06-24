@@ -16,12 +16,12 @@ ms.search.region: Latvia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054fd4838824ad867515864b9299095d3b527b57
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e10c444948c22887f880bc6b86b2be7ac615ee36
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513007"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544193"
 ---
 # <a name="latvia"></a>Latvija 
 

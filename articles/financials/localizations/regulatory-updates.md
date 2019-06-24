@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 for Finance and Operations normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530711"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593347"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -39,7 +39,7 @@ Mēs plānojam nodrošināt normatīvos atjauninājumus kā vienas versijas paka
 
 Ja paziņojums tiek saņemts vēlu, pieprasījuma dati vai validācijas instrumentu pieejamība tiek novēlota vai izmaiņas ir īpaši apjomīgas un sarežģītas, iespējams, ka normatīvo atjauninājumu nevar sagatavot līdz ikmēneša atjauninājuma vispārējās pieejamības datumam. Šādos gadījumos normatīvais atjauninājums dažiem pieejamajiem ikmēneša atjauninājumiem tiek nosūtīts labojumfailu veidā.
 
-Lai iegūtu informāciju par jaunāko normatīvo atjauninājumu plānu, skatiet nākamo tabulu. 
+Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākamajā tabulā. 
 
 |Plānotais izlaides datums|Partijas versija|Valsts/reģions|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
@@ -52,12 +52,23 @@ Lai iegūtu informāciju par jaunāko normatīvo atjauninājumu plānu, skatiet 
 |      2019. aprīlis          |   10.0.1      |   Vācija     |E-rēķinu izrakstīšana — debitoru rēķinu eksportēšana xRechnung 1.1 formātā         |
 |      2019. aprīlis          |   10.0.1      |    Apvienotā Karaliste     |[PVN deklarācijas iesniegšanas izmaiņas (nodokļu digitalizācija)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. aprīlis          |   10.0.1      |    Brazīlija     |NF-e jauns NT 2018.005         |
-|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada         |
-|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada (pārdošanas un pirkšanas grāmatas) 
+|      2019. aprīlis          |   10.0.1      |    Krievija     |[PVN deklarācijas formāta izmaiņas no 2019. gada](rus-VAT-declaration.md) |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada (pārdošanas un pirkšanas grāmatas) |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |Zemes nodokļa deklarācijas izmaiņas no 2018. gada |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |[Īpašuma nodokļa deklarācijas izmaiņas no 2019. gada](rus-assessed-tax-declaration.md)|
+|      2019. aprīlis          |   10.0.1      |    Krievija     |Transporta nodokļa deklarācijas izmaiņas no 2019. gada  |
+|      2019. aprīlis            |   10.0.1      | Ungārija      |  Ungārija: tiešsaistes rēķinu izrakstīšanas v.1.1 2019 programmā Microsoft Dynamics 365 for Finance and Operations  |
 |      2019. maijs            |   10.0.2      | Brazīlija      |   SPED ECD Layout 7   |
+|      Gaida            |   10.0.3      | Brazīlija      |   NF-e jauns NT 2018.005 — v.1.20   |
+|      Gaida            |   10.0.3      | Brazīlija      |   SPED ECD Layout 7   |
+|      Gaida            |   10.0.3      | Brazīlija      |   SPED ECF — 5. izkārtojums 2019. gadam   |
+|      Gaida            |   10.0.3      | Lietuva    |   i.SAF pārskats ļauj lietotājam definēt sistēmas PVN kodus saistībā ar likumā noteiktajiem nodokļu kodiem    |
+|      Gaida            |   10.0.3      | Polija     |   SAF rēķini (JPK_FA) v.2 no 2019. gada 1. jūlija  |
+|      Gaida            |   10.0.3      | Brazīlija   |   ICMS fiskālo dokumentu korekciju iespējošanas tabula 5.2   |
+|      Gaida            |   10.0.3      | Brazīlija    |   NF-e dekrēts 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Papildu resursi
-- Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pieteikties).
+- Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pierakstīties).
 - Atbalstīto programmas Dynamics 365 for Finance and Operations lokalizāciju sarakstu skatiet [starptautiskās pieejamības rokasgrāmatā](https://aka.ms/dynamics_365_international_availability_deck).
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525329"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577904"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mazumtirdzniecības kanālu finanšu integrācijas iestatīšana
 
@@ -88,7 +88,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
         Varat mainīt datu kartēšanas parametrus savienotāja funkcionālajā profilā. Lai atjaunotu noklusētos parametrus, kas definēti finanšu dokumentu nodrošinātāja konfigurācijā, atlasiet **Atjaunināt**.
 
         **Piemēri**
-    
+
         |   | Formāts | Paraugs |
         |---|--------|---------|
         | **PVN likmju iestatījumi** | value : VATrate | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
 4. Izveidojiet finanšu savienotāju grupas.
 
     Savienotāju grupā ir apvienoti tādu finanšu savienotāju funkcionālie profili, kuri veic identiskas funkcijas un finanšu reģistrācijas procesā tiek izmantoti tajā pašā darbībā. Piemēram, ja vairākus fiskālo printeru modeļus var izmantot mazumtirdzniecības veikalā, finanšu savienotājus šiem fiskālajiem printeriem var apvienot finanšu savienotāju grupā.
-    
+
     1. Lapā **Finanšu savienotāju grupa** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu savienotāju grupas**) izveidojiet jaunu finanšu savienotāju grupu.
     2. Pievienojiet funkcionālos profilus savienotāju grupai. Cilnē **Funkcionālie profili** atlasiet vienumu **Pievienot** un atlasiet kādu profila numuru. Katram finanšu savienotājam noteiktā savienotāju grupā var būt tikai viens funkcionālais profils.
     3. Lai pārtrauktu attiecīgā funkcionālā profila izmantošanu, opcijai **Atspējot** iestatiet vienumu **Jā**. Šīs izmaiņas ietekmē tikai pašreizējo savienotāju grupu. Varat turpināt tā paša funkcionālā profila izmantošanu citās savienotāju grupās.
@@ -119,7 +119,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
 5. Izveidojiet finanšu reģistrācijas procesu.
 
     Finanšu reģistrācijas procesu nosaka reģistrācijas darbību secība un katrā darbībā izmantotā savienotāju grupa.
-    
+
     1. Lapā **Finanšu reģistrācijas process** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) izveidojiet jaunu ierakstu katram unikālajam finanšu reģistrācijas procesam.
     2. Pievienojiet procesam reģistrācijas darbības.
 
@@ -145,7 +145,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
 7. Lapā **Finanšu reģistrācijas process** (**Mazumtirdzniecība \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) atlasiet vienumu **Validēt**, lai validētu finanšu reģistrācijas procesu.
 
     Ieteicams palaist šī tipa pārbaudes šādos gadījumos:
-    
+
     - Pēc tam, kad ir pabeigti visi iestatījumi jaunam reģistrācijas procesam, tostarp piešķirot reģistrācijas procesus POS funkcionalitātes profiliem un aparatūras profiliem.
     - Pēc tam, kad veiktas esošā finanšu reģistrācijas procesa izmaiņas, un šīs izmaiņas var izraisīt cita finanšu savienotāja atlasi izpildes laikā (piemēram, mainot savienotāju grupu finanšu reģistrācijas procesa darbībai, iespējojot savienotāja funkcionālo profilu savienotāja grupā vai pievienojot jaunu savienotāja funkcionālo profilu savienotāja grupai).
     - Pēc izmaiņu veikšanas saistībā ar savienotāja tehnisko profilu piešķiri aparatūras profiliem.

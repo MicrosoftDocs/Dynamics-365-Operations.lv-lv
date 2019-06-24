@@ -17,12 +17,12 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c5240363e738813b7d1eff26f5d9f3fe9314efbf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3479b630ff180cc0e422be471f00dcf9c93f94d5
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538159"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549065"
 ---
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 

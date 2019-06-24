@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
           href: sysadmin/VMs-no-admin-access.md
-        - name: 'Lokālo vižu pārdēvēšana, lai piekļūtu Azure DevOps operācijām'
+        - name: 'Lokālās vides pārdēvēšana, lai piekļūtu Azure DevOps operācijām'
           href: migration-upgrade/vso-machine-renaming.md
         - name: Izstrādes sistēmas prasības
           href: dev-tools/development-system-requirements.md
@@ -227,8 +227,9 @@
             - name: X klases
               href: dev-ref/x-classes.md
     - name: Paplašināmība
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: Lietojumprogrammas Paplašināmība sākumlapa
+          href: extensibility/extensibility-home-page.md
         - name: Ievads un darba sākšana
           items:
             - name: Programmu paplašināmības plāns
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: Jaunumi
           items:
-            - name: "Paplašināmības izmaiņas, 2017.\_gada jūlijs"
-              href: extensibility/changes-july-2017.md
-            - name: Paplašināmības izmaiņas versijā 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: Paplašināmības izmaiņas versijā 8.0
-              href: extensibility/changes-80.md
-            - name: "Paplašināmības izmaiņas, versija\_8.0.1"
-              href: extensibility/extensibility-changes-801.md
-            - name: "Paplašināmības izmaiņas versijā\_8.0.2"
-              href: extensibility/extensibility-changes-802.md
-            - name: "Paplašināmības izmaiņas versijā\_8.0.3"
-              href: extensibility/extensibility-changes-803.md
-            - name: "Paplašināmības izmaiņas versijā\_8.0.4"
-              href: extensibility/extensibility-changes-804.md
-            - name: "Paplašināmības izmaiņas versijā\_8.1"
-              href: extensibility/extensibility-changes-81.md
-            - name: "Paplašināmības izmaiņas versijā\_8.1.1"
-              href: extensibility/extensibility-changes-811.md
-            - name: "Paplašināmības izmaiņas versijā\_8.1.2"
-              href: extensibility/extensibility-changes-812.md
-            - name: "Paplašināmības izmaiņas versijā\_8.1.3"
-              href: extensibility/extensibility-changes-813.md
-            - name: "Paplašināmības izmaiņas versijā\_10.0"
-              href: extensibility/extensibility-changes-10.md
-            - name: "Paplašināmības izmaiņas versijā\_10.0.1"
-              href: extensibility/extensibility-changes-10-1.md
-            - name: "Paplašināmības izmaiņas versijā\_10.0.2"
-              href: extensibility/extensibility-changes-10-2.md
-            - name: "Paplašināmības izmaiņas versijā\_10.0.3"
+            - name: Lietojumprogrammas Paplašināmība jauninājumi un izmaiņas
+              href: extensibility/extensibility-new.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0.3 izmaiņas"
               href: extensibility/extensibility-changes-10-3.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0.2 izmaiņas"
+              href: extensibility/extensibility-changes-10-2.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0.1 izmaiņas"
+              href: extensibility/extensibility-changes-10-1.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0 izmaiņas"
+              href: extensibility/extensibility-changes-10.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1.3 izmaiņas"
+              href: extensibility/extensibility-changes-813.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1.2 izmaiņas"
+              href: extensibility/extensibility-changes-812.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1.1 izmaiņas"
+              href: extensibility/extensibility-changes-811.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1 izmaiņas"
+              href: extensibility/extensibility-changes-81.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.4 izmaiņas"
+              href: extensibility/extensibility-changes-804.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.3 izmaiņas"
+              href: extensibility/extensibility-changes-803.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.2 izmaiņas"
+              href: extensibility/extensibility-changes-802.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.1 izmaiņas"
+              href: extensibility/extensibility-changes-801.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0 izmaiņas"
+              href: extensibility/changes-80.md
+            - name: "Lietojumprogrammas Paplašināmība versijas\_7.3 izmaiņas"
+              href: extensibility/extensibility-changes-73.md
+            - name: "Lietojumprogrammas Paplašināmība izmaiņas, 2017.\_gada jūlijs"
+              href: extensibility/changes-july-2017.md
         - name: Pamati
           items:
             - name: Traucējoši pielāgojumi
@@ -361,8 +364,14 @@
       items:
         - name: 'Darbību izsekošana, izmantojot Trace Parser'
           href: perf-test/trace-trace-tutorial.md
-        - name: 'Veiktspējas SDK un vairāklietotāju testēšana, izmantojot Visual Studio Online'
-          href: perf-test/perfsdk-tutorial.md
+        - name: "Testēšana viena lietotāja režīmā, izmantojot rīku Uzdevuma reģistrētājs un veiktspējas\_SDK"
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: "Testēšana vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK un lokālo testēšanas kontrolleri"
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: "Testēšana vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK un Azure DevOps"
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: "Problēmu novēršanas ceļvedis pārbaudei viena vai vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK"
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Veiktspējas SDK un vairāklietotāju testēšana lokālās vidēs
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: 'Problēmu diagnostika un veiktspējas analīze, izmantojot Trace parser'
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: "Maiņas kursu nodrošinātāju izveide Finance and Operations versijā\_8.0"
           href: financial/create-exchange-rate-8.md
+    - name: 'Transakciju izpilde, izmantojot CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Piegādes ķēdes izstrāde
   items:
     - name: Ganta kontroles izstrādes ceļvedis
@@ -1234,7 +1245,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Darbs ar aktivitāšu diagrammām BPM bibliotēkās
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM bibliotēku sinhronizēšana ar Azure DevOps
+    - name: 'BPM bibliotēku sinhronizācija, izmantojot Azure DevOps'
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: 'Lietotāju pieņemšanas testa bibliotēku izveide, izmantojot uzdevumu ceļvežus un BPM'
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md

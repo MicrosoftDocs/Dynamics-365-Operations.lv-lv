@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559562"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607013"
 ---
 # <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi
 
@@ -44,7 +44,7 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
     - Ja veikala darbinieks apmeklē lapu **Detalizēta informācija par precei**, skatot iepriekšējās transakcijas dažādos kanālos, ieteikumu programma piedāvā papildu preces, kas var tikt nopirktas kopā.
     - Ja veikala darbinieks pievieno transakcijai debitoru un pēc tam apmeklē lapu **Detalizēta informācija par preci**, ieteikumu programma nodrošina personalizētus ieteikumus, izmantojot debitora transakciju vēsturi.
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![Ieteikumi lapā Informācija par preci](./media/proddetails.png)](./media/proddetails.png)
 
 2. Lapā **Transakcija**.
 
@@ -54,13 +54,11 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
     > [!NOTE]
     > Lai lapā **Transakcija** tiktu rādīti ieteikumi, mazumtirgotājam ir jāatjaunina ekrāna izkārtojums programmā Dynamics 365 for Retail. Lapā **Transakcijas** ir jāaktivizē vadīkla **Ieteikumi**.
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Ieteikumi lapā Transakcija](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. Lapā **Detalizēta informācija par debitoru**.
+3. Lapā **Klienta informācija** ieteikumu programma iesaka vienumus, pamatojoties uz lietotāja ID un vienumiem klienta vēlmju sarakstā.
 
-    - Ieteikumu programma iesaka preces, pamatojoties uz lietotāja ID un precēm debitora velmju sarakstā.
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![Ieteikumi lapā Klienta informācija](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Dynamics 365 for Retail konfigurēšana, lai iespējotu POS ieteikumus
 
@@ -83,7 +81,7 @@ Kad atsvaidzināt elementu **Elementu krātuve**, tiek veiktas tālāk norādīt
 Ja aktivizējat opciju **Iespējot ieteikumus** un palaižat konfigurācijas darbus, tiek veiktas tālāk norādītās darbības.
 
 - No API tiek izgūti modeļa akreditācijas dati un ID, un tie tiek saglabāti Dynamics 365 for Retail operāciju datu bāzē (AOS failā web.config), kā arī Retail Server serverī.
-- Modeļa akreditācijas dati un ID tiek padarīti pieejami CRT, lai varētu izpildīt tiešsaistes preču ieteikumu izsaukumus no programmām Cloud POS un MPOS.
+- Modeļa akreditācijas dati un ID tiek padarīti pieejami pakalpojumam CRT, lai varētu izpildīt preču ieteikumu izsaukumus no Cloud POS un MPOS tiešsaistes režīmā.
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Problēmu novēršana, ja preču ieteikumi jau ir iespējoti
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546367"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606945"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Programmai Retail Modern POS (MPOS) paredzēto attēlu iestatīšana un pārvaldība
 
@@ -49,11 +49,11 @@ Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalo
 1. Atveriet Dynamics 365 for Retail HQ portālu.
 2. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **Kanāla profili**.
 
-    [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Navigācija](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Kanāla profilā, ko jūsu veikals izmanto MPOS, atjauniniet lauku **Multivides bāzes vietrādis URL**, norādot sava multivides servera vai CDN pamata vietrādi URL. Bāzes vietrādis URL ir pirmā URL vietrāža daļa, kas ir kopīga visām dažādu elementu attēlu mapēm.
 
-    [![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Lapa Kanāla profili](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Elementa multivides veidnes definēšana
 
@@ -71,7 +71,7 @@ Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalo
 8. Izpildiet sinhronizēšanas darbus, lai virzītu jaunu veidni uz kanāla datu bāzi, lai MPOS varētu izmantot veidni, lai piekļūtu attēliem.
 9. Lai atjauninātu multivides veidni kataloga attēliem kanāla pusē, noteikti izpildiet darbību **Kataloga darbs 1150** sadaļā **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
 
-    [![catalog1](./media/catalog1.png)](./media/catalog1.png)
+    [![Dialoglodziņš Definēt multivides veidni](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Attēlu priekšskatīšana no elementa līmeņa
 
@@ -80,12 +80,12 @@ Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalo
 3. Var izmantot pogas **Pievienot** un **Noņemt**, lai manuāli mainītu ceļu, kas ir balstīts uz netiešo veidni un lietots noteiktam attēlam. Papildinformāciju skatiet sadaļā [Elementu krājumu multivides veidnes pārrakstīšana](#overwriting-the-media-template-for-entity-items) tālāk šajā rakstā.
 4. Kad esat pabeidzis attēla priekšskatīšanu un veicis jebkādas nepieciešamās izmaiņas, palaidiet atbilstošā veikala MPOS instanci un skatiet, vai tiek parādīti kataloga attēli.
 
-    [![catalog4](./media/catalog4.png)](./media/catalog4.png)
+    [![Dialoglodziņš Attēli](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Varat izmantot tādu pašu procedūru visiem pieciem elementiem, kas tiek atbalstīti: Darbinieks, Debitors, Katalogs, Kategorija un Preces. "Kataloga preces" (preces, kas iestatītas kataloga līmenī) un "Kanāla preces" (preces, kas iestatītas kanāla līmenī) izmanto multivides veidni, kas ir iestatīta elementam Preces. Preču multivides veidnei var atlasīt vairākus preču attēlus, lai tos parādītu katrai precei. Jūs varat arī iestatīt noklusējuma attēlu konkrētai precei. Šādā veidā varat novērst tukšus attēlus MPOS un palīdzēt kontrolēt, kurš attēls tiek izmantots kā noklusējuma attēls produkta krājumam. Šajā piemērā, katrai precei ir pieci attēli un pirmais attēls ir iestatīts kā noklusējuma attēls. Preču varianti tiek apstrādāti tāpat, kā pamata preces. Attēla faila nosaukumam ir jābalstās uz preces numuru. Dažas rakstzīmes arī tiek pārslēgtas, kamēr faila nosaukums tiek ģenerēts. Tāpēc būtu labi pārbaudīt faila nosaukumu, izmantojot sadaļu **Ģenerēt attēlu vietrāžus URL programmai Excel**.
 >
-> [![prods](./media/prods.png)](./media/prods.png)
+> [![Dialoglodziņš Definēt multivides veidni](./media/prods.png)](./media/prods.png)
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Sinhronizēšanas darbi, lai nosūtītu multivides veidni uz kanāla pusi
 
@@ -111,11 +111,11 @@ Kā minēts iepriekšējā sadaļā, noteiktā elementa multivides veidne atbals
     > [!IMPORTANT]
     > Kad multivides veidne tiek mainīta, jums jānoklikšķina uz **Ģenerēt** pirms varat izmantot funkciju Rediģēt programmā Excel.
 
-    [![excel1](./media/excel1.jpg)](./media/excel1.jpg)
+    [![Kopsavilkuma cilne Ģenerēt attēlu vietrāžus URL programmai Excel](./media/excel1.jpg)](./media/excel1.jpg)
 
     Tagad ir redzams attēla vietrāžu URL priekšskatījums, kas tika ģenerēti, pamatojoties uz pēdējo saglabāto multivides veidni.
 
-    [![excel2](./media/excel2.png)](./media/excel2.png)
+    [![Kopsavilkuma cilne Ģenerēt attēlu vietrāžus URL programmai Excel pēc vienuma Ģenerēt atlasīšanas](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > Vietrāžos URL, kas tiek ģenerēti programmai Excel, tiek izmantots ceļš un definētās multivides veidnes noteikumi. Šie noteikumi ietver failu nosaukumu veidošanas noteikumus. Tiek sagaidīts, ka fizisko attēli ir iestatīti ārpus programmas Dynamics 365 for Retail un attēlus var izgūt, izmantojot vietrāžus URL, kas ir atvasināti no iepriekš definētās multivides veidnes. Šos atvasinātos vietrāžus URL var pārrakstīt, izmantojot funkciju Rediģēt programmā Excel.
@@ -160,11 +160,11 @@ Visiem elementiem, izņemot Preces, var pārrakstīt dotā elementā krājuma at
 3. Ja vēlaties, lai šis attēls būtu redzams katalogam MPOS, to var iestatīt kā noklusējuma attēlu.
 4. Noklikšķiniet uz **Labi**. Attēla vietrādis URL tiek atjaunināts šim kataloga attēlam, un tiek parādīts priekšskatījums.
 
-    [![preview3](./media/preview3.png)](./media/preview3.png)
+    [![Atjaunināts vietrādis URL dialoglodziņā Jauns attēls](./media/preview3.png)](./media/preview3.png)
 
 5. Jūs varat arī redzēt visu pārrakstīto attēlu vietrāžu URL attēla priekšskatījumu galerijas lapā **Kataloga attēli**.
 
-    [![preview-4](./media/preview-4.png)](./media/preview-4.png)
+    [![Kataloga attēlu galerijas lapa](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Pašlaik galerija nerāda attēlu priekšskatījumus multivides veidnes attēlu vietrāžiem URL. Ja elementos Katalogs, Darbinieks, Debitors un Kategorija lietotājs skaidri norāda vietrādi URL, izmantojot šo lapu, mēs iesakām norādīt, kurš attēls ir noklusējuma attēls, jo mazumtirdzniecības servera klientiem tiek rādīts tikai viens attēls uz Katalogu, Debitoru, Darbinieku un Kategoriju. Ja lietotājs nenorāda noklusējuma attēlu, sistēma nosaka noklusējuma attēlu un nosūta to mazumtirdzniecības pakalpojumu izsaucējam (MPOS vai e-Komercija).
@@ -179,7 +179,7 @@ Lai pārrakstītu kataloga preču attēlu vietrāža URL, jāizmanto lapa **Prie
 4. Noklikšķiniet uz **Pievienot** un pārrakstiet attēla vietrādi URL ar jaunu vietrādi URL.
 5. Noklikšķiniet uz **Labi**. Jūs tagad redzat jauna attēla priekšskatījumu un varat to iestatīt kā noklusējuma attēlu.
 
-    [![cat3](./media/cat3.png)](./media/cat3.png)
+    [![Attēla priekšskatījums dialoglodziņā Jauns attēls](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Pēc kategorijas attēlu saistīšanas varat publicēt kanālu un palaist Kanāla darbu, lai palīdzētu nodrošināt, ka izmaiņas tiek publicētas kanāla datu bāzē.
@@ -200,7 +200,7 @@ Preču attēlus, kas jāizmanto bezsaistes režīmā, var iestatīt, augšupiel�
 6. Kamēr MPOS darbojas tiešsaistes režīmā, izpildiet HQ Kataloga darbu, lai pārliecinātos, ka dati tiek sūtīti uz bezsaistes datu bāzi vismaz vienu reizi.
 7. Aktivizējiet MPOS bezsaistes režīmā. Vajadzētu būt redzamam attēlam, ko augšupielādējāt noteiktai precei HQ.
 
-    [![offline1](./media/offline1.png)](./media/offline1.png)
+    [![Preces attēls bezsaistes režīmā](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Kataloga, kategorijas, darbinieka un debitora attēlu, kas parādīties MPOS bezsaistes režīmā, iestatīšana
 
@@ -212,4 +212,4 @@ Kataloga, kategorijas, darbinieka un debitora attēlus, kas jāizmanto bezsaiste
 4. Izpildiet Kataloga darbu. Tagad šis attēls tiks izmantots kā šī kataloga bezsaistes attēls MPOS.
 5. Veiciet līdzīgu procedūru citiem elementiem, piemēram, Kategorijai, Darbiniekam un Debitoram.
 
-    [![offline2](./media/offline2.png)](./media/offline2.png)
+    [![Bezsaistes attēls](./media/offline2.png)](./media/offline2.png)

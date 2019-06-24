@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: get-started/features-not-implemented-on-prem.md
+            - name: "Priekšskatījuma līdzekļi Finance and Operations versijā 10.0.4 (2019.\_gada jūlijs)"
+              href: get-started/whats-new-changed-10-0-4.md
             - name: "Priekšskatījuma līdzekļi Finance and Operations versijā 10.0.3 (2019.\_gada jūnijs)"
               href: get-started/whats-new-changed-10-0-3.md
-            - name: "Priekšskatījuma līdzekļi Finance and Operations versijā 10.0.2 (2019.\_gada maijs)"
+            - name: "Finance and Operations versija\_10.0.2 (2019.\_gada maijs)"
               href: get-started/whats-new-changed-10-0-2.md
             - name: "Finance and Operations versija\_10.0.1 (2019.\_gada aprīlis)"
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: "Finance and Operations versija\_8.1.3 (2019.\_gada janvāris)"
               href: get-started/whats-new-changed-8-1-3.md
+            - name: "Priekšskatījuma līdzekļi versijā Finance and Operations platform update\_28 (2019.\_gada jūlijs)"
+              href: get-started/whats-new-platform-update-28.md
             - name: "Priekšskatījuma līdzekļi versijā Finance and Operations platform update\_27 (2019.\_gada jūnijs)"
               href: get-started/whats-new-platform-update-27.md
-            - name: "Priekšskatījuma līdzekļi versijā Finance and Operations platform update\_26 (2019.\_gada maijs)"
+            - name: "Platform update\_26 (2019.\_gada maijs)"
               href: get-started/whats-new-platform-update-26.md
             - name: "Platform update\_25 (2019.\_gada aprīlis)"
               href: get-started/whats-new-platform-25.md
@@ -912,7 +916,7 @@
         - name: Izdevumu pārvaldība
           href: ../financials/expense-management/expense-management.md
           items:
-            - name: Izdevumu pārskati atkārtoti attēloti
+            - name: Izdevumu pārskati jaunā izskatā
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Plānoto izdevumu pārvaldība
               href: ../financials/expense-management/plan-expense-management.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Publiskā sektora provizoriskā budžeta izveide
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: Budžeta analīzes pārskats
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: Budžeta analīze publiskajā sektorā
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Provizoriskie budžeti un norīkojumi publiskajā sektorā
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Valūtas maiņas kursu iestatīšana valūtas transakcijām
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: KFCB valūtas kursu importēšana ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Avansa turētāji
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Iestatīt atvieglojumus
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: Biežumi un cikli
             - name: Apmaksas ciklu un apmaksas periodu iestatīšana
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: Algas aprēķina biežumu iestatīšana
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: "Ienākošo dokumentu parsēšana CSV\_formātā"
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: "Elektronisko atskaišu veidošanas (ER)\_formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas"
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3877,6 +3885,10 @@
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: Projekta darba laika uzskaites tabulas mobilā programma
           href: ../financials/project-management/project-timesheet.md
+        - name: Projekta darba laika uzskaites tabulas mobilajā ierīcē
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: Pielāgoto lauku ieviešana mobilās lietotnes Project darba laika uzskaites tabulā
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: Pārdošana un mārketings
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

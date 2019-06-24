@@ -3,7 +3,7 @@ title: Talent nodrošināšana
 description: Šajā tēmā ir detalizēti aprakstīta jaunas vides nodrošināšana programmai Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518561"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576925"
 ---
 # <a name="provision-talent"></a>Talent nodrošinājums
 
@@ -47,13 +47,14 @@ Informāciju par to, kā sākt darbu ar pakalpojumu Talent, skatiet **Talent** m
 Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā vidē.
 
 1. LCS projektā atlasiet elementu **Talent programmas pārvaldība**.
-2. Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav pieejama PowerApps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. Norādiet, vai šī ir Talent smilškastes vai ražošanas instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes. 
+3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Talent izmēģinājuma vides ietvaros. Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
+4. Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav pieejama PowerApps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/en-us/pricing/).
 
-4. Atlasiet **Pievienot** un pēc tam atlasiet vidi, kurā nodrošināt pakalpojumu Talent.
-5. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Talent izmēģinājuma vides ietvaros. Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
+5. Atlasiet vidi, kurā nodrošināt programmu Talent.
 6. Atlasiet **Jā**, lai piekristu nosacījumiem un sāktu izvietošanu.
 
     Jūsu jaunā vide tiek rādīta navigācijas rūts kreisajā pusē, sarakstā ar vidēm. Taču vidi nevar sākt izmantot, kamēr izvietošanas statuss tiek atjaunināts uz **Izvietots**. Šis process parasti aizņem dažas minūtes. Ja nodrošinājuma process ir nesekmīgs, sazinieties ar atbalsta dienestu.

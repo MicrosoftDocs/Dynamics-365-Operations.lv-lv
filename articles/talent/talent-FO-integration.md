@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518605"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617347"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 for Talent integrāciju ar Dynamics 365 for Finance and Operations
 
@@ -46,7 +46,7 @@ Finanšu dimensijas pašlaik nav pakalpojumā Common Data Service un līdz ar to
 
 Tādu datu gadījumā, kuri atrodas risinājumā Finance and Operations, bet kuru nav risinājumā Talent, saistiet abas sistēmas kopā, izmantojot vienumu **Konfigurēt saites** risinājumā Talent. Plašāku informāciju par to, kā konfigurēt saites starp Talent un Finance and Operations, skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 31. oktobris)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Kartēt finanšu dimensijas](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Dažreiz, importējot darbiniekus, tie tiek iekļauti neaktīvo darbinieku sarakstā risinājumā Finance and Operations. Kādēļ?
 
@@ -60,14 +60,14 @@ Datu sinhronizācija tiek veikta saskaņā ar izpildes grafiku. Integrācija ņe
 
 Ar opciju “Papildu vaicājums” varat filtrēt un pārveidot avota datus pirms to nosūtīšanas uz galamērķi.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktīvo darbinieku papildu vaicājums](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Vai var norādīt, kurus laukus nosūtīt uz risinājumu Finance and Operations konkrētam elementam?
 
 Laukus var pievienot vai noņemt no integrācijas uzdevuma. Ne visi datu lauki, kas pastāv pakalpojuma Common Data Service elementā, tiks aizpildīti no Core HR.
 Papildu datus var aizpildīt, izmantojot PowerApps.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Pievienot vai noņemt laukus no integrācijas uzdevuma](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Es iestatīju integrāciju kā pakešuzdevumu, bet tika zaudēts risinājuma Talent savienojums ar mērķa sistēmu. Kā var nosūtīt to pašu izmaiņu kopumu uz mērķa sistēmu?
 

@@ -3,7 +3,7 @@ title: Pārdošanas punkta (POS) ekrāna izkārtojumi
 description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 for Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549432"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607045"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) ekrāna izkārtojumi
 
@@ -51,6 +51,7 @@ Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norā
 - **Dizains** — varat atlasīt dizainu Gaišs vai Tumšs. Dizains ietekmē fontu un fona krāsas visā programmā.
 - **Izcēluma krāsa** — izcēluma krāsa tiek izmantota visā POS interfeisā, lai izceltu vai iezīmētu noteiktus vizuālos elementus, piemēram elementus, komandpogas vai hipersaites. Parasti šos elementus var izmantot, lai veiktu kādu darbību.
 - **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām. Šis līdzeklis ir pieejams tikai Microsoft Dynamics 365 for Retail versijā 1611.
+- **Rādīt datumu/laiku** — ja šī opcija ir iespējota, POS galvenē tiek rādīts pašreizējais datums un laiks.
 - **Pieteikšanās foni** — varat norādīt pierakstīšanās ekrāna fona attēlu. Fona attēla faila lielumam ir jābūt pēc iespējas mazākam, jo lielu failu uzglabāšana un ielāde var ietekmēt lietojumprogrammas darbību un veiktspēju.
 - **Lietojumprogrammas fons** — varat norādīt fona attēlu, kas visā programmā jāizmanto tīrtoņa fona krāsas vietā. Pieteikšanās ekrāna fona faila lielumam jābūt pēc iespējas mazākam.
 

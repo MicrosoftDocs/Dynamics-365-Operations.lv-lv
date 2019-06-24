@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561814"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595666"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
 
@@ -715,7 +715,7 @@ Mazumtirdzniecības servera un datu pārvaldība patērētājiem un uzņēmumiem
 <tr>
 <th>Ko iespējams izdarīt?</th>
 <th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 7.0</th>
 <th>Kāpēc tas ir svarīgi?</th>
 </tr>
 </thead>
@@ -971,7 +971,7 @@ Pastāv uzlabota "zema pieskāriena" klienta komponenta instalācija, izmantojot
 </tr>
 <tr>
 <td>Pārraugiet sistēmas darbspēju un atrodiet kļūdas un problēmas.</td>
-<td>Šai funkcionalitātei ir nepieciešama pakotne <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Šai funkcionalitātei ir nepieciešama pakotne <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Pārraudzība un diagnostika mazumtirdzniecības komponentiem tagad ir pieejama, izmantojot LCS informācijas paneli <strong>Darbības ieskati</strong>.</td>
 <td>Informācijas panelis <strong>Darbības ieskati</strong> ir mākoņa pārraudzības portāls, kas aizstāj nepieciešamību instalēt System Center Operations Manager (SCOM) infrastruktūru.</td>
 </tr>

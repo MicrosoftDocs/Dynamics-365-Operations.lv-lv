@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544913"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595399"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Konfigurāciju nodrošinātāju izveide un atzīmēšana aktīvā statusā
 
@@ -34,11 +34,11 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
 2. Noklikšķiniet uz Konfigurācijas nodrošinātāji.
 3. Noklikšķiniet uz Jauns.
-    * Nodrošinātāja ierakstam ir unikāls nosaukums un URL. Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja “Litware, Inc.” (http://www.litware.com) ieraksts jau pastāv.  
+    * Nodrošinātāja ierakstam ir unikāls nosaukums un URL. Pārskatiet šīs lapas saturu un izlaidiet šo procedūru, ja “Litware, Inc.” (https://www.litware.com) ieraksts jau pastāv.  
 4. Laukā Nosaukums ierakstiet Litware, Inc.
     * Litware, Inc.  
-5. Laukā Interneta adrese ierakstiet “http://www.litware.com”.
-    * http://www.litware.com  
+5. Laukā Interneta adrese ierakstiet “https://www.litware.com”.
+    * https://www.litware.com  
 6. Noklikšķiniet uz Saglabāt.
 7. Aizvērt lapu.
 

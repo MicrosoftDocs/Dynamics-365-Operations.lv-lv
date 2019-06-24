@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571641"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595615"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei
 
@@ -59,8 +59,10 @@ Lai iestatītu savienojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 4. Atlasiet katalogu kreditoram. Sarakstā **Juridiskās personas** ir rinda katrai juridiskajai personai, kur jāiestata kreditors. Lai atļautu lietotājiem tiešā veidā pieprasīt preces no dažu juridisko personu (bet ne citu) kreditora kataloga, varat izmantot pogu **Neļaut piekļuvi** vai **Atļaut piekļuvi** katrai juridiskajai personai, kuras katalogam ir vai nav jābūt pieejamam.
 5. Laukā **Noklusējuma derīguma termiņš (dienās)** ievadiet dienu skaitu, kad piedāvājums, kas saņemts no ārējā kataloga, ir spēkā un kad to var izmantot, lai veiktu iegādi no ārējā kreditora. Pēc piedāvājuma izveides un izguves no piegādātāja ārējās kataloga vietas piedāvājums ir derīgs, sākot ar pašreizējo sistēmas datumu un paliek spēkā uz to dienu skaitu, ko ievadījāt šajā laukā.
 6. Noklikšķiniet uz pogas **Pievienot**, lai sāktu sagādes kategoriju kartēšanu ārējā katalogā. Pēc tam atlasiet kategoriju sarakstā Kategorijas nosaukums. Kategoriju saraksts ir paplašināts sagādes kategoriju variants, ko kreditors kartēja visām juridiskajām personām, kuras kreditors iestatīja.
-[!NOTE]
-Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem. Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.
+
+    > [!NOTE]
+    > Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem. Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.
+
 7. Iestatiet cXML iestatījumu pieprasījuma ziņojumu, kas tiks nosūtīts kreditoram. Automātiski ģenerētā ziņojuma formāts ir minimālā veidne, kas ir nepieciešama, lai sāktu sesiju. Ievadiet etiķešu vērtības.
 
 Varat jebkurā brīdī pārlādēt sistēmas ģenerēto ziņojuma veidni, noklikšķinot uz vienuma **Atjaunot ziņojuma formātu**. 
@@ -85,7 +87,7 @@ Zemāk varat atrast visu to etiķešu aprakstus, kas ir iekļautas veidnē.
 
 Ārējs elements ir papildinformācija, piemēram, lietotājvārds, kas ir atkarīga no lietotāja, kas reģistrē aiziešanu. Ārējais elements tiek iestatīts, kad tiek reģistrēta aiziešana, un to var nosūtīt iestatīšanas pieprasījuma ziņojumā.
 Kreditoram varētu būt prasība saņemšanai ārēju elementu iestatīšanas pieprasījumā. Šādā gadījumā ārējais elements ir jāpievieno ārējo elementu sarakstam lapas **Ārējais katalogs** sadaļā **Ziņojuma formāts**. Norādiet ārējā elementa nosaukumu, ko kreditors var atpazīt un kartēt vērtībā. Vērtību opcijas: Lietotājvārds, Lietotāja e-pasts vai Nejauša vērtība.
-Papildinformāciju par cXML protokolu skatiet šeit: http://cxml.org/
+Plašāku informāciju par cXML protokolu skatiet [cXML.org tīmekļa vietnē](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Ar iepriekšēju datumu grāmatots ziņojums
 Ar iepriekšēju datumu grāmatots ziņojums ir ziņojums, kas tiek saņemts no kreditora, kad lietotājs reģistrē aiziešanu no ārējās vietnes un atgriežas programmā Finance and Operations. Ar iepriekšēju datumu grāmatotos ziņojumus nevar konfigurēt. Ziņojumi tiek izveidoti, pamatojoties uz cXML protokola definīciju. Tālāk ir norādīta informācija, kas var būt ietverta ar iepriekšēju datumu grāmatotā ziņojumā, kurš tiek saņemts pieprasījuma rindā.

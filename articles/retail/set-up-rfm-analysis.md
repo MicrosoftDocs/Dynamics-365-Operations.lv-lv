@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553049"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606830"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Nesenības, biežuma un naudas (RFM) analīzes iestatīšana
 
@@ -46,7 +46,7 @@ Piemēram, jūsu organizācija ir noteikusi vērtējumus skalā no 1 līdz 5, ku
 
 Ja jūsu organizācija vērtējumam izmanto apkopotos skaitļus, individuāli vērtējumi tiek summēti. Tajā pašā piemērā debitora vērtējums ir 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Lai iestatītu RFM analīzi debitoriem jūsu organizācijā, izpildiet tālāk aprakstītos norādījumus
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Iestatīt RFM analīzi debitoriem jūsu organizācijā
 
 1. Dodieties uz **Zvanu centrs** \> **Periodisks** \> **RFM analīze**.
 2. Lapā **RFM analīže** atlasiet **Jauns**. Laukā **RFM definīcija** ievadiet RFM definīcijas nosaukumu. Piemēram, varat nosaukt definīciju par RFM-A.

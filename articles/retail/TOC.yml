@@ -6,7 +6,7 @@
       href: get-started/whats-new.md
     - name: "Priekšskatījuma līdzekļi risinājumā Dynamics 365 for Retail\_10.0.3"
       href: get-started/whats-new-10-0-3.md
-    - name: "Priekšskatījuma līdzekļi risinājumā Dynamics 365 for Retail\_10.0.2"
+    - name: "Jaunumi un izmaiņas risinājumā Dynamics 365 for Retail\_10.0.2"
       href: get-started/whats-new-10-0-2.md
     - name: "Jaunumi un izmaiņas risinājumā Dynamics 365 for Retail\_10.0.1"
       href: get-started/whats-new-10-0-1.md
@@ -49,14 +49,18 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Finance and Operations Retail projektu ieviešana
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Jaunu vižu, Azure DevOps un zaru iestatīšana Retail projektiem'
+    - name: 'Jaunas vides, Azure DevOps un zaru iestatīšana Retail projektiem'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Koda un vižu atjaunināšana Retail projektiem
       href: dev-itpro/updating-environments.md
     - name: Testēšanas un veiktspējas problēmas
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: Sadalīto pasūtījumu pārvaldība (DOM)
-  href: dom.md
+  items:
+    - name: DOM apskats
+      href: dom.md
+    - name: Izmaksu konfigurācija
+      href: cost.md
 - name: Maksājumi
   items:
     - name: Maksāšanas metodes
@@ -67,6 +71,8 @@
       href: cash-denominations.md
     - name: "Dynamics\_365 maksājumu savienotājs pakalpojumam Adyen"
       href: dev-itpro/adyen-connector.md
+    - name: 'Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen'
+      href: dev-itpro/adyen-connector-listPI.md
     - name: Rēķinu apmaksas scenāriju iestatīšana
       href: payinvoice.md
     - name: Bieži uzdotie jautājumi par maksājumiem
@@ -95,7 +101,9 @@
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: Pārskatu grāmatošanas funkcionalitātes uzlabojumi
       href: statement-posting-EOD.md
-    - name: 'Tādu Retail parametru konfigurēšana, kas ietekmē mazumtirdzniecības pārskatus'
+    - name: Uzlabota pēc partijas izsekoto krājumu apstrāde
+      href: batch.md
+    - name: 'Tādu mazumtirdzniecības parametru konfigurēšana, kas ietekmē mazumtirdzniecības pārskatus'
       href: tasks/parameter-configurations-retail-statements.md
     - name: 'Tādu maksāšanas metožu iestatījumu konfigurēšana, kas ietekmē mazumtirdzniecības pārskatus'
       href: tasks/payment-configurations-retail-statements.md
@@ -115,7 +123,9 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-- name: Visu kanālu uzlabotās automātiskās maksas
+- name: Pārskats par Omni kanāla maksājumiem
+  href: omni-channel-payments.md
+- name: Omni kanāla papildu automātiskās maksas
   items:
     - name: Papildu automātisko maksu konfigurēšana un lietošana
       href: omni-auto-charges.md
@@ -159,12 +169,14 @@
       href: MPOS-or-CPOS.md
     - name: POS operācijas tiešsaistē un bezsaistē
       href: pos-operations.md
-    - name: Pielāgota Retail Modern POS ierīces aktivizēšana
+    - name: Ierīces aktivizēšana pielāgotajā Retail MPOS
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS un Cloud POS
       href: demo-data.md
     - name: Preču un klientu meklēšana punktā POS
       href: POS-search-improvements.md
+    - name: Skaidras naudas pārvaldības uzlabojumi
+      href: cash-mgmt.md
     - name: Krājumu uzmeklēšana punktā POS
       href: product-variants-POS.md
     - name: Transakciju apturēšana un atsākšana punktā POS
@@ -588,9 +600,9 @@
           href: dev-itpro/retail-server-customer-consumer-api.md
         - name: Noklusējuma Retail Server metadatu kontrollera paplašināšana
           href: dev-itpro/extend-metadata.md
-        - name: Izsaukt CRT pakalpojumu bezsaistes režīmā
+        - name: Pakalpojuma CRT izsaukšana bezsaistes režīmā
           href: dev-itpro/call-crt-service-offline.md
-    - name: Commerce runtime (CRT) paplašināmība
+    - name: Commerce Runtime (CRT) paplašināmība
       items:
         - name: CRT arhitektūra un konfigurēšana
           href: dev-itpro/commerce-runtime-overview.md

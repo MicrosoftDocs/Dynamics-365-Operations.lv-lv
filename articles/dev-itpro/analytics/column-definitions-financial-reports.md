@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502734"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595343"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
@@ -120,7 +120,7 @@ Tālāk redzamajā tabulā ir sniegts kolonnas ierobežojumu kodu apraksts.
 | KOR                     | Kolonnā ietvertās summas tiek ierobežotas tā, lai netiktu rādītas perioda labojuma summas, ja šīs summas ir pieejamas. |
 | IZK                     | Kolonnā ietvertās summas tiek ierobežotas tā, lai tiktu izlaistas perioda labojuma summas. |
 | GD                      | Kolonnā ietvertās summas tiek ierobežotas tā, lai tiktu iekļauti tikai grāmatotie darījumi, ja šadi darījumi ir pieejami. |
-| NGD                     | Kolonnā ietvertās summas tiek ierobežotas tā, lai tiktu iekļauti tikai negrāmatotie darījumi, ja šadi darījumi ir pieejami.<blockquote>[!NOTE] Ne visi datu nodrošinātāji atbalsta negrāmatotus darījumus. Papildinformāciju skatiet savas sistēmas Microsoft Dynamics ERP sistēmas <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>datu integrēšanas rokasgrāmatā</a>.</blockquote> |
+| NGD                     | Ierobežot summas kolonnā, lai tiktu iekļautas tikai negrāmatotās darbības, ja šīs darbības ir pieejamas.<p><strong>Piezīme:</strong> Ne visi datu pakalpojumu sniedzēji atbalsta negrāmatotās darbības. Papildinformāciju skatiet savas sistēmas Microsoft Dynamics ERP sistēmas <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>datu integrēšanas rokasgrāmatā</a>.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Ierobežojuma definēšana kolonnai attiecībā uz noteiktu pārskatu vienību
 
@@ -310,7 +310,7 @@ Kad norādāt kolonnas definīciju, formatēšanas kolonnas detalizētās rindas
 | Drukas vadības kods | Atšifrējums                                     | Apraksts |
 |--------------------|-------------------------------------------------|-------------|
 | NED                 | Nedrukāt                                     | Šajā kolonnā esošās summas netiek iekļautas drukātajā pārskatā un izmantotas aprēķinos. Lai nedrukājamu kolonnu iekļautu aprēķinā, šī kolonna jānorāda tieši aprēķina formulā. Piemēram, nedrukājama kolonna C ir iekļauta šādā aprēķinā: **B+C+D**. Tomēr, nedrukājamā kolonna C nav iekļauta šādā aprēķinā: **B:D**. |
-| MZK                | Zīmes maiņa, ja rindas parastā bilance ir kredīts | Tiek izveidots budžets vai salīdzinošs pārskats, kurā nevēlamā novirze (piemēram, ieņēmumu deficīts vai izdevumu pārtēriņš) vienmēr tiek rādīta kā negatīva. Lietojiet šo kodu, lai kolonnā **CALC** kolonnas summai mainītu zīmi uz pretējo, ja tipiska dotās rindas bilance ir kredīts (saskaņā ar **C**, rindas definīcijas kolonnā **Parastā bilance**).<blockquote>[!NOTE] Piezīme. Rindām <strong>TOT</strong> un </strong>CAL</strong>, kurās parasti ir kredīta bilance, ievadiet <strong>C</strong> rindas definīcijas kolonnā <strong>Parastā bilance</strong>.</blockquote> |
+| MZK                | Zīmes maiņa, ja rindas parastā bilance ir kredīts | Tiek izveidots budžets vai salīdzinošs pārskats, kurā nevēlamā novirze (piemēram, ieņēmumu deficīts vai izdevumu pārtēriņš) vienmēr tiek rādīta kā negatīva. Lietojiet šo kodu, lai kolonnā **CALC** kolonnas summai mainītu zīmi uz pretējo, ja tipiska dotās rindas bilance ir kredīts (saskaņā ar **C**, rindas definīcijas kolonnā **Parastā bilance**).<p><strong>Piezīme:</strong> <strong>TOT</strong> un </strong>CAL</strong> rindām, kas parasti ietver kredīta bilanci, pārliecinieties, ka esat ievadījis <strong>C</strong>, rindas definīcijas kolonnā <strong>Parastā bilance</strong>.</p> |
 | X0                 | Neietvert kolonnu, ja visas tās vērtības ir vienādas ar nulli vai ir tukšas          | Izslēdziet **FD** kolonnu no pārskata, ja visas šūnas kolonnā ir vai nu tukšas vai satur nulles. |
 | NN                 | Nepieļaut noapaļošanu                               | Kolonnā esošās summas netiek noapaļotas. |
 | NA                 | Nepieļaut apkopošanu                                 | Nepieļauj apkopošanu. Ja pārskatā izmantojat pārskatu koku, šajā kolonnā esošās summas netiek apkopotas attiecīgajos vecākmezglos. |
@@ -546,8 +546,8 @@ Lietotāja Phyllis atlasīja šādu valūtu kolonnas definīcijā:
 | Šūna Valūtas attēlojums                        | Šūna Valūtas filtrs | Pārskata rezultāts |
 |----------------------------------------------|----------------------|---------------|
 | Darbības valūta                 | **JĒNA**              | **Y6 000** – rezultāts rāda tikai darbības, kas tika ievadītas JPY. |
-| Uzskaites valūta no virsgrāmatas | **JĒNA**              |**$60** – rezultāts rāda tikai darbības, kas tika ievadītas JPY, un attēlo tās darbības USD.<blockquote>[!NOTE] Konvertēšanas maiņas kurss ir aptuveni JPY 100 par vienu ASV dolāru.</blockquote> |
-| Uzskaites valūta no virsgrāmatas | Tukšs                | **$2310** — rezultāts rāda visus datus uzskaites valūtā, kas ir norādīta virsgrāmatā.<blockquote>[!NOTE] Šī summa ir visu darījumu summa uzskaites valūtā.</blockquote> |
+| Uzskaites valūta no virsgrāmatas | **JĒNA**              |**$60** – rezultāts rāda tikai darbības, kas tika ievadītas JPY, un attēlo tās darbības USD.<p><strong>Piezīme:</strong> konvertēšanas maiņas kurss ir aptuveni 100 JPY par vienu USD.</p> |
+| Uzskaites valūta no virsgrāmatas | Tukšs                | **$2310** — rezultāts rāda visus datus uzskaites valūtā, kas ir norādīta virsgrāmatā.<p><strong>Piezīme.</strong> Šī summa ir visu darījumu summa uzskaites valūtā.</p> |
 | Darbības valūta                 | Tukšs                | **$2250** – rezultāts rāda visas summas valūtā, kurā tika veikta darbība. Tas nozīmē, ka kopsumma tiek iegūta, saskaitot dažādu valūtu summas. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Kolonna Aprēķins kolonnas definīcijā
@@ -565,7 +565,7 @@ Lai saskaitītu, atņemtu, reizinātu vai dalītu kolonnu vērtības, ievadiet k
 |----------|---------------------|-------------|
 | +        | A+C                 | Pievienot summu kolonnā A summai kolonnā C. |
 | :        | A:C A:C-D           | Tiek pievienots secīgu kolonnu diapazons. Piemēram, formula **A:C** pievieno kolonnu summas no A līdz C, un formula **A:C-D** saskaita kolonnu A – C summas, un pēc tam atņem summu kolonnā D. |
-| -        | A-C                 | No kolonnas A summas tiek atņemta kolonnas C summa.<blockquote>[!NOTE] Lai kolonnā ietverto zīmi mainītu uz pretējas nozīmes zīmi, izmantojiet mīnusa zīmi (-). Piemēram, izmantojiet <strong>-A+B</strong>, lai pievienotu pretēju A kolonnas summu, B kolonnas summai.</blockquote> |
+| -        | A-C                 | No kolonnas A summas tiek atņemta kolonnas C summa.<p><strong>Piezīme.</strong> Varat izmantot arī mīnus zīmi (-), lai mainītu zīmes kolonnā. Piemēram, izmantojiet <strong>-A+B</strong>, lai pievienotu pretēju A kolonnas summu, B kolonnas summai.</p> |
 | \*       | A\*C                | Reizināt summu kolonnā A ar summu kolonnā C. |
 | /        | A/C                 | Dalīt summu kolonnā A ar summu kolonnā C. |
 

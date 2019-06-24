@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538960"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595643"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations palīdzības sistēma
 
@@ -192,7 +192,7 @@ Varat izveidot palīdz. lietotājiem, izveidojot pielāg. uzd. ceļvežus, vai s
 | [Docs.microsoft.com](/dynamics365/)                                                            | Vieso vai sniedz saites uz visu produktu dokumentāciju programmatūrai Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft bezmaksas elektroniskās apmācības vietne. |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Ir nodrošināta mākonī izvietota sadarbības darbvieta, ko debitori un partneri var izmantot, lai pārvaldītu Dynamics 365 for Finance and Operations projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Šī vietne ir noderīga visām ieviešanas fāzēm. |
-| [Atbalsta emuārs](http://aka.ms/AXSupportBlog)                                                    | Ir sniegti padomi un ieteikumi, ko ir publicējusi Dynamics 365 for Finance and Operations atbalsta darba grupa. |
+| [Atbalsta emuārs](https://aka.ms/AXSupportBlog)                                                    | Ir sniegti padomi un ieteikumi, ko ir publicējusi Dynamics 365 for Finance and Operations atbalsta darba grupa. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/)                                          | Vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Sniedz novērtējumu un pārdošanas informāciju. |

@@ -3,7 +3,7 @@ title: Mazumtirdzniecības transakciju konsekvences pārbaudītājs
 description: Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte programmā Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 05/30/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 972c4d6b244eebc85cc801353ce8fb25ecbc0655
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517117"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617324"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mazumtirdzniecības transakciju konsekvences pārbaudītājs
 
@@ -33,27 +33,38 @@ ms.locfileid: "1517117"
 
 Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte, kas ir ieviesta Microsoft Dynamics 365 for Finance and Operations versijā 8.1.3. Konsekvences pārbaudītājs identificē un izolē nekonsekventas transakcijas, pirms tās ir uzņemtas pārskatu grāmatošanas procesā.
 
-Kad pārskats tiek grāmatots programmā Retail, grāmatošana var būt nesekmīga, jo mazumtirdzniecības transakciju tabulās pastāv nekonsekventi dati. Šādu datu problēmu var būt izraisījušas neparedzētas problēmas pārdošanas punkta (point of sale — POS) programmā, kā arī tādas var rasties, ja transakcijas tika nepareizi importētas no trešās puses POS sistēmām. Tālāk ir uzskaitīti daži no šādas nekonsekvences potenciālās rašanās piemēriem. 
+Kad pārskats tiek grāmatots programmā Microsoft Dynamics 365 for Retail, grāmatošana var būt nesekmīga, jo mazumtirdzniecības transakciju tabulās pastāv nekonsekventi dati. Šādu datu kļūmi var izraisīt neparedzētas problēmas pārdošanas punkta (point of sale — POS) programmā, kā arī tā var rasties tad, ja transakcijas tiek nepareizi importētas no trešās puses POS sistēmām. Tālāk ir uzskaitīti daži no šādas nekonsekvences potenciālās rašanās piemēriem. 
 
-  - Transakcijas kopsumma virsraksta tabulā neatbilst transakcijas kopsummai rindās.
-  - Rindu skaits virsraksta tabulā neatbilst rindu skaitam transakcijas tabulā.
-  - Nodokļi virsraksta tabulā neatbilst nodokļu summai rindās. 
-  
+- Transakcijas kopsumma virsraksta tabulā neatbilst transakcijas kopsummai rindās.
+- Rindu skaits virsraksta tabulā neatbilst rindu skaitam transakcijas tabulā.
+- Nodokļi virsraksta tabulā neatbilst nodokļu summai rindās. 
+
 Kad pārskatu grāmatošanas process uzņem nekonsekventas transakcijas, tiek izveidoti nekonsekventi pārdošanas rēķini un maksājumu žurnāli, līdz ar to viss pārskata grāmatošanas process ir nesekmīgs. Lai atkoptu pārskatus no šāda stāvokļa, ir jāizmanto sarežģīti datu labojumi vairākās transakciju tabulās. Mazumtirdzniecības transakciju konsekvences pārbaudītājs neļauj šādu problēmu rašanos.
 
 Nākamajā diagrammā ir parādīts grāmatošanas process ar transakciju konsekvences pārbaudītāju.
 
 ![Pārskatu grāmatošanas process ar mazumtirdzniecības darījumu konsistences pārbaudītāju](./media/validchecker.png "Pārskatu grāmatošanas process ar mazumtirdzniecības darījumu konsistences pārbaudītāju")
 
-Pakešuzdevums **Pārbaudīt veikala transakcijas** pārbauda mazumtirdzniecības darījumu tabulu konsekvenci tālāk norādītajos scenārijos.
+Pakešveida apstrādes process **Pārbaudīt veikala transakcijas** pārbauda mazumtirdzniecības transakciju tabulu konsekvenci tālāk norādītajos scenārijos.
 
-- Debitora konts — pārliecinās, vai HQ debitoru pamatdatu mazumtirdzniecības transakciju tabulās pastāv attiecīgais debitora konts.
-- Rindu skaits — pārliecinās, vai transakciju virsrakstu tabulā norādītais rindu skaits atbilst rindu skaitam pārdošanas transakciju tabulās.
+- **Debitora konts** — pārbauda, vai attiecīgais debitora konts pastāv galvenā birojā debitoru pamatfaila mazumtirdzniecības transakciju tabulās.
+- **Rindu skaits** — pārbauda, vai transakciju virsrakstu tabulā norādītais rindu skaits atbilst pārdošanas transakciju tabulu rindu skaitam.
+- **Cenā ir iekļauts PVN** — pārbauda, vai parametrs **Cenā ir iekļauts PVN** ir saskaņots ar transakciju rindām.
+- **Bruto summa** — pārbauda, vai virsrakstā iekļautā bruto summa ir rindu neto summu summa, kam pieskaitīta nodokļu summa.
+- **Neto summa** — pārbauda, vai virsrakstā iekļautā neto summa ir rindu neto summu summa.
+- **Nepilnīgs maksājums/pārmaksa** — pārbauda, vai virsrakstā iekļautās bruto summas un maksājuma summas starpība nepārsniedz maksimālo konfigurēto nepilnīga maksājuma/pārmaksas summu.
+- **Atlaides summa** — pārbauda, vai atlaižu tabulās un mazumtirdzniecības transakciju rindu tabulās norādītās atlaides summas ir konsekventas un vai virsrakstā iekļautā atlaides summa un rindās iekļautās atlaižu summas ir konsekventas.
+- **Rindas atlaide** — pārbauda, vai transakcijas rindas atlaides summa ir visu atlaižu tabulas rindu summa, kas atbilst transakcijas rindai.
+- **Dāvanu kartes krājums** — risinājumā Retail netiek atbalstīta dāvanu karšu krājumu atgriešana. Tomēr dāvanu kartes atlikums var tikt izmaksāts skaidrā naudā. Visi tie dāvanu kartes krājumi, kas tiek apstrādāti kā atgriešanas rinda, nevis skaidras naudas izņemšanas rinda, netiek iekļauti grāmatošanas procesā. Palaižot dāvanu karšu krājumu pārbaudes procesu, tiek nodrošināts, ka mazumtirdzniecības transakciju tabulās tiek atgriezti tikai tie dāvanu karšu rindas krājumi, kuri ir dāvanu karšu skaidras naudas izmaksas rindas.
+- **Negatīva cena** — pārbauda, vai nav nevienas transakciju rindas ar negatīvu cenu.
+- **Krājums un variants** — pārbauda, vai transakcijas rindas krājumi un varianti pastāv krājumu un variantu pamatfailā.
 
 ## <a name="set-up-the-consistency-checker"></a>Konsekvences pārbaudītāja iestatīšana
-Konfigurējiet pakešuzdevumu “Validēt veikala transakcijas” regulārai izpildīšanai sadaļā **Mazumtirdzniecība \> Mazumtirdzniecības IT \> POS grāmatošana**. Pakešuzdevumu var plānot atkarībā no veikala organizācijas hierarhijas, līdzīgi kā tiek iestatīti procesi “Aprēķināt pārskatu partijā” un “Grāmatot pārskatu partijā”. Iesakām šo pakešuzdevumu konfigurēt tā, lai dienas laikā tas tiktu izpildīts vairākas reizes, un to ieplānot tā, lai tas tiktu izpildīts katras P darba izpildes beigās.
+
+Sadaļā **Mazumtirdzniecība \> Mazumtirdzniecības IT \> POS grāmatošana**, konfigurējiet pakešveida apstrādes procesu “Validēt veikala transakcijas” tā, lai tas tiktu palaists regulāri. Pakešuzdevumu var plānot atkarībā no veikala organizācijas hierarhijas, līdzīgi kā tiek iestatīti procesi “Aprēķināt pārskatu partijā” un “Grāmatot pārskatu partijā”. Iesakām šo pakešuzdevumu konfigurēt tā, lai dienas laikā tas tiktu izpildīts vairākas reizes, un to ieplānot tā, lai tas tiktu izpildīts katras P darba izpildes beigās.
 
 ## <a name="results-of-validation-process"></a>Validēšanas procesa rezultāti
+
 Šī pakešuzdevuma validēšanas pārbaudes rezultāti tiek atzīmēti atbilstošajā mazumtirdzniecības transakcijā. Lauks **Validācijas statuss** mazumtirdzniecības transakcijas ierakstā ir iestatīts uz **Sekmīgs** vai **Kļūda**, un pēdējās validēšanas izpildes datums ir redzams laukā **Pēdējās validēšanas laiks**.
 
 Lai redzētu aprakstošāku kļūdas tekstu saistībā ar validēšanas kļūmi, atlasiet attiecīgo mazumtirdzniecības veikala transakcijas ierakstu un noklikšķiniet uz pogas **Validācijas kļūdas**.

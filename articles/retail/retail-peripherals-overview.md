@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571562"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577933"
 ---
 # <a name="retail-peripherals"></a>Retail perifērijas ierīces
 
@@ -295,7 +295,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <ul>
 <li>OPOS</li>
 <li>Tīkls
-<blockquote>PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</blockquote>
+<p><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <ul>
 <li>OPOS</li>
 <li>Tīkls
-<blockquote>PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</blockquote>
+<p><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</p>
 </li>
 </ul>
 </td>
@@ -344,7 +344,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <td>OPOS</td>
 </tr>
 <tr>
-<td>Maksājumu terminālis </td>
+<td>Maksājumu terminālis</td>
 <td>
 <ul>
 <li>Pielāgotu ierīču atbalsts</li>
@@ -374,7 +374,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <ul>
 <li>OPOS</li>
 <li>Windows draiveris
-<blockquote>PIEZĪME. Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</blockquote>
+<p><strong>Piezīme.</strong> Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</p>
 </li>
 <li>Tīkls</li>
 </ul>
@@ -404,7 +404,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <ul>
 <li>OPOS</li>
 <li>Tīkls
-<blockquote>PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</blockquote>
+<p><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</p>
 </li>
 </ul>
 </td>
@@ -439,7 +439,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <td>OPOS</td>
 </tr>
 <tr>
-<td>Maksājumu terminālis </td>
+<td>Maksājumu terminālis</td>
 <td>
 <ul>
 <li>Pielāgotu ierīču atbalsts</li>
@@ -469,7 +469,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <ul>
 <li>OPOS</li>
 <li>Windows draiveris
-<blockquote>PIEZĪME. Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</blockquote>
+<p><strong>Piezīme.</strong> Attiecībā uz Windows printeriem tīklā: aparatūras stacijas lietotājam ir jābūt piešķirtai atļaujai piekļūt printerim.</p>
 </li>
 <li>Tīkls</li>
 </ul>
@@ -491,7 +491,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <ul>
 <li>OPOS</li>
 <li>Tīkls
-<blockquote>PIEZĪME. Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</blockquote>
+<p><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</p>
 </li>
 </ul>
 </td>
@@ -506,7 +506,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 </td>
 </tr>
 <tr>
-<td>Maksājumu terminālis </td>
+<td>Maksājumu terminālis</td>
 <td>
 <ul>
 <li>Pielāgotu ierīču atbalsts</li>
@@ -686,7 +686,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC apar
 |--------------|--------|-----------|-------------------------------------------------|
 | VeriFone     | 1000SE | OPOS      | Nepieciešama maksājumu savienojuma pielāgošana |
 
-#### <a name="payment-terminal"></a>Maksājumu terminālis 
+#### <a name="payment-terminal"></a>Maksājumu terminālis
 
 | Ražotājs | Modelis | Interfeiss | Komentāri                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -758,7 +758,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot atvēlēt
 |--------------|--------|-----------|-------------------------------------------------|
 | VeriFone     | 1000SE | OPOS      | Nepieciešama maksājumu savienojuma pielāgošana |
 
-#### <a name="payment-terminal"></a>Maksājumu terminālis 
+#### <a name="payment-terminal"></a>Maksājumu terminālis
 
 | Ražotājs | Modelis | Interfeiss | Komentāri                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -818,7 +818,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 | Star         | TSP650II | Pielāgot    | Tīkla savienojums     |
 | HP           | F7M67AA  | OPOS      | USB barošana               |
 
-#### <a name="payment-terminal"></a>Maksājumu terminālis 
+#### <a name="payment-terminal"></a>Maksājumu terminālis
 
 | Ražotājs | Modelis | Interfeiss | Komentāri                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -867,7 +867,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 
     - Naudas kaste
     - Kvīšu printeris
-    - Maksājumu terminālis 
+    - Maksājumu terminālis
 
     Ja perifērā ierīce nav ietverta nevienā no šīm kategorijām, aparatūras stacija nav paredzēta perifērās ierīces koplietošanai vairākās POS ierīcēs.
 

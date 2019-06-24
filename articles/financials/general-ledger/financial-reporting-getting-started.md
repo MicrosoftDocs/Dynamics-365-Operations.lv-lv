@@ -3,7 +3,7 @@ title: Finanšu pārskati
 description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 for Finance and Operations un kā lietot finanšu pārskatu izveides iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550309"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594964"
 ---
 # <a name="financial-reporting"></a>Finanšu pārskati
 
@@ -64,7 +64,7 @@ Finanšu atskaišu veidošanas funkcijas ir pieejamas lietotājiem, kam ir pieš
 
 | Privilēģijas etiķete                       | Apraksts                                                             | AOT nosaukums                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| Uzturēt finanšu pārskatu drošību | Uzturēt finanšu atskaišu drošību un veikt administratīvos uzdevumus. | FinancialReportsSecurityMaintain |
+| Uzturēt finanšu pārskatu drošību | Uzturēt finanšu atskaišu drošību un veikt administratīvos uzdevumus. | FinancialReportsSecuritySystemMaintain |
 | Uzturēt finanšu pārskatus            | Projektēt un uzturēt finanšu atskaites.                                  | FinancialReportsMaintainReports  |
 | Ģenerēt finanšu pārskatus            | Ģenerēt un atsvaidzināt finanšu atskaites.                                 | FinancialReportsGenerateReports  |
 | Skatīt finanšu pārskatus                | Skatīt finanšu atskaites.                                                 | FinancialReportsView             |

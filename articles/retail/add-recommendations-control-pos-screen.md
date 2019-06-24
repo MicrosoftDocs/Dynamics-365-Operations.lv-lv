@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573376"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606853"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam
 
@@ -40,13 +40,13 @@ Ja izmantojat programmu Microsoft Dynamics 365 for Retail, varat parādīt preč
 ## <a name="open-layout-designer"></a>Atvērt izkārtojuma dizaineru
 
 1. Pārejiet uz sadaļu **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
-2. Izmantojiet ātro filtru, lai atrastu ekrānu, kuram vēlaties pievienot šo vadīklu. Piemēram, filtrējiet pēc lauka **Ekrāna izkārtojuma ID**, izmantojot vērtību “F2CP16:9M”.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Piemēram, atlasiet “Nosaukums: F2CP16:9M Ekrāna izkārtojuma ID: F2CP16:9M”.
+2. Izmantojiet ātro filtru, lai atrastu ekrānu, kuram vēlaties pievienot šo vadīklu. Piemēram, filtrējiet pēc lauka **Ekrāna izkārtojuma ID**, izmantojot vērtību **F2CP16:9M**.
+3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Piemēram, atlasiet **Nosaukums: F2CP16:9M Ekrāna izkārtojuma ID: F2CP16:9M**.
 4. Noklikšķiniet uz **Izkārtojuma dizainers**.
 5. Izpildiet uzvednēs sniegtos norādījumus, lai palaistu izkārtojuma dizaineru. Kad tiek prasīti akreditācijas dati, ievadiet tos pašus akreditācijas datus, kurus izmantojāt, kad izkārtojuma dizainers tika palaists no lapas **Ekrāna izkārtojumi**.
 6. Kad esat pieteicies, tiek parādīta tālāk redzamajai lapai līdzīga lapa. Izkārtojums atšķiras atkarībā no jūsu veikalam veiktajiem pielāgojumiem.
 
-    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Izkārtojuma veidotājs](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Attēlojuma opcijas izvēle
 
@@ -59,11 +59,11 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
 1. Samaziniet transakcijas rindu informācijas apgabala augstumu, lai tas būtu vienāds ar debitora paneli kreisajā pusē.
 
-    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Transakcijas rindu informācijas apgabala augstums ir samazināts](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. No kreisajā pusē esošās izvēlnes velciet un nometiet ieteikumu vadīklu apgabalā starp transakcijas rindas informāciju un pogu režģi transakcijas ekrāna apakšēja vidusdaļā. Mainiet vadīklas izmērus, lai tā ietilptu šajā laukumā.
 
-    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Izkārtojumam ir pievienota ieteikumu vadīkla](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.
 4. Programmā Dynamics 365 for Retail pārejiet uz sadaļu **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiki**.
@@ -75,13 +75,13 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 1. Ar peles labo pogu noklikšķiniet uz tukšā laukuma zem pēdējās cilnes pogu režģī, kurš atrodas lapas labajā pusē.
 2. Noklikšķiniet uz **Pielāgot**.
 
-    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+    [![Pielāgošana — cilnes vadīklas dialoglodziņš](./media/pic-5.png)](./media/pic-5.png)
 
 3. Noklikšķiniet uz **Jauna cilne**.
 4. Atrodiet jauno cilni, kuru tikko pievienojāt. Iespējams, ir jāritina uz leju.
 5. Nolaižamajā sarakstā **Saturs** atlasiet vienumu **Ieteicamās preces**.
 
-    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+    [![Ieteikto preču atlasīšana laukā Saturs](./media/pic-6.png)](./media/pic-6.png)
 
 6. Laukā **Etiķete** ierakstiet ieteikumu cilnes nosaukumu. Ierakstiet, piemēram, “Ieteiktās preces”.
 7. Laukā **Attēls** atlasiet attēlu, kas ir jārāda šajā cilnē.

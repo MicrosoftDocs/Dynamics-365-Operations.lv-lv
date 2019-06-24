@@ -3,7 +3,7 @@ title: Darbu publicēšana ārējās karjeras vietnēs no pakalpojuma Attract
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 for Talent - Attract, lai publicētu darbus ārējās personāla atlases vietnēs
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518563"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590486"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Darbu publicēšana ārējās karjeras vietnēs no pakalpojuma Attract
 
@@ -36,6 +36,7 @@ Lai varētu publicēt darbus vietnē Broadbean, vispirms ir jākonfigurē Broadb
 
 > [!NOTE]
 > - Lai publicētu darbus ārējās vietnēs, ir nepieciešama [visaptveroša nolīgšanas pievienojumprogramma](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Lai grāmatotu darbus programmatūrā Broadbean, izmantojot Attract, jums ir nepieciešams Broadbean abonements.
 > - Šis līdzeklis pašreiz ir priekšskatījumā. Ja vēlaties to izmēģināt, jums [tā ir jāieslēdz pakalpojuma Attract administratora iestatījumos](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Broadbean integrācijas konfigurēšana

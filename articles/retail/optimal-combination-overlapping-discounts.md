@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e327f652855f898e50f1dd853ae20f3a0ff41d9e
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565000"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606999"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimālās pārklāto atlaižu kombinācijas noteikšana
 
@@ -42,11 +42,11 @@ Vienai preču kopai varat izveidot neierobežotu skaitu mazumtirdzniecības atla
 
 Šī piemēra ietvaros, lai varētu saņemt katru atlaidi, ir nepieciešamas divas preces, un atlaides nevar kombinēt. Piemēra ietvaros izmantoto atlaižu veids ir **Labākā cena**. Abas preces ir piemērotas abām atlaidēm. Tālāk ir norādītas abas atlaides.
 
-![Pārklāto atlaižu kombinācija 01](./media/overlapping-discount-combo-01.jpg)
+![Divu labāko cenas atlaižu piemērs](./media/overlapping-discount-combo-01.jpg)
 
 Jebkurām divām precēm labākā no šīm divām atlaidēm ir atkarīga no abu preču cenas. Ja abu preču cenas ir vienādas vai gandrīz vienādas, 1. atlaide ir labāka. Ja vienas preces cena ir daudz mazāka par otras preces cenu, 2. atlaide ir labāka. Lūk, matemātiskā kārtula šo divu atlaižu savstarpējai novērtēšanai.
 
-![Pārklāto atlaižu kombinācija 02](./media/overlapping-discount-combo-02.jpg)
+![Kārtula atlaižu novērtēšanai](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Kad 1. preces cena ir vienāda ar divām trešdaļām no 2. preces cenas, tad abas atlaides ir vienādas. Šī piemēra ietvaros 1. atlaides faktiskā procentuālā vērtība mainās diapazonā no dažiem procentiem (ja abu preču cenas ļoti atšķiras) līdz 25 procentiem (ja abu preču cenas ir vienādas). 2. atlaides faktiskā procentuālā vērtība ir nemainīga. Tā vienmēr ir 20 procenti. Tā kā 1. atlaides faktiskā procentuālā vērtība var būt lielāka vai mazāka nekā 2. atlaide, tas, labākā atlaide ir atkarīga no abu preču cenas pirms atlaides lietošanas. Šī piemēra ietvaros aprēķinu var veikt ātri, jo tiek lietotas tikai divas atlaides un tikai divām precēm. Pastāv tikai divas iespējamās kombinācijas: viens 1. atlaides lietojums vai viens 2. atlaides lietojums. Nav jāaprēķina nekādas permutācijas. Katras atlaides vērtība tiek aprēķināta, izmantojot abas preces, un tiek lietota labākā atlaide.
@@ -60,11 +60,11 @@ Turpinājumā tiek lietotas četras preces un tās pašas divas atlaides. Visas 
 
 Lai nolasītu tabulās sniegto informāciju, izmantojiet vienu preci no rindas un vienu preci no kolonnas. Piemēram, 1. atlaides tabulā, kombinējot divas preces ar cenu $ 20, iegūstat atlaidi $ 10. 2. atlaides tabulā, kombinējot preci ar cenu $ 15 un preci ar cenu $ 5, iegūstat atlaidi $ 4.
 
-![Pārklāto atlaižu kombinācija 03](./media/overlapping-discount-combo-03.jpg)
+![Piemērs, kur ir izmantotas četras preces tām pašam divām atlaidēm](./media/overlapping-discount-combo-03.jpg)
 
 Vispirms ir jānosaka vislielākā atlaide, ko var iegūt jebkurām divām precēm, lietojot jebkuru atlaidi. Divās tabulās ir norādītas atlaides summas visām divi preču kombinācijām. Tabulu kopējās daļas atbilst gadījumiem, kad prece tiek kombinēta pati ar sevi, kas nav iespējams, vai divu preču apgrieztajai kombinēšanai, kas rada tādu pašu atlaides summu un ko var ignorēt. Aplūkojot tabulas, varat konstatēt, ka 1. atlaide divām precēm ar cenu $ 20 ir lielākā atlaide, kas ir pieejama, lietojot jebkuru atlaidi visām četrām precēm. (Šī atlaide pirmajā tabulā ir iezīmēta zaļā krāsā.) Tādējādi atliek tikai prece ar cenu $ 15 un prece ar cenu $ 5. Vēlreiz aplūkojot abas tabulas, varat konstatēt, ka, šīm divām precēm lietojot 1. atlaidi, tiek iegūta atlaide $ 2,50, bet, tām lietojot 2. atlaidi, tiek iegūta atlaide $ 4. Tāpēc tiek izvēlēta 2. atlaide. Kopējā atlaide ir $ 14. Lai atvieglotu šī piemēra vizualizēšanu, tālāk ir sniegtas divas papildu tabulas, kurās ir redzamas visu iespējamo divu preču kombināciju faktiskās atlaides procentuālās vērtības gan 1., gan 2. atlaidei. Ir ietverta tikai puse no kombināciju saraksta, jo šīm divām atlaidēm nav svarīgi, kādā secībā abām precēm tiek lietota atlaide. Lielākā faktiskā atlaide (25 procenti) ir iezīmēta zaļā krāsā, un mazākā faktiskā atlaide (10 procenti) ir iezīmēta sarkanā krāsā.
 
-![Pārklāto atlaižu kombinācija 04](./media/overlapping-discount-combo-04.jpg)
+![Faktiskās atlaides procentuālais daudzums visām divu preču kombinācijām abām atlaidēm](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Ja cenas atšķiras un ir jāsalīdzina divas atlaides vai vairāk, vienīgais veids, kā garantēt vislabākās atlaižu kombinācijas izvēli, ir novērtēt abas atlaides un tās salīdzināt.
@@ -73,7 +73,7 @@ Vispirms ir jānosaka vislielākā atlaide, ko var iegūt jebkurām divām prec�
 
 Šajā sadaļā tiek turpināts iepriekšējā sadaļā apskatītais piemērs. Tiek pievienotas papildu preces un vēl viena atlaide un noteikts, cik daudz kombināciju ir jāaprēķina un jāsalīdzina. Tālāk esošajā tabulā ir norādīts iespējamo atlaižu kombināciju skaits atbilstoši preču daudzuma palielinājumam. Tabulā ir atainots divu pārklātu atlaižu gadījums, kā tas ir aprakstīts iepriekšējā piemērā, fan trīs pārklātu atlaižu gadījums. Novērtējamo iespējamo atlaižu kombināciju skaits drīz vien kļūst tik liels, ka pat ātrdarbīgs dators nespēj veikt aprēķinu un salīdzinājumu tik ātri, cik ir vajadzīgs, strādājot ar mazumtirdzniecības transakcijām.
 
-![Pārklāto atlaižu kombinācija 05](./media/overlapping-discount-combo-05.jpg)
+![Iespējamo atlaižu kombināciju skaits, palielinoties preču daudzumam](./media/overlapping-discount-combo-05.jpg)
 
 Ja tiek lietots vēl lielāks daudzums vai vēl vairāk pārklāto atlaižu, tad kopējais iespējamo atlaižu kombināciju skaits drīz vien sasniedz miljonus, un kombināciju novērtēšanai un vislabākās iespējamās kombinācijas izvēlei drīz vien ir vajadzīgs daudz ilgāks laiks. Mazumtirdzniecības cenas noteikšanas programmā ir veiktas dažas optimizācijas, lai samazinātu novērtējamo kombināciju skaitu. Taču, tā kā pārklāto atlaižu skaits un transakcijās ietvertais daudzums nav ierobežots, vienmēr, kad pastāv pārklātās atlaides, ir jānovērtē ļoti daudz kombināciju. Šo problēmu palīdz novērst robežvērtības ranžēšanas metode.
 
@@ -81,6 +81,6 @@ Ja tiek lietots vēl lielāks daudzums vai vēl vairāk pārklāto atlaižu, tad
 
 Lai novērstu eksponenciāli pieaugošā novērtējamo kombināciju daudzuma problēmu, ir pieejama optimizācijas metode, kas nodrošina katras atlaides vērtības aprēķināšanu katrai kopīgajai precei preču kopā, kurai var lietot divas atlaides vai vairāk. Šī vērtība tiek dēvēta par kopīgo preču atlaides **robežvērtību**. Robežvērtība ir vidējais kopējās atlaides summas palielinājums katrai precei, lietojot kopīgajām precēm katru atlaidi. Robežvērtība tiek aprēķināta, aprēķinot kopējo atlaides summu (DTotal), atņemot atlaides summu bez kopīgajām precēm (DMinus\\ Shared) un dalot iegūto starpību ar kopīgo preču skaitu (ProductsShared).
 
-![Pārklāto atlaižu kombinācija 06](./media/overlapping-discount-combo-06.jpg)
+![Formula robežvērtības aprēķināšanai](./media/overlapping-discount-combo-06.jpg)
 
 Kad ir aprēķināta katras atlaides robežvērtība kopīgo preču kopā, tad kopīgajām precēm tiek lietotas visas atlaides secībā no lielākās robežvērtības līdz mazākajai robežvērtībai. Šīs metodes ietvaros ikreiz pēc atsevišķas atlaides instances lietošanas netiek salīdzinātas visas atlikušās atlaižu iespējas. Tā vietā tiek vienu reizi salīdzinātas pārklātās atlaides, kas pēc tam tiek lietotas noteiktajā secībā. Netiek veikta papildu salīdzināšana. Sliekšņvērtību programmatūras pārslēgšanai uz robežvērtības metodi varat konfigurēt lapas **Mazumtirdzniecības parametri** cilnē **Atlaide**. Pieņemamais kopējās atlaides parēķina laiks atšķirtas dažādās mazumtirdzniecības nozarēs. Taču parasti šis laiks ir no dažiem desmitiem milisekunžu līdz vienai sekundei.

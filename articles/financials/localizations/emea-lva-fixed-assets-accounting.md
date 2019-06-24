@@ -18,12 +18,12 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6ef74ff932acbc6a1f1d10a53d41e9ff27f40283
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d66f1f02377429f0cf9cea48c0ed939e194ecbfb
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538163"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549066"
 ---
 # <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
 

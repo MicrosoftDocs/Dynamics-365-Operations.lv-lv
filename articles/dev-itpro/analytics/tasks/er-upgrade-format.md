@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544453"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595444"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju
 
@@ -36,7 +36,7 @@ Lai veiktu šīs darbības, vispirms jāveic darbības procedūrās "Izveidot ko
 
 ## <a name="select-format-configuration-for-customization"></a>Atlasiet formāta konfigurāciju pielāgošanai
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Šajā piemērā parauga uzņēmums “Litware, Inc.” (http://www.litware.com) ir konfigurācijas nodrošinātājs, kas atbalsta formāta konfigurācijas elektroniskajiem maksājumiem attiecībā uz konkrētu valsti.    Parauga uzņēmums “Proseware, Inc.” (http://www.proseware.com) darbosies kā “Litware, Inc.” nodrošinātās formāta konfigurācijas patērētājs. Proseware, Inc. izmanto formātus noteiktos attiecīgās valsts reģionos.  
+    * Šajā piemērā parauga uzņēmums “Litware, Inc.” (https://www.litware.com) ir konfigurācijas nodrošinātājs, kas atbalsta formāta konfigurācijas elektroniskajiem maksājumiem attiecībā uz konkrētu valsti.    Parauga uzņēmums “Proseware, Inc.” (http://www.proseware.com) darbosies kā “Litware, Inc.” nodrošinātās formāta konfigurācijas patērētājs. Proseware, Inc. izmanto formātus noteiktos attiecīgās valsts reģionos.  
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
 3. Noklikšķiniet uz Rādīt filtrus.
 4. Lietojiet šādus filtrus: Ievadiet “BAKS (UK fiktīvs)” filtra vērtību laukā “Nosaukums”, izmantojot filtra operatoru “sākas ar”

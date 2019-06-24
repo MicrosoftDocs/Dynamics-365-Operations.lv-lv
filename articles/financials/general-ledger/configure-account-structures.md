@@ -3,7 +3,7 @@ title: Kontu struktūru konfigurēšana
 description: Šajā tēmā ir sniegta informācija par kontu struktūrām un finanšu dimensijām.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552014"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617300"
 ---
 # <a name="configure-account-structures"></a>Kontu struktūru konfigurēšana
 
@@ -70,6 +70,16 @@ Sadaļa **Informācija par atļautajām vērtībām** jūs vada caur izveidošan
 
 [![Atļaut vērtības](./media/account.png)](./media/account.png) 
 
+Atļautās vērtības mainās uz noklusējuma vērtībām žurnāla vai uzskaites sadales ieraksta lapā, ja atbilstoši konta struktūras iestatījumam nav citu iespējamo vērtību, ko atlasīt.
+
+Tālāk ir parādīts struktūras **Peļņas un zaudējumu konta struktūra** piemērs.
+
+|Galvenais konts          | Biznesa vienība    |Nodaļa          | Izmaksu centrs    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Ievadot žurnālu un atlasot kontu peļņas un zaudējumu diapazonā, biznesa vienības “002” atlasīšana izraisīs vērtības 022 un 014 mainīšanos uz noklusējuma vērtībām konta kontrolē. Šī uzvedība notiks arī uzskaites sadales lapā. 
+
 ## <a name="more-than-7-criteria-needed"></a>Ir nepieciešams vairāk par 7 kritērijiem
 
 Ja jums ir jāizmanto vairāk par 7 kritērijiem, varat turpināt, pievienojot tos nākamajā rindā. Strādājot sadaļā **Informācija par atļautajām vērtībām**, varat pamanīt, ka pēc septītā kritērija ievadīšanas kritēriji **+Pievienot jaunu** vairs nav aktīvi. To izraisa daudzi faktori, piemēram, tālāk norādītie. 
@@ -80,9 +90,7 @@ Ja jums ir jāizmanto vairāk par 7 kritērijiem, varat turpināt, pievienojot 
  
 Lai turpinātu pievienot papildu kritērijus, noklikšķiniet uz **Dublēt segmentā** un **Atļauto vērtību sadaļa**. Tādējādi kritēriji tiek kopēti jaunā rindā. Pēc tam varat tos pārrakstīt vai modificēt sadaļu **Informācija par atļautajām vērtībām**.
 
-(SAITE UZ VIDEO, KAS TIKS IZVEIDOTS)
-
-## <a name="best-practices"></a>Labākā prakse
+## <a name="best-practices"></a>Noteikumi
 Iestatot kontu struktūras, varat ievērot dažas labākās prakses. Taču tās ir tikai vadlīnijas, tādēļ daļu no šīs diskusijas ir jāveido visaptverošai apspriešanai par jūsu uzņēmumu, izaugsmes plānu un uzturēšanas plānu.
 
 - Galveno kontu izveidojiet kā pirmo vai pēc iespējas tuvāk konta struktūras sākumam, lai konta ievadīšanas laikā lietotāji saņemtu pēc iespējas labāku vadīto funkcionalitāti.

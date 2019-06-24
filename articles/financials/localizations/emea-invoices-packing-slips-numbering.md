@@ -17,12 +17,12 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0650bbcd51397ce3eade895bfcafff7a2a59518
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2dfd1a1c9574083f33a3312a20a9910d2ed6895c
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538168"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566714"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 

@@ -3,7 +3,7 @@ title: Bankas ārvalstu valūtas pārvērtēšana
 description: Šajā tēmā ir sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir ietverta informācija par iestatīšanu, procesa izpildi, procesa aprēķināšanu un pārvērtēšanas darbību anulēšanu.
 author: mikefalkner
 manager: AnnBe
-ms.date: 04/16/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 353153a3a5cbcb27749f21582fcf83ac4f3a8f36
+ms.sourcegitcommit: 56ec43e459ba93f495bc76fed23d6737218ef37e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538636"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "1591764"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Bankas ārvalstu valūtas pārvērtēšana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
+
 
 Šajā tēmā ir sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir izskaidrots, kā iestatīt un izpildīt procesu, un sniegta informācija par procesa aprēķināšanu. Tajā arī izskaidrots, kā anulēt pārvērtēšanas transakcijas, ja anulēšana ir nepieciešama.
 

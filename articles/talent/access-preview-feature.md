@@ -1,9 +1,9 @@
 ---
-title: Piekļuve priekšskatījuma līdzekļiem programmā Talent
-description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus, un tajā ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
+title: Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 for Talent
+description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus programmā Microsoft Dynamics 365 for Talent, un ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
 author: tracykeya
 manager: AnnBe
-ms.date: 04/29/2019
+ms.date: 05/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,77 +18,105 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2858451435c358380503c8edc5cb162e6834894a
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518594"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620600"
 ---
 # <a name="access-preview-features-in-talent"></a>Piekļuve priekšskatījuma līdzekļiem programmā Talent
 
 [!include[banner](../includes/banner.md)]
 
-Pastāvīgi izstrādājot jaunas mūsu produktu iespējas, mēs vēlamies piedāvāt klientiem jaunus līdzekļus pēc iespējas ātrāk. Administratori var skatīt un izmantot priekšskatījuma līdzekļus savās vidēs. Šie līdzekļi ir gandrīz gatavi vispārīgai pieejai un ir tikuši plaši testētas. Mēs vēlamies veikt pēdējo posmu, saņemot klientu atsauksmes un validāciju, pirms līdzekļi tiek vispārīgi laisti klajā.
+Programmā Microsoft Dynamics 365 for Talent mēs pastāvīgi ieviešam jaunas cilvēkkapitāla pārvaldības (human capital management — HCM) iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Administratori var skatīt un izmantot priekšskatījuma līdzekļus savās vidēs. Šie līdzekļi ir gandrīz gatavi vispārīgai pieejai un ir tikuši plaši testētas. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
 
-Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus, un tajā ir uzskaitīti līdzekļi, kas pašlaik ir pieejami priekšskatījumam. Šis saraksts tiks atjaunināts, laižot klajā līdzekļus vispārīgai lietošanai un laižot klajā jaunus līdzekļus priekškatīšanai. Par jaunu līdzekļu piedāvāšanu priekšskatījumam netiek sniegts paziņojums. Lietotāji vienkārši sāks redzēt jaunus līdzekļus.
+Šajā tēmā ir aprakstīts, kā jūs varat iespējot priekšskatījuma līdzekļus, un ir uzskaitīti līdzekļi, kas pašlaik ir pieejami priekšskatījumam. Šis saraksts tiks atjaunināts, laižot klajā līdzekļus vispārīgai lietošanai un laižot klajā jaunus līdzekļus priekškatīšanai. Par jaunu līdzekļu piedāvāšanu priekšskatījumam netiek sniegts paziņojums. Lietotāji vienkārši sāks redzēt jaunus līdzekļus. Plašāku informāciju par jaunajiem līdzekļiem programmā Talent skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent](./whats-new.md) un [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Priekšskatījuma līdzekļu iespējošana vai atspējošana
 
-Varat izmantot iestatījumu **Priekšskatījuma līdzekļi** Dynamics 365 for Talent administratoru centrā, lai iespējotu vai atspējotu priekšskatījuma līdzekļus. Pēc noklusējuma iestatījums ir izslēgts. Līdzekļu priekšskatījuma iespējošanas vai atspējošanas darbība atkarīga no vides.
+Lai piekļūtu priekšskatījuma līdzekļiem, jums vispirms tie ir jāiespējo savā vidē. Priekšskatījuma līdzekļu iespējošana un atspējošana ir atkarīga no vides.
 
 > [!IMPORTANT]
-> Ieslēdzot iestatījumu **Priekšskatījuma līdzekļi**, tie tiek iespējoti visiem lietotājiem jūsu organizācijā, kas ir tajā vidē. Izslēdzot šo iestatījumu, priekšskatījuma līdzekļi tiek atspējoti un kļūst nepieejami jūsu lietotājiem. Priekšskatījuma līdzekļiem ir ierobežots atbalsts pakalpojumā Talent. Tiem var izmantot mazāk privātuma un drošības pasākumu, un tie nav ietverti Talent pakalpojumu līmeņa līgumā. Jūs nedrīkstat lietot priekšskatījuma līdzekļus, lai apstrādātu personas datus (t.i., jebkura informācija, kas varētu identificēt jūs) vai apstrādāt citus datus, uz ko attiecas juridiskas vai normatīvas atbilstības prasības.
+> Kad ieslēdzat iestatījumu **Priekšskatījuma līdzekļi**, jūs iespējojat priekšskatījuma līdzekļus visiem lietotājiem savā organizācijā, kas atrodas attiecīgajā vidē. Kad izslēdzat šo iestatījumu, jūs atspējojat priekšskatījuma līdzekļus un padarāt tos nepieejamus saviem lietotājiem. Priekšskatījuma līdzekļiem ir ierobežots atbalsts pakalpojumā Talent. Tie, iespējams, izmanto mazāk privātuma un drošības pasākumu, un tie nav ietverti Talent pakalpojumu līmeņa līgumā (Service Level Agreement — SLA). Jūs nedrīkstat lietot priekšskatījuma līdzekļus, lai apstrādātu personas datus (t.i., jebkura informācija, kas varētu identificēt jūs) vai apstrādāt citus datus, uz ko attiecas juridiskas vai normatīvas atbilstības prasības.
 
-### <a name="enable-or-disable-preview-features-for-your-organization"></a>Priekšskatījuma līdzekļu iespējošana vai atspējošana jūsu organizācijai
-
-#### <a name="attract"></a>Piesaiste
+### <a name="attract"></a>Piesaiste
 
 1. Pierakstieties programmā Microsoft Dynamics 365 for Talent: Attract.
-2. Izvēlnē **Iestatīšana** (zobrata simbols) augšējā labajā stūrī atlasiet **Administratora iestatījumi**.
-3. Cilnē **Līdzekļu pārvaldība** atlasiet opciju blakus **Priekšskatījuma līdzekļi**, tā kļūst zila.
-4. Varat arī kontrolēt atsevišķus līdzekļus, šajā lapā iespējojot/atspējojot noteiktus līdzekļus.
-5. Atsvaidziniet pārlūku, lai sāktu redzēt jaunos līdzekļus. (Lietotāji, kas jau pieteikušies, redzēs līdzekļus nākamajā reizē, kad viņi pieteiksies, vai viņi var atsvaidzināt savu pārlūku, lai redzētu līdzekļus nekavējoties.)
+2. Augšējā labajā stūrī, izvēlnē **Iestatīšana** (zobrata simbols) atlasiet **Administrēšanas centrs**.
+3. Cilnē **Līdzekļu pārvaldība** atlasiet opciju blakus vienumam **Priekšskatījuma līdzekļi**, lai tā kļūtu zila un rādītu uzrakstu **Ieslēgts**.
 
-#### <a name="core-hr"></a>Core HR
+    ![Priekšskatījuma līdzekļu iespējošana programmā Attract](./media/attract-enable-preview-features.png)
 
-1. Pierakstieties Talent. Tiks atvērta pamata personāla vadības darbvieta, kurā izpildīsiet atlikušās darbības. 
-2. Atlasiet **Sistēmas administrēšana \> Links sistēmas parametri**.
-3. **Sistēmas parametru lapā** cilnē **Priekšskatījuma līdzekļi** iestatiet opciju **Iespējot priekšskatījuma režīmu visiem lietotajiem** kā **Jā**, lai padarītu priekšskatījuma līdzekļus pieejamus.
+4. Atlasiet vai atceliet atsevišķu priekšskatījuma līdzekļu atlasi. Ja neko nemaināt, ir iespējoti visi pieejamie priekšskatījuma līdzekļi.
+5. Atsvaidziniet pārlūku, lai sāktu redzēt jaunos līdzekļus. Visi lietotāji, kas jau ir pierakstījušies, redzēs šos līdzekļus nākamajā reizē, kad viņi pierakstīsies, vai viņi var atsvaidzināt savu pārlūku, lai šos līdzekļus redzētu nekavējoties.
 
 > [!NOTE]
-> Priekšskatījuma līdzekļu atspējošanai izmantojiet šīs pašas pamata darbības. Kad atspējojat priekšskatījuma līdzekļus, tie kļūst nepieejami jūsu lietotājiem un procesos, kas ir saistīti ar līdzekļiem, var rasties kļūdas.
+> Dažiem priekšskatījuma līdzekļiem varētu būt nepieciešama papildu konfigurēšana. Lai pabeigtu attiecīgo iestatīšanu, izmantojiet priekšskatījuma līdzeklim blakus esošās saites.
+
+### <a name="core-hr"></a>Core HR
+
+1. Pierakstieties Talent.
+2. Atlasiet **Sistēmas administrēšana** un pēc tam atlasiet cilni **Saites**.
+3. Lapas **Sistēmas administrēšana** sadaļā **Iestatīšana** atlasiet **Sistēmas parametri**.
+4. Lapā **Sistēmas parametri** atlasiet cilni **Priekšskatījuma līdzekļi**.
+5. Opcijai **Iespējot priekšskatījuma režīmu visiem lietotajiem** iestatiet vērtību **Jā**, lai priekšskatījuma līdzekļi kļūtu pieejami.
+
+    ![Priekšskatījuma līdzekļu iespējošana programmā Core HR](./media/corehr-enable-preview-features.png)
+
+> [!NOTE]
+> Lai atspējotu priekšskatījuma līdzekļus, izmantojiet tās pašas darbības, tikai opcijai **Iespējot priekšskatījuma režīmu visiem lietotajiem** iestatiet vērtību **Nē**. Kad atspējojat priekšskatījuma līdzekļus, tie kļūst nepieejami jūsu lietotājiem un procesos, kas ir saistīti ar līdzekļiem, var rasties kļūdas.
+
+### <a name="onboard"></a>Pievienošana
+
+Programmai Microsoft Dynamics 365 for Talent: Onboard pašlaik nav pieejams neviens priekšskatījuma līdzeklis.
 
 ## <a name="features-that-are-currently-in-preview"></a>Līdzekļi, kas pašreiz ir priekšskatījumā
 
 ### <a name="attract"></a>Piesaiste
 
-- **Vakancei piemērotie kandidāti** — personāla atlases darbinieki un par pieņemšanu darbā atbildīgie vadītāji var viegli uzzināt, kuri no visiem kandidātiem, iespējams, ir vispiemērotākie konkrētajai vakancei. Tiek parādīti 5 piemērotākie kandidāti, kas ir noteikti, pamatojoties uz viņu CV/profila piemērotību konkrētajai vakancei.
-- **Piemērotās vakances** — tagad kandidātiem tiek rādīts citu viņiem piemēroto vakanču saraksts, kas ir izveidots, pamatojoties uz viņu CV/profilu un pienākumu aprakstu.  Pašlaik šī informācija tiek rādīta kandidātiem pēc pieteikšanās, lai ieteiktu viņiem citas iespējas.
-- **EEO/OFCCP atbalsts** — jauni darbību veidi sniedz iespēju izmantot iepriekš definētu veidlapu, lai no kandidāta vāktu vienlīdzīgu darba iespēju (Equal Employment Opportunity — EEO) un federālo līgumu atbilstības programmu iestādes (Office of Federal Contract Compliance Programs — OFCCP) datus.  Tā ir iepriekš definēta veidlapa, ko nevar rediģēt.
-
-    > [!NOTE]
-    > Publicētās vakances ir redzamas tikai klientiem, kas abonējuši vienu vai vairākus LinkedIn vakanču publicēšanas produktus. Pretējā gadījumā klienti redzēs vakanci tikai tad, ja viņi to konkrēti meklē. Kad vakances publicē LinkedIn, ir aizkave. Pēc publicēšanas Attract vakance var parādīties pēc vairākām stundām.
-
-- **Kandidāta pieteikšanās** — iekšējie un ārējie kandidāti tagad var pieteikties tieši no vakanču lapas karjeras vietnē.
-- **Piedāvājumu pārvaldība** — lietotāji tagad var izveidot piedāvājumu vēstules no veidnēm, kas ietver vietturus. Kad kandidāts nokļūst piedāvājuma posmā, darbā pieņēmēji un vadītāji var izmantot piedāvājuma rīku, lai sagatavotu oficiālo piedāvājumu kandidātam, izmantojot veidnes, sūtīt piedāvājumu iekšējai apstiprināšanai un nosūtīt piedāvājumu kandidātam parakstīšanai. Laika gaitā piedāvājuma rīkam tiks pievienotas jaunas funkcijas, un priekšskatījuma līdzeklis tiks atjaunināts ar tām, tiklīdz tās būs gatavas laišanai klajā priekšskatījumam.
-- **[Analīzes pārskati](analytic-reports.md)**  — par pieņemšanu darbā atbildīgās grupas var skatīt atsevišķa darba galvenos rādītājus, izmantojot pārskatus Darba analīze, vai apkopotus rādītājus par visiem darbiem pārskatos Analīzes centrmezgls.
+- [Kandidāta ieteikums](./intelligent-recommendations.md#candidate-recommendations) — ja vairāk par desmit kandidātiem ir CV vai aizpildīti profili, darba prasībām vislabāk atbilstošie kandidāti tiek rādīti šī darba lapas sadaļā **Apsveramie kandidāti**.
+- [Darba ieteikums](./intelligent-recommendations.md#job-recommendations) — ja jūsu karjeras vietnē ir publicēts vairāk par desmit darbiem, Attract potenciālajiem kandidātiem sniedz darba ieteikumus.
+- [Broadbean integrācija](./posting-jobs-external.md#post-jobs-to-broadbean) — darbus no Attract varat publicēt ārējā darbu publicēšanas vietnē Broadbean. Kad esat iespējojis šo priekšskatījuma līdzekli, jums ir jāizpilda iestatīšana, ievadot savu Broadbean lietotājvārdu, klienta ID un šifrēšanas marķieri.
+- [Analīze](./analytic-reports.md) — šajā analīzes centrmezglā par pieņemšanu darbā atbildīgās grupas var apskatīt galvenos rādītājus atsevišķam darbam, kā arī apkopotus rādītājus visiem darbiem.
+- [EEO](./activities-attract.md) — jauni aktivitāšu tipi ļauj jums izmantot iepriekš definētu formu, lai no kandidāta vāktu vienlīdzīgu darba iespēju (Equal Employment Opportunity — EEO) un federālo līgumu atbilstības programmu iestādes (Office of Federal Contract Compliance Program — OFCCP) datus. Iepriekš definēto formu nevar rediģēt.
+- [Potenciālā kandidāta ieteikums](./intelligent-recommendations.md#prospect-recommendations) — Attract pārskata iepriekšējos un pašreizējos kandidātus, lai sniegtu sarakstu ar potenciālajiem kandidātiem, kuri atbilst jūsu darbam.
+- [Atbilstības meklēšana](./attract-talent-pools.md#search-and-view-candidate-profiles) — varat pārmeklēt visu savu kandidātu datu bāzi, lai atrastu konkrētas prasmes, nosaukumus vai izglītību. Attract meklē visā profilā un izceļ visas atrastās atbilstības. Attract meklē arī visos dokumentos, kas ir pieejami par kādu kandidātu, un viedi sakārto meklēšanas rezultātus.
+- [Aktivitātes auditorija](./whats-new-talent-march-20.md#setting-the-audience-on-activities) — aktivitātēm (piemēram, Intervija, Grafiks vai Atsauksmes) varat iestatīt auditoriju uz **Visi kandidāti**, **Iekšējie kandidāti** vai **Ārējie kandidāti**. Pielāgotās aktivitātes, piemēram, YouTube videoklipus, tīmekļa saturu un Microsoft Forms, varat piegādāt visiem kandidātiem, tikai iekšējiem kandidātiem, tikai ārējiem kandidātiem vai par pieņemšanu darbā atbildīgajai darba grupai.
+- [Pieteikšanās, izmantojot LinkedIn](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles) — savā Attract karjeras vietnē varat iestatīt opciju, lai ļautu darba kandidātiem pieteikties, izmantojot pakalpojumu LinkedIn. Šis līdzeklis racionalizē pieteikšanās procesu jūsu kandidātiem, ļaujot viņiem izmantot savu LinkedIn profilu, lai jūsu karjeras vietnē aizpildītu savus pieteikumus automātiski.
+- [Avota izsekošana](./source-tracking.md) — Attract izpēta, kāds ir kandidātu pieteikumu avots, lai sniegtu vērtīgu informāciju, kas var palīdzēt jums labāk virzīt savas darbā pieņemšanas aktivitātes. Pieteikuma avotu varat arī atlasīt, kad kādu kandidātu pievienojat darbam vai kandidātu kopai.
+- [Sudraba medaļas ieguvējs](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions) — ja kādi kandidāti ir lieliski piemēroti jūsu organizācijai, bet jūs nepaplašinājāt viņiem piedāvājumu attiecībā uz jūsu pašreizējo amatu, šos kandidātus varat norādīt kā sudraba medaļas ieguvējus. Šis līdzeklis palīdz jums samazināt laiku nākamajā darbā pieņemšanas reizē, kad ir pieejams līdzīgs amats.
 
 ### <a name="core-hr"></a>Core HR
 
-- **Atvērtā pieteikšanās** — atvērtā pieteikšanās labumiem ļauj darbiniekiem vienkārši un pašiem izvēlēties savus labumus. Personāla vadības administratori var konfigurēt atvērtās pieteikšanās labumiem procesu savai organizācijai un darbinieku lietošanas pieredzi, izmantojot vienkāršu, vadītu risinājumu.
+- [Amatu hierarhijas datu validēšana](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data) — varat pārbaudīt, vai vadības hierarhija ir derīga un vai tajā nav nejauši importētu ciklisku atsauču.
+- [Atvaļinājumu tipu iemeslu kodu norādīšana](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types) — atvaļinājumu tipiem varat norādīt iemeslu kodus.
+- [Iemeslu kodu pieprasīšana brīvā laika pieprasījumos](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests) — papildus iemeslu kodu norādīšanai atvaļinājumu tipiem varat pieprasīt iemeslu kodus brīvā laika pieprasījumiem.
+- [Atvaļinājumu un kavējumu transakciju sarakstu nodrošināšana personāla vadībai](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr) — varat skatīt sarakstu ar atvaļinājumu un kavējumu transakcijām, lai gūtu labāku izpratni par brīvā laika bilancēm.
+
+### <a name="onboard"></a>Pievienošana
+
+Programmai Onboard pašlaik nav pieejams neviens priekšskatījuma līdzeklis.
 
 ## <a name="feedback"></a>Dati
 
-Neatkarīgi no tā, vai atsauksmes ir pozitīvas vai negatīvas, mēs vēlamies no jums uzzināt, kā izmantojat priekšskatījuma funkcijas. Lūdzu, sniedziet regulāras atsauksmes šajās vietnēs, izmantojot šos vai citus līdzekļus.
+Vēlamies uzzināt par jūsu pieredzi saistībā ar jebkuru no šiem priekšskatījuma līdzekļiem. Lietojot šos vai citus līdzekļus, laipni lūdzam regulāri sniegt atsauksmes tālāk norādītajās vietnēs.
 
 - [Kopiena](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) — šī vieta ir lielisks resurss, kur lietotāji var apspriest lietošanas gadījumos, uzdot jautājumus un saņemt kopienas palīdzību.
-- Izmantojiet šādas vietas, lai ieteiktu produktu idejas. Pastāstiet mums par līdzekļiem, kurus vēlaties redzēt produktā, un arī izmaiņām, ko iesakāt esošajiem līdzekļiem.
+- Pastāstiet mums par līdzekļiem, kurus vēlaties redzēt produktā, vai informējiet par visām izmaiņām, kuras pēc jūsu domām mums vajadzētu ieviest esošajos līdzekļos. Iesakiet produktu idejas tālāk norādītajās vietnēs.
 
-    - [Idejas Attract uzlabošanai](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Attract idejas](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
+    - [Core HR idejas](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Onboard idejas](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)
 
-Neiekļaujiet personas datus (jebkāda informācija, kas ļauj identificēt jūs) iesniegtajās atsauksmēs vai produkta apskatos. Ievāktā informācija var tikt analizēta tālāk, un tā netiks izmantota, lai atbildētu uz pieprasījumiem saskaņā ar piemērojamajiem privātuma likumiem. Uz personas datiem, kas tiek ievākti atsevišķi saskaņā ar šīm programmām, attiecas [Microsoft privātuma paziņojums](https://privacy.microsoft.com/privacystatement).
+Uzmanieties, lai iesniegtajās atsauksmēs vai produktu apskatos neiekļautu nekādus personas datus (jebkādu informāciju, kas ļautu jūs identificēt). Ievāktā informācija varētu tikt analizēta tālāk, un tā netiek izmantota, lai atbildētu uz pieprasījumiem saskaņā ar piemērojamajiem privātuma likumiem. Uz personas datiem, kas tiek ievākti atsevišķi saskaņā ar šīm programmām, attiecas [Microsoft privātuma paziņojums](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Ielieciet šo tēmu grāmatzīmēs un atgriezieties, lai uzzinātu par jauniem pievienotiem priekšskatījuma līdzekļiem.
+
+## <a name="see-also"></a>Skatiet arī
+
+- [Talent programmu izmēģināšana vai iegādāšanās](https://dynamics.microsoft.com/talent/overview/)
+- [Jaunumi](./whats-new.md)
+- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana saistībā ar Talent](./talent-support.md)

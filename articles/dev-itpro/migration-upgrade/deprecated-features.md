@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527675"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620649"
 ---
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
@@ -38,8 +38,35 @@ ms.locfileid: "1527675"
 > [!NOTE]
 > Sākot ar programmas Dynamics 365 for Finance and Operations 2017. gada jūlija laidienu ar 8. platformas atjauninājumu, ir norādīts katra noņemtajā vai novecojušā līdzekļa izvietojumu veids. Visi iepriekšējie šajā tēmā minētie laidieni atbalstīja tikai izvietojumus mākonī.
 
-> [!NOTE]
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>Francija: FEC uzskaites datu eksports XML formātā
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar TXT formātu, **Franču FEC audita fails** ir pieejams, izmantojot ceļu **Virsgrāmata** \> **Periodiskie uzdevumi** \> **Datu eksports**.
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Virsgrāmata |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis. Funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada jūlijs. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>Mantotā navigācijas josla
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Galvenes līdzinājums ar citiem Dynamics un Office produktiem. Plašāku informāciju skatiet tēmā [Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar atjauninājumu Platform update 24, tika ieviesta pārveidota navigācijas josla ar meklēšanas iespējām. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: sākot ar 2020. aprīli, mantotā navigācijas josla vairs nebūs pieejama. Līdz tam brīdim klienti var atgriezties pie mantotās navigācijas joslas, izmantojot lapu **Klienta veiktspējas opcijas**. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu
@@ -985,7 +1012,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tie
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | ActiveX un pārvaldīto resursdatora vadīklu pamatā ir novecojušais darbvirsmas klients. |
-| **Vai aizstāts ar citu līdzekli?**   | Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, izmantojot valodas HTML, CSS un JavaScript, un tā ir augstākā līmeņa kontroles līdzeklis Microsoft Visual Studio rīku vidē. |
+| **Vai aizstāts ar citu līdzekli?**   | Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, kuras ir balstītas uz valodu HTML, CSS un JavaScript un ir augstākā līmeņa vadīklas Microsoft Visual Studio Tooling vidē. |
 | **Ietekmētie produkta apgabali**         | Visi moduļi     |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.       |
 

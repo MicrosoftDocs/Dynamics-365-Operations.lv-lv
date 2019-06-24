@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536714"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617977"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Līdzekļa pieejamība
@@ -138,10 +138,6 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 - Pieļaujamā svara precēm netiek atbalstīta manuāla karantīnas pasūtījumu izveide.
 - Pieļaujamā svara precēm netiek atbalstīta ar darbu saistīta manuāla krājumu pārvietošana.
 - Pieļaujamā svara precēm netiek atbalstīta noliktavas vienību konsolidācija.
-- Pieļaujamā svara precēm netiek atbalstītas noliktavas krājumu statusa izmaiņas periodiska uzdevuma ietvaros.
-- Pieļaujamā svara precēm netiek atbalstītas krājumu statusa izmaiņas, kas ir definētas, izmantojot vaicājumu. (Netiek atbalstītas arī kvalitātes pasūtījumu krājumu statusu izmaiņas.)
-- Pieļaujamā svara precēm lapā **Rīcībā esošie krājumi pēc atrašanās vietas** nevar mainīt krājumu statusu.
-- Pieļaujamā svara precēm noliktavas programmā veiktā kustības darba ietvaros nevar mainīt krājumu statusu.
 - Pieļaujamā svara precēm netiek atbalstīta noliktavas vienības ielāde, lai inicializētu noliktavas krājumus.
 - Pieļaujamā svara precēm netiek atbalstīti partijas līdzsvarošanas procesi.
 - Pieļaujamā svara precēm netiek atbalstīta negatīva fizisko krājumu daudzuma apstrāde.
@@ -151,7 +147,6 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 
 - Pieļaujamā svara precēm netiek atbalstīta klastera izdošanas funkcionalitāte.
 - Pieļaujamā svara precēm netiek atbalstīta izdošanas un iepakošanas apstrāde noliktavā.
-- Pieļaujamā svara precēm lapā **Darbs** nevar pabeigt darbu.
 - Pieļaujamā svara precēm var automātiski izpildīt darbu, kas ir definēts darba veidnē.
 - Pieļaujamā svara precēm netiek atbalstīta darba atsaukšanas funkcionalitāte.
 - Pieļaujamā svara precēm netiek atbalstīta tāda manuāla apstrāde iepakošanas stacijā, kuras ietvaros darbs tiek izveidots pēc konteineru slēgšanas.
@@ -163,7 +158,7 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 - Pieļaujamā svara precēm netiek atbalstīta Kanban funkcionalitāte.
 - Pieļaujamā svara precēm pirms patēriņa nevar reģistrēt sērijas numurus.
 - Pieļaujamā svara precēm netiek atbalstīta noliktavas vienības atsaukšanas funkcionalitāte.
-- Pieļaujamā svara precēm pabeigšanu var reģistrēt pēc sērijas numura.
+- Pieļaujamā svara precēm pabeigšanu nevar reģistrēt pēc sērijas numura.
 
 ### <a name="transportation-management-processing"></a>Apstrāde transportēšanas pārvaldības ietvaros
 
