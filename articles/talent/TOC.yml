@@ -8,6 +8,16 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2019.\_gada 2.\_jūlijs"
+              href: whats-new-talent-july-2-2019.md
+            - name: "2019.\_gada 25.\_jūnijs"
+              href: whats-new-talent-june-25-2019.md
+            - name: "2019.\_gada 18.\_jūnijs"
+              href: whats-new-talent-june-18-2019.md
+            - name: "2019.\_gada 11.\_jūnijs"
+              href: whats-new-talent-june-11-2019.md
+            - name: "2019.\_gada 4.\_jūnijs"
+              href: whats-new-talent-june-4-2019.md
             - name: "2019.\_gada 28.\_maijs"
               href: whats-new-talent-may-28-2019.md
             - name: "2019.\_gada 21.\_maijs"
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: "2019.\_gada 6.\_maijs"
               href: whats-new-talent-may-6-2019.md
-            - name: "2019.\_gada 30.\_aprīlis"
-              href: whats-new-talent-april-30-2019.md
-            - name: "2019.\_gada 25.\_aprīlis"
-              href: whats-new-talent-april-25-2019.md
-            - name: "2019.\_gada 16.\_aprīlis"
-              href: whats-new-talent-april-16-2019.md
-            - name: "2019.\_gada 9.\_aprīlis"
-              href: whats-new-talent-april-9-2019.md
-            - name: "2019.\_gada 2.\_aprīlis"
-              href: whats-new-talent-april-2-2019.md
-            - name: "2019.\_gada 26.\_marts"
-              href: whats-new-talent-march-26-2019.md
-            - name: "2019.\_gada 20.\_marts"
-              href: whats-new-talent-march-20.md
-            - name: "2019.\_gada 14.\_marts"
-              href: whats-new-talent-march-14.md
-            - name: "2019.\_gada 5.\_marts"
-              href: whats-new-talent-march-5.md
             - name: "Jaunumu arhīvi, 2019.\_gads"
               items:
+                - name: "2019.\_gada 30.\_aprīlis"
+                  href: whats-new-talent-april-30-2019.md
+                - name: "2019.\_gada 25.\_aprīlis"
+                  href: whats-new-talent-april-25-2019.md
+                - name: "2019.\_gada 16.\_aprīlis"
+                  href: whats-new-talent-april-16-2019.md
+                - name: "2019.\_gada 9.\_aprīlis"
+                  href: whats-new-talent-april-9-2019.md
+                - name: "2019.\_gada 2.\_aprīlis"
+                  href: whats-new-talent-april-2-2019.md
+                - name: "2019.\_gada 26.\_marts"
+                  href: whats-new-talent-march-26-2019.md
+                - name: "2019.\_gada 20.\_marts"
+                  href: whats-new-talent-march-20.md
+                - name: "2019.\_gada 14.\_marts"
+                  href: whats-new-talent-march-14.md
+                - name: "2019.\_gada 5.\_marts"
+                  href: whats-new-talent-march-5.md
                 - name: "2019.\_gada 27.\_februāris"
                   href: whats-new-talent-feb-27.md
                 - name: "2019.\_gada 14.\_februāris"
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Attract līdzekļi un iespējas
           href: attract-overview.md
+        - name: LinkedIn bieži uzdotie jautājumi
+          href: attract-linkedin-faq.md
+        - name: E-pasta iestatījumu konfigurēšana
+          href: attract-configure-email-settings.md
         - name: Procesa veidnes izveide pakalpojumā Attract
           href: Process-templates-Attract.md
-        - name: 'Darbu izveide, apstiprināšana un grāmatošana programmā Attract'
+        - name: Izveidot un publicēt vakances
           href: Creating-jobs-Attract.md
-        - name: Darbu grāmatošana ārējās karjeras vietnēs no pakalpojuma Attract
+        - name: Integrācijas ar LinkedIn iestatīšana
+          href: attract-admin-linkedin.md
+        - name: Vakanču publicēšana LinkedIn no pakalpojuma Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: Vakanču publicēšana Broadbean no pakalpojuma Attract
           href: posting-jobs-external.md
         - name: 'Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas'
           href: attract-talent-pools.md
-        - name: 'Darbinieku pieņemšana, izmantojot LinkedIn Recruiter'
-          href: attract-linked-in-recruiter.md
+        - name: 'Kandidātu piesaiste, izmantojot LinkedIn Recruiter'
+          href: attract-linkedin-recruiter.md
         - name: Aktivitātes darbā pieņemšanas procesa ietvaros
           href: activities-attract.md
         - name: Interviju plānošana un atsauksmes
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Inteliģentie ieteikumi
           href: Intelligent-Recommendations.md
-        - name: Aizraujošas pievienošanās pieredzes izveidošana
-          href: create-onboarding-experience.md
         - name: Kandidātu profilu un pieteikumu avotu izsekošana
           href: source-tracking.md
         - name: Analītisko pārskatu izmantošana darbā pieņemšanas procesa ieskatiem
           href: analytic-reports.md
+    - name: Jaunu darbā pieņemtu personu sveikšana ar Onboard
+      items:
+        - name: Darba sākšana ar Onboard
+          href: create-onboarding-experience.md
+        - name: Programmas Onboard iegūšana
+          href: onboard-get-app.md
+        - name: Pievienošanās ceļveža izveide un nosūtīšana
+          href: onboard-create-guide.md
+        - name: Pievienošanās veidnes izveide
+          href: onboard-create-template.md
+        - name: Ceļvežu un veidņu rediģēšana
+          href: onboard-edit-guides-templates.md
+        - name: Satura kopīgošana
+          href: onboard-share-template.md
+        - name: Skatīt statusu
+          href: onboard-view-status.md
+        - name: Darbā pieņemšanas grupas izveide
+          href: onboard-create-team.md
     - name: "Darbaspēka pārvaldība, izmantojot Core\_HR"
       items:
         - name: Darbaspēka pārvaldība
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: Pakalpojuma Talent problēmu novēršana
       items:
+        - name: Ar darbu publicēšanu pakalpojumā LinkedIn saistīto problēmu novēršana
+          href: attract-troubleshoot-linkedin.md
         - name: Analīzes pārskati netiek atjaunināti
           href: analytic-reports-not-updated.md
         - name: Nevar izveidot vidi PowerApps administrēšanas centrā
