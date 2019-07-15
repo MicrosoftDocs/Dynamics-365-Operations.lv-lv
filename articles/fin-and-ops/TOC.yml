@@ -44,9 +44,9 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: get-started/features-not-implemented-on-prem.md
-            - name: "Priekšskatījuma līdzekļi Finance and Operations versijā 10.0.4 (2019.\_gada jūlijs)"
+            - name: "Finance and Operations versija\_10.0.4 (2019.\_gada jūlijs)"
               href: get-started/whats-new-changed-10-0-4.md
-            - name: "Priekšskatījuma līdzekļi Finance and Operations versijā 10.0.3 (2019.\_gada jūnijs)"
+            - name: "Finance and Operations versija\_10.0.3 (2019.\_gada jūnijs)"
               href: get-started/whats-new-changed-10-0-3.md
             - name: "Finance and Operations versija\_10.0.2 (2019.\_gada maijs)"
               href: get-started/whats-new-changed-10-0-2.md
@@ -56,9 +56,9 @@
               href: get-started/whats-new-changed-10.md
             - name: "Finance and Operations versija\_8.1.3 (2019.\_gada janvāris)"
               href: get-started/whats-new-changed-8-1-3.md
-            - name: "Priekšskatījuma līdzekļi versijā Finance and Operations platform update\_28 (2019.\_gada jūlijs)"
+            - name: "Platform update\_28 (2019.\_gada jūlijs)"
               href: get-started/whats-new-platform-update-28.md
-            - name: "Priekšskatījuma līdzekļi versijā Finance and Operations platform update\_27 (2019.\_gada jūnijs)"
+            - name: "Platform update\_27 (2019.\_gada jūnijs)"
               href: get-started/whats-new-platform-update-27.md
             - name: "Platform update\_26 (2019.\_gada maijs)"
               href: get-started/whats-new-platform-update-26.md
@@ -238,8 +238,14 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: 'ISV risinājumu nodrošināšana, izmantojot vienu versiju'
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Regression Suite Automation Tool
-          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+        - name: Testu automatizēšana
+          items:
+            - name: Piemērotības lietotājiem testu izveide un automatizēšana
+              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: Regression Suite Automation Tool apmācības iestatīšana
+              href: get-started/hol-set-up-regression-suite-automation-tool.md
+            - name: Regression Suite Automation Tool apmācības izmantošana
+              href: get-started/hol-use-regression-suite-automation-tool.md
     - name: Biznesa notikumi
       href: ../dev-itpro/business-events/home-page.md
       items:
@@ -257,6 +263,10 @@
           href: ../dev-itpro/business-events/troubleshooting.md
         - name: Gadījumu lietošana biznesa notikumiem
           href: ../dev-itpro/business-events/potential-use-cases.md
+        - name: Apmācība
+          items:
+            - name: Biznesa notikumu patērēšana ar Microsoft Flow
+              href: ../dev-itpro/business-events/how-to/how-to-flow.md
     - name: Atbilstība
       items:
         - name: Audita ierobežojuma nosacījumi
@@ -849,7 +859,7 @@
               href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
             - name: Finanšu dimensijas
               href: ../financials/general-ledger/financial-dimensions.md
-            - name: Konta struktūras
+            - name: Finanšu dimensijas un grāmatošana
               href: ../financials/general-ledger/Default-dimensions.md
             - name: Pievienot finanšu dimensijas CFO darbvietai
               href: ../financials/general-ledger/CFO-workspace.md
@@ -1080,6 +1090,8 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: Kontu struktūru izveide
                   href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Finanšu dimensijas un grāmatošana
+                  href: ../financials/general-ledger/default-dimensions.md
                 - name: Uzkrāšanas shēmu izveide
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
                 - name: Finanšu konsolidācijas un valūtas pārrēķināšana
@@ -1936,10 +1948,144 @@
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: GST integrācija kases sistēmām
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Ar nodokli apliekama krājuma iegāde no nereģistrēta kreditora
-                  href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
-            - name: Izvietošanas vadlīnijas kases sistēmām
-              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+                - name: Pamatdatu iestatīšana
+                  items:
+                    - name: Biznesa vertikāles izveide
+                      href: ../financials/localizations/apac-ind-GST-create-business-vertical.md
+                    - name: Apgabala koda un apvienotās teritorijas atjaunināšana
+                      href: ../financials/localizations/apac-ind-GST-update-state-code-union-territory.md
+                    - name: GSTIN šablona izveide
+                      href: ../financials/localizations/apac-ind-GST-create-gstin-master.md
+                    - name: GSTIN un atsauces numuru sēriju definēšana
+                      href: ../financials/localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                    - name: HSN kodu un SAC definēšana
+                      href: ../financials/localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                    - name: Galveni kontu izveide GST grāmatošanas tipam
+                      href: ../financials/localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                    - name: Nodokļu apmaksas perioda izveide
+                      href: ../financials/localizations/apac-ind-GST-create-tax-settlement-period.md
+                    - name: GSTIN pievienošana nodokļu reģistrācijas grupai
+                      href: ../financials/localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                - name: Nodokļa iestatījumi
+                  items:
+                    - name: Nodokļu konfigurācijas definēšana un tās izvietošana juridiskām personām
+                      href: ../financials/localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                    - name: "Konfigurācijas nodokļu tipu kartēšana\_— muita"
+                      href: ../financials/localizations/apac-ind-GST-map-configuration-tax-types.md
+                    - name: Likmju un procentu tabulu iestatīšana
+                      href: ../financials/localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                    - name: PVN hierarhijas un bilances kārtulu iestatīšana
+                      href: ../financials/localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                - name: Pirkšanas darbība
+                  items:
+                    - name: Pirkumi no nereģistrētiem kreditoriem
+                      href: ../financials/localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                    - name: Ar nodokli apliekama krājuma iegāde no nereģistrēta kreditora
+                      href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                    - name: Pirkumi no reģistrētiem kreditoriem
+                      href: ../financials/localizations/apac-ind-GST-purchases-registered-vendor.md
+                    - name: Diskontētu preču pirkumi
+                      href: ../financials/localizations/apac-ind-GST-purchase-discounted-goods.md
+                    - name: Ar nodokli neapliekamu preču iegāde
+                      href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
+                    - name: Nulles novērtējuma preču iegāde
+                      href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                    - name: Ar GST nesaistītu preču pirkumi
+                      href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
+                    - name: Pirkumi no apvienotiem izplatītājiem
+                      href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                    - name: 'Ar nodokli apliekamu preču pirkumi, kam ir piegādes izmaksas'
+                      href: ../financials/localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                    - name: 'Tāda pirkšanas rēķina pārskatīšana, kurā ir ar nodokli apliekamas preces'
+                      href: ../financials/localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                    - name: Pamatlīdzekļu pirkumi
+                      href: ../financials/localizations/apac-ind-GST-purchase-fixed-asset.md
+                    - name: Kredīta notas izveide pirkšanas rēķinam
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                    - name: Debeta notas izveide pirkšanas rēķinam
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                    - name: 'Kvalitātes pārbaudes pasūtījumi, kas ir saistīti ar krājuma iztveršanas iznīcināšanu'
+                      href: ../financials/localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                    - name: Atgriešanas pasūtījumu pirkšana
+                      href: ../financials/localizations/apac-ind-GST-purchase-return-order.md
+                    - name: 'Kreditoru avansa maksājumi, ja tiek piemērotas apgrieztās maksas'
+                      href: ../financials/localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                - name: Pārdošanas darbība
+                  items:
+                    - name: Ar nodokli apliekamu preču pārdošana patērētājiem
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                    - name: Pārdošana reģistrētiem debitoriem
+                      href: ../financials/localizations/apac-ind-GST-sell-registered-customer.md
+                    - name: Brīvā teksta rēķini
+                      href: ../financials/localizations/apac-ind-GST-free-text-invoices.md
+                    - name: 'Ar nodokli apliekamu preču pārdošana, ja tiek piemērota apgriezta maksa'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                    - name: No nodokļiem atbrīvotu krājumu pārdošana
+                      href: ../financials/localizations/apac-ind-GST-sales-exempted-item.md
+                    - name: Nulles novērtējuma preču pārdošana
+                      href: ../financials/localizations/apac-ind-GST-sell-zero-rated-goods.md
+                    - name: Ar GST nesaistītu preču pārdošanu
+                      href: ../financials/localizations/apac-ind-GST-sell-non-gst-goods.md
+                    - name: 'Tādu ar nodokli apliekamu preču pārdošanu, kurām ir piemērota atlaide un provizorisks aprēķins'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                    - name: 'Tādu ar nodokli apliekamu preču pārdošana, kuru piegādes izmaksas tiek apliktas ar nodokli'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                    - name: 'Pārdošana, ja cenās ir vai nav iekļauts nodoklis'
+                      href: ../financials/localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                    - name: Debeta notas izveide pārdošanas rēķinam
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                    - name: Kredīta notas izveide pārdošanas rēķinam
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                    - name: 'Pārdošanas rēķini, kas ir sadalīti atkarībā no piegādes adresēm'
+                      href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                    - name: Atgriešanas pasūtījumi
+                      href: ../financials/localizations/apac-ind-GST-return-order-form.md
+                - name: Ārvalstu transakcijas
+                  items:
+                    - name: 'Preču imports, ko apliek ar GST'
+                      href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
+                    - name: 'Pakalpojumu imports, ko apliek ar GST'
+                      href: ../financials/localizations/apac-ind-import-services-gst.md
+                    - name: 'Preču eksports, ko apliek ar nulles novērtējuma nodokli'
+                      href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                    - name: 'Pakalpojumu eksports, ko apliek ar nulles novērtējuma nodokli'
+                      href: ../financials/localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                - name: Krājumu transakcija
+                  items:
+                    - name: 'Krājumu pārsūtīšanas pasūtījumi, kuros pārsūtīšanas cenai tiek piemērots nodoklis'
+                      href: ../financials/localizations/apac-ind-GST-stock-transfer-transactions.md
+                - name: Debitora maksājuma transakcija
+                  items:
+                    - name: 'Avansa maksājumi, kas ietver nodokļus'
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-includes-tax.md
+                    - name: 'Avansa maksājumi, kas tiek segti rēķina grāmatošanas laikā'
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                    - name: 'Avansa maksājuma un rēķina, kas ietver nodokli, manuāla segšana'
+                      href: ../financials/localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                    - name: 'Rēķinu, kas ietver nodokļus, apmaksa'
+                      href: ../financials/localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                    - name: 'Avansa maksājumu, kas ietver nodokļus, pārskatīšana'
+                      href: ../financials/localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                    - name: Debitora maksājumu atmaksas
+                      href: ../financials/localizations/apac-ind-GST-customer-payment-refund.md
+                - name: Tieša nodokļu transakcija
+                  items:
+                    - name: 'Aprēķinot nodokļu ieturējumus, iekļaut GST'
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                    - name: 'Aprēķinot nodokļu iekasēšanu, iekļaut GST'
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                - name: Nodokļa summas korekcija
+                  href: ../financials/localizations/apac-ind-GST-tax-adjustments.md
+                - name: Nodokļu apmaksa atbilstoši nosacījumiem
+                  href: ../financials/localizations/apac-ind-GST-tax-settlement.md
+                - name: Nodokļu žurnāla izveide
+                  href: ../financials/localizations/apac-ind-GST-tax-journal.md
+                - name: GSTR pārskata datu ģenerēšana nodokļu atmaksas vajadzībām
+                  href: ../financials/localizations/apac-ind-GST-tax-returns.md
+                - name: Nodokļu pieprasījums
+                  href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
+                - name: Izvietošanas vadlīnijas kases sistēmām
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Nodokļu programmas apskats
               href: ../financials/general-ledger/tax-engine.md
               items:
@@ -2377,6 +2523,10 @@
                   href: ../financials/localizations/rus-accounting-reporting.md
                 - name: Likmēto nodokļu deklarācija
                   href: ../financials/localizations/rus-assessed-tax-declaration.md
+                - name: Transporta nodokļu deklarācija
+                  href: ../financials/localizations/rus-transport-tax-declaration.md
+                - name: Zemes nodokļu deklarācija
+                  href: ../financials/localizations/rus-land-tax-declaration.md
             - name: Organizācijas administrēšana
               items:
                 - name: Ar adresi saistītā informācija par nodokļu reģistrāciju
@@ -2797,160 +2947,222 @@
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
             - name: Pielāgota dizaina izveide biznesa dokumentiem
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
-        - name: Elektroniskie pārskati
+            - name: 'PDF dokumentu priekšskatīšana, izmantojot iegultu skatītāju'
+              href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
+    - name: Elektroniskie pārskati
+      items:
+        - name: Elektronisko pārskatu veidošanas apskats
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+        - name: Konfigurācijas
           items:
-            - name: Elektronisko pārskatu veidošanas struktūras konfigurēšana
-              href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
             - name: Konfigurāciju izveide
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+            - name: Elektronisko pārskatu veidošanas risinājuma komponentu sagatavošana
               items:
-                - name: Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Domēnam specifisku datu modeļu izveide
+                - name: Domēnam specifiska datu modeļa izveide
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Programmas specifisko metadatu sagatavošana
+                  items:
+                    - name: (ER) RCS izmantojamo programmas metadatu sagatavošana
+                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: '(RCS) Piekļuve programmas metadatiem, izmantojot ER konfigurāciju'
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                    - name: '(RCS) Piekļuve programmas metadatiem, izmantojot saistītas programmas'
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
                 - name: Modeļa kartējumu definēšana un datu avotu atlasīšana
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Datu modeļu kartēšana uz atlasītajiem datu avotiem
+                - name: Datu modeļa kartēšana uz atlasītajiem datu avotiem
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Formāta konfigurāciju izveide
+                - name: Formāta konfigurācijas izveide
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Formātu komponentu kartēšana uz datu modeļa elementiem
+                - name: Izveidotā formāta komponentu kartēšana uz datu modeļa elementiem
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: 'Elektronisko dokumentu ģenerēšana maksājumiem, izmantojot formāta konfigurācijas'
+            - name: Mērķa programmā sagatavotā ER risinājuma testēšana
+              items:
+                - name: (ER) Konfigurāciju importēšana no RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                - name: 'Elektronisko dokumentu ģenerēšana maksājumiem, izmantojot formāta konfigurāciju'
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu jaunināšana, pieņemot jaunas pamata versijas'
-                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-                - name: 'Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes'
-                  href: ../dev-itpro/analytics/er-fillable-pdf.md
-            - name: Formulu veidotājs elektronisko atskaišu veidošanā
-              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: 'Elektronisko atskaišu konfigurēšana, lai nogādātu datus uz Power BI'
-              href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: Adresāti
-              href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Adresātu konfigurēšana
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 'Konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā'
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 'Konfigurāciju noformēšana, lai izveidotu pārskatus OpenXML formātā'
+            - name: 'Formāta jaunināšana, pieņemot šī formāta jaunu bāzes versiju'
+              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+        - name: Formulu veidotājs elektronisko atskaišu veidošanā
+          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+        - name: ER modeļa kartēšanas pārvaldība atsevišķās ER konfigurācijās
+          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: 'Datu modeļu definīciju atlase, veidojot formātus'
+          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: 'Pārskatu ģenerēšana, pievienojot saturu kā neapstrādātu XML'
+          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+        - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
+          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+        - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
+          items:
+            - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 'Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes'
-              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: 'Datu modeļa definīcijas atlase, veidojot formātus'
-              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Konfigurāciju atkarības no citiem komponentiem definēšana
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: '(ER) Konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā'
+              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: 'Konfigurāciju noformēšana, lai aizpildītu PDF veidnes'
+              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+        - name: Attēlu un formu iegulšana
+          items:
+            - name: '(ER) Attēlu un formu iegulšana dokumentos, kurus ģenerējat'
+              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+            - name: Attēlu un formu iegulšanas piemērs
               items:
-                - name: 'Datu modeļu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Modeļu kartēšana, lai finanšu dimensijas izmantotu kā datu avotus'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Pārskatu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Tādu pārskatu palaišana, kuros finanšu dimensijas tiek izmantotas kā datu avoti'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu izveide, lai veiktu inventarizāciju un summēšanu'
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-                - name: Inventarizācijas un summēšanas aprēķinu konfigurēšana
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Aprēķinu izmantošana, lai ģenerētu inventarizācijas un summēšanas izvades datus'
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu palaišana, lai veiktu inventarizāciju un summēšanu'
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu noformēšana, lai dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu palaišana, lai dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu izvades datos'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu izvades datos'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu izveide, lai dokumentu pārvaldības failus lietotu izvades datos'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu palaišana, lai dokumentu pārvaldības failus lietotu izvades datos'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu modificēšana un palaišana, lai dokumentu pārvaldības failus lietotu izvades datos'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: 'Konfigurāciju noformēšana, lai veidotu pārskatus Office formātos ar iegultajiem attēliem'
+                - name: 'Konfigurāciju noformēšana pārskatu ģenerēšanai Office formātos, kuros ir iegultie attēli'
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: 'Konfigurāciju pārskatīšana, lai veidotu pārskatus Office formātos ar iegultajiem attēliem'
+                - name: 'Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātos, kuros ir iegultie attēli'
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Pārskatu izveide Office formātos ar iegultajiem attēliem
+                - name: 'Pārskatu ģenerēšana Office formātos, kuros ir iegultie attēli'
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+        - name: 'Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes'
+          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+        - name: 'Tādas Finance and Operations noformēšana, kura ir atkarīga no ER konfigurācijām'
+          items:
+            - name: ER konfigurāciju atkarības no citiem komponentiem definēšana
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: 'ER risinājuma noformēšana, lai izmantotu finanšu dimensijas'
+          items:
+            - name: 'Datu modeļu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Modeļu kartēšana, lai finanšu dimensijas izmantotu kā datu avotus'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+            - name: 'Pārskatu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+            - name: 'Tādu pārskatu palaišana, kuros finanšu dimensijas tiek izmantotas kā datu avoti'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+        - name: 'ER formātu noformēšana, lai inventarizācija un summēšana tiktu veikta, izmantojot ģenerētās izvades informāciju'
+          items:
+            - name: 'Formātu izveide, lai veiktu inventarizāciju un summēšanu'
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Formāta konfigurēšana, lai veiktu inventarizāciju un summēšanu'
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+            - name: 'Aprēķinu izmantošana, lai ģenerētu inventarizācijas un summēšanas izvades datus'
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+            - name: 'Formātu palaišana, lai veiktu inventarizāciju un summēšanu'
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+        - name: Kolonnu dinamiska pievienošana Excel pārskatiem ar horizontāli paplašināmiem diapazoniem
+          items:
+            - name: 'Formātu noformēšana, lai Excel pārskatiem dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
+              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
+              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+        - name: Dokumentu pārvaldības failu izmantošana formātu izvades datos
+          items:
+            - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+            - name: "Formātu izveide, lai dokumentu pārvaldības failus lietotu ER\_izvades datos"
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+            - name: "Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER\_izvades datos"
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+            - name: 'Formātu modificēšana un palaišana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+        - name: 'Programmas datu atjaunināšana, izmantojot elektroniskos pārskatus'
+          items:
             - name: Elektronisko dokumentu ģenerēšana un programmas datu atjaunināšana
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+            - name: 'Konfigurāciju importēšana, lai izveidotu dokumentus ar programmas datiem'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+            - name: 'Konfigurāciju noformēšana, lai izveidotu dokumentus ar programmas datiem'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+            - name: 'Modeļu un kartējumu modificēšana, lai izveidotu dokumentus ar programmas datiem'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+            - name: 'Formātu modificēšana, lai izveidotu dokumentus ar programmas datiem'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+            - name: Dokumentu ar programmas datiem ģenerēšana
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+        - name: 'Datu importēšana no ienākošiem failiem, izmantojot ER risinājumus'
+          items:
+            - name: Ienākošo dokumentu parsēšana dažādos formātos
+              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+            - name: Datu importēšanas no manuāli atlasītiem failiem konfigurēšana
               items:
-                - name: 'Konfigurāciju importēšana, lai izveidotu dokumentus ar programmas datiem'
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-                - name: 'Konfigurāciju noformēšana, lai izveidotu dokumentus ar programmas datiem'
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: 'Modeļu un kartējumu modificēšana, lai izveidotu dokumentus ar programmas datiem'
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: 'Formātu modificēšana, lai izveidotu dokumentus ar programmas datiem'
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: Dokumentu ģenerēšana ar programmas datiem
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: Drukājamu FTI formu ģenerēšana
-              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: 'Pārskatu ģenerēšana, pievienojot saturu kā neapstrādātu XML'
-              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām
-              href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-            - name: Starpuzņēmumu datu avoti elektroniskajos pārskatos
-              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: 'Attēlu un formu iegulšana dokumentos, kurus ģenerējat'
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Konfigurācijas dzīves cikla pārvaldība
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Konfigurāciju augšupielāde pakalpojumā Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Konfigurāciju importēšana no pakalpojuma Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Importēt elektronisko pārskatu (ER) konfigurācijas no regulējošās konfigurācijas pakalpojumiem (RCS)
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md
-                - name: Konfigurāciju lejupielāde no pakalpojuma Lifecycle Services
-                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Konfigurāciju importēšana
-                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Modeļa kartējuma konfigurāciju pārvaldība
-              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: 'Konfigurāciju izveide, lai importētu datus no ārējiem failiem'
+                - name: 'Konfigurāciju izveide, lai importētu datus no ārēja XML faila'
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-                - name: Datu importa konfigurēšana importēšanai no SharePoint
-                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Ienākošo dokumentu parsēšana Excel formātā
-              href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: 'Ienākošo dokumentu parsēšana, lai atjauninātu programmas datus'
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: "Ienākošo dokumentu parsēšana CSV\_formātā"
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: "Elektronisko atskaišu veidošanas (ER)\_formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas"
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
+            - name: Datu importēšana pakešveida režīmā no platformā SharePoint izvietotiem failiem
+              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+            - name: Failu importēšana XML formātā
+              items:
+                - name: Failu importēšana XML formātā ar neobligātiem atribūtiem
+                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                - name: 'ER formātu konfigurēšana, lai importētu XML formāta failus ar neobligātiem atribūtiem'
+                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
+        - name: Konfigurācijas dzīves cikls
+          items:
+            - name: Konfigurāciju dzīves cikla pārvaldība
+              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+            - name: Konfigurāciju augšupielāde pakalpojumā Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Konfigurāciju importēšana no pakalpojuma Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Konfigurāciju lejupielāde no pakalpojuma Lifecycle Services
+              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+            - name: Konfigurāciju importēšana
+              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+            - name: ER konfigurāciju lejupielāde no RCS repozitorija
               items:
-                - name: Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu
-                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: "Elektronisko atskaišu veidošanas struktūras API izmaiņas atjauninājumam Application update\_7.3"
-                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-                - name: Pielāgotas krātuves norādīšana ģenerētajiem dokumentiem
-                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Konfigurāciju lejupielāde no ER repozitorija RCS tipam
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Konfigurāciju importēšana no RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+        - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
+          items:
+            - name: Struktūras konfigurēšana
+              items:
+                - name: Elektronisko pārskatu veidošanas struktūras konfigurēšana
+                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                - name: Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus
+                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Adresāti
+              items:
+                - name: Adresātu pārskats
+                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                - name: Adresātu konfigurēšana
+                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Ģenerēto pārskatu automātiska validēšana
+              items:
+                - name: Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                - name: Testēšanas ar elektroniskiem pārskatiem automatizēšana
+                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+            - name: 'Biznesa procesu automatizēšana, izmantojot elektronisko pārskatu konfigurācijas'
+              items:
+                - name: 'Elektronisko atskaišu konfigurēšana, lai nogādātu datus uz Power BI'
+                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                - name: Drukājamu brīvā teksta rēķina (FTI) veidlapu ģenerēšana
+                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+            - name: 'ER formātu failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas'
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+        - name: ES struktūras API
+          items:
+            - name: Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana
+              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+            - name: "Elektronisko atskaišu veidošanas struktūras API izmaiņas atjauninājumam Application update\_7.3"
+              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+            - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
+              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Iegultie analītiskie risinājumi
           items:
             - name: Iegultais Power BI darbvietās
               href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
             - name: Power BI Embedded integrācija
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
+            - name: Analītisku darbvietu atlasīšana no PowerBI.com
+              href: ../dev-itpro/analytics/select-analytical-workspace.md
         - name: Personalizēšanas opcijas ar PowerBI.com
           items:
             - name: 'Līdzekļi un pakalpojumi, kas ir pieejami, izmantojot Power BI integrāciju'
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Power BI atskaišu piespraušana darbvietām
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
+            - name: Iegultu atskaišu pielāgošana analītiskās darbvietās
+              href: ../dev-itpro/analytics/customize-analytical-workspace.md
         - name: Risinājumu izveidošanas un paplašināšanas rīki
           items:
             - name: 'Analītika, mērījumu apkopošana un KPI modelēšana'
@@ -3067,12 +3279,16 @@
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
             - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+    - name: Piegādes ķēde
+      href: ../supply-chain/index.md
     - name: Vispārējā plānošana
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: Vispārējie plāni
           href: ../supply-chain/master-planning/master-plans.md
           items:
+            - name: Iestatīt vispārējos plānus
+              href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Seguma iestatījumi
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Krājumu vajadzības kārtulu definēšana
@@ -3099,6 +3315,8 @@
               href: ../supply-chain/master-planning/tasks/create-plan-site.md
             - name: Kalendāri un vispārējā plānošana
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
+            - name: Vispārējās plānošanas veiktspējas uzlabošana
+              href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Vispārējie plāni un vairākvietu funkcionalitāte
               href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
@@ -3114,6 +3332,8 @@
                   href: ../supply-chain/master-planning/master-plan-bom-version-determined.md
                 - name: "MK\_versijas izvēršana"
                   href: ../supply-chain/master-planning/master-plan-explosion-bom-version.md
+            - name: Negatīvās dienas un dinamiskās negatīvās dienas
+              href: ../supply-chain/master-planning/more-about-dynamic-negative-days.md
             - name: Starpuzņēmumu plāna izveide
               href: ../supply-chain/master-planning/tasks/create-intercompany-plan.md
             - name: Izejošo plānoto starpuzņēmumu pieprasījuma skatīšana
