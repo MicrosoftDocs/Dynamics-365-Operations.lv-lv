@@ -3,7 +3,7 @@ title: Iestatīt apmācību kursus
 description: Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,122 +18,122 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518513"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701394"
 ---
-# <a name="set-up-training-courses"></a><span data-ttu-id="d233f-103">Iestatīt apmācību kursus</span><span class="sxs-lookup"><span data-stu-id="d233f-103">Set up training courses</span></span>
+# <a name="set-up-training-courses"></a><span data-ttu-id="344fd-103">Iestatīt apmācību kursus</span><span class="sxs-lookup"><span data-stu-id="344fd-103">Set up training courses</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d233f-104">Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.</span><span class="sxs-lookup"><span data-stu-id="d233f-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
+<span data-ttu-id="344fd-104">Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.</span><span class="sxs-lookup"><span data-stu-id="344fd-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
- <a name="set-up-prerequisites"></a><span data-ttu-id="d233f-105">Priekšnoteikumu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d233f-105">Set up prerequisites</span></span>
+ <a name="set-up-prerequisites"></a><span data-ttu-id="344fd-105">Priekšnoteikumu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="344fd-105">Set up prerequisites</span></span>
 ---------------------
 
-<span data-ttu-id="d233f-106">Pirms veidojat kursus, ir nepieciešama un ir jāiestata tālāk norādītā informācija.</span><span class="sxs-lookup"><span data-stu-id="d233f-106">The following information is required and must be set up before you create courses.</span></span>
--   <span data-ttu-id="d233f-107">**Kursu tipi**</span><span class="sxs-lookup"><span data-stu-id="d233f-107">**Course types**</span></span>
+<span data-ttu-id="344fd-106">Pirms veidojat kursus, ir nepieciešama un ir jāiestata tālāk norādītā informācija.</span><span class="sxs-lookup"><span data-stu-id="344fd-106">The following information is required and must be set up before you create courses.</span></span>
+-   <span data-ttu-id="344fd-107">**Kursu tipi**</span><span class="sxs-lookup"><span data-stu-id="344fd-107">**Course types**</span></span>
 
-<span data-ttu-id="d233f-108">Tālāk minēta izvēles informācija, ko var norādīt kursiem.</span><span class="sxs-lookup"><span data-stu-id="d233f-108">The following information is optional information that you can specify for courses.</span></span> <span data-ttu-id="d233f-109">Ja zināt, ka ievadīsiet šo informāciju kursiem, jums jāiestata šī informācija pirms kursu ierakstu izveidošanas.</span><span class="sxs-lookup"><span data-stu-id="d233f-109">If you know that you will be entering this information for courses, you should set up this information before you create course records.</span></span>
--   <span data-ttu-id="d233f-110">**Klases grupas**</span><span class="sxs-lookup"><span data-stu-id="d233f-110">**Classroom groups**</span></span>
--   <span data-ttu-id="d233f-111">**Kursu grupas**</span><span class="sxs-lookup"><span data-stu-id="d233f-111">**Course groups**</span></span>
--   <span data-ttu-id="d233f-112">**Kursu atrašanās vietas**</span><span class="sxs-lookup"><span data-stu-id="d233f-112">**Course locations**</span></span>
--   <span data-ttu-id="d233f-113">**Klases telpas**</span><span class="sxs-lookup"><span data-stu-id="d233f-113">**Classrooms**</span></span>
--   <span data-ttu-id="d233f-114">**Instruktori**</span><span class="sxs-lookup"><span data-stu-id="d233f-114">**Instructors**</span></span>
+<span data-ttu-id="344fd-108">Tālāk minēta izvēles informācija, ko var norādīt kursiem.</span><span class="sxs-lookup"><span data-stu-id="344fd-108">The following information is optional information that you can specify for courses.</span></span> <span data-ttu-id="344fd-109">Ja zināt, ka ievadīsiet šo informāciju kursiem, jums jāiestata šī informācija pirms kursu ierakstu izveidošanas.</span><span class="sxs-lookup"><span data-stu-id="344fd-109">If you know that you will be entering this information for courses, you should set up this information before you create course records.</span></span>
+-   <span data-ttu-id="344fd-110">**Klases grupas**</span><span class="sxs-lookup"><span data-stu-id="344fd-110">**Classroom groups**</span></span>
+-   <span data-ttu-id="344fd-111">**Kursu grupas**</span><span class="sxs-lookup"><span data-stu-id="344fd-111">**Course groups**</span></span>
+-   <span data-ttu-id="344fd-112">**Kursu atrašanās vietas**</span><span class="sxs-lookup"><span data-stu-id="344fd-112">**Course locations**</span></span>
+-   <span data-ttu-id="344fd-113">**Klases telpas**</span><span class="sxs-lookup"><span data-stu-id="344fd-113">**Classrooms**</span></span>
+-   <span data-ttu-id="344fd-114">**Instruktori**</span><span class="sxs-lookup"><span data-stu-id="344fd-114">**Instructors**</span></span>
 
-## <a name="course-types"></a><span data-ttu-id="d233f-115">Kursu tipi</span><span class="sxs-lookup"><span data-stu-id="d233f-115">Course types</span></span>
-<span data-ttu-id="d233f-116">Kursu tipus var izmantot, lai kategorizētu kursus atbilstoši to struktūrai vai saturam.</span><span class="sxs-lookup"><span data-stu-id="d233f-116">You can use course types to categorize courses according to the structure or content of the course.</span></span> <span data-ttu-id="d233f-117">Kursu tipus varat izveidot lapā **Kursu tipi**.</span><span class="sxs-lookup"><span data-stu-id="d233f-117">You can create course types on the **Course types** page.</span></span> <span data-ttu-id="d233f-118">Veidojot kursu ierakstu, ir jāatlasa kursu veids.</span><span class="sxs-lookup"><span data-stu-id="d233f-118">You must select a course type when you create a course record.</span></span>
+## <a name="course-types"></a><span data-ttu-id="344fd-115">Kursu tipi</span><span class="sxs-lookup"><span data-stu-id="344fd-115">Course types</span></span>
+<span data-ttu-id="344fd-116">Kursu tipus var izmantot, lai kategorizētu kursus atbilstoši to struktūrai vai saturam.</span><span class="sxs-lookup"><span data-stu-id="344fd-116">You can use course types to categorize courses according to the structure or content of the course.</span></span> <span data-ttu-id="344fd-117">Kursu tipus varat izveidot lapā **Kursu tipi**.</span><span class="sxs-lookup"><span data-stu-id="344fd-117">You can create course types on the **Course types** page.</span></span> <span data-ttu-id="344fd-118">Veidojot kursu ierakstu, ir jāatlasa kursu veids.</span><span class="sxs-lookup"><span data-stu-id="344fd-118">You must select a course type when you create a course record.</span></span>
 
-## <a name="course-setup-type"></a><span data-ttu-id="d233f-119">Kursu iestatīšanas veids</span><span class="sxs-lookup"><span data-stu-id="d233f-119">Course setup type</span></span>
-<span data-ttu-id="d233f-120">Tālāk esošajā tabulā uzskaitīti trīs kursu iestatījumu veidi.</span><span class="sxs-lookup"><span data-stu-id="d233f-120">The following table lists the three setup types for courses.</span></span> <span data-ttu-id="d233f-121">Iestatījumu veidi nosaka kursu struktūru.</span><span class="sxs-lookup"><span data-stu-id="d233f-121">Setup types determine the structure of the course.</span></span>
+## <a name="course-setup-type"></a><span data-ttu-id="344fd-119">Kursu iestatīšanas veids</span><span class="sxs-lookup"><span data-stu-id="344fd-119">Course setup type</span></span>
+<span data-ttu-id="344fd-120">Tālāk esošajā tabulā uzskaitīti trīs kursu iestatījumu veidi.</span><span class="sxs-lookup"><span data-stu-id="344fd-120">The following table lists the three setup types for courses.</span></span> <span data-ttu-id="344fd-121">Iestatījumu veidi nosaka kursu struktūru.</span><span class="sxs-lookup"><span data-stu-id="344fd-121">Setup types determine the structure of the course.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d233f-122">Iestatījumu veidi</span><span class="sxs-lookup"><span data-stu-id="d233f-122">Setup type</span></span></th>
-<th><span data-ttu-id="d233f-123">Apraksts</span><span class="sxs-lookup"><span data-stu-id="d233f-123">Description</span></span></th>
+<th><span data-ttu-id="344fd-122">Iestatījumu veidi</span><span class="sxs-lookup"><span data-stu-id="344fd-122">Setup type</span></span></th>
+<th><span data-ttu-id="344fd-123">Apraksts</span><span class="sxs-lookup"><span data-stu-id="344fd-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="d233f-124"><strong>Standarta</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-124"><strong>Standard</strong></span></span></td>
-<td><span data-ttu-id="d233f-125">Atlasiet šo veidu kursiem, kam nav ikdienas darba kārtības.</span><span class="sxs-lookup"><span data-stu-id="d233f-125">Select this type for courses that will not have a daily agenda.</span></span> <span data-ttu-id="d233f-126">Šis ir noklusētais iestatījumu veids, veidojot jaunus kursus.</span><span class="sxs-lookup"><span data-stu-id="d233f-126">This is the default setup type when you create a new course.</span></span></td>
+<td><span data-ttu-id="344fd-124"><strong>Standarta</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-124"><strong>Standard</strong></span></span></td>
+<td><span data-ttu-id="344fd-125">Atlasiet šo veidu kursiem, kam nav ikdienas darba kārtības.</span><span class="sxs-lookup"><span data-stu-id="344fd-125">Select this type for courses that will not have a daily agenda.</span></span> <span data-ttu-id="344fd-126">Šis ir noklusētais iestatījumu veids, veidojot jaunus kursus.</span><span class="sxs-lookup"><span data-stu-id="344fd-126">This is the default setup type when you create a new course.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="d233f-127"><strong>Darba kārtība</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-127"><strong>Agenda</strong></span></span></td>
-<td><span data-ttu-id="d233f-128">Atlasiet šo veidu, lai plānotu katras kursa dienas detalizēto informāciju tādam kursam, kas notiek vairākas dienas.</span><span class="sxs-lookup"><span data-stu-id="d233f-128">Select this type to plan the details of each day of a course that takes place over multiple days.</span></span></td>
+<td><span data-ttu-id="344fd-127"><strong>Darba kārtība</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-127"><strong>Agenda</strong></span></span></td>
+<td><span data-ttu-id="344fd-128">Atlasiet šo veidu, lai plānotu katras kursa dienas detalizēto informāciju tādam kursam, kas notiek vairākas dienas.</span><span class="sxs-lookup"><span data-stu-id="344fd-128">Select this type to plan the details of each day of a course that takes place over multiple days.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="d233f-129"><strong>Darba kārtībā + sesija</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-129"><strong>Agenda + session</strong></span></span></td>
-<td><span data-ttu-id="d233f-130">Atlasiet šo veidu sarežģītākiem kursiem.</span><span class="sxs-lookup"><span data-stu-id="d233f-130">Select this type for the more complex courses.</span></span> <span data-ttu-id="d233f-131">Piemēram, kursu darba kārtību var sadalīt tēmās un sesijās.</span><span class="sxs-lookup"><span data-stu-id="d233f-131">For example, you can divide the agenda for the course into tracks and sessions.</span></span>
+<td><span data-ttu-id="344fd-129"><strong>Darba kārtībā + sesija</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-129"><strong>Agenda + session</strong></span></span></td>
+<td><span data-ttu-id="344fd-130">Atlasiet šo veidu sarežģītākiem kursiem.</span><span class="sxs-lookup"><span data-stu-id="344fd-130">Select this type for the more complex courses.</span></span> <span data-ttu-id="344fd-131">Piemēram, kursu darba kārtību var sadalīt tēmās un sesijās.</span><span class="sxs-lookup"><span data-stu-id="344fd-131">For example, you can divide the agenda for the course into tracks and sessions.</span></span>
 <ul>
-<li><span data-ttu-id="d233f-132"><strong>Tēma</strong> — tēmas ir kursu specifiskās jomas.</span><span class="sxs-lookup"><span data-stu-id="d233f-132"><strong>Track</strong> – Tracks are specific subject areas for a course.</span></span></li>
-<li><span data-ttu-id="d233f-133"><strong>Sesijas</strong> — tēmas ir sīkāk sadalītas sesijās, un sesijas palīdz identificēt tēmai specifiskos procesus vai metodes.</span><span class="sxs-lookup"><span data-stu-id="d233f-133"><strong>Sessions</strong> – Sessions divide up tracks and help identify specific processes or techniques that are relevant to the track.</span></span></li>
+<li><span data-ttu-id="344fd-132"><strong>Tēma</strong> — tēmas ir kursu specifiskās jomas.</span><span class="sxs-lookup"><span data-stu-id="344fd-132"><strong>Track</strong> – Tracks are specific subject areas for a course.</span></span></li>
+<li><span data-ttu-id="344fd-133"><strong>Sesijas</strong> — tēmas ir sīkāk sadalītas sesijās, un sesijas palīdz identificēt tēmai specifiskos procesus vai metodes.</span><span class="sxs-lookup"><span data-stu-id="344fd-133"><strong>Sessions</strong> – Sessions divide up tracks and help identify specific processes or techniques that are relevant to the track.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="course-tasks"></a><span data-ttu-id="d233f-134">Kursu uzdevumi</span><span class="sxs-lookup"><span data-stu-id="d233f-134">Course tasks</span></span>
-<span data-ttu-id="d233f-135">Katram kursam var izpildīt šādus uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="d233f-135">For each course, you can complete the following tasks.</span></span>
-- <span data-ttu-id="d233f-136">Reģistrēt dalībniekus</span><span class="sxs-lookup"><span data-stu-id="d233f-136">Register participants</span></span>
-- <span data-ttu-id="d233f-137">Norādīt reģistrācijas termiņu</span><span class="sxs-lookup"><span data-stu-id="d233f-137">Specify a registration deadline</span></span>
-- <span data-ttu-id="d233f-138">Definēt minimālo un maksimālo dalībnieku skaitu</span><span class="sxs-lookup"><span data-stu-id="d233f-138">Define the minimum and maximum number of participants</span></span>
-- <span data-ttu-id="d233f-139">Piešķirt kursa atrašanās vietu un mācību telpu</span><span class="sxs-lookup"><span data-stu-id="d233f-139">Assign a course location and classroom</span></span>
-- <span data-ttu-id="d233f-140">Kursu dalībniekiem ieteikt viesnīcas</span><span class="sxs-lookup"><span data-stu-id="d233f-140">Recommend hotels to course participants</span></span>
-- <span data-ttu-id="d233f-141">Veidot kursa aprakstu, ko pēc tam varat reklamēt darbinieku pašapkalpošanās pakalpojumā</span><span class="sxs-lookup"><span data-stu-id="d233f-141">Create a course description, which you can then advertise on Employee self service</span></span>
+## <a name="course-tasks"></a><span data-ttu-id="344fd-134">Kursu uzdevumi</span><span class="sxs-lookup"><span data-stu-id="344fd-134">Course tasks</span></span>
+<span data-ttu-id="344fd-135">Katram kursam var izpildīt šādus uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="344fd-135">For each course, you can complete the following tasks.</span></span>
+- <span data-ttu-id="344fd-136">Reģistrēt dalībniekus</span><span class="sxs-lookup"><span data-stu-id="344fd-136">Register participants</span></span>
+- <span data-ttu-id="344fd-137">Norādīt reģistrācijas termiņu</span><span class="sxs-lookup"><span data-stu-id="344fd-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="344fd-138">Definēt minimālo un maksimālo dalībnieku skaitu</span><span class="sxs-lookup"><span data-stu-id="344fd-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="344fd-139">Piešķirt kursa atrašanās vietu un mācību telpu</span><span class="sxs-lookup"><span data-stu-id="344fd-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="344fd-140">Kursu dalībniekiem ieteikt viesnīcas</span><span class="sxs-lookup"><span data-stu-id="344fd-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="344fd-141">Veidot kursa aprakstu, ko pēc tam varat reklamēt darbinieku pašapkalpošanās pakalpojumā</span><span class="sxs-lookup"><span data-stu-id="344fd-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
-  ><span data-ttu-id="d233f-142">**Piezīme.** Kursu varat dzēst tikai tad, ja tam neviens nav reģistrējies.</span><span class="sxs-lookup"><span data-stu-id="d233f-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
+  ><span data-ttu-id="344fd-142">**Piezīme.** Kursu varat dzēst tikai tad, ja tam neviens nav reģistrējies.</span><span class="sxs-lookup"><span data-stu-id="344fd-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
 
-## <a name="course-statuses"></a><span data-ttu-id="d233f-143">Kursu statusi</span><span class="sxs-lookup"><span data-stu-id="d233f-143">Course statuses</span></span>
-<span data-ttu-id="d233f-144">Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, kuras varat pabeigt, kad kursam ir specifisks statuss.</span><span class="sxs-lookup"><span data-stu-id="d233f-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
+## <a name="course-statuses"></a><span data-ttu-id="344fd-143">Kursu statusi</span><span class="sxs-lookup"><span data-stu-id="344fd-143">Course statuses</span></span>
+<span data-ttu-id="344fd-144">Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, kuras varat pabeigt, kad kursam ir specifisks statuss.</span><span class="sxs-lookup"><span data-stu-id="344fd-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d233f-145">Statuss</span><span class="sxs-lookup"><span data-stu-id="d233f-145">Status</span></span></th>
-<th><span data-ttu-id="d233f-146">Darbības</span><span class="sxs-lookup"><span data-stu-id="d233f-146">Actions</span></span></th>
+<th><span data-ttu-id="344fd-145">Statuss</span><span class="sxs-lookup"><span data-stu-id="344fd-145">Status</span></span></th>
+<th><span data-ttu-id="344fd-146">Darbības</span><span class="sxs-lookup"><span data-stu-id="344fd-146">Actions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="d233f-147"><strong>Izveidots</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-147"><strong>Created</strong></span></span></td>
+<td><span data-ttu-id="344fd-147"><strong>Izveidots</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-147"><strong>Created</strong></span></span></td>
 <td><ul>
-<li><span data-ttu-id="d233f-148">Ievadiet un modificējiet kursu informāciju.</span><span class="sxs-lookup"><span data-stu-id="d233f-148">Enter and modify course information.</span></span></li>
-<li><span data-ttu-id="d233f-149">Kursu statusu mainiet uz <strong>Atvērts</strong>, lai darbinieki varētu reģistrēties šim kursam.</span><span class="sxs-lookup"><span data-stu-id="d233f-149">Change the course status to <strong>Open</strong> so that workers can register for the course.</span></span></li>
+<li><span data-ttu-id="344fd-148">Ievadiet un modificējiet kursu informāciju.</span><span class="sxs-lookup"><span data-stu-id="344fd-148">Enter and modify course information.</span></span></li>
+<li><span data-ttu-id="344fd-149">Kursu statusu mainiet uz <strong>Atvērts</strong>, lai darbinieki varētu reģistrēties šim kursam.</span><span class="sxs-lookup"><span data-stu-id="344fd-149">Change the course status to <strong>Open</strong> so that workers can register for the course.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="d233f-150"><strong>Atvērts</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-150"><strong>Open</strong></span></span></td>
+<td><span data-ttu-id="344fd-150"><strong>Atvērts</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-150"><strong>Open</strong></span></span></td>
 <td><ul>
-<li><span data-ttu-id="d233f-151">Reģistrējiet dalībniekus kursiem.</span><span class="sxs-lookup"><span data-stu-id="d233f-151">Register participants for the course.</span></span></li>
-<li><span data-ttu-id="d233f-152">Dzēsiet kursu dalībniekus.</span><span class="sxs-lookup"><span data-stu-id="d233f-152">Remove participants from the course.</span></span></li>
-<li><span data-ttu-id="d233f-153">Apstipriniet kursu dalībniekus.</span><span class="sxs-lookup"><span data-stu-id="d233f-153">Confirm participants for the course.</span></span></li>
-<li><span data-ttu-id="d233f-154">Mainiet kursa statusu uz <strong>Slēgts</strong> vai <strong>Atcelts</strong>.</span><span class="sxs-lookup"><span data-stu-id="d233f-154">Change the course status to <strong>Closed</strong> or <strong>Canceled</strong>.</span></span></li>
-<li><span data-ttu-id="d233f-155">Plānojiet anketas darbiniekiem, kuru statuss ir <strong>Apstiprināts</strong>.</span><span class="sxs-lookup"><span data-stu-id="d233f-155">Plan questionnaires for participants whose status is <strong>Confirmed</strong>.</span></span></li>
+<li><span data-ttu-id="344fd-151">Reģistrējiet dalībniekus kursiem.</span><span class="sxs-lookup"><span data-stu-id="344fd-151">Register participants for the course.</span></span></li>
+<li><span data-ttu-id="344fd-152">Dzēsiet kursu dalībniekus.</span><span class="sxs-lookup"><span data-stu-id="344fd-152">Remove participants from the course.</span></span></li>
+<li><span data-ttu-id="344fd-153">Apstipriniet kursu dalībniekus.</span><span class="sxs-lookup"><span data-stu-id="344fd-153">Confirm participants for the course.</span></span></li>
+<li><span data-ttu-id="344fd-154">Mainiet kursa statusu uz <strong>Slēgts</strong> vai <strong>Atcelts</strong>.</span><span class="sxs-lookup"><span data-stu-id="344fd-154">Change the course status to <strong>Closed</strong> or <strong>Canceled</strong>.</span></span></li>
+<li><span data-ttu-id="344fd-155">Plānojiet anketas darbiniekiem, kuru statuss ir <strong>Apstiprināts</strong>.</span><span class="sxs-lookup"><span data-stu-id="344fd-155">Plan questionnaires for participants whose status is <strong>Confirmed</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="d233f-156"><strong>Slēgts</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-156"><strong>Closed</strong></span></span></td>
-<td><span data-ttu-id="d233f-157">Kursus var atvērt atkārtoti.</span><span class="sxs-lookup"><span data-stu-id="d233f-157">You can reopen the course.</span></span></td>
+<td><span data-ttu-id="344fd-156"><strong>Slēgts</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-156"><strong>Closed</strong></span></span></td>
+<td><span data-ttu-id="344fd-157">Kursus var atvērt atkārtoti.</span><span class="sxs-lookup"><span data-stu-id="344fd-157">You can reopen the course.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="d233f-158"><strong>Atcelts</strong></span><span class="sxs-lookup"><span data-stu-id="d233f-158"><strong>Canceled</strong></span></span></td>
-<td><span data-ttu-id="d233f-159">Kursus var atvērt atkārtoti.</span><span class="sxs-lookup"><span data-stu-id="d233f-159">You can reopen the course.</span></span></td>
+<td><span data-ttu-id="344fd-158"><strong>Atcelts</strong></span><span class="sxs-lookup"><span data-stu-id="344fd-158"><strong>Canceled</strong></span></span></td>
+<td><span data-ttu-id="344fd-159">Kursus var atvērt atkārtoti.</span><span class="sxs-lookup"><span data-stu-id="344fd-159">You can reopen the course.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="course-participants"></a><span data-ttu-id="d233f-160">Kursu dalībnieki</span><span class="sxs-lookup"><span data-stu-id="d233f-160">Course participants</span></span>
-<span data-ttu-id="d233f-161">Kursu dalībnieki ir darbinieki, kandidāti vai kontaktpersonas, kuri piedalās apmācības kursos vai pasākumā.</span><span class="sxs-lookup"><span data-stu-id="d233f-161">Course participants are workers, applicants, or contact persons who participate in a training course or event.</span></span> <span data-ttu-id="d233f-162">Dalībniekus var reģistrēt tikai atvērtiem kursiem.</span><span class="sxs-lookup"><span data-stu-id="d233f-162">You can only register participants for open courses.</span></span> <span data-ttu-id="d233f-163">Minimālais un maksimālais dalībnieku skaits, ko varat reģistrēt vienam kursam, ir noteikts kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.</span><span class="sxs-lookup"><span data-stu-id="d233f-163">The minimum and maximum number of participants that you can register for a course is defined on the **General** FastTab on the **Courses** page.</span></span>
+## <a name="course-participants"></a><span data-ttu-id="344fd-160">Kursu dalībnieki</span><span class="sxs-lookup"><span data-stu-id="344fd-160">Course participants</span></span>
+<span data-ttu-id="344fd-161">Kursu dalībnieki ir darbinieki, kuri piedalās apmācības kursos vai notikumā.</span><span class="sxs-lookup"><span data-stu-id="344fd-161">Course participants are workers who participate in a training course or event.</span></span> <span data-ttu-id="344fd-162">Dalībniekus var reģistrēt tikai atvērtiem kursiem.</span><span class="sxs-lookup"><span data-stu-id="344fd-162">You can only register participants for open courses.</span></span> <span data-ttu-id="344fd-163">Minimālais un maksimālais dalībnieku skaits, ko varat reģistrēt vienam kursam, ir noteikts kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.</span><span class="sxs-lookup"><span data-stu-id="344fd-163">The minimum and maximum number of participants that you can register for a course is defined on the **General** FastTab on the **Courses** page.</span></span>
 
-<a name="workflow"></a><span data-ttu-id="d233f-164">Darbplūsma</span><span class="sxs-lookup"><span data-stu-id="d233f-164">Workflow</span></span>
+<a name="workflow"></a><span data-ttu-id="344fd-164">Darbplūsma</span><span class="sxs-lookup"><span data-stu-id="344fd-164">Workflow</span></span>
 --------
 
-<span data-ttu-id="d233f-165">Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku pašapkalpošanās**, savu reģistrāciju var maršrutēt apstiprināšanai caur darbplūsmu.</span><span class="sxs-lookup"><span data-stu-id="d233f-165">Employees who register for a course through the **Employee self service** page can have their registration routed through workflow for approval.</span></span>  <span data-ttu-id="d233f-166">Darbplūsmu kursam var piešķirt kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.</span><span class="sxs-lookup"><span data-stu-id="d233f-166">A workflow can be assigned to a course on the **General** FastTab on the **Courses** page.</span></span>
+<span data-ttu-id="344fd-165">Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku pašapkalpošanās**, savu reģistrāciju var maršrutēt apstiprināšanai caur darbplūsmu.</span><span class="sxs-lookup"><span data-stu-id="344fd-165">Employees who register for a course through the **Employee self service** page can have their registration routed through workflow for approval.</span></span> <span data-ttu-id="344fd-166">Darbplūsmu kursam varat piešķirt kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.</span><span class="sxs-lookup"><span data-stu-id="344fd-166">You can assign a workflow to a course on the **General** FastTab on the **Courses** page.</span></span>
 
 
 
