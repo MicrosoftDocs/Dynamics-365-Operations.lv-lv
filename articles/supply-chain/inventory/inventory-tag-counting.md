@@ -1,9 +1,9 @@
 ---
 title: Krājumu etiķešu inventarizācija
-description: Šajā rakstā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem.
+description: Šajā tēmā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff899d0e6d94287c0f1924fe1787189d79c09f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570838"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624865"
 ---
 # <a name="inventory-tag-counting"></a>Krājumu etiķešu inventarizācija
 
@@ -31,11 +31,10 @@ ms.locfileid: "1570838"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Šajā rakstā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem.
+Šajā tēmā ir sniegta informācija par etiķešu uzskaiti, kuru izmantojat, lai noliktavas faktisko saturu salīdzinātu ar rīcībā esošajiem krājumiem.
 
 Izveidojot rindas lapā **Etiķešu skaitīšana**, katrai krājuma vienībai tiek piešķirts etiķetes numurs, piemēram, skaitlis no 1 līdz 500. Inventarizācijas laikā jūs ievadāt krājuma numuru un daudzumu, kas ir norādīts attiecīgajā etiķetē. Šo etiķeti pēc tam var izmantot par pamatu ievadei etiķešu inventarizācijas žurnālā. Pēc etiķešu inventarizācijas žurnāla grāmatošanas lapā **Inventarizācija** tiek izveidots jauns inventarizācijas žurnāls. Jaunais žurnāls balstās uz etiķešu inventarizācijas žurnāla rindām, kuras izveidojāt. Lai veiktu krājumu etiķešu uzskaiti pēc noteiktas krājumu dimensijas, atlasiet dimensiju lapā **Parādīt dimensijas**, kas tiek parādīta, izveidojot etiķešu inventarizācijas žurnālu. Piemēram, lai saskaitītu krājumus noteiktā noliktavā, atzīmējiet izvēles rūtiņu **Noliktava**. Ja ir atlasīts slīdnis **Bloķēt krājumus inventarizācijas laikā** lapā **Krājumu un noliktavas pārvaldības parametri**, krājumus nevar fiziski atjaunināt inventarizācijas laikā. Tomēr krājumi etiķešu inventarizācijas žurnālos inventarizācijas laikā nav bloķēti. Krājumu darbības netiek veidotas, kamēr etiķešu inventarizācijas žurnāla rindas nav grāmatotas un pārsūtītas uz inventarizācijas žurnālu. Ja etiķetes tiek ievadītas izlases veidā un jūs vēlaties noteikt trūkstošās etiķetes, noklikšķiniet uz kolonnas virsraksta **Etiķete**, lai kārtotu rindas pēc etiķetes.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Cikla inventarizācija](../warehousing/cycle-counting.md)

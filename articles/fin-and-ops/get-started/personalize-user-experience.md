@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620018"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625015"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -169,6 +169,6 @@ Lietotāji ar administratora privilēģijām lapā **Personalizācija** var arī
 
 Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, jūs izmantojat personalizāciju, lai paslēptu kolonnu partijas numuru krājumu dimensijai, bet šī kolonna tiek rādīta nākamajā reizē, kad lapa tiek atvērta. Tā notiek, jo iestatījumi **Dimensiju rādīšana** kontrolē, kuras krājumu dimensiju kolonnas tiek rādītas.
 
-Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
+Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem katrā atsevišķā lapā.
 
-Tādējādi, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme tabulas opcijas **Parādīt dimensijas** ietvaros. Galu galā šīs izmaiņas attieksies ne tikai uz vienu konkrēto lapu, bet uz visām lapām.
+Tādējādi, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai lapā tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme konkrētās lapas opcijas **Parādīt dimensijas** ietvaros.

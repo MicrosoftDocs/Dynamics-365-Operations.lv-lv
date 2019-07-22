@@ -3,7 +3,7 @@ title: Līdzekļu pārvaldības pārskats
 description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: b200156a623c67a562cc1a5952899e3a77517528
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619148"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632057"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Katrā pakalpojuma Microsoft Dynamics 365 for Finance and Operations laidienā tiek pievienoti un atjaunināti līdzekļi. Pieredze Līdzekļu pārvaldība nodrošina darbvietu, kur varat skatīt katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju.
 

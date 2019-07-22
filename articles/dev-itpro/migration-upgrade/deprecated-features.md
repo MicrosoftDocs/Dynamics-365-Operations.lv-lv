@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620649"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624911"
 ---
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
@@ -40,7 +40,10 @@ ms.locfileid: "1620649"
 
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francija: FEC uzskaites datu eksports XML formātā
 
@@ -52,17 +55,12 @@ ms.locfileid: "1620649"
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis. Funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada jūlijs. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Mantotā navigācijas josla
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Galvenes līdzinājums ar citiem Dynamics un Office produktiem. Plašāku informāciju skatiet tēmā [Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Novecošanas/noņemšanas pamatojums** | Galvenes līdzinājums ar citiem Dynamics un Office produktiem. Plašāku informāciju skatiet tēmā [Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar atjauninājumu Platform update 24, tika ieviesta pārveidota navigācijas josla ar meklēšanas iespējām. |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visus |
@@ -71,8 +69,6 @@ ms.locfileid: "1620649"
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 ar 26. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Mantotā noklusējuma darbību uzvedība
 
@@ -116,9 +112,6 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada aprīlis. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 ar 25. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Novecojušie API un iespējamas traucējumus radošas izmaiņas
 

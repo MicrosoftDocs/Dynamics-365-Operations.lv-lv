@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 for Finance and Operations normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593347"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624315"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -66,6 +66,13 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |      Gaida            |   10.0.3      | Polija     |   SAF rēķini (JPK_FA) v.2 no 2019. gada 1. jūlija  |
 |      Gaida            |   10.0.3      | Brazīlija   |   ICMS fiskālo dokumentu korekciju iespējošanas tabula 5.2   |
 |      Gaida            |   10.0.3      | Brazīlija    |   NF-e dekrēts 54.308/18 (RS)   |
+  | Gaida            |   10.0.4      | Brazīlija    |   Ienākošais finanšu dokuments 66   |
+   | Gaida            |   10.0.4      | Brazīlija    |   NF-e un NFC-e — rezolūcija 13/2019 un valdības rīkojums SUCIEF 55/2019- RJ — jauni nosacījumi neapliekamo summu tagu izvadei ar NF-e.   |
+   | Gaida            |   10.0.4      | Indija   |   Vienumu “Piegādes vieta” un “Štats” rādīšana GST nodokļu rēķinā  |
+   | Gaida            |   10.0.4      | Meksika   |  DIOT trešās puses deklarācija — izmaiņas izkārtojumā 2019   |
+   | Gaida            |   10.0.4      | Brazīlija    |   NF-e ICMS-ST — valdības rīkojums CAT 42/18 par SP stāvokli — CAT 42/18
+   | Gaida            |   10.0.4      | Brazīlija    |   NF-e dekrēts 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Papildu resursi

@@ -3,7 +3,7 @@ title: Power BI satura pakotne Skaidras naudas apskats
 description: Šajā tēmā ir aprakstīta Power BI satura pakotne Skaidras naudas apskats. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568921"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702799"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI satura pakotne Skaidras naudas apskats
 
@@ -33,6 +33,17 @@ ms.locfileid: "1568921"
 
 Power BI satura pakotne **Skaidras naudas apskats** ir izveidota personām, kuras ir atbildīgas par skaidru naudu savā organizācijā. Power BI satura pakotne **Skaidras naudas apskats** nodrošina naudas plūsmas pārskatāmību. Tas nodrošina arī prognozes, kas var palīdzēt pieņemt labākus lēmumus un tādējādi uzlabot naudas plūsmas rādītājus. Var analizēt skaidro naudu pēc juridiskās personas, valūtas un bankas konta, lai labāk saprastu pārpalikumus un iztrūkumus.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Power BI satura skatīšanai nepieciešamie iestatījumi
+
+Lai dati tiktu rādīti darbvietu **Skaidras naudas apskats** un **Bankas pārvaldība** Power BI vizuālajos līdzekļos, ir jāveic tālāk norādītā iestatīšana.
+
+1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
+2. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
+2. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu, starp uzskaites valūtu un sistēmas valūtu, starp uzskaites valūtu un bankas valūtām. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
+3. Konfigurējiet un palaidiet rīku Naudas plūsmas prognozēšana. Plašāku informāciju par to, kā iestatīt rīku Naudas plūsmas prognozēšana, skatiet tēmā <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Naudas plūsmas prognozēšana</a>. 
+4. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **LedgerCovLiquidityMeasurement**.
+
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 
 Power BI satura pakotnes **Skaidras naudas apskats** pārskati tiek rādīti darbvietās **Skaidras naudas apskats** un **Bankas pārvaldība**.
@@ -42,6 +53,7 @@ Lai skatītu naudas plūsmas prognožu pārskatus ar datiem, jums vispirms ir j�
 Demonstrācijas nolūkos varat pievienot naudas plūsmas prognožu demonstrācijas datus, izmantojot modulī Demonstrācijas dati esošo lapu **Ģenerēt datus**.  Šis skripts ievietos datus naudas plūsmas prognožu tabulās, lai ātri aizpildītu pārskatiem nepieciešamo informāciju.  Šis modulis ir pieejams tikai tad, ja vidē ir izvietots demonstrācijas datu komplekta modelis. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
+
 Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem, kas ir iekļauti katrā Power BI satura pakotnes **Skaidras naudas apskats** pārskata lapā.
 
 | Pārskats                                | Saturs |
@@ -67,5 +79,3 @@ Tālāk esošajā tabulā ir norādīti elementi, kas tiek izmantoti Power BI sa
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Kopsavilkums par skaidras naudas ieejas un izejas plūsmām un bilanci katra uzņēmuma uzskaites valūtā |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Kopsavilkums par skaidras naudas ieejas un izejas plūsmām un bilanci sistēmas valūtā visiem uzņēmumiem |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Kopsavilkums par transakcijas neto summu un bilanci noteiktās valūtās, izmantojot transakcijas valūtu |
-
-

@@ -3,7 +3,7 @@ title: Mazumtirdzniecības pārdošanas cenu pārvaldība
 description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
-ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
+ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1594074"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624793"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
@@ -234,6 +234,6 @@ Turklāt **tikai** mazumtirdzniecības cenu noteikšanas programma atbalsta tāl
 
 ## <a name="pricing-api-enhancements"></a>Cenu noteikšanas API uzlabojumi
 
-Cena ir viens no vissvarīgākajiem faktoriem, kas nosaka daudzu klientu lēmumus par pirkšanu, un daudzi klienti pirms pirkuma veikšanas salīdzina cenas dažādās vietās. Lai mazumtirgotāji varētu garantēt, ka piedāvā konkurētspējīgas cenas, šiem mazumtirgotājiem ir cieši jāuzmana savi konkurenti un bieži jāorganizē veicināšanas pasākumi. Tādēļ, lai palīdzētu šiem mazumtirgotājiem piesaistīt klientus, ir ļoti svarīgi, ka preču meklēšana, pārlūkošanas līdzeklis, saraksti un preču informācijas lapa rāda visprecīzākās cenas.
+Cena ir viens no vissvarīgākajiem faktoriem, kas kontrolē daudzu klientu lēmumus par pirkšanu, un daudzi klienti pirms pirkuma veikšanas salīdzina cenas dažādās vietās. Lai mazumtirgotāji varētu nodrošināt, ka viņi piedāvā konkurētspējīgas cenas, šiem mazumtirgotājiem ir cieši jāuzmana savi konkurenti un bieži jāorganizē veicināšanas pasākumi. Lai palīdzētu šiem mazumtirgotājiem piesaistīt klientus, ir ļoti svarīgi, ka preču meklēšana, pārlūkošanas līdzeklis, saraksti un preču informācijas lapa rāda visprecīzākās cenas.
 
 Turpmākā Retail laidienā lietojumprogrammu programmēšanas interfeiss (application programming interface — API) **GetActivePrices** atgriezīs cenas, kas ietver vienkāršas atlaides (piemēram, vienrindas atlaides, kas nav atkarīgas no citiem grozā esošajiem vienumiem). Šādi rādītās cenas ir tuvas faktiskajai summai, ko klienti maksās par vienumiem. Šis API ietver visus vienkāršo atlaižu tipus: uz piederību balstītās, uz lojalitāti balstītās, uz katalogu balstītās un uz kanālu balstītās atlaides. Turklāt API atgriezīs arī lietoto atlaižu nosaukumus un informāciju par to derīguma termiņu, lai mazumtirgotāji varētu sniegt detalizētāku aprakstu par preci un radīt steidzamības sajūtu, ja atlaides derīguma termiņš drīz beigsies.

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557333"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624888"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Projekta darba laika uzskaites tabulas mobilajā ierīcē
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Pārskats
 
 **Manas darba laika uzskaites tabulas (optimizētas mobilajām ierīcēm)** ļauj darbiniekiem izveidot un iesniegt projekta darba laika uzskaites tabulas, lai reģistrētu savas stundas noteiktam projektam mobilajā ierīcē. Darbinieki var izveidot jaunu darba laika uzskaites tabulu vai kopēt datus no esošas darba laika uzskaites tabulas, lai nodrošinātu ātru un precīzu laika ievadi. Ja tiekat nozīmēts kā pārstāvis, jūs varat arī aizpildīt cita darbinieka darba laika uzskaites tabulu. Programma ļauj darbiniekiem veikt filtrēšanu pēc projekta, resursa vai apstiprinājuma statusa, lai ātri atrastu un atlasītu darba laika uzskaites tabulu. Tā arī nodrošina darbiniekiem iespēju saglabāt izlases, tādējādi saglabājot projekta un aktivitāšu informāciju par darba laika uzskaites tabulu. Saglabātās izlases var izmantot, lai turpmāk izveidotu darba laika uzskaites tabulas, padarot ātrāku laika ievades procesu. Mobilajā programmā netiek atbalstīta finanšu dimensiju informācijas rediģēšana vai skatīšana. Lapai **Manas darba laika uzskaites tabulas (optimizētas mobilajām ierīcēm)** var piekļūt, izmantojot tīmekļa pārlūkprogrammu mobilajā ierīcē.
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557333"
 Šī mobilā lietojumprogramma ir saderīga ar tālruni iPhone, izmantojot Dynamics 365 for Finance and Operations 15. platformas atjauninājumu.
 Android ierīces būs saderīgas ar 16. platformas atjauninājumu, kad tas kļūs pieejams.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Projekta darba laika uzskaites tabulas izveide mobilajā ierīcē
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Projekta darba laika uzskaites tabulas izveide mobilajā ierīcē
 
 1.  Pievērsiet uzmanību Dynamics 365 URL lapai **Projektu pārvaldība un uzskaite** \> **Darba laika uzskaites tabulas** \> **Manas darba laika uzskaites tabulas (optimizētas mobilajām ierīcēm)**.
 

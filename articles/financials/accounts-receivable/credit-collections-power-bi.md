@@ -3,7 +3,7 @@ title: Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Kredītu un iekasēšanas pārvaldība. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547236"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702776"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 
@@ -42,7 +42,17 @@ Visas summas ir norādītas sistēmas valūtā. Sistēmas valūtu varat iestatī
 
 Pēc noklusējuma tiek rādīti pašreizējā uzņēmuma kredītu un iekasēšanas dati. Lai skatītu visu uzņēmumu datus, piešķiriet lomai pienākumu **CustCollectionsBICrossCompany**.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Power BI satura skatīšanai nepieciešamie iestatījumi
+
+Lai dati tiktu rādīti darbvietas **Debitoru kredīti un iekasēšana** Power BI vizuālajos līdzekļos, ir jāveic tālāk norādītā iestatīšana.
+
+1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
+2. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata** un iestatiet vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
+3. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
+4. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
+
 Power BI satura pakotne **Kredītu un iekasēšanas pārvaldība** tiek rādīta darbvietā **Debitoru kredīti un iekasēšana**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati
@@ -63,28 +73,3 @@ Power BI satura pakotnē **CustCollectionsBICrossCompany** ir ietverts pārskats
 | Atgādinājuma vēstules         | <ul><li>Atgādinājuma koda summas</li><li>Detalizēta informācija iekasēšanas koda summu</li><li>Atgādinājuma vēstules summa pēc uzņēmuma</li><li>Atgādinājuma vēstules summa pēc debitoru grupas</li><li>Atgādinājuma vēstules summa pēc reģiona</li></ul> |
 
 Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
-
-## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
-
-Power BI satura pakotnes **Kredītu un iekasēšanas pārvaldība** pārskata aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Apskats par Power BI integrāciju elementu krātuvē](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Elements                    |      Galvenie apkopošanas mērījumi      |             Datu avots              |                           Lauks                            |                                    Apraksts                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Slēgto aktivitāšu skaits un vidējais šo aktivitāšu slēgšanas laiks.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Atvērto aktivitāšu skaits.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Veco bilanču summa.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Summas, kuru apmaksa ir nokavēta.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Slēgto pieteikumu skaits un vidējais šo pieteikumu slēgšanas laiks.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Atvērto pieteikumu skaits.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Atvērto atgādinājuma vēstuļu skaits.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Grāmatoto atgādinājuma vēstuļu bilance.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Transakciju ar iekasēšanas statusu bilance.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Kredītriska summa un debitoru kredīta limita pārsniegšanas summas |
-|         CustCollectionsBICustOnHold         |               Bloķēta                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Aizturēto debitoru skaits.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Vidējais maksājuma saņemšanas laiks 30 dienās.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Nākamā gada laikā paredzēto maksājumu summa.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Izveidoto procentu paziņojumu skaits.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Visu aizturēto pārdošanas pasūtījumu skaits.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Norakstīto transakciju summa.                 |
-
