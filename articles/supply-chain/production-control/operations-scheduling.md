@@ -3,7 +3,7 @@ title: Operāciju plānošana
 description: Šajā tēmā ir sniegta informācija par operāciju plānošanu. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560267"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691466"
 ---
 # <a name="operations-scheduling"></a>Operāciju plānošana
 
@@ -67,6 +67,9 @@ Operāciju plāns vada arī vispārējo plānošanu un nosaka materiālu vajadz�
 -   **Nepabeigtā ražošana** — preces ir plānotas, izlaistas vai iesāktas ražot
 -   **Materiālu pieejamība** — krājumi, apakšražošana, piegādātāji un kreditori
 -   **Noslodzes pieejamība** — ražošanai nepieciešamie resursi
+
+> [!NOTE]
+> Ja izmantojat vairākpavedienu vispārējo plānošanu un operāciju plānošanu, ierobežota noslodze netiks ņemta vērā. 
 
 ## <a name="cancellations"></a>Atcelšanas
 Izpildot operāciju plānošanu, var atcelt noteiktas maršruta daļas. Šīs daļas ietver gaidīšanas laiku, uzstādīšanas laiku, apstrādes laiku, pārklāšanās laiku un transportēšanas laikus.

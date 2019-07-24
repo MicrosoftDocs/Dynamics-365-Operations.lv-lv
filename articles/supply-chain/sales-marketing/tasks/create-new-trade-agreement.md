@@ -3,7 +3,7 @@ title: Jauna pakalpojumu līguma izveide
 description: Šajā procedūrā parādīts, kā izveidot tirdzniecības līgumu, kur reģistrēt jaunu preces pārdošanas cenu, par kuru vienojāties ar noteiktu debitoru.
 author: omulvad
 manager: AnnBe
-ms.date: 11/16/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e42383b237a60d41d3b4e09ffbbe1c1bb5ebbfd7
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549271"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711205"
 ---
 # <a name="create-a-new-trade-agreement"></a>Jauna pakalpojumu līguma izveide
 
@@ -30,40 +30,43 @@ ms.locfileid: "1549271"
 
 
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Jauna tirdzniecības līgumu žurnāla izveide un grāmatošana
-1. Dodieties uz sadaļu Pārdošana un mārketings > Cenas un atlaides > Tirdzniecības līgumu žurnāls.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Cenas un atlaides > Tirdzniecības līgumu žurnāli**.
+2. Klikšķiniet **Jauns**.
+3. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
 4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Noklikšķiniet uz Rindas.
-7. Laukā Konta kods atlasiet "Tabula".
-    * Šajā piemērā tiek atjaunināta cena noteiktam debitoram, kas nozīmē, ka jums ir jāizvēlas Tabula. Ja veicat preču saraksta cenas atjaunināšanu, jāatlasa Visi, lai jaunā cena būtu derīga visiem debitoriem. Ja cenas dažādos debitoru segmentos atšķiras, jāatlasa Grupa. Lai atlasītu Grupa, ir jāiestata Debitoru cenu grupas.  
-8. Laukā Konta atlase noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-10. Laukā Krājuma kods atlasiet "Tabula".
-    * Kad ievadāt tirdzniecības līgums ar tipu "Cena (pārdošana)", "Tabula" ir jāatlasa tikai laukā Krājuma kods. Tas ir tāpēc, ka cena ir absolūtā vērtība un nevar būt vienāda visiem produktiem vai produktu grupai.  
-11. Laukā Krājumu saistība noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-12. Sarakstā atlasiet preci, ko vēlaties ietvert līgumā.
-    * Atzīmējiet, kuru preci atlasījāt.  
-13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-14. Laukā No ievadiet minimālo daudzumu.
-    * Ja debitoram ir jāpasūta minimālais daudzums, pirms tas var pretendēt uz jaunu cenu, tad ir jānorāda daudzums šeit.  
-    * Ievadiet vērtību laukā Līdz, lai norādītu maksimālo daudzumu, virs kura līguma cena vairs nebūs derīga. Ja piedāvājat cenas un atlaides, pamatojoties uz vairākiem daudzumu pārtraukumiem, norādiet katru daudzumu grupu kā minimālā un maksimālā daudzuma pāri attiecīgi laukos "No" un "Līdz".  
-15. Laukā Summa valūtā ievadiet cenu.
-16. Laukā No datuma ievadiet datumu, no kura šis līgums ir spēkā.
-17. Noklikšķiniet uz Saglabāt.
-18. Noklikšķiniet uz Pārbaudīt.
-19. Noklikšķiniet uz Validēt atlasītās rindas.
-20. Noklikšķiniet uz OK.
-21. Noklikšķiniet uz Grāmatot.
-22. Noklikšķiniet uz OK.
+5. **Darbību rūtī** noklikšķiniet uz **Rindas**.
+6. Laukā **Konta kods** atlasiet “Tabula”.
+    
+    Šajā piemērā tiek atjaunināta cena noteiktam debitoram, kas nozīmē, ka jums ir jāizvēlas Tabula. Ja veicat preču saraksta cenas atjaunināšanu, jāatlasa “Visi”, lai jaunā cena būtu derīga visiem debitoriem. Ja cenas dažādos debitoru segmentos atšķiras, jāatlasa Grupa. Lai atlasītu Grupa, ir jāiestata Debitoru cenu grupas.  
+
+7. Laukā **Konta atlase** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+9. Laukā **Krājuma kods** atlasiet “Tabula”.
+    
+    Ja ievadāt tirdzniecības līgumu, kura tips ir “Cena (pārdošana)”, laukā **Krājuma kods** ir jāatlasa tikai “Tabula”. Tas ir tāpēc, ka cena ir absolūtā vērtība un nevar būt vienāda visiem produktiem vai produktu grupai.
+    
+10. Laukā **Krājumu saistība** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+11. Sarakstā atlasiet preci, ko vēlaties ietvert līgumā. Atzīmējiet, kuru preci atlasījāt.  
+12. Laukā **No** ievadiet minimālo daudzumu.
+    - Ja debitoram ir jāpasūta minimālais daudzums pirms tas var pretendēt uz jaunu cenu, tad ir jānorāda daudzums šeit.  
+    - Ievadiet vērtību laukā **Līdz**, lai norādītu maksimālo daudzumu, kuru pārsniedzot līguma cena vairs nebūs spēkā. Ja piedāvājat cenas un atlaides, pamatojoties uz vairākiem daudzuma sadalījuma variantiem, norādiet katru daudzuma grupu kā minimālā un maksimālā daudzuma pāri attiecīgi laukos **No** un **Līdz**.
+13. Laukā **Summa valūtā** ievadiet cenu.
+14. Sadaļā **Detalizēta informācija** laukā **Sākuma datums** ievadiet datumu, no kura šis līgums ir spēkā.
+15. Noklikšķiniet uz **Saglabāt**.
+16. Noklikšķiniet uz **Validēt**.
+17. Noklikšķiniet uz **Validēt atlasītās rindas.**
+18. Noklikšķiniet uz **Labi**.
+19. Noklikšķiniet uz **Grāmatot**.
+20. Noklikšķiniet uz **Labi**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Ar preci saistīto tirdzniecības līgumu skatīšana
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Preču informācijas pārvaldība > Preces > Tirdzniecībā izlaistās preces**.
 2. Sarakstā atrodiet un atlasiet preci, kuras cenu tikko atjaunojāt.
-3. Darbību rūtī noklikšķiniet uz Pārdot.
-4. Noklikšķiniet uz Skatīt tirdzniecības līgumus.
-    * Pārskatiet detalizētu informāciju par tikko izveidoto cenu tirdzniecības līgumu.    
+3. **Darbību rūtī**noklikšķiniet uz **Pārdošana**.
+4. Noklikšķiniet uz **Skatīt tirdzniecības līgumus**.
+    
+    Pārskatiet detalizētu informāciju par tikko izveidoto cenu tirdzniecības līgumu.    
+
 5. Aizvērt lapu.
 
 ## <a name="additional-resources"></a>Papildu resursi

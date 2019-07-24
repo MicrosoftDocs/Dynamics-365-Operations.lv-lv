@@ -3,7 +3,7 @@ title: Kreditoru rēķinu pārskats
 description: Šajā tēmā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618277"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625083"
 ---
 # <a name="vendor-invoices-overview"></a>Kreditoru rēķinu pārskats
 
@@ -89,15 +89,8 @@ Kamēr kreditora rēķins tiek lietots, cits lietotājs to nevar rediģēt. Tač
 
 Varat izmantot lapu **Atkopt kreditoru rēķinus**, lai atkoptu vai izlaistu kreditoru rēķinus, kas tiek lietoti vairāk nekā četras stundas, un tos varētu rediģēt. Šo lapu var atvērt no navigācijas **Periodiskais uzdevums** vai elementa darbvietā **Kreditora rēķina ieraksts**. Kad rēķins ir atkopts, tas ir pieejams rediģēšanai lapā **Kreditora rēķins**.
 
-Lapai **Atkopt kreditoru rēķinus** varat piekļūt tikai tad, ja jums ir piešķirts drošības pienākums un privilēģija **Atkopt lietošanā esošus kreditoru rēķinus**. Turklāt ir jābūt ieslēgtam parametram **Atļaut kreditoru rēķinu atkopšanu** lapā **Parādu kreditoriem parametri**.
+Lapai **Atkopt kreditoru rēķinus** varat piekļūt tikai tad, ja jums ir piešķirts drošības pienākums un privilēģija **Atkopt lietošanā esošus kreditoru rēķinus**. Turklāt ir jābūt ieslēgtam parametram **Atļaut kreditoru rēķinu atkopšanu** lapā **Kreditoru moduļa parametri**.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Darbplūsmas statusa atiestatīšana kreditoru rēķiniem no Neatkopjama uz Melnraksts
-
-Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Ja kreditora rēķina darbplūsmas statuss ir **Neatkopjama**, varat atiestatīt to uz **Melnraksts**. Pēc tam varat rediģēt kreditora rēķinu. Šī funkcija ir pieejama, ja ir ieslēgts parametrs **Atiestatīt melnraksta statusu kreditora rēķina darbplūsmai** lapā **Līdzekļu pārvaldība**.
-
-Varat izmantot lapu **Atiestatīt kreditora rēķinu darbplūsmas statusu**, lai atiestatītu darbplūsmas statusu uz **Melnraksts**. Šo lapu varat atvērt, izmantojot navigāciju **Periodiskais uzdevums**. Lapā ir redzami visi kreditoru rēķini, kuriem pašreizējā juridiskajā personā darbplūsmas statuss ir **Neatkopjama**. Tajā ir norādīts arī lietotājs, kurš iesniedzis katru rēķinu darbplūsmā, un rēķina identifikators, kā arī saite uz darbplūsmas vēsturi. Lai atiestatītu darbplūsmas statusu **Melnraksts**, atzīmējiet vienu vai vairākus rēķinus un pēc tam atlasiet **Atjaunināt uz Melnraksts**. Kad darbplūsmas statuss tiek atiestatīts uz **Melnraksts**, tas kļūst pieejams labošanai lapā **Kreditora rēķins**.
-
-Lapai **Atiestatīt kreditora rēķinu darbplūsmas statusu** var piekļūt tikai tad, ja ir piešķirts drošības pienākums **Saglabāt kreditora rēķina darbplūsmas statusu** un atļauja **Atiestatīt kreditora rēķina darbplūsmas statusu**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

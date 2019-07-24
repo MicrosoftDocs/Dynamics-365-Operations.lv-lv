@@ -3,7 +3,7 @@ title: Finance and Operations palīdzības sistēma
 description: Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 for Finance and Operations palīdzības sistēmas komponentiem.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595643"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625333"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations palīdzības sistēma
 
@@ -95,13 +95,15 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 
     ![Komentāra publicēšana](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Izmaiņu ieteikšana vai satura iesniegšana, izmantojot pakalpojumu GitHub
+### <a name="contribute-to-the-documentation"></a>Dokumentācijas papildināšana
 
-Lai varētu ieteikt izmaiņas, ir vajadzīgs GitHub konts un ir jāparaksta līdzstrādnieka licences līgums. Kad iesniegsiet atgādāšanas pieprasījumu, mēs izskatīsim jūsu ieteiktās izmaiņas. Mēs tās iekšēji pārrunāsim, ja tas būs nepieciešams, un pēc tam jums atbildēsim.
+Varat veikt papildinājumus un rediģējumus Finance and Operations dokumentācijā. Lai sāktu darbu, tēmā noklikšķiniet uz pogas **Rediģēt** (zīmulis) vai doties uz mūsu repozitoriju šeit: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Tālāk redzamajā videoklipā ir parādīts, kā varat papildināt mūsu dokumentāciju.
 
-Lai sāktu darbu, tēmā noklikšķiniet uz pogas **Rediģēt** (zīmulis) vai doties uz mūsu repozitoriju šeit: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Lai iegūtu sīkāku informāciju, skatiet mūsu līdzstrādnieku rokasgrāmatu šeit: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+Videoklips [Kā papildināt Microsoft Dynamics 365 dokumentāciju](https://youtu.be/m5djioozRbg) (parādīts iepriekš) ir iekļauts sadaļā [Jaunumi Dynamics 365 atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9), kas pieejama vietnē YouTube.
+
+Lai iegūtu sīkāku informāciju, skatiet mūsu līdzstrādnieku rokasgrāmatu sadaļā <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
 > Pašlaik tiek pieņemta līdzdarbošanās tikai mūsu angļu valodas satura veidošanā.

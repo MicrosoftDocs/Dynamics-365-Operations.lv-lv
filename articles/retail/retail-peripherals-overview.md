@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577933"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624816"
 ---
 # <a name="retail-peripherals"></a>Retail perifērijas ierīces
 
@@ -156,13 +156,13 @@ Ierīces veids **Windows** tiek lietots tikai printeriem. Ja aparatūras profil�
 
 ### <a name="network"></a>Tīkls
 
-Tīklā tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras staciju, kas ir iebūvēta lietojumprogrammā Modern POS operētājsistēmai Windows, vai izmantojot citu Modern POS klientu IIS aparatūras staciju, var lietot tīklā adresējamas naudas kastes, kvīšu printerus un maksājumu termināļus.
+Tīklā adresējamas naudas kastes, kvīšu printerus un maksājumu termināļus var izmantot tīklā — vai nu tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras staciju, kas ir iebūvēta programmā Modern POS operētājsistēmai Windows un programmatūrā Modern POS operētājsistēmai Android, vai ar citu Modern POS klientu IIS aparatūras stacijas starpniecību.
 
 ## <a name="hardware-station-deployment-options"></a>Aparatūras stacijas izvietošanas iespējas
 
 ### <a name="ipc-built-in"></a>IPC (iebūvēta)
 
-Starpprocesu saziņas (IPC) aparatūras stacija ir iebūvēta lietojumprogrammā Modern POS operētājsistēmai Windows. Lai lietotu IPC aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows. Pēc tam izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma. Kad palaižat programmu Modern POS, ir aktivizēta IPC aparatūras stacija un konfigurētās POS perifērās ierīces ir gatavas lietošanai. Ja kāda iemesla dēļ īslaicīgi nav nepieciešama lokālā aparatūra, izmantojiet operāciju **Pārvaldīt aparatūras stacijas**, lai izslēgtu aparatūras stacijas iespējas. Programmā Modern POS IPC aparatūras staciju var izmantot arī tiešai saziņai ar tīkla perifērajām ierīcēm.
+Starpprocesu saziņas (IPC) aparatūras stacija ir iebūvēta programmā Modern POS operētājsistēmai Windows un Modern POS operētājsistēmai Android. Lai lietotu IPC aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows. Pēc tam izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma. Kad palaižat programmu Modern POS, ir aktivizēta IPC aparatūras stacija un konfigurētās POS perifērās ierīces ir gatavas lietošanai. Ja kāda iemesla dēļ īslaicīgi nav nepieciešama lokālā aparatūra, izmantojiet operāciju **Pārvaldīt aparatūras stacijas**, lai izslēgtu aparatūras stacijas iespējas. Programmā Modern POS IPC aparatūras staciju var izmantot arī tiešai saziņai ar tīkla perifērajām ierīcēm.
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ Ierīču tīkla apzīmējums aparatūras profilā sniedz iespēju izveidot nauda
 
 Tīkla perifēro ierīču IP adreses varat norādīt divās vietās. Ja Modern POS Windows klientā tiek izmantota viena tīkla perifēro ierīču kopa, šo ierīču IP adreses ir jāiestata, izmantojot kases sistēmas darbību rūts opciju **IP konfigurēšana**. Ja tīkla ierīces tiks koplietotas vairākās POS kases sistēmās, aparatūras profilu, kam ir piešķirta tīkla ierīce, var tieši kartēt ar koplietotu aparatūras staciju. Lai piešķirtu IP adreses, atlasiet aparatūras staciju lapā **Mazumtirdzniecības veikali** un pēc tam sadaļas **Aparatūras stacijas** laukā **IP konfigurēšana** norādiet tīkla ierīces, kas ir piešķirtas šai aparatūras stacijai. Ja aparatūras stacijai ir piešķirtas tikai tīkla ierīces, šī aparatūras stacija nav jāizvieto. Šādā gadījumā aparatūras stacija ir nepieciešama tikai tīklā adresējamo ierīču konceptuālai grupēšanai atbilstoši to atrašanās vietai mazumtirdzniecības veikalā.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS operētājsistēmai iOS un Modern POS operētājsistēmai Android
+#### <a name="modern-pos-for-android"></a>Modern POS operētājsistēmai Android
+
+Sākot ar Dynamics 365 for Retail versiju 8.1.3, programma Modern POS operētājsistēmai Android ietver iebūvētu IPC aparatūras staciju. Šī aparatūras stacija atbalsta saziņu ar tīkla printeriem un maksājumu savienotājiem. Lai iegūtu plašāku informāciju, apmeklējiet rakstu [Hybrid programma operētājsistēmai Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS un Modern POS operētājsistēmai iOS
 
 Loģika, kas nodrošina fiziski pievienoto un tīklā adresējamo perifēro ierīču darbību, ir ietverta aparatūras stacijā. Tāpēc visiem POS klientiem, izņemot programmu Modern POS operētājsistēmai Windows, ir jāizvieto un jāaktivizē IIS aparatūras stacija, lai nodrošinātu POS saziņu ar perifērajām ierīcēm, neatkarīgi no tā, vai šīs perifērās ierīces ir fiziski savienotas ar aparatūras staciju vai adresētas tīklā.
 
@@ -222,9 +226,9 @@ Tālāk esošajā tabulā ir norādītas atbalstītās topoloģijas un izvietoš
 | Klients      | IPC aparatūras stacija | IIS aparatūras stacija |
 |-------------|----------------------|----------------------|
 | Windows programma | Jā                  | Jā                  |
-| Cloud POS   | Nav                   | Jā                  |
-| Android     | Nav                   | Jā                  |
-| iOS         | Nav                   | Jā                  |
+| Cloud POS   | Nē                   | Jā                  |
+| Android     | Jā                  | Jā                  |
+| iOS         | Nē                   | Jā                  |
 
 ### <a name="network-peripherals"></a>Tīkla perifērās ierīces
 
@@ -233,9 +237,9 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 | Klients      | IPC aparatūras stacija | IIS aparatūras stacija |
 |-------------|----------------------|----------------------|
 | Windows programma | Jā                  | Jā                  |
-| Cloud POS   | Nav                   | Jā                  |
-| Android     | Nav                   | Jā                  |
-| iOS         | Nav                   | Jā                  |
+| Cloud POS   | Nē                   | Jā                  |
+| Android     | Jā                  | Jā                  |
+| iOS         | Nē                   | Jā                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Atbalstītie ierīču veidi pēc aparatūras stacijas veida
 
@@ -661,14 +665,15 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC apar
 
 #### <a name="printer"></a>Printeris
 
-| Ražotājs | Modelis    | Interfeiss | Komentāri                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Pielāgot    | Tīkla savienojums   |
-| Star         | mPOP     | OPOS      | Bluetooth savienojums |
-| HP           | F7M67AA  | OPOS      | USB barošana             |
+| Ražotājs | Modelis      | Interfeiss | Komentāri                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS-Print | Pielāgots    | Tīkla savienojums   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | Pielāgots    | Tīkla savienojums   |
+| Star         | mPOP       | OPOS      | Bluetooth savienojums |
+| HP           | F7M67AA    | OPOS      | USB barošana             |
 
 #### <a name="bar-code-scanner"></a>Svītrkoda skeneris
 
@@ -688,18 +693,19 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC apar
 
 #### <a name="payment-terminal"></a>Maksājumu terminālis
 
-| Ražotājs | Modelis | Interfeiss | Komentāri                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana                                |
-| VeriFone     | MX925 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
-| VeriFone     | MX915 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| Ražotājs | Modelis        | Interfeiss | Komentāri                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana                                |
+| VeriFone     | MX925        | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| VeriFone     | MX915        | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| Verifone     | Skatiet komentārus | Adyen     | Adyen savienotājs atbalsta visas ierīces, kas ir norādītas [šeit](https://www.adyen.com/pos-payments/terminals) |
 
 #### <a name="cash-drawer"></a>Naudas kaste
 
-| Ražotājs | Modelis     | Interfeiss | Komentāri                |
+| Izgatavotājs | Modelis     | Interfeiss | Komentāri                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | Bluetooth savienojums |
-| APG          | Atwood    | Pielāgot    | Tīkla savienojums   |
+| APG          | Atwood    | Pielāgots    | Tīkla savienojums   |
 | Star         | SMD2-1317 | OPOS      |                         |
 | HP           | QT457AA   | OPOS      |                         |
 
@@ -741,7 +747,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot atvēlēt
 | Epson        | Tm-T88IV | OPOS      |                           |
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Pielāgot    | Tīkla savienojums     |
+| Star         | TSP650II | Pielāgots    | Tīkla savienojums     |
 | HP           | F7M67AA  | OPOS      | USB barošana               |
 
 #### <a name="bar-code-scanner"></a>Svītrkoda skeneris
@@ -762,15 +768,15 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot atvēlēt
 
 | Ražotājs | Modelis | Interfeiss | Komentāri                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana                                |
-| VeriFone     | MX925 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
-| VeriFone     | MX915 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| Equinox      | L5300 | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana                                |
+| VeriFone     | MX925 | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| VeriFone     | MX915 | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
 
 #### <a name="cash-drawer"></a>Naudas kaste
 
 | Ražotājs | Modelis     | Interfeiss | Komentāri              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Pielāgot    | Tīkla savienojums |
+| APG          | Atwood    | Pielāgots    | Tīkla savienojums |
 | Star         | SMD2-1317 | OPOS      |                       |
 | HP           | QT457AA   | OPOS      |                       |
 
@@ -815,21 +821,21 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 | Epson        | Tm-T88IV | OPOS      |                           |
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Pielāgot    | Tīkla savienojums     |
+| Star         | TSP650II | Pielāgots    | Tīkla savienojums     |
 | HP           | F7M67AA  | OPOS      | USB barošana               |
 
 #### <a name="payment-terminal"></a>Maksājumu terminālis
 
 | Ražotājs | Modelis | Interfeiss | Komentāri                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
-| VeriFone     | MX915 | Pielāgot    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| VeriFone     | MX925 | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
+| VeriFone     | MX915 | Pielāgots    | Nepieciešama maksājumu savienojuma pielāgošana; tīkla un USB savienojums |
 
 #### <a name="cash-drawer"></a>Naudas kaste
 
 | Ražotājs | Modelis     | Interfeiss | Komentāri              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Pielāgot    | Tīkla savienojums |
+| APG          | Atwood    | Pielāgots    | Tīkla savienojums |
 | Star         | SMD2-1317 | OPOS      |                       |
 | HP           | QT457AA   | OPOS      |                       |
 

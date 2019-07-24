@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: PowerBI.com integrācija ar lokālajām vidēm
+          href: analytics/entity-store-on-prem.md
         - name: Apgriezto starpniekserveru konfigurēšana lokālās vidēs
           href: deployment/onprem-reverseproxy.md
         - name: Atjauninājumu lietošana lokālā izvietojumā
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Lokālu izvietojumu problēmu novēršana
           href: deployment/troubleshoot-on-prem.md
+        - name: Sertifikāta rotācija
+          href: deployment/certificate-rotation-on-prem.md
     - name: Pielāgota koda izvietošana
       items:
         - name: Izvietojamu modeļu pakotņu izveide

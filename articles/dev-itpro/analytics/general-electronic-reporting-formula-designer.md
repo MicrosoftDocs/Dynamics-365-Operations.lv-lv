@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592664"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625876"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (skaitlis, formāts)</td>
 <td>Atgriezt norādītā skaitļa virknes attēlojumu norādītajā formātā. (Informāciju par atbalstītajiem formātiem skatiet šeit: <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standarta</a> un <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">pielāgotie</a>.) Formāta numuriem izmantotā kultūra ir atkarīga no šīs funkcijas izpildes konteksta.</td>
 <td>Kultūrai EN-US <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> atgriež <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> atgriež <strong>&quot;10&quot;</strong>.</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (skaitlis, formāts, kultūra)</td>
+<td>Norādītā skaitļa virknes attēlojumu atgriezt norādītajā formātā un atbilstoši norādītajai kultūrai. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standarta</a> un <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">pielāgots</a>.)</td>
+<td><strong>NUMBERFORMAT (10/3, “F2”, “de”)</strong> atgriež <strong>3,33</strong>, savukārt <strong>NUMBERFORMAT (10/3, “F2”, “en-us”)</strong> atgriež <strong>3,33</strong>.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (skaitlis, valoda, valūta, drukas valūtas nosaukuma karogs, cipari aiz komata)</td>

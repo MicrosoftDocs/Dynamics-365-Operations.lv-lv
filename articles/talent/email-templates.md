@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518573"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729730"
 ---
 # <a name="email-templates"></a>E-pasta veidnes
 [!include[banner](../includes/banner.md)]
 
-Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var radīt vienotu stilu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 for Talent: Attract. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi programmā Attract ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
+Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var izveidot vienotu stilu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 for Talent: Attract un Offer. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
 
 > [!NOTE]
 > Lai izmantotu e-pasta veidnes, jūsu organizācijai ir jābūt pieejamai visaptverošās darbā pieņemšanas pievienojumprogrammai.
@@ -37,7 +37,7 @@ Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var radīt vien
 
 Lai nodrošinātu konsekventu zīmolradi visos e-pasta ziņojumos, administratoram vispirms jāiestata globālā galvene un kājene visām e-pasta veidnēm. Administrēšanas centra cilnes **E-pasta veidņu iestatījumi** sadaļā **Galvene** administrators var augšupielādēt attēlu, kas tiks izmantots kā galvene vai reklāmkarogs visos e-pasta ziņojumos. Attēls var būt uzņēmuma logotips, iespiests uzraksts vai cits reprezentatīvs attēls. Ir ieteicams iestatīt platumu no 25 līdz 800 pikseļiem un augstumu no 25 līdz 150 pikseļiem, jo šie izmēri ir optimāli piemēroti vairumam e-pasta klientu, piemēram, Microsoft Outlook. Attēla failam jābūt JPEG, JPG, PNG vai SVG formātā, un faila lielumam jābūt mazākam par 1 megabaitu (MB). Pēc attēla augšupielādes tiek ģenerēts un parādīts galvenes priekšskatījums. Ja ir jānoņem vai jānomaina galvenes attēls, administrators var izmantot opciju **Noņemt** virs priekšskatījuma.
 
-Sadaļā **Kājene** administrators var sniegt saites uz uzņēmuma konfidencialitātes politiku saziņai un uz noteikumiem un nosacījumiem. Šīs saites ir iekļautas kājenē, kas tiek ģenerēta automātiski. Pēc tam tiek parādīts šīs kājenes priekšskatījums.
+Sadaļā **Kājene** administrators var sniegt saites uz uzņēmuma konfidencialitātes politiku saziņai un uz noteikumiem un nosacījumiem. Šīs saites ir iekļautas kājenē, kas tiek ģenerēta automātiski. Pēc tam tiek parādīts šīs kājenes priekšskatījums. Administrators var arī izvēlēties noteiktu valodu, kurā parādīt kājenes, kas ir ietvertas visos nosūtītajos e-pasta ziņojumos. Tās pašas valodas konfigurācija tiks izmantota arī intervijas kopsavilkuma tabulas izveidē. 
 
 Pārliecinieties, ka ir saglabātas izmaiņas pirms administrēšanas centra aizvēršanas.
 
@@ -46,7 +46,7 @@ Pārliecinieties, ka ir saglabātas izmaiņas pirms administrēšanas centra aiz
 
 ## <a name="email-template-library"></a>E-pasta veidņu bibliotēka 
 
-Pēc globālo veidņu konfigurāciju iestatīšanas administrators var sākt izveidot un pārraudzīt veidnes visiem e-pasta ziņojumiem, kas tiek sūtīti no Attract. E-pasta veidņu bibliotēka ir pieejama tikai administratoriem. Lai atvērtu bibliotēku, galvenajā navigācijas izvēlnē atlasiet cilni **E-pasta veidnes**. Bibliotēka tiek iedalīta pēc dažādām aktivitātēm programmā Attract, saistībā ar kurām jāsūta e-pasta ziņojumi, piemēram, plānošana, novērtēšana un darba izveide. Administrators var atlasīt jebkuras kategorijas, lai apskatītu visus e-pasta tipus, kas saistīti ar šo aktivitāti. Piemēram, atlasiet **Plānošana**, lai skatītu dažādus e-pasta ziņojumu tipus, kas tiek nosūtīti plānošanas procesa laikā, un visas veidnes, kas ir pieejamas katram e-pasta ziņojumu tipam. Katra kategorijas apakšsadaļa norāda e-pasta ziņojuma tipu.
+Pēc globālo veidņu konfigurāciju iestatīšanas administrators var sākt izveidot un pārraudzīt veidnes visiem e-pasta ziņojumiem, kas tiek sūtīti no Attract un Offer. E-pasta veidņu bibliotēka ir pieejama tikai administratoriem. Lai atvērtu bibliotēku, galvenajā navigācijas izvēlnē atlasiet cilni **E-pasta veidnes**. Bibliotēka tiek iedalīta pēc dažādām aktivitātēm programmā Attract, saistībā ar kurām jāsūta e-pasta ziņojumi, piemēram, plānošana, novērtēšana, darba izveide un piedāvāšana. Administrators var atlasīt jebkuras kategorijas, lai apskatītu visus e-pasta tipus, kas saistīti ar šo aktivitāti. Piemēram, atlasiet **Plānošana**, lai skatītu dažādus e-pasta ziņojumu tipus, kas tiek nosūtīti plānošanas procesa laikā, un visas veidnes, kas ir pieejamas katram e-pasta ziņojumu tipam. Katra kategorijas apakšsadaļa norāda e-pasta ziņojuma tipu.
 
 Dažiem e-pasta ziņojumu tipiem var būt vairāk par vienu saņēmēju. Piemēram, kategorijā **Plānošana** e-pasta paziņojumi, kas tiek nosūtīti, ja ir nepieciešams interviju grafika kopsavilkumu, tiek nosūtīti gan kandidātiem, gan intervētājiem. Katrā sadaļā ir divas galvenās kolonnas: **Veidnes nosaukums** un **Saņēmējs**. Katra sadaļas rinda norāda vienu veidni noteiktam e-pasta ziņojumu tipam. Sākumā katras veidnes rindā tiks parādīts slēdzenes simbols. Šis simbols norāda, ka veidne ir standarta veidne, kas tiek nodrošināta ar programmu Attract, un ka to nevar dzēst. Jebkurai veidnei administrators var izmantot daudzpunktes pogu (**...**), lai dublētu veidni, iestatītu to kā noklusējuma veidni vai dzēstu to. Kad veidne ir iestatīta kā noklusējuma veidne, var tikt īstenots viens no šādiem režīmiem. Režīmu norāda žetons vai žetoni, kas parādās veidnes rindā:
 

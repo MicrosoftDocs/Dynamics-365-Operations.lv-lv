@@ -3,7 +3,7 @@ title: Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530780"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625646"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -40,7 +40,7 @@ Pēc noklusējuma preču meklēšana tiek veikta veikala preču klāstā. Šī t
 Lapā **Mainīt katalogu** darbinieki var vienkārši atlasīt jebkuru veikalu vai meklēt preces visos veikalos.
 
 ![Kataloga mainīšana](./media/Changecatalog.png "Kataloga mainīšana")
- 
+
 Lokālā preču meklēšana meklē tālāk uzskaitītajos preču rekvizītos.
 
 - Preces numurs
@@ -55,7 +55,7 @@ Lokālā preču meklēšana meklē tālāk uzskaitītajos preču rekvizītos.
 Lokālās preču meklēšanas funkcionalitāte tagad ir lietotājam vēl draudzīgāka. Ir veikti tālāk norādītie uzlabojumi.
 
 - Meklēšanas joslai ir pievienotas preču un debitoru nolaižamās izvēlnes, lai pirms meklēšanas darbinieki varētu atlasīt **Prece** vai **Debitors**. Pēc noklusējuma ir atlasīta **Prece**, kā parādīts nākamajā ilustrācijā.
-- Meklēšanai ar vairākiem atslēgvārdiem (t.i., meklēšanai, kur tiek izmantoti meklējamie vārdi) mazumtirgotāji var konfigurēt, vai meklēšanas rezultātos ietvert arī rezultātus, kas atbilst *jebkuram* meklētajam vārdam, vai ietvert tikai rezultātus, kas atbilst *visiem* meklētajiem vārdiem. Šis iestatījums ir pieejams POS funkcionalitātes profilā, jaunā grupā ar nosaukumu **Preču meklēšana**. Noklusējuma iestatījums ir **Meklēt atbilstību jebkuram meklētajam vārdam**. Šis iestatījums ir arī ieteicamais iestatījums. Kad tiek izmantots iestatījums **Meklēt atbilstību jebkuram meklētajam vārdam**, kā meklēšanas rezultāti tiek atgrieztas visas preces, kas pilnīgi vai daļēji atbilst vienam vai vairākiem no meklētajiem vārdiem. Šie rezultāti tiek automātiski kārtoti augošā secībā pēc precēm, kurām ir visvairāk atslēgvārdu atbilstību (pilnīgu vai daļēju).
+- Meklēšanai ar vairākiem atslēgvārdiem (t.i., meklēšanai, kur tiek izmantoti meklējamie vārdi) mazumtirgotāji var konfigurēt, vai meklēšanas rezultātos ietvert arī rezultātus, kas atbilst *jebkuram* meklētajam vārdam, vai ietvert tikai rezultātus, kas atbilst *visiem* meklētajiem vārdiem. Šīs funkcionalitātes iestatījums ir pieejams POS funkcionalitātes profilā, jaunā grupā ar nosaukumu **Preču meklēšana**. Noklusējuma iestatījums ir **Meklēt atbilstību jebkuram meklētajam vārdam**. Šis iestatījums ir arī ieteicamais iestatījums. Kad tiek izmantots iestatījums **Meklēt atbilstību jebkuram meklētajam vārdam**, kā meklēšanas rezultāti tiek atgrieztas visas preces, kas pilnīgi vai daļēji atbilst vienam vai vairākiem no meklētajiem vārdiem. Šie rezultāti tiek automātiski kārtoti augošā secībā pēc precēm, kurām ir visvairāk atslēgvārdu atbilstību (pilnīgu vai daļēju).
 
     Iestatījums **Meklēt atbilstību visiem meklētajiem vārdiem** atgriež tikai tās preces, kas atbilst visiem meklētajiem vārdiem (pilnīgi vai daļēji). Šis iestatījums noder, ja preču nosaukumi ir gari un darbinieki meklēšanas rezultātos vēlaties redzēt tikai ierobežotu preču skaitu. Taču šī tipa meklēšanai ir divi tālāk norādītie ierobežojumi.
 
@@ -65,11 +65,20 @@ Lokālās preču meklēšanas funkcionalitāte tagad ir lietotājam vēl draudz�
 - Tagad mazumtirgotāji var konfigurēt preču meklēšanu, lai rādītu meklēšanas ieteikumus, kamēr lietotāji raksta preču nosaukumus. Šai funkcionalitātei ir pieejams jauns iestatījums POS funkcionalitātes profilā, grupā ar nosaukumu **Preču meklēšana**. Šis iestatījums saucas **Rādīt meklēšanas ieteikumus rakstīšanas laikā**. Šī funkcionalitāte var palīdzēt darbiniekiem ātri atrast meklētās preces, jo viņiem nav nepieciešams visu nosaukumu ievadīt manuāli.
 - Preču meklēšanas algoritms meklētos vārdus tagad meklē arī preces rekvizītā **Meklēšanas nosaukums**.
 
-    ![Preču ieteikumi](./media/Productsuggestions.png "Preču ieteikumi")
+![Preču ieteikumi](./media/Productsuggestions.png "Preču ieteikumi")
 
 ## <a name="customer-search"></a>Debitora meklēšana
 
-Debitora meklēšana tiek lietota, lai dažādos nolūkos atrastu debitorus. Piemēram, kasieri var vēlēties apskatīt debitora vēlmju sarakstu vai pirkumu vēsturi vai pievienot debitoru kādai transakcijai. Meklēšanas algoritms atbilst meklēšanas terminiem ar vērtībām, kas pastāv šādos debitora rekvizītos: vārds, uzvārds, e-pasta adrese, tālrunis, lojalitātes programmas kartes numurs, adrese un konta numurs. No tiem vārda un uzvārda rekvizīts ir viselastīgākais, ja ir jāveic vairāku atslēgvārdu meklēšana, jo algoritms atgriež visus debitorus, kas atbilst kādam no meklētajiem atslēgvārdiem, un debitori, kas atbilst vairumam atslēgvārdu, tiek parādīti rezultātu augšdaļā. Šī darbība palīdz kasieriem situācijās, kad viņi veic meklēšanu, ievadot pilnu vārdu un uzvārdu, bet uzvārds un vārds sākotnējās datu ievades laikā ir apmainīti vietām. Tomēr veiktspējas dēļ visi pārējie rekvizīti saglabā meklēšanas atslēgvārdu secību, tādēļ, ja meklēšanas atslēgvārdi neatbilst secībai, kādā dati ir saglabāti, rezultāti netiek atgriezti.
+Debitora meklēšana tiek lietota, lai dažādos nolūkos atrastu debitorus. Piemēram, kasieri var vēlēties apskatīt debitora vēlmju sarakstu vai pirkumu vēsturi vai pievienot debitoru kādai transakcijai. Meklēšanas algoritms salīdzina meklējamos vārdus ar vērtībām, kas pastāv šādos debitora rekvizītos:
+
+- Vārds
+- E-pasta adrese
+- Tālruņa numurs
+- Lojalitātes programmas kartes numurs
+- Adrese
+- Konta numurs
+
+No šiem rekvizītiem vārds nodrošina lielāko elastību vairāku atslēgvārdu meklēšanai, jo algoritms atgriež visus debitorus, kuri atbilst kādam no meklētajiem atslēgvārdiem. Debitori, kas atbilst vislielākajam skaitam atslēgvārdu, tiek rādīti rezultātu augšpusē. Šī darbība palīdz kasieriem situācijās, kad viņi veic meklēšanu, ievadot pilnu vārdu un uzvārdu, bet uzvārds un vārds sākotnējās datu ievades laikā ir apmainīti vietām. Tomēr veiktspējas apsvērumu dēļ visiem citiem rekvizītiem tiek saglabāta meklēšanas atslēgvārdu secība. Tāpēc, ja meklēšanas atslēgvārdu secība neatbilst secībai, kurā tiek glabāti dati, netiks atgriezts neviens rezultāts.
 
 Pēc noklusējuma debitora meklēšana tiek veikta debitoru adrešu grāmatās, kuras ir saistītas ar veikalu. Šī tipa meklēšana tiek saukta par *lokālo debitoru meklēšanu*. Taču darbinieki debitorus var meklēt arī globāli. Citiem vārdiem sakot — viņi var meklēt gan uzņēmuma veikalos, gan visās pārējās juridiskajās personās. Šī tipa meklēšana tiek saukta par *attālo debitoru meklēšanu*.
 
@@ -86,7 +95,7 @@ Attālajā debitoru meklēšanā debitora ID netiek rādīts debitoriem no cit�
 
 Ir vienkāršota meklēšana, kas ir balstīta uz tālruņa numuru. Tagad šī meklēšana ignorē speciālās rakstzīmes, piemēram, atstarpes, defises un iekavas, kas varētu būt pievienotas, izveidojot debitoru. Tāpēc kasieriem meklēšanas laikā nav jāraizējas par tālruņa numura formātu. Viņi debitorus var arī meklēt, ierakstot daļēju tālruņa numuru. Ja tālruņa numurā ir speciālās rakstzīmes, to var atrast arī, meklējot numurus, kas tiek rādīti aiz speciālajām rakstzīmēm. Piemēram, ja debitora tālruņa numurs tika ievadīts kā **123-456-7890**, kasieris šo debitoru var meklēt, ierakstot **123**, **456**, **7890** vai **1234567890**, vai ievadot tālruņa numura pirmos dažus ciparus.
 
-Tradicionālā debitoru meklēšana var būt laikietilpīga, jo tā meklē vairākos laukos. Tā vietā kasieri tagad var meklēt pēc viena pielāgota rekvizīta, piemēram, nosaukuma, e-pasta adreses vai tālruņa numura. Debitoru meklēšanas algoritma izmantotie rekvizīti kopā tiek saukti par *debitoru meklēšanas kritērijiem*. Sistēmas administrators vienu vai vairākus kritērijus var ērti konfigurēt kā saīsnes, kas būs redzamas POS. Tā kā meklēšanai tiek izmantots tikai viens kritērijs, tiek rādīti tikai saistītie meklēšanas rezultāti, un veiktspēja ir daudz labāka par standarta debitoru meklēšana veiktspēju. Nākamajā attēlā ir parādītas POS pieejamās debitoru meklēšanas saīsnes.
+Tradicionālā debitoru meklēšana var būt laikietilpīga, jo tā meklē vairākos laukos. Tā vietā kasieri tagad var meklēt pēc viena debitora rekvizīta, piemēram, vārda, e-pasta adreses vai tālruņa numura. Debitoru meklēšanas algoritma izmantotie rekvizīti kopā tiek saukti par *debitoru meklēšanas kritērijiem*. Sistēmas administrators vienu vai vairākus kritērijus var ērti konfigurēt kā saīsnes, kas būs redzamas POS. Tā kā meklēšanai tiek izmantots tikai viens kritērijs, tiek rādīti tikai saistītie meklēšanas rezultāti, un veiktspēja ir daudz labāka par standarta debitoru meklēšana veiktspēju. Nākamajā attēlā ir parādītas POS pieejamās debitoru meklēšanas saīsnes.
 
 ![Debitoru meklēšanas saīsnes](./media/SearchShortcutsPOS.png "Debitoru meklēšanas saīsnes")
 
@@ -101,3 +110,7 @@ Lauks **Rādīšanas secība** nosaka secību, kādā POS tiek rādītas šīs s
 
 > [!NOTE]
 > Pielāgots rekvizīts, kas tiek pievienots uzskaitījumam, neietekmē standarta debitoru meklēšanas algoritmu. Citiem vārdiem sakot — debitoru meklēšanas algoritms nemeklēs pielāgotajā rekvizītā. Lietotāji meklēšanai var izmantot pielāgotu rekvizītu tikai tad, ja šis pielāgotais rekvizīts ir pievienots kā saīsne vai ja tiek ignorēts noklusējuma meklēšanas algoritms.
+
+Gaidāmajā Microsoft Dynamics 365 for Retail laidienā mazumtirgotāji kā noklusējuma debitora meklēšanas režīmu POS varēs iestatīt **Meklēt visos veikalos**. Šī konfigurācija var būt noderīga gadījumos, kad debitori, kas tika izveidoti ārpus POS, ir nekavējoties jāmeklē (piemēram, vēl pirms sadales darba izpildes). POS funkcionalitātes profilā būs pieejama jauna opcija **Noklusējuma debitora meklēšanas režīms**. Iestatiet tai vienumu **Ieslēgts**, lai iestatītu noklusējuma meklēšanas režīmam opciju **Meklēt visos veikalos**. Līdz ar katru debitora meklēšanas mēģinājumu tiks veikts reāllaika pieprasījums uz galveno biroju.
+
+Lai palīdzētu novērst negaidītas veiktspējas problēmas, šī konfigurācija tiek slēpta aiz būvējumu izsniegšanas karodziņa ar nosaukumu **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Tādēļ, lai parādītu iestatījumu **Noklusējuma debitora meklēšanas režīms** lietotāja interfeisā (UI), mazumtirgotājam jāizveido atbalsta biļete tā lietotāju pieņemšanas pārbaudes (UAT) un ražošanas vidēm. Pēc tam, kad biļete ir saņemta, tehniskā grupa strādās ar mazumtirgotāju, lai pārliecinātos, ka mazumtirgotājs veic testēšanu vidēs, kas nav ražošanas vides, lai novērtētu veiktspēju un īstenotu visas nepieciešamās optimizācijas.

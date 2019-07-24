@@ -3,7 +3,7 @@ title: ER formāta izpildes izsekošana, lai novērstu veiktspējas problēmas
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot veiktspējas izsekošanas līdzekli elektronisko pārskatu veidošanā (ER), lai novērstu veiktspējas problēmas.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576550"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703879"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formātu izpildes izsekošana, lai novērstu veiktspējas problēmas
 
@@ -335,7 +335,7 @@ Ja izmantojat vienu no šīm Finance and Operations versijām, varat analizēt �
 
 ## <a name="review-the-execution-trace-by-using-external-tools"></a>Pārskatīt izpildes izsekošanu, izmantojot ārējos rīkus
 
-### <a name="configure-user-parameters"></a>Konfigurēt lietotāja parametrus
+### <a name="configure-user-parameters"></a>Lietotāja parametru konfigurēšana
 
 1. Risinājumā Finance and Operations dodieties uz sadaļu **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas**.
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
@@ -346,3 +346,29 @@ Ja izmantojat vienu no šīm Finance and Operations versijām, varat analizēt �
 Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
 
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju.
+
+![Izpildītā ER formāta informācijas izsekošana rīkā PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Ārēju rīku izmantošana, lai pārskatītu izpildes izsekošanu, kas ietver datu bāzes vaicājumus
+
+Tā kā ER struktūrā ir veikti uzlabojumi, PerfView formātā ģenerētā veiktspējas izsekošana tagad piedāvā plašāku informāciju par ER formāta izpildi. Microsoft Dynamics 365 for Finance and Operations versijā 10.0.4 (2019. gada jūlijs) šī izsekošana var ietvert arī informāciju par izpildītajiem SQL vaicājumiem uz programmas datu bāzi.
+
+### <a name="configure-user-parameters"></a>Lietotāja parametru konfigurēšana
+
+1. Programmatūrā Finance and Operations dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
+2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
+3. Dialoglodziņa **Lietotāja parametri** sadaļā **Izpildes izsekošana** iestatiet tālāk norādītos parametrus.
+
+    - Laukā **Izpildes izsekošanas formāts** atlasiet vienumu **PerfView XML**.
+    - Opciju **Vākt vaicājumu statistiku** iestatiet uz **Jā**.
+    - Opciju **Izsekot vaicājumu** iestatiet uz **Jā**.
+
+    ![Dialoglodziņš Lietotāja parametri programmā Finance and Operations](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>ER formāta palaišana
+
+Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
+
+Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju. Šajā izsekošanā tagad ir informācija par piekļuvi SQL datu bāzei ER formāta izpildes laikā.
+
+![Izpildītā ER formāta informācijas izsekošana rīkā PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

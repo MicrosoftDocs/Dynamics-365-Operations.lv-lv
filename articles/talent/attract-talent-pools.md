@@ -3,7 +3,7 @@ title: Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
 description: Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518519"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711298"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
 
@@ -110,15 +110,16 @@ Visiem lietotājiem ir pieejams viens un tas pats kandidātu profilu skats. Ciln
 
 - Varat skatīt kandidāta kontaktinformāciju. Varat arī pēc nepieciešamības rediģēt vai atjaunināt informāciju, izmantojot pogu **Rediģēt detalizēto informāciju**.
 
-- Varat pievienot papildu prasmju atzīmes, lai palīdzētu noteikt kandidāta prasmes.
-
 - Varat skatīt visu kandidāta pieteikumu vēsturi. Varat skatīt visas vakances, kam kandidāts ir pieteicies jūsu organizācijā, un šo pieteikumu statusu. Ja esat kādas vakances darbā pieņemšanas grupas dalībnieks, varat atlasīt **Skatīt**, lai skatītu detalizētu informāciju par pieteikumu.
 
-- Cilnē **Dokumenti** tiek rādīti visi dokumenti, ko kandidāts ir pievienojis no sava profila vai kopā ar darba pieteikumiem. Šo cilni var izmantot, lai pārvaldītu kandidāta CV, pavadvēstules, darbu portfeli utt. Varat izmantot šo cilni arī dokumentu pievienošanai.
+- Cilnē **Dokumenti** tiek rādīti visi dokumenti, ko kandidāts ir pievienojis no sava profila vai kopā ar darba pieteikumiem. Šo cilni varat izmantot, lai pārvaldītu kandidāta CV, pavadvēstules, darbu portfeli utt. Varat izmantot šo cilni arī dokumentu pievienošanai.
 
     Lai skatītu dokumentu, atlasiet dokumenta nosaukumu dokumentu sarakstā. Varat skatīt Microsoft Word dokumentu lietojumprogrammā, izmantojot Microsoft Office 365. Varat arī lejupielādēt dokumentus savā lokālajā datorā, katram dokumentam izmantojot opciju **Lejupielādēt**.
 
 - Cilnē **LinkedIn** tiek rādīta kandidāta LinkedIn informācija. Lai izmantotu šo cilni, jums ir jāizveido savienojums ar savu LinkedIn kontu lietotāja iestatījumu sadaļā un jūsu vidē ir jābūt izveidotam savienojumam ar LinkedIn Recruiter. Papildinformāciju skatiet tēmā [Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Tikai kandidāti var atjaunināt informāciju par savām prasmēm, izglītību un darba pieredzi.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Kandidātu pievienošana vakancei no potenciālo kandidātu kopas
 

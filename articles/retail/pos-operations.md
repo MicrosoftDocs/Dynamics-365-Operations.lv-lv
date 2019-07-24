@@ -3,7 +3,7 @@ title: Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 description: Šajā tēmā ir sniegta detalizēta informācija par pārdošanas punkta (POS) operācijām programmā Microsoft Dynamics 365 for Retail. Tajā ir norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505100"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625669"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -160,8 +160,8 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 1211 | Noguldījums seifā | Veiciet noguldījumu seifā, lai pārvietotu naudu no kases sistēmas uz seifu. | Jā | Jā | Jā | Jā | Nē |
 | 516 | Pārdošanas rēķins | Šī operācija sniedz debitoram iespēju veikt maksājumus, lai apmaksātu atlasīto pārdošanas rēķinu. | Jā | Jā | Nē | Nē | Nē |
 | 502 | Pārdevējs | Šī operācija sniedz lietotājam iespēju iestatīt debitoru pasūtījumu pārdošanas pasūtījuma parametra **Pārdošanas uzņēmējs** vērtību POS sistēmā. | Jā | Jā | Nē | Jā\* | Nē |
-| 2000 | Grafika pārvaldība | Šī operācija sniedz lietotājam iespēju izveidot, izmainīt vai skatīt darbinieku grafikus. | Jā | Jā | Jā | Nē | Nē |
-| 2001 | Grafika pieprasījumi | Šī operācija sniedz lietotājam iespēju pieprasīt brīvo laiku, apmainīt maiņas vai piedāvāt maiņas citiem darbiniekiem. | Jā | Jā | Jā | Nē | Nē |
+| 2000 | Grafika pārvaldība | Šī operācija pagaidām netiek atbalstīta. | Jā | Jā | Jā | Nē | Nē |
+| 2001 | Grafika pieprasījumi | Šī operācija pagaidām netiek atbalstīta. | Jā | Jā | Jā | Nē | Nē |
 | 622 | Meklēšana | Šī operācija sniedz lietotājiem iespēju iepriekš konfigurēt POS pogas, lai veiktu meklēšanu pēc krājuma, debitora vai kategorijas. | Jā | Jā | Jā | Jā | Nē |
 | 1213 | Meklēt piegādes adresi | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 709 | Atlasīt aparatūras staciju | Šī operācija sniedz lietotājam iespēju atlasīt aparatūras staciju pieejamo aparatūras staciju sarakstā. | Jā | Jā | Jā | Jā | Nē |
