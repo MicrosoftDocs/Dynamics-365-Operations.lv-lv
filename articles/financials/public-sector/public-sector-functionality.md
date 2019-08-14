@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
@@ -19,58 +19,58 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b77e9289bd360631ea646951809705d58c9e189
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8eece33418e5738e3566c64d875e8db15796fd8
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550238"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845791"
 ---
-# <a name="public-sector-home-page"></a><span data-ttu-id="fb0b8-103">Publiskā sektora sākumlapa</span><span class="sxs-lookup"><span data-stu-id="fb0b8-103">Public sector home page</span></span>
+# <a name="public-sector-home-page"></a><span data-ttu-id="6aab6-103">Publiskā sektora sākumlapa</span><span class="sxs-lookup"><span data-stu-id="6aab6-103">Public sector home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fb0b8-104">Finance and Operations iespējo biznesa procesus, kas bieži tiek izmantoti gan publiskajā, gan privātajā sektorā, piemēram, budžeta veidošanas, iepirkumu veikšanas, parādu kreditoriem un debitoru parādu uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-104">Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
+<span data-ttu-id="6aab6-104">Finance and Operations iespējo biznesa procesus, kas bieži tiek izmantoti gan publiskajā, gan privātajā sektorā, piemēram, budžeta veidošanas, iepirkumu veikšanas, parādu kreditoriem un debitoru parādu uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="6aab6-104">Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
 
-<span data-ttu-id="fb0b8-105">Izmantojiet funkcionalitāti “Publiskais sektors”, lai ievērotu noteikumus, normatīvus un atskaišu veidošanas prasības publiskā sektora organizācijām.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-105">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="fb0b8-106">Ietekmētie biznesa procesi tostarp ir tālāk norādītie.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-106">The business processes affected include:</span></span> 
+<span data-ttu-id="6aab6-105">Izmantojiet funkcionalitāti “Publiskais sektors”, lai ievērotu noteikumus, normatīvus un atskaišu veidošanas prasības publiskā sektora organizācijām.</span><span class="sxs-lookup"><span data-stu-id="6aab6-105">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="6aab6-106">Ietekmētie biznesa procesi tostarp ir tālāk norādītie.</span><span class="sxs-lookup"><span data-stu-id="6aab6-106">The business processes affected include:</span></span> 
 
-- <span data-ttu-id="fb0b8-107">Līdzekļu uzskaite, atvasinātās finanšu hierarhijas un grāmatošanas definīcijas debitoru parādiem un virsgrāmatai.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-107">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
-- <span data-ttu-id="fb0b8-108">Provizoriskie budžeti, norīkojumi un saistības.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-108">Preliminary budgets, apportionments, and commitments.</span></span>
-- <span data-ttu-id="fb0b8-109">Norēķinu kodi, rēķinu klasificēšana, tirdzniecības partneru kodi un pielāgotie lauki brīva teksta rēķiniem.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-109">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
-- <span data-ttu-id="fb0b8-110">Virsgrāmatas gada beigu apstrāde, kas ietver apgrūtinājumus un saistības pirkšanas pasūtījumos.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-110">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
-- <span data-ttu-id="fb0b8-111">Elektroniskie maksājumi kreditoriem, paraksta lapas maksājumu atskaitēm un rēķinu maksājumu aizturēšanas.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-111">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
+- <span data-ttu-id="6aab6-107">Līdzekļu uzskaite, atvasinātās finanšu hierarhijas un grāmatošanas definīcijas debitoru parādiem un virsgrāmatai.</span><span class="sxs-lookup"><span data-stu-id="6aab6-107">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
+- <span data-ttu-id="6aab6-108">Provizoriskie budžeti, norīkojumi un saistības.</span><span class="sxs-lookup"><span data-stu-id="6aab6-108">Preliminary budgets, apportionments, and commitments.</span></span>
+- <span data-ttu-id="6aab6-109">Norēķinu kodi, rēķinu klasificēšana, tirdzniecības partneru kodi un pielāgotie lauki brīva teksta rēķiniem.</span><span class="sxs-lookup"><span data-stu-id="6aab6-109">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
+- <span data-ttu-id="6aab6-110">Virsgrāmatas gada beigu apstrāde, kas ietver apgrūtinājumus un saistības pirkšanas pasūtījumos.</span><span class="sxs-lookup"><span data-stu-id="6aab6-110">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
+- <span data-ttu-id="6aab6-111">Elektroniskie maksājumi kreditoriem, paraksta lapas maksājumu atskaitēm un rēķinu maksājumu aizturēšanas.</span><span class="sxs-lookup"><span data-stu-id="6aab6-111">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
 
-  <span data-ttu-id="fb0b8-112">Papildinformāciju skatiet tālāk norādītajās tēmās.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-112">For more information, see the following topics:</span></span>
+  <span data-ttu-id="6aab6-112">Papildinformāciju skatiet tālāk norādītajās tēmās.</span><span class="sxs-lookup"><span data-stu-id="6aab6-112">For more information, see the following topics:</span></span>
 
-- [<span data-ttu-id="fb0b8-113">Plānošana publiskā sektora funkcionalitātei</span><span class="sxs-lookup"><span data-stu-id="fb0b8-113">Planning for Public sector functionality</span></span>](plan-public-sector-functionality.md)
-- [<span data-ttu-id="fb0b8-114">Modulis “Parādi kreditoriem” publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-114">Accounts payable in the Public sector</span></span>](accounts-payable-public-sector.md)
-- [<span data-ttu-id="fb0b8-115">Modulis “Debitoru parādi” publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-115">Accounts receivable in the Public sector</span></span>](accounts-receivable-public-sector.md)
-- [<span data-ttu-id="fb0b8-116">Budžeta veidošana publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-116">Budgeting in the Public sector</span></span>](budgeting-public-sector.md)
-- [<span data-ttu-id="fb0b8-117">Pamatlīdzekļi publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-117">Fixed assets in the Public sector</span></span>](fixed-asset-public-sector.md)
-- [<span data-ttu-id="fb0b8-118">Francijas normatīvie līdzekļi</span><span class="sxs-lookup"><span data-stu-id="fb0b8-118">French regulatory features</span></span>](../localizations/emea-fra-public-sector-accounting.md)
-- [<span data-ttu-id="fb0b8-119">Virsgrāmata publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-119">General ledger in the Public sector</span></span>](general-ledger-public-sector.md)
-- [<span data-ttu-id="fb0b8-120">Sagāde un avoti publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-120">Procurement and sourcing in the Public sector</span></span>](procurement-sourcing-public-sector.md)
-- [<span data-ttu-id="fb0b8-121">Drošības lomas publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="fb0b8-121">Security roles in the Public sector</span></span>](security-roles-public-sector.md)
+- [<span data-ttu-id="6aab6-113">Plānošana publiskā sektora funkcionalitātei</span><span class="sxs-lookup"><span data-stu-id="6aab6-113">Planning for Public sector functionality</span></span>](plan-public-sector-functionality.md)
+- [<span data-ttu-id="6aab6-114">Modulis “Parādi kreditoriem” publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-114">Accounts payable in the Public sector</span></span>](accounts-payable-public-sector.md)
+- [<span data-ttu-id="6aab6-115">Modulis “Debitoru parādi” publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-115">Accounts receivable in the Public sector</span></span>](accounts-receivable-public-sector.md)
+- [<span data-ttu-id="6aab6-116">Budžeta veidošana publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-116">Budgeting in the Public sector</span></span>](budgeting-public-sector.md)
+- [<span data-ttu-id="6aab6-117">Pamatlīdzekļi publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-117">Fixed assets in the Public sector</span></span>](fixed-asset-public-sector.md)
+- [<span data-ttu-id="6aab6-118">Francijas normatīvie līdzekļi</span><span class="sxs-lookup"><span data-stu-id="6aab6-118">French regulatory features</span></span>](../localizations/emea-fra-public-sector-accounting.md)
+- [<span data-ttu-id="6aab6-119">Virsgrāmata publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-119">General ledger in the Public sector</span></span>](general-ledger-public-sector.md)
+- [<span data-ttu-id="6aab6-120">Sagāde un avoti publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-120">Procurement and sourcing in the Public sector</span></span>](procurement-sourcing-public-sector.md)
+- [<span data-ttu-id="6aab6-121">Drošības lomas publiskajā sektorā</span><span class="sxs-lookup"><span data-stu-id="6aab6-121">Security roles in the Public sector</span></span>](security-roles-public-sector.md)
 
-<span data-ttu-id="fb0b8-122">\* Piemērojami tikai tad, ja jūsu organizācija atrodas Francijā.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-122">\* Applicable only if your organization is in France.</span></span>
+<span data-ttu-id="6aab6-122">\* Piemērojami tikai tad, ja jūsu organizācija atrodas Francijā.</span><span class="sxs-lookup"><span data-stu-id="6aab6-122">\* Applicable only if your organization is in France.</span></span>
 
-## <a name="why-do-i-need-the-public-sector-configuration-key"></a><span data-ttu-id="fb0b8-123">Kādēļ man ir nepieciešama publiskā sektora konfigurācijas atslēga?</span><span class="sxs-lookup"><span data-stu-id="fb0b8-123">Why do I need the Public sector configuration key?</span></span>
-<span data-ttu-id="fb0b8-124">Konfigurācijas atslēga **Publiskais sektors** iespējo lapas un vadīklas, kas papildina pamatprogrammas.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-124">The **Public sector** configuration key enables pages and controls that supplement the core apps .</span></span> <span data-ttu-id="fb0b8-125">Šo atslēgu varat iespējot un atspējot lapā **Licences konfigurācija**.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-125">You can enable or disable this key on the **License configuration** page.</span></span>
+## <a name="why-do-i-need-the-public-sector-configuration-key"></a><span data-ttu-id="6aab6-123">Kādēļ man ir nepieciešama publiskā sektora konfigurācijas atslēga?</span><span class="sxs-lookup"><span data-stu-id="6aab6-123">Why do I need the Public sector configuration key?</span></span>
+<span data-ttu-id="6aab6-124">Konfigurācijas atslēga **Publiskais sektors** iespējo lapas un vadīklas, kas papildina pamatprogrammas.</span><span class="sxs-lookup"><span data-stu-id="6aab6-124">The **Public sector** configuration key enables pages and controls that supplement the core apps .</span></span> <span data-ttu-id="6aab6-125">Šo atslēgu varat iespējot un atspējot lapā **Licences konfigurācija**.</span><span class="sxs-lookup"><span data-stu-id="6aab6-125">You can enable or disable this key on the **License configuration** page.</span></span>
 
-## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a><span data-ttu-id="fb0b8-126">Kā publiskā sektora konfigurācijas atslēga ir saistīta ar citām konfigurācijas atslēgām?</span><span class="sxs-lookup"><span data-stu-id="fb0b8-126">How does the Public sector configuration key relate to other configuration keys?</span></span>
-<span data-ttu-id="fb0b8-127">Nākamajā tabulā ir sniegta informācija par veidu, kā šī konfigurācijas atslēga ir saistīta ar citām konfigurācijas atslēgām.</span><span class="sxs-lookup"><span data-stu-id="fb0b8-127">The following table provides information about how this configuration key relates to other configuration keys.</span></span>
+## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a><span data-ttu-id="6aab6-126">Kā publiskā sektora konfigurācijas atslēga ir saistīta ar citām konfigurācijas atslēgām?</span><span class="sxs-lookup"><span data-stu-id="6aab6-126">How does the Public sector configuration key relate to other configuration keys?</span></span>
+<span data-ttu-id="6aab6-127">Nākamajā tabulā ir sniegta informācija par veidu, kā šī konfigurācijas atslēga ir saistīta ar citām konfigurācijas atslēgām.</span><span class="sxs-lookup"><span data-stu-id="6aab6-127">The following table provides information about how this configuration key relates to other configuration keys.</span></span>
 
 |            |                                                                                                                                                                                                                     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="fb0b8-128">**Detalizēti**</span><span class="sxs-lookup"><span data-stu-id="fb0b8-128">**Detail**</span></span> | <span data-ttu-id="fb0b8-129">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="fb0b8-129">**Description**</span></span>                                                                                                                                                                                                     |
-| <span data-ttu-id="fb0b8-130">Vecākatslēga</span><span class="sxs-lookup"><span data-stu-id="fb0b8-130">Parent key</span></span> | <span data-ttu-id="fb0b8-131">Nav</span><span class="sxs-lookup"><span data-stu-id="fb0b8-131">None</span></span>                                                                                                                                                                                                                |
-| <span data-ttu-id="fb0b8-132">Pakārtotās atslēgas</span><span class="sxs-lookup"><span data-stu-id="fb0b8-132">Child keys</span></span> | <span data-ttu-id="fb0b8-133">Konfigurācijas atslēga **Papildu virsgrāmatas ieraksts** (AdvancedLedgerEntry) Konfigurācijas atslēga **Publiskais sektors 1099G** (Tax1099G) Konfigurācijas atslēga **Publiskais sektors 1099S** (Tax1099S) Konfigurācijas atslēga **Francijas normatīvā**</span><span class="sxs-lookup"><span data-stu-id="fb0b8-133">**Advanced ledger entry** configuration key (AdvancedLedgerEntry) **Public sector 1099G** configuration key (Tax1099G) **Public sector 1099S** configuration key (Tax1099S) **French regulatory** configuration key</span></span> |
+| <span data-ttu-id="6aab6-128">**Detalizēti**</span><span class="sxs-lookup"><span data-stu-id="6aab6-128">**Detail**</span></span> | <span data-ttu-id="6aab6-129">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="6aab6-129">**Description**</span></span>                                                                                                                                                                                                     |
+| <span data-ttu-id="6aab6-130">Vecākatslēga</span><span class="sxs-lookup"><span data-stu-id="6aab6-130">Parent key</span></span> | <span data-ttu-id="6aab6-131">Nav</span><span class="sxs-lookup"><span data-stu-id="6aab6-131">None</span></span>                                                                                                                                                                                                                |
+| <span data-ttu-id="6aab6-132">Pakārtotās atslēgas</span><span class="sxs-lookup"><span data-stu-id="6aab6-132">Child keys</span></span> | <span data-ttu-id="6aab6-133">Konfigurācijas atslēga **Papildu virsgrāmatas ieraksts** (AdvancedLedgerEntry) Konfigurācijas atslēga **Publiskais sektors 1099G** (Tax1099G) Konfigurācijas atslēga **Publiskais sektors 1099S** (Tax1099S) Konfigurācijas atslēga **Francijas normatīvā**</span><span class="sxs-lookup"><span data-stu-id="6aab6-133">**Advanced ledger entry** configuration key (AdvancedLedgerEntry) **Public sector 1099G** configuration key (Tax1099G) **Public sector 1099S** configuration key (Tax1099S) **French regulatory** configuration key</span></span> |
 
 
-<a name="additional-resources"></a><span data-ttu-id="fb0b8-134">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="fb0b8-134">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="6aab6-134">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="6aab6-134">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="fb0b8-135">Plānošana publiskā sektora funkcionalitātei</span><span class="sxs-lookup"><span data-stu-id="fb0b8-135">Planning for public sector functionality</span></span>](plan-public-sector-functionality.md)
+[<span data-ttu-id="6aab6-135">Plānošana publiskā sektora funkcionalitātei</span><span class="sxs-lookup"><span data-stu-id="6aab6-135">Planning for public sector functionality</span></span>](plan-public-sector-functionality.md)
 
 
 

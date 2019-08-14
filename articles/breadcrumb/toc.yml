@@ -1,3 +1,10 @@
 - name: "Dynamics\_365"
   tocHref: /dynamics365/
   topicHref: /dynamics365/index
+- name: "Dynamics\_365"
+  tocHref: /power-platform/
+  topicHref: /dynamics365/index
+  items:
+    - name: Finance and Operations izstrāde un administrēšana
+      tocHref: /power-platform/admin
+      topicHref: /dynamics365/unified-operations/dev-itpro/

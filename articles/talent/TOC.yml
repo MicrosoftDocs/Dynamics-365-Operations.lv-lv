@@ -8,6 +8,12 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2019.\_gada 23.\_jūlijs"
+              href: whats-new-talent-july-24-2019.md
+            - name: "2019.\_gada 16.\_jūlijs"
+              href: whats-new-talent-july-16-2019.md
+            - name: "2019.\_gada 9.\_jūlijs"
+              href: whats-new-talent-july-9-2019.md
             - name: "2019.\_gada 2.\_jūlijs"
               href: whats-new-talent-july-2-2019.md
             - name: "2019.\_gada 25.\_jūnijs"
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: "Core\_HR un Common Data Service"
           href: CoreHREntities.md
-        - name: Piekļuve priekšskatījuma līdzekļiem
-          href: access-preview-feature.md
         - name: Atbalsta saņemšana saistībā ar Talent
           href: talent-support.md
     - name: 'Organizācijas personāla pārvaldība, izmantojot Attract'
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Attract līdzekļi un iespējas
           href: attract-overview.md
-        - name: LinkedIn bieži uzdotie jautājumi
-          href: attract-linkedin-faq.md
-        - name: E-pasta iestatījumu konfigurēšana
-          href: attract-configure-email-settings.md
-        - name: Procesa veidnes izveide pakalpojumā Attract
-          href: Process-templates-Attract.md
-        - name: Izveidot un publicēt vakances
-          href: Creating-jobs-Attract.md
-        - name: Integrācijas ar LinkedIn iestatīšana
-          href: attract-admin-linkedin.md
-        - name: Vakanču publicēšana LinkedIn no pakalpojuma Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Vakanču publicēšana Broadbean no pakalpojuma Attract
-          href: posting-jobs-external.md
-        - name: 'Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas'
-          href: attract-talent-pools.md
-        - name: 'Kandidātu piesaiste, izmantojot LinkedIn Recruiter'
-          href: attract-linkedin-recruiter.md
-        - name: Aktivitātes darbā pieņemšanas procesa ietvaros
-          href: activities-attract.md
-        - name: Interviju plānošana un atsauksmes
-          href: interview-scheduling-feedback.md
+        - name: Bieži uzdotie jautājumi
+          items:
+            - name: 'LinkedIn integrācija: bieži uzdotie jautājumi'
+              href: attract-linkedin-faq.md
+        - name: Sistēmas iestatījumu konfigurēšana
+          items:
+            - name: Konfigurēt uzņēmuma informāciju
+              href: admin-settings-attract.md
+            - name: Iestatīt lietotāju atļaujas
+              href: security-attract.md
+            - name: Pārvaldīt līdzekļus
+              href: access-preview-feature.md
+            - name: Iestatiet savu karjeras vietni
+              href: career-site.md
+            - name: Iespējot Broadbean integrāciju
+              href: attract-admin-job-board-settings.md
+            - name: E-pasta iestatījumu konfigurēšana
+              href: attract-configure-email-settings.md
+            - name: LinkedIn integrācijas iestatīšana
+              href: attract-admin-linkedin.md
+        - name: Darbā pieņemšanas process
+          items:
+            - name: Izveidot procesa veidni
+              href: process-templates-attract.md
+            - name: Aktivitātes darbā pieņemšanas procesos
+              href: activities-attract.md
+            - name: E-pasta veidnes
+              href: email-templates.md
+            - name: Izmantot analītiskos pārskatus
+              href: analytic-reports.md
+        - name: Izveidot un publicēt darbu vakances
+          items:
+            - name: Izveidot darbu
+              href: creating-jobs-attract.md
+            - name: Publicēt darbus tīklā LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Darbu publicēšana vietnē Broadbean
+              href: posting-jobs-external.md
+            - name: Aizvērt darbu
+              href: attract-close-job.md
+        - name: Kandidātu piesaiste
+          items:
+            - name: 'Kandidātu piesaiste, izmantojot kandidātu kopas'
+              href: attract-talent-pools.md
+            - name: 'Kandidātu piesaiste, izmantojot LinkedIn Recruiter'
+              href: attract-linkedin-recruiter.md
+            - name: Reģistrēt kandidātu avotus
+              href: source-tracking.md
+            - name: Inteliģentie ieteikumi
+              href: Intelligent-Recommendations.md
+        - name: Interviju sagatavošana
+          items:
+            - name: Interviju plānošana un atsauksmes
+              href: interview-scheduling-feedback.md
+        - name: Piedāvājuma izveidošana
+          items:
+            - name: Piedāvājumu pārvaldības iestatīšana
+              href: offer-setup.md
+            - name: 'Piedāvājumu izveide, apstiprināšana un parakstīšana'
+              href: creating-offers.md
         - name: Paplašināmība pakalpojumā Attract
           href: extensibility-attract.md
-        - name: Karjeras vietnes funkcionalitāte programmā Attract
-          href: career-site.md
-        - name: Piedāvājumu pārvaldības iestatīšana
-          href: offer-setup.md
-        - name: 'Piedāvājumu izveide, apstiprināšana un parakstīšana'
-          href: creating-offers.md
-        - name: E-pasta veidnes
-          href: email-templates.md
-        - name: Drošības un lomu pārvaldība pakalpojumā Attract
-          href: security-attract.md
-        - name: Administratora iestatījumi pakalpojumā Attract
-          href: Admin-Settings-Attract.md
-        - name: Inteliģentie ieteikumi
-          href: Intelligent-Recommendations.md
-        - name: Kandidātu profilu un pieteikumu avotu izsekošana
-          href: source-tracking.md
-        - name: Analītisko pārskatu izmantošana darbā pieņemšanas procesa ieskatiem
-          href: analytic-reports.md
     - name: Jaunu darbā pieņemtu personu sveikšana ar Onboard
       items:
         - name: Darba sākšana ar Onboard
@@ -182,10 +206,12 @@
               href: create-job.md
             - name: Nodaļu izveidošana un to iekļaušana nodaļu hierarhijā
               href: create-department-add-department-hierarchy.md
-            - name: "HR\_parametru iestatīšana dažādās juridiskajās personās"
+            - name: "Personāla vadības\_parametru iestatīšana dažādās juridiskajās personās"
               href: set-up-hr-parameters-across-legal-entities.md
-            - name: "Uzņēmumam raksturīgu HR\_parametru iestatīšana"
+            - name: "Uzņēmumam raksturīgu personāla vadības\_parametru iestatīšana"
               href: set-up-company-specific-hr-parameters.md
+            - name: Datuma un laika lauki programmā Talent
+              href: date-time-fields-in-talent.md
             - name: Bieži uzdotie jautājumi par personāla darbībām
               href: personnel-actions-faq.md
             - name: Biznesa procesu formalizēšana
