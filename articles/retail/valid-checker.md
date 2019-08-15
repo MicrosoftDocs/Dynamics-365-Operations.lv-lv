@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617324"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790425"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mazumtirdzniecības transakciju konsekvences pārbaudītājs
 
@@ -50,6 +50,7 @@ Pakešveida apstrādes process **Pārbaudīt veikala transakcijas** pārbauda ma
 - **Debitora konts** — pārbauda, vai attiecīgais debitora konts pastāv galvenā birojā debitoru pamatfaila mazumtirdzniecības transakciju tabulās.
 - **Rindu skaits** — pārbauda, vai transakciju virsrakstu tabulā norādītais rindu skaits atbilst pārdošanas transakciju tabulu rindu skaitam.
 - **Cenā ir iekļauts PVN** — pārbauda, vai parametrs **Cenā ir iekļauts PVN** ir saskaņots ar transakciju rindām.
+- **Maksājuma summa** – apstiprina, ka maksājumu ieraksti sakrīt ar maksājuma summu galvenē.
 - **Bruto summa** — pārbauda, vai virsrakstā iekļautā bruto summa ir rindu neto summu summa, kam pieskaitīta nodokļu summa.
 - **Neto summa** — pārbauda, vai virsrakstā iekļautā neto summa ir rindu neto summu summa.
 - **Nepilnīgs maksājums/pārmaksa** — pārbauda, vai virsrakstā iekļautās bruto summas un maksājuma summas starpība nepārsniedz maksimālo konfigurēto nepilnīga maksājuma/pārmaksas summu.
@@ -58,6 +59,7 @@ Pakešveida apstrādes process **Pārbaudīt veikala transakcijas** pārbauda ma
 - **Dāvanu kartes krājums** — risinājumā Retail netiek atbalstīta dāvanu karšu krājumu atgriešana. Tomēr dāvanu kartes atlikums var tikt izmaksāts skaidrā naudā. Visi tie dāvanu kartes krājumi, kas tiek apstrādāti kā atgriešanas rinda, nevis skaidras naudas izņemšanas rinda, netiek iekļauti grāmatošanas procesā. Palaižot dāvanu karšu krājumu pārbaudes procesu, tiek nodrošināts, ka mazumtirdzniecības transakciju tabulās tiek atgriezti tikai tie dāvanu karšu rindas krājumi, kuri ir dāvanu karšu skaidras naudas izmaksas rindas.
 - **Negatīva cena** — pārbauda, vai nav nevienas transakciju rindas ar negatīvu cenu.
 - **Krājums un variants** — pārbauda, vai transakcijas rindas krājumi un varianti pastāv krājumu un variantu pamatfailā.
+- **Nodokļu summa** — validēt nodokļu ierakstus, kas atbilst rindās norādītajām nodokļu summām. 
 
 ## <a name="set-up-the-consistency-checker"></a>Konsekvences pārbaudītāja iestatīšana
 
