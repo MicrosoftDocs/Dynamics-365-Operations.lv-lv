@@ -10,83 +10,83 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc3052fdfc6e3dcf2826b3069f6d644201a70c3c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c93a1aba6ca32e783a6ed6f005c72aab3e06978
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572539"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843005"
 ---
-# <a name="create-a-direct-debit-mandate-for-a-customer"></a><span data-ttu-id="a258f-103">Tiešā debeta pilnvarojuma izveide debitoram</span><span class="sxs-lookup"><span data-stu-id="a258f-103">Create a direct debit mandate for a customer</span></span>
+# <a name="create-a-direct-debit-mandate-for-a-customer"></a><span data-ttu-id="d2644-103">Tiešā debeta pilnvarojuma izveide debitoram</span><span class="sxs-lookup"><span data-stu-id="d2644-103">Create a direct debit mandate for a customer</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a258f-104">Šajā uzdevumu ceļvedī parādīts, kā izveidot tiešā debeta pilnvarojumu un izmantot to rēķinā.</span><span class="sxs-lookup"><span data-stu-id="a258f-104">This task guide demonstrates how to create a direct debit mandate and use it on an invoice.</span></span>
+<span data-ttu-id="d2644-104">Šajā uzdevumu ceļvedī parādīts, kā izveidot tiešā debeta pilnvarojumu un izmantot to rēķinā.</span><span class="sxs-lookup"><span data-stu-id="d2644-104">This task guide demonstrates how to create a direct debit mandate and use it on an invoice.</span></span>
 
 
-## <a name="create-a-bank-account"></a><span data-ttu-id="a258f-105">Banku konta izveide</span><span class="sxs-lookup"><span data-stu-id="a258f-105">Create a bank account</span></span>
-1. <span data-ttu-id="a258f-106">Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="a258f-106">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="a258f-107">Piemēram, atlasiet US-001</span><span class="sxs-lookup"><span data-stu-id="a258f-107">For example, select US-001</span></span>
-3. <span data-ttu-id="a258f-108">Darbību rūtī noklikšķiniet uz Debitors.</span><span class="sxs-lookup"><span data-stu-id="a258f-108">On the Action Pane, click Customer.</span></span>
-4. <span data-ttu-id="a258f-109">Noklikšķiniet uz Banku konti.</span><span class="sxs-lookup"><span data-stu-id="a258f-109">Click Bank accounts.</span></span>
-5. <span data-ttu-id="a258f-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a258f-110">Click New.</span></span>
-6. <span data-ttu-id="a258f-111">Ierakstiet vērtību laukā Bankas konts.</span><span class="sxs-lookup"><span data-stu-id="a258f-111">In the Bank account field, type a value.</span></span>
-7. <span data-ttu-id="a258f-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-112">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="a258f-113">Ievadiet vērtību laukā IBAN.</span><span class="sxs-lookup"><span data-stu-id="a258f-113">In the IBAN field, type a value.</span></span>
-9. <span data-ttu-id="a258f-114">Laukā Valūta ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-114">In the Currency field, type a value.</span></span>
-10. <span data-ttu-id="a258f-115">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a258f-115">Click Save.</span></span>
-11. <span data-ttu-id="a258f-116">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a258f-116">Close the page.</span></span>
-12. <span data-ttu-id="a258f-117">Dodieties uz Kases un bankas vadība > Banku konti > Banku konti.</span><span class="sxs-lookup"><span data-stu-id="a258f-117">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
-13. <span data-ttu-id="a258f-118">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a258f-118">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="a258f-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a258f-119">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="a258f-120">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a258f-120">Click Edit.</span></span>
-16. <span data-ttu-id="a258f-121">Izvērsiet sadaļu Papildu identifikācija.</span><span class="sxs-lookup"><span data-stu-id="a258f-121">Expand the Additional identification section.</span></span>
-17. <span data-ttu-id="a258f-122">Laukā Tiešā debeta ID ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-122">In the Direct debit ID field, type a value.</span></span>
-18. <span data-ttu-id="a258f-123">Ievadiet vērtību laukā IBAN.</span><span class="sxs-lookup"><span data-stu-id="a258f-123">In the IBAN field, type a value.</span></span>
-19. <span data-ttu-id="a258f-124">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a258f-124">Close the page.</span></span>
-20. <span data-ttu-id="a258f-125">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a258f-125">Close the page.</span></span>
+## <a name="create-a-bank-account"></a><span data-ttu-id="d2644-105">Banku konta izveide</span><span class="sxs-lookup"><span data-stu-id="d2644-105">Create a bank account</span></span>
+1. <span data-ttu-id="d2644-106">Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="d2644-106">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="d2644-107">Piemēram, atlasiet US-001</span><span class="sxs-lookup"><span data-stu-id="d2644-107">For example, select US-001</span></span>
+3. <span data-ttu-id="d2644-108">Darbību rūtī noklikšķiniet uz Debitors.</span><span class="sxs-lookup"><span data-stu-id="d2644-108">On the Action Pane, click Customer.</span></span>
+4. <span data-ttu-id="d2644-109">Noklikšķiniet uz Banku konti.</span><span class="sxs-lookup"><span data-stu-id="d2644-109">Click Bank accounts.</span></span>
+5. <span data-ttu-id="d2644-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d2644-110">Click New.</span></span>
+6. <span data-ttu-id="d2644-111">Ierakstiet vērtību laukā Bankas konts.</span><span class="sxs-lookup"><span data-stu-id="d2644-111">In the Bank account field, type a value.</span></span>
+7. <span data-ttu-id="d2644-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-112">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="d2644-113">Ievadiet vērtību laukā IBAN.</span><span class="sxs-lookup"><span data-stu-id="d2644-113">In the IBAN field, type a value.</span></span>
+9. <span data-ttu-id="d2644-114">Laukā Valūta ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-114">In the Currency field, type a value.</span></span>
+10. <span data-ttu-id="d2644-115">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d2644-115">Click Save.</span></span>
+11. <span data-ttu-id="d2644-116">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d2644-116">Close the page.</span></span>
+12. <span data-ttu-id="d2644-117">Dodieties uz Kases un bankas vadība > Banku konti > Banku konti.</span><span class="sxs-lookup"><span data-stu-id="d2644-117">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+13. <span data-ttu-id="d2644-118">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d2644-118">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="d2644-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d2644-119">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="d2644-120">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="d2644-120">Click Edit.</span></span>
+16. <span data-ttu-id="d2644-121">Izvērsiet sadaļu Papildu identifikācija.</span><span class="sxs-lookup"><span data-stu-id="d2644-121">Expand the Additional identification section.</span></span>
+17. <span data-ttu-id="d2644-122">Laukā Tiešā debeta ID ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-122">In the Direct debit ID field, type a value.</span></span>
+18. <span data-ttu-id="d2644-123">Ievadiet vērtību laukā IBAN.</span><span class="sxs-lookup"><span data-stu-id="d2644-123">In the IBAN field, type a value.</span></span>
+19. <span data-ttu-id="d2644-124">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d2644-124">Close the page.</span></span>
+20. <span data-ttu-id="d2644-125">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d2644-125">Close the page.</span></span>
 
-## <a name="define-the-electronic-payment-method"></a><span data-ttu-id="a258f-126">Elektroniskās maksāšanas metodes definēšana</span><span class="sxs-lookup"><span data-stu-id="a258f-126">Define the electronic payment method</span></span>
-1. <span data-ttu-id="a258f-127">Pārejiet uz sadaļu Debitori > Maksājumu iestatījumi > Maksāšanas metodes.</span><span class="sxs-lookup"><span data-stu-id="a258f-127">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
-2. <span data-ttu-id="a258f-128">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a258f-128">Click New.</span></span>
-3. <span data-ttu-id="a258f-129">Ierakstiet vērtību laukā Maksāšanas metode.</span><span class="sxs-lookup"><span data-stu-id="a258f-129">In the Method of payment field, type a value.</span></span>
-4. <span data-ttu-id="a258f-130">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-130">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="a258f-131">Maksājuma tipam tiešā debeta pilnvarojuma maksāšanas metodē ir jābūt Elektroniskais maksājums.</span><span class="sxs-lookup"><span data-stu-id="a258f-131">The payment type for a direct debit mandate method of payment must be Electronic payment.</span></span>
-6. <span data-ttu-id="a258f-132">Laukā Pieprasīt pilnvarojumu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="a258f-132">Select Yes in the Require mandate field.</span></span>
-7. <span data-ttu-id="a258f-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a258f-133">Close the page.</span></span>
+## <a name="define-the-electronic-payment-method"></a><span data-ttu-id="d2644-126">Elektroniskās maksāšanas metodes definēšana</span><span class="sxs-lookup"><span data-stu-id="d2644-126">Define the electronic payment method</span></span>
+1. <span data-ttu-id="d2644-127">Pārejiet uz sadaļu Debitori > Maksājumu iestatījumi > Maksāšanas metodes.</span><span class="sxs-lookup"><span data-stu-id="d2644-127">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="d2644-128">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d2644-128">Click New.</span></span>
+3. <span data-ttu-id="d2644-129">Ierakstiet vērtību laukā Maksāšanas metode.</span><span class="sxs-lookup"><span data-stu-id="d2644-129">In the Method of payment field, type a value.</span></span>
+4. <span data-ttu-id="d2644-130">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-130">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d2644-131">Maksājuma tipam tiešā debeta pilnvarojuma maksāšanas metodē ir jābūt Elektroniskais maksājums.</span><span class="sxs-lookup"><span data-stu-id="d2644-131">The payment type for a direct debit mandate method of payment must be Electronic payment.</span></span>
+6. <span data-ttu-id="d2644-132">Laukā Pieprasīt pilnvarojumu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="d2644-132">Select Yes in the Require mandate field.</span></span>
+7. <span data-ttu-id="d2644-133">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d2644-133">Close the page.</span></span>
 
-## <a name="add-a-direct-debit-mandate-to-a-customer"></a><span data-ttu-id="a258f-134">Pievienojiet debitoram tiešā debeta pilnvarojumu.</span><span class="sxs-lookup"><span data-stu-id="a258f-134">Add a direct debit mandate to a customer.</span></span>
-1. <span data-ttu-id="a258f-135">Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="a258f-135">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="a258f-136">Piemēram, atlasiet US-001</span><span class="sxs-lookup"><span data-stu-id="a258f-136">For example, select US-001</span></span>
-3. <span data-ttu-id="a258f-137">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a258f-137">Click Edit.</span></span>
-4. <span data-ttu-id="a258f-138">Izvērsiet Maksāšanas noklusējuma sadaļu.</span><span class="sxs-lookup"><span data-stu-id="a258f-138">Expand the Payment defaults section.</span></span>
-5. <span data-ttu-id="a258f-139">Laukā Maksājuma metode ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-139">In the Method of payment field, enter or select a value.</span></span>
-6. <span data-ttu-id="a258f-140">Izvērsiet Maksāšanas noklusējuma sadaļu.</span><span class="sxs-lookup"><span data-stu-id="a258f-140">Expand the Payment defaults section.</span></span>
-7. <span data-ttu-id="a258f-141">Izvērsiet sadaļu Tiešā debeta pilnvarojumi.</span><span class="sxs-lookup"><span data-stu-id="a258f-141">Expand the Direct debit mandates section.</span></span>
-8. <span data-ttu-id="a258f-142">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a258f-142">Click Add.</span></span>
-9. <span data-ttu-id="a258f-143">Ievadiet vai atlasiet vērtību laukā Bankas konts.</span><span class="sxs-lookup"><span data-stu-id="a258f-143">In the Bank account field, enter or select a value.</span></span>
-10. <span data-ttu-id="a258f-144">Laukā Kreditora bankas konts, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-144">In the Creditor bank account field, enter or select a value.</span></span>
-11. <span data-ttu-id="a258f-145">Ievadiet maksājumu skaitu, kuru paredzat apstrādāt šim pilnvarojumam.</span><span class="sxs-lookup"><span data-stu-id="a258f-145">Enter the number of payments that you expect to process for this mandate.</span></span>
-12. <span data-ttu-id="a258f-146">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a258f-146">Click OK.</span></span>
-13. <span data-ttu-id="a258f-147">Klikšķiniet Drukāt.</span><span class="sxs-lookup"><span data-stu-id="a258f-147">Click Print.</span></span>
-14. <span data-ttu-id="a258f-148">Noklikšķiniet uz Pilnvarojuma pārskats.</span><span class="sxs-lookup"><span data-stu-id="a258f-148">Click Mandate report.</span></span>
-15. <span data-ttu-id="a258f-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a258f-149">Close the page.</span></span>
-16. <span data-ttu-id="a258f-150">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a258f-150">Click Edit.</span></span>
-17. <span data-ttu-id="a258f-151">Ievadiet datumu laukā Parakstīšanas datums.</span><span class="sxs-lookup"><span data-stu-id="a258f-151">In the Signature date field, enter a date.</span></span>
-18. <span data-ttu-id="a258f-152">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="a258f-152">Click Yes.</span></span>
-19. <span data-ttu-id="a258f-153">Ievadiet pilnvarojuma parakstīšanas vietu.</span><span class="sxs-lookup"><span data-stu-id="a258f-153">Enter the location where the mandate was signed.</span></span>
-20. <span data-ttu-id="a258f-154">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a258f-154">Click OK.</span></span>
-21. <span data-ttu-id="a258f-155">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a258f-155">Close the page.</span></span>
+## <a name="add-a-direct-debit-mandate-to-a-customer"></a><span data-ttu-id="d2644-134">Pievienojiet debitoram tiešā debeta pilnvarojumu.</span><span class="sxs-lookup"><span data-stu-id="d2644-134">Add a direct debit mandate to a customer.</span></span>
+1. <span data-ttu-id="d2644-135">Pārejiet uz sadaļu Debitori > Debitori > Visi debitori.</span><span class="sxs-lookup"><span data-stu-id="d2644-135">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="d2644-136">Piemēram, atlasiet US-001</span><span class="sxs-lookup"><span data-stu-id="d2644-136">For example, select US-001</span></span>
+3. <span data-ttu-id="d2644-137">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="d2644-137">Click Edit.</span></span>
+4. <span data-ttu-id="d2644-138">Izvērsiet Maksāšanas noklusējuma sadaļu.</span><span class="sxs-lookup"><span data-stu-id="d2644-138">Expand the Payment defaults section.</span></span>
+5. <span data-ttu-id="d2644-139">Laukā Maksājuma metode ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-139">In the Method of payment field, enter or select a value.</span></span>
+6. <span data-ttu-id="d2644-140">Izvērsiet Maksāšanas noklusējuma sadaļu.</span><span class="sxs-lookup"><span data-stu-id="d2644-140">Expand the Payment defaults section.</span></span>
+7. <span data-ttu-id="d2644-141">Izvērsiet sadaļu Tiešā debeta pilnvarojumi.</span><span class="sxs-lookup"><span data-stu-id="d2644-141">Expand the Direct debit mandates section.</span></span>
+8. <span data-ttu-id="d2644-142">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="d2644-142">Click Add.</span></span>
+9. <span data-ttu-id="d2644-143">Ievadiet vai atlasiet vērtību laukā Bankas konts.</span><span class="sxs-lookup"><span data-stu-id="d2644-143">In the Bank account field, enter or select a value.</span></span>
+10. <span data-ttu-id="d2644-144">Laukā Kreditora bankas konts, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-144">In the Creditor bank account field, enter or select a value.</span></span>
+11. <span data-ttu-id="d2644-145">Ievadiet maksājumu skaitu, kuru paredzat apstrādāt šim pilnvarojumam.</span><span class="sxs-lookup"><span data-stu-id="d2644-145">Enter the number of payments that you expect to process for this mandate.</span></span>
+12. <span data-ttu-id="d2644-146">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="d2644-146">Click OK.</span></span>
+13. <span data-ttu-id="d2644-147">Klikšķiniet Drukāt.</span><span class="sxs-lookup"><span data-stu-id="d2644-147">Click Print.</span></span>
+14. <span data-ttu-id="d2644-148">Noklikšķiniet uz Pilnvarojuma pārskats.</span><span class="sxs-lookup"><span data-stu-id="d2644-148">Click Mandate report.</span></span>
+15. <span data-ttu-id="d2644-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d2644-149">Close the page.</span></span>
+16. <span data-ttu-id="d2644-150">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="d2644-150">Click Edit.</span></span>
+17. <span data-ttu-id="d2644-151">Ievadiet datumu laukā Parakstīšanas datums.</span><span class="sxs-lookup"><span data-stu-id="d2644-151">In the Signature date field, enter a date.</span></span>
+18. <span data-ttu-id="d2644-152">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="d2644-152">Click Yes.</span></span>
+19. <span data-ttu-id="d2644-153">Ievadiet pilnvarojuma parakstīšanas vietu.</span><span class="sxs-lookup"><span data-stu-id="d2644-153">Enter the location where the mandate was signed.</span></span>
+20. <span data-ttu-id="d2644-154">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="d2644-154">Click OK.</span></span>
+21. <span data-ttu-id="d2644-155">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d2644-155">Close the page.</span></span>
 
-## <a name="create-a-free-text-invoice-with-mandate"></a><span data-ttu-id="a258f-156">Brīvā teksta rēķina izveide ar pilnvarojumu</span><span class="sxs-lookup"><span data-stu-id="a258f-156">Create a free text invoice with mandate</span></span>
-1. <span data-ttu-id="a258f-157">Pārejiet uz sadaļu Debitori > Rēķini > Visi brīva teksta rēķini.</span><span class="sxs-lookup"><span data-stu-id="a258f-157">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
-2. <span data-ttu-id="a258f-158">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a258f-158">Click New.</span></span>
-3. <span data-ttu-id="a258f-159">Atlasiet debitoru, kuram pievienojāt šo pilnvarojumu.</span><span class="sxs-lookup"><span data-stu-id="a258f-159">Select the customer that you added the mandate to.</span></span>
-4. <span data-ttu-id="a258f-160">Laukā Tiešā debeta pilnvarojuma ID ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a258f-160">In the Direct debit mandate ID field, enter or select a value.</span></span>
+## <a name="create-a-free-text-invoice-with-mandate"></a><span data-ttu-id="d2644-156">Brīvā teksta rēķina izveide ar pilnvarojumu</span><span class="sxs-lookup"><span data-stu-id="d2644-156">Create a free text invoice with mandate</span></span>
+1. <span data-ttu-id="d2644-157">Pārejiet uz sadaļu Debitori > Rēķini > Visi brīva teksta rēķini.</span><span class="sxs-lookup"><span data-stu-id="d2644-157">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="d2644-158">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d2644-158">Click New.</span></span>
+3. <span data-ttu-id="d2644-159">Atlasiet debitoru, kuram pievienojāt šo pilnvarojumu.</span><span class="sxs-lookup"><span data-stu-id="d2644-159">Select the customer that you added the mandate to.</span></span>
+4. <span data-ttu-id="d2644-160">Laukā Tiešā debeta pilnvarojuma ID ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d2644-160">In the Direct debit mandate ID field, enter or select a value.</span></span>
 

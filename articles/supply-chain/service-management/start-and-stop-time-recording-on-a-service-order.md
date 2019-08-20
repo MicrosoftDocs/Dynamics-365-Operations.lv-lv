@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16d9f48ed38a5033fab94d45821f0ed6f7f1f011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9c442eed4e9e8d868db253ae0c042f0b6c977f20
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558392"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743053"
 ---
-# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="94bd6-103">Laika ierakstīšanas sākšana un apturēšana pakalpojuma pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="94bd6-103">Start and stop time recording on a service order</span></span> 
+# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="4736c-103">Laika ierakstīšanas sākšana un apturēšana pakalpojuma pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="4736c-103">Start and stop time recording on a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="94bd6-104">Izmantojiet šo procedūru, lai sāktu un apturētu laika reģistrēšanu pakalpojumu pasūtījumam, kuram ir definēta pakalpojumu līmeņa līgums.</span><span class="sxs-lookup"><span data-stu-id="94bd6-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
+<span data-ttu-id="4736c-104">Izmantojiet šo procedūru, lai sāktu un apturētu laika reģistrēšanu pakalpojumu pasūtījumam, kuram ir definēta pakalpojumu līmeņa līgums.</span><span class="sxs-lookup"><span data-stu-id="4736c-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
 
-## <a name="start-time-recording"></a><span data-ttu-id="94bd6-105">Laika ierakstīšanas sākšana</span><span class="sxs-lookup"><span data-stu-id="94bd6-105">Start time recording</span></span>
+## <a name="start-time-recording"></a><span data-ttu-id="4736c-105">Laika ierakstīšanas sākšana</span><span class="sxs-lookup"><span data-stu-id="4736c-105">Start time recording</span></span>
 
-1.  <span data-ttu-id="94bd6-106">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="94bd6-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="4736c-106">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="4736c-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="94bd6-107">Noklikšķiniet uz cilnes **Pakalpojuma pasūtījums**. Sadaļā **Darbību rūts**, grupā **Līgums par pakalpojumu līmeni** noklikšķiniet uz **Sākt**.</span><span class="sxs-lookup"><span data-stu-id="94bd6-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
+2.  <span data-ttu-id="4736c-107">Noklikšķiniet uz cilnes **Pakalpojuma pasūtījums**. Sadaļā **Darbību rūts**, grupā **Līgums par pakalpojumu līmeni** noklikšķiniet uz **Sākt**.</span><span class="sxs-lookup"><span data-stu-id="4736c-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
 
-3.  <span data-ttu-id="94bd6-108">Ievadiet datumu un laiku, kurā laika ierakstīšana ir jāsāk.</span><span class="sxs-lookup"><span data-stu-id="94bd6-108">Enter the date and time that the time recording should be started.</span></span>
+3.  <span data-ttu-id="4736c-108">Ievadiet datumu un laiku, kurā laika ierakstīšana ir jāsāk.</span><span class="sxs-lookup"><span data-stu-id="4736c-108">Enter the date and time that the time recording should be started.</span></span>
 
-## <a name="stop-time-recording"></a><span data-ttu-id="94bd6-109">Laika reģistrēšanas apturēšana</span><span class="sxs-lookup"><span data-stu-id="94bd6-109">Stop time recording</span></span>
+## <a name="stop-time-recording"></a><span data-ttu-id="4736c-109">Laika reģistrēšanas apturēšana</span><span class="sxs-lookup"><span data-stu-id="4736c-109">Stop time recording</span></span>
 
-1.  <span data-ttu-id="94bd6-110">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="94bd6-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="4736c-110">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="4736c-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="94bd6-111">Noklikšķiniet uz cilnes **Pakalpojuma pasūtījums**. Sadaļā **Darbību rūts**, grupā **Līgums par pakalpojumu līmeni** noklikšķiniet uz **Apturēt**.</span><span class="sxs-lookup"><span data-stu-id="94bd6-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
+2.  <span data-ttu-id="4736c-111">Noklikšķiniet uz cilnes **Pakalpojuma pasūtījums**. Sadaļā **Darbību rūts**, grupā **Līgums par pakalpojumu līmeni** noklikšķiniet uz **Apturēt**.</span><span class="sxs-lookup"><span data-stu-id="4736c-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
 
-3.  <span data-ttu-id="94bd6-112">Ievadiet datumu un laiku, kurā laika ierakstīšana ir jāaptur.</span><span class="sxs-lookup"><span data-stu-id="94bd6-112">Enter the date and time that the time recording should be stopped.</span></span>
+3.  <span data-ttu-id="4736c-112">Ievadiet datumu un laiku, kurā laika ierakstīšana ir jāaptur.</span><span class="sxs-lookup"><span data-stu-id="4736c-112">Enter the date and time that the time recording should be stopped.</span></span>
 
-4.  <span data-ttu-id="94bd6-113">Atlasiet vienumu **Pievienot atsaukšanas iemeslu** un atlasiet iemesla kodu sarakstā **Stadijas iemesla kods**, lai norādītu laika ierakstīšanas apturēšanas iemeslu.</span><span class="sxs-lookup"><span data-stu-id="94bd6-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
+4.  <span data-ttu-id="4736c-113">Atlasiet vienumu **Pievienot atsaukšanas iemeslu** un atlasiet iemesla kodu sarakstā **Stadijas iemesla kods**, lai norādītu laika ierakstīšanas apturēšanas iemeslu.</span><span class="sxs-lookup"><span data-stu-id="4736c-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="94bd6-114">Ja formā <STRONG>Pakalpojumu pārvaldības parametri</STRONG> ir atlasīts vienums <STRONG>Laika pārsniegšanas iemesla kods</STRONG>, pirms laika reģistrēšanas apturēšanas jums ir jānorāda iemesla kods.</span><span class="sxs-lookup"><span data-stu-id="94bd6-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
+> <P><span data-ttu-id="4736c-114">Ja formā <STRONG>Pakalpojumu pārvaldības parametri</STRONG> ir atlasīts vienums <STRONG>Laika pārsniegšanas iemesla kods</STRONG>, pirms laika reģistrēšanas apturēšanas jums ir jānorāda iemesla kods.</span><span class="sxs-lookup"><span data-stu-id="4736c-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="94bd6-115">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="94bd6-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4736c-115">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="4736c-115">See also</span></span>
 
-<span data-ttu-id="94bd6-116">[SLA laika ierakstīšanas sākšana (forma)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="94bd6-116">[Start SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span></span>
+<span data-ttu-id="4736c-116">[SLA laika ierakstīšanas sākšana (forma)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="4736c-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
 
-<span data-ttu-id="94bd6-117">[SLA laika ierakstīšanas apturēšana (forma)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="94bd6-117">[Stop SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span></span>
+<span data-ttu-id="4736c-117">[SLA laika ierakstīšanas apturēšana (forma)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="4736c-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
 
   
 

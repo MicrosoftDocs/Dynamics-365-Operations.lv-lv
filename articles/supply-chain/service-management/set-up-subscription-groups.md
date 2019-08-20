@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b9585a1a0f98ea3773270f1fe7628287e235c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9bfed12543ec9cf960eba61a993790713263579
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555751"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743099"
 ---
-# <a name="set-up-subscription-groups"></a><span data-ttu-id="78c9e-103">Abonementu grupu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="78c9e-103">Set up subscription groups</span></span> 
+# <a name="set-up-subscription-groups"></a><span data-ttu-id="bb808-103">Abonementu grupu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="bb808-103">Set up subscription groups</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="78c9e-104">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu abonementi** \> **Abonementu grupas**.</span><span class="sxs-lookup"><span data-stu-id="78c9e-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="bb808-104">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu abonementi** \> **Abonementu grupas**.</span><span class="sxs-lookup"><span data-stu-id="bb808-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-2.  <span data-ttu-id="78c9e-105">Nospiediet taustiņu kombināciju Ctrl + N vai noklikšķiniet uz **Jauns**, lai izveidotu jaunu abonementu grupu.</span><span class="sxs-lookup"><span data-stu-id="78c9e-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
+2.  <span data-ttu-id="bb808-105">Nospiediet taustiņu kombināciju Ctrl + N vai noklikšķiniet uz **Jauns**, lai izveidotu jaunu abonementu grupu.</span><span class="sxs-lookup"><span data-stu-id="bb808-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
 
-3.  <span data-ttu-id="78c9e-106">Laukā **Abonementu grupa** ievadiet jaunās abonementu grupas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="78c9e-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
+3.  <span data-ttu-id="bb808-106">Laukā **Abonementu grupa** ievadiet jaunās abonementu grupas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="bb808-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
 
-4.  <span data-ttu-id="78c9e-107">Laukā **Rēķinu izrakstīšana** atlasiet šim abonementam rēķinu izrakstīšanas biežumu.</span><span class="sxs-lookup"><span data-stu-id="78c9e-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="78c9e-108">Rēķinu izrakstīšanas biežums tiek norādīts ar perioda kodu, kas ir iestatīts formā **Periodu veidi**.</span><span class="sxs-lookup"><span data-stu-id="78c9e-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
+4.  <span data-ttu-id="bb808-107">Laukā **Rēķinu izrakstīšana** atlasiet šim abonementam rēķinu izrakstīšanas biežumu.</span><span class="sxs-lookup"><span data-stu-id="bb808-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="bb808-108">Rēķinu izrakstīšanas biežums tiek norādīts ar perioda kodu, kas ir iestatīts formā **Periodu veidi**.</span><span class="sxs-lookup"><span data-stu-id="bb808-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
 
-5.  <span data-ttu-id="78c9e-109">Lai uzkrātu ieņēmumus par abonementu transakcijām, atzīmējiet izvēles rūtiņu **Uzkrāt ieņēmumus** un pēc tam laukā **Uzkrājums** atlasiet biežumu.</span><span class="sxs-lookup"><span data-stu-id="78c9e-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="78c9e-110">Uzkrāšanas biežums ir balstīts uz perioda kodu, kas ir iestatīts formā **Periodi**.</span><span class="sxs-lookup"><span data-stu-id="78c9e-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
+5.  <span data-ttu-id="bb808-109">Lai uzkrātu ieņēmumus par abonementu transakcijām, atzīmējiet izvēles rūtiņu **Uzkrāt ieņēmumus** un pēc tam laukā **Uzkrājums** atlasiet biežumu.</span><span class="sxs-lookup"><span data-stu-id="bb808-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="bb808-110">Uzkrāšanas biežums ir balstīts uz perioda kodu, kas ir iestatīts formā **Periodi**.</span><span class="sxs-lookup"><span data-stu-id="bb808-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="78c9e-111">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="78c9e-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bb808-111">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="bb808-111">See also</span></span>
 
-<span data-ttu-id="78c9e-112">[Abonementu grupas (forma)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="78c9e-112">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="bb808-112">[Abonementu grupas (forma)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="bb808-112">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="78c9e-113">Abonementu grupas</span><span class="sxs-lookup"><span data-stu-id="78c9e-113">Subscription groups</span></span>](subscription-groups.md)
+[<span data-ttu-id="bb808-113">Abonementu grupas</span><span class="sxs-lookup"><span data-stu-id="bb808-113">Subscription groups</span></span>](subscription-groups.md)
 
   
 

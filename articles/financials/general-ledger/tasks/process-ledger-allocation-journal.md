@@ -10,37 +10,37 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2046e25719c9023bee99736488a4ee6f22723fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 087bd4f203e8762447e823b19076b79296a390d6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550825"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846371"
 ---
-# <a name="process-ledger-allocation-journal"></a><span data-ttu-id="d0b0f-103">Virsgrāmatas sadalījuma žurnāla apstrāde</span><span class="sxs-lookup"><span data-stu-id="d0b0f-103">Process ledger allocation journal</span></span>
+# <a name="process-ledger-allocation-journal"></a><span data-ttu-id="bfd01-103">Virsgrāmatas sadalījuma žurnāla apstrāde</span><span class="sxs-lookup"><span data-stu-id="bfd01-103">Process ledger allocation journal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d0b0f-104">Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-104">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="d0b0f-105">Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-105">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="d0b0f-106">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-106">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="bfd01-104">Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="bfd01-104">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="bfd01-105">Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai.</span><span class="sxs-lookup"><span data-stu-id="bfd01-105">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="bfd01-106">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="bfd01-106">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="d0b0f-107">Dodieties uz Virsgrāmata > Sadalījumi > Apstrādāt sadalījuma pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-107">Go to General ledger > Allocations > Process allocation request.</span></span>
-2. <span data-ttu-id="d0b0f-108">Laukā Kārtula noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-108">In the Rule field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="d0b0f-109">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-109">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="d0b0f-110">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-110">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="d0b0f-111">Laukā No datuma ievadiet datumu,</span><span class="sxs-lookup"><span data-stu-id="d0b0f-111">In the As of date field, enter a date.</span></span>
-    * <span data-ttu-id="d0b0f-112">No datuma ir ļoti svarīgs, ja Virsgrāmata ir noteikumu datu avotu.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-112">The As of Date is very important when the Ledger is the Data source for the rule.</span></span> <span data-ttu-id="d0b0f-113">Šis datums kontrolē, kuras Virsgrāmatas bilances iekļaut sadalījumā.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-113">This date controls which ledger balances to include for allocation.</span></span>     <span data-ttu-id="d0b0f-114">Laukā Nulles avots izvēlieties Apturēt.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-114">In the Zero source field select Stop.</span></span> <span data-ttu-id="d0b0f-115">Šādi tiks apturēts sadalījuma process un parādīts ziņojums, ka ir atlasīta nulles avota summa.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-115">This will  Stop the allocation process and display a message that states that a zero source amount is selected.</span></span>  
-6. <span data-ttu-id="d0b0f-116">Laukā Priekšlikumu opcijas atlasiet "Tikai priekšlikums".</span><span class="sxs-lookup"><span data-stu-id="d0b0f-116">In the Proposal options field, select 'Proposal only'.</span></span>
-    * <span data-ttu-id="d0b0f-117">Atlasiet Priekšlikums tikai lai pārskatītu un pēc izvēles apstiprinātu rezultātu Sadalījuma žurnālos pirms grāmatošanas Virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-117">Select Proposal only to review and optionally approve the result in Allocation journals prior to posting the allocation to General ledger.</span></span>  
-7. <span data-ttu-id="d0b0f-118">Laukā Virsgrāmatas grāmatošanas datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-118">In the GL posting date field, enter a date.</span></span>
-8. <span data-ttu-id="d0b0f-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-119">Click OK.</span></span>
-9. <span data-ttu-id="d0b0f-120">Dodieties uz Virsgrāmata > Sadalījumi > Sadalījuma žurnāli.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-120">Go to General ledger > Allocations > Allocation journals.</span></span>
-10. <span data-ttu-id="d0b0f-121">Noklikšķiniet uz Rindas.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-121">Click Lines.</span></span>
-11. <span data-ttu-id="d0b0f-122">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-122">Click Post.</span></span>
-12. <span data-ttu-id="d0b0f-123">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="d0b0f-123">Click Post.</span></span>
+1. <span data-ttu-id="bfd01-107">Dodieties uz Virsgrāmata > Sadalījumi > Apstrādāt sadalījuma pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="bfd01-107">Go to General ledger > Allocations > Process allocation request.</span></span>
+2. <span data-ttu-id="bfd01-108">Laukā Kārtula noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="bfd01-108">In the Rule field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="bfd01-109">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="bfd01-109">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="bfd01-110">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="bfd01-110">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="bfd01-111">Laukā No datuma ievadiet datumu,</span><span class="sxs-lookup"><span data-stu-id="bfd01-111">In the As of date field, enter a date.</span></span>
+    * <span data-ttu-id="bfd01-112">No datuma ir ļoti svarīgs, ja Virsgrāmata ir noteikumu datu avotu.</span><span class="sxs-lookup"><span data-stu-id="bfd01-112">The As of Date is very important when the Ledger is the Data source for the rule.</span></span> <span data-ttu-id="bfd01-113">Šis datums kontrolē, kuras Virsgrāmatas bilances iekļaut sadalījumā.</span><span class="sxs-lookup"><span data-stu-id="bfd01-113">This date controls which ledger balances to include for allocation.</span></span>     <span data-ttu-id="bfd01-114">Laukā Nulles avots izvēlieties Apturēt.</span><span class="sxs-lookup"><span data-stu-id="bfd01-114">In the Zero source field select Stop.</span></span> <span data-ttu-id="bfd01-115">Šādi tiks apturēts sadalījuma process un parādīts ziņojums, ka ir atlasīta nulles avota summa.</span><span class="sxs-lookup"><span data-stu-id="bfd01-115">This will  Stop the allocation process and display a message that states that a zero source amount is selected.</span></span>  
+6. <span data-ttu-id="bfd01-116">Laukā Priekšlikumu opcijas atlasiet "Tikai priekšlikums".</span><span class="sxs-lookup"><span data-stu-id="bfd01-116">In the Proposal options field, select 'Proposal only'.</span></span>
+    * <span data-ttu-id="bfd01-117">Atlasiet Priekšlikums tikai lai pārskatītu un pēc izvēles apstiprinātu rezultātu Sadalījuma žurnālos pirms grāmatošanas Virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="bfd01-117">Select Proposal only to review and optionally approve the result in Allocation journals prior to posting the allocation to General ledger.</span></span>  
+7. <span data-ttu-id="bfd01-118">Laukā Virsgrāmatas grāmatošanas datums ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="bfd01-118">In the GL posting date field, enter a date.</span></span>
+8. <span data-ttu-id="bfd01-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="bfd01-119">Click OK.</span></span>
+9. <span data-ttu-id="bfd01-120">Dodieties uz Virsgrāmata > Sadalījumi > Sadalījuma žurnāli.</span><span class="sxs-lookup"><span data-stu-id="bfd01-120">Go to General ledger > Allocations > Allocation journals.</span></span>
+10. <span data-ttu-id="bfd01-121">Noklikšķiniet uz Rindas.</span><span class="sxs-lookup"><span data-stu-id="bfd01-121">Click Lines.</span></span>
+11. <span data-ttu-id="bfd01-122">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="bfd01-122">Click Post.</span></span>
+12. <span data-ttu-id="bfd01-123">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="bfd01-123">Click Post.</span></span>
 

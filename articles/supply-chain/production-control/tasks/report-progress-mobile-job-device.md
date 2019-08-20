@@ -10,58 +10,58 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f5d06b0165a7a3cf7ed9dab46d0bca4d37fdc12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 199ccc03cee1f6328ff42063a480146b0a361711
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573048"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843582"
 ---
-# <a name="report-progress-on-a-mobile-job-device"></a><span data-ttu-id="2c381-103">Pārskata sniegšana par attīstību mobilajā darba ierīcē</span><span class="sxs-lookup"><span data-stu-id="2c381-103">Report progress on a mobile job device</span></span>
+# <a name="report-progress-on-a-mobile-job-device"></a><span data-ttu-id="7ba54-103">Pārskata sniegšana par attīstību mobilajā darba ierīcē</span><span class="sxs-lookup"><span data-stu-id="7ba54-103">Report progress on a mobile job device</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2c381-104">Šajā procedūrā ir parādīts, kā sākt darbu un ziņot par norisi ražošanas darbam darba ierīces reģistrācijas formā.</span><span class="sxs-lookup"><span data-stu-id="2c381-104">This procedure shows you how to start and report progress on a production job in the job device registration form.</span></span>
+<span data-ttu-id="7ba54-104">Šajā procedūrā ir parādīts, kā sākt darbu un ziņot par norisi ražošanas darbam darba ierīces reģistrācijas formā.</span><span class="sxs-lookup"><span data-stu-id="7ba54-104">This procedure shows you how to start and report progress on a production job in the job device registration form.</span></span>
 
 
 
-<span data-ttu-id="2c381-105">Lai varētu izpildīt šo procedūru, ar lietotāja kontu jābūt saistītai lomai Sistēmas administrators vai Mašīnu operators.</span><span class="sxs-lookup"><span data-stu-id="2c381-105">To be able to run this procedure you must have the System administator or Machine Operator role associated with the user account.</span></span>
+<span data-ttu-id="7ba54-105">Lai varētu izpildīt šo procedūru, ar lietotāja kontu jābūt saistītai lomai Sistēmas administrators vai Mašīnu operators.</span><span class="sxs-lookup"><span data-stu-id="7ba54-105">To be able to run this procedure you must have the System administator or Machine Operator role associated with the user account.</span></span>
 
-1. <span data-ttu-id="2c381-106">Dodieties uz Ražošanas kontrole > Ražošanas izpilde > Darbu kartes ierīce.</span><span class="sxs-lookup"><span data-stu-id="2c381-106">Go to Production control > Manufacturing execution > Job card device.</span></span>
-2. <span data-ttu-id="2c381-107">Laukā WorkerTextField ievadiet darbinieka žetonu.</span><span class="sxs-lookup"><span data-stu-id="2c381-107">In the WorkerTextField field, enter the badge of a worker.</span></span> <span data-ttu-id="2c381-108">USMF demonstrācijas datos ierakstiet "123" darbiniekam "Kristīna Portra".</span><span class="sxs-lookup"><span data-stu-id="2c381-108">In the USMF demo data type '123' for Christina Portra..</span></span>
-3. <span data-ttu-id="2c381-109">Noklikšķiniet uz Pieteikties.</span><span class="sxs-lookup"><span data-stu-id="2c381-109">Click Log in.</span></span>
-4. <span data-ttu-id="2c381-110">Noklikšķiniet uz pogas Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="2c381-110">Click the Filter button.</span></span>
-5. <span data-ttu-id="2c381-111">Atzīmējiet vai noņemiet atzīmi izvēles rūtiņai Lietot konfigurācijas filtru.</span><span class="sxs-lookup"><span data-stu-id="2c381-111">Check or uncheck the Apply configuration filter check box.</span></span> <span data-ttu-id="2c381-112">Ja iestatāt filtru, varat izmantot ražošanas vienību 110 uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="2c381-112">If you set a filter you can use production unit 110 in USMF.</span></span>
-6. <span data-ttu-id="2c381-113">Laukā Ražošanas vienība atlasiet resursu grupu, pie kuriem ražošanas uzdevumiem darbinieks var strādāt.</span><span class="sxs-lookup"><span data-stu-id="2c381-113">In the Production unit field, select the ressource group for which production jobs the worker can work on.</span></span>
-7. <span data-ttu-id="2c381-114">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="2c381-114">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="2c381-115">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2c381-115">Click OK.</span></span>
-9. <span data-ttu-id="2c381-116">Noklikšķiniet uz pogas Sākt darbu.</span><span class="sxs-lookup"><span data-stu-id="2c381-116">Click the Start job button.</span></span>
-10. <span data-ttu-id="2c381-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2c381-117">Click OK.</span></span>
-11. <span data-ttu-id="2c381-118">Noklikšķiniet uz pogas Pārskata norise.</span><span class="sxs-lookup"><span data-stu-id="2c381-118">Click the Report progress button.</span></span>
-12. <span data-ttu-id="2c381-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2c381-119">Click OK.</span></span>
-13. <span data-ttu-id="2c381-120">Noklikšķiniet uz pogas Nākamais darbs.</span><span class="sxs-lookup"><span data-stu-id="2c381-120">Click the Next job button.</span></span>
-14. <span data-ttu-id="2c381-121">Noklikšķiniet uz Piešķirts, lai redzētu pārskatu par visiem ražošanas darbiem.</span><span class="sxs-lookup"><span data-stu-id="2c381-121">Click the Assigned to see an overview of all production jobs button.</span></span>
-15. <span data-ttu-id="2c381-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="2c381-122">Close the page.</span></span>
-16. <span data-ttu-id="2c381-123">Noklikšķināt uz pogas Pārtraukums.</span><span class="sxs-lookup"><span data-stu-id="2c381-123">Click the Break button.</span></span>
-17. <span data-ttu-id="2c381-124">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2c381-124">In the list, find and select the desired record.</span></span>
-18. <span data-ttu-id="2c381-125">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2c381-125">Click OK.</span></span>
-19. <span data-ttu-id="2c381-126">Noklikšķiniet uz pogas Notiek iziešana.</span><span class="sxs-lookup"><span data-stu-id="2c381-126">Click the Leaving button.</span></span>
-20. <span data-ttu-id="2c381-127">Izvēlieties atteikšanos.</span><span class="sxs-lookup"><span data-stu-id="2c381-127">Select to log out.</span></span>
-21. <span data-ttu-id="2c381-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2c381-128">Click OK.</span></span>
-22. <span data-ttu-id="2c381-129">Laukā WorkerTextField vēlreiz piesakieties.</span><span class="sxs-lookup"><span data-stu-id="2c381-129">In the WorkerTextField field, log in again.</span></span> <span data-ttu-id="2c381-130">Varat atlasīt darbinieku "123" USMF demonstrācijas datos.</span><span class="sxs-lookup"><span data-stu-id="2c381-130">You can select worker '123' in USMF demo data.</span></span>
-23. <span data-ttu-id="2c381-131">Noklikšķiniet uz Pieteikties.</span><span class="sxs-lookup"><span data-stu-id="2c381-131">Click Log in.</span></span>
-24. <span data-ttu-id="2c381-132">Noklikšķiniet uz Apturēt pārtraukumu.</span><span class="sxs-lookup"><span data-stu-id="2c381-132">Click Stop break.</span></span>
-25. <span data-ttu-id="2c381-133">Noklikšķiniet uz pogas Darbība.</span><span class="sxs-lookup"><span data-stu-id="2c381-133">Click the Activity button.</span></span>
-26. <span data-ttu-id="2c381-134">Noklikšķiniet uz Atcelt.</span><span class="sxs-lookup"><span data-stu-id="2c381-134">Click Cancel.</span></span>
-27. <span data-ttu-id="2c381-135">Noklikšķiniet uz pogas Notiek iziešana.</span><span class="sxs-lookup"><span data-stu-id="2c381-135">Click the Leaving button.</span></span>
-28. <span data-ttu-id="2c381-136">Izvēlieties aiziešanu.</span><span class="sxs-lookup"><span data-stu-id="2c381-136">Select to clock out.</span></span>
-29. <span data-ttu-id="2c381-137">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="2c381-137">Click OK.</span></span>
-30. <span data-ttu-id="2c381-138">Atlasiet agrākas aiziešanas iemeslu.</span><span class="sxs-lookup"><span data-stu-id="2c381-138">Select a reason why you are clocking out early.</span></span>
+1. <span data-ttu-id="7ba54-106">Dodieties uz Ražošanas kontrole > Ražošanas izpilde > Darbu kartes ierīce.</span><span class="sxs-lookup"><span data-stu-id="7ba54-106">Go to Production control > Manufacturing execution > Job card device.</span></span>
+2. <span data-ttu-id="7ba54-107">Laukā WorkerTextField ievadiet darbinieka žetonu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-107">In the WorkerTextField field, enter the badge of a worker.</span></span> <span data-ttu-id="7ba54-108">USMF demonstrācijas datos ierakstiet "123" darbiniekam "Kristīna Portra".</span><span class="sxs-lookup"><span data-stu-id="7ba54-108">In the USMF demo data type '123' for Christina Portra..</span></span>
+3. <span data-ttu-id="7ba54-109">Noklikšķiniet uz Pieteikties.</span><span class="sxs-lookup"><span data-stu-id="7ba54-109">Click Log in.</span></span>
+4. <span data-ttu-id="7ba54-110">Noklikšķiniet uz pogas Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="7ba54-110">Click the Filter button.</span></span>
+5. <span data-ttu-id="7ba54-111">Atzīmējiet vai noņemiet atzīmi izvēles rūtiņai Lietot konfigurācijas filtru.</span><span class="sxs-lookup"><span data-stu-id="7ba54-111">Check or uncheck the Apply configuration filter check box.</span></span> <span data-ttu-id="7ba54-112">Ja iestatāt filtru, varat izmantot ražošanas vienību 110 uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="7ba54-112">If you set a filter you can use production unit 110 in USMF.</span></span>
+6. <span data-ttu-id="7ba54-113">Laukā Ražošanas vienība atlasiet resursu grupu, pie kuriem ražošanas uzdevumiem darbinieks var strādāt.</span><span class="sxs-lookup"><span data-stu-id="7ba54-113">In the Production unit field, select the ressource group for which production jobs the worker can work on.</span></span>
+7. <span data-ttu-id="7ba54-114">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="7ba54-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="7ba54-115">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7ba54-115">Click OK.</span></span>
+9. <span data-ttu-id="7ba54-116">Noklikšķiniet uz pogas Sākt darbu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-116">Click the Start job button.</span></span>
+10. <span data-ttu-id="7ba54-117">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7ba54-117">Click OK.</span></span>
+11. <span data-ttu-id="7ba54-118">Noklikšķiniet uz pogas Pārskata norise.</span><span class="sxs-lookup"><span data-stu-id="7ba54-118">Click the Report progress button.</span></span>
+12. <span data-ttu-id="7ba54-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7ba54-119">Click OK.</span></span>
+13. <span data-ttu-id="7ba54-120">Noklikšķiniet uz pogas Nākamais darbs.</span><span class="sxs-lookup"><span data-stu-id="7ba54-120">Click the Next job button.</span></span>
+14. <span data-ttu-id="7ba54-121">Noklikšķiniet uz Piešķirts, lai redzētu pārskatu par visiem ražošanas darbiem.</span><span class="sxs-lookup"><span data-stu-id="7ba54-121">Click the Assigned to see an overview of all production jobs button.</span></span>
+15. <span data-ttu-id="7ba54-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-122">Close the page.</span></span>
+16. <span data-ttu-id="7ba54-123">Noklikšķināt uz pogas Pārtraukums.</span><span class="sxs-lookup"><span data-stu-id="7ba54-123">Click the Break button.</span></span>
+17. <span data-ttu-id="7ba54-124">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-124">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="7ba54-125">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7ba54-125">Click OK.</span></span>
+19. <span data-ttu-id="7ba54-126">Noklikšķiniet uz pogas Notiek iziešana.</span><span class="sxs-lookup"><span data-stu-id="7ba54-126">Click the Leaving button.</span></span>
+20. <span data-ttu-id="7ba54-127">Izvēlieties atteikšanos.</span><span class="sxs-lookup"><span data-stu-id="7ba54-127">Select to log out.</span></span>
+21. <span data-ttu-id="7ba54-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7ba54-128">Click OK.</span></span>
+22. <span data-ttu-id="7ba54-129">Laukā WorkerTextField vēlreiz piesakieties.</span><span class="sxs-lookup"><span data-stu-id="7ba54-129">In the WorkerTextField field, log in again.</span></span> <span data-ttu-id="7ba54-130">Varat atlasīt darbinieku "123" USMF demonstrācijas datos.</span><span class="sxs-lookup"><span data-stu-id="7ba54-130">You can select worker '123' in USMF demo data.</span></span>
+23. <span data-ttu-id="7ba54-131">Noklikšķiniet uz Pieteikties.</span><span class="sxs-lookup"><span data-stu-id="7ba54-131">Click Log in.</span></span>
+24. <span data-ttu-id="7ba54-132">Noklikšķiniet uz Apturēt pārtraukumu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-132">Click Stop break.</span></span>
+25. <span data-ttu-id="7ba54-133">Noklikšķiniet uz pogas Darbība.</span><span class="sxs-lookup"><span data-stu-id="7ba54-133">Click the Activity button.</span></span>
+26. <span data-ttu-id="7ba54-134">Noklikšķiniet uz Atcelt.</span><span class="sxs-lookup"><span data-stu-id="7ba54-134">Click Cancel.</span></span>
+27. <span data-ttu-id="7ba54-135">Noklikšķiniet uz pogas Notiek iziešana.</span><span class="sxs-lookup"><span data-stu-id="7ba54-135">Click the Leaving button.</span></span>
+28. <span data-ttu-id="7ba54-136">Izvēlieties aiziešanu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-136">Select to clock out.</span></span>
+29. <span data-ttu-id="7ba54-137">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7ba54-137">Click OK.</span></span>
+30. <span data-ttu-id="7ba54-138">Atlasiet agrākas aiziešanas iemeslu.</span><span class="sxs-lookup"><span data-stu-id="7ba54-138">Select a reason why you are clocking out early.</span></span>
 

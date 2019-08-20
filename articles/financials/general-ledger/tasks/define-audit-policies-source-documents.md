@@ -10,86 +10,86 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a82c3e8e8787beb309b75b73cda36f4ca8031d6f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558887"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846491"
 ---
-# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="040de-103">Pirmdokumentu audita ierobežojumu definēšana</span><span class="sxs-lookup"><span data-stu-id="040de-103">Define audit policies for source documents</span></span>
+# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="dc731-103">Pirmdokumentu audita ierobežojumu definēšana</span><span class="sxs-lookup"><span data-stu-id="dc731-103">Define audit policies for source documents</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="040de-104">Šajā procedūrā ir parādīts, kā izveidot un palaist audita ierobežojuma nosacījumus.</span><span class="sxs-lookup"><span data-stu-id="040de-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="040de-105">Piemērā tiek izmantotas izdevumu atskaites ar viesnīcu izdevumu tipu.</span><span class="sxs-lookup"><span data-stu-id="040de-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="040de-106">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.</span><span class="sxs-lookup"><span data-stu-id="040de-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="040de-107">Auditora loma ietver šo uzdevumu veikšanai atbilstošās atļaujas.</span><span class="sxs-lookup"><span data-stu-id="040de-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
+<span data-ttu-id="dc731-104">Šajā procedūrā ir parādīts, kā izveidot un palaist audita ierobežojuma nosacījumus.</span><span class="sxs-lookup"><span data-stu-id="dc731-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="dc731-105">Piemērā tiek izmantotas izdevumu atskaites ar viesnīcu izdevumu tipu.</span><span class="sxs-lookup"><span data-stu-id="dc731-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="dc731-106">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.</span><span class="sxs-lookup"><span data-stu-id="dc731-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="dc731-107">Auditora loma ietver šo uzdevumu veikšanai atbilstošās atļaujas.</span><span class="sxs-lookup"><span data-stu-id="dc731-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 
-1. <span data-ttu-id="040de-108">Pārejiet uz sadaļu Audita rīks >; Iestatīšana > Ierobežojuma nosacījumu tips.</span><span class="sxs-lookup"><span data-stu-id="040de-108">Go to Audit workbench > Setup > Policy rule type.</span></span>
-2. <span data-ttu-id="040de-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="040de-109">Click New.</span></span>
-3. <span data-ttu-id="040de-110">Laukā Kārtulas nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-110">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="040de-111">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="040de-112">Laukā Vaicājuma nosaukums atlasiet Izdevumu atskaites rinda</span><span class="sxs-lookup"><span data-stu-id="040de-112">In the Query name field, select Expense report line</span></span>
-6. <span data-ttu-id="040de-113">Vaicājuma tipa laukā atlasiet Apkopojums</span><span class="sxs-lookup"><span data-stu-id="040de-113">In the query type field, select Aggregate</span></span>
-7. <span data-ttu-id="040de-114">Laukā Juridiska persona atlasiet Juridiska persona</span><span class="sxs-lookup"><span data-stu-id="040de-114">In the Legal entity field, select Legal entity</span></span>
-8. <span data-ttu-id="040de-115">Laukā Dokumenta datuma atsauce atlasiet Modificēšanas datums un laiks</span><span class="sxs-lookup"><span data-stu-id="040de-115">In the Document date reference field, select Modified date and time</span></span>
-9. <span data-ttu-id="040de-116">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="040de-116">Click Save.</span></span>
-10. <span data-ttu-id="040de-117">Pārejiet uz sadaļu Audita rīks > Iestatīšana > Audita ierobežojumi.</span><span class="sxs-lookup"><span data-stu-id="040de-117">Go to Audit workbench > Setup > Audit policies.</span></span>
-11. <span data-ttu-id="040de-118">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="040de-118">Click New.</span></span>
-12. <span data-ttu-id="040de-119">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-119">In the Name field, type a value.</span></span>
-13. <span data-ttu-id="040de-120">Izvērsiet sadaļu Politikas organizācijas.</span><span class="sxs-lookup"><span data-stu-id="040de-120">Expand the Policy organizations section.</span></span>
-14. <span data-ttu-id="040de-121">Koka struktūrā atlasiet “Contoso Entertainment System USA”.</span><span class="sxs-lookup"><span data-stu-id="040de-121">In the tree, select 'Contoso Entertainment System USA'.</span></span>
-15. <span data-ttu-id="040de-122">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-122">Click Add.</span></span>
-16. <span data-ttu-id="040de-123">Koka struktūrā atlasiet “Contoso Consulting USA”.</span><span class="sxs-lookup"><span data-stu-id="040de-123">In the tree, select 'Contoso Consulting USA'.</span></span>
-17. <span data-ttu-id="040de-124">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-124">Click Add.</span></span>
-18. <span data-ttu-id="040de-125">Koka struktūrā atlasiet “Contoso Retail USA”.</span><span class="sxs-lookup"><span data-stu-id="040de-125">In the tree, select 'Contoso Retail USA'.</span></span>
-19. <span data-ttu-id="040de-126">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-126">Click Add.</span></span>
-20. <span data-ttu-id="040de-127">Sakļaujiet sadaļu Politikas organizācijas.</span><span class="sxs-lookup"><span data-stu-id="040de-127">Collapse the Policy organizations section.</span></span>
-21. <span data-ttu-id="040de-128">Izvērsiet sadaļu Ierobežojuma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="040de-128">Expand the Policy rules section.</span></span>
-22. <span data-ttu-id="040de-129">Sarakstā atrodiet un atlasiet iepriekš izveidoto ierobežojuma nosacījumu.</span><span class="sxs-lookup"><span data-stu-id="040de-129">In the list, find and select the Policy Rule that was created previously.</span></span>
-23. <span data-ttu-id="040de-130">Noklikšķiniet uz Izveidot ierobežojuma nosacījumu.</span><span class="sxs-lookup"><span data-stu-id="040de-130">Click Create policy rule.</span></span>
-24. <span data-ttu-id="040de-131">Laukā Spēkā stāšanās datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="040de-131">In the Effective date field, enter a date and time.</span></span>
-25. <span data-ttu-id="040de-132">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="040de-132">Click Filter.</span></span>
-26. <span data-ttu-id="040de-133">Sarakstā atlasiet rindu vienumam Izdevumu kategorija un detalizēto informāciju iestatiet uz Viesnīca</span><span class="sxs-lookup"><span data-stu-id="040de-133">In the list, select the row for Expense category, and set the details to Hotel</span></span>
-27. <span data-ttu-id="040de-134">Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-134">In the Criteria field, enter or select a value.</span></span>
-28. <span data-ttu-id="040de-135">Noklikšķiniet uz cilnes Apkopot.</span><span class="sxs-lookup"><span data-stu-id="040de-135">Click the Aggregate tab.</span></span>
-29. <span data-ttu-id="040de-136">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-136">Click Add.</span></span>
-30. <span data-ttu-id="040de-137">Sarakstā atlasiet vērtību laukam Transakcijas summa</span><span class="sxs-lookup"><span data-stu-id="040de-137">In the list, select a field value of Transaction amount</span></span>
-31. <span data-ttu-id="040de-138">Laukā Lauks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-138">In the Field field, enter or select a value.</span></span>
-32. <span data-ttu-id="040de-139">Laukā AggregateFunction atlasiet “Sum”.</span><span class="sxs-lookup"><span data-stu-id="040de-139">In the AggregateFunction field, select 'Sum'.</span></span>
-33. <span data-ttu-id="040de-140">Noklikšķiniet uz cilnes Grupēt pēc.</span><span class="sxs-lookup"><span data-stu-id="040de-140">Click the Group by tab.</span></span>
-34. <span data-ttu-id="040de-141">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-141">Click Add.</span></span>
-35. <span data-ttu-id="040de-142">Sarakstā atlasiet kādu vērtību vienumam Darbinieks </span><span class="sxs-lookup"><span data-stu-id="040de-142">In the list, select a value of Employee</span></span> 
-36. <span data-ttu-id="040de-143">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-143">Click Add.</span></span>
-37. <span data-ttu-id="040de-144">Sarakstā atlasiet kādu vērtību vienumam Izdevumu kategorija</span><span class="sxs-lookup"><span data-stu-id="040de-144">In the list, select a value of Expense category</span></span>
-38. <span data-ttu-id="040de-145">Laukā Lauks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-145">In the Field field, enter or select a value.</span></span>
-39. <span data-ttu-id="040de-146">Noklikšķiniet uz cilnes Saturs.</span><span class="sxs-lookup"><span data-stu-id="040de-146">Click the Having tab.</span></span>
-40. <span data-ttu-id="040de-147">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="040de-147">Click Add.</span></span>
-41. <span data-ttu-id="040de-148">Atlasiet Transakcijas summa</span><span class="sxs-lookup"><span data-stu-id="040de-148">Select Transaction amount</span></span>
-42. <span data-ttu-id="040de-149">Laukā Lauks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="040de-149">In the Field field, enter or select a value.</span></span>
-43. <span data-ttu-id="040de-150">Laukā AggregateFunction atlasiet “Sum”.</span><span class="sxs-lookup"><span data-stu-id="040de-150">In the AggregateFunction field, select 'Sum'.</span></span>
-44. <span data-ttu-id="040de-151">Laukā Kritēriji ievadiet vērtību >2000.</span><span class="sxs-lookup"><span data-stu-id="040de-151">In the Criteria field, type '>2000'.</span></span>
-45. <span data-ttu-id="040de-152">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="040de-152">Click OK.</span></span>
-46. <span data-ttu-id="040de-153">Noklikšķiniet uz Tests.</span><span class="sxs-lookup"><span data-stu-id="040de-153">Click Test.</span></span>
-47. <span data-ttu-id="040de-154">Laukā Dokumentu atlases sākuma datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="040de-154">In the Document selection starting date field, enter a date and time.</span></span>
-48. <span data-ttu-id="040de-155">Laukā Dokumentu atlases beigu datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="040de-155">In the Document selection ending date field, enter a date and time.</span></span>
-49. <span data-ttu-id="040de-156">Noklikšķiniet uz Izpildīt testu.</span><span class="sxs-lookup"><span data-stu-id="040de-156">Click Run test.</span></span>
-50. <span data-ttu-id="040de-157">Darbību rūtī noklikšķiniet uz Audita politika.</span><span class="sxs-lookup"><span data-stu-id="040de-157">On the Action Pane, click Audit policy.</span></span>
-51. <span data-ttu-id="040de-158">Noklikšķiniet uz Papildu opcijas.</span><span class="sxs-lookup"><span data-stu-id="040de-158">Click Additional options.</span></span>
-52. <span data-ttu-id="040de-159">Laukā Sākuma datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="040de-159">In the Starting date field, enter a date and time.</span></span>
-53. <span data-ttu-id="040de-160">Laukā Beigu datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="040de-160">In the Ending date field, enter a date and time.</span></span>
-54. <span data-ttu-id="040de-161">Noklikšķiniet uz Partija.</span><span class="sxs-lookup"><span data-stu-id="040de-161">Click Batch.</span></span>
-55. <span data-ttu-id="040de-162">Izvērsiet sadaļu Palaist fonā.</span><span class="sxs-lookup"><span data-stu-id="040de-162">Expand the Run in the background section.</span></span>
-56. <span data-ttu-id="040de-163">Laukā Pakešapstrāde atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="040de-163">Select Yes in the Batch processing field.</span></span>
-57. <span data-ttu-id="040de-164">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="040de-164">Click OK.</span></span>
-58. <span data-ttu-id="040de-165">Pārejiet uz sadaļu Audita rīks > Audita gadījumi.</span><span class="sxs-lookup"><span data-stu-id="040de-165">Go to Audit workbench > Audit cases.</span></span>
-59. <span data-ttu-id="040de-166">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="040de-166">In the list, find and select the desired record.</span></span>
-60. <span data-ttu-id="040de-167">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="040de-167">In the list, click the link in the selected row.</span></span>
-61. <span data-ttu-id="040de-168">Izvērsiet sadaļu Saistības.</span><span class="sxs-lookup"><span data-stu-id="040de-168">Expand the Associations section.</span></span>
-62. <span data-ttu-id="040de-169">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="040de-169">In the list, find and select the desired record.</span></span>
-63. <span data-ttu-id="040de-170">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="040de-170">In the list, click the link in the selected row.</span></span>
+1. <span data-ttu-id="dc731-108">Pārejiet uz sadaļu Audita rīks >; Iestatīšana > Ierobežojuma nosacījumu tips.</span><span class="sxs-lookup"><span data-stu-id="dc731-108">Go to Audit workbench > Setup > Policy rule type.</span></span>
+2. <span data-ttu-id="dc731-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="dc731-109">Click New.</span></span>
+3. <span data-ttu-id="dc731-110">Laukā Kārtulas nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-110">In the Rule name field, type a value.</span></span>
+4. <span data-ttu-id="dc731-111">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="dc731-112">Laukā Vaicājuma nosaukums atlasiet Izdevumu atskaites rinda</span><span class="sxs-lookup"><span data-stu-id="dc731-112">In the Query name field, select Expense report line</span></span>
+6. <span data-ttu-id="dc731-113">Vaicājuma tipa laukā atlasiet Apkopojums</span><span class="sxs-lookup"><span data-stu-id="dc731-113">In the query type field, select Aggregate</span></span>
+7. <span data-ttu-id="dc731-114">Laukā Juridiska persona atlasiet Juridiska persona</span><span class="sxs-lookup"><span data-stu-id="dc731-114">In the Legal entity field, select Legal entity</span></span>
+8. <span data-ttu-id="dc731-115">Laukā Dokumenta datuma atsauce atlasiet Modificēšanas datums un laiks</span><span class="sxs-lookup"><span data-stu-id="dc731-115">In the Document date reference field, select Modified date and time</span></span>
+9. <span data-ttu-id="dc731-116">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="dc731-116">Click Save.</span></span>
+10. <span data-ttu-id="dc731-117">Pārejiet uz sadaļu Audita rīks > Iestatīšana > Audita ierobežojumi.</span><span class="sxs-lookup"><span data-stu-id="dc731-117">Go to Audit workbench > Setup > Audit policies.</span></span>
+11. <span data-ttu-id="dc731-118">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="dc731-118">Click New.</span></span>
+12. <span data-ttu-id="dc731-119">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-119">In the Name field, type a value.</span></span>
+13. <span data-ttu-id="dc731-120">Izvērsiet sadaļu Politikas organizācijas.</span><span class="sxs-lookup"><span data-stu-id="dc731-120">Expand the Policy organizations section.</span></span>
+14. <span data-ttu-id="dc731-121">Koka struktūrā atlasiet “Contoso Entertainment System USA”.</span><span class="sxs-lookup"><span data-stu-id="dc731-121">In the tree, select 'Contoso Entertainment System USA'.</span></span>
+15. <span data-ttu-id="dc731-122">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-122">Click Add.</span></span>
+16. <span data-ttu-id="dc731-123">Koka struktūrā atlasiet “Contoso Consulting USA”.</span><span class="sxs-lookup"><span data-stu-id="dc731-123">In the tree, select 'Contoso Consulting USA'.</span></span>
+17. <span data-ttu-id="dc731-124">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-124">Click Add.</span></span>
+18. <span data-ttu-id="dc731-125">Koka struktūrā atlasiet “Contoso Retail USA”.</span><span class="sxs-lookup"><span data-stu-id="dc731-125">In the tree, select 'Contoso Retail USA'.</span></span>
+19. <span data-ttu-id="dc731-126">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-126">Click Add.</span></span>
+20. <span data-ttu-id="dc731-127">Sakļaujiet sadaļu Politikas organizācijas.</span><span class="sxs-lookup"><span data-stu-id="dc731-127">Collapse the Policy organizations section.</span></span>
+21. <span data-ttu-id="dc731-128">Izvērsiet sadaļu Ierobežojuma nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="dc731-128">Expand the Policy rules section.</span></span>
+22. <span data-ttu-id="dc731-129">Sarakstā atrodiet un atlasiet iepriekš izveidoto ierobežojuma nosacījumu.</span><span class="sxs-lookup"><span data-stu-id="dc731-129">In the list, find and select the Policy Rule that was created previously.</span></span>
+23. <span data-ttu-id="dc731-130">Noklikšķiniet uz Izveidot ierobežojuma nosacījumu.</span><span class="sxs-lookup"><span data-stu-id="dc731-130">Click Create policy rule.</span></span>
+24. <span data-ttu-id="dc731-131">Laukā Spēkā stāšanās datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="dc731-131">In the Effective date field, enter a date and time.</span></span>
+25. <span data-ttu-id="dc731-132">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="dc731-132">Click Filter.</span></span>
+26. <span data-ttu-id="dc731-133">Sarakstā atlasiet rindu vienumam Izdevumu kategorija un detalizēto informāciju iestatiet uz Viesnīca</span><span class="sxs-lookup"><span data-stu-id="dc731-133">In the list, select the row for Expense category, and set the details to Hotel</span></span>
+27. <span data-ttu-id="dc731-134">Laukā Kritēriji ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-134">In the Criteria field, enter or select a value.</span></span>
+28. <span data-ttu-id="dc731-135">Noklikšķiniet uz cilnes Apkopot.</span><span class="sxs-lookup"><span data-stu-id="dc731-135">Click the Aggregate tab.</span></span>
+29. <span data-ttu-id="dc731-136">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-136">Click Add.</span></span>
+30. <span data-ttu-id="dc731-137">Sarakstā atlasiet vērtību laukam Transakcijas summa</span><span class="sxs-lookup"><span data-stu-id="dc731-137">In the list, select a field value of Transaction amount</span></span>
+31. <span data-ttu-id="dc731-138">Laukā Lauks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-138">In the Field field, enter or select a value.</span></span>
+32. <span data-ttu-id="dc731-139">Laukā AggregateFunction atlasiet “Sum”.</span><span class="sxs-lookup"><span data-stu-id="dc731-139">In the AggregateFunction field, select 'Sum'.</span></span>
+33. <span data-ttu-id="dc731-140">Noklikšķiniet uz cilnes Grupēt pēc.</span><span class="sxs-lookup"><span data-stu-id="dc731-140">Click the Group by tab.</span></span>
+34. <span data-ttu-id="dc731-141">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-141">Click Add.</span></span>
+35. <span data-ttu-id="dc731-142">Sarakstā atlasiet kādu vērtību vienumam Darbinieks </span><span class="sxs-lookup"><span data-stu-id="dc731-142">In the list, select a value of Employee</span></span> 
+36. <span data-ttu-id="dc731-143">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-143">Click Add.</span></span>
+37. <span data-ttu-id="dc731-144">Sarakstā atlasiet kādu vērtību vienumam Izdevumu kategorija</span><span class="sxs-lookup"><span data-stu-id="dc731-144">In the list, select a value of Expense category</span></span>
+38. <span data-ttu-id="dc731-145">Laukā Lauks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-145">In the Field field, enter or select a value.</span></span>
+39. <span data-ttu-id="dc731-146">Noklikšķiniet uz cilnes Saturs.</span><span class="sxs-lookup"><span data-stu-id="dc731-146">Click the Having tab.</span></span>
+40. <span data-ttu-id="dc731-147">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="dc731-147">Click Add.</span></span>
+41. <span data-ttu-id="dc731-148">Atlasiet Transakcijas summa</span><span class="sxs-lookup"><span data-stu-id="dc731-148">Select Transaction amount</span></span>
+42. <span data-ttu-id="dc731-149">Laukā Lauks ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="dc731-149">In the Field field, enter or select a value.</span></span>
+43. <span data-ttu-id="dc731-150">Laukā AggregateFunction atlasiet “Sum”.</span><span class="sxs-lookup"><span data-stu-id="dc731-150">In the AggregateFunction field, select 'Sum'.</span></span>
+44. <span data-ttu-id="dc731-151">Laukā Kritēriji ievadiet vērtību >2000.</span><span class="sxs-lookup"><span data-stu-id="dc731-151">In the Criteria field, type '>2000'.</span></span>
+45. <span data-ttu-id="dc731-152">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="dc731-152">Click OK.</span></span>
+46. <span data-ttu-id="dc731-153">Noklikšķiniet uz Tests.</span><span class="sxs-lookup"><span data-stu-id="dc731-153">Click Test.</span></span>
+47. <span data-ttu-id="dc731-154">Laukā Dokumentu atlases sākuma datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="dc731-154">In the Document selection starting date field, enter a date and time.</span></span>
+48. <span data-ttu-id="dc731-155">Laukā Dokumentu atlases beigu datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="dc731-155">In the Document selection ending date field, enter a date and time.</span></span>
+49. <span data-ttu-id="dc731-156">Noklikšķiniet uz Izpildīt testu.</span><span class="sxs-lookup"><span data-stu-id="dc731-156">Click Run test.</span></span>
+50. <span data-ttu-id="dc731-157">Darbību rūtī noklikšķiniet uz Audita politika.</span><span class="sxs-lookup"><span data-stu-id="dc731-157">On the Action Pane, click Audit policy.</span></span>
+51. <span data-ttu-id="dc731-158">Noklikšķiniet uz Papildu opcijas.</span><span class="sxs-lookup"><span data-stu-id="dc731-158">Click Additional options.</span></span>
+52. <span data-ttu-id="dc731-159">Laukā Sākuma datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="dc731-159">In the Starting date field, enter a date and time.</span></span>
+53. <span data-ttu-id="dc731-160">Laukā Beigu datums ievadiet kādu datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="dc731-160">In the Ending date field, enter a date and time.</span></span>
+54. <span data-ttu-id="dc731-161">Noklikšķiniet uz Partija.</span><span class="sxs-lookup"><span data-stu-id="dc731-161">Click Batch.</span></span>
+55. <span data-ttu-id="dc731-162">Izvērsiet sadaļu Palaist fonā.</span><span class="sxs-lookup"><span data-stu-id="dc731-162">Expand the Run in the background section.</span></span>
+56. <span data-ttu-id="dc731-163">Laukā Pakešapstrāde atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="dc731-163">Select Yes in the Batch processing field.</span></span>
+57. <span data-ttu-id="dc731-164">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="dc731-164">Click OK.</span></span>
+58. <span data-ttu-id="dc731-165">Pārejiet uz sadaļu Audita rīks > Audita gadījumi.</span><span class="sxs-lookup"><span data-stu-id="dc731-165">Go to Audit workbench > Audit cases.</span></span>
+59. <span data-ttu-id="dc731-166">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="dc731-166">In the list, find and select the desired record.</span></span>
+60. <span data-ttu-id="dc731-167">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="dc731-167">In the list, click the link in the selected row.</span></span>
+61. <span data-ttu-id="dc731-168">Izvērsiet sadaļu Saistības.</span><span class="sxs-lookup"><span data-stu-id="dc731-168">Expand the Associations section.</span></span>
+62. <span data-ttu-id="dc731-169">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="dc731-169">In the list, find and select the desired record.</span></span>
+63. <span data-ttu-id="dc731-170">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="dc731-170">In the list, click the link in the selected row.</span></span>
 

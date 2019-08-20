@@ -10,164 +10,164 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCashTable, LedgerJournalSetup, HcmWorkerGroup_RU, EmplPosting_RU, VendParameters, RCashPosting, BankParameters, PaymTerm, HcmWorker, HcmWorkerNewWorker, HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU, PurchTable, PurchCreateOrder, HcmAdvHolderLookup_RU, InventItemIdLookupPurchase, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, EmplTrans_RU, EmplBalance_RU
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3c07789bfa0839436caf32e428f3abeecb8f2b7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2cfc03cb9dc35a27f99b740da181fe54aa2e684d
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568088"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849181"
 ---
-# <a name="eeu-00047-advance-payment-to-employee"></a><span data-ttu-id="7fceb-103">EEU-00047 avansa maksājums darbiniekam</span><span class="sxs-lookup"><span data-stu-id="7fceb-103">EEU-00047 Advance payment to employee</span></span>
+# <a name="eeu-00047-advance-payment-to-employee"></a><span data-ttu-id="c7a3a-103">EEU-00047 avansa maksājums darbiniekam</span><span class="sxs-lookup"><span data-stu-id="c7a3a-103">EEU-00047 Advance payment to employee</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7fceb-104">Šajā procedūrā parādīts, kā iestatīt un reģistrēt darbības avansa turētājam.</span><span class="sxs-lookup"><span data-stu-id="7fceb-104">This procedure demonstrates how to set up and register transactions for an advance holder.</span></span> <span data-ttu-id="7fceb-105">Šī procedūra ir izveidota, izmantojot demonstrācijas datu uzņēmumu DEMF, kura primārā adrese ir Lietuvā.</span><span class="sxs-lookup"><span data-stu-id="7fceb-105">This procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="7fceb-106">Šis uzdevums ir paredzēts tikai juridiskām personām, kuru primārā adrese ir Polijā, Lietuvā, Latvijā, Igaunijā, Čehijā vai Ungārijā.</span><span class="sxs-lookup"><span data-stu-id="7fceb-106">This task only works for legal entities with a primary address in Poland, Lithuania, Latvia, Estonia, Czech Republic, or Hungary.</span></span> <span data-ttu-id="7fceb-107">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="7fceb-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="c7a3a-104">Šajā procedūrā parādīts, kā iestatīt un reģistrēt darbības avansa turētājam.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-104">This procedure demonstrates how to set up and register transactions for an advance holder.</span></span> <span data-ttu-id="c7a3a-105">Šī procedūra ir izveidota, izmantojot demonstrācijas datu uzņēmumu DEMF, kura primārā adrese ir Lietuvā.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-105">This procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="c7a3a-106">Šis uzdevums ir paredzēts tikai juridiskām personām, kuru primārā adrese ir Polijā, Lietuvā, Latvijā, Igaunijā, Čehijā vai Ungārijā.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-106">This task only works for legal entities with a primary address in Poland, Lithuania, Latvia, Estonia, Czech Republic, or Hungary.</span></span> <span data-ttu-id="c7a3a-107">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-new-cash-account"></a><span data-ttu-id="7fceb-108">Izveidot jaunu kases kontu</span><span class="sxs-lookup"><span data-stu-id="7fceb-108">Create a new cash account</span></span>
-1. <span data-ttu-id="7fceb-109">Dodieties uz Kases un bankas vadība > Bankas konti > Kases konti.</span><span class="sxs-lookup"><span data-stu-id="7fceb-109">Go to Cash and bank management > Bank accounts > Cash accounts.</span></span>
-2. <span data-ttu-id="7fceb-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-110">Click New.</span></span>
-3. <span data-ttu-id="7fceb-111">Laukā Kase ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-111">In the Cash field, type a value.</span></span>
-4. <span data-ttu-id="7fceb-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-112">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="7fceb-113">Laukā Numuru sērijas grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-113">In the Number sequence group field, enter or select a value.</span></span>
-6. <span data-ttu-id="7fceb-114">Izvērsiet sadaļu Apstiprināšana.</span><span class="sxs-lookup"><span data-stu-id="7fceb-114">Expand the Validation section.</span></span>
-7. <span data-ttu-id="7fceb-115">Laukā Valūta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-115">In the Currency field, enter or select a value.</span></span>
-8. <span data-ttu-id="7fceb-116">Atlasiet Jā laukā Negatīvs atlikums kasē.</span><span class="sxs-lookup"><span data-stu-id="7fceb-116">Select Yes in the Negative cash field.</span></span>
-9. <span data-ttu-id="7fceb-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-117">Click Save.</span></span>
+## <a name="create-a-new-cash-account"></a><span data-ttu-id="c7a3a-108">Izveidot jaunu kases kontu</span><span class="sxs-lookup"><span data-stu-id="c7a3a-108">Create a new cash account</span></span>
+1. <span data-ttu-id="c7a3a-109">Dodieties uz Kases un bankas vadība > Bankas konti > Kases konti.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-109">Go to Cash and bank management > Bank accounts > Cash accounts.</span></span>
+2. <span data-ttu-id="c7a3a-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-110">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-111">Laukā Kase ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-111">In the Cash field, type a value.</span></span>
+4. <span data-ttu-id="c7a3a-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c7a3a-113">Laukā Numuru sērijas grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-113">In the Number sequence group field, enter or select a value.</span></span>
+6. <span data-ttu-id="c7a3a-114">Izvērsiet sadaļu Apstiprināšana.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-114">Expand the Validation section.</span></span>
+7. <span data-ttu-id="c7a3a-115">Laukā Valūta ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-115">In the Currency field, enter or select a value.</span></span>
+8. <span data-ttu-id="c7a3a-116">Atlasiet Jā laukā Negatīvs atlikums kasē.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-116">Select Yes in the Negative cash field.</span></span>
+9. <span data-ttu-id="c7a3a-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-117">Click Save.</span></span>
 
-## <a name="create-a-new-journal"></a><span data-ttu-id="7fceb-118">Izveidot jaunu žurnālu</span><span class="sxs-lookup"><span data-stu-id="7fceb-118">Create a new journal</span></span>
-1. <span data-ttu-id="7fceb-119">Pārejiet uz sadaļu Virsgrāmata >Žurnāla iestatīšana > Žurnālu nosaukumi.</span><span class="sxs-lookup"><span data-stu-id="7fceb-119">Go to General ledger > Journal setup > Journal names.</span></span>
-2. <span data-ttu-id="7fceb-120">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-120">Click New.</span></span>
-3. <span data-ttu-id="7fceb-121">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-121">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="7fceb-122">Laukā Dokumentu sērijas ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-122">In the Voucher series field, enter or select a value.</span></span>
-5. <span data-ttu-id="7fceb-123">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-123">Click Save.</span></span>
-6. <span data-ttu-id="7fceb-124">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-124">Click New.</span></span>
-7. <span data-ttu-id="7fceb-125">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-125">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="7fceb-126">Atlasiet opciju laukā Žurnāla veids.</span><span class="sxs-lookup"><span data-stu-id="7fceb-126">In the Journal type field, select an option.</span></span>
-9. <span data-ttu-id="7fceb-127">Laukā Dokumentu sērijas ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-127">In the Voucher series field, enter or select a value.</span></span>
-10. <span data-ttu-id="7fceb-128">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-128">Click Save.</span></span>
+## <a name="create-a-new-journal"></a><span data-ttu-id="c7a3a-118">Izveidot jaunu žurnālu</span><span class="sxs-lookup"><span data-stu-id="c7a3a-118">Create a new journal</span></span>
+1. <span data-ttu-id="c7a3a-119">Pārejiet uz sadaļu Virsgrāmata >Žurnāla iestatīšana > Žurnālu nosaukumi.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-119">Go to General ledger > Journal setup > Journal names.</span></span>
+2. <span data-ttu-id="c7a3a-120">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-120">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-121">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-121">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="c7a3a-122">Laukā Dokumentu sērijas ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-122">In the Voucher series field, enter or select a value.</span></span>
+5. <span data-ttu-id="c7a3a-123">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-123">Click Save.</span></span>
+6. <span data-ttu-id="c7a3a-124">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-124">Click New.</span></span>
+7. <span data-ttu-id="c7a3a-125">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-125">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="c7a3a-126">Atlasiet opciju laukā Žurnāla veids.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-126">In the Journal type field, select an option.</span></span>
+9. <span data-ttu-id="c7a3a-127">Laukā Dokumentu sērijas ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-127">In the Voucher series field, enter or select a value.</span></span>
+10. <span data-ttu-id="c7a3a-128">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-128">Click Save.</span></span>
 
-## <a name="create-an-advance-holder-group"></a><span data-ttu-id="7fceb-129">Izveidot avansa turētāju grupu</span><span class="sxs-lookup"><span data-stu-id="7fceb-129">Create an advance holder group</span></span>
-1. <span data-ttu-id="7fceb-130">Dodieties uz Parādi kreditoriem > Iestatīšana > Avansa turētāji > Avansa turētāju grupas.</span><span class="sxs-lookup"><span data-stu-id="7fceb-130">Go to Accounts payable > Setup > Advance holders > Advance holder groups.</span></span>
-2. <span data-ttu-id="7fceb-131">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-131">Click New.</span></span>
-3. <span data-ttu-id="7fceb-132">Laukā Grupa ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-132">In the Group field, type a value.</span></span>
-4. <span data-ttu-id="7fceb-133">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-133">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="7fceb-134">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-134">Click Save.</span></span>
+## <a name="create-an-advance-holder-group"></a><span data-ttu-id="c7a3a-129">Izveidot avansa turētāju grupu</span><span class="sxs-lookup"><span data-stu-id="c7a3a-129">Create an advance holder group</span></span>
+1. <span data-ttu-id="c7a3a-130">Dodieties uz Parādi kreditoriem > Iestatīšana > Avansa turētāji > Avansa turētāju grupas.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-130">Go to Accounts payable > Setup > Advance holders > Advance holder groups.</span></span>
+2. <span data-ttu-id="c7a3a-131">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-131">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-132">Laukā Grupa ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-132">In the Group field, type a value.</span></span>
+4. <span data-ttu-id="c7a3a-133">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-133">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c7a3a-134">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-134">Click Save.</span></span>
 
-## <a name="create-an-employee-posting-profile"></a><span data-ttu-id="7fceb-135">Izveidot darbinieka grāmatošanas metodi</span><span class="sxs-lookup"><span data-stu-id="7fceb-135">Create an employee posting profile</span></span>
-1. <span data-ttu-id="7fceb-136">Dodieties uz Parādi kreditoriem > Iestatīšana > Avansa turētāji > Darbinieku grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="7fceb-136">Go to Accounts payable > Setup > Advance holders > Employee posting profiles.</span></span>
-2. <span data-ttu-id="7fceb-137">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-137">Click New.</span></span>
-3. <span data-ttu-id="7fceb-138">Ievadiet vērtību laukā Grāmatošanas metode.</span><span class="sxs-lookup"><span data-stu-id="7fceb-138">In the Posting profile field, type a value.</span></span>
-4. <span data-ttu-id="7fceb-139">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-139">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="7fceb-140">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-140">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="7fceb-141">Atlasiet opciju laukā Derīguma termiņš.</span><span class="sxs-lookup"><span data-stu-id="7fceb-141">In the Valid for field, select an option.</span></span>
-7. <span data-ttu-id="7fceb-142">Laukā Summu konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="7fceb-142">In the Summary account field, specify the desired values.</span></span>
-8. <span data-ttu-id="7fceb-143">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-143">Click Save.</span></span>
+## <a name="create-an-employee-posting-profile"></a><span data-ttu-id="c7a3a-135">Izveidot darbinieka grāmatošanas metodi</span><span class="sxs-lookup"><span data-stu-id="c7a3a-135">Create an employee posting profile</span></span>
+1. <span data-ttu-id="c7a3a-136">Dodieties uz Parādi kreditoriem > Iestatīšana > Avansa turētāji > Darbinieku grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-136">Go to Accounts payable > Setup > Advance holders > Employee posting profiles.</span></span>
+2. <span data-ttu-id="c7a3a-137">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-137">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-138">Ievadiet vērtību laukā Grāmatošanas metode.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-138">In the Posting profile field, type a value.</span></span>
+4. <span data-ttu-id="c7a3a-139">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-139">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c7a3a-140">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-140">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="c7a3a-141">Atlasiet opciju laukā Derīguma termiņš.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-141">In the Valid for field, select an option.</span></span>
+7. <span data-ttu-id="c7a3a-142">Laukā Summu konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-142">In the Summary account field, specify the desired values.</span></span>
+8. <span data-ttu-id="c7a3a-143">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-143">Click Save.</span></span>
 
-## <a name="set-up-advance-holder-parameters"></a><span data-ttu-id="7fceb-144">Iestatīt avansa turētāja parametrus</span><span class="sxs-lookup"><span data-stu-id="7fceb-144">Set up advance holder parameters</span></span>
-1. <span data-ttu-id="7fceb-145">Pārejiet uz sadaļu Kreditori > Iestatījumi > Kreditoru parametri.</span><span class="sxs-lookup"><span data-stu-id="7fceb-145">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
-2. <span data-ttu-id="7fceb-146">Noklikšķiniet uz cilnes Avansa turētāji.</span><span class="sxs-lookup"><span data-stu-id="7fceb-146">Click the Advance holders tab.</span></span>
-3. <span data-ttu-id="7fceb-147">Laukā Grāmatošanas metode ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-147">In the Posting profile field, enter or select a value.</span></span>
-4. <span data-ttu-id="7fceb-148">Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-148">In the Name field, enter or select a value.</span></span>
-5. <span data-ttu-id="7fceb-149">Laukā Kase ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-149">In the Cash field, enter or select a value.</span></span>
-6. <span data-ttu-id="7fceb-150">Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-150">In the Name field, enter or select a value.</span></span>
-7. <span data-ttu-id="7fceb-151">Laukā Konta tips atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="7fceb-151">In the Account type field, select an option.</span></span>
-8. <span data-ttu-id="7fceb-152">Laukā Galvenais konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="7fceb-152">In the Main account field, specify the desired values.</span></span>
-9. <span data-ttu-id="7fceb-153">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="7fceb-153">Click the Number sequences tab.</span></span>
-10. <span data-ttu-id="7fceb-154">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-154">Click Save.</span></span>
+## <a name="set-up-advance-holder-parameters"></a><span data-ttu-id="c7a3a-144">Iestatīt avansa turētāja parametrus</span><span class="sxs-lookup"><span data-stu-id="c7a3a-144">Set up advance holder parameters</span></span>
+1. <span data-ttu-id="c7a3a-145">Pārejiet uz sadaļu Kreditori > Iestatījumi > Kreditoru parametri.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-145">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
+2. <span data-ttu-id="c7a3a-146">Noklikšķiniet uz cilnes Avansa turētāji.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-146">Click the Advance holders tab.</span></span>
+3. <span data-ttu-id="c7a3a-147">Laukā Grāmatošanas metode ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-147">In the Posting profile field, enter or select a value.</span></span>
+4. <span data-ttu-id="c7a3a-148">Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-148">In the Name field, enter or select a value.</span></span>
+5. <span data-ttu-id="c7a3a-149">Laukā Kase ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-149">In the Cash field, enter or select a value.</span></span>
+6. <span data-ttu-id="c7a3a-150">Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-150">In the Name field, enter or select a value.</span></span>
+7. <span data-ttu-id="c7a3a-151">Laukā Konta tips atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-151">In the Account type field, select an option.</span></span>
+8. <span data-ttu-id="c7a3a-152">Laukā Galvenais konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-152">In the Main account field, specify the desired values.</span></span>
+9. <span data-ttu-id="c7a3a-153">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-153">Click the Number sequences tab.</span></span>
+10. <span data-ttu-id="c7a3a-154">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-154">Click Save.</span></span>
 
-## <a name="set-up-a-cash-posting-profile"></a><span data-ttu-id="7fceb-155">Iestatīt kases grāmatošanas metodi</span><span class="sxs-lookup"><span data-stu-id="7fceb-155">Set up a cash posting profile</span></span>
-1. <span data-ttu-id="7fceb-156">Dodieties uz Kases un bankas vadība > Iestatīšana > Kases grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="7fceb-156">Go to Cash and bank management > Setup > Cash posting profiles.</span></span>
-2. <span data-ttu-id="7fceb-157">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-157">Click New.</span></span>
-3. <span data-ttu-id="7fceb-158">Laukā Kases grāmatošana ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-158">In the Cash posting field, type a value.</span></span>
-4. <span data-ttu-id="7fceb-159">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-159">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="7fceb-160">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-160">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="7fceb-161">Atlasiet opciju laukā Derīguma termiņš.</span><span class="sxs-lookup"><span data-stu-id="7fceb-161">In the Valid for field, select an option.</span></span>
-7. <span data-ttu-id="7fceb-162">Laukā Galvenais konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="7fceb-162">In the Main account field, specify the desired values.</span></span>
-8. <span data-ttu-id="7fceb-163">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-163">Click Save.</span></span>
+## <a name="set-up-a-cash-posting-profile"></a><span data-ttu-id="c7a3a-155">Iestatīt kases grāmatošanas metodi</span><span class="sxs-lookup"><span data-stu-id="c7a3a-155">Set up a cash posting profile</span></span>
+1. <span data-ttu-id="c7a3a-156">Dodieties uz Kases un bankas vadība > Iestatīšana > Kases grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-156">Go to Cash and bank management > Setup > Cash posting profiles.</span></span>
+2. <span data-ttu-id="c7a3a-157">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-157">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-158">Laukā Kases grāmatošana ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-158">In the Cash posting field, type a value.</span></span>
+4. <span data-ttu-id="c7a3a-159">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-159">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c7a3a-160">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-160">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="c7a3a-161">Atlasiet opciju laukā Derīguma termiņš.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-161">In the Valid for field, select an option.</span></span>
+7. <span data-ttu-id="c7a3a-162">Laukā Galvenais konts norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-162">In the Main account field, specify the desired values.</span></span>
+8. <span data-ttu-id="c7a3a-163">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-163">Click Save.</span></span>
 
-## <a name="set-up-cash-and-bank-parameters"></a><span data-ttu-id="7fceb-164">Iestatīt kases un bankas parametrus</span><span class="sxs-lookup"><span data-stu-id="7fceb-164">Set up cash and bank parameters</span></span>
-1. <span data-ttu-id="7fceb-165">Pārejiet uz sadaļu Kases un bankas pārvaldība > Iestatījumi > Kases un bankas pārvaldības parametri.</span><span class="sxs-lookup"><span data-stu-id="7fceb-165">Go to Cash and bank management > Setup > Cash and bank management parameters.</span></span>
-2. <span data-ttu-id="7fceb-166">Noklikšķiniet uz cilnes Kase.</span><span class="sxs-lookup"><span data-stu-id="7fceb-166">Click the Cash tab.</span></span>
-3. <span data-ttu-id="7fceb-167">Laukā Kase ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-167">In the Cash field, enter or select a value.</span></span>
-4. <span data-ttu-id="7fceb-168">Laukā Kases grāmatošana ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-168">In the Cash posting field, enter or select a value.</span></span>
-5. <span data-ttu-id="7fceb-169">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-169">Click Save.</span></span>
-6. <span data-ttu-id="7fceb-170">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="7fceb-170">Click the Number sequences tab.</span></span>
-7. <span data-ttu-id="7fceb-171">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-171">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="7fceb-172">Laukā Numuru sērijas kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-172">In the Number sequence code field, enter or select a value.</span></span>
-9. <span data-ttu-id="7fceb-173">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-173">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="7fceb-174">Laukā Numuru sērijas kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-174">In the Number sequence code field, enter or select a value.</span></span>
-11. <span data-ttu-id="7fceb-175">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-175">Click Save.</span></span>
+## <a name="set-up-cash-and-bank-parameters"></a><span data-ttu-id="c7a3a-164">Iestatīt kases un bankas parametrus</span><span class="sxs-lookup"><span data-stu-id="c7a3a-164">Set up cash and bank parameters</span></span>
+1. <span data-ttu-id="c7a3a-165">Pārejiet uz sadaļu Kases un bankas pārvaldība > Iestatījumi > Kases un bankas pārvaldības parametri.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-165">Go to Cash and bank management > Setup > Cash and bank management parameters.</span></span>
+2. <span data-ttu-id="c7a3a-166">Noklikšķiniet uz cilnes Kase.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-166">Click the Cash tab.</span></span>
+3. <span data-ttu-id="c7a3a-167">Laukā Kase ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-167">In the Cash field, enter or select a value.</span></span>
+4. <span data-ttu-id="c7a3a-168">Laukā Kases grāmatošana ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-168">In the Cash posting field, enter or select a value.</span></span>
+5. <span data-ttu-id="c7a3a-169">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-169">Click Save.</span></span>
+6. <span data-ttu-id="c7a3a-170">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-170">Click the Number sequences tab.</span></span>
+7. <span data-ttu-id="c7a3a-171">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-171">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="c7a3a-172">Laukā Numuru sērijas kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-172">In the Number sequence code field, enter or select a value.</span></span>
+9. <span data-ttu-id="c7a3a-173">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-173">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="c7a3a-174">Laukā Numuru sērijas kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-174">In the Number sequence code field, enter or select a value.</span></span>
+11. <span data-ttu-id="c7a3a-175">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-175">Click Save.</span></span>
 
-## <a name="set-up-terms-of-payment"></a><span data-ttu-id="7fceb-176">Iestatiet maksājumu nosacījumus</span><span class="sxs-lookup"><span data-stu-id="7fceb-176">Set up terms of payment</span></span>
-1. <span data-ttu-id="7fceb-177">Pārejiet uz sadaļu Kreditori > Maksājuma iestatījumi > Apmaksas nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="7fceb-177">Go to Accounts payable > Payment setup > Terms of payment.</span></span>
-2. <span data-ttu-id="7fceb-178">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-178">Click Edit.</span></span>
-3. <span data-ttu-id="7fceb-179">Atlasiet Jā laukā No avansa turētāja.</span><span class="sxs-lookup"><span data-stu-id="7fceb-179">Select Yes in the From advance holder field.</span></span>
-4. <span data-ttu-id="7fceb-180">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-180">Click Save.</span></span>
+## <a name="set-up-terms-of-payment"></a><span data-ttu-id="c7a3a-176">Iestatiet maksājumu nosacījumus</span><span class="sxs-lookup"><span data-stu-id="c7a3a-176">Set up terms of payment</span></span>
+1. <span data-ttu-id="c7a3a-177">Pārejiet uz sadaļu Kreditori > Maksājuma iestatījumi > Apmaksas nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-177">Go to Accounts payable > Payment setup > Terms of payment.</span></span>
+2. <span data-ttu-id="c7a3a-178">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-178">Click Edit.</span></span>
+3. <span data-ttu-id="c7a3a-179">Atlasiet Jā laukā No avansa turētāja.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-179">Select Yes in the From advance holder field.</span></span>
+4. <span data-ttu-id="c7a3a-180">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-180">Click Save.</span></span>
 
-## <a name="create-a-new-worker"></a><span data-ttu-id="7fceb-181">Izveidot jaunu darbinieku</span><span class="sxs-lookup"><span data-stu-id="7fceb-181">Create a new worker</span></span>
-1. <span data-ttu-id="7fceb-182">Pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki.</span><span class="sxs-lookup"><span data-stu-id="7fceb-182">Go to Human resources > Workers > Workers.</span></span>
-2. <span data-ttu-id="7fceb-183">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-183">Click New.</span></span>
-3. <span data-ttu-id="7fceb-184">Laukā Vārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-184">In the First name field, type a value.</span></span>
-4. <span data-ttu-id="7fceb-185">Laukā Uzvārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-185">In the Last name field, type a value.</span></span>
-5. <span data-ttu-id="7fceb-186">Laukā Darbinieka ID ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-186">In the Worker ID field, type a value.</span></span>
-6. <span data-ttu-id="7fceb-187">Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.</span><span class="sxs-lookup"><span data-stu-id="7fceb-187">Click Hire new worker.</span></span>
-7. <span data-ttu-id="7fceb-188">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-188">Click Save.</span></span>
+## <a name="create-a-new-worker"></a><span data-ttu-id="c7a3a-181">Izveidot jaunu darbinieku</span><span class="sxs-lookup"><span data-stu-id="c7a3a-181">Create a new worker</span></span>
+1. <span data-ttu-id="c7a3a-182">Pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-182">Go to Human resources > Workers > Workers.</span></span>
+2. <span data-ttu-id="c7a3a-183">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-183">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-184">Laukā Vārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-184">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="c7a3a-185">Laukā Uzvārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-185">In the Last name field, type a value.</span></span>
+5. <span data-ttu-id="c7a3a-186">Laukā Darbinieka ID ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-186">In the Worker ID field, type a value.</span></span>
+6. <span data-ttu-id="c7a3a-187">Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-187">Click Hire new worker.</span></span>
+7. <span data-ttu-id="c7a3a-188">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-188">Click Save.</span></span>
 
-## <a name="set-up-a-worker-as-an-advance-holder"></a><span data-ttu-id="7fceb-189">Iestatīt darbinieku kā avansa turētāju</span><span class="sxs-lookup"><span data-stu-id="7fceb-189">Set up a worker as an advance holder</span></span>
-1. <span data-ttu-id="7fceb-190">Dodieties uz Parādi kreditoriem > Avansa turētāji > Avansa turētāji.</span><span class="sxs-lookup"><span data-stu-id="7fceb-190">Go to Accounts payable > Advance holders > Advance holders.</span></span>
-2. <span data-ttu-id="7fceb-191">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-191">Click Edit.</span></span>
-3. <span data-ttu-id="7fceb-192">Laukā Grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-192">In the Group field, enter or select a value.</span></span>
-4. <span data-ttu-id="7fceb-193">Atlasiet Jā laukā Avansa turētājs.</span><span class="sxs-lookup"><span data-stu-id="7fceb-193">Select Yes in the Advance holder field.</span></span>
-5. <span data-ttu-id="7fceb-194">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-194">Click Save.</span></span>
+## <a name="set-up-a-worker-as-an-advance-holder"></a><span data-ttu-id="c7a3a-189">Iestatīt darbinieku kā avansa turētāju</span><span class="sxs-lookup"><span data-stu-id="c7a3a-189">Set up a worker as an advance holder</span></span>
+1. <span data-ttu-id="c7a3a-190">Dodieties uz Parādi kreditoriem > Avansa turētāji > Avansa turētāji.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-190">Go to Accounts payable > Advance holders > Advance holders.</span></span>
+2. <span data-ttu-id="c7a3a-191">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-191">Click Edit.</span></span>
+3. <span data-ttu-id="c7a3a-192">Laukā Grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-192">In the Group field, enter or select a value.</span></span>
+4. <span data-ttu-id="c7a3a-193">Atlasiet Jā laukā Avansa turētājs.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-193">Select Yes in the Advance holder field.</span></span>
+5. <span data-ttu-id="c7a3a-194">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-194">Click Save.</span></span>
 
-## <a name="create-and-post-a-purchase-order-invoice"></a><span data-ttu-id="7fceb-195">Izveidot un grāmatot pirkšanas pasūtījuma rēķinu</span><span class="sxs-lookup"><span data-stu-id="7fceb-195">Create and post a purchase order invoice</span></span>
-1. <span data-ttu-id="7fceb-196">Pārejiet uz sadaļu Kreditori > Pirkšanas pasūtījumi > Visi pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="7fceb-196">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="7fceb-197">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="7fceb-197">Click New.</span></span>
-3. <span data-ttu-id="7fceb-198">Ievadiet vai atlasiet vērtību laukā kreditora konts.</span><span class="sxs-lookup"><span data-stu-id="7fceb-198">In the Vendor account field, enter or select a value.</span></span>
-4. <span data-ttu-id="7fceb-199">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="7fceb-199">Click OK.</span></span>
-5. <span data-ttu-id="7fceb-200">Laukā Rindas vai virsraksts atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="7fceb-200">In the Lines or header field, select an option.</span></span>
-6. <span data-ttu-id="7fceb-201">Izvērsiet sadaļu Cena un atlaide.</span><span class="sxs-lookup"><span data-stu-id="7fceb-201">Expand the Price and discount section.</span></span>
-7. <span data-ttu-id="7fceb-202">Laukā Apmaksas nosacījumi ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-202">In the Terms of payment field, enter or select a value.</span></span>
-8. <span data-ttu-id="7fceb-203">Laukā Avansa turētājs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-203">In the Advance holder field, enter or select a value.</span></span>
-9. <span data-ttu-id="7fceb-204">Laukā Rindas vai virsraksts atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="7fceb-204">In the Lines or header field, select an option.</span></span>
-10. <span data-ttu-id="7fceb-205">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-205">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="7fceb-206">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-206">In the Item number field, enter or select a value.</span></span>
-12. <span data-ttu-id="7fceb-207">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="7fceb-207">In the Quantity field, enter a number.</span></span>
-13. <span data-ttu-id="7fceb-208">Laukā Vienības cena ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="7fceb-208">In the Unit price field, enter a number.</span></span>
-14. <span data-ttu-id="7fceb-209">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-209">Click Save.</span></span>
-15. <span data-ttu-id="7fceb-210">Darbību rūtī noklikšķiniet uz Pirkt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-210">On the Action Pane, click Purchase.</span></span>
-16. <span data-ttu-id="7fceb-211">Noklikšķiniet uz Apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="7fceb-211">Click Confirm.</span></span>
-17. <span data-ttu-id="7fceb-212">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="7fceb-212">On the Action Pane, click Invoice.</span></span>
-18. <span data-ttu-id="7fceb-213">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="7fceb-213">Click Invoice.</span></span>
-19. <span data-ttu-id="7fceb-214">Noklikšķiniet uz Noklusējums no: Produktu ieejas plūsmu daudzums, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-214">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
-20. <span data-ttu-id="7fceb-215">Laukā Noklusējuma daudzums rindām atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="7fceb-215">In the Default quantity for lines field, select an option.</span></span>
-21. <span data-ttu-id="7fceb-216">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="7fceb-216">Click OK.</span></span>
-22. <span data-ttu-id="7fceb-217">Laukā Numurs ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-217">In the Number field, type a value.</span></span>
-23. <span data-ttu-id="7fceb-218">Laukā Rēķina apraksts ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="7fceb-218">In the Invoice description field, type a value.</span></span>
-24. <span data-ttu-id="7fceb-219">Ievadiet datumu laukā Rēķina datums.</span><span class="sxs-lookup"><span data-stu-id="7fceb-219">In the Invoice date field, enter a date.</span></span>
-25. <span data-ttu-id="7fceb-220">Ievadiet datumu PVN reģistra datums.</span><span class="sxs-lookup"><span data-stu-id="7fceb-220">In the Date of VAT register field, enter a date.</span></span>
-26. <span data-ttu-id="7fceb-221">Laukā Saņemt dokumenta datumu ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-221">In the Receive document date field, enter a date.</span></span>
-27. <span data-ttu-id="7fceb-222">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="7fceb-222">Click Post.</span></span>
+## <a name="create-and-post-a-purchase-order-invoice"></a><span data-ttu-id="c7a3a-195">Izveidot un grāmatot pirkšanas pasūtījuma rēķinu</span><span class="sxs-lookup"><span data-stu-id="c7a3a-195">Create and post a purchase order invoice</span></span>
+1. <span data-ttu-id="c7a3a-196">Pārejiet uz sadaļu Kreditori > Pirkšanas pasūtījumi > Visi pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-196">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="c7a3a-197">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-197">Click New.</span></span>
+3. <span data-ttu-id="c7a3a-198">Ievadiet vai atlasiet vērtību laukā kreditora konts.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-198">In the Vendor account field, enter or select a value.</span></span>
+4. <span data-ttu-id="c7a3a-199">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-199">Click OK.</span></span>
+5. <span data-ttu-id="c7a3a-200">Laukā Rindas vai virsraksts atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-200">In the Lines or header field, select an option.</span></span>
+6. <span data-ttu-id="c7a3a-201">Izvērsiet sadaļu Cena un atlaide.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-201">Expand the Price and discount section.</span></span>
+7. <span data-ttu-id="c7a3a-202">Laukā Apmaksas nosacījumi ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-202">In the Terms of payment field, enter or select a value.</span></span>
+8. <span data-ttu-id="c7a3a-203">Laukā Avansa turētājs ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-203">In the Advance holder field, enter or select a value.</span></span>
+9. <span data-ttu-id="c7a3a-204">Laukā Rindas vai virsraksts atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-204">In the Lines or header field, select an option.</span></span>
+10. <span data-ttu-id="c7a3a-205">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-205">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="c7a3a-206">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-206">In the Item number field, enter or select a value.</span></span>
+12. <span data-ttu-id="c7a3a-207">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-207">In the Quantity field, enter a number.</span></span>
+13. <span data-ttu-id="c7a3a-208">Laukā Vienības cena ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-208">In the Unit price field, enter a number.</span></span>
+14. <span data-ttu-id="c7a3a-209">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-209">Click Save.</span></span>
+15. <span data-ttu-id="c7a3a-210">Darbību rūtī noklikšķiniet uz Pirkt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-210">On the Action Pane, click Purchase.</span></span>
+16. <span data-ttu-id="c7a3a-211">Noklikšķiniet uz Apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-211">Click Confirm.</span></span>
+17. <span data-ttu-id="c7a3a-212">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-212">On the Action Pane, click Invoice.</span></span>
+18. <span data-ttu-id="c7a3a-213">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-213">Click Invoice.</span></span>
+19. <span data-ttu-id="c7a3a-214">Noklikšķiniet uz Noklusējums no: Produktu ieejas plūsmu daudzums, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-214">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
+20. <span data-ttu-id="c7a3a-215">Laukā Noklusējuma daudzums rindām atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-215">In the Default quantity for lines field, select an option.</span></span>
+21. <span data-ttu-id="c7a3a-216">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-216">Click OK.</span></span>
+22. <span data-ttu-id="c7a3a-217">Laukā Numurs ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-217">In the Number field, type a value.</span></span>
+23. <span data-ttu-id="c7a3a-218">Laukā Rēķina apraksts ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-218">In the Invoice description field, type a value.</span></span>
+24. <span data-ttu-id="c7a3a-219">Ievadiet datumu laukā Rēķina datums.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-219">In the Invoice date field, enter a date.</span></span>
+25. <span data-ttu-id="c7a3a-220">Ievadiet datumu PVN reģistra datums.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-220">In the Date of VAT register field, enter a date.</span></span>
+26. <span data-ttu-id="c7a3a-221">Laukā Saņemt dokumenta datumu ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-221">In the Receive document date field, enter a date.</span></span>
+27. <span data-ttu-id="c7a3a-222">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-222">Click Post.</span></span>
 
-## <a name="balance-and-close-advance-holders-transactions"></a><span data-ttu-id="7fceb-223">Bilances un avansa turētāju slēgšanas transakcijas</span><span class="sxs-lookup"><span data-stu-id="7fceb-223">Balance and close advance holders transactions</span></span>
-1. <span data-ttu-id="7fceb-224">Dodieties uz Parādi kreditoriem > Avansa turētāji > Avansa turētāji.</span><span class="sxs-lookup"><span data-stu-id="7fceb-224">Go to Accounts payable > Advance holders > Advance holders.</span></span>
-2. <span data-ttu-id="7fceb-225">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="7fceb-225">Click Transactions.</span></span>
-3. <span data-ttu-id="7fceb-226">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-226">Close the page.</span></span>
-4. <span data-ttu-id="7fceb-227">Noklikšķiniet uz Bilance.</span><span class="sxs-lookup"><span data-stu-id="7fceb-227">Click Balance.</span></span>
-5. <span data-ttu-id="7fceb-228">Noklikšķiniet uz Slēgt no bankas.</span><span class="sxs-lookup"><span data-stu-id="7fceb-228">Click Close via bank.</span></span>
-6. <span data-ttu-id="7fceb-229">Atlasiet Jā laukā Automātisks.</span><span class="sxs-lookup"><span data-stu-id="7fceb-229">Select Yes in the Automatic field.</span></span>
-7. <span data-ttu-id="7fceb-230">Laukā Summa pārsūtīšanai.</span><span class="sxs-lookup"><span data-stu-id="7fceb-230">In the Amount to be transferred.</span></span> <span data-ttu-id="7fceb-231">ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="7fceb-231">field, enter a number.</span></span>
-8. <span data-ttu-id="7fceb-232">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7fceb-232">Click OK.</span></span>
-9. <span data-ttu-id="7fceb-233">Noklikšķiniet uz Slēgt no kases.</span><span class="sxs-lookup"><span data-stu-id="7fceb-233">Click Close via cash.</span></span>
-10. <span data-ttu-id="7fceb-234">Atlasiet Jā laukā Automātisks.</span><span class="sxs-lookup"><span data-stu-id="7fceb-234">Select Yes in the Automatic field.</span></span>
-11. <span data-ttu-id="7fceb-235">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="7fceb-235">Click OK.</span></span>
-12. <span data-ttu-id="7fceb-236">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7fceb-236">Close the page.</span></span>
-13. <span data-ttu-id="7fceb-237">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="7fceb-237">Click Transactions.</span></span>
+## <a name="balance-and-close-advance-holders-transactions"></a><span data-ttu-id="c7a3a-223">Bilances un avansa turētāju slēgšanas transakcijas</span><span class="sxs-lookup"><span data-stu-id="c7a3a-223">Balance and close advance holders transactions</span></span>
+1. <span data-ttu-id="c7a3a-224">Dodieties uz Parādi kreditoriem > Avansa turētāji > Avansa turētāji.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-224">Go to Accounts payable > Advance holders > Advance holders.</span></span>
+2. <span data-ttu-id="c7a3a-225">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-225">Click Transactions.</span></span>
+3. <span data-ttu-id="c7a3a-226">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-226">Close the page.</span></span>
+4. <span data-ttu-id="c7a3a-227">Noklikšķiniet uz Bilance.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-227">Click Balance.</span></span>
+5. <span data-ttu-id="c7a3a-228">Noklikšķiniet uz Slēgt no bankas.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-228">Click Close via bank.</span></span>
+6. <span data-ttu-id="c7a3a-229">Atlasiet Jā laukā Automātisks.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-229">Select Yes in the Automatic field.</span></span>
+7. <span data-ttu-id="c7a3a-230">Laukā Summa pārsūtīšanai.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-230">In the Amount to be transferred.</span></span> <span data-ttu-id="c7a3a-231">ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-231">field, enter a number.</span></span>
+8. <span data-ttu-id="c7a3a-232">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-232">Click OK.</span></span>
+9. <span data-ttu-id="c7a3a-233">Noklikšķiniet uz Slēgt no kases.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-233">Click Close via cash.</span></span>
+10. <span data-ttu-id="c7a3a-234">Atlasiet Jā laukā Automātisks.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-234">Select Yes in the Automatic field.</span></span>
+11. <span data-ttu-id="c7a3a-235">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-235">Click OK.</span></span>
+12. <span data-ttu-id="c7a3a-236">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-236">Close the page.</span></span>
+13. <span data-ttu-id="c7a3a-237">Noklikšķiniet uz Transakcijas.</span><span class="sxs-lookup"><span data-stu-id="c7a3a-237">Click Transactions.</span></span>
 

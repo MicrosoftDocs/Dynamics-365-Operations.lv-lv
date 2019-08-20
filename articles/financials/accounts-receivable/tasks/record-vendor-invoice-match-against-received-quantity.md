@@ -10,58 +10,58 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d7458c62b3b71adf981a1ce5a7260da9bfdbcd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 66d84f497775ce4f988242dd2b327bf4854faef5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549564"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834395"
 ---
-# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="50186-103">Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu</span><span class="sxs-lookup"><span data-stu-id="50186-103">Record vendor invoice and match against received quantity</span></span>
+# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="02feb-103">Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu</span><span class="sxs-lookup"><span data-stu-id="02feb-103">Record vendor invoice and match against received quantity</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="50186-104">Kad pēc pirkšanas pasūtījuma saņemat rēķinu no preču vai pakalpojumu piegādātāja, šiem biznesa procesiem var būt nepieciešama preču vai pakalpojumu saņemšana pirms rēķina apstiprināšanas apmaksai.</span><span class="sxs-lookup"><span data-stu-id="50186-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="50186-105">Pirms sākat, pārliecinieties, ka ir atlasīta konfigurācijas atslēga Rēķinu salīdzināšana.</span><span class="sxs-lookup"><span data-stu-id="50186-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
+<span data-ttu-id="02feb-104">Kad pēc pirkšanas pasūtījuma saņemat rēķinu no preču vai pakalpojumu piegādātāja, šiem biznesa procesiem var būt nepieciešama preču vai pakalpojumu saņemšana pirms rēķina apstiprināšanas apmaksai.</span><span class="sxs-lookup"><span data-stu-id="02feb-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="02feb-105">Pirms sākat, pārliecinieties, ka ir atlasīta konfigurācijas atslēga Rēķinu salīdzināšana.</span><span class="sxs-lookup"><span data-stu-id="02feb-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
 
-<span data-ttu-id="50186-106">Lapā Kreditoru moduļa parametri pārliecinieties, ka ir atlasīta opcija Iespējot rēķinu salīdzināšanas pārbaudes, lauks Grāmatot rēķinu ar neatbilstībām ir iestatīts uz Pieprasīt apstiprinājumu un lauks Rindu atbilstības ierobežojumi ir iestatīts uz Trīsvirzienu atbilstība.</span><span class="sxs-lookup"><span data-stu-id="50186-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
+<span data-ttu-id="02feb-106">Lapā Kreditoru moduļa parametri pārliecinieties, ka ir atlasīta opcija Iespējot rēķinu salīdzināšanas pārbaudes, lauks Grāmatot rēķinu ar neatbilstībām ir iestatīts uz Pieprasīt apstiprinājumu un lauks Rindu atbilstības ierobežojumi ir iestatīts uz Trīsvirzienu atbilstība.</span><span class="sxs-lookup"><span data-stu-id="02feb-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
 
-<span data-ttu-id="50186-107">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.</span><span class="sxs-lookup"><span data-stu-id="50186-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="50186-108">Šīs darbības veiktu lietotājs ar lomu Kreditoriem maksājamo parādu vadītājs vai Grāmatvedības vadītājs.</span><span class="sxs-lookup"><span data-stu-id="50186-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
+<span data-ttu-id="02feb-107">Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.</span><span class="sxs-lookup"><span data-stu-id="02feb-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="02feb-108">Šīs darbības veiktu lietotājs ar lomu Kreditoriem maksājamo parādu vadītājs vai Grāmatvedības vadītājs.</span><span class="sxs-lookup"><span data-stu-id="02feb-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="50186-109">Pirkšanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="50186-109">Create a purchase order</span></span>
-1. <span data-ttu-id="50186-110">Dodieties uz Visi pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="50186-110">Go to All purchase orders.</span></span>
-2. <span data-ttu-id="50186-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="50186-111">Click New.</span></span>
-3. <span data-ttu-id="50186-112">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="50186-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="50186-113">Laukā Kreditora konts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="50186-113">In the Vendor account field, type a value.</span></span>
-5. <span data-ttu-id="50186-114">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="50186-114">Click OK.</span></span>
-6. <span data-ttu-id="50186-115">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="50186-115">Click Add line.</span></span>
-7. <span data-ttu-id="50186-116">Laukā Krājuma kods ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="50186-116">In the Item number field, type a value.</span></span>
-8. <span data-ttu-id="50186-117">Darbību rūtī noklikšķiniet uz Pirkt.</span><span class="sxs-lookup"><span data-stu-id="50186-117">On the Action Pane, click Purchase.</span></span>
-9. <span data-ttu-id="50186-118">Noklikšķiniet uz Apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="50186-118">Click Confirm.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="02feb-109">Pirkšanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="02feb-109">Create a purchase order</span></span>
+1. <span data-ttu-id="02feb-110">Dodieties uz Visi pirkšanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="02feb-110">Go to All purchase orders.</span></span>
+2. <span data-ttu-id="02feb-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="02feb-111">Click New.</span></span>
+3. <span data-ttu-id="02feb-112">Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="02feb-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="02feb-113">Laukā Kreditora konts ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="02feb-113">In the Vendor account field, type a value.</span></span>
+5. <span data-ttu-id="02feb-114">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="02feb-114">Click OK.</span></span>
+6. <span data-ttu-id="02feb-115">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="02feb-115">Click Add line.</span></span>
+7. <span data-ttu-id="02feb-116">Laukā Krājuma kods ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="02feb-116">In the Item number field, type a value.</span></span>
+8. <span data-ttu-id="02feb-117">Darbību rūtī noklikšķiniet uz Pirkt.</span><span class="sxs-lookup"><span data-stu-id="02feb-117">On the Action Pane, click Purchase.</span></span>
+9. <span data-ttu-id="02feb-118">Noklikšķiniet uz Apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="02feb-118">Click Confirm.</span></span>
 
-## <a name="post-a-product-receipt"></a><span data-ttu-id="50186-119">Grāmatot produktu ieejas plūsmu</span><span class="sxs-lookup"><span data-stu-id="50186-119">Post a product receipt</span></span>
-1. <span data-ttu-id="50186-120">Darbību rūtī noklikšķiniet uz Saņemt.</span><span class="sxs-lookup"><span data-stu-id="50186-120">On the Action Pane, click Receive.</span></span>
-2. <span data-ttu-id="50186-121">Noklikšķiniet uz Produktu ieejas plūsma.</span><span class="sxs-lookup"><span data-stu-id="50186-121">Click Product receipt.</span></span>
-3. <span data-ttu-id="50186-122">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="50186-122">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="50186-123">Laukā Produktu ieejas plūsma ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="50186-123">In the Product receipt field, type a value.</span></span>
-5. <span data-ttu-id="50186-124">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="50186-124">Click OK.</span></span>
+## <a name="post-a-product-receipt"></a><span data-ttu-id="02feb-119">Grāmatot produktu ieejas plūsmu</span><span class="sxs-lookup"><span data-stu-id="02feb-119">Post a product receipt</span></span>
+1. <span data-ttu-id="02feb-120">Darbību rūtī noklikšķiniet uz Saņemt.</span><span class="sxs-lookup"><span data-stu-id="02feb-120">On the Action Pane, click Receive.</span></span>
+2. <span data-ttu-id="02feb-121">Noklikšķiniet uz Produktu ieejas plūsma.</span><span class="sxs-lookup"><span data-stu-id="02feb-121">Click Product receipt.</span></span>
+3. <span data-ttu-id="02feb-122">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="02feb-122">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="02feb-123">Laukā Produktu ieejas plūsma ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="02feb-123">In the Product receipt field, type a value.</span></span>
+5. <span data-ttu-id="02feb-124">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="02feb-124">Click OK.</span></span>
 
-## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="50186-125">Ierakstīt kreditora rēķinu un saskaņot to ar produktu ieejas plūsmu</span><span class="sxs-lookup"><span data-stu-id="50186-125">Record and match a vendor invoice to a product receipt</span></span>
-1. <span data-ttu-id="50186-126">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="50186-126">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="50186-127">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="50186-127">Click Invoice.</span></span>
-3. <span data-ttu-id="50186-128">Laukā Numurs ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="50186-128">In the Number field, type a value.</span></span>
-4. <span data-ttu-id="50186-129">Noklikšķiniet uz Noklusējums no: Pasūtītais daudzums, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="50186-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
-5. <span data-ttu-id="50186-130">Laukā Noklusējuma daudzums rindām atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="50186-130">In the Default quantity for lines field, select an option.</span></span>
-6. <span data-ttu-id="50186-131">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="50186-131">Click OK.</span></span>
-7. <span data-ttu-id="50186-132">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="50186-132">Click Yes.</span></span>
-8. <span data-ttu-id="50186-133">Noklikšķiniet uz Saskaņot produktu ieejas plūsmu.</span><span class="sxs-lookup"><span data-stu-id="50186-133">Click Match product receipts.</span></span>
-9. <span data-ttu-id="50186-134">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="50186-134">Click OK.</span></span>
-10. <span data-ttu-id="50186-135">Darbību rūtī noklikšķiniet uz Pārskatīt.</span><span class="sxs-lookup"><span data-stu-id="50186-135">On the Action Pane, click Review.</span></span>
-11. <span data-ttu-id="50186-136">Noklikšķiniet uz Detalizēta informācija par atbilstību.</span><span class="sxs-lookup"><span data-stu-id="50186-136">Click Matching details.</span></span>
+## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="02feb-125">Ierakstīt kreditora rēķinu un saskaņot to ar produktu ieejas plūsmu</span><span class="sxs-lookup"><span data-stu-id="02feb-125">Record and match a vendor invoice to a product receipt</span></span>
+1. <span data-ttu-id="02feb-126">Darbību rūtī noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="02feb-126">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="02feb-127">Noklikšķiniet uz Rēķins.</span><span class="sxs-lookup"><span data-stu-id="02feb-127">Click Invoice.</span></span>
+3. <span data-ttu-id="02feb-128">Laukā Numurs ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="02feb-128">In the Number field, type a value.</span></span>
+4. <span data-ttu-id="02feb-129">Noklikšķiniet uz Noklusējums no: Pasūtītais daudzums, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="02feb-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
+5. <span data-ttu-id="02feb-130">Laukā Noklusējuma daudzums rindām atlasiet kādu opciju.</span><span class="sxs-lookup"><span data-stu-id="02feb-130">In the Default quantity for lines field, select an option.</span></span>
+6. <span data-ttu-id="02feb-131">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="02feb-131">Click OK.</span></span>
+7. <span data-ttu-id="02feb-132">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="02feb-132">Click Yes.</span></span>
+8. <span data-ttu-id="02feb-133">Noklikšķiniet uz Saskaņot produktu ieejas plūsmu.</span><span class="sxs-lookup"><span data-stu-id="02feb-133">Click Match product receipts.</span></span>
+9. <span data-ttu-id="02feb-134">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="02feb-134">Click OK.</span></span>
+10. <span data-ttu-id="02feb-135">Darbību rūtī noklikšķiniet uz Pārskatīt.</span><span class="sxs-lookup"><span data-stu-id="02feb-135">On the Action Pane, click Review.</span></span>
+11. <span data-ttu-id="02feb-136">Noklikšķiniet uz Detalizēta informācija par atbilstību.</span><span class="sxs-lookup"><span data-stu-id="02feb-136">Click Matching details.</span></span>
 
