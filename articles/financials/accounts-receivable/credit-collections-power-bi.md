@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702776"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835146"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 
@@ -72,4 +72,4 @@ Power BI satura pakotnē **CustCollectionsBICrossCompany** ir ietverts pārskats
 | Iekasēšanas gadījumu statuss          | <ul><li>Apstrīdēts</li><li>Neizpildītais apmaksas solījums</li><li>Apsolīta samaksa</li><li>Detalizēta informācija par iekasēšanas statusu</li><li>Iekasēšanas statusa summas</li><li>Atvērtie pieteikumi</li><li>Atvērtās aktivitātes</li></ul> |
 | Atgādinājuma vēstules         | <ul><li>Atgādinājuma koda summas</li><li>Detalizēta informācija iekasēšanas koda summu</li><li>Atgādinājuma vēstules summa pēc uzņēmuma</li><li>Atgādinājuma vēstules summa pēc debitoru grupas</li><li>Atgādinājuma vēstules summa pēc reģiona</li></ul> |
 
-Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
+Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.

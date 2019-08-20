@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624816"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742637"
 ---
 # <a name="retail-peripherals"></a>Retail perifērijas ierīces
 
@@ -192,7 +192,7 @@ Tīkla perifēro ierīču IP adreses varat norādīt divās vietās. Ja Modern�
 
 #### <a name="modern-pos-for-android"></a>Modern POS operētājsistēmai Android
 
-Sākot ar Dynamics 365 for Retail versiju 8.1.3, programma Modern POS operētājsistēmai Android ietver iebūvētu IPC aparatūras staciju. Šī aparatūras stacija atbalsta saziņu ar tīkla printeriem un maksājumu savienotājiem. Lai iegūtu plašāku informāciju, apmeklējiet rakstu [Hybrid programma operētājsistēmai Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Sākot ar Dynamics 365 for Retail versiju 8.1.3, programma Modern POS operētājsistēmai Android ietver iebūvētu IPC aparatūras staciju. Šī aparatūras stacija atbalsta saziņu ar tīkla printeriem un maksājumu savienotājiem. Lai iegūtu plašāku informāciju, apmeklējiet rakstu [Hybrid programma operētājsistēmai Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS un Modern POS operētājsistēmai iOS
 
@@ -541,7 +541,7 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 
 4. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
 5. Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
-6. Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
+6. Atlasiet sadales grafiku **1070**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 7. Instalējiet un aktivizējiet programmu Modern POS operētājsistēmai Windows.
 8. Palaidiet programmu Modern POS operētājsistēmai Windows un sāciet lietot pievienotās perifērās ierīces.
 

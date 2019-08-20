@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepreciationProfile, AssetTable, AssetTaxDepreciation
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 264374
 ms.assetid: cbf94106-2c1b-45dd-8734-18a2a56a4682
@@ -18,12 +18,12 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d66f1f02377429f0cf9cea48c0ed939e194ecbfb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f1c24fb49e6c35b293ffbc9c85bb47349e882f0b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549066"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852463"
 ---
 # <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
 

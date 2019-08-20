@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538730"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845303"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendāri un vispārējā plānošana
 
@@ -93,7 +93,7 @@ Lai norādītu datumus, kad debitors var saņemt piegādes, debitoram var pieš�
 
 Ņemiet vērā, ka var iekļaut tikai vienu kalendāru katram debitoram. Ja nepieciešams ietvert kalendāru katrai no vairākām debitora adresēm, var izveidot vienu debitoru katrai adresei un pēc tam piešķirt attiecīgo kalendāru. 
 
-Pieprasīto saņemšanas datumu pārdošanas pasūtījuma rindās ietekmē debitora kalendārs un piegādes datuma kontroles metode. Informāciju par to, kā tiek aprēķināts agrākais piegādes datums, varat izlasīt sadaļā [Pasūtījumu solīšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Pieprasīto saņemšanas datumu pārdošanas pasūtījuma rindās ietekmē debitora kalendārs un piegādes datuma kontroles metode. Informāciju par to, kā tiek aprēķināts agrākais piegādes datums, varat izlasīt sadaļā [Pasūtījumu solīšana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Nosūtīšanas kalendārs juridiskai personai
 Lai norādītu datumus, kuros juridiskā persona var nosūtīt preces, varat iestatīt nosūtīšanas kalendāru sadaļā **Organizācijas administrēšana > Organizācijas > Juridiskas personas**. Atlasiet juridisko personu un pievienojiet kalendāru cilnes **Starptautiskā tirdzniecība un loģistika** laukā **Nosūtīšanas kalendārs**. Nosūtīšanas kalendārs darbosies kā noklusējuma iestatījumu avots visiem juridiskās personas noliktavas kalendāriem. 

@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbba70db569423f7aac258eab12cd7f1cd504bc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545080"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849819"
 ---
 # <a name="organizational-training-power-bi-content"></a>Power BI satura pakotne Organizācijas apmācība
 
@@ -31,14 +31,14 @@ ms.locfileid: "1545080"
 Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat saņemt lapā [Power BI vadītā apmācība](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Kad ir izveidots satura pakotnes savienojums ar jūsu Finance and Operations datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat saņemt lapā [Power BI vadītā apmācība](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats          | Saturs                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
 | Kursa analīze | Reģistrācija pēc atrašanās vietas, kursa dalībnieki pēc statusa un reģistrācijas saraksts |
 | Kursu veidi    | Kursu tipi pēc prasmēm                                                       |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmantoti Finance and Operations dati. Nākamajā tabulā ir redzami elementi, uz kuriem šī satura pakotne bija balstīta.

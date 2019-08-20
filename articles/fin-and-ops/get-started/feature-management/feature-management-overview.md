@@ -3,7 +3,7 @@ title: Līdzekļu pārvaldības pārskats
 description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632057"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862942"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Katrā pakalpojuma Microsoft Dynamics 365 for Finance and Operations laidienā tiek pievienoti un atjaunināti līdzekļi. Pieredze Līdzekļu pārvaldība nodrošina darbvietu, kur varat skatīt katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju.
 
@@ -38,7 +39,7 @@ Varat atvērt darbvietu **Līdzekļu pārvaldība** darbvietu, atlasot attiecīg
 Līdzekļu sarakstā ir tālāk norādītā informācija.
 
 - **Līdzekļa nosaukums** — pievienotā līdzekļa apraksts.
-- **Iespējošanas statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga). Šeit redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
+- **Iespējošanas statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
 - **Iespējošanas datums** — datums, kad līdzeklis tika ieslēgts vai kad to ir plānots ieslēgt.
 - **Līdzeklis pievienots** — datums, kad līdzeklis tika pievienots jūsu videi. Šis datums tiek ievadīts automātiski, kad mēneša laidiena cikla laikā tiek atjaunināta jūsu vide.
 - **Modulis** — modulis, ko ietekmē jaunais līdzeklis.
@@ -59,6 +60,10 @@ Ja līdzeklis nav ieslēgts, detalizētas informācijas rūtī tiek rādīta pog
 - Atlasiet līdzekli, ko vēlaties ieslēgt, un pēc tam detalizētās informācijas rūtī atlasiet **Iespējot tūlīt**. Līdzeklis ir ieslēgts.
 
 Dažus līdzekļus pēc to ieslēgšanas nevar izslēgt. Ja līdzekli, kuru mēģināt ieslēgt, vairs nevar izslēgt, jums tiek parādīts brīdinājums. Šajā brīdī varat atlasīt **Atcelt**, lai atceltu operāciju, un atstāt šo līdzekli izslēgtu. Taču, ja atlasāt **Iespējot**, lai šo līdzekli ieslēgtu, vēlāk to vairs nevarēsit izslēgt.
+
+Daži līdzekļi, pirms tos ieslēgsit, parādīs ziņojumu, kas sniedz papildu informāciju. Šie līdzekļi ir apzīmēti ar dzeltenu brīdinājuma simbolu. Jums vajadzētu rūpīgi izlasīt papildu informāciju, lai labāk saprastu, kas notiks, kad šis līdzeklis tiks iespējots. Tomēr joprojām varat atlasīt **Iespējot**, lai ieslēgtu šo funkciju.
+
+Dažas funkcijas parādīs ziņojumu, ka funkciju nevar iespējot, kamēr nav veikta darbība. Šīs funkcijas ir apzīmētas ar sarkanu X simbolu. Pirms funkcija tiek iespējota, ir jāveic aprakstā minētās darbības. Piemēram, ja nevarat izmantot funkciju, līdz konfigurācijas atslēga tiek atspējota, vispirms atspējojiet konfigurācijas atslēgu un pēc tam atgriezieties Funkciju pārvaldībā, lai iespējotu funkciju.
 
 Pēc līdzekļa ieslēgšanas detalizētas informācijas rūtī zem saites **Papildinformācija** tiek rādīts ziņojums. Šajā ziņojumā ir norādīts, ka līdzeklis tika ieslēgts, vai arī ir norādīts turpmāks datums, kad šo līdzekli ir plānots ieslēgt. Tas tiek parādīts katru reizi, kad līdzekļu sarakstā atlasāt šo līdzekli.
 
@@ -84,12 +89,28 @@ Pēc līdzekļa izslēgšanas detalizētas informācijas rūtī zem saites **Pap
 
 Reizēm tiek piegādāts kritisks līdzeklis, kam ir jāieslēdzas automātiski, kad veicat atjaunināšanu. Šie līdzekļi tiks automātiski ieslēgti datumā, kas ir norādīts laukā **Iespējošanas datums**. Šiem līdzekļiem detalizētas informācijas rūtī zem saites **Papildinformācija** tiek rādīts ziņojums. Šajā ziņojumā ir norādīts, ka līdzeklis tika ieslēgts, vai arī ir norādīts turpmāks datums, kad šis līdzekli tiks ieslēgts. Tas tiek parādīts katru reizi, kad līdzekļu sarakstā atlasāt šo līdzekli.
 
+## <a name="enable-all-features"></a>Iespējot visus līdzekļus
+
+Pēc noklusējuma visi līdzekļi, kas ir pievienoti jūsu videi, ir izslēgti, izņemot gadījumus, ja tie ir obligātie līdzekļi. Varat iespējot visus līdzekļus, atlasot pogu **Iespējot visu**. 
+
+Atlasot opciju **Iespējot visu**, tiek parādīta opcija, kur jums ir jāsniedz šāda informācija:
+- Visu to līdzekļu saraksts, kuriem nepieciešams apstiprinājums, lai tos varētu iespējot. Ja vēlaties iespējot līdzekļus sarakstā, atlasiet **Jā** pogai **Iespējot līdzekļus, kuriem nepieciešams apstiprinājums**.
+- Tiks parādīts visu to līdzekļu saraksts, kurus nevar iespējot. Šie līdzekļi netiks iespējoti.
+
+Visi līdzekļi, kurus var iespējot, tiks iespējoti. Ja līdzeklim nākotnē jau ir ieplānota iespējošana, grafiks nemainīsies. 
+
 ## <a name="turn-on-all-features-automatically"></a>Visu līdzekļu ieslēgšana automātiski
 
 Pēc noklusējuma visi līdzekļi, kas ir pievienoti jūsu videi, ir izslēgti, izņemot gadījumus, ja tie ir obligātie līdzekļi. Taču, ja vēlaties automātiski ieslēgt visus jaunos līdzekļus, varat izmantot nolaižamo sarakstu zem darbvietas nosaukuma, lai mainītu to, kas notiek pēc jaunu līdzekļu pievienošanas.
 
 - Atlasiet **Visi jaunie līdzekļi būs iespējoti pēc noklusējuma**, lai automātiski ieslēgtu visus jaunos līdzekļus, kad tie ir pievienoti jūsu videi.
 - Atlasiet **Visi jaunie līdzekļi būs atspējoti pēc noklusējuma**, lai automātiski izslēgtu visus jaunos līdzekļus, kad tie ir pievienoti jūsu videi.
+
+Ja iespējosit visus līdzekļus automātiski, tas iespējos visus līdzekļus, kas tiktu iespējoti, noklikšķinot uz pogas **Iespējot visu**. Tas neiespējos līdzekļus, kuriem ir nepieciešams apstiprinājums, vai līdzekļus, kurus nevar iespējot līdz brīdim, kad tiek veikta darbība.
+
+## <a name="check-for-updates"></a>Pārbaudīt, vai nav atjauninājumu
+
+Līdzekļi tiek pievienoti jūsu videi pēc katra atjauninājuma. Tomēr atjauninājumus var pārbaudīt manuāli, noklikšķinot uz pogas **Pārbaudīt, vai nav atjauninājumu**. Jebkurš līdzeklis, kas tika pievienots sistēmai pēc atjauninājuma, tiks pievienots līdzekļu sarakstam. Piemēram, ja pēc izlaišanas ir iespējots būvētais līdzeklis, varat pārbaudīt, vai nav atjauninājumu, un šis līdzeklis tiks pievienots sarakstam.
 
 ## <a name="assigning-roles"></a>Lomu piešķiršana
 

@@ -3,25 +3,25 @@ title: Iestatīt PVN apmaksas periodus
 description: PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569590"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862992"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Iestatīt PVN apmaksas periodus
 
@@ -50,6 +50,8 @@ PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jā
 12. Ievadiet perioda intervāla vienību skaitu periodā. Piemēram, ceturksnī ir 3 mēneši.
 13. Atlasiet vai notīriet izvēles rūtiņu Izmantot pakešveida apstrādi PVN apmaksai.
     * Apmaksas process apmaksas periodam var tikt apstrādāts fonā kā pakešuzdevums. Tas ir ieteicams gadījumos, kad vienā laika periodā ir liels skaits nodokļu transakciju.  
+    > [!NOTE]
+    > Pašlaik tas netiek atbalstīts Austrijā, Beļģijā, Spānijā, Itālijā, Japānā un Nīderlandē.
 14. Atzīmējiet izvēles rūtiņu Novērst korespondējošu nodokļu transakciju ģenerēšanu vai noņemiet tās atzīmi.
     * Pēc noklusējuma sistēma ģenerē korespondējošās nodokļu transakcijas, kamēr notiek segšanas process, un tas var radīt veiktspējas problēmas, ja kādā periodā ir liels skaits nodokļu transakciju. Atzīmējiet šo izvēles rūtiņu, lai novērstu korespondējošu nodokļu transakciju ģenerēšanu.
 15. Izvērsiet cilni Perioda intervāli.

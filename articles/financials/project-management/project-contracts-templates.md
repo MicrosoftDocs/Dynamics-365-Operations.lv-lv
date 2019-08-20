@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561466"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846041"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta līgumu un projektu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
 
@@ -94,8 +94,8 @@ Izmantojot risinājumu, lai veiktu integrēšanu no programmas Project Service A
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
 - Pirms projekta līgumu un projektu sinhronizēšanas ir jāveic kontu sinhronizēšana.
-- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_organizationalunits** uz **msdyn\_name \[Name\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Papildinformāciju skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_projects** uz **msdynce\_projectnumber \[Project Number\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Papildinformāciju skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_organizationalunits** uz **msdyn\_name \[Name\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Papildinformāciju skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Savienojumu kopā pievienojiet integrācijas atslēgas lauka kartēšanu vienumam **msdyn\_projects** uz **msdynce\_projectnumber \[Project Number\]**. Iespējams, projekts vispirms ir jāpievieno savienojumu kopai. Papildinformāciju skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Entītiju **SourceDataID** projekta līgumiem un projektiem var atjaunināt uz citu vērtību vai noņemt no kartējuma. Noklusējuma veidnes vērtība ir **Project Service Automation**.
 - Kartējums **PaymentTerms** ir jāatjaunina, lai tas norādītu derīgus maksāšanas noteikumus programmā Finance and Operations. Varat arī noņemt kartējumu no projekta uzdevuma. Noklusējuma vērtību kartē ir norādītas demonstrācijas datu noklusējuma vērtības. Nākamajā tabulā ir parādītas vērtības programmā Project Service Automation.
 

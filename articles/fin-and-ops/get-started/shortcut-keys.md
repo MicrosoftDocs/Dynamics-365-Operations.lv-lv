@@ -3,7 +3,7 @@ title: Īsinājumtaustiņi
 description: Šādas tastatūras īsinājumikonas ir lietotas sistēmā Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561837"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780062"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
@@ -138,9 +138,13 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pievienot rindu diapazonu atlasītajai kopai<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>         | Shift+klikšķis                     |
 | Pāriet uz nākamo/iepriekšējo datu lapu                                                                                   | Page Up/Page Down             |
 | Izveidot jaunu rindu režģa apakšdaļā                                                                             | Bultiņa uz leju (no pēdējās rindas)  |
-| Atlasīt vai noņemt atlasi visām rindām                                                                                               | Ctrl+Shift+M                    |
 | Pārvietoties uz pirmo ierakstu                                                                                               | Ctrl + Home                       |
 | Pārvietoties uz pēdējo ierakstu                                                                                                | Ctrl + End                        |
+| Atlasīt vai noņemt atlasi visām rindām                                                                                               | Ctrl+Shift+M                    |
+| Pārvietoties uz pirmo atzīmēto rindu                                                                                           | Alt+Shift+M, F                    |
+| Pārvietoties uz nākamo atzīmēto rindu                                                                                            | Alt+Shift+M, L                    |
+| Pārvietoties uz iepriekšējo atzīmēto rindu                                                                                        | Alt+Shift+M, P                    |
+| Pārvietoties uz pēdējo atzīmēto rindu                                                                                           | Alt+Shift+M, N                    |
 | Režģī izpildīt noklusējuma darbību<blockquote>[!NOTE] Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.</blockquote> | Enter                           |
 | Pārslēgt fokusu no atlasītās rindas uz virsraksta rindu vai otrādi                                                               | Alt+Shift+H                     |
 | Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |

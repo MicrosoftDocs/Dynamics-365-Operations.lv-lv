@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fd29dc5f932c9cd274a42923e1ff659dd5d8e9d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8836e5b43498c792d214b13b2196645c4ee3ffba
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567310"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863804"
 ---
 # <a name="consolidate-online"></a>Konsolidēt tiešsaistē
 
@@ -69,7 +69,7 @@ Cilnē **Juridiskās personas** varat definēt uzņēmumus, kuri jāiekļauj kon
 
 ![Juridisko personu cilne](./media/legal-entities-cons.png "Juridisko personu cilne")
 
-![Kontu automātiskām transakcijām lapa](./media/accounts%20for%20automatic%20(cons).png "Kontu automātiskām transakcijām lapa")
+![Kontu automātiskām transakcijām lapa](./media/accounts-for-automatic-cons.png "Kontu automātiskām transakcijām lapa")
 
 ## <a name="elimination"></a>Korekcijas
 Cilnē **Eliminācija** ir trīs tālāk aprakstītās iespējas elimināciju apstrādei.

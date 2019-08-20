@@ -3,7 +3,7 @@ title: Preces dimensijas
 description: 'Pastāv četras preču dimensijas: Krāsa, Konfigurācija, Izmērs un Stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.'
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563578"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863040"
 ---
 # <a name="product-dimensions"></a>Preces dimensijas
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563578"
 Pastāv četras preču dimensijas: Krāsa, Konfigurācija, Izmērs un Stils. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.
 
 Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu. Preču variantu definēšanai vai izmantot preču dimensiju kombinācijas. Lai izveidotu preces variantu, ir jādefinē vismaz viena preces dimensija preces šablonam.
-Preces varianti
-----------------
+
+## <a name="product-variants"></a>Preces varianti
 
 Preču varianti tiek saukti arī par krājumiem. Krājums ir materiāla prece, kas nav tāds pats kā pakalpojums. Var arī definēt preces šablonu, kura veids ir Pakalpojums. Izmantojot tipu Pakalpojums, varat norādīt preču variantus, kas ietver pakalpojumus. Piemēram, var norādīt preces šablonu konsultāciju darbam un preču variantus darbam, ko veic vecākie konsultanti un jaunākie konsultanti.
 

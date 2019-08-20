@@ -3,25 +3,25 @@ title: Kreditoru apstiprināšana konkrētām precēm
 description: Šī procedūra parāda, kā apstiprināt kreditorus īpašām precēm.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8f2cd1badb0b924150ab51ef2efc049e6666562a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 815d968b37cf285544799735fdd3f00f0c7ebffb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559213"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838170"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Kreditoru apstiprināšana konkrētām precēm
 
@@ -29,45 +29,36 @@ ms.locfileid: "1559213"
 
 Šī procedūra parāda, kā apstiprināt kreditorus īpašām precēm. Tas ļauj kontrolēt, kurus kreditorus var izmantot, kad preces tiek pievienots pirkšanas pasūtījumam. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Šo uzdevumu parasti veic pirkšanas vadītājs.
 
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
+1. Navigācijas rūtī dodieties uz **Moduļi > Preču informācijas pārvaldība > Preces > Tirdzniecībā izlaistās preces**.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Izvērsiet sadaļu Pirkt.
-    * Ja laukā Kreditors ir parādīts sākotnējais kreditors, tad jums ir nepieciešams pievienot šo kreditoru kā apstiprināto kreditori, veicot šādas darbības. Pierakstiet kreditora numuru, ja tas tiek parādīts.  
-5. Darbību rūtī noklikšķiniet uz Pirkt.
-6. Noklišķiniet uz Iestatījumi.
-7. Noklikšķiniet uz Pievienot.
-8. Laukā Kreditors ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet apstiprināto piegādātāju. Vismaz vienai no rindām ir jābūt primārajam kreditoram, ja preces ierakstā bija viens. Ja agrāk veicāt kreditora numura piezīmi, atlasiet to šeit.  
-9. Laukā Termiņa beigas ievadiet kādu datumu.
-    * Atlasiet datumu, kas ir dažus mēnešus uz priekšu.  
-10. Noklikšķiniet uz Pievienot.
-11. Laukā Kreditors ievadiet vai atlasiet kādu vērtību.
-12. Laukā Termiņa beigas ievadiet kādu datumu.
-    * Atlasiet datumu, kas atšķiras no iepriekšējā beigu datuma.  
+4. Izvērsiet kopsavilkuma cilni **Pirkšana**. Ja laukā **Kreditors** ir parādīts sākotnējais kreditors, tad jums ir nepieciešams pievienot šo kreditoru kā apstiprināto kreditoru, veicot šādas darbības. Pierakstiet kreditora numuru, ja tas tiek parādīts.  
+5. Darbību rūtī noklikšķ. uz **Pirkšana**.
+6. Noklišķiniet uz **Iestatījumi**.
+7. Noklikšķiniet uz **Pievienot**.
+8. Laukā Kreditors ievadiet vai atlasiet kādu vērtību. Atlasiet apstiprināto piegādātāju. Vismaz vienai no rindām ir jābūt primārajam kreditoram, ja preces ierakstā bija viens. Ja agrāk veicāt kreditora numura piezīmi, atlasiet to šeit.  
+9. Laukā **Termiņa beigas** ievadiet kādu datumu. Atlasiet datumu, kas ir dažus mēnešus uz priekšu.  
+10. Noklikšķiniet uz **Pievienot**.
+11. Laukā **Kreditors** ievadiet vai atlasiet kādu vērtību.
+12. Laukā **Termiņa beigas** ievadiet kādu datumu. Atlasiet datumu, kas atšķiras no iepriekšējā beigu datuma.  
 13. Aizvērt lapu.
-14. Noklikšķiniet uz Apstiprinātie kreditori.
-15. Laukā Termiņa beigas ievadiet kādu datumu.
-    * Šis datums darbojas kā filtrs, lai jūs varētu redzēt, kas ir apstiprinātie kreditori līdz noteiktam datumam.  
+14. Darbību rūtī noklikšķiniet uz **Apstiprinātie kreditori**.
+15. Laukā **Termiņa beigas** ievadiet kādu datumu. Šis datums darbojas kā filtrs, lai jūs varētu redzēt, kas ir apstiprinātie kreditori līdz noteiktam datumam.  
 16. Aizvērt lapu.
-17. Noklikšķiniet uz Faktiskais periods.
-18. Ievadiet datumu laukā Rādīt kreditorus, kuriem beidzas derīguma termiņš.
-    * Šo lapu varat izmantot, lai identificētu kreditorus, kuru apstiprinājuma statuss beidzas pēc konkrēta datuma.  
+17. Darbību rūtī noklikšķiniet uz **Derīguma periods**.
+18. Ievadiet datumu laukā **Rādīt kreditorus, kuriem beidzas derīguma termiņš**. Šo lapu varat izmantot, lai identificētu kreditorus, kuru apstiprinājuma statuss beidzas pēc konkrēta datuma.  
 19. Aizvērt lapu.
-20. Noklikšķiniet uz Rediģēt.
-21. Laukā Apstiprināto kreditoru pārbaudes metode, atlasiet opciju.
-    * Šajā laukā var izvēlēties, kam jānotiek, ja prece tiek pievienota pirkšanas pasūtījuma rindai, ja kreditors nav apstiprināts kreditors.  
-22. Noklikšķiniet uz Saglabāt.
+20. Noklikšķiniet uz **Rediģēt**.
+21. Laukā **Apstiprināto kreditoru pārbaudes metode** atlasiet opciju. Šajā laukā var izvēlēties, kam jānotiek, ja prece tiek pievienota pirkšanas pasūtījuma rindai, ja kreditors nav apstiprināts kreditors.  
+22. Noklikšķiniet uz **Saglabāt**.
 23. Aizvērt lapu.
 24. Aizvērt lapu.
-25. Pārejiet uz Sagāde un avoti > Kreditori > Kreditoru/krājumu saistības > Apstiprināto kreditoru saraksts pēc krājuma.
-    * Šī lapa sniedz pārskatu par visām precēm un apstiprinātajiem kreditoriem.  
+25. Navigācijas rūtī pārejiet uz **Pārejiet uz Moduļi > Sagāde un avoti > Kreditori > Kreditoru/krājumu saistības > Apstiprināto kreditoru saraksts pēc krājuma**. Šī lapa sniedz pārskatu par visām precēm un apstiprinātajiem kreditoriem.  
 26. Aizvērt lapu.
-27. Pārejiet uz sadaļu Sagāde un avoti > Kreditori > Visi kreditori.
-    * Jūs varat arī sākt no kreditora, un pēc tam pāriet uz šī kreditora konta apstiprināto preču sarakstu.  
+27. Navigācijas rūtī dodieties uz **Moduļi > Sagāde un avoti > Kreditori > Visi kreditori**. Jūs varat arī sākt no kreditora, un pēc tam pāriet uz šī kreditora konta apstiprināto preču sarakstu.  
 28. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-29. Darbību rūtī noklikšķiniet uz Sagāde.
-30. Noklikšķiniet uz Apstiprināto piegādātāju saraksts pēc kreditora.
+29. Darbību rūtī noklikšķiniet uz **Sagāde**.
+30. Noklikšķiniet uz **Apstiprināto piegādātāju saraksts pēc kreditora**.
 31. Aizvērt lapu.
 32. Aizvērt lapu.
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2e13b43812e0d6f8b50cb3fcf65f277afbe9e806
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552865"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849767"
 ---
 # <a name="employee-development-power-bi-content"></a>Power BI satura pakotne Darbinieku attīstība
 
@@ -41,7 +41,7 @@ Power BI satura pakotnes **Darbinieku attīstība** pārskatos ir ietvertas gan 
 | Veiktspējas vērtējuma analīze   | Darbinieki pēc zemākā un augstākā vērtējuma pēc darba, darbinieku vērtējumi pēc nodaļas, darbinieki pēc vērtējuma un pozīcijas tipa un augstākie un zemākie vērtējumi pēc pozīcijas |
 | Darbinieku veiktspējas analīze | Darbinieku vērtējumi atlasītajam vērtējumam pēc vadītāja |
 
-Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šajos pārskatos esošās diagrammas un elementus varat filtrēt, un diagrammas un elementus varat piespraust informācijas panelim. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 

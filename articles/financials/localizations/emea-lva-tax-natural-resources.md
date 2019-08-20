@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LvNRTaxItemGroupLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 270454
 ms.search.region: Latvia
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 67b477b1b2e1d0836b236b6c4926dd6bd7c601fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 93486e137b9ae8b9acf52a22230dec348bc56307
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549064"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852462"
 ---
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 

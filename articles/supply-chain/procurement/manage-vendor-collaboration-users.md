@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555065"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742474"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Pārvaldīt kreditoru sadarbības lietotājus
 
@@ -65,7 +65,7 @@ Lai varētu pieprasīt, ka tiek nodrošināts jauns lietotājs, šī persona ir 
 4. Sadaļā **Piešķirt lietotāju lomas** atzīmējiet izvēles rūtiņu **Piešķirt** tām drošības lomām, kuras jaunajam lietotājam ir nepieciešamas.
 5. Noklikšķiniet uz **Iesniegt**.
 
-Kad tiek iesniegts kreditora lietotāja pieprasījums, atlasītajam kreditora kontam tiek iestatīta lauka **Debitoru sadarbības piekļuve ir atļauta** vērtība **Jā** un tiek sākta lietotāja pieprasījuma darbplūsma. Kā daļa no šīs darbplūsmas programmatūrā Finance and Operations tiek izveidots jauns lietotājs un tiek piešķirtas drošības lomas. Turklāt tiek aktivizēts Azure B2B pakalpojums, kas iniciē mijiedarbību ar Azure portālu un jaunu vai pastāvošu AAD kontu saista ar Finance and Operations lietotāja kontu. Papildinformāciju skatiet rakstā [Kas ir Azure AD B2B sadarbība?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Kad tiek iesniegts kreditora lietotāja pieprasījums, atlasītajam kreditora kontam tiek iestatīta lauka **Debitoru sadarbības piekļuve ir atļauta** vērtība **Jā** un tiek sākta lietotāja pieprasījuma darbplūsma. Kā daļa no šīs darbplūsmas programmatūrā Finance and Operations tiek izveidots jauns lietotājs un tiek piešķirtas drošības lomas. Turklāt tiek aktivizēts Azure B2B pakalpojums, kas iniciē mijiedarbību ar Azure portālu un jaunu vai pastāvošu AAD kontu saista ar Finance and Operations lietotāja kontu. Papildinformāciju skatiet rakstā [Kas ir Azure AD B2B sadarbība?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Deaktivizēt lietotāju
 

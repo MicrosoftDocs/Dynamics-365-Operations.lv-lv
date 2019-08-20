@@ -1,9 +1,9 @@
 ---
-title: Kravu un sūtījumu plānošana, izmantojot noslodzes plānošanas rīku
-description: Šajā procedūrā tiek parādīts, kā lietot noslodzes plānošanas rīku, lai izveidotu kravu pārdošanas pasūtījumam.
+title: Kravu un sūtījumu plānošana, izmantojot kravu plānošanas rīku
+description: Šajā tēmā ir parādīts, kā lietot noslodzes plānošanas rīku, lai izveidotu kravu pārdošanas pasūtījumam.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564804"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739069"
 ---
-# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Kravu un sūtījumu plānošana, izmantojot noslodzes plānošanas rīku
+# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Kravu un sūtījumu plānošana, izmantojot kravu plānošanas rīku
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā tiek parādīts, kā lietot noslodzes plānošanas rīku, lai izveidotu kravu pārdošanas pasūtījumam. Kā priekšnosacījumu mēs vispirms izveidosim pārdošanas pasūtījumu. Šī procedūra ir daļa no transportēšanas koordinatora ikdienas darba. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Šajā tēmā ir parādīts, kā lietot noslodzes plānošanas rīku, lai izveidotu kravu pārdošanas pasūtījumam. Kā priekšnosacījumu mēs vispirms izveidosim pārdošanas pasūtījumu. Šī procedūra ir daļa no transportēšanas koordinatora ikdienas darba. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 
-## <a name="create-a-sales-order"></a>Pārdošanas pasūtījuma izveidošana
-1. Pārejiet uz sadaļu Debitori > Pasūtījumi > Visi pārdošanas pasūtījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Debitora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Konta US-004 atlase
-5. Noklikšķiniet uz Labi.
-6. Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Atlasiet krājumu A0001.
-    * A0001 ir iespējots transportēšanas pārvaldībai.  
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Laukā Daudzums ievadiet skaitli.
-10. Laukā Noliktava ierakstiet "24".
-    * Šajā piemērā atlasiet noliktavu 24. Šī noliktava ir iespējota transportēšanas pārvaldībai un papildu noliktavas vadībai.  
-11. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-sales-order"></a>Izveidot pārdošanas pasūtījumu
+1. Dodieties uz **Navigācijas rūts > Moduļi > Debitori > Pasūtījumi > Visi pārdošanas pasūtījumi**.
+2. Atlasiet **Jauns**.
+3. Laukā **Debitora konts** atlasiet nolaižamā saraksta pogu, lai atvērtu pārlūku.
+4. Atlasiet kontu **US-004**.
+5. Atlasiet **Labi**.
+6. Laukā **Krājuma kods** atlasiet nolaižamā saraksta pogu, lai atvērtu pārlūku.
+7. Atlasiet preci **A0001**. **A0001** ir iespējots transportēšanas pārvaldībai.  
+8. Laukā **Vieta** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu, pēc tam atlasiet preci.
+9. Laukā **Daudzums** ierakstiet kādu skaitli.
+10. Laukā **Noliktava** šim piemēram ierakstiet vērtību '24'. Šī noliktava ir iespējota transportēšanas pārvaldībai un papildu noliktavas vadībai.  
+11. Atlasiet **Saglabāt**.
 12. Aizvērt lapu.
 
 ## <a name="create-a-new-load"></a>Jaunas noslodzes izveide
-1. Dodieties uz Transportēšanas pārvaldība > Plānošana > Kravu plānošanas rīks.
-2. Noklikšķiniet uz cilnes Pārdošanas rindas.
-    * Tagad varat izveidot kravu tikko izveidotajam pārdošanas pasūtījumam. Kravas var veidot, balstoties uz piedāvājumu un pieprasījumu no pirkšanas pasūtījumiem, pārsūtīšanas pasūtījumiem un pārdošanas pasūtījumiem.  
-3. Darbību rūtī noklikšķiniet uz Piedāvājums un pieprasījums.
-4. Noklikšķiniet uz Jaunai noslodzei.
-5. Laukā Kravas veidnes ID noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Kravas veidne nosaka maksimālos mērījumus visas kravas svaram un tilpumam. Piemēram, kravas veidne var atspoguļot konteinera vai kravas automašīnas lielumu.  
-6. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-7. Noklikšķiniet uz OK.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Transportēšanas pārvaldība > Plānošana > Noslodzes plānošanas rīks**.
+2. Atlasiet cilni **Pārdošanas rindas**. Tagad varat izveidot kravu tikko izveidotajam pārdošanas pasūtījumam. Kravas var veidot, balstoties uz piedāvājumu un pieprasījumu no pirkšanas pasūtījumiem, pārsūtīšanas pasūtījumiem un pārdošanas pasūtījumiem.  
+3. Darbību rūtī atlasiet **Piedāvājums un pieprasījums**.
+4. Atlasiet **Uz jaunu noslodzi**.
+5. Laukā **Kravas veidnes ID** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu. Kravas veidne nosaka maksimālos mērījumus visas kravas svaram un tilpumam. Piemēram, kravas veidne var atspoguļot konteinera vai kravas automašīnas lielumu. Atlasiet krājumu.
+6. Atlasiet **Labi**.
 
 ## <a name="rate-and-route-the-load"></a>Noslodzes novērtēšana un maršrutēšana
-1. Noklikšķiniet uz Novērtēšana un maršrutēšana.
-2. Noklikšķiniet uz Likmju un maršrutu rīks.
-3. Noklikšķiniet uz Likmes izvēle.
+1. Atlasiet **Novērtēšana un maršrutēšana**.
+2. Atlasiet **Likmju un maršrutu rīks**.
+3. Atlasiet **Likmes veikals**.
 4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Noklikšķiniet uz Piešķirt.
+5. Atlasiet **Piešķirt**.
 6. Aizvērt lapu.
-7. Aizvērt lapu.
 

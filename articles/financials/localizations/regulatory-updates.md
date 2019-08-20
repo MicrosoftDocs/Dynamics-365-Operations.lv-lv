@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624315"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849336"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -59,19 +59,22 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |      2019. aprīlis          |   10.0.1      |    Krievija     |Transporta nodokļa deklarācijas izmaiņas no 2019. gada  |
 |      2019. aprīlis            |   10.0.1      | Ungārija      |  Ungārija: tiešsaistes rēķinu izrakstīšanas v.1.1 2019 programmā Microsoft Dynamics 365 for Finance and Operations  |
 |      2019. maijs            |   10.0.2      | Brazīlija      |   SPED ECD Layout 7   |
-|      Gaida            |   10.0.3      | Brazīlija      |   NF-e jauns NT 2018.005 — v.1.20   |
-|      Gaida            |   10.0.3      | Brazīlija      |   SPED ECD Layout 7   |
-|      Gaida            |   10.0.3      | Brazīlija      |   SPED ECF — 5. izkārtojums 2019. gadam   |
-|      Gaida            |   10.0.3      | Lietuva    |   i.SAF pārskats ļauj lietotājam definēt sistēmas PVN kodus saistībā ar likumā noteiktajiem nodokļu kodiem    |
-|      Gaida            |   10.0.3      | Polija     |   SAF rēķini (JPK_FA) v.2 no 2019. gada 1. jūlija  |
-|      Gaida            |   10.0.3      | Brazīlija   |   ICMS fiskālo dokumentu korekciju iespējošanas tabula 5.2   |
-|      Gaida            |   10.0.3      | Brazīlija    |   NF-e dekrēts 54.308/18 (RS)   |
-  | Gaida            |   10.0.4      | Brazīlija    |   Ienākošais finanšu dokuments 66   |
-   | Gaida            |   10.0.4      | Brazīlija    |   NF-e un NFC-e — rezolūcija 13/2019 un valdības rīkojums SUCIEF 55/2019- RJ — jauni nosacījumi neapliekamo summu tagu izvadei ar NF-e.   |
-   | Gaida            |   10.0.4      | Indija   |   Vienumu “Piegādes vieta” un “Štats” rādīšana GST nodokļu rēķinā  |
-   | Gaida            |   10.0.4      | Meksika   |  DIOT trešās puses deklarācija — izmaiņas izkārtojumā 2019   |
-   | Gaida            |   10.0.4      | Brazīlija    |   NF-e ICMS-ST — valdības rīkojums CAT 42/18 par SP stāvokli — CAT 42/18
-   | Gaida            |   10.0.4      | Brazīlija    |   NF-e dekrēts 54.308/18 - RS NF   |
+|      2019. jūnijs            |   10.0.3      | Brazīlija      |   NF-e jauns NT 2018.005 — v.1.20   |
+|      2019. jūnijs            |   10.0.3      | Brazīlija      |   SPED ECD Layout 7   |
+|      2019. jūnijs            |   10.0.3      | Brazīlija      |   SPED ECF — 5. izkārtojums 2019. gadam   |
+|      2019. jūnijs            |   10.0.3      | Lietuva    |   i.SAF pārskats ļauj lietotājam definēt sistēmas PVN kodus saistībā ar likumā noteiktajiem nodokļu kodiem    |
+|      2019. jūnijs            |   10.0.3      | Polija     |   SAF rēķini (JPK_FA) v.2 no 2019. gada 1. jūlija  |
+|      2019. jūnijs            |   10.0.3      | Brazīlija   |   ICMS fiskālo dokumentu korekciju iespējošanas tabula 5.2   |
+|      2019. jūnijs            |   10.0.3      | Brazīlija    |   NF-e dekrēts 54.308/18 (RS)   |
+  | 2019. gada jūlijs            |   10.0.4      | Brazīlija    |   Ienākošais finanšu dokuments 66   |
+   | 2019. gada jūlijs            |   10.0.4      | Brazīlija    |   NF-e un NFC-e — rezolūcija 13/2019 un valdības rīkojums SUCIEF 55/2019- RJ — jauni nosacījumi neapliekamo summu tagu izvadei ar NF-e.   |
+   | 2019. gada jūlijs            |   10.0.4      | Indija   |   Vienumu “Piegādes vieta” un “Štats” rādīšana GST nodokļu rēķinā  |
+   | 2019. gada jūlijs            |   10.0.4      | Meksika   |  DIOT trešās puses deklarācija — izmaiņas izkārtojumā 2019   |
+   | 2019. gada jūlijs            |   10.0.4      | Brazīlija    |   NF-e ICMS-ST — valdības rīkojums CAT 42/18 par SP stāvokli — CAT 42/18
+   | 2019. gada jūlijs            |   10.0.4      | Brazīlija    |   NF-e dekrēts 54.308/18 - RS NF   |
+       | Gaida            |   10.0.5      | Brazīlija    |   Sped ieguldījumu praktiskā rokasgrāmata 1.31. jauni norādījumi   |
+         | Gaida            |   10.0.5      | Brazīlija    |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.00   |
+          | Gaida            |   10.0.5      | Spānija    |   Validācijas kārtulas mainās no 2019. gada 1. oktobra   |
    
 
 

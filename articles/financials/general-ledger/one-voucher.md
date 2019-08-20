@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553204"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846900"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -51,7 +51,7 @@ Esošā funkcionalitāte jums ļauj finanšu žurnālos (vispārējā žurnālā
 
 ## <a name="issues-with-one-voucher"></a>Funkcionalitātes “Viens dokuments” problēmas
 
-Funkcionalitāte “Viens dokuments” izraisa problēmas, veicot nosegšanu, aprēķinot nodokļus, anulējot transakcijas, saskaņojot apakšgrāmatu ar virsgrāmatu, veidojot finanšu pārskatus un veicot citas darbības. (Plašāku informāciju par problēmām, kas var rasties, veicot nosegšanu, skatiet, piemēram, rakstā [Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Lai šie procesi darbotos un pārskati tiktu izveidoti pareizi, šiem procesiem un pārskatiem ir nepieciešami transakcijas dati. Lai gan dažos scenārijos viss var darboties pareizi, atkarībā no jūsu organizācijas iestatījumiem, problēmas bieži rodas, ja vienā dokumentā ir ievadītas vairākas transakcijas.
+Funkcionalitāte “Viens dokuments” izraisa problēmas, veicot nosegšanu, aprēķinot nodokļus, anulējot transakcijas, saskaņojot apakšgrāmatu ar virsgrāmatu, veidojot finanšu pārskatus un veicot citas darbības. (Plašāku informāciju par problēmām, kas var rasties, veicot nosegšanu, skatiet, piemēram, rakstā [Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Lai šie procesi darbotos un pārskati tiktu izveidoti pareizi, šiem procesiem un pārskatiem ir nepieciešami transakcijas dati. Lai gan dažos scenārijos viss var darboties pareizi, atkarībā no jūsu organizācijas iestatījumiem, problēmas bieži rodas, ja vienā dokumentā ir ievadītas vairākas transakcijas.
 
 Piemēram, jūs iegrāmatojat tālāk norādīto vairāku rindu dokumentu.
 

@@ -1,5 +1,5 @@
 ---
-title: Programmai atbilstošo metadatu sagatavošana izmantošanai RCS un ER
+title: Failu importēšana XML formātā ar neobligātiem atribūtiem
 description: Šajā tēmā ir sniegta informācija par tādu ER formātu veidošanu, kuri nosaka XML atribūtus ienākošo elektronisko dokumentu parsēšanai XML formātā.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726579"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849999"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Programmai atbilstošo metadatu sagatavošana izmantošanai RCS un ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Failu importēšana XML formātā ar neobligātiem atribūtiem
 
 Varat veidot elektronisko pārskatu (Electronic Reporting — ER) formātus ienākošo dokumentu parsēšanai XML formātā. Izveidotajā ER formātā noteiktus XML elementu atribūtus var norādīts kā neobligātus. Tādējādi jūs varat pareizi apstrādāt ienākošos failus gan ar šādiem XML atribūtiem, gan bez tiem. Pēc tam saturu no šiem failiem varat izmantot, lai atjauninātu programmas datus.
 
@@ -45,8 +45,8 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 ## <a name="create-a-new-data-model-configuration"></a>Jaunas datu modeļa konfigurācijas izveide
 1. Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
 2. Laukā **Nosaukums** ierakstiet “Modelis XML faila importēšanai”.
-3. Noklikšķiniet uz **Izveidot konfigurāciju**.
-4. Noklikšķiniet uz **Noformētājs**.
+3. Klikšķiniet **Izveidot konfigurāciju**.
+4. Noklikšķiniet uz **Veidotājs**.
 5. Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
 6. Laukā **Nosaukums** ierakstiet “Sakne”.
 7. Noklikšķiniet uz **Pievienot**.
@@ -59,7 +59,7 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 14. Laukā **Vienuma veids** atlasiet **Virkne**.
 15. Noklikšķiniet uz **Pievienot**.
 16. Noklikšķiniet uz **Saglabāt**.
-17. Aizveriet lapu.
+17. Aizvērt lapu.
 18. Noklikšķiniet uz **Mainīt statusu**.
 19. Noklikšķiniet uz **Pabeigt**.
 20. Noklikšķiniet uz **Labi**.
@@ -69,10 +69,10 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 2. Laukā **Jauns** ierakstiet “Formāts balstīts uz datu modeli Modelis XML faila importēšanai”.
 3. Laukā **Nosaukums** ierakstiet “Formāts XML faila importēšanai”. 
 4. Laukā **Atbalsta datu importēšanu** atlasiet **Jā**.
-5. Noklikšķiniet uz **Izveidot konfigurāciju**.
+5. Klikšķiniet **Izveidot konfigurāciju**.
 
 ## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a>Formāta veidošana ienākoša faila parsēšanai XML formātā
-1. Noklikšķiniet uz **Noformētājs**.
+1. Noklikšķiniet uz **Veidotājs**.
 2. Noklikšķiniet uz **Pievienot sakni**, lai atvērtu nolaižamo dialoglodziņu.
 3. Kokā atlasiet **XML\Elements**.
 4. Laukā **Nosaukums** ierakstiet “root”.
@@ -117,7 +117,7 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 > Atlasītais fails nav importēts, jo formāta dizainā tiek pieņemts, ka elementam “document” ir atribūts “id”, bet importētajā failā tāda atribūta nav.
 
 ## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a>Formāta struktūras modificēšana, lai XML atribūtu apstrādātu kā neobligātu
-1. Aizveriet lapu.
+1. Aizvērt lapu.
 2. Koka struktūrā izvērsiet zaru **root\document**.
 3. Koka struktūrā atlasiet zaru **root\document\id**.
 4. Laukā **Tukša virkne trūkstošam atribūtam** atlasiet **Jā**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adcc9bbc422a3fddfd51d248daf95c0da6d4c9bb
-ms.sourcegitcommit: 8cf77e9171d6cad8ae6c8bfad9e4f9a46fef6d23
+ms.openlocfilehash: 7ca04433937d0d7a16b450f190cd3814533e270d
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "1689004"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741060"
 ---
 # <a name="workflow-faq"></a>Bieži uzdotie jautājumi par darbplūsmām
 
@@ -48,6 +48,6 @@ Tālāk ir norādītas daži galvenās jomas, kas ir jāņem vērā saistībā a
     - Kādā no turpmākajiem atjauninājumiem mēs pievienosim darbību centra ziņojumu, lai lietotājam tiktu piešķirts darbplūsmas darba vienums. 
 - Paziņojumu pievienošana darbplūsmām
     - Noteiktiem lietotājiem nevar izveidot darbību centra ziņojumus, piemēram, ziņojumu, kas ir izveidots no darbplūsmas iekš X++.
-    - [Darbplūsmām ir biznesa notikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kurus debitors varētu izmantot, lai aktivizētu meklēto paziņojumu sniegšanu ar Flows.   
+    - [Darbplūsmām ir biznesa notikumi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kurus debitors varētu izmantot, lai aktivizētu meklēto paziņojumu sniegšanu ar Flows.   
 
-Īsumā — ja lietotājs nesaņem nepieciešamo paziņojumu no darbību centra, kad šim lietotājam ir piešķirts kāds darbplūsmas darba elements, tad papildu vai atšķirīgu paziņojumu sniegšanai ir jāizmanto [darbplūsmas biznesa notikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) un Microsoft Flow.
+Īsumā — ja lietotājs nesaņem nepieciešamo paziņojumu no darbību centra, kad šim lietotājam ir piešķirts kāds darbplūsmas darba elements, tad papildu vai atšķirīgu paziņojumu sniegšanai ir jāizmanto [darbplūsmas biznesa notikumi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) un Microsoft Flow.

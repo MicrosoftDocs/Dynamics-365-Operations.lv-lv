@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551843"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863728"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
@@ -402,7 +402,7 @@ Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un 
 2. Veiciet dubultklikšķi uz kolonnas **Saite uz finanšu dimensijām** šūnas.
 3. Dialoglodziņā **Dimensijas**, veiciet dubultklikšķi uz šūnas, kas redzama zem dimensijas nosaukuma.
 4. Dimensijas dialoglodziņā atlasiet **Individuāli vai diapazona**.
-5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Pārlūkot"), lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
+5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot](media/browse.gif "Pārlūkot"), lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
 6. Lai aizvērtu dimensijas dialoglodziņu, noklikšķiniet uz **Labi**. Dialoglodziņā **Dimensijas** attēlota atjauninātā dimensija vai diapazons.
 7. Lai aizvērtu dialoglodziņu **Dimensijas**, noklikšķiniet uz **Labi**.
 
@@ -479,7 +479,7 @@ Tabulā ir aprakstīti dialoglodziņa **Dimensijas** lauki.
 
 | Vienums                | Apraksts |
 |---------------------|-------------|
-| Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Pārlūkot"), lai pārlūkotu līdz kontam. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
+| Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot](media/browse.gif "Pārlūkot"), lai pārlūkotu līdz kontam. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
 | Dimensijas vērtību kopa | Laukā **Nosaukums** ievadiet dimensijas vērtību kopas nosaukumu. Lai kopu izveidotu, modificētu, kopētu vai dzēstu, noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**. Lauks **Formula** tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām** šai dimensiju vērtību kopai rindas definīcijā. |
 | Kontu summēšana   | Laukā **Nosaukums** ievadiet vai uzmeklējiet dimensiju summēšanas kontiem. Lauks **Formula** šim summēšanas kontam pārskata definīcijā tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām**. |
 
