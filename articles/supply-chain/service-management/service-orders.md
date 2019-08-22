@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555372"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743257"
 ---
 # <a name="service-orders"></a>Pakalpojumu pasūtījumi   
 
@@ -76,7 +76,7 @@ Viens no pārējiem pakalpojumu pasūtījumiem, kas tika izveidoti janvāra mēn
 
 ## <a name="post-from-projects"></a>Grāmatošana no projektiem
 
-Katras nedēļas beigās dispečers vēlas iegrāmatot visus pakalpojumu pasūtījumus, kas ir pievienoti noteiktam projektam. Tādēļ dispečers atrod attiecīgo projektu formā **Projekti** un iegrāmato izpildītos pakalpojumu pasūtījumus. Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu grāmatošana (klases forma)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+Katras nedēļas beigās dispečers vēlas iegrāmatot visus pakalpojumu pasūtījumus, kas ir pievienoti noteiktam projektam. Tādēļ dispečers atrod attiecīgo projektu formā **Projekti** un iegrāmato izpildītos pakalpojumu pasūtījumus. Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu grāmatošana (klases forma)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Pakalpojumu pasūtījumu dzēšana
 
@@ -84,7 +84,7 @@ Gada otrajā pusē jūsu klients izlemj, ka apkopes vizītes notiek pārāk reti
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Pakalpojumu pasūtījumi (forma)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Pakalpojumu pasūtījumi (forma)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

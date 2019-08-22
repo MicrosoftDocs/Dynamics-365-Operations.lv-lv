@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37b338d5971395264bd2ff673ee7892814859846
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554443"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741163"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobilā darbvieta Uzņēmuma direktorijs
 
@@ -57,7 +57,7 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 </ul>
 </td>
 <td>Sistēmas administrators</td>
-<td>Ja jūsu organizācijā vēl nav izvietota programma Finance and Operations, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja jūsu organizācijā vēl nav izvietota programma Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent tīmekļa lapā</a>.
+<td>Ja jūsu organizācijā vēl nav izvietota programma Finance and Operations, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja jūsu organizācijā vēl nav izvietota programma Talent, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://www.microsoft.com/dynamics365/talent">Talent tīmekļa lapā</a>.
 </td>
 </tr>
 <tr class="even">

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570976"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834154"
 ---
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
@@ -154,6 +154,8 @@ Piemēra shēmā jūs varētu vēlēties izveidot kolonnas pārdošanai, līgumi
 [![Kolonnas](./media/columns.png)](./media/columns.png) 
 
 Varat arī norādīt, vai katru izkārtojuma elementu (kolonnu) ir atļauts rediģēt un vai tas ir pieejams jebkurā darblapas veidnē, kas ir izveidota šim izkārtojumam. Piemēra shēmas izkārtojumā, kas tiek izmantots novērtēšanas stadijā, prognožu kolonnas ir rediģējamas, bet kolonnas pārdošana un līgumi ir tikai lasāmas.
+
+[!Note] Pēc noklusējuma jums būs ierobežojums līdz 36 kolonnām, ja vien nepaplašināsit budžeta plānošanu ar darbībām [Paplašināt budžetu plānošanas izkārtojumu](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Veidnes
 

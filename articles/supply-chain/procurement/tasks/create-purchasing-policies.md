@@ -1,61 +1,59 @@
 ---
 title: Pirkšanas ierobežojumu izveide
-description: Šajā procedūrā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem.
+description: Šajā tēmā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bd4d6f8625c91f2190e994f04cbec4548272f04
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557829"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856476"
 ---
 # <a name="create-purchasing-policies"></a>Pirkšanas ierobežojumu izveide
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem. Lai varētu izveidot pirkšanas politikas, ir jāiestata pirkšanas politikas parametri. Pirkšanas politiku var izveidot, modificēt un noņemt, bet pirkšanas politiku nevar dzēst. Šo procedūru parasti veic pirkšanas vadītājs. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+Šajā tēmā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem. Lai varētu izveidot pirkšanas politikas, ir jāiestata pirkšanas politikas parametri. Pirkšanas politiku var izveidot, modificēt un noņemt, bet pirkšanas politiku nevar dzēst. Šo procedūru parasti veic pirkšanas vadītājs. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 
 
 ## <a name="set-up-policy-parameters"></a>Iestatīt politikas parametrus
-1. Dodieties uz Pirkšanas politikas.
-2. Noklikšķiniet uz Parametri.
-    * Politikas prioritātes kārtulas attiecas uz dažādiem līmeņiem jūsu organizācijā. Rādītās organizācijas vienības ir atkarīgas no jūsu organizācijas hierarhijas, kā arī no tā, kuros hierarhijas līmeņos ir piešķirts sagādes iekšējās kontroles mērķis. Piemēram, jūsu organizācijā var būt juridiskās personas, izmaksu centri, reģioni un departamenti, bet ir iespējams, ka tikai dažiem no tiem ir sagādes iekšējās kontroles hierarhijas mērķis. Pēc noklusējuma ir pieejama organizācija ar tipu Uzņēmums.  
-3. Noklikšķiniet uz cilnes Politikas kārtulas tipu parametri.
-4. Koka struktūrā atlasiet vienumu “Pirkšanas politika\Pirkšanas pieprasījuma kontroles kārtula”.
-    * Jūs definējat ierobežojumu piemērošanas prioritāšu secību ierobežojumu līmenī. Tomēr dažiem ierobežojumu veidiem var ignorēt atsevišķu ierobežojumu kārtulu tipu prioritāšu secību. Piemēram, pirkšanas politikām varat definēt šādu prioritāšu secību: izmaksu centrs, departaments, uzņēmums. Kataloga politikas kārtulai, iespējams, vēlaties šādu prioritāšu secību: departaments, izmaksu centrs, uzņēmums. Kataloga politikas kārtulai varat mainīt prioritāšu secību. Kad kāds nodarbinātais izveido pieprasījumu, tad rādītais katalogs ir atkarīgs no politikām, kas ir saistītas ar šī nodarbinātā departamentu, pēc tam — viņa izmaksu centru, un pēc tam — viņa uzņēmumu.  
-    * Ja ir uzskaitīti vairāki organizācijas līmeņi, varat lietot augšupvērsto/lejupvērsto bultiņu, lai iestatītu pirkšanas pieprasījuma kontroles kārtulas prioritāšu secību.  
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Sagāde un avoti > Iestatīšana > Politikas > Pirkšanas politikas**.
+2. Darbību rūtī atlasiet **Parametri**.
+- Politikas prioritātes kārtulas attiecas uz dažādiem līmeņiem jūsu organizācijā. Rādītās organizācijas vienības ir atkarīgas no jūsu organizācijas hierarhijas, kā arī no tā, kuros hierarhijas līmeņos ir piešķirts sagādes iekšējās kontroles mērķis. Piemēram, jūsu organizācijā var būt juridiskās personas, izmaksu centri, reģioni un departamenti, bet ir iespējams, ka tikai dažiem no tiem ir sagādes iekšējās kontroles hierarhijas mērķis. Pēc noklusējuma ir pieejama organizācija ar tipu Uzņēmums.  
+3. Atlasiet cilni **Politikas kārtulas tipu parametri**.
+4. Koka struktūrā dodieties uz **Pirkšanas politika > Pirkšanas pieprasījuma kontroles kārtula**.
+- Jūs definējat ierobežojumu piemērošanas prioritāšu secību ierobežojumu līmenī. Tomēr dažiem ierobežojumu veidiem var ignorēt atsevišķu ierobežojumu kārtulu tipu prioritāšu secību. Piemēram, pirkšanas politikām varat definēt šādu prioritāšu secību: izmaksu centrs, departaments, uzņēmums. Kataloga politikas kārtulai, iespējams, vēlaties šādu prioritāšu secību: departaments, izmaksu centrs, uzņēmums. Kataloga politikas kārtulai varat mainīt prioritāšu secību. Kad kāds nodarbinātais izveido pieprasījumu, tad rādītais katalogs ir atkarīgs no politikām, kas ir saistītas ar šī nodarbinātā departamentu, pēc tam — viņa izmaksu centru, un pēc tam — viņa uzņēmumu.  
+- Ja ir uzskaitīti vairāki organizācijas līmeņi, varat lietot augšupvērsto/lejupvērsto bultiņu, lai iestatītu pirkšanas pieprasījuma kontroles kārtulas prioritāšu secību.  
 5. Aizvērt lapu.
 
 ## <a name="create-a-new-policy"></a>Izveidot jaunu politiku
-1. Noklikšķiniet uz Jauns.
-2. Laukā Nosaukums ierakstiet kādu vērtību.
-3. Apraksta laukā ierakstiet vērtību.
-    * Viena pirkšanas politika var attiekties tikai uz vienu organizācijas hierarhiju. Piemēram, jums varētu būt viena hierarhija ar nosaukumu “Ģeogrāfisks” un viena ar nosaukumu “Departaments”, un katrai no tām var būt citāda pirkšanas politika.  
-    * Atlasiet organizāciju, kam ir jālieto šī politika.  
-4. Noklikšķiniet uz bultiņas, lai pievienotu atlasīto organizāciju.
-    * Varat atkārtot šo procesu, lai pievienotu vairāk organizāciju.  
+1. Atlasiet **Jauns**.
+2. Laukā **Nosaukums** ierakstiet kādu vērtību.
+3. Laukā **Apraksts** ierakstiet kādu vērtību.
+- Viena pirkšanas politika var attiekties tikai uz vienu organizācijas hierarhiju. Piemēram, jums varētu būt viena hierarhija ar nosaukumu “Ģeogrāfisks” un viena ar nosaukumu “Departaments”, un katrai no tām var būt citāda pirkšanas politika.  
+- Atlasiet organizāciju, kam ir jālieto šī politika.  
+4. Atlasiet bultiņu, lai pievienotu atlasīto organizāciju.
+- Varat atkārtot šo procesu, lai pievienotu vairāk organizāciju.  
 
 ## <a name="add-a-policy-rule"></a>Pievienot politikas kārtulu
-1. Politikas kārtulu tipu sarakstā atlasiet Pieprasījuma mērķa kārtula.
-    * Jūs izveidosiet kārtulu, kas noklusējuma pieprasījuma mērķi iestata uz tipu Patēriņš, bet ļauj tā vietā atlasīt tipu Papildināšana.  
-2. Noklikšķiniet uz Izveidot politikas kārtulu.
-3. Laukā Atļaut manuālo ignorēšanu atlasiet Jā.
-4. Noklikšķiniet uz Aizvērt.
-    * Tagad pirkšanas politikai varat iestatīt citas politikas kārtulas.   Ņemiet vērā, ka tipā Politikas kārtula nevar būt kārtulu, kuras pārklājas un kuras vienlaicīgi ir aktīvas vienā un tajā pašā sagādes politikā.  
-5. Aizvērt lapu.
-6. Aizvērt lapu.
+1. Sarakstā **Politikas kārtulu tips** atlasiet **Pieprasījuma mērķa kārtula**.
+- Jūs izveidosiet kārtulu, kas noklusējuma pieprasījuma mērķi iestata uz tipu Patēriņš, bet ļauj tā vietā atlasīt tipu Papildināšana.  
+2. Atlasiet **Izveidot ierobežojuma nosacījumu**.
+3. Atlasiet **Jā** laukā **Atļaut manuālo ignorēšanu**.
+4. Atlasiet **Aizvērt**.
+- Tagad pirkšanas politikai varat iestatīt citas politikas kārtulas. Ņemiet vērā, ka tipā Politikas kārtula nevar būt kārtulu, kuras pārklājas un kuras vienlaicīgi ir aktīvas vienā un tajā pašā sagādes politikā.  
 

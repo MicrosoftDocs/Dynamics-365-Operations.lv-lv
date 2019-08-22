@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 320984fc6be231c941df17abb7246e92f6aa4b9a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1631959"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841061"
 ---
 # <a name="expense-reports-reimagined"></a>Izdevumu pārskati jaunā izskatā
 
@@ -45,7 +45,7 @@ Lai ieslēgtu jauno pieredzi, izmantojiet darbvietu **Funkciju pārvaldība** un
 
 ## <a name="getting-started-video-for-new-users"></a>Darba sākšanas videopamācība jauniem lietotājiem
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
 Videoklips [Izdevumu funkcionalitāte programmā Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurš ir pieejams vietnē YouTube.
 

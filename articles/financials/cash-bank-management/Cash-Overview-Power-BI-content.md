@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702799"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842693"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI satura pakotne Skaidras naudas apskats
 
@@ -40,7 +40,7 @@ Lai dati tiktu rādīti darbvietu **Skaidras naudas apskats** un **Bankas pārva
 1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
 2. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
 2. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu, starp uzskaites valūtu un sistēmas valūtu, starp uzskaites valūtu un bankas valūtām. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
-3. Konfigurējiet un palaidiet rīku Naudas plūsmas prognozēšana. Plašāku informāciju par to, kā iestatīt rīku Naudas plūsmas prognozēšana, skatiet tēmā <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+3. Konfigurējiet un palaidiet rīku Naudas plūsmas prognozēšana. Plašāku informāciju par to, kā iestatīt rīku Naudas plūsmas prognozēšana, skatiet tēmā <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
 ">Naudas plūsmas prognozēšana</a>. 
 4. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **LedgerCovLiquidityMeasurement**.
 

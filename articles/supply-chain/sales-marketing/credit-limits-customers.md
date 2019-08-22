@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551818"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742382"
 ---
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
@@ -93,7 +93,7 @@ Lai norādītu informāciju, ar kuru salīdzināt, izmantojiet formu **Debitoru 
 
 **Kur tiek izmantota informācija par debitora atlikušo kredītu?**
 
-Kad veidojat vecumstruktūras momentuzņēmumu, informācija par debitora bilanci un atlikušā kredīta summu tiek aprēķināta un saglabāta, un tā tiek rādīta formā **Iekasēšana**. Kamēr nav izveidots jauns vecumstruktūras momentuzņēmums, formā **Iekasēšana** rādītās summas var neietvert visas transakciju darbības. Plašāku informāciju skatiet rakstā [Iekasēšana un kredīts modulī Debitoru parādi](https://technet.microsoft.com/en-us/library/hh209221.aspx).
+Kad veidojat vecumstruktūras momentuzņēmumu, informācija par debitora bilanci un atlikušā kredīta summu tiek aprēķināta un saglabāta, un tā tiek rādīta formā **Iekasēšana**. Kamēr nav izveidots jauns vecumstruktūras momentuzņēmums, formā **Iekasēšana** rādītās summas var neietvert visas transakciju darbības. Plašāku informāciju skatiet rakstā [Iekasēšana un kredīts modulī Debitoru parādi](https://technet.microsoft.com/library/hh209221.aspx).
 
 Atkarībā no atlasītajiem dokumentiem informācija par debitora bilanci un atlikušo kredīta summu tiek aprēķināta, kad tiek atjaunināti pārdošanas pasūtījumi, pavadzīmes un debitora rēķini. Ja tā dokumenta summa, ar kuru strādājat, izraisītu kredīta limita pārsniegšanu, tiek parādīts ziņojums.
 
@@ -104,8 +104,7 @@ Lai varētu veikt izmaiņas šajā formā, jums ir jābūt drošības lomas Sist
 
 |    Lauks                                    |    Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Ar kredītu pieprasīt identifikāciju     |    Izvēlieties identifikācijas tipu, kas ir jāievada debitoriem, kuriem jūsu juridiskā iestāde pagarina kredītu. Šajā laukā atlasītā opcija nosaka, kad un kāda tipa informācija ir nepieciešama formas Debitori laukos Valsts iestādes izsniegta identifikācija.
-Nē — neatkarīgi no debitora kredīta limita nav nepieciešama valsts iestādes izsniegta identifikācija.     Jā — ja debitora kredīta limits ir lielāks par vai vienāds ar nulli, ir nepieciešams valsts iestādes izsniegts licences numurs vai cita valsts iestādes izsniegta identifikācija.     Minimālais limits — valsts iestādes izsniegts licences numurs vai cita valsts iestādes izsniegta identifikācija ir nepieciešama, ja debitora kredīta limits ir lielāks par vai vienāds ar limitu, kuru ievadāt šīs formas laukā Limits.        |
+|    Ar kredītu pieprasīt identifikāciju     |    Izvēlieties identifikācijas tipu, kas ir jāievada debitoriem, kuriem jūsu juridiskā iestāde pagarina kredītu. Šajā laukā atlasītā opcija nosaka, kad un kāda tipa informācija ir nepieciešama formas Debitori laukos Valsts iestādes izsniegta identifikācija.        Nē — neatkarīgi no debitora kredīta limita nav nepieciešama valsts iestādes izsniegta identifikācija.     Jā — ja debitora kredīta limits ir lielāks par vai vienāds ar nulli, ir nepieciešams valsts iestādes izsniegts licences numurs vai cita valsts iestādes izsniegta identifikācija.     Minimālais limits — valsts iestādes izsniegts licences numurs vai cita valsts iestādes izsniegta identifikācija ir nepieciešama, ja debitora kredīta limits ir lielāks par vai vienāds ar limitu, kuru ievadāt šīs formas laukā Limits.        |
 |    Limits                                    |    Ievadiet kredīta limitu, pie kura debitoriem ir nepieciešams valsts iestādes izsniegts licences numurs vai cita identifikācija.    Ierakstiet, piemēram, 2000, lai pieprasītu ievadīt kādu identifikācijas numuru, piemēram, autovadītāja apliecības numuru, tādiem debitoriem, kuru kredīta limits ir 2000 vai vairāk.    Šis lauks ir pieejams, ja laukā Ar kredītu pieprasīt identifikāciju atlasījāt vienumu Minimālais limits.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 **Kur norādīt, vai ir jāparāda brīdinājums vai kļūda, ja tiek pārsniegts kredīta limits?**

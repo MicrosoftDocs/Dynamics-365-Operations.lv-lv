@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551675"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850101"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI satura pakotne Prakses pārvaldnieks
 
@@ -54,7 +54,7 @@ Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem,
 | EVM               | Izmaksu un grafika veiktspējas rādītājs pa projektiem |
 | Stundas             | <ul><li>Faktisko apmaksājamo izmantoto stundu, faktisko apmaksājamo neproduktīvo stundu un budžeta stundu salīdzinājums</li><li>Faktisko apmaksājamo izmantoto stundu un faktisko apmaksājamo neproduktīvo stundu salīdzinājums pa projektiem</li><li>Faktisko apmaksājamo izmantoto stundu un faktisko apmaksājamo neproduktīvo stundu salīdzinājums pa resursiem</li><li>Faktisko apmaksājamo stundu koeficients pa projektiem</li><li>Faktisko apmaksājamo stundu koeficients pa resursiem</li></ul> |
 
-Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
+Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
@@ -62,7 +62,7 @@ Power BI satura pakotnes **Prakses pārvaldnieks** pārskatu lapu aizpildīšana
 
 Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek izmantoti katrā elementā.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Elements: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Elements: ProjectAccountingCube\_ActualHourUtilization
 **Datu avots:** ProjEmplTrans
 
 | Galvenais apkopošanas mērījums      | Lauks                              | Apraksts |
@@ -70,7 +70,7 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Faktiskās apmaksājamās izmantotās stundas | Sum(ActualUtilizationBillableRate) | Faktisko apmaksājamo izmantoto stundu kopsumma. |
 | Faktiskās apmaksājamās neproduktīvās stundas   | Sum(ActualBurdenBillableRate)      | Faktisko sloga koeficientu kopsumma. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Elements: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Elements: ProjectAccountingCube\_Actuals
 **Datu avots:** ProjTransPosting
 
 | Galvenais apkopošanas mērījums | Lauks              | Apraksts |
@@ -78,14 +78,14 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Faktiskie ieņēmumi            | Sum(ActualRevenue) | Visu transakciju grāmatoto ieņēmumu kopsumma. |
 | Faktiskās izmaksas               | Sum(ActualCost)    | Visu transakciju veidu grāmatoto izmaksu kopsumma. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Elements: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Elements: ProjectAccountingCube\_Customer
 **Datu avots:** CustTable
 
 | Galvenais apkopošanas mērījums | Lauks                                             | Apraksts |
 |---------------------------|---------------------------------------------------|-------------|
 | Projektu skaits        | COUNTA(ProjectAccountingCube\_Projects\[PROJEKTI\]) | Pieejamo projektu skaits. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Elements: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Elements: ProjectAccountingCube\_Forecasts
 **Datu avots:** ProjTransBudget
 
 | Galvenais apkopošanas mērījums | Lauks                  | Apraksts |
@@ -94,14 +94,14 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Budžeta ieņēmumi            | Sum(BudgetRevenue)     | Prognozēto gūto/rēķinos iekļauto ieņēmumu kopsumma. |
 | Budžeta bruto peļņa       | Sum(BudgetGrossMargin) | Prognozēto ieņēmumu kopsummas un prognozēto izdevumu kopsummas starpība. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Elements: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Elements: ProjectAccountingCube\_ProjectPlanCostsView
 **Datu avots:** projekts
 
 | Galvenais apkopošanas mērījums | Lauks                    | Apraksts |
 |---------------------------|--------------------------|-------------|
 | Plānotās izmaksas              | Sum(SumOfTotalCostPrice) | Visu plānotus uzdevumus ietverošo projekta transakciju veidu novērtētas izmaksu cenas kopsumma. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Elements: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Elements: ProjectAccountingCube\_Projects
 **Datu avots:** projekts
 
 | Galvenais apkopošanas mērījums    | Lauks | apraksts |
@@ -112,7 +112,7 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Faktisko apmaksājamo stundu koeficients  | ProjectAccountingCube\_Projects\[Projekta faktisko apmaksājamo izmantoto stundu kopsumma\] ÷ (ProjectAccountingCube\_Projects\[Projekta faktisko apmaksājamo izmantoto stundu kopsumma\] + ProjectAccountingCube\_Projects\[Projekta faktisko apmaksājamo neproduktīvo stundu kopsumma\]) | Faktisko apmaksājamo stundu kopsumma, pamatojoties uz izmantoto stundu un papildstundu skaitu. |
 | Iegūtā vērtība                 | ProjectAccountingCube\_Projects\[Projekta plānoto izmaksu kopsumma\] × ProjectAccountingCube\_Projects\[Pabeigtā darba procentuālā vērtība\] | Plānoto izmaksu kopsummas un pabeigtā darba procentuālās vērtības reizinājums. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Elements: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Elements: ProjectAccountingCube\_TotalEstimatedCosts 
 **Datu avots:** ProjTable
 
 | Galvenais apkopošanas mērījums       | Lauks               | Apraksts |

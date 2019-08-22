@@ -1,54 +1,49 @@
 ---
 title: Kreditora maksājumu nosacījumu definēšana
-description: Iestatiet kreditoru rēķinu apmaksas nosacījumus.
+description: Šajā tēmā ir izskaidrots, kā iestatīt kreditoru rēķinu apmaksas nosacījumus.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6432d04aa821e76d67e2c430e514f4b9056d8228
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569036"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843197"
 ---
 # <a name="define-vendor-payment-terms"></a>Kreditora maksājumu nosacījumu definēšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Iestatiet kreditoru rēķinu apmaksas nosacījumus. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+Šajā tēmā ir izskaidrots, kā iestatīt kreditoru rēķinu apmaksas nosacījumus. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
-1. Pārejiet uz sadaļu Kreditori > Maksājuma iestatījumi > Apmaksas nosacījumi.
-2. Noklikšķiniet uz Jauns.
-    * Lapa Apmaksas noteikumi tiek izmantota, lai definētu, kā tiks aprēķināts apmaksas termiņš. Tā netiek izmantota, lai definētu, kā tiks aprēķināts termiņatlaides datums.  
-3. Ierakstiet vērtību laukā Apmaksas nosacījumi.
-4. Apraksta laukā ierakstiet vērtību.
-5. Ievadiet skaitli laukā Dienas.
-    * Šeit ievadītais skaitlis tiks izmantots, lai to pieskaitītu apmaksas datumam vai maksāšanas metodē norādītā perioda beigām. Piemēram, ja atlasāt neto, skaitlis tiks pieskaitīts apmaksas datumam. Ja atlasāt pašreizējo mēnesi, aprēķinot apmaksas datumu, skaitlis tiks pieskaitīts pašreizējā mēneša pēdējai dienai.  
-6. Noklikšķiniet uz Saglabāt.
+1. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Kreditori > Maksājuma iestatīšana > Apmaksas nosacījumi**.
+2. Atlasiet **Jauns**. Lapa Apmaksas noteikumi tiek izmantota, lai definētu, kā tiks aprēķināts apmaksas termiņš. Tā netiek izmantota, lai definētu, kā tiks aprēķināts termiņatlaides datums.  
+3. Ierakstiet vērtību laukā **Apmaksas nosacījumi**.
+4. Laukā **Apraksts** ierakstiet vērtību.
+5. Ievadiet skaitli laukā **Dienas**. Šeit ievadītais skaitlis tiks izmantots, lai to pieskaitītu apmaksas datumam vai maksāšanas metodē norādītā perioda beigām. Piemēram, ja atlasāt **Neto**, skaitlis tiks pieskaitīts apmaksas datumam. Ja atlasāt **Pašreizējais mēnesis**, aprēķinot apmaksas datumu, skaitlis tiks pieskaitīts pašreizējā mēneša pēdējai dienai.  
+6. Atlasiet **Saglabāt**.
 7. Aizvērt lapu.
-8. Pārejiet uz sadaļu Kreditori > Maksājuma iestatījumi > Termiņatlaides.
-9. Noklikšķiniet uz Jauns.
-10. Ievadiet ID laukā Termiņatlaide.
-11. Apraksta laukā ierakstiet vērtību.
+8. Pārejiet uz sadaļu **Kreditori > Maksājuma iestatīšana > Termiņatlaides**.
+9. Atlasiet **Jauns**.
+10. Ievadiet ID laukā **Termiņatlaide**.
+11. Laukā **Apraksts** ierakstiet kādu vērtību.
 12. Ja kreditors piedāvā diferencētas atlaides, atlasiet nākamo termiņatlaidi, kas stājas spēkā, kad pašreizējā vairs nav spēkā.
 13. Aizvērt lapu.
-14. Ievadiet skaitli laukā Dienas.
-    * Daudzums, kas ievadīts laukā Dienas, tiks izmantots, lai aprēķinātu termiņatlaides datumu, pamatojoties uz opciju, kas atlasīta laukā Neto/Pašreizējais. Ja ir atlasīts neto, termiņatlaides datuma aprēķināšanai dienu daudzums tiks pieskaitīts rēķina datumam. Ja ir atlasīts pašreizējais mēnesis, termiņatlaides datuma aprēķināšanai dienu daudzums tiks pieskaitīts pašreizējā mēneša beigām.  
-15. Laukā Atlaide ievadiet termiņatlaidi procentos. 
-16. Ievadiet galveno kontu, kurā jāgrāmato debitoru rēķinu termiņatlaide.
-17. Ievadiet galveno kontu, kurā jāgrāmato kreditora rēķinu termiņatlaide.
-    * Ja lauka Atlaižu korespondējošie konti vērtība ir Kreditoru atlaidēm izmantot galveno kontu, tiks izmantots galvenais konts.  Ja ir izvēlēta opcija Konti rēķina rindās, termiņatlaide tiks iegrāmatota līdzekļu/izdevumu kontos, kuri izmantoti rēķina rindās.  
-18. Noklikšķiniet uz Saglabāt.
+14. Ievadiet skaitli laukā **Dienas**. Daudzums, kas ievadīts laukā **Dienas**, tiks izmantots, lai aprēķinātu termiņatlaides datumu, pamatojoties uz opciju, kas atlasīta laukā **Neto/Pašreizējais**. Ja ir atlasīts **Neto**, termiņatlaides datuma aprēķināšanai dienu daudzums tiks pieskaitīts rēķina datumam. Ja ir atlasīts **Pašreizējais mēnesis**, termiņatlaides datuma aprēķināšanai dienu daudzums tiks pieskaitīts pašreizējā mēneša beigām.  
+15. Laukā **Atlaide** ievadiet termiņatlaidi procentos. 
+16. Ievadiet galveno kontu, kurā tiks iegrāmatota termiņatlaide debitoru rēķiniem, pēc tam ievadiet galveno kontu, kurā tiks iegrāmatota termiņatlaide kreditoru rēķiniem. Ja lauka **Atlaižu korespondējošie konti** vērtība ir **Kreditoru atlaidēm izmantot galveno kontu**, tiks izmantots galvenais konts. Ja ir izvēlēta opcija **Konti rēķina rindās**, termiņatlaide tiks iegrāmatota līdzekļu/izdevumu kontos, kuri izmantoti rēķina rindās.  
+17. Atlasiet **Saglabāt**.
 

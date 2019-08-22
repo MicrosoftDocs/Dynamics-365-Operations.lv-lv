@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625876"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849513"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -215,12 +215,12 @@ Nākamajās tabulās ir aprakstītas datu manipulācijas funkcijas, kuras var iz
 | TODAY () | Pašreizējo Finance and Operations programmas servera datumu atgriezt kā datuma vērtību. | |
 | NULLDATE () | Atgriezt datuma vērtību **null**. | |
 | NULLDATETIME () | Atgriezt datuma/laika vērtību **null**. | |
-| DATETIMEFORMAT (datums un laiks, formāts) | Norādīto datuma/laika vērtību pārveidojiet par virkni norādītajā formātā. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** pašreizējās Finance and Operations programmas servera datumu, 2015. gada 24. decembri, atgriež kā **"24-12-2015"** atbilstoši norādītajam pielāgotajam formātam. |
-| DATETIMEFORMAT (datums un laiks, formāts, kultūra) | Norādīto datuma/laika vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** pašreizējo Finance and Operations programmas servera datumu, 2015. gada 24. decembri, atgriež kā **"24.12.2015"** atbilstoši atlasītajai vācu kultūrai. |
+| DATETIMEFORMAT (datums un laiks, formāts) | Norādīto datuma/laika vērtību pārveidojiet par virkni norādītajā formātā. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** pašreizējās Finance and Operations programmas servera datumu, 2015. gada 24. decembri, atgriež kā **"24-12-2015"** atbilstoši norādītajam pielāgotajam formātam. |
+| DATETIMEFORMAT (datums un laiks, formāts, kultūra) | Norādīto datuma/laika vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** pašreizējo Finance and Operations programmas servera datumu, 2015. gada 24. decembri, atgriež kā **"24.12.2015"** atbilstoši atlasītajai vācu kultūrai. |
 | SESSIONTODAY () | Pašreizējo Finance and Operations sesijas datumu atgriezt kā datuma vērtību. | |
 | SESSIONNOW () | Pašreizējo Finance and Operations sesijas datumu un laiku atgriezt kā datuma/laika vērtību. | |
 | DATEFORMAT (datums, formāts) | Norādītā datuma virknes attēlojumu atgriezt norādītajā formātā. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** pašreizējās Finance and Operations sesijas datumu, 2015. gada 24. decembri, atgriež kā **"24-12-2015"** atbilstoši norādītajam pielāgotajam formātam. |
-| DATEFORMAT (datums, formāts, kultūra) | Norādīto datuma vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** pašreizējo Finance and Operations sesijas datumu, 2015. gada 24. decembri, atgriež kā **"24.12.2015"** atbilstoši atlasītajai vācu kultūrai. |
+| DATEFORMAT (datums, formāts, kultūra) | Norādīto datuma vērtību pārveidojiet par virkni norādītajā formātā un atbilstoši norādītajai [kultūrai](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) un [pielāgots](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** pašreizējo Finance and Operations sesijas datumu, 2015. gada 24. decembri, atgriež kā **"24.12.2015"** atbilstoši atlasītajai vācu kultūrai. |
 | DAYOFYEAR (datums) | Atgriezt veselu skaitļu attēlojumu dienu skaitam no 1. janvāra līdz norādītajam datumam. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** atgriež **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** atgriež **1**. |
 | DAYS (1. datums, 2. datums) | Atgriezt dienu skaitu starp pirmo norādīto datumu un otro norādīto datumu. Ja pirmais datums ir vēlāks par otro datumu, tiek atgriezta pozitīva vērtība; ja pirmais datums ir vienāds ar otro datumu, tiek atgriezta **0** (nulle); vai tiek atgriezta negatīva vērtība, ja pirmais datums ir agrāks par otro datumu. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** atgriež **-1**. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (skaitlis, formāts)</td>
-<td>Atgriezt norādītā skaitļa virknes attēlojumu norādītajā formātā. (Informāciju par atbalstītajiem formātiem skatiet šeit: <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standarta</a> un <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">pielāgotie</a>.) Formāta numuriem izmantotā kultūra ir atkarīga no šīs funkcijas izpildes konteksta.</td>
+<td>Atgriezt norādītā skaitļa virknes attēlojumu norādītajā formātā. (Informāciju par atbalstītajiem formātiem skatiet šeit: <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">standarta</a> un <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">pielāgotie</a>.) Formāta numuriem izmantotā kultūra ir atkarīga no šīs funkcijas izpildes konteksta.</td>
 <td>Kultūrai EN-US <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> atgriež <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> atgriež <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (skaitlis, formāts, kultūra)</td>
-<td>Norādītā skaitļa virknes attēlojumu atgriezt norādītajā formātā un atbilstoši norādītajai kultūrai. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standarta</a> un <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">pielāgots</a>.)</td>
+<td>Norādītā skaitļa virknes attēlojumu atgriezt norādītajā formātā un atbilstoši norādītajai kultūrai. (Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">standarta</a> un <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">pielāgots</a>.)</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, “de”)</strong> atgriež <strong>3,33</strong>, savukārt <strong>NUMBERFORMAT (10/3, “F2”, “en-us”)</strong> atgriež <strong>3,33</strong>.</td>
 </tr>
 <tr>

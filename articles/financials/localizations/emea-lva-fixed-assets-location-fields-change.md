@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 266924
 ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3479b630ff180cc0e422be471f00dcf9c93f94d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55cdf43eae0d1d27f10217c79fee8b4aba57f707
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549065"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852461"
 ---
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 

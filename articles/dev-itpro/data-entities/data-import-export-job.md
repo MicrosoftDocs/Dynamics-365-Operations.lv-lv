@@ -3,28 +3,29 @@ title: Datu importēšanas un eksportēšanas darbi
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505798"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862908"
 ---
 # <a name="data-import-and-export-jobs"></a>Datu importēšanas un eksportēšanas darbi
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Datu importēšanas un eksportēšanas darbu izveidei un pārvaldībai programmā Microsoft Dynamics 365 for Finance and Operations, tiek izmantota darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
 
@@ -129,8 +130,8 @@ Darbu var vienlaikus nodrošināt pēc lomām, lietotājiem un juridiskajām per
 ## <a name="run-the-import-or-export-job"></a>Importēšanas vai eksportēšanas darba palaišana
 Darbu varat palaist vienu reizi, pēc darba definēšanas atlasot pogu **Importēt** vai **Eksportēt**. Lai iestatītu periodisko darbu, atlasiet **Izveidot periodisku datu darbu**.
 
-[!NOTE]
-Importēšanas vai eksportēšanas darbu var izpildīt asinhroni, atlasot pogu **Importēt** vai **Eksportēt**. Asinhronai izpildei tiek izmantota asinhronā struktūra programmā Finance and Operations, kas atšķiras no pakešuzdevumu struktūras. Tomēr tāpat kā pakešuzdevumu struktūrai arī asinhronajai struktūrai var tikt veikta ierobežošana un tā rezultātā darba izpilde var nenotikt nekavējoties. Darbus arī var izpildīt sinhroni, atlasot **Importēt tūlīt** vai **Eksportēt tūlīt**. Tas sāk darbu nekavējoties un ir noderīgi, ja asinhrona vai pakešuzdevumu izpilde netiek uzsākta ierobežošanas dēļ. Darbus var izpildīt arī kā pakešuzdevumu, izvēloties opciju **Izpilde partijā**. Uz partijas resursiem attiecas ierobežošana, tādēļ pakešuzdevuma izpilde var nenotikt nekavējoties. Asinhronā opcija ir noderīga, kad lietotāji mijiedarbojas tieši ar lietotāja interfeisu un nav tik pieredzējuši, lai saprastu pakešuzdevumu plānošanu. Pakešuzdevuma izmantošana ir alternatīvs risinājums, ja ir nepieciešams eksportēt vai importēt lielu apjomu. Pakešuzdevumus var plānot izpildei noteiktā pakešuzdevumu grupā — tas sniedz lielāku kontroli slodzes līdzsvarošanas ziņā. Ja asinhronai un pakešuzdevumu izpildei tiek veikta ierobežošana liela sistēmas resursu izmantojuma dēļ, tad kā tūlītēju risinājumu var izmantot sinhronu importēšanas/eksportēšanas versiju. Sinhronā opcija sāksies nekavējoties un bloķēs lietotāja interfeisu, jo notiek sinhrona izpilde. Pārlūkprogrammas logam jāpaliek atvērtam, kad notiek sinhrona darbība.
+> [!NOTE]
+> Importēšanas vai eksportēšanas darbu var izpildīt asinhroni, atlasot pogu **Importēt** vai **Eksportēt**. Asinhronai izpildei tiek izmantota asinhronā struktūra programmā Finance and Operations, kas atšķiras no pakešuzdevumu struktūras. Tomēr tāpat kā pakešuzdevumu struktūrai arī asinhronajai struktūrai var tikt veikta ierobežošana un tā rezultātā darba izpilde var nenotikt nekavējoties. Darbus arī var izpildīt sinhroni, atlasot **Importēt tūlīt** vai **Eksportēt tūlīt**. Tas sāk darbu nekavējoties un ir noderīgi, ja asinhrona vai pakešuzdevumu izpilde netiek uzsākta ierobežošanas dēļ. Darbus var izpildīt arī kā pakešuzdevumu, izvēloties opciju **Izpilde partijā**. Uz partijas resursiem attiecas ierobežošana, tādēļ pakešuzdevuma izpilde var nenotikt nekavējoties. Asinhronā opcija ir noderīga, kad lietotāji mijiedarbojas tieši ar lietotāja interfeisu un nav tik pieredzējuši, lai saprastu pakešuzdevumu plānošanu. Partijas izmantošana ir alternatīvs risinājums, ja ir nepieciešams importēt vai eksportēt lielu apjomu. Pakešuzdevumus var plānot izpildei noteiktā pakešuzdevumu grupā — tas sniedz lielāku kontroli slodzes līdzsvarošanas ziņā. Ja asinhronai un pakešuzdevumu izpildei tiek veikta ierobežošana liela sistēmas resursu izmantojuma dēļ, tad kā tūlītēju risinājumu var izmantot sinhronu importēšanas/eksportēšanas versiju. Sinhronā opcija sāksies nekavējoties un bloķēs lietotāja interfeisu, jo notiek sinhrona izpilde. Pārlūkprogrammas logam jāpaliek atvērtam, kad notiek sinhrona darbība.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Pārbaudīšana, vai darba norise notiek paredzētajā veidā
 Gan eksportēšanas, gan importēšanas darbiem problēmu novēršanai un izmeklēšanai ir pieejama darbu vēsture. Vēsturiskās darbu izpildes ir sakārtotas pēc laika diapazoniem.
@@ -144,15 +145,17 @@ Par katru darba palaišanu ir tālāk aprakstītā detalizētā informācija.
 
 Detalizēta informācija par izpildi rāda stāvokli katram datu elementam, kuru šis darbs apstrādāja. Tādēļ jūs varat ātri atrast tālāk uzskaitīto informāciju.
 
-- Kuri elementi tika apstrādāti
-- Attiecībā uz elementu — cik ierakstu tika sekmīgi apstrādāti un cik daudzi bija nesekmīgi
-- Sagatavošanas posmu ieraksti katram elementam
+- Kuri elementi tika apstrādāti.
+- Attiecībā uz elementu — cik ierakstu tika sekmīgi apstrādāti un cik daudzi bija nesekmīgi.
+- Sagatavošanas posmu ieraksti katram elementam.
 
 Sagatavošanas posmu datus eksportēšanas darbiem varat lejupielādēt failā, vai importēšanas un eksportēšanas darbiem tos varat lejupielādēt kā paketi.
 
 No detalizētas informācijas par izpildi varat arī atvērt izpildes žurnālu.
 
 ## <a name="clean-up-the-staging-tables"></a>Sagatavošanas tabulu iztīrīšana
+Sākot ar platformas atjauninājumu 29, šī funkcionalitāte ir novecojusi. Tā ir aizstāta ar jaunu darbu vēstures tīrīšanas funkcionalitātes versiju, kas izskaidrota tālāk.
+
 Sagatavošanas tabulas varat iztīrīt, izmantojot līdzekli **Sagatavošanas iztīrīšana** darbvietā **Datu pārvaldība**. Lai atlasītu, kuri ieraksti ir jāizdzēš un no kuras sagatavošanas tabulas, varat izmantot tālāk aprakstītās opcijas.
 
 - **Elements** — ja ir nodrošināts tikai elements, no šī elementa sagatavošanas tabulas tiek dzēsti visi ieraksti. Atlasiet šo opciju, lai šim elementam iztīrītu visus datus visos datu projektos un visos darbos.
@@ -160,3 +163,37 @@ Sagatavošanas tabulas varat iztīrīt, izmantojot līdzekli **Sagatavošanas iz
 - **Datu projekti** — ja ir atlasīts tikai datu projekts, atlasītajam datu projektam tiek dzēsti visi ieraksti visiem elementiem un visos darbos.
 
 Šīs opcijas varat arī kombinēt, lai dzēšamo ierakstu kopu ierobežotu vēl vairāk.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Darbu vēstures tīrīšana (pieejama platformas atjauninājumā 29 un jaunākās versijās)
+
+Darba vēstures tīrīšanas funkcionalitāte datu pārvaldībā jāizmanto, lai ieplānotu periodisku izpildes vēstures tīrīšanu. Šī funkcionalitāte aizstāj iepriekšējo sagatavošanas posmu tabulas tīrīšanas funkcionalitāti, kas tagad ir novecojusi. Tālāk minētās tabulas tiks tīrītas, izmantojot tīrīšanas procesu.
+
+-   Visas inscinējuma tabulas
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+Funkcionalitātei var piekļūt no **Datu pārvaldības \>Darbu vēstures tīrīšanas**.
+
+### <a name="scheduling-parameters"></a>Parametru plānošana
+
+Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai definētu tīrīšanas kritērijus.
+
+-   **Vēstures saglabāšanas dienu skaits**  — šis iestatījums tiek izmantots, lai kontrolētu izpildes vēstures apjomu, kas jāsaglabā. Tas tiek norādīts kā dienu skaits. Kad tīrīšanas darbs ir ieplānots kā periodisks pakešuzdevums, šis iestatījums darbosies kā pastāvīgi kustīgs logs, tādējādi vienmēr atstājot norādītā dienu skaita vēsturi neskartu un dzēšot pārējo. Noklusējums ir 7 dienas.
+
+-   **Darba izpildes stundu skaits** — atkarībā no notīrāmā vēstures apjoma kopējais tīrīšanas darba izpildes laiks var būt robežās no dažām minūtēm līdz dažām stundām. Tā kā minēto tabulu tīrīšana ir jāveic, kad sistēmā nav citu datu pārvaldības aktivitāšu, ir svarīgi pārliecināties, ka tīrīšanas darbs tiek izpildīts un pabeigts pirms biznesa aktivitātes sākuma.
+
+    Maksimālo izpildes laiku var norādīt, iestatot maksimālo ierobežojumu stundu skaitam, kad darbs ir jāpalaiž, izmantojot šo iestatījumu. Tīrīšanas loģika izpaužas kā viena darba izpildes ID vienā laikā hronoloģiski sakārtotā secībā, saistītās izpildes vēstures tīrīšanā pirmo notīrot vecāko. Tas pārtrauks jauna izpildes ID pieņemšanu, ja atlikušais izpildes ilgums ir pēdējo 10 % robežās no norādītā ilguma. Dažos gadījumos tiks prognozēts, ka tīrīšanas darbs turpināsies pēc norādītā maksimālā laika. Tas lielā mērā būs atkarīgs no to ierakstu skaita, kuri tiks dzēsti pašreizējam izpildes ID, kas tika sākts pirms 10 % sliekšņa sasniegšanas. Sāktā tīrīšana ir jāpabeidz, lai nodrošinātu datu integritāti, kas nozīmē, ka tīrīšana turpināsies, neraugoties uz noteiktā ierobežojuma pārsniegšanu. Kad tas ir pabeigts, jauni izpildes ID netiek pieņemti, un tīrīšanas darbs tiek pabeigts. Atlikusī izpildes vēsture, kas netika iztīrīta pietiekama izpildes laika trūkuma dēļ, tiks izvēlēta nākamajā reizē, kad ieplānots tīrīšanas darbs. Noklusējuma un minimālā vērtība šim iestatījumam ir iestatīta uz 2 stundām.
+
+-   **Periodiska partija** — tīrīšanas darbu var palaist kā vienreizēju, manuālu izpildi vai arī to var plānot periodiskai izpildei partijā. Partiju var ieplānot, izmantojot iestatījumus **Palaist fonā**, kas ir partijas standarta iestatījums.

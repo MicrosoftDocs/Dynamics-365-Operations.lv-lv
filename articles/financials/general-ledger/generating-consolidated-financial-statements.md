@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557735"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863704"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 
@@ -49,11 +49,11 @@ Kā norādīts konsolidētajā ziņojumā tālāk redzamajās attēlā, izmantoj
 
 Varat arī izveidot vairāklīmeņu pārskatu koku, kas ietver tik daudz līmeņu, cik nepieciešams. Tālāk redzamajā attēlā parādīta daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc pasaules reģioniem.
 
-![Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc reģiona](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc reģiona")
+![Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc reģiona](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc reģiona")
 
 Tālāk redzamajā attēlā parādīta daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc funkcijas.
 
-![Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc funkcijas](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc funkcijas")
+![Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc funkcijas](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc funkcijas")
 
 ### <a name="viewing-companies-side-by-side"></a>Uzņēmumu skatīšana līdzās
 Daudzi klienti dod priekšroku pārskatiem, kur uzņēmumi tiek parādīti līdzās un kolonnā redzama konsolidētā kopsumma. Šo formātu ir viegli iegūt pēc tam, kad esat izveidojis pārskatu koku. Tālāk norādītas augsta līmeņa darbības, kas veicamas, lai konsolidētajos finanšu pārskatos uzņēmumus skatītu līdzās.
@@ -98,7 +98,7 @@ Pārskatu koka definīcijā ievadiet īpašumtiesību procentuālo daļu kolonn�
 > [!NOTE]
 > Šo īpašumtiesību procentuālo vērtību var piemērot jebkurai pārskata vienībai, ne tikai uzņēmuma līmenī. 
 
-![Pārskatu koka definīcijas procentuālās vērtības izmantošana](./media/Using-reporting%20tree-definition-percentage.png "Pārskatu koka definīcijas procentuālās vērtības izmantošana")
+![Pārskatu koka definīcijas procentuālās vērtības izmantošana](./media/Using-reporting-tree-definition-percentage.png "Pārskatu koka definīcijas procentuālās vērtības izmantošana")
 
 Veidojot pārskatu, uzņēmuma Contoso Vācija ziņojumā tiks parādi 100 procenti no pārdošanas summas, un 80 procenti no summas tiks piešķirti un apkopoti uz pārdošanas konsolidēto līmeni.
 

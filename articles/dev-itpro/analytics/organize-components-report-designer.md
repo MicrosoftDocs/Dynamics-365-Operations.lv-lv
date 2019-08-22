@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551747"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863675"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
 
@@ -50,7 +50,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 ### <a name="create-a-report-group"></a>Pārskata grupas izveidošana
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
-2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Pārskatu grupa").
+2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa](media/report-group.gif "Pārskatu grupa").
 3. Noklikšķiniet uz cilnes **Pārskatu grupa**. Lai šī pārskata izveidošanai ignorētu informāciju par atsevišķu pārskatu definīcijām, atzīmējiet izvēles rūtiņu **Ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus no atsevišķām pārskatu definīcijām**. Uzņēmuma nosaukums, detalizētības līmenis, provizoriskie iestatījumi un datuma informācija tiek ievadīta automātiski, bet jūs varat veikt atjauninājumus.
 4. Lai ģenerētu vairākas atskaites, kurās ir redzamas atskaišu valūtas, atzīmējiet izvēles rūtiņu **Ietvert visas atskaišu valūtas**. Pēc tam varat piekļūt vairākiem skatiem, tīmekļa skatītājā noklikšķinot uz pogas **Valūta**, kas skatāt šo atskaiti.
 5. Laukā **Atskaites grupā** noklikšķiniet uz **Pievienot**, lai atlasītu atskaites, ko iekļaut atskaišu grupā. Lai dialoglodziņā **Pievienot** atlasītu vairākas atskaites, atskaišu atlasīšanas laikā turiet nospiestu taustiņu Ctrl. Kad esat beidzis atlasīt atskaites, noklikšķiniet uz **Labi**.
@@ -61,7 +61,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2. Veiciet dubultklikšķi uz pārskata grupas, lai modificētu to.
 3. Cilnē **Atskaišu grupa** veiciet nepieciešamās izmaiņas.
-4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Saglabāt").
+4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt](media/save.gif "Saglabāt").
 
 > [PIEZĪME] Ja esat ieplānojis atskaites, lai tās tiktu ģenerētas noteiktos intervālos, varat ignorēt šos iestatījumus un ģenerēt atskaiti nekavējoties.
 
@@ -69,7 +69,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2. Atveriet pārskata grupu, lai izveidotu.
-3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Ģenerēt pārskatu"), lai ģenerētu pārskatus.
+3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu](media/generate-report.gif "Ģenerēt pārskatu"), lai ģenerētu pārskatus.
 
 ### <a name="delete-a-report-group"></a>Grupas pārskata dzēšana
 

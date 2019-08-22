@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9b9533ae650c05f57a45be25aec6cbe2e3db76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551464"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849871"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotnes Izmaksu uzskaites analīze drošības iestatīšana
 
@@ -63,4 +63,4 @@ Ja tiek veikti moduļa Izmaksu uzskaite piekļuves līmeņa drošības atjaunin�
 Mēs pieņemam, ka jūsu organizācija vēlas ierobežot datu piekļuvi. Ja, izpildot moduli Izmaksu uzskaite, kāda iemesla dēļ ir atspējoti drošības parametri, tā vietā īpašniekam ir jāpievieno lietotāji lomai **Izmaksu grāmatvedis** pakalpojumā Power BI. Ja maināt drošību no iespējota stāvokļa uz atspējotu stāvokli, ieteicams noņemt lietotājus no lomas **Izmaksu objekta kontrolieris**. Drošības atkārtotas iespējošanas gadījumā ieteicams veikt pretējas darbības. Lietotājiem var būt abas lomas. Kopīga piekļuve ir abu lomu apvienojums. Power BI satura pakotnes **Izmaksu uzskaites analīze** gadījumā lietotāji, kuriem ir piešķirta kopīga piekļuve, var piekļūt datiem bez ierobežojumiem. Ja jūsu mērķis ir īstenot ierobežotu piekļuvi, lietotājiem ir jāpiešķir tikai loma **Izmaksu objekta kontrolieris**. Šie rindas līmeņa drošības atjauninājumi stājas spēkā nekavējoties. Ietekmētajiem lietotājiem ir jāatsvaidzina pārlūkprogrammas.
 
 ## <a name="additional-resources"></a>Papildu resursi
-Papildinformāciju par Power BI rindas līmeņa drošību skatiet rakstā [Modeļa drošības pārvaldība modelim pakalpojumā Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Papildinformāciju par Power BI rindas līmeņa drošību skatiet rakstā [Modeļa drošības pārvaldība modelim pakalpojumā Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).

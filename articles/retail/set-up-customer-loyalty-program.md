@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 94f8cf5b5753c530c42327e251a2102b876c1c8a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606876"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863776"
 ---
 # <a name="loyalty-overview"></a>Lojalitātes programmas apskats
 
@@ -83,15 +83,15 @@ Kā daļu no 2018. gada oktobra laidiena programma Retail ir ieguvusi jaunu loj
     > [!NOTE]
     > Lojalitātes shēmā ietvertās nopelnīšanas kārtulas ir papildinošas. Piemēram, ja ir izveidota kārtula zelta pakāpes dalībniekam kā atlīdzību piešķirt 10 punktus par katru ASV dolāru, un ja ir izveidota arī kārtula klientam ar piederību “veterāns” kā atlīdzību piešķirt 5 punktus par katru ASV dolāru, tad veterāns, kurš ir arī dalībnieks ar zelta pakāpi, nopelnītu 15 punktus par 1 ASV dolāru, jo šis klients ir kvalificēts abām rindām. Taču, ja klients–veterāns nebūtu zelta pakāpes dalībnieks, šis klients nopelnītu 5 punktus par katru dolāru. Lai atspoguļotu izmaiņas kanālos, palaidiet darbu **Apstrādāt lojalitātes shēmas** un **1050** (informācija par lojalitātes programmu).
     
-    ![Uz piederību balstīta pelnīšana](./media/Affiliation%20based%20earning.png "Uz piederību balstīta pelnīšana")
+    ![Uz piederību balstīta pelnīšana](./media/Affiliation-based-earning.png "Uz piederību balstīta pelnīšana")
 
 - Mazumtirgotājiem bieži vien ir īpašas cenas noteiktai klientu grupai, kuriem mazumtirgotāji nevēlas piemērot lojalitātes programmas. Šāda grupa varētu būt, piemēram, vairumtirgotāji vai darbinieki, kas saņem īpašu izcenojumu un lojalitātes programmas punktus. Parasti “piederības” tiek izmantotas, lai šādām klientu grupām nodrošinātu īpašu izcenojumu. Lai noteiktām klientu grupām liegtu iespēju pelnīt lojalitātes programmas punktus, mazumtirgotājs var norādīt vienu vai vairākas piederības savas lojalitātes programmas shēmas sadaļā **Izslēgtās piederības**. Tādējādi, ja klienti, kas ir ietverti kādā izslēgtā piederībā, ir pastāvošas lojalitātes programmas dalībnieki, viņi nevarēs nopelnīt lojalitātes programmas punktus par saviem pirkumiem. Lai atspoguļotu izmaiņas kanālos, palaidiet darbu **Apstrādāt lojalitātes shēmas** un **1050** (informācija par lojalitātes programmu).
 
-    ![Izslēgtās piederības](./media/Excluded%20affiliations.png "Piederību izslēgšana no lojalitātes programmas punktu pelnīšanas")
+    ![Izslēgtās piederības](./media/Excluded-affiliations.png "Piederību izslēgšana no lojalitātes programmas punktu pelnīšanas")
     
 - Mazumtirgotāji var ģenerēt lojalitātes programmas karšu numurus kanālos. Pirms 2018. gada oktobra atjauninājuma mazumtirgotāji varēja izmantot fiziskas lojalitātes kartes vai ģenerēt lojalitātes karti, izmantojot unikālu informāciju par klientu, piemēram, tālruņa numuru. Lai iespējotu lojalitātes programmas karšu automātisko ģenerēšanu mazumtirdzniecības veikalos, ar veikalu saistītajā funkcionalitātes profilā ieslēdziet opciju **Ģenerēt lojalitātes programmas kartes numuru**. Lai izsniegtu lojalitātes programmas kartes klientiem tiešsaistes kanālos, mazumtirgotāji var izmantot IssueLoyaltyCard API. Mazumtirgotāji var nodrošināt šim API lojalitātes programmas kartes numuru, kas tiks izmantots lojalitātes programmas kartes ģenerēšanai, vai arī sistēma izmanto programmā Dynamics 365 for Retail iestatīto lojalitātes programmas karšu numuru sēriju. Taču, ja API izsaukšanas laikā nav nevienas numuru sērijas un mazumtirgotājs nenorāda lojalitātes programmas kartes numuru, tiek parādīta kļūda.
 
-    ![Lojalitātes programmas kartes ģenerēšana](./media/Generate%20loyalty%20card.png "Lojalitātes programmas kartes numura automātiska ģenerēšana")
+    ![Lojalitātes programmas kartes ģenerēšana](./media/Generate-loyalty-card.png "Lojalitātes programmas kartes numura automātiska ģenerēšana")
 
 - Nopelnītie un izpirktie lojalitātes programmas punkti tagad tiek saglabāti par katru transakciju un pārdošanas pasūtījumu attiecībā pret pārdošanas rindu, tādēļ pilnīgas vai daļējas preču atgriešanas gadījumā var atlīdzināt vai atņemt to pašu summu. Turklāt šī punktu redzamība pārdošanas rindas līmenī sniedz iespēju zvanu centra lietotājiem atbildēt uz klientu jautājumiem par to, cik punktu katrai rindai tika nopelnīti vai izpirkti. Pirms šo izmaiņu ieviešanas atlīdzības punkti vienmēr tika pārrēķināti preču atgriešanas laikā, tādēļ tika iegūta no sākotnējās atšķirīga summa, ja nopelnīšanas vai izpirkšanas kārtulas bija mainītas, un zvanu centra lietotājiem nebija redzams punktu sadalījums. Punktus katrai lojalitātes programmas kartei var apskatīt formā **Karšu transakcijas**. Lai iespējotu šo līdzekli, ieslēdziet konfigurācijas opciju **Grāmatot lojalitātes punktus par katru pārdošanas rindu** cilnē **Mazumtirdzniecības koplietojamie parametri** \> **Vispārīgi**.
 
@@ -100,26 +100,26 @@ Kā daļu no 2018. gada oktobra laidiena programma Retail ir ieguvusi jaunu loj
 
 - Tagad mazumtirgotāji var definēt piešķiršanas periodu katram atlīdzības punktam. Piešķiršanas perioda konfigurācijas definē laiku, cik ilgi pēc nopelnīšanas datuma atlīdzības punkti kļūst pieejami klientiem. Nepiešķirtos punktus var skatīt lapas **Lojalitātes programmas kartes** kolonnā **Nepiešķirtie punkti**. Turklāt mazumtirgotāji var definēt maksimālo lojalitātes programmas atlīdzības punktu ierobežojumu vienai lojalitātes programmas kartei. Šo lauku var izmantot, lai samazinātu lojalitātes programmas krāpšanas ietekmi. Kad ir sasniegts maksimālais piešķiramo punktu skaits, lietotājs nevar nopelnīt vairāk punktu. Mazumtirgotājs var izlemt bloķēt šādas kartes, līdz ir veikta izmeklēšana par potenciālu krāpšanu. Ja mazumtirgotājs konstatē krāpšanu, mazumtirgotājs var ne tikai bloķēt šī klienta lojalitātes programmas karti, bet var arī atzīmēt kā bloķētu pašu klientu. Lai to izdarītu, kopsavilkuma cilnes **Mazumtirdzniecība** sadaļā **Visi debitori** rekvizītu **Bloķēt klientam reģistrēšanos lojalitātes programmā** iestatiet uz **Jā**. Bloķētajiem klientiem nevarēs izsniegt lojalitātes programmas karti nevienā no kanāliem.
 
-    ![Atlīdzības punktu piešķiršana un maksimālais skaits](./media/Vesting%20and%20maximum%20reward%20points.png "Atlīdzības punktu piešķiršanas un maksimālā skaita definēšana")
+    ![Atlīdzības punktu piešķiršana un maksimālais skaits](./media/Vesting-and-maximum-reward-points.png "Atlīdzības punktu piešķiršanas un maksimālā skaita definēšana")
 
 - Piederības tiek izmantotas, lai nodrošinātu īpašu izcenojumu un atlaides, bet pastāv dažas piederības, kuras mazumtirgotāji nevēlaties rādīt saviem klientiem. Piemēram, dažiem klientiem varētu nepatikt piederība ar nosaukumu “Daudz tērējošs klients”. Turklāt pastāv dažas piederības, ko nevajadzētu pārvaldīt veikalā, piemēram, piederību “darbinieki”, jo jūs nevēlaties, lai kasieri varētu izlemt, kurš ir darbinieks, līdz ar to piešķirot uz darbinieka statusu balstītas atlaides. Tagad mazumtirgotāji var atlasīt piederības, kuras mazumtirdzniecības kanālos būtu jāslēpj. Piederības, kas ir atzīmētas kā **Slēpt kanālos**, nevar skatīt, pievienot vai noņemt pārdošanas punktos (POS). Taču precēm tik un tā tiek izmantoti ar piederību saistītie izcenojumi un atlaides.
 
-    ![Piederību slēpšana](./media/Hide%20affiliations.png "Piederību slēpšana kanālos")
+    ![Piederību slēpšana](./media/Hide-affiliations.png "Piederību slēpšana kanālos")
     
 - Zvanu centra lietotāji tagad var vienkāršāk meklēt klientu, izmantojot informāciju par klienta lojalitātes programmas karti, un pāriet uz klienta lojalitātes programmas kartes un lojalitātes programmas transakciju lapām no lapas **Klientu apkalpošana**.
 
-    ![Klientu apkalpošana](./media/Customer%20service.png "Klienta lojalitātes programmas informācijas atrašana")
+    ![Klientu apkalpošana](./media/Customer-service.png "Klienta lojalitātes programmas informācijas atrašana")
     
 - Ja lojalitātes programmas karte ir bojāta, ir nepieciešams ģenerēt aizstāšanas karti un esošos punktus pārsūtīt uz jauno karti. Šajā laidienā aizstāšanas kartes plūsma ir vienkāršota. Turklāt klienti dažus vai visus savus lojalitātes programmas punktus var dāvināt draugiem un ģimenes locekļiem. Kad punkti tiek pārsūtīti, katrai lojalitātes programmas kartei tiek izveidoti punktu korekcijas ieraksti. Aizstāšanas kartes un pārsūtīšanas bilances funkcionalitātei var piekļūt no lapas **Lojalitātes programmas kartes**.
 
-    ![Aizstāšana un punktu pārsūtīšana](./media/Replace%20and%20transfer%20points.png "Lojalitātes programmas kartes aizstāšana vai bilances pārsūtīšana")
+    ![Aizstāšana un punktu pārsūtīšana](./media/Replace-and-transfer-points.png "Lojalitātes programmas kartes aizstāšana vai bilances pārsūtīšana")
     
 - Mazumtirgotājiem var būt nepieciešamība tvert informāciju par konkrēta kanāla efektivitāti attiecībā uz klientu reģistrēšanu lojalitātes programmā. Tagad tiek saglabāts lojalitātes programmu karšu reģistrācijas avots, tādēļ mazumtirgotāji var izmantot šos datus pārskatiem. Reģistrācijas avots tiek automātiski tverts visām izsniegtajām lojalitātes programmas kartēm no MPOS/CPOS vai e-komercijas kanāliem. Lojalitātes programmas kartēm, kas tiek izsniegtas no dokumentu apstrādes biroja programmas, zvanu centra lietotājs var atlasīt atbilstošu kanālu.
 - Iepriekšējos laidienos mazumtirgotāji varēja izmantot MPOS/CPOS, lai izpirktu lojalitātes programmas punktus klientiem veikalā. Taču, tā kā lojalitātes programmas bilance tiek rādīta kā lojalitātes punktu skaits, šajos laidienos kasieris nevarēja redzēt valūtas vērtību tai summai, ko varētu lietot attiecībā uz pašreizējo transakciju. Pirms lojalitātes programmas punktu izmaksāšanas kasierim šie punkti bija jākonvertē valūtā. Pašreizējā laidienā, kad rindas ir pieskaitītas transakcijai, kasieris var redzēt, kādu lojalitātes programmas punktu summu var izmantot pašreizējās transakcijas segšanai, tādēļ transakcijai var ērti lietot dažus vai visus lojalitātes programmas punktus. Turklāt kasieris var redzēt punktus, kuru derīgums beigsies nākamo 30 dienu laikā, tādēļ kasieris var veikt papildu pārdošanu un šķērspārdošanu, lai motivētu klientu transakcijā iztērēt punktus, kam beidzas derīguma termiņš.
 
-    ![Ar lojalitātes programmas punktiem segtā bilance](./media/Points%20covered%20by%20loyalty%20balance.png "Ar lojalitātes programmas punktiem segtās bilances rādīšana")
+    ![Ar lojalitātes programmas punktiem segtā bilance](./media/Points-covered-by-loyalty-balance.png "Ar lojalitātes programmas punktiem segtās bilances rādīšana")
 
-    ![Punkti, kam beidzas derīguma termiņš](./media/Expiring%20points.png "Derīguma termiņam tuvojošos punktu skatīšana")
+    ![Punkti, kam beidzas derīguma termiņš](./media/Expiring-points.png "Derīguma termiņam tuvojošos punktu skatīšana")
 
 - Versijas 8.1.3 laidienā zvanu centra kanālā ir iespējota opcija Maksāt ar lojalitātes programmas punktiem. Lai iespējotu šo opciju, izveidot lojalitātes programmas norēķinu veidu un saistiet to ar zvanu centru. 
 

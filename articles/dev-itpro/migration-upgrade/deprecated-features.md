@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624911"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863387"
 ---
 # <a name="removed-or-deprecated-features"></a>Noņemtie vai novecojušie līdzekļi
 
@@ -40,10 +40,32 @@ ms.locfileid: "1624911"
 
 > Detalizēta informācija par Finance and Operations objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations versijā.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 ar 29. platformas atjauninājumu
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 ar 29. platformas atjauninājumu pieejama noteiktiem lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>ASV algas nodokļa atjauninājumi
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs pārtraucam nodokļu atjauninājumus ASV algu funkcionalitātei sakarā ar zemu lietojuma līmeni un uzlabotu funkcionalitāti, kas tagad tiek piedāvāta, izmantojot stratēģiskās integrācijas.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Alga |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: mēs plānojam līdz 2021. gada 1. oktobrim vairs nenodrošināt nodokļu atjauninājumus ASV algas klientiem. Funkcionalitāte paliks precē, tomēr uzlabojumi vairs neatjauninās šo funkcionalitāti, un visi preces defekti tiks izvērtēti katrā gadījumā atsevišķi. Papildinformāciju skatiet rakstā [Nodokļu atjauninājumu pārtraukšana līdzeklim ASV alga programmā Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Datu pārvaldības sagatavošanas iztīrīšana
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Neatbilst pamata prasībām, kas nepieciešamas periodiskas tīrīšanas plānošanai. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, līdzeklis Darba vēstures tīrīšana tiek pievienots, lai izpildītu scenārijus kopumā. |
+| **Ietekmētie produkta apgabali**         | Datu pārvaldība |
+| **Izvietošanas iespēja**              | Visus  |
+| **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada decembris. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francija: FEC uzskaites datu eksports XML formātā
 
@@ -280,7 +302,7 @@ Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pako
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
-| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām lietojumprogrammām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība, Finanses un Retail                                                                                               |
 | **Izvietošanas iespēja**              | Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)                                                                                                            |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.    |
@@ -1235,7 +1257,7 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 
 ### <a name="virtual-company-accounts"></a>Virtuālie datu faili
 
-Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
+Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
 
 |   |  | 
 |------------|--------------------|

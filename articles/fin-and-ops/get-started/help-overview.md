@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625333"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850870"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations palīdzības sistēma
 
@@ -99,7 +99,7 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 
 Varat veikt papildinājumus un rediģējumus Finance and Operations dokumentācijā. Lai sāktu darbu, tēmā noklikšķiniet uz pogas **Rediģēt** (zīmulis) vai doties uz mūsu repozitoriju šeit: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Tālāk redzamajā videoklipā ir parādīts, kā varat papildināt mūsu dokumentāciju.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 Videoklips [Kā papildināt Microsoft Dynamics 365 dokumentāciju](https://youtu.be/m5djioozRbg) (parādīts iepriekš) ir iekļauts sadaļā [Jaunumi Dynamics 365 atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9), kas pieejama vietnē YouTube.
 
