@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
-    - name: Darba sākšana
+    - name: Dynamics 365 for Finance and Operations dokumentācija
+      href: index.md
+    - name: Sākt darbu
       items:
         - name: Pirms iegādes
-          href: get-started/before-you-buy.md
           items:
+            - name: Mājas lapa “Pirms iegādes”
+              href: get-started/before-you-buy.md
             - name: Reģistrācija priekšskatījuma abonementam
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Demonstrācijas vides izvietošana
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Mākoņa un lokālās versijas līdzekļu salīdzinājums
               href: get-started/cloud-prem-comparison.md
-            - name: Izvietošanas opcijas
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: Izvietošanas apsvērumi
               items:
+                - name: Izvietošanas opcijas
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: Mākoņa izvietošana
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Sistēmas prasības mākoņa izvietojumiem
@@ -36,8 +39,9 @@
                 - name: Finance and Operations (on-premises) iegāde
                   href: get-started/purchase-on-premises.md
         - name: Jaunumi un izmaiņas
-          href: get-started/whats-new-changed.md
           items:
+            - name: Mājas lapa “Jaunumi un izmaiņas”
+              href: get-started/whats-new-changed.md
             - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Noņemtie vai novecojušie līdzekļi
@@ -140,6 +144,8 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: Lietotāja interfeisa izpēte
           items:
+            - name: Lietotāja interfeisa elementi
+              href: get-started/user-interface-elements.md
             - name: Pieejamības līdzekļi
               href: get-started/accessibility-features.md
             - name: Līdzekļu pārvaldības pārskats
@@ -197,8 +203,9 @@
         - name: Video programmai Finance and Operations
           href: get-started/videos.md
     - name: Īstenošanas cikla pārvaldība
-      href: imp-lifecycle/implementation-lifecycle.md
       items:
+        - name: Īstenošanas cikla pārvaldības sākumlapa
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: Finance and Operations arhitektūra
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Vienas versijas pakalpojuma atjauninājumi
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: Vienas versijas pakalpojuma atjauninājumu pārskats
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
           href: get-started/one-version.md
         - name: "Programmatūras dzīves cikla politika\_— mākonī"
@@ -246,17 +254,12 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: 'ISV risinājumu nodrošināšana, izmantojot vienu versiju'
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Testu automatizēšana
-          items:
-            - name: Piemērotības lietotājiem testu izveide un automatizēšana
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Regression Suite Automation Tool apmācības iestatīšana
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: Regression Suite Automation Tool apmācības izmantošana
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: Piemērotības lietotājiem testu izveide un automatizēšana
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: Biznesa notikumi
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: Biznesa notikumu pārskats
+          href: ../dev-itpro/business-events/home-page.md
         - name: Programmas biznesa notikumi
           href: ../dev-itpro/business-events/app-business-events.md
         - name: Darbplūsmas biznesa notikumi
@@ -273,22 +276,34 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: Apmācība
           items:
-            - name: Biznesa notikumu patērēšana ar Microsoft Flow
+            - name: Biznesa notikumi un Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: 'Patērēt biznesa notikumus, izmantojot Azure Event Grid'
+            - name: Biznesa notikumi un Azure Event Grid
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: 'Patērēt biznesa notikumus, izmantojot Azure Service Bus'
+            - name: Biznesa notikumi un Azure Service Bus
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: Patērēt darbplūsmas apstiprināšanas biznesa notikumus
+            - name: Biznesa notikumi un darbplūsmu apstiprinājumi
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: Izmantot Microsoft Forms Pro ar biznesa notikumiem
+            - name: Biznesa notikumi un Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: Izmaksu pārvaldība
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: Biznesa notikumi un Azure Event Hubs
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: Atbilstība
       items:
+        - name: Audita ierobežojuma nosacījumi
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: Audita ierobežojuma nosacījumu pārkāpumi un gadījumi
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: Pirmdokumentu audita ierobežojuma nosacījumu definēšana
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: Izmaksu pārvaldība
+      items:
+        - name: Izmaksu pārvaldības sākumlapa
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: Standarta izmaksu priekšnosacījumi
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
+            - name: Standarta izmaksu priekšnosacījumu pārskats
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: Standarta izmaksu konvertēšanas apskats
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: Standarta izmaksu konvertēšanas priekšnosacījums
@@ -308,8 +323,9 @@
             - name: Sagatavošanās ražoto krājumu standarta izmaksu saglabāšanai
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
         - name: Izmaksu aprēķināšanas versijas
-          href: ../supply-chain/cost-management/costing-versions.md
           items:
+            - name: Izmaksu aprēķināšanas versiju pārskats
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: Izmaksu aprēķināšanas lapas
               href: ../supply-chain/cost-management/costing-sheets.md
             - name: 'Izmaksu izmaiņu simulēšana, plānotajām izmaksām izmantojot izmaksu novērtēšanas versiju'
@@ -397,8 +413,9 @@
             - name: Datu pārvaldības pakotnes REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Pakalpojumu galapunkti
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Pakalpojumu galapunktu apskats
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: Pakalpojumu autentifikācijas problēmu novēršana
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: Izstrāde integrācijai
           items:
             - name: 'Datu integrācija, izmantojot datu elementus'
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: 'Datu integrācijas, izmantojot datu elementus, pārskats'
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: Elementa izstrāde datu migrēšanai
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: Salikto datu elementu izstrāde
@@ -428,7 +446,7 @@
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: 'Datu integrācija, izmantojot Common Data Service'
               items:
-                - name: Datu integrācijas pārskats
+                - name: 'Datu integrācijas, izmantojot Common Data Service, pārskats'
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: Sinhrona divvirzienu integrācija
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: Asinhrona vienvirziena integrācija
                   items:
-                    - name: No potenciālā klienta līdz skaidrai naudai
+                    - name: Scenārija “No potenciālā klienta uz skaidru naudu” konfigurēšana
                       items:
-                        - name: Scenārija “No potenciālā klienta uz skaidru naudu” konfigurēšana
+                        - name: No potenciālā klienta līdz skaidrai naudai
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: Integrācijas konfigurēšana ar Field Service
                       items:
-                        - name: Integrācijas konfigurēšana ar Field Service
+                        - name: Integrācijas konfigurēšanas ar Field Service pārskats
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmā Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: Project Service Automation integrācijas konfigurēšana
                       items:
-                        - name: Project Service Automation integrācijas konfigurēšana
+                        - name: Project Service Automation pārskats
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: Project Service Automation integrācijas parametri
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: Elektroniskā ziņojumapmaiņa
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Datu pārvaldība
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Pārskats par datu pārvaldību
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Datu elementi
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Datu elementu pārskats
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
             - name: Konfigurācijas datu projekti
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: Konfigurācijas datu kopēšana starp uzņēmumiem vai juridiskajām personām
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Konfigurācijas datu kopēšanas pārskats
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: Konfigurācijas datu pakotnes
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
@@ -538,8 +559,9 @@
             - name: Konfigurācijas datu pakotnes
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Datu importēšanas un eksportēšanas darbi
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Datu importēšanas un eksportēšanas darbu pārskats
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: 'Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu'
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Datu elementu izstrāde
@@ -581,16 +603,19 @@
         - name: Datu pārvaldības kļūdu apraksti
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Finanšu pārvaldība
-      href: ../financials/index.md
       items:
+        - name: Finanšu pārvaldības sākumlapa
+          href: ../financials/index.md
         - name: Kreditori
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
+            - name: Moduļa “Parādi kreditoriem” sākumlapa
+              href: ../financials/accounts-payable/accounts-payable.md
             - name: Kreditoru rēķinu pārskats
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Parādu kreditoriem konfigurēšana
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: Moduļa “Kreditori” konfigurēšanas pārskats
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: 'Rēķinu datu ievade kreditoru modulī, izmantojot kreditora rēķinu'
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: 'Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu'
@@ -604,8 +629,9 @@
             - name: Trīsvirzienu atbilstības ierobežojumi
               href: ../financials/accounts-payable/three-way-matching-policies.md
             - name: Rēķinu salīdzināšana modulim “Parādi kreditoriem”
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
               items:
+                - name: Rēķinu salīdzināšana modulim “Kreditori”
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
                 - name: Kreditoru moduļa rēķinu salīdzināšanas pārbaudes iestatīšana
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem
@@ -625,8 +651,9 @@
             - name: Kreditora darbplūsma
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: Neatbilstību atrisināšana rēķinu kopsummu salīdzināšanas laikā
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: Neatbilstību atrisināšanas rēķinu kopsummu salīdzināšanas laikā pārskats
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Izņēmumu izpēte vai atrisināšana
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: Kreditoru grāmatošanas metodes
@@ -688,8 +715,9 @@
                 - name: Kreditora darbību saraksta lapa
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Debitori
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: Moduļa “Debitoru parādi” sākumlapa
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: Kredīts un iekasēšana modulī “Debitoru parādi”
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: Moduļa “Debitoru parādi” un kredītu un iekasēšanas konfigurēšana
@@ -783,8 +811,9 @@
                 - name: Debitora darbību saraksta lapa
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Budžeta veidošana
-          href: ../financials/budgeting/budgeting-overview.md
           items:
+            - name: Budžeta veidošanas sākumlapa
+              href: ../financials/budgeting/budgeting-overview.md
             - name: Budžeta plānošanas apskats
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: Budžeta kontroles apskats
@@ -807,9 +836,10 @@
               href: ../financials/budgeting/budget-planning-data-allocation.md
             - name: Budžeta plānošanas integrācija ar citiem moduļiem
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Kases un bankas pārvaldība
-          href: ../financials/cash-bank-management/cash-bank-management.md
+        - name: Kases un bankas vadība
           items:
+            - name: Kases un bankas vadības sākumlapa
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: Naudas plūsmas prognozēšana
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Bankas pārvaldības darbvieta
@@ -885,8 +915,9 @@
                 - name: Bankas žurnāla salikto elementu atjaunināšana
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Izmaksu uzskaite
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: Izmaksu uzskaites sākumlapa
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: Izmaksu uzskaites terminoloģija
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: 'Finanšu kalendāri, finanšu gadi un periodi'
@@ -958,8 +989,9 @@
             - name: Izmaksu kontroles darbvietas izmantošana Finance and Operations mobilajai programmai
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: Izdevumu pārvaldība
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: Pārskats par izdevumu pārvaldību
+              href: ../financials/expense-management/expense-management.md
             - name: Izdevumu pārskati jaunā izskatā
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Plānoto izdevumu pārvaldība
@@ -995,8 +1027,9 @@
             - name: Personiskie izdevumi attiecīgā izdevumu pārskatā
               href: ../financials/expense-management/personal-expenses.md
         - name: Pamatlīdzekļi
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Pamatlīdzekļu sākumlapa
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: Pamatlīdzekļa izveide
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: Pamatlīdzekļa papildinājuma ievadīšana
@@ -1100,15 +1133,187 @@
                 - name: Lietošanas ilguma lineārā aprēķināšanas metode
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Virsgrāmata
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: Virsgrāmatas pārskats
+              href: ../financials/general-ledger/general-ledger.md
+            - name: Konti
+              items:
+                - name: Uzkrājumu apskats
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Korekcijas kārtulas
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Konta un dimensiju kombinācijas
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Saskaņoti starpvienību uzskaites žurnāli
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Grāmatošanas definīcijas
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: Grāmatošanas definīciju piemēri
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Virsgrāmatas kontu bilances
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Finanšu dimensiju definēšana
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Finanšu dimensijas noklusējuma veidņu uzturēšana
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Kontu struktūru izveide
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Finanšu dimensijas un grāmatošana
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: Uzkrāšanas shēmu izveide
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Finanšu konsolidācijas un valūtas pārrēķināšana
+                  items:
+                    - name: Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: Konsolidēt tiešsaistē
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Konsolidētu finanšu pārskatu ģenerēšana
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Konsolidācijas grupu un papildu konsolidācijas konta izveide
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Galvenā konta tipi
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Galvenā konta izveide
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Sava kontu plāna plānošana
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Transakciju nosegšana starp virsgrāmatas kontiem
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Virsgrāmatas konta aizstājvārda iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Galvenā konta kategoriju iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Uzskaites avota pārlūks
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Uzskaites sadales
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Sadalījumu apstrādāšana
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Finanšu dimensijas
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Konvertēt grāmatvedības vai pārskatu valūtas
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Konsolidācijas kontu grupas un konti
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolidēšanas un koriģēšanas apskats
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Finanšu kalendāri, finanšu gadi un periodi'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Kontu struktūru konfigurēšana
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: Divkāršā valūta
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: Žurnāli un virsgrāmatas
+              items:
+                - name: Virsgrāmatas žurnāla apstrāde
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Periodisko žurnālu grāmatošana
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Virsgrāmatas sadalījumu žurnāla apstrāde
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Starpuzņēmumu uzskaites iestatīšana
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Virsgrāmatas sadalījuma kārtulas
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Žurnālu papildu kārtulu izveide
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Papildu kārtulu struktūru izveide un piešķiršana
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Virsgrāmatas žurnālu tipi
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Žurnālu izveide un validēšana
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Žurnālu ierakstu vai transakciju skatīšana
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: 'Žurnāla ieraksta izveide, izmantojot veidni'
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Virsgrāmatas uzkrājumu transakciju izveide
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Žurnālu rindu un dokumentu publicēšana no Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Žurnālu ierakstu un transakciju skatīšana
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Žurnālā grāmatoto ierakstu reģistrēšana žurnālā
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valūtas pārvērtēšana konsolidācijas uzņēmumā
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Ārvalstu valūtas pārvērtēšana virsgrāmatai
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valūtas maiņas kursu importēšana
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Viens dokuments
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: Virsgrāmatas norēķini
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: Perioda beigu slēgšana
+              items:
+                - name: Virsgrāmatas slēgšana perioda beigās
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Finanšu perioda slēgšanas darbvieta
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Gada beigu slēgšana
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Finanšu gada slēgšana
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Masveida finanšu periodu slēgšana
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: PVN
+              items:
+                - name: PVN apskats
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: 'PVN likmes, balstoties uz aprēķina pamatu un aprēķināšanas metodēm'
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: PVN maksājumi un noapaļošanas kārtulas
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: PVN aprēķināšanas metodes laukā Izcelsme
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: PVN aprēķināšana un koriģēšana kreditora rēķinā
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: PVN maksājuma izveide
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: PVN transakciju izveide dokumentos
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Virsgrāmatas PVN grāmatošanas grupu iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: PVN iestāžu iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: PVN kodu iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: PVN grupu un krājumu PVN grupu iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: PVN pārskatu kodu iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: PVN apmaksas periodu iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Ieturētā nodokļa iestatīšana
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Grāmatoto PVN transakciju skatīšana
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: Audita rīks
+              items:
+                - name: Audita ierobežojuma nosacījumi
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: Audita ierobežojuma nosacījumu pārkāpumi un gadījumi
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: Pirmdokumentu audita ierobežojuma nosacījumu definēšana
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Publiskais sektors
+          items:
+            - name: Publiskā sektora sākumlapa
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: Plāns publiskā sektora funkcionalitātei
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Publiskā sektora maksājumu atskaites titullapas un parakstu lapu izveide
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Modulis “Parādi kreditoriem” publiskajā sektorā
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: Moduļa “Kreditori” publiskajā sektorā pārskats
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: Pirkšanas pasūtījumu kodi publiskajā sektorā
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: Publiskā sektora tirdzniecības partnera koda izveide un piešķiršana
@@ -1130,8 +1335,9 @@
                 - name: Publiskā sektora pirkšanas līgumu klasifikāciju iestatīšana
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Modulis “Debitoru parādi” publiskajā sektorā
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: Moduļa “Debitoru parādi” publiskajā sektorā pārskats
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: Rēķinu klasificēšana un norēķinu kodi publiskajā sektorā
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: Publiskā sektora rēķinu klasifikācijas izveide
@@ -1145,8 +1351,9 @@
                 - name: Kompensācijas publiskajā sektorā
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: Budžeta veidošana publiskajā sektorā
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Budžeta veidošanas publiskajā sektorā pārskats
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: Sākotnēja budžeta izveide un publiskā sektora provizoriskā budžeta ierakstu apgriešana
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Publiskā sektora provizoriskā budžeta izveide
@@ -1172,8 +1379,9 @@
             - name: Pamatlīdzekļi publiskajā sektorā
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Virsgrāmata publiskajā sektorā
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: Virsgrāmatas publiskajā sektorā pārskats
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: Papildu virsgrāmatas ieraksti publiskajā sektorā
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: Papildu publiskā sektora virsgrāmatas ieraksta izveide
@@ -1199,8 +1407,9 @@
             - name: Sertifikācijas veida pievienošana publiskā sektora kreditoram
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Finanšu pārskatu veidošana
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
+            - name: Finanšu pārskatu veidošanas apskats
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
             - name: Finanšu pārskatu veidošanas apskats
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: Finanšu pārskata komponenti
@@ -1236,24 +1445,27 @@
         - name: Elektroniskā ziņojumapmaiņa
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Globalizācija
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Globalizācijas resursi
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: Normatīvie atjauninājumi
           href: ../financials/localizations/regulatory-updates.md
         - name: Austrālija
-          href: ../financials/localizations/australia.md
           items:
+            - name: Austrālijas pārskats
+              href: ../financials/localizations/australia.md
             - name: Saimnieciskās darbības pārskats (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
-            - name: Atskaišu lodziņu pievienošana un BAS ģenerēšana
+            - name: Pārskatu lodziņu pievienošana un BAS ģenerēšana
               href: ../financials/localizations/tasks/add-bas-report-boxes.md
             - name: Pamatlīdzekļu nolietojuma aprēķina metode
               href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
             - name: SDP iemeslu kodu iestatīšana
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: Austrija
-          href: ../financials/localizations/austria.md
           items:
+            - name: Austrijas pārskats
+              href: ../financials/localizations/austria.md
             - name: Papildu iegādes nolietojums par pusgadu
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: Iepakojuma materiālu maksas
@@ -1261,8 +1473,9 @@
             - name: PVN deklarācija
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: Beļģija
-          href: ../financials/localizations/belgium.md
           items:
+            - name: Beļģijas pārskats
+              href: ../financials/localizations/belgium.md
             - name: CODA bankas izraksts
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: Transakciju izveide un pārsūtīšana uz BLWI
@@ -1276,13 +1489,15 @@
             - name: PRODCOM iestatīšana un uzturēšana
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: Brazīlija
-          href: ../financials/localizations/brazil.md
           items:
+            - name: Brazīlijas pārskats
+              href: ../financials/localizations/brazil.md
             - name: Lokalizācijas joma
               href: ../financials/localizations/latam-bra-scope.md
             - name: Finanšu grāmatas
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: Brazīlijas finanšu grāmatu pārskats
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: Finanšu grāmatu konfigurēšana
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: ICMS nodokļa finanšu dokumenti
@@ -1350,8 +1565,9 @@
                 - name: Projekta debeta notas
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: NF-e process
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: Brazīlijas NF-e procesa pārskats
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: NF-e finanšu dokumentu automātiska pārsūtīšana
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: "Apstiprinātu NF-e e-pasta ziņojumu ģenerēšana un DANFE PDF\_failu un NF-e XML\_failu pievienošana e-pasta ziņojumiem"
@@ -1397,8 +1613,9 @@
             - name: Debitoru maksājumu procentu un soda naudas aprēķins
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: Nodokļi
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: Brazīlijas nodokļu pārskats
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: Pirkšanas piedāvājumu nodokļu aprēķins
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: "Ar nodokli apliekamās vērtības izveide\_— ICMS"
@@ -1444,8 +1661,9 @@
                 - name: Ieturētie nodokļi par kreditoru maksājumiem
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: Ķīna
-          href: ../financials/localizations/china.md
           items:
+            - name: Ķīnas pārskats
+              href: ../financials/localizations/china.md
             - name: "Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: Materiālu komplektu salīdzinājums
@@ -1485,8 +1703,9 @@
             - name: Bieži uzdotie jautājumi par PVN debitoru rēķiniem
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: Čehija
-          href: ../financials/localizations/czech-republic.md
           items:
+            - name: Čehija
+              href: ../financials/localizations/czech-republic.md
             - name: Kredīta nota termiņatlaidei
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: Pamatlīdzekļi
@@ -1514,8 +1733,9 @@
             - name: Gada beigu slēgšana
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Dānija
-          href: ../financials/localizations/denmark.md
           items:
+            - name: Dānijas pārskats
+              href: ../financials/localizations/denmark.md
             - name: Maksājuma kvīts formāta piešķiršana debitora kontam
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: Debitora rēķina izveide un grāmatošana publiskā sektora debitoram
@@ -1539,18 +1759,21 @@
             - name: Maksājumu kvīts formāta iestatīšana
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: Igaunija
-          href: ../financials/localizations/estonia.md
           items:
+            - name: Igaunijas pārskats
+              href: ../financials/localizations/estonia.md
             - name: Personas informācijas pieprasījumi
               href: ../financials/localizations/emea-est-personal-info.md
             - name: PVN deklarācija
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Eiropa
-          href: ../financials/localizations/europe.md
           items:
+            - name: Eiropas pārskats
+              href: ../financials/localizations/europe.md
             - name: Avansa turētāji
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: Avansa turētāju pārskats
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: Avansu turētāju transakcijas
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: Avansa maksājums darbiniekam (Austrumeiropa)
@@ -1606,8 +1829,9 @@
                 - name: 'Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022'
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: Intrastat
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: Intrastat pārskats
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: Transakciju pārsūtīšana uz Intrastat
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: "EK\_iekšējās transakcijas iekraušanas adreses norādīšana"
@@ -1685,8 +1909,9 @@
             - name: Segšanas transakciju skatīšana
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: Francija
-          href: ../financials/localizations/france.md
           items:
+            - name: Francijas pārskats
+              href: ../financials/localizations/france.md
             - name: Publiskais sektors
               items:
                 - name: Publiskā sektora uzskaite
@@ -1740,13 +1965,15 @@
                 - name: Izvietošanas vadlīnijas kases sistēmām
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Vācija
-          href: ../financials/localizations/germany.md
           items:
+            - name: Vācijas pārskats
+              href: ../financials/localizations/germany.md
             - name: Papildu iegādes nolietojums
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: Audita fails
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: Vācijas audita faila pārskats
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: Audita faila konfigurācijas pielāgošana
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: Audita faila ģenerēšana
@@ -1762,8 +1989,9 @@
             - name: Iestatīt elektroniskās nodokļu deklarācijas
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: Ungārija
-          href: ../financials/localizations/hungary.md
           items:
+            - name: Ungārijas pārskats
+              href: ../financials/localizations/hungary.md
             - name: Valūtas maiņas kursa aprēķins
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: Pamatlīdzekļu nolietojuma metodes
@@ -1777,8 +2005,9 @@
             - name: Gada beigu slēgšana
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Islande
-          href: ../financials/localizations/iceland.md
           items:
+            - name: Islandes pārskats
+              href: ../financials/localizations/iceland.md
             - name: Kreditora konta izveide un rēķina deklarācijas kategorijas pievienošana
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: Rēķina deklarācijas iestatīšana kreditoriem
@@ -1788,11 +2017,15 @@
             - name: Kreditora rēķina deklarācijas atjaunināšana un pārskata ģenerēšana
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: Indija
-          href: ../financials/localizations/india.md
           items:
+            - name: Indijas pārskats
+              href: ../financials/localizations/india.md
+            - name: Indijas lokalizāciju tvērums
+              href: ../financials/localizations/apac-ind-scope.md
             - name: Pamatlīdzekļi
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: Indijas pamatlīdzekļu pārskats
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: Dienu kalendāra pievienošana pamatlīdzekļu grāmatai
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: Aprēķināt maiņas nolietojumu
@@ -1816,8 +2049,9 @@
                 - name: Kapitāla līdzekļu pārsūtīšana uz pamatlīdzekļiem
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
             - name: Indija GST
-              href: ../financials/localizations/apac-ind-gst.md
               items:
+                - name: Indijas GST pārskats
+                  href: ../financials/localizations/apac-ind-gst.md
                 - name: Indijas GST atsauces grupas
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: GST integrācija kases sistēmām
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: Izvietošanas vadlīnijas kases sistēmām
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Nodokļu programmas apskats
-              href: ../financials/general-ledger/tax-engine.md
+            - name: Nodokļu programma
               items:
-                - name: Konfigurācijas importēšana
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: Nodokļu programmas piemērojamība
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: Nodokļu programmas integrācija
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: Nodokļu programmas paplašināšana
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: Nodokļu programmas apskats
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: Konfigurācijas importēšana
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: Nodokļu programmas piemērojamība
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: Nodokļu programmas integrācija
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: Nodokļu programmas paplašināšana
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: Bieži uzdotie jautājumi par nodokļu sliekšņiem
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: Krājumu pārskaitījumi
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: Itālija
-          href: ../financials/localizations/italy.md
           items:
+            - name: Itālijas pārskats
+              href: ../financials/localizations/italy.md
             - name: PVN deklarāciju informācija
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: Melnā saraksta pārskats
@@ -1997,8 +2236,9 @@
             - name: Ieturētais nodoklis
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: Japāna
-          href: ../financials/localizations/japan.md
           items:
+            - name: Japānas pārskats
+              href: ../financials/localizations/japan.md
             - name: Pamatlīdzekļa iegāde un valdības dotācijas subsīdiju pieprasīšana
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: Pamatlīdzekļa ar līdzekļu norakstīšanas saistībām iegūšana
@@ -2156,8 +2396,9 @@
             - name: Pamatlīdzekļu izjaukšanas saraksta izmantošana
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: Latvija
-          href: ../financials/localizations/latvia.md
           items:
+            - name: Latvijas pārskats
+              href: ../financials/localizations/latvia.md
             - name: Pamatlīdzekļu uzskaite
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: Pamatlīdzekļu novietojuma maiņas izsekošana
@@ -2169,8 +2410,9 @@
             - name: PVN deklarācijas informācija
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: Lietuva
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: Lietuvas pārskats
+              href: ../financials/localizations/lithuania.md
             - name: Pamatlīdzekļu remonta deklarācija
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: Dokumenta ģenerēšana pamatlīdzekļa pārsūtīšanai starp noliktavām
@@ -2180,8 +2422,9 @@
             - name: PVN deklarācijas informācija
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: Malaizija
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: Malaizijas pārskats
+              href: ../financials/localizations/malaysia.md
             - name: Debitora kredīta ģenerēšana projekta pārdošanai
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: Debitora debeta ģenerēšana projekta pārdošanai
@@ -2203,8 +2446,9 @@
             - name: GST atvieglojumu klauzulu iestatīšana
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: Meksika
-          href: ../financials/localizations/mexico.md
           items:
+            - name: Meksikas pārskats
+              href: ../financials/localizations/mexico.md
             - name: Lokalizācijas joma
               href: ../financials/localizations/latam-mex-scope.md
             - name: Korekcijas inflācijas deklarācijas pārskats
@@ -2242,15 +2486,17 @@
             - name: Kreditoru reģistrācijas ID
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: Nīderlande
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: Nīderlandes pārskats
+              href: ../financials/localizations/netherlands.md
             - name: Elektroniskās nodokļu deklarācijas (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: Semansys XBRL integrācija
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: Norvēģija
-          href: ../financials/localizations/norway.md
           items:
+            - name: Norvēģijas pārskats
+              href: ../financials/localizations/norway.md
             - name: Debitoru un kreditoru maksājumu formāti
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: 'Debitora maksājums, pamatojoties uz maksājuma ID'
@@ -2264,8 +2510,9 @@
             - name: Izvietošanas vadlīnijas kases sistēmām
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Polija
-          href: ../financials/localizations/poland.md
           items:
+            - name: Polijas pārskats
+              href: ../financials/localizations/poland.md
             - name: Storno uzskaites aktivizēšana
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: Rindu atlaižu aprēķināšana no vienības cenas
@@ -2293,8 +2540,9 @@
             - name: Apgrozījuma bilances pārskats
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Krievija
-          href: ../financials/localizations/russia.md
           items:
+            - name: Krievijas pārskats
+              href: ../financials/localizations/russia.md
             - name: Virsgrāmata
               items:
                 - name: Kontu korespondence
@@ -2306,8 +2554,9 @@
                 - name: Importēt valūtas maiņas kursus no KFCB
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Avansa turētāji
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: Krievijas avansa turētāju pārskats
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: Avansa turētāja izveide
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Ikdienas operācijas avansa turētājiem
@@ -2318,18 +2567,26 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: Avansa turētāju pārskati
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: Banka
+            - name: Kase un banka
               items:
                 - name: Bankas kontu iestatīšana
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: Maksājumu uzdevumu iestatīšana un apstrādāšana
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Valūtas korekcija
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: 'Ārvalstu valūtas pārdošana, pirkšana un pārskaitījumi'
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: Mazie kases posteņi
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: PVN
               items:
                 - name: Vietējā specifiskā pārdošanas PVN grāmatošana
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: Rēķinu faktūrrēķinu apstrāde un drukāšana
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: Pārskatīšanas faktūrrēķini un korektīvie faktūrrēķini
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: Pievienotās vērtības nodoklis (PVN) nodokļu aģentiem
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: PVN deklarācija
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: Kreditori un debitori
               items:
+                - name: Kredīta notu korekcijas (Krievija)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: Apmaksājamie rēķini
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: Dimensiju kontroles iestatīšana norēķiniem
@@ -2429,20 +2688,23 @@
                 - name: Ziņošana par atliktajiem maksājumiem
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Saūda Arābija
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: Saūda Arābijas pārskats
+              href: ../financials/localizations/saudi-arabia.md
             - name: PVN
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Zakat pārskatu veidošana Saūda Arābijai
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapūra
-          href: ../financials/localizations/singapore.md
           items:
+            - name: Singapūras pārskats
+              href: ../financials/localizations/singapore.md
             - name: "Ģenerēt GST-05\_pārskatu"
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: Spānija
-          href: ../financials/localizations/spain.md
           items:
+            - name: Spānijas pārskats
+              href: ../financials/localizations/spain.md
             - name: Termiņatlaižu lietošana rēķinā
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Vekseļu opcijas
@@ -2472,8 +2734,9 @@
             - name: Īpašie ieraksti un sākuma lapas
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: Zviedrija
-          href: ../financials/localizations/sweden.md
           items:
+            - name: Zviedrijas pārskats
+              href: ../financials/localizations/sweden.md
             - name: Finanšu informācijas eksportēšana auditoriem Zviedrijā
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: Maksājumu formātu importēšana
@@ -2481,13 +2744,15 @@
             - name: Kases sistēmas
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: Šveice
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: Šveices pārskats
+              href: ../financials/localizations/switzerland.md
             - name: Debitoru maksājumu importēšana ESR rīkojumā
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: Taizeme
-          href: ../financials/localizations/thailand.md
           items:
+            - name: Taizemes pārskats
+              href: ../financials/localizations/thailand.md
             - name: Krājumu karšu pārskati
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: Nodokļu rēķina aizstāšana/korekcija
@@ -2497,8 +2762,9 @@
             - name: Ieturētais nodoklis
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Apvienotā Karaliste
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: Apvienotās Karalistes pārskats
+              href: ../financials/localizations/united-kingdom.md
             - name: Būvniecības nozares shēma
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: Kredīta notas par seguma atlaidi izveide
@@ -2516,15 +2782,17 @@
             - name: 'Pāreja uz digitālu nodokļu apstrādi: PVN'
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: ASV
-          href: ../financials/localizations/united-states.md
           items:
+            - name: Amerikas Savienoto Valstu pārskats
+              href: ../financials/localizations/united-states.md
             - name: Gada beigu 1099 pārskatu veidošana Amerikas Savienotajām Valstīm
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: Forma 1099 publiskajam sektoram
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: Personāla vadība
-      href: hr/hr-landing-page.md
       items:
+        - name: Personāla vadības pārskats
+          href: hr/hr-landing-page.md
         - name: Personāla vadības stratēģijas izstrāde
           items:
             - name: Mērķu izveide
@@ -2676,8 +2944,9 @@
             - name: Darbinieku savainojumu un slimību informācijas uzturēšana
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: ASV algas
-          href: hr/localizations/noam-usa-payroll.md
           items:
+            - name: ASV algu pārskats
+              href: hr/localizations/noam-usa-payroll.md
             - name: Algu iestatīšana
               items:
                 - name: Algu iestatīšana nodarbinātajiem
@@ -2743,13 +3012,15 @@
                 - name: Standarta algu pārskati
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: Informācija
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Informācijas mājas lapa
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
         - name: Piekļuve informācijai un atskaišu veidošana
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: Power BI saturs
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Power BI satura mājas lapa
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: Faktiski pret budžetu
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Atvieglojumi
@@ -2758,13 +3029,14 @@
               href: ../financials/cash-bank-management/Cash-Overview-Power-BI-content.md
             - name: CFO apskats
               href: ../dev-itpro/analytics/CFO-power-bi.md?toc=/fin-and-ops/toc.json
-            - name: Atlīdzība
+            - name: Kompensācija
               href: ../dev-itpro/analytics/compensation-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Atlīdzības un atvieglojumi
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Izmaksu uzskaites analīze
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Izmaksu uzskaites analīzes Power BI saturs
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: Drošības iestatīšana Power BI saturam “Izmaksu uzskaites analīze”
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Izmaksu pārvaldība
@@ -2812,8 +3084,9 @@
             - name: SSRS konfigurēšana lokāliem izvietojumiem
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Drukāšana
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Dokumentu drukāšanas pārskats
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: 'Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla drukāšanu'
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Dokumentu maršrutēšanas aģenta atjaunināšana
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: 'Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes'
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: 'Tādas Finance and Operations noformēšana, kura ir atkarīga no ER konfigurācijām'
-              items:
-                - name: ER konfigurāciju atkarības no citiem komponentiem definēšana
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: ER konfigurāciju atkarības no citiem komponentiem definēšana
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: 'ER risinājuma noformēšana, lai izmantotu finanšu dimensijas'
               items:
                 - name: 'Datu modeļu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
@@ -3032,9 +3303,11 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: "Elektronisko pārskatu\_formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas"
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: Biznesa dokumentu pārvaldības pārskats
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: Elektronisko pārskatu struktūras API
               items:
-                - name: Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu
+                - name: Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana
                   href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
                 - name: "Elektronisko atskaišu veidošanas struktūras API izmaiņas atjauninājumam Application update\_7.3"
                   href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
@@ -3081,16 +3354,19 @@
             - name: Savas datu bāzes izmantošana
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Krājumu pārvaldība
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: Saņemšanas darbību apskats
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: Krājumu pārvaldības pārskats
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: Atgriešana
           items:
+            - name: Saņemšanas darbību apskats
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: Krājumu saņemšanas pārskata profila iestatīšana
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: Kvalitātes pārvaldība
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: Kvalitātes pārvaldības apskats
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: Kvalitātes pārvaldības procesi
               href: ../supply-chain/inventory/quality-management-processes.md
             - name: Neatbilstības pārvaldība
@@ -3156,8 +3432,9 @@
             - name: Rīcībā esošo krājumu mobilā darbvieta
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: Izejošais process
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: Izejošo procesu pārskats
+              href: ../supply-chain/inventory/outbound-process.md
             - name: Rezervēt krājumu daudzumus
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: Tās pašas partijas rezervēšana pārdošanas pasūtījumam
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: Uzturēšanas pieprasījumu pārskati
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: Vispārējā plānošana
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: Vispārējie plāni
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: Darba pasūtījumu iestatīšana
           items:
+            - name: 'Uzturēšanas darbu tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu tirdzniecība un uzturēšanas kontrolsaraksti'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: Darba pasūtījumu dzīves ciklu stāvokļi
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: Darba pasūtījumu veidi
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: Darba pasūtījuma projekta iestatījumi
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: Pakalpojuma līmenis un apraksts
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: Plānotā izpilde
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: Kļūmju pārvaldība
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: Darba pasūtījumi
+          items:
+            - name: Ievads par darba pasūtījumiem
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: Manuāli izveidotie darba pasūtījumi
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: Uzturēšanas prognozes
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: Sagāde
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: Pamatlīdzekļu skaitītāju manuāla atjaunināšana
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: Pamatlīdzekļu skaitītāju automātiska atjaunināšana
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: Uzturēšanas kontrolsaraksti
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: Dīkstāve uzturēšanas dēļ
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: Pievienot kļūmi darba pasūtījumam
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: Darba pasūtījuma pārskats
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: Darba pasūtījumu kopas
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: Aktīvie darba pasūtījumu uzturēšanas darbi
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: Darba pasūtījumi un pamatlīdzekļi
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: Integrācija projektu vadībā un uzskaitē
+          items:
+            - name: 'Prognozes, darba pasūtījumi un projekti'
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: Profilaktiska un reaģējoša uzturēšana
+          items:
+            - name: Profilaktiskā uzturēšana
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: Uzturēšanas plāni
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: Plānot uzturēšanas plānus
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: Uzturēšanas cikls
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: Uzturēšanas grafiks
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: Uzturēšanas grafika izmaksas
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: Izveidot darba pasūtījumus
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: Dīkstāve uzturēšanas dēļ
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: Noslodzes plānošana
+          items:
+            - name: Aprēķināt noslodzes grafiku
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: Aprēķināt krājumu prognozi
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: Darba pasūtījuma plānošana
+          items:
+            - name: Uzturēšanas nodarbināto kalendārs un plānošana
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: Vēlamie uzturēšanas nodarbinātie
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: Plānot darba pasūtījumus
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: Nosūtīt darba pasūtījumu
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: Plānot darba pasūtījumu noteiktā datumā un laikā
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: Ieplānotie darba pasūtījumu uzturēšanas darbi
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: Aprēķināt noslodzes grafiku ieplānotajiem darba pasūtījumiem
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: Patēriņš
+          items:
+            - name: Reģistrēt patēriņu
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: Izveidot patēriņa pārskatus
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: Garantija
+          items:
+            - name: Garantijas līgums
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: Līdzekļu un līdzekļu tipu garantija
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: Uzturēšanas budžeti
+          items:
+            - name: Uzturēšanas budžeti
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: Atjaunināt uzturēšanas budžetus
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: Kontrole un ziņošana
+          items:
+            - name: Izmaksu un datumu kontrole
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: Darba stundu kontrole
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: Līdzekļu kļūmju izmaksu kontrole
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: Līdzekļu defektu analīze
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: Līdzekļa KPI
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: Krājuma izmantošanas vietas
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: Uzturēšanas statuss
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: Datu pārvaldība
+          items:
+            - name: Mērķa elementi
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: Vispārējā plānošana
+      items:
+        - name: Vispārējās plānošanas sākumlapa
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: Vispārējie plāni
+          items:
+            - name: Vispārējo plānu pārskats
+              href: ../supply-chain/master-planning/master-plans.md
             - name: Iestatīt vispārējos plānus
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Vispārējās plānošanas iestatīšanas vednis
@@ -3304,8 +3709,9 @@
             - name: Vispārējās plānošanas veiktspējas uzlabošana
               href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Vispārējie plāni un vairākvietu funkcionalitāte
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
+                - name: Vispārēja plānošanas un vairākvietu funkcionalitātes pārskats
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: 'Vietas seguma vispārējā plānošana, ja noliktava ir obligāta'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Vietas seguma vispārējā plānošana, noliktava nav obligāta'
@@ -3327,8 +3733,9 @@
             - name: Sadarbība ar iekšējās piegādes ķēdes debitoriem
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: Pieprasījuma prognozēšana
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: Pārskats par pieprasījuma prognozēšanu
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: Pieprasījuma prognozēšanas iestatīšana
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Pieprasījuma apjoma prognozes manuāla modificēšana
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobilā programma
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: Dynamics 365 for Unified Operations mobilā lietotne
       items:
-        - name: Pieejamās mobilās darbvietas
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: Dynamics 365 for Unified Operations mobilās lietotnes mājas lapa
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Mobilās darbvietas
           items:
+            - name: Pieejamās mobilās darbvietas
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: Uzņēmuma direktorijs
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Izmaksu kontrolēšana
@@ -3367,11 +3776,11 @@
               href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Mana darba grupa
               href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: Projekta mobilo programmu apskats
+            - name: Project mobilo programmu apskats
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: Projekta laika ieraksts
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: Projekta darba laika uzskaites tabula
+            - name: Project timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: Pirkšanas pasūtījuma apstiprināšana
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: Mobilo darbvietu publicēšana
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office integrācija
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Office integrācijas pārskats
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: Office integrēšanas apmācība
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: 'Elementu datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu'
@@ -3401,25 +3811,29 @@
         - name: Office integrācijas problēmu novēršana
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
     - name: Sagāde un avoti
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
       items:
+        - name: Sagādes un avotu apskats
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
         - name: Sagādes un avotu darbplūsma
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: Sagādes katalogi
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: Sagādes katalogu apskats
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: Sagādes kataloga izveide
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: Sagādes kategoriju hierarhijas iestatīšana
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: Pirkšanas pieprasījumi
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: Pirkšanas pieprasījumu pārskats
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: Pirkšanas pieprasījuma darbplūsma
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: Piedāvājumu pieprasījumi (PP)
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: Piedāvājuma pieprasījumu pārskats
+              href: ../supply-chain/procurement/request-quotations.md
             - name: Piedāvājuma pieprasījuma izveide
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: 'Tāda pieprasījuma izveide, kas lieto PP'
@@ -3471,8 +3885,9 @@
             - name: Kreditora atlaides
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: Pirkšanas ierobežojumi
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: Pirkšanas ierobežojumu pārskats
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: Pirkšanas ierobežojumu izveide
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: Ierobežojumu iestatīšana sagādes kategoriju hierarhijām
@@ -3530,18 +3945,21 @@
             - name: Projekta budžeta pārskatīšanas iesniegšana un apstiprināšana
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: Organizācijas administrēšana
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: Organizācijas administrēšanas sākumlapa
+          href: organization-administration/organization-administration-home-page.md
         - name: Numuru sērijas
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: Pārskats par numuru sērijām
+              href: organization-administration/number-sequence-overview.md
             - name: Atsevišķu numuru sēriju iestatīšana
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: 'Numuru sēriju iestatīšana, izmantojot vedni'
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Organizācijas un organizāciju hierarhijas
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: Organizācijas un organizāciju hierarhiju pārskats
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: Organizācijas hierarhijas plānošana
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Organizācijas hierarhijas izveide
@@ -3551,8 +3969,9 @@
             - name: Pārvaldības struktūrvienību izveide
               href: organization-administration/tasks/create-operating-unit.md
         - name: Globālā adrešu grāmata
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: Pārskats par globālo adrešu grāmatu
+              href: organization-administration/overview-global-address-book.md
             - name: Plāns globālajai adrešu grāmatai un citām adrešu grāmatām
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Globālās adrešu grāmatas konfigurēšana
@@ -3562,8 +3981,9 @@
             - name: Adrešu grāmatu konfigurēšana
               href: organization-administration/tasks/address-books.md
         - name: Darbplūsmas sistēma
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: Darbplūsmu sistēmas apskats
+              href: organization-administration/overview-workflow-system.md
             - name: Darbplūsmas sistēmas arhitektūra
               href: organization-administration/workflow-system-architecture.md
             - name: Darbplūsmas elementi
@@ -3571,8 +3991,9 @@
             - name: Darbplūsmas darbības
               href: organization-administration/workflow-actions.md
             - name: Izveidot darbplūsmas
-              href: organization-administration/create-workflow.md
               items:
+                - name: Izveidot darbplūsmu pārskatu
+                  href: organization-administration/create-workflow.md
                 - name: Konfigurēt darbplūsmas rekvizītus
                   href: organization-administration/configure-workflow-properties.md
                 - name: Konfigurēt manuālus uzdevumus
@@ -3624,8 +4045,9 @@
             - name: Bieži uzdotie jautājumi par darbplūsmām
               href: organization-administration/workflow-FAQ.md
         - name: Brīdinājumi
-          href: get-started/alerts-overview.md
           items:
+            - name: Pārskats par brīdinājumiem
+              href: get-started/alerts-overview.md
             - name: Brīdinājumu kārtulu veidošana
               href: get-started/create-alerts.md
             - name: Brīdinājumu pakešveida apstrāde
@@ -3633,18 +4055,21 @@
             - name: Klienta brīdinājumu paziņojumi pa e-pastu
               href: get-started/alert-email-notifications.md
         - name: Elektroniskie paraksti
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: Elektronisko parakstu pārskats
+              href: organization-administration/electronic-signature-overview.md
             - name: Elektronisko parakstu iestatīšana
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Pieteikumu pārvaldība
-          href: organization-administration/cases.md
           items:
+            - name: Pārskats par pieteikumu pārvaldību
+              href: organization-administration/cases.md
             - name: 'Pieteikumu drošības, procesu un kategoriju plānošana'
               href: organization-administration/plan-case-management.md
         - name: Ierakstu veidnes
-          href: organization-administration/record-templates.md
           items:
+            - name: Ierakstu veidņu pārskats
+              href: organization-administration/record-templates.md
             - name: Izveidot ieraksta veidni
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: 'Ieraksta veidnes izmantošana, lai izveidotu jaunu ierakstu'
@@ -3656,8 +4081,9 @@
         - name: Datuma/laika dati un laika joslas
           href: organization-administration/date-time-zones.md
     - name: Ražošanas kontrole
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: Pārskats par ražošanas procesu
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'Jaukta režīma plānošana: atsevišķu avotu, procesa avotu un racionālo avotu kombinēšana'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: Pārvaldīt apakšlīgumu slēgšanas darbu ražošanā
@@ -3721,8 +4147,9 @@
             - name: Ražošanas darbu darbināšana
               items:
                 - name: Ražošanas pasūtījuma dzīves cikla pārvaldība
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: Ražošanas pasūtījuma dzīves cikla pārskats
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: Ražošanas pasūtījuma izveide
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: Ražošanas pasūtījuma novērtējums
@@ -3782,8 +4209,9 @@
                 - name: Ražošanas grāmatošana
                   href: ../supply-chain/cost-management/production-posting.md
             - name: Laika un apmeklētības reģistrācija
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: Laika un apmeklētības reģistrācijas pārskats
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: Apmaksa atbilstoši reģistrācijām
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: Prombūtnes reģistrācija sadaļā Laiks un apmeklētība
@@ -3945,8 +4373,9 @@
                 - name: Ražošanas grāmatošana
                   href: ../supply-chain/cost-management/production-posting.md
     - name: Preču informācijas pārvaldība
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: Preču informācijas apskats
+          href: ../supply-chain/pim/product-information.md
         - name: Preces informācija
           items:
             - name: Preču identifikatori
@@ -3972,8 +4401,9 @@
             - name: Izlaistās preces izveide vienam uzņēmumam
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: Preces dzīves cikla stāvoklis
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: Preču dzīves cikla stāvokļa pārskats
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: Jauna preču dzīves cikla stāvokļa izveide
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: Noklusējuma preču dzīves cikla stāvokļa izveide
@@ -4017,11 +4447,13 @@
             - name: "MK\_aprēķini"
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: Preces konfigurācija
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: Preces konfigurācijas pārskats
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: Konfigurācijas izveide atbilstoši dimensijām
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: Uz dimensijām balstītas preču konfigurācijas pārskats
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: Preces dimensija
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: Uz dimensijas balstītas preces šablona izveide
@@ -4041,8 +4473,9 @@
                 - name: Konfigurāciju izveide atbilstoši dimensijām
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: Konfigurācijas izveide atbilstoši ierobežojumiem
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: Preces konfigurācijas modeļa iestatīšana
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: Bieži uzdotie jautājumi par preces konfigurācijas modeļa aprēķinu
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: Konfigurācijas kārtula
@@ -4072,8 +4505,9 @@
                 - name: Datu pārsūtīšana par preču modeļiem
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: Projektu pārvaldība un uzskaite
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: Projektu vadības un uzskaites pārskats
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: Starpuzņēmumu rēķinu izrakstīšana
           href: ../financials/project-management/intercompany-invoicing.md
         - name: Starpuzņēmumu projekta rēķinu izrakstīšanas konfigurēšana
@@ -4099,23 +4533,25 @@
         - name: Pirkšanas pasūtījuma krājumu saņemšana no krājumu vajadzības
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: Darba sadalījuma struktūras
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: Microsoft Project klienta integrācija
+            - name: Darba sadalījuma struktūru pārskats
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: Microsoft Project Client integrācija
               href: ../financials/project-management/project-integration.md
-        - name: Projekta mobilo programmu apskats
+        - name: Project mobilo programmu apskats
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: Projekta laika ieraksta mobilā darbvieta
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: Projekta darba laika uzskaites tabulas mobilā programma
+        - name: Project timesheet mobilā programma
           href: ../financials/project-management/project-timesheet.md
         - name: Projekta darba laika uzskaites tabulas mobilajā ierīcē
           href: ../financials/project-management/mobile-timesheets.md
-        - name: Pielāgoto lauku ieviešana mobilās lietotnes Project darba laika uzskaites tabulā
+        - name: Pielāgoto lauku ieviešana Project timesheet mobilajā lietotnē
           href: ../financials/project-management/custom-fields-mobile.md
     - name: Pārdošana un mārketings
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: Tirdzniecības un mārketinga apskats
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: Pārdošanas pasūtījumi
           items:
             - name: Pasūtījumu solīšana
@@ -4149,8 +4585,9 @@
             - name: Pārdošanas pasūtījumu apstiprināšana
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: Pārdošanas līgumi
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: Pārdošanas līgumu pārskats
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: Pārdošanas līgumu ievade
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: Pārdošanas līgumu nosacījumu izpilde
@@ -4184,13 +4621,15 @@
         - name: Jauna pakalpojumu līguma izveide
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: Pakalpojumu pārvaldība
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: Pakalpojumu pārvaldības pārskats
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: Klientu apkalpošanas iestatīšana
           items:
             - name: Pakalpojumu līgumu iestatīšana
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: Pakalpojumu līgumu pārskats
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: Pakalpojumu līgumu izveide
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: Pakalpojumu intervāli
@@ -4204,13 +4643,15 @@
                 - name: Pakalpojumu veidņu grupas izveide
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: Pakalpojumu uzdevumu iestatīšana
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: Pakalpojumu uzdevumu pārskats
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: Pakalpojumu uzdevumu relāciju izveide
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: Pakalpojumu objektu iestatīšana
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: Pakalpojumu objektu pārskats
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: Pakalpojumu objektu izveide
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: Krājumu vienību pievienošana pakalpojumu objektiem
@@ -4230,8 +4671,9 @@
                 - name: Veidņu pievienošana pakalpojumu objektiem
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: Iemesla kodu definēšana pakalpojumu pasūtījumiem
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: Iemeslu kodi pakalpojumu pasūtījumiem
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: Pakalpojuma pasūtījuma posmi
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: Pakalpojuma pasūtījuma posmu iestatīšana
@@ -4239,8 +4681,9 @@
                 - name: Iemeslu kodu izveide
                   href: ../supply-chain/service-management/create-reason-codes.md
             - name: Pakalpojumu līgumu un abonementu iestatīšana
-              href: ../supply-chain/service-management/service-level-agreements.md
               items:
+                - name: Pakalpojuma līmeņa līgumu pārskats
+                  href: ../supply-chain/service-management/service-level-agreements.md
                 - name: Abonementa pārdošanas cenas
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: Abonementu grupas
@@ -4254,8 +4697,9 @@
             - name: Remonta pārvaldības iestatīšana
               href: ../supply-chain/service-management/repair-management.md
             - name: Debitora atgriešanas gadījumu iestatīšana
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: Debitora atgriešanas pārskats
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: Izvietojuma kodu iestatīšana
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: Atgriešanas iemeslu kodu iestatīšana
@@ -4263,14 +4707,17 @@
                 - name: 'Noteikšana, kā atbrīvoties no atgrieztiem krājumiem'
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: Darbs ar debitoru pakalpojumu
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: Darba ar debitoru pakalpojumu pārskats
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: Pakalpojumu līgumu izpilde
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Pakalpojumu līgumu izpildes apskats
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Līguma izstrāde un izveide
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
+                    - name: Izstrādes un veidošanas pakalpojumu līgumu pārskats
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: Pakalpojumu līgumu izveide
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: Pakalpojumu abonementi
@@ -4296,8 +4743,9 @@
                     - name: Abonementu pārdošanas cenu atjaunināšana un indeksēšana
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: Debitoru pieprasījumu apstrāde
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Pakalpojumu līgumu izpildes apskats
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Laika ierakstīšanas pakalpojuma pasūtījumam sākšana un apturēšana
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: Pakalpojuma pasūtījuma sākuma laika un ilguma skatīšana
@@ -4407,8 +4855,9 @@
                     - name: Abonementa transakciju rēķina izveide
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: Transportēšanas pārvaldība
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: Transportēšanas pārvaldības pārskats
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: Transportēšanas pārvaldības programmas
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: Jaunas transportēšanas pārvaldības programmas izveide
@@ -4420,8 +4869,9 @@
         - name: Kravas transportēšanas maršrutu plānošana
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: 'Kravu plānošana, izmantojot pārkraušanas punktu konsolidāciju'
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: 'Kravu plānošanas, izmantojot pārkraušanas punktu konsolidāciju, pārskats'
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: 'Kravu un sūtījumu plānošana, izmantojot kravu plānošanas rīku'
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: Konteinera svara un tilpuma ietveršana kravā
@@ -4450,12 +4900,14 @@
           href: ../supply-chain/transportation/tasks/set-up-shipping-carriers.md
         - name: Transportēšanas ierobežojumu iestatīšana krājumam
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
-    - name: Noliktavas pārvaldība
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
+    - name: Noliktavas vadība
       items:
+        - name: Noliktavas pārvaldības pārskats
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: Noliktavas konfigurācija
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: Noliktavas konfigurācijas pārskats
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: 'Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni'
               href: ../supply-chain/inventory/warehouse-template.md
             - name: 'Darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas'
@@ -4485,8 +4937,9 @@
             - name: Noliktavas iestatīšana pārsūtīšanas pasūtījumiem
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: Noliktavas darba politikas
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: Noliktavas darba politiku pārskats
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: Noliktavas darba politiku iestatīšana
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: 'Krājumu kustība, ja ar tiem noliktavas pārvaldībā ir saistīts darbs'
@@ -4546,8 +4999,9 @@
             - name: Krājumu etiķešu inventarizācija
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: Papildināšana
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: Papildināšanas pārskats
+              href: ../supply-chain/warehousing/replenishment.md
             - name: Tūlītēja papildināšana
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: Papildināšana ar atvilkumu Kanban
@@ -4555,8 +5009,9 @@
             - name: Min.-maks. papildināšanas procesa iestatīšana
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: Noliktavas programmas instalēšana un konfigurēšana
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: Instalēšanas un konfigurēšanas pārskats
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: Lauku nosaukumu konfigurēšana noliktavas programmā
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: Mobilo ierīču iestatīšana darbam noliktavā
