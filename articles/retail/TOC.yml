@@ -26,9 +26,10 @@
       href: retail-support.md
     - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
       href: ../fin-and-ops/get-started/one-version.md
-- name: Ieviešanas dzīves cikla izprašana
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Īstenošanas cikla pārvaldība
   items:
+    - name: Īstenošanas cikla pārvaldības sākumlapa
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: "Microsoft FastTrack for Dynamics\_365"
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Pievienošana
@@ -165,6 +166,8 @@
       href: retail-hardware-station-configuration-installation.md
     - name: Laiks un apmeklētība programmā Retail
       href: retail-time-attendance.md
+    - name: Izveidot un mainīt veikala darbalaiku
+      href: dev-itpro/store-hours.md
 - name: "Modern Point of Sale (MPOS) un Cloud\_POS"
   items:
     - name: "Izvēle starp MPOS un Cloud\_POS"
@@ -317,9 +320,11 @@
       href: create-manage-attributes.md
     - name: Iestatīt mazumtirdzniecības preces
       href: set-up-retail-products.md
-    - name: Retail preču kategoriju un preču pārvaldība
+    - name: Mazumtirdzniecības preču kategoriju un preču pārvaldība
       href: category-management-product-creation.md
-    - name: Preču dimensijas
+    - name: Mainīt kārtošanas secību virzīšanas tirgū elementiem
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
+    - name: Preces dimensijas
       href: ../supply-chain/pim/product-dimensions.md
     - name: Iestatīt svītrkodus
       href: set-up-bar-codes.md
@@ -500,8 +505,9 @@
     - name: Mazumtirdzniecības nodarbināto konfigurēšana
       href: tasks/worker.md
 - name: Retail izstrāde un administrēšana
-  href: dev-itpro/dev-retail-home-page.md
   items:
+    - name: "Retail IT\_speciālistiem un izstrādātājiem"
+      href: dev-itpro/dev-retail-home-page.md
     - name: Arhitektūra
       items:
         - name: Retail komponenti
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station un paplašināmība
       href: dev-itpro/hardware-station-extensibility.md
+    - name: Integrēt POS ar jaunu aparatūras ierīci
+      href: dev-itpro/hardware-device-extension.md
     - name: Retail Server paplašināmība
       items:
         - name: Retail Server OData kontroliera paplašināšana
@@ -654,10 +662,11 @@
           href: payment-connector-data-fields.md
         - name: Maksājumu dublikātu aizsardzības iespējošana maksājumu savienotājam
           href: dev-itpro/duplicate-payment-protection.md
-    - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+    - name: "Retail\_SDK"
       items:
-        - name: Gaidāmās izmaiņas komplektā Retail SDK
+        - name: “Retail SDK” arhitektūra
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
+        - name: Gaidāmās izmaiņas komplektā “Retail SDK”
           href: dev-itpro/UpcomingSDKChanges.md
         - name: Būvējuma sistēmu sapludināšana programmām Retail un Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Retail SDK paraugi
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Paplašinājuma punkti pavadzīmēm
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Paplašinājuma punkti pavadzīmēm
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Kanāla datu bāzes paplašinājumi
           href: dev-itpro/channel-db-extensions.md
         - name: 'Iespējot pielāgotu CDX sinhronizāciju, izmantojot paplašinājumu'
