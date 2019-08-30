@@ -3,7 +3,7 @@ title: Laipni lūdzam programmā Dynamics 365 for Retail!
 description: Sākumlapa programmai Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572176"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874931"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Laipni lūdzam programmā Dynamics 365 for Retail!
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
+Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem un nodarbinātajiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
 > [!NOTE]
 > Programma Dynamics 365 for Retail ir cieši saistīta ar programmu Dynamics 365 for Finance and Operations un Dynamics 365 for Talent. Visos trīs produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations; bet tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums ir Dynamics 365 for Talent.
@@ -38,7 +38,7 @@ Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairā
 
 ## <a name="channel-management"></a>Kanāla pārvaldība
 
-Veidojot savu Retail pieredzi, jūs izlemjat, kā definēt un konfigurēt jūsu veikalus. Tie var būt fiziski veikali, tiešsaistes veikali vai zvanu centri.
+Kad iestatāt savu Retail funkcionalitāti, jūs izlemjat, kā definēt un konfigurēt savus veikalus, kas var būt fiziski veikali, tiešsaistes veikali vai zvanu centri.
 
 Katrā mazumtirdzniecības veikalā var būt savas maksāšanas un piegādes metodes, cenu grupas, ienākumu un izdevumu konti, reģistri un personāls. Pēc mazumtirdzniecības veikala izveides ir jāizveido preču sortiments, kas tiks pārdots veikalā. Varat definēt arī veikalā pieejamo preču veikala cenas un atlaides.
 

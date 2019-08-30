@@ -1,9 +1,9 @@
 ---
-title: Globalizācija
+title: Globalizācijas resursi
 description: Šajā tēmā ir saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti un piedāvājumiem.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850619"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864970"
 ---
-# <a name="globalization"></a>Globalizācija
+# <a name="globalization-resources"></a>Globalizācijas resursi
 
 ## <a name="local-and-regional-deployments"></a>Vietējā un reģionālā izvietošana
 Ja jūsu valdības noteikumi nosaka citādu datu glabāšanu vai apkalpošanu nekā tas nepieciešams citām valstīm/reģioniem, iespējams, pastāv valsts/reģiona prasības, kas jāņem vērā, kad izvietojat programmu Finance and Operations. Izskatiet tālāk norādītos resursus, kas var attiekties uz jums.
