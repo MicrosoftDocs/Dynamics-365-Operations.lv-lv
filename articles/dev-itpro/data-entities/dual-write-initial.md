@@ -1,6 +1,6 @@
 ---
-title: Izpildes rīkojums Finance and Operations un Common Data Service sākotnējai sinhronizācijai
-description: Šajā tēmā ir norādīta sinhronizācijas secība, kas jāizpilda, lai izveidotu sākotnējos datus.
+title: Izpildes pasūtījums programmu Finance and Operations un Common Data Service sākotnējai sinhronizācijai.
+description: Šajā tēmā ir norādīta sinhronizācijas kārtība, kura ir jāievēro sākotnējo datu izveidei.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,50 +19,55 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b74bc2d3133af7e87663a4e6bafb8780e0a6a66f
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 1473c3bad55734d5f83ee3e4c1654921b872f3bb
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797302"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873132"
 ---
-# <a name="execution-order-for-initial-sychronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="29428-103">Izpildes rīkojums Finance and Operations un Common Data Service sākotnējai sinhronizācijai</span><span class="sxs-lookup"><span data-stu-id="29428-103">Execution order for initial sychronization of Finance and Operations and Common Data Service</span></span>
+# <a name="execution-order-for-initial-synchronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="7e21f-103">Izpildes pasūtījums programmu Finance and Operations un Common Data Service sākotnējai sinhronizācijai.</span><span class="sxs-lookup"><span data-stu-id="7e21f-103">Execution order for initial synchronization of Finance and Operations and Common Data Service</span></span>
 
-<span data-ttu-id="29428-104">Pirms datu integrācijas izmantošanas ir jāizveido sākotnējie dati, kas nepieciešami debitoriem, kreditoriem un kontaktpersonām.</span><span class="sxs-lookup"><span data-stu-id="29428-104">Before you use data integration, you must create the initial data required for customers, vendors and contacts.</span></span> <span data-ttu-id="29428-105">Piemēram, ja vēlaties izveidot jaunu vienumu **Kreditoru grupa** un iestatīt tās **Maksāšanas nosacījumus** kā **Net30**, tad, pirms mēģināt izveidot vienumu **Kreditoru grupa**, pārliecinieties, vai **Net30** pastāv gan Finance and Operations, gan Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="29428-105">For example, if you want to create a new **Vendor group** item and set its **Terms of Payment** as **Net30**, then before you attempt to create the **Vendor group** item you need to make sure that **Net30** exists in both Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="29428-106">(Turpmāk mēs izlaidīsim duāla ieraksta platformas funkcionalitāti, ko sauc par **Sākotnējo sinhronizāciju.** Tā vienu reizi veiks datu sinhronizāciju starp Finance and Operations un Common Data Service kā daļu no duālā ieraksta iestatīšanas.)</span><span class="sxs-lookup"><span data-stu-id="29428-106">(In the future, we will release a  dual-write platform functionality called **Initial Sync**. It will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="29428-107">Padomi: mēs izlaižam duālā ieraksta karti visiem atsauces datiem, tostarp **Maksāšanas nosacījumiem** (Samaksas noteikumi).</span><span class="sxs-lookup"><span data-stu-id="29428-107">Tips: We are releasing a dual-write map for all reference data including **Terms of Payment** (Payment Terms).</span></span> <span data-ttu-id="29428-108">Ja jums jau ir sākotnējie dati vienā sistēmā, neliela atjaunināšanas operācija ierakstā var izraisīt duālu ierakstu par šo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="29428-108">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span> 
+[!include [preview](../includes/preview-banner.md)]
 
-<span data-ttu-id="29428-109">Jums jāievēro šāda prioritārā secība un jāpārliecinās, ka sākotnējie dati ir pieejami gan programmā Finance and Operations, gan Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="29428-109">You must follow the following order of precedence and make sure that the initial data is available on both Finance and Operations and Common Data Service.</span></span>   
+<span data-ttu-id="7e21f-104">Pirms datu integrācijas izmantošanas izveidojiet sākotnējos datus, kas nepieciešami klientiem, piegādātājiem un kontaktpersonām.</span><span class="sxs-lookup"><span data-stu-id="7e21f-104">Before you use data integration, you must create the initial data that is required for customers, vendors, and contacts.</span></span> <span data-ttu-id="7e21f-105">Piemēram, jūs vēlaties izveidot jaunu vienumu **Piegādātāju grupa** un iestatīt tās vērtību **Apmaksas nosacījumi** uz **Net30**.</span><span class="sxs-lookup"><span data-stu-id="7e21f-105">For example, you want to create a new **Vendor group** item and set its **Terms of Payment** value to **Net30**.</span></span> <span data-ttu-id="7e21f-106">Šajā gadījumā pirms mēģināt izveidot vienumu **Piegādātāju grupa**, nodrošiniet, lai **Net30** ir atrodams gan programmā Microsoft Dynamics 365 for Finance and Operations, gan Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="7e21f-106">In this case, before you try to create the **Vendor group** item, you must make sure that **Net30** exists in both Microsoft Dynamics 365 for Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="7e21f-107">(Nākotnē korporācija Microsoft izlaidīs duālās rakstīšanas funkcionalitāti ar nosaukumu Sākotnējā sinhronizācija. Šī funkcionalitāte veiks vienreizēju datu sinhronizāciju starp programmām Finance and Operations un Common Data Service duālās rakstīšanas iestatīšanas gaitā.)</span><span class="sxs-lookup"><span data-stu-id="7e21f-107">(In the future, Microsoft will release dual-write platform functionality that is named Initial Sync. This functionality will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
 
-## <a name="vendor"></a><span data-ttu-id="29428-110">Kreditors</span><span class="sxs-lookup"><span data-stu-id="29428-110">Vendor</span></span>
+> [!TIP]
+> <span data-ttu-id="7e21f-108">Korporācija Microsoft izlaiž duālās rakstīšanas kartējumu visiem atsauces datiem, tostarp **Apmaksas nosacījumiem** (maksājuma nosacījumiem).</span><span class="sxs-lookup"><span data-stu-id="7e21f-108">Microsoft is releasing a dual-write map for all reference data, including **Terms of Payment** (payment terms).</span></span> <span data-ttu-id="7e21f-109">Ja jums jau ir sākotnējie dati vienā sistēmā, neliela atjaunināšanas operācija ierakstā var izraisīt duālu ierakstu par šo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7e21f-109">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span>
 
-<span data-ttu-id="29428-111">Izpildes secība kreditoram ir šāda:</span><span class="sxs-lookup"><span data-stu-id="29428-111">The order of execution for Vendor is:</span></span>
+<span data-ttu-id="7e21f-110">Jums ir jāievēro šāda prioritārā secība, lai nodrošinātu, ka sākotnējie dati ir pieejami gan programmā Finance and Operations, gan Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="7e21f-110">You must follow the following order of precedence and make sure that the initial data is available in both Finance and Operations and Common Data Service.</span></span>
 
-```
-Vendor Group
-    Terms of payment
-        Payment day & lines
-        Payment schedule
-Vendor payment method
-```
+## <a name="vendor"></a><span data-ttu-id="7e21f-111">Kreditors</span><span class="sxs-lookup"><span data-stu-id="7e21f-111">Vendor</span></span>
 
-## <a name="customer-organization"></a><span data-ttu-id="29428-112">Debitors (Organizācija)</span><span class="sxs-lookup"><span data-stu-id="29428-112">Customer (Organization)</span></span>
+<span data-ttu-id="7e21f-112">Izpildes secība entītijai **Piegādātājs**:</span><span class="sxs-lookup"><span data-stu-id="7e21f-112">Here is the order of execution for the **Vendor** entity:</span></span>
 
-<span data-ttu-id="29428-113">Izpildes secība debitoram ir šāda:</span><span class="sxs-lookup"><span data-stu-id="29428-113">The order of execution for Customer is:</span></span>
+1. <span data-ttu-id="7e21f-113">Kreditoru grupa</span><span class="sxs-lookup"><span data-stu-id="7e21f-113">Vendor group</span></span>
 
-```
-Customer Group
-    Terms of payment
-        Payment day & lines
-        Payment 
-Customer payment method
-```
+    1. <span data-ttu-id="7e21f-114">Apmaksas nosacījumi</span><span class="sxs-lookup"><span data-stu-id="7e21f-114">Terms of payment</span></span>
 
-## <a name="contact-person"></a><span data-ttu-id="29428-114">Kontaktpersona</span><span class="sxs-lookup"><span data-stu-id="29428-114">Contact (Person)</span></span>
+        1. <span data-ttu-id="7e21f-115">Maksāšanas diena un rindas</span><span class="sxs-lookup"><span data-stu-id="7e21f-115">Payment day and lines</span></span>
+        2. <span data-ttu-id="7e21f-116">Maksājumu grafiks</span><span class="sxs-lookup"><span data-stu-id="7e21f-116">Payment schedule</span></span>
 
-<span data-ttu-id="29428-115">Izpildes secība kontaktpersonai ir šāda:</span><span class="sxs-lookup"><span data-stu-id="29428-115">The order of execution for Contact is:</span></span>
+2. <span data-ttu-id="7e21f-117">Piegādātāja maksāšanas metode</span><span class="sxs-lookup"><span data-stu-id="7e21f-117">Vendor payment method</span></span>
 
-```
-Customer
-Vendor               
-```
+## <a name="customer-organization"></a><span data-ttu-id="7e21f-118">Debitors (Organizācija)</span><span class="sxs-lookup"><span data-stu-id="7e21f-118">Customer (Organization)</span></span>
+
+<span data-ttu-id="7e21f-119">Izpildes secība entītijai **Klients**:</span><span class="sxs-lookup"><span data-stu-id="7e21f-119">Here is the order of execution for the **Customer** entity:</span></span>
+
+1. <span data-ttu-id="7e21f-120">Debitoru grupa</span><span class="sxs-lookup"><span data-stu-id="7e21f-120">Customer group</span></span>
+
+    1. <span data-ttu-id="7e21f-121">Apmaksas nosacījumi</span><span class="sxs-lookup"><span data-stu-id="7e21f-121">Terms of payment</span></span>
+
+        1. <span data-ttu-id="7e21f-122">Maksāšanas diena un rindas</span><span class="sxs-lookup"><span data-stu-id="7e21f-122">Payment day and lines</span></span>
+        2. <span data-ttu-id="7e21f-123">Maksājums</span><span class="sxs-lookup"><span data-stu-id="7e21f-123">Payment</span></span> 
+
+2. <span data-ttu-id="7e21f-124">Debitora maksāšanas metode</span><span class="sxs-lookup"><span data-stu-id="7e21f-124">Customer payment method</span></span>
+
+## <a name="contact-person"></a><span data-ttu-id="7e21f-125">Kontaktpersona</span><span class="sxs-lookup"><span data-stu-id="7e21f-125">Contact (Person)</span></span>
+
+<span data-ttu-id="7e21f-126">Izpildes secība entītijai **Kontaktpersona**:</span><span class="sxs-lookup"><span data-stu-id="7e21f-126">Here is the order of execution for the **Contact** entity:</span></span>
+
+1. <span data-ttu-id="7e21f-127">Debitors</span><span class="sxs-lookup"><span data-stu-id="7e21f-127">Customer</span></span>
+2. <span data-ttu-id="7e21f-128">Kreditors</span><span class="sxs-lookup"><span data-stu-id="7e21f-128">Vendor</span></span>
