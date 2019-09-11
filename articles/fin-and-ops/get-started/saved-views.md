@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863064"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870837"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -153,11 +153,13 @@ Lai iespējotu saglabātos skatus, kamēr līdzeklis ir priekšskatījumā, veic
 
 1.  **Iespējot būvējumu izsniegšanu**: izpildīt šādu SQL priekšrakstu: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Atrast funkciju**: naviģējiet uz darbvietu **Funkciju pārvaldība**. Ja **Saglabātie skati** netiek parādīti sarakstā, atlasiet pogu **Pārbaudīt, vai nav atjauninājumu**.   
+2. **Atiestatiet IIS**, lai notīrītu statisko būvējuma kešatmiņu. 
 
-3.  **Iespējot funkciju**: atrodiet funkciju **Saglabātie skati**  funkciju sarakstā un noklikšķiniet uz pogas detalizētās informācijas rūtī **Iespējot tūlīt**.
+3.  **Atrast funkciju**: atveriet darbvietu **Funkciju pārvaldība**. Ja **Saglabātie skati** netiek parādīti sarakstā, atlasiet **Pārbaudīt, vai nav atjauninājumu**.   
+
+4.  **Iespējot funkciju**: atrodiet funkciju **Saglabātie skati** funkciju sarakstā un detalizētās informācijas rūtī atlasiet **Iespējot tūlīt**.
 
 Visas turpmākās lietotāja sesijas sāksies ar iespējotiem saglabātajiem skatiem.  
 

@@ -3,7 +3,7 @@ title: Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo segu
 description: Šajā procedūrā ir parādīts, kā aprēķināt minimālā seguma priekšlikumus, pamatojoties uz vēsturiskām transakcijām, un pēc tam atjaunināt krājumu segumu, izmantojot priekšlikumus.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b2916d6d2f24579fd9795c0e0bc548b6c2b747
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 478dd85abebf76dd264e93bcbe3f218a0ff0a5a8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835787"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916810"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo segumu
 
@@ -32,47 +32,37 @@ ms.locfileid: "1835787"
 
 
 ## <a name="create-a-new-safety-stock-journal-name"></a>Izveidot jaunu drošības krājumu žurnāla nosaukumu
-1. Dodieties uz Drošības krājumu žurnālu nosaukumiem.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ierakstiet “Materiāls”.
-4. Laukā Apraksts ierakstiet “Materiāls”.
+1. **Navigācijas rūtī** pārejiet uz **Vispārējā plānošana > Iestatīšana > Drošības krājumu žurnāla nosaukums**.
+2. Klikšķiniet **Jauns**.
+3. Laukā **Nosaukums** ierakstiet “Materiāls”.
+4. Laukā **Apraksts** ierakstiet “Materiāls”.
 5. Aizvērt lapu.
 
 ## <a name="create-a-safety-stock-journal"></a>Izveidot drošības krājumu žurnālu
-1. Dodieties uz Drošības krājumu aprēķins.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet drošības krājumu žurnāla nosaukumu, kurus jūs izveidojāt, piemēram, Materiāls.  
-4. Noklikšķiniet uz Izveidot rindas.
-5. Ievadiet datumu laukā No datuma.
-    * Iestatiet datumu uz “2015.01.02”.  
-6. Laukā Līdz datumam ievadiet datumu.
-    * Iestatiet datumu uz “2015.12.30”.  
-7. Noklikšķiniet uz OK.
-    * Šādi tiks izveidotas rindas tām dimensijām, kurām ir krājumu transakcijas.  
+1. **Navigācijas rūtī** pārejiet uz **Vispārējā plānošana > Vispārējā plānošana > Palaist > Drošības krājumu aprēķins**.
+2. Klikšķiniet **Jauns**.
+3. Ievadiet vai atlasiet vērtību laukā **Nosaukums**. Atlasiet drošības krājumu žurnāla nosaukumu, kurus jūs izveidojāt, piemēram, Materiāls.  
+4. Noklikšķiniet uz **Izveidot rindas**.
+5. Ievadiet datumu laukā **No datuma**.  
+6. Ievadiet datumu laukā **Līdz datumam**.
+7. Noklikšķiniet uz **Labi**. Šādi tiks izveidotas rindas tām dimensijām, kurām ir krājumu transakcijas.  
 
 ## <a name="calculate-proposal"></a>Aprēķināt priekšlikumu
-1. Noklikšķiniet uz Aprēķināt priekšlikumu.
-2. Atlasiet opciju Izmantot vidējo izejas plūsmu izpildes laikā.
-3. Vienumu Reizināšanas koeficients iestatiet uz “10”.
-    * Reizināšanas koeficients tiek lietots, lai koriģētu priekšlikumu. Tā kā demonstrācijas datiem tikai dažas transakcijas, jums ir jāiestata šis koeficients, lai iegūtu reālistisku priekšlikumu.  
-4. Noklikšķiniet uz OK.
-    * Ritiniet uz leju, lai atrastu M0002 un M0003. Skatiet kolonnu Aprēķinātais minimālais daudzums.   
+1. Noklikšķiniet uz **Aprēķināt priekšlikumu**.
+2. Atlasiet opciju **Izmantot vidējo izejas plūsmu izpildes laikā**.
+3. Vienumu **Reizināšanas koeficients iestatiet** uz “10”. Reizināšanas koeficients tiek lietots, lai koriģētu priekšlikumu. Tā kā demonstrācijas datiem tikai dažas transakcijas, jums ir jāiestata šis koeficients, lai iegūtu reālistisku priekšlikumu.  
+4. Noklikšķiniet uz **Labi**. Ritiniet uz leju, lai atrastu M0002 un M0003. Skatiet kolonnu **Aprēķinātais minimālais** daudzums.   
 
 ## <a name="update-minimum-quantity"></a>Atjaunināt minimālo daudzumu
-1. Laukā Jaunais minimālais daudzums ievadiet kādu skaitli.
-    * Atjauniniet vērtību Jaunais minimālais daudzums, lai tā atbilstu vienuma Aprēķinātais minimālais daudzums vērtībai. Ja Aprēķinātais minimums ir nulle, varat ievadīt vēlamo nākotnes vērtību. Piemēram, šajā laukā varat ievadīt vērtību Aprēķinātais minimālais daudzums tādam M0002, kam ir noliktava 12.  
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Piemēram, varat atlasīt M0002, kam ir noliktava 12.  
-3. Laukā Jaunais minimālais daudzums ievadiet kādu skaitli.
-    * Atjauniniet vērtību Jaunais minimālais daudzums, lai tā atbilstu vienuma Aprēķinātais minimālais daudzums vērtībai. Ja Aprēķinātais minimums ir nulle, varat ievadīt vēlamo nākotnes vērtību.  
+1. Laukā **Jaunais minimālais daudzums** ievadiet kādu skaitli. Atjauniniet vērtību Jaunais minimālais daudzums, lai tā atbilstu vienuma Aprēķinātais minimālais daudzums vērtībai. Ja Aprēķinātais minimums ir nulle, varat ievadīt vēlamo nākotnes vērtību. Piemēram, šajā laukā varat ievadīt vērtību Aprēķinātais minimālais daudzums tādam M0002, kam ir noliktava 12.  
+2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Piemēram, varat atlasīt M0002, kam ir noliktava 12.  
+3. Laukā **Jaunais minimālais daudzums** ievadiet kādu skaitli. Atjauniniet vērtību Jaunais minimālais daudzums, lai tā atbilstu vienuma Aprēķinātais minimālais daudzums vērtībai. Ja Aprēķinātais minimums ir nulle, varat ievadīt vēlamo nākotnes vērtību.  
 
 ## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Grāmatot jauno minimālo daudzumu un validēt rezultātu
-1. Noklikšķiniet uz Grāmatot.
-2. Noklikšķiniet uz OK.
-3. Noklikšķiniet, lai sekotu saitei laukā Krājuma kods.
-4. Noklikšķiniet, lai sekotu saitei laukā Krājuma kods.
-5. Darbību rūtī noklikšķiniet uz Plānot.
-6. Noklikšķiniet uz Krājumu vajadzība.
-    * Ņemiet vērā, ka Minimālais daudzums ir atjaunināts ar jaunu minimālo daudzumu no drošības krājumu žurnāla.  
+1. Noklikšķiniet uz **Grāmatot**.
+2. Noklikšķiniet uz **Labi**.
+3. Noklikšķiniet, lai sekotu saitei laukā **Krājuma numurs**.
+4. Noklikšķiniet, lai sekotu saitei laukā **Krājuma numurs**.
+5. **Darbību rūtī** noklikšķiniet uz Plāns.
+6. Noklikšķiniet uz **Krājumu vajadzība**. Ņemiet vērā, ka **Minimālais daudzums** ir atjaunināts ar jaunu minimālo daudzumu no drošības krājumu žurnāla.  
 

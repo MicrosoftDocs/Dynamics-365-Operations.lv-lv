@@ -1,9 +1,9 @@
 ---
-title: " POS atļauju grupu izveide"
-description: Šajā procedūrā ir paskaidrots, kā izveidot POS atļauju grupu.
+title: POS atļauju grupu izveide
+description: Šajā tēmā ir paskaidrots, kā izveidot POS atļauju grupu.
 author: scott-tucker
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,41 +17,34 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e6782c60aa659523775cc6c4eb1694430a4bf4f
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566368"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914817"
 ---
-# <a name="create-pos-permission-groups"></a> POS atļauju grupu izveide
+# <a name="create-pos-permission-groups"></a>POS atļauju grupu izveide
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir paskaidrots, kā izveidot POS atļauju grupu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts mazumtirdzniecības operāciju pārvaldnieka lomai.
+Šajā tēmā ir paskaidrots, kā izveidot POS atļauju grupu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts mazumtirdzniecības operāciju pārvaldnieka lomai.
 
-1. Dodieties uz cilni Atļauju grupas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā POS atļauju grupas ID ierakstiet vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Skatīt darba laika uzskaites ierakstus atlasiet Jā.
-    * Tagad var iespējot vai atspējot dažādas atļaujas POS atļauju grupā. Daļai atļauju var iestatīt vērtību, kas tiks izmantota, lai novērtētu, vaI POS lietotājs var veikt darbību.  Šajā uzdevuma ceļvedī iespējosit dažas atļaujas, ko var piešķirt kasierim.  
-6. Laukā Ļaut izveidot pasūtījumu atlasiet Jā.
-7. Laukā Ļaut rediģēt pasūtījumu atlasiet Jā.
-8. Laukā Ļaut izgūt pasūtījumu atlasiet Jā.
-9. Laukā Atļaut paroles maiņu atlasiet Jā.
-10. Laukā Atļaut neskaidri slēgt maiņu atlasiet Jā.
-11. Noklikšķiniet uz Saglabāt.
-    * Pēc izmaiņu saglabāšanas ir jāpalaiž darbinieku sadales grafiks, lai izmaiņas tiktu lietotas mazumtirdzniecības kanāliem.  
-12. Aizvērt lapu.
-13. Dodieties uz cilni Darbi.
-    * Tagad POS atļauju grupu piešķirsim darbam.  
-14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-16. Noklikšķiniet uz Rediģēt.
-17. Izvērsiet sadaļu Darbu klasifikācija.
-18. Laukā POS atļauju grupa ievadiet vai atlasiet vērtību.
-    * Šīs POS atļauju grupas iestatījumus izmantos visi darbinieki ar šim darbam atbilstošu amatu, ja vien darbinieku POS atļaujas netika ignorētas to amata līmenī.  
-19. Noklikšķiniet uz Saglabāt.
-    * Pēc izmaiņu saglabāšanas ir jāpalaiž darbinieku sadales grafiks, lai izmaiņas tiktu lietotas mazumtirdzniecības kanāliem.  
+1. Navigācijas rūtī ejiet uz **Moduļi > Mazumtirdzniecība > Darbinieki > Atļauju grupas**.
+2. Atlasiet **Jauns**.
+3. Laukā **POS atļauju grupas ID** ierakstiet vērtību.
+4. Laukā **Apraksts** ierakstiet kādu vērtību.
+5. Atlasiet **Jā** laukā **Skatīt pulksteņa ierakstus**. Tagad var iespējot vai atspējot dažādas atļaujas POS atļauju grupā. Daļai atļauju var iestatīt vērtību, kas tiks izmantota, lai novērtētu, vaI POS lietotājs var veikt darbību. Šajā uzdevuma ceļvedī iespējosit dažas atļaujas, ko var piešķirt kasierim.  
+6. Atlasiet **Jā** laukā **Atļaut izveidot pasūtījumu**.
+7. Atlasiet **Jā** laukā **Atļaut rediģēt pasūtījumu**.
+8. Atlasiet **Jā** laukā **Atļaut izgūt pasūtījumu**.
+9. Atlasiet **Jā** laukā **Atļaut paroles maiņu**.
+10. Atlasiet **Jā** laukā **Atļaut aklo aizvēršanu**.
+11. Atlasiet **Saglabāt**. Pēc izmaiņu saglabāšanas ir jāpalaiž darbinieku sadales grafiks, lai izmaiņas tiktu lietotas mazumtirdzniecības kanāliem. 
+12. Navigācijas rūtī ejiet uz **Moduļi > Cilvēkresursi > Amati > Amati**.
+13. Tagad POS atļauju grupu piešķirsim darbam. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+14. Atlasiet **Rediģēt**.
+15. Izvērsiet sadaļu **Amata klasifikācija**.
+16. Laukā POS atļauju grupa ievadiet vai atlasiet vērtību. Šīs POS atļauju grupas iestatījumus izmantos visi darbinieki ar šim darbam atbilstošu amatu, ja vien darbinieku POS atļaujas netika ignorētas to amata līmenī.  
+17. Atlasiet **Saglabāt**. Pēc izmaiņu saglabāšanas ir jāpalaiž darbinieku sadales grafiks, lai izmaiņas tiktu lietotas mazumtirdzniecības kanāliem.  
 

@@ -1,9 +1,9 @@
 ---
 title: Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
-description: Šajā uzdevuma ceļvedī aprakstīts, kā izmantot rēķinu reģistru, lai izveidotu rēķinus.
+description: Šajā tēmā aprakstīts, kā lietot rēķinu reģistru, lai izveidotu rēķinus.
 author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,66 +15,56 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b870613512a8f4a5c19a0a05cd72b35ea32861b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f7d72c1d98100d1313109e8b5e55df02e2163174
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843221"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867706"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī aprakstīts, kā izmantot rēķinu reģistru, lai izveidotu rēķinus.  Pēc tam izmantojiet rēķinu kopu, lai saskaņotu rēķinu ar pirkšanas pasūtījumu un pabeigtu izdevumu kreditora rēķina lapā.
+Šajā tēmā aprakstīts, kā lietot rēķinu reģistru, lai izveidotu rēķinus. Pēc tam izmantojiet rēķinu kopu, lai saskaņotu rēķinu ar pirkšanas pasūtījumu un pabeigtu izdevumu kreditora rēķina lapā.
 
 
 ## <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
-1. Dodieties uz Kreditori > Pirkšanas pasūtījumi > Pirkšanas pasūtījumi.
-2. Lai izveidotu pirkšanas pasūtījumu, noklikšķiniet uz Jauns.
-3. Laukā Kreditora konts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. No saraksta atlasiet kreditoru. Piemēram, kreditors 1001.
-5. Noklikšķiniet uz Labi.
-6. Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet pakalpojumu krājuma numuru. Piemēram, atlasiet S0001.
-8. Noklikšķiniet uz krājuma numura un atlasiet to.
-    * Neto summa ir 75,00.  Tā ir summa, kuru sagaidām rēķinā.  
-9. Darbību rūtī noklikšķiniet uz Pirkšana.
-10. Noklikšķiniet uz Apstiprināt.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Pirkuma pasūtījumi > Pirkuma pasūtījumi**.
+2. Atlasiet **Jauns**, lai izveidotu pirkuma pasūtījumu.
+3. Laukā **Piegādātāja konts** nolaižamajā izvēlnē atlasiet piegādātāju. Piemēram, atlasiet piegādātāju **1001**.
+4. Atlasiet **Labi**.
+5. Laukā **Vienuma numurs** atlasiet pakalpojumu vienuma numuru no nolaižamās izvēlnes. Piemēram, atlasiet **S0001**. Neto summa ir 75,00.  Tā ir summa, kuru sagaidām rēķinā.  
+6. Darbību rūtī atlasiet **Iegādāties**.
+7. Atlasiet **Apstiprināt**.
 
 ## <a name="create-and-post-and-invoice"></a>Izveidot un grāmatot rēķinu
-1. Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu reģistrs.
-2. Noklikšķiniet uz Jauns.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Rēķini > Rēķinu reģistrs**.
+2. Atlasiet **Jauns**.
 3. Lai atlasītu nosaukumu rēķinu reģistram, kuru vēlaties izmantot, atveriet uzmeklēšanu.
 4. Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.
-5. Noklikšķiniet uz Rindas, lai atvērtu reģistru un ievadītu izdevumu rindas.
-6. Uzmeklēšanas skatā atlasiet kreditoru. Piemēram, noklikšķiniet uz kreditors 1001.
-7. Laukā Rēķins ievadiet rēķina numuru.
-8. Laukā Apraksts ierakstiet kādu vērtību.
-9. Laukā Kredīts ievadiet kādu skaitli.
-10. Laukā Pirkšanas pasūtījums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-11. Atlasiet iepriekš izveidoto pirkšanas pasūtījumu.
-12. Laukā Apstiprināja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-13. Iezīmējiet apstiprinātāju un noklikšķiniet uz Atlasīt, lai atlasītu šo apstiprinātāju.
-14. Noklikšķiniet uz Grāmatot.
-15. Aizveriet formu.
-16. Aizveriet formu.
+5. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas. 
+6. Uzmeklēšanas skatā atlasiet kreditoru. Piemēram, atlasiet piegādātāju **1001**.
+7. Laukā **Rēķins** ievadiet rēķina numuru
+8. Laukā **Apraksts** ierakstiet kādu vērtību.
+9. Laukā **Kredīts** ievadiet kādu skaitli.
+10. Laukā **Pirkuma pasūtījums** atveriet nolaižamo izvēlni, lai atlasītu pirkuma pasūtījumu, kuru pirms tam izveidojāt.
+11. Laukā **Apstiprināja** nolaižamajā sarakstā iezīmējiet apstiprinātāju un noklikšķiniet uz **Atlasīt**, lai atlasītu šo apstiprinātāju.
+12. Atlasiet **Grāmatot**.
 
 ## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>Lai pabeigtu rēķina izveides procesu, atveriet rēķinu no kopas un salīdziniet to ar pirkšanas pasūtījumu.
-1. Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu kopa.
-2. Lai no kopas rēķina izveidotu kreditora rēķinu, noklikšķiniet uz Pirkšanas pasūtījums.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Rēķini > Rēķinu kopa**.
+2. Atlasiet **Pirkuma pasūtījums**, lai izveidotu piegādātāja rēķinu no kopas rēķina.
 3. Atlasiet rēķinu, kuru vēlaties pārskatīt.
-4. Lai pabeigtu salīdzināšanu, noklikšķiniet uz Atjaunot atbilstības statusu.
-5. Darbību rūtī noklikšķiniet uz opcijas.
-6. Noklikšķiniet uz Mainīt skatījumu.
-7. Noklikšķiniet uz Režģa skats.
-8. Noklikšķiniet uz Grāmatot.
+4. Atlasiet **Atjaunināt salīdzinājuma statusu**, lai pabeigtu salīdzināšanu.
+5. Darbību rūtī atlasiet **Opcijas**.
+6. Atlasiet **Mainīt skatu**.
+7. Atlasiet **Režģa skats**.
+8. Atlasiet **Grāmatot**.
 9. Aizveriet formu.
-10. Dodieties uz Parādi kreditoriem > Kreditori > Kreditori.
-11. Atlasiet kreditoru, kuram tika sastādīts pirkšanas pasūtījums. Piemēram, atlasiet kreditors 1001.
-12. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-13. Darbību rūtī noklikšķiniet uz Kreditors.
-14. Noklikšķiniet uz Transakcijas.
-15. Atlasiet izveidoto rēķinu.
-    * Rēķinu reģistra uzkrāšana tika atsaukta un iegrāmatota atbilstošajā izdevumu kontā.  
+10. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Piegādātāji > Piegādātāji**.
+11. Atlasiet kreditoru, kuram tika sastādīts pirkšanas pasūtījums. Piemēram, atlasiet piegādātāju **1001**.
+12. Darbību rūtī atlasiet **Piegādātājs**.
+13. Atlasiet **Darbības**.
+14. Atlasiet izveidoto rēķinu. Rēķinu reģistra uzkrāšana tika atsaukta un iegrāmatota atbilstošajā izdevumu kontā.  
 

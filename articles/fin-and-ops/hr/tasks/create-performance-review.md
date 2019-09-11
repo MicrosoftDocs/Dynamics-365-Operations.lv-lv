@@ -1,9 +1,9 @@
 ---
-title: Veiktspējas pārskata izveide
-description: Šī procedūra parāda, kā izveidot veiktspējas pārskatu, un apraksta katras pārskata sadaļas mērķi.
+title: Veiktspējas pārskatu izveide
+description: Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,67 +16,66 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a387180386d65d31bf89004b374c43d377e7d349
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3583f974d1768e0efefb80f0ad8aa011669c1301
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508154"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867355"
 ---
-# <a name="create-a-performance-review"></a>Veiktspējas pārskata izveide
+# <a name="create-performance-reviews"></a>Veiktspējas pārskatu izveide
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šī procedūra parāda, kā izveidot veiktspējas pārskatu, un apraksta katras pārskata sadaļas mērķi. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
+Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus.
 
-1. Noklikšķiniet uz Darbinieku pašapkalpošanās.
-2. Noklikšķiniet uz Jauns pārskats, lai izveidotu jaunu pārskatu.
-3. Laukā Pārskata tips ievadiet vai atlasiet kādu vērtību.
-4. Laukā Veiktspējas periods ievadiet vai atlasiet kādu vērtību.
-5. Laukā Beigu datums ievadiet kādu datumu.
-6. Noklikšķiniet uz OK.
-    * Jūs varat arī izveidot pārskatu no veidnes. Tas ir labākais veids kā izveidot pārskatu, jo katrā sadaļā tiks ietverta informācija, kas ir nepieciešama, lai uzsāktu pārskatu.  
-7. Noklikšķiniet uz Rādīt sadaļas, lai atvērtu nolaižamo dialoglodziņu.
-8. Atlasiet Nē, laukā Rādīt pielikumus.
-9. Noklikšķiniet uz Saglabāt.
-    * Ņemiet vērā, ka pielikumu cilne tagad ir paslēpta.  
-10. Noklikšķiniet uz Rādīt sadaļas, lai atvērtu nolaižamo dialoglodziņu.
-11. Atlasiet Jā laukā Rādīt pielikumus.
-12. Noklikšķiniet uz Saglabāt.
-13. Noklikšķiniet uz Pievienot mērķi pārskatīšanai.
-14. Noklikšķiniet uz Atcelt.
-15. Noklikšķiniet uz Pievienot kompetenci, lai atvērtu nolaižamo dialoglodziņu.
-16. Laukā Virsraksts ierakstiet kādu vērtību.
-17. Laukā Apraksts, ievadiet 'Palielināt debitora prasmes, strādājot ar atbalsta komandu'.
-18. Noklikšķiniet uz OK.
-19. Noklikšķiniet uz Sakļaut visu.
-20. Noklikšķiniet uz Izvērst visu.
-21. Noklikšķiniet uz Pievienot komentāru.
-22. Noklikšķiniet uz Grāmatot.
-23. Noklikšķiniet uz cilnes Mērījumi.
-24. Noklikšķiniet uz Pievienot mērījumu, lai atvērtu nolaižamo dialoglodziņu.
-25. Laukā Mērījums ievadiet vai atlasiet kādu vērtību.
-26. Laukā mērķa summa ievadiet skaitli.
-27. Noklikšķiniet uz OK.
-28. Noklikšķiniet uz cilnes Aktivitātes.
-29. Noklikšķiniet uz Pievienot.
-30. Laukā Virsraksts ierakstiet kādu vērtību.
-31. Apraksta laukā ierakstiet vērtību.
-32. Laukā Sākuma datums ievadiet kādu datumu.
-33. Laukā Pabeigšanas datums ievadiet datumu.
-34. Atlasiet Jā laukā Attīstības plāns.
-35. Laukā Atslēgvārdi ievadiet vērtību.
-36. Noklikšķiniet uz Saglabāt.
-37. Noklikšķiniet uz cilnes Vērtējumi.
-    * Kopsavilkuma cilnes vērtējuma informācija ļauj darbiniekiem novērtēt sevi, un vadītājam novērtēt darbinieku. Ja tiek lietoti svari, automātiski tiks aprēķināta rādītāju vidējā vērtība.    Lai skatītu šo sadaļu, iespējojiet parametru iestatījumus, lai rādītu darbinieku vērtējumus.  
-38. Noklikšķiniet uz cilnes Izrakstīšanās.
-    * Ja pārskats izmanto darbplūsmu, izrakstīšanās tiks rādītas tikai pēc tam, kad darbplūsma tiek pabeigta. Ja darbplūsma netiek izmantota, tad gan darbinieks, gan vadītājs ir norādīti šeit. Nepieciešamā izvēles rūtiņa tiek atzīmēta, pamatojoties uz pārskata tipa iestatījumiem.  
-39. Noklikšķiniet uz cilnes Vispārīgi.
-    * Veiktspējas periodam izveido noklusējuma sākuma un beigu datumus. Šie datumi ir rediģējami.  
-    * Statusi kontrolē piekļuvi pārskatam. Statuss Nav sākts ļauj ikvienam rediģēt pārskatu. Statuss notiek izpilde ļauj tikai darbiniekam skatīt un rediģēt pārskatu. Gatavs pārskatīšanai ļauj tikai vadītājam skatīt un rediģēt pārskatu. Statuss Gala pārskats ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja tas ir iestatīts sadaļā pārskata tips. Statusi Pabeigts, Noraidīts vai Atcelts padara pārskatu tikai lasāmu.  
-40. Laukā Pārskats ierakstiet kādu vērtību.
-41. Noklikšķiniet uz cilnes Pārskats.
-    * Mainoties pārskata statusiem, darbinieks un vadītājs var pievienot komentārus katram mērķim un kompetencei.  
-42. Noklikšķiniet uz cilnes Izrakstīšanās.
-    * Darbinieks un vadītājs var izrakstīt pārskatu. Kad visas nepieciešamās izrakstīšanās ir pabeigtas, statuss tiek mainīts uz Pabeigts, un vairāk nevar veikt izmaiņas.  
+1. Sākumlapā izvēlieties **Darbinieka pašapkalpošanās** darbvietu.
+2. Lai izveidotu jaunu pārskatu, atlasiet **Jauns pārskats**.
+3. Ievadiet vai atlasiet vērtību laukā **Pārskata veids**.
+4. Ievadiet vai atlasiet vērtību laukā **Rezultātu periods**.
+5. Laukā **Beigu datums** ievadiet datumu.
+6. Atlasiet **Labi**. Jūs varat arī izveidot pārskatu no veidnes. Tas ir labākais veids kā izveidot pārskatu, jo katrā sadaļā tiks ietverta informācija, kas ir nepieciešama, lai uzsāktu pārskatu.  
+7. Varat parādīt vai paslēpt tādas cilnes ka pielikumu cilne.
+
+    1. Darbību rūtī atlasiet **Parādīt sadaļas**, lai atvērtu nolaižamo dialoglodziņu.
+    1. Atlasiet **Jā** vai **Nē** laukā **Rādīt pielikumus**, lai rādītu vai slēptu pielikumu cilni.
+    1. Atlasiet **Saglabāt**.
+
+8. Atlasiet **Mērķa pievienošana pārskatam**, lai pievienotu mērķi. Kad pabeigts, atlasiet **Labi**.
+9. Atlasiet **Pievienot kompetenci**, lai atvērtu nolaižamo dialoglodziņu.
+10. Laukā **Nosaukums** ievadiet vērtību. 
+11. Laukā **Apraksts** ievadiet `Increase customer skills by working with the support team`.
+12. Atlasiet **Labi**.
+13. Atlasiet **Sakļaut visas**.
+14. Atlasiet **Izvērst visas**.
+15. Atlasiet **Pievienot komentāru**.
+16. Atlasiet **Grāmatot**.
+17. Atlasiet cilni **Mērījumi**.
+18. Atlasiet **Pievienot mērījumu**, lai atvērtu nolaižamo dialoglodziņu.
+19. Ievadiet vai atlasiet vērtību laukā **Mērījums**.
+26. Laukā **Mērķa summa** ievadiet skaitli.
+20. Atlasiet **Labi**.
+21. Atlasiet cilni **Darbības**.
+22. Atlasiet **Pievienot**.
+23. Laukā **Nosaukums** ievadiet vērtību. 
+24. Laukā **Apraksts** ierakstiet kādu vērtību.
+25. Laukā **Sākuma datums** ievadiet datumu.
+26. Laukā **Pabeigšanas datums** ievadiet datumu.
+27. Atlasiet **Jā** laukā **Attīstības plāns**.
+28. Laukā **Atslēgvārdi** ievadiet vērtību.
+29. Atlasiet **Saglabāt**.
+30. Atlasiet cilni **Reitingi**.  
+
+    - Kopsavilkuma cilnē **Reitinga detaļas** darbinieki var novērtēt sevi, bet vadītāji novērtēt darbinieku. Ja tiek lietoti svari, automātiski tiks aprēķināta rādītāju vidējā vērtība.  
+    - Lai skatītu šo sadaļu, iespējojiet parametru iestatījumus, lai rādītu darbinieku vērtējumus.  
+
+31. Atlasiet cilni **Apstiprināšanas**. Ja pārskatā izmanto darbplūsmu, atteikšanās tiks parādītas tikai pēc darbplūsmas pabeigšanas. Ja darbplūsma netiek izmantota, tad gan darbinieks, gan vadītājs ir norādīti šeit. Nepieciešamā izvēles rūtiņa tiek atzīmēta, pamatojoties uz pārskata tipa iestatījumiem.  
+32. Atlasiet cilni **Vispārēji**.
+
+    - Veiktspējas periodam izveido noklusējuma sākuma un beigu datumus. Šie datumi ir rediģējami.  
+    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. Gatavs pārskatīšanai ļauj tikai vadītājam skatīt un rediģēt pārskatu. Statuss Gala pārskats ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja tas ir iestatīts sadaļā pārskata tips. Statusi **Pabeigts**, **Noraidīts** un **Atcelts** padara pārskatu par tikai skatāmu.  
+
+33. Laukā **Pārskats** ierakstiet vērtību.
+34. Atlasiet cilni **Pārskats**. Pārskatam pārvietojoties pa statusiem, darbinieks un vadītājs var pievienot komentārus katram mērķim vai kompetencei.  
+35. Atlasiet cilni **Apstiprināšanas**. Darbinieks un pārvaldnieks var apstiprināt pārskatu. Kad izpildītas visas apstiprināšanas, statuss tiek mainīts uz **Pabeigts** un vairāk izmaiņu nevar veikt.  
 

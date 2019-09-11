@@ -1,9 +1,9 @@
 ---
 title: ER Izveidot formāta konfigurāciju (2016. gada novembris)
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot formāta konfigurāciju Elektroniskajos pārskatos (ER).
+description: Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektroniskā pārskata (EK) formāta konfigurāciju.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1fd41b1724eb2e0405c0e7a7e0ff0aea4a945e0
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544775"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866806"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Izveidot formāta konfigurāciju (2016. gada novembris)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot formāta konfigurāciju Elektroniskajos pārskatos (ER). Šī formāta konfigurāciju noteiks to elektronisko dokumentu formātu, kas tiek izmantoti maksājumu apstrādei. Šajā piemērā jāuzveido parauga uzņēmuma Litware, Inc. formāta konfigurācija. Lai varētu veikt šīs darbības, vispirms jāizpilda procedūrā “Modeļa kartēšana izvēlētajos datu avotos” aprakstītās darbības.
+Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektroniskā pārskata (EK) formāta konfigurāciju. Šī formāta konfigurāciju noteiks to elektronisko dokumentu formātu, kas tiek izmantoti maksājumu apstrādei. Šajā piemērā jāuzveido parauga uzņēmuma Litware, Inc. formāta konfigurācija. Lai varētu veikt šīs darbības, vispirms jāizpilda procedūrā “Modeļa kartēšana izvēlētajos datu avotos” aprakstītās darbības.
 
 
 ## <a name="create-a-new-format-configuration"></a>Jaunas formāta konfigurācijas izveide
@@ -39,7 +39,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
  > [!NOTE]
  > Ja neredzat opciju **Izveidot konfigurāciju**, ir jāiespējo noformēšanas režīms lapā **Elektronisko pārskatu veidošanas parametri**. 
  
-5. Laukā **Jauns** ievadiet **Uz datu modeli PaymentModel balstīts formātsl**.
+5. Laukā **Jauns** ievadiet **Format based on data model PaymentModel**.
 6. Laukā **Nosaukums** ierakstiet **BAKS (UK fiktīvs)**.
 7. Laukā **Apraksts** ierakstiet **BAKS kreditora maksājuma formāts (UK fiktīvs)**.
     * Šeit tiek automātiski ievadīts aktīvais konfigurācijas nodrošinātājs. Šis nodrošinātājs varēs uzturēt šo konfigurāciju. Citi nodrošinātāji var izmantot šo konfigurāciju, bet nevar uzturēt to.  

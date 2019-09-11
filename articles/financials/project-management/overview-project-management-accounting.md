@@ -1,9 +1,9 @@
 ---
-title: Projektu vadība un uzskaite
+title: Projekta vadības un uzskaites pārskats
 description: Projekta vadības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai sniegtu pakalpojumus, ražotu preces vai sasniegtu rezultātu.
 author: KimANelson
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c30192e24f0475b5d75c90cc7457e929f4dac1ee
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7a039c168e14e92ebb266d52e00c09fa329f39ab
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838395"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865608"
 ---
-# <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
+# <a name="project-management-and-accounting-overview"></a>Projekta vadības un uzskaites pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -249,11 +249,11 @@ Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprē
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kopējās izmaksas – faktiskās</td>
+<td>Kopējās izmaksas — faktiskās</td>
 <td>Novērtētās izmaksas ir jāievada manuāli. Kad ir aizpildīta kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong>, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu izmaiņas netiek izsekotas, pamatojoties uz, piemēram, katrā periodā reģistrēto viesnīcas apmeklējumu un maltīšu skaitu. Tā vietā: izsekošanas parasti balstās uz salīdzinājumu ar novērtēto stundu kopējo summu. Šai pieejai nav nepieciešams budžeta modelis, un var manuāli mainīt kopējās izmaksas vai kopējo daudzumu. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> ir ievadīta kāda vērtība, programmatūra Finance and Operations salīdzina šo vērtību ar faktiskajām transakcijām, kas ir grāmatotas periodā, un pēc tam samazina vērtību kolonnā <strong>Daudzums pabeigšanai</strong> vai <strong>Pabeigšanas izmaksas</strong>.</td>
 </tr>
 <tr class="even">
-<td>Kopējais budžets – faktiskais</td>
+<td>Kopējais budžets — faktiskais</td>
 <td>Faktiskās izmaksas tiek salīdzinātas ar budžeta modeli, kuru atlasāt, lai noteiktu izmaksas. Šai metodei tiek izmantots kopējā budžeta modelis, kas ietver prognozētās darbības. Lai iegūtu precīzāku priekšstatu par projektu, varat pielāgot budžeta modeli projekta norises laikā. Ja prognoze ir jāpielāgo, veiciet šādas vispārējas darbības:
 <ol>
 <li>Kopējiet budžeta darbības uz citu budžeta modeli.</li>
@@ -376,8 +376,8 @@ Lapā **Izmaksu kontrole**, cilnē **Novirze** var aplūkot kopējo paredzēto i
 -   **Sākotnējais budžets** — summa, kas budžetā sākotnēji bija paredzēta atlasītajai izmaksu rindai. Sākotnējā budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
 -   **Kopējās izmaksas** — faktisko izmaksu, fiksēto izmaksu un atlikušā budžeta summa atbilstoši cilnē **Vispārīgi** norādītajai informācijai.
 -   **Novirze** — starpība starp kopējām izmaksām un sākotnējo budžetu.
--   **Novirze atkarībā no daudzuma** — kopējā starpība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var matemātiski izteikt kā (Kopējās prognozes daudzums) × (Sākotnējā vidējā cena – Kopējā vidējā cena). Šis aprēķins attiecas tikai uz projekta stundām.
--   **Novirze atkarībā no cenas** — kopējā starpība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var matemātiski izteikt kā (Sākotnējās prognozes cena) × (Sākotnējās prognozes daudzums – Kopējās prognozes daudzums). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Novirze atkarībā no daudzuma** — kopējā starpība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var matemātiski izteikt kā (Kopējās prognozes daudzums) × (Sākotnējā vidējā cena — Kopējā vidējā cena). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Novirze atkarībā no cenas** — kopējā starpība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var matemātiski izteikt kā (Sākotnējās prognozes cena) × (Sākotnējās prognozes daudzums — Kopējās prognozes daudzums). Šis aprēķins attiecas tikai uz projekta stundām.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Plānoto kopsummu skatījums
 
@@ -393,8 +393,8 @@ Lapā **Izmaksu kontrole**, cilnē **Novirze** var aplūkot starpību starp kop�
 -   **Sākotnējais budžets** — summa, kas budžetā sākotnēji bija paredzēta attiecīgajai izmaksu rindai. Sākotnējais budžets tiek aprēķināts lapā **Virsgrāmatas priekšskatījums**.
 -   **Kopējās budžeta izmaksas** — kopsumma, kas budžetā sākotnēji bija paredzēta attiecīgajai izmaksu rindai. Kopējās budžeta izmaksas tiek aprēķinātas lapā **Virsgrāmatas priekšskatījums**.
 -   **Novirze** — novirze izmaksu rindai. Šī summa tiek aprēķināta, atņemot kopējās izmaksas no sākotnējā budžeta.
--   **Novirze atkarībā no daudzuma** — kopējā starpība starp sākotnējo budžetu un kopējo budžetu. Šī summa tiek aprēķināta, atņemot kopējā budžeta stundu skaitu no sākotnējā budžeta stundu skaita un tad reizinot šo starpību ar sākotnējā budžeta izmaksu cenu. Šo starpību var matemātiski izteikt kā (Sākotnējā budžeta izmaksu cena) × (Sākotnējā budžeta stundu skaits – Kopējā budžeta stundu skaits). Šis aprēķins attiecas tikai uz projekta stundām.
--   **Novirze atkarībā no cenas** — summa tiek aprēķināta, atņemot kopējā budžeta stundu skaitu no sākotnējā budžeta stundu skaita un tad reizinot šo starpību ar kopējo patērēto stundu skaitu. Šo starpību var matemātiski izteikt kā (Kopējais patērtēto stundu skaits) × (Sākotnējā budžeta stundu skaits – Kopējā budžeta stundu skaits). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Novirze atkarībā no daudzuma** — kopējā starpība starp sākotnējo budžetu un kopējo budžetu. Šī summa tiek aprēķināta, atņemot kopējā budžeta stundu skaitu no sākotnējā budžeta stundu skaita un tad reizinot šo starpību ar sākotnējā budžeta izmaksu cenu. Šo starpību var matemātiski izteikt kā (Sākotnējā budžeta izmaksu cena) × (Sākotnējā budžeta stundu skaits — Kopējā budžeta stundu skaits). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Novirze atkarībā no cenas** — summa tiek aprēķināta, atņemot kopējā budžeta stundu skaitu no sākotnējā budžeta stundu skaita un tad reizinot šo starpību ar kopējo patērēto stundu skaitu. Šo starpību var matemātiski izteikt kā (Kopējais patērtēto stundu skaits) × (Sākotnējā budžeta stundu skaits — Kopējā budžeta stundu skaits). Šis aprēķins attiecas tikai uz projekta stundām.
 
 ### <a name="analyze-utilization"></a>Lietojuma analīze
 

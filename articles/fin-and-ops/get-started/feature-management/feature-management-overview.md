@@ -3,7 +3,7 @@ title: Līdzekļu pārvaldības pārskats
 description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862942"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887115"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -103,8 +103,9 @@ Visi līdzekļi, kurus var iespējot, tiks iespējoti. Ja līdzeklim nākotnē j
 
 Pēc noklusējuma visi līdzekļi, kas ir pievienoti jūsu videi, ir izslēgti, izņemot gadījumus, ja tie ir obligātie līdzekļi. Taču, ja vēlaties automātiski ieslēgt visus jaunos līdzekļus, varat izmantot nolaižamo sarakstu zem darbvietas nosaukuma, lai mainītu to, kas notiek pēc jaunu līdzekļu pievienošanas.
 
-- Atlasiet **Visi jaunie līdzekļi būs iespējoti pēc noklusējuma**, lai automātiski ieslēgtu visus jaunos līdzekļus, kad tie ir pievienoti jūsu videi.
-- Atlasiet **Visi jaunie līdzekļi būs atspējoti pēc noklusējuma**, lai automātiski izslēgtu visus jaunos līdzekļus, kad tie ir pievienoti jūsu videi.
+- Atlasiet **Automātiski iespējot jaunus līdzekļus**, lai automātiski ieslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
+- Atlasiet **Automātiski neiespējot jaunus līdzekļus**, lai pēc noklusējuma izslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
+
 
 Ja iespējosit visus līdzekļus automātiski, tas iespējos visus līdzekļus, kas tiktu iespējoti, noklikšķinot uz pogas **Iespējot visu**. Tas neiespējos līdzekļus, kuriem ir nepieciešams apstiprinājums, vai līdzekļus, kurus nevar iespējot līdz brīdim, kad tiek veikta darbība.
 

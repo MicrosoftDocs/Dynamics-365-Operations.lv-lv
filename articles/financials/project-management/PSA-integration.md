@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation
+title: Project Service Automation pārskats
 description: Šajā tēmā ir sniegta informācija par integrēšanas risinājumu programmas Project Service Automation integrēšanai programmā Finance and Operations. Šis integrācijas risinājums izmanto līdzekli Datu integrācija, lai sinhronizētu datus Microsoft Dynamics 365 for Finance and Operations un Microsoft Dynamics 365 for Project Service Automation instancēs, izmantojot pakalpojumu Common Data Service.
 author: KimANelson
 manager: AnnBe
-ms.date: 06/29/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1d6d0b219666bb31cf08da580c701f93d08389a
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 85dde35033122ad234ec8efd1bddf64b950578ef
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741226"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865632"
 ---
-# <a name="project-service-automation"></a>Project Service Automation
+# <a name="project-service-automation-overview"></a>Project Service Automation pārskats
 
 [!include[banner](../includes/banner.md)]
 

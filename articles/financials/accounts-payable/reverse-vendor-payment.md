@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837256"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867754"
 ---
 # <a name="reverse-a-vendor-payment"></a>Kreditoru maksājumu atcelšana
 
@@ -48,7 +48,7 @@ Lai uzzinātu, kādu metodi izmanto jūsu uzņēmums, skatiet lapu **Skaidras na
 Ja jūsu organizācija vēlas grāmatot čeku atgriešanas gadījumus uzreiz pēc noklikšķināšanas uz **Maksājuma atcelšana** lapā **Pārbaudīt**. Lapā **Skaidras naudas un bankas pārvaldības parametri** iestatiet opciju **Maksājumu atgriešanai izmantot pārskatīšanas procesu** uz **Nē**. Lapā **Pārbaudīt** varat atzīmēt šo izvēles rūtiņu, lai atceltu, un atlasiet **Maksājuma atcelšana**. Varat tad ievadīt atcelšanas datumu un atlasīt atcelšanas iemeslu.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Grāmatoto čeku atgriešana pēc to pārskatīšanas čeku atgriešanas žurnālā
-Ja jūsu organizācija vēlas pārbaudīt čeku atcelšanas pirms to iegrāmatošanas, izveidojiet čeku atcelšanas žurnālu un lapā **Skaidras naudas un bankas pārvaldības parametri** iestatiet opciju **Maksājumu atgriešanai izmantot pārskatīšanas procesu** uz **Jā**. Lapā **Pārbaudīt** varat atzīmēt šo izvēles rūtiņu, lai atceltu; atlasiet **Maksājuma atcelšana**. Varat tad ievadīt atcelšanas datumu un atlasīt atcelšanas iemeslu. Lai čeku anulēšanas žurnālā izveidotu žurnālu, ir jāatlasa žurnāla nosaukums.
+Ja jūsu organizācija vēlas pārbaudīt čeku atcelšanas pirms to iegrāmatošanas, izveidojiet čeku atcelšanas žurnālu un lapā **Skaidras naudas un bankas pārvaldības parametri** iestatiet opciju **Maksājumu atgriešanai izmantot pārskatīšanas procesu** uz **Jā**. Lapā **Pārbaudīt** varat atzīmēt šo izvēles rūtiņu, lai atceltu; atlasiet **Maksājuma atcelšana**. Varat tad ievadīt atcelšanas datumu un atlasīt atcelšanas iemeslu. Finanšu pamatojums ir jāiestata gan bankas, gan kreditoru tipiem. Lai čeku anulēšanas žurnālā izveidotu žurnālu, ir jāatlasa žurnāla nosaukums.
 
 ### <a name="review-a-reversal"></a>Pārlūkot atcelšanu
 

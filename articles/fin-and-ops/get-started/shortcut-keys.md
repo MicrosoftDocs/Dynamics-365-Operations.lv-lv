@@ -3,7 +3,7 @@ title: Īsinājumtaustiņi
 description: Šādas tastatūras īsinājumikonas ir lietotas sistēmā Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780062"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920655"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
@@ -155,8 +155,8 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Darbība                                                                   | Nospiediet                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atvērt hipersaiti                                                           | Ctrl+Enter                    |
-| Ievadīt sesijas datumu datuma laukā                                       | D+Tab                         |
-| Ievadīt pašreizējo datumu datuma laukā                                       | T+Tab                         |
+| Ievadīt sesijas datumu datuma laukā                                       | D                         |
+| Ievadīt pašreizējo datumu datuma laukā                                       | O                         |
 | Atvērt uzmeklēšanu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                         | Alt+bultiņa uz leju                |
 | Aizvērt uzmeklēšanu lodziņu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                        | Esc                           |
 | Aktivizēt uzmeklēšanas lodziņu (kad uzmeklēšanas lodziņš jau ir atvērts)                   | Alt+bultiņa uz leju                |

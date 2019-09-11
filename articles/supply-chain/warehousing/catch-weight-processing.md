@@ -3,7 +3,7 @@ title: Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 description: Šajā tēmā ir aprakstīts, kā izmantot darba veidnes un vietas direktīvas, lai noteiktu noliktavā veikta darba veidu un vietu.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836121"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887139"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -136,7 +136,6 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 
 - Pieļaujamā svara precēm netiek atbalstīta manuāla karantīnas pasūtījumu izveide.
 - Pieļaujamā svara precēm netiek atbalstīta ar darbu saistīta manuāla krājumu pārvietošana.
-- Pieļaujamā svara precēm netiek atbalstīta noliktavas vienību konsolidācija.
 - Pieļaujamā svara precēm netiek atbalstīta noliktavas vienības ielāde, lai inicializētu noliktavas krājumus.
 - Pieļaujamā svara precēm netiek atbalstīti partijas līdzsvarošanas procesi.
 - Pieļaujamā svara precēm netiek atbalstīta negatīva fizisko krājumu daudzuma apstrāde.
@@ -147,7 +146,6 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 - Pieļaujamā svara precēm netiek atbalstīta klastera izdošanas funkcionalitāte.
 - Pieļaujamā svara precēm netiek atbalstīta izdošanas un iepakošanas apstrāde noliktavā.
 - Pieļaujamā svara precēm var automātiski izpildīt darbu, kas ir definēts darba veidnē.
-- Pieļaujamā svara precēm netiek atbalstīta darba atsaukšanas funkcionalitāte.
 - Pieļaujamā svara precēm netiek atbalstīta tāda manuāla apstrāde iepakošanas stacijā, kuras ietvaros darbs tiek izveidots pēc konteineru slēgšanas.
 - Pieļaujamā svara precēm netiek atbalstīta atsevišķu vienību skenēšanas funkcionalitāte.
  

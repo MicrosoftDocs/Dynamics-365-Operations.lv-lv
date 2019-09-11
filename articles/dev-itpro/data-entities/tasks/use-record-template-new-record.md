@@ -3,7 +3,7 @@ title: Izmantot ieraksta veidni, lai izveidotu jaunu ierakstu
 description: Šajā procedūrā ir parādīts, kā izmantot iepriekš definētu ieraksta veidni, lai izveidotu jaunu ierakstu.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d15cfd426b94779891dc7ccd471baab0522abbab
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 8e420e2bb47ae18e20d35731339b53f0f890b247
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848235"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916003"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Izmantot ieraksta veidni, lai izveidotu jaunu ierakstu
 
@@ -29,13 +29,10 @@ ms.locfileid: "1848235"
 
 Šajā procedūrā ir parādīts, kā izmantot iepriekš definētu ieraksta veidni, lai izveidotu jaunu ierakstu. Lai izpildītu šo procedūru, jums vispirms ir jāizpilda procedūra “Izveidot ierakstu veidni, lai atvieglotu datu ievadi”.
 
-
-
 Šajā procedūrā tiek izmantoti uzņēmuma USMF dati.
 
-1. Pārejiet uz sadaļu Pamatlīdzekļi > Pamatlīdzekļi > Pamatlīdzekļi.
-2. Noklikšķiniet uz Jauns.
-    * Jums tiks piedāvāts atlasīt kādu veidni. Atlasiet tādu, kas atbilst jūsu biznesa vajadzībām.  
+1. **Navigācijas rūtī** pārejiet uz sadaļu **Moduļi > Pamatlīdzekļi > Pamatlīdzekļi > Pamatlīdzekļi**.
+2. Klikšķiniet **Jauns**. Jums tiks piedāvāts atlasīt kādu veidni. Atlasiet tādu, kas atbilst jūsu biznesa vajadzībām.  
 3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Noklikšķiniet uz OK.
+4. Noklikšķiniet uz **Labi**.
 

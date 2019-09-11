@@ -2,8 +2,8 @@
 title: Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 description: Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849513"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864298"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -113,6 +113,33 @@ ER formulas veidotāju var izmantot arī, lai ģenerētu faila nosaukumu ģener�
 - Izteiksme iespējo (atgriežot vērtību **TRUE**) faila izveides procesu partijām, kas ietver vismaz vienu ierakstu.
 
 [![Faila vadība](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Dokumentu satura kontrole
+
+ER formulu noformētāju var izmantot, lai konfigurētu izteiksmes, kuras kontrolē to, kādi dati tiks ievietoti ģenerētajos elektroniskajos dokumentos izpildlaikā. Izteiksmes var iespējot vai atspējot konkrētu formāta elementu izvadi atkarībā no apstrādes datiem un konfigurētās loģikas. Šo izteiksmi var ievadīt viena formāta elementam cilnes **Kartēšana** laukā **Iespējots** lapā **Operāciju noformētājs** kā loģikas nosacījums, kas atgriež **Būla** vērtību: 
+
+-   Ja tiek atgriezta vērtība **Patiess**, pašreizējais formāta elements ir izpildīts.
+-   Ja tiek atgriezta vērtība **Nepatiess**, pašreizējais formāta elements ir izlaists.
+
+Šajā ilustrācijā parādītas šāda veida izteiksmes (**ISO20022 Kredīta pārnese (NO)** formāta konfigurācijas versija **11.12.11**, kuru nodrošina Microsoft, ir piemērs). Formāta komponents **XMLHeader** ir konfigurēts, lai aprakstītu kredīta pārnes ziņojuma struktūru, ievērojot ISO 20022 XML ziņojumu standartus. Formāta komponents **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** ir konfigurēts, lai ģenerētajam ziņojumam pievienotu **Ustrd** XML elementu un ievietotu pārveduma formātu kā šādu XML elementu tekstu:
+
+-   Komponents **PaymentNotes** tiek izmantots, lai izvadītu tekstu no maksājuma piezīmēm.
+-   Komponents **DelimitedSequence** izvada ar komatu atdalītus rēķina numurus, kuri tiek izmantoti, lai veiktu doto kredīta pārnesi.
+
+[![Operāciju noformētājs](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Komponenti **PaymentNotes** un **DelimitedSequence** tiek marķēti, izmantojot jautājumzīmi. Tas nozīmē, ka abu komponentu izmantojums ir nosacījuma, pamatojoties uz šādiem kritērijiem:
+
+-   Izteiksme **@.PaymentsNotes<>""**, kas definēta komponentam **PaymentNote**, iespējo populāciju (atgriežot **TRUE**) uz XML elementu **Ustrd**, maksājuma piezīmju tekstu, kad šis teksts dotajam kredīta pārvedumam nav tukšs.
+
+[![Operāciju noformētājs](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Izteiksme **@.PaymentsNotes=""**, kas definēta komponentam **DelimitedSequence**, iespējo populāciju (atgriežot **TRUE**) uz XML elementu **Ustrd**, atdalīti ar komatu ir tie rēķina skaitļi, kas ir izmantoti, lai veiktu doto kredīta pārvedumu, kad maksājuma piezīmju teksts šim kredīta pārvedumam ir tukšs.
+
+[![Operāciju noformētājs](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Pamatojoties uz šo iestatījumu, ģenerētais ziņojums par katru debitora maksājumu — XML elements **Ustrd** — saturēs vai nu maksājuma piezīmju tekstu, vai, ja šis teksts ir tukšs, tekstu, kurā ar komatiem atdalīti rēķina numuri, kas izmantoti, lai veiktu šo maksājumu.
 
 ### <a name="basic-syntax"></a>Pamata sintakse
 
@@ -450,7 +477,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 
 ### <a name="logical-functions"></a>Loģiskas funkcijas
 
-| Funkcija | Apraksts | Paraugs |
+| Funkcija | Apraksts | Piemērs |
 |----------|-------------|---------|
 | CASE (izteiksme, 1. opcija, 1. rezultāts \[, 2. opcija, 2. rezultāts\] … \[, noklusējuma rezultāts\]) | Norādītās izteiksmes vērtību novērtēt pret norādītajām alternatīvajām opcijām. Atgriezt tās opcijas rezultātu, kas ir vienāda ar izteiksmes vērtību. Pretējā gadījumā atgriezt pēc izvēles ievadīto noklusējuma rezultātu, ja noklusējuma rezultāts ir norādīts. (Noklusējuma rezultāts ir pēdējais parametrs, kura priekšā neatrodas opcija.) | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** atgriež virkni **"WINTER"**, ja pašreizējās Finance and Operations sesijas datums ir diapazonā no oktobra līdz decembrim. Pretējā gadījumā šī izteiksme atgriež tukšu virkni. |
 | IF (nosacījums, 1. vērtība, 2. vērtība) | Atgriezt pirmo norādīto vērtību, ja norādītais nosacījums tiek izpildīts. Pretējā atgriezt otro norādīto vērtību. Ja 1. vērtība un 2. vērtība ir ieraksti vai ierakstu saraksti, rezultātā ir ietverti tikai tie lauki, kas ir iekļauti abos sarakstos. | **IF (1=2, "nosacījums tiek izpildīts", "nosacījums netiek izpildīts")** atgriež virkni **"nosacījums netiek izpildīts"**. |

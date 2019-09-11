@@ -1,9 +1,9 @@
 ---
-title: Preces konfigurācija atbilstoši dimensijām
+title: No dimensijām atkarīgas preču konfigurācijas pārskats
 description: No dimensijām atkarīga preču konfigurācija ir vienkāršs risinājums, kā no viena preces šablona un tā materiālu komplekta izveidot daudzus preču variantus.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb2690ec5296f65430268a211108551348a4a060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ca7e5555a242c10d2268182ed440e686a1dc46ad
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555958"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865356"
 ---
-# <a name="dimension-based-product-configuration"></a>Preces konfigurācija atbilstoši dimensijām
+# <a name="dimension-based-product-configuration-overview"></a>No dimensijām atkarīgas preču konfigurācijas pārskats
 
 [!include [banner](../includes/banner.md)]
 

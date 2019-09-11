@@ -1,9 +1,9 @@
 ---
 title: Sūtījuma papildināšanas pasūtījuma izveide
-description: Šajā procedūrā parādīts kā izveidot jaunu sūtījuma papildināšanas pasūtījumu, lai jūs varētu izsekot paredzēto piegādi no kreditora jūsu sūtījumu krājumā.
+description: Šajā tēmā aprakstīts, kā izveidot sūtījuma papildināšanas pasūtījumu, kur varat izsekot paredzamo piegādi no piegādātāja jūsu sūtījumu krājumos.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,58 +17,48 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cf2e8f742fee2dedaac72902d207af0081700ca
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845550"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914789"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Sūtījuma papildināšanas pasūtījuma izveide
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts kā izveidot jaunu sūtījuma papildināšanas pasūtījumu, lai jūs varētu izsekot paredzēto piegādi no kreditora jūsu sūtījumu krājumā. Tajā ir arī parādīts kā reģistrēt preču saņemšanu, lai sūtījumu krājums ir reģistrēts kā rīcībā esošos krājums, kas pieder kreditoram. Šo procedūru parasti veic sagādes speciālists. Šo ceļvedi var izmantot demonstrācijas datu uzņēmumā USMF. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
-
-
-
+Šajā tēmā aprakstīts, kā izveidot sūtījuma papildināšanas pasūtījumu, kur varat izsekot paredzamo piegādi no piegādātāja jūsu sūtījumu krājumos. Tajā ir arī parādīts kā reģistrēt preču saņemšanu, lai sūtījumu krājums ir reģistrēts kā rīcībā esošos krājums, kas pieder kreditoram. Šo procedūru parasti veic sagādes speciālists. Šo ceļvedi var izmantot demonstrācijas datu uzņēmumā USMF. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
 ## <a name="create-a-consignment-replenishment-order"></a>Sūtījuma papildināšanas pasūtījuma izveide
-1. Dodieties uz Sagāde un avoti > Sūtījums > Sūtījuma papildināšanas pasūtījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Kreditora konts atlasiet kreditoru US-104.
-    * Nepieciešams atlasīt kreditoru, kas ir reģistrēts kā īpašnieks lapā Krājumu īpašnieki.  
-4. Noklikšķiniet uz OK.
-5. Noklikšķiniet uz Pievienot rindu.
-6. Laukā Krājuma kods ierakstiet M9211CI.
-    * Atlasiet vienumu, kas ir iestatīts sūtījuma krājumam.  
-7. Laukā Daudzums ievadiet skaitli.
-8. Laukā Pieprasītais piegādes datums ievadiet datumu.
-    * Pieprasītos un apstiprinātos datumus izmanto MRP programma preču saņemšanas paredzēšanai.  
-9. Laukā Apstiprinātais piegādes datums ievadiet datumu.
-10. Izvērsiet sadaļu Detalizēta informācija par rindu.
-11. Noklikšķiniet uz cilnes Krājumu dimensijas.
-12. Atsvaidziniet lapu, lai parādītu īpašnieku laukā Krājuma dimensijas īpašnieks.
-    * Kreditors US-104 tagad ir norādīts kā īpašnieks.  
+1. Navigācijas rūtī ejiet uz **Moduļi > Iepirkumi un ārpakalpojumi > Sūtījums > Sūtījuma papildināšanas pasūtījums**.
+2. Atlasiet **Jauns**.
+3. Laukā **Piegādātāja konts** atlasiet piegādātāju **US-104** (jums jāizvēlas piegādātājs, kas ir reģistrēts kā īpašnieks lapā **krājumu īpašnieki**). 
+4. Atlasiet **Labi**.
+5. Atlasiet **Pievienot rindu**.
+6. Laukā **Vienuma numurs** ierakstiet `M9211CI` (jums ir jāatlasa vienums, kas iestatīts sūtījuma krājumam).
+7. Laukā **Daudzums** ierakstiet kādu skaitli.
+8. Laukā **Pieprasītais piegādes datums** ievadiet datumu. Pieprasītos un apstiprinātos datumus izmanto MRP programma preču saņemšanas paredzēšanai.  
+9. Laukā **Apstiprinātais piegādes datums** ievadiet datumu.
+10. Izvērsiet sadaļu **Detalizēta informācija par rindu**.
+11. Atlasiet cilni **Krājumu izmēri**.
+12. Lai parādītu īpašnieku laukā **Krājumu izmēru īpašnieks**, atsvaidziniet lapu. Kreditors US-104 tagad ir norādīts kā īpašnieks.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Pārbaudiet krājumu darbības statusu
-1. Noklikšķiniet uz Krājumi.
-2. Noklikšķiniet uz Transakcijas.
-3. Sarakstā atzīmējiet atlasīto rindu.
-    * Ievērojiet, ka saņemšanas lauks ir iestatīts uz Pasūtīts.  
+1. Atlasiet **Krājumi**.
+2. Atlasiet **Darbības**.
+3. Vajadzīgajā rindā ņemiet vērā, ka lauks **Saņemšana** ir iestatīts kā **Pasūtīts**.  
 4. Aizvērt lapu.
 
 ## <a name="receive-items"></a>Saņemt krājumus
-1. Noklikšķiniet uz Produktu ieejas plūsma.
-2. Laukā Ārējā produktu ieejas plūsma ierakstiet kādu vērtību.
-3. Laukā Daudzums ievadiet skaitli, kas ir mazāks par skaitli, kas ir norādīts šeit. 
-4. Noklikšķiniet uz OK.
+1. Atlasiet **Preču ieejas plūsma**.
+2. Laukā **Ārējā produkta saņemšana** ierakstiet vērtību.
+3. Laukā **Daudzums** ievadiet skaitli, kas mazāks par tur parādīto skaitli. 
+4. Atlasiet **Labi**.
 
 ## <a name="check-the-on-hand-inventory"></a>Pārbaudiet rīcībā esošo krājumu
-1. Noklikšķiniet uz Krājumi.
-2. Noklikšķiniet uz Rīcībā esošie krājumi.
-3. Noklikšķiniet uz Pārskats.
-    * Krājumus, kas tika saņemti kā sūtījumu krājumi, kas pieder kreditoram, ir pieejami rīcībā esoši. Sūtījuma papildināšanas pasūtījuma Atlikušais daudzums tiek parādīts laukā Pasūtīts kopā.  
+1. Atlasiet **Krājumi**.
+2. Atlasiet **Rīcībā**.
+3. Atlasiet **Pārskats**. Krājumus, kas tika saņemti kā sūtījumu krājumi, kas pieder kreditoram, ir pieejami rīcībā esoši. Sūtījuma papildināšanas pasūtījuma atlikušais daudzums tiek rādīts laukā **Pasūtīts pavisam**.  
 4. Aizvērt lapu.
-5. Noklikšķiniet uz Aizvērt.
 

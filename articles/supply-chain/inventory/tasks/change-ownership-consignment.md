@@ -3,7 +3,7 @@ title: Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas 
 description: Šajā procedūrā parādīts kā nomainīt sūtījuma krājumu īpašnieku no kreditora uz jūsu juridisko personu, ja ražošanā ir pieprasījums pēc krājuma.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9587d39801ad39649aa5fa3ff682cdeab411516e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838803"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874881"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu
 
@@ -30,6 +30,8 @@ ms.locfileid: "1838803"
 
 Šajā procedūrā parādīts kā nomainīt sūtījuma krājumu īpašnieku no kreditora uz jūsu juridisko personu, ja ražošanā ir pieprasījums pēc krājuma. Šī īpašumtiesību maiņa notiek, izveidojot un grāmatojot krājumu īpašumtiesību izmaiņu žurnālu. Īpašumtiesību izmaiņu žurnāla rindas var izveidot manuāli, vai, kā norādīts šajā ierakstā, pamatojoties uz esošo ražošanas pieprasījumu. Parasti ražotnes vadītājs veic šo uzdevumu. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Ja izmantojat savus datus, pārliecinieties, ka ir izpildīti šādi priekšnosacījumi: krājumu žurnāla nosaukums, kas ir iestatīta krājumu īpašumtiesību izmaiņai, fiziski reģistrēti kreditoram piederoši rīcībā esoši krājumi, un viena vai vairākas ražošanas pasūtījuma rindas materiālam. Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
+> [!NOTE]
+> Ārējo sūtījumu procesi netiek atbalstīti iebūvētajā versijā, un automātiskā īpašumtiesību žurnāla apstrāde netiek atbalstīta.
 
 ## <a name="create-an-inventory-ownership-journal"></a>Izveidot krājumu īpašumtiesību žurnālu
 1. Dodieties uz Krājumu vadība > Žurnāla ieraksti > Krājumi > Krājumu īpašumtiesību izmaiņas.

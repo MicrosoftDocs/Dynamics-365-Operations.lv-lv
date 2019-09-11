@@ -3,7 +3,7 @@ title: Pārvaldības struktūrvienības izveide
 description: Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755573"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874907"
 ---
 # <a name="create-an-operating-unit"></a>Pārvaldības struktūrvienības izveide
 
@@ -40,5 +40,5 @@ Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalīt
     + Ievadiet informāciju par adresi, tādu kā ielas nosaukumu un numuru, pasta indeksa kodu un pilsētu. Noklikšķiniet uz **Pievienot**, lai ievadītu jaunu adreses ierakstu, vai noklikšķiniet uz Rediģēt, lai mainītu jau esošu adreses ierakstu.   
     + Ja nepieciešams, izvērsiet sadaļu **Kontaktinformācija**.  
     + Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus. Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns. Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz **Vairāk opciju > Detalizēti**.   
-6. Noklikšķiniet uz **Saglabāt**.
-
+6. Ir arī iespēja mainīt **Operatīvās struktūrvienības numuru** pēc vajadzības. Ņemiet vērā, ka šis numurs ir unikāls identifikators atbilstīgajam **Puses** ierakstam un nevar būt tāds pats kā cita operatīva struktūrvienība.
+7. Atlasiet **Saglabāt**.

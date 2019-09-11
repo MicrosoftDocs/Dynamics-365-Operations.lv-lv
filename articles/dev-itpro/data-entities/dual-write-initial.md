@@ -1,6 +1,6 @@
 ---
-title: Izpildes rīkojums Finance and Operations un Common Data Service sākotnējai sinhronizācijai
-description: Šajā tēmā ir norādīta sinhronizācijas secība, kas jāizpilda, lai izveidotu sākotnējos datus.
+title: Izpildes pasūtījums programmu Finance and Operations un Common Data Service sākotnējai sinhronizācijai.
+description: Šajā tēmā ir norādīta sinhronizācijas kārtība, kura ir jāievēro sākotnējo datu izveidei.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,50 +19,55 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b74bc2d3133af7e87663a4e6bafb8780e0a6a66f
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 1473c3bad55734d5f83ee3e4c1654921b872f3bb
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797302"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873132"
 ---
-# <a name="execution-order-for-initial-sychronization-of-finance-and-operations-and-common-data-service"></a>Izpildes rīkojums Finance and Operations un Common Data Service sākotnējai sinhronizācijai
+# <a name="execution-order-for-initial-synchronization-of-finance-and-operations-and-common-data-service"></a>Izpildes pasūtījums programmu Finance and Operations un Common Data Service sākotnējai sinhronizācijai.
 
-Pirms datu integrācijas izmantošanas ir jāizveido sākotnējie dati, kas nepieciešami debitoriem, kreditoriem un kontaktpersonām. Piemēram, ja vēlaties izveidot jaunu vienumu **Kreditoru grupa** un iestatīt tās **Maksāšanas nosacījumus** kā **Net30**, tad, pirms mēģināt izveidot vienumu **Kreditoru grupa**, pārliecinieties, vai **Net30** pastāv gan Finance and Operations, gan Common Data Service. (Turpmāk mēs izlaidīsim duāla ieraksta platformas funkcionalitāti, ko sauc par **Sākotnējo sinhronizāciju.** Tā vienu reizi veiks datu sinhronizāciju starp Finance and Operations un Common Data Service kā daļu no duālā ieraksta iestatīšanas.)
+[!include [banner](../includes/banner.md)]
 
-Padomi: mēs izlaižam duālā ieraksta karti visiem atsauces datiem, tostarp **Maksāšanas nosacījumiem** (Samaksas noteikumi). Ja jums jau ir sākotnējie dati vienā sistēmā, neliela atjaunināšanas operācija ierakstā var izraisīt duālu ierakstu par šo ierakstu. 
+[!include [preview](../includes/preview-banner.md)]
 
-Jums jāievēro šāda prioritārā secība un jāpārliecinās, ka sākotnējie dati ir pieejami gan programmā Finance and Operations, gan Common Data Service.   
+Pirms datu integrācijas izmantošanas izveidojiet sākotnējos datus, kas nepieciešami klientiem, piegādātājiem un kontaktpersonām. Piemēram, jūs vēlaties izveidot jaunu vienumu **Piegādātāju grupa** un iestatīt tās vērtību **Apmaksas nosacījumi** uz **Net30**. Šajā gadījumā pirms mēģināt izveidot vienumu **Piegādātāju grupa**, nodrošiniet, lai **Net30** ir atrodams gan programmā Microsoft Dynamics 365 for Finance and Operations, gan Common Data Service. (Nākotnē korporācija Microsoft izlaidīs duālās rakstīšanas funkcionalitāti ar nosaukumu Sākotnējā sinhronizācija. Šī funkcionalitāte veiks vienreizēju datu sinhronizāciju starp programmām Finance and Operations un Common Data Service duālās rakstīšanas iestatīšanas gaitā.)
+
+> [!TIP]
+> Korporācija Microsoft izlaiž duālās rakstīšanas kartējumu visiem atsauces datiem, tostarp **Apmaksas nosacījumiem** (maksājuma nosacījumiem). Ja jums jau ir sākotnējie dati vienā sistēmā, neliela atjaunināšanas operācija ierakstā var izraisīt duālu ierakstu par šo ierakstu.
+
+Jums ir jāievēro šāda prioritārā secība, lai nodrošinātu, ka sākotnējie dati ir pieejami gan programmā Finance and Operations, gan Common Data Service.
 
 ## <a name="vendor"></a>Kreditors
 
-Izpildes secība kreditoram ir šāda:
+Izpildes secība entītijai **Piegādātājs**:
 
-```
-Vendor Group
-    Terms of payment
-        Payment day & lines
-        Payment schedule
-Vendor payment method
-```
+1. Kreditoru grupa
+
+    1. Apmaksas nosacījumi
+
+        1. Maksāšanas diena un rindas
+        2. Maksājumu grafiks
+
+2. Piegādātāja maksāšanas metode
 
 ## <a name="customer-organization"></a>Debitors (Organizācija)
 
-Izpildes secība debitoram ir šāda:
+Izpildes secība entītijai **Klients**:
 
-```
-Customer Group
-    Terms of payment
-        Payment day & lines
-        Payment 
-Customer payment method
-```
+1. Debitoru grupa
+
+    1. Apmaksas nosacījumi
+
+        1. Maksāšanas diena un rindas
+        2. Maksājums 
+
+2. Debitora maksāšanas metode
 
 ## <a name="contact-person"></a>Kontaktpersona
 
-Izpildes secība kontaktpersonai ir šāda:
+Izpildes secība entītijai **Kontaktpersona**:
 
-```
-Customer
-Vendor               
-```
+1. Debitors
+2. Kreditors
