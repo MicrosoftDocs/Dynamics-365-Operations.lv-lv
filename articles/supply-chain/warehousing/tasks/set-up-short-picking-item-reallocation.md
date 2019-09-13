@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3c635c32a53226da6ce72db86ee7d9d0c17bdb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847091"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916764"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
 
@@ -32,25 +32,20 @@ ms.locfileid: "1847091"
 
 
 ## <a name="set-up-work-exceptions"></a>Iestatīt darba izņēmumus
-1. Dodieties uz Noliktavas vadība > Iestatīšana > Darbs > Darba izņēmumi.
-2. Noklikšķiniet uz Jauns.
-    * Ir iespējams definēt vairākus darba izņēmumus ar dažādām krājumu pārdales politikām, kas ļauj noliktavas darbiniekam izvēlieties vienu, pamatojoties uz kravas apstrādes vajadzībām.  
-3. Laukā Darba izņēmuma kods ierakstiet vērtību.
-    * Piešķiriet darba izņēmumam nosaukumu, lai norādītu, kādam nolūkam tas tiek izmantots. Piemēram, Saīsinātas izdošanas rokasgrāmata.  
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Izņēmuma tips atlasiet 'Saīsinātā izdošana'.
-6. Atlasiet izvēles rūtiņu Krājumu koriģēšana.
-    * Šī opcija norāda, ka krājumi tiks automātiski noregulēti uz vērtību 0 saīsinātas izdošanas atrašanās vietā.  
-7. Laukā Noklusējuma korekcijas veida kods ievadiet vai atlasiet kādu vērtību.
-    * Piemēram, izmantojot USMF, jūs varat atlasīt 'Noņemt Res Adj Out'.  
-8. Laukā Krājuma atkārtots sadalījums atlasiet 'Manuāls'.
-    * Ja atlasāt Manuāls vai Automātisks un manuāls, noliktavas darbiniekam jāļauj izmantot manuālu atkārtotu sadali.  
+1. Sadaļā **Navigācijas rūts** pārejiet uz **Noliktavas pārvaldība > Iestatīšana > Darba > Darba izņēmumi**.
+2. Klikšķiniet **Jauns**. Ir iespējams definēt vairākus darba izņēmumus ar dažādām krājumu pārdales politikām, kas ļauj noliktavas darbiniekam izvēlieties vienu, pamatojoties uz kravas apstrādes vajadzībām.  
+3. Laukā **Darba izņēmuma kods** ierakstiet vērtību. Piešķiriet darba izņēmumam nosaukumu, lai norādītu, kādam nolūkam tas tiek izmantots. Piemēram, Saīsinātas izdošanas rokasgrāmata.  
+4. Laukā **Apraksts** ierakstiet kādu vērtību.
+5. Laukā **Izņēmuma veids** atlasiet 'Saīsinātā izdošana'.
+6. Atlasiet izvēles rūtiņu **Krājumu koriģēšana**. Šī opcija norāda, ka krājumi tiks automātiski noregulēti uz vērtību 0 saīsinātas izdošanas atrašanās vietā.  
+7. Laukā **Noklusējuma korekcijas veida kods** ievadiet vai atlasiet kādu vērtību. Piemēram, izmantojot USMF, jūs varat atlasīt 'Noņemt Res Adj Out'.  
+8. Laukā **Krājuma atkārtots sadalījums** atlasiet 'Manuāls'. Ja atlasāt Manuāls vai Automātisks un manuāls, noliktavas darbiniekam jāļauj izmantot manuālu atkārtotu sadali.  
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Iestatīt darbinieku manuālas krājuma atkārtotas sadales izmantošanai
 1. Aizvērt lapu.
-2. Dodieties uz Noliktavas vadība > Iestatīšana > Nodarbinātais.
-3. Noklikšķiniet uz Rediģēt.
+2. Sadaļā **Navigācijas rūts** pārejiet uz **Noliktavas pārvaldība > Iestatīšana > Nodarbinātais**.
+3. Noklikšķiniet uz **Rediģēt**.
 4. Sarakstā atlasiet darbinieks 24.
-5. Izvērsiet sadaļu Darbs.
-6. Atlasiet Jā laukā Atļaut manuālu krājuma atkārtotu sadali.
+5. Izvērsiet kopsavilkuma cilni **Darbs**.
+6. Atlasiet 'Jā' laukā **Atļaut manuālu krājuma atkārtotu sadali**.
 

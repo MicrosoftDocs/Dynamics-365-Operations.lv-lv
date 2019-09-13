@@ -1,9 +1,9 @@
 ---
-title: Piedāvājumu pieprasījumi (RFQ)
+title: Piedāvājuma pieprasījumu pārskats
 description: Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/21/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742543"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865284"
 ---
-# <a name="requests-for-quotation-rfqs"></a>Piedāvājumu pieprasījumi (RFQ)
+# <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -103,7 +103,7 @@ Lapā **Sagādes un avotu parametri** varat atlasīt veidni, ko izmantot kredito
 
 -   %Datums%
 
-Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls%i tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Uzņēmums% vērtības tiek automātiski iegūtas no PP. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
+Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls% tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Uzņēmums% vērtības tiek automātiski iegūtas no PP. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
 
 Ja kādu piedāvājuma pieprasījumu vēlaties atcelt pēc tam, kad tas ir nosūtīts, to var izdarīt no piedāvājuma pieprasījuma gadījuma. Lai atceltu, ir nepieciešama e-pasta veidne, ar kuru kreditoru kontaktpersonām sūtīt paziņojumu par atcelšanu. Veidnei ir jābūt atlasītai lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tajā var būt tālāk norādītie aizstāšanas marķieri.
 

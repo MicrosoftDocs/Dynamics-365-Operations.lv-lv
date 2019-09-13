@@ -3,7 +3,7 @@ title: Kreditora bankas konta izveide
 description: Šajā procedūrā ir parādīts, kā izveidot bankas kontu kreditoram.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dc744ea8ac2ca9beb230977fef7608fdc9c2891
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c8dd3664d86ffdb8bf731a6ff1e0ed60b50eed61
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844063"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916833"
 ---
 # <a name="create-a-vendor-bank-account"></a>Kreditora bankas konta izveide
 
@@ -29,38 +29,32 @@ ms.locfileid: "1844063"
 
 Šajā procedūrā ir parādīts, kā izveidot bankas kontu kreditoram. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF.
 
-1. Pārejiet uz sadaļu Sagāde un avoti > Kreditori > Visi kreditori.
-2. Atlasiet kreditoru, kuram vēlaties izveidot bankas kontu, un pēc tam noklikšķiniet uz saites vienumā Kreditora konta ID.
-3. Darbību rūtī noklikšķiniet uz Kreditors.
-4. Noklikšķiniet uz Banku konti.
-5. Noklikšķiniet uz Jauns.
-6. Ierakstiet vērtību laukā Bankas konts.
-    * Šis ID tiks izmantots, lai identificētu bankas kontu kreditora ierakstam.  
-7. Laukā Nosaukums ierakstiet kādu vērtību.
-8. Ievadiet vai atlasiet vērtību laukā Banku grupas.
-9. Atlasiet kādu opciju laukā Maršrutēšanas numura tips.
-    * Šis ir maršrutēšanas numura tips, kas tiek izmantots starptautiskajiem maksājumiem.  
-10. Laukā Bankas konta numurs ierakstiet vērtību.
-11. Ierakstiet vērtību laukā SWIFT kods.
-12. Ievadiet vērtību laukā IBAN.
-    * IBAN numuram ir jābūt pareizajā formātā. Piemēram, varat izmantot DE89370400440532013000.  
-    * Bankas konta statuss ir Aktīvs, ja ir sasniegts Aktīvais datums un nav pārsniegts Beigu datums. Tas ir aktīvs arī tad, ja ir tukšs gan lauks Aktīvais datums, gan lauks Beigu datums. Ja gan lauka Aktīvais datums, gan lauka Beigu datums datumi vēl nav pienākuši, tad elektroniskie maksājumi nav pieejami. Citi maksājumu tipi ir pieejami un šis bankas konts ir aktīvs.  
-13. Izvērsiet sadaļu Iestatīšana.
-14. Ierakstiet kādu vērtību laukā Teksta kods.
-    * Šajā laukā ir norādīts kods, kas būs redzams saņēmēja bankas izrakstā.  
-15. Ierakstiet kādu vērtību laukā Ziņojums bankai.
-16. Ierakstiet kādu vērtību laukā Maiņas kursa atsauce.
-    * Šis ir atsauces numurs jebkuram turpmākā vai fiksēta termiņa maiņas kursam.  
-17. Laukā Valūta ievadiet vai atlasiet kādu vērtību.
-    * Kad tiek izsniegtas pārbaudes, šajā sadaļā ir sniegts apskats par to statusu (gaida vai apstiprināts).  
-18. Izvērsiet sadaļu Adrese.
-19. Izvērsiet atlasi Pārbaudes.
-20. Izvērsiet sadaļu Kontaktinformācija.
-21. Laukā Tālrunis ierakstiet kādu vērtību.
+1. Ejiet uz **Navigācijas rūts > Moduļi > Iepirkumi un ārpakalpojumi > Piegādātāji > Visi piegādātāji**.
+2. Atlasiet piegādātāju, kam vēlaties izveidot bankas kontu, un tad noklikšķiniet uz saites **Piegādātāja konta ID**.
+3. **Darbību rūtī** noklikšķiniet uz **Piegādātājs**.
+4. Noklikšķiniet uz **Bankas konti**.
+5. **Darbību rūtī** noklikšķiniet uz **Jauns**.
+6. Laukā **Bankas konts** ierakstiet vērtību. Šis ID tiks izmantots, lai identificētu bankas kontu kreditora ierakstam.  
+7. Laukā **Nosaukums** ierakstiet kādu vērtību.
+8. Laukā **Banku grupas** ievadiet vai atlasiet vērtību.
+9. Laukā **Maršrutēšanas numura veids** atlasiet opciju. Šis ir maršrutēšanas numura tips, kas tiek izmantots starptautiskajiem maksājumiem.  
+10. Laukā **Bankas konta numurs** ierakstiet vērtību.
+11. Laukā **SWIFT kods** ievadiet vērtību.
+12. Laukā **IBAN** ievadiet vērtību.
+    - IBAN numuram ir jābūt pareizajā formātā. Piemēram, varat izmantot DE89370400440532013000.  
+    - Bankas konta statuss ir Aktīvs, ja ir sasniegts Aktīvais datums un nav pārsniegts Beigu datums. Tas ir aktīvs arī tad, ja ir tukšs gan lauks Aktīvais datums, gan lauks Beigu datums. Ja gan lauka Aktīvais datums, gan lauka Beigu datums datumi vēl nav pienākuši, tad elektroniskie maksājumi nav pieejami. Citi maksājumu tipi ir pieejami un šis bankas konts ir aktīvs.  
+13. Izvērsiet sadaļu **Iestatīšana**.
+14. Laukā **Teksta kods** ievadiet vērtību. Šajā laukā ir norādīts kods, kas būs redzams saņēmēja bankas izrakstā.  
+15. Laukā **Ziņojums bankai** ierakstiet vērtību.
+16. Ievadiet vērtību laukā **Maiņas atsauce**. Šis ir atsauces numurs jebkuram turpmākā vai fiksēta termiņa maiņas kursam.
+17. Laukā **Valūta** ievadiet vai atlasiet vērtību. Kad tiek izsniegtas pārbaudes, šajā sadaļā ir sniegts apskats par to statusu (gaida vai apstiprināts).  
+18. Izvērsiet sadaļu **Adrese**.
+19. Izvērsiet sadaļu **Iepriekšējas piezīmes**.
+20. Izvērsiet sadaļu **Kontaktinformācija**.
+21. Laukā **Tālrunis** ievadiet vērtību.
 22. Aizvērt lapu.
-23. Noklikšķiniet uz Rediģēt.
-24. Izvērsiet sadaļu Maksājums.
-25. Laukā Bankas konts atlasiet tikko izveidoto kontu.
-26. Noklikšķiniet uz Saglabāt.
-    * Šo adresi var pārmantot no banku grupas, ja tāda ir norādīta, vai šeit varat to pievienot.  
+23. Noklikšķiniet uz **Rediģēt**.
+24. Izvērsiet sadaļu **Maksājums**.
+25. Laukā **Bankas konts** atlasiet kontu, ko tikko izveidojāt.
+26. Noklikšķiniet uz **Saglabāt**. Šo adresi var pārmantot no banku grupas, ja tāda ir norādīta, vai šeit varat to pievienot.  
 

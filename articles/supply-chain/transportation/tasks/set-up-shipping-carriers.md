@@ -1,9 +1,9 @@
 ---
-title: Piegādes
-description: Šajā procedūrā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme.
+title: Sūtījumu pārvadātāju iestatīšana
+description: Šajā tēmā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,59 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c5ac13d17c97f20ee79e7faf57c570f02158424
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7a43a99e10b915f1265be14f2442069dae3a22e5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569106"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867031"
 ---
-# <a name="set-up-shipping-carriers"></a>Piegādes
+# <a name="set-up-shipping-carriers"></a>Sūtījumu pārvadātāju iestatīšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme. Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.
+Šajā tēmā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme. Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.
 
 
 ## <a name="create-a-new-shipping-carrier"></a>Jauna nosūtījumu pārvadātāja izveide
-1. Pārejiet uz sadaļu Transportēšanas pārvaldība > Iestatījumi > Pārvadātāji > Sūtījumu pārvadātāji.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet vērtību laukā Sūtījumu pārvadātājs.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Laukā Režīms noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+1. Pārejiet uz **Navigācijas rūts > Moduļi > Transportēšanas pārvaldība > Iestatīšana > Pārvadātāji > Sūtījumu pārvadātāji**.
+2. Darbību rūtī atlasiet **Jauns**.
+3. Ierakstiet vērtību laukā **Sūtījumu pārvadātājs**.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Laukā **Režīms** atlasiet opciju no nolaižamās izvēlnes.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Vispārējās informācijas ievade par nosūtījumu pārvadātāju
-1. Pārslēdziet sadaļas Pārskats paplašinājumu.
-2. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas Aktivizēt nosūtīšanas pārvadātāju.
-3. Laukā Kreditors noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.  
-4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Atlasiet opciju laukā Transportēšanas norēķinu veids.
-    * Atlasiet Manuāli, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet EDI, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).  
-7. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas Aktivizēt pārvadātāja vērtējumu.
+1. Pārslēdziet sadaļas **Pārskats** paplašinājumu.
+2. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt nosūtīšanas pārvadātāju**.
+3. Laukā **Kreditora konts** atlasiet opciju no nolaižamās izvēlnes. Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.  
+4. Atlasiet opciju laukā **Transportēšanas norēķinu veids**. Atlasiet **Manuāli**, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet **EDI**, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).  
+5. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt pārvadātāja vērtējumu**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam
-1. Pārslēdziet sadaļas Pakalpojumi paplašinājumu.
-2. Noklikšķiniet uz Jauns.
-3. Sarakstā atzīmējiet atlasīto rindu.
-4. Ierakstiet vērtību laukā Pārvadātāja pakalpojums.
-5. Laukā Nosaukums ierakstiet kādu vērtību.
-6. Laukā Transportēšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+1. Pārslēdziet sadaļas **Pakalpojumi** paplašinājumu.
+2. Atlasiet **Jauns**.
+3. Ierakstiet vērtību laukā **Pārvadātāja pakalpojums**.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Laukā **Pārvadāšanas metode** atlasiet opciju no nolaižamās izvēlnes.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Iestatiet pārvadātāja adresi (nav obligāti)
-1. Pārslēdziet sadaļas Adreses izvēršanu.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums vai apraksts ierakstiet kādu vērtību.
-4. Laukā Valsts/reģions noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Laukā Pasta indekss noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Laukā Iela ierakstiet kādu vērtību.
-10. Noklikšķiniet uz OK.
+1. Pārslēdziet sadaļas **Adreses** izvēršanu.
+2. Atlasiet **Jauns**.
+3. Laukā **Nosaukums vai apraksts** ierakstiet vērtību.
+4. Laukā **Valsts/reģions** atlasiet opciju no nolaižamās izvēlnes.
+5. Laukā **Pasta indekss** atlasiet opciju no nolaižamās izvēlnes.
+6. Laukā **Iela** ierakstiet kādu vērtību.
+7. Atlasiet **Labi**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Iestatiet nosūtījumu pārvadātāja novērtēšanas profilu
-1. Pārslēdziet sadaļas Novērtējuma profili izvēršanu.
-2. Noklikšķiniet uz Jauns.
-3. Sarakstā atzīmējiet atlasīto rindu.
-4. Ierakstiet vērtību laukā Novērtējuma profils.
-5. Laukā Nosaukums ierakstiet kādu vērtību.
-6. Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-10. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-11. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-12. Laukā Likmes noteikšanas programma noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Atlasiet likmes noteikšanas programmu, kura atbilst līgumam, kas jums noslēgts ar pārvadātāju.  
-13. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-14. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-15. Laukā Likmes šablons noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-16. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-17. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-18. Laukā Tranzīta laika noteikšanas programma noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-19. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-20. Noklikšķiniet uz Saglabāt.
+1. Pārslēdziet sadaļas **Novērtējuma profili** izvēršanu.
+2. Atlasiet **Jauns**.
+3. Ierakstiet vērtību laukā **Novērtējuma profils**.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Laukā **Vieta** atlasiet opciju no nolaižamās izvēlnes.
+6. Laukā **Noliktava** atlasiet opciju no nolaižamās izvēlnes.
+7. Laukā **Likmes noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes. Atlasiet likmes noteikšanas programmu, kura atbilst līgumam, kas jums noslēgts ar pārvadātāju.  
+8. Laukā **Likmes šablons** atlasiet opciju no nolaižamās izvēlnes.
+9. Laukā **Pārvadājumu ilguma noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes.
+10. Atlasiet **Saglabāt**.
 

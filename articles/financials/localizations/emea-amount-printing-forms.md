@@ -1,9 +1,9 @@
 ---
 title: Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 description: Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.
-author: ShylaThompson
+author: anasyash
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2c19023a5b1edf75b7b355adccb3c00bd19c01c0
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 29d9369aaeef8cb62d4dd8f9eb8fcc171a28ca6a
+ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852140"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886656"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 
@@ -30,15 +30,15 @@ ms.locfileid: "1852140"
 
 Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.
 
-Juridiskajām personām Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā valūtas vienībām un apakšvienībām varat iestatīt pilnos nosaukumus un īsos nosaukumus. Šos nosaukumus var izmantot, lai pārveidotu summu rādīšanu dokumentos un pārskatos. Piemēram: summu **LTL 100,20** var rādīt kā **100 liti 20 centi**.
+Juridiskajām personām Igaunijā, Latvijā, Lietuvā, Polijā, Čehijā, Ungārijā un Krievijā valūtas vienībām un apakšvienībām varat iestatīt pilnos nosaukumus un īsos nosaukumus. Šos nosaukumus var izmantot, lai pārveidotu summu rādīšanu dokumentos un pārskatos. Piemēram, summa **LTL 100.20** var tikt parādīta kā **100 liti 20 centi**.
 
 ## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Iestatīt pilnos un īsos nosaukumus valūtas vienībām un apakšvienībām
 Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īsos nosaukumus, izpildiet tālāk sniegtos norādījumus.
 
 1. Atveriet lapu **Valūtas**.
 2. Izvēlieties valūtu.
-3. Darbību rūtī noklikšķiniet uz **Locījumi**.
-4. Lai kādai valodai pievienotu pilno nosaukumu un īso nosaukumu, noklikšķiniet uz **Jauns** un aizpildiet tālāk uzskaitītos laukus.
+3. Darbību rūtī atlasiet **Novirze**.
+4. Lai pievienotu valodas pilno nosaukumu un īso nosaukumu, atlasiet **Jauns** un ievadiet informāciju šādos laukos.
 
    |                                                                        |                                                                                                                                                                                                                                                                        |
    |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -51,10 +51,7 @@ Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īso
    |    <strong>Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                         Ievadiet ISO kodu, lai identificētu attiecīgo valūtu. Piemēram, ievadiet LTL, lai identificētu litus.                                                                                         |
    |   <strong>Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                               Ievadiet valūtas apakšvienības apzīmējumu. Ievadiet, piemēram, “centi”.                                                                                               |
    |       <strong>Saiklis “un” starp vienībām un daļām</strong>       |                                     Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”. Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.                                      |
+   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis**, **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot **Dzimumu** EUR valūtai uz **Neitrāls**, summa 1,01 EUR Kases orderī čehu valodā ir *Edno euro 01 cent*.  |
 
-
-5. Noklikšķiniet uz **Saglabāt**.
-
-
-
+5. Atlasiet **Saglabāt**.
 

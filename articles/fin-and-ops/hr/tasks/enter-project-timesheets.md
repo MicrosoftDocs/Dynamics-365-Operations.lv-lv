@@ -3,7 +3,7 @@ title: Projekta grafiku ievade
 description: Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot tukšu darba laika uzskaites tabulas veidlapu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,49 +16,41 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f1be02f0080ee23359ad905b1e997d8cd5adfd2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2fd5c1e6c38c2e4380a8c8b061b08bce2dd43c8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510386"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916511"
 ---
 # <a name="enter-project-timesheets"></a>Projekta grafiku ievade
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot tukšu darba laika uzskaites tabulas veidlapu. Jaunajā darba laika uzskaites tabulā var izmantot informāciju no iepriekšējās darba laika uzskaites tabulas, saglabātajām rindām vai projekta un aktivitāšu piešķirēm lapā Mana izlase. Pēc noklusējuma saraksta lapā Visas darba laika uzskaites tabulas tiek rādītas visas jūsu darba laika uzskaites tabulas pašreizējam periodam. Varat izmantot lapas Mani grafiki sadaļas Rādīt lauku nolaižamo sarakstu, lai darba laika uzskaites tabulu sarakstu filtrētu pēc laika perioda vai projekta, vai arī lai skatītu darba laika uzskaites tabulas, kas tika izveidotas citu darbinieku vārdā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USSI. Lai sāktu šo procedūru, dodieties uz Projektu vadība un uzskaite > Darba laika uzskaites tabulas > Mani grafiki.
+Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot tukšu darba laika uzskaites tabulas veidlapu. Jaunā darba laika uzskaites tabula var būt balstīta uz informāciju no iepriekšējās darba laika uzskaites tabulas vai no projekta un darbības uzdevumiem lapā **Mana izlase**. Pēc noklusējuma saraksta lapā **Visas darba laika uzskaites tabulas** ir atspoguļotas visas jūsu darba laika uzskaites tabulas par pašreizējo periodu. Varat izmantot nolaižamo sarakstu laukam **Rādīt** lapā **Manas darba laika uzskaites tabulas**, lai filtrētu darba laika uzskaites tabulas sarakstu pēc laika perioda vai projekta, vai arī lai skatītu darba laika uzskaites tabulas, kas tika izveidotas citu darbinieku vārdā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USSI. 
 
-1. Lai ievadītu jaunu darba laika uzskaites tabulu, noklikšķiniet uz Jauna.
-    * Nolaižamajā sarakstā Resurss ir redzams darbinieks, kas pēc noklusējuma ir piešķirts pašreizējam lietotājam.  
-    * Ja lietotājs ir norādīts kā pārstāvis, vārdi sarakstā tiks parādīti tā, lai ka lietotājs var ievadīt darba laika uzskaites tabulu šo citu personu vārdā.  
-2. Laukā Datums ievadiet kādu datumu.
-    * Ja šī opcija ir atlasīta, jaunas darba laika uzskaites tabulas rindas tiks izveidotas, izmantojot darba laika uzskaites tabulas iestatījumus, kas tika konfigurēti kā izlases vienumi.  
-3. Noklikšķiniet uz OK.
-4. Noklikšķiniet uz Jauna rinda.
-5. Sarakstā atzīmējiet atlasīto rindu.
-    * Laukā Juridiska persona pēc noklusējuma tiek rādīta pašreizējā juridiskā persona.   
-6. Laukā Projekts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Laukā Aktivitāte noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-10. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-11. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-12. Laukā Kategorija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
-13. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-14. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-15. Ievadiet katra dienā nostrādāto stundu skaitu.
-    * Stundas ir jāievada decimālskaitļu formātā.  Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
-16. Ievadiet katra dienā nostrādāto stundu skaitu.
-    * Stundas ir jāievada decimālskaitļu formātā.  Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
-17. Ievadiet katra dienā nostrādāto stundu skaitu.
-    * Stundas ir jāievada decimālskaitļu formātā.  Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
-18. Ievadiet katra dienā nostrādāto stundu skaitu.
-    * Stundas ir jāievada decimālskaitļu formātā.  Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
-19. Ievadiet katra dienā nostrādāto stundu skaitu.
-    * Stundas ir jāievada decimālskaitļu formātā.  Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
-    * Sadaļā Detalizēta informācija par rindu ir pieejamas šādas opcijas: o pievienot informāciju par nodokļiem un finanšu dimensijām;  o pievienot komentārus par darba laika uzskaites tabulas rindu.  
-20. Noklikšķiniet uz Darbplūsma, lai atvērtu nolaižamo dialoglodziņu.
-21. Klikšķiniet Iesniegt.
-22. Klikšķiniet Iesniegt.
+1. **Navigācijas rūtī** pārejiet uz sadaļu **Moduļi > Projektu vadība un uzskaite > Darba laika uzskaites tabulas > Manas darba laika uzskaites tabulas**.
+2. Lai ievadītu jaunu darba laika uzskaites tabulu, noklikšķiniet uz **Jauns**.
+    - Nolaižamajā sarakstā Resurss ir redzams darbinieks, kas pēc noklusējuma ir piešķirts pašreizējam lietotājam.  
+    - Ja lietotājs ir norādīts kā pārstāvis, vārdi sarakstā tiks parādīti tā, lai ka lietotājs var ievadīt darba laika uzskaites tabulu šo citu personu vārdā.  
+3. Laukā **Datums** ievadiet datumu. Ja šī opcija ir atlasīta, jaunas darba laika uzskaites tabulas rindas tiks izveidotas, izmantojot darba laika uzskaites tabulas iestatījumus, kas tika konfigurēti kā izlases vienumi.  
+4. Noklikšķiniet uz **Labi**.
+5. Noklikšķiniet uz **Jauna rinda**.
+6. Sarakstā atzīmējiet atlasīto rindu. Pēc noklusējuma laukā **Juridiska persona** tiek rādīta pašreizējā juridiska persona.   
+7. Laukā **Projekts** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
+8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+9. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+10. Laukā **Darbības numurs** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
+11. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+12. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+13. Laukā **Kategorija** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
+14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+16. Ievadiet katra dienā nostrādāto stundu skaitu. Ievadiet stundas decimālajā formātā. Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
+17. Sadaļā**Rindas informācija** ir pieejamas šādas opcijas:
+    - Pievienojiet informāciju par nodokļiem un finanšu dimensijām cilnēs **Vispārīgi** un **Finanšu dimensijas**.
+    - Pievienojiet komentārus par darba laika uzskaites tabulas rindu cilnē **Komentārs**.
+20. **Darbību rūtī** noklikšķiniet uz **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu.
+21. Noklikšķiniet uz **Iesniegt**.
+22. Noklikšķiniet uz **Iesniegt**.
 

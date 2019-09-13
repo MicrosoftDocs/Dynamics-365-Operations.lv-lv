@@ -1,9 +1,9 @@
 ---
 title: Preces numuru nomenklatūras izveide iepriekš definētiem preces variantiem
-description: Šajā ceļvedī parādīts, kā iestatīt preces numura nomenklatūru iepriekš definētiem preču variantiem, un kā to var piesaistīt attiecīgai preces dimensijas grupai.
+description: Šajā tēmā izskaidrots, kā iestatīt produkta numura nomenklatūru iepriekš definētiem produkta variantiem un kā to piešķirt attiecīgajai produkta izmēru grupai.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,45 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a2e61fd99cb80a1a9cc3d8e985fb0f14e3c2fc2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5cf0efeac2851e6ead6fc5e15a016370dfa620bc
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844685"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914911"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Preces numuru nomenklatūras izveide iepriekš definētiem preces variantiem
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā ceļvedī parādīts, kā iestatīt preces numura nomenklatūru iepriekš definētiem preču variantiem, un kā to var piesaistīt attiecīgai preces dimensijas grupai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Jauna preces numura nomenklatūra tiek piešķirta Krāsas un Izmēra preces dimensiju grupai. Šo uzdevumu parasti veic preces noformētājs.
+Šajā tēmā izskaidrots, kā iestatīt produkta numura nomenklatūru iepriekš definētiem produkta variantiem un kā to piešķirt attiecīgajai produkta izmēru grupai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Jauna preces numura nomenklatūra tiek piešķirta Krāsas un Izmēra preces dimensiju grupai. Šo uzdevumu parasti veic preces noformētājs.
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Izveidot preces numura nomenklatūru
-1. Noklikšķiniet uz Preces varianta modeļa definīcija.
-2. Noklikšķiniet uz Preču nomenklatūra.
-3. Klikšķiniet Jauns.
-4. Laukā Nosaukums ievadiet nomenklatūras nosaukumu, kuru apzīmējumi palīdz identificēt mērķa preces dimensiju grupu, piemēram, ColorSize.
-5. Apraksta laukā ierakstiet vērtību.
-6. Noklikšķiniet uz Pievienot.
-7. Noklikšķiniet uz Preces šablona numurs.
-8. Noklikšķiniet uz Pievienot.
-9. Noklikšķiniet uz Teksta konstante.
-10. Ierakstiet vērtību laukā Teksts.
-11. Noklikšķiniet uz Pievienot.
-12. Noklikšķiniet uz Krāsa.
-13. Noklikšķiniet uz Pievienot.
-14. Noklikšķiniet uz Teksta konstante.
-15. Ierakstiet vērtību laukā Teksts.
-16. Noklikšķiniet uz Pievienot.
-17. Noklikšķiniet uz Izmērs.
+1. Atlasiet **Produkta varianta modeļa definīcija**.
+2. Atlasiet **Produkta nomenklatūra**.
+3. Atlasiet **Jauns**.
+4. Laukā **Nosaukums** ievadiet nomenklatūras nosaukumu, kas palīdz identificēt mērķa produkta izmēru grupu, piemēram, `ColorSize`.
+5. Laukā **Apraksts** ierakstiet kādu vērtību.
+6. Atlasiet **Pievienot**.
+7. Atlasiet **Galvenā produkta** numuru.
+8. Atlasiet **Pievienot**.
+9. Atlasiet **Pastāvīgais teksts**.
+10. Laukā **Teksts** ierakstiet vērtību.
+11. Atlasiet **Pievienot**.
+12. Atlasiet **Krāsa**.
+13. Atlasiet **Pievienot**.
+14. Atlasiet **Pastāvīgais teksts**.
+15. Laukā **Teksts** ierakstiet vērtību.
+16. Atlasiet **Pievienot**.
+17. Atlasiet **Izmērs**.
 18. Aizvērt lapu.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Piešķirt nomenklatūru preces šablonam
-1. Noklikšķiniet uz Preces dimensiju grupas.
-2. Atlasiet SizeCol preces dimensiju grupu.
-3. Noklikšķiniet uz Rediģēt.
-4. Atlasiet Jā laukā Izmantot nomenklatūru.
-5. Laukā Preces varianta numura nomenklatūra ievadiet vai atlasiet kādu vērtību.
+1. Atlasiet **Produkta izmēru grupas**.
+2. Atlasiet grupu **Izmēra-krāsas produkta izmērs**.
+3. Atlasiet **Rediģēt**.
+4. Atlasiet **Jā** laukā **Izmantot nomenklatūru**.
+5. Ievadiet vai atlasiet vērtību laukā **Produkta varianta numura nomenklatūra**.
 6. Aizvērt lapu.
 

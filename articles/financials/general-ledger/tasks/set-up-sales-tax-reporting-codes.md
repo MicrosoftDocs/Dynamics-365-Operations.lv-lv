@@ -3,7 +3,7 @@ title: Iestatīt PVN pārskatu kodus
 description: PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 830a3465944b32cc17feee60e3cbc5ad0a4dc9d7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4751256858da417ec9bb1b7d9ccd16fb6bef1cac
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834779"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916095"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Iestatīt PVN pārskatu kodus
 
@@ -31,14 +31,11 @@ PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā. Tos izmanto valstij 
 
 Šis paraugs izmanto DEMF demonstrācijas uzņēmumu.
 
-
-
-1. Dodieties uz Nodokļi > Iestatīšana > PVN > PVN pārskata kodi.
-2. Noklikšķiniet uz Jauns.
-3. Atlasiet pārskata izkārtojumu, kuram atbilst pārskata kods.
-    * Šis izkārtojums tiek izmantots, lai filtrētu pieejamos pārskata kodus PVN kodam. Katrs PVN kods atbilst maksājumu periodam, kurš saistīts ar PVN iestādi, kas izmanto pārskata izkārtojumu.  
-4. Ievadiet numuru, kas ir saistīts ar lauku PVN pārskatā.
-5. Pārskata teksta laukā ievadiet aprakstu, kuru parādīt pārskatos.
-6. Laukā Īss apraksts ievadiet aprakstu iekšējai lietošanai.
-7. Noklikšķiniet uz Saglabāt.
+1. Sadaļā **Navigācijas rūts**, pārejiet uz **Nodoklis > Iestatīšana > PVN > PVN pārskatu kodi**.
+2. Klikšķiniet **Jauns**.
+3. Atlasiet pārskata izkārtojumu, kuram atbilst pārskata kods. Šis izkārtojums tiek izmantots, lai filtrētu pieejamos pārskata kodus PVN kodam. Katrs PVN kods atbilst maksājumu periodam, kurš saistīts ar PVN iestādi, kas izmanto pārskata izkārtojumu.  
+4. Laukā **Pārskata kods** ievadiet skaitli.
+5. Laukā **Pārskata teksts** ievadiet aprakstu, kuru parādīt pārskatos.
+6. Laukā **Īss apraksts** ievadiet aprakstu iekšējai lietošanai.
+7. Noklikšķiniet uz **Saglabāt**.
 

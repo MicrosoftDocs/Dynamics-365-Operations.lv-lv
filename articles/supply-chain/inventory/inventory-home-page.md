@@ -1,9 +1,9 @@
 ---
-title: Krājumu pārvaldības sākumlapa
+title: Krājuma pārvaldības pārskats
 description: Šajā tēmā ir sniegts pārskats par moduli Krājumu vadība.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553488"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865476"
 ---
-# <a name="inventory-management"></a>Krājumu vadība 
+# <a name="inventory-management-overview"></a>Krājuma pārvaldības pārskats
 
 [!include [banner](../includes/banner.md)]
 

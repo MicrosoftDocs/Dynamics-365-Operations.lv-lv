@@ -1,9 +1,9 @@
 ---
 title: ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju, kas satur veidni elektronisko dokumentu ģenerēšanai OPENXML formātā.
+description: Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektronisko pārskatu (EK) konfigurāciju, kas ietver veidni elektronisko dokumentu ģenerēšanai OPENXML formātā.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,206 +16,138 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551558"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875276"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju, kas satur veidni elektronisko dokumentu ģenerēšanai OPENXML formātā. Šī konfigurācija tiks izmantota kreditoru maksājumu apstrādei.
-
-
+Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektronisko pārskatu (EK) konfigurāciju, kas ietver veidni elektronisko dokumentu ģenerēšanai OPENXML formātā. Šī konfigurācija tiks izmantota kreditoru maksājumu apstrādei.
 
 Šajā piemērā tiek izveidota parauga uzņēmuma Litware, Inc. konfigurācija. Šīs darbības var veikt jebkurā GBSI uzņēmumā.
-
-
 
 Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu" procedūras darbības. Jums ir nepieciešams arī Excel fails, kas tiks importēts, veidojot veidni. Lai piekļūtu šim failam, izmantojiet opciju [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Augšupielādēt maksājumu datu modeļa konfigurāciju
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-2. Sarakstā atzīmējiet atlasīto rindu.
-    * Atlasiet konfigurācijas nodrošinātāju parauga uzņēmumam "Litware, Inc." Ja jūs neredzat šo konfigurācijas nodrošinātāju, vispirms jāveic darbības, kas aprakstītas procedūrā "Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".  
-3. Noklikšķiniet uz Iestatīt aktīvu.
-4. Noklikšķiniet uz Repozitoriji.
-    * Atlasiet repozitoriju tipam Operācijas resursi, ja tāds ir pieejams. Ja tas ir pieejams, izlaidiet nākamās darbības par jauna repozitorija izveidošanu.  
-5. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-6. Laukā Konfigurācijas repozitorija tips ievadiet Operācijas resursi.
-7. Noklikšķiniet uz Izveidot repozitoriju.
-8. Noklikšķiniet uz OK.
-9. Noklikšķiniet uz Atvērt.
-10. Koka struktūrā atlasiet “Maksājuma modelis”.
-11. Noklikšķiniet uz Importēt.
-    * Importējiet šo datu modeli. Tas tiks izmantots kā datu avots jaunā formāta konfigurācijā. Izlaidiet šo darbību, ja šī konfigurācija jau ir importēta.  
-12. Noklikšķiniet uz Jā.
-13. Aizvērt lapu.
-14. Aizvērt lapu.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Organizācijas administrēšana > Darbvietas > Elektroniskie pārskati**.
+2. Sarakstā atzīmējiet konfigurācijas sniedzēju parauguzņēmumam “Litware, Inc.” Ja neredzat šo konfigurācijas sniedzēju, vispirms veiciet šajā rakstā minētās darbības [Izveidojiet konfigurācijas sniedzēju un atzīmējiet to kā aktīvu](er-configuration-provider-mark-it-active-2016-11.md).
+3. Atlasiet **Iestatīt kā aktīvu**.
+4. Atlasiet **Repozitoriji**. Atlasiet repozitoriju tipam Operācijas resursi, ja tāds ir pieejams. Ja tas ir pieejams, izlaidiet nākamās darbības par jauna repozitorija izveidošanu.  
+5. Atlasiet **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+6. Laukā **Konfigurācijas repozitorija tips** ievadiet `Operations resourcesdd`.
+7. Atlasiet **Izveidot repozitoriju**.
+8. Atlasiet **Labi**.
+9. Atlasiet **Atvērt**.
+10. Koka struktūrā atlasiet **Maksājuma modelis**.
+11. Atlasiet **Importēt**. Importējiet šo datu modeli. Tas tiks izmantots kā datu avots jaunā formāta konfigurācijā. Izlaidiet šo darbību, ja šī konfigurācija jau ir importēta.  
+12. Atlasiet **Jā**.
+13. Aizveriet lapas, līdz atgriezīsieties uz Elektronisko pārskatu lapu.
 
 ## <a name="create-a-new-format-configuration"></a>Jaunas formāta konfigurācijas izveide
-1. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-2. Koka struktūrā atlasiet “Maksājuma modelis”.
-3. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-4. Laukā Jauns ievadiet "Formāts pamatojoties uz datu modeli PaymentModel".
-    * Izveidojiet formātu, kas ir balstīts uz datu modeli PaymentModel.  
-5. Laukā Nosaukums ierakstiet “Parauga darblapas atskaite”.
-    * Parauga darblapas atskaite  
-6. Laukā Apraksts ierakstiet “Parauga darblapas atskaite kreditoru maksājumiem”.
-    * Parauga darblapas atskaite kreditoru maksājumiem.  
-7. Ievadiet vai atlasiet kādu vērtību laukā Datu modelis.
-    * Atlasiet definīciju “CustomerCreditTransferInitiation”.  
-8. Klikšķiniet Izveidot konfigurāciju.
+1. Atlasiet **Pārskatu konfigurācijas**.
+2. Koka struktūrā atlasiet **Maksājuma modelis**.
+3. Atlasiet **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+4. Laukā **Jauns** ievadiet `Format based on data model PaymentModel`. Izveidojiet formātu, kas ir balstīts uz datu modeli PaymentModel.
+5. Laukā **Nosaukums** ievadiet `Sample worksheet report`. Parauga darblapas atskaite  
+6. Laukā **Apraksts** ievadiet `Sample worksheet report for vendors’ payments`. Parauga darblapas atskaite kreditoru maksājumiem.  
+7. Ievadiet vai atlasiet kādu vērtību laukā **Datu modeļa definīcija**. Atlasiet definīciju **CustomerCreditTransferInitiation**.  
+8. Atlasiet **Izveidot konfigurāciju**.
 
 ## <a name="design-a-new-document-in-openxml-worksheet-format"></a>Noformēt jaunu dokumentu OPENXML darblapas formātā
-1. Koka struktūrā atlasiet “Maksājuma modelis\Parauga darblapas atskaite”.
-2. Noklikšķiniet uz Veidotājs.
-3. Darbību rūtī noklikšķiniet uz Importēt.
-4. Noklikšķiniet uz Importēt no Excel.
-5. Noklikšķiniet uz Pielikumi.
-    * Pievienojiet esošo Excel dokumentu kā veidni.  
-6. Noklikšķiniet uz Jauns.
-7. Noklikšķiniet uz Fails.
-    * Norādiet uz esošo Excel failu.  
+1. Koka struktūrā atlasiet **Maksājuma modelis\Parauga darblapas atskaite**.
+2. Atlasiet **Noformētājs**.
+3. Darbību rūtī atlasiet **Importēt**.
+4. Atlasiet **Importēt no Excel**.
+5. Atlasiet **Pielikumi**. Pievienojiet esošo Excel dokumentu kā veidni.  
+6. Atlasiet **Jauns**.
+7. Atlasiet **Fails**. Norādiet uz esošo Excel failu.  
 8. Aizvērt lapu.
-9. Ievadiet vai atlasiet kādu vērtību laukā Veidne.
-    * Atlasiet pievienoto Excel failu, ko izmantot kā veidni.  
-10. Noklikšķiniet uz OK.
-    * Ņemiet vērā, ka ER formātā komponenti tika izveidoti, izstrādājot formātu un pamatojoties uz atsauces MS Excel dokumenta (nosauktie diapazoni) struktūru.  
+9. Laukā **Veidne** ievadiet vai atlasiet vērtību. Atlasiet pievienoto Excel failu, ko izmantot kā veidni.  
+10. Atlasiet **Labi**. Ņemiet vērā, ka ER formātā komponenti tika izveidoti, izstrādājot formātu un pamatojoties uz atsauces MS Excel dokumenta (nosauktie diapazoni) struktūru.  
 
 ## <a name="create-a-new-data-source-to-calculate-totals-by-currency-codes"></a>Izveidot jaunu datu avotu, lai aprēķinātu kopsummas pēc valūtu kodiem
-1. Noklikšķiniet uz cilnes Kartēšana.
-2. Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.
-3. Koka struktūrā atlasiet “Funkcijas\Grupēt pēc”.
-4. Laukā Nosaukums ierakstiet “PaymentByCurrency”.
-    * PaymentByCurrency  
-5. Noklikšķiniet uz Rediģēt grupu pēc.
-6. Koka struktūrā izvērsiet elementu “modelis”.
-7. Kokā atlasiet “modelis\Maksājumi”.
-8. Noklikšķiniet uz Pievienot lauku pie.
-9. Noklikšķiniet uz Ko grupēt.
-10. Kokā izvērsiet sadaļu “modelis\Maksājumi”.
-11. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Valūta”.
-12. Noklikšķiniet uz Pievienot lauku pie.
-13. Noklikšķiniet uz Grupētie lauki.
-14. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Instruētā summa(InstructedAmount)”.
-15. Noklikšķiniet uz Pievienot lauku pie.
-16. Noklikšķiniet uz Apkopojuma lauki.
-17. Atlasiet opciju laukā Metode.
-    * Atlasiet SUM apkopošanas funkciju.  
-18. Laukā Nosaukums ierakstiet “TotalInstructuredAmount”.
-    * TotalInstructuredAmount  
-19. Noklikšķiniet uz Saglabāt.
-20. Aizvērt lapu.
-21. Noklikšķiniet uz OK.
+1. Atlasiet cilni **Kartēšana**.
+2. Atlasiet **Pievienot sakni**, lai atvērtu nolaižamo dialoglodziņu.
+3. Koka struktūrā atlasiet **Funkcijas\Grupēt pēc**.
+4. Laukā **Nosaukums** ievadiet `PaymentByCurrency`.
+5. Atlasīt **Rediģēt grupu pēc**.
+6. Kokā izvērtiet **modelis**, pēc tam atlasiet **modelis\Maksājumi**.
+7. Atlasiet **Pievienot lauku**.
+8. Atlasiet **Ko grupēt**.
+9. Kokā izvērtiet **modelis\Maksājumi**, pēc tam atlasiet **modelis\Maksājumi\Valūta**.
+10. Atlasiet **Pievienot lauku**.
+11. Atlasiet **Grupētie lauki**.
+12. Koka struktūrā atlasiet **modelis\Maksājumi\Instruētā summa(InstructedAmount)**.
+13. Atlasiet **Pievienot lauku**, pēc tam atlasiet **Apkopojuma lauks**.
+14. Atlasiet opciju laukā **Metode**. Atlasiet funkciju **SUM apkopojums**.  
+15. Laukā **Nosaukums** ievadiet `TotalInstructuredAmount`.
+16. Atlasiet **Saglabāt**.
+17. Aizvērt lapu.
+18. Atlasiet **Labi**.
 
 ## <a name="map-format-components-to-data-sources"></a>Kartēt formāta komponentus uz datu avotiem
-1. Koka struktūrā izvērsiet elementu “modelis”.
-2. Kokā izvērsiet sadaļu “modelis\Maksājumi”.
-3. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Iniciējošā puse(InitiatingParty)”.
-4. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Iniciējošā puse(InitiatingParty)\Nosaukums”.
-5. Koka struktūrā izvērsiet zaru “Excel\ReportHeader”.
-6. Koka struktūrā atlasiet zaru “Excel\ReportHeader\CompanyName”.
-7. Noklikšķiniet uz Saistīt.
-8. Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.
-9. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Kreditors\Identifikācija“.
-10. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Kreditors\Identifikācija\Avota ID(SourceID)“.
-11. Koka struktūrā izvērsiet zaru “Excel\PaymLines”.
-12. Koka struktūrā atlasiet zaru “Excel\PaymLines\VendAccountName”.
-13. Noklikšķiniet uz Saistīt.
-14. Kokā atlasiet “modelis\Maksājumi\Kreditors\Nosaukums”.
-15. Koka struktūrā atlasiet zaru “Excel\PaymLines\VendName”.
-16. Noklikšķiniet uz Saistīt.
-17. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Kreditora aģents(CreditorAgent)“.
-18. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Kreditora aģents(CreditorAgent)\Nosaukums“.
-19. Koka struktūrā atlasiet zaru “Excel\PaymLines\Banka”.
-20. Noklikšķiniet uz Saistīt.
-21. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Kreditora aģents(CreditorAgent)\Maršrutēšanas numurs(RoutingNumber)”.
-22. Koka struktūrā atlasiet zaru “Excel\PaymLines\RoutingNumber”.
-23. Noklikšķiniet uz Saistīt.
-24. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Kreditora konts(CreditorAccount)“.
-25. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Kreditora konts(CreditorAccount)\Identifikācija“.
-26. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Kreditora konts(CreditorAccount)\Identifikācija\Numurs“.
-27. Koka struktūrā atlasiet zaru “Excel\PaymLines\AccountNumber”.
-28. Noklikšķiniet uz Saistīt.
-29. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Instruētā summa(InstructedAmount)”.
-30. Koka struktūrā atlasiet zaru “Excel\PaymLines\Debit”.
-31. Noklikšķiniet uz Saistīt.
-32. Kokā izvērsiet sadaļu “modelis\Maksājumi\Kreditors”.
-33. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Kreditora konts(CreditorAccount)“.
-34. Koka struktūrā izvērsiet elementu “modelis\Maksājumi\Kreditora aģents(CreditorAgent)“.
-35. Koka struktūrā atlasiet elementu “modelis\Maksājumi\Valūta”.
-36. Koka struktūrā atlasiet zaru “Excel\PaymLines\Valūta”.
-37. Noklikšķiniet uz Saistīt.
-38. Koka struktūrā izvērsiet elementu “PaymentByCurrency”.
-39. Koka struktūrā izvērsiet elementu “PaymentByCurrency\grupēts”.
-40. Koka struktūrā atlasiet elementu “PaymentByCurrency\grupēts\Valūta”.
-41. Koka struktūrā izvērsiet zaru “Excel\SummaryLines”.
-42. Koka struktūrā atlasiet zaru “Excel\SummaryLines\SummaryCurrency”.
-43. Noklikšķiniet uz Saistīt.
-44. Koka struktūrā izvērsiet elementu “PaymentByCurrency\apkopots”.
-45. Koka struktūrā atlasiet elementu “PaymentByCurrency\apkopots\TotalInstructuredAmount”.
-46. Koka struktūrā atlasiet zaru “Excel\SummaryLines\SummaryAmount”.
-47. Noklikšķiniet uz Saistīt.
-48. Koka struktūrā atlasiet elementu “PaymentByCurrency”.
-49. Koka struktūrā atlasiet zaru “Excel\SummaryLines”.
-50. Noklikšķiniet uz Saistīt.
-51. Kokā atlasiet “modelis\Maksājumi”.
-52. Koka struktūrā atlasiet zaru “Excel\PaymLines”.
-53. Noklikšķiniet uz Saistīt.
-54. Noklikšķiniet uz Saglabāt.
-55. Aizvērt lapu.
+1. Koka struktūrā atlasiet **modelis\Maksājumi\Iniciējošā puse(InitiatingParty)\Nosaukums** un **Excel\ReportHeader\CompanyName**.
+2. Atlasiet **Saistīt**.
+3. Koka struktūrā atlasiet **modelis\Maksājumi\Kreditors\Identifikācija\Avota ID(SourceID)** un **Excel\PaymLines\VendAccountName**.
+4. Atlasiet **Saistīt**.
+5. Koka struktūrā atlasiet **modelis\Maksājumi\Kreditors\Nosaukums** un **Excel\PaymLines\VendName**.
+6. Atlasiet **Saistīt**.
+7. Koka struktūrā atlasiet **modelis\Maksājumi\Kreditora aģents(CreditorAgent)\Nosaukums** un **Excel\PaymLines\Banka**.
+8. Atlasiet **Saistīt**.
+9. Koka struktūrā atlasiet **modelis\Maksājumi\Kreditora aģents(CreditorAgent)\Maršrutēšanas numurs(RoutingNumber)** un **Excel\PaymLines\RoutingNumber**.
+10. Atlasiet **Saistīt**.
+11. Koka struktūrā atlasiet **modelis\Maksājumi\Kreditora konts(CreditorAccount)\Identifikācija\Numurs** un **Excel\PaymLines\AccountNumber**.
+12. Atlasiet **Saistīt**.
+13. Koka struktūrā atlasiet **modelis\Maksājumi\Instruētā summa(InstructedAmount)** un **Excel\PaymLines\Debets**.
+14. Atlasiet **Saistīt**.
+15. Koka struktūrā atlasiet **modelis\Maksājumi\Valūta** un **Excel\PaymLines\Valūta**.
+16. Atlasiet **Saistīt**.
+17. Koka struktūrā atlasiet **PaymentByCurrency\grupēts\Valūta** un **Excel\SummaryLines\SummaryCurrency**.
+18. Atlasiet **Saistīt**.
+19. Koka struktūrā atlasiet **PaymentByCurrency\apkopotais\TotalInstructuredAmount** un **Excel\SummaryLines\SummaryAmount**.
+20. Atlasiet **Saistīt**.
+21. Koka struktūrā atlasiet **PaymentByCurrency** un **Excel\SummaryLines**.
+22. Atlasiet **Saistīt**.
+23. Koka struktūrā atlasiet **modelis\Maksājumi** un **Excel\PaymLines**.
+24. Atlasiet **Saistīt**.
+25. Atlasiet **Saglabāt**, pēc tam aizveriet lapu.
 
 ## <a name="use-the-created-configuration-for-payments-processing"></a>Izmantojiet izveidoto konfigurāciju maksājumu apstrādei
-1. Noklikšķiniet uz Mainīt statusu.
-2. Noklikšķiniet uz Pabeigt.
-3. Noklikšķiniet uz OK.
-4. Aizvērt lapu.
-5. Aizvērt lapu.
-6. Pārejiet uz sadaļu Kreditori > Maksājuma iestatījumi > Maksāšanas metodes.
-7. Izmantojiet līdzekli Ātrais filtrs, lai filtrētu pēc lauka Maksāšanas metode ar vērtību “Elektroniski”.
-    * Elektroniski  
-8. Noklikšķiniet uz Rediģēt.
-9. Izvērsiet sadaļu Failu formāti.
-10. Laukā Vispārīga elektronisko pārskatu veidošana atlasiet Jā.
-11. Ievadiet vai atlasiet vērtību laukā Eksporta formāta konfigurācija.
-    * Atlasiet konfigurāciju “Parauga darblapas atskaite”.  
-12. Noklikšķiniet uz Saglabāt.
-13. Aizvērt lapu.
+1. Atlasiet **Mainīt statusu**.
+2. Atlasiet **Pabeigt**.
+3. Atlasiet **Labi**.
+4. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Maksājuma iestatīšana > Maksāšanas veidi**.
+5. Lietojiet Ātro filtru, lai laukā **Maksāšanas veids** filtrētu, izmantojot vērtību **Elektronisks**.
+6. Atlasiet **Rediģēt**.
+7. Izvērtiet sadaļu **Faila formāti**.
+8. Atlasiet **Jā** laukā **Vispārīgie elektroniskie pārskati**.
+9. Laukā **Eksporta formāta konfigurācija** ievadiet vai atlasiet vērtību. Atlasiet konfigurāciju **Parauga darblapas pārskats**.  
+10. Atlasiet **Saglabāt**.
+11. Aizvērt lapu.
 
 ## <a name="use-the-created-configuration-for-testing-of-payment-journals-processing"></a>Izmantot izveidoto konfigurāciju maksājumu žurnālu apstrādes testēšanai
-1. Pārejiet uz sadaļu Kreditori > Maksājumi > Maksājumu žurnāls.
-2. Noklikšķiniet uz Jauns.
-    * Izveidojiet jaunu maksājumu žurnālu.  
-3. Laukā Nosaukums ierakstiet VendPay.
-    * VendPay  
-4. Noklikšķiniet uz Rindas.
-5. Laukā Konts norādiet vērtības “GB_SI_000001”.
-    * GB_SI_000001  
-6. Vienumam Debets norādiet vērtību “1000”.
-7. Noklikšķiniet uz Jauns.
-8. Laukā Konts norādiet vērtības “GB_SI_000005”.
-    * GB_SI_000005  
-9. Vienumam Debets norādiet vērtību “2000”.
-10. Laukā Valūta ierakstiet vērtību “EUR”.
-    * EUR  
-11. Laukā Korespondējošais konts norādiet vērtības “GBSI OPER”.
-    * GBSI OPER  
-12. Laukā Maksāšanas metode ierakstiet “Elektroniski”.
-    * Elektroniski  
-13. Noklikšķiniet uz Saglabāt.
-14. Noklikšķiniet uz Ģenerēt maksājumus.
-15. Laukā Maksāšanas metode ierakstiet “Elektroniski”.
-    * Elektroniski  
-16. Laukā Faila nosaukums ierakstiet “Maksājumi”.
-    * Piemēram, tips Maksājumi.  
-17. Laukā Bankas konts atlasiet “GBSI OPER”.
-    * GBSI OPER  
-18. Noklikšķiniet uz OK.
-19. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto darblapu, tostarp informāciju par maksājuma rindām, kā arī kopsummas katram valūtas kodam, kas ir izmantots šajā maksājuma ziņojumā.  
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Maksājumi > Maksājumu žurnāls**.
+2. Atlasiet **Jauns**, lai izveidotu jaunu maksājuma žurnālu.
+3. Laukā **Nosaukums** ievadiet **VendPay**.
+4. Atlasiet **Rindas**.
+5. Laukā **Konts** norādiet vērtības `GB_SI_000001`.
+6. Iestatiet **Debets** uz `1000`.
+7. Atlasiet **Jauns**.
+8. Laukā **Konts** norādiet vērtības `GB_SI_000005`.
+9. Iestatiet **Debets** uz `2000`.
+10. Laukā **Valūta** ievadiet `EUR`.
+11. Laukā **Korespondējošais konts** norādiet vērtības `GBSI OPER`.
+12. Laukā **Maksāšanas veids** ievadiet `Electronic`.
+13. Atlasiet **Saglabāt**.
+14. Atlasiet **Ģenerēt maksājumus**.
+15. Laukā **Maksāšanas veids** ievadiet `Electronic`.
+16. Laukā **Faila nosaukums** ievadiet `Payments`.
+17. Laukā **Bankas konts** ievadiet `GBSI OPER`.
+18. Atlasiet **Labi**, pēc tam vēlreiz atlasiet **Labi**. Pārskatiet izveidoto darblapu, tostarp informāciju par maksājuma rindām, kā arī kopsummas katram valūtas kodam, kas ir izmantots šajā maksājuma ziņojumā.  
 

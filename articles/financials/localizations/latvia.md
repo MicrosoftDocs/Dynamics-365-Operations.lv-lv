@@ -1,9 +1,9 @@
 ---
-title: Latvija
+title: Latvijas pārskats
 description: Šajā tēmā ir sniegtas saites uz Latvijai paredzētajiem Microsoft Dynamics 365 for Finance and Operations dokumentācijas resursiem.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Latvia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82cd9fe25a4767f15b1a2ada6addcde9e99f7453
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: c0f26b0742df5cfeea517579c120da7a7b278988
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849353"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865655"
 ---
-# <a name="latvia"></a>Latvija 
+# <a name="latvia-overview"></a>Latvijas pārskats
 
 [!include [banner](../includes/banner.md)]
 

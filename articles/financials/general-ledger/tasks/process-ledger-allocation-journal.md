@@ -1,9 +1,9 @@
 ---
-title: Virsgrāmatas sadalījuma žurnāla apstrāde
-description: Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā.
+title: Virsgrāmatas sadalījumu žurnāla apstrāde
+description: Šajā tēmā ir paskaidrots, kā apstrādāt sadalījuma pieprasījumu pakalpojumā Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 087bd4f203e8762447e823b19076b79296a390d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0798d9f1c09e827bf64635cf67102f77244948c5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846371"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867443"
 ---
-# <a name="process-ledger-allocation-journal"></a>Virsgrāmatas sadalījuma žurnāla apstrāde
+# <a name="process-ledger-allocation-journal"></a>Virsgrāmatas sadalījumu žurnāla apstrāde
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā. Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+Šajā tēmā ir paskaidrots, kā apstrādāt sadalījuma pieprasījumu pakalpojumā Dynamics 365 for Finance and Operations. Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā. Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
-1. Dodieties uz Virsgrāmata > Sadalījumi > Apstrādāt sadalījuma pieprasījumu.
-2. Laukā Kārtula noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-5. Laukā No datuma ievadiet datumu,
-    * No datuma ir ļoti svarīgs, ja Virsgrāmata ir noteikumu datu avotu. Šis datums kontrolē, kuras Virsgrāmatas bilances iekļaut sadalījumā.     Laukā Nulles avots izvēlieties Apturēt. Šādi tiks apturēts sadalījuma process un parādīts ziņojums, ka ir atlasīta nulles avota summa.  
-6. Laukā Priekšlikumu opcijas atlasiet "Tikai priekšlikums".
-    * Atlasiet Priekšlikums tikai lai pārskatītu un pēc izvēles apstiprinātu rezultātu Sadalījuma žurnālos pirms grāmatošanas Virsgrāmatā.  
-7. Laukā Virsgrāmatas grāmatošanas datums ievadiet datumu.
-8. Noklikšķiniet uz OK.
-9. Dodieties uz Virsgrāmata > Sadalījumi > Sadalījuma žurnāli.
-10. Noklikšķiniet uz Rindas.
-11. Noklikšķiniet uz Grāmatot.
-12. Noklikšķiniet uz Grāmatot.
+1. Navigācijas rūtī dodieties uz **Moduļi > Virsgrāmata > Sadalījums > Apstrādāt sadalījuma pieprasījumu**.
+2. Laukā **Noteikums** nolaižamajā sarakstā atlasiet vēlamo ierakstu.
+3. Laukā **No datuma** ievadiet datumu.
+
+    - Lauks **No datuma** ir ļoti svarīgs, ja virsgrāmata ir noteikuma datu avots. Šis datums kontrolē, kuras Virsgrāmatas bilances iekļaut sadalījumā.  
+    - Laukā **Nulles avots** atlasiet **Apturēt**. Tādējādi tiks apturēts sadalīšanas process un parādīsies ziņojums, kurā teikts, ka ir atlasīts nulles avota apjoms.  
+
+4. Laukā **Priekšlikuma opcijas** atlasiet **Tikai priekšlikums**. Atlasiet **Tikai priekšlikums**, lai izskatītu un pēc izvēles apstiprinātu rezultātu sadalījuma žurnālos pirms grāmatot sadalījumu virsgrāmatā.  
+5. Laukā Virsgrāmatas grāmatošanas datums ievadiet datumu.
+6. Atlasiet **Labi**.
+7. Navigācijas rūtī dodieties uz **Moduļi > Virsgrāmata > Sadalījums > Sadalījuma žurnāli**.
+8. Atlasiet **Rindas**.
+9. Atlasiet **Grāmatot**.
+10. Atlasiet **Grāmatot**.
 

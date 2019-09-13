@@ -3,7 +3,7 @@ title: Starpuzņēmumu plāna izveide
 description: Šajā procedūrā ir aprakstīts, kā izveidot starpuzņēmuma plānu.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 194bb78eed5a673030f7cead031cf286cddbe77c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f7fe8d155b39190f6c0ee1ee310a5edd2400623c
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845213"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916718"
 ---
 # <a name="create-an-intercompany-plan"></a>Starpuzņēmumu plāna izveide
 
@@ -31,33 +31,26 @@ ms.locfileid: "1845213"
 
 
 ## <a name="set-up-an-intercompany-planning-group"></a>Iestatīt starpuzņēmuma plānošanas grupu 
-1. Dodieties uz sadaļu Starpuzņēmuma plānošanas grupas.
-    * Vispārējā plānošana > Iestatīšana > Starpuzņēmumu plānošanas grupas  
+1. **Navigācijas rūtī** pārejiet uz sadaļu **Moduļi > Šablona plānošana > Iestatīšana > Starpuzņēmumu plānošanas grupas**. 
 2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "10".
 3. Sarakstā atzīmējiet atlasīto rindu.
-4. Noklikšķiniet uz Dzēst.
-    * Šī darbība ir nepieciešama, lai saīsinātu starpuzņēmuma plānošanas izpildi.   Izmantojot starpuzņēmuma plānošanu, tiks izpildīta vispārējā plānošana plānošanas grupas visos uzņēmumos, sākot no zemākās plānošanas secības.  
-5. Noklikšķiniet uz Jā.
+4. Noklikšķiniet uz **Dzēst**. Šī darbība ir nepieciešama, lai saīsinātu starpuzņēmuma plānošanas izpildi.   Izmantojot starpuzņēmuma plānošanu, tiks izpildīta vispārējā plānošana plānošanas grupas visos uzņēmumos, sākot no zemākās plānošanas secības.  
+5. Noklikšķiniet uz pogas **Jā**.
 6. Aizvērt lapu.
 
 ## <a name="create-an-intercompany-plan"></a>Starpuzņēmumu plāna izveide
-1. Noklikšķiniet uz Starpuzņēmuma vispārējā plānošana.
-    * Tas attiecas uz vispārējās plānošanas darbvietu.  
-2. Laukā Starpuzņēmuma plānošanas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas tabulu.
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Atlasiet starpuzņēmuma plānošanas 10. grupu.  
-4. Laukā Starpuzņēmuma plānoto iterāciju skaits ievadiet skaitli 2.
-    * Starpuzņēmuma plānošanas 10. grupā ir divi dalībnieki. Lai ieviestu aizkaves, kas radušās no avota uzņēmuma (USMF) līdz klienta uzņēmumam DEMF), ir jāizpilda starpuzņēmuma forma abos uzņēmumos divas reizes. Pirmās iterācijas ieviesīs pieprasījumu un identificēs aizkaves avota uzņēmumā (USMF). Otrā iterācija ieviesīs aizkaves no USMF līdz DEMF.  
-5. Atlasiet opciju laukā Pirmā iterācija.
-6. Laukā Pirmā iterācija atlasiet opciju Reģenerācija.
-7. Laukā Turpmākās iterācijas atlasiet opciju Reģenerācija.
-8. Laukā Pavedienu skaits ierakstiet kādu skaitli.
-    * Tas norāda, cik paralēli pavedieni ir izmantoti plānošanā.  
-9. Noklikšķiniet uz OK.
+1. **Navigācijas rūtī** ejiet uz **Moduļi > Vispārējā plānošana > Darbvietas > Vispārējā plānošana**.
+2. Klikšķiniet uz **Starpuzņēmumu vispārējā plānošana**.  
+3. Laukā **Starpuzņēmumu plānošanas grupa** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
+4. Sarakstā noklikšķiniet uz saites atlasītajā rindā. Atlasiet starpuzņēmuma plānošanas 10. grupu.  
+5. Laukā **Starpuzņēmumu plānošanas atkārtojumi** ievadiet „2”. Starpuzņēmuma plānošanas 10. grupā ir divi dalībnieki. Lai ieviestu aizkaves, kas radušās no avota uzņēmuma (USMF) līdz klienta uzņēmumam DEMF), ir jāizpilda starpuzņēmuma forma abos uzņēmumos divas reizes. Pirmās iterācijas ieviesīs pieprasījumu un identificēs aizkaves avota uzņēmumā (USMF). Otrā iterācija ieviesīs aizkaves no USMF līdz DEMF.  
+6. Laukā **Pirmais atkārtojums** atlasiet „Reģenerācija”.
+7. Laukā **Turpmākie atkārtojumi** atlasiet „Reģenerācija”.
+8. Laukā **Pavedienu skaits** ievadiet skaitli. Tas norāda, cik paralēli pavedieni ir izmantoti plānošanā.  
+9. Noklikšķiniet uz **Labi**.
 
 ## <a name="view-the-result-of-the-plan"></a>Skatīt plānošanas rezultātu
-1. Laukā Plāns noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Noklikšķiniet uz StaticPlan saites. Jums jābūt uzņēmumā USMF.  
-3. Noklikšķiniet uz Plānotie pasūtījumi.
+1. Laukā **Plāns** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
+2. Sarakstā noklikšķiniet uz saites atlasītajā rindā. Noklikšķiniet uz StaticPlan saites. Jums jābūt uzņēmumā USMF.  
+3. Klikšķiniet uz **Plānotie pasūtījumi**.
 

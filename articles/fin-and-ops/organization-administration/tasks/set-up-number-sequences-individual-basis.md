@@ -3,7 +3,7 @@ title: Atsevišķu numuru sēriju iestatīšana
 description: Šajā tēmā ir paskaidrots, kā iestatīt atsevišķu numuru sēriju.
 author: sericks007
 manager: AnnBe
-ms.date: 07/09/2019
+ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58e69b680c006c814e9408135b6947161ad7c4f3
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
+ms.sourcegitcommit: 6ff2c25d859c435106192e07c9ef0a9067c1e8d0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738885"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886604"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Atsevišķu numuru sēriju iestatīšana
 
@@ -33,7 +33,7 @@ ms.locfileid: "1738885"
 2. Atlasiet **Numuru sērija**.
 3. Laukā **Numuru sērijas kods** ierakstiet kādu vērtību.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
-5. Kopsavilkuma cilnē **Apjoma parametri** atlasiet numuru sērijas tvēruma diapazonu un atlasiet tvēruma vērtības nolaižamajā sarakstā. Tvērums definē, kuras organizācijas izmanto šo numuru sēriju. Turklāt numuru sērijām, kuru tvērums nav **Koplietots**, var būt segmenti, kas atbilst to tvērumam. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Papildinformāciju par tvērumiem skatiet nodaļā [Numuru sēriju pārskats](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/fin-and-ops/organization-administration/number-sequence-overview.md).  
+5. Kopsavilkuma cilnē **Apjoma parametri** atlasiet numuru sērijas tvēruma diapazonu un atlasiet tvēruma vērtības nolaižamajā sarakstā. Tvērums definē, kuras organizācijas izmanto šo numuru sēriju. Turklāt numuru sērijām, kuru tvērums nav **Koplietots**, var būt segmenti, kas atbilst to tvērumam. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Papildinformāciju par tvērumiem skatiet nodaļā [Numuru sēriju pārskats](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
 6. Izvērsiet sadaļu **Segmenti**.
     - Definējiet formātu numuru sērijai, pievienojot, noņemot un pārkārtojot segmentus.  
     - Visu tvērumu numuru sērijas var saturēt *Konstantus segmentus* un *Burtciparu segmentus*. Konstanti segmenti satur burtciparu rakstzīmju kopu, kas nemainās. Izmantojiet šo segmenta tipu, lai pievienotu defisi vai citus atdalītājus starp numuru sērijas segmentiem. Burtciparu segmenti satur numura zīmju (#) un zīmju ampersand (&) kombināciju. Šīs rakstzīmes apzīmē burtus un ciparus, kas pieaug katru reizi, kad tiek izmantots skaitlis no šīs sērijas. Norādiet numura zīmi (#), lai norādītu pieaugošus numurus, un zīmi &, lai norādītu pieaugošus burtus. Piemēram, formāts `#####_2014` izveido sēriju `00001_2014`, `00002_2014` un tā tālāk. Nepieciešams vismaz viens burtu un ciparu segments. Tvērumu segmenti, piemēram, uzņēmums vai juridiskā persona, nav obligāti. Tomēr, ja formātā neiekļaujat tvēruma segmentus, katrai atlasītajai atsaucei tik un tā tiek ģenerēti numuri katram tvērumam.  

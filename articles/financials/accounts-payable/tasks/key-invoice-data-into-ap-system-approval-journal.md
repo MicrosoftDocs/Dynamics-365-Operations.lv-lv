@@ -1,9 +1,9 @@
 ---
-title: Galvenie rēķinu dati kreditoru sistēmā, izmantojot apstiprināšanas žurnālu
-description: Šajā uzdevuma ceļvedī ir parādīts, kā lietot rēķinu reģistru, lai izveidotu rēķinus, un kā pēc tam lietot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
+title: Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu
+description: Šajā tēmā paskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un tad izmantot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,50 +16,41 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0faece510cc85fd86113d8b62d54b71f3014b1db
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fb690769a33f88e63ab8f54cec69a5e927fd324c
+ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837047"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1871009"
 ---
-# <a name="key-invoice-data-into-ap-system-using-approval-journal"></a>Galvenie rēķinu dati kreditoru sistēmā, izmantojot apstiprināšanas žurnālu
+# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā uzdevuma ceļvedī ir parādīts, kā lietot rēķinu reģistru, lai izveidotu rēķinus, un kā pēc tam lietot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
-
+Šajā tēmā paskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un tad izmantot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
 
 ## <a name="create-and-post-and-invoice"></a>Izveidot un grāmatot rēķinu
-1. Pārejiet uz sadaļu Kreditori > Rēķini > Rēķinu reģistrs.
-2. Noklikšķiniet uz Jauns.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Rēķini > Rēķinu reģistrs**.
+2. Atlasiet **Jauns**.
 3. Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-5. Noklikšķiniet uz Rindas, lai atvērtu reģistru un ievadītu izdevumu rindas.
-6. Atlasiet kreditoru. Piemēram, ievadiet vai atlasiet US-104
-7. Laukā Rēķins ierakstiet kādu vērtību.
-8. Laukā Apraksts ierakstiet kādu vērtību.
-9. Laukā Kredīts ievadiet kādu skaitli.
-10. Laukā Apstiprināja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-11. Iezīmējiet apstiprinātāju un noklikšķiniet uz Atlasīt, lai atlasītu šo apstiprinātāju.
-12. Noklikšķiniet uz Grāmatot.
-13. Aizvērt lapu.
-14. Aizvērt lapu.
+4. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas. 
+5. Atlasiet kreditoru. Piemēram, ievadiet vai atlasiet `US-104`.
+6. Laukā **Rēķins** ierakstiet kādu vērtību.
+7. Laukā **Apraksts** ierakstiet kādu vērtību.
+8. Laukā **Kredīts** ievadiet kādu skaitli.
+9. Laukā **Apstiprināja** nolaižamajā izvēlnē atlasiet apstiprinātāju.
+10. Atlasiet **Grāmatot**.
 
 ## <a name="approve-an-invoice"></a>Apstiprināt rēķinu
-1. Pārejiet uz sadaļu Kreditori > Rēķini > Rēķina apstiprināšana.
-2. Noklikšķiniet uz Jauns.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Rēķini > Rēķinu apstiprināšana**.
+2. Atlasiet **Jauns**.
 3. Atlasiet nosaukumu tam rēķinu apstiprinājumu žurnālam, kuru vēlaties lietot.
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-5. Noklikšķiniet uz rindām, lai parādītu lapu, kur varat atlasīt rēķinus, kurus vēlaties apstiprināt.
-6. Atlasiet Atrast dokumentus, lai parādītu visus rēķinus, kas ir gatavi apstiprināšanai.
-7. Atzīmējiet izveidoto rēķinu.
-8. Noklikšķiniet uz Atlasīt.
-    * Jūsu iepriekš atlasītie dokumenti pēc to atlasīšanas tiek pārvietoti uz šo sarakstu.  
-9. Noklikšķiniet uz OK.
-10. Noklikšķiniet uz konta numura lauka, lai rēķinam pievienotu izdevumu kontu.
-11. Ievadiet konta numuru un lauka cilni. Piemēram, ievadiet 600120.
-12. Noklikšķiniet uz Grāmatot.
-13. Noklikšķiniet uz Dokuments, lai apskatītu grāmatotos ierakstus.
-    * Konts Rēķins, kas gaida apstiprinājumu, tiek anulēts un aizstāts ar faktisko izdevumu kontu.  
+4. Atlasiet **Rindas**, lai attēlotu lapu, kurā jūs varēsit atlasīt rēķinus, kurus vēlaties apstiprināt.
+5. Atlasiet **Atrast dokumentus**, lai uzrādītu visus rēķinus, kuri ir gatavi apstiprināšanai.
+6. Atzīmējiet rēķinu, kuru izveidojāt, tad noklikšķiniet uz **Atlasīt**. Jūsu iepriekš atlasītie dokumenti pēc to atlasīšanas tiek pārvietoti uz šo sarakstu.  
+7. Atlasiet **Labi**.
+8. Atlasiet lauku **konta numurs**, lai rēķinam pievienotu izdevumu kontu.
+9. Ievadiet konta numuru un lauka cilni. Piemēram, ievadiet `600120`.
+10. Atlasiet **Grāmatot**.
+11. Atlasiet **Dokuments**, lai skatītu ievietotos ierakstus. Konts Rēķins, kas gaida apstiprinājumu, tiek anulēts un aizstāts ar faktisko izdevumu kontu.  
 

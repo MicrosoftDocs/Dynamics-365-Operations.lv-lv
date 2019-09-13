@@ -3,7 +3,7 @@ title: Divkāršā valūta
 description: Šajā tēmā ir sniegta informācija par divkāršo valūtu — gadījumu, kad pārskata valūta tiek izmantota kā otrā uzskaites valūta programmā Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839406"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867515"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Funkcionalitāte, kas tika ieviesta Microsoft Dynamics 365 for Finance and Operations versijā 8.1 (2018. gada oktobris), sniedz iespēju mainīt pārskata valūtas pielietojumu un izmantot to kā otro uzskaites valūtu. Šī funkcionalitāte tiek saukta par *divkāršo valūtu*. Divkāršās valūtas izmaiņas nevar izslēgt, izmantojot konfigurācijas atslēgu vai parametru. Tā kā pārskata valūta tiek izmantota kā otrā norēķinu valūta, ir mainīts veids, kādā tiek aprēķināta pārskata valūta grāmatošanas loģikā.
 
-Turklāt dažādi moduļi ir uzlaboti, lai izsekotu, iekļautu pārskatos un izmantotu pārskata valūtu dažādos procesos. Izmaiņas attiecas uz moduļiem **Virsgrāmata**, **Finanšu pārskati**, **Kreditori**, **Debitori**, **Kases un bankas vadība**, un **Pamatlīdzekļi**. Pēc jaunināšanas ir jāveic noteikti soļi attiecībā uz moduļiem Kases un bankas vadība un Pamatlīdzekļi. Tādēļ uzmanīgi izlasiet šīs tēmas attiecīgās sadaļas.
+Turklāt ir uzlaboti vairāki moduļi, lai izsekotu, izmantotu un ziņotu par pārskata valūtu dažādos procesos. Ietekmētie moduļi:
+
+- Virsgrāmata 
+- Finanšu pārskatu veidošana 
+- Kreditori
+- Debitori 
+- Kases un bankas pārvaldība 
+- Pamatlīdzekļi 
+- Konsolidācija
+
+Pēc jaunināšanas ir jāveic noteikti soļi attiecībā uz moduļiem Kases un bankas vadība un Pamatlīdzekļi. Tādēļ noteikti izlasiet un izprotiet šīs tēmas atbilstošās sadaļas.
 
 ## <a name="posting-process"></a>Grāmatošanas process
 
@@ -73,8 +84,9 @@ Tālāk minētajos moduļos pārskata valūta tiek izmantota kā otrā uzskaites
 - [Finanšu pārskati](#financial-reporting)
 - [Kreditori](#accounts-payable-and-accounts-receivable)
 - [Debitori](#accounts-payable-and-accounts-receivable)
-- [Skaidras naudas un bankas pārvaldība](#cash-and-bank-management)
+- [Kases un bankas vadība](#cash-and-bank-management)
 - [Pamatlīdzekļi](#fixed-assets)
+- [Konsolidācija](#consolidations)
 
 ### <a name="general-ledger"></a>Virsgrāmata
 
@@ -124,6 +136,8 @@ Iepriekš modulis **Pamatlīdzekļi** neizsekoja pārskata valūtas summas trans
 Turklāt nolietojuma procesā ir veiktas būtiskas izmaiņas. Šīm izmaiņām ir nepieciešamas lietotāja darbības pēc jaunināšanas. Ir svarīgi izlasīt un izprast tālāk minētās izmaiņas pat tad, ja vēl neizmantojat moduli Pamatlīdzekļi.
 
 - Ir mainījies veids, kā nolietojuma processnosaka pārskata valūtas summu. Šajā scenārijā ir salīdzināts, kā nolietojums iepriekš noteica pārskata valūtas summu un kā tas tagad nosaka pārskata valūtas summu.
+
+
 
     **Nolietojuma scenārijs**
 
@@ -186,3 +200,13 @@ Turklāt nolietojuma procesā ir veiktas būtiskas izmaiņas. Šīm izmaiņām i
     - Ja nolietojuma transakcijas tips ir ievadīts pamatlīdzekļu žurnālā, pārskata valūtas summas tiks parādītas jaunajās kolonnās. Šīs summas var mainīt.
     - Ja uzskaites valūta un pārskata valūtas virsgrāmatā ir vienādas, summas tiks sinhronizētas. Ja maināt summu **Kredīts**, summa **Kredīts pārskata valūtā** tiks automātiski mainīta, lai nodrošinātu savstarpēju atbilstību.
     - Ievadot pamatlīdzekļu žurnālā jebkuru citu transakcijas tipu, summas **Debets pārskata valūtā** un **Kredīts pārskata valūtā** nekad netiek rādītas nedz pirms, nedz pēc grāmatošanas. Uzskaites valūtas un pārskata valūtas summas joprojām ir pieejamas dokumentā, kas tiek grāmatots virsgrāmatā.
+    
+### <a name="consolidations"></a>Konsolidācija
+    
+Funkcionalitāte, kas tika ietverta Microsoft Dynamics 365 for Finance and Operations versijā 10.0.5 (2019. gada oktobris) iespējo funkcionalitāti, izmantojot iespēju pārvaldību uzlabotajam elastīgumam attiecībā uz konsolidāciju un dubulto valūtu. Šīs funkcionalitātes iespējošanai pārejiet uz darbvietu **Funkcionalitātes pārvaldība** un atlasiet **Iespējot dubultās valūtas funkcionalitāti Virsgrāmatas konsolidācijā**.
+
+Virsgrāmatas konsolidācijā ir pievienota jauna opcija, lai konsolidētu vai nu uzskaites, vai pārskata valūtas summas no avota uzņēmumiem. Ja uzskaites vai pārskata valūta ir tāda pati kā uzskaites vai pārskata valūta uzņēmumā, summas tiks kopētas tieši, nevis tiks konvertētas.
+
+-  Tagad varat izvēlēties, vai izmantot uzskaites valūtu vai pārskata valūtu no avota uzņēmuma kā transakcijas valūtu konsolidācijas uzņēmumā.
+
+- Ja valūtas sakrīt, tad uzskaites vai pārskata valūtas summas no avota uzņēmuma tiks kopētas tieši konsolidācijas uzņēmuma uzskaites vai pārskata valūtas summās. Ja valūtas nesakrīt, tad uzskaites vai pārskata valūtas summas konsolidācijas uzņēmumā tiek aprēķinātas, izmantojot valūtas maiņas kursu.

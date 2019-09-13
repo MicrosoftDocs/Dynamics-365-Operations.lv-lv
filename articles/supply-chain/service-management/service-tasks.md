@@ -1,9 +1,9 @@
 ---
-title: Pakalpojumu uzdevumi
+title: Pakalpojumu uzdevumu pārskats
 description: Izmantojiet pakalpojumu uzdevumus, lai aprakstītu uzdevumu, kas tiks veikts pakalpojuma pasūtījuma laikā. Šo informāciju var redzēt gan tehniskie speciālisti, gan debitori.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2538a7b4a4c13a299afb37dd336f2f5d6f36a23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd7e5293ef506c6d785b420824f2c2a2c96112f7
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549844"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865901"
 ---
-# <a name="service-tasks"></a>Pakalpojumu uzdevumi  
+# <a name="service-tasks-overview"></a>Pakalpojumu uzdevumu pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +48,7 @@ Kad ģenerējat pakalpojumu pasūtījumus no pakalpojumu līguma, varat izmantot
 2. Izveidojiet jaunu rindu.
 3. Ievadiet pakalpojuma ID un aprakstu.
 
-## <a name="example"></a>Paraugs
+## <a name="example"></a>Piemērs
 
 Tehniskajam speciālistam ir jāveic divi darbi saistībā ar pārnesumkārbu (pakalpojumu objekts GB-1234) debitora vietā. Debitoram tiek izveidots pakalpojumu līgums, un ar darbiem tiek saistītas vairākas darbības. Zemāk redzams pakalpojumu līgums un pakalpojumu līguma rindas šiem diviem darbiem:
 

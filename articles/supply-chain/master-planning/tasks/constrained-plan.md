@@ -1,9 +1,9 @@
 ---
 title: Ierobežotā plāna ģenerēšana
-description: Šajā procedūrā ir parādīts, kā izveidot plānu, kurš ņem vērā gan materiālu, gan noslodzes ierobežojumus.
+description: Šajā tēmā paskaidrots, kā izveidot plānu, kurā ņemti vērā gan materiāla, gan noslodzes ierobežojumi.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6b5d37de41fe68845cec3f2285aed2484ac117aa
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845305"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867177"
 ---
 # <a name="generate-a-constrained-plan"></a>Ierobežotā plāna ģenerēšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot plānu, kurš ņem vērā gan materiālu, gan noslodzes ierobežojumus. Šis plāns nodrošina, ka ražošana nesākas, pirms materiāli kļūst pieejami, un resursiem netiek pārsniegta rezervācija. 
+Šajā tēmā paskaidrots, kā izveidot plānu, kurā ņemti vērā gan materiāla, gan noslodzes ierobežojumi. Šis plāns nodrošina, ka ražošana nesākas, pirms materiāli kļūst pieejami, un resursiem netiek pārsniegta rezervācija. 
 
 Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta ražošanas plānotājam.
 
 
 ## <a name="set-up-a-constrained-plan"></a>Iestatīt ierobežotu plānu
-1. Noklikšķiniet uz Vispārējā plānošana.
-2. Noklikšķiniet uz Vispārējie plāni.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Piemērs: StaticPlan  
-4. Laukā Ierobežota noslodze atlasiet Jā.
-5. Laukā Ierobežotās noslodzes periods ievadiet “30”.
-6. Izvērsiet sadaļu Periodi dienās.
-7. Laukā Noslodze atlasiet Jā.
-8. Laukā Noslodzes plānošanas periods (dienās) ievadiet kādu skaitli.
-    * Piemērs: 60  
-9. Laukā Aprēķinātās aizkaves atlasiet Jā.
-10. Laukā Aprēķināt aizkaves periodu (dienās) ievadiet kādu skaitli.
-    * Piemērs: 60  
-11. Izvērsiet sadaļu Aprēķinātās aizkaves.
-12. Laukā Pieprasījuma datumam pieskaitīt aprēķināto aizkavi atlasiet Jā.
-13. Laukā Pieprasījuma datumam pieskaitīt aprēķināto aizkavi atlasiet Jā.
-14. Laukā Pieprasījuma datumam pieskaitīt aprēķināto aizkavi atlasiet Jā.
-15. Aizvērt lapu.
+1. Sākumlapā izvēlieties **Vispārējās plānošanas** darbvietu.
+2. Izvēlieties **Galvenie plāni** saišu sarakstā darbvietas tālajā labajā pusē.
+3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Piemērs: **StatisksPlāns**  
+4. Atlasiet **Jā** laukā **Galīgā noslodze**.
+5. Laukā **Galīgās noslodzes robežas** ievadiet `30`.
+6. Izvērsiet sadaļu **Laika robežas dienās**.
+7. Atlasiet **Jā** laukā **Noslodze**.
+8. Laukā **Noslodzes plānošanas laika robežas (dienas)** ievadiet skaitli. Piemērs: `60`  
+9. Atlasiet **Jā** laukā **Aprēķinātie kavējumi**.
+10. Laukā **Aprēķināt kavējumu laiku robežas (dienas)** ievadiet skaitli. Piemērs: `60` 
+11. Izvērsiet sadaļu **Aprēķinātie kavējumi**.
+12. Atlasiet **Jā** visos laukos **Pievienot aprēķināto kavējumu prasības datumam**.
+13. Aizvērt lapu.
 
 ## <a name="create-a-constrained-plan"></a>Ierobežota plāna izveide
-1. Noklikšķiniet uz Palaist.
-2. Laukā Vispārējais plāns ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet plānu, kuram esat iestatījis ierobežojumus.  
-3. Noklikšķiniet uz OK.
-    * Tas var aizņemt kādu laiku.  
-4. Noklikšķiniet uz Plānotie pasūtījumi.
+1. Atlasiet **Izpildīt**.
+2. Laukā **Vispārējais plāns** ievadiet vai atlasiet plānu, kam esat iestatījis ierobežojumus.  
+3. Atlasiet **Labi**.
+4. Atlasiet **Plānotie pasūtījumi**.
 

@@ -3,7 +3,7 @@ title: " Bāzes cena un tirdzniecības līgumi"
 description: Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4830ac553318cfbb3cb74395d1662e74dff75290
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548535"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916557"
 ---
 # <a name="base-price-and-trade-agreements"></a> Bāzes cena un tirdzniecības līgumi
 
@@ -30,48 +30,43 @@ ms.locfileid: "1548535"
 
 Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
-1. Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Cenu noteikšana un atlaides > Cenu grupas > Visas cenu grupas.
-    * Cenu grupas ir veids, kā tirdzniecības līgumi tiek piešķirti noteiktiem kanāliem. Izmantojot cenu grupas, lai tirdzniecības līgumus piešķirtu kanāliem, var cenas var noteikt konkrētam kanālam.  
-2. Noklikšķiniet uz Jauns.
-3. Laukā Cenu grupas ierakstiet vērtību.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Noklikšķiniet uz Saglabāt.
+1. **Navigācijas rūtī** ejiet uz **Moduļi > Mazumtirdzniecība un komercija > Cenošanas un atlaižu pārvaldība > Cenu grupas > Visas cenu grupas**. Cenu grupas ir veids, kā tirdzniecības līgumi tiek piešķirti noteiktiem kanāliem. Izmantojot cenu grupas, lai tirdzniecības līgumus piešķirtu kanāliem, var cenas var noteikt konkrētam kanālam.  
+2. Klikšķiniet **Jauns**.
+3. Laukā **Cenu grupas** ievadiet vērtību.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Noklikšķiniet uz **Saglabāt**.
 6. Aizvērt lapu.
-7. Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Kanāli > Mazumtirdzniecības veikali > Visi mazumtirdzniecības veikali.
+7. **Navigācijas rūtī** ejiet uz **Moduļi > Mazumtirdzniecība un komercija > Kanāli > Mazumtirdzniecības veikali > Visi mazumtirdzniecības veikali**.
 8. Sarakstā atlasiet Ņujorka.
-9. Darbību rūtī noklikšķiniet uz Veikals.
-10. Noklikšķiniet uz Cenu grupas.
-11. Noklikšķiniet uz Jauns.
-12. Laukā Cenu grupas noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
+9. Darbību rūtī noklikšķiniet uz **Saglabāt**.
+10. Noklikšķiniet uz **Cenu grupas**.
+11. Klikšķiniet **Jauns**.
+12. Laukā **Cenu grupas** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
 13. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-14. Noklikšķiniet uz Saglabāt.
+14. Noklikšķiniet uz **Saglabāt**.
 15. Aizvērt lapu.
 16. Aizvērt lapu.
-17. Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Preces un kategorijas > Izpildei nodotās preces pēc kategorijas.
+17. **Navigācijas rūtī** ejiet uz **Moduļi > Mazumtirdzniecība un komercija > Produkti un kategorijas > Izlaistie produkti pēc kategorijas**.
 18. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-19. Noklikšķiniet uz Rediģēt.
-20. Pārslēdziet sadaļas Pārdošana paplašināšanas veidu.
-21. Laukā Cena ievadiet skaitli.
-    * Šī cena tiek izmantota, ja netika atrasts neviens atbilstošs tirdzniecības līgums.  
-22. Noklikšķiniet uz Saglabāt.
-23. Darbību rūtī noklikšķiniet uz Pārdot.
-24. Noklikšķiniet uz Izveidot tirdzniecības līgumus.
-25. Klikšķiniet Jauns.
-26. Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-27. Sarakstā atlasiet Mazumtirdzniecība.
-    * Demonstrācijas datos žurnāla nosaukumam Mazumtirdzniecība ir noklusējuma relācija Cena (pārdošanas). Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.  
-28. Noklikšķiniet uz Rindas.
-29. Lauka Konta kods atlasiet Grupa.
-30. Laukā Konta atlase noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-31. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Tādējādi tiks pabeigta piesaiste no kanāla uz cenu grupu uz tirdzniecības līgumu.  
-32. Laukā Krājumu saistība ierakstiet vērtību.
-33. Laukā Summa valūtā ievadiet skaitli.
-34. Atzīmējiet izvēles rūtiņu Meklēt nākamo vai noņemiet atzīmi no tās.
-    * Ja opcijai Meklēt nākamo ir iestatīts Jā, cenu noteikšanas programma turpinās meklēt atbilstošos tirdzniecības līgumus ar zemāku pārdošanas cenu. Ja opcijai Meklēt nākamo ir iestatīts Nē, cenu noteikšanas programma pārtrauc meklēšanu un izmanto tirdzniecības līgumu.  
-35. Noklikšķiniet uz Grāmatot.
-36. Noklikšķiniet uz OK.
+19. Noklikšķiniet uz **Rediģēt**.
+20. Izvērsiet kopsavilkuma cilni **Pārdot**.
+21. Laukā **Cena** ievadiet skaitli. Šī cena tiek izmantota, ja netika atrasts neviens atbilstošs tirdzniecības līgums.  
+22. Noklikšķiniet uz **Saglabāt**.
+23. **Darbību rūtī**noklikšķiniet uz **Pārdot**.
+24. Klikšķiniet uz **Izveidot tirdzniecības līgumus**.
+25. Klikšķiniet **Jauns**.
+26. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+27. Sarakstā atlasiet Mazumtirdzniecība. Demonstrācijas datos žurnāla nosaukumam Mazumtirdzniecība ir noklusējuma relācija Cena (pārdošanas). Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.  
+28. **Darbību rūtī** noklikšķiniet uz **Rindas**.
+29. Atlasiet „Grupa” laukā **Konta kods**.
+30. Laukā **Konta atlase** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+31. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Tādējādi tiks pabeigta piesaiste no kanāla uz cenu grupu uz tirdzniecības līgumu.  
+32. Laukā **Vienuma attiecība** ierakstiet vērtību.
+33. Laukā **Summa valūtā** ievadiet skaitli.
+34. Kopsavilkuma cilnē **Detaļas** atzīmējiet vai noņemiet atzīmi izvēles rūtiņai **Atrast nākamo**. Kad iespēja **Atrast nākamo** iestatīta kā „Jā”, cenošanas programma turpinās meklēt piemērojamos tirdzniecības līgumus ar zemāku pārdošanas cenu. Kad iespēja **Atrast nākamo** iestatīta kā „Nē”, cenošanas programma beidz meklēt un izmanto tirdzniecības līgumu.  
+35. Noklikšķiniet uz **Grāmatot**.
+36. Noklikšķiniet uz **Labi**.
 37. Aizvērt lapu.
-38. Darbību rūtī noklikšķiniet uz Pārdot.
-39. Noklikšķiniet uz Pārdošanas cena.
+38. **Darbību rūtī** noklikšķiniet uz „Pārdot”
+39. Noklikšķiniet uz **Pārdošanas cena**.
 

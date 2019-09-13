@@ -3,7 +3,7 @@ title: Nolietojuma profilu iestatīšana un izveide
 description: Nolietojuma metodes nosaka līdzekļu nolietojuma tipu un biežumu.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8879e61b872e36ddff9bf9c85efe54085f7a62c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cdfcf62615faa76a6bd1f00bd947ef04e23613df
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839837"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916211"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Nolietojuma profilu iestatīšana un izveide
 
@@ -31,13 +31,12 @@ Nolietojuma metodes nosaka līdzekļu nolietojuma tipu un biežumu.   Šajā ier
 
 
 ## <a name="create-a-depreciation-profile"></a>Nolietojuma profila izveide
-1. Pārejiet uz sadaļu Pamatlīdzekļi > Iestatīšana > Nolietojuma tabulas.
-2. Noklikšķiniet uz Jauns.
-3. Ievadiet vērtību laukā Nolietojuma metode.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Atlasiet opciju laukā Metode.
-    * Atlasot degresīvo metodi, ir jāievada procentuālā daļa laukā Procentuālā daļa.  
-6. Atlasiet opciju laukā Nolietojuma gads.
-7. Atlasiet opciju laukā Perioda biežums.
+1. Navigācijas rūtī ejiet uz **Moduļi > Pamatlīdzekļi > Iestatīšana > Nolietojuma profili**.
+2. Klikšķiniet **Jauns**.
+3. Laukā **Nolietojuma profils** ierakstiet vērtību.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Atlasiet opciju laukā **Metode**. Izvēloties samazinošo bilanci, jums būs jāievada procentuāls lielums laukā **Procentuālā vērtība**.  
+6. Laukā **Nolietojuma gads** atlasiet opciju.
+7. Laukā **Perioda biežums** atlasiet opciju.
 8. Aizveriet formu.
 

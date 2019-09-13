@@ -1,9 +1,9 @@
 ---
 title: Kreditoru apstiprināšana noteiktām sagādes kategorijām
-description: Kad pirkšanas pieprasījums ir izveidots, var būt prasība atlasīt apstiprinātu vai vēlamu kreditoru, atkarībā no tā, kā ir iestatītas pirkšanas politikas.
+description: Šajā tēmā paskaidrots, kā apstiprināt piegādātājus noteiktām iepirkumu kategorijām pakalpojumā Dynamics 365 for Finance and Operations.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,31 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eec50e2e8f08fabb64f89c17159b97ba770026f8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836341"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867153"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Kreditoru apstiprināšana noteiktām sagādes kategorijām
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kad pirkšanas pieprasījums ir izveidots, var būt prasība atlasīt apstiprinātu vai vēlamu kreditoru, atkarībā no tā, kā ir iestatītas pirkšanas politikas. Šajā procedūrā ir parādīts, kā norādīt, ka kreditors ir apstiprināts vai vēlams noteiktai sagādes kategorijai. Šo uzdevumu parasti veic sagādes speciālists. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF.
+Šajā tēmā paskaidrots, kā apstiprināt piegādātājus noteiktām iepirkumu kategorijām pakalpojumā Dynamics 365 for Finance and Operations. Kad pirkšanas pieprasījums ir izveidots, var būt prasība atlasīt apstiprinātu vai vēlamu kreditoru, atkarībā no tā, kā ir iestatītas pirkšanas politikas. Šajā procedūrā ir parādīts, kā norādīt, ka kreditors ir apstiprināts vai vēlams noteiktai sagādes kategorijai. Šo uzdevumu parasti veic sagādes speciālists. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF.
 
-1. Pārejiet uz sadaļu Sagāde un avoti > Kreditori > Visi kreditori.
+1. Navigācijas rūtī ejiet uz **Moduļi > Iepirkumi un ārpakalpojumi > Piegādātāji > Visi piegādātāji**.
 2. Atlasiet kreditoru, kuru vēlaties iestatīt kā apstiprināto vai vēlamo kreditoru kādai kategorijai.
-3. Darbību rūtī noklikšķiniet uz Vispārīgi.
-4. Noklikšķiniet uz Kategorijas.
-5. Noklikšķiniet uz Pievienot kategoriju.
-6. Laukā Kategorija atlasiet vienumu BIROJA UN KANCELEJAS PIEDERUMI (BIROJA UN KANCELEJAS PIEDERUMI).
-7. Laukā Kreditora kategorijas statuss atlasiet vienumu “Vēlams”.
-    * Vienai kategorijai ir iespējams norādīt vairākus vēlamos kreditorus.  
-8. Noklikšķiniet uz Saglabāt.
-9. Pārejiet uz Sagāde un avoti > Sagādes kategorijas.
-10. Koka struktūrā atlasiet “KORP. SAGĀDES KATEGORIJAS\BIROJA UN KANCELEJAS PIEDERUMI”.
-11. Izvērsiet sadaļu Kreditori.
-    * Pārbaudiet, vai jūsu atlasītais kreditors ir redzams kā vēlamais kreditors kategorijai Biroja un kancelejas piederumi. Ja šo procedūru izpildāt kā uzdevuma ceļvedi, iespējams, jums ir jānoklikšķina uz pogas Atbloķēt, lai varētu ritināt uz leju līdz kreditoru sarakstam.  Šajā lapā ir iespējams pievienot vēlamos un apstiprinātos kreditorus.  
-12. Koka struktūrā izvērsiet vienumu “BIROJA UN KANCELEJAS PIEDERUMI”.
-13. Kokā struktūrā atlasiet vienumu “Šķēres”.
-14. Laukā Pārmantot kreditorus no pamatkategorijas: atlasiet vērtību Nē.
-15. Laukā Pārmantot kreditorus no pamatkategorijas: atlasiet vērtību Jā.
+3. Darbību rūtī atlasiet **Vispārīgi**.
+4. Atlasiet **Kategorijas**.
+5. Atlasiet **Pievienot kategoriju**.
+6. Laukā **Kategorija** atlasiet **BIROJA UN GALDA PIEDERUMI (BIROJA UN GALDA PIEDERUMI)**.
+7. Laukā **Piegādātāja kategorijas statuss** atlasiet **Vēlamais**. Vienai kategorijai ir iespējams norādīt vairākus vēlamos kreditorus.  
+8. Atlasiet **Saglabāt**.
+9. Navigācijas rūtī ejiet uz **Moduļi > Iepirkumi un ārpakalpojumi > Iepirkumu kategorijas**.
+10. Kokā atlasiet **UZŅĒMUMA IEPIRKUMU KATEGORIJAS\BIROJA UN GALDA PIEDERUMI**.
+11. Izvērsiet sadaļu **Piegādātāji**. Pārbaudiet, vai jūsu atlasītais kreditors ir redzams kā vēlamais kreditors kategorijai Biroja un kancelejas piederumi. Ja veicat šo procedūru kā uzdevuma vadītājs, jums var būt jāatlasa poga **Atbloķēt**, lai varētu ritināt uz leju uz piegādātāju sarakstu.  Šajā lapā ir iespējams pievienot vēlamos un apstiprinātos kreditorus.  
+12. Kokā atlasiet **BIROJA UN GALDA PIEDERUMI** un atlasiet **Šķēres**.
+13. Laukā **Mantot piegādātājus no galvenās kategorijas** atlasiet **Nē**.
+14. Laukā **Mantot piegādātājus no galvenās kategorijas** atlasiet **Jā**.
 

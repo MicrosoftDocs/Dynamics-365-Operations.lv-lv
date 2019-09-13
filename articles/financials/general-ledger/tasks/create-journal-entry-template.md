@@ -3,7 +3,7 @@ title: Žurnāla ieraksta veidošana, lietojot veidni
 description: Iegrāmatotos žurnālu dokumentus var saglabāt kā dokumentu veidnes un piemērot jauniem žurnāla dokumentiem.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3fb750e04fb134fc9ac38d9a47201803566113
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: babbc5ee067743d368680970556f8e5d3d8585f0
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846635"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916160"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Žurnāla ieraksta veidošana, lietojot veidni
 
@@ -29,38 +29,37 @@ ms.locfileid: "1846635"
 
 Iegrāmatotos žurnālu dokumentus var saglabāt kā dokumentu veidnes un piemērot jauniem žurnāla dokumentiem. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
-1. Virsgrāmata > Žurnāla ieraksti > Virsgrāmatas žurnāli. Noklikšķiniet uz Jauns.
-    * Šīs procedūra sākumā tiek izveidots un iegrāmatots žurnāla dokuments, bet par veidni iespējams saglabāt jebkuru iepriekš iegrāmatotu žurnāla dokumentu.  
-2. Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-5. Noklikšķiniet uz Rindas.
-6. Ievadiet kontu laukā Konta tips.
-7. Apraksta laukā ierakstiet vērtību.
-8. Ievadiet summu laukā Debets.
-9. Klikšķiniet Jauns.
-10. Ievadiet citu kontu laukā Konta tips.
-11. Apraksta laukā ierakstiet vērtību.
-12. Ievadiet summu laukā Debets.
-13. Klikšķiniet Jauns.
-14. Laukā Konts norādiet vēlamās vērtības.
-15. Laukā Apraksts ierakstiet kādu vērtību.
-16. Ievadiet summu laukā Kredīts, lai līdzsvarotu dokumentu.
-17. Noklikšķiniet uz Grāmatot.
-18. Noklikšķiniet uz Funkcijas.
-19. Noklikšķiniet Saglabāt dokumenta veidni.
-20. Šī procedūra paredz procentuālu veidnes tipu. Noklikšķiniet uz OK.
-    * • Procentuāli: dokumenta summas tiek pārvērstas procentuālos faktoros, kas pēc dokumenta veidnes izvēles ļauj piemērot jebkuru summu.  • Summa: tiek saglabātas un piemērotas faktiskās summas.  
-21. Noklikšķiniet uz Virsgrāmatas žurnāli.
-22. Noklikšķiniet uz Jauns.
-23. Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+1. Ejiet uz **Navigācijas rūts > Moduļi > Virsgrāmata > Žurnāla ieraksti > Vispārējie žurnāli**.
+2. **Darbību rūtī** noklikšķiniet uz **Jauns**. Šīs procedūra sākumā tiek izveidots un iegrāmatots žurnāla dokuments, bet par veidni iespējams saglabāt jebkuru iepriekš iegrāmatotu žurnāla dokumentu.  
+3. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+6. Noklikšķiniet uz **Rindas**.
+7. Laukā **Konta veids** ierakstiet vērtību.
+8. Laukā **Apraksts** ierakstiet kādu vērtību.
+9. Laukā **Debets** ievadiet vērtību.
+10. Klikšķiniet **Jauns**.
+11. Laukā **Konta veids** ierakstiet vērtību.
+12. Laukā **Apraksts** ierakstiet kādu vērtību.
+13. Laukā **Debets** ievadiet vērtību.
+14. Klikšķiniet **Jauns**.
+14. Laukā **Konts** norādiet vēlamās vērtības.
+15. Laukā **Apraksts** ierakstiet kādu vērtību.
+16. Laukā **Kredīts** ievadiet vērtību, lai saskaņotu ar vaučeri.
+17. **Darbību rūtī** noklikšķiniet uz **Publicēt**.
+18. Noklikšķiniet uz **Funkcijas**.
+19. Noklikšķiniet uz veidnes **Saglabāt vaučeri**.
+20. Šajā procedūrā tiek pieņemts, ka veids ir **Procentu veidne**. Noklikšķiniet uz Labi.
+    - Procenti: summas vaučerī tiek pārveidotas par procentu koeficientiem, kas ļauj piemērot jebkuru summu, kad atlasīta vaučera veidne.
+    - Summa: tiks saglabātas un piemērotas faktiskās summas.  
+21. Klikšķiniet uz **Vispārējie žurnāli**.
+22. Klikšķiniet **Jauns**.
+23. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
 24. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-25. Noklikšķiniet uz Rindas.
-26. Noklikšķiniet uz Funkcijas.
-27. Noklikšķiniet uz Izvēlēties dokumenta veidni.
-28. Atrodiet iepriekš izveidoto veidni. Noklikšķiniet uz OK.
-    * Ja pastāv citas veidnes, iespējams, vajadzēs atgriezties iepriekšējā solī un izvēlēties pareizo veidni.  
-29. Laukā Summa ievadiet summu, kas ir jālieto šim dokumentam.
-    * Summas lauks tiek attēlots tikai tad, ja dokumenta veidnes tips ir Procentuāli.  
-30. Noklikšķiniet uz OK.
+25. Noklikšķiniet uz **Rindas**.
+26. Noklikšķiniet uz **Funkcijas**.
+27. Noklikšķiniet uz **Atlasīt vaučera veidni**.
+28. Atrodiet iepriekš izveidoto veidni. Noklikšķiniet uz **Labi**. Iespējams, būs jāklikšķina uz **Iepriekšējais solis** un tad jāatlasa pareizā veidne, ja pastāv citas.  
+29. Laukā **Summa** ievadiet naudas summu, ko piemērot vaučerim. Lauks **Summa** tie rādīts tikai, ja vaučera veidne ir tips „Procenti”.  
+30. Noklikšķiniet uz **Labi**.
 

@@ -1,9 +1,9 @@
 ---
 title: Ieraksta veidnes izveide, lai atvieglotu datu ievadi
-description: Šajā procedūrā ir parādīts, kā izveidot ierakstu veidnes, lai katram jaunam ierakstam nevajadzētu atkārtoti ievadīt bieži izmantotās lauku vērtības.
+description: Šajā tēmā parādīts, kā izveidot ieraksta veidni, lai lauka vērtības, ko bieži izmanto, nav atsevišķi jāievada katram jaunam ierakstam.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,37 +16,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848211"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866932"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Ieraksta veidnes izveide, lai atvieglotu datu ievadi
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot ierakstu veidnes, lai katram jaunam ierakstam nevajadzētu atkārtoti ievadīt bieži izmantotās lauku vērtības. Šajā procedūrā jūs izveidosiet jaunu ierakstu par jauniem klēpjdatoriem, kas ir jāpievieno jūsu pamatlīdzekļiem. Šajā procedūrā tiek izmantoti parauga uzņēmuma USMF dati.
+Šajā tēmā parādīts, kā izveidot ieraksta veidni, lai lauka vērtības, ko bieži izmanto, nav atsevišķi jāievada katram jaunam ierakstam. Šajā procedūrā jūs izveidosiet jaunu ierakstu par jauniem klēpjdatoriem, kas ir jāpievieno jūsu pamatlīdzekļiem. Šajā procedūrā tiek izmantoti parauga uzņēmuma USMF dati.
 
-1. Pārejiet uz sadaļu Pamatlīdzekļi > Pamatlīdzekļi > Pamatlīdzekļi.
-2. Noklikšķiniet uz Jauns.
-3. Ievadiet vai atlasiet vērtību laukā Pamatlīdzekļu grupa.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-    * Ievadiet, piemēram, “Korporatīva potenciālā klienta klēpjdators”.  
-5. Laukā Meklēšanas nosaukums ierakstiet kādu vērtību.
-    * Ievadiet, piemēram, “klēpjdators”.  
-6. Izvērsiet sadaļu Tehniskā informācija.
-7. Laukā Ražojums ierakstiet kādu vērtību.
-8. Laukā Modelis ierakstiet kādu vērtību.
-9. Laukā Modeļa gads ierakstiet kādu vērtību.
-10. Darbību rūtī noklikšķiniet uz Opcijas.
-11. Noklikšķiniet uz Informācija par ierakstu.
-12. Noklikšķiniet uz Lietotāja veidne.
-13. Laukā Nosaukums ierakstiet kādu vērtību.
-    * Ievadiet, piemēram, “Korporatīva klēpjdators”.  
-14. Apraksta laukā ierakstiet vērtību.
-    * Ievadiet, piemēram, “Korporatīva klēpjdators”.  
-15. Noklikšķiniet uz OK.
-16. Noklikšķiniet uz Aizvērt.
+1. Navigācijas rūtī ejiet uz **Moduļi > Pamatlīdzekļi > Pamatlīdzekļi > Pamatlīdzekļi**.
+2. Atlasiet **Jauns**.
+3. Ievadiet vai atlasiet vērtību laukā **Pamatlīdzekļa grupa**.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību. Piemēram, ievadiet **Uzņēmuma interesenta klēpjdators**.  
+5. Laukā **Meklēt vārdu** ierakstiet vērtību. Piemēram, ievadiet **klēpjdators**.  
+6. Izvērsiet sadaļu **Tehniskā informācija**.
+7. Ierakstiet vērtības laukos **Izgatavotājs**, **Modelis**, **Modeļa gads**.
+8. Darbību rūtī atlasiet **Opcijas**.
+9. Atlasiet **Ieraksta informācija**.
+10. Atlasiet **Lietotāja veidne**.
+11. Laukā **Nosaukums** ierakstiet kādu vērtību.
+12. Laukā **Apraksts** ierakstiet kādu vērtību.
+13. Atlasiet **Labi**.
+14. Atlasiet **Aizvērt**.
 

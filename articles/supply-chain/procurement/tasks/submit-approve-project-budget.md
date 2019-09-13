@@ -3,7 +3,7 @@ title: Projekta budžeta iesniegšana un apstiprināšana
 description: Šajā procedūrā ir parādīts, kā projektam izveidot un iesniegt budžetu.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffa7b4f23e63196947fef1b2180145702531e0a6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843917"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914865"
 ---
 # <a name="submit-and-approve-project-budget"></a>Projekta budžeta iesniegšana un apstiprināšana
 
@@ -34,26 +34,26 @@ Kad veidojat projekta budžetu, varat ievadīt projektam prognozētos ieņēmumu
 
 Šis uzdevums tika izveidots, izmantojot uzņēmuma USSI datu kopu.
 
-1. Dodieties uz Projektu vadība un uzskaite > Projekti > Visi projekti.
+1. **Navigācijas rūtī** atveriet **Moduļi > Projektu pārvaldība un uzskaite > Projekti > Visiem projekti**.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Darbību rūtī noklikšķiniet uz Plāns.
-5. Noklikšķiniet uz Projekta budžets.
-6. Apraksta laukā ierakstiet vērtību.
-7. Izvērsiet sadaļu Izmaksas
-8. Noklikšķiniet uz Jauns.
-9. Laukā Transakcijas tips atlasiet kādu opciju.
-10. Laukā Kategorija ievadiet vai atlasiet vērtību.
-11. Laukā Sākotnējais budžets ievadiet kādu skaitli.
-12. Izvērsiet sadaļu Ieņēmumi.
-13. Noklikšķiniet uz Jauns.
+4. **Darbību rūtī** noklikšķiniet uz **Plāns**.
+5. Noklikšķiniet uz **Projekta budžets**.
+6. Laukā **Apraksts** ierakstiet kādu vērtību.
+7. Izvērsiet kopsavilkuma cilni **Izmaksas**.
+8. Klikšķiniet **Jauns**.
+9. Laukā **Transakcijas veids** atlasiet kādu opciju.
+10. Laukā **Kategorija** ievadiet vai atlasiet vērtību.
+11. Laukā **Sākotnējais budžets** ievadiet kādu skaitli.
+12. Izvērsiet kopsavilkuma cilni **Ieņēmumi**.
+13. Klikšķiniet **Jauns**.
 14. Sarakstā atzīmējiet atlasīto rindu.
-15. Laukā Transakcijas tips atlasiet kādu opciju.
-16. Laukā Kategorija ievadiet vai atlasiet vērtību.
-17. Laukā Sākotnējais budžets ievadiet kādu skaitli.
-18. Noklikšķiniet uz Saglabāt.
-19. Noklikšķiniet uz Darbplūsma.
-20. Klikšķiniet Iesniegt.
-21. Laukā Komentārs ierakstiet vērtību.
-22. Klikšķiniet Iesniegt.
+15. Laukā **Transakcijas veids** atlasiet kādu opciju.
+16. Laukā **Kategorija** ievadiet vai atlasiet vērtību.
+17. Laukā **Sākotnējais budžets** ievadiet kādu skaitli.
+18. Noklikšķiniet uz **Saglabāt**.
+19. Noklikšķiniet uz **Darbplūsma**.
+20. Noklikšķiniet uz **Iesniegt**.
+21. Laukā **Komentārs** ierakstiet vērtību.
+22. Noklikšķiniet uz **Iesniegt**.
 
