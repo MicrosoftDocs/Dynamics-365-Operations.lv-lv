@@ -1,6 +1,6 @@
 ---
-title: Administratora iestatījumi programmā Attract
-description: Šajā tēmā ir paskaidrota līdzekļu funkciju iespējošana organizācijām un lietotājiem programmā Attract.
+title: Konfigurēt uzņēmuma informāciju Microsoft Dynamics 365 for Talent - Attract
+description: Šajā tēmā ir paskaidrots, kā konfigurēt uzņēmuma informāciju un zīmolu Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518595"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739568"
 ---
-# <a name="admin-settings-in-attract"></a>Administratora iestatījumi pakalpojumā Attract
+# <a name="configure-company-information"></a>Konfigurēt uzņēmuma informāciju
 [!include[banner](../includes/banner.md)]
 
 MicrosoftDynamics 365 for Talent: Attract administrēšanas centrā ir ietverti lietojumprogrammas Attract konfigurēšanas iestatījumi, integrēšanas opcijas un iestatīšanas opcijas.
@@ -36,7 +36,7 @@ Ievadiet uzņēmuma parādāmo nosaukumu un pievienojiet uzņēmuma logotipu. P�
 
 ## <a name="linkedin-integration"></a>LinkedIn integrācija
 
-Iestatiet integrāciju ar LinkedIn Recruiter System Connect (RSC). Kad esat izveidojis savienojumi ar LinkedIn, izmantojot savus LinkedIn akreditācijas datus, varat sinhronizēt kandidāta LinkedIn profilu, pieteikumus, interviju atsauksmes un darbā pieņemšanas grupas piezīmes. Ir nepieciešama pilna LinkedIn Recruiter licence. Papildinformāciju par LinkedIn Recruiter skatiet tēmā [Recruiter System Connect (RSC) — bieži uzdotie jautājumi](https://www.linkedin.com/help/recruiter/answer/90483).
+Iestatiet integrāciju ar LinkedIn Recruiter System Connect(RSC). Kad esat izveidojis savienojumi ar LinkedIn, izmantojot savus LinkedIn akreditācijas datus, varat sinhronizēt kandidāta LinkedIn profilu, pieteikumus, interviju atsauksmes un darbā pieņemšanas grupas piezīmes. Ir nepieciešama pilna LinkedIn Recruiter licence. Papildinformāciju par LinkedIn Recruiter skatiet tēmā [Recruiter System Connect (RSC) — bieži uzdotie jautājumi](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Lietotāju atļaujas
 

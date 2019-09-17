@@ -1,6 +1,6 @@
 ---
-title: Analītisko pārskatu izmantošana darbā pieņemšanas procesa ieskatiem
-description: Šajā tēmā ir aprakstīti analītiskie pārskati programmā Attract
+title: Analītisku atskaišu izmantošana programmā Microsoft Dynamics 365 for Talent - Attract
+description: Šajā tēmā ir aprakstītas analītiskos pārskatus par darbā pieņemšanas procesa ieskatiem programmā Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516564"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742892"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Analītisko pārskatu izmantošana darbā pieņemšanas procesa ieskatiem
+# <a name="use-analytic-reports"></a>Izmantot analītiskos pārskatus
 
 Analītiskie pārskati programmā Attract nodrošina standarta komplektācijā (out-of-the-box — OOTB) iekļautu risinājumu darbā pieņemšanas procesa ieskatiem. Pieejamās funkcijas:
 
@@ -81,8 +81,8 @@ Pārskatos Darba analīze tiek rādīti dati atlasītajam darbam. Pārskatos Ana
 
 ## <a name="cross-filter"></a>Šķērsfiltrēšana
 
-Viena no Power BI izcilajām īpašībām ir visu pārskata lapā esošo vizuālo elementu savstarpējā saistība. Ja atlasīsit datu punktu uz kāda vizuālā elementa, visi pārējie vizuālie elementi lapā, kurā ir šīs datu izmaiņas, pamatojoties uz šo atlasi. Uzziniet vairāk un aplūkojiet piemēru sadaļā [Kā vizuālie elementi veic šķērsfiltrēšanu Power BIpārskatā](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Viena no Power BI izcilajām īpašībām ir visu pārskata lapā esošo vizuālo elementu savstarpējā saistība. Ja atlasīsit datu punktu uz kāda vizuālā elementa, visi pārējie vizuālie elementi lapā, kurā ir šīs datu izmaiņas, pamatojoties uz šo atlasi. Uzziniet vairāk un aplūkojiet piemēru sadaļā [Kā vizuālie elementi veic šķērsfiltrēšanu Power BIpārskatā](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Eksportēt programmā Excel
 
-Lai skatītu pārskata datus programmā Excel, varat noklikšķināt uz izvēlnes opcijas (trīs punkti) uz vizuālā elementa un atlasīt opciju **Eksportēt pamata datus**. Eksportētie dati tiks eksportēti kā filtrēti, respektējot lietotāja atļaujas programmā Attract. Papildinformāciju skatiet sadaļā [Datu eksportēšana no vizualizācijas](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Lai skatītu pārskata datus programmā Excel, varat noklikšķināt uz izvēlnes opcijas (trīs punkti) uz vizuālā elementa un atlasīt opciju **Eksportēt pamata datus**. Eksportētie dati tiks eksportēti kā filtrēti, respektējot lietotāja atļaujas programmā Attract. Papildinformāciju skatiet sadaļā [Datu eksportēšana no vizualizācijas](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

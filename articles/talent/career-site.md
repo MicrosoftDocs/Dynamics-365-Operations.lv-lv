@@ -1,6 +1,6 @@
 ---
-title: Karjeras vietnes funkcionalitāte programmā Attract
-description: Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Attract.
+title: Iestatiet savu karjeras vietni programmā Microsoft Dynamics 365 for Talent - Attract
+description: Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729707"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739775"
 ---
-# <a name="career-site-functionality-in-attract"></a>Karjeras vietnes funkcionalitāte programmā Attract
+# <a name="set-up-your-career-site"></a>Iestatiet savu karjeras vietni
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ Varat atvieglo kandidātiem pieteikšanos jūsu amatiem, konfigurējot Attract t
 1. Piesakieties pakalpojumā Attract kā administrators.
 2. Atlasiet pogu **Iestatījumi** (zobrata simbols) lapas labās puses augšējā stūrī un pēc tam atlasiet **Administrēšanas centrs**.
 3. Atlasiet cilni **LinkedIn integrācija** un izveidojiet savienojumu ar LinkedIn personāla atlases darbinieka kontu.
-4. Sadaļā **LinkedIn Recruiter System Connect integrācija** iestatījumam **Pieteikties, izmantojot LinkedIn** atlasiet opciju **Iespējots**.
+4. Sadaļā **LinkedIn Recruiter System Connectintegrācija** iestatījumam **Pieteikties, izmantojot LinkedIn** atlasiet opciju **Iespējots**.
 
 Pēc tam, kad iestatījums ir iespējots, kandidāti var pieteikties, izmantojot viņu esošā LinkedIn profila datus. Ja kandidāti piesakās, izvēloties pogu **Pieteikties, izmantojot LinkedIn**, viņi tiek aicināti autentificēties ar LinkedIn, ja viņi vēl nav pieteikusies. Pēc tam, kad viņi ir autentificēti, viņu LinkedIn profils aizstāj visus esošos profila datus, kas redzami pieteikuma lapā. Kandidāti var rediģēt informāciju pēc nepieciešamības un pēc tam iesniegt pieteikumu. Ja kandidāts pāriet prom no lapas, nepiesakoties darbam, viņa profila dati netiek atjaunināti programmā Attract.
 

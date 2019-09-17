@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 568a16a17ed3269c7b72f27f0d4b7bbdbd56630e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518583"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741571"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 26. marts)
 
@@ -75,7 +75,7 @@ Ar šīs izmaiņas ieviešanu nodarbinātības vēstures lapā nodarbinātības 
 Līdz ar šī laidiena ieviešanu tagad varat noņemt darbu ierakstus, izmantojot opciju **Atvērt programmā Excel** programmā Dynamics 365 for Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
-Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Priekšskatījumā
 

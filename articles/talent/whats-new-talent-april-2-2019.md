@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518529"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795248"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 2. aprīlis)
 
@@ -57,13 +57,13 @@ Programmā Attract un Onboard problēmas, kuras lietotāji ir reģistrējuši, i
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2216.
 
 ### <a name="platform-update-25"></a>Platform update 25
-Papildinformāciju par atjauninājumu Platform update 25 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 25 (2019. gada aprīlis)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Papildinformāciju par atjauninājumu Platform update 25 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 25 (2019. gada aprīlis)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Papildu atlīdzības drošība (fiksētā un mainīgā)
 Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. To klāstā varētu ietilpt ieraksti vadītājiem vai reģionālajiem darbiniekiem. Šī izmaiņa sniedz iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem varat piešķirt drošības lomas. Šīs drošības lomas nosaka piekļuvi plāniem un saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem, lai atlīdzību darbinieku grupām varētu apstrādāt tikai attiecīgās lomas.
 
 ### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
-Strauji tuvojas termiņi jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Strauji tuvojas termiņi jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Priekšskatījumā
 

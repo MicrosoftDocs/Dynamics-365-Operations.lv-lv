@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577799"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781446"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
 
@@ -101,24 +101,15 @@ Organizācijai var būt steidzami nepieciešams noteikts prasmju kopums. Šīs p
 
 Lai lejupielādētu veidni **Flow — SharePoint integrācija**, atveriet [Plūsma — SharePoint integrācija](https://go.microsoft.com/fwlink/?linkid=2082109) Microsoft lejupielādes centrā.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Administratora konsole kandidātu kopu pārvaldīšanai
+## <a name="referral-app"></a>Atsauces programma
+Varat izmantot atsauces programmu, lai pievienotu kandidātus kopīgai darbinieku kopai. Iesniedzot kandidātu, ieteicējs var ievadīt **Vārdu**, **Uzvārdu**, **E-pastu** un **Linkedln vietrādi URL**. Pēc tam kandidāts avota metadati tiek aizpildīti ar ieteicēja informāciju.
 
-Iespējojot integrāciju ar LinkedIn, pakalpojums Attract automātiski izveido LinkedIn kandidātu kopu. Kad personāla atlases darbinieks veic saziņu InMail formātā ar kandidātu, izmantojot LinkedIn, pakalpojums Attract izveido kandidāta profilu un kandidāts kļūst par LinkedIn kandidātu kopas dalībnieku. Šī PowerApps programma ir noderīga, lai reorganizētu kandidātus kandidātu kopās, pamatojoties uz prasmēm.
+Šo programmu var iegult Darbinieku pašapkalpošanās (ESS) portālā atsauču iesniegšanai, vai arī to var izmantot kā hipersaiti uzņēmuma portālā un palaist kā savrupu programmu.
 
-Palaidiet šo PowerApps programmu kā administratora konsoli, lai izpildītu tālāk minētos uzdevumus.
-
-- Kandidātu iekļaušana kandidātu kopas sarakstā
-- Kandidātu pievienošana un noņemšana no kandidātu kopas
-- Kandidātu pārvietošana no vienas kandidātu kopas uz citu
-- Pirms pārvietošanas veikta noteikšana, kuri kandidāti jau ir iekļauti kandidātu kopā
-- Kandidātu prasmju pārbaude pirms to pārvietošanas uz citām kandidātu kopām
-
-Šajā PowerApps programmā tiek lietotas “daudzi pret daudziem” tipa attiecības, tāpēc to var izmantot kā veidni citiem scenārijiem, kur nepieciešams iegūt ierakstus ar “daudzi pret daudziem” tipa attiecībām.
-
-Lai lejupielādētu veidni **Administratora konsole kandidātu kopu pārvaldīšanai**, dodieties uz sadaļu [Administratora konsole kandidātu kopu pārvaldīšanai](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) Microsoft lejupielādes centrā.
+Lai lejupielādētu **Atsauces programmu**, dodieties uz [Dynamics 365 for Talent paplašināmības risinājumu: Atsauces programma](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) Microsoft lejupielāžu centrā. Varat importēt šo programmu un pielāgot to, lai pievienotu papildu funkcionalitāti.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Programmu migrēšana starp nomniekiem un vidēm](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Programmu migrēšana starp nomniekiem un vidēm](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

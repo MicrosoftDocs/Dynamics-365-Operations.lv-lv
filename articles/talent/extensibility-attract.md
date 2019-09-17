@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505868"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795224"
 ---
 # <a name="extensibility-in-attract"></a>Paplašināmība pakalpojumā Attract
 
@@ -33,7 +33,7 @@ Programma Microsoft Dynamics 365 for Talent ir būvēta, izmantojot platformu Co
 
 ## <a name="extending-option-sets-in-attract"></a>Opciju kopu paplašināšana programmā Attract
 
-**Opciju kopa** (salasīšanas saraksts) ir lauka veids, kuru var iekļaut elementā. Tas nosaka opciju kopu. Opciju kopas parādīšanai veidlapā izmanto nolaižamā saraksta vadīklu.  Programmā Attract ir vairāki lauki, kas ir opciju kopas.  Mēs sākam ieviest iespēju opciju kopas paplašināšanai, ietverot lauku Noraidīšanas pamatojums, lauku Nodarbinātības veids un lauku Darba stāža veids.   Pievienot var arī to opciju lokalizētās parādīšanas etiķetes opcijas, kuras tiek pievienotas. Papildinformāciju skatiet tēmā [Opciju kopas etiķetes pielāgošana](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+**Opciju kopa** (salasīšanas saraksts) ir lauka veids, kuru var iekļaut elementā. Tas nosaka opciju kopu. Opciju kopas parādīšanai veidlapā izmanto nolaižamā saraksta vadīklu.  Programmā Attract ir vairāki lauki, kas ir opciju kopas.  Mēs sākam ieviest iespēju opciju kopas paplašināšanai, ietverot lauku Noraidīšanas pamatojums, lauku Nodarbinātības veids un lauku Darba stāža veids.   Pievienot var arī to opciju lokalizētās parādīšanas etiķetes opcijas, kuras tiek pievienotas. Papildinformāciju skatiet tēmā [Opciju kopas etiķetes pielāgošana](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > Lai izmantotu darba publicēšanas pakalpojumā LinkedIn funkcionalitāti, ir jāizmanto lauks **Nodarbinātības veids** un **Darba stāžs veids** lapā **Darba informācija**. Šo lauku noklusējuma vērtības nodrošina pakalpojums LinkedIn, un tās tiek rādītas, kad darbs tiek publicēts. Tāpēc, ja darbs tiek publicēts pakalpojumā LinkedIn un mainīts šo lauku esošās opciju kopas vērtības, darbs joprojām tiek publicēts, taču pakalpojumā LinkedIn netiek parādītas pielāgotās lauka **Nodarbinātības veids** un **Darba stāža veids** vērtības.  
@@ -62,15 +62,15 @@ Tā kā visi programmas Attract dati tiek glabāti platformā Common Data Servic
 
 Varat izmantot platformu PowerApps, lai vienkārši izveidotu programmas, kurās tiek veidots savienojums ar jūsu Attract datiem un loģikas pievienošanai tiek izmantotas tādas pašas izteiksmes, kādas tiek izmantotas programmā Microsoft Excel. Programmas, ko izveidojat, izmantojot platformu PowerApps, var tikt darbinātas tīmeklī, kā arī Apple iOS un Google Android ierīcēs.
 
-Piemēram, universitāšu karjeras iespēju izstādes varat padarīt vienkāršākas personāla atlases darbiniekiem, uzbūvējot maz resursu patērējošu programmu, kas šiem darbiniekiem ļauj skenēt CV un padot kandidātus uz kādu amatu programmā Attract. Ja vēlaties, varat izveidot programmu, kas palīdz nodrošināt jūsu organizācijas atbilstības vajadzības. Papildinformāciju par platformu PowerApps un to, kā to var izmantot programmu izveidei, skatiet tēmā [Datu integrēšana platformā Common Data Service](https://docs.microsoft.com/en-us/powerapps).
+Piemēram, universitāšu karjeras iespēju izstādes varat padarīt vienkāršākas personāla atlases darbiniekiem, uzbūvējot maz resursu patērējošu programmu, kas šiem darbiniekiem ļauj skenēt CV un padot kandidātus uz kādu amatu programmā Attract. Ja vēlaties, varat izveidot programmu, kas palīdz nodrošināt jūsu organizācijas atbilstības vajadzības. Papildinformāciju par platformu PowerApps un to, kā to var izmantot programmu izveidei, skatiet tēmā [Datu integrēšana platformā Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Varat izmantot Microsoft Flow, lai izveidotu automatizētas darbplūsmas, kas tiek izpildītas, izmantojot Attract datus. Varat ērti izveidot savienojumu ar simtiem populāru programmu un pakalpojumu, nerakstot nekādu kodu. Izveidojot plūsmas, kas mijiedarbojas ar Attract elementiem Darbs, Kandidāts un Pieteikums platformā Common Data Service, varat automatizēt dažādas darbības. Piemēram, kad kandidāts pieņem kādu piedāvājumu, var tikt nosūtīts paziņojums personāla atlases darba grupai vai šīs ziņas var tikt paziņotas vietnē Twitter. Papildinformāciju par plūsmām skatiet rakstā [Microsoft Flow dokumentācija](https://docs.microsoft.com/en-us/flow/).
+Varat izmantot Microsoft Flow, lai izveidotu automatizētas darbplūsmas, kas tiek izpildītas, izmantojot Attract datus. Varat ērti izveidot savienojumu ar simtiem populāru programmu un pakalpojumu, nerakstot nekādu kodu. Izveidojot plūsmas, kas mijiedarbojas ar Attract elementiem Darbs, Kandidāts un Pieteikums platformā Common Data Service, varat automatizēt dažādas darbības. Piemēram, kad kandidāts pieņem kādu piedāvājumu, var tikt nosūtīts paziņojums personāla atlases darba grupai vai šīs ziņas var tikt paziņotas vietnē Twitter. Papildinformāciju par plūsmām skatiet rakstā [Microsoft Flow dokumentācija](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI sniedz iespēju izveidot un skatīt pielāgotus pārskatus un informācijas paneļus, kas sniedz dziļāku ieskatu par jūsu Attract datiem. Papildinformāciju par pakalpojumu Power BI un to, kā izveidot interaktīvus pārskatus un informācijas paneļus, skatiet rakstā[Power BI dokumentācija](https://docs.microsoft.com/en-us/power-bi/).
+Power BI sniedz iespēju izveidot un skatīt pielāgotus pārskatus un informācijas paneļus, kas sniedz dziļāku ieskatu par jūsu Attract datiem. Papildinformāciju par pakalpojumu Power BI un to, kā izveidot interaktīvus pārskatus un informācijas paneļus, skatiet rakstā[Power BI dokumentācija](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Pielāgotas darbības 
 

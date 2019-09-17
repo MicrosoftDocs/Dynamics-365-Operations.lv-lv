@@ -1,6 +1,6 @@
 ---
-title: Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
-description: Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Attract.
+title: Kandidātu piesaiste, izmantojot kandidātu kopas programmā Microsoft Dynamics 365 for Talent - Attract
+description: Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711298"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741871"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Kandidātu piesaiste, izmantojot potenciālo kandidātu kopas
+# <a name="source-candidates-with-talent-pools"></a>Kandidātu piesaiste, izmantojot kandidātu kopas
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Potenciālo kandidātu kopas īpašnieks un līdzstrādnieki var pievienot kandi
 ## <a name="search-and-view-candidate-profiles"></a>Kandidātu profilu meklēšana un skatīšana
 
 > [!NOTE] 
-> Šis līdzeklis pašreiz ir priekšskatījumā. Ja vēlaties to izmēģināt, jums [tā ir jāieslēdz pakalpojuma Attract administratora iestatījumos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Šis līdzeklis pašreiz ir priekšskatījumā. Ja vēlaties to izmēģināt, jums [tā ir jāieslēdz pakalpojuma Attract administratora iestatījumos](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Kandidātu kopas ļauj skatīt kandidāta profilu, LinkedIn informāciju, saistītos dokumentus un pieteikumu vēsturi. Varat meklēt visā datu bāzē visus kandidātus, kas pievienoti jebkurai kandidātu kopai, tostarp slēgtos un aktīvos kandidātus.
 
@@ -116,7 +116,7 @@ Visiem lietotājiem ir pieejams viens un tas pats kandidātu profilu skats. Ciln
 
     Lai skatītu dokumentu, atlasiet dokumenta nosaukumu dokumentu sarakstā. Varat skatīt Microsoft Word dokumentu lietojumprogrammā, izmantojot Microsoft Office 365. Varat arī lejupielādēt dokumentus savā lokālajā datorā, katram dokumentam izmantojot opciju **Lejupielādēt**.
 
-- Cilnē **LinkedIn** tiek rādīta kandidāta LinkedIn informācija. Lai izmantotu šo cilni, jums ir jāizveido savienojums ar savu LinkedIn kontu lietotāja iestatījumu sadaļā un jūsu vidē ir jābūt izveidotam savienojumam ar LinkedIn Recruiter. Papildinformāciju skatiet tēmā [Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- Cilnē **LinkedIn** tiek rādīta kandidāta LinkedIn informācija. Lai izmantotu šo cilni, jums ir jāizveido savienojums ar savu LinkedIn kontu lietotāja iestatījumu sadaļā un jūsu vidē ir jābūt izveidotam savienojumam ar LinkedIn Recruiter. Papildinformāciju skatiet tēmā [Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Tikai kandidāti var atjaunināt informāciju par savām prasmēm, izglītību un darba pieredzi.

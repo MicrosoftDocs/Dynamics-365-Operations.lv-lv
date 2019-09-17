@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518593"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741894"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 5. marts)
 
@@ -43,10 +43,10 @@ Programmā Attract ir vairāki lauki, kas ir opciju kopas pakalpojumā Common Da
 ## <a name="changes-in-onboarding"></a>Izmaiņas pievienošanas procesā
 
 ### <a name="private-preview-for-onboard-teams"></a>Pievienošanas darba grupu privāts priekšskatījums
-Tagad varat viegli kopīgot veidnes un sadarboties to izmantošanā visā savā organizācijā. Papildinformāciju skatiet rakstā [Dalīšanās ar labākās prakses piemēriem savā organizācijā, izmantojot pievienošanas darba grupas](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Tagad varat viegli kopīgot veidnes un sadarboties to izmantošanā visā savā organizācijā. Papildinformāciju skatiet rakstā [Dalīšanās ar labākās prakses piemēriem savā organizācijā, izmantojot pievienošanas darba grupas](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Uzdevumu veicēju vietturu privāts priekšskatījums
-Varat paplašināt savas veidnes, piešķirot aktivitātes lomām, nevis personām. Pēc tam lomas tiek piešķirtas personām ceļveža izveides laikā. Papildinformāciju skatiet rakstā [Ceļvežu administrēšanas racionalizācija, piešķirot aktivitātes lomām](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Varat paplašināt savas veidnes, piešķirot aktivitātes lomām, nevis personām. Pēc tam lomas tiek piešķirtas personām ceļveža izveides laikā. Papildinformāciju skatiet rakstā [Ceļvežu administrēšanas racionalizācija, piešķirot aktivitātes lomām](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 **8.1.2178 būvējums**
@@ -71,7 +71,7 @@ Bieži vien darbinieki pievienojas organizācijai ar vēlāku sākuma datumu. Š
 Šajā laidienā ir ietverti citi nelieli kļūdu labojumi.
 
 ### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
-Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Drīzumā
 
@@ -79,4 +79,4 @@ Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstie
 Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem, piemēram, vadītāju vai reģionālo darbinieku ierakstiem. Šīs izmaiņas sniedz iespēju pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem var piešķirt drošības lomas, no kurām ir atkarīga piekļuve plāniem un ar tiem saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem. Šo atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar konkrētajām piekļuves atļaujām.
 
 ###  <a name="platform-update-24"></a>Platform update 24
-Papildinformāciju par atjauninājumu Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Papildinformāciju par atjauninājumu Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

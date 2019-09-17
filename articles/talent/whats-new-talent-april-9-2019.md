@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518531"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856428"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 9. aprīlis)
 
@@ -37,10 +37,10 @@ ms.locfileid: "1518531"
 Programmā Attract un Onboard problēmas, kuras lietotāji ir reģistrējuši, izmantojot līdzekli Ziņot par problēmu, tagad automātiski izveido atbalsta problēmas klienta LCS projektā. Administratori varat izskatīt šīs problēmas un iesniegt tās korporācijai Microsoft, ja nepieciešams. Tas atbilst veidam, kā Core HR apstrādā lietotāju atbalsta problēmas.
 
 ### <a name="relevance-search"></a>Atbilstības meklēšana
-No kandidātu kopām tagad visā savā kandidātu datu bāzē varat meklēt noteiktas prasmes, nosaukumus vai iegūto izglītību. Jums vairs nav jānorāda, kurā kandidātu profilu sadaļā vēlaties meklēt. Attract meklē visā profilā un izceļ visas atrastās atbilstības. Attract meklē arī visos dokumentos, kas ir pieejami par kādu kandidātu, un viedi sakārto meklēšanas rezultātus. Turklāt rezultātus varat filtrēt pēc avota vai pēc tā, vai tie ir saņēmuši sudraba medaļu. Plašāku informāciju skatiet rakstā [Kandidātu profilu meklēšana un skatīšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+No kandidātu kopām tagad visā savā kandidātu datu bāzē varat meklēt noteiktas prasmes, nosaukumus vai iegūto izglītību. Jums vairs nav jānorāda, kurā kandidātu profilu sadaļā vēlaties meklēt. Attract meklē visā profilā un izceļ visas atrastās atbilstības. Attract meklē arī visos dokumentos, kas ir pieejami par kādu kandidātu, un viedi sakārto meklēšanas rezultātus. Turklāt rezultātus varat filtrēt pēc avota vai pēc tā, vai tie ir saņēmuši sudraba medaļu. Plašāku informāciju skatiet rakstā [Kandidātu profilu meklēšana un skatīšana](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Potenciālo kandidātu ieteikumi
-Attract var palīdzēt, uzsākot avotu meklēšanu kādam darbam, līdzko jūs to aktivizējat, sniedzot viedus kandidātu ieteikumus no jūsu organizācijas kandidātu datu bāzes. Šajos ieteikumos ir ietverta informācija par prasmēm un izglītību, kuru norādījāt, meklējot saistītus potenciālos kandidātus. Šie ieteikumi ir redzami attiecīgā darba sadaļas cilnē **Potenciālie kandidāti**, ja šim darbam to iespējojāt darbā pieņemšanas procesa laikā. Plašāku informāciju skatiet tēmā [Potenciālo kandidātu ieteikumi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Attract var palīdzēt, uzsākot avotu meklēšanu kādam darbam, līdzko jūs to aktivizējat, sniedzot viedus kandidātu ieteikumus no jūsu organizācijas kandidātu datu bāzes. Šajos ieteikumos ir ietverta informācija par prasmēm un izglītību, kuru norādījāt, meklējot saistītus potenciālos kandidātus. Šie ieteikumi ir redzami attiecīgā darba sadaļas cilnē **Potenciālie kandidāti**, ja šim darbam to iespējojāt darbā pieņemšanas procesa laikā. Plašāku informāciju skatiet tēmā [Potenciālo kandidātu ieteikumi](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Intervētāja pieejamības statusi
 Interviju plānotāji drīz varēs redzēt intervētāju statusus **Ārpus biroja, strādā citur**, lai palīdzētu ieplānot intervētājiem vispiemērotākos laikus.

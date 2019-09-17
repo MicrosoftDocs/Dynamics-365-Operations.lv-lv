@@ -1,0 +1,94 @@
+---
+title: Iegūt programmu Dynamics 365 for Talent - Onboard
+description: Šajā tēmā ir paskaidrots, kā iegūt savrupu programmas Microsoft Dynamics 365 for Talent - Onboard versiju vai versiju, kurā ir iekļauts Visaptverošais darbā pieņemšanas papildinājums.
+author: andreabichsel
+manager: ''
+ms.date: 05/02/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2019-05-06
+ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731561"
+---
+# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>Iegūt Dynamics 365 for Talent: Onboard programma
+
+[!include [banner](includes/banner.md)]
+
+Varat apskatīt demonstrāciju un izmēģināt Microsoft Dynamics 365 for Talent: Onboard programmu bez maksas [Onboard produktu lapā](https://dynamics.microsoft.com/talent/onboard/)
+
+> [!NOTE]
+> Bezmaksas izmēģinājumversijai ir nepieciešams uzņēmuma e-pasta konts.
+
+Varat iegādāties abonementu uz Onboard vai nu kā savrupu programmu vai daļu no Dynamics 365 for Talent. Talants ir visaptveroša cilvēkkapitāla pārvaldības (HCM) sistēma, kas ietver Dynamics 365 for Talent: Attract, Onboard un Core HR. Papildinformāciju par to, kā iegādāties Onboard, skatiet [Onboard produktu lapu](https://dynamics.microsoft.com/talent/onboard/).
+
+Izmēģinājuma vai pirkšanas procesa laikā jūs iestatīsit savu Microsoft 365 e-pasta adresi un paroli. Noteikti pierakstiet šīs vērtības.
+
+> [!WARNING]
+> Datus no izmēģinājumversijas nevar migrēt uz maksas abonementa vidi. <!--Reviewers: please verify.-->
+
+Plašāku informāciju par jaunajiem līdzekļiem programmā Talent skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent](./whats-new.md) un [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes/index). Ja vēlaties priekšskatīt jaunos līdzekļus programmā Onboard, skatiet rakstu [Piekļuve priekšskatījuma līdzekļiem programmā Talent](./access-preview-feature.md).
+
+Ja esat IT profesionālis un vēlaties uzzināt vairāk par to, kā tiek nodrošinātas abas programmas Onboard versijas, skatiet rakstu [Programmas Onboard nodrošināšana](./modular-app-tech-faq.md)
+
+## <a name="get-started-with-onboard"></a>Darba sākšana ar Onboard
+
+Atverot Onboard pirmo reizi, jūs esat aicināti paalaist tūre Microsoft 365 administrēšanas centra ceļvedi. Administrēšanas centrā varat iestatīt savu organizāciju, pārvaldīt lietotājus un pārvaldīt savus abonementus. (Viens no šiem abonementiem ir jūsu Onboard abonements.) Papildinformāciju par Microsoft 365 administrēšanas centru skatiet rakstā [Par Microsoft 365 administrēšanas centru](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)
+
+Lai nokļūtu programmā Onboard, veiciet tālāk norādītās darbības.
+
+1. Atveriet [Microsoft pierakstīšanās lapu](https://portal.office.com/).
+2. Kad tiek parādīta uzvedne, ievadiet savu Microsoft 365 e-pasta adresi un paroli.
+3. Augšējā kreisajā stūrī atlasiet programmas palaidēju un pēc tam atlasiet **Dynamics 365**.
+
+    [![Piekļūšana Dynamics 365](./media/onboard-start-dynamics365.png)](./media/onboard-start-dynamics365.png)
+
+4. Atlasiet elementu **Talent: Onboard**.
+
+    [![Onboard atvēršana](./media/onboard-start-onboard.png)](./media/onboard-start-onboard.png)
+
+Pirmā pierakstīšanās var ilgt dažas minūtes, jo vide ir jāinicializē.
+
+## <a name="try-the-walkthrough"></a>Izmēģiniet apskatu
+
+Pirmoreiz atverot Onboard, varat atlasīt **Palaist apskatu**, lai sāktu darbu ar darba veidni.
+
+Ja izlaižat apskatu, varat tam piekļūt vēlāk, atlasot pogu **Palīdzība** (**?**) un pēc tam atlasot **Sākt darbu**.
+
+![[Onboard apskata palaišana](./media/onboard-start-walkthrough.png)](./media/onboard-start-walkthrough.png)
+
+## <a name="change-the-domain-name"></a>Domēna nosaukuma maiņa
+
+Ja esat akceptējis noklusējuma domēna nosaukumu, kad pierakstījāties programmā Onboard, vēlāk varat mainīt to uz citu domēnu. (Noklusējuma domēna nosaukums beidzas ar **onmicrosoft.com**.)
+
+1. Atveriet [Microsoft pierakstīšanās lapu](https://portal.office.com/).
+2. Kad tiek parādīta uzvedne, ievadiet savu Microsoft 365 e-pasta adresi un paroli.
+3. Ja tiek parādīts ieteikums pievienot savu domēnu sadaļā **Ieteicams**, atlasiet **Skatīt ieteikumu** un izpildiet norādījumus. Ja ieteikums nav redzams, kreisās puses izvēlnē atlasiet **Rādīt visu**, atlasiet **Iestatīšana**, atlasiet **Domēni** un pēc tam atlasiet **Pievienot domēnu** vai **Iegādāties domēnu**. Pēc tam izpildiet norādījumus.
+
+## <a name="next-steps"></a>Nākamās darbības
+
+- [Pievienošanas ceļveža izveide](./onboard-create-guide.md)
+- [Pievienošanās veidnes izveide](./onboard-create-template.md)
+- [Pievienošanas ceļvežu un veidņu rediģēšana](./onboard-edit-guides-templates.md)
+- [Satura kopīgošana ar citiem ieguldītājiem](./onboard-share-template.md)
+- [Uzdevumu un pievienoto darbinieku statusa skatīšana](./onboard-view-status.md)
+- [Par pieņemšanu darbā atbildīgo grupu izveide Onboard](./onboard-create-team.md)
+
+### <a name="see-also"></a>Skatiet arī
+
+- [Programmas Onboard izmēģināšana vai iegāde](https://dynamics.microsoft.com/talent/onboard/)
+- [Jaunumi](./whats-new.md)
+- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana](./talent-support.md)
