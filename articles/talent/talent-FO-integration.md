@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617347"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742719"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 for Talent integrāciju ar Dynamics 365 for Finance and Operations
 
@@ -38,7 +38,7 @@ Attract un Onboard gadījumā visi dati tiek iegūti no Common Data Service.
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Vai var izveidot jaunu kartējumu, neizmantojot veidnes?
 
-Veidnes ir sākumpunkts. Varat izveidot savu veidni, taču veidne vienmēr ir nepieciešama, veidojot integrācijas projektu. Plašāku informāciju par datu integrētāju (DI), veidnēm un projektiem skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Veidnes ir sākumpunkts. Varat izveidot savu veidni, taču veidne vienmēr ir nepieciešama, veidojot integrācijas projektu. Plašāku informāciju par datu integrētāju (DI), veidnēm un projektiem skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Vai var kartēt finanšu dimensijas pārsūtīšanai starp Talent un Finance and Operations?
 
@@ -133,7 +133,7 @@ Integrācija risinājumā Finance and Operations paredz divas darbības. Vispirm
 
 Ja dati pakalpojumā Common Data Service netiek rādīti paredzētajā veidā, pārbaudiet, vai integrācijā šis elements tiek atbalstīts. Lai iekļautu papildu datus pakalpojumā Common Data Service, būs nepieciešamas izmaiņas no Microsoft puses.
 
-Ja elements tiek atbalstīts un šie dati ir pieejami pakalpojumā Common Data Service, pārbaudiet, vai datu integrētājā ir pareizs kartējums. Ja integrētāja kartējums ir pareizs, pārbaudiet, vai ir veiksmīgi izpildīti datu pārvaldības darbi. Pakešveida darbu izpildes laikā var rasties kļūdas. Plašāku informāciju par to, kā izmantot rīku Datu pārvaldība, skatiet sadaļā [Datu pārvaldība](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Ja elements tiek atbalstīts un šie dati ir pieejami pakalpojumā Common Data Service, pārbaudiet, vai datu integrētājā ir pareizs kartējums. Ja integrētāja kartējums ir pareizs, pārbaudiet, vai ir veiksmīgi izpildīti datu pārvaldības darbi. Pakešveida darbu izpildes laikā var rasties kļūdas. Plašāku informāciju par to, kā izmantot rīku Datu pārvaldība, skatiet sadaļā [Datu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Manu darbinieku adreses ir nepareizas pēc tam, kad tās ir importētas risinājumā Finance and Operations. Ko darīt?
 
@@ -145,7 +145,7 @@ Veicot Talent ieviešanu, pārbaudiet, vai numuru sērijas nav vienādas risinā
 
 Pārliecinieties, ka, veidojot savienojumus, izvēlaties Dynamics 365 for Finance and Operations (pašlaik priekšskatījumā) un Common Data Service.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Veicot nodarbinātību sinhronizāciju, tiek parādīti kļūdas ziņojumi “CompanyInfo_FK neeksistē” vai “Vērtība “31.12.2154. 23:59:59” laukā “Nodarbinātības beigu datums” nav atrasta saistītajā tabulā “Nodarbinātība”.” Ko darīt?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Veicot nodarbinātību sinhronizāciju, tiek parādīti kļūdas ziņojumi “CompanyInfo_FK neeksistē” vai “Vērtība “31.12.2154. 23:59:59” laukā “Nodarbinātības beigu datums” nav atrasta saistītajā tabulā “Nodarbinātība”.” Ko darīt?
 
 Pārliecinieties, ka veicat kartēšanu pareizajai juridiskajai personai. Juridiskās personas sinhronizēšana neietilpst noklusējuma veidnē, tāpēc ir paredzēts, ka visas juridiskās personas, kas atrodas programmā Talent un Common Data Service, atrodas arī programmā Finance and Operations.
 Pārliecinieties, ka esat atlasījis pareizās juridiskās personas saistītajai savienojumu kopai.
@@ -160,12 +160,12 @@ Atsvaidziniet datu elementus risinājumā Finance and Operations, atverot sadaļ
 
 - Datu integrētājs (DI): 
 
-  - [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Datu integrētāja kļūdu pārvaldība un problēmu novēršana](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Datu integrētāja kļūdu pārvaldība un problēmu novēršana](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Atbildes sniegšana uz DSR pieprasījumiem sistēmas ģenerētiem žurnāliem platformā PowerApps, Microsoft Flow un Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atbildes sniegšana uz DSR pieprasījumiem sistēmas ģenerētiem žurnāliem platformā PowerApps, Microsoft Flow un Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Datu pārvaldība:
 
-  - [Datu pārvaldība](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Datu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

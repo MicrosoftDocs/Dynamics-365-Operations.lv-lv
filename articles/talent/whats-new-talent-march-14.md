@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518581"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742497"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 14. marts)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1518581"
 Līdz ar šīs izmaiņas ieiešanu tagad varat atlasīt vairākus darbiniekus un lielapjomā piešķirt šiem darbiniekiem vienu vai vairākus kontrolsarakstus. 
 
 ### <a name="platform-update-24"></a>Platform update 24
-Papildinformāciju par atjauninājumu Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Būtiskas izmaiņas atjauninājumā platform 24 ietver tālāk uzskaitītās. 
+Papildinformāciju par atjauninājumu Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Būtiskas izmaiņas atjauninājumā platform 24 ietver tālāk uzskaitītās. 
 
 - Programmā Talent ir iespējoti brīdinājumi.
 - Atjauninātā navigācijas josla tagad atrodas atbilstoši Office galvenei.

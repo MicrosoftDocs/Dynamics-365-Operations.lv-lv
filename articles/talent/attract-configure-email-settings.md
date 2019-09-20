@@ -19,14 +19,15 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 360937b807ea149edb2f16ad6799d74791d599b5
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729791"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739499"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-for-talent---attract"></a>E-pasta iestatījumu konfigurēšana programmā Microsoft Dynamics 365 for Talent - Attract
+# <a name="configure-email-settings"></a>E-pasta iestatījumu konfigurēšana
+
 [!include[banner](../includes/banner.md)]
 
 Jūsu zīmols nosaka uzticēšanos un palīdz veidot attiecības ar kandidātiem, pirms viņi vēl ir paspējuši pieteikties jūsu izsludinātajiem amatiem. Pozitīva zīmola uztvere piesaista labākos talantus un pastiprina esošo darbinieku lojalitāti. Microsoft Dynamics 365 for Talent: Attract ļauj konfigurēt e-pasta ziņojumus tā, lai tie atspoguļotu jūsu uzņēmuma zīmolu. Tādējādi varat nodrošināt konsekventu pieredzi darba kandidātiem visa atlases procesa gaitā.

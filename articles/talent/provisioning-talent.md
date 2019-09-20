@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
+ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624611"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "1869940"
 ---
 # <a name="provision-talent"></a>Talent nodrošinājums
 
@@ -51,10 +51,10 @@ Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā v
     > [!NOTE]
     > Talent instances tips ir neatkarīgs no PowerApps vides instances tipa, kuru jūs iestatāt PowerApps administrēšanas centrā.
 3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Talent izmēģinājuma vides ietvaros. Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
-4. Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav pieejama PowerApps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+4. Programma Talent vienmēr tiek nodrošinātaMicrosoft PowerApps vidē, lai nodrošinātu PowerApps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šīs tēmas sadaļu “PowerApps vides izvēle”. Ja jums vēl nav pieejama PowerApps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz PowerApps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [PowerApps vides izveidošana](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/en-us/pricing/).
+    > Lai skatītu esošās vides vai izveidotu jaunas vides, tā nomnieka administratoram, kurš nodrošina pakalpojumu Talent, ir jābūt piešķirtai PowerApps P2 licencei. Ja jūsu organizācijai nav PowerApps P2 licences, tādu varat saņemt no sava CSP vai no [PowerApps izcenojuma lapas](https://powerapps.microsoft.com/pricing/).
 
 5. Atlasiet vidi, kurā nodrošināt programmu Talent.
 6. Atlasiet **Jā**, lai piekristu nosacījumiem un sāktu izvietošanu.
@@ -66,11 +66,11 @@ Kad esat izveidojis LCS projektu, pakalpojumu Talent varat nodrošināt kādā v
     > [!NOTE]
     > Ja vēl neesat izpildījis gala prasības, projektā varat izvietot Talent testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
 
-    > Tā kā Talent abonementa ietvaros ir atļautas tikai divas LCS vides, var apsvērt iespēju izmantot bezmaksas 60 dienu [Talent izmēģinājuma vidi](https://dynamics.microsoft.com/en-us/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot pamata personāla vadības sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+    > Tā kā Talent abonementa ietvaros ir atļautas tikai divas LCS vides, var apsvērt iespēju izmantot bezmaksas 60 dienu [Talent izmēģinājuma vidi](https://dynamics.microsoft.com/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot pamata personāla vadības sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 ## <a name="select-a-powerapps-environment"></a>PowerApps vides izvēle
 
-Izmantojot integrāciju starp Talent un PowerApps vidēm, varat integrēt un paplašināt Talent datu lietojumu, izmantojot PowerApps rīkus. Izpratne par PowerApps vides mērķi ne tikai palīdzēs izveidot programmas, lai paplašinātu programmatūru Talent, bet arī palīdzēs izvēlēties vajadzīgo vidi programmatūras Talent nodrošināšanas laikā. Papildinformāciju par PowerApps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā [Paziņojums par PowerApps vidēm](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+Izmantojot integrāciju starp Talent un PowerApps vidēm, varat integrēt un paplašināt Talent datu lietojumu, izmantojot PowerApps rīkus. Izpratne par PowerApps vides mērķi ne tikai palīdzēs izveidot programmas, lai paplašinātu programmatūru Talent, bet arī palīdzēs izvēlēties vajadzīgo vidi programmatūras Talent nodrošināšanas laikā. Papildinformāciju par PowerApps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā [Paziņojums par PowerApps vidēm](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā tālāk sniegtos norādījumus. 
 
@@ -84,9 +84,9 @@ Izvēloties PowerApps vidi, kurā izvietot programmatūru Talent, ņemiet vērā
    
     - **Izmēģinājuma vides** — šīs vides ir izveidotas beigu datumu, un tās pēc šī laika to derīgums beidzas, tāpēc vide un tajā ietvertās visas Talent instances tiek automātiski noņemtas.
    
-    - **Neatbalstītie reģioni** — pašlaik pakalpojums Talent tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienota Karaliste vai Austrālija.
+    - **Neatbalstītie reģioni** — pašlaik pakalpojums Talent tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienota Karaliste, Austrālija, Kanāda un Āzija.
   
 6. Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa. 
  
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
-Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Lai piešķirtu piekļuvi, ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Core HR vidē. Globālajam administratoram, kas izvietoja Talent, ir jāpalaiž arī programmas Attract un Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieku lietotājiem.  Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt programmām Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Lai piešķirtu piekļuvi, ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Core HR vidē. Globālajam administratoram, kas izvietoja Talent, ir jāpalaiž arī programmas Attract un Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieku lietotājiem.  Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt programmām Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

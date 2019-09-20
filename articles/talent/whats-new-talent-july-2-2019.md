@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729790"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791980"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 2. jūlijs)
 
@@ -37,13 +37,18 @@ ms.locfileid: "1729790"
 
 Tagad varat konfigurēt e-pasta iestatījumus tā, lai kandidātiem, intervētājiem, personāla atlases darbiniekiem un par pieņemšanu darbā atbildīgajiem vadītājiem sūtītu e-pasta ziņojumus no jūsu organizācijas e-pasta pakalpojuma konta. Papildinformāciju skatiet tēmā [E-pasta pakalpojuma konta pievienošana](./attract-configure-email-settings.md#connect-an-email-service-account).
 
-#### <a name="offer-email-templates"></a>E-pasta veidņu piedāvāšana 
+### <a name="offer-email-templates"></a>E-pasta veidņu piedāvāšana 
 
 Tagad savas organizācijas e-pasta ziņojumu veidnes varat konfigurēt visiem piedāvājuma sagatavošanas, apstiprināšanas un pieņemšanas posmiem. Lietotāji var vai nu izmantot noklusējuma veidni, vai pirms e-pasta ziņojuma nosūtīšanas to pielāgot. Papildinformāciju skatiet tēmā [E-pasta veidņu iestatījumu konfigurēšana](./attract-configure-email-settings.md#configure-email-template-settings).
 
 ### <a name="candidate-consent-on-application"></a>Kandidāta piekrišana pieteikumā
 
 Tagad savai organizācijai varat iespējot saiti uz noteikumiem un nosacījumiem. Ja šis iestatījums ir iespējots, kandidātiem pirms savu darba pieteikumu iesniegšanas ir jāpiekrīt noteikumiem un nosacījumiem. 
+
+### <a name="coming-soon-in-attract"></a>Drīzumā risinājumā Attract
+#### <a name="job-approvals-appear-on-the-home-page"></a>Darbu apstiprinājumu rādīšana sākumlapā
+
+Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**. Apstiprinātāji var pārskatīt savus apstiprinājumus sadaļā **Piešķirts jums**, kur ir norādīts darba ID, amata nosaukums, citi apstiprinātāji un datums, kad šis darbs tika piešķirts. Lietotāji, kuri iesniedz darbu apstiprināšanai, var pārskatīt savus darbus sadaļā **Jūsu pieprasījumi**, kur ir norādīti apstiprinātāji, kam šis iesniegtais darbs joprojām ir jāapstiprina.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 

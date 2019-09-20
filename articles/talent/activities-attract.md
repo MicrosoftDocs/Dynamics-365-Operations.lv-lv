@@ -1,9 +1,9 @@
 ---
-title: Aktivitātes procesa ietvaros
-description: Šajā tēma ir sniegta informācija par dažādajiem aktivitāšu veidiem, ko var izmantot darbā pieņemšanas procesa ietvaros.
+title: Aktivitātes darbā pieņemšanas procesa ietvaros Microsoft Dynamics 365 for Talent - Attract
+description: Šajā tēma ir sniegta informācija par dažādajiem aktivitāšu veidiem, ko var izmantot darbā pieņemšanas procesa ietvaros Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518592"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739723"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Aktivitātes darbā pieņemšanas procesa ietvaros
+# <a name="activities-in-hiring-processes"></a>Aktivitātes darbā pieņemšanas procesos
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Programmā Microsoft Dynamics 365 for Talent: Attract darbā pieņemšanas proce
 ## <a name="prospect-activity"></a>Aktivitāte Potenciālais kandidāts
 
 Aktivitāte Potenciālais kandidāts sniedz iespēju kontrolēt to, vai potenciālos kandidātus var pievienot vakancei. Pēc noklusējuma vakancei var pievienot potenciālos kandidātus. Lai izslēgtu aktivitāti Potenciālais kandidāts, iestatiet opcijas **Iespējot potenciālos kandidātus** vērtību **Izslēgts**. Kad ir ieslēgta aktivitāte Potenciālais kandidāts, par pieņemšanu darbā atbildīgie vadītāji var pievienot un skatīt potenciālos kandidātus un vakances sadaļā tiek rādīta cilne **Potenciālais kandidāts**.
+
+> [!NOTE]
+> Lai ļautu kandidātiem pievienot darbu no LinkedIn, opcija **Iespējot potenciālos kandidātus** ir jāiestata uz **Ieslēgts**.
 
 ## <a name="application-activity"></a>Aktivitāte Pieteikums
 

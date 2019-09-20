@@ -1,9 +1,9 @@
 ---
-title: Aizraujošas pievienošanas pieredzes izveidošana
-description: Ja pievienošana tiek darīta labi, tā jaunajiem darbiniekiem palīdz sajusties piederīgiem savai jaunajai organizācijai.
+title: Darba sākšana ar Onboard
+description: Šī tēma palīdzēs jums sākt darbu ar programmu Microsoft Dynamics 365 for Talent - Onboard. Onboard palīdz jūsu jaunajām darbā pieņemtajām personām pārliecinoši sākt darbu, sniedzot tām ceļvedi, kas nodrošina netraucētu pievienošanas procesu.
 author: andreabichsel
 manager: ''
-ms.date: 11/14/2017
+ms.date: 06/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -16,77 +16,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518521"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731217"
 ---
-# <a name="create-an-engaging-onboarding-experience"></a>Aizraujošas pievienošanas pieredzes izveidošana
+# <a name="get-started-with-onboard"></a>Darba sākšana ar Onboard
 
 [!include [banner](includes/banner.md)]
 
-Ja pievienošana tiek veikta efektīvi, tā palīdz jaunajiem darbiniekiem strādāt efektīvāk, vienlaikus gūstot sajūtu, ka viņi iederas savā jaunajā lomā. Pievienošana var palīdzēt jaunajiem darbiniekiem ātrāk un precīzāk apgūt savu jauno lomu, nekā tas notiktu bez pievienošanas, un dod viņiem handikapu attiecībā uz sekmīgam darbam noderīgu attiecību veidošanu. Savukārt neefektīva pievienošanas pieredze darbiniekiem var likt apšaubīt savu lēmumu par pievienošanos jūsu organizācijai. Pētījumā, ko 2014. gadā veica Gartner, tika konstatēts, ka gandrīz viena trešdaļa no 1005 respondentiem, kuri aizgāja no darba pirmo sešu mēnešu laikā, to izdarīja, jo viņiem nebija skaidras vadības sniegtās vadlīnijas, apmācība bija neefektīva vai arī viņiem neizdevās izveidot efektīvas attiecības jaunajā vidē.
+Izmantojot Microsoft Dynamics 365 for Talent: Onboard, jūs varat palīdzēt saviem jaunajiem darbiniekiem efektīvāk darboties un iegūt piederības izjūtu jaunajās lomās. Efektīvs pievienošanas process palīdz jaunām darbā pieņemtām personām izprast savas jaunās lomas. Tas arī dod viņiem dod viņiem handikapu attiecībā uz sekmīgam darbam noderīgu attiecību veidošanu.
 
-## <a name="have-an-onboarding-program-in-place"></a>Izmantojiet pievienošanas programmu
-Ir svarīgi saprast, kā un kur varat uzlabot savu pievienošanas procesu. Tālāk norādītie jautājumi jums varētu palīdzēt sistemātiski analizēt un uzlabot savu pievienošanas procesu.
+Onboard ļauj ātri izveidot pievienošanas ceļvedi, kas sveiks jaunās darbā pieņemtās personas un liks tām justies lepnām par pievienošanos jūsu organizācijai.
 
-- Kāds ir jūsu atbiruma koeficients?
-- Vai jaunie darbinieki sekmīgi izpilda visus prasītos pievienošanās uzdevumus?
-- Cik ilgs laiks nepieciešams, līdz jaunais darbinieks pilnvērtīgi izpilda savus pienākumus?
-- Kā jaunie darbinieki vērtē savu apmierinātību?
+[![Pievienošanas ceļvedis](./media/onboard-onboarding-guide.png)](./media/onboard-onboarding-guide.png)
 
-Lai sāktu pievienošanu, negaidiet līdz darbinieku pirmajai darba dienai. Pievienošana ir jāsāk, kad jaunajam darbiniekam ir noteikts sākuma datums. Bieži vien tas tiek saukts par iepriekšēju pievienošanu jeb “pirmspievienošanu”. Šī ir jūsu iespēja nupat nolīgtajos darbiniekos uzturēt prieku par savu izvēli pievienoties jūsu uzņēmumam, stiprināt attiecības un demonstrēt jūsu uzņēmuma kultūru un vērtības.
+Lai uzzinātu, kā iegūt un izmantot programmu Onboard, skatiet tālāk norādītās tēmas.
 
-Viena no vissvarīgākajām pirmspievienošanas aktivitātēm ir nupat nolīgto darbinieku sagatavošana viņu pirmajai darba dienai. Šis viņiem var būt saspringts laiks. Maziniet spriedzi, viņu pirmajai dienai izveidojot kontrolsarakstu un darba kārtību.
+- [Programmas Onboard iegūšana](./onboard-get-app.md)
+- [Pievienošanas ceļveža izveide](./onboard-create-guide.md)
+- [Pievienošanās veidnes izveide](./onboard-create-template.md)
+- [Pievienošanas ceļvežu un veidņu rediģēšana](./onboard-edit-guides-templates.md)
+- [Satura kopīgošana ar citiem ieguldītājiem](./onboard-share-template.md)
+- [Uzdevumu un pievienoto darbinieku statusa skatīšana](./onboard-view-status.md)
+- [Par pieņemšanu darbā atbildīgo grupu izveide Onboard](./onboard-create-team.md)
 
-### <a name="what-to-include-in-a-checklist"></a>Ko iekļaut kontrolsarakstā
+## <a name="see-also"></a>Skatiet arī
 
-- Kas ir jāņem līdzi, piemēram, personu identificējošs dokuments un bankas informācija.
-- Ģērbšanas stils, ja jūsu uzņēmumā tāds pastāv.
-- Norādījumi par to, ka nokļūt uz jūsu biroju.
-- Kontaktpersonas vai — vēl labāk — nolīgšanas palīga vārds.
-- Visas uzņēmuma rokasgrāmatas vai politikas, kas viņiem būtu jāizlasa.
-
-**Bonuss**
-
-- Nosūtiet viņiem kādu uzņēmumu aksesuāru, piemēram, t-kreklu vai krūzi.
-- Nosūtiet video ziņojumus no darba grupas ar draudzīgiem sveicieniem, iestājoties uzņēmumā.
-- Iekļaujiet personalizētu sveicienu no izpilddirektora vai cita vadošā darbinieka.
-- Padariet viņu pirmo dienu par īpašu.
-
-Nelieciet nupat nolīgtajam darbiniekam apšaubīt savu lēmumu par pievienošanos jūsu uzņēmumam, pirmajā dienā radot sliktu pirmo iespaidu.
-
-## <a name="create-a-good-first-impression"></a>Laba pirmā iespaida veidošana
-
-Izveidojiet dienas darba kārtību un kopīgojiet to ar nupat nolīgto darbinieku. Nekoncentrējieties tikai uz orientēšanos. Nodrošiniet, vai būtu jautri, iepazīstiniet viņus ar kolēģiem un izvadājiet ekskursijā pa biroju. Iesaistiet pārējos darbiniekus. Informējiet viņus, ka uzņēmumam pievienojas jauns kolēģis. Neaizmirstiet IT darbiniekus, algu nodaļas un citu administratīvo nodaļu darbiniekus. Pārliecinieties, vai nupat nolīgtajiem darbiniekiem ir viss, kas nepieciešams darba sākšanai. Tas tostarp attiecas uz darbvietu, datoru un nepieciešamajiem akreditācijas datiem, programmatūru un rīkiem. Koncentrējieties uz attiecībām, nevis uz dokumentiem.
-
-Attiecībām ir galvenā loma ātrai nupat nolīgto darbinieku ievadīšanai darba sliedēs. Galvenais — tās palīdz radīt kopības sajūtu un sajūtu par piederību jūsu uzņēmumā.
-
-- Atrodiet savā uzņēmumā ekspertu vai čempionu un padariet viņu par pievienošanās palīgu.
-- Nupat nolīgots darbiniekus piesaistiet ar darbu saistītām kopienām vai interešu grupām. Tas ir lielisks veids, kā atrast trenerus vai padomdevējus.
-- Kopīgojiet darba grupas dalībnieku profilus (vislabāk — jau iepriekš), lai paātrinātu saziņu, zināšanu apmaiņu un attiecību veidošanu.
-- Neaizmirstiet par sociālajām kopienām vai pasākumiem, kas atbilst jūsu darbinieka personīgajiem mērķiem.
-
-## <a name="provide-training"></a>Apmācību nodrošināšana
-
-Nodrošiniet nupat nolīgtajiem darbiniekiem pārliecību un rīkus, kas viņiem ir nepieciešami sekmīgam darbam. Vispirms skaidri definējiet viņu pienākumus un norādiet, kā šie pienākumi ir jāizpilda. Pēc tam izveidojiet apmācību plānu, kas koncentrējas uz prasmēm, kas viņiem nepieciešamas, lai izpildītu no viņiem gaidīto. Nekoncentrējieties tikai uz apmācību, kas balstīta uz atbilstību.
-
-## <a name="set-clear-milestones"></a>Skaidru atskaites punktu noteikšana
-
-Nosakiet skaidrus atskaites punktus un izveidojiet atsauksmju sistēmu starp jums un nupat nolīgto darbinieku. Izveidojiet pēc iespējas vairāk iespēju iejaukties un labot notikumu gaitu. Jūs vēlaties neskaidrības novērst vēl pirms tam, kad tās ir kļuvušas par problēmām vai — vēl sliktāku — izraisījušas nesaskaņas.
-
-Ieplānojiet tikšanās viens-pret-vienu ar jauno darbinieku, pirms beidzas viņu pirmā nedēļa. Šis ir lielisks brīdis, kad apspriest cerības, darba stilus un karjeras izaugsmi.
-
-Jaunākajiem darba grupas dalībniekiem nosakiet 30, 60 un 90 dienu mērķus. Kad mērķi ir noteikti, noteikti regulāri pārbaudiet, kā norit viņu progress attiecībā pret šiem mērķiem.
-
-## <a name="measure-and-optimize"></a>Mērīšana un optimizēšana
-
-Kad ieviešat jaunu pievienošanas programmu, īpaša uzmanība ir jāpievērš tālāk norādītajiem jautājumiem. 
-
-- Vai uzlabojat atbirumu?
-- Vai nupat nolīgto darbinieku apmierinātība pieaug? 
-
-Mēriet šos rādītājus un veiciet mazus uzlabojumus ar katru jauno darbinieka nolīgšanu.
-
+- [Programmas Onboard izmēģināšana vai iegāde](https://dynamics.microsoft.com/talent/onboard/)
+- [Jaunumi](./whats-new.md)
+- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana](./talent-support.md)

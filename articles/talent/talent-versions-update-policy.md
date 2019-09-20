@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518567"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741779"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent sistēmas prasības un atjaunināšanas politika
 
@@ -64,10 +64,10 @@ Jūs varat lejupielādēt PDF failu ar valstīm, reģioniem un valodām, ko atb
 > [!NOTE]
 > Lietotāja interfeiss ir lokalizēts citās valodās, bet visi lietotāja dati tiek saglabāti tajā valodā, kādā tika ievadīti. Varat izveidot e-pasta ziņojumus un veidnes citās valodās, taču dati, piemēram, plānošanas informācija, pagaidām ir pieejami tikai angļu valodā.
 
-Ja esat izstrādātājs un vēlaties izveidot valstij vai reģionam specifiskus pielāgojumus vai izveidot risinājumu valstij vai reģionam, ko Microsoft pašlaik neatbalsta, skatiet lapu [Globalizācija](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Ja esat izstrādātājs un vēlaties izveidot valstij vai reģionam specifiskus pielāgojumus vai izveidot risinājumu valstij vai reģionam, ko Microsoft pašlaik neatbalsta, skatiet lapu [Globalizācija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 ## <a name="update-policy"></a>Atjaunināšanas politika
 
 Microsoft Dynamics 365 for Talent tiek apkalpots kā mākoņa piedāvājums. Dynamics 365 for Talent atjauninājumus pastāvīgi un automātiski piemēro Microsoft.
 
-Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs. Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.
+Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs. Dynamics 365 for Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft Support Lifecycle politiku](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.

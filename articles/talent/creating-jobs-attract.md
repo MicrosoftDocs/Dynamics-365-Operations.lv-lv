@@ -3,7 +3,7 @@ title: Darbu izveide, apstiprināšana un publicēšana programmā Attract
 description: Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518542"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773264"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Darbu izveide, apstiprināšana un publicēšana programmā Attract
+# <a name="create-a-job"></a>Izveidot darbu
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes 
 > [!NOTE]
 > Darbu publicēšanas funkcionalitāte ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums programmai Attract.
 
-### <a name="posting-jobs-to-linkedin"></a>Darbu publicēšana pakalpojumā LinkedIn 
-
-Pirms darba publicēšanas no programmas Attract pakalpojumā LinkedIn administratoram ir jāpievieno LinkedIn uzņēmuma ID un LinkedIn uzņēmuma nosaukums sadaļā **Administratora iestatījumi**. LinkedIn uzņēmuma ID ir vajadzīgs, lai nodrošinātu, ka darbi, kas publicēti no programmas Attract, tiek kartēti pareizā uzņēmuma lapā.
-
-LinkedIn uzņēmuma ID ir skaitļu virkne, kas unikāli identificē jūsu uzņēmumu pakalpojumā LinkedIn. Lai iegūtu vairāk informācijas par to, kā atrast LinkedIn uzņēmuma ID, lūdzu, apmeklējiet [LinkedIn vietni](https://aka.ms/findID).
-
-Lai atjauninātu LinkedIn uzņēmumu, atlasiet vienumu **Administrēšanas centrs** izvēlnē **Iestatījumi**  (zobrata simbols) un pēc tam atlasiet cilni **LinkedIn integrācija** . Sadaļā **Izveidot savienojumu ar LinkedIn** ievadiet LinkedIn uzņēmuma nosaukumu un uzņēmumu ID un pēc tam saglabājiet iestatījumus.
-
-> [!NOTE]
-> Ir četras svarīgas lietas, kas jāņem vērā par darbu publicēšanu pakalpojumā LinkedIn.
-> 1. Pakalpojumā LinkedIn publicētie darbi tiek publicēti kā darbi ar statusu “Limited Listings” (Ierobežoti saraksti). Ierobežotu sarakstu darbus nevar piedāvāt ārpus vietnes LinkedIn. Ja vēlaties reklamēt ierobežotu sarakstu darbus, kas publicēti pakalpojumā LinkedIn no programmas Attract, jums jāpielāgo LinkedIn tā, lai varētu izmantot opciju “Job Wrapping”. Lai iegūtu papildinformāciju, lūdzu, skatiet tālāk noradītās saites un sazinieties ar LinkedIn atbalsta dienestu.
->
->    [Limited Listings vs Premium Job Slots for Job Wrapping (Ierobežoti saraksti salīdzinājumā ar darbu Premium vietām opcijā “Job Wrapping”)](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Job Wrapping FAQ](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Publicējot darbu vietnē LinkedIn, programma Attract darbam pievieno attiecīgās Microsoft 365 organizācijas nosaukumu. Vietnē LinkedIn darbi tiek saistīti ar vietnē LinkedIn reģistrēto uzņēmumu atbilstoši norādītajam organizācijas nosaukumam. Ja jūsu darbs ir piesaistīts pie nepareiza uzņēmuma vietnē LinkedIn, pārbaudiet, vai jūsu Microsoft 365 organizācijas nosaukums atbilst uzņēmuma nosaukumam vietnē LinkedIn.  
->
->    [Adreses, kontaktinformācijas un citas informācijas maiņa](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Ja jums ir problēmas pēc šīs darbības, lūdzu, sazinieties ar LinkedIn atbalsta dienestu. 
-> 
-> 1. Darbi, kas publicēti LinkedIn, ir redzami reāllaika LinkedIn vietnē. Nav testēšanas vides darbu publicēšanai pakalpojumā LinkedIn. 
->
-> 1. Pašreizējā LinkedIn darbu pakešveida publicēšanas procesa dēļ var paiet līdz 24 stundām, līdz vietnē LinkedIn publicētie darbi kļūst redzami kandidātiem LinkedIn.
-
-
 ## <a name="activate"></a>Aktivizēt
 
 Pēc tam, kad darbs ir aktivizēts, to var publicēt, un tam var pievienot potenciālos kandidātus un kandidātus. Opcija pievienot potenciālos kandidātus darbam ir iestatīta aktivitātē Potenciālais kandidāts darbā pieņemšanas procesā.
@@ -142,7 +115,7 @@ Ja lietotājs rediģē darbu pēc tam, kad tas ir apstiprināts, bet nav aktiviz
 Cilvēki, kas ir norādīti kā apstiprinātāji, saņems paziņojumu programmā Attract un e-pasta ziņojumu, lai informētu tos, ka tiem ir jāapstiprina vienums.  E-pasta ziņojumā apstiprinātāji var noklikšķināt uz saites, lai atvērtu darbu, pārskatītu detalizētu informāciju un apstiprinātu vai noraidītu. Pēc tam, kad darba statuss tiek iestatīts kā **Apstiprināts** vai **Noraidīts**, iesniedzējs tiek informēts programmā Attract, un viņam tiek nosūtīts e-pasta ziņojums. Turklāt apstiprinātāji saņem atgādinājuma e-pasta ziņojumu, ja viņi nav reaģējuši uz apstiprinājuma pieprasījumu 24 stundu laikā.
 
 > [!NOTE]
-> Varat izveidot pielāgotas e-pasta veidnes apstiprinājuma e-pasta ziņojumiem. Plašāku informāciju skatiet rakstā [E-pasta veidņu izveide un pārvaldība](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> Varat izveidot pielāgotas e-pasta veidnes apstiprinājuma e-pasta ziņojumiem. Plašāku informāciju skatiet rakstā [E-pasta veidņu izveide un pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Darba izveide
 
