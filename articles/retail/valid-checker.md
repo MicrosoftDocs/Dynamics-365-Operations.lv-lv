@@ -1,6 +1,6 @@
 ---
 title: Mazumtirdzniecības transakciju konsekvences pārbaudītājs
-description: Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte programmā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790425"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018421"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mazumtirdzniecības transakciju konsekvences pārbaudītājs
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790425"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte, kas ir ieviesta Microsoft Dynamics 365 for Finance and Operations versijā 8.1.3. Konsekvences pārbaudītājs identificē un izolē nekonsekventas transakcijas, pirms tās ir uzņemtas pārskatu grāmatošanas procesā.
+Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte. Konsekvences pārbaudītājs identificē un izolē nekonsekventas transakcijas, pirms tās ir uzņemtas pārskatu grāmatošanas procesā.
 
-Kad pārskats tiek grāmatots programmā Microsoft Dynamics 365 for Retail, grāmatošana var būt nesekmīga, jo mazumtirdzniecības transakciju tabulās pastāv nekonsekventi dati. Šādu datu kļūmi var izraisīt neparedzētas problēmas pārdošanas punkta (point of sale — POS) programmā, kā arī tā var rasties tad, ja transakcijas tiek nepareizi importētas no trešās puses POS sistēmām. Tālāk ir uzskaitīti daži no šādas nekonsekvences potenciālās rašanās piemēriem. 
+Kad pārskats tiek grāmatots programmā Retail, grāmatošana var būt nesekmīga, jo mazumtirdzniecības transakciju tabulās pastāv nekonsekventi dati. Šādu datu kļūmi var izraisīt neparedzētas problēmas pārdošanas punkta (point of sale — POS) programmā, kā arī tā var rasties tad, ja transakcijas tiek nepareizi importētas no trešās puses POS sistēmām. Tālāk ir uzskaitīti daži no šādas nekonsekvences potenciālās rašanās piemēriem. 
 
 - Transakcijas kopsumma virsraksta tabulā neatbilst transakcijas kopsummai rindās.
 - Rindu skaits virsraksta tabulā neatbilst rindu skaitam transakcijas tabulā.

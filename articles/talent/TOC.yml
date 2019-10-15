@@ -1,13 +1,21 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
-    - name: Sākt darbu
+    - name: Darba sākšana
       items:
         - name: Darba sākšana ar Talent
           href: talent-get-started.md
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2019.\_gada 1.\_oktobris"
+              href: whats-new-talent-october-1-2019.md
+            - name: "2019.\_gada 17.\_septembris"
+              href: whats-new-talent-september-17-2019.md
+            - name: "2019.\_gada 10.\_septembris"
+              href: whats-new-talent-september-12-2019.md
+            - name: "2019.\_gada 27.\_augusts"
+              href: whats-new-talent-august-28-2019.md
             - name: "2019.\_gada 22.\_augusts"
               href: whats-new-talent-august-21-2019.md
             - name: "2019.\_gada 13.\_augusts"
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: "2019.\_gada 2.\_jūlijs"
               href: whats-new-talent-july-2-2019.md
-            - name: "2019.\_gada 25.\_jūnijs"
-              href: whats-new-talent-june-25-2019.md
-            - name: "2019.\_gada 18.\_jūnijs"
-              href: whats-new-talent-june-18-2019.md
-            - name: "2019.\_gada 11.\_jūnijs"
-              href: whats-new-talent-june-11-2019.md
-            - name: "2019.\_gada 4.\_jūnijs"
-              href: whats-new-talent-june-4-2019.md
             - name: "Jaunumu arhīvi, 2019.\_gads"
               items:
+                - name: "2019.\_gada 25.\_jūnijs"
+                  href: whats-new-talent-june-25-2019.md
+                - name: "2019.\_gada 18.\_jūnijs"
+                  href: whats-new-talent-june-18-2019.md
+                - name: "2019.\_gada 11.\_jūnijs"
+                  href: whats-new-talent-june-11-2019.md
+                - name: "2019.\_gada 4.\_jūnijs"
+                  href: whats-new-talent-june-4-2019.md
                 - name: "2019.\_gada 28.\_maijs"
                   href: whats-new-talent-may-28-2019.md
                 - name: "2019.\_gada 21.\_maijs"
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Pakalpojuma Talent problēmu novēršana
       items:
+        - name: Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem
+          href: talent-batch-history-cleanup.md
         - name: Ar darbu publicēšanu pakalpojumā LinkedIn saistīto problēmu novēršana
           href: attract-troubleshoot-linkedin.md
         - name: Analīzes pārskati netiek atjaunināti

@@ -1,6 +1,6 @@
 ---
-title: Laipni lūdzam programmā Dynamics 365 for Retail!
-description: Sākumlapa programmai Dynamics 365 for Retail
+title: Palīdzības resursi saistībā ar Dynamics 365 Retail
+description: Sākumlapa programmai Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,23 +18,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874931"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278110"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Laipni lūdzam programmā Dynamics 365 for Retail!
+# <a name="help-resources-for-dynamics-365-retail"></a>Palīdzības resursi saistībā ar Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem un nodarbinātajiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
-
-> [!NOTE]
-> Programma Dynamics 365 for Retail ir cieši saistīta ar programmu Dynamics 365 for Finance and Operations un Dynamics 365 for Talent. Visos trīs produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Microsoft Dynamics 365 for Retail; tēmās, kas galvenokārt ir saistītas ar pamatproduktu (Finance and Operations), produkta nosaukums ir Microsoft Dynamics 365 for Finance and Operations; bet tēmās, kas galvenokārt ir saistītas ar personāla vadību, produkta nosaukums ir Dynamics 365 for Talent.
+Microsoft Dynamics 365 Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem un nodarbinātajiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
 Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
+
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (priekšskatījums)
+
+Dynamics 365 Commerce — izveidots uz pārbaudītām Dynamics 365 Retail iespējām — nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Programma Commerce ir pieejama debitoru priekšskatīšanai tūlīt. Esošie Dynamics 365 Retail klienti varēs atjaunināt programmu Commerce, tiklīdz tā būs plaši pieejama.
+
+Lai iegūtu vairāk informācijas par Dynamics 365 Commerce, dodieties uz lapu [Palīdzības resursi saistībā ar Dynamics 365 Commerce](../commerce/index.md).
 
 ## <a name="channel-management"></a>Kanāla pārvaldība
 
@@ -78,12 +81,12 @@ Lai definētu attiecības starp veikalu, veikalā esošajiem POS reģistriem un
 
 Ja jums tiek lūgts pielāgot savu vidi vai ja atbildat par savas sistēmas izvietošanu un uzturēšanu, papildus vispārīgajam saturam noteikti apskatiet programmai Retail raksturīgo izstrādātāja un sistēmas administratora saturu.
 
-- [Dynamics 365 for Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
-- [Izstrāde un administrēšana programmai Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
+- [Izstrāde un administrēšana programmai Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
 

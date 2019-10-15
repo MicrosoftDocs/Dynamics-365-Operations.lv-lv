@@ -1,6 +1,6 @@
 ---
 title: Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)
-description: Šajā tēmā ir aprakstīta Microsoft Dynamics 365 for Retail izmaksu konfigurācijas sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte.
+description: Šajā tēmā ir aprakstīta Dynamics 365 Retail izmaksu konfigurācijas sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606783"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019443"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606783"
 
 Organizācijām ieteicams izmantot vairākus izmaksu komponentus, lai noteiktu optimālu pasūtījuma izpildes vietu. Daži no šiem izmaksu komponentiem ir piegādes izmaksas, apstrādes izmaksas un iepakojuma izmaksas. Šo izmaksu kombinācija tiek aprēķināta tādēļ, lai noteiktu izpildes vietu.
 
-Kad Microsoft Dynamics 365 for Retail pirmā sadalīto pasūtījumu pārvaldības (DOM) iterācija optimizē izpildes vietām piešķirtos pasūtījumus, tiek ņemts vērā tikai attālums. Lai gan attālums var tikt saistīts ar izmaksām, tas nav tas pats, kas izmaksas. Piemēram, vienā attālumā piegādes pa nakti izmaksas ir lielākas nekā piegādes trīs vai septiņu dienu laikā.
+Kad Dynamics 365 Retail pirmā sadalīto pasūtījumu pārvaldības (DOM) iterācija optimizē izpildes vietām piešķirtos pasūtījumus, tiek ņemts vērā tikai attālums. Lai gan attālums var tikt saistīts ar izmaksām, tas nav tas pats, kas izmaksas. Piemēram, vienā attālumā piegādes pa nakti izmaksas ir lielākas nekā piegādes trīs vai septiņu dienu laikā.
 
 Izmantojot izmaksu konfigurācijas funkciju, mazumtirgotāji var definēt un konfigurēt papildu izmaksu komponentus, kas tiks aprēķināti un ņemti vērā, nosakot optimālo vietu pasūtījumu rindu izpildei.
 

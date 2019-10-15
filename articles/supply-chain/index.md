@@ -1,9 +1,9 @@
 ---
-title: Piegādes ķēdes pārvaldības sākumlapa
-description: Šajā lapā ir saraksts ar palīdzības tēmām un citiem resursiem piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Palīdzības resursi saistībā ar Supply Chain Management
+description: Šajā lapā ir saraksts ar palīdzības tēmām un citiem resursiem saistībā ar programmas Supply Chain Management līdzekļiem.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,26 +18,27 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557596"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278328"
 ---
-# <a name="supply-chain-management-home-page"></a>Piegādes ķēdes pārvaldības sākumlapa
+# <a name="help-resources-for-supply-chain-management"></a>Palīdzības resursi saistībā ar Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. 
+Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem programmā Dynamics 365 Supply Chain Management. 
 
-## <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+## <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz lapu <a href="https://roadmap.dynamics.com/">Dynamics 365 rīcības plāns</a>. 
 
 ## <a name="core-concepts-and-tasks"></a>Pamatkoncepcijas un uzdevumi
 
 Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
+- [Līdzekļu pārvaldība](asset-management/index.md)
 - [Izmaksu uzskaite](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Izmaksu pārvaldība](cost-management/cost-management-home-page.md)  
 - [Krājumu pārvaldība](inventory/inventory-home-page.md)
@@ -48,7 +49,11 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Pārdošana un mārketings](sales-marketing/overview-sales-marketing.md)
 - [Pakalpojumu pārvaldība](service-management/service-management-home-page.md)
 - [Transportēšanas pārvaldība](transportation/transportation-management-overview.md)
-- [Noliktavas pārvaldība](warehousing/warehouse-configuration.md)
+- [Noliktavas vadība](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Lai iegūtu vairāk informācijas par Dynamics 365 Finance, dodieties uz lapu [Dynamics 365 Finance palīdzības resursi](../finance/index.md).
 
 ## <a name="videos"></a>Videoklipi
 
@@ -113,6 +118,6 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations nodrošinātā mobilitāte noliktavā</a>
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
-Informāciju par Microsoft Dynamics 365 for Finance and Operations apmācībām skatiet <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics mācību portālā</a>. (ir nepieciešams CustomerSource konts) 
+Informāciju par Dynamics 365 apmācībām skatiet <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Mācību portālā</a>. (ir nepieciešams CustomerSource konts) 
 
 

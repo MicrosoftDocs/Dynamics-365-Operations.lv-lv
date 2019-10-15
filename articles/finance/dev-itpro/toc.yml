@@ -1,0 +1,1620 @@
+- name: Finance and Operations izstrāde un administrēšana
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Jaunumi un izmaiņas
+  items:
+    - name: "Priekšskatījuma līdzekļi Platform update\_30 (2019.\_gada novembris)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_29 (2019.\_gada oktobris)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_28 (2019.\_gada jūlijs)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_27 (2019.\_gada jūnijs)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_26 (2019.\_gada maijs)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_25 (2019.\_gada aprīlis)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_24 (2019.\_gada marts)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_23 (2019.\_gada janvāris)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_22 (2018.\_gada decembris)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_21 (2018.\_gada novembris)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_20 (2018.\_gada septembris)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Platform update\_15 (2018.\_gada marts)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Biznesa notikumi
+  items:
+    - name: Biznesa notikumu pārskats
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Programmas biznesa notikumi
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Darbplūsmas biznesa notikumi
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Brīdinājumi kā biznesa notikumi
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Biznesa notikumi programmā Microsoft Flow
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Biznesa notikumu izstrādātāja dokumentācija
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Biznesa notikumu problēmu novēršana
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Gadījumu lietošana biznesa notikumiem
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Apmācība
+      items:
+        - name: Biznesa notikumi un Microsoft Flow
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biznesa notikumi un Azure Event Grid
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biznesa notikumi un Azure Service Bus
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biznesa notikumi un darbplūsmu apstiprinājumi
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biznesa notikumi un Microsoft Forms Pro
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biznesa notikumi un Azure Event Hubs
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Pastāvīga piegāde
+  items:
+    - name: Pastāvīgas piegādes sākumlapa
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bieži uzdotie jautājumi par izstrādi un pastāvīgu piegādi
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Testa pakotņu izslēgšana no būvējuma izvades
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Trešo pušu modeļu un izpildlaika pakotņu pārvaldība, izmantojot avota kontroli'
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Modeļa versiju atjaunināšana automatizētā būvējumā
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Datu integrācija
+  items:
+    - name: Datu integrācijas (importa/eksporta) stratēģijas izvēle
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu integrācijas API
+      items:
+        - name: Datu pārvaldības pakotnes REST API
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakalpojumu galapunkti
+          items:
+            - name: Pakalpojumu galapunktu apskats
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pakalpojumu autentifikācijas problēmu novēršana
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: OData
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pielāgota pakalpojuma izstrāde
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atkārtotas integrācijas
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Pakalpojumu testēšana, izmantojot trešo pušu utilītas'
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Finance and Operations savienotājs
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Izstrāde integrācijai
+      items:
+        - name: 'Datu integrācija, izmantojot datu elementus'
+          items:
+            - name: 'Datu integrācijas, izmantojot datu elementus, pārskats'
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Elementa izstrāde datu migrēšanai
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Salikto datu elementu izstrāde
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Finansiālās datu koplietošanas uzņēmumos konfigurēšana
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Ierakstu veidņu izveide, lai atvieglotu datu ievadi'
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Ierakstu izveide, izmantojot ierakstu veidnes'
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Datu integrācija, izmantojot Common Data Service'
+          items:
+            - name: 'Datu integrācijas, izmantojot Common Data Service, pārskats'
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sinhrona divvirzienu integrācija
+              items:
+                - name: Gandrīz reāllaika datu integrācija
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Organizācijas hierarhija pakalpojumā Common Data Service
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Uzņēmuma koncepcija pakalpojumā Common Data Service
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Integrētie debitoru pamatdati
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Vienotā preču pieredze
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Integrētie kreditoru pamatdati
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Integrētās vietas un noliktavas
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Sākotnējā sinhronizācija
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Datu integrācijas problēmu novēršana
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Asinhrona vienvirziena integrācija
+              items:
+                - name: Scenārija “No potenciālā klienta uz skaidru naudu” konfigurēšana
+                  items:
+                    - name: No potenciālā klienta līdz skaidrai naudai
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Integrācijas konfigurēšana ar Field Service
+                  items:
+                    - name: Integrācijas konfigurēšanas ar Field Service pārskats
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmu Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar krājumu vienību programmā Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto projektu saraksta sinhronizēšana ar programmu Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmā Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Project Service Automation integrācijas konfigurēšana
+                  items:
+                    - name: Project Service Automation pārskats
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Project Service Automation integrācijas parametri
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Projekta līgumu un projektu sinhronizēšana
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Projekta uzdevumu sinhronizēšana
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Projekta izdevumu kategoriju sinhronizēšana
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Projekta aprēķinu sinhronizēšana no projekta prognozēm
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ārējo tīmekļa pakalpojumu patērēšana
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Elektroniskā ziņojumapmaiņa
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Datu pārvaldība
+  items:
+    - name: Pārskats par datu pārvaldību
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu elementi
+      items:
+        - name: Datu elementu pārskats
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konfigurācijas datu projekti
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konfigurācijas datu kopēšana starp uzņēmumiem vai juridiskajām personām
+          items:
+            - name: Konfigurācijas datu kopēšanas pārskats
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Konfigurācijas datu pakotnes
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Elementu krātuves pārvēršana par datu ezeru
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konfigurācijas datu veidnes
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Elementa izmaiņu izsekošana
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Informācijas par standarta datu elementiem meklēšana
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Datu veidnes ar vairākām darblapām
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Izmaiņu izsekošanas iespējošana elementiem
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konfigurācijas atslēgas un datu elementi
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konfigurācijas datu pakotnes
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu importēšanas un eksportēšanas darbi
+      items:
+        - name: Datu importēšanas un eksportēšanas darbu pārskats
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu'
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu elementu izstrāde
+      items:
+        - name: Datu elementu dizaina principi un labākās prakses
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Jaunu datu elementu izveide
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Datu elementa rekvizīti
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Aprēķina kolonnu un virtuālo lauku izveide
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Starpuzņēmumu funkcionalitāte
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Valsts/reģiona kodu apstrāde
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pārmantošanas modeļi
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Datu elementa vedņa kārtulas
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Metadatu rekvizīti
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Validācijas, noklusējuma vērtības un nekartētie lauki'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Drošība un datu elementi
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Trešo pušu pakalpojumu testēšanas utilītu izmantošana
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Tādu tikai lasāmu elementu izveide, kas atklāj finanšu dimensijas'
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Savas datu bāzes izmantošana
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Automatizētas elementu krātuves atsvaidzināšana
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu uzdevuma automatizēšana
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu validēšanas kontrolsaraksta darbvieta
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu pārvaldības kļūdu apraksti
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Datu bāzes pārvietošanas operācijas
+  items:
+    - name: Pārskats
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ātras darba sākšanas ceļveži
+      items:
+        - name: Atsvaidzināt datu bāzi
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eksportēt datu bāzi
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Importēt datu bāzi
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Datu bāzes punkta laikā atjaunošana
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Apmācība
+      items:
+        - name: Atsvaidzināšana apmācību nolūkos
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ražošanas datu bāzes kopijas atkļūdošana
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Standarta lietotāja pieņemšanas testa (UAT) datu bāzes kopijas eksportēšana
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Zelta konfigurācijas veicināšana
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Destruktīva testēšana
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Demonstrācijas dati
+  items:
+    - name: Demonstrācijas datu apskats
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/financials/toc.json?toc=/dev-itpro/toc.json
+    - name: 'Demonstrācijas datu ģenerēšana, izmantojot pakotnes'
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Izvietošana
+  items:
+    - name: Demonstrācijas vižu izvietošana
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Mākoņa izvietošana
+      items:
+        - name: Mākoņa izvietošanas pārskats
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Patstāvīgi izmantojama pakalpojuma izvietošana
+          items:
+            - name: Pašapkalpošanās izvietošanas pārskats
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Jaunas vides izvietošana
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bieži uzdotie jautājumi par izvietošanu
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Zināmās problēmas ar patstāvīgi izmantojama pakalpojuma izvietošanu
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Uzturēšanas operācijas, veicot izvietošanu'
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Vides atjaunināšana
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Problēmu novēršana vidēs, kas izvietotas, izmantojot patstāvīgi izmantojama pakalpojuma izvietošanu'
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure Resource Manager pievienošanas pabeigšana
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure ExpressRoute un Finance and Operations
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Finance and Operations arhitektūra
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atjauninājumu lietošana mākoņvidēs
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atjauninājumu un paplašinājumu lietošana mākonī viesotos Retail kanāla komponentos
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Retail Cloud Scale Unit inicializēšana
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Retail datu rezidences vieta
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Lokāls izvietojums
+      items:
+        - name: Lokālā izvietojuma sākumlapa
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokāla izvietojuma pārskats
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Plānošana un sagatavošanās lokāliem izvietojumiem
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Aparatūras izmēru prasības
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json?toc=/dev-itpro/toc.json
+        - name: Lokālo projektu iestatīšana
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokālas vides iestatīšana un izvietošana
+          items:
+            - name: Lokālas vides iestatīšanas un izvietošanas sākumlapa
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lokālas vides izvietošana (Platform update 12 un jaunākas versijas)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lokālas vides izvietošana (Platform update 8\_un 11)"
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: PowerBI.com integrācija ar lokālajām vidēm
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Apgriezto starpniekserveru konfigurēšana lokālās vidēs
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atjauninājumu lietošana lokālā izvietojumā
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokālā diagnostika
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokālo izvietojumu atkārtota izvietošana
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vietējais aģents
+          items:
+            - name: AD FS Office 365 saderība
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Vietējā aģenta pirmsizvietošanas un pēcizvietošanas skripti
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lokālā aģenta atjaunināšana
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vides pārkonfigurēšana
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Klienta interneta savienojamība
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokālu izvietojumu problēmu novēršana
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sertifikāta rotācija
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Pielāgota koda izvietošana
+      items:
+        - name: Izvietojamu modeļu pakotņu izveide
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Izvietojamu pakotņu instalēšana no komandrindas
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakotnes atinstalēšana
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakotnes programmu problēmu novēršana
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Izstrāde un pielāgošana
+  items:
+    - name: Izstrādes un pielāgošanas mājas lapa
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Programmas steks un servera arhitektūra
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Novērtēšanas kopiju iegūšana
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Reģistrācija priekšskatījuma abonementiem
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Izstrādes vides izvietošana un piekļuve tai
+      items:
+        - name: Izstrādes vides
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vienotas izstrādes vides konfigurēšana
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Jaunu lietotāju izveide izstrādes mašīnās
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Lokālās vides pārdēvēšana, lai piekļūtu Azure DevOps operācijām'
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Izstrādes sistēmas prasības
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Versiju kontrole, metadatu meklēšana un navigācija'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Autoparka pārvaldības programmas piemērs
+      items:
+        - name: Visaptverošs scenārijs autoparka pārvaldības programmas piemēram
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Autoparka pārvaldības programmas piemērs
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Visual Studio rīki
+      items:
+        - name: Izstrādes rīki
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Apmācība par izstrādes rīkiem
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Programmu pārbaudītājs
+          items:
+            - name: BaseX instalēšana rīkam Programmu pārbaudītājs
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Programmu pārlūks
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Projektu izveide un atkļūdošana
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Operāciju izveide
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Koda redaktora funkcijas
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modeļu un datu modeļa elementu izveide
+          items:
+            - name: Modeļu un datu modeļa elementu izveides pārskats
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Nosaukumdošanas vadlīnijas paplašinājumiem
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Modeļu pielāgošanas izslēgšana un funkcionalitātes atzīšana par novecojušu
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pielāgojumu analizētāja pārskats
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Elementu veidotāji
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Komandas elementu izmantošanas noteikšanai
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modeļu eksports un imports
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Metadatu meklēšana programmatūrā Visual Studio
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modeļi un pakotnes
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Finance and Operations projekta tips
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Rīku pievienojumprogrammas programmatūrai Visual Studio
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio izstrādes rīku atjaunināšana
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: X++ programmēšanas valoda
+      items:
+        - name: X++ un atkļūdošanas līdzekļi
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ koda atkļūdošana
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: EventHandlerResult klases pieprasījuma vai atbildes scenārijos
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Biznesa loģikas rakstīšana, izmantojot C# un X++ pirmkodu'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ un X++ kompilatora izmaiņas
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "LINQ sniedzējs\_C# videi"
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Labākās prakses kārtulu rakstīšana
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Programmu pārlūka rekvizīti
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ valodas atsauce
+          items:
+            - name: X++ valodas atsauces pārskats
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Mainīgie un datu tipi
+              items:
+                - name: Mainīgie
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Primitīvu datu tipi
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Saliktu datu tipi
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Iekasēšanas klases
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Paplašinātie datu tipi
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Priekšraksti, cikli un izņēmumu apstrāde'
+              items:
+                - name: 'Komentāri, lietošana un drukāšana'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Nosacījuma priekšraksti
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Ciklu priekšraksti
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Izņēmumu apstrāde
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: SQL savienojuma kļūdas X++ izņēmums
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ operatori
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ operatoru prioritārā secība
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ klases un metodes
+              items:
+                - name: Klases un metodes
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Pārmantošana
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Statisko klašu dalībnieki
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Interfeisi
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Bibliotēkas
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Notikumi
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ datu atlase un apstrāde
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Datu piekļuve, izmantojot SysDa API'
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ makro
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ atribūtu klases
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'X++ un C# salīdzinājums'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ sintakse
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'API, klašu un tabulu atsauces'
+      items:
+        - name: 'API, klašu un tabulu resursi'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ kompilēšanas laika funkcijas
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ izpildlaika funkcijas
+          items:
+            - name: X++ izpildlaika funkciju resursi
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ biznesa izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ konteinera izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ konversijas izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ datuma izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ matemātiskās izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ refleksijas izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ sesijas izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ virknes izpildlaika funkcijas
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sistēmas tabulas
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sistēmas klases
+          items:
+            - name: A klases
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: B klases
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: C klases
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: D klases
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: E klases
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FieldBinding līdz FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormBuildButtonControl līdz FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormBuildFilterPaneControl līdz FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormBuildReferenceControl līdz FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormChangeTracker līdz FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormDataObject līdz FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormFastTabSummarySeparator līdz FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormGroupControl līdz FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormListBoxControl līdz FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormObject līdz FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormReferenceControl līdz FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F klases (FormTabControl līdz FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: G klases
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: H klases
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: I klases
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: J klases
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: K klases
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: L klases
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: M klases
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: N klases
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: O klases
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: P klases
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Q klases
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: R klases
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: S klases
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: T klases
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: U klases
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: V klases
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: W klases
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X klases
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Paplašināmība
+      items:
+        - name: Lietojumprogrammas Paplašināmība sākumlapa
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ievads un darba sākšana
+          items:
+            - name: Programmu paplašināmības plāns
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Paplašināmības pieprasījumi
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bieži uzdotie jautājumi par paplašināmību
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Migrēšana no pārklāšanās uz paplašinājumiem
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Modeļa elementu pielāgošana, izmantojot paplašinājumu (apmācība)'
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Pielāgošana, izmantojot paplašinājumu un pārklāšanos'
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Jaunumi
+          items:
+            - name: Lietojumprogrammas Paplašināmība jauninājumi un izmaiņas
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0.3 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0.2 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0.1 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_10.0 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1.3 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1.2 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1.1 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.1 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.4 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.3 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.2 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.1 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_8.0 izmaiņas"
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība versijas\_7.3 izmaiņas"
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Lietojumprogrammas Paplašināmība izmaiņas, 2017.\_gada jūlijs"
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pamati
+          items:
+            - name: Traucējoši pielāgojumi
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Klases paplašinājuma modelis
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Klases paplašinājums, izmantojot metodes aplikšanu un Komandķēdi'
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Nosaukumdošanas vadlīnijas paplašinājumiem
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Modeļa ierobežojumu mazināšana, lai pārstrukturētu pārklāšanos paplašinājumos'
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Paplašinājumu izveide
+          items:
+            - name: Vērtību pievienošana uzskaitījumiem
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Paplašināto datu tipu modificēšana
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Apakšklašu reģistrēšana rūpnīcas metodēm
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Atbildēšana, izmantojot EventHandlerResult'
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Klases RunBase paplašināšana
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Programmas startēšanas pielāgošana, izmantojot pārstāvjus'
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tabulā esošu lauku modificēšana
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lauku pievienošana tabulās
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Indeksu pievienošana tabulās
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Attiecību pievienošana tabulās
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tabulas rekvizītu modificēšana
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Metožu pievienošana tabulās
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Biznesa darbību veikšana, izmantojot tabulas ierakstu darba ciklu'
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Datu avotu pievienošana formās
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Formas uzrakstu mainīšana
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Formas vadīklas rekvizītu modificēšana
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Numuru sēriju diapazona paplašināšana
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Jaunu krājumu dimensiju pievienošana
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Cenu un atlaižu paplašināšana
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tabulu karšu paplašinājums
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Tādu tabulu karšu paplašināšana, kas tiek lietotas kā interfeisi'
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Versiju izveidē lietoto tabulu karšu paplašināšana
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Atlasīto datu tipu decimālzīmes precizitātes paplašināšana
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Paplašināmu risinājumu veidošana
+          items:
+            - name: Paplašināma koda rakstīšana
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Klases
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Metodes
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Formas
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Paplašinātie datu tipi
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Paplašināmi uzskaitījumi
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pārstāvji
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tabulas
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Paplašināmības atribūti metodēm
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Traucējumus radošas izmaiņas
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veiktspēja
+      items:
+        - name: 'Darbību izsekošana, izmantojot Trace Parser'
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Testēšana viena lietotāja režīmā, izmantojot rīku Uzdevuma reģistrētājs un veiktspējas\_SDK"
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Testēšana vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK un lokālo testēšanas kontrolleri"
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Testēšana vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK un Azure DevOps"
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Problēmu novēršanas ceļvedis pārbaudei viena vai vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK"
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veiktspējas SDK un vairāklietotāju testēšana lokālās vidēs
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Problēmu diagnostika un veiktspējas analīze, izmantojot Trace parser'
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veiktspējas taimeris
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Testēšanas atbalsts programmatūrā Visual Studio
+      items:
+        - name: Testēšana un validēšana
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Projektu testēšana programmatūrā Visual Studio
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Tādu vižu izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu'
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'SysTest filtrēšana, izmantojot klašu un metožu atribūtus'
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pieņemšanas testu bibliotēka
+          items:
+            - name: Pieņemšanas testu bibliotēkas resursi
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Navigācijas jēdzieni
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Testa datu metodes
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Elementi pieņemšanas testu bibliotēkā
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Komandas pieņemšanas testu bibliotēkā
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Veidotāji pieņemšanas testu bibliotēkā
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Vaicājumi pieņemšanas testu bibliotēkā
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Specifikāciju klases
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pieņemšanas testu bibliotēkas koda ģenerēšanas vednis
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pieņemšanas testu bibliotēkas labākās prakses
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bieži uzdotie jautājumi
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datuma efektivitāte
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: ISV licencēšana
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: ISV licencēšana lokālajai sistēmai
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Vispārīgā datu aizsardzības regula (VDAR)
+  items:
+    - name: Vispārīgās datu aizsardzības regulas pārskats
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Atbildēt uz VDAR datu pieprasījumiem
+      items:
+        - name: Atbildēt uz VDAR datu pieprasījumu resursiem
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Līdzekļu klasifikācijas
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Personu meklēšanas pārskats
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Personu meklēšanas pārskata paplašināšana
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pārvaldīt piekļuvi sensitīviem datiem
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Atbildēšana uz personas datu pieprasījumiem, izmantojot programmu Talent'
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Atbildēšana uz personas datu pieprasījumiem programmā AX\_2012"
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: VDAR datu pieprasījumi pakalpojumam LCS
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Lifecycle Services
+  items:
+    - name: Resursi pakalpojumiem Lifecycle Services
+      items:
+        - name: Lifecycle Services resursi
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: LCS klientiem
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: LCS partneriem
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Jaunumi
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Zināmās problēmas
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Lifecycle Services lietotāja rokasgrāmata
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Abonementa vērtētājs
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Drošības konfigurēšana
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Problēmu meklētājs
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Konfigurācijas pārvaldnieks
+      items:
+        - name: Konfigurācijas pārvaldnieka pārskats
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konfigurācijas pārvaldnieka iestatīšana
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Koda jaunināšanas pakalpojuma konfigurēšana
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Metodoloģiju izveide vai atjaunināšana
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Biznesa procesu modelētājs
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Biznesa procesu bibliotēkas biznesa procesu modelētājā
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Biznesa procesu modelētāja bibliotēku izveidošana, rediģēšana un pārlūkošana'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uzdevumu veikšana biznesa procesu modelētājā
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Darbs ar aktivitāšu diagrammām BPM bibliotēkās
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'BPM bibliotēku sinhronizācija, izmantojot Azure DevOps'
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Lietotāju pieņemšanas testa bibliotēku izveide, izmantojot uzdevumu ceļvežus un BPM'
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Blokshēmas biznesa procesu modelētājā
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Pielāgotu biznesa procesu augšupielāde biznesa procesu modelētājā
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Pārraudzība un diagnostika
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vides pakalpojumu restartēšana
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ziņošana par ražošanas pārtraukumu
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Lietotāja pierakstīšanās gadījumu izsekošana
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Līdzekļu bibliotēka
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Veiktspējas problēmu novēršana, izmantojot rīkus pakalpojumā LCS'
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vaicājumu pavārgrāmata
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: "Microsoft Dynamics\_365 Translation Service"
+      items:
+        - name: Dynamics 365 Translation Service pārskats
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lietotāja interfeisa failu tulkošana
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dokumentācijas failu tulkošana
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Tulkošanas atmiņas faili
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Mobilā platforma
+  items:
+    - name: Mobilās platformas resursi
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Darba sākšana
+      items:
+        - name: Sākt darbu ar mobilo platformu
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Arhitektūras un noformējuma apsvērumi
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biznesa loģikas notikumi
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lapu dizaina vadlīnijas
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Darbību dizaina vadlīnijas
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Formu dizaina prasības
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vispārīgie uzdevumi
+      items:
+        - name: 'Darbvietu konfigurēšana, izmantojot SysAppWorkspace klasi'
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Iestatīšana, lai mobilo programmu lapas būtu klikšķināmas'
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Rādīt skaitu laukos
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mobilo darbvietu aizsardzības nodrošināšana
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mobilo darbvietu lokalizēšana
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Lauku padarīšana par obligātu, izmantojot darbvietu klases'
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Servera puses izstrādes atsauce
+      items:
+        - name: "Servera puses izstrādes atsauce (darbvietas\_X++ API)"
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Klienta puses izstrādes atsauce
+      items:
+        - name: Klienta puses noformējuma API
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Klienta\_API"
+          items:
+            - name: Klienta API mājas lapa
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageState uzskaitījums
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pieteikuma modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Defer modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Notikuma modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Control modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: "Container\_modulis"
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Field modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: File Uploader modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Group modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Hyperlink modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Image modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Input modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: List modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lookup modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Multi-Lookup modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Page modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pagelink modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Part modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Services modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Value modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Application tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ApplicationMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: AsyncService tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: CacheService tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: CompleteEventArgs tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControl tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControlDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControlMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ControlMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: DataService tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Deferred tips<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Design tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: EventHook tips<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Field tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FieldDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FieldMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploader tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploaderDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploaderMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GenericValue tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: getDataSource tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Group tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GroupDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GroupMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLink tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLinkDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLinkMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Image tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ImageDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ImageMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControl tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControlDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControlMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: List tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ListDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ListMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lookup tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: LookupDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: LookupMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MetadataService tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookup tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookupDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookupMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: NavigationArgs tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: NumberSequenceConfig tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Page tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageData tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLink tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLinkDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLinkMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageMetadata tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageOptions tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageSubmitArgs tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageTarget tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Part tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PartDesign tips
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PartMetadata veids
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Rindas veids
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Vērtības veids
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ValueDesign veids
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ValueMetadata veids
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Regression Suite Automation Tool
+  items:
+    - name: Regression Suite Automation Tool pārskats
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Instalēšana un konfigurēšana
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Izpildes testa gadījumi
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Paredzēto vērtību pārbaude
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ķēdes testpiemēri
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Atvasinātie testpiemēri
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Regression Suite Automation Tool apmācības izmantošana
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Labākās prakses
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Problēmu novēršana
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: 'Risinājumu izlaišana, izmantojot Lifecycle Services'
+  items:
+    - name: Izstrāde un izlaide
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stadijas maiņa un publicēšana
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Metodoloģiju pievienošana
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Biznesa procesu modelētāja bibliotēku uzstādīšana
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Koda migrēšana
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Programmu pārbaude
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu pakotņu apstrāde un patērēšana
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Risinājuma datu bāzu dublēšana
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Lokalizācijas un normatīvie līdzekļi
+      items:
+        - name: Globalizācijas resursi
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokalizācijas līdzekļu klasifikācija
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lietot valsts/reģiona kontekstu
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Normatīvā sertifikācijas informācija līdzekļu nosaukumos
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Normatīvie atjauninājumi
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokalizācijas modeļu atdalīšana
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzraudzības brīdinājumu iesniegšana
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Atbalsts
+  items:
+    - name: Atbalsta saņemšana saistībā ar Finance and Operations un Lifecycle Services
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Dynamics 365 atbalsta pārskats
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: "Atbalsta saņemšana saistībā ar Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Premier atbalsta biļetes reģistrēšana
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Pieprasījumu iesniegšana Dynamics Service tehniskajai grupai
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Tehniskā atbalsta uzstādīšana programmai Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: BUJ par plānoto uzturēšanas periodu
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Mākoņu darbības un apkalpošana
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Finance and Operations atbalsta pieredzes pārvaldība
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Sistēmas administrēšana
+  items:
+    - name: Sistēmas administrēšanas sākumlapa
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Saišu pievienošana uz jūsu juridiskajiem nosacījumiem un paziņojumu par konfidencialitāti
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Atskaite par licenču kodiem un konfigurācijas atslēgām
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Datu koplietošana uzņēmumos
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uzturēšanas režīms
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Iepriekš konfigurēti sistēmas konti
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: B2B lietotāju eksportēšana uz Azure AD
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Drošība
+      items:
+        - name: Uz lomām balstīta drošība
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Drošības arhitektūra
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Iestatīt sesijas dīkstāves taimautu
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Standarta komplektācijā iekļautie drošības pārskati
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Jaunu lietotāju izveide
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lietotāju lielapjoma importēšana
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pienākumu sadales iestatīšana
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pienākumu sadales konfliktu identificēšana un atrisināšana
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Drošības lomu piešķiršana lietotājiem
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Pakešveida apstrāde
+      items:
+        - name: Pakešapstrādes apskats
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakešveida apstrāde un pakešapstrādes serveri
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Izveidot pakešuzdevumus
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakešuzdevuma kopēšana
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Aktīvie pakešuzdevumu periodi
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakešuzdevumu pārvaldnieka drošības loma
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Pakešuzdevums SQL\_indeksa defragmentēšanai"
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Partijas brīdinājumu konfigurēšana
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzlabotas partijas formas
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Partijas vēstures tīrīšana
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Pakešuzdevuma izpildes pārtraukšana
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Optimizācijas padomnieks
+      items:
+        - name: Optimizācijas padomnieka pārskats
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kārtulu izveide optimizācijas padomniekam
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ziņošana par ražošanas pārtraukumu
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: 'Jauninājumi, atjauninājumi un labojumfaili'
+  items:
+    - name: 'Jauninājumu, atjauninājumu un labojumfailu resursi'
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Jaunināt no AX 2012
+      items:
+        - name: "Jaunināšana no AX\_2012 uz Finance and Operations"
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Demonstrācijas vides izvietošana analīzei"
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Datu jaunināšana izstrādes vidēs"
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Pārslēgšanas testēšana"
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Uzdevumi pēc jaunināšanas"
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Funkcionālo testu sekmīga izpildīšana"
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jaunināšana\_— Sagatavošanās ekspluatācijas uzsākšanai"
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2012 jauninājums\_— Ekspluatācijas uzsākšana"
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Izmaiņas, kas ietekmē jaunināšanu no AX\_2012"
+          items:
+            - name: Unikāla kontu plāna norobežotāja iestatīšana
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Vienotu dokumentu žurnālu un valūtas pārvērtēšanu jaunināšana
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Projekta resursu plānošanas datu modelis
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Darbplūsmu apakšsistēmas izmaiņas
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Tādu modeļu apkopošana, ko izmanto kubu vietā analīzes veikšanai'
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Jauninātu pārdošanas kubu migrēšana uz elementu krātuvi
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Budžeta plānošanas jaunināšana
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Migrēt datus no AX 2009
+      items:
+        - name: "Datu migrēšana no AX\_2009 uz Finance and Operations"
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2009 migrēšana\_— Datu migrēšanas rīka instalēšana"
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2009 migrēšana\_— Karšu ģenerēšana"
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2009 migrēšana\_— Veidņu veidošana"
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2009 migrēšana\_— Migrācijas grupu veidošana"
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2009 migrēšana\_— Pakotņu eksportēšana"
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "AX\_2009 migrēšana\_— Pakotņu importēšana"
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Koda migrēšana un jaunināšana
+      items:
+        - name: Koda migrēšanas un jaunināšanas sākumlapa
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sagatavošanās koda migrēšanai
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure DevOps kartējuma konfigurēšana
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modeļu sadalījums
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Modeļu savstarpējo atkarību risināšana, izmantojot pārstāvjus'
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Jaunināšana uz jaunāko atjauninājumu (mākonis)
+      items:
+        - name: Process pāriešanai uz jaunāko atjauninājumu
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ceļi uz vienu versiju
+          items:
+            - name: Pašapkalpošanās jaunināšana uz jaunāko versiju
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pārveidošana un atjaunināšana uz jaunāko versiju
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Programmatūras dzīves cikla politika un mākoņa laidieni
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Jaunākā platformas atjauninājuma lietošana vidēm
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Datu jaunināšana\_izstrādes vai demonstrācijas vidēs"
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Izstrādes rīku atjaunināšana
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Sagatavošanās koda kompilēšanai, izmantojot jaunāko atjauninājumu, un tās plānošana'
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Jaunināšana uz jaunāko atjauninājumu (lokālā versija)
+      items:
+        - name: Atjauninājumu lietošana lokālos izvietojumos
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokāla izvietojuma atkārtota izvietošana
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: "Jaunināšana uz vietas no lokālās versijas\_7.x uz 8.1"
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Labojumfaili
+      items:
+        - name: Iegūt atjauninājumus no Lifecycle Services
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atjauninājumu lietošana mākoņvidēs
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Metadatu labojumfailu instalēšana izstrādes vidēs
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atskaišu izveides pakalpojumu ielāpu likšana universālajās vidēs
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio izstrādes rīku atjaunināšana
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Atbalsta pārtraukšana
+      items:
+        - name: Noņemtie vai novecojušie līdzekļi
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atbalsta pārtraukšana metodēm un metadatu elementiem
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Novecojušie API
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Lietotāja interfeisa izstrāde
+  items:
+    - name: Lietotāja interfeisa izstrādes sākumlapa
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Apmācība
+      items:
+        - name: Nomas maksas tipa formas izveide
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Debitoru formas izveide
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Navigācijas izveide
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Darbvietu izveide
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Formas
+      items:
+        - name: Navigācijas jēdzieni
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lapas izkārtojums tīmekļa klientā
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dynamics simbolu fonts
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Saglabātie skati
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Būvējuma formas, kas pilnībā izmanto saglabātos skatus'
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Testa formas, kurās tiek izmantoti pielāgoti modeļi'
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Koplietojamu, aizsargātu vietrāžu URL izveide (dziļās saites)'
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Pieejamība formās, produktos un vadīklās'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lauku aprakstu pielāgošana
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vadīklas
+      items:
+        - name: Darbību vadīklas
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ievades vadīklas un režģa kolonnu izmēri
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Izvēles rūtiņu atbalsts koka vadīklās
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Filtrēšanas opcijas
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: PowerApps resursdatora kontrole
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Logu pārvaldība
+      items:
+        - name: Kontekstizvēlnes koda migrēšana
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Peles dubultklikšķa loģikas migrēšana
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Konteksta datu ievade uzmeklēšanai
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: HierarchyViewer vadīkla
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzmeklēšanas vadīklas
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Failu augšupielādes vadīkla
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sistēmas definētas pogas
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Attēli lapā vai režģa skatā
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Ievades, tabulu un režģa vadīklu fonts un fona krāsas'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atbalsts valodām ar rakstību no labās uz kreiso pusi un divvirzienu tekstam
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Darbvietas elementu ikonu izveide
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Publiskie JavaScript API paplašināmām vadīklām
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vadīklu kontrolsaraksts
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ziņojumi
+      items:
+        - name: Līdzekļa remarkas
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Slīdnis un MessageBox dialogi
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Ziņojumu centra, ziņojumu joslas un ziņojumu detalizētās informācijas API'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Ziņojumu centrs, ziņojumu josla un ziņojumu detalizētā informācija: bieži uzdotie jautājumi'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Formas modeļu vadlīnijas
+      items:
+        - name: Formu modeļi migrētām formām
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Formu stili un modeļi
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Visual Studio pievienojumprogrammas, kas atbalsta formu modeļus'
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Formu modeļi
+      items:
+        - name: Vispārīgas formu vadlīnijas
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Galvenās informācijas formas modelis
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Transakcijas informācijas formas modelis
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veidlapas daļas atlases saraksta formas modeļi
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Saraksta lapas formas modelis
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vienkāršs informācijas formas modelis
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vienkāršs saraksta un informācijas formas modelis
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vienkāršs saraksta formas modelis
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Satura rādītāja formas modelis
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzdevuma dubultās formas modelis
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzdevuma vienkāršas formas modelis
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ceļveža formas modelis
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Darbvietas formas modelis
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sekundārās formas modeļi
+      items:
+        - name: Detalizētās atlases formas modelis
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dialoga formas modelis
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nolaižamā dialoglodziņa formas modelis
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzmeklēšanas formas modelis
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Papildinformācijas formas modeļi
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Apakšmodeļi
+      items:
+        - name: Pielāgotās filtru grupas apakšmodelis
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dimensiju ievades vadīklas apakšmodelis
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dimensiju izteiksmju veidotāja apakšmodelis
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lauku un lauku grupu apakšmodelis
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Filtru un rīkjoslas apakšmodeļi
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Teksta aizpildīšanas apakšmodelis
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Horizontālo lauku un pogu grupu apakšmodelis
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Attēla priekšskatījuma apakšmodelis
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Saraksta paneļa apakšmodelis
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ligzdota vienkārša saraksta un detalizētas informācijas apakšmodelis
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sadaļas diagrammas formas modelis
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sadaļas Power BI apakšmodelis
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sadaļas saistīto saišu apakšmodelis
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sadaļas grēdas diagrammas apakšmodelis
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Saraksta ar cilnēm sadaļas apakšmodelis
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sadaļas elementu apakšmodelis
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Tabulveida lauku apakšmodelis
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Rīkjoslas un lauku apakšmodelis
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Rīkjoslas un sarakstu apakšmodelis
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Darbvietas lapas filtru grupas apakšmodelis
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vadīklu paplašināmība
+      items:
+        - name: Paplašināmu vadīklu izveide
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Īsinājumtaustiņi paplašināmām vadīklām
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Paplašināmas vadīklas programmēšanas atsauce
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vadīklu paplašināmība
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lokalizējamu iezīmju izveide
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Paplašināmo vadīklu izkārtojuma vadlīnijas
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzdevuma reģistrētāja vadīklai ģenerētā teksta kontrole
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Darbvietu izveide
+      items:
+        - name: Operatīvu darbvietu izveide
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Darbvietu elementu un sarakstu saglabāšana kešatmiņā
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uzdevuma reģistrētājs
+      items:
+        - name: Uzdevuma reģistrētāja resursi
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzdevumu reģistrētāja ātrā atsauce
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dokumentācijas vai apmācības izveide pēc uzdevumu reģistrēšanas
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/financials/toc.json
