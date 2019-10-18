@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 31. janvāris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 31. janvāris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/31/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4504cebb7702c7163c94badeeb06d9af0e5467e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6dcdb37ba7a423e54a641c1d123f563a59648d46
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518520"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010318"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-january-31-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 31. janvāris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-january-31-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 31. janvāris)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 **8.1.2128 būvējums**
 

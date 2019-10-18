@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865476"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250787"
 ---
 # <a name="inventory-management-overview"></a>Krājuma pārvaldības pārskats
 
@@ -53,10 +53,8 @@ Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek
 ### <a name="inventory-accounting"></a>Krājumu uzskaite 
 Papildinformāciju skatiet tēmā [Krājumu uzskaite modulī Izmaksu pārvaldība](../cost-management/inventory-close.md).
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>Ražošanas un piegādes ķēdes pārvaldības emuāri
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>Ražošanas un Supply Chain Management emuāri
 Viedokļi, jaunumi un cita informācija par moduli Krājumu vadība un citiem risinājumiem ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Uzdevumu ceļveži
-Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**.
-
-
+Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**

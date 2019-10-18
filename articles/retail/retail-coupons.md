@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553557"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025106"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Kuponu iestatīšana pārdošanai mazumtirdzniecībā
 
@@ -37,10 +37,10 @@ Katrs kupons ir saistīts ar vienu mazumtirdzniecības atlaidi. Cenu grupas, kas
 
 Pamatā kuponi ir papildu apstiprināšana papildus mazumtirdzniecības atlaidēm. Kupons sniedz kupona kodus un svītrkodus, kas nepieciešami kopā ar šo kodu datumu diapazoniem. Kupons nodrošina arī papildu lietošanas ierobežojumus un klientiem nepieciešamos rekvizītus. Atlaide nodrošina preču kopu, kam kupons ir derīgs. Atlaides cenu grupas sniedz klientu, kanālu vai katalogu kopu, kam kupons ir derīgs.
 
-Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie ir jāsaista, atlasot atlaidi programmas Microsoft Dynamics 365 for Retail kuponu lapā.
+Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie ir jāsaista, atlasot atlaidi programmas Retail kuponu lapā.
 
 > [!NOTE]
-> Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki lauki programmas Microsoft Dynamics 365 for Retail atlaižu lapā kļūst tikai lasāmi, jo to pārvaldībai tiek izmantoti kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
+> Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki lauki programmas Retail atlaižu lapā kļūst tikai lasāmi, jo to pārvaldībai tiek izmantoti kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 
@@ -75,7 +75,7 @@ Lai iestatītu kuponu, ir jāiestata kupona svītrkods un divas kupona numuru s�
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Daļēju atjauninājumu ietekme uz kuponiem
 
-Kupona funkcionalitātē ir ietverti daudzi atšķirīgi programmas Dynamics 365 for Retail līdzekļi. Microsoft Dynamics 365 for Retail galvenā pārvalde (headquarters — HQ) un kanāls var tikt daļēji atjaunināti vairākos komponentos. Tāpēc ir svarīgi saprast, kā daļēji atjauninājumi ietekmēt kupona funkcionalitāti kopumā.
+Kupona funkcionalitātē ir ietverti daudzi atšķirīgi līdzekļi. Dynamics 365 Retail galvenā pārvalde (headquarters — HQ) un kanāls var tikt daļēji atjaunināti vairākos komponentos. Tāpēc ir svarīgi saprast, kā daļēji atjauninājumi ietekmēt kupona funkcionalitāti kopumā.
 
 - **HQ tiek daļēji atjaunināts, bet Retail serveris un POS — netiek atjaunināti.** HQ atjauninājumā tiek atjaunināts kupons un atlaižu lapas, un mazumtirdzniecības cenu noteikšanas programma arī tiek atjaunināta. Ja tiek atjaunināts tikai viens no šiem diviem komponentiem, dažas Retail lapas neatbildīs cenu aprēķina datiem. Tāpēc atlaižu aprēķinu laikā var rasties neparedzēti atlaižu aprēķini var kļūdas.
 - **HQ tiek atjaunināts, bet Retail serveris un POS — netiek atjaunināti (N-1).** Ne visus mazumtirdzniecības veikalus var atjaunināt vienlaicīgi, tādēļ HQ ieteicams atjaunināt pirms mazumtirdzniecības veikalu atjaunināšanas. N-1 scenārijā jaunā funkcionalitāte, kas ir saistīta ar kuponiem, nebūs pieejama veikalos, kas vēl nav atjaunināti. Piemēram, kupona funkcionalitāte ievieš rindas “Izslēgt”. Ja atlaidei izmantojat rindu izslēgšanu, tās netiks piemērotas mazumtirdzniecības veikalā, kurā darbojas vecāka versija.

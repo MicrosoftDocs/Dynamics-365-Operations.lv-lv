@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783425"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024572"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783425"
 
 Līdzekļu pārvaldībā ir jāiestata vispārējie parametri, kas attiecas uz līdzekļiem, darba pasūtījumiem un darba pasūtījumu plānošanu. Šajā tēmā ir paskaidrots, kā tos iestatīt. Lai atvērtu veidlapu, atlasiet **Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļu pārvaldības parametri**.
 
-Pogu **Izveidot datu vedni** var izmantot, lai automātiski izveidotu iestatīšanas datus uzņēmuma pārbaudes vai demonstrācijas datu nolūkos programmā Dynamics 365 for Finance and Operations. Informāciju par to, kā izmantot vedni, skatiet Baltajā grāmatā "Testa datu iestatīšana Līdzekļu pārvaldībā".
+Pogu **Izveidot datu vedni** var izmantot, lai automātiski izveidotu iestatīšanas datus uzņēmuma pārbaudes vai demonstrācijas datu nolūkos programmā Dynamics 365 Supply Chain Management. Informāciju par to, kā izmantot vedni, skatiet Baltajā grāmatā "Testa datu iestatīšana Līdzekļu pārvaldībā".
 
 Saite **Līdzekļi**
 
@@ -57,7 +57,7 @@ Saite **Darba pasūtījumi**
 - Atlasiet "Jā" uz **Kopēt kļūmes** pārslēgšanas pogas, ja vēlaties saistītajos uzturēšanas pieprasījumos automātiski kopēt kļūmes, kas reģistrētas par darba pasūtījumiem.  
 - Laukā **Līmenis** definējiet funkcionālā novietojuma līmeni, kas tiek automātiski ievietots darba pasūtījumā, ja visi saistītie darba pasūtījuma darbi attiecas uz to pašu funkcionālo novietojumu. Ja visi darba pasūtījuma darbi nav saistīti ar to pašu funkcionālo novietojumu definētajā līmenī, lauks **Funkcionālais novietojums** darba pasūtījumā tiek atstāts tukšs. Piemērs: ievietojot šajā laukā skaitli "1", tas ir augšējais līmenis funkcionālā novietojuma struktūrā. Ievietojot šajā laukā skaitli "0", netiek definēts konkrēts funkcionālā novietojuma līmenis, bet tikai tas, ka visiem darba pasūtījuma darbiem darba pasūtījumā jābūt saistītiem ar to pašu funkcionālo novietojumu, kas jāpievieno darba pasūtījumam.  
 - Žurnālus, ko izmanto, iegrāmatojot patēriņu darba pasūtījumā, var atlasīt kopsavilkuma cilnes **Vispārīgi** laukos **Stunda**, **Vienība** un **Izdevumi**.  
-- Laukā **Preces valodas avots** atlasiet valodu, ko izmantot preču nosaukumiem Līdzekļu pārvaldības pārskatos. Varat atlasīt valodu, kas iestatīta uzņēmuma kontā, vai valodu, kas iestatīta lietotājam, kurš pašlaik ir pieteicies Dynamics 365 for Finance and Operations.  
+- Laukā **Preces valodas avots** atlasiet valodu, ko izmantot preču nosaukumiem Līdzekļu pārvaldības pārskatos. Varat atlasīt valodu, kas iestatīta uzņēmuma kontā, vai valodu, kas iestatīta lietotājam, kurš pašlaik ir pieteicies.  
 - Atlasiet "Jā" uz **Reāllaika atjaunināšanas** pārslēgšanas pogas, ja vēlaties automātiski atjaunināt izmaiņas darba veida noklusējumos, uzturēšanas plānos un uzturēšanas ciklos.
 > - Ja atlasīsit "Nē", izmaiņas darba veidu noklusējumos, uzturēšanas plānos un uzturēšanas ciklos netiks automātiski atjauninātas Līdzekļu pārvaldībā  
 > - Pārslēgšanas pogā atlasiet "Nē", ja tiek sinhronizēti lieli datu apjomi, piemēram, daudzi līdzekļi vai funkcionālie novietojumi, kas iestatīti uzturēšanas plānos vai uzturēšanas ciklos, vai liels skaits uzturēšanas plānu vai ciklu.  
@@ -75,7 +75,7 @@ Saite **Darba pasūtījuma plānošana**
 - **Vispārējais plāns** attiecas uz resursiem modulī **Organizācijas administrēšana**. Atlasot vispārējo plānu šajā laukā, var redzēt noslodzes rezervācijas, kas saistītas ar darba pasūtījumiem **Noslodzes rezervācijās** (**Organizācijas administrēšana** > **Resursi** > **Resursi** > atlasiet resursu > cilni **Resurss** > pogu **Noslodzes rezervācijas**). Atatājot šo lauku tukšu, var redzēt noslodzi, kas saistīta ar darba pasūtījumiem **Noslodzē** (**Organizācijas administrēšana** \> **Resursi** \> **Resursi** \> atlasiet resursu \> cilni **Resurss** \> pogu **Noslodze**).  
 
 >[!NOTE]
->Atlase attiecībā uz vispārējā plāna izmantošanu vai neizmantošanu modulī **Līdzekļu pārvaldība** un saistītā veidlapa, kas tiek izmantota, lai iegūtu pārskatu par noslodzes rezervācijām vai noslodzi, ir standarta Dynamics 365 for Finance and Operations iestatīšana. Atkarībā no iestatījuma laukā **Vispārējais plāns**, jūs varat piekļūt noslodzes informācijai **Noslodzes rezervācijās** vai **Noslodzē** modulī **Organizācijas administrēšana**. Nav iespējams izveidot iestatījumu, kurā noslodzes rezervācijas tiek rādītas abos skatos.  
+>Atlase attiecībā uz vispārējā plāna izmantošanu vai neizmantošanu modulī **Līdzekļu pārvaldība** un saistītā veidlapa, kas tiek izmantota, lai iegūtu pārskatu par noslodzes rezervācijām vai noslodzi, ir standarta iestatīšana. Atkarībā no iestatījuma laukā **Vispārējais plāns**, jūs varat piekļūt noslodzes informācijai **Noslodzes rezervācijās** vai **Noslodzē** modulī **Organizācijas administrēšana**. Nav iespējams izveidot iestatījumu, kurā noslodzes rezervācijas tiek rādītas abos skatos.  
 
 Zemāk redzamajā aizzīmju sarakstā aprakstītie lauki attiecas uz aprēķinātiem vērtējuma rezultātiem, kurus izmanto darba pasūtījuma prioritātes aprēķināšanai darba pasūtījumu plānošanas laikā.
 

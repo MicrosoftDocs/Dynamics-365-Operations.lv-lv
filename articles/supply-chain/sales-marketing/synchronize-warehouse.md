@@ -1,6 +1,6 @@
 ---
-title: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto noliktavu sinhronizēšanai ar programmu Microsoft Dynamics 365 for Field Service.
+title: Programmatūrā Supply Chain Management ietverto noliktavu sinhronizēšana ar Field Service
+description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto noliktavu sinhronizēšanai ar programmu Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835674"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251182"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Programmatūrā Supply Chain Management ietverto noliktavu sinhronizēšana ar Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto noliktavu sinhronizēšanai ar programmu Microsoft Dynamics 365 for Field Service.
+Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto noliktavu sinhronizēšanai ar programmu Dynamics 365 Field Service.
 
-[![Biznesa procesu sinhronizēšana risinājumos Finance and Operations un Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
-Tālāk minētā veidne un pamata uzdevumi tiek izmantoti, lai veiktu risinājumā Microsoft Dynamics 365 for Finance and Operations ietverto noliktavu sinhronizēšanu ar Microsoft Dynamics 365 for Field Service.
+Tālāk minētā veidne un pamata uzdevumi tiek izmantoti, lai palaistu noliktavu sinhronizāciju no programmatūras Supply Chain Management uz Field Service.
 
 **Veidne līdzeklī Datu integrācija**
-- Noliktavas (no Fin and Ops uz Field Service)
+- Noliktavas (no Supply Chain Management uz Field Service)
 
 **Uzdevums datu integrācijas projektā**
 - Noliktava
 
 ## <a name="entity-set"></a>Elementu kopa
-| Field Service    | Finance and Operations                 |
+| Field Service    | Supply Chain Management                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Noliktavas                             |
 
 ## <a name="entity-flow"></a>Elementu plūsma
-Noliktavas, kas ir izveidotas un uzturētas programmā Finance and Operations, var sinhronizēt ar risinājumu Field Service, izmantojot Common Data Service (CDS) datu integrācijas projektu. Noliktavas, kuras vēlaties sinhronizēt ar programmu Field Service, var kontrolēt ar funkcionalitāti Izvērsts vaicājums un filtrēšana projektā. Noliktavas, kuras tiek sinhronizētas no programmas Finance and Operations, tiek izveidotas programmā Field Service ar iestatījumu **Jā** laukā **Tiek uzturēts ārēji**, un ieraksts ir tikai lasāms.
+Noliktavas, kas ir izveidotas un uzturētas programmatūrā Supply Chain Management, var sinhronizēt ar risinājumu Field Service, izmantojot Common Data Service (CDS) datu integrācijas projektu. Noliktavas, kuras vēlaties sinhronizēt ar programmu Field Service, var kontrolēt ar funkcionalitāti Izvērsts vaicājums un filtrēšana projektā. Noliktavas, kuras tiek sinhronizētas no programmatūras Supply Chain Management, tiek izveidotas programmā Field Service ar iestatījumu **Jā** laukā **Tiek uzturēts ārēji**, un ieraksts ir tikai lasāms.
 
 ## <a name="field-service-crm-solution"></a>Risinājums Field Service CRM
-Lai atbalstītu integrāciju starp risinājumiem Field Service un Finance and Operations ir nepieciešama papildu funkcionalitāte no pakalpojuma Field Service CRM. Risinājumā entītijai **Noliktava (msdyn_warehouses)** ir pievienots lauks **Tiek uzturēti ārēji**. Šis lauks palīdz noteikt, vai noliktavas pārvaldība tiek veikta no programmas Finance and Operations vai arī tā pastāv tikai programmā Field Service. Šim laukam ir pieejami šādi iestatījumi:
-- **Jā** — noliktava ir iegūta no programmas Finance and Operations, un to nevar rediģēt programmā Sales.
+Lai atbalstītu integrāciju starp risinājumiem Field Service un Finance and Operations ir nepieciešama papildu funkcionalitāte no pakalpojuma Field Service CRM. Risinājumā entītijai **Noliktava (msdyn_warehouses)** ir pievienots lauks **Tiek uzturēti ārēji**. Šis lauks palīdz noteikt, vai noliktavas pārvaldība tiek veikta no programmatūras Supply Chain Management vai arī tā pastāv tikai programmā Field Service. Šim laukam ir pieejami šādi iestatījumi:
+- **Jā**— noliktava ir iegūta no programmatūras Supply Chain Management, un to nevar rediģēt programmā Sales.
 - **Nē** — noliktava tika ievadīta tieši programmā Field Service un tiek uzturēta šeit.
 
 Lauks **Tiek ārēji uzturēts** palīdz kontrolēt krājumu līmeņu, korekciju, pārsūtīšanu un lietojuma sinhronizēšanu darba pasūtījumos. Lai veiktu sinhronizēšanu tieši uz to pašu noliktavu citā sistēmā, var izmantot tikai noliktavas, kurām vienumam **Tiek ārēji uzturēts** atlasīts iestatījums **Jā**. 
@@ -63,7 +63,7 @@ Lauks **Tiek ārēji uzturēts** palīdz kontrolēt krājumu līmeņu, korekciju
 
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 ### <a name="data-integration-project"></a>Datu integrācijas projekts
-Pirms noliktavu sinhronizācijas pārliecinieties, vai ir atjaunināta funkcionalitāte Izvērsts vaicājums un filtrēšana projektā, lai tiktu iekļautas tikai noliktavas, kuras vēlaties pārnest no programmas Finance and Operations uz programmu Field Service. Ņemiet vērā, ka noliktava programmā Field Service būs nepieciešama, lai to lietotu darba pasūtījumos, korekcijās un pārsūtīšanās.  
+Pirms noliktavu sinhronizācijas pārliecinieties, vai ir atjaunināta funkcionalitāte Izvērsts vaicājums un filtrēšana projektā, lai tiktu iekļautas tikai noliktavas, kuras vēlaties pārnest no programmatūras Supply Chain Management uz programmu Field Service. Ņemiet vērā, ka noliktava programmā Field Service būs nepieciešama, lai to lietotu darba pasūtījumos, korekcijās un pārsūtīšanās.  
 
 Lai pārliecinātos, ka pastāv **Integrācijas atslēga** entītijai **msdyn_warehouses**:
 1. Atveriet sadaļu Datu integrācija.
@@ -76,6 +76,6 @@ Lai pārliecinātos, ka pastāv **Integrācijas atslēga** entītijai **msdyn_wa
 
 Tālāk esošajā attēlā ir redzams veidnes kartējums līdzeklī Datu integrācija.
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Noliktavas (no Fin and Ops uz Field Service): Noliktava
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Noliktavas (no Supply Chain Management uz Field Service): Noliktava
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/Warehouse1.png)](./media/Warehouse1.png)

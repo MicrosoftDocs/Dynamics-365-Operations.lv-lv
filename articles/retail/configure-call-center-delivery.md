@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra piegādes veidu un maksu konfigurēšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt zvanu centrā veikta pasūtījuma piegādes veidus un maksas programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir aprakstīts, kā iestatīt zvanu centrā veikta pasūtījuma piegādes veidus un maksas programmā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553603"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019489"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Kad programmā Microsoft Dynamics 365 for Retail tiek veikts pārdošanas pasūtījums, ja persona, kas ir ievadījusi šo pārdošanas pasūtījumu, ir saistīta ar zvanu centra kanālu, tiek izmantota loģika un kārtulas, lai validētu šī pasūtījuma piegādes veidu un aprēķinātu maksas par to.
+Kad programmā Dynamics 365 Retail tiek veikts pārdošanas pasūtījums, ja persona, kas ir ievadījusi šo pārdošanas pasūtījumu, ir saistīta ar zvanu centra kanālu, tiek izmantota loģika un kārtulas, lai validētu šī pasūtījuma piegādes veidu un aprēķinātu maksas par to.
 
 Kad veidojat pārdošanas pasūtījumu, piegādes veidu varat atlasīt pārdošanas pasūtījuma virsrakstā un pārdošanas pasūtījuma rindās. Virsrakstā atlasītais piegādes veids pēc noklusējuma tiek izmantots visām pārdošanas pasūtījuma rindām. Taču atsevišķās pārdošanas rindās šo noklusējuma piegādes veidu varat ignorēt, ja nepieciešams. Piegādes veidu varat definēt arī debitora ierakstā. Pēc tam šis piegādes veids pēc noklusējuma tiek izmantots pārdošanas pasūtījuma virsrakstā, kad šim debitoram tiek veidoti pasūtījumi.
 

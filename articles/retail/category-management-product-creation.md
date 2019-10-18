@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27870fe6172479b891b885d9e84ca10b250e3399
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553638"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019512"
 ---
 # <a name="manage-retail-product-categories-and-products"></a>Mazumtirdzniecības preču kategoriju un preču pārvaldība
 
 [!include [banner](./includes/banner.md)]
 
-Šajā tēmā ir aprakstīts uzlabots veids, kā pārvaldīt mazumtirdzniecības preču kategorijas un preces programmā Microsoft Dynamics 365 for Retail. Šie uzlabojumi preču pārvaldniekiem ļauj skatīt preces rekvizītu pamata struktūru, kas ir kopīga mazumtirdzniecības preču hierarhijai un izlaisto preču detalizētajai informācijai.
+Šajā tēmā ir aprakstīts uzlabots veids, kā pārvaldīt preču kategorijas un preces programmā Dynamics 365 Retail. Šie uzlabojumi preču pārvaldniekiem ļauj skatīt preces rekvizītu pamata struktūru, kas ir kopīga preču hierarhijai un izlaisto preču detalizētajai informācijai.
 
-Lai uzzinātu vairāk par mazumtirdzniecības preču kategoriju pārvaldību, darbvietā **Kategoriju un preču pārvaldība**, atlasiet elementu **Mazumtirdzniecības preču hierarhija**.
+Lai uzzinātu vairāk par preču kategoriju pārvaldību, darbvietā **Kategoriju un preču pārvaldība**, atlasiet elementu **Mazumtirdzniecības preču hierarhija**.
 
-Pievērsiet uzmanību parādītās lapas **Mazumtirdzniecības preču hierarhija** uzlabotajai struktūrai. Iepriekšējās Retail versijās preču rekvizīti bija iedalīti *Pamata preces rekvizītos* un *Mazumtirdzniecības preces rekvizītos*, pamatojoties uz to piemērojamību. Mazumtirdzniecības preču rekvizītu piemērojamības joma ir *globāla*. Citiem vārdiem sakot — katram attiecīgajam mazumtirdzniecības preces rekvizītam viena un tā pati vērtība tiek koplietota visās juridiskajās personās. Turpretim pamata preces rekvizīti tiek lietoti tikai *konkrētai juridiskajai personai*. Citiem vārdiem sakot — attiecīgā pamata preces rekvizīta vērtība dažādām juridiskajām personām var atšķirties atkarībā no katras juridiskās personas atsevišķajām biznesa prasībām.
+Pievērsiet uzmanību parādītās lapas **Mazumtirdzniecības preču hierarhija** uzlabotajai struktūrai. Iepriekšējās Retail versijās preču rekvizīti bija iedalīti *Pamata preces rekvizītos* un *Mazumtirdzniecības preces rekvizītos*, pamatojoties uz to piemērojamību. Mazumtirdzniecības preču rekvizītu piemērojamības joma ir *globāla*. Citiem vārdiem sakot — katram attiecīgajam preces rekvizītam viena un tā pati vērtība tiek koplietota visās juridiskajās personās. Turpretim pamata preces rekvizīti tiek lietoti tikai *konkrētai juridiskajai personai*. Citiem vārdiem sakot — attiecīgā pamata preces rekvizīta vērtība dažādām juridiskajām personām var atšķirties atkarībā no katras juridiskās personas atsevišķajām biznesa prasībām.
 
-Uzlabotajā mazumtirdzniecības preču kategoriju struktūrā preču rekvizīti tiek loģiski sadalīti, pamatojoties uz to piemērojamību grupas ietvaros, tādējādi atspoguļojot izlaisto preču detalizētās informācijas formas struktūru.
+Uzlabotajā preču kategoriju struktūrā preču rekvizīti tiek loģiski sadalīti, pamatojoties uz to piemērojamību grupas ietvaros, tādējādi atspoguļojot izlaisto preču detalizētās informācijas formas struktūru.
 
 ![Lauki, kas grupēti, pamatojoties uz rekvizītu piemērojamības jomu](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
@@ -50,7 +50,7 @@ Lai pārvaldītu rekvizītus konkrētai juridiskajai personai, atlasiet **Skatī
 
 ![Skatīt/rediģēt konkrētai juridiskajai personai](media/ToggleToEditForAllLegalEntities.PNG)
 
-Turklāt uzlabotajā mazumtirdzniecības preču kategorijas struktūrā preču pārvaldnieks var definēt noklusējuma vērtības papildu preču rekvizītu kopai atsevišķu kategoriju līmenī. Pēc tam, izveidojot preces, tās pārmanto preču rekvizītu noklusējuma vērtības, ņemot vērā attiecīgo rekvizītu saistību ar atsevišķu kategoriju no mazumtirdzniecības preču hierarhijas. Šos pārmantotos preču rekvizītus katrai precei var modificēt, lai tie atbilstu konkrētajām biznesa prasībām.
+Turklāt uzlabotajā mazumtirdzniecības preču kategorijas struktūrā preču pārvaldnieks var definēt noklusējuma vērtības papildu preču rekvizītu kopai atsevišķu kategoriju līmenī. Pēc tam, izveidojot preces, tās pārmanto preču rekvizītu noklusējuma vērtības, ņemot vērā attiecīgo rekvizītu saistību ar atsevišķu kategoriju no preču hierarhijas. Šos pārmantotos preču rekvizītus katrai precei var modificēt, lai tie atbilstu konkrētajām biznesa prasībām.
 
 ## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Rekvizītu atlasīšana, lai atjauninātu preces lapā Mazumtirdzniecības preču hierarhija
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518516"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008155"
 ---
 # <a name="create-fixed-compensation-plans"></a>Fiksētas atlīdzības plāna izveide
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518516"
 
 Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
 
-Fiksētas atlīdzības summas saviem darbiniekiem var aprēķināt, pamatojoties uz tādiem faktoriem kā sniegums, reģions un budžeta palielinājums. Microsoft Dynamics 365 for Talent atbalsta darbības, pakāpes un indeksa atlīdzības veidus.
+Fiksētas atlīdzības summas saviem darbiniekiem var aprēķināt, pamatojoties uz tādiem faktoriem kā sniegums, reģions un budžeta palielinājums. Dynamics 365 Talent atbalsta darbības, pakāpes un indeksa atlīdzības veidus.
 
 ## <a name="fixed-compensation-components"></a>Fiksētas atlīdzības komponenti
 ### <a name="compensation-levels"></a>Atlīdzības līmeņi

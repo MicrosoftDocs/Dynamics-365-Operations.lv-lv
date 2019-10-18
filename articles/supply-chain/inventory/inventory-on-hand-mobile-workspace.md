@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845598"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249521"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobilā darbvieta Rīcībā esošie krājumi
 
@@ -31,9 +31,9 @@ ms.locfileid: "1845598"
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Rīcībā esošie krājumi**. Šī darbvieta jums palīdz jebkurā vietā un laikā gūt ieskatu par rezervēto un pieejamo krājumu daudzumu.
 
-Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 Parasti uzņēmumos katru dienu tiek veiktas vairākas krājumu nosūtīšanas un saņemšanas darbības. Šīs krājumu kustības dēļ nepārtraukti mainās rīcībā esošo krājumu statuss. Mobilā darbvieta **Rīcībā esošie krājumi** sniedz iespēju skatīt starpuzņēmumu rīcībā esošo krājumu statusu, lai varētu gūt visjaunākos ieskatus par krājumu datiem jebkurā mobilajā ierīcē. Neatkarīgi no tā, vai strādājat noliktavā vai iepirkumu, pārdošanas, ražošanas vai vadības nodaļā vai ieņemat citu amatu, varat piekļūt rīcībā esošo krājumu datiem jebkurā laikā un vietā. 
 
 Mobilā darbvieta nodrošina tūlītēju informāciju par rīcībā esošo krājumu statusu dažādās vietās. Tā arī sniedz iespēju skatīt rīcībā esošos krājumus dažādās vietās, pašreizējās materiālu rezervācijas un nerezervētos rīcībā esošos krājumus. Varat arī ievadīt krājumu numurus, lai izveidotu rīcībā esošo krājumu vaicājumu, un veikt rīcībā esošo krājumu preču vai variantu meklēšanu, izmantojot filtrus. 
@@ -58,11 +58,11 @@ Mobilā darbvieta nodrošina tālāk norādītos līdzekļus.
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
-Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Rīcībā esošie krājumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Finance and Operations 
+Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Inventory on-hand**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
-Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat platformas 3. atjauninājumu vai jaunāku versiju 
+Ja jūsu organizācijai ir izvietots 3. platformas atjauninājums vai jaunāka tā versija, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
 
 <table>
 <thead>
@@ -96,7 +96,7 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.
+Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
 -   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

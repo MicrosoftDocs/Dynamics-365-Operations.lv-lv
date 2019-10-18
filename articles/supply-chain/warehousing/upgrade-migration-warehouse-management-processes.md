@@ -1,5 +1,5 @@
 ---
-title: Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
+title: Jaunināt noliktavas pārvaldību no Microsoft Dynamics AX 2012 uz Supply Chain Management
 description: Šajā tēmā ir sniegts apskats par preču un noliktavas pārvaldības migrēšanas opcijām.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554050"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251435"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Noliktavas pārvaldības jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Jaunināt noliktavas pārvaldību no Microsoft Dynamics AX 2012 uz Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par jaunināšanas procedūru, jauninot no Microsoft Dynamics AX 2012 R3, kur darbojas modulis WMSII, uz Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir sniegts apskats par jaunināšanas procedūru, jauninot no Microsoft Dynamics AX 2012 R3, kur darbojas modulis WMSII, uz Supply Chain Management.
 
-Finance and Operations vairs neatbalsta Microsoft Dynamics AX 2012 mantoto moduli **WMSII**. Tā vietā varat izmantot moduli **Noliktavas pārvaldība**. Modulī WMSII finanšu krājumam varēja atlasīt krājumu dimensiju Novietojums un Paletes ID, taču programmatūrā Finance and Operations krājumu dimensiju Paletes ID nevar izmantot finanšu krājumam.
+Supply Chain Management vairs neatbalsta Microsoft Dynamics AX 2012 mantoto moduli **WMSII**. Tā vietā varat izmantot moduli **Noliktavas pārvaldība**. Modulī WMSII finanšu krājumam varēja atlasīt krājumu dimensiju Novietojums un Paletes ID, taču programmatūrā Supply Chain Management krājumu dimensiju Paletes ID nevar izmantot finanšu krājumam.
 
 Jaunināšanas laikā visas preces, kas ir saistītas ar noliktavas dimensiju grupu, kurā tiek izmantota krājumu dimensija Paletes ID, tiek identificētas, atzīmētas kā bloķētas un netiek apstrādātas jaunināšanai.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Jaunināšana uz Finance and Operations, ja tiek izmantots modulis AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Jaunināšana uz Supply Chain Management, izmantojot AX 2012 R3 WMSII
 Pēc jaunināšanas varat izmantot opciju kopu formā ***Mainīt noliktavas dimensiju grupu krājumiem**, lai atbloķētu preces, kuras jaunināšanas laikā tika bloķētas, un pēc tam apstrādāt transakcijas šīm precēm.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Krājumu iespējošana programmatūrā Finance and Operations
-Šīs izmaiņas ir nepieciešamas, jo programmatūrā Finance and Operations krājumu izsekošana ir daļa no noliktavas pārvaldības procesiem. Šiem procesiem visām noliktavām un to novietojumiem ir jābūt saistītiem ar novietojuma profilu. Ja vēlaties izmantot noliktavas pārvaldības procesus, ir jākonfigurē tālāk noradītie iestatījumi.
+### <a name="enabling-items-in-supply-chain-management"></a>Krājumu iespējošana Supply Chain Management 
+Šīs izmaiņas ir nepieciešamas, jo programmatūrā Supply Chain Management krājumu izsekošana ir daļa no noliktavas pārvaldības procesiem. Šiem procesiem visām noliktavām un to novietojumiem ir jābūt saistītiem ar novietojuma profilu. Ja vēlaties izmantot noliktavas pārvaldības procesus, ir jākonfigurē tālāk noradītie iestatījumi.
 -   Esošajām noliktavām ir jāiespējo noliktavas pārvaldības procesu lietošana 
 -   Esošās izlaistās preces ir jāsaista ar noliktavas dimensiju grupu, kas izmanto noliktavas pārvaldības procesus 
 

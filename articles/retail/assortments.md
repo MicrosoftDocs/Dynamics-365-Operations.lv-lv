@@ -1,6 +1,6 @@
 ---
 title: Preču klāsta pārvaldība
-description: Šajā tēmā ir paskaidroti pamata jēdzieni, kas tiek izmantoti preču klāsta pārvaldībai programmā Microsoft Dynamics 365 for Retail, un ir sniegti jūsu projekta ieviešanas apsvērumi.
+description: Šajā tēmā ir paskaidroti pamata jēdzieni, kas tiek izmantoti preču klāsta pārvaldībai programmā Dynamics 365 Retail, un ir sniegti jūsu projekta ieviešanas apsvērumi.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558832"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025844"
 ---
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558832"
 
 ## <a name="overview"></a>Pārskats
 
-Programmā Microsoft Dynamics 365 for Retail ir pieejami *preču klāsti*, kas sniedz iespēju pārvaldīt preču pieejamību dažādos kanālos. Preču klāsti norāda, kuras preces ir pieejamas noteiktos veikalos un noteiktā periodā.
+Programmā Dynamics 365 Retail ir pieejami *preču klāsti*, kas sniedz iespēju pārvaldīt preču pieejamību dažādos kanālos. Preču klāsti norāda, kuras preces ir pieejamas noteiktos veikalos un noteiktā periodā.
 
 Risinājumā Retail ir preču klāsts viena vai vairāku kanālu (vai kanālu grupas, ja tiek izmantotas organizācijas hierarhijas) kartējums ar vienu vai vairākām precēm (vai preču grupām, ja tiek izmantotas kategoriju hierarhijas).
 

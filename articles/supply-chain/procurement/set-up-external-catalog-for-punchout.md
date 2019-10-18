@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595615"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249395"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei
 
@@ -37,12 +37,12 @@ Lai iestatītu savienojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 
 ## <a name="setting-up-an-external-catalog"></a>Ārējā kataloga iestatīšana
 
-Ārējā katalogā jāiespējo darbinieks, kurš ievada pirkšanas pieprasījumu, kas jānovirza uz ārējo vietu, lai atlasītu preces. Preces, ko darbinieks atlasa ārējā katalogā, tiek atgrieztas programmā Dynamics 365 for Finance and Operations ar jaunāko cenu informāciju, un pēc tam tās var pievienot pirkšanas pieprasījumam. Nolūks nav atļaut darbiniekiem veikt pasūtījumu ārējā vietā. Iestatot ārējo katalogu, ir jānodrošina, ka vietas, kurai var piekļūt no ārējā kataloga, mērķis ir piedāvājuma informācijas apkopošana, nevis reāla pasūtījuma veikšana.
+Ārējā katalogā jāiespējo darbinieks, kurš ievada pirkšanas pieprasījumu, kas jānovirza uz ārējo vietu, lai atlasītu preces. Preces, ko darbinieks atlasa ārējā katalogā, tiek atgrieztas ar jaunāko cenu informāciju, un pēc tam tās var pievienot pirkšanas pieprasījumam. Nolūks nav atļaut darbiniekiem veikt pasūtījumu ārējā vietā. Iestatot ārējo katalogu, ir jānodrošina, ka vietas, kurai var piekļūt no ārējā kataloga, mērķis ir piedāvājuma informācijas apkopošana, nevis reāla pasūtījuma veikšana.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Lai iestatītu ārējo piegādātāju katalogu, jāizpilda šādi uzdevumi.
 
 1. Iestatiet sagādes kategoriju hierarhiju. Plašāku informāciju skatiet sadaļā [Iestatīt politikas sagādes kategoriju hierarhijai](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Reģistrējiet kreditoru programmatūrā Finance and Operations. Pirms piekļuves kreditora ārējam katalogam konfigurāciju iestatīšanas programmā Microsoft Dynamics 365 ir jāiestata kreditors un kreditora kontaktpersona. Ārējā kataloga kreditors arī ir jāpievieno atlasītajai sagādes kategorijai. Papildinformāciju par kreditoru reģistrāciju programmā Microsoft Dynamics 365 skatiet rakstā [Kreditoru sadarbības lietotāju pārvaldība](manage-vendor-collaboration-users.md). Informāciju par to, kā piešķirt kreditorus sagādes kategorijai, skatiet tēmā [Kreditoru apstiprināšana noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md).
+2. Reģistrēt kreditoru Supply Chain Management. Pirms piekļuves kreditora ārējam katalogam konfigurāciju iestatīšanas programmā Microsoft Dynamics 365 ir jāiestata kreditors un kreditora kontaktpersona. Ārējā kataloga kreditors arī ir jāpievieno atlasītajai sagādes kategorijai. Papildinformāciju par kreditoru reģistrāciju skatiet rakstā [Kreditoru sadarbības lietotāju pārvaldība](manage-vendor-collaboration-users.md). Informāciju par to, kā piešķirt kreditorus sagādes kategorijai, skatiet tēmā [Kreditoru apstiprināšana noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md).
 3. Pārliecinieties, vai ir iestatītas mērvienības un valūta, ko izmanto kreditors. Informāciju par to, kā izveidot mērvienību, skatiet rakstā [Mērvienību pārvaldība](../pim/tasks/manage-unit-measure.md).
 4. Konfigurējiet ārējo piegādātāju katalogu, izmantojot piegādātāju prasību ārējo kataloga vietni. Papildinformāciju par šo uzdevumu skatiet sadaļā [Ārējā piegādātāju kataloga konfigurēšana](#configure-the-external-vendor-catalog).
 5. Testējiet ārējā piegādātāju kataloga konfigurācijas, lai pārbaudītu, vai iestatījumi ir derīgi un varat piekļūt ārējam piegādātāju katalogam. Izmantojiet darbību **Validēt iestatījumus**, lai validētu iestatīšanas pieprasījuma ziņojumu, ko esat definējis. Šim ziņojumam ir jāizraisa kreditoru ārējā kataloga vietnes atvēršana pārlūkprogrammas logā. Pārbaudes laikā nevar pasūtīt preces un pakalpojumus no kreditora. Lai pasūtītu preces un pakalpojumus, ir jāpiekļūst piegādātāju katalogam no pirkšanas pieprasījuma.
@@ -90,9 +90,9 @@ Kreditoram varētu būt prasība saņemšanai ārēju elementu iestatīšanas pi
 Plašāku informāciju par cXML protokolu skatiet [cXML.org tīmekļa vietnē](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Ar iepriekšēju datumu grāmatots ziņojums
-Ar iepriekšēju datumu grāmatots ziņojums ir ziņojums, kas tiek saņemts no kreditora, kad lietotājs reģistrē aiziešanu no ārējās vietnes un atgriežas programmā Finance and Operations. Ar iepriekšēju datumu grāmatotos ziņojumus nevar konfigurēt. Ziņojumi tiek izveidoti, pamatojoties uz cXML protokola definīciju. Tālāk ir norādīta informācija, kas var būt ietverta ar iepriekšēju datumu grāmatotā ziņojumā, kurš tiek saņemts pieprasījuma rindā.
+Ar iepriekšēju datumu grāmatots ziņojums ir ziņojums, kas tiek saņemts no kreditora, kad lietotājs reģistrē aiziešanu no ārējās vietnes un atgriežas programmatūrā Supply Chain Management. Ar iepriekšēju datumu grāmatotos ziņojumus nevar konfigurēt. Ziņojumi tiek izveidoti, pamatojoties uz cXML protokola definīciju. Tālāk ir norādīta informācija, kas var būt ietverta ar iepriekšēju datumu grāmatotā ziņojumā, kurš tiek saņemts pieprasījuma rindā.
 
-| No kreditora saņemts ziņojums | Kopēts Finance and Operations pieprasījuma rindā|
+| No kreditora saņemts ziņojums | Kopēts pieprasījuma rindā|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Daudzums|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Ārējā krājuma ID|

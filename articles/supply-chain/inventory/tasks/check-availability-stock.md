@@ -3,7 +3,7 @@ title: Krājumu pieejamības pārbaude
 description: Šajā procedūrā parādīts, kā pārbaudīt rīcībā esošos un fiziski rīcībā esošos krājumus noteiktam krājuma kodam.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b78b2e4ec3179450d635857353846c9bcb23eed
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795176"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995254"
 ---
 # <a name="check-the-availability-of-stock"></a>Krājumu pieejamības pārbaude
 
@@ -31,40 +31,32 @@ ms.locfileid: "1795176"
 
 
 ## <a name="check-on-hand-inventory-for-an-item"></a>Krājuma rīcībā esošo krājumu pārbaude
-1. Dodieties uz Krājumu vadība > Uzziņas un atskaites > Rīcībā esošie krājumi.
-2. Izvēlieties krājuma koda rindu.
-    * Lai izpildītu vaicājumu rīcībā esošiem krājumiem pēc krājuma koda, atlasiet rindu, kur tabulai ir iestatīti rīcībā esošie krājumi un laukā ir iestatīts krājuma kods.  
-3. Laukā Kritēriji atlasiet krājumu, kuram vēlaties izpildīt vaicājumu.
-    * Ja lietojat demonstrācijas datu uzņēmumu USMF, varat atlasīt “M9201”.  
-4. Noklikšķiniet uz OK.
-5. Noklikšķiniet uz Dimensijas.
-    * Cilne Dimensijas ļauj atlasīt, cik daudz informācijas vēlaties redzēt par jūsu rīcībā esošajiem krājumiem. Ja jums ir nepieciešami dati, kas attiecas uz rezervāciju, ir jāattēlo visas krājumu dimensijas krājumiem, kas izmanto papildu noliktavas (WHS) procesus.  
-6. Noklikšķiniet uz OK.
-7. Darbību rūtī noklikšķiniet uz Saistītā informācija.
-    * Ja tie nav redzami, iespējams, ir nepieciešams noklikšķināt uz elipses pogas (...), lai redzētu papildu darbību rūts opcijas.  
-8. Noklikšķiniet uz Piegādes pārskats.
-    * Cilne Piegādes pārskats sniedz piegādes informāciju noteiktam krājumam, piemēram, rīcībā esošo daudzumu, izpildes laiku un kreditora informāciju.  
-9. Izvērsiet sadaļu Rīcībā esošs.
-10. Izvērsiet sadaļu Kreditori.
+1. Pārejiet uz **Navigācijas rūts > Moduļi > Krājumu vadība > Uzziņas un pārskati > Rīcībā esošie krājumi**.
+2. Atlasiet rindu **Krājuma numurs**. Lai izpildītu vaicājumu rīcībā esošiem krājumiem pēc krājuma koda, atlasiet rindu, kur tabulai ir iestatīti **Rīcībā esošie krājumi** un laukā ir iestatīts **Krājuma kods**.
+3. Laukā **Kritēriji** atlasiet krājumu, kuram vēlaties izpildīt vaicājumu. Ja lietojat demonstrācijas datu uzņēmumu USMF, varat atlasīt “M9201”.  
+4. Noklikšķiniet uz **Labi**.
+5. **Darbību rūtī** noklikšķiniet uz **Dimensijas**. Cilne **Dimensijas** ļauj atlasīt, cik daudz informācijas vēlaties redzēt par jūsu rīcībā esošajiem krājumiem. Ja jums ir nepieciešami dati, kas attiecas uz rezervāciju, ir jāattēlo visas krājumu dimensijas krājumiem, kas izmanto papildu noliktavas (WHS) procesus.
+6. Noklikšķiniet uz **Labi**.
+7. **Darbību rūtī** noklikšķiniet uz **Saistītā informācija**. Ja šī opcija nav redzama, iespējams, ir nepieciešams noklikšķināt uz elipses pogas (...), lai redzētu papildu darbību rūts opcijas.
+8. Noklikšķiniet uz **Piegādes pārskats**. Cilne **Piegādes pārskats** sniedz piegādes informāciju noteiktam krājumam, piemēram, rīcībā esošo daudzumu, izpildes laiku un kreditora informāciju.  
+9. Izvērsiet sadaļu **Rīcībā esošs**.
+10. Izvērsiet sadaļu **Piegādātāji**.
 11. Aizvērt lapu.
 12. Aizvērt lapu.
 
 ## <a name="check-physical-on-hand-inventory"></a>Fizisko rīcībā esošo krājumu pārbaude
-1. Dodieties uz Noliktavas vadība > Uzziņas un atskaites > Fiziski rīcībā esošie krājumi.
-2. Laukā Krājuma kods ierakstiet kādu vērtību.
-    * Laukus Vieta un Noliktava var izmantot krājumu sarakstu filtrēšanai.  
+1. Pārejiet uz **Navigācijas rūts > Moduļi > Npliktava vadība > Uzziņas un pārskati > Fiziskie rīcībā esošie krājumi**.
+2. Laukā **Krājuma kods** ierakstiet vērtību. Laukus Vieta un Noliktava var izmantot krājumu sarakstu filtrēšanai. 
 3. Atsvaidziniet lapu.
-4. Noklikšķiniet uz Parādīt dimensijas.
-    * Cilne Dimensiju ekrāns ļauj atlasīt, cik daudz informācijas vēlaties redzēt par jūsu rīcībā esošajiem krājumiem.  
-5. Noklikšķiniet uz OK.
+4. Darbību rūtī **Darbību rūtī** noklikšķiniet uz **Parādīt dimensijas**. Cilne Dimensiju ekrāns ļauj atlasīt, cik daudz informācijas vēlaties redzēt par jūsu rīcībā esošajiem krājumiem.
+5. Noklikšķiniet uz **Labi**.
 6. Aizvērt lapu.
 
 ## <a name="check-on-hand-inventory-by-location"></a>Rīcībā esošo krājumu pārbaude pēc atrašanās vietas
-1. Dodieties uz Noliktavas vadība > Uzziņas un atskaites > Rīcībā esošie krājumi pēc novietojuma.
-2. Laukā Noliktava ierakstiet kādu vērtību.
-    * Ja jūs izmantojat USMF demonstrācijas datus uzņēmuma, varat izmantot '51'.  
+1. Pārejiet uz **Navigācijas rūts > Moduļi > Npliktava vadība > Uzziņas un pārskati > Fiziskie rīcībā esošie pēc atrašanās vietas**.
+2. Laukā **Noliktava** atlasiet vērtību. Ja jūs izmantojat USMF demonstrācijas datus uzņēmuma, varat izmantot '51'.  
 3. Atsvaidziniet lapu.
-4. Noklikšķiniet uz Parādīt dimensijas.
-5. Noklikšķiniet uz OK.
+4. Noklikšķiniet uz **Parādīt dimensijas**.
+5. Noklikšķiniet uz **Labi**.
 6. Aizvērt lapu.
 

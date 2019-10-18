@@ -1,6 +1,6 @@
 ---
-title: Atbalsta saņemšana saistībā ar Talent
-description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Microsoft Dynamics 365 for Talent.
+title: Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent
+description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/07/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
-ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
+ms.openlocfilehash: 949a504c71127c5efa0a93eb3fa4b237cb4b8242
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538777"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026098"
 ---
 # <a name="get-support-for-talent"></a>Atbalsta saņemšana saistībā ar Talent
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir izskaidrots, kā saņemt palīdzību darbā ar Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract un Dynamics 365 Talent: Onboard.
+Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Microsoft Dynamics 365 Talent: Core HR, Dynamics 365 Talent: Attract un Dynamics 365 Talent: Onboard.
 
 ## <a name="support-for-talent"></a>Programmas Talent atbalsts
 
@@ -34,11 +34,11 @@ Lai saņemtu atbalstu darbā ar programmu Talent, izmantojiet nākamajā tabulā
 
 | Uzdevums | Papildinformācija |
 |------|------------------|
-| Jautājiet kopienai. | Dodieties uz lapu [Dynamics 365 for Talent kopiena](https://community.dynamics.com/365/talent), lai saņemtu palīdzību par jautājumiem. Lai atrastu atbildes, ievadiet jautājumu meklēšanas laukā blakus tekstam **Ir jautājums**. Lai uzdotu jautājumu, atlasiet **Uzdot jautājumu**. |
+| Jautājiet kopienai. | Dodieties uz lapu [Dynamics 365 Talent kopiena](https://community.dynamics.com/365/talent), lai saņemtu palīdzību par jautājumiem. Lai atrastu atbildes, ievadiet jautājumu meklēšanas laukā blakus tekstam **Ir jautājums**. Lai uzdotu jautājumu, atlasiet **Uzdot jautājumu**. |
 | Izmantojiet mākoņa darbinātā atbalsta rīku. | Sadaļā [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) pārejiet uz savu projektu un atlasiet elementu **Atbalsts**. Šeit varat iesniegt problēmas divos tālāk minētajos veidos.<ul><li>Cilnē **Aktīvās problēmas** atlasiet iesniedzamo problēmu un pēc tam atlasiet **Iesniegt korporācijai Microsoft**.</li><li>Cilnē **Iesniegts korporācijai Microsoft** atlasiet **Iesniegt jaunu incidentu**, lai iesniegtu jaunu problēmu.</li></ul> |
 | Saņemiet atbalstu programmā. | Lapas augšējā labajā stūrī atlasiet pogu **Palīdzība** (**?**). Pēc tam, ja ir atvērta programma Core HR, atlasiet opciju **Atbalsts**. Ja ir atvērta programma Attract vai Onboard, atlasiet **Ziņot par problēmu**. Par problēmām tiek ziņots LCS cilnē **Aktīvās problēmas**, kur administrators var noteikt, vai nodrošināt iekšējo atbalstu vai iesniegt problēmas korporācijai Microsoft. (Ja jums ir savrupa Onboard versija, problēmas tiek iesniegtas tieši korporācijai Microsoft.) |
 | Saņemiet palīdzību par Talent licencēšanas jautājumiem. | Sazinieties ar vietējo partneri vai Microsoft tirdzniecības pārstāvi. |
-| Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Talant. | Lietojumprogrammas Talent galvenajā lapā atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 lietojumprogrammas idejas](https://experience.dynamics.com/ideas/), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |
+| Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Talant. | Talent galvenajā lapā atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 lietojumprogrammas idejas](https://experience.dynamics.com/ideas/), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |
 
 ## <a name="support-for-the-onboard-stand-alone-app"></a>Onboard savrupās programmas atbalsts
 
@@ -46,7 +46,7 @@ Lai saņemtu atbalstu darbā ar savrupo programmu Onboard, izmantojiet nākamaj�
 
 | Uzdevums | Papildinformācija |
 |------|------------------|
-| Jautājiet kopienai. | Dodieties uz lapu [Dynamics 365 for Talent kopiena](https://community.dynamics.com/365/talent), lai saņemtu palīdzību. Lai atrastu atbildes, ievadiet jautājumu meklēšanas laukā blakus tekstam **Ir jautājums**. Lai uzdotu jautājumu, atlasiet **Uzdot jautājumu**. |
+| Jautājiet kopienai. | Dodieties uz lapu [Dynamics 365 Talent kopiena](https://community.dynamics.com/365/talent), lai saņemtu palīdzību. Lai atrastu atbildes, ievadiet jautājumu meklēšanas laukā blakus tekstam **Ir jautājums**. Lai uzdotu jautājumu, atlasiet **Uzdot jautājumu**. |
 | Ziņojiet par problēmu. | Lapas augšējā labajā stūrī atlasiet pogu **Palīdzība** (**?**) un atlasiet **Ziņot par problēmu**. Ievadiet problēmas aprakstu un norādiet e-pasta adresi, ja vēlaties saņemt informāciju par problēmu. |
 | Saņemiet palīdzību par Talent licencēšanas jautājumiem. | Sazinieties ar vietējo partneri vai Microsoft tirdzniecības pārstāvi. |
-| Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Onboard. | Atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 for Talent: Onboard idejas](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |
+| Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Onboard. | Atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 Talent: Onboard Idejas](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |

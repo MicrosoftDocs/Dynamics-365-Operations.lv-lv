@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560144"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250223"
 ---
 # <a name="modeling-a-lean-organization"></a>Racionālas organizācijas modelēšana
 
@@ -39,7 +39,7 @@ Ražošanas scenārijos, kuru pamatā ir ražošanas pasūtījumi, materiāls ti
 
 Lai samazinātu piegādes izpildes laikus un liekus krājumus starp resursiem, ko izraisa partiju ražošana, Lean manufacturing ražošanas un noliktavas papildināšanā ievieš Kanban papildināšanu un lielveikalus. Parasti šie līdzekļi izjauc daļēji neatkarīgu Kanban ciklu ražošanu. Pabeigtas preces pasūtījums vairs neizraisa Kanban papildināšanu nepabeigtai precei. 
 
-Lai atjaunotu ražošanas un izmaksu kontekstu dažādiem Kanban scenārijiem, kas tiek piedāvāti programmāMicrosoft Dynamics 365 for Finance and Operations, kā lean manufacturing pamats ir ieviestas uz aktivitātēm balstītas ražošanas plūsmas. Visi Kanban nosacījumi attiecas uz šo iepriekš definētu struktūru. Ar aktivitāti saistīts modelis atbalsta plašu scenāriju klāsta iestatījumus. Taču šis modelis nevairo sarežģītību ražotnes darbiniekiem, jo visi scenāriji lieto to pašu uz aktivitātēm balstīto lietotāja interfeisu.
+Lai atjaunotu ražošanas un izmaksu kontekstu dažādiem Kanban scenārijiem, kas tiek piedāvāti kā lean manufacturing pamats, ir ieviestas uz aktivitātēm balstītas ražošanas plūsmas. Visi Kanban nosacījumi attiecas uz šo iepriekš definētu struktūru. Ar aktivitāti saistīts modelis atbalsta plašu scenāriju klāsta iestatījumus. Taču šis modelis nevairo sarežģītību ražotnes darbiniekiem, jo visi scenāriji lieto to pašu uz aktivitātēm balstīto lietotāja interfeisu.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Nepabeigtas preces (ne no MK līmeņiem)
 Lean manufacturing ir integrēti Kanban, kas paredzēti inventarizētām precēm un nepabeigtām precēm vienotā sistēmā, līdz ar to piedāvājot vienotu lietotāju pieredzi visos gadījumos. Šīs arhitektūras dēļ vairs nav jāievieš papildu MK līmeņi, lai Kanban varētu izmantot nepabeigtām precēm. Šī arhitektūra palīdz arī līdz minimumam samazināt krājumu transakcijas.
@@ -50,7 +50,7 @@ Partijas izmēru samazināšana līdz Lean manufacturing viengabalainas plūsmas
 ## <a name="value-streams-and-value-stream-mapping"></a>Vērtību plūsmas un vērtību plūsmu kartēšana
 Lean manufacturing arhitektūru iedvesmoja pieci racionāli principi, ko formulēja Womack un Jones: klientu vērtība, vērtību plūsma, kā arī plūsma, pieprasījumpiegāde un pilnība. Viena apstiprināta metode Lean manufacturing risinājumu ieviešanai ražošanas fiziskajā pasaulē ir vērtību plūsmas kartēšanu (value stream mapping — VSM). Šo metodi Rother un Shook ieviesa savā Lean Manufacturing institūta publikācijā “Mācīšanās redzēt” (“Learning to See”). 
 
-Programmatūrā Finance and Operations šo nākotnes stāvokļa vērtību plūsmu var modelēt kā ražošanas plūsmas versiju. Visi vērtību plūsmas procesi tiek modelēti kā procesu aktivitātes. Kustības vai pārsūtīšanas var modelēt kā pārsūtīšanas aktivitātes, ja pārsūtīšanas statusu ir nepieciešams reģistrēt vai ja ir nepieciešama integrēšana ar krājumu izdošanu vai konsolidētajiem sūtījumiem. 
+Nākotnes stāvokļa vērtību plūsmu var modelēt kā ražošanas plūsmas versiju. Visi vērtību plūsmas procesi tiek modelēti kā procesu aktivitātes. Kustības vai pārsūtīšanas var modelēt kā pārsūtīšanas aktivitātes, ja pārsūtīšanas statusu ir nepieciešams reģistrēt vai ja ir nepieciešama integrēšana ar krājumu izdošanu vai konsolidētajiem sūtījumiem. 
 
 Pati vērtību plūsma tiek modelēta kā pārvaldības struktūrvienība. Tāpēc vērtību plūsmu var izmantot kā finanšu dimensiju.
 

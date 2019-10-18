@@ -3,7 +3,7 @@ title: Plānoto pasūtījumu uzturēšana
 description: Šajā sadaļā ir sniegta informācija par to, kā pārvaldīt plānotos pasūtījumus. Tajā ir izskaidrots, kā var atjaunināt plānoto pasūtījumu statusu, apstiprināt tos un filtrēt pēc plānotajiem pasūtījumiem, kuriem ir tāds pats statuss kā atlasītajam plānotajam pasūtījumam.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 10/02/2018
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
+ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560376"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "1993444"
 ---
 # <a name="maintain-planned-orders"></a>Plānoto pasūtījumu uzturēšana
 
@@ -32,19 +32,32 @@ ms.locfileid: "1560376"
 
 Šajā sadaļā ir sniegta informācija par to, kā pārvaldīt plānotos pasūtījumus. Tajā ir izskaidrots, kā var atjaunināt plānoto pasūtījumu statusu, apstiprināt tos un filtrēt pēc plānotajiem pasūtījumiem, kuriem ir tāds pats statuss kā atlasītajam plānotajam pasūtījumam.
 
-Plānotos pasūtījumus var pārvaldīt no darbvietas **Vispārējā plānošana**, saraksta **Plānotais pasūtījums** vai saraksta **Plānotie ražošanas pasūtījumi**, **Plānotie pirkšanas pasūtījumi** un **Plānotā pārsūtīšana**. Lai sekotu norisei, varat izmantot lauku **Statuss**. Tiek izmantotas šādas vērtības.
+Plānotos pasūtījumus var pārvaldīt no darbvietas **Vispārējā plānošana**, saraksta **Plānotais pasūtījums** vai saraksta **Plānotie ražošanas pasūtījumi**, **Plānotie pirkšanas pasūtījumi** un **Plānotā pārsūtīšana**. 
+
+## <a name="planned-order-status"></a>Plānotā pasūtījuma statuss
+Lai sekotu norisei, varat izmantot lauku **Statuss**. Tiek izmantotas šādas vērtības.
 
 -   Kad vispārējā plānošana ģenerē plānotos pasūtījumus, tiem tiek piešķirts statuss **Neapstrādāts**.
 -   Ja izvēlaties neapstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Pabeigts**.
--   Izvēloties apstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Apstiprināts**. Šis statuss norāda, ka jūs apstiprināt plānotā pasūtījuma apstiprināšanu, taču tas vēl nav apstiprināts.
+-   Ja vēlaties apstiprināt plānoto pasūtījumu, varat mainīt statusu uz **Apstiprināts**. Plānotos pasūtījumus ar statusu **Apstiprināts** ievēro vispārējā plānošana, tāpēc tie netiek modificēti vai dzēsti. 
 
-**Piezīme.** Apstiprināts plānotais pasūtījums savā pašreizējā statusā tiek pārsūtīts uz nākamo vispārējās plānošanas aprēķinu. Plānotos pasūtījumus var apstiprināt, noklikšķinot uz **Apstiprināt**. Var apstiprināt šādus plānotos pasūtījumus:
+## <a name="firming-planned-orders"></a>Apstiprinot plānotos pasūtījumus 
+Apstiprinot plānotos pasūtījumus, tiek izveidoti faktiskie pasūtījumi. Tie ir zināmi arī kā *izdotie* vai *atvērti pasūtījumi*. Kad plānotais pasūtījums apstiprināts, tas tiek pārvietots attiecīgā moduļa pasūtījumu sadaļai.
 
--   Atlasītais plānotais pasūtījums.
--   vairākus plānotos pasūtījumus.
--   Plānotie pasūtījumi, ko izvērsums ir ģenerējis no lapas **Izvēršana**. Noklikšķiniet uz **Plānotie pasūtījumi**, atlasiet plānoto pasūtījumu un tad noklikšķiniet uz **Apstiprināt**.
+No **Plānotie pasūtījumi** lapas varat atlasīt divas apstiprināšanas opcijas:
 
-Kad plānotais pasūtījums apstiprināts, tas tiek pārvietots attiecīgā moduļa pasūtījumu sadaļai. 
+-   **Atstiprināt**— tas apstiprinās vienu vai vairākus atlasītos plānotos pasūtījumus.
+-   **Apstiprināt visu**— tas apstiprinās visus plānotos pasūtījumus filtrā. Izmantojot **Apstiprināt visu** , nav jāatlasa plānotais pasūtījums, visi plānotie pasūtījumi filtrā tiks apstiprināti. Šī opcija var būt noderīga, ja jūs apstiprinājiet lielu skaitu plānoto pasūtījumu.
+
+> [!NOTE]
+> Jūs varat izsekot plānoto pasūtījumu, kas tika apstiprināts no **Apstiprināšanas vēsture** zem **Plānoto pasūtījumu forma > Skatīt > Apstiprināšanas vēsture.**
+
+## <a name="parallelize-firming"></a>Veikt paralēlu apstiprināšanu
+Ja jūs plānojat apstiprināt daudzus pasūtījumus vienlaicīgi, paralēlā izpilde var uzlabot izpildes laiku vai veiktspēju. Šī opcija ir pieejama, apstiprinot vairākus plānotos pasūtījumus ar **Atstiprināt** vai **Apstiprināt visu**. Ir pieejami šādi parametri:
+
+-   **Paralēlā apstiprināšana** – ja **Jā**, apstiprināšanas process būs paralēls ar pavedienu skaitu, kas definēts **Pavedienu skaits** sadaļā.
+-   **Pavedienu skaits**— kontrolē pavedienu skaitu izmantoto, lai apstiprināšanas process būtu paralēls. Parametrs parādās tikai tad, ja **Paralēlā apstiprināšana** ir iestatīta uz **Jā**.
+
 
 <a name="additional-resources"></a>Papildu resursi
 --------

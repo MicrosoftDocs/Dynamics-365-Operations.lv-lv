@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865997"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248635"
 ---
 # <a name="sales-and-marketing-overview"></a>Pārdošanas un mārketinga pārskats
 
@@ -41,7 +41,7 @@ Pārdošanā un mārketingā sākotnējās mijiedarbības, kas jums notiek ar po
 
 ### <a name="campaigns"></a>Kampaņas
 
-Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmā Microsoft Dynamics 365 for Finance and Operations varat izveidot vairāku veidu kampaņas, piemēram, telemārketinga, pasta sūtījumu un e-pasta kampaņas, lai palielinātu savu debitoru potenciālu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
+Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmatūrā Supply Chain Management jūs varat izveidot vairākus kampaņu tipus, piemēram, telemārketinga, pasta sūtījumu un e-pasta kampaņas, lai maksimāli palielinātu savu debitoru potenciālu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
 
 ## <a name="sales"></a>Pārdošana
 Pārdošanas funkcionalitāti varat izmantot, lai izveidotu piedāvājumus, papildu pārdošanu un šķērspārdošanu jauniem un esošajiem klientiem, izveidot pārdošanas pasūtījumus un izveidot pārdošanas rēķinus debitoriem. Nākamajā procesa plūsmā ir parādīts biznesa process pārdošanai. [![Pārdošanas biznesa process](./media/sales01.jpg)](./media/sales01.jpg)

@@ -1,6 +1,6 @@
 ---
 title: Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
-description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625646"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023689"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -99,7 +99,10 @@ Tradicionālā debitoru meklēšana var būt laikietilpīga, jo tā meklē vair�
 
 ![Debitoru meklēšanas saīsnes](./media/SearchShortcutsPOS.png "Debitoru meklēšanas saīsnes")
 
-Lai iestatītu meklēšanas kritērijus kā saīsnes, administratoram ir jāatver lapa **Mazumtirdzniecības parametri** programmā Microsoft Dynamics 365 for Finance and Operations un pēc tam cilnē **POS meklēšanas kritēriji** ir jāatlasa visi kritēriji, kas ir jārāda kā saīsnes.
+
+
+Lai iestatītu meklēšanas kritērijus kā saīsnes, administratoram ir jāatver lapa **Mazumtirdzniecības parametri** programmā Microsoft Dynamics 365 Retail un pēc tam cilnē **POS meklēšanas kritēriji** ir jāatlasa visi kritēriji, kas ir jārāda kā saīsnes.
+
 
 ![Meklēšanas saīšņu konfigurēšana](./media/ConfigureShortcutsAX.png "Meklēšanas saīšņu konfigurēšana")
 
@@ -111,6 +114,6 @@ Lauks **Rādīšanas secība** nosaka secību, kādā POS tiek rādītas šīs s
 > [!NOTE]
 > Pielāgots rekvizīts, kas tiek pievienots uzskaitījumam, neietekmē standarta debitoru meklēšanas algoritmu. Citiem vārdiem sakot — debitoru meklēšanas algoritms nemeklēs pielāgotajā rekvizītā. Lietotāji meklēšanai var izmantot pielāgotu rekvizītu tikai tad, ja šis pielāgotais rekvizīts ir pievienots kā saīsne vai ja tiek ignorēts noklusējuma meklēšanas algoritms.
 
-Gaidāmajā Microsoft Dynamics 365 for Retail laidienā mazumtirgotāji kā noklusējuma debitora meklēšanas režīmu POS varēs iestatīt **Meklēt visos veikalos**. Šī konfigurācija var būt noderīga gadījumos, kad debitori, kas tika izveidoti ārpus POS, ir nekavējoties jāmeklē (piemēram, vēl pirms sadales darba izpildes). POS funkcionalitātes profilā būs pieejama jauna opcija **Noklusējuma debitora meklēšanas režīms**. Iestatiet tai vienumu **Ieslēgts**, lai iestatītu noklusējuma meklēšanas režīmam opciju **Meklēt visos veikalos**. Līdz ar katru debitora meklēšanas mēģinājumu tiks veikts reāllaika pieprasījums uz galveno biroju.
+Gaidāmajā Retail laidienā mazumtirgotāji kā noklusējuma debitora meklēšanas režīmu POS varēs iestatīt **Meklēt visos veikalos**. Šī konfigurācija var būt noderīga gadījumos, kad debitori, kas tika izveidoti ārpus POS, ir nekavējoties jāmeklē (piemēram, vēl pirms sadales darba izpildes). POS funkcionalitātes profilā būs pieejama jauna opcija **Noklusējuma debitora meklēšanas režīms**. Iestatiet tai vienumu **Ieslēgts**, lai iestatītu noklusējuma meklēšanas režīmam opciju **Meklēt visos veikalos**. Līdz ar katru debitora meklēšanas mēģinājumu tiks veikts reāllaika pieprasījums uz galveno biroju.
 
 Lai palīdzētu novērst negaidītas veiktspējas problēmas, šī konfigurācija tiek slēpta aiz būvējumu izsniegšanas karodziņa ar nosaukumu **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Tādēļ, lai parādītu iestatījumu **Noklusējuma debitora meklēšanas režīms** lietotāja interfeisā (UI), mazumtirgotājam jāizveido atbalsta biļete tā lietotāju pieņemšanas pārbaudes (UAT) un ražošanas vidēm. Pēc tam, kad biļete ir saņemta, tehniskā grupa strādās ar mazumtirgotāju, lai pārliecinātos, ka mazumtirgotājs veic testēšanu vidēs, kas nav ražošanas vides, lai novērtētu veiktspēju un īstenotu visas nepieciešamās optimizācijas.

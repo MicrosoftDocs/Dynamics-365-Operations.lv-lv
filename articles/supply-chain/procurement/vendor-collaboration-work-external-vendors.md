@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546716"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250209"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Kreditoru sadarbība ar ārējiem kreditoriem
 
 [!include [banner](../includes/banner.md)]
 
-Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 for Finance and Operations. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
+Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 Supply Chain Management. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
 
 Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Finance and Operations versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
+> Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Supply Chain Management versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ Ja nepieciešams pievienot ziņojumus vairākās valodās, izveidojiet atseviš�
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Kreditoru sadarbības opciju iestatīšana konkrētam kreditoram
 
-Administrators programmā Finance and Operations konfigurē vispārīgos iestatījumus kreditoru sadarbībai, piemēram, drošības lomas, kas ir pieejamas visiem kreditoriem, ar kuriem jūs sadarbojaties. Taču pastāv arī iestatījumi, kas dažādiem kreditoru kontiem var atšķirties. Šos iestatījumus konfigurējat jūs.
+Administrators konfigurē vispārīgos iestatījumus kreditoru sadarbībai, piemēram, drošības lomas, kas ir pieejamas visiem kreditoriem, ar kuriem jūs sadarbojaties. Taču pastāv arī iestatījumi, kas dažādiem kreditoru kontiem var atšķirties. Šos iestatījumus konfigurējat jūs.
 
 - Iespējojiet kreditoru sadarbību.
 - Norādiet, vai kreditoram vajadzētu redzēt cenu informāciju.
@@ -71,7 +71,7 @@ Lai kopīgotu cenas informāciju saistībā ar pirkšanas pasūtījumiem, izmant
 
 ### <a name="sending-a-po-to-a-vendor"></a>Pirkšanas pasūtījuma sūtīšana kreditoram
 
-Pirkšanas pasūtījumi tiek sagatavoti programmatūrā Finance and Operations. Kad pirkšanas pasūtījuma statuss ir **Apstiprināts**, jūs to sūtat kreditoram, atlasot darbību **Sūtīt akceptēšanai** lapā **Pirkšanas pasūtījums**. Pēc tam pirkšanas pasūtījuma statuss mainās uz **Tiek pārskatīts ārēji**. Pēc pirkšanas pasūtījuma nosūtīšanas kreditors to var redzēt kreditoru sadarbības interfeisa lapā **Pārskatāmie pirkšanas pasūtījumi**. Kreditors pirkšanas pasūtījumu var pieņemt, noraidīt to vai ierosināt tā izmaiņas. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas. Ja vēlaties pievērst kreditora uzmanību jaunam pirkšanas pasūtījumam, var izmantot arī drukas pārvaldības sistēmu, lai pirkšanas pasūtījumu nosūtītu pa e-pastu.
+PO tiek sagatavoti programmatūrā Supply Chain Management. Kad pirkšanas pasūtījuma statuss ir **Apstiprināts**, jūs to sūtat kreditoram, atlasot darbību **Sūtīt akceptēšanai** lapā **Pirkšanas pasūtījums**. Pēc tam pirkšanas pasūtījuma statuss mainās uz **Tiek pārskatīts ārēji**. Pēc pirkšanas pasūtījuma nosūtīšanas kreditors to var redzēt kreditoru sadarbības interfeisa lapā **Pārskatāmie pirkšanas pasūtījumi**. Kreditors pirkšanas pasūtījumu var pieņemt, noraidīt to vai ierosināt tā izmaiņas. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas. Ja vēlaties pievērst kreditora uzmanību jaunam pirkšanas pasūtījumam, var izmantot arī drukas pārvaldības sistēmu, lai pirkšanas pasūtījumu nosūtītu pa e-pastu.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Kreditora veikta pirkšanas pasūtījuma akceptēšana un pieņemšana
 
@@ -92,13 +92,13 @@ Nākamajā tabulā ir parādīta tipiska informācijas apmaiņa atkarībā no kr
 </thead>
 <tbody>
 <tr class="even">
-<td>Kreditors <strong>pieņem</strong> pasūtījumu, un programmatūra Finance and Operations ir konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
+<td>Kreditors <strong>pieņem</strong> pasūtījumu, un programmatūra Supply Chain Management ir konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
 <td>Pasūtījuma statuss tiek atjaunināts uz <strong>Akceptēts</strong>. Ja kaut kādu iemeslu dēļ pasūtījumu nevar atjaunināt, kreditora atbilde joprojām tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. 
 
 Kreditoram nosūtītais pirkšanas pasūtījums, kura statuss ir <strong>Tiek pārskatīts ārēji</strong>, tiek atjaunināts ar akceptētajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiek automātiski iestatīta uz statusu <strong>Akceptēts</strong>. Kad pirkšanas pasūtījums ir akceptēts, tas tiek rādīts kreditoru sadarbības interfeisā.</td>
 </tr>
 <tr class="odd">
-<td>Kreditors <strong>pieņem</strong> pasūtījumu, bet programmatūra Finance and Operations nav konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
+<td>Kreditors <strong>pieņem</strong>pasūtījumu, bet Supply Chain Management na&#39;v konfigurēta tā, lai automātiski akceptētu šī kreditora pieņemtos pirkšanas pasūtījumus.</td>
 <td>Kreditora atbilde tiek ierakstīta kā <strong>Pieņemts</strong>, bet pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>.
 
 Kreditoram nosūtītais pirkšanas pasūtījums, kura statuss ir <strong>Tiek pārskatīts ārēji</strong>, tiek atjaunināts ar akceptētajiem piegādes datumiem rindās. Šis atjauninājums iniciē jaunu versiju, kas tiek automātiski iestatīta uz statusu <strong>Tiek pārskatīts ārēji</strong>. Pēc tam šo pirkšanas pasūtījumu varat akceptēt manuāli.</td>
@@ -180,14 +180,14 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 
 | Darbība | Statuss un versija |
 |--------|--------------------|
-| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations. | Statuss ir **Apstiprināts**. |
+| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Supply Chain Management. | Statuss ir **Apstiprināts**. |
 | PP tiek nosūtīts kreditoram. | Versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
 | Kreditors nosūta atbildi **Pieņemts ar izmaiņām**. | Statuss joprojām ir **Tiek pārskatīts ārēji**. |
 | Jūs veicat kreditora pieprasītās izmaiņas. | Statuss tiek mainīts uz **Apstiprināts**. |
 | Jūs PP jauno versiju nosūtāt kreditoram. | Jauna versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
 | Kreditors pieņem PP jauno versiju. | Statuss joprojām ir **Tiek pārskatīts ārēji**, ja vien kreditora konts nav konfigurēts pirkšanas pasūtījumiem automātiski iestatīt statusu **Akceptēts**, kad kreditors tos pieņem. |
 
-Kreditoriem nav jāakceptē pirkšanas pasūtījums, izmantojot kreditoru sadarbības interfeisu. Viņi var arī nosūtīt e-pasta ziņojumu vai informēt par pirkšanas pasūtījuma pieņemšanu, izmantojot citus kanālus. Pēc tam pasūtījumu varat akceptēt manuāli programmatūrā Finance and Operations. Šajā gadījumā jūs saņemat brīdinājumu par pasūtījuma akceptēšanu arī tad, ja nav saņemta atbilde no kreditora. Pēc tam šāds pirkšanas pasūtījums tiek rādīts akceptēšanas vēsturē kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Šajā brīdī kreditoram vairs nav iespējas akceptēt vai noraidīt šo pirkšanas pasūtījumu.
+Kreditoriem nav jāakceptē pirkšanas pasūtījums, izmantojot kreditoru sadarbības interfeisu. Viņi var arī nosūtīt e-pasta ziņojumu vai informēt par pirkšanas pasūtījuma pieņemšanu, izmantojot citus kanālus. Pēc tam šo pasūtījumu varat apstiprināt manuāli. Šajā gadījumā jūs saņemat brīdinājumu par pasūtījuma akceptēšanu arī tad, ja nav saņemta atbilde no kreditora. Pēc tam šāds pirkšanas pasūtījums tiek rādīts akceptēšanas vēsturē kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Šajā brīdī kreditoram vairs nav iespējas akceptēt vai noraidīt šo pirkšanas pasūtījumu.
 
 > [!NOTE]
 > Pirkšanas pasūtījuma versija, kas ir pieejama citiem Finance and Operations procesiem, vienmēr ir visjaunākā versija, pat ja šī versija vēl nav reģistrēta kreditoru sadarbības interfeisā.
@@ -200,7 +200,7 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 
 | Darbība | Statuss un versija |
 |--------|--------------------|
-| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Finance and Operations. | Statuss ir **Melnraksts**. |
+| Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Supply Chain Management. | Statuss ir **Melnraksts**. |
 | PP tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.) | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP nav noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija. | 
 | PP tiek nosūtīts kreditoram. | Šī versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
 | Jūs veicat dažas kreditora ierosinātās izmaiņas — manuāli vai izmantojot darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu** atbildē —, lai atjauninātu pirkšanas pasūtījumu. | Statuss tiek mainīts atpakaļ uz **Melnraksts**. |
@@ -237,13 +237,13 @@ Ja izmantojat sūtījuma krājumus, kreditori var izmantot kreditoru sadarbības
 
 ## <a name="public-sector-extensions"></a>Publiskā sektora paplašinājumi
 
-Publiskā sektora paplašinātā funkcionalitāte ļauj piedāvājuma pieprasījuma gadījumu nosūtīt kreditoriem un publicēt. Kad publicējat kādu piedāvājuma pieprasījumu, ikviens, kas šo informāciju pieprasa, var skatīt darbu, kas atbilst vairumam publiskā sektora noteikumu. Viss pieejamais darbs tiek atspoguļots saraksta lapā **Atvērtie publicētie piedāvājumu pieprasījumi**, un atceltos, gaidošos vai piešķirtos piedāvājumu pieprasījumus var skatīt saraksta lapā **Slēgtie publicētie piedāvājumu pieprasījumi**. Šos dokumentus var skatīt arī vietnē ārpus programmatūras Finance and Operations, izmantojot integrāciju ar tālāk norādītajiem datu elementiem.
+Publiskā sektora paplašinātā funkcionalitāte ļauj piedāvājuma pieprasījuma gadījumu nosūtīt kreditoriem un publicēt. Kad publicējat kādu piedāvājuma pieprasījumu, ikviens, kas šo informāciju pieprasa, var skatīt darbu, kas atbilst vairumam publiskā sektora noteikumu. Viss pieejamais darbs tiek atspoguļots saraksta lapā **Atvērtie publicētie piedāvājumu pieprasījumi**, un atceltos, gaidošos vai piešķirtos piedāvājumu pieprasījumus var skatīt saraksta lapā **Slēgtie publicētie piedāvājumu pieprasījumi**. Šos dokumentus var skatīt arī vietnē ārpus programmatūras Supply Chain Management, izmantojot integrāciju ar tālāk norādītajiem datu elementiem.
 
 - Publicētie piedāvājumu pieprasījumi
 - Publicētā piedāvājuma pieprasījumu rinda
 - Publicētie piedāvājuma pieprasījumu virsrakstu pielikumi
 
-Šie elementi pieejamos un slēgtos darbus ļauj skatīt personām, kuras nav nodrošināti lietotāji programmatūrā Finance and Operations, bet kurām ir anonīma piekļuve ārējai vietnei. Turklāt lietotājam, kurš iestata parametrus piedāvājuma pieprasījuma procesam, paplašinātā funkcionalitāte sadaļā **Sūtīt un publicēt** ļauj definēt e-pasta ziņojuma veidni. Kad sagādes speciālists ir izveidojis piedāvājuma pieprasījuma gadījumu, šim speciālistam ir jāatlasa e-pasta ziņojuma veidne, lai kreditoriem sūtītu nepieciešamo informāciju saistībā ar šo piedāvājuma pieprasījuma gadījumu. 
+Šie elementi pieejamos un slēgtos darbus ļauj skatīt personām, kuras nav nodrošināti lietotāji programmatūrā Supply Chain Management, bet kurām ir anonīma piekļuve ārējai vietnei. Turklāt lietotājam, kurš iestata parametrus piedāvājuma pieprasījuma procesam, paplašinātā funkcionalitāte sadaļā **Sūtīt un publicēt** ļauj definēt e-pasta ziņojuma veidni. Kad sagādes speciālists ir izveidojis piedāvājuma pieprasījuma gadījumu, šim speciālistam ir jāatlasa e-pasta ziņojuma veidne, lai kreditoriem sūtītu nepieciešamo informāciju saistībā ar šo piedāvājuma pieprasījuma gadījumu. 
 
 Lietotājs, kurš iestata piedāvājuma pieprasījuma procesa parametrus, var izveidot vairākas e-pasta ziņojumu veidnes. Šajās e-pasta ziņojumu veidnēs var būt gan statisks teksts, gan tālāk norādītie aizstāšanas marķieri. E-pasta ziņojuma veidošanas laikā šie marķieri tiks aizstāti ar konteksta vērtībām.
 

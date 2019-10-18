@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790515"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250925"
 ---
 # <a name="maintenance-requests"></a>Uzturēšanas pieprasījumi
 
@@ -31,7 +31,7 @@ ms.locfileid: "1790515"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Varat iestatīt dažādu veidu pieprasījumus, ko izmantot savā uzņēmumā. Uzturēšanas pieprasījumi ir viena veida. Uzturēšanas pieprasījumi tiek izmantoti, lai pieprasītu, ka konkrētam darbam ir nepieciešams darba pasūtījums. Uzturēšanas pieprasījumu var izveidot jebkurš lietotājs, kuram ir piekļuve Līdzekļu pārvaldības funkcionalitātei programmā Microsoft Dynamics 365 for Finance and Operations. Plānotājs vai vadītājs var izlemt, vai uzturēšanas pieprasījums ir jāpārvērš par darba pasūtījumu, vai arī tam ir jāpabeidz savs dzīves cikls.
+Varat iestatīt dažādu veidu pieprasījumus, ko izmantot savā uzņēmumā. Uzturēšanas pieprasījumi ir viena veida. Uzturēšanas pieprasījumi tiek izmantoti, lai pieprasītu, ka konkrētam darbam ir nepieciešams darba pasūtījums. Uzturēšanas pieprasījumu var izveidot jebkurš lietotājs, kuram ir piekļuve Līdzekļu pārvaldības funkcionalitātei. Plānotājs vai vadītājs var izlemt, vai uzturēšanas pieprasījums ir jāpārvērš par darba pasūtījumu, vai arī tam ir jāpabeidz savs dzīves cikls.
 
 ## <a name="view-maintenance-requests"></a>Skatīt uzturēšanas pieprasījumus
 

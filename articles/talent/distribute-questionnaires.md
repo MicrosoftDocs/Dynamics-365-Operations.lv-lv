@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518512"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026260"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
 
@@ -83,7 +83,7 @@ Anketas grafikam plānošanas tipu varat norādīt lapā **Anketu grafiki**.
 
 Atsauču tipus var izmantot, lai ievadītu kritērijus respondentiem, kurus varat atlasīt, kad plānojat anketu. 
 
-Izmantojiet lapu **Atsauču tipi**, lai anketai iestatītu atsauču tipus. Katrs atsauču tips atbilst tabulai programmā Microsoft Dynamics 365 for Finance and Operations. Kad veidojat anketu grafikus, tabulā varat norādīt atsevišķus ierakstus vai ierakstu diapazonu, ar kuriem anketa būs saistīta. 
+Izmantojiet lapu **Atsauču tipi**, lai anketai iestatītu atsauču tipus. Katrs atsauču tips atbilst tabulai programmā Microsoft Dynamics 365 Finance. Kad veidojat anketu grafikus, tabulā varat norādīt atsevišķus ierakstus vai ierakstu diapazonu, ar kuriem anketa būs saistīta. 
 
 Piemēram, ja atlasāt tabulu Kursi, varat izlemt, kuram konkrētajam kursam šī anketa būs paredzēta. Kad iestatāt atsauci tabulai Kursi, lapā **Kursi** kļūst pieejami daži lauki un pogas.
 

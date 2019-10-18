@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560669"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251527"
 ---
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
@@ -34,7 +34,7 @@ ms.locfileid: "1560669"
 Cikla inventarizācija ir noliktavas process, ko var izmantot, lai auditētu rīcībā esošu krājumu vienības. Cikla inventarizācijas procesu var aprakstīt trīs soļos:
 
 1.  **Cikla inventarizācijas darba izveide** — cikla inventarizācijas darbu var izveidot automātiski, pamatojoties uz krājumu sliekšņa parametriem vai izmantojot cikla inventarizācijas plānu. Vai arī varat manuāli izveidot cikla inventarizācijas darbu, izmantojot krājuma vai noliktavas parametrus lapā **Cikla inventarizācijas darbs pēc krājuma** vai lapā **Cikla inventarizācijas darbs pēc novietojuma**.
-2.  **Cikla inventarizācijas apstrāde** — kad ir izveidots cikla inventarizācijas darbs, to var veikt, saskaitot noliktavas vietā esošos krājumus un pēc tam izmantojot mobilo ierīci, lai ievadītu rezultātu programmā Microsoft Dynamics 365 for Finance and Operations. Noliktavas novietojumā esošos krājumus var arī saskaitīt, neizveidojot cikla inventarizācijas darbu. Šo procesu sauc par *cikla inventarizāciju uz vietas*.
+2.  **Cikla inventarizācijas apstrāde** — kad ir izveidots cikla inventarizācijas darbs, to var veikt, saskaitot noliktavas vietā esošos krājumus un pēc tam izmantojot mobilo ierīci, lai ievadītu rezultātu programmā Dynamics 365 Supply Chain Management. Noliktavas novietojumā esošos krājumus var arī saskaitīt, neizveidojot cikla inventarizācijas darbu. Šo procesu sauc par *cikla inventarizāciju uz vietas*.
 3.  **Aprēķinātās vērtības starpību atrisināšana** — pēc cikla inventarizācijas visiem krājumiem ar uzskaitītās vērtības starpību lapā **Viss darbs** tiek piešķirts statuss **Neapstiprināts pārskats**. Šīs starpības var atrisināt lapā **Izskatīšanu gaidošais cikla inventarizācijas darbs**.
 
 Šajā ilustrācijā ir parādīts cikla inventarizācijas process. ![Cikla inventarizācijas procesa plūsma](./media/performcyclecountinginawarehouselocation.jpg)
@@ -113,10 +113,10 @@ Cikla inventarizācijas plānu var ieplānot, lai cikla inventarizācijas darbu 
 Lai izveidotu cikla inventarizācijas darbu manuāli, var izmantot lapu **Cikla inventarizācijas darbs pēc krājuma** vai **Cikla inventarizācijas darbs pēc novietojuma**. Jūs varat norādīt maksimālo izveidojamo cikla inventarizāciju skaitu. Piemēram, ja noliktavas vadītājs norāda vērtību **5**, cikla inventarizācijas darbs tiek izveidots piecos novietojumos pat tad, ja šis krājums ir iekļauts 10 novietojumos. Jūs arī varat atlasīt darba kopas ID, kam jāpiešķir izveidotie cikla inventarizācijas darba ID. Kad darba kopas ID tiek apstrādāts cikla inventarizācijai, šai darba kopai piešķirtie cikla inventarizācijas darba ID tiek apstrādāti kā grupa.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Cikla inventarizācijas izpilde, izmantojot mobilo ierīci
-Ir pieejamas vairākas metodes, kā var apstrādāt cikla inventarizācijas darbu, izmantojot programmatūru Finance and Operations mobilajā ierīcē.
+Ir pieejamas vairākas metodes, kā var apstrādāt cikla inventarizācijas darbu, izmantojot programmatūru Supply Chain Management mobilajā ierīcē.
 
 -   **Lietotāja vadība** — darbinieks var norādīt cikla inventarizācijas darba ID ar statusu **Atvērts**.
--   **Sistēmas noteikts** — programmatūrā Dynamics 365 for Finance and Operations darbiniekam tiek piešķirts cikla inventarizācijas darba ID.
+-   **Sistēmas noteikts** — programmatūrā Supply Chain Management darbiniekam tiek piešķirts cikla inventarizācijas darba ID.
 -   **Cikla inventarizācijas grupēšana** — darbinieks var grupēt cikla inventarizācijas darba ID, kas noteikti konkrētam novietojumam, zonai vai darbu kopai.
 -   **Vietas cikla inventarizācija** — darbinieks jebkurā laikā var saskaitīt noliktavas novietojumā esošos krājumus, neveidojot cikla inventarizācijas darbu. Lai veiktu vietas cikla inventarizāciju kādā novietojumā, darbinieks ievada novietojuma ID.
 

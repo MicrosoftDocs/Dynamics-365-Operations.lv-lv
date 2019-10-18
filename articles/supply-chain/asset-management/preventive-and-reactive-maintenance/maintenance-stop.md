@@ -3,7 +3,7 @@ title: Dīkstāve uzturēšanas dēļ
 description: Šajā tēmā ir paskaidrota dīkstāve uzturēšanas dēļ programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875768"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922187"
 ---
 # <a name="maintenance-downtime"></a>Dīkstāve uzturēšanas dēļ
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Kad dīkstāves uzturēšanas dēļ reģistrācijā ir atlasīti līdzekļi, vis
 
 ## <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas dēļ aktivitātes
 
-Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves uzturēšanas dēļ darbības** > **Visas uzturēšanas dīkstāves dēļ darbības**, lai atvērtu sarakstu ar visām dīkstāves uzturēšanas dēļ darbībām un redzētu informāciju, kas saistīta ar darbībām. Noklikšķiniet uz saites kolonnā **Dīkstāves uzturēšanas dēļ darbības**, lai atvērtu detalizētu skatu.
+Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves uzturēšanas dēļ darbības** > **Visas uzturēšanas dīkstāves dēļ darbības**, lai atvērtu sarakstu ar visām dīkstāves uzturēšanas dēļ darbībām un redzētu informāciju, kas saistīta ar darbībām. Noklikšķiniet uz saites kolonnā **Dīkstāves uzturēšanas dēļ darbības**, lai atvērtu detalizētu skatu. Nākamajā attēlā ir parādīts saraksta **Dīkstāves uzturēšanas dēļ aktivitātes** piemērs.
 
 ![1. attēls](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Izveidojiet dīkstāves uzturēšanas dēļ reģistrāciju
+## <a name="create-a-maintenance-downtime-activity"></a>Izveidojiet dīkstāves uzturēšanas dēļ aktivitāti
 
 1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves uzturēšanas dēļ darbības** > **Visas dīkstāves uzturēšanas dēļ darbības** vai **Aktīvās uzturēšanas dīkstāves dēļ darbības**.
 
@@ -61,9 +60,11 @@ Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves
 
 5. Kopsavilkuma cilnē **Dīkstāves uzturēšanas dēļ darbību līdzekļi** noklikšķiniet **Pievienot rindu**, lai pa vienam dīkstāves uzturēšanas dēļ pievienotu līdzekļus.
 
-6. Kad visi līdzekļi ir pievienoti, noklikšķiniet uz **Saglabāt**.
+6. Kad visi līdzekļi ir pievienoti, noklikšķiniet uz **Saglabāt**. Nākamajā attēlā ir parādīts dīkstāves uzturēšanas dēļ aktivitātes ar saistītajiem līdzekļiem un uzturēšanas darbiem piemērs.
 
 7. Darba pasūtījuma uzturēšanas darbi un atvērtas uzturēšanas grafika rindas, kas ir saistītas ar atlasītiem līdzekļiem, tiek uzrādītas kopsavilkuma cilnēs **Darba pasūtījuma uzturēšanas gala darbi** un **Uzturēšanas grafika rindas**. Kopsavilkuma cilnē **Vispārīgi** > grupā **Darba pasūtījumi** > laukā **Uzturēšanas prognozes stundas** un kopsavilkuma cilnē **Vispārīgi** > grupā **Uzturēšanas grafiks** > laukā **Uzturēšanas prognozes stundas** ir redzams kopējo stundu skaits, kuras prognozētas darba pasūtījuma uzturēšanas darbiem un uzturēšanas grafika rindām.
+
+Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas dēļ aktivitātes** piemērs.
 
 ![2. attēls](media/20-preventive-maintenance.png)
 
@@ -74,7 +75,7 @@ Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves
 
 9. Dialogā **Aprēķināt noslodzi** rediģējiet sākuma un beigu laikus, ja nepieciešams, un izvēlieties, vai vēlaties aprēķinā iekļaut darba pasūtījumus un uzturēšanas grafikus. Jūs varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētu vēlaties noslodzes aprēķinu attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu "1" un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam, kuri ir atlasīti dīkstāves uzturēšanas dēļ darbībai, tiks uzrādīti augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs visas noslodzes rindas visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti.
 
-10. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais stundu skaits ir uzrādīts pārskatā **Noslodze**. Cilnē **Noslodze** darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto stundu piešķiršanu.
+10. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais stundu skaits ir uzrādīts pārskatā **Noslodze**. Cilnē **Noslodze** darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto stundu piešķiršanu. Nākamajā attēlā ir redzami **Noslodzes** aprēķina rezultāti.
 
 ![3. attēls](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves
 
 15. Dialogā **Aprēķināt vienuma prognozi** rediģējiet sākuma un beigu laikus, ja nepieciešams, un izvēlieties, vai vēlaties aprēķinā iekļaut darba pasūtījumus un uzturēšanas grafikus. Jūs varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētu vēlaties noslodzes aprēķinu attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu "1" un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam, kuri ir atlasīti dīkstāves uzturēšanas dēļ darbībai, tiks uzrādīti augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs visas noslodzes rindas visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti.
 
-16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā **Vienuma prognoze**. Cilnē **Vienuma prognoze** darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu.
+16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā **Vienuma prognoze**. Cilnē **Vienuma prognoze** > darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu. Nākamajā attēlā ir parādīti **Vienuma prognozes** aprēķina rezultāti.
 
 ![4. attēls](media/22-preventive-maintenance.png)
 

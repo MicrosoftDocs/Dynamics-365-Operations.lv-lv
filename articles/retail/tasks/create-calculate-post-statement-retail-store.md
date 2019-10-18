@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 693d1821779d5f7af95b900daa3bb7a2c38a6354
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 4517b9ddeb648b3d789773fc0dcb1ecd3c8be85c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755527"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024802"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Šajā tēmā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un izpildes darbības ir aprakstītas citās tēmās. Lai izpildītu šo procedūru, ir nepieciešamas transakcijas, kas ir pabeigtas POS un pēc tam importētas programmā Dynamics 365 for Finance and Operations. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
+Šajā tēmā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un izpildes darbības ir aprakstītas citās tēmās. Lai izpildītu šo procedūru, ir nepieciešamas transakcijas, kas ir pabeigtas POS un pēc tam importētas programmā Dynamics 365 Retail. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
 1. Sākuma lapā atlasiet **Mazumtirdzniecības veikala finanses**.
 2. Atlasiet **Jauns izraksts**.

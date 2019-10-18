@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536553"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251550"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -163,7 +163,7 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 </tr>
 <tr>
 <td>Kustība pēc veidnes</td>
-<td>Pārvietojiet krājumus no viena novietojuma uz citu daļēji automatizētā veidā. Darbinieks atlasa novietojumu, no kura ir jāpārvieto krājumi, un programmatūra Dynamics 365 for Finance and Operations izmanto šī novietojuma direktīvu, lai noteiktu, uz kurieni krājumi ir jāpārvieto.</td>
+<td>Pārvietojiet krājumus no viena novietojuma uz citu daļēji automatizētā veidā. Darbinieks atlasa novietojumu, no kura ir jāpārvieto krājumi, un sistēma izmanto šī novietojuma direktīvu, lai noteiktu, uz kurieni krājumi ir jāpārvieto.</td>
 </tr>
 <tr>
 <td>Starpnoliktavu pārsūtīšana</td>
@@ -207,12 +207,12 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Neviens</td>
+<td>Nav</td>
 <td>Šī noklusējuma vērtība neizraisa darba apstrādi.</td>
 </tr>
 <tr class="even">
 <td>Sistēmas noteikts</td>
-<td>Programma Microsoft Dynamics 365 for Finance and Operations kontrolē nodarbinātajam piešķirtā darba tipu un secību, kādā nodarbinātais veic šo darbu. Kad atlasāt šo opciju, darbību rūtī varat noklikšķināt uz <strong>Sistēmā noteikts darbs</strong>, lai atvērtu lapu <strong>Sistēmā noteikta kārtošanas secība</strong>, kur varat iestatīt darba kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks šo darbu veid. Varat pievienot tik daudz kritēriju, cik nepieciešams.</td>
+<td>Supply Chain Management kontrolē nodarbinātajam piešķirtā darba tipu un secību, kādā nodarbinātais veic šo darbu. Kad atlasāt šo opciju, darbību rūtī varat noklikšķināt uz <strong>Sistēmā noteikts darbs</strong>, lai atvērtu lapu <strong>Sistēmā noteikta kārtošanas secība</strong>, kur varat iestatīt darba kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks šo darbu veid. Varat pievienot tik daudz kritēriju, cik nepieciešams.</td>
 </tr>
 <tr class="odd">
 <td>Lietotāja noteikts</td>
@@ -224,7 +224,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 </tr>
 <tr class="odd">
 <td>Sistēmas grupēšana</td>
-<td>Programma Microsoft Dynamics 365 for Finance and Operations grupē nodarbinātā darbu, pamatojoties uz norādītu lauku. Piemēram, izdošanas darbs tiek grupēts, kad darbinieks skenē sūtījuma ID, kravas ID vai jebkuru vērtību, ar kuru var saistīt katru darba vienību. Ja atlasāt šo opciju, ir nepieciešams aizpildīt tālāk norādītos laukus.
+<td>Supply Chain Management grupē nodarbinātā darbu, pamatojoties uz norādītu lauku. Piemēram, izdošanas darbs tiek grupēts, kad darbinieks skenē sūtījuma ID, kravas ID vai jebkuru vērtību, ar kuru var saistīt katru darba vienību. Ja atlasāt šo opciju, ir nepieciešams aizpildīt tālāk norādītos laukus.
 <ul>
 <li><strong>Sistēmas grupēšanas lauks</strong> — atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
 <li><strong>Sistēmas grupēšanas etiķete</strong> — ievadiet tekstu, lai norādītu darbiniekam, kas ir jāskenē, lai grupētu darbu.</li>
@@ -245,7 +245,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 </tr>
 <tr class="even">
 <td>Cikla inventarizācijas grupēšana</td>
-<td>Nodarbinātais atlasa zonu, darba pūlu vai vietu, un programma Microsoft Dynamics 365 for Finance and Operations piešķir darbu, pamatojoties uz atlasi. Ja atlasāt šo opciju, varat darbību rūtī noklikšķināt uz <strong>Cikla inventarizācija</strong>, lai norādītu papildu parādāmo informāciju, kā arī varat norādīt, cik reižu darbiniekam ir jāatkārto inventarizācija, ja tiek konstatēta atšķirība.</td>
+<td>Darbinieks atlasa zonu, darba pūlu vai novietojumu un Supply Chain Management piešķir darbu, pamatojoties uz atlasi. Ja atlasāt šo opciju, varat darbību rūtī noklikšķināt uz <strong>Cikla inventarizācija</strong>, lai norādītu papildu parādāmo informāciju, kā arī varat norādīt, cik reižu darbiniekam ir jāatkārto inventarizācija, ja tiek konstatēta atšķirība.</td>
 </tr>
  <tr class="odd">
 <td>Transporta iekraušana</td>
@@ -333,7 +333,7 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Grupēt izvietošanu</td>
-<td>Atlasiet šo opciju, lai grupētu izvietošanas darbu. Šī opcija ir pieejama tad, ja nodarbinātais vai programma Microsoft Dynamics 365 for Finance and Operations ir grupējusi darbu. Kad darbinieks ir pabeidzis visu izdošanas darbu grupā, tai pašai grupai tiek izveidots izvietošanas darbs.</td>
+<td>Atlasiet šo opciju, lai grupētu izvietošanas darbu. Šī opcija ir pieejama, ja darbinieks vai Supply Chain Management ir grupējusi darbu. Kad darbinieks ir pabeidzis visu izdošanas darbu grupā, šai pašai grupai tiek izveidots izvietošanas darbs.</td>
 </tr>
 <tr class="even">
 <td>Krājumu korekciju veidi</td>
@@ -366,11 +366,11 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="even">
 <td>Sistēmas grupēšanas lauks</td>
-<td>Atlasiet lauku, lai noteiktu, kā programma Microsoft Dynamics 365 for Finance and Operations grupēs nodarbināto izdošanas darbu. Piemēram, ja atlasīsiet lauku <strong>ShipmentId</strong>, darbinieks skenēs sūtījuma ID, lai grupētu izdošanas darbu. Pēc tam viss ar sūtījumu saistītais darbs tiks piešķirts darbiniekam. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Ir arī jāievada teksts laukā <strong>Sistēmas grupēšanas etiķete</strong>, lai norādītu darbiniekam, kas ir jāskenē.</td>
+<td>Atlasiet lauku, pēc kura Supply Chain Management tiks grupēts darbinieka izdošanas darbs. Piemēram, ja atlasīsiet lauku <strong>ShipmentId</strong>, darbinieks skenēs sūtījuma ID, lai grupētu izdošanas darbu. Pēc tam viss ar sūtījumu saistītais darbs tiks piešķirts darbiniekam. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Ir arī jāievada teksts laukā <strong>Sistēmas grupēšanas etiķete</strong>, lai norādītu darbiniekam, kas ir jāskenē.</td>
 </tr>
 <tr class="odd">
 <td>Sistēmas grupēšanas etiķete</td>
-<td>Ievadiet tekstu, lai norādītu nodarbinātajam, kad ir jāskenē, ja programma Microsoft Dynamics 365 for Finance and Operations grupē izdošanas darbu. Piemēram, ja izmantojat lauku <strong>ShipmentId</strong>, lai grupētu izdošanas darbu pēc sūtījuma, varat šajā laukā ievadīt vērtību <strong>Sūtījuma ID</strong>. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Turklāt laikā <strong>Sistēmas grupēšanas lauks</strong> ir jāatlasa lauks, pēc kura grupēt.</td>
+<td>Ievadiet tekstu, lai norādītu darbiniekam, kad ir jāskenē, ja Supply Chain Management grupē izdošanas darbu. Piemēram, ja izmantojat lauku <strong>ShipmentId</strong>, lai grupētu izdošanas darbu pēc sūtījuma, varat šajā laukā ievadīt vērtību <strong>Sūtījuma ID</strong>. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Turklāt laikā <strong>Sistēmas grupēšanas lauks</strong> ir jāatlasa lauks, pēc kura grupēt.</td>
 </tr>
 <tr class="even">
 <td>Lietot noklusējuma datus</td>
@@ -386,13 +386,13 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Darba veidnes kods</td>
-<td>Atlasiet darba veidni, kurā procesam tiks izveidots darbs. Piemēram, ja saņemat krājumu kādam pirkšanas pasūtījumam, izvietošanas darbs tiks ģenerēts, pamatojoties uz darba veidni. Ja neatlasāt darba veidni, programma Microsoft Dynamics 365 for Finance and Operations piešķir veidni, pamatojoties uz vaicājuma kritērijiem. Plašāku informāciju par darbu veidnēm skatiet sadaļā <a href="control-warehouse-location-directives.md">Noliktavas darbu kontrolēšana ar darba veidnēm un novietojuma direktīvām</a>.</td>
+<td>Atlasiet darba veidni, kurā procesam tiks izveidots darbs. Piemēram, ja saņemat krājumu kādam pirkšanas pasūtījumam, izvietošanas darbs tiks ģenerēts, pamatojoties uz darba veidni. Ja neatlasā&#39;t darba veidni, , Supply Chain Management piešķir veidni, pamatojoties uz vaicājuma kritērijiem. Plašāku informāciju par darbu veidnēm skatiet sadaļā <a href="control-warehouse-location-directives.md">Noliktavas darbu kontrolēšana ar darba veidnēm un novietojuma direktīvām</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Pieprasīšana, lai darbinieki, izdodot krājumus, apstiprinātu preci, novietojumu vai daudzumu
-Varat iestatīt darba apstiprinājumus, kas nosaka, ka darbiniekam, strādājot noliktavā, ir jāreģistrē novietojums vai daudzums, izmantojot mobilo ierīci. Darba apstiprinājumi palīdz nodrošināt, ka darbinieks atrodas pareizajā novietojumā un strādā ar pareizo krājumu daudzumu. Varat arī iespējot automātisku darbinieka reģistrācijas apstiprināšanu programmā Microsoft Dynamics 365 for Finance and Operations. Ja iespējojat automātisko apstiprināšanu, nevarat pieprasīt arī novietojuma vai daudzuma apstiprinājumus. Darba apstiprinājumos tiek ietvertas arī preces un preču varianti. Turklāt varat arī reģistrēt apstiprinājumus, skenējot svītrkodu. Lai apstiprinātu preces un preču variantus, jums jāievada preces vai preces varianta ID. Šis ID var būt preces ID, preces meklēšanas ID, ārējais ID, GTIN vai svītrkods. Pēc tam, kad ievadīsiet ID vai noskenēsiet svītrkodu, mobilajā ierīcē tiks parādītas preces varianta dimensijas. 
+Varat iestatīt darba apstiprinājumus, kas nosaka, ka darbiniekam, strādājot noliktavā, ir jāreģistrē novietojums vai daudzums, izmantojot mobilo ierīci. Darba apstiprinājumi palīdz nodrošināt, ka darbinieks atrodas pareizajā novietojumā un strādā ar pareizo krājumu daudzumu. Varat arī iespējot automātisku darbinieka reģistrācijas apstiprināšanu programmā Supply Chain Management. Ja iespējojat automātisko apstiprināšanu, nevarat pieprasīt arī novietojuma vai daudzuma apstiprinājumus. Darba apstiprinājumos tiek ietvertas arī preces un preču varianti. Turklāt varat arī reģistrēt apstiprinājumus, skenējot svītrkodu. Lai apstiprinātu preces un preču variantus, jums jāievada preces vai preces varianta ID. Šis ID var būt preces ID, preces meklēšanas ID, ārējais ID, GTIN vai svītrkods. Pēc tam, kad ievadīsiet ID vai noskenēsiet svītrkodu, mobilajā ierīcē tiks parādītas preces varianta dimensijas. 
 
 Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot darba apstiprinājumus.
 

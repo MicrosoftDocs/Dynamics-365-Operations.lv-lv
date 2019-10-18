@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836536"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017924"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimālās pārklāto atlaižu kombinācijas noteikšana
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836536"
 
 Ja atlaides pārklājas, ir jānosaka pārklāto atlaižu kombinācija, kas rada vismazāko transakcijas kopsummu vai lielāko kopējo atlaidi. Ja atlaides summa mainās atbilstoši nopirkto preču cenai, piemēram, parastās mazumtirdzniecības atlaides “pērc 1, saņem 1 X procentu atlaidi” (BOGO) gadījumā, šim procesam ir jāveic kombināciju optimizēšana.
 
-Šis raksts attiecas uz programmu Microsoft Dynamics AX 2012 R3 ar KB 3105973 (2015. gada 2. novembra laidiens) vai jaunāku tās versiju un programmu Microsoft Dynamics 365 for Retail. Lai noteiktu kombinācijas atlaides, kas pārklājas, un tās laicīgi piemērotu, esam ieviesuši metodi, kā lietot atlaides, kas pārklājas. Šī metode tiek dēvēta par **robežvērtības ranžēšanu**. Robežvērtības ranžēšana tiek izmantota, ja iespējamo pārklāto atlaižu kombināciju novērtēšanai nepieciešamais laiks pārsniedz sliekšņvērtību, ko var konfigurēt lapā **Mazumtirdzniecības parametri**. Robežvērtības ranžēšanas metodes ietvaros tiek aprēķināta katras pārklātās atlaides vērtība, izmantojot kopīgo preču atlaides vērtību. Pēc tam pārklātās atlaides tiek lietotas secībā no lielākās relatīvās vērtības līdz mazākajai relatīvajai vērtībai. Detalizētu informāciju par jauno metodi skatiet sadaļā “Robežvērtība” šī raksta turpinājumā. Robežvērtības ranžēšana netiek lietota, ja citas transakcijā ietvertās preces neietekmē preces atlaides summas. Piemēram, šī metode netiek lietota divām parastajām atlaidēm vai parastajai atlaidei un vienas preces daudzuma atlaidei.
+Šis raksts attiecas uz programmu Microsoft Dynamics AX 2012 R3 ar KB 3105973 (2015. gada 2. novembra laidiens) vai jaunāku tās versiju un programmu Dynamics 365 Retail. Lai noteiktu kombinācijas atlaides, kas pārklājas, un tās laicīgi piemērotu, esam ieviesuši metodi, kā lietot atlaides, kas pārklājas. Šī metode tiek dēvēta par **robežvērtības ranžēšanu**. Robežvērtības ranžēšana tiek izmantota, ja iespējamo pārklāto atlaižu kombināciju novērtēšanai nepieciešamais laiks pārsniedz sliekšņvērtību, ko var konfigurēt lapā **Mazumtirdzniecības parametri**. Robežvērtības ranžēšanas metodes ietvaros tiek aprēķināta katras pārklātās atlaides vērtība, izmantojot kopīgo preču atlaides vērtību. Pēc tam pārklātās atlaides tiek lietotas secībā no lielākās relatīvās vērtības līdz mazākajai relatīvajai vērtībai. Detalizētu informāciju par jauno metodi skatiet sadaļā “Robežvērtība” šī raksta turpinājumā. Robežvērtības ranžēšana netiek lietota, ja citas transakcijā ietvertās preces neietekmē preces atlaides summas. Piemēram, šī metode netiek lietota divām parastajām atlaidēm vai parastajai atlaidei un vienas preces daudzuma atlaidei.
 
 ## <a name="discount-examples"></a>Atlaižu piemēri
 

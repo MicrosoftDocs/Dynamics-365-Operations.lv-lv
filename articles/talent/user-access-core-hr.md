@@ -1,6 +1,6 @@
 ---
-title: Lietot. piekļūst Core HR, bet ne progr. Onboard/Attract
-description: Šajā tēmā paskaidrots, kā atrisināt problēmu, kad lietotājs var piekļūt Microsoft Dynamics 365 for Talent Core HR, bet nevar piekļūt programmai Attract vai Onboard.
+title: Lietotājs var piekļūt Core HR, bet nevar piekļūt Onboard vai Attract
+description: Šajā tēmā paskaidrots, kā atrisināt problēmu, kad lietotājs var piekļūt Microsoft Dynamics 365 Talent — Core HR, bet nevar piekļūt programmai Attract vai Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741725"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009310"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>Lietotājs var piekļūt Core HR, bet nevar piekļūt programmai Onboard vai Attract
+# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Lietotājs var piekļūt Core HR, bet nevar piekļūt Onboard vai Attract
 
 [!include [banner](includes/banner.md)]
 
 **Informācija par vidi**
 
 - Microsoft Dynamics Lifecycle Services (LCS) izvietošanu veica lietotājs A.
-- Lietotājs A pievienoja lietotāju B kā Microsoft Dynamics 365 for Talent Core HR lietotāju.
+- Lietotājs A pievienoja lietotāju B kā Microsoft Dynamics 365 Talent: Core HR.
 
-**Problēma**
+**Izejas plūsma**
 
 Lietot. B var piekļūt Core HR, bet nevar piekļūt Talent: Attract vai Talent: Onboard. Kad lietotājs mēģina doties uz **Programmu izmantošana**, tā vietā tiek atvērta izmēģinājuma vide.
 

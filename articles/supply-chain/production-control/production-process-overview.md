@@ -3,7 +3,7 @@ title: Pārskats par ražošanas procesu
 description: Šajā tēmā ir sniegts pārskats par ražošanas procesiem. Tajā ir aprakstīti dažādie ražošanas pasūtījumu, partijas pasūtījumu un Kanban darbu stāvokļi no pasūtījuma izveides līdz finanšu perioda slēgšanai.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546667"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250025"
 ---
 # <a name="production-process-overview"></a>Pārskats par ražošanas procesu
 
@@ -36,12 +36,12 @@ Preču ražošanas process dažreiz tiek saukts arī par ražošanas dzīves cik
 
 Modulis **Ražošanas kontrole** ir saistīts ar citiem moduļiem, piemēram, **Preču informācijas pārvaldība**, **Krājumu vadība**, **Virsgrāmata**, **Noliktavas pārvaldība**, **Projektu uzskaite** un **Organizācijas administrēšana**. Šī integrācija atbalsta informācijas plūsmu, kas ir nepieciešama pabeigtā krājuma ražošanas pabeigšanai.  
 
-Ražošanas procesu parasti ietekmē izmaksu uzskaites un krājumu novērtēšanas metodes, kas ir izvēlas konkrētam ražošanas procesam. Programmatūra Finance and Operations atbalsta gan faktisko izmaksu (pirmie iekšā, pirmie ārā \[FIFO\]; pēdējie iekšā, pirmie ārā \[LIFO\]; slīdošais vidējais; periodiskais svērtais vidējais) un standarta izmaksu metodes. Lean manufacturing ražošana tiek ieviesta, pamatojoties uz atgriezeniskās izmaksu aprēķināšanas principu.  
+Ražošanas procesu parasti ietekmē izmaksu uzskaites un krājumu novērtēšanas metodes, kas ir izvēlas konkrētam ražošanas procesam. Programmatūra Supply Chain Management atbalsta gan faktisko izmaksu (pirmie iekšā, pirmie ārā \[FIFO\]; pēdējie iekšā, pirmie ārā \[LIFO\]; slīdošais vidējais; periodiskais svērtais vidējais) un standarta izmaksu metodes. Lean manufacturing ražošana tiek ieviesta, pamatojoties uz atgriezeniskās izmaksu aprēķināšanas principu.  
 
 Izmaksu mērīšanas metožu izvēle nosaka arī prasības attiecībā uz ziņošanu par materiālu un resursu patēriņu ražošanas procesa laikā. Parasti faktisko izmaksu metodēm ir nepieciešama precīza ziņošana darba līmenī, taču periodisko izmaksu noteikšanas metodēm ir nepieciešama mazāk detalizēta ziņošana par materiālu un resursu patēriņu.
 
 ## <a name="mixed-mode-manufacturing"></a>Jauktā režīma ražošana
-Dažādām precēm un preču topoloģijām ir nepieciešams lietot dažādus pasūtījumu veidus. Programmatūras Finance and Operations jauktajā režīmā var lietot dažādos pasūtījumu veidus. Citiem vārdiem sakot, visa vienas saražotās preces ražošanas procesa laikā var veikt visu veidu pasūtījumus.
+Dažādām precēm un preču topoloģijām ir nepieciešams lietot dažādus pasūtījumu veidus. Supply Chain Management var lietot dažādos pasūtījumu veidus jauktā režīmā. Citiem vārdiem sakot, visa vienas saražotās preces ražošanas procesa laikā var veikt visu veidu pasūtījumus.
 
 -   **Ražošanas pasūtījums** — tas ir standarta pasūtījuma veids, kas tiek izmantots, lai noteiktā datumā saražotu noteiktu konkrētas preces vai preces varianta daudzumu. Ražošanas pasūtījumi tiek veidoti, pamatojoties uz materiālu komplektiem (MK) un maršrutiem.
 -   **Partijas pasūtījums** — šis pasūtījuma veids tiek izmantots ražošanas nozarēs un atsevišķos procesos, kur ražošanas pārveidošanas pamatā ir formula vai kur līdzprodukti un blakusprodukti var būt galaprodukti, kas papildina vai aizstāj pamatpreci. Partijas pasūtījumiem tiek izmantoti MK un maršruti, kuru tips ir **Formula**.

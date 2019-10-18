@@ -1,6 +1,6 @@
 ---
-title: Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
-description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietvertās krājumu līmeņu informācijas sinhronizēšanai ar programmu Microsoft Dynamics 365 for Field Service.
+title: Programmā Supply Chain Management ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
+description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietvertās krājumu līmeņu informācijas sinhronizēšanai ar programmu Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843437"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251205"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Programmā Supply Chain Management ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietvertās krājumu līmeņu informācijas sinhronizēšanai ar programmu Microsoft Dynamics 365 for Field Service.
+Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietvertās krājumu līmeņu informācijas sinhronizēšanai ar programmu Dynamics 365 Field Service.
 
-[![Biznesa procesu sinhronizēšana risinājumos Finance and Operations un Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
-Tālāk minētā veidne un pamata uzdevumi tiek izmantoti, lai veiktu programmā Microsoft Dynamics 365 for Finance and Operations ietverto rīcībā esošo krājumu līmeņu sinhronizēšanu ar programmu Microsoft Dynamics 365 for Field Service.
+Tālāk minētā veidne un pamata uzdevumi tiek izmantoti, lai veiktu programmā Supply Chain Management ietverto rīcībā esošo krājumu līmeņu sinhronizēšanu ar programmu Field Service.
 
 **Veidne līdzeklī Datu integrācija**
-- Preču krājumi (no Fin and Ops uz Field Service)
+- Preču krājumi (no Supply Chain Management uz Field Service)
   
 **Uzdevums datu integrācijas projektā**
 - Preču krājumi
 
 Lai varētu veikt krājumu līmeņu sinhronizāciju, ir nepieciešami tālāk norādītie sinhronizācijas uzdevumi.
-- Noliktavas (no Fin and Ops uz Field Service) 
-- Field Service preces ar krājumu uzskaites vienību (no Fin and Ops uz Sales) 
+- Noliktavas (no Supply Chain Management uz Field Service) 
+- Field Service preces ar Krājumu uzskaites vienību (no Supply Chain Management uz Sales) 
 
 ## <a name="entity-set"></a>Elementu kopa
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Supply Chain Management                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | Rīcībā esošie CDS krājumi pēc noliktavas     |
 
@@ -61,17 +61,17 @@ Programmā Finance and Operations ietvertā krājumu līmeņu informācija tiek 
 
 Šī informācija ir iegūta par katru izlaisto preci katrai noliktavai un sinhronizēta, pamatojoties uz izmaiņu izsekošanu, mainoties krājumu līmenim.
 
-Programmā Field Service integrācijas risinājums izveido krājumu žurnālus starpībai, lai līmeņi programmā Field Service atbilstu līmeņiem programmā Finance and Operations.
+Programmā Field Service integrācijas risinājums izveido krājumu žurnālus starpībai, lai līmeņi programmā Field Service atbilstu līmeņiem programmā Supply Chain Management.
 
-Programma Finance and Operations darbosies kā šablons krājumu līmeņiem. Tādēļ ir svarīgi iestatīt integrāciju darba pasūtījumiem, pārsūtīšanām un korekcijām no programmas Field Service programmā Finance and Operations, ja šī funkcionalitāte tiek izmantota programmā Field Service, kopā ar krājumu līmeņu sinhronizāciju no programmas Finance and Operations.
+Programma Supply Chain Management darbosies kā šablons krājumu līmeņiem. Tādēļ ir svarīgi iestatīt integrāciju darba pasūtījumiem, pārsūtīšanām un korekcijām no programmas Field Service programmā Supply Chain Management, ja šī funkcionalitāte tiek izmantota programmā Field Service, kopā ar krājumu līmeņu sinhronizāciju no programmas Supply Chain Management.
 
-Preces un noliktavas, kurās krājumu līmeņi tiek pārvaldīti no programmas Finance and Operations, var kontrolēt, izmantojot vienumu Izvērsts vaicājums un filtrēšana (Power Query).
+Preces un noliktavas, kurās krājumu līmeņi tiek pārvaldīti no programmas Supply Chain Management, var kontrolēt, izmantojot vienumu Izvērsts vaicājums un filtrēšana (Power Query).
 
 > [!NOTE]
-> Ir iespējams izveidot vairākas noliktavas programmā Field Service (ja atlasīts iestatījums **Tiek ārēji uzturēts** = Nē) un pēc tam kartēt tās uz vienu noliktavu programmā Finance and Operations, izmantojot funkcionalitāti Izvērsts vaicājums un filtrēšana. Tas tiek izmantots gadījumos, ja vēlaties, lai programma Field Service pārvalda detalizētu krājumu līmeni un tikai nosūta atjauninājumus uz programmu Finance and Operations. Šajā gadījumā programma Field Service nesaņems krājumu līmeņu atjauninājumus no programmas Finance and Operations. Papildinformāciju skatiet sadaļā [Programmā Field Service ietverto krājumu korekcijas darbību sinhronizēšana ar programmu Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) un [Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Ir iespējams izveidot vairākas noliktavas programmā Field Service (ja atlasīts iestatījums **Tiek ārēji uzturēts= Nē**) un pēc tam kartēt tās uz vienu noliktavu programmā Supply Chain Management, izmantojot funkcionalitāti Izvērsts vaicājums un filtrēšana. Tas tiek izmantots gadījumos, ja vēlaties, lai programma Field Service pārvalda detalizētu krājumu līmeni un tikai nosūta atjauninājumus uz programmu Supply Chain Management. Šajā gadījumā programma Field Service nesaņems krājumu līmeņu atjauninājumus no programmas Supply Chain Management. Papildinformāciju skatiet sadaļā [Programmā Field Service ietverto krājumu korekcijas darbību sinhronizēšana ar programmu Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) un [Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Risinājums Field Service CRM
-Elements **Ārējie preču krājumi** tiek izmantots tikai integrācijas iekšējos procesos. Šis elements saņem krājumu līmeņu vērtības no programmas Finance and Operations integrācijā un pārveido šīs vērtības manuālos krājumu žurnālos, kuri pēc tam maina krājumu preces noliktavā.
+Elements **Ārējie preču krājumi** tiek izmantots tikai integrācijas iekšējos procesos. Šis elements saņem krājumu līmeņu vērtības no programmas Supply Chain Management integrācijā un pārveido šīs vērtības manuālos krājumu žurnālos, kuri pēc tam maina krājumu preces noliktavā.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
@@ -84,10 +84,10 @@ Lai projekts darbotos, ir jānodrošina, ka tiek atjaunināta msdynce_externalpr
       - msdynce_warehouseid (noliktavas ID)
       
 ### <a name="data-integration-project"></a>Datu integrācijas projekts
-Varat lietot filtrus ar funkcionalitāti Izvērsts vaicājums un filtrēšana, lai tikai noteiktas preces un noliktavas sūta krājumu līmeņu informāciju no programmas Finance and Operations uz programmu Field Service.
+Varat lietot filtrus ar funkcionalitāti Izvērsts vaicājums un filtrēšana, lai tikai noteiktas preces un noliktavas sūta krājumu līmeņu informāciju no programmas Supply Chain Management uz programmu Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>Veidnes kartējums līdzeklī Datu integrācija
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Preču krājumi (no Fin and Ops uz Field Service): Preču krājumi
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Preču krājumi (no Supply Chain Management uz Field Service): Preču krājumi
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

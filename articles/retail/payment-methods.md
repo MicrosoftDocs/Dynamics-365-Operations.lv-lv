@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559608"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025360"
 ---
 # <a name="payment-methods"></a>Maksāšanas metodes
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559608"
 
 Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
 
-Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu u.c. formā. Sistēmas iestatīšanas laikā programmā Dynamics 365 for Retail ir jākonfigurē katrs maksājuma veids, ko pieņem mazumtirgotājs. Tālāk esošajā sarakstā ir aprakstīts katrs maksājuma veids, ko var iestatīt programmā Dynamics 365 for Retail.
+Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu u.c. formā. Sistēmas iestatīšanas laikā programmā Dynamics 365 Retail ir jākonfigurē katrs maksājuma veids, ko pieņem mazumtirgotājs. Tālāk esošajā sarakstā ir aprakstīts katrs maksājuma veids, ko var iestatīt.
 
 - **Skaidra nauda** – nauda fiziskā valūtas formā, piemēram, banknotes un monētas. Šī valūta var būt uzņēmuma valūta vai veikala vietējā valūta.
 - **Čeks** – maksāšanas līdzeklis noteiktas summas maksājuma noteiktā valūtā izrakstīšanai noteiktā bankā. Čeks parasti ir derīgs nenoteiktu laiku vai sešus mēnešus pēc izsniegšanas datuma, ja vien nav norādīts cits derīguma periods. Šis periods atšķiras atkarībā no bankas, kurā ir izrakstīts čeks. Ir pieejami dažādi čeku veidi, piemēram, pasūtījuma čeki, skaitītāja čeki, uzrādītāja čeki un saņēmēja čeki. Varat iestatīt čekus kā maksājuma metodi katram veikalam. Čekus var pieņemt valūtā, kas ir noteikta uzņēmuma līmenī vai veikala līmenī. Jums ir jāiestata čekus kā maksājuma metodi, pirms jūs varat pieņemt čeku kā maksājumu veikalā.

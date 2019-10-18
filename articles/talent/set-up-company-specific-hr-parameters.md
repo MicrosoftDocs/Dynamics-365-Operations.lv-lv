@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506107"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009449"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana
 
@@ -34,7 +34,7 @@ Dažu personāla vadības (PV) parametru iestatījumi tiek koplietoti uzņēmumu
 Divas lapas tiek izmantotas, lai iestatītu personāla vadības parametrus (PV). Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir specifiski uzņēmumam (citiem vārdiem sakot, iestatījumi attiecas uz vienu uzņēmumu), izmanto lapu **Personāla vadības parametri**. Lapā **Personāla vadības parametri** iestatījumi ir sadalīti sešās cilnēs:
 
 -   Vispārējs
--   Personāla atlase — tā nav iekļauta programmā Dynamics 365 for Talent
+-   Personāla atlase — tā nav iekļauta programmā Dynamics 365 Talent
 -   Atlīdzība
 -   Numuru sērijas
 -   Likums par ģimenes un medicīniskajiem atvaļinājumiem (FMLA)
@@ -49,7 +49,7 @@ Iestatījumi cilnē **Atlīdzība** definē, vai lietotājiem ir jāapstiprina, 
 ### <a name="previously-released-functionality"></a>Iepriekš izlaistā funkcionalitāte
 Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Organizācijas administrēšana** &gt; **Numuru sērijas** &gt; **Numuru sērijas**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Ja lietojat programmu Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>Ja lietojat programmu Dynamics 365 Talent
 Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai automātiski piešķirtu ID krājumiem Personāla vadībā, piemēram, pieteikumiem, kavējumu reģistrācijām, atlīdzības procesa rezultātiem, lietas numuriem, kursiem un kursu darba kārtībām. Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas** (noklikšķiniet uz **Sistēmas administrēšana** &gt; **cilne Saites** &gt; **Numuru sērijas** &gt; **Numuru sērijas**). 
 
 Iestatījumi cilnē **FMLA** definē, cik stundas darbiniekam jānostrādā, lai varētu pretendēt uz FMLA pabalstiem, nodarbinātības ilgumu, kas ir nepieciešams šim nolūkam, un nodarbinātības sākuma datumu, kas tiek izmantots, lai noteiktu nodarbinātības ilgumu. Iestatījumi arī nosaka FMLA stundu skaitu, kas darbiniekiem pienākas un FMLA atvaļinājumu kalendāru, ko izmanto, lai aprēķinātu, cik FMLA stundas darbinieki ir izlietojuši. Cilne **FMLA** ir pieejama tikai uzņēmumiem Amerikas Savienotajās Valstīs. 

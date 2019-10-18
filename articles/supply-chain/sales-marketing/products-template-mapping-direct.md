@@ -1,6 +1,6 @@
 ---
-title: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
+title: Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
+description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar programmu Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/10/2019
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b4a6fab3a4831bc3d18313b351e453c615788843
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742428"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251389"
 ---
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
+# <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto preču tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
+Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču tiešai sinhronizēšanai ar programmu Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
-Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Finance and Operations un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Finance and Operations un Sales.
+Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Supply Chain Management un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Supply Chain Management un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Supply Chain Management un Sales.
 
 [![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,22 +45,22 @@ Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdze
 
 Lai piekļūtu pieejamajām veidnēm, atveriet [PowerApps administrēšanas centru](https://admin.powerapps.com/dataintegration). Atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet **Jauns projekts**, lai atlasītu publiskās veidnes.
 
-Tālāk norādītā veidne un pamata uzdevumi tiek izmantoti programmā Finance and Operations ietverto preču sinhronizēšanai ar programmu Sales.
+Tālāk norādītā veidne un pamata uzdevumi tiek izmantoti programmā Supply Chain Management ietverto preču sinhronizēšanai ar programmu Sales.
 
-- **Veidnes nosaukums līdzeklī Datu integrācija:** Preces (no Fin and Ops uz Sales) — tieši
+- **Veidnes nosaukums līdzeklī Datu integrācija:** Preces (no Supply Chain Management uz Sales) — tieši
 - **Uzdevuma nosaukums līdzekļa Datu integrācija projektā:** Preces
 
 Lai varētu veikt preču sinhronizāciju, nav nepieciešams neviens sinhronizācijas uzdevums.
 
 ## <a name="entity-set"></a>Elementu kopa
 
-| Finance and Operations     | Pārdošana    |
+| Supply Chain Management    | Pārdošana    |
 |----------------------------|----------|
 | Pārdodamas izlaistās preces | Preces |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Preces tiek pārvaldītas programmā Finance and Operations un sinhronizētas ar programmu Sales. Datu elements **Pārdodamas izlaistās preces** programmā Finance and Operations nodrošina tikai *pārdodamo* preču eksportēšanu. Pārdodamās preces ir preces, par kurām ir pieejama informācija, kas ir nepieciešama, lai tās varētu izmantot pārdošanas pasūtījumā. Tie paši noteikumi attiecas uz preces validāciju, izmantojot funkciju **Validēt** lapā **Izlaistā prece**.
+Preces tiek pārvaldītas programmā Supply Chain Management un tiek sinhronizēti ar programmu Sales. Datu elements **Pārdodamas izlaistās preces** programmā Supply Chain Management nodrošina tikai *pārdodamo* preču eksportēšanu. Pārdodamās preces ir preces, par kurām ir pieejama informācija, kas ir nepieciešama, lai tās varētu izmantot pārdošanas pasūtījumā. Tie paši noteikumi attiecas uz preces validāciju, izmantojot funkciju **Validēt** lapā **Izlaistā prece**.
 
 Preces numurs tiek izmantots kā atslēga. Tāpēc, kad preces varianti tiek sinhronizēti ar programmu Sales, katram preces variantam ir atsevišķs preces ID.
 
@@ -68,13 +68,13 @@ Preces numurs tiek izmantots kā atslēga. Tāpēc, kad preces varianti tiek sin
 
 Programmā Sales precēm ir pievienots jauns lauks **Tiek uzturēts ārēji**, lai norādītu, ka konkrētā prece tiek uzturēta ārēji. Pēc noklusējuma, veicot importēšanu programmā Sales, tiek iestatīta vērtība **Jā**. Ir pieejamas šādas vērtības:
 
-- **Jā** — prece ir iegūta no programmas Finance and Operations, un to nevar rediģēt programmā Sales.
-- **Nē** — prece ir tieši ievadīta programmā Sales.
-- **(Tukšs)**  — prece bija pieejama programmā Sales pirms risinājuma No potenciālā klienta līdz skaidrai naudai iespējošanas.
+- **Jā**— prece ir iegūta no programmas Supply Chain Management, un to nevar rediģēt programmā Sales.
+- **Nē** – prece ir tieši ievadīta programmā Sales.
+- **(Tukšs)** – prece bija pieejama programmā Sales pirms risinājuma No potenciālā klienta līdz skaidrai naudai iespējošanas.
 
-Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Finance and Operations tiek sinhronizēti tikai piedāvājumi un pārdošanas pasūtījumi, kas ir saistīti ar ārēji uzturētām precēm.
+Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Supply Chain Management tiek sinhronizēti tikai piedāvājumi un pārdošanas pasūtījumi, kas ir saistīti ar ārēji uzturētām precēm.
 
-Ārēji uzturētās preces tiek automātiski pievienotas pirmajam derīgajam cenrādim tajā pašā valūtā. Cenrāži ir sakārtoti alfabēta secībā pēc nosaukuma. Kā cena cenrādī tiek izmantota preces pārdošanas cena no programmas Finance and Operations. Tāpēc programmā Sales ir jābūt cenrādim atbilstoši katrai preču pārdošanas valūtai programmā Finance and Operations. Kā izlaisto pārdodamo preču valūta tiek iestatīta tās juridiskās personas uzskaites valūta, no kurienes šī prece ir eksportēta.
+Ārēji uzturētās preces tiek automātiski pievienotas pirmajam derīgajam cenrādim tajā pašā valūtā. Cenrāži ir sakārtoti alfabēta secībā pēc nosaukuma. Kā cena cenrādī tiek izmantota preces pārdošanas cena no programmas Supply Chain Management. Tāpēc programmā Sales ir jābūt cenrādim atbilstoši katrai preču pārdošanas valūtai programmā Supply Chain Management. Kā izlaisto pārdodamo preču valūta tiek iestatīta tās juridiskās personas uzskaites valūta, no kurienes šī prece ir eksportēta.
 
 > [!NOTE]
 > - Preces sinhronizācija neizdosies, ja vien nebūs pieejams cenrādis atbilstošajā valūta.
@@ -82,18 +82,18 @@ Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Finance a
 
 ## <a name="preconditions-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
-- Pirms pirmās sinhronizēšanas reizes esošajām precēm programmā Finance and Operations ir jāaizpilda tabula Atšķirīga prece. Esošās preces netiek sinhronizētas, kamēr nav pabeigts šis darbs.
+- Pirms pirmās sinhronizēšanas reizes esošajām precēm programmā Supply Chain Management ir jāaizpilda tabula Atšķirīga prece. Esošās preces netiek sinhronizētas, kamēr nav pabeigts šis darbs.
 
-    1. Programmā Finance and Operations izmantojiet lauku Meklēt, lai atrastu vienumu **Aizpildīt atšķirīgo preču tabulu**.
+    1. Programmā Supply Chain Management izmantojiet lauku Meklēt, lai atrastu vienumu **Aizpildīt atšķirīgo preču tabulu**.
     2. Atlasiet **Aizpildīt atšķirīgu preču tabulu**, lai palaistu darbu. Šis darbs ir jāpalaiž tikai vienu reizi.
 
-- Pārliecinieties, ka kartējumā no **SalesUnitSymbol** uz **DefaultUnit (nosaukums)** pastāv nepieciešamā pārdošanas mērenības (UOM) vērtību karte starp programmām Finance and Operations un Sales.
-- Atjauniniet vienuma**Vienību grupa** (**defaultuomscheduleid.name**) vērtību karti atbilstoši vienumam **Vienību grupas** programmā Sales.
+- Pārliecinieties, ka kartējumā no **SalesUnitSymbol** uz **DefaultUnit (nosaukums)** pastāv nepieciešamā pārdošanas mērenības (UOM) vērtību karte starp programmām Supply Chain Management un Sales.
+- Atjauniniet vienuma **Vienību grupa** (**defaultuomscheduleid.name**) vērtību karti atbilstoši vienumam **Vienību grupas** programmā Sales.
 
     Noklusējuma veidnes vērtība ir **Noklusējuma vienība**.
 
-- Pārliecinieties, ka programmā Sales pastāv visu preču pārdošanas UOM no programmas Finance and Operations.
-- Pārliecinieties, ka programmā Sales pastāv cenrāži katrā preču pārdošanas valūtā no programmas Finance and Operations.
+- Pārliecinieties, ka programmā Sales pastāv visu preču pārdošanas UOM no programmas Supply Chain Management.
+- Pārliecinieties, ka programmā Sales pastāv cenrāži katrā preču pārdošanas valūtā no programmas Supply Chain Management.
 - Kad programmā Sales tiek izveidotas preces, to statuss var būt **Melnraksts** vai **Aktīva**. Šī darbība tiek kontrolēta programmas Sales sadaļā **Iestatījumi** > **Administrēšana** > **Sistēmas iestatījumi** > **Pārdošana**.
 
     Preces, kam izveides brīdī ir statuss **Melnraksts**, ir jāaktivizē, pirms tās var pievienot piedāvājumiem vai pārdošanas pasūtījumiem.
@@ -103,7 +103,7 @@ Lauks **Tiek uzturēts ārēji** palīdz nodrošināt, ka ar programmu Finance a
 Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī Datu integrācija. 
 
 > [!NOTE]
-> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Finance and Operations.
+> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Supply Chain Management.
 
 ![Veidnes kartējums datu integrētājā](./media/products-direct-template-mapping-data-integrator-1.png)
 
@@ -112,13 +112,13 @@ Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī D
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
 
-[Programmā Sales ietverto kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations](accounts-template-mapping-direct.md)
+[Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](contacts-template-mapping-direct.md)
+[Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai klientiem programmā Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Programmā Finance and Operations ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-order-template-mapping-direct-two-ways.md)
+[Programmā Supply Chain Management ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-invoice-template-mapping-direct.md)
+[Programmā Supply Chain ManagementSupply Chain Management ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-invoice-template-mapping-direct.md)
 
 
 

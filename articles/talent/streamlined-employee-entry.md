@@ -1,6 +1,6 @@
 ---
 title: Racionalizēta darbinieku ievade un navigācija
-description: Darbinieku datu ievade Dynamics 365 for Talent ir uzlabota, lai ļautu ātri ievadīt visus darbiniekus — bijušos, aktīvos vai turpmākos. Vienkāršotais/konsolidētais navigācijas modelis ir atjaunināts, lai ātri atrastu saistīto informāciju un skatītu un veiktu nepieciešamos atjauninājumus.
+description: Darbinieku datu ievade Dynamics 365 Talent ir uzlabota, lai ļautu ātri ievadīt visus darbiniekus — bijušos, aktīvos vai turpmākos. Vienkāršotais/konsolidētais navigācijas modelis ir atjaunināts, lai ātri atrastu saistīto informāciju un skatītu un veiktu nepieciešamos atjauninājumus.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918211"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009426"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Racionalizēta darbinieku ievade un navigācija
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent nodrošina darbinieka un nodarbinātības datu efektīvu ievadi. Varat ātri atjaunināt darba vēstures informāciju par bijušajiem, aktīvajiem un turpmākajiem darbiniekiem un līgumdarbiniekiem.
+Dynamics 365 Talent nodrošina darbinieka un nodarbinātības datu efektīvu ievadi. Varat ātri atjaunināt darba vēstures informāciju par bijušajiem, aktīvajiem un turpmākajiem darbiniekiem un līgumdarbiniekiem.
 
 Varat arī iespējot vienkāršotu navigācijas pieredzi, lai ātri atrastu saistīto informāciju un veiktu nepieciešamās izmaiņas. Šī funkcionalitāte tagad ir pieejama smilškastes vidē. Lai ieslēgtu šo līdzekli, dodieties uz **Sistēmas administrēšana > Saites > Iestatīšana > Sistēmas parametri > Priekšskatījuma līdzekļi**. Atlasiet **Uzlabotā darbinieka veidlapa un navigācija**. Tas ļaus iespējot šīs izmaiņas visiem lietotājiem. Šo opciju varat izslēgt jebkurā laikā.
 

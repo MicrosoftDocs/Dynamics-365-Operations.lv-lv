@@ -1,6 +1,6 @@
 ---
-title: Darbu publicēšana ārējās karjeras vietnēs no pakalpojuma Attract
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 for Talent - Attract, lai publicētu darbus ārējās personāla atlases vietnēs
+title: Darbu grāmatošana ārējās karjeras vietnēs no pakalpojuma Attract
+description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 Talent - Attract, lai publicētu darbus ārējās personāla atlases vietnēs
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739821"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008086"
 ---
 # <a name="post-jobs-to-broadbean"></a>Darbu publicēšana vietnē Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract palīdz jums iegūt darbinieku, kas jums nepieciešams, ļaujot jums publicēt vakances tieši no Attract vietnē Broadbean. Kad esat [izveidojis vakanci](./creating-jobs-attract.md), viss, kas jums jādara, ir noklikšķināt uz pogas, lai jūsu vakance tiktu rādīta visiem potenciālajiem darba kandidātiem vietnē Broadbean.
+Microsoft Dynamics 365 Talent: Attract palīdz jums iegūt darbinieku, kas jums nepieciešams, ļaujot jums publicēt vakances tieši no Attract vietnē Broadbean. Kad esat [izveidojis vakanci](./creating-jobs-attract.md), viss, kas jums jādara, ir noklikšķināt uz pogas, lai jūsu vakance tiktu rādīta visiem potenciālajiem darba kandidātiem vietnē Broadbean.
 
 Darbu publicēšanai Broadbean ir nepieciešama atbilstoša Broadbean licence. Broadbean piedāvā dažādus produktus un plānus. Lai iegūtu vairāk informācijas par Broadbean licencēšanu un cenām, [sazinieties ar Broadbean](https://www.broadbean.com/contact-us/).
 

@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra kanālu iestatīšana
-description: Šajā tēmā ir sniegta informācija par to, kā apstrādāt zvanu centru pasūtījumus, izmantojot Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir sniegta informācija par to, kā apstrādāt zvanu centru pasūtījumus, izmantojot Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549363"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024825"
 ---
 # <a name="set-up-call-center-channels"></a>Zvanu centra kanālu iestatīšana
 
 [!include [banner](includes/banner.md)]
 
-Uzņēmums var definēt vairākus zvanu centra kanālus programmā Microsoft Dynamics 365 for Retail. Zvanu centra kanāli tiek konfigurēti sadaļā **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**, un tie tiek noteikti juridiskajai iestādei.
+Uzņēmums var definēt vairākus zvanu centra kanālus programmā Dynamics 365 Retail. Zvanu centra kanāli tiek konfigurēti sadaļā **Retail** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**, un tie tiek noteikti juridiskajai iestādei.
 
 Kad ir izveidots jauns zvanu centra kanāls, tam tiek sistemātiski piešķirts pārvaldības struktūrvienības numurs. Tā kā zvanu centri tiek izveidoti kā pārvaldības struktūrvienības, zvanu centra kanālu lietotāji var piesaistīt dažādiem Retail līdzekļiem, piemēram, preču klāstiem, katalogiem un konkrētiem piegādes veidiem.
 
@@ -76,6 +76,8 @@ Kad definējat zvanu centra kanālu, jums ir jāsaista kanāla lietotāji ar šo
 
 Pārdošanas pasūtījuma virsrakstā karodziņš **Pārdošana mazumtirdzniecībā** pēc noklusējuma tiek ieslēgts visiem pasūtījumiem, ko izveido zvanu centra lietotāji. Pēc tam pasūtījumos var izmantot sistēmas mazumtirdzniecībai noteiktos cenu un veicināšanas līdzekļus.
 
-Lietotāji, kas nav saistīti ar zvanu centra kanālu, izmantot Microsoft Dynamics 365 for Finance and Operations standarta pasūtījuma izveides līdzekļus. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Retail pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, mazumtirdzniecības cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
+
+Lietotāji, kas nav saistīti ar zvanu centra kanālu, izmantot Microsoft Dynamics 365 Finance standarta pasūtījuma izveides līdzekļus. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Retail pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, mazumtirdzniecības cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
+
 
 Kad esat beidzis konfigurēt zvanu centra kanālu un definēt kanāla lietotājus, lai palīdzētu garantēt vēlamo sistēmas uzvedību, pārliecinieties, vai ir definēti visi nepieciešamie zvanu centra parametri sadaļā **Retail** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri**. Pārliecinieties, vai ir norādītas arī saistītās numuru sērijas.

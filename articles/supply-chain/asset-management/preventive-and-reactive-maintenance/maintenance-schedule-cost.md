@@ -3,7 +3,7 @@ title: Uzturēšanas grafika izmaksas
 description: Šajā tēmā ir paskaidrotas uzturēšanas grafika izmaksas programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875767"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922072"
 ---
 # <a name="maintenance-schedule-cost"></a>Uzturēšanas grafika izmaksas
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Programmā Asset Management jūs varat aprēķināt budžeta izmaksas uzturēšanas grafika rindām. Tas ir noderīgi, ja vēlaties iegūt pārskatu par paredzamajām izmaksām, piemēram, izmaksām, kas attiecas uz plānotiem preventīviem uzturēšanas darbiem nākamajam gadam. Aprēķini ir balstīti esošās uzturēšanas grafika rindās tipiem "Uzturēšanas plāni" un "Uzturēšanas cikli" un "Uzturēšanas pieprasījumi"
 
@@ -48,10 +46,11 @@ Programmā Asset Management jūs varat aprēķināt budžeta izmaksas uzturēša
 
 5. Noklikšķiniet uz **Labi**, lai sāktu izmaksu aprēķināšanu.
 
-6. Cilnē **Uzturēšanas grafika izmaksas** darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai uzrādītu nepieciešamo izmaksu aprēķina informācijas līmeni. Atlasītās darbības rūts grupēšanas pogas ir izceltas zilā krāsā. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
+6. Cilnē **Uzturēšanas grafika izmaksas** darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai uzrādītu nepieciešamo izmaksu aprēķina informācijas līmeni. Atlasītās darbības rūts grupas pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
 
 7. Noklikšķiniet uz pogas **Aprēķināt izmaksas**, ja vēlaties veikt jaunu izmaksu aprēķinu.
 
+Nākamajā attēlā ir redzami uzturēšanas grafika izmaksu aprēķina rezultāti.
 
 ![1. attēls](media/17-preventive-maintenance.png)
 

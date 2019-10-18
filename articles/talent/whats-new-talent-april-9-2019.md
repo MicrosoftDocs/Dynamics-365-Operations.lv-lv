@@ -1,6 +1,6 @@
 ---
-title: Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 9. aprīlis)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 9. aprīlis)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 08f3f8150a120817618ee4d31197f3088c7483ab
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856428"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024095"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 9. aprīlis)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 9. aprīlis)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -91,4 +91,4 @@ Darbinieku brīvā laika izsekošana un saprašana, kā tiek aprēķināts brīv
 Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda atrasto dublikātu skaitu. Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto. Lai izvairītos no datu ievades pārtraukšanas, dublikātu forma netiek atvērta automātiski.
 
 ###  <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 
+Līdz ar Finance and Operations atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 

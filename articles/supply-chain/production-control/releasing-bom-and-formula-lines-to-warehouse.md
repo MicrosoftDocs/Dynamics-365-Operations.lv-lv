@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552911"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249938"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
@@ -83,7 +83,7 @@ Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas oper�
 
 ![Piemērs par materiāla izlaišanu katram operācijas numuram](media/two-operations.PNG)
 
-Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, skatiet šajā īsajā YouTube video: [Ražošanas pasūtījuma izlaišanas procesa uzlabojumi programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
+Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, skatiet šajā īsajā YouTube video par [ražošanas pasūtījuma izlaišanas procesa uzlabojumiem](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materiāla izlaišana proporcionāli pabeigto preču daudzumam
 

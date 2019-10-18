@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916557"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017762"
 ---
 # <a name="base-price-and-trade-agreements"></a> Bāzes cena un tirdzniecības līgumi
 
@@ -56,7 +56,7 @@ ms.locfileid: "1916557"
 24. Klikšķiniet uz **Izveidot tirdzniecības līgumus**.
 25. Klikšķiniet **Jauns**.
 26. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
-27. Sarakstā atlasiet Mazumtirdzniecība. Demonstrācijas datos žurnāla nosaukumam Mazumtirdzniecība ir noklusējuma relācija Cena (pārdošanas). Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.  
+27. Sarakstā atlasiet **Mazumtirdzniecība**. Demonstrācijas datos žurnāla nosaukumam **Mazumtirdzniecība** ir noklusējuma relācija **Cena (pārdošanas)**. Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.  
 28. **Darbību rūtī** noklikšķiniet uz **Rindas**.
 29. Atlasiet „Grupa” laukā **Konta kods**.
 30. Laukā **Konta atlase** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.

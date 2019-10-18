@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843869"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250260"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843869"
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Kreditoru sadarbība**. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 
-Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Pārskats 
-Mobilā darbvieta **Kreditoru sadarbība** kreditoriem pastāvīgi nodrošina informāciju par jaunajiem pirkšanas pasūtījumiem, lai viņi varētu redzēt pirkšanas pasūtījumus un uz tiem reaģēt Microsoft Dynamics 365 for Finance and Operations tīmekļa klientā. 
+## <a name="overview"></a>Kopsavilkums 
+Mobilā darbvieta **Kreditoru sadarbība** kreditoriem pastāvīgi nodrošina informāciju par jaunajiem pirkšanas pasūtījumiem, lai viņi varētu redzēt pirkšanas pasūtījumus un uz tiem reaģēt tīmekļa klientā. 
 
 >[!NOTE]
 > Mobilā darbvieta ir jālieto kā papildinājums kreditoru sadarbības tīmekļa interfeisam, nevis kā tā aizstājējs. 
@@ -59,8 +59,8 @@ Mobilā darbvieta **Kreditoru sadarbība** kreditoram ļauj veikt tālāk norād
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
-Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management
+Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
 Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
@@ -103,8 +103,8 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Lietot kreditoru sadarbību, lai strādātu ar ārējiem kreditoriem</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Pārvaldīt kreditoru sadarbības lietotājus</a></li>
-<li><a href="set-up-maintain-vendor-collaboration.md">Iestatīt un uzturēt kreditoru sadarbību</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Lietot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Finance and Operations</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">Kreditoru sadarbības iestatīšana un uzturēšana</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Lietot kreditoru sadarbību, lai strādātu ar debitoriem programmatūrā Supply Chain Managements</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.
+Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
 -   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,6 +1,6 @@
 ---
 title: Transportēšanas pārvaldības pārskats
-description: Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
+description: Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561174"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027065"
 ---
 # <a name="transportation-management-overview"></a>Transportēšanas pārvaldības pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Finance and Operations.
 
-Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēšanu, kā arī ļauj identificēt kreditoru un maršrutēšanas risinājumus ienākošiem un izejošiem pasūtījumiem. Piemēram, var norādīt ātrāko ceļu vai vislētāko sūtījuma likmi. Šajā tabulā ir aprakstīti galvenie scenāriji attiecībā uz moduļa Transportēšanas pārvaldība lietošanu programmā Microsoft Dynamics 365 for Finance and Operations.
+Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēšanu, kā arī ļauj identificēt kreditoru un maršrutēšanas risinājumus ienākošiem un izejošiem pasūtījumiem. Piemēram, var norādīt ātrāko ceļu vai vislētāko sūtījuma likmi. Šajā tabulā ir aprakstīti galvenie scenāriji attiecībā uz moduļa Transportēšanas pārvaldība lietošanu.
 
 <table>
 <colgroup>

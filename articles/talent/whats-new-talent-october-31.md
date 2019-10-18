@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 31. oktobris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 31. oktobris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent — Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518582"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025936"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 31. oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 31. oktobris)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1518582"
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Saišu izveidošana no Talent uz Finance and Operations
-Šī jaunā navigācijas funkcionalitāte ļauj jums izveidot saiti no Talent uz Finance and Operations, nodrošinot tiešu navigāciju Finance and Operations lapās. Kad saites ir konfigurētas, varat norādīt saites nosaukumu un grupu, norādīt vietu, kur saitei būtu jābūt redzamai programmā Talent, ka arī mērķa lapu, ko atvērt programmā Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Saišu izveidošana no Talent uz Finance
+Šī jaunā navigācijas funkcionalitāte ļauj jums izveidot saiti no Talent uz Finance, nodrošinot tiešu navigāciju Finance. Kad saites ir konfigurētas, varat norādīt saites nosaukumu un grupu, norādīt vietu, kur saitei būtu jābūt redzamai programmā Talent, ka arī mērķa lapu, ko atvērt programmā Finance.
 
 #### <a name="coming-soon"></a>Drīzumā
-Nākotnē tiks pievienots lauka konteksts, lai ļautu tieši pāriet uz atbilstošajiem ierakstiem programmā Finance and Operations. Piemēram, varat izmantot vienumu **Saite uz lauku**, lai sniegtu kontekstu pāriešanai tieši uz noteiktu darbinieku vai amatu programmā Finance and Operations.
+Nākotnē tiks pievienots lauka konteksts, lai ļautu tieši pāriet uz atbilstošajiem ierakstiem programmā Finance. Piemēram, varat izmantot vienumu **Saite uz lauku**, lai sniegtu kontekstu pāriešanai tieši uz noteiktu darbinieku vai amatu programmā Finance.
 
 ### <a name="configure-target-systems"></a>Mērķa sistēmu konfigurēšana
 
-Programmā Talent sistēmas administratori var definēt saites, kas tiks rādītas dažādās sistēmas administrēšanas darbvietas vietās. Daļa no konfigurācijas ir Finance and Operations vides, uz kurām jūs vēlētos pāriet, un tās ir jānorāda kā šādu saišu “mērķis”. To var izdarīt, piešķirot mērķa sistēmai nosaukumu un norādot Finance and Operations vides vietrādi URL. Lūk, piemērs Finance and Operations vietrādim URL, ko jūs norādītu: https://devax00124aos.cloud.test.dynamics.com/. Kad esat konfigurējis mērķa sistēmu, varat definēt savas saites.
+Programmā Talent sistēmas administratori var definēt saites, kas tiks rādītas dažādās sistēmas administrēšanas darbvietas vietās. Daļa no konfigurācijas ir Finance vides, uz kurām jūs vēlētos pāriet, un tās ir jānorāda kā šādu saišu “mērķis”. To var izdarīt, piešķirot mērķa sistēmai nosaukumu un norādot Finance vides vietrādi URL. Lūk, piemērs Finance vietrādim URL, ko jūs norādītu: https://devax00124aos.cloud.test.dynamics.com/. Kad esat konfigurējis mērķa sistēmu, varat definēt savas saites.
 
 ### <a name="configure-links"></a>Saišu konfigurēšana
 
@@ -51,27 +51,27 @@ Katrai izveidotajai saitei ir definēta tālāk norādītā informācija.
 
 - Iespējot šo saiti — iestatiet uz **Jā**, ja vēlaties šo saiti rādīt programmas Talent lietotājiem.
 
-- Parādāmais nosaukums — definējiet nosaukumu, kas būs redzams kā saite uz Finance and Operations. Šie dati pašlaik nav tulkoti.
+- Parādāmais nosaukums — definējiet nosaukumu, kas būs redzams kā saite uz Finance. Šie dati pašlaik nav tulkoti.
 
 - Rādīt saiti formā — izvēlēties, kurā lapā vēlaties rādīt šo saiti.
 
 - Grupa — grupas nav obligātas, taču, ja vēlaties kārtot savas saites, izmantojot grupas, atlasiet esošu grupu vai izveidojiet jaunu, izmantojot lauku **Grupas**.
 
-- Mērķa sistēma — atlasiet mērķa sistēmu, kas tika izveidota, izmantojot opciju **Konfigurēt mērķa sistēmu**. Šī būs Finance and Operations vide, kas tiks izmantota, kad šo saiti lietosiet navigēšanai.
+- Mērķa sistēma — atlasiet mērķa sistēmu, kas tika izveidota, izmantojot opciju **Konfigurēt mērķa sistēmu**. Šī būs Finance vide, kas tiks izmantota, kad šo saiti lietosiet navigēšanai.
 
-- Lietotāja pašreizējais uzņēmums — atlasiet **Jā**, ja vēlaties izmantot lietotāja pašreizējā uzņēmuma kontekstu, kad notiek navigēšana uz Finance and Operations. Ja ir atlasīta vērtība **Nē**, varat atlasīt izmantojamo uzņēmumu.
+- Lietotāja pašreizējais uzņēmums — atlasiet **Jā**, ja vēlaties izmantot lietotāja pašreizējā uzņēmuma kontekstu, kad notiek navigēšana uz Finance. Ja ir atlasīta vērtība **Nē**, varat atlasīt izmantojamo uzņēmumu.
 
-- Mērķa izvēlnes vienums — ievadiet izvēlnes vienumu no Finance and Operations, kas saitei būtu jāizmanto navigēšanas laikā. Ir pieejami izvēlnes vienumi, uz kuriem varat pāriet tieši. Lai atrastu nepieciešamo izvēlnes vienumu, atveriet programmu Finance and Operations un atveriet lapu, kas ir navigācijas mērķis. Kopējiet izvēlnes vienumu no vietrāža URL. Piemēram, ja vēlaties, lai saite jūs pārceltu uz darbinieku sarakstu programmā Finance and Operations, ievadiet vērtību, kas vietrādī URL ir redzama aiz “&mi”. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Izvēlnes vienums pāriešanai uz darbinieku saraksta lapu šajā piemērā ir: HcmWorkerListPage_Employees.
+- Mērķa izvēlnes vienums — ievadiet izvēlnes vienumu no Finance, kas saitei būtu jāizmanto navigēšanas laikā. Ir pieejami izvēlnes vienumi, uz kuriem varat pāriet tieši. Lai atrastu nepieciešamo izvēlnes vienumu, atveriet programmu Finance un atveriet lapu, kas ir navigācijas mērķis. Kopējiet izvēlnes vienumu no vietrāža URL. Piemēram, ja vēlaties, lai saite jūs pārceltu uz darbinieku sarakstu programmā Finance and Operations, ievadiet vērtību, kas vietrādī URL ir redzama aiz “&mi”. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Izvēlnes vienums pāriešanai uz darbinieku saraksta lapu šajā piemērā ir: HcmWorkerListPage_Employees.
 
 - Saite uz datu avotu — atlasiet datu avotu, uz kuru šī saite atsaucas. Ir pieejami visbiežāk izmantotie avoti, piemēram, **Nodarbinātais** un **Amats**.
 
-- Saite uz lauku — (drīzumā) šī lauka atlasīšana ļaus tieši pāriet no atsevišķa ieraksta programmā Talent uz atsevišķu ierakstu programmā Finance and Operations.
+- Saite uz lauku — (drīzumā) šī lauka atlasīšana ļaus tieši pāriet no atsevišķa ieraksta programmā Talent uz atsevišķu ierakstu programmā Finance.
 
 ### <a name="access-to-links"></a>Piekļuve saitēm
 
 Sistēmas administratori redzēs jaunizveidotās saites uz definētām lapām pat tad, ja opcija **Iespējot šo saiti** būs ir iestatīta uz **Nē**. Šo funkcionalitāti var izmantot saišu testēšanai pirms to rādīšanas citiem darbiniekiem. Visas pārējās lomas konfigurētās saites varēs redzēt tikai pēc tam, kad opcija **Iespējot šo saiti** būs iestatīta uz **Jā**. Darbinieki, kam ir piekļuve lapām, kurās saites tiek rādītas, varēs piekļūt šīm saitēm.
 
-Lietotājiem var būt arī programmā Finance and Operations definētas drošības tiesības piekļūt lapām programmā Finance and Operations. Ja viņiem tādu nav, saites lietošanas laikā tiek parādīts drošības dialoglodziņš.
+Lietotājiem var būt arī programmā Finance definētas drošības tiesības piekļūt lapām programmatūrā Finance and Operations. Ja viņiem tādu nav, saites lietošanas laikā tiek parādīts drošības dialoglodziņš.
 
 
 ## <a name="other-changesfixes"></a>Citas izmaiņas/labojumi

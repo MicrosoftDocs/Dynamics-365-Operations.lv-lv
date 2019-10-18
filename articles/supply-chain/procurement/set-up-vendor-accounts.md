@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547679"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249400"
 ---
 # <a name="set-up-vendor-accounts"></a>Kreditora kontu iestatīšana
 
@@ -60,13 +60,13 @@ Varat saglabāt kreditora kontaktpersonas. Šīs kontaktpersonas var izmantot do
 
 Lai pievienotu kreditoram kontaktpersonu, lapas **Visi kreditori** cilnes **Kreditors** grupā **Iestatīt** noklikšķiniet uz **Kontaktpersonas** &gt; **Pievienot kontaktpersonas**.  
 
-Varat izveidot jaunas kreditora kontaktpersonas. Vai arī varat kopēt detalizētu informāciju no citas personas, kas jau ir reģistrēta programmā Microsoft Dynamics 365 for Finance and Operations, un rediģēt informāciju pēc nepieciešamības.  
+Varat izveidot jaunas kreditora kontaktpersonas. Vai arī varat kopēt informāciju no citas personas, kas jau ir reģistrēta programmatūrā Supply Chain Management un rediģēt informāciju pēc nepieciešamības.  
 
 **Piezīme.** Kreditora kontaktpersonas pievienošana nav tas pats, kas attiecīgā kreditora kontaktinformācijas pievienošana. Lai gan varat pievienot kreditora vispārīgo kontaktinformāciju, var būt arī vairāki konkrēti darbinieki, kuri ir attiecīgā uzņēmuma kontaktpersonas un kuriem ir atsevišķa kontaktinformācija.  
 
 Kontaktpersonas ierakstu nevar dzēst, ja uz kontaktpersonu ir atsauce dokumentā. Tā vietā var deaktivizēt kontaktpersonu.  
 
-Varat pievienot kreditora kontaktpersonas savām personiskajām kontaktpersonām programmā Microsoft Office 365. Taču vispirms ir jāiestata programmu Finance and Operations un Office 365 sinhronizācija, izmantojot gan Microsoft Exchange Server sinhronizāciju, gan Microsoft Outlook iestatīšanas vedni.
+Varat pievienot kreditora kontaktpersonas savām personiskajām kontaktpersonām programmā Microsoft Office 365. Taču vispirms ir jāiestata programmu Supply Chain Management un Office 365 sinhronizācija, izmantojot gan Microsoft Exchange Server sinhronizāciju, gan Microsoft Outlook iestatīšanas vedni.
 
 ## <a name="vendors-in-different-legal-entities"></a>Kreditori dažādās juridiskajās personās
 Ja kreditors ir reģistrēts tikai vienai juridiskajai personai jūsu organizācijā un citām juridiskajām personām ir jāreģistrē tas pats kreditors, varat izmantot lapu **Pievienot kreditoru citai juridiskai personai**, lai konfigurētu kreditoru darījumu veikšanai ar citu juridisko personu. Jāatlasa kreditoru grupa, valūta un aizturēšanas statuss kreditoram izvēlētajā juridiskajā personā.  

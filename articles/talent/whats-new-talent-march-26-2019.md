@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 26. marts)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 26. marts)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741571"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023888"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 26. marts)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 26. marts)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -46,14 +46,14 @@ Tagad attēlus varat iegult tieši aktivitātēs. Papildus iespējai kopēt un i
 
 [![Kartēšana](./media/embedimages.png)](./media/embedimages.png)
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 **8.1.2210 būvējums**
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Pielāgotu lauku atbalsta pieejamība noteiktiem elementiem pakalpojumā Common Data Service 
 
-Tālāk norādītie Common Data Service elementi tagad atbalsta klientu laikus, kas ir izveidoti programmā Dynamics 365 for Talent.
+Tālāk norādītie Common Data Service elementi tagad atbalsta klientu laikus, kas ir izveidoti programmā Talent.
 
 - Nodarbinātais
 - Etniskā izcelsme
@@ -72,7 +72,7 @@ Ar šīs izmaiņas ieviešanu nodarbinātības vēstures lapā nodarbinātības 
 Šajā laidienā fiksētās atlīdzības plāni tagad tiek rādīti, kad drošībā lietotāji tiek ierobežoti pēc uzņēmuma. Visi drošības iestatījumi tiek ievēroti, un fiksētie plāni tiek rādīti tiem uzņēmumiem, kuriem lietotājam ir atļauts piekļūt. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Nevar dzēst darbu ierakstus, programmā Talent izmantojot opciju Atvērt programmā Excel
-Līdz ar šī laidiena ieviešanu tagad varat noņemt darbu ierakstus, izmantojot opciju **Atvērt programmā Excel** programmā Dynamics 365 for Talent.
+Līdz ar šī laidiena ieviešanu tagad varat noņemt darbu ierakstus, izmantojot opciju **Atvērt programmā Excel** programmā Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
 Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
@@ -93,7 +93,7 @@ Organizācijām var būt nepieciešams iestatīt iemeslu kodus noteiktiem atvaļ
 Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. Piemēram, tie varētu būt par vadītājiem vai reģionālajiem darbiniekiem. Šīs izmaiņas dod iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem var piešķirt drošības lomas, kuras nosaka piekļuvi plāniem un ar šiem plāniem saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem. Atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar piekļuvi.
 
 ###  <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski izsūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 
+Līdz ar Finance and Operations atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski nosūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Dublētu darbinieku pārbaudes: lietotāja interfeisa izmaiņas
 Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda atrasto dublikātu skaitu. Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto. Lai izvairītos no datu ievades pārtraukšanas, dublikātu forma netiek atvērta automātiski.

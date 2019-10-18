@@ -1,6 +1,6 @@
 ---
-title: Krājumu aizturēšana
-description: Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir viena no kvalitātes pārbaudes procesa darbībām programmā Microsoft Dynamics 365 for Finance and Operations. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
+title: Krājumu bloķēšana
+description: Šajā tēmā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557480"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250810"
 ---
 # <a name="inventory-blocking"></a>Krājumu aizturēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts apskats par krājuma bloķēšanu, kas ir viena no kvalitātes pārbaudes procesa darbībām programmā Microsoft Dynamics 365 for Finance and Operations. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
+Šajā rakstā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 
 Varat bloķēt krājumu vienības tālāk norādītajos veidos.
 -   Manuāli

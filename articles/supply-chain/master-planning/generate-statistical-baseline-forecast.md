@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
-ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
+ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1729879"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250741"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
 
@@ -47,7 +47,7 @@ Ja prognozes stratēģija ir iestatīta ar opciju **Kopēt vēsturiskā piepras�
 
 Lai nepieļautu ražošanas plānos pārpratumus, noteiktu prognožu intervālu skaitu var sasaldēt. Šis skaits tiek iestatīts laukā **Sasaldēt periodu**. Laukā **Koriģēta pieprasījuma apjoma prognoze** tiek atspējotas iesaldēto intervālu šūnas, vizuāli norādot, ka šīs vērtības nedrīkst mainīt. 
 
-Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja izmantojat Microsoft Dynamics 365 for Finance and Operations pieprasījuma prognozēšanas pakalpojumu, trūkstošos intervālus varat aizpildīt četros veidos. Varat izvēlēties izmantojamo metodi, lapā **Pieprasījuma prognozēšanas parametri** iestatot parametru MISSING\_VALUE\_SUBSTITUTION . 
+Bāzlīnijas pieprasījuma apjoma prognozes sākuma datumam nav jābūt pašreizējam datumam vai datumam nākotnē. Lai iestatītu citu sākuma datumu, izmantojiet lauku **Bāzlīnijas prognozes sākuma datums - Sākuma datums**. Piemēram, jūnijā lietotāji var ģenerēt nākamā gada prognozi. Ja trūkst prognožu intervālu starp vēsturiskā pieprasījuma beigām un bāzlīnijas sākumu, prognozes var būt neprecīzas. Ja izmantojat pieprasījuma prognozēšanas pakalpojumu, trūkstošos intervālus varat aizpildīt četros veidos. Varat izvēlēties izmantojamo metodi, lapā **Pieprasījuma prognozēšanas parametri** iestatot parametru MISSING\_VALUE\_SUBSTITUTION . 
 
 > [!NOTE]
 > Trūkstošo vērtību aizvietošana darbojas tikai datu atšķirībām starp vēsturisko datu sākuma un beigu datumiem. Dati netiks aizpildīti pirms vai pēc pēdējā fiziskā datu punkta, un tā darbojas tikai kā ekstrapolācija starp faktiski pastāvošajiem datu punktiem. 
@@ -56,7 +56,7 @@ Laukā **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** ir jāiest
 
 Kā lauka **Bāzlīnijas prognozes sākuma datums** - **Sākuma datums** vērtību var iestatīt pagājušu datumu. Tas nozīme, ka var ģenerēt pagājuša perioda pieprasījuma apjoma prognozi. Tas ir noderīgi, jo ļauj lietotājiem pielāgot prognozes pakalpojuma parametrus tā, lai par pagājušu periodu ģenerēta statistikas prognoze atbilstu faktiskajam vēsturiskajam pieprasījumam. Lietotāji var pēc tam turpināt izmantot šos parametru iestatījumus, lai ģenerētu turpmākā perioda statistiskās bāzlīnijas prognozi. 
 
-Ja ir atlasīta izvēles rūtiņa **Pārsūtīt manuālās korekcijas uz pieprasījumu apjoma prognozi**, manuāli veiktās iepriekšējā pieprasījuma prognozēšanas iterāciju korekcijas var automātiski piemērot jaunajai bāzlīnijas prognozei. Ja izvēles rūtiņas atlase ir noņemta, manuālās korekcijas netiek pievienotas bāzlīnijas prognozei, bet tās netiek dzēstas. Manuāli veiktās prognozes korekcijas var dzēst tikai prognozes datu importēšanas laikā, noņemot izvēles rūtiņas **Saglabāt manuāli veiktās bāzlīnijas pieprasījuma apjoma prognozes korekcijas** atlasi. Manuāli veiktās korekcijas tiek saglabātas autorizācijas laikā. Tādēļ, ja lietotājs prognozes korekcijas veic manuāli, bet prognozi neautorizē programmatūrā Finance and Operations, šīs izmaiņas tiek zaudētas. Papildinformāciju par manuāli veiktajām korekcijām un to darbību skatiet tēmā [Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md). 
+Ja ir atlasīta izvēles rūtiņa **Pārsūtīt manuālās korekcijas uz pieprasījumu apjoma prognozi**, manuāli veiktās iepriekšējā pieprasījuma prognozēšanas iterāciju korekcijas var automātiski piemērot jaunajai bāzlīnijas prognozei. Ja izvēles rūtiņas atlase ir noņemta, manuālās korekcijas netiek pievienotas bāzlīnijas prognozei, bet tās netiek dzēstas. Manuāli veiktās prognozes korekcijas var dzēst tikai prognozes datu importēšanas laikā, noņemot izvēles rūtiņas **Saglabāt manuāli veiktās bāzlīnijas pieprasījuma apjoma prognozes korekcijas** atlasi. Manuāli veiktās korekcijas tiek saglabātas autorizācijas laikā. Tādēļ, ja lietotājs prognozes korekcijas veic manuāli, bet prognozi neautorizē programmatūrā Supply Chain Management, šīs izmaiņas tiek zaudētas. Papildinformāciju par manuāli veiktajām korekcijām un to darbību skatiet tēmā [Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md). 
 
 Izveidotajai pieprasījuma apjoma prognozei var piešķirt nosaukumu un pievienot komentārus, lai lietotāji varētu vieglāk atrast ģenerēto prognozi. Šīs vērtības ir redzamas prognozes ģenerēšanas vēstures lapā **Statistiskās bāzlīnijas prognozes ģenerēšanas vēsture**. 
 

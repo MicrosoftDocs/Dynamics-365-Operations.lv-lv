@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606807"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024687"
 ---
 # <a name="store-inventory-management"></a>Veikala krājumu pārvaldība
 
 [!include [banner](includes/banner.md)]
 
-Strādājot ar krājumiem programmā Dynamics 365 for Retail un izmantojot POS programmu, ir jāņem vērā, ka POS nodrošina ierobežotu atbalstu krājumu dimensijām un noteiktiem krājumu vienību tipiem.
+Strādājot ar krājumiem programmā Dynamics 365 Retail un izmantojot POS programmu, ir jāņem vērā, ka POS nodrošina ierobežotu atbalstu krājumu dimensijām un noteiktiem krājumu vienību tipiem.
 
 POS risinājums neatbalsta šādas krājumu konfigurācijas:
 
@@ -56,7 +56,7 @@ POS risinājums nodrošina ierobežotu atbalstu šādām dimensijām. Ierobežot
 
 ## <a name="purchase-orders"></a>Pirkšanas pasūtījumi
 
-Pirkšanas pasūtījumi tiek izveidoti galvenajā birojā. Ja pirkšanas pasūtījuma virsrakstā ir iekļauta mazumtirdzniecības noliktava, pasūtījumu var saņemt veikalā, izmantojot programmu Modern POS (MPOS) vai Cloud POS pakalpojumā Microsoft Dynamics 365 for Retail ar operācijas **Izdošana/saņemšana** starpniecību. Kad noliktavā saņemtie daudzumi tiek ievadīti lietojumprogrammas POS laukā **Saņemt tūlīt** attiecīgajam pirkšanas pasūtījuma dokumentam, tie var tikt saglabāti lokāli vai iesniegti. Saglabājot šos datus lokāli, noliktavā esošie krājumi netiek ietekmēti. Saglabāšana ir jāveic tikai tad, ja lietotājs nav gatavs grāmatot kvīti datu bāzē HQ un vēlas tikai īslaicīgi saglabāt iepriekš ievadītos darbības **Saņemt tūlīt** datus. Šādā veidā ar saņemšanu tagad saistītie dati tiek saglabāti lokāli lietotāja kanāla datu bāzē. Pēc tam, kad dokuments tiek apstrādāts, izmantojot opciju **Iesniegt**, dati **Saņemt tūļīt** tiek nosūtīti uz datu bāzi HQ, un tiek grāmatota pirkšanas pasūtījuma saņemšana. 
+Pirkšanas pasūtījumi tiek izveidoti galvenajā birojā. Ja pirkšanas pasūtījuma virsrakstā ir iekļauta mazumtirdzniecības noliktava, pasūtījumu var saņemt veikalā, izmantojot programmu Modern POS (MPOS) vai Cloud POS ar operācijas **Izdošana/saņemšana** starpniecību. Kad noliktavā saņemtie daudzumi tiek ievadīti lietojumprogrammas POS laukā **Saņemt tūlīt** attiecīgajam pirkšanas pasūtījuma dokumentam, tie var tikt saglabāti lokāli vai iesniegti. Saglabājot šos datus lokāli, noliktavā esošie krājumi netiek ietekmēti. Saglabāšana ir jāveic tikai tad, ja lietotājs nav gatavs grāmatot kvīti datu bāzē HQ un vēlas tikai īslaicīgi saglabāt iepriekš ievadītos darbības **Saņemt tūlīt** datus. Šādā veidā ar saņemšanu tagad saistītie dati tiek saglabāti lokāli lietotāja kanāla datu bāzē. Pēc tam, kad dokuments tiek apstrādāts, izmantojot opciju **Iesniegt**, dati **Saņemt tūļīt** tiek nosūtīti uz datu bāzi HQ, un tiek grāmatota pirkšanas pasūtījuma saņemšana. 
 
 ## <a name="transfer-orders"></a>Pārsūtīšanas pasūtījumi
 

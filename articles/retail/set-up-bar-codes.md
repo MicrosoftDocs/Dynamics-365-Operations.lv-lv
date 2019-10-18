@@ -1,6 +1,6 @@
 ---
 title: Iestatīt svītrkodus
-description: Šajā rakstā ir aprakstīts, kā izmantot svītrkodus programmā Microsoft Dynamics 365 for Retail.
+description: Šajā rakstā ir aprakstīts, kā izmantot svītrkodus programmā Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 15d12abe32d3f5a47348016c67a4fb02d0a5d8e3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7a668f8b44c5f573957a91ab19a8b7fac7a95ba
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555471"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024894"
 ---
 # <a name="set-up-bar-codes"></a>Iestatīt svītrkodus
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā izmantot svītrkodus programmā Microsoft Dynamics 365 for Retail.
+Šajā rakstā ir aprakstīts, kā izmantot svītrkodus programmā Dynamics 365 Retail.
 
 Preču iepirkšanai un pārdošanai, preces variantu izsekošanai un debitoru un darbinieku datu iestatīšanai vai izmantot svītrkodus. Svītrkodus var izmantot arī, lai izsniegtu un apstiprinātu kuponus, dāvanu kartes un kredīta notas. Mazumtirdzniecības preces var iestatīt tā, lai uz tām attiektos standarta vai pielāgoti iekšējie svītrkodi. Vienai precei var būt vairāki svītrkodi. Piemēram, precei var būt vairāki svītrkodi tad, ja tā tiek saņemta no dažādiem ražotājiem vai arī tai ir dažādi varianti, kas atkarīgi no izmēra, stila vai krāsas. Svītrkodi var ietvert informāciju par preces svaru vai cenu. Svītrkodu maskas ir veidnes, ko izmanto svītrkodu izveidei.
 
 > [!NOTE]
-> Ja katrai variantu kombinācijai tiek piešķirts unikāls svītrkods, tad, skenējot preces svītrkodu kases sistēmā, programma nosaka, kurš preces variants tiek pārdots. Var arī apkopot un skatīt pārdošanas statistiku pēc variantiem. Katrai izmēru, krāsu un stilu grupai var piešķirt unikālu numuru, kas svītrkodā tiek izmantots konkrētās grupas identificēšanai. Dynamics 365 for Retail izmanto svītrkoda masku, tiek automātiski ģenerētu svītrkodus katrai variantu kombinācijai. Šo funkcionalitāti var izmantot, ja ir pieejams daudz dažādu izmēru, krāsu un stilu, jo, pievienojot katru varianta kodu, ievērojami palielinās kombināciju skaits. Ja šī funkcionalitāte netiek izmantota, svītrkods jāpiešķir katrai preces variantu raksturojošai kombinācijai manuāli.
+> Ja katrai variantu kombinācijai tiek piešķirts unikāls svītrkods, tad, skenējot preces svītrkodu kases sistēmā, programma nosaka, kurš preces variants tiek pārdots. Var arī apkopot un skatīt pārdošanas statistiku pēc variantiem. Katrai izmēru, krāsu un stilu grupai var piešķirt unikālu numuru, kas svītrkodā tiek izmantots konkrētās grupas identificēšanai. Retail izmanto svītrkoda masku, tiek automātiski ģenerētu svītrkodus katrai variantu kombinācijai. Šo funkcionalitāti var izmantot, ja ir pieejams daudz dažādu izmēru, krāsu un stilu, jo, pievienojot katru varianta kodu, ievērojami palielinās kombināciju skaits. Ja šī funkcionalitāte netiek izmantota, svītrkods jāpiešķir katrai preces variantu raksturojošai kombinācijai manuāli.
 
 Svītrkodus var arī izveidot manuāli vai automātiski. Lai izveidotu svītrkodus, izpildiet tālāk aprakstītos uzdevumus to minētajā secībā.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518543"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008383"
 ---
 # <a name="formalize-business-processes"></a>Biznesa procesu formalizēšana
 
@@ -43,7 +43,7 @@ Katram biznesa procesam var definēt procesa īpašnieku. Procesa īpašnieks va
 Procesa īpašnieks nevar izveidot jaunus biznesa procesus vai biznesa procesu veidnes vai dzēst aktīvos biznesa procesus vai biznesa procesu veidnes.
 
 ## <a name="tasks"></a>Uzdevumi
-Biznesa process bieži ietver vairākus uzdevumus. Dažus uzdevumus, piemēram, iekšējā kursa piedāvājuma pārskatīšanu, var izpildīt programmā Microsoft Dynamics 365 for Talent[?]. Šajā gadījumā opcija ir atlasīta laukā **Uzdevuma saite**. Citi uzdevumi var ietvert lapu pārskatīšanu vai aizpildīšanu tīmekļa vietnē. Šajā gadījumā **vietrādis URL** tiek atlasīts laukā **Uzdevuma saite**​. Tādā gadījumā var ievadīt tīmekļa vietnes adresi. Var ievadīt gan ārējās, gan iekšējās saites URL. Var izveidot arī manuāli izpildāmu darbību uzdevumus, piemēram, visu struktūras pieejamības pārskatīšana. Šajā gadījumā uzdevuma saite nav nepieciešama. Šī elastība ļauj izsekot visaptveroša procesa dažāda veida uzdevumus.
+Biznesa process bieži ietver vairākus uzdevumus. Dažus uzdevumus, piemēram, iekšējā kursa piedāvājuma pārskatīšanu, var izpildīt programmā Microsoft Dynamics 365 Talent. Šajā gadījumā opcija ir atlasīta laukā **Uzdevuma saite**. Citi uzdevumi var ietvert lapu pārskatīšanu vai aizpildīšanu tīmekļa vietnē. Šajā gadījumā **vietrādis URL** tiek atlasīts laukā **Uzdevuma saite**​. Tādā gadījumā var ievadīt tīmekļa vietnes adresi. Var ievadīt gan ārējās, gan iekšējās saites URL. Var izveidot arī manuāli izpildāmu darbību uzdevumus, piemēram, visu struktūras pieejamības pārskatīšana. Šajā gadījumā uzdevuma saite nav nepieciešama. Šī elastība ļauj izsekot visaptveroša procesa dažāda veida uzdevumus.
 
 Uzdevumu var piešķirt konkrētam darbiniekam vai pozīcijai. Piemēram, Kompensāciju un atvieglojumu jautājumu nodaļas vadītājs vienmēr ir persona, kas veic apdrošināšanas prēmiju pārskatīšanu. Tādēļ, izveidojot šo uzdevumu, atlasiet **Amats** laukā **Piešķires tips** un pēc tam atlasiet **Atlīdzību un atvieglojumu vadītājs** sarakstā **Amats**. Kad biznesa process tiek sākts, uzdevums tiek piešķirts darbiniekam, kas ieņem amatu **Atlīdzību un atvieglojumu vadītājs**. Lai uzdevumu piešķirtu konkrētam darbiniekam, atlasiet **Darbinieks** laukā **Piešķires tips** un pēc tam atlasiet attiecīgo personu.
 

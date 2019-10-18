@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572029"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248885"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
@@ -38,7 +38,7 @@ Kad pirkšanas pieprasījums ir apstiprināts, to var izmantot pirkšanas pasūt
 ## <a name="creating-purchase-requisitions"></a>Pirkšanas pieprasījumu izveidošana
 Pirkšanas pieprasījumu var izveidot lapā **Mani pirkšanas pieprasījumi**, kur var atlasīt nepieciešamos krājumus un pakalpojumus. Krājumus var izvēlēties jūsu organizācijas izveidotā sagādes katalogā vai var pieprasīt tos krājumus, kas nav atrodami katalogā, atlasot iepirkuma kategoriju un ievadot preces datus.  
 
-Pirms varat iesniegt pirkšanas pieprasījumu pārskatīšanai, programmā Microsoft Dynamics 365 for Finance and Operations ir jākonfigurē darbplūsmas. Izmantojiet darbplūsmu, lai apstrādātu pirkšanas pieprasījumu pārskatīšanas procesā no sākotnējā statusa **Uzmetums** līdz gala statusam **Apstiprināts**.
+Pirms varat iesniegt pirkšanas pieprasījumu pārskatīšanai, programmā ir jākonfigurē darbplūsmas. Izmantojiet darbplūsmu, lai apstrādātu pirkšanas pieprasījumu pārskatīšanas procesā no sākotnējā statusa **Uzmetums** līdz gala statusam **Apstiprināts**.
 
 ### <a name="purchase-requisition-statuses"></a>Pirkšanas pieprasījumu statusi
 
@@ -141,7 +141,7 @@ Izveidojot jūsu organizācijas pieprasījumu un izmantojot iepirkuma procedūra
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Pieprasījumi, kuru mērķis ir papildināšana
 
-Pieprasījums ar patēriņa mērķi attiecas uz to krājumu vai pakalpojumu vajadzības, kas tiks izmantoti iekšēji jūsu uzņēmumā. Šim mērķim izveidotais pieprasījums vienmēr tiek izpildīts pēc pirkšanas pasūtījuma. Ja programma Microsoft Dynamics 365 for Finance and Operations ir iestatīta automātiskai pirkšanas pasūtījumu ģenerēšana, tad pirkšanas pasūtījumi tiek izveidoti pēc pirkšanas pieprasījuma apstiprināšanas.
+Pieprasījums ar patēriņa mērķi attiecas uz to krājumu vai pakalpojumu vajadzības, kas tiks izmantoti iekšēji jūsu uzņēmumā. Šim mērķim izveidotais pieprasījums vienmēr tiek izpildīts pēc pirkšanas pasūtījuma. Ja programmatūra Supply Chain Management ir iestatīta tā, lai pirkšanas pasūtījumi tiktu izveidoti automātiski, tad pēc pirkšanas pieprasījuma apstiprināšanas tiek izveidoti pirkšanas pasūtījumi.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Pieprasījumi, kuru mērķis ir papildināšana
 

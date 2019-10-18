@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755401"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009904"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Atvieglojumu programmas definēšana un pārvaldība
 
@@ -51,7 +51,7 @@ Katram atvieglojumu tipam, piemēram, redzes vai zobu, organizācija saviem darb
 [![Atvieglojumu attēls](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Piemērojamība
-Daudzi faktori ietekmē darbinieka atbilstību dažādiem atvieglojumu tipiem, kurus piedāvā darba devējs. Kad veidojat atvieglojumu programmatūrā Microsoft Talent, varat iestatīt piemērojamības tipu, kas attiecas uz šo atvieglojumu. 
+Daudzi faktori ietekmē darbinieka atbilstību dažādiem atvieglojumu tipiem, kurus piedāvā darba devējs. Kad veidojat atvieglojumu Dynamics 365 Talent, varat iestatīt piemērojamības tipu, kas attiecas uz šo atvieglojumu. 
 
 Varat padarīt atvieglojumu pieejamu visiem nodarbinātajiem. Piemēram, daži uzņēmumi kā papildienākumu piedāvā visiem darbiniekiem stāvvietas caurlaides. Veidojot šo atvieglojumu, iestatiet piemērojamību **Visi darbinieki ir piemēroti**. 
 

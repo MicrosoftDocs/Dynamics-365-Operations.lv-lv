@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572084"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025454"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana
 
@@ -36,11 +36,11 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 
 ## <a name="install-the-one-click-designer"></a>Instalēt viena klikšķa veidotāju
 
-1. Programmā Microsoft Dynamics 365 for Retail izmantojiet augšējā kreisajā pusē esošo izvēlni, lai pārietu uz sadaļu **Mazumtirdzniecība** **un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
+1. Programmā Retail izmantojiet augšējā kreisajā pusē esošo izvēlni, lai pārietu uz sadaļu **Mazumtirdzniecība** **un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.
 2. Atlasiet jebkuru izkārtojumu, kura programmas tips ir **Modern POS operētājsistēmai Windows** vai **Mākoņa POS**, un pēc tam noklikšķiniet uz **Izkārtojuma veidotājs**.
 3. Internet Explorer loga apakšdaļā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**, lai instalētu viena klikšķa veidotāju. (Citās pārlūkprogrammās šī paziņojumu josla var tikt parādīta citā vietā.)
 4. Lai instalētu Mazumtirdzniecības veidotāja resursdatoru, parādītajā ziņojuma lodziņā **Programmas palaišana - Drošības brīdinājums** noklikšķiniet uz **Palaist**. Norises indikators rāda instalēšanas norises gaitu.
-5. Kad instalēšana ir pabeigta, lapā **Pierakstīšanās** ievadiet savu Microsoft Dynamics 365 for Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
+5. Kad instalēšana ir pabeigta, lapā **Pierakstīties** ievadiet savu Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
 6. Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, varat noformēt pats savu izkārtojumu vai mainīt esošo izkārtojumu.
 
     [![Izkārtojums viena klikšķa veidotājā](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
     **Risinājumi.**
 
     - Pārlūkprogrammā Internet Explorer pārliecinieties, vai šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Konfidencialitāte** &gt; **Atrast uznirstošo elementu bloķētāju** un mainiet iestatījumu, ja tas ir nepieciešams.
-    - Pārlūkprogrammā Internet Explorer pievienojiet Dynamics 365 for Retail vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+    - Pārlūkprogrammā Internet Explorer pievienojiet Retail vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 - Programma nestartējas un jums liek sazinieties ar kreditoru.
 
-    **Risinājums.** Pārlūkprogrammā Internet Explorer pievienojiet Dynamics 365 for Retail vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+    **Risinājums.** Pārlūkprogrammā Internet Explorer pievienojiet Retail vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 **Zināma problēma.** Veidotājs nedarbojas pareizi pārlūkprogrammās Google Chrome un Mozilla Firefox. Mēs strādājam, lai šo problēmu novērstu.
 

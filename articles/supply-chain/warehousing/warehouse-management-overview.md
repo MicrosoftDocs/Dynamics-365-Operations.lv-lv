@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865140"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251066"
 ---
-# <a name="warehouse-management-overview"></a>Noliktavas vadības apskats
+# <a name="warehouse-management-overview"></a>Noliktavas pārvaldības pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Noliktavas pārvaldības modulis programmai Dynamics 365 for Finance and Operations ļauj pārvaldīt noliktavas procesus ražošanas, izplatīšanas un mazumtirdzniecības uzņēmumos. Šim modulim ir plašs līdzekļu klāsts, lai noliktavas procedūras atbalstītu optimāli un jebkurā laikā. Noliktavas vadība ir pilnīgi integrēta citos programmatūras Finance and Operations biznesa procesos, piemēram, transportēšanā, ražošanā, kvalitātes kontrolē, pirkšanā, pārsūtīšanā, pārdošanā un atgriešanā.
+Modulis Noliktavas vadība jums ļauj pārvaldīt noliktavas procesus ražošanā, izplatīšanā un mazumtirdzniecības uzņēmumos. Šim modulim ir plašs līdzekļu klāsts, lai noliktavas procedūras atbalstītu optimāli un jebkurā laikā. Noliktavas vadība ir pilnīgi integrēta citos biznesa procesos, piemēram, transportēšanā, ražošanā, kvalitātes kontrolē, pirkšanā, pārsūtīšanā, pārdošanā un atgriešanā.
 
 ## <a name="get-started"></a>Sākt darbu
 Lai sāktu strādāt ar moduli Noliktavas vadība, jums ir jāizpilda vispārīgo noliktavas parametru iestatīšana, lai atbalstītu jūsu uzņēmuma biznesa procesus.

@@ -1,6 +1,6 @@
 ---
-title: Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana ar programmu Finance and Operations
-description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Sales ietverto pārdošanas piedāvājumu galvu un rindu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
+title: Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana ar programmu Supply Chain Management
+description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto pārdošanas piedāvājumu galvu un rindu tiešai sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743375"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251251"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana ar programmu Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Sales ietverto pārdošanas piedāvājumu galvu un rindu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Finance and Operations.
+Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto pārdošanas piedāvājumu galvu un rindu tiešai sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
-Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Finance and Operations un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Finance and Operations un Sales.
+Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Supply Chain Management un Sales instancēs. Risinājuma ´No potenciālā klienta līdz skaidrai naudai´ veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Supply Chain Management un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Supply Chain Management un Sales.
 
 [![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Veidne un uzdevumi
 
-Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu sinhronizēšanai ar programmu Finance and Operations tiek izmantota tālāk norādītā veidne un pamata uzdevumi.
+Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu sinhronizēšanai ar programmu Supply Chain Management tiek izmantota tālāk norādītā veidne un pamata uzdevumi.
 
-- **Veidnes nosaukums līdzeklī Datu integrācija:** Pārdošanas piedāvājumi (no Sales uz Fin and Ops) — tieši
+- **Veidnes nosaukums līdzeklī Datu integrācija:** Pārdošanas piedāvājumi (no Sales uz Supply Chain Management) — tieši
 - **Uzdevumu nosaukumi datu integrācijas projektā**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu sinhroniz
 
 Pirms pārdošanas piedāvājumu virsrakstu un rindu sinhronizēšanas ir jāveic tālāk norādītie sinhronizācijas uzdevumi.
 
-- Preces (no Fin and Ops uz Sales) — tieši
-- Konti (no Sales uz Fin and Ops) — tieši (ja tiek izmantots)
-- Kontaktpersonas kā debitori (no Sales uz Fin and Ops) — tieši (ja tiek izmantots)
+- Preces (no Supply Chain Management uz Sales) – Tiešā
+- Konti (no Sales uz Supply Chain Management) - Tiešā (ja izmantots)
+- Kontaktpersonas Klientiem (no Sales uz Supply Chain Management) — Tiešā (ja izmantots)
 
 ## <a name="entity-set"></a>Elementu kopa
 
@@ -66,7 +66,7 @@ Pirms pārdošanas piedāvājumu virsrakstu un rindu sinhronizēšanas ir jāvei
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Pārdošanas piedāvājumi tiek izveidoti programmā Sales un sinhronizēti ar Finance and Operations.
+Pārdošanas piedāvājumi tiek izveidoti programmā Sales un sinhronizēti ar Supply Chain Management.
 
 Pārdošanas piedāvājumi no Sales tiek sinhronizēti tikai tad, ja ir izpildīti tālāk norādītie nosacījumi.
 
@@ -75,13 +75,13 @@ Pārdošanas piedāvājumi no Sales tiek sinhronizēti tikai tad, ja ir izpildī
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Risinājums No potenciālā klienta līdz skaidrai naudai programmai Sales
 
-Elementam **Piedāvājums** ir pievienots lauks **Ir tikai ārēji uzturētas preces**, lai pastāvīgi izsekotu to, vai pārdošanas piedāvājumā ir ietvertas tikai ārēji uzturētas preces. Ja pārdošanas piedāvājumā ir tikai ārēji uzturētas preces, tās tiek uzturētas programmā Finance and Operations. Šī darbība palīdz nodrošināt to, ka nemēģināt sinhronizēt pārdošanas piedāvājuma rindas, kurās ietvertās preces nav zināmas programmā Finance and Operations.
+Elementam **Piedāvājums** ir pievienots lauks **Ir tikai ārēji uzturētas preces**, lai pastāvīgi izsekotu to, vai pārdošanas piedāvājumā ir ietvertas tikai ārēji uzturētas preces. Ja pārdošanas piedāvājumā ir tikai ārēji uzturētas preces, tās tiek uzturētas programmā Supply Chain Management. Šī darbība palīdz nodrošināt to, ka nemēģināt sinhronizēt pārdošanas piedāvājuma rindas, kurās ietvertās preces nav zināmas programmā Supply Chain Management.
 
-Visas pārdošanas piedāvājumā ietvertās piedāvātās preces tiek atjauninātas, izmantojot lauka**Ir tikai ārēji uzturētas preces** informāciju no pārdošanas piedāvājuma galvenes. Šī informācija ir ietverta elementa **QuoteDetails** laukā **Piedāvājumā ir tikai ārēji uzturētas preces**.
+Visas pārdošanas piedāvājumā ietvertās piedāvātās preces tiek atjauninātas, izmantojot lauka **Ir tikai ārēji uzturētas preces** informāciju no pārdošanas piedāvājuma galvenes. Šī informācija ir ietverta elementa **QuoteDetails** laukā **Piedāvājumā ir tikai ārēji uzturētas preces**.
 
-Piedāvātajai precei var pievieno atlaidi, kas tiek sinhronizēta ar programmu Finance and Operations. Galvenes lauki **Atlaide**, **Maksas** un **Nodokļi** tiek kontrolēti, izmantojot iestatījumus programmā Finance and Operations. Pašlaik šie iestatījumi neatbalsta integrācijas kartēšanu. Pašlaik lauki **Cena**, **Atlaide**, **Maksa** un **Nodokļi** tiek uzturēti un apstrādāti programmā Finance and Operations.
+Piedāvātajai precei var pievieno atlaidi, kas tiek sinhronizēta ar programmu Supply Chain Management. Galvenes lauki **Atlaide**, **Maksas** un **Nodokļi** tiek kontrolēti, izmantojot iestatījumus programmā Supply Chain Management. Pašlaik šie iestatījumi neatbalsta integrācijas kartēšanu. Pašlaik lauki **Cena**, **Atlaide**, **Maksa** un **Nodokļi** tiek uzturēti un apstrādāti programmā Supply Chain Management.
 
-Programmā Sales risinājums tālāk norādītos laukus pārveido par tikai lasāmiem, jo attiecīgās vērtības netiek sinhronizētas ar programmu Finance and Operations.
+Programmā Sales risinājums tālāk norādītos laukus pārveido par tikai lasāmiem, jo attiecīgās vērtības netiek sinhronizētas ar programmu Supply Chain Management.
 
 - Tikai lasāmie lauki pārdošanas piedāvājuma galvenē: **Atlaide %**, **Atlaide** un **Vedmaksa**
 - Tikai lasāmie piedāvāto produktu lauki: **Nodoklis**
@@ -94,9 +94,9 @@ Pirms pārdošanas piedāvājuma sinhronizēšanas ir svarīgi atjaunināt tāl�
 
 - Pārliecinieties, ka darba grupai, kurai ir piešķirts ar Sales savienojumu kopu saistītais lietotājs, ir iestatītas vajadzīgās atļaujas. Ja izmantojat demonstrācijas datus, tad lietotājam parasti ir administratora piekļuves atļauja, bet darba grupai nav administratora piekļuves atļaujas. Ja darba grupai nav administratora piekļuves atļaujas, palaižot projektu līdzeklī Datu integrācija, saņemat kļūdas ziņojumu par to, ka trūkst galvenās darba grupas.
 
-    Lai iestatītu darba grupas atļaujas, pārejiet uz sadaļu **Iestatījumi** &gt; **Drošība** &gt; **Darba grupas** un atlasiet attiecīgo darba grupu. Atlasiet **Pārvaldīt lomas** un pēc tam atlasiet lomu, kurai ir piešķirtas vajadzīgās atļaujas, piemēram, **Sistēmas administrators**.
+    Lai iestatītu darba grupas atļaujas, pārejiet uz sadaļu **Iestatījumi** &gt; **Drošība** &gt; **Darba grupas** un atlasiet attiecīgo darba grupu. Atlasiet **Pārvaldīt lomas** un pēc tam atlasiet lomu, kurai ir piešķirtas vajadzīgās atļaujas, piemēram, **Sistēmas administrators**.
 
-- Pārejiet uz sadaļu **Iestatījumi** &gt; **Administrēšana** &gt; **Sistēmas iestatījumi** &gt; **Pārdošana** un pārliecinieties, ka ir izmantoti tālāk norādītie iestatījumi.
+- Pārejiet uz sadaļu **Iestatījumi** &gt; **Administrēšana** &gt; **Sistēmas iestatījumi** &gt; **Pārdošana** un pārliecinieties, ka ir izmantoti tālāk norādītie iestatījumi.
 
     - Ir iestatīta opcijas **Lietot sistēmas cenu noteikšanas sistēmu** vērtība **Jā**.
     - Ir iestatīta lauka **Atlaides aprēķināšanas metode** vērtība **Rindas vienums**.
@@ -111,20 +111,20 @@ Pirms pārdošanas piedāvājuma sinhronizēšanas ir svarīgi atjaunināt tāl�
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Pārliecinieties, ka programmā Finance and Operations pastāv nepieciešamā vienuma **SalesUnitSymbol** vērtību karte.
+- Pārliecinieties, ka nepieciešamā vienuma **SalesUnitSymbol** vērtību karte ir programmā Supply Chain Management.
 - Pārliecinieties, ka programmā Sales ir definētas nepieciešamās vienības.
 
     Kartējumam no **oumid.name** uz **SalesUnitSymbol** ir definēta veidnes vērtība ar vērtību karti.
 
-- Pēc izvēles varat pievienot tālāk norādītos kartējumus, lai palīdzētu nodrošināt pārdošanas piedāvājuma rindu importēšanu programmā Finance and Operations gadījumos, ja nav pieejama debitora vai preces noklusējuma informācija.
+- Pēc izvēles varat pievienot tālāk norādītos kartējumus, lai palīdzētu nodrošināt pārdošanas piedāvājuma rindu importēšanu programmā Supply Chain Management gadījumos, ja nav pieejama debitora vai preces noklusējuma informācija.
 
-    - **SiteId** — vieta ir jānorāda, lai programmā Finance and Operations ģenerētu piedāvājumu un pārdošanas pasūtījumu rindas. Laukam **SiteId** nav noklusējuma veidnes vērtības.
-    - **WarehouseId** — noliktava ir jānorāda, lai programmā Finance and Operations apstrādātu piedāvājumu un pārdošanas pasūtījumu rindas. Laukam **WarehouseId** nav noklusējuma veidnes vērtības.
+    - **SiteId**— vieta ir jānorāda, lai programmā Supply Chain Management ģenerētu piedāvājumu un pārdošanas pasūtījumu rindas. Laukam **SiteId** nav noklusējuma veidnes vērtības.
+    - **WarehouseId**— noliktava ir jānorāda, lai programmā Supply Chain Management apstrādātu piedāvājumu un pārdošanas pasūtījumu rindas. Laukam **WarehouseId** nav noklusējuma veidnes vērtības.
 
 ## <a name="template-mapping-in-data-integrator"></a>Veidnes kartēšana datu integrētājā
 
 > [!NOTE]
-> - Laukus **Atlaide**, **Maksas** un **Nodokļi** kontrolē kompleksi iestatījumi programmā Finance and Operations. Pašlaik šie iestatījumi neatbalsta integrācijas kartēšanu. Pašreizējā versijā laukus **Cena**, **Atlaide**, **Maksa** un **Nodokļi** apstrādā programma Finance and Operations.
+> - Lauki **Atlaide**, **Maksas** un **Nodokļi** tiek kontrolēti, izmantojot saliktus iestatījumus programmā Supply Chain Management. Pašlaik šie iestatījumi neatbalsta integrācijas kartēšanu. Pašreizējā versijā laukus **Cena**, **Atlaide**, **Maksa** un **Nodokļi** apstrādā programma Supply Chain Management.
 > - Noklusējuma kartējumos nav iekļauti lauki **Maksājumu nosacījumi**, **Kravu pārvadājumu nosacījumi**, **Piegādes nosacījumi**, **Piegādes metode** un **Piegādes veids**. Lai kartētu šos laukus, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēts elements.
 
 Tālāk esošajos attēlos parādīts piemērs ar veidnes kartēšanu datu integrētājā.

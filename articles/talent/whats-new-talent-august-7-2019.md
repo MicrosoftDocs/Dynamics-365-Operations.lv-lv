@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 6. augusts)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas risinājumā Dynamics 365 Talent (2019. gada 6. augusts)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/6/2019
@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 90bac5aa9565549b2e257b0f6804a1bad53f2e9a
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: b642b5745daa6aa06450cf82abee2c51c60ff9a6
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867683"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024049"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-6-2019"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 6. augusts)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Talent (2019. gada 6. augusts)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2412.
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Core HR kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Core HR.
 
 ## <a name="in-preview"></a>Priekšskatījumā
 
@@ -59,6 +59,6 @@ Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskai
 
 ## <a name="coming-soon"></a>Drīzumā
 
-### <a name="platform-update-29"></a>Platformas update 29
+### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations Platform update 29
 
-Papildinformāciju par atjauninājumu Platform update 29 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Papildinformāciju par atjauninājumu Finance and Operations Platform update 29 skatiet rakstā [Priekšskatījuma līdzekļi Dynamics 365 Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 885e2d743cd2b01588546327840508f6f7e95958
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6d174a8acac3863fb6d9f9431c6bc777cb717470
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518517"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008179"
 ---
 # <a name="talent-client-disconnects"></a>Talent klients atvienojas
 
@@ -47,7 +47,7 @@ Debitors tiek atvienots no vides un nav zināms, kāpēc. Debitors saņem vienu 
 
 **Pārlūkprogrammu veidi:** Google Chrome, Internet Explorer un Microsoft Edge
 
-Lietotāji tiek atvienoti no platformas Microsoft Dynamics 365 for Talent, ja vienlaicīgi ir atvērtas divas dažādas sesijas ar vienu un to pašu lietotāju un vienu un to pašu pārlūkprogrammas veidu. (Piemēram, lietotājs A skata gan 1. vidi, gan 2. vidi pārlūkprogrammā Chrome.) Nav svarīgi, vai lietotāji atver citus pārlūkprogrammas logus vai dažādas cilnes. Ja tiek izmantoti tie paši lietotāja akreditāc. dati, lai vienlaicīgi pierakstītos gan 1. vidē, gan 2. vidē tajā pašā pārlūkprogrammas tipā, Talent atvieno vienu no sesijām.
+Lietotāji tiek atvienoti no Microsoft Dynamics 365 Talent, ja vienlaicīgi ir atvērtas divas dažādas sesijas ar vienu un to pašu lietotāju un vienu un to pašu pārlūkprogrammas veidu. (Piemēram, lietotājs A skata gan 1. vidi, gan 2. vidi pārlūkprogrammā Chrome.) Nav svarīgi, vai lietotāji atver citus pārlūkprogrammas logus vai dažādas cilnes. Ja tiek izmantoti tie paši lietotāja akreditāc. dati, lai vienlaicīgi pierakstītos gan 1. vidē, gan 2. vidē tajā pašā pārlūkprogrammas tipā, Talent atvieno vienu no sesijām.
 
 **Risinājums**
 

@@ -3,7 +3,7 @@ title: Pārdošanas komisijas kārtulu iestatīšana
 description: Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16b0525c0fd133b2f41013e9b7daf47466e15ffe
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833934"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995217"
 ---
 # <a name="set-up-sales-commission-rules"></a>Pārdošanas komisijas kārtulu iestatīšana
 
@@ -31,70 +31,68 @@ ms.locfileid: "1833934"
 
 
 ## <a name="set-up-commission-groups-and-commission-rates"></a>Komisijas grupu un komisiju likmju iestatīšana
-1. Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Komisijas debitoru grupas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Grupa ierakstiet vērtību.
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Noklikšķiniet uz Saglabāt.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Komisijas > Komisijas debitoru grupas**.
+2. Atlasiet **Jauns**.
+3. Laukā **Grupa** ierakstiet vērtību.
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Atlasiet **Saglabāt**.
 6. Aizvērt lapu.
-7. Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Krājumu grupas.
-8. Noklikšķiniet uz Jauns.
-9. Laukā Grupa ierakstiet vērtību.
-10. Laukā Nosaukums ierakstiet kādu vērtību.
-11. Aizvērt lapu.
-12. Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Pārdošanas grupas.
-    * Komisijas pārdošanas grupā norādīti darbinieki pārdošanas pārstāvja lomās, kas ir tiesīgi saņemt komisiju, kad debitors, kas saistīts ar attiecīgo pārdošanas grupu, pērk noteiktus krājumus.  
-    * USMF demonstrācijas datu uzņēmumā ir pārdošanas grupa ar nosaukumu "Tirdzniecības pārstāvji ASV".  
-13. Darbību rūtī noklikšķiniet uz Vispārīgi.
-14. Noklikšķiniet uz Tirdzn. pārstāvis.
-    * Lapā Tirdzn. pārstāvis ir redzams to uzņēmuma pārdevēju saraksts, kuri ir saistīti ar konkrēto komisijas grupu. Vairākus pārdošanas pārstāvjus var piešķirt vienai grupai un noteikt to attiecīgo daļu kopējā komisijā kā procentuālu vērtību. Visu darbinieku kopējā komisija nedrīkst pārsniegt 100.  
-15. Sarakstā atzīmējiet atlasīto rindu.
-16. Noklikšķiniet uz Rediģēt.
-17. Iestatiet Komisijas daļa uz "50".
-18. Noklikšķiniet uz Jauns.
-19. Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-20. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību “Susan Burk”.
-21. Noklikšķiniet uz Atlasīt.
-22. Iestatiet Komisijas daļa uz "50".
-23. Noklikšķiniet uz Saglabāt.
-24. Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Komisijas naudas aprēķins.
-    * Laukā Komisijas naudas aprēķins jūs nosakāt komisijas likmi, kura darbiniekam ir jāsaņem par pārdošanas transakciju, ja tā satur iepriekš iestatīto debitora un preces kombināciju. Kā daļu no komisijas iestatīšanas jums jānorāda komisijas aprēķina pamats un vai tai vajadzētu iekļaut vai izslēgt atlaides. Varat ievadīt arī derīguma termiņu, kura laikā komisijas likme ir aktīva.  
-25. Noklikšķiniet uz Jauns.
-26. Laukā Krājuma kods atlasiet Grupa.
-27. Laukā Krājumu saistība noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-28. Sarakstā atrodiet un atlasiet grupu, kuru izveidojāt agrāk.
-29. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-30. Laukā Debitora kods atlasiet "Grupa".
-31. Laukā Debitors/grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+7. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Komisijas > Krājumu grupas**.
+8. Atlasiet **Jauns**.
+9. Laukā **Grupa** ierakstiet vērtību.
+10. Laukā **Nosaukums** ierakstiet kādu vērtību.
+11. Atlasiet **Saglabāt**.
+12. Aizvērt lapu.
+13. Pārejiet uz sadaļu **Pārdošana un mārketings > Komisijas > Pārdošanas grupas**.
+    - Komisijas pārdošanas grupā norādīti darbinieki pārdošanas pārstāvja lomās, kas ir tiesīgi saņemt komisiju, kad debitors, kas saistīts ar attiecīgo pārdošanas grupu, pērk noteiktus krājumus.  
+    - USMF demonstrācijas datu uzņēmumā ir pārdošanas grupa ar nosaukumu "Tirdzniecības pārstāvji ASV".  
+14. **ADarbību rūtī** atlasiet **Vispārīgi**.
+15. Noklikšķiniet uz **Tirdzniecības pārstāvis**. Lapā Tirdzn. pārstāvis ir redzams to uzņēmuma pārdevēju saraksts, kuri ir saistīti ar konkrēto komisijas grupu. Vairākus pārdošanas pārstāvjus var piešķirt vienai grupai un noteikt to attiecīgo daļu kopējā komisijā kā procentuālu vērtību. Visu darbinieku kopējā komisija nedrīkst pārsniegt 100. 
+16. Sarakstā atzīmējiet atlasīto rindu.
+17. Atlasiet **Rediģēt**.
+18. Iestatiet **Komisijas daļa** uz "50".
+19. Klikšķiniet **Jauns**.
+20. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+21. Izmantojiet līdzekli **Ātrais filtrs**, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību “Susan Burk”.
+22. Noklikšķiniet uz **Atlasīt**.
+23. Iestatiet **Komisijas daļa** uz "50".
+24. Noklikšķiniet uz **Saglabāt**.
+25. Pārejiet uz sadaļu **PPārdošana un mārketings > Komisijas > Komisijas naudas aprēķins**. Lapā **Komisijas naudas aprēķins** jūs nosakāt komisijas likmi, kura darbiniekam ir jāsaņem par pārdošanas transakciju, ja tā satur iepriekš iestatīto debitora un preces kombināciju. Kā daļu no komisijas iestatīšanas jums jānorāda komisijas aprēķina pamats un vai tai vajadzētu iekļaut vai izslēgt atlaides. Varat ievadīt arī derīguma termiņu, kura laikā komisijas likme ir aktīva.  
+26. Klikšķiniet **Jauns**.
+27. Laukā **Krājuma kods** atlasiet Grupa.
+28. Laukā **Krājumu saistība** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
+29. Sarakstā atrodiet un atlasiet grupu, kuru izveidojāt agrāk.
+30. Laukā **Debitora kods** atlasiet "Grupa".
+31. Laukā **Debitors/grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 32. Sarakstā atlasiet grupu, kuru iestatījāt agrāk.
-33. Laukā Tirdzn. pārst./grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. 
+33. Laukā **Tirdzn. pārst./grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 34. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Paturiet opciju "Pirms rindas atlaides".  
-    * Paturiet opciju "Ieņēmumi" kā komisijas vērtības aprēķina pamatu.    
+    - Paturiet opciju "Pirms rindas atlaides".  
+    - Paturiet opciju "Ieņēmumi" kā komisijas vērtības aprēķina pamatu.    
 35. Laukā Komisijas nauda procentos ievadiet kādu skaitli.
-36. Noklikšķiniet uz Saglabāt.
+36. Noklikšķiniet uz **Saglabāt**.
 
 ## <a name="setting-up-commission-posting"></a>Komisijas naudas grāmatošanas iestatīšana
-1. Pārejiet uz sadaļu Pārdošana un mārketings > Komisijas > Komisijas naudas grāmatošana.
-    * Komisijas naudas ir jāmaksā darbiniekiem, un tāpēc tās jāiestata tā, lai nodrošinātu pareizu finanšu grāmatošanu atbilstošos Virsgrāmatas kontos. Tas tiek darīts lapā Komisijas grāmatošana. Pārskatiet iestatījumus, kas ir pieejami pašreizējam uzņēmumam. Parasti komisijas summas tiek grāmatotas speciālā izdevumu kontā un tiek nosegtas ar speciālu kreditoru kontu. Ja jums nav komisijas grāmatošanas noteikumu iestatījumu, sistēmai neizdosies veikt rēķina izrakstīšanu pārdošanas pasūtījumam, kam piemērojama komisija.  
+1. Dodieties uz **Navigācijas rūts > Pārdošana un mārketings > Komisijas > Komisijas naudas grāmatošana**. Komisijas naudas ir jāmaksā darbiniekiem, un tāpēc tās jāiestata tā, lai nodrošinātu pareizu finanšu grāmatošanu atbilstošos **Virsgrāmatas** kontos. Tas tiek darīts lapā **Komisijas grāmatošana**. Pārskatiet iestatījumus, kas ir pieejami pašreizējam uzņēmumam. Parasti komisijas summas tiek grāmatotas speciālā izdevumu kontā un tiek nosegtas ar speciālu kreditoru kontu. Ja jums nav komisijas grāmatošanas noteikumu iestatījumu, sistēmai neizdosies veikt rēķina izrakstīšanu pārdošanas pasūtījumam, kam piemērojama komisija.  
 2. Aizvērt lapu.
 
 ## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a>Komisijas grupas piešķiršana debitoram un precei
-1. Pārejiet uz sadaļu Pārdošana un mārketings > Debitori > Visi debitori.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Debitori > Visi debitori**.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Noklikšķiniet uz Rediģēt.
-5. Izvērsiet sadaļu Pārdošanas pasūtījuma noklusējuma informācija.
-6. Laukā Komisijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+4. Noklikšķiniet uz **Rediģēt**.
+5. Izvērsiet sadaļu **Pārdošanas pasūtījuma noklusējuma informācija**.
+6. Laukā **Komisijas grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 7. Sarakstā atlasiet grupu, kuru izveidojāt agrāk.
-8. Laukā Pārdošanas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+8. Laukā **Pārdošanas grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-10. Noklikšķiniet uz Saglabāt.
-11. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Izlaistās preces.
-12. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "T0020".
+10. Noklikšķiniet uz **Saglabāt**.
+11. Dodieties uz **Navigācijas rūts > Moduļi > Preču informācijas pārvaldība > Preces > Tirdzniecībā izlaistās preces**.
+12. Izmantojiet līdzekli **Filtrs**, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "T0020".
 13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-14. Noklikšķiniet uz Rediģēt.
-15. Izvērsiet sadaļu Pārdot.
-16. Laukā Komisijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+14. Noklikšķiniet uz **Rediģēt**.
+15. Izvērsiet sadaļu **Pārdot**.
+16. Laukā **Komisijas grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 17. Sarakstā atlasiet komisijas grupu, kuru izveidojāt agrāk.
+18. Atlasiet **Saglabāt**.
 

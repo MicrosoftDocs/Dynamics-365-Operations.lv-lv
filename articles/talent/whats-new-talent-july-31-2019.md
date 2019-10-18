@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 31. jūlijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 31. jūlijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864583"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010249"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 30. jūlijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 30. jūlijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2409.
@@ -43,7 +43,7 @@ ms.locfileid: "1864583"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Reģiona atbalsts Kanādai un Dienvidaustrumu Āzijai
 
-Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Microsoft Dynamics 365 for Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts [Programmas Talent nodrošināšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts [Programmas Talent nodrošināšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esošo projektu datu migrācija no citiem reģioniem uz Kanādas un Āzijas reģioniem netiek atbalstīta. Šiem jaunajiem atbalstītajiem reģioniem var tikt nodrošināti tikai jauni projekti.
 

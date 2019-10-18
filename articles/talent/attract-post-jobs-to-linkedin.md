@@ -1,6 +1,6 @@
 ---
-title: Vakanču publicēšana LinkedIn no Microsoft Dynamics 365 for Talent - Attract
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 for Talent - Attract, lai publicētu darbus LinkedIn.
+title: Vakanču publicēšana LinkedIn no pakalpojuma Microsoft Dynamics 365 Talent - Attract
+description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 Talent - Attract, lai publicētu darbus LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756180"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008247"
 ---
 # <a name="post-jobs-to-linkedin"></a>Publicēt darbus tīklā LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn ir lielākais tiešsaistes profesionāļu tīkls, kas sniedz jums pieeju pasaules augstākā līmeņa talantiem. Microsoft Dynamics 365 for Talent: Attract palīdz jums iegūt talantu, kas jums nepieciešams, ļaujot jums publicēt vakances tieši no Attract vietnē LinkedIn.
+LinkedIn ir lielākais tiešsaistes profesionāļu tīkls, kas sniedz jums pieeju pasaules augstākā līmeņa talantiem. Microsoft Dynamics 365 Talent: Attract palīdz jums iegūt talantu, kas jums nepieciešams, ļaujot jums publicēt vakances tieši no Attract vietnē LinkedIn.
 
 Attract ļauj jums publicēt ierobežotos sarakstus vietnē LinkedIn bez papildu maksas. Šie saraksti ir pieejami tikai ar LinkedIn programmatūras partneru, piemēram, Attract starpniecību. Tie netiek parādīti panelī **Karjeras** jūsu uzņēmuma LinkedIn lapā, jo tajā tiek rādīti tikai maksas saraksti. Tomēr tie tiek parādīti, kad potenciālie kandidāti skata visus pieejamos darbus. Ierobežotie saraksti tiek rādīti arī LinkedIn darbu meklēšanā.
 

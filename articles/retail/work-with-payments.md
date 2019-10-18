@@ -1,6 +1,6 @@
 ---
 title: Maksāšanas metodes zvanu centros
-description: Šajā tēmā ir aprakstītas dažādās maksāšanas metodes, ko varat izmantot zvanu centrā programmatūrā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir aprakstītas dažādās maksāšanas metodes, ko varat izmantot zvanu centrā programmatūrā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571523"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018232"
 ---
 # <a name="payment-methods-in-call-centers"></a>Maksāšanas metodes zvanu centros
 
 [!include [banner](includes/banner.md)]
 
-Programmatūrā Microsoft Dynamics 365 for Retail zvanu centra kanāla konfigurācijā ietilpst iestatījums ar nosaukumu **Iespējot pasūtījuma pabeigšanu**. Šis iestatījums palīdz garantēt, ka visi pasūtījumi, ko kanāla lietotāji izveido, tiek izlaisti uz pasūtījuma apstrādi tikai tad, ja tiem ir priekšapmaksa vai iepriekš apstiprināts maksājums, kas ietilpst apstiprināto pielaižu robežās. Ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, zvanu centra lietotāji var ievadīt maksājumus attiecībā uz debitoru pārdošanas pasūtījumiem, izmantojot zvanu centra maksājumu apstrādes līdzekļus. Ja šis iestatījums ir izslēgts, zvanu centra lietotāji nevar izmantot zvanu centra maksājumu apstrādes līdzekļus, bet viņi joprojām var lietot priekšapmaksas attiecībā uz pārdošanas pasūtījumiem, izmantojot standarta funkcionalitāti Debitoru parādi.
+Programmatūrā Dynamics 365 Retail zvanu centra kanāla konfigurācijā ietilpst iestatījums ar nosaukumu **Iespējot pasūtījuma pabeigšanu**. Šis iestatījums palīdz garantēt, ka visi pasūtījumi, ko kanāla lietotāji izveido, tiek izlaisti uz pasūtījuma apstrādi tikai tad, ja tiem ir priekšapmaksa vai iepriekš apstiprināts maksājums, kas ietilpst apstiprināto pielaižu robežās. Ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, zvanu centra lietotāji var ievadīt maksājumus attiecībā uz debitoru pārdošanas pasūtījumiem, izmantojot zvanu centra maksājumu apstrādes līdzekļus. Ja šis iestatījums ir izslēgts, zvanu centra lietotāji nevar izmantot zvanu centra maksājumu apstrādes līdzekļus, bet viņi joprojām var lietot priekšapmaksas attiecībā uz pārdošanas pasūtījumiem, izmantojot standarta funkcionalitāti Debitoru parādi.
 
 Kā daļa no kanāla konfigurēšanas uzņēmumiem ir iespēja definēt maksājuma metodes, kas ir atļautas zvanu centra kanālam. Zvanu centra kanāls izmanto tādas pašas maksāšanas metodes, kādas ir definētas mazumtirdzniecības veikalu kanāliem.
 

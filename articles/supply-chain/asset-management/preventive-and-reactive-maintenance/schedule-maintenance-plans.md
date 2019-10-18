@@ -3,7 +3,7 @@ title: Plānot uzturēšanas plānus
 description: Šajā tēmā ir aprakstīts, kā ieplānot uzturēšanas plānus Līdzekļu pārvaldībā.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875773"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922049"
 ---
 # <a name="schedule-maintenance-plans"></a>Plānot uzturēšanas plānus
 
@@ -49,11 +49,11 @@ Profilaktiskās uzturēšanas plānošana ģenerē kalendāra ierakstus līdzek�
 
 - Kas attiecas uz uzturēšanas plānu ieplānošanu funkcionālajiem novietojumiem: ja atjaunināt līdzekļu veidu, ražotāju un modeļu iestatīšanu uzturēšanas plānos kopsavilkuma cilnē **Visi funkcionālie novietojumi** > **Uzturēšanas plāni** pēc tam, kad esat ieplānojis uzturēšanas plānus, esošie ar šo funkcionālo novietojumu saistītie uzturēšanas grafika ieraksti tiek automātiski dzēsti. Lai izveidotu jaunus kalendāra ierakstus, kas atbilst atjauninātajam uzturēšanas plāna iestatījumam funkcionālajā novietojumā, ir jāpalaiž jauns uzturēšanas plāna grafiks minētajam funkcionālajam novietojumam. Vairāk informācijas par līdzekļu tipu, ražotāju un modeļu iestatīšanu funkcionālajos novietojumos lasiet sadaļā [Funkcionālo novietojumu izveide](../functional-locations/create-functional-locations.md).
 
->*Piemērs:* jūs vēlaties izveidot uzturēšanas plānu konkrētai funkcionālajai vietai, kas nozīmē, ka visi līdzekļi, kas iestatīti attiecīgajā funkcionālā novietojumā, tiks iekļauti, plānojot uzturēšanas plānu, jebkurā norādītajā laikā. Tāda gadījumā jūs izveidojat uzturēšanas plānu un atlasāt konkrētu funkcionālo novietojumu, bet uzturēšanas plānā NEPIEVIENOJAT nekādus objektus. Rezultāts ir tāds, ka, plānojot šo uzturēšanas plānu, tiks izveidotas uzturēšanas grafika rindas visiem līdzekļiem, kas saistīti ar funkcionālo novietojumu tajā laikā.
+>*Piemērs:* jūs vēlaties izveidot uzturēšanas plānu konkrētai funkcionālajai vietai, kas nozīmē, ka visi līdzekļi, kas iestatīti attiecīgajā funkcionālā novietojumā, tiks iekļauti, plānojot uzturēšanas plānu, jebkurā norādītajā laikā. Tāda gadījumā jūs izveidojat uzturēšanas plānu un atlasāt konkrētu funkcionālo novietojumu, bet uzturēšanas plānā NEPIEVIENOJAT nekādus līdzekļus. Rezultāts ir tāds, ka, plānojot šo uzturēšanas plānu, tiks izveidotas uzturēšanas grafika rindas visiem līdzekļiem, kas saistīti ar funkcionālo novietojumu tajā laikā.
 
 - Ja veicat izmaiņas līdzekļu tipos, ražotājos vai modeļos sadaļā **Līdzekļu tipi**, šīs izmaiņas ietekmē tikai jaunos līdzekļus, kuri izmanto atjaunināto līdzekļu tipu. Vairāk informācijas par līdzekļu tipu iestatīšanu lasiet sadaļā [Līdzekļu tipi](../setup-for-objects/object-types.md).  
 
-5. Noklikšķiniet uz **Labi** labi, lai sāktu uzturēšanas grafika ierakstu ģenerēšanu par līdzekļiem. Ģenerētie ieraksti tiks parādīti saraksta lapā **Viss uzturēšanas grafiks**.
+5. Noklikšķiniet uz **Labi** labi, lai sāktu uzturēšanas grafika ierakstu ģenerēšanu par līdzekļiem. Ģenerētie ieraksti tiks parādīti saraksta lapā **Viss uzturēšanas grafiks**. Nākamajā attēlā ir parādīts dialoglodziņa **Plānot uzturēšanas plānus** piemērs.
 
 ![1. attēls](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Tālāk norādītajā attēlā katru mēnesi tiek reģistrēti 2000 km. Tāpēc
 ![3. attēls](media/11-preventive-maintenance.png)
 
 ![4. attēls](media/12-preventive-maintenance.png)
+

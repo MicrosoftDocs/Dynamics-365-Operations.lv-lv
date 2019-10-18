@@ -1,6 +1,6 @@
 ---
-title: Aktivitātes darbā pieņemšanas procesa ietvaros Microsoft Dynamics 365 for Talent - Attract
-description: Šajā tēma ir sniegta informācija par dažādajiem aktivitāšu veidiem, ko var izmantot darbā pieņemšanas procesa ietvaros Microsoft Dynamics 365 for Talent - Attract.
+title: Aktivitātes darbā pieņemšanas procesa ietvaros Microsoft Dynamics 365 Talent - Attract
+description: Šajā tēma ir sniegta informācija par dažādajiem aktivitāšu veidiem, ko var izmantot darbā pieņemšanas procesa ietvaros Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739723"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008689"
 ---
 # <a name="activities-in-hiring-processes"></a>Aktivitātes darbā pieņemšanas procesos
 
 [!include[banner](../includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Talent: Attract darbā pieņemšanas procesa ietvaros var pievienot aktivitātes. Aktivitātes var pievienot procesa veidnei vai tiešā veidā pievienot vakances darbā pieņemšanas procesam. Definējot vakanci, tiek atlasīta procesa veidne un šai vakancei tiek lietotas veidnē ietvertās aktivitātes. Ja netiek atlasīta veidne, tiek izmantota noklusējuma veidne. Vakances darbā pieņemšanas procesu var modificēt arī pēc veidnes lietošanas.
+Programmā Microsoft Dynamics 365 Talent: Attract darbā pieņemšanas procesa ietvaros var pievienot aktivitātes. Aktivitātes var pievienot procesa veidnei vai tiešā veidā pievienot vakances darbā pieņemšanas procesam. Definējot vakanci, tiek atlasīta procesa veidne un šai vakancei tiek lietotas veidnē ietvertās aktivitātes. Ja netiek atlasīta veidne, tiek izmantota noklusējuma veidne. Vakances darbā pieņemšanas procesu var modificēt arī pēc veidnes lietošanas.
 
 > [!NOTE] 
 > Procesa veidnes ir pieejamas tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums. Papildinformāciju skatiet tēmā [Attract visaptverošas darbā pieņemšanas pievienojumprogrammas iespējas](./attract-comprehensive-hiring.md).
@@ -49,16 +49,16 @@ Aktivitāte Pieteikums ir obligāta darbā pieņemšanas procesa veidnes aktivit
 
 Šī aktivitāte sastāv no trim komponentiem: Kandidāta pieejamības pieprasījums, Grafiks un Atsauksmes. Izmantojiet intervijas aktivitāti darba veidnē, ja vēlaties komponentus Kandidāta pieejamības pieprasījums, Grafiks un Atsauksme iekļaut procesā, nevis tos izmantot atsevišķi darbā pieņemšanas procesa ietvaros. Papildinformāciju skatiet rakstā [Interviju plānošana un atsauksmes](interview-scheduling-feedback.md).
 
-## <a name="powerapps-activity"></a>PowerApps aktivitāte
+## <a name="powerapps-activity"></a>Aktivitāte PowerApps
 
-Aktivitāte PowerApps sniedz iespēju darbā pieņemšanas procesā iegult Microsoft PowerApps programmu. Programma var būt obligāta visiem kandidātiem, tikai iekšējiem kandidātiem, tikai ārējiem kandidātiem vai nevienam kandidātam. Ja programma ir atzīmēta kā obligāta, tā ir jāizpilda, pirms var pāriet uz nākamo posmu. Lai lauks **JobApplicationStatus** tiktu uzskatīts par pabeigtu, tas jāiestata kā **Pabeigts**. Šis lauks atrodas elementā JobApplicationActivity, lai PowerApps programami šis lauks būtu jāatjaunina, pirms var pāriet uz nākamo posmu. Ja programma nav atzīmēta kā obligāta, šī aktivitāte ir izvēles darbība un uz nākamo posmu var pāriet pat tad, ja programma nav izpildīta.
+Aktivitāte PowerApps sniedz iespēju darbā pieņemšanas procesā iegult Microsoft PowerApps. Programma var būt obligāta visiem kandidātiem, tikai iekšējiem kandidātiem, tikai ārējiem kandidātiem vai nevienam kandidātam. Ja programma ir atzīmēta kā obligāta, tā ir jāizpilda, pirms var pāriet uz nākamo posmu. Lai lauks **JobApplicationStatus** tiktu uzskatīts par pabeigtu, tas jāiestata kā **Pabeigts**. Šis lauks atrodas elementā JobApplicationActivity, lai PowerApps programami šis lauks būtu jāatjaunina, pirms var pāriet uz nākamo posmu. Ja programma nav atzīmēta kā obligāta, šī aktivitāte ir izvēles darbība un uz nākamo posmu var pāriet pat tad, ja programma nav izpildīta.
 
-Lai saglabātu aktivitāti PowerApps darbā pieņemšanas procesā, ir jāievada PowerApps ID. Lai uzzinātu PowerApps ID, pārejiet uz sadaļu [PowerApps](https://web.powerapps.com), atlasiet **Programmas** un pēc tam atlasiet **Detalizēta informācija**.
+Lai saglabātu aktivitāti PowerApps darbā pieņemšanas procesā, ir jāievada PowerApps ID. Lai uzzinātu PowerApps ID, pārejiet uz sadaļu [PowerApps](https://web.powerapps.com), atlasiet **Programmas** un pēc tam atlasiet **Detalizēta informācija**.
 
-Pēc noklusējuma aktivitāte PowerApps ir pieejama par pieņemšanu darbā atbildīgajam vadītājam, personāla atlases darbiniekam un viņu pārstāvjiem. Ja atlasāt opciju **Atļaut pievienot dalībniekus šai aktivitātei**, lietojumprogrammai, kas izmanto aktivitāti PowerApps, var pievienot papildu dalībniekus no darbā pieņemšanas grupas. Piemēram, organizācija var izveidot PowerApps programmu, kas ir tehnisko amatu kandidātu intervijām paredzētu jautājumu bibliotēka. Organizācija vēlas pieņemt darbā jaunu programmatūras izstrādātāju un ir pievienojusi amata Programmatūras izstrādātājs darbā pieņemšanas procesam aktivitāti PowerApps. Ja ir atlasīta opcija **Atļaut pievienot dalībniekus šai aktivitātei**, personāla atlases darbinieks vai par pieņemšanu darbā atbildīgais vadītājs, kas skata amata Programmatūras izstrādātājs kandidātu, var pievienot intervētājus aktivitātei PowerApps. Pēc tam šīs personas var skatīt programmu, kurā ir ietverti intervijas jautājumi.
+Pēc noklusējuma aktivitāte PowerApps ir pieejama par pieņemšanu darbā atbildīgajam vadītājam, personāla atlases darbiniekam un viņu pārstāvjiem. Ja atlasāt opciju **Atļaut pievienot dalībniekus šai aktivitātei** lietojumprogrammai, kas izmanto aktivitāti PowerApps, var pievienot papildu dalībniekus no darbā pieņemšanas grupas. Piemēram, organizācija var izveidot PowerApps programmu, kas ir tehnisko amatu kandidātu intervijām paredzētu jautājumu bibliotēka. Organizācija vēlas pieņemt darbā jaunu programmatūras izstrādātāju un ir pievienojusi amata Programmatūras izstrādātājs darbā pieņemšanas procesam aktivitāti PowerApps. Ja ir atlasīta opcija **Atļaut pievienot dalībniekus šai aktivitātei**, personāla atlases darbinieks vai par pieņemšanu darbā atbildīgais vadītājs, kas skata amata Programmatūras izstrādātājs kandidātu, var pievienot intervētājus aktivitātei PowerApps. Pēc tam šīs personas var skatīt programmu, kurā ir ietverti intervijas jautājumi.
 
 > [!NOTE]
-> Aktivitāte PowerApps ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums. Papildinformāciju skatiet tēmā [Attract visaptverošas darbā pieņemšanas pievienojumprogrammas iespējas](./attract-comprehensive-hiring.md).
+> Aktivitāte PowerApps ir pieejama tikai tad, ja ir pieejams visaptverošais darbā pieņemšanas papildinājums. Papildinformāciju skatiet tēmā [Attract visaptverošas darbā pieņemšanas pievienojumprogrammas iespējas](./attract-comprehensive-hiring.md).
 
 ## <a name="youtube-activity"></a>Aktivitāte YouTube
 

@@ -1,6 +1,6 @@
 ---
-title: Kura Microsoft Dynamics 365 for Talent - Attract versija?
-description: Šajā tēmā ir sniegta informācija par iespējām dažādās Microsoft Dynamics 365 for Talent - Attract versijās.
+title: Kuru Microsoft Dynamics 365 Talent - Attract versiju izvēlēties?
+description: Šajā tēmā ir sniegta informācija par iespējām dažādās Microsoft Dynamics 365 Talent- Attrac versijās.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739718"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009950"
 ---
 # <a name="which-version-of-attract"></a>Kuru Attract versiju izvēlēties?
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent versija: jums piemērotā Attract versija ir atkarīga no jūsu organizācijas lieluma un vajadzībām. Attract pamatversijā ir pieejama funkciju apakškopa, kas paredzēta mazākām darba grupām vai organizācijām, kurās primārais lietotājs ir par pieņemšanu darbā atbildīgais vadītājs. Varat sākt Attract pamatversijas izmantošanu ar vienu vai vairākām licencēm.
+Microsoft Dynamics 365 Talent: Attract versija ir atkarīga no jūsu organizācijas lieluma un vajadzībām. Attract pamatversijā ir pieejama funkciju apakškopa, kas paredzēta mazākām darba grupām vai organizācijām, kurās primārais lietotājs ir par pieņemšanu darbā atbildīgais vadītājs. Varat sākt Attract pamatversijas izmantošanu ar vienu vai vairākām licencēm.
 
 Attract ar visaptverošo darbā pieņemšanas papildinājumu ir paredzēts vidējām un lielām darba grupām vai organizācijām, kurās primārais lietotājs ir personāla atlases speciālists vai potenciālo kandidātu atlases speciālists. Visaptverošajam darbā pieņemšanas papildinājumam ir nepieciešams iegādāties licences no [Microsoft Dynamics 365 partnera](https://dynamics.microsoft.com/partners/find-a-partner/).
 

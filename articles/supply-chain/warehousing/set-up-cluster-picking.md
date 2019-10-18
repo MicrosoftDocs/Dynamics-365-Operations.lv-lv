@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559004"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249754"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1559004"
 
 Kad darba pasūtījumi ir nodoti nosūtīšanai uz noliktavu, darbinieks var izmantot mobilo ierīci, lai pasūtījumus piešķirtu klasterim. Klasterī darbiniekam tiks organizēts izdošanas darbs. Kad darba pasūtījums ir piešķirts klasterim, darbiniekam jāizmanto klastera izdošana, lai izpildītu pasūtījuma izdošanas darbu. Darbinieks nevar izmantot citas izdošanas metodes. Ja darba pasūtījums tiek piešķirts klasterim kļūdas dēļ, darbiniekam klasteris ir jāsadala un pēc tam tas no jauna jāizveido.
 
-Ja nepieciešams, darbinieks var nodot klasteri citam darbiniekam. Tādējādi klastera statuss tiek mainīts uz Nodots. Kad nodarbinātais izmanto mobilo ierīci, lai norādītu, ka izdošanas un izvietošanas darbs ir pabeigts, sūtījums vai krava ir jāapstiprina Dynamics 365 for Finance and Operations klientā.
+Ja nepieciešams, darbinieks var nodot klasteri citam darbiniekam. Tādējādi klastera statuss tiek mainīts uz Nodots. Kad nodarbinātais izmanto mobilo ierīci, lai norādītu, ka izdošanas un izvietošanas darbs ir pabeigts, sūtījums vai krava ir jāapstiprina klientā.
 
 ## <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
 
