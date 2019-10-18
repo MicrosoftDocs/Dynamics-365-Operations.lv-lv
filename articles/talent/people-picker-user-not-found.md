@@ -1,6 +1,6 @@
 ---
 title: Lietotāja neatrašana programmas Attract vai Onboard personu atlasītājā
-description: Šajā tēmā ir paskaidrots, kā rīkoties, ja uzņēmuma nomnieka lietotāji netiek rādīti lietojumprogrammas Dynamics 365 for Talent Attract vai Onboard personu atlasītājā.
+description: Šajā tēmā ir paskaidrots, kā rīkoties, ja uzņēmuma nomnieka lietotāji netiek rādīti Dynamics 365 Talent - Attract vai Onboard personu atlasītājā.
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,45 +17,45 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742753"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024197"
 ---
-# <a name="azure-active-directory-users-not-found-in-people-picker"></a><span data-ttu-id="4d4b6-103">Azure Active Directory lietotāju neatrašana personu atlasītājā</span><span class="sxs-lookup"><span data-stu-id="4d4b6-103">Azure Active Directory users not found in People Picker</span></span>
+# <a name="azure-active-directory-users-not-found-in-people-picker"></a><span data-ttu-id="26771-103">Azure Active Directory lietotāji nav atrodami vadīklā Personu atlasītājs</span><span class="sxs-lookup"><span data-stu-id="26771-103">Azure Active Directory users not found in People Picker</span></span>
 
 [!include [banner](includes/banner.md)]
 
-## <a name="issue"></a><span data-ttu-id="4d4b6-104">Izejas plūsma</span><span class="sxs-lookup"><span data-stu-id="4d4b6-104">Issue</span></span>
+## <a name="issue"></a><span data-ttu-id="26771-104">Izejas plūsma</span><span class="sxs-lookup"><span data-stu-id="26771-104">Issue</span></span>
 
-<span data-ttu-id="4d4b6-105">Daži derīgi Microsoft Azure Active Directory (Azure AD) nomnieka lietotāji netiek parādīti, meklējot vārdu lietojumprogrammas Dynamics 365 for Talent Attract vai Onboard personu atlasītājā.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-105">Certain valid users in Microsoft Azure Active Directory (Azure AD) for the tenant do not appear when searching for the name in the People Picker in the Dynamics 365 for Talent Attract or Onboard applications.</span></span>
+<span data-ttu-id="26771-105">Daži derīgi Microsoft Azure Active Directory (Azure AD) nomnieka lietotāji netiek parādīti, meklējot vārdu Dynamics 365 Talent: Attract vai Dynamics 365 Talent: Onboard personu atlasītājā.</span><span class="sxs-lookup"><span data-stu-id="26771-105">Certain valid users in Microsoft Azure Active Directory (Azure AD) for the tenant do not appear when searching for the name in the People Picker in Dynamics 365 Talent: Attract or Dynamics 365 Talent: Onboard.</span></span>
 
-## <a name="cause"></a><span data-ttu-id="4d4b6-106">Iemesls</span><span class="sxs-lookup"><span data-stu-id="4d4b6-106">Cause</span></span>
+## <a name="cause"></a><span data-ttu-id="26771-106">Iemesls</span><span class="sxs-lookup"><span data-stu-id="26771-106">Cause</span></span>
 
-<span data-ttu-id="4d4b6-107">Noteikti lietotāju tipi pašlaik netiek atbalstīti lietojumprogrammās Attract un Onboard.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-107">Certain user types are not currently supported in the Attract and Onboard applications.</span></span> <span data-ttu-id="4d4b6-108">Pārbaudiet, vai lietotājs nav Azure AD biznesa biznesam (B2B) vieslietotājs.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-108">Verify that the user is not an Azure AD Business to Business (B2B) guest user.</span></span> <span data-ttu-id="4d4b6-109">Informācija par lietotāja viedu ir pieejama Azure portāla panelī Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-109">"User Type" information can be found in the Azure Active Directory blade on the Azure portal.</span></span>
+<span data-ttu-id="26771-107">Noteikti lietotāju tipi pašlaik netiek atbalstīti Attract un Onboard.</span><span class="sxs-lookup"><span data-stu-id="26771-107">Certain user types are not currently supported in Attract and Onboard.</span></span> <span data-ttu-id="26771-108">Pārbaudiet, vai lietotājs nav Azure AD biznesa biznesam (B2B) vieslietotājs.</span><span class="sxs-lookup"><span data-stu-id="26771-108">Verify that the user is not an Azure AD Business to Business (B2B) guest user.</span></span> <span data-ttu-id="26771-109">Informācija par lietotāja viedu ir pieejama Azure portāla panelī Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="26771-109">"User Type" information can be found in the Azure Active Directory blade on the Azure portal.</span></span>
 
-<span data-ttu-id="4d4b6-110">Papildinformāciju par Azure B2B skatiet rakstā [Par vieslietotāja piekļuvi Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).</span><span class="sxs-lookup"><span data-stu-id="4d4b6-110">For more information about Azure B2B, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).</span></span>
+<span data-ttu-id="26771-110">Papildinformāciju par Azure B2B skatiet rakstā [Par vieslietotāja piekļuvi Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).</span><span class="sxs-lookup"><span data-stu-id="26771-110">For more information about Azure B2B, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).</span></span>
 
-<span data-ttu-id="4d4b6-111">Ja lietotājs nav B2B lietotājs, viņam, iespējams, ir iestatīts nepilnīgs objekta **Lietotājs** rekvizīts Lietotāja veids.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-111">For non-B2B users, there are certain users who may have an incomplete "User Type" property on the **User** object.</span></span> <span data-ttu-id="4d4b6-112">To var pārbaudīt un novērst, izmantojot moduli Azure AD Powershell.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-112">This can be verified and fixed using the Azure AD Powershell module.</span></span> <span data-ttu-id="4d4b6-113">Lai iegūtu papildus informāciju, skatiet [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).</span><span class="sxs-lookup"><span data-stu-id="4d4b6-113">For more information, see [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).</span></span>
+<span data-ttu-id="26771-111">Ja lietotājs nav B2B lietotājs, viņam, iespējams, ir iestatīts nepilnīgs objekta **Lietotājs** rekvizīts Lietotāja veids.</span><span class="sxs-lookup"><span data-stu-id="26771-111">For non-B2B users, there are certain users who may have an incomplete "User Type" property on the **User** object.</span></span> <span data-ttu-id="26771-112">To var pārbaudīt un novērst, izmantojot moduli Azure AD Powershell.</span><span class="sxs-lookup"><span data-stu-id="26771-112">This can be verified and fixed using the Azure AD Powershell module.</span></span> <span data-ttu-id="26771-113">Lai iegūtu papildus informāciju, skatiet [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).</span><span class="sxs-lookup"><span data-stu-id="26771-113">For more information, see [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).</span></span>
 
-## <a name="resolution"></a><span data-ttu-id="4d4b6-114">Novēršana</span><span class="sxs-lookup"><span data-stu-id="4d4b6-114">Resolution</span></span>
+## <a name="resolution"></a><span data-ttu-id="26771-114">Novēršana</span><span class="sxs-lookup"><span data-stu-id="26771-114">Resolution</span></span>
 
-<span data-ttu-id="4d4b6-115">Lai veiktu tālāk norādītās darbības un novērstu problēmu, jums ir vajadzīgas lomas Globālais administrators atļaujas Azure Active Directory nomniekā vai atļaujas **User.ReadWrite.All**.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-115">To complete the following steps to resolve the issue, you will need to have "Global Administrator" permissions on the Azure Active Directory tenant or permissions for **User.ReadWrite.All**.</span></span>
+<span data-ttu-id="26771-115">Lai veiktu tālāk norādītās darbības un novērstu problēmu, jums ir vajadzīgas lomas Globālais administrators atļaujas Azure Active Directory nomniekā vai atļaujas **User.ReadWrite.All**.</span><span class="sxs-lookup"><span data-stu-id="26771-115">To complete the following steps to resolve the issue, you will need to have "Global Administrator" permissions on the Azure Active Directory tenant or permissions for **User.ReadWrite.All**.</span></span>
 
-<span data-ttu-id="4d4b6-116">Lai pārbaudītu ietekmētā lietotāja rekvizītu Lietotāja veids.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-116">To verify the "User Type" for the affected user.</span></span>
+<span data-ttu-id="26771-116">Lai pārbaudītu ietekmētā lietotāja rekvizītu Lietotāja veids.</span><span class="sxs-lookup"><span data-stu-id="26771-116">To verify the "User Type" for the affected user.</span></span>
 
 ```
 PS C:\>Get-AzureADUser -ObjectId "testUpn@tenant.com"
 ```
-<span data-ttu-id="4d4b6-117">Komanda atgriež tālāk norādīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-117">The command returns the following information.</span></span>
+<span data-ttu-id="26771-117">Komanda atgriež tālāk norādīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="26771-117">The command returns the following information.</span></span>
 ```
 ObjectId                             DisplayName UserPrincipalName      UserType
 --------                             ----------- -----------------      --------
 5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    testUpn@tenant.com     
 ```
-<span data-ttu-id="4d4b6-118">Pievērsiet uzmanību lietotāja rekvizītam **UserType**.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-118">Note the **UserType** property on the user.</span></span> <span data-ttu-id="4d4b6-119">Ja rekvizīts **UserType** ir tukšs, piemēram, tā vērtība nav Dalībnieks vai Viesis, atjauniniet rekvizītu **UserType**, izmantojot tālāk norādīto komandu.</span><span class="sxs-lookup"><span data-stu-id="4d4b6-119">If the **UserType** is blank, for example not "Member" or "Guest", update the **UserType** using the following command.</span></span>
+<span data-ttu-id="26771-118">Pievērsiet uzmanību lietotāja rekvizītam **UserType**.</span><span class="sxs-lookup"><span data-stu-id="26771-118">Note the **UserType** property on the user.</span></span> <span data-ttu-id="26771-119">Ja rekvizīts **UserType** ir tukšs, piemēram, tā vērtība nav Dalībnieks vai Viesis, atjauniniet rekvizītu **UserType**, izmantojot tālāk norādīto komandu.</span><span class="sxs-lookup"><span data-stu-id="26771-119">If the **UserType** is blank, for example not "Member" or "Guest", update the **UserType** using the following command.</span></span>
 
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member

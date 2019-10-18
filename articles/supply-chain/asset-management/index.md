@@ -1,6 +1,6 @@
 ---
 title: Pārskats par līdzekļu pārvaldību
-description: Šajā tēmā ir aprakstīta Līdzekļu pārvaldības funkcionalitāte programmā Dynamics 365 for Finance and Operations.
+description: Šajā tēmā ir aprakstīta Līdzekļu pārvaldības funkcionalitāte programmā Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 07/24/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b8a619d787a2d43e843b574edf77b3153d53005
-ms.sourcegitcommit: 829b6dc145197cc565d40469f6a1522f8dccac9f
+ms.openlocfilehash: f98185fbabefedd2a545bd1c3e15b9e180363469
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "1788284"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024710"
 ---
-# <a name="asset-management-overview"></a><span data-ttu-id="472b2-103">Pārskats par līdzekļu pārvaldību</span><span class="sxs-lookup"><span data-stu-id="472b2-103">Asset management overview</span></span>
+# <a name="asset-management-overview"></a><span data-ttu-id="596dc-103">Pārskats par līdzekļu pārvaldību</span><span class="sxs-lookup"><span data-stu-id="596dc-103">Asset management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
 
-<span data-ttu-id="472b2-104">Līdzekļu pārvaldība ir uzlabots modulis līdzekļu un uzturēšanas darbu pārvaldībai programmā Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="472b2-104">Asset Management is an advanced module for managing assets and maintenance jobs in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="472b2-105">Līdzekļu pārvaldība ir cieši integrēta ar vairākiem moduļiem programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="472b2-105">Asset Management integrates seamlessly with several modules in Finance and Operations.</span></span> 
+<span data-ttu-id="596dc-104">Līdzekļu pārvaldība ir uzlabots modulis līdzekļu un uzturēšanas darbu pārvaldībai programmā Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="596dc-104">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="596dc-105">Līdzekļu pārvaldība ir cieši integrēta ar vairākiem moduļiem programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="596dc-105">Asset Management integrates seamlessly with several modules in Finance and Operations.</span></span> 
 
-<span data-ttu-id="472b2-106">Attēlā zemāk ir ilustrēta par interfeisiem ar citiem moduļiem programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="472b2-106">The image below is an illustration of the interfaces to other modules in Finance and Operations.</span></span>
+<span data-ttu-id="596dc-106">Attēlā zemāk ir ilustrēta par interfeisiem ar citiem moduļiem programmā Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="596dc-106">The image below is an illustration of the interfaces to other modules in Finance and Operations.</span></span>
 
 ![Pārskats par to, kā Līdzekļu pārvaldība integrē](media/overview-integrate2.jpg)
 
-<span data-ttu-id="472b2-108">Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un veikt uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā, piemēram, mašīnām, ražošanas iekārtām un transportlīdzekļiem.</span><span class="sxs-lookup"><span data-stu-id="472b2-108">Asset Management enables you to efficiently manage and carry out tasks related to managing and servicing many types of equipment in your company, for example, machines, production equipment, and vehicles.</span></span> <span data-ttu-id="472b2-109">Līdzekļu pārvaldība atbalsta risinājumus daudzās nozarēs.</span><span class="sxs-lookup"><span data-stu-id="472b2-109">Asset Management supports solutions across numerous industries.</span></span>
+<span data-ttu-id="596dc-108">Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un veikt uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā, piemēram, mašīnām, ražošanas iekārtām un transportlīdzekļiem.</span><span class="sxs-lookup"><span data-stu-id="596dc-108">Asset Management enables you to efficiently manage and carry out tasks related to managing and servicing many types of equipment in your company, for example, machines, production equipment, and vehicles.</span></span> <span data-ttu-id="596dc-109">Līdzekļu pārvaldība atbalsta risinājumus daudzās nozarēs.</span><span class="sxs-lookup"><span data-stu-id="596dc-109">Asset Management supports solutions across numerous industries.</span></span>
