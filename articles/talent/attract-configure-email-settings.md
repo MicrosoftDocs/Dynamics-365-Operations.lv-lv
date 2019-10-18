@@ -1,5 +1,5 @@
 ---
-title: E-pasta iestatījumu konfigurēšana programmā Microsoft Dynamics 365 for Talent - Attract
+title: E-pasta iestatījumu konfigurēšana programmā Microsoft Dynamics 365 Talent - Attract
 description: Šajā tēmā ir paskaidrots, kā konfigurēt iestatījumus e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamcis 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739499"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008666"
 ---
 # <a name="configure-email-settings"></a>E-pasta iestatījumu konfigurēšana
 
 [!include[banner](../includes/banner.md)]
 
-Jūsu zīmols nosaka uzticēšanos un palīdz veidot attiecības ar kandidātiem, pirms viņi vēl ir paspējuši pieteikties jūsu izsludinātajiem amatiem. Pozitīva zīmola uztvere piesaista labākos talantus un pastiprina esošo darbinieku lojalitāti. Microsoft Dynamics 365 for Talent: Attract ļauj konfigurēt e-pasta ziņojumus tā, lai tie atspoguļotu jūsu uzņēmuma zīmolu. Tādējādi varat nodrošināt konsekventu pieredzi darba kandidātiem visa atlases procesa gaitā.
+Jūsu zīmols nosaka uzticēšanos un palīdz veidot attiecības ar kandidātiem, pirms viņi vēl ir paspējuši pieteikties jūsu izsludinātajiem amatiem. Pozitīva zīmola uztvere piesaista labākos talantus un pastiprina esošo darbinieku lojalitāti. Microsoft Dynamics 365 Talent: Attract ļauj konfigurēt e-pasta ziņojumus tā, lai tie atspoguļotu jūsu uzņēmuma zīmolu. Tādējādi varat nodrošināt konsekventu pieredzi darba kandidātiem visa atlases procesa gaitā.
 
 Izmantojot Attract, varat veikt tālāk norādītās darbības.
 

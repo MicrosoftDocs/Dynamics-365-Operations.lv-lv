@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6939ed56944ecafb29c1cadd2744b5746b19cb46
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572131"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023368"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Informācijas kodi un informācijas kodu grupas
 
@@ -42,7 +42,7 @@ Infokodi nodrošina veidu, kā iegūt datus pārdošanas punkta (POS) reģistrā
 
 ## <a name="info-codes-group"></a>Infokodu grupa
 
-Programmā Dynamics 365 for Retail varat izveidot infokodu grupas. Infokodu grupas papildina lietošanas iespēju elastību, ļaujot definēt mazāku skaitu informācijas kodu un pēc tam tos izmantot daudzveidīgāk. Infokodu grupas varat izmantot tālāk aprakstītajos veidos.
+Programmā Retail varat izveidot infokodu grupas. Infokodu grupas papildina lietošanas iespēju elastību, ļaujot definēt mazāku skaitu informācijas kodu un pēc tam tos izmantot daudzveidīgāk. Infokodu grupas varat izmantot tālāk aprakstītajos veidos.
 
 - Definējiet mazāku skaitu infokodu un ērti izmantojiet tos atkārtoti. Infokodu grupās iekļautajiem infokodiem nav iepriekš definētu atkarību no citiem infokodiem. Vienu un to pašu infokodu varat iekļaut vairākās infokodu grupās, un pēc tam izmantot prioritātes noteikšanu, lai tos pašus infokodus sniegtu katrai konkrētajai situācijai vispiemērotākajā secībā.
 - Saistiet informācijas kodus ar citiem informācijas kodiem vai informācijas kodu grupām, lai apkopotu informāciju par preci vai darījumu jums nepieciešamajā veidā, bez nepieciešamības definēt atsevišķu informācijas kodu vai piesaistīt informācijas kodu katram scenārijam.

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550074"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018440"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Ārpus zonu pārskatu ģenerēšana un palaišana
 
@@ -43,7 +43,7 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 5. Laukā Līdz datumam ievadiet datumu.
 6. Laukā Kanāls noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
 7. Koka struktūrā atlasiet Contoso mazumtirdzniecība\Contoso mazumtirdzniecība ASV\Centrāli\Houston.
-    * Tiek parādīta noklusējuma mazumtirdzniecības organizācijas hierarhija, kas tiks lietota mazumtirdzniecības pārskatiem.   Dodieties uz Organizācijas administrēšana >Organizācijas > Organizācijas hierarhijas nolūki un izvēlēties Mazumtirdzniecības pārskati, savukārt sadaļā Piešķirtās hierarhijas pārbaudiet hierarhijas nosaukumu, kurai ir atzīmēta noklusējuma kolonna.      Kā daļu no demonstrācijas datiem (izmantoti šī uzdevuma ierakstā) jūs ievērojāt, ka noklusējuma organizācijas hierarhija mazumtirdzniecības pārskatiem ir Mazumtirdzniecības veikali pēc reģiona.     
+    * Tiek parādīta noklusējuma mazumtirdzniecības organizācijas hierarhija, kas tiks lietota mazumtirdzniecības pārskatiem.   Dodieties uz Organizācijas administrēšana > Organizācijas > Organizācijas hierarhijas nolūki un izvēlēties Mazumtirdzniecības pārskati, savukārt sadaļā Piešķirtās hierarhijas pārbaudiet hierarhijas nosaukumu, kurai ir atzīmēta noklusējuma kolonna. Kā daļu no demonstrācijas datiem (izmantoti šī uzdevuma ierakstā) jūs ievērojāt, ka noklusējuma organizācijas hierarhija mazumtirdzniecības pārskatiem ir Mazumtirdzniecības veikali pēc reģiona.     
 8. Noklikšķiniet uz OK.
 9. Laukā Skats atlasiet opciju.
 10. Laukā Pēc atlasiet opciju.
@@ -55,7 +55,7 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 3. Laukā Līdz datumam ievadiet datumu.
 4. Laukā Kanāls noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
 5. Koka struktūrā atlasiet Contoso mazumtirdzniecība\Contoso mazumtirdzniecība ASV\Rietumi\Sietla.
-    * Tiek parādīta noklusējuma mazumtirdzniecības organizācijas hierarhija, kas tiks lietota mazumtirdzniecības pārskatiem.   Dodieties uz Organizācijas administrēšana >Organizācijas > Organizācijas hierarhijas nolūki un izvēlēties Mazumtirdzniecības pārskati, savukārt sadaļā Piešķirtās hierarhijas pārbaudiet hierarhijas nosaukumu, kurai ir atzīmēta noklusējuma kolonna.      Kā daļu no demonstrācijas datiem (izmantoti šī uzdevuma ierakstā) jūs ievērojāt, ka noklusējuma organizācijas hierarhija mazumtirdzniecības pārskatiem ir Mazumtirdzniecības veikali pēc reģiona.     
+    * Tiek parādīta noklusējuma mazumtirdzniecības organizācijas hierarhija, kas tiks lietota mazumtirdzniecības pārskatiem.   Dodieties uz Organizācijas administrēšana > Organizācijas > Organizācijas hierarhijas nolūki un izvēlēties Mazumtirdzniecības pārskati, savukārt sadaļā Piešķirtās hierarhijas pārbaudiet hierarhijas nosaukumu, kurai ir atzīmēta noklusējuma kolonna. Kā daļu no demonstrācijas datiem (izmantoti šī uzdevuma ierakstā) jūs ievērojāt, ka noklusējuma organizācijas hierarhija mazumtirdzniecības pārskatiem ir Mazumtirdzniecības veikali pēc reģiona.     
 6. Noklikšķiniet uz OK.
 7. Noklikšķiniet uz OK.
 

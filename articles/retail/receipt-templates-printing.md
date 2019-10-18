@@ -1,6 +1,6 @@
 ---
 title: Kvīšu formātu iestatīšana un noformēšana
-description: Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmā Microsoft Dynamics 365 for Retail ir ietverts formas izkārtojuma veidotājs, ko varat izmantot, lai viegli izveidotu un izmainītu dažādu viedu formu izkārtojumus.
+description: Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmā Dynamics 365 Retail ir ietverts formas izkārtojuma veidotājs, ko varat izmantot, lai viegli izveidotu un izmainītu dažādu viedu formu izkārtojumus.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553072"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025129"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Kvīšu formātu iestatīšana un noformēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmā Microsoft Dynamics 365 for Retail ir ietverts formas izkārtojuma veidotājs, ko varat izmantot, lai viegli izveidotu un izmainītu dažādu viedu formu izkārtojumus.
+Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Dynamics 365 Retail ir ietverts formas izkārtojuma veidotājs, kuru varat izmantot, lai ērtā un grafiskā veidā izveidotu un modificētu dažādus formu izkārtojumus.
 
 > [!IMPORTANT]
 > Lai drukātu kvītis un citus dokumentus programmās Retail Modern POS un Cloud POS, ir jāiestata formu izkārtojumi un kvīšu profili. Kvīšu profilā var ietvert vairākus formu izkārtojumus. Pēc tam kvīts profilu var piešķirt printerim, modificējot aparatūras profilu.
@@ -55,7 +55,7 @@ Izmantojiet formas izkārtojuma noformētāju, lai grafiski izveidotu formas dok
 2. Lapā **Kvīts formāts** atlasiet formas izkārtojumu un pēc tam noklikšķiniet uz **Veidotājs**.
 3. Lai uzsāktu mazumtirdzniecības veidotāja resursdatora instalēšanu, noklikšķiniet uz **Palaist**.
 4. Internet Explorer loga apakšdaļā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**, lai sāktu viena klikšķa veidotāja instalēšanu. (Citās pārlūkprogrammās paziņojumu josla var tikt rādīta citā vietā.) Norises indikators norāda instalēšanas procesa norisi.
-5. Kad instalēšana ir pabeigta, ievadiet savu Dynamics 365 for Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
+5. Kad instalēšana ir pabeigta, ievadiet savu Retail lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
 6. Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, var sākt kvīts formāta veidošanu vai esošā formāta mainīšanu.
 7. Lai izveidotu formas elementus, atlasiet sadaļu **Galvene**, **Rindas** vai **Kājene** un pēc tam velciet elementu no šīs sadaļas uz darbvietu. Vairums elementos ir iekļauti mainīgie, kas tiek automātiski aizpildīti ar datiem no datu bāzes. Citi elementi, piemēram, **Teksts**, ļauj jums kvītī drukāt pielāgotu tekstu.
 

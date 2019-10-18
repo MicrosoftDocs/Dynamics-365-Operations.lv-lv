@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555160"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248984"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarboties ar kreditoriem, izmantojot kreditoru portālu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
+Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 
-Šajā tēmā sniegtā informācija attiecas tikai uz 2016. gada februāra un 2016. gada maija Dynamics AX versijām. Dynamics 365 for Operations versijā 1611 kreditoru portāla funkcionalitāte ir aizstāta ar paplašināto kreditoru sadarbības funkcionalitāti. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbības izmantošana darbam ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
+Šajā tēmā sniegtā informācija attiecas tikai uz 2016. gada februāra un 2016. gada maija Dynamics AX versijām. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbības izmantošana darbam ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
 
 Kreditoru portāls ir paredzēts kreditoriem, kas neizmanto elektronisko datu savstarpējās apmaiņas (electronic data interchange — EDI) integrāciju ar programmu Microsoft Dynamics AX, lai nodrošinātu pirkšanas pasūtījumu (PP) informācijas apmaiņu. Portāls sniedz pirkšanas aģentiem iespēju nosūtīt PP kreditoram un pēc tam saņemt atbildi Apstiprināts vai Noraidīts tieši programmā Dynamics AX.  
 

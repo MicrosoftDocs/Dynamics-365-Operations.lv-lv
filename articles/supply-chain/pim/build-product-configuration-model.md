@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865380"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249498"
 ---
 # <a name="product-configuration-overview"></a>Produkta konfigurēšanas pārskats
 
@@ -60,6 +60,9 @@ Preces konfigurācijas modeli veido viens vai vairāki komponenti, kas ir iesais
 
 Katram komponentam ir viens vai vairāki atribūti, kas identificē tā īpašības. Lietotāji izvēlēsies atribūtus konfigurācijas procesā. Atribūti kontrolē starpkomponentu un iekškomponentu attiecības, kad tos iekļauj ierobežojumos vai aprēķinos. Izmantojot nosacījumus, kas tiek lietoti MK rindas, atribūtus var izmantot, lai noteiktu fiziskās daļas, no kurām sastāvēs konfigurētā prece. Turklāt atribūts var kontrolēt MK rindas rekvizītu ar kartēšanas mehānismu. Līdzīga funkcionalitāte ir maršruta operācijām attiecībā uz iekļaušanu un rekvizītu iestatījumiem.
 
+>[!NOTE]
+> Veidojot atribūtu tipus, izvairieties izveidot lielu skaitu vērtību atribūta tipa domēnam. Tas var izraisīt palēninājumus preču konfiguratorā. 
+
 ### <a name="expression-constraints"></a>Izteiksmes ierobežojumi
 
 Preces konfigurācijas modeļa atbilstoši ierobežojumam izmantošana paredz, ka daži ierobežojumi pastāv, lietotājam atlasot dažādu atribūtu vērtības. Šos ierobežojumus var ieviest kā izteiksmes ierobežojumus, izmantojot optimizācijas modelēšanas valodu (OML). Alternatīvi ierobežojumu var īstenot tabulas ierobežojumu formā.
@@ -70,7 +73,7 @@ Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti.
 
 Lietotāja definētu tabulas ierobežojumu veido lietotājs. Lietotājs atlasa atribūtu tipu kombināciju, kas pārstāvēs tabulas kolonnas, un pēc tam ievada vērtības no atlasīto atribūtu tipu domēniem, lai veidotu rindas tabulas ierobežojumā.  
 
-Sistēmas definēts tabulas ierobežojums tiek definēts, atlasot kā atsauci izmantojamo Microsoft Dynamics 365 for Finance and Operations tabulu un pēc tam atlasot šī tabulas laukus, lai izveidotu ierobežojuma kolonnas. Tabulas ierobežojuma rindas ir Dynamics 365 for Finance and Operations tabulas rindas, kas ir pieejamas konfigurēšanas laikā.  
+Sistēmas definēts tabulas ierobežojums tiek definēts, atlasot kā atsauci izmantojamo tabulu un pēc tam atlasot šī tabulas laukus, lai izveidotu ierobežojuma kolonnas. Tabulas ierobežojuma rindas ir Dynamics 365 for Finance and Operations tabulas rindas, kas ir pieejamas konfigurēšanas laikā.  
 
 Tabulas ierobežojums tiek iekļauts preces konfigurācijas modelī, izmantojot atsauci uz tabulas ierobežojuma definīciju un kartējot attiecīgos atribūtus modelī tabulas ierobežojuma kolonnās.
 

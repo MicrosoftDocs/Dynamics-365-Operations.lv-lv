@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606899"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023640"
 ---
 # <a name="attributes-and-attribute-groups"></a>Atribūti un atribūtu grupas
 
 [!include [banner](includes/banner.md)]
 
-*Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Programmā Microsoft Dynamics 365 for Finance and Operations atribūtus var saistīt ar dažādiem mazumtirdzniecības elementiem, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, un tiem var iestatīt noklusējuma vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
+*Atribūti* nodrošina veidu, kā tālāk aprakstīt preci un tās raksturīgās iezīmes, izmantojot lietotāja definētos laukus (piemēram, **Atmiņas lielums**, **Cietā diska apjoms**, **Ir saderīgs ar Energy Star** un tā tālāk). Atribūtus var saistīt ar dažādām mazumtirdzniecības vienībām, piemēram, preču kategorijām un mazumtirdzniecības kanāliem, tiem var iestatīt noklusētās vērtības. Ja preces ir saistītas ar preču kategorijām vai mazumtirdzniecības kanāliem, tās pārmanto atribūtus un noklusējuma vērtības. Noklusējuma vērtības var būt ignorētas individuālas preces līmenī, mazumtirdzniecības kanāla līmenī vai mazumtirdzniecības katalogā.
+
 
 Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 
@@ -53,7 +54,7 @@ Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 
 ## <a name="attributes-and-attribute-types"></a>Atribūti un to veidi
 
-Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veidu, ko var ievadīt noteiktam atribūtam. Programmatūrā Finance and Operations pašlaik tiek atbalstīti tālāk aprakstītie atribūtu veidi.
+Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veidu, ko var ievadīt noteiktam atribūtam. Tiek atbalstīti šādi atribūtu veidi:
 
 - **Valūta** — šis veids atbalsta valūtas vērtību. Tas var būt saistīts (var atbalstīt vērtību diapazonu) vai palikt atvērts.
 - **DateTime** — šis veids atbalsta datuma un laika vērtības. Tas var būt saistīts vai palikt atvērts.
@@ -63,9 +64,9 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
 - **Būla** — šis veids atbalsta binārās vērtības (**true** vai **false**).
 - **Atsauce** — šis veids satur atsauces uz citiem atribūtiem.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Atribūtu veidu iestatīšana programmatūrā Finance and Operations
+### <a name="set-up-attribute-types"></a>Iestatīt atribūtu tipus
 
-1. Pierakstieties programmatūras Finance and Operations uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.
+1. Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.
 2. Dodieties uz **Preču informācijas pārvaldība** &gt; **Iestatīšana** &gt; **Kategorijas un atribūti** &gt; **Atribūtu veidi**.
 3. Izveidojiet divus atribūtu veidus **Teksts**, iestatiet opcijai **Pamatlīdzekļu saraksts** vērtību **Jā** un pēc tam pievienojiet vērtību sarakstu.
 
@@ -74,7 +75,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
 
 ![Atribūtu tipi](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Atribūtu iestatīšana programmatūrā Finance and Operations
+### <a name="set-up-an-attribute"></a>Iestatīt atribūtu
 
 1. Pierakstieties uzskaites daļas klientā kā mazumtirdzniecības preču pārvaldnieks.
 2. Dodieties uz **Preču informācijas pārvaldība** &gt; **Iestatīšana** &gt; **Kategorijas un atribūti** &gt; **Atribūti**.
@@ -101,13 +102,13 @@ Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu
 - Ignorēt burtu reģistru un formatējumu
 - Pilnīga atbilstība
 
-Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Finance and Operations standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
+Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Retail standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
 
 Informāciju par šo pārējo opciju mērķi skatiet rakstā [SharePoint Server 2013 meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atribūtu filtra iestatījumi
 
-Atribūtu filtra iestatījumi ļauj definēt to, kā atribūtu filtri tiek rādīti mazumtirdzniecības POS. Lai piekļūtu atribūta filtra iestatījumiem, Finance and Operations lapā **Atribūti** atlasiet atribūtu un pēc tam darbību rūtī atlasiet **Filtra iestatījumi**.
+Atribūtu filtra iestatījumi ļauj definēt to, kā atribūtu filtri tiek rādīti mazumtirdzniecības POS. Lai piekļūtu atribūta filtra iestatījumiem, lapā **Atribūti** atlasiet atribūtu un pēc tam darbību rūtī atlasiet **Filtra iestatījumi**.
 
 Lapa **Filtra rādīšanas preferences** ietver šādus laukus:
 
@@ -233,7 +234,7 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
     - Kanāla preces īpašības
 
     > [!NOTE]
-    > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
+    > Ja tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
 
 ![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
     - Kanāla preces īpašības
 
     > [!NOTE]
-    > Ja Finance and Operations tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.
+    > Ja tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām mazumtirdzniecības precēm.

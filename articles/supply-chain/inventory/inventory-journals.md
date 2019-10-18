@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553442"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249544"
 ---
 # <a name="inventory-journals"></a>Krājumu žurnāli
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553442"
 
 Šajā tēmā ir aprakstīts, kā lietot krājumu žurnālus, lai grāmatotu dažādu veidu fizisko krājumu transakcijas.
 
-Krājumu žurnāli programmā Microsoft Dynamics 365 for Finance and Operations tiek izmantoti, lai grāmatotu dažādu veidu fizisko krājumu transakcijas, piemēram, izejas un ieejas plūsmu grāmatošanu, krājumu kustības, materiālu komplektu (MK) izveidošanu un fizisko krājumu saskaņošanu. Visi šie krājumu žurnāli tiek izmantoti līdzīgā veidā, bet tie ir sadalīti dažādos tipos.
+Krājumu žurnāli programmatūrā Supply Chain Management tiek izmantoti, lai grāmatotu dažādu veidu fizisko krājumu transakcijas, piemēram, izejas un ieejas plūsmu grāmatošanai, krājumu kustībām, materiālu komplektu (MK) izveidošanai un fizisko krājumu saskaņošanai. Visi šie krājumu žurnāli tiek izmantoti līdzīgā veidā, bet tie ir sadalīti dažādos tipos.
 
 ## <a name="types-of-inventory-journals"></a>Krājumu žurnālu tipi
 Ir pieejami tālāk minētie krājumu žurnālu tipi.
@@ -68,7 +68,7 @@ Kad reģistrējat MK pabeigšanu, varat izveidot MK žurnālu. Lietojot MK žurn
 
 ### <a name="item-arrival"></a>Krājumu saņemšana
 
-Krājumu saņemšanas žurnālu varat izmantot, lai reģistrētu krājumu ieejas plūsmu (piemēram, no pirkšanas pasūtījumiem). Krājumu saņemšanas žurnālu var veidot kā daļu no saņemšanas pārvaldības lapā **Saņemšanas darbību apskats**, vai žurnāla ierakstu varat manuāli izveidot no lapas **Krājumu saņemšana**. Ja iespējojat krājumu saņemšanas žurnāla nosaukumu, lai pārbaudītu izdošanas vietas, tad Finance and Operations meklē novietojumu saņemtajiem krājumiem, un, ja ir vieta, ģenerē novietojuma mērķus ienākošajiem krājumiem.
+Krājumu saņemšanas žurnālu varat izmantot, lai reģistrētu krājumu ieejas plūsmu (piemēram, no pirkšanas pasūtījumiem). Krājumu saņemšanas žurnālu var veidot kā daļu no saņemšanas pārvaldības lapā **Saņemšanas darbību apskats**, vai žurnāla ierakstu varat manuāli izveidot no lapas **Krājumu saņemšana**. Ja iespējojat krājumu saņemšanas žurnāla nosaukumu, lai pārbaudītu izdošanas vietas, tad Supply Chain Management meklē novietojumu saņemtajiem krājumiem, un, ja ir vieta, ģenerē novietojuma mērķus ienākošajiem krājumiem.
 
 ### <a name="production-input"></a>Ražošanas ievade
 
@@ -103,7 +103,7 @@ Datu elementi atbalsta šādus integrācijas scenāriju tipus:
 Plašāku informāciju skatiet sadaļā [Datu elementi](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Dažos krājumu žurnālos nav iespējota OData lietošana, tāpēc datu publicēšanai, atjaunināšanai un importēšanai atpakaļ programmā Dynamics 365 for Finance and Operations nevarat izmantot Excel datu savienotāju. 
+> Dažos krājumu žurnālos nav iespējota OData lietošana, tāpēc datu publicēšanai, atjaunināšanai un importēšanai atpakaļ programmā Supply Chain Management nevarat izmantot Excel datu savienotāju. 
 
 Vēl viena atšķirība starp žurnāla datu elementiem ir iespēja izmantot saliktos elementus, kas ietver gan virsraksta, gan rindu datus. Pašlaik varat izmantot saliktos elementus šādiem mērķiem:
 -   Krājuma korekciju žurnāls

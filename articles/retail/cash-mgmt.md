@@ -1,6 +1,6 @@
 ---
 title: Kases pārvaldības uzlabojumi
-description: Šajā tēmā ir aprakstīti kases pārvaldības uzlabojumi pārdošanas punktā (Point of sale — POS) programmai Dynamics 365 for Retail.
+description: Šajā tēmā ir aprakstīti kases pārvaldības uzlabojumi pārdošanas punktā (Point of sale — POS) programmai Dynamics 365 Retail.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630057"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019535"
 ---
 # <a name="cash-management-improvements"></a>Kases pārvaldības uzlabojumi
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630057"
 
 Kases pārvaldība ir būtiska funkcija mazumtirgotājiem fiziskajos veikalos. Mazumtirgotāji vēlas savos veikalos izmantot sistēmas, kas var palīdzēt šiem tirgotājiem nodrošināt pilnīgu izsekojamību un uzskaitāmību par skaidru naudu un tās kustību pa dažādajām veikalā esošajām kases sistēmām un kasieriem. Šīm sistēmām ir jābūt spējīgām saskaņot visas atšķirības un noteikt uzskaitāmību.
 
-Programmatūras Microsoft Dynamics 365 for Retail pārdošanas punkta (Point of sale — POS) programmā ir kases pārvaldības iespējas. Taču Retail versijās, kas ir vecākas par versiju 10.0.3, kases pārvaldības funkcionalitāte nav pietiekami izturīga, lai veikalos nodrošinātu pilnīgu skaidras naudas kustību izsekojamību. Lai gan mazumtirgotāji var saskaņot skaidro naudu vienam veikalam, viņi nevar precīzi noteikt uzskaitāmību gadījumā, ja pastāv skaidras naudas neatbilstība.
 
-Microsoft Dynamics 365 for Retail versijā 10.0.3 un jaunākās versijās mazumtirgotāji iegūst izsekojamību darbam ar skaidru naudu. Daļu no izsekojamības veidos mazumtirgotāju spēja definēt seifus, veikt divpusējas skaidras naudas transakcijas un saskaņot kases pārvaldības transakcijas.
+Programmatūras Microsoft Dynamics 365 Retail pārdošanas punkta (Point of sale — POS) programmā ir kases pārvaldības iespējas. Taču Retail versijās, kas ir vecākas par versiju 10.0.3, kases pārvaldības funkcionalitāte nav pietiekami izturīga, lai veikalos nodrošinātu pilnīgu skaidras naudas kustību izsekojamību. Lai gan mazumtirgotāji var saskaņot skaidro naudu vienam veikalam, viņi nevar precīzi noteikt uzskaitāmību gadījumā, ja pastāv skaidras naudas neatbilstība.
+
+
+Retail versijā 10.0.3 un jaunākās versijās mazumtirgotāji iegūst izsekojamību darbam ar skaidru naudu. Daļu no izsekojamības veidos mazumtirgotāju spēja definēt seifus, veikt divpusējas skaidras naudas transakcijas un saskaņot kases pārvaldības transakcijas.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Izsekojamību iestatīšana un seifu definēšana
 

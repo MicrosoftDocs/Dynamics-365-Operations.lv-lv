@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 17. septembris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 17. septembris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent — Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518580"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026043"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 17. septembris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 17. septembris)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "1518580"
 
 Atvaļinājuma plāniem ir pievienots jauns uzkrājuma veids. Faktisko uzkrājuma grafiku tagad var veidot pēc nodarbinātības mēnešu skaita vai nostrādātajām stundām. Sīkāku informāciju skatiet šeit: [Brīvais laiks pēc uzkrātajām nostrādātajām stundām](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Platform update 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Finance and Operations Platform update 18
 
-Atjauninājums Platform update 18 tagad ir iekļauts programmas Talent laidienā. 
+Atjauninājums Finance and Operations Platform update 18 tagad ir iekļauts programmas Talent laidienā. 
 
 -   Obligātos un citus laukus var slēpt, izmantojot personalizēšanu. Tas ļauj lietotājiem iegūt vienkāršotu pieredzi, ja obligātie lauki, kuri saskaņā ar biznesa loģiku ir iestatīti pēc noklusējuma, netiek parādīti. Slēptie obligātie lauki īslaicīgi tiek parādīti, ja, veicot saglabāšanu, tie ir tukši.
 
--   Atjauninājumā Platform update 18 Talent tīmekļa vietnes klients tagad savieto tās vizuālo informāciju, izmantojot Microsoft Fluent Design.
+-   Atjauninājumā Finance and Operations Platform update 18 Talent tīmekļa vietnes klients tagad savieto tās vizuālo informāciju, izmantojot Microsoft Fluent Design.
 
     -   Ja lauki ir atvērti “lasāmā režīmā”, laukos var vienkārši atlasīt rediģēšanas opciju, lai pārslēgtu veidlapu rediģēšanai.
 

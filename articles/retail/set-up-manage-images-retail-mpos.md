@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606945"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024848"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Programmai Retail Modern POS (MPOS) paredzēto attēlu iestatīšana un pārvaldība
 
@@ -34,19 +34,19 @@ ms.locfileid: "1606945"
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Multivides bāzes vietrāža URL iestatīšana un multivides veidņu definēšana, lai konfigurētu attēlu vietrāžu URL formātu
 
-Programmā Retail Modern POS (MPOS) redzamie attēli ir jāvieso ārēji, ārpus programmas Microsoft Dynamics 365 for Retail. Parasti tie ir izvietoti satura vadības sistēmā, satura piegādes tīklā (CDN) vai multivides serverī. Pēc tam MPOS ienes un parāda atbilstošo elementu, piemēram, preču un katalogu, attēlus, piekļūstot mērķa vietrādim URL. Lai ienestu šos ārējos attēlus, MPOS nepieciešams pareizs attēlu vietrāža URL formāts. Nepieciešamo attēlu vietrāžu URL formātu var konfigurēt, iestatot vērtību **Multivides bāzes vietrādis URL** kanāla profilā un izmantojot funkciju **Definēt multivides veidni** katram elementam. Varat arī pārrakstīt elementu apakškopas standarta vietrāža URL formātu, izmantojot funkciju **Rediģēt programmā Excel**.
+Programmā Retail Modern POS (MPOS) redzamie attēli ir jāvieso ārēji, ārpus programmas Retail. Parasti tie ir izvietoti satura vadības sistēmā, satura piegādes tīklā (CDN) vai multivides serverī. Pēc tam MPOS ienes un parāda atbilstošo elementu, piemēram, preču un katalogu, attēlus, piekļūstot mērķa vietrādim URL. Lai ienestu šos ārējos attēlus, MPOS nepieciešams pareizs attēlu vietrāža URL formāts. Nepieciešamo attēlu vietrāžu URL formātu var konfigurēt, iestatot vērtību **Multivides bāzes vietrādis URL** kanāla profilā un izmantojot funkciju **Definēt multivides veidni** katram elementam. Varat arī pārrakstīt elementu apakškopas standarta vietrāža URL formātu, izmantojot funkciju **Rediģēt programmā Excel**.
 
 > [!IMPORTANT]
-> Pašreizējā Dynamics 365 for Retail versijā vairs nevar iestatīt vietrāža URL formātu, izmantojot atribūta **Attēls** vērtību XML MPOS elementu atribūtu grupā **Noklusējuma**. Ja pārzināt programmu Microsoft Dynamics AX 2012 R3 un tagad lietojat pašreizējoDynamics 365 for Retail versiju, attēlu iestatīšanai vienmēr izmantojat jauno funkcionalitāti **Definēt multivides veidni**. Neizmantojiet un nemainiet atribūtu **Attēls** elementiem, tostarp precēm, atribūtu grupā **Noklusējuma**. Izmaiņas, ko veicat attēlos tieši atribūtu grupā **Noklusējuma**, netiks atspoguļotas. Šī opcija būs atspējota nākamajos laidienos.
+> Pašreizējā Retail versijā vairs nevar iestatīt vietrāža URL formātu, izmantojot atribūta **Attēls** vērtību XML MPOS elementu atribūtu grupā **Noklusējums**. Ja pārzināt programmu Microsoft Dynamics AX 2012 R3 un tagad lietojat pašreizējoDynamics 365 Retail versiju, attēlu iestatīšanai vienmēr izmantojat jauno funkcionalitāti **Definēt multivides veidni**. Neizmantojiet un nemainiet atribūtu **Attēls** elementiem, tostarp precēm, atribūtu grupā **Noklusējuma**. Izmaiņas, ko veicat attēlos tieši atribūtu grupā **Noklusējuma**, netiks atspoguļotas. Šī opcija būs atspējota nākamajos laidienos.
 
 Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalogs. Šīs procedūras palīdzēs nodrošināt, ka visiem kataloga attēliem, kas izmanto kopīgo ceļu, netieši iestatīts pareizais attēlu mērķa ceļš. Piemēram, ja ir ārēji iestatīts multivides serveris vai CDN, un vēlaties, lai attēli parādītos MPOS konkrētajam veikalam, funkcija **Definēt multivides veidni** palīdz iestatīt ceļu, kur MPOS var uzmeklēt un iegūt attēlus.
 
 > [!NOTE]
-> Šajā demonstrācijas datu piemērā multivides serveris ir izvietots mazumtirdzniecības serverī. Taču tas var atrasties jebkurā vietā ārpus programmas Dynamics 365 for Retail.
+> Šajā demonstrācijas datu piemērā multivides serveris ir izvietots mazumtirdzniecības serverī. Tomēr tas var būt arī jebkur ārpus Dynamics 365 Retail.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Multivides bāzes vietrāža URL iestatīšana kanālam
 
-1. Atveriet Dynamics 365 for Retail HQ portālu.
+1. Atveriet Retail HQ portālu.
 2. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **Kanāla profili**.
 
     [![Navigācija](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -62,7 +62,7 @@ Nākamajās procedūrās, kā piemērs, attēli tiek iestatīti elementam Katalo
 3. Kopsavilkuma cilnē **Multivides ceļš** ievadiet atlikušo attēla atrašanās vietas ceļu. Multivides ceļš atbalsta **LanguageID** kā mainīgo. Piemēram, demonstrācijas datiem varat izveidot mapi **Katalogi** visiem kataloga attēliem, kas atrodas jūsu multivides servera multivides bāzes vietrādī URL (`https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer`). Tad jums var būt mape katrai valodai, piemēram, en-US vai fr-FR, un varat kopēt atbilstošos attēlus zem katras mapes. Ja jums nav dažādu attēlu dažādām valodām, var izlaist mainīto **LanguageID** mapes struktūrā un norādīt tieši uz mapi Katalogi, kurā atrodas kataloga attēli.
 
     > [!NOTE]
-    > Pašreizējā Dynamics 365 for Retail versija atbalsta marķiera **{LanguageId}** izmantošanu elementiem Katalogs, Prece un Kategorija. (Saskaņā ar esošo standartu, kas ir spēkā, sākot ar versiju Microsoft Dynamics AX 6.x., netiek atbalstīta marķiera **{LanguageID}** izmantošana elementiem Debitors un Nodarbinātais.)
+    > Pašreizējā Retail versija atbalsta marķiera **{LanguageId}** izmantošanu elementiem Katalogs, Prece un Kategorija. (Saskaņā ar esošo standartu, kas ir spēkā, sākot ar versiju Microsoft Dynamics AX 6.x., netiek atbalstīta marķiera **{LanguageID}** izmantošana elementiem Debitors un Nodarbinātais.)
 
 4. Attēlu faila nosaukuma formāts ir stingri kodēts uz kataloga nosaukumu un to nevar mainīt. Tāpēc pārdēvējiet attēlus tā, lai tiem būtu atbilstoši kataloga nosaukumi, lai palīdzētu nodrošināt, ka MPOS tos apstrādā pareizi.
 5. Laukā **Faila paplašinājums** atlasiet paredzēto faila nosaukuma paplašinājumu, atkarībā no jūsu attēlu tipa. Piemēram, demonstrācijas datos kataloga attēli ir iestatīti uz paplašinājumu .jpg. (Attēlu faili tiek pārdēvēti arī tā, lai tiem būtu kataloga nosaukumi.)
@@ -118,7 +118,7 @@ Kā minēts iepriekšējā sadaļā, noteiktā elementa multivides veidne atbals
     [![Kopsavilkuma cilne Ģenerēt attēlu vietrāžus URL programmai Excel pēc vienuma Ģenerēt atlasīšanas](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
-    > Vietrāžos URL, kas tiek ģenerēti programmai Excel, tiek izmantots ceļš un definētās multivides veidnes noteikumi. Šie noteikumi ietver failu nosaukumu veidošanas noteikumus. Tiek sagaidīts, ka fizisko attēli ir iestatīti ārpus programmas Dynamics 365 for Retail un attēlus var izgūt, izmantojot vietrāžus URL, kas ir atvasināti no iepriekš definētās multivides veidnes. Šos atvasinātos vietrāžus URL var pārrakstīt, izmantojot funkciju Rediģēt programmā Excel.
+    > Vietrāžos URL, kas tiek ģenerēti programmai Excel, tiek izmantots ceļš un definētās multivides veidnes noteikumi. Šie noteikumi ietver failu nosaukumu veidošanas noteikumus. Tiek sagaidīts, ka fizisko attēli ir iestatīti ārpus programmas Retail un attēlus var izgūt, izmantojot vietrāžus URL, kas ir atvasināti no iepriekš definētās multivides veidnes. Šos atvasinātos vietrāžus URL var pārrakstīt, izmantojot funkciju Rediģēt programmā Excel.
 
 5. Noklikšķiniet uz **Rediģēt programmā Excel**.
 6. Kad ir atvērta Microsoft Excel darblapa un tiek parādīta attiecīga uzvedne, noklikšķiniet uz **Iespējot rediģēšanu**.

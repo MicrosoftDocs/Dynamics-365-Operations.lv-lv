@@ -1,6 +1,6 @@
 ---
 title: Demonstrācijas datu ekrāna izkārtojumi programmās Retail Modern POS (MPOS) un Cloud POS
-description: Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Microsoft Dynamics 365 for Retail kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
+description: Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Dynamics 365 Retail kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570648"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019328"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi programmās Retail Modern POS (MPOS) un Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Microsoft Dynamics 365 for Retail kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
+Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Dynamics 365 Retail kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
 
 ## <a name="overview"></a>Pārskats
 
@@ -40,7 +40,7 @@ Pieejamie mazumtirdzniecības demonstrācijas datu ekrāna izkārtojumu paraugi 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekrāna izkārtojuma ID sastāvs
 
-Lai atrastu ekrāna izkārtojumus modulī Retail, pārejiet uz sadaļu **Retail** \> **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
+Lai atrastu ekrāna izkārtojumus, pārejiet uz sadaļu **Retail** \> **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
 ![Lapa Ekrāna izkārtojumi modulī Mazumtirdzniecība](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ Tālāk esošajā tabulā ir norādīti standarta ekrāna izšķirtspējām nodr
 \* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.
 
 > [!TIP]
-> POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Retail Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat modulī Retail skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
+> POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Retail Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
 ![Ekrāna izkārtojumi un izkārtojumu izšķirtspēja/lielums modulī Mazumtirdzniecība un POS sistēmā](../retail/media/demo-screen-layouts-fig-3-1.png)
 

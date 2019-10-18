@@ -1,6 +1,6 @@
 ---
 title: Apskats par mazumtirdzniecības kanālu finanšu integrāciju
-description: Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Dynamics 365 Retail.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516242"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025411"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Apskats par mazumtirdzniecības kanālu finanšu integrāciju
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516242"
 
 ## <a name="introduction"></a>Ievads
 
-Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Microsoft Dynamics 365 for Retail. Finanšu integrācija ietver integrāciju ar dažādām finanšu ierīcēm un pakalpojumiem, kas nodrošina mazumtirdzniecības pārdošanas darbību finanšu reģistrāciju saskaņā ar vietējiem likumiem par nodokļiem, kuru mērķis ir novērst ar nodokļiem saistītu krāpniecību mazumtirdzniecības nozarē. Tālāk ir norādīti daži tipiski scenāriji, kuros var izmantot finanšu integrāciju.
+Šajā tēmā ir sniegts apskats par finanšu integrācijas iespējām, kas ir pieejamas programmā Dynamics 365 Retail. Finanšu integrācija ietver integrāciju ar dažādām finanšu ierīcēm un pakalpojumiem, kas nodrošina mazumtirdzniecības pārdošanas darbību finanšu reģistrāciju saskaņā ar vietējiem likumiem par nodokļiem, kuru mērķis ir novērst ar nodokļiem saistītu krāpniecību mazumtirdzniecības nozarē. Tālāk ir norādīti daži tipiski scenāriji, kuros var izmantot finanšu integrāciju.
 
 - Reģistrējiet mazumtirdzniecības pārdošanas darbību finanšu ierīcē, kas ir savienota ar programmu Retail Point of Sale (POS), piemēram fiskālo printeri, un izdrukājiet debitoram paredzētu finanšu dokumentu.
 - Drošā veidā iesniedziet ar programmā Retail POS veiktajām pārdošanas un atgriešanas darbībām saistīto informāciju ārējā tīmekļa pakalpojumā, kura darbību nodrošina nodokļu iestāde.
 - Palīdziet nodrošināt pārdošanas transakciju datu nemaināmību, izmantojot ciparparakstus.
 
-Programmas Retail finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata mazumtirdzniecības scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugs sastāv no vairākiem programmas Retail komponentu paplašinājumiem un ir iekļauts programmas Retail programmatūras izstrādes komplektā (SDK). Papildinformāciju par finanšu integrācijas paraugiem, kas ir pieejami komplektā Retail SDK, skatiet rakstā [Finanšu integrācijas paraugi komplektā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail SDK apskats](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata mazumtirdzniecības scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugs sastāv no vairākiem programmas Retail komponentu paplašinājumiem un ir iekļauts programmatūras izstrādes komplektā (SDK). Plašāku informāciju par finanšu integrācijas paraugiem skatiet tēmā [Finanšu integrācijas paraugi programmā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail SDK apskats](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Lai nodrošinātu tādu scenāriju atbalstu, kurus neatbalstīta finanšu integrācijas paraugs, integrētu programmu Retail POS ar citām finanšu ierīcēm vai pakalpojumiem, vai izpildītu citās valstīs vai reģionos spēkā esošās prasības, ir jāpaplašina kāds no esošajiem finanšu integrācijas paraugiem vai jāizveido jauns paraugs, kā piemēru izmantojot esošu paraugu.
 
@@ -44,7 +44,7 @@ Lai nodrošinātu tādu scenāriju atbalstu, kurus neatbalstīta finanšu integr
 
 Finanšu reģistrācijas process programmā Retail POS var sastāvēt no vienas vai vairākām darbībām. Katra darbība ietver noteiktu mazumtirdzniecības transakciju vai notikumu finanšu reģistrāciju vienā finanšu ierīcē vai pakalpojumā. Finanšu reģistrācijai finanšu ierīcē, kas ir savienota ar aparatūras staciju, tiek izmantoti tālāk norādītie risinājuma komponenti.
 
-- **Commerce Runtime (CRT) paplašinājums** — šo komponents nodrošina mazumtirdzniecības transakcijas/notikuma datu serializēšanu formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci, no finanšu ierīces saņemto atbilžu parsēšanu un atbilžu saglabāšanu kanāla datu bāzē. Šis paplašinājums nosaka arī konkrētās transakcijas un notikumus, kas ir jāreģistrē. Šis komponents bieži tiek saukts par *finanšu dokumentu nodrošinātāju*.
+- **Commerce runtime (CRT) paplašinājums** — šis komponents nodrošina mazumtirdzniecības transakcijas/notikuma datu serializēšanu formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci, no finanšu ierīces saņemto atbilžu parsēšanu un atbilžu saglabāšanu kanāla datu bāzē. Šis paplašinājums nosaka arī konkrētās transakcijas un notikumus, kas ir jāreģistrē. Šis komponents bieži tiek saukts par *finanšu dokumentu nodrošinātāju*.
 - **Aparatūras stacija paplašinājums** — šis komponents nodrošina saziņas ar finanšu ierīci inicializāciju, pieprasījumu un tiešu komandu sūtīšanu uz finanšu ierīci, pamatojoties uz mazumtirdzniecības transakcijas/notikuma datiem, kas ir izgūti no finanšu dokumenta, un atbilžu saņemšanu no finanšu ierīces. Šis komponents bieži tiek saukts par *finanšu savienotāju*.
 
 Finanšu ierīces finanšu integrācijas paraugā ir ietverti CRT un aparatūras stacijas paplašinājumi attiecīgi finanšu dokumentu nodrošinātājam un finanšu savienotājam. Tajā ir ietvertas arī tālāk norādītās komponentu konfigurācijas.
@@ -56,14 +56,14 @@ Noteiktas POS kases sistēmas finanšu reģistrācijas process tiek definēts, 
 
 Tālāk sniegtajā piemērā ir aprakstīta tipiska finanšu reģistrācijas izpildes plūsma finanšu ierīcei. Plūsma sākas ar notikumu POS sistēmā (piemēram, pārdošanas transakcijas pabeigšanu), un tajā ir ietverta tālāk norādītā darbību secība.
 
-1. POS sistēma pieprasa finanšu dokumentu no programmas CRT.
-2. Programma CRT nosaka, vai pašreizējam notikumam ir nepieciešama finanšu reģistrācija.
-3. Pamatojoties uz finanšu reģistrācijas procesa iestatījumiem, programma CRT nosaka finanšu savienotāju un atbilstošo finanšu dokumentu nodrošinātāju, kas ir jāizmanto finanšu reģistrācijai.
-4. Programma CRT izpilda finanšu dokumentu nodrošinātāju, kas ģenerē finanšu dokumentu (piemēram, XML formāta dokumentu), kurš atbilst mazumtirdzniecības transakcijai vai notikumam.
+1. POS sistēma pieprasa finanšu dokumentu no programmas CRT.
+2. CRT nosaka, vai pašreizējam notikumam ir nepieciešama finanšu reģistrācija.
+3. Pamatojoties uz finanšu reģistrācijas procesa iestatījumiem, programma CRT nosaka finanšu savienotāju un atbilstošo finanšu dokumentu nodrošinātāju, kas ir jāizmanto finanšu reģistrācijai.
+4. CRT izpilda finanšu dokumentu nodrošinātāju, kas ģenerē finanšu dokumentu (piemēram, XML formāta dokumentu), kurš atbilst mazumtirdzniecības transakcijai vai notikumam.
 5. POS sistēma nosūta programmas CRT sagatavoto finanšu dokumentu uz aparatūras staciju.
 6. Aparatūras stacija izpilda finanšu savienotāju, kas apstrādā finanšu dokumentu un pārsūta to uz finanšu ierīci vai pakalpojumu.
 7. POS sistēma analizē no finanšu ierīces vai pakalpojuma saņemto atbildi, lai noteiktu, vai finanšu reģistrācija ir bijusi veiksmīga.
-8. Programma CRT saglabā atbildi kanāla datu bāzē.
+8. CRT saglabā atbildi kanāla datu bāzē.
 
 ![Risinājuma shēma](media/emea-fiscal-integration-solution.png "Risinājuma shēma")
 
@@ -132,7 +132,7 @@ Finanšu integrācijas funkcionalitāte atbalsta tādu dienas beigu pārskatu ģ
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Finanšu integrācijas paraugi komplektā Retail SDK
 
-Pašlaik kopā ar programmu Retail izlaistajā komplektā Retail SDK ir pieejami tālāk norādītie finanšu integrācijas paraugi.
+Pašlaik komplektā Retail SDK ir pieejami tālāk norādītie finanšu integrācijas paraugi.
 
 - [Fiskālā printera integrācijas piemērs Itālijai](emea-ita-fpi-sample.md)
 - [Fiskālā printera integrācijas piemērs Polijai](emea-pol-fpi-sample.md)
