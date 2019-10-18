@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 8. oktobris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 8. oktobris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent — Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/07/2018
@@ -18,28 +18,28 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-07
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 34216e2181915cf615e6e77fa2a10d06a4e9db85
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: 330ffebf73c8948a1bbab2ee57acba7b97a93b6f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617276"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008877"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a><span data-ttu-id="a3c73-103">Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 8. oktobris)</span><span class="sxs-lookup"><span data-stu-id="a3c73-103">What's new or changed in Dynamics 365 for Talent Core HR (October 8, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-october-8-2018"></a><span data-ttu-id="64008-103">Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 8. oktobris)</span><span class="sxs-lookup"><span data-stu-id="64008-103">What's new or changed in Dynamics 365 Talent - Core HR (October 8, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a3c73-104">**8.1.1050.0 būvējums**</span><span class="sxs-lookup"><span data-stu-id="a3c73-104">**Build 8.1.1050.0**</span></span>
+<span data-ttu-id="64008-104">**8.1.1050.0 būvējums**</span><span class="sxs-lookup"><span data-stu-id="64008-104">**Build 8.1.1050.0**</span></span>
 
-<span data-ttu-id="a3c73-105">Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Core HR.</span><span class="sxs-lookup"><span data-stu-id="a3c73-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="64008-105">Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Core HR.</span><span class="sxs-lookup"><span data-stu-id="64008-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="allow-other-dates-to-be-used-on-leave-tier-basis-leave-management"></a><span data-ttu-id="a3c73-106">Ļaušana atvaļinājuma pakāpes bāzei izmantot citus datumus (atvaļinājumu pārvaldība)</span><span class="sxs-lookup"><span data-stu-id="a3c73-106">Allow other dates to be used on leave tier basis (Leave Management)</span></span>
+## <a name="allow-other-dates-to-be-used-on-leave-tier-basis-leave-management"></a><span data-ttu-id="64008-106">Ļaušana atvaļinājuma pakāpes bāzei izmantot citus datumus (atvaļinājumu pārvaldība)</span><span class="sxs-lookup"><span data-stu-id="64008-106">Allow other dates to be used on leave tier basis (Leave Management)</span></span>
 
-<span data-ttu-id="a3c73-107">Piešķirot darbiniekiem atvaļinājumu, piemaksas pakāpes bāze nosaka, cik daudz brīvā laika darbinieks uzkrāj.</span><span class="sxs-lookup"><span data-stu-id="a3c73-107">When awarding leave to employees, the award tier basis determines how much time off an employee accrues.</span></span> <span data-ttu-id="a3c73-108">Pašlaik šīs pakāpes ir balstītas uz darbinieka sākuma datumu un darba stāža datumu.</span><span class="sxs-lookup"><span data-stu-id="a3c73-108">Currently, these tiers are based on employee start date and seniority date.</span></span> <span data-ttu-id="a3c73-109">Noteiktos scenārijos organizācijām ir nepieciešams, lai šīs pakāpes būtu balstītas uz citiem datumiem, piemēram, uz gadadienas datumu vai sākotnējās darbā pieņemšanas datumu.</span><span class="sxs-lookup"><span data-stu-id="a3c73-109">In some scenarios, organizations need these tiers to be based on other dates, like anniversary date or original hire date.</span></span> <span data-ttu-id="a3c73-110">Šie datumi jau tiek izmantoti atvaļinājumu plānā, lai noteiktu, kad tiek veikti uzkrājumi, un tagad ir pievienota iespēja šos pašus datumus izmantot, kad darbinieks tiek reģistrēts kādā plānā, lai noteiktu uzkrājuma summu.</span><span class="sxs-lookup"><span data-stu-id="a3c73-110">These dates are already used on the leave plan to determine when accruals happen, the ability for these same dates to be used when an employee is enrolled in a plan have been added to determine the accrual amount.</span></span> 
+<span data-ttu-id="64008-107">Piešķirot darbiniekiem atvaļinājumu, piemaksas pakāpes bāze nosaka, cik daudz brīvā laika darbinieks uzkrāj.</span><span class="sxs-lookup"><span data-stu-id="64008-107">When awarding leave to employees, the award tier basis determines how much time off an employee accrues.</span></span> <span data-ttu-id="64008-108">Pašlaik šīs pakāpes ir balstītas uz darbinieka sākuma datumu un darba stāža datumu.</span><span class="sxs-lookup"><span data-stu-id="64008-108">Currently, these tiers are based on employee start date and seniority date.</span></span> <span data-ttu-id="64008-109">Noteiktos scenārijos organizācijām ir nepieciešams, lai šīs pakāpes būtu balstītas uz citiem datumiem, piemēram, uz gadadienas datumu vai sākotnējās darbā pieņemšanas datumu.</span><span class="sxs-lookup"><span data-stu-id="64008-109">In some scenarios, organizations need these tiers to be based on other dates, like anniversary date or original hire date.</span></span> <span data-ttu-id="64008-110">Šie datumi jau tiek izmantoti atvaļinājumu plānā, lai noteiktu, kad tiek veikti uzkrājumi, un tagad ir pievienota iespēja šos pašus datumus izmantot, kad darbinieks tiek reģistrēts kādā plānā, lai noteiktu uzkrājuma summu.</span><span class="sxs-lookup"><span data-stu-id="64008-110">These dates are already used on the leave plan to determine when accruals happen, the ability for these same dates to be used when an employee is enrolled in a plan have been added to determine the accrual amount.</span></span> 
 
-## <a name="other-changes"></a><span data-ttu-id="a3c73-111">Cita izmaiņas</span><span class="sxs-lookup"><span data-stu-id="a3c73-111">Other changes</span></span>
-<span data-ttu-id="a3c73-112">Šajā laidienā ir ietverti dažādi labojumi.</span><span class="sxs-lookup"><span data-stu-id="a3c73-112">Miscellanous fixes have been included in this release.</span></span>
+## <a name="other-changes"></a><span data-ttu-id="64008-111">Cita izmaiņas</span><span class="sxs-lookup"><span data-stu-id="64008-111">Other changes</span></span>
+<span data-ttu-id="64008-112">Šajā laidienā ir ietverti dažādi labojumi.</span><span class="sxs-lookup"><span data-stu-id="64008-112">Miscellanous fixes have been included in this release.</span></span>
 
-## <a name="known-issue"></a><span data-ttu-id="a3c73-113">Zināma problēma</span><span class="sxs-lookup"><span data-stu-id="a3c73-113">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="64008-113">Zināma problēma</span><span class="sxs-lookup"><span data-stu-id="64008-113">Known issue</span></span>
 
-<span data-ttu-id="a3c73-114">**Problēma:** pievienojot nodarbinātajam jaunu pielikumu, tiek deaktivizēta poga **Jauns** un **Rediģēt**. **Risinājums:** pirms pielikuma lapas atvēršanas pārbaudiet, vai lapā **Nodarbinātais** ir aizvērta papildinformācija.</span><span class="sxs-lookup"><span data-stu-id="a3c73-114">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="a3c73-115">Ja, ielādējot lapu **Nodarbinātais**, papildinformācija ir aizvērta, pielikumu pogas tiek iespējotas.</span><span class="sxs-lookup"><span data-stu-id="a3c73-115">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="a3c73-116">(Šī problēma tiks novērsta nākamajā platformas atjauninājumā.)</span><span class="sxs-lookup"><span data-stu-id="a3c73-116">(This issue will be fixed in the next platform update.)</span></span>
+<span data-ttu-id="64008-114">**Problēma:** pievienojot nodarbinātajam jaunu pielikumu, tiek deaktivizēta poga **Jauns** un **Rediģēt**. **Risinājums:** pirms pielikuma lapas atvēršanas pārbaudiet, vai lapā **Nodarbinātais** ir aizvērta papildinformācija.</span><span class="sxs-lookup"><span data-stu-id="64008-114">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="64008-115">Ja, ielādējot lapu **Nodarbinātais**, papildinformācija ir aizvērta, pielikumu pogas tiek iespējotas.</span><span class="sxs-lookup"><span data-stu-id="64008-115">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="64008-116">(Šī problēma tiks novērsta nākamajā platformas atjauninājumā.)</span><span class="sxs-lookup"><span data-stu-id="64008-116">(This issue will be fixed in the next platform update.)</span></span>

@@ -1,6 +1,6 @@
 ---
 title: Veikala veiktspējas analizēšana
-description: Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu, pārskatītu un gūtu informāciju par veikala veiktspēju, balstoties uz Microsoft Dynamics 365 for Retail datiem.
+description: Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu, pārskatītu un gūtu informāciju par veikala veiktspēju, balstoties uz Dynamics 365 Retail datiem.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569267"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017786"
 ---
-# <a name="analyze-store-performance"></a><span data-ttu-id="464cc-103">Veikala veiktspējas analīze</span><span class="sxs-lookup"><span data-stu-id="464cc-103">Analyze store performance</span></span>
+# <a name="analyze-store-performance"></a><span data-ttu-id="80b2d-103">Veikala veiktspējas analīze</span><span class="sxs-lookup"><span data-stu-id="80b2d-103">Analyze store performance</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="464cc-104">Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu, pārskatītu un gūtu informāciju par veikala veiktspēju, balstoties uz Microsoft Dynamics 365 for Retail datiem.</span><span class="sxs-lookup"><span data-stu-id="464cc-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span>
+<span data-ttu-id="80b2d-104">Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu, pārskatītu un gūtu informāciju par veikala veiktspēju, balstoties uz Dynamics 365 Retail datiem.</span><span class="sxs-lookup"><span data-stu-id="80b2d-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Dynamics 365 Retail data.</span></span>
 
-<span data-ttu-id="464cc-105">Izmantojot programmu Dynamics 365 for Retail, lietotāji var izpētīt veikala reāllaika veiktspēju dažādos organizācijas hierarhijas līmeņos atlasītajā periodā, atverot standarta pārskatu **Kanāla kopsavilkums** no jebkuras tālāk minētās atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="464cc-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
+<span data-ttu-id="80b2d-105">Izmantojot programmu Retail, lietotāji var izpētīt veikala reāllaika veiktspēju dažādos organizācijas hierarhijas līmeņos atlasītajā periodā, atverot standarta pārskatu **Kanāla kopsavilkums** no jebkuras tālāk minētās atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="80b2d-105">As part of Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
-- <span data-ttu-id="464cc-106">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="464cc-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
-- <span data-ttu-id="464cc-107">Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="464cc-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
-- <span data-ttu-id="464cc-108">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="464cc-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="80b2d-106">Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="80b2d-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="80b2d-107">Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="80b2d-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="80b2d-108">Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla kopsavilkuma pārskats**</span><span class="sxs-lookup"><span data-stu-id="80b2d-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-<span data-ttu-id="464cc-109">Šis pārskats pēc veikala veiktspējas analīzes nodrošina tālāk norādīto apkopojumu momentuzņēmumu.</span><span class="sxs-lookup"><span data-stu-id="464cc-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
+<span data-ttu-id="80b2d-109">Šis pārskats pēc veikala veiktspējas analīzes nodrošina tālāk norādīto apkopojumu momentuzņēmumu.</span><span class="sxs-lookup"><span data-stu-id="80b2d-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
-- <span data-ttu-id="464cc-110">Bruto pārdošanas kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="464cc-110">Gross sales summary</span></span>
-- <span data-ttu-id="464cc-111">Norēķinu veida kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="464cc-111">Tender type summary</span></span>
-- <span data-ttu-id="464cc-112">Nodokļu kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="464cc-112">Tax summary</span></span>
-- <span data-ttu-id="464cc-113">Informācijas par cenas pārlabošanas notikumiem kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="464cc-113">Price overrides summary</span></span>
-- <span data-ttu-id="464cc-114">Informācijas par atlaidēm kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="464cc-114">Discounts summary</span></span>
+- <span data-ttu-id="80b2d-110">Bruto pārdošanas kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="80b2d-110">Gross sales summary</span></span>
+- <span data-ttu-id="80b2d-111">Norēķinu veida kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="80b2d-111">Tender type summary</span></span>
+- <span data-ttu-id="80b2d-112">Nodokļu kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="80b2d-112">Tax summary</span></span>
+- <span data-ttu-id="80b2d-113">Informācijas par cenas pārlabošanas notikumiem kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="80b2d-113">Price overrides summary</span></span>
+- <span data-ttu-id="80b2d-114">Informācijas par atlaidēm kopsavilkums</span><span class="sxs-lookup"><span data-stu-id="80b2d-114">Discounts summary</span></span>
