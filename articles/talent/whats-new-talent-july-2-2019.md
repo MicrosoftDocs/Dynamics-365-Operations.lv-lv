@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmatūrā Dynamics 365 for Talent (2019. gada 25. jūnijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmatūrā Dynamics 365 Talent (2019. gada 25. jūnijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
-ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
+ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "1791980"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010295"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 2. jūlijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 02. jūlijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -52,8 +52,8 @@ Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Core HR kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Core HR.

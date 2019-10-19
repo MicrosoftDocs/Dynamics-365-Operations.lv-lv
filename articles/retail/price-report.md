@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564951"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025199"
 ---
 # <a name="retail-price-reports"></a>Mazumtirdzniecības cenu pārskati
 
 [!include [banner](includes/banner.md)]
 
 
-Lai piedāvātu saviem debitoriem konkurētspējīgas cenas, mazumtirgotāji bieži maina preču cenas. Veikala vadītājiem ir vajadzīga iespēja viegli piekļuvi jaunākajām vai gaidāmajām cenu izmaiņām, lai viņi varētu plānot resursus, kas ir nepieciešami veikala plauktos redzamo preču etiķešu atjaunināšanai. Dynamics 365 for Retail laidienā 10.0 veikala vadītājs var atvērt pārskatu **Cena**, pārejot uz sadaļu **Visi mazumtirdzniecības veikali \> Veikals \> Cenu pārskats** un skatot ar veikalu saistīto preču atjauninātās cenas. 
+Lai piedāvātu saviem debitoriem konkurētspējīgas cenas, mazumtirgotāji bieži maina preču cenas. Veikala vadītājiem ir vajadzīga iespēja viegli piekļuvi jaunākajām vai gaidāmajām cenu izmaiņām, lai viņi varētu plānot resursus, kas ir nepieciešami veikala plauktos redzamo preču etiķešu atjaunināšanai. Retail laidienā 10.0 veikala vadītājs var atvērt pārskatu **Cena**, pārejot uz sadaļu **Visi mazumtirdzniecības veikali \> Veikals \> Cenu pārskats** un skatot ar veikalu saistīto preču atjauninātās cenas. 
 
 Lai iespējotu cenu pārskatu, ir jāiespējo parametrs **Iespējot cenu pārskatu par mazumtirdzniecības veikalam**. Šis parametrs atrodas cilnē **Mazumtirdzniecības parametri \> Atlaides \> Dažādi**. Atverot lapu **Cenu pārskats**, tiek parādīts dialoglodziņš ar dažādām konfigurācijām. Tālāk ir norādītas pieejamās konfigurācijas.
 

@@ -1,6 +1,6 @@
 ---
-title: Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 2. aprīlis)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 2. aprīlis)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795248"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026079"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 2. aprīlis)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 2. aprīlis)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -46,7 +46,7 @@ Apstiprinājuma e-pasta ziņojumu saturu varat pielāgot, izmantojot jaunas veid
 Uzlabojumi cilnei **Dokumenti** pieteikumu un kandidātu kopu profilos tagad rāda gan dokumenta nosaukumu, gan tipu.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Drīzumā (Attract un Onboard)
 
@@ -56,8 +56,8 @@ Programmā Attract un Onboard problēmas, kuras lietotāji ir reģistrējuši, i
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2216.
 
-### <a name="platform-update-25"></a>Platform update 25
-Papildinformāciju par atjauninājumu Platform update 25 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 25 (2019. gada aprīlis)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Finance and Operations Platform update 25
+Papildinformāciju par atjauninājumu Finance and Operations Platform update 25 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 25 (2019. gada aprīlis)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Papildu atlīdzības drošība (fiksētā un mainīgā)
 Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. To klāstā varētu ietilpt ieraksti vadītājiem vai reģionālajiem darbiniekiem. Šī izmaiņa sniedz iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem varat piešķirt drošības lomas. Šīs drošības lomas nosaka piekļuvi plāniem un saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem, lai atlīdzību darbinieku grupām varētu apstrādāt tikai attiecīgās lomas.
@@ -79,4 +79,4 @@ Organizācijām var būt nepieciešami iemeslu kodi noteiktiem atvaļinājumu ti
 Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda atrasto dublikātu skaitu. Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto. Lai izvairītos no datu ievades pārtraukšanas, dublikātu forma netiek atvērta automātiski.
 
 ###  <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 
+Līdz ar Finance and Operations atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 

@@ -1,6 +1,6 @@
 ---
-title: Atjaunināt pievienošanās ceļvežus programmā Dynamics 365 for Talent - Onboard
-description: Šajā tēmā ir paskaidrots, kā atjaunināt pievienošanas ceļvežus programmā Microsoft Dynamics 365 for Talent - Onboard un kā izstumt izmaiņas esošajos ceļvežos.
+title: Atjaunināt pievienošanās ceļvežus programmā Dynamics 365 Talent - Onboard
+description: Šajā tēmā ir paskaidrots, kā atjaunināt pievienošanas ceļvežus programmā Microsoft Dynamics 365 Talent - Onboard un kā izstumt izmaiņas esošajos ceļvežos.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731559"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010733"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Atjaunināt pievienošanās ceļvežus programmā Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>Atjaunināt pievienošanās ceļvežus 
 
 [!include [banner](includes/banner.md)]
 
-Ja ir jāveic izmaiņas pievienošanas ceļvežos Microsoft Dynamics 365 for Talent: Onboard, varat tos atjaunināt un izstumt izmaiņas, pat ja ceļvežus esat jau nosūtījis. Ir divas iespējas, kā atjaunināt pievienošanas ceļvedi.
+Ja ir jāveic izmaiņas pievienošanas ceļvežos Microsoft Dynamics 365 Talent: Onboard, varat tos atjaunināt un izstumt izmaiņas, pat ja ceļvežus esat jau nosūtījis. Ir divas iespējas, kā atjaunināt pievienošanas ceļvedi.
 
 - Tieši rediģēt pievienošanas ceļvedi un saglabāt izmaiņas.
 - Rediģēt pievienošanas veidni un pēc tam veikt izmaiņas visos no tās izveidotajos pievienošanas ceļvežos.
