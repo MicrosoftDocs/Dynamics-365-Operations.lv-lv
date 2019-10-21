@@ -1,6 +1,6 @@
 ---
 title: URL atvērš. POS
-description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Dynamics 365 Retail.
 author: AamirAllaq
 manager: AnnBe
 ms.date: 01/28/2019
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 729caf9fad9097a3ecbf7d546c8f8a96f67aec92
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 406dad1709dc837f7f87817241d7062f6b08d8fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845687"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025890"
 ---
 # <a name="open-url-in-pos"></a>URL atvēršana POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā konfig. pogu sistēmā Retail POS (pārdošanas punkts), lai atvērtu URL. Šim līdzeklim nav nepieciešama koda pielāgošana, un to var konfigurēt persona, kurai nav izstrādātāja lomas. Šis līdzeklis ir ietverts programmas Dynamics 365 for Finance and Operations versijas 8.1.3 laidienā (būvējums 8.1.227.10014) un jaunākās tās versijās. 
+Šajā tēmā aprakstīts, kā konfig. pogu sistēmā Retail POS (pārdošanas punkts), lai atvērtu URL. Šim līdzeklim nav nepieciešama koda pielāgošana, un to var konfigurēt persona, kurai nav izstrādātāja lomas. 
 
 Šis līdzeklis ļauj konfigurēt pogu sistēmā POS, izmantojot pogu režģa veidotāju, lai atvērtu URL. Pašlaik tas tiek atbalstīts šādās konfigurācijās:
 

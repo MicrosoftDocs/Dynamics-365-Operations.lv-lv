@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b91d8589fa4226a2c28e6935b32109e702afc1a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5722099f8f146b9c5cc1fd427ccc57e040d2ff8a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571536"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025426"
 ---
 # <a name="petty-cash-management-for-retail-for-eastern-europe"></a>Mazo kases posteņu pārvaldība programmai Retail Austrumeiropā
 
@@ -50,7 +50,7 @@ Lapā **Grāmatotie izraksti**, darbību rūtī varat izpildīt tālāk aprakst�
 
 Pirms Retail kases pārvaldības izmantošanas ir jāveic tālāk aprakstītā iestatīšanas procedūra.
 
-- Lapā **Maksāšanas metodes** iestatiet maksāšanas metodi katram mazumtirgotāja akceptētajam maksājuma tipam. Transakciju grāmatošanai programmā Retail POS varat izmantot dažādas maksāšanas metodes. Plašāku informāciju par maksāšanas metodēm programmā Retail skatiet šeit: [Maksāšanas metodes](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
+- Lapā **Maksāšanas metodes** iestatiet maksāšanas metodi katram mazumtirgotāja akceptētajam maksājuma tipam. Transakciju grāmatošanai programmā Retail POS varat izmantot dažādas maksāšanas metodes. Plašāku informāciju par maksāšanas metodēm skatiet [Maksāšanas metodes](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
 - Iestatiet mazumtirdzniecības parametrus skaidras naudas operācijām.
 - Iestatiet maksāšanas metodi maksājumiem skaidrā naudā mazumtirdzniecības veikalā.
 

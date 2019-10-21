@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 9. jūlijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 9. jūlijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856381"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023957"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 9. jūlijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 9. jūlijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Drīzumā risinājumā Attract
 #### <a name="job-approvals-appear-on-the-home-page"></a>Darbu apstiprinājumu rādīšana sākumlapā
@@ -42,15 +42,15 @@ Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2374.
 
-### <a name="platform-update-28"></a>Platformas update 28
+### <a name="platform-update-28-for-finance-and-operations"></a>Finance and Operations Platform update 28
 
-Papildinformāciju par atjauninājumu Platform update 28 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 28 (2019. gada jūlijs)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Papildinformāciju par atjauninājumu Finance and Operations Platform update 28 skatiet rakstā [Priekšskatījuma līdzekļi Dynamics 365 Finance and Operations Platform update 28 (2019. gada jūlijs)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Elementu atbalsts pielāgotajiem laukiem Common Data Service 
 

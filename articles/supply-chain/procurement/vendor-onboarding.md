@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549002"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250159"
 ---
 # <a name="onboard-vendors"></a>Kreditoru pievienošana
 [!include [banner](../includes/banner.md)]
 
 ---
 
-Programmatūrā Microsoft Dynamics 365 for Finance and Operations var pievienot un reģistrēt jaunus kreditorus, pamatojoties uz informāciju, kas ir saņemta no šī kreditora pārstāvja.
+Programmā Microsoft Dynamics 365 Supply Chain Management var pievienot un reģistrēt jaunus kreditorus, pamatojoties uz informāciju, kas ir saņemta no šī kreditora pārstāvja.
 
 Šis process sastāv no tālāk aprakstītajām darbībām, kuras sistēmā veic lietotāji ar dažādām lomām.
 
 1. **Datu pārvaldība OData** — elementa importēšana — sākotnējais pieprasījums ir potenciālā piegādātāja reģistrācijas pieprasījums. Parasti šis pieprasījums nāk no kāda avota, piemēram, no debitora viesotas vietnes, kas pieļauj anonīmu piekļuvi. Kreditori var reģistrēties, norādot pamatinformāciju, piemēram, kreditora nosaukumu, pamatojumu, organizācijas numuru un kontaktpersonas vārdu un e-pasta adresi. Šie pieprasījumi tiek importēti, izmantojot datu pārvaldības interfeisu.
-2. **Potenciālo piegādātāju reģistrācijas pieprasījumu saraksta lapa** — pamatojoties uz potenciālā piegādātāja reģistrācijas pieprasījumā sniegto informāciju, sagādes speciālists izlemj, vai šis kreditors ir jāpievieno. Sagādes speciālists apskata ienākošo pieprasījumu programmas Finance and Operations saraksta lapā **Potenciālo piegādātāju reģistrācijas pieprasījumi**.
+2. **Potenciālo piegādātāju reģistrācijas pieprasījumu saraksta lapa** — pamatojoties uz potenciālā piegādātāja reģistrācijas pieprasījumā sniegto informāciju, sagādes speciālists izlemj, vai šis kreditors ir jāpievieno. Sagādes speciālists apskata ienākošo pieprasījumu saraksta lapā **Potenciālo piegādātāju reģistrācijas pieprasījumi**.
 3. **Lietotāja nodrošināšanas darbplūsma** — kad sagādes speciālists ir pārbaudījis ienākošajā pieprasījumā norādīto informāciju un ir izlēmis turpināt pievienošanas procesu, lietotāja pieprasījuma darbplūsma nodrošina jauno lietotāju un nosūta uzaicinājuma e-pasta ziņojumu, lai šo kontaktpersonu pieņemtu kā autentificētu Microsoft Dynamics 365 lietotāju.
-4. **Kreditora reģistrācijas vednis** — piegādātāja kontaktpersonas pierakstās programmā Finance and Operations, izmantojot jauno lietotāja kontu. Šī kontaktpersona izpilda kreditora reģistrācijas vedņa norādījumus, lai sniegtu tādu informāciju kā, piemēram, adreses, biznesa informācija, sagādes kategorijas un atbildes uz aptaujas jautājumiem.
+4. **Kreditora reģistrācijas vednis** — piegādātāja kontaktpersonas pierakstās, izmantojot jauno lietotāja kontu. Šī kontaktpersona izpilda kreditora reģistrācijas vedņa norādījumus, lai sniegtu tādu informāciju kā, piemēram, adreses, biznesa informācija, sagādes kategorijas un atbildes uz aptaujas jautājumiem.
 5. **Apstiprinājuma darbplūsma** — tiek izveidots piegādātāja pieprasījums, kurā ir šī reģistrācijas informācija. Šis piegādātāja pieprasījums tiek iesniegts darbplūsmā un tiek novirzīts pārskatīšanai un apstiprināšanai.
 6. **Kreditora pamatdatu izveidošana un lietotāja lomas modificēšana** — kad piegādātāja pieprasījums ir apstiprināts, tiek izveidots kreditora ieraksts. Kreditora kontaktpersonas lietotāja kontam tiek piešķirtas tiesības uz kreditoru sadarbību, vai šis konts tiek deaktivizēts.
 
@@ -45,14 +45,14 @@ Nākamajā tabulā ir parādītas šajā procesā iesaistītās darbības un lom
 |--------------------------|---|---|---|---|---|---|
 | Sistēma                   | Jauna piegādātāja pieprasījums tiek importēts. | | | | | Pēc piegādātāja pieprasījuma pieņemšanas tiek izveidots kreditora ieraksts. |
 | Sagādes speciālists | | Sākt pievienošanas procesu. | | | Pārskatīt un pieņemt vai noraidīt piegādātāja pieprasījumu. | |
-| Administrators            | | | Izveidot lietotāju programmā Finance and Operations un Microsoft Azure. | | | |
+| Administrators            | | | Izveidojiet programmatūrā Supply Chain Management un Microsoft Azure. | | | |
 | Kreditora kontaktpersona    | | | Sūtīt e-pasta ziņojumu kontaktpersonai. | Reģistrēt kreditora informāciju. | | |
 
-Īsu kreditoru pievienošanas procesa demonstrāciju varat skatīties šajā īsajā YouTube video: [Jauna piegādātāja pievienošana programmā Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Īsu kreditoru pievienošanas procesa demonstrāciju varat skatīties šajā īsajā YouTube video par [Jauna kreditora pievienošana programmatūrā Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Potenciālā piegādātāja reģistrācijas pieprasījuma importēšana
 
-Potenciālā piegādātāja reģistrācijas pieprasījums ir elements programmā Finance and Operations. Sistēmu varat iestatīt datu importēšanai, izmantojot šo elementu. 
+Potenciālā piegādātāja reģistrācijas pieprasījums ir elements programmatūrā Supply Chain Management. Sistēmu varat iestatīt datu importēšanai, izmantojot šo elementu. 
 
 Nākamajā tabulā ir parādīta informācija, kas ir ietverta šajā elementā un ko var importēt.
 
@@ -65,18 +65,18 @@ Nākamajā tabulā ir parādīta informācija, kas ir ietverta šajā elementā 
 | Kontaktpersonas vārds  | Tās personas vārds, kura tiks aicināta reģistrēt kreditora informāciju. |
 | Kontakta otrais vārds | Tās personas otrais vārds, kura tiks aicināta reģistrēt kreditora informāciju. |
 | Kontaktpersonas uzvārds   | Tās personas uzvārds, kura tiks aicināta reģistrēt kreditora informāciju. |
-| Kontaktpersonas e-pasta adrese       | E-pasta adrese, kas tiks izmantota, lai izveidotu jaunu lietotāju programmā Finance and Operations, un kas tiks reģistrēta nomnieka Azure Active Directory (Azure AD) kontā. |
+| Kontaktpersonas e-pasta adrese       | E-pasta adrese, kas tiks izmantota, lai izveidotu jaunu lietotāju programmatūrā Supply Chain Management, un kas tiks reģistrēta nomnieka Azure Active Directory (Azure AD) kontā. |
 | Iesniegšanas datums               | Datums, kad pieprasījums tika izveidots ārējā sistēmā. |
-| Juridiska persona                 | Juridiskā persona, kurā kreditors pieprasa kļūt par kreditoru. Šai vērtībai ir jābūt juridiskās personas kodam, kas ir reģistrēts programmā Finance and Operations. Ja importēšanas procesa gaitā nav saņemta nekāda vērtība, tiek lietota vērtība no sagādes un avotu parametriem. |
+| Juridiska persona                 | Juridiskā persona, kurā kreditors pieprasa kļūt par kreditoru. Šai vērtībai ir jābūt juridiskās personas kodam, kas ir reģistrēts programmatūrā Supply Chain Management. Ja importēšanas procesa gaitā nav saņemta nekāda vērtība, tiek lietota vērtība no sagādes un avotu parametriem. |
 | Kreditora tips                  | Kreditors var būt organizācija vai persona. Kreditora tips nosaka veidu, kādā kreditors visbeidzot tiek izveidots. |
 
 Kad potenciālā piegādātāja reģistrācijas pieprasījums ir importēts, tas ir redzams saraksta lapā **Potenciālā piegādātāja reģistrācijas pieprasījums**. No šīs saraksta lapas sagādes speciālists var uzaicināt šo lietotāju. Lietotāja pieprasījums pēc lietotāja pieprasīšanas tiek nosūtīts uz darbplūsmu.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Potenciālā piegādātāja lietotāja pieprasījuma iesniegšana
 
-Potenciālā piegādātāja lietotāja pieprasījuma mērķis ir nodrošināt personu, kas iesniedza sākotnējo pieprasījumu, lai šī persona varētu pierakstīties sistēmā Finance and Operations, izmantojot e-pasta kontu, kas tiek nodrošināts potenciālā piegādātāja reģistrācijas pieprasījumā.
+Potenciālā piegādātāja lietotāja pieprasījuma mērķis ir nodrošināt personu, kas iesniedza sākotnējo pieprasījumu, lai šī persona varētu pierakstīties programmatūrā Supply Chain Management, izmantojot e-pasta kontu, kas tiek nodrošināts potenciālā piegādātāja reģistrācijas pieprasījumā.
 
-Potenciālā piegādātāja lietotāja pieprasījums tiek apstrādāts ar lietotāja pieprasījuma darbplūsmu. Šī darbplūsma sazinās, izmantojot Azure AD B2B sadarbību. Tā izveido lietotāju sistēmā Finance and Operations, kam ir atbilstošie drošības iestatījumi.
+Potenciālā piegādātāja lietotāja pieprasījums tiek apstrādāts ar lietotāja pieprasījuma darbplūsmu. Šī darbplūsma sazinās, izmantojot Azure AD B2B sadarbību. Tā izveido lietotāju programmatūrā Supply Chain Management, kam ir atbilstošie drošības iestatījumi.
 
 Jauniestatītajiem lietotājiem ir tālāk norādītās drošības lomas.
 
@@ -87,9 +87,9 @@ Jaunais lietotājs saņems lietotāja pieprasījuma darbplūsmas ģenerētu e-pa
 
 Informāciju par e-pasta ziņojuma konfigurēšanu un šo darbplūsmu vispār skatiet lietotāja pieprasījuma darbplūsmas aprakstā šeit: [Kreditoru sadarbības iestatīšana un uzturēšana](set-up-maintain-vendor-collaboration.md).
 
-## <a name="vendor-registration"></a>Piegādātāja reģistrācija
+## <a name="vendor-registration"></a>Kreditora reģistrēšana
 
-Potenciālā piegādātāja lietotājs, kurš pierakstās sistēmā Finance and Operations, redz kreditora reģistrācijas vedņa pirmo lapu, kur šis lietotājs var ievadīt piegādātāja informāciju.
+Potenciālā piegādātāja lietotājs, kurš pierakstās programmatūrā Supply Chain Management, redz kreditora reģistrācijas vedņa pirmo lapu, kur šis lietotājs var ievadīt piegādātāja informāciju.
 
 Vednis atspoguļo piegādātāja pieprasījuma konfigurāciju. Vednī pieprasīto informāciju un informāciju, kas ir jānorāda obligāti, nosaka valsts vai reģions, kur kreditors veic uzņēmējdarbību.
 
@@ -119,7 +119,7 @@ Piegādātāju pieprasījumi ir pieejami lapā **Kreditoru sadarbības lietotāj
 
 Piegādātāja pieprasījumā ir informācija, ko potenciālā piegādātāja lietotājs ievadīja kreditora reģistrācijas vednī.
 
-Pieprasījums jums ļauj pārskatīt piegādātāja informāciju un izlemt, vai šim piegādātājam ir jākļūst par reģistrētu kreditoru programmā Finance and Operations.
+Pieprasījums jums ļauj pārskatīt piegādātāja informāciju un izlemt, vai šim piegādātājam ir jākļūst par reģistrētu kreditoru.
 
 Piegādātāja pieprasījums ir jāiesniedz darbplūsmā, un to ir nepieciešams novirzīt atbilstošajiem pārskatītājiem un apstiprinātājiem. Pamatinformāciju par veidu, kā iestatīt darbplūsmas, skatiet šeit: [Sagādes un avotu darbplūsmas](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Kad piegādātāja pieprasījums ir apstiprināts, tiek izveidots kreditora kont
 
 Pirms apstiprināt piegādātāja pieprasījumu, lapā **Jauns piegādātājs**, kopsavilkuma cilnē **Vispārīgi** atlasiet **Kreditoru grupa**, lai atlasītu kādu kreditoru grupu.
 
-Ja potenciālā piegādātāja lietotājam ir nepieciešama piekļuve sistēmai Finance and Operations kā kreditoru sadarbības lietotājam, kas pārstāv šo piegādātāju, kreditoru sadarbības piekļuves atļauju iestatiet uz **Jā**. Lai deaktivizētu lietotāja kontu, kuru potenciālais piegādātājs izmantoja, lai reģistrētos, iestatiet šo atļauju uz **Nē**.
+Ja potenciālā piegādātāja lietotājam ir nepieciešama piekļuve programmatūrai Supply Chain Management kā kreditoru sadarbības lietotājam, kas pārstāv šo piegādātāju, kreditoru sadarbības piekļuves atļauju iestatiet uz **Jā**. Lai deaktivizētu lietotāja kontu, kuru potenciālais piegādātājs izmantoja, lai reģistrētos, iestatiet šo atļauju uz **Nē**.
 
 Ja kreditoru sadarbības piekļuves atļauja ir iestatīta uz **Jā**, kad piegādātāja pieprasījums ir apstiprināts, tiek iesniegts pieprasījums modificēt lietotāju lomas, lai šim lietotājam būtu lomas, kas iestatījumā **Ārējās lomas** ir definētas veidam **Kreditors**. Ja šī atļauja ir iestatīta uz **Nē**, kad piegādātāja pieprasījums ir apstiprināts, tiek iesniegts pieprasījums deaktivizēt šo lietotāju. Šajā gadījumā ir jāiestata darbplūsma lietotāja pieprasījuma deaktivizēšanai.
 

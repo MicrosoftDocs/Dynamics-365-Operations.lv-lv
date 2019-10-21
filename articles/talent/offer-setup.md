@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumu pārvaldības iestatīšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt piedāvājumus programmā Talent.
+description: Šajā tēmā ir aprakstīts, kā iestatīt piedāvājumus programmā Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518547"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010848"
 ---
 # <a name="set-up-offer-management"></a>Piedāvājumu pārvaldības iestatīšana 
 
 [!include [banner](includes/banner.md)]
 
-Kad kandidāts tiek pārvietots uz piedāvājuma posmu programmā Dynamics 365 for Talent: Attract, ir jānodrošina, ka var ātri izveidot kandidātam paredzētos piedāvājumus, pēc nepieciešamības tos apstiprināt un nosūtīt attiecīgajam kandidātam. Tā kā lielākā daļa piedāvājumu ir standarta piedāvājumi, tos var izveidot no atkārtoti izmantojamām veidnēm. Programmā Attract visi piedāvājumi tiek apkopoti piedāvājumu paketē, kas ir kolekcija no viena vai vairākiem piedāvājumu dokumentiem. 
+Kad kandidāts tiek pārvietots uz piedāvājuma posmu programmā Dynamics 365 Talent: Attract, ir jānodrošina, ka var ātri izveidot kandidātam paredzētos piedāvājumus, pēc nepieciešamības tos apstiprināt un nosūtīt attiecīgajam kandidātam. Tā kā lielākā daļa piedāvājumu ir standarta piedāvājumi, tos var izveidot no atkārtoti izmantojamām veidnēm. Programmā Attract visi piedāvājumi tiek apkopoti piedāvājumu paketē, kas ir kolekcija no viena vai vairākiem piedāvājumu dokumentiem. 
 
 Šajā tēmā ir uzskaitītas visas darbības, kas Attract administratoram būtu jāizpilda, lai kā daļu no piedāvājumu pārvaldības iespējām programmā Attract iesaistītu dažādas piedāvājumu pakotņu veidnes. Lietotājiem, kuriem nav administratora lomas, nav piekļuves šīm iespējām.
 

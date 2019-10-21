@@ -1,6 +1,6 @@
 ---
-title: Paplašināmība programmā Attract
-description: Šajā tēmā ir aprakstīts, kā varat paplašināt lietojumprogrammu Dynamics 365 for Talent - Attract, izmantojot platformu Microsoft Power.
+title: Paplašināmība pakalpojumā Attract
+description: Šajā tēmā ir aprakstīts, kā varat paplašināt Microsoft Dynamics 365 Talent - Attract, izmantojot Microsoft Power Platform.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795224"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026237"
 ---
 # <a name="extensibility-in-attract"></a>Paplašināmība pakalpojumā Attract
 
 [!include[banner](../includes/banner.md)]
 
-Programma Microsoft Dynamics 365 for Talent ir būvēta, izmantojot platformu Common Data Service, un to var dažādos veidos paplašināt, izmantojot Microsoft Power Platform un iespējas, ko sniedz Common Data Service. Tāpēc varat konfigurēt un personalizēt sistēmu, izmantojot Microsoft PowerApps un Microsoft Flow. Varat arī iegūt papildu analīzes datus par personām, izmantojot Microsoft Power BI. Turklāt jaunās pielāgotās aktivitātes, piemēram, PowerApps un Tīmekļa satura (iframe) aktivitātes, ļauj jums adaptēt darbā pieņemšanas procesu labāk kā jebkad. Izmantojot šīs aktivitātes, varat pielāgot darbā pieņemšanas procesu atbilstoši sava uzņēmuma vajadzībām un procedūrām, un varat nodrošināt, lai gan darbā pieņemšanas grupai, gan kandidātiem būtu vienota un pielāgota funkcionalitāte.
+Programma Microsoft Dynamics 365 Talent ir būvēta, izmantojot Common Data Service, un to var dažādos veidos paplašināt, izmantojot Microsoft Power Platform un iespējas, ko sniedz Common Data Service. Tāpēc varat konfigurēt un personalizēt sistēmu, izmantojot Microsoft PowerApps un Microsoft Flow. Varat arī iegūt papildu analīzes datus par personām, izmantojot Microsoft Power BI. Turklāt jaunās pielāgotās aktivitātes, piemēram, PowerApps un Tīmekļa satura (iframe) aktivitātes, ļauj jums adaptēt darbā pieņemšanas procesu labāk kā jebkad. Izmantojot šīs aktivitātes, varat pielāgot darbā pieņemšanas procesu atbilstoši sava uzņēmuma vajadzībām un procedūrām, un varat nodrošināt, lai gan darbā pieņemšanas grupai, gan kandidātiem būtu vienota un pielāgota funkcionalitāte.
 
 ## <a name="extending-option-sets-in-attract"></a>Opciju kopu paplašināšana programmā Attract
 
@@ -54,13 +54,13 @@ Tālāk ir norādītas darbības, kas jāveic, lai atjauninātu lauku **Noraidī
 12. Atlasiet **Saglabāt**.
 13. Atlasiet **Publicēt** lapas augšdaļā.
 
-## <a name="take-advantage-of-the-microsoft-power-platform"></a>Microsoft Power Platform pilnvērtīga izmantošana 
+## <a name="take-advantage-of-the-microsoft-power-platform"></a>Izmantojiet Microsoft Power Platform sniegtās priekšrocības 
 
-Tā kā visi programmas Attract dati tiek glabāti platformā Common Data Service, varat izmantot Microsoft Power Platform rīkus, lai programmā Attract ieviestu savas unikālās uzņēmējdarbības vajadzības.
+Tā kā visi programmas Attract dati tiek glabāti Common Data Service, varat izmantot Microsoft Power Platform rīkus, lai programmā Attract ieviestu savas unikālās uzņēmējdarbības vajadzības.
 
 ### <a name="powerapps"></a>PowerApps
 
-Varat izmantot platformu PowerApps, lai vienkārši izveidotu programmas, kurās tiek veidots savienojums ar jūsu Attract datiem un loģikas pievienošanai tiek izmantotas tādas pašas izteiksmes, kādas tiek izmantotas programmā Microsoft Excel. Programmas, ko izveidojat, izmantojot platformu PowerApps, var tikt darbinātas tīmeklī, kā arī Apple iOS un Google Android ierīcēs.
+Varat izmantot platformu PowerApps, lai vienkārši izveidotu programmas, kurās tiek veidots savienojums ar jūsu Attract datiem un loģikas pievienošanai tiek izmantotas tādas pašas izteiksmes, kādas tiek izmantotas programmā Microsoft Excel. Programmas, ko izveidojat, izmantojot platformu PowerApps , var tikt darbinātas tīmeklī, kā arī Apple iOS un Google Android ierīcēs.
 
 Piemēram, universitāšu karjeras iespēju izstādes varat padarīt vienkāršākas personāla atlases darbiniekiem, uzbūvējot maz resursu patērējošu programmu, kas šiem darbiniekiem ļauj skenēt CV un padot kandidātus uz kādu amatu programmā Attract. Ja vēlaties, varat izveidot programmu, kas palīdz nodrošināt jūsu organizācijas atbilstības vajadzības. Papildinformāciju par platformu PowerApps un to, kā to var izmantot programmu izveidei, skatiet tēmā [Datu integrēšana platformā Common Data Service](https://docs.microsoft.com/powerapps).
 
@@ -74,14 +74,14 @@ Power BI sniedz iespēju izveidot un skatīt pielāgotus pārskatus un informāc
 
 ### <a name="custom-activities"></a>Pielāgotas darbības 
 
-Varat pievienot pielāgotas aktivitātes, piemēram, PowerApps programmu un tīmekļa satura (iframe) aktivitātes, darba procesa veidnes līmenī vai laikā, kamēr veidojat jaunu darbu. Šīs aktivitātes ļauj jums pielāgot darbā pieņemšanas procesu un savas organizācijas unikālo biznesa loģiku ieviest programmā Attract.
+Varat pievienot pielāgotas aktivitātes, piemēram, PowerApps programmas un tīmekļa satura (iframe) aktivitātes, darba procesa veidnes līmenī vai laikā, kamēr veidojat jaunu darbu. Šīs aktivitātes ļauj jums pielāgot darbā pieņemšanas procesu un savas organizācijas unikālo biznesa loģiku ieviest programmā Attract.
 
-#### <a name="powerapps-activity"></a>PowerApps aktivitāte 
+#### <a name="powerapps-activity"></a>Aktivitāte PowerApps 
 
-PowerApps aktivitāte dod iespēju darba vai darba procesa veidnes veidotājam iegult PowerApps programmu darbā pieņemšanas plūsmā. Pēc programmas izveidošanas un publicēšanas šīs programmas ID varat ievadīt aktivitāšu konfigurācijās. Izmantojot PowerApps programmu, varat lasīt datus no platformas Common Data Service un rakstīt datus tajā. Programmu varat pat saistīt ar kādu plūsmu. Piemēram, jums ir programma, ko darbā pieņemšanas darbinieki izmanto, lai aizpildītu formas, veicot intervijas pa tālruni. Tādā gadījumā šo programmu varat saistīt ar plūsmu, kas novērtē, vai attiecīgais kandidāts var tikt pārcelts uz nākamo darbā pieņemšanas procesa atlases kārtu. Šāda tipa aktivitāti var skatīt tikai darbā pieņemšanas grupas dalībnieki. Plašāku informāciju par veidu, kā konfigurēt PowerApps aktivitāti, skatiet šeit: [Aktivitātes programmā Attract](./activities-attract.md).
+PowerApps aktivitāte dod iespēju darba vai darba procesa veidnes veidotājam iegult PowerApps programmu darbā pieņemšanas plūsmā. Pēc programmas izveidošanas un publicēšanas šīs programmas ID varat ievadīt aktivitāšu konfigurācijās. By using a PowerApps programmu, varat lasīt datus no platformas Common Data Service un rakstīt datus tajā. Programmu varat pat saistīt ar kādu plūsmu. Piemēram, jums ir programma, ko darbā pieņemšanas darbinieki izmanto, lai aizpildītu formas, veicot intervijas pa tālruni. Tādā gadījumā šo programmu varat saistīt ar plūsmu, kas novērtē, vai attiecīgais kandidāts var tikt pārcelts uz nākamo darbā pieņemšanas procesa atlases kārtu. Šāda tipa aktivitāti var skatīt tikai darbā pieņemšanas grupas dalībnieki. Plašāku informāciju par veidu, kā konfigurēt PowerApps aktivitāti, skatiet tēmā [Aktivitātes programmā Attract](./activities-attract.md).
 
 > [!NOTE]
-> Aktivitāte PowerApps ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums.
+> Aktivitāte PowerApps ir pieejama tikai tad, ja ir pieejams visaptverošais darbā pieņemšanas papildinājums.
 
 #### <a name="web-content-iframe-activity"></a>Tīmekļa satura (iframe) aktivitāte
 

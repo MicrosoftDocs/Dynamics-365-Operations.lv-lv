@@ -1,6 +1,6 @@
 ---
-title: Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 for Talent
-description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus programmā Microsoft Dynamics 365 for Talent, un ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
+title: Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 Talent
+description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus programmā Microsoft Dynamics 365 Talent, un ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739591"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008706"
 ---
 # <a name="manage-preview-features"></a>Priekšskatījuma līdzekļa pārvaldība
 
 [!include[banner](../includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Talent mēs pastāvīgi ieviešam jaunas cilvēkkapitāla pārvaldības (human capital management — HCM) iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Administratori var skatīt un izmantot priekšskatījuma līdzekļus savās vidēs. Šie līdzekļi ir gandrīz gatavi vispārīgai pieejai un ir tikuši plaši testētas. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
+Programmā Microsoft Dynamics 365 Talent mēs pastāvīgi ieviešam jaunas cilvēkkapitāla pārvaldības (human capital management — HCM) iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Administratori var skatīt un izmantot priekšskatījuma līdzekļus savās vidēs. Šie līdzekļi ir gandrīz gatavi vispārīgai pieejai un ir tikuši plaši testētas. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
 
-Šajā tēmā ir aprakstīts, kā jūs varat iespējot priekšskatījuma līdzekļus, un ir uzskaitīti līdzekļi, kas pašlaik ir pieejami priekšskatījumam. Šis saraksts tiks atjaunināts, laižot klajā līdzekļus vispārīgai lietošanai un laižot klajā jaunus līdzekļus priekškatīšanai. Par jaunu līdzekļu piedāvāšanu priekšskatījumam netiek sniegts paziņojums. Lietotāji vienkārši sāks redzēt jaunus līdzekļus. Plašāku informāciju par jaunajiem līdzekļiem programmā Talent skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent](./whats-new.md) un [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes).
+Šajā tēmā ir aprakstīts, kā jūs varat iespējot priekšskatījuma līdzekļus, un ir uzskaitīti līdzekļi, kas pašlaik ir pieejami priekšskatījumam. Šis saraksts tiks atjaunināts, laižot klajā līdzekļus vispārīgai lietošanai un laižot klajā jaunus līdzekļus priekškatīšanai. Par jaunu līdzekļu piedāvāšanu priekšskatījumam netiek sniegts paziņojums. Lietotāji vienkārši sāks redzēt jaunus līdzekļus. Plašāku informāciju par jaunajiem līdzekļiem programmā Talent skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Talent](./whats-new.md) un [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Priekšskatījuma līdzekļu iespējošana vai atspējošana
 
@@ -40,9 +40,9 @@ Lai piekļūtu priekšskatījuma līdzekļiem, jums vispirms tie ir jāiespējo 
 > [!IMPORTANT]
 > Kad ieslēdzat iestatījumu **Priekšskatījuma līdzekļi**, jūs iespējojat priekšskatījuma līdzekļus visiem lietotājiem savā organizācijā, kas atrodas attiecīgajā vidē. Kad izslēdzat šo iestatījumu, jūs atspējojat priekšskatījuma līdzekļus un padarāt tos nepieejamus saviem lietotājiem. Priekšskatījuma līdzekļiem ir ierobežots atbalsts pakalpojumā Talent. Tie, iespējams, izmanto mazāk privātuma un drošības pasākumu, un tie nav ietverti Talent pakalpojumu līmeņa līgumā (Service Level Agreement — SLA). Jūs nedrīkstat lietot priekšskatījuma līdzekļus, lai apstrādātu personas datus (t.i., jebkura informācija, kas varētu identificēt jūs) vai apstrādāt citus datus, uz ko attiecas juridiskas vai normatīvas atbilstības prasības.
 
-### <a name="attract"></a>Piesaiste
+### <a name="attract"></a>Attract
 
-1. Pierakstieties programmā Microsoft Dynamics 365 for Talent: Attract.
+1. Pierakstieties programmā Microsoft Dynamics 365 Talent: Attract.
 2. Augšējā labajā stūrī, izvēlnē **Iestatīšana** (zobrata simbols) atlasiet **Administrēšanas centrs**.
 3. Cilnē **Līdzekļu pārvaldība** atlasiet opciju blakus vienumam **Priekšskatījuma līdzekļi**, lai tā kļūtu zila un rādītu uzrakstu **Ieslēgts**.
 
@@ -69,11 +69,11 @@ Lai piekļūtu priekšskatījuma līdzekļiem, jums vispirms tie ir jāiespējo 
 
 ### <a name="onboard"></a>Pievienošana
 
-Programmai Microsoft Dynamics 365 for Talent: Onboard pašlaik nav pieejams neviens priekšskatījuma līdzeklis.
+Programmai Microsoft Dynamics 365 Talent: Onboard pašlaik nav pieejams neviens priekšskatījuma līdzeklis.
 
 ## <a name="features-that-are-currently-in-preview"></a>Līdzekļi, kas pašreiz ir priekšskatījumā
 
-### <a name="attract"></a>Piesaiste
+### <a name="attract"></a>Attract
 
 - [Kandidāta ieteikums](./intelligent-recommendations.md#candidate-recommendations) — ja vairāk par desmit kandidātiem ir CV vai aizpildīti profili, darba prasībām vislabāk atbilstošie kandidāti tiek rādīti šī darba lapas sadaļā **Apsveramie kandidāti**.
 - [Darba ieteikums](./intelligent-recommendations.md#job-recommendations) — ja jūsu karjeras vietnē ir publicēts vairāk par desmit darbiem, Attract potenciālajiem kandidātiem sniedz darba ieteikumus.

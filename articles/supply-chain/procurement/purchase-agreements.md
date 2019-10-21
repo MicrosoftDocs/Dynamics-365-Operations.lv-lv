@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570392"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248938"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -78,7 +78,7 @@ Apstiprinot pirkšanas līgumu, tā pašreizējā versija tiek saglabāta vēstu
 Kad veidojat pirkšanas pasūtījumu, varat tam lietot pirkšanas līgumu. Pēc tam informācija no līguma nosacījumiem, piemēram, maksājumu nosacījumi, piegādes nosacījumi un piegādes adrese, tiek kopēta uz pirkšanas pasūtījuma galveni. Ja pirkšanas pasūtījumā ir viena vai vairākas rindas precēm vai kategorijām, uz ko attiecas šis līgums, šajās rindās tiek izmantotas cenas un atlaides no pirkšanas līguma. Summa vai daudzums pasūtījuma rindā tiek izmantots saistību pildīšanai pirkšanas līgumā. Vienā pirkšanas pasūtījumā var iekļaut gan rindas, kas nav saistītas ar pirkšanas līgumu, gan rindas, kas ir saistītas ar pirkšanas līgumu.  
 
 Pirkšanas līgumu varat atlasīt tikai tad, kad veidojat pirkšanas pasūtījumu. Pirkšanas līgumu nevar atlasīt pēc tam, kad pirkšanas pasūtījums jau ir izveidots.  
-Noteiktos risinājumos, kur pirkšanas pasūtījumi tiek veidoti netieši, varat kontrolēt, vai Finance and Operations automātiski meklē piemērojamos pirkšanas līgumus. Piemēram, varat to darīt, ja automātiski apstiprināt plānotos pirkšanas pasūtījumus vai veidojat pirkšanas pasūtījumus, kuru pamatā ir pārdošanas pasūtījumi.
+Noteiktos risinājumos, kur pirkšanas pasūtījumi tiek veidoti netieši, varat kontrolēt, vai Supply Chain Management automātiski meklē piemērojamos pirkšanas līgumus. Piemēram, varat to darīt, ja automātiski apstiprināt plānotos pirkšanas pasūtījumus vai veidojat pirkšanas pasūtījumus, kuru pamatā ir pārdošanas pasūtījumi.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkšanas līgumi un starpuzņēmumu tirdzniecība
 Starpuzņēmumu darījumu attiecības var izveidot starp kreditoru kontiem un debitoru kontiem, kas pieder dažādām juridiskajām personām. Kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu vienai no pusēm, tiek izveidota starpuzņēmumu pasūtījumu ķēde. Pasūtījumu ķēdē pārdošanas pasūtījums un pirkšanas pasūtījums tiek izveidots atbilstošajās juridiskajās personās.  

@@ -1,7 +1,7 @@
 ---
 title: Tirgojošo vienību kārtošanas secības maiņa
-description: Šajā tēmā paskaidroti jēdzieni saistība ar to, kā kontrolē parādīšanas secību dažādām tirgojošām vienībām pakalpojumā Microsoft Dynamics 365 for Retail.
-author: ashishharchwani
+description: Šajā tēmā paskaidroti jēdzieni saistība ar to, kā kontrolē parādīšanas secību dažādām tirgojošām vienībām pakalpojumā Dynamics 365 Retail.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866165"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019420"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Tirgojošo vienību kārtošanas secības maiņa
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Mazumtirgotāji uzskata produkta pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos mazumtirdzniecības kanālos. Dažādas funkcionalitātes var palīdzēt viegli pamanīt produktus. Piemēram, tie var pārlūkot kategorijas, meklēt un filtrēt.
@@ -38,7 +38,7 @@ Mazumtirgotāji uzskata produkta pamanīšanu par primāro rīku mijiedarbībai 
 
 Atbalsts dažādu ar tirgojošo vienību saistītu šķirošanu ir ticis uzlabots. Šis atbalsts tagad labāk saskaņots ar esošajiem klientu scenārijiem, kam iepriekš bija vajadzīgi paplašinājumi no ieviešanas partneriem.
 
-Microsoft Dynamics 365 for Retail versijās, kas jaunākas par 10.0.5. versiju, kārtošanas secība kategorijām navigācijas hierarhijā bija alfabētiska. Jaunā pielāgotā kārtošanas secība ļauj tirdzniecības vadītājiem konfigurēt kārtošanas secību dažādām tirgojošām vienībām starp visiem klientiem gala lietotājiem. Šie klienti ietver galvenās mītnes un zvanu centrus.
+Retail versijās, kas jaunākas par 10.0.5. versiju, kārtošanas secība kategorijām navigācijas hierarhijā bija alfabētiska. Jaunā pielāgotā kārtošanas secība ļauj tirdzniecības vadītājiem konfigurēt kārtošanas secību dažādām tirgojošām vienībām starp visiem klientiem gala lietotājiem. Šie klienti ietver galvenās mītnes un zvanu centrus.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>Konfigurēt parādīšanas secību kategorijām mazumtirdzniecības produkta hierarhijā.
 

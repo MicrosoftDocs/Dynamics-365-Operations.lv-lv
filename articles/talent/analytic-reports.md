@@ -1,6 +1,6 @@
 ---
-title: Analītisku atskaišu izmantošana programmā Microsoft Dynamics 365 for Talent - Attract
-description: Šajā tēmā ir aprakstītas analītiskos pārskatus par darbā pieņemšanas procesa ieskatiem programmā Microsoft Dynamics 365 for Talent - Attract
+title: Analītisku atskaišu izmantošana programmā Microsoft Dynamics 365 Talent - Attract
+description: Šajā tēmā ir aprakstītas analītiskos pārskatus par darbā pieņemšanas procesa ieskatiem programmā Microsoft Dynamics 365 Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742892"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010017"
 ---
 # <a name="use-analytic-reports"></a>Izmantot analītiskos pārskatus
 
-Analītiskie pārskati programmā Attract nodrošina standarta komplektācijā (out-of-the-box — OOTB) iekļautu risinājumu darbā pieņemšanas procesa ieskatiem. Pieejamās funkcijas:
+Analītiskie pārskati programmā Microsoft Dynamics 365 Talent: Attract nodrošina standarta komplektācijā (out-of-the-box — OOTB) iekļautu risinājumu darbā pieņemšanas procesa ieskatiem. Pieejamās funkcijas:
 
 - **Darba analīze** — noklikšķiniet uz cilnes **Analīze** darba ietvaros, lai skatītu darba kandidātu rādītājus.
 - **Analīzes centrmezgls:**  — kreisajā navigācijas sadaļā noklikšķiniet uz **Analīze**, lai skatītu apkopotos rādītājus par visiem darbiem.

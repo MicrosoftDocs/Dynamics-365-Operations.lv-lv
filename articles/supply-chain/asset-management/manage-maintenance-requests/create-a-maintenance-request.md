@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847509"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024641"
 ---
 # <a name="create-maintenance-requests"></a>Izveidot uzturēšanas pieprasījumus
 
@@ -41,7 +41,7 @@ Sadaļa **Aktīvie uzturēšanas pieprasījumi** rūtī **Saistītā informācij
 2. Atlasiet **Jauns**.
 3. Dialoglodziņā **Izveidot pieprasījumu** laukā **Uzturēšanas pieprasījuma veids** atlasiet uzturēšanas pieprasījuma veidu. Tiek ieteikts noklusētais veids.
 4. Laukā **Apraksts** ievadiet nosaukumu vai virsrakstu, kas īsumā apraksta uzturēšanas pieprasījumu.
-5. Laukā **Funkcionālais novietojums** un **Līdzeklis** atlasiet funkcionālo novietojumu vai līdzekli, vai arī funkcionālā novietojuma un līdzekļa kombināciju pēc vajadzības. Varat izveidot uzturēšanas pieprasījumu, neatlasot līdzekli, un līdzekli var pievienot uzturēšanas pieprasījumam vēlāk. Ja uzturēšanas darbinieks, kurš ir pierakstījies Microsoft Dynamics 365 for Finance and Operations, ir saistīts ar resursu, kas saistīts ar līdzekli, automātiski tiek iestatīts lauks **Līdzeklis**.
+5. Laukā **Funkcionālais novietojums** un **Līdzeklis** atlasiet funkcionālo novietojumu vai līdzekli, vai arī funkcionālā novietojuma un līdzekļa kombināciju pēc vajadzības. Varat izveidot uzturēšanas pieprasījumu, neatlasot līdzekli, un līdzekli var pievienot uzturēšanas pieprasījumam vēlāk. Ja uzturēšanas darbinieks, kurš ir pierakstījies, ir saistīts ar resursu, kas saistīts ar līdzekli, automātiski tiek iestatīts lauks **Līdzeklis**.
 
     Ja atlasītajam līdzeklim jau ir pievienots uzturēšanas pieprasījums, dialoglodziņa **Izveidot pieprasījumu** augšpusē tiek parādīta ziņojumu josla, lai informētu jūs par esošā uzturēšanas pieprasījuma ID. Ziņojumu josla arī informē jūs, ja uz līdzekli attiecas garantijas līgums.
 

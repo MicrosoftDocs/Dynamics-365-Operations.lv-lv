@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumu izveide, apstiprināšana un parakstīšana
-description: Šajā tēmā ir aprakstīts, kā izveidot, apstiprināt un parakstīt piedāvājumu kandidātam, izmantojot programmu Dynamics 365 for Talent.
+description: Šajā tēmā ir aprakstīts, kā izveidot, apstiprināt un parakstīt piedāvājumu kandidātam, izmantojot programmu Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739637"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008109"
 ---
 # <a name="create-approve-and-sign-offers"></a>Piedāvājumu izveide, apstiprināšana un parakstīšana
 
@@ -110,7 +110,7 @@ Pastāv vairākas darbības, kuras var veikt pirms piedāvājuma nosūtīšanas 
 Ja par vēlamo elektroniskās parakstīšanas metodi tika izvēlēta programma Adobe Sign, šajā darbībā piedāvājuma veidotājiem ir jāpievieno Adobe Sign licence. 
 
 ### <a name="docusign"></a>DocuSign
-Ja par vēlamo elektroniskās parakstīšanas metodi tika izvēlēta programma DocuSign, piedāvājuma veidotājiem ir jāpievieno DocuSign licence. Pēc pierakstīšanās noklusējuma konts un atļaujas, kas saistītas ar lietotāja DocuSign profilu, ir savienotas ar programmu Talent Attract. 
+Ja par vēlamo elektroniskās parakstīšanas metodi tika izvēlēta programma DocuSign, piedāvājuma veidotājiem ir jāpievieno DocuSign licence. Pēc pierakstīšanās noklusējuma konts un atļaujas, kas saistītas ar lietotāja DocuSign profilu, ir savienotas ar programmu Talent: Attract. 
 
 -  Nepieciešamības gadījumā var skatīt un rediģēt e-pasta veidni.
 

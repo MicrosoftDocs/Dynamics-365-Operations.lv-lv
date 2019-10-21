@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556948"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025867"
 ---
 # <a name="store-order-fulfillment"></a>Veikala pasūtījumu izpilde
 
@@ -96,7 +96,7 @@ Pēc pasūtījuma pieņemšanas rindas var atlasīt un atzīmēt kā **Izdošana
 
 Lai palīdzētu darbiniekiem veikt izdošanas procesu, izdošanas sarakstus pārdošanas punktā var drukāt. Darbinieks, kas veic izdošanu, var ņemt līdzi izdrukātu izdošanas sarakstu un manuāli atzīmēt izdotās preces šajā sarakstā, līdzko tās tiek izdotas.
 
-Izdošanas saraksta formāts tiek konfigurēts programmā Dynamics 365 for Retail un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Izdošanas saraksta formāts tiek konfigurēts programmā Retail un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Ja ir atlasītas rindas un šīm rindām tiek drukāts izdošanas saraksts, tās tiek automātiski atjauninātas uz statusu **Izdošana**.
 
@@ -105,7 +105,7 @@ Ja ir atlasītas rindas un šīm rindām tiek drukāts izdošanas saraksts, tās
 - **Iegūtais statuss:** izdots vai daļēji izdots
 - **Iegūtais iekšējās uzskaites daļas statuss:** izdots vai daļēji izdots
 
-Kad fiziskais izdošanas process ir izpildīts, rindas var atzīmēt kā **Izdots**. Atlasot rindu un atzīmējot ar statusu **Izdots**, tiek veikts reāllaika pieprasījums atjaunināt šo pasūtījuma rindu programmā Dynamics 365 for Retail. Kad rinda pārdošanas punktā tiek atzīmēta kā **Izdots**, tās statuss iekšējās uzskaites daļā arī tiek atjaunināts uz **Izdots** un krājumu transakcijas norāda, ka krājumu daudzums ir samazinājies par norādīto daudzumu.
+Kad fiziskais izdošanas process ir izpildīts, rindas var atzīmēt kā **Izdots**. tlasot rindu un atzīmējot ar statusu **Izdots**, tiek veikts reāllaika pieprasījums atjaunināt šo pasūtījuma rindu. Kad rinda pārdošanas punktā tiek atzīmēta kā **Izdots**, tās statuss iekšējās uzskaites daļā arī tiek atjaunināts uz **Izdots** un krājumu transakcijas norāda, ka krājumu daudzums ir samazinājies par norādīto daudzumu.
 
 Kad pasūtījumi tiek apstrādāti laika gaitā, daļējus daudzumus var apstrādāt konkrētai rindai. Ja ir atlasīta kāda rinda, tiek veikta darbība **Atzīmēt kā izdotu** un daudzums ir lielāks par vienu, lietotājam tiek parādīts aicinājums norādīt daudzumu. Atlikušais daudzums, ko ir paredzēts izdot, tiek aizpildīts automātiski. Ja norādītais daudzums ir mazāks par atlikušo daudzumu, rindas statuss mainās uz **Daļēji izdots**. Kad šī pasūtījuma rinda tiek atjaunināta iekšējās uzskaites daļā, tā atspoguļo arī daļēji izdoto statusu un krājumu atjaunināšanai tiek izmantots lietotāja ievadītais daudzums.
 
@@ -122,7 +122,7 @@ Pasūtījumu rindas var iepakot jebkurā brīdī pēc tam, kad attiecīgā pasū
 - **Iegūtais statuss:** iepakots vai daļēji iepakots
 - **Iegūtais iekšējās uzskaites daļas statuss:** piegādāts vai daļēji piegādāts
 
-Šī darbība rindas atzīmē kā iepakotas vai daļēji iepakotas un izdrukā pavadzīmi. Pavadzīmi var drukāt, lai validētu preces, kas ir iepakotas kopā. Pavadzīmes formāts tiek konfigurēts programmā Dynamics 365 for Retail un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Šī darbība rindas atzīmē kā iepakotas vai daļēji iepakotas un izdrukā pavadzīmi. Pavadzīmi var drukāt, lai validētu preces, kas ir iepakotas kopā. Pavadzīmes formāts tiek konfigurēts programmā Retail un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Darbība: Atzīmēt kā iepakotu**
 

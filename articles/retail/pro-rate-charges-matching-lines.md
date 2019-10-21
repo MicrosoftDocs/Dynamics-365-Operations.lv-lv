@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526019"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025176"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta virsraksta līmeņa automātisko maksu grupēšanas un to proporcionālas sadalīšanas mazumtirdzniecības pārdošanas rindās funkcionalitāte. Šī funkcionalitāte ir pieejama transakcijām, kas ir izveidotas pārdošanas punktā (POS) Microsoft Dynamics 365 for Retail versijā 10.0.1, un pārdošanām, kas ir izveidotas zvanu centrā Microsoft Dynamics 365 for Retail versijā 10.0.2.
+Šajā tēmā ir aprakstīta virsraksta līmeņa automātisko maksu grupēšanas un to proporcionālas sadalīšanas mazumtirdzniecības pārdošanas rindās funkcionalitāte. Šī funkcionalitāte ir pieejama transakcijām, kas ir izveidotas pārdošanas punktā (POS) Retail versijā 10.0.1, un pārdošanām, kas ir izveidotas zvanu centrā Retail versijā 10.0.2.
 
 Šī funkcionalitāte ir pieejama tikai tad, ja līdzeklis [papildu automātiskās maksas](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) ir ieslēgts, izmantojot opciju lapā **Mazumtirdzniecības parametri**. Turklāt, automātisko maksu uzlaboto aprēķinu metodi var izmantot tikai mazumtirdzniecības pārdošanas pasūtījumiem, kas ir izveidoti, izmantojot mazumtirdzniecības kanālus (POS, zvanu centru un Dynamics e-komercijas platformu).
 
 Šī jaunā funkcionalitāte nodrošina organizācijām lielāku elastību tā, ka virsraksta līmenī automātiskās maksas tiek aprēķinātas un piesaistītas mazumtirdzniecības pārdošanas transakcijām.
 
-Par Microsoft Dynamics 365 for Retail versiju 10.0.1 vecākās versijās virsraksta līmenī automātiskās maksas ar konkrētu piegādes relācijas režīmu tiek aprēķinātas tikai tad, ja tās atbilst piegādes režīmam, kas ir definēts pārdošanas pasūtījuma virsrakstā.
+Par Retail versiju 10.0.1 vecākās versijās virsraksta līmenī automātiskās maksas ar konkrētu piegādes relācijas režīmu tiek aprēķinātas tikai tad, ja tās atbilst piegādes režīmam, kas ir definēts pārdošanas pasūtījuma virsrakstā.
 
 Piemēram, virsraksta līmeņa automātiskās maksas ir definētas piegādes režīmam **99** un **11**. Pasūtījuma virsrakstā tiek izveidots pārdošanas pasūtījums un tiek definēts piegādes režīms **99**. Tomēr dažas pārdošanas rindas ir iestatītas tā, ka tie tiek nosūtīti, izmantojot piegādes režīmu **11**. Šajā gadījumā vērā tiek ņemtas tikai tās virsraksta līmeņa maksas, kas ir saistītas ar piegādes režīmu **99**, un tās tiek piesaistītas pārdošanas pasūtījumam.
 
-Programmā Dynamics 365 for Retail uz virsraksta līmeņa maksām attiecas papildu līdzeklis, kas ļauj definēt [diferencētas maksas konfigurāciju](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), kas ir atkarīga no pasūtījuma vērtība. Piemēram, ja pasūtījuma vērtība ir no $50,00 līdz $200,00, organizācija var izvēlēties iekasēt transporta maksu $5,00. Tomēr, ja pasūtījuma vērtība ir no $200,01 līdz $500,00, kravas maksa var būt $4,00.
+Programmā Retail uz virsraksta līmeņa maksām attiecas papildu līdzeklis, kas ļauj definēt [diferencētas maksas konfigurāciju](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), kas ir atkarīga no pasūtījuma vērtības. Piemēram, ja pasūtījuma vērtība ir no $50,00 līdz $200,00, organizācija var izvēlēties iekasēt transporta maksu $5,00. Tomēr, ja pasūtījuma vērtība ir no $200,01 līdz $500,00, kravas maksa var būt $4,00.
 
 Dažas organizācijas vēlas iegūt diferencētas maksas aprēķināšanas priekšrocības, kas ir nodrošināts ar virsraksta līmeņa maksām. Tomēr gadījumos, kad ir iesaistīti jaukti piegādes režīmi, tās arī vēlas nodrošināties, ka aprēķinātās maksas ir atkarīgas no atbilstības ar piegādes režīmu, kas ir definēts katrai pārdošanas rindai.
 

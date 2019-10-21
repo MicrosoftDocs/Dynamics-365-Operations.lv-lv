@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742637"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025057"
 ---
 # <a name="retail-peripherals"></a>Retail perifērijas ierīces
 
@@ -116,9 +116,9 @@ Maksājumu ierīces atbalts tiek nodrošināts, izmantojot maksājumu savienotā
 
 ### <a name="opos"></a>OPOS
 
-Lai palīdzētu nodrošināt to, ka kopā ar programmu Microsoft Dynamics 365 for Retail var lietot pēc iespējas lielāku ierīču klāstu, galvenā mazumtirdzniecības perifēro ierīču platforma, kas tiek atbalstīta programmā Microsoft Dynamics 365 for Retail, ir nozares standarta platforma OLE punktā POS. Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš mazumtirdzniecības perifēro ierīču nozares standarta sakaru protokolus. OPOS ir plaši izplatīta standarta OLE punktā POS implementācija. Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta. OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās. OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru. OPOS vadības elements sastāv no divām tālāk norādītajām daļām.
+Lai palīdzētu nodrošināt to, ka kopā ar programmu Retail var lietot pēc iespējas lielāku ierīču klāstu, galvenā mazumtirdzniecības perifēro ierīču platforma, kas tiek atbalstīta, ir nozares standarta platforma OLE punktā POS. Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš mazumtirdzniecības perifēro ierīču nozares standarta sakaru protokolus. OPOS ir plaši izplatīta standarta OLE punktā POS implementācija. Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta. OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās. OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru. OPOS vadības elements sastāv no divām tālāk norādītajām daļām.
 
-- **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Microsoft Dynamics 365 for Retail POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Microsoft Dynamics 365 for Retail nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
+- **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Retail POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Retail nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
 - **Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci. Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs. Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes. Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija. Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.
 
 [![Vadības objekts un pakalpojumu objekts](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Lai palīdzētu nodrošināt to, ka kopā ar programmu Microsoft Dynamics 365 fo
 OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā, pat ja tās iepriekš nav pārbaudītas kopā.
 
 > [!NOTE]
-> OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri. Pirmkārt, programmai Microsoft Dynamics 365 for Retail ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS. Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija. Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.
+> OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri. Pirmkārt, programmai Retail ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS. Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija. Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.
 
 ### <a name="windows"></a>Windows
 
@@ -136,7 +136,7 @@ Kvīšu drukāšana POS ir optimizēta standartam OPOS. OPOS parasti nodrošina
 - Ja tiek izmantoti Windows draiveri, ierīces, kas ir pievienotas, izmantojot printeri (ziedlapķēdē), var darboties nepareizi. Piemēram, iespējams, netiks atvērta naudas kaste vai kvīšu printeris nedarbosies, kā ir paredzēts.
 - Turklāt OPOS atbalsta plašāku mazumtirdzniecības kvīšu printeriem raksturīgu mainīgo kopu, piemēram, papīra griešanas vai pavadzīmju drukāšanas mainīgos.
 
-Ja izmantotajam Windows printerim ir pieejami OPOS vadības elementi, printerim joprojām ir pareizi jādarbojas kopā ar programmu Microsoft Dynamics 365 for Retail.
+Ja izmantotajam Windows printerim ir pieejami OPOS vadības elementi, printerim joprojām ir pareizi jādarbojas kopā ar programmu Retail.
 
 ### <a name="universal-windows-platform"></a>Universālā Windows platforma
 
@@ -192,7 +192,7 @@ Tīkla perifēro ierīču IP adreses varat norādīt divās vietās. Ja Modern�
 
 #### <a name="modern-pos-for-android"></a>Modern POS operētājsistēmai Android
 
-Sākot ar Dynamics 365 for Retail versiju 8.1.3, programma Modern POS operētājsistēmai Android ietver iebūvētu IPC aparatūras staciju. Šī aparatūras stacija atbalsta saziņu ar tīkla printeriem un maksājumu savienotājiem. Lai iegūtu plašāku informāciju, apmeklējiet rakstu [Hybrid programma operētājsistēmai Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Sākot ar Retail versiju 8.1.3, programma Modern POS operētājsistēmai Android ietver iebūvētu IPC aparatūras staciju. Šī aparatūras stacija atbalsta saziņu ar tīkla printeriem un maksājumu savienotājiem. Lai iegūtu plašāku informāciju, apmeklējiet rakstu [Hybrid programma operētājsistēmai Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS un Modern POS operētājsistēmai iOS
 
@@ -526,7 +526,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Kanāla klientu, tostarp kases sistēmu un aparatūras staciju, definēšana un uzturēšana](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Attiecībā uz Microsoft Dynamics 365 for Retail versiju 1611: vairs netiek lietots aparatūras staciju profils. Atribūti, kas iepriekš bija jāiestata aparatūras stacijas profilā, tagad ir ietverti pašā aparatūras stacijā.
+> Attiecībā uz Retail versiju 1611 vairs netiek lietots aparatūras staciju profils. Atribūti, kas iepriekš bija jāiestata aparatūras stacijas profilā, tagad ir ietverti pašā aparatūras stacijā.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS operētājsistēmai Windows ar IPC (iebūvētu) aparatūras staciju
 

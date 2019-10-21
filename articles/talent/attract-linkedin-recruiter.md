@@ -1,6 +1,6 @@
 ---
-title: Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 for Talent - Attract
-description: Izmantojiet programmas Microsoft Dynamics 365 for Talent - Attract nodrošināto LinkedIn integrāciju, lai piesaistītu darba kandidātus ar LinkedIn Recruiter.
+title: Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 Talent - Attract
+description: Izmantojiet programmas Microsoft Dynamics 365 Talent - Attract nodrošināto LinkedIn integrāciju, lai piesaistītu darba kandidātus ar LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739453"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008574"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>Kandidātu piesaiste, izmantojot LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn ir pasaulē lielākais tiešsaistes profesionāļu tīkls, kas sniedz jums pieeju pasaules augstākā līmeņa talantiem. Microsoft Dynamics 365 for Talent: sistēma Attract ļauj piesaistīt kandidātus tieši no LinkedIn. Tāpēc ir vieglāk nekā jebkad atrast talantu, kas nepieciešams, lai aizpildītu vakances. Kad esat iestatījis savienojumu ar LinkedIn, izmantojot Attract, varat skatīt potenciālos LinkedIn kandidātus savām vakancēm un eksportēt tos sistēmā Attract ar tikai vienu klikšķi.
+LinkedIn ir pasaulē lielākais tiešsaistes profesionāļu tīkls, kas sniedz jums pieeju pasaules augstākā līmeņa talantiem. Microsoft Dynamics 365 Talent: Attract ļauj piesaistīt kandidātus tieši no LinkedIn. Tāpēc ir vieglāk nekā jebkad atrast talantu, kas nepieciešams, lai aizpildītu vakances. Kad esat iestatījis savienojumu ar LinkedIn, izmantojot Attract, varat skatīt potenciālos LinkedIn kandidātus savām vakancēm un eksportēt tos sistēmā Attract ar tikai vienu klikšķi.
 
 Ja šķiet, ka jums nav šīs iespējas, sazinieties ar savu administratoru. Lai varētu izmantot LinkedIn Recruiter priekšrocības no sistēmas Attract, administratoram ir [jāiestata integrācija ar LinkedIn](./attract-admin-linkedin.md). Pēc tam varat iestatīt savienojumu ar LinkedIn Recruiter un sākt meklēt kandidātus.
 

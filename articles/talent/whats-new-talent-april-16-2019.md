@@ -1,6 +1,6 @@
 ---
-title: Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 16. aprīlis)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 16. aprīlis)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518533"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024141"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 16. aprīlis)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 16. aprīlis)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -39,7 +39,7 @@ Tagad varat izsekot izmaiņām, kas veiktas attiecībā uz kandidātiem, vakanc�
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
@@ -47,11 +47,11 @@ Tagad varat izsekot izmaiņām, kas veiktas attiecībā uz kandidātiem, vakanc�
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Elementi Atlīdzības reģions, Atlīdzības līmenis, Atvieglojumu opcijas un Prasmju tips pakalpojumā Common Data Service ir atjaunināti, lai iekļautu debitoru lauku atbalstu.
 
-Šajā laidienā šie pakalpojuma Common Data Service elementi ir atjaunināti, lai iekļautu iespēju iekļaut pielāgotu lauku, kas pievienots, izmantojot pakalpojumu Talent (Core HR).
+Šajā laidienā šie pakalpojuma Common Data Service elementi ir atjaunināti, lai iekļautu iespēju iekļaut pielāgotu lauku, kas pievienots, izmantojot pakalpojumu Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Jauns pakalpojuma Common Data Service elementu atbalsts šādiem elementiem: Atlīdzības izmaksas noteikumi, Mainīgās atlīdzības plāns, Mainīgā atlīdzība
 
-Ar šo laidienu pakalpojumam Common Data Service ir pievienoti elementi Atlīdzības izmaksas noteikumi, Mainīgās atlīdzības plāns un Mainīgā atlīdzība. Šie elementi atbalsta arī pielāgotus laukus, kas pievienoti, izmantojot pakalpojumu Talent (Core HR).
+Ar šo laidienu pakalpojumam Common Data Service ir pievienoti elementi Atlīdzības izmaksas noteikumi, Mainīgās atlīdzības plāns un Mainīgā atlīdzība. Šie elementi atbalsta arī pielāgotus laukus, kas pievienoti, izmantojot pakalpojumu Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI atsvaidzināšanas problēmas (314342)
 
@@ -95,6 +95,6 @@ Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vā
 
 ### <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
 
-Līdz ar atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
+Līdz ar Finance and Operations atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
 
 

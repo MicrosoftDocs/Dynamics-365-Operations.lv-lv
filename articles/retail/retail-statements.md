@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568003"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025033"
 ---
 # <a name="retail-statements"></a>Mazumtirdzniecības pārskati
 
 [!include [banner](includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Retail pārskatu grāmatošanas process tiek izmantots, lai uzskaitītu transakcijas, kas tiek veiktas programmā Cloud Point of Sale (POS) vai Modern POS (MPOS). Pārskatu grāmatošanas process izmanto sadales grafiku, lai POS transakciju kopu ievilktu Headquarters (HQ) klientā. Parametrus, kas ir definēti lapās **Mazumtirdzniecības parametri** un **Veikali**, izmanto, lai atlasītu atsevišķos pārskatos ievilktās transakcijas.
+Programmā Dynamics 365 Retail pārskatu grāmatošanas process tiek izmantots, lai uzskaitītu transakcijas, kas tiek veiktas programmā Cloud Point of Sale (POS) vai Modern POS (MPOS). Pārskatu grāmatošanas process izmanto sadales grafiku, lai POS transakciju kopu ievilktu Headquarters (HQ) klientā. Parametrus, kas ir definēti lapās **Mazumtirdzniecības parametri** un **Veikali**, izmanto, lai atlasītu atsevišķos pārskatos ievilktās transakcijas.
 
 Tālāk esošajā attēlā parādīts pārskatu grāmatošanas process. Šajā procesā POS reģistrētās transakcijas tiek pārsūtītas uz klientu, izmantojot mazumtirdzniecības plānotāju. Kad klients ir saņēmis transakcijas, varat izveidot, aprēķināt un grāmatot veikala transakciju pārskatu.
 
@@ -85,6 +85,6 @@ Ja šim veikalam ir noņemta atzīme no izvēles rūtiņas **Grāmatot kā darba
 Kad grāmatojat pārskatu, pārskatā tiek izveidoti mazumtirdzniecības pārdošanas pasūtījumi un rēķini.
 
 - Pārdošanas transakcijas, kas veiktas skaidrā naudā un bez piegādes, tiek apkopotas vienā pārdošanas pasūtījumā, un to rēķins tiek izrakstīts veikalam piešķirtajam noklusējuma debitoram.
-- Mazumtirdzniecības transakcijām, kurām programmā Microsoft Dynamics 365 for Retail ir pievienots debitors, POS sistēmā tiek ģenerēti atsevišķi pārdošanas pasūtījumi un rēķini — pa vienam katram unikālajam debitoram.
+- Mazumtirdzniecības transakcijas, kurām programmā Retail POS ir pievienots debitors, tiek ģenerēti atsevišķi pārdošanas pasūtījumi un rēķini — pa vienam katram unikālajam debitoram.
 
 Pārskatā iekļautajiem maksājumiem automātiski tiek izveidoti maksājumu žurnāli, un POS veikalā tiek atjaunināti krājumi.

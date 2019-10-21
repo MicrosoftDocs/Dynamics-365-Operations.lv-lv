@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522201"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249971"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -35,7 +35,7 @@ ms.locfileid: "1522201"
 <a name="overview"></a>Pārskats
 --------
 
-Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmā Microsoft Dynamics 365 for Finance and Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
+Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā Finance and Operations sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu.
 
 -   **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
 -   **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
@@ -43,7 +43,7 @@ Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāci
 -   **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
 
 ## <a name="routes"></a>Maršruti
-Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmā Finance and Operations maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
+Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmatūrā Supply Chain Management maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
 
 ### <a name="simple-routes"></a>Vienkārši maršruti
 
@@ -51,7 +51,7 @@ Vienkāršs maršruts ir secīgs un tajā ir tikai viens sākuma punkts.
 
 [![Vienkāršs maršruts](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus maršrutus, kad definējat maršrutu, programmatūrā Dynamics 365 for Finance and Operations tiek automātiski ģenerēti operāciju numuri (10, 20, 30 utt.).
+Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus maršrutus, kad definējat maršrutu, programmatūrā Supply Chain Management tiek automātiski ģenerēti operāciju numuri (10, 20, 30 utt.).
 
 ### <a name="route-networks"></a>Maršrutu tīkli
 
@@ -85,7 +85,7 @@ Katru maršrutu var atsevišķi apstiprināt vai neapstiprināt. Taču ņemiet v
 Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
-Operācija ir ražošanas procesa darbība. Programmā Finance and Operations katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
+Operācija ir ražošanas procesa darbība. Katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
 
 | Operācija  | Apraksts        |
 |------------|--------------------|
@@ -126,7 +126,7 @@ Operāciju saites nodrošina lielu pielāgojamību maršrutu definēšanas laik�
 
 ### <a name="modifying-product-specific-routes"></a>Precei raksturīgo maršrutu modificēšana
 
-Kad lapā **Nodoto preču papildinformācija** atverat lapu **Maršruts**, tiek parādītas ar atlasīto izlaisto preci saistītās maršruta versijas. Šajā konteksta programmā Finance and Operations tiek rādīti katras operācijas darbības rekvizīti no maršruta versijai visatbilstošākās operācijas relācijas. Operāciju sarakstā ir ietverti operācijas saites rekvizīti **Krājuma kods** un **Maršruta kods**. Tāpēc varat noteikt, kura operācijas saite tiek rādīta.  
+Kad lapā **Nodoto preču papildinformācija** atverat lapu **Maršruts**, tiek parādītas ar atlasīto izlaisto preci saistītās maršruta versijas. Šajā konteksta programmatūrā Supply Chain Management tiek rādīti katras operācijas darbības rekvizīti no maršruta versijai visatbilstošākās operācijas relācijas. Operāciju sarakstā ir ietverti operācijas saites rekvizīti **Krājuma kods** un **Maršruta kods**. Tāpēc varat noteikt, kura operācijas saite tiek rādīta.  
 
 Lapā **Maršruts** varat modificēt operācijas darbības rekvizītus, piemēram, izpildes laiku vai izmaksu kategorijas. Izmaiņas tiek saglabātas operācijas saitē, kas ir raksturīga maršrutam un izlaistajai precei, uz kuru ir atsauce pašreizējā maršruta versijā. Ja parādītā operācijas saite nav raksturīga maršrutam un izlaistajai precei, pirms izmaiņu saglabāšanas sistēmā tiek izveidota operācijas saites kopija. Šī kopija *ir* raksturīga maršrutam un izlaistajai precei. Tāpēc veiktās izmaiņas neietekmē citus maršrutus vai izlaistās preces. Lai pārbaudītu, kura operācijas saite tiek modificēta lapā **Maršruts**, skatiet lauku **Krājuma kods** un **Maršruta kods** vērtības.  
 
@@ -149,9 +149,9 @@ Ja jūsu uzņēmumā tiek lietotas standarta operācijas un visām precēm un pr
 
 ### <a name="applying-operation-relations"></a>Operāciju saišu lietošana
 
-Dažos gadījumos programmā Finance and Operations ir jāatrod noteiktas operācijas darbības rekvizīti. Piemēram, izveidojot pirkšanas pasūtījumu, katras operācijas darbības rekvizīti ir jākopē no operāciju saitēm uz ražošanas maršrutiem. Šādos gadījumos programmatūrā Finance and Operations tiek meklētas piemērotās operāciju saites, sākot ar visraksturīgāko un beidzot ar vismazāk raksturīgo kombināciju.  
+Dažos gadījumos programmatūrā Supply Chain Management ir jāatrod noteiktas operācijas darbības rekvizīti. Piemēram, izveidojot pirkšanas pasūtījumu, katras operācijas darbības rekvizīti ir jākopē no operāciju saitēm uz ražošanas maršrutiem. Šādos gadījumos programmatūrā Supply Chain Management tiek meklētas piemērotās operāciju saites, sākot ar visraksturīgāko un beidzot ar vismazāk raksturīgo kombināciju.  
 
-Kad programmā Finance and Operations tiek meklēta izlaistai precei vispiemērotākā operācijas relācija, tai operācijas relācijai, kas atbilst izlaistās preces krājuma ID, ir augstāka prioritāte nekā operācijas relācijai, kas atbilst krājumu grupas ID. Savukārt operācijas saitei, kas atbilst krājumu grupas ID, ir augstāka prioritāte nekā noklusējuma operācijas saitei. Šī meklēšana tiek veikta tālāk norādītajā secībā.
+Kad programmatūrā Supply Chain Management tiek meklēta izlaistai precei vispiemērotākā operācijas relācija, tai operācijas relācijai, kas atbilst izlaistās preces krājuma ID, ir augstāka prioritāte nekā operācijas relācijai, kas atbilst krājumu grupas ID. Savukārt operācijas saitei, kas atbilst krājumu grupas ID, ir augstāka prioritāte nekā noklusējuma operācijas saitei. Šī meklēšana tiek veikta tālāk norādītajā secībā.
 
 1.  **Krājuma kods**=**Tabula** un **Krājuma saistība**=&lt;krājuma ID&gt;
 2.  **Krājuma kods**=**Grupa** un **Krājuma saistība**=&lt;krājumu grupas ID&gt;
@@ -198,7 +198,7 @@ Atkarībā no jūsu uzņēmējdarbības vajadzībām varat atvieglot procesa def
 
 ### <a name="making-routes-independent-of-resources"></a>Maršruta neatkarības no resursiem konfigurēšana
 
-Daudzās sistēmās maršrutā ir jānorāda operācijas resurss vai resursu grupa, kas ir jāizmanto operācijas veikšanai. Taču programmā Finance and Operations varat definēt prasību kopu, kam ir jāatbilst operācijas resursam, lai to varētu lietot operācijai. Tāpēc konkrētais operācijas resurss vai resursu grupa, kas ir jāizmanto, nav jānosaka līdz operācijas plānošanas laikam. Šī funkcionalitāte ir īpaši noderīga, ja ir pieejams daudz darbinieku vai iekārtu, kas var veikt vienu un to pašu operāciju.  
+Daudzās sistēmās maršrutā ir jānorāda operācijas resurss vai resursu grupa, kas ir jāizmanto operācijas veikšanai. Taču programmatūrā Supply Chain Management varat definēt prasību kopu, kam ir jāatbilst operācijas resursam, lai to varētu lietot operācijai. Tāpēc konkrētais operācijas resurss vai resursu grupa, kas ir jāizmanto, nav jānosaka līdz operācijas plānošanas laikam. Šī funkcionalitāte ir īpaši noderīga, ja ir pieejams daudz darbinieku vai iekārtu, kas var veikt vienu un to pašu operāciju.  
 
 Piemēram, pieņemsim, ka norādāt, ka operācijai ir vajadzīgs veida **Iekārta** operācijas resurss, kura **štancēšanas** spēja ir 20 tonnas. Pēc tam operācijas plānošanas laikā plānošanas programma nodrošina šo vajadzību atrisināšanu, piešķirot noteiktu operācijas resursu vai resursu grupu. Tas, ka varat vienkārši norādīt šīs vajadzības, nesaistot operāciju ar noteiktu iekārtu, sniedz daudz lielāku pielāgojamību. Turklāt tādējādi tiek atvieglota uzturēšana resursu pārvietošanas vai jaunu resursu pievienošanas gadījumā.  
 

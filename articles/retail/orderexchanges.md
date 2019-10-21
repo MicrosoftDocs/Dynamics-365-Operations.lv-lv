@@ -1,6 +1,6 @@
 ---
 title: Atgriešanas pasūtījumu apmaiņu konfigurēšana un apstrādāšana
-description: Šajā tēmā ir paskaidrots, kā konfigurēt atgriešanas apmaiņu programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir paskaidrots, kā konfigurēt atgriešanas apmaiņu programmā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561391"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025383"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Atgriešanas pasūtījumu apmaiņu konfigurēšana un apstrādāšana
 
 [!include [banner](includes/banner.md)]
 
-Iepriekšējās Microsoft Dynamics 365 for Retail versijās atgriešana pret klientu pasūtījumiem tika apstrādāta, izmantojot atgriešanas pasūtījuma dokumentu komponentā Retail Headquarters. Tomēr atgriešanas pasūtījuma dokumentu var izmantot, lai apstrādātu tikai preces, kas tiek atgrieztas. Atgrieztās preces tiek norādītas ar negatīvu daudzumu atgriešanas pasūtījuma rindās. Turpretim pārdošanu norāda ar pozitīvu daudzumu. Tomēr atgriešanas pasūtījuma dokuments neatbalsta pozitīvas daudzuma vērtības. Šī ierobežojuma dēļ iepriekšējās Retail versijas neatbalstīja scenārijus, kuru ietvaros preču apmaiņa tika veikta, izmantojot atgriešanas pasūtījuma dokumentu.
+Iepriekšējās Dynamics 365 Retail versijās atgriešana pret klientu pasūtījumiem tika apstrādāta, izmantojot atgriešanas pasūtījuma dokumentu komponentā Retail Headquarters. Tomēr atgriešanas pasūtījuma dokumentu var izmantot, lai apstrādātu tikai preces, kas tiek atgrieztas. Atgrieztās preces tiek norādītas ar negatīvu daudzumu atgriešanas pasūtījuma rindās. Turpretim pārdošanu norāda ar pozitīvu daudzumu. Tomēr atgriešanas pasūtījuma dokuments neatbalsta pozitīvas daudzuma vērtības. Šī ierobežojuma dēļ iepriekšējās Retail versijas neatbalstīja scenārijus, kuru ietvaros preču apmaiņa tika veikta, izmantojot atgriešanas pasūtījuma dokumentu.
 
 Tomēr ir pievienota funkcionalitāte, lai nodrošinātu atbalstu scenārijiem, kuru ietvaros tiek veikta apmaiņa atgriešanas pasūtījumos. Tagad programmā Retail atgriešanas pasūtījuma dokumenta vietā tiek izmantots pārdošanas pasūtījuma dokuments, lai apstrādātu šādas transakcijas.
 

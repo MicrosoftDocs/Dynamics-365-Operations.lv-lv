@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
+ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834006"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "1994914"
 ---
 # <a name="manage-order-holds"></a>Pasūtījumu aizturēšanas pārvaldība
 
@@ -33,45 +33,40 @@ ms.locfileid: "1834006"
 
 
 ## <a name="set-up-order-holds"></a>Iestatīt pasūtījumu aizturēšanas
-1. Doties uz Pārdošana un mārketings > Iestatīšana > Pārdošanas pasūtījumi > Pasūtījumu aizturēšanas kodi.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet kādu vērtību laukā Aizturēšanas kods.
-    * Piemēram, ierakstiet Atzvanīt.  
-4. Apraksta laukā ierakstiet vērtību.
-    * Piemēram, pasūtījums ir aizturēts, gaidot debitora atzvanīšanu.  
-    * Ja vēlaties, atzīmējiet izvēles rūtiņu Noņemt rezervācijas, lai pasūtījumam noņemtu visas fiziskās rezervācijas, kad tiek pievienots šis aizturēšanas kods.  
-5. Noklikšķiniet uz Saglabāt.
+1. Dodieties uz **NNavigācijas rūts > Moduļi > Pārdošana un mārketings > Iestatīšana > Pārdošanas pasūtījumi > Pasūtījumu aizturēšanas kodi**.
+2. Klikšķiniet **Jauns**.
+3. Ierakstiet kādu vērtību laukā **Aizturēšanas kods**. Piemēram, ierakstiet 'Atzvanīt'.  
+4. Laukā **Apraksts** ierakstiet kādu vērtību.
+    - Piemēram, pasūtījums ir aizturēts, gaidot debitora atzvanīšanu.  
+    - Ja vēlaties, atzīmējiet izvēles rūtiņu **Noņemt rezervācijas**, lai pasūtījumam noņemtu visas fiziskās rezervācijas, kad tiek pievienots šis aizturēšanas kods.  
+5. Noklikšķiniet uz **Saglabāt**.
 
 ## <a name="place-order-on-hold"></a>Aizturēt pasūtījumu
-1. Pārejiet uz sadaļu Pārdošana un mārketings > Pārdošanas pasūtījumi > Visi pārdošanas pasūtījumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Debitora konts ievadiet vai atlasiet kādu vērtību.
-4. Noklikšķiniet uz Labi.
-5. Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.
-6. Laukā Daudzums ievadiet skaitli.
-7. Darbības rūtī noklikšķiniet uz vienuma Pārdošanas pasūtījums.
-8. Noklikšķiniet uz Pasūtījumu aizturēšanas.
-9. Noklikšķiniet uz Jauns.
-10. Laukā Aizturēšanas kods atlasiet kodu, kuru izveidojāt iepriekšējā apakšuzdevumā.
-11. Noklikšķiniet uz Saglabāt.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Pārdošanas pasūtījumi > Visi pārdošanas pasūtījumi**.
+2. Klikšķiniet **Jauns**.
+3. Ievadiet vai atlasiet vērtību laukā **Klienta konts**.
+4. Noklikšķiniet uz **Labi**.
+5. Laukā **Krājuma kods** ievadiet vai atlasiet kādu vērtību.
+6. Laukā **Daudzums** ierakstiet kādu skaitli.
+7. **Darbību rūtī** noklikšķiniet uz **Pārdošanas pasūtījums**.
+8. Noklikšķiniet uz **Pasūtījumu aizturēšanas**.
+9. Klikšķiniet **Jauns**.
+10. Laukā **Aizturēšanas kods** atlasiet kodu, kuru izveidojāt iepriekšējā apakšuzdevumā.
+11. Noklikšķiniet uz **Saglabāt**.
 12. Aizvērt lapu.
-13. Pārejiet uz sadaļu Pārdošana un mārketings > Pārdošanas pasūtījumi > Visi pārdošanas pasūtījumi.
-14. Sarakstā atzīmējiet atlasīto rindu.
-    * Pasūtījumiem, kas pašlaik ir aizturēti, ir atzīmēti lauki “Neapstrādāt” un “Aizturēts”.    
-15. Darbību rūtī noklikšķiniet uz Izdot un iepakot.
+13. Pārejiet uz sadaļu **Pārdošana un mārketings > Pārdošanas pasūtījumi > Visi pārdošanas pasūtījumi**.
+14. Sarakstā atzīmējiet atlasīto rindu. Pasūtījumiem, kas pašlaik ir aizturēti, ir atzīmēti lauki “Neapstrādāt” un “Aizturēts”.
+15. Darbību rūtī noklikšķiniet uz **Izdot un iepakot**.
 
 ## <a name="manage-order-holds"></a>Pasūtījumu aizturēšanas pārvaldība
-1. Dodieties uz Pārdošana un mārketings > Pārdošanas pasūtījumi > Atvērtie pasūtījumi > Pasūtījumu aizturēšanas.
-    * Pasūtījumu aizturēšanas lapa darbojas kā rīks, kurā varat gūt pārskatu par visām pašreizējām un apstrādātajām aizturēšanām, kā arī apstrādāt tās un saistītos pārdošanas pasūtījumus.      
+1. Dodieties uz **Pārdošana un mārketings > Pārdošanas pasūtījumi > Atvērtie pasūtījumi > Pasūtījumu aizturēšanas**. Lapa **Pasūtījumu aizturēšanas** darbojas kā rīks, kurā varat gūt pārskatu par visām pašreizējām un apstrādātajām aizturēšanām, kā arī apstrādāt tās un saistītos pārdošanas pasūtījumus.     
 2. Sarakstā atzīmējiet atlasīto rindu.
-3. Darbību rūtī noklikšķiniet uz Aizturēt izsniegšanu.
-4. Noklikšķiniet uz Izsniegt.
-5. Sarakstā noņemiet atzīmi no atlasītās rindas.
-    * Laukā Izsniegt lietotājam tagad ir redzams jūsu lietotāja ID.   
-6. Noklikšķiniet uz Dzēst izsniegšanu.
-7. Darbību rūtī noklikšķiniet uz Dzēst aizturēšanu.
-    * Kad esat gatavs noņemt aizturēšanu un ļaut, lai pasūtījums pāriet uz nākamo izpildes darbību, aizturēšana ir jānotīra. Ja pasūtījumam nav jāveic nekādas izmaiņas, varat palaist darbību Notīrīt aizturēšanas. Taču varat arī izmantot darbību Dzēst un mainīt, ja aizturēšanas dzēšanas laikā pasūtījums ir jāatjaunina.      
-    * Notīrīšanas un iesniegšanas darbība ir spēkā tikai tad, ja izmantojat zvanu centra funkcionalitāti.  
-8. Noklikšķiniet uz Dzēst aizturēšanas.
-    * Tagad aizturēšana ir dzēsta no pasūtījuma un noņemta no saraksta Aktīvās aizturēšanas. Lai skatītu visas aizturēšanas vai to apakškopu pēc noteikta statusa, mainiet vērtību laukā Rādīt.     
+3. **Darbību rūtī** noklikšķiniet uz **Aizturēt izsniegšanu**.
+4. Noklikšķiniet uz **Izsniegt**.
+5. Sarakstā noņemiet atzīmi no atlasītās rindas. Laukā **Izsniegt lietotājam** tagad ir redzams jūsu lietotāja ID.   
+6. Noklikšķiniet uz **Dzēst izsniegšanu**.
+7. **Darbību rūtī** noklikšķiniet uz **Dzēst aizturēšanu**.
+    - Kad esat gatavs noņemt aizturēšanu un ļaut, lai pasūtījums pāriet uz nākamo izpildes darbību, aizturēšana ir jānotīra. Ja pasūtījumam nav jāveic nekādas izmaiņas, varat palaist darbību Notīrīt aizturēšanas. Taču varat arī izmantot darbību Dzēst un mainīt, ja aizturēšanas dzēšanas laikā pasūtījums ir jāatjaunina.      
+    - Darbība **Notīrīt un iesniegt** ir spēkā tikai tad, ja izmantojat zvanu centra funkcionalitāti.  
+8. Noklikšķiniet uz **Dzēst aizturēšanas**. Tagad aizturēšana ir dzēsta no pasūtījuma un noņemta no saraksta Aktīvās aizturēšanas. Lai skatītu visas aizturēšanas vai to apakškopu pēc noteikta statusa, mainiet vērtību laukā Rādīt.     
 

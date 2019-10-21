@@ -1,6 +1,6 @@
 ---
-title: Pievienošanās ceļveža izveide un nosūtīšana, izmantojot Dynamics 365 for Talent - Onboard
-description: Šajā tēmā ir paskaidrots, kā izmantot programmu Microsoft Dynamics 365 for Talent - Onboard, lai izveidotu pievienošanas ceļvedi nesen nolīgtajiem darbiniekiem. Šis uzdevums ir būtisks pirmais solis cilvēkkapitāla pārvaldības (HCM) no pieņemšanas darbā līdz aiziešanai pensijā stratēģijā.
+title: Pievienošanās ceļveža izveide un nosūtīšana, izmantojot Dynamics 365 Talent - Onboard
+description: Šajā tēmā ir paskaidrots, kā izmantot programmu Microsoft Dynamics 365 Talent - Onboard, lai izveidotu pievienošanas ceļvedi nesen nolīgtajiem darbiniekiem. Šis uzdevums ir būtisks pirmais solis cilvēkkapitāla pārvaldības (HCM) no pieņemšanas darbā līdz aiziešanai pensijā stratēģijā.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731562"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009858"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Pievienošanās ceļveža izveide un nosūtīšana, izmantojot Dynamics 365 for Talent: Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Pievienošanās ceļveža izveide un nosūtīšana
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard ļauj izveidot pievienošanas ceļvežus no veidnēm, kuras pats esat izveidojis, no veidnēm, kas ir pieejamas galerijā, vai no nulles.
+Microsoft Dynamics 365 Talent: Onboard ļauj izveidot pievienošanas ceļvežus no veidnēm, kuras pats esat izveidojis, no veidnēm, kas ir pieejamas galerijā, vai no nulles.
 
 Kad esat izveidojis pievienošanas ceļvedi, varat to nosūtīt nesen nolīgtam darbiniekam. Vai arī varat to nosūtīt vairākiem nesen nolīgtiem darbiniekiem Microsoft Excel failā, kuru lejupielādējat no programmas Onboard.
 

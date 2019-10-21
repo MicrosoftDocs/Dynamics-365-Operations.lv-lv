@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572700"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248881"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -39,7 +39,7 @@ Kad ir izveidots pirkšanas pasūtījums (PP), iespējams, tam ir jāizpilda aps
 ## <a name="approval-of-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana
 Pirkšanas pasūtījumiem, kas nelieto izmaiņu pārvaldību, statuss **Apstiprināts** ir jau uzreiz pēc to izveidošanas, bet pirkšanas pasūtījumiem, kas lieto izmaiņu pārvaldību, pēc izveidošanas ir statuss **Melnraksts**. Pirkšanas pasūtījumam, kas ir izveidots, apstiprinot plānotu pasūtījumu no vispārējās plānošanas, neatkarīgi no izmaiņu pārvaldības iestatījumiem vienmēr ir iestatīts statuss **Apstiprināts**. Pirkšanas pasūtījums izveido krājumu transakcijas tikai tad, kad tas sasniedz statusu **Apstiprināts**. Tāpēc līdz brīdim, kad pasūtījums ir pieņemts, šie krājumi netiek rādīti kā pieejami rezervēšanai vai marķēšanai.  
 
-Izmaiņu pārvaldību pirkšanas pasūtījumiem jūs iespējojat, iestatot opciju **Aktivizēt izmaiņu pārvaldību** lapā **Sagādes un avotu parametri**. Kad izmaiņu pārvaldība ir iespējota, pirkšanas pasūtījumiem pēc to pabeigšanas ir jāizpilda apstiprināšanas darbplūsma. Programmā Microsoft Dynamics 365 for Finance and Operations ir darbplūsmas procesu redaktors, kurā varat definēt darbplūsmu atbilstoši savam apstiprināšanas procesam. Šajā darbplūsmā var ietvert kārtulas automātiskai apstiprināšanai, kārtulas, kas nosaka, kurš tiks norīkots konkrētu pirkšanas pasūtījumu apstiprināšanai, kā arī kārtulas tādu darbplūsmu eskalēšanai, kas ilgi gaida apstiprinājumu. Izmaiņu pārvaldības procesu varat iespējot visiem kreditoriem vai atsevišķiem kreditoriem. Šo procesu varat arī iestatīt tā, lai atsevišķiem pirkšanas pasūtījumiem to varētu ignorēt.  
+Izmaiņu pārvaldību pirkšanas pasūtījumiem jūs iespējojat, iestatot opciju **Aktivizēt izmaiņu pārvaldību** lapā **Sagādes un avotu parametri**. Kad izmaiņu pārvaldība ir iespējota, pirkšanas pasūtījumiem pēc to pabeigšanas ir jāizpilda apstiprināšanas darbplūsma. Programmatūrā Supply Chain Management ir darbplūsmas procesu redaktors, kurā varat definēt darbplūsmu atbilstoši savam apstiprināšanas procesam. Šajā darbplūsmā var ietvert kārtulas automātiskai apstiprināšanai, kārtulas, kas nosaka, kurš tiks norīkots konkrētu pirkšanas pasūtījumu apstiprināšanai, kā arī kārtulas tādu darbplūsmu eskalēšanai, kas ilgi gaida apstiprinājumu. Izmaiņu pārvaldības procesu varat iespējot visiem kreditoriem vai atsevišķiem kreditoriem. Šo procesu varat arī iestatīt tā, lai atsevišķiem pirkšanas pasūtījumiem to varētu ignorēt.  
 
 Kad ir iespējota izmaiņu pārvaldība, pirkšanas pasūtījumi tiek vadīti cauri sešiem apstiprināšanas statusiem, no **Melnraksts** līdz **Pabeigts**. Kad pasūtījums ir apstiprināts, lietotājiem, kuri vēlas to modificēt, ir jāizmanto darbība **Pieprasīt izmaiņas**.
 
@@ -55,7 +55,7 @@ Kad ir iespējota izmaiņu pārvaldība, pirkšanas pasūtījumi tiek vadīti ca
 ## <a name="confirming-purchase-orders"></a>Pirkšanas pasūtījumu ratificēšana
 Pirkšanas pasūtījumiem, kuru apstiprinājuma statuss ir **Apstiprināts**, pirms to ratificēšanas var izpildīt papildu darbības. Piemēram, iespējams, jums kāds pirkšanas pieprasījums ir jāsūta kreditoram, lai uzzinātu informāciju par cenām, atlaidēm vai piegādes datumiem. Šādā gadījumā pirkšanas pasūtījumam varat iestatīt statusu **Tiek pārskatīts ārēji**, izmantojot darbību **Pirkšanas pieprasījums**.  
 
-Kreditori, kas ir iestatīti kreditoru portāla lietošanai, var pārskatīt portālā esošos pasūtījumus un tos apstiprināt vai noraidīt. Šī pārskatīšanas procesa laikā pirkšanas pasūtījuma statuss ir **Tiek pārskatīts ārēji**. Kreditoru portālu var konfigurēt tā, lai ratificēšana no kreditora automātiski ratificētu šo pasūtījumu programmatūrā Finance and Operations. Pirkšanas pasūtījumu varat arī ratificēt manuāli, kad esat saņēmis ratifikāciju no kreditora. Ja kreditors kādu pirkšanas pasūtījumu noraida, tad noraidījums tiek saņemts kopā ar noraidīšanas iemeslu un izmaiņu ierosinājumiem. Šajā gadījumā pirkšanas pasūtījuma statuss saglabājas kā **Tiek pārskatīts ārēji**.  
+Kreditori, kas ir iestatīti kreditoru portāla lietošanai, var pārskatīt portālā esošos pasūtījumus un tos apstiprināt vai noraidīt. Šī pārskatīšanas procesa laikā pirkšanas pasūtījuma statuss ir **Tiek pārskatīts ārēji**. Kreditoru portālu var konfigurēt tā, lai ratificēšana no kreditora automātiski ratificētu šo pasūtījumu programmatūrā Supply Chain Management. Pirkšanas pasūtījumu varat arī ratificēt manuāli, kad esat saņēmis ratifikāciju no kreditora. Ja kreditors kādu pirkšanas pasūtījumu noraida, tad noraidījums tiek saņemts kopā ar noraidīšanas iemeslu un izmaiņu ierosinājumiem. Šajā gadījumā pirkšanas pasūtījuma statuss saglabājas kā **Tiek pārskatīts ārēji**.  
 
 Pastāv arī iespēja ģenerēt pasūtījuma pro forma ratifikāciju, pirms ir apstrādāta faktiskā ratifikācija. Šī opcija tikai izveido atskaiti, kuru var koplietot ar kreditoru. Tā neizveido nekādu žurnāla informāciju.  
 

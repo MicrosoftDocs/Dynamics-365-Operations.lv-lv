@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561274"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249429"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Pirkšanas pasūtījuma apstiprināšanas mobilā darbvieta
 
@@ -35,13 +35,13 @@ ms.locfileid: "1561274"
 ## <a name="overview"></a>Pārskats 
 Apstiprināmajiem pirkšanas pasūtījumiem ir jāizmanto apstiprināšanas darbplūsma. Darbplūsma var ietvert dažādus soļus, kam nepieciešams, lai darbības veic viena vai vairākas personas. Piemēram, personai var būt nepieciešams izpildīt uzdevumu vai apstiprināt pirkšanas pasūtījumu. 
 
-**Pirkšanas pasūtījuma apstiprināšanas** mobilo darbvietu var viegli apskatīt un atbildēt uz pirkšanas pasūtījumiem no mobilās ierīces. Šī darbvieta arī sniedz iespēju veikt tas pašas darbplūsmas darbību, ko var veikt Microsoft Dynamics 365 for Finance and Operations tīmekļa klientā.
+**Pirkšanas pasūtījuma apstiprināšanas** mobilo darbvietu var viegli apskatīt un atbildēt uz pirkšanas pasūtījumiem no mobilās ierīces. Šī darbvieta arī sniedz iespēju veikt tas pašas darbplūsmas darbību, ko var veikt tīmekļa klientā.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Finance and Operations versijas.
+Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Supply Chain Management versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
-Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pirkšanas pasūtījuma apstiprināšana**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management 
+Ja jūsu organizācijai ir izvietota programmatūra Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pirkšanas pasūtījuma apstiprināšana**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
 Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
@@ -75,7 +75,7 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
-Lejupielādējiet un instalējiet programmu Microsoft Dynamics 365 for Unified Operations Mobile.
+Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
 - [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

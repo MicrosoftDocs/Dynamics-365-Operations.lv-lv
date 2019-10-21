@@ -1,6 +1,6 @@
 ---
 title: Sākumdatu inicializēšana jaunās Retail vidēs
-description: Šajā rakstā ir aprakstīti dati, kas tiek izveidoti Microsoft Dynamics 365 for Retail inicializācijas procesa ietvaros.
+description: Šajā rakstā ir aprakstīti dati, kas tiek izveidoti Dynamics 365 Retail inicializācijas procesa ietvaros.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556902"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025520"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Sākumdatu inicializēšana jaunās Retail vidēs
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir aprakstīti dati, kas tiek izveidoti Microsoft Dynamics 365 for Retail inicializācijas procesa ietvaros.
+Šajā rakstā ir aprakstīti dati, kas tiek izveidoti Dynamics 365 Retail inicializācijas procesa ietvaros.
 
 Pēc mazumtirdzniecības risinājuma izvietošanas, izmantojot portālu Microsoft Dynamics Lifecycle Services (LCS), ir jāinicializē mazumtirdzniecības konfigurācija, lai izveidotu pamata konfigurācijas datus.
 
@@ -39,7 +39,7 @@ Pēc mazumtirdzniecības risinājuma izvietošanas, izmantojot portālu Microsof
 
 Lai inicializētu mazumtirdzniecības konfigurāciju, rīkojieties šādi.
 
-1. Palaidiet Dynamics 365 for Retail klientu.
+1. Palaidiet Retail klientu.
 2. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Headquarters iestatīšana** &gt; **Parametri** &gt; **Mazumtirdzniecības parametri**.
 3. Noklikšķiniet uz **Inicializēt**.
 
@@ -57,7 +57,7 @@ Inicializācija izveido šādus noklusējuma konfigurācijas datus:
 - Elementa validēšanas veidnes
 - Commerce Data Exchangesesijas vēstures dzēšanas pakešuzdevums
 
-Turklāt, Dynamics 365 for Retail datu bāzei ir iespējota reģistrācija, kas ir saistīta ar maksājumu karšu nozari (PCI).
+Turklāt, Retail datu bāzei ir iespējota reģistrācija, kas ir saistīta ar maksājumu karšu nozari (PCI).
 
 > [!NOTE]
 > Pastāv iespēja atsevišķi konfigurēt mazumtirdzniecības plānotāju. Šī opcija ļauj atiestatīt mazumtirdzniecības plānotāja konfigurāciju uz noklusētajiem iestatījumiem.

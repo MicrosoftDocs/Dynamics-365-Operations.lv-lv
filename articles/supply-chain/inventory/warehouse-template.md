@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562442"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017601"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
 
@@ -93,7 +93,7 @@ Varat lejupielādēt zip failu šai datu pakotnei. Šajā failā ir visi dati at
 
 Žurnālā **Skatīt izpildi** ir sniegta detalizēta informācija par katru importēto datu elementu. Varat izmantot sagatavošanas posmu datu skatu, lai ātri nokļūtu pie mērķa datiem. Šādi varat redzēt, kā importētie dati izskatās saistītajās programmas lapās. Kad lietojat noklusējuma datu veidnes, importēšanas secība katram datu elementam darbojas iepriekš definētā veidā, lai palīdzētu nodrošināt, ka visi atkarīgie dati tiek importēti vispirms. Ja daļu no projekta veido pielāgotie datu elementi, jums ir jāpārliecinās, vai ir definēta pareizā secība. Papildinformāciju skatiet šeit: [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigurācijas kopēšanai no viena uzņēmuma uz jaunu uzņēmumu vienas instances ietvaros, noskatieties šo 3 minūšu video pakalpojumā YouTube: [Noliktavas veidnes izmantošana, lai kopētu konfigurāciju, programmā Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs)
+Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigurācijas kopēšanai no viena uzņēmuma uz jaunu uzņēmumu vienas instances ietvaros, noskatieties šo 3 minūšu video YouTube par [to, kā izmantot noliktavas veidni, lai kopētu konfigurāciju programmatūrai Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Saistītā tēma
 

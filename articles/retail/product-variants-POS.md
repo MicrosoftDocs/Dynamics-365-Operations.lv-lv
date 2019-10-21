@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572053"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025153"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Krājumu uzmeklēšana pārdošanas punktā (POS)
 
@@ -52,7 +52,7 @@ Katrai vietai tiek rādīts arī daudzums **Rezervēts** un **Pasūtīts**.
 Šajā vietu sarakstā ir divu tālāk aprakstīto tipu elementi.
 
 - **Mazumtirdzniecības veikali** — sarakstā tiek rādīti veikali, kas tiek konfigurēti, izmantojot veikalu vietrāžu grupu pašreizējam veikalam programmā Retail Headquarters.
-- **Sadales centri** — programmā Microsoft Dynamics 365 for Retail var konfigurēt dažādus sadales centru veidus (piemēram, noliktavas). Taču šajā sarakstā tiek rādīta informācija par krājumu pieejamību tikai vairumtirdzniecības bāzēm ar noklusējuma tipu **Standarta**.
+- **Sadales centri** — programmā Retail var konfigurēt dažādus sadales centru veidus (piemēram, noliktavas). Taču šajā sarakstā tiek rādīta informācija par krājumu pieejamību tikai vairumtirdzniecības bāzēm ar noklusējuma tipu **Standarta**.
 
     > [!NOTE]
     > Informācija par krājumu pieejamību netiek rādīta noliktavām ar POS tipu **Tranzīts**, **Karantīna** un **Preces ceļā**.

@@ -1,6 +1,6 @@
 ---
 title: Analizēt pārdošanas tendences un modeļus
-description: Programma Microsoft Dynamics 365 for Retail varat reāllaikā pētīt pārdošanas tendences un modeļus.
+description: Programma Dynamics 365 Retail varat reāllaikā pētīt pārdošanas tendences un modeļus.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557904"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025821"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Analizēt pārdošanas tendences un modeļus
 
 [!include [banner](includes/banner.md)]
 
-Programma Microsoft Dynamics 365 for Retail varat reāllaikā pētīt pārdošanas tendences un modeļus.
+Programma Dynamics 365 Retail varat reāllaikā pētīt pārdošanas tendences un modeļus.
 
-Programmā Dynamics 365 for Retail lietotāji var reāllaikā pētīt pārdošanas tendences un modeļus dažādos organizācijas hierarhijas līmeņos vairāku gadu periodā, izmantojot standarta komplektācijā ietverto pārskatu **Kanāla pārdošanas pārskats pa gadiem**. Šo pārskatu var atvērt no šādām vietām:
+Programmā Retail lietotāji var reāllaikā pētīt pārdošanas tendences un modeļus dažādos organizācijas hierarhijas līmeņos vairāku gadu periodā, izmantojot standarta komplektācijā ietverto pārskatu **Kanāla pārdošanas pārskats pa gadiem**. Šo pārskatu var atvērt no šādām vietām:
 
 - Darbvieta **Mazumtirdzniecības veikala pārvaldība** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**
 - Darbvieta **Mazumtirdzniecības veikala finanses** &gt; **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa gadiem**

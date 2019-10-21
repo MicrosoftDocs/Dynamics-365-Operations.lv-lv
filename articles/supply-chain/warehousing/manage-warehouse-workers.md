@@ -1,6 +1,6 @@
 ---
 title: Noliktavas nodarbināto pārvaldība
-description: Šajā rakstā ir aprakstīts, kā varat izmantot Dynamics 365 for Finance and Operations, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
+description: Šajā rakstā ir aprakstīts, kā varat izmantot programmu Dynamics 365 Supply Chain Management - Warehousing, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572562"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018625"
 ---
 # <a name="manage-warehouse-workers"></a>Noliktavas nodarbināto pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā varat izmantot Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
+Šajā rakstā ir aprakstīts, kā varat izmantot programmu Dynamics 365 Supply Chain Management - Warehousing, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
 
 Ja jūs izmantojat funkcionalitāti Noliktavas pārvaldībā, visas noliktavas darbinieka operācijas tiek sauktas par *darbu*. Tāds darbs kā rīcībā esošo krājumu izdošana, pārvietošana un uzskaite tiek reģistrēts, izmantojot mobilās ierīces. Pirms noliktavas darbinieks var veikt darbu, viņam ir jābūt saistītam ar darbinieku Personāla vadībā. Ar katru **Darbinieka** kontu var būt saistīti vairāki noliktavas darba lietotāji. Šie darba lietotāji var strādāt dažādās noliktavās un tiem var būt dažādi piekļuves līmeņi dažādām mobilās ierīces izvēlnēm. Noliktavas darba lietotājus var uzskatīt par vairākām pieteikšanām atlasītajam darbiniekam. Katram darba lietotājam ir noklusētā noliktava, un noteiktas darbplūsmas tiek atklātas caur izvēlnes elementiem, kas ir pieejami šī darba lietotājam. 
 

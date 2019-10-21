@@ -1,6 +1,6 @@
 ---
 title: Pārskats par metodi lean manufacturing
-description: Šajā rakstā ir sniegts apskats un apraksts par lean manufacturing līdzekļiem programmā Dynamics 365 for Finance and Operations.
+description: Šajā rakstā ir sniegts apskats un apraksts par lean manufacturing līdzekļiem programmā Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562396"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250076"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts apskats un apraksts par lean manufacturing līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations.
+Šajā rakstā ir sniegts apskats un apraksts par lean manufacturing līdzekļiem programmā Dynamics 365 Supply Chain Management.
 
 Lean manufacturing sniedz rīkus, ko varat izmantot, lai modelētu racionālas operācijas. Šie rīki atbalsta un veicina tālāk norādītās koncepcijas un biznesa aktivitātes.
 -   Izveidojiet Lean manufacturing pamatu, ražošanas un loģistikas procesus modelējot kā ražošanas plūsmas.
 -   Ieviesiet racionālās vilkšanas sistēmu, prasību pieprasījumu signalizēšanai izmantojot Kanban.
 -   Pārraugiet un uzturiet Kanban darbus.
 
-Lean manufacturing arhitektūra sistēmā Finance and Operations sastāv no ražošanas plūsmām, aktivitātēm un Kanban nosacījumiem. Šīs struktūras ir pilnīgi integrētas Finance and Operations procesos. Lean manufacturing varat izmantot jaukta režīma ražošanas vidē, kurā ir apvienotas dažādas piegādes, ražošanas un avotu izmantošanas stratēģijas. Šīs stratēģijas iekļauj ražošanas pasūtījumus, partiju pasūtījumus apstrādes rūpniecības nozarēm, pirkšanas pasūtījumus un pārsūtīšanas pasūtījumus.
+Lean manufacturing arhitektūra sastāv no ražošanas plūsmām, aktivitātēm un Kanban nosacījumiem. Šīs struktūras ir pilnīgi integrētas Supply Chain Management procesos. Lean manufacturing varat izmantot jaukta režīma ražošanas vidē, kurā ir apvienotas dažādas piegādes, ražošanas un avotu izmantošanas stratēģijas. Šīs stratēģijas iekļauj ražošanas pasūtījumus, partiju pasūtījumus apstrādes rūpniecības nozarēm, pirkšanas pasūtījumus un pārsūtīšanas pasūtījumus.
 
 | **Svarīgi**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sistēmu Finance and Operations varat izmantot, lai atbalstītu Lean manufacturing ieviešanu Kanban darbos. Taču sekmīga racionālo principu ieviešana ir atkarīga no jūsu izmantotajiem iekšējiem biznesa procesiem, kā arī no faktiskajiem ražošanas apstākļiem un vides. |
+| Sistēmu Supply Chain Management varat izmantot, lai atbalstītu Lean manufacturing ieviešanu Kanban darbos. Taču sekmīga racionālo principu ieviešana ir atkarīga no jūsu izmantotajiem iekšējiem biznesa procesiem, kā arī no faktiskajiem ražošanas apstākļiem un vides. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Ražošanas un loģistikas procesu kā ražošanas plūsmu modelēšana
 Lai izveidotu Lean manufacturing pamatu, ražošanas un loģistikas procesus modelējiet kā ražošanas plūsmas. Šī aktivitāte sastāv no tālāk uzskaitītajiem uzdevumiem.
@@ -69,8 +69,8 @@ Lean manufacturing nodrošina redzamību par Kanban nosacījumu noteikto ražoš
 -   Kanban panelis pārsūtīšanas darbiem — šajā panelī tiek sniegts apskats par pašreizējiem pārsūtīšanas darbiem. Varat atjaunināt un reģistrēt izdošanas sarakstus, sākt un pabeigt pārsūtīšanas darbus, kā arī veikt citus uzdevumus.
 -   Kanban panelis procesa darbiem — šis panelis ir paredzēts, lai atbalstītu normālo ražošanas plūsmu un sniegt apskatu par pašreizējo situāciju vienā vai vairākās darba šūnās. No šī paneļa Kanban darbiem var noteikt prioritātes, tos var izdot vai ražot. Šis panelis ir arī paredzēts, lai atbalstītu svītrkoda skenēšanu Kanban atskaitēm.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanban darbi un integrēšana Finance and Operations procesos
-Kanban darbi ir pilnīgi integrēti pašreizējos procesos attiecībā uz krājumu transakcijām sistēmā Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanban darbu un integrēšanas ar Supply Chain Management procesi
+Kanban darbi ir pilnīgi integrēti pašreizējos procesos attiecībā uz krājumu transakcijām Supply Chain Management.
 -   Varat veikt izdošanas aktivitātes, lai papildinātu materiālu, kas tiek izmantots, lai izpildītu Kanban darbu pieprasījumus.
 -   Varat drukāt Kanban kartes, atkārtoti izmantojamās Kanban kartes un izdošanas sarakstus, lai atbalstītu Kanban izmantošanu. Šie dokumenti tiek izmantoti, lai attēlotu, izsekotu un reģistrētu Kanban darbus noliktavā un ražotnē.
 -   Izdošanas un pārsūtīšanas aktivitātes varat reģistrēt krājumos, skenējot svītrkodus.

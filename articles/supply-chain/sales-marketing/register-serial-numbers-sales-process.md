@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555042"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251320"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Sērijas numuru reģistrēšana pārdošanas procesā
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555042"
 
 Šajā tēmā ir paskaidrots, kā pārdošanas procesa laikā varat reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim.
 
-Daudzi uzņēmumi vēlaties tikai reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, un tiem nav jāglabā visu krājumu sērijas numuri no saņemšanas līdz izsniegšanas brīdim. Šādos scenārijos programma Microsoft Dynamics 365 for Finance and Operations sniedz iespēju reģistrēt sērijas numurus pavadzīmēs vai rēķinos, kad tiek pārdotas preces. Ja preces vēlāk tiek atgrieztas, varat atrast katras preces rēķinu, lai noteiktu, vai jūs esat preces pārdevējs un vai ir spēkā pakalpojumu sniegšanas vai garantijas saistības.
+Daudzi uzņēmumi vēlaties tikai reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, un tiem nav jāglabā visu krājumu sērijas numuri no saņemšanas līdz izsniegšanas brīdim. Šādos scenārijos varat reģistrēt sērijas numurus pavadzīmēs vai rēķinos, kad tiek pārdotas preces. Ja preces vēlāk tiek atgrieztas, varat atrast katras preces rēķinu, lai noteiktu, vai jūs esat preces pārdevējs un vai ir spēkā pakalpojumu sniegšanas vai garantijas saistības.
 
-Ir jāiespējo sērijas numuru izmantošana pārdošanas procesā, atlasot opciju **Aktīvs pārdošanas procesā** lapā **Izsekošanas dimensiju grupas**. Pēc tam programmā Microsoft Dynamics 365 for Finance and Operations notiek tālāk norādītais.
+Ir jāiespējo sērijas numuru izmantošana pārdošanas procesā, atlasot opciju **Aktīvs pārdošanas procesā** lapā **Izsekošanas dimensiju grupas**. Pēc tam Supply Chain Management parādās šādi notikumi:
 -   Kopsavilkuma cilnē **Sērijas numuri** tiek atlasīta opcija **Sērijas numura kontrole**. Ja ir atlasīta šī opcija, katram krājumam pavadzīmē vai rēķinā ir jāreģistrē viens sērijas numurs.
 -   Tiek atcelta visu izsekošanas dimensijas grupas sērijas numuru opciju atlase, izņemot opciju **Tukša izejas plūsma atļauta**. Varat atlasīt opciju **Tukša izejas plūsma atļauta**, lai ignorētu sērijas numuru kontroli un atļautu preču iepakošanu un iekļaušanu rēķinā, nereģistrējot sērijas numurus.
 

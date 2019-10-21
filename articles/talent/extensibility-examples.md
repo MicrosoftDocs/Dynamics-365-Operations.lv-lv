@@ -1,13 +1,13 @@
 ---
-title: Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
-description: Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 for Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow.
+title: Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
+description: Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781446"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008063"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
+# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
 
-Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 for Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow. Varat importēt ar katru piemēru saistīto risinājumu pakotni savā PowerApps vidē. Pēc tam varat izmantot pakotnes kā vadlīnijas vai kā sākumpunktu, lai īstenotu scenārijus, kas attiecas uz jūsu organizāciju.
+Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow. Varat importēt ar katru piemēru saistīto risinājumu pakotni savā PowerApps vidē. Pēc tam varat izmantot pakotnes kā vadlīnijas vai kā sākumpunktu, lai īstenotu scenārijus, kas attiecas uz jūsu organizāciju.
 
 > [!IMPORTANT]
 > Ja vēlaties izmantot šajā tēmā aprakstītās veidnes un programmu nemainītā veidā, pārbaudiet tās un pārliecinieties, ka tās aptver visus scenārijus, kas raksturīgi jūsu ieviešanai.
@@ -57,7 +57,7 @@ Lai lejupielādētu veidni **Flow — Forms savienojums** un pielāgoto element
 
 ## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Uz PowerApps nodoto parametru iniciēšana un izvilkšana
 
-Veidni **Uz PowerApps nodoto parametru iniciēšana un izvilkšana** var izmantot kā sākumpunktu jebkuram PowerApps scenārijs, kas attiecas uz Attract. Tajā ietilpst visi noklusējuma parametri, kurus nodod Attract, piemēram, **Darba pieteikums**, **Kandidāta ID** un **Darba ID**.
+Veidni **Uz PowerApps nodoto parametru iniciēšana un izvilkšana** var izmantot kā sākumpunktu jebkuram PowerApps scenārijam, kas attiecas uz Attract. Tajā ietilpst visi noklusējuma parametri, kurus nodod Attract, piemēram, **Darba pieteikums**, **Kandidāta ID** un **Darba ID**.
 
 Šo veidni var izmantot, lai izgūtu kandidātu novērtējuma veidlapu, lai par pieņemšanu darbā atbildīgais vadītājs varētu redzēt kandidāta aizpildīto novērtējumu.
 
@@ -79,7 +79,7 @@ Veidni **Flow — e-pasta paziņojums** var izmantot e-pasta paziņojumu scenā
 
 Šo veidni var paplašināt, lai izsekotu kandidāta posma izmaiņām visā personāla atlases procesā un nosūtītu paziņojumus darbā pieņemšanas grupai un kandidātam.
 
-Parasti elementiem, kas tiek glabāti Common Data Service, var iestatīt plūsmas, lai nosūtītu paziņojumus par notikumiem, kas notiek programmās Core HR, Attract vai Dynamics 365 Talent: Onboard.
+Parasti elementiem, kas tiek glabāti Common Data Service, var iestatīt plūsmas, lai nosūtītu paziņojumus par notikumiem, kas notiek programmās Core HR, Attract vai Onboard.
 
 Lai lejupielādētu veidni **Flow — e-pasta paziņojums**, atveriet [Plūsma — e-pasta paziņojums](https://go.microsoft.com/fwlink/?linkid=2082103) Microsoft lejupielādes centrā.
 
@@ -106,7 +106,7 @@ Varat izmantot atsauces programmu, lai pievienotu kandidātus kopīgai darbiniek
 
 Šo programmu var iegult Darbinieku pašapkalpošanās (ESS) portālā atsauču iesniegšanai, vai arī to var izmantot kā hipersaiti uzņēmuma portālā un palaist kā savrupu programmu.
 
-Lai lejupielādētu **Atsauces programmu**, dodieties uz [Dynamics 365 for Talent paplašināmības risinājumu: Atsauces programma](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) Microsoft lejupielāžu centrā. Varat importēt šo programmu un pielāgot to, lai pievienotu papildu funkcionalitāti.
+Lai lejupielādētu **Atsauces programmu**, dodieties uz [Dynamics 365 Talent paplašināmības risinājumu: Atsauces programma](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) Microsoft lejupielāžu centrā. Varat importēt šo programmu un pielāgot to, lai pievienotu papildu funkcionalitāti.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

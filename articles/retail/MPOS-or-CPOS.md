@@ -1,6 +1,6 @@
 ---
 title: Retail Modern POS (MPOS) vai Cloud POS izvēle
-description: Šajā tēmā ir paskaidrotas programmu Retail Modern POS un Cloud POS galvenās atšķirības. Tajā ir aprakstīti arī dažādi faktori, kas ir jāņem vērā mazumtirgotājiem, kuri ievieš Microsoft Dynamics 365 for Retail, lai izvēlētos savām prasībām piemērotāko risinājumu.
+description: Šajā tēmā ir paskaidrotas programmu Retail Modern POS un Cloud POS galvenās atšķirības. Tajā ir aprakstīti arī dažādi faktori, kas ir jāņem vērā mazumtirgotājiem, kuri ievieš Dynamics 365 Retail, lai izvēlētos savām prasībām piemērotāko risinājumu.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557018"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025913"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) vai Cloud POS izvēle
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēma ir sniegta ieviesējiem paredzēta papildu pamatinformācija, padomi un norādījumi par faktoriem, kas ir jāņem vērā, izvietojot programmu Microsoft Dynamics 365 for Retail. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
+Šajā tēma ir sniegta ieviesējiem paredzēta papildu pamatinformācija, padomi un norādījumi par faktoriem, kas ir jāņem vērā, izvietojot programmu Dynamics 365 Retail. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
 
 ## <a name="insights"></a>Insights
 
@@ -59,7 +59,7 @@ Lai gan MPOS un CPOS lielā mērā ir vienādi, pastāv dažas būtiskas atšķi
 
 MPOS Windows, iOS vai Android ierīcē ir lietojumprogramma, kas ir iepakota, instalēta un apkalpota šajā ierīcē.
 
-- **Windows** — programma MPOS for Windows ietver visu programmas kodu, kā arī iegulto Commerce Runtime (CRT). 
+- **Windows** — programma MPOS for Windows ietver visu programmas kodu, kā arī iegulto Commerce Runtime (CRT). 
 - **iOS/Android** — šajās platformās lietojumprogramma darbojas kā CPOS lietojumprogrammas koda resursdators. Citiem vārdiem sakot, lietojumprogrammas kods tiek iegūts no CPOS servera pakalpojumā Microsoft Azure vai Retail Store Scale Unit (RSSU). Papildinformāciju skatiet rakstā [Retail Store Scale Unit apskats](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS

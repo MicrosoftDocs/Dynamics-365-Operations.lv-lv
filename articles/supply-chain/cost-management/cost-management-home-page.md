@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557647"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249636"
 ---
 # <a name="cost-management-home-page"></a>Izmaksu pārvaldības sākumlapa
 
@@ -69,5 +69,5 @@ Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://mbs.mi
 Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 #### <a name="task-guides"></a>Uzdevumu ceļveži
-Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
+Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
 

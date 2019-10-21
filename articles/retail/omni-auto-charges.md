@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577873"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018042"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Multikanālu papildu automātiskās maksas
 
@@ -34,7 +34,7 @@ ms.locfileid: "1577873"
 
 Ja ir iespējoti papildu automātisko maksu līdzekļi, jebkurā atbalstītajā mazumtirdzniecības kanālā (pārdošanas punktā (POS), zvanu centrā un tiešsaistē) izveidotajiem pasūtījumiem var izmantot ERP lietojumprogrammā definētās [automātisko maksu](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigurācijas gan galvas, gan rindas līmeņa saistītajām maksām.
 
-Laidienos pirms Dynamics 365 for Retail versijas 10.0 [automātisko maksu](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigurācijas ir pieejamas tikai pasūtījumiem, kas ir izveidoti e-komercijas un zvanu centra kanālos. Versijā 10.0 un jaunākās versijās automātisko maksu konfigurācijas var izmantot POS sistēmā izveidotiem pasūtījumiem. Tādējādi var pārdošanas transakcijām sistemātiski pievienot papildu papildmaksas.
+Laidienos pirms Retail versijas 10.0 [automātisko maksu](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigurācijas ir pieejamas tikai pasūtījumiem, kas ir izveidoti e-komercijas un zvanu centra kanālos. Versijā 10.0 un jaunākās versijās automātisko maksu konfigurācijas var izmantot POS sistēmā izveidotiem pasūtījumiem. Tādējādi var pārdošanas transakcijām sistemātiski pievienot papildu papildmaksas.
 
 Laidienos pirms versijas 10.0, veicot POS transakciju Piegādāt visu vai Piegādāt atlasīto, POS lietotājam tiek prasīts manuāli ievadīt piegādes maksu. Lai gan programmas papildmaksu iespējas tiek izmantotas attiecībā uz to, kā maksas tiek ierakstītas pasūtījumā, netiek nodrošināts sistemātisks aprēķins — maksu vērtības aprēķinam tiek izmantota lietotāja ievadītā vērtība. Maksas var pievienot tikai kā vienu ar piegādi saistītu maksu kodu, un pēc maksu izveides, tā nevar viegli rediģēt vai mainīt POS sistēmā.
 

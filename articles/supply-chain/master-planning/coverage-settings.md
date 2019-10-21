@@ -3,7 +3,7 @@ title: Seguma iestatījumi
 description: Šajā tēmā ir sniegta informācija par vajadzību iestatījumiem, kurus vispārējā plānošana izmanto, lai aprēķinātu krājumu vajadzības.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538898"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998975"
 ---
 # <a name="coverage-settings"></a>Seguma iestatījumi
 
@@ -49,6 +49,19 @@ Jūs varat norādīt vajadzības iestatījumus vairākos veidos:
 - Norādiet dimensiju grupas vajadzības iestatījumus.
 
     Pārejiet uz sadaļu **Preču informācijas pārvaldība &gt; Preces &gt; Izlaistās preces**. Lapas **Detalizēta informācija par izlaistajām precēm** FasTab cilnes **Vispārīgi** sadaļā **Administrēšana** atlasiet saiti laukā **Noliktavas izmēru grupa**. Lapā **Noliktavas dimensiju grupas** atlasiet izvēles rūtiņu **Vajadzības plāns pa dimensijām**, lai izveidotu vajadzības iestatījumus dimensijai noliktavas dimensiju grupā. Lauks **Vajadzības plāns pa dimensijām** ir jāatlasa visām preces dimensijām, piemēram, konfigurācijai, krāsai, izmēram un stilam.
+
+
+## <a name="coverage-codes"></a>Vajadzības kodi
+
+Vispārējo plānošanu var konfigurēt tā, lai izmantotu dažādas papildināšanas metodes. Papildināšanas metodes vai laidiena lieluma metodes ir metodes, ko sistēma izmanto, lai noteiktu partijas lielumu nopirktajiem vai saražotajiem krājumiem. 
+
+Katrai papildināšanas metodei ir piešķirts viens no šiem vajadzības kodiem:
+
+- **Manuāla** – laidiena lieluma metode, kad sistēma neiesaka krājumam Pirkšanas, pārsūtīšanas vai ražošanas pasūtījumus. Krājuma plānotājs būs atbildīgs par krājuma papildināšanai nepieciešamo pasūtījumu izveidošanu.
+- **Pēc vajadzības** – laidiena lieluma metode, saskaņā ar kuru sistēma izveido plānoto pirkšanas, pārsūtīšanas vai ražošanas pasūtījumu krājuma vajadzībai. Parasti tas tiek izmantots dārgiem krājumiem ar neregulāro pieprasījumu.  
+- **Pa periodiem** – laidiena lieluma metode, kas apvieno visu perioda pieprasījumu vienā pasūtījumā šim krājumam. Pasūtījums tiks plānots pirmajai perioda dienai, un tā daudzums atbilstīs neto prasībām noteiktajā periodā. Periods sākas ar krājuma pirmo pieprasījumu un sedz noteikto laika periodu. Nākamais periods sāksies ar nākamā krājuma prasībām.
+- **Min/max** — laidiena lieluma metode, kas ietver krājumu papildināšanu līdz noteiktam līmenim, ja paredzētais rīcībā esošais daudzums ir mazāks par noteikto slieksni. Papildināšanas daudzums būs vienāds ar starpību starp maksimālo līmeni un prognozēto rīcībā esošo līmeni.
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 

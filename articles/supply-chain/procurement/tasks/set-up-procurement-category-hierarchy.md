@@ -3,7 +3,7 @@ title: Sagādes kategoriju hierarhijas iestatīšana
 description: Šajā procedūrā parādīts, kā izveidot jaunus zarus sagādes kategoriju hierarhijā un kā konfigurēt sagādes kategoriju izmantošanai sagādes procesā.
 author: mkirknel
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d7010a1c612b9b3884c675f578657d951da06c38
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569895"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995286"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Sagādes kategoriju hierarhijas iestatīšana
 
@@ -30,48 +30,18 @@ ms.locfileid: "1569895"
 
 
 ## <a name="add-a-new-procurement-category"></a>Jaunas sagādes kategorijas pievienošana
-1. Pārejiet uz Sagāde un avoti > Sagādes kategorijas.
-2. Noklikšķiniet uz Rediģēt kategoriju hierarhiju.
-    * Pašreizējā sagādes kategoriju hierarhija tiek parādīta lapas kreisajā pusē. Jūs gatavojaties modificēt hierarhiju.  
-3. Noklikšķiniet uz Jauns kategorijas zars.
-    * Sistēma atlasa augšējo zaru pēc noklusējuma. Ja veicāt šo procedūru kā uzdevumu ceļvedi, varat noklikšķināt uz pogas Atbloķēt un atlasīt citu pamatzaru, kura jāievieto jūsu jaunais zars. Kad tas tiks izdarīts, atkal bloķējiet uzdevumu ceļvedi un pēc tam noklikšķiniet uz Jauns kategorijas zars.  
-4. Laukā Nosaukums ierakstiet kādu vērtību.
-5. Apraksta laukā ierakstiet vērtību.
-6. Laukā Draudzīgais nosaukums ierakstiet vērtību.
-    * Draudzīgais nosaukums nav obligāts. Tas tiks parādīts kategorijas uzmeklēšanās kopā ar kategorijas nosaukumu.  
-7. Noklikšķiniet uz Saglabāt.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Sagāde un avoti > Sūtījums > Sagādes kategorijas**.
+2. Darbību rūtī atlasiet **Rediģēt kategoriju hierarhiju**. Pašreizējā sagādes kategoriju hierarhija tiek parādīta lapas kreisajā pusē. Jūs gatavojaties modificēt hierarhiju.  
+3. Darbību rūtī atlasiet **Jauns kategorijas zars**. Sistēma atlasa augšējo zaru pēc noklusējuma. Ja veicāt šo procedūru kā uzdevumu ceļvedi, varat noklikšķināt uz pogas Atbloķēt un atlasīt citu pamatzaru, kura jāievieto jūsu jaunais zars. Kad tas tiks izdarīts, atkal bloķējiet uzdevumu ceļvedi un pēc tam noklikšķiniet uz Jauns kategorijas zars.  
+4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+5. Laukā **Apraksts** ierakstiet kādu vērtību.
+6. Laukā **Draudzīgais nosaukums** ierakstiet vērtību. Draudzīgais nosaukums nav obligāts. Tas tiks parādīts kategorijas uzmeklēšanās kopā ar kategorijas nosaukumu.  
+7. Atlasiet **Saglabāt**.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Preču pievienošana jaunajai sagādes kategorijai
-1. Pārejiet uz Sagāde un avoti > Sagādes kategorijas.
-    * Atlasiet zaru, ko tikko pievienojāt. Ja veicāt šo procedūru kā uzdevuma ceļvedi, lai atlasītu zaru, iespējams, būs jāatbloķē šis uzdevuma ceļvedis.  
-2. Pārslēdziet sadaļas Preces paplašinājumu.
-3. Noklikšķiniet uz Pievienot, lai saistītu preces ar sagādes kategoriju.
-4. Atlasiet preci, ko vēlaties pievienot sagādes kategorijai.
-5. Noklikšķiniet uz bultiņas, lai atlasītu preci.
-6. Atlasiet citu preci, ko vēlaties pievienot sagādes kategorijai.
-7. Noklikšķiniet uz bultiņas, lai atlasītu preci.
-8. Noklikšķiniet uz OK.
-
-## <a name="add-approved-and-preferred-vendors"></a>Apstiprināto vai vēlamo kreditoru pievienošana
-1. Pārslēdziet sadaļas Kreditori paplašinājumu.
-2. Noklikšķiniet uz Pievienot.
-    * Var pievienot kreditoru sagādes kategorijai un norādīt, vai kreditors ir vēlams vai apstiprināts šai kategorijai. Dzēšot kreditoru no kategorijas, vēsturiskās transakcijas ar kreditoru kategorijā netiek dzēstas.   
-3. Atrodiet kreditoru, ko vēlaties pievienot kategorijai.
-4. Noklikšķiniet uz bultiņas, lai atlasītu kreditoru.
-5. Noklikšķiniet uz Labi.
-6. Izvēlieties kreditora rindu, ko vēlaties modificēt.
-7. Laukā Kreditora statuss atlasiet kādu opciju.
-    * Kreditora izvēles iestatījums Kategorijas ierobežojuma nosacījumos reglamentē, vai pirkšanas pieprasījumos pieejami vēlamie, apstiprinātie vai visi kreditori.   
-
-## <a name="add-additional-information-to-the-category"></a>Papildinformācijas pievienošana kategorijai
-1. Pārslēdziet sadaļas Kreditoru vērtēšanas kritēriju grupas sadaļas paplašinājumu.
-    * Šī cilne ļauj definēt, pēc kuriem kritērijiem jāvērtē kreditori sagādes kategorijā. Lai to izdarītu, jānoklikšķina uz Pievienot un pēc tam jāatlasa kreditoru novērtēšanas grupa, kas satur vēlamos kritērijus.  
-2. Pārslēdziet sadaļas Anketas paplašinājumu.
-    * Šī cilne ļauj jums pievienot anketas, kas parādīsies uz pieprasījumā, ja Aktivitātes tips ir iestatīts uz "Pieprasījums". Pēc tam pieprasītājam jāaizpilda anketa pirms pieprasījuma iesniegšanas par noteiktu preci vai precēm sagādes kategorijā.  
-3. Pārslēdziet sadaļas Krājumu PVN grupas paplašinājumu.
-4. Laukā Krājumu PVN grupa: noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Atlasiet PVN grupu.
-6. Pārslēdziet sadaļas Kategorijas lapa paplašinājumu.
-    * Kategorijas lapas tiek izveidotas lapā Kategoriju hierarhija. Tās satur informāciju par sagādes kategoriju, piemēram, informāciju par preču tipu kategorijā, preču attēliem kategorijā un paziņojumiem, piemēram, atlaidēm, kas ir pieejamas kategorijā. Kategorijas lapas informācija tiek parādīta pirkšanas pieprasījumos.  
-7. Aizvērt lapu.
-
+1. Pārejiet uz **Sagāde un avoti > Sūtījums > Sagādes kategorijas**. Atlasiet zaru, ko tikko pievienojāt. Ja veicāt šo procedūru kā uzdevuma ceļvedi, lai atlasītu zaru, iespējams, būs jāatbloķē šis uzdevuma ceļvedis.  
+2. Pārslēdziet sadaļas **Preces** paplašinājumu.
+3. Atlasiet **Pievienot**, lai saistītu preces ar sagādes kategoriju.
+4. Atlasiet preces, ko vēlaties pievienot sagādes kategorijai.
+5. Atlasiet bultu, lai pievienotu preces tabulai **Atlasīts**.
+6. Atlasiet **Labi**.

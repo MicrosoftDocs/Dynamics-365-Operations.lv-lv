@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742474"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248961"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Pārvaldīt kreditoru sadarbības lietotājus
 
@@ -31,7 +31,7 @@ ms.locfileid: "1742474"
 
 Šajā tēmā ir aprakstīts, kā varat pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas. 
 
-Kreditoru sadarbības interfeiss programmā Microsoft Dynamics 365 for Finance and Operations sniedz informāciju par ārējo kreditoru pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. Varat izveidot jaunas kreditoru sadarbības kontaktpersonas un pieprasīt, lai tiktu nodrošināti jauni lietotāji, ja strādājat kā ārējs kreditors ar drošības lomu **Kreditora administrators (ārējs)** vai līdzīgām atļaujām. Šos uzdevumus varat arī veikt, ja strādājat kā sagādes speciālists. Šajā tēmā šī loma atsaucas uz sagādes speciālistu, kurš strādā uzņēmumā, kam pieder Finance and Operations instance. Papildinformāciju par to, kā ārējais kreditors var izmantot moduli Kreditoru sadarbība, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Kreditoru sadarbības interfeiss programmā Dynamics 365 Supply Chain Management sniedz informāciju par ārējo kreditoru pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. Varat izveidot jaunas kreditoru sadarbības kontaktpersonas un pieprasīt, lai tiktu nodrošināti jauni lietotāji, ja strādājat kā ārējs kreditors ar drošības lomu **Kreditora administrators (ārējs)** vai līdzīgām atļaujām. Šos uzdevumus varat arī veikt, ja strādājat kā sagādes speciālists. Šajā tēmā šī loma atsaucas uz sagādes speciālistu, kurš strādā uzņēmumā, kam pieder Supply Chain Management instance. Papildinformāciju par to, kā ārējais kreditors var izmantot moduli Kreditoru sadarbība, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Papildinformāciju par to, kā sagādes speciālists var izmantot moduli Kreditoru sadarbība, skatiet tēmā [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
@@ -60,12 +60,12 @@ Kad tiek iesniegts pieprasījums, tas tiek pievienots sarakstam **Kreditoru sada
 Lai varētu pieprasīt, ka tiek nodrošināts jauns lietotājs, šī persona ir jāiestata kā kontaktpersona vienam vai vairākiem kreditoru kontiem. Lai izveidotu jauna kreditoru sadarbības lietotāja pieprasījumu, rīkojieties tālāk aprakstītajā veidā.
 
 1. Lapā **Visas kontaktpersonas** noklikšķiniet uz **Nodrošināt piegādātāja lietotāju**.
-2. Ievadiet šī lietotāja e-pasta adresi. Šo adresi lietotājs izmantos, lai pieteiktos programmatūrā Finance and Operations. Ja e-pasta adreses domēns ir reģistrēts kā nomnieks pakalpojumā Microsoft Azure, tad, lai nodrošināšanas process tiktu izpildīts sekmīgi, šai e-pasta adresei ir jābūt saistītai ar esošu Azure Active Directory (AAD) kontu. Ja e-pasta adreses domēns nav reģistrēts pakalpojumā Microsoft Azure, nodrošināšanas procesa ietvaros tiek izveidots AAD konts un jaunais lietotājs saņem uzaicinājuma pasta ziņojumu. Finance and Operations lietotāja reģistrācijai nevar izmantot debitoru e-pasta adreses ar tādiem domēniem kā @hotmail.com, @gmail.com vai @comcast.net.
+2. Ievadiet šī lietotāja e-pasta adresi. Šī adrese tiks izmantota lietotājam, lai pieteiktos Supply Chain Management. Ja e-pasta adreses domēns ir reģistrēts kā nomnieks pakalpojumā Microsoft Azure, tad, lai nodrošināšanas process tiktu izpildīts sekmīgi, šai e-pasta adresei ir jābūt saistītai ar esošu Azure Active Directory (AAD) kontu. Ja e-pasta adreses domēns nav reģistrēts pakalpojumā Microsoft Azure, nodrošināšanas procesa ietvaros tiek izveidots AAD konts un jaunais lietotājs saņem uzaicinājuma pasta ziņojumu. Lietotāja reģistrācijai nevar izmantot debitoru e-pasta adreses ar tādiem domēniem kā @hotmail.com, @gmail.com vai @comcast.net.
 3. Opciju **Kreditoru sadarbības piekļuve ir atļauta** iestatiet uz **Jā** visām juridiskajām personām, kurām šim lietotājam ir nepieciešama piekļuve.
 4. Sadaļā **Piešķirt lietotāju lomas** atzīmējiet izvēles rūtiņu **Piešķirt** tām drošības lomām, kuras jaunajam lietotājam ir nepieciešamas.
 5. Noklikšķiniet uz **Iesniegt**.
 
-Kad tiek iesniegts kreditora lietotāja pieprasījums, atlasītajam kreditora kontam tiek iestatīta lauka **Debitoru sadarbības piekļuve ir atļauta** vērtība **Jā** un tiek sākta lietotāja pieprasījuma darbplūsma. Kā daļa no šīs darbplūsmas programmatūrā Finance and Operations tiek izveidots jauns lietotājs un tiek piešķirtas drošības lomas. Turklāt tiek aktivizēts Azure B2B pakalpojums, kas iniciē mijiedarbību ar Azure portālu un jaunu vai pastāvošu AAD kontu saista ar Finance and Operations lietotāja kontu. Papildinformāciju skatiet rakstā [Kas ir Azure AD B2B sadarbība?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Kad tiek iesniegts kreditora lietotāja pieprasījums, atlasītajam kreditora kontam tiek iestatīta lauka **Debitoru sadarbības piekļuve ir atļauta** vērtība **Jā** un tiek sākta lietotāja pieprasījuma darbplūsma. Kā daļa no šīs darbplūsmas tiek izveidots jauns lietotājs un tiek piešķirtas drošības lomas. Turklāt tiek aktivizēts Azure B2B pakalpojums, kas iniciē mijiedarbību ar Azure portālu un jaunu vai pastāvošu AAD kontu saista ar Supply Chain Management lietotāja kontu. Papildinformāciju skatiet rakstā [Kas ir Azure AD B2B sadarbība?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Deaktivizēt lietotāju
 

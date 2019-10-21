@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844373"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249452"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mērvienību pārveidošana katram preces variantam
 
@@ -90,6 +90,6 @@ Izlaistajiem preces variantiem Mazs, Vidējs un Liels ir tāda pati mērvienī
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>Programmas Excel izmantošana, lai atjauninātu mērvienību pārveidošanu
 
-Ja precei ir daudz preces variantu ar dažādām mērvienību pārveidošanām, ieteicams eksportēt mērvienību pārveidošanas no lapas **Mērvienību pārveidošana** uz Excel izklājlapu, atjaunināt pārveidošanas un pēc tam publicēt tās atpakaļ programmā Finance and Operations.
+Ja precei ir daudz preces variantu ar dažādām mērvienību pārveidošanām, ieteicams eksportēt mērvienību pārveidošanas no lapas **Mērvienību pārveidošana** uz Excel izklājlapu, atjaunināt pārveidošanas un pēc tam publicēt tās atpakaļ programmatūrā Supply Chain Mangement.
 
-Opciju eksportēt uz programmu Excel un publicēt rediģētās vērtības atpakaļ programmā Finance and Operations iespējo, izmantojot vienumu izvēlnē **Atvērt, izmantojot Microsoft Office** lapas **Mērvienību pārveidošana** darbību rūtī.
+Opciju eksportēt uz programmu Excel un publicēt rediģētās vērtības atpakaļ programmatūrā Supply Chain Mangement iespējo, izmantojot vienumu izvēlnē **Atvērt, izmantojot Microsoft Office** lapas **Mērvienību pārveidošana** darbību rūtī.

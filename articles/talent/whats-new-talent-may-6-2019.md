@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 6. maijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 6. maijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741548"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023865"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 6. maijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 6. maijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -39,15 +39,15 @@ Kad atlasāt piedāvājuma pakotnes veidni, programma Attract tagad parāda uzve
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2282. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta numuriem portālā Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26"></a>Platformas update 26
+### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operations Platform update 26
 
-Papildinformāciju par atjauninājumu Platform update 26 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 26 (2019. gada maijs)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Papildinformāciju par atjauninājumu Finance and Operations Platform update 26 skatiet rakstā [Priekšskatījuma līdzekļi Dynamics 365 Finance and Operations Platform update 26 (2019. gada maijs)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service elementu atbalsts pielāgotajiem laukiem
 
@@ -67,7 +67,7 @@ Līdz ar šo laidienu varat atjaunināt finanšu dimensiju, izmantojot opciju **
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Pakalpojumā Common Data Service izveidotā nodarbināta adrese nav sinhronizēta ar programmu Talent (317555)
 
-Līdz ar šīm izmaiņām pakalpojumā Common Data Service izveidotās adreses tiek atjauninātas programmā Talent Core HR.
+Līdz ar šīm izmaiņām pakalpojumā Common Data Service izveidotās adreses tiek atjauninātas programmā Talent: Core HR.
 
 
 ## <a name="in-preview"></a>Priekšskatījumā

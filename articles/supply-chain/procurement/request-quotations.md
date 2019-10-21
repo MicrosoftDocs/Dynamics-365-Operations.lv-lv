@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865284"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248846"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
@@ -48,16 +48,13 @@ Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumie
 
 Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt**) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmā Microsoft Dynamics 365 for Finance and Operations. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
+Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
 Ja pēc piedāvājuma pieprasījuma nosūtīšanas ir nepieciešams veikt tā grozījumus, pēc grozījumu pabeigšanas šo piedāvājuma pieprasījumu varat nosūtīt kreditoriem vēlreiz, izmantojot abas grozījumu darbības: Izveidot un Finalizēt.+
 
 Kad piedāvājumus saņemat pa e-pastu, šos piedāvājumus varat apstrādāt no lapas **Piedāvājumu pieprasījumi**.
 
 Ja no kāda kreditora ir nepieciešama vēl viena iterācija, atlasiet **Atgriezt** lapā **Piedāvājuma pieprasījums**. Izpildot atgriešanas darbību, tiek ģenerēts jauns žurnāls un pārskats, kas tiks drukāts, arhivēts un nosūtīts atbilstoši drukāšanas iestatījumiem.
-
-> [!NOTE]
-> Lapas **Piedāvājuma pieprasījums** nosaukums ir mainījies. Iepriekšējos Dynamics 365 for Finance and Operations laidienos šīs lapas nosaukums ir **Atbilde uz piedāvājuma pieprasījumu**.
 
 Ja savam piedāvājuma pieprasījuma gadījumam pievienojāt punktu skaitīšanas kritērijus, piedāvājuma pieprasījumā ir punktu skaitīšanas panelis, kur varat ievadīt punktu skaitu. Kopējie rādītāji ir redzami piedāvājuma pieprasījumā un laikā, kad salīdzināt atbildes lapā **Salīdzināt atbildes**. Lapā **Salīdzināt atbildes** varat salīdzināt arī citus atbilžu datus, piemēram, rindas cenu, piegādes datumu un kopējo cenu.
 

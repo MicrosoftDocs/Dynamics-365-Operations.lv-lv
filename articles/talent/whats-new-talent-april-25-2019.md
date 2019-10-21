@@ -1,6 +1,6 @@
 ---
-title: Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 23. aprīlis)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 23. aprīlis)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624585"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024118"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 for Talent (2019. gada 23. aprīlis)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 23. aprīlis)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 for Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 for Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2253. Numuri iekavās attiecas uz atbalsta numuriem portālā Lifecycle Services (LCS).
@@ -79,4 +79,4 @@ Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vā
 ## <a name="known-issues"></a>Zināmās problēmas
 
 ### <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar atjauninājuma Platform update 26 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
+Līdz ar Finance and Operations atjauninājuma Platform update 26 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.

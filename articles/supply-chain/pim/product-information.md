@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563532"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249475"
 ---
 # <a name="product-information-overview"></a>Preču informācijas pārskats
 
@@ -57,17 +57,17 @@ Preces galvenokārt nosaka pēc preces numura, nosaukuma un apraksta. Lai apraks
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Preces datu izplatīšana, imports un eksports
 
-Preces definīciju var izveidot programmā Microsoft Dynamics 365 for Finance and Operations. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Finance and Operations instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
+Preces definīciju var izveidot programmatūrā Supply Chain Management. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Supply Chain Management instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
 
-Lai atbalstītu preces datu izplatīšanu daudzās instancēs, programma Finance and Operations sniedz iespēju izmantot pakalpojumu Common Data Service. Preču definīcijas var eksportēt no Finance and Operations instances uz pakalpojumu Common Data Service. Pēc tam preču definīcijas var izmantot, lai nodrošinātu preces datus citām biznesa lietojumprogrammām, piemēram, Microsoft Dynamics 365 for Sales.
+Lai atbalstītu preces datu izplatīšanu daudzās instancēs, programma Supply Chain Management sniedz iespēju izmantot pakalpojumu Common Data Service. Preču definīcijas var eksportēt no Supply Chain Management instances uz pakalpojumu Common Data Service. Pēc tam preču definīcijas var izmantot, lai nodrošinātu preces datus citām biznesa programmām, piemēram, Dynamics 365 Sales.
 
 Ņemiet vērā, ka dinamiskās un elastīgās organizācijās, preču informācijas dati mainās katru dienu. Tādēļ precīzu un aktuālu preču datu uzturēšana ir būtisks biznesa process.
 
 ## <a name="product-masters-and-product-variants"></a>Preču šabloni un varianti
 
-Elastīgā pasaulē, ja preces ir ātri jāpielāgo klienta prasībām, preču definīcijas jānorāda kā preču kopa nevis atšķirīgas preces. Programmā Microsoft Dynamics 365 for Finance and Operations šīs vispārīgās preces tiek sauktas par *preču šabloniem*. Preču šabloni satur definīciju un kārtulas, kas norāda, kā atšķirīgas preces tiek aprakstītas un darbojas biznesa procesos. Pamatojoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces. Šīs atšķirīgās preces tiek sauktas par *preces variantiem*.
+Elastīgā pasaulē, ja preces ir ātri jāpielāgo klienta prasībām, preču definīcijas jānorāda kā preču kopa nevis atšķirīgas preces. Programmatūrā Supply Chain Management šīs vispārīgās preces tiek sauktas par *preču šabloniem*. Preču šabloni satur definīciju un kārtulas, kas norāda, kā atšķirīgas preces tiek aprakstītas un darbojas biznesa procesos. Pamatojoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces. Šīs atšķirīgās preces tiek sauktas par *preces variantiem*.
 
-Programmatūrā Finance and Operations preces šablons tiek saistīts ar preču dimensiju grupu un konfigurācijas tehnoloģiju, lai norādītu biznesa kārtulas. Preču dimensijas (krāsa, izmēri, stils un konfigurācija) ir specifiskas atribūtu kopas, ko var izmantot visā programmā, lai definētu un izsekotu noteiktu saistīto preču izturēšanos. Šīs dimensijas arī palīdz lietotājiem meklēt un identificēt preces.
+Preces šablons tiek saistīts ar preču dimensiju grupu un konfigurācijas tehnoloģiju, lai norādītu biznesa kārtulas. Preču dimensijas (krāsa, izmēri, stils un konfigurācija) ir specifiskas atribūtu kopas, ko var izmantot visā programmā, lai definētu un izsekotu noteiktu saistīto preču izturēšanos. Šīs dimensijas arī palīdz lietotājiem meklēt un identificēt preces.
 
 ## <a name="configuration-technologies"></a>Konfigurācijas tehnoloģijas
 
@@ -77,7 +77,7 @@ Varat izvēlēties no trim konfigurācijas tehnoloģijām.
 - Konfigurāciju atbilstoši dimensijām parasti lieto ražošanas scenārijos, un tā ļauj izmantot konfigurācijas dimensiju materiālu komplektu (MK) definīcijā. Ja noteikta konfigurācija ir atlasīta, sistēma izmanto plānošanā un ražošanā to MK rindu apakškopu, kuras ir derīgas attiecīgajai konfigurācijai. Šī koncepcija ir zināma arī kā *globālais MK*, jo viens koplietojams MK tiek izmantots visām preces konfigurācijām.
 - Konfigurācijas atbilstoši ierobežojumam preces izmanto konfigurācijas modeli, lai aprakstītu visus iespējamos atribūtus un komponentus, kas nepieciešami, lai vienā modelī aprakstītu visus iespējamos preces variantus. Atribūtu kombināciju ierobežojumus var aprakstīt, izmantojot regulāras izteiksmes vai tabulas ierobežojumus. Konfigurācijas modeļi un konfigurētāji kļūst svarīgāki preču informācijas pārvaldības procesā un tiek izmantoti visās nozarēs.
 
-Plānojot Finance and Operations ieviešanu, ir ļoti svarīgi izvēlēties pareizu biznesa procesa konfigurācijas tehnoloģiju. Preci nevar pārveidot no viena modeļa uz citu pēc ieviešanas.
+Plānojot Supply Chain Management ieviešanu, ir ļoti svarīgi izvēlēties pareizu biznesa procesa konfigurācijas tehnoloģiju. Preci nevar pārveidot no viena modeļa uz citu pēc ieviešanas.
 
 ## <a name="product-variant-model-definition-workspace"></a>Preces varianta modeļa definīcijas darbvieta
 

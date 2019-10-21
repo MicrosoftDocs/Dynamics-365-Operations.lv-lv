@@ -1,6 +1,6 @@
 ---
 title: Kvalitātes pārvaldības apskats
-description: Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
+description: Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Dynamics 365 Supply Chain Management, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
@@ -19,24 +19,24 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557504"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249589"
 ---
 # <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Microsoft Dynamics 365 for Finance and Operations, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
+Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Dynamics 365 Supply Chain Management, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 
-Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar labojumu pārskatu izveidi, programma Microsoft Dynamics 365 for Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
+Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
 
 Papildus neatbilstības pārvaldības funkcionalitātei kvalitātes pārvaldība ietver arī funkcionalitāti problēmu izsekošanai pēc problēmas tipa (pat iekšējām problēmām) un risinājumu identificēšanai īstermiņā vai ilgtermiņā. Statistika par galvenajiem darba kvalitātes rādītājiem (KPI) sniedz ieskatu par iepriekšējām neatbilstības problēmām un risinājumiem, kas tika izmantoti to labošanai. Vēsturiskos datus varat izmantot, lai pārskatītu iepriekšējo kvalitātes pasākumu efektivitāti un noteiktu, kuri pasākumi ir piemēroti turpmākai izmantošanai.
 
-Kad iestatāt kvalitātes saistību, Finance and Operations var ģenerēt kvalitātes pārbaudes pasūtījumus dažādiem biznesa procesiem, notikumiem un nosacījumiem. Šāda kvalitātes saistība var attiekties uz noteiktu krājumu, noteiktu krājumu grupu vai visiem krājumiem.
+Kad iestatāt kvalitātes saistību, Supply Chain Management var ģenerēt kvalitātes pārbaudes pasūtījumus dažādiem biznesa procesiem, notikumiem un nosacījumiem. Šāda kvalitātes saistība var attiekties uz noteiktu krājumu, noteiktu krājumu grupu vai visiem krājumiem.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Kvalitātes pārvaldības lietošanas piemēri
 Kvalitātes pārvaldība ir elastīga, un to var ieviest dažādos veidos, lai atbilstu noteiktu piegādes ķēdes darbību līmeņu prasībām. Nākamajos piemēros ir parādīti šādu līdzekļu iespējamie lietojumi:

@@ -1,6 +1,6 @@
 ---
-title: Pievienošanas ceļvežu un veidņu rediģēšana programmā Dynamics 365 for Talent - Onboard
-description: Šajā tēmā ir paskaidrots, kā pievienot darbības un citu informāciju pievienošanas ceļvežiem un veidnēm programmā Microsoft Dynamics 365 for Talent - Onboard.
+title: Pievienošanas ceļvežu un veidņu rediģēšana programmā Dynamics 365 Talent - Onboard
+description: Šajā tēmā ir paskaidrots, kā pievienot darbības un citu informāciju pievienošanas ceļvežiem un veidnēm programmā Microsoft Dynamics 365 Talent - Onboard.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864397"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010802"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>Pievienošanas ceļvežu un veidņu rediģēšana programmā Dynamics 365 for Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Pievienošanas ceļvežu un veidņu rediģēšana
 
 [!include [banner](includes/banner.md)]
 
-Kad esat izveidojis pievienošanas ceļvedi vai veidni programmā Microsoft Dynamics 365 for Talent: Onboard, jums jāpievieno ievads, darbības, kontaktpersonas un resursi. Onboard ļauj iekļaut bagātīgu saturu jūsu pārvietošanas ceļvežiem, tostarp:
+Kad esat izveidojis pievienošanas ceļvedi vai veidni programmā Microsoft Dynamics 365 Talent: Onboard, jums jāpievieno ievads, darbības, kontaktpersonas un resursi. Onboard ļauj iekļaut bagātīgu saturu jūsu pārvietošanas ceļvežiem, tostarp:
 
 - YouTube videoklipus
 - Microsoft Sway prezentācijas
@@ -124,7 +124,7 @@ Lai izstumtu jūsu izmaiņas, veiciet tālāk norādītās darbības.
 
     - Lai pievienotu YouTube videoklipu, velciet **YouTube** vienumu uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un ievadiet YouTube videoklipa vietrādi URL.
     - Lai pievienotu Sway prezentāciju vai biļetenu, velciet vienumu **Sway** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un ievadiet Sway prezentācijas vai biļetena iegulto vietrādi URL.
-    - Lai pievienotu programmu PowerApps, velciet vienumu **PowerApps** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un vai nu atlasiet programmu PowerApps, vai arī ievadiet programmas PowerApp ID.
+    - Lai pievienotu programmu PowerApps, velciet vienumu **PowerApps** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un vai nu atlasiet programmu PowerApps vai arī ievadiet programmas PowerApps ID.
     - Lai pievienotu Microsoft Stream videoklipu, velciet **Microsoft Stream** vienumu uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un ievadiet Microsoft Stream videoklipa vietrādi URL.
     - Lai pievienotu Microsoft Forms veidlapu, velciet vienumu **Microsoft Forms** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu, ievadiet Microsoft Forms veidlapas vietrādi URL un norādiet ekrāna laukuma lielumu.
     - Lai pievienotu iframe, kas ietver tīmekļa saturu, velciet vienumu **Tīmekļa saturs (iframe)** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu, ievadiet tīmekļa satura vietrādi URL un norādiet ekrāna laukuma lielumu.

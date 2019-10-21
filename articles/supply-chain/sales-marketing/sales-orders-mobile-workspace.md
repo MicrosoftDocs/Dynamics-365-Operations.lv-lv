@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835746"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251625"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Pārdošanas pasūtījumu mobilā darbvieta
 
@@ -31,9 +31,9 @@ ms.locfileid: "1835746"
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Pārdošanas pasūtījumi**. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā. 
 
-Šī mobilā darbvieta ir paredzēta lietošanai kopā ar programmu Microsoft Dynamics 365 for Unified Operations Mobile
+Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 Mobilajā darbvietā **Pārdošanas pasūtījumi** var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu. Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju. Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu. 
 
 Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.
@@ -83,8 +83,8 @@ Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pā
 ## <a name="prerequisites"></a>Priekšnosacījumi
 Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Finance and Operations 
-Ja jūsu organizācijai ir izvietota programma Dynamics 365 for Finance and Operations, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management 
+Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
 Ja jūsu organizācijai ir izvietota Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
@@ -120,7 +120,7 @@ Ja jūsu organizācijai ir izvietota Dynamics 365 for Operations versija 1611 a
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
-Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.
+Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
 -   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

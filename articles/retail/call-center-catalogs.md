@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra katalogi
-description: Šajā tēmā ir aprakstīta zvanu centram raksturīgā katalogu funkcionalitāte programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir aprakstīta zvanu centram raksturīgā katalogu funkcionalitāte programmā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562745"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023663"
 ---
 # <a name="call-center-catalogs"></a>Zvanu centra katalogi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta zvanu centram raksturīgā funkcionalitāte, kas ir saistīta ar katalogu iespējām programmā Microsoft Dynamics 365 for Retail.
+Šajā tēmā ir aprakstīta zvanu centram raksturīgā funkcionalitāte, kas ir saistīta ar katalogu iespējām programmā Dynamics 365 Retail.
 
-Programmā Dynamics 365 for Retail pieejamos katalogu līdzekļus var izmantot dažādiem nolūkiem. Sākotnēji katalogu līdzekļi tika izveidoti ar mērķi atbalstīt trešo pušu e-komercijas integrācijas. Katalogu iestatīšana uzņēmumiem ļāva izveidot preču un atribūtu grupējumus, kurus varēja publicēt ārēji, lai tos izmantotu ar trešās puses e-komercijas risinājumu.
+Programmā Retail pieejamos katalogu līdzekļus var izmantot dažādiem nolūkiem. Sākotnēji katalogu līdzekļi tika izveidoti ar mērķi atbalstīt trešo pušu e-komercijas integrācijas. Katalogu iestatīšana uzņēmumiem ļāva izveidot preču un atribūtu grupējumus, kurus varēja publicēt ārēji, lai tos izmantotu ar trešās puses e-komercijas risinājumu.
 
-Kad programmai Dynamics 365 for Retail tika pievienots zvanu centra kanāla atbalsts, kataloga jēdziens tika paplašināts, lai pievienotu papildu atbalsta un pārvaldības līdzekļus saistībā ar tradicionālajiem tieši uz patērētajiem orientētajiem mārketinga katalogiem. Uzņēmums, kas strādā tieši ar patērētājiem, bieži vien izveido drukātus katalogus, kuri pēc tam tiek nosūtīti vienam vai vairākiem klientu segmentiem. Šajos katalogos parasti ir noteikti veicināšanas pasākumi vai piedāvājumi, kas ir spēkā tikai tad, ja pasūtījuma izveidošanas laikā klients norāda kataloga identifikācijas kodu.
+Kad programmai Retail tika pievienots zvanu centra kanāla atbalsts, kataloga jēdziens tika paplašināts, lai pievienotu papildu atbalsta un pārvaldības līdzekļus saistībā ar tradicionālajiem tieši uz patērētajiem orientētajiem mārketinga katalogiem. Uzņēmums, kas strādā tieši ar patērētājiem, bieži vien izveido drukātus katalogus, kuri pēc tam tiek nosūtīti vienam vai vairākiem klientu segmentiem. Šajos katalogos parasti ir noteikti veicināšanas pasākumi vai piedāvājumi, kas ir spēkā tikai tad, ja pasūtījuma izveidošanas laikā klients norāda kataloga identifikācijas kodu.
 
-Tieši uz patērētāju vēstas mārketinga kampaņas ir ļoti koncentrētas uz izsekošanu, kāda ir reakcija uz šiem katalogiem, lai pārliecinātos, ka attaisnojas to ražošanas un sūtīšanas izmaksas. Lai izsekotu reakciju, kataloga aizmugurē parasti tiek drukāts kods, un pēc tam šis kods tiek pieprasīts un lietots, kad kataloga saņēmējs zvana, lai veiktu pasūtījumu pa tālruni (vai — tagad tas notiek biežāk — šo kodu var ievadīt, kad klients veic pasūtījumu tiešsaistē). Lai gan pastāv dažādi nozares termini, ar kuriem tiek apzīmēts šis kataloga izsekošanas kods (tostarp atslēgas kods, veicināšanas kods, kataloga kods, avota kods), programmā Dynamics 365 for Retail šis kods tiek saukts par **Avota koda ID**.
+Tieši uz patērētāju vēstas mārketinga kampaņas ir ļoti koncentrētas uz izsekošanu, kāda ir reakcija uz šiem katalogiem, lai pārliecinātos, ka attaisnojas to ražošanas un sūtīšanas izmaksas. Lai izsekotu reakciju, kataloga aizmugurē parasti tiek drukāts kods, un pēc tam šis kods tiek pieprasīts un lietots, kad kataloga saņēmējs zvana, lai veiktu pasūtījumu pa tālruni (vai — tagad tas notiek biežāk — šo kodu var ievadīt, kad klients veic pasūtījumu tiešsaistē). Lai gan pastāv dažādi nozares termini, ar kuriem tiek apzīmēts šis kataloga izsekošanas kods (tostarp atslēgas kods, veicināšanas kods, kataloga kods, avota kods), programmā Retail šis kods tiek saukts par **Avota koda ID**.
 
 ## <a name="basic-catalog-setup"></a>Pamata kataloga iestatīšana
 
@@ -92,7 +92,7 @@ Konfigurējot katalogā ietvertās preces, izmantojiet darbību **Preču lapas i
 
 ## <a name="catalog-requests"></a>Kataloga pieprasījumi
 
-Kad programmā Dynamics 365 for Retail ir konfigurēti un publicēti katalogi, var izmantot līdzekli **Sūtīt katalogu**. Šis līdzeklis ir pieejams lapā **Klientu meklēšana** un lapā **Klientu apkalpošana**. Pēc klienta ieraksta atlasīšanas, izmantojot lapu **Klientu meklēšana** vai skatot atlasītā klienta kontu no lapas **Klientu apkalpošana**, lietotāji var atlasīt opciju **Sūtīt katalogu**, kas atver dialoglodziņu, ļaujot lietotājam izvēlēties no visu publicēto un aktīvo katalogu saraksta. Lietotājs var atlasīt sūtīšanai katalogu un daudzumu, kā arī konkrētu avota koda ID. Pēc noklikšķināšanas uz pogas **Sūtīt** tiek saglabāts pieprasījums, kuru pēc tam var pārvaldīt, izdrukājot pārskatu **Kataloga pieprasījumi**. Šis pārskats ir atrodams, pārejot uz **Retail** \> **Zvanu centra pārskati** \> **Kataloga pieprasījumu pārskats**. Tajā ir uzskaitīti visi kataloga pieprasījumi, tostarp informācija par klienta vārdu un adresi tam klientam, kurš šo katalogu pieprasīja. Šo pārskatu var izmantot iekšēji vai datus var pārsūtīt trešajai pusei, kas atbalsta ārējās procedūras fiziskai kataloga nosūtīšanai klientam.
+Kad programmā Retail ir konfigurēti un publicēti katalogi, var izmantot līdzekli **Sūtīt katalogu**. Šis līdzeklis ir pieejams lapā **Klientu meklēšana** un lapā **Klientu apkalpošana**. Pēc klienta ieraksta atlasīšanas, izmantojot lapu **Klientu meklēšana** vai skatot atlasītā klienta kontu no lapas **Klientu apkalpošana**, lietotāji var atlasīt opciju **Sūtīt katalogu**, kas atver dialoglodziņu, ļaujot lietotājam izvēlēties no visu publicēto un aktīvo katalogu saraksta. Lietotājs var atlasīt sūtīšanai katalogu un daudzumu, kā arī konkrētu avota koda ID. Pēc noklikšķināšanas uz pogas **Sūtīt** tiek saglabāts pieprasījums, kuru pēc tam var pārvaldīt, izdrukājot pārskatu **Kataloga pieprasījumi**. Šis pārskats ir atrodams, pārejot uz **Retail** \> **Zvanu centra pārskati** \> **Kataloga pieprasījumu pārskats**. Tajā ir uzskaitīti visi kataloga pieprasījumi, tostarp informācija par klienta vārdu un adresi tam klientam, kurš šo katalogu pieprasīja. Šo pārskatu var izmantot iekšēji vai datus var pārsūtīt trešajai pusei, kas atbalsta ārējās procedūras fiziskai kataloga nosūtīšanai klientam.
 
 ## <a name="additional-features"></a>Papildu līdzekļi
 

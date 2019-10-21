@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554648"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251350"
 ---
 # <a name="price-simulation"></a>Cenas simulācija
 
@@ -51,7 +51,7 @@ Lai nodrošinātu, ka atlaides un cenas tiek aprēķinātas pareizi, uzmanieties
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Atlaižu tipi tirdzniecības līgumos
 
-Tirdzniecības līgumiem programmā Microsoft Dynamics 365 for Finance and Operations var lietot četru veidu cenas atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
+Tirdzniecības līgumiem programmā Supply Chain Management var lietot četru veidu cenas atlaides. Šīs atlaides var iestatīt atšķirīgiem krājumiem, debitoriem vai cenu grupām, un tās var ierobežot datums. Lai nepieļautu nepareizus aprēķinus, cenu simulāciju palaišanas laikā jums ir jāņem vērā tirdzniecības līgumi. Lūk, četri atlaižu tipi tirdzniecības līgumos:
 
 -   **Pārdošanas cena** — krājumiem var norādīt atsevišķas pārdošanas cenas. Kad tiek izveidotas piedāvājuma rindas, programma meklē pareizo pārdošanas cenu attiecībā uz krājumu un pārsūta to uz piedāvājuma rindām. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, neietekmē cenas simulāciju. Pārdošanas cena, kas tiek izmantota piedāvājuma rindā, ataino tirdzniecības līgumu.
 -   **Rindas atlaide** — krājumiem tiek norādītas īpašas atlaides, ņemot vērā pasūtīto daudzumu. Pirms cenu simulācijas sākšanas rindas summas parasti tiek samazinātas ar rindas atlaidi. Tāpēc tirdzniecības līgums, kam ir šāda veida atlaide, ietekmē cenas simulāciju.

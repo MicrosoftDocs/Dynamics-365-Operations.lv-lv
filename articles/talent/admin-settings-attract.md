@@ -1,6 +1,6 @@
 ---
-title: Konfigurēt uzņēmuma informāciju Microsoft Dynamics 365 for Talent - Attract
-description: Šajā tēmā ir paskaidrots, kā konfigurēt uzņēmuma informāciju un zīmolu Microsoft Dynamics 365 for Talent - Attract.
+title: Konfigurēt uzņēmuma informāciju Microsoft Dynamics 365 Talent - Attract
+description: Šajā tēmā ir paskaidrots, kā konfigurēt uzņēmuma informāciju un zīmolu Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 801b90db8d70352693515b442f7a9316b447d041
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739568"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008735"
 ---
 # <a name="configure-company-information"></a>Konfigurēt uzņēmuma informāciju
 [!include[banner](../includes/banner.md)]
 
-MicrosoftDynamics 365 for Talent: Attract administrēšanas centrā ir ietverti lietojumprogrammas Attract konfigurēšanas iestatījumi, integrēšanas opcijas un iestatīšanas opcijas.
+Microsoft Dynamics 365 Talent: Attract administrēšanas centrā ir ietverti lietojumprogrammas Attract konfigurēšanas iestatījumi, integrēšanas opcijas un iestatīšanas opcijas.
 
 ## <a name="company-information"></a>Uzņēmuma informācija
 

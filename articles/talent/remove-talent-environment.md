@@ -1,6 +1,6 @@
 ---
 title: Talent vižu noņemšana
-description: Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 for Talent.
+description: Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518559"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010619"
 ---
 # <a name="remove-talent-environments"></a>Talent vides noņemšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 for Talent.
+Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Izmēģinājuma vides noņemšana
 
 Talent izmēģinājuma vides tiek nodrošinātas, izmantojot 60 dienu derīguma termiņa politiku. Taču izmēģinājuma vides īpašnieki var ātrāk beigt izmēģinājumu, veicot tālāk norādītās darbības. 
 
-1. Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).
+1. Pāriet uz [PowerApps Administrēšanas centru](https://admin.businessplatform.microsoft.com/).
 2. Atlasiet **Vides**.
 3. Atlasiet izmēģinājuma vidi, kuras nosaukuma formāts līdzinās šim: TestDrive — aizstājvārds@domēns.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 
@@ -52,7 +52,7 @@ Tā kā katra Talent vide ir ietverta atsevišķā PowerApps vidē, ir pieejamas
 
 Lai noņemtu visu PowerApps vidi, tostarp Talent vidi un saistītās programmas un plūsmas, veiciet tālāk norādītās darbības.
 
-1. Pārejiet uz [PowerApps administrēšanas centru](https://admin.businessplatform.microsoft.com/).
+1. Pāriet uz [PowerApps Administrēšanas centru](https://admin.businessplatform.microsoft.com/).
 2. Atlasiet **Vides**.
 3. Atlasiet noņemamo vidi.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 

@@ -1,6 +1,6 @@
 ---
-title: Pārdošanas pasūtījumu tieša sinhronizēšana programmās Sales un Finance and Operations
-description: Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations.
+title: Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizācija ar programmu Supply Chain Management
+description: Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Dynamics 365 Sales un Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/09/2019
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
-ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
+ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539118"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251274"
 ---
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizācija ar programmu Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Microsoft Dynamics 365 for Sales un Microsoft Dynamics 365 for Finance and Operations.
+Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Dynamics 365 Sales un Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
-Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Finance and Operations un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Finance and Operations un Sales.
+Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Supply Chain Management un Sales instancēs. Risinājuma ´No potenciālā klienta līdz skaidrai naudai´ veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Supply Chain Management un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Supply Chain Management un Sales.
 
 [![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,12 +42,12 @@ Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdze
 
 Lai piekļūtu pieejamajām veidnēm, atveriet [PowerApps administrēšanas centru](https://preview.admin.powerapps.com/dataintegration). Atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet **Jauns projekts**, lai atlasītu publiskās veidnes.
 
-Tālāk norādītās veidnes un pamata uzdevumi tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai starp Sales un Finance and Operations.
+Tālāk norādītās veidnes un pamata uzdevumi tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai starp Sales un Supply Chain Management.
 
 - **Veidņu nosaukumi līdzeklī Datu integrācija** 
 
-    - Pārdošanas pasūtījumi (no Sales uz Fin and Ops) — tieši
-    - Pārdošanas pasūtījumi (no Fin and Ops uz Sales) — tieši
+    - Pārdošanas pasūtījumi (no Sales uz Supply Chain Management) - Tiešā
+    - Pārdošanas pasūtījumi (no Supply Chain Management uz Sales) - Tiešā
 
 - **Uzdevumu nosaukumi datu integrācijas projektā**
 
@@ -56,60 +56,60 @@ Tālāk norādītās veidnes un pamata uzdevumi tiek izmantoti pārdošanas pas�
 
 Lai varētu veikt pārdošanas rēķinu galveņu un rindu sinhronizāciju, ir nepieciešami tālāk norādītie sinhronizācijas uzdevumi.
 
-- Preces (no Fin and Ops uz Sales) — tieši
-- Konti (no Sales uz Fin and Ops) — tieši (ja tiek izmantots)
-- Kontaktpersonas kā debitori (no Sales uz Fin and Ops) — tieši (ja tiek izmantots)
+- Preces (no Supply Chain Management uz Sales) – Tiešā
+- Konti (no Sales uz Supply Chain Management) - Tiešā (ja izmantots)
+- Kontaktpersonas Klientiem (no Sales uz Supply Chain Management) — Tiešā (ja izmantots)
 
 ## <a name="entity-set"></a>Elementu kopa
 
-| Finance and Operations  | Pārdošana             |
+| Supply Chain Management  | Pārdošana             |
 |-------------------------|-------------------|
 | CDS pārdošanas pasūtījumu virsraksti | SalesOrders       |
 | CDS pārdošanas pasūtījumu rindas   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Pārdošanas pasūtījumi tiek izveidoti programmā Sales un tiek sinhronizēti ar programmu Finance and Operations, kad projektam tiek aktivizēta operācija **Palaist projektu**, pamatojoties uz veidni **Pārdošanas pasūtījumi (no Sales uz Fin and Ops) — tieši**. Pasūtījumus programmā Sales var aktivizēt un sinhronizēt tikai tad, ja visas **pasūtītās preces** ir ārēji uzturētas. Tāpēc nevar izmantot ierakstāmos produktus. Pēc pasūtījuma aktivizēšanas pārdošanas pasūtījums lietotāja interfeisā kļūst tikai lasāms. Pēc tam atjauninājumi tiek veikti programmā Finance and Operations. Kad pārdošanas pasūtījuma statuss ir **Apstiprināts**, varat izmantot pamatojoties uz veidni **Pārdošanas pasūtījumi (no Fin and Ops uz Sales) — tieši** izveidotu projektu, lai sinhronizētu programmā Finance and Operations ietvertos atjauninājumus vai izpildes statusu ar programmu Sales.
+Pārdošanas pasūtījumi tiek izveidoti programmā Sales un tiek sinhronizēti ar programmu Supply Chain Management, kad projektam tiek aktivizēta operācija **Palaist projektu**, pamatojoties uz veidni **Pārdošanas pasūtījumi (no Sales uz Supply Chain Management) — tieši**. Pasūtījumus programmā Sales var aktivizēt un sinhronizēt tikai tad, ja visas **pasūtītās preces** ir ārēji uzturētas. Tāpēc nevar izmantot ierakstāmos produktus. Pēc pasūtījuma aktivizēšanas pārdošanas pasūtījums lietotāja interfeisā kļūst tikai lasāms. Pēc tam atjauninājumi tiek veikti programmā Supply Chain Management. Kad pārdošanas pasūtījuma statuss ir **Apstiprināts**, varat izmantot pamatojoties uz veidni **Pārdošanas pasūtījumi (no Supply Chain Management uz Sales) — tieši** izveidotu projektu, lai sinhronizētu programmā Supply Chain Management ietvertos atjauninājumus vai izpildes statusu ar programmu Sales.
 
-Jums nav jāizveido pasūtījumi programmā Sales. Tā vietā varat izveidot jaunus pārdošanas pasūtījumus programmā Finance and Operations. Kad pārdošana pasūtījuma statuss ir **Apstiprināts**, tas tiek sinhronizēts ar programmu Sales, kā tas ir aprakstīts iepriekšējā rindkopā.
+Jums nav jāizveido pasūtījumi programmā Sales. Tā vietā varat izveidot jaunus pārdošanas pasūtījumus programmā Supply Chain Management. Kad pārdošana pasūtījuma statuss ir **Apstiprināts**, tas tiek sinhronizēts ar programmu Sales, kā tas ir aprakstīts iepriekšējā rindkopā.
 
-Programmā Finance and Operations filtri veidnē palīdz nodrošināt, ka tiek sinhronizēti tikai saistītie pārdošanas pasūtījumi.
+Programmā Supply Chain Management filtri veidnē palīdz nodrošināt, ka tiek sinhronizēti tikai saistītie pārdošanas pasūtījumi.
 
-- Pārdošanas pasūtījumā norādītajam pasūtījumu veikušajam debitoram un rēķinu izrakstījušajam debitoram ir jābūt iegūtiem no programmas Sales, lai šie dati tiktu ietverti sinhronizēšanā. Programmā Finance and Operations lauki **OrderingCustomerIsExternallyMaintained** un **InvoiceCustomerIsExternallyMaintained** tiek izmantoti, lai filtrētu pārdošanas pasūtījumus datu elementos.
-- Pārdošanas pasūtījums ir jāapstiprina programmā Finance and Operations. Ar programmu Sales tiek sinhronizēti tikai apstiprinātie pārdošanas pasūtījumi vai pārdošanas pasūtījumi, kuriem ir augstāks apstrādes statuss, piemēram, **Nosūtīts** vai **Iekļauts rēķinā**.
-- Pēc pārdošanas pasūtījuma izveidošanas vai izmainīšanas programmā Finance and Operations ir jāizpilda pakešuzdevums **Aprēķināt pārdošanas kopsummas**. Ar programmu Sales tiek sinhronizēti tikai tie pārdošanas pasūtījumi, kuriem ir aprēķinātas pārdošanas kopsummas.
+- Pārdošanas pasūtījumā norādītajam pasūtījumu veikušajam debitoram un rēķinu izrakstījušajam debitoram ir jābūt iegūtiem no programmas Sales, lai šie dati tiktu ietverti sinhronizēšanā. Programmā Supply Chain Management lauki **OrderingCustomerIsExternallyMaintained** un **InvoiceCustomerIsExternallyMaintained** tiek izmantoti, lai filtrētu pārdošanas pasūtījumus datu elementos.
+- Pārdošanas pasūtījums ir jāapstiprina programmā Supply Chain Management. Ar programmu Sales tiek sinhronizēti tikai apstiprinātie pārdošanas pasūtījumi vai pārdošanas pasūtījumi, kuriem ir augstāks apstrādes statuss, piemēram, **Nosūtīts** vai **Iekļauts rēķinā**.
+- Pēc pārdošanas pasūtījuma izveidošanas vai izmainīšanas programmā Supply Chain Management ir jāizpilda pakešuzdevums **Aprēķināt pārdošanas kopsummas**. Ar programmu Sales tiek sinhronizēti tikai tie pārdošanas pasūtījumi, kuriem ir aprēķinātas pārdošanas kopsummas.
 
 ## <a name="freight-tax"></a>Kravas pārvadāšanas nodoklis
 
-Programmā Sales netiek atbalstīts nodoklis galvenes līmenī, jo nodoklis tiek glabāts rindas līmenī. Lai nodrošinātu galvenes līmenī norādītu nodokli no programmas Finance and Operations, piemēram, kravas pārvadāšanas nodokli, sistēmā nodoklis tiek sinhronizēts ar programmu Sales kā ierakstāmais produkts ar nosaukumu **Kravas pārvadāšanas nodoklis** un nodokļa summu no programmas Finance and Operations. Šādā veidā kopsummu aprēķināšanai programmā Sales var izmantot standarta cenas aprēķināšanas metodi pat tad, ja pastāv galvenes līmenī norādīts nodoklis no programmas Finance and Operations.
+Programmā Sales netiek atbalstīts nodoklis galvenes līmenī, jo nodoklis tiek glabāts rindas līmenī. Lai nodrošinātu galvenes līmenī norādītu nodokli no programmas Supply Chain Management, piemēram, kravas pārvadāšanas nodokli, sistēmā nodoklis tiek sinhronizēts ar programmu Sales kā ierakstāmais produkts ar nosaukumu **Kravas pārvadāšanas nodoklis** un nodokļa summu no programmas Supply Chain Management. Šādā veidā kopsummu aprēķināšanai programmā Sales var izmantot standarta cenas aprēķināšanas metodi pat tad, ja pastāv galvenes līmenī norādīts nodoklis no programmas Supply Chain Management.
 
 ## <a name="discount-calculation-and-rounding"></a>Atlaides aprēķināšana un noapaļošana
 
-Programmās Sales un Finance and Operations tiek lietoti atšķirīgi atlaides aprēķināšanas modeļi. Programmā Finance and Operations pārdošanas rindas beigu atlaides summa var tikt iegūta, kombinējot atlaižu summas un atlaižu procentus. Ja šī beigu atlaides summa tiek dalīta ar rinda norādīto daudzumu, rezultāts var tikt noapaļots. Taču šī noapaļošana netiek ņemta vērā, ja noapaļotā vienas vienības atlaides summa tiek sinhronizēta ar programmu Sales. Lai palīdzētu nodrošināt, ka pilnā atlaides summa no pārdošanas rindas programmā Finance and Operations tiek pareizi sinhronizēta ar programmu Sales, ir jāsinhronizē pilna summa, to nedalot ar rindas daudzumu. Tāpēc programmā Sales ir jānorāda iestatījuma **Atlaides aprēķināšanas metode** vērtība **Rindas vienums**.
+Programmās Sales un Supply Chain Management tiek lietoti atšķirīgi atlaides aprēķināšanas modeļi. Programmā Supply Chain Management pārdošanas rindas beigu atlaides summa var tikt iegūta, kombinējot atlaižu summas un atlaižu procentus. Ja šī beigu atlaides summa tiek dalīta ar rinda norādīto daudzumu, rezultāts var tikt noapaļots. Taču šī noapaļošana netiek ņemta vērā, ja noapaļotā vienas vienības atlaides summa tiek sinhronizēta ar programmu Sales. Lai palīdzētu nodrošināt, ka pilnā atlaides summa no pārdošanas rindas programmā Supply Chain Management tiek pareizi sinhronizēta ar programmu Sales, ir jāsinhronizē pilna summa, to nedalot ar rindas daudzumu. Tāpēc programmā Sales ir jānorāda iestatījuma **Atlaides aprēķināšanas metode** vērtība **Rindas vienums**.
 
-Kad programmā Sales ietverta pārdošanas pasūtījuma rinda tiek sinhronizēta ar programmu Finance and Operations, tiek izmantota pilnā rindas atlaides summa. Tā kā programmā Finance and Operations nav neviena lauka, kurā glabāt rindas pilnu atlaides summu, šī suma tiek dalīta ar daudzumu un saglabāta laukā **Rindas atlaide**. Jebkura šīs dalīšanas laikā iegūtā noapaļošanas vērtība tiek saglabāta pārdošanas rindas laukā **Pārdošanas papildmaksas**.
+Kad programmā Sales ietverta pārdošanas pasūtījuma rinda tiek sinhronizēta ar programmu Supply Chain Management, tiek izmantota pilnā rindas atlaides summa. Tā kā programmā Supply Chain Management nav neviena lauka, kurā glabāt rindas pilnu atlaides summu, šī suma tiek dalīta ar daudzumu un saglabāta laukā **Rindas atlaide**. Jebkura šīs dalīšanas laikā iegūtā noapaļošanas vērtība tiek saglabāta pārdošanas rindas laukā **Pārdošanas papildmaksas**.
 
 ### <a name="example"></a>Paraugs
 
-**Programmā Sales ietverto datu sinhronizēšana ar programmu Finance and Operations**
+**Sinhronizācija no Sales uz Supply Chain Management**
 
 - **Sales:** daudzums = 3, vienas rindas atlaide = 10,00 USD
-- **Finance and Operations:** daudzums = 3, rindas atlaides summa = 3,33 USD, pārdošanas maksa = -0,01 USD 
+- **Supply Chain Management:** Daudzums = 3, rindas atlaides summa = $3,33, pārdošanas maksa =-$0,01 
 
-**Programmā Finance and Operations ietverto datu sinhronizēšana ar programmu Sales**
+**Sinhronizācija no Supply Chain Management uz Sales**
 
-- **Finance and Operations:** daudzums = 3, rindas atlaides summa = 3,33 USD, pārdošanas maksa = -0,01 USD
+- **Supply Chain Management:** Daudzums = 3, rindas atlaides summa = $3,33, pārdošanas maksa =-$0,01
 - **Sales:** daudzums = 3, vienas rindas atlaide = (3 × 3,33 USD) + 0,01 USD = 10,00 USD
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Risinājums No potenciālā klienta līdz skaidrai naudai programmai Sales
 
 Elementam **Pasūtījums** ir pievienoti jauni lauki, kas tiek rādīti ekrāna.
 
-- **Tiek uzturēts ārēji** — iestatiet šīs opcijas vērtību **Jā**, ja pasūtījums ir iegūts no programmas Finance and Operations.
-- **Apstrādes statuss** — šajā laukā tiek rādīts pasūtījuma apstrādes statusu programmā Finance and Operations. Ir pieejamas šādas vērtības:
+- **Tiek uzturēts ārēji**— Iestatiet šīs opcijas vērtību **Jā**, ja pasūtījums ir iegūts no programmas Supply Chain Management.
+- **Apstrādes statuss**— šajā laukā tiek rādīts pasūtījuma apstrādes statusu programmā Supply Chain Management. Ir pieejamas šādas vērtības:
 
-    - **Melnraksts** — sākotnējais statuss pēc pasūtījuma izveides programmā Sales. Programmā Sales var rediģēt tikai pasūtījumus, kam ir iestatīts šis apstrādes statuss.
-    - **Aktīvs** — statuss pēc pasūtījuma aktivizēšanas programmā Sales, izmantojot pogu **Aktivizēt**.
+    - **Melnraksts** – sākotnējais statuss pēc pasūtījuma izveides programmā Sales. Programmā Sales var rediģēt tikai pasūtījumus, kam ir iestatīts šis apstrādes statuss.
+    - **Aktīvs** – statuss pēc pasūtījuma aktivizēšanas programmā Sales, izmantojot pogu **Aktivizēt**.
     - **Akceptēts**
     - **Pavadzīmes**
     - **Izrakstīts rēķins**
@@ -121,11 +121,11 @@ Elementam **Pasūtījums** ir pievienoti jauni lauki, kas tiek rādīti ekrāna.
     - **Daļēji iekļauts rēķinā**
     - **Atcelts**
 
-Iestatījums **Ir tikai ārēji uzturētas preces** tiek izmantots pasūtījuma aktivizēšanas laikā, lai pastāvīgi izsekotu tam, vai pārdošanas pasūtījumā ir ietvertas tikai ārēji uzturētas preces. Ja pārdošanas pasūtījumā ir ietvertas tikai ārēji uzturētas preces, tās tiek uzturētas programmā Finance and Operations. Šis iestatījums palīdz nodrošināt to, ka neaktivizējat un nemēģināt sinhronizēt pārdošanas pasūtījuma rindas, kurās ietvertās preces nav zināmas programmā Finance and Operations.
+Iestatījums **Ir tikai ārēji uzturētas preces** tiek izmantots pasūtījuma aktivizēšanas laikā, lai pastāvīgi izsekotu tam, vai pārdošanas pasūtījumā ir ietvertas tikai ārēji uzturētas preces. Ja pārdošanas pasūtījumā ir ietvertas tikai ārēji uzturētas preces, tās tiek uzturētas programmā Supply Chain Management. Šis iestatījums palīdz nodrošināt to, ka neaktivizējat un nemēģināt sinhronizēt pārdošanas pasūtījuma rindas, kurās ietvertās preces nav zināmas programmā Supply Chain Management.
 
-Ārēji uzturētiem pasūtījumiem lapā **Pārdošanas pasūtījums** ir paslēptas pogas **Izveidot rēķinu**, **Atcelt pasūtījumu**, **Pārrēķināt**, **Iegūt preces** un **Uzmeklēt adresi**, jo rēķini tiks izveidoti programmā Finance and Operations un sinhronizēti ar programmu Sales. Šos pasūtījumus nevar rediģēt, jo pēc aktivizēšanas pārdošanas pasūtījuma informācija tiks sinhronizēta no programmas Finance and Operations.
+Ārēji uzturētiem pasūtījumiem lapā **Pārdošanas pasūtījums** ir paslēptas pogas **Izveidot rēķinu**, **Atcelt pasūtījumu**, **Pārrēķināt**, **Iegūt preces** un **Uzmeklēt adresi**, jo rēķini tiks izveidoti programmā Supply Chain Management un sinhronizēti ar programmu Sales. Šos pasūtījumus nevar rediģēt, jo pēc aktivizēšanas pārdošanas pasūtījuma informācija tiks sinhronizēta no programmas Supply Chain Management.
 
-Tiks saglabāts pārdošanas pasūtījuma statuss **Aktīvs**, lai palīdzētu nodrošināt programmā Finance and Operations veikto izmaiņu nodošanu uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, līdzekļa Datu integrācija projektā iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
+Tiks saglabāts pārdošanas pasūtījuma statuss **Aktīvs**, lai palīdzētu nodrošināt programmā Supply Chain Management veikto izmaiņu nodošanu uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, līdzekļa Datu integrācija projektā iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
 
 ## <a name="preconditions-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
@@ -135,19 +135,19 @@ Pirms pārdošanas pasūtījumu sinhronizēšanas ir svarīgi sistēmās atjauni
 
 - Pārliecinieties, ka darba grupai, kurai ir piešķirts ar Sales savienojumu kopu saistītais lietotājs, ir iestatītas vajadzīgās atļaujas. Ja izmantojat demonstrācijas datus, tad lietotājam parasti ir administratora piekļuves atļauja, bet darba grupai nav administratora piekļuves atļaujas. Ja darba grupai nav administratora piekļuves atļaujas, palaižot projektu līdzeklī Datu integrācija, saņemat kļūdas ziņojumu par to, ka trūkst galvenās darba grupas.
 
-    Pārejiet uz sadaļu **Iestatījumi** &gt; **Drošība** &gt; **Darba grupas**, atlasiet attiecīgo darba grupu, atlasiet **Pārvaldīt lomas** un atlasiet lomu, kurai ir piešķirtas vajadzīgās atļaujas, piemēram **Sistēmas administrators**.
+    Pārejiet uz sadaļu **Iestatījumi** &gt; **Drošība** &gt; **Darba grupas**, atlasiet attiecīgo darba grupu, atlasiet **Pārvaldīt lomas** un atlasiet lomu, kurai ir piešķirtas vajadzīgās atļaujas, piemēram **Sistēmas administrators**.
 
-- Lai nodrošinātu pareizu atlaižu aprēķināšanu, gan programmā Sales and Finance, gan Operations opcijai **Atlaides aprēķināšanas metode** jāiestata uz **Rindas krājums**.
-- Pārejiet uz sadaļu **Iestatījumi** &gt; **Administrēšana** &gt; **Sistēmas iestatījumi** &gt; **Pārdošana** un pārliecinieties, ka ir izmantoti tālāk norādītie iestatījumi.
+- Lai nodrošinātu pareizu atlaižu aprēķināšanu, gan programmā Supply Chain Management, gan Operations opcijai **Atlaides aprēķināšanas metode** jāiestata uz **Rindas krājums**.
+- Pārejiet uz sadaļu **Iestatījumi** &gt; **Administrēšana** &gt; **Sistēmas iestatījumi** &gt; **Pārdošana** un pārliecinieties, ka ir izmantoti tālāk norādītie iestatījumi.
 
     - Ir iestatīta opcijas **Lietot sistēmas cenu noteikšanas sistēmu** vērtība **Jā**.
     - Ir iestatīta lauka **Atlaides aprēķināšanas metode** vērtība **Rindas vienums**.
 
-### <a name="setup-in-finance-and-operations"></a>Iestatīšana programmā Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Supply Chain Management iestatīšana
 
-- Pārejiet uz sadaļu **Pārdošana un mārketings** &gt; **Periodiskie uzdevumi** &gt; **Aprēķināt pārdošanas kopsummas** un iestatiet darba izpildi pakešuzdevuma režīmā. Iestatiet opcijas **Aprēķināt kopsummas pārdošanas pasūtījumiem** vērtību **Jā**. Šī darbība ir svarīga, jo ar programmu Sales tiek sinhronizēti tikai tie pārdošanas pasūtījumi, kuriem ir aprēķinātas pārdošanas kopsummas. Pakešuzdevuma izpildes biežumam ir jāatbilst pārdošanas pasūtījumu sinhronizēšanas biežumam.
+- Pārejiet uz sadaļu **Pārdošana un mārketings** &gt; **Periodiskie uzdevumi** &gt; **Aprēķināt pārdošanas kopsummas** un iestatiet darba izpildi pakešuzdevuma režīmā. Iestatiet opcijas **Aprēķināt kopsummas pārdošanas pasūtījumiem** vērtību **Jā**. Šī darbība ir svarīga, jo ar programmu Sales tiek sinhronizēti tikai tie pārdošanas pasūtījumi, kuriem ir aprēķinātas pārdošanas kopsummas. Pakešuzdevuma izpildes biežumam ir jāatbilst pārdošanas pasūtījumu sinhronizēšanas biežumam.
 
-Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas izcelsme. Pārdošanas izcelsme tiek izmantota, lai atšķirtu tādus pārdošanas pasūtījumus risinājumā Finance and Operations, kuri izveidoti no darba pasūtījumiem risinājumā Field Service. Ja pārdošanas pasūtījuma pārdošanas izcelsmes tips ir **Darba pasūtījuma integrācija**, pārdošanas pasūtījuma galvenē tiek parādīts lauks **Ārējā darba pasūtījuma statuss**. Turklāt pārdošanas izcelsme nodrošina, ka pārdošanas pasūtījumi, kas izveidoti no darba pasūtījumiem risinājumā Field Service, tiek filtrēti, sinhronizējot risinājumā Finance and Operations esošos pārdošanas pasūtījumus ar risinājumu Field Service.
+Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas izcelsme. Pārdošanas izcelsme tiek izmantota, lai atšķirtu tādus pārdošanas pasūtījumus risinājumā Supply Chain Management, kuri izveidoti no darba pasūtījumiem risinājumā Field Service. Ja pārdošanas pasūtījuma pārdošanas izcelsmes tips ir **Darba pasūtījuma integrācija**, pārdošanas pasūtījuma galvenē tiek parādīts lauks **Ārējā darba pasūtījuma statuss**. Turklāt pārdošanas izcelsme nodrošinā, ka pārdošanas pasūtījumi, kas izveidoti no darba pasūtījumiem risinājumā Field Service, tiek filtrēti, sinhronizējot risinājumā Supply Chain Management esošos pārdošanas pasūtījumus ar risinājumu Field Service.
 
 1. Atveriet sadaļu **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Pārdošanas izcelsme**.
 2. Atlasiet **Jauns**, lai izveidotu jaunu pārdošanas izcelsmi.
@@ -157,13 +157,13 @@ Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas i
 6. Laukā **Pārdošanas izcelsmes tips** iestatiet vērtību **Pārdošanas pasūtījuma integrācija**.
 7. Atlasiet **Saglabāt**.
 
-### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Iestatīšana līdzekļa Datu integrācija projektā ar veidni Pārdošanas pasūtījumi (no Sales uz Fin and Ops) — tieši
+### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Iestatīšana līdzekļa Datu integrācija projektā ar veidni Pārdošanas pasūtījumi (no Sales uz Supply Chain Management) — tieši
 
 - Pārliecinieties, ka pastāv nepieciešamais kartējums no **Shipto\_country** uz **DeliveryAddressCountryRegionISOCode**. Varat vērtību kartē iestatīt tukšu vērtību kā noklusējuma vērtību, lai iekšzemes pasūtījumiem nebūtu jāievada valsts. Kreisajā pusē iestatiet vērtību Tukšs un labajā pusē iestatiet vajadzīgo valsti vai reģionu.
 
     Veidnes vērtība ir vērtību karte, kur ir kartētas vairākas valstis vai reģioni un kur Tukšs = ASV.
 
-### <a name="setup-in-the-sales-orders-fin-and-ops-to-sales---direct-data-integration-project"></a>Iestatīšana līdzekļa Datu integrācija projektā ar veidni Pārdošanas pasūtījumi (no Fin and Ops uz Sales) — tieši
+### <a name="setup-in-the-sales-orders-supply-chain-management-to-sales---direct-data-integration-project"></a>Iestatīšana līdzekļa Datu integrācija projektā ar veidni Pārdošanas pasūtījumi (no Supply Chain Management uz Sales) — tieši
 
 #### <a name="salesheader-task"></a>SalesHeader uzdevums
 
@@ -173,7 +173,7 @@ Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas i
 
 #### <a name="salesline-task"></a>SalesLine uzdevums
 
-- Pārliecinieties, ka programmā Finance and Operations pastāv nepieciešamā vienuma **SalesUnitSymbol** vērtību karte.
+- Pārliecinieties, ka programmā Supply Chain Management pastāv nepieciešamā vienuma **SalesUnitSymbol** vērtību karte.
 - Pārliecinieties, ka programmā Sales ir definētas nepieciešamās vienības.
 
     Kartējumam no **SalesUnitSymbol** uz **oumid.name** ir definēta veidnes vērtība ar vērtību karti.
@@ -186,21 +186,21 @@ Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas i
 Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Datu integrācija.
 
 > [!NOTE]
-> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Finance and Operations vai pretēji.
+> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Supply Chain Management vai pretēji.
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderheader"></a>Pārdošanas pasūtījumi (no Fin and Ops uz Sales) — tieši: OrderHeader
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pārdošanas pasūtījumi (no Supply Chain Management uz Sales) - Tiešā: PasūtījumaGalvene
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderline"></a>Pārdošanas pasūtījumi (no Fin and Ops uz Sales) — tieši: OrderLine
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Pārdošanas pasūtījumi (no Supply Chain Management uz Sales) - Tiešā: PasūtījumaRinda
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderheader"></a>Pārdošanas pasūtījumi (no Sales uz Fin and Ops) — tieši: OrderHeader
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Pārdošanas pasūtījumi (no Sales uz Supply Chain Management) - Tiešā: PasūtījumaGalvene
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderline"></a>Pārdošanas pasūtījumi (no Sales uz Fin and Ops) — tieši: OrderLine
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Pārdošanas pasūtījumi (no Sales uz Supply Chain Management) - Tiešā: PasūtījumaRinda
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 

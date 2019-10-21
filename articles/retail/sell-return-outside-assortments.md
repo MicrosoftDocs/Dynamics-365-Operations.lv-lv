@@ -1,6 +1,6 @@
 ---
 title: Veikala preču klāstā neietvertu preču pārdošana un atgriešana
-description: Izmantojot programmu Dynamics 365 for Retail, varat pārdot un atgriezt preces, kas nav ietvertas preču klāstos.
+description: Izmantojot programmu Dynamics 365 Retail, varat pārdot un atgriezt preces, kas nav ietvertas preču klāstos.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567916"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024941"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Veikala preču klāstā neietvertu preču pārdošana un atgriešana
 
@@ -37,7 +37,7 @@ Tālāk uzskaitīti daži tipiski scenāriji.
 + Mazumtirgotājam nav jānodrošina konkrētu preču pieejamība veikalā, kuru klients apmeklē, ja preces ir pieejamas citos veikalos. Veikala darbinieks var palīdzēt klientam meklēt vai pārlūkot preces citā veikalā, pievienot tās grozam un veikt norēķināšanos, izvēloties piegādes metodi.
 + Mazumtirgotājam ir vairāki veikali noteiktā pilsētā un tās tuvumā vai pasta indeksa teritorijā, un mazumtirgotājs nevēlas likt klientiem atgriezt preces tajā pašā veikalā, kurā tās iegādājās. Tā vietā klienti var atgriezt preces jebkurā veikalā.
 
-Šie izplatītie scenāriji ir pieejami mazumtirgotājiem, kuri izmanto programmu Dynamics 365 for Retail. Izmantojot Retail, var veikt šādas darbības:
+Šie izplatītie scenāriji ir pieejami mazumtirgotājiem, kuri izmanto programmu Retail. Izmantojot Retail, var veikt šādas darbības:
 
 + meklēt vai pārlūkot preces citos veikalos;
 + meklēt vai pārlūkot visas izlaistās preces;

@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 23. jūlijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 23. jūlijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d631a2a2be4809352c31f2a8c47ea49823233b30
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856405"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010272"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-23-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 23. jūlijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 23. jūlijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
@@ -46,7 +46,7 @@ Tā kā mēs plānojam jaunas produktu iespējas vai priekšskatījuma līdzekļ
 Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**. Apstiprinātāji var pārskatīt savus apstiprinājumus sadaļā **Piešķirts jums**, kur ir norādīts darba ID, amata nosaukums, citi apstiprinātāji un datums, kad šis darbs tika piešķirts. Lietotāji, kuri iesniedz darbu apstiprināšanai, var pārskatīt savus darbus sadaļā **Jūsu pieprasījumi**, kur ir norādīti apstiprinātāji, kam šis iesniegtais darbs joprojām ir jāapstiprina.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2394.
@@ -75,6 +75,6 @@ Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskai
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Reģiona atbalsts Kanādai un Dienvidaustrumu Āzijai
 
-Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Microsoft Dynamics 365 for Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts šeit [Programmas Talent nodrošināšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts šeit [Programmas Talent nodrošināšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esošo projektu datu migrācija no citiem reģioniem uz Kanādas un Āzijas reģioniem netiek atbalstīta. Šiem jaunajiem atbalstītajiem reģioniem var tikt nodrošināti tikai jauni projekti.

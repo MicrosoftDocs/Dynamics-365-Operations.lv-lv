@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556442"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017901"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Maiņu un naudas kastes pārvaldība
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556442"
 
 Šajā tēmā ir paskaidrots, kā iestatīt un izmantot mazumtirdzniecības pārdošanas punkta (point of sale — POS) maiņas.
 
-Programmā Microsoft Dynamics 365 for Retail termins *maiņa* attiecas uz POS transakciju datiem un darbībām, kas tiek veiktas noteiktā laika intervālā. Katrai maiņai paredzētā naudas summa tiek salīdzināta ar summu, kas tika aprēķināta un deklarēta.
+Programmā Dynamics 365 Retail termins *maiņa* attiecas uz POS transakciju datiem un darbībām, kas tiek veiktas noteiktā laika intervālā. Katrai maiņai paredzētā naudas summa tiek salīdzināta ar summu, kas tika aprēķināta un deklarēta.
 
 Parasti maiņas tiek atvērtas darba dienas sākumā. Šajā brīdī lietotājs deklarē sākuma summu, kas ir pieejama naudas kastē. Pēc tam pārdošanas darbības tiek veiktas visas dienas garumā. Visbeidzot, dienas beigās naudas kastē esošā nauda tiek skaitīta un tiek deklarētas slēgšanas summas. Maiņa tiek slēgta un tiek ģenerēts Z pārskats. Z pārskatā norāda, vai ir izveidojies pārpalikums vai iztrūkums.
 
@@ -69,7 +69,7 @@ Lai veikalā izmantotu koplietotas maiņas, sadaļā **Mazumtirdzniecība \> Ka
 
 ## <a name="shift-and-drawer-operations"></a>Naudas kastu un maiņu darbības
 
-Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Šajā sadaļā ir aprakstītas šīs maiņas darbības programmās Microsoft Dynamics 365 for Retail Modern POS un Cloud POS.
+Var veikt dažādas darbības, lai mainītu maiņas stāvokli vai palielinātu vai samazinātu naudas kastē esošo naudas summu. Šajā sadaļā ir aprakstītas šīs maiņas darbības programmās Retail Modern POS un Cloud POS.
 
 ### <a name="open-shift"></a>Atvērt maiņu
 

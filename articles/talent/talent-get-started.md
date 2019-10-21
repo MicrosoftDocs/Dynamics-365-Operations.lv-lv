@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518585"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024256"
 ---
 # <a name="get-started-with-talent"></a>Darba sākšana ar Talent
 
 [!include [banner](includes/banner.md)]
 
-Programmā Microsoft Dynamics 365 for Talent var viegli izmainīt lietotāja interfeisu un iestatīt opcijas, kas padara programmatūru intuitīvāku un piemērotāku jūsu vajadzībām. Šajā tēmā ir ietvertas saites uz tēmām, kurās ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm. Tēmā ir ietvertas arī saites uz informāciju, kas var palīdzēt jums efektīvi un precīzi atrast informāciju sistēmā. 
+Programmā Microsoft Dynamics 365 Talent var viegli izmainīt lietotāja interfeisu un iestatīt opcijas, kas padara programmatūru intuitīvāku un piemērotāku jūsu vajadzībām. Šajā tēmā ir ietvertas saites uz tēmām, kurās ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm. Tēmā ir ietvertas arī saites uz informāciju, kas var palīdzēt jums efektīvi un precīzi atrast informāciju sistēmā. 
 
 > [!NOTE] 
-> Tālāk minētie produkti ir cieši saistīti: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail un Dynamics 365 for Talent. Visos 3 produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Dynamics 365 for Retail, tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums ir Dynamics 365 for Talent, bet tēmās, kas galvenokārt ir saistītas ar pamatproduktu, produkta nosaukums ir Dynamics 365 for Finance and Operations. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Tālāk minētie produkti ir cieši saistīti: Dynamics 365 Finance, Dynamics 365 Retail un Dynamics 365 Talent. Visos trīs produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Dynamics 365 Retail, tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums ir Dynamics 365 Talent, bet tēmās, kas galvenokārt ir saistītas ar pamatproduktu, produkta nosaukums ir Dynamics 365 Finance. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 ## <a name="personalizing-talent"></a>Programmas Talent personalizēšana 
-Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Dynamics 365 for Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu. 
+Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu. 
 
 -   [Lietotāja iespēju personalizēšana](../fin-and-ops/get-started/personalize-user-experience.md) — šajā tēmā ir paskaidroti dažādie veidi, kā varat personalizēt programmu Talent un pielāgot produkta daļas atbilstoši savām vēlmēm.
 
@@ -51,7 +51,7 @@ Tālāk norādītajās tēmās ir paskaidrots, kā izmantot uzmeklēšanu un mek
 
 -   [Detalizētās filtrēšanas un vaicājumu sintakse](../fin-and-ops/get-started/advanced-filtering-query-options.md) — šajā tēmā ir aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, ja dialoglodziņā Detalizētā filtrēšana/kārtošana izmantojat operatoru atbilst.
 
--   [Navigācijas meklēšana](../fin-and-ops/get-started/navigation-search.md) — šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām. Programmā Talent ir ietverti vairāki apgabali un lapas, kas palīdz veikt dažādus uzdevumus. Izmantojot navigācijas meklēšanas līdzekli, varat ātri atrast lapas, kas ir vajadzīgas uzdevumu veikšanai. 
+-   [Navigācijas meklēšana](../fin-and-ops/get-started/navigation-search.md) — šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām. Talent ir ietverti vairāki apgabali un lapas, kas palīdz veikt dažādus uzdevumus. Izmantojot navigācijas meklēšanas līdzekli, varat ātri atrast lapas, kas ir vajadzīgas uzdevumu veikšanai. 
 
 -   [Darbību meklēšana](../fin-and-ops/get-started/action-search.md) — šajā tēmā ir paskaidrota darbību meklēšanas funkcionalitāte. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības. Produkta lapās komandas galvenokārt tiek rādītas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšpusē, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās.
 
@@ -61,7 +61,7 @@ Tālāk norādītajās tēmās ir paskaidrots, kā izmantot uzmeklēšanu un mek
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80).
 
 ### <a name="blogs"></a>Emuāri
-Viedokļi, ziņas un cita informācija par moduli “Parādi kreditoriem” un citiem risinājumiem ir pieejama sadaļā [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Viedokļi, ziņas un cita informācija par moduli “Parādi kreditoriem” un citiem risinājumiem ir pieejama sadaļā [Dynamics 365 Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Videoklipi
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

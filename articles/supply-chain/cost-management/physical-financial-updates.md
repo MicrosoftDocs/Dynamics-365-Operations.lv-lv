@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547890"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250874"
 ---
 # <a name="physical-and-financial-updates"></a>Fiziskie un finanšu atjauninājumi
 
@@ -32,7 +32,7 @@ ms.locfileid: "1547890"
 
 Šajā tēmā ir sniegts pārskats par to, kāda veida darbības palielina vai samazina krājumu daudzumu. 
 
-Programmā Microsoft Dynamics 365 for Finance and Operations var fiziski un finansiāli atjaunināt krājumu transakcijas. Dažu tipu fiziskās un finanšu transakcijas palielina daudzumu, bet citas daudzumu samazina.
+Programmā Dynamics 365 Supply Chain Management var fiziski un finansiāli atjaunināt krājumu transakcijas. Dažu tipu fiziskās un finanšu transakcijas palielina daudzumu, bet citas daudzumu samazina.
 
 ## <a name="physical-increases"></a>Fizisks palielinājums
 Kad fiziska transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir **Saņemts**. Turpmāk minētās transakcijas tiek uzskatītas par fizisku palielinājumu:
@@ -51,10 +51,13 @@ Kad finansiālas ieejas plūsmas transakcija tiek iegrāmatota, transakcijas ier
 -   Pozitīva daudzuma krājumu žurnāli, tādi kā pārvietošana, pelņa un zaudējumi, uzskaite, materiālu komplekti un pārsūtīšana
 
 ## <a name="transactions-that-increase-quantity"></a>Darbības, kas palielina daudzumu
-Darbības, kas palielina daudzumu, tiek grāmatotas, norādot kārtējo vidējo pašizmaksu. Programmatūrā Finance and Operations tiek aprēķināta kārtējā vidējā pašizmaksa, pamatojoties uz katras transakcijas izmaksām par katru krājuma dimensiju, kas tiek finansiāli izsekota. Informāciju par kārtējo vidējo pašizmaksu skatiet [Kārtējā vidējā pašizmaksa](running-average-cost-price.md).
+Darbības, kas palielina daudzumu, tiek grāmatotas, norādot kārtējo vidējo pašizmaksu. Aprēķinātā kārtējā vidējā pašizmaksa ir pamatota uz katras transakcijas maksu par katru krājuma dimensiju, kas tiek finansiāli izsekota. Informāciju par kārtējo vidējo pašizmaksu skatiet [Kārtējā vidējā pašizmaksa](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Darbības, kas samazina daudzumu
-Neatkarīgi no tā, kurš krājumu modelis ir saistīts ar attiecīgo krājumu, programmatūrā Finance and Operations grāmatojot transakciju, kas samazina daudzumu, tiek izmantota aprēķinātā kārtējā vidējā pašizmaksa. Ir nepieciešams, lai transakcija, kas samazina daudzumu, pirms grāmatošanas nebūtu iepriekš atzīmēta citai transakcijai. Ja fizisko rīcībā esošo krājumu daudzums kļūst negatīvs, programmatūrā Finance and Operations tiek izmantotas krājuma izmaksas, kas šim krājumam ir definētas lapā **Krājums**. **Piezīme:** ja ir iespējota vairākvietu funkcionalitāte, šīs izmaksas būs krājumu izmaksas, kas definētas vietai lapā **Pasūtījuma noklusējuma iestatījumi**.
+Neatkarīgi no tā, kurš krājumu modelis ir saistīts ar attiecīgo krājumu, aprēķinātā kārtējā vidējā pašizmaksa tiek izmantota, grāmatojot darbību, kas samazina daudzumu. Ir nepieciešams, lai transakcija, kas samazina daudzumu, pirms grāmatošanas nebūtu iepriekš atzīmēta citai transakcijai. Ja fiziski rīcībā esošo krājumu daudzums kļūst par negatīvu skaitli, tiek izmantotas krājumu izmaksas, kas definētas krājumam formā **Krājums**. 
+
+> [!NOTE]
+> Ja ir iespējota vairākvietu funkcionalitāte, šīs izmaksas būs krājumu izmaksas, kas definētas vietai lapā **Pasūtījuma noklusējuma iestatījumi**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Fiziska izdošana un finansiāla izdošana
 Kad fiziskas izejas plūsmas transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir **Atskaitīts**. Turpmāk minētās transakcijas tiek uzskatītas par fiziskām izejas plūsmām:
@@ -71,6 +74,3 @@ Kad finansiāla transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir 
 -   Negatīva daudzuma krājumu žurnāli, tādi kā pārvietošana, pelņa un zaudējumi, uzskaite, materiālu komplekti un pārsūtīšana
 
 Darbības, kas samazina daudzumu, tiek grāmatotas, norādot pašreizējo vidējo pašizmaksu. Līdz ar to, lai izdošanas transakcijas segtu ar saņemšanas darbībām, pamatojoties uz katram krājumam piešķirto krājumu modeli, ir nepieciešama krājumu slēgšanas procedūra.
-
-
-

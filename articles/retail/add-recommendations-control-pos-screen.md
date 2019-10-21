@@ -1,9 +1,9 @@
 ---
 title: Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam
 description: Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 for Retail.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606853"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278133"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas. Papildinformāciju skatiet šeit: [Noņemtie vai novecojušie līdzekļi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 for Retail.
+Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Retail. Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet [preces ieteikumus POS dokumentācijā.](product.md)
 
-Ja izmantojat programmu Microsoft Dynamics 365 for Retail, varat parādīt preču ieteikumus savā POS ierīcē. *Ieteikumi* ir krājumi, kas jūsu klientam varētu interesēt, ņemot vērā klienta pirkumu vēsturi, krājumus šī klienta vēlmju sarakstā, kā arī krājumus, ko citi klienti iegādājās tiešsaistē un fiziskajos veikalos. Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru.
+
+Ja izmantojat programmu Microsoft Dynamics 365 Retail, varat parādīt preču ieteikumus savā POS ierīcē. Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru. 
 
 ## <a name="open-layout-designer"></a>Atvērt izkārtojuma dizaineru
 
@@ -45,6 +44,7 @@ Ja izmantojat programmu Microsoft Dynamics 365 for Retail, varat parādīt preč
 4. Noklikšķiniet uz **Izkārtojuma dizainers**.
 5. Izpildiet uzvednēs sniegtos norādījumus, lai palaistu izkārtojuma dizaineru. Kad tiek prasīti akreditācijas dati, ievadiet tos pašus akreditācijas datus, kurus izmantojāt, kad izkārtojuma dizainers tika palaists no lapas **Ekrāna izkārtojumi**.
 6. Kad esat pieteicies, tiek parādīta tālāk redzamajai lapai līdzīga lapa. Izkārtojums atšķiras atkarībā no jūsu veikalam veiktajiem pielāgojumiem.
+
 
     [![Izkārtojuma veidotājs](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
@@ -57,7 +57,9 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
 ### <a name="make-recommendations-always-visible"></a>Izkārtojuma pielāgošana, lai ieteikumi būtu redzami vienmēr
 
+
 1. Samaziniet transakcijas rindu informācijas apgabala augstumu, lai tas būtu vienāds ar debitora paneli kreisajā pusē.
+
 
     [![Transakcijas rindu informācijas apgabala augstums ir samazināts](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
@@ -65,15 +67,18 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
     [![Izkārtojumam ir pievienota ieteikumu vadīkla](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
+
 3. Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.
 4. Programmā Dynamics 365 for Retail pārejiet uz sadaļu **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiki**.
-5. Sarakstā atlasiet vienumu  **1090 reģistri**.
+5. Sarakstā atlasiet vienumu **1090 reģistri**.
 6. Noklikšķiniet uz **Izpildīt tūlīt**.
+
 
 ### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Cilnes Ieteikumi pievienošana pogu režģim ekrāna labajā pusē
 
 1. Ar peles labo pogu noklikšķiniet uz tukšā laukuma zem pēdējās cilnes pogu režģī, kurš atrodas lapas labajā pusē.
-2. Noklikšķiniet uz **Pielāgot**.
+
+2. Noklikšķiniet uz **Pielāgot**.
 
     [![Pielāgošana — cilnes vadīklas dialoglodziņš](./media/pic-5.png)](./media/pic-5.png)
 
@@ -85,12 +90,14 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
 6. Laukā **Etiķete** ierakstiet ieteikumu cilnes nosaukumu. Ierakstiet, piemēram, “Ieteiktās preces”.
 7. Laukā **Attēls** atlasiet attēlu, kas ir jārāda šajā cilnē.
-8. Noklikšķiniet uz **Labi**. Jaunā cilne kļūst redzama pogu režģī.
+8. Noklikšķiniet uz **Labi**. Jaunā cilne kļūst redzama pogu režģī.
 9. Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.
 10. Programmā Dynamics 365 for Retail pārejiet uz sadaļu **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiki**.
-11. Sarakstā atlasiet vienumu **1090 reģistri**.
+11. Sarakstā atlasiet vienumu **1090 reģistri**.
 12. Noklikšķiniet uz **Izpildīt tūlīt**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Personalizētu preču ieteikumu apskats](personalized-product-recommendations.md)
+[preču ieteikumi POS](product.md)
+
+[preču ieteikumu pārskats](../commerce/product-recommendations.md)

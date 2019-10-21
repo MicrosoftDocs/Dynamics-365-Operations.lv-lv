@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874766"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249613"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Uzturēšanas darba tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu amatu un uzturēšanas kontrolsaraksti
 
@@ -225,7 +225,7 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 26. Lai uzstādītu pielikumus atlasītajai uzturēšanas darba tipa noklusējuma rindai, atlasiet **Pievienot dokumentus**. Pielikumi, kuri ir uzstādīti uzturēšanas darba tipa noklusējuma rindai, tiek automātiski iekļauti darba pasūtījuma rindās, kuras izmanto šā uzturēšanas darba tipa noklusējuma rindu.
 27. Atlasiet **Jauns** un tad atlasiet dokumenta tipu.
 28. Augšupielādējiet dokumentu vai failu.
-29. Uzstādiet laukus lapā **Pielikumi**. Pielikuma uzstādījums izmanto standarta dokumenta uzstādījuma funkcionalitāti programmā Microsoft Dynamics 365 for Finance and Operations.
+29. Uzstādiet laukus lapā **Pielikumi**. Pielikuma uzstādījums izmanto standarta dokumenta uzstādījuma funkcionalitāti.
 30. Atlasiet **saglabāt**, lai saglabātu pielikumu.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Pēc tam, kad izveidojat nepieciešamās uzturēšanas darba tipa noklusējuma k
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Automātiska uzturēšanas darbu tipu prognožu atjaunināšana
 
-Lietojot Asset Management, jūs varat automātiski atjaunināt jebkādas izmaiņas uzturēšanas darba tipa prognozēs stundu izmaksām, vienumu izmaksām un izmaksām, kas ir atjaunināts citos moduļos programmā Finance and Operations. Tādējādi jūs nodrošināt, ka jūsu uzturēšanas darba tipa prognozes vienmēr izmanto jaunākās izmaksas.
+Lietojot Līdzekļu pārvaldību, varat automātiski atjaunināt jebkādas izmaiņas uzturēšanas darba tipa prognozēs stundu izmaksām, vienumu izmaksām un izmaksām, kas ir atjaunināts citos moduļos. Tādējādi jūs nodrošināt, ka jūsu uzturēšanas darba tipa prognozes vienmēr izmanto jaunākās izmaksas.
 
 1. Atlasiet **Līdzekļu pārvaldība** \> **Periodiski** \> **Prognoze** \> **Atjaunināt uzturēšanas darbu tipa prognozi**.
 2. Dialoglodziņā **Atjaunināt uzturēšanas darba tipa prognozi**, ātrajā cilnē **Iekļaujamie ieraksti** jūs varat pēc vajadzības pievienot konkrētu uzturēšanas darbu tipu izvēli. Atlasiet **Filtrs** un pēc tam **Atlasīt**, lai veiktu atlasi.

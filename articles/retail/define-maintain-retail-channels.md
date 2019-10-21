@@ -1,6 +1,6 @@
 ---
 title: Mazumtirdzniecības kanālu definēšana un uzturēšana
-description: Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Microsoft Dynamics 365 for Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
+description: Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Dynamics 365 Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560353"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019374"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mazumtirdzniecības kanālu definēšana un uzturēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Microsoft Dynamics 365 for Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
+Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Dynamics 365 Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
 
-Dynamics 365 for Retail atbalsta vairākus mazumtirdzniecības kanālus, piemēram, tiešsaistes veikalus, zvanu centrus un fiziskos veikalus. Fizisks veikals tiek saukts par mazumtirdzniecības veikalu. Katram mazumtirdzniecības veikalam var būt savas maksāšanas metodes, cenu grupas, pārdošanas punktu (POS) kases, ienākumu un izdevumu konti, kā arī personāls. Pirms izveidojat mazumtirdzniecības veikalu, jums tam ir jāiestata visi šie elementi. Pēc mazumtirdzniecības veikala izveidošanas jums ir jāpiešķir preces, kuras vēlaties tajā izmantot. Veikalam var arī piešķirt darbiniekus, kases sistēmas un debitorus. Visbeidzot, pievienojiet jaunu veikalu organizācijas hierarhijai.
+Retail atbalsta vairākus mazumtirdzniecības kanālus, piemēram, tiešsaistes veikalus, zvanu centrus un veikalus ēkās. Fizisks veikals tiek saukts par mazumtirdzniecības veikalu. Katram mazumtirdzniecības veikalam var būt savas maksāšanas metodes, cenu grupas, pārdošanas punktu (POS) kases, ienākumu un izdevumu konti, kā arī personāls. Pirms izveidojat mazumtirdzniecības veikalu, jums tam ir jāiestata visi šie elementi. Pēc mazumtirdzniecības veikala izveidošanas jums ir jāpiešķir preces, kuras vēlaties tajā izmantot. Veikalam var arī piešķirt darbiniekus, kases sistēmas un debitorus. Visbeidzot, pievienojiet jaunu veikalu organizācijas hierarhijai.
 
 ## <a name="setting-up-retail-stores"></a>Mazumtirdzniecības veikalu iestatīšana
 
-Pirms mazumtirdzniecības veikala iestatīšanas programmā Dynamics 365 for Retail, ir jāveic daži priekšnosacījumu uzdevumi. Pēc tam varat izveidot mazumtirdzniecības veikalu un pievienot detalizētu informāciju.
+Pirms mazumtirdzniecības veikala iestatīšanas programmā Retail ir jāveic daži priekšnosacījumu uzdevumi. Pēc tam varat izveidot mazumtirdzniecības veikalu un pievienot detalizētu informāciju.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -55,7 +55,7 @@ Lai varētu iestatīt mazumtirdzniecības veikalu, jums ir jāizpilda tālāk uz
 11. Iestatiet darbiniekus.
 
     > [!NOTE]
-    > Turklāt ir jāpiešķir darbiniekiem atbilstošās atļaujas, lai viņi varētu pierakstīties un izpildīt uzdevumus, izmantojot sistēmu Dynamics 365 for Retail for Retail POS.
+    > Turklāt ir jāpiešķir darbiniekiem atbilstošās atļaujas, lai viņi varētu pierakstīties un izpildīt uzdevumus, izmantojot sistēmu Retail POS.
 
 12. Konfigurējiet Retail POS profilus, ko piešķirt veikalam. Šis uzdevums iekļauj daudzus citus uzdevumus, piemēram, kases sistēmu iestatīšanu, bezsaistes profilu iestatīšanu un kvīšu formātu un profilu iestatīšanu.
 

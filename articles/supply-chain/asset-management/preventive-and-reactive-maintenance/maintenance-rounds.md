@@ -3,7 +3,7 @@ title: Uzturēšanas cikls
 description: Šajā tēmā ir uzturēšanas cikli programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875774"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922026"
 ---
 # <a name="maintenance-rounds"></a>Uzturēšanas cikls
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Programmā **Asset Management** jūs varat izveidot uzturēšanas ciklus dažādiem līdzekļiem, kuriem jums ir regulāros intervālos jāveic līdzīgs uzdevums.  Piemēram, ieeļļošanas darbus vai drošības pārbaudes darbus, kuri ir jāveic vairākām iekārtām vienādos intervālos. Pirmā darbībā ir uzturēšanas cikla izveide, ieskaitot līdzekļus, kuriem ir nepieciešams viena un tāda paša veida uzturēšanas darbs. Pēc tam jūs ieplānojat uzturēšanas ciklus. Kad esat aizpildījis uzturēšanas ciklu grafiku, jūs varat redzēt visus darba ierakstus, kas saistīti ar raundu sadaļās **Visi uzturēšanas grafiki** un **Atvērt uzturēšanas saraksta rindas**.
 
@@ -83,6 +81,8 @@ Programmā **Asset Management** jūs varat izveidot uzturēšanas ciklus dažād
 >[!NOTE]
 >Lauki **Līdzekļi** un **Rindas**, kas atrodas ātrās cilnes **Galvene** grupā **Detalizēta informācija** uzrāda kopējo līdzekļu un rindu skaitu, kuras ir saistītas ar atlasīto uzturēšanas ciklu.
 
+Nākamajā ilustrācijā ir redzams piemērs uzturēšanas ciklam, kurā ietilpst trīs līdzekļi.
+
 ![1. attēls](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ Kad esat uzstādījis uzturēšanas ciklu, jūs palaižat grafika darbu, lai iep
 6. Noklikšķiniet uz **Labi**.
 
 7. Tagad jūs varat redzēt uzturēšanas ciklu darbus opcijā **Līdzekļu pārvaldība** > **Vispārīgi** > **Uzturēšanas grafiks** > **Visi uzturēšanas grafiki** vai **Atvērt uzturēšanas grafika rindas**. Ja ieplānotie cikli ir saistīti ar darba pasūtījumu kopu, jūs arī redzēsit uzturēšanas saraksta rindas opcijā **Atvērt uzturēšanas grafika kopas**. Uzturēšanas grafika rindām, kuras izveidotas no cikla, ir atsauces tips "Uzturēšanas cikli".
+
+Divās nākamajās ilustrācijās ir parādīts darba grafiks dialoglodziņā **Plānot uzturēšanas ciklus** un uzturēšanas grafika rindas, kas izveidotas **Visos uzturēšanas grafikos**, pamatojoties uz šo plānoto darbu.
 
 ![2. attēls](media/14-preventive-maintenance.png)
 

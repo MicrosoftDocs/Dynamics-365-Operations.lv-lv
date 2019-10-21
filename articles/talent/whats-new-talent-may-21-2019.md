@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 20. maijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 20. maijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 04d84b95b70a6bb02973ecc350f01231d825f166
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ecc5b96d7a69c2489d26f02a678d3df425761621
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856237"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008812"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-20-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 20. maijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-20-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 20. maijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Drīzumā risinājumā Attract
 
@@ -42,11 +42,11 @@ Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
-Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2306. Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Core HR kļūdu labojumi.
+Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2306. Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Core HR.
 
 ## <a name="in-preview-in-core-hr"></a>Priekšskatījumā programmā Core HR
 

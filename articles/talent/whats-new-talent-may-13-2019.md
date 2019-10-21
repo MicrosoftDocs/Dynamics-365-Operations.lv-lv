@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 13. maijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 13. maijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/13/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 42feeb044d0a4cd25faf2d74863aa4e948c200fd
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856452"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008825"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 13. maijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-13-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 13. maijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
 ## <a name="coming-soon-in-attract"></a>Drīzumā risinājumā Attract
 
@@ -39,7 +39,7 @@ Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 

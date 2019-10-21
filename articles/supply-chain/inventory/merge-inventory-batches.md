@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572838"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250994"
 ---
 # <a name="merge-inventory-batches"></a>Sapludināt krājumu partijas
 
@@ -89,7 +89,7 @@ Nē, sapludināt var tikai tās partijas, kuras atrodas vienā vietā, vienas no
 Nē, sapludināt var tikai pilna daudzuma partijas. Partiju sapludināšanas funkcionalitāti ir paredzēts izmantot kā krājumu apstrādes līdzekli, nevis ražošanas līdzekli.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Ko darīt, ja partijām ir dažādas partijas atribūtu vērtības?
-Kad atlasāt avota partijas, kuras vēlaties apvienot sapludinātajā partijā, programmatūra Finance and Operations pārbauda, vai visām partijām ir raksturlielumi vai atribūtu vērtības. Ja atribūta vērtības ir vienādas, sapludinātajai partijai tiek piedāvāta vērtība. Šo vērtību var mainīt. To atribūtu vērtību lauki, kuras sapludinātajai partijai atšķiras, tiek atstāti neaizpildīti, un šīs vērtības var ievadīt manuāli. Ja partijas atribūta vērtības veids ir vesels skaitlis vai daļskaitlis un vērtības visās avota partijās atšķiras, vērtība tiek aprēķināta, izmantojot svērtā vidējā aprēķināšanu. Aprēķinātā vērtība tiek noapaļota uz augšu vai uz leju uz tuvāko soļa vērtību. Ja avota partijas vērtības lauks ir tukšs, partija un tās daudzums aprēķinā netiek iekļauts. **Piemērs.** Turpmākajā piemērā ir norādīta sapludinātās partijas svērtā vidējā aprēķināšana. Divām avota partijām nav norādīta partijas atribūta veida vērtība, kura ir vesels skaitlis. Šāds atribūts ir piešķirts avota partijām.
+Kad atlasāt avota partijas, kuras vēlaties apvienot sapludinātajā partijā, programmatūra Supply Chain Management pārbauda, vai visām partijām ir raksturlielumi vai atribūtu vērtības. Ja atribūta vērtības ir vienādas, sapludinātajai partijai tiek piedāvāta vērtība. Šo vērtību var mainīt. To atribūtu vērtību lauki, kuras sapludinātajai partijai atšķiras, tiek atstāti neaizpildīti, un šīs vērtības var ievadīt manuāli. Ja partijas atribūta vērtības veids ir vesels skaitlis vai daļskaitlis un vērtības visās avota partijās atšķiras, vērtība tiek aprēķināta, izmantojot svērtā vidējā aprēķināšanu. Aprēķinātā vērtība tiek noapaļota uz augšu vai uz leju uz tuvāko soļa vērtību. Ja avota partijas vērtības lauks ir tukšs, partija un tās daudzums aprēķinā netiek iekļauts. **Piemērs.** Turpmākajā piemērā ir norādīta sapludinātās partijas svērtā vidējā aprēķināšana. Divām avota partijām nav norādīta partijas atribūta veida vērtība, kura ir vesels skaitlis. Šāds atribūts ir piešķirts avota partijām.
 
 | Atribūts | Minimums | Solis | Maksimums |
 |-----------|---------|-----------|---------|

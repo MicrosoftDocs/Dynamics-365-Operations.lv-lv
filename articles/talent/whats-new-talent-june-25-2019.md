@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmatūrā Dynamics 365 for Talent (2019. gada 25. jūnijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmatūrā Dynamics 365 Talent (2019. gada 25. jūnijs)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-25
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c7a13373193a6af4033b4609f0c338c2c6128c6
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56fadba6dc085f849953aa88cf28a2c83e265f40
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856357"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009034"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-25-2019"></a>Jaunumi un izmaiņas programmatūrā Dynamics 365 for Talent (2019. gada 25. jūnijs)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-25-2019"></a>Jaunumi un izmaiņas programmatūrā Dynamics 365 Talent (2019. gada 25. jūnijs)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Drīzumā risinājumā Attract
 
@@ -42,7 +42,7 @@ ms.locfileid: "1856357"
 Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**. Apstiprinātāji var pārskatīt savus apstiprinājumus sadaļā **Piešķirts jums**, kur ir norādīts darba ID, amata nosaukums, citi apstiprinātāji un datums, kad šis darbs tika piešķirts. Lietotāji, kuri iesniedz darbu apstiprināšanai, var pārskatīt savus darbus sadaļā **Jūsu pieprasījumi**, kur ir norādīti apstiprinātāji, kam šis iesniegtais darbs joprojām ir jāapstiprina.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 

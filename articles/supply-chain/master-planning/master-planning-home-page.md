@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543587"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250695"
 ---
 # <a name="master-planning-home-page"></a>Vispārējās plānošanas sākumlapa
 
@@ -74,7 +74,7 @@ Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek
 Viedokļi, jaunumi un cita informācija par moduli Vispārējā plānošana un citiem risinājumiem ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Uzdevumu ceļveži
-Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**.
+Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**.
 
 ### <a name="webinars"></a>Tīmekļsemināri
 [Azure algoritmiskās mācīšanās lietošana pieprasījuma prognozēšanai](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

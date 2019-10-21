@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 14. decembris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 14. decembris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent — Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518535"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024026"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 14. decembris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 14. decembris)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Izlaižot prognozēšanas iespēju, parādītais atlikums mainās uz pašreizēj
 
 ## <a name="known-issue"></a>Zināma problēma
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Kartēšanas kļūdas integrēšanā ar programmu Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Kartēšanas kļūdas integrēšanā ar programmu Finance
 
-Pašreizējā veidnē Talent integrēšanai ar Dynamics 365 for Finance and Operations ir identificētas šādas problēmas. Drīzumā tiks publicēta jauna veidne, un tā tiks lietota visiem jaunajiem izveidotajiem integrācijas projektiem. Esošajiem integrācijas projektiem var atjaunināt uzdevuma kartējumus. Informāciju par atjauninātajiem kartējumiem skatiet tālāk esošajā tabulā. 
+Pašreizējā veidnē Talent integrēšanai ar Dynamics 365 Finance ir identificētas šādas problēmas. Drīzumā tiks publicēta jauna veidne, un tā tiks lietota visiem jaunajiem izveidotajiem integrācijas projektiem. Esošajiem integrācijas projektiem var atjaunināt uzdevuma kartējumus. Informāciju par atjauninātajiem kartējumiem skatiet tālāk esošajā tabulā. 
 
 >[!NOTE]
 > Uzdevums No sadaļas Amati uz sadaļu Amatu pamatdarba piešķire neintegrē datus. Šī problēma pašreiz tiek pētīta. Pašreizējā kartējumā nav kļūdas apiešanas risinājuma. 

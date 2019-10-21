@@ -1,6 +1,6 @@
 ---
 title: Drošības un lomu pārvaldība programmā Attract
-description: Šajā tēmā ir sniegta informācija par lomu drošību programmā Microsoft Dynamics 365 for Talent - Attract.
+description: Šajā tēmā ir sniegta informācija par lomu drošību programmā Microsoft Dynamics 365 Talent — Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ad94a7511afef0c68fb8f2a70402babb80b0f9ad
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739844"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024207"
 ---
 # <a name="set-user-permissions"></a>Iestatīt lietotāju atļaujas
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract izmanto no lomas atkarīgu drošību. Citiem vārdiem sakot, piekļuve netiek piešķirta atsevišķiem lietotājiem, bet gan drošības lomām, un lietotāji tiek piešķirti šīm drošības lomām. Lietotājam, kas ir piešķirts kādai drošības lomai, ir piekļuve ar šo lomu saistītajai privilēģiju kopai.
+Microsoft Dynamics 365 Talent: Attract izmanto no lomas atkarīgu drošību. Citiem vārdiem sakot, piekļuve netiek piešķirta atsevišķiem lietotājiem, bet gan drošības lomām, un lietotāji tiek piešķirti šīm drošības lomām. Lietotājam, kas ir piešķirts kādai drošības lomai, ir piekļuve ar šo lomu saistītajai privilēģiju kopai.
 
 Attract nodrošina piecas tālāk uzskaitītās lietotāju pamata lomas.
 
@@ -52,7 +52,7 @@ Nākamajās sadaļās ir sniegts augsta līmeņa apraksts par katru lomu. Tēmā
 
 ## <a name="administrator"></a>Administrators
 
-Lietotāji, kas ir piešķirti lomai “Administrators”, var piekļūt un mainīt visus datus programmā Attract. Administratori var izveidot, lasīt, atjaunināt un dzēst datus. Viņiem ir piekļuve administrēšanas centram, kur viņi var konfigurēt Attract programmu un iestatīt lietotāju informāciju. Iesakām piešķir lomu “Administrators” vismaz vienai personai. Pēc noklusējuma Microsoft PowerApps vides administrators tiek iestatīts kā administrators programmā Attract. Ja reģistrējāties programmas Attract izmēģinājumversijai, jums tiek automātiski piešķirta loma “Administrators”. Lai izveidotu darbus, pašlaik lietotājiem ar lomu “Administrators” ir nepieciešama arī loma “Personāla atlases darbinieks” vai loma “Par pieņemšanu darbā atbildīgais vadītājs”.
+Lietotāji, kas ir piešķirti lomai “Administrators”, var piekļūt un mainīt visus datus programmā Attract. Administratori var izveidot, lasīt, atjaunināt un dzēst datus. Viņiem ir piekļuve administrēšanas centram, kur viņi var konfigurēt Attract un iestatīt lietotāju informāciju. Iesakām piešķir lomu “Administrators” vismaz vienai personai. Pēc noklusējuma Microsoft PowerApps vides administrators tiek iestatīts kā administrators programmā Attract. Ja reģistrējāties programmas Attract izmēģinājumversijai, jums tiek automātiski piešķirta loma “Administrators”. Lai izveidotu darbus, pašlaik lietotājiem ar lomu “Administrators” ir nepieciešama arī loma “Personāla atlases darbinieks” vai loma “Par pieņemšanu darbā atbildīgais vadītājs”.
 
 ## <a name="hiring-manager"></a>Par pieņemšanu darbā atbildīgais vadītājs:
 

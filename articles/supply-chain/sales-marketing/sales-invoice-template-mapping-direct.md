@@ -1,6 +1,6 @@
 ---
-title: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
-description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto pārdošanas rēķinu galvu un rindu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
+title: Programmā Supply Chain Management ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
+description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto pārdošanas rēķinu galvu un rindu tiešai sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552934"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251665"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Microsoft Dynamics 365 for Finance and Operations ietverto pārdošanas rēķinu galvu un rindu tiešai sinhronizēšanai ar programmu Microsoft Dynamics 365 for Sales.
+Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto pārdošanas rēķinu galvu un rindu tiešai sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
-Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Finance and Operations un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Finance and Operations un Sales.
+Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Supply Chain Management un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Finance and Operations un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Supply Chain Management un Sales.
 
 [![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -52,30 +52,30 @@ Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rin
 
 Lai varētu veikt pārdošanas rēķinu galveņu un rindu sinhronizāciju, ir nepieciešami tālāk norādītie sinhronizācijas uzdevumi.
 
-- Preces (no Fin and Ops uz Sales) — tieši
-- Konti (no Sales uz Fin and Ops) — tieši (ja tiek izmantots)
-- Kontaktpersonas (no Sales uz Fin and Ops) — tieši (ja tiek izmantots)
-- Pārdošanas pasūtījuma galvene un rindas (no Fin and Ops uz Sales) — tieši
+- Preces (no Supply Chain Management uz Sales) – Tiešā
+- Konti (no Sales uz Supply Chain Management) - Tiešā (ja izmantots)
+- Kontaktpersonas (no Sales uz Supply Chain Management) - Tiešā (ja izmantots)
+- Pārdošanas pasūtījumu galvenes un rindas (no Supply Chain Management uz Sales) - Tiešā
 
 ## <a name="entity-set"></a>Elementu kopa
 
-| Finance and Operations                               | Pārdošana          |
+| Supply Chain Management                              | Pārdošana          |
 |------------------------------------------------------|----------------|
 | Ārēji uzturētu debitora pārdošanas rēķinu virsraksti | Rēķini       |
 | Ārēji uzturētu debitora pārdošanas rēķinu rindas   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Pārdošanas rēķini tiek izveidoti programmā Finance and Operations un sinhronizēti ar Sales.
+Pārdošanas rēķini tiek izveidoti programmatūrā Supply Chain Management un sinhronizēti ar Sales.
 
 > [!NOTE]
-> Pašlaik programmā Finance and Operations ietverto datu sinhronizēšanā ar programmu Sales netiek ietverti nodokļi, kas ir saistīti ar pārdošanas rēķina galvenes maksājumiem. Programmā Sales netiek atbalstīta nodokļu informācija galvenes līmenī. Taču ar rindas līmeņa maksājumiem saistītais nodoklis tiek ietverts sinhronizēšanā.
+> Pašlaik programmā Finance and Operations ietverto datu sinhronizēšanā ar programmu Supply Chain Management netiek ietverti nodokļi, kas ir saistīti ar pārdošanas rēķina galvenes maksājumiem. Programmā Sales netiek atbalstīta nodokļu informācija galvenes līmenī. Taču ar rindas līmeņa maksājumiem saistītais nodoklis tiek ietverts sinhronizēšanā.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Risinājums No potenciālā klienta līdz skaidrai naudai programmai Sales
 
 - Elementam **Rēķins** ir pievienots lauks **Rēķina numurs**, un tas ir redzams lapā.
-- Lapā **Pārdošanas pasūtījums** ir paslēpta poga **Izveidot rēķinu**, jo rēķini tiks izveidoti programmā Finance and Operations un sinhronizēti ar programmu Sales. Lapu **Rēķins** nevar rediģēt, jo rēķini tiks sinhronizēti no programmas Finance and Operations.
-- Kad saistītais rēķins programmā Finance and Operations ir sinhronizēts ar programmu Sales, lauka **Pārdošanas pasūtījuma statuss** vērtība tiek automātiski mainīta uz **Iekļauts rēķinā**. Turklāt tā pārdošanas pasūtījuma īpašnieks, no kura tika izveidots rēķins, tiek piešķirts kā rēķina īpašnieks. Tāpēc pārdošanas pasūtījuma īpašnieks var skatīt rēķinu.
+- Lapā **Pārdošanas pasūtījums** ir paslēpta poga **Izveidot rēķinu**, jo rēķini tiks izveidoti programmā Supply Chain Management un sinhronizēti ar programmu Sales. Lapu **Rēķins** nevar rediģēt, jo rēķini tiks sinhronizēti no programmas Supply Chain Management.
+- Kad saistītais rēķins programmatūrā Supply Chain Management ir sinhronizēts ar programmu Sales, lauka **Pārdošanas pasūtījuma statuss** vērtība tiek automātiski mainīta uz **Iekļauts rēķinā**. Turklāt tā pārdošanas pasūtījuma īpašnieks, no kura tika izveidots rēķins, tiek piešķirts kā rēķina īpašnieks. Tāpēc pārdošanas pasūtījuma īpašnieks var skatīt rēķinu.
 
 ## <a name="preconditions-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
@@ -103,7 +103,7 @@ Pārejiet uz sadaļu **Iestatījumi** > **Administrēšana** > **Sistēmas iesta
 #### <a name="salesinvoiceline-task"></a>SalesInvoiceLine uzdevums
 
 - Pārliecinieties, ka pastāv nepieciešamais vienuma **Mērvienība** kartējums.
-- Pārliecinieties, ka programmā Finance and Operations pastāv nepieciešamā vienuma **SalesUnitSymbol** vērtību karte.
+- Pārliecinieties, ka programmā Supply Chain Management pastāv nepieciešamā vienuma **SalesUnitSymbol** vērtību karte.
 
     Kartējumam no **SalesUnitSymbol** uz **Quantity\_UOM** ir definēta veidnes vērtība ar vērtību karti.
 
@@ -115,7 +115,7 @@ Pārejiet uz sadaļu **Iestatījumi** > **Administrēšana** > **Sistēmas iesta
 Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Datu integrācija. 
 
 > [!NOTE]
-> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Finance and Operations.
+> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Supply Chain Management.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -131,16 +131,10 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
 
-[Programmā Sales ietverto kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations](accounts-template-mapping-direct.md)
+[Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales](products-template-mapping-direct.md)
+[Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales](products-template-mapping-direct.md)
 
-[Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations](contacts-template-mapping-direct.md)
+[Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai klientiem programmā Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Programmā Finance and Operations ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[Programmā Supply Chain Management ietverto pārdošanas pasūtījumu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-order-template-mapping-direct-two-ways.md)

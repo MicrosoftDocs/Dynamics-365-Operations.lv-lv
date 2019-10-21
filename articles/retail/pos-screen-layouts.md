@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas punkta (POS) ekrāna izkārtojumi
-description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 for Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
+description: Šajā tēmā ir sniegta informācija par Dynamics 365 Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607045"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025280"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) ekrāna izkārtojumi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 for Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
+Šajā tēmā ir sniegta informācija par Dynamics 365 Retail pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
 
 Retail pārdošanas punkta (POS) lietotāja interfeisu (User Interface — UI) var konfigurēt, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un/vai lietotājiem.
 
@@ -50,7 +50,7 @@ Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norā
 - **Apraksts** — varat norādīt jēgpilnu nosaukumu, kas palīdzēs noteikt konkrētajai situācijai piemērotāko profilu.
 - **Dizains** — varat atlasīt dizainu Gaišs vai Tumšs. Dizains ietekmē fontu un fona krāsas visā programmā.
 - **Izcēluma krāsa** — izcēluma krāsa tiek izmantota visā POS interfeisā, lai izceltu vai iezīmētu noteiktus vizuālos elementus, piemēram elementus, komandpogas vai hipersaites. Parasti šos elementus var izmantot, lai veiktu kādu darbību.
-- **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām. Šis līdzeklis ir pieejams tikai Microsoft Dynamics 365 for Retail versijā 1611.
+- **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām. Šis līdzeklis ir pieejams tikai Retail versijā 1611.
 - **Rādīt datumu/laiku** — ja šī opcija ir iespējota, POS galvenē tiek rādīts pašreizējais datums un laiks.
 - **Pieteikšanās foni** — varat norādīt pierakstīšanās ekrāna fona attēlu. Fona attēla faila lielumam ir jābūt pēc iespējas mazākam, jo lielu failu uzglabāšana un ielāde var ietekmēt lietojumprogrammas darbību un veiktspēju.
 - **Lietojumprogrammas fons** — varat norādīt fona attēlu, kas visā programmā jāizmanto tīrtoņa fona krāsas vietā. Pieteikšanās ekrāna fona faila lielumam jābūt pēc iespējas mazākam.

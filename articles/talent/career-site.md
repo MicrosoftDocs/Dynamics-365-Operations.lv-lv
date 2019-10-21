@@ -1,6 +1,6 @@
 ---
-title: Iestatiet savu karjeras vietni programmā Microsoft Dynamics 365 for Talent - Attract
-description: Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Microsoft Dynamics 365 for Talent - Attract.
+title: Iestatiet savu karjeras vietni programmā Microsoft Dynamics 365 Talent - Attract
+description: Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739775"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026283"
 ---
 # <a name="set-up-your-career-site"></a>Iestatiet savu karjeras vietni
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Microsoft Dynamics 365 for Talent: Attract. Tajā arī ir paskaidrots, kā iestatīt šo funkcionalitāti.
+Šajā tēmā ir sniegts apskats par kandidātu karjeras vietnes funkcionalitāti programmā Microsoft Dynamics 365 Talent: Attract. Tajā arī ir paskaidrots, kā iestatīt šo funkcionalitāti.
 
 Attract nodrošina vienu karjeras vietni katrai nomnieka videi. Piemēram, ja organizācijai ir izstrādes vide un testēšanas vide, viena karjeras vietne ir paredzēta izstrādes videi un otra karjeras vietne ir paredzēta testēšanas videi. Katra karjeras vietne ir pilnībā izolēta, un tām ir savs autentifikācijas mehānisms. Darbi un kandidātu profili netiek kopīgoti starp karjeras vietnēm.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21cfc2699fdcd6024286ee16bb60c3cd6dda5b67
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0ea5c240063bf8f98f07f2149d67730b30e5c0e4
+ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844717"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "1924474"
 ---
 # <a name="create-a-product-master"></a>Preces šablona izveide
 
@@ -31,39 +31,33 @@ Izveidojiet preces šablonu iepriekš definētiem variantiem. Demonstrācijas da
 
 
 ## <a name="create-a-new-product-master"></a>Izveidot jaunu preces šablonu
-1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Preces šabloni.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Preces numurs ierakstiet vērtību.
-    * Numuram jābūt unikālam. Laukam Preces numurs var iestatīt numuru secību. Šajā gadījumā lietotājam nav jāievada vērtība.  
-4. Laukā Preces nosaukums ierakstiet kādu vērtību.
-    * Ievadiet aprakstošo preces nosaukumu. Pēc noklusējuma vērtība ir meklēšanas nosaukums, bet lietotājs var to mainīt.  
-5. Laukā Preces dimensijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Preces dimensiju grupa nosaka, kuru no 4 preču dimensijām var izmantot, lai izveidotu preces variantus. Šajā piemērā tiek izmantota grupa ar krāsu un izmēru.  
+1. Dodieties uz **Navigācijas rūts > Moduļi > Preču informācijas pārvaldība > Preces > Preces šabloni**.
+2. Klikšķiniet **Jauns**.
+3. Laukā **Preces numurs** ierakstiet vērtību. Numuram jābūt unikālam. Laukam **Preces numurs** var iestatīt numuru secību. Šajā gadījumā lietotājam nav jāievada vērtība.
+4. Laukā **Preces nosaukums** ierakstiet vērtību. Ievadiet aprakstošo preces nosaukumu. Pēc noklusējuma vērtība ir meklēšanas nosaukums, bet lietotājs var to mainīt.
+5. Laukā **Preces dimensijas grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. Preces dimensiju grupa nosaka, kuru no 4 preču dimensijām var izmantot, lai izveidotu preces variantus. Šajā piemērā tiek izmantota grupa ar krāsu un izmēru.
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Noklusējuma konfigurēšanas tehnoloģija ir Iepriekš definēts variants. Tas tiks izmantots šajā piemērā.  
-8. Noklikšķiniet uz OK.
+7. Sarakstā noklikšķiniet uz saites atlasītajā rindā. Noklusējuma **Konfigurēšanas tehnoloģija** ir 'Iepriekš definēts variants'. Tas tiks izmantots šajā piemērā.
+8. Noklikšķiniet uz **Labi**.
 
 ## <a name="select-product-dimension-groups"></a>Preču dimensiju grupu atlasīšana
-1. Laukā Krāsu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+1. Laukā **Krāsu grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Laukā Izmēru grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+4. Laukā **Izmēru grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 6. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
 ## <a name="add-dimension-groups"></a>Pievienot dimensiju grupas
-1. Darbību rūtī noklikšķiniet uz Prece.
-2. Noklikšķiniet uz Dimensiju grupas, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā Noliktavas dimensiju grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Noliktavas dimensijas palīdz kontrolēt krājumu uzglabāšanu un izņemšanu no krājumiem. Piemēram, noliktavas dimensija var iekļaut vietu un noliktavu.  
+1. **Darbību rūtī** noklikšķiniet uz**Prece**.
+2. Noklikšķiniet uz **Dimensiju grupas**, lai atvērtu nolaižamo dialoglodziņu.
+3. Laukā **Noliktavas dimensiju grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. Noliktavas dimensijas palīdz kontrolēt krājumu uzglabāšanu un izņemšanu no krājumiem. Piemēram, noliktavas dimensija var iekļaut vietu un noliktavu.
 4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-6. Laukā Izsekošanas dimensiju grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Izsekošanas dimensiju grupa nosaka izsekošanas dimensijas, kuras var pievienot precei. Piemēram, partijas numuru un sērijas numuru izmanto krājuma vienību izsekošanai.  
+6. Laukā **Izsekošanas dimensiju grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. Izsekošanas dimensiju grupa nosaka izsekošanas dimensijas, kuras var pievienot precei. Piemēram, partijas numuru un sērijas numuru izmanto krājuma vienību izsekošanai.
 7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-9. Noklikšķiniet uz Labi.
-10. Noklikšķiniet uz Saglabāt.
+9. Noklikšķiniet uz **Labi**.
+10. Noklikšķiniet uz **Saglabāt**.
 11. Aizvērt lapu.
 

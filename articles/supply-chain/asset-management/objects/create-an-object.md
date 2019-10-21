@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783433"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250902"
 ---
 # <a name="create-an-asset"></a>Izveidot līdzekli
 
@@ -63,12 +63,12 @@ Lauki **Pakalpojumu līmenis** un **Kritiskums** attiecas uz līdzeklim izveidot
 
 ## <a name="asset"></a>Līdzeklis
 
-Līdzeklim varat atlasīt **Resursu**. Resursa atlase nosaka, kurš kalendārs tiek izmantots darba pasūtījuma plānošanai. Resursu atlasi bieži izmanto pamatlīdzekļiem. Sadaļā Dynamics 365 for Finance and Operations resursi un resursu grupas ir iestatītas **Organizācijas administrācijā** > **Resursos** > **Resursu grupās** vai **Resursos**.
+Līdzeklim varat atlasīt **Resursu**. Resursa atlase nosaka, kurš kalendārs tiek izmantots darba pasūtījuma plānošanai. Resursu atlasi bieži izmanto pamatlīdzekļiem. Resursi un resursu grupas ir iestatīti **Organizācijas administrācijā** > **Resursos** > **Resursu grupās** vai **Resursos**.
 
 Laukā **Pamatlīdzekļu skaits** varat atlasīt pamatlīdzekli, kas ir saistīts ar līdzekli. Tas ir svarīgi, ja jūsu līdzeklis ir saistīts ar investīciju projektu.
 
 - Ja līdzeklis ir saistīts ar pamatlīdzekli, varat izveidot darba pasūtījuma veidu, ko izmantot darba pasūtījumiem, kas saistīti ar investīciju projektu. 
-- Informācija par līdzekļa pamatlīdzekļiem ir saistīta ar moduli **Pamatlīdzekļi** sadaļā Dynamics 365 for Finance and Operations. Tas nozīmē, ka **Pamatlīdzekļos** > **Pamatlīdzekļos** > **Pamatlīdzekļos** var iegūt pārskatu par Līdzekļu pārvaldības projektiem, kas var būt saistīti ar pamatlīdzekli, atlasot līdzekli sarakstā un skatot saturu rūts **Saistītā informācija** sadaļā > **Saistītie projekti**.
+- Informācija par līdzekļa pamatlīdzekļiem ir saistīta ar moduli **Pamatlīdzekļi** sadaļā Dynamics 365 Supply Chain Management. Tas nozīmē, ka **Pamatlīdzekļos** > **Pamatlīdzekļos** > **Pamatlīdzekļos** var iegūt pārskatu par Līdzekļu pārvaldības projektiem, kas var būt saistīti ar pamatlīdzekli, atlasot līdzekli sarakstā un skatot saturu rūts **Saistītā informācija** sadaļā > **Saistītie projekti**.
 
 
 ## <a name="details"></a>Detalizēta

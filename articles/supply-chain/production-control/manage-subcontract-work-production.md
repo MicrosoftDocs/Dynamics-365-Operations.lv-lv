@@ -1,6 +1,6 @@
 ---
 title: Ražošanas apakšuzņēmēja darba pārvaldība
-description: Šajā tēmā ir paskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
+description: Šajā tēmā ir paskaidrots, kā programmā Dynamics 365 Supply Chain Management tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569757"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023545"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Ražošanas apakšuzņēmēja darba pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā programmā Microsoft Dynamics 365 for Finance and Operations tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
+Šajā tēmā ir paskaidrots, kā programmā Dynamics 365 Supply Chain Management tiek pārvaldītas apakšuzņēmēja operācijas. Tas nozīmē, ka tajā ir paskaidrots, kā kreditors pārvalda resursam piešķirtās ražošanas operācijas.
 
 [Ražošanas procesu](production-process-overview.md) ietvaros darbu var veikt kreditoriem piederoši vai kreditoru administrēti resursi. Parasti kreditora resursi tiek izmantoti, lai apmierinātu periodiski radīto papildu pieprasījumu, kas pārsniedz uzņēmuma resursu ražīgumu. Kreditors, iespējams, var piedāvāt arī īpašas [resursu iespējas](resource-capabilities.md) vai resursus par zemāku cenu.  
 
@@ -40,7 +40,7 @@ Ja tiek izmantotas apakšuzņēmēja operācijas vai aktivitātes, tās ietekmē
 
 Iekšējiem resursiem parasti tiek piešķirta fiksēta izmaksu likme par periodu. Turpretim apakšuzņēmēja resursu izmaksas tiek noteiktas, pamatojoties uz saistītā pakalpojuma pirkšanas cenu. Pakalpojums tiek definēts kā cita prece, un tas tiek izmantots konkrētās apakšuzņēmēja operācijas sagādes un iegādes procesu vadībai.  
 
-Pašlaik programmā Microsoft Dynamics 365 for Finance and Operations nav īpaša daļēji pabeigto preču jēdziena. Ja ražošanas pasūtījuma ietvaros izejmateriālu pārveidošanai par gatavo preci ir nepieciešamas vairākas operācijas, šī pasūtījuma gatavā prece tiek grāmatota atpakaļ krājumos tikai pēdējās operācijas laikā. Daļēji pabeigtās preces, kas tika iegūtas iepriekšējo operāciju laikā, tiek uzskaitītas kā nepabeigtais darbs (NP), taču tās netiek grāmatotas vai izsekotas krājumos. Lai gan maršrutus un materiālu komplektus (MK) var sadalīt vairākās mazākās vienībās, tādējādi tiek palielināts pārvaldāmo preču, MK un maršrutu skaits.  
+Pašlaik programmatūrā Supply Chain Management nav īpaša daļēji pabeigto preču jēdziena. Ja ražošanas pasūtījuma ietvaros izejmateriālu pārveidošanai par gatavo preci ir nepieciešamas vairākas operācijas, šī pasūtījuma gatavā prece tiek grāmatota atpakaļ krājumos tikai pēdējās operācijas laikā. Daļēji pabeigtās preces, kas tika iegūtas iepriekšējo operāciju laikā, tiek uzskaitītas kā nepabeigtais darbs (NP), taču tās netiek grāmatotas vai izsekotas krājumos. Lai gan maršrutus un materiālu komplektus (MK) var sadalīt vairākās mazākās vienībās, tādējādi tiek palielināts pārvaldāmo preču, MK un maršrutu skaits.  
 
 Ir pieejamas divas metodes ražošanas operāciju apakšuzņēmēja darbu pārvaldībai. Šīm metodēm atšķiras veids, kā var modelēt apakšlīgumu slēgšanas procesus, kā tiek atainotas daļēji pabeigtās preces procesa ietvaros un kā tiek pārvaldīta izmaksu kontrole.
 

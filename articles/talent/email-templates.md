@@ -1,6 +1,6 @@
 ---
 title: E-pasta veidnes
-description: Šajā tēmā ir sniegta informācija par e-pasta ziņojumu veidnēm, ko varat izveidot un izmantot programmā Microsoft Dynamics 365 for Talent - Attract.
+description: Šajā tēmā ir sniegta informācija par e-pasta ziņojumu veidnēm, ko varat izveidot un izmantot programmā Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729730"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008040"
 ---
 # <a name="email-templates"></a>E-pasta veidnes
 [!include[banner](../includes/banner.md)]
 
-Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var izveidot vienotu stilu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 for Talent: Attract un Offer. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
+Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var izveidot vienotu stilu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 Talent: Attract un Offer. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
 
 > [!NOTE]
 > Lai izmantotu e-pasta veidnes, jūsu organizācijai ir jābūt pieejamai visaptverošās darbā pieņemšanas pievienojumprogrammai.

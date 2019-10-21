@@ -1,6 +1,6 @@
 ---
-title: Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 for Talent - Attract
-description: Šajā tēmā ir paskaidrots, kā konfigurēt LinkedIn integrāciju programmai Microsoft Dynamics 365 for Talent - Attract, lai jūs varētu viegli publicēt darbus LinkedIn no Attract, un lai jūsu personāla atlases speciālisti varētu sinhronizēt savu darbinieku atlases informāciju ar kandidāta LinkedIn profilu.
+title: Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent - Attract
+description: Šajā tēmā ir paskaidrots, kā konfigurēt LinkedIn integrāciju programmai Microsoft Dynamics 365 Talent - Attract, lai jūs varētu viegli publicēt darbus LinkedIn no Attract, un lai jūsu personāla atlases speciālisti varētu sinhronizēt savu darbinieku atlases informāciju ar kandidāta LinkedIn profilu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756226"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009974"
 ---
 # <a name="set-up-linkedin-integration"></a>LinkedIn integrācijas iestatīšana
 
 [!include[banner](../includes/banner.md)]
 
-Palīdziet saviem darba devējiem un darbā pieņemšanas vadītājiem piesaistīt augstākā līmeņa talantu, konfigurējot LinkedIn integrāciju ar programmu Microsoft Dynamics 365 for Talent: Attract. Attract ļauj publicēt darbus tieši uzņēmumā LinkedIn, kas ir lielākais profesionālais tiešsaistes tīkls.
+Palīdziet saviem darba devējiem un darbā pieņemšanas vadītājiem piesaistīt augstākā līmeņa talantu, konfigurējot LinkedIn integrāciju ar programmu Microsoft Dynamics 365 Talent: Attract. Attract ļauj publicēt darbus tieši uzņēmumā LinkedIn, kas ir lielākais profesionālais tiešsaistes tīkls.
 
 Darbi, kurus publicējat pakalpojumā LinkedIn, izmantojot programmu Attract, ir ierobežoti ieraksti un tiek nodrošināti jūsu uzņēmumam bez papildu izmaksām. Šie saraksti ir pieejami tikai ar LinkedIn programmatūras partneru, piemēram, Attract starpniecību. Tie netiek parādīti panelī **Karjeras** jūsu uzņēmuma LinkedIn lapā, jo tajā tiek rādīti tikai maksas saraksti. Tomēr tie tiek parādīti, kad potenciālie kandidāti skata visus pieejamos darbus. Ierobežotie saraksti tiek rādīti arī LinkedIn darbu meklēšanā.
 

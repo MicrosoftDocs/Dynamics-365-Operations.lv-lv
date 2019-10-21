@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 27. februāris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 27. februāris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518544"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024003"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 27. februāris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 27. februāris)
 
 [!include [banner](includes/banner.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent.
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Izmaiņas programmā Attract
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Attract kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Izmaiņas programmā Onboard
 
-Šajā laidienā ir ietverti nelieli programmas Dynamics 365 Talent: Onboard kļūdu labojumi.
+Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
@@ -77,9 +77,9 @@ Tagad darbinieka fiksētajai atlīdzībai, darbinieka mainīgās atlīdzības pi
 
 Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. Piemēram, vadītāju vai reģionālo darbinieku ierakstiem. Šīs izmaiņas sniedz personāla vadības (Human resources — HR) speciālistam iespēju pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. No drošības lomām, ko var piešķirt fiksētajiem un mainīgajiem plāniem, ir atkarīga piekļuve plāniem un ar tiem saistītajiem darbinieku datiem (piemēram, algu informācijai vai prēmiju ierakstiem). Šo atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar konkrētajām piekļuves atļaujām.
 
-### <a name="platform-update-24"></a>Platform update 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations Platform update 24
 
-Papildinformāciju par Microsoft Dynamics 365 for Finance and Operations atjauninājumu Platform update 24 (2019. gada marts) skatiet rakstā [Priekšskatījuma līdzekļi Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Papildinformāciju par Microsoft Dynamics 365 Finance and Operations atjauninājumu Platform update 24 (2019. gada marts) skatiet rakstā [Priekšskatījuma līdzekļi Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Fiksētas atlīdzības iespējošana darbiniekiem ar gaidāmām amatu piešķirēm
 
@@ -87,10 +87,10 @@ Bieži vien darbiniekiem, kas pievienojas organizācijai, ir vēlāks sākuma da
 
 ## <a name="known-issues"></a>Zināmās problēmas
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR integrācijas veidnes izmaiņas (no Talent Common Data Service uz Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Core HR integrācijas veidnes izmaiņas (no Talent Common Data Service uz Finance)
 Core HR veidne ir atjaunināta, padarot to par papildu vaicājuma veidni. Tāpēc projektiem, kas ir izveidoti, izmantojot šo veidni, pēc noklusējuma ir pieejams papildu vaicājums. Turklāt visas noklusējuma kartējumu funkcijas ir redzamas tikai papildu vaicājuma redaktorā. (Noklusējuma kartēšanas funkcijas kartējumos ir apzīmētas ar burtiem “FN”.)
 
-Papildinformāciju par kartējumu kļūdām skatiet rakstā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 14. decembris)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Papildinformāciju par kartējumu kļūdām skatiet rakstā [Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 14. decembris)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Lai izmantotu jauno veidni, izveidojiet jaunu projektu un atlasiet jauno Talent integrācijas veidni.
 

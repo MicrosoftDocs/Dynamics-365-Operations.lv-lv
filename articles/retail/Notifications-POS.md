@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577984"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023709"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Pasūtījumu paziņojumu parādīšana pārdošanas punktā (POS)
 
 [!include [banner](includes/banner.md)]
 
-Modernajā mazumtirdzniecības vidē veikala darbiniekiem tiek piešķirti dažādi uzdevumi, piemēram, palīdzēšana klientiem, transakciju ievadīšana, krājumu uzskaites veikšana un pasūtījumu pieņemšana veikalā. Pārdošanas punkta (POS) klients nodrošina vienu programmu, kur veikala darbinieki vat izpildīt visus šos un vēl daudzus citus uzdevumus. Tā kā dienas laikā ir jāizpilda dažādi uzdevumi, veikala darbinieki, iespējams, ir jāinformē par lietām, kurām šiem darbiniekiem būtu jāpievērš uzmanība. Paziņojumu struktūra programmā POS atrisina šo problēmu, ļaujot mazumtirgotājiem konfigurēt paziņojumus atkarībā no lomām. Programmā Microsoft Dynamics 365 for Retailar 5. lietojumprogrammas atjauninājumu šos paziņojumus var konfigurēt tikai POS operācijām.
+Modernajā mazumtirdzniecības vidē veikala darbiniekiem tiek piešķirti dažādi uzdevumi, piemēram, palīdzēšana klientiem, transakciju ievadīšana, krājumu uzskaites veikšana un pasūtījumu pieņemšana veikalā. Pārdošanas punkta (POS) klients nodrošina vienu programmu, kur veikala darbinieki vat izpildīt visus šos un vēl daudzus citus uzdevumus. Tā kā dienas laikā ir jāizpilda dažādi uzdevumi, veikala darbinieki, iespējams, ir jāinformē par lietām, kurām šiem darbiniekiem būtu jāpievērš uzmanība. Paziņojumu struktūra programmā POS atrisina šo problēmu, ļaujot mazumtirgotājiem konfigurēt paziņojumus atkarībā no lomām. Programmā Dynamics 365 for Retailar 5. lietojumprogrammas atjauninājumu šos paziņojumus var konfigurēt tikai POS operācijām.
+
 
 Pašlaik sistēma var parādīt paziņojumus tikai par pasūtījuma izpildes operācijām. Tomēr struktūra ir veidota paplašināma, tādēļ izstrādātāji galu galā varēs rakstīt paziņojumu apdarinātāju jebkādai operācijai un parādīt paziņojumus par šīm operācijām POS.
 
@@ -68,7 +69,8 @@ Tālāk attēlā ir parādīts reāllaika satura iestatījumi pogas režģa veid
 
 ![Reāllaika satura iestatījumi pogas režģa veidotājā](./media/ButtonGridDesigner.png "Reāllaika satura iestatījumi pogas režģa veidotājā")
 
-Lai parādītu paziņojumu skaitu uz pogas, ir jāpārliecinās, ka tiek atjaunināts atbilstošais ekrāna izkārtojums. Lai noteiktu ekrāna izkārtojumu, ko izmanto POS, augšējā labajā stūrī atlasiet ikonu **Iestatījumi** un piefiksējiet rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja**. Izmantojot pārlūkprogrammu Edge, dodieties uz lapu **Ekrāna izkārtojums** pakalpojumā Dynamics 365 for Finance and Operations, atrodiet iepriekš noteiktos rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja** un atzīmējiet izvēles rūtiņu **Iespējot tiešsaistes saturu**. Dodieties uz **Retail \> Mazumtirdzniecības IT \> Sadales grafiks** un palaidiet darbu 1090 (Reģistri), lai sinhronizētu izkārtojuma izmaiņas.
+Lai parādītu paziņojumu skaitu uz pogas, ir jāpārliecinās, ka tiek atjaunināts atbilstošais ekrāna izkārtojums. Lai noteiktu ekrāna izkārtojumu, ko izmanto POS, augšējā labajā stūrī atlasiet ikonu **Iestatījumi** un piefiksējiet rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja**. Izmantojot pārlūkprogrammu Edge, dodieties uz lapu **Ekrāna izkārtojums**, atrodiet iepriekš noteiktos rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja** un atzīmējiet izvēles rūtiņu **Iespējot tiešsaistes saturu**. Dodieties uz **Retail \> Mazumtirdzniecības IT \> Sadales grafiks** un palaidiet darbu 1090 (Reģistri), lai sinhronizētu izkārtojuma izmaiņas.
+
 
 ![Atrast ekrāna izkārtojumu, ko izmanto POS](./media/Choose_screen_layout.png "Atrast ekrāna izkārtojumu ")
 

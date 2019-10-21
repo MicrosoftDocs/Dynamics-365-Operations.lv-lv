@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838002"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026605"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>PVN piešķire un pārrakstīšana
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šajā procedūrā ir parādīts, kā pārdošanas nodokļu grupu piešķirt mazumtirdzniecības kanāliem. Tajā ir arī izklāstīta jaunas pārdošanas nodokļu ignorēšanas izveidošana un tās piešķiršana jau pastāvošai pārdošanas nodokļu ignorēšanas grupai. Šajā procedūrā
-
-tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
+Šajā procedūrā ir parādīts, kā pārdošanas nodokļu grupu piešķirt mazumtirdzniecības kanāliem. Tajā ir arī izklāstīta jaunas pārdošanas nodokļu ignorēšanas izveidošana un tās piešķiršana jau pastāvošai pārdošanas nodokļu ignorēšanas grupai. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
 1. Pārejiet uz sadaļu Mazumtirdzniecība un komercija > Kanāli > Mazumtirdzniecības veikali > Visi mazumtirdzniecības veikali.
 2. Sarakstā noklikšķiniet uz saites Mazumtirdzniecības kanāla ID grupai “Hjūstona”.

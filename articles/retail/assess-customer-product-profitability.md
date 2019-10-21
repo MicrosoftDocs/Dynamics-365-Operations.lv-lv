@@ -1,6 +1,6 @@
 ---
 title: Debitoru un preču ienesīguma novērtēšana
-description: Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu informācijai par debitoru un preču ienesīgumu no Microsoft Dynamics 365 for Retail datiem, pētītu šo informāciju un gūtu ieskatus par to.
+description: Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu informācijai par debitoru un preču ienesīgumu no Dynamics 365 Retail datiem, pētītu šo informāciju un gūtu ieskatus par to.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5a9bebf948bd4602556f70a5a79690621a03261e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561368"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023594"
 ---
 # <a name="assess-customer-and-product-profitability"></a>Novērtēt debitoru un preču ienesīgumu
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu informācijai par debitoru un preču ienesīgumu no Microsoft Dynamics 365 for Retail datiem, pētītu šo informāciju un gūtu ieskatus par to.
+Šajā rakstā ir paskaidrots, kā var izmantot atmiņā saglabāto un reāllaika analīzi, lai piekļūtu informācijai par debitoru un preču ienesīgumu no Dynamics 365 Retail datiem, pētītu šo informāciju un gūtu ieskatus par to.
 
-Programmā Dynamics 365 for Retail lietotāji var pētīt labāko debitoru (10–100) ienesīgumu dažādos organizācijas hierarhijas līmeņos, pamatojoties uz kādu no tālāk norādītajiem kritērijiem.
+Programmā Retail lietotāji var pētīt labāko debitoru (10–100) ienesīgumu dažādos organizācijas hierarhijas līmeņos, pamatojoties uz kādu no tālāk norādītajiem kritērijiem.
 
 - Pārdošanas summa
 - Daudzums

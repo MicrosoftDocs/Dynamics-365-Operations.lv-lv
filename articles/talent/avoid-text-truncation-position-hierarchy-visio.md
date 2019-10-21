@@ -1,6 +1,6 @@
 ---
 title: Izvairīšanās no teksta saīs. amatu hierarhijā un eksport. uz Visio
-description: Šajā tēmā ir paskaidrots, kā atrisināt problēmu, kas izraisa personu vārdu un amatu nosaukumu saīsināšanu, kad debitori skata amatu hierarhiju programmā Microsoft Dynamics 365 for Talent. Teksta saīsināšana var apgrūtināt ekrānuzņ. veikšanu vai hierarhijas drukāšanu.
+description: Šajā tēmā ir paskaidrots, kā atrisināt problēmu, kas izraisa personu vārdu un amatu nosaukumu saīsināšanu, kad debitori skata amatu hierarhiju programmā Microsoft Dynamics 365 Talent. Teksta saīsināšana var apgrūtināt ekrānuzņ. veikšanu vai hierarhijas drukāšanu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741825"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008504"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Izvairīšanās no teksta saīs. amatu hierarhijā un eksport. uz Visio
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741825"
 
 **Izejas plūsma**
 
-Kad debitors skata amatu hierarhiju programmā Microsoft Dynamics 365 for Talent, tiek saīsināti personu vārdi un amatu nosaukumi. Tādēļ var būt grūti veikt ekrānuzņēmumu vai izdrukāt un izplatīt hierarhiju.
+Kad debitors skata amatu hierarhiju programmā Microsoft Dynamics 365 Talent, tiek saīsināti personu vārdi un amatu nosaukumi. Tādēļ var būt grūti veikt ekrānuzņēmumu vai izdrukāt un izplatīt hierarhiju.
 
 ![Amatu hierarhija](media/position-h.png)
 

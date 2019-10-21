@@ -1,5 +1,5 @@
 ---
-title: PowerApps pr. iegulš. Core HR
+title: PowerApps programmu iegulšana Dynamics 365 — Core HR
 description: Šajā tēmā izskaidrots, kā atrisināt problēmu, kad PowerApps izvēlnes elements netiek rādīts sistēmas administrēšanas modulī.
 author: andreabichsel
 manager: AnnBe
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742823"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008434"
 ---
-# <a name="embed-powerapps-apps-in-core-hr"></a>PowerApps pr. iegulš. Core HR
+# <a name="embed-powerapps-apps-in-core-hr"></a>PowerApps programmu iegulšana Core HR
 
 [!include [banner](includes/banner.md)]
 
-**Izsniegt**
+**Izejas plūsma**
 
 **PowerApps** izvēlnes elements netiek rādīts modulī **Sistēmas administrēšana**.
 
@@ -36,15 +36,15 @@ ms.locfileid: "1742823"
 
 Ir mainīts lietotāja interfeisa (UI) noformējums, un pakalpojums Microsoft PowerApps tagad ir ietverts standarta personalizācijas modelī.
 
-**Izšķirtspēja**
+**Novēršana**
 
-Ir mainīts veids, kā PowerApps programmas tiek iegultas. PowerApps progr. tagad pievieno, lietojot personal. modeli. Varat pievienot PowerApps programmas gandrīz visās Microsoft Dynamics 365 for Talent lapās.
+Ir mainīts veids, kā PowerApps programmas tiek iegultas. PowerApps programmas tagad pievieno, lietojot personalizācijas modeli. Varat pievienot PowerApps programmas gandrīz visās Microsoft Dynamics 365 Talent lapās.
 
-Inf. par to, kā programmā Talent iegult PowerApps progr., sk. [PowerApps progr. ieg](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Informāciju par to, kā programmā Talent iegult PowerApps programmas, skatiet [Iegult PowerApps programmas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
-Visiem PowerApps klientiem, kas veica progr. iegulš. pirms izm., ir jābūt jauninātiem uz jauno modeli.
+Visiem PowerApps klientiem, kas veica programmu iegulšanu pirms izmaiņām, ir jābūt jauninātiem uz jauno modeli.
 
-Poga **PowerApps** ir gandrīz visu Talent lapu augšējā labajā stūrī. Šo pogu var lietot, lai ievietotu PowerApps progr.
+Poga **PowerApps** ir gandrīz visu Talent lapu augšējā labajā stūrī. Šo pogu var lietot, lai ievietotu PowerApps programmu.
 
 Tālāk ir minēts piemērs.
 
@@ -67,4 +67,4 @@ Vai arī veiciet šādas darbības.
 
 2. Rīkjoslā atlasiet **Ievietot \> PowerApp**.
 
-    ![PowerApps progr. ievietošana, lietojot personaliz. rīkjoslu](media/powerapp-bar.png)
+    ![PowerApps programmas ievietošana, lietojot personalizēšanas rīkjoslu](media/powerapp-bar.png)

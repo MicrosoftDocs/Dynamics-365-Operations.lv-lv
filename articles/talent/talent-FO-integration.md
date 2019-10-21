@@ -1,9 +1,9 @@
 ---
-title: Bieži uzdotie jautājumi par Dynamics 365 for Talent integrāciju ar Dynamics 365 for Finance and Operations
-description: Šajā tēmā ir paskaidrots, kādi dati tiek sinhronizēti risinājumu Talent un Finance and Operations integrācijas laikā.
+title: Bieži uzdotie jautājumi par Dynamics 365 Talent integrāciju ar Dynamics 365 Finance
+description: Šajā tēmā ir paskaidrots, kādi dati tiek sinhronizēti risinājumu Talent un Finance integrācijas laikā.
 author: andreabichsel
 manager: AnnBe
-ms.date: 01/09/2019
+ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742719"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251018"
 ---
-# <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 for Talent integrāciju ar Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 Talent integrāciju ar Dynamics 365 Finance
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par to, kādi dati tiek sinhronizēti, integrējot Dynamics 365 for Talent ar Dynamics 365 for Finance and Operations.
+Šajā tēmā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par to, kādi dati tiek sinhronizēti, integrējot Dynamics 365 Talent ar Dynamics 365 Finance.
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Vai tiek sinhronizēti visi dati vai tikai daži datu elementi?
 
-Core Human Resources (HR) gadījumā tiek sinhronizēta datu apakškopa. Visu elementu sarakstu skatiet tēmā [Dynamics 365 for Talent integrācija ar Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).
+Core HR gadījumā tiek sinhronizēta datu apakškopa. Visu elementu sarakstu skatiet tēmā [Integrācija no Dynamics 365 Talent uz Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Attract un Onboard gadījumā visi dati tiek iegūti no Common Data Service.
 
@@ -40,15 +40,15 @@ Attract un Onboard gadījumā visi dati tiek iegūti no Common Data Service.
 
 Veidnes ir sākumpunkts. Varat izveidot savu veidni, taču veidne vienmēr ir nepieciešama, veidojot integrācijas projektu. Plašāku informāciju par datu integrētāju (DI), veidnēm un projektiem skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Vai var kartēt finanšu dimensijas pārsūtīšanai starp Talent un Finance and Operations?
+## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance"></a>Vai var kartēt finanšu dimensijas pārsūtīšanai starp Talent un Finance?
 
 Finanšu dimensijas pašlaik nav pakalpojumā Common Data Service un līdz ar to nav noklusējuma veidnes sastāvdaļa. Šis elements ir plānots, bet pašlaik nav zināms izlaišanas laiks.
 
-Tādu datu gadījumā, kuri atrodas risinājumā Finance and Operations, bet kuru nav risinājumā Talent, saistiet abas sistēmas kopā, izmantojot vienumu **Konfigurēt saites** risinājumā Talent. Plašāku informāciju par to, kā konfigurēt saites starp Talent un Finance and Operations, skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 31. oktobris)](whats-new-talent-october-31.md).
+Tādu datu gadījumā, kuri atrodas risinājumā Finance, bet kuru nav risinājumā Talent, saistiet abas sistēmas kopā, izmantojot vienumu **Konfigurēt saites** risinājumā Talent. Plašāku informāciju par to, kā konfigurēt saites starp Talent un Finance, skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 31. oktobris)](whats-new-talent-october-31.md).
 
 ![Kartēt finanšu dimensijas](media/MapFinancialDimensions.png)
 
-## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Dažreiz, importējot darbiniekus, tie tiek iekļauti neaktīvo darbinieku sarakstā risinājumā Finance and Operations. Kādēļ?
+## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Dažreiz, importējot darbiniekus, tie tiek iekļauti neaktīvo darbinieku sarakstā risinājumā Finance. Kādēļ?
 
 Šī kļūda var rasties, ja darbiniekiem nav aktīva nodarbinātības detalizētas informācijas ieraksta risinājumā Talent. Lai to atrisinātu, atveriet sadaļu **Personāla vadība \> Darbinieki \> Nodarbinātības vēsture \> Datumu pārvaldnieks** un pārbaudiet, vai ir aktīvs nodarbinātības detalizētas informācijas ieraksts.
 
@@ -62,7 +62,7 @@ Ar opciju “Papildu vaicājums” varat filtrēt un pārveidot avota datus pirm
 
 ![Aktīvo darbinieku papildu vaicājums](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
-## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Vai var norādīt, kurus laukus nosūtīt uz risinājumu Finance and Operations konkrētam elementam?
+## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Vai var norādīt, kurus laukus nosūtīt uz risinājumu Finance konkrētam elementam?
 
 Laukus var pievienot vai noņemt no integrācijas uzdevuma. Ne visi datu lauki, kas pastāv pakalpojuma Common Data Service elementā, tiks aizpildīti no Core HR.
 Papildu datus var aizpildīt, izmantojot PowerApps.
@@ -75,7 +75,7 @@ Izņēmumu apstrādei nav nepieciešama īpaša iestatīšana. Datu integrētāj
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Vai var iestatīt divvirzienu integrāciju?
 
-Nē, pašlaik tiek nodrošināta vienvirziena integrācija (no Talent uz Finance and Operations). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Talent uz Finance and Operations.
+Nē, pašlaik tiek nodrošināta vienvirziena integrācija (no Talent uz Finance and Operations). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Talent uz Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Vai var atļaut ieraksta dzēšanu integrācijas ietvaros?
 
@@ -93,13 +93,13 @@ Ja tiek izmantota noklusējuma veidne, integrācijas atslēgas tiks importētas 
 
 ## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a>Ja ir noteikts skaits N juridisko personu, kurās nodarbinātajiem ir iestatītas nodarbinātības, vai ir jāveido kartējums katrai no tām?
 
-Jā, katrai juridiskajai personai risinājumā Finance and Operations ir nepieciešams atsevišķs integrācijas projekts datu integrācijas ietvaros.
+Jā, katrai juridiskajai personai risinājumā Finance ir nepieciešams atsevišķs integrācijas projekts datu integrācijas ietvaros.
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Ir nepieciešams pārsūtīt datus, kas nav daļa no Microsoft nodrošinātās noklusējuma veidnes. Vai to var izdarīt?
 
 Jā, esošajai veidnei var pievienot vai noņemt laukus. Veidni var modificēt, lai iekļautu papildu datus no citiem Common Data Service elementiem. Lai elements tiktu iekļauts veidnē, tam ir jāatrodas pakalpojumā Common Data Service. 
 
-## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Es tikko izveidoju jaunas Finance and Operations un Talent vides, un tiek rādīts kļūdas ziņojums “Datu vērtība ir ārpus integritātes ierobežojumiem”. Kādēļ?
+## <a name="i-just-created-new-finance-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Es tikko izveidoju jaunas Finance un Talent vides, un tiek rādīts kļūdas ziņojums “Datu vērtība ir ārpus integritātes ierobežojumiem”. Kādēļ?
 
 Minētajai kļūdai var būt šādi iemesli:
 
@@ -109,9 +109,9 @@ Minētajai kļūdai var būt šādi iemesli:
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ja radušās izpildes kļūdas un darbinieka ID netika sinhronizēts, kā atrast vēsturē darbu, kurā ir nesekmīgi apstrādātais darbinieka ieraksts?
 
-Datu integrētājs izveidos vairākus projektus risinājumā Finance and Operations. Relācija starp datu integrētāja uzdevumu un Finance and Operations projektu ir viens pret vienu.
+Datu integrētājs izveidos vairākus projektus risinājumā Finance. Relācija starp datu integrētāja uzdevumu un Finance projektu ir viens pret vienu.
 
-Izsekojiet laiku datu integrētāja izpildes vēsturē un meklējiet projektu ar vērtību “indekss – 1” risinājumā Finance and Operations. Ja datu integrētājā uzdevuma numurs ir 9, indekss risinājumā Finance and Operations ir 8.
+Izsekojiet laiku datu integrētāja izpildes vēsturē un meklējiet projektu ar vērtību “indekss -1” risinājumā Finance. Ja datu integrētājā uzdevuma numurs ir 9, indekss risinājumā Finance ir 8.
 
 1. Iegūstiet uzdevuma indeksu no datu integrētāja (šajā piemērā tas ir “9”).
 
@@ -121,13 +121,13 @@ Izsekojiet laiku datu integrētāja izpildes vēsturē un meklējiet projektu ar
 
 ![Projekta izpildes laika izsekošana](media/CaptureTimeOfExecution.png)
 
-3. Risinājumā Finance and Operations atrodiet vērtību “indekss – 1”. Šajā piemērā projekts ar sufiksu “8” un projekta ar indeksu “0” izpildes laiks atbilst izpildes laikam 2. darbībā.
+3. Risinājumā Finance norādiet indeksu-1. Šajā piemērā projekts ar sufiksu “8” un projekta ar indeksu “0” izpildes laiks atbilst izpildes laikam 2. darbībā.
 
 ![Indeksa atrašana](media/IdentifyIndex.png)
 
-## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Pēc Talent un Finance and Operations integrācijas Talent dati netiek rādīti risinājumā Finance and Operations. Ko darīt?
+## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Pēc Talent un Finance integrācijas Talent dati netiek rādīti risinājumā Finance. Ko darīt?
 
-Integrācija risinājumā Finance and Operations paredz divas darbības. Vispirms pārliecinieties, vai Talent dati ir atjaunināti un ir pieejami pakalpojumā Common Data Service. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā PowerApps, skatot datus, kuri ir datu elementos.
+Integrācija risinājumā Finance paredz divas darbības. Vispirms pārliecinieties, vai Talent dati ir atjaunināti un ir pieejami pakalpojumā Common Data Service. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā PowerApps, skatot datus, kuri ir datu elementos.
 
 ![Dati pakalpojumā Common Data Service](media/DataInCDS.png)
 
@@ -135,24 +135,24 @@ Ja dati pakalpojumā Common Data Service netiek rādīti paredzētajā veidā, p
 
 Ja elements tiek atbalstīts un šie dati ir pieejami pakalpojumā Common Data Service, pārbaudiet, vai datu integrētājā ir pareizs kartējums. Ja integrētāja kartējums ir pareizs, pārbaudiet, vai ir veiksmīgi izpildīti datu pārvaldības darbi. Pakešveida darbu izpildes laikā var rasties kļūdas. Plašāku informāciju par to, kā izmantot rīku Datu pārvaldība, skatiet sadaļā [Datu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
-## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Manu darbinieku adreses ir nepareizas pēc tam, kad tās ir importētas risinājumā Finance and Operations. Ko darīt?
+## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Manu darbinieku adreses ir nepareizas pēc tam, kad tās ir importētas risinājumā Finance. Ko darīt?
 
-Vienuma **Atrašanās vietas ID** numuru sērija izmanto vienu un to pašu modeli gan risinājumā Talent, gan Finance and Operations. Numuru sērijai ir jābūt unikālai abās pusēs, lai nebūtu adrešu sadursmju, integrējot datus no Common Data Service uz Finance and Operations.
+Vienuma **Atrašanās vietas ID** numuru sērija izmanto vienu un to pašu modeli gan risinājumā Talent, gan Finance. Numuru sērijai ir jābūt unikālai abās pusēs, lai nebūtu adrešu sadursmju, integrējot datus no Common Data Service uz Finance and Operations.
 
-Veicot Talent ieviešanu, pārbaudiet, vai numuru sērijas nav vienādas risinājumā Talent un Finance and Operations. Pārbaudiet, vai visas numuru sērijas nav identiskas, ja dati tiek uzturēti abās sistēmās.
+Veicot Talent ieviešanu, pārbaudiet, vai numuru sērijas nav vienādas risinājumā Talent un Finance. Pārbaudiet, vai visas numuru sērijas nav identiskas, ja dati tiek uzturēti abās sistēmās.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Izveidojot savienojumu kopu, savienojums netiek rādīts nolaižamajā sarakstā Savienojums. Ko darīt?
 
-Pārliecinieties, ka, veidojot savienojumus, izvēlaties Dynamics 365 for Finance and Operations (pašlaik priekšskatījumā) un Common Data Service.
+Pārliecinieties, ka, veidojot savienojumus, izvēlaties Dynamics 365 Finance un Common Data Service.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Veicot nodarbinātību sinhronizāciju, tiek parādīti kļūdas ziņojumi “CompanyInfo_FK neeksistē” vai “Vērtība “31.12.2154. 23:59:59” laukā “Nodarbinātības beigu datums” nav atrasta saistītajā tabulā “Nodarbinātība”.” Ko darīt?
 
-Pārliecinieties, ka veicat kartēšanu pareizajai juridiskajai personai. Juridiskās personas sinhronizēšana neietilpst noklusējuma veidnē, tāpēc ir paredzēts, ka visas juridiskās personas, kas atrodas programmā Talent un Common Data Service, atrodas arī programmā Finance and Operations.
+Pārliecinieties, ka veicat kartēšanu pareizajai juridiskajai personai. Juridiskās personas sinhronizēšana neietilpst noklusējuma veidnē, tāpēc ir paredzēts, ka visas juridiskās personas, kas atrodas programmā Talent un Common Data Service, atrodas arī programmā Finance.
 Pārliecinieties, ka esat atlasījis pareizās juridiskās personas saistītajai savienojumu kopai.
 
-## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Pēc mana projekta iestatīšanas lauku kartējums risinājumam Finance and Operations ir tukšs. Ko darīt?
+## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Pēc mana projekta iestatīšanas lauku kartējums risinājumam Finance ir tukšs. Ko darīt?
 
-Atsvaidziniet datu elementus risinājumā Finance and Operations, atverot sadaļu **Datu pārvaldība \> Struktūras parametri \> Elementu iestatījumi \> Atsvaidzināt elementu sarakstu.** Šīs darbības pabeigšanai ir nepieciešamas dažas minūtes, un pēc tam būs redzami attiecīgie kartējumi. Šī problēma rodas, veidojot jaunus projektus.
+Atsvaidziniet datu elementus risinājumā Finance, atverot sadaļu **Datu pārvaldība \> Struktūras parametri \> Elementu iestatījumi \> Atsvaidzināt elementu sarakstu.** Šīs darbības pabeigšanai ir nepieciešamas dažas minūtes, un pēc tam būs redzami attiecīgie kartējumi. Šī problēma rodas, veidojot jaunus projektus.
 
 ![Trūkst lauku kartējuma](media/MissingFieldMapping.png)
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546229"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250604"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori 
 
@@ -36,13 +36,13 @@ Strādājot ar ražotnē vai noliktavā esošajām precēm programmā Microsoft 
 
 ## <a name="unique-product-numberproduct-id"></a>Unikāls preces numurs/preces ID
 
-Programmā Microsoft Dynamics 365 for Finance and Operations preces galvenais identifikators ir preces numurs (unikālais preces ID). Šo numuru var automātiski ģenerēt, izmantojot numuru sēriju, vai manuāli saistīt ar preci. Preču variantu numurus var definēt, izmantojot preču nomenklatūras veidni.
+Programmā Dynamics 365 Supply Chain Management preces galvenais identifikators ir preces numurs (unikālais preces ID). Šo numuru var automātiski ģenerēt, izmantojot numuru sēriju, vai manuāli saistīt ar preci. Preču variantu numurus var definēt, izmantojot preču nomenklatūras veidni.
 
-Bieži vien preces numurs nav sākotnēji izveidots programmatūrā Finance and Operations. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam programmatūrā Finance and Operations visu darbību veikšanai tiek izmantoti numuri.
+Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supply Chain Management. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam Supply Chain Management izmanto visu operāciju numurus.
 
-Ieviešot Finance and Operations, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
+Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
 
-Ja lietojat pakalpojumu Common Data Service (CDS), programmā Finance and Operations lietotais preces numurs tiek izmantots arī pakalpojumā CDS. Preču varianti tiek sinhronizēti ar pakalpojumu CDS kā atšķirīgas preces.
+Izmantojot Common Data Service, preču numurs Supply Chain Management ir arī preces numurs Common Data Service. Preču varianti tiek sinhronizēti ar pakalpojumu Common Data Service kā atšķirīgas preces.
 
 ## <a name="item-number-and-product-dimensions"></a>Krājuma numurs un preces dimensijas
 
@@ -56,19 +56,19 @@ Turklāt varat meklēt un filtrēt pēc preces numura, preces nosaukuma un aprak
 
 ## <a name="product-name-and-description"></a>Preces nosaukums un apraksts
 
-Preces nosaukums un apraksts ir cilvēkiem saprotami preces identifikatori, un tos var uzturēt daudzās valodās. Pēc noklusējuma Finance and Operations klientā visa informācija par precēm tiek rādīta uzņēmuma noklusējuma valodā, nevis lietotāja valodā. Taču saziņai ar debitoriem un kreditoriem vienmēr tiek izmantoti tulkotie preču nosaukumi un apraksti. Tulkojumi ir atkarīgi no kreditora konta un debitora konta valodas koda.
+Preces nosaukums un apraksts ir cilvēkiem saprotami preces identifikatori, un tos var uzturēt daudzās valodās. Pēc noklusējuma Supply Chain Management klientā visa informācija par precēm tiek rādīta uzņēmuma noklusējuma valodā, nevis lietotāja valodā. Taču saziņai ar debitoriem un kreditoriem vienmēr tiek izmantoti tulkotie preču nosaukumi un apraksti. Tulkojumi ir atkarīgi no kreditora konta un debitora konta valodas koda.
 
 Preču variantu preču nosaukumus var ģenerēt, izmantojot preču nomenklatūras veidni. Tā kā preču nosaukumiem nav jābūt unikāliem, vairākām precēm var būt vienādi nosaukumi.
 
 ## <a name="product-and-item-search-names"></a>Preču un krājumu saīsinātie nosaukumi
 
-Programmatūrā Finance and Operations ir pieejams papildu saīsinātais nosaukums, ko var izmantot precēm, kā arī krājumiem (izlaisto preču). Šim saīsinātajam nosaukumam nav jābūt unikālam, un to var mainīt pēc preces vai preces varianta izveides. Ir ieteicams izmantot saīsināto nosaukumu, lai meklētu preces pēc kategorijas. Saīsinātie nosaukumi nodrošina ātru meklēšanu, jo īpaši pārdošanas un pirkšanas procesu ietvaros.
+Programmatūrā Supply Chain Management ir pieejams papildu saīsinātais nosaukums, ko var izmantot precēm, kā arī krājumiem (izlaisto preču). Šim saīsinātajam nosaukumam nav jābūt unikālam, un to var mainīt pēc preces vai preces varianta izveides. Ir ieteicams izmantot saīsināto nosaukumu, lai meklētu preces pēc kategorijas. Saīsinātie nosaukumi nodrošina ātru meklēšanu, jo īpaši pārdošanas un pirkšanas procesu ietvaros.
 
 Saīsinātajā nosaukumā var ietvert arī kreditora vai debitora preces ID vai kādu citu ārēju preces ID, ja šis ārējais ID ir galvenais preces meklēšanas kritērijs.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Ārēji preču identifikatori (debitoru un kreditoru identifikatori)
 
-Izlaistajām precēm varat uzturēt debitora vai kreditora lietotos krājumu numurus, krājumu nosaukumus un krājumu aprakstus. Atsauces tiek rādītas ārējos dokumentos, piemēram, pārdošanas pasūtījumos, pirkšanas pasūtījumos, pavadzīmēs un rēķinos. Pašreizējā Finance and Operations versijā ārējās atsauces netiek rādītas pamatdarbību lapās. Vienīgais izņēmums ir kreditora krājuma numurs. Šis numurs tiek rādīts dialoglodziņā **Preces informācija**, ja saistītajai precei ir definēts noklusējuma kreditors.
+Izlaistajām precēm varat uzturēt debitora vai kreditora lietotos krājumu numurus, krājumu nosaukumus un krājumu aprakstus. Atsauces tiek rādītas ārējos dokumentos, piemēram, pārdošanas pasūtījumos, pirkšanas pasūtījumos, pavadzīmēs un rēķinos. Pašreizējā Supply Chain Management versijā ārējās atsauces netiek rādītas pamatdarbību lapās. Vienīgais izņēmums ir kreditora krājuma numurs. Šis numurs tiek rādīts dialoglodziņā **Preces informācija**, ja saistītajai precei ir definēts noklusējuma kreditors.
 
 Varat uzturēt ārējos preču identifikatorus noteiktai izlaistajai precei, izlaistajam preces variantam, debitoram, debitoru grupai, kreditoram vai kreditoru grupai.
 
@@ -77,7 +77,7 @@ Lapā **Izlaistās preces** veiciet vienu no tālāk norādītajām darbībām.
 - Ja strādājat ar debitoriem, cilnes **Pārdošana** grupā **Saistītā informācija** atlasiet **Ārējā krājuma apraksts**.
 - Ja strādājat ar kreditoriem, cilnes **Pirkšana** grupā **Saistītā informācija** atlasiet **Ārējais krājuma apraksts**.
 
-Lapā **Ārējais krājuma nosaukums** varat saistīt debitora vai kreditora krājuma numuru ar izlaistu preci. Šī saistīšana ir jāveic katrai juridiskajai personai. Var ietvert tālāk norādīto informāciju. Diemžēl pašreizējā Finance and Operations versijā etiķetes ir nedaudz maldinošas. Taču šīs etiķetes, iespējams, tiks mainītas nākamajās versijās.
+Lapā **Ārējais krājuma nosaukums** varat saistīt debitora vai kreditora krājuma numuru ar izlaistu preci. Šī saistīšana ir jāveic katrai juridiskajai personai. Var ietvert tālāk norādīto informāciju. Diemžēl pašreizējā Supply Chain Management versijā etiķetes ir nedaudz maldinošas. Taču šīs etiķetes, iespējams, tiks mainītas nākamajās versijās.
 
 | Lauks | Atbilstoša debitora informācija | Atbilstoša kreditora informācija |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ Lai uzturēt svītrkodus, lapas **Izlaistās preces** cilnes **Pārvaldīt krāj
 
 E-komercijas ietvaros ir ļoti svarīgi, lai visas puses savstarpēji saprastos un izmantotu kopīgu preču identifikatoru kopu. Tāpēc dažās nozarēs tiek izmantota globālā krājumu numerācijas sistēma [GTIN](https://www.gs1.org/id-keys/gtin), ko nodrošina GS1.
 
-Programmatūrā Finance and Operations ir ieteicams uzturēt GTIN kā svītrkodu. Taču to var uzturēt arī lapā **Krājumi — GTIN**. Lai atvērtu šo lapu, lapas **Izlaistās preces** cilnes **Pārvaldīt krājumus** grupā **Noliktava** atlasiet **GTIN kodi**. Ņemiet vērā, ka GTIN netiek uzturēts kā globāls numurs. Tā vietā tas tiek uzturēts noteiktai juridiskajai personai.
+Iesakām uzturēt GTIN kā svītrkodu. Taču to var uzturēt arī lapā **Krājumi — GTIN**. Lai atvērtu šo lapu, lapas **Izlaistās preces** cilnes **Pārvaldīt krājumus** grupā **Noliktava** atlasiet **GTIN kodi**. Ņemiet vērā, ka GTIN netiek uzturēts kā globāls numurs. Tā vietā tas tiek uzturēts noteiktai juridiskajai personai.
 
-Programmatūrā Finance and Operations noliktavas darbību ietvaros iepakojuma varianti tiek definēti, norādot noteiktas mērvienības. Piemēram, krājums var tikt glabāts atsevišķos gabalos, komplektos pa sešiem, paplātēs pa 18 vai pilnās paletēs. Katram no šiem iepakojuma variantiem tiek definēta noteikta mērvienība. Tā kā GTIN parasti ir saistīts ar preces iepakojuma vienību, lapā **Krājumi — GTIN** varat uzturēt vairākus GTIN kodus katrai precei un mērvienībai. Taču nevarat vairākas reizes izmantot vienu GTIN kodu dažādiem vienas juridiskās personas krājumiem vai preču variantiem.
+Programmatūrā Supply Chain Management noliktavas darbību ietvaros iepakojuma varianti tiek definēti, norādot noteiktas mērvienības. Piemēram, krājums var tikt glabāts atsevišķos gabalos, komplektos pa sešiem, paplātēs pa 18 vai pilnās paletēs. Katram no šiem iepakojuma variantiem tiek definēta noteikta mērvienība. Tā kā GTIN parasti ir saistīts ar preces iepakojuma vienību, lapā **Krājumi — GTIN** varat uzturēt vairākus GTIN kodus katrai precei un mērvienībai. Taču nevarat vairākas reizes izmantot vienu GTIN kodu dažādiem vienas juridiskās personas krājumiem vai preču variantiem.
 
 Lai uzturētu **GTIN kodus**, lapas **Izlaistās preces** cilnes **Pārvaldīt krājumus** grupā **Noliktava** atlasiet **GTIN**.
 
 ## <a name="external-codes"></a>Ārējie kodi
 
-Programmatūrā Finance and Operations daudziem elementiem var definēt ārējos kodus. Piemēram, varat definēt ārējos kodus, lai identificētu preces un izlaistās preces. Šos ārējos kodus var izmantot, lai saistītu statistikas kodus vai nodokļu kodus ar izlaistajām precēm un izlaistajiem preču variantiem. Ārējie kodi tiek definēti atbilstoši juridiskajai personai un koda veidam. Tiem ir jābūt unikāliem, salīdzinot juridisko personu, koda veidu un tabulas atsauci.
+Ārējos kodus var definēt vairākiem uzņēmumiem. Piemēram, varat definēt ārējos kodus, lai identificētu preces un izlaistās preces. Šos ārējos kodus var izmantot, lai saistītu statistikas kodus vai nodokļu kodus ar izlaistajām precēm un izlaistajiem preču variantiem. Ārējie kodi tiek definēti atbilstoši juridiskajai personai un koda veidam. Tiem ir jābūt unikāliem, salīdzinot juridisko personu, koda veidu un tabulas atsauci.
 
 Diemžēl nepastāv standarta funkcijas, kas sniedz iespēju meklēt preces pēc ārējiem kodiem.
 
@@ -136,13 +136,13 @@ Diemžēl nepastāv standarta funkcijas, kas sniedz iespēju meklēt preces pēc
 
 ### <a name="product-and-item-number-sequences"></a>Preču un krājumu numuru sērijas
 
-Programmatūrā Finance and Operations varat definēt divas dažādas numuru sērijas, kas ir norādītas tālāk.
+Varat definēt divas dažādas numuru secības:
 
 - Numuru sērija **Preces numurs**, kas tiek izmantota globālajam preces numuram
 - Numuru sērija **Krājuma numurs**, kas tiek izmantota juridiskās personas krājuma numuram
 
 > [!NOTE]
-> Izmantojiet krājuma numuru kā atsevišķu identifikatoru tikai tad, ja migrējat dažādas juridiskās personas no dažādiem avotiem ar dažādām numurēšanas sistēmām. Vienmēr centieties izmantot preces identifikatoru, kas ir unikāls visām juridiskajām personām. Tāpēc iestatiet opcijas **Manuāli** vērtība **Jā** numuru sērijai **Krājuma numurs**. Tādējādi izveides laikā krājuma numurs seko preces numuram. Ja Finance and Operations nav galvenā jaunā preču numuru sistēma, iestatiet opcijas **Manuāli** vērtību **Jā** gan numuru sērijai **Krājuma numurs**, gan numuru sērijai **Preces numurs**.
+> Izmantojiet krājuma numuru kā atsevišķu identifikatoru tikai tad, ja migrējat dažādas juridiskās personas no dažādiem avotiem ar dažādām numurēšanas sistēmām. Vienmēr centieties izmantot preces identifikatoru, kas ir unikāls visām juridiskajām personām. Tāpēc iestatiet opcijas **Manuāli** vērtība **Jā** numuru sērijai **Krājuma numurs**. Tādējādi izveides laikā krājuma numurs seko preces numuram. Ja Supply Chain Management nav galvenā jaunā preču numuru sistēma, iestatiet opcijas **Manuāli** vērtību **Jā** gan numuru sērijai **Krājuma numurs**, gan numuru sērijai **Preces numurs**.
 
 Ja preču izveidei izmantojat elementu **Izlaistā prece V2**, to, kā numuru sērijas tiek izmantotas preces numura un krājuma numura izveidei, var ietekmēt vairāki tālāk norādītie iestatījumi.
 
@@ -170,7 +170,7 @@ Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem 
 
 Veiciet tālāk norādītās darbības, lai konfigurētu vidi.
 
-1. Atlasiet CDS kategoriju hierarhiju. Ja lapā **Kategoriju hierarhijas lomas saistības** ar lomu **Common Data Service** nav saistīta neviena hierarhija, ir jāizveido jauna saistība. Atlasiet lomu **Common Data Service** un pēc tam saistiet to kategoriju hierarhiju, kas atbilst ar CDS sinhronizējamajam preču portfelim.
+1. Atlasiet CDS kategoriju hierarhiju. Ja lapā **Kategoriju hierarhijas lomas saistības** ar lomu **Common data service** nav saistīta neviena hierarhija, ir jāizveido jauna saistība. Atlasiet lomu **Common data service** un pēc tam saistiet to kategoriju hierarhiju, kas atbilst ar CDS sinhronizējamajam preču portfelim.
 2. Atlasiet globālo preču pamatdatu juridisko personu. Lapas **Preču informācijas pārvaldības parametri** cilnē **Preces īpašības** atlasiet galveno uzņēmumu, kas galvenokārt tiek izmantots preču un krājumu identifikatoru uzturēšanai.
 3. Definējiet eksportējamos identifikatoru kodu veidus un kodus. Pārejiet uz sadaļu **Preču informācijas pārvaldība** &gt; **Iestatījumi** &gt; **Preču identifikatoru kodi**. Lai ģenerētu identifikatoru kodu veidus, atlasiet **Ģenerēt kodus**. Tiek ģenerēts koda tipa ieraksts atbilstoši katram identifikatora veidam, kas ir atrasts atlasītās juridiskās personas datos.
 

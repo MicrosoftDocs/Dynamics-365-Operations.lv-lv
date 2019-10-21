@@ -1,6 +1,6 @@
 ---
-title: Iegūt programmu Dynamics 365 for Talent - Onboard
-description: Šajā tēmā ir paskaidrots, kā iegūt savrupu programmas Microsoft Dynamics 365 for Talent - Onboard versiju vai versiju, kurā ir iekļauts Visaptverošais darbā pieņemšanas papildinājums.
+title: Programmas Dynamics 365 Talent - Onboard iegūšana
+description: Šajā tēmā ir paskaidrots, kā iegūt savrupu programmas Microsoft Dynamics 365 Talent - Onboard versiju vai versiju, kurā ir iekļauts Visaptverošais darbā pieņemšanas papildinājums.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731561"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010779"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>Iegūt Dynamics 365 for Talent: Onboard programma
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>Iegūt programmu Dynamics 365 Talent: Onboard
 
 [!include [banner](includes/banner.md)]
 
-Varat apskatīt demonstrāciju un izmēģināt Microsoft Dynamics 365 for Talent: Onboard programmu bez maksas [Onboard produktu lapā](https://dynamics.microsoft.com/talent/onboard/)
+Varat apskatīt demonstrāciju un izmēģināt programmu Microsoft Dynamics 365 Talent: Onboard bez maksas [Onboard produktu lapā](https://dynamics.microsoft.com/talent/onboard/)
 
 > [!NOTE]
 > Bezmaksas izmēģinājumversijai ir nepieciešams uzņēmuma e-pasta konts.
 
-Varat iegādāties abonementu uz Onboard vai nu kā savrupu programmu vai daļu no Dynamics 365 for Talent. Talants ir visaptveroša cilvēkkapitāla pārvaldības (HCM) sistēma, kas ietver Dynamics 365 for Talent: Attract, Onboard un Core HR. Papildinformāciju par to, kā iegādāties Onboard, skatiet [Onboard produktu lapu](https://dynamics.microsoft.com/talent/onboard/).
+Varat iegādāties abonementu uz Onboard vai nu kā savrupu programmu vai daļu no Dynamics 365 Talent. Talants ir visaptveroša cilvēkkapitāla pārvaldības (HCM) sistēma, kas ietver Dynamics 365 Talent: Attract, Onboard un Core HR. Papildinformāciju par to, kā iegādāties Onboard, skatiet [Onboard produktu lapu](https://dynamics.microsoft.com/talent/onboard/).
 
 Izmēģinājuma vai pirkšanas procesa laikā jūs iestatīsit savu Microsoft 365 e-pasta adresi un paroli. Noteikti pierakstiet šīs vērtības.
 
 > [!WARNING]
 > Datus no izmēģinājumversijas nevar migrēt uz maksas abonementa vidi. <!--Reviewers: please verify.-->
 
-Plašāku informāciju par jaunajiem līdzekļiem programmā Talent skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 for Talent](./whats-new.md) un [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes/index). Ja vēlaties priekšskatīt jaunos līdzekļus programmā Onboard, skatiet rakstu [Piekļuve priekšskatījuma līdzekļiem programmā Talent](./access-preview-feature.md).
+Plašāku informāciju par jaunajiem līdzekļiem programmā Talent skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Talent](./whats-new.md) un [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes/index). Ja vēlaties priekšskatīt jaunos līdzekļus programmā Onboard, skatiet rakstu [Piekļuve priekšskatījuma līdzekļiem programmā Talent](./access-preview-feature.md).
 
 Ja esat IT profesionālis un vēlaties uzzināt vairāk par to, kā tiek nodrošinātas abas programmas Onboard versijas, skatiet rakstu [Programmas Onboard nodrošināšana](./modular-app-tech-faq.md)
 

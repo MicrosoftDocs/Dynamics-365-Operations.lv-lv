@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 16. oktobris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 16. oktobris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent — Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/22/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 51cfe8a92d1ac611e946934fe8ebbc99053788f1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 13e89faa3f8470125010ccdb40a6f01c0a9c4fe7
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518577"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008781"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 19. oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-19-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 19. oktobris)
 
 [!include[banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Drošības pienākums, kas kontrolē piekļuvi šai funkcionalitātei, ir šāds
 Šajā laidienā ir ieviesti tālāk aprakstītie atjauninājumi.
 - Izmaiņas nodarbināto darbā pieņemšanas darbībās, lai nodarbinātie vairs “neiestrēgtu” stāvoklī **Darbplūsma izpildīta**.
 - Nodarbinātības ierakstu tagad var izveidot bez nodarbinātības sākuma datuma.
-- Dynamics 365 Talent reģistrācijas datums kursam, kas tiek rādīts darbinieku pašapkalpošanās sadaļā, tagad datumam lieto laika joslas nobīdi.
+- Dynamics 365 Talent reģistrācijas datums kursam, kas tiek rādīts darbinieku pašapkalpošanās sadaļā, tagad datumam lieto laika joslas nobīdi.
 - Excel failus var importēt vairākas reizes bez kļūdām, izmantojot **elementu Darbinieks**.
 
 ## <a name="known-issue"></a>Zināma problēma

@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865116"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251412"
 ---
 # <a name="warehouse-work-policies-overview"></a>Noliktavas darba politiku pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Noliktavas darba politikas programmā Microsoft Dynamics 365 for Finance and Operations kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci.
+Noliktavas darba politikas kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci.
 
 Šī darba politika kontrolē to, vai ražošanā noliktavas procesiem tiek izveidots noliktavas darbs. Šo darba politiku varat iestatīt, izmantojot kombināciju no vienumiem **darba pasūtījuma veidi**, **krājumu novietojums** un **prece**. Piemēram, prece L0101 tiek ziņota kā pabeigta uz izvades novietojumu 001. Vēlāk šī pabeigtā prece tiek patērēta citā ražošanas pasūtījumā izvades novietojumā 001. Šajā gadījumā varat iestatīt darba politiku, lai neļautu izveidot darbu gatavo preču izvietošanai, kad preci L0101 ziņojat kā pabeigtu uz izvades novietojumu 001. Darba politika ir atsevišķs elements, ko var aprakstīt ar tālāk norādīto informāciju.
 

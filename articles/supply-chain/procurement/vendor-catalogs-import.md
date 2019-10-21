@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569780"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017878"
 ---
 # <a name="import-vendor-catalogs"></a>Importēt piegādātāju katalogus
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Piegādātāju katalogu importēšana
 
-Programmā Microsoft Dynamics 365 for Finance and Operations iepirkumu speciālisti var izveidot un uzturēt katalogus, ko uzņēmuma darbinieki var izmantot, pasūtot krājumus un pakalpojumus iekšējai lietošanai. Lai izveidotu sagādes katalogu, varat pievienot krājumus un pakalpojumus, kurus vēlaties padarīt pieejamus darbiniekiem, Tas ir izdarāms, vai nu importējot preču kataloga datus, vai manuāli pievienojot preču kataloga datus preces šablonam. 
+Programmā Dynamics 365 Supply Chain Management iepirkumu speciālisti var izveidot un uzturēt katalogus, ko uzņēmuma darbinieki var izmantot, pasūtot krājumus un pakalpojumus iekšējai lietošanai. Lai izveidotu sagādes katalogu, varat pievienot krājumus un pakalpojumus, kurus vēlaties padarīt pieejamus darbiniekiem, Tas ir izdarāms, vai nu importējot preču kataloga datus, vai manuāli pievienojot preču kataloga datus preces šablonam. 
 
 Kreditora iesniegtos kataloga datus varat augšupielādēt Microsoft Dynamics 365 klientā.
 
@@ -52,7 +52,7 @@ Lai importētu piegādātāja kataloga datus, jums ir jāizpilda tālāk minēti
 
 6.  Augšupielādējiet CMR failu.
 
-7.  Pārskatiet, apstipriniet vai noraidiet preces šajā piegādātāju katalogā. Preces tiek automātiski kartētas uz sagādes kategorijām programmatūrā Dynamics 365 for Finance and Operations. 
+7.  Pārskatiet, apstipriniet vai noraidiet preces šajā piegādātāju katalogā. Preces tiek automātiski kartētas uz sagādes kategorijām. 
     
 Apstiprinātās preces tiek pievienotas preces šablonam un izlaistas atlasītajām juridiskajām personām. Sagādes katalogam var pievienot tikai apstiprinātās preces.
 

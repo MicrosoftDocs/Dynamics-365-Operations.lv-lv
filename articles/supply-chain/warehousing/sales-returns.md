@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559159"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249800"
 ---
 # <a name="sales-returns"></a>Atgrieztās pārdotās preces
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559159"
 
 Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
 
-Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas programmā Microsoft Dynamics 365 for Finance and Operations tiek izveidots atgriešanas pasūtījums.
+Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas tiek izveidots atgriešanas pasūtījums.
 
 ## <a name="return-order-process"></a>Atgriešanas pasūtījuma apstrādes process
 Tālāk esošajā attēlā ir sniegts pārskats par atgriešanas pasūtījuma apstrādes procesu.  
@@ -281,7 +281,7 @@ Tālāk aprakstītajā scenārijā CompBuy ir pirkšanas uzņēmums un CompSell 
 
 ![Vienkārša starpuzņēmumu atgriešana](./media/SalesReturn07.png)
 
-Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums vai pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums. Programmatūra Dynamics 365 for Finance and Operations nodrošina attiecīgā pasūtījuma izvedi otrā uzņēmumā, kā arī to, ka virsraksta un rindas informācija kreditora atgriešanas pasūtījumā atbilst iestatījumiem debitora atgriešanas pasūtījumā. Izveidotajā atgriešanas pasūtījumā var tikt ietverta atsauce (**Atrast pārdošanas pasūtījumu**) uz esošu debitora rēķinu, vai arī šī atsauce var tikt izslēgta. Abu pasūtījumu rēķinus un pavadzīmes var apstrādāt atsevišķi. Piemēram, nav nepieciešams ģenerēt kreditora atgriešanas pasūtījuma pavadzīmi pirms debitora atgriešanas pasūtījuma pavadzīmes ģenerēšanas.
+Pasūtījumu ķēdi var izveidot, ja pirkšanas uzņēmumā tiek izveidots kreditora atgriešanas pasūtījums vai pārdošanas uzņēmumā tiek izveidots debitora atgriešanas pasūtījums. Tiek nodrošināta attiecīgā pasūtījuma izveide otrā uzņēmumā, kā arī to, ka virsraksta un rindas informācija kreditora atgriešanas pasūtījumā atbilst iestatījumiem debitora atgriešanas pasūtījumā. Izveidotajā atgriešanas pasūtījumā var tikt ietverta atsauce (**Atrast pārdošanas pasūtījumu**) uz esošu debitora rēķinu, vai arī šī atsauce var tikt izslēgta. Abu pasūtījumu rēķinus un pavadzīmes var apstrādāt atsevišķi. Piemēram, nav nepieciešams ģenerēt kreditora atgriešanas pasūtījuma pavadzīmi pirms debitora atgriešanas pasūtījuma pavadzīmes ģenerēšanas.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiešās piegādes sūtījuma atgriešanas starp trim pusēm
 

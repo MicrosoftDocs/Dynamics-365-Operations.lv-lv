@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773264"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008459"
 ---
 # <a name="create-a-job"></a>Izveidot darbu
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīti darba elementi programmā Microsoft Dynamics 365 for Talent: Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
+Šajā tēmā ir aprakstīti darba elementi programmā Microsoft Dynamics 365 Talent: Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
 
 ## <a name="job-creation"></a>Darba izveide
 
@@ -74,7 +74,7 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 ## <a name="postings"></a>Grāmatojumi
 
-Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Microsof Dynamics 365 for Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies. Kad darbs tiek publicēts kā tikai iekšējs, kandidātiem ir nepieciešams AAD konts, lai skatītu darbu un pieteiktos tam. Ja darbs ir publicēts kā publisks, kandidāti var skatīt darbus un pieteikties tiem, izmantojot visas autentifikācijas iespējas. 
+Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Dynamics 365 Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies. Kad darbs tiek publicēts kā tikai iekšējs, kandidātiem ir nepieciešams AAD konts, lai skatītu darbu un pieteiktos tam. Ja darbs ir publicēts kā publisks, kandidāti var skatīt darbus un pieteikties tiem, izmantojot visas autentifikācijas iespējas. 
 
 Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes funkcionalitāte programmā Attract](career-site.md).
 

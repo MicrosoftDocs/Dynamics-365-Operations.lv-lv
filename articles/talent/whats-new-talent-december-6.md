@@ -1,6 +1,6 @@
 ---
-title: Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 for Talent Core HR.
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada 6. decembris)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent — Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742590"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025960"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent Core HR (2018. gada 6. decembris)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 6. decembris)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742590"
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Core HR.
 
 
-## <a name="platform-update-22"></a>Platform update 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operations Platform update 22
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Eksportēt līdz pat 1 miljonam rindu uz programmu Excel
 
@@ -42,7 +42,7 @@ Līdzekli Eksportēt uz Excel tagad iespējams konfigurēt tā, lai ļautu lieto
 
 ### <a name="restyled-personalization-toolbar"></a>Pārveidota personalizēšanas rīkjosla
 
-Personalizēšanas rīkjosla ir pārveidota atjauninājumā Platform update 22, lai palīdzētu lietotājiem vieglāk pielāgot programmas Talent izmantošanu. Tika veiktas tālāk norādītās izmaiņas. 
+Personalizēšanas rīkjosla ir pārveidota atjauninājumā Finance and Operations Platform update 22, lai palīdzētu lietotājiem vieglāk pielāgot programmas Talent izmantošanu. Tika veiktas tālāk norādītās izmaiņas. 
 
 -  Tagad katra personalizēšanas rīka nosaukums tiek rādīts kopā ar ikonu, kas palīdz lietotājiem ātri atpazīt rīku, kuru tie vēlas izmantot.
 -  Tagad arī tiek rādīts apraksts, kā izmantot pašreizējā rīka aprakstu, kas palīdz lietotājiem saprast, kā veikt nepieciešamās personalizācijas.  
@@ -50,19 +50,19 @@ Personalizēšanas rīkjosla ir pārveidota atjauninājumā Platform update 22,
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimizēta filtrēšanas darbība "ir viens no"
 
-Filtrēšanas operators "ir viens no" ir pieejams vairākumam lauku, izmantojot filtra rūti un režģa galvenes nolaižamos sarakstus. Šis operators ļauj lietotājam filtrēt lauku, pamatojoties uz vairākām vērtībām. Jauna un uzlabota operatora "ir viens no" izmantošanas pieredze ir pieejama atjauninājumā Platform update 22. Papildinformāciju skatiet sadaļā [Optimizēta filtra "ir viens no" izmantošana](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)
+Filtrēšanas operators "ir viens no" ir pieejams vairākumam lauku, izmantojot filtra rūti un režģa galvenes nolaižamos sarakstus. Šis operators ļauj lietotājam filtrēt lauku, pamatojoties uz vairākām vērtībām. Jauna un uzlabota operatora "ir viens no" izmantošanas pieredze ir pieejama atjauninājumā Finance and Operations Platform update 22. Papildinformāciju skatiet sadaļā [Optimizēta filtra "ir viens no" izmantošana](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Ielīmēt sarakstus no Excel filtra laukos ar operatoru "ir viens no"
 
 Dažu uzdevumu gadījumā lietotājiem var būt vērtību saraksts programmā Excel, kuru tie vēlas izmantot, lai filtrētu datus programmā Talent. Piemēram, personāla vadības funkciju lietotājs, iespējams, ir identificējis pārskatā darbinieku kopumu, kuriem sistēmā nepieciešama papildu izpēte, un būtu ļoti noderīgi, ja šis lietotājs varētu kopēt sarakstu tieši no programmas Excel filtra laukā programmā Talent.
 
-Sākot ar atjauninājumu Platform update 22, operators "ir viens no" filtra rūtī un režģa kolonnu filtrēšana tagad atpazīst no programmas Excel kopētus sarakstus tā, lai tos varētu ielīmēt tieši filtra laukā. Tas ietver vērtību kopumu, kas kopēts no dažādām rindām un kolonnām programmā Excel. Lai uzzinātu vairāk par šo līdzekli, skatiet sadaļu [Ielīmēt sarakstus no Excel filtra laukos ar operatoru "ir viens no"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Sākot ar atjauninājumu Finance and Operations Platform update 22, operators "ir viens no" filtra rūtī un režģa kolonnu filtrēšana tagad atpazīst no programmas Excel kopētus sarakstus tā, lai tos varētu ielīmēt tieši filtra laukā. Tas ietver vērtību kopumu, kas kopēts no dažādām rindām un kolonnām programmā Excel. Lai uzzinātu vairāk par šo līdzekli, skatiet sadaļu [Ielīmēt sarakstus no Excel filtra laukos ar operatoru "ir viens no"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Priekšskatījumā
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Konfigurēt Apvienotās Karalistes algu aprēķina integrēšanu starp Talent un Dayforce
 
-Integrēšana starp Dynamics 365 for Talent un Ceridian Dayforce ir pieejama priekšskatījumā Apvienotajai Karalistei. Papildinformāciju skatiet tēmā [Konfigurēt algu aprēķina integrēšanu starp Talent un Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+Integrēšana starp Talent un Ceridian Dayforce ir pieejama priekšskatījumā Apvienotajai Karalistei. Papildinformāciju skatiet tēmā [Konfigurēt algu aprēķina integrēšanu starp Talent un Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Drīzumā
 
@@ -90,9 +90,9 @@ Ir veiktas izmaiņas, lai labotu pielikumus. Pievienojot nodarbinātajam jaunu p
 
 ## <a name="known-issues"></a>Zināmās problēmas
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Kartēšanas kļūdas integrēšanā ar programmu Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Kartēšanas kļūdas integrēšanā ar programmu Finance
 
-Pašreizējā veidnē Talent integrēšanai ar Finance and Operations ir identificētas šādas problēmas. Drīzumā tiks publicēta jauna veidne, un tā tiks lietota visiem jaunajiem izveidotajiem integrācijas projektiem. Esošajiem integrācijas projektiem var atjaunināt uzdevuma kartējumus. Informāciju par atjauninātajiem kartējumiem skatiet tālāk esošajā tabulā. 
+Pašreizējā veidnē Talent integrēšanai ar Finance ir identificētas šādas problēmas. Drīzumā tiks publicēta jauna veidne, un tā tiks lietota visiem jaunajiem izveidotajiem integrācijas projektiem. Esošajiem integrācijas projektiem var atjaunināt uzdevuma kartējumus. Informāciju par atjauninātajiem kartējumiem skatiet tālāk esošajā tabulā. 
 
 >[!NOTE]
 > Uzdevums No sadaļas Amati uz sadaļu Amatu pamatdarba piešķire neintegrē datus. Šī problēma pašreiz tiek pētīta. Pašreizējā kartējumā nav kļūdas apiešanas risinājuma. 

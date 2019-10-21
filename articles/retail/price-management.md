@@ -1,6 +1,6 @@
 ---
 title: Mazumtirdzniecības pārdošanas cenu pārvaldība
-description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Microsoft Dynamics 365 for Retail.
+description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -17,18 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624793"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025222"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par pārdošanas cenu izveides un pārvaldības procesu programmā Microsoft Dynamics 365 for Retail. Galvenā uzmanība ir pievērsta ar šo procesu saistītajiem jēdzieniem, kā arī dažādo konfigurācijas opciju ietekmei uz pārdošanas cenām.
+Šajā tēmā ir sniegta informācija par pārdošanas cenu izveides un pārvaldības procesu programmā Dynamics 365 Retail. Galvenā uzmanība ir pievērsta ar šo procesu saistītajiem jēdzieniem, kā arī dažādo konfigurācijas opciju ietekmei uz pārdošanas cenām.
 
 ## <a name="terminology"></a>Terminoloģija
 
