@@ -3,7 +3,7 @@ title: Mazumtirdzniecības transakciju konsekvences pārbaudītājs
 description: Šajā tēmā ir aprakstīta mazumtirdzniecības transakciju konsekvences pārbaudītāja funkcionalitāte programmā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018421"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622601"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mazumtirdzniecības transakciju konsekvences pārbaudītājs
 
@@ -59,11 +59,14 @@ Pakešveida apstrādes process **Pārbaudīt veikala transakcijas** pārbauda ma
 - **Dāvanu kartes krājums** — risinājumā Retail netiek atbalstīta dāvanu karšu krājumu atgriešana. Tomēr dāvanu kartes atlikums var tikt izmaksāts skaidrā naudā. Visi tie dāvanu kartes krājumi, kas tiek apstrādāti kā atgriešanas rinda, nevis skaidras naudas izņemšanas rinda, netiek iekļauti grāmatošanas procesā. Palaižot dāvanu karšu krājumu pārbaudes procesu, tiek nodrošināts, ka mazumtirdzniecības transakciju tabulās tiek atgriezti tikai tie dāvanu karšu rindas krājumi, kuri ir dāvanu karšu skaidras naudas izmaksas rindas.
 - **Negatīva cena** — pārbauda, vai nav nevienas transakciju rindas ar negatīvu cenu.
 - **Krājums un variants** — pārbauda, vai transakcijas rindas krājumi un varianti pastāv krājumu un variantu pamatfailā.
-- **Nodokļu summa** — validēt nodokļu ierakstus, kas atbilst rindās norādītajām nodokļu summām. 
+- **Nodokļu summa** — pārbauda nodokļu ierakstu atbilstību rindās norādītajām nodokļu summām.
+- **Sērijas numurs** — pārbauda, vai sērijas numurs atrodas transakciju rindās krājumiem, kas tiek kontrolēti pēc sērijas numura.
+- **Zīme** — pārbauda, vai daudzuma un neto summas zīme ir vienāda visās transakciju rindās.
+- **Darbadiena** — pārbauda, vai finanšu periodi visām mazumtirdzniecības transakciju darbadienām ir atvērti.
 
 ## <a name="set-up-the-consistency-checker"></a>Konsekvences pārbaudītāja iestatīšana
 
-Sadaļā **Mazumtirdzniecība \> Mazumtirdzniecības IT \> POS grāmatošana**, konfigurējiet pakešveida apstrādes procesu “Validēt veikala transakcijas” tā, lai tas tiktu palaists regulāri. Pakešuzdevumu var plānot atkarībā no veikala organizācijas hierarhijas, līdzīgi kā tiek iestatīti procesi “Aprēķināt pārskatu partijā” un “Grāmatot pārskatu partijā”. Iesakām šo pakešuzdevumu konfigurēt tā, lai dienas laikā tas tiktu izpildīts vairākas reizes, un to ieplānot tā, lai tas tiktu izpildīts katras P darba izpildes beigās.
+Sadaļā **Mazumtirdzniecība \> Mazumtirdzniecības IT \> POS grāmatošana** konfigurējiet pakešveida apstrādes procesu “Validēt veikala transakcijas” tā, lai tas tiktu palaists regulāri. Pakešuzdevumu var plānot atkarībā no veikala organizācijas hierarhijas, līdzīgi kā tiek iestatīti procesi “Aprēķināt pārskatu partijā” un “Grāmatot pārskatu partijā”. Iesakām šo pakešuzdevumu konfigurēt tā, lai dienas laikā tas tiktu izpildīts vairākas reizes, un to ieplānot tā, lai tas tiktu izpildīts katras P darba izpildes beigās.
 
 ## <a name="results-of-validation-process"></a>Validēšanas procesa rezultāti
 

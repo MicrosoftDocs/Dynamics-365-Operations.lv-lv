@@ -3,7 +3,7 @@ title: Sadalīto pasūtījumu pārvaldība (DOM)
 description: Šajā tēmā ir aprakstīta sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte programmā Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023423"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578488"
 ---
 # <a name="distributed-order-management-dom"></a>Sadalīto pasūtījumu pārvaldība (DOM)
 
@@ -94,6 +94,7 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
         - **Vai izpildīt daļējās rindas?** – Ja šai opcijai ir atlasīts iestatījums **Jā**, DOM var izpildīt pasūtījuma rindu daļēju daudzumu. Šī daļējā izpilde tiek nodrošināta, sadalot pasūtījuma rindu.
         - **Izpildīt pasūtījumu tikai no vienas vietas** — ja šai opcijai ir atlasīts iestatījums **Jā**, DOM nodrošina, ka visas pasūtījuma rindas tiek izpildītas no vienas vietas.
 
+
         Tālāk redzamajā tabulā ir paskaidrota darbība, ja tiek definēta šo parametru kombinācija.
 
         |      | Izpildīt daļējos pasūtījumus | Izpildīt daļējās rindas | Izpildīt pasūtījumu tikai no vienas vietas | Apraksts |
@@ -110,19 +111,22 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
         \* Ja opcijai **Izpildīt daļējos pasūtījumus** ir atlasīts iestatījums **Nē**, vienmēr tiek uzskatīts, ka opcijai **Izpildīt daļējās rindas** ir atlasīts iestatījums **Nē** neatkarīgi no tā, kāds ir faktiskais iestatījums.
 
-    - **Bezsaistes izpildes vietas kārtula** — šī kārtula ļauj organizācijām norādīt, ka vieta vai vietu grupa ir bezsaistē vai nav pieejama DOM, lai tajās nevarētu piešķirt pasūtījumus izpildei.
+> [!NOTE]
+> Retail versijā 10.0.5 parametrs **Izpildīt pasūtījumu tikai no vienas vietas** tika mainīts uz **Maksimālās izpildes vietas**. Tā vietā, lai ļautu lietotājam konfigurēt, vai pasūtījumus var izpildīt tikai no vienas vietas vai no tik vietām, cik tas ir iespējams, lietotāji tagad var norādīt, vai izpildi var veikt no noteikta vietu kopuma (līdz 5) vai no tik daudz vietām, cik tas ir iespējams. Tas nodrošina lielāku elastību saistībā ar vietu skaitu, no kurām var izpildīt pasūtījumu.
+
+   - **Bezsaistes izpildes vietas kārtula** — šī kārtula ļauj organizācijām norādīt, ka vieta vai vietu grupa ir bezsaistē vai nav pieejama DOM, lai šīm vietām nevarētu piešķirt pasūtījumus izpildei.
     - **Noraidīšanas maksimuma kārtula** — šī kārtula ļauj organizācijām noteikt noraidīšanas slieksni. Kad tiek sasniegts slieksnis, DOM procesors atzīmē pasūtījumu vai pasūtījuma rindu kā izņēmumu un izslēdz to no tālākas apstrādes.
 
         Pēc tam, kad pasūtījuma rindas ir piešķirtas vietai, attiecīgā vieta var noraidīt piešķirto pasūtījuma rindu, jo, iespējams, tā nevarēs izpildīt rindu kaut kāda iemesla dēļ. Noraidītās rindas tiek atzīmētas kā izņēmumi un iekļautas atpakaļ kopā, ko paredzēts apstrādāt nākamās izpildes laikā. Nākamās izpildes laikā DOM mēģinās piešķirt noraidīto rindu citai vietai. Jaunā vieta arī var noraidīt piešķirto pasūtījuma rindu. Šis piešķiršanas un noraidīšanas cikls var notikt vairākas reizes. Kad noraidīšanu skaits sasniedz noteikto slieksni, DOM atzīmēs pasūtījuma rindu kā pastāvīgu izņēmumu un vairs neizvēlēsies attiecīgo rindu piešķiršanai. DOM vēlreiz ņem vērā pasūtījuma rindu atkārtotai piešķiršanai tikai tad, ja lietotājs manuāli atiestata pasūtījuma rindas statusu.
 
-    - **Maksimālā attāluma kārtula** — šī kārtula ļauj organizācijām noteikt maksimālo pieļaujamo attālumu vietai vai vietu grupai, lai izpildītu pasūtījumu. Ja vietai ir noteiktas maksimālā attāluma kārtulas, kuras pārklājas, DOM lietos mazāko maksimālo attālumu, kas noteikts attiecīgajai vietai.
+   - **Maksimālā attāluma kārtula** — šī kārtula ļauj organizācijām noteikt maksimālo pieļaujamo attālumu vietai vai vietu grupai, lai izpildītu pasūtījumu. Ja vietai ir noteiktas maksimālā attāluma kārtulas, kuras pārklājas, DOM lietos mazāko maksimālo attālumu, kas noteikts attiecīgajai vietai.
     - **Pasūtījumu maksimuma kārtula** — šī kārtula ļauj organizācijām noteikt maksimālo pasūtījumu skaitu, ko vieta vai vietu grupa var apstrādāt kalendārajā dienā. Ja noteiktai vietai vienas dienas laikā tiek piešķirts maksimālais pasūtījumu skaits, DOM vairs nepiešķirs pasūtījumus attiecīgajai vietai visu atlikušo kalendāro dienu.
 
-    Tālāk minēti daži no vispārējiem atribūtiem, kurus var noteikt visiem iepriekšējiem kārtulu tipiem:
+   Tālāk minēti daži no vispārējiem atribūtiem, kurus var noteikt visiem iepriekšējiem kārtulu tipiem:
 
-    - **Sākuma datums** un **Beigu datums** — katrai kārtulai var noteikt spēkā stāšanās laiku, izmantojot šos laukus.
-    - **Atspējots** — DOM izpildē tiek ņemtas vērā tikai kārtulas, kurām šajā laukā ir vērtība **Nē**.
-    - **Stingrs ierobežojums** — noteikumu var noteikt kā stingru ierobežojumu vai ierobežojumu, kas nav stingrs. Katra DOM izpilde tiek veikta divas reizes. Pirmajā reizē visas kārtulas tiek uzskatītas par stingra ierobežojuma kārtulām neatkarīgi no iestatījuma šajā laukā. Citiem vārdiem sakot, tiek lietotas visas kārtulas. Vienīgais izņēmums ir kārtula **Vietas prioritāte**. Otrajā reizē kārtulas, kas nebija noteiktas kā stingra ierobežojuma kārtulas, tiek noņemtas, un pasūtījums vai pasūtījuma rindas, kas netika piešķirtas vietām, lietojot visas kārtulas, tiek piešķirtas attiecīgajām vietām.
+   - **Sākuma datums** un **Beigu datums** — katrai kārtulai var noteikt spēkā stāšanās laiku, izmantojot šos laukus.
+   - **Atspējots** — DOM izpildē tiek ņemtas vērā tikai kārtulas, kurām šajā laukā ir vērtība **Nē**.
+   - **Stingrs ierobežojums** — noteikumu var noteikt kā stingru ierobežojumu vai ierobežojumu, kas nav stingrs. Katra DOM izpilde tiek veikta divas reizes. Pirmajā reizē visas kārtulas tiek uzskatītas par stingra ierobežojuma kārtulām neatkarīgi no iestatījuma šajā laukā. Citiem vārdiem sakot, tiek lietotas visas kārtulas. Vienīgais izņēmums ir kārtula **Vietas prioritāte**. Otrajā reizē kārtulas, kas nebija noteiktas kā stingra ierobežojuma kārtulas, tiek noņemtas, un pasūtījums vai pasūtījuma rindas, kas netika piešķirtas vietām, lietojot visas kārtulas, tiek piešķirtas attiecīgajām vietām.
 
 10. Izpildes profili tiek izmantoti, lai grupētu kārtulu, juridisko personu, pārdošanas pasūtījumu izcelsmju un piegādes veidu kopumu. Katra DOM izpilde ir paredzēta noteiktam izpildes profilam. Šādā veidā organizācijas var definēt un izpildīt kārtulu kopu noteiktai juridisko personu kopai attiecībā uz tādiem pasūtījumiem, kuriem ir noteikta pārdošanas pasūtījumu izcelsme un piegādes veidi. Tādēļ, ja ir jāveic dažādas kārtulu kopas izpilde dažādām pārdošanas pasūtījumu izcelsmju vai piegādes veidu kopām, izpildes profilus var attiecīgi definēt. Lai iestatītu izpildes profilus, rīkojieties šādi:  
 
