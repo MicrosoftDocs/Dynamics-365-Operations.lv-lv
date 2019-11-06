@@ -42,6 +42,8 @@
               items:
                 - name: Izvietošanas opcijas
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Mākoņa un lokālās versijas līdzekļu salīdzinājums
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mākoņa izvietošana
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sistēmas prasības mākoņa izvietojumiem
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas
               items:
-                - name: Mājas lapa “Jaunumi un izmaiņas”
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: "Priekšskatījuma līdzekļi Finance and Operations programmās\_10.0.6 (2019.\_gada novembris)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Finance and Operations programmas\_10.0.5 (2019.\_gada oktobris)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Finance and Operations\_10.0.4 (2019.\_gada jūlijs)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Finance and Operations, Enterprise edition\_7.3"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: "Priekšskatījuma līdzekļi Supply Chain Management versijā\_10.0.7 (2019.\_gada decembris)"
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: "Supply Chain Management\_10.0.6 (2019.\_gada novembris)"
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Jaunumi un izmaiņas iepriekšējās versijās
+                  items:
+                    - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Finance and Operations programmas\_10.0.5 (2019.\_gada oktobris)"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Finance and Operations\_10.0.4 (2019.\_gada jūlijs)"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Finance and Operations, Enterprise edition\_7.3"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Noņemtie vai novecojušie līdzekļi
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "AX\_2012 līdzekļi, kas tika atlikti"
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: 'Izejmateriālu patēriņa kontrole, izmantojot tīrīšanas principus'
                       href: production-control/flushing-principles.md
-                    - name: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
-                      href: production-control/cross-docking-opportunities.md
                     - name: Ražošanas izlaides novietojuma iestatīšana pabeigtajām precēm
                       href: production-control/production-output-location.md
                     - name: Ziņošana par MK kā par pabeigtiem
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Atlikta noliktavas darba apstrāde
                   href: warehousing/deferred-put.md
+            - name: Pārkraušana sadales centrā
+              items:
+                - name: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
+                  href: production-control/cross-docking-opportunities.md
+                - name: Automātisks izlaides sūtījums pārkraušanai sadales centrā
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Daļēja izlaide un daļēja nosūtīšana
               items:
                 - name: Daļēja transporta kravas nosūtīšana
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Noliktavas darba atcelšana izņēmumu apstrādei
+                  href: warehousing/cancel-warehouse-work.md
             - name: Krājumu inventarizācija
               items:
                 - name: Krājumu inventarizācijas iemeslu kodi

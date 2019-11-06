@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: Darba sākšana
       items:
@@ -8,6 +8,10 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2019.\_gada 23.\_oktobris"
+              href: whats-new-talent-october-23-2019.md
+            - name: "2019.\_gada 8.\_oktobris"
+              href: whats-new-talent-october-8-2019.md
             - name: "2019.\_gada 1.\_oktobris"
               href: whats-new-talent-october-1-2019.md
             - name: "2019.\_gada 17.\_septembris"
@@ -391,12 +395,14 @@
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Integrācija
       items:
+        - name: Datu integrācijas norādījumi programmai Dynamics 365 for Talent
+          href: data-integration.md
+        - name: Common Data Service integrācijas konfigurēšana
+          href: hr-common-data-service-integration.md
         - name: Integrācija ar Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: Algu aprēķina integrācijas konfigurēšana starp Talent un Dayforce
           href: configure-payroll-integration.md
-        - name: Datu integrācijas norādījumi programmai Dynamics 365 for Talent
-          href: data-integration.md
         - name: Bieži uzdotie jautājumi par integrāciju
           href: talent-fo-integration.md
         - name: 'Periodiska datu eksportēšana, izmantojot Azure Logic Apps'
