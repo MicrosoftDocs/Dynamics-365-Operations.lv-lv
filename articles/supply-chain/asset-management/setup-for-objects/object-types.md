@@ -3,35 +3,35 @@ title: Līdzekļu veidi
 description: Šajā tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot līdzekļu veidus. Tajā ir aprakstīti arī elementi, kas ir saistīti ar līdzekļu veidiem.
 author: josaw1
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 2214
-ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 288dac77f9d999012ec930ef2bca5c0921c2955f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.search.validFrom: 2019-09-30
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: a19b8c40dd7d48b2d78723c4411f1699819c4026
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783438"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626089"
 ---
 # <a name="asset-types"></a>Līdzekļu veidi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izveidot līdzekļu veidus. Tajā ir aprakstīti arī elementi, kas ir saistīti ar līdzekļu veidiem. Līdzekļu veidi tiek izmantoti kā vispārīgas līdzekļu kategorijas. Piemēri ietver CNC mašīnas, mērīšanas iekārtas un kravas automašīnu dzinējus. Līdzekļu veidus izmanto, lai pārvaldītu darba veidus (uzturēšanas uzdevumus), līdzekļu dzīves cikla stāvokļus, līdzekļu mērus, līdzekļu atribūtus, nosacījumu novērtēšanas veidnes un līdzekļu modeļus, kurus var atlasīt līdzeklim. Kad izveidojat līdzekli, ir jānorāda līdzekļa veids.
+
+Šajā tēmā ir paskaidrots, kā izveidot līdzekļu veidus. Tajā ir aprakstīti arī elementi, kas ir saistīti ar līdzekļu veidiem. Līdzekļu veidi tiek izmantoti kā vispārīgas līdzekļu kategorijas. Piemēri ietver CNC mašīnas, mērīšanas iekārtas un kravas automašīnu dzinējus. Līdzekļu veidus izmanto, lai pārvaldītu uzturēšanas darba veidus (uzturēšanas uzdevumus), līdzekļu dzīves cikla stāvokļus, skaitītājus, līdzekļu atribūtus, nosacījumu novērtēšanas veidnes un līdzekļu modeļus, kurus var atlasīt līdzeklim. Kad izveidojat līdzekli, ir jānorāda līdzekļa veids.
 
 Katram līdzekļa veidam var izveidot līdzekļa veida iestatījuma variantus. Piemēram, ja jums ir līdzekļa veids ar nosaukumu **Kravas automašīnas**, varat izveidot šī līdzekļa veida variantus dažādiem līdzekļu ražotājiem un līdzekļu modeļiem. Katram līdzekļa veida iestatījumam varat pievienot nepieciešamās rezerves daļas un uzturēšanas plānus.
 
@@ -39,35 +39,35 @@ Vispirms iestatiet nepieciešamos līdzekļu veidus. Pēc tam izveidojiet līdze
 
 ## <a name="create-an-asset-type"></a>Līdzekļa veida izveide
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Iestatīšana** \> **Līdzekļa veidi** \> **Līdzekļa veidi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļa veidi** > **Līdzekļa veidi**.
 2. Atlasiet **Jauns**, lai izveidotu līdzekļa veidu.
 3. Laukā **Līdzekļa veids** ievadiet līdzekļa veida ID.
 4. Laukā **Nosaukums** ievadiet nosaukumu.
 5. Laukā **Līdzekļa dzīves cikla modelis** atlasiet līdzekļa dzīves cikla modeli. Plašāku informāciju par līdzekļa dzīves cikla stāvokļiem un līdzekļa dzīves cikla modeļiem skatiet nodaļā [Līdzekļa dzīves cikla stāvokļi](object-stages.md).
 6. Iestatiet opciju **Kopsumma** uz **Jā**, ja summētās galvenā veiktspējas indikatora (KPI) vērtības jāaprēķina līdzekļiem, kuriem ir šis līdzekļa veids.
 7. Atlasiet **Saglabāt**.
-8. Kopsavilkuma cilnē **Darba veidi** atlasiet darba veidus, kam jābūt saistītiem ar līdzekļa veidu:
+8. Kopsavilkuma cilnē **Uzturēšanas darbu veidi** atlasiet uzturēšanas darbu veidus, kurus vajadzētu saistīt ar līdzekļu veidu.
 
-    - Lai atlasītu darba veidu, laukā **Atlikušie darba veidi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņas pa labi poga](media/29-setup-for-objects.png), lai pārvietotu to uz sadaļu **Atlasītie darba veidi**.
-    - Lai atlasītu visus pieejamos darba veidus, atlasiet pogu ![Bultiņa Pārsūtīt visu](media/30-setup-for-objects.png). Visi darba veidi tiek pārsūtīti no lauka **Atlikušie darba veidi** uz lauku **Atlasītie darba veidi**.
-    - Lai atceltu darba veida atlasi, atlasiet to laukā **Atlasītie darba veidi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņas pa kreisi poga](media/31-setup-for-objects.png), lai pārvietotu to uz lauku **Atlikušie darba veidi**.
+    - Lai atlasītu uzturēšanas darba veidu, laukā **Atlikušie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņas pa labi poga](media/29-setup-for-objects.png), lai pārvietotu to uz sadaļu **Atlasītie uzturēšanas darba veidi**.
+    - Lai atlasītu visus pieejamos uzturēšanas darba veidus, atlasiet pogu ![Bultiņa Pārsūtīt visu](media/30-setup-for-objects.png). Visi uzturēšanas darba veidi tiek pārsūtīti no lauka **Atlikušie uzturēšanas darba veidi** uz lauku **Atlasītie uzturēšanas darba veidi**.
+    - Lai atceltu uzturēšanas darba veida atlasi, atlasiet to laukā **Atlasītie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņas pa kreisi poga](media/31-setup-for-objects.png), lai pārvietotu to uz lauku **Atlikušie uzturēšanas darba veidi**.
 
-9. Varat arī atlasīt līdzekļa mērus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Līdzekļa mēri** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās darba veidiem. Plašāku informāciju par līdzekļu mēru iestatīšanu skatiet sadaļā [Uzturēšanas līdzekļu mēri](counters.md).
-10. Varat arī atlasīt atribūtu veidus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Atribūtu veidi** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās darba veidiem. Pēc tam, lai izveidotu vēlamo atribūtu veidu secību, atlasiet atribūta veidu laukā **Atlasītie atribūtu veidi** un izmantojiet augšupvērstās un lejupvērstās bultiņas pogas, lai to pārvietotu. Atribūtu veidu secība tiks parādīta līdzekļiem, kas izmanto šo līdzekļa veidu. Plašāku informāciju par līdzekļu atribūtiem skatiet sadaļā [Uzturēšanas atribūtu veidi](../setup-for-functional-locations/specification-types.md).
+9. Varat arī atlasīt skaitītājus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Skaitītāji** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Papildinformāciju par skaitītāju iestatīšanu, skatiet [Skaitītāji](counters.md).
+10. Varat arī atlasīt atribūtu veidus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Atribūtu veidi** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Pēc tam, lai izveidotu vēlamo atribūtu veidu secību, atlasiet atribūta veidu laukā **Atlasītie atribūtu veidi** un izmantojiet augšupvērstās un lejupvērstās bultiņas pogas, lai to pārvietotu. Atribūtu veidu secība tiks parādīta līdzekļiem, kas izmanto šo līdzekļa veidu. Plašāku informāciju par līdzekļu atribūtiem skatiet sadaļā [Uzturēšanas atribūtu veidi](../setup-for-functional-locations/specification-types.md).
 
     > [!NOTE]
     > Pievienojot jaunus atribūtu veidus kopsavilkuma cilnē **Atribūtu veidi**, esošie līdzekļi tiek automātiski atjaunināti ar šo informāciju.
 
-11. Varat arī atlasīt nosacījumu novērtējuma veidnes, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Nosacījumu novērtējumi** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās darba veidiem. Papildinformāciju par nosacījumu novērtēšanas veidnēm un reģistrācijām skatiet nodaļā [Nosacījumu novērtējums](../setup-for-objects/condition-assessment.md).
+11. Varat arī atlasīt nosacījumu novērtējuma veidnes, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Nosacījumu novērtējumi** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Papildinformāciju par nosacījumu novērtēšanas veidnēm un reģistrācijām skatiet nodaļā [Nosacījumu novērtējums](../setup-for-objects/condition-assessment.md).
 12. Kopsavilkuma cilnē **Līdzekļu modelis** ir parādītas visas līdzekļu ražotāju un modeļu kombinācijas, kas ir iestatītas atlasītajam līdzekļa veidam. Lai skatītu kombinācijas, kas sadalītas atbilstoši ražotājam, atlasiet **Līdzekļa modelis**, lai atvērtu lapu **Līdzekļa modelis**.
 
     Lapā **Līdzekļa modelis** varat pievienot līdzekļu modeļa – līdzekļu veida relācijas. Turklāt lapā **Līdzekļu veidi** varat pievienot līdzekļu ražotāju – līdzekļu modeļu relācijas tieši līdzekļa veidam. Visbeidzot lapā **Līdzekļa modelis** (**Līdzekļu pārvaldība** \> **Iestatīšana** \> **Līdzekļi** \> **Līdzekļa modelis**) var izveidot jaunas līdzekļu ražotāju – līdzekļa modeļa – līdzekļa veida relācijas. Tādēļ ir trīs veidi, kā iestatīt un rediģēt līdzekļu ražotāju – līdzekļu modeļu – līdzekļu veidu relācijas. Visas pieejamās kombinācijas ir parādītas no dažādām perspektīvām, un, strādājot ar iestatījumiem, varat atlasīt vēlamo ieejas punktu.
 
 > [!NOTE]
-> - Ja atlasāt līdzekļa mērus līdzekļa veidam, jūsu atlase tiek automātiski atjaunināta lapā **Līdzekļa mēri** page (**Līdzekļu pārvaldība** \> **Iestatīšana** \> **Līdzekļi** \> **Līdzekļu veidi** \> **Līdzekļa mēri**).
-> - Lauki **Detalizēta informācija** sadaļā, kas atrodas kopsavilkuma cilnē **Vispārīgi**, rāda darbu veidu skaitu, līdzekļu mērus, atribūtus utt., kuri ir iestatīti atlasītajam līdzekļa veidam.
+> - Atlasot skaitītājus līdzekļa vaidā, atlases tiek automātiski atjauninātas lapā **Skaitītāji** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļi** > **Līdzekļu veidi** > **Skaitītāji**).
+> - Lauki **Detalizēta informācija** sadaļā, kas atrodas kopsavilkuma cilnē **Vispārīgi**, rāda uzturēšanas darbu veidu skaitu, skaitītājus, atribūtus un tā tālāk, kuri ir iestatīti atlasītajam līdzekļa veidam.
 
-Parasti darba pasūtījumi, kas tiek izveidoti manuāli, ir saistīti ar koriģējošo uzturēšanu, bet automātiski izveidotie darba pasūtījumi ir saistīti ar profilaktisko uzturēšanu. Manuāli izveidojot darba pasūtījumus, var izmantot tikai tos darba veidus, kas atlasīti kopsavilkuma cilnē **Darba veidi** lapā **Līdzekļu veidi**. Taču automātiski izveidotie darba pasūtījumi var izmantot visus darba veidus, ko izveidojat lapā **Darba veidi** (**Līdzekļu pārvaldība** \> **Iestatīšana** \> **Darbi** \> **Darba veidi**).
+Parasti darba pasūtījumi, kas tiek izveidoti manuāli, ir saistīti ar koriģējošo uzturēšanu, bet automātiski izveidotie darba pasūtījumi ir saistīti ar profilaktisko uzturēšanu. Manuāli izveidojot darba pasūtījumus, var izmantot tikai tos uzturēšanas darba veidus, kas atlasīti kopsavilkuma cilnē **uzturēšanas darba veidi** lapā **Līdzekļu veidi**. Taču automātiski izveidotie darba pasūtījumi var izmantot visus uzturēšanas darba veidus, ko izveidojat lapā **Uzturēšanas darba veidi** (**Līdzekļu pārvaldība** \> **Iestatīšana** \> **Darbi** \> **Uzturēšanas darba veidi**).
 
 ## <a name="create-asset-type-setup-lines"></a>Līdzekļu veida iestatījuma rindu izveide
 

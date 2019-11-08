@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874674"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569850"
 ---
 # <a name="scheduled-execution"></a>Plānotā izpilde
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Lai iestatītu plānoto izpildi, varat izmantot darba pasūtījuma pakalpojumu līmeņus. (Plašāku informāciju par darba pasūtījumu pakalpojumu līmeņiem skatiet sadaļā [Pakalpojuma līmenis un apraksts](service-level-and-description.md).) Plānotā izpilde nodrošina elastību darba plānošanā uzturēšanas speciālistiem, jo varat iestatīt detalizētas vai mazāk detalizētas prasības intervālam, kurā darba pasūtījums ir jāpabeidz. Piemēram, uzturēšanas speciālists, kurš pabeidz uzdevumu ātrāk, nekā paredzēts ražošanā, iestāde var pāriet uz citu tuvumā esošu uzdevumu, kas tika ieplānots pašreizējai nedēļai, bet ne obligāti pašreizējai dienai. Šī pieeja ļauj optimizēt darbinieku plānošanu un darbu izpildi.
 
@@ -42,4 +42,4 @@ Plānotās izpildes iestatījums, kas ir saistīts ar darba pasūtījumiem, var 
 5. Laukā **Plānotā izpilde** atlasiet laika intervālu.
 6. Atlasiet **Saglabāt**.
 
-![1. attēls](media/20-setup-for-work-orders.png)
+![Plānotā izpilde](media/20-setup-for-work-orders.png)

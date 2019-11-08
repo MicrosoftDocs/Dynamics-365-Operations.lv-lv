@@ -1,5 +1,5 @@
 ---
-title: Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus
+title: Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 description: Šī tēma sniedz informāciju par to, kā izmantot Aprēķināto lauka tipu ER datu avotiem.
 author: NickSelin
 manager: AnnBe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 86efa927fa97be0d54e965bf33b1a18519025c22
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248681"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550088"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -116,7 +116,7 @@ Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram
 6. Izvērsiet **Modeli**. **Data2** krājums.
 7. Izvērsiet **Modeli**. **Data2.Summary2** krājums.
    
-   **Modeļa**. **Data2. Summary2** datu avots ir konfigurēts, lai grupētu **Model.Data.Summary ** kopsavilkuma datu avota transakcijas detalizētu informāciju pēc taksācijas līmeņa (atgriezis **Model.Data.Summary.Level** aprēķinātais lauks) un aprēķinātu apkopojumus.
+   **Modeļa**. **Data2. Summary2** datu avots ir konfigurēts, lai grupētu **Model.Data.Summary** kopsavilkuma datu avota transakcijas detalizētu informāciju pēc taksācijas līmeņa (atgriezis **Model.Data.Summary.Level** aprēķinātais lauks) un aprēķinātu apkopojumus.
 
   ![Formāta veidotāja lapa, kas rāda detalizētu informāciju par Model.Data2.Summary2 datu avotu.](media/er-calculated-field-type-04.png)
 

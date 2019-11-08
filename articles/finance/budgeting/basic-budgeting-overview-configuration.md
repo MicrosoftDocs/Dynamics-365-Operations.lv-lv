@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188698"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667464"
 ---
 # <a name="budgeting-overview"></a>Budžeta veidošanas apskats 
 
@@ -69,6 +69,12 @@ Izveidojiet *budžeta kodus*, kas identificē ierakstāmo budžeta transakciju t
 Budžeta kodi nodrošina auditācijas pierakstus par apstiprinātā budžeta modifikācijām budžeta cikla gaitā. Ja darbplūsma ir saistīta ar kādu budžeta kodu, tad darbplūsma būs iespējota visiem budžeta reģistra ierakstiem, kuri lieto šo budžeta kodu, un darbplūsmas darbības ir jāpabeidz, lai budžeta reģistra ieraksts varētu sasniegt stadiju **Pabeigts**.  
 
 Ja vēlaties, varat arī iestatīt *budžeta pārsūtīšanas kārtulas*. Lai izmantotu budžeta pārsūtīšanas kārtulas, lapā **Budžeta parametri** atlasiet **Lietot budžeta pārsūtījumu kārtulas**. Kad tiek izmantotas budžeta pārsūtīšanas kārtulas, ja lietotājs veido dokumentu, izmantojot budžeta kodu ar tipu **Pārsūtīšana**, budžeta bilances netiks atjauninātas, ja ir pārkāptas budžeta pārsūtīšanas kārtulas. Piemēram, jūs varat atļaut budžeta pārsūtīšanas dokumentus, kur izdevumu budžets tiek pārsūtīts starp Pārdošanas un mārketinga nodaļas galvenajiem kontiem, un aizliegt budžeta pārsūtīšanu no vai uz šo nodaļu, ja šāda veida budžeta konta ierakstam piešķirts darbplūsmas apstiprinājums.
+
+Funkcionalitāte, kas tika ieviesta Microsoft Dynamics 365 Finance versijā 10.0.7 (2020. gada janvāris), pievienoja iespējas un elastību budžeta reģistra ierakstiem. Lai iespējotu šos uzlabojumus, dodieties uz darbvietu **Līdzekļu pārvaldība** un atlasiet **Budžeta reģistra ieraksti tikai daudzumam** un/vai **Budžeta reģistra ieraksti, kas ir apjoma veida noklusējums**.
+
+Līdzeklis **Budžeta reģistra ieraksti tikai daudzumam** ļauj grāmatot budžeta reģistra ierakstu ar tikai daudzuma summām. Piemēram, varat grāmatot budžeta ierakstu ar daudzumu 32 un nulles cenu, kuras rezultātā summa ir nulle. Pēc tam šo daudzumu varat izmantot finanšu pārskata kontekstā, lai noteiktu cenu par daudzumu. Ņemiet vērā, ka nekādas uzziņas vai pārskati netika atjaunināti kā daļa no šā līdzekļa — tas tikai ļauj grāmatot nulles summu.
+
+Līdzeklis **Budžeta reģistra ieraksti, kas ir summas veida noklusējums** ļauj noklusējuma summas veidam budžeta reģistra ierakstā būt summas veidam, kas nav izdevumi. Budžeta reģistra ieraksta rinda tagad pēc noklusējuma tiek izmantota izdevumiem, kad galvenā konta veids ir izdevumi; noklusējuma vērtība būs ieņēmumi, kad galvenā konta veids ir izdevumi; un pēc noklusējuma būs izdevumi visiem citiem kontu veidiem.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Darbvietu un uzziņu lapu izmantošana, lai izsekotu budžetu, salīdzinot ar faktiskām izmaksām
 Budžeta pārvaldnieks var pārskatīt budžeta pašreizējo stāvokli darbvietā **Virsgrāmatas budžeti un prognozes**. Cilnes **Izdevumi pārsniedz budžetu** un **Ieņēmumi nesasniedz budžetu** nodrošina ātru finanšu dimensiju kombināciju apskatu, kur budžeta mērķi nav izpildīti vai tuvojas slieksnim. Jūs varat personalizēt budžeta sliekšņa procentuālo vērtību un finanšu dimensiju kopas, kas tiek izmantotas šajās cilnēs, noklikšķinot uz **Konfigurēt manu darbvietu**. Varat noklikšķināt uz **Vienību vadītāji**, lai apskatītu darbiniekus, kuri ir atbildīgi par noteiktām finanšu dimensiju kombinācijām, kas ir atlasītas šajās cilnēs. Piemēram, ja redzat, ka Operāciju nodaļas izdevumu budžets pārsniedz budžeta slieksni, jūs varat viegli atrast un sazināties ar Operāciju nodaļas vadītāju, lai apspriestu šo jautājumu. 

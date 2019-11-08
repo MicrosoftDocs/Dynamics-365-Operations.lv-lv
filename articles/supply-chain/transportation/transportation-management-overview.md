@@ -1,6 +1,6 @@
 ---
 title: Transportēšanas pārvaldības pārskats
-description: Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Finance and Operations.
+description: Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: fa59a8e6e4744c776ec0e1dc84b1f004dbd796f6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2027065"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653583"
 ---
 # <a name="transportation-management-overview"></a>Transportēšanas pārvaldības pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Finance and Operations.
+Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Supply Chain Management.
 
 Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēšanu, kā arī ļauj identificēt kreditoru un maršrutēšanas risinājumus ienākošiem un izejošiem pasūtījumiem. Piemēram, var norādīt ātrāko ceļu vai vislētāko sūtījuma likmi. Šajā tabulā ir aprakstīti galvenie scenāriji attiecībā uz moduļa Transportēšanas pārvaldība lietošanu.
 
@@ -67,23 +67,23 @@ Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēša
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Transporta plānošana programmatūrā Finance and Operations
+## <a name="planning-transportation-in-supply-chain-management"></a>Transportēšanas plānošana Supply Chain Management
 Modulī Transportēšanas pārvaldība transportēšanas plānošanu var balstīt uz pasūtījumiem vai uz sūtījumiem, kuri izveidoti, pamatojoties uz šiem pasūtījumiem. Sūtījumi vienmēr pastāv kādā noteiktā brīdī, bet nav nepieciešami transportēšanas plānošanai. Pārsūtīšanas pasūtījumi ir daļa no izejošās plūsmas scenārija, un tos var plānot kopā ar pārdošanas pasūtījumiem. 
 
 ![Zīmējuma ielāde](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Ienākošā transportēšana
-Ja pasūtat preces pie kreditora, un tās ir jāpiegādā uz jūsu noliktavu, ieteicams pašiem organizēt transportu preču pārvešanai. Pārvešanas plānošanai un ienākošās kravas saņemšanai varat izmantot programmatūru Finance and Operations. Tālāk redzamajā attēlā ir attēlota biznesa procesa plūsma attiecībā uz ienākošas kravas transportēšanu. 
+Ja pasūtat preces pie kreditora, un tās ir jāpiegādā uz jūsu noliktavu, ieteicams pašiem organizēt transportu preču pārvešanai. Pārvešanas plānošanai un ienākošās kravas saņemšanai varat izmantot programmatūru Supply Chain Management. Tālāk redzamajā attēlā ir attēlota biznesa procesa plūsma attiecībā uz ienākošas kravas transportēšanu. 
 
 ![Biznesa procesa plūsma ienākošo kravu transportēšanai](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Izejošā transportēšana
-Var plānot un apstrādāt izejošo kravu, lai nosūtītu noteiktus krājumus no uzņēmuma noliktavas debitoram. Programmatūru Finance and Operations varat izmantot, lai plānotu izejošo kravu transportēšanu un nosūtīšanu. Tālāk ir paskaidrota nosūtīšanas izejošo noslodžu plānošanas un apstrādes biznesa procesa plūsma. 
+Var plānot un apstrādāt izejošo kravu, lai nosūtītu noteiktus krājumus no uzņēmuma noliktavas debitoram. Pārvešanas plānošanai un izejošās kravas sūtīšanai varat izmantot programmatūru Supply Chain Management. Tālāk ir paskaidrota nosūtīšanas izejošo noslodžu plānošanas un apstrādes biznesa procesa plūsma. 
 
 ![Izejošo kravu plānošana un apstrāde](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Noslodzes plānošana
-Programmatūra Finance and Operations nodrošina noslodzes plānošanas stratēģiju, kuras nosaukums ir Uz apjomu balstīta noslodzes plānošanas stratēģija. Šī stratēģija ļauj izmantot maksimālās vērtības, kuras ir norādītas garumam un svaram noslodzes veidnē, vai arī iestatījumus var ignorēt, ievadot jaunas vērtības. Lai izmantotu šo stratēģiju, atlasiet to laukā **Noslodzes plānošanas stratēģija** kopsavilkuma cilnē **Iestatījumi** lapā **Noslodzes plānošanas rīks**. Turklāt var pievienot savas noslodzes plānošanas stratēģijas, izveidojot jaunu klasi lietojumprogrammas objektu kokā (AOT).
+Programmatūra Supply Chain Management nodrošina noslodzes plānošanas stratēģiju, kuras nosaukums ir Uz apjomu balstīta noslodzes plānošanas stratēģija. Šī stratēģija ļauj izmantot maksimālās vērtības, kuras ir norādītas garumam un svaram noslodzes veidnē, vai arī iestatījumus var ignorēt, ievadot jaunas vērtības. Lai izmantotu šo stratēģiju, atlasiet to laukā **Noslodzes plānošanas stratēģija** kopsavilkuma cilnē **Iestatījumi** lapā **Noslodzes plānošanas rīks**. Turklāt var pievienot savas noslodzes plānošanas stratēģijas, izveidojot jaunu klasi lietojumprogrammas objektu kokā (AOT).
 
 
 

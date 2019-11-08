@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 2b755dcfbcdf41ada0302fc04f527ce7c309f4bb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186398"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553191"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -51,7 +51,7 @@ Esošā funkcionalitāte jums ļauj finanšu žurnālos (vispārējā žurnālā
 
 ## <a name="issues-with-one-voucher"></a>Funkcionalitātes “Viens dokuments” problēmas
 
-Funkcionalitāte “Viens dokuments” izraisa problēmas, veicot nosegšanu, aprēķinot nodokļus, anulējot transakcijas, saskaņojot apakšgrāmatu ar virsgrāmatu, veidojot finanšu pārskatus un veicot citas darbības. (Plašāku informāciju par problēmām, kas var rasties, veicot nosegšanu, skatiet, piemēram, rakstā [Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Lai šie procesi darbotos un pārskati tiktu izveidoti pareizi, šiem procesiem un pārskatiem ir nepieciešami transakcijas dati. Lai gan dažos scenārijos viss var darboties pareizi, atkarībā no jūsu organizācijas iestatījumiem, problēmas bieži rodas, ja vienā dokumentā ir ievadītas vairākas transakcijas.
+Funkcionalitāte “Viens dokuments” izraisa problēmas, veicot nosegšanu, aprēķinot nodokļus, anulējot transakcijas, saskaņojot apakšgrāmatu ar virsgrāmatu, veidojot finanšu pārskatus un veicot citas darbības. (Plašāku informāciju par problēmām, kas var rasties, veicot nosegšanu, skatiet, piemēram, rakstā [Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Lai šie procesi darbotos un pārskati tiktu izveidoti pareizi, šiem procesiem un pārskatiem ir nepieciešami transakcijas dati. Lai gan dažos scenārijos viss var darboties pareizi, atkarībā no jūsu organizācijas iestatījumiem, problēmas bieži rodas, ja vienā dokumentā ir ievadītas vairākas transakcijas.
 
 Piemēram, jūs iegrāmatojat tālāk norādīto vairāku rindu dokumentu.
 

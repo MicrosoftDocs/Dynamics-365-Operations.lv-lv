@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922095"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569988"
 ---
 # <a name="preventive-maintenance-overview"></a>Profilaktiskās uzturēšanas pārskats
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šajā tēmā ir paskaidrota profilaktiskā uzturēšana programmā Asset Management. Profilaktiskā uzturēšana ir disciplīna, kas ietver plānotos uzturēšanas darbus, piemēram, regulāru servisu, kalibrēšanu un pārbaudes. Programmā **Asset Management** jūs varat izveidot uzturēšanas plānus un tos uzstādīt līdzekļiem un funkcionāliem novietojumiem. Jūs varat arī funkcionāliem novietojumiem uzstādīt uzturēšanas ciklus. Līdzekļu uzturēšanas plāni ir aktīvi neatkarīgi no tā, kur ir instalēts līdzeklis. Funkcionālā novietojuma uzturēšanas plāni un uzturēšanas cikli ir aktīvi līdzekļiem, kuri ir patlaban instalēti novietojumā. Tā vietā, lai uzstādītu uzturēšanas plānus līdzekļiem vai uzstādītu uzturēšanas ciklus funkcionāliem novietojumiem, jūs varat izveidot uzturēšanas ciklus, kuri ietver vairākus līdzekļus, kuriem jums ir jāveic saistīti uzturēšanas darbu tipi vienā un tajā pašā darba rutīnā. No līdzekļiem izveidoti uzturēšanas cikli - atšķirībā no tādiem, kas izveidoti funkcionāliem novietojumiem - nozīmē to, ka jūs varat atlasīt vairākus līdzekļus vienam uzturēšanas ciklam, kurš nav instalēts vienā funkcionālajā novietojumā.
 

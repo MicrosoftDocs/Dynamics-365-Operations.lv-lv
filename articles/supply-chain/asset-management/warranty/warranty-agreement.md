@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874697"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569689"
 ---
 # <a name="warranty-agreements"></a>Garantijas līgumi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Līdzekļu pārvaldībā varat iestatīt garantijas nosacījumus, ko var pievienot līdzeklim vai līdzekļu tipam. Garantijas nosacījumi tiek veidoti noteiktam periodam. Garantiju var iestatīt, lai nodrošinātu pilnīgu nodrošinājumu vai daļēju nodrošinājumu, un varat iestatīt nosacījumus, kas ir saistīti ar stundām, izdevumiem un krājumiem.
@@ -54,4 +54,4 @@ Garantijas līgumā var iekļaut vairākas līguma rindas, lai segtu darba stund
     3. Ievadiet skaitli laukā **Intervāls**. Šis lauks nosaka periodu skaitu, kuru laikā garantija ir spēkā.
     4. Laukā **Procenti** ievadiet nodrošinājuma procentuālo vērtību garantijas rindai. Procenti norāda, cik daudz jūsu uzņēmums sedz.
 
-![1. attēls](media/01-warranty.png)
+![Garantijas lapa](media/01-warranty.png)

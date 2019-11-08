@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4a7c57452b2f639b1f1b76bc79959c620c58ace1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922187"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571304"
 ---
 # <a name="maintenance-downtime"></a>Dīkstāve uzturēšanas dēļ
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dīkstāve uzturēšanas dēļ tiek izmantota, lai iegūtu pārskatu par noslodzi, kas ir nepieciešama, lai veiktu uzturēšanas darbus konkrētos līdzekļos konkrētā periodā. Piemēram, jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrāciju 10. ražošanas līnijai 29-A ražošanas zālē ražošanas objektā 02. Dīkstāves uzturēšanas dēļ reģistrācijai ir sākuma un beigu laiks, kas norāda uz periodu, kurā līdzekļi, kas ir saistīti ar uzturēšanas apturēšanu, nav pieejami ražošanai.
 
@@ -92,7 +92,7 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 
 15. Dialogā **Aprēķināt vienuma prognozi** rediģējiet sākuma un beigu laikus, ja nepieciešams, un izvēlieties, vai vēlaties aprēķinā iekļaut darba pasūtījumus un uzturēšanas grafikus. Jūs varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētu vēlaties noslodzes aprēķinu attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu "1" un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam, kuri ir atlasīti dīkstāves uzturēšanas dēļ darbībai, tiks uzrādīti augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs visas noslodzes rindas visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti.
 
-16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā **Vienuma prognoze**. Cilnē **Vienuma prognoze** > darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu. Nākamajā attēlā ir parādīti **Vienuma prognozes** aprēķina rezultāti.
+16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā  **Vienuma prognoze**. Cilnē **Vienuma prognoze** > darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu. Nākamajā attēlā ir parādīti **Vienuma prognozes** aprēķina rezultāti.
 
 ![4. attēls](media/22-preventive-maintenance.png)
 

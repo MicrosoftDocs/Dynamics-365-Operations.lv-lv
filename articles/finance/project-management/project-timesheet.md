@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: josaw1
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 91ecccab58e4f1582a43eac62b42c7205b383bb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 753c2a2905835a03b6befe817d32f993d35a5d73
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174493"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552329"
 ---
-# <a name="microsoft-dynamics-365-project-timesheet-mobile-application"></a>Microsoft Dynamics 365 Project Timesheet mobilā programma
+# <a name="project-timesheet-mobile-application"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 
 Microsoft Dynamics 365 Project Timesheet mobilā programma ļauj lietotājiem iesniegt un apstiprināt projektu darba laika uzskaites tabulas savā mobilajā ierīcē (iPhone vai Android). Šī mobilā programma uzlabo darba laika uzskaites tabulu funkcionalitāti programmas Dynamics 365 Finance projektu pārvaldības un grāmatvedības apgabalā, uzlabojot lietotāja produktivitāti un efektivitāti, kā arī ļauj savlaicīgi ievadīt un apstiprināt projekta darba laika uzskaites tabulas.
 

@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565700"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569275"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO ar fizisko vērtību un iezīmēšanu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Pēdējais iesūtītais, Pirmais izsūtītais (pretsecība) ir krājumu modelis, kurā pēdējās (jaunākās) saņemšanas tiek izdotas vispirms. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu. 
 
@@ -56,7 +54,9 @@ Tālākie piemēri parāda LIFO ietekmi, to lietojot trīs dažādos konfigurāc
 -   5.b Krājumu finansiālā izdošana daudzumam 1, kur katra izmaksu cena ir USD 20,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
 -   6. Tiek veikta krājumu slēgšana. Pēc LIFO metodes pēdējā finansiāli atjauninātā izdošanas transakcija tiek nosegta ar pēdējo finansiāli atjaunināto saņemšanas transakciju. Šīs izdošanas darbībai tiks veikts USD 10,00 pārrēķins.
 
-Jaunā faktiskā vidējo izmaksu cena attiecas uz finansiāli atjaunināto transakciju vidējo vērtību USD 15,00. Nākamajā attēlā ir parādīta LIFO krājumu modeļa ietekme uz šo transakciju sēriju, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO bez fizisko vērtību iekļaušanas](./media/lifowithoutincludephysicalvalue.gif) 
+Jaunā faktiskā vidējo izmaksu cena attiecas uz finansiāli atjaunināto transakciju vidējo vērtību USD 15,00. Nākamajā attēlā ir parādīta LIFO krājumu modeļa ietekme uz šo transakciju sēriju, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
+
+![LIFO bez fizisko vērtību iekļaušanas](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -90,7 +90,9 @@ Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
 
 Transakcija 6a tiek koriģēta atbilstoši saņemšanas transakcijai 4b. Sistēmā šīs transakcijas netiek segtas, jo saņemšana tiek atjaunināta fiziski, bet ne finansiāli. Tāpēc fiziskās izdošanas darbībai tiks grāmatots tikai USD 8,75 pārrēķins. Transakcija 5b tiek koriģēta atbilstoši saņemšanas transakcijai 3a. Sistēmā šīs transakcijas netiek segtas, jo tās abas nav atjauninātas finansiāli. Tāpēc šī izdošanas transakcija tiek tikai koriģēta ar vērtību USD –3,75. Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 20,00. 
 
-Sekojošā ilustrācija parāda LIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO ar fizisko vērtību iekļaušanu](./media/lifowithincludephysicalvalue.gif) 
+Sekojošā ilustrācija parāda LIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**. 
+
+![LIFO ar fizisko vērtību iekļaušanu](./media/lifowithincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -132,7 +134,9 @@ Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
 Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. 
 
-Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem. ![LIFO ar apzīmējumu](./media/lifowithmarking.gif) 
+Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem. 
+
+![LIFO ar apzīmējumu](./media/lifowithmarking.gif) 
 
 **Diagrammas atslēga**
 
@@ -146,7 +150,4 @@ Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LI
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
 - Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
-
-
-
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249395"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653445"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Iestatīt ārējo katalogus elektroniskai atzīmēšanas sagādei
 
 [!include [banner](../includes/banner.md)]
 
-Izmantojot ārējo katalogu, varat nodrošināt, ka vēlāk Dynamics 365 for Finance and Operations 2017. jūlija laidienā apstrādātā informācija par preci un cenu ir pareiza un aktuāla. Pieprasījumu pēc tam var apstiprināt un pārveidot par pirkuma pasūtījumu un pasūtījumu var izvietot kreditoram.
+Izmantojot ārējo katalogu, varat nodrošināt, ka vēlāk sadaļā Supply Chain Management apstrādātā informācija par preci un cenu ir pareiza un aktuāla. Pieprasījumu pēc tam var apstiprināt un pārveidot par pirkuma pasūtījumu un pasūtījumu var izvietot kreditoram.
 
 Kad tiek iestatīts ārējais katalogs un darbinieks gatavo pieprasījumu, būs pieejama opcija novirzīt uz ārējo vietu, ārējo katalogu un atgriezt iepirkumu grozā, kad tika izveidota ārējā vietā. Šis paziņojums ir balstīts uz cXML protokolu un tas ir jāiestata starp pirkšanas sistēmām un pārdošanas organizāciju.
 

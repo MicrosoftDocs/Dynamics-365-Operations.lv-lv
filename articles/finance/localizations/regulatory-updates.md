@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 Finance normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517315"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653208"
 ---
 # <a name="regulatory-updates"></a>Normatīvie atjauninājumi
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517315"
 
 Šajā tēmā ir sniegts to normatīvi atjauninājumu saraksts, kas ir izlaisti Dynamics 365 Finance atbalstītajās lokalizācijās. Piegādes termiņi var tikt mainīti, un plānotā funkcionalitāte var būt atšķirīga vai netikt izlaista. Papildinformāciju lasiet [Microsoft politikā](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Lai iegūtu papildinformāciju par plānotajiem un izlaistajiem līdzekļiem konkrētajai valstij, skatiet tālāk norādītos resursus.
-- [Dynamics 365 un Power Platform laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Jaunumi programmā Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
+Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Lai iegūtu papildinformāciju par plānotajiem un izlaistajiem līdzekļiem konkrētajai valstij, skatiet tālāk [Dynamics 365 un Power Platform turpmākos izlaišanas plānus](https://docs.microsoft.com/business-applications-release-notes/index).
 
 Microsoft cenšas ieviest jaunas normatīvās prasības iespējami drīz. Faktiskais nodrošināšanas datums ir atkarīgs no likuma izsludināšanas datuma, detalizētās informācijas par prasībām pieejamību no vietējām iestādēm, validācijas rīku pieejamības, kā arī no izmaiņu apjoma un sarežģītības.
 
@@ -44,13 +42,19 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 
 |Plānotais izlaides datums|Partijas versija|Valsts/reģions|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
-|      2019. gada augusts          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazīlija      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.10    |
-|      2019. gada augusts          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazīlija      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.20    |
-|      2019. gada augusts          |   10.0.6(PEAP)      | Brazīlija      |   DRCST deklarācija SC   |
-|      2019. gada augusts          |   10.0.6(PEAP), 10.0.5HF      | Brazīlija     |   Jauni tiesību akti ir īstenoti ar RJ valsti saistībā ar EFD-ICMS/IPI. Riodežaneiro (RJ) 13/19 Rīkojuma ieviešana ir paredzēta "Īpašas procedūras, kas jāpiemēro Atbrīvošanai     |
-|      2019. gada augusts          |   10.0.6(PEAP)      | Brazīlija      |   Nodokļa deklarācija CAT 42/18    |
-|      2019. gada augusts          |   10.0.6(PEAP)      | Itālija      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23. oktobra 2018 - Dynamics 365 for Finance and Operations v. 10.0.6  |
-|      2019. gada augusts          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japāna      |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme    |
+|      2019. gada novembris          |   10.0.7(PEAP)      | Itālija      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23 okt. 2019: ceturkšņa PVN paziņojums ("Lipe 2018")    |
+|      2019. gada novembris          |   10.0.7(PEAP)      | Itālija      |   Mazumtirdzniecība - Debitoru informācijas pārvaldīšana POS |
+|      2019. gada novembris          |   10.0.7(PEAP)      | Itālija      |   Mazumtirdzniecība - debitora informācijas drukāšana nodokļu kvītī | 
+|      2019. gada novembris          |   10.0.7(PEAP)      | Japāna      |   Tiek ieviesta patēriņa likmes maiņa un samazināta nodokļa likme (rēķina izkārtojumi) | 
+|      2019. gada novembris          |   10.0.7(PEAP)      | Meksika      |   Noteikuma 2.7.2.9 atjaunināšana - izmantojot CFDI dokumenta izdošanas uzņēmuma pasta indeksa laika joslu | 
+|      2019. gada novembris          |   10.0.7(PEAP)      | Apvienotā Karaliste     |   Nodokļu digitalizēšana - PVN atgriešanas pārskata izveide uzņēmumiem, kas ziņo par PVN grupu tajā pašā sistēmas datu bāzē v.10 | 
+|      Novembris-Augusts 2019          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazīlija      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.20    |
+|      Novembris-Augusts 2019          |   10.0.7(PEAP), 10.0.6      | Brazīlija      |   DRCST deklarācija SC   |
+|      Novembris-Augusts 2019          |   10.0.7(PEAP), 10.0.6      | Itālija      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23 okt. 2018-Dynamics 365 for Finance and Operations  |
+|      2019. gada augusts          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazīlija      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.10    |
+|      2019. gada augusts          |   10.0.6, 10.0.5HF      | Brazīlija     |   Jauni tiesību akti ir īstenoti ar RJ valsti saistībā ar EFD-ICMS/IPI. Riodežaneiro (RJ) 13/19 Rīkojuma ieviešana ir paredzēta "Īpašas procedūras, kas jāpiemēro Atbrīvošanai     |
+|      2019. gada augusts          |   10.0.6      | Brazīlija      |   Nodokļa deklarācija CAT 42/18    |
+|      2019. gada augusts          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japāna      |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme    |
 |      2019. gada augusts - jūlijs          |   10.0.5, 10.0.4HF, 10.0.3HF      | Spānija      |   Spānija: SII: Validācijas kārtulas mainās no 2019. gada 1. oktobra    |
 |      2019. gada jūlijs          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brazīlija      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.00  |
 |      2019. gada jūlijs          |   10.0.5      | Brazīlija      |   Sped ieguldījumu praktiskā rokasgrāmata 1.31. jauni norādījumi    |
@@ -66,7 +70,7 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |      2019. aprīlis          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazīlija     |   SPED ECD Layout 7    |
 |      2019. aprīlis          |   10.0.3      | Brazīlija      |   SPED ECF — 5. izkārtojums 2019. gadam    |
 |      2019. aprīlis          |   10.0.3      | Indija      |   Nodokļu korekcija muitas valūtā, kas ir BOE, nevis transakcijas valūtā    |
-|      2019. aprīlis          |   10.0.3      | Indija      |   Nodokļu aprēķins (muitas valūtā BOE, nevis transakcijas valūtā)    |
+|      2019. aprīlis          |   10.0.3      | Indija      |   Nodokļu aprēķins (muitas valūtā BOE, nevis transakcijas valūtā)   |
 |      2019. aprīlis          |   10.0.3, 10.02HF, 10.0.1HF      | Indija      |   IEC numura formāta izmaiņas    |
 |      2019. aprīlis          |   10.0.3      | Lietuva      |   Lietuva i.SAF pārskats (ļauj lietotājam definēt sistēmas PVN kodus, saistībā ar likumā noteiktajiem nodokļu kodiem)    |
 |      2019. aprīlis          |   10.0.3      | Polija      |   SAF rēķini (JPK_FA) v.2 no 2019. gada 1. jūlija    |

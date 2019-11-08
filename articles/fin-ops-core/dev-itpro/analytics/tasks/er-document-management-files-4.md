@@ -1,5 +1,5 @@
 ---
-title: Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER izvadē
+title: ER izmantot dokumentu pārvaldības failus formātu izvades datos (4. daļa - Palaist formātu)
 description: Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus ER izvadē.
 author: NickSelin
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8dc541af4d26b61ff9b90e08a8ca2c6a6bb8e70
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185018"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550813"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-4-run-format"></a>ER izmantot dokumentu pārvaldības failus formātu izvades datos (4. daļa: Palaist formātu)
+# <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER izmantot dokumentu pārvaldības failus formātu izvades datos (4. daļa - Palaist formātu)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

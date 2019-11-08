@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84609106fc3daafbbfed6f947df4524160bd7450
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: cf23d4b01729e6c1ece633b009f033b9d74bc7fe
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783432"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571557"
 ---
 # <a name="introduction-to-assets"></a>Iepazīstināšana ar līdzekļiem
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šajā tēmā ir sniegts pārskats par līdzekļiem Līdzekļu pārvaldībā. *Līdzeklis* ir jebkura veida aprīkojums, piemēram, mašīna vai mašīnas daļa, kam nepieciešama uzturēšana, apkope vai remonts.
 
@@ -39,7 +39,7 @@ Līdzeklis tiek automātiski atjaunināts ar saistīto informāciju. Piemēram, 
 
 Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi**. Saraksta lapā **Visi līdzekļi** ir redzami visi līdzekļi un zināma ar tiem saistītā informācija. Lai skatītu tikai aktīvos līdzekļus, atlasiet **Aktīvie līdzekļi**. Lai skatītu tikai līdzekļus, kas uzstādīti funkcionālajos novietojumos, ar kuriem esat saistīts kā uzturēšanas darbinieks, atlasiet **Mani aktīvie līdzekļi**. (Šī saistība ir iestatīta lapā **Darbinieki**. Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
 
-Režģa skatā **Visi līdzekļi** atlasiet saiti kolonnā **Līdzeklis**, lai skatītu detalizētu informāciju par atlasīto ierakstu. Lai rediģētu ierakstu, atlasiet pogu **Rediģēt**. Detalizētajā skatā tiek parādīta detalizēta informācija, kas ir saistīta ar līdzekli. Rūts labajā pusē **Saistītā informācija**  ietver papildu ar līdzekli saistītu informāciju. Izvērsiet rūti, lai parādītu saistīto informāciju par atlasīto līdzekli.
+Režģa skatā **Visi līdzekļi** atlasiet saiti kolonnā **Līdzeklis**, lai skatītu detalizētu informāciju par atlasīto ierakstu. Lai rediģētu ierakstu, atlasiet pogu **Rediģēt**. Detalizētajā skatā tiek parādīta detalizēta informācija, kas ir saistīta ar līdzekli. Rūts labajā pusē **Saistītā informācija** ietver papildu ar līdzekli saistītu informāciju. Izvērsiet rūti, lai parādītu saistīto informāciju par atlasīto līdzekli.
 
 Pogas darbības rūtī ir sakārtotas cilnēs. Nākamajā tabulā ir īsi aprakstītas pogas, kas saistītas ar Līdzekļu pārvaldību.
 

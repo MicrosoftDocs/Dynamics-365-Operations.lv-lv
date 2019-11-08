@@ -3,7 +3,7 @@ title: Darba pasūtījuma pārskats
 description: Šajā tēmā aprakstīti darba pasūtījumu pārskati Līdzekļu pārvaldībā.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,38 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d2843a57aad7cc8525a689d4643875970849e31
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 6eb5c5156898fc826376ae35745ff4a7451d00c6
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875770"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626389"
 ---
 # <a name="work-order-report"></a>Darba pasūtījuma pārskats
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
+Jūs varat ģenerēt darba pasūtījumu pārskatu, kurā ir parādīta detalizēta informācija vienu vai vairākiem jūsu izvēlētiem darba pasūtījumiem.
 
-Var ģenerēt darba pasūtījumu pārskatu, kurā ir parādīta detalizēta informācija par darba pasūtījumu. Var atlasīt vienu vai vairākus darba pasūtījumus, kas jāparāda pārskatā.
-
-1. Noklikšķiniet **Līdzekļu pārvaldība** > **Pārskati** > **Darba pasūtījumi** > **Darba pasūtījumu pārskats**.
+1. Atlasiet **Pamatlīdzekļu pārvaldība** > **Pārskati** > **Darba pasūtījumi** > **Darba uzdevumu pārskats**.
 
 2. Lai noteiktu informāciju, kas jāiekļauj pārskatā, pie pārslēgšanas pogas atlasiet “Jā”/“Nē” un aizpildiet laukus, kā tas ir pieprasīts.  
-  a. Sadaļā **Drukas iestatījumi** varat atlasīt, vai vēlaties iekļaut pielikumus no saistītā uzturēšanas uzdevuma veida iestatījumiem izdrukā.
+    - Sadaļā **Drukas iestatījumi** varat atlasīt, vai vēlaties iekļaut pielikumus no saistītā uzturēšanas uzdevuma veida iestatījumiem.
 
 3. Kopsavilkuma cilnē **Ieraksti, kurus iekļaut** varat filtrēt pārskata saturu pēc **Darba pasūtījuma**.
 
-4. Ja nepieciešams, varat iestatīt darba pasūtījuma pārskata veidošanu kā pakešuzdevumu, aizpildot laukus, kas ir kopsavilkuma cilnē **Palaisti fonā**.
+4. Kopsavilkuma cilnē **Palaist fonā** vajadzības gadījumā varat iestatīt darba pasūtījuma pārskatu veidošanu kā pakešuzdevumu.
 
-5. Klikšķiniet **Labi**, lai izveidotu pārskatu.
+5. Atlasiet **Labi**, lai izveidotu pārskatu.
 
-Zemāk jūs redzat piemēru, kā var iestatīt parametrus un saistīto darba uzdevumu pārskatu.
+Sekojošajā attēlā parādīts piemērs, kā var iestatīt pārskata parametrus.
 
 ![1. attēls](media/20-work-orders.png)
 
+Sekojošajā attēlā parādīts darba pasūtījuma pārskata piemērs, kas veidots, pamatojoties uz šo iestatījumu.
 
 ![2. attēls](media/21-work-orders.png)
-
 

@@ -18,37 +18,45 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918445"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652406"
 ---
 # <a name="asset-fault-analysis"></a>Līdzekļu defektu analīze
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Programmā Asset Management varat analizēt reģistrētās kļūdas, lai iegūtu pārskatu par kopējo kļūmju skaitu, kas reģistrēts noteiktā laika posmā. Kļūdu reģistrācijas var analizēt no dažādiem aspektiem, piemēram, koncentrējoties uz līdzekļiem, līdzekļu veidiem, funkcionālajiem novietojumiem, kļūmju simptomiem vai kļūmju veidiem.
 
 1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļu kļūme** > **Līdzekļu kļūmes analīze**.
 
-2. Dialogā **Līdzekļu kļūmes analīzes aprēķins** varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētas vēlaties līdzekļu kļūmes rindas attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu „1” un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visas aktīvu kļūmju rindas funkcionālajam novietojumam tiks uzrādītas augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** ievadāt ciparu „0”, jūs redzēsit detalizētu rezultātu, kas uzrādīs visas līdzekļu kļūmju rindas visos funkcionālā novietojuma līmeņos, ar kuriem tās ir saistītas.
+2. Dialogā **Līdzekļu kļūmes analīzes aprēķins** varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētas vēlaties līdzekļu kļūmes rindas attiecībā uz funkcionālo novietojumu. 
+
+    Piemēram, ja laukā ievadāt ciparu „1” un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visas aktīvu kļūmju rindas funkcionālajam novietojumam tiks uzrādītas augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. 
+        
+    Ja laukā **Līmenis** ievadāt ciparu „0”, jūs redzēsit detalizētu rezultātu, kas uzrādīs visas līdzekļu kļūmju rindas visos funkcionālā novietojuma līmeņos, ar kuriem tās ir saistītas.
 
 3. Ja vēlaties ierobežot meklēšanu, varat izvēlēties konkrētus līdzekļus, kļūmju datumus un kļūmju iemeslus, un kļūmju labojumus kopsavilkuma cilnē **Iekļaujamie ieraksti**.
 
 4. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu.
 
-5. Cilnē **Līdzekļu kļūmju analīze** klikšķiniet uz vienas vai vairākām pogām darbību rūtī **Grupēt pēc...**, lai parādītu detalizētas informācijas līmeni, kādu vēlaties redzēt. Aktivizētās pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
+5. Cilnē **Līdzekļu kļūmju analīze** noklikšķiniet uz vienas vai vairākām pogām **Grupēt pēc**, lai parādītu detalizētas informācijas līmeni, kādu vēlaties redzēt. Aktivizētās pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
 
 6. Noklikšķiniet uz **Atjaunināt aprēķinus**, lai parādītu savas atlases ekrānā. 
 
 >[!NOTE]
->Neaizmirstiet noklikšķināt uz pogas **Atjaunināt**, lai atjauninātu aprēķinus katru reizi, kad veicat izmaiņas, aktivizējot vai deaktivizējot pogas **Grupēt pēc...** vai veicot aprēķinu jaunam periodam. Tas tādēļ, ka tiek apstrādāts liels datu daudzums, atkārtoti pārrēķinot kļūmes iespēju.
+>Katru reizi, kad aktivizējat vai deaktivizējat pogu **Grupēc pēc**, neaizmirstiet noklikšķināt uz pogas **Atjaunināt aprēķinus**. Tas tādēļ, ka tiek apstrādāts liels datu daudzums, atkārtoti pārrēķinot kļūmes iespēju.
 
-Ir daudzi veidi, kā analizēt kļūmju reģistrācijas. Tālāk ir piemēri piecos ekrānuzņēmumos, kā dažāda datu atlase sniedz dažādu informāciju. Jūs redzēsiet, kā dažādas atlases sniedz dziļāku ieskatu un detalizētāku informāciju, analizējot kļūmju reģistrācijas.
+## <a name="examples"></a>Piemēri
+
+Ir daudzi veidi, kā analizēt kļūmju reģistrācijas. Šajā sadaļā ir sniegti pieci piemēri tam, kā dažādas datu atlases var sniegt dziļāku ieskatu un detalizētāku informāciju, analizējot kļūmju reģistrācijas.
+
+### <a name="group-by-symptoms"></a>Grupēt pēc simptomiem
 
 Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 
@@ -57,6 +65,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 
 ![1. attēls](media/06-controlling-and-reporting.png)
 
+### <a name="group-by-symptoms-and-time-period"></a>Grupēt pēc simptomiem un laika perioda
 
 Šajā ekrānuzņēmumā pievienots **Gads** un **Mēnesis**, lai parādītu, kā var skatīt kļūmju reģistrācijas noteikta laika posmā.
 
@@ -65,9 +74,13 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 
 ![2. attēls](media/07-controlling-and-reporting.png)
 
+### <a name="group-by-multiple-symptoms-and-assets"></a>Grupēt pēc vairākiem simptomiem un līdzekļiem
 
-- Līdzekļu un līdzekļu veida kombinācija tiek izmantota, kā pamats šajos trijos ekrānuzņēmumos parādītajiem aprēķiniem, un tiem samazinās detalizācijas līmenis.  
-- Vispārīgi pogas darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc līdzekļa**, **Grupēt pēc funkcionālā novietojums**, kā arī poga **Kļūme** (Kļūmes ID) satur periodus vai līdzekļu saistības. Pogas **Simptoms**, **Joma**, **Veids**, **Iemesls** un **Labojums** ir kategorizācijas, ko izmanto kļūmju pārvaldībā, lai analizētu līdzekļu kļūmes un noteiktu problēmu jomas.  
+Līdzekļu un līdzekļu veida kombinācija tiek izmantota, kā pamats šajos trijos ekrānuzņēmumos parādītajiem aprēķiniem, un tiem samazinās detalizācijas līmenis.  
+
+Vispārīgi pogas darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc līdzekļa**, **Grupēt pēc funkcionālā novietojums**, kā arī poga **Kļūme** (Kļūmes ID) satur periodus vai līdzekļu saistības. Pogas **Simptoms**, **Joma**, **Veids**, **Iemesls** un **Labojums** ir kategorizācijas, ko izmanto kļūmju pārvaldībā, lai analizētu līdzekļu kļūmes un noteiktu problēmu jomas.  
+
+**Grupēt pēc simptoma, līdzekļa un līdzekļa veida**
 
 Šajā ekrānuzņēmumā pievienots **Līdzeklis** un **Līdzekļa veids**, lai parādītu detalizētāku informāciju par kļūmju reģistrācijām.
 
@@ -76,6 +89,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 
 ![3. attēls](media/08-controlling-and-reporting.png)
 
+**Grupēt pēc diviem simptomiem, līdzekļa un līdzekļa veida**
 
 Šajā ekrānuzņēmumā **Simptomam**pievienota **Joma**, **Līdzeklis** un **Līdzekļa veids**, lai parādītu detalizētāku informāciju par kļūmju reģistrācijām.
 
@@ -83,6 +97,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 
 ![4. attēls](media/09-controlling-and-reporting.png)
 
+**Grupēt pēc trim simptomiem, līdzekļa un līdzekļa veida**
 
 Šajā ekrāuzņēmumā pievienots **Veids**, un šajā piemērā parādīts visdetalizētākais aprēķins,
  

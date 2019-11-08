@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249613"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571005"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Uzturēšanas darba tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu amatu un uzturēšanas kontrolsaraksti
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Katram līdzeklim ir piesaistīts līdzekļa tips. Līdzekļa tipi definē uzturēšanas darba tipus (tādējādi arī uzturēšanas darbus), kurus var veikt līdzekļos. Izveidojot darba pasūtījumu, jums ir jāatlasa uzturēšanas darba tips. Jūs varat atlasīt vienīgi tos uzturēšanas darba tipus, kuri ir saistīti ar līdzeklim izmantotā līdzekļa tipa iestatījumu.
 
@@ -59,7 +59,7 @@ Vispirms jūs iestatāt nepieciešamo uzturēšanas darbu tipu kategorijas, uztu
 
     Pēc uzturēšanas darbu tipu kategoriju piesaistīšanas uzturēšanas darbu tipiem lauks **Darbu tipi** uzrāda to uzturēšanas darbu skaitu, kuri ir saistīti ar šo uzturēšanas darbu kategoriju.
 
-![1. attēls](media/01-setup-for-work-orders.png)
+![Uzturēšanas darba tipa kategoriju lapa](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Izveidot uzturēšanas darba tipa variantu
 
@@ -73,7 +73,7 @@ Vispirms jūs iestatāt nepieciešamo uzturēšanas darbu tipu kategorijas, uztu
 
     Kopsavilkuma cilnē **Detalizēta informācija** lauks **Darbu tipi** uzrāda to uzturēšanas darbu tipu skaitu, kuri ir pievienoti šim uzturēšanas darbu tipa variantam.
 
-![2. attēls](media/02-setup-for-work-orders.png)
+![Uzturēšanas darba veida variantu lapa](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Izveidot uzturēšanas darba amatu
 
@@ -94,7 +94,7 @@ Vispirms jūs iestatāt nepieciešamo uzturēšanas darbu tipu kategorijas, uztu
 
     Kopsavilkuma cilnē **Detalizēta informācija** lauks **Sertifikāti** uzrāda to sertifikātu skaitu, kuri ir pievienotas šim uzturēšanas darba amatam.
 
-![3. attēls](media/03-setup-for-work-orders.png)
+![Uzturēšanas darba amatu lapa](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Izveidot uzturēšanas kontrolsaraksta mainīgo lielumu
 
@@ -112,10 +112,10 @@ Kad uzturēšanas darba tipa noklusējumā izveidojat uzturēšanas kontrolsarak
 
     Laukā **Rindas numurs** automātiski tiek ievadīts rindas sērijas numurs. Pēc visu rindu pievienošanas jūs varat pēc nepieciešamas mainīt rindu numurus. Atlasot rindu un nospiežot **Lejupvērstās bultiņas** taustiņu, nākamais sērijas numurs tiek automātiski ievadīts nākamajā rindā.
 
-6.  Laukā **Vērtība** ievadiet vērtības aprakstu.
+6. Laukā **Vērtība** ievadiet vērtības aprakstu.
 7. Laukā **Rezultātu** atlasiet rindas rezultātu.
 
-![4. attēls](media/04-setup-for-work-orders.png)
+![Uzturēšanas kontrolsaraksta mainīgo lapa](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Izveidot uzturēšanas kontrolsaraksta veidni
 
@@ -133,18 +133,18 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 
 5. Laukā **Tips** atlasiet uzturēšanas kontrolsaraksta rindas tipu. Katram uzturēšanas kontrolsaraksta tipam kopsavilkuma cilne **Detalizēta rindas informācija** uzrāda saistītus laukus. Ir pieejamas šādas vērtības:
 
-    - **Teksts** — rindai ir teksts, kurā aprakstīts, kas ir jādara.  Izmantojiet šo uzturēšanas kontrolsaraksta tipu, ja vēlaties, lai speciālists kaut ko pārbauda vai izmeklē, taču ja jūs nesagaidāt konkrētu (izmērāmu) rezultātu. Pēc tipa atlasīšanas ievadiet nosaukumu vai virsrakstu laukā **Nosaukums**. Laukā **Norādījumi** ievadiet darāmo darbu aprakstu.  Ja darbība uzturēšanas sarakstā ir obligāta, iestatiet opciju **Obligāts** uz **Jā**.
-    - **Galvene** — rinda tiek izmantota kā galvene, lai grupētu tās uzturēšanas kontrolsaraksta rindas, kuras parādās zem tā. Šis tips ir noderīgs, ja jums ir vairākas uzturēšanas kontrolsaraksta rindas, kuras var iedalīt konkrētās jomās. Galvenes sniedz pārskatu par speciālistu, kurš izpildīs uzturēšanas kontrolsarakstu ar daudzām uzturēšanas kontrolsaraksta rindām. Pēc tipa atlasīšanas ievadiet aprakstošu nosaukumu laukā **Nosaukums**.
-    - **Veidne** – rinda tiek izmantota, lai sniegtu atsauci uz esošu veidni. Pēc šī tipa atlasīšanas ievadiet veidnes nosaukumu laukā **Nosaukums**. Laukā **Veidne** atlasiet veidni.
-    - **Mainīgais** — rinda tiek izmantota, lai definētu iespējamo rezultātu diapazonā.  Informāciju par to, kā uzstādīt uzturēšanas kontrolsaraksta mainīgos, skatiet sadaļu [Izveidot uzturēšanas kontrolsaraksta mainīgo](#create-a-maintenance-checklist-variable) Pēc šī tipa atlasīšanas ievadiet aprakstošu mainīgā nosaukumu laukā **Nosaukums**. Laukā **Mainīgais** atlasiet mainīgo. Laukā **Norādījumi** ievadiet darāmo darbu aprakstu.  Ja darbība uzturēšanas sarakstā ir obligāta, iestatiet opciju **Obligāts** uz **Jā**.
-    - **Mērījums** — rindu izmanto, lai fiksētu konkrētu mērījumu.  Jūs varat uzstādīt mērījumu, kuru vajadzētu saistīt ar iepriekš definētu skaitītāju. Pēc šī tipa atlasīšanas ievadiet veidnes nosaukumu laukā **Nosaukums**. Ja šī darbība uzturēšanas sarakstā ir obligāta, iestatiet opciju **Obligāts** uz **Jā**. Ja vēlaties izmantot mērījuma rindu kā skaitītāja reģistrāciju, atlasiet skaitītāju laukā **Skaitītājs**. Pēc tam saistītais lauks **Vienums** tiek automātiski atjaunināts. Ja esat atlasījuši skaitītāju, laukā **Vērtība** atlasiet atjaunināšanas metodi. Laukos **Min. vērtība** un **Maks. vērtība** ievadiet atļauto vērtības diapazonu. Laukā **Norādījumi** ievadiet darāmo darbu aprakstu. 
+    - **Teksts** – rindai ir teksts, kurā aprakstīts, kas ir jādara. Izmantojiet šo uzturēšanas kontrolsaraksta tipu, ja vēlaties, lai speciālists kaut ko pārbauda vai izmeklē, taču ja jūs nesagaidāt konkrētu (izmērāmu) rezultātu. Pēc tipa atlasīšanas ievadiet nosaukumu vai virsrakstu laukā **Nosaukums**. Laukā **Norādījumi** ievadiet darāmo darbu aprakstu. Ja darbība uzturēšanas sarakstā ir obligāta, iestatiet opciju **Obligāts** uz **Jā**.
+    - **Galvene** – rinda tiek izmantota kā galvene, lai grupētu tās uzturēšanas kontrolsaraksta rindas, kuras parādās zem tā. Šis tips ir noderīgs, ja jums ir vairākas uzturēšanas kontrolsaraksta rindas, kuras var iedalīt konkrētās jomās. Galvenes sniedz pārskatu par speciālistu, kurš izpildīs uzturēšanas kontrolsarakstu ar daudzām uzturēšanas kontrolsaraksta rindām. Pēc tipa atlasīšanas ievadiet aprakstošu nosaukumu laukā **Nosaukums**.
+    - **Veidne** – rinda tiek izmantota, lai sniegtu atsauci uz esošu veidni. Pēc šī tipa atlasīšanas ievadiet veidnes nosaukumu laukā **Nosaukums**. Laukā **Veidne** atlasiet veidni.
+    - **Mainīgais** – rinda tiek izmantota, lai definētu iespējamo rezultātu diapazonā. Informāciju par to, kā uzstādīt uzturēšanas kontrolsaraksta mainīgos, skatiet sadaļu [Izveidot uzturēšanas kontrolsaraksta mainīgo](#create-a-maintenance-checklist-variable) Pēc šī tipa atlasīšanas ievadiet aprakstošu mainīgā nosaukumu laukā **Nosaukums**. Laukā **Mainīgais** atlasiet mainīgo. Laukā **Norādījumi** ievadiet darāmo darbu aprakstu. Ja darbība uzturēšanas sarakstā ir obligāta, iestatiet opciju **Obligāts** uz **Jā**.
+    - **Mērījums** – rindu izmanto, lai fiksētu konkrētu mērījumu. Jūs varat uzstādīt mērījumu, kuru vajadzētu saistīt ar iepriekš definētu skaitītāju. Pēc šī tipa atlasīšanas ievadiet veidnes nosaukumu laukā **Nosaukums**. Ja šī darbība uzturēšanas sarakstā ir obligāta, iestatiet opciju **Obligāts** uz **Jā**. Ja vēlaties izmantot mērījuma rindu kā skaitītāja reģistrāciju, atlasiet skaitītāju laukā **Skaitītājs**. Pēc tam saistītais lauks **Vienums** tiek automātiski atjaunināts. Ja esat atlasījuši skaitītāju, laukā **Vērtība** atlasiet atjaunināšanas metodi. Laukos **Min. vērtība** un **Maks. vērtība** ievadiet atļauto vērtības diapazonu. Laukā **Norādījumi** ievadiet darāmo darbu aprakstu.
 
         > [!NOTE]
         > Jebkura **Mērījuma** tipa rinda, kurai nav skaitītāja uzstādījuma, tiek apstrādāta kā neatkarīga mērījuma reģistrācija, kurai nav nekādas automātiskas sekošanas Asset Management. Tāpat, ja atlasītais skaitītāja tips nav līdzeklī, kas ir saistīts ar darba pasūtījumu, uzturēšanas kontrolsaraksta uzdevums tiek apstrādāts kā neatkarīgs mērījums. Skaitītāja vērtību var mainīt vairākas reizes. Tā nav ievietota, iekams [darba pasūtījuma dzīves cikla stāvoklis](work-order-lifecycle-states.md) nav nomainīts uz stāvokli, kurā opcija **Apstrādāt uzturēšanas kontrolsarakstu** ir iespējota uz **Jā**.
 
     Kopsavilkuma cilnē **Detalizēta informācija** lauks **Pārbaudes** uzrāda kopējo kontrolsaraksta rindu skaitu jūsu veidnē. Šis numurs ietver ligzdotās rindas jebkurā esošajā veidnē, uz kuru atsaucāties savā veidnē.
 
-![5. attēls](media/05-setup-for-work-orders.png)
+![Uzturēšanas kontrolsaraksta veidņu lapa](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Izveidot uzturēšanas darba tipu
 
@@ -153,7 +153,7 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 3. Laukā **Uzturēšanas darba tips** ievadiet uzturēšanas darba tipu.
 4. Laukā **Nosaukums** ievadiet nosaukumu.
 
-    Kopsavilkuma cilnē **Detalizēta informācija** ir uzrādīts pārskat par vairākiem uzturēšanas darbu topu variantiem, sertifikātiem, sekmīgiem darbiem un līdzekļu tipiem, kuri ir izveidoti šim uzturēšanas darba tipam.  Laukā **Uzstādījuma rindas** ir parādīts to uzturēšanas darba tipa noklusējuma rindu skaits, kuras ir uzstādītas šim uzturēšanas darba tipam. Laukā **Līdzekļi** ir parādīts to aktīvo līdzekļu skaits, kuri šobrīd izmanto šo uzturēšanas darba tipu.
+    Kopsavilkuma cilnē **Detalizēta informācija** ir uzrādīts pārskat par vairākiem uzturēšanas darbu topu variantiem, sertifikātiem, sekmīgiem darbiem un līdzekļu tipiem, kuri ir izveidoti šim uzturēšanas darba tipam. Laukā **Uzstādījuma rindas** ir parādīts to uzturēšanas darba tipa noklusējuma rindu skaits, kuras ir uzstādītas šim uzturēšanas darba tipam. Laukā **Līdzekļi** ir parādīts to aktīvo līdzekļu skaits, kuri šobrīd izmanto šo uzturēšanas darba tipu.
 
 5. Kopsavilkuma cilnē **Vispārīgi**, laukā **Uzturēšanas darba tipa kategorija** atlasiet uzturēšanas darba tipa kategoriju.
 6. Iestatiet opciju **Dīkstāves uzturēšanas dēļ darbības** uz **Jā**, ja uzturēšanas darba tipam ir nepieciešama aprīkojuma uzturēšanas apturēšana pirms darbu var veikt.
@@ -167,7 +167,7 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 
 11. Kopsavilkuma cilnē **Līdzekļu tipi** jūs varat uzturēšanas darba tipam pievienot līdzekļu tipus.
 
-![6. attēls](media/06-setup-for-work-orders.png)
+![Uzturēšanas darba veidu lapa](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Izveidot uzturēšanas darba tipa noklusējuma rindas un saistītās prognozes, uzturēšanas kontrolsarakstus, rīkus, aprakstu un pielikumus
 
@@ -175,7 +175,7 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 
     –vai–
 
-    Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Darbi** \> **Uzturēšanas darbu tipi**, atlasiet uzturēšanas darba tipu un tad atlasiet **Uzturēšanas darba tipa noklusējumi**. 
+    Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Darbi** \> **Uzturēšanas darbu tipi**, atlasiet uzturēšanas darba tipu un tad atlasiet **Uzturēšanas darba tipa noklusējumi**.
 
 2. Atlasiet **Jauns**.
 3. Laukos **Funkcionālais novietojums**, **Līdzekļa tips**, **Ražotājs**, **Modelis** un **Līdzeklis** atlasiet atbilstošās vērtības atkarībā no tā, cik konkrētam ir jābūt uzturēšanas darba tipa noklusējumam.
@@ -186,7 +186,7 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 8. Cilnē **Vienuma prognoze** jūs varat atlasīt inventāra izmērus, kurus vajadzētu uzrādīt vienuma rindā. Atlasiet **Inventārs** \> **Izmēri**, atlasiet izmērus, kurus uzrādīt, iestatiet opciju **Saglabāt uzstādījumu** uz **Jā**, tad atlasiet **Labi**.
 9. Cilnē **Vienuma prognoze** atlasiet **Vienums, kurā izmantots**, lai redzētu pārskatu par to, kur Asset Management atlasītajā līnijā vienums ir izmantots attiecībā uz līdzekļiem, uzturēšanas darba tipa noklusējumu, rezerves daļām un darba pasūtījumiem. 
 
-    Kopsavilkuma cilne **Uzturēšanas prognozes kopsumma** uzrādīts pārskats par prognozes kopsummu.  Šajā pārskatā ir iekļauts kopējais stundu un izveidoto prognozes rindu skaits.
+    Kopsavilkuma cilne **Uzturēšanas prognozes kopsumma** uzrādīts pārskats par prognozes kopsummu. Šajā pārskatā ir iekļauts kopējais stundu un izveidoto prognozes rindu skaits.
 
     > [!NOTE]
     > Lai pārkopētu prognozes uzstādījumu no cita uzturēšanas darba tipa, atlasiet **Kopēt prognozi** un tad atlasiet uzturēšanas darba tipu, no kura kopēt uzstādījumu.
@@ -236,7 +236,7 @@ Uzturēšanas kontrolsaraksta veidnes var izmantot kā vispārīgu uzdevumu kopu
 31. Lai kopētu uzturēšanas darba tipa noklusējumu citā uzturēšanas darba tipa noklusējumā, atlasiet uzturēšanas darba tipa noklusējuma rindu, kuru kopēsit citā uzstādījumā, atlasiet **Kopēt uzstādījumu** un tad atlasiet uzturēšanas darba tipa noklusējumu, kuru kopēt.
 32. Lai skatītu to līdzekļu, uzturēšanas plānu vai uzturēšanas ciklu sarakstu, kurus šobrīd izmanto uzturēšanas darba tipa noklusējuma rinda, atlasiet rindu un tad atlasiet **Izmanto**.
 
-![7. attēls](media/07-setup-for-work-orders.png)
+![Uzturēšanas darba veida noklusējumu lapa](media/07-setup-for-work-orders.png)
 
 Kad sistēma atlasa pieejamo uzturēšanas darba tipa noklusējumu, kuru būtu jāizmanto darba pasūtījuma rindā, atlase ir balstīta uz līdzekli un saistīto līdzekļa tipa uzstādījumu. Asset Management izskata visus uzturēšanas darba tipa noklusējuma ierakstus, kuri ir saistīti ar to uzturēšanas darba tipu, kurš ir saistīts ar līdzekļa tipu, lai pārbaudītu, vai nav iespējama saderība. Tā vienmēr vispirms pārbauda visraksturīgāko kombināciju. Citiem vārdiem sakot, lai atrastu konkrētāko kombināciju, Asset Management vispirms pārbauda iespējamo saderību laukā **Amats**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Uzturēšanas darba veida variants**. Ja nav atrasta neviena saderība, tas meklē saderību laukā **Uzturēšanas darba tips** un tā tālāk (**Tirdzniecība**, tad **Uzturēšanas darba tipa variants**, tad **Uzturēšanas darba tips**, tad **Līdzeklis**, tad **Modelis**, tad **Ražotājs** un tad **Līdzekļa tips**). Ja nav atrasta saderība, tiek izmantots noklusējuma ieraksts, kurā ir atlasīts vienīgi uzturēšanas darba tips.
 
@@ -257,7 +257,7 @@ Pēc tam, kad izveidojat nepieciešamās uzturēšanas darba tipa noklusējuma k
 4. Atlasiet uzturēšanas darba tipa kombināciju, lai redzētu saistīto uzstādījumu uzturēšanas kontrolsarakstiem, prognozēm un rīkiem. Ātrās cilnes **Uzturēšanas darbu tipu noklusējumi** sadaļā **Detalizēta informācija** tiek uzrādīts to saistīto uzturēšanas kontrolsarakstu, prognozēto stundu vienumu u.c. skaits, kuri ir saistīti ar atlasīto uzturēšanas darba tipa kombināciju.
 5. Lai skatītu detalizētu informāciju atlasītajam uzturēšanas darba tipam, atlasiet **Uzturēšana darbu tipi**.
 
-![8. attēls](media/08-setup-for-work-orders.png)
+![Līdzekļu uzturēšanas darba veidu lapa](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Automātiska uzturēšanas darbu tipu prognožu atjaunināšana
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7eed6ca8236afa0e28cc4945757424c995f053d7
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250626"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653629"
 ---
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 
@@ -118,7 +118,7 @@ Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar
 </tr>
 </tbody>
 </table>
-Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta tipu un lauku Finance and Operations tabulā. Sistēmas definēts tabulas ierobežojums dinamiski saista atribūta tipu un lauku. Šī saite sniedz iespēju ar preces konfigurācijas modeļa atribūtu atspoguļojot Supply Chain Management tabulas lauka datus.</td>
+Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta tipu un lauku Supply Chain Management tabulā. Sistēmas definēts tabulas ierobežojums dinamiski saista atribūta tipu un lauku. Šī saite sniedz iespēju ar preces konfigurācijas modeļa atribūtu atspoguļojot Supply Chain Management tabulas lauka datus.</td>
 </tr>
 <tr class="odd">
 <td>Aprēķini</td>

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 61d558ab0337e124065d194f42e0a81465d96a45
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178919"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551153"
 ---
 [!include [banner](../includes/banner.md)]
 
-# <a name="electronic-reporting-sample-check-formats"></a>Elektronisko pārskatu čeku paraugu formāti
+# <a name="electronic-reporting-sample-vendor-checks"></a>Elektronisko pārskatu kreditoru čeku paraugi
 
 Varat izmantot elektronisko pārskatu (ER) veidošanas rīku, lai formatētu kreditoru čekus. Tirgū ir pieejami daudzi bankām specifiski un čeka nodrošinātājiem specifiski čeku formāti. ER rīka repozitorija maksājumu čeku modelī ir ietverti čeku paraugu formāti. Šiem čeku paraugiem ir šādi apzīmējumi: **Čeks vidū (ASV)** un **Čeks augšpusē, aprēķins apakšpusē (ASV)**.
 

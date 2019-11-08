@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e795e641314b4ef81f8972aadf597721995fcc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0714314b68651e4b96f83d1073c4e35f5b27b013
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186536"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551637"
 ---
-# <a name="general-ledger-overview"></a>Vispārīgās virsgrāmatas pārskats
+# <a name="general-ledger-and-financial-reporting-overview"></a>Vispārīgā virsgrāmata un finanšu ziņošanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Izmantojiet Virsgrāmatu, lai definētu un pārvaldītu juridiskās personas fin
  - [Plānot kontu plānu](plan-chart-of-accounts.md)
  - [Galvenā konta tipi](main-account-types.md)
 
-Var sadalīt vai piešķirt naudas summas vienam vai vairākiem kontiem vai kontu un dimensiju kombinācijām, pamatojoties uz sadalījuma noteikumiem. Ir divu tipu sadalījumi: fiksētais un mainīgais. Var arī kārtot transakcijas starp Virsgrāmatas kontiem un pārvērtēt valūtas summas. Finanšu gada beigās jums ir jāģenerē slēgšanas transakcijas un jāsagatavo jūsu konti nākošajam finanšu gadam. Varat izmantot konsolidācijas funkcionalitāti, lai kombinētu finanšu rezultātus no vairākām  juridiskajām personām vienā apvienotā organizācijā. Apakšuzņēmumi var būt ietverti tajā pašā  datu bāzē vai atsevišķās datu bāzēs.
+Var sadalīt vai piešķirt naudas summas vienam vai vairākiem kontiem vai kontu un dimensiju kombinācijām, pamatojoties uz sadalījuma noteikumiem. Ir divu tipu sadalījumi: fiksētais un mainīgais. Var arī kārtot transakcijas starp Virsgrāmatas kontiem un pārvērtēt valūtas summas. Finanšu gada beigās jums ir jāģenerē slēgšanas transakcijas un jāsagatavo jūsu konti nākošajam finanšu gadam. Varat izmantot konsolidācijas funkcionalitāti, lai kombinētu finanšu rezultātus no vairākām juridiskajām personām vienā apvienotā organizācijā. Apakšuzņēmumi var būt ietverti tajā pašā datu bāzē vai atsevišķās datu bāzēs.
 
 - [Konsolidēšanas un koriģēšanas apskats](../budgeting/consolidation-elimination-overview.md)
 - [Virsgrāmatas konta bilances](general-ledger-account-balances.md)
@@ -55,17 +55,17 @@ Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Microsoft Dynamics 365 informācija par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Microsoft Dynamics 365 informācija par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, ziņas un citu informāciju par [Microsoft Dynamics 365 emuāru](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations - Financials emuāru](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations - Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 
 ### <a name="videos"></a>Videoklipi
 
-Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 #### <a name="community-blogs"></a>Kopienas emuāri
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181523"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564941"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Datu importēšanas no SharePoint konfigurēšana
 
@@ -62,9 +62,9 @@ Noskatieties uzdevumu ceļvežus **ER: datu importēšana no Microsoft Excel fai
 > Formāts kreditoru transakciju importēšanai ir atlasīts kā noklusējuma modeļa kartēšana. Tādēļ, ja palaižat modeļa kartēšanu **1099 maksājumu modelis** un šī modeļa kartēšana ir ar tipu **Uz galamērķi**, modeļa kartēšana palaiž šo formātu, lai importēt datus no ārējiem failiem. Pēc tam tā izmanto šos datus, lai atjauninātu programmas tabulas.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>SharePoint piekļuves konfigurēšana failu glabāšanai
-Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē piekļuve SharePoint Server instancei, ko izmantos pašreizējais uzņēmums. Šajā piemērā šis uzņēmums ir USMF. Norādījumus skatiet rakstā [SharePoint krātuves konfigurēšana](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē piekļuve SharePoint Server instancei, ko izmantos pašreizējais uzņēmums. Šajā piemērā šis uzņēmums ir USMF. Norādījumus skatiet rakstā [SharePoint krātuves konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Veiciet rakstā [SharePoint krātuves konfigurēšana](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) norādītās darbības.
+1. Veiciet rakstā [SharePoint krātuves konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) norādītās darbības.
 2. Atveriet konfigurēto SharePoint vietni.
 3. Izveidojiet šādas mapes ienākošo elektronisko pārskatu failu glabāšanai:
 
@@ -80,7 +80,7 @@ Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē p
     - Kļūdaino failu mape — mape failiem, kuru importēšana neizdevās.
 
 4. Dodieties uz **Organizācijas administrēšana > Dokumentu pārvaldība > Dokumentu veidi**.
-5. Izveidojiet tālāk norādīto tipu dokumentus, kas tiks izmantoti, lai piekļūtu jaunizveidotajām SharePoint mapēm. Norādījumus skatiet sadaļā [Dokumentu tipu konfigurēšana](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Izveidojiet tālāk norādīto tipu dokumentus, kas tiks izmantoti, lai piekļūtu jaunizveidotajām SharePoint mapēm. Norādījumus skatiet sadaļā [Dokumentu tipu konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Dokumenta tips        | Grupa              | Vieta      | SharePoint mape      |
 |--------------------|--------------------|---------------|------------------------|

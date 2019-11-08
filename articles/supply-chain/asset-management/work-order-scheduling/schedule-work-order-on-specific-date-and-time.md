@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f818c4c3b669cc94e37cba1e3571c57b5c0dd1b
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 634bbb4326d560848d36f579a1179187d8369087
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887369"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652038"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Plānot darba pasūtījumu noteiktā datumā un laikā
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Ja darba pasūtījums ir jāplāno noteiktā datumā *un* laikā, varat ignorēt standarta plānošanas procesu Līdzekļu pārvaldībā un izveidot konkrētu grafiku darba pasūtījumam.
 
@@ -41,13 +41,13 @@ Ja darba pasūtījums ir jāplāno noteiktā datumā *un* laikā, varat ignorēt
 
 4. Kopsavilkuma cilnē **Darba pasūtījuma virsraksts** ievadiet sākuma un beigu datumu un laiku laukos **Paredzētais sākums** un **Paredzētās beigas**.
 
-![1. attēls](media/05-work-order-scheduling.png)
+    ![1. attēls](media/05-work-order-scheduling.png)
 
-5. Cilnē **Vispārīgi** noklikšķiniet uz **Grafiks**, lai izmantotu standarta plānošanas procesu, vai noklikšķiniet uz **Nosūtīt**, ja vēlaties ieplānot darba pasūtījumu konkrētam darbiniekam.
+5. Cilnē **Vispārīgi** noklikšķiniet uz **Grafiks**, lai izmantotu standarta plānošanas procesu, vai noklikšķiniet uz **Nosūtīt**, ja vēlaties piešķirt darba pasūtījumu konkrētam darbiniekam.
 
 6. Lai ignorētu esošās noslodzes rezervācija un lai nodrošinātu, ka darba pasūtījums tiek ieplānots paredzētajā periodā, veiciet atlasi, kā parādīts attēlā tālāk, dialoglodziņā **Ieplānot darba pasūtījumu** > sadaļā **Ierobežota noslodze**. Tas nozīmē, ka plānošanas process ignorēs esošās noslodzes rezervācijas, jo darba pasūtījumam ir jāsākas ar paredzēto sākuma laiku.
 
-![2. attēls](media/06-work-order-scheduling.png)
+    ![2. attēls](media/06-work-order-scheduling.png)
 
 7. Lai sāktu plānošanu, noklikšķiniet uz **Labi**.
 

@@ -3,7 +3,7 @@ title: PVN apskats
 description: Šajā tēmā ir sniegts pārskats par PVN sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186467"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666834"
 ---
 # <a name="sales-tax-overview"></a>PVN apskats
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Šajā tēmā ir sniegts pārskats par PVN sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
 
@@ -94,5 +92,8 @@ Parasti nodokļu iestādei ir jāsamaksā 2500 jūnijā, kad tiek grāmatots rē
 
 Taču, ja lietojat nosacījuma PVN, PVN nodokļu iestādei ir jāmaksā 30. jūlijā, kad saņemat maksājumu no debitora.
 
+### <a name="postdated-check"></a>Ar iepriekšēju datumu datēts čeks
+
+Ja kā maksājuma metode tiek izmantots ar iepriekšēju datumu datēts čeks tad, kad maksājums ir izveidots, bankas konts netiek notīrīts. Dažās valstīs PVN kļūst par “realizēto” saistību, kad maksājums notīra banku, kas nozīmē, ka ar iepriekšēju datumu datēts čeks ir nosegts. Jūs varat to iespējot, atlasot **Īstenot nosacījuma nodokli, ja tiek izrakstīti ar iepriekšēju datumu datēti čeki** cilnē **Kases un bankas vadība > Iestatījumu > Kases un bankas vadības parametri > Ar iepriekšēju datumu datēti čeki**.
 
 Plašāku informāciju skatiet šeit: [Iestatīt ieturētā nodokļa kodus](tasks/set-up-withholding-tax.md).

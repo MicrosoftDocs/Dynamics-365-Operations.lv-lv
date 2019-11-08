@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024641"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571925"
 ---
 # <a name="create-maintenance-requests"></a>Izveidot uzturēšanas pieprasījumus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Uzturēšanas pieprasījumus var izmantot, ja uzturēšanas darbinieki vai ražošanas darbinieki atklāj, ka aprīkojumam nepieciešams remonts, bet remonta darbus nevar veikt uzreiz.
 
@@ -55,7 +55,7 @@ Sadaļa **Aktīvie uzturēšanas pieprasījumi** rūtī **Saistītā informācij
 11. Laukā **Piezīmes** ievadiet visas nepieciešamās papildu piezīmes.
 12. Atlasiet **Labi**.
 
-![1. attēls](media/03-manage-maintenance-requests.png)
+![Izveidot uzturēšanas pieprasījumu](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Turpmāka uzturēšanas pieprasījumu apstrāde
 
@@ -70,7 +70,7 @@ Detalizētas informācijas skatā varat atjaunināt dažādu informāciju. Daži
 - Atlasiet uzturēšanas darba veidu un, ja šī informācija ir būtiska, saistīto uzturēšanas darba variantu un darba tirdzniecību.
 - Laukos **Platums** un **Garums** ievadiet ģeogrāfiskās koordinātas. Visas koordinātas, kas tiek pievienotas uzturēšanas pieprasījumam, tiek automātiski pārsūtītas uz saistīto darba pasūtījumu. 
 
-![2. attēls](media/04-manage-maintenance-requests.png)
+![Uzturēšanas pieprasījuma atjaunināšana](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Ja atlasāt līdzekli, veidojot uzturēšanas pieprasījumu, varat līdzeklim pievienot vienu kļūmi. Pēc uzturēšanas pieprasījuma izveides varat pievienot vairāk kļūmju — kā nepieciešams. Lai pievienotu kļūmes, atlasiet **Līdzekļa kļūme** lapā **Visi uzturēšanas pieprasījumi**.

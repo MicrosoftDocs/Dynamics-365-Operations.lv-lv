@@ -1,9 +1,9 @@
 ---
-title: Sākumlapa “Jaunumi un izmaiņas”
+title: Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
 description: Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem jaunākajās Finance and Operations programmās.
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249301"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658717"
 ---
-# <a name="whats-new-or-changed-home-page"></a>Mājas lapa “Jaunumi un izmaiņas”
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
 [!include [banner](../includes/banner.md)]
 
-Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem jaunākajās Finance and Operations programmās.
+No 2019. oktobra šī lapa vairs netiek uzturēta. Šīs tēmas informācijā ir parādīts, kur meklēt informāciju par līdzekļiem Finance and Operations lietojumprogrammās, kas tika izlaistas pirms 2019. oktobra.
 
 Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināšana uz pēdējo atjauninājumu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -49,13 +49,6 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>2019. gada novembris</td>
-<td><a href="whats-new-changed-10-0-6.md">Priekšskatījuma līdzekļi programmas Dynamics 365 for Finance and Operations versijā 10.0.6 (2019. gada novembris)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināša
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformas update 30</td>
-<td>7.0.5407</td>
-<td>2019. gada novembris</td>
-<td><a href="whats-new-platform-update-30.md">Priekšskatījuma līdzekļi Dynamics 365 for Finance and Operations Platform update 30 (2019. gada novembris)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platformas update 29</td>

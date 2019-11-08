@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: de105e061712540fc8e3d720a65c029f865b8948
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 42eaa3df5ab09278ed96506d17e1b42d4fc2a9e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187295"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570268"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Izslēgt pamatlīdzekļus kā norakstītos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Tēmā ir aprakstīts process, kurā tiek likvidētas transakcijas pamatlīdzeklim, kas noņemts kā brāķis. Transakciju veidi, kurus var likvidēt, ietver pamatlīdzekļa iegādi un uzkrātā nolietojuma transakcijas un citas pamatlīdzekļu transakcijas. Šo darbību likvidēšana ietekmē bilances kontus, piemēram, iegādes korekciju, nolietojuma korekciju, pārvērtēšanu, vērtības palielināšanu un vērtības samazināšanu.
 

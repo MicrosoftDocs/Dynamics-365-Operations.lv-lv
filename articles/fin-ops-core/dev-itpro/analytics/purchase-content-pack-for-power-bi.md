@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 571f443b02268cbee8fe787f25419e046ba99aeb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d25bacc2ec1f8e13376b96e188b099a184f7f8c6
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182857"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569136"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Power BI satura pakotne Pirkšanas tēriņu analīze
 
@@ -62,7 +62,7 @@ Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 - Aktīvo kreditoru kopskaits
 
 **Piemērs**
-<img src="media/spend1.PNG" alt="Purchase by vendor">
+<img src="media/spend1.png" alt="Purchase by vendor">
 
 ### <a name="purchase-by-product-report-page"></a>Pārskata lapa pirkumiem pēc preces
 
@@ -79,7 +79,7 @@ Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 **Piemērs**
 
 
-<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+<img src="media/purchaseByProduct.png" alt="Purchase by Product">
 
 ### <a name="purchase-by-period-report-page"></a>Pārskata lapa pirkumiem pēc perioda
 Šajā lapā parādīti šī gada un pagājušā gada pirkumi un palielinājums pēc sagādes kategorijas.
@@ -95,7 +95,7 @@ Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 - Pirkumu palielinājums (%)
 
 **Piemērs**
-<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+<img src="media/purchaseByPeriod.png" alt="Purchase by Period">
 
 ### <a name="purchase-by-vendor-location-report-page"></a>Pārskata lapa pirkumiem pēc vietas
 
@@ -105,7 +105,7 @@ Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 - Pirkumi pēc valsts
 
 **Piemērs**
-<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+<img src="media/purchByVendorLocation.png" alt="Purchase by Vendor Location">
 
 ### <a name="purchase-spend-analysis-by-time-report-page"></a>Pārskata lapa pirkumu tēriņu analīzei pēc laika
 
@@ -114,7 +114,7 @@ Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 - Pašreizējā un pagājušā gada pirkumi (līniju un stabiņu diagramma)
 
 **Piemērs**
-<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+<img src="media/PurchByTIme.png" alt="Purchase by Time">
 
 ### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Pārskata lapa pirkumu tēriņu analīzei pēc kreditora
 
@@ -124,7 +124,7 @@ Zemāk norādītajās sadaļās ir sniegts pārskats par vizualizācijām.
 - Pirmie 10 kreditori ar samazinātiem tēriņiem pa gadiem
 
 **Piemērs** 
-<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+<img src="media/PurchSpendAnalysisByVendor.png" alt="Purchase spend by vendor">
 
 
 ## <a name="data-model-and-entities"></a>Datu modelis un elementi

@@ -3,7 +3,7 @@ title: Manuāli izveidoti darba pasūtījumi
 description: Šajā tēmā ir paskaidrots, kā manuāli izveidot darba pasūtījumus programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,131 +16,153 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 261448a134a7c1aacfbb4ea6f954ce03a63c23e2
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875776"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626251"
 ---
-# <a name="manually-created-work-orders"></a>Manuāli izveidoti darba pasūtījumi
+# <a name="manually-created-work-orders"></a>Manuāli izveidotie darba pasūtījumi
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [banner](../../includes/preview-banner.md)]
 
 
 Ir divi veidi, kādos var manuāli izveidot darba pasūtījumus:
 
-- sadaļā **Visi darba pasūtījumi** vai **Aktīvi darba pasūtījumi**  
-- sadaļās **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi** vai **Mani funkcionālā novietojuma uzturēšanas pieprasījumi**.  
+- Lapā **Visi darba pasūtījumi** vai **Aktīvi darba pasūtījumi**. 
+- Lapā **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi** vai **Mani funkcionālā novietojuma uzturēšanas pieprasījumi**. 
 
 ## <a name="create-work-order"></a>Izveidot darba pasūtījumu
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
 
-2. Noklikšķiniet uz pogas **Jauns**.
+2. Atlasiet **Jauns**.
 
-3. nolaižamajā sarakstā **Izveidot darba pasūtījumu** atlasiet darba pasūtījuma tipu.
+3. Dialogā **Izveidot darba pasūtījumu** atlasiet darba pasūtījuma veidu laukā **Darba pasūtījuma veids**.
 
-4. Ja nepieciešams, atlasiet aprakstu.
+4. Ja nepieciešams, atlasiet **Apraksts**.
 
-5. Atlasiet darba pasūtījumam līdzekli, kā arī uzturēšanas darba tipu.
+5. Atlasiet līdzekli laukā **Līdzeklis**.
 
 >[!NOTE]
->Atlasot līdzekli, var būt pieejamas trīs cilnes: Cilne **Mani līdzekļi** satur līdzekļus, kas ir saistīti ar funkcionālo novietojumu, kurš jums (speciālistam, kurš ir pieteicies sistēmā) var būt piešķirts (uzstādīts [Uzturēšanas speciālisti un speciālistu grupas](../setup-for-objects/workers-and-worker-groups.md)). Ja speciālistam sadaļā [Uzturēšanas speciālisti un speciālistu grupas](../setup-for-objects/workers-and-worker-groups.md) nav uzstādīts funkcionālais novietojums, cilne **Mani līdzekļi** nebūs redzama. Cilnē **Aktīvie līdzekļī** ir iekļauts visu līdzekļu saraksts ar līdzekļa dzīves cikla statusu "Aktīvs". Cilne **Līdzekļu skats** parāda funkcionālo novietojumu koku un šajos novietojumos uzstādītos līdzekļus.
+>Atlasot līdzekli, **Līdzeklis** nolaižamajā sarakstā var būt pieejamas trīs cilnes: 
 
-6. Ja nepieciešams, atlasiet opcijas **Uzturēšanas darba tipa variants** un **Amats**.
+- **Aktīvie līdzekļi** - Šajā cilnē ir iekļauts visu līdzekļu saraksts ar līdzekļa dzīves cikla statusu "Aktīvs". 
+- **Līdzekļu skats** - Šī cilne parāda funkcionālo novietojumu koku un tajos uzstādītos līdzekļus.
+- **Mani līdzekļi** - Šajā cilnē ir ietverti līdzekļi, kas ir saistīti ar funkcionālajiem novietojumiem, ko jums (darbiniekam, kurš ir pieteicies sistēmā) var tikt piešķirts. (Informāciju par iestatīšanu skatiet [Uzturēšanas speciālisti un speciālistu grupas](../setup-for-objects/workers-and-worker-groups.md).) Ja speciālistam nav iestatīti funkcionālie novietojumi [Uzturēšanas speciālisti un speciālistu grupas](../setup-for-objects/workers-and-worker-groups.md), tad cilne **Mani līdzekļi** nav pieejama. 
 
-7. Ja nepieciešams, jūs varat mainīt darba pasūtījuma servisa līmeni laukā **Servisa līmenis**.
+6. Laukā **Uzturēšanas darba tips** atlasiet darba pasūtījuma uzturēšanas darba veidu.
 
-8. Attiecīgajos laukos atlasiet paredzamo sākumu un beigu datumu.
+7. Ja nepieciešams, atlasiet opcijas **Uzturēšanas darba tipa variants** un **Amats**.
 
-9. Noklikšķiniet uz **Labi**, lai izveidotu jaunu darba pasūtījumu.
+8. Ja nepieciešams, jūs varat mainīt darba pasūtījuma servisa līmeni laukā **Servisa līmenis**.
 
-10. Ja nepieciešams, rediģējiet darba pasūtījumu laukā **Visi darba pasūtījumi**.
+9. Attiecīgajos laukos atlasiet datumus **Paredzamais sākums** un **Paredzamās beigas**.
 
-- Laukā **Visi darba pasūtījumi** jūs varat darba pasūtījumam pievienot vairākus līdzekļus Detalizētajā skatā, pievienojot rindas kopsavilkuma cilnē **Darba pasūtījuma uzturēšanas darbi**.  Līdzeklī jūs varat atlasīt vienīgi tos uzturēšanas darbu tipus, kuri ir definēti līdzeklim atlasītajā līdzekļa tipā.  
-- Ja esat mainījis līdzekļa servisa līmeni vai līdzekļa kritiskos faktorus pēc tam, kad tie izmantoti darba pasūtījumā (skatīt [Līdzekļa servisa līmeņi](../setup-for-objects/object-priorities.md) un [Līdzekļu kritiskie faktori](../setup-for-objects/object-criticalities.md)), servisa līmenis vai kritiskie faktori darba pasūtījumā netiek atjaunināti.
-- Darba pasūtījuma kritiskie faktori tiek atkārtoti aprēķināti katru reizi, kad darba pasūtījuma rinda tiek pievienota darba pasūtījumam vai dzēsta no tā.
-- Detalizētajā skatā **Visi darba pasūtījumi** > skatā **Galvene** > ātrajā cilnē grafiks **Schedule** jūs varat atlasīt atbildīgo uzturēšanas speciālistu grupu vai atbildīgo uzturēšanas speciālistu laukos **Atbildīgā grupa** vai **Atbildīgais**. Šos uzstādījumus var mainīt, kamēr vien darba pasūtījums ir aktīvs, piemēram, ja mainās darba pasūtījuma dzīves cikla stāvoklis. Automātiskā atlase, kas veikts darba pasūtījuma izveides laikā, tiek balstīta uzstādījumā sadaļā **Atbildīgie uzturēšanas speciālisti**. Ja pievienojat vai dzēšat darba pasūtījuma darbus pēc tam, kad izveidojāt darba pasūtījumu, un lauki **Atbildīgo grupa** un **Atbildīgais** ir tukši, kad atjaunināt darba pasūtījumu, programma Asset Management meklē iespējamo atbildīgu uzstādīšanas veidlapā atbildīgajai uzturēšanas speciālistu grupai vai atbildīgajam uzturēšanas speciālistam. Ja lauki **Atbildīgo grupa** vai **Atbildīgais** jau ir aizpildīti, kad atjaunināt darba pasūtījumu, netiek veiktas nekādas izmaiņas. 
+10. Noklikšķiniet uz **Labi**, lai izveidotu darba pasūtījumu.
 
-- Sadaļā **Uzturēšanas stāvoklis** jūs varat veikt aprēķinu par to, kā iegūt pārskatu par darba slodzi attiecībā uz ienākošajiem un pabeigtajiem darba pasūtījumiem.   
+11. Sarakstu lapā **Visi darba pasūtījumi** jūs varat labot darba pasūtījumu, kā nepieciešams.
 
-- Ātrajā cilnē **Rindas detalizēta informācija**, izmantojiet laukus **Platums** un **Garums**, lai pievienotu ģeogrāfiskās koordinātas līdzeklim, kas atlasīts darba pasūtījuma darbā.  
+Ņemiet vērā šādus punktus:
+
+- Detalizētajā skatā **Visi darba pasūtījumi** sarakstu lapā jūs varat darba pasūtījumam pievienot vairākus līdzekļus, pievienojot rindas kopsavilkuma cilnē **Darba pasūtījuma uzturēšanas darbi**. Līdzeklī jūs varat atlasīt vienīgi tos uzturēšanas darbu tipus, kuri ir definēti līdzekļa veidā, kas ir atlasīts līdzeklī.  
+
+- Ja maināt līdzekļa servisa līmeni vai līdzekļa kritiskumu pēc tam, kad esat to jau izmantojis līdzekli darba pasūtījumā, servisa līmenis vai kritiskums darba pasūtījumā netiek attiecīgi atjaunināts. Lai iegūtu papildinformāciju par servisa līmeņiem un kritiskumu, skatiet [Līdzekļu servisa līmeņi](../setup-for-objects/object-priorities.md) un [Līdzekļa kritiskums](../setup-for-objects/object-criticalities.md).
+
+- Kritiskums darba pasūtījumā tiek pārrēķināts katru reizi, kad darba pasūtījuma darbs tiek pievienots vai dzēsts darba pasūtījumā.
+
+- Detalizētajā skatā **Visi darba pasūtījumi** > cilnē **Galvene** > ātrajā cilnē **Grafiks** laukos **Atbildīgā grupa** vai **Atbildīgais** jūs varat atlasīt atbildīgo uzturēšanas speciālistu grupu vai atbildīgo uzturēšanas speciālistu. Šos iestatījumus var mainīt, kamēr darba pasūtījums ir aktīvs. Piemēram, tos var mainīt, ja mainās darba pasūtījuma dzīves cikla stāvoklis. Automātiskā atlase, kas ir veikts darba pasūtījuma izveides laikā, tiek balstīta uzstādījumā lapā **Atbildīgie uzturēšanas speciālisti**. Ja pievienojat vai dzēšat darba pasūtījuma darbus pēc tam, kad izveidojāt darba pasūtījumu, un ja lauki **Atbildīgo grupa** un **Atbildīgais** ir tukši, kad atjaunināt darba pasūtījumu, programma Līdzekļu pārvaldība mēģina atrast atbildīgo uzturēšanas speciālistu grupu vai atbildīgo uzturēšanas speciālistu iespējamai sakritībai uzstādīšanas veidlapā. Ja lauki **Atbildīgo grupa** vai **Atbildīgais** jau ir iestatīti, kad atjaunināt darba pasūtījumu, netiek veiktas nekādas izmaiņas. Papildinformāciju par atbildīgiem uzturēšanas speciālistiem un speciālistu grupām, skatiet nodaļā [Atbildīgie uzturēšanas speciālisti](../setup-for-maintenance-requests/responsible-workers.md).
+
+- Lapā [Uzturēšanas stāvoklis](../controlling-and-reporting/maintenance-status.md) jūs varat veikt aprēķinu par to, kā iegūt pārskatu par darba slodzi ienākošajiem un pabeigtajiem darba pasūtījumiem.  
+
+- Lapas **Visi darba pasūtījumi** detalizētajā skatā, kopsavilkuma cilnē **Detalizētā informācija par rindu** jūs var izmantot laukus **Platums** un **Garums**, lai pievienotu ģeogrāfiskās koordinātes līdzeklim, kas atlasīts darba pasūtījuma darbā.  
+
 
 ## <a name="create-related-work-order"></a>Izveidot saistītu darba pasūtījumu
 
-Jūs varat izveidot saistītu darba pasūtījumu esošam darba pasūtījumam, ja, piemēram, vēlaties strādāt ar primāriem un sekundāriem darba pasūtījumiem. Jauns darba pasūtījums ir balstīts darba pasūtījuma darbā no esoša darba pasūtījuma.
+Jūs varat izveidot darba pasūtījumu, kas ir saistīts ar esošo darba pasūtījumu. Šī spēja ir noderīga, ja, piemēram, vēlaties strādāt ar primāriem un sekundāriem darba pasūtījumiem. Jauns darba pasūtījums ir balstīts darba pasūtījuma darbā no esoša darba pasūtījuma.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
 
-2. Atlasiet darba pasūtījumu, kuram vēlaties izveidot saistītu darba pasūtījumu.
+2. Atlasiet darba pasūtījumu, lai tam izveidotu saistīto darba pasūtījumu.
 
-3. Noklikšķiniet uz **Saistīts darba pasūtījums**.
+3. Darbību rūtī cilnē **Darba pasūtījums** grupā **Jauns** atlasiet **Saistīts darba pasūtījums**.
 
-4. Nolaižamajā dialogā **Izveidot saistītu darba pasūtījumu** atlasiet darba pasūtījuma darbu, kuram vēlaties izveidot saistītu darba pasūtījumu laukā **Darba pasūtījuma darbs**.
+4. Dialogā **Izveidot saistītu darba pasūtījumu** laukā **Darba pasūtījuma darbs** atlasiet darba pasūtījuma darbu, kuram vēlaties izveidot saistītu darba pasūtījumu.
 
-5. Laukā **Uzturēšanas darba tips** atlasiet uzturēšanas darba tipu un, ja nepieciešams, saistītā uzturēšanas darba tipa variantu un amatu laukos **Uzturēšanas darba tipa variants** un **Amats**.
+5. Atlasiet uzturēšanas darba veidu laukā **Uzturēšanas darba veids**.
 
-6. Ja šis ir pirmais saistītais darba pasūtījums, ko veicat, noklikšķiniet uz radiopogas **Jauns darba pasūtījums**.
+6. Laukos **Uzturēšanas darba tipa variants** un **Amats** atlasiet saistīto uzturēšanas darba veida variantu un amatu, kā nepieciešams.
 
-7. Atbilstošajos laukos atlasiet opcijas **Darba pasūtījuma tips** un **Apraksts**.
+7. Ja šis darba pasūtījums ir pirmais saistītais darba pasūtījums, kas tika izveidots atlasītajam darba pasūtījumam, rīkojieties šādi:
+    1. Atlasiet **Jauns darba pasūtījums** opciju.
+    2. Atlasiet darba pasūtījuma veidu laukā **Darba pasūtījuma veids**.
+    3. Laukā **Apraksts** ievadiet aprakstu.
+    4. Ja nepieciešams, laukā **Servisa līmenis** mainiet darba pasūtījuma servisa līmeni.
+    5. Laukos **Paredzamais sākums** un **Paredzamas beigas** atlasiet paredzamos sākuma un beigu datumus.
+    6. Atlasiet **Labi**. Jaunais saistītais darba pasūtījums tiek rādīts lapā **Visi darba pasūtījumi**.  
 
-8. Ja nepieciešams, mainiet darba pasūtījuma servisa līmeni laukā **Servisa līmenis**.
+8. Ja darba pasūtījumam, kuram jūs veidojat šo saistīto darba pasūtījumu, jau ir saistīti darba pasūtījumi, veiciet tālāk norādītās darbības, lai pievienotu jaunu darba pasūtījuma darbu esošam saistītajam darba pasūtījumam:
+    1. Atlasiet opciju **Pievienot saistītam darba pasūtījumam**.
+    2. Laukā **Darba pasūtījums** atlasiet saistītu darba pasūtījumu, kuram vēlaties pievienot jaunu darba pasūtījuma darbu.
+    3. Ja nepieciešams, laukā **Servisa līmenis** mainiet darba pasūtījuma servisa līmeni.
+    4. Laukos **Paredzamais sākums** un **Paredzamas beigas** pēc nepieciešamības mainiet paredzamos sākuma un beigu datumus.
+    5. Atlasiet **Labi**. Darba pasūtījuma darbs ir pievienots esošam saistītam darba pasūtījumam.
 
-9. Atbilstošajos laukos ievadiet paredzamos sākuma un beigu datumus.
-
-10. Noklikšķiniet uz **Labi**. Jaunais saistītais darba pasūtījums tiek rādīts sarakstā **Visi darba pasūtījumi**.
-
-11. Ja jūs izveidojat saistītu darba pasūtījumu darba pasūtījumam, kuram jau ir saistīti darba pasūtījumi, jūs varat pievienot darba pasūtījumu jau saistītam darba pasūtījumam. Tas tiek izdarīts, 6. darbībā noklikšķinot radiopogu **Pievienot saistītam darba pasūtījumam**. Pēc tam jūs atlasāt saistītu darba pasūtījumu, kuram vēlaties pievienot jaunu darba pasūtījuma darbu. Pēc nepieciešamības rediģējiet laukus **Servisa līmenis**, **Paredzamais sākums** un **Paredzamās beigas** un noklikšķiniet uz **Labi**. Darba pasūtījuma darbs ir pievienots esošam saistītam darba pasūtījumam.
-
+Attēlā tālāk ir parādīts sarakstu dialoga **Izveidot saistīto darba pasūtījumu** piemērs.
 
 ![1. attēls](media/03-work-orders.png)
 
-**Piezīme:** Ja iestatījāt saistītā darba pasūtījuma masku, dodoties uz **Līdzekļa pārvaldības parametri** > **Darba pasūtījumi** saite > lauks **Saistīta darba pasūtījuma maska**, darba pasūtījuma ID tiks izveidoti atbilstoši maskas uzstādījumam. Ja nav uzstādīta neviena saistīta darba pasūtījuma maska, saistītiem darba pasūtījumiem tiks izmantots nākamais pieejamais darba pasūtījuma ID.
+>[!NOTE]
+>Ja iestatījāt saistītā darba pasūtījuma masku **Līdzekļa pārvaldības parametri** > **Darba pasūtījumi** cilne > **Saistīta darba pasūtījuma maska** lauks, darba pasūtījuma ID tiek izveidoti atbilstoši maskas uzstādījumam. Ja nav uzstādīta neviena saistīta darba pasūtījuma maska, saistītiem darba pasūtījumiem tiks izmantots nākamais pieejamais darba pasūtījuma ID
 
-## <a name="copy-work-order"></a>Kopēt darba pasūtījumu
+## <a name="copy-a-work-order"></a>Kopēt darba pasūtījumu.
 
-Ir iespējams ātri izveidot jaunu darba pasūtījumu no esoša darba pasūtījuma. Tādējādi darbs ar darba pasūtījumiem atšķiras no darba pasūtījumu izveides, kuri ir balstīti uzturēšanas plānos. Tas ir noderīgi, ja jums ir, piemēram, darba pasūtījums, kas satur daudzus darba pasūtījuma darbus ar dažādiem darbiem atšķirīgiem līdzekļiem, kurus vajadzētu pabeigt regulāros intervālos.
+Jūs varat ātri izveidot jaunu darba pasūtījumu no esoša darba pasūtījuma. Tādējādi darbs ar darba pasūtījumiem atšķiras no darba pasūtījumu izveides, kuri ir balstīti uz [uzturēšanas plāni](../preventive-and-reactive-maintenance/maintenance-plans.md). Tas ir noderīgi, ja, piemēram, darba pasūtījums satur daudzus darba pasūtījuma darbus un dažādiem darbiem jābūt pabeigtiem atšķirīgos līdzekļos regulāros intervālos.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
 
-2. Atlasiet darba pasūtījumu, no kura vēlaties kopēt saturu.
+2. Atlasiet darba pasūtījumu, no kura kopēt saturu.
 
-3. Noklikšķiniet uz **Kopēt darba pasūtījumu**. Tiek parādīts darba pasūtījuma uzstādījums no atlasītā darba pasūtījuma. Ja nepieciešams, jūs varat dažus laukus rediģēt.
+3. Darbību rūtī cilnē > **Darba pasūtījums** > grupā **Jauns** atlasiet **Kopēt darba pasūtījumu**.
 
-4. Noklikšķiniet uz **Labi**, lai izveidotu jaunu darba pasūtījumu.
+4. Tiek parādīts darba pasūtījuma uzstādījums no atlasītā darba pasūtījuma. Ja nepieciešams, jūs varat rediģēt dažus laukus.
 
-5. Ja nepieciešams, rediģējiet darba pasūtījumu laukā **Visi darba pasūtījumi**.
+5. Atlasiet **Labi**, lai izveidotu jaunu darba pasūtījumu.
+
+6. Sarakstu lapā **Visi darba pasūtījumi** jūs varat labot darba pasūtījumu, kā nepieciešams.
 
 >[!NOTE]
->Kad ir izveidots jauns darba pasūtījums, daļa informācijas tiek kopēta tieši no esošā darba pasūtījuma. Informācija, kas attiecas uz prognozēm, rīkiem, uzturēšanas kontrolsarakstiem, funkcionālo novietojumu, adresēm un plānošanu, netiek kopēta, bet tiek inicializēta no pašreizējā uzstādījuma programmā Asset Management. Tādējādi, ja šajos datos tika veiktas izmaiņas laikā no pirmā darba pasūtījuma izveides datuma līdz darba pasūtījuma kopēšanas laikam, šīs izmaiņas tiek iekļautas jaunajā darba pasūtījumā, kuru izveidojāt. Piemēri ir izmaiņas prognozēs vai atjauninātos uzturēšanas kontrolsarakstos.
+>Kad ir izveidots jauns darba pasūtījums, daļa informācijas tiek kopēta tieši no esošā darba pasūtījuma. Informācija par prognozēm, rīkiem, uzturēšanas kontrolsarakstiem, funkcionālo novietojumu, adresēm un plānošanu netiek kopēta. Tā vietā tas tiek inicializēts no pašreizējiem Līdzekļu pārvaldības iestatījumiem. Tāpēc, ja šī informācija tika mainīta starp laiku, kad tika izveidots pirmais darba pasūtījums, un laiku, kad veicāt darba pasūtījuma kopiju, izmaiņas tiek iekļautas jaunajā darba pasūtījumā. Piemēri iekļauj izmaiņas prognozēs un uzturēšanas kontrolsarakstu atjauninājumus.
 
+Attēlā zemāk ir parādīts dialoglodziņš **Kopēt darba pasūtījumu**.
 
 ![2. attēls](media/04-work-orders.png)
 
 
-## <a name="create-work-order-based-on-a-maintenance-request"></a>Izveidojiet uzturēšanas pieprasījumā balstītu darba pasūtījumu
+## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Izveidojiet darba pasūtījumu balstītu uz uzturēšanas pieprasījumu
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Uzturēšanas pieprasījumi** > **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Uzturēšanas pieprasījumi** > **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi**.
 
-2. Atlasiet uzturēšanas pieprasījumu, kuram vēlaties izveidot darba pasūtījumu, un noklikšķiniet uz **Rediģēt**.
+2. Atlasiet uzturēšanas pieprasījumu, kuram izveidot darba pasūtījumu, un noklikšķiniet uz **Rediģēt**.
 
-3. Laukā **Visi pieprasījumi** noklikšķiniet uz **Darba pasūtījums**.
+3. Darbību rūtī cilnē > **Uzturēšanas pieprasījums** > grupā **Jauns** atlasiet **Darba pasūtījums**.
 
-4. Aizpildiet nolaižamo lauku **Darba pasūtījums**. Ja uzturēšanas darba tips ir atlasīts uzturēšanas pieprasījumā, jūs varat atlasīt citu uzturēšanas darba tipu, ja nepieciešams, kad izveidojat darba pasūtījumu.
+4. Dialogā **Darba pasūtījums** iestatiet laukus. Ja uzturēšanas darba veids ir atlasīts uzturēšanas pieprasījumā, jūs varat atlasīt citu uzturēšanas darba veidu, ja nepieciešams, kad izveidojat darba pasūtījumu.
 
-5. Noklikšķiniet uz **Labi**. Tiks parādīts ziņojums, ka darba pasūtījums ir izveidots.
+5. Atlasiet **Labi**. Ziņojums jūs informē, ka ir izveidots darba pasūtījums.
 
-6. Ja vēlaties redzēt, kuri darba pasūtījumi ir savienoti ar uzturēšanas pieprasījumu, atlasiet uzturēšanas pieprasījumu sarakstos **Visi uzturēšanas pieprasījumi** vai **Aktīvi uzturēšanas pieprasījumi** un noklikšķiniet uz pogas **Darba pasūtījumi**.
+6. Lai skatītu darba pasūtījumus, kas ir savienoti ar uzturēšanas pieprasījumu, atlasiet uzturēšanas pieprasījumu sarakstu lapā **Visi uzturēšanas pieprasījumi** vai **Aktīvi uzturēšanas pieprasījumi**. Pēc tam darbību rūtī cilnē **Uzturēšanas pieprasījums** grupā **Skatīt** atlasiet **Darba pasūtījumi**.
 
+
+Attēlā zemāk ir parādīts dialoglodziņš **Izveidot darba pasūtījumu**.
 
 ![3. attēls](media/05-work-orders.png)
 
 
 >[!NOTE]
->Darba pasūtījumus var arī izveidot automātiski, ieplānojot uzturēšanas plāna darbus vai līdzeklī uzstādot "Automātiskās izveides" uzturēšanas plānus vai uzturēšanas ciklus. Darba pasūtījumi, kas izveidoti no uzturēšanas pieprasījumiem opcijā **Uzturēšanas grafiks**, tiek izveidoti ar uzturēšanas darba tipiem, kas atlasīti uzturēšanas pieprasījumos. 
+>Ja jūs vēlāties, lai darba pasūtījumi izveidotos automātiski, jūs varat ieplānot uzturēšanas plāna darbus vai līdzeklī uzstādīt "Automātiskā izveide" [uzturēšanas plāni](../preventive-and-reactive-maintenance/maintenance-plans.md) vai [uzturēšanas cikli](../preventive-and-reactive-maintenance/maintenance-rounds.md). Darba pasūtījumiem, kas ir izveidoti no uzturēšanas pieprasījumiem sarakstu lapā **Viss uzturēšanas grafiks**, ir uzturēšanas darba veidi, kas ir atlasīti uzturēšanas pieprasījumos.
 

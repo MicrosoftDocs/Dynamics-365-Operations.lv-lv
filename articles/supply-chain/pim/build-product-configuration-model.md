@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249498"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653652"
 ---
 # <a name="product-configuration-overview"></a>Produkta konfigurēšanas pārskats
 
@@ -73,7 +73,7 @@ Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti.
 
 Lietotāja definētu tabulas ierobežojumu veido lietotājs. Lietotājs atlasa atribūtu tipu kombināciju, kas pārstāvēs tabulas kolonnas, un pēc tam ievada vērtības no atlasīto atribūtu tipu domēniem, lai veidotu rindas tabulas ierobežojumā.  
 
-Sistēmas definēts tabulas ierobežojums tiek definēts, atlasot kā atsauci izmantojamo tabulu un pēc tam atlasot šī tabulas laukus, lai izveidotu ierobežojuma kolonnas. Tabulas ierobežojuma rindas ir Dynamics 365 for Finance and Operations tabulas rindas, kas ir pieejamas konfigurēšanas laikā.  
+Sistēmas definēts tabulas ierobežojums tiek definēts, atlasot kā atsauci izmantojamo tabulu un pēc tam atlasot šī tabulas laukus, lai izveidotu ierobežojuma kolonnas. Tabulas ierobežojuma rindas ir Supply Chain Management tabulas rindas, kas ir pieejamas konfigurācijas laikā.  
 
 Tabulas ierobežojums tiek iekļauts preces konfigurācijas modelī, izmantojot atsauci uz tabulas ierobežojuma definīciju un kartējot attiecīgos atribūtus modelī tabulas ierobežojuma kolonnās.
 

@@ -3,7 +3,7 @@ title: Kvalitātes pārvaldības apskats
 description: Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Dynamics 365 Supply Chain Management, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249589"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653560"
 ---
 # <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249589"
 
 Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Dynamics 365 Supply Chain Management, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 
-Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Finance and Operations var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
+Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no to izcelsmes vietas. Tā kā diagnostikas tipi ir saistīti ar korekciju ziņošanu, Supply Chain Management var plānot uzdevumus, lai izlabotu problēmas un novērstu to atkārtošanos.
 
 Papildus neatbilstības pārvaldības funkcionalitātei kvalitātes pārvaldība ietver arī funkcionalitāti problēmu izsekošanai pēc problēmas tipa (pat iekšējām problēmām) un risinājumu identificēšanai īstermiņā vai ilgtermiņā. Statistika par galvenajiem darba kvalitātes rādītājiem (KPI) sniedz ieskatu par iepriekšējām neatbilstības problēmām un risinājumiem, kas tika izmantoti to labošanai. Vēsturiskos datus varat izmantot, lai pārskatītu iepriekšējo kvalitātes pasākumu efektivitāti un noteiktu, kuri pasākumi ir piemēroti turpmākai izmantošanai.
 
@@ -294,6 +294,256 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 </tbody>
 </table>
 
+## <a name="quality-order-auto-generation-examples"></a>Kvalitātes pārbaudes pasūtījuma automātiskās ģenerēšanas piemēri
+
+### <a name="purchasing"></a>Pirkšana
+
+Pirkšanā, ja iestatāt lauku **Notikuma veids** uz **Produktu ieejas plūsma** un lauku **Izpilde**, kas atrodas lapā **Kvalitātes piesaistes** uz **Pēc**, jūs iegūstat tālāk norādītos rezultātus. 
+
+- Ja opcija **Pēc atjauninātā daudzuma** ir iestatīta uz **Jā**, katrai saņemšanai atbilstoši pirkšanas pasūtījumam tiek ģenerēts kvalitātes pārbaudes pasūtījums, pamatojoties uz saņemto daudzumu un iestatījumiem krājumu iztveršanā. Katru reizi, kad tiek saņemts daudzums atbilstoši pirkšanas pasūtījumam, tiek ģenerēti jauni kvalitātes pārbaudes pasūtījumi, pamatojoties uz tikko saņemto daudzumu.
+- Ja opcija **Pēc atjauninātā daudzuma** ir iestatīta uz **Nē**, pirmajai saņemšanai atbilstoši pirkšanas pasūtījumam tiek ģenerēts kvalitātes pārbaudes pasūtījums, pamatojoties uz saņemto daudzumu. Turklāt viens vai vairāki kvalitātes pārbaudes pasūtījumi tiek izveidoti, pamatojoties uz atlikušo daudzumu atkarībā no izsekošanas dimensijām. Kvalitātes pārbaudes pasūtījumi netiek ģenerēti turpmākām ieejas plūsmām atbilstoši pirkšanas pasūtījumam.
+
+<table>
+<tbody>
+<tr>
+<th>Kvalitātes specifikācija</th>
+<th>Pēc atjauninātā daudzuma</th>
+<th>Pēc izsekošanas dimensijas</th>
+<th>Rezultāts</th>
+</tr>
+<tr>
+<td>Procentuālā attiecība: 10 %</td>
+<td>Jā</td>
+<td>
+<p>Paketes numurs: Nr.</p>
+<p>Sērijas numurs: Nr.</p>
+</td>
+<td>
+<p>Pasūtījuma daudzums: 100</p>
+<ol>
+<li>Pabeigto krājumu daudzums 30
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 3 vienumiem (10 % no 30)</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 70
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #2 7 vienumiem (10 % no atlikušā pasūtījuma daudzuma, kas šajā gadījumā ir vienāds ar 70)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksēts daudzums: 1</td>
+<td>Nē</td>
+<td>
+<p>Paketes numurs: Nr.</p>
+<p>Sērijas numurs: Nr.</p>
+</td>
+<td>Pasūtījuma daudzums: 100
+<ol>
+<li>Pabeigto krājumu daudzums 30
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 tiek izveidots vienumam 1 (pirmajam daudzumam, kas ir norādīts kā pabeigts, kura fiksētā vērtība ir 1).</li>
+<li>Saskaņā ar atlikušo daudzumu nav izveidoti citi kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 10
+<ul>
+<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 60
+<ul>
+<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksēts daudzums: 1</td>
+<td>Jā</td>
+<td>
+<p>Partijas numurs: Jā</p>
+<p>Sērijas numurs: Jā</p>
+</td>
+<td>
+<p>Pasūtījuma daudzums: 10</p>
+<ol>
+<li>Pabeigto krājumu daudzums 3
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 1 vienumam no partijas #b1, sērijas #s1</li>
+<li>Kvalitātes pārbaudes pasūtījums #2 1 vienumam no partijas #b2, sērijas #s2</li>
+<li>Kvalitātes pārbaudes pasūtījums #3 1 vienumam no partijas #b3, sērijas #s3</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 2
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #4 1 vienumam no partijas #b4, sērijas #s4</li>
+<li>Kvalitātes pārbaudes pasūtījums #5 1 vienumam no partijas #b5, sērijas #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Piezīme:</strong> partiju var izmantot atkārtoti.</p>
+</td>
+</tr>
+<tr>
+<td>Fiksēts daudzums: 2</td>
+<td>Nē</td>
+<td>
+<p>Partijas numurs: Jā</p>
+<p>Sērijas numurs: Jā</p>
+</td>
+<td>
+<p>Pasūtījuma daudzums: 10</p>
+<ol>
+<li>Pabeigto krājumu daudzums 4
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 1 vienumam no partijas #b1, sērijas #s1.</li>
+<li>Kvalitātes pārbaudes pasūtījums #2 1 vienumam no partijas #b2, sērijas #s2.</li>
+<li>Kvalitātes pārbaudes pasūtījums #3 1 vienumam no partijas #b3, sērijas #s3.</li>
+<li>Kvalitātes pārbaudes pasūtījums #4 1 vienumam no partijas #b4, sērijas #s4.</li>
+<li>Saskaņā ar atlikušo daudzumu nav izveidoti citi kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 6
+<ul>
+<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Ražošana
+
+Ražošanā, ja iestatāt lauku **Notikuma veids** uz **Norādīts kā pabeigts** un lauku **Izpilde**, kas atrodas lapā **Kvalitātes piesaistes** uz **Pēc**, jūs iegūstat tālāk norādītos rezultātus.
+
+- Ja opcija **Pēc atjauninātā daudzuma** ir iestatīta uz **Jā**, tiek ģenerēts kvalitātes pārbaudes pasūtījums, pamatojoties uz katru pabeigto daudzumu un iestatījumiem krājumu iztveršanā. Katru reizi, kad tiek daudzums tiek norādīts kā pabeigts atbilstoši ražošanas pasūtījumam, tiek ģenerēti jauni kvalitātes pārbaudes pasūtījumi, pamatojoties uz tikko pabeigto daudzumu. Šī ģenerēšanas loģika ir saskaņota ar pirkšanu.
+- Ja opcija **Pēc atjauninātā daudzuma** ir iestatīta uz **Nē**, pirmajā reizē, kad daudzums tiek norādīts kā pabeigts, tiek ģenerēts kvalitātes pārbaudes pasūtījums, pamatojoties uz pabeigto daudzumu. Turklāt viens vai vairāki kvalitātes pārbaudes pasūtījumi tiek izveidoti, pamatojoties uz atlikušo daudzumu atkarībā no krājumu iztveršanas izsekošanas dimensijām. Kvalitātes pārbaudes pasūtījumi netiek ģenerēti turpmākajiem pabeigtajiem daudzumiem.
+
+<table>
+<tbody>
+<tr>
+<th>Kvalitātes specifikācija</th>
+<th>Pēc atjauninātā daudzuma</th>
+<th>Pēc izsekošanas dimensijas</th>
+<th>Rezultāts</th>
+</tr>
+<tr>
+<td>Procentuālā attiecība: 10 %</td>
+<td>Jā</td>
+<td>
+<p>Paketes numurs: Nr.</p>
+<p>Sērijas numurs: Nr.</p>
+</td>
+<td>
+<p>Pasūtījuma daudzums: 100</p>
+<ol>
+<li>Pabeigto krājumu daudzums 30
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 3 vienumiem (10 % no 30)</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 70
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #2 7 vienumiem (10 % no atlikušā pasūtījuma daudzuma, kas šajā gadījumā ir vienāds ar 70)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksēts daudzums: 1</td>
+<td>Nē</td>
+<td>
+<p>Paketes numurs: Nr.</p>
+<p>Sērijas numurs: Nr.</p>
+</td>
+<td>Pasūtījuma daudzums: 100
+<ol>
+<li>Pabeigto krājumu daudzums 30
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 vienumam 1 (pirmajam daudzumam, kas ir norādīts kā pabeigts, kura fiksētā vērtība ir 1)</li>
+<li>Kvalitātes pārbaudes pasūtījums #2 vienumam 1 (atlikušajam daudzumam, kas ir norādīts kā pabeigts, kura fiksētā vērtība joprojām ir 1)</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 10
+<ul>
+<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+<li>Pabeigto krājumu daudzums 60
+<ul>
+<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksēts daudzums: 1</td>
+<td>Jā</td>
+<td>
+<p>Partijas numurs: Jā</p>
+<p>Sērijas numurs: Jā</p>
+</td>
+<td>
+<p>Pasūtījuma daudzums: 10</p>
+<ol>
+<li>Norādīt kā pabeigtu vienumam 3: 1 #b1 #s1; 1 #b2, #s2; un 1 #b3, #s3
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 1 vienumam no partijas #b1, sērijas #s1</li>
+<li>Kvalitātes pārbaudes pasūtījums #2 1 vienumam no partijas #b2, sērijas #s2</li>
+<li>Kvalitātes pārbaudes pasūtījums #3 1 vienumam no partijas #b3, sērijas #s3</li>
+</ul>
+</li>
+<li>Norādīt kā pabeigtu vienumam 2: 1 #b4, #s4 un 1 #b5, #s5
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #4 1 vienumam no partijas #b4, sērijas #s4</li>
+<li>Kvalitātes pārbaudes pasūtījums #5 1 vienumam no partijas #b5, sērijas #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Piezīme:</strong> partiju var izmantot atkārtoti.</p>
+</td>
+</tr>
+<tr>
+<td>Fiksēts daudzums: 2</td>
+<td>Nē</td>
+<td>
+<p>Partijas numurs: Jā</p>
+<p>Sērijas numurs: Jā</p>
+</td>
+<td>
+<p>Pasūtījuma daudzums: 10</p>
+<ol>
+<li>Norādīt kā pabeigtu vienumam 4: 1 #b1 #s1; 1 #b2, #s2; un 1 #b3, #s3 un 1 #b4, #s4
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #1 1 vienumam no partijas #b1, sērijas #s1</li>
+<li>Kvalitātes pārbaudes pasūtījums #2 1 vienumam no partijas #b2, sērijas #s2</li>
+<li>Kvalitātes pārbaudes pasūtījums #3 1 vienumam no partijas #b3, sērijas #s3</li>
+<li>Kvalitātes pārbaudes pasūtījums #4 1 vienumam no partijas #b4, sērijas #s4</li>
+</ul>
+<ul>
+<li>Kvalitātes pārbaudes pasūtījums #5 vienumam 2 bez atsauces uz partijas un sērijas numuru</li>
+</ul>
+</li>
+<li>Norādīt kā pabeigtu vienumam 6: 1 #b5 #s5; 1 #b6, #s6; 1 #b7, #s7; 1 #b8, #s8; 1 #b9, #s9 un 1 #b10, #s10
+<ul>
+<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## <a name="quality-management-pages"></a>Kvalitātes pārvaldības lapas
 <table>
 <colgroup>
@@ -305,7 +555,7 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 <tr class="header">
 <th>Lapa</th>
 <th>Apraksts</th>
-<th>Piemērs</th>
+<th>Paraugs</th>
 </tr>
 </thead>
 <tbody>

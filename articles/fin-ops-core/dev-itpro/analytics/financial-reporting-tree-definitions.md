@@ -3,7 +3,7 @@ title: Atskaišu koka definīcijas finanšu atskaitēs
 description: Šajā rakstā ir sniegta informācija par atskaišu koku definīcijām. Atkaišu koka definīcija ir atskaites komponents jeb veidošanas bloks, kas palīdz definēt jūsu organizācijas struktūru un hierarhiju.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181822"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564171"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Atskaišu koka definīcijas finanšu atskaitēs
 
@@ -42,15 +42,15 @@ Pirms atskaišu koka izveidošanas apsveriet tālāk aprakstītās pieņemtās p
 - Jāņem vērā arī labākais veids, kā veidot jūsu kokus. Lai ģenerētu atskaišu koku, varat izmantot automatizētu veidošanas procesu, vai atskaišu koku varat izveidot manuāli. Pirms veidot savus kokus, ir svarīgi saprast abas metodes.
 - Var izmantot pārskata vienības, kas ir definētas jūsu finanšu datu sistēmā, lai pārskata koka definīcijai pievienotu pārskata vienības.
 
-## <a name="create-multiple-reporting-trees"></a> Izveidot vairākus pārskata kokus
+## <a name="create-multiple-reporting-trees"></a>Izveidot vairākus pārskata kokus
 Var izveidot neierobežotu pārskata koku skaitu, lai skatītu jūsu uzņēmuma datus dažādos veidos. Ikvienā pārskatu kokā var ietvert vairākas datu grupas un kopsavilkumu vienības. Pārskata definīcija var vienlaicīgi saturēt saiti tikai uz vienu pārskata koku. Pārkārtojot pārskata vienību struktūru, jūs varat izveidot dažādus pārskata kokus. Pēc tam katram atskaišu kokam varat izmantot tās pašas rindu un kolonnu definīcijas. Šādā veidā varat ātri izveidot dažādus finanšu atskaišu izkārtojumus. Ja izveidojat vairākus atskaišu kokus, jūs katru mēnesi varat izdrukāt finanšu atskaišu sērijas, kas dažādos veidos analizē un uzrāda jūsu uzņēmuma operācijas. Papildinformāciju skatiet atskaites vienību struktūru piemēros šīs raksta nobeigumā.
 
-## <a name="create-a-reporting-tree-definition"></a> Izveidot pārskata koka definīciju
+## <a name="create-a-reporting-tree-definition"></a>Izveidot pārskata koka definīciju
 Atskaišu koka definīcija satur kolonnas, kas ir aprakstītas nākamajā tabulā.
 
 | Pārskata koka kolonna | Apraksts |
 |-----------------------|-------------|
-| Uzņēmums               | Pārskatu vienībā norādāmais uzņēmuma nosaukums. Izmantojot vērtību **@ANY**, kas parasti tiek piešķirta tikai kopsavilkuma līmenī, varat lietot pārskatu koku visos uzņēmumos. Visiem bērnelementu zariem ir piešķirts attiecīgs uzņēmums. |
+| Uzņēmums               | Pārskatu vienībā norādāmais uzņēmuma nosaukums. Izmantojot vērtību **\@ANY** , kas parasti tiek piešķirta tikai kopsavilkuma līmenī, varat lietot pārskatu koku visos uzņēmumos. Visiem bērnelementu zariem ir piešķirts attiecīgs uzņēmums. |
 | Vienības nosaukums             | Kods, kas identificē šo pārskata vienību grafiskajā pārskatu kokā. Noteikti izveidojiet unikālu kodēšanas sistēmu, kas darbojas konsekventi un ko lietotājiem ir viegli saprast. |
 | Vienības apraksts      | Pārskata vienības nosaukums tiek parādīts atskaites galvenē vai kājenē, ja ievadāt **UnitDesc** kā kodu, cilnē **Galvenes un kājenes** pārskata definīcijā. Nosaukums parādās pārskata rindas aprakstā, ja ievadāt **UnitDesc**, šūnā **Apraksts** rindas definīcijā. |
 | Dimensijas            | Pārskata vienība, kas informāciju saņem tieši no finanšu datiem. Tā definē loģisko pozicionēšanu, kā arī konta un saistīto segmentu garumus. Katrai atskaites vienības rindai šajā kolonnā ir nepieciešama dimensija. Varat arī ievietot dimensiju kopsavilkuma vienības rindā (piemēram, izdevumiem, kas ir tieši saistīti ar šo vienību). Ja ievadāt dimensiju kopsavilkuma vienības rindā, tad kontus, kas tiek izmantoti pamata vienībās, nevajadzētu izmantot apakšvienībās. Pretējā gadījumā summas varētu dublēties. |
@@ -59,15 +59,15 @@ Atskaišu koka definīcija satur kolonnas, kas ir aprakstītas nākamajā tabul�
 | Ārējā saite         | Šajā pārskatu vienībā izmantojamā rindas saite. Rindas saites tiek definētas rindas definīcijai, lai identificētu atskaiti, uz kuru veidot saiti. |
 | Ārējais fails         | Faila ceļš uz finanšu atskaišu veidošanas darblapu, no kuras iegūt datus. |
 | Lapas opcijas          | Šī kolonna kontrolē, vai šīs atskaites vienības detalizētā informācija tiek apspiesta, kad atskaite tiek skatīta vai drukāta. |
-| Apkopojuma %              | Procentuālais daudzums no atskaites vienības, kas ir jāpiešķir pamatvienībai. Procenti, ko jūs ievadāt šajā kolonnā attiecas uz katru rindas definīcijas rindu, pirms vērtība rindā tiek pievienota pamata pārskatam. Piemēram, ja pakārtotā vienība ir vienlīdzīgi jāsadala starp divām nodaļām, summas katrā rindā tiek reizinātas ar 50 procentiem, pirms to vērtība tiek pieskaitīta nodaļas atskaitei. Vienai atskaites vienībai nevar būt divas pamata vienības. Lai summas no vienas atskaites vienības sadalītu divām pamata vienībām, izveidojiet citu atskaites vienību, kurai ir tāda pati dimensija, lai apkopotu papildu 50 procentus. Ievadiet visu procentu daudzumu bez decimālzīmes. Piemēram, **25** nozīmē 25 procentu piešķiri uz pamata vienību. Ja iekļaujat decimālzīmi (**,25**), tad pamata vienībai tiek piešķirti 0,25 procenti. Lai izmantotu procentuālo vērtību, kas ir mazāka nekā 1 procents, pārskata definīcijā izmantojiet opciju **Atļaut apkopojumu &lt;1%**. Šī opcija ir cilnē **Papildu opcijas**, dialoglodziņā **Pārskatu iestatījumi**. Šim dialoglodziņam jūs piekļūstat, izmantojot pogu **Cits** atskaites definīcijas cilnē **Iestatījumi**. |
+| Apkopojuma procenti              | Procentuālais daudzums no atskaites vienības, kas ir jāpiešķir pamatvienībai. Procenti, ko jūs ievadāt šajā kolonnā attiecas uz katru rindas definīcijas rindu, pirms vērtība rindā tiek pievienota pamata pārskatam. Piemēram, ja pakārtotā vienība ir vienlīdzīgi jāsadala starp divām nodaļām, summas katrā rindā tiek reizinātas ar 50 procentiem, pirms to vērtība tiek pieskaitīta nodaļas atskaitei. Vienai atskaites vienībai nevar būt divas pamata vienības. Lai summas no vienas atskaites vienības sadalītu divām pamata vienībām, izveidojiet citu atskaites vienību, kurai ir tāda pati dimensija, lai apkopotu papildu 50 procentus. Ievadiet visu procentu daudzumu bez decimālzīmes. Piemēram, **25** nozīmē 25 procentu piešķiri uz pamata vienību. Ja iekļaujat decimālzīmi (**,25**), tad pamata vienībai tiek piešķirti 0,25 procenti. Lai izmantotu procentuālo vērtību, kas ir mazāka nekā 1 procents, pārskata definīcijā izmantojiet opciju **Atļaut apkopojumu &lt;1%** . Šī opcija ir cilnē **Papildu opcijas**, dialoglodziņā **Pārskatu iestatījumi**. Šim dialoglodziņam jūs piekļūstat, izmantojot pogu **Cits** atskaites definīcijas cilnē **Iestatījumi**. |
 | Vienības drošība         | Ierobežojumi lietotājiem un grupām, kas var piekļūt informācijai par šo atskaites vienību. |
 | Papildu teksts       | Teksts, kas ir ietverts šajā atskaitē. |
 
 Lai izveidotu atskaišu koka definīciju, izpildiet šādas darbības.
 
 1. Aizveriet pārskatu veidotāju.
-2. Noklikšķiniet uz **Fails** &gt; **Jauns** &gt; **Pārskatu koka definīcija**.
-3. Noklikšķiniet uz **Rediģēt** &gt; **Ievietot pārskata vienības no dimensijām**.
+2. Noklikšķiniet uz **Fails** &gt; **Jauns** &gt; **Pārskatu koka definīcija**.
+3. Noklikšķiniet uz **Rediģēt** &gt; **Ievietot pārskata vienības no dimensijām**.
 4. Dialoglodziņā **Ievietot pārskata vienības no dimensijām**, atlasiet dimensijas vērtības, kuras vēlaties iekļaut pārskata koka definīcijā. Dialoglodziņš **Ievietot pārskata vienības no dimensijām** ir šādas sadaļas.
 
     | Sadaļa                          | Apraksts |
@@ -88,7 +88,7 @@ Lai izveidotu atskaišu koka definīciju, izpildiet šādas darbības.
 
 9. Atkārtojiet 7. un 8. darbību katrai dimensijai apgabalā **Segmentu hierarhija un diapazoni**.
 10. Kad esat pabeidzis definēt veidu, kā jūsu atskaites vienības ir jāievieš jaunajā atskaišu kokā, noklikšķiniet uz **Labi**.
-11. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu pārskatu koku. Ievadiet unikālu nosaukumu un pārskata koka aprakstu, un pēc tam noklikšķiniet uz **Labi**.
+11. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu pārskatu koku. Ievadiet unikālu nosaukumu un pārskata koka aprakstu, un pēc tam noklikšķiniet uz **Labi**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Atveriet esoša pārskata koka definīciju
 
@@ -112,7 +112,7 @@ Kad izmantojot atskaišu koku, summas no atskaites apakšvienībām varat apkopo
 
 Katra atskaišu koka definīcija tiek parādīta unikālos skatos. Ir grafisks skats, kurā ir redzama pamatelementu/apakšelementu hierarhija, un darblapas skats, kas parāda konkrētu informāciju par katru atskaites vienību. Grafiskais skats un darblapas skats ir saistīti. Kad kādu atskaites vienību atlasāt vienā skatā, tā tiek atlasīta arī otrā skatā. Varat būvēt starpdimensiju hierarhijas, kas ir balstītas uz dimensiju attiecībām finanšu datos. Kad veidojat atskaišu koka definīciju, tās pašas rindas definīcijas varat izmantot vairākkārt, neatkarīgi no tā, vai ģenerējat nodaļas ieņēmumu pārskatu vai konsolidēto kopsavilkuma ieņēmumu pārskatu. Dimensijas, kas ir definētas rindas definīcijā, var apvienot ar dimensijām atskaišu koka definīcijā, lai nodrošinātu dažādus jūsu organizācijas veiktspējas skatus.
 
-### <a name="reporting-unit-structure"></a> Pārskata vienības struktūra
+### <a name="reporting-unit-structure"></a>Pārskata vienības struktūra
 
 Finanšu atskaišu veidotājā tiek izmantoti šādi atskaites vienību tipi:
 
@@ -121,16 +121,16 @@ Finanšu atskaišu veidotājā tiek izmantoti šādi atskaites vienību tipi:
 
 Pamata pārskata vienība ir kopsavilkuma vienība, kas uzkrāj apkopoto informāciju no detalizācijas vienības. Kopsavilkuma vienība var būt gan detalizēta vienība, gan kopsavilkuma vienība. Tādēļ kopsavilkuma vienība informāciju var iegūt no zemāka līmeņa vienības, finanšu datiem vai Excel darblapas. Pamata vienība var būt augstākas pamata vienības apakšvienība. Atskaites apakšvienība var būt detalizēta vienība, kas informāciju iegūst tieši no finanšu datiem vai Excel darblapas. Atskaites apakšvienība var būt arī starpposma kopsavilkuma vienība. Citiem vārdiem sakot, tā var būt pamata vienība kādai zemāka līmeņa vienībai un arī apakšvienība kādai augstāka līmeņa kopsavilkuma vienībai. Visbiežāk izmantotajā atskaites vienību scenārijā pamata vienībām ir tukša šūna kolonnā **Dimensijas**, un apakšvienībām ir saites uz noteiktām vai aizstājējzīmju dimensiju kombinācijām.
 
-### <a name="organize-reporting-units"></a> Organizēt pārskata vienības
+### <a name="organize-reporting-units"></a>Organizēt pārskata vienības
 
 Varat mainīt pārskatu koka definīcijas organizācijas struktūru, pārvietojot pārskatu vienības grafiskajā skatā. Atskaišu vienības varat arī pārvietot uz augstāku līmeni atskaišu kokā vai pārcelt tās uz zemāku līmeni.
 
 1. Pārskatu veidotājā atveriet modificējamo pārskata koka definīciju.
 2. Pārskata koka definīciju grafiskajā skatā atlasiet pārskata vienību.
 3. Velciet vienību uz jauno pozīciju. Varat arī uz vienības noklikšķināt ar peles labo pogu un atlasīt vienumu **Paaugstināt atskaites vienību** vai **Pazemināt atskaites vienību**.
-4. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu izmaiņas.
+4. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu izmaiņas.
 
-### <a name="add-text-about-a-reporting-unit"></a> Pievienojiet tekstu par pārskata vienību
+### <a name="add-text-about-a-reporting-unit"></a>Pievienojiet tekstu par pārskata vienību
 
 Papildu teksta ieraksts ir statiska teksta virkne līdz 255 rakstzīmju garumā, kas papildina atskaišu koka definīcijas informāciju. Piemēram, papildu teksts var būt īss uzņēmuma apraksts. Jūs varat izveidot līdz pat desmit papildu teksta ierakstiem katrai pārskata vienībai pārskata koka definīcijā. Papildu teksts atskaitē ir redzams tai atskaites vienībai, kurai šis teksts ir piešķirts. Teksta ierakstus varat pievienot no rindas definīcijas kolonnas **Apraksts** un no atskaites definīcijas cilnes **Galvenes un kājenes**.
 
@@ -202,7 +202,7 @@ Nākamajā attēlā ir parādīts dialoglodziņa **Ievietot atskaišu vienības 
 
 [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
-Iegūtā atskaišu koka definīcija tiek kārtota pēc biznesa vienības, pēc tam tiek kārtota pēc izmaksu centra, un pēc tam — pēc nodaļas. Piektās pārskata vienības dimensija ir **Biznesa vienība = \[001\], Izmaksu centrs = \[\], Nodaļa = \[022\]**, un tā norāda pārskata vienību kontiem, kas atbilst biznesa vienībai 001 un nodaļai 022.
+Iegūtā atskaišu koka definīcija tiek kārtota pēc biznesa vienības, pēc tam tiek kārtota pēc izmaksu centra, un pēc tam — pēc nodaļas. Piektās pārskata vienības dimensija ir **Biznesa vienība = \[001\], Izmaksu centrs =\[\], Nodaļa = \[022\]**, un tā norāda pārskata vienību kontiem, kas atbilst biznesa vienībai 001 un nodaļai 022.
 
 [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 

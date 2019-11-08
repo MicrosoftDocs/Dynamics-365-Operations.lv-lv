@@ -3,7 +3,7 @@ title: Uzturēšanas prognozes
 description: Šajā tēmā ir paskaidrotas uzturēšanas prognozes programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024503"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626297"
 ---
 # <a name="maintenance-forecasts"></a>Uzturēšanas prognozes
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Izveidojot darba pasūtījumu, jūs izveidojat darba pasūtījuma darbus ar saistītiem līdzekļiem un uzturēšanas darba tipiem. Atlasot uzturēšanas darba tipu, kas satur uzturēšanas prognozes, prognozes tiek automātiski iekopētas darba pasūtījumā.
+Izveidojot darba pasūtījumu, jūs izveidojat darba pasūtījuma darbus, kam ir saistītie līdzekļi un uzturēšanas darba veidi. Atlasot uzturēšanas darba veidu, kas satur uzturēšanas prognozes, prognozes tiek automātiski iekopētas darba pasūtījumā.
 
-Iespējams, jūs varat pievienot vai dzēst prognozes rindas darba pasūtījumā. Darba pasūtījuma dzīves cikla stāvokļa uzstādījums, saistītais projekta tips un posma noteikumi, kas attiecas uz projekta tipu, nosaka, vai jūs varat pievienot vai rediģēt prognozes rindas. 
+Iespējams, ka varat pievienot prognozes rindas darba pasūtījumam vai dzēst tās no darba pasūtījuma. Darba pasūtījuma dzīves cikla stāvokļa iestatījums, saistītais projekta veids un stadijas noteikumi, kas ir saistīti ar projekta veidu, nosaka, vai varat pievienot vai rediģēt prognozes rindas. Lai iegūtu vairāk informācijas par darba pasūtījumu dzīves cikla stāvokļiem un saistītiem projekta posmiem, skatiet sadaļu [Prognozes, darba pasūtījumi un projekti](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
 
-2. Sarakstā atlasiet darba pasūtījumu un noklikšķiniet uz **Prognoze**. Sadaļā **Darba pasūtījuma uzturēšanas prognoze** tiek atlasītas prognozes rindas no uzturēšanas darba tipa, kas atlasīts darba pasūtījuma darbā.
-
-
-## <a name="add-hours-forecast-to-a-work-order"></a>Stundu prognozes pievienošana darba pasūtījumam
-
-1. Atlasiet darba pasūtījuma darbu, kuram vēlaties pievienot prognozi.
-
-2. Kopsavilkuma cilnē **Stundas** noklikšķiniet **Pievienot**, lai izveidotu jaunu rindu.
-
-3. Laukā **Kategorija** atlasiet kategoriju.
-
-4. Laukā **Stundas** ievadiet prognozēto stundu skaitu. 
-
-5. Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas tipu.
+2. Atlasiet darba pasūtījumu no saraksta un pēc tam darbības rūtī > **Darba pasūtījums** cilnē > grupā **Projekti** atlasiet **Prognoze**. Lapā **Darba pasūtījuma uzturēšanas prognoze** ir parādītas prognozes rindas no uzturēšanas darba veida, kas ir atlasīts darba pasūtījuma darbā.
 
 
-## <a name="add-items-forecast-to-a-work-order"></a>Vienumu prognozes pievienošana darba pasūtījumam
+## <a name="add-an-hours-forecast-to-a-work-order"></a>Pievienot stundu prognozi darba pasūtījumam
 
-Ir trīs veidi, kādos pievienot vienumus darba pasūtījuma uzturēšanas prognozei: jūs varat izveidot rindas vienumiem (rezerves daļas), kuras nav iekļautas rezerves daļu sarakstā vai līdzekļa MK, jūs varat pievienot rezerves daļas no apstiprinātā rezerves daļu saraksta un jūs varat atlasīt vienumus no līdzekļa MK.
+1. Lapā **Darba pasūtījuma uzturēšanas prognoze** atlasiet darba pasūtījuma darbu, lai pievienotu prognozi.
 
-1. Atlasiet darba pasūtījuma darbu, kuram vēlaties pievienot prognozi.
+2. Kopsavilkuma cilnē **Stundas** atlasiet **Pievienot**, lai izveidotu jaunu rindu.
 
-2. Atlasiet kopsavilkuma cilni **Vienumi**.
+3. Atlasiet kategoriju laukā **Kategorija**.
 
-3. Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu rindu rezerves daļai, kura neatrodas rezerves daļu sarakstā vai līdzekļa MK sarakstā.
+4. Ievadiet prognozēto stundu skaitu laukā **Stundas**.
 
-4. Atlasiet vienību laukā **Vienības kods**.
-
-5. Laukā **Pārdošanas daudzums** ievadiet daudzumu un laukā **Vienība** ievadiet daudzuma vienību. 
-
-6. Atbilstošajos laukos ievadies izmaksas un valūtu un atlasiet **Rindas rekvizītu**.
-
-7. Ja vēlaties mainīt vienuma rindās uzrādīto dimensiju sarakstu, noklikšķiniet uz **Inventārs** > **Rādīt dimensijas**, atlasiet dimensijas un atlasiet "Jā" pārslēgšanas pogā **Saglabāt uzstādījumu**.
-
-8. Ja vēlaties uzturēšanas prognozei pievienot apstiprinātu rezerves daļu, noklikšķiniet uz **Pievienot rezerves daļas**, atlasiet rezerves daļu, rediģējiet saistīto informāciju, ja nepieciešams, un noklikšķiniet uz **Labi**.
-
-9. Ja vēlaties uzturēšanas prognozei pievienot līdzekļa MK vienumus, noklikšķiniet uz **Pievienot MK vienumus**, atlasiet vienumu, rediģējiet saistīto informāciju, ja nepieciešams, un noklikšķiniet uz **Labi**.
-
-10. Noklikšķiniet uz **Vienums, kurā izmantots**, ja vēlaties iegūt pārskatu par to, kur Asset Management atlasītajā rindā vienums ir izmantots attiecībā uz līdzekļiem, uzturēšanas darba tipa noklusējumu, rezerves daļām un darba pasūtījumiem. 
+5. Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas veidu.
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a>Pievienot vienumu prognozi darba pasūtījumam
 
-## <a name="add-expense-forecast-to-a-work-order"></a>Izdevumu prognozes pievienošana darba pasūtījumam
+Ir trīs veidi, kā pievienot vienumus darba pasūtījuma uzturēšanas prognozei. Jūs varat izveidot rindas vienumiem (rezerves daļas), kuras nav iekļautas rezerves daļu sarakstā vai līdzekļa materiālu komplekts (MK), jūs varat pievienot rezerves daļas no apstiprinātā rezerves daļu saraksta vai jūs varat atlasīt vienumus no līdzekļa MK.
 
-1. Šajā tēmā ir paskaidrots, kā pievienot izdevumu prognozi darba pasūtījumam. Veidlapas kreisajā pusē atlasiet darba pasūtījuma darbu, kuram vēlaties pievienot prognozi.
+- Lai pievienotu prognozi, lapā **Darba pasūtījuma uzturēšanas prognoze** atlasiet darba pasūtījuma darbu.
 
-2. Atlasiet kopsavilkuma cilni **Izdevumi**.
+- Kopsavilkuma cilnē **Vienumi** pievienojiet vienumus uzturēšanas prognozei, izmantojot atbilstošo metodi.
 
-3. Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu rindu.
+Lai izveidotu rindu rezerves daļai, kura neatrodas rezerves daļu sarakstā vai līdzekļa MK sarakstā, veiciet šīs darbības:
 
-4. Laukā **Kategorija** atlasiet kategoriju.
+1. Atlasiet **Pievienot**.
+2. Laukā **Vienības numurs** atlasiet vienību.
+3. Ievadiet daudzumu laukā **Pārdošanas daudzums**.
+4. Laukā **Vienība** atlasiet šim daudzumam izmantojamo mērvienību.
+5. Laukā **Izmaksu cena** un laukā **Valūta** ievadiet atbilstošās vērtības.
+6. Laukā **Rindas rekvizīts** atlasiet rindas rekvizītu.
+7. Lai mainītu vienuma rindās uzrādīto dimensiju sarakstu, atlasiet **Inventārs** > **Rādīt dimensijas**, atlasiet dimensijas un tad iestatiet **Saglabāt uzstādījumu** opciju uz **Jā**.
 
-5. Laukā **Daudzums** ievadiet daudzumu.
+Lai pievienotu rezerves daļu no apstiprinātu rezerves daļu saraksta, rīkojieties šādi:
 
-6. Atbilstošajos laukos ievadies izmaksas, pārdošanas valūtu un pārdošanas cenu.
+1. Atlasiet **Pievienot rezerves daļas**.
+2. Atlasiet rezerves daļu un rediģējiet saistīto informāciju, kā nepieciešams.
+3. Atlasiet **Labi**.
 
-7. Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas tipu.
+Lai pievienotu vienumu no pamatlīdzekļu MK, rīkojieties šādi:
+
+1. Atlasiet **Pievienot MK vienumus**.
+2. Atlasiet vienumu un rediģējiet saistīto informāciju, kā nepieciešams.
+3. Atlasiet **Labi**.
+
+Lai iegūtu pārskatu par to, kur tiek izmantots atlasītās rindas vienība saistībā ar līdzekļiem, uzturēšanas darba veidu noklusējumiem, rezerves daļām un darba pasūtījumiem Līdzekļu pārvaldībā, atlasiet **Vienība tika izmantota**. Papildinformāciju par šo pārskatu skatiet [Vienums, kurā izmantots](../controlling-and-reporting/item-where-used.md).
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a>Pievienot izdevumu prognozi darba pasūtījumam
+
+1. Lapā **Darba pasūtījuma uzturēšanas prognoze** atlasiet darba pasūtījuma darbu, lai pievienotu prognozi.
+
+2. Kopsavilkuma cilnē **Izdevumi** atlasiet **Pievienot**, lai izveidotu rindu.
+
+3. Atlasiet kategoriju laukā **Kategorija**.
+
+4. Ievadiet daudzumu laukā **Daudzums**.
+
+5. Laukos **Izmaksu cena**, **Pārdošanas valūta** un **Pārdošanas cena** ievadiet atbilstošas vērtības.
+
+6. Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas veidu.
 
 >[!NOTE]
->Kopsavilkuma cilnē **Uzturēšanas prognozes kopsumma** jūs varat aplūkot pārskatu par vairākām rindām, kas izveidotas katrā cilnē, atlasītajam darba pasūtījuma darbam un darba pasūtījumam. Jūs varat arī redzēt prognozēto darba stundu skaitu darba pasūtījuma darbam un darba pasūtījumam.
+>Kopsavilkuma cilnē **Uzturēšanas prognozes kopsumma** ir parādīts pārskats par vairākām rindām, kas tika izveidotas, atlasītajam darba pasūtījuma darbam un darba pasūtījumam katrā kopsavilkuma cilnē. Tas arī parāda prognozēto darba stundu skaitu darba pasūtījuma darbam un darba pasūtījumam.
+
+Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu uzturēšanas prognoze** piemērs.
 
 ![1. attēls](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Automātiska darba pasūtījuma prognožu atjaunināšana
 
-Lietojot Līdzekļu pārvaldību, jūs varat automātiski atjaunināt jebkādas izmaiņas darba pasūtījuma prognozēs attiecībā uz stundu izmaksām, vienumu izmaksām un izmaksām, kas ir atjauninātas citos moduļos. Tas tiek darīts, lai nodrošinātu to, ka jūsu darba pasūtījuma prognozēs vienmēr tiek izmantotas jaunākās izmaksas. Ir arī iespējams veikt līdzīgus atjauninājumus [uzturēšanas darba tipa prognozēm](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Ja stundu izmaksas, vienumu izmaksas un izdevumi ir atjaunināti citos moduļos programmā Microsoft Dynamics 365 for Finance and Operations, darba pasūtījuma prognozes Līdzekļu pārvaldībā var būt automātiski atjauninātās, lai atspoguļotu šīs izmaiņas. Šī spēja palīdz garantēt, ka jūsu darba pasūtījuma prognozēs vienmēr tiek izmantotas jaunākās izmaksas. Varat arī veikt līdzīgus atjauninājumus [uzturēšanas darba tipa prognozēm](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Periodiski** > **Prognoze** > **Atjaunināt darba pasūtījuma prognozi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Periodiski** > **Prognoze** > **Atjaunināt darba pasūtījuma prognozi**.
 
-2. Nolaižamajā dialogā **Atjaunināt darba pasūtījuma prognozi** jūs varat pievienot izvēles attiecībā uz konkrētiem darba pasūtījumiem vai darba pasūtījuma darbiem, ja nepieciešams. Lai veiktu šīs izvēles, noklikšķiniet uz **Filtrēt**.
+2. Dialogā **Atjaunināt darba pasūtījuma prognozi** kopsavilkuma cilnē **Ieraksti, kas jāiekļauj** jūs varat pievienot izvēles attiecībā uz konkrētiem darba pasūtījumiem vai darba pasūtījuma darbiem, kā nepieciešams. Noklikšķiniet uz **Filtrēt**, lai veikt atbilstošās atlases.
 
-3. Ja nepieciešams, jūs varat ātrajā cilnē **Palaist fonā** uzstādīt automātisku atjauninājumu kā pakešuzdevumu.
+3. Ātrajā cilnē **Palaist fonā** jūs varat pēc vajadzības uzstādīt automātisko atjauninājumu kā pakešuzdevumu.
 
-4. Noklikšķiniet uz **Labi**, lai sāktu prognozes atjaunināšanu.
+4. Atlasiet **Labi**, lai sāktu prognozes atjaunināšanu.
 
+
+Attēlā tālāk ir parādīts sarakstu dialoga **Atjaunināt darba pasūtījumu prognozi** piemērs.
 
 ![2. attēls](media/07-work-orders.png)
-

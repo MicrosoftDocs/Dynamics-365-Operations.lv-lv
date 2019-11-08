@@ -1,5 +1,5 @@
 ---
-title: Projekta pārdošanas pasūtījumi
+title: Projekta pārdošanas pasūtījumi laika un materiāla projektiem
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot no projekta atkarīgus pārdošanas pasūtījumus laika un materiāla projektiem.
 author: KimANelson
 manager: AnnBe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 1d54c98a08dc7cccb5cafbbe401d0ce25a276c25
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2f27e3e0a2d6aadc4c5224b55f8a416cbe4e83aa
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185501"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551206"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projekta pārdošanas pasūtījumi laika un materiāla projektiem
 

@@ -3,7 +3,7 @@ title: Sagāde
 description: Šajā tēmā ir aprakstīta sagāde Līdzekļu pārvaldībā.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875775"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626435"
 ---
 # <a name="procurement"></a>Sagāde
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Līdzekļu pārvaldībā varat iegūt pārskatu par pirkšanas pieprasījumiem un pirkšanas pasūtījumiem, kas saistīti ar darba pasūtījumiem. Jūs varat izveidot pirkšanas pasūtījumu vai pirkšanas pieprasījumu arī no darba pasūtījuma.
 
-Līdzekļu pārvaldībā varat iegūt pārskatu par pirkšanas pieprasījumiem un pirkšanas pasūtījumiem, kas saistīti ar darba pasūtījumiem. Pirkšanas pasūtījumu vai pirkšanas pieprasījumu var izveidot arī no darba pasūtījuma.
+Saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** (**Līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšanas pieprasījums**) tiek parādīts pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšanas pieprasījuma** darbības rūtī, lai veiktu dažādas darbības:
 
-Sarakstā **Darba pasūtījuma pirkšanas pieprasījums** (**Līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšanas pieprasījums**) tiek parādīts pirkšanas pieprasījumu, kas saistīti ar darba pasūtījumiem, saraksts.
+- Lai atvērtu saistīto pirkšanas pieprasījumu, atlasiet **Pirkšanas pieprasījums**. 
+- Lai atvērtu saistīto darba pasūtījumu, atlasiet **Darba pasūtījums**.
+- Lai iegūtu pārskatu par to, kur tiek izmantots atlasītās rindas vienība saistībā ar līdzekļiem, uzturēšanas darba veidu noklusējumiem, rezerves daļām un darba pasūtījumiem Līdzekļu pārvaldībā, atlasiet **Vienība tika izmantota**. Papildinformāciju par šo pārskatu skatiet [Vienums, kurā izmantots](../controlling-and-reporting/item-where-used.md).
 
-- Sarakstā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet darba pasūtījuma uzdevumu un noklikšķiniet uz pogas **Pirkšanas pieprasījums**, lai atvērtu saistītos pirkšanas pieprasījumus.  
-- Sarakstā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet darba pasūtījuma uzdevumu un noklikšķiniet uz pogas **Darba pasūtījums**, lai atvērtu saistīto darba pasūtījumu.  
-- Sarakstā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet darba pasūtījuma uzdevumu un noklikšķiniet uz pogas **Krājuma izmantošanas vietas**, ja vēlaties gūt pārskatu par to, kur krājums atlasītajā rindā tiek izmantots Līdzekļu pārvaldībā saistībā ar līdzekļiem, darba veidu noklusējumiem, rezerves daļām un darba pasūtījumiem. 
+Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas pieprasījums** piemērs.
 
 ![1. attēls](media/08-work-orders.png)
 
 
-Sarakstā **Darba pasūtījuma pirkšana** (**Uzņēmuma līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīts pirkšanas pasūtījumu, kas saistīti ar darba pasūtījumiem, saraksts.
+Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība**  > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīti pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
 
-- Sarakstā **Darba pasūtījuma pirkšana** atlasiet darba pasūtījuma uzdevumu un noklikšķiniet uz pogas **Pirkšanas pasūtījums**, lai atvērtu saistīto pirkšanas pasūtījumu.  
-- Sarakstā **Darba pasūtījuma pirkšana** atlasiet darba pasūtījuma uzdevumu un noklikšķiniet uz pogas **Darba pasūtījums**, lai atvērtu saistīto darba pasūtījumu.  
-- Sarakstā **Darba pasūtījuma pirkšana** atlasiet darba pasūtījuma uzdevumu un noklikšķiniet uz pogas **Krājuma izmantošanas vietas**, ja vēlaties gūt pārskatu par to, kur krājums atlasītajā rindā tiek izmantots Līdzekļu pārvaldībā saistībā ar līdzekļiem, darba veidu noklusējumiem, rezerves daļām un darba pasūtījumiem. 
+- Lai atvērtu saistīto pirkšanas pasūtījumu, atlasiet **Pirkšanas pasūtījums**. 
+- Lai atvērtu saistīto darba pasūtījumu, atlasiet **Darba pasūtījums**.
+- Lai iegūtu pārskatu par to, kur tiek izmantots atlasītās rindas vienība saistībā ar līdzekļiem, uzturēšanas darba veidu noklusējumiem, rezerves daļām un darba pasūtījumiem Līdzekļu pārvaldībā, atlasiet **Vienība tika izmantota**. Papildinformāciju par šo pārskatu skatiet [Vienums, kurā izmantots](../controlling-and-reporting/item-where-used.md).
+
+Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas** piemērs.
 
 ![2. attēls](media/09-work-orders.png)
 
 
-Iepriekš parādītajos sarakstos ikona, kas attiecas uz piegādes datuma kontroli, ir izvietota katrā rindā pa labi. Ja ikona parāda izsaukuma zīmi sarkanā aplī, tas nozīmē, ka saistītā pirkšanas pieprasījumā vai pirkšanas pasūtījuma piegāde var tikt kavēta.
+Gan **Darba pasūtījuma pirkšanas** saraksta lapā, gan **Darba pasūtījuma pirkšanas pieprasījuma** saraksta lapā, simbols, kas ir saistīts ar saņemšanas datuma kontroli, parādās katras rindas labajā pusē. Ja simbols ir izsaukuma zīme sarkanā aplī, saistītā pirkšanas pasūtījuma vai pirkšanas pieprasījuma piegāde var tikt kavēta.
 
-Pirkšanas pieprasījumā datums, kas tiek izmantots, lai aprēķinātu iespējamo kavēšanos, ir atrodams veidlapas **Pirkšanas pieprasījumi** > kopsavilkuma cilnes **Pirkšanas pieprasījuma virsraksts** > laukā **Pieprasītais datums**. Šis datums tiek salīdzināts ar pieejamo darba pasūtījuma vai darba pasūtījuma darba uzdevuma datumu tāpat kā pirkšanas pasūtījuma datums.
+Pirkšanas pasūtījumam ar pirkšanas pasūtījuma rindu saistītais datums tiek izmantots, lai aprēķinātu iespējamo kavēšanos. Lai skatītu šo datumu, lapā **Pirkšanas pasūtījums** atlasiet pirkšanas pasūtījuma rindu. Datums tiek norādīts laukā **Apstiprināts piegādes datums** cilnē **Iestatījumi**, kas atrodas **Rindas detalizēta informācija** kopsavilkuma cilnē. Ja lauks **Apstiprinātais piegādes datums** nav iestatīts, aprēķināšanai tiek izmantots datums laukā **Piegādes datums** kas norādīts **Pirkšanas pasūtījuma galvene** kopsavilkuma cilnē. Viens no tiem datumiem tiek salīdzināts ar pieejamo darba pasūtījuma vai darba pasūtījuma uzdevuma datumu tālāk norādītajā kārtībā:
 
-Pirkšanas pasūtījumā datums, kas tiek izmantots, lai aprēķinātu iespējamo kavēšanos, ir datums, kas saistīts ar pirkšanas pasūtījuma rindu, kas ir parādīta, ja formā **Pirkšanas pasūtījums** > atlasāt pirkšanas pasūtījuma rindu > kopsavilkuma cilni **Detalizēta informācija par rindu** > cilni **Iestatījumi** > lauku **Apstiprinātais piegādes datums**. Ja šis lauks nav aizpildīts, tiek izmantots datums, kas laukā **Piegādes datums** izmantotajā kopsavilkuma cilnē **Pirkšanas pasūtījuma virsraksts**. Viens no tiem datumiem tiek salīdzināts ar pieejamo darba pasūtījuma vai darba pasūtījuma darba uzdevuma datumu tālāk norādītajā kārtībā.
+1. Faktiskais darba pasūtījuma sākuma datums  
 
-- Faktiskais darba pasūtījuma sākuma datums vai  
+2. Plānotais saistītā darba pasūtījuma uzdevuma sākuma datums 
 
-- plānotais saistītā darba pasūtījuma uzdevuma sākuma datums, vai  
+3. Plānotais darba pasūtījuma sākuma datums 
 
-- plānotais darba pasūtījuma sākuma datums, vai  
+4. paredzētais darba pasūtījuma sākuma datums 
 
-- paredzētais darba pasūtījuma sākuma datums  
+Pirkšanas pieprasījumā datums laukā **Pieprasītais datums**, kas norādīts **Pirkšanas pieprasījuma galvenes** kopsavilkuma cilnē lapā **Pirkšanas pieprasījumi**, tiek izmantots, lai aprēķinātu iespējamo kavēšanos. Laukā norādītais datums tiek salīdzināts ar pieejamo darba pasūtījuma vai darba pasūtījuma uzdevuma datumu tāpat kā pirkšanas pasūtījuma datums.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>Pirkšanas pasūtījuma izveide no darba pasūtījuma
+## <a name="create-a-purchase-order-from-a-work-order"></a>Pirkšanas pasūtījuma izveide no darba pasūtījuma
 
-Sadaļā **Visi darba pasūtījumi** atlasiet darba pasūtījuma uzdevumu un izveidojiet saistīto pirkšanas pasūtījumu vai pirkšanas pieprasījumu. Tas tiek darīts, lai nodrošinātu projekta relācijas starp pirkšanas pasūtījumu vai pirkšanas pieprasījumu un darba pasūtījumu.
+Saraksta lapā **Visi darba pasūtījumi** jūs varat atlasīt darba pasūtījuma uzdevumu un tad izveidot saistītu pirkšanas pasūtījumu vai pirkšanas pieprasījumu. Šādā veidā jūs palīdzat nodrošināt projekta relācijas starp pirkšanas pasūtījumu vai pirkšanas pieprasījumu un darba pasūtījumu.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
 
-2. Sarakstā **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi** atlasiet darba pasūtījumu, kuram vēlaties izveidot pirkšanas pasūtījumu, un noklikšķiniet uz **Rediģēt**.
+2. Atlasiet darba pasūtījumu, lai izveidotu pirkšanas pasūtījumu, un pēc tam atlasiet **Rediģēt**.
 
-3. Veidlapā **Darba pasūtījums** > kopsavilkuma cilnē **Darba pasūtījumu uzturēšanas darbi** atlasiet darba pasūtījuma uzdevumu, kuram vēlaties izveidot pirkšanas pasūtījumu.
+3. **Darba pasūtījumu uzturēšanas darbi** kopsavilkuma cilnē atlasiet darba pasūtījuma uzdevumu, lai izveidotu tam pirkšanas pasūtījumu.
 
-4. Noklikšķiniet uz **Krājuma uzdevumi** > **Pirkšanas pasūtījums no darba pasūtījuma uzdevuma**.
+4. Atlasiet **Krājuma uzdevumi** > **Pirkšanas pasūtījums no darba pasūtījuma uzdevuma**.
 
 5. Saraksta lapā **Projekta pirkšanas pasūtījumi** noklikšķiniet uz **Jauns**.
 
 6. Izveidojiet pirkšanas pasūtījumu.
 
 >[!NOTE]
->Pirkšanas pieprasījuma izveide ir gandrīz identiska pirkšanas pasūtījuma izveidei. Vienīgā atšķirība ir tāda, ka iepriekš minētajā procedūrā, veicot otro darbību, jūs noklikšķināt uz **Krājumu uzdevumi** > **Pirkšanas pieprasījums no darba pasūtījuma uzdevuma**.
+>Lai izveidotu saistīto pirkšanas pieprasījumu, veiciet tās pašas darbības. Tomēr 4. solī atlasiet **Preces uzdevumi** > **Pirkšanas pieprasījums no darba pasūtījuma uzdevuma**.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>Projekta relācija starp darba pasūtījumu un pirkšanas pasūtījumu vai pirkšanas pieprasījumu
 
-Pirkšanas pasūtījuma rinda vai pirkšanas pieprasījuma rinda ir saistīta ar darba pasūtījuma uzdevumu, izmantojot darba pasūtījuma projektu un saistīto projekta aktivitātes numuru. Kad izveidojat pirkšanas pasūtījumu vai pirkšanas pieprasījumu no darba pasūtījuma uzdevuma, saistītais projekta aktivitātes numurs ir obligāts. Projekta aktivitātes numurs tiek automātiski ievietots pirkšanas pasūtījumā vai pirkšanas pieprasījumā, ja saistītais darba pasūtījums ietver darba pasūtījumu uzdevumus, kuriem visiem tiek izmantots viens un tas pats uzturēšanas darba veids. Ja darba pasūtījuma uzdevumi ietver dažādus uzturēšanas darbu veidus, projekta aktivitātes numurs ir jāievieto manuāli.
+Pirkšanas pasūtījuma rinda vai pirkšanas pieprasījuma rinda ir saistīta ar darba pasūtījuma uzdevumu, izmantojot darba pasūtījuma projektu un saistīto projekta aktivitātes numuru. Kad izveidojat pirkšanas pasūtījumu vai pirkšanas pieprasījumu no darba pasūtījuma uzdevuma, saistītais projekta aktivitātes numurs ir obligāts. Ja visiem darba pasūtījuma uzdevumiem saistītajā darba pasūtījumā ir viens un tas pats uzturēšanas darba veids, projekta aktivitātes numurs tiek automātiski ievietots pirkšanas pasūtījumā vai pirkšanas pieprasījumā. Ja darba pasūtījuma uzdevumiem ir dažādi uzturēšanas darba veidi, jums manuāli jāievada projekta aktivitātes numurs pirkšanas pasūtījumā vai pirkšanas pieprasījumā.
 
-Lai skatītu vai ievietotu aktivitātes numuru, kas saistīts ar pirkšanas pasūtījuma rindu, atveriet **Darba pasūtījuma pirkšana** > atlasiet pirkšanas pasūtījuma ierakstu > noklikšķiniet uz pirkšanas pasūtījuma kolonnā **Pirkšanas pasūtījums** > kopsavilkuma cilnē **Detalizēta informācija par rindu** > cilnē **Projekts** > laukā **Aktivitātes numurs**.
+Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar pirkšanas pasūtījuma rindu, saraksta lapā **Darba pasūtījuma pirkšana** atlasiet pirkšanas pasūtījuma ierakstu un pēc tam kolonnā **Pirkšanas pasūtījums** atlasiet saiti pirkšanas pasūtījumam. Jūs varat atrast **Aktivitātes numuru** lauku cilnē **Projekts**, kas atrodas **Rindas detaļas** kopsavilkuma cilnē.
 
+Ilustrācijā ir redzams **Pirkšanas pasūtījuma** lapas piemērs ar uzsvaru uz **Aktivitātes numuru**.
 
 ![3. attēls](media/10-work-orders.png)
 
-
-Līdzīgi, lai skatītu vai ievietotu aktivitātes numuru, kas saistīts ar darba pasūtījuma pirkšanas pieprasījuma rindu, atveriet **Darba pasūtījuma pirkšanas pieprasījums** > atlasiet pirkšanas pieprasījuma ierakstu > noklikšķiniet uz pirkšanas pieprasījuma kolonnā **Pirkšanas pieprasījums** > kopsavilkuma cilnē **Detalizēta informācija par rindu** > cilnē **Projekts** > laukā **Aktivitātes numurs**.
+Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar Darba pasūtījuma pirkšanas pieprasījuma rindu, saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet pirkšanas pieprasījuma ierakstu un pēc tam kolonnā **Pirkšanas pieprasījums** atlasiet saiti pirkšanas pieprasījumam. Jūs varat atrast **Aktivitātes numuru** lauku cilnē **Projekts**, kas atrodas **Rindas detaļas** kopsavilkuma cilnē.
 
