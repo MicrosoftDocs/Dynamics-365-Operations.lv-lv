@@ -3,7 +3,7 @@ title: Uzturēšanas prognozes
 description: Šajā tēmā ir paskaidrotas uzturēšanas prognozes programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024503"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626297"
 ---
-# <a name="maintenance-forecasts"></a><span data-ttu-id="e7f6a-103">Uzturēšanas prognozes</span><span class="sxs-lookup"><span data-stu-id="e7f6a-103">Maintenance forecasts</span></span>
+# <a name="maintenance-forecasts"></a><span data-ttu-id="a4bca-103">Uzturēšanas prognozes</span><span class="sxs-lookup"><span data-stu-id="a4bca-103">Maintenance forecasts</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-<span data-ttu-id="e7f6a-104">Izveidojot darba pasūtījumu, jūs izveidojat darba pasūtījuma darbus ar saistītiem līdzekļiem un uzturēšanas darba tipiem.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-104">When you create a work order, you create work order jobs with related assets and maintenance job types.</span></span> <span data-ttu-id="e7f6a-105">Atlasot uzturēšanas darba tipu, kas satur uzturēšanas prognozes, prognozes tiek automātiski iekopētas darba pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-105">When you select a maintenance job type containing maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
+<span data-ttu-id="a4bca-104">Izveidojot darba pasūtījumu, jūs izveidojat darba pasūtījuma darbus, kam ir saistītie līdzekļi un uzturēšanas darba veidi.</span><span class="sxs-lookup"><span data-stu-id="a4bca-104">When you create a work order, you create work order jobs that have related assets and maintenance job types.</span></span> <span data-ttu-id="a4bca-105">Atlasot uzturēšanas darba veidu, kas satur uzturēšanas prognozes, prognozes tiek automātiski iekopētas darba pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="a4bca-105">When you select a maintenance job type that contains maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
 
-<span data-ttu-id="e7f6a-106">Iespējams, jūs varat pievienot vai dzēst prognozes rindas darba pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-106">You may be able to add or delete forecast lines on a work order.</span></span> <span data-ttu-id="e7f6a-107">Darba pasūtījuma dzīves cikla stāvokļa uzstādījums, saistītais projekta tips un posma noteikumi, kas attiecas uz projekta tipu, nosaka, vai jūs varat pievienot vai rediģēt prognozes rindas.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-107">The setup of a work order lifecycle state, the related project type, and the stage rules related to the project type determines if you are able to add or edit forecast lines.</span></span> 
+<span data-ttu-id="a4bca-106">Iespējams, ka varat pievienot prognozes rindas darba pasūtījumam vai dzēst tās no darba pasūtījuma.</span><span class="sxs-lookup"><span data-stu-id="a4bca-106">You might be able to add forecast lines to a work order or delete them from a work order.</span></span> <span data-ttu-id="a4bca-107">Darba pasūtījuma dzīves cikla stāvokļa iestatījums, saistītais projekta veids un stadijas noteikumi, kas ir saistīti ar projekta veidu, nosaka, vai varat pievienot vai rediģēt prognozes rindas.</span><span class="sxs-lookup"><span data-stu-id="a4bca-107">The setup of the work order lifecycle state, the related project type, and the stage rules that are related to the project type determine whether you can add or edit forecast lines.</span></span> <span data-ttu-id="a4bca-108">Lai iegūtu vairāk informācijas par darba pasūtījumu dzīves cikla stāvokļiem un saistītiem projekta posmiem, skatiet sadaļu [Prognozes, darba pasūtījumi un projekti](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span><span class="sxs-lookup"><span data-stu-id="a4bca-108">For more information about work order lifecycle states and related project stages, see [Forecasts, work orders, and projects](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span></span>
 
-1. <span data-ttu-id="e7f6a-108">Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-108">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="a4bca-109">Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**</span><span class="sxs-lookup"><span data-stu-id="a4bca-109">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="e7f6a-109">Sarakstā atlasiet darba pasūtījumu un noklikšķiniet uz **Prognoze**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-109">Select the work order in the list, and click **Forecast**.</span></span> <span data-ttu-id="e7f6a-110">Sadaļā **Darba pasūtījuma uzturēšanas prognoze** tiek atlasītas prognozes rindas no uzturēšanas darba tipa, kas atlasīts darba pasūtījuma darbā.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-110">In **Work order maintenance forecast**, forecast lines from the maintenance job type selected on the work order job are displayed.</span></span>
-
-
-## <a name="add-hours-forecast-to-a-work-order"></a><span data-ttu-id="e7f6a-111">Stundu prognozes pievienošana darba pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="e7f6a-111">Add hours forecast to a work order</span></span>
-
-1. <span data-ttu-id="e7f6a-112">Atlasiet darba pasūtījuma darbu, kuram vēlaties pievienot prognozi.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-112">Select the work order job to which you want to add a forecast.</span></span>
-
-2. <span data-ttu-id="e7f6a-113">Kopsavilkuma cilnē **Stundas** noklikšķiniet **Pievienot**, lai izveidotu jaunu rindu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-113">On the **Hours** FastTab, click **Add** to create a new line.</span></span>
-
-3. <span data-ttu-id="e7f6a-114">Laukā **Kategorija** atlasiet kategoriju.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-114">Select a category in the **Category** field.</span></span>
-
-4. <span data-ttu-id="e7f6a-115">Laukā **Stundas** ievadiet prognozēto stundu skaitu. </span><span class="sxs-lookup"><span data-stu-id="e7f6a-115">Insert number of forecasted hours in the **Hours** field.</span></span>
-
-5. <span data-ttu-id="e7f6a-116">Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas tipu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-116">In the **Line property** field, select the charge type to be used on the line.</span></span>
+2. <span data-ttu-id="a4bca-110">Atlasiet darba pasūtījumu no saraksta un pēc tam darbības rūtī > **Darba pasūtījums** cilnē > grupā **Projekti** atlasiet **Prognoze**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-110">Select the work order in the list, and then, on the Action Pane > **Work order** tab > the **Project** group, select **Forecast**.</span></span> <span data-ttu-id="a4bca-111">Lapā **Darba pasūtījuma uzturēšanas prognoze** ir parādītas prognozes rindas no uzturēšanas darba veida, kas ir atlasīts darba pasūtījuma darbā.</span><span class="sxs-lookup"><span data-stu-id="a4bca-111">The **Work order maintenance forecast** page shows forecast lines from the maintenance job type that is selected on the work order job.</span></span>
 
 
-## <a name="add-items-forecast-to-a-work-order"></a><span data-ttu-id="e7f6a-117">Vienumu prognozes pievienošana darba pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="e7f6a-117">Add items forecast to a work order</span></span>
+## <a name="add-an-hours-forecast-to-a-work-order"></a><span data-ttu-id="a4bca-112">Pievienot stundu prognozi darba pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="a4bca-112">Add an hours forecast to a work order</span></span>
 
-<span data-ttu-id="e7f6a-118">Ir trīs veidi, kādos pievienot vienumus darba pasūtījuma uzturēšanas prognozei: jūs varat izveidot rindas vienumiem (rezerves daļas), kuras nav iekļautas rezerves daļu sarakstā vai līdzekļa MK, jūs varat pievienot rezerves daļas no apstiprinātā rezerves daļu saraksta un jūs varat atlasīt vienumus no līdzekļa MK.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-118">There are three ways to add items to a work order maintenance forecast: You can create lines for items (spare parts) that are not included in the spare parts list or asset BOM, you can select spare parts from the approved spare parts list, and you can select items from the asset BOM.</span></span>
+1. <span data-ttu-id="a4bca-113">Lapā **Darba pasūtījuma uzturēšanas prognoze** atlasiet darba pasūtījuma darbu, lai pievienotu prognozi.</span><span class="sxs-lookup"><span data-stu-id="a4bca-113">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
 
-1. <span data-ttu-id="e7f6a-119">Atlasiet darba pasūtījuma darbu, kuram vēlaties pievienot prognozi.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-119">Select the work order job to which you want to add a forecast.</span></span>
+2. <span data-ttu-id="a4bca-114">Kopsavilkuma cilnē **Stundas** atlasiet **Pievienot**, lai izveidotu jaunu rindu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-114">On the **Hours** FastTab, select **Add** to create a new line.</span></span>
 
-2. <span data-ttu-id="e7f6a-120">Atlasiet kopsavilkuma cilni **Vienumi**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-120">Select the **Items** FastTab.</span></span>
+3. <span data-ttu-id="a4bca-115">Atlasiet kategoriju laukā **Kategorija**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-115">In the **Category** field, select a category.</span></span>
 
-3. <span data-ttu-id="e7f6a-121">Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu rindu rezerves daļai, kura neatrodas rezerves daļu sarakstā vai līdzekļa MK sarakstā.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-121">Click **Add** to create a new line for a spare part that is not on the spare parts list or the asset BOM list.</span></span>
+4. <span data-ttu-id="a4bca-116">Ievadiet prognozēto stundu skaitu laukā **Stundas**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-116">In the **Hours** field, enter the number of forecasted hours.</span></span>
 
-4. <span data-ttu-id="e7f6a-122">Atlasiet vienību laukā **Vienības kods**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-122">Select the item in the **Item number** field.</span></span>
-
-5. <span data-ttu-id="e7f6a-123">Laukā **Pārdošanas daudzums** ievadiet daudzumu un laukā **Vienība** ievadiet daudzuma vienību. </span><span class="sxs-lookup"><span data-stu-id="e7f6a-123">Insert quantity in the **Sales quantity** field, and select a quantity unit in the **Unit** field.</span></span>
-
-6. <span data-ttu-id="e7f6a-124">Atbilstošajos laukos ievadies izmaksas un valūtu un atlasiet **Rindas rekvizītu**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-124">Insert cost price and currency in the relevant fields, and select a **Line property**.</span></span>
-
-7. <span data-ttu-id="e7f6a-125">Ja vēlaties mainīt vienuma rindās uzrādīto dimensiju sarakstu, noklikšķiniet uz **Inventārs** > **Rādīt dimensijas**, atlasiet dimensijas un atlasiet "Jā" pārslēgšanas pogā **Saglabāt uzstādījumu**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-125">If you want to change the list of dimensions displayed on the item lines, click **Inventory** > **Display dimensions**, select the dimensions, and select "Yes" on the **Save setup** toggle button.</span></span>
-
-8. <span data-ttu-id="e7f6a-126">Ja vēlaties uzturēšanas prognozei pievienot apstiprinātu rezerves daļu, noklikšķiniet uz **Pievienot rezerves daļas**, atlasiet rezerves daļu, rediģējiet saistīto informāciju, ja nepieciešams, un noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-126">If you want to add an approved spare part to the maintenance forecast, click **Add spare parts**, select the spare part, edit related information if required, and click **OK**.</span></span>
-
-9. <span data-ttu-id="e7f6a-127">Ja vēlaties uzturēšanas prognozei pievienot līdzekļa MK vienumus, noklikšķiniet uz **Pievienot MK vienumus**, atlasiet vienumu, rediģējiet saistīto informāciju, ja nepieciešams, un noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-127">If you want to add asset BOM items to the forecast, click **Add BOM items**, select the item, edit related information if required, and click **OK**.</span></span>
-
-10. <span data-ttu-id="e7f6a-128">Noklikšķiniet uz **Vienums, kurā izmantots**, ja vēlaties iegūt pārskatu par to, kur Asset Management atlasītajā rindā vienums ir izmantots attiecībā uz līdzekļiem, uzturēšanas darba tipa noklusējumu, rezerves daļām un darba pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-128">Click **Item where used** if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+5. <span data-ttu-id="a4bca-117">Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas veidu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-117">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a><span data-ttu-id="a4bca-118">Pievienot vienumu prognozi darba pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="a4bca-118">Add an items forecast to a work order</span></span>
 
-## <a name="add-expense-forecast-to-a-work-order"></a><span data-ttu-id="e7f6a-129">Izdevumu prognozes pievienošana darba pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="e7f6a-129">Add expense forecast to a work order</span></span>
+<span data-ttu-id="a4bca-119">Ir trīs veidi, kā pievienot vienumus darba pasūtījuma uzturēšanas prognozei.</span><span class="sxs-lookup"><span data-stu-id="a4bca-119">There are three ways to add items to a work order maintenance forecast.</span></span> <span data-ttu-id="a4bca-120">Jūs varat izveidot rindas vienumiem (rezerves daļas), kuras nav iekļautas rezerves daļu sarakstā vai līdzekļa materiālu komplekts (MK), jūs varat pievienot rezerves daļas no apstiprinātā rezerves daļu saraksta vai jūs varat atlasīt vienumus no līdzekļa MK.</span><span class="sxs-lookup"><span data-stu-id="a4bca-120">You can create lines for items (spare parts) that aren't included on the spare parts list or the asset bill of materials (BOM), you can select spare parts from the approved spare parts list, or you can select items from the asset BOM.</span></span>
 
-1. <span data-ttu-id="e7f6a-130">Šajā tēmā ir paskaidrots, kā pievienot izdevumu prognozi darba pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-130">This topic explains how to add an expense forecast to a work order.</span></span> <span data-ttu-id="e7f6a-131">Veidlapas kreisajā pusē atlasiet darba pasūtījuma darbu, kuram vēlaties pievienot prognozi.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-131">In the left-hand side of the form, select the work order job to which you want to add a forecast.</span></span>
+- <span data-ttu-id="a4bca-121">Lai pievienotu prognozi, lapā **Darba pasūtījuma uzturēšanas prognoze** atlasiet darba pasūtījuma darbu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-121">On the **Work order maintenance forecast** page, select the work order job to to add a forecast to.</span></span>
 
-2. <span data-ttu-id="e7f6a-132">Atlasiet kopsavilkuma cilni **Izdevumi**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-132">Select the **Expense** FastTab.</span></span>
+- <span data-ttu-id="a4bca-122">Kopsavilkuma cilnē **Vienumi** pievienojiet vienumus uzturēšanas prognozei, izmantojot atbilstošo metodi.</span><span class="sxs-lookup"><span data-stu-id="a4bca-122">On the **Items** FastTab, add items to the maintenance forecast by using the appropriate method.</span></span>
 
-3. <span data-ttu-id="e7f6a-133">Noklikšķiniet uz **Pievienot**, lai izveidotu jaunu rindu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-133">Click **Add** to create a new line.</span></span>
+<span data-ttu-id="a4bca-123">Lai izveidotu rindu rezerves daļai, kura neatrodas rezerves daļu sarakstā vai līdzekļa MK sarakstā, veiciet šīs darbības:</span><span class="sxs-lookup"><span data-stu-id="a4bca-123">To create a line for a spare part that isn't on the spare parts list or the asset BOM, follow these steps:</span></span>
 
-4. <span data-ttu-id="e7f6a-134">Laukā **Kategorija** atlasiet kategoriju.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-134">Select a category in the **Category** field.</span></span>
+1. <span data-ttu-id="a4bca-124">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-124">Select **Add**.</span></span>
+2. <span data-ttu-id="a4bca-125">Laukā **Vienības numurs** atlasiet vienību.</span><span class="sxs-lookup"><span data-stu-id="a4bca-125">In the **Item number** field, select the item.</span></span>
+3. <span data-ttu-id="a4bca-126">Ievadiet daudzumu laukā **Pārdošanas daudzums**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-126">In the **Sales quantity** field, enter the quantity.</span></span>
+4. <span data-ttu-id="a4bca-127">Laukā **Vienība** atlasiet šim daudzumam izmantojamo mērvienību.</span><span class="sxs-lookup"><span data-stu-id="a4bca-127">In the **Unit** field, select the unit of measure for the quantity.</span></span>
+5. <span data-ttu-id="a4bca-128">Laukā **Izmaksu cena** un laukā **Valūta** ievadiet atbilstošās vērtības.</span><span class="sxs-lookup"><span data-stu-id="a4bca-128">In the **Cost price** and **Currency** fields, enter appropriate values.</span></span>
+6. <span data-ttu-id="a4bca-129">Laukā **Rindas rekvizīts** atlasiet rindas rekvizītu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-129">In the **Line property** field, select a line property.</span></span>
+7. <span data-ttu-id="a4bca-130">Lai mainītu vienuma rindās uzrādīto dimensiju sarakstu, atlasiet **Inventārs** > **Rādīt dimensijas**, atlasiet dimensijas un tad iestatiet **Saglabāt uzstādījumu** opciju uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-130">To change the list of dimensions that is shown on the item lines, select **Inventory** > **Display dimensions**, select the dimensions, and then set the **Save setup** option to **Yes**.</span></span>
 
-5. <span data-ttu-id="e7f6a-135">Laukā **Daudzums** ievadiet daudzumu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-135">Insert quantity in the **Quantity** field.</span></span>
+<span data-ttu-id="a4bca-131">Lai pievienotu rezerves daļu no apstiprinātu rezerves daļu saraksta, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="a4bca-131">To add a spare part from an approved spare parts list, follow these steps:</span></span>
 
-6. <span data-ttu-id="e7f6a-136">Atbilstošajos laukos ievadies izmaksas, pārdošanas valūtu un pārdošanas cenu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-136">Insert cost price, sales currency, and sales price in the relevant fields.</span></span>
+1. <span data-ttu-id="a4bca-132">Atlasiet **Pievienot rezerves daļas**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-132">Select **Add spare parts**.</span></span>
+2. <span data-ttu-id="a4bca-133">Atlasiet rezerves daļu un rediģējiet saistīto informāciju, kā nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a4bca-133">Select the spare part, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="a4bca-134">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-134">Select **OK**.</span></span>
 
-7. <span data-ttu-id="e7f6a-137">Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas tipu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-137">In the **Line property** field, select the charge type to be used on the line.</span></span>
+<span data-ttu-id="a4bca-135">Lai pievienotu vienumu no pamatlīdzekļu MK, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="a4bca-135">To add an item from the asset BOM, follow these steps:</span></span>
+
+1. <span data-ttu-id="a4bca-136">Atlasiet **Pievienot MK vienumus**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-136">Select **Add BOM items**.</span></span>
+2. <span data-ttu-id="a4bca-137">Atlasiet vienumu un rediģējiet saistīto informāciju, kā nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a4bca-137">Select the item, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="a4bca-138">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-138">Select **OK**.</span></span>
+
+<span data-ttu-id="a4bca-139">Lai iegūtu pārskatu par to, kur tiek izmantots atlasītās rindas vienība saistībā ar līdzekļiem, uzturēšanas darba veidu noklusējumiem, rezerves daļām un darba pasūtījumiem Līdzekļu pārvaldībā, atlasiet **Vienība tika izmantota**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-139">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="a4bca-140">Papildinformāciju par šo pārskatu skatiet [Vienums, kurā izmantots](../controlling-and-reporting/item-where-used.md).</span><span class="sxs-lookup"><span data-stu-id="a4bca-140">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a><span data-ttu-id="a4bca-141">Pievienot izdevumu prognozi darba pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="a4bca-141">Add an expense forecast to a work order</span></span>
+
+1. <span data-ttu-id="a4bca-142">Lapā **Darba pasūtījuma uzturēšanas prognoze** atlasiet darba pasūtījuma darbu, lai pievienotu prognozi.</span><span class="sxs-lookup"><span data-stu-id="a4bca-142">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
+
+2. <span data-ttu-id="a4bca-143">Kopsavilkuma cilnē **Izdevumi** atlasiet **Pievienot**, lai izveidotu rindu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-143">On the **Expense** FastTab, select **Add** to create a line.</span></span>
+
+3. <span data-ttu-id="a4bca-144">Atlasiet kategoriju laukā **Kategorija**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-144">In the **Category** field, select a category.</span></span>
+
+4. <span data-ttu-id="a4bca-145">Ievadiet daudzumu laukā **Daudzums**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-145">In the **Quantity** field, enter the quantity.</span></span>
+
+5. <span data-ttu-id="a4bca-146">Laukos **Izmaksu cena**, **Pārdošanas valūta** un **Pārdošanas cena** ievadiet atbilstošas vērtības.</span><span class="sxs-lookup"><span data-stu-id="a4bca-146">In the **Cost price**, **Sales currency**, and **Sales price** fields, enter appropriate values.</span></span>
+
+6. <span data-ttu-id="a4bca-147">Laukā **Rindas rekvizīti** atlasiet rindai izmantojamo maksas veidu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-147">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="e7f6a-138">Kopsavilkuma cilnē **Uzturēšanas prognozes kopsumma** jūs varat aplūkot pārskatu par vairākām rindām, kas izveidotas katrā cilnē, atlasītajam darba pasūtījuma darbam un darba pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-138">On the **Maintenance forecast totals** FastTab, you can see an overview of the number of lines created on each tab, for the selected work order job and for the work order.</span></span> <span data-ttu-id="e7f6a-139">Jūs varat arī redzēt prognozēto darba stundu skaitu darba pasūtījuma darbam un darba pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-139">Also, you can see a sum of forecasted work hours for the work order job and for the work order.</span></span>
+><span data-ttu-id="a4bca-148">Kopsavilkuma cilnē **Uzturēšanas prognozes kopsumma** ir parādīts pārskats par vairākām rindām, kas tika izveidotas, atlasītajam darba pasūtījuma darbam un darba pasūtījumam katrā kopsavilkuma cilnē.</span><span class="sxs-lookup"><span data-stu-id="a4bca-148">The **Maintenance forecast totals** FastTab shows an overview of the number of lines that have been created, for the selected work order job and for the work order, on each FastTab.</span></span> <span data-ttu-id="a4bca-149">Tas arī parāda prognozēto darba stundu skaitu darba pasūtījuma darbam un darba pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="a4bca-149">It also shows the total forecasted work hours for the work order job and the work order.</span></span>
+
+<span data-ttu-id="a4bca-150">Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu uzturēšanas prognoze** piemērs.</span><span class="sxs-lookup"><span data-stu-id="a4bca-150">The illustration below shows an example of the **Work order maintenance forecast** page.</span></span>
 
 ![1. attēls](media/06-work-orders.png)
 
 
-## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="e7f6a-141">Automātiska darba pasūtījuma prognožu atjaunināšana</span><span class="sxs-lookup"><span data-stu-id="e7f6a-141">Automatic update of work order forecasts</span></span>
+## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="a4bca-152">Automātiska darba pasūtījuma prognožu atjaunināšana</span><span class="sxs-lookup"><span data-stu-id="a4bca-152">Automatic update of work order forecasts</span></span>
 
-<span data-ttu-id="e7f6a-142">Lietojot Līdzekļu pārvaldību, jūs varat automātiski atjaunināt jebkādas izmaiņas darba pasūtījuma prognozēs attiecībā uz stundu izmaksām, vienumu izmaksām un izmaksām, kas ir atjauninātas citos moduļos.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-142">In Asset Management, you can automatically update any changes in work order forecasts regarding hour costs, item costs, and expenses, which have been updated in other modules.</span></span> <span data-ttu-id="e7f6a-143">Tas tiek darīts, lai nodrošinātu to, ka jūsu darba pasūtījuma prognozēs vienmēr tiek izmantotas jaunākās izmaksas.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-143">This is done to ensure that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="e7f6a-144">Ir arī iespējams veikt līdzīgus atjauninājumus [uzturēšanas darba tipa prognozēm](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span><span class="sxs-lookup"><span data-stu-id="e7f6a-144">It is also possible to make similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
+<span data-ttu-id="a4bca-153">Ja stundu izmaksas, vienumu izmaksas un izdevumi ir atjaunināti citos moduļos programmā Microsoft Dynamics 365 for Finance and Operations, darba pasūtījuma prognozes Līdzekļu pārvaldībā var būt automātiski atjauninātās, lai atspoguļotu šīs izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="a4bca-153">If hour costs, item costs, and expenses are updated in other modules in Microsoft Dynamics 365 for Finance and Operations, work order forecasts in Asset Management can automatically be updated to reflect those changes.</span></span> <span data-ttu-id="a4bca-154">Šī spēja palīdz garantēt, ka jūsu darba pasūtījuma prognozēs vienmēr tiek izmantotas jaunākās izmaksas.</span><span class="sxs-lookup"><span data-stu-id="a4bca-154">This capability helps guarantee that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="a4bca-155">Varat arī veikt līdzīgus atjauninājumus [uzturēšanas darba tipa prognozēm](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span><span class="sxs-lookup"><span data-stu-id="a4bca-155">You can also do similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
 
-1. <span data-ttu-id="e7f6a-145">Noklikšķiniet uz **Līdzekļu pārvaldība** > **Periodiski** > **Prognoze** > **Atjaunināt darba pasūtījuma prognozi**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-145">Click **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
+1. <span data-ttu-id="a4bca-156">Atlasiet **Līdzekļu pārvaldība** > **Periodiski** > **Prognoze** > **Atjaunināt darba pasūtījuma prognozi**.</span><span class="sxs-lookup"><span data-stu-id="a4bca-156">Select **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
 
-2. <span data-ttu-id="e7f6a-146">Nolaižamajā dialogā **Atjaunināt darba pasūtījuma prognozi** jūs varat pievienot izvēles attiecībā uz konkrētiem darba pasūtījumiem vai darba pasūtījuma darbiem, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-146">In the **Update work order forecast** drop-down dialog, you can add selections regarding specific work orders or work order jobs, if required.</span></span> <span data-ttu-id="e7f6a-147">Lai veiktu šīs izvēles, noklikšķiniet uz **Filtrēt**.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-147">Click **Filter** to make those selections.</span></span>
+2. <span data-ttu-id="a4bca-157">Dialogā **Atjaunināt darba pasūtījuma prognozi** kopsavilkuma cilnē **Ieraksti, kas jāiekļauj** jūs varat pievienot izvēles attiecībā uz konkrētiem darba pasūtījumiem vai darba pasūtījuma darbiem, kā nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a4bca-157">In the **Update work order forecast** dialog, on the **Records to include** FastTab, you can add selections regarding specific work orders or work order jobs, as you require.</span></span> <span data-ttu-id="a4bca-158">Noklikšķiniet uz **Filtrēt**, lai veikt atbilstošās atlases.</span><span class="sxs-lookup"><span data-stu-id="a4bca-158">Click **Filter** to make the relevant selections.</span></span>
 
-3. <span data-ttu-id="e7f6a-148">Ja nepieciešams, jūs varat ātrajā cilnē **Palaist fonā** uzstādīt automātisku atjauninājumu kā pakešuzdevumu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-148">If required, you can set up the automatic update as a batch job on the **Run in the background** FastTab.</span></span>
+3. <span data-ttu-id="a4bca-159">Ātrajā cilnē **Palaist fonā** jūs varat pēc vajadzības uzstādīt automātisko atjauninājumu kā pakešuzdevumu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-159">On the **Run in the background** FastTab, you can set up the automatic update as a batch job, as you require.</span></span>
 
-4. <span data-ttu-id="e7f6a-149">Noklikšķiniet uz **Labi**, lai sāktu prognozes atjaunināšanu.</span><span class="sxs-lookup"><span data-stu-id="e7f6a-149">Click **OK** to start the forecast update.</span></span>
+4. <span data-ttu-id="a4bca-160">Atlasiet **Labi**, lai sāktu prognozes atjaunināšanu.</span><span class="sxs-lookup"><span data-stu-id="a4bca-160">Select **OK** to start the forecast update.</span></span>
 
+
+<span data-ttu-id="a4bca-161">Attēlā tālāk ir parādīts sarakstu dialoga **Atjaunināt darba pasūtījumu prognozi** piemērs.</span><span class="sxs-lookup"><span data-stu-id="a4bca-161">The illustration below shows an example of the **Update work order forecast** dialog.</span></span>
 
 ![2. attēls](media/07-work-orders.png)
-

@@ -1,6 +1,6 @@
 ---
-title: Iespējot nokavētā nodokļa aprēķinu žurnālā
-description: Šajā tēmā ir skaidrots, kā izmantot **Iespējot aizkavētā nodokļa aprēķinu žurnālā** līdzekli. lai uzlabotu nodokļu aprēķina veiktspēju, ja žurnāla rindu apjoms ir milzīgs.
+title: Iespējot nokavētā nodokļa aprēķinu žurnālos
+description: Šajā tēmā ir paskaidrots, kā ieslēgt līdzekli Aizkavēta nodokļa aprēķins, lai palīdzētu uzlabot nodokļu aprēķinu veiktspēju, ja žurnāla rindu skaits ir ļoti liels.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178806"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623525"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a><span data-ttu-id="a40c4-103">Iespējot nokavētā nodokļa aprēķinu žurnālā</span><span class="sxs-lookup"><span data-stu-id="a40c4-103">Enable delayed tax calculation on journal</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="17c2c-103">Iespējot nokavētā nodokļa aprēķinu žurnālos</span><span class="sxs-lookup"><span data-stu-id="17c2c-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="a40c4-104">Šajā tēmā ir skaidrots, kā izmantot **Iespējot aizkavētā nodokļa aprēķinu žurnālā** līdzekli. lai uzlabotu nodokļu aprēķina veiktspēju, ja žurnāla rindu apjoms ir milzīgs.</span><span class="sxs-lookup"><span data-stu-id="a40c4-104">This topic explains how to use the **Enable delayed tax calculation on journal** feature to improve tax calculation performance when the volume of journal lines is huge.</span></span>
+<span data-ttu-id="17c2c-104">Šajā tēmā paskaidrots, kā var aizkavēt PVN aprēķinu žurnālos.</span><span class="sxs-lookup"><span data-stu-id="17c2c-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="17c2c-105">Šī iespēja palīdz uzlabot nodokļu aprēķinu veiktspēju, ja ir daudz žurnāla rindu.</span><span class="sxs-lookup"><span data-stu-id="17c2c-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="a40c4-105">Pašreizējā PVN aprēķina režīms žurnālā ir aktivizēts reāllaikā, kad lietotājs atjaunina ar nodokļiem saistītos laukus, piemēram, PVN grupu/krājumu PVN grupu.</span><span class="sxs-lookup"><span data-stu-id="a40c4-105">Current sales tax calculation behavior on journal is real-time triggered when user updates tax related fields, e.g. sales tax group/item sales tax group.</span></span> <span data-ttu-id="a40c4-106">Jebkurš atjauninājums žurnāla rindas līmenī atkārtoti aprēķinās nodokļu summu visās žurnāla rindās.</span><span class="sxs-lookup"><span data-stu-id="a40c4-106">Any update at journal line level will re-calculate tax amount on all journal lines.</span></span> <span data-ttu-id="a40c4-107">Tas palīdz lietotājam redzēt reāllaikā aprēķināto nodokļa summu, bet tas var arī izraisīt veiktspējas problēmas, ja žurnāla rindu apjoms ir milzīgs.</span><span class="sxs-lookup"><span data-stu-id="a40c4-107">It helps user to see real-time calculated tax amount but it could also bring performance issue if  the volume of journal lines is huge.</span></span>
+<span data-ttu-id="17c2c-106">Pēc noklusējuma PVN summas žurnāla rindās tiek aprēķinātas ik reizi, kad tiek atjaunināti ar nodokļiem saistīti lauki.</span><span class="sxs-lookup"><span data-stu-id="17c2c-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="17c2c-107">Šie lauki iekļauj laukus PVN grupām un krājumu PVN grupām.</span><span class="sxs-lookup"><span data-stu-id="17c2c-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="17c2c-108">Atjauninot jebkuru žurnāla rindu, nodokļu summas ir jāpārrēķina visām žurnāla rindām.</span><span class="sxs-lookup"><span data-stu-id="17c2c-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="17c2c-109">Kaut arī šī darbība palīdz lietotājam skatīt nodokļu summas, kas aprēķinātas reāllaikā, tā var ietekmēt veiktspēju, ja žurnāla rindu skaits ir ļoti liels.</span><span class="sxs-lookup"><span data-stu-id="17c2c-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="a40c4-108">Šis līdzeklis sniedz iespēju atlikt nodokļu aprēķinu, lai atrisinātu veiktspējas problēmu.</span><span class="sxs-lookup"><span data-stu-id="a40c4-108">This feature provides an option to delay tax calculation to solve performance issue.</span></span> <span data-ttu-id="a40c4-109">Ja šī funkcija ir ieslēgta, nodokļa summa tiek aprēķināta tikai tad, kad lietotājs noklikšķina uz komandas "PVN", vai iegrāmato žurnālu.</span><span class="sxs-lookup"><span data-stu-id="a40c4-109">If this feature is turned on, tax amount will only be calculated when user clicks "Sales Tax" command or posts the journal.</span></span>
+<span data-ttu-id="17c2c-110">Aizturētā nodokļa aprēķināšanas līdzeklis ļauj atlikt nodokļu aprēķinu žurnālos un tādējādi palīdz novērst veiktspējas problēmas.</span><span class="sxs-lookup"><span data-stu-id="17c2c-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="17c2c-111">Kad šis līdzeklis ir ieslēgts, nodokļa summas tiek aprēķinātas tikai tad, ja lietotājs atlasa **PVN** vai iegrāmato žurnālu.</span><span class="sxs-lookup"><span data-stu-id="17c2c-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="a40c4-110">Lietotājs var ieslēgt/izslēgt parametru trīs līmeņos:</span><span class="sxs-lookup"><span data-stu-id="a40c4-110">User can turn on/off the parameter at three levels:</span></span>
-- <span data-ttu-id="a40c4-111">Pēc juridiskās personas</span><span class="sxs-lookup"><span data-stu-id="a40c4-111">By legal entity</span></span>
-- <span data-ttu-id="a40c4-112">Pēc žurnāla nosaukuma</span><span class="sxs-lookup"><span data-stu-id="a40c4-112">By journal name</span></span>
-- <span data-ttu-id="a40c4-113">Pēc žurnāla virsraksta</span><span class="sxs-lookup"><span data-stu-id="a40c4-113">By journal header</span></span>
+<span data-ttu-id="17c2c-112">PVN aprēķinu var aizkavēt trīs līmeņos, kā norādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="17c2c-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-<span data-ttu-id="a40c4-114">Sistēma izmantos parametra vērtību žurnāla virsrakstā kā galīgo variantu.</span><span class="sxs-lookup"><span data-stu-id="a40c4-114">System will take the parameter value on journal header as final.</span></span> <span data-ttu-id="a40c4-115">Parametra vērtība žurnāla virsrakstā būs iestatīta uz noklusējumu no žurnāla nosaukuma.</span><span class="sxs-lookup"><span data-stu-id="a40c4-115">Parameter value on journal header will be defaulted from journal name.</span></span> <span data-ttu-id="a40c4-116">Kad tiek izveidots žurnāla nosaukums, žurnāla nosaukuma parametra vērtība tiks iestatīta uz noklusējumu no virsgrāmatas parametra.</span><span class="sxs-lookup"><span data-stu-id="a40c4-116">Parameter value on journal name will be defaulted from general ledger parameter when the journal name is created.</span></span>
+- <span data-ttu-id="17c2c-113">Juridiska persona</span><span class="sxs-lookup"><span data-stu-id="17c2c-113">Legal entity</span></span>
+- <span data-ttu-id="17c2c-114">Žurnāla nosaukums</span><span class="sxs-lookup"><span data-stu-id="17c2c-114">Journal name</span></span>
+- <span data-ttu-id="17c2c-115">Žurnāla virsraksts</span><span class="sxs-lookup"><span data-stu-id="17c2c-115">Journal header</span></span>
 
-<span data-ttu-id="a40c4-117">Lauki "Faktiskā PVN summa" un "Aprēķinātā PVN summa" žurnālā būs paslēpti, ja šis parametrs ir ieslēgts.</span><span class="sxs-lookup"><span data-stu-id="a40c4-117">"Actual sales tax amount" and "Calculated sales tax amount" fields on journal will be hided if this parameter is turned on.</span></span> <span data-ttu-id="a40c4-118">Šis nolūks nav maldināt lietotāju, jo šo divu lauku vērtība vienmēr rādīs 0, pirms lietotājs aktivizēs nodokļa aprēķinu.</span><span class="sxs-lookup"><span data-stu-id="a40c4-118">The purpose is not to confuse user because the value of these two fields will always show 0 before user trigger the tax calculation.</span></span>
+<span data-ttu-id="17c2c-116">Sistēma piešķir prioritāti žurnāla virsraksta iestatījumam.</span><span class="sxs-lookup"><span data-stu-id="17c2c-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="17c2c-117">Pēc noklusējuma šis iestatījums tiek ņemts no žurnāla nosaukuma.</span><span class="sxs-lookup"><span data-stu-id="17c2c-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="17c2c-118">Pēc noklusējuma žurnāla nosaukuma iestatījums tiek ņemts no iestatījuma lapā **Virsgrāmatas parametri**, kad tiek izveidots žurnāla nosaukums.</span><span class="sxs-lookup"><span data-stu-id="17c2c-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="17c2c-119">Nākamajās sadaļās ir paskaidrots, kā ieslēgt aizkavētā nodokļa aprēķinu juridiskām personām, žurnālu nosaukumiem un žurnālu virsrakstiem.</span><span class="sxs-lookup"><span data-stu-id="17c2c-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a><span data-ttu-id="a40c4-119">Iespējot nokavētā nodokļa aprēķinu pēc juridiskās personas</span><span class="sxs-lookup"><span data-stu-id="a40c4-119">Enable delayed tax calculation by legal entity</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="17c2c-120">Ieslēgt aizkavēto nodokļa aprēķinu juridiskās personas līmenī</span><span class="sxs-lookup"><span data-stu-id="17c2c-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="a40c4-120">Dodieties uz **Virsgrāmata > Virsgrāmatas iestatīšana > Virsgrāmatas parametri**.</span><span class="sxs-lookup"><span data-stu-id="a40c4-120">Go to **General ledger > Ledger setup > General ledger parameters**</span></span>
-2. <span data-ttu-id="a40c4-121">Noklikšķiniet uz **PVN** cilni</span><span class="sxs-lookup"><span data-stu-id="a40c4-121">Click **Sales tax** tab</span></span>
-3. <span data-ttu-id="a40c4-122">Zem ātrās cilnes **Vispārīgi** , atradiet parametru **Aizkavēta nodokļa aprēķins**, ieslēdziet/izslēdziet to</span><span class="sxs-lookup"><span data-stu-id="a40c4-122">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+1. <span data-ttu-id="17c2c-121">Dodieties uz **Virsgrāmata \> Virsgrāmatas iestatīšana \> Virsgrāmatas parametri**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="17c2c-122">Cilnes **PVN** kopsavilkuma cilnē **Vispārīgi** iestatiet opcijas **Aizkavētais nodokļa aprēķins** vērtību uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-![](media/delayed-tax-calculation-gl.png)
+![Virsgrāmatas parametru attēls](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="17c2c-124">Ieslēgt aizkavēto nodokļa aprēķinu žurnāla nosaukuma līmenī</span><span class="sxs-lookup"><span data-stu-id="17c2c-124">Turn on delayed tax calculation at the journal name level</span></span>
 
+1. <span data-ttu-id="17c2c-125">Dodieties uz **Virsgrāmata \> Žurnāla iestatīšana \> Žurnālu nosaukumi**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="17c2c-126">Kopsavilkuma cilnes **Vispārīgi** sadaļā **PVN** iestatiet opcijas **Aizkavētais nodokļa aprēķins** vērtību uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a><span data-ttu-id="a40c4-123">Iespējot nokavētā nodokļa aprēķinu pēc žurnāla nosaukuma</span><span class="sxs-lookup"><span data-stu-id="a40c4-123">Enable delayed tax calculation by journal name</span></span>
+![Žurnālu nosaukumu attēls](media/delayed-tax-calculation-journal-name.png)
 
-1. <span data-ttu-id="a40c4-124">Pārejiet uz sadaļu **Virsgrāmata >Žurnāla iestatīšana > Žurnālu nosaukumi**.</span><span class="sxs-lookup"><span data-stu-id="a40c4-124">Go to **General ledger > Journal setup > Journal names**</span></span>
-2. <span data-ttu-id="a40c4-125">Zem ātrās cilnes **Vispārīgi** , atradiet parametru **Aizkavēta nodokļa aprēķins**, ieslēdziet/izslēdziet to</span><span class="sxs-lookup"><span data-stu-id="a40c4-125">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="17c2c-128">Ieslēgt aizkavēto nodokļa aprēķinu žurnāla virsraksta līmenī</span><span class="sxs-lookup"><span data-stu-id="17c2c-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. <span data-ttu-id="17c2c-129">Dodieties uz **Virsgrāmata \> Žurnāla ieraksti \> Virsgrāmatas žurnāli**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="17c2c-130">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-130">Select **New**.</span></span>
+3. <span data-ttu-id="17c2c-131">Atlasiet žurnāla nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="17c2c-131">Select a journal name.</span></span>
+4. <span data-ttu-id="17c2c-132">Cilnē **Iestatīšana** iestatiet opciju **Aizkavētais nodokļa aprēķins** uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="17c2c-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a><span data-ttu-id="a40c4-126">Iespējot nokavētā nodokļa aprēķinu pēc žurnāla</span><span class="sxs-lookup"><span data-stu-id="a40c4-126">Enable delayed tax calculation by journal</span></span>
-
-1. <span data-ttu-id="a40c4-127">Dodieties uz **Virsgrāmata > Žurnāla ieraksti > Vispārējie žurnāli**</span><span class="sxs-lookup"><span data-stu-id="a40c4-127">Go to **General ledger > Journal entries > General journals**</span></span>
-2. <span data-ttu-id="a40c4-128">Klikšķiniet **Jauns**</span><span class="sxs-lookup"><span data-stu-id="a40c4-128">Click **New**</span></span>
-3. <span data-ttu-id="a40c4-129">Atlasiet žurnāla nosaukumu</span><span class="sxs-lookup"><span data-stu-id="a40c4-129">Select a journal name</span></span>
-4. <span data-ttu-id="a40c4-130">Noklišķiniet uz **Iestatījumi**</span><span class="sxs-lookup"><span data-stu-id="a40c4-130">Click **Setup**</span></span>
-5. <span data-ttu-id="a40c4-131">Atradiet parametru **Aizkavēta nodokļa aprēķins**, ieslēdziet/izslēdziet to</span><span class="sxs-lookup"><span data-stu-id="a40c4-131">Find parameter **Delayed tax calculation**, turn on/off it</span></span>
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Virsgrāmatas žurnāla lapas attēls](media/delayed-tax-calculation-journal-header.png)
