@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181891"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578245"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroniskie pārskati (ER)
 
@@ -71,9 +71,8 @@ Modeļa kartējumam, kas atbalsta izejošos elektroniskos dokumentus, ir tālāk
 
 - Kā datu avotus kādam datu modelim tā var izmantot dažādus datu tipus. Piemēram, tā var izmantot tabulas, datu elementus, metodes vai uzskaitījumus.
 - Tā atbalsta lietotāja ievades parametrus, kurus var definēt kā datu modeļa datu avotus, kur izpildes laikā ir jānorāda kādi dati.
-- Tas atbalsta datu pārveidošanu nepieciešamajās grupās. Turklāt tas sniedz iespēju filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas līdzinās Microsoft Excel formulām, kā tas ir parādīts tālāk esošajā attēlā. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu veidošanā](general-electronic-reporting-formula-designer.md)).
+- Tas atbalsta datu pārveidošanu nepieciešamajās grupās. Turklāt tas sniedz iespēju filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas līdzinās Microsoft Excel formulām. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu veidošanā](general-electronic-reporting-formula-designer.md)).
 
-[![Formulas veidotājs](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Modeļa kartējumam, kas atbalsta ienākošos elektroniskos dokumentus, ir tālāk norādītās iespējas.
 
@@ -196,9 +195,7 @@ Nepiec. repozitorijus **LCS projekts**, **Failu sistēma** un **Regulējošās k
 ## <a name="supported-scenarios"></a>Atbalstītie scenāriji
 ### <a name="building-a-data-model"></a>Datu modeļa veidošana
 
-ER nodrošina modeļa veidotāju, kuru varat izmantot, lai izveidotu datu modeli noteiktam biznesa domēnam. Visus domēnam raksturīgos biznesa elementus un attiecības starp tiem varat norādīt datu modelī kā hierarhisku struktūru. Nākamajā attēlā ir parādīts šāda tipa datu modeļa piemērs (maksājumu domēna datu modelis).
-
-[![Maksājuma domēna datu modelis](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+ER nodrošina modeļa veidotāju, kuru varat izmantot, lai izveidotu datu modeli noteiktam biznesa domēnam. Visus domēnam raksturīgos biznesa elementus un attiecības starp tiem varat norādīt datu modelī kā hierarhisku struktūru. 
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Izveidot domēnam specifisku datu modeli** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)** ).
 
@@ -209,24 +206,14 @@ Datu modeļa saturu (etiķetes un aprakstus) var tulkot citās programmas atbals
 - Izstrādes laikā, lai saturu padarītu saprotamāku formāta veidotājiem, kuri runā citās valodās un kuri datu modeli izmantos formāta komponentu datu kartēšanai.
 - Izpildes laikā, lai saturu padarītu lietotājiem draudzīgāku, uzvednes un palīdzību izpildes laika parametriem, kā arī konfigurētus validēšanas ziņojumus (kļūdām un brīdinājumiem) rādot tādā valodā, kādai dod priekšroku programmatūrā lietotājs, kurš ir pieteicies pašlaik.
 
-Nākamajā attēlā ir parādīts piemērs tam, kā datu modeļa saturs no angļu valodas tiek tulkots japāņu valodā.
-
-[![Datu modeļa saturs angļu valodā](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![Datu modeļa saturs, kas pārtulkots japāņu valodā](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Datu modeļa kartējumu konfigurēšana izejošajiem dokumentiem
 
-ER nodrošina modeļu kartēšanas veidotāju, kas lietotājiem savus izveidotos datu modeļus ļauj kartēt uz noteiktiem programmas datu avotiem. Pamatojoties uz kartējumu, izpildes laikā dati no atlasītajiem datu avotiem tiek importēti datu modelī. Pēc tam datu modelis tiek izmantots kā abstrakts datu avots ER formātiem, kas ģenerē izejošus elektroniskos dokumentus. Nākamajā attēlā ir parādīts šī tipa datu modeļa kartējuma piemērs (maksājumu domēna datu modeļa kartējums **SEPA kredīta pārskaitījums** ).
-
-[![Datu modeļa kartējuma piemērs](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+ER nodrošina modeļu kartēšanas veidotāju, kas lietotājiem savus izveidotos datu modeļus ļauj kartēt uz noteiktiem programmas datu avotiem. Pamatojoties uz kartējumu, izpildes laikā dati no atlasītajiem datu avotiem tiek importēti datu modelī. Pēc tam datu modelis tiek izmantots kā abstrakts datu avots ER formātiem, kas ģenerē izejošus elektroniskos dokumentus. 
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevumu ceļvežus **ER Definēt modeļa kartēšanu un atlasīt datu avotus** un **ER Kartēt datu modeli uz atlasītajiem datu avotiem** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)** ).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Datu modeļa kartējumu konfigurēšana ienākošiem dokumentiem
-ER nodrošina modeļu kartēšanas veidotāju, kas lietotājiem savus izveidotos datu modeļus ļauj kartēt uz noteiktiem galamērķiem. Datu modeļus var kartēt, piemēram, uz atjaunināmiem datu komponentiem (tabulām, datu elementiem un skatiem). Pamatojoties uz kartējumu, dati izpildes laikā tiek atjaunināti, izmantojot datus no datu modeļa. Kā abstrakta ER formāta krātuve šis datu modelis tiek aizpildīts ar datiem, kas tiek importēti no ienākoša elektroniskā dokumenta. Nākamajā attēlā ir parādīts šāda tipa datu modeļa kartējuma piemērs. Šajā piemērā maksājumu domēna datu modeļa kartējums **NETS importa kartējums** tiek izmantots, lai atbalstītu bankas izrakstu importēšanu Norvēģijas bankas formātā NETS.
-
-[![NETS datu modeļa importa kartējuma piemērs](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+ER nodrošina modeļu kartēšanas veidotāju, kas lietotājiem savus izveidotos datu modeļus ļauj kartēt uz noteiktiem galamērķiem. Datu modeļus var kartēt, piemēram, uz atjaunināmiem datu komponentiem (tabulām, datu elementiem un skatiem). Pamatojoties uz kartējumu, dati izpildes laikā tiek atjaunināti, izmantojot datus no datu modeļa. Kā abstrakta ER formāta krātuve šis datu modelis tiek aizpildīts ar datiem, kas tiek importēti no ienākoša elektroniskā dokumenta. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Izveidotā modeļa komponenta kā modeļa konfigurācijas saglabāšana
 
@@ -236,24 +223,18 @@ Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzde
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Tāda formāta veidošana, kas kā pamatu izmanto datu modeli
 
-ER atbalsta formāta veidotāju, ko varat izmantot, lai veidotu elektroniskā dokumenta formātu kādam atlasītajam biznesa domēnam, kā pamatu atlasot modeļa komponentu. Tas pats ER formāta veidotājs jums ļauj izveidoto formātu kartēt uz atlasīto domēna datu modeļa kartēšanu kā datu avotu. Nākamajā attēlā ir parādīts šāda tipa formāta piemērs (formāta konfigurācija, kas nodrošina **BACS** maksājuma formātu Apvienotajai Karalistei).
-
-[![Piemērs formātam, kuram kā pamats ir datu modelis](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+ER atbalsta formāta veidotāju, ko varat izmantot, lai veidotu elektroniskā dokumenta formātu kādam atlasītajam biznesa domēnam, kā pamatu atlasot modeļa komponentu. Tas pats ER formāta veidotājs jums ļauj izveidoto formātu kartēt uz atlasīto domēna datu modeļa kartēšanu kā datu avotu. 
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Izveidot domēnam specifisku formātu** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)** ).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Konfigurācijas veidošana, lai ģenerētu elektroniskos dokumentus OPENXML darblapas formātā
 
-ER formāta veidotāju var izmantot, lai veidotu elektronisko dokumentu OPENXML darblapas formātā. Nākamajā attēlā ir parādīts šāda tipa formāta piemērs (formāta konfigurācija, lai ģenerētu OPENXML darblapu ar informāciju par atlasītu maksājumu žurnālu).
-
-[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+ER formāta veidotāju var izmantot, lai veidotu elektronisko dokumentu OPENXML darblapas formātā. 
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Izveidot konfigurāciju atskaitēm OPENXML formātā** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)** ). Kā daļu no veidnes importēšanas uzdevuma ceļveža kā veidni izmantojiet Excel failu [Maksājumu pārskata veidne (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Konfigurācijas veidošana, lai ģenerētu elektroniskos dokumentus Word dokumenta formātā
 ER formāta veidotāju var izmantot, lai veidotu elektronisko dokumentu Word dokumenta formātā. Nākamajā attēlā ir parādīts šāda tipa formāta piemērs. Ņemiet vērā, ka šis formāts atkārtoti izmanto esošo ER konfigurāciju, kas sākotnēji bija veidota tā, lai pārskata izvadi ģenerētu OPENXML formātā.
-
-[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, noskatieties uzdevuma ceļvedi ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā Microsoft WORD (daļa no biznesa procesa 7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)). Kā daļu no šī uzdevumu ceļveža darbības veidnes importēšanai kā veidnes ER formātam izmantojiet tālāk norādītos Word failus.
 
@@ -261,11 +242,7 @@ Lai iepazītos ar detalizētu informāciju par šo scenāriju, noskatieties uzde
 - [Maksājumu pārskata saistītā veidne (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfigurācijas veidošana datu importēšanai no ienākošiem elektroniskajiem dokumentiem
-ER formāta veidotāju var izmantot, lai aprakstītu elektronisku dokumentu, kurš tiek plānots datu importēšanai XML vai teksta formātā. Izveidotais formāts tiek lietots, lai parsētu ienākošu dokumentu. ER formāta kartējuma veidotāju var izmantot, lai definētu izveidotā formāta elementu saistīšanu ar datu modeli. Nākamajos attēlos ir redzams šāda tipa formāta un formātu kartējuma piemērs. Šajā piemērā tiek importēti NETS bankas izraksti, kas ietver informāciju par kreditoru maksājumiem teksta formātā.
-
-[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+ER formāta veidotāju var izmantot, lai aprakstītu elektronisku dokumentu, kurš tiek plānots datu importēšanai XML vai teksta formātā. Izveidotais formāts tiek lietots, lai parsētu ienākošu dokumentu. ER formāta kartējuma veidotāju var izmantot, lai definētu izveidotā formāta elementu saistīšanu ar datu modeli. 
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, noskatieties uzdevuma ceļvedi Izveidot nepieciešamās ER konfigurācijas, lai importētu datus no ārēja faila (daļa no biznesa procesa 7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)). Lai izpildītu šo ceļvedi, izmantot tālāk norādītos failus.
 
@@ -280,11 +257,7 @@ ER var glabāt izstrādātu formātu kopā ar konfigurētajiem datu kartējumiem
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>Finance konfigurēšana izveidota formāta iekšējai lietošanai
 
-Programma var konfigurēt, lai izveidotu formātu sāktu lietot elektronisko atskaišu ģenerēšanai. Atsauce uz izveidoto formāta konfigurāciju ir jādefinē noteikta domēna iestatījumos. Piemēram, lai elektroniskiem kreditoru maksājumiem BACS formātā sāktu izmantot ER formāta konfigurāciju, noteiktās maksāšanas metodēs ir jāietver atsauce uz šo formāta konfigurāciju, kā tas ir redzams tālāk esošajos attēlos.
-
-[![Formāta BACS (UK) konfigurācija](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![Atsauces uz formātu BACS (UK) ietveršana maksāšanas metodē](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+Programma var konfigurēt, lai izveidotu formātu sāktu lietot elektronisko atskaišu ģenerēšanai. Atsauce uz izveidoto formāta konfigurāciju ir jādefinē noteikta domēna iestatījumos. Piemēram, lai elektroniskiem kreditoru maksājumiem BACS formātā sāktu izmantot ER formāta konfigurāciju, noteiktās maksāšanas metodēs ir jāietver atsauce uz šo formāta konfigurāciju.
 
 Lai iepazītos ar detalizētu informāciju par šo scenāriju, atskaņojiet uzdevuma ceļvedi **ER Lietot formātu, lai ģenerētu elektroniskus dokumentus maksājumiem** (daļa no biznesa procesa **7.5.4.3. Iegūt/izstrādāt IT pakalpojumu/risinājuma komponentus (10677)** ).
 

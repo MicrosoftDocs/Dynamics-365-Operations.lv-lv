@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 956c866a6b39e2a81f085910e00d2bfe8683829c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178918"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658648"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
@@ -138,13 +138,19 @@ Vienmēr, kad strādājat ar mobilo programmu veidotāju, noteikti publicējiet 
 
 Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai piešķirto rēķinu saraksts. Lai izstrādātu šo mobilo lapu, izmantojiet lapu **VendMobileInvoiceAssignedToMeListPage**. Pirms šīs procedūras pabeigšanas pārliecinieties, ka jums pārskatīšanai ir piešķirts vismaz viens kreditora rēķins un ka rēķina rindā ir divi sadales elementi. Šie iestatījumi atbilst šī scenārija prasībām.
 
-1.  Vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceAssignedToMeListPage**, lai atvērtu moduļa **Parādi kreditoriem** lapas **Gaidošie kreditoru rēķini, kas piešķirti man** mobilo versiju. Atkarībā no tā, cik rēķinu jums ir piešķirts sistēmā, šajā lapā tiek rādīti šie rēķini. Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešams jebkurš jums piešķirts rēķins, ko var izmantot mobilās lapas izstrādei. Jaunās pieejamās lapas ir īpaši izstrādātas kreditoru rēķinu mobilo scenāriju izstrādei. Tāpēc ir jāizmanto šīs lapas. Vietrādim URL ir jālīdzinās šim vietrādim URL, un pēc tā ievades ir jātiek atvērtai attēlā redzamajai lapai: https://&lt;jūsuURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Lapa Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceAssignedToMeListPage**, lai atvērtu moduļa **Parādi kreditoriem** lapas **Gaidošie kreditoru rēķini, kas piešķirti man** mobilo versiju. Atkarībā no tā, cik rēķinu jums ir piešķirts sistēmā, šajā lapā tiek rādīti šie rēķini. Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešams jebkurš jums piešķirts rēķins, ko var izmantot mobilās lapas izstrādei. Jaunās pieejamās lapas ir īpaši izstrādātas kreditoru rēķinu mobilo scenāriju izstrādei. Tāpēc ir jāizmanto šīs lapas. Vietrādim URL ir jālīdzinās šim vietrādim URL, un pēc tā ievades ir jātiek atvērtai attēlā redzamajai lapai: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
+
+    [![Gaidošie kreditoru rēķini, kas piešķirti man lapa](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    
 2.  Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
 3.  Atlasiet savu darbvietu un noklikšķiniet uz **Rediģēt**.
 4.  Noklikšķiniet uz **Pievienot lapu**, lai izveidotu pirmo mobilo lapu.
 5.  Ievadiet nosaukumu, piemēram, **Mani kreditoru rēķini**, un aprakstu, piemēram, **Man pārskatīšanai piešķirtie kreditoru rēķini**.
 6.  Noklikšķiniet uz **Gatavs**.
-7.  Mobilo programmu veidotāja cilnē **Lauki** noklikšķiniet uz **Atlasīt laukus**. Saraksta lapā redzamajām kolonnām ir jālīdzinās tālāk esošajam attēlam. [![Kolonnas lapā Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+7.  Mobilo programmu veidotāja cilnē **Lauki** noklikšķiniet uz **Atlasīt laukus**. Saraksta lapā redzamajām kolonnām ir jālīdzinās tālāk esošajam attēlam. 
+
+    [![Kolonnas lapā Gaidošie kreditoru rēķini, kas piešķirti man](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    
 8.  Pievienojiet tās kolonnas no saraksta lapas, kuras ir jārāda lietotājiem mobilajā lapā. Pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus. Pamatojoties uz šī scenārija prasībām, ir nepieciešami astoņi tālāk norādītie lauki. Taču dažiem lietotājiem var šķist, ka astoņi lauki ir pārāk daudz informācijas, ko skatīt mobilajā ierīcē. Tāpēc mobilās lapas saraksta skatā tiks rādīti tika svarīgākie lauki. Pārējie laiki tiks rādīti detalizētās informācijas skatā, kas tiks izstrādāts vēlāk. Pagaidām tiks pievienoti tālāk norādītie lauki. Noklikšķiniet uz pluszīmes (**+**) šajās kolonnās, lai pievienoto mobilajai lapai.
     - Kreditora nosaukums
     - Rēķina kopsumma
@@ -152,8 +158,10 @@ Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai pieš
     - Rēķina numurs
     - Rēķina datums
 
-    Pēc laiku pievienošanas mobilajai lapai ir jālīdzinās tālāk esošajam attēlam. 
-    [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+  Pēc laiku pievienošanas mobilajai lapai ir jālīdzinās tālāk esošajam attēlam. 
+    
+   [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+
 9.  Tagad ir jāpievieno arī tālāk norādītās kolonnas, lai vēlāk varētu iespējot darbplūsmas darbības.
     - Rādīt pabeigšanas uzdevumu
     - Rādīt deleģēšanas uzdevumu
@@ -169,16 +177,26 @@ Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai pieš
 
 ### <a name="vendor-invoice-details"></a>Kreditora rēķina detalizēta informācija
 
-Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, izmantojiet lapu **VendMobileInvoiceHeaderDetails**. Ņemiet vērā, ka atkarībā no rēķinu skaita jūsu sistēmā šajā lapā tiek rādīti vecākie rēķini (rēķini, kas tika izveidoti pirmie). Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešami dažu rēķinu dati, lai varētu izstrādāt mobilo lapu. [![Lapa Darbplūsma](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, izmantojiet lapu **VendMobileInvoiceHeaderDetails**. Ņemiet vērā, ka atkarībā no rēķinu skaita jūsu sistēmā šajā lapā tiek rādīti vecākie rēķini (rēķini, kas tika izveidoti pirmie). Lai atrastu konkrētu rēķinu, varat izmantot kreisajā pusē esošo filtru. Taču šī piemēra ietvaros nav nepieciešams konkrēts rēķins. Ir nepieciešami dažu rēķinu dati, lai varētu izstrādāt mobilo lapu. 
+
+[![Lapa Darbplūsma](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Vietrādī URL izvēlnes vienuma nosaukumu aizstājiet ar **VendMobileInvoiceHeaderDetails**, lai atvērtu formu
+
 2. Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
+
 3. Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+
 4. Atlasiet lapu **Mani kreditoru rēķini**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt**.
+
 5. Cilnē **Lauki** noklikšķiniet uz kolonnas galvenes **Režģis**.
-6. Noklikšķiniet uz **Rekvizīti &gt; Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
+
+6. Noklikšķiniet uz **Rekvizīti &gt; Pievienot lapu**. **Piezīme.** Kad noklikšķināt uz galvenes **Režģis** un pievienojat lapu, tiek automātiski izveidotas attiecības ar detalizētas informācijas lapu.
+
 7. Ievadiet lapas nosaukumu, piemēram, **Rēķina detalizēta informācija**, un aprakstu, piemēram, **Skatīt rēķina galvenes un rindu detalizētu informāciju**.
+
 8. Noklikšķiniet uz **Atlasīt laukus**. Ņemiet vērā, ka pievienošanas secība atbilst secībai, kādā laiki tiek rādīti lietotājam. Vienīgais veids, kā mainīt laiku secību, ir atkārtoti atlasīt visus laukus. 
+
 9. Pievienojiet tālāk norādītos laukus no galvenes, pamatojoties uz šī scenārija prasībām.
    - Kreditora nosaukums
    - Rēķina kopsumma
@@ -197,9 +215,13 @@ Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, 
     - 1099. summa
 
 11. Kad ir pievienoti visi divu iepriekšējo darbību aprakstā norādītie lauki, noklikšķiniet uz **Gatavs**. Lapai ir jālīdzinās tālāk esošajam attēlam.
+    
     [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+
 12. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+
 13. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+
 14. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
 ### <a name="workflow-actions"></a>Darbplūsmas darbības
@@ -295,12 +317,19 @@ Lai pievienotu darbplūsmas darbības, izmantojiet lapu **VendMobileInvoiceHeade
 ### <a name="vendor-invoice-attachments"></a>Kreditoru rēķinu pielikumi
 
 1. Noklikšķiniet uz pogas **Iestatījumi** (zobrats) lapas augšējā labajā stūrī un pēc tam noklikšķiniet uz **Mobilā programma**.
+
 2. Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu.
+
 3. Atlasiet lapu <strong>Rēķina detalizēta informācija**, ko iepriekš izveidojāt, un pēc tam noklikšķiniet uz **Rediģēt</strong>.
+
 4. Iestatiet opcijas **Dokumentu vadība** vērtību **Ja**, kā tas ir redzams tālāk. **Piezīme.** Ja nav nepieciešams rādīt pielikumus mobilajā ierīcē, varat atstāt šīs opcijas vērtību **Nē**, kas ir noklusējuma iestatījums.
+   
    ![Dokumentu vadība](./media/docmanagement-216x300.png)
+
 5. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+
 6. Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+
 7. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
 ### <a name="vendor-invoice-line-distributions"></a>Kreditora rēķina rindas sadales
@@ -311,12 +340,19 @@ Saskaņā ar šī scenārija prasībām tiks lietotas tikai rindas līmeņa sada
 > Tas, ka ir zināmas prasības, palīdz scenārija izstrādes laikā izvēlēties konkrētu izmantojamo lapu un to, kā optimizēt mobilo risinājumu atbilstoši lietotāja vajadzībām. Otrā scenārija ietvaros sadales rādīšanai tiks izmantotas citas lapas, jo šī scenārija prasības atšķiras.
 
 1.  Aizstājiet izvēlnes elementa nosaukumu URL tekstā, kā to darījāt iepriekš. Parādītajai lapai ir jālīdzinās tālāk esošajam attēlam.
+
 [![Lapa Visas sadales](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+
 2.  Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
+
 3.  Noklikšķiniet uz pogas **Rediģēt**, lai darbvietā ieslēgtu rediģēšanas režīmu. **Piezīme.** Ir automātiski izveidotas divas jaunas lapas. Sistēmā šīs lapas tiek izveidotas, jo, veicot iepriekšējā sadaļā aprakstītās darbības, jūs ieslēdzāt dokumentu vadību. Varat ignorēt šīs divas lapas.
+
 4.  Noklikšķiniet uz **Pievienot lapu**.
+
 5.  Ievadiet lapas nosaukumu, piemēram, **Skatīt uzskaiti**, un aprakstu, piemēram, **Skatīt rēķina uzskaiti**.
+
 6.  Noklikšķiniet uz **Gatavs**.
+
 7.  Cilnē **Lauki** noklikšķiniet uz **Atlasīt laukus**, sadales elementu lapā atlasiet tālāk norādītos laukus un pēc tam noklikšķiniet uz **Gatavs**:
     1.  Summa
     2.  Valūta
@@ -324,8 +360,11 @@ Saskaņā ar šī scenārija prasībām tiks lietotas tikai rindas līmeņa sada
 
     > [!NOTE] 
     > Sadales režģī netika atlasīta kolonna **Apraksts**, jo saskaņā ar šī scenārija prasībām pilna cena ir vienīgā summa, kam ir sadale. Tāpēc lietotājam nebūs vajadzīgs cits lauks, lai norādīto summas veidu, uz ko attiecas sadale. Taču nākamā scenārija ietvaros šī informācija **tiks** izmantota, jo saskaņā ar tā scenārija prasībām sadales ir arī citiem summas veidiem (piemēram, PVN).
+
 8.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
+
 9.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.
+
 10. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
 > [!NOTE] 

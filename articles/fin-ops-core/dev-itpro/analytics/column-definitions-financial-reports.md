@@ -3,7 +3,7 @@ title: Kolonnu definīcijas finanšu pārskatos
 description: Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā. Tāpat kā rindas definīcijas pamata kolonnu definīcijas var izmantot vairākos pārskatos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174309"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572645"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
@@ -170,7 +170,7 @@ Jūs varat izmantot dialoglodziņu **Kolonnas galvene**, lai pievienotu, modific
 
 ### <a name="create-an-automatically-generated-header"></a>Izveidot automātiski ģenerētu galveni
 
-Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgās vērtības, kas tiek atjauninātas katru reizi, kad tiek ģenerēts pārskats. Šos kodus var ietvert jebkurā kolonnas virsrakstā, lai norādītu pārskata informāciju, kas var atsķirties, piemēram, datumus vai periodu numurus. Tādējādi vienu kolonnas definīciju varat izmantot vairākām pārskatu definīcijām, laika periodiem un pārskatu kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonnām **CALC** un **FD**. Pārskatā redzamās informācijas izskats ir atkarīgs no tā, kā automātiskais teksts tiek parādīts kolonnas virsraksta šūnā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tādēļ teksts pārskatā tiks attēlots tādā pašā izskatā. Piemēram, standarta kalendārajā gadā **@CalMonthLong** atrisina mēnesi **7** uz **Jūlijs**. Ja mēneša nosaukumam jābūt rakstītam ar lielajiem burtiem (piemēram, **JŪLIJS**), laukā **Kolonnas galvenes teksts** automātiskā teksta kodu ierakstiet ar lielajiem burtiem. Piemēram, ievadiet **@CALMONTHLONG**. Kodus un tekstu var kombinēt. Piemēram, jūs ievadāt šādu galvenes tekstu: **Periods @FinanšuPeriods-@FinanšuGads no @SākumaDatums līdz @BeiguDatums**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**.
+Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties uz automātiskā teksta kodiem. Automātiskā teksta kodi ir mainīgās vērtības, kas tiek atjauninātas katru reizi, kad tiek ģenerēts pārskats. Šos kodus var ietvert jebkurā kolonnas virsrakstā, lai norādītu pārskata informāciju, kas var atsķirties, piemēram, datumus vai periodu numurus. Tādējādi vienu kolonnas definīciju varat izmantot vairākām pārskatu definīcijām, laika periodiem un pārskatu kokiem. Tā kā automātiskā teksta kodi balstās uz kalendāra informāciju no kolonnas definīcijas detaļu rindām, tie tiek atbalstīti tikai kolonnām **CALC** un **FD**. Pārskatā redzamās informācijas izskats ir atkarīgs no tā, kā automātiskais teksts tiek parādīts kolonnas virsraksta šūnā. Dialoglodziņā **Kolonnas galvene**, automātiskā teksta kodi parādās dažādu reģistru burtos. Tādēļ teksts pārskatā tiks attēlots tādā pašā izskatā. Piemēram, parastajā kalendārajā gadā **\@CalMonthLong** **7.** mēnesis ir **Jūlijs**. Ja mēneša nosaukumam jābūt rakstītam ar lielajiem burtiem (piemēram, **JŪLIJS**), laukā **Kolonnas galvenes teksts** automātiskā teksta kodu ierakstiet ar lielajiem burtiem. Piemēram, ievadiet **\@CALMONTHLONG**. Kodus un tekstu var kombinēt. Piemēram, jūs ievadāt šādu galvenes tekstu: **Periods \@FinanšuPeriods-\@FinanšuGads no \@SākumaDatums līdz \@BeiguDatums**. Pārskata galvene, kas tiek izveidota līdzinās šādam tekstam: **Periods 1-02 no 01/01/02 līdz 31/01/02**.
 
 > [!NOTE]
 > Dažu tekstu formāts, piemēram, pilnais datuma formāts ir atkarīgs no jūsu servera reģionālajiem iestatījumiem. Lai mainītu šos iestatījumus, noklikšķiniet uz pogas **Sākums**, noklikšķiniet uz **Vadības panelis**, un pēc tam noklikšķiniet uz **Reģions un valoda**. Tālāk redzamajā tabulā ir aprakstītas kolonnu virsrakstiem pieejamās automātiskā teksta opcijas.

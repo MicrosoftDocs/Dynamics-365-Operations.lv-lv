@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b3cc32d6ff263967c1ee843702c28968219ac33
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: d9f1cd6d22fd17505c3a4ece8a881629b00694d2
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887186"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652084"
 ---
-# <a name="scheduled-work-order-maintenance-jobs"></a>Atlasītie darba pasūtījuma uzturēšanas darbi.
+# <a name="scheduled-work-order-maintenance-jobs"></a>Plānotie darba pasūtījuma uzturēšanas darbi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Lapa **Ieplānotie darba pasūtījumu uzturēšanas darbi** tiek izmantota, lai iegūtu pārskatu par resursam piešķirtajiem darba pasūtījumiem. Sarakstā ir parādīti darba pasūtījumi, kuri izmanto resursu tipus “Cilvēkresursi”, “Rīks” un “Iekārta”. Sarakstu var izmantot, lai iegūtu pārskatu par darba pasūtījumiem, kas piešķirti noteiktam resursam. To var arī izmantot, lai ātri atrastu darba pasūtījumu, kas piešķirts uzturēšanas speciālistam, kurš, piemēram, šorīt pieteicis slimības lapu, un pēc tam ātri piešķirtu šim uzdevumam citu uzturēšanas speciālistu.
+Lapa **Ieplānotie darba pasūtījumu uzturēšanas darbi** parāda pārskatu par resursam piešķirtajiem darba pasūtījumiem. Ir parādīti darba pasūtījumi, kuri izmanto resursu tipus “Cilvēkresursi”, “Rīks” un “Iekārta”. Piemēram, varat to arī izmantot, lai ātri atrastu darba pasūtījumus, kas piešķirts uzturēšanas speciālistam, kurš, piemēram, šorīt pieteicis slimības lapu, un pēc tam ātri piešķirtu šim uzdevumam citu uzturēšanas speciālistu.
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Ieplānoto darba pasūtījumu uzturēšanas darbu skatīšana
 
@@ -39,16 +39,16 @@ Lapa **Ieplānotie darba pasūtījumu uzturēšanas darbi** tiek izmantota, lai 
 
 2. Sarakstu var kārtot, piemēram, pēc uzturēšanas speciālista. Var izmantot arī filtru, lai ierobežotu sarakstu un parādītu darba pasūtījumus, kas piešķirti konkrētam resursam vai uzturēšanas speciālistam.
 
-3. Var skatīt darba pasūtījuma piezīmes un, ja nepieciešams, pievienot jaunas piezīmes, sarakstā atlasot darba pasūtījuma uzdevumu un noklikšķinot uz **Piezīmes**.
+3. Varat skatīt darba pasūtījuma piezīmes un, ja nepieciešams, pievienot jaunas piezīmes, atlasot darba pasūtījuma uzdevumu un noklikšķinot uz **Piezīmes**.
 
-4. Ja vēlaties darba pasūtījumam piešķirt vienu uzturēšanas speciālistu, sarakstā atlasiet darba pasūtījumu un noklikšķiniet uz **Darba pasūtījums**.
+4. Ja vēlaties darba pasūtījumam piešķirt vienu uzturēšanas speciālistu, sarakstā atlasiet darba pasūtījumu un tad noklikšķiniet uz **Darba pasūtījums**.
 
 5. Tiek atvērta lapa **Darba pasūtījums**. Noklikšķiniet uz **Nosūtīt**, lai ieplānotu darba pasūtījumu konkrētam uzturēšanas speciālistam.
 
 >[!NOTE]
 >Vairāk informācijas par vairāku darba pasūtījumu vai viena darba pasūtījuma ieplānošanu skatiet sadaļā [Ieplānot darba pasūtījumus](../work-order-scheduling/schedule-work-orders.md) un [Nosūtīt darba pasūtījumus](../work-order-scheduling/dispatch-work-order.md).
 
-Attēlā tālāk ir parādīts lapas **Ieplānotie darba pasūtījumu uzturēšanas darbi** piemērs.
+Tālāk norādītais ekrānšāviņš parāda lapas **Ieplānotie darba pasūtījumu uzturēšanas darbi** piemēru.
 
 ![1. attēls](media/07-work-order-scheduling.png)
 
