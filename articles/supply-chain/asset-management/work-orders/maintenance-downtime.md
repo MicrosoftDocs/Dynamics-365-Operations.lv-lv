@@ -3,7 +3,7 @@ title: Dīkstāve uzturēšanas dēļ
 description: Šajā tēmā aprakstīta dīkstāve uzturēšanas dēļ programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/23/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,78 +16,76 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc79dc1b5911679586fa560142ada5add1a881d2
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: ad9f1b2a0e63b4fb0d6daceb451c3a1dc1ec7de7
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918248"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626159"
 ---
 # <a name="maintenance-downtime"></a>Dīkstāve uzturēšanas dēļ
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrācijas līdzeklī, kas atlasīts darba pasūtījumā. Tas ir noderīgi, ja vēlaties reģistrēt dīkstāvi uzturēšanas dēļ vienā vai vairākās iekārtās ražošanas zonā. Vispirms jūs izveidojat dīkstāves uzturēšanas dēļ iemeslu kodus, kurus vēlaties izmantot, piemēram, salūšana vai plānota pārtraukšana. Tas tiek darīts sadaļā **Dīkstāves uzturēšanas dēļ iemeslu kodi**. Pēc tam jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrācijas sadaļā **Dīkstāve uzturēšanas dēļ** un pievienot atbilstošos iemeslu kodus.
+Jūs varat izveidot dīkstāve uzturēšanas dēļ reģistrācijas līdzeklī, kas ir atlasīts darba pasūtījumā. Šī iespēja ir noderīga, ja vēlaties reģistrēt dīkstāve uzturēšanas dēļ vienā vai vairākās iekārtās ražošanas zonā. Vispirms jūs izveidojat dīkstāves uzturēšanas dēļ pamatojuma kodus, kurus vēlaties izmantot, piemēram, **Sadalījums** vai **Plānota pārtraukšana**. Šī darbība tiek veikta lapā **Dīkstāves uzturēšanas dēļ pamatojuma kodi**. Pēc tam jūs varat izveidot reģistrācijas dīkstāves uzturēšanas dēļ lapā **Dīkstāve uzturēšanas dēļ** un pievienot atbilstošos dīkstāve uzturēšanas dēļ pamatojuma kodus.
 
 ## <a name="create-maintenance-downtime-reason-codes"></a>Dīkstāves uzturēšanas dēļ iemeslu kodu izveide
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Uzstādījums** > **Darba pasūtījumi** > **Dīkstāves uzturēšanas dēļ iemeslu kodi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Uzstādījums** > **Darba pasūtījumi** > **Dīkstāves uzturēšanas dēļ pamatojuma kodi**.
 
-2. Klikšķiniet **Jauns**.
+2. Atlasiet **Jauns**.
 
-3. Laukā **Dīkstāves uzturēšanas dēļ iemeslu kods** ievadiet ID.
+3. Laukā **Dīkstāve uzturēšanas dēļ pamatojuma kods** ievadiet ID dīkstāve uzturēšanas dēļ pamatojuma kodam.
 
-4. Laukā **Nosaukums** ievadiet iemesla kodu.
+4. Laukā **Nosaukums** ievadiet nosaukumu.
 
-5. Atlasiet izvēles rūti **KPI ietver**, ja iemesla kodu ir jāiekļauj līdzekļa KPI aprēķinos. Kopumā plānotajiem ražošanas pārtraukumiem nevajadzētu tikt iekļautiem KPI aprēķinos, jo tiem nav ietekmes uz sagaidāmo sniegumu.
+5. Atzīmējiet izvēles rūtiņu **KPI iekļaut**, ja pamatojuma kods ir jāietver pamatlīdzekļa izpildes pamatrādītāja (key performance indicators - KPIs) aprēķinos. Kopumā plānotajiem ražošanas pārtraukumiem nevajadzētu tikt iekļautiem KPI aprēķinos, tāpēc ka tiem nav ietekmes uz sagaidāmo sniegumu.
 
-6. Noklikšķiniet uz **Saglabāt**.
+6. Atlasiet **Saglabāt**.
+
+Šajā attēlā ir parādīts lapas **Dīkstāves uzturēšanas dēļ pamatojuma kodi** piemērs.
 
 ![1. attēls](media/15-work-orders.png)
 
-
-Kad esat izveidojis dīkstāves uzturēšanas dēļ iemeslu kodus, kurus vēlaties izmantot, jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrācijas darba pasūtījumiem un līdzekļiem.
+Pēc tam, kad esat izveidojis dīkstāves uzturēšanas dēļ iemeslu kodus, kurus vēlaties izmantot, jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrācijas darba pasūtījumiem un līdzekļiem.
 
 
 ## <a name="create-maintenance-downtime-registrations"></a>Dīkstāves uzturēšanas dēļ reģistrāciju izveide
 
 1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 
-2. Atlasiet darba pasūtījumu un noklikšķiniet uz **Dīkstāve uzturēšanas dēļ**.
+2. Atlasiet darba pasūtījumu un pēc tam cilnē **Darba pasūtījums** grupā **Līdzeklis** atlasiet **Dīkstāve uzturēšanas dēļ**.
 
-3. Klikšķiniet **Jauns**.
+3. Atlasiet **Jauns**.
 
-4. Ievadiet dīkstāves uzturēšanas dēļ reģistrācijas laiku un datumu laukos **No** un **Uz**.
+4. Laukos **No** un **Uz** ievadiet dīkstāves uzturēšanas dēļ reģistrācijas laiku un datumu.
 
-5. Atstājot lauku **Uz**, ilgums stundās tiek automātiski ievietots laukā **Ilgums**.
+>[!NOTE]
+>Atstājot lauku **Uz**, ilgums stundās tiek automātiski ievietots laukā **Ilgums**.
 
-6. Laukā **Dīkstāves uzturēšanas dēļ iemeslu kods** ievadiet iemesla kodu.
+5. Laukā **Dīkstāves uzturēšanas dēļ iemeslu kods** atlasiet iemesla kodu.
 
-7. Ja vēlaties pievienot papildu reģistrācijas, atkārtojiet 3.–6. darbību.
+6. Atkārtojiet 3. līdz 5. soli, lai pievienotu vairāk reģistrāciju.
 
-8. Noklikšķiniet uz **Saglabāt**.
+7. Atlasiet **Saglabāt**.
 
+Attēlā tālāk parādīts dīkstāve uzturēšanas dēļ reģistrācijas piemērs.
 
 ![2. attēls](media/16-work-orders.png)
 
-
-Kalendārs, kuru izmanto, lai aprēķinātu dīkstāves uzturēšanas dēļ reģistrāciju, ir atkarīgs no jūsu veiktās līdzekļu un parametru uzstādījumu izvēles. Ja sadaļā **Visi līdzekļi** > **Fiksētais līdzeklis** kopsavilkuma cilnē > laukā **Resurss** ir atlasīts resurss, tiek izmantots kalendāra uzstādījums saistītajai resursu grupai, kā parādīts šajā attēlā.
+Kalendārs, kuru izmanto, lai aprēķinātu dīkstāves uzturēšanas dēļ reģistrāciju, ir atkarīgs no jūsu līdzekļu un parametru uzstādījumu izvēles. Ja sadaļā **Resurss** kopsavilkuma cilnē **Fiksētais līdzeklis** lapā **Visi līdzekļi** ir atlasīts resurss, tiek izmantots kalendārs, kas ir uzstādīts saistītajai resursu grupai, kā parādīts šajā ilustrācijā.
 
 ![3. attēls](media/17-work-orders.png)
 
-
-Ja līdzeklim nav atlasīts neviens resurss, tiek izmantots standarta kalendārs, kas atlasīts sadaļā **Līdzekļu pārvaldības parametri**, kā uzrādīts šajā attēlā.
+Ja līdzeklim nav atlasīts neviens resurss, tiek izmantots standarta kalendārs, kas ir atlasīts lapā **Līdzekļu pārvaldības parametri**, kā uzrādīts šajā ilustrācijā.
 
 ![4. attēls](media/18-work-orders.png)
 
-
-Noklikšķiniet uz **Uzņēmuma līdzekļu pārvaldība** > **Pieprasījumi** > **Dīkstāve uzturēšanas dēļ**, lai redzētu pārskatu par visām dīkstāves uzturēšanas dēļ reģistrācijām.
+Lai redzētu pārskatu par visām dīkstāves uzturēšanas dēļ reģistrācijām, noklikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Dīkstāve uzturēšanas dēļ**.
 
 >[!NOTE]
->Visi kalendāri, kas tiek izmantoti modulī **Līdzekļu pārvaldība**, tiek iestatīti **Organizācijas administrēšana** > **Uzstādīšana** > **Kalendāri** > **Kalendāri**.
+>Visi kalendāri, izmantoti modulī **Līdzekļu pārvaldība**, tiek iestatīti **Organizācijas administrēšana** > **Uzstādīšana** > **Kalendāri** > **Kalendāri**.
 

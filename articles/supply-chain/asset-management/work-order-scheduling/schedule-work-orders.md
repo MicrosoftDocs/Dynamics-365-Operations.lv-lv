@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887232"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652153"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Šajā tēmā ir aprakstīts, kā plānot darba pasūtījumus Līdzekļu pārvaldībā. Nepieciešamo stundu skaitu darba pasūtījumam definē prognozēto darba pasūtījuma uzdevumu stundu summa mīnus grāmatotās stundas. Ja ir nepieciešams vairāk laika, darba pasūtījuma prognoze attiecīgi ir jāpielāgo. Sadaļā **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi** varat skatīt vai rediģēt prognozes darba pasūtījumam, atlasot to un noklikšķinot uz **Prognoze** cilnē **Darba pasūtījums**. Kad darba pasūtījumi ir izveidoti un novērtēti, nākamā darbība ir piešķirt tiem uzturēšanas speciālistus un rīkus to izpildei.
+Šajā tēmā ir aprakstīts, kā plānot darba pasūtījumus Līdzekļu pārvaldībā. 
+
+Nepieciešamo stundu skaitu darba pasūtījumam definē prognozēto stundu summa mīnus grāmatotās stundas. Ja ir nepieciešams vairāk laika, prognoze attiecīgi ir jāpielāgo. Sadaļā **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi** varat skatīt vai rediģēt prognozes darba pasūtījumam, atlasot to un noklikšķinot uz **Prognoze** cilnē **Darba pasūtījums**. Kad darba pasūtījumi ir izveidoti un novērtēti, nākamā darbība ir piešķirt tiem uzturēšanas speciālistus un rīkus to izpildei.
 
 Var ieplānot tikai tos darba pasūtījumus, kuriem ir tāds darba pasūtījuma dzīves cikla stāvoklis, kas ļauj ieplānot. Ieplānošanas atļauja tiek iestatīta ar sadaļas **Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Dzīves cikla stāvokļi** > kopsavilkuma cilnes **Vispārīgi** > pārslēgšanas pogu **Atļaut ieplānošanu**.
 
@@ -43,8 +45,8 @@ Var ieplānot tikai tos darba pasūtījumus, kuriem ir tāds darba pasūtījuma 
 
 4. Dialoglodziņā grafika **Ieplānot darba pasūtījumus** varat pievienot atlases saistībā ar paredzēto sākuma datumu un pakalpojuma līmeni, ja nepieciešams. Ja plānošanas procesam ir jāievēro noslodzes ierobežojumi attiecībā uz resursiem, kas jau ir ieplānoti citiem darbiem, pārliecinieties, ka pārslēgšanas pogas **Līdzeklis**, **Rīks** un **Darbinieks** ir iestatītas uz “Jā”.
 
->[!NOTE]
->Ja pārslēgšanas pogas **Līdzeklis**, **Rīks** un **Darbinieks** iestatāt uz “Nē”, esošās rezervācijas tiks ignorētas. Informācijas žurnālā tiek parādīts saraksts ar darba pasūtījumu grafikiem, kas pārklājas, un jūs varat noklikšķināt uz ziņojumiem, lai atvērtu darba pasūtījumu un pārplānotu to, ja nepieciešams.
+    [!NOTE]
+    Ja pārslēgšanas pogas **Līdzeklis**, **Rīks** un **Darbinieks** iestatāt uz “Nē”, esošās rezervācijas tiks ignorētas. Informācijas žurnālā tiek parādīts saraksts ar darba pasūtījumu grafikiem, kas pārklājas, un jūs varat noklikšķināt uz ziņojumiem, lai atvērtu darba pasūtījumu un pārplānotu to, ja nepieciešams.
 
 5. Lai skatītu vairāk informācijas par plānošanas procesu, pārslēgšanas pogai **Izvērsts** atlasiet vērtību “Jā”. Tas nozīmē, ka detalizēta informācija par aprēķinātajiem darba pasūtījumu un uzturēšanas speciālistu rādītājiem tiks parādīta informācijas žurnālā.
 
@@ -110,9 +112,11 @@ Vērtējuma rādītāji, kas attiecas uz aprēķināšanu, kuriem uzturēšanas 
 | Nodarbinātā pieņemšanas datums               | Katram datumam, kad ieplānotais sākuma datums ir vēlāk par paredzēto sākuma datumu, rādītājs tiek noņemts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 >[!NOTE]
->Ja rādītājs ir iestatīts kā “0”, šis rādītājs netiek aprēķināts. Tas ir noderīgi, ja, piemēram, plānošanā nevēlaties iekļaut atbildīgo darbinieku.
+>Ja rādītājs ir iestatīts kā “0”, šis rādītājs netiek aprēķināts. Tas ir noderīgi, ja, piemēram, plānošanā nevēlaties iekļaut atbildīgu darbinieku.
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Darba pasūtījumu plānošanā izmantotās zināšanas
 
-Prasmju un sertifikātu prasības var tikt iestatītas uzturēšanas darba tipiem (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darbi** > **Uzturēšanas darbu tipi**) un uzturēšanas darbu darījumiem (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darbi** > **Uzturēšanas darbu darījums**). Uzturēšanas darbu tipi un uzturēšanas darbu darījumi tiek atlasīti darba pasūtījuma uzdevumiem. Ja prasmes un sertifikāti tiek atlasīti uzturēšanas darba tipam vai uzturēšanas darba darījumam un tie tiek izmantoti darba pasūtījuma uzdevumam, attiecīgajam darba pasūtījumam tiek ieplānoti tikai tādi uzturēšanas speciālisti, kuriem ir atbilstošas prasmes un sertifikāti.
+Prasmju un sertifikātu prasības var tikt iestatītas uzturēšanas darba tipiem (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darbi** > **Uzturēšanas darbu tipi**) un uzturēšanas darbu darījumiem (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darbi** > **Uzturēšanas darbu darījums**). 
+
+Uzturēšanas darbu tipi un uzturēšanas darbu darījumi tiek atlasīti darba pasūtījuma uzdevumiem. Ja prasmes un sertifikāti tiek atlasīti uzturēšanas darba tipam vai uzturēšanas darba darījumam un tie tiek izmantoti darba pasūtījuma uzdevumam, attiecīgajam darba pasūtījumam tiek ieplānoti tikai tādi uzturēšanas speciālisti, kuriem ir atbilstošas prasmes un sertifikāti.
 

@@ -3,7 +3,7 @@ title: Projekta rēķinu izrakstīšana
 description: Šajā rakstā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178917"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658624"
 ---
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
@@ -55,6 +55,9 @@ Rēķinu priekšlikumus varat izveidot tālāk uzskaitītajām transakcijām.
 -   Summas, ko debitori ietur iepriekšējos projekta rēķinos
 -   Kredīta notas
 -   Summas, ko debitors jums samaksāja pirms projekta uzsākšanas
+
+> [!NOTE]
+> **Iespējot kārtošanu pēc resursa projekta rēķina priekšlikuma izveides laikā** funkcija iespējo projekta grāmatvedi, lai sakārtotu projekta transakcijas, kas pieejamas norēķiniem, veidojot jaunu projekta rēķina priekšlikumu. Režģim, kas parāda pieejamās projekta transakcijas, būs atsevišķs lauks Resursa ID un Resurss, kas ļaus lietotājam filtrēt un kārtot tos pēc resursa nosaukuma. Šis līdzeklis ir atspējots pēc noklusējuma, un to var iespējot sadaļā **Darbvietas > Līdzekļu pārvaldība**. Sazinieties ar sistēmas administratoru, lai saņemtu palīdzību šīs funkcijas iespējošanā.
 
 Rēķina priekšlikumā varat izveidot papildmaksu transakcijas. Varat arī modificēt pārdošanas cenu par stundu, izdevumiem, krājumu un maksas darījumiem. Kad grāmatojat rēķina priekšlikumu, atjauninātās cenas un transakcijas tiek pievienotas projekta atskaitēm un transakciju vēsturei. 
 

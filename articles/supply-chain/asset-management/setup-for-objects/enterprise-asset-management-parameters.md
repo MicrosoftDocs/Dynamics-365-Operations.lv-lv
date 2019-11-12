@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b3ccbb7eed643abf613f8b75ae78854246d20f6d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024572"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569881"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Līdzekļu pārvaldībā ir jāiestata vispārējie parametri, kas attiecas uz līdzekļiem, darba pasūtījumiem un darba pasūtījumu plānošanu. Šajā tēmā ir paskaidrots, kā tos iestatīt. Lai atvērtu veidlapu, atlasiet **Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļu pārvaldības parametri**.
 

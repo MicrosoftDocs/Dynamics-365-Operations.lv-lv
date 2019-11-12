@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
-ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
+ms.openlocfilehash: e527a1ade9b050c0700ef42bbcac8da3f36160b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "2002388"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571787"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozes, darba pasūtījumi un projekti
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulī Līdzekļu pārvaldība integrācija ar **Projektu pārvaldību un uzskaites** moduli palīdz izmaksu kontroles optimizācijai, ļaujot lietotājiem izsekot izmaksas par uzturēšanas darba tipa prognozēm un darba pasūtījumu uzdevumiem.
 
@@ -37,7 +37,7 @@ Lai izsekotu uzturēšanas darba tipa prognozes, ir neieciešami divi iestatīju
 
 1. Atlasiet projektu **Pamatlīdzekļu pārvaldība** > **Iestatīšana** > **Pamatlīdzekļu pārvaldības parametri**un pēc tam cilnē **Līdzekļi** > **Projekts** kopsavilkuma cilnē, **Uzturēšanas prognozes projekta** laukā atlasiet projektu.
 
-2. Veidojot uzturēšanas darba tipa noklusējuma rindu, automātiski tiek izveidots darbības numurs **Uzturēšanas darba tipa noklusējumi**  lapai,  (**Līdzekļu pārvaldība** > **Iestatīšana** > **Uzdevumi** > **Uzturēšanas darba tipa noklusējumi**).
+2. Veidojot uzturēšanas darba tipa noklusējuma rindu, automātiski tiek izveidots darbības numurs **Uzturēšanas darba tipa noklusējumi** lapai, (**Līdzekļu pārvaldība** > **Iestatīšana** > **Uzdevumi** > **Uzturēšanas darba tipa noklusējumi**).
 
 Uzturēšanas darba tipa prognozes kalpo diviem mērķiem: 
 
@@ -80,8 +80,8 @@ Ja līdzeklis tika instalēts funkcionālajā novietojumā, bet vēlāk tiek ins
 Lai palīdzētu nodrošināt pareizu darba pasūtījumu dzīves cikla stāvokļu izmantošanu un atbilstošus projekta posmus darba pasūtījumiem, ņemiet vērā atkarības attiecībā uz moduli **Projektu pārvaldība un uzskaite**:
 
 - Modulī **Projektu pārvaldība un uzskaite** projektu posmi iestatīti projektu veidiem sadaļā **Projektu pārvaldības un uzskaites parametri**.  
-- Sadaļā **Projektu pārvaldības un uzskaites parametri**  izmantojiet atbilstošā projekta posma izvēles rūtiņas visiem projektu tipiem, kurus izmantosiet. Tālāk redzamajās ilustrācijās pieci posmi  (**Izveidots**, **Novērtēts**, **Ieplānots**, **Procesā** un **Pabeigts**) tika atlasīti projektu tipiem **Laiks un materiāls** un **Iekšējais**. Šie pieci posmi atbilst gan iekšējiem uzturēšanas darbiem, gan pakalpojumu uzturēšanas darbiem.
-- **Līdzekļu pārvaldības**  modulī projektu veidi ir definēti projekta grupās, kas iestatītas **Darba pasūtījuma projekta iestatīšanas** lapā > **Projektu grupa** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Projekta iestatīšana**).  
+- Sadaļā **Projektu pārvaldības un uzskaites parametri** izmantojiet atbilstošā projekta posma izvēles rūtiņas visiem projektu tipiem, kurus izmantosiet. Tālāk redzamajās ilustrācijās pieci posmi (**Izveidots**, **Novērtēts**, **Ieplānots**, **Procesā** un **Pabeigts**) tika atlasīti projektu tipiem **Laiks un materiāls** un **Iekšējais**. Šie pieci posmi atbilst gan iekšējiem uzturēšanas darbiem, gan pakalpojumu uzturēšanas darbiem.
+- **Līdzekļu pārvaldības** modulī projektu veidi ir definēti projekta grupās, kas iestatītas **Darba pasūtījuma projekta iestatīšanas** lapā > **Projektu grupa** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Projekta iestatīšana**).  
 - Projektu grupas, kas tiek iestatītas sadaļā **Darba pasūtījuma projekta iestatīšana**, izmanto, veidojot darba pasūtījumus. Izveidojot darba pasūtījumu, darba pasūtījumam automātiski tiek izveidots darba pasūtījuma projekts.  
 - Katram darba pasūtījuma dzīves cikla stāvoklim ir atbilstošs projekta posms.  
 - Projekta posms, kas atbilst darba pasūtījuma dzīves cikla stāvoklim, ir jādefinē kā aktīvs posms projekta grupai, kas ir noteikts darba pasūtījuma projektā. Darba pasūtījumam automātiski tiek izveidots darba pasūtījuma projekts.
@@ -97,7 +97,7 @@ Sekojošās ilustrācijas parāda saistības starp darba pasūtījumu projektu g
 
 Papildinformāciju par darba pasūtījumu veidu iestatīšanu skatiet sadaļā [Darba pasūtījumu projektu iestatīšana](../setup-for-work-orders/work-order-project-setup.md). Lai iegūtu vairāk informācijas par to, kā izveidot darba pasūtījumu dzīves cikla stāvokļus, skatiet sadaļu [Darba pasūtījuma dzīves cikla stāvokļi](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-Sekojošajā ilustrācijā redzams grafisks pārskats par dažādiem projektiem, kas izveidoti  **Līdzekļu pārvaldības** modulī, lai iespējotu integrāciju ar **Projektu vadības un uzskaites** moduli. Tas arī rāda darba procesus, ar kuriem projekti ir saistīti.
+Sekojošajā ilustrācijā redzams grafisks pārskats par dažādiem projektiem, kas izveidoti **Līdzekļu pārvaldības** modulī, lai iespējotu integrāciju ar **Projektu vadības un uzskaites** moduli. Tas arī rāda darba procesus, ar kuriem projekti ir saistīti.
 
 ![6. attēls](media/06-integration-to-pma.png)
 

@@ -3,7 +3,7 @@ title: Darba pasūtījumu kopas
 description: Šajā tēmā ir aprakstīts, kā strādāt ar darba pasūtījuma kopām līdzekļu pārvaldībā.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,95 +16,96 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 069fa02073808fd7bbaac9bc1603e49ce4d450eb
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 161244cb4451ddc7b13b579fd02e828a61adeea4
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875778"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626366"
 ---
 # <a name="work-order-pools"></a>Darba pasūtījumu kopas
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
+Darba pasūtījumu kopas var izmantot, lai grupētu darba pasūtījumus, kuriem ir kaut kas kopīgs. Šeit ir daži piemēri lietām, kurām varat izveidot darba pasūtījumu kopas:
+
+- Darba komandām, piemēram, Uzturēšanas komanda A vai Uzturēšanas komanda B  
+
+- Profesionālajām prasmēm, piemēram, elektriķi vai santehniķi  
+
+- Fiziskām atrašanās vietām  
+
+- Laika grafikiem, piemēram, nedēļas vai citi periodi  
+
+Pēc nepieciešamības, varat iekļaut vienu darba pasūtījumu vairākās darbu pasūtījumu kopās.
 
 
-Darba pasūtījumu kopas var izmantot, lai grupētu darba pasūtījumus, kuriem ir kaut kas kopīgs. Piemēram, varat izveidot darba pasūtījumu kopas
+## <a name="create-a-work-order-pool"></a>Darba pasūtījumu kopas izveide
 
-- darba komandām, piemēram, uzturēšanas komanda A, uzturēšanas komanda B  
+Sarakstu lapās **Visas darba pasūtījumu kopas** vai **Aktīvās darba pasūtījumu kopas** varat iegūt pārskatu par darba pasūtījuma kopām un izveidot jaunas kopas.
 
-- profesionālajām prasmēm, piemēram, elektriķi vai santehniķi  
+1. Atlasiet **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumu kopas** > **Visas darba pasūtījumu kopas** vai **Aktīvās darba pasūtījuma kopas**.
 
-- fiziskām atrašanās vietām  
+2. Atlasiet **Jauns**.
 
-- laika grafikiem, piemēram, nedēļas vai citi periodi  
+3. Laukā **Kopa** ievadiet ID darba pasūtījumu kopai.
 
+4. Laukā **Nosaukums** ievadiet nosaukumu.
 
-Ja nepieciešams, vienu darba pasūtījumu var ievietot daudzās darba pasūtījuma kopās.
+5. Uzstādiet opciju **Aktīvs** uz **Jā**, lai norādītu, ka darba pasūtījumu kopa ir aktīva.
 
+6. Uzstādiet opciju **Dzēst darba pasūtījuma attiecības** uz **Jā**, ja vēlaties, lai darba pasūtījumi tiktu automātiski noņemti no darba pasūtījumu kopas.
 
-## <a name="create-work-order-pool"></a>Darba pasūtījumu kopas izveide
+7. Laukā **Dzēst dzīves cikla stāvokli** atlasiet darba pasūtījuma dzīves cikla stāvokli. Piemēram, darba pasūtījuma dzīves cikla stāvoklis, lai pabeigtu darba pasūtījumu, var tikt iestatīts automātiski dzēst relācijas ar darba pasūtījuma kopām.
 
-Sadaļās **Visas darba pasūtījumu kopas** vai **Aktīvās darba pasūtījumu kopas** varat iegūt pārskatu par darba pasūtījuma kopām un izveidot jaunas kopas.
+    Varat uzreiz sākt pievienot darba pasūtījumus darba pasūtījumu kopai.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumu kopas** > **Visas darba pasūtījumu kopas** vai **Aktīvās darba pasūtījuma kopas**.
+8. Kopsavilkuma cilnē **Darba pasūtījumi** atlasiet **Pievienot rindu**.
 
-2. Klikšķiniet **Jauns**.
+9. Atlasiet darba pasūtījumu laukā **Darba pasūtījums**. Saistītie lauki tiek atjaunināti automātiski.
 
-3. Ievadiet darba pasūtījumu kopas ID laukā **Kopa** un ievadiet tās nosaukumu laukā **Nosaukums**.
+10. Atkārtojiet 8. līdz 9. soli, lai pievienotu vairāk darba pasūtījumus.
 
-4. Atlasiet “Jā” pie pārslēgšanas pogas **Aktīva**, lai norādītu, ka darba pasūtījumu kopa ir aktīva.
+11. Ja darba pasūtījumi, ko pievienojāt, ir jāveic noteiktā kārtībā, laukā **Kārtošanas secība** varat ievadīt ciparus **1**, **2**, **3** utt., lai precizētu šo pasūtījumu.
 
-5. Atlasiet “Jā” pie pārslēgšanas pogas **Dzēst visas darba pasūtījuma relācijas**, ja vēlaties, lai darba pasūtījumi tiktu automātiski noņemti no darba pasūtījumu kopas.
+12. Lai skatītu sarakstu ar visiem darba pasūtījumiem, kas ir iekļauti darba pasūtījumu kopā, darbības rūtī cilnē **Darba pasūtījumu kopa**, kas atrodas grupā **Skatīt saistīto darba pasūtījumu kopu**, atlasiet **Darba pasūtījumus**, lai atvērtu **Visu darbu pasūtījumu** saraksta lapa.
 
-6. Laukā **Dzēst dzīves cikla stāvokli** atlasiet darba pasūtījuma dzīves cikla stāvokli. Piemēram, darba pasūtījuma dzīves cikla stāvoklis, lai pabeigtu darba pasūtījumu, var tikt iestatīts automātiski dzēst relācijas ar darba pasūtījuma kopām.
+13. Lai aprēķinātu un skatītu noslodzi uzturēšanas grafikam, neplānotiem darba pasūtījumiem un ieplānotajiem darba pasūtījumiem, darbību rūtī cilnē **Darba pasūtījumu kopa**, kas atrodas grupā **Skatīt saistīto darba pasūtījumu kopu**, atlasiet **Noslodze**, lai atvērtu dialogu **Aprēķināt noslodzi**.
 
-7. Varat uzreiz sākt pievienot darba pasūtījumus darba pasūtījumu kopai. Kopsavilkuma cilnē **Darba pasūtījumi** noklikšķiniet uz **Pievienot rindu**.
+14. Lai aprēķinātu un skatītu prognozes precēm (rezerves daļas un cita nepieciešamās preces), kas ir saistītas ar uzturēšanas grafiku, neplānotiem darba pasūtījumiem un ieplānotajiem darba pasūtījumiem, darbību rūtī cilnē **Darba pasūtījumu kopa**, kas atrodas grupā **Skatīt saistīto darba pasūtījumu kopu**, atlasiet **Preču prognoze**, lai atvērtu dialogu **Aprēķināt preču prognozi**.
 
-8. Atlasiet darba pasūtījumu laukā **Darba pasūtījums**. Saistītie lauki tiek atjaunināti automātiski.
+15. Lai skatītu sarakstu ar visiem pirkšanas pieprasījumiem, kas ir saistīti ar darba pasūtījumiem to kopā, darbības rūtī cilnē **Darba pasūtījumu kopa**, kas atrodas grupā **Sagāde**, atlasiet **Darba pasūtījumu pirkšanas pieprasījumu**, lai atvērtu **Darba pasūtījumu pirkšanas pieprasījumu** saraksta lapa.
 
-9. Atkārtojiet 7.–8. darbību, ja vēlaties pievienot papildu darba pasūtījumus.
-
-10. Laukā **Kārtošanas secība** varat norādīt, vai darba pasūtījumi ir jāveic noteiktā secībā. Ievietojiet skaitļus 1, 2, 3 un tā tālāk, lai norādītu noteiktu secību atlasītajiem darba pasūtījumiem.
-
-11. Noklikšķiniet uz pogas **Darba pasūtījumi**, lai skatītu sarakstu ar visiem darba pasūtījumiem, kas iekļauti darba pasūtījumu kopā.
-
-12. Noklikšķiniet uz pogas **Noslodze**, lai atvērtu sadaļu **Noslodze**, lai aprēķinātu un skatītu noslodzi uzturēšanas grafikam, neplānotajiem darba pasūtījumiem un plānotajiem darba pasūtījumiem.
-
-13. Noklikšķiniet uz pogas **Krājumu prognoze**, lai atvērtu sadaļu **Krājumu prognoze**, lai aprēķinātu un skatītu krājumu (rezerves daļu un citu nepieciešamo krājumu) prognozes saistībā ar uzturēšanas grafiku, neplānotajiem darba pasūtījumiem un plānotajiem darba pasūtījumiem.
-
-14. Noklikšķiniet uz pogas **Darba pasūtījuma pirkšanas pieprasījums**, lai atvērtu sarakstu **Darba pasūtījuma pirkšanas pieprasījumi** un skatītu pirkšanas pieprasījumu sarakstu, kas saistīts ar darba pasūtījumiem darba pasūtījumu kopā.
-
-15. Noklikšķiniet uz pogas **Darba pasūtījuma pirkšana**, lai atvērtu sarakstu **Darba pasūtījuma pirkšana** un skatītu pirkšanas pieprasījumus, kas saistīti ar darba pasūtījumiem darba pasūtījumu kopā.
+16. Lai skatītu sarakstu ar visiem pirkšanas pasūtījumiem, kas ir saistīti ar darba pasūtījumiem to kopā, darbības rūtī cilnē **Darba pasūtījumu kopa**, kas atrodas grupā **Sagāde**, atlasiet **Darba pasūtījumu pirkšana**, lai atvērtu **Darba pasūtījumu pirkšanas** saraksta lapu.
 
 >[!NOTE]
->Kad darba pasūtījumu kopa jūsu darba plānošanai vairs nav atbilstoša, iestatiet izvēles rūtiņu **Aktīva** uz “Nē” saraksta skatā **Darba pasūtījumu kopas**.
+>Kad darba pasūtījumu kopa jūsu darba plānošanai vairs nav atbilstoša, iestatiet opciju **Aktīvs** attiecīgajai kopai uz **Nē** saraksta skatā **Darba pasūtījumu kopas** lapā.
 
-Ja vēlaties dzēst visas darba pasūtījumu rindas, atzīmējiet izvēles rūtiņu **Dzēst darba pasūtījumu relācijas**, piemēram, lai izveidotu tukšu kopu, ko vēlāk var izmantot citiem darba pasūtījumiem. Atcerieties noņemt izvēles rūtiņu **Dzēst darba pasūtījuma attiecības**, ja vēlaties izmantot darba pasūtījuma kopu, lai vēlāk izveidotu jaunas darba pasūtījuma attiecības.
+Lai dzēstu visas darbinieka pasūtījuma rindas, iestatiet opciju **Dzēst darba pasūtījumu attiecības** uz **Jā**. Šī opcija noder, piemēram, ja vēlaties izveidot tukšu kopu, ko vēlāk var izmantot citiem darba pasūtījumiem. Atcerieties iestatīt opciju **Dzēst darba pasūtījuma attiecības** uz **Nē**, kad esat gatavi izmantot darba pasūtījuma kopu, lai vēlāk izveidotu jaunas darba pasūtījuma attiecības.
 
+Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu kopa** piemērs.
 
 ![1. attēls](media/22-work-orders.png)
 
 
-## <a name="add-work-order-to-a-work-order-pool"></a>Darba pasūtījuma pievienošana darba pasūtījumu kopai
+## <a name="add-a-work-order-to-a-work-order-pool"></a>Darba pasūtījuma pievienošana darba pasūtījumu kopai
 
-Kā iepriekš aprakstīts šajā sadaļā, varat pievienot darba pasūtījumus darba pasūtījumu kopai, kad veidojat kopu. Darba pasūtījumu varat pievienot darba pasūtījumu kopai arī no kāda saraksta **Visi darba pasūtījumi**.
+Kā aprakstīts iepriekšējā sadaļā, varat pievienot darba pasūtījumus darba pasūtījumu kopai, kad veidojat kopu. Darba pasūtījumus var pievienot arī darba pasūtījumu kopai **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi** saraksta lapā.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopējs** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet darba pasūtījumu un pēc tam darbības rūtī, cilnē **Darba pasūtījums** grupā **Uzturēt** atlasiet **Darba pasūtījumu kopa**.
 
 2. Sarakstā atlasiet darba pasūtījumu un noklikšķiniet uz **Darba pasūtījumu kopa**.
 
-3. Laukā **Pievienot/noņemt** atlasiet “Pievienot”.
+3. Dialogā **Uzturēt darba uzdevumu kopu**, laukā **Pievienot/noņemt** atlasiet **Pievienot**.
 
 4. Atlasiet darba pasūtījumu kopu laukā **Kopa**.
 
-5. Noklikšķiniet uz **Labi**.
+5. Atlasiet **Labi**.
 
-6. Pēc tam, kad darba pasūtījums ir pievienots darba pasūtījumu kopai, ja vēlaties ievietot darba pasūtījumu kopā noteiktā secībā, atveriet vienu no darba pasūtījumu kopu saraksta lapām, atlasiet kopu un noklikšķiniet uz **Rediģēt** un pielāgojiet darba pasūtījumu, kas ietverti kopā, kārtošanas secību, atverot veidlapu **Darba pasūtījumu kopas** > kopsavilkuma cilni **Darba pasūtījumi** > lauku **Kārtošanas secība**.
+6. Lai noliktu darba pasūtījumu, ko pievienojāt noteiktam pasūtījumam darba pasūtījumu kopā, **Visas darba pasūtījumu kopas** vai **Aktīvo darbu pasūtījumu kopas** saraksta lapā, atlasiet kopu un pēc tam atlasiet **Rediģēt**. Pēc tam lapā **Darba pasūtījumu kopa** kopsavilkuma cilnē **Darba pasūtījumi** lietojiet lauku **Kārtot secību**, lai koriģētu kārtošanas secību darba pasūtījumiem, kas iekļauti kopā.
 
-Ja vēlaties noņemt atlasīto darba pasūtījumu no darba pasūtījumu kopas, 3. darbībā atlasiet “Noņemt”.
+Lai noņemtu darba pasūtījumu no darba pasūtījumu kopas, atkārtojiet šīs darbības, bet atlasiet opciju **Noņemt** 3. solī.
 

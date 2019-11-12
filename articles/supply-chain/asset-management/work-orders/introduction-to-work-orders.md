@@ -3,7 +3,7 @@ title: Iepazīšanās ar darba pasūtījumiem
 description: Šajā tēmā ir sniegts pārskats darba pasūtījumiem Līdzekļu pārvaldībā.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,61 +16,66 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9483c50a15fca566b1f5e089297795bbbe09c042
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b8340d3f4fd98e02e372fd5ac68f1ae107819304
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875785"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626412"
 ---
-# <a name="introduction-to-work-orders"></a>Iepazīšanās ar darba pasūtījumiem
+# <a name="introduction-to-work-orders"></a>Ievads par darba pasūtījumiem
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Darba pasūtījumus izmanto, lai pārvaldītu, sniegtu nepieciešamo informāciju un reģistrētu patēriņu attiecībā uz uzturēšanas darbiem. Darba pasūtījums var saturēt vienu vai vairākus darba pasūtījuma darbus un darba pasūtījumam var pieslēgt vienu vai vairākus līdzekļus. Katra darba pasūtījuma rinda definē uzturēšanas darbu, kas ir ieplānots līdzeklim.
 
-Darba pasūtījumus var izveidot automātiski vai manuāli:
+Darba pasūtījumus izmanto, lai pārvaldītu uzturēšanas darbus, sniegtu tām nepieciešamo informāciju un reģistrētu patēriņu attiecībā uz tiem. Katrs darba pasūtījums var saturēt vienu vai vairākus darba pasūtījuma darbus un katram darba pasūtījumam var pieslēgt vienu vai vairākus līdzekļus. Katrs darba pasūtījuma darbs definē uzturēšanas darbu, kas ir ieplānots līdzeklim.
 
-- Automātiski izmantojot veidlapu **Plāna uzturēšanas plāni** kalendāra tipa uzturēšanas plāniem, kas iestatīti uz "Automātisko izveidošanu".  
+Darba pasūtījumus var izveidot šādos veidos:
 
-- Automātiski izmantojot veidlapu **Plāna uzturēšanas cikli** kalendāra tipa uzturēšanas cikliem, kas iestatīti uz "Automātisko izveidošanu".  
+- Kalendāra tipa uzturēšanas plāniem, kur iestatījums “Automātiskā izveidošana” ir ieslēgts automātiski, izmantojot veidlapu [Plāna uzturēšanas plāni](../preventive-and-reactive-maintenance/schedule-maintenance-plans.md).
 
-- Izveidot no uzturēšanas grafika, ka var būt preventīvi uzturēšanas darbi vai uzturēšanas pieprasījumi.  
+- Uzturēšanas cikliem, kur iestatījums “Automātiskā izveidošana” ir ieslēgts automātiski, izmantojot veidlapu [Plāna uzturēšanas cikli](../preventive-and-reactive-maintenance/maintenance-rounds.md).
 
-- Izveidojiet darba pasūtījumu manuāli.  
+- Preventīviem uzturēšanas darbiem vai uzturēšanas pieprasījumiem, no [Uzturēšanas plāns](../preventive-and-reactive-maintenance/maintenance-schedule.md)
 
-- Izveidot darba pasūtījumi **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi** vai **Mani funkcionālā novietojuma uzturēšanas pieprasījumi**.
+- Manuāli
+
+- No **Visi uzturēšanas pieprasījumi**, **Aktīvie uzturēšanas pieprasījumi**, vai **Mani funkcionālā novietojuma uzturēšanas pieprasījumi** lapas.
 
 >[!NOTE]
->Darba pasūtījuma darbi, ka ir saistīti ar to pašu līdzekli, ir saistīti ar tādu pašu projekta ID.
+>Darba pasūtījuma darbi, kas ir saistīti ar to pašu līdzekli, ir saistīti ar tādu pašu projekta ID.
 
 ## <a name="all-work-orders"></a>Visi darba pasūtījumi
 
-Lai atvērtu sarakstu, noklikšķiniet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi**. **Visi darba pasūtījumi** satur sarakstu ar visiem darba pasūtījumiem un uzrāda daļu informācijas, kas saistīta ar darba pasūtījumu.
+Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** , lai atvērtu **Visi darba pasūtījumi** sarakstu lapu. Šajā lapā tiek rādīti visi darba pasūtījumi un daļa informācijas, kas ir saistīta ar katru no tiem.
+
+Zemāk redzamajā ilustrācijā ir parādīts sarakstu lapas **Visi darba pasūtījumi** piemērs.
 
 ![1. attēls](media/01-work-orders.png)
 
-- Lai redzētu aktīvo darba pasūtījumu sarakstu, noklikšķiniet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Aktīvie darba pasūtījumi**.
+Lai skatītu tikai aktīvo darba pasūtījumu sarakstu, atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Aktīvie darba pasūtījumi**. 
 
-- Noklikšķiniet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Mani funkcionālā novietojuma darba pasūtījuma uzturēšanas darbi**, lai redzētu sarakstu ar darba pasūtījuma darbiem, kuri satur līdzekļus, kas instalēti funkcionālā novietojumā, ar kuru esat saistīts kā speciālists (iestatīts sadaļā [Uzturēšanas speciālisti un speciālistu grupas](../setup-for-objects/workers-and-worker-groups.md)).
+Lai skatītu sarakstu ar darba pasūtījuma darbiem, kuri satur līdzekļus, kas instalēti funkcionālā novietojumā, ar kuru esat saistīts kā speciālists, atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Mani funkcionālā novietojuma darba pasūtījuma uzturēšanas darbi**. (Saikne starp darbiniekiem un funkcionālajiem novietojumiem ir iestatīta lapā **Speciālisti** .) Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
 
-- Sarakstā **Visi darba pasūtījumi** (režģa skats), noklikšķiniet uz saites kolonnā **Darba pasūtījums**, lai uzrādītu izvēlētā ieraksta Detalizētu skatu. Noklikšķiniet pogu **Rediģēt**, lai atvērtu noklusējuma skatu rediģēšanai.  
+Tālāk ir norādīti daži veidi, kā varat izmantot **Visi darba pasūtījumi** lapu:
 
-- Detalizētajā skatā ir redzama detalizēta informācija, kas saistīta ar darba pasūtījumu.  
+- Režģa skatā atlasiet saiti kolonnā **Darba pasūtījums**, lai parādītos atlasītā ieraksta detalizēts skats. Pēc tam varat atlasīt **Rediģēt**, lai atvērtu ierakstu rediģēšanai.
 
-- Detalizētajā skatā atlasiet saiti **Rindas**, lai redzētu darba pasūtījuma darba informāciju, vai atlasiet saiti **Galvene**, lai redzētu darba pasūtījuma informāciju.  
+- Detalizētajā skatā parādās detalizēta informācija, kas saistīta ar darba pasūtījumu.  
 
-- Vertikālā rūts **Saistīta informācija** ekrāna labajā pusē satur papildu informāciju, kas saistīta ar darba pasūtījumu. Izvērsiet rūti, lai redzētu saistīto informāciju atlasītajam darba pasūtījumam.  
+- Detalizētajā skatā atlasiet cilni **Rindas**, lai skatītu detalizēto informāciju par darba pasūtījuma darbu, vai atlasiet cilni **Galvene**, lai skatītu detalizēto informāciju par darba pasūtījumu.  
 
+- Izvērsiet rūti **Saistītā informācija** lapas labajā pusē, lai skatītu papildu informāciju, kas saistīta ar atlasīto darba pasūtījumu.
+
+Zemāk redzamajā ilustrācijā ir parādīts detalizētā skata **Visi darba pasūtījumi** piemērs.
 
 ![2. attēls](media/02-work-orders.png)
 
 
-Darbības rūts pogas ir izkārtotas cilnēs darbības rūtī.  Neliels apraksts pogām saistībā ar Enterprise Asset Management:
+Pogas darbības rūtī ir sakārtotas cilnēs. Šajā tabulā ir īsi aprakstītas pogas, kas saistītas ar Līdzekļu pārvaldību:
 
 
 
@@ -78,39 +83,39 @@ Darbības rūts pogas ir izkārtotas cilnēs darbības rūtī.  Neliels apraksts
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Labot                            | Rediģēt atlasīto darba pasūtījumu.                                                                                                                                                                                                                                           |
 | Jaunās                             | Izveidot jaunu darba pasūtījumu.                                                                                                                                                                                                                                                  |
-| Dzēst                          | Dzēst atlasīto darba pasūtījumu.                                                                                                                                                                                                                                         |
-| Darba pasūtījumu kopa                 | Pievienot atlasīto darba pasūtījumu darba pasūtījumu kopai vai izņemt no darba pasūtījumu kopas.                                                                                                                                                                                           |
+| Delete                          | Dzēst atlasīto darba pasūtījumu.                                                                                                                                                                                                                                         |
+| Darba pasūtījumu kopa                 | Pievienot atlasīto darba pasūtījumu darba pasūtījumu kopai vai izņemt to no darba pasūtījumu kopas.                                                                                                                                                                                           |
 | Koriģēt                          | Pielāgojiet informāciju par gaidāmo sākumu un beigām, servisa līmeni, atbildīgo uzturēšanas speciālistu vai atbildīgo uzturēšanas speciālistu grupu atlasītos darba pasūtījumos.                                                                                                                                     |
 | Saistīts darba pasūtījums              | Izveidot jaunu darba pasūtījumu, kas saistīts ar atlasīto darba pasūtījuma darbu. Tas ir noderīgi, ja vēlaties reģistrēt primāros un sekundāros darba pasūtījumus.                                                                                                                              |
-| Kopēt darba pasūtījumu                 | Izveidot darba pasūtījumu, pamatojoties uz esošu darba pasūtījumu.                                                                                                                                                                                                                |
-| Notikumu vēsture                   | Skatīt darba pasūtījuma reģistrēšanas vēsturi.                                                                                                                                                                                                                |
-| Darba pasūtījuma uzturēšanas darba piezīmes                           | Izveidojiet aprakstu vai ievadiet piezīmes vai piezīmes darba pasūtījumā. Sāciet, noklikšķinot pogu **Pievienot laikspiedolu**, lai piezīmei pievienotu savu lietotājvārdu un laikspiedolu. Piezīmes ir attēlotas veidlapā **Darba pasūtījums** > **Rindas informācija** FastTab > cilne **Apraksts**. |
-| Rīki                           | Izveidojiet darba pasūtījumā nepieciešamo rīku sarakstu. Rīki ir iestatīti kā resursi **Organizācijas administrēšana** > **Vispārīgi** > **Resursi** > **Resursi**.                                                                                                      |
-| Uzturēšanas kontrolsaraksts           | Skatīt pārbaudes sarakstu līdzeklim, kas pievienots darba pasūtījumam.                                                                                                                                                                                                              |
-| Līdzekļa defekts                     | Skatīt vai reģistrēt kļūmes informāciju līdzeklim, kas ir jāizmanto kļūme pārvaldībai.                                                                                                                                                                                        |
+| Kopēt darba pasūtījumu                 | Izveidot darba pasūtījumu, kas ir pamatots uz esošu darba pasūtījumu.                                                                                                                                                                                                               |
+| Notikumu vēsture                   | Skatīt darba pasūtījuma reģistrācijas vēsturi.                                                                                                                                                                                                                |
+| Darba pasūtījuma uzturēšanas darba piezīmes                           | Izveidojiet darba pasūtījuma aprakstu vai ievadiet piezīmes par to. Vispirms atlasiet **Pievienot laikspiedolu**, lai piezīmei pievienotu savu lietotājvārdu un laikspiedolu. Piezīmes tiek rādītas cilnē **Apraksts**, kas atrodas kopsavilkuma cilnē **Detalizēta informācija par rindu** lapā **Darba pasūtījums**.         |
+| Rīki                           | Izveidojiet darba pasūtījumā nepieciešamo rīku sarakstu. Rīki ir iestatīti kā resursi **Organizācijas administrēšana** > **Resursi** > **Resursi**.                                                                                                      |
+| Uzturēšanas kontrolsaraksts           | Skatīt pārbaudes sarakstu līdzeklim, kas ir pievienots darba pasūtījumam.                                                                                                                                                                                                              |
+| Līdzekļa defekts                     | Skatīt vai reģistrēt kļūmes informāciju pamatlīdzeklī. Informācija tiek izmantota kļūdu pārvaldībai.                                                                                                                                                                                      |
 | Dīkstāve uzturēšanas dēļ            | Konkretizēt darba pasūtījuma dīkstāvi uzturēšanas dēļ.                                                                                                                                                                                                                               |
 | Nosacījumu novērtējums            | Reģistrēt nosacījuma novērtējuma mērījumus darba pasūtījumā.                                                                                                                                                                                                             |
 | Līdzekļu skaitītāji                 | Izveidot vai skatītāju reģistrācijas līdzeklī.                                                                                                                                                                                                                     |
 | Budžets                        | Skatīt vai izveidot prognozes darba pasūtījumā.                                                                                                                                                                                                                               |
 | Žurnāli                        | Skatīt vai izveidot darba pasūtījumu žurnālus. Žurnāla rindas var nokopēt no prognozēm.                                                                                                                                                                                         |
-| Projektu darbības            | Skatīt visus ievietots darījumus, ka saistīti ar darba pasūtījumiem, kas izveidoti līdzeklim.                                                                                                                                                                                             |
-| Darba pasūtījuma statusa atjaunināšana                | Darba pasūtījuma dzīves cikla stāvokļa atjaunināšana.                                                                                                                                                                                                                                                |
-| Dzīves cikla stāvokļa žurnāls                       | Žurnāls, kurā uzrādīti atlasītā darba pasūtījuma dzīves cikla stāvokļi.                                                                                                                                                                                                                   |
-| Līdzekļu dokumenti                | Skatīt sarakstu ar dokumentiem, kas pievienoti līdzekļiem, kas ir saistīti ar darba pasūtījumu. Šie dokumenti ir iestatīti **Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļu dokumenti**.                                                                                                 |
+| Projektu darbības            | Skatīt visas ievietotas transakcijas, kas ir saistītas ar darba pasūtījumiem, kas ir izveidoti līdzeklim.                                                                                                                                                                                             |
+| Darba pasūtījuma statusa atjaunināšana           | Atjaunināt darba pasūtījuma dzīves cikla stāvokļi.                                                                                                                                                                                                                                                |
+| Dzīves cikla stāvokļa žurnāls                      | Skatiet žurnālu, kas rāda atlasītā darba pasūtījuma dzīves cikla stāvokļus.                                                                                                                                                                                                                   |
+| Līdzekļu dokumenti                | Skatīt sarakstu ar dokumentiem, kas pievienoti līdzekļiem, kas saistīti ar darba pasūtījumu. Šie dokumenti ir iestatīti **Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļu dokumenti**.                                                                                                 |
 | Ieplānošana                        | Ieplānojiet atlasītos darba pasūtījumus.                                                                                                                                                                                                                                      |
 | Nosūtīt            | Ieplānojiet atlasīto darba pasūtījumu vienam speciālistam.                                                                                                                                                                                                                        |
-| Dzēst grafiku                 | Dzēst atlasītā darba pasūtījuma ieplānošanu.                                                                                                                                                                                                                          |
-| Atlasītie darba pasūtījuma uzturēšanas darbi.             | Atvērt saraksta **Ieplānotie darba pasūtījuma uzturēšanas darbi** lapu.                                                                                                                                                                                                                             |
+| Dzēst grafiku                 | Dzēst izvēlētā darba pasūtījuma ieplānošanu.                                                                                                                                                                                                                          |
+| Plānotie darba pasūtījuma uzturēšanas darbi             | Atvērt saraksta **Ieplānotie darba pasūtījuma uzturēšanas darbi** lapu.                                                                                                                                                                                                                             |
 | Darba pasūtījuma pirkšanas pieprasījums | Atvērt saraksta **Darba pasūtījuma pieprasījums** lapu.                                                                                                                                                                                                                 |
 | Darba pasūtījuma iegāde             | Atvērt saraksta **Darba pasūtījuma pirkums** lapu.                                                                                                                                                                                                                             |
 | Izmaksu kontrole                    | Salīdzināt budžeta izmaksas un reālās izmaksas darba pasūtījumā.                                                                                                                                                                                                                |
 | Stundu kontrole                    | Salīdziniet prognozēto un reālo laiku darba pasūtījumā.                                                                                                                                                                                                                |
-| Darba pasūtījuma pārskats               | Drukāt darba pasūtījuma ziņojumu.                                                                                                                                                                                                                                                |
-| Darba pasūtījuma patēriņš          | Drukāt patēriņa ziņojumu.                                                                                                                                                                                                                                               |
+| Darba pasūtījuma pārskats               | Drukāt darba pasūtījuma pārskatu.                                                                                                                                                                                                                                                |
+| Darba pasūtījuma patēriņš          | Drukāt patēriņa pārskatu.                                                                                                                                                                                                                                               |
 
 
-Grupas cilnes **Darba pasūtījum** > grupā **Projekts** attiecas uz funkcionalitāti modulī **Projekta pārvaldība un grāmatvedība** saistībā ar prognozēm, žurnāliem un rēķiniem.
+Pogas grupā **Projekts** Darbību rūts cilnē **Darba pasūtījums** ir saistīta ar prognožu, žurnālu un rēķinu funkcionalitāti modulī **Projektu pārvaldība un grāmatvedība**.
 
 >[!NOTE]
->Prognozes, kas izveidotas darba pasūtījumā, var iekļaut, darbinot galveno plānošanu, izmantojot prognozes modeli, kas atlasīts veidlapā **Līdzekļu pārvaldības parametri**.
+>Lai iekļautu darba pasūtījumam izveidotās prognozes, darbinot vispārējo plānošanu, izmantojiet prognozes modeli, kas ir atlasīts lapā **Līdzekļu pārvaldības parametri**.
 

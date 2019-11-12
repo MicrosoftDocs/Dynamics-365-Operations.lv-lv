@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790518"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571166"
 ---
-# <a name="maintenance-request-states"></a>Uzturēšanas pieprasījumu stāvokļi
+# <a name="maintenance-request-lifecycle-states"></a>Uzturēšanas pieprasījumu dzīves cikla stāvokļi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Uzturēšanas pieprasījumadzīves cikla stāvokļi nosaka posmus, kuriem pieprasījums var iet cauri. Piemēri ietver **Izveidots**, **Aktīvs** un **Pabeigts**. Kad uzturēšanas pieprasījums tiek pārvērsts par darba pasūtījumu, uzturēšanas pieprasījuma dzīves cikla stāvoklis ir jāatjaunina uz **Pabeigts** vai **Aizvērts**, lai norādītu, ka uzturēšanas pieprasījums vairs nav aktīvs. Saraksta lapā **Visi uzturēšanas pieprasījumi** varat skatīt visus uzturēšanas pieprasījumus neatkarīgi no to dzīves cikla stāvokļa.
@@ -51,7 +51,7 @@ Uzturēšanas pieprasījumadzīves cikla stāvokļi nosaka posmus, kuriem piepra
 
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu dzīves cikla stāvokļi** piemērs.
 
-![1. attēls](media/02-setup-for-requests.png)
+![Uzturēšanas pieprasījumu dzīves cikla stāvokļu lapa](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Uzturēšanas pieprasījuma dzīves cikla stāvokļi, dzīves cikla stāvokļa grupas un veidi ir saistīti ar darba pasūtījuma dzīves cikla stāvokļiem, dzīves cikla stāvokļa grupām un veidiem, un tiek lietoti tādā pašā veidā. 
@@ -80,4 +80,4 @@ Kad esat izveidojis dzīves cikla stāvokļus, kas nepieciešami uzturēšanas p
 
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu dzīves cikla modeļi** piemērs.
 
-![2. attēls](media/06-setup-for-requests.png)
+![Uzturēšanas dzīves cikla modeļu lapa](media/06-setup-for-requests.png)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181339"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578222"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
 
@@ -71,9 +71,6 @@ Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apg
 5. Laukā **Ievadīt ID** ievadiet **1**.
 6. Atlasiet opcijas **Izveidot bāzlīnijas failus** iestatījumu **Jā**.
 7. Atlasiet **Labi**.
-
-    ![Dialoglodziņš Elektronisko pārskatu parametri](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Dialoglodziņa Elektronisko pārskatu parametri ekrānuzņēmums")
-
 8. Atlasiet **Bāzlīnijas**.
 
     ![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
@@ -140,9 +137,6 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 
 1. Lapas **Konfigurācijas** kopsavilkuma cilnē **Aizstājēji** atlasiet **Atlasīt komponentus**.
 2. Formāta komponentu kokā izvērsiet **Izvade**, izvērsiet **Izvade\\Dokuments** un pēc tam atlasiet vienuma **Izvade\\Dokuments\\ProcessingDateTime** izvēles rūtiņu.
-
-    ![Dialoglodziņš Atlasīt komponentus](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Dialoglodziņa Atlasīt komponentus ekrānuzņēmums")
-
 3. Atlasiet **Labi**.
 
 ![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
@@ -162,19 +156,14 @@ Iestatot konkrētus ER parametrus, varat izlaist paziņojumus, kas brīdina par 
 1. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas** atlasiet vienumu **Lietotāja parametri**.
 2. Atlasiet opcijai **Izlaist bāzlīnijas brīdinājumus** iestatījumu **Jā** un pēc tam atlasiet **Labi**.
 
-![Dialoglodziņš Lietotāja parametri](media/GER-BaselineSample-ERUserParameters1.png "Dialoglodziņa Lietotāja parametri ekrānuzņēmums")
-
 ### <a name="review-the-generated-baseline-file"></a>Ģenerētā bāzlīnijas faila pārskatīšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Atlasiet **Bāzlīnijas**.
 3. Atlasiet **Pielikumi**.
-
-    ![Lapa Pielikumi](media/GER-BaselineSample-AttachedBaselineFile.PNG "Lapas Pielikumi ekrānuzņēmums")
-
     > [!NOTE]
     > Ģenerētajā failā ir ietverts apstrādes datuma un laika teksts (**"#"**) no saistījuma, kas tika konfigurēts pievienotajā bāzlīnijas kārtulā, nevis no formāta saistījuma.
-
+    
 4. Aizveriet lapu **Pielikumi**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Paredzētā ER formāta palaišana un žurnāla pārskatīšana, lai analizētu rezultātus

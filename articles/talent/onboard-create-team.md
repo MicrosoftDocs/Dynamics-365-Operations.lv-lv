@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b22bf5fb5b2a2756684304d1cb26c0f8a7419c00
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: efaa837ef39d8e0daf561fe385f22ed7b0acd305
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010825"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552041"
 ---
-# <a name="create-a-hiring-team-by-using-onboard"></a>Darbā pieņemšanas grupas izveide, izmantojot Onboard
+# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Darbā pieņemšanas grupas izveide, izmantojot Dynamics 365 Talent - Onboard
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ Programmā Microsoft Dynamics 365 Talent: Onboard varat izveidot darbā pieņem�
 2. Sadaļā **Grupas**atlasiet elementu **Pievienot** (pluszīme \[**+**\]).
 3. Dialoglodziņa **Izveidot jaunu grupu** sadaļā **Grupas nosaukums** ievadiet darbā pieņemšanas grupas nosaukumu.
 
-    ![[Jaunas grupas izveide programmā Onboard](./Media/Onboard-Create-Team.png)](./media/onboard-create-team.png)
+    ![[Jaunas grupas izveide programmā Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Sadaļā **Izvēlēties grupas dalībniekus** ievadiet katra grupas dalībnieka vārdu vai e-pasta adresi.
 
@@ -51,11 +51,11 @@ Programmā Microsoft Dynamics 365 Talent: Onboard varat izveidot darbā pieņem�
 2. Atlasiet grupu.
 3. Cilnē **Ceļveži** atlasiet **Pievienot ceļvežus**.
 
-    ![[Pievienošanas ceļvežu pievienošana grupai](./Media/Onboard-ADD-Guides-to-Team.png)](./media/onboard-add-guides-to-team.png)
+    ![[Pievienošanas ceļvežu pievienošana grupai](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. Atlasiet izvēles rūtiņu katram pievienošanas ceļvedim, kuru vēlaties piešķirt grupai, un pēc tam atlasiet **Pievienot**.
 
-    ![[Pievienošanas ceļvežu atlasīšana, lai pievienotu tos grupai](./Media/Onboard-ADD-Guides-to-Team.png)](./media/onboard-select-guides.png)
+    ![[Pievienošanas ceļvežu atlasīšana, lai pievienotu tos grupai](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Pievienošanas veidņu piešķiršana darbā pieņemšanas grupai
 

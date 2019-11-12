@@ -1,6 +1,6 @@
 ---
-title: Instalēt un konfigurēt noliktavu lietojumprogrammas pārskatu
-description: Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt Dynamics 365 Supply Chain Management— Warehousing programmu.
+title: Instalēt un konfigurēt Noliktavu lietojumprogrammas pārskatu
+description: Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt Dynamics 365 for Finance and Operations – Noliktavu programmu.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251504"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548972"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Instalēt un konfigurēt noliktavu lietojumprogrammas pārskatu
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Instalēt un konfigurēt Noliktavu lietojumprogrammas pārskatu
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251504"
 > Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet rakstu [Noliktavas lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt Dynamics 365 Supply Chain Management— Warehousing programmu.
+Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt Dynamics 365 for Finance and Operations – Noliktavu programmu.
 
 Programma Warehousing ir pieejama Google Play veikalā un Windows veikalā. Pašreizējai Dynamics 365 Supply Chain Management versijai šī programma tiek nodrošināta kā savrups komponents, tāpēc jums pašiem tā ir jāizvieto ierīcēs, kas tiek izmantotas noliktavas uzdevumu veikšanai. Lai programmu varētu lietot, šo programmu ir nepieciešams lejupielādēt katrā ierīcē un to konfigurēt savienojuma izveidei ar Supply Chain Management vidi. Šajā tēmā ir aprakstīts, kā instalēt programmu ierīcēs. Tajā ir arī paskaidrots, kā konfigurēt programmu savienojuma izveidei ar Supply Chain Management vidi.
 

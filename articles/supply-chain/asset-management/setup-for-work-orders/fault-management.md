@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874743"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570959"
 ---
 # <a name="fault-management"></a>Kļūmju pārvaldība
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulī Līdzekļu pārvaldība varat izmantot kļūmju noformētāju, lai līdzekļu tipiem iestatītu kļūmju simptomus, kļūmju apgabalus un kļūmju tipus. Šādi varat pārvaldīt līdzekļos konstatētās kļūdas. Turklāt kļūmju iemeslus un ieteikumus to labošanai var reģistrēt darba pasūtījumā.
 
@@ -99,9 +99,9 @@ Kļūmju noformētājā līdzekļu tipiem iestatiet kļūmju datus.
 
 1. Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju noformētājs**.
 2. Kreisajā rūtī atlasiet līdzekļa tipu, kuram iestatīt kļūmes ierakstu.
-3. Cilnē FastTab **Kļūmes simptoms** atlasiet**Pievienot rindu** un pēc tam laukā **Kļūmes simptoms** atlasiet kļūmes simptomu.
-4. Cilnē FastTab **Kļūmes apgabals** atlasiet**Pievienot rindu** un pēc tam laukā **Kļūmes apgabals** atlasiet kļūmes apgabalu.
-5. Cilnē FastTab **Kļūmes tips** atlasiet**Pievienot rindu** un pēc tam laukā **Kļūmes tips** atlasiet kļūmes tipu.
+3. Cilnē FastTab **Kļūmes simptoms** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes simptoms** atlasiet kļūmes simptomu.
+4. Cilnē FastTab **Kļūmes apgabals** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes apgabals** atlasiet kļūmes apgabalu.
+5. Cilnē FastTab **Kļūmes tips** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes tips** atlasiet kļūmes tipu.
 6. Lai ātri izveidotu kombināciju no visiem esošajiem kļūmju simptomiem, apgabaliem un tipiem atlasītajam līdzekļa tipam, atlasiet **Izveidot kļūmju kombinācijas**. Šī funkcija ir noderīga, ja esat pievienojis daudz kļūmju simptomu, apgabalu un tipu. Ir vieglāk dzēst rindas jebkādām kombinācijām, kas neatbilst līdzekļa tipam, nekā manuāli izveidot jaunas rindas.
 
     > [!NOTE]
@@ -109,7 +109,7 @@ Kļūmju noformētājā līdzekļu tipiem iestatiet kļūmju datus.
 
 7. Atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
-![1. attēls](media/21-setup-for-work-orders.png)
+![Kļūmes veidotāja lapa](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Kļūmju iemeslu izveide
 

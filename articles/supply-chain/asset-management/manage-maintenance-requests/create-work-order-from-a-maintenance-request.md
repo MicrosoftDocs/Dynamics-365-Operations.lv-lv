@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847463"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571695"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Darba pasūtījumu izveide no uzturēšanas pieprasījumiem
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pasūtījumiem. Šajā tēmā aprakstīts ātrākais veids, kā strādāt ar uzturēšanas pieprasījumiem, vienlaicīgi atjaunināt vairākus uzturēšanas pieprasījumus un pēc tam vienlaicīgi izveidot darba pasūtījumu vairākiem uzturēšanas pieprasījumiem. Lapā **Aktīvie uzturēšanas pieprasījumi** vai **Mania funkcionālā novietojuma uzturēšanas pieprasījumi** varat vienlaikus strādāt ar vienu uzturēšanas pieprasījumu un pārveidot vienu uzturēšanas pieprasījumu par darba pasūtījumu.
@@ -53,5 +53,5 @@ Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pa
 
 6. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi** un atveriet jauno darba pasūtījumu.
 
-    ![1. attēls](media/05-manage-maintenance-requests.png)
+    ![Atvērt jaunu darba pasūtījumu](media/05-manage-maintenance-requests.png)
 

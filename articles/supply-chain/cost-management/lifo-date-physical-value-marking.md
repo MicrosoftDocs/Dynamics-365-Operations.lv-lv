@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: abf74841e994efc3a71ff8dde048ab9c3be934bc
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554740"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571212"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO uz datums ar fizisko vērtību un iezīmēšanu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Pēdējie iekšā, pirmie ārā uz datumu (LIFO uz datumu) ir krājumu modelis, kura pamatā ir LIFO princips. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu. Izmantojot vienumu LIFO datums, ja pirms izdošanas nav nevienas saņemšanas, izdošana nosedz jebkuru saņemšu, kas rodas pēc izdošanas datuma. Vairākas izdošanas vienā un tajā pašā datumā ir jānosedz secībā – pēdējā izdošana, pēdējā saņemšana. 
 
@@ -41,7 +39,7 @@ Ja lietojat Pretsecības datuma krājumu modeli, ieteicam periodiski veikt krāj
 Tālāk sniegtajos piemēros ir parādīta ietekme, ko rada LIFO uz datumu izmantošana trīs konfigurācijās.
 
 -   LIFO uz datumu, neizmantojot opciju **Iekļaut fizisko vērtību**
--   LIFO uz datumu, izmantojot opciju**Iekļaut fizisko vērtību**
+-   LIFO uz datumu, izmantojot **Iekļaut fizisko vērtību** opciju
 -   LIFO datums ar atzīmi
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>LIFO datums bez opcijas Fizisko vērtību iekļaušana

@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874720"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569804"
 ---
 # <a name="work-order-lifecycle-states"></a>Darba pasūtījumu dzīves ciklu stāvokļi
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Darba pasūtījuma dzīves cikla stāvokļi definē stāvokļus, kurus darba pasūtījums var iziet. Piemēri ietver tādus stāvokļus kā **Izveidots**, **Ieplānots**, **Notiek izpilde** un **Pabeigts**. Darba pasūtījuma dzīves cikla stāvokļus var manuāli atjaunināt darba pasūtījumā, kā arī tie var tikt atjaunināti automātiski (piemēram, darba pasūtījuma plānošanas laikā).
 
@@ -38,7 +38,7 @@ Darba pasūtījuma dzīves cikla stāvokļi, kas nepieciešami jūsu darba pasū
 
 Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba pasūtījums** un **Grafiks**, kopsavilkuma cilnē **Vispārīgi**, lapā **Darba pasūtījuma dzīves cikla stāvoklis** (**Līdzekļa pārvaldība** \> **Iestatīšana** \> **Darba pasūtījumi** \> **Dzīves cikla stāvokļi**).
 
-![1. attēls](media/09-setup-for-work-orders.png)
+![Darba pasūtījumu dzīves ciklu stāvokļu lapa](media/09-setup-for-work-orders.png)
 
 | Opcijas nosaukums                   | Apraksts |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
     - Ja opcija **Dīkstāve uzturēšanas dēļ** ir iestatīta uz **Jā**, kas attiecas uz dzīves cikla stāvokli, ar kuru tiek atjaunināts darba pasūtījums, uzturēšanas dīkstāves pārbaude tiek veikta ar darba pasūtījumu saistītajā līdzeklī. Ja uzturēšanas dīkstāves reģistrācija ir veikta, bet nav reģistrācija **Pabeigta**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli, tiek parādīts ziņojums.
     - Ja standarta projekta iestatīšana neietver visus posmus, kas nepieciešami līdzekļi pārvaldības iestatīšanai, varat iestatīt lietotāja definētus projekta posmus cilnē **Projekta posms** lapā **Projektu vadības un uzskaites parametri**. Tālāk esošajā attēlā redzama cilne **Projekta posms** lapā **Projektu vadības un uzskaites parametri**.
 
-    ![2. attēls](media/10-setup-for-work-orders.png)
+    ![Dažādu projekta tipu projekta posmus iestatīšanas lapa](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Ja dzīves cikla stāvoklis, uz kuru atjaunināt darba pasūtījumu, ir neaktīvs, žurnāli, kas ir saistīti ar darba pasūtījumu, bet vēl nav grāmatoti, tiek automātiski dzēsti. Tas palīdz nodrošināt neizmantoto datu automātisku tīrīšanu. (Dzīves cikla stāvoklis ir neaktīvs, ja opcija **Aktīvs** tam ir iestatīta uz **Nē** kopsavilkuma cilnē **Vispārīgi**, kas atrodas lapā **Darba pasūtījuma dzīves cikla stāvoklis**.)
@@ -114,7 +114,7 @@ Veidu lietošanas pamatojums ir tāds, ka, ja veids ir definēts, piemēram, dar
 
 Tālāk esošajā attēlā redzama relācija starp darba pasūtījuma veidiem, dzīves cikla modeļiem un dzīves cikla stāvokļiem.
 
-![3. attēls](media/11-setup-for-work-orders.png)
+![Darba pasūtījuma tipa lapa salīdzinājumā ar Darba pasūtījuma dzīves cikla modeļu lapu](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Darba pasūtījuma dzīves cikla modeļi
 
@@ -138,4 +138,4 @@ Kad esat izveidojis darba pasūtījuma dzīves cikla stāvokļus, kas nepiecieš
 8. Laukā **Neieplānotais dzīves cikla stāvoklis** atlasiet dzīves cikla stāvokli, kas vienmēr jāatlasa darba pasūtījumam, ja tiek dzēsta darba pasūtījuma plānošana.
 9. Saglabājiet darba pasūtījuma dzīves cikla modeli.
 
-![4. attēls](media/15-setup-for-work-orders.png)
+![Darba pasūtījuma dzīves cikla modeļu lapa](media/15-setup-for-work-orders.png)

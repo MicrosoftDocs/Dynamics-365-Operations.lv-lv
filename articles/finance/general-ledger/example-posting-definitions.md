@@ -1,5 +1,5 @@
 ---
-title: Grāmatošanas definīcijas
+title: Grāmatošanas definīciju piemēri
 description: Šajā rakstā ir sniegti piemēri, kuros ir redzams, ka grāmatošanas definīcijas tiek lietotas pirkšanas pasūtījumu apgrūtinājumiem un budžeta asignējumiem.
 author: ShylaThompson
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09b78a40d3bac5794a66d0ea743f11a27cfacf4e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186628"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552306"
 ---
 # <a name="posting-definition-examples"></a>Grāmatošanas definīciju piemēri
 
@@ -51,9 +51,9 @@ Visām pirkšanas pasūtījumu apgrūtinājumu dokumentu transakcijām ir jābū
 
 ### <a name="posting-definition--match-criteria"></a>Grāmatošanas definīcija — atbilstības kritēriji
 
-| Konta struktūra       | Saskaņot konta numuru | Prioritāte  |
+| Konta struktūra       | Saskaņot konta numuru | Prioritāte |
 |-------------------------|----------------------|----------|
-| Konta struktūra — P/Z | \*                   | 1        |
+| Konta struktūra — P&Z | \*                   | 1        |
 
 <em>Tukša lauka **Saskaņot konta numuru</em>* vērtība nozīmē, ka visi atbilstošie konti definētajā kontu struktūrā ir ietverti atbilstības noteikšanas kārtulā.
 
@@ -81,7 +81,7 @@ Tiek izveidoti ģenerētie virsgrāmatas ieraksti, lai reģistrētu apgrūtināj
 | 300143-OU\_1-OU\_3566-Apmācība | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Apmācība |        | 250,00 |         |
 
-Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P/Z, atbilst grāmatošanas definīcijas kritērijiem. Tāpēc, novērtējot 606500-OU\_1-OU\_3566-Apmācība, ģenerētie ieraksti tiek izveidoti kontiem, kas grāmatošanas definīcijai ir definēti rūtī **Ģenerētie ieraksti**.
+Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P&Z, atbilst grāmatošanas definīcijas kritērijiem. Tāpēc, novērtējot 606500-OU\_1-OU\_3566-Apmācība, ģenerētie ieraksti tiek izveidoti kontiem, kas grāmatošanas definīcijai ir definēti rūtī **Ģenerētie ieraksti**.
 
 ## <a name="example-budget-appropriations"></a>Piemērs: budžeta asignēšana
 Ja iespējot budžeta asignēšanu, atlasot opciju **Iespējot budžeta asignēšanu** lapā **Virsgrāmatas parametri**, grāmatošanas definīcijas ir jāizmanto, lai reģistrētu budžeta reģistra ierakstus virsgrāmatā. Kad ir aktivizēta un ieslēgta budžeta kontroles konfigurācija, grāmatošanas definīcijas un transakciju grāmatošanas definīcijas var izmantot, lai atbalstītu asignējumu, pārskatījumu, pārsūtījumu, projektu, pamatlīdzekļu un piedāvājuma un pieprasījuma prognožu ierakstu reģistrēšanai virsgrāmatā. 
@@ -92,9 +92,9 @@ Kad ir iespējoti budžeta asignējumi un grāmatošanas definīcijas, budžeta 
 
 ### <a name="posting-definition--match-criteria"></a>Grāmatošanas definīcija — atbilstības kritēriji
 
-| Konta struktūra       | Saskaņot konta numuru | Prioritāte  |
+| Konta struktūra       | Saskaņot konta numuru | Prioritāte |
 |-------------------------|----------------------|----------|
-| Konta struktūra — P/Z | \*                   | 1        |
+| Konta struktūra — P&Z | \*                   | 1        |
 
 <em>Tukša lauka **Saskaņot konta numuru</em>* vērtība nozīmē, ka visi atbilstošie konti definētajā kontu struktūrā ir ietverti atbilstības noteikšanas kārtulā.
 
@@ -122,7 +122,7 @@ Tiek izveidoti ģenerētie virsgrāmatas ieraksti, lai reģistrētu sākotnējo 
 | 300145-OU\_1-OU\_3566-Apmācība |        | 250,00 |         |
 | 300146-OU\_1-OU\_3566-Apmācība | 250,00 |        |         |
 
-Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P/Z, atbilst grāmatošanas definīcijas kritērijiem. Tāpēc, novērtējot 606400-OU\_1-OU\_3566-Apmācība, tiek izveidoti ģenerētie virsgrāmatas ieraksti.
+Šajā piemērā jebkurš konts, kas ietilpst konta struktūrā — P&Z, atbilst grāmatošanas definīcijas kritērijiem. Tāpēc, novērtējot 606400-OU\_1-OU\_3566-Apmācība, tiek izveidoti ģenerētie virsgrāmatas ieraksti.
 
 
 

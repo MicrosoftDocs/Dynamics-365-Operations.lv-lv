@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188261"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578199"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
 
@@ -36,7 +36,7 @@ Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no 
 ## <a name="set-time-zone-preference"></a>Iestatīt laika joslas preferenci
 Konfigurējot bankas izrakstu importēšanas iestatījumus, var būt svarīgi ņemt vērā datuma un laika datu laika joslu importējamos bankas izraksta failos. Pēc noklusējuma tiek pieņemts, ka datuma un laika vērtības jau ir universālajā coordinētajā laikā (UTC) un tāpēc, importējot datus, netiks lietota laika zonas konvertēšana. 
 
-Ir pieejama opcija norādīt laika joslu, ko izmantot datu importēšanai. Šī opcija ir pieejama laikā **Laika joslas preference** katrā **Avota datu formāta detalizēta informācija** lapā (**Datu pārvaldības darbvieta > Konfigurēt datu avotus > Atlasīt datu formātu > Reģionālie iestatījumi** Kopsavilkuma cilnē). Šī jūsu ievadītā laika joslas preference tiks piemērota visiem importējumiem, kas izmanto šo avota datu formātu. Lai importētu datus no vairākām laika zonām, var izveidot tik daudz datu avota formātu, cik nepieciešams. Laika joslas preferencei vajadzētu būt datuma un laika datu vietējai laika joslai importēšanas failā. Laika joslas preferencei vajadzētu būt datuma un laika datu vietējai laika joslai importēšanas failā. 
+Ir pieejama opcija norādīt laika joslu, ko izmantot datu importēšanai. Šī opcija ir pieejama laikā **Laika joslas preference** katrā **Avota datu formāta detalizēta informācija** lapā (**Datu pārvaldības darbvieta > Konfigurēt datu avotus > Atlasīt datu formātu > Reģionālie iestatījumi** Kopsavilkuma cilnē). Šī jūsu ievadītā laika joslas preference tiks piemērota visiem importējumiem, kas izmanto šo avota datu formātu. Lai importētu datus no vairākām laika zonām, var izveidot tik daudz datu avota formātu, cik nepieciešams.  
 
 Šī laika josla var nebūt tāda pati kā lietotāja vai uzņēmuma laika josla, tāpēc noteikti precizējiet, kādu laika joslu izmanto datuma un laika dati. Iestatot laika joslas preferenci, ieteicams apsvērt šādus punktus. 
 

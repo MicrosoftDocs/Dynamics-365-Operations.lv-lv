@@ -3,7 +3,7 @@ title: Atbalsta saņemšana saistībā ar Finance and Operations programmām vai
 description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Finance and Operations programmām vai Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af4cbbd0f594b07e791d6ab7a5ac4dc58b97e1de
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: c36adc1f754c918a9fdf8410572f3199cdb63766
+ms.sourcegitcommit: e16b8c248fc2c2a60dc7b803320f942a35b443c5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537054"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577500"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
 
@@ -69,7 +69,7 @@ Piezīme. Microsoft Premier klienti un partneri var arī iesniegt Premier atbals
 </tr>
 <tr class="even">
 <td>Atveriet atbalsta komandai iesniegto atbalsta biļeti.</td>
-<td>Ja rodas problēmas, kad mēģināt iesniegt biļeti korporācijai Microsoft, izmantojot LCS elementu <strong>Atbalsts</strong>, skatiet rakstu<a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Saziņa ar Microsoft Business Solutions atbalsta dienestu</span></a>, lai saņemtu informāciju par saziņu ar Microsoft Dynamics reģionālo operāciju centru. Atbalsta komanda var palīdzēt atrisināt šādas tehniskas problēmas:
+<td>Ja rodas problēmas, kad mēģināt iesniegt biļeti korporācijai Microsoft, izmantojot LCS elementu <strong>Atbalsts</strong>, skatiet rakstu <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Saziņa ar Microsoft Business Solutions atbalsta dienestu</span></a>, lai saņemtu informāciju par saziņu ar Microsoft Dynamics reģionālo operāciju centru. Atbalsta komanda var palīdzēt atrisināt šādas tehniskas problēmas:
 <ul>
 <li>Kļūdas, kas rodas, kad izmantojat LCS, vai problēmas, kas rodas, ja mēģināt piekļūt LCS.</li>
 <li>Kļūdas, kas rodas, kad izmantojat Finance and Operations programmas.</li>
@@ -91,5 +91,5 @@ Ja jums rodas tehniski jautājumi saistībā ar pieteikšanos CustomerSource un 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Atbalsta saņemšana saistībā ar Dynamics 365 Retail](../../../retail/retail-support.md)
 - [Atbalsta saņemšana saistībā ar Dynamics 365 Talent](../../../talent/talent-support.md)
-- Papildinformāciju par Microsoft Dynamics atbalsta piedāvājumiem skatiet rakstā [Microsoft Dynamics tiešsaistes atbalsts](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
+- Lai iegūtu papildinformāciju par Microsoft Dynamics atbalsta piedāvājumiem, skatiet [Pārvaldīt atbalsta pieredzi Finance and Operations programmām](cloud-powered-support-lcs.md).
 

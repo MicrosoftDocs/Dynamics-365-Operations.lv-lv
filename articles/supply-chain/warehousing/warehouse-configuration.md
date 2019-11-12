@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026720"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653422"
 ---
 # <a name="warehouse-configuration-overview"></a>Noliktavas konfigurācijas pārskats
 
@@ -34,7 +34,7 @@ ms.locfileid: "2026720"
 **Piezīme.** Šis raksts attiecas uz moduļa **Noliktavas pārvaldība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
-Noliktavu vadības sistēma programmatūrā Finance and Operations sniedz jums elastīgus veidus, kā definēt savas noliktavas izkārtojumu, lai tas atbilstu mainīgajām vajadzībām, tāpēc varat sasniegt optimālu noliktavas efektivitāti.
+Noliktavu vadības sistēma programmatūrā Supply Chain Management sniedz jums elastīgus veidus, kā definēt savas noliktavas izkārtojumu, lai tas atbilstu mainīgajām vajadzībām, tāpēc varat sasniegt optimālu noliktavas efektivitāti.
 
 -   Optimālai preču izvietošanai varat izveidot augstas prioritātes un zemas prioritātes glabāšanas zonas.
 -   Noliktavas varat sadalīt zonās, lai pielāgotos dažādām glabāšanas vajadzībām, piemēram, temperatūras prasībām vai dažādiem krājumu apgrozījuma ātrumiem.
@@ -42,7 +42,7 @@ Noliktavu vadības sistēma programmatūrā Finance and Operations sniedz jums e
 -   Novietojumus varat grupēt, izmantojot fiziskās ietilpības ierobežojumu iestatījumus.
 -   Varat kontrolēt veidu, kā krājumi tiek glabāti un izdoti, pamatojoties uz vaicājuma definētām kārtulām.
 
-Lai programmatūrā Finance and Operations izmantotu noliktavas pārvaldību, jums ir jāizveido noliktava un tā jāiespējo papildu vai specializētākām noliktavas pārvaldības darbībām. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas pārvaldības procesus**.
+Lai programmatūrā Supply Chain Management izmantotu noliktavas pārvaldību, jums ir jāizveido noliktava, un tā jāiespējo papildu vai specializētākām noliktavas pārvaldības darbībām. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas pārvaldības procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonu grupas, zonas, novietojumu tipi un novietojumi
 
@@ -54,7 +54,7 @@ Kā daļa no noliktavas izkārtojuma iespējošanas procesa jums ir jādefinē n
 -   **Novietojumu tipi** — loģiska vai fiziska noliktavas novietojumu grupēšana. Piemēram, varat izveidot atrašanās vietas veidu visiem novietojuma veidiem. Obligātie iestatījumi lapā **Noliktavas pārvaldības parametri** vada sagatavošanas posmu novietojuma tipu un galīgās nosūtīšanas novietojuma tipu definēšanas procesu.
 -   **Novietojumi** — novietojuma informācijas zemākais līmenis. Novietojumi tiek izmantoti, lai izsekotu, kur rīcībā esošie krājumi tiek glabāti un izdoti noliktavā.
 
-Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, var būt apgabali, kur varat izmantot tikai noteikta veida autoiekrāvēju. Vai arī, ja jūsu uzņēmumam vienās telpās ir gan ražošanas, gan pabeigtās preces, iespējams, programmatūrā Finance and Operations vēlaties izveidot vienu noliktavu, bet pēc tam abas operācijas sadalīt, izveidojot divas zonu grupas. Piešķiriet saviem elementiem aprakstošus nosaukumus, lai tos būtu vienkārši identificēt, kad tos izmantojat veidņu vaicājumos.
+Elementi, ko izveidojat, lai definētu savas noliktavas izkārtojumu, tiek izmantoti vaicājumos, kurus iestatāt darbu veidnēs, lai noliktavā vadītu darba pasūtījumus. Tādēļ, kad definējat zonas, novietojumu tipus un citus elementus, ņemiet vērā veidu, kā dažādi apgabali noliktavā tiek izmantoti dažādiem procesiem. Turklāt ņemiet vērā arī tādus faktorus kā konkrēta apgabala fiziskie raksturlielumi. Piemēram, var būt apgabali, kur varat izmantot tikai noteikta veida autoiekrāvēju. Vai arī, ja jūsu uzņēmumam vienās telpās ir gan ražošanas, gan pabeigtās preces, iespējams, programmatūrā Supply Chain Management vēlaties izveidot vienu noliktavu, bet pēc tam abas operācijas sadalīt, izveidojot divas zonu grupas. Piešķiriet saviem elementiem aprakstošus nosaukumus, lai tos būtu vienkārši identificēt, kad tos izmantojat veidņu vaicājumos.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Novietojumu dimensiju ierobežojumi, novietojumu profili un fiksēti izdošanas novietojumi
 

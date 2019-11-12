@@ -3,7 +3,7 @@ title: Līdzekļu skaitītāju manuāla atjaunināšana
 description: Šajā tēmā aprakstīta manuāla līdzekļu skaitītāju atjaunināšana programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,51 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7c5ec288404c18b00f9dcd0e66f50744d0aa2f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875779"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626140"
 ---
-# <a name="manual-update-of-asset-counters"></a>Līdzekļu skaitītāju manuāla atjaunināšana
+# <a name="manual-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju manuāla atjaunināšana
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Skaitītāji tiek izmantoti, lai izveidotu līdzekļa reģistrācijas, piemēram, attiecībā uz darbības stundām vai saražoto vienību daudzumu.
+Skaitītāji tiek izmantoti, lai veidotu reģistrācijas uz līdzekļa, piemēram, reģistrācijas par līdzekļa darbības stundu skaitu, vai par saražoto daudzumu.
 
-Ja skaitītāja tips, kas atlasīts skaitītājam, ir iestatīts uz mantotām skaitītāja vērtībām (**Līdzekļu pārvaldība** > **Uzstādīšana** > **Līdzekļu tipi** > **Skaitītāji** > **Vispārīgi** kopsavilkuma cilne > pārslēgšanas poga **Mantot līdzekļa skaitītāja vērtības** iestatīta uz "Jā"), tad, izveidojot jaunu skaitītāja rindu šim tipam, jebkurš apakšlīdzeklis, kurš izmanto to pašu skaitītāja tipu, tiek automātiski atjaunināts.
+Atlasītais skaitītāja veids var būt iestatīts tā, lai tas pārmantotu skaitītāja vērtības. Citiem vārdiem, opcija **Pārmantot līdzekļa skaitītāja vērtības** ir iestatīta uz **Jā**, kas atrodas kopsavilkuma cilnē **Vispārīgi** lapā **Skaitītāji** (**Līdzekļa pārvaldība** > **Iestatīšana** > **Līdzekļu veidi** > **Skaitītāji**). Šādā gadījumā, veidojot jaunu šī vaida skaitītāja rindu, katrs pakārtotais līdzeklis, kas izmanto tādu pašu skaitītāja veidu, tiek automātiski atjaunināts.
 
-Laukā **Visi līdzekļi** jūs izveidojat stundu vai daudzuma skaitītāja reģistrācijas līdzeklim, pamatojoties uz jūsu līdzekļa lasījumiem.
+Lapā **Visi līdzekļi** jūs izveidojat stundu vai daudzuma skaitītāja reģistrācijas līdzeklim, pamatojoties uz jūsu līdzekļa lasījumiem.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Līdzekļi** > **Visi līdzekļi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Visi līdzekļi**
 
-2. Sarakstā atlasiet līdzekli un noklikšķiniet uz **Skaitītāji**. Veidlapā **Līdzekļu skaitītāji** ir redzams saraksts ar visām iepriekšējām skaitītāju reģistrācijām atlasītajā līdzeklī.
+2. Atlasiet līdzekli un pēc tam darbības rūtī, cilnē **Līdzeklis** grupā **Profilaktiska** atlasiet **Skaitītāji**. Lapā **Līdzekļu skaitītāji** ir redzams saraksts ar visām iepriekšējām skaitītāju reģistrācijām, kas tika veiktas atlasītajā līdzeklī.
 
-3. Lai izveidotu jaunu reģistrāciju, noklikšķiniet uz **Jauns**. Līdzekļa ID tiek ievietots automātiski.
+3. Atlasiet **Jauns**, lai izveidotu reģistrāciju. Līdzekļa ID tiek automātiski ievadīts laukā **Līdzeklis**.
 
-4. Laukā **Skaitītājs** atlasiet atbilstošo skaitītāju. Ir pieejami vienīgi tie skaitītāji, kas ir saistīti ar līdzekļa tipu, kas atlasīts līdzeklim. Saistītai vienums tiek automātiski ievadīts laukā **Vienums**.
+4. Laukā **Skaitītājs** atlasiet atbilstošo skaitītāju. Atlasei ir pieejami vienīgi tie skaitītāji, kas ir saistīti ar līdzekļa tipu, kas atlasīts līdzeklim. Saistītais vienums tiek automātiski ievadīts laukā **Vienums**.
 
-5. Atlasiet skaitītāja reģistrācijas datumu un laiku.
+5. Laukā **Reģistrētajā** atlasiet skaitītāja reģistrācijas datumu un laiku.
 
-6. Laukā **Vērtība** ievadiet skaitu kopš pēdējās skaitītāja reģistrācijas vai laukā **Apkopotā vērtība** ievadiet kopējo skaitu.
+6. Laukā **Vērtība** ievadiet numuru kopš pēdējās skaitītāja reģistrācijas. Vai arī laukā **Uzkrātā vērtība** ievadiet kopējo skaitu.
 
-- Ja jūs līdzeklim fiziski instalējat jaunu skaitītāju, jums ir jāreģistrē līdzekļa izmaiņas laukā **Līdzekļa skaitītāji**. Pēc tam jums ir jāizveido divas reģistrācijas rindas ar identiskiem laikspiedoliem un rindā, kas attiecas uz jauno skaitītāju, jūs atlasāt izvēles rūtiņu **Skaitītāja atiestatīšana**. Izveidojot divas reģistrācijas rindas, pirmajai rindai ir jāattiecas uz skaitītāju, kuru aizvietojat. Laukā **Kopsumma** kopējais skaits ir skaitītāja kopsumma no visām šajā skaitītāja tipā reģistrētajām vērtībām.  
-- Ja līdzeklī tiek atlasīta izvēles rūtiņa **Skaitītāja atiestatīšana**, izmantojot uzturēšanas plānu ar intervāla tipu "Vienreiz no..." vai "Kad sasniegts...", skaitītājs joprojām ir aktīvs jaunajai skaitītāja rindai, jo jūs izveidojat atsevišķu skaitītāja rindu un sākat no jauna ar jaunu skaitītāju.
+Ņemiet vērā šādus punktus:
+
+- Ja jūs līdzeklim fiziski instalējat jaunu skaitītāju, jums ir jāreģistrē līdzekļa izmaiņas lapā **Līdzekļa skaitītāji**. Pēc tam jāizveido divas reģistrācijas rindas ar identiskiem laikspiedoliem. Pirmajai rindai jābūt aizvietotajam skaitītājam. Rindā, kas saistīta ar jauno skaitītāju, atzīmējiet izvēles rūtiņu **Skaitītāja atiestatīšana**. Laukā **Kopsumma** kopējais skaits ir skaitītāja kopsummas no visām šajā skaitītāja tipā reģistrētajām vērtībām.
+
+- Ja līdzeklī tiek atlasīta izvēles rūtiņa **Skaitītāja atiestatīšana**, izmantojot uzturēšanas plānu ar intervāla veidu "Vienreiz no..." vai "Kad sasniegts...", skaitītājs joprojām ir aktīvs jaunajai skaitītāja rindai, jo jūs izveidojat atsevišķu skaitītāja rindu un sākat no jauna ar jaunu skaitītāju.
+
+Attēlā zemāk ir parādīta lapa **Līdzekļu skaitītāji**.
 
 ![1. attēls](media/11-work-orders.png)
 
-
-Ja jums ir jāveic skaitītāja reģistrācijas vairākiem līdzekļiem, to var izdarīt **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļi** > **Līdzekļu skaitītāji**.
+Lapā **Līdzekļu skaitītāji** (**Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļi** > **Līdzekļu skaitītāji**) var veikt skaitītāja reģistrācijas vairākiem līdzekļiem vienlaicīgi, ja nepieciešams.
 
 >[!NOTE]
->Jūs varat uzstādīt diapazonu, lai definētu nobīdes manuālajās skaitītāja reģistrācijās un ziņojuma veidu, kurš būtu jāuzrāda, ja reģistrācijas ir ārpus definētā diapazona. Skatiet tēmu [Skaitītāji](../setup-for-objects/counters.md) attiecībā uz skaitītāju uzstādīšanu.
+>Varat iestatīt diapazonu, lai definētu novirzes manuālā skaitītāja reģistrācijās. Varat arī norādīt ziņojuma veidu, kas tiek parādīts, ja reģistrācijas ir ārpus definētā diapazona. Papildinformāciju par to, kā iestatīt saistītos skaitītājus, skatiet [Skaitītāji](../setup-for-objects/counters.md).
+

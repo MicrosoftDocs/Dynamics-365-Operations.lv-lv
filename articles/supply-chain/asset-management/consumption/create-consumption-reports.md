@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d978f8b991211e477dd8f766fe67432d9d493d0
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: eecfb101af9a91f515aab221181c54d53e358a68
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913098"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652429"
 ---
 # <a name="create-consumption-reports"></a>Patēriņa atskaišu veidošana
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Kad ir izveidota un publicēta patēriņa reģistrācija darba pasūtījumiem programmā Asset Management, ir pieejamas divas atskaites, kas parāda patēriņa informāciju.
 
@@ -40,9 +40,14 @@ Kad ir publicēts darba pasūtījumu patēriņš, varat izdrukāt līdzekļa pat
 
 1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Atskaites** > **Līdzekļi** > **Līdzekļu patēriņš**.
 
-2. Dialogā **Līdzekļu patēriņš** atlasiet parametrus un detaļu līmeni, ko gribat redzēt, atlasot „Jā” attiecīgajās pārslēgšanas pogās un ievietojot funkcionālo novietojumu sadaļā **Rādīt**.
-    - Jūs varat izmantot lauku **Līmeņi**, lai noteiktu, cik detalizētas vēlaties līdzekļa rindas attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu „1” un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam tiks uzrādīti augstākajā līmenī, tāpēc stāvoklis rindā var tikt pievienots no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmeņi** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs līdzekļus visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti. 
-    - Lai redzētu summas katram apakšlīdzeklim atskaitē, atlasiet „Jā” pārslēgšanas pogā **Visu apakšlīdzekļu summa**.
+2. Dialogā **Līdzekļu patēriņš** atlasiet parametrus un detaļu līmeni, ko gribat redzēt, atlasot **Jā** attiecīgajās pārslēgšanas pogās un ievietojot funkcionālo novietojumu sadaļā **Rādīt**.
+    - Jūs varat izmantot lauku **Līmeņi**, lai noteiktu, cik detalizētas vēlaties līdzekļa rindas attiecībā uz funkcionālo novietojumu. 
+    
+        Piemēram, ja laukā ievadāt ciparu „1” un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam tiks uzrādīti augstākajā līmenī, tāpēc stāvoklis rindā var tikt pievienots no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. 
+        
+        Ja laukā **Līmeņi** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs līdzekļus visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti. 
+        
+    - Lai redzētu summas katram apakšlīdzeklim atskaitē, atlasiet **Jā** pārslēgšanas pogā **Visu apakšlīdzekļu summa**.
 
 3. Atlasiet datuma intervālu sadaļā **Datumi**.
 
@@ -59,7 +64,7 @@ Kad ir publicēts darba pasūtījumu patēriņš, varat izdrukāt darba pasūtī
 
 1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Atskaites** > **Darba pasūtījumi** > **Darba pasūtījumu patēriņš**.
 
-2. Dialogā **Darba pasūtījuma patēriņš** atlasiet parametrus, ko vēlaties iekļaut atskaitē, atlasot „Jā” attiecīgajās pārslēgšanas pogās un ievietojot funkcionālo novietojumu sadaļā **Rādīt**.
+2. Dialogā **Darba pasūtījuma patēriņš** atlasiet parametrus, ko vēlaties iekļaut atskaitē, atlasot **Jā** attiecīgajās pārslēgšanas pogās un ievietojot funkcionālo novietojumu sadaļā **Rādīt**.
 
 3. Atlasiet datuma intervālu sadaļā **Datumi**.
 

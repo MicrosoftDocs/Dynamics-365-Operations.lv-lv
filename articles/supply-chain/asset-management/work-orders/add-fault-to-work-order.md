@@ -3,7 +3,7 @@ title: Kļūmes pievienošana darba pasūtījumam
 description: Šajā tēmā ir paskaidrots, kā pievienot kļūmes reģistrācijas darba pasūtījumiem programmā Asset Management.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,42 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c86973ca44d9113d14e180e27cc51343da5d2c0
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875782"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626205"
 ---
-# <a name="add-fault-to-work-order"></a>Kļūmes pievienošana darba pasūtījumam
+# <a name="add-fault-to-work-order"></a>Pievienot kļūmi darba pasūtījumam
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Kļūmju noformētājā iestatītās kļūmes varat pievienot darba pasūtījumam. Darba pasūtījumā atlasītajam līdzeklim jāsatur līdzekļu veidi, kam piesaistīts viens vai vairāki kļūdas ieraksti. Vairāk par iestatīšanu lasiet sadaļā [Kļūmju pārvaldība](../setup-for-work-orders/fault-management.md).
+Kļūmes, kas iestatītas kļūmju noformētājā, varat pievienot darba pasūtījumam. Vienam vai vairākiem kļūdas ierakstiem jābūt piesaistītiem tiem līdzekļu veidiem, kas tiek izmantoti darba pasūtījumā atlasītajam līdzeklim. Plašāku informāciju par iestatīšanu skatiet zem saites [KĻūmju pārvaldība](../setup-for-work-orders/fault-management.md).
 
-1. Klikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 
-2. Sarakstā atlasiet darba pasūtījumu, kuram vēlaties veikt kļūmes reģistrāciju, un noklikšķiniet uz **Līdzekļa kļūme**.
+2. Atlasiet darba pasūtījumu, kuram izveidot kļūmju reģistrāciju, un pēc tam darbības rūts cilnē **Darba pasūtījums**, kas atrodas grupā **Līdzekļi**, atlasiet **Līdzekļa kļūme**.
 
-3. Kopsavilkuma cilnē **Simptomi** noklikšķiniet uz **Pievienot rindu**. Laukā **Kļūme** automātiski tiek ievadīts kļūmes kārtas numurs.
+3. Kopsavilkuma cilnē **Simptomi** atlasiet **Pievienot rindu**. Laukā **Kļūme** automātiski tiek ievadīts kļūmes kārtas numurs.
 
 4. Laukā **Kļūmes simptoms** atlasiet attiecīgo kļūmes simptomu.
 
-5. Atlasiet **Kļūmes joma** un **Kļūmes veids**.
+5. Laukā **Kļūmes apgabals** un **Kļūmes veids** atlasiet atbilstīgās vērtības.
 
-6. Laukā **Kļūmes datums** automātiski tiek ievadīts esošais datums. Var atlasīt arī citu datumu, ja vajadzīgs.
+6. Laukā **Kļūmes datums** automātiski tiek ievadīts esošais datums. Pēc vajadzības varat atlasīt citu datumu.
 
-7. Kopsavilkuma cilnē **Atlasītā simptoma iemesli** pievienojiet rindu, kura aprakstīts problēmas iemesls.
+7. Kopsavilkuma cilnē **Atlasītā simptoma iemesli** pievienojiet rindu, kas apraksta problēmas iemeslu.
 
-8. Kopsavilkuma cilnē **Atlasītā simptoma labojumi** pievienojiet rindu, kurā aprakstīts iespējamais problēmas risinājums.
+8. Kopsavilkuma cilnē **Atlasītā simptoma labojumi** pievienojiet rindu, kas apraksta iespējamo problēmas risinājumu.
 
-9. Noklikšķiniet uz **Saglabāt**.
+9. Atlasiet **Saglabāt**.
+
+Attēlā tālāk parādīts kļūmes reģistrācijas piemērs.
 
 ![1. attēls](media/19-work-orders.png)
 
@@ -59,23 +60,23 @@ Kļūmju noformētājā iestatītās kļūmes varat pievienot darba pasūtījuma
 
 Sarakstā **Līdzekļu kļūmes** ir pārskats par visām līdzekļiem reģistrētajām kļūmēm.
 
-Noklikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļu kļūme** > **Līdzekļu kļūmes**, lai atvērtu sarakstu.
+Saraksta **Līdzekļu kļūmes** lapā ir pārskats par visām kļūmēm, kas reģistrētas līdzekļiem. Lai atvērtu lapu, atlasiet **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļu kļūme** > **Līdzekļu kļūmes**.
 
 
 ## <a name="print-asset-fault-report"></a>Līdzekļu kļūmju pārskata izdrukāšana
 
 Saraksta **Visi līdzekļi** lapā varat izdrukāt līdzekļu kļūmju pārskatu, kas parāda visas kļūmju reģistrācijas un kļūmju statistikas grafisko pārskatu.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Līdzekļi** > **Visi līdzekļi**.
+1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Visi līdzekļi**
 
-2. Sarakstā **Līdzekļi** atlasiet līdzekli, kuram vēlaties izdrukāt kļūmju pārskatu.
+2. Atlasīt līdzekli, kuram jādrukā kļūmju pārskats.
 
-3. Cilnē **Vispārīgi** > **Pārskatu sadaļā** klikšķiniet uz **Līdzekļa kļūme**.
+3. Darbību rūts cilnē **Vispārīgi**, grupā **ārskati** atlasiet **Līdzekļu kļūmes**.
 
 4. Ievadiet konkrētu periodu vai izvēlieties kļūmes veidu.
 
-5. Noklikšķiniet **Labi**, lai izdrukātu atskaiti.
+5. Atlasiet **Labi**, lai izdrukātu pārskatu.
 
 >[!NOTE]
->Var izdrukāt arī kļūmju pārskatu vairākiem līdzekļiem vai līdzekļu- veidiem, klikšķinot uz **Līdzekļu pārvaldība** > **Pārskati** > **Līdzekļi** > **Līdzekļu kļūmes**.
+>Lai izdrukātu kļūmju pārskatu vairākiem līdzekļiem vai līdzekļu veidiem, atlasiet **Līdzekļu pārvaldība** > **Pārskati** > **Līdzekļi** > **Līdzekļu kļūmes**.
 

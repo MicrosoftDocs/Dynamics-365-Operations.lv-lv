@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84cada71937604c013dbaaa47435015e63203595
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547449"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552214"
 ---
-# <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Izejmateriālu patēriņa kontrolēšana, izmantojot tīrīšanas principus
+# <a name="flushing-principles"></a>Norakstīšanas principi
 
 [!include [banner](../includes/banner.md)]
 
-Norakstīšanas principi atspoguļo dažādas patēriņa stratēģijas ražošanas procesos izmantojiem izejmateriāliem. Patēriņš ir process, kas materiālu atskaita no rīcībā esošajiem krājumiem un iestata patērēto materiālu vērtību uz **Nepabeigtais darbs** (NP) ražošanas pasūtījumiem un partijas pasūtījumiem. Izejmateriālus parasti patērē no vietas, kura ir konfigurēta procesam, kas patērē materiālu. Šī vieta ir pazīstama kā ražošanas ievades vieta.
+Norakstīšanas principi atspoguļo dažādas patēriņa stratēģijas ražošanas procesos izmantojiem izejmateriāliem. Patēriņš ir process, kas materiālu atskaita no rīcībā esošajiem krājumiem un iestata patērēto materiālu vērtību uz **Nepabeigtais darbs** (NP) ražošanas pasūtījumiem un partijas pasūtījumiem. Izejmateriālus parasti patērē no vietas, kura ir konfigurēta procesam, kas patērē materiālu. Šī vieta ir pazīstama kā ražošanas ievades vieta.
 
 Pirms materiālu patēriņa materiāli tiek pārvietoti uz ievades vietu. Tālāk esošajā attēlā ir parādīts šis process.
 

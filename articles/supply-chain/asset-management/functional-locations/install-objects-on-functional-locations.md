@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b236013d19967295514bfc0ce3e94eb6765d620a
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783448"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571810"
 ---
 # <a name="install-assets-on-functional-locations"></a>Līdzekļu uzstādīšana funkcionālajos novietojumos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Pēc funkcionālo novietojumu struktūru izveidošanas nākamā darbība ir uzstādīt līdzekļus attiecīgajos funkcionālajos novietojumos. Šajā tēmā izskaidrots, kā uzstādīt līdzekļus šajos funkcionālajos novietojumos Līdzekļu pārvaldībā. Papildinformāciju par līdzekļu izveidi skatiet sadaļā [Līdzekļi](../objects/introduction-to-objects.md).
 

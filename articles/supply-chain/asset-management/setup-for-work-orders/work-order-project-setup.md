@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874628"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569781"
 ---
 # <a name="work-order-project-setup"></a>Darba pasūtījuma projekta iestatījumi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulī **Līdzekļu pārvaldība** modulī ir nepieciešama projektu relācija katram darba pasūtījuma uzdevumam. Projekts, kas ir saistīts ar darba pasūtījuma uzdevumu, ļauj izsekot izmaksas dažādiem projektiem, kas saistīti ar līdzekļu pārvaldību, piemēram, iekšējiem uzturēšanas projektiem, servisa pārvaldības projektiem un investīciju projektiem. 
 
@@ -72,7 +72,7 @@ Iestatīšana nodrošina pilnīgu integrāciju ar moduli **Projektu pārvaldība
 
     Pēc noklusējuma sākuma datums ir datums, kad pievienojat darba pasūtījuma projektu lapai. To kontrolē lauks **Derīgs no**, kas pēc noklusējuma ir paslēpts. Lai parādītu lauku **Derīgs no**, atlasiet **Skatīt** \> **Visu**. Pēc tam varat izmantot lauku **Derīgs no** kopā ar lauku **Beigu datums**, lai iestatītu ierobežotu derīguma periodu darba pasūtījuma projektam.
 
-    ![1. attēls](media/17-setup-for-work-orders.png)
+    ![Darba pasūtījuma projekta iestatījumu lapa](media/17-setup-for-work-orders.png)
 
 6. Cilnē **Projekta grupa** atlasiet **Pievienot**.
 7. Laukā **Darba pasūtījuma veids** atlasiet darba pasūtījuma veidu.
@@ -80,7 +80,7 @@ Iestatīšana nodrošina pilnīgu integrāciju ar moduli **Projektu pārvaldība
 9. Laukā **Projekta grupa** atlasiet projekta grupu, kas ir jāsaista uz darba pasūtījuma veidu. Piemēram, darba pasūtījuma veids, kura nosaukums ir **Profilaktiskā uzturēšana**, var būt saistīts ar projektu grupu, kuras nosaukums **Prof. uzt.** vai **Iekšējs**. Alternatīvi, darba pasūtījuma veidu **Investīcija**, kas tiek izmantots darba pasūtījumiem, kas ir saistīti ar investīcijām un līdzekļiem, var saistīt ar projekta grupu **Investēt** vai **Investīcija**.
 10. Atlasiet **Saglabāt**.
 
-![2. attēls](media/18-setup-for-work-orders.png)
+![Darba pasūtījumu projekta iestatīšanas lapa, Pievienot darba pasūtījumu](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Katru reizi, kad tiek izveidota darba pasūtījuma rinda, līdzekļu pārvaldība meklē projektu grupu, kas jāsaista ar darba pasūtījuma uzdevuma projektu. Meklēšana ir balstīta uz iestatījumiem, kas aprakstīti šajā tēmā. Katrai projekta grupai ir saistīts projekta veids. Projekta grupas, kuru projekta veids ir **Laiks un materiāls** vai **Fiksēta cena**, ir derīgas tikai līdzekļiem, kas ir saistīti ar klienta kontu.

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 57120b51c069e49697f8ec4357265974a0d3afb4
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 3e813bd4f2d47b928b6184bb063d9afa45695727
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874582"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569735"
 ---
 # <a name="work-order-types"></a>Darba pasūtījumu veidi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Darba pasūtījumu veidi tiek izmantoti, lai kategorizētu darba pasūtījumus. Piemēram, jums var būt darba pasūtījumi, kas saistīti ar profilaktisko uzturēšanu vai koriģējošo uzturēšanu.
 
@@ -51,4 +51,4 @@ Lai iegūtu vairāk informācijas par darba pasūtījumu dzīves cikla stāvokļ
 
 8. Atlasiet **Saglabāt**.
 
-![1. attēls](media/16-setup-for-work-orders.png)
+![Darba pasūtījumu veidi](media/16-setup-for-work-orders.png)

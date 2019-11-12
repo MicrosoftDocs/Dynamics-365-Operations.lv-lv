@@ -1,5 +1,5 @@
 ---
-title: Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent - Attract
+title: Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent — Attract
 description: Šajā tēmā ir paskaidrots, kā konfigurēt LinkedIn integrāciju programmai Microsoft Dynamics 365 Talent - Attract, lai jūs varētu viegli publicēt darbus LinkedIn no Attract, un lai jūsu personāla atlases speciālisti varētu sinhronizēt savu darbinieku atlases informāciju ar kandidāta LinkedIn profilu.
 author: andreabichsel
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009974"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552121"
 ---
-# <a name="set-up-linkedin-integration"></a>LinkedIn integrācijas iestatīšana
+# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent — Attract
 
 [!include[banner](../includes/banner.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: Iespējot nokavētā nodokļa aprēķinu žurnālā
-description: Šajā tēmā ir skaidrots, kā izmantot **Iespējot aizkavētā nodokļa aprēķinu žurnālā** līdzekli. lai uzlabotu nodokļu aprēķina veiktspēju, ja žurnāla rindu apjoms ir milzīgs.
+title: Iespējot nokavētā nodokļa aprēķinu žurnālos
+description: Šajā tēmā ir paskaidrots, kā ieslēgt līdzekli Aizkavēta nodokļa aprēķins, lai palīdzētu uzlabot nodokļu aprēķinu veiktspēju, ja žurnāla rindu skaits ir ļoti liels.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178806"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623525"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>Iespējot nokavētā nodokļa aprēķinu žurnālā
+# <a name="enable-delayed-tax-calculation-on-journals"></a>Iespējot nokavētā nodokļa aprēķinu žurnālos
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir skaidrots, kā izmantot **Iespējot aizkavētā nodokļa aprēķinu žurnālā** līdzekli. lai uzlabotu nodokļu aprēķina veiktspēju, ja žurnāla rindu apjoms ir milzīgs.
+Šajā tēmā paskaidrots, kā var aizkavēt PVN aprēķinu žurnālos. Šī iespēja palīdz uzlabot nodokļu aprēķinu veiktspēju, ja ir daudz žurnāla rindu.
 
-Pašreizējā PVN aprēķina režīms žurnālā ir aktivizēts reāllaikā, kad lietotājs atjaunina ar nodokļiem saistītos laukus, piemēram, PVN grupu/krājumu PVN grupu. Jebkurš atjauninājums žurnāla rindas līmenī atkārtoti aprēķinās nodokļu summu visās žurnāla rindās. Tas palīdz lietotājam redzēt reāllaikā aprēķināto nodokļa summu, bet tas var arī izraisīt veiktspējas problēmas, ja žurnāla rindu apjoms ir milzīgs.
+Pēc noklusējuma PVN summas žurnāla rindās tiek aprēķinātas ik reizi, kad tiek atjaunināti ar nodokļiem saistīti lauki. Šie lauki iekļauj laukus PVN grupām un krājumu PVN grupām. Atjauninot jebkuru žurnāla rindu, nodokļu summas ir jāpārrēķina visām žurnāla rindām. Kaut arī šī darbība palīdz lietotājam skatīt nodokļu summas, kas aprēķinātas reāllaikā, tā var ietekmēt veiktspēju, ja žurnāla rindu skaits ir ļoti liels.
 
-Šis līdzeklis sniedz iespēju atlikt nodokļu aprēķinu, lai atrisinātu veiktspējas problēmu. Ja šī funkcija ir ieslēgta, nodokļa summa tiek aprēķināta tikai tad, kad lietotājs noklikšķina uz komandas "PVN", vai iegrāmato žurnālu.
+Aizturētā nodokļa aprēķināšanas līdzeklis ļauj atlikt nodokļu aprēķinu žurnālos un tādējādi palīdz novērst veiktspējas problēmas. Kad šis līdzeklis ir ieslēgts, nodokļa summas tiek aprēķinātas tikai tad, ja lietotājs atlasa **PVN** vai iegrāmato žurnālu.
 
-Lietotājs var ieslēgt/izslēgt parametru trīs līmeņos:
-- Pēc juridiskās personas
-- Pēc žurnāla nosaukuma
-- Pēc žurnāla virsraksta
+PVN aprēķinu var aizkavēt trīs līmeņos, kā norādīts tālāk.
 
-Sistēma izmantos parametra vērtību žurnāla virsrakstā kā galīgo variantu. Parametra vērtība žurnāla virsrakstā būs iestatīta uz noklusējumu no žurnāla nosaukuma. Kad tiek izveidots žurnāla nosaukums, žurnāla nosaukuma parametra vērtība tiks iestatīta uz noklusējumu no virsgrāmatas parametra.
+- Juridiska persona
+- Žurnāla nosaukums
+- Žurnāla virsraksts
 
-Lauki "Faktiskā PVN summa" un "Aprēķinātā PVN summa" žurnālā būs paslēpti, ja šis parametrs ir ieslēgts. Šis nolūks nav maldināt lietotāju, jo šo divu lauku vērtība vienmēr rādīs 0, pirms lietotājs aktivizēs nodokļa aprēķinu.
+Sistēma piešķir prioritāti žurnāla virsraksta iestatījumam. Pēc noklusējuma šis iestatījums tiek ņemts no žurnāla nosaukuma. Pēc noklusējuma žurnāla nosaukuma iestatījums tiek ņemts no iestatījuma lapā **Virsgrāmatas parametri**, kad tiek izveidots žurnāla nosaukums. Nākamajās sadaļās ir paskaidrots, kā ieslēgt aizkavētā nodokļa aprēķinu juridiskām personām, žurnālu nosaukumiem un žurnālu virsrakstiem.
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>Iespējot nokavētā nodokļa aprēķinu pēc juridiskās personas
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>Ieslēgt aizkavēto nodokļa aprēķinu juridiskās personas līmenī
 
-1. Dodieties uz **Virsgrāmata > Virsgrāmatas iestatīšana > Virsgrāmatas parametri**.
-2. Noklikšķiniet uz **PVN** cilni
-3. Zem ātrās cilnes **Vispārīgi** , atradiet parametru **Aizkavēta nodokļa aprēķins**, ieslēdziet/izslēdziet to
+1. Dodieties uz **Virsgrāmata \> Virsgrāmatas iestatīšana \> Virsgrāmatas parametri**.
+2. Cilnes **PVN** kopsavilkuma cilnē **Vispārīgi** iestatiet opcijas **Aizkavētais nodokļa aprēķins** vērtību uz **Jā**.
 
-![](media/delayed-tax-calculation-gl.png)
+![Virsgrāmatas parametru attēls](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Ieslēgt aizkavēto nodokļa aprēķinu žurnāla nosaukuma līmenī
 
+1. Dodieties uz **Virsgrāmata \> Žurnāla iestatīšana \> Žurnālu nosaukumi**.
+2. Kopsavilkuma cilnes **Vispārīgi** sadaļā **PVN** iestatiet opcijas **Aizkavētais nodokļa aprēķins** vērtību uz **Jā**.
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>Iespējot nokavētā nodokļa aprēķinu pēc žurnāla nosaukuma
+![Žurnālu nosaukumu attēls](media/delayed-tax-calculation-journal-name.png)
 
-1. Pārejiet uz sadaļu **Virsgrāmata >Žurnāla iestatīšana > Žurnālu nosaukumi**.
-2. Zem ātrās cilnes **Vispārīgi** , atradiet parametru **Aizkavēta nodokļa aprēķins**, ieslēdziet/izslēdziet to
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Ieslēgt aizkavēto nodokļa aprēķinu žurnāla virsraksta līmenī
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. Dodieties uz **Virsgrāmata \> Žurnāla ieraksti \> Virsgrāmatas žurnāli**.
+2. Atlasiet **Jauns**.
+3. Atlasiet žurnāla nosaukumu.
+4. Cilnē **Iestatīšana** iestatiet opciju **Aizkavētais nodokļa aprēķins** uz **Jā**.
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a>Iespējot nokavētā nodokļa aprēķinu pēc žurnāla
-
-1. Dodieties uz **Virsgrāmata > Žurnāla ieraksti > Vispārējie žurnāli**
-2. Klikšķiniet **Jauns**
-3. Atlasiet žurnāla nosaukumu
-4. Noklišķiniet uz **Iestatījumi**
-5. Atradiet parametru **Aizkavēta nodokļa aprēķins**, ieslēdziet/izslēdziet to
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Virsgrāmatas žurnāla lapas attēls](media/delayed-tax-calculation-journal-header.png)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: a8183dd834b1f39773d25fa7c546d5db1c7b7749
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 219bb1b5ac8360acf267fb792b8e23f961096abc
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249030"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553072"
 ---
 # <a name="mobile-app-home-page"></a>Mobilās programmas sākumlapa
 
@@ -81,21 +81,21 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td>1.</td>
 <td>Sistēmas administrators</td>
 <td>Ieviesiet Finance and Operations programmas savā organizācijā.</td>
-<td><ul><li>Ja vēl neesat izvietojis Microsoft Dynamics  365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
+<td><ul><li>Ja vēl neesa&#39;t izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistēmas administrators</td>
-<td><strong>Ja lietojat Microsoft Dynamics 365 for Operations versiju 1611:</strong> lejupielādējiet un instalējiet KB, kas iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
+<td><strong>Ja l&#39;ietojat Microsoft Dynamics 365 for Operations versiju 1611:</strong> lejupielādējiet un instalējiet KB, kas iespējo Microsoft nodrošinātās mobilās darbvietas.</td>
 <td>Papildinformāciju skatiet tālāk norādītajās tēmās.
 <ul>
 
-<li><a href="../../financials/cost-accounting/cost-controlling-mobile-workspace.md">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
-<li><a href="../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Rīcībā esošo krājumu mobilā darbvieta</a></li>
-<li><a href="../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
-<li><a href="../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Kreditoru sadarbības mobilā darbvieta</a></li>
-<li><a href="../../financials/project-management/project-time-entry-mobile-workspace.md">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></li>
-<li><a href="../../financials/expense-management/expense-management-mobile-workspace.md">Izmaksu pārvaldības mobilā darbvieta</a></li>
+<li><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Izmaksu kontrolēšanas mobilās darbvietas</a></li>
+<li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Rīcībā esošo krājumu mobilā darbvieta</a></li>
+<li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
+<li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Kreditoru sadarbības mobilā darbvieta</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Izmaksu pārvaldības mobilā darbvieta</a></li>
 
 </ul></td>
 </tr>

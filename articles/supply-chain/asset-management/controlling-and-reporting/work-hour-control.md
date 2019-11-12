@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 916e7b8d5d494dbae0659504957f7f0798a6834b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1a59b4bbf1a4612cea1ba3bd536ba4b018fc621f
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918376"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652337"
 ---
 # <a name="work-hour-control"></a>Darba stundu kontrole
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Līdzekļu pārvaldībā varat aprēķināt stundas, lai iegūtu pārskatu par faktiskajām stundām, salīdzinot ar budžeta stundām uz līdzekļiem, funkcionālajiem novietojumiem vai darba pasūtījumiem. Faktiskās stundas ir balstītas uz grāmatotajām transakcijām.
 
@@ -47,7 +47,11 @@ Aprēķini, kas veikti līdzekļiem, funkcionālajam novietojumam un darba pasū
 
 5. Ja nevēlaties rādīt rezultātus, kas satur nulles, atlasiet “Jā” pārslēgšanas pogā **Izlaist nulles**.
 
-6. Varat izmantot lauku **Līmenis**, lai norādītu, cik detalizētas jūs vēlaties stundu kontroles rindas attiecībā uz funkcionālajiem novietojumiem. Piemēram, ja laukā tiek ievietots skaitlis “1” un jums ir vairāku līmeņu funkcionālo novietojumu hierarhija, visaugstākajā līmenī tiks rādītas visas stundu kontroles rindas funkcionālā novietojumā, tāpēc stundas rindā var tikt pievienotas no funkcionālajiem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** tiek ievadīts skaitlis “0”, tiek parādīts detalizēts rezultāts, kas parāda visas stundu kontroles rindas visiem funkcionālā novietojuma vietas līmeņiem, ar kuriem tās ir saistītas.
+6. Varat izmantot lauku **Līmenis**, lai norādītu, cik detalizētas jūs vēlaties stundu kontroles rindas attiecībā uz funkcionālajiem novietojumiem. 
+
+    Piemēram, ja laukā tiek ievietots skaitlis “1” un jums ir vairāku līmeņu funkcionālo novietojumu hierarhija, visaugstākajā līmenī tiks rādītas visas stundu kontroles rindas funkcionālā novietojumā, tāpēc stundas rindā var tikt pievienotas no funkcionālajiem novietojumiem, kas atrodas zemākā līmenī. 
+    
+    Ja laukā **Līmenis** tiek ievadīts skaitlis “0”, tiek parādīts detalizēts rezultāts, kas parāda visas stundu kontroles rindas visiem funkcionālā novietojuma vietas līmeņiem, ar kuriem tās ir saistītas.
 
 7. Atlasiet “Jā” pārslēgšanas pogā **Ietvert pakārtotos līdzekļus**, lai parādītu izmaksas, kas saistītas ar pakārtotajiem līdzekļiem kā atsevišķas rindas.
 
@@ -55,14 +59,18 @@ Aprēķini, kas veikti līdzekļiem, funkcionālajam novietojumam un darba pasū
 
 9. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu.
 
-10. Lapā **Līdzekļa stundu kontrole** darbības rūtī **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai parādītu nepieciešamo aprēķina detalizācijas līmeni. Atlasītās darbības rūts pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
+10. Lapā **Stundu izmaksu kontrole** noklikšķiniet uz attiecīgās pogas **Grupēt pēc**, lai uzrādītu nepieciešamo aprēķina informācijas detalizācijas līmeni. Atlasītās **Grupēt pēc** pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
 
-Attēlā redzams aprēķina **Līdzekļu stundu kontrole** piemērs.
+## <a name="example"></a>Paraugs
 
-![1. attēls](media/04-controlling-and-reporting.png)
+Ekrānšāviņā redzams aprēķina **Līdzekļu stundu kontrole** piemērs.
+
+- Lauks **Sākotnējais budžets** rāda budžeta stundas no darba pasūtījuma prognozes. 
+- Lauks **Faktiskās stundas** rāda darba pasūtījumu grāmatotās stundas. 
+- Lauks **Fiksētās stundas** parāda kopējo stundu summu, ko jūsu uzņēmums ir izmantojis saistībā ar darba pasūtījumiem.
+
+![Pamatlīdzekļu stundu kontroles aprēķina piemērs](media/04-controlling-and-reporting.png)
 
 Cits stundu aprēķina veids ir vairāku atlasīto līdzekļu atlasīšana sadaļās **Visi līdzekļi** vai **Aktīvie līdzekļi** Pēc tam noklikšķiniet uz pogas **Stundu kontrole**, kas atrodas kopsavilkuma cilnē **Vispārīgi**. Atlasītie līdzekļi automātiski tiek ievietoti laukā **Līdzekļi** kopsavilkuma cilnē **Ieraksti, kas jāiekļauj**. Noklikšķiniet uz **Labi** dialoglodziņā **Līdzekļu stundu kontrole**, un tiks parādīts atlasīto līdzekļu aprēķins. To pašu procedūru var veikt funkcionālajiem novietojumiem sadaļās **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi** un darba pasūtījumiem sadaļās **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 
->[!NOTE]
->Lauks **Sākotnējais budžets** rāda budžeta stundas no darba pasūtījuma prognozes. Lauks **Faktiskās stundas** rāda darba pasūtījumu grāmatotās stundas. Lauks **Fiksētās stundas** parāda kopējo stundu summu, ko jūsu uzņēmums ir izmantojis saistībā ar darba pasūtījumiem.
 

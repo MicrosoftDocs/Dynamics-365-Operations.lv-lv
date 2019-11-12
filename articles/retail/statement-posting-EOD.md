@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606968"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653375"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
@@ -37,7 +37,7 @@ Pēc noklusējuma versijas Finance and Operations 7.3.2 izvietošanas laikā pr
 
 Kad ir ieslēgta jaunā konfigurācijas atslēga **Mazumtirdzniecības izraksti**, ir pieejams jauns izvēlnes vienums ar nosaukumu **Mazumtirdzniecības izraksti**. Šis izvēlnes elements ļauj jums manuāli izveidot, aprēķināt un grāmatot izrakstus. Jebkurš izraksts, kas izraisa kļūdu, kad tiek izmantots pakešveida grāmatošanas process, ir pieejams arī, izmantojot šo izvēlnes vienumu. (Kad ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksti (mantojuma)**, šī izvēlnes vienuma nosaukums ir **Atvērtie izraksti**.)
 
-Programmatūra Finance and Operations ietver tālāk norādītās validācijas, kas ir saistītas ar šīm konfigurācijas atslēgām.
+Mazumtirdzniecība ietver tālāk norādītās validācijas, kas ir saistītas ar šīm konfigurācijas atslēgām.
 
 - Abas konfigurācijas atslēgas nevar būt ieslēgtas vienlaikus.
 - Visām operācijām, kas attiecīgajam izrakstam tiek veiktas tā dzīves cikla laikā (operācijām Izveidot, Aprēķināt, Notīrīt, Grāmatot un citām) ir jāizmanto tā pati konfigurācijas atslēga. Piemēram, nevar izveidot un aprēķināt kādu izrakstu, kamēr ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksts (mantojuma)**, un pēc tam mēģināt to pašu izrakstu grāmatot, kamēr ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksts**.
