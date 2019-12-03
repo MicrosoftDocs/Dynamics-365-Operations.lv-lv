@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176012"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772586"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Kases un bankas vadības sākumlapa
 
@@ -49,36 +49,36 @@ Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas banka
 ### <a name="bank-reconciliation"></a>Bankas darbību saskaņošana
 
 -   [Detalizētās bankas darbību saskaņošanas apskats](advanced-bank-reconciliation-overview.md)
--   [Konfigurēt detalizēto bankas darbību saskaņošanu](configure-advanced-bank-reconciliation.md)
--   [Iestatīt detalizētās bankas darbību saskaņošanas importu](set-up-advanced-bank-reconciliation-import-process.md)
--   [Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu](reconcile-bank-statements-advanced-bank-reconciliation.md)
--   [Iestatīt bankas darbību saskaņošanas atbilstības kārtulas](set-up-bank-reconciliation-matching-rules.md)
+-   [Detalizētas bankas darbību saskaņošanas process](configure-advanced-bank-reconciliation.md)
+-   [Detalizētu bankas transakciju saskaņošanas importēšanas procesa iestatīšana](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Bankas izrakstu saskaņošana, izmantojot detalizēto bankas darbību saskaņošanu](reconcile-bank-statements-advanced-bank-reconciliation.md)
+-   [Bankas darbību saskaņošanas atbilstības kārtulu iestatīšana](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>Moduļa “Parādi kreditoriem” maksājumi un norēķini
 -   [Centralizētie maksājumi modulim “Parādi kreditoriem”](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Izveidot kreditoru rēķinus, izmantojot maksājuma priekšlikumu](../accounts-payable/create-vendor-payments-payment-proposal.md)
--   [Atsaukt kreditora maksājumu](../accounts-payable/reverse-vendor-payment.md)
+-   [Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Kreditora maksājumu atsaukšana](../accounts-payable/reverse-vendor-payment.md)
 -   [Kreditoru maksājumi par daļēju summu](../accounts-payable/vendor-payments-partial-amount.md)
--   [Priekšapmaksas rēķinu un priekšapmaksu apskats](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scenārijs: nosegt daļēju kreditora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenārijs: nosegt daļēju kreditora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scenārijs: nosegt daļēju kreditora maksājumu, kam ir atlaides kreditora kredīta notām](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scenārijs: nosegt daļēju kreditora maksājumu, kam ir vairāki atlaižu periodi](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scenārijs: piemērot atlaidi, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scenārijs: piemērot termiņatlaidi ārpus termiņatlaides perioda](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Daļēja kreditora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Daļēja kreditora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Daļēja kreditora maksājuma, kam ir atlaides kreditora kredīta notām, segšana](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Daļēja kreditora maksājuma, kam ir vairāki atlaižu periodi, segšana](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Atlaides, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi, piemērošana](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Termiņatlaides piemērošana ārpus termiņatlaides perioda](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>Moduļa “Debitoru parādi” maksājumi un norēķini
 -   [Centralizētie maksājumi modulim “Debitoru parādi”](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [Debitoru maksājumi par daļēju summu](../accounts-receivable/customer-payments-partial-amount.md)
--   [Atlīdzināt debitoriem](../accounts-receivable/reimburse-customers.md)
--   [Scenārijs: automātiska nosegšana un prioritāšu noteikšana](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Scenārijs: darbs ar termiņatlaidi pārmaksām](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scenārijs: nosegt daļēju debitora maksājumu un nosegt gala maksājumu pilnā apmērā pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scenārijs: nosegt daļēju debitora maksājumu pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scenārijs: nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scenārijs: nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Scenārijs: lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Debitoru atlīdzināšana](../accounts-receivable/reimburse-customers.md)
+-   [Automātiska nosegšana un prioritāšu noteikšana](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Darbs ar termiņatlaidi pārmaksām](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Daļēja debitora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Daļēja debitora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Daļēja debitora maksājuma, kam ir vairāki atlaižu periodi, segšana](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Viena debitora maksājuma lietošana, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas banka
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Emuāri
 

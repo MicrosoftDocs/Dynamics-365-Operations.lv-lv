@@ -8,6 +8,14 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2019.\_gada 19.\_novembris"
+              href: whats-new-talent-november-19-2019.md
+            - name: "2019.\_gada 12.\_novembris"
+              href: whats-new-talent-november-12-2019.md
+            - name: "2019.\_gada 5.\_novembris"
+              href: whats-new-talent-november-5-2019.md
+            - name: "2019.\_gada 29.\_oktobris"
+              href: whats-new-talent-oct-29-2019.md
             - name: "2019.\_gada 23.\_oktobris"
               href: whats-new-talent-october-23-2019.md
             - name: "2019.\_gada 8.\_oktobris"
@@ -26,18 +34,18 @@
               href: whats-new-talent-august-15-2019.md
             - name: "2019.\_gada 6.\_augusts"
               href: whats-new-talent-august-7-2019.md
-            - name: "2019.\_gada 30.\_jūlijs"
-              href: whats-new-talent-july-31-2019.md
-            - name: "2019.\_gada 23.\_jūlijs"
-              href: whats-new-talent-july-24-2019.md
-            - name: "2019.\_gada 16.\_jūlijs"
-              href: whats-new-talent-july-16-2019.md
-            - name: "2019.\_gada 9.\_jūlijs"
-              href: whats-new-talent-july-9-2019.md
-            - name: "2019.\_gada 2.\_jūlijs"
-              href: whats-new-talent-july-2-2019.md
             - name: "Jaunumu arhīvi, 2019.\_gads"
               items:
+                - name: "2019.\_gada 30.\_jūlijs"
+                  href: whats-new-talent-july-31-2019.md
+                - name: "2019.\_gada 23.\_jūlijs"
+                  href: whats-new-talent-july-24-2019.md
+                - name: "2019.\_gada 16.\_jūlijs"
+                  href: whats-new-talent-july-16-2019.md
+                - name: "2019.\_gada 9.\_jūlijs"
+                  href: whats-new-talent-july-9-2019.md
+                - name: "2019.\_gada 2.\_jūlijs"
+                  href: whats-new-talent-july-2-2019.md
                 - name: "2019.\_gada 25.\_jūnijs"
                   href: whats-new-talent-june-25-2019.md
                 - name: "2019.\_gada 18.\_jūnijs"
@@ -116,10 +124,14 @@
                   href: whats-new-talent-august2018.md
                 - name: "2018.\_gada jūlijs"
                   href: whats-new-talent-july2018.md
-        - name: Sistēmas prasības un atjaunināšanas politika
+        - name: Sistēmas prasības
           href: talent-versions-update-policy.md
+        - name: Talent atjauninājumi
+          href: talent-updates.md
         - name: Talent nodrošinājums
           href: provisioning-talent.md
+        - name: Core HR instances kopēšana
+          href: hr-copy-instance.md
         - name: Talent vides noņemšana
           href: remove-talent-environment.md
         - name: Nodrošinājums programmai Onboard
@@ -439,6 +451,18 @@
           href: extensibility-attract.md
         - name: "Pielāgotie lauki pakalpojumā Core\_HR"
           href: corehr-custom-fields.md
+        - name: Elementa API atsauce
+          items:
+            - name: Autentifikācija
+              href: api-odata-authentication.md
+            - name: Elementi
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests pārskats
+                      href: api-myleaverequests-overview.md
+                    - name: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
+                      href: api-myleaverequests-submit.md
     - name: Pakalpojuma Talent problēmu novēršana
       items:
         - name: Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem

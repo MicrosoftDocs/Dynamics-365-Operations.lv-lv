@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537028"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812092"
 ---
 # <a name="globalization-resources"></a>Globalizācijas resursi
 
@@ -45,10 +45,10 @@ Dynamics 365 Finance and Operations programmas ietver funkcionalitāti tām vals
 
 ### <a name="developing-localized-solutions"></a>Lokalizētu risinājumu izstrāde
 Tālāk norādītajos resursos ir sniegti norādījumi un noderīga informācija ISV un citiem izstrādātājiem, kuri veido valstij/reģionam specifiskus pielāgojumus vai izstrādā risinājumu valstij, ko Microsoft neatbalsta.
--   [Atdalīt lokalizācijas modeļus](separate-localization-models.md)
--   [Lietot valsts/reģiona kontekstu](apply-country-context.md)
--   [Normatīvās sertifikācijas](regulatory-certifications.md)
--   [Lokalizācijas līdzekļu klasificēšana](classify-localization-features.md)
+-   [Lokalizācijas modeļu atdalīšana](separate-localization-models.md)
+-   [Valsts/reģiona konteksta lietošana](apply-country-context.md)
+-   [Normatīvā sertifikācijas informācija līdzekļu nosaukumos](regulatory-certifications.md)
+-   [Lokalizācijas līdzekļu klasifikācija](classify-localization-features.md)
 -   [Valstu kodi – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Normatīvie atjauninājumi un saziņa
@@ -57,36 +57,36 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 #### <a name="regulatory-updates"></a>Normatīvie atjauninājumi
 -   [Normatīvie atjauninājumi](../../../finance/localizations/regulatory-updates.md)
 -   [Lokalizācijas portāls](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (tiek atjaunināts katru nedēļu)
--   [LCS problēmu meklētājs](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts katru dienu)
+-   [Problēmu meklētājs portālā Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts katru dienu)
 
 #### <a name="communication-and-alerts"></a>Saziņa un brīdinājumi
 -   [Normatīvā uzraudzība un informēšana par normatīvajiem jaunumiem](regulatory-watch-communication.md)
--   [Informēt korporāciju Microsoft par valsts/reģiona tiesību aktu brīdinājumiem un sekot līdzi normatīvo līdzekļu statusam](submit-localization-alerts.md)
+-   [Brīdinājumu iesniegšana par valstij/reģionam specifiskiem normatīviem līdzekļiem](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Dynamics 365 laidiena piezīmes
-[Dynamics 365 laidiena piezīmes](https://docs.microsoft.com/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
+#### <a name="dynamics-365-release-plans"></a>Dynamics 365 laidiena plāni
+[Dynamics 365 laidiena plāni](https://docs.microsoft.com/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations programmu jaunumi
-[Jaunumos](../../fin-ops/get-started/whats-new-changed.md) ir uzskaitīti līdzekļi, kas iekļauti noteiktos Finance and Operations programmu laidienos.
+Sadaļā [Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“](../../fin-ops/get-started/whats-new-changed.md) ir uzskaitīti līdzekļi, kas iekļauti noteiktos Finance and Operations programmu laidienos.
 
 ### <a name="electronic-reporting"></a>Elektroniskie pārskati
 Elektronisko pārskatu (ER) veidošanas rīks ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu/reģionu likumu prasībām. ER jums ļauj šos formātus pārvaldīt to lietošanas cikla laikā. Papildinformāciju skatiet kādā no tālāk norādītajām tēmām.
--   [Elektronisko pārskatu veidošanas apskats](../analytics/general-electronic-reporting.md)
--   [Pārvaldīt elektronisko pārskatu veidošanas konfigurācijas dzīves ciklu](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Izveidot elektronisko pārskatu veidošanas konfigurāciju](../analytics/electronic-reporting-configuration.md)
--   [Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Elektroniskās pārskatu veidošanas adresāti](../analytics/electronic-reporting-destinations.md)
--   [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektronisko atskaišu veidošanas konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Elektronisko atskaišu konfigurēšana, lai nogādātu datus uz Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektronisko dokumentu izveide un programmu datu atjaunināšana, izmantojot elektronisko atskaišu veidošanas rīku](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Elektronisko pārskatu veidošanas (ER) apskats](../analytics/general-electronic-reporting.md)
+-   [Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [Elektronisko pārskatu veidošanas (ER) konfigurāciju izveide](../analytics/electronic-reporting-configuration.md)
+-   [Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašināšana](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Elektroniskās pārskatu veidošanas (ER) adresāti](../analytics/electronic-reporting-destinations.md)
+-   [Elektronisko pārskatu veidošanas konfigurācijas lejupielāde no Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Elektronisko atskaišu veidošanas (ER) konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Elektronisko atskaišu (ER) konfigurēšana, lai nogādātu datus uz Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektronisko dokumentu ģenerēšana un programmas datu atjaunināšana, izmantojot ER](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Uzdevumu ceļveži
 Uzdevumu ceļveži ir pieejami produktu palīdzības rūtī, un tajos ir iekļauti norādījumi saistībā ar svarīgākajiem biznesa procesiem. Varat atvērt uzdevuma ceļvedi, lai uzzinātu par biznesa procesa darbībām, vai arī varat to atskaņot, lai skatītu informāciju par biznesa procesu un datu ievadi.
 
 Lai atrastu uzdevumu ceļvežus, pārejiet uz kādu lapu programmā un noklikšķiniet uz Palīdzība. Uzdevumu ceļveži, kas izmanto attiecīgo lapu, ir uzskaitīti palīdzības rūtī. Palīdzības rūti varat izmantot arī uzdevumu ceļvežu meklēšanai pēc nosaukuma.
 
-Papildinformāciju skatiet sadaļā [Uzdevumu ceļveži](../../fin-ops/get-started/help-overview.md#task-guides).
+Lai uzzinātu vairāk, skatiet [Palīdzības sistēma](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Valstij/reģionam specifisks palīdzības saturs

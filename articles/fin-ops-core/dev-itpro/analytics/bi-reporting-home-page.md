@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536851"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771568"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa
 
@@ -48,7 +48,7 @@ Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 - [Power BI Embedded integrācija](power-bi-embedded-integration.md)
 - [Analīzes pievienošana darbvietām, izmantojot Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Analītisku darbvietu un atskaišu drošības uzlabošana, izmantojot Power BI Embedded](secure-analytical-workspaces.md)
-- [Power BI saturs programmai Finance and Operations](power-bi-home-page.md)
+- [Power BI satura mājas lapa](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Biznesa dokumenti un drukāšana
 Pārskatu izveides risinājumus bieži izmanto, lai iegūtu un apspriestu informāciju par biznesa darījumiem. Tādēļ pārskatu izveides risinājumā ir jābūt iespējai biznesa datus piedāvāt fiziskā formā, izmantojot esošās ierīces, piemēram, tīkla printerus. Biznesa dokumenti ir, piemēram, pārdošanas rēķini, klientu darījumu pārskati un čeki.
@@ -57,9 +57,9 @@ Pārskatu izveides risinājumus bieži izmanto, lai iegūtu un apspriestu inform
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
-- [Document Reporting Services apskats](document-reporting-services.md)
-- [Drukāšana Dynamics 365 for Finance and Operations programmās](print-documents.md)
-- [Instalēt dokumentu maršrutēšanas aģentu, lai iespējotu tīkla printera ierīces](install-document-routing-agent.md)
+- [Dokumentu atskaišu veidošanas pakalpojumi](document-reporting-services.md)
+- [Dokumentu drukāšanas pārskats](print-documents.md)
+- [Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla drukāšanu](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektroniskie pārskati
 Elektronisko pārskatu veidošana (ER) ir rīks, kas ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu vai reģionu juridiskajām prasībām. Elektronisko pārskatu veidošanas rīku var izmantot, piemēram, finanšu auditam, nodokļu pārskatam un elektronisko rēķinu izveidei.
@@ -68,9 +68,9 @@ Elektronisko pārskatu veidošana (ER) ir rīks, kas ļauj konfigurēt elektroni
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
-- [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-- [Pārvaldīt elektronisko pārskatu veidošanas konfigurācijas dzīves ciklu](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Izveidot elektronisko pārskatu veidošanas konfigurāciju](electronic-reporting-configuration.md)
+- [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
+- [Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Elektronisko pārskatu veidošanas (ER) konfigurāciju izveide](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Finanšu pārskatu veidošana
 Tiek nodrošināti standarta finanšu pārskati, kas izmanto noklusējuma galvenā konta kategorijas. Lai izveidotu vai mainītu tradicionālos finanšu pārskatus, piemēram, ienākumu pārskatus un bilances, varat izmantot pārskatu noformētāju. Pēc tam rezultātus varat koplietot ar citiem organizācijas dalībniekiem. Finanšu pārskati ir, piemēram, bilances, skaidras naudas plūsma un gada kopsavilkuma apgrozījuma bilance.
@@ -79,14 +79,14 @@ Tiek nodrošināti standarta finanšu pārskati, kas izmanto noklusējuma galven
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
-- [Finanšu pārskati programmai Finance and Operations](financial-reporting-intro.md)
-- [Ģenerēt finanšu pārskatu](generate-financial-report.md)
+- [Finanšu pārskatu veidošana](financial-reporting-intro.md)
+- [Finanšu pārskatu ģenerēšana](generate-financial-report.md)
 - [Finanšu pārskata komponenti](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Tehniskās atsauces pārskati
 Tālāk esošajos pārskatos ir sniegta atsauces informācija par objektiem.
 
-- [Datu elementu pārskats](../data-entities/data-entities-report.md)
+- [Informācijas par standarta datu elementiem meklēšana](../data-entities/data-entities-report.md)
 - [Atskaite par licenču kodiem un konfigurācijas atslēgām](../sysadmin/license-codes-configuration-keys-report.md)
-- [SQL Server Reporting Services pārskatu pārskats](SSRS-report.md)
+- [Pieejamie SQL Server pārskatu izveides pakalpojumu (SSRS) pārskati](SSRS-report.md)
 - [Darbplūsmu tipu pārskats](../../fin-ops/organization-administration/workflow-types-report.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570129"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770578"
 ---
 # <a name="financial-management-home-page"></a>Finanšu pārvaldības sākumlapa
 
@@ -44,8 +44,8 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
         - [Izdevumu pārvaldība](expense-management/expense-management.md)
         - [Finanšu pārskatu veidošana](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Pamatlīdzekļi](fixed-assets/fixed-assets.md)
-        - [Virsgrāmata](general-ledger/general-ledger.md) 
-        - [Projektu pārvaldība](project-management/overview-project-management-accounting.md)
+        - [Virsgrāmata un finanšu atskaišu veidošana](general-ledger/general-ledger.md) 
+        - [Projektu pārvaldība un uzskaite](project-management/overview-project-management-accounting.md)
         - [Publiskais sektors](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -72,5 +72,5 @@ Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no va
 
 ### <a name="additional-content"></a>Papildu saturs
 
-Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. Skatiet [!Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām. 
+Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām. 
 

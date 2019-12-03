@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278110"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811930"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Palīdzības resursi saistībā ar Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem un nodarbinātajiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
+Microsoft Dynamics 365 Retail ir vispārīgs mazumtirdzniecības risinājums, kas nodrošina vienotu komerciju visos kanālos. Tas aptver pārdošanu, mobilitāti, informāciju un produktivitāti, lai palīdzētu mazumtirgotājiem un nodarbinātajiem sasniegt vairāk, izmantojot mākoņpakalpojumus un mobilās iespējas. Retail nodrošina vispusīgu atbalstu, veicot dažādus biznesa procesus, piemēram, tirgū virzīšanas vai krājumu un kanālu pārvaldības iespējas. Turklāt tas nodrošina visaptverošu klientu pieredzi visās saskares vietās.
 
 Kreisajā rūtī atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
@@ -81,7 +81,7 @@ Lai definētu attiecības starp veikalu, veikalā esošajiem POS reģistriem un
 
 Ja jums tiek lūgts pielāgot savu vidi vai ja atbildat par savas sistēmas izvietošanu un uzturēšanu, papildus vispārīgajam saturam noteikti apskatiet programmai Retail raksturīgo izstrādātāja un sistēmas administratora saturu.
 
-- [Dynamics 365 Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
+- [Retail IT speciālistiem un izstrādātājiem](dev-itpro/dev-retail-home-page.md)
 - [Izstrāde un administrēšana programmai Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Papildu resursi

@@ -62,6 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations programmas Francijā
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Jaunināšana un N-1 atbalsts
+              items:
+                - name: Jaunināšana un N-1 atbalsts programmai Retail
+                  href: ../retail/dev-itpro/overview-upgrade-n-minus1.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Pakāpeniskās izlādes (N-1) instalēšana, konfigurēšana un pārslēgšana'
+                  href: ../retail/dev-itpro/n-1-installation-configuration.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail kanāla paplašinājuma jaunināšana uz jaunāko Retail SDK
+                  href: ../retail/dev-itpro/retailSDK-update.md?toc=/dynamics365/commerce/toc.json
             - name: Jaunumi un izmaiņas
               items:
                 - name: "Priekšskatījuma līdzekļi Retail\_versijā 10.0.7"
@@ -168,9 +176,53 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Pakalpojuma Lifecycle Services saprašana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+        - name: Arhitektūras apskats
+          items:
+            - name: Arhitektūra
+              items:
+                - name: Retail komponenti
+                  href: ../retail/retail-components.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Server arhitektūra
+                  href: ../retail/dev-itpro/retail-server-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: Veikala topoloģijas atlase
+                  href: ../retail/dev-itpro/retail-in-store-topology.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange un mazumtirdzniecības kanālu saziņa
+                  href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Modern POS arhitektūra
+                  href: ../retail/dev-itpro/retail-modern-pos-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail tiešsaistes veikala publicēšanas arhitektūra
+                  href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Channel Performance Power BI saturs
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Maksājumu programmu datu drošības standartu (PA-DSS) sertifikācija
+                  href: ../retail/dev-itpro/PA-DSS-Certification.md?toc=/dynamics365/commerce/toc.json
+                - name: Lokālos izvietojumos pieejamās mazumtirdzniecības iespējas
+                  href: ../retail/retail-onprem.md?toc=/dynamics365/commerce/toc.json
+            - name: Izvietošana un labojumfaili
+              items:
+                - name: Retail Store Scale Unit
+                  href: ../retail/dev-itpro/retail-store-system-begin.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Store Scale Unit konfigurēšana un instalēšana
+                  href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Modern POS konfigurēšana un instalēšana
+                  href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail kontu un ierīču pārvaldīšana no galvenā biroja
+                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail POS ierīces aktivizēšana
+                  href: ../retail/dev-itpro/retail-device-activation.md?toc=/dynamics365/commerce/toc.json
+                - name: Cloud POS aizsardzības nodrošināšana koplietojamās vidēs
+                  href: ../retail/dev-itpro/secure-retail-cloud-pos.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Hardware Station konfigurēšana un instalēšana
+                  href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
+                - name: Plaša Retail patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
+                  href: ../retail/dev-itpro/retail-mass-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail komponentu notikumi diagnostikai un problēmu novēršanai
+                  href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md?toc=/dynamics365/commerce/toc.json
+                - name: Izvietojamas pakotnes pielietošana
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
             - name: Ieviešanas dzīves cikla pārvaldība
               items:
-                - name: Īstenošanas cikla pārvaldības sākumlapa
+                - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
                 - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
@@ -203,7 +255,15 @@
                 - name: Koda un vižu atjaunināšana Retail projektiem
                   href: ../retail/dev-itpro/updating-environments.md?toc=/dynamics365/commerce/toc.json
                 - name: Testēšanas un veiktspējas problēmas
-                  href: ../retail/dev-itpro/retail-implementation-testing-performance.md
+                  href: ../retail/dev-itpro/retail-implementation-testing-performance.md?toc=/dynamics365/commerce/toc.json
+        - name: Sistēmas administrēšana
+          items:
+            - name: Vides konfigurēšana
+              items:
+                - name: Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
+                  href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/commerce/toc.json
+                - name: Bing karšu pārvaldība
+                  href: ../retail/dev-itpro/manage-bing-maps.md?toc=/dynamics365/commerce/toc.json
         - name: Kanāla iestatīšana un pārvaldība
           items:
             - name: Pamata šķērskanāla iestatīšana
@@ -211,7 +271,7 @@
                 - name: Sākumdatu inicializēšana jaunās Retail vidēs
                   href: ../retail/enable-configure-retail-functionality.md?toc=/dynamics365/commerce/toc.json
                 - name: Informācijas kodi un informācijas kodu grupas
-                  href: ../retail/info-codes-retail.md
+                  href: ../retail/info-codes-retail.md?toc=/dynamics365/commerce/toc.json
             - name: Veikala kanālu pārvaldība
               items:
                 - name: Mazumtirdzniecības kanālu iestatīšana
@@ -220,152 +280,242 @@
                   href: ../retail/dev-itpro/store-hours.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail Hardware Station konfigurēšana un instalēšana
                   href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
+                - name: "Modern Point of Sale (MPOS) un Cloud\_POS"
+                  items:
+                    - name: "Izvēle starp MPOS un Cloud\_POS"
+                      href: ../retail/MPOS-or-CPOS.md?toc=/dynamics365/commerce/toc.json
+                    - name: POS operācijas tiešsaistē un bezsaistē
+                      href: ../retail/pos-operations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ierīces aktivizēšana pielāgotajā Retail MPOS
+                      href: ../retail/dev-itpro/retail-POS-activation-changes.md?toc=/dynamics365/commerce/toc.json
+                    - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS un Cloud POS
+                      href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
+                    - name: Preču un klientu meklēšana punktā POS
+                      href: ../retail/POS-search-improvements.md?toc=/dynamics365/commerce/toc.json
+                    - name: Preces un preces variantu meklēšana pasūtījuma izveides laikā
+                      href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
+                    - name: Skaidras naudas pārvaldības uzlabojumi
+                      href: ../retail/cash-mgmt.md?toc=/dynamics365/commerce/toc.json
+                    - name: Krājumu uzmeklēšana punktā POS
+                      href: ../retail/product-variants-POS.md?toc=/dynamics365/commerce/toc.json
+                    - name: Transakciju apturēšana un atsākšana punktā POS
+                      href: ../retail/pos-suspend-recall-transactions.md?toc=/dynamics365/commerce/toc.json
+                    - name: Bezsaistes POS funkcionalitāte
+                      href: ../retail/pos-offline-functionality.md?toc=/dynamics365/commerce/toc.json
+                    - name: Maiņu un naudas kastes pārvaldība
+                      href: ../retail/shift-drawer-management.md?toc=/dynamics365/commerce/toc.json
+                    - name: Skaidras naudas izmaksas dāvanu kartes bilance
+                      href: ../retail/dev-itpro/gift-card-cash-out.md?toc=/dynamics365/commerce/toc.json
+                    - name: Pasūtījumu nosūtīšana no cita veikala
+                      href: ../retail/charge-send.md?toc=/dynamics365/commerce/toc.json
+                    - name: Bezpārvadātāja piegādes režīmu paslēpšana POS sūtījumu dialogā
+                      href: ../retail/hide-non-carrier-modes.md?toc=/dynamics365/commerce/toc.json
+                    - name: "MPOS\_un Cloud POS uzdevuma reģistrētājs un palīdzība"
+                      href: ../retail/task-recorder-retail-pos.md?toc=/dynamics365/commerce/toc.json
+                    - name: Aparatūras perifērijas ierīces
+                      items:
+                        - name: Mazumtirdzniecības perifērijas ierīces
+                          href: ../retail/retail-peripherals-overview.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mazumtirdzniecības perifērijas ierīču simulators
+                          href: ../retail/dev-itpro/retail-peripheral-simulator.md?toc=/dynamics365/commerce/toc.json
+                        - name: Perifērijas ierīču savienošana ar POS
+                          href: ../retail/define-maintain-channel-clients-registers-hw-stations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ekrāna izkārtojumi
+                      items:
+                        - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS
+                          href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
+                        - name: Ekrāna izkārtojumi punktam POS
+                          href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
+                        - name: Retail POS izkārtojuma veidotāja instalēšana
+                          href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
+                        - name: Izvēlēties paziņojumu iestatījumus
+                          href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
+                        - name: POS programma un lietotāja valodas iestatījumi
+                          href: ../retail/pos-application-user-language-settings.md?toc=/dynamics365/commerce/toc.json
+                        - name: MPOS attēlu iestatīšana un pārvaldība
+                          href: ../retail/set-up-manage-images-retail-mpos.md?toc=/dynamics365/commerce/toc.json
+                        - name: Klientu attēli punktā POS
+                          href: ../retail/pos-image.md?toc=/dynamics365/commerce/toc.json
+                    - name: Debitoru pasūtījumi
+                      items:
+                        - name: Debitoru pasūtījumi programmā MPOS
+                          href: ../retail/customer-orders-overview.md?toc=/dynamics365/commerce/toc.json
+                        - name: Hibrīda debitoru pasūtījumi
+                          href: ../retail/hybrid-customer-orders.md?toc=/dynamics365/commerce/toc.json
+                    - name: Pārdošanas asistenti
+                      items:
+                        - name: 'POS komisijas maksu izsekošana, izmantojot pārdošanas grupas'
+                          href: ../retail/pos-sales-groups-track-commissions.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ierīces aktivizēšana
+                      items:
+                        - name: 'MPOS konfigurēšana, instalēšana un aktivizēšana'
+                          href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
+                        - name: Paplašinātās pieteikšanās funkcionalitātes iestatīšana MPOS un Cloud POS
+                          href: ../retail/extended-logon.md?toc=/dynamics365/commerce/toc.json
+                        - name: Retail aktivizēšanas kontu pārvaldība un ierīču validēšana
+                          href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
+                    - name: Kvītis
+                      items:
+                        - name: Kvīšu formātu iestatīšana un noformēšana
+                          href: ../retail/receipt-templates-printing.md?toc=/dynamics365/commerce/toc.json
+                        - name: E-pasta kvīšu sūtīšana no MPOS
+                          href: ../retail/email-receipts.md?toc=/dynamics365/commerce/toc.json
             - name: Tiešsaistes kanālu pārvaldība
               items:
-                - name: Tiešsaistes veikalu iestatīšana
-                  href: ../retail/online-stores.md?toc=/dynamics365/commerce/toc.json
-                - name: Īss mājas lapas apskats
-                  href: quick-tour-home-page.md
-                - name: Īss lapas Detalizēta informācija par preci apskats
-                  href: quick-tour-pdp.md
-                - name: Īss groza un norēķināšanās apskats
-                  href: quick-tour-cart-checkout.md
-                - name: Īss kontu pārvaldības apskats
-                  href: quick-tour-account-management.md
+                - name: Tiešsaistes veikala apskats
+                  href: online-store-overview.md
                 - name: E-komercijas vietnes izveide
                   items:
-                    - name: Tiešsaistes veikala apskats
-                      href: online-store-overview.md
-                    - name: E-komercijas vietnes izveide
-                      href: create-ecommerce-site.md
-                    - name: Jaunas e-komercijas vietnes izvietošana
-                      href: deploy-ecommerce-site.md
-                    - name: Tiešsaistes vietnes saistīšana ar kanālu
-                      href: associate-site-online-store.md
                     - name: Domēna nosaukuma konfigurēšana
                       href: configure-your-domain-name.md
+                    - name: Jauna e-komercijas nomnieka izvietošana
+                      href: deploy-ecommerce-site.md
+                    - name: Tiešsaistes veikala kanāla iestatīšana
+                      href: ../retail/online-stores.md?toc=/dynamics365/commerce/toc.json
+                    - name: E-komercijas vietnes izveide
+                      href: create-ecommerce-site.md
+                    - name: E-komercijas vietnes saistīšana ar tiešsaistes kanālu
+                      href: associate-site-online-store.md
+                    - name: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
+                      href: custom-pages-user-logins.md
                     - name: Atbalsta pievienošana satura piegādes tīklam (CDN)
                       href: add-cdn-support.md
                     - name: Veikala noteikšanas iespējošana pēc atrašanās vietas
                       href: enable-store-detection.md
-                    - name: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
-                      href: custom-pages-user-logins.md
-                - name: Autorēšanas rīki
+                - name: Parauga vietnes apskats
                   items:
-                    - name: Autorēšanas mājas lapas pārskats
+                    - name: Mājas lapas pārskats
+                      href: quick-tour-home-page.md
+                    - name: Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats
+                      href: category-search-page-overview.md
+                    - name: Preču papildinformācijas lapu apskats
+                      href: quick-tour-pdp.md
+                    - name: Pārskats par grozu un norēķināšanās lapām
+                      href: quick-tour-cart-checkout.md
+                    - name: Konta pārvaldības lapu apskats
+                      href: quick-tour-account-management.md
+                - name: Savas vietnes iestatījumu pārvaldība
+                  items:
+                    - name: Autorēšanas lapas pārskats
                       href: authoring-home-overview.md
-                - name: Vietnes pārvaldība
-                  items:
                     - name: Lietotāju un lomu pārvaldība
                       href: manage-ecommerce-users-roles.md
-                    - name: 'Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju'
-                      href: add-telemetry.md
                     - name: Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei
                       href: search-engine-optimization-considerations.md
                     - name: Satura drošības politikas (CSP) pārvaldība
                       href: manage-csp.md
-                - name: Satura pievienošana vietnei un tā pārvaldība
+                - name: Vietnes satura pārvaldība
                   items:
                     - name: Satura pievienošanas veidi
                       href: add-manage-content.md
-                    - name: Lapas elementi
+                    - name: Lapas modeļa glosārijs
                       href: page-elements-overview.md
                     - name: Dokumenta stāvokļi un dzīves cikls
                       href: document-states-overview.md
-                - name: Zīmola piešķiršana vietnei un detalizētas informācijas par veikalu pievienošana
-                  items:
-                    - name: Logotipa pievienošana
-                      href: add-logo.md
-                    - name: Vietnes dizaina atlase
-                      href: select-site-theme.md
-                    - name: Izlases ikonas pievienošana
-                      href: add-favicon.md
-                    - name: Sveiciena ziņojuma pievienošana
-                      href: add-welcome-message.md
-                    - name: Autortiesību paziņojuma pievienošana
-                      href: add-copyright-notice.md
-                    - name: Valodu pievienošana
-                      href: add-languages-to-site.md
-                - name: Lapas
-                  items:
-                    - name: Esošās vietnes lapas modificēšana
-                      href: modify-existing-page.md
-                    - name: Jaunas vietnes lapas pievienošana
-                      href: add-new-page.md
-                    - name: Lapas izkārtojumu atlase
-                      href: select-page-layouts.md
-                    - name: SEO metadatu pārvaldība
-                      href: manage-seo-metadata.md
-                    - name: 'Lapas saglabāšana, priekšskatīšana un publicēšana'
-                      href: save-preview-publish-page.md
-                    - name: Preces lapas papildināšana
-                      href: enrich-product-page.md
-                    - name: Kategorijas ielādes lapas papildināšana
-                      href: enrich-category-page.md
-                - name: Moduļi
-                  items:
-                    - name: Darbs ar moduļiem
-                      href: work-with-modules.md
-                - name: Fragmenti
-                  items:
-                    - name: Darbs ar fragmentiem
-                      href: work-with-fragments.md
-                - name: Veidnes un izkārtojumi
-                  items:
-                    - name: Pārskats par veidnēm un izkārtojumiem
-                      href: templates-layouts-overview.md
+                    - name: Zīmola piešķiršana vietnei un detalizētas informācijas par veikalu pievienošana
+                      items:
+                        - name: Logotipa pievienošana
+                          href: add-logo.md
+                        - name: Vietnes dizaina atlase
+                          href: select-site-theme.md
+                        - name: Izlases ikonas pievienošana
+                          href: add-favicon.md
+                        - name: Sveiciena ziņojuma pievienošana
+                          href: add-welcome-message.md
+                        - name: Autortiesību paziņojuma pievienošana
+                          href: add-copyright-notice.md
+                        - name: Valodu pievienošana
+                          href: add-languages-to-site.md
+                        - name: 'Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju'
+                          href: add-telemetry.md
+                    - name: Moduļi
+                      items:
+                        - name: Darbs ar moduļiem
+                          href: work-with-modules.md
+                    - name: Fragmenti
+                      items:
+                        - name: Darbs ar fragmentiem
+                          href: work-with-fragments.md
                     - name: Veidnes
                       items:
+                        - name: Pārskats par veidnēm un izkārtojumiem
+                          href: templates-layouts-overview.md
                         - name: Darbs ar veidnēm
                           href: work-with-templates.md
-                    - name: Izkārtojumi
-                      items:
                         - name: Darbs ar iepriekš iestatītiem izkārtojumiem
                           href: work-with-layouts.md
-                - name: Vietnes navigācija
-                  items:
-                    - name: Vietnes navigācijas pielāgošana
-                      href: customize-site-navigation.md
-                    - name: Lapas vietrāža URL izveide
-                      href: create-page-URL.md
+                    - name: Lapas
+                      items:
+                        - name: Esošās vietnes lapas modificēšana
+                          href: modify-existing-page.md
+                        - name: Jaunas vietnes lapas pievienošana
+                          href: add-new-page.md
+                        - name: Lapas izkārtojumu atlase
+                          href: select-page-layouts.md
+                        - name: SEO metadatu pārvaldība
+                          href: manage-seo-metadata.md
+                        - name: 'Lapas saglabāšana, priekšskatīšana un publicēšana'
+                          href: save-preview-publish-page.md
+                        - name: Preces lapas papildināšana
+                          href: enrich-product-page.md
+                        - name: Kategorijas ielādes lapas papildināšana
+                          href: enrich-category-page.md
+                    - name: Vietnes navigācija
+                      items:
+                        - name: Vietnes navigācijas pielāgošana
+                          href: customize-site-navigation.md
+                        - name: Lapas vietrāža URL izveide
+                          href: create-page-URL.md
                 - name: Sākuma komplekts
                   items:
                     - name: Sākuma komplekta pārskats
                       href: starter-kit-overview.md
-                    - name: Konta pārvaldības lapa
-                      href: account-management.md
-                    - name: Brīdinājuma moduļa pievienošana
-                      href: add-alert.md
-                    - name: Iegādes lodziņa pievienošana
-                      href: add-buy-box.md
-                    - name: Karuseļa moduļa pievienošana
-                      href: add-carousel.md
-                    - name: Groza moduļa pievienošana
-                      href: add-cart-module.md
-                    - name: Norēķināšanās moduļa pievienošana
-                      href: add-checkout-module.md
-                    - name: Konteinera moduļa pievienošana
-                      href: add-container-module.md
-                    - name: Satura izvietojuma moduļa pievienošana
-                      href: add-content-placement-modules.md
-                    - name: Satura bagātinātā bloka moduļa pievienošana
-                      href: add-content-rich-block.md
-                    - name: Līdzekļa moduļa pievienošana
-                      href: add-feature-module.md
-                    - name: Kājenes moduļa izveide
-                      href: author-footer-module.md
-                    - name: Galvenes moduļa izveide
-                      href: author-header-module.md
-                    - name: Centrālā moduļa pievienošana
-                      href: add-hero-module.md
-                    - name: Pasūtījuma apstiprināšanas moduļa izveide
-                      href: order-confirmation-module.md
-                    - name: Preču kolekcijas moduļa apskats
-                      href: product-collection-module-overview.md
-                    - name: Preču kolekcijas moduļa pievienošana
-                      href: add-product-collection-modules.md
-                    - name: Video atskaņotāja moduļa pievienošana
-                      href: add-video-player.md
+                    - name: Konteinera moduļi
+                      items:
+                        - name: Konteinera modulis
+                          href: add-container-module.md
+                    - name: Mārketinga moduļi
+                      items:
+                        - name: Brīdinājuma modulis
+                          href: add-alert.md
+                        - name: Karuseļa modulis
+                          href: add-carousel.md
+                        - name: Satura izvietojuma modulis
+                          href: add-content-placement-modules.md
+                        - name: Satura bagātinātā bloka modulis
+                          href: add-content-rich-block.md
+                        - name: Īpašības modulis
+                          href: add-feature-module.md
+                        - name: Centrālais modulis
+                          href: add-hero-module.md
+                        - name: Video atskaņotāja modulis
+                          href: add-video-player.md
+                    - name: Galvenes un kājenes moduļi
+                      items:
+                        - name: Galvenes modulis
+                          href: author-header-module.md
+                        - name: Kājenes modulis
+                          href: author-footer-module.md
+                    - name: Preces papildinformācijas lapas moduļi
+                      items:
+                        - name: Pirkšanas lodziņa modulis
+                          href: add-buy-box.md
+                    - name: Pirkšanas moduļi
+                      items:
+                        - name: Groza modulis
+                          href: add-cart-module.md
+                        - name: Norēķināšanās modulis
+                          href: add-checkout-module.md
+                        - name: Pasūtījuma apstiprinājuma modulis
+                          href: order-confirmation-module.md
+                    - name: Konta pārvaldības moduļi
+                      items:
+                        - name: Konta pārvaldības lapas un moduļi
+                          href: account-management.md
+                    - name: Preču kolekcijas moduļi
+                      items:
+                        - name: Preču kolekcijas moduļi
+                          href: product-collection-module-overview.md
                 - name: Meklēšana
                   items:
                     - name: Noklusējuma kategorijas ielādes lapa un meklēšanas rezultātu lapa
@@ -452,6 +602,8 @@
               items:
                 - name: Lojalitātes programmas pārskats
                   href: ../retail/set-up-customer-loyalty-program.md?toc=/dynamics365/commerce/toc.json
+                - name: Pārskats par attiecību veidošanu ar klientiem
+                  href: ../retail/clienteling-overview.md?toc=/dynamics365/commerce/toc.json
             - name: Maksājumi
               items:
                 - name: Maksāšanas metodes
@@ -508,28 +660,8 @@
               items:
                 - name: Veikala krājumu pārvaldība
                   href: ../retail/work-with-store-inventory.md?toc=/dynamics365/commerce/toc.json
-                - name: Sērijas numuru reģistrēšana pārdošanas procesā
+                - name: Darbs ar serializētajiem krājumiem
                   href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
-                - name: Krājumu žurnāli
-                  href: ../supply-chain/inventory/inventory-journals.md?toc=/dynamics365/commerce/toc.json
-                - name: Krājumu etiķešu inventarizācija
-                  href: ../supply-chain/inventory/inventory-tag-counting.md?toc=/dynamics365/commerce/toc.json
-                - name: FIFO ar fizisko vērtību un marķējumu
-                  href: ../supply-chain/cost-management/fifo-physical-value-marking.md?toc=/dynamics365/commerce/toc.json
-                - name: LIFO datums ar fizisko vērtību un marķējumu
-                  href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md?toc=/dynamics365/commerce/toc.json
-                - name: LIFO ar fizisko vērtību un marķējumu
-                  href: ../supply-chain/cost-management/lifo-physical-value-marking.md?toc=/dynamics365/commerce/toc.json
-                - name: Vidējā svērtā uz datumu
-                  href: ../supply-chain/cost-management/weighted-average-date.md?toc=/dynamics365/commerce/toc.json
-                - name: Vidējā svērtā ar fizisko vērtību un marķējumu
-                  href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md?toc=/dynamics365/commerce/toc.json
-                - name: Karantīnas pasūtījumi
-                  href: ../supply-chain/inventory/quarantine-orders.md?toc=/dynamics365/commerce/toc.json
-                - name: Pašreizējā vidējā izmaksu cena
-                  href: ../supply-chain/cost-management/running-average-cost-price.md?toc=/dynamics365/commerce/toc.json
-                - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
-                  href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md?toc=/dynamics365/commerce/toc.json
             - name: Pārskati
               items:
                 - name: Mazumtirdzniecības pārskati
@@ -588,86 +720,6 @@
                   href: ../retail/payment-methods-restrictions.md?toc=/dynamics365/commerce/toc.json
                 - name: Krājumu atgriešana vairākos debitoru pasūtījumos un rēķinos
                   href: ../retail/multireturn.md?toc=/dynamics365/commerce/toc.json
-        - name: "Modern Point of Sale (MPOS) un Cloud\_POS"
-          items:
-            - name: "Izvēle starp MPOS un Cloud\_POS"
-              href: ../retail/MPOS-or-CPOS.md?toc=/dynamics365/commerce/toc.json
-            - name: POS operācijas tiešsaistē un bezsaistē
-              href: ../retail/pos-operations.md?toc=/dynamics365/commerce/toc.json
-            - name: Ierīces aktivizēšana pielāgotajā Retail MPOS
-              href: ../retail/dev-itpro/retail-POS-activation-changes.md?toc=/dynamics365/commerce/toc.json
-            - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS un Cloud POS
-              href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
-            - name: Preču un klientu meklēšana punktā POS
-              href: ../retail/POS-search-improvements.md?toc=/dynamics365/commerce/toc.json
-            - name: Preces un preces variantu meklēšana pasūtījuma izveides laikā
-              href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
-            - name: Skaidras naudas pārvaldības uzlabojumi
-              href: ../retail/cash-mgmt.md
-            - name: Krājumu uzmeklēšana punktā POS
-              href: ../retail/product-variants-POS.md?toc=/dynamics365/commerce/toc.json
-            - name: Transakciju apturēšana un atsākšana punktā POS
-              href: ../retail/pos-suspend-recall-transactions.md?toc=/dynamics365/commerce/toc.json
-            - name: Bezsaistes POS funkcionalitāte
-              href: ../retail/pos-offline-functionality.md?toc=/dynamics365/commerce/toc.json
-            - name: Maiņu un naudas kastes pārvaldība
-              href: ../retail/shift-drawer-management.md?toc=/dynamics365/commerce/toc.json
-            - name: Skaidras naudas izmaksas dāvanu kartes bilance
-              href: ../retail/dev-itpro/gift-card-cash-out.md?toc=/dynamics365/commerce/toc.json
-            - name: Pasūtījumu nosūtīšana no cita veikala
-              href: ../retail/charge-send.md?toc=/dynamics365/commerce/toc.json
-            - name: Bezpārvadātāja piegādes režīmu paslēpšana POS sūtījumu dialogā
-              href: ../retail/hide-non-carrier-modes.md?toc=/dynamics365/commerce/toc.json
-            - name: "MPOS\_un Cloud POS uzdevuma reģistrētājs un palīdzība"
-              href: ../retail/task-recorder-retail-pos.md?toc=/dynamics365/commerce/toc.json
-            - name: Aparatūras perifērijas ierīces
-              items:
-                - name: Mazumtirdzniecības perifērijas ierīces
-                  href: ../retail/retail-peripherals-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Mazumtirdzniecības perifērijas ierīču simulators
-                  href: ../retail/dev-itpro/retail-peripheral-simulator.md?toc=/dynamics365/commerce/toc.json
-                - name: Perifērijas ierīču savienošana ar POS
-                  href: ../retail/define-maintain-channel-clients-registers-hw-stations.md?toc=/dynamics365/commerce/toc.json
-            - name: Ekrāna izkārtojumi
-              items:
-                - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS
-                  href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Ekrāna izkārtojumi punktam POS
-                  href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
-                - name: Retail POS izkārtojuma veidotāja instalēšana
-                  href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
-                - name: Izvēlēties paziņojumu iestatījumus
-                  href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
-                - name: POS programma un lietotāja valodas iestatījumi
-                  href: ../retail/pos-application-user-language-settings.md?toc=/dynamics365/commerce/toc.json
-                - name: MPOS attēlu iestatīšana un pārvaldība
-                  href: ../retail/set-up-manage-images-retail-mpos.md?toc=/dynamics365/commerce/toc.json
-                - name: Klientu attēli punktā POS
-                  href: ../retail/pos-image.md?toc=/dynamics365/commerce/toc.json
-            - name: Debitoru pasūtījumi
-              items:
-                - name: Debitoru pasūtījumi programmā MPOS
-                  href: ../retail/customer-orders-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Hibrīda debitoru pasūtījumi
-                  href: ../retail/hybrid-customer-orders.md?toc=/dynamics365/commerce/toc.json
-            - name: Pārdošanas asistenti
-              items:
-                - name: 'POS komisijas maksu izsekošana, izmantojot pārdošanas grupas'
-                  href: ../retail/pos-sales-groups-track-commissions.md?toc=/dynamics365/commerce/toc.json
-            - name: Ierīces aktivizēšana
-              items:
-                - name: 'MPOS konfigurēšana, instalēšana un aktivizēšana'
-                  href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
-                - name: Paplašinātās pieteikšanās funkcionalitātes iestatīšana MPOS un Cloud POS
-                  href: ../retail/extended-logon.md?toc=/dynamics365/commerce/toc.json
-                - name: Retail aktivizēšanas kontu pārvaldība un ierīču validēšana
-                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
-            - name: Kvītis
-              items:
-                - name: Kvīšu formātu iestatīšana un noformēšana
-                  href: ../retail/receipt-templates-printing.md?toc=/dynamics365/commerce/toc.json
-                - name: E-pasta kvīšu sūtīšana no MPOS
-                  href: ../retail/email-receipts.md?toc=/dynamics365/commerce/toc.json
         - name: Vērtējumi un atsauksmes
           items:
             - name: Vērtējumu un atsauksmju apskats
@@ -761,7 +813,7 @@
             - name: Meksika
               items:
                 - name: Global CFDI e-rēķini Meksikai
-                  href: ../finance/localizations/latam-mex-global-cfdi-3-3.md
+                  href: ../finance/localizations/latam-mex-global-cfdi-3-3.md?toc=/dynamics365/commerce/toc.json
             - name: Norvēģija
               items:
                 - name: Kases sistēmas funkcionalitāte
@@ -837,7 +889,7 @@
                 - name: Atvieglojumi
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: Skaidras naudas apskats
-                  href: ../finance/cash-bank-management/Cash-Overview-Power-BI-content.md
+                  href: ../finance/cash-bank-management/Cash-Overview-Power-BI-content.md?toc=/dynamics365/commerce/toc.json
                 - name: CFO apskats
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: Kompensācija
@@ -853,7 +905,7 @@
                 - name: Izmaksu pārvaldība
                   href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/commerce/toc.json
                 - name: Kredītu un iekasēšanas pārvaldība
-                  href: ../finance/accounts-receivable/credit-collections-power-bi.md
+                  href: ../finance/accounts-receivable/credit-collections-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: Darbinieku zināšanas un attīstība
                   href: ../fin-ops-core/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
                 - name: Darbinieku attīstība
@@ -865,7 +917,7 @@
                 - name: Finanšu ieskati
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/commerce/toc.json
                 - name: Pamatlīdzekļu pārvaldība
-                  href: ../finance/fixed-assets/Fixed-asset-management-workspace.md
+                  href: ../finance/fixed-assets/Fixed-asset-management-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Mācības
                   href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: Organizācijas apmācība
@@ -883,7 +935,7 @@
                 - name: Pārdošanas un ienesīguma veiktspēja
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/commerce/toc.json
                 - name: Kreditoru maksājumi
-                  href: ../finance/accounts-payable/Vendor-payments-workspace.md
+                  href: ../finance/accounts-payable/Vendor-payments-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Noliktavas veiktspēja
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/dynamics365/commerce/toc.json
                 - name: Darbaspēka rādītāji
@@ -901,7 +953,7 @@
                     - name: 'Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla drukāšanu'
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
                     - name: Dokumentu maršrutēšanas aģenta atjaunināšana
-                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md
+                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
                     - name: Tīkla printera ierīču instalēšana lokālās vidēs
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Dokumentu ģenerēšana, publicēšana un drukāšana lokālos izvietojumos'
@@ -1063,7 +1115,7 @@
                         - name: Failu importēšana XML formātā ar neobligātiem atribūtiem
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Elektronisko pārskatu formātu konfigurēšana, lai importētu XML formāta failus ar neobligātiem atribūtiem'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: ER datu avotu parametrizēto izsaukumu ar lauka veidu Aprēķināts atbalsts
@@ -1085,7 +1137,7 @@
                         - name: Konfigurāciju lejupielāde no elektronisko pārskatu repozitorija RCS tipam
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Konfigurāciju importēšana no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
                 - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
                   items:
                     - name: Struktūras konfigurēšana
@@ -1163,7 +1215,7 @@
                 - name: Power BI integrācija ar elementu krātuvi
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Problēmu risināšana pēc elementu krātuves uzturēšanas
-                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
+                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md?toc=/dynamics365/commerce/toc.json
                 - name: Power BI integrācijas konfigurēšana darbvietām
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Savas datu bāzes izmantošana
@@ -1177,7 +1229,7 @@
                 - name: Pieejamās mobilās darbvietas
                   href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/dynamics365/commerce/toc.json
                 - name: Līdzekļu pārvaldība
-                  href: ../supply-chain/asset-management/asset-management-mobile-workspace.md
+                  href: ../supply-chain/asset-management/asset-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Uzņēmuma direktorijs
                   href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Izmaksu kontrolēšana
@@ -1193,7 +1245,7 @@
                 - name: Project mobilo programmu apskats
                   href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Projekta laika ieraksts
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/retailtoc.json
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Project timesheet
                   href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
                 - name: Pirkšanas pasūtījuma apstiprināšana
@@ -1360,11 +1412,14 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Datuma/laika dati un laika joslas
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
-        - name: Paplašināmība
+        - name: Izstrāde
           items:
+            - name: Commerce izstrāde un paplašināmība
+              href: ../retail/dev-itpro/dev-retail-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Tiešsaistes kanāla paplašināmība
-              href: e-commerce-extensibility/overview.md
               items:
+                - name: Tiešsaistes kanāla paplašināmības pārskats
+                  href: e-commerce-extensibility/overview.md
                 - name: Darba sākšana
                   items:
                     - name: Sistēmas prasības
@@ -1477,222 +1532,160 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK un galvenie bibliotēkas atjauninājumi
                       href: e-commerce-extensibility/sdk-updates.md
-            - name: Retail izstrāde
+            - name: "Retail\_SDK"
               items:
-                - name: Retail izstrādes un administrēšanas apskats
-                  href: ../retail/dev-itpro/dev-retail-home-page.md?toc=/dynamics365/commerce/toc.json
-                - name: Arhitektūra
-                  items:
-                    - name: Retail komponenti
-                      href: ../retail/retail-components.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Server arhitektūra
-                      href: ../retail/dev-itpro/retail-server-architecture.md?toc=/dynamics365/commerce/toc.json
-                    - name: Veikala topoloģijas atlase
-                      href: ../retail/dev-itpro/retail-in-store-topology.md?toc=/dynamics365/commerce/toc.json
-                    - name: Commerce Data Exchange un mazumtirdzniecības kanālu saziņa
-                      href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Modern POS arhitektūra
-                      href: ../retail/dev-itpro/retail-modern-pos-architecture.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail tiešsaistes veikala publicēšanas arhitektūra
-                      href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Channel Performance Power BI saturs
-                      href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: Maksājumu programmu datu drošības standartu (PA-DSS) sertifikācija
-                      href: ../retail/dev-itpro/PA-DSS-Certification.md?toc=/dynamics365/commerce/toc.json
-                    - name: Lokālos izvietojumos pieejamās mazumtirdzniecības iespējas
-                      href: ../retail/retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Izvietošana un labojumfaili
-                  items:
-                    - name: Retail Store Scale Unit
-                      href: ../retail/dev-itpro/retail-store-system-begin.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Store Scale Unit konfigurēšana un instalēšana
-                      href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Modern POS konfigurēšana un instalēšana
-                      href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail kontu un ierīču pārvaldīšana no galvenā biroja
-                      href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail POS ierīces aktivizēšana
-                      href: ../retail/dev-itpro/retail-device-activation.md?toc=/dynamics365/commerce/toc.json
-                    - name: Cloud POS aizsardzības nodrošināšana koplietojamās vidēs
-                      href: ../retail/dev-itpro/secure-retail-cloud-pos.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Hardware Station konfigurēšana un instalēšana
-                      href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
-                    - name: Plaša Retail patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
-                      href: ../retail/dev-itpro/retail-mass-deployment.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail komponentu notikumi diagnostikai un problēmu novēršanai
-                      href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md?toc=/dynamics365/commerce/toc.json
-                    - name: Izvietojamas pakotnes pielietošana
-                      href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Jaunināšana un N-1 atbalsts
-                  items:
-                    - name: Jaunināšana un N-1 atbalsts programmai Retail
-                      href: ../retail/dev-itpro/overview-upgrade-n-minus1.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Pakāpeniskās izlādes (N-1) instalēšana, konfigurēšana un pārslēgšana'
-                      href: ../retail/dev-itpro/n-1-installation-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail kanāla paplašinājuma jaunināšana uz jaunāko Retail SDK
-                      href: ../retail/dev-itpro/retailSDK-update.md?toc=/dynamics365/commerce/toc.json
-                - name: Ieviešanas vadlīnijas
-                  items:
-                    - name: Ierīces pārvaldības ieviešanas vadlīnijas
-                      href: ../retail/implementation-considerations-devices.md?toc=/dynamics365/commerce/toc.json
-                - name: Vides konfigurēšana
-                  items:
-                    - name: Saišu pievienošana organizācijas juridiskajiem nosacījumiem un paziņojumam par konfidencialitāti
-                      href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/commerce/toc.json
-                    - name: Bing karšu pārvaldība
-                      href: ../retail/dev-itpro/manage-bing-maps.md?toc=/dynamics365/commerce/toc.json
-                - name: Retail paplašinājumu resursu un etiķešu failu lokalizēšana
-                  href: ../retail/dev-itpro/extension-resource-localization.md?toc=/dynamics365/commerce/toc.json
-                - name: Pārdošanas punktu paplašināmība
-                  items:
-                    - name: Retail POS ekrāna izkārtojumi
-                      href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
-                    - name: URL atvēršana punktā POS
-                      href: ../retail/Open-URL-in-POS.md?toc=/dynamics365/commerce/toc.json
-                    - name: POS izkārtojuma veidotāja instalēšana
-                      href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Modern POS bezsaistes režīmā
-                      href: ../retail/dev-itpro/retail-modern-pos-offline.md?toc=/dynamics365/commerce/toc.json
-                    - name: POS duālā displeja skata paplašināšana
-                      href: ../retail/dev-itpro/pos-dual-display-extension.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Modern POS un Cloud POS trigera paplašināmība
-                      href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pielāgotu vadīklu pievienošana POS skatiem
-                      href: ../retail/dev-itpro/pos-custom-control.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'POS operāciju pievienošana POS izkārtojumiem, izmantojot pogu režģa noformētāju'
-                      href: ../retail/dev-itpro/add-POS-operations.md
-                    - name: Retail POS API
-                      href: ../retail/dev-itpro/POS-APIs.md?toc=/dynamics365/commerce/toc.json
-                    - name: POS maksājumu paplašinājums
-                      href: ../retail/dev-itpro/pos-payment-extension.md?toc=/dynamics365/commerce/toc.json
-                    - name: Atbalsts ārējām dāvanu kartēm
-                      href: ../retail/dev-itpro/gift-card.md?toc=/dynamics365/commerce/toc.json
-                    - name: Zīmolrades izveide un lietošana Retail Experience programmā
-                      href: ../retail/dev-itpro/create-retail-experience-app.md?toc=/dynamics365/commerce/toc.json
-                    - name: POS Hybrid programmas iestatīšana operētājsistēmās Android un iOS
-                      href: ../retail/dev-itpro/hybridApp.md?toc=/dynamics365/commerce/toc.json
-                    - name: POS pieprasījuma apstrādātāja ignorēšana
-                      href: ../retail/dev-itpro/pos-handler.md?toc=/dynamics365/commerce/toc.json
-                    - name: "POS\_paplašinājuma pakotnes informācijas skatīšana"
-                      href: ../retail/dev-itpro/view-pos-extension-package-details.md?toc=/dynamics365/commerce/toc.json
-                    - name: Ierakstītāja un Regression Suite Automation Tool pārbaude risinājumam Retail Cloud POS
-                      href: ../retail/dev-itpro/pos-rsat.md?toc=/dynamics365/commerce/toc.json
+                - name: “Retail SDK” arhitektūra
+                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Gaidāmās izmaiņas komplektā “Retail SDK”
+                  href: ../retail/dev-itpro/UpcomingSDKChanges.md?toc=/dynamics365/commerce/toc.json
+                - name: Būvējuma sistēmu sapludināšana programmām Retail un Finance and Operations
+                  href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail SDK paplašināmības paraugi
+                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md?toc=/dynamics365/commerce/toc.json
+                - name: Mazumtirdzniecībā izvietojamo pakotņu izveide
+                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md?toc=/dynamics365/commerce/toc.json
+                - name: Izstrādes veikšana izstrādes mākoņvidēs bez administratora piekļuves
+                  href: ../retail/dev-itpro/cloud-dev-box.md?toc=/dynamics365/commerce/toc.json
+            - name: Pārdošanas punktu paplašināmība
+              items:
+                - name: Retail POS ekrāna izkārtojumi
+                  href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
+                - name: URL atvēršana punktā POS
+                  href: ../retail/Open-URL-in-POS.md?toc=/dynamics365/commerce/toc.json
+                - name: POS izkārtojuma veidotāja instalēšana
+                  href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
+                - name: POS duālā displeja skata paplašināšana
+                  href: ../retail/dev-itpro/pos-dual-display-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Modern POS un Cloud POS trigera paplašināmība
+                  href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotu vadīklu pievienošana POS skatiem
+                  href: ../retail/dev-itpro/pos-custom-control.md?toc=/dynamics365/commerce/toc.json
+                - name: 'POS operāciju pievienošana POS izkārtojumiem, izmantojot pogu režģa noformētāju'
+                  href: ../retail/dev-itpro/add-POS-operations.md
+                - name: Retail POS API
+                  href: ../retail/dev-itpro/POS-APIs.md?toc=/dynamics365/commerce/toc.json
+                - name: POS maksājumu paplašinājums
+                  href: ../retail/dev-itpro/pos-payment-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: Atbalsts ārējām dāvanu kartēm
+                  href: ../retail/dev-itpro/gift-card.md?toc=/dynamics365/commerce/toc.json
+                - name: Zīmolrades izveide un lietošana Retail Experience programmā
+                  href: ../retail/dev-itpro/create-retail-experience-app.md?toc=/dynamics365/commerce/toc.json
+                - name: POS Hybrid programmas iestatīšana operētājsistēmās Android un iOS
+                  href: ../retail/dev-itpro/hybridApp.md?toc=/dynamics365/commerce/toc.json
+                - name: POS pieprasījuma apstrādātāja ignorēšana
+                  href: ../retail/dev-itpro/pos-handler.md?toc=/dynamics365/commerce/toc.json
+                - name: "POS\_paplašinājuma pakotnes informācijas skatīšana"
+                  href: ../retail/dev-itpro/view-pos-extension-package-details.md?toc=/dynamics365/commerce/toc.json
+                - name: Ierakstītāja un Regression Suite Automation Tool pārbaude risinājumam Retail Cloud POS
+                  href: ../retail/dev-itpro/pos-rsat.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotu lauku pievienošana POS kopsummu panelim
+                  href: ../retail/dev-itpro/custom-field-pos-totals.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotu paziņojumu rādīšana punktā POS
+                  href: ../retail/dev-itpro/extend-pos-notification.md?toc=/dynamics365/commerce/toc.json
+                - name: MPOS parakstīšana ar koda parakstīšanas sertifikātu
+                  href: ../retail/dev-itpro/pos-app-signing-certificate.md?toc=/dynamics365/commerce/toc.json
+                - name: 'POS skatu paplašināšana, lai pievienotu pielāgotas kolonnas un programmu joslu pogas'
+                  href: ../retail/dev-itpro/pos-view-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotu vadīklu pievienošana Retail Modern POS transakciju lapām
+                  href: ../retail/dev-itpro/pos-custom-transaction.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotu kolonnu pievienošana POS transakciju režģim
+                  href: ../retail/dev-itpro/pos-custom-transaction-column.md?toc=/dynamics365/commerce/toc.json
+                - name: POS API vai operāciju izsaukšana no POS paplašinājumiem
+                  href: ../retail/dev-itpro/pos-api-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Modern POS trigeri un drukāšana
+                  href: ../retail/dev-itpro/pos-trigger-printing.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Pielāgotu vadīklu pievienošana POS skatiem, kuru pamatā nav ekrāna veidotājs'
+                  href: ../retail/dev-itpro/pos-control-non-screen.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail POS paraugu palaišana
+                  href: ../retail/dev-itpro/pos-run-samples.md?toc=/dynamics365/commerce/toc.json
+                - name: Ierīces pārvaldības ieviešanas vadlīnijas
+                  href: ../retail/implementation-considerations-devices.md?toc=/dynamics365/commerce/toc.json
+            - name: Hardware Station paplašināmība
+              items:
                 - name: Hardware Station un paplašināmība
                   href: ../retail/dev-itpro/hardware-station-extensibility.md?toc=/dynamics365/commerce/toc.json
                 - name: POS integrācija ar jaunu aparatūras ierīci
                   href: ../retail/dev-itpro/hardware-device-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: Retail Server paplašināmība
-                  items:
-                    - name: Retail Server OData kontroliera paplašināšana
-                      href: ../retail/dev-itpro/extend-retail-server-odata-controller.md?toc=/dynamics365/commerce/toc.json
-                    - name: Izveidot tīmekļa API kontrolleri produktam Retail Server
-                      href: ../retail/dev-itpro/odata-controllers-api.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Server klienta un patērētāja API
-                      href: ../retail/dev-itpro/retail-server-customer-consumer-api.md?toc=/dynamics365/commerce/toc.json
-                    - name: Noklusējuma Retail Server metadatu kontrollera paplašināšana
-                      href: ../retail/dev-itpro/extend-metadata.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pakalpojuma CRT izsaukšana bezsaistes režīmā
-                      href: ../retail/dev-itpro/call-crt-service-offline.md?toc=/dynamics365/commerce/toc.json
-                    - name: Jauna Retail Server paplašinājuma izveide
-                      href: ../retail/dev-itpro/retail-server-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce Runtime (CRT) paplašināmība
-                  items:
-                    - name: CRT arhitektūra un konfigurēšana
-                      href: ../retail/dev-itpro/commerce-runtime-overview.md?toc=/dynamics365/commerce/toc.json
-                    - name: CRT pakalpojumi
-                      href: ../retail/dev-itpro/crt-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: CRT un Retail Server paplašināmība
-                      href: ../retail/dev-itpro/commerce-runtime-extensibility.md?toc=/dynamics365/commerce/toc.json
-                    - name: Debitora preferenču datu pievienošana kanāla datu bāzēm
-                      href: ../retail/dev-itpro/add-customer-preference-channel.md?toc=/dynamics365/commerce/toc.json
-                    - name: Mazumtirdzniecības kanālu noslēpumu pārvaldība
-                      href: ../retail/dev-itpro/manage-secrets.md?toc=/dynamics365/commerce/toc.json
-                    - name: Rekvizītu pievienošana pārdošanas pasūtījumiem
-                      href: ../retail/dev-itpro/add-properties-sales-order.md?toc=/dynamics365/commerce/toc.json
-                    - name: CRT paplašināmība un trigeri
-                      href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Transakciju bloķēšana, izmantojot trigerus'
-                      href: ../retail/dev-itpro/trigger-example-blocking-transaction.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Atgriešanas politikas ieviešana, izmantojot trigerus'
-                      href: ../retail/dev-itpro/trigger-example-return-policy.md?toc=/dynamics365/commerce/toc.json
-                - name: E-komercijas paplašināmība
-                  items:
-                    - name: Konfigurēt tiešsaistes veikalus
-                      href: ../retail/dev-itpro/configure-online-store.md?toc=/dynamics365/commerce/toc.json
-                    - name: Autentifikācijas nodrošinātāju konfigurēšana
-                      href: ../retail/dev-itpro/configure-authentication-providers.md?toc=/dynamics365/commerce/toc.json
-                    - name: E-komercijas platforma
-                      href: ../retail/dev-itpro/ecommerce-platform.md?toc=/dynamics365/commerce/toc.json
-                    - name: E-komercijas platformas SDK
-                      href: ../retail/dev-itpro/ecommerce-platform-sdk.md?toc=/dynamics365/commerce/toc.json
-                - name: Maksājumu savienotāja paplašināmība
-                  items:
-                    - name: Izveidot maksājumu integrācija ar maksājumu termināli
-                      href: ../retail/dev-itpro/end-to-end-payment-extension.md?toc=/dynamics365/commerce/toc.json
-                    - name: Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)
-                      href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
-                    - name: Maksājumu savienotāju izvietošana
-                      href: ../retail/dev-itpro/deploy-payment-connector.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pielāgotu lokalizētu kļūdu ziņojumu izveide maksājumu termināļa paplašinājumiem
-                      href: ../retail/dev-itpro/payment-custom-error-messages.md?toc=/dynamics365/commerce/toc.json
-                    - name: Windows instalētāju izveide maksājumu savienotājiem
-                      href: ../retail/dev-itpro/create-windows-installer-payment-connector.md?toc=/dynamics365/commerce/toc.json
-                    - name: Maksājuma datu izmantošana
-                      href: ../retail/payment-connector-data-fields.md?toc=/dynamics365/commerce/toc.json
-                    - name: Maksājumu dublikātu aizsardzības iespējošana maksājumu savienotājam
-                      href: ../retail/dev-itpro/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
-                - name: "Retail\_SDK"
-                  items:
-                    - name: “Retail SDK” arhitektūra
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md?toc=/dynamics365/commerce/toc.json
-                    - name: Gaidāmās izmaiņas komplektā “Retail SDK”
-                      href: ../retail/dev-itpro/UpcomingSDKChanges.md?toc=/dynamics365/commerce/toc.json
-                    - name: Būvējuma sistēmu sapludināšana programmām Retail un Finance and Operations
-                      href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail SDK paplašināmības paraugi
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md?toc=/dynamics365/commerce/toc.json
-                    - name: Mazumtirdzniecībā izvietojamo pakotņu izveide
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail SDK paraugi
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md?toc=/dynamics365/commerce/toc.json
-                    - name: Paplašinājuma punkti pavadzīmēm
-                      href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Kanāla datu bāzes paplašinājumi
-                      href: ../retail/dev-itpro/channel-db-extensions.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Iespējot pielāgotu CDX sinhronizāciju, izmantojot paplašinājumu'
-                      href: ../retail/dev-itpro/cdx-extensibility.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pielāgotu lauku pievienošana POS kopsummu panelim
-                      href: ../retail/dev-itpro/custom-field-pos-totals.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pasūtījuma atribūtu definēšana un iestatīšana
-                      href: ../retail/dev-itpro/order-attributes.md?toc=/dynamics365/commerce/toc.json
-                    - name: Debitora atribūti
-                      href: ../retail/dev-itpro/customer-attributes.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Retail Typescript un C# starpniekserveri'
-                      href: ../retail/dev-itpro/typescript-proxy-retail-pos.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail POS paraugu palaišana
-                      href: ../retail/dev-itpro/pos-run-samples.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'POS skatu paplašināšana, lai pievienotu pielāgotas kolonnas un programmu joslu pogas'
-                      href: ../retail/dev-itpro/pos-view-extension.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pielāgotu vadīklu pievienošana Retail Modern POS transakciju lapām
-                      href: ../retail/dev-itpro/pos-custom-transaction.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pielāgotu kolonnu pievienošana POS transakciju režģim
-                      href: ../retail/dev-itpro/pos-custom-transaction-column.md?toc=/dynamics365/commerce/toc.json
-                    - name: POS API vai operāciju izsaukšana no POS paplašinājumiem
-                      href: ../retail/dev-itpro/pos-api-extension.md?toc=/dynamics365/commerce/toc.json
-                    - name: Retail Modern POS trigeri un drukāšana
-                      href: ../retail/dev-itpro/pos-trigger-printing.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Pielāgotu vadīklu pievienošana POS skatiem, kuru pamatā nav ekrāna veidotājs'
-                      href: ../retail/dev-itpro/pos-control-non-screen.md?toc=/dynamics365/commerce/toc.json
-                    - name: Izstrādes veikšana izstrādes mākoņvidēs bez administratora piekļuves
-                      href: ../retail/dev-itpro/cloud-dev-box.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pielāgotu paziņojumu rādīšana punktā POS
-                      href: ../retail/dev-itpro/extend-pos-notification.md?toc=/dynamics365/commerce/toc.json
-                    - name: MPOS parakstīšana ar koda parakstīšanas sertifikātu
-                      href: ../retail/dev-itpro/pos-app-signing-certificate.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce Runtime
-                  items:
-                    - name: Lojalitātes paplašinājums
-                      href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md?toc=/dynamics365/commerce/toc.json
+            - name: Retail Server paplašināmība
+              items:
+                - name: Retail Server OData kontroliera paplašināšana
+                  href: ../retail/dev-itpro/extend-retail-server-odata-controller.md?toc=/dynamics365/commerce/toc.json
+                - name: Izveidot tīmekļa API kontrolleri produktam Retail Server
+                  href: ../retail/dev-itpro/odata-controllers-api.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Server klienta un patērētāja API
+                  href: ../retail/dev-itpro/retail-server-customer-consumer-api.md?toc=/dynamics365/commerce/toc.json
+                - name: Noklusējuma Retail Server metadatu kontrollera paplašināšana
+                  href: ../retail/dev-itpro/extend-metadata.md?toc=/dynamics365/commerce/toc.json
+                - name: Pakalpojuma CRT izsaukšana bezsaistes režīmā
+                  href: ../retail/dev-itpro/call-crt-service-offline.md?toc=/dynamics365/commerce/toc.json
+                - name: Jauna Retail Server paplašinājuma izveide
+                  href: ../retail/dev-itpro/retail-server-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Retail Typescript un C# starpniekserveri'
+                  href: ../retail/dev-itpro/typescript-proxy-retail-pos.md?toc=/dynamics365/commerce/toc.json
+            - name: Commerce Runtime (CRT) paplašināmība
+              items:
+                - name: CRT arhitektūra un konfigurēšana
+                  href: ../retail/dev-itpro/commerce-runtime-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: CRT pakalpojumi
+                  href: ../retail/dev-itpro/crt-services.md?toc=/dynamics365/commerce/toc.json
+                - name: CRT un Retail Server paplašināmība
+                  href: ../retail/dev-itpro/commerce-runtime-extensibility.md?toc=/dynamics365/commerce/toc.json
+                - name: Debitora preferenču datu pievienošana kanāla datu bāzēm
+                  href: ../retail/dev-itpro/add-customer-preference-channel.md?toc=/dynamics365/commerce/toc.json
+                - name: Mazumtirdzniecības kanālu noslēpumu pārvaldība
+                  href: ../retail/dev-itpro/manage-secrets.md?toc=/dynamics365/commerce/toc.json
+                - name: Rekvizītu pievienošana pārdošanas pasūtījumiem
+                  href: ../retail/dev-itpro/add-properties-sales-order.md?toc=/dynamics365/commerce/toc.json
+                - name: CRT paplašināmība un trigeri
+                  href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Transakciju bloķēšana, izmantojot trigerus'
+                  href: ../retail/dev-itpro/trigger-example-blocking-transaction.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Atgriešanas politikas ieviešana, izmantojot trigerus'
+                  href: ../retail/dev-itpro/trigger-example-return-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: Lojalitātes paplašinājums
+                  href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md?toc=/dynamics365/commerce/toc.json
+                - name: Paplašinājuma punkti pavadzīmēm
+                  href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Kanāla datu bāzes paplašinājumi
+                  href: ../retail/dev-itpro/channel-db-extensions.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Pielāgotas CDX sinhronizācijas iespējošana, izmantojot paplašinājumu'
+                  href: ../retail/dev-itpro/cdx-extensibility.md?toc=/dynamics365/commerce/toc.json
+                - name: Pasūtījuma atribūtu definēšana un iestatīšana
+                  href: ../retail/dev-itpro/order-attributes.md?toc=/dynamics365/commerce/toc.json
+                - name: Debitora atribūti
+                  href: ../retail/dev-itpro/customer-attributes.md?toc=/dynamics365/commerce/toc.json
+                - name: CRT SDK paraugi
+                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md?toc=/dynamics365/commerce/toc.json
+                - name: Paplašinājuma notikumu reģistrēšana pakalpojumā Application Insights
+                  href: ../retail/dev-itpro/commerce-application-insights.md?toc=/dynamics365/commerce/toc.json
+            - name: Maksājumu savienotāja paplašināmība
+              items:
+                - name: Maksājumu integrācijas izveide maksājumu terminālim
+                  href: ../retail/dev-itpro/end-to-end-payment-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)
+                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
+                - name: Maksājumu savienotāju izvietošana
+                  href: ../retail/dev-itpro/deploy-payment-connector.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotu lokalizētu kļūdu ziņojumu izveide maksājumu termināļa paplašinājumiem
+                  href: ../retail/dev-itpro/payment-custom-error-messages.md?toc=/dynamics365/commerce/toc.json
+                - name: Windows instalētāju izveide maksājumu savienotājiem
+                  href: ../retail/dev-itpro/create-windows-installer-payment-connector.md?toc=/dynamics365/commerce/toc.json
+                - name: Maksājuma datu izmantošana
+                  href: ../retail/payment-connector-data-fields.md?toc=/dynamics365/commerce/toc.json
+                - name: Maksājumu dublikātu aizsardzības iespējošana maksājumu savienotājam
+                  href: ../retail/dev-itpro/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
+            - name: Trešās puses e-komercijas paplašināmība
+              items:
+                - name: Tiešsaistes veikalu konfigurēšana
+                  href: ../retail/dev-itpro/configure-online-store.md?toc=/dynamics365/commerce/toc.json
+                - name: Autentifikācijas nodrošinātāju konfigurēšana
+                  href: ../retail/dev-itpro/configure-authentication-providers.md?toc=/dynamics365/commerce/toc.json
+                - name: E-komercijas platforma
+                  href: ../retail/dev-itpro/ecommerce-platform.md?toc=/dynamics365/commerce/toc.json
+                - name: E-komercijas platformas SDK
+                  href: ../retail/dev-itpro/ecommerce-platform-sdk.md?toc=/dynamics365/commerce/toc.json
+            - name: Retail paplašinājumu resursu un etiķešu failu lokalizēšana
+              href: ../retail/dev-itpro/extension-resource-localization.md?toc=/dynamics365/commerce/toc.json
     - name: Finance and Operations programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Retail
