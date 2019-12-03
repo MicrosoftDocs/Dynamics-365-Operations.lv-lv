@@ -168,7 +168,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/retail/toc.json
             - name: Ieviešanas dzīves cikla pārvaldība
               items:
-                - name: Īstenošanas cikla pārvaldības sākumlapa
+                - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/retail/toc.json
                 - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/retail/toc.json
@@ -850,6 +850,8 @@
           items:
             - name: Lojalitātes programmas pārskats
               href: set-up-customer-loyalty-program.md
+            - name: Pārskats par attiecību veidošanu ar klientiem
+              href: clienteling-overview.md
         - name: Maksājumi
           items:
             - name: Maksāšanas metodes
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: POS izkārtojuma veidotāja instalēšana
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS bezsaistes režīmā
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: POS duālā displeja skata paplašināšana
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Retail Modern POS un Cloud POS trigera paplašināmība
@@ -1332,9 +1332,11 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: 'Atgriešanas politikas ieviešana, izmantojot trigerus'
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Paplašinājuma notikumu reģistrēšana pakalpojumā Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: E-komercijas paplašināmība
               items:
-                - name: Konfigurēt tiešsaistes veikalus
+                - name: Tiešsaistes veikalu konfigurēšana
                   href: dev-itpro/configure-online-store.md
                 - name: Autentifikācijas nodrošinātāju konfigurēšana
                   href: dev-itpro/configure-authentication-providers.md
@@ -1342,7 +1344,7 @@
                   href: dev-itpro/ecommerce-platform-sdk.md
             - name: Maksājumu savienotāja paplašināmība
               items:
-                - name: Izveidot maksājumu integrācija ar maksājumu termināli
+                - name: Maksājumu integrācijas izveide maksājumu terminālim
                   href: dev-itpro/end-to-end-payment-extension.md
                 - name: Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
@@ -1374,7 +1376,7 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanāla datu bāzes paplašinājumi
                   href: dev-itpro/channel-db-extensions.md
-                - name: 'Iespējot pielāgotu CDX sinhronizāciju, izmantojot paplašinājumu'
+                - name: 'Pielāgotas CDX sinhronizācijas iespējošana, izmantojot paplašinājumu'
                   href: dev-itpro/cdx-extensibility.md
                 - name: Pielāgotu lauku pievienošana POS kopsummu panelim
                   href: dev-itpro/custom-field-pos-totals.md

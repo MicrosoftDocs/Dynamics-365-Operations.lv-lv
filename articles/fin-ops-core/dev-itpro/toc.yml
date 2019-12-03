@@ -2,6 +2,8 @@
   items:
     - name: Finance and Operations programmu izstrāde un administrēšana
       items:
+        - name: "Finance and\_Operations programmu dokumentācija"
+          href: ../fin-ops/index.md
         - name: Finance and Operations programmu izstrāde un administrēšana
           href: index.md
         - name: Jaunumi un izmaiņas
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Organizācijas hierarhija pakalpojumā Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: Uzņēmuma koncepcija pakalpojumā Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: Uzņēmuma integrācija
+                          items:
+                            - name: Uzņēmuma koncepcija pakalpojumā Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: Palaišana ar uzņēmuma datiem
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Integrētie debitoru pamatdati
                           href: data-entities/dual-write-customer.md
+                        - name: Integrētā virsgrāmata
+                          href: data-entities/dual-write-ledger.md
                         - name: Vienotā preču pieredze
                           href: data-entities/dual-write-product.md
-                        - name: Integrētie kreditoru pamatdati
-                          href: data-entities/dual-write-vendor.md
+                        - name: Kreditora integrācija
+                          items:
+                            - name: Integrētie kreditoru pamatdati
+                              href: data-entities/dual-write-vendor.md
+                            - name: Pārslēgšanās starp kreditoru noformējumiem
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Integrētās vietas un noliktavas
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Integrētie nodokļu pamatdati
+                          href: data-entities/dual-write-tax.md
                         - name: Sākotnējā sinhronizācija
                           href: data-entities/dual-write-initial.md
                         - name: Datu integrācijas problēmu novēršana
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Lokālu izvietojumu problēmu novēršana
                   href: deployment/troubleshoot-on-prem.md
+                - name: Skripti problēmu risināšanai lokālā vidē
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Sertifikāta rotācija
                   href: deployment/certificate-rotation-on-prem.md
             - name: Pielāgota koda izvietošana
@@ -1024,7 +1040,7 @@
                       href: mobile-apps/platform/client-apis/modules/event-ievent.md
                     - name: Control modulis
                       href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-                    - name: "Container\_modulis"
+                    - name: Konteinera modulis
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: Field modulis
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
