@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174700"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770237"
 ---
 # <a name="public-sector-home-page"></a>Publiskā sektora sākumlapa
 
@@ -42,13 +42,13 @@ Izmantojiet funkcionalitāti “Publiskais sektors”, lai ievērotu noteikumus,
 
   Papildinformāciju skatiet tālāk norādītajās tēmās.
 
-- [Plānošana publiskā sektora funkcionalitātei](plan-public-sector-functionality.md)
-- [Modulis “Parādi kreditoriem” publiskajā sektorā](accounts-payable-public-sector.md)
-- [Modulis “Debitoru parādi” publiskajā sektorā](accounts-receivable-public-sector.md)
-- [Budžeta veidošana publiskajā sektorā](budgeting-public-sector.md)
+- [Plāns publiskā sektora funkcionalitātei](plan-public-sector-functionality.md)
+- [Moduļa “Kreditori” publiskajā sektorā pārskats](accounts-payable-public-sector.md)
+- [Moduļa “Debitoru parādi” publiskajā sektorā pārskats](accounts-receivable-public-sector.md)
+- [Budžeta veidošanas publiskajā sektorā pārskats](budgeting-public-sector.md)
 - [Pamatlīdzekļi publiskajā sektorā](fixed-asset-public-sector.md)
-- [Francijas normatīvie līdzekļi](../localizations/emea-fra-public-sector-accounting.md)
-- [Virsgrāmata publiskajā sektorā](general-ledger-public-sector.md)
+- [Publiskā sektora uzskaite Francijā](../localizations/emea-fra-public-sector-accounting.md)
+- [Virsgrāmatas publiskajā sektorā pārskats](general-ledger-public-sector.md)
 - [Sagāde un avoti publiskajā sektorā](procurement-sourcing-public-sector.md)
 - [Drošības lomas publiskajā sektorā](security-roles-public-sector.md)
 
@@ -70,7 +70,7 @@ Nākamajā tabulā ir sniegta informācija par veidu, kā šī konfigurācijas a
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Plānošana publiskā sektora funkcionalitātei](plan-public-sector-functionality.md)
+[Plāns publiskā sektora funkcionalitātei](plan-public-sector-functionality.md)
 
 
 

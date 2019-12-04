@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658740"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772241"
 ---
 # <a name="accounts-payable-home-page"></a>Moduļa “Parādi kreditoriem” sākumlapa
 
@@ -41,7 +41,7 @@ Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmant
 
 Iestatiet kreditoru grupas, kreditorus, grāmatošanas metodes, dažādus maksājumu variantus un ar kreditoriem saistītos parametrus, maksas, piegādes un adresātus, parādzīmes, kā arī citu veidu kreditoru informāciju. 
 
-[Moduļa “Parādi kreditoriem” konfigurēšana](accounts-payable-overview.md)
+[Moduļa “Kreditori” konfigurēšanas pārskats](accounts-payable-overview.md)
 
 [Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,7 +51,7 @@ Iestatiet kreditoru grupas, kreditorus, grāmatošanas metodes, dažādus maksā
 
 Izmantojiet moduli “Parādi kreditoriem”, lai izsekotu kreditoru rēķinus un izejošos izdevumus.
 
-[Rēķinu salīdzināšana modulim “Parādi kreditoriem”](accounts-payable-invoice-matching.md)
+[Rēķinu salīdzināšana modulim “Kreditori”](accounts-payable-invoice-matching.md)
 
 [Kreditoru grāmatošanas metodes](vendor-posting-profiles.md)
 
@@ -61,7 +61,7 @@ Izmantojiet moduli “Parādi kreditoriem”, lai izsekotu kreditoru rēķinus u
 
 [Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi](invoice-matching-intercompany-purchase-orders.md)
 
-[Atrisināt neatbilstību rēķinu kopsummu salīdzināšanas laikā](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Neatbilstību atrisināšanas rēķinu kopsummu salīdzināšanas laikā pārskats](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Noklusējuma korespondējošie konti kreditoru rēķinu žurnāliem un rēķinu apstiprinājumu žurnāliem](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,27 +93,27 @@ Piešķiriet sistēmas definētu maksājuma veidu, piemēram, čeku, elektronisk
 
 [Piemērot termiņatlaidi ārpus termiņatlaides perioda](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Kreditora elektronisko pārskatu pārbaudes](electronic-reporting-sample-vendor-checks.md)
+[Elektronisko pārskatu kreditoru čeku paraugi](electronic-reporting-sample-vendor-checks.md)
 
 [Kreditora maksājumu atsaukšana](reverse-vendor-payment.md)
 
-[Priekšapmaksas rēķinu un priekšapmaksu apskats](prepayments-invoices-vs-prepayments.md)
+[Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu](prepayments-invoices-vs-prepayments.md)
 
 [Centralizētie maksājumi modulim “Parādi kreditoriem”](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a>Segšanas darbības
+## <a name="settlements"></a>Sasaistītās darbības
 
 Tālāk esošajās tēmās sniegta informācija par segšanas darbībām. Segšana ir rēķinu maksājumu segšanas process. 
 
 [Segšanas konfigurēšana](../cash-bank-management/configure-settlement.md)
 
-[Daļēja kreditora maksājuma segšana pirms atlaides datuma](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Daļēja kreditora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Daļēja kreditora maksājuma, kam ir atlaides kreditora kredīta notām, segšana](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
-[Nosegt daļēju kreditora maksājumu, kam ir vairāki atlaižu periodi](settle-partial-vendor-payment-multiple-discount-periods.md)
+[Daļēja kreditora maksājuma, kam ir vairāki atlaižu periodi, segšana](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Daļēja kreditora maksājuma vai gala maksājuma segšana pirms atlaides](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Daļēja kreditora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ Tālāk esošajās tēmās sniegta informācija par segšanas darbībām. Segša
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Emuāri
 

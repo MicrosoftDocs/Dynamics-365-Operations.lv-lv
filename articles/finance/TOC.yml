@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Reģistrācija priekšskatījuma abonementiem
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Debitora maksājumu ieskati (priekšskatījums)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Vienas versijas pakalpojuma atjauninājumi
               items:
                 - name: Vienas versijas pakalpojuma atjauninājumu pārskats
@@ -164,7 +166,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/finance/toc.json
             - name: Ieviešanas dzīves cikla pārvaldība
               items:
-                - name: Īstenošanas cikla pārvaldības sākumlapa
+                - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
                 - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Mazie kases posteņi
                       href: localizations/emea-petty-cash.md
+                    - name: "Skaidra nauda\_— vietējās primārās formas un vienotie pārskati"
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: PVN
                   items:
                     - name: Vietējā specifiskā pārdošanas PVN grāmatošana
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Priekšapmaksas pārvaldība
                       href: localizations/rus-prepayments-management.md
+                    - name: Ienākošā PVN atjaunošana.
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Pamatlīdzekļi
                   items:
                     - name: Pamatlīdzekļu pārvaldība
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Papildmaksu sadalījums proporcionāli svaram un tilpumam
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Trešās puses papildmaksas
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Krājumi
+                  items:
+                    - name: Tranzītpreces no kreditora
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Muitas deklarācijas numuri
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Pārskatu veidošana
                   items:
                     - name: Finanšu pārskatu veidošana
@@ -2335,11 +2349,13 @@
                       href: localizations/rus-officials.md
                     - name: Uzņēmuma nodaļas
                       href: localizations/rus-company-divisions.md
+                    - name: Krievijas adrešu formāti un imports no FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Atliktie maksājumi
                   items:
                     - name: Atlikto maksājumu iestatīšana
                       href: localizations/rus-set-up-deferrals.md
-                    - name: Izveidot vai ģenerēt atliktos maksājumus
+                    - name: Atlikto maksājumu izveide vai ģenerēšana
                       href: localizations/rus-create-generate-deferrals.md
                     - name: Atlikto maksājumu saņemšana
                       href: localizations/rus-deferral-transactions.md
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Konfigurāciju importēšana no RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Apmācība
+                  items:
+                    - name: 'Izmantojiet SAVIENOJUMA datu avotus, lai iegūtu datus no vairākām programmas tabulām elektronisko pārskatu (ER) modeļu kartējumos'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
                   items:
                     - name: Struktūras konfigurēšana
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Biznesa dokumentu pārvaldības pārskats
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Jaunu lauku pievienošana biznesa dokumenta veidnei programmā Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronisko pārskatu struktūras API
                   items:
                     - name: Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184075"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772655"
 ---
 # <a name="budgeting-home-page"></a>Budžeta veidošanas sākumlapa
 
@@ -42,12 +42,12 @@ Izmantojot budžeta plāna dokumentu, tiek atbalstīti gan ilgtermiņa stratēģ
 
 Visbeidzot — ļoti nobriedušām organizācijām var būt izveidota organizācijas kultūra, kurā darbinieki tiek izglītoti par organizācijas mērķiem un cenšas sasniegt šos mērķus, izmantojot tādas politikas kā, piemēram, “apsvērt iespēju tikties tiešsaistē, nevis doties komandējumā”. Programma ietver budžeta kontroles struktūru, kas uzņēmuma vadībai ļauj izvēlēties stingru kontroli (kas liedz veikt grāmatojumus, kuri pārsniegtu budžetu) vai vāju kontroli (kuras ietvaros lietotāji tiek brīdināti, ka viņi pārsniegs pieejamos budžeta līdzekļus, bet var paši pieņemt lēmumu par turpmāku rīcību). Visbeidzot — varat izmantot slīdošās prognozes. Slīdošā prognoze ir regulāra budžeta un faktisko datu salīdzināšana, un tā tiek izmantota, lai definētu, cik labi uzņēmums darbojas, salīdzinot ar budžeta datiem. Slīdošā prognoze tiek izmantota, arī lai noteiktu tendences. Risinājumā Finance and Operations slīdošās prognozes tiek atbalstītas ar budžeta plāna dokumenta starpniecību kā sākotnējās plānošanas aktivitātes. Slīdošās prognozes var veikt vienlaicīgi ar plānošanu gaidāmajam budžeta ciklam.
 
--   [Pamata budžeta veidošana: pārskats un konfigurācija](basic-budgeting-overview-configuration.md)
--   [Budžeta kontrole: pārskats un konfigurācija](budget-control-overview-configuration.md)
--   [Budžeta plānošana: pārskats un konfigurācija](budget-planning-overview-configuration.md)
+-   [Budžeta veidošanas apskats](basic-budgeting-overview-configuration.md)
+-   [Budžeta kontroles apskats](budget-control-overview-configuration.md)
+-   [Budžeta plānošanas apskats](budget-planning-overview-configuration.md)
 -   [Pozīciju prognozēšana](position-forecasting.md)
 -   [Budžeta plānošanas attaisnojuma dokumenti](budget-planning-justification-docs.md)
--   [Microsoft Excel veidnes budžeta plānošanai](budget-planning-excel-templates.md)
+-   [Budžeta plānošanas veidnes programmai Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Budžeta veidošanas rīki
 [![Budžeta veidošanas rīki](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552954"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812768"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Laipni lūdzam programmā Dynamics 365 Talent!
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku saglabāšana, atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
+Microsoft Dynamics 365 Talent racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Šajos procesos ietilpst darbinieku saglabāšana, atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai.
 
 Risinājumu Talent varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 
@@ -53,10 +53,10 @@ Izpētiet Dynamics 365 Talent, noskatoties videoklipu [Kā sākt darbu ar Dynami
 Strādājot ar Talent, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati. Tie ir vieni no galvenajiem pamatelementiem, kas jums ir jākonfigurē. Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.
 
 -   [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](departments-jobs-positions.md)
--   [Iestatīt uzņēmumam raksturīgus HR parametrus](set-up-company-specific-hr-parameters.md)
--   [HR parametru iestatīšana dažādās juridiskajās personās](set-up-hr-parameters-across-legal-entities.md) 
+-   [Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana](set-up-company-specific-hr-parameters.md)
+-   [Personāla vadības (HR) parametru iestatīšana dažādās juridiskajās personās](set-up-hr-parameters-across-legal-entities.md) 
 -   [Bieži uzdotie jautājumi par personāla darbībām](personnel-actions-faq.md)
--   [Atvaļinājumu un kavējumu apskats](leave-absence-overview.md)
+-   [Atvaļinājumu un kavējumu pārvaldība](leave-absence-overview.md)
 -   [Kā lietot Dynamics 365 Talent: atvaļinājumi un kavējumi (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Kā pārvaldīt personālu programmā Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
@@ -64,8 +64,8 @@ Strādājot ar Talent, jums ir jāizlemj, kā strukturēt savu organizāciju, iz
 
 Programmā Talent ir ietverta programma Attract, kas var palīdzēt jums identificēt, intervēt un pieņemt darbā kandidātus, kuriem piemīt jūsu organizācijai nepieciešamās prasmes. No personāla atlases pārejot uz pieņemšanu darbā, izmantojiet programmu Onboard, kas palīdzēs organizācijā iesaistīt jauno darbinieku, norādot precīzas prasības, sniedzot informāciju darba sākšanai, iepazīstinot ar kolēģiem un motivējot panākumu gūšanai jaunajā lomā.  
 
-- [Attract pārskats](attract-overview.md)
-- [Onboard pārskats](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent - Attract līdzekļi un iespējas](attract-overview.md)
+- [Darba sākšana ar Onboard](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Darbinieku saglabāšana un motivēšana
 
@@ -82,17 +82,17 @@ Varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, k
 Lai palīdzētu darbiniekiem sasniegt karjeras mērķus, vienlaikus nodrošinot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, veidot izpildes novērtējumus un izsekot atsauksmēm. Lai palīdzētu darbiniekiem attīstīt nepieciešamās prasmes, varat iestatīt arī instruktorus, kursu veidus, kursus, kursu aprakstus, dienas kārtības, izsekošanu un sesijas, pirms piešķirat kursam instruktoru vai reģistrējat kursam dalībnieku. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
 
 -   [Veiktspējas pārvaldība](performance-management-overview.md)
--   [Darbaspēka prasmju izmantošana atbilstoši biznesa vajadzībām](skills.md)
--   [Apmācību administrēšana, izmantojot kursus](courses.md)
+-   [Darbaspēka prasmju saskaņošana ar biznesa vajadzībām](skills.md)
+-   [Apmācību kursu iestatīšana](courses.md)
 -   [Kā pārvaldīt darbinieku izaugsmi programmā Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Atvieglojumu izveidošana un uzturēšana
 
 Papildus tam, ka darbiniekiem atlīdzināt, izmantojot samaksu par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
 
--   [Pārvaldīt atvieglojumu programmu](manage-benefit-program.md)
+-   [Atvieglojumu programmas definēšana un pārvaldība](manage-benefit-program.md)
 -   [Atvieglojumu piemērojamības politikas](benefit-eligibility-policies.md)
--   [Nodarbinātajiem aizdotu krājumu pārvaldīšana](loan-items.md)
+-   [Nodarbinātajiem aizdotu priekšmetu pārvaldīšana](loan-items.md)
 -   [Kā pārvaldīt darbinieku atvieglojumus programmā Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Darbvietas drošības un atbilstības uzturēšana
@@ -107,6 +107,6 @@ Programma Talent var palīdzēt jums uzturēt drošu darba vidi, kas atbilst pie
 Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izmantojamu informāciju. Līdzeklis Anketa jums ļauj projektēt un veidot anketas. Kad anketa ir gatava, varat to lūgt aizpildīt plašai publikai vai tikai noteiktai respondentu kopai. Kad respondenti ir snieguši savas atbildes, varat pārskatīt un analizēt rezultātus.
 
 -   [Anketas](questionnaires.md)
--   [Projektēt anketu](design-questionnaires.md)
--   [Izplatīt un aizpildīt anketu](distribute-questionnaires.md)
--   [Skatīt un novērtēt anketas rezultātus](evaluate-questionnaire-results.md)
+-   [Anketas projektēšana](design-questionnaires.md)
+-   [Anketu izplatīšana un plānošana](distribute-questionnaires.md)
+-   [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
