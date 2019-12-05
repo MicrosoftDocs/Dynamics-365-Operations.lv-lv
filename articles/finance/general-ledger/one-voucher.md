@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553191"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810703"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -83,6 +83,9 @@ Pamatojoties uz sarunām ar klientiem, tālāk norādītajā sarakstā Microsoft
 
 Tālāk norādītajos scenārijos noteiktas darbības ir izpildāmas, tikai izmantojot funkcionalitāti “Viens dokuments”. Ja jūsu organizācijā tiek izmantots jebkurš no šiem scenārijiem, jums ir jāiespējo vairāku transakciju ievadīšana vienā dokumentā, mainot parametra **Atļaut vairākas transakcijas vienā dokumentā** iestatījumu lapā **Virsgrāmatas parametri**. Šī trūkstošā funkcionalitāte tiks nodrošināta, izmantojot citus līdzekļus vēlākos laidienos.
 
+> [!Note]
+> [Katrai no sekojošajām situācijām lauks **Atļaut vairākas darbības vienā dokumentā** ir jāiestata uz Jā, kopsavilkuma cilnē **Vispārīgi** lapā **Virsgrāmatas parametri**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Kreditora vai debitora maksājumu grāmatošana bankas kontā kopsavilkuma formā
 
 **Scenārijs.** Organizācija savā bankā iesniedz sarakstu ar kreditoriem un summām, un banka izmanto šo sarakstu, lai veiktu maksājumus kreditoriem organizācijas vārdā. Banka iegrāmato maksājumu summu bankas kontā kā vienu atvilkumu.
@@ -120,6 +123,9 @@ Vairākas transakcijas vienā dokumentā izveido arī tālāk norādītās pamat
 - Tiek veikta līdzekļa sadalīšana.
 - Tiek ieslēgts parametrs norakstīšanas aprēķināšanai, un pēc tam līdzeklis tiek norakstīts.
 - Līdzekļa pakalpojuma sniegšanas datums ir pirms iegādes datuma. Tāpēc tiek grāmatota nolietojuma korekcija.
+
+> [!Note]
+> Ievadot darbības, pārliecinieties, ka visas darbības attiecas uz vienu pamatlīdzekli. Dokuments netiks grāmatots, ja tas ietver vairāk nekā vienu pamatlīdzekli, pat ja lauks **Jauns dokuments** ir iestatīts tikai uz vienu dokumenta numuru lapā **Žurnāla nosaukums** virsgrāmatā. Ja dokumentā iekļaujat vairāk nekā vienu pamatlīdzekli, tiks parādīta ziņa **Var būt tikai viena pamatlīdzekļa darbība pēc dokumenta**, un jūs nevarēsit grāmatot dokumentu.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Vekseļi un parādzīmes
 Vekseļiem un parādzīmēm ir nepieciešams, lai tiktu lietota funkcionalitāte “Viens dokuments”, jo ar transakcijām debitora vai kreditora bilance tiek pārvietota no viena virsgrāmatas konta “Debitoru parādi”/“Parādi kreditoriem” uz citu, balstoties uz maksājuma stāvokli.

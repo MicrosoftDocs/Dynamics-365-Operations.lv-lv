@@ -1,6 +1,6 @@
 ---
-title: Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
-description: Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow.
+title: Paplašināt Talent ar Power Apps un Power Automate
+description: Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Talent, kuros tiek izmantota programmatūra Microsoft Power Apps un Microsoft Power Automate.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008063"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832842"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent paplašināšana, izmantojot PowerApps un Microsoft Flow — paraugsituācijas
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>Paplašināt Talent ar Power Apps un Power Automate
 
-Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Talent, kuros tiek izmantota programmatūra Microsoft PowerApps un Microsoft Flow. Varat importēt ar katru piemēru saistīto risinājumu pakotni savā PowerApps vidē. Pēc tam varat izmantot pakotnes kā vadlīnijas vai kā sākumpunktu, lai īstenotu scenārijus, kas attiecas uz jūsu organizāciju.
+[!include [banner](includes/banner.md)]
+
+Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Talent, kuros tiek izmantota programmatūra Microsoft Power Apps un Microsoft Power Automate. Varat importēt ar katru piemēru saistīto risinājumu pakotni savā Power Apps vidē. Pēc tam varat izmantot pakotnes kā vadlīnijas vai kā sākumpunktu, lai īstenotu scenārijus, kas attiecas uz jūsu organizāciju.
 
 > [!IMPORTANT]
 > Ja vēlaties izmantot šajā tēmā aprakstītās veidnes un programmu nemainītā veidā, pārbaudiet tās un pārliecinieties, ka tās aptver visus scenārijus, kas raksturīgi jūsu ieviešanai.
@@ -36,11 +38,11 @@ ms.locfileid: "2008063"
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
 - Lai importētu pakotnes, lietotājiem ir jābūt atļaujai **Vides veidotājs**.
-- Lai eksportētu vai importētu programmas, lietotājiem jābūt PowerApps 2. plāna licencei vai PowerApps 2. plāna izmēģinājuma licencei.
+- Lai eksportētu vai importētu programmas, lietotājiem jābūt Power Apps 2. plāna licencei vai Power Apps 2. plāna izmēģinājuma licencei.
 
-## <a name="flow--form-connect"></a>Flow — Forms savienojums
+## <a name="power-automate--form-connect"></a>Power Automate — Formas savienojums
 
-Veidni **Flow — Forms savienojums** var izmantot, lai nolasītu datus no pakalpojuma Microsoft Forms un saglabātu tos Common Data Service elementā.
+Veidni **Power Automate – Formas savienojums** var izmantot, lai nolasītu datus no pakalpojuma Microsoft Forms un saglabātu tos Common Data Service elementā.
 
 Šo veidni var paplašināt, lai to varētu izmantot citiem scenārijiem. Daži piemēri:
 
@@ -51,19 +53,19 @@ Veidni **Flow — Forms savienojums** var izmantot, lai nolasītu datus no paka
 
 Programmā Microsoft Dynamics 365: Attract formas var parādīt kandidātu portālā, un kandidāti var aizpildīt datus. Formas var arī iegult kā aktivitātes darba veidnē.
 
-Kad kandidāts iesniedz formu, Microsoft Flow tver formas iesniegšanu, nolasa datus un saglabā tos Common Data Service elementā.
+Kad kandidāts iesniedz formu, Microsoft Power Automate tver formas iesniegšanu, nolasa datus un saglabā tos Common Data Service elementā.
 
-Lai lejupielādētu veidni **Flow — Forms savienojums** un pielāgoto elementu struktūru, atveriet [Flow — Forms savienojums](https://go.microsoft.com/fwlink/?linkid=2081988) Microsoft lejupielādes centrā.
+Lai lejupielādētu veidni  **Power Automate – formas savienojums** un pielāgoto elementu struktūru, ejiet uz  [Power Automate – Formas savienojums](https://go.microsoft.com/fwlink/?linkid=2081988) Microsoft lejupielādes centrā.
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Uz PowerApps nodoto parametru iniciēšana un izvilkšana
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Uz PowerApps nodoto parametru iniciēšana un izvilkšana Power Apps
 
-Veidni **Uz PowerApps nodoto parametru iniciēšana un izvilkšana** var izmantot kā sākumpunktu jebkuram PowerApps scenārijam, kas attiecas uz Attract. Tajā ietilpst visi noklusējuma parametri, kurus nodod Attract, piemēram, **Darba pieteikums**, **Kandidāta ID** un **Darba ID**.
+Veidni **Uz Power Apps nodoto parametru iniciēšana un izvilkšana** var izmantot kā sākumpunktu jebkuram Power Apps scenārijam, kas attiecas uz Attract. Tajā ietilpst visi noklusējuma parametri, kurus nodod Attract, piemēram, **Darba pieteikums**, **Kandidāta ID** un **Darba ID**.
 
 Šo veidni var izmantot, lai izgūtu kandidātu novērtējuma veidlapu, lai par pieņemšanu darbā atbildīgais vadītājs varētu redzēt kandidāta aizpildīto novērtējumu.
 
-Programmas, kas tiek izveidotas, izmantojot PowerApps, var iegult darba veidnē programmā Attract.
+Programmas, kas tiek izveidotas, izmantojot Power Apps, var iegult darba veidnē programmā Attract.
 
-Lai lejupielādētu veidni **Uz PowerApps nodoto parametru iniciēšana un izvilkšana** un pielāgoto elementu struktūru, atveriet [Uz PowerApps nodoto parametru iniciēšana un izvilkšana](https://go.microsoft.com/fwlink/?linkid=2081991) Microsoft lejupielādes centrā.
+Lai lejupielādētu veidni **Uz Power Apps nodoto parametru iniciēšana un izvilkšana** un pielāgoto elementu struktūru, ejiet uz [Uz Power Apps nodoto parametru iniciēšana un izvilkšana](https://go.microsoft.com/fwlink/?linkid=2081991) Microsoft lejupielādes centrā.
 
 ## <a name="integration-with-office-365"></a>Integrācija ar Office 365
 
@@ -73,33 +75,33 @@ Programmu **Integrācija ar Office 365** var izmantot, lai iegūtu grupas inform
 
 Lai lejupielādētu programmu **Integrācija ar Office 365** un pielāgoto elementu struktūru, atveriet [Integrācija ar Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) Microsoft lejupielādes centrā.
 
-## <a name="flow--email-notification"></a>Sūtīt — e-pasta paziņojums
+## <a name="power-automate--email-notification"></a>Power Automate - e-pasta paziņojums
 
-Veidni **Flow — e-pasta paziņojums** var izmantot e-pasta paziņojumu scenārijiem. To var izmantot, lai aktivizētu paziņojuma e-pastus kandidātiem, kurus darbā pieņemšanas grupa noraida jebkurā personāla atlases procesa posmā.
+Veidni **Power Automate – e-pasta paziņojums** var izmantot e-pasta paziņojumu scenārijiem. To var izmantot, lai aktivizētu paziņojuma e-pastus kandidātiem, kurus darbā pieņemšanas grupa noraida jebkurā personāla atlases procesa posmā.
 
 Šo veidni var paplašināt, lai izsekotu kandidāta posma izmaiņām visā personāla atlases procesā un nosūtītu paziņojumus darbā pieņemšanas grupai un kandidātam.
 
 Parasti elementiem, kas tiek glabāti Common Data Service, var iestatīt plūsmas, lai nosūtītu paziņojumus par notikumiem, kas notiek programmās Core HR, Attract vai Onboard.
 
-Lai lejupielādētu veidni **Flow — e-pasta paziņojums**, atveriet [Plūsma — e-pasta paziņojums](https://go.microsoft.com/fwlink/?linkid=2082103) Microsoft lejupielādes centrā.
+Lai lejupielādētu veidni **Power Automate – e-pasta paziņojums**, ejiet uz [Power Automate – e-pasta paziņojums](https://go.microsoft.com/fwlink/?linkid=2082103) Microsoft lejupielādes centrā.
 
-## <a name="flow--sql-connect-and-execute"></a>Plūsmas — SQL savienojums un izpilde
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate — SQL savienojums un izpilde
 
-Veidne **Flow — SQL savienojums un izpilde** izveido savienojumu ar Microsoft SQL Server un nodrošina SQL vaicājumu izpildi.
+Veidne **Power Automate – SQL savienojums un izpilde** izveido savienojumu ar Microsoft SQL Server un nodrošina SQL vaicājumu izpildi.
 
 Lai gan šī veidne ir izveidota, lai lasītu un atjauninātu SQL tabulas, to var paplašināt, lai to varētu izmantot citiem scenārijiem. Piemēram, to var izmantot, lai aizpildītu sagatavošanas tabulu pakalpojumā Common Data Service ar ierakstiem no SQL Server un periodiski sinhronizētu sagatavošanas tabulu, izmantojot inkrementālu sadali no SQL Server.
 
-Lai lejupielādētu veidni **Flow — SQL savienojums un izpilde**, atveriet [Flow — SQL savienojums un izpilde](https://go.microsoft.com/fwlink/?linkid=2081789) Microsoft lejupielādes centrā.
+Lai lejupielādētu veidni **Power Automate – SQL savienojums un izpilde**, ejiet uz [Power Automate – SQL savienojums un izpilde](https://go.microsoft.com/fwlink/?linkid=2081789) Microsoft lejupielādes centrā.
 
-## <a name="flow--sharepoint-integration"></a>Flow — SharePoint integrācija
+## <a name="power-automate--sharepoint-integration"></a>Power Automate – SharePoint Integrācija
 
-Veidni **Flow — SharePoint integrācija** var izmantot, lai nolasītu datus no Microsoft SharePoint saraksta, salīdzinātu sarakstu ar lauka vērtībām jebkuram Common Data Service elementam un nosūtītu salīdzinājuma rezultātus kā paziņojuma e-pastu. 
+Veidni **Power Automate – SharePoint Integrācija** var izmantot, lai nolasītu datus no Microsoft SharePoint saraksta, salīdzinātu sarakstu ar lauka vērtībām jebkuram  Common Data Service elementam un nosūtītu salīdzinājuma rezultātus kā paziņojuma e-pastu. 
 
 Organizācijai var būt steidzami nepieciešams noteikts prasmju kopums. Šīs prasmes var saglabāt SharePoint kā SharePoint sarakstu. Kandidātam piesakoties tādam darbam, kuram ir izveidots saraksts ar nepieciešamo prasmju kopumu, ja pastāv būtiska atbilstība starp kandidāta prasmēm un SharePoint saglabātajām prasmēm, tiek nosūtīts paziņojuma e-pasts. Šādā veidā amati, kas ir nepieciešami steidzami, tiek aizpildīti ātrāk, jo paziņojumi palīdz atlases darbiniekiem paplašināt kandidātu meklējumus un sadarboties darbā pieņemšanas jomā visā organizācijā.
 
 Šo veidni var paplašināt, lai to varētu izmantot jebkurā scenārijā, kas ietver SharePoint integrāciju.
 
-Lai lejupielādētu veidni **Flow — SharePoint integrācija**, atveriet [Plūsma — SharePoint integrācija](https://go.microsoft.com/fwlink/?linkid=2082109) Microsoft lejupielādes centrā.
+Lai lejupielādētu veidni **Power Automate – SharePoint Integrācija**, ejiet uz  [Power Automate – SharePoint Integrācija](https://go.microsoft.com/fwlink/?linkid=2082109) Microsoft lejupielādes centrā.
 
 ## <a name="referral-app"></a>Atsauces programma
 Varat izmantot atsauces programmu, lai pievienotu kandidātus kopīgai darbinieku kopai. Iesniedzot kandidātu, ieteicējs var ievadīt **Vārdu**, **Uzvārdu**, **E-pastu** un **Linkedln vietrādi URL**. Pēc tam kandidāts avota metadati tiek aizpildīti ar ieteicēja informāciju.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188307"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772609"
 ---
 # <a name="letters-of-credit"></a>Akreditīvi
 
@@ -44,12 +44,12 @@ Akreditīvs ietver preču aprakstu, visus nepieciešamos dokumentus, nosūtīša
 
 Akreditīvs var būt atsaucams vai neatsaucams. Akreditīva raksturs var būt nododams, nenododams vai atjaunojams. Parasti akreditīvs ir neatsaucams un akceptēts līgums, ka maksājums tiks veikts noteiktam saņēmējam pēc pilnīgas un precīzas nosūtīšanas dokumentācijas iesniegšanas.
 
-Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+Papildinformāciju skatiet tālāk norādītajās tēmās.
 
-[Akreditīva importēšana](tasks/import-letter-credit.md)
+[Importa akreditatīvs](tasks/import-letter-credit.md)
 
-[Akreditīva eksportēšana](tasks/export-letter-credit.md)
+[Kredītvēstules eksportēšana](tasks/export-letter-credit.md)
 
-[Bankas iestādes izveide akreditīvam](tasks/create-bank-facility-agreement-letter-credit.md)
+[Bankas iestādes līguma izveide akreditīvam](tasks/create-bank-facility-agreement-letter-credit.md)
 
 

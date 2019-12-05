@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536874"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771614"
 ---
 # <a name="analytical-workspaces"></a>Analītiskās darbvietas
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536874"
 - [Power BI satura pakotne Izmaksu pārvaldība](cost-management-content-pack.md)
 - [Power BI satura pakotne Kredītu un iekasēšanas pārvaldība](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [Power BI satura pakotne Darbinieku attīstība](employee-development-PBI.md) 
-- [Power BI satura pakotne Finanšu ieskati](financial-insights.md)
-- [Power BI satura pakotne Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
-- [Power BI satura pakotne Pamatlīdzekļu pārvaldība](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Finanšu ieskati](financial-insights.md)
+- [PowerBI.com risinājums Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
+- [Pamatlīdzekļu pārvaldības darbvieta](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [Power BI satura pakotne Mācības](learning-power-bi.md)
 - [Power BI satura pakotne Prakses pārvaldnieks](practice-manager-power-bi.md)
 - [Power BI satura pakotne Ražošanas veiktspēja](production-performance-power-bi.md)
 - [Power BI satura pakotne Pirkšanas tēriņu analīze](purchase-content-pack-for-power-bi.md) 
 - [Power BI satura pakotne Personāla atlase](recruiting-analysis-power-bi-content-pack.md) 
 - [Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja](sales-profitability-performance-content-pack.md)
-- [Power BI satura pakotne Kreditoru maksājumi](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Kreditoru maksājumu darbvieta](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI satura pakotne Noliktavas veiktspēja](warehouse-power-bi-content.md)
 - [Power BI satura pakotne Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)

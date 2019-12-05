@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: cde95430022d94c42bdd985b5e4a8f9f5147d000
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 804878150f035adc051e89ec6be44457ad58e87e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181362"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771195"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu
 
@@ -45,6 +45,6 @@ Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevuma ceļvedi **ER XML
 - [ER formāta konfigurācija — XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Elektroniskās pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
+[Elektronisko pārskatu (ER) galamērķi](electronic-reporting-destinations.md)
 
-[Formulas veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
+[Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)

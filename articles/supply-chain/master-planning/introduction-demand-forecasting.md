@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653537"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815161"
 ---
 # <a name="demand-forecasting-overview"></a>Pārskats par pieprasījuma prognozēšanu
 
@@ -78,9 +78,9 @@ Pieprasījuma prognozēšana ir rīks, kas palīdz ražošanas nozares debitorie
 
 [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
 
-[Manuālu bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
+[Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
-[Koriģētās prognozes autorizēšana](authorize-adjusted-forecast.md)
+[Autorizēt koriģēto pieprasījuma apjoma prognozi](authorize-adjusted-forecast.md)
 
 [Prognozes precizitātes pārraudzība](monitor-forecast-accuracy.md)
 

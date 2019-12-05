@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571603"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811853"
 ---
 # <a name="create-an-asset"></a>Izveidot līdzekli
 
@@ -36,15 +36,15 @@ ms.locfileid: "2571603"
 1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopīgie** > **līdzekļi** > **Visi līdzekļi** vai **Aktīvie līdzekļi**.
 2. Noklikšķiniet uz pogas **Jauns**.
 3. Dialoglodziņā **Izveidot līdzekļus** ievadiet datus par **Līdzekli** (līdzekļa ID) un līdzekļa nosaukumu. Laukā **Ir spēkā** atlasiet līdzekļa datumu un laiku. Sākot ar šo datumu, varat uzstādīt līdzekli funkcionālā novietojumā, kā arī pārvietot un aizstāt līdzekli līdzekļu struktūrā.
-4. Laukā **Līdzekļa veids** atlasiet līdzeklim līdzekļa veidu (obligāts lauks). Ja nepieciešams, atlasiet līdzeklim **Līdzekļa ražotājs** un **Līdzekļa modelis**. Ja ir iestatīta tikai viena prece, šī prece tiek automātiski atlasīta laukā **Līdzekļa ražotājs**. Atlases, kas pieejamas laukos **Līdzekļa ražotājs** un **Līdzekļa modelis**, ir atkarīgas no iestatījuma [Līdzekļa ražotājs un modelis](../setup-for-objects/product-and-model.md).
+4. Laukā **Līdzekļa veids** atlasiet līdzeklim līdzekļa veidu (obligāts lauks). Ja nepieciešams, atlasiet līdzeklim **Līdzekļa ražotājs** un **Līdzekļa modelis**. Ja ir iestatīta tikai viena prece, šī prece tiek automātiski atlasīta laukā **Līdzekļa ražotājs**. Atlases, kas pieejamas laukos **Līdzekļa ražotājs** un **Līdzekļa modelis**, ir atkarīgas no iestatījuma [Līdzekļu ražotāji un modeļi](../setup-for-objects/product-and-model.md).
 5. Grupā **Primārais līdzeklis** lauks **Līdzeklis** pēc noklusējuma ir tukšs. Ja nepieciešams, varat atlasīt primāro līdzekli, un pēc tam visi lauki grupā **Primārais līdzeklis** tiks aizpildīti automātiski.
 >[!NOTE]  
->Kad atlasāt primāro līdzekli, ir pieejamas divas vai trīs cilnes: cilnē **Mani līdzekļi** ir ietverti līdzekļi, kas ir saistīti ar funkcionālajiem novietojumiem, kam jūs (uzturēšanas darbinieks, kurš ir pieteicies sistēmā) var piešķirt. Ja funkcionālie novietojumi ir iestatīti uzturēšanas darbiniekam veidlapā [Uzturēšanas darbinieki](../setup-for-objects/workers-and-worker-groups.md), cilne **Mani līdzekļi** nebūs redzama. Cilnē **Aktīvie līdzekļī** ir iekļauts visu līdzekļu saraksts ar līdzekļa dzīves cikla statusu "Aktīvs". Cilne **Līdzekļu skats** parāda funkcionālo novietojumu koku un šajos novietojumos uzstādītos līdzekļus.
+>Kad atlasāt primāro līdzekli, ir pieejamas divas vai trīs cilnes: cilnē **Mani līdzekļi** ir ietverti līdzekļi, kas ir saistīti ar funkcionālajiem novietojumiem, kam jūs (uzturēšanas darbinieks, kurš ir pieteicies sistēmā) var piešķirt. Ja funkcionālie novietojumi ir iestatīti uzturēšanas darbiniekam veidlapā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md), cilne **Mani līdzekļi** nebūs redzama. Cilnē **Aktīvie līdzekļī** ir iekļauts visu līdzekļu saraksts ar līdzekļa dzīves cikla statusu "Aktīvs". Cilne **Līdzekļu skats** parāda funkcionālo novietojumu koku un šajos novietojumos uzstādītos līdzekļus.
 
 6. Noklusējuma funkcionālais novietojums, ko esat iestatījis, līdzeklim tiek ieteikts grupas **Līdzeklis** laukā **Funkcionālais novietojums**. Ja nepieciešams, atlasiet citu funkcionālo novietojumu.
 
 >[!NOTE]
->Kad esat izveidojis līdzekli, vajadzības gadījumā varat to uzstādīt citā funkcionālajā novietojumā. Funkcionālā novietojumā var uzstādīt tikai augšējā līmeņa līdzekļus (līdzekļus, kam pašlaik nav primārā līdzekļa). Tas nozīmē, ka uzstādāt augšējo līmeni, kā arī pakārtotos līdzekļus atlasītajā funkcionālajā novietojumā. Lasiet vairāk par līdzekļu uzstādīšanu funkcionālajos novietojumos sadaļā [Funkcionālie novietojumi](../functional-locations/introduction-to-functional-locations.md).
+>Kad esat izveidojis līdzekli, vajadzības gadījumā varat to uzstādīt citā funkcionālajā novietojumā. Funkcionālā novietojumā var uzstādīt tikai augšējā līmeņa līdzekļus (līdzekļus, kam pašlaik nav primārā līdzekļa). Tas nozīmē, ka uzstādāt augšējo līmeni, kā arī pakārtotos līdzekļus atlasītajā funkcionālajā novietojumā. Lasiet vairāk par līdzekļu uzstādīšanu funkcionālajos novietojumos sadaļā [Ievads par funkcionālajiem novietojumiem](../functional-locations/introduction-to-functional-locations.md).
 
 7. Noklikšķiniet uz **Labi**.
 8. Atlasiet līdzekli sarakstā **Visi līdzekļi** un noklikšķiniet uz pogas **Rediģēt**, lai pievienotu līdzeklim papildu informāciju.
@@ -53,13 +53,13 @@ ms.locfileid: "2571603"
 
 Funkcionālais novietojums, ar kuru līdzeklis ir saistīts, ir parādīts laukā **Funkcionālais novietojums**. Ja līdzeklis ir primārais pamatlīdzeklis, ar līdzekli saistīto apakšelementu skaits ir parādīts laukā **Apakšelementi**. Ja līdzeklis ir apakšlīdzeklis esošam līdzeklim, primārā līdzekļa ID ir parādīts laukā **Primārais**.
 
-Varat rediģēt **Līdzekļa ražotāja** un **Līdzekļu modeļa** informāciju par līdzekli, ko izmanto rezerves daļu, alternatīvo rezerves daļu un darba veidu noklusējumu pārvaldīšanai. Plašāku informāciju skatiet sadaļā [Līdzekļa ražotājs un modelis](../setup-for-objects/product-and-model.md). Ja nepieciešams, varat arī pievienot informāciju par **Modeļa gadu** un **Sērijas numuru**.
+Varat rediģēt **Līdzekļa ražotāja** un **Līdzekļu modeļa** informāciju par līdzekli, ko izmanto rezerves daļu, alternatīvo rezerves daļu un darba veidu noklusējumu pārvaldīšanai. Plašāku informāciju skatiet sadaļā [Līdzekļu ražotāji un modeļi](../setup-for-objects/product-and-model.md). Ja nepieciešams, varat arī pievienot informāciju par **Modeļa gadu** un **Sērijas numuru**.
 
 **Pašreizējais dzīves cikla stāvoklis** tiek izmantots, lai definētu, vai līdzeklis ir aktīvs vai neaktīvs. Veidojot līdzekli, posms vienmēr tiek iestatīts uz līdzekļa posmu grupas pirmo posmu. Kad esat gatavs aktivizēt līdzekli, noklikšķiniet uz **Atjaunināt līdzekļa stāvokli** un atlasiet dzīves cikla stāvokli, kuru esat definējis kā "līdzeklis aktīvs", un noklikšķiniet uz **Labi**.
 
 **Piezīme:** ja līdzeklis ir iestatīts uz "neaktīvs", līdzeklim vairs nav iespējams izveidot darba pasūtījumus. Tāpat nevarat ieplānot preventīvās uzturēšanas darbus neaktīvam līdzeklim.
 
-Lauki **Pakalpojumu līmenis** un **Kritiskums** attiecas uz līdzeklim izveidotajiem darba pasūtījumiem. Šie lauki parāda **Pakalpojumu līmeņa** un **Kritiskuma** skaitļus, kas aprēķināti līdzekļa pašreizējam iestatījumam. Skatiet sadaļu [Līdzekļa pakalpojumu līmeņi](../setup-for-objects/object-priorities.md) un [aktīvu kritiku](../setup-for-objects/object-criticalities.md) par šo vērtību iestatīšanu.
+Lauki **Pakalpojumu līmenis** un **Kritiskums** attiecas uz līdzeklim izveidotajiem darba pasūtījumiem. Šie lauki parāda **Pakalpojumu līmeņa** un **Kritiskuma** skaitļus, kas aprēķināti līdzekļa pašreizējam iestatījumam. Skatiet sadaļu [Līdzekļa pakalpojumu līmeņi](../setup-for-objects/object-priorities.md) un [Līdzekļa kritiskuma veidi](../setup-for-objects/object-criticalities.md) par šo vērtību iestatīšanu.
 
 ## <a name="asset"></a>Līdzeklis
 

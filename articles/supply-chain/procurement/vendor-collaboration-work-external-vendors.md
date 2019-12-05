@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 733ecc7cfb4fee325560f5a6fe11612bb8ba57ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653606"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815299"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Kreditoru sadarbība ar ārējiem kreditoriem
 
@@ -218,7 +218,7 @@ Ja izmantojat sūtījuma krājumus, kreditori var izmantot kreditoru sadarbības
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Darbs ar piedāvājumu pieprasījumiem, ja izmantojat kreditoru sadarbību
 
-Šajā sadaļā ir aprakstītas mijiedarbības starp debitoriem un kreditoriem piedāvājumu pieprasījumu procesa laikā. Tajā ir arī paskaidrots veids, kāda kreditoriem tiek nodota informācija. Pamata apskatu par atbalstu piedāvājuma pieprasījuma procesam skatiet šeit: [Piedāvājumu pieprasījumi (RFQ)](request-quotations.md).
+Šajā sadaļā ir aprakstītas mijiedarbības starp debitoriem un kreditoriem piedāvājumu pieprasījumu procesa laikā. Tajā ir arī paskaidrots veids, kāda kreditoriem tiek nodota informācija. Pamata apskatu par atbalstu PP procesam skatiet šeit: [Piedāvājumu pieprasījumu (PP) pārskats](request-quotations.md).
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Alternatīvas, pielikumi, grozījumi un atgriešanas
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181431"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771287"
 ---
 # <a name="generate-printable-fti-forms"></a>Drukājamu FTI formu ģenerēšana
 
@@ -41,7 +41,7 @@ Papildus esošajai iespējai ģenerēt drukājamas FTI formas, izmantojot Micro
 Jums ir jāizveido ER konfigurāciju kopa kā daļa no pielāgotā drukājamo FTI veidlapu risinājuma.
 
 ### <a name="configure-the-er-data-model"></a>ER datu modeļa konfigurēšana
-Jūsu programmā ir jābūt ER datu modeļa konfigurācijai ar datu modeli, kas apraksta debitoru rēķinu izrakstīšanas biznesa domēnu. Datu modeļa nosaukumam ir jābūt **CustomersInvoicing**. Informāciju par ER datu modeļu izveidi skatiet tēmā [Domēnam specifiska datu modeļa izveide elektronisko pārskatu veidošanai (ER)](tasks/er-design-domain-specific-data-model-2016-11.md).
+Jūsu programmā ir jābūt ER datu modeļa konfigurācijai ar datu modeli, kas apraksta debitoru rēķinu izrakstīšanas biznesa domēnu. Datu modeļa nosaukumam ir jābūt **CustomersInvoicing**. Informāciju par EP datu modeļu izveidi skatiet tēmā [EP domēnam specifiska datu modeļa izveide elektronisko pārskatu veidošanai (EP)](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>ER modeļa kartējuma konfigurēšana
 Jūsu programmā ir jābūt ietvertam CustomersInvoicing datu modelim paredzētam ER modeļa kartējumam. Modeļa kartējums var būt ER datu modeļa konfigurācija vai ER modeļa kartējuma konfigurācija. Taču modeļa kartējuma saknes deskriptoram ir jābūt **FreeTextInvoice**.
@@ -62,7 +62,7 @@ Kartējumā ir jābūt tālāk norādītajiem datu avotiem.
 
 Detalizēta informācija par programmas integrāciju ar ER platformu ir pieejama programmas pirmkoda klasē **ERPrintMgmtReportFormatSubscriber** (ER programmu komplekta integrācijas modelis).
 
-Papildinformāciju par ER modeļu kartējumu izveidi skatiet tēmā [Modeļa kartējuma definēšana un datu avotu atlase elektronisko pārskatu veidošanai (ER)](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Papildinformāciju par ERPmodeļu kartējumu izveidi skatiet tēmā [EP modeļa kartējumu definēšana un datu avotu atlase tiem](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>ER formāta konfigurēšana
 Programmas instancē ir jābūt ER formāta konfigurācijai, kas tiks izmantota FTI veidlapu ģenerēšanai. 
@@ -70,7 +70,7 @@ Programmas instancē ir jābūt ER formāta konfigurācijai, kas tiks izmantota
 > [!NOTE]
 > Šī formāta konfigurācija ir jāizveido datu modelim CustomersInvoicing, un tai ir jāizmanto modeļa kartējums ar saknes deskriptoru **FreeTextInvoice**.
 
-Informāciju par ER formātu konfigurēšanu skatiet tēmā [Formāta konfigurācijas izveide elektronisko pārskatu veidošanai (ER)](tasks/er-format-configuration-2016-11.md). Informāciju par ER formātu izveidi pārskatu ģenerēšanai OpenXML formātā skatiet tēmā [Konfigurācijas izveide pārskatu ģenerēšanai OpenXML formātā elektronisko pārskatu veidošanai (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Informāciju par EP formātu konfigurēšanu skatiet tēmā [EP Formāta konfigurācijas izveide elektronisko pārskatu veidošanai (2016. gada novembris)](tasks/er-format-configuration-2016-11.md). Informāciju par ER formātu izveidi pārskatu ģenerēšanai OpenXML formātā skatiet tēmā [ER Konfigurācijas izveide pārskatu ģenerēšanai OPENXML formātā elektronisko pārskatu veidošanai](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Drukas pārvaldības konfigurēšana
 Lai ģenerētu FTI veidlapas, izmantojot ER platformu, ER formātus varat piešķirt tādā pašā veidā, kādā piešķirat SSRS pārskatus. Lai ER formātu saistītu ar visiem debitoru parādu FTI rēķiniem, atveriet sadaļas **Debitoru parādi** \> **Iestatīšana** \> **Veidlapas** \> **Veidlapu iestatīšana** \> **Vispārīgi** \> **Drukas pārvaldība** \> **Brīva teksta rēķins** \> **Sākotnējie**. Lai ER formātu saistītu ar konkrētu debitoru vai rēķinu, veiciet tālāk norādītās darbības.
@@ -94,7 +94,7 @@ Lai ģenerētu FTI veidlapas, rēķinus varat atlasīt pēc diapazona vai atlase
 
 ![Rēķina priekšskatījums](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Kad ER formātus izmanto, lai šādā veidā drukātu FTI veidlapas, tiek lietoti noklusējuma ER failu galamērķi. Galamērķi nevar mainīt. Papildinformāciju par ER formātu ER galamērķu konfigurēšanu skatiet tēmā [Elektronisko pārskatu galamērķi](electronic-reporting-destinations.md).
+Kad ER formātus izmanto, lai šādā veidā drukātu FTI veidlapas, tiek lietoti noklusējuma ER failu galamērķi. Galamērķi nevar mainīt. Papildinformāciju par EP formātu EP galamērķu konfigurēšanu skatiet tēmā [Elektronisko pārskatu (EP) galamērķi](electronic-reporting-destinations.md).
 
 FTI veidlapas varat arī ģenerēt, kad grāmatojat FTI, ieslēdzot iestatījumu **Drukāt rēķinu** un izslēdzot iestatījumu **Izmantot drukas pārvaldības galamērķus**.
 
@@ -224,4 +224,4 @@ Formāta parauga izteiksme **Emailing.TxtToUse.Body** ir konfigurēta tālāk no
 ![E-pasta adrese](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)

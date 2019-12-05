@@ -1,5 +1,5 @@
 ---
-title: Vakanču publicēšana LinkedIn no pakalpojuma Microsoft Dynamics 365 Talent - Attract
+title: Vakanču publicēšana LinkedIn no pakalpojuma Attract
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 Talent - Attract, lai publicētu darbus LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551499"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833007"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Vakanču publicēšana LinkedIn no pakalpojuma Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>Vakanču publicēšana LinkedIn no pakalpojuma Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn ir lielākais tiešsaistes profesionāļu tīkls, kas sniedz jums pieeju pasaules augstākā līmeņa talantiem. Microsoft Dynamics 365 Talent: Attract palīdz jums iegūt talantu, kas jums nepieciešams, ļaujot jums publicēt vakances tieši no Attract vietnē LinkedIn.
 
@@ -46,7 +46,7 @@ Tabulā zemāk ir norādītas darbības, kuras var veikt vietnē LinkedIn atkar�
 
 Papildinformāciju par lietotāja lomām sistēmā Attract skatiet rakstā [Drošība un lomu pārvaldība sistēmā Attract](./security-attract.md).
 
-Ja esat administrators un jums ir nepieciešama plašāka informācija par to, kā konfigurēt LinkedIn integrāciju ar sistēmu Attract, skatiet rakstu [Integrācijas ar LinkedIn iestatīšana](./attract-admin-linkedin.md).
+Ja esat administrators un jums ir nepieciešama plašāka informācija par to, kā konfigurēt LinkedIn integrāciju ar sistēmu Attract, skatiet rakstu [Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 Darbi, kas publicēti LinkedIn, ir redzami reāllaika LinkedIn vietnē. LinkedIn nav testēšanas vides darbu publicēšanai. Tāpēc pārliecinieties, vai nejauši nepublicējat nevienu testa darbu.
 
@@ -67,16 +67,16 @@ Kad ieinteresētie kandidāti atlasa **Skatīt** blakus jūsu sarakstam, viņi r
 
 Visi darba piedāvājumi, kas publicēti, izmantojot Attract, ir ierobežoti saraksti. Papildinformāciju par ierobežotiem sarakstiem LinkedIn skatiet rakstā [Ierobežoti saraksti pret Job Slots for Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Ja rodas problēmas, publicējot darbus LinkedIn, skatiet rakstu [Problēmu novēršana, publicējot darbus vietnē LinkedIn](./attract-troubleshoot-linkedin.md).
+Ja rodas problēmas, publicējot darbus LinkedInt, skatiet sadaļu [Problēmu novēršana integrācijā ar LinkedIn un Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Skatiet arī
 
-[LinkedIn bieži uzdotie jautājumi](./attract-linkedin-faq.md)
+[Attract integrācija ar LinkedIn — bieži uzdotie jautājumi](./attract-linkedin-faq.md)
 
-[Integrācijas ar LinkedIn iestatīšana](./attract-admin-linkedin.md)
+[Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Izveidot darbus](./creating-jobs-attract.md)
+[Darbu izveide, apstiprināšana un grāmatošana programmā Attract](./creating-jobs-attract.md)
 
-[Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[SKandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Integrācijas ar LinkedIn problēmu novēršana](./attract-troubleshoot-linkedin.md)

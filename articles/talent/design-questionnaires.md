@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518576"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813918"
 ---
 # <a name="design-questionnaires"></a>Anketu veidošana
 
@@ -110,7 +110,8 @@ Atbilžu grupas un atbildes ir komponenti, kas veido informācijas pamatu, no k�
 
 Atbilžu grupu var izmantot vairākiem jautājumiem tajā pašā aptaujā, kā arī vairākās aptaujās. 
 
-**Piezīme.** Ja modificējat atbildes tekstu atbilžu grupās, kas jau ir izmantotas aizpildītās anketās, šo datu novērtēšana var kļūt apgrūtināta un anketu rezultāti var kļūt nederīgi. Ja ir nepieciešams mainīt kādu atbilžu grupu, apsveriet iespēju izveidot jaunu atbilžu grupu, nevis mainīt jau esošo. Nevar dzēst atbilžu grupas, kas ir pievienotas jautājumam vai atbildei vai kas ir atbildētas.
+> [!NOTE]
+> Ja modificējat atbildes tekstu atbilžu grupās, kas jau ir izmantotas aizpildītās anketās, šo datu novērtēšana var kļūt apgrūtināta un anketu rezultāti var kļūt nederīgi. Ja ir nepieciešams mainīt kādu atbilžu grupu, apsveriet iespēju izveidot jaunu atbilžu grupu, nevis mainīt jau esošo. Nevar dzēst atbilžu grupas, kas ir pievienotas jautājumam vai atbildei vai kas ir atbildētas.
 
 ### <a name="questions"></a>Jautājumi
 
@@ -118,12 +119,16 @@ Anketā ir jābūt jautājumiem. Jautājumi var būt atvērti vai slēgti.
 
 -   Atbildes uz atvērtajiem jautājumiem netiek kontrolētas, un respondenti var ierakstīt savas atbildes.
 -   Slēgtajiem jautājumiem ir nepieciešams saraksts ar iepriekš definētiem atbilžu variantiem, un jautājumi var būt strukturēti tā, lai respondentam ļautu izvēlēties vairākas atbildes. Jautājumi ir jāveido tā, lai tie no respondenta izvilinātu noteiktu informāciju, un tiem ir jābūt saistītiem ar atbilžu grupu, kas katram slēgtajam jautājumam nodrošina atbilžu variantus. 
-     -  **Piezīme.** Lai varētu iestatīt slēgtus jautājumus, ir jāizveido atbilžu grupas un atbildes.
+
+    > [!NOTE]
+    > Lai varētu iestatīt slēgtus jautājumus, ir jāizveido atbilžu grupas un atbildes.
 
 Jautājumus var sakārtot nosacījuma jautājumu hierarhijā, lai sekundārie jautājumi būtu atkarīgi no atbildes, ko respondents atlasa iepriekšējam jautājumam. Varat vispirms uzrakstīt jautājumus un vēlāk tos sakārtot hierarhijā.
 
 ## <a name="setting-up-questionnaires"></a>Anketu iestatīšana
-**Piezīme.** Lai varētu iestatīt anketu, jums ir jāiestata atbildes, jautājumi un priekšnosacījumi. 
+
+> [!NOTE]
+> Lai varētu iestatīt anketu, jums ir jāiestata atbildes, jautājumi un priekšnosacījumi. 
 
 Katrai anketai varat definēt tālāk minēto informāciju.
 
@@ -159,7 +164,8 @@ Lapā **Anketas** varat izpildīt tālāk norādītos uzdevumus.
 -   Dzēsiet un pievienojiet jautājumus.
 -   Veiciet izmaiņas rezultātu grupās un kārtas numurā. 
 
-**Uzmanību!** Uzmanieties, kad maināt jau aizpildītas anketas. Šādas izmaiņas var mazināt statistikas precizitāti, līdz ar to šo statistiku padarot par sliktu novērtējuma pamatu. Tā vietā apsveriet iespēju izveidot jaunu jautājumu, nevis mainīt jau atbildētu jautājumu.
+> [!CAUTION]
+> Uzmanieties, kad maināt jau aizpildītas anketas. Šādas izmaiņas var mazināt statistikas precizitāti, līdz ar to šo statistiku padarot par sliktu novērtējuma pamatu. Tā vietā apsveriet iespēju izveidot jaunu jautājumu, nevis mainīt jau atbildētu jautājumu.
 
 Anketā nevar dzēst šādu tipu jautājumus:
 
@@ -177,7 +183,8 @@ Rezultātu grupa tiek lietota, lai aprēķinātu punktu skaitu un anketas rezult
 -   Ģenerējiet statistiku katrai rezultātu grupai, lai atvieglotu rezultātu analizēšanu.
 -   Drukājiet atskaiti, kurā ir parādīti rezultāti par katru rezultātu grupu, kā arī papildu punktus/tekstus, kuru pamatā ir katrā rezultātu grupā iegūtais punktu skaits.
 
-**Piezīme.** Lai varētu iestatīt rezultātu grupas, jums ir jāizpilda šādi uzdevumi:
+> [!NOTE]
+> Lai varētu iestatīt rezultātu grupas, jums ir jāizpilda šādi uzdevumi:
 
 -   Iestatiet slēgtos jautājumus. Slēgtam jautājumam ievades tipam lapā **Jautājumi** ir jābūt **Izvēles rūtiņa**, **Alternatīvā poga** vai **Kombinētais lodziņš**.
 -   Definējiet punktu skaitu atbildēm tajās atbilžu grupās, kuras ir piešķirtas katram jautājumam.
@@ -187,7 +194,8 @@ Lai anketai pievienotu jautājumus, izmantojot rezultātu grupas, vispirms iesta
 
 Varat iestatīt vairākas rezultātu grupas, lai novērtētu punktu skaitu, ko respondents nopelna katrā kategorijā. Kad anketa ir aizpildīta, varat apskatīt punktu skaitu, kas ir iegūti katrai rezultātu grupai. 
 
-**Padoms.** Lai novērtētu anketu, izmantojot punktu skaitu, bet ne atsevišķas kategorijas, visus jautājumus varat pievienot vienai rezultātu grupai. 
+> [!TIP]
+> Lai novērtētu anketu, izmantojot punktu skaitu, bet ne atsevišķas kategorijas, visus jautājumus varat pievienot vienai rezultātu grupai. 
 
 Katrai rezultātu grupai varat arī iestatīt vienu vai vairākus no punktu skaita atkarīgus ziņojumus, ko respondenti saņem pēc anketas aizpildīšanas. Rādītais teksts var atšķirties atkarībā no punktu skaita, ko respondents saņem rezultātu grupā. Lai izmantotu no punktu skaita atkarīgus ziņojumus, jums ir jādefinē punktu intervāli un katra intervāla apraksts. Kad respondents iegūst punktu skaitu noteiktā intervālā, rezultātu atskaitē tiek iekļauts teksts šim intervālam. 
 
@@ -213,13 +221,15 @@ Nākamajā tabulā ir parādīti no punktiem atkarīgi ziņojumi, kurus jūs def
 
 Punktu intervālus un tekstus varat iestatīt katrai rezultātu grupai anketā. Katrai rezultātu grupai tiek rādīts teksts, kas atbilst katra respondenta punktu skaitam. 
 
-**Piezīme.** Intervālus un tekstus varat mainīt. Taču, ja anketa ir aizpildīta, šādas izmaiņas var izraisīt atšķirības starp iepriekšējām un jaunajām rezultātu atskaitēm.
+> [!NOTE]
+> Intervālus un tekstus varat mainīt. Taču, ja anketa ir aizpildīta, šādas izmaiņas var izraisīt atšķirības starp iepriekšējām un jaunajām rezultātu atskaitēm.
 
 ### <a name="conditional-question-hierarchies"></a>Nosacījuma jautājumu hierarhijas
 
 Kad iestatāt anketu, nosacījuma jautājumu hierarhijas nav obligātas. 
 
-**Piezīme.** Lai varētu iestatīt nosacījuma jautājumu hierarhiju, jums anketai ir jāpievieno jautājumi, kuriem ir piešķirtas atbilžu grupas. 
+> [!NOTE]
+> Lai varētu iestatīt nosacījuma jautājumu hierarhiju, jums anketai ir jāpievieno jautājumi, kuriem ir piešķirtas atbilžu grupas. 
 
 Lai anketas jautājumu hierarhijas izveidošanai izmantotu nosacījuma jautājumus, varat norādīt, lai jautājumu rādīšanas secība būtu atkarīga no atbildes, kādu respondents atlasa katram jautājumam. Jautājumu secību pamatojot uz respondenta atbildi, varat modificēt aptauju, kamēr respondents to aizpilda.
 
@@ -232,9 +242,9 @@ Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jaut�
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Anketu lietošana](questionnaires.md)
+[Anketas](questionnaires.md)
 
-[Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
+[Anketu izplatīšana un plānošana](distribute-questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
 
