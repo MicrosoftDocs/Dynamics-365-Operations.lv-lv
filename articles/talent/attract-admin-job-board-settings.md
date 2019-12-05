@@ -1,5 +1,5 @@
 ---
-title: Iespējot Broadbean integrāciju programmā Microsoft Dynamics 365 Talent - Attract
+title: Iespējot Broadbean integrāciju programmā Attract
 description: Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 Talent - Attract, lai grāmatotu darbus uz ārējiem darba sludinājuma dēļiem, piemēram, Broadbean.
 author: andreabichsel
 manager: AnnBe
@@ -18,36 +18,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552144"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833212"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a><span data-ttu-id="138e8-103">Iespējot Broadbean integrāciju programmā Microsoft Dynamics 365 Talent - Attract</span><span class="sxs-lookup"><span data-stu-id="138e8-103">Enable Broadbean integration in Microsoft Dynamics 365 Talent - Attract</span></span>
+# <a name="enable-broadbean-integration-in-attract"></a><span data-ttu-id="2a34f-103">Iespējot Broadbean integrāciju programmā Attract</span><span class="sxs-lookup"><span data-stu-id="2a34f-103">Enable Broadbean integration in Attract</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-<span data-ttu-id="138e8-104">Jūs vēlaties, lai jūsu atvērtās pozīcijas redz iespējami daudz kvalificētu kandidātu.</span><span class="sxs-lookup"><span data-stu-id="138e8-104">You want to get your open positions in front of as many qualified candidates as possible.</span></span> <span data-ttu-id="138e8-105">Personāla atlases vietnes, piemēram, Broadbean, palīdz jums sasniegt šo mērķi.</span><span class="sxs-lookup"><span data-stu-id="138e8-105">Recruiting sites such as Broadbean help you accomplish this goal.</span></span> <span data-ttu-id="138e8-106">Microsoft Dynamics 365 Talent: Attract tagad ļauj jums publicēt vietnē Broadbean, un Microsoft pastāvīgi nodrošina jaunu piedāvājumu šajā jomā.</span><span class="sxs-lookup"><span data-stu-id="138e8-106">Microsoft Dynamics 365 Talent: Attract now lets you post jobs to Broadbean, and Microsoft is constantly providing new offerings in this area.</span></span>
+<span data-ttu-id="2a34f-104">Jūs vēlaties, lai jūsu atvērtās pozīcijas redz iespējami daudz kvalificētu kandidātu.</span><span class="sxs-lookup"><span data-stu-id="2a34f-104">You want to get your open positions in front of as many qualified candidates as possible.</span></span> <span data-ttu-id="2a34f-105">Personāla atlases vietnes, piemēram, Broadbean, palīdz jums sasniegt šo mērķi.</span><span class="sxs-lookup"><span data-stu-id="2a34f-105">Recruiting sites such as Broadbean help you accomplish this goal.</span></span> <span data-ttu-id="2a34f-106">Microsoft Dynamics 365 Talent: Attract tagad ļauj jums publicēt vietnē Broadbean, un Microsoft pastāvīgi nodrošina jaunu piedāvājumu šajā jomā.</span><span class="sxs-lookup"><span data-stu-id="2a34f-106">Microsoft Dynamics 365 Talent: Attract now lets you post jobs to Broadbean, and Microsoft is constantly providing new offerings in this area.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="138e8-107">Lai publicētu darbus ārējās vietnēs, ir nepieciešama [visaptveroša nolīgšanas pievienojumprogramma](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span><span class="sxs-lookup"><span data-stu-id="138e8-107">To post jobs to external sites, you must have the [Comprehensive hiring add-on](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span></span>
-> - <span data-ttu-id="138e8-108">Lai grāmatotu darbus programmatūrā Broadbean, izmantojot Attract, jums ir nepieciešams Broadbean abonements.</span><span class="sxs-lookup"><span data-stu-id="138e8-108">To post jobs to Broadbean through Attract, you must have a Broadbean subscription.</span></span>
-> - <span data-ttu-id="138e8-109">Šis līdzeklis pašreiz ir priekšskatījumā.</span><span class="sxs-lookup"><span data-stu-id="138e8-109">This feature is currently in preview.</span></span> <span data-ttu-id="138e8-110">Ja vēlaties to izmēģināt, jums [tā ir jāieslēdz pakalpojuma Attract administratora iestatījumos](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span><span class="sxs-lookup"><span data-stu-id="138e8-110">If you want to try it, you must [turn it on in the Attract admin settings](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span></span>
+> - <span data-ttu-id="2a34f-107">Lai publicētu darbus ārējās vietnēs, ir nepieciešama [visaptveroša nolīgšanas pievienojumprogramma](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span><span class="sxs-lookup"><span data-stu-id="2a34f-107">To post jobs to external sites, you must have the [Comprehensive hiring add-on](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span></span>
+> - <span data-ttu-id="2a34f-108">Lai grāmatotu darbus programmatūrā Broadbean, izmantojot Attract, jums ir nepieciešams Broadbean abonements.</span><span class="sxs-lookup"><span data-stu-id="2a34f-108">To post jobs to Broadbean through Attract, you must have a Broadbean subscription.</span></span>
+> - <span data-ttu-id="2a34f-109">Šis līdzeklis pašreiz ir priekšskatījumā.</span><span class="sxs-lookup"><span data-stu-id="2a34f-109">This feature is currently in preview.</span></span> <span data-ttu-id="2a34f-110">Ja vēlaties to izmēģināt, jums [tā ir jāieslēdz pakalpojuma Attract administratora iestatījumos](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span><span class="sxs-lookup"><span data-stu-id="2a34f-110">If you want to try it, you must [turn it on in the Attract admin settings](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span></span>
 
-## <a name="configure-broadbean-integration"></a><span data-ttu-id="138e8-111">Broadbean integrācijas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="138e8-111">Configure Broadbean integration</span></span>
+## <a name="configure-broadbean-integration"></a><span data-ttu-id="2a34f-111">Broadbean integrācijas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="2a34f-111">Configure Broadbean integration</span></span>
 
-1. <span data-ttu-id="138e8-112">Piesakieties pakalpojumā Attract kā administrators.</span><span class="sxs-lookup"><span data-stu-id="138e8-112">Sign in to Attract as an admin.</span></span>
+1. <span data-ttu-id="2a34f-112">Piesakieties pakalpojumā Attract kā administrators.</span><span class="sxs-lookup"><span data-stu-id="2a34f-112">Sign in to Attract as an admin.</span></span>
 
-2. <span data-ttu-id="138e8-113">Atlasiet pogu **Iestatījumi** (zobrata simbols) lapas labās puses augšējā stūrī un pēc tam atlasiet **Administrēšanas centrs**.</span><span class="sxs-lookup"><span data-stu-id="138e8-113">Select the **Settings** button (the gear symbol) in the upper-right corner of the page, and then select **Admin center**.</span></span>
+2. <span data-ttu-id="2a34f-113">Atlasiet pogu **Iestatījumi** (zobrata simbols) lapas labās puses augšējā stūrī un pēc tam atlasiet **Administrēšanas centrs**.</span><span class="sxs-lookup"><span data-stu-id="2a34f-113">Select the **Settings** button (the gear symbol) in the upper-right corner of the page, and then select **Admin center**.</span></span>
 
-3. <span data-ttu-id="138e8-114">Sazinieties ar Broadbean un ievadiet informāciju laukā **Lietotājvārds**, **Klienta ID**, un **Šifrēšanas pilnvara**.</span><span class="sxs-lookup"><span data-stu-id="138e8-114">Contact Broadbean, and enter your information in the **Username**, **Client ID**, and **Encryption Token** fields.</span></span>
+3. <span data-ttu-id="2a34f-114">Sazinieties ar Broadbean un ievadiet informāciju laukā **Lietotājvārds**, **Klienta ID**, un **Šifrēšanas pilnvara**.</span><span class="sxs-lookup"><span data-stu-id="2a34f-114">Contact Broadbean, and enter your information in the **Username**, **Client ID**, and **Encryption Token** fields.</span></span>
 
-4. <span data-ttu-id="138e8-115">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="138e8-115">Select **Save**.</span></span>
+4. <span data-ttu-id="2a34f-115">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="2a34f-115">Select **Save**.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="138e8-116">Jūsu Broadbean akreditācijas dati ir jutīgi un konfidenciāli.</span><span class="sxs-lookup"><span data-stu-id="138e8-116">Your Broadbean credentials are sensitive and confidential.</span></span> <span data-ttu-id="138e8-117">Tāpēc glabājiet un koplietojiet tos atbildīgi.</span><span class="sxs-lookup"><span data-stu-id="138e8-117">Therefore, store and share them responsibly.</span></span> <span data-ttu-id="138e8-118">Ikviena persona, kurai administratora loma pakalpojumā Attract, var skatīt šos akreditācijas datus.</span><span class="sxs-lookup"><span data-stu-id="138e8-118">Anyone who has an Administrator role in Attract can view these credentials.</span></span>
+> <span data-ttu-id="2a34f-116">Jūsu Broadbean akreditācijas dati ir jutīgi un konfidenciāli.</span><span class="sxs-lookup"><span data-stu-id="2a34f-116">Your Broadbean credentials are sensitive and confidential.</span></span> <span data-ttu-id="2a34f-117">Tāpēc glabājiet un koplietojiet tos atbildīgi.</span><span class="sxs-lookup"><span data-stu-id="2a34f-117">Therefore, store and share them responsibly.</span></span> <span data-ttu-id="2a34f-118">Ikviena persona, kurai administratora loma pakalpojumā Attract, var skatīt šos akreditācijas datus.</span><span class="sxs-lookup"><span data-stu-id="2a34f-118">Anyone who has an Administrator role in Attract can view these credentials.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="138e8-119">Microsoft un Attract nav iesaistīti šo vērtību izveidē un saglabāšanā.</span><span class="sxs-lookup"><span data-stu-id="138e8-119">Microsoft and Attract aren't involved in creating and maintaining these values.</span></span> <span data-ttu-id="138e8-120">Jūsu pienākums ir tos atjaunināt pakalpojumā Attract un sadarboties ar Broadbean, lai atrisinātu jebkādas problēmas, kas ir saistītas ar jūsu akreditācijas datiem.</span><span class="sxs-lookup"><span data-stu-id="138e8-120">It's your responsibility to keep them up to date in Attract and to work with Broadbean to resolve any issues that involve your credentials.</span></span>
+> <span data-ttu-id="2a34f-119">Microsoft un Attract nav iesaistīti šo vērtību izveidē un saglabāšanā.</span><span class="sxs-lookup"><span data-stu-id="2a34f-119">Microsoft and Attract aren't involved in creating and maintaining these values.</span></span> <span data-ttu-id="2a34f-120">Jūsu pienākums ir tos atjaunināt pakalpojumā Attract un sadarboties ar Broadbean, lai atrisinātu jebkādas problēmas, kas ir saistītas ar jūsu akreditācijas datiem.</span><span class="sxs-lookup"><span data-stu-id="2a34f-120">It's your responsibility to keep them up to date in Attract and to work with Broadbean to resolve any issues that involve your credentials.</span></span>

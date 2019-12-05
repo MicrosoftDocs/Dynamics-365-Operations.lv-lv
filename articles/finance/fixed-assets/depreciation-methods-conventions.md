@@ -18,76 +18,76 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f1320d0adaad783f856ed6404039e7954920340
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c3370db28f551b5ce4a9b49342cb0c0b2f3945c0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187341"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769504"
 ---
-# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="88057-103">Nolietojuma metodes un konvencijas</span><span class="sxs-lookup"><span data-stu-id="88057-103">Depreciation methods and conventions</span></span>
+# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="0544f-103">Nolietojuma metodes un konvencijas</span><span class="sxs-lookup"><span data-stu-id="0544f-103">Depreciation methods and conventions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="88057-104">Šajā rakstā ir sniegts apskats par atbalstītajām nolietojuma aprēķināšanas metodēm un nolietojuma metodēm.</span><span class="sxs-lookup"><span data-stu-id="88057-104">This article provides an overview of the supported depreciation conventions and depreciation methods.</span></span>
+<span data-ttu-id="0544f-104">Šajā rakstā ir sniegts apskats par atbalstītajām nolietojuma aprēķināšanas metodēm un nolietojuma metodēm.</span><span class="sxs-lookup"><span data-stu-id="0544f-104">This article provides an overview of the supported depreciation conventions and depreciation methods.</span></span>
 
-<span data-ttu-id="88057-105">Var atlasīt dažādas nolietojuma metodes un konvencijas.</span><span class="sxs-lookup"><span data-stu-id="88057-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="88057-106">Šo metožu nolūks ir sadalīt pamatlīdzekļa nolietojuma vērtību pa finanšu periodiem.</span><span class="sxs-lookup"><span data-stu-id="88057-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="88057-107">Pamatlīdzekļa nolietojuma vērtība ir iegādes cenas un lūžņu vērtības (ja tāda ir) starpība.</span><span class="sxs-lookup"><span data-stu-id="88057-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
+<span data-ttu-id="0544f-105">Var atlasīt dažādas nolietojuma metodes un konvencijas.</span><span class="sxs-lookup"><span data-stu-id="0544f-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="0544f-106">Šo metožu nolūks ir sadalīt pamatlīdzekļa nolietojuma vērtību pa finanšu periodiem.</span><span class="sxs-lookup"><span data-stu-id="0544f-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="0544f-107">Pamatlīdzekļa nolietojuma vērtība ir iegādes cenas un lūžņu vērtības (ja tāda ir) starpība.</span><span class="sxs-lookup"><span data-stu-id="0544f-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
 
-<span data-ttu-id="88057-108">Ja izmantojat nolietojuma konvencijas un modificējat pamatlīdzekļa pēdējo nolietojuma aprēķināšanas datumu, tādējādi izraisot dažu nolietojuma aprēķinu izlaišanu, nolietojums pēdējā gadā var būt lielāks vai mazāks par paredzēto.</span><span class="sxs-lookup"><span data-stu-id="88057-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="88057-109">Nolietojums tiek koriģēts ar nolietojuma periodu skaitu, ko ietekmē pēdējā nolietojuma aprēķināšanas datuma modifikācija.</span><span class="sxs-lookup"><span data-stu-id="88057-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
+<span data-ttu-id="0544f-108">Ja izmantojat nolietojuma konvencijas un modificējat pamatlīdzekļa pēdējo nolietojuma aprēķināšanas datumu, tādējādi izraisot dažu nolietojuma aprēķinu izlaišanu, nolietojums pēdējā gadā var būt lielāks vai mazāks par paredzēto.</span><span class="sxs-lookup"><span data-stu-id="0544f-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="0544f-109">Nolietojums tiek koriģēts ar nolietojuma periodu skaitu, ko ietekmē pēdējā nolietojuma aprēķināšanas datuma modifikācija.</span><span class="sxs-lookup"><span data-stu-id="0544f-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
 
-<span data-ttu-id="88057-110">Piemēram, ja trīs gadus lietojat pusgada nolietojuma konvenciju, nolietošanās parasti notiek 3 1/2 gados.</span><span class="sxs-lookup"><span data-stu-id="88057-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="88057-111">Ja trīsarpus gadu laikā maināt pēdējo nolietojuma aprēķināšanas datumu, pēdējais nolietojums iziet ārpus ietekmēto periodu skaita.</span><span class="sxs-lookup"><span data-stu-id="88057-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="88057-112">Ja maināt datumu par trīs mēnešiem, pēdējam gadam tiek aprēķināts deviņu mēnešu nolietojums, lai gan parasti tam vajadzētu būt sešu mēnešu nolietojumam.</span><span class="sxs-lookup"><span data-stu-id="88057-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
+<span data-ttu-id="0544f-110">Piemēram, ja trīs gadus lietojat pusgada nolietojuma konvenciju, nolietošanās parasti notiek 3 1/2 gados.</span><span class="sxs-lookup"><span data-stu-id="0544f-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="0544f-111">Ja trīsarpus gadu laikā maināt pēdējo nolietojuma aprēķināšanas datumu, pēdējais nolietojums iziet ārpus ietekmēto periodu skaita.</span><span class="sxs-lookup"><span data-stu-id="0544f-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="0544f-112">Ja maināt datumu par trīs mēnešiem, pēdējam gadam tiek aprēķināts deviņu mēnešu nolietojums, lai gan parasti tam vajadzētu būt sešu mēnešu nolietojumam.</span><span class="sxs-lookup"><span data-stu-id="0544f-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
 
-<span data-ttu-id="88057-113">Varat atlasīt kādu no tālāk norādītajām nolietojuma konvencijām.</span><span class="sxs-lookup"><span data-stu-id="88057-113">You can select from the following depreciation conventions.</span></span>
-
-
--   <span data-ttu-id="88057-114">Pusgads</span><span class="sxs-lookup"><span data-stu-id="88057-114">Half year</span></span>
--   <span data-ttu-id="88057-115">Pilns mēnesis</span><span class="sxs-lookup"><span data-stu-id="88057-115">Full month</span></span>
--   <span data-ttu-id="88057-116">Puse ceturkšņa</span><span class="sxs-lookup"><span data-stu-id="88057-116">Mid quarter</span></span>
--   <span data-ttu-id="88057-117">Puse mēneša (mēneša 1. datums)</span><span class="sxs-lookup"><span data-stu-id="88057-117">Mid month (1st of month)</span></span>
--   <span data-ttu-id="88057-118">Puse mēneša (mēneša 15. datums)</span><span class="sxs-lookup"><span data-stu-id="88057-118">Mid month (15th of month)</span></span>
--   <span data-ttu-id="88057-119">Pusgads (gada sākums)</span><span class="sxs-lookup"><span data-stu-id="88057-119">Half year (start of year)</span></span>
--   <span data-ttu-id="88057-120">Puse gada (nākamais gads)</span><span class="sxs-lookup"><span data-stu-id="88057-120">Half year (next year)</span></span>
-
-<span data-ttu-id="88057-121">Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.</span><span class="sxs-lookup"><span data-stu-id="88057-121">You can select from the following depreciation methods.</span></span>
--   <span data-ttu-id="88057-122">Lineārais lietošanas ilgums</span><span class="sxs-lookup"><span data-stu-id="88057-122">Straight line service life</span></span>
--   <span data-ttu-id="88057-123">Atlik. samazinošā</span><span class="sxs-lookup"><span data-stu-id="88057-123">Reducing balance</span></span>
--   <span data-ttu-id="88057-124">Manuālā</span><span class="sxs-lookup"><span data-stu-id="88057-124">Manual</span></span>
--   <span data-ttu-id="88057-125">Koeficients</span><span class="sxs-lookup"><span data-stu-id="88057-125">Factor</span></span>
--   <span data-ttu-id="88057-126">Patēriņš</span><span class="sxs-lookup"><span data-stu-id="88057-126">Consumption</span></span>
--   <span data-ttu-id="88057-127">Lineārais atlikušais mūžs</span><span class="sxs-lookup"><span data-stu-id="88057-127">Straight line life remaining</span></span>
--   <span data-ttu-id="88057-128">200% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="88057-128">200% reducing balance</span></span>
--   <span data-ttu-id="88057-129">175% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="88057-129">175% reducing balance</span></span>
--   <span data-ttu-id="88057-130">150% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="88057-130">150% reducing balance</span></span>
--   <span data-ttu-id="88057-131">125% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="88057-131">125% reducing balance</span></span>
+<span data-ttu-id="0544f-113">Varat atlasīt kādu no tālāk norādītajām nolietojuma konvencijām.</span><span class="sxs-lookup"><span data-stu-id="0544f-113">You can select from the following depreciation conventions.</span></span>
 
 
+-   <span data-ttu-id="0544f-114">Pusgads</span><span class="sxs-lookup"><span data-stu-id="0544f-114">Half year</span></span>
+-   <span data-ttu-id="0544f-115">Pilns mēnesis</span><span class="sxs-lookup"><span data-stu-id="0544f-115">Full month</span></span>
+-   <span data-ttu-id="0544f-116">Puse ceturkšņa</span><span class="sxs-lookup"><span data-stu-id="0544f-116">Mid quarter</span></span>
+-   <span data-ttu-id="0544f-117">Puse mēneša (mēneša 1. datums)</span><span class="sxs-lookup"><span data-stu-id="0544f-117">Mid month (1st of month)</span></span>
+-   <span data-ttu-id="0544f-118">Puse mēneša (mēneša 15. datums)</span><span class="sxs-lookup"><span data-stu-id="0544f-118">Mid month (15th of month)</span></span>
+-   <span data-ttu-id="0544f-119">Pusgads (gada sākums)</span><span class="sxs-lookup"><span data-stu-id="0544f-119">Half year (start of year)</span></span>
+-   <span data-ttu-id="0544f-120">Puse gada (nākamais gads)</span><span class="sxs-lookup"><span data-stu-id="0544f-120">Half year (next year)</span></span>
+
+<span data-ttu-id="0544f-121">Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.</span><span class="sxs-lookup"><span data-stu-id="0544f-121">You can select from the following depreciation methods.</span></span>
+-   <span data-ttu-id="0544f-122">Lineārais lietošanas ilgums</span><span class="sxs-lookup"><span data-stu-id="0544f-122">Straight line service life</span></span>
+-   <span data-ttu-id="0544f-123">Atlik. samazinošā</span><span class="sxs-lookup"><span data-stu-id="0544f-123">Reducing balance</span></span>
+-   <span data-ttu-id="0544f-124">Manuālā</span><span class="sxs-lookup"><span data-stu-id="0544f-124">Manual</span></span>
+-   <span data-ttu-id="0544f-125">Koeficients</span><span class="sxs-lookup"><span data-stu-id="0544f-125">Factor</span></span>
+-   <span data-ttu-id="0544f-126">Patēriņš</span><span class="sxs-lookup"><span data-stu-id="0544f-126">Consumption</span></span>
+-   <span data-ttu-id="0544f-127">Lineārais atlikušais mūžs</span><span class="sxs-lookup"><span data-stu-id="0544f-127">Straight line life remaining</span></span>
+-   <span data-ttu-id="0544f-128">200% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="0544f-128">200% reducing balance</span></span>
+-   <span data-ttu-id="0544f-129">175% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="0544f-129">175% reducing balance</span></span>
+-   <span data-ttu-id="0544f-130">150% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="0544f-130">150% reducing balance</span></span>
+-   <span data-ttu-id="0544f-131">125% atlikumu bilance</span><span class="sxs-lookup"><span data-stu-id="0544f-131">125% reducing balance</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="88057-132">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="88057-132">Additional resources</span></span>
+
+
+<a name="additional-resources"></a><span data-ttu-id="0544f-132">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="0544f-132">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="88057-133">Pamatlīdzekļu nolietojums</span><span class="sxs-lookup"><span data-stu-id="88057-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
+[<span data-ttu-id="0544f-133">Pamatlīdzekļu nolietojums</span><span class="sxs-lookup"><span data-stu-id="0544f-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
 
-[<span data-ttu-id="88057-134">Lineārā lietošanas ilguma nolietojums</span><span class="sxs-lookup"><span data-stu-id="88057-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
+[<span data-ttu-id="0544f-134">Lietošanas ilguma lineārā aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
 
-[<span data-ttu-id="88057-135">Degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="88057-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
+[<span data-ttu-id="0544f-135">Degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-135">Reduce balance depreciation</span></span>](reduce-balance-depreciation.md)
 
-[<span data-ttu-id="88057-136">Manuāls nolietojuma aprēķins</span><span class="sxs-lookup"><span data-stu-id="88057-136">Manual depreciation</span></span>](manual-depreciation.md)
+[<span data-ttu-id="0544f-136">Pamatlīdzekļu manuālais nolietojums</span><span class="sxs-lookup"><span data-stu-id="0544f-136">Manual depreciation</span></span>](manual-depreciation.md)
 
-[<span data-ttu-id="88057-137">Reizinātāja nolietojums</span><span class="sxs-lookup"><span data-stu-id="88057-137">Factor depreciation</span></span>](factor-depreciation.md)
+[<span data-ttu-id="0544f-137">Koeficienta nolietojums</span><span class="sxs-lookup"><span data-stu-id="0544f-137">Factor depreciation</span></span>](factor-depreciation.md)
 
-[<span data-ttu-id="88057-138">Patēriņa nolietojuma aprēķins</span><span class="sxs-lookup"><span data-stu-id="88057-138">Consumption depreciation</span></span>](consumption-depreciation.md)
+[<span data-ttu-id="0544f-138">Patēriņa nolietojuma aprēķins</span><span class="sxs-lookup"><span data-stu-id="0544f-138">Consumption depreciation</span></span>](consumption-depreciation.md)
 
-[<span data-ttu-id="88057-139">Atlikušā lietošanas ilguma lineārā aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="88057-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
+[<span data-ttu-id="0544f-139">Atlikušā lietošanas ilguma lineārā aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
 
-[<span data-ttu-id="88057-140">125 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="88057-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="0544f-140">125 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="88057-141">150 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="88057-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="0544f-141">150 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="88057-142">175 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="88057-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="0544f-142">175 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="88057-143">200 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="88057-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="0544f-143">200 procentu degresīvā nolietojuma aprēķināšanas metode</span><span class="sxs-lookup"><span data-stu-id="0544f-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
 
 
 
