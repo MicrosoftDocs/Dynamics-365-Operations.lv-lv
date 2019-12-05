@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e7a3d32ba9c9ac0f6497db78d125dc34b4cfbc61
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658717"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811437"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
 [!include [banner](../includes/banner.md)]
 
 No 2019. oktobra šī lapa vairs netiek uzturēta. Šīs tēmas informācijā ir parādīts, kur meklēt informāciju par līdzekļiem Finance and Operations lietojumprogrammās, kas tika izlaistas pirms 2019. oktobra.
 
-Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Jaunināšana uz pēdējo atjauninājumu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
+Informāciju par jaunināšanu uz pēdējo versiju skatiet sadaļā [Pārvietošanās uz pēdējo Finance and Operations atjauninājumu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 [!include [release notes](../includes/release-notes.md)]
 

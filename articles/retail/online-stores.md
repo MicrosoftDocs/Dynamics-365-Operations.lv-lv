@@ -1,9 +1,9 @@
 ---
-title: Tiešsaistes veikalu iestatīšana
-description: Šajā rakstā ir sniegta informācija par mazumtirdzniecības tiešsaistes veikaliem un to iestatīšanu programmā Dynamics 365 Retail.
+title: Iestatīt tiešsaistes veikala kanālu
+description: Šajā rakstā ir sniegta informācija par Retail tiešsaistes veikalu kanāliem un to iestatīšanu programmā Dynamics 365 Retail.
 author: kfend
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e7932879aac6ea4054f6c35de99f11c2662dd472
+ms.sourcegitcommit: 595a4ec63a32bd5d4321126bda7cf72a75a930a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017970"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2688813"
 ---
-# <a name="set-up-online-stores"></a>Tiešsaistes veikalu iestatīšana
+# <a name="set-up-an-online-store-channel"></a>Iestatīt tiešsaistes veikala kanālu
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par mazumtirdzniecības tiešsaistes veikaliem un to iestatīšanu programmā Dynamics 365 Retail.
+Šajā rakstā ir sniegta informācija par Retail tiešsaistes veikalu kanāliem un to iestatīšanu programmā Dynamics 365 Retail.
 
 Programma Retail atbalsta vairākus mazumtirdzniecības kanālus. Šie mazumtirdzniecības kanāli ietver tiešsaistes veikalus, zvanu centrus un mazumtirdzniecības veikalus (zināmi arī kā fiziskie veikali). Tiešsaistes veikali mazumtirgotājam sniedz tiešsaistes iespējas, lai klienti varētu iegādāties preces ne tikai mazumtirgotāja tiešsaistes veikalā, bet arī tā mazumtirdzniecības veikalos. Ja klienti iegādājas preces no tiešsaistes veikala, tās var saņemt ar sūtījumu vai saņemt vietējā mazumtirdzniecības veikalā. Varat izveidot tiešsaistes veikalu Retail klientā. Pēc tam šis tiešsaistes veikals tiek publicēts trešās puses tiešsaistes veikalā, kas ir integrēts ar programmu Retail. Trešās puses tiešsaistes veikalu izmanto kā tiešsaistes veikala Storefront (UI), kas ļauj izvēlēties klientu pārvaldības sistēmu (CMS) un lietotāja interfeisa iespējas. Ir pieejamas vairākas šāda veida integrācijas. Rekvizīti, ko definējat šim tiešsaistes veikalam, nosaka tiešsaistes veikala darbību. Piemēram, varat programmā Retail definēt navigācijas kategoriju hierarhiju un piešķirt to tiešsaistes veikalam. Kad tiešsaistes veikalu publicējat trešās puses tiešsaistes veikalā, šī navigācijas kategoriju hierarhija tiek parādīta veikala tiešsaistes versijā. Pircēji tad šo navigācijas kategoriju hierarhiju izmanto, lai pārlūkotu tiešsaistes veikalu un meklētu preces. Lai izveidotu tiešsaistes veikalu, ir jāiestata komponenti, kas ļauj veikt veikalam apstrādājamos darījumus. Jums, piemēram, jāpievieno preču klāsts, jālieto atribūti, jāiestata apmaksas metodes un piegādes metodes. Varat arī definēt konkrētā tiešsaistes veikala cenas, veicināšanas pasākumus, atlaides, tirdzniecības līgumus un piegādes nosacījumus. Pēc tiešsaistes veikala publicēšanas trešās puses tiešsaistes veikalā varat izveidot tiešsaistes veikala mazumtirdzniecības preču katalogus. Katalogā iekļautās preces kļūst par preču sarakstiem tiešsaistes veikalā. Kad pircējs iegādājas preces no tiešsaistes veikala, pieejamie krājumi tiek atjaunināti un sinhronizēti klientā. Turklāt pirkumiem tiek ģenerēti pārdošanas pasūtījumi, un tie tiek nosūtīti uz klientu, lai izpildītu un apstrādātu pasūtījumu.
 

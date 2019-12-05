@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184351"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769614"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu
 
@@ -57,7 +57,7 @@ Nākamajās sadaļās ir aprakstīta šo iestatījumu ietekme, kā arī paskaidr
 
 ### <a name="voucher-number"></a>Dokumenta numurs
 
-- Kad izmantojat iestatījumu **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls, dokumenta numuram ir jābūt norādītam importētajā failā. Katrai transakcijai virsgrāmatas žurnālā tiek piešķirts dokumenta numurs, kas ir norādīts importētajā failā, pat ja dokuments nav līdzsvarots. Ja vēlaties lietot no kopas atkarīgu apstrādi, bet vēlaties arī lietot numuru sēriju, kas ir definēta dokumentu numuriem, ir nodrošināts labojumfails versijas 2016. gada februāra laidienam. Šī labojumfaila numurs ir 3170316, un tas ir pieejams lejupielādei no Lifecycle Services (LCS). Papildinformāciju skatiet rakstā [Lejupielādēt labojumfailus no Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
+- Kad izmantojat iestatījumu **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls, dokumenta numuram ir jābūt norādītam importētajā failā. Katrai transakcijai virsgrāmatas žurnālā tiek piešķirts dokumenta numurs, kas ir norādīts importētajā failā, pat ja dokuments nav līdzsvarots. Ja vēlaties lietot no kopas atkarīgu apstrādi, bet vēlaties arī lietot numuru sēriju, kas ir definēta dokumentu numuriem, ir nodrošināts labojumfails versijas 2016. gada februāra laidienam. Šī labojumfaila numurs ir 3170316, un tas ir pieejams lejupielādei no Lifecycle Services (LCS). Papildinformāciju skatiet rakstā [Lejupielādēt atjauninājumus no Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
 
     - Lai iespējotu šo funkcionalitāti, žurnāla nosaukumam, kas tiek izmantots importēšanai, vienumu **Numuru piešķiršana grāmatojot** iestatiet uz **Jā**.
     - Dokumenta numuram joprojām ir jābūt definētam importētajā failā. Taču šis numurs ir tikai pagaidu, un žurnāla grāmatošanas laikā tas tiek pārrakstīts ar dokumenta numuru. Jums ir jānodrošina, ka žurnāla rindas tiek pareizi grupētas pēc pagaidu dokumenta numura. Piemēram, grāmatošanas laikā tiek konstatētas trīs rindas, kurās pagaidu dokumenta numurs ir 1. Visu trīs rindu pagaidu dokumenta numurs tiek pārrakstīts ar nākamo numuru attiecīgajā numuru sērijā. Ja šīs trīs rindas nav līdzsvarots ieraksts, tad dokuments netiek grāmatots. Pēc tam, ja tiek konstatētas rindas, kuru pagaidu dokumenta numurs ir 2, šis numurs tiek pārrakstīts ar nākamo dokumenta numuru attiecīgajā numuru sērijā, un tā tālāk.

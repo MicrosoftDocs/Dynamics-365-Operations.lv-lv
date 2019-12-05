@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181270"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771473"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronisko pārskatu (ER) galamērķi
 
@@ -122,7 +122,7 @@ Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priek�
 
 ### <a name="power-bi-destination"></a>Power BI galamērķis
 
-Iestatiet opcijas **Iespējots** vērtību **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kas ir jākonfigurē šim mērķim. Papildinformāciju skatiet rakstā [Elektronisko pārskatu veidošanas konfigurācijas izmantošana, lai pakalpojumā Power BI nodrošinātu datus no programmas Finance](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Iestatiet opcijas **Iespējots** vērtību **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kas ir jākonfigurē šim mērķim. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurēšana, lai izvilktu datus Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Lai ignorētu noklusējuma uzvedību (t.i., dialoglodziņu kādai konfigurācijai), varat izveidot galamērķa atsauci un faila galamērķi galvenajam izvades komponentam un pēc tam atspējot visus galamērķus.
@@ -163,4 +163,4 @@ Priekšnosacījums ir tāds, ka jūsu formātam ir jābūt pieejamam ER konfigu
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)

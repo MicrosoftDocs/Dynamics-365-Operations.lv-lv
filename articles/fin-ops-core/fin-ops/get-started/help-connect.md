@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537859"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812584"
 ---
 # <a name="connect-the-help-system"></a>Savienojuma izveide ar palīdzības sistēmu
 
@@ -54,7 +54,7 @@ Lapā **Sistēmas parametri** izpildiet šādas darbības:
 > [!IMPORTANT]
 > Kad cilni **Palīdzība** atverat pirmo reizi, ir jāizveido savienojums ar Lifecycle Services. Noteikti noklikšķiniet uz saites formas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam noklikšķiniet uz **Labi**, lai piekļūtu lapai **Sistēmas parametri**.
 >
-> [![Savienojuma izveide ar LCS](./media/connect-to-lcs-crop-1024x365.png "Savienojuma izveide ar LCS")](./media/connect-to-lcs-crop.png)
+> [![Izveidot savienojumu ar LCS](./media/connect-to-lcs-crop-1024x365.png "Izveidot savienojumu ar LCS")](./media/connect-to-lcs-crop.png)
 
 1. Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 2. Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
@@ -80,7 +80,7 @@ Var lietot uzd. ceļv., lai izveidotu piel. palīdz. vai savienotu vietni ar rū
 
 Savai programmatūrai Finance, Supply Chain Management un Retail varat izveidot pielāgotu palīdzību, izveidojot uzdevumu ierakstus, kas atspoguļo jūsu implementāciju, un tos saglabājot LCS biznesa procesu bibliotēkā. Pielāgotus uzdevumu ceļvežus nevar izveidot programmatūrai Talent.
 
-Partneriem — ja bibliotēku paaugstināt uz korporatīvu bibliotēku, un iekļaut to kādā risinājumā, tā būs pieejama jūsu klientiem. Varat arī izveidot APQC vienotās globālās bibliotēkas kopiju, pēc tam atvērt savu kopiju, no tās atvērt uzdevumu ierakstus, modificēt tos un saglabāt ierakstus ar savām veiktajām izmaiņām. Papildinformāciju skatiet tēmā [Kā izveidot uzdevuma ierakstu izmantošanai dokumentācijas vai apmācības nolūkā](../../dev-itpro/user-interface/task-recorder.md).
+Partneriem — ja bibliotēku paaugstināt uz korporatīvu bibliotēku, un iekļaut to kādā risinājumā, tā būs pieejama jūsu klientiem. Varat arī izveidot APQC vienotās globālās bibliotēkas kopiju, pēc tam atvērt savu kopiju, no tās atvērt uzdevumu ierakstus, modificēt tos un saglabāt ierakstus ar savām veiktajām izmaiņām. Papildinformāciju skatiet tēmā [Uzdevuma reģistrētāja resursi](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Sav. ar piel. vietni
 
@@ -91,8 +91,8 @@ Microsoft ir sniedzis tehn. dokum. un parauga kodu, kas apraksta, kā veidot un 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Palīdzības apskats](help-overview.md)
+[Palīdzības sistēma](help-overview.md)
 
-[Pārskats par uzdevuma reģistrētāju](../../dev-itpro/user-interface/task-recorder.md)
+[Uzdevuma reģistrētāja resursi](../../dev-itpro/user-interface/task-recorder.md)
 
-[Kā izveidot uzdevuma ierakstu, ko lietot kā dokumentāciju vai apmācību](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju](../../dev-itpro/user-interface/task-recorder-training-docs.md)

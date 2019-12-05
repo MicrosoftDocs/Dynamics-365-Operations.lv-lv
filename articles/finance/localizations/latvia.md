@@ -16,12 +16,12 @@ ms.search.region: Latvia
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89a44ea1a4a5daffe4be90ddd4850d8850ecd04c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0eea2435536da76e6788853a5bc159088e6f9940
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183787"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772806"
 ---
 # <a name="latvia-overview"></a>Latvijas pārskats
 
@@ -29,8 +29,8 @@ ms.locfileid: "2183787"
 
 Šajā tēmā ir sniegtas saites uz Latvijai paredzētajiem dokumentācijas resursiem. 
 
-        - [Fixed assets accounting](emea-lva-fixed-assets-accounting.md)
-        - [Fixed assets location change tracking](emea-lva-fixed-assets-location-fields-change.md)
-        - [Invoice and packing slip numbering](emea-invoices-packing-slips-numbering.md)
-        - [Tax on natural resources report](emea-lva-tax-natural-resources.md)
-        - [VAT statement details](emea-lva-vat-statement-details.md)
+- [ Pamatlīdzekļu uzskaite nodokļu aprēķinam](emea-lva-fixed-assets-accounting.md)
+- [Pamatlīdzekļu novietojuma maiņas izsekošana](emea-lva-fixed-assets-location-fields-change.md)
+- [Rēķinu un pavadzīmju numerācija](emea-invoices-packing-slips-numbering.md)
+- [Dabas resursu nodokļa pārskats](emea-lva-tax-natural-resources.md)
+- [PVN deklarācijas informācija](emea-lva-vat-statement-details.md)

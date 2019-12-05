@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662669"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772900"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 23. oktobris)
 
@@ -47,7 +47,7 @@ Plašāku informāciju skatiet [Kas jauns vai mainīts Platform update 30 for Fi
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Noņemt priekšrocības atvērtās reģistrācijas priekšskatījuma funkciju
 
-Saistībā ar mūsu sludinājumu Stratēģiskās investīcijas Core HR Drive Operational Excellence blogā, korporācija Microsoft noņem atvieglojumus, kas atvērti reģistrācijai no publiskās priekšskatīšanas 2019. gada 18. oktobrī. Tā vietā nākotnē tiks izlaista jauna funkcionalitāte. Atbalsta atvērtās reģistrācijas funkcija, kas pašlaik atrodas publiskajā priekšskatījumā, netiks atbalstīta.
+Saistībā ar mūsu sludinājumu [Stratēģiskās investīcijas Core HR Drive Operational Excellence](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence) blogā, korporācija Microsoft noņem atvieglojumus, kas atvērti reģistrācijai no publiskās priekšskatīšanas 2019. gada 18. oktobrī. Tā vietā nākotnē tiks izlaista jauna funkcionalitāte. Atbalsta atvērtās reģistrācijas funkcija, kas pašlaik atrodas publiskajā priekšskatījumā, netiks atbalstīta.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Kļūda, atlasot valsti/reģionu darbinieku formā otro reizi (350294)
 
@@ -69,7 +69,7 @@ Izmantojot šīs nedēļas laidienu, jaunas saraksta vērtības pievienošana es
 
 Ar šo laidienu programmā Excel atvērsies tikai atlasītie darbinieku nodarbinātības noteikumi. Tiek turēta cieņā ar visa uzņēmuma drošība.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>Common Data Service nav saistības starp Darba kalendāra brīvdienu elementu un darba kalendāra elementu - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>Common Data Service nav saistības starp Darba kalendāra brīvdienu elementu un darba kalendāra elementu (324178)
 
 Šīs attiecības tika pievienotas kopā ar laidienu. Šīs izmaiņas aktivizēs darbinieka darba dienas, kas tiks rādītas PowerApps. 
 

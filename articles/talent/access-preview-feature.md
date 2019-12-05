@@ -1,5 +1,5 @@
 ---
-title: Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 Talent
+title: Pārvaldīt līdzekļus
 description: Šajā tēmā ir aprakstīts, kā administrators var iespējot priekšskatījuma līdzekļus programmā Microsoft Dynamics 365 Talent, un ir uzskaitīti līdzekļi, kas pašlaik ir iespējoti priekšskatījumam.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551609"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833304"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Pārvaldīt līdzekļus
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Programmā Microsoft Dynamics 365 Talent mēs pastāvīgi ieviešam jaunas cilvēkkapitāla pārvaldības (human capital management — HCM) iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Administratori var skatīt un izmantot priekšskatījuma līdzekļus savās vidēs. Šie līdzekļi ir gandrīz gatavi vispārīgai pieejai un ir tikuši plaši testētas. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
 
@@ -117,6 +117,6 @@ Uzmanieties, lai iesniegtajās atsauksmēs vai produktu apskatos neiekļautu nek
 ## <a name="see-also"></a>Skatiet arī
 
 - [Talent programmu izmēģināšana vai iegādāšanās](https://dynamics.microsoft.com/talent/overview/)
-- [Jaunumi](./whats-new.md)
-- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Atbalsta saņemšana saistībā ar Talent](./talent-support.md)
+- [Jaunumi un izmaiņas Dynamics 365 Talent](./whats-new.md)
+- [Nodošanas izpildei plāni](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](./talent-support.md)

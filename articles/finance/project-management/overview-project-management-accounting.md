@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185639"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770363"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projekta vadības un uzskaites pārskats
 
@@ -72,7 +72,7 @@ Plašāku informāciju par projekta līgumiem skatiet sadaļā [Projekta līgumi
 
 Detalizācijas pakāpe WBS ir atkarīga no precizitātes, kas nepieciešama novērtējumiem, un izsekošanas līmeņa, kas nepieciešams attiecīgajiem novērtējumiem. Projektiem, kuriem ir ļoti zema pielaide attiecībā uz novirzēm grafikā vai izmaksās, parasti nepieciešama detalizētāka WBS un arī rūpīga darba norises un izmaksu izsekošana, salīdzinot tās ar WBS. 
 
-Plašāku informāciju skatiet sadaļā [Darba sadalījuma struktūras](work-breakdown-structures.md).
+Plašāku informāciju skatiet sadaļā [Darba sadalījuma struktūras pārskats](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Projektu prognožu un budžetu izveide
 
@@ -134,7 +134,7 @@ Projekta izpildes laikā grupas dalībnieki vai vadītāji ieraksta darbu un izd
 
 WBS ir tāda darba apraksts, kas tiks pabeigts projekta ietvaros. WBS ir uzdevumu hierarhija. Tas norāda ne tikai darbu katram uzdevumam, bet arī uzdevuma lielumu, izmaksas un ilgumu. 
 
-Plašāku informāciju skatiet sadaļā [Darba sadalījuma struktūras](work-breakdown-structures.md).
+Plašāku informāciju skatiet sadaļā [Darba sadalījuma struktūras pārskats](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Projektu prognožu un budžetu pārvaldība
 

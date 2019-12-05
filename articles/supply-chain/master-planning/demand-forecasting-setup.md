@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653515"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813803"
 ---
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
@@ -70,7 +70,8 @@ Lai ģenerētu prognozi, programmā Supply Chain Management tiek izmantots algor
 -   Azure krātuves konta nosaukums
 -   Azure krātuves konta atslēga
 
-**Piezīme.** Azure krātuves konta nosaukums un atslēga ir jānorāda tikai tad, ja tiek izmantots pielāgots krātuves konts. Ja tiek izmantota lokālā versija, ir nepieciešams pielāgots krātuves konts pakalpojumā Azure, lai pakalpojums Algoritmiskā mācīšanās varētu piekļūt vēsturiskajiem datiem. 
+> [!NOTE]
+> Azure krātuves konta nosaukums un atslēga ir jānorāda tikai tad, ja tiek izmantots pielāgots krātuves konts. Ja tiek izmantota lokālā versija, ir nepieciešams pielāgots krātuves konts pakalpojumā Azure, lai pakalpojums Algoritmiskā mācīšanās varētu piekļūt vēsturiskajiem datiem. 
 
 Lai izveidotu pieprasījuma apjoma prognozes, varat izvietot savu pakalpojumu, izmantojot Machine Learning Studio vai Supply Chain Management pieprasījuma prognozēšanas eksperimentus. Norādījumi par to, kā izvietot pieprasījuma prognozēšanas eksperimentus kā tīmekļa pakalpojumu, ir pieejami programmā Supply Chain Management. Lapā **Pieprasījuma prognozēšanas parametri** noklikšķiniet uz cilnes **Azure Machine Learning**.
 
@@ -93,11 +94,11 @@ Cilnē **Sadalījuma principi** jūs varat iestatīt **Prognozēšanas algoritma
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Ievads par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
+[Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
 
 [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
 
-[Manuālu bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
+[Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
 
 

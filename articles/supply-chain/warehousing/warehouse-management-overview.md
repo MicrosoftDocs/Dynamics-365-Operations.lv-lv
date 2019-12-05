@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251066"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813021"
 ---
 # <a name="warehouse-management-overview"></a>Noliktavas pārvaldības pārskats
 
@@ -36,7 +36,7 @@ Lai sāktu strādāt ar moduli Noliktavas vadība, jums ir jāizpilda vispārīg
 
 Atbilstoši sava uzņēmuma vajadzībām jums ir jākonfigurē komponenti ienākošo un izejošo noliktavas procesu darbplūsmām. Vissvarīgākie komponenti, kas jums ir jākonfigurē, ir kopumu veidnes, darbu veidnes, darbu pūli un novietojumu direktīvas.
 
-- [Noliktavas konfigurācija](warehouse-configuration.md)
+- [Noliktavas konfigurācijas pārskats](warehouse-configuration.md)
 - [Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas](control-warehouse-location-directives.md)
 - [Iestatīt mobilās ierīces darbam noliktavā](configure-mobile-devices-warehouse.md)
 - [Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

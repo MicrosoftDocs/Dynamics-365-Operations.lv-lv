@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551476"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832981"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Integrācijas problēmu novēršana ar LinkedIn un Microsoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Izmantojiet šo informāciju, lai palīdzētu novērst problēmas, kas var rasties, mēģinot publicēt darbus vietnē LinkedIn no programmas Microsoft Dynamics 365 Talent: Attract.
 
@@ -42,18 +42,18 @@ Ja rodas problēmas, pierakstoties vietnē LinkedIn no sistēmas Attract, veicie
 
 Ja jūsu darbs pēc 24 stundām nav parādījies vietnē LinkedIn, veiciet tālāk norādītās darbības.
 
-1. Pārliecinieties, ka jūsu LinkedIn uzņēmuma ID atbilst jūsu LinkedIn uzņēmuma lapai un ir pareizi ievadīts sistēmas Attract administrēšanas centrā. Papildinformāciju par to, kā mainīt LinkedIn iestatījumus administrēšanas centrā, skatiet rakstu [Integrācijas ar LinkedIn iestatīšana](attract-admin-linkedin.md). Papildinformāciju par LinkedIn uzņēmuma ID skatiet rakstā [LinkedIn uzņēmuma ID sasaiste ar LinkedIn darba paneli — bieži uzdotie jautājumi](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Pārliecinieties, ka jūsu LinkedIn uzņēmuma ID atbilst jūsu LinkedIn uzņēmuma lapai un ir pareizi ievadīts sistēmas Attract administrēšanas centrā. Papildinformāciju par to, kā mainīt LinkedIn iestatījumus administrēšanas centrā, skatiet rakstā [Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md). Papildinformāciju par LinkedIn uzņēmuma ID skatiet rakstā [LinkedIn uzņēmuma ID sasaiste ar LinkedIn darba paneli — bieži uzdotie jautājumi](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Pārbaudiet darba informāciju vietnē LinkedIn, lai pārliecinātos, vai adrese ir pilnīga. Lai veiksmīgi publicētu darbu, LinkedIn ir nepieciešama vismaz darba pilsēta un valsts vai reģions.
 3. Pārliecinieties, ka darbs nedublē citu darbu, kas ir publicēts vietnē LinkedIn. LinkedIn nepublicēs darbus, kas ir LinkedIn Premium Job Slots vai ierobežoto sarakstu dublējumi no cita avota. Pārbaudiet, vai jūsu uzņēmumā cita persona nav jau publicējusi darbu manuāli.
 
 ## <a name="see-also"></a>Skatiet arī
 
-[LinkedIn bieži uzdotie jautājumi](./attract-linkedin-faq.md)
+[Attract integrācija ar LinkedIn — bieži uzdotie jautājumi](./attract-linkedin-faq.md)
 
-[Vakanču publicēšana LinkedIn no pakalpojuma Attract](./attract-post-jobs-to-linkedin.md)
+[Vakanču publicēšana LinkedIn no pakalpojuma Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Izveidot darbus](./creating-jobs-attract.md)
+[Darbu izveide, apstiprināšana un grāmatošana programmā Attract](./creating-jobs-attract.md)
 
-[Integrācijas ar LinkedIn problēmu novēršana](./attract-troubleshoot-linkedin.md)
+[Integrācijas problēmu novēršana ar LinkedIn un Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

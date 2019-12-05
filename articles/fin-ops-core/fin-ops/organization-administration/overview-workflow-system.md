@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190009"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812367"
 ---
 # <a name="workflow-system-overview"></a>Darbplūsmu sistēmas apskats
 
@@ -57,18 +57,18 @@ Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 
 ## <a name="workflow-content"></a>Darbplūsmas saturs
 
-+ [Darbplūsmas arhitektūra](workflow-system-architecture.md)
++ [Darbplūsmas sistēmas arhitektūra](workflow-system-architecture.md)
 + [Darbplūsmas elementi](workflow-elements.md)
-+ [Darbplūsmas darbības](workflow-actions.md)
-+ [Izveidot darbplūsmu](create-workflow.md)
++ [Darbības darbplūsmas apstiprināšanas procesos](workflow-actions.md)
++ [Izveidot darbplūsmu pārskatu](create-workflow.md)
 + [Konfigurēt darbplūsmas rekvizītus](configure-workflow-properties.md)
-+ [Konfigurēt manuālu uzdevumu darbplūsmā](configure-manual-task-workflow.md)
-+ [Konfigurēt automatizētu uzdevumu darbplūsmā](configure-automated-task-workflow.md)
-+ [Konfigurēt apstiprināšanas procesu darbplūsmā](configure-approval-process-workflow.md)
-+ [Konfigurēt apstiprināšanas darbību darbplūsmā](configure-approval-step-workflow.md)
-+ [Konfigurēt manuālu lēmumu darbplūsmā](configure-manual-decision-workflow.md)
-+ [Konfigurēt nosacījuma lēmumu darbplūsmā](configure-conditional-decision-workflow.md)
-+ [Konfigurēt paralēlu aktivitāti darbplūsmā](configure-parallel-activity-workflow.md)
-+ [Konfigurēt paralēlu zaru darbplūsmā](configure-parallel-branch-workflow.md)
-+ [Konfigurēt dokumenta rindas darbplūsmu](configure-line-item-workflow.md)
-+ [Bieži uzdotie jautājumi par darbplūsmu](workflow-FAQ.md)
++ [Manuālu uzdevumu konfigurēšana darbplūsmā](configure-manual-task-workflow.md)
++ [Automatizētu uzdevumu konfigurēšana darbplūsmā](configure-automated-task-workflow.md)
++ [Apstiprināšanas procesu konfigurēšana darbplūsmā](configure-approval-process-workflow.md)
++ [Apstiprināšanas darbību konfigurēšana darbplūsmā](configure-approval-step-workflow.md)
++ [Manuālu lēmumu konfigurēšana darbplūsmā](configure-manual-decision-workflow.md)
++ [Nosacījuma lēmumu konfigurēšana darbplūsmā](configure-conditional-decision-workflow.md)
++ [Paralēlu aktivitāšu konfigurēšana darbplūsmā](configure-parallel-activity-workflow.md)
++ [Paralēlu zaru konfigurēšana darbplūsmā](configure-parallel-branch-workflow.md)
++ [Konfigurēt dokumenta rindas darbplūsmas](configure-line-item-workflow.md)
++ [Bieži uzdotie jautājumi par darbplūsmām](workflow-FAQ.md)

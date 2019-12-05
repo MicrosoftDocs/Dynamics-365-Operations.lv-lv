@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570244"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771826"
 ---
 # <a name="general-journal-processing"></a>Virsgrāmatas žurnāla apstrāde
 
@@ -84,10 +84,10 @@ Galvenā konta iestatīšana sniedz daudzas opcijas Virsgrāmatas žurnāla apst
 
 Grāmatvedības struktūras un papildu kārtulu struktūras ir ļoti svarīgas, lai nodrošinātu, ka dati, kas ir nepieciešami finanšu pārskatiem un veiktspējas izsekošanai, tiek tverti Virsgrāmatas žurnāla un jebkuru dokumentu apstrādes laikā. Grāmatvedības struktūras un papildu kārtulu struktūras ļauj pielāgot datu ievades iespējas. Datu ievadi var atļaut tikai finanšu dimensijām, kas ir atbilstošas katrā situācijā, kā arī ieviest prasību, ka vienmēr ir jātver obligāti nepieciešami un pareizi dati.
 
-Lai iegūtu papildu informāciju, skatiet šādas tēmas:
-- [Plānošana: kontu plāns](plan-chart-of-accounts.md). 
+Papildinformāciju skatiet tālāk norādītajās tēmās.
+- [Sava kontu plāna plānošana](plan-chart-of-accounts.md) 
 - [Žurnālu papildu kārtulu izveide](tasks/create-advanced-rules-journals.md)
-- [Žurnāla ieraksta izveide, izmantojot veidni](tasks/create-journal-entry-template.md)
+- [Žurnāla ieraksta veidošana, lietojot veidni](tasks/create-journal-entry-template.md)
 - [Žurnālu izveide un validēšana](tasks/create-validate-journals.md)
 - [Periodisko žurnālu grāmatošana](tasks/post-periodic-journals.md)
 - [Virsgrāmatas sadalījumu žurnāla apstrāde](tasks/process-ledger-allocation-journal.md)

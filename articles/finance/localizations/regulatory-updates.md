@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653208"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770388"
 ---
 # <a name="regulatory-updates"></a>Normatīvie atjauninājumi
 
@@ -82,11 +82,11 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |      2019. aprīlis          |   10.0.1      | Ungārija      |  Ungārija: tiešsaistes rēķinu izrakstīšanas v.1.1 2019  |
 |      2019. aprīlis          |   10.0.1      | Japāna      |  2019. japāņu kalendāra laikmeta izmaiņas  |
 |      2019. aprīlis          |   10.0.1      |    Krievija     |Zemes nodokļa deklarācijas izmaiņas no 2018. gada |
-|      2019. aprīlis          |   10.0.1      |    Krievija     |[Īpašuma nodokļa deklarācijas izmaiņas no 2019. gada](rus-assessed-tax-declaration.md)|
+|      2019. aprīlis          |   10.0.1      |    Krievija     |[Likmēto nodokļu deklarācija](rus-assessed-tax-declaration.md)|
 |      2019. aprīlis          |   10.0.1      |    Krievija     |Transporta nodokļa deklarācijas izmaiņas no 2019. gada  |
-|      2019. aprīlis          |   10.0.1      |    Krievija     |[PVN deklarācijas formāta izmaiņas no 2019. gada](rus-VAT-declaration.md) |
+|      2019. aprīlis          |   10.0.1      |    Krievija     |[PVN deklarācija](rus-VAT-declaration.md) |
 |      2019. aprīlis          |   10.0.1      |    Krievija     |PVN deklarācijas formāta izmaiņas no 2019. gada (pārdošanas un pirkšanas grāmatas) |
-|      2019. aprīlis          |   10.0.1      |    Apvienotā Karaliste     |[PVN deklarācijas iesniegšanas izmaiņas (nodokļu digitalizācija)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019. aprīlis          |   10.0.1      |    Apvienotā Karaliste     |[Sagatavojiet Finance and Operations integrācijai ar MTD, kas paredzēts PVN](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. marts          |   10.0.0      |    Austrija   |   Kammerumlage 2019 izmaiņas (pirkšanas nodoklis)    |
 |      2019. marts          |   10.0.0      |    Brazīlija    |     SPED EFD iemaksas — izkārtojums Nr. 004 un 005  |
 |      2019. marts          |   10.0.0      |    Malaizija     |Malaizijā GST ir aizstāts ar SST pārdošana un pakalpojumu nodokli        |

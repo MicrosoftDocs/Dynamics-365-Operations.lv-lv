@@ -3,7 +3,7 @@ title: Plānoto pasūtījumu uzturēšana
 description: Šajā sadaļā ir sniegta informācija par to, kā pārvaldīt plānotos pasūtījumus. Tajā ir izskaidrots, kā var atjaunināt plānoto pasūtījumu statusu, apstiprināt tos un filtrēt pēc plānotajiem pasūtījumiem, kuriem ir tāds pats statuss kā atlasītajam plānotajam pasūtījumam.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
-ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
+ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "1993444"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813780"
 ---
 # <a name="maintain-planned-orders"></a>Plānoto pasūtījumu uzturēšana
 
@@ -39,7 +39,7 @@ Lai sekotu norisei, varat izmantot lauku **Statuss**. Tiek izmantotas šādas v�
 
 -   Kad vispārējā plānošana ģenerē plānotos pasūtījumus, tiem tiek piešķirts statuss **Neapstrādāts**.
 -   Ja izvēlaties neapstiprināt plānoto pasūtījumu, tam var piešķirt statusu **Pabeigts**.
--   Ja vēlaties apstiprināt plānoto pasūtījumu, varat mainīt statusu uz **Apstiprināts**. Plānotos pasūtījumus ar statusu **Apstiprināts** ievēro vispārējā plānošana, tāpēc tie netiek modificēti vai dzēsti. 
+-   Ja vēlaties apstiprināt plānoto pasūtījumu, varat mainīt statusu uz **Apstiprināts**. Plānotos pasūtījumus ar statusu **Apstiprināts** ievēro vispārējā plānošana, tāpēc tie vēlākās galvenās plānošanas laikā netiek modificēti vai dzēsti. 
 
 ## <a name="firming-planned-orders"></a>Apstiprinot plānotos pasūtījumus 
 Apstiprinot plānotos pasūtījumus, tiek izveidoti faktiskie pasūtījumi. Tie ir zināmi arī kā *izdotie* vai *atvērti pasūtījumi*. Kad plānotais pasūtījums apstiprināts, tas tiek pārvietots attiecīgā moduļa pasūtījumu sadaļai.
@@ -62,7 +62,7 @@ Ja jūs plānojat apstiprināt daudzus pasūtījumus vienlaicīgi, paralēlā iz
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Vispārējie plāni](master-plans.md)
+[Vispārējo plānu pārskats](master-plans.md)
 
 
 

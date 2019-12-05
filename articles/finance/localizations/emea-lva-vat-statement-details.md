@@ -17,12 +17,12 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0c6be856d8073c174f0846222db1631b09bb25ef
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7f2ce819b79c6f97315a0bbd9d5292b53258aabc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183794"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772858"
 ---
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
@@ -30,9 +30,9 @@ ms.locfileid: "2183794"
 
 Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 
-Šajā tēmā ir iekļauta valstij/reģionam specifiska informācija par pievienotās vērtības nodokļa (PVN) deklarāciju tikai juridiskajām personām Latvijā. Papildinformāciju par PVN deklarāciju ieviešanu skatiet rakstā [VAT pārskati](emea-vat-reporting.md).
+Šajā tēmā ir iekļauta valstij/reģionam specifiska informācija par pievienotās vērtības nodokļa (PVN) deklarāciju tikai juridiskajām personām Latvijā. Papildinformāciju par PVN deklarāciju ieviešanu skatiet rakstā [VAT pārskati par Eiropu](emea-vat-reporting.md).
 
-## <a name="set-up-sales-tax-authorities"></a>Nodokļu iestāžu iestatīšana
+## <a name="set-up-sales-tax-authorities"></a>PVN iestāžu iestatīšana
 Lai PVN deklarāciju ģenerētu atbilstošajai nodokļu iestādei pieprasītajā formātā, ir jāiestata pārskata izkārtojums PVN iestādēm. Lapā **PVN iestādes** laukam **Pārskata izkārtojums** iestatiet vērtību **Noklusējums**. Atlasiet PVN iestādi tam PVN apmaksas periodam, kurš tiks izmantots PVN kodiem.
 
 ## <a name="set-up-sales-tax-reporting-codes"></a>Iestatīt PVN pārskatu kodus

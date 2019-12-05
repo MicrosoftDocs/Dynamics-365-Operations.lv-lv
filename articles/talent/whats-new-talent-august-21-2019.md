@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024072"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814494"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Talent (2019. gada 20. augusts)
 
@@ -35,7 +35,7 @@ ms.locfileid: "2024072"
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Vienkāršotā pieteikšanās pieredze kandidātiem 
 
-Vienkāršotā pieteikšanās pieredze kandidātiem tagad ir pieejama publiskajā priekšskatījumā. Ja tā ir iespējota, kandidāti var pieteikties darbā, izmantojot savu CV, izmantojot **Pieteikties ar LinkedIn** (ja opcija ir iespējota), vai izmantojot esošo pieteikuma veidlapu. Ar šīm izmaiņām kandidāti var ātri iesniegt savu darba pieteikumu, kurā ir minimāls skaits lauku, kam nepieciešama manuāla ievade. Informāciju par to, kā iespējot šo līdzekli, skatiet rakstā [Priekšskatījuma līdzekļu iespējošana vai atspējošana](./access-preview-feature.md#enable-or-disable-preview-features).
+Vienkāršotā pieteikšanās pieredze kandidātiem tagad ir pieejama publiskajā priekšskatījumā. Ja tā ir iespējota, kandidāti var pieteikties darbā, izmantojot savu CV, izmantojot **Pieteikties ar LinkedIn** (ja opcija ir iespējota), vai izmantojot esošo pieteikuma veidlapu. Ar šīm izmaiņām kandidāti var ātri iesniegt savu darba pieteikumu, kurā ir minimāls skaits lauku, kam nepieciešama manuāla ievade. Papildinformāciju par to, kā iespējot šo līdzekli, skatiet rakstā [Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Skatīt noraidīšanas komentārus kā pieteikuma darbības daļu
 

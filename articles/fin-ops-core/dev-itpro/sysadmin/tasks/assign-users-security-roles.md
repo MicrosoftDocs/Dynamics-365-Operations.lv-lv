@@ -3,7 +3,7 @@ title: Drošības lomu piešķiršana lietotājiem
 description: Lai piekļūtu Finance and Operations programmām, lietotājiem jābūt piešķirtai drošības lomai.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180971"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808000"
 ---
 # <a name="assign-users-to-security-roles"></a>Drošības lomu piešķiršana lietotājiem
 
@@ -37,6 +37,9 @@ Lai izmantotu citas iespējas, kas nav kopīgas iespējas, lietotājiem jābūt 
 5. Sarakstā **Dalības kārtulas nosaukums** noklikšķiniet uz saites atlasītajā rindā.
 6. Noklikšķiniet uz **Rediģēt vaicājumu**. Rediģējiet vaicājumu pēc nepieciešamības.  
 7. Noklikšķiniet uz **Labi**.
+8. Noklikšķiniet uz **Palaist automātisko lomu piešķiri**.
+9. Doties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana >Lietotāji > Lietotāji** (ideālā gadījumā atsevišķā pārlūka cilnē).
+10. Pārskatiet dažādiem lietotājiem piešķirtās lomas, lai apstiprinātu, ka lomas piešķires vaicājums ir bijis pareizs. Pielāgojiet un vajadzības gadījumā palaidiet atkārtoti.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Izslēgt lietotājus no automātiskas lomu piešķiršanas
 1. Aizvērt lapu.

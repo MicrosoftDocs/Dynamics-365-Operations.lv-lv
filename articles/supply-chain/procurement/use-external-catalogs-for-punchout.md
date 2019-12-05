@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569826"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813343"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Izmantot ārējos katalogus elektroniskai atzīmēšanas sagādei
 
@@ -41,7 +41,7 @@ Izmantojiet rindas darbību **Ārējie katalogi**, lai atvērtu lapu, kurā ir v
 
 Atkarībā no jūsu atļaujām mainiet pieprasītāju, iepirkuma juridisko personu un saņemošo pārvaldības struktūrvienību. Šo vērtības izmaiņas var mainīt sarakstu ar ārējiem katalogiem, kas ir pieejami pieprasītājam. Pieejamie ārējie katalogi ir atkarīgi no pašreizējiem aktīvajiem pirkšanas ierobežojumiem iepirkuma juridiskajai personai vai saņemošajai pārvaldības struktūrvienībai. Šie ierobežojumi var atļaut vai liegt piekļuvi noteiktām sagādes kategorijām. Tādējādi var tikt ietekmēts saraksts ar ārējiem katalogiem, kas tiek kartēti uz šīm sagādes kategorijām.
 
-Papildinformāciju par ierobežojumiem skatiet sadaļā [Pirkšanas ierobežojumi](../procurement/purchase-policies.md).
+Papildinformāciju par ierobežojumiem skatiet sadaļā [Pirkšanas ierobežojumu pārskats](../procurement/purchase-policies.md).
 
 - Lai atrastu ārējos katalogus noteiktām sagādes kategorijām, ievadiet tekstu katalogu meklēšanas laukā.
 - Lai pievienotu preces no kreditora ārējā kataloga kreditora vietnē, noklikšķiniet uz ārējā kataloga. Pēc tam pievienojiet preces iepirkumu grozam un paņemiet tās. Iepirkumu groza rindas tiks pārsūtītas uz Microsoft Dynamics 365.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186605"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771849"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -69,13 +69,13 @@ Tālāk aprakstīti daži konsolidēšanas tiešsaistē programmas atbalstītie 
 ## <a name="legal-entity-setup"></a>Juridiskas personas iestatīšana
 Juridiskā persona ir jāiestata pirms konsolidāciju apstrādes. Konsolidāciju var veikt, cik vien reižu nepieciešams, un visi dati tiks konvertēti no izcelsmes uzņēmuma grāmatvedības valūtas uz valūtu, kas noteikta konsolidācijas uzņēmumam. Tāpēc tālāk norādītās organizatoriskās struktūras gadījumā, ja visiem Ziemeļamerikas uzņēmumiem vispirms ir jāveic pārrēķins uz ASV dolāriem (USD) un pēc tam uz eiro (EUR), kas ir mātes uzņēmuma valūta, ir jābūt vismaz diviem konsolidācijas uzņēmumiem.
 
-![Organizatoriskā struktūra](./media/organizational-structure.png "Organizatoriskā struktūra")
+![Organizācijas struktūra](./media/organizational-structure.png "Organizācijas struktūra")
 
 Iepriekšējā organizatoriskajā struktūrā ir jābūt juridiskai personai Ziemeļamerikas konsolidācijai, jo konsolidācijas vienmēr konsolidē no izcelsmes uzņēmuma uzskaites valūtas uz konsolidācijas uzņēmuma valūtu. Šajā piemērā, ja visi uzņēmumi ir iekļauti vienā konsolidācijā, tad Meksikas filiālei tiks veikts pārrēķins no Meksikas peso (MXN) uz EUR, nevis no MXN uz USD uz EUR.
 
 Veidojot juridisko personu, var norādīt, vai uzņēmums tiek izmantots gan konsolidācijas procesā, gan eliminācijas procesā, vai tikai vienā no minētajiem procesiem. Tālāk redzamajā piemērā uzņēmums tiek izmantots abiem procesiem. Ņemiet vērā, ka ikdienas žurnālus nevar grāmatot konsolidācijas uzņēmumā, bet tos var grāmatot eliminācijas uzņēmumā. Tāpēc ieteicams apsvērt atsevišķa eliminācijas uzņēmuma esamību.
 
-![Juridiska persona, kas tiek izmantota gan konsolidēšanai, gan eliminācijai](./media/sep-elimination-company.png "Juridiska persona, kas tiek izmantota gan konsolidēšanai, gan eliminācijai")
+![Juridiska persona, kas tiek izmantota gan konsolidācijai, gan dzēšanai](./media/sep-elimination-company.png "Juridiska persona, kas tiek izmantota gan konsolidācijai, gan dzēšanai")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Galvenie konti un konsolidācijas kontu grupas
 Ir jāveic izvēle, kā jūs vēlaties konsolidēt savu kontu plānu. Konsolidācijas procesa laikā jums ir trīs galveno kontu konsolidēšanas iespējas.
@@ -88,10 +88,10 @@ Otrā iespēja ir norādīt noklusējuma konsolidācijas kontu lapā **Galvenie 
 
 Trešā iespēja ir izmantot konsolidācijas kontu grupas. Konsolidācijas kontu grupu skaitu var noteikt pēc nepieciešamības. Pēc tam lapā **Papildu konsolidācijas konti** tikai jākartē galvenais konts no kontu plāna uz kontu, kas nepieciešams šai grupai.
 
-![Kartēšanas lapā Papildu konsolidācijas konti](./media/additional-consolidation-accounts.png "Kartēšanas lapā Papildu konsolidācijas konti")
+![Kartēšana lapā Papildu konsolidācijas pārskati](./media/additional-consolidation-accounts.png "Kartēšana lapā Papildu konsolidācijas pārskati")
 
 ## <a name="consolidating-online"></a>Konsolidācija tiešsaistē
-Lai uzzinātu, kā ievadīt datus konsolidācijai tiešsaistē, skatiet sadaļu [Konsolidēt tiešsaistē](./consolidate-online.md).
+Lai uzzinātu, kā ievadīt datus konsolidācijai tiešsaistē, skatiet sadaļu [Finanšu konsolidēšana tiešsaistē](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Konsolidācijas transakciju pārvaldīšana
 Konsolidācijas rezultātu skatīšanai ir vairākas iespējas, kā norādīts tālāk.
@@ -100,7 +100,7 @@ Konsolidācijas rezultātu skatīšanai ir vairākas iespējas, kā norādīts t
 - Pārskatiet saraksta lapu **Apgrozījuma bilance** konsolidācijas uzņēmumā.
 - Konsolidācijas transakciju sarakstā lapā**Konsolidācijas** skatiet bilances, kas tiek izveidotas pēc datuma katram izcelsmes uzņēmumam par katru periodu.
 
-    ![Konsolidācijas transakcijas lapā Konsolidācijas](./media/managing-consolidation-transactions.png "Konsolidācijas transakcijas lapā Konsolidācijas")
+    ![Konsolidācijas darbības lapā Konsolidācija](./media/managing-consolidation-transactions.png "Konsolidācijas darbības lapā Konsolidācija")
 
 Lai veiktu konsolidāciju vēlreiz, varat tikai apstrādāt konsolidāciju. Vai arī varat vispirms atlasīt vienumu **Noņemt transakcijas** lapā **Konsolidācijas**.
 
@@ -120,7 +120,7 @@ Elimināciju iestatījumi atrodami moduļa **Konsolidācijas** apgabalā **Iesta
 
 Pēc nepieciešamības varat iestatīt datumu, kad eliminācijas kārtula stājas spēkā un datumu, kad tā beidzas. Ja vēlaties, lai eliminācijas kārtula būtu pieejama eliminācijas piedāvājuma procesā, tad opcija **Aktīvs** ir jāiestata uz **Jā**. Atlasiet žurnāla nosaukumu, kura tips ir **Eliminācija**.
 
-![Eliminācijas kārtulas pamatīpašības](./media/ledger-elimination-rule-journal.png "Eliminācijas kārtulas pamatīpašības")
+![Dzēšanas kārtulas bāzes rekvizīti](./media/ledger-elimination-rule-journal.png "Dzēšanas kārtulas bāzes rekvizīti")
 
 Kad pamatīpašības ir definētas, atlasiet **Rindas**, lai definētu faktiskās apstrādes kārtulas. Eliminācijai ir divas opcijas — var eliminēt neto izmaiņas summu vai definēt fiksētu summu.
 
@@ -128,7 +128,7 @@ Atlasiet avota kontus. Varat izmantot zvaigznīti (\*) kā aizstājzīmi. Piem�
 
 Kad ir atlasīti avota konti, izmantojiet lauku **Konta specifikācijas**, lai noteiktu kontu, ko izmanto no mērķa uzņēmuma. Atlasiet vērtību **Avots**, lai lietotu to pašu galveno kontu, kurš definēts avota kontā. Ja atlasāt vērtību **Lietotāja definēts**, jums ir jānorāda galamērķa konts.
 
-![Virsgrāmatas eliminācijas kārtulas rindas lapa](./media/ledger-elimination-rule-line.png "Virsgrāmatas eliminācijas kārtulas rindas lapa")
+![Virsgrāmatas korekcijas kārtulas rinda](./media/ledger-elimination-rule-line.png "Virsgrāmatas korekcijas kārtulas rinda")
 
 Lauks **Dimensijas specifikācija** darbojas tāpat kā lauks **Konta specifikācija**. Atlasiet vērtību **Avots**, lai mērķa uzņēmumā un avota uzņēmumā lietotu tādas pašas dimensijas. Ja atlasāt vērtību **Lietotāja definēts**, tad jums ir jānorāda dimensijas mērķa uzņēmumā, atlasot **Mērķa dimensijas**. Pēc tam atlasiet avota dimensijas un finanšu dimensijas un vērtības, kuras tiek lietotas kā eliminācijas avots.
 

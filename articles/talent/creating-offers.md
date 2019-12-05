@@ -1,6 +1,6 @@
 ---
-title: Piedāvājumu izveide, apstiprināšana un parakstīšana
-description: Šajā tēmā ir aprakstīts, kā izveidot, apstiprināt un parakstīt piedāvājumu kandidātam, izmantojot programmu Dynamics 365 Talent.
+title: Piedāvājumu izveide, apstiprināšana un parakstīšana pakalpojumā Attract
+description: Šajā tēmā ir aprakstīts, kā izveidot, apstiprināt un parakstīt piedāvājumu kandidātam, izmantojot programmu Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: acc484ea57ce13d8a7c48a0ca7a2aa8723558dc9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551053"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832911"
 ---
-# <a name="create-approve-and-sign-offers"></a>Piedāvājumu izveide, apstiprināšana un parakstīšana
+# <a name="create-approve-and-sign-offers-in-attract"></a>Piedāvājumu izveide, apstiprināšana un parakstīšana pakalpojumā Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Daudzos gadījumos procesam, kura ietvaros tiek sagatavota piedāvājuma pakotne kandidātam, ir jābūt ļoti ātram.
 Attract administratora izveidoto veidņu izmantošana samazinās laiku un darbu, kas piedāvājumu veidotājiem nepieciešams, lai sagatavotu un nosūtītu piedāvājumus kandidātam.

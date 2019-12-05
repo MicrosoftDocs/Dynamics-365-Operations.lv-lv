@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571005"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812241"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Uzturēšanas darba tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu amatu un uzturēšanas kontrolsaraksti
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571005"
 
 Katram līdzeklim ir piesaistīts līdzekļa tips. Līdzekļa tipi definē uzturēšanas darba tipus (tādējādi arī uzturēšanas darbus), kurus var veikt līdzekļos. Izveidojot darba pasūtījumu, jums ir jāatlasa uzturēšanas darba tips. Jūs varat atlasīt vienīgi tos uzturēšanas darba tipus, kuri ir saistīti ar līdzeklim izmantotā līdzekļa tipa iestatījumu.
 
-Lai iegūtu grafisku pārskatu par līdzekļiem un uzturēšanas darbu tipiem un to savienojumu ar darba pasūtījumiem, skatiet [Līdzekļi un darba pasūtījumi](../overview/functional-locations-and-objects.md).
+Lai iegūtu grafisku pārskatu par līdzekļiem un uzturēšanas darbu tipiem un to savienojumu ar darba pasūtījumiem, skatiet [Funkcionālās atrašanās vietas un līdzekļi](../overview/functional-locations-and-objects.md).
 
 Uzturēšanas darba tipa variantus var iestatīt uzturēšanas darba tipā. Ar uzturēšanas darba tipa variantiem definē darba tipa variācijas, piemēram, izmērus (mazs, vidējs vai liels), laikposmus (katru nedēļu, reizi divās nedēļās, viens mēnesis vai divi mēneši) un konfigurācijas (zema standarta, elastīgs vai augstas veiktspējas).
 

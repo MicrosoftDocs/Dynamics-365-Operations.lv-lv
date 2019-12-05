@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190101"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811302"
 ---
 # <a name="create-workflows-overview"></a>Darbplūsmu pārskata izveide
 
@@ -60,15 +60,15 @@ Izpildiet šīs darbības, lai konfigurētu darbplūsmas rekvizītus.
 
 Konfigurējiet katru uz audekla uzvilkto elementu. Informāciju par to, kā konfigurēt katru darbplūsmas elementu, skatiet tālāk norādītajās tēmās.
 
-- [Manuāla uzdevuma konfigurēšana](configure-manual-task-workflow.md)
-- [Automatizēta uzdevuma konfigurēšana](configure-automated-task-workflow.md)
-- [Apstiprināšanas procesa konfigurēšana](configure-approval-process-workflow.md)
-- [Konfigurēt apstiprinājuma darbību](configure-approval-step-workflow.md)
-- [Konfigurēt manuālu lēmumu](configure-manual-decision-workflow.md)
-- [Konfigurēt nosacījuma lēmumu](configure-conditional-decision-workflow.md)
-- [Konfigurēt paralēlu aktivitāti](configure-parallel-activity-workflow.md)
+- [Manuālu uzdevumu konfigurēšana darbplūsmā](configure-manual-task-workflow.md)
+- [Automatizētu uzdevumu konfigurēšana darbplūsmā](configure-automated-task-workflow.md)
+- [Apstiprināšanas procesu konfigurēšana darbplūsmā](configure-approval-process-workflow.md)
+- [Apstiprināšanas darbību konfigurēšana darbplūsmā](configure-approval-step-workflow.md)
+- [Manuālu lēmumu konfigurēšana darbplūsmā](configure-manual-decision-workflow.md)
+- [Nosacījuma lēmumu konfigurēšana darbplūsmā](configure-conditional-decision-workflow.md)
+- [Paralēlu zaru konfigurēšana darbplūsmā](configure-parallel-activity-workflow.md)
 - [Konfigurēt paralēlu zaru](configure-parallel-branch-workflow.md)
-- [Konfigurēt dokumenta rindas darbplūsmu](configure-line-item-workflow.md)
+- [Konfigurēt dokumenta rindas darbplūsmas](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Atrisināt jebkuras kļūdas vai brīdinājumus
 

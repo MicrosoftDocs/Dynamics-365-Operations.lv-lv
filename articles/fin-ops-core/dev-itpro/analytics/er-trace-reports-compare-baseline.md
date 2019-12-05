@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181684"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771241"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām
 
@@ -44,10 +44,10 @@ Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevumu ceļvežus **ER P
 
 Šajā procedūrā ir izskaidrots, kā konfigurēt ER platformu, lai apkopotu informāciju par ER formāta izpildēm un pēc tam novērtētu šo izpilžu rezultātus. Novērtējuma ietvaros ģenerētie dokumenti tiek salīdzināti ar to bāzlīnijas failiem. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot jebkuru datu kopu.
 
-Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darbības [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darbības [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapā **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārbaudiet, vai ir uzskaitīts parauga uzņēmuma Litware, Inc. konfigurācijas nodrošinātājs un vai tas ir atzīmēts kā **Aktīvs**. Ja neredzat šo konfigurācijas nodrošinātāju, izpildiet darbības, kas aprakstītas sadaļā [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Lapā **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārbaudiet, vai ir uzskaitīts parauga uzņēmuma Litware, Inc. konfigurācijas nodrošinātājs un vai tas ir atzīmēts kā **Aktīvs**. Ja neredzat šos konfigurācijas nodrošinātājus, izpildiet darbības, kas aprakstītas sadaļā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Konfigurēt dokumentu pārvaldības parametrus
 
@@ -55,7 +55,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darb�
 2. Laukā **Klase** ievadiet **Pievienot failu**.
 3. Laukā **Grupa** ievadiet **Fails**.
 
-![Lapa Dokumentu tipi](media/GER-BaselineSample-SetupDocumentType.PNG "Lapas Dokumentu tipi ekrānuzņēmums")
+![Dokumentu veidu lapa](media/GER-BaselineSample-SetupDocumentType.PNG "Dokumenta tipu lapas ekrānuzņēmums")
 
 > [!NOTE]
 > Katrai datu kopai, kurā plānojat izmantot ER bāzlīnijas līdzekli, ir jābūt konfigurētam jaunam dokumenta tipam ar tādu pašu nosaukumu.
@@ -64,11 +64,11 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darb�
 
 1. Darbvietas **Elektronisko pārskatu veidošana** sadaļā **Saistītās saites** atlasiet **Elektronisko pārskatu veidošanas parametri**.
 
-    ![Darbvieta Elektroniskie pārskati](media/GER-BaselineSample-ERWorkspace.PNG "Darbvietas Elektroniskie pārskati ekrānuzņēmums")
+    ![Elektronisko pārskatu darbvieta](media/GER-BaselineSample-ERWorkspace.PNG "Elektronisko pārskatu darbvietas ekrānuzņēmums")
 
 2. Cilnes **Pielikumi** laukā **Bāzlīnija** ievadiet vai atlasiet dokumenta tipu, kuru tikko izveidojāt.
 
-    ![Lapas Elektronisko pārskatu veidošanas parametri cilne Pielikumi](media/GER-BaselineSample-ERParameters.PNG "Lapas Elektronisko pārskatu veidošanas parametri ekrānuzņēmums")
+    ![Elektronisko pārskatu parametru lapas pielikumu cilne](media/GER-BaselineSample-ERParameters.PNG "Elektronisko pārskatu parametru lapas ekrānuzņēmums")
 
 3. Atlasiet **Saglabāt** un pēc tam aizveriet lapu **Elektronisko pārskatu parametri**.
 
@@ -79,7 +79,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darb�
 3. Nolaižamā dialoglodziņa laukā **Nosaukums** ievadiet **Modelis ER bāzlīniju apgūšanai**.
 4. Atlasiet **Izveidot konfigurāciju**, lai apstiprinātu jauna ER datu modeļa ieraksta izveidi.
 
-![Nolaižamais dialoglodziņš Izveidot konfigurāciju](media/GER-BaselineSample-ModelAdd.PNG "Nolaižamā dialoglodziņa Izveidot konfigurāciju ekrānuzņēmums")
+![Izveidot konfigurācijas nolaižamo dialoglodziņu](media/GER-BaselineSample-ModelAdd.PNG "Dialoglodziņa Izveidot konfigurāciju nolaižamā saraksta ekrānuzņēmums")
 
 ### <a name="design-a-data-model"></a>Datu modeļa izstrāde
 
@@ -93,7 +93,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darb�
 8. Atlasiet **Mainīt statusu**.
 9. Atlasiet **Pabeigt** un pēc tam **Labi**.
 
-![Lapa Konfigurācijas](media/GER-BaselineSample-ModelComplete.PNG "Lapas Konfigurācijas ekrānuzņēmums")
+![Lapa Konfigurācijas](media/GER-BaselineSample-ModelComplete.PNG "Konfigurāciju lapas ekrānuzņēmums")
 
 ### <a name="add-a-new-er-format-configuration"></a>Jaunas ER formāta konfigurācijas pievienošana
 
@@ -102,7 +102,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms izpildiet darb�
 3. Laukā **Nosaukums** ievadiet **Formāts ER bāzlīniju apgūšanai**.
 4. Atlasiet **Izveidot konfigurāciju**, lai apstiprinātu jauna ER formāta ieraksta izveidi.
 
-![Nolaižamais dialoglodziņš Izveidot konfigurāciju](media/GER-BaselineSample-FormatAdd.PNG "Nolaižamā dialoglodziņa Izveidot konfigurāciju ekrānuzņēmums")
+![Izveidot konfigurācijas nolaižamo dialoglodziņu](media/GER-BaselineSample-FormatAdd.PNG "Dialoglodziņa Izveidot konfigurāciju nolaižamā saraksta ekrānuzņēmums")
 
 ### <a name="design-a-format"></a>Formāta veidošana
 
@@ -154,7 +154,7 @@ Balstoties uz izveidoto struktūru, konfigurētais formāts ģenerē XML failu. 
 2. Laukā **Ievadīt ID** ievadiet **1**.
 3. Atlasiet **Labi**.
 
-    ![Dialoglodziņš Elektronisko pārskatu parametri](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Dialoglodziņa Elektronisko pārskatu parametri ekrānuzņēmums")
+    ![Dialoglodziņš Elektronisko pārskatu parametri](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Elektroniskā pārskata parametru dialoglodziņa ekrānuzņēmums")
 
 4. Saglabājiet ģenerētā faila **out.Admin.xml** lokālo kopiju, lai vēlāk varētu to izmantot kā bāzlīniju šim ER formātam.
 
@@ -166,20 +166,20 @@ Balstoties uz izveidoto struktūru, konfigurētais formāts ģenerē XML failu. 
 2. Atlasiet opcijai **Palaist atkļūdošanas režīmā** iestatījumu **Jā**.
 3. Atlasiet **Labi**.
 
-![Dialoglodziņš Lietotāja parametri](media/GER-BaselineSample-ERUserParameters.PNG "Dialoglodziņa Lietotāja parametri ekrānuzņēmums")
+![Lietotāja parametru dialoglodziņš](media/GER-BaselineSample-ERUserParameters.PNG "Lietotāja parametru dialoglodziņa ekrānuzņēmums")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Jaunas bāzlīnijas pievienošana izveidotam ER formātam
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Darbību rūtī atlasiet **Bāzlīnijas**.
 
-    ![Bāzlīniju poga lapā Konfigurācijas](media/GER-BaselineSample-OpenBaselinePage.PNG "Bāzlīniju pogas lapā Konfigurācijas ekrānuzņēmums")
+    ![Bāzlīnijas poga lapā Konfigurācijas](media/GER-BaselineSample-OpenBaselinePage.PNG "Bāzlīnijas pogas ekrānuzņēmums lapā Konfigurācijas")
 
 3. Darbību rūtī atlasiet **Jauns**.
 4. Atlasiet iepriekš izveidoto ER formātu **Formāts ER bāzlīniju apgūšanai**.
 5. Atlasiet **Saglabāt**.
 
-![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 
@@ -189,7 +189,7 @@ Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 2. Darbību rūtī atlasiet **Jauns** \> **Fails**. ER parametros iepriekš jābūt atlasītam dokumenta veidam **Fails**, kas tiks izmantots bāzlīniju failu glabāšanai.
 3. Atlasiet **Pārlūkot** un atlasiet failu **out.Admin.xm**, kas tika ģenerēts, kad iepriekš palaidāt konfigurēto ER formātu.
 
-    ![Lapa Pielikumi](media/GER-BaselineSample-UploadBaselineFile.PNG "Lapas Pielikumi ekrānuzņēmums")
+    ![Lapa Pielikumi](media/GER-BaselineSample-UploadBaselineFile.PNG "Pielikumu lapas ekrānuzņēmums")
 
 4. Aizveriet lapu **Pielikumi**.
 5. Kopsavilkuma cilnē **Bāzlīnijas** atlasiet **Jauns**.
@@ -204,7 +204,7 @@ Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 10. Laukā **Bāzlīnija** ievadiet vai atlasiet pielikumu **out.Admin**.
 11. Atlasiet **Saglabāt**.
 
-![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Paredzētā ER formāta palaišana un žurnāla pārskatīšana, lai analizētu rezultātus
 
@@ -215,7 +215,7 @@ Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 5. Atlasiet **Labi**.
 6. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas atkļūdošanas žurnāli**.
 
-    ![Lapa Elektronisko pārskatu palaišanas žurnāli](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Lapas Elektronisko pārskatu palaišanas žurnāli")
+    ![Elektronisko pārskatu palaišanas žurnālu lapa](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektronisko pārskatu palaišanas žurnālu lapas ekrānuzņēmums")
 
     > [!NOTE]
     > Izpildes žurnālā ir ietverta informācija par ģenerētā faila salīdzinājuma rezultātiem ar konfigurēto bāzlīniju. Šajā piemērā žurnāls norāda, ka ģenerētais fails un bāzlīnija ir vienādi.
@@ -231,7 +231,7 @@ Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 5. Atlasiet **Labi**.
 6. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas atkļūdošanas žurnāli**.
 
-    ![Lapa Elektronisko pārskatu palaišanas žurnāli](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Lapas Elektronisko pārskatu palaišanas žurnāli")
+    ![Elektronisko pārskatu palaišanas žurnālu lapa](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektronisko pārskatu palaišanas žurnālu lapas ekrānuzņēmums")
 
     > [!NOTE]
     > Izpildes žurnālā ir ietverta informācija par ģenerētā faila salīdzinājuma rezultātiem ar konfigurēto bāzlīniju. Šajā piemērā žurnāls norāda, ka ģenerētais fails un bāzlīnija atšķiras.
@@ -243,4 +243,4 @@ Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [ER struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)
+- [Elektronisko pārskatu (EP) veidošanas struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)

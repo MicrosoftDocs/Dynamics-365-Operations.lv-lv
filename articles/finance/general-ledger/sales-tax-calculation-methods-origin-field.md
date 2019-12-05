@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37bb02dfc9cfcb3e2c1dcda446be3945563d6594
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570584"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770647"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVN aprēķina metodes laukā Izcelsme
 
@@ -125,9 +125,9 @@ Dokumentam/žurnālam ir iestatīta parametra Summas ietver PVN vērtība Nē Tr
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[PVN likmes noteikšana atkarībā no laukiem Aprēķina pamatā un Aprēķina metode](marginal-base-field.md)
+[PVN likmju aprēķins, pamatojoties uz laukiem Aprēķina pamatā un Aprēķina metode](marginal-base-field.md)
 
-[PVN kodu visas summas un intervāla aprēķināšanas opcijas](whole-amount-interval-options-sales-tax-codes.md)
+[Visas summas un intervāla aprēķināšanas opcijas PVN kodiem](whole-amount-interval-options-sales-tax-codes.md)
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181316"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771218"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -773,9 +773,9 @@ Kad šie datu avoti ir definēti, varat izmantot tādu izteiksmi kā <strong>FIL
 
 ### <a name="functions-list-extension"></a>Funkciju saraksta paplašināšana
 
-ER jums ļauj paplašināt funkciju sarakstu, kuras tiek lietotas ER izteiksmēs. Ir jāveic noteiktas tehniskas darbības. Papildinformāciju skatiet rakstā [Elektronisko atskaišu veidošanas funkciju saraksta paplašināšana](general-electronic-reporting-formulas-list-extension.md).
+ER jums ļauj paplašināt funkciju sarakstu, kuras tiek lietotas ER izteiksmēs. Ir jāveic noteiktas tehniskas darbības. Papildinformāciju skatiet rakstā [Elektronisko pārskatu (EP) veidošanas funkciju saraksta paplašināšana](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+- [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
 - [Paplašināt elektronisko pārskatu veidošanas (ER) funkciju sarakstu](general-electronic-reporting-formulas-list-extension.md)

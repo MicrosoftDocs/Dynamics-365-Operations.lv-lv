@@ -17,12 +17,12 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6cdf40896fe4e8a3576770906f75717f35cf074
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 50b126e61a3df57b7a80c65b4943e00b49668f21
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183796"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773463"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 
@@ -98,7 +98,7 @@ Rēķiniem un pavadzīmēm, kas tiek ģenerēti moduļos **Debitoru parādi**, *
 | Tips           | Atlasiet numurējamo dokumentu tipu: **Rēķins** vai **Pavadzīme**.                                                                         |
 | Automātiska numerācija | Atzīmējiet šo opciju, lai numuru dokumentam piešķirtu automātiski. Atsevišķiem dokumentiem šo opciju varat manuāli atzīmēt vai noņemt tās atzīmi.       |
 
-Papildinformāciju par to, ka manuāli numurēt rēķinus un pavadzīmes, skatiet rakstā [Labot rēķina ID pārdošanas pasūtījumos](emea-edit-invoice-id-sales-orders.md).
+Papildinformāciju par to, ka manuāli numurēt rēķinus un pavadzīmes, skatiet rakstā [Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai](emea-edit-invoice-id-sales-orders.md).
 
 ## <a name="affected-processes"></a>Ietekmētie procesi
 Izmantojot rēķinu un pavadzīmju numurēšanu, tiek atjauninātas tālāk uzskaitīto dokumentu galvenes.
@@ -124,7 +124,7 @@ Turklāt tālāk norādītās formas tiek papildinātas ar lauku **Atjaunināmie
 -   Pārdošanas rēķina grāmatošanas forma
 -   Pirkšanas produktu ieejas plūsmas grāmatošanas forma
 
-Lauks “**Atjaunināmie dokumenti**” ietekmē lauku “**Dokumenta statuss**” žurnālā “**Pavadzīmju žurnāls**” un "**Rēķinu žurnāls**". Veidojot dokumentu **Pavadzīme**, lauka “**Dokumenta statuss**”vērtība ir vienāda ar vērtību “**Nav**”. Ja laukā “**Atjaunināmie dokumenti**” tika izvēlēta kāda **Pavadzīme**, tad tās “**Dokumenta statuss**” ir “**Bojāts**”, bet “**Dokumenta statuss**” tādam dokumentam **Pavadzīme**, kur tas tika izdarīts, ir “**Atcelts**”.
+Lauks **Atjaunināmie dokumenti** ietekmē lauku **Dokumenta statuss** žurnālā **Pavadzīmju žurnāls** un **Rēķinu žurnāls**. Veidojot dokumentu **Pavadzīme**, lauka **Dokumenta statuss** vērtība ir vienāda ar vērtību **Nav**. Ja laukā **Atjaunināmie dokumenti** tika izvēlēta kāda **Pavadzīme**, tad tās **Dokumenta statuss** ir **Bojāts**, bet **Dokumenta statuss** tādam dokumentam **Pavadzīme**, kur tas tika izdarīts, ir **Atcelts**.
 
 
 

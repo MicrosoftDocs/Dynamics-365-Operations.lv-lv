@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e2613a9adf60699a1c20b780e1acf2afb99d37d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182880"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772492"
 ---
 # <a name="production-performance-power-bi-content"></a>Power BI satura pakotne Ražošanas veiktspēja
 
@@ -62,7 +62,7 @@ Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām, kas ir i
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 
-Power BI satura pakotnes **Ražošanas veiktspēja** pārskatu lapās tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju par elementu krātuvi skatiet rakstā [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
+Power BI satura pakotnes **Ražošanas veiktspēja** pārskatu lapās tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju par elementu krātuvi skatiet [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
 
 Tālāk esošajā tabulā ir norādīti galvenie apkopošanas mērījumi, kas tiek izmantoti Power BI satura pakotnes izveidei.
 

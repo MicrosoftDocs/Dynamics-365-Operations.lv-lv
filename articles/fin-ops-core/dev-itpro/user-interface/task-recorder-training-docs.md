@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658814"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812653"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
@@ -84,7 +84,7 @@ Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Micro
 
 [![Piezīmju anotācijas izskats uzdevumu rokasgrāmatā](./media/screen4.png)](./media/screen4.png)
 
--   **Informācijas darbība**: šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu ierakstītājs** &lt; **Pievienot informācijas darbību. **Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās iespraužat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek rādīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Informācijas darbības varat izmantot, lai lietotāju sagatavotu nākamajām darbībām, lai aprakstītu darbības, ko nepieciešams izpildīt ārpus programmas, vai lai atsauktos uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites).
+-   **Informācijas darbība**: Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību.** Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek rādīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Informācijas darbības varat izmantot, lai lietotāju sagatavotu nākamajām darbībām, lai aprakstītu darbības, ko nepieciešams izpildīt ārpus programmas, vai lai atsauktos uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites).
 
 **Nosakiet, cik ilgu ierakstu veidot**
 
@@ -97,7 +97,7 @@ Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Micro
 **Izlemiet, kurā UI vietā sākt ierakstīšanu** Uzdevuma ieraksta veidošanas sākumā atvērtā lapa ietekmē to, kurai lapai šis uzdevuma ceļvedis tiek rādīts. Piemēram, ja vēlaties, lai jūsu uzdevuma ieraksts tiktu rādīts palīdzības rūtī, kad lietotājs noklikšķina uz palīdzības lapā Virsgrāmatas parametri, ierakstīšana ir jāsāk lapā Virsgrāmatas parametri. **Saglabājiet ierakstus kā .axtr failus** Kad esat pabeidzis veidot vai rediģēt uzdevumu ierakstu, jums tiek sniegtas vairākas opcijas veidam, kā šo ierakstu vēlaties lejupielādēt vai saglabāt. Failu varat lejupielādēt kā uzdevuma ieraksta pakotni (.axtr), to lejupielādēt kā neapstrādātu ieraksta failu (.xml), to lejupielādēt kā Word dokumentu vai failu saglabāt LCS bibliotēkā. Vienmēr ieteicams savu uzdevuma ierakstu saglabāt kā uzdevuma ieraksta pakotnes failu (.axtr). Šādi tiek vienkāršota faila uzturēšana, ja vēlāk nepieciešams mainīt procedūras vai anotācijas. Ja failu vēlaties lejupielādēt kā Word dokumentu, saglabājiet to arī kā uzdevumu ieraksta pakotnes failu.
 
 ## <a name="create-your-task-recording"></a>Sava uzdevuma ieraksta izveidošana
-Detalizētus norādījumus par izpildīšanu skatiet rakstā [Kā izveidot uzdevuma ierakstu](task-recorder.md).
+Detalizētus norādījumus par izpildīšanu skatiet rakstā [Uzdevuma ierakstu resursi](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Microsoft uzdevumu ierakstu kopēšana un pielāgošana
 Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantotu savai palīdzības dokumentācijai vai apmācību materiāliem. Lai lejupielādētu Microsoft uzdevumu ierakstu, rīkojieties šādi:
@@ -120,10 +120,10 @@ Lai savus pielāgotos uzdevumu ierakstus parādītu palīdzības rūtī un tos v
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Palīdzības apskats](../../fin-ops/get-started/help-overview.md)
+[Palīdzības sistēma](../../fin-ops/get-started/help-overview.md)
 
-[Pievienot palīdzību](../../fin-ops/get-started/help-connect.md)
+[Savienojuma izveide ar palīdzības sistēmu](../../fin-ops/get-started/help-connect.md)
 
-[Uzdevumu ierakstītājs](task-recorder.md)
+[Uzdevuma reģistrētājs](task-recorder.md)
 
 [Bagātinātu palīdzības tēmu izveide ar uzdevumu reģistrētāju (ārējās saite)](https://mbspartner.microsoft.com/AX/Videos/970)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558223"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813390"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
@@ -39,16 +39,16 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Atļauju iestatīšana preču pasūtīšanai kāda cita vārdā](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Piedāvājumu pieprasījumi
--   [Piedāvājumu pieprasījumi](request-quotations.md)
--   [Izveidot piedāvājuma pieprasījumu](tasks/create-request-quotation.md)
--   [Ievadīt un salīdzināt PP piedāvājumus un piešķirt līgumus](tasks/enter-compare-rfq-bids-award-contracts.md)
+-   [Piedāvājuma pieprasījumu pārskats](request-quotations.md)
+-   [Piedāvājuma pieprasījuma izveide](tasks/create-request-quotation.md)
+-   [PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Izveidot IP punktu skaitīšanas metodi](tasks/create-scoring-method-rfqs.md)
--   [Izveidot IP lūgumu tipus un punktu skaitīšanas kritērijus](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+-   [PP lūgumu tipu un punktu skaitīšanas kritēriju izveide](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>Kreditoru pārvaldība un sadarbība
 -   [Kreditoru kontu iestatīšana](set-up-vendor-accounts.md)
--   [Piegādātāja konta izveide](tasks/create-vendor-account.md)
--   [Izveidot kreditora bankas kontu](tasks/create-vendor-bank-account.md)
+-   [Kreditora konta izveide](tasks/create-vendor-account.md)
+-   [Kreditora bankas konta izveide](tasks/create-vendor-bank-account.md)
 -   [Kreditoru meklēšana](tasks/search-vendors.md)
 -   [Apstiprināt kreditorus konkrētām precēm](tasks/approve-vendors-specific-products.md)
 -   [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md)
@@ -58,23 +58,23 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniskais dokuments)
 -   [Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbību](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md) (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijās)
--   [Kreditoru portāla lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
--   [Mobilā darbvieta Kreditoru sadarbība programmai Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [Kreditoru portāla lietotāju drošība](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
+-   [Kreditoru sadarbības mobilā darbvieta](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Sagādes preču pārvaldība
--   [Sagādes katalogi](procurement-catalogs.md)
--   [Sagādes kataloga izveide](tasks/create-procurement-catalog.md)
+-   [Sagādes katalogu apskats](procurement-catalogs.md)
+-   [Pirkšanas pasūtījumu izveidošana](tasks/create-procurement-catalog.md)
 -   [Piegādātāju katalogu importēšana](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (emuāra ziņa)
 -   [Sagādes kategoriju hierarhijas iestatīšana](tasks/set-up-procurement-category-hierarchy.md)
 -   [Iestatīt politikas sagādes kategoriju hierarhijai](tasks/set-up-policies-procurement-category-hierarchies.md)
 -   [Apstiprināt kreditorus noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="procurement"></a>Sagāde
--   [Pirkšanas pasūtījuma apskats](purchase-order-overview.md)
+-   [Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 -   [Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
 -   [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 -   [Pirkšanas pasūtījuma izveide](tasks/create-purchase-order.md)
--   [Izveidot atkārtotu pirkšanas pasūtījumu](tasks/create-repeat-purchase-order.md)
+-   [Atkārtota pirkšanas pasūtījuma izveide](tasks/create-repeat-purchase-order.md)
 -   [Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Izveidot pirkšanas pasūtījumu vienreizējam piegādātājam](tasks/create-purchase-order-one-time-supplier.md)
 -   [Izveidot pirkšanas pasūtījumu ar piegādes grafiku](tasks/create-purchase-order-delivery-schedule.md)
@@ -99,11 +99,8 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Preču saņemšanas reģistrēšana pirkšanas pasūtījumā](tasks/record-receipt-goods-purchase-order.md)
 -   [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 -   [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (tehniskais apraksts)
--   [Pirkšanas ierobežojumi](purchase-policies.md)
+-   [Pirkšanas ierobežojumu pārskats](purchase-policies.md)
 -   [Pirkšanas ierobežojumu izveide](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

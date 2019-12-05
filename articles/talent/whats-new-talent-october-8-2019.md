@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626066"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694410"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 8. oktobris)
 
@@ -57,15 +57,15 @@ Tagad darbinieku ieceļošanas un navigācijas funkcionalitāte ir pieejama vis�
 
 Lai iegūtu papildu informāciju, skatiet [Racionalizēta darbinieku datu ievadīšana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry) Dynamics 365: 2019. gada izlaiduma 2. laidiena plāns.
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Problēma: Attract and Onboard izveido neaktīvus darbiniekus Core HR (380517).
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Attract and Onboard izveido neaktīvus darbiniekus Core HR (380517).
 
 Šīs nedēļas laidiens labo problēmu, kad Attract and Onboard izveido neaktīvus darbiniekus Core HR.
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Problēma: darbplūsma cieš neveiksmi, kad vadītājs ir pieteicies citā uzņēmumā, pārtraucot darbinieku (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Darbplūsma cieš neveiksmi, kad vadītājs ir pieteicies citā uzņēmumā, pārtraucot darbinieku (346852)
 
 Pamatojoties uz juridisku personu, ar kuru vadītājs ir pieteicies, darbplūsma atsāk darbību.
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Problēma: trūkst informācijas par HcmOnboardingWorkerChecklistTaskEntity (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Trūkst informācijas par HcmOnboardingWorkerChecklistTaskEntity (349591)
 
 Šis laidiens ietver papildu informāciju par **HcmOnboardingWorkerChecklistTaskEntity**. Daži piemēri:
 
@@ -73,35 +73,35 @@ Pamatojoties uz juridisku personu, ar kuru vadītājs ir pieteicies, darbplūsma
 - **Grupas nosaukums**, ja piešķirtais tips ir **Darbinieks**
 - **Vadītāja nosaukums**, ja piešķirtais tips ir **Vadītājs**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Problēma: entītijas nav norādītas alfabētiskā secībā Common Data Service administrācijā (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Entītijas nav norādītas alfabētiskā secībā Common Data Service administrācijā (377414)
 
 Entītijas šobrīd ir norādītas alfabētiskā secībā **CDS administrācijas** lapā.
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>Problēma: nodarbinātības tipa maiņa ar nākotnes datumu neatļauj amata piešķiri (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>Nodarbinātības tipa maiņa ar nākotnes datumu neatļauj amata piešķiri (339958)
 
 Šīs izmaiņas ļauj veikt pozīcijas piešķiri, ja darbinieku tipi tiek mainīti (piemēram, no darbinieka uz darbuzņēmēju).
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>Problēma: Atjauninot Common Data Service atvaļinājuma bankas darījumu elements izveido jaunu ierakstu Talent (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>Atjauninot Common Data Service atvaļinājuma bankas darījumu elements izveido jaunu ierakstu Talent (352938)
 
 Atvaļinājuma darījums tagad tiek atjaunināts, kad tiek veikts atjauninājums Common Data Service atvaļinājumu bankas darījumiem.
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Problēma: atsauksmes elementu nosaukums parāda atsauksmes aprakstu (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Atsauksmes elementu nosaukums parāda atsauksmes aprakstu (343765)
 
 Atsauksmes apraksts vairs netiek parādīts pielikuma nosaukumā.
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Problēma: atlīdzības darbplūsmas komentāru lauks rāda nepareizu saturu (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Atlīdzības darbplūsmas komentāru lauks rāda nepareizu saturu (339297)
 
 Šīs izmaiņas parāda saturu **%HcmActionState.HcmWorkerActionComment.Comments%** laukā.
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>Problēma: WorkCalendarEntity un WorkCalendarDayEntity netiek atklātas, izmantojot OData (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity un WorkCalendarDayEntity netiek atklātas, izmantojot OData (376329)
 
 Šajā laidienā **WorkCalendarEntity** un **WorkCalendarDayEntity** tagad ir pieejami, izmantojot Atvērto datu protokolu (OData).
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>Problēma: HCMWorkerEntity ir lēns laikā, kad OData tiek lietots (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity ir lēns laikā, kad OData tiek lietots (375221)
 
 Izmaiņas uzlabo **HCMWorkerEntity** veiktspēju, ja tiek izmantots Microsoft Excel darbgrāmatas veidotājs.
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>Problēma: pārvaldnieka veiktspējas žurnāla ievade rāda kļūdu pēc veiktspējas žurnāla dzēšanas un jauna žurnāla izveides (336061).
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>Pārvaldnieka veiktspējas žurnāla ievade rāda kļūdu pēc veiktspējas žurnāla dzēšanas un jauna žurnāla izveides (336061).
 
 Šis laidiens izlabo problēmu, kas rodas pēc vienas veiktspējas žurnāla dzēšanas un pēc tam nekavējoties izveido jaunu. Šis labojums maina vadītāja pašapkalpošanās darbības uzvedību.
 

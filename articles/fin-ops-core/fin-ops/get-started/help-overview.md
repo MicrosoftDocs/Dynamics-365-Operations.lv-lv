@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537836"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811676"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -82,7 +82,7 @@ Lai iegūtu sīkāku informāciju, skatiet mūsu [līdzstrādnieku rokasgrāmatu
 
 Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt uzdevuma vai biznesa procesa darbības. Uzdevumu ceļvežus varat atvērt (atskaņot) rūtī Palīdzība. Kad pirmo reizi noklikšķināta uz kāda uzdevuma ceļveža, rūtī Palīdzība tiek parādīti detalizēti šī uzdevuma veikšanas norādījumi. Ir pieejami lokalizēti uzdevumu ceļveži.
 
-Programmai Dynamics 365 for Finance and Operations Microsoft nosūtīja Uzdevumu ceļvežu bibliotēkas 2017. gada decembrī. Sadaļā [Piekļuve uzdevumu ceļvežiem rūtī Palīdzība](help-overview.md#accessing-task-guides-from-the-help-pane) ir aprakstīts, kā atrast savam produktam atbilstošos Uzdevumu ceļvežus.
+Programmai Dynamics 365 for Finance and Operations Microsoft nosūtīja Uzdevumu ceļvežu bibliotēkas 2017. gada decembrī. Sadaļā [Palīdzības sistēma](help-overview.md#accessing-task-guides-from-the-help-pane) ir aprakstīts, kā atrast savam produktam atbilstošos Uzdevumu ceļvežus.
 
 ![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Lai sāktu strukturēto, interaktīvo pieredzi, noklikšķiniet uz vienuma **Sā
 > [!IMPORTANT]
 > Dati, kurus jūs ievadāt Uzdevuma ceļveža demontēšanas laikā ir īsti. Ja esat ražošanas vidē, šie dati tiks ievadīti uzņēmumā, kuru pašlaik izmantojat.
 
-Uzdevuma reģistrētāju var lietot, lai izveidotu pielāgotus Uzdevuma ceļvežus. Papildinform. sk. tēmā [Dokumentāc. vai apmāc. veidošana, izmantojot uzd. ierakstus](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+Uzdevuma reģistrētāju var lietot, lai izveidotu pielāgotus Uzdevuma ceļvežus. Papildinformāciju skatiet tēmā [Dokumentācijas vai apmācību veidošana, izmantojot uzdevuma reģistrētāju](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Produktā iebūvētā palīdzība
 
@@ -144,13 +144,12 @@ Tulkotie uzdevumu ceļveži tiek izlaisti bibliotēkās, kuru nosaukumā ir vār
 
 Varat izveidot palīdzību lietotājiem, izveidojot pielāgotus Uzdevuma ceļvežus, vai savienojiet vietni ar rūti Palīdzība. Papildinf. sk.:
 
-- [Kā izveidot uzd. ierakstu, ko lietot kā dokumentāc. vai apmācību](../../dev-itpro/user-interface/task-recorder.md).
+- [Uzdevuma reģistrētāja resursi](../../dev-itpro/user-interface/task-recorder.md)
 - [Izveidot Pielāgotu palīdzību (balts papīrs)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Uzdevuma reģistrētājs](../../dev-itpro/user-interface/task-recorder.md)
-- [Dokumentācijas vai apmācības veidošana, izmantojot uzdevuma ierakstus](../../dev-itpro/user-interface/task-recorder.md)
+- [Uzdevuma reģistrētāja resursi](../../dev-itpro/user-interface/task-recorder.md)
 
 Šajā tabulā ir uzskaitītas mūsu tīmekļa vietnes. Vietnēs, pie kuru nosaukuma ir zvaigznīte (\*), ir jāpierakstās, izmantojot ar pakalpojumu plānu saistīto kontu.
 

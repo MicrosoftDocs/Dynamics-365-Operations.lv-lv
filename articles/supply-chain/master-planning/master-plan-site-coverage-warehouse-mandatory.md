@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f61c142fff73fdeeca573cca3f54e654511af1e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 132817fefb9592764d1adaf9f714c27108ce88ae
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556416"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815115"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Vietas seguma vispārējā plānošana, ja noliktava ir obligāta
 
@@ -51,15 +51,15 @@ Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Para
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Vispārēja plānošana un vairākvietu funkcionalitāte](master-plan-multisite-functionality.md)
+[Vispārēja plānošanas un vairākvietu funkcionalitātes pārskats](master-plan-multisite-functionality.md)
 
-[Vispārējā plānošana — vietas un noliktavas segums, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Galvenais plāns vietas un noliktavas segumam, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Vispārējā plānošana — vietas segums, noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
+[Vietas seguma vispārējā plānošana, ja noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Vispārējā plānošana — vietas un noliktavas segums, noliktava nav obligāta](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Galvenais plāns vietas un noliktavas segumam, noliktava nav obligāta](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+[MK versijas noteikšana](master-plan-bom-version-determined.md)
 
 
 

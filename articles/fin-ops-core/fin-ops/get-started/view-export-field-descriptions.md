@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178966"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811511"
 ---
 # <a name="view-and-export-field-descriptions"></a>Lauku aprakstu skatīšana un eksportēšana
 
@@ -35,7 +35,7 @@ Dažiem sarežģītākajiem laukiem ir lauka apraksti. Šie apraksti tiek parād
 
 Ne visām lapām ir lauku apraksti. Mēs vēlamies sniegt aprakstus tikai sarežģītākajiem laukiem, nevis tiem, kuru lietojums ir acīmredzams. Tādēļ dažās lapās nav neviena lauka apraksta, dažās lapās ir daži apraksti, bet dažās no sarežģītākajām lapām, piemēram, daudzās parametru lapās, ir daudz aprakstu.
 
-Ja jums ir piekļuve izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Pielāgot lauka palīdzību](../../dev-itpro/user-interface/customize-field-help.md).
+Ja jums ir piekļuve izstrādes videi, varat pievienot jaunus lauku aprakstus un pielāgot esošos aprakstus. Piemēram, lauka aprakstam varat pievienot uzņēmumam specifisku informāciju. Papildinformāciju skatiet rakstā [Lauka pielāgošanas apraksti](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Skatīt lauku aprakstus lietotāja interfeisā
 
@@ -107,4 +107,4 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Pielāgot lauku palīdzību](../../dev-itpro/user-interface/customize-field-help.md)
+[Lauku aprakstu pielāgošana](../../dev-itpro/user-interface/customize-field-help.md)

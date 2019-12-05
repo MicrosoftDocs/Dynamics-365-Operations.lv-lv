@@ -3,7 +3,7 @@ title: Uz konkursu balstītas atlaides
 description: Šī tēma sniedz apskatu par funkcionalitāti, kas ļauj mazumtirgotājiem konfigurēt atlaides noteiktiem norēķinu veidiem.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673569"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692227"
 ---
 # <a name="tender-based-discounts"></a>Uz konkursu balstītas atlaides
 
@@ -40,6 +40,7 @@ Microsoft Dynamics 365 Retail mazumtirgotāji var konfigurēt atlaides procentus
 Ar norēķiniem balstītās atlaides nekonkurē ar uz krājumu balstītām atlaidēm, piemēram, periodiskām vai manuālām atlaidēm. Tās vienmēr tiek izvirzītas virs krājuma atlaidēm. Tāpēc, pat ja krājumam tiek lietota ekskluzīva periodiska atlaide, uz norēķiniem balstītā atlaide tiek izmantota papildus ekskluzīvajai periodiskajai atlaidei. Turklāt, ja darījumam tiek piemērota sliekšņa atlaide, un uz norēķiniem balstītā atlaide samazina kopsummu zem sliekšņa, sliekšņa atlaide tiek izmantota transakcijai.
 
 Kaut arī uz norēķinu balstītās atlaides samazina transakcijas apakšsummu, netiek ietekmētas automātiskās maksas, kas tiek piemērotas transakcijai. Piemēram, ja pasūtījuma izmaksas tiek aprēķinātas kā $5, jo apakšsumma bija lielāka par $100, un ar norēķinu balstītā atlaide samazina summu tā, lai tā būtu mazāka par $100, saņemšanas maksas joprojām ir $5 par pasūtījumu.
+
 
 > [!NOTE]
 > Uz norēķiniem balstītās atlaides tiek proporcionāli sadalītas uz kvalificētajām pārdošanas rindām un samazina atsevišķu rindu iepriekšēju nodokļu summu. Ja norēķinu tipam (piemēram, skaidrā naudā) ir konfigurētas vairākas atlaides, tiek piemērotas tikai vislabākā atlaide.
@@ -57,6 +58,7 @@ Attiecībā uz karšu maksājumiem mazumtirgotāji var iestatīt uz norēķinu b
 
 Lai nepieļautu šo situāciju, kad klients samaksā ar kredītkarti, kasieris redz dialoglodziņu, kurā ir uzskaitītas kredītkartes, kas ļaus klientam papildus ietaupīt. Tad kasieris var jautāt, vai klients vēlas izmantot vienu no vēlamajām kartēm, lai saņemtu papildu atlaidi. Ja kasierim tiek izmantota vēlamā karte, transakcijai tiek piemērota uz norēķinu balstīta atlaide, un samazinātā summa tiek rādīta maksājuma ekrānā. Autorizācija tiks piešķirta samazinātajai summai. Ja klients ievieto karti, kas atšķiras no tās, ko kasieris atlasījis, tiek parādīts kļūdas ziņojums, un autorizācija ir anulēta.
 
+
 ## <a name="call-center-user-experience"></a>Zvanu centra lietotāja pieredze
 
 Kad lietotājs zvanu centra pasūtījuma laikā izvēlas opciju **Pabeigts**, tiek rādīts **Kopsummas** ekrāns. Sākumā kopsummas neiekļauj uz norēķinu balstītās atlaides šajā ekrānā, jo vēl nav atlasīta maksāšanas metode. Ja lietotājs ekrānā **Pievienot maksājumu** atlasa maksājuma metodi, kas ir konfigurēta uz norēķina balstītu atlaidi, maksājuma summa tiek automātiski koriģēta, lai tā atspoguļotu atlaides summu. Tāpat kā klients pie POS, arī zvanu centra klients var izlemt, vai apmaksāt maksājumu pilnībā vai daļēji. Balstoties uz apmaksāto summu, pārdošanas pasūtījumam tiek piemērota uz norēķinu balstīta atlaide.
@@ -66,7 +68,7 @@ Kad lietotājs zvanu centra pasūtījuma laikā izvēlas opciju **Pabeigts**, ti
 
 ## <a name="exclude-items-from-discounts"></a>Noņemt atlaidi no precēm
 
-Mazumtirgotāji bieži izvēlas nepiemērot atlaidi dažiem produktiem, piemēram, jaunām precēm vai pieprasītākajām precēm. Tomēr joprojām vēlas piemērot uz norēķinu balstītas atlaides. Piemēram, mazumtirgotājs konfigurē Retail tā, ka tas nepiemēro uz precēm balstītas vai manuālas atlaides. Tomēr, ja klients maksā, izmantojot vēlamo norēķinu, Retail joprojām piemēro uz norēķinu balstītu atlaidi. Lai Retail tiktu iestatīta šādā veidā, mazumtirgotājiem ir jāizslēdz opcijas **Novērst visas atlaides** un **Novērst uz norēķinu balstītās atlaides**, un jāieslēdz opcijas **Novērst mazumtirdzniecības atlaides** un **Novērst manuālas atlaides**. Opcijas ir pieejamas lapā **Izlaistās preces** cilnē **Retail**.
+Mazumtirgotāji bieži izvēlas nepiemērot atlaidi dažiem produktiem, piemēram, jaunām precēm vai pieprasītākajām precēm. Tomēr joprojām vēlas piemērot uz norēķinu balstītas atlaides. Piemēram, mazumtirgotājs konfigurē Retail tā, ka tas nepiemēro uz precēm balstītas vai manuālas atlaides. Tomēr, ja klients maksā, izmantojot vēlamo norēķinu, Retail joprojām piemēro uz norēķinu balstītu atlaidi. Lai Retail tiktu iestatīts tādā veidā, mazumtirgotājiem ir jāpāriet uz **Produkta informācijas pārvaldība > Produkti > Izlaistās preces** atlasiet preci un pēc tam kopsavilkuma cilnē **Retail**  iestatiet opcijas **Novērst visas atlaides** un **Novērst norēķinu atlaides** uz **Nē** un opcijas **Novērst mazumtirdzniecības atlaides** un **Novērst manuālās atlaides** uz **Jā**.
 
 > [!NOTE]
-> Kad ir ieslēgta **Novērst visas atlaides** konfigurācija, precei netiks piemērotas atlaides. Netiks piešķirtas pat uz norēķinu balstītās atlaides.
+> Kad konfigurācija **Novērst visas atlaides** ir ieslēgta uz **Jā**, precei netiks piemērotas atlaides. Netiks piešķirtas pat uz norēķinu balstītās atlaides.

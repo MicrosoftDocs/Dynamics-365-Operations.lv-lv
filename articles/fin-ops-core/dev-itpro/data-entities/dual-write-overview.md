@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550861"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772391"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Gandrīz reāllaika datu integrācija ar Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Pašreizējā digitālajā pasaulē biznesa ekosistēmas izmanto Microsoft Dynamics 365 programmas kopumā. Tā kā dati no cilvēkiem, debitoriem, operācijām un lietu interneta (IoT) ierīcēm saplūst vienā avotā, pastāv iespēja izmantot digitālās atgriezeniskās saites cilpas. Lai sasniegtu šo pieredzi, būtiska ir integrācija starp Finance and Operations programmām un citām Dynamics 365 programmām. Dažas programmas ir veidotas uz pakalpojuma Common Data Service. Integrācija starp Finance and Operations programmu datiem ar Common Data Service ļauj citām programmām saskaņoti un raiti sazināties ar Finance and Operations.
 
@@ -38,13 +36,16 @@ Finance and Operations programmas un Common Data Service nodrošina tuvu reālla
 
 ![Arhitektūras pārskata diagramma](media/dual-write-overview.jpg)
 
-Debitoriem ir pieejamas šādas vērtību propozīcijas:
+Ir pieejamas šādas vērtību propozīcijas:
 
 + [Organizācijas hierarhija Common Data Service](dual-write-organization.md)
 + [Uzņēmuma koncepts Common Data Service](dual-write-company.md)
 + [Integrētie debitoru pamatdati](dual-write-customer.md)
++ [Integrētā virsgrāmata](dual-write-ledger.md)
++ [Vienotā preču pieredze](dual-write-product.md)
 + [Integrētie kreditora pamatdati](dual-write-vendor.md)
-+ Vienoti preces pamatdati
++ [Integrētās vietas un noliktavas](dual-write-sites-and-warehouses.md)
++ [Integrētie nodokļu pamatdati](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Sistēmas prasības
 

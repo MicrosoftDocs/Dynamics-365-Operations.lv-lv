@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026009"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812699"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 20. marts)
 
@@ -43,7 +43,7 @@ Aktivitātēm sistēmā tagad var definēt auditoriju. Ar procesu saistītās ak
 Ja kandidāts ir piemirsis sociālos akreditācijas datus, ar kuriem viņš pieteicās kādam darbam, atverot šim kandidātam sūtītajā e-pasta ziņojumā saglabāto saiti, tagad kandidāts redz norādi ar nodrošinātāja nosaukumu un lietotājvārdu (aizēnotu). Tas palīdz izmantot pareizos akreditācijas datus, lai piekļūtu savam darba pieteikumam.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Palīdzība iekšējiem kandidātiem izpētīt iekšējos darbus
-Ir novērsta problēma, kuras dēļ ārējie kandidāti darbam varēja redzēt personāla atlases darbinieka vai par pieņemšanu darbā atbildīgā vadītāja vārdu un uzvārdu. Tagad darbā pieņemšanas grupas dalībniekus darbam var redzēt tikai iekšējie kandidāti. Tāpat iekšējiem kandidātiem ir vienkāršāk apskatīt tikai iekšējos darbus un pieteikties tiem. Kad kandidāts mēģina piekļūt saitei, lai skatītu tikai iekšēju darbu vai pieteiktos tam, kandidātam ir nepieciešams autentificēties ar Azure Active Directory akreditācijas datiem. Iekšējiem kandidātiem ir arī iespēja sazināties ar darbā pieņemšanas grupas dalībnieku, lai izteiktu interesi par darbu vai lai uzzinātu par to vairāk. Šī iespēja ir pieejama visiem darbiem, kas ir paredzēti tikai iekšējiem kandidātiem. Plašāku informāciju skatiet rakstā [Karjeras vietnes funkcionalitāte programmā Attract](./career-site.md).
+Ir novērsta problēma, kuras dēļ ārējie kandidāti darbam varēja redzēt personāla atlases darbinieka vai par pieņemšanu darbā atbildīgā vadītāja vārdu un uzvārdu. Tagad darbā pieņemšanas grupas dalībniekus darbam var redzēt tikai iekšējie kandidāti. Tāpat iekšējiem kandidātiem ir vienkāršāk apskatīt tikai iekšējos darbus un pieteikties tiem. Kad kandidāts mēģina piekļūt saitei, lai skatītu tikai iekšēju darbu vai pieteiktos tam, kandidātam ir nepieciešams autentificēties ar Azure Active Directory akreditācijas datiem. Iekšējiem kandidātiem ir arī iespēja sazināties ar darbā pieņemšanas grupas dalībnieku, lai izteiktu interesi par darbu vai lai uzzinātu par to vairāk. Šī iespēja ir pieejama visiem darbiem, kas ir paredzēti tikai iekšējiem kandidātiem. Plašāku informāciju skatiet tēmā [Karjeras vietas iestatīšana Microsoft Dynamics 365 Talent - Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Sudraba medaļas ieguvēju norādīšana, lai kandidātiem piešķirtu augstu vērtību turpmākiem amatiem
 Personāla atlases darbinieki un par pieņemšanu darbā atbildīgie vadītāji bieži veido sarakstus ar kandidātiem, kuri bija piemēroti amatam, bet kurus nevarēja iekļaut piedāvājumā, jo amats jau bija aizpildīts. Šādi kandidāti, saukti par sudraba medaļas ieguvējiem, ir vērtīgi, jo viņi var samazināt darbā pieņemšanas laiku nākamajā reizē, kad kļūst pieejams līdzīgs amats. Attract tagad ļauj personāla atlases darbiniekiem un par pieņemšanu darbā atbildīgajiem vadītājiem kandidātu sarakstā norādīt sudraba medaļas ieguvējus, ja kandidāts tiek pārcelts uz posmu Piedāvājums. Sudraba medaļas ieguvēja apzīmējums ir redzams attiecīgā darba kandidātu sarakstā, kā arī kandidātu kopas skatā, kad šie kandidāti ir dalībnieki jebkurā personāla atlases darbinieka vai par pieņemšanu darbā atbildīgā vadītāja kopā. Turklāt šis apzīmējums ir redzams arī darbu vēsturē kā daļa no kandidātu kopas profila šim kandidātam. Šo līdzekli varat priekšskatīt, ja administrators to ieslēdz, izmantojot norādījumus rakstā [Līdzekļu pārvaldība administrēšanas centrā](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

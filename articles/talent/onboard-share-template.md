@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551453"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812837"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Satura kopīgošana ar citiem ieguldītājiem programmā Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard ļauj kopīgot pievienošanas ceļvežus 
 
 3. Sadaļā **Adresāts**, ja adresātiem vajadzētu spēt pārskatīt veidni, iestatiet opciju **Vai šīs personas var veikt labojumus?** uz **Ieslēgts**. Ja saņēmēji ir jāinformē pa e-pastu, ka esat kopīgojis veidni ar viņiem, iestatiet opciju **Nosūtīt e-pasta paziņojumu adresātiem** uz **Ieslēgts**.
 
-    [!Piekļuves un e-pasta ziņojumu preferenču iestatīšana veidnei](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Piekļuves un e-pasta preferenču iestatīšana veidnei](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Ievadiet vārdu vai e-pasta adresi un nolaižamajā sarakstā atlasiet vajadzīgo adresātu.
 5. Cilnē **Pārvaldīt piekļuvi** varat pārskatīt vai mainīt to, ko adresāti var darīt ar veidni. Lai mainītu adresāta piekļuvi, nolaižamajā sarakstā blakus adresāta vārdam atbilstīgi atlasiet **Var skatīt**, **Var rediģēt** vai **Noņemt**.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard ļauj kopīgot pievienošanas ceļvežus 
 ### <a name="see-also"></a>Skatiet arī
 
 - [Programmas Onboard izmēģināšana vai iegāde](https://dynamics.microsoft.com/talent/onboard/)
-- [Jaunumi](./whats-new.md)
-- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Atbalsta saņemšana](./talent-support.md)
+- [Jaunumi un izmaiņas Dynamics 365 Talent](./whats-new.md)
+- [Nodošanas izpildei plāni](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](./talent-support.md)

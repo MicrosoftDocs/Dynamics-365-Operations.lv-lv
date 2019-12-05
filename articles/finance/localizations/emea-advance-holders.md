@@ -17,12 +17,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5869e707511eb1779149176319541fbe162e3ab3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e11cf9eb5944746428ab75ca55ef67687089f152
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176144"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773413"
 ---
 # <a name="advance-holders-overview"></a>Avansa turētāju pārskats
 
@@ -35,13 +35,12 @@ Uzziniet par avansa turētāja funkcionalitāti.
 ## <a name="set-up-an-advance-holder"></a>Iestatīt avansa turētāju
 Šajā sadaļā ir sniegta informācija par avansa turētāja iestatīšanu. Šajā sadaļā aprakstītie uzdevumi ir jāizpilda tālāk norādītajā secībā.
 
-> [!div class="checklist"]
-> * 1. Avansa turētāju grupu izveide
-> * 2. Darbinieka grāmatošanas metodes iestatīšana
-> * 3. Kreditoru parametru iestatīšana
-> * 4. Specifisku maksājuma nosacījumu avansa turētājam izveide
-> * 5. Specifisku maksājuma nosacījumu avansa turētājam izveide
-> * 6. Avansa turētāja izveide
+1. Avansa turētāju grupu izveide
+2. Darbinieka grāmatošanas metodes iestatīšana
+3. Kreditoru parametru iestatīšana
+4. Specifisku maksājuma nosacījumu avansa turētājam izveide
+5. Specifisku maksājuma nosacījumu avansa turētājam izveide
+6. Avansa turētāja izveide
 
 
 ### <a name="advance-holder-groups"></a>Avansa turētāju grupas
@@ -53,13 +52,11 @@ Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbini
 
 |      Lauks      |                                            Apraksts                                            |
 |-----------------|---------------------------------------------------------------------------------------------------|
-| Grāmatošanas metode |               Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.               |
-|   Apraksts   |                         Ievadiet īsu grāmatošanas metodes aprakstu.                         |
-|    Derīgs    | Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. |
-
-**Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam. Laukā Atsauce ir jānorāda avansa turētāja kods.
-**Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai. Laukā Atsauce ir jānorāda grupas kods.
-**Visi** — šī opcija tiek izmantota, lai iestatītu grāmatošanas metodi visiem avansa turētājiem.| |Atsauce|Atlasiet avansa turētāja kodu, ja laukā Derīgs ir atlasīta vērtība Tabula, vai atlasiet avansa turētāju grupu, ja laukā Derīgs ir atlasīta vērtība Grupa.| |Summu konts|Atlasiet summu kontu transakciju grāmatošanai.|
+| **Grāmatošanas metode** |  Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.               |
+|   **Apraksts**   |  Ievadiet īsu grāmatošanas metodes aprakstu.                         |
+|    **Derīgs**    |  Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. <ul> <li>**Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam. Laukā **Atsauce** ir jānorāda avansa turētāja kods.</li> <li>**Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai. Laukā **Atsauce** ir jānorāda grupas kods.</li> <li>**Viss** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu visiem avansa turētājiem.</li></ul> |
+| **Atsauce** | Atlasiet avansa turētāja kodu, ja laukā **Derīgs** ir atlasīta **Tabula**, vai atlasiet avansa turētāju grupu, ja laukā**Derīgs** ir atlasīta **Grupa**. |
+| **Summu konts** | Atlasiet kopsavilkuma kontu transakciju iegrāmatošanai. |
 
 
 
@@ -67,9 +64,8 @@ Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbini
 
 Lai atainotu avansa turētāju transakcijas, lapas **Kreditoru moduļa parametri** sadaļā **Avansa turētāji** ir jāiestata tālāk aprakstītie priekšnosacījumi.
 
-|                                                |                   |
+|  Lauks                                         | Apraksts       |
 |------------------------------------------------|-------------------|
-|  **Lauks**                                     | **Apraksts**                                                                                                                                                                  |
 | **Grāmatošanas metode**                            | Atlasiet noklusējuma metodi avansa turētāju transakciju veikšanai.                                                                                                         |
 | **Avansa turētāju kārtošana**                     | Ja šī opcija ir atzīmēta, tad avansa turētāji lapā **Avansa turētāji** tiek rādīti saraksta sākumā lapā.                                                                     |
 | **Izsniegšana, kad bilance ir atvērta**                 | Ja šī opcija ir atzīmēta, tad tiek atļauta naudas avansa izsniegšana avansa turētājam, kuram ir atvērta pozitīva bilance.                                                                      |
@@ -85,7 +81,7 @@ Lai pareizi reģistrētu un grāmatotu pirkšanas pasūtījumu, izmantojot avans
 
 ### <a name="create-an-advance-holder"></a>Avansa turētāja izveide
 
-Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) 
+Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatītiem. Papildinformāciju skatiet rakstā [Ievadīt darbinieka informāciju (uzdevuma ceļvedis)](../../fin-and-ops/hr/tasks/enter-worker-information.md). 
 
 1. Atlasiet **Kreditori** \> **Avansa turētāji** \> **Avansa turētāji**.
 
@@ -110,7 +106,7 @@ Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatī
 
 ### <a name="advance-holder-transactions-inquiry"></a>Avansa turētāju transakciju pieprasījums
 
-Lai iegūtu sarakstu ar avansa turētāja transakcijām, lapā **Avansa turētāji** noklikšķiniet uz pogas **Transakcijas**. Lai redzētu transakcijas visiem avansa turētājiem vai lai izveidotu specifisku pieprasījumu, pamatojoties uz avansa turētāja transakcijām, noklikšķiniet uz **Parādi kreditoriem** &gt; **Pieprasījumi un pārskati** &gt; **Avansa turētāju pieprasījumi un pārskati** &gt; Transakcijas. Noklikšķiniet uz vienuma **Dokuments**, lai atvērtu lapu **Dokumentu transakcijas**.
+Lai iegūtu sarakstu ar avansa turētāja transakcijām, lapā **Avansa turētāji** noklikšķiniet uz pogas **Transakcijas**. Lai redzētu transakcijas visiem avansa turētājiem vai lai izveidotu specifisku pieprasījumu, pamatojoties uz avansa turētāja transakcijām, noklikšķiniet uz **Kreditori** &gt; **Pieprasījumi un pārskati** &gt; **Avansa turētāju pieprasījumi un pārskati** &gt; **Transakcijas**. Noklikšķiniet uz vienuma **Dokuments**, lai atvērtu lapu **Dokumentu transakcijas**.
 ### <a name="advance-holder-balance-inquiry"></a>Avansa turētāja bilances pieprasījums
 
 Lai redzētu avansa turētāja bilanci, izmantojiet lapu **Avansa turētāji**. Lai redzētu bilanci visiem avansa turētājiem vai lai izveidotu specifisku pieprasījumu, pamatojoties uz avansa turētāju kontiem, noklikšķiniet uz **Parādi kreditoriem** &gt; **Pieprasījumi un pārskati** &gt; **Avansa turētāju pieprasījumi un pārskati** &gt; **Bilance**.
@@ -130,13 +126,13 @@ Uzziniet, kā strādāt ar avansa turētāja transakcijām.
 ### <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Izveidot un grāmatot pirkšanas pasūtījumu ar avansa turētāja informāciju
 Vispārīgāku informāciju par pirkšanas pasūtījumiem skatiet rakstā [Pirkšanas pasūtījuma apskats](../../supply-chain/procurement/purchase-order-overview.md). Ja tiek izveidots un grāmatots kreditora rēķins ar avansa turētāja informāciju, tad avansa turētāja bilances tiks grāmatotas darbinieka bilances kontā, nevis kreditora bilances kontā. Lai pirkšanas pasūtījumam pievienotu avansa turētāja informāciju, izpildiet tālāk sniegtos norādījumus.
 
--   Sadaļas **Cena un atlaide** laukā **Maksājuma nosacījumi** atlasiet maksājuma nosacījumu. <!---For more information about **Terms of payment**, see [Define vendor payment terms](../accounts-payable/tasks/define-vendor-payment-terms.md).--> Atlasiet maksājumu termiņu, kuram lapā **Maksājuma nosacījumi** ir atzīmēta opcija **No avansa turētāja**. Papildinformāciju par maksājumu nosacījumu iestatīšanu avansa turētājiem skatiet rakstā [Avansa turētāji](emea-advance-holders.md).
+-   Sadaļas **Cena un atlaide** laukā **Maksājuma nosacījumi** atlasiet maksājuma nosacījumu. <!---For more information about **Terms of payment**, see [Define vendor payment terms](../accounts-payable/tasks/define-vendor-payment-terms.md).--> Atlasiet maksājumu termiņu, kuram lapā **Maksājuma nosacījumi** ir atzīmēta opcija **No avansa turētāja**. 
 -   Kopsavilkuma cilnes **Cena un atlaide** laukā **Avansa turētājs** pirkšanas pasūtījumam atlasiet avansa turētāju.
 
 Pirkšanas pasūtījuma grāmatošanas process izveido divas kreditora transakcijas ar pretējām summām un vienu avansa turētāja transakciju. Bez avansa turētāja informācijas tiek izveidota tikai viena kreditora transakcija.
 
 ### <a name="settle-advance-holder-balances-via-a-bank"></a>Nosegt avansa turētāja bilances, izmantojot banku
-Kad avansa turētāja bilances nosedzat, izmantojot banku, avansa turētāja bilanču slēgšanas žurnāla ieraksti tiek izveidoti virsgrāmatas žurnālā. Žurnāla un bankas kodu varat iestatīt lapas **Kreditoru moduļa parametri** sadaļā **Avansa turētāji**. Plašāku informāciju skatiet rakstā [Avansa turētāji](emea-advance-holders.md). Lai slēgtu avansa turētāja bilanci, izmantojot banku, atveriet sadaļu **Parādi kreditoriem** &gt; **Avansa turētāji** &gt; **Avansa turētāji**. Darbību rūtī noklikšķiniet uz pogas **Bilance** un pēc tam noklikšķiniet uz **Slēgt no bankas**. Lapā **Slēgt no bankas** ievadiet tālāk minēto informāciju.
+Kad avansa turētāja bilances nosedzat, izmantojot banku, avansa turētāja bilanču slēgšanas žurnāla ieraksti tiek izveidoti virsgrāmatas žurnālā. Žurnāla un bankas kodu varat iestatīt lapas **Kreditoru moduļa parametri** sadaļā **Avansa turētāji**. Lai slēgtu avansa turētāja bilanci, izmantojot banku, atveriet sadaļu **Parādi kreditoriem** &gt; **Avansa turētāji** &gt; **Avansa turētāji**. Darbību rūtī noklikšķiniet uz pogas **Bilance** un pēc tam noklikšķiniet uz **Slēgt no bankas**. Lapā **Slēgt no bankas** ievadiet tālāk minēto informāciju.
 
 | Lauks                    | Apraksts |
 |------------------------------|-------------------|
@@ -145,7 +141,7 @@ Kad avansa turētāja bilances nosedzat, izmantojot banku, avansa turētāja bil
 | **Automātiski**                | Atzīmējiet izvēles rūtiņu **Automātiski**, lai izveidotu un grāmatotu žurnālu, kurš ir sākotnēji iestatīts lapā **Kreditoru moduļa parametri**.|
 
 ### <a name="settle-advance-holder-balances-via-cash"></a>Nosegt avansa turētāja bilances, izmantojot skaidru naudu
-Kad nosedzat avansa turētāja bilances, izmantojot skaidru naudu, avansa turētāja bilanču slēgšanas žurnāla ieraksti tiek izveidoti pavadzīmju žurnālā. Žurnāla un skaidras naudas kodu varat iestatīt lapas **Kreditoru moduļa parametri** cilnē **Avansa turētāji**. Plašāku informāciju skatiet rakstā [Avansa turētāji](emea-advance-holders.md). Lai slēgtu avansa turētāja bilanci, izmantojot skaidru naudu, atveriet sadaļu **Parādi kreditoriem** &gt; **Avansa turētāji** &gt; **Avansa turētāji**. Darbību rūtī noklikšķiniet uz pogas **Bilance** un pēc tam noklikšķiniet uz **Slēgt no kases**. Lapā **Slēgt no kases** ievadiet tālāk minēto informāciju.
+Kad nosedzat avansa turētāja bilances, izmantojot skaidru naudu, avansa turētāja bilanču slēgšanas žurnāla ieraksti tiek izveidoti pavadzīmju žurnālā. Žurnāla un skaidras naudas kodu varat iestatīt lapas **Kreditoru moduļa parametri** cilnē **Avansa turētāji**. Lai slēgtu avansa turētāja bilanci, izmantojot skaidru naudu, atveriet sadaļu **Parādi kreditoriem** &gt; **Avansa turētāji** &gt; **Avansa turētāji**. Darbību rūtī noklikšķiniet uz pogas **Bilance** un pēc tam noklikšķiniet uz **Slēgt no kases**. Lapā **Slēgt no kases** ievadiet tālāk minēto informāciju.
 
 | Lauks                    | Apraksts
 |------------------------------|-----------------|
@@ -158,7 +154,7 @@ Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Avansa maksājums darbiniekam (Austrumeiropa)](tasks/advance-payment-employee.md)
-- [Avansa turētāji Krievijai](rus-advance-holders.md)
+- [Krievijas avansa turētāju pārskats](rus-advance-holders.md)
 
 
 

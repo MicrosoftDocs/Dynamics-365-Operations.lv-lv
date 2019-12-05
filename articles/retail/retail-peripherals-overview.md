@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025057"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811197"
 ---
 # <a name="retail-peripherals"></a>Retail perifērijas ierīces
 
@@ -35,11 +35,17 @@ ms.locfileid: "2025057"
 
 ### <a name="pos-registers"></a>POS kases sistēmas
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Pārdošanas punkta (POS) kases sistēma ir elements, kas tiek izmantots, lai noteiktu konkrētas POS instances raksturlielumus. Šie raksturlielumi ietver aparatūras profilu jeb ar kases sistēmu izmantoto mazumtirdzniecības perifērijas ierīču iestatījumus, veikalu, ar kuru ir kartēta šī kases sistēma, un vizuālo noformējumu, ko redz lietotājs, kurš pierakstās šajā kases sistēmā.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. 
+
+Pārdošanas punkta (POS) kases sistēma ir elements, kas tiek izmantots, lai noteiktu konkrētas POS instances raksturlielumus. Šie raksturlielumi ietver aparatūras profilu jeb ar kases sistēmu izmantoto mazumtirdzniecības perifērijas ierīču iestatījumus, veikalu, ar kuru ir kartēta šī kases sistēma, un vizuālo noformējumu, ko redz lietotājs, kurš pierakstās šajā kases sistēmā.
 
 ### <a name="devices"></a>Ierīces
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Ierīces**. Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru. Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru. Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē. Ierīces var kartēt ar šiem lietojumprogrammu veidiem: Retail Modern POS, Retail Cloud POS, Retail Modern POS — Windows Phone, Retail Modern POS — Android un Retail Modern POS — ISP.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Ierīces**. 
+
+Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru. Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru. Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē. 
+
+Ierīces var kartēt ar šiem lietojumprogrammu veidiem: Retail Modern POS, Retail Cloud POS, Retail Modern POS — Windows Phone, Retail Modern POS — Android un Retail Modern POS — ISP.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas.
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**. Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota mazumtirdzniecības perifērās ierīces loģika. Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus. Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā. Aparatūras stacija ir iebūvēta programmā Modern POS operētājsistēmai Windows. Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu. Šādā gadījumā tai var piekļūt tīklā.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**. 
+
+Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**. Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota mazumtirdzniecības perifērās ierīces loģika. Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus. Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā. Aparatūras stacija ir iebūvēta programmā Modern POS operētājsistēmai Windows. Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu. Šādā gadījumā tai var piekļūt tīklā.
 
 ### <a name="hardware-profile"></a>Aparatūras profils
 
-Navigācija: noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**. Aparatūras profils ir to ierīču saraksts, kas ir konfigurētas POS kases sistēmai vai aparatūras stacijai. Aparatūras profilu var tieši kartēt ar POS kases sistēmu vai aparatūras staciju.
+Navigācija: noklikšķiniet uz **Retail** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**. 
+
+Aparatūras profils ir to ierīču saraksts, kas ir konfigurētas POS kases sistēmai vai aparatūras stacijai. Aparatūras profilu var tieši kartēt ar POS kases sistēmu vai aparatūras staciju.
 
 ## <a name="devices-classes"></a>Ierīču klases
 Parasti POS perifērās ierīces tiek sadalītas klasēs. Šajā sadaļā ir aprakstītas programmā Modern POS atbalstītās ierīces un sniegts pārskats par tām.
@@ -202,11 +212,11 @@ Loģika, kas nodrošina fiziski pievienoto un tīklā adresējamo perifēro ier�
 
 ### <a name="hardware-station-installation"></a>Aparatūras stacijas instalēšana
 
-Informāciju skatiet tēmā [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
+Informāciju skatiet tēmā [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS operētājsistēmai Windows iestatīšana un konfigurēšana
 
-Informāciju skatiet rakstā [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md).
+Informāciju skatiet [Retail Modern POS (MPOS) konfigurēšana, instalācija un aktivizēšana](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS ierīces iestatīšana un konfigurēšana
 
@@ -523,7 +533,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 
 ## <a name="configuration-for-supported-scenarios"></a>Atbalstīto scenāriju konfigurācija
 
-Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Kanāla klientu, tostarp kases sistēmu un aparatūras staciju, definēšana un uzturēšana](define-maintain-channel-clients-registers-hw-stations.md).
+Lai iegūtu vairāk informācijas par to, kā izveidot aparatūras profilus, skatiet [Perifērijas ierīču pievienošana pārdošanas punktam (POS)](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > Attiecībā uz Retail versiju 1611 vairs netiek lietots aparatūras staciju profils. Atribūti, kas iepriekš bija jāiestata aparatūras stacijas profilā, tagad ir ietverti pašā aparatūras stacijā.
@@ -566,8 +576,8 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 4. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
 5. Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 6. Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
-7. Instalējiet aparatūras staciju. Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet tēmā [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
-8. Instalējiet un aktivizējiet programmu Modern POS. Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet rakstā [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md).
+7. Instalējiet aparatūras staciju. Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
+8. Instalējiet un aktivizējiet programmu Modern POS. Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet [Retail Modern POS (MPOS) konfigurēšana, instalācija un aktivizēšana](retail-modern-pos-device-activation.md).
 9. Pierakstieties programmā Modern POS un atlasiet vienumu **Veikt operācijas bez naudas kastes**.
 10. Sāciet operāciju **Pārvaldīt aparatūras stacijas**.
 11. Noklikšķiniet uz **Pārvaldīt**.
@@ -595,8 +605,8 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 5. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Mazumtirdzniecības IT** &gt; **Sadales grafiks**.
 6. Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 7. Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
-8. Instalējiet aparatūras staciju katrā resursdatorā, ko iestatījāt, veicot 2. un 3. darbību. Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet tēmā [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
-9. Instalējiet un aktivizējiet programmu Modern POS. Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet rakstā [Retail Modern POS konfigurēšana un instalēšana](retail-modern-pos-device-activation.md).
+8. Instalējiet aparatūras staciju katrā resursdatorā, ko iestatījāt, veicot 2. un 3. darbību. Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
+9. Instalējiet un aktivizējiet programmu Modern POS. Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet [Retail Modern POS (MPOS) konfigurēšana, instalācija un aktivizēšana](retail-modern-pos-device-activation.md).
 10. Pierakstieties programmā Modern POS un atlasiet vienumu **Veikt operācijas bez naudas kastes**.
 11. Sāciet operāciju **Pārvaldīt aparatūras stacijas**.
 12. Noklikšķiniet uz **Pārvaldīt**.
@@ -655,7 +665,7 @@ Saskaņā ar pašreizējiem drošības standartiem, ražošanas vidē ir jāizma
 
 ## <a name="peripheral-simulator"></a>Perifērijas simulators
 
-Informāciju skatiet tēmā [Mazumtirdzniecības perifēro ierīču simulators](dev-itpro/retail-peripheral-simulator.md).
+Informāciju skatiet [Retail perifēro ierīču simulators](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Korporācijas Microsoft pārbaudītas perifērijas ierīces
 
@@ -896,4 +906,4 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Retail perifērijas ierīču simulators](dev-itpro/retail-peripheral-simulator.md)
+[Perifērijas simulators mazumtirdzniecībai](dev-itpro/retail-peripheral-simulator.md)

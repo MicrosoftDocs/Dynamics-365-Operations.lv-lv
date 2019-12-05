@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187916"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770854"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensiju izveide un dimensijas elementu importēšana
 
@@ -44,12 +44,11 @@ Nākamajā diagrammā ir redzamas izmaksu uzskaitē lietotās dimensijas.
 Kad dati ir importēti modulī Izmaksu uzskaite, varat tos izmantot, lai veidotu dažādas perspektīvas, kuras sniedz ieskatu vadītājiem visos organizācijas līmeņos. Informācija par dimensiju izveidošanu un dimensiju elementu importēšanu ir sniegta tālāk uzskaitītajās tēmās. 
 
 -  [Izmaksu elementu dimensijas](cost-elements.md)
--  [Izmaksu elementu izveide (uzdevuma ceļvedis)](./tasks/create-cost-elements.md)
--  [Izmaksu objekta dimensijas](cost-objects.md)
--  [Izmaksu elementu izveide (uzdevuma ceļvedis)](./tasks/create-cost-objects.md)
--  [Izmaksu elementu dimensiju elementu kartēšana uz kopīgu dimensiju elementu kopu](map-cost-elements-dimension-members.md)
--  [Izmaksu elementa dimensijas kartēšana (uzdevuma ceļvedis)](./tasks/map-cost-element-dimension.md)
--  [Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes](statistical-measure-provider-template.md)
+-  [Izmaksu elementu izveide](./tasks/create-cost-elements.md)
+-  [Izmaksu objektu dimensijas](cost-objects.md)
+-  [Izmaksu elementu dimensiju elementu kartēšana uz kopēju dimensiju elementu kopu](map-cost-elements-dimension-members.md)
+-  [Izmaksu elementa dimensijas kartēšana](./tasks/map-cost-element-dimension.md)
+-  [Statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes](statistical-measure-provider-template.md)
 
 
 

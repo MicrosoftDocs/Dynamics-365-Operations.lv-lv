@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190929"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811582"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190929"
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs — visas valodas)
 
-APQC vienotajā bibliotēkā (2016. gada maijs) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada maijs) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Šajā bibliotēkā ir pieejamas APQC vienotajā bibliotēkā (2016. gada februāra laidienā) izlaisto uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
 > [!NOTE]
 > Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics AX 2016. gada maija atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Microsoft Dynamics AX versijās.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024239"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814609"
 ---
 # <a name="questionnaires"></a>Anketas
 
@@ -44,17 +44,17 @@ Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzd
 | Tēma| Apraksts|
 |------|------------|
 | [Anketas izstrāde](design-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
-| [Anketas izplatīšana un aizpildīšana](distribute-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt.                                                                       |
-| [Anketas rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md) | Šajā raksta ir sniegta informācija par to, kā skatīt un novērtēt no aizpildītām anketām iegūtos rezultātus.                                                                                        |
+| [Anketu izplatīšana un plānošana](distribute-questionnaires.md)  | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt.                                                                       |
+| [Skatīt un novērtēt anketas rezultātus](evaluate-questionnaire-results.md) | Šajā raksta ir sniegta informācija par to, kā skatīt un novērtēt no aizpildītām anketām iegūtos rezultātus.                                                                                        |
 
 
 
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Anketu veidošana](design-questionnaires.md)
+[Anketu projektēšana](design-questionnaires.md)
 
-[Anketu izplatīšana un aizpildīšana](distribute-questionnaires.md)
+[Anketu izplatīšana un plānošana](distribute-questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025280"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811784"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) ekrāna izkārtojumi
 
@@ -171,7 +171,7 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 
     - **Darbība** — attiecīgo POS darbību sarakstā atlasiet darbību, kas jāizsauc, kad tiek noklikšķināts uz pogas.
 
-        Atbalstīto POS°darbību sarakstu skatiet rakstā[POS tiešsaistes un bezsaistes darbības](pos-operations.md).
+        Atbalstīto POS darbību sarakstu skatiet [Pārdošanas punktu (POS) tiešsaistes un bezsaistes darbības](pos-operations.md).
 
     - **Darbības parametri** — daļa POS darbību, kad tās tiek izsauktas, izmanto papildu parametrus. Piemēram, darbībai Pievienot preci lietotāji var norādīt pievienojamo preci.
     - **Pogas teksts** — norādiet tekstu, kas POS jāparāda uz šīs pogas.
@@ -193,4 +193,4 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Instalēt Retail POS izkārtojuma veidotāju](install-pos-layout-designer.md)
+[Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana](install-pos-layout-designer.md)

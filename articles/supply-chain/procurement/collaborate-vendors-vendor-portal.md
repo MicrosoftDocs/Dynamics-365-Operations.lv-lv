@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248984"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813527"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarboties ar kreditoriem, izmantojot kreditoru portālu
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248984"
 
 Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 
-Šajā tēmā sniegtā informācija attiecas tikai uz 2016. gada februāra un 2016. gada maija Dynamics AX versijām. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbības izmantošana darbam ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
+Šajā tēmā sniegtā informācija attiecas tikai uz 2016. gada februāra un 2016. gada maija Dynamics AX versijām. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
 
 Kreditoru portāls ir paredzēts kreditoriem, kas neizmanto elektronisko datu savstarpējās apmaiņas (electronic data interchange — EDI) integrāciju ar programmu Microsoft Dynamics AX, lai nodrošinātu pirkšanas pasūtījumu (PP) informācijas apmaiņu. Portāls sniedz pirkšanas aģentiem iespēju nosūtīt PP kreditoram un pēc tam saņemt atbildi Apstiprināts vai Noraidīts tieši programmā Dynamics AX.  
 
@@ -98,9 +98,9 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Kreditoru sadarbības lietotāju drošības konfigurācija](configure-security-vendor-portal-users.md)
+[Kreditoru portāla lietotāja drošība](configure-security-vendor-portal-users.md)
 
-[Kreditora sadarbības rēķinu izveides darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Kreditoru sadarbības rēķinu izveidošanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

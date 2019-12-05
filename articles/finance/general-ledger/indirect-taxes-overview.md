@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666834"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770670"
 ---
 # <a name="sales-tax-overview"></a>PVN apskats
 
@@ -38,7 +38,7 @@ PVN struktūra atbalsta daudzus netiešo nodokļu veidus, piemēram, PVN, pievi
 
 Nākamajā diagrammā ir parādīti nodokļu iestatījumu elementi un kā tie ir saistīti.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagramma, kurā ir parādīts nodokļu iestatījumu elementu pārskats](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Katram PVN veidam, par kuru uzņēmumam ir jāatskaitās, ir jādefinē PVN kods. Pārdošanas nodokļa kods glabā nodokļu likmes un aprēķina kārtulas šim pārdošanas nodoklim. 
 

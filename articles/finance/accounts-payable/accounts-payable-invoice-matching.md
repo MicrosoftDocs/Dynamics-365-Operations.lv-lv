@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b45c6f20bf5b6fb02379f71b5806c6c147789e73
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189756"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772287"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Kreditoru rēķinu salīdzināšanas pārskats
 
@@ -189,7 +189,7 @@ Kreditoru rēķinu pamatā bieži ir produktu ieejas plūsmas, kas parāda fakti
 -   Ievadīt rēķinu summas, kas netika iekļautas oriģinālajā pirkšanas pasūtījumā, lai informācija rēķinā sakristu ar rēķinu, kuru saņēmāt no kreditora. Pirkšanas pasūtījumu maksas varat salīdzināt ar rēķinu maksām. Ja nepieciešams, varat pievienot maksas rēķiniem un sadalīt tās pa rēķinu rindām.
 -   Skatīt un apstiprināt cenu salīdzināšanas neatbilstības rēķinā norādītās vienības neto cenā un pirkšanas pasūtījuma vienības neto cenā. Varat iestatīt cenas tolerances procentuālos daudzumus juridiskajām personām, kreditoriem un krājumiem. Ja kreditora rēķina rindu cena neietilpst pieņemamajās cenas tolerances robežās, varat rēķinu saglabāt, līdz tas ir apstiprināts grāmatošanai vai līdz saņemat labojumu no kreditora.
 
-Plašāku informāciju skatiet sadaļā [Trīsvirzienu atbilstības ierobežojumi](three-way-matching-policies.md) un [Parādu kreditoriem rēķinu saskaņošanas pārbaudes iestatīšana](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
+Plašāku informāciju skatiet sadaļā [Trīsvirzienu atbilstības ierobežojumi](three-way-matching-policies.md) un [Kreditoru rēķinu salīdzināšanas pārbaudes iestatīšana](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

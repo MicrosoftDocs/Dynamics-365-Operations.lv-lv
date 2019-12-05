@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571810"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811830"
 ---
 # <a name="install-assets-on-functional-locations"></a>Līdzekļu uzstādīšana funkcionālajos novietojumos
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571810"
 
  
 
-Pēc funkcionālo novietojumu struktūru izveidošanas nākamā darbība ir uzstādīt līdzekļus attiecīgajos funkcionālajos novietojumos. Šajā tēmā izskaidrots, kā uzstādīt līdzekļus šajos funkcionālajos novietojumos Līdzekļu pārvaldībā. Papildinformāciju par līdzekļu izveidi skatiet sadaļā [Līdzekļi](../objects/introduction-to-objects.md).
+Pēc funkcionālo novietojumu struktūru izveidošanas nākamā darbība ir uzstādīt līdzekļus attiecīgajos funkcionālajos novietojumos. Šajā tēmā izskaidrots, kā uzstādīt līdzekļus šajos funkcionālajos novietojumos Līdzekļu pārvaldībā. Papildinformāciju par līdzekļu izveidi skatiet sadaļā [Ievads līdzekļos](../objects/introduction-to-objects.md).
 
 Ja esat izveidojis līdzekļu struktūru, visai līdzekļu struktūrai jābūt instalētai funkcionālajā novietojumā. Tāpēc funkcionālajā novietojumā var atlasīt tikai primāros līdzekļus (augstākā līmeņa līdzekļus, kuriem nav primārā līdzekļa). Arī visi saistītie sekundārie līdzekļi (pakārtotie aktīvi) tiks instalēti funkcionālajā novietojumā. Kad esat uzstādījis līdzekļus funkcionālajā novietojumā, funkcionālā novietojuma finanšu dimensijas var tikt automātiski pārsūtītas uz tiem atkarībā no iestatījumiem funkcionālā novietojuma veidā, kas ir atlasīts funkcionālajam novietojumam. Papildinformāciju par funkcionālo novietojumu veidu iestatīšanu skatiet sadaļā [Funkcionālo novietojumu veidi](../setup-for-functional-locations/functional-location-types.md).
 

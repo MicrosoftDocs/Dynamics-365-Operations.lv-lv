@@ -1,9 +1,9 @@
 ---
-title: Talent sistēmas prasības un atjaunināšanas politika
-description: Šajā tēmā uzskaitītas prasības sistēmai Dynamics 365 Talent. Turklāt ir ieskicēta atjaunināšanas politika.
+title: Talent sistēmas prasības
+description: Šajā tēmā uzskaitītas prasības sistēmai Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024164"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818483"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Talent sistēmas prasības un atjaunināšanas politika
+# <a name="talent-system-requirements"></a>Talent sistēmas prasības
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties 
 > * Darbplūsmas redaktors tiek startēts kā ClickOnce programma. ClickOnce programmas atbalsta tikai Microsoft Edge un Internet Explorer (atbalstītā Microsoft Windows versijā). Darbplūsmas redaktora ClickOnce programmai ir nepieciešama 64 bitu saderīga operētājsistēma.
 > * Lai priekšskatītu PDF failus, ieteicams izmantot modernas pārlūkprogrammas, piemēram, Microsoft Edge (jaunāko publiski pieejamo versiju) operētājsistēmā Windows 10 vai Google Chrome (jaunāko publiski pieejamo versiju) operētājsistēmā Windows 10, Windows 8.1, Windows 8, Windows 7 vai Google Nexus 10 planšetdatoros.
 >   Tīkla prasības
-> * Dynamics 365 Talent ir izstrādāta tīkliem, kuru latentums nepārsniedz 250–300 milisekundes (ms). Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Talent. Ieteicams pārbaudīt tīkla latentumu vietnē [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+> * Dynamics 365 Talent ir izstrādāta tīkliem, kuru latentums nepārsniedz 250–300 milisekundes (ms). Tas ir latentums no pārlūkprogrammas klienta līdz Microsoft Azure datu centram, kurā tiek viesota programma Talent. Ieteicams pārbaudīt tīkla latentumu vietnē [www.azurespeed.com](https://www.azurespeed.com "Azure latentuma pārbaude").
 > * Joslas platuma prasības programmai Talent ir atkarīgas no jūsu scenārija. Tipiskākajiem scenārijiem ir nepieciešams joslas platums, kas ir lielāks par 50 kilobaitiem sekundē (KB/s).
 > 
 > [!WARNING]
@@ -54,7 +54,7 @@ Lai atrastu katras tīmekļa pārlūkprogrammas visjaunāko laidienu, dodieties 
 
 ## <a name="supported-microsoft-office-applications"></a>Atbalstītās Microsoft Office programmas
 
-* Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet tēmā [Office integrācijas problēmu novēršana](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integrācijas problēmu novēršana").
+* Lai palaistu Microsoft Excel un Word pievienojumprogrammas, jābūt instalētai programmai Microsoft Office 2016 operētājsistēmai Windows vai Mac. Plašāku informāciju par versijas prasībām skatiet sadaļā [Office integrācijas problēmu novēršana](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integrācijas problēmu novēršana").
 * Lai skatītu dokumentus, kas izveidoti, izmantojot funkcijas Eksportēt programmā Excel vai Eksportēt programmā Word, ir jābūt instalētai programmai Microsoft Office 2007 vai jaunākai versijai.
 
 ## <a name="regional-availability-languages-and-localization"></a>Reģionālā pieejamība, valodas un lokalizācija
@@ -66,8 +66,3 @@ Jūs varat lejupielādēt PDF failu ar valstīm, reģioniem un valodām, ko atb
 
 Ja esat izstrādātājs un vēlaties izveidot valstij vai reģionam specifiskus pielāgojumus vai izveidot risinājumu valstij vai reģionam, ko Microsoft pašlaik neatbalsta, skatiet lapu [Globalizācija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Atjaunināšanas politika
-
-Talent tiek apkalpots kā mākoņa piedāvājums. Microsoft pastāvīgi un automātiski piemēro Talent atjauninājumus.
-
-Atjauninājumi tiek izlaisti ar regulāru kadenci un tiek ieviesti visās vidēs. Talent atbalsts tiek nodrošināts saskaņā ar [Microsoft atbalsta dzīves cikla politiku](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft atbalsta dzīves cikls"), kas nodrošina pastāvīgas un prognozējamas vadlīnijas produkta atbalsta pieejamībai.

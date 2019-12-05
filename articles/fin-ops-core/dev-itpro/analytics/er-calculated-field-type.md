@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550088"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771333"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -55,7 +55,7 @@ No [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=8746
 | Parauga ER formāta konfigurācija        | Formāts, lai uzzinātu parametru izsaukumus.versija.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Piesakieties savā RCS instancē.
-Šajā piemērā jūs izveidosiet konfigurāciju parauga uzņēmumam “Litware, Inc.”. Pirmkārt, lai izpildītu šīs darbības RCS instancē, ir jāizpilda sekojošie soļi procedūrā [Konfigurācijas nodrošinātāja izveide un atzīmēšana ar aktīvu statusu](tasks/er-configuration-provider-mark-it-active-2016-11.md):
+Šajā piemērā jūs izveidosiet konfigurāciju parauga uzņēmumam “Litware, Inc.”. Pirmkārt, lai izpildītu šīs darbības RCS instancē, ir jāizpilda sekojošie soļi procedūrā [Konfigurācijas nodrošinātāju izveide un atzīmēšana ar aktīvu statusu](tasks/er-configuration-provider-mark-it-active-2016-11.md):
 
 1. Noklusējuma informācijas panelī atlasiet **Elektroniskais pārskats**.
 2. Atlasiet **Pārskatu konfigurācijas**.
@@ -75,21 +75,21 @@ No [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=8746
 3. Atlasiet **Noformētājs**.
 4. Atlasiet **Noformētājs**.  
    
-Šī ER modeļa kartēšana ir veidota, lai veiktu šādas darbības:
+    Šī ER modeļa kartēšana ir veidota, lai veiktu šādas darbības:
 
-- Izgūt nodokļu kodu sarakstu (**Nodokļu** datu avots), kas atrodas tabulā **TaxTable**.
-- Izgūt nodokļu transakciju kodu sarakstu (**Trans** datu avots), kas atrodas tabulā **TaxTrans**:
+    - Izgūt nodokļu kodu sarakstu (**Nodokļu** datu avots), kas atrodas tabulā **TaxTable**.
+    - Izgūt nodokļu transakciju kodu sarakstu (**Trans** datu avots), kas atrodas tabulā **TaxTrans**:
     
-    - Grupēt ienesto transakciju sarakstu (**Gr** datu avots) pēc nodokļu koda.
-    - Aprēķināt apkopotās vērtības grupētām transakcijām pēc nodokļu koda:
+        - Grupēt ienesto transakciju sarakstu (**Gr** datu avots) pēc nodokļu koda.
+        - Aprēķināt apkopotās vērtības grupētām transakcijām pēc nodokļu koda:
 
-        - Nodokļu bāzes vērtību summa.
-        - Nodokļu vērtību summa.
-        - Piemērotās nodokļa likmes minimālā vērtība.
+            - Nodokļu bāzes vērtību summa.
+            - Nodokļu vērtību summa.
+            - Piemērotās nodokļa likmes minimālā vērtība.
 
-Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram no šajā modelī izveidotajiem ER formātiem un ir izpildīts Finance and Operations. Tādējādi **Nodokļu** un **Gr** datu avotu saturs ir pakļauts ER formātiem, piemēram, abstraktiem datu avotiem.
+    Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram no šajā modelī izveidotajiem ER formātiem un ir izpildīts Finance and Operations. Tādējādi **Nodokļu** un **Gr** datu avotu saturs ir pakļauts ER formātiem, piemēram, abstraktiem datu avotiem.
 
-  ![Modeļa kartēšanas veidotāja lapa, kurā parādīti Tax un Gr datu avoti](media/er-calculated-field-type-01.png)
+    ![Modeļa kartēšanas veidotāja lapa, kurā parādīti Tax un Gr datu avoti](media/er-calculated-field-type-01.png)
 
 5.  Aizveriet lapu **Modeļa kartējuma noformētājs**.
 6.  Aizveriet lapu **Modeļa kartēšana**.
@@ -100,25 +100,25 @@ Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram
 2. Atlasiet **Formatēt, lai uzzinātu parametru izsaukumus**.
 3. Atlasiet **Noformētājs**. Šī ER formāta kartēšana ir veidota, lai veiktu šādas darbības:
 
-  - Izveidot nodokļu paziņojumu xml formātā.
-  - Parādīt sekojošos nodokļu līmeņus nodokļu pārskatā: parasts, samazināts un nav.
-  - Parādīt vairākas detaļas katrā nodokļu līmenī, kam katrā līmenī ir dažāds šo detaļu skaits. 
+    - Izveidot nodokļu paziņojumu xml formātā.
+    - Parādīt sekojošos nodokļu līmeņus nodokļu pārskatā: parasts, samazināts un nav.
+    - Parādīt vairākas detaļas katrā nodokļu līmenī, kam katrā līmenī ir dažāds šo detaļu skaits. 
 
-  ![Formāta veidotāja lapa](media/er-calculated-field-type-02.png)
+    ![Formāta veidotāja lapa](media/er-calculated-field-type-02.png)
 
 4. Atlasīt **Kartēšana**.
 5. Izvērst **modeli**, **datus** un **kopsavilkuma** elementus. 
 
-   Aprēķinātā lauka **Model.Data.Summary.Level** ir izteiksme, kas atgriež nodokļu līmeņa kodu (**Parasts**, **Samazināts**, **Nav** vai **cits**) kā teksta vērtība jebkuram nodokļa kodam, ko var izgūt no **Model.Data.Summary** datu avota izpildes laikā.
+    Aprēķinātā lauka **Model.Data.Summary.Level** ir izteiksme, kas atgriež nodokļu līmeņa kodu (**Parasts**, **Samazināts**, **Nav** vai **cits**) kā teksta vērtība jebkuram nodokļa kodam, ko var izgūt no **Model.Data.Summary** datu avota izpildes laikā.
 
-  ![Formāta veidotāja lapa, kas uzrāda Dara model modeļa detaļas, lai apgūtu parametru izsaukumus.](media/er-calculated-field-type-03.png)
+    ![Formāta veidotāja lapa, kas uzrāda Dara model modeļa detaļas, lai apgūtu parametru izsaukumus.](media/er-calculated-field-type-03.png)
 
 6. Izvērsiet **Modeli**. **Data2** krājums.
 7. Izvērsiet **Modeli**. **Data2.Summary2** krājums.
    
-   **Modeļa**. **Data2. Summary2** datu avots ir konfigurēts, lai grupētu **Model.Data.Summary** kopsavilkuma datu avota transakcijas detalizētu informāciju pēc taksācijas līmeņa (atgriezis **Model.Data.Summary.Level** aprēķinātais lauks) un aprēķinātu apkopojumus.
+    **Modeļa**. **Data2. Summary2** datu avots ir konfigurēts, lai grupētu **Model.Data.Summary** kopsavilkuma datu avota transakcijas detalizētu informāciju pēc taksācijas līmeņa (atgriezis **Model.Data.Summary.Level** aprēķinātais lauks) un aprēķinātu apkopojumus.
 
-  ![Formāta veidotāja lapa, kas rāda detalizētu informāciju par Model.Data2.Summary2 datu avotu.](media/er-calculated-field-type-04.png)
+    ![Formāta veidotāja lapa, kas rāda detalizētu informāciju par Model.Data2.Summary2 datu avotu.](media/er-calculated-field-type-04.png)
 
 8. Pārskatīt aprēķināto lauku **Modelis**. **Data2.Level1**, **Modelis**. **Data2.Level2**un **Modelis**. **Data2. Level3.** Šie aprēķinātie lauki tiek izmantoti **Modeļa** filtrēšanai. **Data2.Summary2** ieraksti saraksts un atgriezt tikai tos ierakstus, kas atbilst noteiktam nodokļu līmenim.
 9. Aizveriet lapu **Formāta veidotājs**.
@@ -139,15 +139,15 @@ Varat uzlabot norādīto formātu, pievienojot vienu aprēķināto lauku, lai fi
 
 1. Atlasiet **Noformētājs**.
 2. Atlasiet **Izvērst/sakļaut**, lai izvērstu visus formāta vienumus.
-3. Atlasīt **Kartēšana**.
-4. Izvērst **Modelis** vienumu.
-5. Atlasīt **Model.Data2** vienumu.
+3. Atlasiet **Kartēšana**.
+4. Izvērsiet **Modelis** vienumu.
+5. Atlasiet **Model.Data2** vienumu.
 6. Atlasiet **Pievienot**.
-7. Atlasīt **Funkcijas\\Aprēķinātais lauks**.
+7. Atlasiet **Funkcijas\\Aprēķinātais lauks**.
 8. Laukā **Nosaukums** ievadiet **Līmeņi**.
 9. Atlasiet **Rediģēt formulu**.
 
-### <a name="define-a-parameter-for-adding-a-calculated-field"></a>Definēt aprēķinātā lauka pievienošanas parametru
+### <a name="define-a-parameter-for-adding-a-calculated-field"></a>Definējiet aprēķinātā lauka pievienošanas parametru
 
 1. Atlasiet **Parametri**.
 2. Atlasiet **Jauns**.
@@ -232,7 +232,7 @@ Kad aprēķinātais parametru lauks atgriež ierakstu, jums ir jāatbalsta atsev
 
 1. Atlasīt **Model.Data2** vienumu.
 2. Atlasiet **Pievienot**.
-3. Atlasīt **Funkcijas\\Aprēķinātais lauks**.
+3. Atlasiet **Funkcijas\\Aprēķinātais lauks**.
 4. Laukā **Nosaukums** ievadiet **LevelRecord**.
 5. Atlasiet **Rediģēt formulu**.
 
@@ -309,7 +309,7 @@ Kad aprēķinātais parametru lauks atgriež ierakstu, jums ir jāatbalsta atsev
 Jūs varat palaist sākotnējos un uzlabotos ER formātus, lai pārliecinātos, ka konfigurētie parametru aprēķinātie lauki darbojas pareizi.
 
 ### <a name="import-er-configurations"></a>ER konfigurāciju importēšana
-Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** tipa ER repozitoriju. Ja esat jau izgājis darbības tēmā, [Importēt elektroniskās pārskatu konfigurācijas no Regulatory Configuration Services](rcs-download-configurations.md), izmantojiet konfigurēto ER repozitoriju, lai importētu konfigurācijas, kas iepriekš šajā tēmā jau apspriestas. Pretējā gadījumā rīkojieties sekojoši:
+Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** tipa ER repozitoriju. Ja esat jau izgājis darbības tēmā, [Importēt elektronisko pārskatu (EP) konfigurācijas no Regulatory Configuration Services (RCS)](rcs-download-configurations.md), izmantojiet konfigurēto ER repozitoriju, lai importētu konfigurācijas, kas iepriekš šajā tēmā jau apspriestas. Pretējā gadījumā rīkojieties sekojoši:
 
 1. Atlasiet **DEMF** uzņēmumu un noklusējuma informācijas panelī atlasiet **Elektroniskais pārskats**.
 2. Atlasiet **Pārskatu konfigurācijas**.
@@ -339,4 +339,4 @@ Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** t
 8. Salīdziniet ģenerēto rezultātu saturu.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
+[Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)

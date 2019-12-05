@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9afa98156c58d10c19454430769a3d60343661dc
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550961"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811653"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool lietošanas apmācība
 
@@ -44,7 +44,7 @@ Informāciju par šo līdzekli skatiet tēmā [Esoša uzdevuma ieraksta modific�
 
 ### <a name="derived-test-case"></a>Atvasināts testa gadījums
 
-1. Atveriet Regression Suite Automation Tool (RSAT) un atlasiet abus testa gadījumus, ko izveidojāt, izpildot tēmā [Regression Suite Automation Tool iestatīšana un instalēšana](./hol-set-up-regression-suite-automation-tool.md) norādītās darbības.
+1. Atveriet Regression Suite Automation Tool (RSAT) un atlasiet abus testa gadījumus, ko izveidojāt, izpildot tēmā [Regression Suite Automation Tool iestatīšanas un instalēšanas pamācība](./hol-set-up-regression-suite-automation-tool.md) norādītās darbības.
 2. Atlasiet **Jauns \> Izveidot atvasināto testa gadījumu**.
 
     ![Jauna atvasinātā testa gadījuma komandas izveide izvēlnē Jauns](./media/use_rsa_tool_01.png)

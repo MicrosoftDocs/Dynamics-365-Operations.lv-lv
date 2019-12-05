@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76bae24a975c922ea49ee2584e87cf43ccca61c7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178794"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770601"
 ---
 # <a name="posting-definitions"></a>Grāmatošanas definīcijas
 
@@ -59,6 +59,6 @@ Veidojot saites grāmatošanas definīcijās, tiek lietoti šādi ierobežojumi:
 -   grāmatošanas definīciju var piešķirt jebkuram transakcijas veidam, bet šim transakcijas veidam jābūt tajā pašā modulī, kur ir grāmatošanas definīcija. Izmantojiet lapu **Darījuma grāmatošanas definīcijas**, lai redzētu, kurā modulī ir transakcijas veids.
 
 
-Papildinformāciju skatiet tēmā [Grāmatošanas definīciju piemēri](example-posting-definitions.md). 
+Papildinformāciju skatiet tēmā [Grāmatošanas definīcijas piemēri](example-posting-definitions.md). 
 
 

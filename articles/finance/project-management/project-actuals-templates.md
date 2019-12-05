@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0aeaa1ee4c35ca42a5382b3c7ff3519cba52996c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 302ac0f456dd8a24dc02948ee657e359f5a9c844
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250534"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770339"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Programmā Project Service Automation ietverto projekta faktisko vērtību tieša sinhronizēšana ar projekta integrācijas žurnālu grāmatošanai programmā Finance and Operations
 
@@ -50,7 +50,7 @@ Nākamajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Pro
 
 ### <a name="template-and-tasks"></a>Veidne un uzdevumi
 
-Lai piekļūtu pieejamajām veidnēm, Microsoft PowerApps administrēšanas centrā atlasiet vienumu **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts**, lai atlasītu publiskās veidnes.
+Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet vienumu **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts**, lai atlasītu publiskās veidnes.
 
 Programmā Project Service Automation ietverto projekta faktisko vērtību sinhronizēšanai ar programmu Finance tiek izmantota tālāk norādītā veidne un pamata uzdevumi.
 

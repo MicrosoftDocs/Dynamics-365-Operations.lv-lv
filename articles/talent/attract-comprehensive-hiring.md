@@ -1,5 +1,5 @@
 ---
-title: Kuru Microsoft Dynamics 365 Talent - Attract versiju izvēlēties?
+title: Aizvērt Attract versiju
 description: Šajā tēmā ir sniegta informācija par iespējām dažādās Microsoft Dynamics 365 Talent- Attrac versijās.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 54f206aed196be5bbfa0de5b632f20519c2680ea
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550440"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833165"
 ---
-# <a name="which-version-of-microsoft-dynamics-365-talent---attract"></a>Kuru Microsoft Dynamics 365 Talent - Attract versiju izvēlēties?
+# <a name="choose-a-version-of-attract"></a>Aizvērt Attract versiju
 
-[!include[banner](../includes/banner.md)]
+[[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract versija ir atkarīga no jūsu organizācijas lieluma un vajadzībām. Attract pamatversijā ir pieejama funkciju apakškopa, kas paredzēta mazākām darba grupām vai organizācijām, kurās primārais lietotājs ir par pieņemšanu darbā atbildīgais vadītājs. Varat sākt Attract pamatversijas izmantošanu ar vienu vai vairākām licencēm.
 

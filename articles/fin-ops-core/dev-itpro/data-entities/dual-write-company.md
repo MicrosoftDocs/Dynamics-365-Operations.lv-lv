@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184535"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772441"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Uzņēmuma koncepts Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Programmā Finance and Operations koncepts *uzņēmums* ir gan juridiska konstrukcija, gan biznesa konstrukcija. Tā ir arī datu drošības un redzamības robeža. Lietotāji vienmēr strādā viena uzņēmuma kontekstā, un lielāko daļu datu izslēdz uzņēmums.
 
@@ -60,12 +58,14 @@ Kā redzams iepriekšējā attēlā, šī 1:1 kartēšana starp biznesa vienību
 
 Pēdējā tēma, kas jāapspriež, ir tas, kā duālais ieraksts nosaka, kurai īpašnieka grupai būtu jāpiešķir ieraksti. Šo uzvedību kontrolē lauks **Noklusējuma atbildīgā darba grupa** CDM\_Uzņēmuma ierakstā. Kad cdm\_Uzņēmuma ieraksts ir iespējots duālam ierakstam, spraudnis automātiski izveido saistīto biznesa vienību un īpašnieka grupu (ja tādas vēl nav) un iestata lauku **Noklusējuma atbildīgā darba grupa**. Administrators var mainīt šo lauku uz citu vērtību. Tomēr administrators nevar notīrīt lauku, kamēr entītija ir iespējota duālajam ierakstam.
 
+> [!div class="mx-imgBorder"]
 ![Noklusējuma atbildīgās darba grupas lauks](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Uzņēmuma svītrošana un sāknēšana
 
 Common Data Service integrācija rada uzņēmuma paritāti, izmantojot uzņēmuma identifikatoru datu svītrošanai. Kā redzams nākamajā attēlā, visas uzņēmumam specifiskās entītijas tiek izvērstas tā, lai tām būtu relācija daudzi pret vienu (N:1) ar cdm\_Uzņēmuma entītiju.
 
+> [!div class="mx-imgBorder"]
 ![N:1 relācija starp uzņēmumam specifisko entītiju un entītiju cdm_Company](media/dual-write-bootstrapping.png)
 
 + Pēc tam, kad uzņēmums ir pievienots un saglabāts, ierakstiem vērtība kļūst tikai lasāma. Tādēļ lietotājiem jāpārliecinās, ka tie atlasa pareizo uzņēmumu.

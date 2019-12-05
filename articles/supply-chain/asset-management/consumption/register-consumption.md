@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653327"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812264"
 ---
 # <a name="register-consumption"></a>Patēriņa reģistrēšana
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653327"
 
 Kad uzturēšanas darbs ir pabeigts darba pasūtījumā, nākamā darbība ir izveidot patēriņa reģistrācijas un grāmatot žurnālus. Varat izveidot reģistrācijas tālāk norādītajos patēriņa veidos: stundas, krājumi un izdevumi. Dažādie patēriņa veidi tiek reģistrēti un grāmatoti lapā **Darba pasūtījuma žurnāli**. Žurnāla iestatījumi **Līdzekļu pārvaldībā** tiek izmantoti, lai izveidotu un grāmatotu atsevišķus žurnālus stundām, krājumiem un izdevumiem modulī **Projektu pārvaldība un uzskaite**.
 
-Dažos gadījumos, iespējams, jūs varat pievienot vai dzēst prognozes rindas darba pasūtījumā. Darba pasūtījuma dzīves cikla stāvokļa iestatījums, saistītais projekta tips un stadijas noteikumi, kas saistīti ar projekta tipu, nosaka, vai varat pievienot vai rediģēt žurnāla rindas. Uzziniet vairāk par darba pasūtījumu dzīves cikla stāvokļiem un saistītām projekta stadijām sadaļā [Integrācija projektu vadībā un uzskaitē](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Dažos gadījumos, iespējams, jūs varat pievienot vai dzēst prognozes rindas darba pasūtījumā. Darba pasūtījuma dzīves cikla stāvokļa iestatījums, saistītais projekta tips un stadijas noteikumi, kas saistīti ar projekta tipu, nosaka, vai varat pievienot vai rediģēt žurnāla rindas. Lasiet vairāk informācijas par darba pasūtījumu dzīves cikla stāvokļiem un saistītiem projekta posmiem [Prognozes, darba pasūtījumi un projekti](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Var iestatīt automātisku žurnālu grāmatošanu darba pasūtījuma dzīves cikla stāvoklī. Vairāk informācijas skatiet sadaļā [Darba pasūtījuma dzīves cikla stāvokļi](../setup-for-work-orders/work-order-lifecycle-states.md).
