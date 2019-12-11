@@ -42,7 +42,7 @@ Lai varētu sākt darbu ar LinkedIn Recruiter, izmantojot sistēmu Attract, ir j
 2. Atlasiet **Lietotāja iestatījumi**.
 3. Cilnē **Savienojumi** atlasiet **Izveidot savienojumu** blakus **LinkedIn**. Izpildiet LinkedIn sniegtos norādījumus.
 
-    ![[Iestatīt savienojumu LinkedIn Recruiter no Attract](./Media/atrt-setup-LinkedIn-Recruiter-Connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Iestatīt savienojumu LinkedIn Recruiter no Attract](./Media/attract-setup-LinkedIn-Recruiter-Connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>LinkedIn kandidātu skatīšana sistēmā Attract
 
@@ -50,7 +50,7 @@ Kad esat izveidojis savienojumu ar LinkedIn Recruiter, varat skatīt kandidātu 
 
 1. Sistēmā Attract kreisajā pusē atlasiet vienumu **Darbi** vai **Talantu kopas**  un pēc tam atlasiet kandidātu.
 
-    ![[Skatīt LinkedIn kandidātus sistēmā Attract](./Media/atrt-View-LinkedIn-candidates.png)](./media/attract-view-linkedin-candidates.png)
+    ![[Skatīt LinkedIn kandidātus sistēmā Attract](./Media/attract-View-LinkedIn-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
 2. Kandidāta profilā atlasiet cilni **LinkedIn.** Varat skatīt kandidāta profilu kopā ar InMail vēsturi un LinkedIn piezīmju vēsturi.
 
@@ -87,7 +87,7 @@ LinkedIn Recruiter varat izsekot tam, vai kandidāts ir pietiecies citām vakanc
     - **Atsauksmes par interviju** — skatiet atsauksmes, ko intervētāji ir iesnieguši sistēmā Attract.
     - **Piezīmes** — skatiet piezīmes, kas ievadītas par šo kandidātu sistēmā Attract.
 
-    ![[Skatīt Attract informāciju no LinkedIn Recruiter](./Media/atrt-View-Information-from-LinkedIn-Recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Skatīt Attract informāciju no LinkedIn Recruiter](./Media/attract-View-Information-from-LinkedIn-Recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Ja kandidāts nav ticis tālāk par potenciālā kandidāta posmu, kandidāta un pieteikuma dati netiks sinhronizēti ar LinkedIn Recruiter.
