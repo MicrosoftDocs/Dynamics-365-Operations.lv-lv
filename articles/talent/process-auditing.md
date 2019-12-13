@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742677"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832647"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Personāla atlases datu izmaiņu izsekošana
+
+[!include [banner](includes/banner.md)]
 
 Varat izsekot izmaiņām, kas veiktas attiecībā uz kandidātiem, vakancēm un darba pieteikumiem, izmantojot audita apstrādi. Tas ir noderīgi pārskatu veidošanas vai atbilstības nolūkā.
 
@@ -31,7 +33,7 @@ Varat skatīt izsekotos datus pakalpojumā Power BI, izmantojot OData savienotā
 ## <a name="track-changes"></a>Izsekot izmaiņas
 Lai iestatītu izsekošanas izmaiņas personāla atlases datos, veiciet tālāk minētās darbības.
 
-1. Platformā [PowerApps](https://web.powerapps.com) atlasiet atbilstošo vidi.
+1. [Power Apps](https://web.powerapps.com) atlasiet atbilstošo vidi.
 
 2. Atlasiet **Iestatījumi** (zobrata ikona), izvēlieties **Papildu pielāgojumi** un pēc tam atlasiet **Resursi** sadaļā **Izstrādātāja resursi**. 
 

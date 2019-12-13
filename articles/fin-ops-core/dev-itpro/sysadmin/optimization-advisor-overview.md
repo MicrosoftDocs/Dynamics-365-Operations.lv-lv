@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191412"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811974"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
@@ -38,7 +38,7 @@ Nepareiza moduļa konfigurācija iestatījumi var negatīvi ietekmēt līdzekļu
 
 Darbvieta **Optimizācijas padomnieks** ir rīks, kas ļauj prasmīgiem lietotājiem, biznesa analītiķiem, funkcionālajiem konsultantiem un IT atbalsta dienesta funkcijām identificēt moduļa konfigurācijas un biznesa datu problēmas. Optimizācijas padomnieks piedāvā labākās moduļa konfigurēšanas prakses un identificē novecojušus vai nepareizus biznesa datus.
 
-Optimizācijas padomnieks periodiski izpilda labākās prakses kārtulu kopu. Ir pieejams noteikumu noklusējuma kopums, tomēr lietotāji var arī izveidot kārtulas, kas ir īpaši paredzētas lietotāju pielāgojumiem, neatkarīgu programmatūras izstrādātāju (ISV) risinājumiem un biznesa datiem. Papildinformāciju par kārtulu veidošanu skatiet sadaļā [Jaunu kārtulu izveide](./create-rules-optimization-advisor.md).
+Optimizācijas padomnieks periodiski izpilda labākās prakses kārtulu kopu. Ir pieejams noteikumu noklusējuma kopums, tomēr lietotāji var arī izveidot kārtulas, kas ir īpaši paredzētas lietotāju pielāgojumiem, neatkarīgu programmatūras izstrādātāju (ISV) risinājumiem un biznesa datiem. Papildinformāciju par kārtulu veidošanu skatiet sadaļā [Optimizācijas padomnieka kārtulu izveide](./create-rules-optimization-advisor.md).
 
 Ja tiek noteikts kārtulas pārkāpums, tiek ģenerēta optimizācijas iespēja, kas parādās darbvietā **Optimizācijas padomnieks**. Lietotājs var veikt atbilstošos labojumus tieši darbvietā **Optimizācijas padomnieks**.
 
@@ -92,6 +92,6 @@ Lai deaktivizētu noteiktu kārtulu novērtēšanu, atlasiet kārtulas ģenerēt
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Jaunu kārtulu izveide](./create-rules-optimization-advisor.md)
+[Kārtulu izveide optimizācijas padomniekam](./create-rules-optimization-advisor.md)
 
 [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

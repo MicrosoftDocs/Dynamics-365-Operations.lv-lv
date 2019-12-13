@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178822"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771924"
 ---
 # <a name="set-up-fixed-assets"></a>Iestatīt pamatlīdzekļus
 
@@ -43,7 +43,7 @@ Kad tiek izveidoti pamatlīdzekļi, tie tiek piešķirti kādai grupai. Pēc nok
 
 ## <a name="depreciation-profiles"></a>Nolietojuma tabulas
 
-Vispirms ir jāiestata nolietojuma profili. Nolietojuma tabulā jūs konfigurējat veidu, kādā pamatlīdzekļa vērtība mazinās laika gaitā. Jums ir nepieciešams definēt nolietojuma metodi, nolietojuma aprēķina gadu (kalendāro gadu vai finanšu gadu) un nolietojuma biežumu. Papildinformāciju skatiet tēmā [Nolietojuma profilu iestatīšana un izveide](tasks/set-up-depreciation-profiles.md)
+Vispirms ir jāiestata nolietojuma profili. Nolietojuma tabulā jūs konfigurējat veidu, kādā pamatlīdzekļa vērtība mazinās laika gaitā. Jums ir nepieciešams definēt nolietojuma metodi, nolietojuma aprēķina gadu (kalendāro gadu vai finanšu gadu) un nolietojuma biežumu. Papildinformāciju skatiet tēmā [Nolietojuma profilu iestatīšana un izveide](tasks/set-up-depreciation-profiles.md).
 
 ## <a name="books"></a>Grāmatas
 
@@ -51,7 +51,7 @@ Kad ir iestatītas nolietojuma tabulas, jums saviem līdzekļiem ir jāizveido n
 
 Katrai grāmatai tiek piešķirta primārā nolietojuma tabula. Grāmatām ir arī alternatīvā vai pārslēgšanas nolietojuma tabula, ja šāds tabulas tips ir piemērojams. Lai pamatlīdzekļu grāmatu automātiski iekļautu nolietojuma izpildēs, jums ir jāiespējo opcija **Aprēķināt nolietojumu**. Ja kādam līdzeklim šī opcija nav iespējota, nolietojuma priekšlikums šo līdzekli izlaiž.
 
-Varat iestatīt arī atvasinātās grāmatas. Norādītās atvasinātās transakcijas tiek grāmatotas pret atvasinātajām grāmatām kā primāro transakciju precīza kopija. Tādēļ atvasinātās transakcijas parasti tiek iestatītas iegādēm un norakstīšanām, nevis nolietojuma transakcijām. Plašāku informāciju skatiet šeit: [Iestatīt grāmatas](tasks/set-up-value-models.md).
+Varat iestatīt arī atvasinātās grāmatas. Norādītās atvasinātās transakcijas tiek grāmatotas pret atvasinātajām grāmatām kā primāro transakciju precīza kopija. Tādēļ atvasinātās transakcijas parasti tiek iestatītas iegādēm un norakstīšanām, nevis nolietojuma transakcijām. Plašāku informāciju skatiet [Vērtību modeļu iestatīšana](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Pamatlīdzekļu grāmatošanas metodes
 

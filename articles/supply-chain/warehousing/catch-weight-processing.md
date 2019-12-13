@@ -3,7 +3,7 @@ title: Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 description: Šajā tēmā ir aprakstīts, kā izmantot darba veidnes un vietas direktīvas, lai noteiktu noliktavā veikta darba veidu un vietu.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887139"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696643"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -181,7 +181,7 @@ Pašlaik pieļaujamā svara etiķešu funkcionalitāte tiek atbalstīta tikai t�
 - Kad tiek apstrādāts krājumu statuss, kas ir izmainīts, izmantojot noliktavas programmu.
 - Kad tiek veikta starpnoliktavu pārsūtīšana, izmantojot noliktavas programmu.
 - Kad tiek apstrādātas ienākošās un izejošās plūsmas korekcijas, izmantojot noliktavas programmu.
-- Kad tiek apstrādāts pārdošanas un pārsūtīšanas pasūtījumu izdošanas darbs. (Ņemiet vērā, ka pieļaujamā svara etiķetes nevar reģistrēt ražošanas komponentu izdošanai.)
+- Kad tiek apstrādāts pārdošanas, pārsūtīšanas un ražošanas līniju izdošanas darbs.
 - Kad izdotais daudzums tiek atskaitīts no kravas rindām neatkarīgi no tā, vai tiek izmantoti konteineri.
 - Kad preces tiek iepakotas konteineros iepakošanas stacijā.
 - Kad konteineri tiek atkārtoti atvērti.

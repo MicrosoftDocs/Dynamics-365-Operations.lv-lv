@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182581"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769859"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 
@@ -36,7 +36,7 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja i
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Augšupielādēt maksājumu datu modeļa konfigurāciju
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Organizācijas administrēšana > Darbvietas > Elektroniskie pārskati**.
-2. Sarakstā atzīmējiet konfigurācijas sniedzēju parauguzņēmumam “Litware, Inc.” Ja neredzat šo konfigurācijas sniedzēju, vispirms veiciet šajā rakstā minētās darbības [Izveidojiet konfigurācijas sniedzēju un atzīmējiet to kā aktīvu](er-configuration-provider-mark-it-active-2016-11.md).
+2. Sarakstā atzīmējiet konfigurācijas sniedzēju parauguzņēmumam “Litware, Inc.” Ja neredzat šo konfigurācijas sniedzēju, vispirms veiciet šajā rakstā minētās darbības [Izveidojiet konfigurācijas sniedzējus un atzīmējiet tos kā aktīvus](er-configuration-provider-mark-it-active-2016-11.md).
 3. Atlasiet **Iestatīt kā aktīvu**.
 4. Atlasiet **Repozitoriji**. Atlasiet repozitoriju tipam Operācijas resursi, ja tāds ir pieejams. Ja tas ir pieejams, izlaidiet nākamās darbības par jauna repozitorija izveidošanu.  
 5. Atlasiet **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.

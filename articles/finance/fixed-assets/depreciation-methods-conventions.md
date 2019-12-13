@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f1320d0adaad783f856ed6404039e7954920340
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c3370db28f551b5ce4a9b49342cb0c0b2f3945c0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187341"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769504"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Nolietojuma metodes un konvencijas
 
@@ -69,13 +69,13 @@ Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.
 
 [Pamatlīdzekļu nolietojums](fixed-asset-depreciation.md)
 
-[Lineārā lietošanas ilguma nolietojums](Straight-line-service-life-depreciation.md)
+[Lietošanas ilguma lineārā aprēķināšanas metode](Straight-line-service-life-depreciation.md)
 
 [Degresīvā nolietojuma aprēķināšanas metode](reduce-balance-depreciation.md)
 
-[Manuāls nolietojuma aprēķins](manual-depreciation.md)
+[Pamatlīdzekļu manuālais nolietojums](manual-depreciation.md)
 
-[Reizinātāja nolietojums](factor-depreciation.md)
+[Koeficienta nolietojums](factor-depreciation.md)
 
 [Patēriņa nolietojuma aprēķins](consumption-depreciation.md)
 

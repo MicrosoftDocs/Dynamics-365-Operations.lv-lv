@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35db2b51274afa6dae4cb5f75b4ba5390b167a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181753"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771123"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šis PowerBI.com risinājums ir novecojis, kā tas ir dokumentēts rakstā [Vietnē AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šis PowerBI.com risinājums ir novecojis, kā dokumentēts sadaļā [Noņemti vai novecojuši līdzekļi programmā Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Šajā tēmā ir aprakstīts PowerBI.com risinājums **Finanšu veiktspēja**. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
 

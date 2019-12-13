@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f05e3efd1716a27a659ae40145f37bb0b3d977f
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: d0b715e0c17263519a9bb1b3780170812271d93d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865412"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813757"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Vispārējas plānošanas un vairākvietu funkcionalitātes pārskats
 
@@ -40,15 +40,15 @@ Kad noliktava nav iestatīta kā obligāta, tā var nebūt zināma sākotnējā 
 
 Tālāk sniegtajās tēmās ir aprakstīts, kā plānot dziņa darbus, ja izmantojamās noliktavas noteikšanai definēti dažādi iestatījumi.
 
-[Vispārējā plānošana — vietas un noliktavas segums, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Galvenais plāns vietas un noliktavas segumam, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Vispārējā plānošana — vietas segums, noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
+[Vietas seguma vispārējā plānošana, ja noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Vispārējā plānošana — vietas un noliktavas segums, noliktava nav obligāta](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Galvenais plāns vietas un noliktavas segumam, noliktava nav obligāta](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Vispārējā plānošana — vietas segums, noliktava nav obligāta](master-plan-site-coverage-warehouse-not-mandatory.md)
+[Vietas seguma vispārējā plānošana, noliktava nav obligāta](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Vispārējā plānošana — kā tiek noteikta MK versija](master-plan-bom-version-determined.md)
+[MK versijas noteikšana](master-plan-bom-version-determined.md)
 
 
 

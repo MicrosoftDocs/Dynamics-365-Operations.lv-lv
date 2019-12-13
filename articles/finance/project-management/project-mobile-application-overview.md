@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250442"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773626"
 ---
 # <a name="project-mobile-applications-overview"></a>Project mobilo programmu apskats
 
@@ -45,4 +45,7 @@ Manas darba laika uzskaites tabulas (optimizētas mobilajām ierīcēm) un darba
 
 ## <a name="for-more-information"></a>Plašāka informācija
 
-Plašāku informāciju skatiet tēmā [Microsoft Dynamics 365 Project Timesheet mobilā programma](project-timesheet.md), [Projekta laika ieraksts]( project-time-entry-mobile-workspace.md), [Project darba laika uzskaites tabulas mobilajā ierīcē](Mobile-timesheets.md) un [Pielāgotu lauku ieviešana Project darba laika uzskaites tabulu mobilajai programmai](custom-fields-mobile.md).
+- [Projekta darba laika uzskaites tabulas mobilā programma](project-timesheet.md)
+- [Projekta laika ieraksts]( project-time-entry-mobile-workspace.md)
+- [Projekta darba laika uzskaites tabulas mobilajā ierīcē](Mobile-timesheets.md)
+- [Pielāgotu lauku ieviešana  Microsoft Dynamics 365 Project Timesheet mobilajai programmai operētājsistēmās iOS un Android](custom-fields-mobile.md)

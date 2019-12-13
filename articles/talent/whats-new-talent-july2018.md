@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551776"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812722"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2018. gada jūlijs)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551776"
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent: Core HR.
 
-## <a name="powerapps-personalization"></a>PowerApps personalizēšana
+## <a name="power-apps-personalization"></a>Power Apps personalizēšana
 
-Talent atbalsta integrēšanu ar pakalpojumu Microsoft PowerApps. PowerApps sniedz iespējas gan izstrādātājiem, gan ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Programmas, kuras jūs izstrādājat, vai kuras izstrādā jūsu organizācija vai plašāka ekosistēma, izmantojot PowerApps, pēc tam var iegult Talent klientā, lai vairotu produkta funkcionalitāti. Piemēram, varat izveidot programmu, kas programmu Talent papildina ar informāciju, kura tiek izgūta no citas sistēmas.
+Talent atbalsta integrēšanu ar pakalpojumu Microsoft Power Apps. Power Apps sniedz iespējas gan izstrādātājiem, gan ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Programmas, kuras jūs izstrādājat, vai kuras izstrādā jūsu organizācija vai plašāka ekosistēma, izmantojot Power Apps, pēc tam var iegult Talent klientā, lai vairotu produkta funkcionalitāti. Piemēram, varat izveidot programmu, kas programmu Talent papildina ar informāciju, kura tiek izgūta no citas sistēmas.
 
-Papildinformāciju skatiet tēmā [PowerApps programmu iegulšana](../fin-and-ops/get-started/embed-power-apps.md).
+Papildinformāciju skatiet tēmā [Power Apps programmu iegulšana](../fin-and-ops/get-started/embed-power-apps.md).
 
 ## <a name="ceridian-payroll-integration"></a>Ceridian algu aprēķina integrācija
 
@@ -46,7 +46,7 @@ Integrācija starp Talent un Ceridian Dayforce tagad ir pieejama lietotājiem AS
 - Algu dati, piemēram, apmaksas cikli, apmaksas periodi un ienākumu veidu kodi
 - Nodarbināto dati
 
-Papildinformāciju skatiet tēmā [Sava algu aprēķina integrācijas konfigurēšana](configure-payroll-integration.md).
+Papildinformāciju skatiet rakstā [Algu aprēķina integrācijas konfigurēšana starp Talent un Dayforce](configure-payroll-integration.md).
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Nodarbināto nodokļu reģioni ir paplašināti ārpus ASV
 

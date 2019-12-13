@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578222"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771170"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
 
@@ -60,7 +60,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 
 Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apgūšanai**, bet šai bāzlīnijai vēl nav pievienotas bāzlīnijas kārtulas.
 
-![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline2.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline2.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="make-a-new-baseline-rule"></a>Jaunas bāzlīnijas kārtulas izveide
 
@@ -73,7 +73,7 @@ Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apg
 7. Atlasiet **Labi**.
 8. Atlasiet **Bāzlīnijas**.
 
-    ![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
+    ![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
     Ģenerētais izejošais fails tiek automātiski pievienots izpildītā ER formāta bāzlīnijai. Bāzlīnijas kārtula tiek automātiski pievienota šai bāzlīnijai un arī satur atsauci uz pievienoto failu.
 
@@ -131,7 +131,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 3. Bāzlīniju sarakstā atlasiet bāzlīniju, kas konfigurēta formātam **Formāts ER bāzlīniju apgūšanai**.
 4. Kopsavilkuma cilnē **Bāzlīnijas** atlasiet **Dzēst**, lai noņemtu iepriekš konfigurēto bāzlīnijas kārtulu.
 
-![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline3.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline3.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Izveidotā ER formāta saistījumu aizstājēju definēšana
 
@@ -139,7 +139,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 2. Formāta komponentu kokā izvērsiet **Izvade**, izvērsiet **Izvade\\Dokuments** un pēc tam atlasiet vienuma **Izvade\\Dokuments\\ProcessingDateTime** izvēles rūtiņu.
 3. Atlasiet **Labi**.
 
-![Elektronisko pārskatu veidošanas formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu veidošanas formāta bāzlīniju lapas ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 Atlasītais ER formāta komponents ir pievienots komponentu sarakstam kopsavilkuma cilnē **Aizstājēji**. Kad pamata ER formāts tiek palaists atkļūdošanas režīmā, katra komponenta saistījums formātā tiek aizstāts ar saistījumu, kas redzams kolonnā **Saistīšana**. Lai mainītu komponenta noklusējuma saistījumu, kas uzskaitīts kopsavilkuma cilnē **Aizstājēji**, atlasiet **Rediģēt**.
 
@@ -147,7 +147,7 @@ Atlasītais ER formāta komponents ir pievienots komponentu sarakstam kopsavilku
 
 Izpildiet darbības, kas aprakstītas šīs tēmas sadaļā “Piemērs: bāzlīnijas kārtulu iestatīšanas automatizācija”. Paziņojums brīdina, ka izejošais fails ir ģenerēts, izmantojot bāzlīnijas iestatījumus, un ir notikusi formāta saistījumu piespiedu aizstāšana.
 
-![Paziņojums lapā Konfigurācijas](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Paziņojuma lapā Konfigurācijas ekrānuzņēmums")
+![Paziņojums lapā Konfigurācijas](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Lapas Konfigurācijas paziņojuma ekrānuzņēmums")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Brīdinājumu par formāta saistījumu aizstāšanu izlaišana
 
@@ -195,7 +195,7 @@ Eksportētos bāzlīnijas iestatījumus var importēt citā vidē. Vide vispirms
 
 Lai importētu bāzlīnijas iestatījumus no lokāli saglabāta XML faila, lapā **Elektronisko pārskatu veidošanas formāta bāzlīnijas** atlasiet **Importēt** un pēc tam atlasiet **Pārlūkot**, lai atlasītu XML failu.
 
-![Dialoglodziņš Importēt bāzlīnijas iestatījumus](media/GER-BaselineSample-ImportBaseline1.PNG "Dialoglodziņa Importēt bāzlīnijas iestatījumus ekrānuzņēmums")
+![Importēt bāzlīnijas iestatījumu dialoglodziņu](media/GER-BaselineSample-ImportBaseline1.PNG "Dialoglodziņa Importēt bāzlīnijas iestatījumus ekrānuzņēmums")
 
 Lai importētu bāzlīnijas iestatījumus no XML faila, kas saglabāts Microsoft SharePoint serverī, balstoties uz pašreizējiem dokumentu pārvaldības iestatījumiem un atlasītā dokumenta veida, lapā **Elektronisko pārskatu veidošanas formāta bāzlīnijas** atlasiet **Importēt no avota**. Pēc tam atlasiet dokumenta veidu un XML failu. Dokumenta tips, kas nepieciešams, lai piekļūtu SharePoint mapei, ir jākonfigurē iepriekš.
 
@@ -207,4 +207,4 @@ Lai importētu bāzlīnijas iestatījumus no XML faila, kas saglabāts Microsoft
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
-- [Uzdevumu reģistrētājs](../user-interface/task-recorder.md)
+- [Uzdevuma reģistrētāja resursi](../user-interface/task-recorder.md)

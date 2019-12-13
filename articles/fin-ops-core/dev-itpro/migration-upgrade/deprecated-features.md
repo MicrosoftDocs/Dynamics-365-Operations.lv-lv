@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658694"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811997"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Noņemtie vai novecojuši līdzekļi programmai Finance and Operations
 
@@ -348,7 +348,7 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 | **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Operations 1611 un jaunākas tās versijas.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums
-Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: [Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)). Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.
+Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: [Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašināšana](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)). Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās.       |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Instalēt un kofigurēt Microsoft Dynamics 365 for Finance and Operations - Warehousing](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Programmas Noliktavas instalēšanas un konfigurēšanas pārskats](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Ietekmētie produkta apgabali**         | Noliktavas pārvaldība, Transportēšanas pārvaldība     |
 | **Izvietošanas iespēja**              | Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.               |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2019. gada 4. ceturksnis.   |
@@ -1244,7 +1244,7 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Preču konfiguratorā gala lietotājs varēja redzēt X++ kodu, tāpēc tas netiek atbalstīts pašreizējā Dynamics AX versijā. Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.  |
-| **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurācijas modeļa izveidošana](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurēšanas pārskats](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība, Pārdošana un mārketings  |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.      |
 

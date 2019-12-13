@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178873"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772632"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Detalizētas bankas darbību saskaņošanas iestatīšanas process
 
@@ -31,7 +31,7 @@ ms.locfileid: "2178873"
 
 Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmatūrā Microsoft Dynamics 365 Finance. Šajā rakstā ir paskaidrota saskaņošanas procesu iestatīšana.  
 
-Pirms detalizētās bankas darbību saskaņošanas funkcionalitātes lietošanas ir jāizpilda vairāki sagatavošanās darbi. Papildinformāciju par bankas izrakstu importa iestatīšanu skatiet rakstā [Iestatīt bankas izraksta importēšanas procesu](set-up-advanced-bank-reconciliation-import-process.md).  Tālāk ir aprakstītas prasības saskaņošanas procesa iestatīšanai.
+Pirms detalizētās bankas darbību saskaņošanas funkcionalitātes lietošanas ir jāizpilda vairāki sagatavošanās darbi. Papildinformāciju par bankas izrakstu importa iestatīšanu skatiet rakstā [Iestatīt papildu bankas saskaņošanas importēšanas procesu](set-up-advanced-bank-reconciliation-import-process.md).  Tālāk ir aprakstītas prasības saskaņošanas procesa iestatīšanai.
 
 ## <a name="transaction-codes"></a>Transakciju kodi
 Transakciju kodus var izmantot kā daļu no bankas darbību saskaņošanas atbilstības kārtulām. Transakciju kodi palīdz noteikt tikai viena tipa atbilstošās transakcijas programmatūrā Finance un jūsu bankas izrakstā. Lai veiktu šāda veida saskaņošanu, vispirms ir jādefinē transakciju tipi, kas tiek izmantoti bankas transakcijām programmā Finance, un pēc tam šie tipi ir jākartē ar jūsu bankā izmantotajiem izraksta transakciju kodiem. Bankas transakciju tipus var definēt lapā **Bankas transakcijas veids**. Šī ir arī tā vietā, kur jūs definējat galveno kontu, kuru izmantot ar attiecīgo transakcijas tipu saistītajiem grāmatojumiem. 

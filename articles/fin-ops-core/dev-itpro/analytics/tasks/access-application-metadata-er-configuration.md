@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182742"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772467"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Piekļuve programmas metadatiem, izmantojot ER konfigurāciju
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var noformēt jauna elektronisko pārskatu (Electronic reporting — ER) modeļa kartēšanu, izmantojot programmas metadatus. Programmas metadatiem jāpiekļūst, izmantojot ER metadatu konfigurāciju, kas ietver metadatu paraugu kopu, lai piekļūtu ārējās tirdzniecības transakcijām. Lai izpildītu tālāk norādītās darbības, vispirms pakalpojumā RCS izpildiet darbības, kas ir aprakstītas procedūras tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Pēc tam izpildiet darbības, kas ir aprakstītas tēmā [(ER) programmas metadatu sagatavošana lietošanai pakalpojumā RCS](prepare-application-metadata-rcs.md).
+Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var noformēt jauna elektronisko pārskatu (Electronic reporting — ER) modeļa kartēšanu, izmantojot programmas metadatus. Programmas metadatiem jāpiekļūst, izmantojot ER metadatu konfigurāciju, kas ietver metadatu paraugu kopu, lai piekļūtu ārējās tirdzniecības transakcijām. Lai izpildītu tālāk norādītās darbības, vispirms pakalpojumā RCS izpildiet darbības, kas ir aprakstītas procedūras tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Pēc tam izpildiet darbības, kas ir aprakstītas tēmā [Programmas metadatu sagatavošana lietošanai pakalpojumā RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 1. Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**. 
@@ -35,7 +35,7 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 
 ## <a name="import-metadata-configuration"></a>Metadatu konfigurācijas importēšana 
 1. Noklikšķiniet uz **Metadatu konfigurācijas**. 
-2. Importējiet ER metadatu konfigurāciju, kas ir konfigurēta elektronisku dokumentu ģenerēšanai ārējās tirdzniecības uzņēmējdarbībai. Šī ER metadatu konfigurācija ir eksportēta kā XML fails, un procedūras [(ER) programmas metadatu sagatavošana lietošanai pakalpojumā RCS](prepare-application-metadata-rcs.md) darbības ir izpildītas. 
+2. Importējiet ER metadatu konfigurāciju, kas ir konfigurēta elektronisku dokumentu ģenerēšanai ārējās tirdzniecības uzņēmējdarbībai. Šī ER metadatu konfigurācija ir eksportēta kā XML fails, un procedūras [Programmas metadatu sagatavošana lietošanai pakalpojumā RCS](prepare-application-metadata-rcs.md) darbības ir izpildītas. 
 3. Noklikšķiniet uz **Maiņa**. 
 4. Noklikšķiniet uz **Ielādēt no XML faila**. 
 5. Noklikšķiniet uz **Pārlūkot** un atlasiet failu “Ārējās tirdzniecības metadati.xml”. 

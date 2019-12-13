@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026260"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814747"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
 
@@ -54,7 +54,8 @@ Lai anketai piešķirtu anketu grupu, lapā **Anketas** noklikšķiniet uz **Lie
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plānotās atbilžu sesijas anketā
 Plānotās atbilžu sesijas ir anketas, ko esat izstrādājis un kam esat atlasījis respondentus. 
 
-> **Piezīme.** Pirms iestatāt plānotās atbilžu sesijas, ir jāizveido anketa. 
+> [!NOTE]
+>   Pirms iestatāt plānotās atbilžu sesijas, ir jāizveido anketa. 
 
 Lapā **Plānotā atbilžu sesija** varat izveidot plānoto atbilžu sesiju atsevišķam darbiniekam. Lapas sarakstā tiek rādītas visas plānotās anketas. 
 
@@ -108,12 +109,14 @@ Ja izmantojat plānoto atbilžu sesiju, jums persona ir jāinformē tieši, piem
 
 Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta ziņojuma tekstu cilnē **E-pasta ziņojums, ko sūtīt uz darbinieku pašapkalpošanos**. Kad grafiks ir sācies, noklikšķiniet uz **Funkcijas** &gt; **Nosūtīt e-pastu**, lai ģenerētu un respondentiem nosūtītu e-pasta ziņojumu. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
 
-> **Piezīme.** Lai varētu izmantot e-pasta funkcionalitāti, IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta parametri**.
+> [!NOTE]
+>   Lai varētu izmantot e-pasta funkcionalitāti, IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta parametri**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plānotas anketas beigšana
 Ieplānoto anketu var pabeigt pēc tam, kad visi respondenti ir aizpildījuši piešķirtās atbilžu sesijas. Kad plānota anketa ir beigusies, tās iestatījumus vairs nevarat kopēt uz jaunu grafiku. 
 
-> **Piezīme.** Ja viens vai vairāki respondenti nav aizpildījuši anketu, bet jūs joprojām vēlaties beigt plānošanu, vispirms šie respondenti ir jāizdzēš no saraksta lapā **Plānotā atbilžu sesija**. Pēc tam grafiku varat beigt.
+> [!NOTE]
+>   Ja viens vai vairāki respondenti nav aizpildījuši anketu, bet jūs joprojām vēlaties beigt plānošanu, vispirms šie respondenti ir jāizdzēš no saraksta lapā **Plānotā atbilžu sesija**. Pēc tam grafiku varat beigt.
 
 ## <a name="completing-questionnaires"></a>Anketu aizpildīšana
 Kad esat izstrādājis un izplatījis kādu anketu, šo anketu var aizpildīt atlasīti respondenti. Jūs varat aizpildīt jums pieejamās aptaujas anketas no divām vietām:
@@ -126,9 +129,9 @@ Anketas var tikt padarītas pieejamas noteiktiem lietotājiem vai lietotāju gru
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Anketu veidošana](design-questionnaires.md)
+[Anketu projektēšana](design-questionnaires.md)
 
-[Anketu lietošana](questionnaires.md)
+[Anketas](questionnaires.md)
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
 

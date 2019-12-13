@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039b5d7ace19fa93e6db4920153f4a1a67519c85
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178877"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770877"
 ---
 # <a name="position-forecasting"></a>Pozīciju prognozēšana
 
@@ -33,7 +33,7 @@ Izdevumi, kas ir saistīti ar darbiniekiem, bieži veido lielu daļu no organiz�
 
 ## <a name="position-forecasting-in-budget-planning"></a>Pozīciju prognozēšana budžeta plānošanā
 
-[![Augšējā diagramma](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Pozīcijas prognozēšanas komponenti](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Pozīciju prognozēšanai tiek izmantotas trīs galvenās sastāvdaļas, lai nodrošinātu precīzas budžeta summas pozīciju izdevumiem. Pēc tam šīs summas var ievest budžeta plānā budžeta aprēķiniem. 
 
@@ -45,14 +45,14 @@ Galvenais komponents ir **prognozes pozīcija**, kas atspoguļo visus izmaksu da
 
 ### <a name="position-forecasting-processes"></a>Pozīciju prognozēšanas procesi
 
-[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Pozīcijas prognozēšanas procesu ilustrācijas](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Tipiskā pozīcijas prognozēšanas procesā vispirms tiek izveidoti iestatīšanas komponenti (budžeta izmaksu elementi un atlīdzības grupas). Prognozes pozīcijas tiek ģenerētas pamatojoties uz esošajām pozīcijām. Pēc tam varat veikt pielāgojumus. Piemēram, varat pievienot vai beigt pozīcijas, mainīt apmaksas likmes un atvieglojumu izmaksas un pievienot algas palielinājumus. Var izveidot vairākas prognozes pozīcijas versijas, atvieglojot dažādu budžeta plānošanas scenāriju salīdzināšanu. Pēc tam varat ietvert prognozes pozīcijas budžeta plānos un ieviest izmaksas no prognozes pozīcijām kā budžeta plāna rindas.
 
 Varat izveidot papildu prognozes pozīcijas versijas, kad budžeta plāni tiek pārskatīti. Šīs jaunas versijas dod pamatu grozījumu veikšanai.
 
 ## <a name="position-forecasting-setup"></a>Pozīcijas prognozēšanas iestatīšana
-[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Ilustrāciju marķēšanas iestatījumi](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Budžeta izmaksu elementi
 
@@ -89,7 +89,7 @@ Atlīdzības grupas lauki **Pieauguma grafiks** un **Pieauguma datums** tiek izm
 Ieņēmumu izmaksu elements, kas atlasīts atlīdzības grupā, tiek lietots, kad veidojat peļņu prognozes pozīcijām grupā, tostarp to pamata algu un darbības palielinājumus. Lauks **Atlīdzības fiksētā sistēma** saista atlīdzības grupu ar atlīdzības fiksēto sistēmu personāla vadībā. Šī saite var piešķirt informāciju par darbinieka fiksēto atlīdzību prognozes pozīcijai, un tādēļ varat precīzāk veikt budžeta plānošanu. Atcerieties, ka atlīdzības režģa (līmeņu un darbību) struktūrai atlīdzības grupai ir jāatbilst fiksētās atlīdzības sistēmas struktūrai. Pretējā gadījumā sistēma nevar pareizi saistīt atlīdzības grupu un fiksēto atlīdzības sistēmu.
 
 ## <a name="creating-forecast-positions"></a>Prognozes pozīcijas izveide
-[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Ilustrācija: iezīmēšana "izveidot prognožu pozīcijas"](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognozes pozīciju izveide esošajiem amatiem
 
@@ -105,7 +105,7 @@ Kad opcija **Piešķirt atlīdzības grupu** ir iestatīta uz **Jā**, ja darbin
 
 Opcijas **Piešķirt atlīdzības grupu** iestatīšana ir svarīgāka par opcijas **Budžeta izmaksu elementu piešķiršana** iestatīšanu. Abus iestatījumus var lietot vienlaikus. 
 
-[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
+[![Diagramma "Piešķirt atlīdzības grupu"](./media/graphic4.png)](./media/graphic4.png) 
 
 Varat arī piešķirt gadadienas datumu. Atlasītais datums (pielāgotais sākuma datums, darbinieka sākuma datums, nodarbinātības sākuma datums vai darba stāža datums) no piešķirtā darbinieka pēc tam tiek iestatīts kā prognozes pozīcijas gadadienas datums un tiek izmantots informācijai un kad tiek ģenerēti algas pieaugumi.
 
@@ -118,7 +118,7 @@ Kad prognozes pozīcija ir atlasīta, atlasiet **Kopēt atlasīto prognozes poz�
 Varat arī izveidot pilnīgi jaunu prognozes pozīciju. Atlasiet esošo darbu un atlasiet arī budžeta plānošanas procesu un budžeta plāna scenāriju. Pēc tam varat pievienot citas detaļas, ko vēlaties pievienot. Vēlreiz, jauns amats vienlaicīgi tiek veidots personāla vadībā.
 
 ## <a name="working-with-forecast-positions"></a>Darbs ar prognozes pozīcijām
-[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Ilustrāciju iezīmēšana "pārveidot prognožu pozīcijas"](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Vairākas prognozes pozīcijas versijas
 
@@ -174,7 +174,7 @@ Pārrēķina process tiek automātiski izmantots jebkurās izmainītās prognoze
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Prognožu pozīciju ieviešana budžeta plānos
 
-[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Ilustrāciju iezīmēšana "Pievienot budžeta plānam"](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Prognožu pozīciju izveides un modificēšanas mērķis ir tās pievienot budžeta plāniem tā, lai budžeta plānos būtu ietvertas visprecīzākās budžeta summas. Pastāv divas metodes, kā pievienot prognožu pozīcijas budžeta plāniem. Var izmantot ģenerēšanas procesu vai atlases procesu budžeta plānā.
 

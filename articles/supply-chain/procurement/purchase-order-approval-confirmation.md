@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652176"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813435"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -90,11 +90,11 @@ Ja PP ir izmaiņu vadībā, jebkādas izmaiņas, piemēram, pasūtījuma atcelš
 
 [Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 
-[Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
+[Pirkšanas pasūtījumu izveidošana](purchase-order-creation.md)
 
-[Preču ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
+[Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
-[Apskats par kreditoru rēķiniem](../../finance/accounts-payable/vendor-invoices-overview.md)
+[Kreditoru rēķinu pārskats](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

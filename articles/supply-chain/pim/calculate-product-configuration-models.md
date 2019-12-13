@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547105"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813597"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Bieži uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
 
@@ -37,7 +37,7 @@ Aprēķinus var izmantot aritmētisko vai loģisko operāciju veikšanai. Tie pa
 ## <a name="what-is-a-calculation"></a>Kas ir aprēķins?
 Aprēķins ir elements, ko varat izmantot preču konfigurācijas modelī. Aprēķini papildina ierobežojumus, ļaujot izmantot decimālskaitļus, lai aprēķinātu vērtības preces konfigurēšanas laikā. Turklāt, aprēķiniem ir pieejama plašāka operatoru kopa nekā ierobežojumiem.  
 
-Tāpat kā ierobežojums, arī aprēķins ir saistīts ar noteiktu preču konfigurēšanas modeļa komponentu, un to nevar izmantot atkārtoti vai koplietot ar citu komponentu. Viena svarīga atšķirība starp aprēķiniem un ierobežojumiem ir, ka aprēķini ir obligāti (vienvirziena), bet ierobežojumi ir deklaratīvi (divvirzienu). Plašāku informāciju par ierobežojumiem skatiet šeit: [Izteiksmes ierobežojumi un tabulas ierobežojumi](expression-constraints-table-constraints-product-configuration-models.md).  
+Tāpat kā ierobežojums, arī aprēķins ir saistīts ar noteiktu preču konfigurēšanas modeļa komponentu, un to nevar izmantot atkārtoti vai koplietot ar citu komponentu. Viena svarīga atšķirība starp aprēķiniem un ierobežojumiem ir, ka aprēķini ir obligāti (vienvirziena), bet ierobežojumi ir deklaratīvi (divvirzienu). Plašāku informāciju par ierobežojumiem skatiet rakstā [Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Aprēķinu veido mērķa atribūts un aprēķina izteiksme.
 
@@ -88,7 +88,7 @@ Nē. Tiek izmantotas tās vērtības, ko iestatāt preces konfigurēšanas laik�
 Ja aprēķinam noņemat ievades vērtību, tiek noņemta arī mērķa atribūta vērtība.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Kāpēc tiek parādīts kļūdas ziņojums, ka manam modelim ir pretrunas?
-Šis ziņojums tiek parādīts, ja aprēķins ietver kļūdu vai ja vienam vai vairākiem ierobežojumiem pastāv pretruna. Plašāku informāciju par pretrunām skatiet šeit: [Izteiksmes ierobežojumi un tabulas ierobežojumi](expression-constraints-table-constraints-product-configuration-models.md). Šeit ir norādītas dažas situācijas, kad var rasties kļūdas aprēķinos:
+Šis ziņojums tiek parādīts, ja aprēķins ietver kļūdu vai ja vienam vai vairākiem ierobežojumiem pastāv pretruna. Plašāku informāciju par pretrunām ierobežojumos skatiet rakstā [Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos](expression-constraints-table-constraints-product-configuration-models.md). Šeit ir norādītas dažas situācijas, kad var rasties kļūdas aprēķinos:
 
 -   Vērtība tiek dalīta ar 0 (nulli).
 -   Pastāv neatbilstība starp šādiem diviem elementiem:

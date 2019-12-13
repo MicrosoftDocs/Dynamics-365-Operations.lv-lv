@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181454"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771310"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 
@@ -46,7 +46,7 @@ Pirms sākat, jums ir nepieciešams kāds no tālāk minētajiem piekļuves veid
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
-Ir jāizpilda arī procedūra [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Ir jāizpilda arī procedūra [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 Visbeidzot jums ir jālejupielādē tālāk norādītie faili lapā [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ Tālāk redzamajā attēlā ir parādīts ģenerēta pārskata citas lapas piem�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [ER Izveidot konfigurāciju atskaišu ģenerēšanai formātā OPENXML](tasks/er-design-reports-openxml-2016-11.md)
-- [ER konfigurāciju noformēšana pārskatu ģenerēšanai Microsoft WORD formātā](tasks/er-design-configuration-word-2016-11.md)
+- [ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)](tasks/er-design-reports-openxml-2016-11.md)
+- [ER konfigurāciju noformēšana pārskatu ģenerēšanai Word formātā](tasks/er-design-configuration-word-2016-11.md)

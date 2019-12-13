@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552006"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812883"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Pievienošanas ceļvežu un veidņu rediģēšana programmā Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ Lai izstumtu jūsu izmaiņas, veiciet tālāk norādītās darbības.
 
     - Lai pievienotu YouTube videoklipu, velciet **YouTube** vienumu uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un ievadiet YouTube videoklipa vietrādi URL.
     - Lai pievienotu Sway prezentāciju vai biļetenu, velciet vienumu **Sway** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un ievadiet Sway prezentācijas vai biļetena iegulto vietrādi URL.
-    - Lai pievienotu programmu PowerApps, velciet vienumu **PowerApps** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un vai nu atlasiet programmu PowerApps vai arī ievadiet programmas PowerApps ID.
+    - Lai pievienotu programmu Microsoft Power Apps, velciet vienumu **Power Apps** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un vai nu atlasiet programmu Power Apps vai arī ievadiet programmas Power Apps ID.
     - Lai pievienotu Microsoft Stream videoklipu, velciet **Microsoft Stream** vienumu uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu un ievadiet Microsoft Stream videoklipa vietrādi URL.
     - Lai pievienotu Microsoft Forms veidlapu, velciet vienumu **Microsoft Forms** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu, ievadiet Microsoft Forms veidlapas vietrādi URL un norādiet ekrāna laukuma lielumu.
     - Lai pievienotu iframe, kas ietver tīmekļa saturu, velciet vienumu **Tīmekļa saturs (iframe)** uz rediģēšanas apgabalu, ievadiet darbības nosaukumu un aprakstu, ievadiet tīmekļa satura vietrādi URL un norādiet ekrāna laukuma lielumu.
@@ -186,6 +186,6 @@ Lai rediģētu kontaktpersonu, atlasiet pogu **Rediģēt** (zīmuļa simbols) pa
 ### <a name="see-also"></a>Skatiet arī
 
 - [Programmas Onboard izmēģināšana vai iegāde](https://dynamics.microsoft.com/talent/onboard/)
-- [Jaunumi](./whats-new.md)
-- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Atbalsta saņemšana](./talent-support.md)
+- [Jaunumi un izmaiņas Dynamics 365 Talent](./whats-new.md)
+- [Nodošanas izpildei plāni](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](./talent-support.md)

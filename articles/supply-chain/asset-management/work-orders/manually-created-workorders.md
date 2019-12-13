@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626251"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811751"
 ---
 # <a name="manually-created-work-orders"></a>Manuāli izveidotie darba pasūtījumi
 
@@ -70,7 +70,7 @@ Ir divi veidi, kādos var manuāli izveidot darba pasūtījumus:
 
 - Detalizētajā skatā **Visi darba pasūtījumi** sarakstu lapā jūs varat darba pasūtījumam pievienot vairākus līdzekļus, pievienojot rindas kopsavilkuma cilnē **Darba pasūtījuma uzturēšanas darbi**. Līdzeklī jūs varat atlasīt vienīgi tos uzturēšanas darbu tipus, kuri ir definēti līdzekļa veidā, kas ir atlasīts līdzeklī.  
 
-- Ja maināt līdzekļa servisa līmeni vai līdzekļa kritiskumu pēc tam, kad esat to jau izmantojis līdzekli darba pasūtījumā, servisa līmenis vai kritiskums darba pasūtījumā netiek attiecīgi atjaunināts. Lai iegūtu papildinformāciju par servisa līmeņiem un kritiskumu, skatiet [Līdzekļu servisa līmeņi](../setup-for-objects/object-priorities.md) un [Līdzekļa kritiskums](../setup-for-objects/object-criticalities.md).
+- Ja maināt līdzekļa servisa līmeni vai līdzekļa kritiskumu pēc tam, kad esat to jau izmantojis līdzekli darba pasūtījumā, servisa līmenis vai kritiskums darba pasūtījumā netiek attiecīgi atjaunināts. Lai iegūtu papildinformāciju par servisa līmeņiem un kritiskumu, skatiet [Līdzekļu servisa līmeņi](../setup-for-objects/object-priorities.md) un [Līdzekļa kritiskuma veidi](../setup-for-objects/object-criticalities.md).
 
 - Kritiskums darba pasūtījumā tiek pārrēķināts katru reizi, kad darba pasūtījuma darbs tiek pievienots vai dzēsts darba pasūtījumā.
 

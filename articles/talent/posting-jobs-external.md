@@ -1,6 +1,6 @@
 ---
-title: Darbu grāmatošana ārējās karjeras vietnēs no pakalpojuma Attract
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 Talent - Attract, lai publicētu darbus ārējās personāla atlases vietnēs
+title: Vakanču publicēšana Broadbean no pakalpojuma Attract
+description: Šajā tēmā ir sniegta informācija par to, kā izmantot Dynamics 365 Talent - Attract, lai publicētu darbus Broadbean
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551407"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832663"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Darbu grāmatošana ārējās karjeras vietnēs no pakalpojuma Attract
+# <a name="post-jobs-to-broadbean-from-attract"></a>Vakanču publicēšana Broadbean no pakalpojuma Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract palīdz jums iegūt darbinieku, kas jums nepieciešams, ļaujot jums publicēt vakances tieši no Attract vietnē Broadbean. Kad esat [izveidojis vakanci](./creating-jobs-attract.md), viss, kas jums jādara, ir noklikšķināt uz pogas, lai jūsu vakance tiktu rādīta visiem potenciālajiem darba kandidātiem vietnē Broadbean.
 
 Darbu publicēšanai Broadbean ir nepieciešama atbilstoša Broadbean licence. Broadbean piedāvā dažādus produktus un plānus. Lai iegūtu vairāk informācijas par Broadbean licencēšanu un cenām, [sazinieties ar Broadbean](https://www.broadbean.com/contact-us/).
 
-Ja esat administrators, kam nepieciešama papildinformācija par to, kā konfigurēt Broadbean integrāciju ar Attract, skatiet sadaļu [Iestatījumu ievadīšana ārējiem darba sludinājumu dēļiem](./attract-admin-job-board-settings.md).
+Ja esat administrators, kuram ir nepieciešama plašāka informācija par to, kā konfigurēt Broadbean integrāciju ar sistēmu Attract, skatiet [Broadbean integrācijas iestatīšana programmā Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>Darbu publicēšana vietnē Broadbean
 
@@ -74,7 +74,7 @@ Darba publikāciju vietnē Broadbean var atjaunināt divējādi.
 2. Sadaļā **Publikācijas** atlasiet pogu **Atjaunināt publikāciju**, kas atbilst vietnei Broadbean.
 3. Publikāciju rediģēšana Broadbean logā.
 
-–vai–
+    –vai–
 
 1. Atveriet pakalpojumā Attract darbu, kuru vēlaties skatīt vietnē Broadbean.
 2. Sadaļā **Publikācijas** atlasiet daudzpunktes pogu (**...**), kas atbilst vietnei Broadbean, un pēc tam atlasiet **Skatīt**.
@@ -99,6 +99,6 @@ Ja darba publicēšana vietnē Broadbean rada problēmas, veiciet tālāk norād
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Izveidot darbus](./creating-jobs-attract.md)
+[Darbu izveide, apstiprināšana un grāmatošana programmā Attract](./creating-jobs-attract.md)
 
-[Iestatījumu ievadīšana ārējiem darbu sludinājumu dēļiem](./attract-admin-job-board-settings.md)
+[Iespējot Broadbean integrāciju programmā Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)

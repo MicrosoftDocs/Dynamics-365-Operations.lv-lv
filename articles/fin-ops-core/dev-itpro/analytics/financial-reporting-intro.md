@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181799"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771146"
 ---
 # <a name="financial-reporting"></a>Finanšu pārskatu veidošana
 
@@ -47,7 +47,7 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 | Komponents        | Funkcijas | Papildinformācija |
 |------------------|-----------|------------------------|
 | Pārskata veidotājs  | Izveidojiet atskaišu veidošanas blokus, kurus var kombinēt, lai definētu un ģenerētu atskaiti. Pārskatu ceļvedis kalpo par veidošanas palīgrīku mazāk pieredzējušiem lietotājiem. Pieredzējuši lietotāji var veidot jaunus atskaišu veidošanas blokus vai modificēt jau esošos veidošanas blokus atbilstoši savām prasībām. | |
-| Pārskatu grafiki | Plānojiet atsevišķu atskaiti vai atskaišu grupu, lai tās tiktu regulāri ģenerētas. | [Ģenerēt finanšu pārskatu](generate-financial-report.md) |
+| Pārskatu grafiki | Plānojiet atsevišķu atskaiti vai atskaišu grupu, lai tās tiktu regulāri ģenerētas. | [Ģenerēt finanšu pārskatus](generate-financial-report.md) |
 
 ## <a name="features"></a>Līdzekļi
 <table>
@@ -96,4 +96,4 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 </table>
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Ģenerēt finanšu pārskatu](generate-financial-report.md)
+[Ģenerēt finanšu pārskatus](generate-financial-report.md)

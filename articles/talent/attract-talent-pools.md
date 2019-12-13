@@ -1,5 +1,5 @@
 ---
-title: Kandidātu piesaiste, izmantojot kandidātu kopas programmā Microsoft Dynamics 365 Talent - Attract
+title: Kandidātu piesaiste, izmantojot kandidātu kopas, sistēmā Attract
 description: Šajā tēmā ir paskaidrots, kā izveidot un iestatīt potenciālo kandidātu kopas programmā Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551122"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833027"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Kandidātu piesaiste, izmantojot kandidātu kopas programmā Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Kandidātu piesaiste, izmantojot kandidātu kopas, sistēmā Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Personāla atlases darbinieki un par pieņemšanu darbā atbildīgie vadītāji var apstrādāt kandidātus, izmantojot programmas Attract funkciju Potenciālo kandidātu kopas. Potenciālo kandidātu kopas var jums palīdzēt sekot līdzi visiem kandidātiem, kas piesakās uz vakancēm jūsu uzņēmumā, un mijiedarboties ar šiem kandidātiem.
 
@@ -116,7 +115,7 @@ Visiem lietotājiem ir pieejams viens un tas pats kandidātu profilu skats. Ciln
 
     Lai skatītu dokumentu, atlasiet dokumenta nosaukumu dokumentu sarakstā. Varat skatīt Microsoft Word dokumentu lietojumprogrammā, izmantojot Microsoft Office 365. Varat arī lejupielādēt dokumentus savā lokālajā datorā, katram dokumentam izmantojot opciju **Lejupielādēt**.
 
-- Cilnē **LinkedIn** tiek rādīta kandidāta LinkedIn informācija. Lai izmantotu šo cilni, jums ir jāizveido savienojums ar savu LinkedIn kontu lietotāja iestatījumu sadaļā un jūsu vidē ir jābūt izveidotam savienojumam ar LinkedIn Recruiter. Papildinformāciju skatiet tēmā [Kandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- Cilnē **LinkedIn** tiek rādīta kandidāta LinkedIn informācija. Lai izmantotu šo cilni, jums ir jāizveido savienojums ar savu LinkedIn kontu lietotāja iestatījumu sadaļā un jūsu vidē ir jābūt izveidotam savienojumam ar LinkedIn Recruiter. Papildinformāciju skatiet rakstā [Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Tikai kandidāti var atjaunināt informāciju par savām prasmēm, izglītību un darba pieredzi.

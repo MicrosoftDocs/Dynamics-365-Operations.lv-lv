@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865332"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813550"
 ---
 # <a name="product-lifecycle-state-overview"></a>Preču dzīves cikla stāvokļa pārskats
 
@@ -107,9 +107,9 @@ Lai atlasītu un atjauninātu izlaistās preces un preču variantus, izmantojiet
 
 ## <a name="related-topics"></a>Saistītās tēmas
 
--  [Jauna preces dzīves cikla stāvokļa izveidošana (uzdevuma ceļvedis)](tasks/new-product-lifecycle-state.md)
--  [Noklusējuma preces dzīves cikla stāvokļa izveidošana (uzdevuma ceļvedis)](tasks/default-product-lifecycle-state.md)
--  [Preces dzīves cikla stāvokļa piešķiršana izlaistas preces šablonam (uzdevuma ceļvedis)](tasks/product-lifecycle-state-released-product-master.md)
--  [Preces dzīves cikla stāvokļa piešķiršana izlaistajai precei (uzdevuma ceļvedis)](tasks/product-lifecycle-state-released-product.md)
--  [Novecojušu preces variantu atrašana un preces dzīves cikla stāvokļa piešķiršana (uzdevuma ceļvedis)](tasks/obsolete-product-variants.md)
--  [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas (uzdevuma ceļvedis)](tasks/exclude-products-master-planning.md)
+-  [Jauna preču dzīves cikla stāvokļa izveide](tasks/new-product-lifecycle-state.md)
+-  [Noklusējuma preču dzīves cikla stāvokļa izveide](tasks/default-product-lifecycle-state.md)
+-  [Preces dzīves cikla stāvokļa piešķiršana izlaistam preces šablonam](tasks/product-lifecycle-state-released-product-master.md)
+-  [Preces dzīves cikla stāvokļa piešķiršana izlaistai precei](tasks/product-lifecycle-state-released-product.md)
+-  [Novecojušu preču variantu atrašana un preces dzīves cikla stāvokļa piešķiršana](tasks/obsolete-product-variants.md)
+-  [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas](tasks/exclude-products-master-planning.md)

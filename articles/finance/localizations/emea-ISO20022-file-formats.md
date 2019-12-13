@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ef97d30ca2d8a9c27ce656c82d2a415682ce075
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551225"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773433"
 ---
 # <a name="import-iso20022-files"></a>ISO20022 failu importēšana
 
@@ -49,7 +49,7 @@ Lai bankas paziņojumus camt.054.001.002 formātā varētu importēt debitoru ma
 
     - Laukā **Debitoru maksājumi, kontu garumi** ievadiet garumu debitora kodam, kas tiek izmantots ISR atsaucēs vai automātiskai debitora identifikācijai.
     - Pārliecinieties, vai debitora numurs un rēķina numurs (numuru sērijas) satur tikai ciparus. Tajos nedrīkst būt ietvertas citas rakstzīmes. Rēķina numurs nedrīkst sākties ar nullēm.
-    - Ievadiet ESR, BESR un reģistrācijas numuru juridiskās personas bankas kontam. Papildinformāciju skatiet rakstā [Mantojuma ESR līdzeklis](emea-che-esr-customer-payments-import.md), jo tajā ir nepieciešami līdzīgi iestatījumi.
+    - Ievadiet ESR, BESR un reģistrācijas numuru juridiskās personas bankas kontam. Papildinformāciju skatiet rakstā [Importēt ESR debitoru maksājumus](emea-che-esr-customer-payments-import.md), jo tajā ir nepieciešami līdzīgi iestatījumi.
     
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>camt.054 kredīta izziņas faila importēšana debitoru maksājumu žurnālā
 1. Lapā **Debitoru maksājumu žurnāla rindas** noklikšķiniet uz **Funkcijas** > **Importēt maksājumus**.

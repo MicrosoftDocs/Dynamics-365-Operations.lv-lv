@@ -1,5 +1,5 @@
 ---
-title: Interviju plānošana un atsauksmes
+title: Plānot intervijas programmā Attract
 description: Šajā tēmā ir sniegta informācija par interviju plānošanas un atsauksmju aktivitātēm programmā Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518545"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832749"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Interviju plānošana un atsauksmes
+# <a name="schedule-interviews-in-attract"></a>Plānot intervijas programmā Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Aktivitāte Plānotājs
+## <a name="scheduler-activity"></a>Plānotāja aktivitāte
 
 Aktivitāte Plānotājs ir izvēles aktivitāte, kas sastāv no diviem komponentiem: Kandidāta pieejamības pieprasījums un Grafiks. Komponents Kandidāta pieejamība sniedz jums iespēju izmantot e-pastu, lai pieprasītu kandidāta pieejamību. Komponents Grafiks sniedz iespēju ieplānot intervijas, saskaņojot grafiku ar kandidātu un darbā pieņemšanas grupu.
 

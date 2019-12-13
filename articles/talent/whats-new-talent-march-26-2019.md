@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023888"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812745"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 26. marts)
 
@@ -75,11 +75,11 @@ Ar šīs izmaiņas ieviešanu nodarbinātības vēstures lapā nodarbinātības 
 Līdz ar šī laidiena ieviešanu tagad varat noņemt darbu ierakstus, izmantojot opciju **Atvērt programmā Excel** programmā Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
-Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstieties Power Apps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Priekšskatījumā
 
-Informāciju par priekšskatījuma līdzekļu iespējošanas skatiet rakstā [Piekļuve priekšskatījuma līdzekļiem programmā Talent](./access-preview-feature.md).
+Informāciju par priekšskatījuma līdzekļu iespējošanu skatiet [Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Atļaušana norādīt iemeslu kodus atvaļinājumu tipiem
 Organizācijām, iespējams, ir nepieciešama papildinformācija saistībā ar brīvā laika pieprasījumiem. Lai iegūtu šo informāciju, darbiniekiem savos brīvā laika pieprasījumos ir jāiekļauj iemesla kods. Līdz ar šī laidiena ieviešanu tagad varat norādīt iemeslu kodus, kas ir saistīti ar noteiktu atvaļinājuma tipu, un sniegt iespēju darbiniekiem savos brīvā laika pieprasījumos atlasīt kādu iemesla kodu.

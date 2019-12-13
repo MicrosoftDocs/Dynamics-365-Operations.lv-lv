@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa49b70b07ac3dc6cbc5989b11981098f22be89c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189158"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772724"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
@@ -35,11 +35,11 @@ ms.locfileid: "2189158"
 
 Papildinformāciju skatiet šeit: 
 
-[Brīva teksta rēķina izveide](../accounts-receivable/create-free-text-invoice-new.md)
+[Izveidot brīvā teksta rēķinus](../accounts-receivable/create-free-text-invoice-new.md)
 
-[Izveidot brīva teksta rēķina veidni](../accounts-receivable/create-free-text-invoice-template-new.md)
+[Brīva teksta rēķina veidnes izveide](../accounts-receivable/create-free-text-invoice-template-new.md)
 
-[Brīva teksta rēķina veidnes piešķiršana klientam](tasks/assign-free-text-invoice-template-customer.md)
+[Brīva teksta rēķina veidnes piešķiršana debitoram](tasks/assign-free-text-invoice-template-customer.md)
 
 [Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana](tasks/post-recurring-free-text-invoices.md)
 

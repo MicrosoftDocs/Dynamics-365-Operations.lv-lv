@@ -3,7 +3,7 @@ title: Noliktavas darba atliktā apstrāde
 description: Šajā tēmā ir aprakstīta funkcionalitāte, kas padara noliktavas darba izvietot operāciju atlikto apstrādi pieejamu programmā Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026933"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815792"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Noliktavas darba atliktā apstrāde
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026933"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Šajā tēmā ir aprakstīta funkcionalitāte, kas padara izvietošanas operāciju noliktavas darbam atlikto apstrādi pieejamu programmā Dynamics 365 Supply Chain Management.
-
 
 Atliktās apstrādes funkcionalitāte ļauj noliktavas darbiniekiem turpināt darīt citu darbu, kamēr izvietošanas operācija tiek apstrādāta fonā. Atliktā apstrāde ir noderīga, ja ir jāapstrādā daudzas darba rindas un darbinieks var ļaut šo darbu apstrādāt asinhroni. Tas noder arī tad, ja serverim var būt ad hoc vai neplānoti palielinājumi apstrādes laikā, un palielinātais apstrādes laiks var ietekmēt lietotāja produktivitāti.
 
@@ -50,6 +49,8 @@ Politikas tiek konfigurētas lapā **Darba apstrādes politikas**. Nākamajā ta
 | Darba apstrādes metode          | Metode, kas tiek izmantota, lai apstrādātu darbu rindu. Ja metode ir iestatīta uz **Tūlītēju**, darbība atgādina darbību, kad nav darba apstrādes politikas, ko izmanto rindas apstrādāšanai. Ja metode ir iestatīta uz **Atliktu**, tiek izmantota atliktā apstrāde, kas izmanto partijas struktūru. |
 | Atliktās apstrādes slieksnis   | Vērtība **0** (nulle) norāda, ka nav sliekšņvērtības. Šādā gadījumā, ja to var izmantot, tiek izmantota atliktā apstrāde. Ja konkrētās sliekšņvērtības aprēķins ir zemāks par sliekšņvērtību, tiek izmantota tūlītējā metode. Pretējā gadījumā izmanto atlikto metodi, ja to var izmantot. Ar pārdošanu un pārsūtīšanu saistītiem darbiem sliekšņvērtību aprēķina kā saistīto avota noslodzes rindu skaitu, kuras tiek apstrādātas attiecīgajam darbam. Papildināšanas darbiem sliekšņvērtība tiek aprēķināta kā darba rindu skaits, ko darbs papildina. Iestatot sliekšņvērtību, piemēram, **5** pārdošanai, mazāki darbi, kam ir mazāk nekā piecas sākotnējā avota noslodzes rindas, neizmantos atlikto apstrādi, bet lielāki darbi to izmantos. Sliekšņvērtība ir spēkā tikai tad, ja darba apstrādes metode ir iestatīta uz **Atliktu**. |
 | Atliktās apstrādes partijas grupa |Partijas grupa, ko izmanto apstrādei. |
+
+Atliktās izvietošanas apstrādei tiek atbalstīti šādi darba pasūtījumu veidi: pārdošanas pasūtījums, pārsūtīšanas pasūtījuma izdošana un papildināšana.
 
 ## <a name="assigning-the-work-creation-policy"></a>Darba izveides politikas piešķiršana
 
@@ -99,7 +100,7 @@ Ir vairāki scenāriji, kuros atliktā izvietošanas apstrāde netiek lietots pa
 - Tiek izmantota manuāla darba pabeigšana.
 - Darbs ir pabeigts, izmantojot automātisko pabeigšanu.
 - Tiek izmantotas audita veidnes.
-- Darbs izmanto konteinerus.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Atliktās apstrādes uzdevumu pārraudzība no izejošo darbu pārraudzības darbvietas
 

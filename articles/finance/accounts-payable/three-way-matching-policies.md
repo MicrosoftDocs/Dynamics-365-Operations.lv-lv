@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189388"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772747"
 ---
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
@@ -141,7 +141,7 @@ Pievērsiet uzmanību tālāk norādītajiem krājumiem.
 Ja ir nepieciešamas apstiprināt tādu rēķinu grāmatošanu, kuriem pastāv rēķinu salīdzināšanas neatbilstības, lai varētu grāmatot rēķinu ar cenu salīdzināšanas kļūdām un daudzumu salīdzināšanas kļūdām, vispirms ir jāatlasa slēdzis stiprināt grāmatojumu ar salīdzināšanas neatbilstību lapā Rēķinu salīdzināšanas detalizēta informācija. Ja apstiprinājums nav nepieciešams, var turpināt rēķina apstrādi, ja nav radušas citas grāmatošanas kļūdas.
 
 
-Papildinformāciju skatiet sadaļā [Kreditoru rēķinu salīdzināšana](accounts-payable-invoice-matching.md).
+Papildinformāciju skatiet sadaļā [Kreditoru rēķinu salīdzināšanas pārskats](accounts-payable-invoice-matching.md).
 
 
 

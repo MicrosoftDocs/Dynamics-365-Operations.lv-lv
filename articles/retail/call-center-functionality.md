@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025775"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812343"
 ---
 # <a name="call-center-sales-functionality"></a>Zvanu centra pārdošanas funkcionalitāte
 
@@ -44,17 +44,17 @@ Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī li
 
 ## <a name="configure-the-call-center"></a>Zvanu centra konfigurēšana
 
-[Iestatīt pasūtījumu apstrādes opcijas](set-up-order-processing-options.md)
+[Zvanu centra kanālu iestatīšana](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Pasūtījumu apstrādes konfigurēšana
 
-[Pārkāpumu brīdinājumu iestatīšana](set-up-fraud-alerts.md)
+[Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem](set-up-fraud-alerts.md)
 
-[Manuāla pasūtījumu aizturēšana](work-with-order-holds.md)
+[Zvanu centra pasūtījumu aizturēšanas konfigurēšana un darbs ar to](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Maksājumu apstrādes konfigurēšana
 
-[Maksāšanas metodes zvanu centrā](work-with-payments.md)
+[Maksāšanas metodes zvanu centros](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Piegādes režīmu konfigurēšana
 
@@ -64,8 +64,8 @@ Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī li
 
 [Zvanu centra katalogi](call-center-catalogs.md)
 
-[RFM analīzes iestatīšana](set-up-rfm-analysis.md)
+[Nesenības, biežuma un monetārās (RFM) analīzes iestatīšana](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Nepārtrauktības programmu konfigurēšana
 
-[Nepārtrauktības programmas iestatīšana zvanu centram](set-up-continuity-program.md)
+[Nepārtrauktības programmu iestatīšana zvanu centriem](set-up-continuity-program.md)

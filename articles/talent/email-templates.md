@@ -1,5 +1,5 @@
 ---
-title: E-pasta veidnes
+title: Izveidot e-pasta veidnes Attract
 description: Šajā tēmā ir sniegta informācija par e-pasta ziņojumu veidnēm, ko varat izveidot un izmantot programmā Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008040"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832888"
 ---
-# <a name="email-templates"></a>E-pasta veidnes
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>Izveidot e-pasta veidnes Attract
+
+[!include [banner](includes/banner.md)]
 
 Izmantojot e-pasta ziņojumu veidņu bibliotēku, administratori var izveidot vienotu stilu un zīmolradi visiem e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 Talent: Attract un Offer. Administratori arī var pārraudzīt e-pasta satura veidņu kolekciju, ko var izmantot citi lietotāji. Darbā pieņemšanas grupa var izmantot šīs veidnes savā darbplūsmā, lai nosūtītu e-pasta ziņojumus daudz efektīvāk. Daži e-pasta ziņojumi ir konfigurēti automātiskai nosūtīšanai, un administrators var izmantot e-pasta veidņu bibliotēku, lai pielāgotu šādu e-pasta ziņojumu saturu.
 

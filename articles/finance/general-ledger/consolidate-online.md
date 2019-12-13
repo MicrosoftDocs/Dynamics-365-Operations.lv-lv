@@ -16,25 +16,25 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551661"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770739"
 ---
 # <a name="online-financial-consolidations"></a>Tiešsaistes finanšu konsolidācijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā. Pirms šīs tēmas lasīšanas noteikti jāizlasa tēma [Finanšu konsolidācijas un valūtas pārrēķināšana](financial-consolidations-currency-translation.md).
+Šajā tēmā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā. Pirms šīs tēmas lasīšanas noteikti jāizlasa tēma [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](financial-consolidations-currency-translation.md).
 
 Pēc tam, kad esat pabeidzis iestatīšanu, ievadiet konsolidācijas datus lapā **Konsolidēt [tiešsaistē]**. Kad esat beidzis, varat noklikšķināt uz **Labi** vai **Partija**, lai apstrādātu konsolidāciju.
 
 ## <a name="criteria"></a>Kritēriji
 Cilnē **Kritēriji** lapā **Konsolidēt [tiešsaistē]** definējiet kontus, periodus un datu veidus, kas tiek konsolidēti.
 
-![Kritēriju cilne](./media/criteria-consolidate-online.png "Kritēriju cilne")
+![Cilne Kritēriji](./media/criteria-consolidate-online.png "Cilne Kritēriji")
 
 Tālāk aprakstīts šīs cilnes dažādo lauku skaidrojums.
 
@@ -60,16 +60,16 @@ Tālāk aprakstīts šīs cilnes dažādo lauku skaidrojums.
 ## <a name="financial-dimensions"></a>Finanšu dimensijas
 Cilnē **Finanšu dimensijas** varat definēt dimensijas, kuras jāiekļauj konsolidācijas uzņēmumā. Lai atlasītu dimensiju, iestatiet lauku **Specifikācija** pozīcijā **Dimensija**, un pēc tam nosakiet dimensijas secību konsolidētajā uzņēmumā.
 
-![Finanšu dimensijas cilne](./media/financial-dimensions-cons.png "Finanšu dimensijas cilne")
+![Cilne Finanšu dimensijas](./media/financial-dimensions-cons.png "Cilne Finanšu dimensijas")
 
 Neatkarīgi no jūsu definētās secības **Galvenais konts** vienmēr būs pirmais segments.
 
 ## <a name="legal-entities"></a>Juridiskas personas
 Cilnē **Juridiskās personas** varat definēt uzņēmumus, kuri jāiekļauj konsolidācijas uzņēmumā. Jūs arī nosakāt šo uzņēmumu īpašumtiesību procentu. Ja norādāt mazāk nekā 100 procentu īpašumtiesības, norādītā procentuālā vērtību tiks apkopota konsolidācijas uzņēmumā. Atšķirīgu pārrēķināšanu gadījumā lauks **Konta veids konvertācijas atšķirībām** tiek izmantots, lai atlasītu galveno kontu no iestatījuma lapā **Konti automātiskām transakcijām**.
 
-![Juridisko personu cilne](./media/legal-entities-cons.png "Juridisko personu cilne")
+![Cilne Juridiskās personas](./media/legal-entities-cons.png "Cilne Juridiskās personas")
 
-![Kontu automātiskām transakcijām lapa](./media/accounts-for-automatic-cons.png "Kontu automātiskām transakcijām lapa")
+![Lapa Automātisko darījumu konti](./media/accounts-for-automatic-cons.png "Lapa Automātisko darījumu konti")
 
 ## <a name="elimination"></a>Korekcijas
 Cilnē **Eliminācija** ir trīs tālāk aprakstītās iespējas elimināciju apstrādei.
@@ -78,7 +78,7 @@ Cilnē **Eliminācija** ir trīs tālāk aprakstītās iespējas elimināciju ap
 - Atlasiet eliminācijas kārtulu un pēc tam laukā **Piedāvājumu opcijas** atlasiet **Tikai grāmatot**. Šī opcija apstrādā elimināciju konsolidācijas procesa laikā un visu grāmato vienā darbībā.
 - Apstrādājiet eliminācijas piedāvājumu atsevišķi no konsolidācijas procesa, izmantojot eliminācijas žurnālu.
 
-![Eliminācijas cilne](./media/elimination-cons-onl.png "Eliminācijas cilne")
+![Cilne Korekcijas](./media/elimination-cons-onl.png "Cilne Korekcijas")
 
 Plašāku informāciju par eliminācijām skatiet sadaļā [Eliminācijas kārtulas](./elimination-rules.md).
 
@@ -89,10 +89,10 @@ Cilnē **Valūtas pārrēķināšana** varat noteikt juridisko personu kontu un 
 - **Transakcijas datums** – katras transakcijas datums tiks izmantots, lai atlasītu maiņas kursu. Šī opcija visbiežāk tiek izmantota pamatlīdzekļiem, un to bieži sauc par vēsturisko kursu. Kursa priekšskatījumu nevarēs redzēt, jo būs daudz dažādu transakciju kursu konta diapazonā.
 - **Lietotāja noteiktais kursa** – pēc tam, kad ir atlasīta šī opcija, var ievadīt vēlamo maiņas kursu. Šī opcija var būt noderīga vidējiem maiņas kursiem vai veicot konsolidēšanu ar fiksētu valūtas kursu.
 
-![Valūtas pārrēķināšanas cilne](./media/currency-translation-cons-online.png "Valūtas pārrēķināšanas cilne")
+![Cilne Valūtas pārrēķināšana](./media/currency-translation-cons-online.png "Cilne Valūtas pārrēķināšana")
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšana](./financial-consolidations-currency-translation.md).
+Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
 
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).

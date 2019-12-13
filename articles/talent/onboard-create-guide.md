@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550347"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814632"
 ---
 # <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Pievienošanās ceļveža izveide un nosūtīšana, izmantojot Dynamics 365 Talent - Onboard
 
@@ -119,6 +119,6 @@ Pievienošanas ceļvedi var saglabāt kā veidni. Tādējādi varat ietaupīt la
 ### <a name="see-also"></a>Skatiet arī
 
 - [Programmas Onboard izmēģināšana vai iegāde](https://dynamics.microsoft.com/talent/onboard/)
-- [Jaunumi](./whats-new.md)
-- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Atbalsta saņemšana](./talent-support.md)
+- [Jaunumi un izmaiņas Dynamics 365 Talent](./whats-new.md)
+- [Nodošanas izpildei plāni](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](./talent-support.md)

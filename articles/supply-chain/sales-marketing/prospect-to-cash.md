@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251365"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814079"
 ---
 # <a name="prospect-to-cash"></a>No potenciālā klienta līdz skaidrai naudai
 
@@ -36,12 +36,12 @@ Lai iegūtu papildinformāciju par risinājuma No potenciālā klienta līdz ska
 
 Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai nodrošina tālāk aprakstītos tiešās sinhronizācijas tipus.
 
-- [Kontu uzturēšana programmā Sales un to tieša sinhronizēšana ar programmu Supply Chain Management](accounts-template-mapping-direct.md)
-- [Preču uzturēšana programmā Supply Chain Management un to tieša sinhronizēšana ar programmu Sales](products-template-mapping-direct.md)
-- [Kontaktpersonu uzturēšana programmā Sales un to tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Supply Chain Management](contacts-template-mapping-direct.md)
-- [Programmā Sales esošo pārdošanas piedāvājumu tieša sinhronizēšana ar produktiem programmā Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
-- [Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizēšana ar programmu Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [Programmā Supply Chain Management esošo pārdošanas rēķinu tieša sinhronizēšana ar produktiem programmā Sales](sales-invoice-template-mapping-direct.md)
+- [Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management](accounts-template-mapping-direct.md)
+- [Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales](products-template-mapping-direct.md)
+- [Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai klientiem programmā Supply Chain Management](contacts-template-mapping-direct.md)
+- [Programmā Sales ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana ar programmu Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizācija ar programmu Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [Programmā Supply Chain Management ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management sistēmas prasības
 Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tālāk norādītajās versijās.

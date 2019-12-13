@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 859d769b95c57663dc1bb76a632e34728a6691b5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570813"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813888"
 ---
 # <a name="reserve-inventory-quantities"></a>Rezervēt krājumu daudzumus
 
@@ -55,7 +55,7 @@ Sadaļā **Krājumu politikas** ir iekļautas tālāk norādītās rezervēšana
 | No datuma atkarīgs FIFO    | Ja atlasāt opciju **No datuma atkarīgs FIFO**, tad krājumu rezervēšanu nosaka kārtošanas datums saskaņā ar principu FIFO. Partijas tiek rezervētas, pamatojoties uz agrāko krājumu saņemšanas datumu saskaņā ar principu “pirmais iekšā, pirmais ārā” (first in, first out — FIFO).                                                                                                                                                                                                                                                                       |
 | Pirms nosūtīšanas datuma | Šī opcija kļūst pieejama tikai tad, ja ir atlasīta opcija **No datuma atkarīgs FIFO**. Ja atlasāt vienumu **Pirms nosūtīšanas datuma**, krājumi tiek rezervēti atpakaļ no vēlamā nosūtīšanas datuma atbilstoši principam “pēdējais iekšā, pirmais ārā” (last in, first out — LIFO). Ja ieejas plūsmas pirms nosūtīšanas datuma nav pieejamas, tiek lietota FIFO rezervēšana.                                                                                                                                                                                                           |
 | Krājuma rezervācija pārdošanai  | Nosaka, vai krājumu rezervēšana notiek manuāli vai automātiski. Ja rezervēšana notiek automātiski, krājumi tiek rezervēti, kad tiek izveidotas pasūtījuma rindas. Ir iespējams rezervācijas veikt MK krājuma numura līmenī (opcija **Automātiski**) vai atsevišķiem MK elementiem (opcija **Izvēršana**). Vienuma **Krājuma rezervācija pārdošanai** noklusējuma vērtība var tikt pārmantota no lapas **Debitoru parādu parametri.** Šajā lapā vērtība tiek iestatīta cilnes **Vispārīgi** **sadaļas** **Pārdošanas noklusējuma vērtības** laukā Rezervācija. |
-| Tās pašas partijas atlasīšana    | Tās pašas partijas rezervēšana ļauj rezervēt krājumus pārdošanas pasūtījuma rindai no vienas krājumu partijas. Ja vēlaties izmantot šo opciju, arī opcija **Konsolidēt vajadzību** ir jāiestata uz **Jā**. Pastāv papildu iestatījumi, kas ir nepieciešami izsekošanas dimensiju grupai un noliktavas dimensiju grupai. Papildinformāciju skatiet rakstā [Tās pašas partijas rezervēšana pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
+| Tās pašas partijas atlasīšana    | Tās pašas partijas rezervēšana ļauj rezervēt krājumus pārdošanas pasūtījuma rindai no vienas krājumu partijas. Ja vēlaties izmantot šo opciju, arī opcija **Konsolidēt vajadzību** ir jāiestata uz **Jā**. Pastāv papildu iestatījumi, kas ir nepieciešami izsekošanas dimensiju grupai un noliktavas dimensiju grupai. Papildinformāciju skatiet [Tās pašas partijas rezervēšana pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Konsolidēt vajadzību | Šī opcija ir līdzīga opcijai **Tās pašas partijas atlasīšana**, un tā pārdošanas pasūtījuma rindās rezervētos krājumus apkopo vienā vajadzībā.                                                                                                                                                                                                                                                                                                                                                                                      |
 | No datuma atkarīgs FEFO    | Šī opcija ļauj rezervēt partijas, kurām tuvojas to beigu datums vai derīguma termiņa datums. Arī laukam **Izdošanas kritēriji** ir jāiestata vērtība **Beigu datums** vai **Derīguma termiņa datums**.                                                                                                                                                                                                                                                                                                                              |
 

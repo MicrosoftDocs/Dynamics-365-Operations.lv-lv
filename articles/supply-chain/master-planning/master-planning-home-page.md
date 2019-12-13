@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250695"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814265"
 ---
 # <a name="master-planning-home-page"></a>Vispārējās plānošanas sākumlapa
 
@@ -39,9 +39,9 @@ Vispārējā plānošana šo informāciju izmanto, lai aprēķinātu prasības u
 
 Plānošanu veido trīs tālāk norādītie galvenie procesi.
 
--  **Vispārējā plānošana** — Vispārējā plānošana aprēķina neto vajadzības. Tā ir balstīta uz pašreizējiem faktiskajiem pasūtījumiem un ļauj uzņēmumiem kontrolēt īstermiņa, ikdienas krājumu papildināšanu. Šo procesu var aprakstīt arī ar nosaukumu *Neto vajadzību plāns*. Papildinformāciju skatiet šeit: [Vispārējā plānošana](master-plans.md). 
+-  **Vispārējā plānošana** — Vispārējā plānošana aprēķina neto vajadzības. Tā ir balstīta uz pašreizējiem faktiskajiem pasūtījumiem un ļauj uzņēmumiem kontrolēt īstermiņa, ikdienas krājumu papildināšanu. Šo procesu var aprakstīt arī ar nosaukumu *Neto vajadzību plāns*. Papildinformāciju skatiet sadaļā [Vispārējais pārskats](master-plans.md). 
 
--  **Prognožu plānošana** — Prognožu grafiks aprēķina bruto vajadzības. Tas ir balstīts uz nākotnes plānošanu (jeb prognozēm) un ļauj uzņēmumiem veikt materiālu un jaudas ilgtermiņa plānošanu. Papildinformāciju skatiet šeit: [Prognožu plānošana](introduction-demand-forecasting.md). 
+-  **Prognožu plānošana** — Prognožu grafiks aprēķina bruto vajadzības. Tas ir balstīts uz nākotnes plānošanu (jeb prognozēm) un ļauj uzņēmumiem veikt materiālu un jaudas ilgtermiņa plānošanu. Papildinformāciju skatiet rakstā [Pieprasījuma prognozēšanas pārskats](introduction-demand-forecasting.md). 
 
 -  **Starpuzņēmumu vispārējā plānošana** — Starpuzņēmumu vispārējais plāns aprēķina neto vajadzības dažādās juridiskajās personās. Tas savieno pieprasījumu un piedāvājumu starp uzņēmumiem — ne tikai īstermiņa, apstiprināto pieprasījumu un piedāvājumu, bet arī ilgtermiņa, plānoto (tādu, kas vēl nav apstiprināts) pieprasījumu un piedāvājumu. Papildinformāciju skatiet šeit: [Starpuzņēmumu vispārējā plānošana](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (elektroniskās mācības) (nepieciešams CustomerSource konts). 
 
@@ -57,13 +57,13 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 ## <a name="quick-links"></a>Tiešās saites
 
-- [Vispārējie plāni](master-plans.md)  
+- [Vispārējo plānu pārskats](master-plans.md)  
 - [Ierobežotā plāna ģenerēšana](./tasks/constrained-plan.md)
 - [Materiālu plāna izveide līdzproduktiem](./tasks/create-material-plan-co-products.md)
-- [Vispārēja plānošana un vairākvietu funkcionalitāte](master-plan-multisite-functionality.md)
+- [Vispārēja plānošanas un vairākvietu funkcionalitātes pārskats](master-plan-multisite-functionality.md)
 - [Starpuzņēmumu plāna izveide](./tasks/create-intercompany-plan.md)
 - [Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
-- [Samazināšanas principi](reduction-keys.md)
+- [Prognozes samazināšanas principi](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Papildu resursi
 

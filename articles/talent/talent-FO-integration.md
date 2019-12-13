@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622772"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830190"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 Talent integrāciju ar Dynamics 365 Finance
 
@@ -48,7 +48,7 @@ Veidnes ir sākumpunkts. Varat izveidot savu veidni, taču veidne vienmēr ir ne
 
 Finanšu dimensijas pašlaik nav pakalpojumā Common Data Service un līdz ar to nav noklusējuma veidnes sastāvdaļa. Šis elements ir plānots, bet pašlaik nav zināms izlaišanas laiks.
 
-Tādu datu gadījumā, kuri atrodas risinājumā Finance, bet kuru nav risinājumā Talent, saistiet abas sistēmas kopā, izmantojot vienumu **Konfigurēt saites** risinājumā Talent. Plašāku informāciju par to, kā konfigurēt saites starp Talent un Finance, skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Talent: Core HR (2018. gada 31. oktobris)](whats-new-talent-october-31.md).
+Tādu datu gadījumā, kuri atrodas risinājumā Finance, bet kuru nav risinājumā Talent, saistiet abas sistēmas kopā, izmantojot vienumu **Konfigurēt saites** risinājumā Talent. Plašāku informāciju par to, kā konfigurēt saites starp Talent un Finance, skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Talent - Core HR (2018. gada 31. oktobris)](whats-new-talent-october-31.md).
 
 ![Kartēt finanšu dimensijas](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Ar opciju “Papildu vaicājums” varat filtrēt un pārveidot avota datus pirm
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Vai var norādīt, kurus laukus nosūtīt uz risinājumu Finance konkrētam elementam?
 
 Laukus var pievienot vai noņemt no integrācijas uzdevuma. Ne visi datu lauki, kas pastāv pakalpojuma Common Data Service elementā, tiks aizpildīti no Core HR.
-Papildu datus var aizpildīt, izmantojot PowerApps.
+Papildu datus var aizpildīt, izmantojot Power Apps.
 
 ![Pievienot vai noņemt laukus no integrācijas uzdevuma](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Izsekojiet laiku datu integrētāja izpildes vēsturē un meklējiet projektu ar
 
 1. Iegūstiet uzdevuma indeksu no datu integrētāja (šajā piemērā tas ir “9”).
 
-![Uzdevuma indeksa iegūšana no datu integrētāja](media/CaptureTaskIndex.png)
+    ![Uzdevuma indeksa iegūšana no datu integrētāja](media/CaptureTaskIndex.png)
 
 2. Izsekojiet projekta izpildes laiku.
 
-![Projekta izpildes laika izsekošana](media/CaptureTimeOfExecution.png)
+    ![Projekta izpildes laika izsekošana](media/CaptureTimeOfExecution.png)
 
 3. Risinājumā Finance norādiet indeksu-1. Šajā piemērā projekts ar sufiksu “8” un projekta ar indeksu “0” izpildes laiks atbilst izpildes laikam 2. darbībā.
 
-![Indeksa atrašana](media/IdentifyIndex.png)
+    ![Indeksa atrašana](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Pēc Talent un Finance integrācijas Talent dati netiek rādīti risinājumā Finance. Ko darīt?
 
-Integrācija risinājumā Finance paredz divas darbības. Vispirms pārliecinieties, vai Talent dati ir atjaunināti un ir pieejami pakalpojumā Common Data Service. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā PowerApps, skatot datus, kuri ir datu elementos.
+Integrācija risinājumā Finance paredz divas darbības. Vispirms pārliecinieties, vai Talent dati ir atjaunināti un ir pieejami pakalpojumā Common Data Service. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā Power Apps, skatot datus, kuri ir datu elementos.
 
 ![Dati pakalpojumā Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Atsvaidziniet datu elementus risinājumā Finance, atverot sadaļu **Datu pārva
 
   - [Datu integrētāja kļūdu pārvaldība un problēmu novēršana](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Atbildes sniegšana uz DSR pieprasījumiem sistēmas ģenerētiem žurnāliem platformā PowerApps, Microsoft Flow un Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atbildes sniegšana uz DSR pieprasījumiem sistēmas ģenerētiem žurnāliem platformā Power Apps, Microsoft Power Automate un Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Datu pārvaldība:
 

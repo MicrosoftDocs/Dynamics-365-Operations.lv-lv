@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571258"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812218"
 ---
 # <a name="functional-location-types"></a>Funkcionālo novietojumu veidi
 
@@ -56,7 +56,7 @@ Tagad ir izveidots noklusējuma funkcionālā novietojuma veids, kas jāizmanto 
 3. Ievietojiet funkcionālā novietojuma veida ID laukā **Funkcionālā novietojuma veids**, piemēram, "Noklusējums", un nosaukumu laukā **Nosaukums**.
 4. Atlasiet dzīves cikla modeli laukā **Funkcionālā novietojuma dzīves cikla modelis**. Plašāku informāciju par funkcionālā novietojuma dzīves cikla stāvokļiem un dzīves cikla modeļiem skatiet sadaļā [Funkcionālo novietojumu dzīves cikla stāvokļi](../setup-for-functional-locations/functional-location-stages.md).
 5. Atlasiet "Jā" uz pārslēgšanas pogas **Vairāki līdzekļi**, ja vajadzētu būt iespējamam uzstādīt vairākus līdzekļus funkcionālajā novietojumā, izmantojot šo funkcionālā novietojuma veidu. Ja atlasīsit "Nē", varat instalēt tikai *vienu* līdzekli funkcionālajā novietojumā, izmantojot šo funkcionālā novietojuma veidu.
-6. Atlasiet "Jā" uz pārslēgšanas pogas **Atjaunināt līdzekļa dimensij**, ja vēlaties, lai līdzekļi, kas uzstādīti šī veida funkcionālajā novietojumā, automātiski izmantotu ar funkcionālo novietojumu saistītās finanšu dimensijas. Tas nozīmē, ka, ja maināt finanšu dimensijas veidlapā [Funkcionālais novietojums](../functional-locations/create-functional-locations.md) formā un funkcionālais novietojums izmanto funkcionālā novietojuma veidu ar šo pārslēgšanas pogu iestatītu uz "Jā", finanšu dimensijas tiek automātiski atjauninātas visiem līdzekļiem, kas uzstādīti šajā funkcionālajā novietojumā.
+6. Atlasiet "Jā" uz pārslēgšanas pogas **Atjaunināt līdzekļa dimensij**, ja vēlaties, lai līdzekļi, kas uzstādīti šī veida funkcionālajā novietojumā, automātiski izmantotu ar funkcionālo novietojumu saistītās finanšu dimensijas. Tas nozīmē, ka, ja maināt finanšu dimensijas veidlapā [Izveidot funkcionālo novietojumu](../functional-locations/create-functional-locations.md) un funkcionālais novietojums izmanto funkcionālā novietojuma veidu ar šo pārslēgšanas pogu iestatītu uz "Jā", finanšu dimensijas tiek automātiski atjauninātas visiem līdzekļiem, kas uzstādīti šajā funkcionālajā novietojumā.
 7. Lauks **Līdzekļa veids** tiek izmantots, ja vēlaties automātiski izveidot *vienu* līdzekli funkcionālajam novietojumam ar tādu pašu ID un nosaukumu kā funkcionālajam novietojumam, kuru veidojat. Piemēram, tas var būt būtiski, ja veidojat statisku funkcionālo novietojumu, piemēram, ēku vai konveijeru. Šādā gadījumā atlasiet līdzekļa veidu, kuru vēlaties izmantot automātiski izveidotam līdzeklim. Atcerieties, ka gadījumā, ja veicat atlasi šajā laukā, pārslēgšanas pogai **Vairāki līdzekļi** jābūt iestatītai uz "Nē".
 8. Kopsavilkuma cilnē **Līdzekļu veidi** atlasiet līdzekļu veidus, kas ir saistīti ar funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet līdzekļu veidus. Ja šeit pievienojat līdzekļu veidus, funkcionālā novietojumā var uzstādīt tikai tos līdzekļus, kas izmanto šo funkcionālā novietojuma veidu. Ja kopsavilkuma cilnē **Līdzekļu veidi** nav atlasīts neviens līdzekļu veids, var uzstādīt visus līdzekļu veidus.
 9. Kopsavilkuma cilnē **Uzturēšanas plāni** atlasiet uzturēšanas plānus, kas automātiski jāiestata jaunos funkcionālos novietojumos, izmantojot šo funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet uzturēšanas plānus. Ja šeit pievienojat uzturēšanas plānus, funkcionālajā novietojumā var izmantot tikai šos plānus, izmantojot šo funkcionālā novietojuma veidu.

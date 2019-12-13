@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019397"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811244"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019397"
 Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
 
 > [!NOTE]
-> Konkrētus instalēšanas norādījumus skatiet rakstos [Retail hardware station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md) un [Retail Modern POS pašapkalpošanās risinājuma lejupielāde/instalēšana un Modern POS un Cloud POS ierīces aktivizēšana](retail-modern-pos-device-activation.md).
+> Lai iegūtu informāciju par noteiktiem instalēšanas norādījumiem, skatiet sadaļu [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md) un [Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Galvenie komponenti
 
@@ -139,7 +139,7 @@ Funkcionalitātes profils tiek iestatīts veikala līmenī. Tas tiek izmantots, 
 
 - Kopsavilkuma cilne **Informācijas kodi**.
 
-    - Visos aspekti par to, kā šajā POS tiek pārvaldīti informācijas kodi. Plašāku informāciju skatiet rakstā [Informācijas kodi](info-codes-retail.md).
+    - Visos aspekti par to, kā šajā POS tiek pārvaldīti informācijas kodi. Plašāku informāciju skatiet tēmā [Informācijas kodi un informācijas kodu grupas](info-codes-retail.md).
 
 - Kopsavilkuma cilne **Kvīšu numerācija**.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract līdzekļi un iespējas
+title: Attract līdzekļi un iespējas
 description: Šajā tēmā ir aprakstīti programmā Microsoft Dynamics 365 Talent - Attract pieejamie līdzekļi jauna darbinieka pieņemšanas procesa pārvaldībai.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552075"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833073"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - Attract līdzekļi un iespējas
+# <a name="attract-features-and-capabilities"></a>Attract līdzekļi un iespējas
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Programma Attract nodrošina iepriekš definētu darbā pieņemšanas procesu, k
 Tiklīdz kandidāti tiek pievienots kādai vakancei, viņi saņem e-pasta ziņojumu, kurā ir ietverta tīmekļa programmas iegūšanas saite. Šajā programmā ir sniegta detalizēta informācija par vakanci, un tā tiek izmantota, lai sazinātos ar darbā pieņemšanas grupu. Kandidāti var to izmantot arī informācijas sniegšanai par savu pieejamību intervijām.
 
 ## <a name="analytic-reports"></a>Analīzes pārskati
-Par pieņemšanu darbā atbildīgās grupas var skatīt atsevišķa darba galvenos darbā pieņemšanas rādītājus vai apkopotus rādītājus par visiem darbiem [analīzes pārskatos pakalpojumā Attract.](analytic-reports.md) Šis līdzeklis pašlaik ir [priekšskatījums](access-preview-feature.md) klientiem ar [Visaptverošo darbā pieņemšanas papildinājumu.](attract-comprehensive-hiring.md)
+Par pieņemšanu darbā atbildīgās grupas var skatīt atsevišķa darba galvenos darbā pieņemšanas rādītājus vai apkopotus rādītājus par visiem darbiem [analīzes pārskatos pakalpojumā Attract.](analytic-reports.md) Šis līdzeklis pašlaik ir [priekšskatījumā](access-preview-feature.md) debitoriem ar [Kura Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md)

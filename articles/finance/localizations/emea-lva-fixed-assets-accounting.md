@@ -18,12 +18,12 @@ ms.search.region: Latvia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f1c24fb49e6c35b293ffbc9c85bb47349e882f0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a2d24663a08d920bf802bf92b6eb36c2220fb71b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176137"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773452"
 ---
 # <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
 
@@ -51,7 +51,7 @@ Izmantojiet lapu **Grāmatas**, lai definētu nodokļu kategoriju. Grāmatas tie
 -   **Summēt par kategoriju** — atzīmējiet šo opciju, ja nodokļu nolietojums ir jāsummē un jāaprēķina visiem pamatlīdzekļiem, kam laukā **Kategorija** ir atlasīta vienāda grāmata.
 -   **Nodokļu koeficienti** — varat iestatīt nodokļu koeficientus katram koeficientam, lai finanšu gadam koriģētu iegādes cenu.
 
-Papildinformāciju par grāmatu iestatīšanu skatiet rakstā [Nolietojuma grāmatu iestatīšana](../fixed-assets/tasks/set-up-depreciation-books-2016-05.md)
+Papildinformāciju par grāmatu iestatīšanu skatiet rakstā [Nolietojuma grāmatu iestatīšana (2016. gada maijs)](../fixed-assets/tasks/set-up-depreciation-books-2016-05.md)
 
 ### <a name="set-up-tax-depreciation-calculation"></a>Iestatīt nodokļu nolietojuma aprēķinu
 

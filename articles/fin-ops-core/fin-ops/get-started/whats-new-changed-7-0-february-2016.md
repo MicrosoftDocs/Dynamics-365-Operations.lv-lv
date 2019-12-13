@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627655"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811486"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
 
@@ -322,7 +322,7 @@ ms.locfileid: "2627655"
 <tr>
 <td>Piekļūstiet strukturētai procedurālai palīdzībai (uzdevumu ceļvežiem) un konceptuālām tēmām, noklikšķinot uz <strong>Palīdzība</strong>.</td>
 <td>AX 2012 palīdzības sistēma novirza uz HTML tēmām, kas tiek glabātas lokālajā tīmekļa serverī. Debitori un partneri var izveidot paši savu palīdzību.</td>
-<td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft dokumentu vietnes. Papildinformāciju skatiet tēmās <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX palīdzība — darba sākšana</a> un <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Jaunie pieejamie uzdevumu ceļveži (2016. gada februāris)</a>.</td>
+<td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft dokumentu vietnes. Papildinformāciju skatiet <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Palīdzības sistēma</a> un <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Jaunie uzdevumu ceļveži (2016. gada februāris)</a>.</td>
 <td>Uzdevumu ceļveži sniedz strukturētu, interaktīvu pieredzi, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Varat lejupielādēt un pielāgot uzdevumu ceļvežus, ko nodrošina Microsoft. Tēmā ir sniegts ātrāks un elastīgāks veids, kā izveidot, piegādāt un atjaunināt preces dokumentāciju. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.</td>
 </tr>
 </tbody>
@@ -1031,6 +1031,6 @@ Nav pievienoti jauni līdzekļi.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Jaunumi un izmaiņas](whats-new-changed.md)
+[Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“](whats-new-changed.md)
 
-[Pieejami jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
+[Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)

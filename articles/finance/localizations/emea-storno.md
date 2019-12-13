@@ -16,12 +16,12 @@ ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d85df8c5e23267f9be6c75370cadad8da499c2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 2cefdbc03b19eebff8141d4f578047de002ace56
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250345"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773457"
 ---
 # <a name="storno-accounting"></a>Storno uzskaite
 
@@ -32,7 +32,7 @@ Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgriez
 *Storno uzskaite* ir prakse, kurā tiek izmantotas negatīvas debeta vai kredīta summas, lai apgrieztu sākotnējos žurnāla konta ierakstus. Tā kā grāmatveži parasti Storno ierakstus veic ar sarkanu tinti, šī uzskaites prakse ir pazīstama arī kā *Sarkanais storno*. Izmantojot Storno uzskaiti, varat atcelt dokumentu, kurā ir norādīta nepareiza summa, taču pēc atcelšanas vienmēr ir jāievada pareizā dokumenta summa.
 
 ## <a name="example"></a>Paraugs
-Grāmatvedis grāmato kreditora rēķinu par summu 120 USD. Maksāšanas procesa laikā tiek atklāts, ka grāmatvedis ir kļūdījies un ievadījis 120 USD, nevis 102 USD. Tagad grāmatvedim ir jāizveido Storno ieraksts sākotnējam dokumentam un pēc tam jāizveido pareizais rēķins par summu 102 USD. Papildinformāciju skatiet rakstā [Kreditora rēķins](../accounts-payable/vendor-invoices-overview.md). Tālāk esošajā tabulā parādīts vispārējais Storno ieraksts.
+Grāmatvedis grāmato kreditora rēķinu par summu 120 USD. Maksāšanas procesa laikā tiek atklāts, ka grāmatvedis ir kļūdījies un ievadījis 120 USD, nevis 102 USD. Tagad grāmatvedim ir jāizveido Storno ieraksts sākotnējam dokumentam un pēc tam jāizveido pareizais rēķins par summu 102 USD. Plašāku informāciju skatiet šeit:  [Kreditora rēķinu pārskats](../accounts-payable/vendor-invoices-overview.md). Tālāk esošajā tabulā parādīts vispārējais Storno ieraksts.
 
 | **Dokumenta ID** | **Konts** | **Debets** | **Kredīts** | **Komentārs**                  |
 |-----------------|-------------|-----------|------------|------------------------------|
@@ -168,5 +168,5 @@ Varat pielāgot Storno attēlojumu formās, režģos, kolonnās un laukos. Piem�
 ![Žurnāla ieraksta Storno summas](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kā dokumenti izveido Storno
-Noteikti dokumenti izraisa atcelšanas transakciju izveidi. Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus. Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Kreditori un debitoru parādi](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Pēc atcelšanas transakcijas izveides tiek izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem. Atcelšanas transakcijas tiek izveidotas arī krājumiem. Papildinformāciju skatiet rakstā [Krājumu slēgšana](../../supply-chain/cost-management/inventory-close.md). Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu. Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu. Dokumentos tiek izmantoti īpaši parametri, lai izveidotu reversīvās vai Storno transakcijas. Piemēram, ārvalstu valūtas pārvērtēšana izraisa reversīvas vai Storno transakcijas izveidi, pamatojoties uz Virsgrāmatas labojuma parametru. Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.
+Noteikti dokumenti izraisa atcelšanas transakciju izveidi. Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus. Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Ārvalstu valūtas pārvērtēšana kreditoriem un debitoriem](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Pēc atcelšanas transakcijas izveides tiek izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem. Atcelšanas transakcijas tiek izveidotas arī krājumiem. Papildinformāciju skatiet rakstā [Krājumu slēgšana](../../supply-chain/cost-management/inventory-close.md). Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu. Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu. Dokumentos tiek izmantoti īpaši parametri, lai izveidotu reversīvās vai Storno transakcijas. Piemēram, ārvalstu valūtas pārvērtēšana izraisa reversīvas vai Storno transakcijas izveidi, pamatojoties uz Virsgrāmatas labojuma parametru. Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.
 

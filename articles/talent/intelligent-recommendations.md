@@ -1,6 +1,6 @@
 ---
-title: Inteliģentie ieteikumi
-description: Šajā tēmā ir paskaidrots, kā var izmantot algoritmisko mācīšanos, lai sniegtu ieteikumus darbiem un darba kandidātiem.
+title: Inteliģentie ieteikumi programmā Attract
+description: Šajā rakstā ir paskaidrots, kā var izmantot algoritmisko mācīšanos, lai sniegtu ieteikumus darbiem un darba kandidātiem programmā Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741756"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832795"
 ---
-# <a name="intelligent-recommendations"></a>Inteliģentie ieteikumi
+# <a name="intelligent-recommendations-in-attract"></a>Inteliģentie ieteikumi programmā Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Algoritmiskā mācīšanās var noderēt personāla atlases darbiniekiem un darbā pieņemšanas vadītājiem, lai ātri atpazītu amatiem piemērotākos kandidātus. Tā var noderēt arī potenciālajiem darba ņēmējiem, lai atrasto savam profilam un interesēm vispiemērotāko amatu. Izmantojot šos līdzekļus un sniedzot atsauksmes, laika gaitā ieteikumi uzlabojas.
 
 > [!NOTE] 
 > - Inteliģento ieteikumu līdzekļi ir pieejami tikai kopā ar [visaptverošo darbā pieņemšanas pievienojumprogrammu](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Šajā tēmā minētā funkcionalitāte ir pieejama kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Lai lietotu šo līdzekli, lūdziet administratoram to iespējot, izmantojot sadaļu **Administrēšanas centrs** programmā Attract. Iestatiet vienumiem **Kandidāta ieteikums**, **Darba ieteikums** un **Potenciālā kandidāta ieteikums** opciju **Ieslēgts**. Papildinformāciju skatiet tēmā [Piekļuve priekšskatījuma līdzekļiem programmā Talent](./access-preview-feature.md). 
+> - Šajā tēmā minētā funkcionalitāte ir pieejama kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Lai lietotu šo līdzekli, lūdziet administratoram to iespējot, izmantojot sadaļu **Administrēšanas centrs** programmā Attract. Iestatiet vienumiem **Kandidāta ieteikums**, **Darba ieteikums** un **Potenciālā kandidāta ieteikums** opciju **Ieslēgts**. Papildinformāciju skatiet tēmā [Piekļuve priekšskatījuma iespējām programmā Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Kandidātu ieteikumi

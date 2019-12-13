@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248938"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813366"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides. 
 
@@ -80,6 +81,9 @@ Kad veidojat pirkšanas pasūtījumu, varat tam lietot pirkšanas līgumu. Pēc 
 Pirkšanas līgumu varat atlasīt tikai tad, kad veidojat pirkšanas pasūtījumu. Pirkšanas līgumu nevar atlasīt pēc tam, kad pirkšanas pasūtījums jau ir izveidots.  
 Noteiktos risinājumos, kur pirkšanas pasūtījumi tiek veidoti netieši, varat kontrolēt, vai Supply Chain Management automātiski meklē piemērojamos pirkšanas līgumus. Piemēram, varat to darīt, ja automātiski apstiprināt plānotos pirkšanas pasūtījumus vai veidojat pirkšanas pasūtījumus, kuru pamatā ir pārdošanas pasūtījumi.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Pirkšanas līgumu atbilstības ierobežojumi
+Pirkšanas līguma virsrakstā var definēt rindas atbilstības ierobežojumus. Šie rindu atbilstības ierobežojumi ievēros kreditoru parametru rindas atbilstības ierobežojumi, kad lauks **Atļaut atbilstības ierobežoju ignorēšanu** lapā **Kreditoru parametri** (**Cenas un daudzuma salīdzināšana** kopsavilkuma cilnē) ir iestatīts **Augstāk par uzņēmuma politiku**. Dokumentos, kas atsaucas uz pirkšanas līgumu, tiks izmantoti rindas atbilstības ierobežojumi, kas definēti pirkšanas līguma virsrakstā, ja vien atbilstošajā krājumā, krājumos un kreditora vai kategoriju pirkšanas politikā nav norādīts citādi.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkšanas līgumi un starpuzņēmumu tirdzniecība
 Starpuzņēmumu darījumu attiecības var izveidot starp kreditoru kontiem un debitoru kontiem, kas pieder dažādām juridiskajām personām. Kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu vienai no pusēm, tiek izveidota starpuzņēmumu pasūtījumu ķēde. Pasūtījumu ķēdē pārdošanas pasūtījums un pirkšanas pasūtījums tiek izveidots atbilstošajās juridiskajās personās.  
 
@@ -93,9 +97,9 @@ Finanšu dimensijas varat kopēt pirkšanas līguma dokumentu galvenēs vai atse
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Pirkšanas līguma izveide (uzdevuma ceļvedis)](tasks/create-purchase-agreement.md)
+[Pirkšanas līguma izveide](tasks/create-purchase-agreement.md)
 
-[Pirkšanas izpildpasūtījuma izveide no pirkšanas līguma (uzdevuma ceļvedis)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Pirkšanas izpildpasūtījuma izveide no pirkšanas līguma](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

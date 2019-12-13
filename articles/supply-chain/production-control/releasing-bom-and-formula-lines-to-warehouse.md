@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249938"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815253"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249938"
 Šajā tēmā ir aprakstīts, kā izejmateriālus materiālu komplektu (MK) rindām un formulas rindām izlaist nosūtīšanai uz noliktavu. Kad MK vai formulas rindu izlaižat nosūtīšanai uz noliktavu, sistēma vispirms nosaka, vai attiecīgais materiāls ražotnē jau ir pieejams ražošanas ievades novietojumā, kur šis materiāls tiks patērēts ražošanas procesam.
 
 - Ja materiāls ir pieejams ražošanas ievades novietojumā, tas tiek izdots no šī novietojuma uzreiz pēc tam, kad tiek dots signāls materiāla izlaišanai pārvietošanai uz noliktavu.
-- Ja materiāls nav pieejams ražošanas ievades novietojumā, materiāla izlaišana norāda, ka no novietojumiem noliktavā šis materiāls ir jāpārvieto uz ražošanas ievades novietojumu. Materiāls tiek pārvietots, izmantojot noliktavas darbu izejmateriālu izdošanai. Tādēļ ir jābūt konfigurētiem noliktavas procesiem izejmateriālu izdošanai. Papildinformāciju skatiet šeit: [Papildināšana](../warehousing/replenishment.md) un [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](../warehousing/control-warehouse-location-directives.md).
+- Ja materiāls nav pieejams ražošanas ievades novietojumā, materiāla izlaišana norāda, ka no novietojumiem noliktavā šis materiāls ir jāpārvieto uz ražošanas ievades novietojumu. Materiāls tiek pārvietots, izmantojot noliktavas darbu izejmateriālu izdošanai. Tādēļ ir jābūt konfigurētiem noliktavas procesiem izejmateriālu izdošanai. Papildinformāciju skatiet [Papildināšanas pārskats](../warehousing/replenishment.md) un [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Metodes MK un formulas rindu izlaišanai
 

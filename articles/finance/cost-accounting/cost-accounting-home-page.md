@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178853"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771965"
 ---
 # <a name="cost-accounting-home-page"></a>Izmaksu uzskaites sākumlapa
 
@@ -39,17 +39,17 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 |      |   |
 |------|---|
-|  [Bāzes elementu konfigurēšana (elektroniskās mācības)](https://mbspartner.microsoft.com/Home) (nepieciešams CustomerSource konts)  |[Izveidot dimensijas](cost-elements.md)  |
-|  [Dimensiju hierarhijas izveide](dimension-hierarchy.md)  |[Pamata iestatījumu izveide](./tasks/define-cost-control-units.md)| 
-| [Sadalījuma pamata definēšana](allocation-bases.md)|[Definēt ierobežojumus](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Datu avots un datu nodrošinātājs](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Datu avots un datu nodrošinātājs](./tasks/process-trace-source-data.md)     | 
-|[Pieskaitāmo izmaksu aprēķināšana](overhead-calculation.md)  | [Analīze un pārskati](cost-control-workspace.md)   |
+|  [Bāzes elementu konfigurēšana (elektroniskās mācības)](https://mbspartner.microsoft.com/Home) (nepieciešams CustomerSource konts)  |[Izmaksu elementu dimensijas](cost-elements.md)  |
+|  [Dimensiju hierarhija](dimension-hierarchy.md)  |[Izmaksu vadības ierīču definēšana](./tasks/define-cost-control-units.md)| 
+| [Sadalījuma pamati](allocation-bases.md)|[Izmaksu sadalījuma politikas izveide un piešķiršana izmaksu vadības ierīcei](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Izmaksu uzskaites virsgrāmatas datu avota pārvaldība](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Avota datu apstrāde un izsekošana](./tasks/process-trace-source-data.md)     | 
+|[Pieskaitāmo izmaksu aprēķināšana](overhead-calculation.md)  | [Izmaksu kontroles darbvieta](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Darba sākšanas videoklipi<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Darba sākšana risinājumā Izmaksu uzskaite](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Izmaksu uzskaites mobilā darbvieta](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Excel izmantošana izmaksu uzskaites analīzei](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

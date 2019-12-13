@@ -1,5 +1,5 @@
 ---
-title: Darbu izveide, apstiprināšana un publicēšana programmā Attract
+title: Izveidot darbu sistēmā Attract
 description: Šajā tēmā ir aprakstīti darba elementi programmā Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551076"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832935"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Darbu izveide, apstiprināšana un grāmatošana programmā Attract
+# <a name="create-a-job-in-attract"></a>Izveidot darbu sistēmā Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Ja administrēšanas centrā ir ieslēgta amatu pārvaldība, ir pieejama meklē
 > [!NOTE]
 > Amatu pārvaldība ir pieejama tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums.
 
-Atkarībā no iestatījumiem darbā pieņemšanas procesa aktivitātei Piedāvājums amata numuru var izmantot divas reizes piedāvājumā. Plašāku informāciju skatiet tēmā [Darbā pieņemšanas process](./activities-attract.md).
+Atkarībā no iestatījumiem darbā pieņemšanas procesa aktivitātei Piedāvājums amata numuru var izmantot divas reizes piedāvājumā. Lai iegūtu papildu informāciju, skatiet rakstu [Aktivitātes darbā pieņemšanas procesos](./activities-attract.md)procesos.
 
 Programmā Attract ietilpst noklusējuma **Prasmju** komplekts. Rakstīšanas laikā šīs prasmes parādās kā ieteikumi. Varat pievienot papildu prasmes, ievadot jaunu prasmju tekstu laukā un pēc tam nospiežot pogu Enter.
 
@@ -67,7 +67,7 @@ Darbā pieņemšanas grupu var atjaunināt pēc tam, kad darbs ir aktivizēts.
 
 Noklusējuma informācija par darbā pieņemšanas procesu balstās uz procesa veidni, kas tika atlasīta, izveidojot darbu. Ja attiecīgajā brīdī netika atlasīta noteikta veidne, tiek izmantota noklusējuma veidne. Definējot darbā pieņemšanas procesu, var pievienot vai noņemt dažādus posmus, izņemot posmus Potenciālais kandidāts, Pieteikums un Piedāvājums. Lai gan posmu Potenciālais kandidāts nevar noņemt, to var izslēgt. Katra posma ietvaros var pievienot vai noņemt vienu vai vairākas iepriekš definētas aktivitātes.
 
-Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšanas procesā, skatiet tēmā [Darbā pieņemšanas procesa aktivitātes pakalpojumā Attract](./activities-attract.md).
+Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšanas procesā, skatiet tēmā [Aktivitātes darbā pieņemšanas procesos](./activities-attract.md).
 
 > [!NOTE]
 > Darbā pieņemšanas procesu nevar atjaunināt pēc tam, kad darbs ir aktivizēts.
@@ -76,7 +76,7 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Dynamics 365 Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies. Kad darbs tiek publicēts kā tikai iekšējs, kandidātiem ir nepieciešams AAD konts, lai skatītu darbu un pieteiktos tam. Ja darbs ir publicēts kā publisks, kandidāti var skatīt darbus un pieteikties tiem, izmantojot visas autentifikācijas iespējas. 
 
-Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietnes funkcionalitāte programmā Attract](career-site.md).
+Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietas iestatīšana Microsoft Dynamics 365 Talent - Attract](career-site.md).
 
 > [!NOTE]
 > Darbu publicēšanas funkcionalitāte ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums programmai Attract.
@@ -90,7 +90,7 @@ Pēc tam, kad darbs ir aktivizēts, to var publicēt, un tam var pievienot poten
 
 ## <a name="prospects-and-applicants"></a>Potenciālie kandidāti un kandidāti
 
-Opcija pievienot potenciālos kandidātus darbam ir iestatīta [aktivitātē Potenciālais kandidāts](./activities-attract.md#prospect-activity) darbā pieņemšanas procesā. Šī opcija ir jāiestata pirms darba aktivizēšanas. Pēc tam, kad darbs ir aktivizēts, tam var pievienot potenciālos kandidātus un kandidātus.
+Opcija pievienot potenciālos kandidātus darbam ir iestatīta [Aktivitātes darbā pieņemšanas procesos](./activities-attract.md#prospect-activity) darbā pieņemšanas procesā. Šī opcija ir jāiestata pirms darba aktivizēšanas. Pēc tam, kad darbs ir aktivizēts, tam var pievienot potenciālos kandidātus un kandidātus.
 
 ## <a name="approvals"></a>Apstiprinājumi
 

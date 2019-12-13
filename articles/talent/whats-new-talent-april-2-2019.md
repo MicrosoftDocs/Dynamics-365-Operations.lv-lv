@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026079"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773697"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 2. aprīlis)
 
@@ -63,7 +63,7 @@ Papildinformāciju par atjauninājumu Finance and Operations Platform update 25
 Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. To klāstā varētu ietilpt ieraksti vadītājiem vai reģionālajiem darbiniekiem. Šī izmaiņa sniedz iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem varat piešķirt drošības lomas. Šīs drošības lomas nosaka piekļuvi plāniem un saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem, lai atlīdzību darbinieku grupām varētu apstrādāt tikai attiecīgās lomas.
 
 ### <a name="upgrade-to-common-data-service"></a>Jaunināšana uz Common Data Service
-Strauji tuvojas termiņi jaunināšanai uz Common Data Service. Pierakstieties PowerApps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Strauji tuvojas termiņi jaunināšanai uz Common Data Service. Pierakstieties Microsoft Power Apps administrēšanas centrā, lai noteiktu, vai jūsu datu bāzi ir nepieciešams jaunināt. Papildinformāciju par termiņiem un jaunināšanai nepieciešamajām darbībām skatiet rakstā [Jaunināšana uz Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Priekšskatījumā
 

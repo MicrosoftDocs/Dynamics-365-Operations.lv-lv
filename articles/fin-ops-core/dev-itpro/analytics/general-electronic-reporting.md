@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578245"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771077"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroniskie pārskati (ER)
 
@@ -71,7 +71,7 @@ Modeļa kartējumam, kas atbalsta izejošos elektroniskos dokumentus, ir tālāk
 
 - Kā datu avotus kādam datu modelim tā var izmantot dažādus datu tipus. Piemēram, tā var izmantot tabulas, datu elementus, metodes vai uzskaitījumus.
 - Tā atbalsta lietotāja ievades parametrus, kurus var definēt kā datu modeļa datu avotus, kur izpildes laikā ir jānorāda kādi dati.
-- Tas atbalsta datu pārveidošanu nepieciešamajās grupās. Turklāt tas sniedz iespēju filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas līdzinās Microsoft Excel formulām. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu veidošanā](general-electronic-reporting-formula-designer.md)).
+- Tas atbalsta datu pārveidošanu nepieciešamajās grupās. Turklāt tas sniedz iespēju filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas līdzinās Microsoft Excel formulām. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu (EP) veidošanā](general-electronic-reporting-formula-designer.md)).
 
 
 Modeļa kartējumam, kas atbalsta ienākošos elektroniskos dokumentus, ir tālāk norādītās iespējas.
@@ -362,5 +362,5 @@ ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automāt
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Lokalizācijas prasības — izveidot elektronisko atskaišu konfigurāciju](electronic-reporting-configuration.md)
-- [Elektronisko atskaišu veidošanas konfigurācijas dzīves cikla pārvaldīšana](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Izveidot elektronisko pārskatu (EP) veidošanas konfigurāciju](electronic-reporting-configuration.md)
+- [Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība](general-electronic-reporting-manage-configuration-lifecycle.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181914"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770027"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
 
@@ -63,7 +63,7 @@ Lai izpildītu šajā tēmā aprakstīto piemēru, jums ir nepieciešama tālāk
 
     [![Lapa Dokumentu tipi](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
-## <a name="configure-er-parameters"></a>Konfigurēt ER parametrus
+## <a name="configure-er-parameters"></a>Konfigurējiet ER parametrus
 1. Darbvietā **Elektronisko pārskatu veidošana** noklikšķiniet uz saites **Elektronisko pārskatu veidošanas parametri**.
 2. Cilnē **Pielikumi** atlasiet dokumenta tipu **Fails** visiem laukiem.
 3. Darbvietā **Elektronisko pārskatu veidošana** nepieciešamo pakalpojumu sniedzēju padariet aktīvu, noklikšķinot uz **Iestatīt kā aktīvu**. Lai iegūtu papildinformāciju, noskatieties uzdevuma ceļvedi **ER Atlasīt pakalpojumu sniedzēju**.
@@ -194,6 +194,6 @@ Iestatiet integrāciju ar Power BI. Papildinformāciju skatiet rakstā [Power BI
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Elektroniskās pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
+[Elektronisko pārskatu (ER) galamērķi](electronic-reporting-destinations.md)
 
-[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)

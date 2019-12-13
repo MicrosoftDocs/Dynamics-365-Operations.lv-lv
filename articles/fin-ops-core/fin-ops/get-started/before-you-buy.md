@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191251"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812630"
 ---
 # <a name="before-you-buy"></a>Pirms iegādes
 
@@ -41,8 +41,8 @@ Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk 
 
 - Normatīvās un atbilstības vajadzības, kas nav pieejamas mākoņa sertifikācijās
 - Bezsaistes biznesa process ar nepastāvīgu interneta savienojumu, kas ir nepieciešams, lai piekļūtu Microsoft Dynamics Lifecycle Services (LCS) lietojumprogrammu dzīves cikla pārvaldības nolūkā
-- [Līdzekļi, kas pašlaik nav ieviesti lokālajos izvietojumos](features-not-implemented-on-prem.md)
-- [Minimālās infrastruktūras prasības](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Līdzekļi, kas nav ieviesti lokālajos izvietojumos](features-not-implemented-on-prem.md)
+- [Sistēmas prasības lokālajiem izvietojumiem](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Microsoft Dynamics 365 for Finance and Operations lokāla izvietošana netiek atbalstīta nevienā publiskā mākoņa infrastruktūrā, tostarp Azure.
@@ -78,7 +78,7 @@ Microsoft mākoņrisinājumu nodrošinātājs var cieši sadarboties ar jums, la
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Iegāde pie Dynamics partnera (lokālā versija)
 
-Lai iegādātos Finance and Operations lokālo versiju, jums ir jāsadarbojas ar partneri. Papildinformāciju skatiet rakstā [Dynamics 365 for Finance and Operations (lokālās versijas) iegāde](purchase-on-premises.md)
+Lai iegādātos Finance and Operations lokālo versiju, jums ir jāsadarbojas ar partneri. Plašāku informāciju skatiet rakstā [Finance + Operations (lokālās versijas) iegāde](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Atbalsta opcijas izvēle
 
@@ -91,7 +91,7 @@ Papildinformācija:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ceturtā darbība: uzziniet par FastTrack un plānojiet savu izvietojumu
 
-Microsoft FastTrack for Dynamics 365 ir pakalpojums mūsu klientiem, kas izstrādāts ar mērķi palīdzēt jums viegli un ar pārliecību pāriet uz Dynamics 365, lai jūs ātrāk varētu realizēt biznesa vērtību. Piedaloties FastTrack programmā, saņemsit norādījumus par labākajām praksēm un to, kā plānot veiksmīgu izlaidi. Jūs uzzināsit arī veidus, kā iespējot jaunus lietotājus un paplašināt iespējas — to visu varēsit darīt sev piemērotākajā brīdī. Turklāt jums būs piekļuve Microsoft tehniskajiem resursiem, kas palīdzēs nodrošināt veiksmīgu pieredzi darbā ar Dynamics 365. Papildinformācija: [Pārskats par Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 ir pakalpojums mūsu klientiem, kas izstrādāts ar mērķi palīdzēt jums viegli un ar pārliecību pāriet uz Dynamics 365, lai jūs ātrāk varētu realizēt biznesa vērtību. Piedaloties FastTrack programmā, saņemsit norādījumus par labākajām praksēm un to, kā plānot veiksmīgu izlaidi. Jūs uzzināsit arī veidus, kā iespējot jaunus lietotājus un paplašināt iespējas — to visu varēsit darīt sev piemērotākajā brīdī. Turklāt jums būs piekļuve Microsoft tehniskajiem resursiem, kas palīdzēs nodrošināt veiksmīgu pieredzi darbā ar Dynamics 365. Papildinformācija: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ja veicat jaunināšanu no programmas Dynamics AX 2012 vai migrēšanu no programmas AX 2009
 

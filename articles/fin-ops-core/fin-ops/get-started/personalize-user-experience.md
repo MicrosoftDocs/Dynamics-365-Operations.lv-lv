@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 124609041163bbcaf1b86a6964fa3f56fcd8f755
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: d3cf2b82470887ee617704b72e47a53d299911e3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658764"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811535"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -112,15 +112,12 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 
 - Izmantojiet rīku **Atlasīt**, lai atlasītu un mainītu elementa rekvizītus. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Atlasīt** un pēc tam atlasiet vēlamo elementu. Elementa rekvizītu logs parādās, un jūs varat mainīt jebkurus šī elementa rekvizītus. Šo procesu varat atkārtot citiem elementiem, kurus attiecīgajā lapā var personalizēt. Ņemiet vērā, ka daži personalizēšanas rekvizīti var nebūt pieejami dažos scenārijos. Piemēram, jūs nevarat bloķēt lauku, kas ir obligāts.
 - Izmantojiet rīku **Paslēpt**, lai slēptu kādu elementu šajā lapā. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Paslēpt** un pēc tam atlasiet elementu, kuru vēlāties paslēpt. Kad izmantojiet rīku **Paslēpt**, visi pašlaik paslēptie elementi kļūst redzami, bet tiek rādīti ēnotā konteinerā. Pēc tam jūs varat padarīt elementu redzamu, atlasot to. Lai apskatītu, kā lapa izskatīsies, kad elementi ir paslēpti, pārslēdzieties uz citu personalizēšanas rīku.
-
-    Jūs varat paslēpt obligātos laukus un sadaļas, kas ietver nepieciešamos laukus. Tādā veidā jūs varat iegūt vienkāršotu pieredzi, ja obligātie lauki netiek parādīti, ja tām ir noklusējuma vērtības, kuras ir aizpildīti saskaņā ar biznesa loģiku. Paslēptie obligātie lauki īslaicīgi kļūs redzami, ja tie ir tukši, kad lietotājs mēģina saglabāt lapu.
-
-- Pielietojiet rīku **Pievienot lauku**, lai pievienotu lauku savai lapai. Kad izmantojat šo rīku, varat pievienot tikai tādus laukus, kas ir daļa no lapas definīcijas. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Pielāgoti lauki](user-defined-fields.md). Kad uzdevumu joslā ir atlasīta poga **Pievienot lauku**, jums vispirms ir jāatlasa grupa vai apgabals, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas saistīti ar atlasīto grupu vai apgabalu. Šajā dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot, un pēc tam atlasiet **Ievietot**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
+- Pielietojiet rīku **Pievienot lauku**, lai pievienotu lauku savai lapai. Kad izmantojat šo rīku, varat pievienot tikai tādus laukus, kas ir daļa no lapas definīcijas. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Izveidot un strādāt ar pielāgotajiem laukiem](user-defined-fields.md). Kad uzdevumu joslā ir atlasīta poga **Pievienot lauku**, jums vispirms ir jāatlasa grupa vai apgabals, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas saistīti ar atlasīto grupu vai apgabalu. Šajā dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot, un pēc tam atlasiet **Ievietot**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
 - Izmantojiet rīku **Pārvietot**, lai pārvietotu kādu elementu uz citu atrašanās vietu pašreizējā elementu grupā. Ņemiet vērā, ka jūs nevarat pārvietot elementu ārpus tā pamata grupas. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Pārvietot** un pēc tam atlasiet elementu, kuru vēlāties pārvietot. Kad atlasāt kādu elementu, programma nosaka novietojumus, kur šo elementu var pārvietot. Šie novietojumi ir zināmi kā *nomešanas zonas*. Kad šo elementu velkat pa pašreizējo grupu, katra nomešanas zona tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
 - Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad uzdevumu joslā atlasāt pogu **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Varat interaktīvi noņemt vai pievienot laukus ciļņu secībai.
 - Izmantojiet rīku **Rādīt galvenē**, kad vēlaties, lai lauks tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kad uzdevumu joslā atlasāt pogu **Rādīt galvenē**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no tā.
 - Izmantojiet rīku **Bloķēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad uzdevumu joslā atlasāt pogu **Bloķēt**, visi pašlaik nerediģējami elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
-- Izmantojiet pogu **Pievienot PowerApp** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [Ieguldīt PowerApps](embed-power-apps.md).
+- Izmantojiet pogu **Pievienot PowerApp** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [Ieguldīt PowerApps programmas](embed-power-apps.md).
 - Izmantojiet rīku **Notīrīt**, lai lapai atiestatītu noklusējuma instalēto stāvokli. Tādējādi tiek noņemti visas pašreizējās lapas personalizēšanas iestatījumi. Šo darbību nevar atsaukt. Tādēļ šo rīku ir jāizmanto tikai tad, ja esat pārliecināts, ka vēlaties lapu atiestatīt.
 - Izmantojiet rīku **Importēt**, lai ielādētu personalizēšanu no kāda faila, kuru iepriekš izveidojāt jūs pats vai kāds cits. Kad importējat lapu personalizācijas, varat izvēlēties, vai tās ir jāpievieno visām lapas esošajām personalizācijām vai jāaizstāj ar tām. Šo darbību nevar atsaukt. Tāpēc pēc personalizācijas importēšanas manuāli jānotīra vai jāatsauc nevēlamās izmaiņas.
 - Izmantojiet rīku **Eksportēt**, lai savas personalizācijas šai lapai saglabātu kādā failā. Pēc tam savas personalizācijas varat koplietot ar citiem lietotājiem. Šiem lietotājiem ir nepieciešams tikai importēt failu, kurā ir jūsu personalizācijas šai lapai.

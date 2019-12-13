@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0714314b68651e4b96f83d1073c4e35f5b27b013
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551637"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771803"
 ---
 # <a name="general-ledger-and-financial-reporting-overview"></a>Vispārīgā virsgrāmata un finanšu ziņošanas pārskats
 
@@ -53,13 +53,13 @@ Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
+#### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu par jaunajiem līdzekļiem, dodieties uz [Microsoft Dynamics 365 informācija par laidienu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 laidienu plāni](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations - Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā MBS Operations.
 

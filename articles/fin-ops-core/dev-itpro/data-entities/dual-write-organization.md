@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572453"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769664"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Organizācijas hierarhija Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Tā kā Dynamics 365 Finance ir finanšu sistēma *organizācija* ir pamatkoncepts un sistēmas iestatīšana sākas ar organizācijas hierarhijas konfigurāciju. Pēc tam biznesa finanses var izsekot organizācijas līmenī, kā arī jebkurā līmenī organizācijas hierarhijā.
 
@@ -46,85 +44,35 @@ Biznesa ekosistēmai, kas sastāv no programmām Finance and Operations un Commo
 
 Organizācijas hierarhijas elementu kartes ir pieejamas datu vienvirziena sinhronizācijai no programmas Finance and Operations programmām uz Common Data Service.
 
+## <a name="templates"></a>Veidnes
+
+Preces informācijā ir ietverts viss nepieciešamais, kas saistīts ar preci un tās definīciju, piemēram, preces dimensijas vai izsekošana un noliktavas dimensijas. Kā redzams šajā tabulā, tiek izveidota elementa karšu kolekcija, lai sinhronizētu preces un saistīto informāciju.
+
+Finance and Operations | Citas Dynamics 365 programmas | Apraksts
+-----------------------|--------------------------------|---
+Organizācijas hierarhijas nolūki | msdyn_internalorganizationhierarchypurposes | Šī veidne nodrošina organizācijas hierarhijas mērķa elementa vienvirziena sinhronizāciju.
+Organizācijas hierarhijas tips | msdyn_internalorganizationhierarchytypes | Šī veidne nodrošina organizācijas hierarhijas veida elementa vienvirziena sinhronizāciju.
+Organizācijas hierarhija — publicētā | msdyn_internalorganizationhierarchies | Šī veidne nodrošina organizācijas hierarhijas publicētā elementa vienvirziena sinhronizāciju.
+Pārvaldības struktūrvienība | msdyn_internalorganizations | 
+Juridiskas personas | msdyn_internalorganizations | 
+Juridiskas personas | cdm_companies | Nodrošina juridiskas personas (uzņēmuma) informācijas divvirzienu sinhronizāciju.
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Iekšējais organizācijas hierarhijas nolūks
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Šī veidne nodrošina organizācijas hierarhijas nolūka elementa vienvirziena sinhronizāciju no Finance and Operations uz citām Dynamics 365 programmām.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Avota lauks | Kartes veids | Mērķa lauks
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Iekšējais organizācijas hierarhijas veids
-
-Šī veidne nodrošina organizācijas hierarhijas veida elementa vienvirziena sinhronizāciju no Finance and Operations uz citām Dynamics 365 programmām.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Avota lauks | Kartes veids | Mērķa lauks
----|---|---
-NOSAUKUMS | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Iekšējā organizācijas hierarhija
-
-Šī veidne nodrošina organizācijas hierarhijas publicētā elementa vienvirziena sinhronizāciju no Finance and Operations uz citām Dynamics 365 programmām.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Avota lauks | Kartes veids | Mērķa lauks
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Iekšējā organizācija
 
 Iekšējās organizācijas informācija Common Data Service tiek iegūta no diviem — **pārvaldības struktūrvienība** un **juridiska persona**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Pārvaldības struktūrvienība
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Avota lauks | Kartes veids | Mērķa lauks
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-NOSAUKUMS | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Juridiska persona
-
-Avota lauks | Kartes veids | Mērķa lauks
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-NOSAUKUMS | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-nav | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Uzņēmums
-
-Nodrošina juridiskas personas (uzņēmuma) informācijas divvirzienu sinhronizāciju starp Finance and Operations un citām Dynamics 365 programmām.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Avota lauks | Kartes veids | Mērķa lauks
----|---|---
-NOSAUKUMS | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

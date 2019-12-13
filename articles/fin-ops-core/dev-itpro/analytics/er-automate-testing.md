@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181615"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771448"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testēšanas ar elektroniskiem pārskatiem automatizēšana
 
@@ -44,8 +44,8 @@ Lai iegūtu papildinformāciju par to, kā izveidot pielāgotu formāta versiju,
 Funkcionālie prasmīgie lietotāji var autorēt piemērotības lietotājam un integrācijas testēšanu bez nepieciešamības rakstīt pirmkodu.
 
 - Izmantojiet ER bāzlīnijas līdzekli, lai ģenerētos dokumentus salīdzinātu ar šablona kopijām. Papildinformāciju skatiet tēmā [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md).
-- Izmantojiet uzdevuma reģistrētāju, lai ierakstītu testa gadījumus un iekļautu bāzlīnijas novērtējumu. Papildinformāciju skatiet tēmā [Uzdevuma reģistrētājs](../user-interface/task-recorder.md).
-- Grupējiet testa gadījumus nepieciešamajiem testa scenārijiem. Papildinformāciju skatiet tēmā [Piemērotības lietotājam testu bibliotēku izveide, izmantojot uzdevuma reģistrēšanu un BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Izmantojiet uzdevuma reģistrētāju, lai ierakstītu testa gadījumus un iekļautu bāzlīnijas novērtējumu. Papildinformāciju skatiet tēmā [Uzdevuma reģistrētāja resursi](../user-interface/task-recorder.md).
+- Grupējiet testa gadījumus nepieciešamajiem testa scenārijiem. Papildinformāciju skatiet sadaļā [Lietotāja akcepta testu izveidošana un automatizēšana](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Izmantojiet biznesa procesu modelētāju (BPM) pakalpojumā LCS, lai izveidotu piemērotības lietotājam testus.
     - Izmantojiet BPM testu bibliotēkas, lai izveidotu testu plānu un testu komplektus pakalpojumā Microsoft Azure DevOps Services (Azure DevOps).
@@ -59,7 +59,7 @@ Funkcionālie prasmīgie lietotāji var izpildīt piemērotības lietotājam un 
 
 Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālāk norādītie priekšnosacījumi.
 
-- Izvietojiet topoloģiju, kas atbalsta testu automatizāciju. Jums ir jābūt piekļuvei šīs topoloģijas instancei ar lomu **Sistēmas administrators**. Minētajā topoloģijā ir jāietver demonstrācijas dati, kas tiks izmantoti šajā piemērā. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md).
+- Izvietojiet topoloģiju, kas atbalsta testu automatizāciju. Jums ir jābūt piekļuvei šīs topoloģijas instancei ar lomu **Sistēmas administrators**. Minētajā topoloģijā ir jāietver demonstrācijas dati, kas tiks izmantoti šajā piemērā. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana un lietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md).
 - Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt to darbam ar Finance and Operations programmām un Azure DevOps, skatiet tēmā [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
 
     ![RSAT iestatījumi](media/GER-Configure.png "RSAT iestatījumu dialoglodziņa ekrānuzņēmums")
@@ -81,7 +81,7 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
     - ER modeļa kartēšanas konfigurācija **Maksājumu modeļa kartēšana 1611**
     - ER formāta konfigurācija **BACS (UK)**
 
-    ![Elektronisko pārskatu konfigurācijas](media/GER-Configurations.png "Elektronisko pārskatu konfigurāciju lapas ekrānuzņēmums")
+    ![Elektronisko atskaišu veidošanas konfigurācijas](media/GER-Configurations.png "Elektronisko pārskatu lapu konfigurāciju ekrānuzņēmums")
 
 3. Atlasiet **GBSI** demonstrācijas datu uzņēmumu, kam ir Apvienotās Karalistes valsts/reģiona konteksts.
 4. Konfigurējiet kreditoru parametrus.
@@ -93,7 +93,7 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
         1. Kopsavilkuma cilnē **Failu formāti** iestatiet opciju **Vispārīgs elektroniskās eksportēšanas formāts** uz **Jā**.
         2. Laukā **Eksportēšanas formāta konfigurācija** atlasiet **BACS (UK)**.
 
-    ![Lapa Maksāšanas metodes](media/GER-APParameters.png "Lapas “Maksāšanas metodes” ekrānuzņēmums")
+    ![Maksāšanas veidu lapa](media/GER-APParameters.png "Maksājuma metodes lapas ekrānuzņēmums")
 
     > [!NOTE]
     > Ja jums ir atvasinātā versija šim ER formātam, kas tika izveidots pielāgojumu atbalstam, varat atlasīt šo konfigurāciju maksāšanas metodē **Elektroniski**.
@@ -103,7 +103,7 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
     1. Dodieties uz **Kreditori \> Maksājumi \> Maksājumu žurnāls**.
     2. Pārliecinieties, vai maksājumu žurnāls nav grāmatots.
 
-        ![Lapa Maksājumu žurnāls](media/GER-APJournal.png "Lapas “Maksājumu žurnāls” ekrānuzņēmums")
+        ![Maksājumu žurnāla lapa](media/GER-APJournal.png "Maksājuma žurnāla lapas ekrānuzņēmums")
 
     3. Atlasiet **Rindas** un ievadiet rindu, kurā ir tālāk norādītā informācija.
 
@@ -116,16 +116,16 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
         | Korespondējošais konts      | GBSI OPER       |
         | Maksāšanas veids   | Elektroniski      |
 
-    ![Lapa Kreditoru maksājumi](media/GER-APJournalLines.png "Lapas “Kreditoru maksājumi” ekrānuzņēmums")
+    ![Kreditora maksājumu lapa](media/GER-APJournalLines.png "Kreditora maksājumu lapas ekrānuzņēmums")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>ER struktūras sagatavošana kreditoru maksājumu apstrādes testam
 
-### <a name="configure-er-parameters"></a>Konfigurēt ER parametrus
+### <a name="configure-er-parameters"></a>Konfigurējiet ER parametrus
 
 1. Dodieties uz **Organizācijas administrēšana \> Elektroniskie pārskati \> Elektronisko pārskatu parametri**.
 2. Cilnes **Pielikumi** laukā **Bāzlīnija** atlasiet vienumu **Fails** kā dokumenta veidu, ko dokumentu pārvaldības (DM) struktūra izmanto, lai saglabātu dokumentus, kas ir saistīti ar bāzlīnijas līdzekli kā DM pielikumi.
 
-    ![Lapa Elektronisko pārskatu parametri](media/GER-ERParameters.png "Lapas “Elektronisko pārskatu parametri” ekrānuzņēmums")
+    ![Elektronisko pārskatu veidošanas parametru lapa](media/GER-ERParameters.png "Elektronisko pārskatu parametru lapas ekrānuzņēmums")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Ar kreditoru maksājumiem saistīto dokumentu bāzlīniju kopiju ģenerēšana
 
@@ -142,7 +142,7 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
     - **Fails**, maksājuma fails teksta formātā
     - **ERVendOutPaymControlReport** kontroles pārskata fails XLSX formātā
 
-    ![Izvilktie faili](media/GER-APJournalProcessed.png "Ekrānuzņēmums ar izvilkto failu nosaukumiem programmā Windows Explorer")
+    ![Izgūtie faili](media/GER-APJournalProcessed.png "Programmā Windows explorer izvilkto failu nosaukumu ekrānuzņēmums")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>ER bāzlīnijas līdzekļa ieslēgšana
 
@@ -180,7 +180,7 @@ Ieslēdzot parametru **Palaist atkļūdošanas režīmā**, jūs liksiet ER str
     3. Pārlūkojiet, lai atlasītu lokāli saglabāto kontroles pārskata failu **ERVendOutPaymControlReport** XLSX formātā.
     4. Laukā **Apraksts** ievadiet **Maksājuma XLSX kontroles pārskats**.
 
-    ![Kreditora maksājuma faila un kontroles pārskata bāzlīnijas](media/GER-BaselineAttachments.png "Konfigurāciju lapas ekrānuzņēmums ar atlasīto maksājumu xlsx kontroles pārskatu")
+    ![Bāzlīnijas kreditora maksājuma kontroles pārskatam](media/GER-BaselineAttachments.png "Konfigurācijas lapas ekrānuzņēmums ar atlasītu maksājumu XLSX kontroles pārskatu")
 
 8. Aizvērt lapu.
 9. Kopsavilkuma cilnē **Bāzlīnijas** atlasiet **Jauna**, lai konfigurētu maksājuma faila bāzlīniju.
@@ -199,7 +199,7 @@ Ieslēdzot parametru **Palaist atkļūdošanas režīmā**, jūs liksiet ER str
     4. Laukā **Faila nosaukuma maska** ievadiet **\*.XLSX**, lai izmantotu šo bāzlīniju tikai **ERVendOutPaymControlReport** formāta komponenta izvadēm, kurām faila nosaukuma paplašinājumā ir **.xslx**.
     5. Laukā **Bāzlīnija** atlasiet **Maksājuma XLSX kontroles pārskats**, lai šo bāzlīniju izmantotu salīdzinājumam ar ģenerēto izvadi.
 
-    ![Kopsavilkuma cilne “Bāzlīnijas” lapā “Konfigurācijas”](media/GER-BaselineRules.png "Kopsavilkuma cilnes “Bāzlīnijas” lapā “Konfigurācijas” ekrānuzņēmums")
+    ![Bāzlīnijas kopsavilkuma cilnes lapā Konfigurācijas](media/GER-BaselineRules.png "Bāzes līnijas kopsavilkuma cilnes ekrānuzņēmums lapā Konfigurācijas")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Testu reģistrēšana kreditoru maksājumu apstrādes validācijai
 
@@ -229,15 +229,15 @@ Kā funkcionāls prasmīgais lietotājs varat reģistrēt savas darbības kredit
 
 1. Iestata apstrādātā maksājuma rindas statusu uz **Nav**.
 
-    ![Uzdevuma reģistrēšanas 3. un 4. darbība](media/GER-Recording1Review1.png "Uzdevuma reģistrēšanas 3. un 4. darbības ekrānuzņēmums")
+    ![Uzdevuma reģistrēšanas darbības no 3. līdz 4.](media/GER-Recording1Review1.png "Uzdevuma ierakstīšanas soļu no 3. līdz 4. ekrānuzņēmums")
 
 2. Ieslēdz ER lietotāja parametru **Palaist atkļūdošanas režīmā**.
 
-    ![Uzdevuma reģistrēšanas 9. un 10. darbība](media/GER-Recording1Review2.png "Uzdevuma reģistrēšanas 9. un 10. darbības ekrānuzņēmums")
+    ![Uzdevuma reģistrēšanas darbības no 9. līdz 10.](media/GER-Recording1Review2.png "Uzdevuma ierakstīšanas soļu no 9. līdz 10. ekrānuzņēmums")
 
 3. Iztīra ER atkļūdošanas žurnālu, kas satur ģenerēto failu un bāzlīniju salīdzinājuma rezultātus.
 
-    ![Uzdevuma reģistrēšanas 13.–15. darbība](media/GER-Recording1Review3.png "Uzdevuma reģistrēšanas 13.–15. darbības ekrānuzņēmums")
+    ![Uzdevuma reģistrēšanas darbības no 13. līdz 15.](media/GER-Recording1Review3.png "Uzdevuma ierakstīšanas soļu no 13. līdz 15. ekrānuzņēmums")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Darbību reģistrēšana kreditoru maksājumu apstrādes testēšanai
 
@@ -256,21 +256,21 @@ Mēs iesakām atskaņot (un rediģēt pēc nepieciešamības) iepriekš lejupiel
 1. Sāk kreditoru maksājumu apstrādi.
 2. Atlasa pareizos izpildlaika parametrus un ieslēdz kontroles pārskata ģenerēšanu.
 
-    ![Uzdevuma reģistrēšanas 3.–8. darbība](media/GER-Recording2Review1.png "Uzdevuma reģistrēšanas 3.–8. darbības ekrānuzņēmums")
+    ![Uzdevuma reģistrēšanas darbības no 3. līdz 8.](media/GER-Recording2Review1.png "Uzdevuma ierakstīšanas soļu no 3. līdz 8. ekrānuzņēmums")
 
 3. Piekļūst ER atkļūdošanas žurnālam, lai reģistrētu ģenerēto izvades datu un atbilstošo bāzlīniju salīdzinājuma rezultātus.
 
     ER atkļūdošanas žurnālā salīdzinājuma rezultāti parādās laukā **Ģenerētais teksts**. Lauki **Formāta komponents** un **Formāta ceļš, kas izraisīja ierakstu žurnālā** attiecas uz faila komponentu, kuram ģenerētā izvade tika salīdzināta ar bāzlīniju.
 
-    ![Ieraksti lapā Elektronisko pārskatu palaišanas žurnāli](media/GER-ERDebugLog.png "Lapas “Elektronisko pārskatu palaišanas žurnāli” ierakstu ekrānuzņēmums")
+    ![Pieteikumi lapā Elektronisko pārskatu palaišanas žurnāli](media/GER-ERDebugLog.png "Ekrānuzņēmums pieteikumiem lapā Elektronisko pārskatu palaišanas žurnāli")
 
 4. Pašreizējās izvades datu un bāzlīnijas salīdzinājums tiek reģistrēts, izmantojot uzdevuma reģistrētāja opciju **Validēt** un atlasot **Pašreizējā vērtība**.
 
-    ![Opcijas “Validēt” izmantošana salīdzinājumam ar pašreizējo vērtību](media/GER-TRRecordValidation.png "Ekrānuzņēmums ar opcijas “Validēt” izmantošanu salīdzinājumam ar pašreizējo vērtību")
+    ![Izmantojot validēšanas opciju salīdzinājumam ar pašreizējo vērtību](media/GER-TRRecordValidation.png "Ekrānuzņēmums validācijas opcijas lietošanai salīdzinājumam ar pašreizējo vērtību")
 
     Tālāk redzamajā attēlā ir parādīts, kā uzdevuma reģistrēšanā izskatās reģistrētās validācijas darbības.
 
-    ![Uzdevuma reģistrēšanas 13. un 15. darbība](media/GER-Recording2Review2.png "Uzdevuma reģistrēšanas 13. un 15. darbības ekrānuzņēmums")
+    ![Uzdevuma reģistrēšanas darbības no 13. līdz 15.](media/GER-Recording2Review2.png "Uzdevuma ierakstīšanas 13. un 15. soļa ekrānuzņēmums")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Reģistrēto testu pievienošana pakalpojumā Azure DevOps
 
@@ -287,7 +287,7 @@ Mēs iesakām atskaņot (un rediģēt pēc nepieciešamības) iepriekš lejupiel
     1. Nosauciet testa gadījumu par **Kreditora maksājumu apstrādes, izmantojot ER formātu BACS (UK), tests**.
     2. Pievienojiet failu **Recording.xml** no iepriekš lejupielādētās mapes **Process**.
 
-    ![Jauni testa gadījumi atlasītajam testa plānam](media/GER-RSAT-DevOps-Tests-Passed.png "Jauno testa gadījumu atlasītajam testa plānam ekrānuzņēmums")
+    ![Jauni testa gadījumi atlasītajam testa plānam](media/GER-RSAT-DevOps-Tests-Passed.png "Ekrānuzņēmums jauniem testa gadījumiem atlasītajam testa plānam")
 
 > [!NOTE]
 > Pievērsiet uzmanību, lai pievienotie testi tiktu izpildīti pareizā secībā.
@@ -299,14 +299,14 @@ Mēs iesakām atskaņot (un rediģēt pēc nepieciešamības) iepriekš lejupiel
 1. Atveriet lokālo RSAT programmu pašreizējā topoloģijā.
 2. Atlasiet **Ielādēt**, lai testus, kas pašlaik atrodas Azure DevOps, ielādētu rīkā RSAT.
 
-    ![Testi ielādēti rīkā RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Rīkā RSAT ielādēto testu ekrānuzņēmums")
+    ![RSAT ielādētie testi](media/GER-RSAT-RSAT-Tests-Loaded.png "RSAT iekrauto testu ekrānuzņēmums")
 
 ### <a name="create-automation-and-parameters-files"></a>Automatizācijas un parametru failu izveide
 
 1. Rīkā RSAT atlasiet testus, ko ielādējāt no Azure DevOps.
 2. Atlasiet **Jauns**, lai izveidotu RSAT automatizācijas un parametru failus.
 
-    ![RSAT automatizācijas un parametru faili, kas izveidoti rīkā RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Ekrānuzņēmums ar RSAT automatizācijas un parametru failiem, kas izveidoti rīkā RSAT")
+    ![Automatizācijas un parametru faili, kas izveidoti RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "RSAT automatizācijas un parametru failu, kas izveidoti RSAT, ekrānuzņēmums")
 
 ### <a name="modify-the-parameters-files"></a>Parametru failu modificēšana
 
@@ -318,7 +318,7 @@ Mēs iesakām atskaņot (un rediģēt pēc nepieciešamības) iepriekš lejupiel
 6. Atvērtās Excel darbgrāmatas darblapā**Vispārēji** mainiet uzņēmuma kodu uz **GBSI.**
 7. Darblapā **ERFormatMappingRunLogTable** ievērojiet, ka šūnās A:3 un C:3 ir teksts no ER atkļūdošanas žurnāla tabulas laukiem, kas tiek izmantoti, lai validētu izvades datu un bāzlīnijas salīdzinājuma rezultātus. Šie teksti tiks izmantoti, lai novērtētu ER atkļūdošanas žurnāla ierakstus, kas ir izveidoti testa izpildes laikā.
 
-    ![Darblapa ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Darblapas ERFormatMappingRunLogTable ekrānuzņēmums")
+    ![ERFormatMappingRunLogTable darblapa](media/GER-RSAT-RSAT-ExcelParameters.png "Ekrānuzņēmums darblapai ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Testu izpilde un rezultātu analīze
 
@@ -333,11 +333,11 @@ Ievērojiet, ka testa gadījumi tiek automātiski izpildīti programmā, izmanto
 
 Testa izpildes rezultāti tiek saglabāti rīkā RSAT. Ievērojiet, ka abi testi tika izpildīti veiksmīgi.
 
-![Rīkā RSAT veiksmīgi izpildītie testi](media/GER-RSAT-RSAT-Tests-Passed.png "Rīkā RSAT veiksmīgi izpildīto testu ekrānuzņēmums")
+![Testi, kas izgāja RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "RSAT izgājušo testu ekrānuzņēmums")
 
 Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azure DevOps, lai jūs varētu veikt padziļinātu analīzi.
 
-![Testu izpildes rezultāti pakalpojumā Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Ekrānuzņēmums ar testa izpildes rezultātiem pakalpojumā Azure DevOps")
+![Testa izpildes rezultāti Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Testa izpildes rezultātu ekrānuzņēmums Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Neveiksmīga testa situācijas simulācija
 
@@ -360,24 +360,24 @@ Ievērojiet, ka testa gadījumi tiek automātiski izpildīti programmā, izmanto
 
 Testa izpildes rezultāti tiek saglabāti rīkā RSAT. Ievērojiet, ka otrais tests neizdevās otrās izpildes laikā.
 
-![Neveiksmīga testa rezultāti rīkā RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Ekrānuzņēmums neveiksmīga testa rezultātiem rīkā RSAT")
+![Neizdevušies testa rezultāti RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "RSAT neizdevušos testa rezultātu ekrānuzņēmums")
 
 Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azure DevOps, lai jūs varētu veikt padziļinātu analīzi.
 
-![Neveiksmīga testa rezultāti pakalpojumā Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Ekrānuzņēmums neveiksmīga testa rezultātiem pakalpojumā Azure DevOps")
+![Neizdevušies testa rezultāti Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Neizdevušos testa rezultātu ekrānuzņēmums Azure DevOps")
 
 Varat piekļūt katra testa statusam. Varat arī piekļūt izpildes žurnālam, lai analizētu kļūdas iemeslus. Nākamajā attēlā izpildes žurnālā ir redzams, ka kļūda radās ģenerētā maksājuma faila satura un tā bāzlīnijas satura atšķirību dēļ.
 
-![Izpildes žurnāls kļūdu analīzei pakalpojumā Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Ekrānuzņēmums ar izpildes žurnālu kļūdu analīzei pakalpojumā Azure DevOps")
+![Izpildes žurnāls kļūmes analīzei Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Izpildes žurnāla ekrānuzņēmums, lai analizētu kļūmi Azure DevOps")
 
 Tātad, kā jau ir redzams, jebkura ERformāta funkcionalitāti var novērtēt automātiski, izmantojot RSAT kā testēšanas platformu un izmantojot uzdevuma reģistrētājam atbilstošus testa gadījumus, kas izmanto ER bāzlīnijas funkciju.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Uzdevumu reģistrētājs](../user-interface/task-recorder.md)
+- [Uzdevuma reģistrētāja resursi](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Piemērotības lietotājam testu bibliotēku izveide, izmantojot uzdevuma reģistrēšanu un BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md)
-- [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar ER bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
-- [ER formāta jaunināšana, pieņemot šī formāta jaunu bāzes versiju](tasks/er-upgrade-format.md)
-- [ER konfigurācijas importēšana no Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+- [Piemērotības lietotājiem testu izveide un automatizēšana](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Tādu vižu izvietošana, kuras atbalsta un izmanto pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md)
+- [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
+- [ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju](tasks/er-upgrade-format.md)
+- [ER Importēt konfigurāciju no Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)

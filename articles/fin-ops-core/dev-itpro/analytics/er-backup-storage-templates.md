@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553095"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771425"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
 [!include [banner](../includes/banner.md)]
 
-Biznesa lietotāji izmanto [Elektronisko pārskatu (EP) struktūru](general-electronic-reporting.md), lai konfigurētu izejošo dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Konfigurēti ER formāti var izmantot iepriekš definētas veidnes, lai izveidotu izejošos dokumentus dažādos formātos Microsoft Excel, piemēram Microsoft Word, darbgrāmatās, dokumentos vai PDF dokumentos. Veidnes ir aizpildītas ar datiem, kam ir nepieciešams ģenerēto dokumentu konfigurētais darbplūsmas.
+Biznesa lietotāji izmanto [Elektronisko pārskatu (EP)](general-electronic-reporting.md), lai konfigurētu izejošo dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Konfigurēti ER formāti var izmantot iepriekš definētas veidnes, lai izveidotu izejošos dokumentus dažādos formātos Microsoft Excel, piemēram Microsoft Word, darbgrāmatās, dokumentos vai PDF dokumentos. Veidnes ir aizpildītas ar datiem, kam ir nepieciešams ģenerēto dokumentu konfigurētais darbplūsmas.
 
 Katru konfigurētu formātu var publicēt kā EP risinājuma daļu noteiktu izejošo dokumentu ģenerēšanai. Katrs ER risinājums var tikt eksportēts no vienas Finance and Operations instances un importēts citā instancē.
 
-ER struktūra izmanto [dokumentu pārvaldības struktūru](../../fin-ops/organization-administration/configure-document-management.md), lai saglabātu nepieciešamās veidnes pašreizējai Finance and Operations instancei. Atkarībā no ER struktūras iestatījumiem, Microsoft Azure Blob āšanas vai Microsoft SharePoint mapi var atlasīt kā fizisko primāro glabāšanas vietu veidnēm. (Papildinformāciju skatiet šeit [: er struktūras](electronic-reporting-er-configure-parameters.md)konfigurēšana.) Tabulā DocuValue ir atsevišķs ieraksts katrai veidnei. Katrā ierakstā **AccessInformation** lauks saglabā veidnes faila ceļu, kas atrodas konfigurētajā glabāšanas vietā.
+ER struktūra izmanto [Dokumentu pārvaldības strukturēšanu](../../fin-ops/organization-administration/configure-document-management.md), lai saglabātu nepieciešamās veidnes pašreizējai Finance and Operations instancei. Atkarībā no ER struktūras iestatījumiem, Microsoft Azure Blob āšanas vai Microsoft SharePoint mapi var atlasīt kā fizisko primāro glabāšanas vietu veidnēm. (Papildinformāciju skatiet [Elektroniskā pārskata (EP) struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md).) DocuValue tabulā ir atsevišķs ieraksts katrai veidnei. Katrā ierakstā **AccessInformation** lauks saglabā veidnes faila ceļu, kas atrodas konfigurētajā glabāšanas vietā.
 
 Kad pārvaldāt Finance and Operations instances, varat izlemt migrēt pašreizējo instanci uz citu vietu. Piemēram, jūs varat migrēt savu ražošanas instanci uz jaunu sandbox vidi. Ja konfigurējāt ER struktūru, lai saglabātu veidnes BLOB krātuvē, DocuValue tabula jaunajā sandbox vidē attiecas uz BLOB uzglabāšanas instanci ražošanas vidē. Tomēr šai instancei nevar piekļūt no smilškastes vides, jo migrēšanas process neatbalsta artefaktu migrāciju BLOB krātuvē. Tāpēc, ja mēģināt palaist ER formātu, kas izmanto veidni, lai ģenerētu biznesa dokumentus, tiek veikts izņēmums, un jūs tiekat informēts par trūkstošajām veidnēm. Varat arī izmantot ER tīrīšanas rīku, lai dzēstu un pēc tam atkārtoti importētu ER formāta konfigurāciju, kas satur veidni. Tā kā jums varētu būt vairāki ER formāta konfigurācijas, šis process var būt laikietilpīgs.
 
@@ -94,6 +94,6 @@ Finance and Operations versijā 10.0.5 ER veidņu dublējumkopiju glabāšanas l
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
 
-[Elektronisko pārskatu veidošanas struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)
+[Elektronisko pārskatu (EP) veidošanas struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)

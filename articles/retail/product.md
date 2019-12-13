@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278388"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811121"
 ---
 # <a name="product-recommendations-on-pos"></a>Preču ieteikumi POS
 
@@ -40,13 +40,13 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
 
 1. Lapā **Detalizēta informācija par preci**.
 
-    - • Ja veikala darbinieks apmeklē lapu **Detalizēta informācija par precei**, skatot iepriekšējās transakcijas dažādos kanālos, ieteikumu serviss piedāvā papildu preces, kas var tikt nopirktas kopā.
+    - Ja veikala darbinieks apmeklē lapu **Detalizēta informācija par preci**, skatot iepriekšējās transakcijas dažādos kanālos, ieteikumu serviss piedāvā papildu preces, kas var tikt nopirktas kopā.
 
     [![Ieteikumi lapā Informācija par preci](./media/proddetails.png)](./media/proddetails.png)
 
 2. Lapā **Transakcija**.
 
-    - • Ieteikumu programma iesaka preces, kuras bieži pērk kopā, pamatojoties uz visu grozam pievienoto preču sarakstu.
+    - Ieteikumu programma iesaka preces, kuras bieži pērk kopā, pamatojoties uz visu grozam pievienoto preču sarakstu.
 
     > [!NOTE]
     > Lai lapā **Transakcija** tiktu rādīti ieteikumi, mazumtirgotājam ir jāatjaunina ekrāna izkārtojums programmā Dynamics 365 for Retail. Lapā **Transakcijas** ir jāaktivizē vadīkla **Ieteikumi** lapā.
@@ -69,10 +69,12 @@ Lai iestatītu preču ieteikumus, rīkojieties šādi:
 
 - Pārejiet uz **Mazumtirdzniecības rekvizīti** \> **Ieteikumu saraksti** \> **Atspējot preču ieteikumus** un palaidiet darbu **Globālais konfigurācijas darbs \[9999\]**. 
 - Ja darbību ekrānam pievienojāt vadīklu **Ieteikumus pārvaldība**, izmantojot **Ekrāna izkārtojuma dizainers**, lūdzu, noņemiet arī to.
-- Ja jums ir papildu jautājumi, skatiet [Bieži uzdotos jautājumus par ieteikumiem](../commerce/faq-recommendations.md), lai iegūtu vairāk informācijas.
+- Ja jums ir papildu jautājumi, skatiet [Bieži uzdotos jautājumus par preču ieteikumiem](../commerce/faq-recommendations.md), lai iegūtu vairāk informācijas.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Pievienot ieteikumu kontroli transakcijas lapai POS ierīcē](add-recommendations-control-pos-screen.md)
-[Preču ieteikumu pārskats](../commerce/product-recommendations.md)
-[Iespējot preču ieteikumus](../commerce/enable-product-recommendations.md) 
+[Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam](add-recommendations-control-pos-screen.md)
+
+[Preču ieteikumu apskats](../commerce/product-recommendations.md)
+
+[Preču ieteikumu iespējošana](../commerce/enable-product-recommendations.md) 

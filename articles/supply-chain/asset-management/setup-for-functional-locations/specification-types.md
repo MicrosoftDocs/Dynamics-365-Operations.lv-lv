@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571235"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812195"
 ---
 # <a name="maintenance-attribute-types"></a>Uzturēšanas atribūtu veidi
 
@@ -33,10 +33,10 @@ ms.locfileid: "2571235"
 
 Šajā tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot atribūtu veidus. Atribūti tiek izmantoti, lai aprakstītu dažādu elementu īpašības. Varat iestatīt atribūtus tālāk norādītajos elementos.
 
-- [Funkcionālo novietojumu veidi](../setup-for-functional-locations/functional-location-types.md)
-- [Funkcionālie novietojumi](../functional-locations/create-functional-locations.md)
-- [Līdzekļu veidi](../setup-for-objects/object-types.md)
-- Pamatlīdzekļu tabula
+- [Funkcionālo novietojumu tipi](../setup-for-functional-locations/functional-location-types.md)
+- [Funkcionālo novietojumu izveide](../functional-locations/create-functional-locations.md)
+- [Līdzekļu tipi](../setup-for-objects/object-types.md)
+- Līdzekļi
 
 Atribūti, kurus var iestatīt, atšķiras atkarībā no elementa. Piemēram, funkcionālajam novietojumam var iestatīt atribūtus atrašanās vietas konfigurācijai un fiziskajam lielumam. Līdzekļa veidam vai līdzeklim var iestatīt dzinēja tilpuma, enerģijas patēriņa un maksimālās noslodzes atribūtus atšķirīgos apstākļos.
 

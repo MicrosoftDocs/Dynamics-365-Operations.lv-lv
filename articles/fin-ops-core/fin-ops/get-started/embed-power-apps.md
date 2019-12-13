@@ -1,6 +1,6 @@
 ---
-title: Iegultas PowerApps programmas
-description: Šajā tēmā ir sniegta informācija par to, kā iegult pakalpojumu PowerApps klientā, lai atbalstītu produkta funkcionalitāti.
+title: Iegult Power Apps
+description: Šajā tēmā ir sniegta informācija par to, kā iegult pakalpojumu Power Apps klientā, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
 manager: AnnBe
 ms.date: 09/20/2019
@@ -16,104 +16,104 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37faf2a7a880c384f6f01d06ef5c9f28055d5006
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191182"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824497"
 ---
-# <a name="embed-powerapps-apps"></a>Iegultas PowerApps programmas
+# <a name="embed-microsoft-power-apps"></a>Iegult Microsoft Power Apps
 
 [!include [banner](../includes/banner.md)]
 
-Platformas atjauninājumā 14 tiek atbalstīta integrācija ar Microsoft PowerApps — pakalpojumu, kas izstrādātājiem un lietotājiem bez tehniskām zināšanām sniedz iespēju izveidot pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmekļa vietnēm, nerakstot kodu. Jūsu izstrādāto pakalpojumu PowerApps jūsu organizācija vai plašāka ekosistēma pēc tam var iegult Finance and Operations programmas klientā produkta funkcionalitātes atbalstam. Piemēram, jūs varat izveidot pakalpojumu PowerApp, lai papildinātu programmas Finance and Operations ar informāciju, kas izgūta no citas sistēmas.
+Platformas atjauninājumā 14 tiek atbalstīta integrācija ar Microsoft Power Apps — pakalpojumu, kas izstrādātājiem un lietotājiem bez tehniskām zināšanām sniedz iespēju izveidot pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmekļa vietnēm, nerakstot kodu. Jūsu izstrādāto pakalpojumu Power Apps jūsu organizācija vai plašāka ekosistēma pēc tam var iegult Finance and Operations programmas klientā produkta funkcionalitātes atbalstam. Piemēram, jūs varat izveidot pakalpojumu PowerApp, lai papildinātu programmas Finance and Operations ar informāciju, kas izgūta no citas sistēmas.
 
-Lai uzzinātu vairāk par PowerApps iegulšanu, noskatieties īso video [Kā iegult PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY) .
+Lai uzzinātu vairāk par Power Apps iegulšanu, noskatieties īso video [Kā iegult Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY) .
 
-## <a name="adding-an-embedded-powerapp-to-a-page"></a>Iegultā pakalpojuma PowerApp pievienošana lapai
+## <a name="adding-an-embedded-power-app-to-a-page"></a>Iegultā pakalpojuma Power App pievienošana lapai
 
 ### <a name="overview"></a>Kopsavilkums
 
-Pirms pakalpojuma PowerApp iegulšanas klientā vispirms ir jāatrod vai jāizveido pakalpojums PowerApp, kas ietver vēlamo vizuālo informāciju un/vai funkcionalitāti. Mēs šeit nesniegsim detalizētu pakalpojuma PowerApp izstrādes procesu. Ja pakalpojumu PowerApps izmantojat pirmo reizi, ieteicams skatīt tēmu [Ievads pakalpojumā PowerApps](https://docs.microsoft.com/powerapps/getting-started) .
+Pirms pakalpojuma Power App iegulšanas klientā vispirms ir jāatrod vai jāizveido pakalpojums Power App, kas ietver vēlamo vizuālo informāciju un/vai funkcionalitāti. Mēs šeit nesniegsim detalizētu pakalpojuma Power App izstrādes procesu. Ja pakalpojumu Power Apps izmantojat pirmo reizi, ieteicams skatīt tēmu [Ievads pakalpojumā Power Apps](https://docs.microsoft.com/powerapps/getting-started) .
 
-Ja esat sagatavojies konkrēta pakalpojuma PowerApp iegulšanai, varat izvēlēties vienu no diviem piekļuves pakalpojumam PowerApp lapā veidiem atkarībā no tā, kurš scenārijs jums ir piemērotāks. Pirmais piekļuves veids ir standarta darbības rūtī pievienotās pogas PowerApps izmantošana. PakalpojumsPowerApps, kas ir pievienots, izmantojot šo mehānismu, tiek parādīts izvēlnes vienumu veidā izvēlnes pogā PowerApps. Pēc atlasīšanas visi šie izvēlnes vienumi tiek atvērti tajā rūts pusē, kura ietver iegulto pakalpojumu PowerApp. Vai arī pakalpojumu PowerApp var parādīt tieši lapā kā jaunu cilni, kopsavilkuma cilni, paneli vai kā jaunu darbvietas sadaļu.
+Ja esat sagatavojies konkrēta pakalpojuma Power App iegulšanai, varat izvēlēties vienu no diviem piekļuves pakalpojumam Power App lapā veidiem atkarībā no tā, kurš scenārijs jums ir piemērotāks. Pirmais piekļuves veids ir standarta darbības rūtī pievienotās pogas Power Apps izmantošana. PakalpojumsPower Apps, kas ir pievienots, izmantojot šo mehānismu, tiek parādīts izvēlnes vienumu veidā izvēlnes pogā Power Apps. Pēc atlasīšanas visi šie izvēlnes vienumi tiek atvērti tajā rūts pusē, kura ietver iegulto pakalpojumu Power App. Vai arī pakalpojumu Power App var parādīt tieši lapā kā jaunu cilni, kopsavilkuma cilni, paneli vai kā jaunu darbvietas sadaļu.
 
-Konfigurējot iegulto pakalpojumu PowerApp, var atlasīt vienu lauku, kuru vēlaties nosūtīt uz pakalpojumu PowerApp kā ievadi. Tādējādi pakalpojums PowerApp reaģē atbilstoši datiem, kuri pašlaik tiek skatīti.
+Konfigurējot iegulto pakalpojumu Power App, var atlasīt vienu lauku, kuru vēlaties nosūtīt uz pakalpojumu Power App kā ievadi. Tādējādi pakalpojums Power App reaģē atbilstoši datiem, kuri pašlaik tiek skatīti.
 
 ### <a name="details"></a>Detalizēta
 
-Tālāk ir sniegti norādījumi par to, kā pakalpojumu PowerApp iegult tīmekļa vietnes klientā.
+Tālāk ir sniegti norādījumi par to, kā pakalpojumu Power App iegult tīmekļa vietnes klientā.
 
-1. Atveriet lapu, kurā vēlaties iegult pakalpojumu PowerApp. Tā ir tā pati lapa, kas ietver visus datus, kuri ir jānosūta pakalpojumam PowerApp kā ievade.
-2. Atveriet rūti **Ievietot PowerApp**.
+1. Atveriet lapu, kurā vēlaties iegult pakalpojumu Power App. Tā ir tā pati lapa, kas ietver visus datus, kuri ir jānosūta pakalpojumam Power App kā ievade.
+2. Atveriet rūti **Ievietot Power App**.
 
-    - Noklikšķiniet uz **Opcijas** un pēc tam atlasiet **Personalizēt šo formu**. Izvēlnē **Ievietot** atlasiet **PowerApp**. Pēc tam atlasiet sadaļu, kurai vēlaties pievienot pakalpojumu PowerApp. Ja vēlaties iegult pakalpojumu PowerApp zem izvēlnes pogas PowerApps, atlasiet darbības rūti. Ja vēlaties iegult pakalpojumu PowerApp tieši lapā, atlasiet attiecīgo cilni, kopsavilkuma cilni, paneli vai sadaļu (ja izmantojat darbvietu).
-    - Ja piekļuvei pakalpojumam PowerApp paredzēts izmantot izvēlnes pogu PowerApps, var arī standarta darbības rūtī noklikšķināt uz izvēlnes pogas **PowerApps** un pēc tam atlasīt **Ievietot PowerApp**.
+    - Noklikšķiniet uz **Opcijas** un pēc tam atlasiet **Personalizēt šo formu**. Izvēlnē **Ievietot** atlasiet **Power App**. Pēc tam atlasiet sadaļu, kurai vēlaties pievienot pakalpojumu Power App. Ja vēlaties iegult pakalpojumu Power App zem izvēlnes pogas Power Apps, atlasiet darbības rūti. Ja vēlaties iegult pakalpojumu Power App tieši lapā, atlasiet attiecīgo cilni, kopsavilkuma cilni, paneli vai sadaļu (ja izmantojat darbvietu).
+    - Ja piekļuvei pakalpojumam Power App paredzēts izmantot izvēlnes pogu Power Apps, var arī standarta darbības rūtī noklikšķināt uz izvēlnes pogas **Power Apps** un pēc tam atlasīt **Ievietot Power App**.
 
-3. Konfigurējiet iegulto pakalpojumu PowerApp.
+3. Konfigurējiet iegulto pakalpojumu Power App.
 
-    - Laukā **Nosaukums** ir norādīts teksts, kas ir redzams uz pogas vai cilnes, kas ietvers iegulto pakalpojumu PowerApp. Iespējams, ka PowerApp nosaukums šajā laukā ir jāatkārto bieži.
-    - **App ID** ir pakalpojuma PowerApp, ko vēlaties iegult, GUID. Lai izgūtu šo vērtību, atrodiet pakalpojumu PowerApp lapā [web.powerapps.com](https://web.powerapps.com) un pēc tam sadaļā **Detalizēta informācija** atrodiet lauku **App ID**.
-    - Izmantojot opciju **PowerApp ievades dati**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu PowerApp kā ievadi. Lai iegūtu sīkāku informāciju par to, kā pakalpojums PowerApp var piekļūt datiem, kas nosūtīti no programmam Finance and Operations, skatiet sadaļu tālāk šajā tēmā ar nosaukumu [Tāda pakalpojuma PowerApp izveide, kas piesaista datus no programmam Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps).
-    - Atlasiet opciju **Programmas izmērs**, kas atbilst iegulšanai paredzētajam pakalpojuma PowerApp veidam. Atlasiet opciju **Šaurs** mobilajām ierīcēm izveidotajam pakalpojumam PowerApps un **Plašs** planšetdatoriem izveidotajam pakalpojumam PowerApps. Tādējādi iegultajam pakalpojumam PowerApp tiek nodrošināts pietiekami daudz vietas.
-    - Kopsavilkuma cilnē **Juridiskas personas** var izvēlēties, kurām juridiskajām personām ir pieejams pakalpojums PowerApp. Noklusējuma iestatījums ir pakalpojuma parādīšana PowerApp visām juridiskajām personām.
+    - Laukā **Nosaukums** ir norādīts teksts, kas ir redzams uz pogas vai cilnes, kas ietvers iegulto pakalpojumu Power App. Iespējams, ka Power App nosaukums šajā laukā ir jāatkārto bieži.
+    - **Programmas ID** ir pakalpojuma Power App, ko vēlaties iegult, GUID. Lai izgūtu šo vērtību, atrodiet pakalpojumu Power App lapā [web.powerapps.com](https://web.powerapps.com) un pēc tam sadaļā **Detalizēta informācija** atrodiet lauku **App ID**.
+    - Izmantojot opciju **Power App ievades dati**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu Power App kā ievadi. Lai iegūtu sīkāku informāciju par to, kā pakalpojums Power App var piekļūt datiem, kas nosūtīti no programmām Finance and Operations, skatiet sadaļu tālāk šajā tēmā ar nosaukumu [Tāda pakalpojuma Power App izveide, kas piesaista datus no programmām Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Atlasiet opciju **Programmas izmērs**, kas atbilst iegulšanai paredzētajam pakalpojuma Power App veidam. Atlasiet opciju **Šaurs** mobilajām ierīcēm izveidotajam pakalpojumam Power Apps un **Plašs** planšetdatoriem izveidotajam pakalpojumam Power Apps. Tādējādi iegultajam pakalpojumam Power App tiek nodrošināts pietiekami daudz vietas.
+    - Kopsavilkuma cilnē **Juridiskas personas** var izvēlēties, kurām juridiskajām personām ir pieejams pakalpojums Power App. Noklusējuma iestatījums ir pakalpojuma parādīšana Power App visām juridiskajām personām.
 
-4. Apstipriniet, ka konfigurācija ir pareiza, un pēc tam noklikšķiniet uz **Ievietot**, lai iegultu pakalpojumu PowerApp lapā. Tiek parādīta uzvedne ar norādi atsvaidzināt pārlūkprogrammu, lai redzētu iegulto pakalpojumu PowerApp.
+4. Apstipriniet, ka konfigurācija ir pareiza, un pēc tam noklikšķiniet uz **Ievietot**, lai iegultu pakalpojumu Power App lapā. Tiek parādīta uzvedne ar norādi atsvaidzināt pārlūkprogrammu, lai redzētu iegulto pakalpojumu Power App.
 
-## <a name="sharing-an-embedded-powerapp"></a>Iegultā pakalpojuma PowerApp koplietošana
+## <a name="sharing-an-embedded-power-app"></a>Iegultā pakalpojuma Power App koplietošana
 
-Kad pakalpojums PowerApp lapā ir iegults un ir apstiprināts, ka tas darbojas pareizi un visu datu konteksts ir no lapas nosūtīts, šo iegulto pakalpojumu PowerApp var koplietot ar citiem lietotājiem sistēmā. To var izdarīt divos dažādos veidos, izmantojot produkta personalizēšanas iespējas.
+Kad pakalpojums Power App lapā ir iegults un ir apstiprināts, ka tas darbojas pareizi un visu datu konteksts ir no lapas nosūtīts, šo iegulto pakalpojumu Power App var koplietot ar citiem lietotājiem sistēmā. To var izdarīt divos dažādos veidos, izmantojot produkta personalizēšanas iespējas.
 
 - To ieteicams veikt sistēmas administratoram, kurš personalizāciju var piegādāt visiem lietotajiem vai lietotāju apakškopai.
 - Vai arī lapas personalizācijas datus var eksportēt, nosūtīt tos vienam vai vairākiem lietotājiem un norādīt visiem šiem lietotājiem importēt šīs izmaiņas. Izmantojot personalizēšanas rīkjoslā esošo opciju Pārvaldīt, varat eksportēt un importēt personalizācijas.
 
 Lai iegūtu sīkāku informāciju par personalizēšanas iespējām produktā un kā tās izmantot, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md) .
 
-## <a name="building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps"></a>Tāda pakalpojuma PowerApp izveide, kas piesaista datus no programmam Finance and Operations
+## <a name="building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Tāda pakalpojuma Power App izveide, kas piesaista datus no programmām Finance and Operations
 
-Lai varētu izveidot pakalpojumu PowerApp, kas tiks iegults programmās Finance and Operations, ir jāizmanto programmu Finance and Operations ievades dati. Pakalpojumā PowerApp šiem ievades datiem var piekļūt, izmantojot mainīgo vērtību Param("EntityId").
+Lai varētu izveidot pakalpojumu Power App, kas tiks iegults programmās Finance and Operations, ir jāizmanto programmu Finance and Operations ievades dati. Pakalpojumā Power App šiem ievades datiem var piekļūt, izmantojot mainīgo vērtību Param("EntityId").
 
-Piemēram, PowerApp funkcijā OnStart var iestatīt programmu Finance and Operations ievades datus kā mainīgo vērtību, kā norādīts tālāk.
+Piemēram, Power App funkcijā OnStart var iestatīt programmu Finance and Operations ievades datus kā mainīgo vērtību, kā norādīts tālāk.
 
 ```
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-embedded-powerapp"></a>Iegultā pakalpojuma PowerApp skatīšana
+## <a name="viewing-an-embedded-power-app"></a>Iegultā pakalpojuma Power App skatīšana
 
-Lai skatītu iegulto pakalpojumu PowerApp programmu Finance and Operations lapā, atveriet lapu, izmantojot iegulto pakalpojumu PowerApp. Ņemiet vēra, ka pakalpojumam PowerApps var piekļūt, izmantojot pogu PowerApps standarta darbības rūtī, vai to var redzēt tieši lapā kā jaunu cilni, kopsavilkuma cilni, paneli vai kā jaunu darbvietas sadaļu. Pirmo reizi mēģinot ielādēt pakalpojumu PowerApp lapā, tiek parādīta uzvedne ar norādi pieteikties pakalpojumā PowerApps, lai pārliecinātos, ka lietotājam ir atbilstošas atļaujas izmantot pakalpojumu PowerApp.
+Lai skatītu iegulto pakalpojumu Power App programmu Finance and Operations lapā, atveriet lapu, izmantojot iegulto pakalpojumu Power App. Ņemiet vēra, ka pakalpojumam Power Apps var piekļūt, izmantojot pogu Power Apps standarta darbības rūtī, vai to var redzēt tieši lapā kā jaunu cilni, kopsavilkuma cilni, paneli vai kā jaunu darbvietas sadaļu. Pirmo reizi mēģinot ielādēt pakalpojumu Power App lapā, tiek parādīta uzvedne ar norādi pieteikties pakalpojumā Power Apps, lai pārliecinātos, ka lietotājam ir atbilstošas atļaujas izmantot pakalpojumu Power App.
 
-## <a name="editing-an-embedded-powerapp"></a>Iegultā pakalpojuma PowerApp rediģēšana
+## <a name="editing-an-embedded-power-app"></a>Iegultā pakalpojuma Power App rediģēšana
 
-Kad pakalpojuma PowerApp iegulšana lapā ir pabeigta, var būt nepieciešams veikt dažas pakalpojuma PowerApp konfigurācijas izmaiņas. Piemēram, varbūt vēlaties mainīt ar iegulto pakalpojumu PowerApp saistītu etiķeti vai ir izveidota jauna PowerApp versija un ir jāatjaunina programmas ID, lai norādītu jaunāko pakalpojuma PowerApp versiju.
+Kad pakalpojuma Power App iegulšana lapā ir pabeigta, var būt nepieciešams veikt dažas pakalpojuma Power App konfigurācijas izmaiņas. Piemēram, varbūt vēlaties mainīt ar iegulto pakalpojumu Power App saistītu etiķeti vai ir izveidota jauna Power App versija un ir jāatjaunina programmas ID, lai norādītu jaunāko pakalpojuma Power App versiju.
 
-Lai rediģētu iegultā PowerApp konfigurāciju, izpildiet tālāk aprakstītās darbības.
+Lai rediģētu iegultā Power App konfigurāciju, izpildiet tālāk aprakstītās darbības.
 
-1. Atveriet rūti **Rediģēt PowerApp**.
+1. Atveriet rūti **Rediģēt Power App**.
 
-    - Ja piekļuvei iegultajam pakalpojumam PowerApp izmanto izvēlnes pogu PowerApps, ar peles labo pogu noklikšķiniet uz izvēlnes pogas PowerApps un atlasiet **Personalizēt**. Nolaižamajā izvēlnē **Atlasīt PowerApp** atlasiet konfigurējamo pakalpojumu PowerApp.
-    - Ja iegultais pakalpojums PowerApp tiek parādīts tieši lapā, atlasiet **Opcijas** un pēc tam atlasiet **Personalizēt šo formu**. Izmantojot rīku **Atlasīt**, noklikšķiniet uz iegultā pakalpojuma PowerApp.
+    - Ja piekļuvei iegultajam pakalpojumam Power App izmanto izvēlnes pogu Power Apps, ar peles labo pogu noklikšķiniet uz izvēlnes pogas Power Apps un atlasiet **Personalizēt**. Nolaižamajā izvēlnē **Atlasīt Power App** atlasiet konfigurējamo pakalpojumu Power App.
+    - Ja iegultais pakalpojums Power App tiek parādīts tieši lapā, atlasiet **Opcijas** un pēc tam atlasiet **Personalizēt šo formu**. Izmantojot rīku **Atlasīt**, noklikšķiniet uz iegultā pakalpojuma Power App.
 
-2. Veiciet nepieciešamās pakalpojuma PowerApps konfigurācijas izmaiņas un pēc tam noklikšķiniet uz **Saglabāt**.
+2. Veiciet nepieciešamās pakalpojuma Power Apps konfigurācijas izmaiņas un pēc tam noklikšķiniet uz **Saglabāt**.
 
-## <a name="removing-an-embedded-powerapp"></a>Iegultā pakalpojuma PowerApp noņemšana
+## <a name="removing-an-embedded-power-app"></a>Iegultā pakalpojuma Power App noņemšana
 
-Kad pakalpojuma PowerApp iegulšana lapā ir pabeigta, to, ja nepieciešams, var noņemt divējādi.
+Kad pakalpojuma Power App iegulšana lapā ir pabeigta, to, ja nepieciešams, var noņemt divējādi.
 
-- Atveriet rūti **Rediģēt PowerApp**, izmantojot norādījumus iepriekš šīs tēmas sadaļā [Iegultā pakalpojuma PowerApp rediģēšana](#editing-an-embedded-powerapp). Apstipriniet, ka rūtī ir redzama informācija par iegulto pakalpojumu PowerApp, kuru vēlaties noņemt, un pēc tam noklikšķiniet uz pogas **Dzēst**.
-- Tā kā iegultais pakalpojums PowerApp ir saglabāts kā personalizācijas dati, notīrot lapas personalizācijas datus, tiek noņemtai visi šajā lapā iegultā pakalpojuma PowerApps dati. Ņemiet vērā, ka lapas personalizācijas datu notīrīšana ir neatgriezenisks process, un to nevar atsaukt. Lai noņemtu lapā konkrētos personalizācijas datus, atlasiet **Opcijas** un pēc tam noklikšķiniet uz **Personalizēt šo formu**. Izvēlnē **Pārvaldīt** atlasiet pogu **Notīrīt**. Veicot pārlūkprogrammas atsvaidzināšanu, visi šīs lapas iepriekšējie personalizācijas dati ir noņemti. Lai iegūtu sīkāku informāciju par to, kā optimizēt lapas, izmantojot personalizēšanu, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
+- Atveriet rūti **Rediģēt Power App**, izmantojot norādījumus iepriekš šīs tēmas sadaļā [Iegultā pakalpojuma Power App rediģēšana](#editing-an-embedded-powerapp). Apstipriniet, ka rūtī ir redzama informācija par iegulto pakalpojumu Power App, kuru vēlaties noņemt, un pēc tam noklikšķiniet uz pogas **Dzēst**.
+- Tā kā iegultais pakalpojums Power App ir saglabāts kā personalizācijas dati, notīrot lapas personalizācijas datus, tiek noņemtai visi šajā lapā iegultā pakalpojuma Power Apps dati. Ņemiet vērā, ka lapas personalizācijas datu notīrīšana ir neatgriezenisks process, un to nevar atsaukt. Lai noņemtu lapā konkrētos personalizācijas datus, atlasiet **Opcijas** un pēc tam noklikšķiniet uz **Personalizēt šo formu**. Izvēlnē **Pārvaldīt** atlasiet pogu **Notīrīt**. Veicot pārlūkprogrammas atsvaidzināšanu, visi šīs lapas iepriekšējie personalizācijas dati ir noņemti. Lai iegūtu sīkāku informāciju par to, kā optimizēt lapas, izmantojot personalizēšanu, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Pielikums
 
-### <a name="developer-control-over-where-a-powerapp-can-be-embedded"></a>Izstrādātāja pakalpojuma PowerApp iegulšanas iespēju kontrole
+### <a name="developer-control-over-where-a-power-app-can-be-embedded"></a>Izstrādātāja pakalpojuma Power App iegulšanas iespēju kontrole
 
-Pēc noklusējuma lietotāji var iegult pakalpojumu PowerApps jebkurā lapā, izmantojot vai nu izvēlnes pogas PowerApps metodi, vai parādot to tieši lapā kā cilni, kopsavilkuma cilni, paneli vai jaunu darbvietas sadaļu. Tomēr, ja nepieciešams, izstrādātāji var arī konfigurēt šo funkciju, lai atļautu iegult pakalpojumu PowerApps tikai konkrētās lapās, izmantojot tālāk norādītās metodes.
+Pēc noklusējuma lietotāji var iegult pakalpojumu Power Apps jebkurā lapā, izmantojot vai nu izvēlnes pogas Power Apps metodi, vai parādot to tieši lapā kā cilni, kopsavilkuma cilni, paneli vai jaunu darbvietas sadaļu. Tomēr, ja nepieciešams, izstrādātāji var arī konfigurēt šo funkciju, lai atļautu iegult pakalpojumu Power Apps tikai konkrētās lapās, izmantojot tālāk norādītās metodes.
 
-- **irIespējotaPowerAppPersonalizācija** — ja šī metode konkrētajai lapai atgriež atbildi Aplams, tad izvēlnes poga PowerApps netiek parādīta, un lietotāji nevarēs iegult pakalpojumu PowerApps jebkurā šīs lapas vietā, tostarp arī cilnes veidā.
-- **irIespējotaPowerAppPersonalizācija** — ja šī metode konkrētajai lapai atgriež atbildi Aplams, tad lietotāji nevarēs iegult pakalpojumu PowerApps tieši lapā kā cilni, kopsavilkuma cilni vai panorāmas sadaļu. Lietotāji joprojām var iegult pakalpojumu PowerApps, izmantojot izvēlnes pogu PowerApps, ja iegulšana lapā ir atļauta.
+- **irIespējotaPowerAppPersonalizācija** — ja šī metode konkrētajai lapai atgriež atbildi Aplams, tad izvēlnes poga Power Apps netiek parādīta, un lietotāji nevarēs iegult pakalpojumu Power Apps jebkurā šīs lapas vietā, tostarp arī cilnes veidā.
+- **irIespējotaPowerAppPersonalizācija** — ja šī metode konkrētajai lapai atgriež atbildi Aplams, tad lietotāji nevarēs iegult pakalpojumu Power Apps tieši lapā kā cilni, kopsavilkuma cilni vai panorāmas sadaļu. Lietotāji joprojām var iegult pakalpojumu Power Apps, izmantojot izvēlnes pogu Power Apps, ja iegulšana lapā ir atļauta.
 
-Nākamajā piemērā ir parādīta jauna klase ar divām metodēm, kuras nepieciešamas, lai varētu konfigurēt pakalpojuma PowerApps iegulšanas vietu.
+Nākamajā piemērā ir parādīta jauna klase ar divām metodēm, kuras nepieciešamas, lai varētu konfigurēt pakalpojuma Power Apps iegulšanas vietu.
 
 ```
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]

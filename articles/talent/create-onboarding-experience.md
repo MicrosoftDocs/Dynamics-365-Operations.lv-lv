@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008132"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813941"
 ---
 # <a name="get-started-with-onboard"></a>Darba sākšana ar Onboard
 
@@ -35,17 +35,17 @@ Onboard ļauj ātri izveidot pievienošanas ceļvedi, kas sveiks jaunās darbā 
 
 Lai uzzinātu, kā iegūt un izmantot programmu Onboard, skatiet tālāk norādītās tēmas.
 
-- [Programmas Onboard iegūšana](./onboard-get-app.md)
-- [Pievienošanas ceļveža izveide](./onboard-create-guide.md)
-- [Pievienošanās veidnes izveide](./onboard-create-template.md)
-- [Pievienošanas ceļvežu un veidņu rediģēšana](./onboard-edit-guides-templates.md)
-- [Satura kopīgošana ar citiem ieguldītājiem](./onboard-share-template.md)
-- [Uzdevumu un pievienoto darbinieku statusa skatīšana](./onboard-view-status.md)
-- [Par pieņemšanu darbā atbildīgo grupu izveide Onboard](./onboard-create-team.md)
+- [Programmas Dynamics 365 Talent - Onboard iegūšana](./onboard-get-app.md)
+- [Pievienošanās ceļveža izveide un nosūtīšana, izmantojot Dynamics 365 Talent - Onboard](./onboard-create-guide.md)
+- [Pievienošanas veidnes izveide, izmantojot Dynamics 365 Talent - Onboard](./onboard-create-template.md)
+- [Pievienošanas ceļvežu un veidņu rediģēšana programmā Dynamics 365 Talent - Onboard](./onboard-edit-guides-templates.md)
+- [Satura kopīgošana ar citiem ieguldītājiem programmā Dynamics 365 Talent - Onboard](./onboard-share-template.md)
+- [Pievienoto darbinieku un jūsu uzdevumu statusa skatīšana](./onboard-view-status.md)
+- [Darbā pieņemšanas grupas izveide, izmantojot Dynamics 365 Talent - Onboard](./onboard-create-team.md)
 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Programmas Onboard izmēģināšana vai iegāde](https://dynamics.microsoft.com/talent/onboard/)
-- [Jaunumi](./whats-new.md)
-- [Piezīmes par laidienu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Atbalsta saņemšana](./talent-support.md)
+- [Jaunumi un izmaiņas Dynamics 365 Talent](./whats-new.md)
+- [Nodošanas izpildei plāni](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](./talent-support.md)

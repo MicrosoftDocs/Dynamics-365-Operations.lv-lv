@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190952"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811630"
 ---
 # <a name="new-task-guides-february-2016"></a>Jauni uzdevumu ceļveži (2016. gada februāris)
 
@@ -32,9 +32,9 @@ ms.locfileid: "2190952"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada februāris)
 
-APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli saistībā ar laidienu Dynamics AX 7.0.0. Ja jums ir nepieciešamas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Darba sākšana ar palīdzības sistēmu](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli saistībā ar laidienu Dynamics AX 7.0.0. Ja jums ir nepieciešamas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
-### <a name="accounts-payable"></a>Kreditoru parādi
+### <a name="accounts-payable"></a>Kreditori
 
 | BPM rinda                                                  | Valsts/reģions |
 |-----------------------------------------------------------|----------------|
@@ -637,7 +637,7 @@ APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļ
 | Izcenojuma un veicināšanu pārvaldība                      | Globālais         |
 | Vadītāja pašapkalpošanās                               | Globālais         |
 | Projektu pārskats                                  | Globāls         |
-| Kanālu iestatīšana un konfigurēšana                      | Globāls         |
+| Kanālu iestatīšana un konfigurēšana                      | Globālais         |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

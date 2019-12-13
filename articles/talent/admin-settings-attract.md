@@ -1,5 +1,5 @@
 ---
-title: Konfigurēt uzņēmuma informāciju Microsoft Dynamics 365 Talent - Attract
+title: Konfigurēt uzņēmuma informāciju programmā Attract
 description: Šajā tēmā ir paskaidrots, kā konfigurēt uzņēmuma informāciju un zīmolu Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551603"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833258"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Konfigurēt uzņēmuma informāciju Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Konfigurēt uzņēmuma informāciju programmā Attract
+
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract administrēšanas centrā ir ietverti lietojumprogrammas Attract konfigurēšanas iestatījumi, integrēšanas opcijas un iestatīšanas opcijas.
 
@@ -48,11 +49,11 @@ Kad tiek pievienoti jauni līdzekļi, tie var tikt izlaisti publiskā priekšska
 
 ## <a name="template-management"></a>Veidņu pārvaldība
 
-Procesa veidnē ir ietvertas visas aktivitātes, kas ir jāietver noteiktas vakances darbā pieņemšanas procesā. Organizācija var atļaut izveidot darbā pieņemšanas procesa veidnes visiem darba grupas dalībniekiem vai tikai administratoriem. Lai atļautu darba grupas dalībniekiem izveidot savas darbā pieņemšanas procesa veidnes, ieslēdziet veidņu pārvaldības funkciju. Papildinformāciju par procesa veidnēm skatiet tēmā [Procesa veidnes programmā Attract](./process-templates-attract.md).
+Procesa veidnē ir ietvertas visas aktivitātes, kas ir jāietver noteiktas vakances darbā pieņemšanas procesā. Organizācija var atļaut izveidot darbā pieņemšanas procesa veidnes visiem darba grupas dalībniekiem vai tikai administratoriem. Lai atļautu darba grupas dalībniekiem izveidot savas darbā pieņemšanas procesa veidnes, ieslēdziet veidņu pārvaldības funkciju. Papildinformāciju par procesa veidnēm skatiet tēmā [Procesa veidnes izveide programmā Attract](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>E-pasta veidņu iestatījumi
 
-Organizācijas var izveidot e-pasta ziņojumu veidnes dažādiem gadījumiem. Varat atlasīt galvenes attēlu, kas ir jāietver e-pasta ziņojumu veidnēs. Pēc tam atlasītā galvene ir redzama visās e-pasta ziņojumu veidnēs. Veidnes kājenē varat pievienot saiti uz savas organizācijas paziņojumu par konfidencialitāti un saziņas lietošanas noteikumiem. Papildinformāciju skatiet tēmā [E-pasta ziņojumu veidnes programmā Attract](./email-templates.md).
+Organizācijas var izveidot e-pasta ziņojumu veidnes dažādiem gadījumiem. Varat atlasīt galvenes attēlu, kas ir jāietver e-pasta ziņojumu veidnēs. Pēc tam atlasītā galvene ir redzama visās e-pasta ziņojumu veidnēs. Veidnes kājenē varat pievienot saiti uz savas organizācijas paziņojumu par konfidencialitāti un saziņas lietošanas noteikumiem. Papildu informāciju par veidni skatiet [E-pasta veidnes](./email-templates.md).
 
 ## <a name="offer-process"></a>Piedāvājuma process
 

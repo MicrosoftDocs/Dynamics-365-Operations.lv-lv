@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250787"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814334"
 ---
 # <a name="inventory-management-overview"></a>Krājuma pārvaldības pārskats
 
@@ -51,7 +51,7 @@ Tālāk esošajā mācību kartē ir parādītas galvenās koncepcijas un uzdevu
 Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
 
 ### <a name="inventory-accounting"></a>Krājumu uzskaite 
-Papildinformāciju skatiet tēmā [Krājumu uzskaite modulī Izmaksu pārvaldība](../cost-management/inventory-close.md).
+Papildinformāciju skatiet sadaļā [Krājumu slēgšana](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Ražošanas un Supply Chain Management emuāri
 Viedokļi, jaunumi un cita informācija par moduli Krājumu vadība un citiem risinājumiem ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm).

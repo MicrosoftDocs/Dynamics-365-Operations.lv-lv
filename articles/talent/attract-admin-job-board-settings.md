@@ -1,5 +1,5 @@
 ---
-title: Iespējot Broadbean integrāciju programmā Microsoft Dynamics 365 Talent - Attract
+title: Iespējot Broadbean integrāciju programmā Attract
 description: Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 Talent - Attract, lai grāmatotu darbus uz ārējiem darba sludinājuma dēļiem, piemēram, Broadbean.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552144"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833212"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>Iespējot Broadbean integrāciju programmā Microsoft Dynamics 365 Talent - Attract
+# <a name="enable-broadbean-integration-in-attract"></a>Iespējot Broadbean integrāciju programmā Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Jūs vēlaties, lai jūsu atvērtās pozīcijas redz iespējami daudz kvalificētu kandidātu. Personāla atlases vietnes, piemēram, Broadbean, palīdz jums sasniegt šo mērķi. Microsoft Dynamics 365 Talent: Attract tagad ļauj jums publicēt vietnē Broadbean, un Microsoft pastāvīgi nodrošina jaunu piedāvājumu šajā jomā.
 

@@ -1,5 +1,5 @@
 ---
-title: Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 Talent - Attract
+title: Kandidātu piesaistīšana ar LinkedIn Recruiter sistēmā Attract
 description: Izmantojiet programmas Microsoft Dynamics 365 Talent - Attract nodrošināto LinkedIn integrāciju, lai piesaistītu darba kandidātus ar LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551568"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833050"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Kandidātu piesaistīšana ar LinkedIn Recruiter sistēmā Attract
+
+[!include [banner](includes/banner.md)]
 
 LinkedIn ir pasaulē lielākais tiešsaistes profesionāļu tīkls, kas sniedz jums pieeju pasaules augstākā līmeņa talantiem. Microsoft Dynamics 365 Talent: Attract ļauj piesaistīt kandidātus tieši no LinkedIn. Tāpēc ir vieglāk nekā jebkad atrast talantu, kas nepieciešams, lai aizpildītu vakances. Kad esat iestatījis savienojumu ar LinkedIn, izmantojot Attract, varat skatīt potenciālos LinkedIn kandidātus savām vakancēm un eksportēt tos sistēmā Attract ar tikai vienu klikšķi.
 
@@ -41,7 +42,7 @@ Lai varētu sākt darbu ar LinkedIn Recruiter, izmantojot sistēmu Attract, ir j
 2. Atlasiet **Lietotāja iestatījumi**.
 3. Cilnē **Savienojumi** atlasiet **Izveidot savienojumu** blakus **LinkedIn**. Izpildiet LinkedIn sniegtos norādījumus.
 
-    ![[Iestatīt savienojumu LinkedIn Recruiter no Attract](./Media/atrt-setup-LinkedIn-Recruiter-Connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Iestatīt savienojumu LinkedIn Recruiter no Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>LinkedIn kandidātu skatīšana sistēmā Attract
 
@@ -49,7 +50,7 @@ Kad esat izveidojis savienojumu ar LinkedIn Recruiter, varat skatīt kandidātu 
 
 1. Sistēmā Attract kreisajā pusē atlasiet vienumu **Darbi** vai **Talantu kopas**  un pēc tam atlasiet kandidātu.
 
-    ![[Skatīt LinkedIn kandidātus sistēmā Attract](./Media/atrt-View-LinkedIn-candidates.png)](./media/attract-view-linkedin-candidates.png)
+    ![[Skatīt LinkedIn kandidātus sistēmā Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
 2. Kandidāta profilā atlasiet cilni **LinkedIn.** Varat skatīt kandidāta profilu kopā ar InMail vēsturi un LinkedIn piezīmju vēsturi.
 
@@ -86,7 +87,7 @@ LinkedIn Recruiter varat izsekot tam, vai kandidāts ir pietiecies citām vakanc
     - **Atsauksmes par interviju** — skatiet atsauksmes, ko intervētāji ir iesnieguši sistēmā Attract.
     - **Piezīmes** — skatiet piezīmes, kas ievadītas par šo kandidātu sistēmā Attract.
 
-    ![[Skatīt Attract informāciju no LinkedIn Recruiter](./Media/atrt-View-Information-from-LinkedIn-Recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Skatīt Attract informāciju no LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Ja kandidāts nav ticis tālāk par potenciālā kandidāta posmu, kandidāta un pieteikuma dati netiks sinhronizēti ar LinkedIn Recruiter.
@@ -100,12 +101,12 @@ Ja kandidāti piekrīt kopīgot savus LinkedIn profilus ar jebkuru lietotāju j�
 
 ## <a name="see-also"></a>Skatiet arī
 
-[LinkedIn bieži uzdotie jautājumi](./attract-linkedin-faq.md)
+[Attract integrācija ar LinkedIn — bieži uzdotie jautājumi](./attract-linkedin-faq.md)
 
-[Integrācijas ar LinkedIn iestatīšana](./attract-admin-linkedin.md)
+[Integrācijas ar LinkedIn iestatīšana programmai Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Izveidot darbus](./creating-jobs-attract.md)
+[Darbu izveide, apstiprināšana un grāmatošana programmā Attract](./creating-jobs-attract.md)
 
-[Vakanču publicēšana LinkedIn no pakalpojuma Attract](./attract-post-jobs-to-linkedin.md)
+[Vakanču publicēšana LinkedIn no pakalpojuma Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Integrācijas ar LinkedIn problēmu novēršana](./attract-troubleshoot-linkedin.md)
+[Integrācijas problēmu novēršana ar LinkedIn un Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

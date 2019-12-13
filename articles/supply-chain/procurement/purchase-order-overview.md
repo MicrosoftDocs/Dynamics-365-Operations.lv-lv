@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572214"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815369"
 ---
 # <a name="purchase-order-overview"></a>Pirkšanas pasūtījuma apskats
 
@@ -41,7 +41,7 @@ Darbvietas **Pirkšanas pasūtījumu sagatavošana** un **Pirkšanas pasūtījum
 
 Tālāk norādītajos rakstos ir sniegts apskats par dažādajiem PP apstrādes posmiem.
 
--   [Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
+-   [Pirkšanas pasūtījumu izveidošana](purchase-order-creation.md)
 -   [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 -   [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 -   [Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
@@ -82,7 +82,7 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Pirkšanas pasūtījuma izveidošana](purchase-order-creation.md)
+[Pirkšanas pasūtījumu izveidošana](purchase-order-creation.md)
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 

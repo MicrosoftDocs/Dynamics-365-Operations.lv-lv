@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178934"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811334"
 ---
 # <a name="organization-administration-home-page"></a>Organizācijas administrēšanas sākumlapa
 
@@ -36,7 +36,7 @@ Liela daļa no šeit uzskaitītā satura attiecas uz līdzekļiem modulī **Orga
 
 Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus identifikatorus pamatdatu ierakstiem un transakciju ierakstiem, kam ir nepieciešami identifikatori. Pamatdatu ieraksts vai darījuma ieraksts, kam nepieciešams identifikators, tiek saukts par *atsauci*. Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci.
 
-- [Numuru sēriju apskats](number-sequence-overview.md)
+- [Pārskats par numuru sērijām](number-sequence-overview.md)
 - [Numuru sēriju iestatīšana, izmantojot vedni](tasks/set-up-number-sequences-wizard.md) (uzdevuma ceļvedis)
 - [Atsevišķu numuru sēriju iestatīšana](tasks/set-up-number-sequences-individual-basis.md) (uzdevuma ceļvedis)
 
@@ -46,7 +46,7 @@ Organizācija ir cilvēku grupa, kas strādā kopā, lai nodrošinātu biznesa p
 
 Pirms organizāciju un organizāciju hierarhiju iestatīšanas noteikti plānojiet uzņēmuma modelēšanas veidu. Organizācijas modelim ir nozīmīga ietekme uz īstenošanu un biznesa procesiem.
 
-- [Organizācijas un organizāciju hierarhijas](organizations-organizational-hierarchies.md)
+- [Organizācijas un organizāciju hierarhiju pārskats](organizations-organizational-hierarchies.md)
 - [Organizācijas hierarhijas plānošana](plan-organizational-hierarchy.md)
 - [Organizācijas hierarhijas izveide](tasks/create-organization-hierarchy.md) (uzdevuma ceļvedis)
 - [Juridiskas personas izveide](tasks/create-legal-entity.md) (uzdevuma ceļvedis)
@@ -58,8 +58,8 @@ Globālā adrešu grāmata ir centralizēts repozitorijs pamatdatiem, kas jāgla
 
 Pēc globālās adrešu grāmatas izveidošanas pēc nepieciešamības varat izveidot papildu adrešu grāmatas, piemēram, atsevišķu adrešu grāmatu katram uzņēmumam jūsu organizācijā vai katrai biznesa jomai.
 
-- [Globālā adrešu grāmata](overview-global-address-book.md)
-- [Globālās adrešu grāmatas un papildu adrešu grāmatu konfigurācijas plānošana](plan-configuration-global-address-book-additional-address-books.md)
+- [Pārskats par globālo adrešu grāmatu](overview-global-address-book.md)
+- [Plāns globālajai adrešu grāmatai un citām adrešu grāmatām](plan-configuration-global-address-book-additional-address-books.md)
 - [Globālās adrešu grāmatas konfigurēšana](tasks/configure-global-address-book.md)
 - [Bieži uzdotie jautājumi par adrešu grāmatām](qa-address-books.md)
 
@@ -67,10 +67,10 @@ Pēc globālās adrešu grāmatas izveidošanas pēc nepieciešamības varat izv
 
 Darbplūsma ir sistēma, kuru jūs varat izmantot, lai izveidotu individuālas darbplūsmas vai biznesa procesus. Kad izveidojat darbplūsmu, jūs norādāt veidu, kā dokuments plūst jeb pārvietojas caur sistēmu, norādot, kam ir jāizpilda uzdevums, jāpieņem lēmums vai jāapstiprina dokuments.
 
-- [Darbplūsmas pārskats](overview-workflow-system.md)
+- [Darbplūsmu sistēmas apskats](overview-workflow-system.md)
 - [Darbplūsmas elementi](workflow-elements.md)
-- [Darbplūsmas darbības](workflow-actions.md)
-- [Izveidot darbplūsmu](create-workflow.md)
+- [Darbības darbplūsmas apstiprināšanas procesos](workflow-actions.md)
+- [Izveidot darbplūsmu pārskatu](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>Elektroniskie paraksti
 
@@ -78,21 +78,21 @@ Elektroniskais paraksts apstiprina personas identitāti, kas gatavojas sākt vai
 
 Būtiskiem biznesa procesiem varat izmantot elektroniskos parakstus. Dažiem procesiem ir iebūvētas elektronisko parakstu iespējas. Varat arī izveidot pielāgotas parakstu prasības jebkurai datu bāzes tabulai un laukam.
 
-- [Elektronisko parakstu apskats](electronic-signature-overview.md)
+- [Elektronisko parakstu pārskats](electronic-signature-overview.md)
 - [Elektronisko parakstu iestatīšana](tasks/set-up-electronic-signatures.md) (uzdevuma ceļvedis)
 
 ## <a name="case-management"></a>Pieteikumu pārvaldība
 
 Veicot gadījumu plānošanu, izsekošanu un analīzi, var izstrādāt efektīvus risinājumus, ko var izmantot līdzīgām problēmām. Piemēram, kad klientu apkalpošanas pārstāvji vai cilvēkresursu nodaļas darbinieki veido gadījumus, zināšanu dokumentos viņi var atrast informāciju, kura viņiem palīdz efektīvāk strādāt ar gadījumiem vai tos atrisināt.
 
-- [Pieteikumu pārvaldības apskats](cases.md)
-- [Konfigurēt pieteikumu drošību, procesus un kategorijas](plan-case-management.md)
+- [Pārskats par pieteikumu pārvaldību](cases.md)
+- [Pieteikumu kategorijas drošības, pieteikumu procesu un pieteikumu kategoriju plānošana](plan-case-management.md)
 
 ## <a name="record-templates"></a>Ierakstu veidnes
 
 Ierakstu veidnes var jums palīdzēt izveidot ierakstus ātrāk. Varat izveidot ierakstu veidnes, lai katram jaunajam ierakstam nevajadzētu atkārtoti ievadīt bieži izmantotās lauku vērtības.
 
-- [Ierakstu veidnes](record-templates.md)
+- [Ierakstu veidņu pārskats](record-templates.md)
 - [Ieraksta veidnes izveidošana, lai atvieglotu datu ievadi](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (uzdevuma ceļvedis)
 - [Ieraksta veidnes izmantošana, lai izveidotu jaunu ierakstu](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (uzdevuma ceļvedis)
 

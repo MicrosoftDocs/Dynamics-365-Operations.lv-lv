@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249846"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815276"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integrēšanas ar programmu Microsoft Dynamics 365 Field Service pārskats
 
@@ -41,9 +41,9 @@ Pirmā integrācijas fāze risinājumos Field Service un Supply Chain Management
 
 Pirmā integrācijas fāze risinājumos Field Service un Supply Chain Management ļauj sinhronizēt šādus vienumus:
 
-- [Risinājumā Supply Chain Management ietvertās preces ar precēm risinājumā Field Service, kuras ietver informāciju par preces tipu](field-service-product.md)
-- [Risinājumā Field Service ietvertie darba pasūtījumi ar pārdošanas pasūtījumiem risinājumā Supply Chain Management](field-service-work-order.md)
-- [Risinājumā Field Service ietvertie rēķini ar brīva teksta rēķiniem risinājumā Supply Chain Management](field-service-invoice.md)
+- [Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Field Service](field-service-product.md)
+- [Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management](field-service-work-order.md)
+- [Sinhronizējiet līguma rēķinus risinājumā Field Service ar brīva teksta rēķiniem risinājumā Supply Chain Management](field-service-invoice.md)
 
 Piemēru tam, kā varat sinhronizēt darba pasūtījumu programmās Field Service un Supply Chain Management, noskatieties īsajā YouTube video [Darba pasūtījuma sinhronizēšana, izmantojot Microsoft Dynamics 365 integrāciju](https://www.youtube.com/watch?v=46ylO7raZAo).
 

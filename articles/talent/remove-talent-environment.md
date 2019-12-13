@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010619"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773039"
 ---
 # <a name="remove-talent-environments"></a>Talent vides noņemšana
 
@@ -34,7 +34,7 @@ ms.locfileid: "2010619"
 
 Talent izmēģinājuma vides tiek nodrošinātas, izmantojot 60 dienu derīguma termiņa politiku. Taču izmēģinājuma vides īpašnieki var ātrāk beigt izmēģinājumu, veicot tālāk norādītās darbības. 
 
-1. Pāriet uz [PowerApps Administrēšanas centru](https://admin.businessplatform.microsoft.com/).
+1. Pāriet uz [Power Apps Administrēšanas centru](https://admin.businessplatform.microsoft.com/).
 2. Atlasiet **Vides**.
 3. Atlasiet izmēģinājuma vidi, kuras nosaukuma formāts līdzinās šim: TestDrive — aizstājvārds@domēns.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 
@@ -45,14 +45,14 @@ Esošā izmēģinājuma vide tiek noņemta. Kad tā ir noņemta, jūs varat reģ
 
 Šajā tēmā tiek pieņemts, ka esat iegādājies programmatūru Talent, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. 
 
-Tā kā katra Talent vide ir ietverta atsevišķā PowerApps vidē, ir pieejamas divas iespējas. Pirmā iespēja ietver visas PowerApps vides noņemšanu, bet otrā iespēja ietver tikai Talent vides noņemšanu. Pirmo iespēju ir ieteicams izvēlēties gadījumā, ja esat izveidojis PowerApps vidi tikai Talent nodrošināšanai un esat tikko sācis ieviešanu vai vēl nav izveidota neviena integrācija. Otrā iespēja ir piemērota gadījumā, ja jums ir izveidota PowerApps vide ar bagātīgiem datiem, kas ir saistīti ar PowerApps programmām un plūsmām.
+Tā kā katra Talent vide ir ietverta atsevišķā Power Apps vidē, ir pieejamas divas iespējas. Pirmā iespēja ietver visas Power Apps vides noņemšanu, bet otrā iespēja ietver tikai Talent vides noņemšanu. Pirmo iespēju ir ieteicams izvēlēties gadījumā, ja esat izveidojis Power Apps vidi tikai Talent nodrošināšanai un esat tikko sācis ieviešanu vai vēl nav izveidota neviena integrācija. Otrā iespēja ir piemērota gadījumā, ja jums ir izveidota Power Apps vide ar bagātīgiem datiem, kas ir saistīti ar Power Apps un Power Automate.
 
 > [!Important]
-> Pirms PowerApps vides noņemšanas pārliecinieties, vai tā netiek izmantota bagātīgu datu integrācijai ārpus Talent tvēruma. Ņemiet arī vērā, ka noklusējuma PowerApps vides nevar noņemt. 
+> Pirms Power Apps vides noņemšanas pārliecinieties, vai tā netiek izmantota bagātīgu datu integrācijai ārpus Talent tvēruma. Ņemiet arī vērā, ka noklusējuma Power Apps vides nevar noņemt. 
 
-Lai noņemtu visu PowerApps vidi, tostarp Talent vidi un saistītās programmas un plūsmas, veiciet tālāk norādītās darbības.
+Lai noņemtu visu Power Apps vidi, tostarp Talent vidi un saistītās programmas un plūsmas:
 
-1. Pāriet uz [PowerApps Administrēšanas centru](https://admin.businessplatform.microsoft.com/).
+1. Pāriet uz [Power Apps Administrēšanas centru](https://admin.businessplatform.microsoft.com/).
 2. Atlasiet **Vides**.
 3. Atlasiet noņemamo vidi.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 
@@ -63,7 +63,7 @@ Lai noņemtu visu PowerApps vidi, tostarp Talent vidi un saistītās programmas 
 9. Atlasiet noņemamo instanci. 
 10. Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu.  
 
-Lai noņemtu Talent vidi no esošas PowerApps vides, veiciet tālāk norādītās darbības. Ņemiet vērā, ka nepieciešamība sazināties ar atbalsta dienestu un Talent DevOps darba grupu ir pagaidu prasība, kas ir jāizpilda, līdz šis līdzeklis tiks tiešā veidā iespējots LCS.
+Lai noņemtu Talent vidi no esošas Power Apps vides, veiciet tālāk norādītās darbības. Ņemiet vērā, ka nepieciešamība sazināties ar atbalsta dienestu un Talent DevOps darba grupu ir pagaidu prasība, kas ir jāizpilda, līdz šis līdzeklis tiks tiešā veidā iespējots LCS.
 
 1. Sazinieties ar atbalsta dienestu, lai iesniegtu noņemšanas pieprasījumu.
 2. Atbalsta dienesta darba grupa iesniedz noņemšanas pieprasījumu Talent DevOps darba grupai. 

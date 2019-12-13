@@ -3,7 +3,7 @@ title: Videoklipi
 description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar Finance and Operations programmām, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635107"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781854"
 ---
 # <a name="videos"></a>Videoklipi 
 
@@ -82,7 +82,7 @@ ms.locfileid: "2635107"
 
 ### <a name="customize-the-app"></a>Programmas pielāgošana
 - [Pievienot pielāgotus laukus](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [Iegult PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [Iegult Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>Izdevumi
 - [Izdevumu funkcionalitāte](https://youtu.be/Ocy-MsTvEE0)
@@ -101,6 +101,9 @@ ms.locfileid: "2635107"
 ### <a name="organization-administration"></a>Organizācijas administrēšana
 
 - [Dokumentu vadība](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="revenue-recognition"></a>Ieņēmumu atzīšana
+- [Kā izmantot ieņēmumu atzīšanu](https://youtu.be/v3amIsiqvoo)
 
 ### <a name="tax-engine"></a>Nodokļu programma
 

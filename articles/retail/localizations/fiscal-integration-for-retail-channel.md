@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025411"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812311"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Apskats par mazumtirdzniecības kanālu finanšu integrāciju
 
@@ -36,7 +36,7 @@ ms.locfileid: "2025411"
 - Drošā veidā iesniedziet ar programmā Retail POS veiktajām pārdošanas un atgriešanas darbībām saistīto informāciju ārējā tīmekļa pakalpojumā, kura darbību nodrošina nodokļu iestāde.
 - Palīdziet nodrošināt pārdošanas transakciju datu nemaināmību, izmantojot ciparparakstus.
 
-Finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata mazumtirdzniecības scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugs sastāv no vairākiem programmas Retail komponentu paplašinājumiem un ir iekļauts programmatūras izstrādes komplektā (SDK). Plašāku informāciju par finanšu integrācijas paraugiem skatiet tēmā [Finanšu integrācijas paraugi programmā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail SDK apskats](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata mazumtirdzniecības scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugs sastāv no vairākiem programmas Retail komponentu paplašinājumiem un ir iekļauts programmatūras izstrādes komplektā (SDK). Plašāku informāciju par finanšu integrācijas paraugiem skatiet tēmā [Finanšu integrācijas paraugi programmā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Lai nodrošinātu tādu scenāriju atbalstu, kurus neatbalstīta finanšu integrācijas paraugs, integrētu programmu Retail POS ar citām finanšu ierīcēm vai pakalpojumiem, vai izpildītu citās valstīs vai reģionos spēkā esošās prasības, ir jāpaplašina kāds no esošajiem finanšu integrācijas paraugiem vai jāizveido jauns paraugs, kā piemēru izmantojot esošu paraugu.
 
@@ -65,7 +65,7 @@ Tālāk sniegtajā piemērā ir aprakstīta tipiska finanšu reģistrācijas izp
 7. POS sistēma analizē no finanšu ierīces vai pakalpojuma saņemto atbildi, lai noteiktu, vai finanšu reģistrācija ir bijusi veiksmīga.
 8. CRT saglabā atbildi kanāla datu bāzē.
 
-![Risinājuma shēma](media/emea-fiscal-integration-solution.png "Risinājuma shēma")
+![Risinājumu shēma](media/emea-fiscal-integration-solution.png "Risinājumu shēma")
 
 ## <a name="error-handling"></a>Kļūdu apstrāde
 
@@ -141,6 +141,6 @@ Pašlaik komplektā Retail SDK ir pieejami tālāk norādītie finanšu integr�
 
 Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrācijas funkcionalitāte, taču pašlaik tai netiek izmantota finanšu integrācijas struktūra. Nākamajos atjauninājumos ir plānota šīs funkcionalitātes migrēšana uz finanšu integrācijas struktūru.
 
-- [Ciparparaksts izmantošanai Francijā](emea-fra-cash-registers.md)
-- [Ciparparaksts izmantošanai Norvēģijā](emea-nor-cash-registers.md)
-- [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](./retail-sdk-control-unit-sample.md)
+- [Kases sistēmas funkcionalitāte Francijai](emea-fra-cash-registers.md)
+- [Kases sistēmas funkcionalitāte Norvēģijai](emea-nor-cash-registers.md)
+- [Paraugs Retail POS integrācijai ar vadības ierīcēm Zviedrijai](./retail-sdk-control-unit-sample.md)

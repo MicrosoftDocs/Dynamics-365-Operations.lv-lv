@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178882"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772034"
 ---
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
@@ -155,7 +155,8 @@ Piemēra shēmā jūs varētu vēlēties izveidot kolonnas pārdošanai, līgumi
 
 Varat arī norādīt, vai katru izkārtojuma elementu (kolonnu) ir atļauts rediģēt un vai tas ir pieejams jebkurā darblapas veidnē, kas ir izveidota šim izkārtojumam. Piemēra shēmas izkārtojumā, kas tiek izmantots novērtēšanas stadijā, prognožu kolonnas ir rediģējamas, bet kolonnas pārdošana un līgumi ir tikai lasāmas.
 
-[!Note] Pēc noklusējuma jums būs ierobežojums līdz 36 kolonnām, ja vien nepaplašināsit budžeta plānošanu ar darbībām [Paplašināt budžetu plānošanas izkārtojumu](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> Pēc noklusējuma jums būs ierobežojums līdz 36 kolonnām, ja vien nepaplašināsit budžeta plānošanu ar darbībām [Paplašināt budžetu plānošanas izkārtojumu](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Veidnes
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652360"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811267"
 ---
 # <a name="item-where-used"></a>Krājuma izmantošanas vietas
 
@@ -35,13 +35,13 @@ Jūs varat veikt aprēķinu konkrētam vienumam, lai iegūtu pārskatu par to, k
 
 - [Līdzekļa MK](../objects/object-BOM.md)
 
-- [Rezerves daļas līdzekļa tipa noklusējumos](../setup-for-objects/object-types.md)
+- [Rezerves daļas līdzekļa tipa noklusējumos](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Elementa prognoze Uzturēšanas darba tipa noklusējumu prognozē](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Uzturēšanas darbu tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu tirdzniecība un uzturēšanas kontrolsaraksti](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Darba pasūtījumu uzturēšanas prognoze](../work-orders/maintenance-forecasts.md)
+- [Uzturēšanas prognoze](../work-orders/maintenance-forecasts.md)
 
-- [Darba pasūtījuma pirkšanas pieprasījums](../work-orders/procurement.md)
+- [Sagāde](../work-orders/procurement.md)
 
 - [Darba pasūtījuma iegāde](../work-orders/procurement.md)
 
