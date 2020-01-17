@@ -64,7 +64,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Jaunumi un izmaiņas
               items:
-                - name: "Priekšskatījuma līdzekļi Finance versijā\_10.0.7 (2020.\_gada janvāris)"
+                - name: "Finance versija 10.0.7 (2020.\_gada janvāris)"
                   href: get-started/whats-new-changed-10-0-7.md
                 - name: "Finance versija\_10.0.6 (2019.\_gada novembris)"
                   href: get-started/whats-new-finance-10-0-6.md
@@ -72,10 +72,6 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                    - name: "Finance and Operations programmas\_10.0.5 (2019.\_gada oktobris)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
-                    - name: "Finance and Operations\_10.0.4 (2019.\_gada jūlijs)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
                     - name: "Finance and Operations, Enterprise edition\_7.3"
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
                 - name: Noņemtie vai novecojušie līdzekļi
@@ -158,7 +154,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
-                - name: Sesijas datuma maiņa
+                - name: Mainīt sesijas datumu
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/finance/toc.json
                 - name: Lietotāja izvēlētās laika joslas iestatīšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/finance/toc.json
@@ -198,7 +194,7 @@
               href: accounts-payable/accounts-payable.md
             - name: Kreditoru rēķinu pārskats
               href: accounts-payable/vendor-invoices-overview.md
-            - name: Parādu kreditoriem konfigurēšana
+            - name: Moduļa “Kreditori” konfigurēšana
               items:
                 - name: Moduļa “Kreditori” konfigurēšanas pārskats
                   href: accounts-payable/accounts-payable-overview.md
@@ -214,7 +210,7 @@
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Trīsvirzienu atbilstības ierobežojumi
               href: accounts-payable/three-way-matching-policies.md
-            - name: Rēķinu salīdzināšana modulim “Parādi kreditoriem”
+            - name: Rēķinu salīdzināšana modulim “Kreditori”
               items:
                 - name: Rēķinu salīdzināšana modulim “Kreditori”
                   href: accounts-payable/accounts-payable-invoice-matching.md
@@ -227,8 +223,8 @@
             - name: Kreditoru rēķinu politiku iestatīšana
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
             - name: Kreditora rēķina reģistrēšana un atbilstības noteikšana pret saņemto daudzumu
-              href: accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
-            - name: Pozitīvā maksājuma apskats
+              href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
+            - name: Pozitīvā maksājuma pārskats
               href: accounts-payable/positive-pay-overview.md
             - name: Pozitīvo maksājumu failu iestatīšana un ģenerēšana
               href: accounts-payable/set-up-generate-positive-pay-files.md
@@ -244,7 +240,7 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Kreditoru grāmatošanas metodes
               href: accounts-payable/vendor-posting-profiles.md
-            - name: Ārvalstu valūtas pārvērtēšana moduļiem “Parādi kreditoriem“ un “Debitoru parādi”
+            - name: Ārvalstu valūtas pārvērtēšana moduļiem “Kreditori“ un “Debitori”
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobilie rēķinu apstiprinājumi
               href: accounts-payable/mobile-invoice-approvals.md
@@ -264,7 +260,7 @@
                   href: cash-bank-management/configure-settlement.md
                 - name: Atlikuma nosegšana
                   href: cash-bank-management/settle-remainder.md
-                - name: Kreditoru maksājumu apskats
+                - name: Kreditoru maksājumu pārskats
                   href: cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Kreditoru maksājumu darbvieta
                   href: accounts-payable/vendor-payments-workspace.md
@@ -280,7 +276,7 @@
                   href: accounts-payable/reverse-vendor-payment.md
                 - name: Kreditora elektronisko pārskatu pārbaudes
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
-                - name: Priekšapmaksas rēķinu un priekšapmaksu apskats
+                - name: Priekšapmaksas rēķinu un priekšapmaksu pārskats
                   href: accounts-payable/prepayments-invoices-vs-prepayments.md
                 - name: Daļēju kreditora maksājumu segšana pirms atlaides datuma
                   href: accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md
@@ -302,11 +298,11 @@
                   href: accounts-payable/vendor-transaction-list-page.md
         - name: Debitori
           items:
-            - name: Moduļa “Debitoru parādi” sākumlapa
+            - name: Moduļa “Debitori” sākumlapa
               href: accounts-receivable/accounts-receivable.md
-            - name: Kredīts un iekasēšana modulī “Debitoru parādi”
+            - name: Kredīts un iekasēšana modulī “Debitori”
               href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: Moduļa “Debitoru parādi” un kredītu un iekasēšanas konfigurēšana
+            - name: Moduļa “Debitori” un kredītu un iekasēšanas konfigurēšana
               href: accounts-receivable/accounts-receivables-set-up-overview.md
             - name: Kredīta un iekasēšanas iestatīšana
               href: accounts-receivable/set-up-collections.md
@@ -326,7 +322,7 @@
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Debitoru grāmatošanas profili
               href: accounts-receivable/customer-posting-profiles.md
-            - name: SEPA tiešā debeta apskats
+            - name: SEPA tiešā debeta pārskats
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: SEPA tiešā debeta pilnvarojums
               href: accounts-receivable/sepa-direct-debit-mandate.md
@@ -362,7 +358,7 @@
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Vekseļu iestatīšana
               href: accounts-receivable/set-up-bills-exchange.md
-            - name: Moduļa “Debitoru parādi” slēgšana
+            - name: Moduļa “Debitori” slēgšana
               href: accounts-receivable/close-accounts-receivable.md
             - name: Atgādinājuma vēstules secības izveide
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
@@ -374,7 +370,7 @@
               href: accounts-receivable/tasks/create-interest-code-range.md
             - name: Debitora norakstīšanas žurnāla izveide
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
-            - name: Debitoru parādu vecumstruktūras informācijas iestatīšana un ģenerēšana
+            - name: Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: 'Debitoru kopēšana, izmantojot koplietotas numuru sērijas'
               href: accounts-receivable/copy-customer.md
@@ -382,11 +378,11 @@
               href: accounts-receivable/customer-workflow.md
             - name: Maksājumi un norēķini
               items:
-                - name: Debitoru maksājumu apskats
+                - name: Debitoru maksājumu pārskats
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: 'Debitora maksājuma lietošana, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem'
                   href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
-                - name: Centralizētie maksājumi modulim “Debitoru parādi”
+                - name: Centralizētie maksājumi modulim “Debitori”
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Daļēja debitora maksājuma vai gala maksājuma segšana pirms atlaides
                   href: accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md
@@ -406,11 +402,11 @@
           items:
             - name: Budžeta veidošanas sākumlapa
               href: budgeting/budgeting-overview.md
-            - name: Budžeta plānošanas apskats
+            - name: Budžeta plānošanas pārskats
               href: budgeting/budget-planning-overview-configuration.md
-            - name: Budžeta kontroles apskats
+            - name: Budžeta kontroles pārskats
               href: budgeting/budget-control-overview-configuration.md
-            - name: Budžeta veidošanas apskats
+            - name: Budžeta veidošanas pārskats
               href: budgeting/basic-budgeting-overview-configuration.md
             - name: Pozīciju prognozēšana
               href: budgeting/position-forecasting.md
@@ -444,9 +440,9 @@
               href: cash-bank-management/cash-discount-handling-overpayments.md
             - name: IBAN konta validācijas pārvaldība
               href: cash-bank-management/iban-validation.md
-            - name: Segšanas apskats
+            - name: Segšanas pārskats
               href: cash-bank-management/settlement-overview.md
-            - name: Centralizētu maksājumu nosegšanas apskats
+            - name: Centralizētu maksājumu nosegšanas pārskats
               href: cash-bank-management/settlement-overview-centralized-payments.md
             - name: Akreditīvi
               href: cash-bank-management/letters-of-credit.md
@@ -504,7 +500,7 @@
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
                 - name: Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana
                   href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
-                - name: Detalizētās bankas darbību saskaņošanas apskats
+                - name: Detalizētās bankas darbību saskaņošanas pārskats
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
                 - name: Bankas izraksta faila importēšanas problēmu novēršana
                   href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
@@ -526,7 +522,7 @@
               href: general-ledger/CFO-workspace.md
             - name: Kontu struktūru izveide
               href: general-ledger/tasks/create-account-structures.md
-            - name: Budžeta veidošanas apskats
+            - name: Budžeta veidošanas pārskats
               href: budgeting/basic-budgeting-overview-configuration.md
             - name: Dimensiju izveide un dimensijas elementu importēšana
               href: cost-accounting/cost-dimension.md
@@ -640,7 +636,7 @@
               href: fixed-assets/fixed-asset-management-workspace.md
             - name: Pamatlīdzekļu atjaunošanas pārskats
               href: fixed-assets/Fixed-asset-roll-forward-report.md
-            - name: Nolietojuma grāmatas jaunināšanas apskats
+            - name: Nolietojuma grāmatas jaunināšanas pārskats
               href: fixed-assets/depreciation-book-upgrade-considerations.md
             - name: Atvasinātās grāmatas
               href: fixed-assets/derived-books.md
@@ -738,7 +734,7 @@
               href: general-ledger/general-ledger.md
             - name: Konti
               items:
-                - name: Uzkrājumu apskats
+                - name: Uzkrājumu pārskats
                   href: general-ledger/accruals-overview.md
                 - name: Korekcijas kārtulas
                   href: general-ledger/elimination-rules.md
@@ -864,7 +860,7 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
             - name: PVN
               items:
-                - name: PVN apskats
+                - name: PVN pārskats
                   href: general-ledger/indirect-taxes-overview.md
                 - name: 'PVN likmes, balstoties uz aprēķina pamatu un aprēķināšanas metodēm'
                   href: general-ledger/marginal-base-field.md
@@ -990,9 +986,9 @@
                   href: public-sector/tasks/control-access-purchase-agreements-public-sector.md
                 - name: Publiskā sektora pirkšanas līgumu klasifikāciju iestatīšana
                   href: public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-            - name: Modulis “Debitoru parādi” publiskajā sektorā
+            - name: Modulis “Debitori” publiskajā sektorā
               items:
-                - name: Moduļa “Debitoru parādi” publiskajā sektorā pārskats
+                - name: Moduļa “Debitori” publiskajā sektorā pārskats
                   href: public-sector/accounts-receivable-public-sector.md
                 - name: Rēķinu klasificēšana un norēķinu kodi publiskajā sektorā
                   href: public-sector/billing-classifications-billing-codes-public-sector.md
@@ -1066,9 +1062,9 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Finanšu pārskatu veidošana
           items:
-            - name: Finanšu pārskatu veidošanas apskats
+            - name: Finanšu pārskatu veidošanas pārskats
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Finanšu pārskatu veidošanas apskats
+            - name: Finanšu pārskatu veidošanas pārskats
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Finanšu pārskata komponenti
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
@@ -1244,6 +1240,8 @@
                   href: localizations/latam-bra-sped-reinf.md
                 - name: SPED finanšu regulēšana 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
+                - name: "Fiskālais SPED 2020\_– ICMS-ST papildu informācija versijai SPED Fiscal Layout 014"
+                  href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: Parametri juridiskajām personām
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Juridiskās personas parametru iestatīšana
@@ -1534,9 +1532,9 @@
                   href: localizations/emea-registration-ids.md
                 - name: Apgrieztās maksas
                   href: localizations/emea-reverse-charge.md
-                - name: SEPA kredīta pārskaitījuma apskats
+                - name: SEPA kredīta pārskaitījuma pārskats
                   href: accounts-payable/sepa-credit-transfer.md
-                - name: SEPA tiešā debeta apskats
+                - name: SEPA tiešā debeta pārskats
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Debitoru un kreditoru atlīdzības iestatīšana
                   href: localizations/emea-compensation-customer-vendor-transactions.md
@@ -1901,6 +1899,22 @@
                   href: localizations/emea-ita-credit-invoicing.md
                 - name: Ieturētais nodoklis
                   href: localizations/emea-ita-withholding-tax.md
+                - name: Atsevišķi konti kredīta notām
+                  href: localizations/emea-ita-exil-separate-account-credit.md
+                - name: Pārdošanas rēķinu rindu kārtošana pēc pavadzīmēm
+                  href: localizations/emea-ita-exil-invoicing-packing-slips.md
+                - name: 'Rēķinu grāmatošana, ja summa ir nulle'
+                  href: localizations/emea-ita-exil-zero-invoice-posting.md
+                - name: Bankas datu izmantojamības uzlabošana
+                  href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: Intrastat deklarācijā iekļautās papildmaksas par kilogramu
+                  href: localizations/emea-ita-exil-misc-charges-intrastat.md
+                - name: Papildu piezīmju pārvaldība
+                  href: localizations/emea-ita-exil-structured-notes.md
+                - name: 'Nodokļa rēķins par precēm, kas piegādātas bez maksas'
+                  href: localizations/emea-ita-exil-goods-for-free.md
+                - name: Uzlabots pieprasījums par debeta vai kredīta nosegšanu
+                  href: localizations/emea-ita-exil-improved-inquiry-settlement.md
             - name: Japāna
               items:
                 - name: Japānas pārskats
@@ -2169,6 +2183,8 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: PVN deklarācija
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Standarta audita fails nodoklim (SAF-T) Norvēģijā
+                  href: localizations/emea-nor-satndard-audit-file-for-tax.md
             - name: Polija
               items:
                 - name: Polijas pārskats
@@ -2259,12 +2275,14 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Priekšapmaksas pārvaldība
                       href: localizations/rus-prepayments-management.md
-                    - name: Ienākošā PVN atjaunošana.
+                    - name: Ienākošā PVN atjaunošana
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: Pamatlīdzekļi
                   items:
                     - name: Pamatlīdzekļu pārvaldība
                       href: localizations/rus-fixed-assets.md
+                    - name: Pamatlīdzekļu pārskats
+                      hfre: localizations/rus-fixed-assets-overview.md
                     - name: Pamatlīdzekļu iestatīšana
                       href: localizations/rus-set-up-fixed-assets.md
                     - name: Pamatlīdzekļu iegūšana un to nodošana ekspluatācijā
@@ -2561,7 +2579,7 @@
                   href: ../fin-ops-core/fin-ops/hr/tasks/create-performance-review.md
             - name: Darbinieku attīstības veicināšana un apmācība
               items:
-                - name: Veiktspējas pārvaldības apskats
+                - name: Veiktspējas pārvaldības pārskats
                   href: ../talent/performance-management-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
                   href: ../talent/skills.md?toc=/dynamics365/finance/toc.json
@@ -2629,15 +2647,15 @@
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Power BI saturs
               items:
-                - name: Power BI satura mājas lapa
+                - name: Power BI satura sākumlapa
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Faktiski pret budžetu
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Atvieglojumi
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Skaidras naudas apskats
+                - name: Skaidras naudas pārskats
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
-                - name: CFO apskats
+                - name: CFO pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Kompensācija
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/finance/toc.json
@@ -2689,7 +2707,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentu pārskatu veidošana un drukāšana
               items:
-                - name: Dokumentu atskaišu izveides pakalpojumu apskats
+                - name: Dokumentu atskaišu izveides pakalpojumu pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
                 - name: SSRS konfigurēšana lokāliem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
@@ -2727,7 +2745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/finance/toc.json
             - name: Elektroniskie pārskati
               items:
-                - name: Elektronisko pārskatu veidošanas apskats
+                - name: Elektronisko pārskatu veidošanas pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigurācijas
                   items:
@@ -2763,6 +2781,252 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
                 - name: Formulu veidotājs elektronisko atskaišu veidošanā
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                - name: Formulu valoda un funkcijas
+                  items:
+                    - name: Formulu valoda
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                    - name: Funkcijas
+                      items:
+                        - name: Datums un laiks
+                          items:
+                            - name: Datuma un laika funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
+                            - name: AddDays
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                            - name: DateFormat
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
+                            - name: DateTimeFormat
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/finance/toc.json
+                            - name: DateTimeValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: DateToDateTime
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
+                            - name: DateValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: DayOfYear
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/finance/toc.json
+                            - name: Days
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/finance/toc.json
+                            - name: Now
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/finance/toc.json
+                            - name: NullDate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/finance/toc.json
+                            - name: NullDateTime
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/finance/toc.json
+                            - name: SessionNow
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
+                            - name: SessionToday
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: Saraksts
+                          items:
+                            - name: Saraksta funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
+                            - name: AllItems
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/finance/toc.json
+                            - name: AllItemsQuery
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/finance/toc.json
+                            - name: Count
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/finance/toc.json
+                            - name: EmptyList
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
+                            - name: Enumerate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
+                            - name: Filter
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
+                            - name: First
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
+                            - name: FirstOrNull
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/finance/toc.json
+                            - name: Index
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
+                            - name: IsEmpty
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
+                            - name: List
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                            - name: ListOfFields
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
+                            - name: ListOfFirstItem
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
+                            - name: OrderBy
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
+                            - name: Reverse
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
+                            - name: Split
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
+                            - name: SplitList
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/finance/toc.json
+                            - name: SplitListByLimit
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/finance/toc.json
+                            - name: StringJoin
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
+                            - name: Where
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
+                        - name: Loģika
+                          items:
+                            - name: Loģiskās funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/finance/toc.json
+                            - name: And
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
+                            - name: Case
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                            - name: If
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
+                            - name: Not
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
+                            - name: Or
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                            - name: ValueIn
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
+                        - name: Matemātika
+                          items:
+                            - name: Matemātiskās funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/finance/toc.json
+                            - name: Abs
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/finance/toc.json
+                            - name: Power
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/finance/toc.json
+                            - name: Round
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/finance/toc.json
+                            - name: RoundDown
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/finance/toc.json
+                            - name: RoundUp
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/finance/toc.json
+                        - name: Ieraksti
+                          items:
+                            - name: Ieraksta funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
+                            - name: NullContainer
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
+                            - name: EmptyRecord
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                        - name: Teksts
+                          items:
+                            - name: Teksta funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
+                            - name: Char
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
+                            - name: Concatenate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
+                            - name: Format
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
+                            - name: GetEnumValueByName
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                            - name: GuidValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: JsonValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: Left
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/finance/toc.json
+                            - name: Len
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/finance/toc.json
+                            - name: Lower
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
+                            - name: Mid
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                            - name: NumberFormat
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
+                            - name: NumeralsToText
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/finance/toc.json
+                            - name: PadLeft
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/finance/toc.json
+                            - name: QrCode
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
+                            - name: Replace
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/finance/toc.json
+                            - name: Right
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/finance/toc.json
+                            - name: Text
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
+                            - name: Translate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/finance/toc.json
+                            - name: Trim
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/finance/toc.json
+                            - name: Upper
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/finance/toc.json
+                        - name: Datu vākšana
+                          items:
+                            - name: Datu vākšanas funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/finance/toc.json
+                            - name: CollectedList
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/finance/toc.json
+                            - name: CountIF
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/finance/toc.json
+                            - name: CountIFs
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/finance/toc.json
+                            - name: FormatElementName
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/finance/toc.json
+                            - name: SumIF
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/finance/toc.json
+                            - name: SumIFs
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/finance/toc.json
+                        - name: Citas
+                          items:
+                            - name: Citas (biznesa jomai specifiskas) funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/finance/toc.json
+                            - name: CH_Bank_Mod_10
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
+                            - name: CN_GBT_AdditionalDimensionID
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/finance/toc.json
+                            - name: ConvertCurrency
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/finance/toc.json
+                            - name: CurCredRef
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
+                            - name: FA_Balance
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
+                            - name: CH_Bank_Mod_10
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
+                            - name: FA_Sum
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
+                            - name: GetCurrentCompany
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/finance/toc.json
+                            - name: ISOCredRef
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/finance/toc.json
+                            - name: IsValidCharacterISO7064
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/finance/toc.json
+                            - name: Mod_97
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/finance/toc.json
+                            - name: NumSeqValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: RoundAmount
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/finance/toc.json
+                            - name: TableName2ID
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/finance/toc.json
+                        - name: Tipa pārveidošana
+                          items:
+                            - name: Tipa pārveidošanas funkcijas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
+                            - name: Int64Value
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
+                            - name: IntValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: NumberValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
+                            - name: Value
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Datuma un laika kategorija: DateTimeValue'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Datuma un laika kategorija: DateToDateTime'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Datuma un laika kategorija: DateValue'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Saraksta kategorija: List'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Saraksta kategorija: ListOfFields'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Saraksta kategorija: Split'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Saraksta kategorija: StringJoin'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Teksta kategorija: Char'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Teksta kategorija: GuidValue'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Teksta kategorija: NumberFormat'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Teksta kategorija: QrCode'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
+                            - name: 'Teksta kategorija: Text'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: 'Datu modeļu definīciju atlase, veidojot formātus'
@@ -2891,6 +3155,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
                     - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                    - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                    - name: ER formāta parametru iestatīšana juridiskai personai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
                 - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
                   items:
                     - name: Struktūras konfigurēšana
@@ -2923,10 +3191,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
                     - name: "Elektronisko pārskatu\_formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas"
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                    - name: Biznesa dokumentu pārvaldības pārskats
-                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Jaunu lauku pievienošana biznesa dokumenta veidnei programmā Microsoft Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Biznesa dokumentu pārvaldība
+                      items:
+                        - name: Biznesa dokumentu pārvaldības pārskats
+                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                        - name: Jaunu lauku pievienošana biznesa dokumenta veidnei programmā Microsoft Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronisko pārskatu struktūras API
                   items:
                     - name: Elektronisko pārskatu veidošanas funkciju saraksta paplašināšana
@@ -2997,7 +3267,7 @@
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
-                - name: Project mobilo programmu apskats
+                - name: Project mobilo programmu pārskats
                   href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Projekta laika ieraksts
                   href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
@@ -3069,7 +3339,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
             - name: Darbplūsmas sistēma
               items:
-                - name: Darbplūsmu sistēmas apskats
+                - name: Darbplūsmu sistēmas pārskats
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/finance/toc.json
                 - name: Darbplūsmas sistēmas arhitektūra
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/finance/toc.json

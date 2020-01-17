@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772655"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935446"
 ---
 # <a name="budgeting-home-page"></a>Budžeta veidošanas sākumlapa
 
@@ -57,7 +57,7 @@ Papildu plānošanas un budžeta veidošanas iespējas ir pieejamas un iestrād�
 -   **Darbaspēka budžeti** — darbaspēka budžeta veidošana ietver detalizētu budžeta izmaksu komponentu plānošanu amatiem, atlīdzības grupām un tā tālāk.
 -   **Pamatlīdzekļu budžeti** — pamatojoties uz pamatlīdzekļu informāciju, varat aprēķināt plānoto nolietojumu un reģistrēt citas plānotās transakcijas, kas ir saistītas ar pamatlīdzekļiem.
 -   **Projektu budžeti** — projektu modulī varat izveidot detalizētas projekta prognozes. Projektu prognozes ietver detalizētu informāciju par plānotajām stundām, izdevumiem, maksām un krājumiem.
--   **Pieprasījuma prognozēšana** — pamatojoties uz vēsturiskiem transakciju datiem, varat prognozēt turpmāko krājumu pieprasījumu un izveidot pieprasījuma apjoma prognozes.
+-   **Pieprasījuma prognozēšana** — pamatojoties uz vēsturiskiem darbību datiem, varat prognozēt turpmāko krājumu pieprasījumu un izveidot pieprasījuma apjoma prognozes.
 
 Papildinformāciju par to, kā plānošanas datus no citiem moduļiem pārnest uz budžeta plāniem, skatiet rakstā [Budžeta plānošanas integrācija ar citiem moduļiem](budget-planning-integration-other-modules.md).
 
