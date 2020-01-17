@@ -8,7 +8,9 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: "Priekšskatījuma līdzekļi Platform update\_31 (2020.\_gada janvāris)"
+            - name: "Priekšskatījuma līdzekļi atjauninājumā Platform update\_32 (2020.\_gada februāris)"
+              href: get-started/whats-new-platform-update-32.md
+            - name: "Platform update\_31 (2020.\_gada janvāris)"
               href: get-started/whats-new-platform-update-31.md
             - name: "Platform update\_30 (2019.\_gada novembris)"
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: "Platform update\_15 (2018.\_gada marts)"
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Jaunumi un izmaiņas iepriekšējās versijās
+              items:
+                - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Biznesa notikumi
           items:
             - name: Biznesa notikumu pārskats
@@ -90,7 +96,7 @@
                   href: data-entities/data-management-api.md
                 - name: Pakalpojumu galapunkti
                   items:
-                    - name: Pakalpojumu galapunktu apskats
+                    - name: Pakalpojumu galapunktu pārskats
                       href: data-entities/services-home-page.md
                     - name: Pakalpojumu autentifikācijas problēmu novēršana
                       href: data-entities/troubleshoot-service-authentication.md
@@ -218,7 +224,7 @@
               href: ../../finance/general-ledger/electronic-messaging.md
         - name: Datu pārvaldība
           items:
-            - name: Pārskats par datu pārvaldību
+            - name: Datu pārvaldības pārskats
               href: data-entities/data-entities-data-packages.md
             - name: Datu elementi
               items:
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com integrācija ar lokālajām vidēm
                   href: analytics/entity-store-on-prem.md
-                - name: Apgriezto starpniekserveru konfigurēšana lokālās vidēs
+                - name: Starpniekserveru konfigurēšana lokālās vidēs
                   href: deployment/onprem-reverseproxy.md
                 - name: Atjauninājumu lietošana lokālā izvietojumā
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Zināmās problēmas
                   href: lifecycle-services/known-issues.md
+                - name: Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services lietotāja rokasgrāmata
               href: lifecycle-services/lcs-user-guide.md
             - name: Abonementa vērtētājs
@@ -1028,7 +1036,7 @@
                   href: mobile-apps/platform/scenarios/client-api-design-overview.md
                 - name: "Klienta\_API"
                   items:
-                    - name: Klienta API mājas lapa
+                    - name: Klienta API sākumlapa
                       href: mobile-apps/platform/client-apis/client-apis-reference.md
                     - name: PageState uzskaitījums
                       href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
@@ -1322,7 +1330,7 @@
                   href: sysadmin/alerts.md
                 - name: Uzlabotas partijas formas
                   href: sysadmin/enhanced-forms.md
-                - name: Partijas vēstures tīrīšana
+                - name: Pakešuzdevumu vēstures tīrīšana
                   href: sysadmin/batch-history-cleanup.md
                 - name: Pakešuzdevuma izpildes pārtraukšana
                   href: sysadmin/batch-abort.md

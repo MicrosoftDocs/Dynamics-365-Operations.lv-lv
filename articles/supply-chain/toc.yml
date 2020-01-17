@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas
               items:
-                - name: "Priekšskatījuma līdzekļi Supply Chain Management versijā\_10.0.7 (2019.\_gada decembris)"
+                - name: "Supply Chain Management versija\_10.0.7 (2019.\_gada decembris)"
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: "Supply Chain Management\_10.0.6 (2019.\_gada novembris)"
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Finance and Operations programmas\_10.0.5 (2019.\_gada oktobris)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Finance and Operations\_10.0.4 (2019.\_gada jūlijs)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: "Finance and Operations, Enterprise edition\_7.3"
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Noņemtie vai novecojušie līdzekļi
@@ -156,7 +152,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Sesijas datuma maiņa
+                - name: Mainīt sesijas datumu
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Lietotāja izvēlētās laika joslas iestatīšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/supply-chain/toc.json
@@ -264,7 +260,7 @@
                 - name: 'Izveidot līdzekļus, pamatojoties uz pirkšanas pasūtījumiem'
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: Līdzekļa MK
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Līdzekļa notikumu vēsture
                   href: asset-management/objects/object-timeline.md
                 - name: Līdzekļa skats
@@ -439,7 +435,7 @@
               href: ../finance/general-ledger/CFO-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kontu struktūru izveide
               href: ../finance/general-ledger/tasks/create-account-structures.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Budžeta veidošanas apskats
+            - name: Budžeta veidošanas pārskats
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dimensiju izveide un dimensijas elementu importēšana
               href: ../finance/cost-accounting/cost-dimension.md?toc=/dynamics365/supply-chain/toc.json
@@ -505,7 +501,7 @@
               items:
                 - name: Standarta izmaksu priekšnosacījumu pārskats
                   href: cost-management/prerequisites-standard-costs.md
-                - name: Standarta izmaksu konvertēšanas apskats
+                - name: Standarta izmaksu konvertēšanas pārskats
                   href: cost-management/standard-cost-conversion-overview.md
                 - name: Standarta izmaksu konvertēšanas priekšnosacījums
                   href: cost-management/prerequisites-standard-cost-conversion.md
@@ -592,7 +588,7 @@
                 - name: Ražošanas pasūtījuma izmaksu analīze
                   href: cost-management/production-order-cost-analysis.md
                 - name: Ražošanas pasūtījuma izmaksu novērtējums
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Pašreizējā WIP statusa skatīšana ražošanas pasūtījumā
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Ražošanas pasūtījuma aktīvo, prognozēto un faktisko izmaksu salīdzināšana'
@@ -615,15 +611,15 @@
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI saturs
               items:
-                - name: Power BI satura mājas lapa
+                - name: Power BI satura sākumlapa
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Faktiski pret budžetu
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Atvieglojumi
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Skaidras naudas apskats
+                - name: Skaidras naudas pārskats
                   href: ../finance/cash-bank-management/Cash-Overview-Power-BI-content.md?toc=/dynamics365/supply-chain/toc.json
-                - name: CFO apskats
+                - name: CFO pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kompensācija
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/supply-chain/toc.json
@@ -675,7 +671,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentu pārskatu veidošana un drukāšana
               items:
-                - name: Dokumentu atskaišu izveides pakalpojumu apskats
+                - name: Dokumentu atskaišu izveides pakalpojumu pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
                 - name: SSRS konfigurēšana lokāliem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
@@ -713,7 +709,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/supply-chain/toc.json
             - name: Elektroniskie pārskati
               items:
-                - name: Elektronisko pārskatu veidošanas apskats
+                - name: Elektronisko pārskatu veidošanas pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Konfigurācijas
                   items:
@@ -967,13 +963,13 @@
               href: inventory/inventory-home-page.md
             - name: Atgriešana
               items:
-                - name: Saņemšanas darbību apskats
+                - name: Saņemšanas darbību pārskats
                   href: inventory/arrival-overview.md
                 - name: Krājumu saņemšanas pārskata profila iestatīšana
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Kvalitātes pārvaldība
               items:
-                - name: Kvalitātes pārvaldības apskats
+                - name: Kvalitātes pārvaldības pārskats
                   href: inventory/enable-quality-management.md
                 - name: Kvalitātes pārvaldības procesi
                   href: inventory/quality-management-processes.md
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Aizkaves
                   href: master-planning/delays.md
+                - name: Vispārējās plānošanas darba atcelšana
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Izsekošanas izmantošana izvēršanai
                   href: master-planning/trace-explosion.md
                 - name: Darbību ziņojumi
@@ -1183,7 +1181,7 @@
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Project mobilo programmu apskats
+                - name: Project mobilo programmu pārskats
                   href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Projekta laika ieraksts
                   href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -1255,7 +1253,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
             - name: Darbplūsmas sistēma
               items:
-                - name: Darbplūsmu sistēmas apskats
+                - name: Darbplūsmu sistēmas pārskats
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Darbplūsmas sistēmas arhitektūra
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/supply-chain/toc.json
@@ -1361,7 +1359,7 @@
               href: procurement/procurement-sourcing-workflows.md
             - name: Sagādes katalogi
               items:
-                - name: Sagādes katalogu apskats
+                - name: Sagādes katalogu pārskats
                   href: procurement/procurement-catalogs.md
                 - name: Sagādes kataloga izveide
                   href: procurement/tasks/create-procurement-catalog.md
@@ -1389,7 +1387,7 @@
                   href: procurement/tasks/enter-compare-rfq-bids-award-contracts.md
             - name: Pirkšanas pasūtījumi
               items:
-                - name: Pirkšanas pasūtījumu apskats
+                - name: Pirkšanas pasūtījumu pārskats
                   href: procurement/purchase-order-overview.md
                 - name: Pirkšanas pasūtījumu apstiprināšana un ratificēšana
                   href: procurement/purchase-order-approval-confirmation.md
@@ -1439,7 +1437,7 @@
               items:
                 - name: Produktu ieejas plūsma pret pirkšanas pasūtījumiem
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: Apskats par kreditoru rēķiniem
+                - name: Kreditoru rēķinu pārskats
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kreditoru pārvaldība un sadarbība
               items:
@@ -1515,9 +1513,11 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Izlaistās preces izveide vienam uzņēmumam
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Datu elementu izmantošana
+                  href: pim/data-entities.md
                 - name: Preces dzīves cikla stāvoklis
                   items:
-                    - name: Preču dzīves cikla stāvokļa pārskats
+                    - name: Preces dzīves cikla stāvokļa pārskats
                       href: pim/product-lifecycle.md
                     - name: Jauna preču dzīves cikla stāvokļa izveide
                       href: pim/tasks/new-product-lifecycle-state.md
@@ -1759,7 +1759,7 @@
                       href: production-control/time-attendance-flex-groups.md
             - name: LEAN ražošanas process
               items:
-                - name: Lean manufacturing apskats
+                - name: Lean manufacturing pārskats
                   href: production-control/lean-manufacturing-overview.md
                 - name: No aktivitātēm atkarīgu apakšlīgumu slēgšana
                   href: production-control/activity-based-subcontracting.md
@@ -2073,7 +2073,7 @@
                   href: service-management/working-with-customer-service.md
                 - name: Pakalpojumu līgumu izpilde
                   items:
-                    - name: Pakalpojumu līgumu izpildes apskats
+                    - name: Pakalpojumu līgumu izpildes pārskats
                       href: service-management/fulfill-service-agreements-overview.md
                     - name: Līguma izstrāde un izveide
                       items:
@@ -2105,7 +2105,7 @@
                           href: service-management/update-and-index-subscription-sales-prices.md
                 - name: Debitoru pieprasījumu apstrāde
                   items:
-                    - name: Pakalpojumu līgumu izpildes apskats
+                    - name: Pakalpojumu līgumu izpildes pārskats
                       href: service-management/fulfill-service-agreements-overview.md
                     - name: Laika ierakstīšanas pakalpojuma pasūtījumam sākšana un apturēšana
                       href: service-management/start-and-stop-time-recording-on-a-service-order.md
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Noliktavas darba atcelšana izņēmumu apstrādei
                   href: warehousing/cancel-warehouse-work.md
+                - name: Sistēmas noteikta klastera izdošana
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Izdošanas rindu grupēšana
+                  href: warehousing/pick-line-grouping.md
             - name: Krājumu inventarizācija
               items:
                 - name: Krājumu inventarizācijas iemeslu kodi
