@@ -1,9 +1,9 @@
 ---
 title: Aparatūras lieluma maiņas prasības lokālām vidēm
 description: Šajā tēmā uzskaitītas aparatūras lieluma maiņas prasības lokālai videi.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812561"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870268"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
@@ -137,7 +137,7 @@ Vispārējas pieejamības laidienam var izvietot tikai vienu SSRS mezglu. Testē
 
 ## <a name="environment-orchestrator"></a>Vides vadības modulis
 
-Vadības moduļa pakalpojums ir pakalpojums, kas pārvalda jūsu izvietojumu un saistīto saziņu ar LCS. Šis pakalpojums ir izvietots kā primārais Service Fabric pakalpojums, un tam ir nepieciešamas vismaz trīs virtuālās mašīnas. Šis pakalpojums ir izvietots kopā ar Service Fabric vadības moduļa pakalpojumiem. Tā lielums ir jāpielāgo atbilstoši klastera maksimālajai noslodzei. Papildinformāciju skatiet rakstā [Service Fabric klastera noslodzes plānošanas apsvērumi](/azure/service-fabric/service-fabric-cluster-capacity).
+Vadības moduļa pakalpojums ir pakalpojums, kas pārvalda jūsu izvietojumu un saistīto saziņu ar LCS. Šis pakalpojums ir izvietots kā primārais Service Fabric pakalpojums, un tam ir nepieciešamas vismaz trīs virtuālās mašīnas. Šis pakalpojums ir izvietots kopā ar Service Fabric vadības moduļa pakalpojumiem. Tā lielums ir jāpielāgo atbilstoši klastera maksimālajai noslodzei. Papildinformāciju par skatiet rakstā [Service Fabric atsevišķā klastera izvietošana](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizācija un pārabonēšana
 

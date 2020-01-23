@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b6be53e9a2065373ca37c2791568a8161823803f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 86e74086a5a74c7af5f2572d1a653a1658d729c0
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772414"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853863"
 ---
-## <a name="integrated-tax"></a>Integrētais nodoklis
+# <a name="integrated-tax"></a>Integrētais nodoklis
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Nodokļu iestatījuma dati nosaka iestatījumus gan netiešajiem nodokļiem (PVN
 
 Nodokļu dati ietver elementa karšu vākšanu, kas darbojas kopā debitora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
 
-Finance and Operations   | Programma Customer engagement
+Finance and Operations   | Citas Dynamics 365 programmas
 -------------------------|---------------------------------
 Nodokļu kodi                  | msdyn\_taxcodes.md
 Nodokļu grupas               | msdyn\_taxgroups.md

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697133"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945839"
 ---
 # <a name="create-an-e-commerce-site"></a>E-komercijas vietnes izveide
 
@@ -59,20 +59,16 @@ Pēc vietnes izveides varat pārbaudīt, vai tā ir saistīta ar jūsu tiešsais
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Tiešsaistes veikala apskats](online-store-overview.md)
+[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
-[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
+[robots.txt failu pārvaldība](manage-robots-txt-files.md)
+
+[Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
-
-[Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
-
-[Autorēšanas mājas lapas pārskats](authoring-home-overview.md)
-
-[Jaunas vietnes lapas pievienošana](add-new-page.md)

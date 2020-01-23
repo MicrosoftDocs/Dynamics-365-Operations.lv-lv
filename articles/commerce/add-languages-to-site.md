@@ -3,7 +3,7 @@ title: Valodu pievienošana vietnei
 description: Šajā tēmā paskaidrots, kā pievienot atbalstu papildu valodām Microsoft Dynamics 365 Commerce vietnē.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 26031d386d8e332c07752d8797416491a86649a8
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696811"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914626"
 ---
 # <a name="add-languages-to-your-site"></a>Valodu pievienošana vietnei
 
@@ -166,6 +166,8 @@ Pievienotā valoda tagad būs pieejama. Varat konfigurēt savu vietni, lai to iz
 [Logotipa pievienošana](add-logo.md)
 
 [Vietnes dizaina atlase](select-site-theme.md)
+
+[Darbs ar CSS ignorēšanas failiem](css-override-files.md)
 
 [Izlases ikonas pievienošana](add-favicon.md)
 

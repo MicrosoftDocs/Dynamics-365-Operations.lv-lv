@@ -3,7 +3,7 @@ title: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce izveidot pielāgotas lapas, kas apstrādā Azure Active Directory (Azure AD) bizness–patērētājs (B2C) nomnieku lietotāju pielāgotas pierakstīšanās gadījumus.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697570"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945563"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Pielāgotu lapu iestatīšana lietotāja pieteikšanās gadījumiem
 
@@ -136,11 +136,11 @@ Lai atjauninātu "Pierakstīšanās un parakstīšanās" politiku ar pielāgotu 
 1. Iepriekš konfigurētās **Pierakstīšanās un parakstīšanās** politikas navigācijas rūtī atlasiet **Lapas izkārtojumi**.
 1. Atlasiet izkārtojumu **Vienotā pierakstīšanās un parakstīšanās lapa**.
 1. Iestatiet opciju **Izmantot pielāgotu lapas saturu** uz **Jā**.
-1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. Laukā **Lapas izkārtojuma versija (priekšskatījums)** atlasiet **1.2.0**.
 1. Atlasiet izkārtojumu **Lokālā konta parakstīšanās lapa**.
 1. Iestatiet opciju **Izmantot pielāgotu lapas saturu** uz **Jā**.
-1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. Laukā **Lapas izkārtojuma versija (priekšskatījums)** atlasiet **1.2.0**.
 1. Sadaļā **Lietotāja atribūti** veiciet tālāk minētās darbības.
 
@@ -156,7 +156,7 @@ Lai atjauninātu "Profila rediģēšanas" politiku ar pielāgotu lapas informāc
 1. Iepriekš konfigurētās **Profila rediģēšanas** politikas navigācijas rūtī atlasiet **Lapas izkārtojumi**.
 1. Atlasiet izkārtojumu **Profila rediģēšanas lapa**.
 1. Iestatiet opciju **Izmantot pielāgotu lapas saturu** uz **Jā**.
-1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Laukā **Pielāgots lapas URI** ievadiet pilnu profila rediģēšanas URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Laukā **Lapas izkārtojuma versija (priekšskatījums)** atlasiet **1.2.0**.
 1. Sadaļā **Lietotāja atribūti** veiciet tālāk minētās darbības.
 
@@ -170,12 +170,14 @@ Lai atjauninātu "Paroles atiestatīšanas" politiku ar pielāgotu lapas inform�
 1. Iepriekš konfigurētās **Paroles atiestatīšanas** politikas navigācijas rūtī atlasiet **Lapas izkārtojumi**.
 1. Atlasiet izkārtojumu **Jauna paroles lapa**.
 1. Iestatiet opciju **Izmantot pielāgotu lapas saturu** uz **Jā**.
-1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Laukā **Pielāgots lapas URI** ievadiet pilnu paroles atiestatīšanas URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. Laukā **Lapas izkārtojuma versija (priekšskatījums)** atlasiet **1.2.0**.
 1. Atlasiet izkārtojumu **Konta verifikācijas lapa**.
 1. Iestatiet opciju **Izmantot pielāgotu lapas saturu** uz **Jā**.
-1. Laukā **Pielāgots lapas URI** ievadiet pilnu pierakstīšanās URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Laukā **Pielāgots lapas URI** ievadiet pilnu paroles atiestatīšanas verificēšanas URL. Iekļaujiet priedēkli **?preloadscripts=true**. Piemēram, ievadiet ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. Laukā **Lapas izkārtojuma versija (priekšskatījums)** atlasiet **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Etiķetēm un aprakstiem paredzētu noklusējuma teksta virkņu pielāgošana
 
@@ -193,15 +195,15 @@ Pēc global.json faila atjaunināšanas un savu izmaiņu publicēšanas jaunais 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Tiešsaistes veikala apskats](online-store-overview.md)
-
-[E-komercijas vietnes izveide](create-ecommerce-site.md)
+[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
+[E-komercijas vietnes izveide](create-ecommerce-site.md)
+
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
-[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
+[robots.txt failu pārvaldība](manage-robots-txt-files.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 

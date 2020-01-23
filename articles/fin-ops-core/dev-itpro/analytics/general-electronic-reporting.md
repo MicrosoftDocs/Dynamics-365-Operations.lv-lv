@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771077"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933936"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroniskie pārskati (ER)
 
@@ -51,12 +51,12 @@ ER programmai ir šādas iespējas:
 
 ER atbalsta divus komponentu tipus: **Datu modelis** un **Formāts**.
 
-#### <a name="data-model-components"></a>Datu modeļa komponenti
+#### <a name="data-model-and-model-mapping-components"></a>Datu modeļa un modeļa kartēšanas komponenti
 
 Datu modeļa komponents ir abstrakts datu struktūras atainojums. Tas tiek izmantots kāda specifiska biznesa domēna apgabala aprakstīšanai pietiekami detalizēti, lai nodrošinātu šī domēna pārskatu veidošanas prasības. Datu modeļa komponents sastāv no šādām daļām:
 
-- Datu modelis kā domēnam raksturīgo biznesa elementu kopa, un hierarhiski strukturēta šo elementu attiecību definīcija.
-- Modeļa kartēšana, kas atlasīto programmas datu avotu saista ar atsevišķiem datu modeļa elementiem, kuri izpildes laikā norāda datu plūsmu un kārtulas biznesa datu aizpildīšanai datu modeļa komponentā.
+- <a name="DataModelComponent"></a>Datu modelis kā domēnam raksturīgo biznesa elementu kopa, un hierarhiski strukturēta šo elementu attiecību definīcija.
+- <a name="ModelMappingComponent"></a>Modeļa kartēšana, kas atlasīto programmas datu avotu saista ar atsevišķiem datu modeļa elementiem, kuri izpildes laikā norāda datu plūsmu un kārtulas biznesa datu aizpildīšanai datu modeļa komponentā.
 
 Datu modeļa biznesa elements tiek attēlots kā konteiners (ieraksts). Biznesa vienuma rekvizīti tiek attēloti kā datu elementi (lauki). Katram datu vienumam ir unikāls nosaukums, etiķete, apraksts un vērtība. Katra datu vienuma vērtība var būt izveidota tā, lai tā tiktu atpazīta kā virkne, vesels skaitlis, reāls skaitlis, datums, uzskaitījums, Būla vērtība un citi datu tipi. Turklāt tā var būt cits ieraksts kādā ierakstu sarakstā.
 
@@ -81,7 +81,7 @@ Modeļa kartējumam, kas atbalsta ienākošos elektroniskos dokumentus, ir tāl�
 
 Datu modeļa komponents tiek izveidots katram biznesa domēnam, kurš ir jāizmanto kā vienots datu avots tādai pārskatu veidošanai, kas atdala pārskatus no datu avotu fiziskās ieviešanas. Tas pārstāv domēnam specifiskās biznesa koncepcijas un funkcionalitātes tādā formā, kas pārskata formāta sākotnējo noformējumu un turpmāko uzturēšanu padara efektīvāku.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Formāta komponenti izejošiem elektroniskajiem dokumentiem
+#### <a name="FormatComponentOutbound"></a>Formāta komponenti izejošiem elektroniskajiem dokumentiem
 
 Formāta komponents ir atskaišu veidošanas izvades shēma, kas tiks ģenerēta izpildes laikā. Shēma sastāv no šādiem elementiem:
 
@@ -107,7 +107,7 @@ Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
 
 Lai palaistu atsevišķi ER formāta konfigurāciju un ģenerētu izejošu elektronisko dokumentu, ir nepieciešams identificēt formāta konfigurācijas kartējumu.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Formāta komponenti ienākošiem elektroniskajiem dokumentiem
+#### <a name="FormatComponentInbound"></a>Formāta komponenti ienākošiem elektroniskajiem dokumentiem
 Formāta komponents ir ienākošā dokumenta shēma, kas tiek importēta izpildes laikā. Shēma sastāv no šādiem elementiem:
 
 - Formāts, kas definē izpildes laikā importētā ienākošā un datus ietverošā elektroniskā dokumenta struktūru un saturu. Formāta komponents tiek izmantots, lai ienākošu dokumentu parsētu dažādos formātos, piemēram, kā tekstu un XML.
@@ -144,7 +144,7 @@ Piekļuve ER formāta komponentiem ir atkarīga no iestatījuma ISO valsts/reģi
 
 Datu formāta komponenta dažādām versijām var būt dažādi iestatījumi ISO valsts/reģiona kodiem.
 
-#### <a name="configuration"></a>Konfigurācija
+#### <a name="Configuration"></a>Konfigurācija
 
 ER konfigurācija ir konkrēta ER komponenta aplika. Šis komponents var būt datu modeļa komponents vai formāta komponents. Konfigurācija var ietvert kāda ER komponenta dažādās versijas. Katra konfigurācija tiek atzīmēta kā piederoša konkrētam konfigurācijas nodrošinātājam. Konfigurācijas komponenta versiju **Melnraksts** var rediģēt, ja šīs konfigurācijas īpašnieks programmas ER iestatījumos ir atlasīts kā aktīvs nodrošinātājs.
 
@@ -154,13 +154,13 @@ Izveidotā formāta konfigurācija ietver formāta komponentu. Sākotnējā mode
 
 ER konfigurācija tiek koplietota programmas uzņēmumiem.
 
-#### <a name="provider"></a>Nodrošinātājs
+#### <a name="Provider"></a>Nodrošinātājs
 
 ER nodrošinātājs ir puses identifikators, kas tiek izmantots, lai norādītu katras ER konfigurācijas autoru (īpašnieku). ER jums ļauj pārvaldīt konfigurāciju nodrošinātāju sarakstu. Formāta konfigurācijas, kas ir izlaistas elektroniskajiem dokumentiem Finance and Operations risinājuma ietvaros, ir atzīmētas kā piederošas **Microsoft** konfigurācijas nodrošinātājam.
 
 Lai uzzinātu, kā reģistrēt jaunu ER nodrošinātāju, noskatieties uzdevuma ceļvedi **ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu** (daļa no biznesa procesa **7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)** ).
 
-#### <a name="repository"></a>Repozitorijs
+#### <a name="Repository"></a>Repozitorijs
 
 ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi ER repozitoriju tipi: 
 

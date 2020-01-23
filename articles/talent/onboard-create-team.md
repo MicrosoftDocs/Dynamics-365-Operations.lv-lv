@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814839"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897193"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Darbā pieņemšanas grupas izveide, izmantojot Dynamics 365 Talent - Onboard
+# <a name="create-a-hiring-team"></a>Darbā pieņemšanas grupas izveide
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ Programmā Microsoft Dynamics 365 Talent: Onboard varat izveidot darbā pieņem�
 2. Sadaļā **Grupas**atlasiet elementu **Pievienot** (pluszīme \[**+**\]).
 3. Dialoglodziņa **Izveidot jaunu grupu** sadaļā **Grupas nosaukums** ievadiet darbā pieņemšanas grupas nosaukumu.
 
-    ![[Jaunas grupas izveide programmā Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Jaunas komandas izveide pakalpojumā Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Sadaļā **Izvēlēties grupas dalībniekus** ievadiet katra grupas dalībnieka vārdu vai e-pasta adresi.
 
@@ -55,7 +55,7 @@ Programmā Microsoft Dynamics 365 Talent: Onboard varat izveidot darbā pieņem�
 
 4. Atlasiet izvēles rūtiņu katram pievienošanas ceļvedim, kuru vēlaties piešķirt grupai, un pēc tam atlasiet **Pievienot**.
 
-    ![[Pievienošanas ceļvežu atlasīšana, lai pievienotu tos grupai](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[Pievienošanas ceļvežu atlase pievienošanai grupai](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Pievienošanas veidņu piešķiršana darbā pieņemšanas grupai
 
@@ -67,7 +67,7 @@ Programmā Microsoft Dynamics 365 Talent: Onboard varat izveidot darbā pieņem�
 
 4. Atlasiet izvēles rūtiņu katrai veidnei, kuru vēlaties piešķirt grupai, un pēc tam atlasiet **Pievienot**.
 
-    ![[Veidņu atlasīšana, lai pievienotu tās grupai](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
+    ![[Ceļvežu atlase pievienošanai grupai](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
 
 ### <a name="see-also"></a>Skatiet arī
 

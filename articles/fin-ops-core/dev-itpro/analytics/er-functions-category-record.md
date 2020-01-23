@@ -1,0 +1,47 @@
+---
+title: ER funkciju saraksts ieraksta kategorijā
+description: Šajā tēmā ir sniegta informācija par ieraksta funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
+author: NickSelin
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 25ef07ee539895b51c8a5daf4041c5311a4ae332
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2917745"
+---
+# <a name="list-of-er-functions-in-the-record-category"></a>ER funkciju saraksts ieraksta kategorijā
+
+[!include [banner](../includes/banner.md)]
+
+Elektronisko pārskatu (ER) ierakstu funkcijas var izmantot, lai izgūtu informāciju no un veiktu operācijas ar datu avotiem no datu veida *Konteiners (ieraksts)* Šajā tēmā ir sniegts šo funkciju kopsavilkums.
+
+## <a name="list-of-supported-functions"></a>Atbalstīto funkciju saraksts
+
+| Funkcija | Apraksts |
+|----------|-------------|
+| [NullContainer](er-functions-record-nullcontainer.md) | Šī funkcija atgriež norādītā saraksta pirmo ierakstu kā tukšu vērtību *Konteiners (ieraksts)*, kurai ir tāda pati struktūra kā ieraksta norādītajam ierakstu sarakstam. |
+| [EmptyRecord](er-functions-record-emptyrecord.md) | Šī funkcija atgriež norādītā saraksta pirmo ierakstu kā tukšu vērtību *Konteiners (ieraksts)*, kurai ir tāda pati struktūra kā ieraksta norādītajam ierakstu sarakstam. |
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+
+[Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
+
+[Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)

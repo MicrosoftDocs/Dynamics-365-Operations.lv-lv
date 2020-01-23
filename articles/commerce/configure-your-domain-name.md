@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770462"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945540"
 ---
 # <a name="configure-your-domain-name"></a>Domēna nosaukuma konfigurēšana
 
@@ -43,16 +43,16 @@ Lai saistītu jaunus domēnus ar savu E-komercijas vidi pēc E-komercijas inicia
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Tiešsaistes veikala apskats](online-store-overview.md)
+[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
-
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+
+[robots.txt failu pārvaldība](manage-robots-txt-files.md)
+
+[Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
-
-[Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 270048e10c6c0b20023467662acfdcd1b255588e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: f69bfec663cb8473c112f108813f042368439570
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008965"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897239"
 ---
 # <a name="working-time-calendars"></a>Darba laika kalendāri
-
-[!include [banner](includes/banner.md)]
 
 Izmantojot darba laika kalendāru, var izveidot kalendāru ar darba stundām un dienām, kuras darbinieki strādā jūsu organizācijā. Kalendāri ļauj racionalizēt brīvā laika pieprasīšanas procesu, pēc noklusējuma izmantojot stundas vai dienas. Ja darbinieks iesniedz brīvā laika pieprasījumu, viņam nav jāuztraucas par brīvdienām un slēgšanas laiku, kas tiek aprēķināts, izmantojot darba laika kalendāru.
 

@@ -1,6 +1,6 @@
 ---
 title: Integrētā virsgrāmata
-description: Šajā tēmā ir aprakstīta virsgrāmatas datu integrācija starp Finance and Operations un Customer Engagement, izmantojot Common Data Service.
+description: Šajā tēmā ir aprakstīta virsgrāmatas datu integrācija starp Finance and Operations un citām Dynamics 365 programmām, izmantojot Common Data Service.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 43819e23b167663a51095546cab307e7d7c79a38
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4a0a8f2f52cf9a73efc3557b63793201a7a3f8b8
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771052"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853886"
 ---
-## <a name="integrated-ledger"></a>Integrētā virsgrāmata
+# <a name="integrated-ledger"></a>Integrētā virsgrāmata
 
 [!include [banner](../includes/banner.md)]
 

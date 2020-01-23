@@ -3,7 +3,7 @@ title: Globālās adrešu grāmatas un citu adrešu grāmatu plānošana
 description: Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālās adrešu grāmatas un jebkuru papildu adrešu grāmatu iestatīšanas un konfigurēšanas.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190032"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883415"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plāns globālajai adrešu grāmatai un citām adrešu grāmatām
 
@@ -58,11 +58,3 @@ Pēc globālās adrešu grāmatas izveidošanas pēc nepieciešamības varat izv
 **Lēmums:**
 
 - Cik daudz papildu adrešu grāmatas jūs izveidosiet?
-
-### <a name="address-book-security"></a>Adrešu grāmatas drošība
-
-Adrešu grāmatas varat izveidot jebkurā laikā, kā arī jebkurā laikā varat iestatīt drošības parametrus šīm adrešu grāmatām. Adrešu grāmatai jums nav obligāti jāiestata drošības privilēģijas, bet ja to nedarāt, tad visi darbinieki jūsu organizācijā var skatīt visus pušu ierakstus šajā adrešu grāmatā. Varat iestatīt drošības privilēģijas attiecībā uz pušu ierakstiem, izmantojot adrešu grāmatas. Drošības privilēģijas ir balstītas uz darba grupām. Šāda pieeja garantē, ka pušu ierakstus kādā adrešu grāmatā var skatīt tikai darbinieki, kas ir piešķirti kādai darba grupai, kurai ir piekļuve šai adrešu grāmatai. Jums ir jāatlasa grupas, kam ir piekļuve katrai adrešu grāmatai. Attiecībā uz katru adrešu grāmatu varat iestatīt drošības privilēģijas, kas ļauj vai liedz piekļuvi noteiktām darba grupām. Ja piešķirat darba grupas privilēģijas attiecībā uz kādu adrešu grāmatu, visi šīs grupas dalībnieki var skatīt ierakstus šajā adrešu grāmatā. Ja kādai adrešu grāmatai nepiešķirat darba grupas piekļuvi, tad šīs grupas dalībnieki nevar skatīt šo adrešu grāmatu vai tās saturu.
-
-**Lēmums:**
-
-- Kurām grupām ir piekļuve katrai jaunajai adrešu grāmatai, ko jūs veidosiet?

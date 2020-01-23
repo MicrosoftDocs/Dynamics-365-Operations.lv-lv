@@ -3,7 +3,7 @@ title: Pieprasījuma prognozēšanas iestatīšana
 description: Šajā tēmā ir aprakstīti iestatīšanas uzdevumi, kas jāizpilda, sagatavotos pieprasījuma prognozēšanas izpildei.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813803"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935495"
 ---
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
@@ -63,7 +63,7 @@ Jebkurā brīdī dimensiju sarakstam var pievienot pieprasījuma prognozēšanā
 
 No pieprasījuma prognozēšanas perspektīvas uz visiem krājumi neattiecas vienādi principi. Līdzīgus krājumus var grupēt pēc viena krājumu sadalījuma principa, un parametrus, piemēram, transakcijas tipus un prognozes metodes iestatījumus, var iestatīt katram krājumu sadalījuma principam. Noklikšķiniet uz **Krājumu sadalījuma princips** lapas **Pieprasījuma prognozēšanas parametri** kreisajā rūtī. 
 
-Lai ģenerētu prognozi, programmā Supply Chain Management tiek izmantots algoritmiskās mācīšanās tīmekļa pakalpojums. Ja pierakstāties pakalpojumā Microsoft Azure Machine Learning Studio, tad, lai izveidotu savienojumu ar pakalpojumu, ir jāievada tālāk norādītā informācija.
+Lai ģenerētu prognozi, programmā Supply Chain Management tiek izmantots algoritmiskās mācīšanās tīmekļa pakalpojums. Ja pierakstāties pakalpojumā Microsoft Azure Machine Learning Studio (klasikā), tad, lai izveidotu savienojumu ar pakalpojumu, ir jāievada tālāk norādītā informācija.
 
 -   Tīmekļa pakalpojuma lietojumprogrammas interfeisa (API) atslēga
 -   Tīmekļa pakalpojuma galapunkta URL

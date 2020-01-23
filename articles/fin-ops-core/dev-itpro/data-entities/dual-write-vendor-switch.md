@@ -1,6 +1,6 @@
 ---
-title: Pārslēgties starp kreditora modeļiem
-description: ''
+title: Pārslēgšanās starp kreditoru noformējumiem
+description: Šajā tēmā ir aprakstīts, kā pārslēgties starp kreditora datu integrāciju starp Finance and Operations programmām un Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772368"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902729"
 ---
-# <a name="switch-between-vendor-designs"></a>Pārslēgties starp kreditora modeļiem
+# <a name="switch-between-vendor-designs"></a>Pārslēgšanās starp kreditoru noformējumiem
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772368"
 
 Ja izmantojat citas Dynamics 365 programmas kreditora pamatdatu apgūšanai un vēlaties nošķirt kreditora informāciju no debitoriem, izmantojiet šo pamata kreditora modeli.  
 
-![Pamata kreditora plūsma](media/dual-write-switch-1.png)
+![Pamata kreditora plūsma](media/dual-write-vendor-data-flow.png)
  
 Ja izmantojat citas Dynamics 365 programmas kreditora pamatdatu apgūšanai un vēlaties arī turpmāk izmantot elementu **Konts** kreditora informācijas glabāšanai, izmantojiet šo paplašināto kreditora modeli. Šajā modelī paplašināta kreditora informācija, piemēram, kreditora aizturēšanas statuss un kreditora profils, tiek glabāts elementā **kreditori** pakalpojumā Common Data Service. 
 
-![Kreditora paplašinātā plūsma](media/dual-write-switch-2.png)
+![Kreditora paplašinātā plūsma](media/dual-write-vendor-detail.jpg)
  
 Izpildiet tālāk norādītās darbības, lai izmantotu paplašināto kreditora modeli. 
  
@@ -60,5 +60,5 @@ Izpildiet tālāk norādītās darbības, lai izmantotu paplašināto kreditora 
     4. Darbplūsmas var konfigurēt kā reāllaika vai fona darbplūsmas, pamatojoties uz jūsu prasībām. 
         > [!div class="mx-imgBorder"]
         > ![Konvertēt uz fona darbplūsmu](media/dual-write-switch-8.png)
-    5. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Konts** un **Kreditors**, lai sāktu izmantot Customer Engagement elementu **Konts** kreditora informācijas glabāšanai. 
+    5. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Konts** un **Kreditors**, lai sāktu izmantot elementu **Konts** kreditora informācijas glabāšanai. 
  

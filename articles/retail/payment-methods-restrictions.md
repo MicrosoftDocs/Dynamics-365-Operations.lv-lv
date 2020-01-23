@@ -3,7 +3,7 @@ title: Maksājuma metožu izmantošanas ierobežošana atgriešanām bez kvīts
 description: Šajā tēmā ir aprakstīts, kā var ierobežot noteiktu maksājumu veidu izmantošanu atmaksai, ja atgriešanas tiek veiktas bez kvīts.
 author: rapraj
 manager: AnnBe
-ms.date: 013/05/2019
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 6e2c32aae06ce7bbdde30809d7a197f43b856af1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22e675fd9b7ee33c89f52ac4c8c15807580b86a7
+ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564355"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935856"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Maksājuma metožu izmantošanas ierobežošana atgriešanām bez kvīts
 
@@ -44,7 +44,7 @@ Lai iestatītu maksājuma metodes, ir jāizpilda tālāk norādītie uzdevumi.
 ![Mazumtirdzniecības veikala iestatīšana](media/NoReceiptReturns1.png "Mazumtirdzniecības veikala iestatīšana") 
 
 
-## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Maksājuma metožu izmantošanas ierobežošana atgriešanām bez kvīts
+## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Maksāšanas metožu ierobežošana atgriešanām bez kvīts
 
 Katrai veikala maksājuma metodei lapas**Mazumtirdzniecības veikala pārvaldība** sadaļā **Atgriešanas bez kvīts** iestatiet opcijas **Ierobežot izmantošanu atmaksām bez kvīts** vērtību **Jā**. 
 
@@ -57,7 +57,7 @@ Ja ir iestatīta opcijas **Ierobežot izmantošanu atmaksām bez kvīts** vērt�
 > [!NOTE]
 > Ja kasieris atlasa maksājuma metodi, kam ir ierobežota izmantošana atmaksai bez kvīts, tiek parādīts ziņojums, kurā var pārbaudīt pieņemamās maksājuma metodes.
 
-![Pieņemamās maksājuma metodes](media/NoReceiptReturns4.png "Pieņemamās maksājuma metodes") 
+![Pieņemtās maksājumu metodes](media/NoReceiptReturns4.png "Pieņemtās maksājumu metodes") 
 
 Ja transakcijā ir ietverta gan atgriešana ar kvīti, gan atgriešana bez kvīts, ierobežojuma nosacījumi netiek lietoti, jo transakcijai tiek izmantota atgriešanas darbplūsma ar kvīti. 
 

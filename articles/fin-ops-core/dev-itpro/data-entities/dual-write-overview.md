@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772391"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853910"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Gandrīz reāllaika datu integrācija ar Common Data Service
 
@@ -59,7 +59,7 @@ Sinhronām divvirziena tuvu reāllaikam datu plūsmām ir nepieciešamas šādas
 Izpildiet tālāk norādītās darbības, lai iestatītu programmas Finance and Operations un pakalpojuma Common Data Service integrāciju.
     
 1. Informāciju par duālā ieraksta sistēmas iestatīšanu skatiet rakstu [soli pa solim rokasgrāmata](https://aka.ms/dualwrite-docs) par duālā ieraksta priekšskatījuma paziņošanu.
-2. Lejupielādējiet un instalējiet risinājumu no [Finance and Operations, Common Data Service un Customer engagement integrācijas](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer grupas. Pakotnē ir pieci risinājumi:
+2. Lejupielādējiet un instalējiet risinājumu [Fin OPS un CDS/CE integrācija, izmantojot Dual-Write](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer grupā. Pakotnē ir pieci risinājumi:
 
     + Dynamics365Company
     + CurrencyExchangeRates

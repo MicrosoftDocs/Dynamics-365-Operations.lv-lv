@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813366"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902436"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -36,7 +36,14 @@ Pirkšanas līgumi var attiekties uz noteiktu preces daudzumu, noteiktu preces s
 
 Lapā **Pirkšanas līgumi** varat izveidot pirkšanas līgumus, pieteikties šiem līgumiem un sekot līdzi pirkšanas līgumiem, kas jau ir noslēgti starp jūsu organizāciju un kreditoriem. Kad esat izveidojis pirkšanas līgumu, varat, piemēram, pasūtīt tieši no tā. Katram pirkšanas līgumam ir derīguma termiņš, ko nosaka persona, kas izveido pirkšanas līgumu. Pirkuma piegādes datumam ir jābūt šī derīguma perioda ietvaros.  
 
-Kad esat izveidojis pirkšanas līgumu, lai tas stātos spēkā, šis līgums ir jāaktivizē. Lai aktivizētu pirkšanas līgumu, opcijai **Atzīmēt līgumu kā spēkā esošu** iestatiet vērtību **Jā**.
+Kad esat izveidojis pirkšanas līgumu, lai tas stātos spēkā, šis līgums ir jāaktivizē. Lai aktivizētu pirkšanas līgumu, opcijai **Atzīmēt līgumu kā spēkā esošu** iestatiet vērtību **Jā**. 
+
+Lai nepieļautu pirkšanas līguma izmantošanu un apstiprināšanu, līguma statusu atzīmējiet kā **Slēgts**. Joprojām varēsiet atjaunināt statusu uz **Spēkā esošs** jebkurā laikā pēc tam, kad šīs izmaiņas veiktas.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Par pirkšanas līgumiem atbildīgie nodarbinātie
+
+Pirkšanas līguma klasifikācijā varat noteikt primāro atbildīgo nodarbināto un sekundāro atbildīgo nodarbināto. Šīs vērtības pārmantos ar iegūtais pirkšanas līgums. Pirkšanas līgumam nav obligāti jāpievieno atbildīgie nodarbinātie, un pašā pirkšanas līgumā tos var modificēt tieši katram gadījumam atsevišķi. Sekundāro atbildīgo nodarbināto nevar norādīt bez primārā atbildīgā nodarbinātā, taču nav obligāti jābūt sekundārajam atbildīgajam nodarbinātajam. Jūs nevarat norādīt to pašu nodarbināto kā primāro un sekundāro atbildīgo nodarbināto. 
+
 
 ## <a name="commitment-types"></a>Saistību veidi
 Katra pirkšanas līguma rinda ir saistības kaut ko nopirkt. Lai izpildītu saistības, varat izmantot rindas no vairākiem pirkšanas pasūtījumiem (PO). Ir četri saistību veidi.

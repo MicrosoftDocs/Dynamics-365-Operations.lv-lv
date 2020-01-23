@@ -3,7 +3,7 @@ title: Vienotā preču pieredze
 description: Šajā tēmā ir aprakstīta produkta datu integrācija starp Finance and Operations lietotājprogrammām un Common Data Service.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769733"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914775"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -52,7 +52,7 @@ Preces informācijā ir ietverts viss nepieciešamais, kas saistīts ar preci un
 
 Finance and Operations | Citas Dynamics 365 programmas | Apraksts
 -----------------------|--------------------------------|---
-Izlaistās preces V2 | msdyn\_sharedproductdetails | **Msdyn\_sharedproductdetails** elements satur laukus no Finance and Operations lietojumprogrammām, kas nosaka preci, un kurās ir ietverta preces finanšu un pārvaldības informācija. Tālāk esošajā tabulā parādīta kartēšana.
+Izlaistās preces V2 | msdyn\_sharedproductdetails | **Msdyn\_sharedproductdetails** elements satur laukus no Finance and Operations lietojumprogrammām, kas nosaka preci, un kurās ir ietverta preces finanšu un pārvaldības informācija. 
 Common Data Service izlaistās atšķirīgās preces | Prece | **Preces** elements satur laukus, kas definē preci. Tā ietver atsevišķas preces (preces ar apakštipa preci) un preces variantus. Tālāk esošajā tabulā parādīta kartēšana.
 Produkta numura identifikācijas svītrkods | msdyn\_productbarcodes | Preču svītrkodi tiek izmantoti, lai unikāli identificētu preces.
 Pasūtījuma noklusējuma iestatījumi | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Mērvienību pārveidošana | msdyn_ unitofmeasureconversions
 Īpaša preces mērvienības konversija | msdyn_productspecificunitofmeasureconversion
 Preces kategorijas | msdyn_productcategories | Katra no preču kategorijām un informācija par tās struktūru un raksturlielumiem ir ietverta preču kategorijas elementā. 
 Preču kategoriju hierarhijas | msdyn_productcategoryhierarhies | Preču hierarhijas izmanto, lai kategorizētu vai grupētu preces. Kategoriju hierarhijas ir pieejamas, Common Data Service, izmantojot preču kategoriju hierarhijas elementu. 
-Preču kategoriju hierarhijas lomas | msdyn_productcategoryhierarchies | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Norādiet, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomas elements tiek lietots ar tālāk norādītajiem kartējumiem. 
+Preču kategoriju hierarhijas lomas | msdyn_productcategoryhierarchies | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Norādiet, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomas elements tiek lietots. 
 Preču kategoriju piešķires | msdyn_productcategoryassignments | Lai piešķirtu preci kategorijai, var izmantot preču kategorijas piešķires elementu.
 
 ## <a name="integration-of-products"></a>Preču integrēšana

@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 91b154a2379d6f0bdf8bea322c99be9e1c1925c9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b0bcef9673970ad921f6ca5c6715b7086bcd8c4b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518562"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898160"
 ---
 # <a name="personnel-actions-faq"></a>Bieži uzdotie jautājumi par personāla darbībām
-
-[!include [banner](includes/banner.md)]
 
 Šajā tēmā ir atbildes uz jautājumiem, kas varētu rasties, ja jūsu organizācija izmanto personāla darbības. Personāla darbības ir papildu darbības, kas jāizpilda, kad veicat noteiktus uzdevumus saistībā ar personālu. Personāla darbības varētu būt nepieciešamas, piemēram, uzdevumiem, kad veidojat jaunus amatus, modificējat pastāvošo amatu vērtības, pieņemat darbā jaunus darbiniekus, pārsūtāt darbiniekus, maināt darbinieka atlīdzību, maināt amatu piešķires vai pārtraucat darba attiecības ar darbiniekiem.
 

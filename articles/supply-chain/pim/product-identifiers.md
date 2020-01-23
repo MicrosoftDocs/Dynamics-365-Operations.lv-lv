@@ -3,12 +3,12 @@ title: Preču identifikatori
 description: Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250604"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934890"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori 
 
@@ -43,6 +43,9 @@ Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supp
 Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
 
 Izmantojot Common Data Service, preču numurs Supply Chain Management ir arī preces numurs Common Data Service. Preču varianti tiek sinhronizēti ar pakalpojumu Common Data Service kā atšķirīgas preces.
+
+> [!NOTE]
+> Preces numuru nevar sākt ar "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Krājuma numurs un preces dimensijas
 
@@ -164,7 +167,7 @@ Tālāk esošajā tabulā ir sniegts pārskats par importēšanas un manuālas i
 
 Preču elementu identifikatoru modelis tika izveidots, lai CDS versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā CDS versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa common data service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
 
-Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem no visām galvenās juridiskās personas atsauces tabulām, izmantojot periodisku pakešuzdevumu. Jums ir jāatlasa juridiskā persona un preču kategoriju hierarhija, lai definētu globālo preces šablona tvērumu. Globālo preces Common Data Service identifikatoru tabulu var ģenerēt tikai tādām precēm, kas ir izlaistas atlasītajai juridiskajai personai un ir ietvertas preču hierarhijā, kura preču kategoriju hierarhijā ir atlasīta lomai **Common Data Service**.
+Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem no visām galvenās juridiskās personas atsauces tabulām, izmantojot periodisku pakešuzdevumu. Jums ir jāatlasa juridiskā persona un preču kategoriju hierarhija, lai definētu globālo preces šablona tvērumu. Globālo preces identifikatoru tabulu var ģenerēt tikai tādām precēm, kas ir izlaistas atlasītajai juridiskajai personai un ir ietvertas preču hierarhijā, kura preču kategoriju hierarhijā ir atlasīta lomai **Common data service**.
 
 Šī procesa ietvaros tiek pieņemts, ka preču pamatdatu uzturēšanai galvenokārt tiek izmantota viena centrālā juridiskā persona. (Taču šī juridiskā persona var būt virtuāla juridiskā persona, kas tiek izmantota tikai globālo pamatdatu uzturēšanai.)
 

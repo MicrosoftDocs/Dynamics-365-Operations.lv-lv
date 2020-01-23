@@ -3,7 +3,7 @@ title: Preču dzīves cikla stāvokļa pārskats
 description: Preces dzīves cikla stāvoklis dokumentē izlaistās preces vai preces varianta dzīves cikla stāvokli.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813550"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934844"
 ---
 # <a name="product-lifecycle-state-overview"></a>Preču dzīves cikla stāvokļa pārskats
 
@@ -74,11 +74,7 @@ Lai iegūtu detalizētu informāciju par to, kā lietot preces dzīves cikla st�
 
 ## <a name="default-migration-import-and-export"></a>Noklusējuma migrēšana, importēšana un eksportēšana 
 
-Preces dzīves cikla stāvokļi netiek atbalstīti datu elementos, un dzīves cikla stāvokli nevar iestatīt uz mainīgu stāvokli, izmantojot izlaistas preces datu elementus.
-
--  Veicot migrēšanu no iepriekšējiem laidieniem, visu preču un preču variantu dzīves cikla stāvoklis ir tukšs.  
--  Importējot izlaistās preces, izmantojot kādu datu elementu, izveidošanas laikā tiek lietots noklusējuma dzīves cikla stāvoklis.  
--  Importējot izlaisto preču variantus, izmantojot kādu datu elementu, tiek importēts izlaistās preces šablona preces dzīves cikla stāvoklis.   
+Preces dzīves cikla stāvokļi netiek atbalstīti datu elementos, un dzīves cikla stāvokli var iestatīt uz mainīgu stāvokli, vai nu, izmantojot izlaistas preces datu elementu vai datu elementa izlaisto variantu.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Novecojušu preču un preces variantu atrašana 
 

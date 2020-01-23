@@ -3,7 +3,7 @@ title: Omni-Channel preču ieteikumu demonstrācijas dati
 description: Šī dokumenta mērķis ir sniegt vadlīnijas par to, kā līdzekļu Omni-Channel preces rekomendācijas 1. līmeņa Onebox vidē, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2226185"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872330"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Omni-Channel preču ieteikumu demonstrācijas dati
 
 Šī dokumenta mērķis ir sniegt vadlīnijas par to, kā līdzekļu Omni-Channel preces rekomendācijas 1. līmeņa Onebox vidē, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 
-Omni-Channel preces ieteikumi sniedz redakcionāli pārraudzītu vai programmatiski ģenerētu paredzētu preču sarakstu. Šos sarakstus var izmantot vairākos scenārijos atkarībā no biznesa vajadzībām. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, lasiet [Preču ieteikumu pārskats.](product-recommendaitons-overview.md)
+Omni-Channel preces ieteikumi sniedz redakcionāli pārraudzītu vai programmatiski ģenerētu paredzētu preču sarakstu. Šos sarakstus var izmantot vairākos scenārijos atkarībā no biznesa vajadzībām. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, lasiet [Preču ieteikumu pārskats.](../commerce/product-recommendations.md)
 
 2. līmeņa un augstākas Dynamics vides preces rekomendācijas tiek automātiski aprēķinātas, pamatojoties uz klienta datiem.
 Preču ieteikumu demonstrācijas datu izmantošana neatspējo nevienu produkta rekomendāciju risinājumu, kas jau ir nodrošināts vidē, un visas ar tā izmantošanu saistītās izmaksas.
@@ -68,6 +68,6 @@ Paplašinājums ietver datu faila nosaukumu RecoMockDataset.csv, kas ļauj klien
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Preču ieteikumu pārskats](product-recommendations-overview.md)
+[Preču ieteikumu pārskats](../commerce/product-recommendations.md)
 
-[Vides plānošana](environment-planning.md)
+[Vides plānošana](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

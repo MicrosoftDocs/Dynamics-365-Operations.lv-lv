@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38158948dbcf8966edf49bcce5b1e5da7eddb8dc
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 38c30a878ada9ed0b63ade3d0f234aeffce0ad12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026044"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897893"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 30. aprīlis)
-
-[!include [banner](includes/banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 
