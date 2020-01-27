@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Mākoņa izvietošana
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Sistēmas prasības mākoņa izvietojumiem
+                - name: Sistēmas prasības Retail klienta komponentiem
                   href: get-started/system-requirements.md
                 - name: Lokāls izvietojums
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Jaunumi un izmaiņas
               items:
-                - name: "Priekšskatījuma līdzekļi Retail\_versijā 10.0.7"
+                - name: "Retail versija\_10.0.7"
                   href: get-started/whats-new-10-0-7.md
                 - name: "Retail versija\_10.0.6"
                   href: get-started/whats-new-10-0-6.md
-                - name: "Retail versija\_10.0.5"
-                  href: get-started/whats-new-10-0-5.md
                 - name: Jaunumi un izmaiņas iepriekšējās versijās
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: "Finance and Operations programmas\_10.0.5 (2019.\_gada oktobris)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: "Finance and Operations\_10.0.4 (2019.\_gada jūlijs)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: "Finance and Operations, Enterprise edition\_7.3"
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Noņemtie vai novecojušie līdzekļi
@@ -160,7 +154,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/retail/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/retail/toc.json
-                - name: Sesijas datuma maiņa
+                - name: Mainīt sesijas datumu
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/retail/toc.json
                 - name: Lietotāja izvēlētās laika joslas iestatīšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/retail/toc.json
@@ -210,15 +204,15 @@
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/retail/toc.json
             - name: Power BI saturs
               items:
-                - name: Power BI satura mājas lapa
+                - name: Power BI satura sākumlapa
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/retail/toc.json
                 - name: Faktiski pret budžetu
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: Atvieglojumi
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/retail/toc.json
-                - name: Skaidras naudas apskats
+                - name: Skaidras naudas pārskats
                   href: ../finance/cash-bank-management/Cash-Overview-Power-BI-content.md
-                - name: CFO apskats
+                - name: CFO pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: Kompensācija
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/retail/toc.json
@@ -270,7 +264,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
             - name: Dokumentu pārskatu veidošana un drukāšana
               items:
-                - name: Dokumentu atskaišu izveides pakalpojumu apskats
+                - name: Dokumentu atskaišu izveides pakalpojumu pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/retail/toc.json
                 - name: SSRS konfigurēšana lokāliem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/retail/toc.json
@@ -308,7 +302,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/retail/toc.json
             - name: Elektroniskie pārskati
               items:
-                - name: Elektronisko pārskatu veidošanas apskats
+                - name: Elektronisko pārskatu veidošanas pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/retail/toc.json
                 - name: Konfigurācijas
                   items:
@@ -570,7 +564,7 @@
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/retail/toc.json
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/retail/toc.json
-                - name: Project mobilo programmu apskats
+                - name: Project mobilo programmu pārskats
                   href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/retail/toc.json
                 - name: Projekta laika ieraksts
                   href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/retailtoc.json
@@ -642,7 +636,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/retail/toc.json
             - name: Darbplūsmas sistēma
               items:
-                - name: Darbplūsmu sistēmas apskats
+                - name: Darbplūsmu sistēmas pārskats
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/retail/toc.json
                 - name: Darbplūsmas sistēmas arhitektūra
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/retail/toc.json
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Mazumtirdzniecības hierarhijas
               href: retail-hierarchies.md
-            - name: Atribūti un atribūtu grupas
+            - name: Atribūtu un atribūtu grupu pārvaldība
               href: attribute-attributegroups-lifecycle.md
-            - name: Atribūtu izveide un pārvaldība
-              href: create-manage-attributes.md
             - name: Mazumtirdzniecības preču iestatīšana
               href: set-up-retail-products.md
             - name: Preces izveide
@@ -1146,7 +1138,9 @@
               items:
                 - name: Kases sistēmas funkcionalitāte
                   href: localizations/emea-swe-cash-registers.md
-                - name: Paraugs Retail POS integrācijai ar vadības ierīcēm
+                - name: Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Paraugs Retail POS integrācijai ar vadības ierīcēm (mantojuma)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Mazumtirdzniecības uzdevumi
           items:
@@ -1344,7 +1338,7 @@
                   href: dev-itpro/ecommerce-platform-sdk.md
             - name: Maksājumu savienotāja paplašināmība
               items:
-                - name: Maksājumu integrācijas izveide maksājumu terminālim
+                - name: Izveidot maksājumu integrācija ar maksājumu termināli
                   href: dev-itpro/end-to-end-payment-extension.md
                 - name: Maksājumu savienotāja un maksājumu ierīces ieviešana (tehniskais dokuments)
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
@@ -1376,7 +1370,7 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanāla datu bāzes paplašinājumi
                   href: dev-itpro/channel-db-extensions.md
-                - name: 'Pielāgotas CDX sinhronizācijas iespējošana, izmantojot paplašinājumu'
+                - name: 'Iespējot pielāgotu CDX sinhronizāciju, izmantojot paplašinājumu'
                   href: dev-itpro/cdx-extensibility.md
                 - name: Pielāgotu lauku pievienošana POS kopsummu panelim
                   href: dev-itpro/custom-field-pos-totals.md

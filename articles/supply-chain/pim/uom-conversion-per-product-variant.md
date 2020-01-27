@@ -3,12 +3,12 @@ title: Mērvienību pārveidošana katram preces variantam
 description: Šajā tēmā ir paskaidrots, kā var iestatīt mērvienību pārveidošanu preču variantiem.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249452"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935103"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mērvienību pārveidošana katram preces variantam
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Šajā tēmā ir paskaidrots, kā var iestatīt mērvienību pārveidošanu preču variantiem. Tajā ir ietverts iestatīšanas piemērs.
 
 Šis līdzeklis ļauj uzņēmumiem definēt dažādu mērvienību pārveidošanu tās pašas preces variantiem. Šajā tēmā ir izmantots tālāk minētais piemērs. Uzņēmums pārdod T-kreklus šādos izmēros: mazs, vidējs, liels un īpaši liels. T-krekls ir definēts kā prece, un dažādi izmēri ir definēti kā preces varianti. T-krekli tiek iepakoti kastēs, un katrā kastē var būt pieci T-krekli, izņemot īpaši liela izmēra izstrādājumus, kuru gadījumā kastē pietiek vietas tikai četriem T-krekliem. Uzņēmums vēlas izsekot dažādiem T-kreklu variantiem, izmantojot mērvienību **Gabali**, bet pārdod tos, izmantojot mērvienību **Kastes**. Pārveidojot no krājuma uzskaites vienībām uz pārdošanas vienībām, 1 kaste = 5 gabali, izņemot īpaši liela izmēra variantu, kura gadījumā 1 kaste = 4 gabali.
-
-## <a name="setup"></a>Iestatījumi
-
-Var konfigurēt parametrus, lai izmantotu šo līdzekli precēm, kurām ir iespējots iestatījums **Visi procesi**, vai tikai precei, kurai ir iespējots iestatījums **Noliktavas procesi**, izmantojot opciju **Iespējot mērvienību pārveidošanu** lapā **Preces informācijas parametri**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Iestatīt preci mērvienību pārveidošanai katram variantam
 
 Preces variantus var izveidot tikai precēm, kurām atlasīts šāds iestatījums **Preces apakštips**: **Preces šablons**. Papildinformāciju skatiet sadaļā [Preces šablona izveide](tasks/create-product-master.md).
 
 Līdzeklis nav iespējots precēm, kas ir iestatītas pieļaujamā svara procesiem. 
-
-Preces šablona izveides laikā iespējojiet mērvienības pārveidošanu, izmantojot opciju **Iespējot mērvienību pārveidošanu** lapā **Papildinformācija par preci**.
 
 Kad ir izveidots preces šablons ar izlaistajiem preču variantiem, var iestatīt mērvienību pārveidošanu katram variantam. Izvēlnes vienumu, lai atvērtu mērvienību pārveidošanas lapu preces vai preces varianta kontekstā, var atrast šādās lapās.
 

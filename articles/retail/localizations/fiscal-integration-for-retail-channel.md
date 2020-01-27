@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812311"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915251"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Apskats par mazumtirdzniecības kanālu finanšu integrāciju
 
@@ -138,9 +138,14 @@ Pašlaik komplektā Retail SDK ir pieejami tālāk norādītie finanšu integr�
 - [Fiskālā printera integrācijas piemērs Polijai](emea-pol-fpi-sample.md)
 - [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai](emea-aut-fi-sample.md)
 - [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Čehijas Republikai](emea-cze-fi-sample.md)
+- [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](./emea-swe-fi-sample.md)
 
 Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrācijas funkcionalitāte, taču pašlaik tai netiek izmantota finanšu integrācijas struktūra. Nākamajos atjauninājumos ir plānota šīs funkcionalitātes migrēšana uz finanšu integrācijas struktūru.
 
-- [Kases sistēmas funkcionalitāte Francijai](emea-fra-cash-registers.md)
-- [Kases sistēmas funkcionalitāte Norvēģijai](emea-nor-cash-registers.md)
-- [Paraugs Retail POS integrācijai ar vadības ierīcēm Zviedrijai](./retail-sdk-control-unit-sample.md)
+
+- [Ciparparaksts izmantošanai Francijā](emea-fra-cash-registers.md)
+- [Ciparparaksts izmantošanai Norvēģijā](emea-nor-cash-registers.md)
+
+Šāda mantotās fiskālās integrācijas funkcionalitāte, kas ir pieejama Retail SDK, neizmanto finanšu integrācijas struktūru un līdz ar vēlākiem atjauninājumiem būs novecojusi.
+
+- [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā (mantots)](./retail-sdk-control-unit-sample.md)

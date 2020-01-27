@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832819"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898693"
 ---
 # <a name="formalize-business-processes"></a>Biznesa procesu formalizēšana
-
-[!include [banner](includes/banner.md)]
 
 Izmantojot funkciju Biznesa process, var izveidot to to biznesa procesu veidni, kuri ir jāpabeidz jūsu organizācijā. Piemēram, katru gadu jūsu uzņēmums veic cilvēkresursu auditu. Šajā gadījumā varat izveidot veidni, kas izseko visus uzdevumus, kas iekļauti auditā. Šī veidne nodrošinās to, ka visi uzdevumi, kas tikuši veikti katru reizi, kad tiek veikts audita. Turklāt, ja uzdevumi jāizpilda noteiktā secībā, veidne nodrošināt to, ka tie tiek veikti pareizā secībā.
 

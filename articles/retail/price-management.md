@@ -3,7 +3,7 @@ title: Mazumtirdzniecības pārdošanas cenu pārvaldība
 description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025222"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934775"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
@@ -221,11 +221,11 @@ Tiek izmantota viena un tā pati cenu noteikšanas programma, lai aprēķinātu 
 
 Mazumtirdzniecības cenu noteikšanu ir paredzēta darbam ar mazumtirdzniecības entītijām, nevis ar entītijām, kas nav mazumtirdzniecības entītijas. Tas ir — tā ir paredzēta cenu noteikšanai pēc veikala, nevis pēc noliktavas.
 
-Mazumtirdzniecības cenu noteikšanas programma neatbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
+Mazumtirdzniecības cenu noteikšanas programma **neatbalsta** tālāk uzskaitītos cenu noteikšanas līdzekļus.
 
-- Cenas noteikšana, izmantojot noliktavas dimensijas Novietojums un Noliktava.
-- Atribūtam atbilstoša cenas noteikšana
-- Kreditora atlaides pāreja
+- Iestatot cenas pēc Vietas vai Vietas un noliktavas, krātuves dimensijas netiek atbalstītas. Ja tirdzniecības līgumos norādāt tikai vietnes dimensiju, mazumtirdzniecības cenu noteikšana ignorēs Vietu un piemēros tirdzniecības līgumu visām vietām. Ja norādāt gan vietu, gan noliktavu, tad darbība ir nedefinēta/nepārbaudīta, jo ir paredzams, ka mazumtirgotāji izmanto veikala cenu grupas, lai kontrolētu cenas katram veikalam/noliktavai.
+- Atribūtos balstīta cenu noteikšana netiek atbalstīta.
+- Piegādātāja atlaižu pāreja netiek atbalstīta.
 
 Turklāt **tikai** mazumtirdzniecības cenu noteikšanas programma atbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
 

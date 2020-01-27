@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824524"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933912"
 ---
-# <a name="business-document-management-overview"></a>Biznesa dokumentu pārvaldības pārskats
+# <a name="business-document-management-overview"></a>Pārskats par biznesa dokumentu pārvaldību
 
-Biznesa lietotāji izmanto [Elektronisko paziņojumu (EP) pārskatu struktūru](general-electronic-reporting.md), lai konfigurētu izejošo dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Lietotāji var arī definēt datu plūsmu, lai norādītu, kādus lietojumprogrammas datus ievietot ģenerētajos dokumentos. EP struktūra ģenerē izejošos dokumentus Microsoft Office formātos (Excel darbgrāmatas vai Word dokumentus), izmantojot iepriekš definētas veidnes. Veidnes tiek aizpildītas ar nepieciešamajiem datiem saskaņā ar konfigurēto datu plūsmu, kamēr tiek ģenerēti nepieciešamie dokumenti. Katru konfigurētu formātu var publicēt kā EP risinājuma daļu noteiktu izejošo dokumentu ģenerēšanai. To pārstāv EP formāta konfigurācija, kas var ietvert veidnes, ko var izmantot dažādu izejošo dokumentu ģenerēšanai. Biznesa lietotāji var izmantot šo struktūru, lai pārvaldītu nepieciešamos biznesa dokumentus.
+Biznesa lietotāji izmanto [Elektronisko pārskatu (EP)](general-electronic-reporting.md) struktūru, lai konfigurētu izejošo dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Lietotāji var arī definēt datu plūsmu, lai norādītu, kādus lietojumprogrammas datus ievietot ģenerētajos dokumentos. EP struktūra ģenerē izejošos dokumentus Microsoft Office formātos (Excel darbgrāmatas vai Word dokumentus), izmantojot iepriekš definētas veidnes. Veidnes tiek aizpildītas ar nepieciešamajiem datiem saskaņā ar konfigurēto datu plūsmu, kamēr tiek ģenerēti nepieciešamie dokumenti. Katru konfigurētu formātu var publicēt kā EP risinājuma daļu noteiktu izejošo dokumentu ģenerēšanai. To pārstāv EP formāta konfigurācija, kas var ietvert veidnes, ko var izmantot dažādu izejošo dokumentu ģenerēšanai. Biznesa lietotāji var izmantot šo struktūru, lai pārvaldītu nepieciešamos biznesa dokumentus.
 
 **Biznesa dokumentu pārvaldība** ir izveidota uz ER struktūras un ļauj biznesa lietotājiem rediģēt biznesa dokumentu veidnes, izmantojot pakalpojumu Microsoft Office 365 vai atbilstošu datora lietojumprogrammu Microsoft Office. Dokumentu rediģējumiem ir jāietver biznesa dokumentu noformējumu izmaiņas un vietturu pievienošanu papildu datiem bez avota koda izmaiņām un jaunām izvietošanām. Lai atjauninātu biznesa dokumentu veidnes, nav nepieciešamas nekādas zināšanas par ER struktūru.
 
@@ -59,7 +59,7 @@ Lai izmantotu Biznesa dokumentu pārvaldību veidņu rediģēšanai Excel vai Wo
 
 Vairāk pārskatu kļūs pieejami. Īpaši paziņojumi par papildu pārskatiem tiks nosūtīti atsevišķi. 
 
-Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2019. gada oktobra laidienam, ir atrodams rakstā [Konfigurējamas biznesa dokumentu atskaites Word un Excel formātā](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru.
+Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2019. gada oktobra laidienam, ir atrodams rakstā [Konfigurējamas biznesa dokumentu atskaites Word un Excel formātā](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru.
 
 ## <a name="configure-er-parameters"></a>Konfigurējiet ER parametrus
 

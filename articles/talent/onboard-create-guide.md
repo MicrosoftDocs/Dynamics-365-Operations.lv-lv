@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814632"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898252"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Pievienošanās ceļveža izveide un nosūtīšana, izmantojot Dynamics 365 Talent - Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Pievienošanās ceļveža izveide un nosūtīšana
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Kad esat izveidojis pievienošanas ceļvedi, varat to nosūtīt nesen nolīgtam 
 
 5. Logā **Izveidot ceļvedi** sadaļā **Kuru jūs pievienojat** ievadiet nesen nolīgtā darbinieka vārdu vai e-pasta adresi. Ja nesen nolīgtais darbinieks vēl nav sistēmā, atlasiet **Pievienot tūlīt** un ievadiet darbinieka informāciju.
 
-    ![[Informācijas ievadīšana pievienošanas ceļvedim](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Informācijas ievadīšana par pievienošanas ceļvedi](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. Sadaļā **Kad viņi sāks**atlasiet sākuma datumu.
 7. Ja pievienošanas ceļvedis ir automātiski jānosūta nesen nolīgtam darbiniekam konkrētā datumā, pārliecinieties, vai ir ieslēgta opcija **Ieplānot automātiskas nosūtīšanas datumu** un pēc tam atlasiet automātiskās nosūtīšanas datumu. Lai ceļvedi nosūtītu nekavējoties, izslēdziet opciju **Ieplānot automātiskās nosūtīšanas datumu**.
@@ -92,7 +92,7 @@ Ne vienmēr ir jāveido ceļvedis no veidnes. Ja vēlaties, varat izveidot ceļv
 1. Kreisās puses izvēlnē atlasiet **Ceļveži** un pēc tam atlasiet pogu **Pievienot** (pluszīme \[**+**\]).
 2. Logā **Izveidot ceļvedi** sadaļā **Kuru jūs pievienojat** ievadiet nesen nolīgtā darbinieka vārdu vai e-pasta adresi. Ja nesen nolīgtais darbinieks vēl nav sistēmā, atlasiet **Pievienot tūlīt** un ievadiet darbinieka informāciju.
 
-    ![[Informācijas ievadīšana pievienošanas ceļvedim](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Informācijas ievadīšana par pievienošanas ceļvedi](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. Sadaļā **Kad viņi sāks**atlasiet sākuma datumu.
 4. Ja pievienošanas ceļvedis ir automātiski jānosūta nesen nolīgtam darbiniekam konkrētā datumā, pārliecinieties, vai ir ieslēgta opcija **Ieplānot automātiskas nosūtīšanas datumu** un pēc tam atlasiet automātiskās nosūtīšanas datumu. Lai ceļvedi nosūtītu nekavējoties, izslēdziet opciju **Ieplānot automātiskās nosūtīšanas datumu**.
@@ -105,7 +105,7 @@ Pievienošanas ceļvedi var saglabāt kā veidni. Tādējādi varat ietaupīt la
 1. Kreisās puses izvēlnē atlasiet **Ceļveži**.
 2. Atlasiet pogu **Vairāk** (daudzpunkte \[**...**\]) ceļvedim, no kura vēlaties izveidot veidni, un pēc tam atlasiet **Saglabāt kā veidni**.
 
-    ![[Saglabāt pievienošanas ceļvdi kā veidni](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
+    ![[Pievienošanas ceļveža kā veidnes saglabāšana](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
 
 3. Logā **Saglabāt kā jaunu veidni** ievadiet jaunās veidnes nosaukumu un pēc tam atlasiet **Saglabāt**.
 

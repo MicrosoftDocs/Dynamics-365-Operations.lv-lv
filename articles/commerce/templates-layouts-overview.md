@@ -3,7 +3,7 @@ title: Pārskats par veidnēm un izkārtojumiem
 description: Šajā tēmā ir aprakstītas veidnes un izkārtojumi programmā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6ce6c3021868700c632b16cce3ce66cbf37b8f96
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697800"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914845"
 ---
 # <a name="templates-and-layouts-overview"></a>Pārskats par veidnēm un izkārtojumiem
 
@@ -110,3 +110,5 @@ Lai sāktu izmantot iepriekš iestatītus izkārtojumus, skatiet sadaļu [Darbs 
 [Darbs ar veidnēm](work-with-templates.md)
 
 [Darbs ar iepriekš iestatītiem izkārtojumiem](work-with-layouts.md)
+
+[Darbs ar publicēšanas grupām](publish-groups.md)

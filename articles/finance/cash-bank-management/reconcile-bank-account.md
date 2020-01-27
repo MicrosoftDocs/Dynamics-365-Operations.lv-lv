@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188284"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888659"
 ---
 # <a name="reconcile-a-bank-account"></a>Bankas konta saskaņošana
 
@@ -64,7 +64,7 @@ Jūs nevarat saskaņot bankas konta pārskatu ar bankas kontu, ja jebkuriem pār
 
 8.  Lai skatītu bankas transakcijas, kas vēl nav saskaņotas, izmantojiet **Nesaskaņoto bankas transakciju** pārskatu. Lai skatītu bankas konta izrakstu, izmantojiet pārskatu **Bankas pārskats**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Atcelt bankas izrakstu saskaņošanu 
+## <a name="cancel-bank-statement-reconciliation"></a>Atcelt bankas izrakstu saskaņošanu 
 
 Funkcionalitāte Atcelt bankas izraksta saskaņošanu ļauj atcelt bankas izraksta saskaņošanu. Lai izmantotu šo funkciju, iespējojiet funkciju **Atcelt bankas izraksta saskaņošanu** darbvietā **Funkciju pārvaldība** . Ir arī jāiespējo parametrs **Atļaut bankas izraksta rediģēšanu** . Lai to paveiktu, pārejiet uz **Kases un bankas vadība > Iestatīšana > Kases un bankas vadības parametri > Bankas saskaņošana**.
  

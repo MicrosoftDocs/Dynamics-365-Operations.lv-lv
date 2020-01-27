@@ -3,7 +3,7 @@ title: Piedāvājumu pārvaldības iestatīšana programmā Attract
 description: Šajā tēmā ir aprakstīts, kā iestatīt piedāvājumus programmā Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832726"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890559"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Piedāvājumu pārvaldības iestatīšana programmā Attract
 
@@ -45,9 +45,11 @@ Piedāvājuma dati ir vismazākā vienība piedāvājumu pakotnes veidnē. Tipis
 
     >[!NOTE]
     > Lapā **Piedāvājuma dati** ir sadaļas **Kandidāta informācija** un **Darba informācija**. Attract nodrošina dažus piedāvājuma datu vietturus jau standarta komplektācijā.
-    
+    > 
     > Lapā ir sadaļas, kas ir paredzētas dažādu piedāvājuma datu vietturu sakārtošanai loģiskās grupās. Šīs sadaļas var noderēt saistībā ar piedāvājuma datu uzturēšanu un datu aizpildīšanu piedāvājuma izveidošanas procesa laikā.
-
+    > 
+    > Lai izveidotu viettura vērtību sarakstu, augšupielādējiet Excel izklājlapu, kurā ir viena kolonna ar vietturi kā kolonnas virsraksts un izvēļu saraksts apakšā esošajās rindās. Ja viens un tas pats vietturis ir atsauce citā datu kārtulu kopā, pārliecinieties, vai tām ir vienota vērtību kopa.
+    
 1.  Lai izveidotu jaunu piedāvājuma datu sadaļu, noklikšķiniet uz **Pievienot sadaļu** un ievadiet unikālu nosaukumu šai sadaļai.
 
 1.  Lai jebkurai sadaļai pievienotu piedāvājuma datu vietturus, noklikšķiniet uz **Pievienot piedāvājuma datus** un ievadiet unikālu nosaukumu šim vietturim.

@@ -3,7 +3,7 @@ title: Ziņot kā pabeigtu uz no numura zīmes atkarīgo novietojumu no Darba ka
 description: Šajā tēmā ir aprakstīts ražošanas pasūtījumā uz krājumu pabeigto preču pabeigšanas process, kad noliktavas numura zīme kontrolē novietojumu.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 09/06/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572133"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935126"
 ---
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,10 @@ ms.locfileid: "2572133"
 
 Process, ko sauc par Ziņošanu kā pabeigtu, pabeidz ražošanas pasūtījumā uz krājumu pabeigtās preces. Ja pabeigtā prece ir iespējota papildu noliktavas procesiem, tad uz novietojumu, kas tiek saukts par ražošanas izvades vietu, tiek ziņots, ka prece ir pabeigta. Lai iegūtu informāciju par ražošanas izvades vietas iestatīšanu, skatiet [Ražošanas izvades novietojums.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location)
 
-Lai pabeigtu šo uzdevumu, jāatlasa esošais numura zīmes numurs. Ja ražošanas izvades novietojums ir iestatīts izsekošanai, izmantojot numura zīmi, ir jāiekļauj numura zīmes numurs, kad ražošanas izvades vieta tiek ziņota kā pabeigta. **Numura zīmes** lauks ir redzams **Pārskata progress** uzvednē lapā **Darba kartes ierīce** . Lauks ir redzams tikai **pārskata progresa** uzvednē, ziņojot par ražošanas pasūtījuma pēdējo operāciju. Lauks ir redzams tikai tad, ja krājuma ražošanas pasūtījumam ir iespējots noliktavas pārvaldības procesiem. 
+Ja ražošanas izvades vieta ir atkarīga no unikāla noliktavas vienības identifikatora, tad unikāls noliktavas vienības identifikators jānodrošina, ziņojot par pabeigšanu. **Numura zīmes** lauks ir redzams **Pārskata progress** uzvednē lapā **Darba kartes ierīce** . Šis lauks ir redzams tikai uzvednē **Pārskata progress**, sniedzot pārskatu par ražošanas pasūtījuma pēdējo darbību, un ražošanas pasūtījuma produkts ir iespējots noliktavas pārvaldības procesiem. 
+
+Pastāv divas iespējas unikāla noliktavas vienības identifikatora nodrošināšanai
+- Lietotājs unikāla noliktavas vienības identifikatora laukā atlasa esošu unikālu noliktavas vienības identifikatoru.
+- Unikāls noliktavas vienības identifikators tiek automātiski ģenerēts no numuru sērijas un pēc noklusējuma ievietots unikāla noliktavas vienības identifikatora laukā.
+
+Iespēja automātiski ģenerēt unikālu noliktavas vienības identifikatoru tiek konfigurēta, atlasot opciju **Ģenerēt unikālu noliktavas vienības identifikatoru** lapā **Konfigurēt darba karti ierīcēm**.

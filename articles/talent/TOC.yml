@@ -8,6 +8,12 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2019.\_gada 17.\_decembris"
+              href: whats-new-talent-december-17-2019.md
+            - name: "2019.\_gada 12.\_decembris"
+              href: whats-new-talent-december-12-2019.md
+            - name: "2019.\_gada 3.\_decembris"
+              href: whats-new-talent-december-3-2019.md
             - name: "2019.\_gada 19.\_novembris"
               href: whats-new-talent-november-19-2019.md
             - name: "2019.\_gada 12.\_novembris"
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: "2019.\_gada 10.\_septembris"
               href: whats-new-talent-september-12-2019.md
-            - name: "2019.\_gada 27.\_augusts"
-              href: whats-new-talent-august-28-2019.md
-            - name: "2019.\_gada 22.\_augusts"
-              href: whats-new-talent-august-21-2019.md
-            - name: "2019.\_gada 13.\_augusts"
-              href: whats-new-talent-august-15-2019.md
-            - name: "2019.\_gada 6.\_augusts"
-              href: whats-new-talent-august-7-2019.md
             - name: "Jaunumu arhīvi, 2019.\_gads"
               items:
+                - name: "2019.\_gada 27.\_augusts"
+                  href: whats-new-talent-august-28-2019.md
+                - name: "2019.\_gada 22.\_augusts"
+                  href: whats-new-talent-august-21-2019.md
+                - name: "2019.\_gada 13.\_augusts"
+                  href: whats-new-talent-august-15-2019.md
+                - name: "2019.\_gada 6.\_augusts"
+                  href: whats-new-talent-august-7-2019.md
                 - name: "2019.\_gada 30.\_jūlijs"
                   href: whats-new-talent-july-31-2019.md
                 - name: "2019.\_gada 23.\_jūlijs"
@@ -134,53 +140,51 @@
           href: hr-copy-instance.md
         - name: Talent vides noņemšana
           href: remove-talent-environment.md
-        - name: Nodrošinājums programmai Onboard
+        - name: Līdzekļu pārvaldība
+          href: access-preview-feature.md
+        - name: Onboard nodrošinājums
           href: modular-app-tech-faq.md
-        - name: PowerApps programmu iegulšana
+        - name: Power Apps programmu iegulšana
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: "Core\_HR un Common Data Service"
+        - name: Core HR elementi pakalpojumā Common Data Service
           href: CoreHREntities.md
         - name: Atbalsta saņemšana saistībā ar Talent
           href: talent-support.md
     - name: 'Organizācijas personāla pārvaldība, izmantojot Attract'
       items:
-        - name: Kuru Attract versiju izvēlēties?
+        - name: Attract versijas izvēle
           href: attract-comprehensive-hiring.md
         - name: Attract līdzekļi un iespējas
           href: attract-overview.md
-        - name: Bieži uzdotie jautājumi
-          items:
-            - name: 'LinkedIn integrācija: bieži uzdotie jautājumi'
-              href: attract-linkedin-faq.md
         - name: Sistēmas iestatījumu konfigurēšana
           items:
-            - name: Konfigurēt uzņēmuma informāciju
+            - name: Uzņēmuma informācijas konfigurēšana
               href: admin-settings-attract.md
-            - name: Iestatīt lietotāju atļaujas
+            - name: Lietotāju atļauju iestatīšana
               href: security-attract.md
-            - name: Pārvaldīt līdzekļus
-              href: access-preview-feature.md
-            - name: Iestatiet savu karjeras vietni
+            - name: Karjeras vietnes iestatīšana
               href: career-site.md
-            - name: Iespējot Broadbean integrāciju
+            - name: Broadbean integrācijas iespējošana
               href: attract-admin-job-board-settings.md
             - name: E-pasta iestatījumu konfigurēšana
               href: attract-configure-email-settings.md
             - name: LinkedIn integrācijas iestatīšana
               href: attract-admin-linkedin.md
-        - name: Darbā pieņemšanas process
+            - name: 'LinkedIn integrācija: bieži uzdotie jautājumi'
+              href: attract-linkedin-faq.md
+        - name: Darbā pieņemšanas procesa izveide
           items:
-            - name: Izveidot procesa veidni
+            - name: Darbā pieņemšanas procesa veidnes izveide
               href: process-templates-attract.md
-            - name: Aktivitātes darbā pieņemšanas procesos
+            - name: Aktivitāšu pievienošana darbā pieņemšanas procesam
               href: activities-attract.md
-            - name: E-pasta veidnes
+            - name: E-pasta veidņu izveide
               href: email-templates.md
-            - name: Izmantot analītiskos pārskatus
+            - name: Analītisko pārskatu izmantošana
               href: analytic-reports.md
-        - name: Izveidot un publicēt darbu vakances
+        - name: Darbu izveide un publicēšana
           items:
-            - name: Izveidot darbu
+            - name: Darba izveide
               href: creating-jobs-attract.md
             - name: Publicēt darbus tīklā LinkedIn
               href: attract-post-jobs-to-linkedin.md
@@ -194,13 +198,13 @@
               href: attract-talent-pools.md
             - name: 'Kandidātu piesaiste, izmantojot LinkedIn Recruiter'
               href: attract-linkedin-recruiter.md
-            - name: Reģistrēt kandidātu avotus
+            - name: Kandidātu avotu izsekošana
               href: source-tracking.md
             - name: Inteliģentie ieteikumi
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Interviju sagatavošana
           items:
-            - name: Interviju plānošana un atsauksmes
+            - name: Interviju plānošana
               href: interview-scheduling-feedback.md
         - name: Piedāvājuma izveidošana
           items:
@@ -433,7 +437,7 @@
       items:
         - name: Iegultais Power BI darbvietās
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: "Talent paplašināšana, izmantojot PowerApps un Microsoft Flow\_— paraugsituācijas"
+        - name: Talent paplašināšana ar Power Apps un Power Automate
           href: extensibility-examples.md
         - name: Mobilā programma
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Mobilā darbvieta Mana grupa
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mobilo darbvietu publicēšana
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Personāla atlases datu izmaiņu izsekošana
           href: process-auditing.md
         - name: Paplašināmība pakalpojumā Attract

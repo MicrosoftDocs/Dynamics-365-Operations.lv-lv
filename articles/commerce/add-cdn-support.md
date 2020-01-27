@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb757672fffb56892837c066d552773908dd1ec1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d2d64f0de5287a764cb2e40b99a08084494bf53c
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696972"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945632"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
@@ -140,16 +140,16 @@ Tagad jūsu CDN ir jābūt pareizi konfigurētam, lai to varētu izmantot kopā 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Tiešsaistes veikala apskats](online-store-overview.md)
-
-[E-komercijas vietnes izveide](create-ecommerce-site.md)
+[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
+[E-komercijas vietnes izveide](create-ecommerce-site.md)
+
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
-[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
-
-[Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+[Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+[Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)

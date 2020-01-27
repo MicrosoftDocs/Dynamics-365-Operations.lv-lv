@@ -3,7 +3,7 @@ title: Veiktspējas pārvaldība
 description: Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590509"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921154"
 ---
 # <a name="performance-management"></a>Veiktspējas pārvaldība
-
-[!include [banner](includes/banner.md)]
 
 Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.  
 
@@ -91,6 +89,8 @@ Lai izmantotu detalizētākus pārskatus, varat ievilkt aktīvos un pabeigtos m�
 Varat arī izmantot sadaļu **Zināšanas**, lai apspriestu, pārskatītu un novērtētu darbinieka zināšanas. Varat pievienot tik daudz zināšanu, cik jums nepieciešams, un varat izvēlēties, vai attiecīgās zināšanas ir jānovērtē. 
 
 Varat izveidot jaunus pārskatus, kuru pamatā ir jūsu izveidotas veidnes. Piemēram, jums var būt veidne, ko izmantot, tiekoties vienam pret vienu, attīstības plāniem vai periodiskiem pārskatiem. Veidni varat atlasīt, kad veidojat jaunu pārskatu.
+
+Lai drukātu atsauksmes, atlasiet pogu **Drukāt atsauksmi**. Ja neredzat pogu lapā **Atsauksme**, pārliecinieties, vai līdzeklis ir iespējots darbvietā **Līdzekļu pārvaldība.** Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Veiktspējas pārskatos iekļaujamie komponenti
 Veiktspējas pārskatos varat iekļaut vairāku tipu informāciju. Šajā informācijas tipu klāstā ietilpst detalizēta informācija par pārskatu, mērījumi, aktivitātes, vērtējumi, izrakstīšanās gadījumi un pielikumi.

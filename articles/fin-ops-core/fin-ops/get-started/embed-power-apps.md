@@ -3,7 +3,7 @@ title: Iegult Power Apps
 description: Šajā tēmā ir sniegta informācija par to, kā iegult pakalpojumu Power Apps klientā, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824497"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870245"
 ---
 # <a name="embed-microsoft-power-apps"></a>Iegult Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Tālāk ir sniegti norādījumi par to, kā pakalpojumu Power App iegult tīmek�
 
     - Laukā **Nosaukums** ir norādīts teksts, kas ir redzams uz pogas vai cilnes, kas ietvers iegulto pakalpojumu Power App. Iespējams, ka Power App nosaukums šajā laukā ir jāatkārto bieži.
     - **Programmas ID** ir pakalpojuma Power App, ko vēlaties iegult, GUID. Lai izgūtu šo vērtību, atrodiet pakalpojumu Power App lapā [web.powerapps.com](https://web.powerapps.com) un pēc tam sadaļā **Detalizēta informācija** atrodiet lauku **App ID**.
-    - Izmantojot opciju **Power App ievades dati**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu Power App kā ievadi. Lai iegūtu sīkāku informāciju par to, kā pakalpojums Power App var piekļūt datiem, kas nosūtīti no programmām Finance and Operations, skatiet sadaļu tālāk šajā tēmā ar nosaukumu [Tāda pakalpojuma Power App izveide, kas piesaista datus no programmām Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Izmantojot opciju **Power App ievades dati**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu Power App kā ievadi. Lai iegūtu sīkāku informāciju par to, kā pakalpojums Power App var piekļūt datiem, kas nosūtīti no programmām Finance and Operations, skatiet sadaļu tālāk šajā tēmā ar nosaukumu [Tāda pakalpojuma Power App izveide, kas piesaista datus no programmām Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
     - Atlasiet opciju **Programmas izmērs**, kas atbilst iegulšanai paredzētajam pakalpojuma Power App veidam. Atlasiet opciju **Šaurs** mobilajām ierīcēm izveidotajam pakalpojumam Power Apps un **Plašs** planšetdatoriem izveidotajam pakalpojumam Power Apps. Tādējādi iegultajam pakalpojumam Power App tiek nodrošināts pietiekami daudz vietas.
     - Kopsavilkuma cilnē **Juridiskas personas** var izvēlēties, kurām juridiskajām personām ir pieejams pakalpojums Power App. Noklusējuma iestatījums ir pakalpojuma parādīšana Power App visām juridiskajām personām.
 
@@ -101,7 +101,7 @@ Lai rediģētu iegultā Power App konfigurāciju, izpildiet tālāk aprakstītā
 
 Kad pakalpojuma Power App iegulšana lapā ir pabeigta, to, ja nepieciešams, var noņemt divējādi.
 
-- Atveriet rūti **Rediģēt Power App**, izmantojot norādījumus iepriekš šīs tēmas sadaļā [Iegultā pakalpojuma Power App rediģēšana](#editing-an-embedded-powerapp). Apstipriniet, ka rūtī ir redzama informācija par iegulto pakalpojumu Power App, kuru vēlaties noņemt, un pēc tam noklikšķiniet uz pogas **Dzēst**.
+- Atveriet rūti **Rediģēt Power App**, izmantojot norādījumus iepriekš šīs tēmas sadaļā [Iegultā pakalpojuma Power App rediģēšana](#editing-an-embedded-power-app). Apstipriniet, ka rūtī ir redzama informācija par iegulto pakalpojumu Power App, kuru vēlaties noņemt, un pēc tam noklikšķiniet uz pogas **Dzēst**.
 - Tā kā iegultais pakalpojums Power App ir saglabāts kā personalizācijas dati, notīrot lapas personalizācijas datus, tiek noņemtai visi šajā lapā iegultā pakalpojuma Power Apps dati. Ņemiet vērā, ka lapas personalizācijas datu notīrīšana ir neatgriezenisks process, un to nevar atsaukt. Lai noņemtu lapā konkrētos personalizācijas datus, atlasiet **Opcijas** un pēc tam noklikšķiniet uz **Personalizēt šo formu**. Izvēlnē **Pārvaldīt** atlasiet pogu **Notīrīt**. Veicot pārlūkprogrammas atsvaidzināšanu, visi šīs lapas iepriekšējie personalizācijas dati ir noņemti. Lai iegūtu sīkāku informāciju par to, kā optimizēt lapas, izmantojot personalizēšanu, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Pielikums

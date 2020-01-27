@@ -3,7 +3,7 @@ title: Mazumtirdzniecības kanālu definēšana un uzturēšana
 description: Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Dynamics 365 Retail tiek saukti par mazumtirdzniecības veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc mazumtirdzniecības veikala iestatīšanas.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019374"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934612"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mazumtirdzniecības kanālu definēšana un uzturēšana
 
@@ -85,3 +85,6 @@ Kad ir ievadīta detalizēta informācija par mazumtirdzniecības veikalu, izpil
 ## <a name="organization-hierarchies"></a>Organizācijas hierarhijas
 
 Programmatūrā Dynamics 365 for Retail tiek izmantotas organizācijas hierarhijas, lai strukturētu mazumtirdzniecība kanālus. Organizācijas hierarhijas pārstāv attiecības starp organizācijām, kas veido jūsu uzņēmumu. Iestatot veikalus, varat tos pievienot organizācijas hierarhijai. Pēc tam veikali koplieto datus, kas tiek izmantoti preču klāstiem, papildināšanai un pārskatu veidošanai.
+
+> [!NOTE]
+> Lai izmantotu mazumtirdzniecības pārdošanas funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\>**Iestatījumi**\>**Licences konfigurācija.** Tas ir nepieciešams, mazumtirdzniecības funkcionalitātes dēļ, kas veic dažādas validācijas, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī.

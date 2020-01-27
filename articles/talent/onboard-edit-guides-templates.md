@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812883"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897124"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Pievienošanas ceļvežu un veidņu rediģēšana programmā Dynamics 365 Talent - Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Pievienošanas ceļvežu un veidņu rediģēšana
 
 [!include [banner](includes/banner.md)]
 
@@ -118,7 +118,7 @@ Lai izstumtu jūsu izmaiņas, veiciet tālāk norādītās darbības.
 
 3. Lai pabeigtu darbību pievienošanu nesen nolīgtajam darbiniekam, velciet vienumu **Jauna darbība** uz rediģēšanas apgabalu un ievadiet darbības nosaukumu un aprakstu.
 
-    ![[Jaunas darbības pievienošana pievienošanas ceļvedim vai veidnei](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Jaunas aktivitātes pievienošana pievienošanas ceļvedim vai veidnei](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. Bagātināta satura pievienošana savam pievienošanas cveļvedim
 
@@ -148,7 +148,7 @@ Varat pievienot kontaktpersonas, kas var palīdzēt jūsu nesen nolīgtajam darb
 1. Cilnē **Kontaktpersonas** atlasiet **Jauna kontaktpersona**.
 2. Dialoglodziņā **Pievienot grupas dalībnieku** ievadiet kontaktpersonas vārdu vai e-pasta adresi, ievadiet īsu aprakstu, kurā paskaidrots, kā kontaktpersona var palīdzēt nesen nolīgtajam darbiniekam un pēc tam atlasiet **Pievienot**. 
 
-    ![[Kontaktpersonu pievienošana pievienošanas ceļvedim vai veidnei](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Kontaktu pievienošana pievienošanas ceļvedim vai veidnei](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     Vai arī varat atlasīt vienu vai vairākas kontaktpersonas sadaļā **Ieteikumi.**
 

@@ -3,7 +3,7 @@ title: Papildu filtrēšanas un vaicājumu sintakse
 description: Šajā tēmā ir aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, ja rūts Filtrēšana dialoglodziņā Detalizētā filtrēšana/kārtošana vai režģa kolonnas filtros izmantojat operatoru atbilst.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180833"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931292"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
@@ -114,6 +114,12 @@ ms.locfileid: "2180833"
 <td>Atbilst vērtībām, kas atdalītas ar komatiem.</td>
 <td>Ierakstiet visus kritērijus un atdaliet tās ar komatiem.</td>
 <td><strong>A, D, F, G</strong> atrod &quot;A&quot;, &quot;D&quot;, &quot;F&quot; un &quot;G&quot;. <strong>10, 20, 30, 100</strong> atrod &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (divas dubultpēdiņas)</td>
+<td>Atbilst tukšai vērtībai</td>
+<td>Ierakstiet divas secīgas dubultās pēdiņas, lai filtrētu tukšas vērtības šajā laukā.</td>
+<td>Divas secīgas dubultās pēdiņas (<strong>""</strong>) atrod rindas, kurām pašreizējai kolonnai nav vērtības.</td>
 </tr>
 <tr>
 <td>(<span class="code">SQL priekšraksts</span>) (SQL priekšraksts iekavās)</td>

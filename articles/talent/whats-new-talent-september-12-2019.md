@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48f41b53060c7f2bfc407b22295aa40d85ce1c9d
-ms.sourcegitcommit: 7a93ea2dc90d31175b708566a00cd707cb47ab7c
+ms.openlocfilehash: 14e3482f366319851bed84b6cdd6135f0bcd1e80
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "1996192"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897338"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 10. septembris)
-
-[!include [banner](includes/banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 for Talent.
 

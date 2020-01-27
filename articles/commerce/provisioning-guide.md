@@ -1,9 +1,9 @@
 ---
-title: E-komercijas novērtējuma vides konfigurēšana
-description: Šajā rokasgrāmata sniedz secīgu darbību norādījumus Microsoft Dynamics 365 Commerce priekšskatījuma vides nodrošināšanai un konfigurēšanai.
-author: v-chgri
+title: Commerce priekšskatījuma vides nodrošināšana
+description: Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
+author: psimolin
 manager: annbe
-ms.date: 10/15/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,402 +15,297 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: anupamar
+ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0dce2796e69cd8dee87cba176a521c26c81eb1a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b77d2cbbc100aeae5dcd53ddbe69ff2e4435da13
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771684"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934752"
 ---
-# <a name="configure-an-e-commerce-evaluation-environment"></a>E-komercijas novērtējuma vides konfigurēšana
+# <a name="provision-a-commerce-preview-environment"></a>Commerce priekšskatījuma vides nodrošināšana
 
 [!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
-Šajā rokasgrāmata sniedz secīgu darbību norādījumus Microsoft Dynamics 365 Commerce priekšskatījuma vides nodrošināšanai un konfigurēšanai. Pirms sākt, iesakām vismaz izskatīt dokumentāciju, lai gūtu priekšstatu par to, ko nozīmē process un ko satur rokasgrāmata.
+Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
 
-*Piezīme. Ja jums pagaidām nav piešķirta piekļuve Microsoft Dynamics 365 Commerce priekšskatījumam, varat pieprasīt priekšskatījuma piekļuvi no [Commerce vietnes](https://aka.ms/Dynamics365CommerceWebsite).*
+Pirms sākt, iesakām vismaz izskatīt visu šo tēmu, lai gūtu priekšstatu par to, ko nozīmē process un ko satur šī tēma.
 
-## <a name="summary"></a>Kopsavilkums
-Lai veiksmīgi nodrošinātu vidi, projektu nepieciešams izveidot ar specifisku preces nosaukumu un veidu. Videi un Retail Cloud Scale Unit arī ir daži specifiski parametri, kas jāizmanto, lai vēlāk sāktu e-tirdzniecības nodrošināšanu. Šīs rokasgrāmatas norādījumi ietver visas nepieciešamās darbības, kas jāveic, un parametrus, kas jāizmanto.
+> [!NOTE]
+> Ja jums pagaidām nav piešķirta piekļuve Dynamics 365 Commerce priekšskatījumam, varat pieprasīt priekšskatījuma piekļuvi no [Commerce vietnes](https://aka.ms/Dynamics365CommerceWebsite).
 
-Pēc veiksmīgas nodrošināšanas, ir jāveic dažas pēcnodrošināšanas darbības, lai sagatavotu priekšskatījuma vidi. Dažas darbības nav obligātas, atkarībā no tā, kādus sistēmas aspektus vēlaties novērtēt. Ja mainīsiet savas domas, vienmēr varēsiet veikt pēc izvēles veicamās darbības vēlāk.
+## <a name="overview"></a>Pārskats
 
-Ja jums ir jautājumi par nodrošināšanas darbībām vai rodas kādas problēmas, lūdzu, paziņojiet mums [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupā](https://aka.ms/Dynamics365CommercePreviewYammer). 
+Lai veiksmīgi nodrošinātu savu Commerce priekšskatījuma vidi, jāizveido projekts ar noteiktu preces nosaukumu un veidu. Videi un Retail Cloud Scale Unit (RCSU) arī ir daži specifiski parametri, kas jāizmanto, vēlāk nodrošinot e-tirdzniecību. Šajā tēmā sniegtās instrukcijas apraksta visas nepieciešamās darbības, kas jāizpilda, un parametrus, kas jāizmanto.
+
+Pēc veiksmīgas savas Commerce priekšskatījuma vides nodrošināšanas ir jāpabeidz dažas pēcnodrošināšanas darbības, lai to sagatavotu. Dažas darbības nav obligātas, atkarībā no sistēmas aspektiem, ko vēlaties novērtēt. Pēc izvēles veicamās darbības vienmēr varat pabeigt vēlāk.
+
+Informāciju par to, kā konfigurēt Commerce priekšskatījuma vidi pēc tās nodrošināšanas, skatiet [Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md). Informāciju par to, kā konfigurēt neobligātos līdzekļus savai Commerce priekšskatījuma videi, skatiet [Commerce priekšskatījuma vides neobligāto līdzekļu konfigurēšana](cpe-optional-features.md).
+
+Ja jums ir jautājumi par nodrošināšanas darbībām vai ja rodas kādas problēmas, lūdzu, paziņojiet Microsoft [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupā](https://aka.ms/Dynamics365CommercePreviewYammer).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Tālāk minēti priekšnosacījumi Dynamics 365 priekšskatījuma vides nodrošināšanai.
-* Jums ir piekļuve **Lifecycle Services portālam (LCS)**
-* Jūs esat **akceptēts Dynamics 365 Commerce priekšskatījuma programmā**
-* Jums ir nepieciešamās atļaujas, lai izveidotu projektu vienumiem **Nākamās iepriekšpārdošanas** vai **Migrēt, izveidot risinājumus un mācīties**
-* Jūs esat lomu **Vides vadītājs** vai **Projekta īpašnieks** dalībnieks projektā, kurā nodrošināsiet vidi
-* Jums ir administratora piekļuve savam Azure abonementam vai saziņa ar abonementu administratoru, kurš jūsu vieta var veikt divas darbības, kam nepieciešamas administratora atļaujas
-* Jums ir pieejams savs **AAD nomnieka ID**
-* Jūs esat izveidojis **AAD drošības grupu**, kas jāizmanto kā **E-tirdzniecības sistēmas administratoru grupa**, un jums ir pieejams tās ID.
-* Jūs esat izveidojis **AAD drošības grupu**, kas jāizmanto kā **Vērtējumu un apskatu moderatoru grupa**, un jums ir pieejams tās ID (var būt tas pats SG, kas iepriekš minētajai sistēmas administratoru grupai)
-## <a name="provisioning-preview-environment"></a>Priekšskatījuma vides nodrošināšana
-Šie norādījumi ietver Microsoft Dynamics 365 Commerce priekšskatījuma vides nodrošināšanu. Kad šīs darbības būs veiksmīgi pabeigtas, jums būs priekšskatījuma vide, kas ir gatava konfigurēšanai. Visas šeit aprakstītās darbības notiek LCS portālā.
 
-*Lūdzu, ņemiet vērā, ka piekļuve priekšskatījumam ir saistīta ar LCS kontu un organizāciju, ko norādījāt savā priekšskatījuma pieteikumā. Jums tas pats konts ir jāizmanto nodrošināšanai. Ja jums priekšskatījuma videi ir jāizmanto cits LCS konts vai nomnieks, jums ir jāsniedz mums šī informācija. Kontaktinformāciju, lūdzu, skatiet tālāk sadaļā "Papildu resursi".*
-### <a name="before-starting"></a>Pirms sākuma
-##### <a name="grant-access-to-e-commerce-applications"></a>Piešķiriet piekļuvi e-tirdzniecības programmām
+Lai varētu nodrošināt savu Commerce priekšskatījuma vidi, ir jābūt nodrošinātiem tālāk norādītajiem priekšnosacījumiem.
 
-*Piezīme: **personai, kas piesakās, ir jābūt AAD nomnieka administratoram**. Sekmīgi neveicot šo darbību, pārējās nodrošināšanas darbības neizdosies.*
+- Jums ir piekļuve Microsoft Dynamics Lifecycle Services (LCS) portālam.
+- Jūs esat akceptēts Dynamics 365 Commerce priekšskatījuma programmā.
+- Jums ir nepieciešamās atļaujas, lai izveidotu projektu vienumiem **Nākamās iepriekšpārdošanas** vai **Migrēt, izveidot risinājumus un mācīties**.
+- Jūs esat lomu **Vides vadītājs** vai **Projekta īpašnieks** dalībnieks projektā, kurā nodrošināsiet vidi.
+- Jums ir administratora piekļuve savam Microsoft Azure abonementam vai jūs varat sazināties ar abonementu administratoru, kurš jūsu vietā var pabeigt divas darbības, kam nepieciešamas administratora atļaujas.
+- Jums ir pieejams savs Azure Active Directory (Azure AD) nomnieka ID.
+- Jūs esat izveidojis Azure AD drošības grupu, ko var izmantot kā e-tirdzniecības sistēmas administratora grupu, un jums ir pieejams tās ID.
+- Jūs esat izveidojis Azure AD drošības grupu, ko var izmantot kā vērtējumu un pārskatu moderatora grupu, un jums ir pieejams tās ID. (Šī drošības grupa var būt tā pati, kas e-tirdzniecības sistēmas administratora grupa.)
 
-1. Šai darbībai ir nepieciešams jūsu **AAD nomnieka ID**. Jums jāautorizē e-tirdzniecības programmas, lai piekļūtu jūsu Azure abonementam. Vieglākais veids, kā to paveikt, ir izveidot URL tālāk minētajā veidā.
+### <a name="find-your-azure-ad-tenant-id"></a>Sava Azure AD nomnieka ID atrašana
 
-https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345
+Jūsu Azure AD nomnieka ID ir globāli unikāls identifikators (globally unique identifier — GUID), kas līdzinās šim piemēram: **72f988bf-86f1-41af-91ab-2d7cd011db47**.
 
-2. **Neklikšķiniet URL tieši**, tā vietā kopējiet un ielīmējiet to savā pārlūkprogrammā vai teksta redaktorā un nomainiet **\{AAD_TENANT_ID\}** ar savu **AAD nomnieka ID** pirms pāriešanas uz URL.
-3. Jums tiks parādīts Microsoft AAD pieteikšanās dialogs, kur apstiprināt, ka vēlaties piešķirt "Dynamics 365 Commerce (priekšskatījums)" piekļuvi savam abonementam.
-4. Jūs nosūtīs uz lapu, kas apstiprinās, vai operācija bijusi veiksmīga.
+#### <a name="find-your-azure-ad-tenant-id-by-using-the-azure-portal"></a>Sava Azure AD nomnieka ID atrašana, izmantojot Azure portālu
 
-##### <a name="log-in-to-the-lcs"></a>Pieteikšanās LCS
-1. Piesakieties LCS portālā: https://lcs.dynamics.com
-1. Pārliecinieties, ka esat pieteicies ar to pašu LCS kontu, kuru izmantojāt, lai pieprasītu piekļuvi priekšskatījumam.
-##### <a name="confirm-that-preview-features-are-available-and-enabled"></a>Apstipriniet, ka priekšskatījuma līdzekļi ir pieejami un iespējoti
-1. LCS pirmajā lapā ritiniet līdz galam pa labi un noklikšķiniet uz elementa **Priekšskatījuma līdzekļa pārvaldība**.
-1. Ritiniet uz leju līdz "PRIVĀTĀS PRIEKŠSKATĪŠANAS LĪDZEKĻI" un pārliecinieties, ka ir pieejami un iespējoti tālāk minētie līdzekļi.
-    1. **E-tirdzniecības novērtēšana**
-    1. **Tirdzniecības priekšskatījuma programmas vides**
-1. Ja sarakstā nevarat redzēt šos līdzekļus, lūdzu, sazinieties ar mums, norādot savu darba e-pastu, LCS kontu un detalizētu informāciju par nomnieku. Lūdzu, zemāk skatiet **Papildu resursi**, lai iegūtu informāciju par to, kā sazināties ar mums.
+1. Pierakstieties [Azure portālā](https://portal.azure.com/).
+1. Pārliecinieties, ka ir atlasīta vajadzīgā direktorija.
+1. Kreisās puses izvēlnē atlasiet **Azure Active Directory**.
+1. Sadaļā **Pārvaldīt** atlasiet **Rekvizīti**. Jūsu Azure AD nomnieka ID parādās sadaļā **Direktorijas ID**.
 
-![Priekšskatījuma pārvaldības elements](./media/preview1.png)
+#### <a name="find-your-azure-ad-tenant-id-by-using-openid-connect-metadata"></a>Sava Azure AD nomnieka ID atrašana, izmantojot OpenID Connect metadatus
 
-![Priekšskatījuma līdzekļi](./media/preview2.png)
-### <a name="create-project"></a>Izveidot projektu
-##### <a name="creating-new-project"></a>Jauna projekta izveidošana
-1. Noklikšķiniet **+**, lai izveidotu jaunu projektu.
-1. Ja esat partneris, izvēlieties **Migrēt, izveidot risinājumus un mācīties**.
-1. Ja esat klients, izvēlieties **Nākamās iepriekšpārdošanas**.
-1. Ievadiet atbilstošu nosaukumu, aprakstu un nozari.
-1. Kā **Preces nosaukums** atlasiet **Dynamics 365 Retail**.
-1. Kā **Preces versija** atlasiet **Dynamics 365 Retail**.
-1. Kā **Metodoloģija** atlasiet **Dynamics Retail ieviešanas metodoloģija**.
-1. Ja nepieciešams, lomas un lietotājus varat importēt no esoša projekta.
-1. Noklikšķiniet uz **Izveidot**.
-1. Jūs tiksiet nosūtīts uz projekta skatu.
-##### <a name="add-azure-connector"></a>Azure Connector pievienošana
-1. Ja esat partneris, noklikšķiniet uz **Projekta iestatījumi**, kas atrodas rīku elementā labās puses beigās.
-1. Ja esat klients, augšējā izvēlnē izvēlieties **Projekta iestatījumi**.
+Izveidojiet OpenID URL, aizvietojot **\{YOUR\_DOMAIN\}** ar savu domēnu, piemēram, `microsoft.com`. Piemēram, `https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration` kļūs par `https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration`.
+
+1. Atveriet OpenID URL, kas satur jūsu domēnu.
+
+    Varat atrast sava Azure AD nomnieka ID vairākās rekvizītu vērtībās.
+
+1. Atrodiet **authorization\_endpoint** un izgūstiet GUID, kas tiek parādīts tūlīt pēc `login.microsoftonline.com/`.
+
+### <a name="find-your-azure-ad-security-group-id"></a>Sava Azure AD drošības grupas ID atrašana
+
+Jūsu Azure AD drošības grupas ID ir GUID, kas līdzinās šim piemēram: **436ea7f5-ee6c-40c1-9f08-825c5811066a**.
+
+Šajā procedūrā tiek pieņemts, ka esat grupas dalībnieks, kurai mēģināt atrast ID.
+
+1. Atveriet [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#).
+1. Atlasiet **Pierakstīties ar Microsoft** un pierakstieties, izmantojot savus akreditācijas datus.
+1. Kreisajā pusē atlasiet **rādīt vairāk paraugu**.
+1. Labajās puses rūtī iespējojiet **Grupas**.
+1. Aizveriet labo rūti.
+1. Atlasiet **visas manas grupas**.
+1. Laukā **Atbildes priekšskatījums** atrodiet savu grupu. Drošības grupas ID tiek parādīts rekvizītā **id**.
+
+## <a name="provision-your-commerce-preview-environment"></a>Savas Commerce priekšskatījuma vides nodrošināšana
+
+Šīs procedūras izskaidro, kā nodrošināt Commerce priekšskatījuma vidi. Pēc veiksmīgas to pabeigšanas Commerce priekšskatījuma vide būs gatava konfigurēšanai. Visas šeit aprakstītās darbības notiek LCS portālā.
+
+> [!IMPORTANT]
+> Priekšskatījuma piekļuve ir piesaistīta LCS kontam un organizācijai, ko norādījāt sava priekšskatījuma pieteikumā. Jums jāizmanto tas pats konts, lai nodrošinātu Commerce priekšskatījuma vidi. Ja Commerce priekšskatījuma videi jums jāizmanto cits LCS konts vai nomnieks, jums Microsoft jānorāda šī detalizētā informācija. Kontaktinformāciju skatiet tālāk tēmā esošajā sadaļā [Commerce priekšskatījuma vides atbalsts](#commerce-preview-environment-support).
+
+### <a name="grant-access-to-e-commerce-applications"></a>Piešķiriet piekļuvi e-tirdzniecības programmām
+
+> [!IMPORTANT]
+> Personai, kas pierakstās, jābūt Azure AD nomnieka administratoram, kuram ir Azure AD nomnieka ID. Ja šī darbība nav veiksmīgi pabeigta, pārējās nodrošināšanas darbības neizdosies.
+
+Lai autorizētu e-tirdzniecības pieteikumus piekļuvei Azure abonementam, veiciet tālāk noradītās darbības.
+
+1. Sastādiet URL tālāk norādītajā formātā.
+
+    `https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345`
+
+1. Kopējiet un ielīmējiet vietrādi URL savā pārlūkprogrammā vai teksta redaktorā, un aizstājiet **\{AAD\_TENANT\_ID\}** ar sava Azure AD nomnieka ID. Pēc tam atveriet URL.
+1. Pierakstieties Azure AD pierakstīšanās dialoglodziņā un apstipriniet, ka vēlaties piešķirt **Dynamics 365 Commerce (priekšskatījums)** piekļuvi savam abonementam. Jūs tiekat novirzīts uz lapu, kas norādīs, vai operācija bija veiksmīga.
+
+### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>Apstiprināšana, ka LCS ir pieejami un ieslēgti priekšskatījuma līdzekļi
+
+Lai apstiprinātu, ka LCS ir pieejami un ieslēgti priekšskatījuma līdzekļi, veiciet tālāk norādītās darbības.
+
+1. Pierakstieties [LCS portālā](https://lcs.dynamics.com), izmantojot to pašu LCS kontu, ko izmantojāt, lai pieprasītu piekļuvi priekšskatījumam.
+1. LCS sākumlapā ritiniet līdz galam pa labi un atlasiet elementu **Priekšskatīt līdzekļa pārvaldību**.
+
+    ![Priekšskatījuma pārvaldības elements](./media/preview1.png)
+
+1. Ritiniet uz leju līdz **Privātie priekšskatīšanas līdzekļi** un apstipriniet, ka ir pieejami un ieslēgti tālāk norādītie līdzekļi.
+
+    - E-tirdzniecības novērtēšana
+    - Tirdzniecības priekšskatījuma programmas vides
+
+    ![Privātā priekšskatījuma līdzekļi](./media/preview2.png)
+
+1. Ja šie līdzekļi nav redzami sarakstā, sazinieties ar Microsoft un norādiet savu darba e-pasta adresi, LCS kontu un detalizētu informāciju par nomnieku. Kontaktinformāciju skatiet sadaļā [Commerce priekšskatījuma vides atbalsts](#commerce-preview-environment-support).
+
+### <a name="create-a-new-project"></a>Izveidot jaunu projektu
+
+Lai LCS izveidotu jaunu projektu, veiciet tālāk norādītās darbības.
+
+1. Lai izveidotu projektu, LCS sākumlapā atlasiet pluszīmi (**+**).
+1. Labās puses rūtī veiciet vienu no tālāk norādītajām darbībām.
+
+    - Ja esat partneris, atlasiet **Migrēt, izveidot risinājumus un mācīties**.
+    - Ja esat klients, atlasiet **Nākamās iepriekšpārdošanas**.
+
+1. Ievadiet nosaukumu, aprakstu un nozari.
+1. Laukā **Preces nosaukums** atlasiet **Dynamics 365 Retail**.
+1. Laukā **Preces versija** atlasiet **Dynamics 365 Retail**.
+1. Laukā **Metodoloģija** atlasiet **Dynamics Retail ieviešanas metodoloģija**.
+1. Pēc izvēles: varat importēt lomas un lietotājus no esoša projekta.
+1. Atlasiet **Izveidot**. Tiks parādīts projekta skats.
+
+### <a name="add-the-azure-connector"></a>Azure Connector pievienošana
+
+Lai savam LCS projektam pievienotu Azure Connector, veiciet tālāk norādītās darbības.
+
+1. Izpildiet kādu no norādītajām transakcijām.
+
+    - Ja esat partneris, labās puses galā atlasiet elementu **Projekta iestatījumi**.
+    - Ja esat klients, augšējā izvēlnē atlasiet **Projekta iestatījumi**.
+
 1. Atlasiet **Azure savienojumi**.
-1. Noklikšķiniet **+ pievienot**, lai pievienotu Azure Connector.
+1. Lai pievienotu Azure Connector, atlasiet **Pievienot**.
 1. Ievadiet nosaukumu.
-1. Ievadiet savu **Azure abonementa ID**.
-1. Iespējojiet **Konfigurēt Azure Resource Manager (ARM) lietošanu**.
-1. Pārbaudiet, vai ir pareizs **Azure abonementa AAD nomnieka domēns (vai ID)**. Ja nepieciešams, sazinieties ar savu Azure abonementa administratoru.
-1. Noklikšķiniet uz **Tālāk**.
-1. Izpildiet ekrānā redzamos norādījumus, lai piešķirtu nepieciešamajām programmām piekļuvi savam abonementam. Ja nepieciešams, sazinieties ar savu Azure abonementa administratoru.
-    1. Piesakieties Azure portālā: https://portal.azure.com/
-    1. Pārliecinieties, ka esat atlasījis vajadzīgo direktoriju.
-    1. No izvēlnes kreisajā pusē noklikšķiniet **Abonementi**.
-    1. No saraksta atrodiet vajadzīgo abonementu un atlasiet to. Ja nepieciešams, izmantojiet meklēšanu.
-    1. Izvēlnē izvelieties **Piekļuves kontrole (IAM)**.
-    1. Noklikšķiniet **Pievienot**, kas atrodas labajā pusē zem **Pievienot lomas piešķiri**. Atveras rūts **Pievienot lomas piešķiri**.
-    1. Kā **Loma** atlasiet **Līdzstrādnieks**.
-    1. **Piešķirt piekļuvi** atstājiet kā **Azure AD lietotājs, grupa vai pakalpojuma vadītājs**.
+1. Ievadiet savu Azure abonementa ID.
+1. Ieslēdziet opciju **Konfigurēt, lai izmantotu Azure Resource Manager (ARM)**.
+1. Pārbaudiet, vai vērtība **Azure abonementa AAD nomnieka domēns (vai ID)** ir pareiza. Ja nepieciešams, sazinieties ar savu Azure abonementa administratoru.
+1. Atlasiet **Nākamais**.
+1. Izpildiet lapā redzamos norādījumus, lai nepieciešamajiem pieteikumiem piešķirtu piekļuvi savam abonementam. Ja nepieciešams, sazinieties ar savu Azure abonementa administratoru.
+
+    1. Pierakstieties [Azure portālā](https://portal.azure.com/).
+    1. Pārliecinieties, vai ir atlasīta pareiza direktorija, un pēc tam kreisās puses izvēlnē atlasiet **Abonementi**.
+    1. Sarakstā atrodiet vajadzīgo abonementu un atlasiet to. Ja nepieciešams, izmantojiet meklēšanas funkciju.
+    1. Izvēlnē atlasiet **Piekļuves vadīkla (iAM)**.
+    1. Labajā pusē esošajā **Pievienot lomas piešķiri** atlasiet **Pievienot**. Tiks parādīta rūts **Pievienot lomas piešķiri**.
+    1. Laukā **Loma** atlasiet **Atbalstītājs**.
+    1. Laukā **Piešķirt piekļuvi** atstājiet noklusējuma vērtību, **Azure AD lietotāju, grupu vai pakalpojuma vadītāju**.
     1. **Atlasīt** ievadiet **b96b7e94-b82e-4e71-99a0-cf7fb188acea**.
-    1. No saraksts atlasiet **Dynamics Deployment Services [wsfed-Enabled]**.
-    1. Noklikšķiniet uz **Saglabāt**.
-1. Noklikšķiniet uz **Tālāk**.
-1. Izpildiet ekrānā redzamos norādījumus, lai piešķirtu nepieciešamajām programmām piekļuvi savam abonementam. Ja nepieciešams, sazinieties ar savu Azure abonementa administratoru.
-1. Noklikšķiniet uz **Tālāk**.
-1. Kā **Azure reģions** izvēlieties vai nu **Austrum ASV**, **Austrum ASV 2**, **Rietum ASV** vai **Rietum ASV 2**.
-1. Noklikšķiniet uz **Savienot**.
-1. Sarakstā ir jāparādās jūsu Azure Connector.
-### <a name="import-extension"></a>Importa paplašinājums
-1. Pārejiet atpakaļ uz savu projekta sākuma lapu, noklikšķinot uz projekta nosaukuma augšpusē.
-1. Ja esat partneris, noklikšķiniet uz **Līdzekļu bibliotēka**, kas atrodas rīku elementā labās puses beigās.
-1. Ja esat klients, augšējā izvēlnē izvēlieties **Līdzekļu bibliotēka**.
-1. No saraksta kreisajā pusē atlasiet **Pakotne, ko izvieto programmatūra**.
-1. No darbību rūts noklikšķiniet **IMPORTĒT**.
-1. Atlasiet **Commerce priekšskatījuma demonstrāciju bāzes paplašinājums** no līdzekļu saraksta, kas atrodas **KOPLIETOJAMO LĪDZEKĻU BIBLIOTĒKA**.
-1. Noklikšķiniet **Izvēlēties**.
-1. Jūs atgriezīsieties līdzekļu bibliotēkā, un jums vajadzētu redzēt saraksta paplašinājumu.
+    1. Sarakstā atlasiet **Dynamics Deployment Services \[wsfed-enabled\]**.
+    1. Atlasiet **Saglabāt**.
 
-![Projekta izveide — versijas](./media/import.png)
-### <a name="deploy-environment"></a>Izvietot vidi
+1. Atlasiet **Nākamais**.
+1. Izpildiet lapā redzamos norādījumus, lai nepieciešamajiem pieteikumiem piešķirtu piekļuvi savam abonementam. Ja nepieciešams, sazinieties ar savu Azure abonementa administratoru.
+1. Atlasiet **Nākamais**.
+1. Laukā **Azure reģions** atlasiet **Austrum ASV**, **Austrum ASV 2**, **Rietum ASV** vai **Rietum ASV 2**.
+1. Atlasiet **Savienot**. Sarakstā ir jāparādās jūsu Azure Connector.
 
-*Piezīme. Iespējams, ka 6., 7. un / vai 8. darbība netiks rādīta, jo ekrāni ar vienu opciju tiek izlaisti. Kad esat skatā **Vides parametri**, lūdzu, apstipriniet, ka teksts "Dynamics 365 Commerce (priekšskatījums) — demonstrācija (10.0.6 ar platformas atjauninājumu 30)" ir tieši virs lauka **Vides nosaukums**. Skatiet ekrānuzņēmumu zemāk.*
+### <a name="import-the-commerce-preview-demo-base-extension"></a>Commerce priekšskatījuma demonstrācijas bāzes paplašinājuma imports
+
+Lai sava projektā importētu Commerce priekšskatījuma demonstrācijas bāzes paplašinājumu, veiciet tālāk norādītās darbības.
+
+1. Atveriet sava projekta sākumlapu, augšdaļā atlasot projekta nosaukumu.
+1. Izpildiet kādu no norādītajām transakcijām.
+
+    - Ja esat partneris, labās puses galā atlasiet elementu **Līdzekļu bibliotēka**.
+    - Ja esat klients, augšējā izvēlnē atlasiet **Līdzekļu bibliotēka**.
+
+1. Sarakstā kreisajā pusē atlasiet **Pakotne, ko izvieto programmatūra**.
+1. Atlasiet **Importēt**.
+1. **Koplietoto līdzekļu bibliotēka** līdzekļu sarakstā atlasiet **Commerce priekšskatījuma demonstrācijas bāzes paplašinājums**.
+1. Atlasiet **Izdot**. Jūs atgriezīsieties līdzekļu bibliotēkā, un jums vajadzētu redzēt saraksta paplašinājumu.
+
+Tālāk redzamajā attēlā ir parādītas darbības, kas jāveic LCS lapā **Līdzekļu bibliotēka**.
+
+![Commerce priekšskatījuma demonstrācijas bāzes paplašinājuma importēšana](./media/import.png)
+
+### <a name="deploy-the-environment"></a>Vides izvietošana
+
+Lai izvietotu vidi, veiciet tālāk norādītās darbības.
+
+> [!NOTE]
+> Iespējams, jums nebūs jāveic 6., 7. un / vai 8. darbību, jo tiek izlaistas lapas, kurās ir viena opcija. Kad atrodaties skatā **Vides parametri**, apstipriniet, ka teksts **Dynamics 365 Commerce (priekšskatījums) — Demo (10.0.6 ar platformas atjauninājumu 30)** tiek parādīts tieši virs lauka **Vides nosaukums**. Skatiet attēlu, kas tiek parādīts pēc 8. darbības.
 
 1. Augšējā izvēlnē atlasiet **Mākoņvides**.
-1. Lai pievienotu vidi, noklikšķiniet **+ pievienot**.
-1. Kā **Programmas versija** atlasiet **10.0.6**.
-1. Kā **Platformas versija**atlasiet **Platformas atjauninājums 30**.
-1. Noklikšķiniet uz **Tālāk**.
-1. Kā vides topoloģiju izvēlieties **DEMONSTRĀCIJA**.
-1. Kā vides topoloģiju izvēlieties **Dynamics 365 Commerce (priekšskatījums) — demonstrācija**.
-1. Ja iepriekš konfigurējāt vienu Azure Connector, tas tiks izmantots šai videi. Ja konfigurējāt vairākus Azure Connectors, jums ir iespēja atlasīt, kuru savienojumu vēlaties izmantot: **Austrum ASV**, **Austrum ASV 2**, **Rietum ASV** vai **Rietum ASV 2** (ieteicams, lai sasniegtu vislabāko veiktspēju līdz pašām beigām)
-1. Ievadiet **Vides nosaukums**.
-1. Pēc nepieciešamības pielāgojiet VM lielumu. (Mēs iesakām VM SKU **D13 v2**.)
-1. Atstājiet **Papildu iestatījumi**, kādi tie ir.
-1. Pēc izcenojumu un licencēšanas noteikumu pārskatīšanas ekrānā atzīmējiet izvēles lodziņu, lai izteiktu piekrišanu.
-1. Noklikšķiniet uz **Tālāk**.
-1. Pēc apliecināšanas, ka informācija ir pareiza, izvietošanas apstiprinājuma ekrānā noklikšķiniet **Izvietot**.
-1. Jūs atgriezīsieties skatījumā **Mākoņvides**, un sarakstā ir jāparādās jūsu videi.
-1. Jūsu pieprasītā vide tiks parādīta kā stāvoša rindā un tad izvietota. Būs nepieciešams ilgāks laiks, lai tiktu pabeigtas visas vides darbplūsmas, tāpēc, lūdzu, pārbaudiet pēc dažām stundām (aptuveni 6–9 stundas).
+1. Lai pievienotu vidi, atlasiet **Pievienot**.
+1. Laukā **Pieteikuma versija** atlasiet **10.0.6**.
+1. Laukā **Platformas versija** atlasiet **Platformas atjauninājums 30**.
+
+    ![Pieteikumu un platformu versiju atlasīšana](./media/project1.png)
+
+1. Atlasiet **Nākamais**.
+1. Kā vides topoloģiju atlasiet **Demonstrācija**.
+
+    ![1. vides topoloģijas atlasīšana](./media/project2.png)
+
+1. Kā vides topoloģiju atlasiet **Dynamics 365 Commerce (priekšskatījums) — demonstrācija**. Ja iepriekš konfigurējāt vienu Azure Connector, tas tiks izmantots šai videi. Ja esat konfigurējis vairākus Azure Connector, varat izvēlēties, kuru savienotāju izmantot: **Austrum ASV**, **Austrum ASV 2**, **Rietum ASV** vai **Rietum ASV 2**. (Lai panāktu vislabāko veiktspēju visu laiku, iesakām atlasīt **Rietum ASV 2**).
+
+    ![2. vides topoloģijas atlasīšana](./media/project3.png)
+
+1. Lapā **Izvietot vidi** ievadiet vides nosaukumu. Atstājiet papildu iestatījumus, kādi tie ir.
+
+    ![Vides lapas izvietošana](./media/project4.png)
+
+1. Pielāgojiet VM lielumu pēc vajadzības. (Mēs iesakām VM noliktavas vienību \[SKU\] **D13 v2**.)
+1. Pārskatiet cenu noteikšanas un licencēšanas nosacījumus un pēc tam atzīmējiet izvēles rūtiņu, lai norādītu, ka piekrītat tiem.
+1. Atlasiet **Nākamais**.
+1. Izvietošanas apstiprinājuma lapā pārbaudiet, vai informācija ir pareiza, un pēc tam atlasiet **Izvietot**. Jūs atgriezīsieties skatā **Mākoņvides**, un sarakstā ir jāparādās jūsu videi.
+
+    Jūsu pieprasītā vide parādīsies kā stāvoša rindā un tad izvietota. Vides darbplūsmas prasīs kādu laiku, līdz tiks pabeigtas. Tāpēc pārbaudiet vēlreiz pēc aptuveni sešām līdz deviņām stundām.
+
 1. Pirms turpināt, pārliecinieties, ka jūsu vides statuss ir **Izvietots**.
 
-![Projekta izveide — versijas](./media/project1.png)
-
-![Projekta izveide — 1. topoloģija](./media/project2.png)
-
-![Projekta izveide — 2. topoloģija](./media/project3.png)
-
-![Projekta izveide — vides parametri](./media/project4.png)
 ### <a name="initialize-rcsu"></a>RCSU inicializēšana
-1. Atrodoties skatā **Mākoņvides**, no saraksta atlasiet savu vidi.
-1. No vides skata ekrāna labajā pusē noklikšķiniet **Visa informācija**. Tiks parādīts detalizēts vides informācijas skats.
-1. **VIDES LĪDZEKĻI**noklikšķiniet **Pārvaldīt**.
-1. Cilnē **Mazumtirdzniecība** noklikšķiniet **Inicializēt**. Tiks parādīts RCSU inicializācijas parametru skats.
-1. Kā **REĢIONS** atlasiet **Austrum ASV**, **Austrum ASV 2**, **Rietum ASV** vai **Rietum ASV 2**.
-1. Kā **VERSIJA** vispirms no nolaižamā saraksta atlasiet **Norādīt versiju**, pēc tam teksta laukā, kas parādās apakšā, norādiet **9.16.19262.5**. *Piezīme. Lūdzu, pārliecinieties, ka šeit **noradāt precīzu versiju**, lai izvairītos no nepieciešamības atjaunināt RCSU vēlāk, lai labotu versiju.*
-1. Iespējojiet **Piemērot paplašinājumu**.
-1. No paplašinājumu saraksta izvēlieties **Commerce priekšskatījuma demonstrāciju bāzes paplašinājums**.
-1. Noklikšķiniet uz **Inicializēt**.
-1. Pēc apliecināšanas, ka informācija ir pareiza, izvietošanas apstiprinājuma ekrānā noklikšķiniet **Jā**.
-1. Jūs atgriezīsieties skatā **Mazumtirdzniecības pārvaldība** ar aktivizētu cilni **Mazumtirdzniecība**. Jūsu RCSU tika ievietota rindā uz nodrošināšanu.
-1. Pirms turpināt, gaidiet, kamēr jūsu RCSU statuss ir **VEIKSMĪGS** (tas ilgs aptuveni 2–5 stundas).
+
+Lai inicializētu RCSU, veiciet tālāk norādītās darbības.
+
+1. Skatā **Mākoņvides** atlasiet saraksta savu vidi.
+1. Vides skatā labajā pusē atlasiet **Visa informācija**. Parādīsies detalizēts vides informācijas skats.
+1. **Vides līdzekļi** atlasiet **Pārvaldīt**.
+1. Cilnē **Mazumtirdzniecība** atlasiet **Inicializēt**. Parādīsies RCSU inicializācijas parametru skats.
+1. Laukā **Reģions** atlasiet **Austrum ASV**, **Austrum ASV 2**, **Rietum ASV** vai **Rietum ASV 2**.
+1. Laukā **Versija** sarakstā atlasiet **Norādīt versiju** un pēc tam laukā, kas parādās, norādiet **9.16.19262.5**. Pārliecinieties, ka norādāt tieši šeit norādīto versiju. Pretējā gadījumā jums vēlāk būs jāatjaunina RCSU uz pareizo versiju.
+1. Ieslēdziet opciju **Lietot paplašinājumu**.
+1. Paplašinājumu sarakstā atlasiet **Commerce priekšskatījuma demonstrāciju bāzes paplašinājums**.
+1. Atlasiet **Inicializēt**.
+1. Izvietošanas apstiprinājuma lapā pārbaudiet, ka informācija ir pareiza, un pēc tam atlasiet **Jā**. Jūs atgriezīsieties skatā **Mazumtirdzniecības pārvaldība**, kur atlasīta cilne **Mazumtirdzniecība**. Jūsu RCSU tika ievietota rindā uz nodrošināšanu.
+1. Pirms turpināt, pārliecinieties, ka jūsu RCSU statuss ir **Veiksmīgs**. Inicializācija ilgst aptuveni divas līdz piecas stundas.
+
 ### <a name="initialize-e-commerce"></a>E-tirdzniecības inicializēšana
-1. Pārslēdzieties uz cilni **E-tirdzniecība (priekšskatījums)**.
-1. Pēc priekšskatījuma piekrišanas pārskatīšanas noklikšķiniet **Iestatīt**.
-1. Ievadiet nosaukumu **E-tirdzniecības nomnieka nosaukums**. Tomēr ņemiet vērā, ka tas būs redzams dažos URL, kas norāda uz jūsu e-tirdzniecības instanci.
-1. Kā **Retail cloud scale unit nosaukums** atlasiet savu RCSU no saraksta (sarakstā jābūt tikai vienai opcijai).
-1. **E-tirdzniecības ģeogrāfija** tiek aizpildīta automātiski, un to nevar mainīt.
-1. Lai turpinātu, noklikšķiniet **Tālāk**.
-1. Kā **Atbalstītie resursdatoru nosaukumi** ievadiet jebkuru derīgu domēnu (piemēram, www.fabrikam.com).
-1. Kā **AAD drošības grupa sistēmas administratoram** ievadiet AAD SG ID, ko vēlaties izmantot kā e-tirdzniecības sistēmas administratoru grupu.
-1. Kā **AAD drošības grupa vērtējumu un apskatu moderatoram** ievadiet AAD SG ID, ko vēlaties izmantot kā vērtējumu un apskatu moderatoru grupu.
-1. Atstājiet tukšās vērības **B2C** (7 lauki, kas sākas ar B2C).
-1. Atstājiet iespējotu **Iespējot vērtējumu un apskatu pakalpojumu**.
-1. Noklikšķiniet uz **Inicializēt**.
-1. Jūs atgriezīsieties skatā **Mazumtirdzniecības pārvaldība** ar aktivizētu cilni **E-tirdzniecība (priekšskatījums)**. Jūsu e-tirdzniecības inicializēšana ir uzsākta.
-1. Pirms turpināt, uzgaidiet, līdz jūsu e-tirdzniecības inicializācijas statuss ir **INICIALIZĀCIJA IR VEIKSMĪGA**.
-1. **SAITES** labajā apakšējā stūrī.
-    * Pierakstiet saiti **E-tirdzniecības vietne**. Šī ir saite uz jūsu C2 vietnes sakni.
-    * Pierakstiet saiti **E-tirdzniecības vietnes pārvaldības rīks**. Šī ir saite uz vietnes pārvaldības rīku (C1 autorēšanas rīku).
-## <a name="post-provisioning-steps"></a>Pēcnodrošināšanas darbības
-Šajā posmā vide ir nodrošināta visam procesam, bet joprojām ir konfigurācijas darbības, par ko ir jārūpējas pirms uzsākt vides novērtēšanu.
-### <a name="before-starting"></a>Pirms sākuma
-1. Augšējā izvēlnē atlasiet **Mākoņvides**.
-1. No saraksta atlasiet savu vidi.
-1. Vides informācijā labajā pusē noklikšķiniet **Visa informācija**.
-1. Lai atvērtu izvēlni, noklikšķiniet **Pieteikties**, izvēlieties **Pieteikties vidē**.
 
-Pārliecinieties, ka ir atlasīta **USRT** juridiskā persona (augšējā labajā stūrī).
+Lai inicializētu e-tirdzniecību, veiciet tālāk norādītās darbības.
 
-### <a name="configure-pos"></a>Konfigurēt POS
-##### <a name="associate-worker-with-your-identity"></a>Nodarbinātā saistīšana ar jūsu identitāti
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi > Mazumtirdzniecība > Darbinieki > Nodarbinātie**.
-1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu **000713 – Endrjū Kollete**.
-1. Darbību rūtī noklikšķiniet **Mazumtirdzniecība**.
-1. Noklikšķiniet **Saistīt esošu identitāti**.
-1. Laukā **E-pasts** (pa labi no **Meklēt, izmantojot e-pastu**) ievadiet savu e-pasta adresi.
-1. Noklikšķiniet **Meklēt**.
-1. Atlasiet ierakstu ar savu vārdu.
-1. Noklikšķiniet uz **Labi**.
-1. Noklikšķiniet uz **Saglabāt**.
-##### <a name="activate-cloud-pos"></a>mākoņa POS aktivizēšana;
-1. Piesakieties LCS portālā.
-1. Pārejiet uz savu projektu.
-1. Augšējā izvēlnē atlasiet **Mākoņvides**.
-1. No saraksta atlasiet savu vidi.
-1. Vides informācijā labajā pusē noklikšķiniet **Visa informācija**.
-1. Lai atvērtu izvēlni, noklikšķiniet **Pieteikties**, izvēlieties **Pieteikties mākoņa pārdošanas punktā**, būtu jāielādējas POS.
-1. Noklikšķiniet uz **Tālāk**.
-1. Piesakieties ar savu AAD kontu.
-1. **Veikala nosaukums** izvēlieties **Sanfrancisko**.
-1. Noklikšķiniet uz **Tālāk**.
-1. **Reģistrs un ierīce** izvēlieties **SANFRAN-1**.
-1. Noklikšķiniet uz **Aktivizēt**.
-1. Jums ir jāiziet no konta un jānonāk POS pieteikšanās ekrānā.
-1. Tagad varat pieteikties mākoņa POS pieredzei, izmantojot operatora ID **000713** un paroli **123**.
-### <a name="site-setup"></a>Vietnes iestatījumi
-1. Piesakieties **vietnes pārvaldības rīkā**, izmantojot iepriekš pierakstīto URL.
-1. Noklikšķiniet uz vietnes **Fabrikam**, lai atvērtu vietnes iestatīšanas dialogu.
-1. Kā domēnu atlasiet domēnu, ko iepriekš ievadījāt, inicializējot e-tirdzniecību.
-1. Kā noklusējuma kanālu atlasiet **Fabrikam paplašinātais tiešsaistes veikals**. *Piezīme. Pārliecinieties, ka atlasāt **paplašināto** tiešsaistes veikalu*
-1. Ka noklusējuma valodu atlasiet **en-us**.
-1. Atstājiet **Ceļš**, kā tas ir.
-1. Noklikšķiniet uz **Labi**.
-1. Jūs tiksiet nosūtīts uz vietnes lapu sarakstu.
-### <a name="enable-jobs"></a>Darbu iespējošana
-1. Piesakieties vidē (HQ).
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Mazumtirdzniecība > Pieprasījumi un pārskati > Pakešuzdevumi**.
-1. Katram darbam zemāk esošajā sarakstā veiciet tālāk minētas darbības.
-    * **Apstrādāt mazumtirdzniecības pasūtījuma e-pasta paziņojumu**.
-    * **Preču pieejamība**.
-    * **P-0001**.
-    * **Sinhronizēt pasūtījumu darbu**.
-1. Izmantojiet ātro filtru, lai meklētu darbu, izmantojot tā nosaukumu (norādīts iepriekš).
-1. Ja darba statuss ir **Aizturēts**, veiciet tālāk minētās darbības.
-    1. Atlasiet ierakstu.
-    1. No darbību rūts atveriet rīku lenti **Pakešuzdevums** un noklikšķiniet **Mainīt statusu**.
-    1. Atlasiet **Gaida** un noklikšķiniet **Labi**.
-### <a name="run-full-data-sync"></a>Izpildīt pilnīgu datu sinhronizāciju
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi > Mazumtirdzniecība > Galvenās mītnes iestatīšana > Mazumtirdzniecības plānotājs > Kanāla datu bāze**.
-1. Kanāls **Noklusējums** ir atlasīts no saraksta kreisajā pusē. *Atlasiet citu pieejamo kanālu (ar nosaukumu **scXXXXXXXXX**)*.
-1. Darbību rūtī noklikšķiniet **Pilnīga datu sinhronizācija**.
-1. Ievadiet **9999** kā sadales grafiku.
-1. Noklikšķiniet uz **Labi**.
-1. Noklikšķiniet uz **Labi**.
-### <a name="after-these-steps-you-are-ready-to-start-evaluating-your-preview-environment"></a>Pēc šīm darbībām esat gatavs sākt izvērtēt savu priekšskatījuma vidi!
-Izmantojiet URL **E-tirdzniecības vietnes pārvaldības rīks**, lai pārietu uz C1 autorēšanas pieredzi un URL **E-tirdzniecības vietne**, lai pārietu uz C2 vietnes pieredzi.
+1. Cilnē **e-tirdzniecība (priekšskatījums)** pārskatiet piekrišanu priekšskatījumam un pēc tam atlasiet **Iestatīšana**.
+1. Ievadiet nosaukumu laukā **E-tirdzniecības nomnieka nosaukums**. Tomēr ņemiet vērā, ka šis nosaukums parādīsies dažos URL, kas norāda uz jūsu e-tirdzniecības instanci.
+1. Laukā **Retail Cloud Scale Unit nosaukums** sarakstā atlasiet savu RCSU. (Sarakstā jābūt tikai vienai opcijai.)
+
+    Lauks **E-tirdzniecības ģeogrāfija** tiek iestatīts automātiski, un vērtību nevar mainīt.
+
+1. Lai turpinātu, atlasiet **Tālāk**.
+1. Laukā **Atbalstītie resursdatora nosaukumi** ievadiet jebkuru derīgu domēnu, piemēram, `www.fabrikam.com`.
+1.  Laukā **AAD drošības grupa sistēmas administratoram** ievadiet dažus pirmos burtu no tās drošības grupas nosaukuma, ko vēlaties izmantot. Atlasiet palielināmo klases ikonu, lai parādītu meklēšanas rezultātus. Izvēlieties drošības grupu no saraksta.
+2.  Laukā **AAD drošības grupa vērtējumu un pārskatu moderatoram** ievadiet dažus pirmos burtu no tās drošības grupas nosaukuma, ko vēlaties izmantot. Atlasiet palielināmo klases ikonu, lai parādītu meklēšanas rezultātus. Izvēlieties drošības grupu no saraksta.
+1. Atstājiet ieslēgtu opciju **Iespējot vērtējumu un pārskatu pakalpojumu**.
+1. Ja jau esat pabeidzis Microsoft Azure Active Directory (Azure AD) piekrišanas darbību, kā aprakstīts sadaļā "Piekļuves piešķiršana e-tirdzniecības pieteikumiem", atlasiet izvēles rūtiņu, lai apstiprinātu savu piekrišanu. Ja vēl neesat pabeidzis šo darbību, jums tā jāveic pirms turpināt inicializāciju. Tekstā atlasiet saiti, kas atrodas blakus izvēles rūtiņai, lai atvērtu piekrišanas dialoglodziņu un pabeigtu darbību.
+1. Atlasiet **Inicializēt**. Jūs atgriezīsieties skatā **Mazumtirdzniecības pārvaldība**, kur atlasīta cilne **E-tirdzniecība (priekšskatījums)**. Ir uzsākta e-tirdzniecības inicializēšana.
+1. Pirms turpināt, uzgaidiet, līdz e-tirdzniecības inicializācijas statuss ir **Inicializācija veiksmīga**.
+1. Apakšā pa labi no **Saites** norakstiet URL tālāk noradītajām saitēm.
+
+    * **E-tirdzniecības vietne** — saite uz jūsu e-tirdzniecības vietnes sakni.
+    * **E-tirdzniecības vietnes pārvaldības rīks** — saite uz vietnes pārvaldības rīku.
+
+## <a name="commerce-preview-environment-support"></a>Commerce priekšskatījuma vides atbalsts
+
+Ja rodas problēmas, pabeidzot nodrošināšanas darbības, lūdzu, apmeklējiet [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupu](https://aka.ms/Dynamics365CommercePreviewYammer), lai saņemtu palīdzību.
+
+Ja rodas problēmas, mēģinot piekļūt Yammer grupai, varat sazināties ar Microsoft, izmantojot e-pastu <Dynamics365Commerce@microsoft.com>. Šī e-pasta adrese netiek aktīvi uzraudzīta. Tādēļ rēķinieties ar novēlotu atbildi.
+
+## <a name="next-steps"></a>Nākamās darbības
+
+Lai turpinātu nodrošināšanas procesu un konfigurētu Commerce priekšskatījuma vidi, skatiet [Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
-### <a name="how-to-find-your-aad-tenant-id"></a>Kā atrast savu AAD nomnieka ID
-AAD nomnieka ID ir GUID un izskatās kā šajā piemērā: **72f988bf-86f1-41af-91ab-2d7cd011db47**
-##### <a name="from-azure-portal"></a>No Azure portāla
-1. Piesakieties Azure portālā: https://portal.azure.com/
-1. Pārliecinieties, ka esat atlasījis vajadzīgo direktoriju.
-1. Izvēlnē kreisajā pusē noklikšķiniet **Azure Active Directory**.
-1. Izvēlieties **Rekvizīti** sadaļā **Pārvaldīt**.
-1. AAD nomnieka ID tiek parādīts **Direktorijas ID**.
-##### <a name="from-openid-connect-metadata"></a>No OpenID Connect metadatiem
-Izveidojiet **OpenID URL**, aizstājot **\{YOUR_DOMAIN\}** ar savu domēnu, piemēram, microsoft.com: https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration kļūs par https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration
 
-1. Pārejiet uz **OpenID URL** ar jūsu domēnu tajā.
-1. AAD nomnieka ID var redzēt vairākās rekvizītu vērtībās.
-1. Atrodiet **authorization_endpoint** un iegūstiet GUID tieši pēc **login.microsoftonline.com/**.
-### <a name="how-to-find-the-id-of-your-aad-security-group"></a>Kā atrast savas AAD drošības grupas ID
-AAD drošības grupas ID ir GUID un izskatās kā šajā piemērā: **436ea7f5-ee6c-40c1-9f08-825c5811066a**
+[Commerce priekšskatījuma vides pārskats](cpe-overview.md)
 
-Šajā darbībā tiek pieņemts, ka lietotājs ir tās grupas dalībnieks, kuras ID viņš mēģina atrast.
-1. Pārejiet uz Graph Explorer: https://developer.microsoft.com/en-us/graph/graph-explorer#
-1. Noklikšķiniet **Pieteikties ar Microsoft** un piesakieties, izmantojot savus akreditācijas datus.
-1. Pēc pierakstīšanās kreisajā pusē noklikšķiniet **rādīt vairāk paraugu**.
-1. Labajā rūtī iespējojiet **Grupas**.
-1. Aizveriet labo rūti.
-1. Noklikšķiniet **visas manas grupas**.
-1. Atrodiet savu grupu tekstlodziņā **Atbildes priekšskatījums**.
-1. Drošības grupas ID ir atzīmēts zem rekvizīta **id**.
-### <a name="test-credit-card-information-to-perform-test-purchases"></a>Kredītkartes informācijas pārbaude, lai veiktu pārbaudes pirkumus
-Lai vietnē veiktu pārbaudes transakcijas, varat izmantot tālāk minēto pārbaudes kredītkartes informāciju.
+[Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
 
-Kartes numurs: 4111-1111-1111-1111, termiņš: 10/20, CVV: 737
+[Neobligāto līdzekļu konfigurēšana Commerce priekšskatījuma videi](cpe-optional-features.md)
 
-*Piezīme. Pārbaudes vietnē nekādā gadījumā nemēģiniet izmantot īstas kredītkartes informāciju!*
-### <a name="useful-links"></a>Noderīgas saites
-* [LCS (Lifecycle services)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
-* [RCSU (Retail Cloud Scale Unit)](https://docs.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
-* [Microsoft Azure portāls](https://azure.microsoft.com/en-us/features/azure-portal)
-* [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
-* [Palīdzības resursi Dynamics 365 Retail](../retail/index.md)
-### <a name="microsoft-dynamics-365-commerce-preview-support"></a>Microsoft Dynamics 365 Commerce priekšskatījuma atbalsts
-Ja rodas problēmas, veicot nodrošināšanas darbības, lūdzu, apmeklējiet [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupu](https://aka.ms/Dynamics365CommercePreviewYammer), lai saņemtu palīdzību. 
+[Commerce priekšskatījuma vides BUJ](cpe-faq.md)
 
-Ja rodas problēmas, piekļūstot Yammer grupai, varat sazināties ar mums arī, izmantojot e-pastu **Dynamics365Commerce@microsoft.com**. Šī e-pasta adrese netiek aktīvi pārraudzīta, tāpēc atbilde var kavēties.
-***
-## <a name="prerequisites-for-optional-features"></a>Priekšnosacījumi līdzekļiem pēc izvēles
-Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk minētie priekšnosacījumi.
-* Jums ir pieejams e-pasta serveris (SMTP serveris), ko var izmantot no Azure abonementa, kur nodrošināt priekšskatījuma vidi.
-* Jums ir pieejams servera FQDN/IP, SMTP porta numurs un autentifikācijas informācija.
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-Ja vēlaties novērtēt Digitālās līdzekļu pārvaldības līdzekļus, jo īpaši ievadīt jaunus daudzkanālu attēlus, ir jāizpilda tālāk minētie priekšnosacījumi.
-* Jums ir pieejams savs **CMS nomnieka nosaukums**. Instrukcijas, kā atrast šo nosaukumu, ir atrodamas zemāk.
-### <a name="configure-image-backend-optional"></a>Attēla aizmugures konfigurēšana (pēc izvēles)
-##### <a name="finding-your-media-base-url"></a>Savas multivides bāzes URL atrašana
-*Piezīme. Pirms varat veikt šo darbību, ir jāpaveic **Vietnes iestatīšana**.*
-1. Piesakieties vietnes pārvaldības rīkā, izmantojot iepriekš pierakstīto URL.
-1. Atveriet vietni **Fabrikam**.
-1. Izvēlnē kreisajā pusē izvēlieties **Līdzekļi**.
-1. Atlasiet jebkuru atsevišķu attēla līdzekli.
-1. Rekvizītu inspektora labajā pusē atrodiet **Publisks URL**. Tajā ir URL.
-    * URL piemērs: https://images-us-sb.cms.commerce.dynamics.com/cms/api/fabrikam/imageFileData/MA1nQC
-1. Aizstājiet URL pēdējo identifikatoru (augstākminētajā URL piemērā — MA1nQC) ar šādu virkni: **search?fileName=**
-    * URL piemērs pēc aizstāšanas: https://images-us-sb.cms.commerce.dynamics.com/cms/api/fabrikam/imageFileData/search?fileName=
-    * Šis ir jūsu **Multivides bāzes URL** — pierakstiet to.
-##### <a name="updating-the-media-base-url"></a>Multivides bāzes URL atjaunināšana
-1. Piesakieties vidē (HQ).
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi > Mazumtirdzniecība > Kanālu iestatīšana > Kanālu profili**.
-1. Noklikšķiniet uz **Rediģēt**.
-1. **Profila rekvizīti** aizstājiet **Multivides servera bāzes URL** rekvizītu vērtību ar iepriekš izveidoto **Multivides bāzes URL**.
-1. Kanālā **Noklusējums** sarakstā pa kreisi atlasiet citu kanālu.
-1. **Profila rekvizīti** noklikšķiniet **+ pievienot**.
-1. Pievienotajam rekvizītam izvēlieties **Multivides servera bāzes URL**, kā rekvizīta atslēgu un rekvizīta vērtību ievadiet iepriekš izveidoto **Multivides bāzes URL**.
-1. Noklikšķiniet uz **Saglabāt**.
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
-### <a name="configure-email-server-optional"></a>E-pasta servera konfigurēšana (pēc izvēles)
-Lūdzu, ņemiet vērā, ka šeit ievadītajam SMTP serverim vai e-pasta pakalpojumam jābūt pieejamam tā Azure abonementa robežās, kuru izmantojat videi.
-1. Piesakieties vidē (HQ).
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi > Mazumtirdzniecība > Parametri > E-pasta parametri**.
-1. Noklikšķiniet uz cilnes **SMTP iestatījumi**.
-1. **Izejošā pasta servera lauks** ievadiet sava SMTP servera vai e-pasta pakalpojuma FQDN vai IP adresi.
-1. Laukā **SMTP porta numurs** ievadiet porta numuru (noklusējums ir 25, kad netiek izmantots SSL).
-1. Laukā **Lietotāja vārds** ievadiet vērtību (ja nepieciešama autentifikācija).
-1. Laukā **Parole** ievadiet vērtību (ja nepieciešama autentifikācija).
-1. Noklikšķiniet uz **Saglabāt**.
-1. Noklikšķiniet **Atsvaidzināt**.
-1. Noklikšķiniet cilni **E-pasta pārbaude**.
-1. E-pasta nodrošinātāja laukā izvēlieties **SMTP**.
-1. Laukā **Nosūtīt kam** ievadiet e-pasta adresi, kur jāpiegādā pārbaudes e-pasts.
-1. Noklikšķiniet **Nosūtīt pārbaudes e-pastu**.
-### <a name="configure-email-templates-optional"></a>E-pasta veidņu konfigurēšana (pēc izvēles)
-E-pasta veidne katram transakcijas notikumam, kam vēlaties sūtīt e-pastu, ir jāatjaunina ar derīgu sūtītāja e-pasta adresi.
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi > Organizācijas administrācija > Iestatījumi > Organizācijas e-pasta veidnes**.
-1. Noklikšķiniet **Rādīt sarakstu**.
-1. Katrai no sarakstā iekļautajām veidnēm:
-    1. Laukā **Sūtītāja e-pasts** ievadiet sūtītāja e-pasta adresi šai e-pasta veidnei.
-    1. (Pēc izvēles) Laukā **Sūtītāja vārds** ievadiet vārdu, kas tiks izmantots kā šī e-pasta veidnes sūtītājs.
-1. Noklikšķiniet uz **Saglabāt**.
-### <a name="customizing-email-templates-optional"></a>E-pasta veidņu pielāgošana (pēc izvēles)
-Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai izmantotu dažādus attēlus vai atjauninātu saites veidnē, izveidojot saiti ar savu priekšskatījuma vidi. Tālāk norādītās darbības izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
-1. Izmantojot pārlūkprogrammu, savā datorā lejupielādējiet [Microsoft Dynamics 365 Commerce priekšskatījuma noklusējuma e-pasta veidnes .zip failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip), kurā ir tālāk minētie HTML dokumenti.
-    1. Pasūtījuma apstiprinājuma veidne
-    1. Dāvanu kartes izsniegšanas veidne
-    1. Jauna pasūtījuma veidne
-    1. Pasūtījuma iesaiņošanas veidne
-    1. Pasūtījuma saņemšanas veidne
-1. Pielāgojiet veidnes, izmantojot teksta vai HTML redaktoru. Lūdzu, skatiet tālāk redzamo atbalstīto marķieru sarakstu.
-1. Piesakieties vidē (HQ).
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi > Mazumtirdzniecība > Parametri > Organizācijas e-pasta veidnes**.
-1. Paplašiniet sarakstu kreisajā pusē, lai redzētu visas veidnes.
-1. Katrai no veidnēm, ko vēlaties pielāgot, veiciet tālāk minētās darbības.
-    1. Atlasiet veidni no saraksta.
-    1. **E-pasta ziņojuma saturs** no saraksta atlasiet atbilstošo valodas versiju (noklusējums **en-us**).
-    1. **E-pasta ziņojuma saturs** noklikšķiniet **Rediģēt**, jums vajadzētu redzēt atveramies rūti **Augšupielādēt e-pasta veidni**.
-    1. Noklikšķiniet **Pārlūkot** un atrodiet HTML failu ar pielāgoto saturu.
-    1. Noklikšķiniet **Augšupielādēt**, jūsu veidne tiek augšupielādēta sistēmā, un tiek parādīts priekšskatījums.
-    1. Noklikšķiniet uz **Labi**.
-    1. (Pēc izvēles) Pielāgojiet veidnes rekvizītu **Temats**.
-    1. Noklikšķiniet uz **Saglabāt**.
+[Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
-#### <a name="supported-tokens-in-the-email-template"></a>E-pasta veidnē atbalstītie marķieri
-Šie marķieri e-pasta atveidošanas laikā tiks aizstāti ar faktiskajām vērtībām, kas attiecas uz klientu un tā pasūtījumu.
+[Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
 
-**Pārdošanas pasūtījums** — tālāk minētie marķieri attiecas uz vispārēju pārdošanas pasūtījumu.
-
-|Marķējuma nosaukums|Marķieris|
-|---|---|
-|Pasūtījuma numurs|%salesid%|
-|Debitora nosaukums|%customername%|
-|Piegādes adrese|%deliveryaddress%|
-|Norēķinu adrese|%customeraddress%|
-|Ordera datums|%shipdate%|
-|Piegādes veids|%modeofdelivery%|
-|Atlaide|%discount%|
-|PVN|%tax%|
-|Pasūtījuma kopsumma|%total%|
-
-**Pārdošanas rinda** — katrai pasūtījuma precei tiek aizpildīti tālāk minētie marķieri.
-
-*Piezīme. Novietojiet marķierus **Preču saraksts — sākums** un **Preču saraksts — beigas** tā HTML bloka sākumā un beigās, kas atkārtojas katrai precei.*
-
-|Marķējuma nosaukums|Marķieris|
-|---|---|
-|Preču saraksts — sākums|\<!--%tablebegin.salesline% -->|
-|Preču saraksts — beigas|\<!--%tableend.salesline%-->|
-|Preces nosaukums|%lineproductname%|
-|Apraksts|%lineproductdescription%|
-|Daudzums|%linequantity%|
-|Rindas vienības cena|%lineprice% (verificēt)|
-|rindas preču kopsumma|%linenetamount%|
-|rindas atlaide|%linediscount%|
-|Nosūtīšanas datums|%lineshipdate%|
-|Iepirkuma metode|%linedeliverymode%|
-|piegādes adrese|%linedeliveryaddress%|
-|Rindas pārdošanas vienība|%lineunit%|
-
+[Palīdzības resursi Dynamics 365 Retail](../retail/index.md)
