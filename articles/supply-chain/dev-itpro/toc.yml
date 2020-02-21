@@ -80,7 +80,7 @@
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Pakalpojumu galapunkti
           items:
-            - name: Pakalpojumu galapunktu apskats
+            - name: Pakalpojumu galapunktu pārskats
               href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Pakalpojumu autentifikācijas problēmu novēršana
               href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -120,7 +120,7 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Organizācijas hierarhija pakalpojumā Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Uzņēmuma koncepcija pakalpojumā Common Data Service
+                - name: Uzņēmuma koncepcija pakalpojumā Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Integrētie debitoru pamatdati
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -142,7 +142,7 @@
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
+                    - name: Preču sinhronizēšana tieši no Finance and Operations ar precēm risinājumā Sales
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -150,7 +150,7 @@
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
+                    - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana uz programmu Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Integrācijas konfigurēšana ar Field Service
                   items:
@@ -172,7 +172,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmā Finance and Operations
+                    - name: Programmā Finance and Operations ietverto darba pasūtījumu sinhronizēšana ar projektu no programmas Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Project Service Automation integrācijas konfigurēšana
                   items:
@@ -196,7 +196,7 @@
       href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Datu pārvaldība
   items:
-    - name: Pārskats par datu pārvaldību
+    - name: Datu pārvaldības pārskats
       href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Datu elementi
       items:
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Pārvaldīt piekļuvi sensitīviem datiem
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: 'Atbildēšana uz personas datu pieprasījumiem, izmantojot programmu Talent'
+        - name: 'Atbildēšana uz personas datu pieprasījumiem, izmantojot programmu Human Resources'
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: "Atbildēšana uz personas datu pieprasījumiem programmā AX\_2012"
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -984,7 +984,7 @@
           href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: "Klienta\_API"
           items:
-            - name: Klienta API mājas lapa
+            - name: Klienta API sākumlapa
               href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: PageState uzskaitījums
               href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -996,7 +996,7 @@
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Control modulis
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: "Container\_modulis"
+            - name: Konteinera modulis
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Field modulis
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1206,23 +1206,23 @@
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Atbalsts
   items:
-    - name: Atbalsta saņemšana saistībā ar Finance and Operations un Lifecycle Services
+    - name: Atbalsta saņemšana par Finance and Operations un Lifecycle Services
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Dynamics 365 atbalsta pārskats
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: "Atbalsta saņemšana saistībā ar Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
+    - name: 'Atbalsta saņemšana par Finance and Operations, kā darbību nodrošina 21Vianet Ķīnā'
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Premier atbalsta biļetes reģistrēšana
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Pieprasījumu iesniegšana Dynamics Service tehniskajai grupai
       href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Tehniskā atbalsta uzstādīšana programmai Finance and Operations
+    - name: Finance and Operations tehniskā atbalsta iestatīšana
       href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: BUJ par plānoto uzturēšanas periodu
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Mākoņu darbības un apkalpošana
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Finance and Operations atbalsta pieredzes pārvaldība
+    - name: Finance and Operations atbalsta iespēju pārvaldība
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Sistēmas administrēšana
   items:
@@ -1280,7 +1280,7 @@
           href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Uzlabotas partijas formas
           href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Partijas vēstures tīrīšana
+        - name: Pakešuzdevumu vēstures tīrīšana
           href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Pakešuzdevuma izpildes pārtraukšana
           href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1298,7 +1298,7 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Jaunināt no AX 2012
       items:
-        - name: "Jaunināšana no AX\_2012 uz Finance and Operations"
+        - name: "Jaunināt no AX\_2012 uz Finance and Operations"
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: "AX\_2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1340,7 +1340,7 @@
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Migrēt datus no AX 2009
       items:
-        - name: "Datu migrēšana no AX\_2009 uz Finance and Operations"
+        - name: "Migrēt datus no AX\_2009 uz Finance and Operations"
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: "AX\_2009 migrēšana\_— Datu migrēšanas rīka instalēšana"
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

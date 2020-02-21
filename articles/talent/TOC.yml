@@ -8,6 +8,12 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2020.\_gada 21.\_janvāris"
+              href: whats-new-talent-january-21-2020.md
+            - name: "2020.\_gada 14.\_janvāris"
+              href: whats-new-talent-january-14-2020.md
+            - name: "2020.\_gada 7.\_janvāris"
+              href: whats-new-talent-january-7-2020.md
             - name: "2019.\_gada 17.\_decembris"
               href: whats-new-talent-december-17-2019.md
             - name: "2019.\_gada 12.\_decembris"
@@ -28,12 +34,12 @@
               href: whats-new-talent-october-8-2019.md
             - name: "2019.\_gada 1.\_oktobris"
               href: whats-new-talent-october-1-2019.md
-            - name: "2019.\_gada 17.\_septembris"
-              href: whats-new-talent-september-17-2019.md
-            - name: "2019.\_gada 10.\_septembris"
-              href: whats-new-talent-september-12-2019.md
             - name: "Jaunumu arhīvi, 2019.\_gads"
               items:
+                - name: "2019.\_gada 17.\_septembris"
+                  href: whats-new-talent-september-17-2019.md
+                - name: "2019.\_gada 10.\_septembris"
+                  href: whats-new-talent-september-12-2019.md
                 - name: "2019.\_gada 27.\_augusts"
                   href: whats-new-talent-august-28-2019.md
                 - name: "2019.\_gada 22.\_augusts"
@@ -136,18 +142,14 @@
           href: talent-updates.md
         - name: Talent nodrošinājums
           href: provisioning-talent.md
-        - name: Core HR instances kopēšana
-          href: hr-copy-instance.md
-        - name: Talent vides noņemšana
-          href: remove-talent-environment.md
         - name: Līdzekļu pārvaldība
           href: access-preview-feature.md
         - name: Onboard nodrošinājums
           href: modular-app-tech-faq.md
-        - name: Power Apps programmu iegulšana
+        - name: Datu eksportēšana no Attract un Onboard
+          href: attract-onboard-export-data.md
+        - name: Iegult Microsoft Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR elementi pakalpojumā Common Data Service
-          href: CoreHREntities.md
         - name: Atbalsta saņemšana saistībā ar Talent
           href: talent-support.md
     - name: 'Organizācijas personāla pārvaldība, izmantojot Attract'
@@ -232,266 +234,19 @@
           href: onboard-view-status.md
         - name: Darbā pieņemšanas grupas izveide
           href: onboard-create-team.md
-    - name: "Darbaspēka pārvaldība, izmantojot Core\_HR"
-      items:
-        - name: Darbaspēka pārvaldība
-          items:
-            - name: 'Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus'
-              href: departments-jobs-positions.md
-            - name: Darba komponentu iestatīšana
-              href: create-job.md
-            - name: Racionalizēta darbinieku ievade un navigācija
-              href: streamlined-employee-entry.md
-            - name: Nodaļu izveidošana un to iekļaušana nodaļu hierarhijā
-              href: create-department-add-department-hierarchy.md
-            - name: "Personāla vadības\_parametru iestatīšana dažādās juridiskajās personās"
-              href: set-up-hr-parameters-across-legal-entities.md
-            - name: "Uzņēmumam raksturīgu personāla vadības\_parametru iestatīšana"
-              href: set-up-company-specific-hr-parameters.md
-            - name: Datuma un laika lauki programmā Talent
-              href: date-time-fields-in-talent.md
-            - name: Bieži uzdotie jautājumi par personāla darbībām
-              href: personnel-actions-faq.md
-            - name: Biznesa procesu formalizēšana
-              href: formalize-business-processes.md
-            - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
-              href: workflow-manage-employee-information.md
-            - name: Numuru sēriju iestatīšana
-              items:
-                - name: Pārskats par numuru sērijām
-                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Atsevišķu numuru sēriju iestatīšana
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Numuru sēriju iestatīšana, izmantojot vedni'
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Organizāciju un organizāciju hierarhiju konfigurēšana
-              items:
-                - name: Pārskats par organizācijām
-                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Organizācijas hierarhijas plānošana
-                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Organizāciju hierarhijas izveide
-                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Juridiskās personas izveide
-                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Pārvaldības struktūrvienības izveide
-                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Globālās adrešu grāmatas iestatīšana
-              items:
-                - name: Pārskats par globālo adrešu grāmatu
-                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Plāns globālajai adrešu grāmatai un citiem elementiem
-                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Globālās adrešu grāmatas konfigurēšana
-                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Bieži uzdotie jautājumi par adrešu grāmatām
-                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Darbplūsmu konfigurēšana
-              items:
-                - name: Pārskats par darbplūsmu
-                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbplūsmas elementi
-                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbības darbplūsmas apstiprināšanas procesos
-                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Izveidot darbplūsmas
-                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                  items:
-                    - name: Konfigurēt darbplūsmas rekvizītus
-                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt manuālus uzdevumus
-                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt automatizētus uzdevumus
-                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt apstiprinājuma procesus
-                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt apstiprinājuma darbības
-                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt manuālus lēmumus
-                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt nosacījuma lēmumus
-                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt paralēlas aktivitātes
-                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt paralēlus zarus
-                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Konfigurēt dokumenta rindas darbplūsmas
-                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Konfigurēt darbplūsmas ziņojumu apstrādes pakešuzdevumu
-                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darba vienumu deleģēšana darbplūsmā
-                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbplūsmas vēstures skatīšana
-                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Atļaušana lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus
-                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Iestatīt brīdinājumus
-              items:
-                - name: Pārskats par brīdinājumiem
-                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Brīdinājumu kārtulu veidošana
-                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Brīdinājumu pakešveida apstrāde
-                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Pieteikumu pārvaldība
-              items:
-                - name: Pārskats par pieteikumu pārvaldību
-                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Pieteikumu drošības, procesu un kategoriju plānošana'
-                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Dokumentu pārvaldības konfigurēšana
-              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: E-pasta konfigurēšana un sūtīšana
-              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Datuma/laika dati un laika joslas
-              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Atvaļinājumu un kavējumu iestatīšana
-          items:
-            - name: Atvaļinājumu un kavējumu pārvaldība
-              href: leave-absence-overview.md
-            - name: Atvaļinājumu un kavējumu koncepcijas
-              href: leave-absence-concepts.md
-            - name: 'Brīvā laika uzkrāšana, pamatojoties uz nostrādātajām stundām'
-              href: leave-accrue-hours-worked.md
-            - name: Darba laika kalendāri
-              href: working-time-calendars.md
-        - name: Atlīdzības plānu iestatīšana
-          items:
-            - name: Pārskats par atlīdzības plāniem
-              href: compensation-plans.md
-            - name: Fiksētās atlīdzības plānu izveidošana
-              href: create-fixed-compensation-plans.md
-            - name: Mainīgās atlīdzības plānu izveidošana
-              href: create-variable-compensation-plans.md
-            - name: Kompensācijas apstrāde
-              href: process-compensation.md
-            - name: Darba komponentu iestatīšana
-              href: create-job.md
-        - name: Darbinieku attīstības veicināšana un apmācība
-          items:
-            - name: Veiktspējas pārvaldība
-              href: performance-management-overview.md
-            - name: Darbaspēka prasmju saskaņošana ar biznesa vajadzībām
-              href: skills.md
-            - name: Apmācību kursu iestatīšana
-              href: courses.md
-            - name: Pievienošana veiktspējas žurnālam un uzslavas nosūtīšana
-              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mērķa izveide
-              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Veiktspējas pārskata izveide
-              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Atvieglojumu programmas definēšana un pārvaldība
-          items:
-            - name: Atvieglojumu programmas definēšana un pārvaldība
-              href: manage-benefit-program.md
-            - name: Atvieglojumu piemērojamības politikas
-              href: benefit-eligibility-policies.md
-            - name: Pieejamās aprūpes akta (ACA) pārskatu ģenerēšana
-              href: generate-aca-reports.md
-            - name: Nodarbinātajiem aizdotu krājumu pārvaldīšana
-              href: loan-items.md
-        - name: 'Galveno rādītāju novērtēšana, izmantojot anketas'
-          items:
-            - name: 'Informācijas vākšana, izmantojot anketas'
-              href: questionnaires.md
-            - name: Anketu projektēšana
-              href: design-questionnaires.md
-            - name: Anketu izplatīšana un plānošana
-              href: distribute-questionnaires.md
-            - name: Anketu rezultātu skatīšana un novērtēšana
-              href: evaluate-questionnaire-results.md
-        - name: Darbavietas drošība un atbilstība (ASV)
-          items:
-            - name: Atbildēšana uz personas datu pieprasījumu programmā Talent
-              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: "Formas\_I-9 nodarbinātības verificēšana"
-              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Atbilstība ADA prasībām
-              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Integrācija
-      items:
-        - name: Datu integrācijas norādījumi programmai Dynamics 365 for Talent
-          href: data-integration.md
-        - name: Common Data Service integrācijas konfigurēšana
-          href: hr-common-data-service-integration.md
-        - name: Integrācija ar Dynamics 365 for Finance and Operations
-          href: talent-financeandoperations-integration.md
-        - name: Algu aprēķina integrācijas konfigurēšana starp Talent un Dayforce
-          href: configure-payroll-integration.md
-        - name: Bieži uzdotie jautājumi par integrāciju
-          href: talent-fo-integration.md
-        - name: 'Periodiska datu eksportēšana, izmantojot Azure Logic Apps'
-          href: tutorial-integration-recurring-export.md
-        - name: Office integrācija
-          items:
-            - name: Office integrēšanas apmācība
-              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Elementa datu atjaunināšana programmā Excel
-              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Atvēršanas Excel programmā pieredzes izveide
-              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Office integrācijas problēmu novēršana
-              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Paplašināmība
       items:
-        - name: Iegultais Power BI darbvietās
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Talent paplašināšana ar Power Apps un Power Automate
-          href: extensibility-examples.md
-        - name: Mobilā programma
-          items:
-            - name: Mobilās darbvietas
-              items:
-                - name: Mobilā darbvieta Uzņēmuma direktorijs
-                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Mobilā darbvieta Mana grupa
-                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Personāla atlases datu izmaiņu izsekošana
           href: process-auditing.md
         - name: Paplašināmība pakalpojumā Attract
           href: extensibility-attract.md
-        - name: "Pielāgotie lauki pakalpojumā Core\_HR"
-          href: corehr-custom-fields.md
-        - name: Elementa API atsauce
-          items:
-            - name: Autentifikācija
-              href: api-odata-authentication.md
-            - name: Elementi
-              items:
-                - name: MyLeaveRequests
-                  items:
-                    - name: MyLeaveRequests pārskats
-                      href: api-myleaverequests-overview.md
-                    - name: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
-                      href: api-myleaverequests-submit.md
-    - name: Pakalpojuma Talent problēmu novēršana
+        - name: Talent paplašināšana ar Power Apps un Power Automate
+          href: extensibility-examples.md
+    - name: Attract un Onboard problēmu novēršana
       items:
-        - name: Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem
-          href: talent-batch-history-cleanup.md
         - name: Ar darbu publicēšanu pakalpojumā LinkedIn saistīto problēmu novēršana
           href: attract-troubleshoot-linkedin.md
-        - name: Analīzes pārskati netiek atjaunināti
-          href: analytic-reports-not-updated.md
-        - name: Nevar izveidot vidi PowerApps administrēšanas centrā
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Talent klienta atvienošanās
-          href: client-disconnects.md
-        - name: Izvairīšanās no teksta saīsināšanas amatu hierarhijā un eksportēšana uz Visio
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: Atlīdzības procesa palaišana
-          href: run-compensation-process.md
-        - name: Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
-          href: save-play-task-guides-LCS.md
-        - name: Piekļuve privātām adresēm atbilstoši drošības lomai
-          href: security-roles-addresses.md
-        - name: "Programma Talent nav redzama starp Microsoft Dynamics\_365 programmām (Common Data Service\_1.0)"
-          href: talent-not-in-home-CDS.md
-        - name: "Lietotājs var piekļūt Core\_HR, bet nevar piekļūt pakalpojumam Onboard vai Attract"
+        - name: 'Lietotājs var piekļūt Human Resources, bet nevar piekļūt programmai Onboard vai Attract'
           href: user-access-core-hr.md
-        - name: Atskaišu veidošanas iespējas programmā Talent
-          href: talent-reporting-options.md
-        - name: Bieži uzdotie jautājumi par integrāciju
-          href: talent-FO-integration.md
         - name: Azure Active Directory lietotāji nav atrodami vadīklā Personu atlasītājs
           href: people-picker-user-not-found.md

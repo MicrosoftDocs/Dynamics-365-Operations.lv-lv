@@ -1,0 +1,531 @@
+- name: Dynamics 365 Human Resources
+  href: hr-welcome.md
+  items:
+    - name: Jaunumi
+      items:
+        - name: Jaunumi un izmaiņas programmā Human Resources
+          href: hr-admin-whats-new.md
+        - name: "2020.\_gada 7.\_februāris"
+          href: hr-whats-new-2020-02-07.md
+        - name: "2020.\_gada 3.\_februāris"
+          href: hr-whats-new-2020-02-03.md
+    - name: Administratora rokasgrāmata
+      items:
+        - name: Pārskats
+          href: hr-admin-overview.md
+        - name: Sistēmas prasības
+          href: hr-admin-system-requirements.md
+        - name: Instanču iestatīšana un pārvaldība
+          items:
+            - name: Human Resources nodrošināšana
+              href: hr-admin-setup-provision.md
+            - name: Instances kopēšana
+              href: hr-admin-setup-copy-instance.md
+            - name: Noņemt instanci
+              href: hr-admin-setup-remove-instance.md
+            - name: Procesa atjaunināšana
+              href: hr-admin-setup-update-process.md
+        - name: Datu integrācijas iestatīšana
+          items:
+            - name: Izvēlēties datu integrācijas tehnoloģiju
+              href: hr-admin-integration-choose-technology.md
+            - name: Common Data Service integrācijas konfigurēšana
+              href: hr-admin-integration-common-data-service.md
+            - name: Common Data Service entītijas
+              href: hr-developer-entities.md
+            - name: Integrācijas konfigurēšana ar Finance
+              href: hr-admin-integration-finance.md
+            - name: Integrācijas konfigurēšana ar Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: Izveidot periodiskas datu eksportēšanas programmu
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Integrācija ar Office
+              items:
+                - name: Office integrēšanas apmācība
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Elementa datu atjaunināšana programmā Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Atvēršanas Excel programmā pieredzes izveide
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Office integrācijas problēmu novēršana
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Līdzekļu pārvaldība
+          href: hr-admin-manage-features.md
+        - name: Lietotāja interfeisa izpēte
+          items:
+            - name: Lietotāja interfeisa elementi
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Pieejamības līdzekļi
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: Līdzekļu pārvaldības pārskats
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Bieži uzdotie jautājumi par klientu
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbību meklēšana
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Papildu filtrēšanas un vaicājumu sintakse
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: Konfigurēt un filtrēt darbvietas
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: 'Parādīt lapas blakus, izmantojot līdzekli Atvērt jaunā logā'
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: Īsinājumtaustiņi
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: Reklāmkarogu vai logotipu attēlu mainīšana juridiskajām personām
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: Navigācijas meklēšana
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Lietotāja pieredzes personalizēšana
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: Saglabātie skati
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: Pielāgotu lauku izveide un darbs ar tiem
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: PowerApps programmu iegulšana
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: Mainīt sesijas datumu
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: Lietotāja izvēlētās laika joslas iestatīšana
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: Pakalpojuma Lifecycle Services saprašana
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Dokumentācijas resursi
+          items:
+            - name: Palīdzības sistēma
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Savienojuma izveide ar palīdzības sistēmu
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: Savienojuma izveide ar pielāgotu palīdzības vietni
+              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Lauku aprakstu skatīšana un eksportēšana
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Uzdevuma reģistrētājs
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: 'Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju'
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Human Resources problēmu novēršana
+          items:
+            - name: Atbalsta saņemšana
+              href: hr-admin-troubleshooting-support.md
+            - name: Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: Analīzes pārskati netiek atjaunināti
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: Nevar izveidot vidi Power Apps administrēšanas centrā
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: Klienta atvienošanās
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: Izvairīties no teksta saīsināšanas pozīciju hierarhijā
+              href: hr-admin-troubleshooting-truncate.md
+            - name: Atlīdzības procesa palaišana
+              href: hr-admin-troubleshooting-compensation.md
+            - name: Uzdevuma ceļveža saglabāšana LCS
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: Piekļuve privātām adresēm atbilstoši drošības lomai
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: Human Resources netiek parādīta Dynamics 365 programmās
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: Pārskatu veidošanas opcijas
+              href: hr-admin-troubleshooting-reporting.md
+            - name: Bieži uzdotie jautājumi par integrāciju
+              href: hr-admin-troubleshooting-integration.md
+    - name: Izstrādātāja rokasgrāmata
+      items:
+        - name: Pārskats
+          href: hr-developer-overview.md
+        - name: Paplašināšana ar Power Apps un Power Automate
+          href: hr-developer-power-apps.md
+        - name: Common Data Service entītijas
+          href: hr-developer-entities.md
+        - name: Pielāgotie lauki
+          href: hr-developer-custom-fields.md
+        - name: Datu integrācijas iestatīšana
+          items:
+            - name: Izvēlēties datu integrācijas tehnoloģiju
+              href: hr-admin-integration-choose-technology.md
+            - name: Common Data Service integrācijas konfigurēšana
+              href: hr-admin-integration-common-data-service.md
+            - name: Integrācijas konfigurēšana ar Finance
+              href: hr-admin-integration-finance.md
+            - name: Integrācijas konfigurēšana ar Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: Izveidot periodiskas datu eksportēšanas programmu
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Integrācija ar Office
+              items:
+                - name: Office integrēšanas apmācība
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Elementa datu atjaunināšana programmā Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Atvēršanas Excel programmā pieredzes izveide
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Office integrācijas problēmu novēršana
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Elementa API atsauce
+          items:
+            - name: Autentifikācija
+              href: hr-developer-api-authentication.md
+            - name: Elementi
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests pārskats
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: Lietotāja rokasgrāmata
+      items:
+        - name: Pārskats
+          href: hr-hrpro-overview.md
+        - name: Human Resources iestatīšana
+          items:
+            - name: Konfigurēt personāla vadības parametrus
+              href: hr-setup-parameters.md
+            - name: Konfigurēt personāla vadības koplietotos parametrus
+              href: hr-setup-shared-parameters.md
+            - name: Iestatīt personāla vadības darbplūsmas
+              href: hr-setup-workflows.md
+            - name: Informācija par datuma un laika laukiem
+              href: hr-setup-date-time-fields.md
+        - name: Konfigurēt organizācijas iestatījumus
+          items:
+            - name: Organizācijas administrēšanas sākumlapa
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: Numuru sērijas
+              items:
+                - name: Pārskats par numuru sērijām
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Atsevišķu numuru sēriju iestatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Numuru sēriju iestatīšana, izmantojot vedni'
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: Organizācijas un organizāciju hierarhijas
+              items:
+                - name: Organizācijas un organizāciju hierarhiju pārskats
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: Organizācijas hierarhijas plānošana
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Organizācijas hierarhijas izveide
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot juridiskās personas
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: Pārvaldības struktūrvienību izveide
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: Globālā adrešu grāmata
+              items:
+                - name: Pārskats par globālo adrešu grāmatu
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Plāns globālajai adrešu grāmatai un citām adrešu grāmatām
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Globālās adrešu grāmatas konfigurēšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Bieži uzdotie jautājumi par adrešu grāmatām
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adrešu grāmatu konfigurēšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmas sistēma
+              items:
+                - name: Darbplūsmu sistēmas pārskats
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas sistēmas arhitektūra
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas elementi
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas darbības
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot darbplūsmas
+                  items:
+                    - name: Izveidot darbplūsmu pārskatu
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt darbplūsmas rekvizītus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt manuālus uzdevumus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt automatizētus uzdevumus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt apstiprinājuma procesus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt apstiprinājuma darbības
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt manuālus lēmumus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt nosacījuma lēmumus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt paralēlas aktivitātes
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt paralēlus zarus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurēt dokumenta rindas darbplūsmas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt darbplūsmas ziņojumu apstrādes pakešuzdevumu kā kritisku
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darba vienumu deleģēšana darbplūsmā
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas vēstures skatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Sistēmas konfigurēšana, lai sūtītu lietotājiem ar darbplūsmu saistītus e-pasta ziņojumus'
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas tipi
+                  items:
+                    - name: Notiek darbplūsmas tipa izveide
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbplūsmas tipa kontrolsaraksts
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Izveidot darbplūsmas kategoriju
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Izveidot vaicājumu darbplūsmas tipam
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Izveidot jaunu darbplūsmas tipu
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Izveidot darbplūsmas dokumenta klasi
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Izveidot SubmitToWorkflow klasi
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Darbplūsmas dokumenta klases saistīšana ar darbplūsmas tipu
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmu tipu pārskats
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: Bieži uzdotie jautājumi par darbplūsmām
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: Brīdinājumi
+              items:
+                - name: Pārskats par brīdinājumiem
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Brīdinājumu kārtulu veidošana
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: Brīdinājumu pakešveida apstrāde
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: Klienta brīdinājumu paziņojumi pa e-pastu
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: Elektroniskie paraksti
+              items:
+                - name: Elektronisko parakstu pārskats
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Elektronisko parakstu iestatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: Pieteikumu pārvaldība
+              items:
+                - name: Pārskats par pieteikumu pārvaldību
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Pieteikumu drošības, procesu un kategoriju plānošana'
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: Ierakstu veidnes
+              items:
+                - name: Ierakstu veidņu pārskats
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot ieraksta veidni
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Ieraksta veidnes izmantošana, lai izveidotu jaunu ierakstu'
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: Dokumentu pārvaldības konfigurēšana
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: E-pasta konfigurēšana un sūtīšana
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datuma/laika dati un laika joslas
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: Pārvaldīt personālu
+          items:
+            - name: Darbaspēka pārvaldība
+              href: hr-personnel-departments-jobs-positions.md
+            - name: Darba komponentu iestatīšana
+              href: hr-personnel-jobs.md
+            - name: Nodaļu definēšana
+              href: hr-personnel-define-departments.md
+            - name: Pievienot hierarhijai nodaļu
+              href: hr-personnel-add-department-hierarchy.md
+            - name: Darbu definēšana
+              href: hr-personnel-define-jobs.md
+            - name: Darba laika kalendāra izveide
+              href: hr-personnel-create-working-time-calendar.md
+            - name: Bieži uzdotie jautājumi par personāla darbībām
+              href: hr-personnel-actions-faq.md
+            - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
+              href: hr-workflow-manage-employee-information.md
+            - name: Amata pārskatu attiecību modificēšana
+              href: hr-personnel-modify-reporting-relationships-position.md
+            - name: Nodarbinātā informācijas ievade
+              href: hr-personnel-enter-worker-information.md
+            - name: Patapinātie krājumi nodarbinātajiem
+              href: hr-personnel-loan-item-worker.md
+            - name: Patapinājuma priekšmetu izveide
+              href: hr-personnel-create-loan-items.md
+            - name: Pārvaldīt patapinājuma priekšmetus
+              href: hr-personnel-loan-items.md
+            - name: Pēctecības plāna izstrāde
+              href: hr-personnel-develop-succession-plan.md
+            - name: Projekta grafiku ievade
+              href: hr-personnel-enter-project-timesheets.md
+            - name: Masveida darbā pieņemšanas projekti
+              href: hr-personnel-mass-hire-projects.md
+            - name: Masveida darbā pieņemšanas projekta izveide
+              href: hr-personnel-create-mass-hire-project.md
+            - name: Amatu iestatīšana
+              href: hr-personnel-set-up-positions.md
+            - name: Savainojumu un slimību informācijas iestatīšana
+              href: hr-personnel-set-up-injury-illness-information.md
+            - name: Darbinieku savainojumu un slimību informācijas uzturēšana
+              href: hr-personnel-maintain-employee-injury-illness-information.md
+        - name: Atlīdzības plānu iestatīšana
+          items:
+            - name: Pārskats par atlīdzības plāniem
+              href: hr-compensation-overview.md
+            - name: Atlīdzību režģu iestatīšana
+              href: hr-compensation-grids.md
+            - name: Atlīdzības organizācijas un plāna izstrāde
+              href: hr-compensation-structure.md
+            - name: Fiksētās atlīdzības plānu izveidošana
+              href: hr-compensation-fixed-plans.md
+            - name: Mainīgās atlīdzības plānu izveidošana
+              href: hr-compensation-variable-plans.md
+            - name: Darbinieku reģistrēšana fiksētās atlīdzības plānā
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: Darbinieku reģistrēšana mainīgās atlīdzības plānā
+              href: hr-compensation-enroll-employees-variable.md
+            - name: Atlīdzības procesa definēšana un rezultātu aprēķināšana
+              href: hr-compensation-define-process.md
+            - name: Atlīdzības plānu apstrāde
+              href: hr-compensation-process.md
+        - name: Pārvaldīt atvieglojumus
+          items:
+            - name: 'Priekšskatījuma līdzeklis: priekšrocību pārvaldība'
+              items:
+                - name: Atvieglojumu pārvaldības pārskats
+                  href: hr-benefits-management-overview.md
+                - name: Priekšrocību pārvaldības konfigurēšana
+                  items:
+                    - name: Iestatīt priekšrocību pārvaldības parametrus
+                      href: hr-benefits-setup-parameters.md
+                    - name: Konfigurēt piemērotības noteikumus un opcijas
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: Konfigurēt personīgās saziņas piemērotības opcijas
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: Izveidot seguma opcijas
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: Iestatīt maksājumu biežumu
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: Konfigurēt dzīves notikumu tipus
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: Izveidot plānu tipus
+                      href: hr-benefits-setup-plan-types.md
+                    - name: Iestatiet cēloņa kodus
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: Iestatīt pakāpju kodus
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: Konfigurēt likmes
+                      href: hr-benefits-setup-rates.md
+                    - name: Konfigurēt ieturējumus
+                      href: hr-benefits-setup-deductions.md
+                    - name: Konfigurēt gaidīšanas dienas
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: Konfigurēt gaidīšanas periodus
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: Iestatīt noapaļošanas noteikumus
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: Izveidot nodarbinātības kategorijas
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: Iestatīt nodarbinātības tipus
+                      href: hr-benefits-setup-employment-types.md
+                    - name: Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: Izveidot atvieglojumu plānus
+                  items:
+                    - name: Iestatīt atvieglojumu plānus
+                      href: hr-benefits-plans-setup.md
+                    - name: Izveidot darbinieku atvieglojumu plānus
+                      href: hr-benefits-plans-worker.md
+                    - name: Iestatīt brīvā režīma kredīta programmas
+                      href: hr-benefits-plans-flex-credit-programs.md
+                    - name: Konfigurēt nākotnes dzīves notikumus
+                      href: hr-benefits-plans-future-life-events.md
+                - name: Apstrādāt atvieglojumu plānus
+                  items:
+                    - name: Procesa reģistrācijas piemērojamība
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: Apstrādāt dzīves notikumus
+                      href: hr-benefits-process-life-events.md
+                    - name: Apstrādāt dzīves notikumu izmaiņas
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: Apstrādāt dzīves notikumu piemērotību
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: Apstrādāt likmju izmaiņas
+                      href: hr-benefits-process-rate-changes.md
+            - name: Atvieglojumu programmas definēšana un pārvaldība
+              href: hr-benefits-manage-program.md
+            - name: Atvieglojumu piemērojamības politikas
+              href: hr-benefits-eligibility-policies.md
+            - name: Atvieglojumu piemērojamības apstrāde
+              href: hr-benefits-eligibility-process.md
+            - name: Atvieglojumu piemērotības kārtulu un ierobežojumu definēšana
+              href: hr-benefits-define-eligibility-rules.md
+            - name: Darbinieku atvieglojumu programmas nodrošināšana
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: Izveidot jaunus atvieglojumus
+              href: hr-benefits-create.md
+            - name: Reģistrēt nodarbinātos atvieglojumu saņemšanai
+              href: hr-benefits-enroll-workers.md
+            - name: Atvieglojumu piemērošanas beigu datumu pārvaldība
+              href: hr-benefits-expiration-dates.md
+            - name: "ACA\_pārskatu ģenerēšana"
+              href: hr-benefits-aca-reports.md
+        - name: Atvaļinājumu un kavējumu pārvaldība
+          items:
+            - name: Pārskats
+              href: hr-leave-and-absence-overview.md
+            - name: Konfigurēt atvaļinājumu un kavējumu parametrus
+              href: hr-leave-and-absence-parameters.md
+            - name: Darba laika kalendāra izveide
+              href: hr-leave-and-absence-working-time-calendar.md
+            - name: Atvaļinājuma pieprasījuma izveide darbplūsmai
+              href: hr-leave-and-absence-workflow.md
+            - name: Konfigurēt atvaļinājumu un kavējumu veidus
+              href: hr-leave-and-absence-types.md
+            - name: Izveidot atvaļinājumu un kavējuma plānu
+              href: hr-leave-and-absence-plans.md
+            - name: Piešķirt darbiniekus atvaļinājumu plānam
+              href: hr-leave-and-absence-enroll.md
+            - name: Uzkrāt atvaļinājumu un kavējumu plānus
+              href: hr-leave-and-absence-accrue.md
+            - name: Skatīt analīzi par atvaļinājumu un kavējumu
+              href: hr-leave-and-absence-analytics.md
+            - name: Atvaļinājumu un kavējumu pieprasījumu pārvaldība
+              href: hr-employee-self-service-manage-requests.md
+            - name: Pieprasīt prombūtni
+              href: hr-employee-self-service-request-time-off.md
+            - name: Skatīt grupas un uzņēmuma kalendārus
+              href: hr-employee-self-service-calendar.md
+        - name: Attīstīt darbiniekus
+          items:
+            - name: Veiktspējas pārvaldības pārskats
+              href: hr-develop-performance-management-overview.md
+            - name: Saskaņot darbaspēka prasmes
+              href: hr-develop-skills.md
+            - name: Pievienot jūsu veiktspējas žurnālam
+              href: hr-develop-add-performance-journal.md
+            - name: Mērķa izveide
+              href: hr-develop-create-goal.md
+            - name: Veiktspējas pārskata izveide
+              href: hr-develop-create-performance-review.md
+        - name: Izveidojiet kursus
+          items:
+            - name: Apmācību kursu iestatīšana
+              href: hr-learning-courses.md
+            - name: Anketu apskats
+              href: hr-learning-questionnaires.md
+            - name: Anketu projektēšana
+              href: hr-learning-design-questionnaires.md
+            - name: Anketu izplatīšana un plānošana
+              href: hr-learning-distribute-questionnaires.md
+            - name: 'Aptauju sadalīšana, izmantojot plānošanu'
+              href: hr-learning-distribute-questionnaires-scheduling.md
+            - name: Skatīt anketas rezultātus
+              href: hr-learning-evaluate-questionnaire-results.md
+            - name: Anketas rezultātu analīze
+              href: hr-learning-analyze-questionnaire-results.md
+            - name: Atvērta jautājuma izveide
+              href: hr-learning-create-open-ended-question.md
+            - name: Slēgta jautājuma izveide
+              href: hr-learning-create-closed-ended-question.md
+            - name: Izveidot pakārtotu jautājumu
+              href: hr-learning-depending-question.md

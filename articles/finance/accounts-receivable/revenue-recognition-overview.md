@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8743183c46463395cad3138261860442701e0178
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: c5a3a90b0065f8cd076117818df810cf10202d29
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781900"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030972"
 ---
 # <a name="revenue-recognition-overview"></a>Ieņēmumu atzīšanas pārskats
 
@@ -37,7 +37,7 @@ Parasti ieņēmumu atzīšanas procesu var izmantot, lai veiktu šos uzdevumus:
 * Sadalīt ieņēmumus, lai palīdzētu nodrošināt, ka tiek atzīta atbilstoša ieņēmumu cena, pamatojoties uz vairāku elementu pasūtījumos esošo komponentu vērtību.
 * Atlikt ieņēmumus, pamatojoties uz ieņēmumu grafiku, kas atspoguļo līguma termiņu un procentus ieņēmumu atpazīšanai laika gaitā.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44iER]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
 Video [Kā izmantot ieņēmumu atzīšanu programmā Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas ir pieejams vietnē YouTube.
 

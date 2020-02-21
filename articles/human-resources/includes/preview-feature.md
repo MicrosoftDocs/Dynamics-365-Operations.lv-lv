@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Šajā rakstā minēta funkcionalitāte ir pieejama kā publisks priekšskatījums jebkurā smilškastes vai izmēģinājuma vidē. Tā nav pieejama ražošanas vidēs. Saturs un funkcionalitāte var tikt mainīti. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļiem, skatiet sadaļu [Līdzekļu pārvaldība](../hr-admin-manage-features.md).
