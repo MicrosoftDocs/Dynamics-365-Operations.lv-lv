@@ -1,0 +1,9 @@
+## <a name="name-affixes-to-msdyn_nameaffixes"></a><span data-ttu-id="a6dfc-101">Nosaukuma afiksi uz msdyn_nameaffixes</span><span class="sxs-lookup"><span data-stu-id="a6dfc-101">Name affixes to msdyn_nameaffixes</span></span>
+
+<span data-ttu-id="a6dfc-102">Šī veidne sinhronizē datus starp Finance and Operations programmām un Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="a6dfc-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="a6dfc-103">Finance and Operations lauks</span><span class="sxs-lookup"><span data-stu-id="a6dfc-103">Finance and Operations field</span></span> | <span data-ttu-id="a6dfc-104">Kartes veids</span><span class="sxs-lookup"><span data-stu-id="a6dfc-104">Map type</span></span> | <span data-ttu-id="a6dfc-105">Cits Dynamics 365 lauks</span><span class="sxs-lookup"><span data-stu-id="a6dfc-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="a6dfc-106">Noklusējuma vērtība</span><span class="sxs-lookup"><span data-stu-id="a6dfc-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="a6dfc-107">AFIKSS</span><span class="sxs-lookup"><span data-stu-id="a6dfc-107">AFFIX</span></span> | = | <span data-ttu-id="a6dfc-108">msdyn_affix</span><span class="sxs-lookup"><span data-stu-id="a6dfc-108">msdyn_affix</span></span> | 
+<span data-ttu-id="a6dfc-109">VEIDS</span><span class="sxs-lookup"><span data-stu-id="a6dfc-109">TYPE</span></span> | >< | <span data-ttu-id="a6dfc-110">msdyn_affixtype</span><span class="sxs-lookup"><span data-stu-id="a6dfc-110">msdyn_affixtype</span></span> | 
+<span data-ttu-id="a6dfc-111">APRAKSTS</span><span class="sxs-lookup"><span data-stu-id="a6dfc-111">DESCRIPTION</span></span> | = | <span data-ttu-id="a6dfc-112">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="a6dfc-112">msdyn_description</span></span> | 

@@ -1,0 +1,8 @@
+## <a name="legal-entities-to-cdm_companies"></a><span data-ttu-id="ddbcb-101">Juridiskās personas uz cdm_companies</span><span class="sxs-lookup"><span data-stu-id="ddbcb-101">Legal entities to cdm_companies</span></span>
+
+<span data-ttu-id="ddbcb-102">Šī veidne sinhronizē datus starp Finance and Operations programmām un Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="ddbcb-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="ddbcb-103">Finance and Operations lauks</span><span class="sxs-lookup"><span data-stu-id="ddbcb-103">Finance and Operations field</span></span> | <span data-ttu-id="ddbcb-104">Kartes veids</span><span class="sxs-lookup"><span data-stu-id="ddbcb-104">Map type</span></span> | <span data-ttu-id="ddbcb-105">Cits Dynamics 365 lauks</span><span class="sxs-lookup"><span data-stu-id="ddbcb-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="ddbcb-106">Noklusējuma vērtība</span><span class="sxs-lookup"><span data-stu-id="ddbcb-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="ddbcb-107">NOSAUKUMS</span><span class="sxs-lookup"><span data-stu-id="ddbcb-107">NAME</span></span> | = | <span data-ttu-id="ddbcb-108">cdm_name</span><span class="sxs-lookup"><span data-stu-id="ddbcb-108">cdm_name</span></span> | 
+<span data-ttu-id="ddbcb-109">LEGALENTITYID</span><span class="sxs-lookup"><span data-stu-id="ddbcb-109">LEGALENTITYID</span></span> | = | <span data-ttu-id="ddbcb-110">cdm_companycode</span><span class="sxs-lookup"><span data-stu-id="ddbcb-110">cdm_companycode</span></span> | 

@@ -1,0 +1,2 @@
+ [!IMPORTANT]
+> <span data-ttu-id="e587b-101">Šajā tēmā minētā funkcionalitāte ir pieejama noteiktiem lietotājiem kā daļa no privātā priekšskatījuma laidiena.</span><span class="sxs-lookup"><span data-stu-id="e587b-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="e587b-102">Saturs un funkcionalitāte var tikt mainīti.</span><span class="sxs-lookup"><span data-stu-id="e587b-102">The content and the functionality are subject to change.</span></span> 

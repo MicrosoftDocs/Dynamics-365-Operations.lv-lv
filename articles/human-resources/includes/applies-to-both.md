@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="b2bb0-101">Šis raksts attiecas gan uz Dynamics 365 Human Resources, gan **personāla vadības** darbvietu pakalpojumā Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="b2bb0-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

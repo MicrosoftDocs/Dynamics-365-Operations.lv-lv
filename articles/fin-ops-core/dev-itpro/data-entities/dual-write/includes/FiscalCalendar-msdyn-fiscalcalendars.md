@@ -1,0 +1,8 @@
+## <a name="fiscal-calendar-integration-entity-to-msdyn_fiscalcalendars"></a><span data-ttu-id="32eca-101">Finanšu kalendāra integrācijas entītija uz msdyn_fiscalcalendars</span><span class="sxs-lookup"><span data-stu-id="32eca-101">Fiscal calendar integration entity to msdyn_fiscalcalendars</span></span>
+
+<span data-ttu-id="32eca-102">Šī veidne sinhronizē datus starp Finance and Operations programmām un Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="32eca-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="32eca-103">Finance and Operations lauks</span><span class="sxs-lookup"><span data-stu-id="32eca-103">Finance and Operations field</span></span> | <span data-ttu-id="32eca-104">Kartes veids</span><span class="sxs-lookup"><span data-stu-id="32eca-104">Map type</span></span> | <span data-ttu-id="32eca-105">Cits Dynamics 365 lauks</span><span class="sxs-lookup"><span data-stu-id="32eca-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="32eca-106">Noklusējuma vērtība</span><span class="sxs-lookup"><span data-stu-id="32eca-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="32eca-107">CALENDARID</span><span class="sxs-lookup"><span data-stu-id="32eca-107">CALENDARID</span></span> | = | <span data-ttu-id="32eca-108">msdyn_calendar</span><span class="sxs-lookup"><span data-stu-id="32eca-108">msdyn_calendar</span></span> | 
+<span data-ttu-id="32eca-109">APRAKSTS</span><span class="sxs-lookup"><span data-stu-id="32eca-109">DESCRIPTION</span></span> | = | <span data-ttu-id="32eca-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="32eca-110">msdyn_description</span></span> | 

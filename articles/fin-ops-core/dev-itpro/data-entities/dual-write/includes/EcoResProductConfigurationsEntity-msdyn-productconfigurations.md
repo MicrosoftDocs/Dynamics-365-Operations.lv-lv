@@ -1,0 +1,7 @@
+## <a name="configurations-to-msdyn_productconfigurations"></a><span data-ttu-id="0b1c1-101">Konfigurācijas uz msdyn_productconfigurations</span><span class="sxs-lookup"><span data-stu-id="0b1c1-101">Configurations to msdyn_productconfigurations</span></span>
+
+<span data-ttu-id="0b1c1-102">Šī veidne sinhronizē datus starp Finance and Operations programmām un Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="0b1c1-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="0b1c1-103">Finance and Operations lauks</span><span class="sxs-lookup"><span data-stu-id="0b1c1-103">Finance and Operations field</span></span> | <span data-ttu-id="0b1c1-104">Kartes veids</span><span class="sxs-lookup"><span data-stu-id="0b1c1-104">Map type</span></span> | <span data-ttu-id="0b1c1-105">Cits Dynamics 365 lauks</span><span class="sxs-lookup"><span data-stu-id="0b1c1-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="0b1c1-106">Noklusējuma vērtība</span><span class="sxs-lookup"><span data-stu-id="0b1c1-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="0b1c1-107">CONFIGURATIONID</span><span class="sxs-lookup"><span data-stu-id="0b1c1-107">CONFIGURATIONID</span></span> | >> | <span data-ttu-id="0b1c1-108">msdyn_productconfiguration</span><span class="sxs-lookup"><span data-stu-id="0b1c1-108">msdyn_productconfiguration</span></span> | 

@@ -1,0 +1,8 @@
+## <a name="payment-days-cds-to-msdyn_paymentdays"></a><span data-ttu-id="53ea0-101">Maksāšanas dienas CDS uz msdyn_paymentdays</span><span class="sxs-lookup"><span data-stu-id="53ea0-101">Payment days CDS to msdyn_paymentdays</span></span>
+
+<span data-ttu-id="53ea0-102">Šī veidne sinhronizē datus starp Finance and Operations programmām un Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="53ea0-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="53ea0-103">Finance and Operations lauks</span><span class="sxs-lookup"><span data-stu-id="53ea0-103">Finance and Operations field</span></span> | <span data-ttu-id="53ea0-104">Kartes veids</span><span class="sxs-lookup"><span data-stu-id="53ea0-104">Map type</span></span> | <span data-ttu-id="53ea0-105">Cits Dynamics 365 lauks</span><span class="sxs-lookup"><span data-stu-id="53ea0-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="53ea0-106">Noklusējuma vērtība</span><span class="sxs-lookup"><span data-stu-id="53ea0-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="53ea0-107">NOSAUKUMS</span><span class="sxs-lookup"><span data-stu-id="53ea0-107">NAME</span></span> | = | <span data-ttu-id="53ea0-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="53ea0-108">msdyn_name</span></span> | 
+<span data-ttu-id="53ea0-109">APRAKSTS</span><span class="sxs-lookup"><span data-stu-id="53ea0-109">DESCRIPTION</span></span> | = | <span data-ttu-id="53ea0-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="53ea0-110">msdyn_description</span></span> | 

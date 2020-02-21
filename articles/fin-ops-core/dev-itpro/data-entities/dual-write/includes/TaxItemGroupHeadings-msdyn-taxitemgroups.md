@@ -1,0 +1,8 @@
+## <a name="item-sales-tax-group-to-msdyn_taxitemgroups"></a><span data-ttu-id="7a31b-101">Krājumu PVN grupa uz msdyn_taxitemgroups</span><span class="sxs-lookup"><span data-stu-id="7a31b-101">Item sales tax group to msdyn_taxitemgroups</span></span>
+
+<span data-ttu-id="7a31b-102">Šī veidne sinhronizē datus starp Finance and Operations programmām un Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="7a31b-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="7a31b-103">Finance and Operations lauks</span><span class="sxs-lookup"><span data-stu-id="7a31b-103">Finance and Operations field</span></span> | <span data-ttu-id="7a31b-104">Kartes veids</span><span class="sxs-lookup"><span data-stu-id="7a31b-104">Map type</span></span> | <span data-ttu-id="7a31b-105">Cits Dynamics 365 lauks</span><span class="sxs-lookup"><span data-stu-id="7a31b-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="7a31b-106">Noklusējuma vērtība</span><span class="sxs-lookup"><span data-stu-id="7a31b-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="7a31b-107">TAXITEMGROUP</span><span class="sxs-lookup"><span data-stu-id="7a31b-107">TAXITEMGROUP</span></span> | = | <span data-ttu-id="7a31b-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="7a31b-108">msdyn_name</span></span> | 
+<span data-ttu-id="7a31b-109">NOSAUKUMS</span><span class="sxs-lookup"><span data-stu-id="7a31b-109">NAME</span></span> | = | <span data-ttu-id="7a31b-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="7a31b-110">msdyn_description</span></span> | 
