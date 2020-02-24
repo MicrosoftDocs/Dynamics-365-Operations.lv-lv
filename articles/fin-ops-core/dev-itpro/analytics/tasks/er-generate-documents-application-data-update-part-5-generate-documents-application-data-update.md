@@ -15,58 +15,58 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184880"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026067"
 ---
-# <a name="generate-documents-that-have-application-data"></a><span data-ttu-id="9f92f-103">Dokumentu ar programmas datiem ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="9f92f-103">Generate documents that have application data</span></span>
+# <a name="generate-documents-that-have-application-data"></a><span data-ttu-id="3e051-103">Dokumentu ar programmas datiem ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="3e051-103">Generate documents that have application data</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9f92f-104">Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (4. daļa — modificēt formātu)".</span><span class="sxs-lookup"><span data-stu-id="9f92f-104">To complete the steps in this procedure, you must first complete the procedure, “ER Generate documents with application data update (Part 4: Modify format)”.</span></span>
+<span data-ttu-id="3e051-104">Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (4. daļa — modificēt formātu)".</span><span class="sxs-lookup"><span data-stu-id="3e051-104">To complete the steps in this procedure, you must first complete the procedure, “ER Generate documents with application data update (Part 4: Modify format)”.</span></span>
 
 
 
-<span data-ttu-id="9f92f-105">Šajā procedūrā skaidrots, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu un atjauninātu pieteikuma datus.</span><span class="sxs-lookup"><span data-stu-id="9f92f-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="9f92f-106">Šajā procedūrā jums ir jāizpilda ER formāta konfigurācija, lai ģenerētu Intrastat pārskatu un atjauninātu pieteikumu datus detalizētas informācijas arhivēšanai par pārskatu veidošanas procesu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-106">In this procedure, you execute the ER format configuration to generate the Intrastat report and update application data for archiving details of the reporting process.</span></span>
+<span data-ttu-id="3e051-105">Šajā procedūrā skaidrots, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu un atjauninātu pieteikuma datus.</span><span class="sxs-lookup"><span data-stu-id="3e051-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="3e051-106">Šajā procedūrā jums ir jāizpilda ER formāta konfigurācija, lai ģenerētu Intrastat pārskatu un atjauninātu pieteikumu datus detalizētas informācijas arhivēšanai par pārskatu veidošanas procesu.</span><span class="sxs-lookup"><span data-stu-id="3e051-106">In this procedure, you execute the ER format configuration to generate the Intrastat report and update application data for archiving details of the reporting process.</span></span>
 
 
 
-<span data-ttu-id="9f92f-107">Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.</span><span class="sxs-lookup"><span data-stu-id="9f92f-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="9f92f-108">Šīs darbības var veikt, izmantojot DEMF datu kopu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-108">These steps can be completed using the DEMF dataset.</span></span> <span data-ttu-id="9f92f-109">Pirms sākat, pārliecinieties, vai valsts konteksts DEMF uzņēmumam ir BEL (Beļģija).</span><span class="sxs-lookup"><span data-stu-id="9f92f-109">Before you begin, make sure that the country context for the DEMF company is BEL (Belgium).</span></span>
+<span data-ttu-id="3e051-107">Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.</span><span class="sxs-lookup"><span data-stu-id="3e051-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="3e051-108">Šīs darbības var veikt, izmantojot DEMF datu kopu.</span><span class="sxs-lookup"><span data-stu-id="3e051-108">These steps can be completed using the DEMF dataset.</span></span> <span data-ttu-id="3e051-109">Pirms sākat, pārliecinieties, vai valsts konteksts DEMF uzņēmumam ir BEL (Beļģija).</span><span class="sxs-lookup"><span data-stu-id="3e051-109">Before you begin, make sure that the country context for the DEMF company is BEL (Belgium).</span></span>
 
 
-## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="9f92f-110">Iestatīt starptautiskās tirdzniecības parametrus</span><span class="sxs-lookup"><span data-stu-id="9f92f-110">Set up foreign trade parameters</span></span>
-1. <span data-ttu-id="9f92f-111">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="9f92f-111">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
-2. <span data-ttu-id="9f92f-112">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="9f92f-112">Click the Number sequences tab.</span></span>
-    * <span data-ttu-id="9f92f-113">Arhivējot detalizētu informāciju par Intrastat pārskatu veidošanas procesu, mums ir nepieciešams noteikt katra izveidotā arhīva ierakstus.</span><span class="sxs-lookup"><span data-stu-id="9f92f-113">Archiving details of Intrastat reporting process, we need to identify records of each archive we created.</span></span> <span data-ttu-id="9f92f-114">Šajā nolūkā ir jākonfigurē īpaša numuru sērija.</span><span class="sxs-lookup"><span data-stu-id="9f92f-114">A special number sequence must be configured for that.</span></span>  
-3. <span data-ttu-id="9f92f-115">Atlasiet atsauci "Intrastat archive ID".</span><span class="sxs-lookup"><span data-stu-id="9f92f-115">Select the ‘Intrastat archive ID’ reference.</span></span>
-4. <span data-ttu-id="9f92f-116">Laukā Numuru sērijas kods, ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="9f92f-116">In the Number sequence code field, type a value.</span></span>
-    * <span data-ttu-id="9f92f-117">Laukā Numuru sērijas kods ievadiet vai atlasiet vērtību "Fore_2".</span><span class="sxs-lookup"><span data-stu-id="9f92f-117">In the ‘Number sequence code’ field, enter or select the value ‘Fore_2’.</span></span>  
-5. <span data-ttu-id="9f92f-118">ResolveChanges Numuru sērijas kods.</span><span class="sxs-lookup"><span data-stu-id="9f92f-118">ResolveChanges the Number sequence code.</span></span>
-6. <span data-ttu-id="9f92f-119">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="9f92f-119">Click Save.</span></span>
-7. <span data-ttu-id="9f92f-120">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-120">Close the page.</span></span>
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="3e051-110">Iestatīt starptautiskās tirdzniecības parametrus</span><span class="sxs-lookup"><span data-stu-id="3e051-110">Set up foreign trade parameters</span></span>
+1. <span data-ttu-id="3e051-111">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="3e051-111">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+2. <span data-ttu-id="3e051-112">Noklikšķiniet uz cilnes Numuru sērijas.</span><span class="sxs-lookup"><span data-stu-id="3e051-112">Click the Number sequences tab.</span></span>
+    * <span data-ttu-id="3e051-113">Arhivējot detalizētu informāciju par Intrastat pārskatu veidošanas procesu, mums ir nepieciešams noteikt katra izveidotā arhīva ierakstus.</span><span class="sxs-lookup"><span data-stu-id="3e051-113">Archiving details of Intrastat reporting process, we need to identify records of each archive we created.</span></span> <span data-ttu-id="3e051-114">Šajā nolūkā ir jākonfigurē īpaša numuru sērija.</span><span class="sxs-lookup"><span data-stu-id="3e051-114">A special number sequence must be configured for that.</span></span>  
+3. <span data-ttu-id="3e051-115">Atlasiet atsauci "Intrastat archive ID".</span><span class="sxs-lookup"><span data-stu-id="3e051-115">Select the ‘Intrastat archive ID’ reference.</span></span>
+4. <span data-ttu-id="3e051-116">Laukā Numuru sērijas kods, ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="3e051-116">In the Number sequence code field, type a value.</span></span>
+    * <span data-ttu-id="3e051-117">Laukā Numuru sērijas kods ievadiet vai atlasiet vērtību "Fore_2".</span><span class="sxs-lookup"><span data-stu-id="3e051-117">In the ‘Number sequence code’ field, enter or select the value ‘Fore_2’.</span></span>  
+5. <span data-ttu-id="3e051-118">ResolveChanges Numuru sērijas kods.</span><span class="sxs-lookup"><span data-stu-id="3e051-118">ResolveChanges the Number sequence code.</span></span>
+6. <span data-ttu-id="3e051-119">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3e051-119">Click Save.</span></span>
+7. <span data-ttu-id="3e051-120">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e051-120">Close the page.</span></span>
 
-## <a name="run-modified-er-format"></a><span data-ttu-id="9f92f-121">Modificētā ER formāta palaišana</span><span class="sxs-lookup"><span data-stu-id="9f92f-121">Run modified ER format</span></span>
-1. <span data-ttu-id="9f92f-122">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="9f92f-122">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="9f92f-123">Kokā izvērsiet "Intrastat (model)".</span><span class="sxs-lookup"><span data-stu-id="9f92f-123">In the tree, expand 'Intrastat (model)'.</span></span>
-3. <span data-ttu-id="9f92f-124">Kokā atlasiet "Intrastat (model)\Intrastat (format)".</span><span class="sxs-lookup"><span data-stu-id="9f92f-124">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
-4. <span data-ttu-id="9f92f-125">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="9f92f-125">Click Run.</span></span>
-5. <span data-ttu-id="9f92f-126">Laukā Ievadiet faila nosaukumu ierakstiet "intrastat2.xml".</span><span class="sxs-lookup"><span data-stu-id="9f92f-126">In the Enter file name field, type 'intrastat2.xml'.</span></span>
-    * <span data-ttu-id="9f92f-127">intrastat2.xml</span><span class="sxs-lookup"><span data-stu-id="9f92f-127">intrastat2.xml</span></span>  
-6. <span data-ttu-id="9f92f-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="9f92f-128">Click OK.</span></span>
+## <a name="run-modified-er-format"></a><span data-ttu-id="3e051-121">Modificētā ER formāta palaišana</span><span class="sxs-lookup"><span data-stu-id="3e051-121">Run modified ER format</span></span>
+1. <span data-ttu-id="3e051-122">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="3e051-122">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="3e051-123">Kokā izvērsiet "Intrastat (model)".</span><span class="sxs-lookup"><span data-stu-id="3e051-123">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="3e051-124">Kokā atlasiet "Intrastat (model)\Intrastat (format)".</span><span class="sxs-lookup"><span data-stu-id="3e051-124">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="3e051-125">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="3e051-125">Click Run.</span></span>
+5. <span data-ttu-id="3e051-126">Laukā Ievadiet faila nosaukumu ierakstiet "intrastat2.xml".</span><span class="sxs-lookup"><span data-stu-id="3e051-126">In the Enter file name field, type 'intrastat2.xml'.</span></span>
+    * <span data-ttu-id="3e051-127">intrastat2.xml</span><span class="sxs-lookup"><span data-stu-id="3e051-127">intrastat2.xml</span></span>  
+6. <span data-ttu-id="3e051-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="3e051-128">Click OK.</span></span>
 
-## <a name="review-er-format-executions-results"></a><span data-ttu-id="9f92f-129">ER formāta izpildes rezultātu pārskatīšana</span><span class="sxs-lookup"><span data-stu-id="9f92f-129">Review ER format execution’s results</span></span>
-    * <span data-ttu-id="9f92f-130">Pārskatiet ģenerēto XML failu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-130">Review the generated XML file.</span></span>  
-1. <span data-ttu-id="9f92f-131">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-131">Close the page.</span></span>
-2. <span data-ttu-id="9f92f-132">Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="9f92f-132">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-    * <span data-ttu-id="9f92f-133">Atveriet šo formu, kas satur Intrastat darbības, kuras iekļautas ģenerētajā elektroniskajā dokumentā.</span><span class="sxs-lookup"><span data-stu-id="9f92f-133">Open this form containing Intrastat transactions that have been included to the generated electronic document.</span></span>  
-3. <span data-ttu-id="9f92f-134">Noklikšķiniet uz Intrastat arhīva.</span><span class="sxs-lookup"><span data-stu-id="9f92f-134">Click Intrastat archive.</span></span>
-    * <span data-ttu-id="9f92f-135">Detalizēta informācija par pabeigtu Intrastat pārskatu tika arhivēta, jo izpildītais ER formāts tagad satur iestatījumus pieteikumu datu atjaunināšanai.</span><span class="sxs-lookup"><span data-stu-id="9f92f-135">Since the executed ER format contains now settings for application data update, the details of the completed Intrastat reporting have been archived.</span></span> <span data-ttu-id="9f92f-136">Šajā formā varat redzēt izveidotā arhīva galvenes ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-136">In this form, you can see the header record of the created archive.</span></span>  
-4. <span data-ttu-id="9f92f-137">Noklikšķiniet uz Detaļas.</span><span class="sxs-lookup"><span data-stu-id="9f92f-137">Click Details.</span></span>
-    * <span data-ttu-id="9f92f-138">Šajā formā varat redzēt detalizētu informāciju par izveidoto arhīvu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-138">In this form, you can see the details for the created archive.</span></span>  
-5. <span data-ttu-id="9f92f-139">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-139">Close the page.</span></span>
-6. <span data-ttu-id="9f92f-140">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-140">Close the page.</span></span>
-7. <span data-ttu-id="9f92f-141">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9f92f-141">Close the page.</span></span>
+## <a name="review-er-format-executions-results"></a><span data-ttu-id="3e051-129">ER formāta izpildes rezultātu pārskatīšana</span><span class="sxs-lookup"><span data-stu-id="3e051-129">Review ER format execution’s results</span></span>
+<span data-ttu-id="3e051-130">Pārskatiet ģenerēto XML failu.</span><span class="sxs-lookup"><span data-stu-id="3e051-130">Review the generated XML file.</span></span>  
+1. <span data-ttu-id="3e051-131">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e051-131">Close the page.</span></span>
+2. <span data-ttu-id="3e051-132">Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="3e051-132">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+    * <span data-ttu-id="3e051-133">Atveriet šo formu, kas satur Intrastat darbības, kuras iekļautas ģenerētajā elektroniskajā dokumentā.</span><span class="sxs-lookup"><span data-stu-id="3e051-133">Open this form containing Intrastat transactions that have been included to the generated electronic document.</span></span>  
+3. <span data-ttu-id="3e051-134">Noklikšķiniet uz Intrastat arhīva.</span><span class="sxs-lookup"><span data-stu-id="3e051-134">Click Intrastat archive.</span></span>
+    * <span data-ttu-id="3e051-135">Detalizēta informācija par pabeigtu Intrastat pārskatu tika arhivēta, jo izpildītais ER formāts tagad satur iestatījumus pieteikumu datu atjaunināšanai.</span><span class="sxs-lookup"><span data-stu-id="3e051-135">Since the executed ER format contains now settings for application data update, the details of the completed Intrastat reporting have been archived.</span></span> <span data-ttu-id="3e051-136">Šajā formā varat redzēt izveidotā arhīva galvenes ierakstu.</span><span class="sxs-lookup"><span data-stu-id="3e051-136">In this form, you can see the header record of the created archive.</span></span>  
+4. <span data-ttu-id="3e051-137">Noklikšķiniet uz Detaļas.</span><span class="sxs-lookup"><span data-stu-id="3e051-137">Click Details.</span></span>
+    * <span data-ttu-id="3e051-138">Šajā formā varat redzēt detalizētu informāciju par izveidoto arhīvu.</span><span class="sxs-lookup"><span data-stu-id="3e051-138">In this form, you can see the details for the created archive.</span></span>  
+5. <span data-ttu-id="3e051-139">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e051-139">Close the page.</span></span>
+6. <span data-ttu-id="3e051-140">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e051-140">Close the page.</span></span>
+7. <span data-ttu-id="3e051-141">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3e051-141">Close the page.</span></span>
 
