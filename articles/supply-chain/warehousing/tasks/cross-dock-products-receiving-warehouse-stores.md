@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563393"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004092"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
 
@@ -31,7 +31,7 @@ ms.locfileid: "1563393"
 
 1. Dodieties uz Visi pirkšanas pasūtījumi.
 2. Sarakstā atlasiet pirkšanas pasūtījumu un noklikšķiniet uz saites, lai atvērtu pasūtījumu.
-3. Darbību rūtī noklikšķiniet uz Mazumtirdzniecība.
+3. Darbību rūtī noklikšķiniet uz Retail un Commerce.
 4. Noklikšķiniet uz Pārkraušana sadales centrā.
 5. Noklikšķiniet uz Rediģēt.
     * Kategoriju var izmantot, lai filtrētu krājumus sadaļā Rindas.  

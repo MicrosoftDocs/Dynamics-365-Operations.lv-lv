@@ -3,7 +3,7 @@ title: Krājumu bloķēšana
 description: Šajā tēmā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814379"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971491"
 ---
-# <a name="inventory-blocking"></a>Krājumu aizturēšana
+# <a name="inventory-blocking"></a>Krājumu bloķēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
+Šajā tēmā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 
 Varat bloķēt krājumu vienības tālāk norādītajos veidos.
 -   Manuāli
@@ -43,6 +43,9 @@ Varat aizturēt noteiktu krājuma daudzumu, izveidojot transakciju lapā **Krāj
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Krājumu aizturēšana, izveidojot kvalitātes pārbaudes pasūtījumu
 Var norādīt krājumus, kas ir jāpārbauda, izveidojot kvalitātes pārbaudes pasūtījumu lapā **Kvalitātes pasūtījumi**. Izveidojot kvalitātes pārbaudes pasūtījumu, tiek aizturēts norādītais krājuma daudzums. Ar kvalitātes pārbaudes pasūtījumu saistītais paraugu ņemšanas plāns nosaka tikai pārbaudāmo krājumu daudzumu, nevis aizturēto daudzumu. Kvalitātes pārbaudes pasūtījumā ievadītais daudzums ir aizturētais daudzums neatkarīgi no daudzuma, kas saskaņā ar paraugu ņemšanas plānu ir jānosūta pārbaudei.
+
+> [!NOTE]
+> Vispārējā plānošanā netiek atbalstīta gan partijas beigu datuma, gan bloķēšanas krājumu statusa funkciju izmantošana. Tas var novest pie rīcībā esošo krājumu dubultas izslēgšanas, kas var notikt vispārējās plānošanas laikā. Ieteicams paļauties uz partijas atgriešanas kodiem, nevis krājumu statusu, lai bloķētu partijas ar beigušos derīgumu.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Krājumu aizturēšana, izmantojot procesu, kas ģenerē kvalitātes pārbaudes pasūtījumu
 Ja kvalitātes pārbaudes procesā ir norādīts, ka krājums ir jāpārbauda, tiek automātiski aizturēts attiecīgs krājuma daudzums. Tāpēc, kad tiek automātiski ģenerēts kvalitātes pārbaudes pasūtījums, ar kvalitātes pārbaudes pasūtījumu saistītais krājuma paraugu ņemšanas plāns nosaka gan aizturēto krājumu daudzumu, gan pārbaudāmo daudzumu. Ja lapā **Krājumu iztveršana** ir atlasīta opcija **Pilna aizturēšana**, pārbaudes laikā tiek aizturēts viss, piemēram, pirkšanas pasūtījuma daudzums neatkarīgi no krājuma paraugu ņemšanas daudzuma.

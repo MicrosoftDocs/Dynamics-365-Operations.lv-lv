@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697938"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003238"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Preču ieteikumu iegūšana, izmantojot demonstrācijas datus
 Šis dokuments sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
@@ -39,7 +39,7 @@ Daudzkanālu preces ieteikumi sniedz redakcionāli pārraudzītu vai programmisk
 Lai iespējotu preču ieteikumu demonstrācijas datus, ir jāizvieto Dynamics 365 Commerce priekšskatījuma demonstrācijas paplašinājums attiecīgajai videi. Tas automātiski iespējo preces ieteikumu demonstrācijas datus.
 
 ## <a name="default-demo-data"></a>Noklusējuma demonstrācijas dati
-Katrai Onebox veida videi komplektā ir ietverts iepriekš ielādēts preces ieteikumu demonstrācijas datu kopums, kas tiek glabāts ar komatu atdalītā ‘reco_demo_data.csv’ failā, kas atrodas Retail serverī.
+Katrai Onebox veida videi komplektā ir ietverts iepriekš ielādēts preces ieteikumu demonstrācijas datu kopums, kas tiek glabāts ar komatu atdalītā ‘reco_demo_data.csv’ failā, kas atrodas Commerce Scale Unit.
 
 Dati ir strukturēti tālāk redzamajās kolonnās.
 

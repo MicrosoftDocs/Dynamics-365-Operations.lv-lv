@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 Finance normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 01/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc919d232f0e4f0cfbab372b9fdded2657906a1d
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: d596a543ca8aacc2c6530672111001a9dd161aa7
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934681"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000005"
 ---
 # <a name="regulatory-updates"></a>Normatīvie atjauninājumi
 
@@ -40,44 +40,41 @@ Reglamentējošie atjauninājumi, kas tiek izlaisti kā daļa no mēneša atjaun
 
 Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākamajā tabulā.   
 
-|Plānotais izlaides datums|Partijas versija|Valsts/reģions|Normatīvais atjauninājums|
+|Valsts/reģions|Plānotais izlaides datums|Partijas versija|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
-|      Brazīlija        |   2019. decembris       | 10.0.8      |   Sped fiskālais izkārtojums 014 |
-|      Brazīlija         |   Novembris-Augusts 2019       | 10.0.7, 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.20    |
-|      Brazīlija          |   Novembris-Augusts 2019       | 10.0.7, 10.0.6      |   DRCST deklarācija SC   |
-|      Brazīlija         |   2019. gada augusts       | 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.10    |
-|      Brazīlija          |   2019. gada augusts      | 10.0.6HF, 10.0.5HF, 10.0.4HF     |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.10    |
-|      Brazīlija          |   2019. gada augusts      | 10.0.6, 10.0.5HF     |   Jauni tiesību akti ir īstenoti ar RJ valsti saistībā ar EFD-ICMS/IPI. Riodežaneiro (RJ) 13/19 Rīkojuma ieviešana ir paredzēta "Īpašas procedūras, kas jāpiemēro Atbrīvošanai     |
-|      Brazīlija          |   2019. gada augusts      | 10.0.6        |   Nodokļa deklarācija CAT 42/18    |
-|      Brazīlija          |   2019. gada jūlijs     | 10.0.5, 10.0.4HF, 10.0.2HF      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.00  |
-|      Brazīlija          |   2019. gada jūlijs     | 10.0.5      |   Sped ieguldījumu praktiskā rokasgrāmata 1.31. jauni norādījumi    |
-|      Brazīlija          |   20191. maijs     | 10.0.4      |   Ienākošais finanšu dokuments 66    |
-|      Brazīlija          |   2019. maijs      | 10.0.4      |   NF-e dekrēts 54.308/18 - RS    |
-|      Brazīlija          |   2019. maijs      | 10.0.4      |   NF-e un NFC-e - rezolūcija 13/2019 un valdības rīkojums SUCIEF 55/2019- RJ - jauni nosacījumi neapliekamo summu tagu izvadei ar NF-e    |
-|      Indija          |   2019. gada augusts     | 10.0.6       |   Mazumtirdzniecība: Indijai paredzēta klientu reģistrācijas numuru pārvaldība no POS    |
-|      Indija          |   2019. maijs     | 10.0.4      |   Vienumu “Piegādes vieta” un “Štats” rādīšana GST nodokļu rēķinā    |
-|      Itālija          |   2019. decembris       | 10.0.8      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23, 2018. gada oktobris: ikgadējā nodokļu komunikācija |
-|      Itālija         |   2019. gada novembris       | 10.0.7      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23 okt. 2019: ceturkšņa PVN paziņojums ("Lipe 2018")    |
-|      Itālija         |   2019. gada novembris     | 10.0.7      |   Mazumtirdzniecība - Debitoru informācijas pārvaldīšana POS |
-|      Itālija         |   2019. gada novembris      | 10.0.7      |   Mazumtirdzniecība - debitora informācijas drukāšana nodokļu kvītī |
-|      Itālija         |   Novembris-Augusts 2019     | 10.0.7, 10.0.6      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23 okt. 2018-Dynamics 365 for Finance and Operations  |
-|      Itālija          |   2019. gada augusts      | 10.0.6      |   PVN reģistra datums    |
-|      Itālija          |   2019. gada augusts     | 10.0.6      |   PVN pārvaldība pēc PVN reģistra datuma    |
-|      Japāna          |   Decembris — 2019. gada novembris     | 10.0.8, 10.0.7HF       |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme (patēriņa nodokļa pārskats) |
-|      Japāna         |   2019. gada novembris      | 10.0.7       |   Tiek ieviesta patēriņa likmes maiņa un samazināta nodokļa likme (rēķina izkārtojumi) |
-|      Japāna          |   2019. gada novembris     | 10.0.6HF     |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme (patēriņa nodokļa pārskats)  |
-|      Japāna          |   2019. gada augusts      | 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme    |
-|      Meksika          |   Decembris — 2019. gada oktobris    | 10.0.8, 10.0.7HF, 10.0.6HF        |   Mazumtirdzniecība — globālais CFDI: dažādi 2019. gada nolēmumi — c_CodigoPostal un laika josla |
-|     Meksika          |   Novembris — 2019. gada septembris       | 10.0.7, 10.0.6HF      |   Noteikuma 2.7.2.9 atjaunināšana - izmantojot CFDI dokumenta izdošanas uzņēmuma pasta indeksa laika joslu |
-|      Meksika           |   Decembris — 2019. gada oktobris      | 10.0.8, 10.0.7HF, 10.0.6HF     |   Koda validācija preču un pakalpojumu katalogā |
-|      Meksika         |   2019. gada jūlijs     | 10.0.5      |   MX -CFDI 3.3 - IEPS nodokļu transakciju informācijai XML formātā ir jābūt neobligātai atkarībā no debitora profila    |
-|      Meksika          |   2019. maijs     | 10.0.4      |   DIOT trešās puses deklarācija — izmaiņas izkārtojumā 2019    |
-|      Polija          |   Novembris — 2019. gada oktobris     | 10.0.7, 10.0.6HF Polija     |   Obligāts dalītais maksājums — 10.0.7 |
-|      Singapūra           |   2019. decembris     | 10.0.7      |   GST atgriešanas pārskats |
-|      Spānija          |   2019. gada augusts - jūlijs      | 10.0.5, 10.0.4HF      |   Spānija: SII: Validācijas kārtulas mainās no 2019. gada 1. oktobra    |
-|      Apvienotā Karaliste          |   2019. decembris       | 10.0.8      |   Nodokļu digitalizēšana (Making Tax Digital — MTD) — sistēmas administratora piekrišana pārsūtīt informāciju ārpus D365, izmantojot integrāciju ar Apvienotās Karalistes nodokļu un muitas administrāciju (HMRC) |
-|      Apvienotā Karaliste          |   2019. gada novembris     | 10.0.7     |   Nodokļu digitalizēšana - PVN atgriešanas pārskata izveide uzņēmumiem, kas ziņo par PVN grupu tajā pašā sistēmas datu bāzē v.10 |
-|      Apvienotā Karaliste          |   2019. gada jūnijs - jūlijs      | 10.0.5     |   Nodokļu digitalizēšana — krāpniecības novēršanas parametri par sākotnējo ierīci — 10.0.5    |
+|      Brazīlija         |   2020. marts       | 10.0.9      |   SPED fiskālā - izmaiņas ieraksta D100 laukā COD_MUN_ORI    |
+|      Brazīlija         |   2020. gada marts - 2019. gada decembris       | 10.0.9, 10.0.8, 10.0.7 HF      |   DRCST SC — rīkojuma SEF Nr. 254/19    |
+|      Brazīlija         |   2020. gada janvāris — 2019. gada decembris       | 10.0.8, 10.0.7HF      |   Papildu informācija par ICMS-ST    |
+|      Brazīlija        |   2020. gada marts - 2019. gada decembris       | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   Sped fiskālais izkārtojums 014 |
+|      Brazīlija         |   2019. decembris       | 10.0.7      |   Jauna tehnisko piezīmju versija NF-e: NT 2019.001 Versija 1.20    |
+|      Brazīlija         |   2019. decembris       | 10.0.7      |   DRCST deklarācija SC    |
+|      Brazīlija          |   2020. gada marts - 2020. gada janvāris       | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   DRCST SC — rīkojuma SEF Nr. 343DR   |
+|      Francija          |   2020. marts       | 10.0.9      |   Franču lokalizācija: ISO 20022 formāts starptautiskajiem maksājumiem un kases pārskaitījumiem   |
+|      Indija          |   2020. marts       | 10.0.9      |   Jauns GSTR (ANX-1 & ANX-2) atgriešanas bezsaistes rīks   |
+|      Itālija          |   2020. janvāris       | 10.0.8      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23, 2018. gada oktobris: ikgadējā nodokļu komunikācija |
+|      Itālija         |   2019. decembris       | 10.0.7      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 23 okt. 2019: ceturkšņa PVN paziņojums ("Lipe 2018")    |
+|      Itālija         |   2020. gada marts - 2019. gada decembris     | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   Mazumtirdzniecība - Debitoru informācijas pārvaldīšana POS |
+|      Itālija         |   2020. gada marts - 2019. gada decembris      | 10.0.9, 10.0.8HF, 10.0.7HF      |   Mazumtirdzniecība - debitora informācijas drukāšana nodokļu kvītī |
+|      Itālija         |   2019. decembris     | 10.0.7      |   Izmaiņas PVN pārvaldībā pēc D.L. 119 no 2018. gada 23. oktobra: Rēķinu saziņa  |
+|      Japāna          |   2020. gada marts - 2019. gada decembris     | 10.0.9, 10.0.8HF, 10.0.7HF     |   Japānas Baņķieru asociācija aizvieto JBA fiksēta garuma maksājuma formātus ar ISO20022 |
+|      Japāna          |   2020. gada janvāris — 2019. gada decembris     | 10.0.8, 10.0.7HF       |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme (patēriņa nodokļa pārskats) |
+|      Japāna         |   2019. decembris      | 10.0.7       |   Tiek ieviesta patēriņa likmes maiņa un samazināta nodokļa likme (rēķina izkārtojumi) |
+|      Meksika          |   2020. gada janvāris — 2019. gada decembris    | 10.0.8, 10.0.7HF        |   Mazumtirdzniecība — globālais CFDI: dažādi 2019. gada nolēmumi — c_CodigoPostal un laika josla |
+|     Meksika          |   2019. decembris       | 10.0.7      |   Noteikuma 2.7.2.9 atjaunināšana - izmantojot CFDI dokumenta izdošanas uzņēmuma pasta indeksa laika joslu |
+|      Meksika           |   2020. gada janvāris — 2019. gada decembris      | 10.0.8, 10.0.7HF     |   Koda validācija preču un pakalpojumu katalogā |
+|      Norvēģija          |   2020. gada marts - 2019. gada decembris   | 10.0.9, 10.0.8HF, 10.7.7HF     |   SAF-T XSD atjauninājums uz versiju 1.1 pakalpojumam Dynamics 365 for Finance and Operations |
+|      Polija          |   2020. marts    | 10.0.9     |   Pirkšanas PVN reģistrs un SAF PVN reģistrs: pielāgotā aģentūra no VAD dokumentiem ir jāaizstāj ar trešās puses nosaukumu un PVN reģistrācijas numuru |
+|      Polija          |   2020. gada marts - 2020. gada janvāris   | 10.0.9, 10.0.8HF     |   Mazumtirdzniecība - Debitoru informācijas pārvaldīšana POS |
+|      Polija          |   2020. gada marts - 2020. gada janvāris     | 10.0.9, 10.0.8HF     |   Mazumtirdzniecība - debitora informācijas drukāšana nodokļu kvītī |
+|      Polija          |   2020. gada marts - 2019. gada decembris     | 10.0.9, 10.0.8, 10.0.7     |   SAF rēķini (JPK_FA) v.3 no 2019. gada 2. decembra |
+|      Polija          |   2020. gada marts - 2019. gada janvāris     | 10.0.9, 10.0.8     |   JPK_VDEK aizstāj JPK_VAT (SAF PVN) |
+|      Polija          |   2019. decembris     | 10.0.7     |   Obligāts dalītais maksājums |
+|      Krievija          |   2020. marts     | 10.0.9     |   Īpašuma nodokļa deklarācijas formāts 2019. gada pārskatam |
+|      Krievija          |   2020. marts     | 10.0.9     |   Peļņas nodokļu deklarācijas formāta atjauninājumi |
+|      Singapūra           |   2020. gada janvāris — 2019. gada decembris     | 10.0.8, 10.0.7HF      |   GST atgriešanas pārskats |
+|      Šveice           |   2020. marts     | 10.0.9      |   Šveices maksājumu pavadzīmes ISR iegūst jaunu formātu (QR-kods) |
+|      Apvienotā Karaliste          |   2020. janvāris       | 10.0.8      |   Nodokļu digitalizēšana (Making Tax Digital — MTD) — sistēmas administratora piekrišana pārsūtīt informāciju ārpus D365, izmantojot integrāciju ar Apvienotās Karalistes nodokļu un muitas administrāciju (HMRC) |
+|      Apvienotā Karaliste          |   2019. decembris     | 10.0.7     |   Nodokļu digitalizēšana - PVN atgriešanas pārskata izveide uzņēmumiem, kas ziņo par PVN grupu tajā pašā sistēmas datu bāzē v.10 |
 
 
 

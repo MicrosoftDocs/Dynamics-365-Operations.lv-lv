@@ -3,7 +3,7 @@ title: Container modulis
 description: Šajā tēmā tiek stāstīts par konteinera moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697064"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025532"
 ---
 # <a name="container-module"></a>Container modulis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā tiek stāstīts par konteinera moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Konteinera modulis ir modulis, kas vieso citus moduļus. Tas ir vispārīgākais konteiners, kas tiek izmantots programmā Dynamics 365 Commerce. Konteinera moduļa galvenais nolūks ir definēt, izmantojot tam iestatītos rekvizītus, iekšā esošo moduļu izkārtojumu. Piemēram, šie moduļi var parādīties blakus divu kolonnu, trīs kolonnu, četru kolonnu vai sešu kolonnu izkārtojumā. Tie var būt ierobežoti ar konteinera platumu vai arī var aizpildīt ekrānu. Virsrakstu var pievienot arī katram konteinera modulim.
+Konteinera modulis ir modulis, kas vieso citus moduļus. Konteinera moduļa galvenais nolūks ir definēt, izmantojot tam iestatītos rekvizītus, iekšā esošo moduļu izkārtojumu. Piemēram, šie moduļi var parādīties blakus divu kolonnu, trīs kolonnu, četru kolonnu vai sešu kolonnu izkārtojumā. Tie var būt ierobežoti ar konteinera platumu vai arī var aizpildīt ekrānu. Virsrakstu var pievienot arī katram konteinera modulim.
 
-Ir trīs standarta konteineru moduļu tipi: konteiners, konteiners ar 2 slotiem un konteiners ar 3 slotiem. Šajos konteineros var ievietot jebkura tipa moduļus. Ir arī īpaši konteineru moduļu tipi, piemēram, karuselis, satura bagātinātais bloks, satura izvietošana, grozs, norēķināšanās, iegādes lodziņš, galvene un kājene. Šiem konteineriem ir īpaši mērķi, un tajos var ievietot tikai specifiskus atbalstītus moduļu tipus.
+Tiek atbalstīti trīs standarta konteineru moduļu tipi: konteiners, konteiners ar 2 slotiem un konteiners ar 3 slotiem. Šajos konteineros var ievietot jebkura tipa moduļus. 
 
-Iesakām ievietot moduļus konteinerā, lai tos varētu ierobežot ar konteinera platumu.
+> [!NOTE] 
+> Iesakām vienmēr ievietot moduļus konteinera modulī, lai tos varētu ierobežot ar konteinera platumu.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Konteinera moduļu piemēri E-komercijā
 
@@ -98,20 +99,19 @@ Papildu rekvizītus var izmantot, lai optimizētu izkārtojumu dažādiem skatu 
 
 Lai pievienotu konteinera atskaņotāja moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Izveidojiet lapas veidni ar nosaukumu **konteinera veidne**.
-1. Noklusējuma lapas **Galvenajā** slotā pievienojiet konteinera moduli.
-1. Pievienojiet līdzekļa moduli konteinera modulim.
-1. Pārbaudiet veidni un publicējiet to.
+1. Izveidojiet lapas veidni ar nosaukumu **konteinera veidne**. 
+1. Slotā **Pamatteksts** pievienojiet moduli **Noklusējuma lapa**.
+1. Pabeidziet rediģēt veidni un publicējiet to.
 1. Izmantojiet jūsu tikko izveidoto konteinera veidni, lai izveidotu lapu ar nosaukumu **konteinera lapa**.
 1. Jaunās lapas **Galvenajā** slotā pievienojiet konteinera moduli.
 1. Konteinera moduļa rekvizītu rūtī iestatiet rekvizītu **Kolonnu skaits** uz **1** un rekvizītu **Platums** uz **Ietilpināt konteinerā**.
-1. Pievienojiet līdzekļa moduli konteinera modulim.
-1. Līdzekļa moduļa rekvizītu rūtī konfigurējiet virsrakstu.
+1. Konteinera modulī pievienojiet satura bloķēšanas moduli.
+1. Satura bloka moduļa rekvizītu rūtī konfigurējiet virsrakstu, attēlu un izkārtojumu.
 1. Saglabājiet un priekšskatiet lapu. Ir jābūt redzamam viena līdzekļa modulim, kas ietilpst konteinera moduļa platumā.
-1. Konteinera moduļa rekvizītu rūtī mainiet rekvizīta **Kolonnu skaits** vērtību uz **3**.
-1. Pievienojiet vēl divus līdzekļa moduļus konteinera modulim.
-1. Saglabājiet un priekšskatiet lapu. Tagad jābūt redzamiem trīs funkciju moduļiem, kas parādās līdzās.
-1. Pēc tam, kad esat sasnieguši vēlamo izkārtojumu, pārbaudiet lapu un publicējiet to.
+1. Konteinera moduļa rekvizītu rūtī nomainiet rekvizīta vērtību **Kolonnu skaits** uz **3**.
+1. Pievienojiet vēl satura bloka moduļus konteinera modulim.
+1. Saglabājiet un priekšskatiet lapu. Tagad jābūt redzamiem trīs satura bloka moduļiem, kas parādās līdzās.
+1. Pēc tam, kad esat sasnieguši vēlamo izkārtojumu, pabeidziet rediģēt lapu un publicējiet to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -119,11 +119,9 @@ Lai pievienotu konteinera atskaņotāja moduli jaunā lapā un iestatītu nepiec
 
 [Karuseļa modulis](add-carousel.md)
 
-[Bagātinātā satura bloka modulis](add-content-rich-block.md)
+[Teksta bloka modulis](add-content-rich-block.md)
 
-[Satura izvietojuma modulis](add-content-placement-modules.md)
-
-[Iegādes lodziņa modulis](add-buy-box.md)
+[Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [Groza modulis](add-cart-module.md)
 

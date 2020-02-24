@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562534"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004069"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdošanā
 
@@ -44,7 +44,7 @@ Krājumu izsekošana ir biznesa inteliģences (BI) rīks, kas nodrošina krājum
 -   Izpētiet, kur krājumi vai izejmateriāli tika patērēti citu krājumu ražošanā.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Ko es varu izsekot un vai ir kādi ierobežojumi?
-Notikušās krājumu un izejmateriālu transakcijas var izsekot pēc krājuma numura un izsekošanas dimensijas, piemēram, sērijas numura, partijas numura vai kreditora partijas numura. Krājumu vai izejmateriālu var izsekot tikai tad, ja tam ir piešķirta izsekošanas dimensija. Tā kā izsekošanas pamatā ir krājumu transakcijas, uz krājumu izsekošanu attiecas daži ierobežojumi. Piemēram, pastāv ierobežojumi, kas saistīti ar projektu, pamatlīdzekļu un mazumtirdzniecības transakcijām. Turklāt informācija par līdzproduktiem ir redzama izsekošanas dotos, bet informācija par blakusproduktiem nav iekļauta. Izsekošana iekļauj visas noliktavas transakcijas no viena novietojuma uz citu. Tāpēc lietotājiem var būt pieejams milzīgs informācijas apjoms. Vienlaicīgi tiek parādīti izsekošanas dati par vienu juridisku personu. Starpuzņēmumu kontekstā nav pieejamas starpuzņēmumu izsekošanas iespējas. Katram uzņēmumam, kas ir saņēmis vai izsniedzis krājumu, ir jāsāk jauna izsekošana.
+Notikušās krājumu un izejmateriālu transakcijas var izsekot pēc krājuma numura un izsekošanas dimensijas, piemēram, sērijas numura, partijas numura vai kreditora partijas numura. Krājumu vai izejmateriālu var izsekot tikai tad, ja tam ir piešķirta izsekošanas dimensija. Tā kā izsekošanas pamatā ir krājumu transakcijas, uz krājumu izsekošanu attiecas daži ierobežojumi. Piemēram, pastāv ierobežojumi, kas saistīti ar projektu, pamatlīdzekļu un komercijas transakcijām. Turklāt informācija par līdzproduktiem ir redzama izsekošanas dotos, bet informācija par blakusproduktiem nav iekļauta. Izsekošana iekļauj visas noliktavas transakcijas no viena novietojuma uz citu. Tāpēc lietotājiem var būt pieejams milzīgs informācijas apjoms. Vienlaicīgi tiek parādīti izsekošanas dati par vienu juridisku personu. Starpuzņēmumu kontekstā nav pieejamas starpuzņēmumu izsekošanas iespējas. Katram uzņēmumam, kas ir saņēmis vai izsniedzis krājumu, ir jāsāk jauna izsekošana.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Kādus kritērijus var norādīt krājumu izsekošanai?
 Nepieciešamie krājuma izsekošanas kritēriji ir krājuma numurs, izsekošanas dimensija (piemēram, partijas numurs vai sērijas numurs) un virziens. Tabulā ir aprakstīti kritēriji, kurus varat izmantot krājuma izsekošanā.

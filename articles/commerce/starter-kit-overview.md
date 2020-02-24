@@ -3,7 +3,7 @@ title: Sākuma komplekta pārskats
 description: Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 Commerce sākuma komplektu.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73af7fc8845fe08bc4aa014abe4d8c6dcf7ccb7d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785264"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025906"
 ---
 # <a name="starter-kit-overview"></a>Sākuma komplekta pārskats
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 Commerce sākuma komplektu.
@@ -43,7 +43,7 @@ Tēmas var lietot sākuma komplekta moduļiem, lai mainītu to izskatu un iespai
 Sākuma komplektā ir iekļauti tālāk norādītie moduļu tipi.
 
 - **Konteinera modulis** — konteinera modulis ir vienkāršs modulis, kas darbojas kā resursdators citiem moduļiem. Tas kontrolē moduļu izkārtojumu, kas atrodas tajā.
-- **Mārketinga moduļi** — mārketinga moduļi ietver centrālo, līdzekļa, satura novietojuma, satura bagātinātā bloka, video atskaņotāja un karuseļa moduļus. Visus šos moduļus var izmantot, lai parādītu saturu. Tos var ievietot jebkurā lapā un tos vada dati no Satura pārvaldības sistēmas (CMS), un tos var ievietot jebkurā lapā.
+- **Mārketinga moduļi** — mārketinga moduļi ietver satura bloka, teksta bloka, video atskaņotāja un karuseļa moduļus. Visus šos moduļus var izmantot, lai parādītu saturu. Tos var ievietot jebkurā lapā un tos vada dati no Satura pārvaldības sistēmas (CMS), un tos var ievietot jebkurā lapā.
 - **Galveņu un kājeņu moduļi** — galveņu un kājeņu moduļi ir redzami visu vietnes lapu galvenē un kājenē. Šos moduļus var konfigurēt pēc nepieciešamības, izmantojot rekvizītus.
 - **Meklēšanas moduļi** — preces var skatīt, izmantojot meklēšanas moduli galvenē. Meklēšanas rezultāti parādās meklēšanas rezultātu lapā. Preces var skatīt arī kategorijas lapās, kas ir paredzētas katrai kategorijai, kas tiek atbalstīta kanāla navigācijas hierarhijā. Turklāt precizētos moduļus var izmantot, lai turpmāk filtrētu rezultātus meklēšanas rezultātos un kategoriju lapās.
 - **Preces detalizētas informācijas lapas moduļi** — preces detalizētas informācijas lapas izmanto vairākus moduļus, lai parādītu preces informāciju. Pirkšanas kastes modulis ļauj klientiem skatīt preces un pievienot tās grozam. Citi moduļi, piemēram, tehniskās specifikācijas modulis parāda informāciju par preci. Vērtējumu un pārskatu moduli var izmantot, lai apskatītu un sniegtu pārskatus.

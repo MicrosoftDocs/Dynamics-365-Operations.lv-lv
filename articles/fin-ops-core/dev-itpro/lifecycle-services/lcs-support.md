@@ -1,5 +1,5 @@
 ---
-title: Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
+title: Saņemiet atbalstu Finance and Operations programmām vai Lifecycle Services (LCS)
 description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Finance and Operations programmām vai Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812139"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005520"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Saņemiet atbalstu Finance and Operations programmām vai Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -72,12 +72,12 @@ Piezīme. Microsoft Premier klienti un partneri var arī iesniegt Premier atbals
 <td>Ja rodas problēmas, kad mēģināt iesniegt biļeti korporācijai Microsoft, izmantojot LCS elementu <strong>Atbalsts</strong>, skatiet rakstu <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Saziņa ar Microsoft Business Solutions atbalsta dienestu</span></a>, lai saņemtu informāciju par saziņu ar Microsoft Dynamics reģionālo operāciju centru. Atbalsta komanda var palīdzēt atrisināt šādas tehniskas problēmas:
 <ul>
 <li>Kļūdas, kas rodas, kad izmantojat LCS, vai problēmas, kas rodas, ja mēģināt piekļūt LCS.</li>
-<li>Kļūdas, kas rodas, kad izmantojat Finance and Operations programmas.</li>
+<li>Kļūdas, kas rodas, izmantojot Finance and Operations programmas.</li>
 </ul>
 Ja jums rodas tehniski jautājumi saistībā ar pieteikšanos CustomerSource un piekļuvi tam, e-apmācību, meklēšanu, zināšanu bāzi, failu lejupielādi un lapas vai sistēmas kļūdām, apmeklējiet vietni <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Tīmekļa vietnes atbalsts</span></a>.</td>
 </tr>
 <tr class="odd">
-<td>Iegūstiet palīdzība saistībā ar jautājumiem par Finance and Operations programmu licencēšanu.</td>
+<td>Saņemiet palīdzību par Finance and Operations programmu licencēšanas jautājumiem.</td>
 <td>Sazinieties ar partneri, lielapjoma tālākpārdevējs (LAR) vai Microsoft tirdzniecības pārstāvi.</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ Ja jums rodas tehniski jautājumi saistībā ar pieteikšanos CustomerSource un 
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Atbalsta saņemšana saistībā ar Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
-- Lai iegūtu papildinformāciju par Microsoft Dynamics atbalsta piedāvājumiem, skatiet [Pārvaldīt atbalsta pieredzi Finance and Operations programmām](cloud-powered-support-lcs.md).
+- [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
+- Lai iegūtu papildinformāciju par Microsoft Dynamics atbalsta piedāvājumiem, skatiet [Pārvaldiet atbalsta pieredzi Finance and Operations programmām](cloud-powered-support-lcs.md).
 

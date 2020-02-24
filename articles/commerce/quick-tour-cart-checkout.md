@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697846"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002939"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Pārskats par grozu un izrakstīšanas lapām
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ Izrakstīšanas lapas galvenā daļā ir vieta, kur tiek apkopota visa pasūtīj
 
 ### <a name="shipping-address"></a>Piegādes adrese
 
-Piegādes adrese ir nepieciešama, ja preces ir jāpiegādā. Adreses formātu Dynamics 365 Retail var konfigurēt katrai piegādes lokalizācijai. Piemēram, ja preces tiks piegādātas Amerikas Savienotajās Valstīs, piegādes adresē ir jāiekļauj mājas adrese, štats un pasta indekss. Piegādes adreses laukiem tiek veikta zināma pamata ievades validācija, piemēram, lai apstiprinātu burtciparu rakstzīmes, maksimālo garumu un numurus. Lai gan pašas adreses derīgums netiek verificēts, šo verifikāciju var veikt, izmantojot pielāgotus trešās puses pakalpojumus.
+Piegādes adrese ir nepieciešama, ja preces ir jāpiegādā. Adreses formātu Dynamics 365 Commerce var konfigurēt katrai piegādes lokalizācijai. Piemēram, ja preces tiks piegādātas Amerikas Savienotajās Valstīs, piegādes adresē ir jāiekļauj mājas adrese, štats un pasta indekss. Piegādes adreses laukiem tiek veikta zināma pamata ievades validācija, piemēram, lai apstiprinātu burtciparu rakstzīmes, maksimālo garumu un numurus. Lai gan pašas adreses derīgums netiek verificēts, šo verifikāciju var veikt, izmantojot pielāgotus trešās puses pakalpojumus.
 
 Piegādes adrese tiek lietota visām grozā esošajām precēm, kurām ir atlasīta opcija "piegāde". Ja izmantojat izrakstīšanas plūsmu, ko nodrošina tiešsaistes sākuma komplekts, atsevišķas groza preces nevar piegādāt uz dažādām adresēm. Ja šī iespēja ir nepieciešama, to var īstenot, izmantojot izrakstīšanas moduļu pielāgošanu.
 
-Kad tiek norādīta piegādes adrese, tiek parādītas Dynamics 365 Commerce tiešsaistes veikalā pieejamās piegādes metodes. Piegādes metodes un adreses, kuras tās atbalsta, var konfigurēt Retail.
+Kad tiek norādīta piegādes adrese, tiek parādītas Dynamics 365 Commerce tiešsaistes veikalā pieejamās piegādes metodes. Piegādes metodes un adreses, kuras tās atbalsta, var konfigurēt Commerce.
 
 ### <a name="payment"></a>Maksājums
 

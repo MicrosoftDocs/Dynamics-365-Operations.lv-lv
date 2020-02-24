@@ -1,6 +1,6 @@
 ---
 title: Tiešsaistes kanālu pārskatu ģenerēšana
-description: Šajā tēmā ir aprakstīts, kā izveidot pārskatus savam tiešsaistes kanālam Microsoft Dynamics 365 Retail.
+description: Šajā tēmā ir aprakstīts, kā izveidot pārskatus savam tiešsaistes kanālam programmā Microsoft Dynamics 365 Commerce 365.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698054"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003008"
 ---
 # <a name="generate-online-channel-reports"></a>Tiešsaistes kanālu pārskatu ģenerēšana
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot pārskatus savam tiešsaistes kanālam Microsoft Dynamics 365 Retail.
+Šajā tēmā ir aprakstīts, kā izveidot pārskatus savam tiešsaistes kanālam programmā Microsoft Dynamics 365 Commerce 365.
 
 ## <a name="overview"></a>Pārskats
 
-Varat izveidot un apskatīt vairākus pārskatus Retail, lai redzētu, kā darbojas jūsu tiešsaistes kanāls.
+Varat izveidot un apskatīt vairākus pārskatus Commerce, lai redzētu, kā darbojas jūsu tiešsaistes kanāls.
 
 ## <a name="channel-summary-report"></a>Kanāla kopsavilkuma pārskats
 
@@ -46,7 +46,7 @@ Pārskats **Kanāla kopsavilkums** parāda tālāk minēto darbību kopsavilkumu
 
 Lai ģenerētu pārskatu **Kanāla kopsavilkums**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Uzziņas un pārskati \> Pārdošanas pārskati \> Kanāla kopsavilkuma pārskats**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzziņas un pārskati \> Pārdošanas pārskati \> Kanāla kopsavilkuma pārskats**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -58,7 +58,7 @@ Pārskats **Kanāla pārdošanas pārskats pa gadiem** parāda noteikta veikala 
 
 Lai ģenerētu pārskatu **Kanāla pārdošanas pārskats pa gadiem**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Uzziņas un pārskati \> Pārdošanas pārskati \> Kanāla pārdošanas pārskats pa gadiem**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzziņas un pārskati \> Pārdošanas pārskati \> Kanāla pārdošanas pārskats pa gadiem**.
 1. Laukā **No kalendārā gada** ievadiet gadu.
 1. Laukā **Līdz kalendārajam gadam** ievadiet gadu.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -70,7 +70,7 @@ Pārskats **Kanāla pārdošanas pārskats pa stundām** parāda atlasītā kan�
 
 Lai ģenerētu pārskatu **Kanāla pārdošanas pārskats pa stundām**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Uzziņas un pārskati \> Pārdošanas pārskati \> Kanāla pārdošanas pārskats pa stundām**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzziņas un pārskati \> Pārdošanas pārskati \> Kanāla pārdošanas pārskats pa stundām**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -82,7 +82,7 @@ Pārskats **Labākie klienti** parāda atlasītā kanāla vai pārvaldības stru
 
 Lai ģenerētu pārskatu **Labākie klienti**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Uzziņas un pārskati \> Pārdošanas pārskati \> Labāko klientu pārskats**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzziņas un pārskati \> Pārdošanas pārskati \> Lielāko debitoru pārskats**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -94,7 +94,7 @@ Pārskats **Lielākās atlaides** parāda atlasītā kanāla vai pārvaldības s
 
 Lai ģenerētu pārskatu **Lielākās atlaides**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Uzziņas un pārskati \> Pārdošanas pārskati \> Lielāko atlaižu pārskats**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzziņas un pārskati \> Pārdošanas pārskati \> Lielāko atlaižu pārskats**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -106,7 +106,7 @@ Pārskats **Labākās preces** parāda atlasītā kanāla vai pārvaldības stru
 
 Lai ģenerētu pārskatu **Labākās preces**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Uzziņas un pārskati \> Pārdošanas pārskati \> Labāko preču pārskats**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzziņas un pārskati \> Pārdošanas pārskati \> Labāko preču pārskats**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -118,7 +118,7 @@ Pārskats **Kategorijas pārdošanas pārskats** parāda atlasītā kanāla vai 
 
 Lai ģenerētu pārskatu **Kategorijas pārdošanas pārskats**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Pieprasījumi un pārskati \> Pārdošanas pārskati \> Kategorijas pārdošanas pārskats**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Pārdošanas pārskati \> Kategorijas pārdošanas pārskats**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Laukā **Kanāls** atlasiet tiešsaistes kanālu.
@@ -126,11 +126,11 @@ Lai ģenerētu pārskatu **Kategorijas pārdošanas pārskats**, veiciet tālāk
 
 ## <a name="organization-sales-report"></a>Organizācijas pārdošanas pārskats
 
-pārskats **Organizācijas pārdošanas pārskats** parāda jūsu mazumtirdzniecības veikalu veiktspēju pēc organizācijas vienības. Šajā pārskatā ir iekļauts pārdošanas daudzums un summa pēc veikala un katra veikala peļņas normu. Organizācijas vienība ir balstīta uz noklusējuma pārskatu veidošanas hierarhiju.
+Pārskats **Organizācijas pārdošanas pārskats** parāda jūsu veikalu veiktspēju pēc organizācijas vienības. Šajā pārskatā ir iekļauts pārdošanas daudzums un summa pēc veikala un katra veikala peļņas normu. Organizācijas vienība ir balstīta uz noklusējuma pārskatu veidošanas hierarhiju.
 
 Lai ģenerētu pārskatu **Organizācijas pārdošanas pārskats**, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Pieprasījumi un pārskati \> Pārdošanas pārskati \> Organizācijas pārdošanas pārskats**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Pārdošanas pārskati \> Organizācijas pārdošanas pārskats**.
 1. Ievadiet datumu laukā **No datuma**.
 1. Ievadiet datumu laukā **Līdz datumam**.
 1. Atlasiet **Labi**.

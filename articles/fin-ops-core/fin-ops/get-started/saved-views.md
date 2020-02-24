@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017708"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -37,7 +37,7 @@ Izmantojot tradicionālo personalizēšanu, lietotājiem varēja būt tikai vien
 
 -    Noteiktiem lapu tipiem izveidotie skati var ietvert arī lietotāja pievienotus filtrus vai sakārtojumus, kas ļauj lietotājiem ātri atgriezties pie parasti filtrētajām datu kopām. Papildinformāciju skatiet sadaļā [Lapas, kas atbalsta skatus](saved-views.md#what-pages-support-views). 
 
--    Skatus var publicēt lietotājiem ar noteiktām drošības lomām un konkrētām juridiskām personām. Tāpēc ikviens lietotājs, kuram ir noteikta loma ar noteiktu juridisku personu, var piekļūt un lietot šo skatu, pat ja šis lietotājs var nespēt to personalizēt. Šī publicēšanas iespēja ļauj organizācijām definēt uzņēmumu, standarta skatus, kas ir optimizēti viņu uzņēmējdarbībai. Papildinformāciju skatiet sadaļā [Personalizēšanas pārvaldība organizācijas līmenī, izmantojot skatus](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+-    Skatus var publicēt lietotājiem ar noteiktām drošības lomām un konkrētām juridiskām personām. Tāpēc ikviens lietotājs, kuram ir noteikta loma un piekļuve noteiktai juridiskai personai, var piekļūt un lietot šo skatu, pat ja šis lietotājs var nespēt to personalizēt. Šī publicēšanas iespēja ļauj organizācijām definēt uzņēmumu, standarta skatus, kas ir optimizēti viņu uzņēmējdarbībai. Papildinformāciju skatiet sadaļā [Personalizēšanas pārvaldība organizācijas līmenī, izmantojot skatus](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    Atšķirībā no tradicionālās personalizēšanas skati netiek automātiski saglabāti, kad lietotājs veic tiešu personalizāciju vai filtrē sarakstu. Tieša saglabāšana ir nepieciešama, lai nodrošinātu elastību skata izveidē pirms vai pēc tam, kad ir veiktas ar šo skatu saistītas izmaiņas, un lai nodrošinātu, ka skatu definīcijas netiek netīši mainītas ar filtriem vai personalizācijām, kas nav paredzētas ilgtermiņa lietošanai.  
 
@@ -71,7 +71,7 @@ Ja vēlaties saglabāt šīs izmaiņas, rīkojieties šādi.
 2.  Lai modificētu esošo skatu:
      1. Atlasiet **Saglabāt**. Ņemiet vērā, ka šī darbība netiks iespējota bloķētiem skatiem. 
 3.  Lai izveidotu jaunu skatu:
-     1.    Atlasiet **Saglabāt kā**. 
+     1.    Atlasiet **Saglabāt kā...**. 
      2.    Ievadiet skata nosaukumu un (pēc izvēles) aprakstu.
      3.    Atlasiet **Saglabāt**.
 
@@ -83,7 +83,7 @@ Lai mainītu lapas noklusējuma skatu, izpildiet šīs darbības.
 2.  Atlasiet skata nosaukumu, lai atvērtu skata atlasītāju. 
 3.  Atlasiet **Vairāk** un pēc tam **Piespraust kā noklusējumu**.  
 
-Vai arī, veidojot jaunu skatu (izmantojot darbību **Saglabāt kopiju**), varat padarīt šo jauno skatu par noklusējuma skatu, iestatot opciju **Piespraust kā noklusējumu**, pirms saglabājat skatu.
+Vai arī, veidojot jaunu skatu (izmantojot darbību **Saglabāt kā...**), varat padarīt šo jauno skatu par noklusējuma skatu, iestatot opciju **Piespraust kā noklusējumu**, pirms saglabājat skatu.
 
 Ņemiet vērā, ka dažos gadījumos ar noklusējuma skatu saistītais vaicājums netiek izpildīts, kad pirmo reizi pārejat uz lapu. Piemēram, pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Turklāt, ja pārejat uz lapu, kuras klasiskajam skatam jau ir definēts vaicājums, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Šādā gadījumā tiks parādīts informatīvs ziņojums, kad skats tiek ielādēts. Skatu pārslēgšanai pēc lapas ielādes būtu jānodrošina pareiza skata vaicājuma izpilde.
 
@@ -99,11 +99,11 @@ Attiecīgajā lapā pieejamo skatu sarakstam ir pieejams šādu darbību kopums.
 Jebkuras izmaiņas, kas veiktas šajā dialoglodziņā, stāsies spēkā pēc tam, kad atlasīsit pogu **Saglabāt**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Personalizāciju pārvaldība organizācijas līmenī ar skatiem
-Lai palīdzētu jums saprast, kā saglabātie skati palīdz uzlabot personalizācijas pārvaldību organizācijas līmenī, šajā sadaļā ir aprakstīts, kā personalizācijas pārvaldība darbojās pirms skatu pieejamības.
+Lai palīdzētu jums saprast, kā saglabātie skati palīdz uzlabot personalizācijas pārvaldību organizācijas līmenī, šajā sadaļā ir aprakstītas dažas atšķirības personalizācijas pārvaldībā ar un bez saglabāto skatu līdzekļa.
 
 Bez skatiem administratori lietoja lapas personalizāciju kopu lietotājam vai lietotāju grupai, izmantojot lapu Personalizēšana. Ja šiem lietotājiem bija personalizēšanas tiesības, attiecīgajā lapā tika lietotas personalizācijas. Tomēr nebija iespējams novērst to, ka lietotāji varēja papildus personalizēt lapu, līdz ar to organizācija nevarēja nodrošināt, ka tās lietotājiem ir konsekvents lietotāja interfeiss. Ja kādam no šiem lietotājiem nebija personalizēšanas tiesību, personalizācijas, kuras tiem bija piešķīris administrators, netika ielādētas. Turklāt, ja organizācijā tika pieņemti darbā jauni lietotāji, administratoriem bija nepieciešams manuāli ielādēt lietotāja personalizāciju kopu. Nebija pieejams automātisks mehānisms, lai norādītu, ka noteiktai personalizāciju kopai jābūt pieejamai lietotājiem šajā lomā.
 
-Saglabāto skatu līdzeklis padara personalizāciju organizatorisko pārvaldību ievērojami vieglāku, galvenokārt pateicoties iespējai publicēt skatus lietotāju grupām. Pēc tam, kad skats ir publicēts, jebkurš lietotājs, kuram ir kāda no definētajām drošības lomām un atrodas norādītajās juridiskajās personās, varēs piekļūt un lietot skatu, kaut arī šis lietotājs, iespējams, nevarēs to personalizēt. Lai gan katram lietotājam ir publicētā skata kopija, kurā tiek automātiski pielietotas lapas izmantošanas (netiešās) personalizācijas, tomēr neviens no lietotājiem nevar saglabāt publicētajā skatā tiešas personalizācijas vai vaicājuma atjauninājumus. (Citiem vārdiem, publicētie skati ir bloķēti.) Turklāt, ja jaunajiem lietotājiem tiek dotas lomas juridiskām personām, kuras skatījumi tika publicēti, tie automātiski redzēs skatus, kas ir saistīti ar to lomām un juridiskajām personām. Administratoram nav jāveic papildu darbības. Tāpat, ja lietotāji maina lomas organizācijā vai ir devuši piekļuvi dažādām juridiskajām personām, tie var vairs nepiekļūt skatiem, kas iepriekš tika tiem publicēti. Pēc tam administratoram nav jāveic papildu darbības.
+Saglabāto skatu līdzeklis padara personalizāciju organizatorisko pārvaldību ievērojami vieglāku, galvenokārt pateicoties iespējai publicēt skatus lietotāju grupām. Pēc tam, kad skats ir publicēts, jebkurš lietotājs, kuram ir kāda no definētajām drošības lomām un piekļuve vienai no norādītajām juridiskajām personām, varēs skatīt un lietot skatu, kaut arī šis lietotājs, iespējams, nevarēs to personalizēt. Lai gan katram lietotājam ir publicētā skata kopija, kurā tiek automātiski pielietotas lapas izmantošanas (netiešās) personalizācijas, tomēr neviens no lietotājiem nevar saglabāt publicētajā skatā tiešas personalizācijas vai vaicājuma atjauninājumus. Citiem vārdiem sakot, publicētie skati ir bloķēti. Turklāt, ja jaunajiem lietotājiem tiek dotas lomas juridiskām personām, kuras skatījumi tika publicēti, tie automātiski redzēs skatus, kas ir saistīti ar to lomām un juridiskajām personām. Administratoram nav jāveic papildu darbības. Administratoram nav jāveic papildu darbības. Tāpat, ja lietotāji maina lomas organizācijā vai ir devuši piekļuvi dažādām juridiskajām personām, tie var vairs nepiekļūt skatiem, kas iepriekš tika tiem publicēti. Pēc tam administratoram nav jāveic papildu darbības.
 
 Publicētā skata atjauninājumus var viegli izplatīt lietotājiem, atkārtoti publicējot skatu attiecīgajām drošības lomām un juridiskajām personām.
 
@@ -119,7 +119,8 @@ Lai publicētu skatu, veiciet šādas darbības.
 4.  Ievadiet skata nosaukumu un (pēc izvēles) aprakstu. Jūsu ievadītais nosaukums ir tas, ko lietotāji, kuriem tiks piešķirts šis skats, redzēs skata atlasītājā. Lapas publicēto skatu nosaukumiem ir jābūt unikāliem. Nav atļauti publicēto skatu nosaukuma dublikāti pat tad, ja atšķiras lomas vai juridiskās personas, kurām tie ir lietoti.
 5.  Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats.
 6. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
-7.  Atlasiet **Publicēt**.
+7. [10.0.9/Platform update 33 vai jaunāka] Nosaka, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Skata padarīšana par noklusējuma nozīmē, ka šis ir skats, ko lietotāji redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tādējādi šiem lietotājiem tiks modificēts noklusējuma skats. Tomēr lietotāji joprojām var mainīt noklusēto skatu pēc publicēšanas.    
+8.  Atlasiet **Publicēt**.
 
 Ņemiet vērā, ka dažās vidēs var būt nepieciešams ilgāks laiks (līdz pat stundai), pirms lietotāji redz publicēto skatu.
 
@@ -132,7 +133,8 @@ Ja izmaiņas, kuras vēlaties veikt publicētajā skatā, ietver tikai publicē�
 3.  Atlasiet **Jā**, ja vēlaties atjaunināt esošo skatu (vai **Nē**, ja vēlaties to publicēt ar citu nosaukumu).
 4.  Atjauniniet skata nosaukumu, aprakstu un/vai drošības lomas. 
 5.  Atlasiet **Publicēt**. 
-6.  Ja esat atjauninājis publicētā skata nosaukumu, jums būs jādzēš arī publicētais skats ar veco nosaukumu (papildinformāciju skatiet sadaļā **Publicēto skatu pārvaldīšana**). 
+6.  [10.0.8/Platform update 32 vai vecāka] Ja esat atjauninājis publicētā skata nosaukumu, jums būs jādzēš arī publicētais skats ar veco nosaukumu (papildinformāciju skatiet sadaļā **Publicēto skatu pārvaldīšana**). 
+7. [10.0.9/Platform update 33 vai jaunāka versija] Ja sākotnēji esat izvēlējies šo publicēto skatu kā noklusējuma skatu, pēc atkārtotas publicēšanas tas būs noklusējuma skats šiem lietotājiem.  
 
 Ja publicētajā skatā veiktās izmaiņas ietver ar skatu saistīto personalizāciju vai filtru modificēšanu, rīkojieties šādi. 
 1.  Pārslēdzieties uz publicēto skatu, kuru vēlaties modificēt. 
@@ -148,13 +150,15 @@ Visi lietotāji redz cilni **Mani skati**, kurā ir parādīti personiskie skati
 Visu attiecīgajā lapā esošo publicēto skatu sarakstam ir pieejams šādu darbību kopums. 
 
 -    **Publicēt**: izmantojiet darbību **Publicēt**, lai atkārtoti publicētu skatu pēc publicēšanas parametru (nosaukums, apraksts, drošības lomas vai juridiskās personas) izmaiņām.
--    **Noņemt**: izmantojiet darbību **Noņemt**, lai neatgriezeniski dzēstu publicēto skatu. Šī darbība dzēš skatu visiem sistēmas lietotājiem.  
- 
-Jebkuras izmaiņas, kas veiktas šajā dialoglodziņā, stāsies spēkā pēc tam, kad atlasīsit pogu **Saglabāt**.
+-    **Noņemt**: izmantojiet darbību **Noņemt**, lai neatgriezeniski dzēstu publicēto skatu. Šī darbība dzēš skatu visiem sistēmas lietotājiem. Kad ir atlasīta poga **Saglabāt**, publicēto skatījumu noņemšana stāsies spēkā.
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kā iespējot saglabātos skatus manā vidē? 
-Lai iespējotu saglabātos skatus, kamēr līdzeklis ir priekšskatījumā, veiciet tālāk norādītās darbības. 
+Piezīme: Līdzeklim **Saglabātie skati** ir jāiespējo personalizēšanas sistēma pakalpojumā Finance and Operations. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
+
+**10.0.9/Platform update 33 vai jaunāka** **Saglabāto skatu** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi publiskie priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platform update 32 vai vecāka** Līdzekli **Saglabātie skati** var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
 
 1.  **Iespējot būvējumu izsniegšanu**: izpildīt šādu SQL priekšrakstu: 
 
@@ -168,9 +172,6 @@ Lai iespējotu saglabātos skatus, kamēr līdzeklis ir priekšskatījumā, veic
 
 Visas turpmākās lietotāja sesijas sāksies ar iespējotiem saglabātajiem skatiem.
 
-Saglabātie skati ir tikai izmantošanai 1. pakāpes (Dev/Test) un 2. līmeņa (Sandbox) vidē, lai nodrošinātu papildu testēšanas un dizaina izmaiņas. Nākamo laidienu ražošanas vidēs būs pieejams saglabāto skatījumu priekšskatījums.
-
-Ņemiet vērā, ka gadījumā, ja personalizācija ir izslēgta attiecīgajā vidē, skati tiks atspējoti, pat ja veiksiet iepriekš minētās darbības. Tas ir tāpēc, ka skatījumu līdzeklis ir izveidots, balstoties uz personalizēšanas apakšsistēmu.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Kas notiek ar esošajām personalizācijām, kad skati tiek iespējoti? 
 Kad skati tiek iespējoti, visas esošās lietotāja un formas personalizācijas tiek saglabātas jaunā skatā ar nosaukumu **Mans skats**, kas tiek automātiski iestatīts kā noklusējuma skats. Tas ir paredzēts, lai nodrošinātu konsekventu lietotāja pieredzi pirms un pēc skatu iespējošanas, izņemot formās parādīto skata atlasītāja vadīklu.  
@@ -184,12 +185,14 @@ Tiesības publicēt skatus ir tikai sistēmas administratoriem un lietotājiem, 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Kāpēc nevar saglabāt filtrus šim skatam? 
 Ir vairāki iemesli, kāpēc var šķist, ka skatam netiek saglabāts filtrs: 
 
-- Lapa var neatbalstīt filtru saglabāšanu skata definīcijas ietvaros. Ņemiet vērā, ka tikai lapās ar lieliem skata atlasītājiem ir iespējams saglabāt personalizāciju un vaicājumu modifikācijas kā skatu. Papildinformāciju skatiet sadaļā “Skatu pārslēgšana”. 
-
-- Ja attiecīgais skats ir noklusējuma skats un lapas navigācijas ceļā ir iekļauts vaicājums, skata vaicājums sākotnēji nevar tikt lietots. Šajā gadījumā ir divi primārie scenāriji: 
-     - Pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. 
-     - Ja pārejat uz lapu un attiecīgais ieejas punkts ietver vaicājumu, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. 
-     
-  Šādos gadījumos tiks parādīts informatīvs ziņojums, kad skats tiek ielādēts. Varat arī to apstiprināt, pārslēdzoties uz šo skatu pēc lapas ielādes, jo tam jebkurā gadījumā vajadzētu nodrošināt vaicājuma izpildi.  
+- Lapa var neatbalstīt filtru saglabāšanu skata definīcijas ietvaros. Ņemiet vērā, ka tikai lapās ar lieliem skata atlasītājiem ir iespējams saglabāt personalizāciju un vaicājumu modifikācijas kā skatu. Papildinformāciju skatiet sadaļā **Skatu pārslēgšana**. 
 
 - Attiecīgā lapa var pienācīgi neatbalstīt skatus, jo tā var pilnībā ignorēt skata vaicājumu vai var darboties pagaidu tabulā, kuras dati nav pastāvīgi. 
+
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Kādus datus redzēsit, kad es apmeklēju lapu? 
+Lapām, kurās ir mazi skatījuma atlasītāji (tikai personalizācijas var tikt saglabātas skatā), jūs redzēsiet tādus pašus datus kā vienmēr, kad apmeklējat lapu. 
+
+Lapām ar lieliem skatu atlasītājiem (personalizācijas un vaicājumus var saglabāt skatā), jūs galvenokārt redzēsiet datus, kas saistīti ar ar jūsu noklusējuma skatu saistīto vaicājumu. Šādā gadījumā ir divi galvenie izņēmumi: - Pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Ja izveidojāt šo elementu pēc skatu iespējošanas, atlasot elementu, tiks atvērta lapa ar ar šo elementu saistīto skatu.   
+     - Ja pārejat uz lapu un attiecīgais ieejas punkts ietver vaicājumu, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Ja tā notiek, jums vajadzētu saņemt informatīvu ziņojumu, kad skats tiek ielādēts. Varat arī to apstiprināt, pārslēdzoties uz šo skatu pēc lapas ielādes, jo tam jebkurā gadījumā vajadzētu nodrošināt vaicājuma izpildi.  
+
+

@@ -3,7 +3,7 @@ title: Kreditora kontu iestatīšana
 description: Šajā tēmā ir aprakstīti informācijas tipi, kuri jānorāda, veidojot jaunu kreditora kontu.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249400"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012449"
 ---
 # <a name="set-up-vendor-accounts"></a>Kreditora kontu iestatīšana
 
@@ -88,7 +88,7 @@ Varat aizturēt apstrādi kreditoram dažādiem darbību tipiem. Pieejamas šād
 -   **Rēķins** — kreditoram nevar grāmatot nevienu rēķinu.
 -   **Visi** — kreditoram ir aizturēti visi darījumu veidi. Šie darbību tipi ietver pirkšanas pieprasījumus, rēķinus un maksājumus.
 -   **Maksājums** — šim kreditoram nevar ģenerēt maksājumus.
--   **Pieprasījums** — var tikt izveidoti tikai pirkšanas pieprasījumi. Nevar izveidot citas darbības.
+-   **Pieprasījums** – pirkšanas pieprasījumus nevar izveidot kreditoram, un pieprasījuma rindas, kas jau izveidotas pirms kreditora aizturēšanas, nevar pārvērst par pirkšanas pasūtījumu. Kreditora pieprasījuma rindas tiks atceltas, ja jūsu politika tiek iestatīta automātiski izveidot pirkšanas pieprasījumus.
 -   **Nekad** — kreditoram nekad netiek aizturētas darbības.
 
 Nosakot kreditoram aizturējumu, varat arī norādīt iemeslu un aizturēšanas statusa beigu datumu. Ja beigu datums netiek ievadīts, kreditora aizturēšanas statuss ilgst nenoteiktu laiku.

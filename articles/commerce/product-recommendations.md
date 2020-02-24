@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb369e6d1356ba13a2310d523b671ac57b9642bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e249c7d450510a3a9a33158e9e1c33f832a1f91c
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024983"
 ---
 # <a name="product-recommendations-overview"></a>Preču ieteikumu apskats
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Commerce var izmantot, lai parādītu preces ieteikumus e-tirdzniecības vietnē un pārdošanas punkta (POS) ierīcē. Preces ieteikumi ir preces, kas varētu interesēt klientu. Ieteikumi ir balstīti uz citu klientu pirkšanas tendencēm citiem klientiem tiešsaistes un parastajos veikalos.
@@ -45,6 +44,7 @@ Preču ieteikumi ir pieejami tālāk minētajiem POS scenārijiem.
 - **Jebkurā veikala lapā, kas paredzēta pārlūkošanai vai kā mērķlapa e-tirdzniecībā:** ja klienti vai veikala partneri apmeklē veikala lapu, ieteikumu programma var ieteikt preces sarakstos **Jauns**, **Vispirktākais** un **Populārs**.
 - **Preces detalizētas informācijas lapā:** ja klienti vai veikala partneri apmeklē lapu **Preces detalizēta informācija**, ieteikumu programma iesaka papildu preces, kas arī iespējams tiks iegādātas. Šīs preces parādās sarakstā **Pircējiem patīk arī**.
 - **Transakciju lapā vai izrakstīšanas lapā:** ieteikumu programma piedāvā preces, balstoties uz visu grozā esošo preču sarakstu. Šie krājumi parādās sarakstā **Bieži iegādāts kopā**.
+- **Personalizētie ieteikumi:** Tirgotāji var nodrošināt pieteiktajiem klientiem personalizētu **ieteikumu** sarakstu līdztekus jaunajai funkcionalitātei, kas ļauj esošajiem saraksta scenārijiem tikt personalizētiem, pamatojoties uz šo klientu. Lai iegūtu papildinformāciju, lūdzu, skatiet līdzekļu dokumentu: [personalizētu ieteikumu iespējošana.](personalized-recommendations.md)
 
 ## <a name="recommendation-service"></a>Recommendation pakalpojums
 
@@ -56,6 +56,10 @@ Preces ieteikumi izmanto Recommendations mašīnmācības tehnoloģijas tālāk 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Preču ieteikumu iespējošana](enable-product-recommendations.md)
+
+[Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
+
+[Preču kolekcijas moduļa apskats](product-collection-module-overview.md)
 
 [Pārraudzītu preču ieteikumu sarakstu izveide](create-editorial-recommendation-lists.md)
 

@@ -1,31 +1,33 @@
 ---
-title: Importēt valūtas maiņas kursus
-description: Ja juridiskā persona ir saņēmusi rēķinus ārvalstu valūtās, ārvalstu valūta ir jākonvertē lokālajā valūtā. Tas nozīmē, ka ir nepieciešami jaunākie dažādu valūtu maiņas kursi. Šajā tēmā ir sniegts pārskats par iestatījumiem un apstrādi, kas ir nepieciešami, lai importētu ārvalstu valūtu maiņas kursus, kurus internetā ir publicējuši maiņas kursu nodrošinātāji, piemēram, Eiropas Centrālā banka un Krievijas Centrālā banka.
+title: Valūtas maiņas kursu importēšana
+description: Šajā tēmā sniegta informācija par prasībām ārvalstu valūtas atsauces kursu importēšanai, ko publicē maiņas kursu nodrošinātāji.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cdc9373ab22092e1f28bd087519f7476a7f2139a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 6684a1ef041d624d6bfe80337c4db0913f0ca066
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186513"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013144"
 ---
-# <a name="import-currency-exchange-rates"></a>Importēt valūtas maiņas kursus
+# <a name="import-currency-exchange-rates"></a>Valūtas maiņas kursu importēšana
+
+[!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,23 +42,19 @@ Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas i
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Lauks** | **Apraksts**                                                                                                                                                                                                             |
 | **Nosaukums**  | Maiņas kursu nodrošinātāja nosaukums.                                                                                                                                                                                     |
-| **Atslēga**   | Nodrošinātājam nepieciešamās katras konfigurācijas informācijas daļas unikālais identifikators. Šī informācija tiek automātiski pievienota par katru maiņas kursu nodrošinātāju, ko pievienojat, noklikšķinot uz pogas **Pievienot**. |
-| **Vērtība** | Informāciju par katru atslēgu. Šī informācija tiek pievienota par katru maiņas kursu nodrošinātāju, ko pievienojat, noklikšķinot uz pogas **Pievienot**.                                                                                         |
+| **Atslēga**   | Nodrošinātājam nepieciešamās katras konfigurācijas informācijas daļas unikālais identifikators. Šī informācija tiek automātiski pievienota katram maiņas kursu nodrošinātājam, kurš tiek pievienots. |
+| **Value** | Informāciju par katru atslēgu. Šī informācija tiek pievienota katram maiņas kursu nodrošinātājam, kurš tiek pievienots.                                                                                         |
 
-## <a name="import-currency-exchange-rates"></a>Importēt valūtas maiņas kursus
-Lapā **Valūtas maiņas kursi** varat importēt maiņas kursus no maiņas kursu nodrošinātāju avota un iestatīt tos. Izmantojiet lapu **Importēt valūtas maiņas kursus**, lai importētu maiņas kursus. Tālāk esošajā tabulā ir sniegti to failu apraksti, kas ir nepieciešami, lai veiksmīgi pabeigtu importēšanas procesu.
+## <a name="import-currency-exchange-rates"></a>Valūtas maiņas kursu importēšana
+Varat importēt maiņas kursus no maiņas kursu nodrošinātāju avota un tos pievienot lapai **Valūtas maiņas kursi**. Izmantojiet lapu **Importēt valūtas maiņas kursus**, lai importētu maiņas kursus. Tālāk esošajā tabulā ir sniegti to failu apraksti, kas ir nepieciešami, lai veiksmīgi pabeigtu importēšanas procesu.
 
 |                                        |                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Lauks**                              | **Apraksts**                                                                                                                                                                                                                                                                                                                                                             |
 | **Maiņas kursa tips**                 | Maiņas kursa tips.                                                                                                                                                                                                                                                                                                                                                      |
 | **Maiņas kurus nodrošinātājs**             | Maiņas kursu nodrošinātājs.                                                                                                                                                                                                                                                                                                                                                  |
-| **Importēt uz**                       | Izmantojot šo parametru, tiek norādīts, vai importēt datus par šodienu vai datumu diapazonu. Ja vēlaties izmantot datumu diapazonu, ievadiet vai atlasiet sākuma un beigu datumu.                                                                                                                                                                                                                |
+| **Importēt uz**                       | Izmantojot šo parametru, tiek norādīts, vai importēt datus par šodienu vai konkrētu datumu diapazonu. Ja vēlaties izmantot datumu diapazonu, ievadiet vai atlasiet sākuma un beigu datumu.                                                                                                                                                                                                                |
 | **Izveidot nepieciešamos valūtu pārus**    | Izmantojot šo izvēles rūtiņu, tiek kontrolēta valūtu pāru automātiskā izveide gadījumā, ja importētie valūtu pāri nepastāv. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem.                                                                                                                                                                                               |
 | **Ignorēt esošos maiņas kursus**   | Izmantojot šo izvēles rūtiņu, tiek kontrolēta valūtu pāra esošā maiņas kursa atjaunināšana gadījumā, ja jau pastāv maiņas kurss konkrētā datumā. Ja šī izvēles rūtiņa nav atzīmēta un jau pastāv cits maiņas kurss konkrētajos datumos, jaunais maiņas kurss netiek importēts.                                                                                       |
-| **Novērst importēšanu uz valsts svētku dienām** | Izmantojot šo izvēles rūtiņu, tiek kontrolēts tas, vai ir jāimportē maiņas kurss datumā, kas ir valsts svētku diena. Piemēram, ja šī izvēles rūtiņa ir atzīmēta un kā maiņas kursu nodrošinātājs tiek izmantota Eiropas Centrālā banka, sistēmā netiek atjaunināts maiņas kurss valsts svētku dienā, kas attiecas uz pašreizējo juridisko personu. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem. |
-
-
-
-
-
+| **Novērst importēšanu uz valsts svētku dienām** | Izmantojot šo izvēles rūtiņu, tiek kontrolēts tas, vai ir jāimportē maiņas kurss datumā, kas ir svētku diena. Piemēram, ja šī izvēles rūtiņa ir atzīmēta un kā maiņas kursu nodrošinātājs tiek izmantota Eiropas Centrālā banka, sistēmā netiek atjaunināts maiņas kurss valsts svētku dienā, kas attiecas uz pašreizējo juridisko personu. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem. |
+| **Maiņas kurss no iepriekšējās dienas** | Šī izvēles rūtiņa ir pieejama, ja iespējojat līdzekli**ECB importēšana uz pašreizējo vai iepriekšējo datumu** lapā **Līdzekļu pārvaldība**. Šī izvēles rūtiņa ir pieejama tikai nodrošinātājam, *Eiropas Centrālajai bankai*. Atzīmējiet šo izvēles rūtiņu, lai importētu valūtas maiņas kursu, ko Eiropas Centrālā banka ir publicējusi iepriekšējā darba dienā aptuveni plkst. 16:00 pēc Centrāleiropas laika. Pēc noklusējuma šī izvēles rūtiņa ir atzīmēta. Notīriet šo izvēles rūtiņu, lai importētu valūtas maiņas kursu, kas ir publicēts tajā pašā darba dienā.  |

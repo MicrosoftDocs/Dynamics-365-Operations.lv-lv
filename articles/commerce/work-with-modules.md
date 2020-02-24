@@ -3,7 +3,7 @@ title: Darbs ar moduļiem
 description: Šajā tēmā aprakstīts, kā un kad izmantot moduļus programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914798"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025883"
 ---
 # <a name="work-with-modules"></a>Darbs ar moduļiem
 
 Šajā tēmā aprakstīts, kā un kad izmantot moduļus programmā Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Pārskats
@@ -99,12 +99,10 @@ Lai no lapas slota vai konteinera noņemtu moduli, veiciet tālāk minētās dar
 
 Lai konfigurētu satura moduli lapā, rīkojieties, kā norādīts tālāk.
 
-1. Struktūras rūtī pa kreisi atlasiet satura moduļa tipu (piemēram, **Līdzekļa**, **Centrālais** vai **Reklāmkarogs**).
-1. Labajā pusē rekvizītu rūtī izvērsiet ligzdotās vadīklas, atlasot galvenes, un iestatiet jebkuras nepieciešamās kontroles vērtības.
-1. Ja rekvizītu rūtij ir sadaļa **Datu konfigurācija**, atlasiet to, lai to izvērstu. Citādi pārejiet uz 5. darbību.
-1. Ja tur ir poga **Pievienot datu avotu**, atlasiet to un pēc tam atlasiet pievienojamos satura vienumus.
-1. Ievadiet iestatījumus visām nepieciešamajām vai vēlamajām moduļa vadīklām.
-1. Atlasiet **Saglabāt**.
+1. Struktūras rūtī pa kreisi izvērsiet koku un atlasiet jebkuru satura moduļa tipu (piemēram, **Līdzekļa**, **Centrālais** vai **Reklāmkarogs**).
+1. Rekvizītu rūtī labajā pusē atradīsit moduļa satura un iestatījumu vadīklas.
+1. Ievadiet rekvizītus visām vēlamajām moduļa vadīklām.
+1. Komandjoslā atlasiet **Saglabāt**. Tas arī atsvaidzinās priekšskatījuma pamatni.
 
 ### <a name="configure-a-container-module"></a>Konteinera moduļa konfigurēšana
 
@@ -112,7 +110,7 @@ Lai konfigurētu konteinera moduli lapā, rīkojieties, kā norādīts tālāk.
 
 1. Lapā atlasiet konteinera moduli (piemēram, karuselis vai plūstošā konteinera modulis).
 1. Labajā pusē rekvizītu rūtī izvērsiet ligzdotās vadīklas, atlasot galvenes, un iestatiet jebkuras nepieciešamās kontroles vērtības.
-1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes pogu, kas atrodas blakus vai nu konteinera nosaukumam, vai kādam no tajā esošo slotu nosaukumiem, un pēc tam atlasiet **Pievienot moduli**. Pēc tam pievienojiet pakārtotos moduļus atlasītajam konteineram. Plašāku informāciju skatiet procedūru [Moduļa pievienošana](#add-a-module) iepriekš šajā tēmā.
+1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes pogu, kas atrodas blakus vai nu konteinera nosaukumam, vai kādam no tajā esošo slotu nosaukumiem, un pēc tam atlasiet **Pievienot moduli**. Pēc tam pievienojiet pakārtotos moduļus atlasītajam konteineram. Plašāku informāciju skatiet sadaļu [Darbs ar moduļiem](#add-a-module) iepriekš šajā tēmā.
 1. Ja vairāki pakārtotie moduļi eksistē kā pamata konteinerā esoši brāļi, varat mainīt to parādīšanas secību pamata konteinerā. Atlasiet moduļa daudzpunktes pogu un pēc tam izmantojiet pogas ar augšup un lejup vērstām bultiņām.
 
 ## <a name="additional-resources"></a>Papildu resursi
@@ -126,8 +124,6 @@ Lai konfigurētu konteinera moduli lapā, rīkojieties, kā norādīts tālāk.
 [Darbs ar fragmentiem](work-with-fragments.md)
 
 [Konteinera moduļa pievienošana lapā](add-container-module.md)
-
-[Satura izvietojuma moduļu pievienošana lapā](add-content-placement-modules.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
 

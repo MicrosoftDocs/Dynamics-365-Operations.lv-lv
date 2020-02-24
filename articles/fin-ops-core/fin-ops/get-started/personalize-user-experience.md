@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935469"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029366"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -59,7 +59,8 @@ Lietojot programmu, daudzi atlases elementi tiek saglabāti, lai turpmāk sistē
 
 Netiešās personalizācijas ir personalizācijas, ko jūs veicat, vienkārši izmantojot vadīklas, kuras saglabā savu pašreizējo redzamo stāvokli.
 
-- **Režģa kolonnas** – varat pielāgot režģī rādīto kolonnu platumu, atlasot izmēra maiņas joslu pa kreisi vai pa labi no kolonnas virsraksta un pēc tam bīdot to pa kreisi vai pa labi, līdz kolonna ir nepieciešamajā platumā. Programma saglabā platumu, ko iestatāt kolonnai. Pēc tam, nākamreiz, atverot lapu, kurā iekļauts šis režģis, kolonnas lielums tiks mainīts līdz tādam platumam.
+- **Režģa kolonnas platums** – varat pielāgot režģī rādīto kolonnu platumu, atlasot izmēra maiņas joslu pa kreisi vai pa labi no kolonnas virsraksta un pēc tam bīdot to pa kreisi vai pa labi, līdz kolonna ir nepieciešamajā platumā. Programma saglabā platumu, ko iestatāt kolonnai. Pēc tam, nākamreiz, atverot lapu, kurā iekļauts šis režģis, kolonnas lielums tiks mainīts līdz tādam platumam.
+- **Režģa kolonnu kopsumma** — (pieejams tikai ar iespējotu jaunā režģa kontroli) varat izlemt, vai kopsumma ir jāparāda jebkuras skaitliskas kolonnas apakšpusē, kā arī to, vai ir redzama režģa kājene. Programma saglabā šos datus, lai šīs preferences tiktu saglabātas nākamajā reizē, kad atvērsit lapu. Papildinformāciju skatiet tēmā [Režģa iespējas](grid-capabilities.md). 
 - **Kopsavilkuma cilnes** – dažām lapām ir izvēršamas sadaļas, kas tiek sauktas par *kopsavilkuma cilnēm*. Programma glabā informāciju par kopsavilkuma cilnēm, kuras esat izvērsis un sakļāvis. Pēc tam, nākamreiz, kad jūs atvērsit šo lapu, būs izvērstas vai sakļautas tās pašas kopsavilkuma cilnes, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm jūs varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu kopsavilkuma cilni, jo programmai nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. Kā šajā tēmā ir paskaidrots tālāk, varat mainīt arī kopsavilkuma ciļņu secību lapā.
 - **Papildinformācijas lodziņš** – Dažām lapām ir rūts **Saistīta informācija**, kurā ir parādīta tikai lasāma informācija, kas saistīta ar pašreizējo lapas tēmu. Katru sadaļu rūtī **Saistīta informācija** sauc par *Papildinformācijas lodziņš*. Varat izvērst vai sakļaut rūti **Saistīta informācija**, kā arī varat izvērst vai sakļaut atsevišķus papildinformācijas lodziņus. Programma saglabā šīs preferences. Pēc tam, nākamreiz, kad atverat šo lapu, tiek izvērsta vai sakļauta rūts **Saistīta informācija** un atsevišķo papildinformācijas lodziņu stāvoklis, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm jūs varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu Papildinformācijas lodziņu, jo programmai nav jāizgūst informācija par šiem Papildinformācijas lodziņiem, kamēr tā nav izvērsta.
 - **Darbību rūtis** – vairumā lapu *darbību rūts* tiek rādīta lapas augšdaļā. Darbību rūtī ir pogas daudzām darbībām, ko pašreizējā lapā varat veikt. Bieži vien šīs pogas ir sakārtotas cilnēs. Varat piespraust visu darbību rūti atvērtā veidā, vai arī norādīt, ka pēc noklusējuma tai ir jābūt sakļautai. Pēc tam, nākamreiz, kad jūs atvērsit šo lapu, būs atvērtas vai sakļautas Darbības rūtis, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Ja jūs piespraudāt darbības rūti atvērtā veidā, tiks rādīta pēdējā cilne, kuru izmantojāt.
@@ -95,7 +96,7 @@ Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespē
 
 Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, izmantojot citus mehānismus (piemēram, ja vēlāties pārkārtot elementus), var izmantot rīkjoslu **Personalizēšana**. Lai atvērtu **Personalizēšana** rīkjoslu, veiciet vienu no šīm darbībām:
 
-- Atlasiet **Personalizēt šo formu** elementa rekvizītu logā.
+- Atlasiet **Personalizēt šo lapu** elementa rekvizītu logā.
 - Atlasiet **Personalizēt šo veidlapu** grupā **Personalizēt** cilnē **Opcijas** jebkuras lapas darbību panelī.
 - Navigācijas joslā atlasiet pogu **Iestatījumi** (zobrata simbols) un pēc tam atlasiet **Personalizēt.**
 
@@ -116,7 +117,8 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 - Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad uzdevumu joslā atlasāt pogu **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Varat interaktīvi noņemt vai pievienot laukus ciļņu secībai.
 - Izmantojiet rīku **Rādīt galvenē**, kad vēlaties, lai lauks tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kad uzdevumu joslā atlasāt pogu **Rādīt galvenē**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no tā.
 - Izmantojiet rīku **Bloķēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad uzdevumu joslā atlasāt pogu **Bloķēt**, visi pašlaik nerediģējami elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
-- Izmantojiet pogu **Pievienot PowerApp** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft PowerApps. Plašāku informāciju par to, kā lapā iegult PowerApps programmu, skatiet tēmā [Ieguldīt PowerApps programmas](embed-power-apps.md).
+- Izmantojiet pogu **Pievienot programmu no Power Apps** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft Power Apps. Plašāku informāciju par to, kā lapā iegult programmu no Power Apps, skatiet tēmā [Iegult programmas no Power Apps](embed-power-apps.md). Šī opcija ir pieejama tikai tad, ja ir atspējots līdzeklis [Saglabātie skati](saved-views.md).  
+- Izmantojiet pogu**Pievienot programmu**, lai lapā iegultu programmu – vai nu to, kas izveidota no Microsoft Power Apps vai trešās puses. Šī opcija ir pieejama tikai tad, ja ir iespējots līdzeklis [Saglabātie skati](saved-views.md). 
 - Izmantojiet rīku **Notīrīt**, lai lapai atiestatītu noklusējuma instalēto stāvokli. Tādējādi tiek noņemti visas pašreizējās lapas personalizēšanas iestatījumi. Šo darbību nevar atsaukt. Tādēļ šo rīku ir jāizmanto tikai tad, ja esat pārliecināts, ka vēlaties lapu atiestatīt.
 - Izmantojiet rīku **Importēt**, lai ielādētu personalizēšanu no kāda faila, kuru iepriekš izveidojāt jūs pats vai kāds cits. Kad importējat lapu personalizācijas, varat izvēlēties, vai tās ir jāpievieno visām lapas esošajām personalizācijām vai jāaizstāj ar tām. Šo darbību nevar atsaukt. Tāpēc pēc personalizācijas importēšanas manuāli jānotīra vai jāatsauc nevēlamās izmaiņas.
 - Izmantojiet rīku **Eksportēt**, lai savas personalizācijas šai lapai saglabātu kādā failā. Pēc tam savas personalizācijas varat koplietot ar citiem lietotājiem. Šiem lietotājiem ir nepieciešams tikai importēt failu, kurā ir jūsu personalizācijas šai lapai.
@@ -152,7 +154,7 @@ Informācijas panelis bieži vien ir pirmā lapa, ko redzat, atverot programmu. 
 Lai personalizētu informācijas paneli, ar peles labo pogu noklikšķiniet uz jebkura elementa un pēc tam atlasiet **Personalizēt**, lai atvērtu elementa rekvizītu logu.
 
 - Ja vēlaties slēpt vai pārdēvēt atlasīto elementu, izmaiņas varat veikt tieši rekvizītu logā.
-- Lai pārkārtotu darbvietas elementus, rekvizītu logā atlasiet **Personalizēt šo formu**, tādējādi atverot rīkjoslu **Personalizēšana**. Pēc tam varat izmantot rīku **Pārvietot**, lai elementus pārkārtotu pēc vēlēšanās.
+- Lai pārkārtotu darbvietas elementus, rekvizītu logā atlasiet **Personalizēt šo lapu**, tādējādi atverot rīkjoslu **Personalizēšana**. Pēc tam varat izmantot rīku **Pārvietot**, lai elementus pārkārtotu pēc vēlēšanās.
 - Lai pievienotu jaunu darbvietas elementu, rekvizītu logā atlasiet vienumu **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Sarakstus, elementus un saites darbvietai varat arī pievienot, kā aprakstīts šīs tēmas sadaļā [Sarakstu, elementu vai saišu pievienošana darbvietām](#adding-a-tile-list-or-link-to-a-workspace).
 
 ## <a name="administration-of-personalizations"></a>Personalizāciju administrēšana

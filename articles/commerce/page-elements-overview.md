@@ -3,7 +3,7 @@ title: Lapas modeļa glosārijs
 description: Šajā tēmā ir aprakstīti dažādi elementi, kas tiek izmantoti Microsoft Dynamics 365 Commerce vietnes lapās.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0285af2f73a25db3199b3cb089bc0b253a3b3f00
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914868"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025998"
 ---
 # <a name="page-model-glossary"></a>Lapas modeļa glosārijs
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīti dažādi elementi, kas tiek izmantoti Microsoft Dynamics 365 Commerce vietnes lapās.
@@ -41,10 +41,10 @@ Tālāk redzamajā tabulā ir sniegts kopsavilkums par terminiem, kas jums jāzi
 | Moduļa rekvizīts | <p>**Definīcija:** moduļa rekvizīti ir noteikti iestatījumi, ko nosaka modulis. Tos var rediģēt e-tirdzniecības autorēšanas rīkos. Piemēram, moduļa rekvizīti tiek izmantoti, lai iestatītu reklāmkaroga moduļa virsrakstu un fona attēlu.</p><p>**Kur tie tiek konfigurēti:** moduļa rekvizīti tiek atlasīti un konfigurēti rekvizītu rūtī, kas parādās autorēšanas vidēs (redaktori) veidnēm, izkārtojumiem, lapām, fragmentiem un programmu iestatījumiem.</p> |
 | [Veidne](templates-layouts-overview.md) | <p>**Definīcija:** veidnes nosaka moduļa kombinācijas un opcijas, kas jāizmanto lapu kategorijai (piemēram, mārketinga lapas, kategoriju lapas un preču lapas).</p><p>**Kur tās tiek atlasītas:** veidnes var atlasīt lapas vai izkārtojuma izveides darbplūsmu laikā.</p><p>**Kur tās tiek rediģētas:** veidnes tiek autorētas veidnes redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
 | [Izkārtojums](templates-layouts-overview.md) | <p>**Definīcija:** izkārtojumi definē pamata veidnes opciju kopas moduļu galīgo atlasi un novietojumu. Izkārtojumu var konfigurēt vienai lapai (*pielāgots izkārtojums*), vai arī to var koplietot vairākas lapas (*iepriekš iestatīts izkārtojums*).</p><p>**Kur tie tiek atlasīti:** izkārtojumus var atlasīt jaunas lapas izveides laikā vai, ja esošajai lapai ir nepieciešams cits izkārtojums.</p><p>**Kur tie tiek rediģēti:** izkārtojumi tiek autorēti izkārtojuma redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
-| Lapas instance | <p>**Definīcija:** lapas instances nosaka galīgo, lapai specifiski lokalizēto saturu vienai lapai. Šis saturs tiek iegūts no moduļa rekvizītu vērtībām.</p><p>**Kur tās tiek atlasītas:** lapas tiek atlasītas, piešķirot URL.</p><p>**Kur tās tiek rediģētas:** lapas tiek rediģētas lapas redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
+| [Lapas instance](modify-existing-page.md) | <p>**Definīcija:** lapas instances nosaka galīgo, lapai specifiski lokalizēto saturu vienai lapai. Šis saturs tiek iegūts no moduļa rekvizītu vērtībām.</p><p>**Kur tās tiek atlasītas:** lapas tiek atlasītas, piešķirot URL.</p><p>**Kur tās tiek rediģētas:** lapas tiek rediģētas lapas redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
 | [Tēma](select-site-theme.md) | <p>**Definīcija:** tēmas definē stila lapas kaskadēšanu (CSS) un nosaka to moduļu izskatu un sajūtu, kas tiek atveidoti lapā.</p><p>**Kur tās tiek atlasītas:** pēc tēmas augšupielādes jūsu vietnē, izmantojot Microsoft Dynamics Lifecycle Services (LCS), tās var atlasīt kā lapas konteinera moduļa rekvizītu.</p><p>**Kur tās tiek rediģētas:** tēmas pašlaik tiek izveidotas un rediģētas, izmantojot SDK. Pēc tam tās tiek augšupielādētas jūsu vietnē, izmantojot LCS.</p> |
 | [Fragments](work-with-fragments.md) | <p>**Definīcija:** fragmenti ir pilnībā konfigurēti moduļi ar lokalizētu saturu, ko var atkārtoti izmantot un centralizēti atjaunināt vairākās lapās. Piemēram, no virsraksta moduļa izveidoto fragmentu var izmantot visās veidnēs un visās jūsu vietnes lapās, kā arī centralizēti atjaunināt vienā vietā.</p><p>**Kur tie tiek atlasīti:** fragmentus var atlasīt, kad vien var atlasīt moduļus. Tos var aizstāt ar moduli, kas palīdz uzlabot efektivitāti, izmantojot atkārtotu un centralizētu autorēšanu.</p><p>**Kur tie tiek rediģēti:** fragmenti tiek rediģēti fragmentu redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
-| URL | <p>**Definīcija:** vienotie resursu vietrāži (URL) ir adreses, kas norāda uz tīmekļa lapām vai citiem URL.</p><p>**Kur tie tiek atlasīti:** URL tiek atlasīti, kad vien nepieciešamas saites starp lapām.</p><p>**Kur tie tiek rediģēti:** URL tiek rediģēti URL redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
+| [Vietrādis URL](create-page-URL.md) | <p>**Definīcija:** vienotie resursu vietrāži (URL) ir adreses, kas norāda uz tīmekļa lapām vai citiem URL.</p><p>**Kur tie tiek atlasīti:** URL tiek atlasīti, kad ir saites starp lapām.</p><p>**Kur tie tiek rediģēti:** URL tiek rediģēti URL redaktorā. Nav nepieciešams kods, lai tās izveidotu vai modificētu.</p> |
 | Līdzeklis | <p>**Definīcija:** līdzekļi ir failu bināri ar tādu paplašinājumu, kā .jpg, .docx, .pdf vai .mpg.</p><p>**Kur tie tiek atlasīti:** līdzekļi tiek atlasīti kā moduļa rekvizīti moduļiem, kuriem tie ir nepieciešami.</p><p>**Kur tie tiek rediģēti:** līdzekļi tiek augšupielādēti un saistītie metadati tiek rediģēti līdzekļu pārvaldniekā.</p> |
 
 ## <a name="additional-resources"></a>Papildu resursi

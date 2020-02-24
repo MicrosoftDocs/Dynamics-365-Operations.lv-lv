@@ -1,9 +1,9 @@
 ---
 title: Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LCS)
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885459"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027984"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ ms.locfileid: "2885459"
 </tr>
 <tr>
 <td><strong>Statuss</strong></td>
-<td>Novecojis: BMP blokshēmas diagrammas komponentu ir paredzēts noņemt 2020. gada februāra sākumā. Tiks noņemta tālāk minētā funkcionalitāte.
+<td>Novecojis: BMP blokshēmas diagrammas komponentu ir paredzēts noņemt 2020. gadā. Tiks noņemta tālāk minētā funkcionalitāte.
 <ul>
 <li>Esošās blokshēmas nebūs pieejamas apskatei vai rediģēšanai. Nebūs pieejami arī formas rekvizīti, kas ir saistīti ar blokshēmu darbībām, jo tiks noņemta visa cilne <strong>Blokshēma</strong>. Šīs blokshēmas ietver gan noklusējuma blokshēmas, kas tiek ģenerētas automātiski, gan pielāgotas blokshēmas, kas tiek modificētas, pamatojoties uz šīm noklusējuma blokshēmām.</li>
 <li>Mantotā piemērotība / atbilstību analīzes funkcija nebūs pieejama. Tādēļ neviens atbilstības saraksts netiks automātiski izveidots vai nebūs pieejams eksportam.

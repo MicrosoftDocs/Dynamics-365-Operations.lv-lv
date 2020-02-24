@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 14e3482f366319851bed84b6cdd6135f0bcd1e80
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 0aadecd5b37759492f7895ccfda1a777793a08b3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897338"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006245"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 for Talent (2019. gada 10. septembris)
 
@@ -55,7 +55,7 @@ Papildinformāciju par to, kā tiek publicētas izmaiņas, skatiet tēmā [Talen
 
 ### <a name="platform-update-29"></a>Platformas update 29
 
-Papildinformāciju par atjauninājumu Platform update 29 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Papildinformāciju par atjauninājumu Platform update 29 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="new-job-base-entity-available-in-data-management-framework-347202"></a>Jauns darba pamatelements ir pieejams datu pārvaldības struktūrā (347202)
 

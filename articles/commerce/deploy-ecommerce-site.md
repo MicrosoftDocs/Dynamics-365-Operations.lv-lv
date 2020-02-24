@@ -3,7 +3,7 @@ title: Jauna e-tirdzniecības nomnieka izvietošana
 description: Šajā tēmā ir aprakstīts, kā izvietot jaunu e-tirdzniecības nomnieku, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945517"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001787"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Jauna e-tirdzniecības nomnieka izvietošana
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā izvietot jaunu e-tirdzniecības vietni, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Pārskats
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) ir mākonī balstīta sadarbības darbvieta, ko partneri un klienti var izmantot, lai pārvaldītu savus projektus un vides, skatīt jaunāko informāciju par Microsoft Dynamics precēm un līdzekļiem, kā arī izveidotu, izsekotu un pārlūkotu atbalsta incidentus. E-tirdzniecības pārvaldības līdzekļi ir integrēti LCS.
 
 Lai uzzinātu vairāk par LCS skatiet [Lifecycle Services lietotāja rokasgrāmatā](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,11 +80,16 @@ Pēc tam, kad ievākta nepieciešamā informācija, veiciet tālāk minētās da
 1. Nākamajā lapā ievadiet nepieciešamo informāciju un pēc iesniedziet veidlapu. Notiks atgriešanās atpakaļ cilnē **E-tirdzniecība**, kur ir jābūt redzamam, ka inicializēšana ir uzsākta.
 1. Lai skatītu inicializēšanas statusu, vai nu nospiediet **Atsvaidzināt**, vai arī vēlāk atgriezieties cilnē **E-tirdzniecība**.
     
-Kad e-tirdzniecība tiek inicializēta no LCS, sistēma nodrošina vairākus komponentus, kas nepieciešami e-tirdzniecībai, un saista tos ar vidi. Kad nodrošināšana ir pabeigta, tiek atjaunināta cilne **E-tirdzniecība** lapā **Mazumtirdzniecības pārvaldība**, lai atspoguļotu nodrošināšanu. Lapa parāda jaunākās pielāgošanas izvietošanas un visu citu notiekošo izvietošanu statusu. Tajā ir arī saites uz e-tirdzniecības vietni un e-tirdzniecības vietnes pārvaldības rīku (autorēšanas rīku).
+Kad e-tirdzniecība tiek inicializēta no LCS, sistēma nodrošina vairākus komponentus, kas nepieciešami e-tirdzniecībai, un saista tos ar vidi. Kad nodrošināšana pabeigta, tiek atjaunināta cilne **E-komercija** lapā **Mazumtirdzniecības pārvaldība**, lai atspoguļotu nodrošināšanu. Lapa parāda jaunākās pielāgošanas izvietošanas un visu citu notiekošo izvietošanu statusu. Tajā ir arī saites uz e-komercijas vietni un e-komercijas vietnes veidotāju, kurā vietnes tiek autorētas.
 
-## <a name="access-the-authoring-environment"></a>Piekļuve autorēšanas videi
+## <a name="access-site-builder"></a>Piekļuve vietnes veidotājam
 
-Lai piekļūtu autorēšanas videi, dodieties uz cilni **E-tirdzniecība**, kas atrodas lapā **Mazumtirdzniecības pārvaldība**. Tur atradīsit saites uz e-tirdzniecības vietni un vietnes pārvaldības rīku.
+Lai piekļūtu vietnes veidotājam, dodieties uz cilni **Komercija** LCS lapā **Mazumtirdziecības pārvaldība** un atlasiet saiti **e-komercijas vietnes pārvaldības rīks**. Vietnes veidotāja izvietošanas lapa tiek parādīts nomnieka līmeņa skatījums. No šīs lapas iespējams veikt tālāk minētās darbības.
+
+- Modificēt nomnieka līmeņa iestatījumus.
+- Doties uz jebkuru jūsu izveidoto vietni, un jums ir atļauja to apskatīt. 
+- Piekļuves apskatu funkcijas, piemēram, regulēšanu un ziņošanu.
+- Izveidot jaunu vietni. Papildinformāciju par to, kā izveidot jaunu vietni, skatiet sadaļā [E-komercijas vietnes izveide](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771402"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030870"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 
@@ -56,7 +56,7 @@ Pašreizējā topoloģijā [izveidojiet jaunu ER formātu](tasks/er-format-conf
 
 Lai norādītu, kā tiek maršrutēti EP formāta ģenerētie dokumenti, jums ir jākonfigurē [Elektronisko paziņojumu (EP) galamērķi](electronic-reporting-destinations.md). Katram ER galamērķim, kas ir konfigurēts tā, lai ģenerētos dokumentus saglabātu kā failus, jums ir jānorāda dokumentu pārvaldības struktūras dokumenta veids. Lai maršrutētu dokumentus, ko ģenerē dažādi ER formāti, var lietot dažādus dokumentu veidus.
 
-1. Pievienojiet jaunu [dokumenta veidu](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ER formātam, ko iepriekš izveidojāt vai importējāt. Nākamajā ilustrācijā dokumenta veids ir **FileX**.
+1. Pievienojiet jaunu [dokumenta veidu](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ER formātam, ko iepriekš izveidojāt vai importējāt. Nākamajā ilustrācijā dokumenta veids ir **FileX**.
 2. Lai atšķirtu šo dokumenta veidu no citiem dokumentu veidiem, iekļaujiet konkrētu atslēgvārdu tā nosaukumā. Piemēram, nākamajā ilustrācijā nosaukums ir **(LOCAL) folder** ((LOKĀLA) mape).
 3. Laukā **Klase** norādiet **Pievienot failu**.
 4. Laukā **Grupa** norādiet **Fails**.
@@ -70,7 +70,7 @@ Lai norādītu, kā tiek maršrutēti EP formāta ģenerētie dokumenti, jums i
 
 Pārskatiet metodes **insertFile()** kodu klasei **ERDocuManagement**. Ievērojiet, ka tiek parādīts notikums **AttachingFile()**, kamēr ierakstam tiek pievienots ģenerētais fails.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk nor�
     1. Saglabājiet ģenerētos failus vietējās failu sistēmas mapē serverī, kurā darbojas pakalpojums Application Object Server (AOS).
     2. Saglabājiet šos ģenerētos failus tikai tad, ja tiek izmantots jaunais dokumenta veids (piemēram, veids **FileX**, kura nosaukumā ir atslēgvārds “(LOCAL)”), kamēr fails tiek pievienots ierakstam ER izpildes darbu žurnālā.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

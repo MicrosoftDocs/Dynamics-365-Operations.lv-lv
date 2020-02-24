@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811676"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005707"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811676"
 Šajā tēmā ir sniegts apskats par palīdzības sistēmas komponentiem. Palīdzības sistēmu koplieto šādi produkti:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Palīdzībai varat piekļūt no rūts Palīdzība jebkurā jūsu lietotajā produktā. 
 
@@ -42,7 +42,7 @@ Palīdzībai varat piekļūt no rūts Palīdzība jebkurā jūsu lietotajā prod
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
 
-Vietne docs.microsoft.com site[docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) ir galvenais augstāk norādīto programmu produkta dokumentācijas avots. Vietnē ir pieejami tālāk norādītie līdzekļi.
+Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) ir iepriekš minēto programmu produkta dokumentācijas primārais informācijas avots. Vietnē ir pieejami tālāk norādītie līdzekļi.
 
 - **Piekļuve visjaunākajam saturam**— vietne nodrošina ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc tā palīdz nodrošināt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.
 - **Saturs, ko ir rakstījuši speciālisti**— vietne nodrošina plašāku produkta dokumentācijas klāstu, ko var paplašināt kopienas dalībnieki gan korporācijā Microsoft, gan ārpus tās.
@@ -73,7 +73,7 @@ Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, 
 
 Video [Kā sniegt ieguldījumu Microsoft Dynamics 365 dokumentācijās](https://youtu.be/m5djioozRbg) (norādīts iepriekš) ir iekļauts Microsoft Dynamics 365 kanālā YouTube.
 
-Lai iegūtu sīkāku informāciju, skatiet mūsu [līdzstrādnieku rokasgrāmatu sadaļā](https://docs.microsoft.com/en-us/contribute).
+Lai iegūtu sīkāku informāciju, skatiet mūsu [līdzstrādnieku rokasgrāmatu sadaļā](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Pašlaik tiek pieņemta līdzdarbošanās tikai mūsu angļu valodas satura veidošanā.
@@ -106,12 +106,12 @@ Lai piekļūtu palīdzības saturam, noklikšķiniet uz ikonas **Palīdzība** (
 No rūts Palīdzība varat piekļūt rakstiem, kas attiecas uz klientu. Kad rūti Palīdzība atverat pirmo reizi un noklikšķināt uz cilnes **Palīdzība**, tiek parādīti raksti, kas attiecas uz pašlaik atvērto lapu. Ja nav atrasts neviens raksts, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī Palīdzība noklikšķināt uz kāda raksta, pārlūkprogrammā tiek atvērta jauna cilne un tiek parādīts šis raksts.
 
 > [!IMPORTANT]
-> Šī sadaļa neattiecas uz programmu Dynamics 365 Talent. Programmatūras Talent palīdzības sistēmai tiek automātiski izveidots savienojums ar produkta uzdevumu ceļvežiem. Tāpat programmatūrai Talent nevar izveidot pielāgotus uzdevumu ceļvežus.
+> Šī sadaļa neattiecas uz programmu Dynamics 365 Human Resources. Human Resources Palīdzības sistēma automātiski savienojas ar produkta Uzdevumu ceļvedi. Tāpat Human Resources varat izveidot pielāgotus Uzdevumu ceļvežus.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Piekļuve uzdevumu ceļvežiem rūtī Palīdzība
 
-Lai rūtī Palīdzība varētu piekļūt uzdevumu ceļvežiem, sistēmas administratoram programmatūrā Finance, Supply Chain Managment un Retail ir jāatver lapa **Sistēmas parametri** un jākonfigurē daži iestatījumi.
+Lai varētu piekļūt Uzdevumu ceļvežiem no rūts Palīdzība, sistēmas administratoram jādodas uz lapu **Sistēmas parametri** Finance, Supply Chain Managment un Commerce un jākonfigurē daži iestatījumi.
 
 > [!NOTE]
 > - Lai konfigurētu palīdzību, jums ir jāpierakstās ar kontu tajā pašā nomniekā, kurā ir izvietota programma.
