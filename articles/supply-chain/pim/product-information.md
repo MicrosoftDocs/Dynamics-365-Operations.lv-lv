@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570752"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004000"
 ---
 # <a name="product-information-overview"></a>Preču informācijas pārskats
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570752"
 
 Šajā tēmā ir sniegta informācija par preču informācijas pārvaldību. Preču informācijas pārvaldība darbojas ar kopīgoto preču definīciju, kategoriju un identifikatoriem visās juridiskajās personās, kā arī ar noteiktām preču konfigurācijām, lai ietilptu biznesa procesos. 
 
-Preču informācija ir piegādes ķēžu un mazumtirdzniecības programmu pamats visās nozarēs. Tas attiecas uz procesiem un tehnoloģijām, kas fokusējas uz centralizētu preču informācijas pārvaldību (piemēram, piegādes ķēdēs). Ir svarīgi izmantot kopīgotas preču definīcijas, dokumentāciju, atribūtus un identifikatorus. Dažādos biznesa risinājumu moduļos preču informācija un konfigurācija ir vajadzīga, lai pārvaldītu biznesa procesus, kas ir saistīti ar īpašām precēm, preču saimēm vai kategorijām.
+Preču informācija ir piegādes ķēžu un komercijas programmu pamats visās nozarēs. Tas attiecas uz procesiem un tehnoloģijām, kas fokusējas uz centralizētu preču informācijas pārvaldību (piemēram, piegādes ķēdēs). Ir svarīgi izmantot kopīgotas preču definīcijas, dokumentāciju, atribūtus un identifikatorus. Dažādos biznesa risinājumu moduļos preču informācija un konfigurācija ir vajadzīga, lai pārvaldītu biznesa procesus, kas ir saistīti ar īpašām precēm, preču saimēm vai kategorijām.
 
 ## <a name="product-definition"></a>Preču definīcija
 

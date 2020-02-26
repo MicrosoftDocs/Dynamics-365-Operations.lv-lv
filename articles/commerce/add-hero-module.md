@@ -1,9 +1,9 @@
 ---
-title: Centrālais modulis
-description: Šī tēma ietver centrālos moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+title: Satura bloka modulis
+description: Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,33 +18,47 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c43704992e9759e7207f1b1c9bc958449daa6d1d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785398"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025762"
 ---
-# <a name="hero-module"></a>Centrālais modulis
+# <a name="content-block-module"></a>Satura bloka modulis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šī tēma ietver centrālos moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Centrālais modulis tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Piemēram, mazumtirgotājs var pievienot centrālo moduli E-komercijas sākumlapai, lai reklamētu jaunu preci un piesaistītu klientu uzmanību.
+Satura bloka modulis tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Piemēram, mazumtirgotājs var pievienot satura bloka moduli e-Commerce sākumlapai, lai reklamētu jaunu preci un piesaistītu klientu uzmanību.
 
-Centrālo moduli vada dati no satura pārvaldība sistēmas (CMS). Tas ir savrups modulis, kas nav atkarīgs no citiem moduļiem lapā. Centrālo moduli var ievietot jebkurā vietnes lapā, kur mazumtirgotājs vēlas kaut ko pārdot vai reklamēt (piemēram, preces, pārdošanu vai līdzekļus).
+Satura bloka moduli vada dati no satura pārvaldība sistēmas (CMS). Tas ir savrups modulis, kas nav atkarīgs no citiem moduļiem lapā. Satura bloka moduli var ievietot jebkurā vietnes lapā, kur mazumtirgotājs vēlas kaut ko pārdot vai reklamēt (piemēram, preces, pārdošanu vai līdzekļus).
 
-## <a name="examples-of-hero-module-in-e-commerce"></a>Centrālo moduļu piemēri E-komercijā
+## <a name="examples-of-content-block-module-in-e-commerce"></a>Satura bloka moduļa piemēri e-Commerce
 
-- Centrālo moduli var izmantot E-komercijas vietnes sākumlapā, lai izceltu veicināšanas pasākumus un jaunās preces.
-- Centrālais modulis var tikt izmantots preces informācijas lapā, lai parādītu informāciju par preci.
-- Vairākus centrālos moduļus var ievietot karuseļa modulī, lai izceltu vairākas preces vai veicināšanas pasākumus.
+- Satura bloka moduli var izmantot e-Commerce vietnes sākumlapā, lai izceltu veicināšanas pasākumus un jaunās preces.
+- Satura bloka modulis var tikt izmantots preces informācijas lapā, lai parādītu informāciju par preci.
+- Vairākus satura bloka moduļus var ievietot karuseļa modulī, lai izceltu vairākas preces vai veicināšanas pasākumus.
 
-## <a name="hero-module-properties"></a>Centrālā moduļa rekvizīti
+## <a name="content-block-modules-and-themes"></a>Satura bloku moduļi un tēmas
+
+Satura bloku moduļi var atbalstīt dažādus izkārtojumus un stilus, kas balstīti uz tēmu. Piemēram, Fabrikam tēma atbalsta trīs izkārtojuma variācijas satura bloka modulī: varonis, funkcija un mozaīka. Varoņa izkārtojumā tiek rādīts fonā esošs attēls ar teksta pārklājumu. Funkciju izkārtojumā attēls un teksts ir redzams līdzās. Mozaīkas izkārtojums atļauj vairākus satura blokus mozaīkas formātā.
+
+Turklāt dizainā var būt dažādi rekvizīti katram izkārtojumam. Dizaina izstrādātājs var veidot vairāk izkārtojumu ar vairāk stiliem, izmantojot satura bloka moduli.
+
+Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar varonis izkārtojumu.
+
+![Hero moduļa piemērs](./media/Hero.PNG)
+
+Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar funkcijas izkārtojumu.
+
+![Līdzekļu moduļu piemēri](./media/Feature.PNG)
+
+## <a name="content-block-module-properties"></a>Satura bloka moduļa rekvizīti
 
 | Rekvizīta nosaukums  | Vērtības | Apraksts |
 |----------------|--------|-------------|
@@ -52,27 +66,33 @@ Centrālo moduli vada dati no satura pārvaldība sistēmas (CMS). Tas ir savrup
 | Virsraksts        | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Katram centrālajam modulim var būt virsraksts. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
 | Rindkopa      | Rindkopas teksts | Centrālie moduļi atbalsta rindkopu tekstu bagātinātā teksta formātā. Tiek atbalstītas dažas pamata bagātinātā teksta iespējas, piemēram, treknraksts, pasvītrots un slīpraksta teksts, kā arī hipersaites. Modulim piemērots lapas dizains var ignorēt dažas no šīm iespējām. |
 | Saistīt           | Saites teksts, saites vietrādis URL, pieejamās bagātinātās interneta lietojumprogrammas (ARIA) etiķete un **Atvērt saiti jaunā cilnē** | Centrālie moduļi atbalsta vienu vai vairākas saites “aicinājums uz darbību”. Ja ir pievienota saite, ir nepieciešams saites teksts, vietrādis URL un ARIA etiķete. ARIA etiķetēm jābūt aprakstošām, lai tās atbilstu pieejamības prasībām. Saites var konfigurēt tā, lai tās tiktu atvērtas jaunā cilnē. |
-| Teksta izvietojums | **Augšpusē pa kreisi**, **Augšpusē pa labi**, **Augšpusē centrā**, **Apakšpusē pa kreisi**, **Apakšpusē pa labi**, **Apakšpusē centrā**, **Centrā pa kreisi**, **Centrā pa labi** vai **Centrā** | Šis rekvizīts nosaka attēla novietojumu attiecībā pret tekstu. Piemēram, atlasot **Pa labi**, attēls tiek parādīts pa labi no teksta. |
-| Teksta motīvs     | **Gaišs** vai **Tumšs** | Teksta krāsu shēmu var definēt, pamatojoties uz fona attēlu. Piemēram, ja attēlam ir tumšs fons, var lietot gaismas dizainu, lai tekstu padarītu redzamāku un panāktu atbilstību krāsu kontrasta koeficientu pieejamībai. |
-| Gradients       | **Patiess** vai **Nepatiess** | Gradientu var lietot attēlam, lai nodrošinātu krāsu kontrasta attiecības pieejamības nolūkiem. |
 
-## <a name="add-a-hero-module-to-a-new-page"></a>Centrālā moduļa pievienošana jaunā lapā
+## <a name="content-block-module-properties-exposed-by-the-fabrikam-theme"></a>Satura bloka moduļa rekvizīti, kas pakļauti Fabrikam motīvam 
+
+| Rekvizīta nosaukums  | Vērtības | Apraksts |
+|----------------|--------|-------------|
+| Teksta izvietojums | **Pa kreisi**, **Pa labi**, **Pa vidu** | Šis rekvizīts nosaka teksta novietojumu attiecībā pret attēlu. Tas attiecas tikai uz varoņa izkārtojumu. |
+| Teksta motīvs     | **Gaišs** vai **Tumšs** | Teksta krāsu shēmu var definēt, pamatojoties uz fona attēlu. Piemēram, ja attēlam ir tumšs fons, var lietot gaismas dizainu, lai tekstu padarītu redzamāku un panāktu atbilstību krāsu kontrasta koeficientu pieejamībai. Tas attiecas tikai uz varoņa izkārtojumu.|
+| Attēla izvietojums       | **Pa kreisi**, **Pa labi** | Šis rekvizīts norāda, vai attēlam jāatrodas pa kreisi vai pa labi no teksta. Tas attiecas tikai uz funkciju izkārtojumu.  |
+
+## <a name="add-a-content-block-module-to-a-new-page"></a>Satura bloka moduļa pievienošana jaunā lapā
 
 Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Veidnes** un izveidojiet lapas veidni ar nosaukumu **centrālā veidne**.
+1. Dodieties uz **Veidnes**un izveidojiet lapas veidni ar nosaukumu **satura bloka veidne**.
 1. Noklusētās lapas **Galvenajā** slotā pievienojiet centrālo moduli.
 1. Pārbaudiet veidni un publicējiet to.
-1. Izmantojiet jūsu tikko izveidoto centrālo veidni, lai izveidotu lapu ar nosaukumu **centrālā lapa**.
+1. Izmantojiet jūsu tikko izveidoto konteinera varoņa veidni, lai izveidotu lapu ar nosaukumu **satura bloka lapa**.
 1. Noklusējuma lapas **Galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** zem **Atlasīt moduļus** izvēlieties centrālio moduli un pēc tam atlasiet **Labi**.
-1. Strukturējuma kokā pa kreisi atlasiet centrālo moduli.
+1. Strukturējuma kokā pa kreisi atlasiet satura bloka moduli.
 1. Rekvizītu rūts labajā pusē atlasiet **Pievienot attēlu**. Pēc tam vai nu atlasiet esošu attēlu, vai augšupielādējiet jaunu attēlu.
 1. Atlasiet **Virsraksts**.
 1. Dialoglodziņā **Virsraksts** pievienojiet virsraksta tekstu, atlasiet virsraksta līmeni un pēc tam atlasiet **Labi**.
 1. Sadaļā **Bagātināts teksts** pievienojiet vēlamo tekstu.
-1. Atlasiet **Pievienot darbības saiti**.
-1. Dialoglodziņā **Darbības saite** pievienojiet saites tekstu, saites vietrādi URL un ARIA etiķeti saitei un pēc tam atlasiet **Labi**.
+1. Atlasiet **Pievienot saiti**.
+1. Dialoglodziņā **Saite** pievienojiet saites tekstu, saites vietrādi URL un ARIA etiķeti saitei un pēc tam atlasiet **Labi**.
+1. Atlasiet **Varonis** izkārtojumu.
 1. Lapas saglabāšana un savu izmaiņu priekšskatīšana
 1. Pārbaudiet lapu un publicējiet to.
 
@@ -80,14 +100,10 @@ Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekviz
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
-[Brīdinājuma modulis](add-alert.md)
+[Veicināšanas reklāmkarogu modulis](add-alert.md)
 
 [Karuseļa modulis](add-carousel.md)
 
-[Bagātinātā satura bloka modulis](add-content-rich-block.md)
-
-[Satura izvietojuma modulis](add-content-placement-modules.md)
-
-[Līdzekļa modulis](add-feature-module.md)
+[Teksta bloka modulis](add-content-rich-block.md)
 
 [Video atskaņotāja modulis](add-video-player.md)

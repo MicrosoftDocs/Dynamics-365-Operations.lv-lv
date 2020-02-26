@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024256"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006521"
 ---
 # <a name="get-started-with-talent"></a>Darba sākšana ar Talent
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024256"
 Programmā Microsoft Dynamics 365 Talent var viegli izmainīt lietotāja interfeisu un iestatīt opcijas, kas padara programmatūru intuitīvāku un piemērotāku jūsu vajadzībām. Šajā tēmā ir ietvertas saites uz tēmām, kurās ir sniegta informācija par to, kā pielāgot lietotāja interfeisu savām vēlmēm. Tēmā ir ietvertas arī saites uz informāciju, kas var palīdzēt jums efektīvi un precīzi atrast informāciju sistēmā. 
 
 > [!NOTE] 
-> Tālāk minētie produkti ir cieši saistīti: Dynamics 365 Finance, Dynamics 365 Retail un Dynamics 365 Talent. Visos trīs produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Retail, produkta nosaukums ir Dynamics 365 Retail, tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums ir Dynamics 365 Talent, bet tēmās, kas galvenokārt ir saistītas ar pamatproduktu, produkta nosaukums ir Dynamics 365 Finance. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
+> Tālāk minētie produkti ir cieši saistīti: Dynamics 365 Finance, Dynamics 365 Commerce un Dynamics 365 Talent. Visos trīs produktos var būt pieejama tā pati funkcionalitāte. Tādēļ tēmās, kas galvenokārt ir saistītas ar Commerce, produkta nosaukums ir Dynamics 365 Commerce, tēmās, kas galvenokārt ir saistītas ar Talent, produkta nosaukums ir Dynamics 365 Talent, bet tēmās, kas galvenokārt ir saistītas ar pamatproduktu, produkta nosaukums ir Dynamics 365 Finance. Tēmas, kas sarakstītas vienam produktam, var attiekties uz to pašu funkcionalitāti saistītā produktā.
 
 ## <a name="personalizing-talent"></a>Programmas Talent personalizēšana 
 Tālāk norādītajās tēmās ir paskaidrots, kā iestatīt daudzus Talent līdzekļus, kas palīdz ātrāk veikt vajadzīgo darbu. 

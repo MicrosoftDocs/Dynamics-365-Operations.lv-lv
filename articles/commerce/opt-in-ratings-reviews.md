@@ -3,7 +3,7 @@ title: Piekrišana izmantot vērtējumus un atsauksmes
 description: Šajā tēmā ir paskaidrots, kā piekrist izmantot vērtējumus un apskatus savā Microsoft Dynamics 365 Commerce vietnē.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697984"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027269"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Piekrišana izmantot vērtējumus un atsauksmes
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā piekrist izmantot vērtējumus un apskatus savā Microsoft Dynamics 365 Commerce vietnē.
@@ -36,7 +35,7 @@ ms.locfileid: "2697984"
 
 Vērtējumu un apskatu risinājums ir daudzkanālu risinājums, ko var padarīt pieejamu Dynamics 365 Commerce, izmantojot Microsoft Dynamics Lifecycle Services (LCS). LCS ir administrēšanas portāls, ko mazumtirgotāji izmanto, lai pārvaldītu savas vides no nodrošināšanas līdz ekspluatācijas pārtraukšanai.
 
-Ja vēlaties izmantot vērtējumu un apskatu risinājumu savā Commerce tīmekļa lapā, jums vispirms jāpiekrīt.
+Ja vēlaties izmantot vērtējumu un pārskatu risinājumu savā Commerce vietnē, jums ir jāpiesakās vērtējumiem un pārskatiem, kad izvietojat savu e-komercijas vietni Dynamics 365 Commerce.
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>Piekrišana izmantot vērtējumus un atsauksmes
 
@@ -51,6 +50,9 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 
 1. Pabeidziet e-komercijas inicializēšanas procesu.
 
+> [!NOTE] 
+> Ja esat esošs Dynamics 365 Commerce klients, kas jau ir izvietojis e-komercijas vietni, neizvēloties vērtējumus un pārskatus, un tagad vēlaties izmantot vērtējumus un pārskatus Dynamics 365 Commerce pakotnē, lūdzu, iesniedziet pakalpojuma pieprasījumu. Informāciju par to, kā iesniegt pakalpojuma pieprasījumu, skatiet šeit: [Pakalpojumu pieprasījumu iesniegšanas process.](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json). 
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Vērtējumu un atsauksmju apskats](ratings-reviews-overview.md)
@@ -60,3 +62,5 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 [Vērtējumu un atsauksmju konfigurēšana](configure-ratings-reviews.md)
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Retail](sync-product-ratings.md)
+
+

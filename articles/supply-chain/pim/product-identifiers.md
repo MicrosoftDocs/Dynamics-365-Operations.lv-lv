@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934890"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004023"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori 
 
@@ -88,7 +88,7 @@ Lapā **Ārējais krājuma nosaukums** varat saistīt debitora vai kreditora kr�
 | apraksts | Nosaukums, ko debitors ir saistījis ar krājumu | Nosaukums, ko kreditors ir saistījis ar krājumu |
 | Ārējais krājuma teksts | Debitora krājuma apraksts | Kreditora krājumu apraksts |
 
-Ja daudzi debitori vai kreditori izmanto vienu un to pašu krājuma numuru (piemēram, pircēju apvienības vai mazumtirgotāju grupas gadījumā), varat izveidot debitoru vai kreditoru grupas, lai atvieglotu ārējās preču informācijas uzturēšanu.
+Ja daudzi debitori vai kreditori izmanto vienu un to pašu krājuma numuru (piemēram, pircēju apvienības vai komercijas grupas gadījumā), varat izveidot debitoru vai kreditoru grupas, lai atvieglotu ārējās preču informācijas uzturēšanu.
 
 - Ja strādājat ar debitoru grupām, pārejiet uz sadaļu **Pārdošana** &gt; **Iestatījumi** &gt; **Krājumi** &gt; **Ārējā krājuma apraksts**, lai izveidotu un uzturētu grupas un saistītos krājumu numurus. Lai saistītu debitorus ar grupu, pārejiet uz sadaļu **Debitoru parādi** &gt; **Debitori** &gt; **Visi debitori** un pēc tam kopsavilkuma cilnē **Pārdošanas pasūtījuma noklusējuma informācija** norādiet lauka **Krājumi — debitoru grupa** vērtību.
 - Ja strādājat ar kreditoru grupām, pārejiet uz sadaļu **Sagāde un avoti** &gt; **Iestatījumi** &gt; **Ārējā krājumu apraksta grupa**, lai izveidotu un uzturētu grupas un saistītos krājumu numurus. Lai saistītu kreditorus ar grupu, pārejiet uz sadaļu **Kreditoru parādi** &gt; **Kreditori** &gt; **Visi kreditori** un pēc tam kopsavilkuma cilnē **Pirkšanas pasūtījuma noklusējuma informācija** norādiet lauka **Krājumi — kreditoru grupa** vērtību.

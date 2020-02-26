@@ -1,5 +1,5 @@
 ---
-title: Izvēles funkciju konfigurēšana Commerce priekšskatījuma videi
+title: Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi
 description: Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce priekšskatījuma videi.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2c4872cdebc414eaa865af025237bd9e1d14bfd2
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906120"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024733"
 ---
-# <a name="configure-optional-features-for-a-commerce-preview-environment"></a>Izvēles funkciju konfigurēšana Commerce priekšskatījuma videi
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce priekšskatījuma videi.
@@ -173,13 +173,13 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Commerce priekšskatījuma vides pārskats](cpe-overview.md)
+[Dynamics 365 Commerce priekšskatījuma vides pārskats](cpe-overview.md)
 
-[Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
+[Dynamics 365 Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
 
-[Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
+[Dynamics 365 Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
 
-[Commerce priekšskatījuma vides BUJ](cpe-faq.md)
+[Dynamics 365 Commerce priekšskatījuma vides BUJ](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -188,5 +188,3 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Palīdzības resursi Dynamics 365 Retail](../retail/index.md)

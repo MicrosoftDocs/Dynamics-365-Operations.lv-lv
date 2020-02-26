@@ -1,5 +1,5 @@
 ---
-title: Bieži uzdotie jautājumi par Commerce priekšskatījuma vidi
+title: Dynamics 365 Commerce priekšskatījuma vides BUJ
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024756"
 ---
-# <a name="commerce-preview-environment-faq"></a>Bieži uzdotie jautājumi par Commerce priekšskatījuma vidi
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce priekšskatījuma vides BUJ
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
@@ -83,10 +82,10 @@ Ja rodas problēmas, mēģinot piekļūt Yammer grupai, varat sazināties ar Mic
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Commerce priekšskatījuma vides pārskats](cpe-overview.md)
+[Dynamics 365 Commerce priekšskatījuma vides pārskats](cpe-overview.md)
 
-[Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
+[Dynamics 365 Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
 
-[Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
+[Dynamics 365 Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
 
-[Neobligāto līdzekļu konfigurēšana Commerce priekšskatījuma videi](cpe-optional-features.md)
+[Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi](cpe-optional-features.md)

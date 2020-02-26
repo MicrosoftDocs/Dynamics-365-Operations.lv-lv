@@ -3,7 +3,7 @@ title: Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma dire
 description: Šajā tēmā ir sniegta informācija par to kā izmantot darba veidnes un vietas direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026960"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028032"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
 
@@ -152,7 +152,7 @@ Atzīmējiet šo opciju, lai lietotu partijas stratēģijas krājumiem, kam ir i
 ### <a name="strategy"></a>Stratēģija
 
 -   **Konsolidēt** — šī stratēģija tiek izmantota, lai konsolidētu krājumus noteiktā vietā, ja jau ir pieejami līdzīgi krājumi. Tas darbojas tikai ar izvietošanas veida vietas direktīvu. Biežāk izvietošanas iestatīšanai izmanto konsolidēšanu pirmajā darbības rindā un pēc tam otrajā mēģinājumā izmanto izvietošanu bez konsolidācijas. Preču konsolidēšana padara efektīvāku vēlāku izdošanu.
--   **Saskaņo iepakojuma daudzumu** — šī stratēģija tiek izmantota, lai pārbaudītu, vai izdošanas vietā ir norādītais iepakojuma daudzums. Tas darbojas tikai ar veida izdošanas vietas direktīvu. 
+-   **Saskaņot iepakojuma daudzumu** — šī stratēģija atradīs atrašanās vietu, kas ietver numura zīmi, kurai ir precīzs nepieciešamais daudzums. To nevar izmantot ar vietām, kas nav iekļautas numura zīmes kontrolē. Šī stratēģija darbojas tikai ar izdošanas darba veida vietas direktīvu.
 -   **FEFO partijas rezervēšana** — šī stratēģija tiek izmantota, ja krājumi tiek novietoti, izmantojot partijas beigu datumu, un tiek piešķirti partijas rezervācijai. Šo stratēģiju var izmantot tikai krājumiem, kuriem iespējotas partijas. Tas darbojas tikai ar izdošanas darba veida vietas direktīvu. 
 -   **Noapaļot uz augšu līdz pilnai NV** — šo stratēģiju izmanto krājumu daudzuma noapaļošanai, lai tas atbilstu noliktavas vienību (NV) daudzumam, kas ir piešķirts izdodamajiem krājumiem. Šo stratēģiju var izmantot tikai veida izdošanas vietas direktīvas papildināšanas veidam. 
 -   **Tukša vieta bez ienākoša darba** — šo stratēģiju izmanto, lai atrastu tukšas vietas. Novietojums tiek uzskatīts par tukšu, ja tam nav fizisku krājumu un nav gaidāms ienākošais darbs. Šo stratēģiju izmanto tikai vietas direktīvas izvietošanas veidam. 

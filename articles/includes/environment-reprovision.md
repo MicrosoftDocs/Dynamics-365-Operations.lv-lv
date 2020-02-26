@@ -1,7 +1,7 @@
-Kopējot datu bāzi starp vidēm, jāpalaiž vides atkārtotas nodrošināšanas rīks, lai nokopētā datu bāze būtu pilnībā funkcionāla un visi Retail komponenti būtu atjaunināti.
+Kopējot datu bāzi starp vidēm, jāpalaiž vides atkārtotas nodrošināšanas rīks, lai nokopētā datu bāze būtu pilnībā funkcionāla un visi Commerce komponenti būtu atjaunināti.
 
 > [!IMPORTANT]
-> Ieteicams palaist šo procedūru neatkarīgi no tā, vai izmantojat Retail komponentus, jo Retail funkcionalitāte ir iekļauta visās vidēs. 
+> Ieteicams palaist šo procedūru neatkarīgi no tā, vai izmantojat Commerce komponentus, jo Commerce funkcionalitāte ir iekļauta visās vidēs. 
 
 Pirms turpināt, jums jāpārliecinās, vai ir izpildīti tālāk norādītie priekšnosacījumi.
 1. Ja veicat jaunināšanu uz 2017. gada jūlija laidienu (zināms arī kā 7.2) 7.2.11792.56024, pirms datu jaunināšanas mērķa vidē izmantojiet tajā tālāk norādītos programmas X++ labojumfailus. Tie novērsīs dažādas kļūdas, kas rodas datu jaunināšanas laikā.

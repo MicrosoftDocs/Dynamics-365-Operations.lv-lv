@@ -3,7 +3,7 @@ title: Vērtējumu un atsauksmju pārvaldība
 description: Šajā tēmā izskaidrots, kā pārvaldīt vērtējumus un apskatus, izmantojot Microsoft Dynamics 365 Commerce vērtējumu un apskatu regulēšanas rīku.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698030"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027246"
 ---
 # <a name="manage-ratings-and-reviews"></a>Vērtējumu un atsauksmju pārvaldība
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā izskaidrots, kā pārvaldīt vērtējumus un apskatus, izmantojot Microsoft Dynamics 365 Commerce vērtējumu un apskatu regulēšanas rīku.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce izmanto Microsoft Azure Cognitive Service, lai automātisk
 - Moderēt apskatus, atbildot uz tiem vai noņemot tos.
 - Dzēst klienta apskatu pēc klienta pieprasījuma.
 - Importēt visu preču vērtējumu un apskatu datus lielā apjomā Microsoft Power BI veidnē, lai varētu analizēt vērtējumu un apskatu tendences.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Piekļuve vērtējumu un pārskatu regulēšanas līdzekļiem
+
+Lai piekļūtu vērtējumu un pārskatu regulēšanas līdzekļiem e-komercijas vietnes pārvaldības rīkā, veiciet šādas darbības:
+
+1. Pierakstieties portālā [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Atveriet projektu, kas satur vidi, kurā vēlaties inicializēt e-tirdzniecību.
+1. Sadaļā **Vides** atlasiet vidi.
+1. Sadaļā **Vides līdzekļi** atlasiet **Mazumtirdzniecības pārvaldība**.
+1. Cilnē **e-komercija** sadaļā **Saites**atlasiet **e-commerce vietnes pārvaldības rīks**.
 
 ## <a name="read-a-review"></a>Apskata lasīšana 
 

@@ -1,9 +1,9 @@
 ---
-title: Pasūtījuma apstiprināšanas modulis
-description: Šī tēma apskata pasūtījuma apstiprināšanas moduļus un apraksta, kā izveidot tos Microsoft Dynamics 365 Commerce.
+title: Pasūtījumu informācijas modulis
+description: Šī tēma apskata pasūtījuma informācijas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,52 +17,54 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e339ce02bb646d0d9a68c22b24fde9b72071de6f
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698330"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026021"
 ---
-# <a name="order-confirmation-module"></a>Pasūtījuma apstiprināšanas modulis
+# <a name="order-details-module"></a>Pasūtījumu informācijas modulis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šī tēma apskata pasūtījuma apstiprināšanas moduļus un apraksta, kā izveidot tos Microsoft Dynamics 365 Commerce.
+Šī tēma apskata pasūtījuma informācijas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Pasūtījuma apstiprināšanas modulis tiek izmantots, lai pasūtījuma apstiprināšanas lapā pēc pasūtījuma veikšanas parādītu apstiprinājuma ziņojumu. Pasūtījuma apstiprināšanas modulis parāda pasūtījuma apstiprināšanas numuru un klienta e-pasta adresi, kas tika sniegta izrakstīšanas laikā.
-
-Kad pasūtījums tiek veikts izrakstīšanas laikā, pasūtījuma apstiprināšanas numurs un klienta e-pasta adrese tiek nodoti pasūtījuma apstiprināšanas lapai kā vaicājuma virkne lapas URL. Pasūtījuma apstiprināšanas modulis saņem šo informāciju un atveido pasūtījuma statusu pasūtījuma apstiprināšanas lapā. Pasūtījuma apstiprināšanas modulim nepieciešams šis lapas konteksts, lai nodrošinātu pasūtījuma statusu.
+Pasūtījumu informācijas moduli izmanto, lai rādītu pasūtījuma apstiprinājuma informāciju pēc pasūtījuma veikšanas. Tas parāda pasūtījuma apstiprinājuma ID, pasūtījuma kontaktinformāciju un citus pasūtījuma datus, piemēram, krājumus, kas tika iegādāti, maksājuma informāciju un nosūtīšanas metodi.
 
 ## <a name="order-confirmation-module-properties"></a>Pasūtījuma apstiprināšanas moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | Apraksts |
-|---------------|--------|-------------|
-| Virsraksts       | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pasūtījuma apstiprināšanas modulim var būt virsraksts. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
+| Rekvizīta nosaukums  | Vērtības | Apraksts |
+|----------------|--------|-------------|
+| Virsraksts        | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pasūtījuma apstiprināšanas modulim var būt virsraksts. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
+| Kontaktpersonas tālruņa numurs | Teksts | Kontaktpersonas numuru var sniegt ar pasūtījumu saistītiem jautājumiem. |
 
-## <a name="modules-that-can-be-used-in-an-order-confirmation-page-module"></a>Moduļi, ko var izmantot pasūtījuma apstiprināšanas lapas modulī 
+## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduļi, ko var izmantot pasūtījuma informācijas lapas modulī
 
-- **Ieteikumi** — ieteikumu moduli var ievietot pasūtījuma apstiprināšanas lapā, lai klientam ieteiktu citas preces.
-- **Mārketings** — mārketinga modulis var pievienot mārketinga saturu pasūtījuma apstiprināšanas lapai.
+Izveidojot pasūtījuma informācijas lapu, papildus pasūtījuma informācijas modulim varat pievienot citus atbilstošus moduļus. Daži piemēri:
 
-## <a name="create-an-order-confirmation-page-module"></a>Pasūtījuma apstiprināšanas lapas moduļa izveide
+- **Ieteikumu modulis** — ieteikumu moduli var pievienot pasūtījuma informācijas lapai, lai klientam ieteiktu citas preces.
+- **Mārketinga moduļi** — jebkuru mārketinga moduli var pievienot pasūtījuma informācijas lapai, lai parādītu mārketinga saturu.
 
-1. Izveidojiet lapas veidni ar nosaukumu **pasūtījuma apstiprināšanas veidne**.
-1. Noklusētās lapas slotā **Galvenais** pievienojiet pasūtījuma apstiprināšanas moduli.
-1. Pasūtījuma apstiprināšanas modulī pievienojiet ieteikumu moduli.
-1. Saglabājiet un priekšskatiet veidni. Pasūtījuma apstiprināšanas moduli nedrīkst atveidot, jo tas prasa pasūtījuma apstiprināšanas numura kontekstu.
-1. Pārbaudiet veidni un publicējiet to.
-1. Izmantojiet jūsu tikko izveidoto pasūtījuma apstiprināšanas veidni, lai izveidotu lapu ar nosaukumu **pasūtījuma apstiprināšanas lapa**.
+## <a name="create-an-order-details-page-module"></a>Pasūtījuma informācijas lapas moduļa izveide
+
+1. Izveidojiet lapas veidni ar nosaukumu **Pasūtījuma informācijas veidne**.
+1. Noklusētās lapas slotā **Galvenais** pievienojiet pasūtījuma informācijas moduli.
+1. Pasūtījuma informācijas modulī pievienojiet ieteikumu moduli.
+1. Saglabājiet un priekšskatiet veidni. Pasūtījuma informācijas modulis netiks atveidots, jo tas prasa pasūtījuma apstiprināšanas numura kontekstu.
+1. Pabeidziet rediģēt veidni un publicējiet to.
+1. Izmantojiet jūsu tikko izveidoto pasūtījuma informācijas veidni, lai izveidotu lapu ar nosaukumu **pasūtījuma informācijas lapa**.
 1. Lapas strukturējumam pievienojiet noklusējuma lapu.
 1. Slotā **Galvene** pievienojiet galvenes fragmentu.
 1. Slotā **Kājene** pievienojiet kājenes fragmentu.
-1. Slotā **Galvenais** pievienojiet pasūtījuma apstiprināšanas moduli.
-1. Pasūtījuma apstiprināšanas moduļa rekvizītu rūtī pievienojiet virsrakstu **Pasūtījuma apstiprinājums**.
-1. Zem pasūtījuma apstiprināšanas moduļa pievienojiet ieteikumu moduli un konfigurējiet to tā, lai tas izmantotu iestatījumus **Jauns** un **Vispirktākais**.
-1. Saglabājiet un priekšskatiet lapu, reģistrējiet un publicējiet to.
+1. Slotā **Galvenais** pievienojiet pasūtījuma informācijas moduli.
+1. Pasūtījuma informācijas moduļa rekvizītu rūtī pievienojiet virsrakstu **Pasūtījuma informācija**.
+1. Zem pasūtījuma informācijas moduļa pievienojiet ieteikumu moduli un konfigurējiet to tā, lai tas izmantotu iestatījumus **Jauns** un **Vispirktākais**.
+1. Saglabājiet un priekšskatiet lapu.
+1. Pabeidziet rediģēt lapu un publicējiet to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

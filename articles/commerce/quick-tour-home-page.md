@@ -3,7 +3,7 @@ title: Sākumlapas pārskats
 description: Šajā tēmā ir sniegts pārskats par sākumlapu Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fb42c9aa2e2ef1d620b310e9d30dbae5f84c788
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698284"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025975"
 ---
 # <a name="overview-of-the-home-page"></a>Sākumlapas pārskats
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par sākumlapu Microsoft Dynamics 365 Commerce.
@@ -45,19 +45,19 @@ Sākumlapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas p
 
 - **Hero** — parasti pirmā prece galvenās sadaļas augšpusē parāda vienu vai vairākus "hero" attēlus, kas veikalā izceļ jaunas preces un veicināšanas pasākumus. Ja ir vairāki hero attēli, tie tiek viesoti karuseļa modulī, lai lietotāji varētu tos pārlūkot.
 
-    Tālāk redzamajā attēlā parādīts sākumlapas piemērs, kur pirmā prece galvenajā sadaļā ir hero modulis ar nosaukumu **Jaunieguvums**.
+    Tālāk redzamajā attēlā parādīts sākumlapas piemērs, kur pirmā prece galvenajā sadaļā ir satura bloka izkārtojuma hero modulis ar nosaukumu "Jaunieguvums".
 
     ![Hero moduļa piemērs](./media/Hero.PNG)
 
-- **Līdzeklis** — līdzekļa modulis tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Funkciju moduļus var izmantot neatkarīgi, vai arī tos var viesot karuseļa modulī.
+- **Līdzeklis** — līdzekļa izkārtojums satura bloka modulim tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Līdzekļu izkārtojumus var izmantot neatkarīgi, vai arī tos var viesot karuseļa modulī.
 
-    Tālāk redzamajā attēlā parādīts līdzekļu moduļu piemērs sākumlapā.
+    Tālāk esošajā attēlā redzams satura bloka moduļa līdzekļa izkārtojuma piemērs sākumlapā.
 
     ![Līdzekļu moduļu piemēri](./media/Feature.PNG)
 
-- **Satura izvietošana** — satura izvietošanas modulis tiek izmantots, lai parādītu vairākas preces vai preču kategorijas, izmantojot attēlu un teksta kombināciju daudzkolonnu izkārtojumā. Sākumlapas attēlā, kas parādīts iepriekš šajā tēmā, tiek lietots satura izvietošanas modulis, kas tiek izmantots trīs kolonnu izkārtojumā **Iepirkties sievietēm**, **Iepirkties vīriešiem** un **Iepirkt piederumus**.
+- **Elements** — satura bloka elementa izkārtojuma modulis tiek izmantots, lai parādītu vairākas preces vai preču kategorijas, izmantojot attēlu un teksta kombināciju daudzkolonnu izkārtojumā. Sākumlapas attēlā, kas parādīts iepriekš šajā tēmā, tiek lietots elementa izkārtojums modulis, kas tiek izmantots elementu **Iepirkties sievietēm**, **Iepirkties vīriešiem** un **Iepirkt piederumus** trīs kolonnu atveidē.
 - **Video atskaņotājs** — video atskaņotāja modulis var tikt izmantots, lai sākumlapā parādītu video saturu. Sākumlapas ilustrācija, kas parādīta iepriekš šajā tēmā, ietver video atskaņotāja moduli.
-- **Ar saturu papildināts bloks** — ar saturu papildināta bloka modulis var tikt izmantots, lai attēlotu sākumlapas teksta saturu vienas vai vairāku kolonnu izkārtojumā.
+- **Teksta bloks** — ar saturu papildināta bloka modulis var tikt izmantots, lai attēlotu sākumlapas teksta saturu vienas vai vairāku kolonnu izkārtojumā.
 - **Preču ieteikumi** — preču ieteikumu moduļi tiek izmantoti, lai sākumlapā parādītu sarakstus, piemēram, **Jauns**, **Populārs** un **Vispirktākais**. Šie saraksti parāda preces, pamatojoties uz iepirkšanās tendencēm, un tos var ģenerēt algoritmiski vai pārraudzīt manuāli. Tie palīdz klientiem ātri atklāt labākās preces un tad turpināt iepirkties.
 
     Tālāk redzamajā attēlā parādīts preču ieteikuma moduļu piemērs sākumlapā.

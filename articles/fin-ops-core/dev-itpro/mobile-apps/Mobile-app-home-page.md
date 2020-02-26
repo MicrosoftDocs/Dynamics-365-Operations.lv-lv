@@ -1,9 +1,9 @@
 ---
-title: Mobilās programmas sākumlapa
-description: Šajā tēmā ir aprakstīta mobilā programma Finance and Operations un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
+title: Mobilās programmas mājas lapa
+description: Šajā tēmā ir aprakstīta Finance and Operations (Dynamics 365) mobilā programma un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853936"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975201"
 ---
 # <a name="mobile-app-home-page"></a>Mobilās programmas mājas lapa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta mobilā programma Finance and Operations un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
+Šajā tēmā ir aprakstīta **Finance and Operations (Dynamics 365)** mobilā programma un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 
 <a name="overview"></a>Kopsavilkums
 --------
@@ -80,7 +80,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <tr class="odd">
 <td>1.</td>
 <td>Sistēmas administrators</td>
-<td>Ieviesiet Finance and Operations programmas savā organizācijā.</td>
+<td>Īstenojiet Finance and Operations programmu savā organizācijā.</td>
 <td><ul><li>Ja vēl neesa&#39;t izvietojis Microsoft Dynamics 365 versiju, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>.</li><li>Lai apskatītu sarakstu ar mobilajām darbvietām, ko var izmantot, skatiet rakstu <a href="mobile-workspaces-released.md">Nesen izlaistās mobilās darbvietas</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -135,8 +135,8 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td>Lietotājs</td>
 <td>Lejupielādējiet un instalējiet mobilo programmu.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Programma Finance and Operations, kas paredzēta Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Programma Finance and Operations, kas paredzēta iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662"> Programma Finance and Operations programmatūrai Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations programma programmatūrai iOS</a><BR/>
 (Windows Phone ierīces netiek atbalstītas)
 </td>
 </tr>

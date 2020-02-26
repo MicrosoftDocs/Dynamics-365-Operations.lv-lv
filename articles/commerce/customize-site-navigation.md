@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914914"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001833"
 ---
 # <a name="customize-site-navigation"></a>Vietnes navigācijas pielāgošana
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā izveidot pielāgotu tiešsaistes navigācijas hierarhiju, lai organizētu preces pārlūkošanai jūsu Microsoft Dynamics 365 Commerce vietnē.
@@ -35,11 +35,11 @@ ms.locfileid: "2914914"
 
 Tiešsaistes veikala skatlogs parasti ļauj klientiem atklāt un pārlūkot preces, pārvietojoties pa preču kategorijām. Šo iespēju parasti nodrošina cilnes lapas augšpusē vai navigācijas josla kreisajā pusē. Dynamics 365 Commerce varat izveidot un pārvaldīt savas kategoriju navigācijas hierarhijas struktūru un preces, kas ir iekļautas dažādās kategorijās.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Mazumtirdzniecības kanāla navigācijas hierarhijas izveidošana
+## <a name="create-a-channel-navigation-hierarchy"></a>Kanālu navigācijas hierarhijas izveide
 
-Lai izveidotu mazumtirdzniecības kanāla navigācijas hierarhiju, veiciet tālāk minētās darbības.
+Lai izveidotu kanālu navigācijas hierarhiju, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Preces un kategorijas \> Kategorija un preču pārvaldība**.
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Preces un kategorijas \> Kategorija un preču pārvaldība**.
 1. Atlasiet **Kategorijas hierarhijas** un pēc tam atlasiet **Jauns**.
 1. Piešķiriet hierarhijai nosaukumu.
 
@@ -57,28 +57,28 @@ Pēc noklusējuma jūsu definētās kategorijas jūsu vietnē parādīsies alfab
 
 ## <a name="assign-a-category-hierarchy-type"></a>Kategoriju hierarhijas tipa piešķiršana
 
-1. Dodieties uz **Mazumtirdzniecība \> Preces un kategorijas \> Kategorija un preču pārvaldība**.
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Preces un kategorijas \> Kategorija un preču pārvaldība**.
 1. Atlasiet **Kategorijas hierarhijas**.
 1. Darbību rūts cilnē **Kategoriju hierarhija** grupā **Iestatīt** atlasiet **Saistītās hierarhijas veids**.
 1. Atlasiet **Jauns**.
-1. Laukā **Kategoriju hierarhijas veids** atlasiet **Mazumtirdzniecības kanāla navigācijas hierarhija**.
+1. Laukā **Kategoriju hierarhijas veids** atlasiet **Kanālu navigācijas hierarhija**.
 1. Laukā **Kategoriju hierarhija** atlasiet iepriekš izveidoto kanāla navigācijas hierarhiju.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Jaunu vai atjauninātu navigācijas hierarhiju publicēšana
 
 Lai navigācijas hierarhiju padarītu pieejamu jūsu tiešsaistes veikala skatlogam, veiciet tālāk minētās darbības.
 
-1. Dodieties uz **Mazumtirdzniecība \> Kanāla iestatīšana \> Kanāla kategorijas un preses īpašības**.
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> Kanālu kategorijas un preču īpašības**.
 1. Kokā kreisajā pusē atlasiet jūsu tiešsaistes veikalu.
 1. Atlasiet **Publicēt kanāla atjauninājumus**.
-1. Atveriet sadaļu **Mazumtirdzniecība \> Mazumtirdzniecības IT \> Sadales grafiks**.
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 1. Sarakstā atrodiet un atlasiet **Darbs 1040**.
 1. Atlasiet **Izpildīt tūlīt**.
 1. Atkārtojiet 5. un 6. darbību darbiem 1070 un 1150.
 
 ## <a name="show-categories-on-your-site"></a>Kategoriju parādīšana jūsu vietnē
 
-Lai parādītu kategoriju hierarhiju jūsu tiešsaistes veikala skatlogā, jums veidnes vai fragmenta atbilstošā vietā jāpievieno navigācijas izvēlnes modulis. Navigācijas izvēlnes modulis tiks parādīts navigācijas hierarhijā, ar nosacījumu, ka publicējāt savu mazumtirdzniecības navigācijas hierarhiju kanālā, ar kuru saistīta jūsu vietne.
+Lai parādītu kategoriju hierarhiju jūsu tiešsaistes veikala skatlogā, jums veidnes vai fragmenta atbilstošā vietā jāpievieno navigācijas izvēlnes modulis. Navigācijas izvēlnes modulis tiks parādīts navigācijas hierarhijā, ar nosacījumu, ka publicējāt savu navigācijas hierarhiju kanālā, ar kuru saistīta jūsu vietne.
 
 > [!NOTE]
 > Veikala sākuma komplektā iekļautais navigācijas izvēlnes modulis ļauj lietotājiem pārvietoties tikai uz kategorijām, kurām nav apakškategoriju. Ja jūsu klientiem vajadzētu pārvietoties uz kategorijām, kurām ir apakškategorijas, navigācijas izvēlnes modulis ir jāpielāgo.

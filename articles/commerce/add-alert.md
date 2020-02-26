@@ -1,9 +1,9 @@
 ---
-title: Brīdinājuma modulis
-description: Šajā tēmā ir ietverti brīdinājumu moduļi un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+title: Veicināšanas reklāmkarogu modulis
+description: Šajā tēmā tiek stāstīts par veicināšanas reklāmlogu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,55 +18,66 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 82138dd7f0934f732215f67a3726638eb87075d4
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785356"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025624"
 ---
-# <a name="alert-module"></a>Brīdinājuma modulis
+# <a name="promo-banner-module"></a>Veicināšanas reklāmkarogu modulis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir ietverti brīdinājumu moduļi un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā tiek stāstīts par veicināšanas reklāmlogu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Brīdinājuma modulis tiek izmantots, lai lapā rādītu iekļautos informatīvos ziņojumus. Brīdinājumu moduļi atbalsta teksta ziņojumu un saiti. Tos var izmantot, lai visā vietnē rādītu veicināšanas pasākumus, kas tiek rādīti visās e-komercijas vietnes lapās. 
+Veicināšanas reklāmlogu moduļi tiek izmantoti, lai lapā rādītu iekļautos informatīvos ziņojumus. Tos var izmantot, lai visā vietnē rādītu veicināšanas pasākumus, kas tiek rādīti visās e-komercijas vietnes lapās. 
 
-Brīdinājumu moduļus vada dati no Satura pārvaldības sistēmas (CMS), un tos var ievietot jebkurā lapā.
+Veicināšanas reklāmlogu moduļi atbalsta teksta ziņojumu un saiti. Ja vairāki ziņojumi ir pievienoti veicināšanas reklāmlogu modulim, tas kļūst par rotējošu karuseļa reklāmkarogu, kas ļaus klientiem pārlūkot visus ziņojumus. 
 
-## <a name="examples-of-alert-modules-in-e-commerce"></a>Brīdinājumu moduļu piemēri E-komercijā
+Veicināšanas reklāmlogu moduļus vada dati no Satura pārvaldības sistēmas (CMS), un tos var ievietot jebkurā lapā.
 
-Brīdinājumu moduļus var izmantot vietnes galvenē, lai norādītu vietnes veicināšanas pasākumus un ziņojumus. Daži piemēri:
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Lietojuma piemēri veicināšanas reklāmlogiem e-Commerce sistēmā
+
+Veicināšanas reklāmlogus var izmantot vietnes galvenē, lai parādītu veicināšanas pasākumus vai ziņojumus visā vietnē, kā tas ir tālāk esošajos piemēros.
 
 “Ikgadējā pārdošana beidzas pēc 10 dienām”
 
 “Labi ietaupiet ar skolas sākuma izpārdošanu. Iepērcieties tūlīt.”
 
-## <a name="alert-module-properties"></a>Brīdinājuma moduļa rekvizīti
+## <a name="promo-banner-module-properties"></a>Veicināšanas reklāmkarogu moduļa rekvizīti
 
-| Rekvizīta nosaukums  | Vērtība                              | Apraksts |
-|----------------|------------------------------------|-------------|
-| Teksts           | Teksts                               | Brīdinājuma modulī redzamais teksta ziņojums. |
-| Teksta līdzinājums | **Pa labi**, **Pa kreisi** vai **Centrā** | Vērtība, kas nosaka, kā brīdinājuma modulī tiek līdzināts teksts. |
-| Noraidīt brīdinājumu  | **Patiess** vai **Nepatiess**              | Ja vērtība ir iestatīta uz **Patiess**, klients var noraidīt brīdinājumu. |
-| Saistīt           | URL                                | Vietrādis URL neobligātai vietnei. |
+| Rekvizīta nosaukums             | Value                              | Apraksts |
+|---------------------------|------------------------------------|-------------|
+| Reklāmkaroga ziņojumi           | Teksts un saites                     | Teksta un saišu masīvs. |
+| Automātiskā atskaņošana                  | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai ziņojumi tiek automātiski iestatīti, ja ir konfigurēti vairāki ziņojumi. |
+|  Slaidu pārejas intervāls | Milisekunžu skaits (ms)      | Intervāls, ko izmanto, lai pārlūkotu ziņojumus. |
+| Atļaut noraidīšanu             | **Patiess** vai **Nepatiess**              | Ja vērtība ir iestatīta uz **Patiess**, debitori var noraidīt brīdinājumu. |
+| Rādīt karuseļveida ziņojumu     | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai karuseļa paziņojumi ir jārāda, lai klienti varētu manuāli pārvietoties pa vairākiem reklāmkaroga vienumiem. |
+| Teksta līdzinājums            | **Pa labi**, **Pa kreisi** vai **Centrā** | Teksta līdzinājums veicināšanas reklāmkaroga modulī. |
+| Saistīt                      | URL                              | Vietrādis URL neobligātai vietnei. |
 
-## <a name="add-an-alert-module-to-a-page"></a>Brīdinājuma moduļa pievienošana lapā 
+## <a name="add-a-promo-banner-module-to-a-page"></a>Veicināšanas reklāmloga moduļa pievienošana jaunā lapā 
 
-Lai pievienotu brīdinājuma moduli lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
+Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Izveidojiet lapas veidni ar nosaukumu **brīdinājuma veidne**.
-1. Noklusējuma lapas **Galvenajā** slotā pievienojiet brīdinājuma moduli.
+1. Izveidojiet lapas veidni ar nosaukumu **Veicināšanas reklāmloga veidne**.
+1. Sadaļā **Lapas struktūra** pievienojiet moduli **Noklusējuma lapa** slotam **Pamatteksts**. 
 1. Pārbaudiet veidni un publicējiet to. 
-1. Izmantojiet jūsu tikko izveidoto brīdinājuma veidni, lai izveidotu lapu ar nosaukumu **brīdinājuma lapa**. 
-1. Jaunās lapas **Galvenajā** slotā pievienojiet brīdinājuma moduli.
-1. Brīdinājuma moduļa iestatījumos ievadiet brīdinājuma tekstu. Var rediģēt pārējos rekvizītus, ja vēlaties tālāk pielāgot brīdinājuma moduli.
+1. Izmantojiet jūsu tikko izveidoto brīdinājuma veidni, lai izveidotu lapu ar nosaukumu **Veicināšanas reklāmloga lapa**. 
+1. Jaunās lapas **Galvenajā** slotā pievienojiet konteinera moduli. 
+1. Rūtī pa labi iestatiet vērtību **Platums** sadaļai **Aizpildīt konteineru**.
+1. Sadaļā **Lapas struktūra** pievienojiet veicināšanas reklāmkaroga moduli konteinera modulim.
+1. Reklāmkaroga moduļa iestatījumos pievienojiet vienu vai vairākus reklāmkarogu ziņojumus. Katrai ziņai var būt teksts kopā ar saiti. Varat rediģēt pārējos rekvizītus, lai tālāk pielāgotu moduli.
 1. Saglabājiet un priekšskatiet lapu. Lapas augšdaļā ieraudzīsiet brīdinājumu ar jūsu pievienoto tekstu.
-1. Pārbaudiet lapu un publicējiet to. 
+1. Pabeidziet rediģēt lapu un publicējiet to. 
+
+> [!NOTE]
+> Veicināšanas reklāmlogs parasti tiek izmantots lapas galvenes slotā vai apakšvadītāja slotā.
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -74,12 +85,8 @@ Lai pievienotu brīdinājuma moduli lapā un iestatītu nepieciešamos rekvizīt
 
 [Karuseļa modulis](add-carousel.md)
 
-[Bagātinātā satura bloka modulis](add-content-rich-block.md)
+[Teksta bloka modulis](add-content-rich-block.md)
 
-[Satura izvietojuma modulis](add-content-placement-modules.md)
-
-[Līdzekļa modulis](add-feature-module.md)
-
-[Centrālais modulis](add-hero-module.md)
+[Satura bloka modulis](add-hero-module.md)
 
 [Video atskaņotāja modulis](add-video-player.md)

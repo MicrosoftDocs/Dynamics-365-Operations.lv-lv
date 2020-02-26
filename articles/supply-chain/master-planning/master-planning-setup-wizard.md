@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635130"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031071"
 ---
 # <a name="master-planning-setup-wizard"></a>Vispārējās plānošanas iestatīšanas vednis
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635130"
 
 Šajā tēmā ir sniegts ceļvedis **Vispārējās plānošanas iestatīšanas vednim**. Tajā ir paskaidrots, kā tiek aprēķināti parametru ieteikumi, kā arī sniegti piemēri, kas parāda, kā dažādi uzņēmumi iestata vispārējo plānošanu, pamatojoties uz to biznesa vajadzībām.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-Videoklips [Galvenais plānošanas iestatīšanas vednis programmā Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurš ir pieejams vietnē YouTube.
+Videoklips [Galvenais plānošanas iestatīšanas vednis programmā Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas ir pieejams vietnē YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Jūsu uzņēmuma specifiskās prasības
@@ -184,7 +184,7 @@ Vednī Contoso Manufacturer tiek ievadītas šādas vērtības:
 Contoso Retailer ir izplatīšanas uzņēmums modes industrijā. Tas izmanto vispārējo plānošanu, lai aprēķinātu, kad ir jāievieto pirkšanas pasūtījumi, pamatojoties uz prognozēto pārdošanas apjomu. Šeit ir dažas tā īpašības:
 
 - Contoso Retailer izmanto pieprasījuma apjoma prognozi, lai paredzētu pārdošanu. Pirkšanas pasūtījumi tiks plānoti saskaņā ar šo prognozi.
-- Mazumtirdzniecības veikalos tiek izmantots pieprasījums papildināšanai.
+- Veikalos tiek izmantots pieprasījums papildināšanai.
 - Izpildes laiks no galvenās noliktavas līdz katram veikalam ir aptuveni divas nedēļas visiem krājumiem.
 
 Vednī Contoso Retailer tiek ievadītas šādas vērtības:
@@ -208,4 +208,4 @@ Vednī Contoso Retailer tiek ievadītas šādas vērtības:
     - **Jautājums:** "Vai vēlaties iekļaut pieprasījumu no apstiprinātajiem pieprasījumiem, lai papildinātu mazumtirdzniecības veikalus?"
     - **Atbilde:** "Jā, kā definēts šajā vispārējā plānā." Tiek ievadīta **1 diena**.
 
-    Contoso izmanto apstiprinātos pieprasījumus no saviem mazumtirdzniecības veikaliem, lai izveidotu plānotos pirkšanas pasūtījumus šo veikalu papildināšanai. Tā kā vispārējā plānošana tiek palaista katru dienu, plānošanā tiks iekļauti pieprasījumi no pēdējās dienas.
+    Contoso izmanto apstiprinātos pieprasījumus no saviem veikaliem, lai izveidotu plānotos pirkšanas pasūtījumus šo veikalu papildināšanai. Tā kā vispārējā plānošana tiek palaista katru dienu, plānošanā tiks iekļauti pieprasījumi no pēdējās dienas.

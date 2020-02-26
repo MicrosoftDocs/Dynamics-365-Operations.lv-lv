@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
-ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
+ms.openlocfilehash: 509827d5736887f56e7754a0760af7dea76277f7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "2818483"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006059"
 ---
 # <a name="talent-system-requirements"></a>Talent sistēmas prasības
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstītas pakalpojuma Microsoft Dynamics 365 Talent prasības, ieskaitot programmas Attract, Onboard un Core HR. Tajā ir arī norādītas valstis un reģioni, kur ir pieejama programma Talent, kā arī informācija par valodām un lokalizāciju, kas jāizmanto programmas Talent datiem. Turklāt šajā tēmā ir nodrošināta programmas Talent atjaunināšanas politika.
+Šajā tēmā ir aprakstītas pakalpojuma Microsoft Dynamics 365 Talent prasības, ieskaitot programmas Attract un Onboard. Tajā ir arī norādītas valstis un reģioni, kur ir pieejama programma Talent, kā arī informācija par valodām un lokalizāciju, kas jāizmanto programmas Talent datiem. Turklāt šajā tēmā ir nodrošināta programmas Talent atjaunināšanas politika.
 
 ## <a name="supported-web-browsers"></a>Atbalstītās tīmekļa pārlūkprogrammas
 

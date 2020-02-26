@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815346"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003657"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
@@ -81,7 +81,7 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 <li><strong>Notiek pārskatīšana</strong> — pirkšanas pieprasījuma rindas ir iesniegtas pārskatīšanai. Kad pirkšanas pieprasījuma rindas apstrāde darbplūsmas procesā ir pabeigta, šīs rindas statuss saglabājas <strong>Notiek pārskatīšana</strong>, līdz visas pārējās pirkšanas pieprasījuma rindas ir pārskatītas.</li>
 <li><strong>Atteikts</strong> — pirkšanas pieprasījuma rinda ir atteikta. Atteiktās pirkšanas pieprasījuma rindas var modificēt iesniegt atkārtoti.</li>
 </ul>
-Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīšanas process tiek sākts vēlreiz visām pirkšanas pieprasījuma rindām, kas vēl tiek pārskatītas. <strong>Piezīme:</strong> jau iesniegtu pirkšanas pieprasījumu var atsaukt. Ja pirkšanas pieprasījums tiek atsaukts, atsauktas tiek arī visas pārējās pirkšanas pieprasījuma rindas. Atsauktas pirkšanas pieprasījuma rindas var dzēst.</td>
+Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīšanas process tiek sākts vēlreiz visām pirkšanas pieprasījuma rindām, kas vēl tiek pārskatītas. </br><strong>Piezīme:</strong> jau iesniegtu pirkšanas pieprasījumu var atsaukt. Ja pirkšanas pieprasījums tiek atsaukts, atsauktas tiek arī visas pārējās pirkšanas pieprasījuma rindas. Atsauktas pirkšanas pieprasījuma rindas var dzēst.</td>
 </tr>
 <tr class="odd">
 <td>Atteikts</td>
@@ -109,7 +109,7 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 <tr class="odd">
 <td>Atcelts</td>
 <td>Atcelts</td>
-<td>Pirkšanas pieprasījums un visas pirkšanas pieprasījuma rindas ir atcelti. <strong>Piezīme.</strong> Ja pirkšanas pieprasījuma rindā norādītais krājums vairs nav nepieciešams un pirkšanas pieprasījuma rinda jau ir apstiprināta, tā ir jāatceļ. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas. Ja kāda pirkšanas pieprasījuma rinda vēl tiek pārskatīta, pirkšanas pieprasījuma statuss ir <strong>Notiek pārskatīšana</strong>. Šajā gadījumā pirkšanas pieprasījumu var atsaukt un dzēst attiecīgo pirkšanas pieprasījuma rindu.</td>
+<td>Pirkšanas pieprasījums un visas pirkšanas pieprasījuma rindas ir atcelti.</br> <strong>Piezīme.</strong> Ja pirkšanas pieprasījuma rindā norādītais krājums vairs nav nepieciešams un pirkšanas pieprasījuma rinda jau ir apstiprināta, tā ir jāatceļ. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas. Ja kāda pirkšanas pieprasījuma rinda vēl tiek pārskatīta, pirkšanas pieprasījuma statuss ir <strong>Notiek pārskatīšana</strong>. Šajā gadījumā pirkšanas pieprasījumu var atsaukt un dzēst attiecīgo pirkšanas pieprasījuma rindu.</td>
 </tr>
 <tr class="even">
 <td>Slēgts</td>
@@ -156,7 +156,8 @@ Dažos gadījumos, lai noteikt preču piegādātāju un cenu, kas ir jāuzrāda 
 
 Pirkšanas pieprasījumu var aizturēt, atzīmējot izvēles rūtiņu **Aizturēts** lapā **Pirkšanas pieprasījuma detaļas**. Pirkšanas pieprasījuma apstrādi var turpināt tikai pēc tam, kad aizturēšana ir atcelta, noņemot atzīmi no izvēles rūtiņas.  
 
-**Piezīme:** programmā eProcurement piegādātājiem var tikt dota atļauja jūsu pirkšanas pieprasījuma piedāvājuma pieprasījumā pievienot papildu rindas. Šajā gadījumā pirkšanas pieprasījumā būs redzamas apstiprinātas papildu opcijas.
+> [!NOTE]
+> Programmā eProcurement piegādātājiem var tikt dota atļauja jūsu pirkšanas pieprasījuma piedāvājuma pieprasījumā pievienot papildu rindas. Šajā gadījumā pirkšanas pieprasījumā būs redzamas apstiprinātas papildu opcijas.
 
 ## <a name="demand-consolidation"></a>Pieprasījuma konsolidācija
 Konsolidējot pirkšanas pieprasījuma rindas no vairākiem pirkšanas pieprasījumiem, var nodrošināt jums lielākas iespējas sarunās ar kreditoriem iegūt labāku cenu, zemākas piegādes un pasūtījuma apstrādes izmaksas, ka arī samazinātas pieskaitāmās izmaksas.  
@@ -172,7 +173,8 @@ Konsolidācijas iespēja ir pirkšanas pieprasījuma rindu kopa, kas ir grupēta
 
 Kad konsolidācijas iespējai ir pievienotas pieprasījuma rindas un veiktas nepieciešamās izmaiņas, var izveidot konsolidētā pirkšanas pieprasījuma rindu pirkšanas pasūtījumu.  
 
-**Piezīme:** lapā **Pirkšanas pieprasījuma konsolidācija** pirkšanas pieprasījuma rindā veiktās izmaiņas ir redzamas izveidotajā pirkšanas pasūtījumā. Tomēr rinda pirkšanas pieprasījumā netiek mainīta, lai saglabātu tās vēsturi.  
+> [!NOTE]
+> Lapā **Pirkšanas pieprasījuma konsolidācija** pirkšanas pieprasījuma rindā veiktās izmaiņas ir redzamas izveidotajā pirkšanas pasūtījumā. Tomēr rinda pirkšanas pieprasījumā netiek mainīta, lai saglabātu tās vēsturi.  
 
 Lai izveidotu to pirkšanas pieprasījuma rindu pirkšanas pasūtījumu, kuras nav piemērotas vajadzību konsolidācijai vai nav atlasītas konsolidācijas iespējai, rindas ir jāapstrādā manuāli.
 

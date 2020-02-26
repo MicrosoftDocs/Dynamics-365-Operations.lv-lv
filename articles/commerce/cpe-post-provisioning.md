@@ -1,5 +1,5 @@
 ---
-title: Commerce priekšskatījuma vides konfigurēšana
+title: Dynamics 365 Commerce priekšskatījuma vides konfigurēšana
 description: Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce priekšskatījuma vidi, kad tā ir nodrošināta.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024710"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>Commerce priekšskatījuma vides konfigurēšana
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce priekšskatījuma vides konfigurēšana
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce priekšskatījuma vidi, kad tā ir nodrošināta.
@@ -142,13 +142,13 @@ Lai konfigurētu neobligātos līdzekļus savai Commerce priekšskatījuma videi
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Commerce priekšskatījuma vides pārskats](cpe-overview.md)
+[Dynamics 365 Commerce priekšskatījuma vides pārskats](cpe-overview.md)
 
-[Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
+[Dynamics 365 Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
 
-[Neobligāto līdzekļu konfigurēšana Commerce priekšskatījuma videi](cpe-optional-features.md)
+[Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi](cpe-optional-features.md)
 
-[Commerce priekšskatījuma vides BUJ](cpe-faq.md)
+[Dynamics 365 Commerce priekšskatījuma vides BUJ](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ Lai konfigurētu neobligātos līdzekļus savai Commerce priekšskatījuma videi
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Palīdzības resursi Dynamics 365 Retail](../retail/index.md)

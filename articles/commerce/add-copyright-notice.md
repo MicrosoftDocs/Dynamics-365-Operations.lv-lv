@@ -3,7 +3,7 @@ title: Autortiesību paziņojuma pievienošana
 description: Šajā tēmā ir aprakstīts, kā pievienot autortiesību paziņojumu jūsu E-komercijas vietnei.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914579"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025486"
 ---
 # <a name="add-a-copyright-notice"></a>Autortiesību paziņojuma pievienošana
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pievienot autortiesību paziņojumu jūsu E-komercijas vietnei.
@@ -48,8 +48,8 @@ Lai pievienotu autortiesību paziņojumu katras lapas apakšdaļā, kurā tiek i
 1. Navigācijas rūtī atlasiet daudzpunktes pogu (**...**) blakus **Kājene** un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā atlasiet **Kājenes kategorija** un pēc tam atlasiet **Labi**.
 1. Navigācijas rūtī atlasiet daudzpunktes pogu blakus **Kājenes kategorija** un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā atlasiet **Bagātinātā satura bloka elements** un pēc tam atlasiet **Labi**.
-1. Navigācijas rūtī atlasiet **Satura bagātinātā bloka elements**.
+1. Dialoglodziņā atlasiet **Teksta bloks** un pēc tam atlasiet **Labi**.
+1. Navigācijas rūtī atlasiet **Teksta bloks**.
 1. Rekvizītu rūts labajā pusē laukā **Rindkopa** pievienojiet savu autortiesību ziņojumu. Piemēram, ievadiet **(C) Fabrikam 2019**.
 1. Atlasiet **Saglabāt**, atlasiet **Pārbaudīt** un pēc tam atlasiet **Publicēt**.
 1. Dodieties uz **Veidnes**, atlasiet veidni un pēc tam atlasiet **Norēķināties**.

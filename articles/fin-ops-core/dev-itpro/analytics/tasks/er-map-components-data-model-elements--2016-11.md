@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184742"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026244"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Izveidotā formāta komponentus kartēt uz datu modeļa elementiem (2016. novembris)
 
@@ -98,7 +98,7 @@ Nākamajā procedūrā ir parādīts, kā lietotājs ar lomu Sistēmas administr
 2. Aizvērt lapu.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Formāta konfigurācijas pašreizējās versijas statusa maiņa
-    * Nākamajās darbībās jūs formāta konfigurācijas statusu no Melnraksts mainīsiet uz Pabeigts, lai to padarītu pieejamu maksājuma dokumentu ģenerēšanai.  
+Nākamajās darbībās jūs formāta konfigurācijas statusu no Melnraksts mainīsiet uz Pabeigts, lai to padarītu pieejamu maksājuma dokumentu ģenerēšanai.  
 1. Noklikšķiniet uz Mainīt statusu.
 2. Noklikšķiniet uz Pabeigt.
 3. Apraksta laukā ierakstiet vērtību.
@@ -108,7 +108,7 @@ Nākamajā procedūrā ir parādīts, kā lietotājs ar lomu Sistēmas administr
     * Ņemiet vērā, ka konfigurācija tiek saglabāta kā pabeigta versija 1.1. Tā ir formāta versija 1, kas ir balstīta uz datu modeļa versiju 1.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Spēkā stāšanās datuma definēšana formāta pabeigtajai versijai
-    * Katru formāta versiju var konfigurēt, kā pieejamu lietošanai, sākot ar noteiktu datumu. Ja noteiktā datumā ir aktīvas vairākas formāta versijas, tad lietošanai tiek atlasīts visjaunākais formāts (pamatojoties uz versijas numuru). Pareizās versijas atlasīšanai tiek lietota sesijas datuma vērtība.  
+Katru formāta versiju var konfigurēt, kā pieejamu lietošanai, sākot ar noteiktu datumu. Ja noteiktā datumā ir aktīvas vairākas formāta versijas, tad lietošanai tiek atlasīts visjaunākais formāts (pamatojoties uz versijas numuru). Pareizās versijas atlasīšanai tiek lietota sesijas datuma vērtība.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Ierobežot piekļuvi izveidotajam formātam no uzņēmumiem
 1. Izvērsiet sadaļu ISO valsts/reģiona kodi.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899039"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006291"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 30. jūlijs)
 
@@ -41,7 +41,7 @@ ms.locfileid: "2899039"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Reģiona atbalsts Kanādai un Dienvidaustrumu Āzijai
 
-Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts [Programmas Talent nodrošināšana](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts [Programmas Talent nodrošināšana](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esošo projektu datu migrācija no citiem reģioniem uz Kanādas un Āzijas reģioniem netiek atbalstīta. Šiem jaunajiem atbalstītajiem reģioniem var tikt nodrošināti tikai jauni projekti.
 

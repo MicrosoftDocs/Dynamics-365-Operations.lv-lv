@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843245"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026318"
 ---
 # <a name="reconcile-freight-manually"></a>Manuāla kravas saskaņošana
 
@@ -37,7 +37,7 @@ ms.locfileid: "1843245"
 3. Sarakstā atlasiet kravu ar kravas ID 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Izveidot pārvadātāja rēķinu
-    * Ja saskaņojat kravu manuāli un nesaņemat pārvadātāja rēķinu automātiski, jūs varat izveidot rēķinu, izmantojot kravas pavadzīmi.  
+Ja saskaņojat kravu manuāli un nesaņemat pārvadātāja rēķinu automātiski, jūs varat izveidot rēķinu, izmantojot kravas pavadzīmi.  
 1. Noklikšķiniet uz Saistītā informācija.
 2. Noklikšķiniet uz Kravas pavadzīmes dati.
 3. Noklikšķiniet uz Ģenerēt kravas pavadzīmi.
@@ -45,7 +45,7 @@ ms.locfileid: "1843245"
 5. Noklikšķiniet uz OK.
 
 ## <a name="reconcile-the-invoice"></a>Saskaņot rēķinu
-    * Saskaņojot pārvadātāja rēķinu un kravas pavadzīmi, tas jāveic rindu pa rindai.  
+Saskaņojot pārvadātāja rēķinu un kravas pavadzīmi, tas jāveic rindu pa rindai.  
 1. Noklikšķiniet uz Saskaņot kravas pavadzīmes un rēķinus.
 2. Izvērsiet sadaļu Rēķina informācija.
 3. Izvērsiet sadaļu Detalizēta informācija par nesaskaņoto kravas pavadzīmi.

@@ -3,7 +3,7 @@ title: Darbs ar fragmentiem
 description: Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914704"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026044"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
@@ -57,25 +57,34 @@ Tālāk esošajā attēlā ir parādīts, kā fragmentus var izmantot, lai centr
 
 Varat izveidot jaunu fragmentu vai saglabāt esošu moduļa konfigurāciju kā fragmentu.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Esošas moduļa konfigurācijas kā fragmenta saglabāšana
+
+Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmentu, rīkojieties, kā norādīts tālāk.
+
+1. Atveriet lapu vai veidni, kas satur moduli, ko vēlaties pārveidot par fragmentu.
+1. Struktūras rūtī pa kreisi atlasiet daudzpunktes pogu (**...**) blakus moduļa nosaukumam. 
+1. Atlasiet **Koplietot kā fragmentu**. 
+1. Parādīsies dialoglodziņš. Ievadiet fragmenta nosaukumu un metadatus.
+1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
+
+Šajā attēlā parādīts, kā saglabāt moduļa konfigurāciju kā fragmentu.
+
+![Ekrāna tvērums, kā saglabāt moduļa konfigurāciju kā fragmentu](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Jauna fragmenta izveidošana
 
 Lai izveidotu jaunu fragmentu, veiciet tālāk norādītās darbības.
 
 1. Navigācijas rūtī kreisajā pusē atlasiet **Fragmenti**.
 1. Atlasiet **Jauns fragments**. Tiek parādīts dialoglodziņš, kurā redzami visi pieejamie moduļa tipi. Kā jau tika minēts iepriekš, fragmentus var izveidot no jebkura moduļa tipa.
-1. Atlasiet jūsu fragmentam moduļa tipu un pēc tam atlasiet **Labi**.
+1. Atlasiet sava fragmenta moduļa veidu.
 
-    > [!TIP]
-    > Atlasot vispārīgā konteinera moduļa tipu, jūs iegūstat augstāko elastību, kad vēlāk ir jāatjaunina un jākonfigurē jūsu fragments.
+Sekojošajā attēlā parādīts, kur izveidot jaunu fragmentu.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Esošas moduļa konfigurācijas kā fragmenta saglabāšana
+![Ekrāna tvērums no vietas, kur izveidot jaunu fragmentu](./media/fragment-nav-menu.png)
 
-Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmentu, rīkojieties, kā norādīts tālāk.
-
-1. Atveriet lapu vai veidni, kas satur moduli, ko vēlaties pārveidot par fragmentu.
-1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes pogu (**...**), kas atrodas blakus moduļa nosaukumam, lai noņemtu, un pēc tam atlasiet pogu **Saglabāt ka fragmentu**. Parādīsies dialoglodziņš.
-1. Ievadiet fragmenta nosaukumu un metadatus.
-1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
+> [!TIP]
+> Atlasot vispārīgā konteinera moduļa tipu, jūs iegūstat augstāko elastību, kad vēlāk ir jāatjaunina un jākonfigurē jūsu fragments.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Fragmentu pievienošana, noņemšana vai rediģēšana lapā
 
@@ -88,11 +97,15 @@ Lai lapai pievienotu fragmentu, veiciet tālāk norādīto.
 1. Kreisajā struktūras rūtī atlasiet konteineru vai slotu, kuram var pievienot pakārtotos moduļus.
 1. Atlasiet daudzpunktes pogu blakus konteinera vai slota nosaukumam un pēc tam atlasiet **Pievienot fragmentu**. Parādīsies dialoglodziņš.
 
+    ![Ekrāna tvērums, kā pievienot esošu fragmentu slotam vai konteineram](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Ja konteiners vai slots neatbalsta jaunus pakārtotos moduļus, opcija **Pievienot fragmentu** nav pieejama.
-
+    
 1. Dialoglodziņā meklējiet un atlasiet fragmentu, ko pievienot lapai. Ja pieejamo fragmentu sarakstā nav neviena fragmenta, iespējams, vispirms ir jāizveido fragments no moduļa tipa, ko atbalsta atlasītais konteiners vai slots.
-1. Atlasiet **Labi**, lai atlasīto fragmentu pievienotu atlasītajam konteineram vai slotam jūsu lapā.
+1. Atlasiet vēlamo fragmentu, kuru pievienot konteineram vai slotam jūsu lapā.
+
+    ![Ekrāna tvērums fragmentu atlasītāja modālajam logam](./media/fragment-picker.png)
 
 > [!NOTE]
 > Moduļi, kas ir atļauti konteinerā vai slotā, tiek definēti ar lapas veidni vai pašu moduļu definīcijām.

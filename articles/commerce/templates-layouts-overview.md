@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914845"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002686"
 ---
 # <a name="templates-and-layouts-overview"></a>Pārskats par veidnēm un izkārtojumiem
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Veidnes ir Microsoft Dynamics 365 Commerce lapas modeļa pamata elements. Ja jūsu mērķis ir palielināt vietnes autorēšanas darbplūsmu efektivitāti un konsekvenci, ir svarīgi zināt, kā izmantot veidnes priekšrocības jūsu vietnei. Pirmie lēmumi par veidņu struktūru ir svarīgi, un tie var būtiski ietekmēt ikdienas, sezonālās un vietnes zīmola atjauninājumu izmaksas un dinamiskumu. Labi strukturētām veidnēm ir arī citas priekšrocības. Piemēram, tās palīdz uzlabot vietnes meklēšanas programmas optimizācijas (SEO) rezultātus un samazināt kļūdu skaitu.

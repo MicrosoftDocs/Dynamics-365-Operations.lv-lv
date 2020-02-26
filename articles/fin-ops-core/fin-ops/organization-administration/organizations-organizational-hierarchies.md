@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812390"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003683"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizāciju un organizāciju hierarhiju pārskats
 
@@ -47,7 +47,7 @@ Uzņēmums ir juridiskas personas veids. Pašlaik uzņēmums ir vienīgais jurid
 
 Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā. Cilvēkiem pārvaldības struktūrvienībā ir pienākums maksimāli izmantot ierobežotos resursus, uzlabot procesus un atskaitīties par savu sniegumu.
 
-Ir pieejami šādi pārvaldības struktūrvienību veidi: izmaksu centri, biznesa vienības, vērtību plūsmas, nodaļas un mazumtirdzniecības kanāli. Tabulā ir sniegta papildinformācija par katru pārvaldības struktūrvienības veidu.
+Ir pieejami šādi pārvaldības struktūrvienību veidi: izmaksu centri, biznesa vienības, vērtību plūsmas, nodaļas un komercijas kanāli. Tabulā ir sniegta papildinformācija par katru pārvaldības struktūrvienības veidu.
 
 | Pārvaldības struktūrvienības tips | Apraksts | Mērķis |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Ir pieejami šādi pārvaldības struktūrvienību veidi: izmaksu centri, biznes
 | Biznesa vienība       | Pusautonoma pārvaldības struktūrvienība, kura tiek izveidot, lai izpildītu stratēģiskus biznesa mērķus. | Tiek izmantots finanšu pārskatiem, pamatojoties uz nozari vai preču rindu, kurus organizācija sastāda neatkarīgi no juridiskām personām. |
 | Vērtību plūsma        | Pārvaldības struktūrvienība, kas kontrolē vienu vai vairākas ražošanas plūsmas. | Parasti tiek izmantots lean manufacturing, lai kontrolētu aktivitātes un plūsmas, kuras ir nepieciešamas, lai piegādātu preces vai pakalpojumus patērētājiem. |
 | Nodaļa          | Pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo daļu, kas veic noteiktu uzdevumu, piemēram, pārdošanu vai uzskaiti. | Tiek izmantots, lai ziņotu par funkcionālajām jomām. Nodaļa var būt atbildīga par peļņu un zaudējumiem un var sastāvēt no izmaksu centru grupas. |
-| Mazumtirdzniecības kanāls      | Pārvaldības struktūrvienība, kas pārstāv veikalu ēkā, tiešsaistes veikalu vai tiešsaistes tirgu. | Tiek izmantot viena vai vairāku veikalu pārvaldībai un darbības kontrolei vienā vai vairākās juridiskās personās. |
+| Commerce kanāls      | Pārvaldības struktūrvienība, kas pārstāv veikalu ēkā, tiešsaistes veikalu vai tiešsaistes tirgu. | Tiek izmantot viena vai vairāku veikalu pārvaldībai un darbības kontrolei vienā vai vairākās juridiskās personās. |
 
 ### <a name="teams"></a>Grupas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249185"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026114"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigurāciju atkarības no citiem komponentiem definēšana
 
@@ -47,7 +47,7 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 5. Noklikšķiniet uz Jauns.
 6. Atlasiet komponentu Preces priekšnosacījums.
 7. Atlasiet Microsoft Dynamics 365 for Operations (1611).
-8. Laukā Versija ierakstiet "[7.1.1541.3036,8)".
+8. Laukā Versija ierakstiet '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
     * Ievadītās atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad parauga datu modeļa konfigurācijas 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tai ir jābūt pabeigtai Finance and Operations versijā ne vecākā par 7.1.1541.3036 vai jaunākā, bet ne jaunākā par galveno versiju 8.   
 9. Noklikšķiniet uz Saglabāt.
@@ -60,7 +60,7 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 16. Noklikšķiniet uz Jauns.
 17. Atlasiet komponentu Preces priekšnosacījums.
 18. Atlasiet vienumu Microsoft Dynamics AX 7.0 RTW.
-19. Laukā Versija ierakstiet "[7.0.1265.3015,7.1)".
+19. Laukā Versija ierakstiet '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
     * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad parauga datu modeļa konfigurācijas 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tā ir jāizpilda programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, kuras versija ir 7.0.1265.3015 vai jaunāka, taču nav jaunāka par papildversiju 1.   
 20. Noklikšķiniet uz Saglabāt.
@@ -109,7 +109,7 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
     * Šīs modeļa kartējuma konfigurācijas 1.1 versija ir augšupielādēta LCS, izmantojot LCS projektu ER repozitorijam, kas tika iepriekš konfigurēts.   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>ER konfigurācijas atkarību novērtēšana
-    * Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tās atpakaļ no LCS repozitorija.  
+Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tās atpakaļ no LCS repozitorija.  
 1. Kokā atlasiet "Sample data modelSample mapping".
 2. Noklikšķiniet uz Dzēst.
 3. Noklikšķiniet uz Jā.
@@ -139,5 +139,5 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 25. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
 26. Kokā izvērsiet "Sample data model".
     * Ņemiet vērā, ka kartējuma konfigurācija "Sample mapping" tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo "Sample mapping" ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija "Sample mapping (alternative)" netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
-    * Ja pierakstīsities Finance and Operations, Enterprise izdevums, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija "Sample mapping (alternative)" tiks lejupielādēta, savukārt konfigurācija "Sample mapping" tiks izlaista.  
+    * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija "Sample mapping (alternative)" tiks lejupielādēta, savukārt konfigurācija "Sample mapping" tiks izlaista.  
 

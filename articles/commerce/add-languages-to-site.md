@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914626"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001419"
 ---
 # <a name="add-languages-to-your-site"></a>Valodu pievienošana vietnei
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā paskaidrots, kā pievienot atbalstu papildu valodām Microsoft Dynamics 365 Commerce vietnē.
 
 ## <a name="overview"></a>Pārskats
 
-Varat lokalizēt savu vietni jebkurā valodā, ko atbalsta Dynamics 365 Commerce. (Vēlāk šajā tēmā tiek parādīts atbalstīto valodu saraksts.) Lai jūsu vietnē pievienotu valodu, tā vispirms ir jāpievieno tiešsaistes veikalam, kas ir saistīts ar jūsu vietni.
+Varat lokalizēt savu vietni jebkurā valodā, ko atbalsta komercija. (Vēlāk šajā tēmā tiek parādīts atbalstīto valodu saraksts.) Lai jūsu vietnē pievienotu valodu, tā vispirms ir jāpievieno tiešsaistes veikalam, kas ir saistīts ar jūsu vietni.
 
 ## <a name="add-a-language-to-an-online-store"></a>Valodas pievienošana tiešsaistes veikalam
 
 Lai pievienotu valodu tiešsaistes veikalam, veiciet šādas darbības.
 
-1. Atveriet Dynamics 365 Retail vidi jūsu vietnei.
-1. Dodieties uz **Mazumtirdzniecība\>Kanāls \>Tiešsaistes veikali**, lai piekļūtu tiešsaistes veikalu sarakstam, kuri konfigurēti videi. Vai arī kā meklējamo terminu ievadiet **tiešsaistes veikali**.
+1. Atveriet Dynamics 365 Commerce vidi jūsu vietnei.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Kanāli \> Tiešsaistes veikali**, lai piekļūtu tiešsaistes veikalu sarakstam, kuri konfigurēti videi. Vai arī kā meklējamo terminu ievadiet **tiešsaistes veikali**.
 1. Atlasiet tiešsaistes veikalu, kuram pievienot veikalu.
 1. Kopsavilkuma cilnē **Valodas** atlasiet **Pievienot**.
 1. Laukā **Valoda** atlasiet pievienojamo valodu.

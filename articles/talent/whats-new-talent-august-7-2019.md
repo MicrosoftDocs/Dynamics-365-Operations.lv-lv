@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897791"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006498"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Talent (2019. gada 6. augusts)
 
@@ -57,6 +57,6 @@ Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskai
 
 ## <a name="coming-soon"></a>Drīzumā
 
-### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations Platform update 29
+### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 for Finance and Operations
 
-Papildinformāciju par atjauninājumu Finance and Operations Platform update 29 skatiet rakstā [Priekšskatījuma līdzekļi Dynamics 365 Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Papildinformāciju par atjauninājumu Platform update 29 for Finance and Operations, skatiet [Priekšskatījuma līdzekļi programmā Dynamics 365 Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

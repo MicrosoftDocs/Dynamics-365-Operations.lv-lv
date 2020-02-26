@@ -3,7 +3,7 @@ title: Centralizēti maksājumi debitoriem
 description: Organizācijas, kurās ir iekļautas vairākas juridiskās personas, var izveidot un pārvaldīt maksājumus, izmantojot vienu juridisko personu, kura apstrādā visus maksājumus. Tāpēc viena un tā pati transakcija nav jāievada vairākās juridiskajās personās. Šajā rakstā ir sniegti piemēri, kas parāda, kā tiek veikta centralizēto maksājumu grāmatošana dažādās situācijās.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178900"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000097"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Centralizēti maksājumi debitoriem
 
@@ -86,10 +86,10 @@ Fabrikam saņem maksājumu par 580,00 Fabrikam debitoram 4000, uzņēmumam North
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Rēķini ir grāmatoti sadaļā Fabrikam East, Fabrikam East klientam 4000
 
-| Konts                             | Summa debetā | Summa kredītā |
+| Konts                             | Debeta summa | Kredīta summa |
 |-------------------------------------|--------------|---------------|
-| Debitoru parādi (Fabrikam East) | 600,00       |               |
-| Pārdošanas (Fabrikam East)               |              | 600,00        |
+| Debitoru parādi (Fabrikam East) | 580.00       |               |
+| Pārdošanas (Fabrikam East)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Maksājums ir saņemts un grāmatots sadaļā Fabrikam, Fabrikam klientam 4000
 

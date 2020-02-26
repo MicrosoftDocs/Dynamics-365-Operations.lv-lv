@@ -1,5 +1,5 @@
 ---
-title: Commerce priekšskatījuma vides pārskats
+title: Dynamics 365 Commerce priekšskatījuma vides pārskats
 description: Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906074"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024687"
 ---
-# <a name="commerce-preview-environment-overview"></a>Commerce priekšskatījuma vides pārskats
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Dynamics 365 Commerce priekšskatījuma vides pārskats
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
@@ -52,10 +52,10 @@ Lai varētu nodrošināt Commerce priekšskatījuma vidi, skatiet sadaļu [Comme
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
+[Dynamics 365 Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
 
-[Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
+[Dynamics 365 Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
 
-[Neobligāto līdzekļu konfigurēšana Commerce priekšskatījuma videi](cpe-optional-features.md)
+[Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi](cpe-optional-features.md)
 
-[Commerce priekšskatījuma vides BUJ](cpe-faq.md)
+[Dynamics 365 Commerce priekšskatījuma vides BUJ](cpe-faq.md)

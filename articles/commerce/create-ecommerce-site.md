@@ -1,9 +1,9 @@
 ---
 title: E-komercijas vietnes izveide
-description: Šajā tēmā aprakstīti uzdevumi, kas ir saistīti ar jaunas E-komercijas vietnes izveidi programmā Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstītas darbības un informācija, kas nepieciešama, lai vietņu veidotājā Dynamics 365 Commerce izveidotu jaunu e-komercijas vietni.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945839"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002017"
 ---
 # <a name="create-an-e-commerce-site"></a>E-komercijas vietnes izveide
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīti uzdevumi, kas ir saistīti ar jaunas E-komercijas vietnes izveidi programmā Dynamics 365 Commerce.
+Šajā tēmā ir aprakstītas darbības un informācija, kas nepieciešama, lai vietņu veidotājā Dynamics 365 Commerce izveidotu jaunu e-komercijas vietni.
 
-## <a name="overview"></a>Pārskats
+Pirms sākt e-komercijas vietnes attīstīšanu, vispirms ir jāizveido jauna vietne vietņu veidotājā. 
 
-Lai sāktu attīstīt savu E-komercijas vietni, vispirms ir jāizveido jauna vietne vietnes autorēšanas vidē. Pirms varat izveidot jaunu vietni, jāizveido vismaz viens tiešsaistes veikals programmā Dynamics 365 Retail. 
+
+Lai sāktu attīstīt savu E-komercijas vietni, vispirms ir jāizveido jauna vietne vietnes autorēšanas vidē. Pirms varat izveidot jaunu vietni, jāizveido vismaz viens tiešsaistes veikals programmā Commerce. 
+
 
 ## <a name="set-up-your-site"></a>Savas vietnes iestatīšana
 
 Vietnes iestatīšanai izpildiet šādas darbības.
 
-1. Portālā Microsoft Lifecycle Services (LCS) atlasiet saiti vietnes autorēšanas videi. 
+1. Atveriet vietņu veidotāja vidi. Saiti uz vietņu veidotāju var atrast pakalpojumos Microsoft Lifecycle Services (LCS), kas atrodas Commerce paredzētajā vides līdzekļu lapā.
 1. Vietnes autorēšanas sākumlapā atlasiet **Jauna vietne**.
 1. Dialoglodziņā **Jauna vietne** ievadiet tālāk norādīto informāciju.
 

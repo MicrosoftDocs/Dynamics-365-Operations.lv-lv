@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945747"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003077"
 ---
 # <a name="enrich-a-product-page"></a>Preces lapas papildināšana
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā papildināt preces lapu Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Pēc noklusējuma jūsu vietne izmanto vispārējo lapu, lai parādītu preces datus. Šajā lapā ir ietverta pamatinformācija par preci un vadīklas, kas nepieciešamas tās pārdošanai. Tomēr varat papildināt no Retail servera nākošo informāciju ar papildu attēliem vai tekstu par konkrēto preci. Šis process ir pazīstams kā preces lapas papildināšana.
+Pēc noklusējuma jūsu vietne izmanto vispārējo lapu, lai parādītu preces datus. Šajā lapā ir ietverta pamatinformācija par preci un vadīklas, kas nepieciešamas tās pārdošanai. Tomēr varat papildināt no Tirdzniecības mēroga vienības servera nākošo informāciju ar papildu attēliem vai tekstu par konkrēto preci. Šis process ir pazīstams kā preces lapas papildināšana.
 
-Daudzos gadījumos jums vajadzēs savām precēm izmantot specifisku papildu saturu. Kad autorēšanas rīkā dosieties uz **Mazumtirdzniecība**, redzēsiet preču sarakstu no kanāla, kas ir piešķirts vietnei. Šajā sarakstā kolonna **Papildināts** norāda, vai preces lapa par preci ir papildināta. Ja kolonnā izdarīta atzīme, šai precei ir papildināta preces lapa. Ja atzīme nav izdarīta, precei tiek izmantota noklusējuma preces lapa un saturs. Varat priekšskatīt gan papildinātas, gan nepapildinātas preces lapas, sarakstā atlasot preces nosaukumu.
+Daudzos gadījumos jums vajadzēs savām precēm izmantot specifisku papildu saturu. Kad autorēšanas rīkā dosieties uz **Mazumtirdzniecība un komercija**, redzēsiet preču sarakstu no kanāla, kas ir piešķirts vietnei. Šajā sarakstā kolonna **Papildināts** norāda, vai preces lapa par preci ir papildināta. Ja kolonnā izdarīta atzīme, šai precei ir papildināta preces lapa. Ja atzīme nav izdarīta, precei tiek izmantota noklusējuma preces lapa un saturs. Varat priekšskatīt gan papildinātas, gan nepapildinātas preces lapas, sarakstā atlasot preces nosaukumu.
 
 ## <a name="enrich-a-product-page"></a>Preces lapas papildināšana
 

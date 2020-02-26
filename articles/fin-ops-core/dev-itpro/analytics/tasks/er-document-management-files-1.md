@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 29c13e729223a98d7f45244c5a796bca6e3baaf3
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550837"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026138"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (1. daļa. Datu modeļa sagatavošana)
 
@@ -61,7 +61,7 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja i
 11. Koka struktūrā atlasiet 'Customer invoice model'.
 
 ## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a>Izveidot atvasināto modeli, lai atbalstītu piekļuvi dokumentu pārvaldības failiem.
-    * Tiks izveidota sava debitoru rēķina modeļa konfigurācija, iegūstot to no korporācijas Microsoft nodrošinātas konfigurācijas. Šī konfigurācija tiks izmantota, lai izveidotu piekļuvi dokumentu pārvaldības failiem un nodrošinātu to pieejamību elektroniskajiem dokumentiem, kas tiks izveidoti, izmantojot šo modeli.  
+Tiks izveidota sava debitoru rēķina modeļa konfigurācija, iegūstot to no korporācijas Microsoft nodrošinātas konfigurācijas. Šī konfigurācija tiks izmantota, lai izveidotu piekļuvi dokumentu pārvaldības failiem un nodrošinātu to pieejamību elektroniskajiem dokumentiem, kas tiks izveidoti, izmantojot šo modeli.  
 1. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
 2. Laukā Jauns ievadiet 'Derive from Name: Customer invoice model, Microsoft.
 3. Laukā Nosaukums ierakstiet 'Customer invoice model (custom)'.

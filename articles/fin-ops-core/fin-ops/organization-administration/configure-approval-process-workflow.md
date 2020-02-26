@@ -3,7 +3,7 @@ title: Apstiprināšanas procesu konfigurēšana darbplūsmā
 description: Izmantojiet tālāk aprakstīto procedūru, lai konfigurētu apstiprināšanas procesa rekvizītus.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811385"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983768"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Apstiprināšanas procesu konfigurēšana darbplūsmā
 
@@ -138,11 +138,12 @@ Varat lietotājiem nosūtīt paziņojumus, kad dokuments ir apstiprināts, norai
 
 ## <a name="specify-a-final-approver"></a> Norādiet pēdējo apstiprinātāju
 
-Varat apzīmēt pēdējo apstiprinātāju scenārijiem, kuros apstiprinātājs ir persona, kas iesniegusi dokumentu apstiprināšanai. Lai norādītu galīgo apstiprinātāju, veiciet šādas darbības.
+Varat norādīt galīgo apstiprinātāju scenārijiem, kuros apstiprinātājs ir persona, kas iesniegusi dokumentu apstiprināšanai, un tiek izmantota “neatļauta apstiprināšana, ko veic iesniedzējs”. Lai norādītu galīgo apstiprinātāju, veiciet šādas darbības.
 
-1. Kreisajā rūtī noklikšķiniet uz **Papildu iestatījumi**.
-2. Atzīmējiet izvēles rūtiņu **Izmantot galīgo apstiprinātāju**.
-3. Sarakstā atlasiet lietotāju, kurš būs galīgais apstiprinātājs.
+1. Darbplūsmas redaktorā ar peles labo pogu noklikšķiniet uz apstiprināšanas elementa un pēc tam atlasiet **Rekvizīti**, lai atvērtu formu **Rekvizīti**.
+2. Kreisajā rūtī noklikšķiniet uz **Papildu iestatījumi**.
+3. Atzīmējiet izvēles rūtiņu **Izmantot galīgo apstiprinātāju**.
+4. Sarakstā atlasiet lietotāju, kurš būs galīgais apstiprinātājs.
 
 ## <a name="set-a-time-limit"></a>Laika robežas iestatīšana
 

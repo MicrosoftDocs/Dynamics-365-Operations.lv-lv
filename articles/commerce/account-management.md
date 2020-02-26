@@ -3,7 +3,7 @@ title: Konta pārvaldības lapas un moduļi
 description: Šajā tēmā ietvertas konta pārvaldības lapas un moduļi programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885813"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025711"
 ---
 # <a name="account-management-pages-and-modules"></a>Konta pārvaldības lapas un moduļi
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ietvertas konta pārvaldības lapas un moduļi programmā Microsoft Dynamics 365 Commerce.
@@ -40,13 +40,12 @@ Konta pārvaldība attiecas uz lapu grupu, kas tiek izmantota, lai pārvaldītu 
 
 Konta pārvaldības mērķlapā tiek izmantoti šādi moduļi.
 
-- **Satura izvietojums** — šis modulis ir konteinera modulis, kas ietver visus moduļus konta pārvaldības mērķlapā.
-- **Konta sveiciena elements** — šis modulis tiek izmantots, lai nodrošinātu sveiciena ziņojumu konta pārvaldības lapā. Tajā ir iekļauti virsraksta un elementa izmēra rekvizīti. Rekvizīts **Elementa izmērs** nosaka moduļa platumu satura izvietojuma modulī. Vērtību diapazons ir no **1** līdz **12**, kur **12** ir pilns satura izvietošanas konteinera platums.
-- **Konta pasūtījuma izvietošanas elements** — šis modulis tiek izmantots, lai sniegtu kopsavilkumu par pasūtījumu skaitu, ko ievietoja lietotāja konts. Tajā ir iekļauti rekvizīti virsrakstam, elementa izmēram un saitei “skatīt detalizētu informāciju”. Saite “skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz pasūtījumu vēstures lapu.
-- **Konta profila novietojuma elements** — šis modulis tiek izmantots, lai sniegtu lietotāja profila kopsavilkumu. Tajā ir iekļauti rekvizīti virsrakstam, elementa izmēram un saitei “skatīt detalizētu informāciju”. Saite “skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz lietotāja profila lapu.
-- **Konta vēlmju elements** — šis modulis tiek izmantots, lai sniegtu elementu kopsavilkumu klienta vēlmju sarakstā. Piemēram, tas var norādīt: “Jūsu vēlmju sarakstā ir 10 elementi.” Tajā ir iekļauti rekvizīti virsrakstam, elementa izmēram un saitei “skatīt detalizētu informāciju”. Saite “skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz vēlmju saraksta lapu.
-- **Konta adreses elements** — šis modulis tiek izmantots, lai sniegtu lietotāja adrešu kopsavilkumu. Piemēram, tas var norādīt: “Jūsu kontam ir pievienotas 2 adreses.” Tajā ir iekļauti rekvizīti virsrakstam, elementa izmēram un saitei “skatīt detalizētu informāciju”. Saite “skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz lietotāja adreses lapu.
-- **Konta lojalitātes programmas elements** — šis modulis tiek izmantots, lai parādītu un izveidotu saiti ar informāciju par lojalitātes programmu. Tajā ir iekļauti rekvizīti virsrakstam, elementa izmēram, saitei “skatīt detalizētu informāciju” un saitei “kļūt par dalībnieku”. Saite “skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz lojalitātes programmas lapu. Saite “kļūt par dalībnieku” ir jākonfigurē novirzīšanai uz lapu, kur lietotāji var pievienoties lojalitātes programmai.
+- **Konteiners** — visas konta pārvaldības izvietošanas lapas moduļi jāievieto konteinerā. 
+- **Konta sveiciena elements** — šis modulis tiek izmantots, lai nodrošinātu sveiciena ziņojumu konta pārvaldības lapā. Tas ietver galvenes rekvizītus.
+- **Konta vispārīgais elements** — šis modulis var tikt izmantots, lai nodrošinātu pozīcijas un saites uz kontu pārvaldības lapām, piemēram, lapas “Pasūtījumu vēsture” vai “Mans profils”. Vispārīgo mozaīkas moduli var izmantot, lai konfigurētu mozaīku jebkurai lapai. Fabrikam šis modulis tiek izmantots lapas “Pasūtījumu vēsture” un “Mans profils” saitēm konta pārvaldības izvietošanas lapā.
+- **Konta vēlmju elements** — šis modulis tiek izmantots, lai sniegtu elementu kopsavilkumu klienta vēlmju sarakstā. Piemēram, tas var norādīt: “Jūsu vēlmju sarakstā ir 10 elementi.” Tajā ir iekļauti rekvizīti virsrakstam un saitei “Skatīt detalizētu informāciju”. Saite “Skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz vēlmju saraksta lapu. 
+- **Konta adreses elements** — šis modulis tiek izmantots, lai sniegtu lietotāja adrešu kopsavilkumu. Piemēram, tas var norādīt: “Jūsu kontam ir pievienotas 2 adreses.” Tajā ir iekļauti rekvizīti virsrakstam un saitei “Skatīt detalizētu informāciju”. Saite “Skatīt detalizētu informāciju” ir jākonfigurē novirzīšanai uz lietotāja adreses lapu.
+- **Konta lojalitātes programmas elements** — šis modulis tiek izmantots, lai parādītu un izveidotu saiti ar informāciju par lojalitātes programmu. Šim elementam ir divi stāvokļi: viens stāvoklis rāda saites, lai pievienotos lojalitātes programmai, ja lietotājs jau nav dalībnieks. Otrs stāvoklis rāda saites, lai skatītu lojalitātes programmas informācijas lapu, kad lietotājs jau ir dalībnieks. Rekvizītos ietilpst galvene, saite “Reģistrēšanās” un saite “Skatīt lojalitātes programmas”. Saite “Skatīt lojalitāti” ir jākonfigurē novirzīšanai uz lojalitātes programmas lapu. Saite “Pierakstīšanās” ir jākonfigurē novirzīšanai uz lapu, kur lietotāji var pievienoties lojalitātes programmai. 
 
 ### <a name="order-history-page"></a>Pasūtījumu vēstures lapa
 
@@ -58,7 +57,7 @@ Pasūtījumu informācijas lapa sniedz detalizētu informāciju par katru pasūt
 
 ### <a name="user-profile-page"></a>Lietotāja profila lapa
 
-Lietotāja profila lapā tiek rādīta lietotāja konta informācija, piemēram, lietotāja vārds un e-pasta adrese. Tā izmanto lietotāja profila moduli. Lai gan e-pasta adresi nevar noņemt, to var rediģēt. Lietotāja profila lapā tiek rādītas arī lietotāja preferences, kas ļauj lietotājam piedalīties vai atteikties no noteiktām funkcijām, piemēram, ieteikumu sarakstu personalizēšanas. 
+Lietotāja profila lapā tiek rādīta lietotāja konta informācija, piemēram, lietotāja vārds un e-pasta adrese. Tā izmanto lietotāja profila informāciju un lietotāja profila rediģēšanas moduļus. Lai gan e-pasta adresi nevar noņemt, to var rediģēt. Lietotāja profila lapā tiek rādītas arī lietotāja preferences, kas ļauj lietotājam piedalīties vai atteikties no noteiktām funkcijām, piemēram, ieteikumu sarakstu personalizēšanas. 
 
 ### <a name="user-address-page"></a>Lietotāja adreses lapa
 
@@ -70,13 +69,15 @@ Vēlmju saraksta lapā ir redzami elementi, kas tika pievienoti klienta vēlmju 
 
 ### <a name="loyalty-page"></a>Lojalitātes lapa
 
-Izmantojot lojalitātes programmas lapu, klienti var pievienoties lojalitātes programmai vai, ja tie jau ir lojalitātes programmas dalībnieki, skatīt informāciju par savu programmu. Viņi var arī skatīt punktus, ko nopelnījuši un izpirkuši pēdējās transakcijās.
+Izmantojot lojalitātes programmas lapu, klienti var skatīt informāciju par savu lojalitātes programmu, ja viņi jau ir dalībnieki. Viņi var arī skatīt punktus, ko nopelnījuši un izpirkuši pēdējās transakcijās. Lapa izmanto lojalitātes programmas informācijas moduli, lai parādītu lojalitātes programmas detaļas. 
+
+Lai pievienotos lojalitātes programmai, mārketinga lapu var izveidot, izmantojot lojalitātes programmas pierakstīšanās un lojalitātes programmas moduļus. Ja lietotājs nav lojalitātes programmas dalībnieks, šie moduļi ļaus lietotājam reģistrēties.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
-[Container modulis](add-container-module.md)
+[Konteinera modulis](add-container-module.md)
 
 [Iegādes lodziņa modulis](add-buy-box.md)
 

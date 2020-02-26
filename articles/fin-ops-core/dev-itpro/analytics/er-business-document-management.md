@@ -3,7 +3,7 @@ title: Pārskats par biznesa dokumentu pārvaldību
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot biznesa dokumentu pārvaldības līdzekli elektroniskā pārskata struktūrā.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933912"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957371"
 ---
 # <a name="business-document-management-overview"></a>Pārskats par biznesa dokumentu pārvaldību
 
@@ -122,7 +122,7 @@ Izmantojiet šādu procedūru, lai iespējotu Biznesa dokumentu pārvaldības fu
 4. Atsvaidziniet lapu, lai piekļūtu jaunajam līdzeklim.
 
 >[!NOTE]
-> Jums ir arī jāiespējo **Office līdzīgais lietotāja interfeiss biznesa dokumentu pārvaldībai**, lai varētu izmantot jaunu biznesa dokumentu pārvaldības interfeisu
+> Lai iegūtu plašāku informāciju par jaunā dokumenta lietotāja interfeisa izmantošanu biznesa dokumentu pārvaldībā, skatiet [Jauno dokumentu lietotāja interfeisu biznesa dokumentu pārvaldībā](er-business-document-management-new-template-ui.md).
 
 ![Līdzekļu pārvaldības darbvieta](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Lai iegūtu papildu informāciju, kā iestatīt nepieciešamos dokumentu pārval
 
 ![Iestatiet Dokumentu pārvaldības dokumentu tipu](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Iestatīšanas parametri
+### <a name="SetupBdmParameters">Iestatīšanas parametri</a>
 
 Pamata Biznesa dokumentu pārvaldības parametrus var iestatīt lapā **Biznesa dokumentu parametri**. Lapai var piekļūt tikai noteikti lietotāji. Tā ietver:
 
@@ -166,6 +166,9 @@ Izmantojiet šādu procedūru pamata parametru iestatīšanai visām juridiskām
 ![Biznesa dokumentu pārvaldības parametru iestatīšana](./media/BDM-Overview-BDMSetting.png)
 
 Izvēlētais dokumenta tips ir raksturīgs uzņēmumam un tiks izmantots, kad lietotājs strādā ar Biznesa dokumentu pārvaldību uzņēmumā, kuram atlasītais dokumenta veids ir konfigurēts. Ja lietotājs strādā ar Biznesa dokumentu pārvaldību citā uzņēmumā, tiks izmantots tāds pats atlasītais dokumenta tips, ja šim uzņēmumam tāds netika konfigurēts. Ja dokumenta tips tika konfigurēts, tas tiks izmantots laukā **SharePoint dokumenta tips** atlasītā dokumenta tipa vietā.
+
+> [!NOTE]
+> **SharePoint dokumentu tipa** parametrs definē SharePoint mapi kā pagaidu krātuvi veidnēm, kas rediģējamas, izmantojot vai nu Microsoft Excel, vai Word. Šis parametrs jāiestata, ja veidņu rediģēšanai plānojat lietot šīs Office datora lietojumprogrammas. Papildinformāciju skatiet [Veidnes rediģēšana Office datora lietojumprogrammā](#EditInOfficeDesktopApp). Ja plānojat modificēt veidni, izmantojot tikai Office 365 funkcionalitāti, so parametru var saglabāt tukšu. Papildu informāciju par veidni skatiet [Rediģēt veidni Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Piekļuves atļauju konfigurēšana
 
@@ -258,23 +261,18 @@ Atlasītajai veidnei ir pieejama opcija **Rediģēt veidni**. Šī opcija vienm�
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Sāciet rediģēt veidnes, kas pieder citiem nodrošinātājiem
 
-1. Biznesa dokumentu pārvaldības darbvietā atlasiet **Jauns dokuments**
+1. Biznesa dokumentu pārvaldības darbvietā atlasiet dokumentu, kuru vēlaties izmantot kā veidni.
 
-![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM_overview_new_template1.png)
+![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Atlasiet dokumentu, kuru vēlaties izmantot kā veidni.
+3. Atlasiet **Jauns dokuments**, un laukā **Nosaukums** izmainiet rediģējamās veidnes nosaukumu, ja nepieciešams. Teksts tiks izmantots automātiski izveidotās ER formāta konfigurācijas nosaukumam. Ievērojiet, ka šīs konfigurācijas (**Klientu FTI pārskats (GER) Kopija**) melnraksta versija, kas ietvers rediģēto veidni, automātiski tiks atzīmēta šī ER formāta izmantošanai pašreizējam lietotājam. Tajā pašā laikā nemainītā sākotnējā veidne no pamata ER formāta konfigurācijas tiks izmantota šī ER formāta lietošanai jebkādam citam lietotājam.
+4. Laukā **Nosaukums** nomainiet nosaukumu pirmās rediģējamās veidnes pārskatīšanai, kas tiks izveidota automātiski.
+5. Laukā **Komentārs** nomainiet komentāru nosaukumu rediģējamās veidnes automātiski izveidotajai pārskatīšanai.
+6. Atlasiet **Labi**, lai apstiprinātu rediģēšanas procesa sākumu.
 
-![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM_overview_new_template2.png)
+![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Noklikšķiniet uz **Izveidot dokumentu**
-4. Laukā **Virsraksts** izmainiet rediģējamās veidnes virsrakstu, ja nepieciešams. Teksts tiks izmantots automātiski izveidotās ER formāta konfigurācijas nosaukumam. Ievērojiet, ka šīs konfigurācijas (**Klientu FTI pārskats (GER) Kopija**) melnraksta versija, kas ietvers rediģēto veidni, automātiski tiks atzīmēta šī ER formāta izmantošanai pašreizējam lietotājam. Tajā pašā laikā nemainītā sākotnējā veidne no pamata ER formāta konfigurācijas tiks izmantota šī ER formāta lietošanai jebkādam citam lietotājam.
-5. Laukā **Nosaukums** nomainiet nosaukumu pirmās rediģējamās veidnes pārskatīšanai, kas tiks izveidota automātiski.
-6. Laukā **Komentārs** nomainiet piezīmi nosaukumu rediģējamās veidnes automātiski izveidotajai pārskatīšanai.
-7. Atlasiet **Labi**, lai apstiprinātu rediģēšanas procesa sākumu.
-
-![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM_overview_new_template3.png)
-
-Opcija **Jauns dokuments** vienmēr ir pieejama veidnei ER formāta konfigurācijā, kas pieder citam nodrošinātājam (šajā piemērā Microsoft). Noklikšķinot uz **Jauns dokuments** dokuments, jūs redzat visas veidnes, kas pieder pašreizējiem un citiem nodrošinātājiem. Pēc veidnes izvēlēšanās tā būs atvērta rediģēšanai. Rediģētā veidne būs saglabāta jaunā ER formāta konfigurācijā, kas ģenerēta automātiski.
+Opcija **Jauns dokuments** vienmēr ir pieejama veidnei ER formāta konfigurācijā, kas pieder pašreizējam un citam nodrošinātājam (šajā piemērā Microsoft) un kurai nav pārskatījuma. Rediģētā veidne būs saglabāta jaunā ER formāta konfigurācijā, kas ģenerēta automātiski.
 
 ### <a name="start-editing-a-template"></a>Sāciet veidnes rediģēšanu
 
@@ -282,7 +280,7 @@ Opcija **Jauns dokuments** vienmēr ir pieejama veidnei ER formāta konfigurāci
 2. Laukā **Nosaukums** nomainiet nosaukumu pirmās rediģējamās veidnes pārskatīšanai, kas tiks izveidota automātiski.
 3. Laukā **Komentārs** nomainiet piezīmi nosaukumu rediģējamās veidnes automātiski izveidotajai pārskatīšanai.
 
-    ![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM_overview_new_template4.png)
+    ![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Atlasiet **Labi**, lai apstiprinātu rediģēšanas procesa sākumu.
 
@@ -290,13 +288,16 @@ Opcija **Jauns dokuments** vienmēr ir pieejama veidnei ER formāta konfigurāci
 
 ![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Rediģējiet veidni programmā Office 365
+### <a name="EditInOffice365">Rediģēt veidni programmā Office 365</a>
 
-Modificējiet veidni, izmantojot programmas Office 365 funkcionalitāti. Piemēram, programmā Office online izmaniet lauku uzvedņu fontu veidnes virsrakstā no **Parasts** uz **Treknraksts**. Šīs izmaiņas tiek automātiski saglabātas rediģējamajai veidnei, kas ir glabāta primārajā veidnes krātuvē (pēc noklusējuma Azure BLOB krātuvē), kas konfigurēta ER struktūrai.
+Veidni iespējams modificēt, izmantojot Office 365. Piemēram, programmā Office online izmaniet lauku uzvedņu fontu veidnes virsrakstā no **Parasts** uz **Treknraksts**. Šīs izmaiņas tiek automātiski saglabātas rediģējamajāi veidnē, kas tiek glabāta primārajā veidnes krātuvē (pēc noklusējuma Azure BLOB krātuvē). Tas ir konfigurēts ER struktūrai.
 
 ![Biznesa dokumentu pārvaldības veidņu rediģēšanas lapa](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Rediģējiet veidni datora lietojumprogrammā Office
+### <a name="EditInOfficeDesktopApp">Rediģējiet veidni datora lietojumprogrammā Office</a>
+
+> [!NOTE]
+> Šī funkcija ir pieejama tikai tad, ja parametrs **SharePoint dokumenta tips** ir pareizi konfigurēts. Papildinformāciju skatiet sadaļā [Parametru konfigurēšana](#SetupBdmParameters).
 
 1. Atlasiet opciju **Atvērt datora lietojumprogrammu**, lai modificētu veidni, izmantojot datora lietojumprogrammas Office (šajā piemērā Excel) funkcionalitāti. Rediģējamā veidne tiek kopēta no pastāvīgās krātuves uz pagaidu krātuvi, kas Biznesa dokumentu pārvaldības parametros ir konfigurēta kā SharePoint mape.
 2. Apstipriniet, ka vēlaties atvērt veidni no pagaidu failu krātuves Office datora lietojumprogrammā Excel.
@@ -386,7 +387,7 @@ Rediģējot ER formāta veidni, kas pieder pašreizējam aktīvajam nodrošināt
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Esmu izvēlējies **Rediģēt dokumentu**, bet lapa **BDM veidnes redaktors** programmā Finance and Operations netika atvērta un tiku novirzīts uz Office 365 tīmekļa lapu.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Esmu izvēlējies **Rediģēt dokumentu**, bet lapa **BDM veidnes redaktors** programmā Finance and Operations netika atvērta, un es tiku nosūtīts uz Office 365 tīmekļa lapu.
 Šī ir zināma problēma ar Office 365 virzienmaiņu. Tā notiek, pirmo reizi pierakstoties programmā Office 365. Lai atrisinātu šo problēmu, savā pārlūkprogrammā atlasiet pogu **Atpakaļ**, lai atgrieztos atpakaļ.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Es saprotu, kā rediģēt veidni, izmantojot programmu Office 365 pirmajā piemērošanas reizē un kā izmantot veidni otrajā piemērošanas reizē, pielāgojot veidni, lai redzētu, kā manas izmaiņas ietekmē ģenerēto biznesa dokumentu. Vai es varu to izdarīt, izmantojot datora lietojumprogrammā Office?
@@ -411,3 +412,4 @@ Visticamāk, esat pierakstījies pašreizējai Azure AD domēna lietojumprogramm
 [Iegulstiet attēlus un formas jūsu ģenerētajos dokumentos, izmantojot ER](electronic-reporting-embed-images-shapes.md)
 
 [Elektronisko pārskatu (EP) izveides konfigurēšana, lai pārsūtītu datu uz pakalpojumu Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

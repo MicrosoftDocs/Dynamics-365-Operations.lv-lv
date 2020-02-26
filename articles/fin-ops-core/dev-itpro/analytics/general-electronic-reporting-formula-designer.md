@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914822"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002524"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -51,7 +51,7 @@ Lapu **Formulas veidotājs** var atvērt, veicot kādu no tālāk norādītajām
 - Definēt nosacījumus procesa kontroles pārbaudēm.
 - Definēt ziņojumu tekstu procesa kontroles pārbaudēm.
 
-## <a name="Binding">Datu saistīšana</a>
+## <a name="Binding"></a>Datu saistīšana
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas pārveido no datu avotiem saņemtos datus, lai izpildes laikā šos datus varētu ievadīt datu patērētājā šādos veidos:
 
@@ -69,7 +69,7 @@ Tālāk esošajā attēlā ir parādīts, kā var lietot šī tipa izteiksmi. Š
 
 Izpildes laikā izveidotā formula `ROUND (Intrastat.AmountMST, 2)` katra tabulas Instrastat ieraksta lauka **AmountMST** vērtību noapaļo līdz diviem cipariem aiz komata. Pēc tam tā noapaļoto vērtību ievada datu modeļa **Nodokļu pārskatu veidošana** komponentā **Transaction.InvoicedAmount**.
 
-## <a name="Transformation">Datu formatēšana</a>
+## <a name="Transformation"></a>Datu formatēšana
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas formatē no datu avotiem saņemtos datus, lai šos datus varētu nosūtīt kā daļu no ģenerētā elektroniskā dokumenta. Iespējams, jums ir formatējums, kas jālieto kā tipiska kārtula, kuru nepieciešams atkārtoti izmantot kādam formātam. Šajā gadījumā formāta konfigurācijā šo formatēšanu varat vienu reizi ieviest kā nosauktu pārveidošanu, kurai ir formatēšanas izteiksme. Pēc tam šo nosaukto pārveidošanu var saistīt ar daudziem formāta komponentiem, kuriem ir nepieciešams formatēt izvadi atbilstoši jūsu izveidotajai formatēšanas izteiksmei.
 
@@ -87,7 +87,7 @@ Ja jums ir formatējums, kas ir jālieto atsevišķi, šo formatējumu varat iev
 
 [![Formatējuma lietošana atsevišķam komponentam](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Apstrādes plūsmas kontrole</a>
+## <a name="Validation"></a>Apstrādes plūsmas kontrole
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmes, kas kontrolē elektronisko dokumentu ģenerēšanas procesa plūsmu. Jūs varat veikt tālāk norādītos uzdevumus.
 
@@ -112,7 +112,7 @@ ER formulas veidotāju var izmantot arī, lai ģenerētu faila nosaukumu ģener�
 
 [![Apstrādes plūsmas kontrole](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Dokumenta satura kontrole</a>
+## <a name="Enabled"></a>Dokumenta satura kontrole
 
 ER formulu noformētāju var izmantot, lai konfigurētu izteiksmes, kuras kontrolē to, kādi dati tiks ievietoti ģenerētajos elektroniskajos dokumentos izpildlaikā. Izteiksmes var iespējot vai atspējot konkrētu formāta elementu izvadi atkarībā no apstrādes datiem un konfigurētās loģikas. Šīs izteiksmes var ievadīt viena formāta elementam cilnes **Kartēšana** laukā **Iespējots** lapā **Operāciju noformētājs**. Izteiksmes var ievadīt kā loģisku nosacījumu, kas atgriež *Būla* vērtību:
 
@@ -139,7 +139,7 @@ Nākamajā attēlā ir parādītas šī tipa izteiksmes. (Kā piemēru izmanto M
 > 
 > Pamatojoties uz šo iestatījumu, ģenerētais ziņojums par katru debitora maksājumu — XML elements **Ustrd**— saturēs vai nu maksājuma piezīmju tekstu, vai, ja šis teksts ir tukšs, sarakstu, kurā ar komatiem atdalīti rēķina numuri, kas izmantoti, lai veiktu šo maksājumu.
 
-## <a name="TestFormula">Konfigurēto formulu validācija</a>
+## <a name="TestFormula"></a>Konfigurēto formulu validācija
 
 Lapā **formulas veidotājs** atlasiet **Testēt**, lai pārbaudītu, kā darbojas konfigurētā formula.
 

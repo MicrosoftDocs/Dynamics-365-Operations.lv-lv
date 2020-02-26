@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771637"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025858"
 ---
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes pievienošana darbvietām, izmantojot Power BI Embedded
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šis līdzeklis tiek atbalstīts programmā Finance and Operations (versija 7.2 un jaunākas versijas).
+> Šis līdzeklis tiek atbalstīts programmā Finance and Operations (7.2 un jaunākās versijās).
 
 ## <a name="introduction"></a>Ievads
 Šajā tēmā ir aprakstīts, kā iegult Microsoft Power BI pārskatu darbvietas cilnē **Analīze**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
@@ -111,7 +111,7 @@ Izpildiet tālāk norādītās darbības, lai pievienotu biznesa loģiku, kas in
 2. Nospiediet taustiņu F7, lai piekļūtu koda definīcijas kodam.
 3. Pievienojiet tālāk norādīto X++ kodu.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Esat pabeidzis uzdevumu ar biznesa loģikas pievienošanu, kas inicializē iegul
 Šajā sadaļā ir sniegta informācija par palīga klasi, kas tiek izmantota, lai iegultu Power BI pārskatu (.pbix formāta resursu) formu grupas vadīklā.
 
 #### <a name="syntax"></a>Sintakse
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

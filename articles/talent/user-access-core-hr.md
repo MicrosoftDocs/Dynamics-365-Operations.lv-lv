@@ -1,6 +1,6 @@
 ---
-title: Lietotājs var piekļūt Core HR, bet nevar piekļūt Onboard vai Attract
-description: Šajā tēmā paskaidrots, kā atrisināt problēmu, kad lietotājs var piekļūt Microsoft Dynamics 365 Talent — Core HR, bet nevar piekļūt programmai Attract vai Onboard.
+title: Lietotājs var piekļūt Human Resources, bet nevar piekļūt pakalpojumam Onboard vai Attract
+description: Šajā tēmā paskaidrots, kā atrisināt problēmu, kad lietotājs var piekļūt Microsoft Dynamics 365 Talent — Human Resources, bet nevar piekļūt programmai Attract vai Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772923"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006314"
 ---
-# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Lietotājs var piekļūt Core HR, bet nevar piekļūt Onboard vai Attract
+# <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>Lietotājs var piekļūt Human Resources, bet nevar piekļūt pakalpojumam Onboard vai Attract
 
 [!include [banner](includes/banner.md)]
 
 **Informācija par vidi**
 
 - Microsoft Dynamics Lifecycle Services (LCS) izvietošanu veica lietotājs A.
-- Lietotājs A pievienoja lietotāju B kā Microsoft Dynamics 365 Talent: Core HR.
+- Lietotājs A pievienoja lietotāju B kā Microsoft Dynamics 365 Human Resources.
 
 **Izejas plūsma**
 
-Lietot. B var piekļūt Core HR, bet nevar piekļūt Talent: Attract vai Talent: Onboard. Kad lietotājs mēģina doties uz **Programmu izmantošana**, tā vietā tiek atvērta izmēģinājuma vide.
+Lietot. B var piekļūt Human Resources, bet nevar piekļūt Talent: Attract vai Talent: Onboard. Kad lietotājs mēģina doties uz **Programmu izmantošana**, tā vietā tiek atvērta izmēģinājuma vide.
 
 **Risinājums**
 
@@ -45,4 +45,4 @@ Papildinform. skatiet sadaļas [Talent nodrošinājums](https://docs.microsoft.c
 
 **Ilgterm. risināj.**
 
-Microsoft apsver iespēju automāt. piešķirt atbilstošās tiesības programmām Onboard un Attract, pievienojot lietotāju Core HR.
+Microsoft apsver iespēju automāt. piešķirt atbilstošās tiesības programmām Onboard un Attract, pievienojot lietotāju Human Resources.
