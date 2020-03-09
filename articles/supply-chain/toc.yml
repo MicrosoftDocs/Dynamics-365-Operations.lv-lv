@@ -68,6 +68,8 @@
                   items:
                     - name: Jaunumi un izmaiņas Supply Chain Management mājas lapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management versija\_10.0.9 (2020.\_gada aprīlis)"
+                      href: get-started/whats-new-scm-10-0-9.md
                     - name: "Supply Chain Management versija\_10.0.8 (2020.\_gada februāris)"
                       href: get-started/whats-new-scm-10-0-8.md
                     - name: "Supply Chain Management versija\_10.0.7 (2020.\_gada janvāris)"
@@ -146,6 +148,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Saglabātie skati
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Režģa iespējas
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pielāgotu lauku izveide un darbs ar tiem
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: PowerApps programmu iegulšana
@@ -525,8 +529,10 @@
                   href: cost-management/costing-versions.md
                 - name: Izmaksu aprēķināšanas lapas
                   href: cost-management/costing-sheets.md
-                - name: 'Izmaksu izmaiņu simulēšana, plānotajām izmaksām izmantojot izmaksu novērtēšanas versiju'
+                - name: 'Izmaksu izmaiņu simulēšana, plānotajām izmaksām izmantojot izmaksu aprēķināšanas versiju'
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
+                - name: Krājumu cenu uzglabāšanas salīdzināšanas pārskats
+                  href: cost-management/compare-item-price.md
             - name: Krājumu uzskaite
               items:
                 - name: Izmaksu objekti
@@ -659,7 +665,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Personāla atlase
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Mazumtirdzniecības kanāla veiktspēja
+                - name: Retail kanāla veiktspēja
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pārdošanas un ienesīguma veiktspēja
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/supply-chain/toc.json
@@ -673,6 +679,8 @@
               items:
                 - name: Dokumentu atskaišu izveides pakalpojumu pārskats
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Atbalstītie fonti
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
                 - name: SSRS konfigurēšana lokāliem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Drukāšana
@@ -1061,6 +1069,8 @@
               items:
                 - name: Plānošanas optimizācijas apskats
                   href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Negatīvais rīcībā esošais tiek uzskatīts par nulles rīcībā esošo
+                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Darba sākšana ar plānošanas optimizāciju
                   href: master-planning/planning-optimization/get-started.md
                 - name: Plānošanas optimizācijas atbilstības analīze
@@ -2417,7 +2427,7 @@
                   href: warehousing/process-guide-framework.md
             - name: Jaunināšana un migrēšana
               items:
-                - name: "Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
+                - name: Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Reģistrācijas un izvietošanas ieejas plūsmas
               items:
@@ -2441,6 +2451,4 @@
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md
