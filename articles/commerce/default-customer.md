@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9e1087821b357c578993cdd5742399c5ec0ecc95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001810"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057966"
 ---
 # <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
@@ -33,7 +33,7 @@ ms.locfileid: "3001810"
 
 ## <a name="overview"></a>Pārskats
 
-Veidojot mazumtirdzniecības vai tiešsaistes kanālu, būs jānorāda noklusējuma debitors. Noklusējuma debitoru var viegli izveidot, vispirms izveidojot debitoru grupu un debitoru adrešu grāmatu.
+Veidojot kanālu, būs jānorāda noklusējuma debitors. Noklusējuma debitoru var viegli izveidot, vispirms izveidojot debitoru grupu un debitoru adrešu grāmatu.
 
 ## <a name="create-a-customer-group"></a>Debitoru grupas izveidošana
 

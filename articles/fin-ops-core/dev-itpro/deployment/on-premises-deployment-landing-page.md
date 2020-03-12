@@ -1,9 +1,9 @@
 ---
 title: Lokālo izvietojumu sākumlapa
 description: Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770950"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090593"
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
@@ -51,16 +51,16 @@ Varat izvietot programmu Dynamics 365 Finance + Operations (lokālo versiju). Iz
 - [Elektronisko pārskatu veidošanas (ER) konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentu ģenerēšana, publicēšana un drukāšana lokālos izvietojumos](../analytics/printing-capabilities-on-premises.md)
 - [Starpniekserveru konfigurēšana lokālās vidēs](onprem-reverseproxy.md)
-- [Tehniskā atbalsta uzstādīšana programmām Finance and Operations](../lifecycle-services/support-experience.md)
+- [Tehniskā atbalsta iestatīšana Finance and Operations programmām](../lifecycle-services/support-experience.md)
 - [Klienta interneta savienojamība](../user-interface/client-disconnected.md)
 - [Atjauninājumu lietošana lokālos izvietojumos](apply-updates-on-premises.md)
 - [Lokālo vižu atkārtota izvietošana](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Retail iespējas, kas ir pieejamas lokālos izvietojumos](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Lokālos izvietojumos pieejamās Commerce iespējas](../../../retail/retail-onprem.md)
 - [Retail kanāla komponentu instalēšanas darbības lokālā vidē](deploy-retail-onprem.md)
-- [ Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../../retail/retail-modern-pos-device-activation.md)
-- [Retail Store Scale Unit konfigurēšana un instalēšana](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../../retail/retail-modern-pos-device-activation.md)
+- [Commerce Scale Unit konfigurēšana un instalēšana](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Jaunināt
 - [Jaunināšanas uz vietas process lokālām vidēm](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ Varat izvietot programmu Dynamics 365 Finance + Operations (lokālo versiju). Iz
 - [Sertifikāta rotācija](certificate-rotation-on-prem.md)
 - [Lokālā diagnostika](on-premises-diagnostics.md)
 - [Līdzekļi, kas nav ieviesti lokālajos izvietojumos](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Noņemtie vai novecojuši līdzekļi programmai Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Noņemtie vai novecojušie līdzekļi Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un lokālie laidieni](../migration-upgrade/on-prem-version-update-policy.md)
  

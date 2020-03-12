@@ -1,9 +1,9 @@
 ---
-title: Gandrīz reāllaika datu integrācija ar Common Data Service
-description: Šajā tēmā ir sniegts apskats par integrāciju starp Finance and Operations un Common Data Service.
+title: Duālā ieraksta pārskats
+description: Šī tēma sniedz apskatu par duālo ierakstu. Duālais ieraksts ir infrastruktūra, kas nodrošina gandrīz reāllaika mijiedarbību starp Microsoft Dynamics 365 modeļa vadītajām programmām un Finance and Operations programmām.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,59 +18,91 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c09b0c0bb695e7695acb7a8821ffb99ae1f6f06
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019902"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075994"
 ---
-# <a name="near-real-time-data-integration-with-common-data-service"></a>Gandrīz reāllaika datu integrācija ar Common Data Service
+# <a name="dual-write-overview"></a>Duālā ieraksta pārskats
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-Pašreizējā digitālajā pasaulē biznesa ekosistēmas izmanto Microsoft Dynamics 365 programmas kopumā. Tā kā dati no cilvēkiem, debitoriem, operācijām un lietu interneta (IoT) ierīcēm saplūst vienā avotā, pastāv iespēja izmantot digitālās atgriezeniskās saites cilpas. Lai iegūtu šo pieredzi, būtiska ir integrācija starp Finance and Operations programmām un citām Dynamics 365 programmām. Dažas programmas ir veidotas uz pakalpojuma Common Data Service. Integrācija starp Finance and Operations programmu datiem ar Common Data Service ļauj programmām saskaņoti un raiti sazināties ar Finance and Operations.
+## <a name="what-is-dual-write"></a>Kas ir duālais ieraksts?
 
-Finance and Operations programmas un Common Data Service nodrošina tuvu reāllaikam datu sinhronizāciju starp Finance and Operations programmām un citām Dynamics 365 programmām, izmantojot duālā ieraksta struktūru. Segums ir plašs un aptver programmas 28 svarīgākās jomas. Mērķis ir nodrošināt "One Dynamics 365" lietotāja pieredzi, izmantojot nevainojamas datu plūsmas, kas savieno biznesa procesus dažādās programmās.
+Duālais ieraksts ir standarta infrastruktūra, kas nodrošina gandrīz reāllaika mijiedarbību starp Microsoft Dynamics 365 modeļa vadītajām programmām un Finance and Operations programmām. Kad dati par debitoriem, precēm, cilvēkiem un operācijām pārsniedz programmas robežas, tiek nodrošinātas visas organizācijas struktūrvienības.
 
-![Arhitektūras pārskata diagramma](media/dual-write-overview.jpg)
+Duālais ieraksts nodrošina cieši saistītu divvirzienu integrāciju starp Finance and Operations programmām un Common Data Service. Visas Finance and Operations programmas datu izmaiņas izraisa Common Data Service ierakstus, un jebkuras datu izmaiņas, kas rodas Common Data Service rada ierakstus Finance and Operations programmām. Šī automatizētā datu plūsma nodrošina integrētu lietotāja pieredzi programmās.
 
-Ir pieejamas šādas vērtību propozīcijas:
+![Datu relācija starp programmām](media/dual-write-overview.jpg)
 
-+ [Organizācijas hierarhija Common Data Service](organization-mapping.md)
-+ [Uzņēmuma koncepts Common Data Service](company-data.md)
-+ [Integrētie debitoru pamatdati](customer-mapping.md)
-+ [Integrētā virsgrāmata](ledger-mapping.md)
-+ [Vienotā preču pieredze](product-mapping.md)
-+ [Integrētie kreditora pamatdati](vendor-mapping.md)
-+ [Integrētās vietas un noliktavas](sites-warehouses-mapping.md)
-+ [Integrētie nodokļu pamatdati](tax-mapping.md)
+Duālajam ierakstam ir divi aspekti: *infrastruktūras* aspekts un *programmas* aspekts.
 
-## <a name="system-requirements"></a>Sistēmas prasības
+### <a name="infrastructure"></a>Infrastruktūra
 
-Sinhronām divvirziena tuvu reāllaikam datu plūsmām ir nepieciešamas šādas versijas:
+Duālā ieraksta infrastruktūra ir paplašināma un uzticama, un tajā ir iekļauti šādi galvenie līdzekļi:
 
-+ Microsoft Dynamics 365 for Finance and Operations versija 10.0.4 (2019. gada jūlijs) ar 28. platformas atjauninājumu vai jaunāka versija
-+ Microsoft Dynamics 365 for Customer Engagement platformas versija 9.1 (4.2) vai jaunāka versija
++ Sinhrona un divvirzienu datu plūsma starp programmām
++ Sinhronizācija kopā ar atskaņošanas, pauzes un izlīdzināšanas režīmiem, lai atbalstītu sistēmu tiešsaistes un bezsaistes/asinhrono režīmu laikā.
++ Iespēja sinhronizēt sākotnējos datus starp programmām
++ Konsolidētais darbību un kļūdu žurnālu skats datu administratoriem
++ Iespēja konfigurēt pielāgotus brīdinājumus un sliekšņus un pieteikties paziņojumiem
++ Intuitīvs lietotāja interfeiss (UI) filtrēšanai un pārveidei
++ Iespēja iestatīt un skatīt elementu atkarības un attiecības
++ Paplašināmība gan standarta, gan pielāgotajām entītijām un kartēm
++ Uzticama programmas dzīves cikla pārvaldība
++ Standarta iestatījumu pieredze jauniem debitoriem
 
-## <a name="setup-instructions"></a>Iestatīšanas instrukcijas
+### <a name="application"></a>Pieteikums
 
-Izpildiet tālāk norādītās darbības, lai iestatītu Finance and Operations programmu un Common Data Service integrāciju.
-    
-1. Informāciju par duālā ieraksta sistēmas iestatīšanu skatiet rakstu [soli pa solim rokasgrāmata](https://aka.ms/dualwrite-docs) par duālā ieraksta priekšskatījuma paziņošanu.
-2. Lejupielādējiet un instalējiet risinājumu [Fin OPS un CDS/CE integrācija, izmantojot Dual-Write](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer grupā. Pakotnē ir pieci risinājumi:
+Duālais ieraksts izveido kartēšanu starp koncepcijām Finance and Operations programmās un koncepcijās, kas iekļautas modeļa vadītajās Dynamics 365 programmās. Šī integrācija atbalsta šādus scenārijus:
 
-    + Dynamics365Company
-    + CurrencyExchangeRates
-    + Dynamics365FinanceAndOperationsCommon
-    + Dynamics365FinanceCommon
-    + Dynamics365SupplyChainCommon
++ Integrētie debitoru pamatdati
++ Piekļuve klientu lojalitātes programmas kartēm un atlīdzības punktiem
++ Vienota preču šablonu pieredze
++ Organizācijas hierarhijas apzināšanās
++ Integrētie kreditoru pamatdati
++ Piekļuve finanšu un nodokļu atsauces datiem
++ Cenas programmas pieredze pēc pieprasījuma
++ Integrēta "no potenciālā klienta uz naudu" tipa pieredze
++ Iespēja apkalpot gan iekšējos līdzekļus, gan debitora līdzekļus, izmantojot uz vietas esošos aģentus
++ Integrēta piegādes-apmaksas pieredze
++ Klienta datu un dokumentu integrētās aktivitātes un piezīmes
++ Iespēja meklēt rīcībā esošo krājumu pieejamību un detalizētu informāciju
++ "Projekta-naudas" pieredze
++ Iespēja apstrādāt vairākas adreses un lomas, izmantojot puses koncepciju
++ Viena avota pārvaldība lietotājiem
++ Integrētie kanāli mazumtirdzniecībai un mārketingam
++ Ieskats akcijās un atlaidēs
++ Pakalpojuma pieprasījuma funkcijas
++ Racionalizētas pakalpojuma darbības
 
-3. Ievērojiet izpildes kārtību, lai [sinhronizētu sākotnējos atsauces datus ](initial-sync.md).
-4. Ja rodas duālā ieraksta sinhronizācijas problēmas, skatiet rakstu [Datu integrācijas problēmu novēršanas rokasgrāmata](dual-write-troubleshooting.md).
+## <a name="top-reasons-to-use-dual-write"></a>Galvenie iemesli duālā ieraksta lietošanai
 
-> [!IMPORTANT]
-> Jūs nevarat palaist duālo ierakstu un [No potenciālā klienta līdz skaidrai naudai](../../../../supply-chain/sales-marketing/prospect-to-cash.md) blakus vienu otram. Ja jūs izmantojat risinājumu No potenciālā klienta līdz skaidrai naudai, jums tas ir jāatinstalē. Jums ir arī jāatspējo debitoru un kreditoru duālā ieraksta veidnes, kas ir daļa no risinājuma No potenciālā klienta līdz skaidrai naudai.
+Duālais ieraksts nodrošina datu integrāciju Microsoft Dynamics 365 programmās. Šīs spēcīgās struktūras saista vides un ļauj dažādām biznesa programmām strādāt kopā. Lūk, galvenie iemesli, kāpēc jums jāizmanto duālais ieraksts:
+
++ Duālais ieraksts nodrošina cieši saistītu, gandrīz reāllaika un divvirzienu integrāciju starp Finance and Operations programmām un modeļa vadītām programmām pakalpojumā Dynamics 365. Šī integrācija padara Microsoft Dynamics 365 par vienas pieturas aģentūru visiem jūsu biznesa risinājumiem. Klienti, kuri lieto Dynamics 365 Finance un Dynamics 365 Supply Chain Management, bet kas neizmanto Microsoft risinājumus klientu attiecību pārvaldībai (CRM), pāriet uz Dynamics 365 tā duālā ieraksta atbalsta dēļ.
++ Dati no debitoriem, precēm, operācijām, projektiem, kā arī no lietu interneta (IoT) tiek automātiski pārsūtīti uz Common Data Service ar duālo ierakstu. Šis savienojums ir ļoti noderīgs uzņēmumiem, kas ir ieinteresēti Microsoft Power Platform paplašināšanā.
++ Duālā ieraksta infrastruktūrā tiek ievērots bezkoda/zemā koda princips. Ir nepieciešami minimāli tehniskie pūliņi, lai paplašinātu standarta "no tabulas līdz tabulai" kartes un iekļautu pielāgotas kartes.
++ Duālais ieraksts atbalsta gan tiešsaistes, gan bezsaistes režīmu. Microsoft ir vienīgais uzņēmums, kas piedāvā atbalstu tiešsaistes un bezsaistes režīmiem.
+
+## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>Ko duālais ieraksts nozīmē CRM preču lietotājiem un arhitektiem?
+
+Duālais ieraksts automatizē datu plūsmu starp Finance and Operations programmām un Common Data Service. Turpmākajos laidienos jēdzieni modeļa darbinātās programmās pakalpojumā Dynamics 365 (piemēram, klients, kontaktpersona, piedāvājums un pasūtījums) tiks mērogoti uz vidusmēra tirgu un vidusmēra tirgus klientiem.
+
+Pirmajā laidienā lielākā daļa automatizācijas tiek apstrādāta ar duālā ieraksta risinājumiem. Turpmākajos laidienos šie risinājumi kļūs par daļu no Common Data Service. Izprotot gaidāmās izmaiņas Common Data Service, jūs varat ietaupīt savus pūliņus ilgākā termiņā. Dažas no būtiskām izmaiņām:
+
++ Common Data Service būs jaunas koncepcijas, piemēram, uzņēmums un puse. Šīs koncepcijas ietekmēs visas programmas, kas ir iebūvētas Common Data Service, piemēram, Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service un Dynamics 365 Field Service.
++ Aktivitātes un piezīmes ir vienotas un paplašinātas, lai atbalstītu gan C1 (sistēmas lietotājus), gan C2 (sistēmas klientus).
++ Dažas no gaidāmajām Common Data Service izmaiņām:
+
+    - Decimālais datu tips aizstās naudas datu tipu.
+    - Datu efektivitāte atbalstīs pagātnes, tagadnes un nākotnes datus vienuviet.
+    - Būs vairāk atbalsta valūtas un maiņas kursiem, un tiks pārskatīts **Maiņas kursa** programmu programmēšanas interfeiss (API).
+    - Tiks atbalstīta mērvienību konvertēšana.
+
+Lai iegūtu papildu informāciju par gaidāmajām izmaiņām, skatiet šeit: [Dati Common Data Service– 1. un 2. fāze](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).

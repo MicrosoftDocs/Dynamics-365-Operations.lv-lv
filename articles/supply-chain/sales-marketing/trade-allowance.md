@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251159"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057783"
 ---
 # <a name="trade-allowance-management"></a>Mazumtirdzniecības atlaižu pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Mazumtirdzniecības atlaižu pārvaldība palīdz uzņēmumiem pārvaldīt pārdošanas veicināšanas programmas, kurās tiek piedāvātas mazumtirdzniecības "samaksa par rezultātiem" naudas atlīdzība klientiem, kuri sasniedz apjoma un izturēšanās mērķus. Šī līdzekļa iespējas ir paredzētas uzņēmumiem, kas koncentrējas uz visaptverošiem veicināšanas procesiem peļņas gūšanas nolūkā, sākot ar reklāmas līdzekļu budžeta plānošanu un sadalījumu, līdz atlaižu līguma izveidei, pieprasījumu izveidei un apstrādei, maksājumu apstrādei un veicināšanas pasākumu efektivitātes analīzei.
+Atlaižu pārvaldība palīdz uzņēmumiem pārvaldīt pārdošanas veicināšanas programmas, kurās tiek piedāvātas "samaksa par rezultātiem" naudas atlīdzība klientiem, kuri sasniedz apjoma un izturēšanās mērķus. Šī līdzekļa iespējas ir paredzētas uzņēmumiem, kas koncentrējas uz visaptverošiem veicināšanas procesiem peļņas gūšanas nolūkā, sākot ar reklāmas līdzekļu budžeta plānošanu un sadalījumu, līdz atlaižu līguma izveidei, pieprasījumu izveidei un apstrādei, maksājumu apstrādei un veicināšanas pasākumu efektivitātes analīzei.
 
 
 Šis raksts sniedz plašu pārskatu par mazumtirdzniecības atlaižu pārvaldības funkciju un iepazīstinās ar pārdošanas veicināšanas programmas pārvaldības standarta uzdevumu kopu. Ir paredzams, ka šo funkcionalitāti izmantos vairāku veidu lietotāji ar darbības un lēmumu pieņemšanas atbildībām, savu attiecīgo mērķu sasniegšanai, kā norādīts tālāk.
@@ -77,9 +77,9 @@ Kad ir izveidota fonda definīcija, nākamās darbības reklāmas pasākuma plā
 
 Mazumtirdzniecības atlaižu līgumus reģistrē lapā **Mazumtirdzniecības atlaižu līgumi**. Lai atvērtu lapu **Mazumtirdzniecības atlaižu līgumi**, atlasiet **Pārdošana un mārketings** \> **Mazumtirdzniecības atlaides** \> **Mazumtirdzniecības atlaižu līgumi**.
 
-![Mazumtirdzniecības atlaižu līgumu lapa](./media/trade-allowance-management-agreements-page.png "Mazumtirdzniecības atlaižu līgumu lapa")
+![Tirdzniecības atlaižu līgumu lapa](./media/trade-allowance-management-agreements-page.png "Tirdzniecības atlaižu līgumu lapa")
 
-#### <a name="header"></a>Galvene
+#### <a name="header"></a>Virsraksts
 
 Atlasiet vienumu **Virsraksts**, lai pārslēgtos uz virsrakstu skatu.
 
@@ -105,7 +105,7 @@ Cilnē **Tirdzniecības notikumi** tiek parādīti līguma segto notikumu veidi.
 
 Atlasot tirdzniecības notikumu un pēc tam atlasot cilni **Summas**, tiek atrasta detalizētu informāciju par notikumu.
 
-![Mazumtirdzniecības atlaižu līguma rindas](./media/trade-allowance-management-agreements-lines.png "Mazumtirdzniecības atlaižu līguma rindas")
+![Tirdzniecības atlaižu līguma rindas](./media/trade-allowance-management-agreements-lines.png "Tirdzniecības atlaižu līguma rindas")
 
 Sadaļā **Mazumtirdzniecības atlaižu rindas** norādiet daudzumu vai summu diapazonus, kas debitoram ir jāsasniedz definīcijām, lai iegūtu atlīdzības.
 

@@ -3,7 +3,7 @@ title: Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 description: Šajā tēmā ir sniegta detalizēta informācija par pārdošanas punkta (POS) operācijām programmā Dynamics 365 Commerce. Tajā ir norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023340"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081343"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -52,6 +52,8 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 137 | Piederības pievienošana klientam | Pievienot piederību klientam lapā **detalizēta informācija par klientu**. | Nav | Nav | Nav | Jā | Nav |
 | 138 | Piederības noņemšana klientam | Noņemt piederību lapā **detalizēta informācija par klientu**. | Nav | Nav | Nav | Jā | Nav |
 | 643 | Pievienot kupona kodu | Pievienot kuponu, ievadot tā kodu POS sistēmā. | Jā | Jā | Nē | Jā | Nē |
+| 141 | Pievienot virsrakstu maksas | Pievienojiet papildmaksu pasūtījuma galvenei. | Jā | Jā | Nē | Nē| Nē |
+| 141 | Pievienot rindu maksas | Pievienojiet papildmaksu atlasītajai pārdošanas rindai. | Jā | Jā | Nē | Nē| Nē |
 | 117 | Pievienot lojalitātes karti | Aicināt lietotāju ievadīt lojalitātes kartes numuru, kas tiks pievienots pašreizējai transakcijai. | Jā | Jā | Nē | Jā | Nē |
 | 136 | Pievienot sērijas numuru | Šī operācija sniedz lietotājam iespēju norādīt pašlaik atlasītās preces sērijas numuru. | Jā | Jā | Nē | Jā | Nē |
 | 1214 | Pievienot piegādes adresi | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
@@ -64,6 +66,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 310 | Aprēķināt kopsummu | Ja ir atlikts atlaides aprēķins, šī operācija sniedz iespēju uzsākt aprēķinu pašreizējai transakcijai. | Jā | Jā | Nē | Jā | Nē |
 | 642 | Iznest visas preces | Iestatīt visām rindām piegādes veidu **Iznešana**. | Jā | Jā | Nē | Jā\* | Nē |
 | 641 | Iznest atlasītas preces | Iestatīt atlasītajām rindām piegādes veidu **Iznešana**. | Jā | Jā | Nē | Jā\* | Nē |
+| 647 | Mainīt piegādes veidu | Mainiet iepriekš konfigurēto nosūtīšanas pārdošanas rindu piegādes veidu. | Jā | Jā | Nē | Nē| Nē |
 | 1215 | Mainīt paroli | Šī operācija sniedz POS lietotājam iespēju mainīt savu paroli. | Jā | Jā | Jā | Nē | Nē |
 | 123 | Mainīt mērvienību | Mainīt atlasītā rindas vienuma mērvienību. | Jā | Jā | Nē | Jā | Nē |
 | 639 | Notīrīt noklusējuma darījuma pārdošanas pārstāvi | Noņemt no transakcijas komisijas pārdošanas grupu (pārdošanas pārst.). | Jā | Jā | Nē | Jā | Nē |
@@ -100,6 +103,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 1218 | Veikt perifērijas ierīces piespiedu atbloķēšanu | Šī operācija tiek iekšēji izmantota sistēmā, lai atbloķētu POS perifērijas ierīces. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 520 | Dāvanu kartes bilance | Parādīt dāvanu kartes bilanci. | Jā | Jā | Nē | Nē | Nē |
 | 708 | Deaktivizēt ierīci | Deaktivizēt pašreizējo ierīci, lai to nevarētu izmantot kā POS kases sistēmu. | Nē | Nē | Nē | Nē | Nē |
+| 804 | Ienākošā operācija | Piekļūstiet ienākošā veikala krājumu pārvaldības funkcijām. | Jā | Nē | Jā | Nē| Nē |
 | 517 | Ieņēmumu konti | Reģistrējiet naudu, kas tiek ievietota naudas kastē citu iemeslu dēļ, kas nav pārdošana. | Jā | Jā | Jā | Jā | Nē |
 | 801 | Krājumu pārlūkošana | Uzmeklēt pieejamos, pasūtāmos un solīšanai pieejamos (ATP) daudzumus pašreizējā veikalā un citās pieejamajās vietās. | Jā | Jā | Jā | Nē | Nē |
 | 122 | Rēķina komentārs | Šī operācija sniedz lietotājam iespēju ievadīt komentāru par pašreizējo transakciju. | Jā | Jā | Nē | Jā | Nē |
@@ -110,11 +114,13 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 301 | Rindas atlaide procentos | Ievadiet darījumā izmantotās dokumenta rindas atlaidi procentos. Šī operācija tiek lietota tikai precēm, kam var lietot atlaidi, un tikai ar noteiktiem atlaides ierobežojumiem. | Jā | Jā | Nē | Jā | Nē |
 | 703 | Bloķēt reģistru | Bloķēt pašreizējo kases sistēmu, lai to nevarētu izmantot, taču neizrakstīt pašreizējo lietotāju. | Nē | Nē | Nē | Jā | Nē |
 | 701 | Atteikties | Izrakstīt pašreizējo lietotāju no kases sistēmas. | Jā | Jā | Jā | Jā | Nē |
-| 521 | Lojalitātes programmu karšu punktu bilance | Parādīt norādītās lojalitātes programmas kartes punktu bilanci. | Jā | Jā | Nav | Nav | Nav |
+| 521 | Lojalitātes programmu karšu punktu bilance | Parādīt norādītās lojalitātes programmas kartes punktu bilanci. | Jā | Jā | Nē | Nē | Nē |
+| 142 | Pārvaldīt maksas | Skatiet un pārvaldiet papildmaksas, kas piemērotas transakcijai. | Jā | Jā | Nē | Nē| Nē |
 | 918 | Pārvaldīt maiņas | Parādīt aktīvo, pārtraukto un diskrēti slēgto maiņu sarakstu. | Jā | Jā | Jā | Nav | Nav |
 | 914 | Minimizēt POS logu | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 1000 | Atvērt naudas kasti | Veikt operāciju bez pārdošanas un atvērt pašlaik atlasīto naudas kasti. | Jā | Jā | Jā | Jā | Nē |
 | 928 | Pasūtījuma izpilde | Šī operācija ļauj lietotājiem izdot, iepakot, nosūtīt un atsaukt veikalā izdotos pasūtījumus. | Jā | Jā | Jā | Nē | Nē |
+| 805 | Izejošā operācija | Piekļuves līdzekļi izejošo pārsūtīšanas pasūtījumu sūtījumu pārvaldībai. | Jā | Nē | Jā | Nē| Nē |
 | 129 | Ignorēt preces rindas nodokli | Pārlabot nodokli par atlasīto rindas vienumu un izmantot citu norādīto nodokli. | Jā | Jā | Nē | Jā | Nē |
 | 130 | Ignorēt sarakstā esošu preces rindas nodokli | Pārlabot nodokli par atlasīto rindas vienumu un izmantot nodokli, ko lietotājs atlasa sarakstā. | Jā | Jā | Nē | Jā | Nē |
 | 127 | Ignorēt darbības nodokli | Pārlabot nodokli par transakciju un izmantot citu norādīto nodokli. | Jā | Jā | Nē | Jā | Nē |
@@ -147,6 +153,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 108 | Preču meklēšana | Šī operācija sniedz lietotājam iespēju meklēt preci, pārlūkojot preču meklēšanas lapu POS sistēmā. | Jā | Jā | Jā | Jā | Nē |
 | 633 | Piedāvājuma beigu datums | Šī operācija sniedz lietotājam iespēju skatīt vai izmainīt pārdošanas piedāvājuma beigu datumu. | Jā | Jā | Nē | Jā\* | Nē |
 | 627 | Pārrēķināt | Pārrēķināt visas debitora pasūtījuma rindas un nodokļus, pamatojoties uz pašreizējo konfigurāciju. | Jā | Jā | Nē | Jā\* | Nē |
+| 143 | Pārrēķināt maksas | Pārrēķiniet pasūtījumam piemērotās automātiskās maksas. | Jā | Jā | Nē | Nē| Nē |
 | 515 | Atsaukt pasūtījumu | Šī operācija sniedz lietotājam iespēju meklēt un atsaukt debitoru pasūtījumus un pārdošanas piedāvājumus. | Jā | Jā | Jā | Nē | Nē |
 | 504 | Atsaukt darījumu | Šī operācija sniedz lietotājam iespēju atsaukt pašreizējā veikalā iepriekš aizturētu transakciju. | Jā | Jā | Nē | Jā‡ | Nē |
 | 305 | Izpirkt lojalitātes programmas punktus | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Jā |

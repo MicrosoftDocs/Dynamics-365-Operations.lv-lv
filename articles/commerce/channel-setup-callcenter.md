@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ec42ab920868f541eeac54556f4f24cb1efaa3a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002454"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057883"
 ---
 # <a name="set-up-a-call-center-channel"></a>Zvanu centra kanāla iestatīšana
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002454"
 
 ## <a name="overview"></a>Pārskats
 
-Programmā Dynamics 365 Commerce zvanu centrs ir mazumtirdzniecības kanāla veids, ko var definēt lietojumprogrammā. Lai noteiktu kanālu jūsu zvanu centra entītijām, sistēma ļauj saistīt specifiskus datus un pasūtījumu apstrādes noklusējumus pārdošanas pasūtījumos. Uzņēmums var definēt vairākus zvanu centra kanālus programmā Commerce. 
+Programmā Dynamics 365 Commerce zvanu centrs ir Commerce kanāla veids, ko var definēt lietojumprogrammā. Lai noteiktu kanālu jūsu zvanu centra entītijām, sistēma ļauj saistīt specifiskus datus un pasūtījumu apstrādes noklusējumus pārdošanas pasūtījumos. Uzņēmums var definēt vairākus zvanu centra kanālus programmā Commerce. 
 
 Pirms jauna zvanu centra kanāla izveidošanas pārliecinieties, ka esat pabeiguši [Kanāla iestatīšanas priekšnosacījumus](channels-prerequisites.md).
 

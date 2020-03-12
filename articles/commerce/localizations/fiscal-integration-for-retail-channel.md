@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ff9d722640c86333cb1f9174c640adc2e76e9a5f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023353"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057560"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas apskats
 
@@ -36,7 +36,7 @@ ms.locfileid: "3023353"
 - Drošā veidā iesniedziet ar programmā Retail POS veiktajām pārdošanas un atgriešanas darbībām saistīto informāciju ārējā tīmekļa pakalpojumā, kura darbību nodrošina nodokļu iestāde.
 - Palīdziet nodrošināt pārdošanas transakciju datu nemaināmību, izmantojot ciparparakstus.
 
-Finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata mazumtirdzniecības scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugu veido vairāki programmas Commerce komponentu paplašinājumi, un tas ir iekļauts programmatūras izstrādes komplektā (SDK). Plašāku informāciju par finanšu integrācijas paraugiem skatiet tēmā [Finanšu integrācijas paraugi programmā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Finanšu integrācijas funkcionalitāte ir struktūra, kas nodrošina kopēju risinājumu tālākai programmas Retail POS un finanšu ierīču un pakalpojumu integrācijas izstrādei un pielāgošanai. Funkcionalitātē ir ietverti arī finanšu integrācijas paraugi, kas atbalsta pamata scenārijus noteiktās valstīs vai reģionos un darbojas ar noteiktām finanšu ierīcēm vai pakalpojumiem. Finanšu integrācijas paraugu veido vairāki programmas Commerce komponentu paplašinājumi, un tas ir iekļauts programmatūras izstrādes komplektā (SDK). Plašāku informāciju par finanšu integrācijas paraugiem skatiet tēmā [Finanšu integrācijas paraugi programmā Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Papildinformāciju par to, kā instalēt un izmantot komplektu Retail SDK, skatiet rakstā [Retail programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Lai nodrošinātu tādu scenāriju atbalstu, kurus neatbalstīta finanšu integrācijas paraugs, integrētu programmu Retail POS ar citām finanšu ierīcēm vai pakalpojumiem, vai izpildītu citās valstīs vai reģionos spēkā esošās prasības, ir jāpaplašina kāds no esošajiem finanšu integrācijas paraugiem vai jāizveido jauns paraugs, kā piemēru izmantojot esošu paraugu.
 

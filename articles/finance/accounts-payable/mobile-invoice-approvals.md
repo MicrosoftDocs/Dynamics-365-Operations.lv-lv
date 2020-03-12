@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658648"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059432"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
@@ -54,8 +54,8 @@ Katra organizācija atšķirīgā veidā vada un definē savu kreditoru rēķinu
     -   Cik uzskaites sadales elementu (pilna cena, PVN, izmaksas, dalījumi utt.) ir vienā rēķina rindā? Atkal lietojiet 80/20 nosacījumu.
     -   Vai rēķina galvenē arī ir uzskaites sadales? Jā tā ir, vai šīm uzskaites sadalēm ir jābūt pieejamām ierīcē?
 
-> [!NOTE]
-> Šajā tēmā nav paskaidrots, kā rediģēt uzskaites sadales, jo šī funkcionalitāte pašlaik netiek atbalstīta mobilajiem scenārijiem.
+    > [!NOTE]
+    > Šajā tēmā nav paskaidrots, kā rediģēt uzskaites sadales, jo šī funkcionalitāte pašlaik netiek atbalstīta mobilajiem scenārijiem.
 
 -   Vai lietotāji vēlēsies ierīcē redzēt rēķina pielikumus?
 
@@ -158,9 +158,9 @@ Pirmā mobilā lapa, kas ir jāizstrādā, ir lietotājam pārskatīšanai pieš
     - Rēķina numurs
     - Rēķina datums
 
-  Pēc laiku pievienošanas mobilajai lapai ir jālīdzinās tālāk esošajam attēlam. 
+    Pēc laiku pievienošanas mobilajai lapai ir jālīdzinās tālāk esošajam attēlam. 
     
-   [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Tagad ir jāpievieno arī tālāk norādītās kolonnas, lai vēlāk varētu iespējot darbplūsmas darbības.
     - Rādīt pabeigšanas uzdevumu
@@ -247,9 +247,10 @@ Lai pievienotu darbplūsmas darbības, izmantojiet lapu **VendMobileInvoiceHeade
     - Tas paslēpj ar darbplūsmu saistītās papildu kolonnas, kas iepriekš tika pievienotas mobilajā saraksta lapā. Šīs kolonnas tika pievienotas, lai programmā būtu pieejama šī informācija kontekstā un varētu veikt nākamo darbību.
     - Pamatojoties uz aktīvajiem darbplūsmas soļiem, tiek lietota loģika, lai rādītu tikai šīs darbības.
 
-> [!NOTE]
-> Lapu un citu vadīklu nosaukumiem kodā ir jābūt tādiem pašiem kā nosaukumiem darbvietā.
+    > [!NOTE]
+    > Lapu un citu vadīklu nosaukumiem kodā ir jābūt tādiem pašiem kā nosaukumiem darbvietā.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Lai pievienotu darbplūsmas darbības, izmantojiet lapu **VendMobileInvoiceHeade
                  },
            };
         }
+    ```
 
 2.  Augšupielādējiet koda failu darbvietā, atlasot cilni **Loģika**.
 3.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
@@ -341,7 +343,7 @@ Saskaņā ar šī scenārija prasībām tiks lietotas tikai rindas līmeņa sada
 
 1.  Aizstājiet izvēlnes elementa nosaukumu URL tekstā, kā to darījāt iepriekš. Parādītajai lapai ir jālīdzinās tālāk esošajam attēlam.
 
-[![Lapa Visas sadales](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Lapa Visas sadales](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Atveriet mobilo programmu veidotāju, izmantojot pogu **Iestatījumi** (zobrats).
 
@@ -367,16 +369,18 @@ Saskaņā ar šī scenārija prasībām tiks lietotas tikai rindas līmeņa sada
 
 10. Noklikšķiniet uz **Publicēt darbvietu**, lai saglabātu darbu.
 
-> [!NOTE] 
-> Mobilā lapa **Skatīt uzskaiti** pašlaik nav saistīta ne ar vienu līdz šim izveidoto mobilo lapu. Tā kā lietotājam ir jāvar mobilajā ierīcē pāriet no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**, ir jānodrošina navigācija no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**. Šī navigācija tiek nodrošināta, izmantojot papildu loģiku valodā JavaScript.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Navigācijas pievienošana lapai "Skatīt uzskaiti"
+
+Mobilā lapa **Skatīt uzskaiti** pašlaik nav saistīta ne ar vienu līdz šim izveidoto mobilo lapu. Tā kā lietotājam ir jāvar mobilajā ierīcē pāriet no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**, ir jānodrošina navigācija no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**. Šī navigācija tiek nodrošināta, izmantojot papildu loģiku valodā JavaScript.
 
 1.  Atveriet iepriekš izveidoto .js formāta failu un pievienojiet tālāk esošā koda iezīmētās rindas. Šis kods nodrošina divas darbības.
     1.  Tas palīdz nodrošināt, ka lietotāji nevar tieši navigēt no darbvietas uz lapu **Skatīt uzskaiti**.
     2.  Tas nodrošina navigācijas vadīklu navigācijai no lapas **Rēķina detalizēta informācija** uz lapu **Skatīt uzskaiti**.
 
-> [!NOTE] 
-> Lapu un citu vadīklu nosaukumiem kodā ir jābūt tādiem pašiem kā nosaukumiem darbvietā.
+    > [!NOTE] 
+    > Lapu un citu vadīklu nosaukumiem kodā ir jābūt tādiem pašiem kā nosaukumiem darbvietā.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Saskaņā ar šī scenārija prasībām tiks lietotas tikai rindas līmeņa sada
                  },
            };
         }
-
+    ```
+    
 2.  Augšupielādējiet koda failu darbvietā, atlasot cilni **Loģika**, lai pārrakstītu iepriekšējo kodu.
 3.  Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
 4.  Noklikšķiniet uz **Atpakaļ** un pēc tam uz **Gatavs**, lai aizvērtu darbvietu.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771545"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070764"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
@@ -120,7 +120,7 @@ Tālāk redzamajā tabulā ir sniegts kolonnas ierobežojumu kodu apraksts.
 | KOR                     | Kolonnā ietvertās summas tiek ierobežotas tā, lai netiktu rādītas perioda labojuma summas, ja šīs summas ir pieejamas. |
 | IZK                     | Kolonnā ietvertās summas tiek ierobežotas tā, lai tiktu izlaistas perioda labojuma summas. |
 | GD                      | Kolonnā ietvertās summas tiek ierobežotas tā, lai tiktu iekļauti tikai grāmatotie darījumi, ja šadi darījumi ir pieejami. |
-| NGD                     | Ierobežot summas kolonnā, lai tiktu iekļautas tikai negrāmatotās darbības, ja šīs darbības ir pieejamas.<p><strong>Piezīme:</strong> Ne visi datu pakalpojumu sniedzēji atbalsta negrāmatotās darbības. Papildinformāciju skatiet savas sistēmas Microsoft Dynamics ERP sistēmas <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>datu integrēšanas rokasgrāmatā</a>.</p> |
+| NGD                     | Ierobežot summas kolonnā, lai tiktu iekļautas tikai negrāmatotās darbības, ja šīs darbības ir pieejamas.<p><strong>Piezīme:</strong> Ne visi datu pakalpojumu sniedzēji atbalsta negrāmatotās darbības. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Ierobežojuma definēšana kolonnai attiecībā uz noteiktu pārskatu vienību
 

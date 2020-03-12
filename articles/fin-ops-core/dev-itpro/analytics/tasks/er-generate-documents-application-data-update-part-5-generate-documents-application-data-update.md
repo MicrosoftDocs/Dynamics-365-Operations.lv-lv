@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026067"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042854"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Dokumentu ar programmas datiem ģenerēšana
 
@@ -40,10 +40,14 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 ## <a name="set-up-foreign-trade-parameters"></a>Iestatīt starptautiskās tirdzniecības parametrus
 1. Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri.
 2. Noklikšķiniet uz cilnes Numuru sērijas.
-    * Arhivējot detalizētu informāciju par Intrastat pārskatu veidošanas procesu, mums ir nepieciešams noteikt katra izveidotā arhīva ierakstus. Šajā nolūkā ir jākonfigurē īpaša numuru sērija.  
+
+    Arhivējot detalizētu informāciju par Intrastat pārskatu veidošanas procesu, mums ir nepieciešams noteikt katra izveidotā arhīva ierakstus. Šajā nolūkā ir jākonfigurē īpaša numuru sērija.  
+
 3. Atlasiet atsauci "Intrastat archive ID".
 4. Laukā Numuru sērijas kods, ierakstiet kādu vērtību.
-    * Laukā Numuru sērijas kods ievadiet vai atlasiet vērtību "Fore_2".  
+
+    Laukā Numuru sērijas kods ievadiet vai atlasiet vērtību "Fore_2".  
+
 5. ResolveChanges Numuru sērijas kods.
 6. Noklikšķiniet uz Saglabāt.
 7. Aizvērt lapu.
@@ -54,18 +58,23 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 3. Kokā atlasiet "Intrastat (model)\Intrastat (format)".
 4. Noklikšķiniet uz Palaist.
 5. Laukā Ievadiet faila nosaukumu ierakstiet "intrastat2.xml".
-    * intrastat2.xml  
-6. Noklikšķiniet uz OK.
+6. Noklikšķiniet uz Labi.
 
 ## <a name="review-er-format-executions-results"></a>ER formāta izpildes rezultātu pārskatīšana
 Pārskatiet ģenerēto XML failu.  
 1. Aizvērt lapu.
 2. Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat.
-    * Atveriet šo formu, kas satur Intrastat darbības, kuras iekļautas ģenerētajā elektroniskajā dokumentā.  
+
+    Atveriet šo formu, kas satur Intrastat darbības, kuras iekļautas ģenerētajā elektroniskajā dokumentā.  
+
 3. Noklikšķiniet uz Intrastat arhīva.
-    * Detalizēta informācija par pabeigtu Intrastat pārskatu tika arhivēta, jo izpildītais ER formāts tagad satur iestatījumus pieteikumu datu atjaunināšanai. Šajā formā varat redzēt izveidotā arhīva galvenes ierakstu.  
+
+    Detalizēta informācija par pabeigtu Intrastat pārskatu tika arhivēta, jo izpildītais ER formāts tagad satur iestatījumus pieteikumu datu atjaunināšanai. Šajā formā varat redzēt izveidotā arhīva galvenes ierakstu.  
+
 4. Noklikšķiniet uz Detaļas.
-    * Šajā formā varat redzēt detalizētu informāciju par izveidoto arhīvu.  
+
+    Šajā formā varat redzēt detalizētu informāciju par izveidoto arhīvu.  
+
 5. Aizvērt lapu.
 6. Aizvērt lapu.
 7. Aizvērt lapu.

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023304"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057213"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
 
@@ -54,6 +54,7 @@ Visbeidzot, izmantojiet lauku **Pārkāpuma komentāra veids**, lai norādītu d
 Sistēma izmanto divu veidu pārkāpuma kritērijus, lai noteiktu, vai pasūtījums ir jāaiztur pārkāpuma pārskatīšanai.
 
 - **Statiski pārkāpumu dati** izmanto noteiktu vērtību, piemēram, tālruņa numuru, kas ir iekļauts bloķēto numuru sarakstā, vai e-pasta adresi, kas ir atzīmēta, jo ir zināms, ka tā iepriekš izmantota krāpnieciskām transakcijām. Lai iestatītu statiskus pārkāpumu datus, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Pārkāpums** \> **Statiski pārkāpumu dati**. Lapā **Statiski pārkāpumu dati** varat pievienot pārkāpumu kritērijus manuāli vai izmantojot datu importēšanu. Krāpnieciskajai informācijai ir pievienoti vērtējumi. Ja ir ieslēgts pārkāpumu pārbaudes līdzeklis, katrs ievadītais pārdošanas pasūtījums tiek salīdzināts ar statiskajiem datiem. Ja šie dati tiek atrasti debitora norēķinu adresē vai piegādes adresē, kas ir saistīta ar pasūtījuma virsrakstu, vai ja šie dati tiek atrasti piegādes adresēs, kuras ir saistītas ar kādu no pārdošanas pasūtījuma rindām, visu unikālo atbilstību vērtējumi tiek summēti un salīdzināti ar vērtību **Minimālais rezultāts**, lai noteiktu, vai pasūtījums ir jāaiztur.
+
 - **Pārkāpumu kārtulas** sastāv no lietotāja definētiem mainīgajiem un nosacījumiem, kuri ir definēti attiecīgajiem mainīgajiem. Lai izveidotu kārtulas, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Pārkāpums** \> **Kārtulas**. Pārkāpumu kārtulas ļauj uzņēmumam konfigurēt sarežģītāku kārtulu kopu, kas var ietvert priekšrakstus **AND** vai **OR**, lai novērtētu vairākus nosacījumus. Piemēram, lietotājs vēlas, lai pārkāpumu pārbaudes veikšanai tiktu aizturēti visi pasūtījumi no debitoriem, kuri ietilpst noteiktā debitoru grupā un kuri pasūtījuši noteiktu preci. Šajā gadījumā, lapā **Kārtulas** tiek definēti klienta un preces pārbaudes nosacījumi un tiek izmantots nosacījums AND. Pasūtījums tiek aizturēts tikai tad, ja ir spēkā abi nosacījumi un ja attiecīgajai kārtulai piešķirtā rezultāta vērtības ietekmē, pieskaitot citu tādu kārtulu rezultāta vērtību, kurai atbilst pasūtījums, pasūtījuma kopējais pārkāpumu rezultāts pārsniedz vērtību **Minimālais rezultāts**, kas ir definēta lapā **Zvanu centra parametri**.
 
 > [!NOTE]

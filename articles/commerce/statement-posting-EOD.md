@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023307"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057259"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
@@ -33,48 +33,48 @@ ms.locfileid: "3023307"
 
 Pēc noklusējuma versijas Finance and Operations 7.3.2 izvietošanas laikā programma ir iestatīta izrakstu grāmatošanas mantoto līdzekļu izmantošanai. Lai iespējotu uzlaboto izrakstu grāmatošanas līdzekli, jums tam ir jāaktivizē konfigurācijas atslēga.
 
-- Dodieties uz **Sistēmas administrēšana** \> **Iestatīšana** \> **Licences konfigurācija** un pēc tam zarā **Retail** noņemiet atzīmi izvēles rūtiņai **Mazumtirdzniecības izraksti (mantojuma)** un atzīmējiet izvēles rūtiņu **Mazumtirdzniecības izraksti**.
+- Dodieties uz **Sistēmas administrēšana** \> **Iestatīšana** \> **Licences konfigurācija** un pēc tam zarā **Retail un Commerce** noņemiet atzīmi izvēles rūtiņai **Izraksti (mantojuma)** un atzīmējiet izvēles rūtiņu **Izraksti**.
 
-Kad ir ieslēgta jaunā konfigurācijas atslēga **Mazumtirdzniecības izraksti**, ir pieejams jauns izvēlnes vienums ar nosaukumu **Mazumtirdzniecības izraksti**. Šis izvēlnes elements ļauj jums manuāli izveidot, aprēķināt un grāmatot izrakstus. Jebkurš izraksts, kas izraisa kļūdu, kad tiek izmantots pakešveida grāmatošanas process, ir pieejams arī, izmantojot šo izvēlnes vienumu. (Kad ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksti (mantojuma)**, šī izvēlnes vienuma nosaukums ir **Atvērtie izraksti**.)
+Kad ir ieslēgta jaunā konfigurācijas atslēga **Izraksti**, ir pieejams jauns izvēlnes vienums ar nosaukumu **Izraksti**. Šis izvēlnes elements ļauj jums manuāli izveidot, aprēķināt un grāmatot izrakstus. Jebkurš izraksts, kas izraisa kļūdu, kad tiek izmantots pakešveida grāmatošanas process, ir pieejams arī, izmantojot šo izvēlnes vienumu. (Kad ir ieslēgta konfigurācijas atslēga **Izraksti (mantojuma)**, šī izvēlnes vienuma nosaukums ir **Atvērtie izraksti**.)
 
-Mazumtirdzniecība ietver tālāk norādītās validācijas, kas ir saistītas ar šīm konfigurācijas atslēgām.
+Commerce ietver tālāk norādītās validācijas, kas ir saistītas ar šīm konfigurācijas atslēgām.
 
 - Abas konfigurācijas atslēgas nevar būt ieslēgtas vienlaikus.
-- Visām operācijām, kas attiecīgajam izrakstam tiek veiktas tā dzīves cikla laikā (operācijām Izveidot, Aprēķināt, Notīrīt, Grāmatot un citām) ir jāizmanto tā pati konfigurācijas atslēga. Piemēram, nevar izveidot un aprēķināt kādu izrakstu, kamēr ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksts (mantojuma)**, un pēc tam mēģināt to pašu izrakstu grāmatot, kamēr ir ieslēgta konfigurācijas atslēga **Mazumtirdzniecības izraksts**.
+- Visām operācijām, kas attiecīgajam izrakstam tiek veiktas tā dzīves cikla laikā (operācijām Izveidot, Aprēķināt, Notīrīt, Grāmatot un citām) ir jāizmanto tā pati konfigurācijas atslēga. Piemēram, nevar izveidot un aprēķināt kādu izrakstu, kamēr ir ieslēgta konfigurācijas atslēga **Izraksts (mantojuma)**, un pēc tam mēģināt to pašu izrakstu grāmatot, kamēr ir ieslēgta konfigurācijas atslēga **Izraksts**.
 
 > [!NOTE]
-> Iesakām izmantot konfigurācijas atslēgu **Mazumtirdzniecības izraksti** uzlabotajam izrakstu grāmatošanas līdzeklim, ja vien jums nav pārliecinoši iemesli konfigurācijas atslēgas **Mazumtirdzniecības izraksti (mantojuma)** izmantošanai tās vietā. Microsoft turpinās ieguldīt jaunajā un uzlabotajā izrakstu grāmatošanas līdzeklī, un ir svarīgi, lai jūs pārietu uz tā lietošanu pēc iespējas ātrāk, izmantojot tā sniegtās priekšrocības. Mantojuma izrakstu grāmatošanas līdzeklis ir novecojis, sākot ar 8.0 laidienu.
+> Iesakām izmantot konfigurācijas atslēgu **Izraksti** uzlabotajam izrakstu grāmatošanas līdzeklim, ja vien jums nav pārliecinoši iemesli konfigurācijas atslēgas **Izraksti (mantojuma)** izmantošanai tās vietā. Microsoft turpinās ieguldīt jaunajā un uzlabotajā izrakstu grāmatošanas līdzeklī, un ir svarīgi, lai jūs pārietu uz tā lietošanu pēc iespējas ātrāk, izmantojot tā sniegtās priekšrocības. Mantojuma izrakstu grāmatošanas līdzeklis ir novecojis, sākot ar 8.0 laidienu.
 
 ## <a name="setup"></a>Iestatīšana
 
-Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Mazumtirdzniecības parametri** cilnes **Grāmatošana** kopsavilkuma cilnē **Izraksts** ir ieviesti trīs jauni tālāk aprakstītie parametri.
+Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Commerce parametri** cilnes **Grāmatošana** kopsavilkuma cilnē **Izraksts** ir ieviesti trīs jauni tālāk aprakstītie parametri.
 
 - **Atspējot izraksta notīrīšanu** — šī opcija ir pieejama tikai mantojuma izrakstu grāmatošanas līdzeklim. Iesakām šo opciju iestatīt uz **Nē**, lai neļautu lietotājiem notīrot izrakstus, kas atrodas daļēji grāmatotā stāvoklī. Ja tiek notīrīti izraksti, kas ir daļēji grāmatotā stāvoklī, dati tiek bojāti. Šī opcija ir jāiestata uz **Jā** tikai izņēmuma gadījumos.
 - **Rezervēt krājumus aprēķināšanas laikā** — krājuma rezervēšanai iesakām lietot pakešuzdevumu **Grāmatot krājumus** un šo opciju iestatīt uz **Nē**. Kad šī opcija ir iestatīta uz **Nē**, uzlabotais izrakstu grāmatošanas līdzeklis aprēķināšanas laikā nemēģina izveidot krājumu rezervēšanas ierakstus (ja ieraksti vēl nav izveidoti, izmantojot pakešuzdevumu **Grāmatot krājumus**). Tā vietā šis līdzeklis izveido krājumu rezervēšanas ierakstus tikai grāmatošanas laikā. Šī implementācija bija dizaina izvēle, un tā bija balstīta uz faktu, ka laika intervāls starp aprēķināšanas procesu un grāmatošanas procesu parasti ir mazs. Taču, ja vēlaties rezervēt krājumus aprēķināšanas laikā, šo opciju varat iestatīt uz **Jā**.
 
     Mantojuma izrakstu grāmatošanas līdzeklis vienmēr rezervē krājumus izraksta aprēķināšanas procesa laikā (ja rezervācija vēl nav veikta, izmantojot pakešuzdevumu **Grāmatot krājumus**), neatkarīgi no šīs opcijas iestatījuma.
 
-- **Atspējot nepieciešamo uzskaiti** — kad šī opcija ir iestatīta uz **Jā**, grāmatošanas process izrakstam turpinās pat tad, ja starpība starp aprēķināto summu un transakcijas summu izrakstā ir ārpus sliekšņa vērtības, kas mazumtirdzniecības veikaliem ir definēta kopsavilkuma cilnē **Izraksts**.
+- **Atspējot nepieciešamo uzskaiti** — kad šī opcija ir iestatīta uz **Jā**, grāmatošanas process izrakstam turpinās pat tad, ja starpība starp aprēķināto summu un transakcijas summu izrakstā ir ārpus sliekšņa vērtības, kas veikaliem ir definēta kopsavilkuma cilnē **Izraksts**.
 
-Turklāt kopsavilkuma cilnē **Pakešveida apstrāde** cilnē **Posting** lapā **Mazumtirdzniecības rekvizīti** ir ieviesti tālāk minētie parametri. 
+Turklāt kopsavilkuma cilnē **Pakešveida apstrāde** cilnē **Posting** lapā **Commerce rekvizīti** ir ieviesti tālāk minētie parametri. 
 
 - **Maksimālais paralēli grāmatojamo izrakstu skaits** — šajā laukā noteikts pakešuzdevumu skaits, kas tiks izmantoti vairāku izrakstu grāmatošanai. 
 - **Maksimālais pasūtījumu apstrādes pēc ieraksta pavedienu skaits** — šis lauks atspoguļo maksimālo pavedienu skaitu, ko izmanto ieraksta grāmatošanas pakešuzdevums, lai izveidotu pārdošanas pasūtījumus vienam ierakstam un izrakstītu rēķinu. Kopējais pavedienu skaits, kas tiks izmantots izraksta grāmatošanas procesā, tiks aprēķināts, ņemot vērā vērtību šajā parametrā, kas reizināta ar parametra **Maksimālais paralēli grāmatojamo izrakstu skaits** vērtību. Iestatot pārāk lielu šī parametra vērtību par lielu, var negatīvi ietekmēt izraksta grāmatošanas procesa veiktspēju.
-- **Maksimālais apkopojumā iekļauto transakciju rindu skaits** — šis lauks nosaka transakciju rindu skaitu, kas tiks iekļautas vienā apkopotā transakcijā, pirms tiek izveidota jauna. Apkopotās transakcijas tiek veidotas, pamatojoties uz dažādiem apkopošanas kritērijiem, piemēram, debitors, biznesa datums vai finanšu dimensijas. Ir svarīgi atzīmēt, ka vienas mazumtirdzniecības transakcijas rindas netiks sadalītas pa dažādām apkopotām transakcijām. Tas nozīmē, ka ir iespējams, ka rindu skaits apkopotajā transakcijā ir nedaudz lielāks vai zemāks, pamatojoties uz tādiem faktoriem kā atšķirīgu preču skaits.
-- **Maksimālais pavedienu skaits veikala transakciju pārbaudei** — šis lauks nosaka pavedienu skaitu, kas tiks izmantoti mazumtirdzniecības transakciju pārbaudei, Mazumtirdzniecības transakciju pārbaude ir obligāta darbība, kas jāizpilda, pirms transakcijas var tikt ievilktas pārskatos. Turklāt ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Mazumtirdzniecības parametri**). Tas ir jādefinē, pat ja organizācija neizmanto dāvanu kartes.
+- **Maksimālais apkopojumā iekļauto transakciju rindu skaits** — šis lauks nosaka transakciju rindu skaitu, kas tiks iekļautas vienā apkopotā transakcijā, pirms tiek izveidota jauna. Apkopotās transakcijas tiek veidotas, pamatojoties uz dažādiem apkopošanas kritērijiem, piemēram, debitors, biznesa datums vai finanšu dimensijas. Ir svarīgi atzīmēt, ka vienas transakcijas rindas netiks sadalītas pa dažādām apkopotām transakcijām. Tas nozīmē, ka ir iespējams, ka rindu skaits apkopotajā transakcijā ir nedaudz lielāks vai zemāks, pamatojoties uz tādiem faktoriem kā atšķirīgu preču skaits.
+- **Maksimālais pavedienu skaits veikala transakciju pārbaudei** — šis lauks nosaka pavedienu skaitu, kas tiks izmantoti transakciju pārbaudei, Transakciju pārbaude ir obligāta darbība, kas jāizpilda, pirms transakcijas var tikt ievilktas pārskatos. Turklāt ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Commerce parametri**). Tas ir jādefinē, pat ja organizācija neizmanto dāvanu kartes.
 
 > [!NOTE]
-> Visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Mazumtirdzniecības parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
+> Visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Commerce parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
 
 ## <a name="processing"></a>Apstrādāšana
 
-Izrakstus var aprēķināt un grāmatot pakešveidā, izmantojot izvēlnes vienumus **Aprēķināt izrakstus partijā** un **Grāmatot izrakstus partijā**. Tāpat izrakstus var manuāli aprēķināt un grāmatot, izmantojot izvēlnes vienumu **Mazumtirdzniecības izraksti**, kuru nodrošina uzlabotais izrakstu grāmatošanas līdzeklis.
+Izrakstus var aprēķināt un grāmatot pakešveidā, izmantojot izvēlnes vienumus **Aprēķināt izrakstus partijā** un **Grāmatot izrakstus partijā**. Tāpat izrakstus var manuāli aprēķināt un grāmatot, izmantojot izvēlnes vienumu **Izraksti**, kuru nodrošina uzlabotais izrakstu grāmatošanas līdzeklis.
 
 Procedūras un darbības izrakstu aprēķināšanai un grāmatošanai pakešveidā ir tādi paši kā tie, kādi tika izmantoti mantotajā izrakstu grāmatošanas līdzeklī. Taču ir veikti būtiski uzlabojumi izrakstu aizmugursistēmas pamata apstrādē. Ar šiem uzlabojumiem apstrāde ir padarīta elastīgāka, kā arī ir nodrošināts labāks ieskats informācijā par stāvokļiem un kļūdām. Tādēļ lietotāji var risināt kļūdu galvenos cēloņus un pēc tam turpināt grāmatošanas procesu, neizraisot datu bojājumus un neizraisot nepieciešamību pēc datu labojumiem.
 
-Nākamajās sadaļās ir aprakstīti daži galvenie izrakstu grāmatošanas līdzekļa uzlabojumi, kas tiek rādīti lietotāja interfeisā mazumtirdzniecības izrakstos un grāmatotajos izrakstos.
+Nākamajās sadaļās ir aprakstīti daži galvenie izrakstu grāmatošanas līdzekļa uzlabojumi, kas tiek rādīti lietotāja interfeisā izrakstos un grāmatotajos izrakstos.
 
-### <a name="status-details"></a>Detalizēta informācija par statusu
+### <a name="status-details"></a>Detalizēta statusa informācija
 
 Izrakstu grāmatošanas procedūrā visos aprēķināšanas un grāmatošanas procesos ir ieviests jauns stāvokļa modelis.
 
@@ -131,7 +131,7 @@ Apkopotās transakcijas cilnē **Detalizēta informācija par pārdošanas pasū
 - **Statuss** — apkopotās transakcijas pēdējais statuss.
 - **Rēķina ID** — pārdošanas rēķina ID (ja par pārdošanas pasūtījumu apkopotajai transakcijai tika izveidots rēķins). Ja šis lauks ir tukšs, rēķins pārdošanas pasūtījums nav grāmatots.
 
-Apkopotās transakcijas cilnē **Detalizēta informācija par transakciju** tiek rādītas visas mazumtirdzniecības transakcijas, kas ir ietvertas apkopotajā transakcijā. Apkopotās transakcijas apkopotajās rindās tiek rādīti visi no mazumtirdzniecības transakcijām apkopotie ieraksti. Apkopotajās rindās tiek rādīta arī tāda detalizētā informācija kā krājums, variants, daudzums, cena, neto summa, vienība un noliktava. Būtībā katra apkopotā rinda atbilst vienai pārdošanas pasūtījuma rindai.
+Apkopotās transakcijas cilnē **Detalizēta informācija par transakciju** tiek rādītas visas transakcijas, kas ir ietvertas apkopotajā transakcijā. Apkopotās transakcijas apkopotajās rindās tiek rādīti visi no transakcijām apkopotie ieraksti. Apkopotajās rindās tiek rādīta arī tāda detalizētā informācija kā krājums, variants, daudzums, cena, neto summa, vienība un noliktava. Būtībā katra apkopotā rinda atbilst vienai pārdošanas pasūtījuma rindai.
 
 No lapas **Apkopotās transakcijas** varat lejupielādēt XML failu noteiktai apkopotajai transakcijai, izmantojot pogu **Eksportēt pārdošanas pasūtījumu XML**. Šo XML failu varat izmantot, lai atkļūdotu ar pārdošanas pasūtījuma izveidošanu un grāmatošanu saistītās problēmas. Vienkārši lejupielādējiet XML failu, augšupielādējiet to testēšanas vidē un atkļūdojiet problēmu šajā testēšanas vidē. XML faila lejupielādēšanas funkcionalitāte apkopotajām transakcijām nav pieejama izrakstiem, kas ir grāmatoti.
 
@@ -139,7 +139,7 @@ Apkopotās transakcijas skats nodrošina tālāk norādītās priekšrocības.
 
 - Lietotājam ir pārredzamas apkopotās transakcijas, kuras neizdevās izpildīt pārdošanas pasūtījuma izveidošanas laikā, un pārdošanas pasūtījumi, kurus neizdevās izpildīt rēķina izrakstīšanas laikā.
 - Lietotājam ir pārredzams veids, kā transakcijas tiek apkopotas.
-- Lietotājam ir pilnīgi auditācijas pieraksti, no mazumtirdzniecības transakcijām līdz pārdošanas pasūtījumiem, līdz pārdošanas rēķiniem. Šie auditācijas pieraksti nebija pieejami mantotajā izrakstu grāmatošanas līdzeklī.
+- Lietotājam ir pilnīgi auditācijas pieraksti, no transakcijām līdz pārdošanas pasūtījumiem, līdz pārdošanas rēķiniem. Šie auditācijas pieraksti nebija pieejami mantotajā izrakstu grāmatošanas līdzeklī.
 - Apkopotais XML fails ļaut vienkāršāk identificēt problēmas pārdošanas pasūtījuma izveidošanas un rēķina izrakstīšanas laikā.
 
 ### <a name="journal-vouchers"></a>Žurnālu dokumenti
@@ -159,11 +159,11 @@ Pašlaik šos datus programma rāda tikai iegrāmatotiem izrakstiem.
 Izrakstu grāmatošanas līdzeklim ir veikti citi, aizmugursistēmas uzlabojumi, kurus lietotājs var redzēt. Daži piemēri:
 
 - Apkopošana neņem vērā personāla, termināļa un maiņas elementus. Tā kā ir mazāk apkopošanas parametru, ir jāapstrādā mazāk pārdošanas pasūtījumu rindu.
-- Strupsaķeres rašanās mazumtirdzniecības transakciju tabulās ir samazināta, ieviešot papildu paplašinājuma tabulas un mazumtirdzniecības transakciju tabulās veicot ievietošanas operācijas, nevis atjaunināšanas operācijas.
+- Strupsaķeres rašanās transakciju tabulās ir samazināta, ieviešot papildu paplašinājuma tabulas un transakciju tabulās veicot ievietošanas operācijas, nevis atjaunināšanas operācijas.
 - Darbināto pakešuzdevumu skaits ir parametrizēts un ierobežots. Tāpēc šo skaitu var precīzi pielāgot noteiktajai klienta videi. Mantotajā izrakstu grāmatošanas līdzeklī vienlaikus tika izveidots neierobežots skaits pakešuzdevumu. Tādēļ pakešapstrādes serverī radās grūti pārvaldāmas kravas, pieskaitāmās izmaksas un sastrēgumi.
 - Izraksti ir efektīvi sarindoti apstrādei, nosakot prioritātes izrakstiem, kam ir maksimālais transakciju skaits.
 - Pakešveida procesi, piemēram, **Aprēķināt izrakstus partijā** un **Grāmatot izrakstus partijā**, tiek darbināti vienīgi pakešveida režīmā. Mantotajā izrakstu grāmatošanas līdzeklī lietotāji varēja izvēlēties pakešveida procesu palaišanu interaktīvā režīmā, kas ir viena pavediena operācija, atšķirībā no pakešveida procesiem, kas ir vairākpavedienu operācijas.
-- Mantotajā izrakstu grāmatošanas līdzeklī jebkura pakešuzdevuma kļūme visam pakešuzdevumam izraisa kļūdas stāvokli. Uzlabotajā līdzeklī pakešuzdevumu kļūmes neizraisa kļūmes stāvokli visam pakešuzdevumam, ja pārējie pakešuzdevumi ir izpildīti sekmīgi. Jums ir jānovērtē grāmatošanas stāvoklis pakešuzdevuma izpildei, izmantojot lapu **Mazumtirdzniecības izraksti**, kurā ir redzami visi izraksti, kas netika grāmatoti kļūdu dēļ.
+- Mantotajā izrakstu grāmatošanas līdzeklī jebkura pakešuzdevuma kļūme visam pakešuzdevumam izraisa kļūdas stāvokli. Uzlabotajā līdzeklī pakešuzdevumu kļūmes neizraisa kļūmes stāvokli visam pakešuzdevumam, ja pārējie pakešuzdevumi ir izpildīti sekmīgi. Jums ir jānovērtē grāmatošanas stāvoklis pakešuzdevuma izpildei, izmantojot lapu **Izraksti**, kurā ir redzami visi izraksti, kas netika grāmatoti kļūdu dēļ.
 - Mantotajā izrakstu grāmatošanas līdzeklī pirmās izraksta kļūmes rašanās izraisa visa pakešveida procesa kļūmi. Atlikušie izraksti netiek apstrādāti. Uzlabotajā līdzeklī pakešveida process turpina apstrādāt visus izrakstus pat tad, ja dažu izrakstu apstrāde bija nesekmīga. Viena priekšrocība ir tāda, ka lietotāji var pārredzēt precīzu skaitu ar izrakstiem, kuros ir kļūdas. Tāpēc lietotāji neiestrēgst nepārtrauktā kļūdu labošanas un izraksta grāmatošanas procesā, līdz ir iegrāmatoti visi izraksti.
 
 ## <a name="general-guidance-about-the-statement-posting-process"></a>Vispārēji norādījumi par izrakstu grāmatošanas procesu
@@ -172,5 +172,5 @@ Izrakstu grāmatošanas līdzeklim ir veikti citi, aizmugursistēmas uzlabojumi,
 - Iesakām ieslēgt negatīvus fiziskos krājumus krājumu modeļu grupai, lai jums būtu viengabalaina grāmatošanas funkcionalitāte. Dažos scenārijos negatīvos pārskatus var grāmatot tikai tad, ja pastāv negatīvi fiziskie krājumi. Piemēram, teorētiski, ja krājumos ir tikai viena vienība un šim krājumam ir notikusi pārdošanas transakcija un atgriešanas transakcija, tad transakciju vajadzētu varēt grāmatot pat tad, ja negatīvie krājumi nav ieslēgti. Taču, tā kā izraksta grāmatošanas procesā gan pārdošanas transakcija, gan atgriešanas transakcija tiek uzkrāta vienā debitora pasūtījumā, nav nekādas garantijas, ka pārdošanas rinda tiks grāmatota pirmā un ka atgriešanas rinda tiks grāmatota pēc tam. Tādēļ var rasties kļūdas. Ja šajā scenārijā ir ieslēgti negatīvi krājumi, transakciju grāmatošana netiek negatīvi ietekmēta un sistēma krājumus atspoguļo pareizi.
 - Iesakām izmantot apkopošanu, kamēr aprēķināt un grāmatojat izrakstus. Tāpēc dažiem no apkopošanas parametriem ir ieteicami tālāk norādītie iestatījumi.
 
-    - Dodieties uz **Retail** \> **Headquarters iestatīšana** \> **Parametri** \> **Mazumtirdzniecības parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Krājumu atjaunināšana**, laukā **Detalizācijas līmenis** atlasiet **Kopsavilkums**.
-    - Dodieties uz **Retail** \> **Headquarters iestatīšana** \> **Parametri** \> **Mazumtirdzniecības parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Apkopošana** opciju **Dokumentu transakcijas** iestatiet uz **Jā**.
+    - Pārejiet uz sadaļu **Retail un Commerce** \> **Headquarters iestatīšana** \> **Parametri** \> **Commerce parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Krājumu atjaunināšana**, laukā **Detalizācijas līmenis** atlasiet **Kopsavilkums**.
+    - Pārejiet uz sadaļu **Retail un Commerce** \> **Headquarters iestatīšana** \> **Parametri** \> **Commerce parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Apkopošana** opciju **Dokumentu transakcijas** iestatiet uz **Jā**.

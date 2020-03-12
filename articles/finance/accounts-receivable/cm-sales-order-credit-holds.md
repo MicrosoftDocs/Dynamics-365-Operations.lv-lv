@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015315"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057674"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kredīta aizturēšana pārdošanas pasūtījumiem
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Piespiedu kārtā aizturētos pārdošanas pasūtījumus nevar apstrādāt ar da
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Palaižot pasūtījumus, kas tika pievienoti kredīta pārvaldības aizturēšanas sarakstam ar piespiedu kredīta aizturēšanu
 Pārdošanas pasūtījumus, kas ir aizturēti piespiedu kārtā, nevar palaist automātiski. Ja pārdošanas pasūtījums tika aizturēts piespiedu kārtā un jūs esat izmantojis procesu, kas automātiski palaiž pārdošanas pasūtījumus, pārdošanas pasūtījums tiks rādīts kā **Gatavs palaišanai** un paliks aizturēšanas sarakstā. Lai palaistu pasūtījumu, jums jāizmanto izvēlne **Palaist**.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Brīva teksta rēķini, mazumtirdzniecības pasūtījumi un projekta rēķinu atbalsts kredīta pārvaldībā 
-Kredīta pārvaldību pašreiz var izmantot tikai pārdošanas pasūtījumiem. Brīva teksta rēķini, mazumtirdzniecības pārdošanas pasūtījumu punkts un zvanu centra pasūtījumi izmantos pagaidu kredīta limitus un apdrošināšanas/garantijas, kas tiek pievienotas, lai pielāgotu kredīta limitu. Tie neizmantos aizturēšanas kārtulas, un tie netiks ievietoti aizturēšanas sarakstā, ja ir problēma ar kredīta limitu.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Brīva teksta rēķini, pasūtījumi un projekta rēķinu atbalsts kredīta pārvaldībā 
+Kredīta pārvaldību pašreiz var izmantot tikai pārdošanas pasūtījumiem. Brīva teksta rēķini, pārdošanas pasūtījumu punkts un zvanu centra pasūtījumi izmantos pagaidu kredīta limitus un apdrošināšanas/garantijas, kas tiek pievienotas, lai pielāgotu kredīta limitu. Tie neizmantos aizturēšanas kārtulas, un tie netiks ievietoti aizturēšanas sarakstā, ja ir problēma ar kredīta limitu.
 
 Nav atbalsta projektu rēķiniem kredīta pārvaldībā.

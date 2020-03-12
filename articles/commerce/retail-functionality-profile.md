@@ -1,6 +1,6 @@
 ---
 title: Izveidot mazumtirdzniecības funkcionalitātes profilu
-description: Šajā tēmā aprakstīts, kā izveidot mazumtirdzniecības funkcionalitātes profilu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā izveidot funkcionalitātes profilu programmā Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002847"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057352"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Izveidot mazumtirdzniecības funkcionalitātes profilu
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot mazumtirdzniecības funkcionalitātes profilu programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā izveidot funkcionalitātes profilu programmā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Mazumtirdzniecības funkcionalitātes profilā ir sniegti dažādi tiešsaistes kanāliem izmantotie iestatījumi. Katram mazumtirdzniecības kanālam jānorāda mazumtirdzniecības funkcionalitātes profils.
+Komercijas funkcionalitātes profilā ir sniegti dažādi tiešsaistes kanāliem izmantotie iestatījumi. Katram kanālam jānorāda funkcionalitātes profils.
 
-## <a name="create-a-retail-functionality-profile"></a>Izveidot mazumtirdzniecības funkcionalitātes profilu
+## <a name="create-a-functionality-profile"></a>Izveidot funkcionalitātes profilu
 
-Lai izveidotu jaunu mazumtirdzniecības funkcionalitāti, veiciet šādas darbības.
+Lai izveidotu jaunu funkcionalitāti, veiciet šādas darbības.
 
 1. Navigācijas rūtī atveriet **Moduļi \> Kanāla iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. Darbību rūtī atlasiet **Jauns**.
@@ -51,9 +51,9 @@ Lai izveidotu jaunu mazumtirdzniecības funkcionalitāti, veiciet šādas darbī
 1. Sadaļā **Informācijas kodi** pēc nepieciešamības modificējiet iestatījumus.
 1. Sadaļā **Kvīšu numerācija** pēc nepieciešamības modificējiet citus iestatījumus. 
   
-Šajā attēlā ir parādīts mazumtirdzniecības funkcionalitātes piemērs.
+Šajā attēlā ir parādīts funkcionalitātes piemērs.
   
-![Mazumtirdzniecības funkcionalitātes profila piemērs](media/retail-functionality-profile.png)
+![Funkcionalitātes profila piemērs](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

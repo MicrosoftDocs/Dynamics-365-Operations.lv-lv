@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024710"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057721"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce priekšskatījuma vides konfigurēšana
 
@@ -35,7 +35,7 @@ ms.locfileid: "3024710"
 
 Šajā tēmā minētās procedūras veiciet tikai pēc tam, kad ir nodrošināta Commerce priekšskatījuma vide. Informāciju par to, kā nodrošināt Commerce priekšskatījuma vidi, skatiet [Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md).
 
-Pēc tam, kad jūsu Commerce priekšskatījuma vide ir pilnībā nodrošināta, ir jāpabeidz papildu konfigurēšanas darbības pēc nodrošināšanas, pirms varat sākt novērtēt vidi. Lai veiktu šīs darbības, ir jāizmanto Microsoft Dynamics Lifecycle Services (LCS), Dynamics 365 Commerce un Dynamics 365 Retail
+Pēc tam, kad jūsu Commerce priekšskatījuma vide ir pilnībā nodrošināta, ir jāpabeidz papildu konfigurēšanas darbības pēc nodrošināšanas, pirms varat sākt novērtēt vidi. Lai veiktu šīs darbības, ir jāizmanto Microsoft Dynamics Lifecycle Services (LCS) un Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Pirms darba sākšanas
 
@@ -53,7 +53,7 @@ Pēc tam, kad jūsu Commerce priekšskatījuma vide ir pilnībā nodrošināta, 
 
 Lai saistītu darbinieku ar jūsu identitāti LCS, rīkojieties šādi.
 
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi \> Mazumtirdzniecība \> Darbinieki \> Nodarbinātie**.
+1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi \> Mazumtirdzniecība un komercija \> Darbinieki \> Nodarbinātie**.
 1. Sarakstā atrodiet un atlasiet šādu ierakstu **000713 – Endrjū Kollete**.
 1. Darbību rūtī atlasiet **Mazumtirdzniecība**.
 1. Atlasiet **Piesaistīt esošu identitāti**.
@@ -91,12 +91,12 @@ Lai sāktu iestatīt priekšskatījuma vietni pakalpojumā Commerce, veiciet tā
 1. Atstājiet lauka **Path** vērtību tādu, kāda tā ir.
 1. Atlasiet **Labi**. Tiek parādīts vietnes lapu saraksts.
 
-## <a name="enable-jobs-in-retail"></a>Iespējot darbvietas mazumtirdzniecībā
+## <a name="enable-jobs"></a>Darbu iespējošana
 
-Lai iespējotu darbus mazumtirdzniecībā, izpildiet tālāk aprakstītās darbības.
+Lai iespējotu darbus pakalpojumā Commerce, izpildiet tālāk aprakstītās darbības.
 
 1. Pierakstieties vidē (HQ).
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Mazumtirdzniecība \> Pieprasījumi un pārskati \> Pakešuzdevumi**.
+1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Pakešuzdevumi**.
 
     Šīs procedūras atlikušie soļi jāaizpilda katram no šiem darbiem:
 
@@ -112,11 +112,11 @@ Lai iespējotu darbus mazumtirdzniecībā, izpildiet tālāk aprakstītās darb�
     1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
     1. Atlasiet **Gaida** un pēc tam atlasiet **Labi**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Veikt pilnu datu sinhronizāciju mazumtirdzniecībā
+### <a name="run-full-data-synchronization"></a>Izpildīt pilnīgu datu sinhronizāciju
 
-Lai mazumtirdzniecībā palaistu pilnu datu sinhronizāciju, veiciet tālāk norādītās darbības.
+Lai pakalpojumā Commerce palaistu pilnu datu sinhronizāciju, veiciet tālāk norādītās darbības.
 
-1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi \> Mazumtirdzniecība \> Mazumtirdzniecības uzstādīšana \> Mazumtirdzniecības plānotājs \> Kanāla datubāze**.
+1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi \> Mazumtirdzniecība un komercija \> Mazumtirdzniecības uzstādīšana \> Mazumtirdzniecības plānotājs \> Kanāla datubāze**.
 1. Kanāls **Noklusējums** ir atlasīts no saraksta kreisajā pusē. Izvēlieties citu pieejamo kanālu. Šī kanāla nosaukums **scXXXXXXXXX**.
 1. Darbību rūtī atlasiet **Pilnīga datu sinhronizācija**.
 1. Ievadiet **9999** kā sadales grafiku.

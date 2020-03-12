@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015312"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071664"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredīta pārvaldības parametru iestatīšana
 
@@ -38,8 +38,8 @@ Ir četras kopsavilkuma cilnes, kurās varat mainīt parametrus, kas kontrolē k
 - Iestatiet opciju **Atļaut rediģēt pārdošanas pasūtījumus pēc pasūtījuma aizturēšanas palaišanas** uz **Jā**, lai pieprasītu, ka grāmatošanas kārtulas atkal tiek pārbaudīti, ja pārdošanas pasūtījuma vērtība (pilna cena) ir mainīta kopš pārdošanas pasūtījuma palaišanas no aizturēšanas saraksta. .
 - Laukā **Atcelto pasūtījumu iemesli** atlasiet palaišanas iemeslu, kas tiks izmantots pēc noklusējuma, kad pārdošanas pasūtījums, kas bija kredīta pārvaldības aizturēšanā, tiks atcelts.
 - Lai pārbaudītu debitora kredīta grupas kredīta limitu, kad pārdošanas pasūtījuma debitors pieder debitoru kredīta grupai, iestatiet opciju **Pārbaudīt debitora kredīta grupas kredīta līmeni** uz **Jā**. Tiek pārbaudīts grupas kredīta limits un pēc tam, ja tas ir pietiekams, tiks pārbaudīts debitora kredīta limits.
-- Iestatiet opciju **Pārbaudīt kredīta limitu, kad ir palielināti apmaksas nosacījumi** uz **Jā**, lai pārbaudītu apmaksas nosacījumu klasifikāciju, lai noteiktu, vai maksājuma nosacījumi pārdošanas pasūtījumā atšķiras no apmaksas nosacījumiem pārdošanas pasūtījumā. Ja jaunajiem apmaksas nosacījumiem ir augstāks rangs nekā sākotnējiem apmaksas nosacījumiem, pasūtījums tiek nodots kredīta pārvaldības aizturēšanai.
-- Iestatiet opciju **Pārbaudīt kredīta limitu, kad ir palielināta norēķinu atlaide** uz **Jā**, lai pārbaudītu norēķinu atlaides klasifikāciju, lai noteiktu, vai norēķinu atlaide pārdošanas pasūtījumā atšķiras no norēķinu atlaides pārdošanas pasūtījumā. Ja jaunajai termiņatlaidei ir augstāks rangs nekā sākotnējai termiņatlaidei, pasūtījums tiek nodots kredīta pārvaldības aizturēšanai.
+- Iestatiet opciju **Pārbaudīt kredīta limitu, kad ir palielināti apmaksas nosacījumi** uz **Jā**, lai pārbaudītu apmaksas nosacījumu klasifikāciju, lai noteiktu, vai maksājuma nosacījumi pārdošanas pasūtījumā atšķiras no noklusējuma apmaksas nosacījumiem klientiem. Ja jaunajiem apmaksas nosacījumiem ir augstāks rangs nekā sākotnējiem apmaksas nosacījumiem, pasūtījums tiek nodots kredīta pārvaldības aizturēšanai.
+- Iestatiet opciju **Pārbaudīt kredīta limitu, kad ir palielināta norēķinu atlaide** uz **Jā**, lai pārbaudītu norēķinu atlaides klasifikāciju, lai noteiktu, vai norēķinu atlaide pārdošanas pasūtījumā atšķiras no noklusējuma norēķinu atlaides klientam. Ja jaunajai termiņatlaidei ir augstāks rangs nekā sākotnējai termiņatlaidei, pasūtījums tiek nodots kredīta pārvaldības aizturēšanai.
 - Laukā **Modificēto pasūtījumu palaišanas iemesls**, atlasiet palaišanas iemeslu, kas tiks izmantots pēc noklusējuma, kad modificētie pasūtījumi tiek automātiski palaisti no kredīta pārvaldības aizturēšanas.
 - Iestatiet opciju **Ignorēt kredīta limita termiņa aizturēšanas kārtulu, ja beigu datums nav ievadīts** uz **Jā**, lai varētu kontrolēt **Kredīta limita termiņa** kārtulas darbību. Iestatiet opciju uz **Nē**, lai aizturētu pasūtījumu, ja beigu datums nav ievadīts.
 - Noliktavas pārvaldībā noslodzes var izveidot pārdošanas pasūtījuma izveides laikā. Ievadiet opciju **Noņemt aizturētās noslodze rindas** uz **Nē**, lai pārdošanas pasūtījuma rindas tiktu atstātas noslodzei, kad pārdošanas pasūtījums tiek aizturēts. Kad pārdošanas pasūtījums ir aizturēts, noslodzi nevar apstrādāt. Iestatiet opciju uz **Jā**, lai noņemtu pārdošanas pasūtījuma rindas no noslodzes, kad pārdošanas pasūtījums ir aizturēts. Pēc tam noslodzi var apstrādāt.

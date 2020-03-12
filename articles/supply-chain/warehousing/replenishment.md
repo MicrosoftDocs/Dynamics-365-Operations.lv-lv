@@ -3,7 +3,7 @@ title: Papildināšanas pārskats
 description: Šajā tēmā ir aprakstītas papildināšanas stratēģijas, kas ir pieejamas noliktavām, kuras izmanto noliktavas vadībā pieejamo funkcionalitāti.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251476"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076366"
 ---
 # <a name="replenishment-overview"></a>Papildināšanas pārskats
 
@@ -49,6 +49,8 @@ Novietojuma direktīvās tiek izmantotas, lai noteiktu, kuri novietojumi ir jāp
 Papildus veidnes izveidošanai jums kopuma veidnē ir jānorāda arī kādi papildināšanas iestatījumi. Kopuma veidnei ir jāietver kopuma darbība papildināšanai, kas tiek izpildīta tikai tad, ja krājumam nav sekmīgi izpildīts sadalījums. Šajā papildināšanas kopuma darbībā tiek izmantots kopuma darbības kods, lai noteiktu, kura papildināšanas veidne ir jāizmanto. Papildus papildināšanai paredzētajai kopuma darbībai jums ir jānodrošina, lai kopuma veidnes sadaļā **Metodes** būtu atlasīta vērtība **Papildināt**. 
 
 Lapā **Papildināšanas veidne** ir ietverta izvēles rūtiņa **Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus**. Atzīmējiet šo izvēles rūtiņu, ja pieprasījuma papildināšana ir nepieciešama spēja atskaitīt nerezervētos daudzumus no darba, kas ir ģenerēts no atlasītās papildināšanas veidnes. Lai pieprasījuma papildināšanas veidnēm ļautu lietot šo loģiku, šī izvēles rūtiņa jums ir jāatzīmē katrai esošajai papildināšanas veidnei. Kad noliktavā tiek aktivizēta pieprasījuma papildināšana, tā pieprasījumu atskaita no esoša papildināšanas darba, kuram ir nerezervēts daudzums, ja darbs tiek ģenerēts no papildināšanas veidnēm, kurām ir atzīmēta izvēles rūtiņa **Atļaut kopuma pieprasījumam lietot nerezervēto daudzumu**.
+
+**Papildināšanas vienība** ir minimālā vienība, kas jāpapildina. Šim ir jābūt veselam skaitlim, kas ir vienības daudzkārtnis. Sistēma noapaļo līdz augstākajai vienībai, kas iespējama, izveidojot darbu.
 
 Pieprasījuma papildināšana tiek atbalstīta pārdošanas pasūtījumiem, pārsūtīšanas pasūtījumiem, ražošanas pasūtījumiem un Kanban. 
 

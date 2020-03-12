@@ -3,7 +3,7 @@ title: Bieži uzdotie jautājumi par darbplūsmu
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par darbplūsmas sistēmu.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934913"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076090"
 ---
 # <a name="workflow-faq"></a>Bieži uzdotie jautājumi par darbplūsmām
 
@@ -52,5 +52,9 @@ Tālāk ir norādītas daži galvenās jomas, kas ir jāņem vērā saistībā a
 
 Īsumā — ja lietotājs nesaņem nepieciešamo paziņojumu no darbību centra, kad šim lietotājam ir piešķirts kāds darbplūsmas darba elements, tad papildu vai atšķirīgu paziņojumu sniegšanai ir jāizmanto [darbplūsmas biznesa notikumi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) un Microsoft Power Automate.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Darbplūsmas redaktoram ir problēmas, uzsākot palaišanu ar ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Kāpēc darbplūsmas redaktors nevar sākt ar AD FS?
 Darbojoties Active Directory Federation Services (AD FS) ietvaros jauninātā vidē, darbplūsmas redaktoram var rasties palaišanas problēmas. Ja tā notiek, pārliecinieties, vai URL "https://dynamicsaxworkfloweditor/" tiek pievienota ADFS iestatījumu rekvizītam **Microsoft Dynamics 365 for Operations lokāli — Darbplūsma — Vietējā programma**.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Kāpēc es saņemu SQL strupsaķeres darbplūsmas apstrādei? 
+Noklusējuma lauka vērtība **Darbplūsmas vienumu skaitam partijā** lapā **Darbplūsmas parametri** ir 0. Vērtība 0 liek mainīt noklusējumu uz 20 vienībām partijā. Uzmanieties, pielāgojot šo vērtību, jo liels vienumu skaits katrā partijā (> 40) var izraisīt SQL strupsaķeri.
+

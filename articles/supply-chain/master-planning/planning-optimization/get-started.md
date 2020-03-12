@@ -3,7 +3,7 @@ title: Darba sākšana ar plānošanas optimizāciju
 description: Šajā tēmā ir paskaidrots, kā sākt izmantot plānošanas optimizācijas funkcionalitāti.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971468"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076136"
 ---
+# <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
 
 Plānošanas optimizēšanas funkcionalitāte pašlaik neatbalsta visus līdzekļus, kas ir pieejami Microsoft iebūvētajā plānošanas programmā Dynamics 365 Supply Chain Management. Tāpēc ir svarīgi novērtēt, vai līdzekļu kopa, kas pašlaik ir pieejama plānošanas optimizācijā, atbilst jūsu prasībām. Pēc noklusējuma plānošanas optimizācijas funkcionalitāte nav ieslēgta Dynamics Lifecycle Services (LCS). Tāpēc jums ir iespēja veikt savu novērtējumu, pirms tas ir ieslēgts.
 
@@ -44,6 +44,9 @@ Ja vispārējo plānošanu varat veikt, izmantojot pašreizējo licenci, jums na
 ### <a name="install-the-add-in"></a>Pievienojumprogrammas instalēšana
 
 Lai izmantotu plānošanas optimizāciju, instalējiet plānošanas optimizācijas pievienojumprogrammu sistēmai Dynamics 365 Supply Chain Management. Varat piekļūt pievienojumprogrammai no sava LCS projekta un ieslēgt plānošanas optimizācijas funkcionalitāti no Supply Chain Management lietotāja interfeisa (UI).
+
+> [!NOTE]
+> Plānošanas optimizācijas prasība ir ar LCS iespējota augstas pieejamības vide (ne OneBox vide) ar Dynamics 365 Supply Chain Management versiju 10.0.7 vai jaunāku.
 
 1. Piesakieties LCS un atveriet vēlamo vidi.
 1. Doties **Pilna detalizēta informācija**.

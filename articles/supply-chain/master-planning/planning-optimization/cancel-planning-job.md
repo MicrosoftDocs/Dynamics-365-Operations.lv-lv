@@ -3,7 +3,7 @@ title: Atcelt plānošanas darbu
 description: Šajā tēmā izskaidrots, kā atcelt aktīvu plānošanas darbu, kas izmanto funkcionalitāti Plānošanas optimizācija.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774008"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076352"
 ---
+# <a name="cancel-a-planning-job"></a>Plānošanas darba atcelšana
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Atcelt plānošanas darbu
+Programmā Microsoft Dynamics 365 Supply Chain Management varat atcelt aktīvu plānošanas darbu, kas izmanto funkcionalitāti Plānošanas optimizācija. Atlasot opciju **Atcelt** dialoglodziņā, kad plānošanas optimizācijas darbs tiek parādīts tieši no lietotāja interfeisa (nevis fonā), tas neatcels plānošanas optimizācijas darbu. Pat ja saņemat brīdinājumu, piemēram, "Operācija atcelta", jums joprojām būs jāveic šīs darbības, lai atceltu plānošanas darbu ar plānošanas optimizāciju.
 
-Programmā Microsoft Dynamics 365 Supply Chain Management varat atcelt aktīvu plānošanas darbu, kas izmanto funkcionalitāti Plānošanas optimizācija.
 
-Lai atceltu aktīvu plānošanas darbu, veiciet tālāk norādītās darbības.
+Lai atceltu aktīvu plānošanas darbu, veiciet tālāk norādītās darbības. 
 
 > [!NOTE]
 > Atcelt var tikai aktīvus darbus.
@@ -49,11 +50,11 @@ Darba statuss būs **Atcelšana**, līdz pakalpojums Plānošanas optimizācija 
 > [!NOTE]
 > Lai skatītu statusa izmaiņas, ir jāatsvaidzina lapa, atlasot pogu **Atsvaidzināt**.
 
-## <a name="related-resources"></a>Saistītie resursi
+## <a name="additional-resources"></a>Papildu resursi
 
-[Plānošanas optimizācijas pārskats](planning-optimization-overview.md)
+[Plānošanas optimizācijas apskats](planning-optimization-overview.md)
 
-[Darba sākšana ar Plānošanas optimizāciju](get-started.md)
+[Darba sākšana ar plānošanas optimizāciju](get-started.md)
 
 [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
 

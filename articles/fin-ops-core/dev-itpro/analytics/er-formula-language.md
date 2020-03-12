@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916664"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042715"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronisko atskaišu veidošanas formulas valoda
 
@@ -154,7 +154,7 @@ ER jums ļauj paplašināt funkciju sarakstu, kuras tiek lietotas ER izteiksmēs
 
 Var izveidot saliktas izteiksmes, kas izmanto dažādu kategoriju funkcijas, ar nosacījumu, ka datu tipi sakrīt. Ja izmantojat funkcijas kopā, saskaņojiet vienas funkcijas izvades datu veidu ar ievades datu veidu, kas ir nepieciešams citai funkcijai. Piemēram, lai izvairītos no iespējamas kļūdas "saraksts ir tukšs" lauka saistīšanā ar ER formāta elementu, apvienojiet funkcijas no kategorijas [Saraksts](er-functions-category-list.md) ar funkciju no kategorijas [Loģikas](er-functions-category-logical.md), kā redzams šajā piemērā. Šeit formula izmanto funkciju [IF](er-functions-logical-if.md), lai pārbaudītu, vai saraksts **IntrastatTotals** ir tukšs, pirms tiek atgriezta vajadzīgā apkopojuma vērtība no šī saraksta. Ja saraksts **IntrastatTotals** ir tukšs, formula atgriež **0** (nulle).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Bieži vien jūs varat iegūt vienu un to pašu datu transformācijas rezultātu vairākos veidos, izmantojot dažādu kategoriju funkcijas vai dažādas funkcijas no tās pašas kategorijas. Piemēram, iepriekšējo izteiksmi var arī konfigurēt, izmantojot funkciju [COUNT](er-functions-list-count.md) no kategorijas [Saraksts](er-functions-category-list.md) kategorijas.
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

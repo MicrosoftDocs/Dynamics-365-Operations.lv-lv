@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023243"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057918"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mazumtirdzniecības kanālu definēšana un uzturēšana
 
@@ -47,9 +47,9 @@ Lai varētu iestatīt veikalu, jums ir jāizpilda tālāk uzskaitītie uzdevumi.
 3. Iestatiet numuru sērijas veikaliem, veikala pārskatiem un deklarācijas dokumentiem.
 4. Konfigurējiet programmas Commerce parametrus.
 5. Iestatiet veikalam pieņemamas maksājumu metodes.
-6. Lai apstrādātu kredītkaršu transakcijas mazumtirdzniecības pārdošanas punkta (POS) kases sistēmās, varat iestatīt arī maksāšanas pakalpojumus.
+6. Lai apstrādātu kredītkaršu transakcijas pārdošanas punkta (POS) kases sistēmās, varat iestatīt arī maksāšanas pakalpojumus.
 7. Iestatiet PVN grupas.
-8. Iestatiet mazumtirdzniecības preces. Kā daļu no šī uzdevuma varat arī iestatīt preču hierarhijas, preču variantus un preču klāstus.
+8. Iestatiet preces. Kā daļu no šī uzdevuma varat arī iestatīt preču hierarhijas, preču variantus un preču klāstus.
 9. Iestatiet preču cenu grupas.
 10. Iestatiet preču cenu noteikšanu. Kā daļu no šo uzdevuma varat iestatīt arī cenu korekcijas, atlaides un atlaižu periodus.
 11. Iestatiet darbiniekus.
@@ -87,5 +87,5 @@ Pēc detalizētas informācijas par mazumtirdzniecības veikalu ievades, veiciet
 Programma Commerce izmanto organizāciju hierarhijas, lai mazumtirdzniecības kanāliem piešķirtu struktūru. Organizācijas hierarhijas pārstāv attiecības starp organizācijām, kas veido jūsu uzņēmumu. Iestatot veikalus, varat tos pievienot organizācijas hierarhijai. Pēc tam veikali koplieto datus, kas tiek izmantoti preču klāstiem, papildināšanai un pārskatu veidošanai.
 
 > [!NOTE]
-> Lai izmantotu mazumtirdzniecības pārdošanas funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\>**Iestatījumi**\>**Licences konfigurācija.** Tas ir nepieciešams, mazumtirdzniecības funkcionalitātes dēļ, kas veic dažādas validācijas, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī.
+> Lai izmantotu Commerce pārdošanas funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\>**Iestatījumi**\>**Licences konfigurācija.** Tas ir nepieciešams dažādu validāciju dēļ, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī.
 
