@@ -18,57 +18,57 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9384d5975e4a25d18ff741f87431daa4b0bbd7e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 6751c1321fc71419fa8b153145a057371e0f7af5
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917078"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041611"
 ---
-# <span data-ttu-id="118b4-103"><a name="ROUND">ROUND ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="118b4-103"><a name="ROUND">ROUND ER function</a></span></span>
+# <span data-ttu-id="48f04-103"><a name="ROUND">ROUND ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="48f04-103"><a name="ROUND">ROUND ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="118b4-104">`ROUND` funkcija atgriež norādīto numuru kā *Reālu* vērtību pēc tam, kad tas ir noapaļots līdz norādītajam ciparu skaitam aiz komata.</span><span class="sxs-lookup"><span data-stu-id="118b4-104">The `ROUND` function returns the specified number as a *Real* value after it has been rounded to the specified number of decimal places.</span></span>
+<span data-ttu-id="48f04-104">`ROUND` funkcija atgriež norādīto numuru kā *Reālu* vērtību pēc tam, kad tas ir noapaļots līdz norādītajam ciparu skaitam aiz komata.</span><span class="sxs-lookup"><span data-stu-id="48f04-104">The `ROUND` function returns the specified number as a *Real* value after it has been rounded to the specified number of decimal places.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="118b4-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="118b4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="48f04-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="48f04-105">Syntax</span></span>
 
-```
+```vb
 ROUND (number, decimals)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="118b4-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="118b4-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="48f04-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="48f04-106">Arguments</span></span>
 
-<span data-ttu-id="118b4-107">`number`: *Reāls*</span><span class="sxs-lookup"><span data-stu-id="118b4-107">`number`: *Real*</span></span>
+<span data-ttu-id="48f04-107">`number`: *Reāls*</span><span class="sxs-lookup"><span data-stu-id="48f04-107">`number`: *Real*</span></span>
 
-<span data-ttu-id="118b4-108">Skaitliska vērtība, kas ir jānoapaļo.</span><span class="sxs-lookup"><span data-stu-id="118b4-108">A numeric value that must be rounded.</span></span>
+<span data-ttu-id="48f04-108">Skaitliska vērtība, kas ir jānoapaļo.</span><span class="sxs-lookup"><span data-stu-id="48f04-108">A numeric value that must be rounded.</span></span>
 
-<span data-ttu-id="118b4-109">`decimals`: *Vesels skaitlis*</span><span class="sxs-lookup"><span data-stu-id="118b4-109">`decimals`: *Integer*</span></span>
+<span data-ttu-id="48f04-109">`decimals`: *Vesels skaitlis*</span><span class="sxs-lookup"><span data-stu-id="48f04-109">`decimals`: *Integer*</span></span>
 
-<span data-ttu-id="118b4-110">Skaitliska vērtība, kas apzīmē ciparu aiz komata skaitu.</span><span class="sxs-lookup"><span data-stu-id="118b4-110">A numeric value that represents the number of decimal places.</span></span>
+<span data-ttu-id="48f04-110">Skaitliska vērtība, kas apzīmē ciparu aiz komata skaitu.</span><span class="sxs-lookup"><span data-stu-id="48f04-110">A numeric value that represents the number of decimal places.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="118b4-111">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="118b4-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="48f04-111">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="48f04-111">Return values</span></span>
 
-<span data-ttu-id="118b4-112">*Reāls*</span><span class="sxs-lookup"><span data-stu-id="118b4-112">*Real*</span></span>
+<span data-ttu-id="48f04-112">*Reāls*</span><span class="sxs-lookup"><span data-stu-id="48f04-112">*Real*</span></span>
 
-<span data-ttu-id="118b4-113">Iegūtā skaitliskā vērtība.</span><span class="sxs-lookup"><span data-stu-id="118b4-113">The resulting numeric value.</span></span>
+<span data-ttu-id="48f04-113">Iegūtā skaitliskā vērtība.</span><span class="sxs-lookup"><span data-stu-id="48f04-113">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="118b4-114">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="118b4-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="48f04-114">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="48f04-114">Usage notes</span></span>
 
-<span data-ttu-id="118b4-115">Ja argumenta `decimals` vērtība ir lielāka par 0 (nulli), norādītais skaitlis tiek noapaļots līdz attiecīgajam ciparu skaitam aiz komata.</span><span class="sxs-lookup"><span data-stu-id="118b4-115">If the value of the `decimals` argument is more than 0 (zero), the specified number is rounded to that many decimal places.</span></span>
+<span data-ttu-id="48f04-115">Ja argumenta `decimals` vērtība ir lielāka par 0 (nulli), norādītais skaitlis tiek noapaļots līdz attiecīgajam ciparu skaitam aiz komata.</span><span class="sxs-lookup"><span data-stu-id="48f04-115">If the value of the `decimals` argument is more than 0 (zero), the specified number is rounded to that many decimal places.</span></span>
 
-<span data-ttu-id="118b4-116">Ja argumenta `decimals` vērtība ir **0** (nulle), norādītais skaitlis tiek noapaļots līdz tuvākajam veselajam skaitlim.</span><span class="sxs-lookup"><span data-stu-id="118b4-116">If the value of the `decimals` argument is **0** (zero), the specified number is rounded to the nearest integer.</span></span>
+<span data-ttu-id="48f04-116">Ja argumenta `decimals` vērtība ir **0** (nulle), norādītais skaitlis tiek noapaļots līdz tuvākajam veselajam skaitlim.</span><span class="sxs-lookup"><span data-stu-id="48f04-116">If the value of the `decimals` argument is **0** (zero), the specified number is rounded to the nearest integer.</span></span>
 
-<span data-ttu-id="118b4-117">Ja argumenta  `decimals` vērtība ir mazāka par 0 (nulli), norādītais skaitlis tiek noapaļots līdz skaitlim, kas atrodas pa kreisi no komata.</span><span class="sxs-lookup"><span data-stu-id="118b4-117">If the value of the `decimals` argument is less than 0 (zero), the specified number is rounded to the left of the decimal point.</span></span>
+<span data-ttu-id="48f04-117">Ja argumenta  `decimals` vērtība ir mazāka par 0 (nulli), norādītais skaitlis tiek noapaļots līdz skaitlim, kas atrodas pa kreisi no komata.</span><span class="sxs-lookup"><span data-stu-id="48f04-117">If the value of the `decimals` argument is less than 0 (zero), the specified number is rounded to the left of the decimal point.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="118b4-118">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="118b4-118">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="48f04-118">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="48f04-118">Example 1</span></span>
 
-<span data-ttu-id="118b4-119">`ROUND (1200.767, 2)` noapaļo līdz diviem cipariem aiz komata un atgriež **1200.77**.</span><span class="sxs-lookup"><span data-stu-id="118b4-119">`ROUND (1200.767, 2)` rounds to two decimal places and returns **1200.77**.</span></span>
+<span data-ttu-id="48f04-119">`ROUND (1200.767, 2)` noapaļo līdz diviem cipariem aiz komata un atgriež **1200.77**.</span><span class="sxs-lookup"><span data-stu-id="48f04-119">`ROUND (1200.767, 2)` rounds to two decimal places and returns **1200.77**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="118b4-120">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="118b4-120">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="48f04-120">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="48f04-120">Example 2</span></span>
 
-<span data-ttu-id="118b4-121">`ROUND (1200.767, -3)` noapaļo līdz tuvākajam 1 000 reizinājumam un atgriež **1000**.</span><span class="sxs-lookup"><span data-stu-id="118b4-121">`ROUND (1200.767, -3)` rounds to the nearest multiple of 1,000 and returns **1000**.</span></span>
+<span data-ttu-id="48f04-121">`ROUND (1200.767, -3)` noapaļo līdz tuvākajam 1 000 reizinājumam un atgriež **1000**.</span><span class="sxs-lookup"><span data-stu-id="48f04-121">`ROUND (1200.767, -3)` rounds to the nearest multiple of 1,000 and returns **1000**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="118b4-122">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="118b4-122">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="48f04-122">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="48f04-122">Additional resources</span></span>
 
-[<span data-ttu-id="118b4-123">Matemātiskās funkcijas</span><span class="sxs-lookup"><span data-stu-id="118b4-123">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="48f04-123">Matemātiskās funkcijas</span><span class="sxs-lookup"><span data-stu-id="48f04-123">Mathematical functions</span></span>](er-functions-category-mathematical.md)
