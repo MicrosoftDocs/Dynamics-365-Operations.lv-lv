@@ -1,2 +1,3 @@
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations tagad tiek licencēts kā Dynamics 365 Finance un Dynamics 365 Supply Chain Management. Plašāku informāciju par šīm licencēšanas izmaiņām skatiet [Dynamics 365 licencēšanas atjauninājumā](https://docs.microsoft.com/dynamics365/licensing/update). 
+> Risinājums Dynamics 365 for Finance and Operations ir pievērsies noteiktam mērķim izstrādātām lietojumprogrammām, kas palīdz pārvaldīt konkrētas biznesa funkcijas. Plašāku informāciju par šīm izmaiņām skatiet [Dynamics 365 licencēšanas rokasgrāmatā](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+ 

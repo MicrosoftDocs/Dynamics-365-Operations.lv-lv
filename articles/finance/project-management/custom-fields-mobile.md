@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773649"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080776"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Pielāgotu lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajai programmai operētājsistēmā iOS un Android
 
@@ -183,7 +183,7 @@ Nākamajā piemērā ir parādīts virknes lauks laika ierakstos. Šim laukam ir
 
 Ņemiet vērā metodes **TSTimesheetCustomField::newFromMetatdata()** lietošanu, lai vienkāršotu inicializēšanu pielāgotajiem lauku rekvizītiem: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** un **numberOfDecimals**. Šos parametrus varat iestatīt arī manuāli, ja vēlaties.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 Metode **buildCustomFieldListForEntry** tiek lietota, lai ievadītu vērtības mobilajā programmā saglabātajās darba laika uzskaites tabulas rindās. Šī metode kā parametru izmanto ierakstu TSTimesheetTrans. Laukus no šī ieraksta var izmantot, lai programmā aizpildītu pielāgotā lauka vērtību.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Lai pielāgotu lauku saglabātu atpakaļ datu bāzē tipiskā lietojumā, jums i
 > [!NOTE]
 > Nākamajā piemērā lietotāja atlasītā vērtība **firstOption** vai **secondOption** tiek saglabāta datu bāzē kā neapstrādātas virknes vērtība. Ja datu bāzes lauks ir lauks ar tipu **Uzskaitījums**, šīs vērtības var manuāli kartēt uz uzskaitījuma vērtību un pēc tam saglabāt datu bāzes tabulas uzskaitījuma laukā.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Programmā lauki virsraksta sadaļā vienmēr ir tikai lasāmi.
 
 Nākamajā piemērā ir parādīta aprēķināta vērtība programmas virsraksta sadaļā.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 Metode **buildCustomFieldListForHeader** tiek lietota, lai mobilajā programmā aizpildītu darba laika uzskaites tabulas virsraksta informāciju. Šī metode kā parametru izmanto ierakstu TSTimesheetTable. Laukus no šī ieraksta var izmantot, lai programmā aizpildītu pielāgotā lauka vērtību. Nākamajā piemērā no datu bāzes netiek nolasītas nekādas vērtības. Tā vietā tiek izmantota X++ loģika, lai ģenerētu aprēķinātu vērtību, kura pēc tam tiek rādīta programmā.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

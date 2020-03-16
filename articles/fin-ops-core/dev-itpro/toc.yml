@@ -45,12 +45,16 @@
                 - name: "Platform update\_15 (2018.\_gada marts)"
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Noņemtie vai novecojušie līdzekļi
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: "AX\_2012 līdzekļi, kas tika atlikti"
+              items:
+                - name: Noņemtie vai novecojušie Platform līdzekļi
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 'AX 2012 līdzekļi, kas tika atlikti'
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
               href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: "Galvenā atbalsta beigas versijai Microsoft Dynamics AX\_2009 un\_2012"
+            - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Biznesa notikumi
           items:
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: Sinhrona divvirzienu integrācija
                       items:
-                        - name: Gandrīz reāllaika datu integrācija
+                        - name: Duālā ieraksta mājas lapa
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Duālā ieraksta pārskats
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Organizācijas hierarhija pakalpojumā Common Data Service
                           href: data-entities/dual-write/organization-mapping.md
@@ -926,7 +932,7 @@
                   href: gdpr/gdpr-auditing-sensitive-data.md
                 - name: 'Atbildēšana uz personas datu pieprasījumiem, izmantojot programmu Human Resources'
                   href: gdpr/respond-dsr-request-talent.md
-                - name: "Atbildēšana uz personas datu pieprasījumiem programmā AX\_2012"
+                - name: Atbildēšana uz personas datu pieprasījumiem programmā AX 2012
                   href: gdpr/gdpr-ax2012.md
                 - name: VDAR datu pieprasījumi pakalpojumam LCS
                   href: gdpr/gdpr-lcs.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneriem
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Jaunumi
+                - name: Jaunumi un izmaiņas portālā Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Zināmās problēmas
                   href: lifecycle-services/known-issues.md
@@ -1360,31 +1366,31 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Jaunināt no AX 2012
               items:
-                - name: "Jaunināt no AX\_2012 uz Finance and Operations"
+                - name: Jaunināt no AX 2012 uz Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
-                - name: "AX\_2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
+                - name: "AX 2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
                   href: migration-upgrade/upgrade-analyzer-tool.md
-                - name: "AX\_2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
+                - name: "AX 2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
                   href: migration-upgrade/analyze-code-upgrade.md
-                - name: "AX\_2012 jaunināšana\_— Demonstrācijas vides izvietošana analīzei"
+                - name: "AX 2012 jaunināšana\_— Demonstrācijas vides izvietošana analīzei"
                   href: migration-upgrade/analysis-sandbox.md
-                - name: "AX\_2012 jaunināšana\_— Datu jaunināšana izstrādes vidēs"
+                - name: "AX 2012 jaunināšana\_— Datu jaunināšana izstrādes vidēs"
                   href: migration-upgrade/data-upgrade-2012.md
-                - name: "AX\_2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
+                - name: "AX 2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: "AX\_2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
+                - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
                   href: migration-upgrade/upgrade-data-sandbox.md
-                - name: "AX\_2012 jaunināšana\_— Pārslēgšanas testēšana"
+                - name: "AX 2012 jaunināšana\_— Pārslēgšanas testēšana"
                   href: migration-upgrade/upgrade-cutover-testing.md
-                - name: "AX\_2012 jaunināšana\_— Uzdevumi pēc jaunināšanas"
+                - name: "AX 2012 jaunināšana\_— Uzdevumi pēc jaunināšanas"
                   href: migration-upgrade/app-validation-process.md
-                - name: "AX\_2012 jaunināšana\_— Funkcionālo testu sekmīga izpildīšana"
+                - name: "AX 2012 jaunināšana\_— Funkcionālo testu sekmīga izpildīšana"
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: "AX\_2012 jaunināšana\_— Sagatavošanās ekspluatācijas uzsākšanai"
+                - name: "AX 2012 jaunināšana\_— Sagatavošanās ekspluatācijas uzsākšanai"
                   href: migration-upgrade/upgrade-go-live-prep.md
-                - name: "AX\_2012 jauninājums\_— Ekspluatācijas uzsākšana"
+                - name: "AX 2012 jauninājums\_— Ekspluatācijas uzsākšana"
                   href: migration-upgrade/2012-upgrade-cutover.md
-                - name: "Izmaiņas, kas ietekmē jaunināšanu no AX\_2012"
+                - name: 'Izmaiņas, kas ietekmē jaunināšanu no AX 2012'
                   items:
                     - name: Unikāla kontu plāna norobežotāja iestatīšana
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md

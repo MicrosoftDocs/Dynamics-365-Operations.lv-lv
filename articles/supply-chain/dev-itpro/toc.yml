@@ -456,8 +456,6 @@
           items:
             - name: Modeļu un datu modeļa elementu izveides pārskats
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Nosaukumdošanas vadlīnijas paplašinājumiem
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Modeļu pielāgošanas izslēgšana un funkcionalitātes atzīšana par novecojušu
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Pielāgojumu analizētāja pārskats
@@ -864,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: 'Atbildēšana uz personas datu pieprasījumiem, izmantojot programmu Human Resources'
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "Atbildēšana uz personas datu pieprasījumiem programmā AX\_2012"
+        - name: Atbildēšana uz personas datu pieprasījumiem programmā AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: VDAR datu pieprasījumi pakalpojumam LCS
           href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1298,31 +1296,31 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Jaunināt no AX 2012
       items:
-        - name: "Jaunināt no AX\_2012 uz Finance and Operations"
+        - name: Jaunināt no AX 2012 uz Finance and Operations
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
+        - name: "AX 2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
+        - name: "AX 2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
           href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Demonstrācijas vides izvietošana analīzei"
+        - name: "AX 2012 jaunināšana\_— Demonstrācijas vides izvietošana analīzei"
           href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Datu jaunināšana izstrādes vidēs"
+        - name: "AX 2012 jaunināšana\_— Datu jaunināšana izstrādes vidēs"
           href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
+        - name: "AX 2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
           href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
+        - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
           href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Pārslēgšanas testēšana"
+        - name: "AX 2012 jaunināšana\_— Pārslēgšanas testēšana"
           href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Uzdevumi pēc jaunināšanas"
+        - name: "AX 2012 jaunināšana\_— Uzdevumi pēc jaunināšanas"
           href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Funkcionālo testu sekmīga izpildīšana"
+        - name: "AX 2012 jaunināšana\_— Funkcionālo testu sekmīga izpildīšana"
           href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jaunināšana\_— Sagatavošanās ekspluatācijas uzsākšanai"
+        - name: "AX 2012 jaunināšana\_— Sagatavošanās ekspluatācijas uzsākšanai"
           href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "AX\_2012 jauninājums\_— Ekspluatācijas uzsākšana"
+        - name: "AX 2012 jauninājums\_— Ekspluatācijas uzsākšana"
           href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "Izmaiņas, kas ietekmē jaunināšanu no AX\_2012"
+        - name: 'Izmaiņas, kas ietekmē jaunināšanu no AX 2012'
           items:
             - name: Unikāla kontu plāna norobežotāja iestatīšana
               href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

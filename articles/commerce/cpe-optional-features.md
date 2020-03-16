@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024733"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057744"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi
 
@@ -63,8 +63,8 @@ Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot
 
 ### <a name="update-the-media-base-url"></a>Multivides bāzes URL atjaunināšana
 
-1. Pierakstieties programmā Dynamics 365 Retail.
-1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Mazumtirdzniecība \> Kanālu iestatīšana \> Kanālu profili**.
+1. Pierakstieties programmā Dynamics 365 Commerce.
+1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Kanālu iestatīšana \> Kanālu profili**.
 1. Atlasiet **Rediģēt**.
 1. Sadaļā **Profila rekvizīti** aizstājiet rekvizīta **Multivides servera bāzes URL** vērtību ar iepriekš izveidoto multivides bāzes URL.
 1. Kreisas puses saraksta kanālā **Noklusējums** atlasiet citu kanālu.
@@ -77,7 +77,7 @@ Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot
 > [!NOTE]
 > Šeit ievadītajam SMTP serverim vai e-pasta pakalpojumam jābūt pieejamam no Azure abonementa, kuru izmantojat videi.
 
-1. Pierakstieties pakalpojumā Mazumtirdzniecība.
+1. Pieteikšanās Commerce.
 1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Sistēmas administrācija \> Iestatījumi \> E-pasts \> E-pasta parametri**.
 1. Cilnes **SMTP iestatījumi** laukā **Izejošā pasta serveris** ievadiet SMTP servera vai e-pasta pakalpojuma FQDN vai IP adresi.
 1. Laukā **SMTP porta numurs** ievadiet porta numuru. (Ja neizmantojat drošligzdu slāņa \[SSL\], noklusējuma porta numurs ir **25**.)
@@ -92,7 +92,7 @@ Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot
 
 Katram darījuma notikumam, kuram vēlaties sūtīt e-pasta ziņojumus, jums ir jāatjaunina e-pasta veidne ar derīgu sūtītāja e-pasta adresi.
 
-1. Pierakstieties pakalpojumā Mazumtirdzniecība.
+1. Pieteikšanās Commerce.
 1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Organizācijas administrācija \> Iestatījumi \> Organizācijas e-pasta veidnes**.
 1. Atlasiet **Rādīt sarakstu**.
 1. Katrai veidnei sarakstā izpildiet tālākās transakcijas.
@@ -115,7 +115,7 @@ Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādu
     - Pasūtījuma saņemšanas veidne
 
 1. Pielāgojiet veidnes, izmantojot teksta vai HTML redaktoru. Skatiet tālāk šajā tēmā [atbalstīto marķieru](#supported-tokens-in-the-email-template) sarakstu.
-1. Pierakstieties pakalpojumā Mazumtirdzniecība.
+1. Pieteikšanās Commerce.
 1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Organizācijas administrācija \> Iestatījumi \> Organizācijas e-pasta veidnes**.
 1. Paplašiniet sarakstu kreisajā pusē, lai redzētu visas veidnes.
 1. Attiecībā uz katru veidni, kuru vēlaties pielāgot, veiciet tālāk norādītās darbības.

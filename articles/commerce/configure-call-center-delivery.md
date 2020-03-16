@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023248"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057814"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
@@ -66,7 +66,7 @@ Maksas var konfigurēt tā, lai tās tiktu lietotas konkrētam piegādes veidam,
 
 Sadaļā **Rindas** pēc nepieciešamības varat definēt vienu vai vairākas maksas pēc valūtas. Maksām ir jābūt saistītām ar izmaksu kodu, kas attiecīgajai maksai definē finanšu grāmatošanas kārtulas. Lauks **Kategorija** tiek izmantots, lai definētu veidu, kādā maksas tiek aprēķinātas. Piemēram, ja no debitoriem ir jāiekasē fiksēta likme 9,95 USD, lai pasūtījumu nosūtītu ar konkrētu piegādes veidu, izmantojiet kategoriju **Fiksēts**. Ja uzņēmums izlemj, ka maksa no debitoriem ir jāiekasē kā procentuāls daudzums no pasūtījuma kopsummas, lai segtu piegādes maksas, izmantojiet kategoriju **Procenti**. Faktiskā no debitoriem iekasētā maksa tiek definēta laukā **Maksu vērtība**.
 
-Mazumtirdzniecības uzņēmumi bieži vien konfigurē pa pakāpēm sadalītās maksas. Tādā gadījumā summa, kas debitoriem ir jāmaksā par piegādi, ir balstīta uz pasūtījuma vērtību. Lai konfigurētu pa pakāpēm sadalītās maksas, papildus pašas maksas definēšanai laukā **Maksu vērtība** ievadiet vērtības laukā **No summas** un **Līdz summai**. Piemēram, pasūtījumiem, kuru vērtība ir mazāka par 50 USD, mazumtirgotājs par sūtīšanu iekasē 5,95 USD. Par pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 50 USD, bet ir mazāk par 100 USD, mazumtirgotājs iekasē 7,95 USD. Visbeidzot — pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 100 USD, mazumtirgotājs nodrošina bezmaksas sūtīšanu. Nākamajā attēlā ir parādīta šo maksu konfigurācija.
+Uzņēmumi bieži vien konfigurē pa pakāpēm sadalītās maksas. Tādā gadījumā summa, kas debitoriem ir jāmaksā par piegādi, ir balstīta uz pasūtījuma vērtību. Lai konfigurētu pa pakāpēm sadalītās maksas, papildus pašas maksas definēšanai laukā **Maksu vērtība** ievadiet vērtības laukā **No summas** un **Līdz summai**. Piemēram, pasūtījumiem, kuru vērtība ir mazāka par 50 USD, mazumtirgotājs par sūtīšanu iekasē 5,95 USD. Par pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 50 USD, bet ir mazāk par 100 USD, mazumtirgotājs iekasē 7,95 USD. Visbeidzot — pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 100 USD, mazumtirgotājs nodrošina bezmaksas sūtīšanu. Nākamajā attēlā ir parādīta šo maksu konfigurācija.
 
 ![Piemērs ar fiksētām un pa pakāpēm sadalītām maksām](media/fixedtieredcharges.png)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025808"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070824"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool lietošanas apmācība
 
@@ -217,15 +217,15 @@ Tālāk redzamajā attēlā ir parādīti šī scenārija biznesa procesi RSAT.
 
 ## <a name="advanced-scripting"></a>Papildu skriptēšana
 
-### <a name="command-line"></a>Komandrinda
+### <a name="cli"></a>CLI
 
-RSAT var izsaukt no **komandu uzvednes** loga.
+RSAT var izsaukt no **Komandu uzvednes** vai **PowerShell** loga.
 
 > [!NOTE]
 > Pārbaudiet, vai vides mainīgajam **TestRoot** ir iestatīts RSAT instalācijas ceļš. (Operētājsistēmā Microsoft Windows atveriet **Vadības panelis**, atlasiet **Sistēma un drošība \> Sistēma \> Sistēmas papildiestatījumi** un pēc tam atlasiet **Vides mainīgie**.)
 
-1. Atveriet **komandu uzvednes** logu kā administrators.
-2. Palaidiet rīku no instalācijas direktorija.
+1. Atveriet **Komandu uzvednes** vai **PowerShell** logu kā administrators.
+2. Dodieties uz RSAT instalācijas direktoriju.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ RSAT var izsaukt no **komandu uzvednes** loga.
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+Rāda palīdzību par visām pieejamām komandām un to parametriem.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>Neobligāti parametri
+
+**``command``**
+
+
+Kur ``[command]`` ir viena no tālāk norādītajām komandām.
+
+
+#### <a name="about"></a>par
+Rāda pašreizējo versiju.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+Notīra ekrānu.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>lejupielādēt
+Lejupielādē pielikumus norādītajam testa gadījumam izvades direktorijā. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``test_case_id``** Parāda testa gadījuma ID.  
+**``output_dir``** Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="examples"></a>Piemēri
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>rediģēt
+Ļauj atvērt parametru failu Excel programmā un to rediģēt.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``excel_file``** Ir jāietver pilns ceļš uz esošu Excel failu.
+
+##### <a name="examples"></a>Piemēri
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>ģenerēt
+Ģenerē pārbaudes izpildi un parametru failus norādītajam testa gadījumam izvades direktorijā.
+Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``test_case_id``** Parāda testa gadījuma ID.  
+**``output_dir``** Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="examples"></a>Piemēri
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+Ģenerē jaunu testa gadījumu, kas iegūts no norādītā testa gadījuma. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``parent_test_case_id``** Parāda vecāka pārbaudes gadījuma ID.  
+**``test_plan_id``** Parāda testa plāna ID.  
+**``test_suite_id``** Parāda testa komplekta ID.
+
+##### <a name="examples"></a>Piemēri
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+Ģenerē tikai pārbaudes izpildes failu norādītajam testa gadījumam izvades direktorijā. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``test_case_id``** Parāda testa gadījuma ID.  
+**``output_dir``** Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="examples"></a>Piemēri
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+Ģenerē visus testa gadījumus norādītajam komplektam izvades direktorijā.
+Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārbaudes komplektus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_suite_name** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``test_suite_name``** Parāda testa komplekta nosaukumu.  
+**``output_dir``** Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="examples"></a>Piemēri
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>palīdzība
+Identisks ar [?](####?) komanda
+
+
+#### <a name="list"></a>sarakstā
+Uzskaita visus pieejamos pārbaudes gadījumus.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+Uzskaita visus pieejamos pārbaudes plānus.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+Uzskaita testa gadījumus norādītajam testu komplektam. Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārbaudes komplektus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **suite_name** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``suite_name``** Nepieciešamā komplekta nosaukums.
+
+##### <a name="examples"></a>Piemēri
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+Uzskaita visus pieejamos pārbaudes komplektus.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>atskaņošana
+Atskaņo pārbaudes gadījumu, izmantojot Excel failu.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``excel_file``** Pilns ceļš uz Excel failu. Failam ir jāpastāv. 
+
+##### <a name="examples"></a>Piemēri
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+Vienlaicīgi atskaņo vairākus pārbaudes gadījumus.
+Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``test_case_id1``** Esošā testa gadījuma ID.  
+**``test_case_id2``** Esošā testa gadījuma ID.  
+**``test_case_idN``** Esošā testa gadījuma ID.  
+
+##### <a name="examples"></a>Piemēri
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+Vienlaicīgi atskaņo daudzus pārbaudes gadījumus, izmantojot Excel failus.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``excel_file1``** Pilns ceļš uz Excel failu. Failam ir jāpastāv.  
+**``excel_file2``** Pilns ceļš uz Excel failu. Failam ir jāpastāv.  
+**``excel_fileN``** Pilns ceļš uz Excel failu. Failam ir jāpastāv.  
+
+##### <a name="examples"></a>Piemēri
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+Atskaņo visus testa gadījumus no norādītā testu komplekta. Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārbaudes komplektus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **suite_name** parametru.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``suite_name``** Nepieciešamā komplekta nosaukums.
+
+##### <a name="examples"></a>Piemēri
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>iziet
+Aizver programmu.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>augšupielādēt
+Augšupielādē visus failus, kas pieder norādītajam pārbaudes komplektam vai pārbaudes gadījumiem.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>Obligātie parametri
+**``suite_name``** Augšupielādēs visus failus, kas pieder norādītajam pārbaudes komplektam vai pārbaudes gadījumiem.
+**``testcase_id``** Augšupielādēs visus failus, kas pieder norādītajam pārbaudes gadījumam(-iem).
+
+##### <a name="examples"></a>Piemēri
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+Augšupielādē vienīgi to ieraksta failu, kas pieder norādītajiem pārbaudes gadījumiem.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>Obligātie parametri
+**``testcase_id``** Augšupielādē ieraksta failu, kas pieder norādītajiem pārbaudes gadījumiem.
+
+##### <a name="examples"></a>Piemēri
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>lietojums
+Tiek rādīti divi veidi, kā izsaukt šo programmu: viens izmanto noklusējuma iestatījumu failu, otrs nodrošina iestatījumu failu.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell piemēri
 

@@ -3,7 +3,7 @@ title: Brīdinājumu noteikumu veidošana
 description: Šajā tēmā ir sniegta informācija par brīdinājumiem un izskaidrots, kā izveidot brīdinājuma kārtulu tā, lai varētu saņemt paziņojumu par notikumiem, piemēram, par datumu, kas iestājas, vai noteiktām izmaiņām, kuras ir veiktas.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180718"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075928"
 ---
 # <a name="create-alert-rules"></a>Brīdinājumu noteikumu veidošana
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180718"
 
 Pirms brīdinājuma kārtulas iestatīšanas padomājiet, kad un kādās situācijās vēlaties saņemt brīdinājumus. Kad zināt, par kuru notikumu vēlaties saņemt paziņojumus, atrodiet lapu, kurā ir redzami dati, kas izraisa šo notikumu. Notikums var būt datums, kas iestājas, vai noteiktas izmaiņas, kuras ir veiktas. Tāpēc ir jāatver lapa, kur ir norādīts datums vai kur ir redzams lauks, kur tiek parādītas izmaiņas vai jaunais ieraksts, kurš tiek izveidots. Kad šī informācija ir iegūta, var izveidot brīdinājuma kārtulu.
 
-Izveidojot brīdinājuma kārtulu, tiek definēti kritēriji, kuri ir jāizpilda, lai tiktu aktivizēts brīdinājums. Varat domāt par tādiem kritērijiem kā atbilstība starp notikuma iestāšanos un noteiktu apstākļu sakritību. Pēc notikuma sistēma sāk pārbaudi saskaņā ar iestatītajiem nosacījumiem.
+Izveidojot brīdinājuma kārtulu, tiek definēti kritēriji, kuri ir jāizpilda, lai tiktu aktivizēts brīdinājums. Kritēriji pēc būtības ir atbilstība starp notikuma iestāšanos un noteiktu apstākļu sakritību. Pēc notikuma sistēma sāk pārbaudi saskaņā ar iestatītajiem nosacījumiem.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Pārliecinieties, ka tiek izpildīti brīdinājuma pakešuzdevumi
+
+Pakešuzdevumi datu maiņai un termiņa brīdinājumiem ir jāpalaiž, lai tiktu apstrādāti brīdinājuma nosacījumi un nosūtīti paziņojumi. Lai palaistu pakešuzdevumus, dodieties uz **Sistēmas administrēšana** > **Periodiski uzdevumi** > **Brīdinājumi** un pievienojiet jaunu pakešuzdevumu opcijai **Izmaiņu brīdinājumi** un/vai **Termiņa brīdinājumi**. Ja vajadzīgs ilgs un bieži palaists pakešuzdevums, atlasiet **Periodiskums** un iestatiet **Nav beigu datuma** ar **Periodiskuma shēmu** **Minūtes** un **Skaitu** **1**.
 
 ## <a name="events"></a>Notikumi
 
@@ -70,16 +74,21 @@ Dialoglodziņa **Izveidot brīdinājuma kārtulu** kopsavilkuma cilnē **Brīdin
 
 ## <a name="user-id"></a>Lietotāja ID
 
-Dialoglodziņa **Izveidot brīdinājuma kārtulu** kopsavilkuma cilnē **Brīdināt ar** var norādīt, kuram lietotājam jāsaņem brīdinājuma ziņojumi. Pēc noklusējuma tiek atlasīts jūsu lietotāja ID. Šī opcija attiecas tikai uz organizācijas administratoriem.
+Dialoglodziņa **Izveidot brīdinājuma kārtulu** kopsavilkuma cilnē **Brīdināt ar** var norādīt, kuram lietotājam jāsaņem brīdinājuma ziņojumi. Pēc noklusējuma tiek atlasīts jūsu lietotāja ID. Iespēja mainīt lietotāju, kurš saņem brīdinājumu, ir atļauta tikai organizācijas administratoriem.
+
+## <a name="alerts-as-business-events"></a>Brīdinājumi kā biznesa notikumi
+
+Brīdinājumus var sūtīt ārēji, izmantojot biznesa notikumu satvaru. Veidojot brīdinājumu, iestatiet **Organizācijas mēroga** uz **Nē** un iestatiet **Sūtīt ārēji** uz **Jā**. Kad ir gatavs biznesa notikumu aktivizējošai brīdinājums, varat aktivizēt plūsmu, kas iebūvēta Power Automate, izmantojot trigeri **Kad notiek biznesa notikums** Finance and Operations savienotājā, vai arī tieši nosūtīt notikumu biznesa notikumu galapunktam, izmantojot **Biznesa notikumu katalogu**.
 
 ## <a name="create-an-alert-rule"></a>Brīdinājuma kārtulas izveide
 
+0. Pārliecinieties, ka tiek izpildīti brīdinājuma pakešuzdevumi (skatīt iepriekš).
 1. Atveriet lapu, kurā atrodas kontrolējamie dati.
 2. Darbību rūts cilnes **Opcijas** grupā **Kopīgot** atlasiet **Izveidot brīdinājuma kārtulu**.
 3. Dialoglodziņa **Izveidot brīdinājuma kārtulu** laukā **Lauks** atlasiet kontrolējamo lauku.
 4. Laukā **Notikums** atlasiet notikuma veidu.
-5. Kopsavilkuma cilnē **Brīdināt par** atlasiet opciju.
+5. Kopsavilkuma cilnē **Brīdināt par** atlasiet vēlamo opciju. Ja vēlaties nosūtīt brīdinājumu kā biznesa notikumu, pārliecinieties, ka opcija **Organizācijas mērogā** ir iestatīta uz **Nē**.
 6. Ja brīdinājuma kārtulai jākļūst neaktīvai noteiktā datumā, kopsavilkuma cilnē **Brīdināt līdz** atlasiet beigu datumu.
-7. Kopsavilkuma cilnē **Brīdināt ar** laukā **Tēma** apstipriniet e-pasta ziņojuma noklusējuma tēmas virsrakstu vai ierakstiet jaunu tēmu. Šis teksts tiek izmantots kā virsraksta tēma e-pasta ziņojumiem, ko saņemat, kad aktivizējas brīdinājums.
+7. Kopsavilkuma cilnē **Brīdināt ar** laukā **Tēma** apstipriniet e-pasta ziņojuma noklusējuma tēmas virsrakstu vai ierakstiet jaunu tēmu. Šis teksts tiek izmantots kā virsraksta tēma e-pasta ziņojumiem, ko saņemat, kad aktivizējas brīdinājums. Ja vēlaties nosūtīt brīdinājumu kā biznesa notikumu, iestatiet **Sūtīt ārēji** uz **Jā**.
 8. Laukā **Ziņojums** ievadiet izvēles ziņojumu. Šis teksts tiek izmantots kā ziņojums, ko saņemat, kad aktivizējas brīdinājums.
 9. Lai saglabātu iestatījumus un izveidotu brīdinājuma kārtulu, atlasiet **Labi**.

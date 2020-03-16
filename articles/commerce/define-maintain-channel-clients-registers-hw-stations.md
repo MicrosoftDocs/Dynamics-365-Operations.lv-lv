@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023244"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057941"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
 
@@ -43,7 +43,7 @@ Lai definētu attiecības starp veikalu, pārdošanas punktu (POS) reģistriem v
 
 Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatījumi** &gt; **POS iestatījumi** &gt; **Reģistri**.
 
-POS reģistrs ir elements, kurš tiek izmantots konkrētas POS instances raksturlielumu definēšanai. Šie raksturlielumi ietver aparatūras profilu vai iestatījumus mazumtirdzniecības perifērijas ierīcēm, kas tiks izmantotas reģistrā, veikalu, uz kuru šis reģistrs ir kartēts, un vizuālo pieredzi lietotājam, kas piesakās šajā reģistrā.
+POS reģistrs ir elements, kurš tiek izmantots konkrētas POS instances raksturlielumu definēšanai. Šie raksturlielumi ietver aparatūras profilu jeb ar kases sistēmu izmantoto perifērijas ierīču iestatījumus, veikalu, ar kuru ir kartēta šī kases sistēma, un vizuālo noformējumu, ko redz lietotājs, kurš pierakstās šajā kases sistēmā.
 
 ### <a name="devices"></a>Ierīces
 
@@ -67,7 +67,7 @@ Aparatūras profils identificē aparatūru, kas ir savienota ar POS reģistru va
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**.
 
 Aparatūras stacija ir biznesa loģikas instance, kas vada POS perifērijas ierīces. Aparatūras stacija tiek automātiski instalēta kopā ar MPOS. Aparatūras staciju var instalēt arī ka savrupu komponentu, un pēc tam tai var piekļūt ar MPOS vai Cloud POS, izmantojot tīmekļa pakalpojumu. Aparatūras stacijai ir jābūt definētai kanāla līmenī.
 
@@ -87,7 +87,7 @@ Lai MPOS savienotu ar POS perifērijas ierīcēm tradicionāla, fiksēta POS sce
 
 Kad aparatūras profils ir piešķirts, sinhronizējiet izmaiņas ar kanālu datu bāzi, izmantojot sadales grafiku **Reģistri**. Sadales grafikus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības un komercijas IT** &gt; **Sadales grafiks**. 
 
-Pēc tam iestatiet kanālā “lokālo” aparatūras staciju. Noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali** un atlasiet kādu veikalu. 
+Pēc tam iestatiet kanālā “lokālo” aparatūras staciju. Noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikali** &gt; **Visi mazumtirdzniecības veikali** un atlasiet kādu veikalu. 
 
 Pēc tam kopsavilkuma cilnē **Aparatūras stacijas** noklikšķiniet uz **Pievienot**, lai pievienotu kādu aparatūras staciju. Ievadiet aprakstu, kā resursdatora nosaukumu ievadiet **localhost** un pēc tam sinhronizējiet izmaiņas ar kanālu, izmantojot sadales grafiku **Kanāla konfigurācija**. Sadales grafikus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības un komercijas IT** &gt; **Sadales grafiks**. 
 
@@ -104,7 +104,7 @@ Visbeidzot pārdošanas punktā MPOS izmantojiet operāciju **Atlasīt aparatūr
 
 Šādā scenārijā savrupu aparatūras staciju kopīgi lieto MPOS un Cloud POS klienti. Šim scenārijam ir nepieciešams, lai jūs izveidotu aparatūras stacijas profilu, lai norādītu lejupielādes pakotni, portu un aparatūras profilu, kurus šī aparatūras stacija izmanto. Aparatūras stacijas profilu varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīša** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras stacijas profili**. 
 
-Kad esat izveidojis aparatūras stacijas profilu, pārejiet uz konkrēto mazumtirdzniecības kanālu (**Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikali** &gt; **Visi veikali**) un pievienojiet jaunu aparatūras staciju. Šo jauno aparatūras staciju kartējiet uz iepriekš izveidoto aparatūras stacijas profilu. 
+Kad esat izveidojis aparatūras stacijas profilu, pārejiet uz konkrēto kanālu (**Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikali** &gt; **Visi veikali**) un pievienojiet jaunu aparatūras staciju. Šo jauno aparatūras staciju kartējiet uz iepriekš izveidoto aparatūras stacijas profilu. 
 
 Pēc tam sniedziet aprakstu, kas kasierim palīdzēs identificēt šo aparatūras staciju. Laukā **Resursdatora nosaukums** ievadiet resursdatora vietrādi URL šādā formātā: `https://<MachineName:Port>/HardwareStation`. (Ierakstu **&lt;MachineName:Port&gt;** aizstājiet ar aparatūras stacijas faktisko iekārtas nosaukumu un portu, kas ir norādīts aparatūras stacijas profilā.) Savrupai aparatūras stacijai ir jānorāda arī elektronisko līdzekļu pārskaitījumu (electronic funds transfer — EFT) termināļa ID. Šī vērtība identificē EFT termināli, kas ir savienots ar aparatūras staciju, kad maksājumu savienotājs sazinās ar maksājuma nodrošinātāju. 
 

@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af0273ca1553d5fb371a20b8c96fd9a101f34815
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023330"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057445"
 ---
 # <a name="product-recommendations-on-pos"></a>Preču ieteikumi punktā POS
 
 [!include [banner](includes/banner.md)]
 
-To pašos pamatos, preču ieteikumi ir transformējoša biznesa programma, kas aptver visas mazumtirdzniecības vietas, lai izveidotu bagātīgu, saistošu un pielāgotu preču atklāšanas pieredzi. Lai šo funkciju ieviestu POS, izpildiet norādījumus [kā pievienot ieteikumus jūsu POS ierīcēm.](add-recommendations-control-pos-screen.md) 
+To pašos pamatos, preču ieteikumi ir transformējoša biznesa programma, kas aptver visas komercijas vietas, lai izveidotu bagātīgu, saistošu un pielāgotu preču atklāšanas pieredzi. Lai šo funkciju ieviestu POS, izpildiet norādījumus [kā pievienot ieteikumus jūsu POS ierīcēm.](add-recommendations-control-pos-screen.md) 
 
 Lai iegūtu vairāk informācijas par preču ieteikumu līdzekļiem, lasiet [preču ieteikumu pārskats.](../commerce/product-recommendations.md) 
 

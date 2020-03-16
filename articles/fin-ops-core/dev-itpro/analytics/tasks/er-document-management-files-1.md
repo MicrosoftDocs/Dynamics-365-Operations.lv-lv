@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026138"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042831"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (1. daļa. Datu modeļa sagatavošana)
 
@@ -36,10 +36,14 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja i
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Iegūt piekļuvi korporācijas Microsoft nodrošināto konfigurāciju sarakstam
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Pārliecinieties, vai "Litware, Inc." ir pieejams un atzīmēts kā aktīvs.  
+
+    Pārliecinieties, vai "Litware, Inc." ir pieejams un atzīmēts kā aktīvs.  
+
 2. Atlasiet Litware, Inc. nodrošinātāju.
 3. Noklikšķiniet uz Repozitoriji.
-    * Ja tipa Operācijas resursi repozitorijs jau pastāv, izlaidiet pašreizējā apakšuzdevuma pārējos soļus.  
+
+    Ja tipa Operācijas resursi repozitorijs jau pastāv, izlaidiet pašreizējā apakšuzdevuma pārējos soļus.  
+
 4. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
 5. Laukā Konfigurācijas repozitorija tips ievadiet Operācijas resursi.
 6. Noklikšķiniet uz Izveidot repozitoriju.
@@ -51,9 +55,13 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja i
 3. Noklikšķiniet uz Rādīt filtrus.
 4. Noklikšķiniet uz Atvērt.
 5. Koka struktūrā atlasiet 'Customer invoice model'.
-    * Atlasiet modeļa konfigurāciju 'Customer invoice model', lai to importētu.  
+
+    Atlasiet modeļa konfigurāciju 'Customer invoice model', lai to importētu.  
+
 6. Noklikšķiniet uz Importēt.
-    * Noklikšķiniet uz Atlasītās konfigurācijas versijas 1 importēšana.  
+
+    Noklikšķiniet uz Atlasītās konfigurācijas versijas 1 importēšana.  
+
 7. Noklikšķiniet uz Jā.
 8. Aizvērt lapu.
 9. Aizvērt lapu.
@@ -65,6 +73,5 @@ Tiks izveidota sava debitoru rēķina modeļa konfigurācija, iegūstot to no ko
 1. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
 2. Laukā Jauns ievadiet 'Derive from Name: Customer invoice model, Microsoft.
 3. Laukā Nosaukums ierakstiet 'Customer invoice model (custom)'.
-    * Debitora rēķina modelis (pielāgots)  
 4. Klikšķiniet Izveidot konfigurāciju.
 

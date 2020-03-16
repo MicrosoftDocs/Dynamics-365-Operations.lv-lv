@@ -1,12 +1,12 @@
 ---
-title: Algas/atlīdzības organizācijas un plāna izstrāde
-description: Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas.
+title: Atlīdzības organizācijas izstrāde
+description: Šajā rakstā aprakstīts, kā izveidot fiksētas atlīdzības plānu un pieteikt nodarbinātos plānā, izmantojot piemērotības kārtulas.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
@@ -16,62 +16,100 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5711dc8a7fbd44ea9c27e1d57b936765808d199e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: de715b7fda2f1548f2f443b9e0f6d09f5b881d61
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009858"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "3034267"
 ---
-# <a name="develop-salarycompensation-structure-and-plan"></a>Algas/atlīdzības organizācijas un plāna izstrāde
+# <a name="develop-a-compensation-structure"></a>Atlīdzības organizācijas izstrāde
 
+Šajā rakstā aprakstīts, kā izveidot fiksētas atlīdzības plānu un pieteikt nodarbinātos plānā, izmantojot piemērotības kārtulas. Šajā rakstā tiek izmantoti USMF demonstrācijas dati, un tie attiecas uz kompensāciju un atvieglojumu pārvaldniekiem.
 
+## <a name="create-a-fixed-compensation-plan"></a>Fiksētās atlīdzības plāna izveide
 
-Šajā uzdevuma ceļvedī ir aprakstīts fiksētas atlīdzības plāna izveidošanas process un procedūra, kā darbiniekiem ļaut reģistrēties šādā plānā, izmantojot piemērotības kārtulas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF, un uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
+1. Atlasiet **Kompensāciju pārvaldība**.
 
+2. Atlasiet **Fiksētu atlīdzību plāni**.
 
-## <a name="create-fixed-compensation-plan"></a>Izveidot fiksētas atlīdzības plānu
-1. Noklikšķiniet uz Atlīdzību pārvaldība.
-2. Noklikšķiniet uz Fiksētās atlīdzības plāni.
-3. Noklikšķiniet uz Jauns.
-4. Laukā Plāns ierakstiet kādu vērtību.
-5. Apraksta laukā ierakstiet vērtību.
-6. Laukā Spēkā stāšanās datums ievadiet kādu datumu.
-7. Laukā Tips atlasiet, vai šis Fiksētas atlīdzības plāns ir Joslas, Līmeņa vai Pakāpes plāns.
-8. Izvēles rūtiņa Ieteikšana atļauta darbojas kā noklusējuma vērtība visām darbībām, kas šim plānam tiek pievienotas apstrādes notikumā.  Ja ieteikšana ir atļauta, atlīdzības apstrādāšanas laikā varat ignorēt aprēķināto vadlīniju summu.
-9. Vienums Tolerance ārpus diapazona jums ļauj norādīt, kā vēlaties apstrādāt atlīdzības summas, kuras attiecīgajam līmenim neietilpst norādītajā atlīdzību struktūras diapazonā.  Ja vienuma Tolerance ārpus diapazona vērtība ir Nav, tiek atļauts lietot jebkādu atlīdzības summu.  Ja vērtība ir Nestingra tolerance, tad lietotājs tiek brīdināts, ja atlīdzības summa ir mazāka par minimālo atsauces punkta summu attiecīgajam līmenim vai lielāka par maksimālo summu šim līmenim. Lietotājs var ignorēt šo brīdinājumu un turpināt.  Ja vērtība ir Stingra tolerance, tad tiek ģenerēta kļūda, kad darbinieka atlīdzība tiek iestatīta ārpus minimālā un maksimālā atsauces punkta diapazona attiecīgajam līmenim, un darbinieka atlīdzība tiek automātiski pielāgota, lai ietilptu diapazonā.
-10. Lauks Nolīgšanas kārtula tiek izmantots, kad tiek palaists atlīdzības apstrādes notikums, lai aprēķinātu darbinieka atlīdzību.  Ja vienuma Nolīgšanas kārtula vērtība ir Procenti, tad tiek aprēķināts palielinājums, kas ir proporcionāli sadalīts laika ilgumam, kādu darbinieks ir bijis nodarbināts attiecīgajā ciklā.
-11. Laukā Valūta ierakstiet kādu vērtību.
-12. Laukā Apmaksas likmes konvertēšana ievadiet vai atlasiet kādu vērtību.
-13. Izvērsiet sadaļu Diapazona lietojuma matrica.
-    * Pēc izvēles pievienojiet diapazona izmantošanas ierakstus, lai darbinieki līdz savam viduspunktam nokļūtu ātrāk un tiktu kavēta darbinieku diapazona maksimuma sasniegšana.  
-14. Šajā brīdī jums ir jāsaglabā šis Fiksētas atlīdzības plāns, lai iespējotu pogu Iestatīt atlīdzību un turpinātu definēt atlīdzību struktūru savam plānam.  Noklikšķiniet uz Saglabāt.
-15. Noklikšķiniet uz Iestatīt atlīdzību.
-    * Atlīdzību struktūru iespējams izveidot trīs veidos. 1: izveidot pilnīgi jaunu struktūru, atlasot atsauces punktu kopu un pievienojot līmeņus, lai izveidotu pats savu struktūru. 2: kādu atlīdzību struktūru no jau esoša plāna kopēt kā sākuma punktu un to pārveidot jaunajam plānam. 3: atlasīt jau esošu atlīdzību režģi. Ja atlīdzību režģis jau tiek izmantots kādam citam plānam, visas režģim veiktās izmaiņas tiks atspoguļotas arī otram plānam.  
-16. Atzīmējiet opciju Izveidot jaunu no jau esošas atlīdzības matricas.
-17. Laukā Kopēt no režģa ievadiet vai atlasiet kādu vērtību.
-    * Ja vēlaties, varat mainīt nosaukumu jaunajam atlīdzību režģim, kas tiks izveidots kā atlasītā režģa kopija.  
-18. Noklikšķiniet uz OK.
-19. Noklikšķiniet Masveida izmaiņas.
-    * Masveida izmaiņas jums ļauj uzturēt atlīdzību matricas summas, lietojot procentuālus vai fiksētus summas pieaugumus vienam vai vairākiem līmeņiem un/vai atsauces punktiem.  
-20. Laukā Korekcijas summa ievadiet kādu skaitli.
+3. Atlasiet **Jauns**.
+
+4. Laukā **Plāns** ievadiet vērtību.
+
+5. Laukā **Apraksts** ievadiet kādu vērtību.
+
+6. Laukā **Spēkā stāšanās datums** ievadiet datumu.
+
+7. Laukā **Tips** atlasiet, vai šis fiksētas atlīdzības plāns ir **Joslas**, **Līmeņa** vai **Pakāpes** plāns.
+
+8. Izvēles rūtiņa **Ieteikšana atļauta** darbojas kā noklusējuma vērtība visām darbībām, kas šim plānam tiek pievienotas apstrādes notikumā. Ja ieteikšana ir atļauta, atlīdzības apstrādāšanas laikā varat ignorēt aprēķināto vadlīniju summu.
+
+9. Lauks **Tolerance ārpus diapazona** jums ļauj norādīt, kā vēlaties apstrādāt atlīdzības summas, kuras attiecīgajam līmenim neietilpst norādītajā atlīdzību struktūras diapazonā. Iestatot lauku **Tolerance ārpus diapazona** uz **Nav**, varat izmantot jebkuru atlīdzības summu. **Nestingrā tolerance** brīdina lietotājus, ja atlīdzības summa ir mazāka par minimālo atsauces punkta summu attiecīgajam līmenim vai lielāka par maksimālo atsauces punktu summu šim līmenim. Lietotāji var ignorēt šo brīdinājumu un turpināt. **Stingrā tolerance** ģenerē kļūdu, kad darbinieka atlīdzība tiek iestatīta ārpus minimālā un maksimālā atsauces punkta diapazona attiecīgajam līmenim, un darbinieka atlīdzība tiek automātiski pielāgota, lai ietilptu diapazonā.
+
+10. Lauks **Nolīgšanas kārtula** aprēķina darbinieka atlīdzību procesa notikuma laikā. **Nolīgšanas kārtula** **Procenti** aprēķina palielinājumu, kas ir proporcionāli sadalīts laika ilgumam, kādu darbinieks ir bijis nodarbināts attiecīgajā ciklā.
+
+11. Laukā **Valūta** ierakstiet vērtību.
+
+12. Laukā **Apmaksas likmes konvertēšana** ievadiet vai atlasiet kādu vērtību.
+
+13. Izvērsiet sadaļu **Diapazona lietojuma matrica**. Pēc izvēles pievienojiet diapazona izmantošanas ierakstus, lai darbinieki līdz savam viduspunktam nokļūtu ātrāk un tiktu kavēta darbinieku diapazona maksimuma sasniegšana.
+
+14. Atlasiet **Saglabāt**. Tas aktivizē pogu **Atlīdzības iestatīšana** un turpina definēt jūsu atlīdzības organizāciju plānam.
+
+15. Atlasiet **Atlīdzības iestatīšana**. Varat izveidot atlīdzības organizāciju, izmantojot vienu no šīm trim metodēm:
+
+    - Izveidojiet pilnīgi jaunu struktūru, atlasot atsauces punktu kopu un pievienojot līmeņus, lai izveidotu pats savu struktūru.
+    - Kādu atlīdzību struktūru no jau esoša plāna kopējiet kā sākuma punktu un to pārveidot jaunajam plānam.
+    - Atlasiet jau esošu atlīdzību režģi. Ja atlīdzību režģi jau izmanto cits plāns, šis plāns arī atspoguļo jebkādas izmaiņas, kas izdarītas režģim.
+
+16. Atlasiet **Izveidot jaunu no jau esošas atlīdzības matricas**.
+
+17. Laukā **Kopēt no režģa** ievadiet vai atlasiet kādu vērtību. Ja vēlaties, varat mainīt nosaukumu jaunajam atlīdzību režģim, ko izveidojat, kopējot atlasīto režģi.
+
+18. Atlasiet **Labi**.
+
+19. Atlasiet **Masveida izmaiņas**. **Masveida izmaiņas** jums ļauj uzturēt atlīdzību matricas summas, lietojot procentuālus vai fiksētus summas pieaugumus vienam vai vairākiem līmeņiem vai atsauces punktiem.
+
+20. Laukā **Korekcijas summa** ievadiet kādu skaitli.
+
 21. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
-22. Noklikšķiniet uz Lietot režģim.
-23. Aizvērt lapu.
-    * Kad atlīdzību struktūra ir izveidota vai atlasīta, varat atlasīt, kuri no atsauces punktiem fiksētas atlīdzības plānā ir jālieto kā Atskaites punkts.  Atskaites punkts tiek izmantots, lai aprēķinātu darbinieka algas koeficientu.  
-24. Laukā Atskaites punkts ievadiet vai atlasiet kādu vērtību.
+
+22. Noklikšķiniet uz **Piemērot režģim**.
+
+23. Aizvērt lapu. Kad izveidojat atlīdzību organizāciju, varat atlasīt, kuru no atsauces punktiem izmantot kā fiksētās atlīdzības plāna atskaites punktu. Atskaites punkts tiek izmantots, lai aprēķinātu darbinieka algas koeficientu.
+
+24. Laukā **Atskaites punkts** ievadiet vai atlasiet kādu vērtību.
+
 25. Aizvērt lapu.
 
-## <a name="create-an-eligibility-rule-for-the-new-fixed-compensation-plan"></a>Izveidot piemērotības kārtulu jaunajam fiksētas atlīdzības plānam
-    * Jauno fiksētas atlīdzības plānu kādam darbiniekam var piešķirt tikai pēc tam, kad šim plānam ir definētas piemērotības kārtulas.  
-1. Noklikšķiniet uz Piemērotības kārtulas.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Piemērotība ierakstiet kādu vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Spēkā stāšanās datums ievadiet kādu datumu.
-    * Piemērotības kārtulas tiek lietotas gan fiksētās, gan mainīgās atlīdzības plāniem.  Laukā Tips atlasiet, kura tipa plānam ir paredzēta šī piemērotības kārtulu kopa.  
-6. Laukā Plāns ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet kritērijus, kādiem darbiniekam ir jāatbilst, lai darbinieks būtu piemērots šim atlīdzību plānam. Kritēriji var ietvert faktorus Nodaļa, Arodbiedrība, Atrašanās vieta (Atlīdzības reģions), Darbs, Funkcija, Darba tips vai Atlīdzības līmenis. Lai darbinieks būtu piemērots atlīdzību plānam, šim darbiniekam ir jāatbilst visiem norādītajiem kritērijiem. Ja nav norādīts neviens kritērijs, šim atlīdzību plānam ir piemēroti visi darbinieki. Ja darbinieks neatbilst piemērotības kārtulās norādītajiem kritērijiem vai kādam atlīdzību plānam nav norādīta piemērotības kārtula, tad šis atlīdzību plāns netiks parādīts uzmeklēšanā, kad darbiniekam tiek veidots Fiksētas atlīdzības ieraksts.  
+## <a name="create-an-eligibility-rule-for-the-fixed-compensation-plan"></a>Izveidot piemērotības kārtulu jaunajam fiksētas atlīdzības plānam
+
+Varat piešķirt fiksētas atlīdzības plānu nodarbinātajam, līdz plānam ir definētas piemērotības kārtulas.  
+
+1. Atlasiet **Piemērotības kārtulas**.
+
+2. Atlasiet **Jauns**.
+
+3. Laukā **Piemērotība** ievadiet vērtību.
+
+4. Laukā **Apraksts** ievadiet kādu vērtību.
+
+5. Laukā **Spēkā stāšanās datums** ievadiet datumu. Gan fiksēto, gan mainīgo atlīdzību plāni izmanto piemērotības kārtulas. Laukā **Veids** atlasiet plāna veidu.
+
+6. Laukā **Plāns** ievadiet vai atlasiet kādu vērtību. Atlasiet kritērijus, kādiem darbiniekam ir jāatbilst, lai darbinieks būtu piemērots šim atlīdzību plānam. Kritēriji var ietvert:
+
+    - **Nodaļa**
+    - **Arodbiedrība**
+    - **Atrašanās vieta** (**Atlīdzības reģions**)
+    - **Darbs**
+    - **Funkcija**
+    - **Darba tips**
+    - **Atlīdzības līmenis**
+    
+    Lai darbinieks būtu piemērots atlīdzību plānam, šim darbiniekam ir jāatbilst visiem norādītajiem kritērijiem. Ja nenorādāt kritērijus, visi nodarbinātie ir piemēroti atlīdzību plānam. Ja darbinieks neatbilst piemērotības kārtulās norādītajiem kritērijiem vai kādam atlīdzību plānam nav norādīta piemērotības kārtula, tad šis atlīdzību plāns netiks parādīts uzmeklēšanā, kad darbiniekam tiek veidots fiksētas atlīdzības ieraksts.
+
 7. Aizvērt lapu.
+
 8. Aizvērt lapu.
 

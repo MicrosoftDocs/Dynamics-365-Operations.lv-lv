@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017732"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042946"
 ---
 # <a name="embed-microsoft-power-apps"></a>Iegult Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Tālāk ir sniegti norādījumi par to, kā pakalpojumu no Power Apps iegult tī
 
     - Laukā **Nosaukums** ir norādīts teksts, kas ir redzams uz pogas vai cilnes, kas ietvers iegulto pakalpojumu. Iespējams, ka pakalpojuma nosaukums šajā laukā ir jāatkārto bieži.
     - **Programmas ID** ir pakalpojuma, ko vēlaties iegult, GUID. Lai izgūtu šo vērtību, atrodiet pakalpojumu lapā [web.powerapps.com](https://web.powerapps.com) un pēc tam sadaļā **Detalizēta informācija** atrodiet lauku **App ID**.
-    - Izmantojot opciju **Pakalpojuma ievades konteksts**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu kā ievadi. Skatiet tālāk šajā tēmā sadaļu ar nosaukumu [Tāda pakalpojuma izveide, kas piesaista datus no programmām Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps), lai iegūtu sīkāku informāciju par to, kā pakalpojums var piekļūt datiem, kas nosūtīti no programmām Finance and Operations.
+    - Izmantojot opciju **Pakalpojuma ievades konteksts**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu kā ievadi. Skatiet tālāk šajā tēmā sadaļu ar nosaukumu [Tādas programmas izveide, kas piesaista datus, kas nosūtīti no programmām Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps), lai iegūtu sīkāku informāciju par to, kā pakalpojums var piekļūt datiem, kas nosūtīti no programmām Finance and Operations.
     - Atlasiet opciju **Programmas izmērs**, kas atbilst iegulšanai paredzētajam pakalpojuma veidam. Atlasiet opciju **Plāns** mobilajām ierīcēm izveidotajiem pakalpojumiem un **Plašs** planšetdatoriem izveidotajiem pakalpojumiem. Tādējādi iegultajam pakalpojumam tiek nodrošināts pietiekami daudz vietas.
     - Kopsavilkuma cilnē **Juridiskas personas** var izvēlēties, kurām juridiskajām personām ir pieejams pakalpojums. Noklusējuma iestatījums ir nodrošina pakalpojuma pieejamību visām juridiskajām personām. Šī opcija ir pieejama tikai tad, ja ir atspējots līdzeklis [Saglabātie skati](saved-views.md). 
 
@@ -76,7 +76,7 @@ Izveidojot no Power Apps programmu, kas tiks iegulta programmā Finance and Oper
 
 FPiemēram, pakalpojuma funkcijā OnStart var iestatīt programmu Finance and Operations ievades datus kā mainīgo vērtību, kā norādīts tālāk.
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Lai rediģētu iegultā pakalpojuma konfigurāciju, izpildiet tālāk aprakstīt
 
 Kad pakalpojuma iegulšana lapā ir pabeigta, to, ja nepieciešams, var noņemt divējādi.
 
-- Atveriet rūti **Rediģēt pakalpojumu**, izmantojot norādījumus iepriekš šīs tēmas sadaļā [Iegultā pakalpojuma rediģēšana](#editing-an-embedded-power-app). Apstipriniet, ka rūtī ir redzama informācija par iegulto pakalpojumu, kuru vēlaties noņemt, un pēc tam noklikšķiniet uz pogas **Dzēst**.
+- Atveriet rūti **Rediģēt pakalpojumu**, izmantojot norādījumus iepriekš šīs tēmas sadaļā [Iegultā pakalpojuma rediģēšana](#editing-an-embedded-app). Apstipriniet, ka rūtī ir redzama informācija par iegulto pakalpojumu, kuru vēlaties noņemt, un pēc tam noklikšķiniet uz pogas **Dzēst**.
 - Tā kā iegultais pakalpojums ir saglabāts kā personalizācijas dati, notīrot lapas personalizācijas datus, tiek noņemti visi šajā lapā iegultie pakalpojumi. Ņemiet vērā, ka lapas personalizācijas datu notīrīšana ir neatgriezenisks process, un to nevar atsaukt. Lai noņemtu lapā konkrētos personalizācijas datus, atlasiet **Opcijas**, tad **Personalizēt šo lapu**, un pēc tam pogu **Notīrīt**. Veicot pārlūkprogrammas atsvaidzināšanu, visi šīs lapas iepriekšējie personalizācijas dati ir noņemti. Lai iegūtu sīkāku informāciju par to, kā optimizēt lapas, izmantojot personalizēšanu, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Pielikums
@@ -115,7 +115,7 @@ Pēc noklusējuma lietotāji var iegult pakalpojumus jebkurā lapā, izmantojot 
 
 Nākamajā piemērā ir parādīta jauna klase ar divām metodēm, kuras nepieciešamas, lai varētu konfigurēt pakalpojumu iegulšanas vietu.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

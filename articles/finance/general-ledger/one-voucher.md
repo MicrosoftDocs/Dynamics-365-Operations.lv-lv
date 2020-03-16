@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810703"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058021"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -156,7 +156,7 @@ Organizācijas bieži vēlas virsgrāmatā grāmatot kopsavilkuma formā, lai sa
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Vairāku neiegrāmatotu maksājumu segšana, izmantojot vienu rēķinu
 
-Šis scenārijs parasti attiecas uz mazumtirdzniecības organizācijām, kur debitori var izmantot vairākas maksājuma metodes, lai norēķinātos par pirkumiem. Šādā gadījumā organizācijai ir nepieciešams reģistrēt vairākus negrāmatotus maksājumus un segt tos atbilstoši debitora rēķinam.
+Šis scenārijs parasti attiecas uz organizācijām, kur debitori var izmantot vairākas maksājuma metodes, lai norēķinātos par pirkumiem. Šādā gadījumā organizācijai ir nepieciešams reģistrēt vairākus negrāmatotus maksājumus un segt tos atbilstoši debitora rēķinam.
 
 Jauns līdzeklis, kas ir pievienots Microsoft Dynamics 365 for Operations versijā 1611 (2016. gada novembris), sniedz iespēju nosegt vairākus negrāmatotus maksājumus, izmantojot vienu rēķinu. Vairāki debitoru maksājumi vairs nav jāievada vienā dokumentā.
 

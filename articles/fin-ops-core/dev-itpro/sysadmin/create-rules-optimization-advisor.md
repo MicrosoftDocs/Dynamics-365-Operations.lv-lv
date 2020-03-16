@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180994"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3082000"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Kārtulu izveide optimizācijas padomniekam
 
@@ -36,7 +36,7 @@ ms.locfileid: "2180994"
 
 Lai izveidotu jaunu darbvietas **Optimizācijas padomnieks** kārtulu, pievienojiet jaunu klasi, kas paplašina abstrakto klasi **SelfHealingRule**, ievieš interfeisu **IDiagnosticsRule** un kurai ir piešķirts atribūts **DiagnosticRule**. Šai klasei ir arī jābūt metodei, kam piešķirts atribūts **DiagnosticsRuleSubscription**. Parasti tiek izmantota metode **opportunityTitle**, ko aplūkosim vēlāk. Šo jauno klasi var pievienot pielāgotam modelim, kam ir atkarība no modeļa **SelfHealingRules**. Tālāk sniegtajā piemērā ieviesto kārtulu dēvē par **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 Abstraktajai klasei **SelfHealingRule** ir abstraktas metodes, kas ir jāievieš pārmantošanas klasēs. Pamats ir metode **Novērtēt**, kas atgriež kārtulas identificēto iespēju sarakstu. Iespējas var attiekties uz katru juridisko personu vai arī visu sistēmu.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Iespējas var tikt izveidotas arī kā starpuzņēmumu iespējas. Šajā gadīju
 
 Tālāk norādītajā kodā ir redzama metode **findRFQCasesWithEmptyTitle**, kas atgriež to PP gadījumu ID, kam ir tukšs nosaukums.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ Metodes **opportunityTitle** atgrieztais nosaukums tiek parādīts darbvietas **
 
 Tālāk sniegts piemērs ar ieviešanu. Vienkāršībai izmantotas neapstrādātas virknes, taču pareizai ieviešanai ir nepieciešamas etiķetes. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 Metodes **opportunityDetails** atgrieztais apraksts ir redzams sānu rūtī, kurā parādīta papildinformācija par iespēju. Tam nepieciešams arguments **SelfHealingOpportunity**, kas ir lauks **Dati**, ko var izmantot papildinformācijas sniegšanai par iespēju. Piemērā metode atgriež to PP gadījumu ID, kam ir tukšs nosaukums. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ Divas atlikušās abstraktās metodes, kas jāievieš, ir **provideHealingAction
 
 **provideHealingAction** atgriež vērtību True, ja ir nodrošināta atjaunošanas darbība, pretējā gadījumā tiek atgriezta vērtība False. Ja tiek atgriezta vērtība True, ir jāievieš metode **performAction**, jo pretējā gadījumā tiks parādīta kļūda. Metode **performAction** izmanto argumentu **SelfHealingOpportunity**, kurā datus var izmantot darbībai. Piemērā darbība manuālai korekcijai atver **PurchRFQCaseTableListPage**. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ Metode **securityMenuItem** atgriež darbību izvēlnes vienuma nosaukumu tā, l
 > [!NOTE]
 > Drošības apsvērumu dēļ, lai izvēlnes vienums dabotos pareizi, tam ir jābūt darbības izvēlnes vienumam. Citi izvēlnes vienumu tipi, piemēram, **Displeja izvēlnes vienumi**, nedarbosies pareizi.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Kad kārtula ir kompilēta, izpildiet tālāk norādīto darbu, lai tā tiktu parādīta lietotāja interfeisā (UI).
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ Kārtula tiks parādīta formā **Diagnostikas apstiprināšanas kārtula**, kas
 
 Tālāk esošais piemērs ir koda fragments ar kārtulas karkasu, tostarp visām nepieciešamajām metodēm un atribūtiem. Tas palīdz jums sākt rakstīt jaunas kārtulas. Piemēra ietvaros izmantotās etiķetes un darbību izvēlnes vienumi ir izmantoti tikai demonstrācijas nolūkos.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

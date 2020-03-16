@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023334"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057491"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
@@ -43,23 +43,23 @@ ms.locfileid: "3023334"
 
 ## <a name="price-groups"></a>Cenu grupas
 
-Cenu grupas veido Commerce programmatūras cenu un atlaižu pārvaldības kodolu. Cenu grupas tiek izmantotas, lai cenas un atlaides piešķirtu mazumtirdzniecības entītijām (tas ir, kanāliem, katalogiem, piederībām un lojalitātes programmām). Tā kā cenu grupas tiek lietotas visām cenu noteikšanām un atlaidēm, ir ļoti svarīgi vēl pirms sākšanas izplānot veidu, kādā jūs tās izmantosiet.
+Cenu grupas veido Commerce programmatūras cenu un atlaižu pārvaldības kodolu. Cenu grupas tiek izmantotas, lai cenas un atlaides piešķirtu komercijas entītijām (tas ir, kanāliem, katalogiem, piederībām un lojalitātes programmām). Tā kā cenu grupas tiek lietotas visām cenu noteikšanām un atlaidēm, ir ļoti svarīgi vēl pirms sākšanas izplānot veidu, kādā jūs tās izmantosiet.
 
-Pati par sevi cenu grupa ir tikai nosaukums, apraksts un, ja vēlaties, cenu noteikšanas prioritāte. Galvenais, kas jāatceras saistībā ar cenu grupām — tās tiek izmantotas, lai pārvaldītu attiecības “daudzi pret daudziem”, kādas atlaidēm un cenām ir ar mazumtirdzniecības entītijām.
+Pati par sevi cenu grupa ir tikai nosaukums, apraksts un, ja vēlaties, cenu noteikšanas prioritāte. Galvenais, kas jāatceras saistībā ar cenu grupām — tās tiek izmantotas, lai pārvaldītu attiecības “daudzi pret daudziem”, kādas atlaidēm un cenām ir ar komercijas entītijām.
 
-Nākamajā attēlā ir parādīts, kā cenu grupas tiek izmantotas. Ievērojiet, ka šajā attēlā “Cenu grupa” burtiski atrodas cenu noteikšanas un atlaižu pārvaldības centrā. Mazumtirdzniecības entītijas, kuras varat izmantot, lai pārvaldītu atšķirīgās cenas un atlaides, atrodas pa kreisi, un faktisko cenu un atlaižu ieraksti atrodas pa labi.
+Nākamajā attēlā ir parādīts, kā cenu grupas tiek izmantotas. Ievērojiet, ka šajā attēlā “Cenu grupa” burtiski atrodas cenu noteikšanas un atlaižu pārvaldības centrā. Komercijas entītijas, kuras varat izmantot, lai pārvaldītu atšķirīgās cenas un atlaides, atrodas pa kreisi, un faktisko cenu un atlaižu ieraksti atrodas pa labi.
 
 ![Cenu grupas](./media/PriceGroups.png "Cenu grupas")
 
-Kad veidojat cenu grupas, vienu un to pašu cenu grupu nevajadzētu izmantot vairākiem mazumtirdzniecības entītiju tipiem. Pretējā gadījumā varētu būt sarežģīti noteikt, kāpēc kādai transakcijai tiek piemērota noteikta cena vai atlaide.
+Kad veidojat cenu grupas, vienu un to pašu cenu grupu nevajadzētu izmantot vairākiem komercijas entītiju tipiem. Pretējā gadījumā varētu būt sarežģīti noteikt, kāpēc kādai transakcijai tiek piemērota noteikta cena vai atlaide.
 
 Kā attēlā ir norādīts ar sarkano pārtraukto līniju, programma Commerce neatbalsta programmā Microsoft Dynamics 365 ietverto tieši debitoram iestatītas cenu grupas pamata funkcionalitāti. Taču šajā gadījumā jūs saņemat tikai pārdošanas cenas tirdzniecības līgumus. Ja vēlaties lietot no debitora atkarīgas cenas, ieteicams neiestatīt cenu grupas tieši debitoram. Tā vietā vajadzētu izmantot piederības.
 
-Nākamajās sadaļās ir sniegta plašāka informācija par mazumtirdzniecības entītijām, kuras varat izmantot, lai iestatītu atšķirīgas cenas, kad tiek izmantotas cenu grupas. Cenu un atlaižu konfigurēšana visām šīm entītijām ir procedūra no divām darbībām. Šīs darbības var izpildīt jebkādā secībā. Taču loģiskā secība ir vispirms iestatīt cenu grupas entītijām, jo šī darbība, visticamāk, ir vienreizēja iestatīšana, kas tiek veikta ieviešanas laikā. Pēc tam, kad tiek veidotas cenas un atlaides, varat iestatīt cenu grupas šīm cenām un atlaidēm atsevišķi.
+Nākamajās sadaļās ir sniegta plašāka informācija par komercijas entītijām, kuras varat izmantot, lai iestatītu atšķirīgas cenas, kad tiek izmantotas cenu grupas. Cenu un atlaižu konfigurēšana visām šīm entītijām ir procedūra no divām darbībām. Šīs darbības var izpildīt jebkādā secībā. Taču loģiskā secība ir vispirms iestatīt cenu grupas entītijām, jo šī darbība, visticamāk, ir vienreizēja iestatīšana, kas tiek veikta ieviešanas laikā. Pēc tam, kad tiek veidotas cenas un atlaides, varat iestatīt cenu grupas šīm cenām un atlaidēm atsevišķi.
 
 ### <a name="channels"></a>Kanāli
 
-Mazumtirdzniecības nozarē dažādos kanālos parasti ir dažādas cenas. Divi primārie faktori, kas ietekmē no kanāla atkarīgās cenas, ir izmaksas un vietējā tirgus apstākļi.
+Komercijas nozarē dažādos kanālos parasti ir dažādas cenas. Divi primārie faktori, kas ietekmē no kanāla atkarīgās cenas, ir izmaksas un vietējā tirgus apstākļi.
 
 - **Izmaksas** — jo tālāk kanāls atrodas no preces avota, jo vairāk izmaksā šīs preces krājumu nodrošināšana. Piemēram, jaunai produkcijai ir ierobežots glabāšanas laiks un pastāv īpašas ražošanas prasības (piemēram, augšanas sezona). Ziemas laikā svaigas salātlapas, visticamāk, ziemeļu reģionos izmaksā vairāk nekā dienvidu reģionos. Ja iestatāt cenas kanāliem lielā ģeogrāfiskajā apgabalā, visticamāk, ir nepieciešams dažādiem kanāliem iestatīt dažādas cenas.
 - **Vietējā tirgus apstākļi** — veikals, kura tiešais konkurents atrodas otrpus ielai, ir daudz jutīgāks pret cenas ietekmi nekā veikals, kuram tuvumā nav tiešo konkurentu.
@@ -84,7 +84,7 @@ Daži mazumtirgotāji izmanto fiziskus vai virtuālus katalogus, lai savas prece
 
 ### <a name="best-practices-for-price-groups"></a>Labākās prakses cenu grupām
 
-Nelietojiet cenu grupu vairākiem mazumtirdzniecības entītiju tipiem. Tā vietā izmantojiet vienu cenu grupu kopu kanāliem, citu cenu kopu — piederībām vai lojalitātes programmām, un tamlīdzīgi. Cenu grupas nosaukumā varat izmantot prefiksu vai sufiksu, lai vizuāli grupētu dažādos izmantotos cenu grupu tipus.
+Nelietojiet cenu grupu vairākiem entītiju tipiem. Tā vietā izmantojiet vienu cenu grupu kopu kanāliem, citu cenu kopu — piederībām vai lojalitātes programmām, un tamlīdzīgi. Cenu grupas nosaukumā varat izmantot prefiksu vai sufiksu, lai vizuāli grupētu dažādos izmantotos cenu grupu tipus.
 
 Centieties neiestatīt cenu grupas tieši debitoram. Tā vietā izmantojiet piederību. Šādi visus cenu un atlaižu tipus varat piešķirt debitoriem, nevis tikai pārdošanas cenas tirdzniecības līgumiem.
 
@@ -98,7 +98,7 @@ Lai izmantotu cenu noteikšanas prioritāti cenām, cenu noteikšanas prioritāt
 
 Cenu noteikšanas prioritātes līdzeklis tika ieviests, lai atbalstītu scenāriju, kur mazumtirgotājs vēlas piemērot augstākas cenas kādā noteiktā veikalu kopā. Piemēram, mazumtirgotājs ir definējis reģionālās cenas Amerikas Savienoto Valstu austrumkrastam, bet vēlas norādīt augstākas cenas dažām precēm Ņujorkas veikalos, jo šajā pilsētā preču tirgošana izmaksā vairāk un/vai vietējā tirgū var izmantot augstāku cenu.
 
-Kā jau aprakstīts šīs tēmas sadaļā “Labākā cena”, mazumtirdzniecības cenu noteikšanas programma parasti atlasa mazāko no abām cenām. Tāpēc mazumtirgotājam parasti tiek liegts izmantot augstāko no abām cenām tādā veikalā, kas ietilpst gan cenu grupā Austrumkrasts, gan cenu grupā Ņujorka. Lai atrisinātu šo problēmu pirms cenu noteikšanas prioritātes līdzekļa ieviešanas, mazumtirgotājam bija nepieciešams definēt cenas katrai precei divas reizes un nedrīkstēja piešķirt abas cenu grupas. Vai arī šim mazumtirgotājam bija jāizveido papildu cenu grupas, lai preces, kurām ir augstākas cenas, nošķirtu no precēm, kurām ir parastās, t.i., zemākās cenas.
+Kā jau aprakstīts šīs tēmas sadaļā “Labākā cena”, cenu noteikšanas programma parasti atlasa mazāko no abām cenām. Tāpēc mazumtirgotājam parasti tiek liegts izmantot augstāko no abām cenām tādā veikalā, kas ietilpst gan cenu grupā Austrumkrasts, gan cenu grupā Ņujorka. Lai atrisinātu šo problēmu pirms cenu noteikšanas prioritātes līdzekļa ieviešanas, mazumtirgotājam bija nepieciešams definēt cenas katrai precei divas reizes un nedrīkstēja piešķirt abas cenu grupas. Vai arī šim mazumtirgotājam bija jāizveido papildu cenu grupas, lai preces, kurām ir augstākas cenas, nošķirtu no precēm, kurām ir parastās, t.i., zemākās cenas.
 
 Taču cenu noteikšanas prioritātes līdzeklis ļauj mazumtirgotājam izveidot cenu noteikšanas prioritāti veikala cenām, kas ir augstāka par cenu noteikšanas prioritāti reģionālajām cenām. Vai arī mazumtirgotājs var izveidot cenu noteikšanas prioritāti tikai veikala cenām, bet reģionālajām cenām atstāt noklusējuma cenu noteikšanas prioritāti, kas ir 0 (nulle). Abi iestatījumi palīdz nodrošināt, ka veikala cenas vienmēr tiek izmantotas pirms reģionālajām cenām.
 
@@ -142,7 +142,7 @@ Vienkāršākā vieta, kur precei iestatīt cenu, ir tieši attiecīgajai precei
 
 Ja kādai precei ir vienāda cena neatkarīgi no pircēja, pamatcena nodrošina visefektīvāko veidu šīs preces cenas pārvaldīšanai. Pat ja preču iestatīšanai izmantojat tirdzniecības līgumus, precei varat iestatīt arī pamatcenu. Pēc tam, ja neizmantojat tirdzniecības līgumu **Visi**, jums ir regresa cena, kas tiek izmantota, kad nav piemērojams neviens tirdzniecības līgums.
 
-Ja kāda mazumtirdzniecības kanāla valūta atšķiras no uzņēmuma valūtas, pamatcena attiecīgajā kanālā tiek noteikta, izmantojot valūtas konvertēšanu cenai, kas ir iestatīta šai precei.
+Ja kāda kanāla valūta atšķiras no uzņēmuma valūtas, pamatcena attiecīgajā kanālā tiek noteikta, izmantojot valūtas konvertēšanu cenai, kas ir iestatīta šai precei.
 
 Lai gan cenas vienība nav izplatīts scenārijs, cenu noteikšanas programma to atbalsta. Ja cenas vienība ir iestatīta uz vērtību, kas nav **0** (nulle), vienības cena tiek aprēķināta pēc formulas Cena ÷ Cenas vienība. Piemēram, ja kādas preces cena ir 10,00 USD un cenas vienība ir 50, cena par daudzumu 1 ir 0,20 USD (= 10,00 USD ÷ 50).
 
@@ -150,9 +150,9 @@ Lai gan cenas vienība nav izplatīts scenārijs, cenu noteikšanas programma to
 
 Izmantojot tirdzniecības līgumu žurnālu, varat izveidot pārdošanas cenas tirdzniecības līgumus katrai precei. Programmā Microsoft Dynamics 365 ir pieejami trīs pārdošanas cenas tirdzniecības līgumu debitoru tvērumi: **Tabula**, **Grupa** un **Visi**. Debitoru tvērums nosaka debitorus, uz kuriem attiecas noteikts pārdošanas cenas tirdzniecības līgums.
 
-Pārdošanas cenas tirdzniecības līgums **Tabula** ir paredzēts atsevišķam debitoram, kas tiek iestatīts tieši pārdošanas līgumam. Šis scenārijs nav tipiskais mazumtirdzniecības scenārijs “no uzņēmuma patērētājam” (Business-to-Consumer — B2C). Taču, ja tāds rodas, cenas noteikšanai cenu noteikšanas programma izmanto tirdzniecības līgumus **Tabula**.
+Pārdošanas cenas tirdzniecības līgums **Tabula** ir paredzēts atsevišķam debitoram, kas tiek iestatīts tieši pārdošanas līgumam. Šis scenārijs nav tipiskais scenārijs “no uzņēmuma patērētājam” (Business-to-Consumer — B2C). Taču, ja tāds rodas, cenas noteikšanai cenu noteikšanas programma izmanto tirdzniecības līgumus **Tabula**.
 
-Pārdošanas cenas tirdzniecības līgums **Grupa** ir tāds tips, kas visbiežāk tiek izmantots ar Retail funkcionalitāti. Ārpus pārdošanas cenas tirdzniecības līgumi **Grupa** ir paredzēti vienkāršai debitoru grupai. Taču programmatūrā Commerce debitoru grupas jēdziens ir paplašināts, lai tas būtu vispārīgāka cenu grupa. Cenu grupu var saistīt ar kanālu, piederību, lojalitātes programmu vai katalogu. Detalizētu informāciju par cenu grupām skatiet agrākā šīs tēmas sadaļā “Cenu grupas”.
+Pārdošanas cenas tirdzniecības līgums **Grupa** ir tāds tips, kas tiek izmantots visbiežāk. Ārpus pārdošanas cenas tirdzniecības līgumi **Grupa** ir paredzēti vienkāršai debitoru grupai. Taču programmatūrā Commerce debitoru grupas jēdziens ir paplašināts, lai tas būtu vispārīgāka cenu grupa. Cenu grupu var saistīt ar kanālu, piederību, lojalitātes programmu vai katalogu. Detalizētu informāciju par cenu grupām skatiet agrākā šīs tēmas sadaļā “Cenu grupas”.
 
 > [!NOTE]
 > Tirdzniecības līguma cena vienmēr tiek izmantota pirms pamatcenas.
@@ -211,7 +211,7 @@ Izmaksu dēļ kanālu datu bāzēm bieži tiek izmantota sistēma Microsoft SQL 
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Cenas, kas ietver nodokļus, salīdzinājumā ar cenām, kas neietver nodokļus
 
-Iestatot pārdošanas cenas programmā Dynamics 365, nenorādāt, vai iestatītajā cenas vērtībā ir vai nav ietverti nodokļi. Šī vērtība ir tikai cena. Taču iestatījums **Cena ietver PVN** mazumtirdzniecības kanālos jums ļauj konfigurēt kanālus, lai tie cenās ietvertu vai neietvertu nodokļus. Šis iestatījums tiek iestatīts kanālam, un to var mainīt pat vienā uzņēmumā.
+Iestatot pārdošanas cenas programmā Dynamics 365, nenorādāt, vai iestatītajā cenas vērtībā ir vai nav ietverti nodokļi. Šī vērtība ir tikai cena. Taču iestatījums **Cena ietver PVN** kanālos jums ļauj konfigurēt kanālus, lai tie cenās ietvertu vai neietvertu nodokļus. Šis iestatījums tiek iestatīts kanālam, un to var mainīt pat vienā uzņēmumā.
 
 Ja strādājat gan ar ietvertu, gan neietvertu nodokļu tipiem, ir ļoti svarīgi cenas iestatīt pareizi, jo kopējā summa, kas debitoram ir jāmaksā, mainās atkarībā no tā, vai attiecīgajam kanālam ir mainīts iestatījums **Cena ietver PVN**.
 
@@ -219,15 +219,15 @@ Ja strādājat gan ar ietvertu, gan neietvertu nodokļu tipiem, ir ļoti svarīg
 
 Tiek izmantota viena un tā pati cenu noteikšanas programma, lai aprēķinātu cenas visos kanālos: Zvanu centrā, Mazumtirdzniecības veikalā un Tiešsaistes veikalos. Tas palīdz iespējojot vienotos komercijas scenārijus.
 
-Mazumtirdzniecības cenu noteikšanu ir paredzēta darbam ar mazumtirdzniecības entītijām, nevis ar entītijām, kas nav mazumtirdzniecības entītijas. Tas ir — tā ir paredzēta cenu noteikšanai pēc veikala, nevis pēc noliktavas.
+Cenu noteikšanu ir paredzēta darbam ar mazumtirdzniecības entītijām, nevis ar entītijām, kas nav mazumtirdzniecības entītijas. Tas ir — tā ir paredzēta cenu noteikšanai pēc veikala, nevis pēc noliktavas.
 
-Mazumtirdzniecības cenu noteikšanas programma **neatbalsta** tālāk uzskaitītos cenu noteikšanas līdzekļus.
+Cenu noteikšanas programma **neatbalsta** tālāk uzskaitītos cenu noteikšanas līdzekļus.
 
-- Iestatot cenas pēc Vietas vai Vietas un noliktavas, krātuves dimensijas netiek atbalstītas. Ja tirdzniecības līgumos norādāt tikai vietnes dimensiju, mazumtirdzniecības cenu noteikšana ignorēs Vietu un piemēros tirdzniecības līgumu visām vietām. Ja norādāt gan vietu, gan noliktavu, tad darbība ir nedefinēta/nepārbaudīta, jo ir paredzams, ka mazumtirgotāji izmanto veikala cenu grupas, lai kontrolētu cenas katram veikalam/noliktavai.
+- Iestatot cenas pēc Vietas vai Vietas un noliktavas, krātuves dimensijas netiek atbalstītas. Ja tirdzniecības līgumos norādāt tikai vietnes dimensiju, cenu noteikšanas programma ignorēs Vietu un piemēros tirdzniecības līgumu visām vietām. Ja norādāt gan vietu, gan noliktavu, tad darbība ir nedefinēta/nepārbaudīta, jo ir paredzams, ka mazumtirgotāji izmanto veikala cenu grupas, lai kontrolētu cenas katram veikalam/noliktavai.
 - Atribūtos balstīta cenu noteikšana netiek atbalstīta.
 - Piegādātāja atlaižu pāreja netiek atbalstīta.
 
-Turklāt **tikai** mazumtirdzniecības cenu noteikšanas programma atbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
+Turklāt **tikai** cenu noteikšanas programma atbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
 
 - Cena ir balstīta uz preču dimensijām, secībā no konkrētākā varianta cenas līdz vispārīgākajai varianta cenai, līdz preces šablona cenai. Cena, kas ir iestatīta, izmantojot divas preces dimensijas (piemēram, Krāsa un Lielums), tiek izmantota pirms cenas, kas ir iestatīta, izmantojot tikai vienu preces dimensiju (piemēram, Lielums).
 - Cenu noteikšanas un atlaižu kontrolēšanai var izmantot tās pašas cenu grupas.

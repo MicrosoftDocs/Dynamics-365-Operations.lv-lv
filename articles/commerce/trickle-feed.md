@@ -1,6 +1,6 @@
 ---
 title: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
-description: Šajā tēmā ir aprakstīta pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīta pakāpeniskas plūsmas pasūtījumu izveide veikala transakcijām risinājumā Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/14/2019
@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004278"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057168"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām (publisks priekšskatījums)
 
 [!include [banner](includes/banner.md)]
-
-
 
 Dynamics 365 Retail versijā 10.0.4 un vecākās versijās pārskatu grāmatošana ir dienas beigās veicama operācija. Dienas beigās visas transakcijas tiek grāmatotas grāmatās. Apjomīgas transakcijas ir jāapstrādā ierobežotā laika posmā, kas dažkārt rada ievērojamu noslodzi un pārskatu grāmatošanas kļūmes. Mazumtirgotāji nevar arī atpazīt dienas ieņēmumus un maksājumus savās grāmatās.
 
@@ -51,11 +49,11 @@ Izmantojot pakāpeniskas plūsmas pasūtījumu izveides publisko priekšskatīju
       
      - Finanšu pārskats ir izstrādāts izveidei dienas beigās, un tas atbalsta tikai slēgšanas metodi **Maiņa**. Šis pārskats būs ierobežots līdz finanšu saskaņošanai, un tiks izveidoti tikai žurnāli attiecībā uz starpību starp dažādu norēķinu aprēķināto summu un transakcijas summu kopā ar žurnāliem attiecībā uz citām naudas pārvaldības transakcijām.   
 
-4. Lai aprēķinātu transakciju pārskatu, noklikšķiniet uz **Mazumtirdzniecība un tirdzniecība > Mazumtirdzniecības un tirdzniecības IT > POS grāmatošana > Aprēķināt transakciju pārskatus partijā**. Lai grāmatotu transakciju pārskatus partijā, noklikšķiniet uz **Mazumtirdzniecība un tirdzniecība > Mazumtirdzniecības un tirdzniecības IT > POS grāmatošana > Grāmatot transakciju pārskatus partijā**.
+4. Lai aprēķinātu transakciju pārskatu, noklikšķiniet uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt transakciju pārskatus partijā**. Lai grāmatotu transakciju pārskatus partijā, noklikšķiniet uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot transakciju pārskatus partijā**.
 
-5. Lai aprēķinātu finanšu pārskatu, noklikšķiniet uz **Mazumtirdzniecība un tirdzniecība > Mazumtirdzniecības un tirdzniecības IT > POS grāmatošana > Aprēķināt finanšu pārskatus partijā**. Lai grāmatotu finanšu pārskatus partijā, noklikšķiniet uz **Mazumtirdzniecība un tirdzniecība > Mazumtirdzniecības un tirdzniecības IT > POS grāmatošana > Grāmatot finanšu pārskatus partijā**.
+5. Lai aprēķinātu finanšu pārskatu, noklikšķiniet uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt finanšu pārskatus partijā**. Lai grāmatotu finanšu pārskatus partijā, noklikšķiniet uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot finanšu pārskatus partijā**.
 
 > [!NOTE]
-> Izvēlnes elementi **Mazumtirdzniecība un tirdzniecība > Mazumtirdzniecības un tirdzniecības IT > POS grāmatošana > Aprēķināt pārskatus partijā** un **Mazumtirdzniecība un tirdzniecība > Mazumtirdzniecības un tirdzniecības IT > POS grāmatošana > Grāmatot pārskatus partijā** ir noņemti ar šo jauno līdzekli.
+> Izvēlnes elementi **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt pārskatus partijā** un **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot pārskatus partijā** ir noņemti ar šo jauno līdzekli.
 
-Transakciju un finanšu pārskatu veidus var izveidot arī manuāli. Dodieties uz **Mazumtirdzniecība un tirdzniecība > Kanāli > Veikali** un noklikšķiniet uz **Pārskati**. Noklikšķiniet uz **Jauns** un pēc tam izvēlieties pārskata veidu, ko vēlaties izveidot. Laukos lapā **Pārskati** un darbībās zem lapas **Pārskatu grupa** tiks rādīti atbilstošie dati un darbības, pamatojoties uz atlasīto pārskata veidu.
+Transakciju un finanšu pārskatu veidus var izveidot arī manuāli. Dodieties uz **Retail un Commerce > Kanāli > Veikali** un noklikšķiniet uz **Pārskati**. Noklikšķiniet uz **Jauns** un pēc tam izvēlieties pārskata veidu, ko vēlaties izveidot. Laukos lapā **Pārskati** un darbībās zem lapas **Pārskatu grupa** tiks rādīti atbilstošie dati un darbības, pamatojoties uz atlasīto pārskata veidu.
