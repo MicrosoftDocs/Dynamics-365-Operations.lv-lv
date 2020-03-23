@@ -22,11 +22,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Atjauninājumu lietošana mākoņvidēs
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Pakalpojumu atjauninājumu konfigurēšana
+                - name: Atjauninājumu lietošana lokālos izvietojumos
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Pakalpojuma atjauninājumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Pakalpojumu atjauninājumu apturēšana
+                - name: Pakalpojuma atjauninājumu apturēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
+                - name: Paziņojumu saņemšana par pakalpojuma atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
@@ -84,12 +86,12 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce versija\_10.0.10 (2020.\_gada maijs)"
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: "Commerce versija\_10.0.9 (2020.\_gada aprīlis)"
                       href: get-started/whats-new-10-0-9.md
                     - name: "Commerce versija\_10.0.8 (2020.\_februāris)"
                       href: get-started/whats-new-10-0-8.md
-                    - name: "Retail versija\_10.0.7 (2020.\_gada janvāris)"
-                      href: get-started/whats-new-10-0-7.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -98,7 +100,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
                   href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: "Galvenā atbalsta beigas versijai Microsoft Dynamics AX\_2009 un\_2012"
+                - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: Dokumentācijas resursi
               items:
@@ -336,6 +338,8 @@
                       href: pos-operations.md
                     - name: Ierīces aktivizēšana pielāgotajā Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
+                    - name: 'Azure Active Directory autentifikācijas iespējošana, lai veiktu pierakstīšanos POS'
+                      href: aad-pos-logon.md
                     - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS un Cloud POS
                       href: demo-data.md
                     - name: Preču un klientu meklēšana punktā POS
@@ -368,6 +372,8 @@
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: Perifērijas ierīču savienošana ar POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: Darbspējas pārbaude POS perifērijas ierīcēm un pakalpojumiem
+                          href: pos-healthcheck.md
                     - name: Ekrāna izkārtojumi
                       items:
                         - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: Jaunas preces izveide
                   items:
-                    - name: Izveidot jaunu preces pārskatu
+                    - name: Jaunas preces izveide programmā Commerce
                       href: create-new-product.md
                     - name: Preču kategoriju un preču pārvaldība
                       href: category-management-product-creation.md
@@ -568,8 +574,10 @@
                   href: tender_based_discounts.md
                 - name: Piegādes atlaides pārskats
                   href: retail-shipping-discount.md
-                - name: Iestatīt kuponus
+                - name: Kuponu iestatīšana
                   href: retail-coupons.md
+                - name: Atlaižu rādīšana punktā POS
+                  href: discounts-pos.md
                 - name: Cenu pārskati
                   href: price-report.md
                 - name: Kanālam raksturīgu tirdzniecības līgumu izveide
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: ADLS iespējošana Dynamics 365 Commerce vidē
                   href: enable-ADLS-environment.md
-                - name: Preču ieteikumu sarakstu pievienošana e-komercijas lapām
-                  href: add-reco-list-to-page.md
                 - name: Preču ieteikumu iespējošana
                   href: enable-product-recommendations.md
                 - name: Personalizēti ieteikumi
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: Atteikšanās no personalizētiem ieteikumiem
                       href: personalization-gdpr.md
-                - name: Pārraudzītu preču ieteikumu sarakstu izveide
-                  href: create-editorial-recommendation-lists.md
-                - name: Uz AI-ML balstītu preču ieteikumu rezultātu pārvaldība
+                - name: Ieteikumu sarakstu pievienošana e-komercijas vietnei
+                  href: add-reco-list-to-page.md
+                - name: POS pieredze
+                  items:
+                    - name: Preču ieteikumu pievienošana punktā POS
+                      href: product.md
+                    - name: Ieteikumu pievienošana transakciju ekrānam
+                      href: add-recommendations-control-pos-screen.md
+                - name: Uz AI-ML balstītu preču ieteikumu rezultātu koriģēšana
                   href: modify-product-recommendation-results.md
-                - name: 'Preču ieteikumu iegūšana, izmantojot demonstrācijas datus'
+                - name: Pārraudzītu preču ieteikumu manuāla izveide
+                  href: create-editorial-recommendation-lists.md
+                - name: 'Ieteikumu izveide, izmantojot demonstrācijas datus'
                   href: product-recommendations-demo-data.md
                 - name: Bieži uzdotie jautājumi par preču ieteikumiem
                   href: faq-recommendations.md
-                - name: POS pieredze
-                  items:
-                    - name: Preču ieteikumi punktā POS
-                      href: product.md
-                    - name: Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam
-                      href: add-recommendations-control-pos-screen.md
             - name: Vērtējumi un atsauksmes
               items:
                 - name: Vērtējumu un atsauksmju apskats
@@ -650,12 +658,14 @@
                       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                     - name: Preču iepakojumu izveide pirkšanas pasūtījumiem
                       href: tasks/create-product-packages-purchase-orders.md
-        - name: Pārdošanas pasūtījumu pārvaldība
+        - name: Pasūtījumu pārvaldība
           items:
             - name: Pārdošanas pasūtījumi
               items:
                 - name: Zvanu centra pasūtījuma izveide
                   href: tasks/create-call-center-orders.md
+                - name: Piegādes veida mainīšana punktā POS
+                  href: POS-change-delivery-mode.md
             - name: Sadalīto pasūtījumu pārvaldība
               items:
                 - name: DOM pārskats
@@ -768,8 +778,14 @@
                   href: associate-site-online-store.md
                 - name: Failu robots.txt pārvaldība
                   href: manage-robots-txt-files.md
+                - name: Novirzīšanas URL lielapjoma augšupielāde
+                  href: upload-bulk-redirects.md
+                - name: B2C nomnieka iestatīšana programmā Commerce
+                  href: set-up-B2C-tenant.md
                 - name: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
                   href: custom-pages-user-logins.md
+                - name: Vairāku B2C nomnieku konfigurēšana Commerce vidē
+                  href: configure-multi-B2C-tenants.md
                 - name: Atbalsta pievienošana satura piegādes tīklam (CDN)
                   href: add-cdn-support.md
                 - name: Veikala noteikšanas iespējošana pēc atrašanās vietas
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: Lapas vietrāža URL izveide
                       href: create-page-URL.md
+            - name: Digitālo līdzekļu pārvaldība
+              items:
+                - name: Pārskats par digitālo līdzekļu pārvaldību
+                  href: dam-overview.md
+                - name: Attēlu augšupielāde
+                  href: dam-upload-images.md
+                - name: Videoklipu augšupielāde
+                  href: dam-upload-video.md
+                - name: 'Failu, kas nav attēli un videoklipi, augšupielāde'
+                  href: dam-upload-files.md
+                - name: Attēlu apgriešana
+                  href: dam-crop-images.md
+                - name: Attēlu fokusa punktu pielāgošana
+                  href: dam-custom-focal-point.md
             - name: Vietnes atbilstības nodrošināšana
               items:
                 - name: Atbilstības pārskats
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Izstrādes vides (.env) faila konfigurēšana
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Azure DevOps koda koplietošanas iestatīšana un būvējuma konveijera izveide
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platformas apskats
                   items:
                     - name: Arhitektūras apskats
@@ -1912,6 +1944,10 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Stāvokļa kopīgošana starp moduļiem
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Datu darbību pārlabojumi
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Datu darbību āķi
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: Dizainu izstrāde
                   items:
                     - name: Dizainu izstrādes apskats
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: Asinhronu Commerce (CRT) API izveidošana jūsu biznesa loģikā
                   href: dev-itpro/async-commerce-extension.md
+                - name: Iepriekš paplašinātās kolonnas kanāla datu bāzē
+                  href: dev-itpro/extended-columns.md
             - name: Maksājumu savienotāja paplašināmība
               items:
                 - name: Maksājumu integrācijas izveidošana maksājumu terminālim

@@ -14,6 +14,8 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu mājas lapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platform update\_34 (2020.\_gada maijs)"
+                  href: get-started/whats-new-platform-update-34.md
                 - name: "Platform update\_33 (2020.\_gada aprīlis)"
                   href: get-started/whats-new-platform-update-33.md
                 - name: "Platform update\_32 (2020.\_gada februāris)"
@@ -146,43 +148,69 @@
                   items:
                     - name: 'Datu integrācijas, izmantojot Common Data Service, pārskats'
                       href: data-entities/data-integration-cds.md
-                    - name: Sinhrona divvirzienu integrācija
+                    - name: Duālā ieraksta integrācija
                       items:
                         - name: Duālā ieraksta mājas lapa
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Duālā ieraksta pārskats
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Organizācijas hierarhija pakalpojumā Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: Uzņēmuma integrācija
+                        - name: Duālā ieraksta iestatīšana
                           items:
-                            - name: Uzņēmuma koncepcija pakalpojumā Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: Palaišana ar uzņēmuma datiem
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: Integrētie debitoru pamatdati
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: Integrētā virsgrāmata
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Vienotā preču pieredze
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Kreditora integrācija
+                            - name: Sistēmas prasības duālajam ierakstam
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Atbalstītie scenāriji duālā ieraksta iestatīšanai
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Duālā ieraksta iestatīšana no Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: Koncepciju kartēšana starp programmām
                           items:
-                            - name: Integrētie kreditoru pamatdati
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: Pārslēgšanās starp kreditoru noformējumiem
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: Integrētās vietas un noliktavas
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: Integrētie nodokļu pamatdati
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: Sākotnējā sinhronizācija
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: Datu integrācijas problēmu novēršana
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Asinhrona vienvirziena integrācija
+                            - name: Organizācijas hierarhija pakalpojumā Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Uzņēmuma integrācija
+                              items:
+                                - name: Uzņēmuma koncepcija pakalpojumā Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Palaišana ar uzņēmuma datiem
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Integrētie debitoru pamatdati
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Preču integrācija
+                              items:
+                                - name: Vienotā preču pieredze
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Integrētās vietas un noliktavas
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Finanšu un nodokļu dati
+                              items:
+                                - name: Piekļuve finanšu un nodokļu atsauces datiem
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Integrētā virsgrāmata
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Integrētie nodokļu pamatdati
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Kreditora integrācija
+                              items:
+                                - name: Integrētie kreditoru pamatdati
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Pārslēgšanās starp kreditoru noformējumiem
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: No potenciālā klienta līdz skaidrai naudai duālajā ierakstā
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Iekšējie līdzekļi apkalpošanai
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Integrēts nodarbinātais, darbs un amats'
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: Atbalsts duālajam ierakstam
+                          items:
+                            - name: Atbalsts Field Service risinājumiem un Project Service Automation risinājumiem
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Sākotnējā sinhronizācija
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Datu integrācijas problēmu novēršana
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integrācija ar Power Platform datu integrētāju
                       items:
-                        - name: Scenārija “No potenciālā klienta uz skaidru naudu” konfigurēšana
+                        - name: Scenārija “No potenciālā klienta līdz skaidrai naudai” konfigurēšana
                           items:
                             - name: No potenciālā klienta līdz skaidrai naudai
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: Datu bāzes punkta laikā atjaunošana
                   href: database/database-point-in-time-restore.md
+                - name: Ražošanas datu bāzes punkta laikā atjaunošana uz smilškastes vidi
+                  href: database/database-pitr-prod-sandbox.md
             - name: Apmācība
               items:
                 - name: Atsvaidzināšana apmācību nolūkos
@@ -430,6 +460,8 @@
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                       href: deployment/deploy-retail-onprem.md
+                    - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
+                      href: deployment/onprem-reuseadfs.md
                 - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com integrācija ar lokālajām vidēm
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Metodoloģiju izveide vai atjaunināšana
               href: lifecycle-services/create-methodology.md
-            - name: Biznesa procesu modelētājs
-              href: lifecycle-services/bpm-overview.md
-            - name: Biznesa procesu bibliotēkas biznesa procesu modelētājā
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 'Biznesa procesu modelētāja bibliotēku izveidošana, rediģēšana un pārlūkošana'
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: Uzdevumu veikšana biznesa procesu modelētājā
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: Darbs ar aktivitāšu diagrammām BPM bibliotēkās
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: 'BPM bibliotēku sinhronizācija, izmantojot Azure DevOps'
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: 'Lietotāju pieņemšanas testa bibliotēku izveide, izmantojot uzdevumu ceļvežus un BPM'
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Blokshēmas biznesa procesu modelētājā
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: Pielāgotu biznesa procesu augšupielāde biznesa procesu modelētājā
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Biznesa procesu modelētājs (BPM)
+              items:
+                - name: Biznesa procesu modelētāja (BPM) pārskats
+                  href: lifecycle-services/bpm-overview.md
+                - name: Biznesa procesu bibliotēkas biznesa procesu modelētājā
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 'Biznesa procesu modelētāja bibliotēku izveidošana, rediģēšana un pārlūkošana'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: Uzdevumu veikšana biznesa procesu modelētājā
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: Darbs ar aktivitāšu diagrammām BPM bibliotēkās
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: 'BPM bibliotēku sinhronizācija, izmantojot Azure DevOps'
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: 'Lietotāju pieņemšanas testa bibliotēku izveide, izmantojot uzdevumu ceļvežus un BPM'
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: Blokshēmas biznesa procesu modelētājā
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: Pielāgotu biznesa procesu augšupielāde biznesa procesu modelētājā
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Pakalpojuma pieprasījumi
+              items:
+                - name: Mākoņu darbības un apkalpošana
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Pakalpojuma pieprasījumu iesniegšana Dynamics tehnisko pakalpojumu grupai
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: BUJ par plānoto uzturēšanas periodu
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Pārraudzība un diagnostika
               href: lifecycle-services/monitoring-diagnostics.md
             - name: Vides pakalpojumu restartēšana
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 'Atbalsta saņemšana par Finance and Operations, kā darbību nodrošina 21Vianet Ķīnā'
               href: lifecycle-services/21vianet-support.md
-            - name: Pieprasījumu iesniegšana Dynamics Service tehniskajai grupai
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: Finance and Operations tehniskā atbalsta iestatīšana
               href: lifecycle-services/support-experience.md
-            - name: BUJ par plānoto uzturēšanas periodu
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: Mākoņu darbības un apkalpošana
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: Finance and Operations atbalsta iespēju pārvaldība
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Sistēmas administrēšana

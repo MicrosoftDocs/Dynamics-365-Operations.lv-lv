@@ -24,11 +24,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Atjauninājumu lietošana mākoņvidēs
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Pakalpojumu atjauninājumu konfigurēšana
+                - name: Atjauninājumu lietošana lokālos izvietojumos
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Pakalpojuma atjauninājumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Pakalpojumu atjauninājumu apturēšana
+                - name: Pakalpojuma atjauninājumu apturēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
+                - name: Paziņojumu saņemšana par pakalpojuma atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
@@ -72,15 +74,17 @@
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: "Supply Chain Management versija\_10.0.8 (2020.\_gada februāris)"
                       href: get-started/whats-new-scm-10-0-8.md
-                    - name: "Supply Chain Management versija\_10.0.7 (2020.\_gada janvāris)"
-                      href: get-started/whats-new-scm-10-0-7.md
                 - name: Noņemtie vai novecojušie līdzekļi
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "AX\_2012 līdzekļi, kas tika atlikti"
+                  items:
+                    - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'AX 2012 līdzekļi, kas tika atlikti'
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
                   href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Galvenā atbalsta beigas versijai Microsoft Dynamics AX\_2009 un\_2012"
+                - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentācijas resursi
               items:
