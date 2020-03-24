@@ -1,9 +1,9 @@
 ---
 title: Pielāgotu lauku izveide un darbs ar tiem
-description: Šajā tēmā parādīts, kā izveidot pielāgotus laukus un pielāgot programmu sava uzņēmuma vajadzībām.
+description: Šī tēma jums parāda, kā ar lietotāja interfeisu izveidot pielāgotus laukus un pielāgot programmu sava uzņēmuma vajadzībām.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812509"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112340"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Pielāgotu lauku izveide un darbs ar tiem
 
 [!include [banner](../includes/banner.md)]
 
-Lai gan ir plaša lietošanai gatavu lauku kopa dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Tādēļ varat izveidot pielāgotus laukus un programmu pielāgot sava uzņēmuma vajadzībām (ja jums ir nepieciešamās atļaujas, lai piekļūtu šim līdzeklim).
+Lai gan ir plaša lietošanai gatavu lauku kopa dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Lai gan programmētājus var izmantot, lai šos laukus pievienotu kā paplašinājumus izstrādātāja rīkos, pielāgoto lauku līdzeklis atļauj laukus pievienot tieši no lietotāja interfeisa, tādējādi ļaujot jums pielāgot programmu, lai tā atbilstu jūsu biznesa vajadzībām, izmantojot Web pārlūkprogrammu.
 
-Pielāgotu lauku pievienošanas iespēja ir pieejama 13. platformas atjauninājumā un jaunākās tā versijās.
+Pielāgotu lauku pievienošanas iespēja ir pieejama 13. platformas atjauninājumā un jaunākās tā versijās. Šim līdzeklim ir piekļuve tikai tiem lietotājiem, kuriem ir īpašas atļaujas.
 
 Šajā video parādīts, cik viegli ir lapai pievienot pielāgotu lauku: [Pielāgotu lauku pievienošana](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Veiktspējas un tehnisku iemeslu dēļ pielāgotos laukus pašlaik var pievienot
 - Tabula nedrīkst paplašināt citu tabulu.
 - Tabula nedrīkst būt atzīmēta kā sistēmas tabula.
 - Tabula nedrīkst būt pagaidu tabula.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Vai es varu norādīt pielāgotus laukus no izstrādātāja rīkiem?  
+
+Pielāgotus laukus var pārvaldīt tikai ar lietotāja interfeisu, un tos nevar norādīt ar kodu. 

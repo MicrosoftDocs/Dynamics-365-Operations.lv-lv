@@ -3,7 +3,7 @@ title: Jauna e-tirdzniecības nomnieka izvietošana
 description: Šajā tēmā ir aprakstīts, kā izvietot jaunu e-tirdzniecības nomnieku, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001787"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096682"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Jauna e-tirdzniecības nomnieka izvietošana
 
@@ -97,11 +97,19 @@ Lai piekļūtu vietnes veidotājam, dodieties uz cilni **Komercija** LCS lapā *
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
+[Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
+
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
-[robots.txt failu pārvaldība](manage-robots-txt-files.md)
+[Failu robots.txt pārvaldība](manage-robots-txt-files.md)
+
+[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
 
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 

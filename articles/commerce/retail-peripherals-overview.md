@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 14c6f7aaab4c6e4f099f47210f4d89fdfcd33d79
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030847"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124409"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
 [!include[banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar mazumtirdzniecības veikala perifērajām ierīcēm. Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību.
+Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar veikala perifērajām ierīcēm. Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību.
 
 ## <a name="concepts"></a>Koncepcijas
 
@@ -65,7 +65,7 @@ POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas.
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Mazumtirdzniecības veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**. Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota mazumtirdzniecības perifērās ierīces loģika. Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus. Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā. Aparatūras stacija ir iebūvēta programmās Modern POS operētājsistēmai Windows un Android. Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu. Šādā gadījumā tai var piekļūt tīklā.
+Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikali** &gt; **Visi mazumtirdzniecības veikali**. Atlasiet veikalu un pēc tam noklikšķiniet uz kopsavilkuma cilnes **Aparatūras stacijas**. Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota perifērās ierīces loģika. Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus. Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā. Aparatūras stacija ir iebūvēta programmās Modern POS operētājsistēmai Windows un Android. Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu. Šādā gadījumā tai var piekļūt tīklā.
 
 ### <a name="hardware-profile"></a>Aparatūras profils
 
@@ -117,27 +117,30 @@ Maksājumu ierīces atbalts tiek nodrošināts, izmantojot maksājumu savienotā
 ## <a name="supported-interfaces"></a>Atbalstītie interfeisi
 ### <a name="opos"></a>OPOS
 
-Lai palīdzētu nodrošināt to, ka kopā ar programmu Commerce var lietot pēc iespējas lielāku ierīču klāstu, galvenā mazumtirdzniecības perifēro ierīču platforma, kas tiek atbalstīta, ir nozares standarta platforma OLE punktā POS. Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš mazumtirdzniecības perifēro ierīču nozares standarta sakaru protokolus. OPOS ir plaši izplatīta standarta OLE punktā POS implementācija. Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta. OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās. OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru. OPOS vadības elements sastāv no divām tālāk norādītajām daļām.
+Lai palīdzētu nodrošināt to, ka kopā ar programmu Commerce var lietot pēc iespējas lielāku ierīču klāstu, galvenā perifēro ierīču platforma, kas tiek atbalstīta, ir nozares standarta platforma OLE punktā POS. Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš perifēro ierīču nozares standarta sakaru protokolus. OPOS ir plaši izplatīta standarta OLE punktā POS implementācija. Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta. OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās. OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru. OPOS vadības elements sastāv no divām tālāk norādītajām daļām.
 
 -   **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Commerce POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Commerce nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
 -   **Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci. Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs. Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes. Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija. Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.
 
-[![Vadības objekts un pakalpojumu objekts](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā pat tad, ja tās iepriekš nav pārbaudītas kopā. **Piezīme.** OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri. Pirmkārt, programmai Microsoft Dynamics 365 for Retail ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS. Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija. Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.
+[![Vadības objekts un pakalpojumu objekts](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā pat tad, ja tās iepriekš nav pārbaudītas kopā. 
+
+> [!NOTE]
+> OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri. Pirmkārt, programmai Commerce ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS. Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija. Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.
 
 ### <a name="windows"></a>Windows
 
-Kvīšu drukāšana POS ir optimizēta standartam OPOS. OPOS parasti nodrošina daudz ātrāku drukāšanu nekā operētājsistēma Windows. Tāpēc ir ieteicams izmantot OPOS, jo īpaši mazumtirdzniecības vidēs, kur tiek drukātas 40 kolonnu kvītis un ir jānodrošina ātra transakciju apstrāde. Vairumam ierīču tiek lietoti OPOS vadības elementi. Taču daži OPOS kvīšu printeri atbalsta arī Windows draiverus. Izmantojot Windows draiveri, varat piekļūt jaunākajiem fontiem un tīklā lietot vienu printeri vairākām kases sistēmām. Taču Windows draiveru lietošanai ir trūkumi. Tālāk ir sniegti daži šo trūkumu piemēri.
+Kvīšu drukāšana POS ir optimizēta standartam OPOS. OPOS parasti nodrošina daudz ātrāku drukāšanu nekā operētājsistēma Windows. Tāpēc ir ieteicams izmantot OPOS, jo īpaši vidēs, kur tiek drukātas 40 kolonnu kvītis un ir jānodrošina ātra transakciju apstrāde. Vairumam ierīču tiek lietoti OPOS vadības elementi. Taču daži OPOS kvīšu printeri atbalsta arī Windows draiverus. Izmantojot Windows draiveri, varat piekļūt jaunākajiem fontiem un tīklā lietot vienu printeri vairākām kases sistēmām. Taču Windows draiveru lietošanai ir trūkumi. Tālāk ir sniegti daži šo trūkumu piemēri.
 
 -   Ja tiek izmantoti Windows draiveri, pirms drukāšanas tiek renderēti attēli. Tāpēc drukāšana ir lēnāka, nekā ar printeriem, kam tiek izmantoti OPOS vadības elementi.
 -   Ja tiek izmantoti Windows draiveri, ierīces, kas ir pievienotas, izmantojot printeri (ziedlapķēdē), var darboties nepareizi. Piemēram, iespējams, netiks atvērta naudas kaste vai kvīšu printeris nedarbosies, kā ir paredzēts.
--   Turklāt OPOS atbalsta plašāku mazumtirdzniecības kvīšu printeriem raksturīgu mainīgo kopu, piemēram, papīra griešanas vai pavadzīmju drukāšanas mainīgos.
+-   Turklāt OPOS atbalsta plašāku kvīšu printeriem raksturīgu mainīgo kopu, piemēram, papīra griešanas vai pavadzīmju drukāšanas mainīgos.
 -   Windows printeri netiek atbalstīti ar IIS aparatūras staciju. 
 
 Ja izmantotajam Windows printerim ir pieejami OPOS vadības elementi, printerim joprojām ir pareizi jādarbojas kopā ar programmu Commerce.
 
 ### <a name="universal-windows-platform"></a>Universālā Windows platforma
 
-Attiecībā uz mazumtirdzniecības perifērajām ierīcēm: UWP ir saistīta ar Windows Plug and Play ierīču atbalstu. Ja Plug and Play ierīce tiek pievienota operētājsistēmas Windows versijai, ka atbalsta šo ierīču veidu, ierīces pareizai lietošanai nav nepieciešami nekādi draiveri. Piemēram, ja operētājsistēmā Windows tiek noteikts Bluetooth skaļrunis, tiek noteikts, ka ierīces klases veids ir **Skaļrunis**. Tāpēc ierīce tiek apstrādāta kā skaļrunis. Nav nepieciešami nekādi papildu iestatījumi. Var pievienot daudzas USB POS ierīces, un tās operētājsistēmā Windows tiek atpazītas kā cilvēka interfeisa ierīces (HID). Taču operētājsistēmā, iespējams, nevar noteikt ierīces nodrošinātās iespējas, jo nav norādīta ierīces klase vai veids. Operētājsistēmā Windows 10 ir pievienotas svītrkoda skeneru un MJL ierīču klases. Tāpēc, ja operētājsistēmā Windows 10 ierīce tiek noteikta kā ietverta vienā no šīm klasēm, atbilstošajā laikā operētājsistēmā Windows tiek gaidīti notikumi no šīs ierīces. Programma Modern POS atbalsta UWP MJL un skenerus. Tāpēc, kad tā ir gatava ievadei no kādas no šīm ierīcēm un ir pievienota kādā no šīm klasēm ietverta ierīce, šo ierīci var lietot. Piemēram, ja Windows 10 datoram ir pievienots UWP svītrkoda skeneris un programmā Modern POS ir konfigurēta pierakstīšanās ar svītrkodu, pierakstīšanās ekrānā tiek aktivizēts svītrkoda skeneris. Nav nepieciešami nekādi papildu iestatījumi. Operētājsistēmai Windows tiek pievienotas papildu apkalpošanas punkta UWP ierīču klases. Šīs klases ietver naudas kastu un kvīšu printeru klases. Programmā Modern POS vēl nav nodrošināts šo jauno klašu atbalsts.
+Attiecībā uz perifērajām ierīcēm: UWP ir saistīta ar Windows Plug and Play ierīču atbalstu. Ja Plug and Play ierīce tiek pievienota operētājsistēmas Windows versijai, ka atbalsta šo ierīču veidu, ierīces pareizai lietošanai nav nepieciešami nekādi draiveri. Piemēram, ja operētājsistēmā Windows tiek noteikts Bluetooth skaļrunis, tiek noteikts, ka ierīces klases veids ir **Skaļrunis**. Tāpēc ierīce tiek apstrādāta kā skaļrunis. Nav nepieciešami nekādi papildu iestatījumi. Var pievienot daudzas USB POS ierīces, un tās operētājsistēmā Windows tiek atpazītas kā cilvēka interfeisa ierīces (HID). Taču operētājsistēmā, iespējams, nevar noteikt ierīces nodrošinātās iespējas, jo nav norādīta ierīces klase vai veids. Operētājsistēmā Windows 10 ir pievienotas svītrkoda skeneru un MJL ierīču klases. Tāpēc, ja operētājsistēmā Windows 10 ierīce tiek noteikta kā ietverta vienā no šīm klasēm, atbilstošajā laikā operētājsistēmā Windows tiek gaidīti notikumi no šīs ierīces. Programma Modern POS atbalsta UWP MJL un skenerus. Tāpēc, kad tā ir gatava ievadei no kādas no šīm ierīcēm un ir pievienota kādā no šīm klasēm ietverta ierīce, šo ierīci var lietot. Piemēram, ja Windows 10 datoram ir pievienots UWP svītrkoda skeneris un programmā Modern POS ir konfigurēta pierakstīšanās ar svītrkodu, pierakstīšanās ekrānā tiek aktivizēts svītrkoda skeneris. Nav nepieciešami nekādi papildu iestatījumi. Operētājsistēmai Windows tiek pievienotas papildu apkalpošanas punkta UWP ierīču klases. Šīs klases ietver naudas kastu un kvīšu printeru klases. Programmā Modern POS vēl nav nodrošināts šo jauno klašu atbalsts.
 
 ### <a name="keyboard-wedge"></a>Svītrkoda/magnētiskās joslas nolasīšanas ierīce
 
@@ -155,13 +158,13 @@ Tīklā tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras stac
 
 ### <a name="dedicated"></a>Atvēlēts
 
-Mūsdienīgie POS klienti operētājsistēmai Windows un Android ietver **Speciālās** vai iebūvētās aparatūras stacijas. Šie klienti var tieši komunicēt ar perifērijas ierīcēm, izmantojot biznesa loģiku, kas ir iebūvēta lietojumprogrammās. Android programma atbalsta tikai tīkla ierīces. Lai iegūtu vairāk informācijas par perifēro atbalstu Android, apmeklējiet rakstu (iestatīt POS hibrīda programmu Android un iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+Mūsdienīgie POS klienti operētājsistēmai Windows un Android ietver **Speciālās** vai iebūvētās aparatūras stacijas. Šie klienti var tieši komunicēt ar perifērijas ierīcēm, izmantojot biznesa loģiku, kas ir iebūvēta lietojumprogrammās. Android programma atbalsta tikai tīkla ierīces. Lai iegūtu vairāk informācijas par perifēro atbalstu Android, apmeklējiet rakstu [Iestatīt POS hibrīda programmu Android un iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 Lai lietotu speciālo aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows vai Android programmām. Pēc tam izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma. Startējiet modernās POS neizmantošanas režīmā un izmantojiet opciju **pārvaldīt aparatūras stacijas**, lai ieslēgtu aparatūras stacijas iespējas, atvēlētā aparatūras stacija būs aktīva pēc noklusējuma. Pēc tam izrakstieties no Modern POS, tad atkal piesakieties un atveriet maiņu un aparatūras profilā konfigurētās perifērās ierīces būs lietojamas. 
 
 ### <a name="shared"></a>Koplietots 
 
-Dažkārt to sauc arī par "IIS" aparatūras staciju "IIS", kas nozīmē, ka POS lietojumprogramma izveido savienojumu ar aparatūras staciju, izmantojot Microsoft Internet Information Services. POS lietojumprogrammas savienojumam ar IIS aparatūras staciju tiek izmantoti tīmekļa pakalpojumi, kas darbojas datorā, kuram ir pievienotas ierīces. Ja tiek lietota koplietotā aparatūras stacijas, aparatūras stacijai pievienotās mazumtirdzniecības perifērās ierīces var izmantot jebkurā POS kases sistēmā, kas ir vienā tīklā ar IIS aparatūras staciju. Tā kā tikai programma Modern POS operētājsistēmai Windows un Android nodrošina iebūvētu mazumtirdzniecības perifēro ierīču atbalstu, visās citās lietojumprogrammas Modern POS versijās saziņai ar aparatūras profilā konfigurētajām POS perifērajām ierīcēm ir jāizmanto IIS aparatūras stacija. Tāpēc katrai IIS aparatūras stacijas instancei ir nepieciešams dators, kurā darbojas tīmekļa pakalpojums un lietojumprogramma, kas nodrošina saziņu ar ierīcēm. 
+Dažkārt to sauc arī par "IIS" aparatūras staciju "IIS", kas nozīmē, ka POS lietojumprogramma izveido savienojumu ar aparatūras staciju, izmantojot Microsoft Internet Information Services. POS lietojumprogrammas savienojumam ar IIS aparatūras staciju tiek izmantoti tīmekļa pakalpojumi, kas darbojas datorā, kuram ir pievienotas ierīces. Ja tiek lietota koplietotā aparatūras stacijas, aparatūras stacijai pievienotās perifērās ierīces var izmantot jebkurā POS kases sistēmā, kas ir vienā tīklā ar IIS aparatūras staciju. Tā kā tikai programma Modern POS operētājsistēmai Windows un Android nodrošina iebūvētu perifēro ierīču atbalstu, visās citās lietojumprogrammas Modern POS versijās saziņai ar aparatūras profilā konfigurētajām POS perifērajām ierīcēm ir jāizmanto IIS aparatūras stacija. Tāpēc katrai IIS aparatūras stacijas instancei ir nepieciešams dators, kurā darbojas tīmekļa pakalpojums un lietojumprogramma, kas nodrošina saziņu ar ierīcēm. 
 
 Koplietojamo aparatūras staciju var izmantot, lai atļautu vairākus pārdošanas punkta klientu koplietot perifērās ierīces, vai to var izmantot, lai pārvaldītu izveidoto kopu vai perifērās ierīces vienam pārdošanas punktam. 
 
@@ -179,7 +182,7 @@ Ierīču tīkla apzīmējums aparatūras profilā sniedz iespēju izveidot nauda
 
 #### <a name="modern-pos-for-windows"></a>Modern POS operētājsistēmai Windows
 
-Tīkla perifēro ierīču IP adreses varat norādīt divās vietās. Ja Modern POS Windows klientā tiek izmantota viena tīkla perifēro ierīču kopa, šo ierīču IP adreses ir jāiestata, izmantojot kases sistēmas darbību rūts opciju **IP konfigurēšana**. Ja tīkla ierīces tiks koplietotas vairākās POS kases sistēmās, aparatūras profilu, kam ir piešķirta tīkla ierīce, var tieši kartēt ar koplietotu aparatūras staciju. Lai piešķirtu IP adreses, atlasiet aparatūras staciju lapā **Veikali** un pēc tam sadaļas **Aparatūras stacijas** laukā **IP konfigurēšana** norādiet tīkla ierīces, kas ir piešķirtas šai aparatūras stacijai. Ja aparatūras stacijai ir piešķirtas tikai tīkla ierīces, šī aparatūras stacija nav jāizvieto. Šādā gadījumā aparatūras stacija ir nepieciešama tikai tīklā adresējamo ierīču konceptuālai grupēšanai atbilstoši to atrašanās vietai mazumtirdzniecības veikalā.
+Tīkla perifēro ierīču IP adreses varat norādīt divās vietās. Ja Modern POS Windows klientā tiek izmantota viena tīkla perifēro ierīču kopa, šo ierīču IP adreses ir jāiestata, izmantojot kases sistēmas darbību rūts opciju **IP konfigurēšana**. Ja tīkla ierīces tiks koplietotas vairākās POS kases sistēmās, aparatūras profilu, kam ir piešķirta tīkla ierīce, var tieši kartēt ar koplietotu aparatūras staciju. Lai piešķirtu IP adreses, atlasiet aparatūras staciju lapā **Veikali** un pēc tam sadaļas **Aparatūras stacijas** laukā **IP konfigurēšana** norādiet tīkla ierīces, kas ir piešķirtas šai aparatūras stacijai. Ja aparatūras stacijai ir piešķirtas tikai tīkla ierīces, šī aparatūras stacija nav jāizvieto. Šādā gadījumā aparatūras stacija ir nepieciešama tikai tīklā adresējamo ierīču konceptuālai grupēšanai atbilstoši to atrašanās vietai veikalā.
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS un Modern POS operētājsistēmai iOS
 
@@ -192,11 +195,11 @@ Informāciju skatiet tēmā [Aparatūras stacijas konfigurēšana un instalēša
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS operētājsistēmai Windows iestatīšana un konfigurēšana
 
-Informāciju skatiet [Konfigurēšana, instalācija un aktivizēšana Retail Modern POS](retail-modern-pos-device-activation.md).
+Informāciju skatiet [Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md).
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS operētājsistēmai Android un iOS iestatīšana un konfigurēšana
 
-Informāciju skatiet (Iestatiet POS Hybrid programmu operētājsistēmā Android and iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp]. 
+Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā Android un iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS ierīces iestatīšana un konfigurēšana
 
@@ -283,14 +286,14 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <td>Naudas kaste</td>
 <td><ul>
 <li>OPOS</li>
-<li>Tīkls <strong>Piezīme:</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</li>
+<li>Tīkls </br><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>2. dokumenta sastādītājs</td>
 <td><ul>
 <li>OPOS</li>
-<li>Tīkls <strong>Piezīme:</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</li>
+<li>Tīkls </br><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, var iestatīt tikai vienu naudas kasti.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -333,7 +336,8 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi Modern POS klienti, kam ir īpaša "Koplietotā" IIS aparatūras stacija
 
-**Piezīme.** Ja IIS aparatūras stacija ir "saistīta", pastāv "viens pret vienu" attiecības starp POS klientu un aparatūras staciju.
+> [!NOTE]
+> Ja IIS aparatūras stacija ir "saistīta", pastāv "viens pret vienu" attiecības starp POS klientu un aparatūras staciju.
 
 <table>
 <colgroup>
@@ -373,7 +377,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <td>Naudas kaste</td>
 <td><ul>
 <li>OPOS</li>
-<li>Tīkls <strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</li>
+<li>Tīkls </br><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -415,7 +419,8 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 
 ### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Visi Modern POS klienti koplietoja IIS aparatūras staciju
 
-**Piezīme.** Ja IIS aparatūras stacija ir koplietota, aparatūras stacija var tikt vienlaikus lietota vairākās ierīcēs. Šādā gadījumā drīkst lietot tikai ierīces, kas ir norādītas tālāk esošajā tabulā. Ja mēģināsit koplietot ierīces, kas nav norādītas šajā tabulā, piemēram, svītrkoda skenerus un MJL, kad vairākās ierīcēs tiks mēģināts pieprasīt vienu perifērijas ierīci, radīsies kļūdas. Turpmāk šāda konfigurācija netiks pieļauta.
+> [!NOTE]
+> Ja IIS aparatūras stacija ir "koplietota", aparatūras stacija var tikt vienlaikus lietota vairākās ierīcēs. Šādā gadījumā drīkst lietot tikai ierīces, kas ir norādītas tālāk esošajā tabulā. Ja mēģināsit koplietot ierīces, kas nav norādītas šajā tabulā, piemēram, svītrkoda skenerus un MJL, kad vairākās ierīcēs tiks mēģināts pieprasīt vienu perifērijas ierīci, radīsies kļūdas. Turpmāk šāda konfigurācija netiks pieļauta.
 
 <table>
 <colgroup>
@@ -447,7 +452,7 @@ Tīkla perifērajām ierīcēm var nodrošināt tiešu atbalstu, izmantojot liet
 <td>Naudas kaste</td>
 <td><ul>
 <li>OPOS</li>
-<li>Tīkls <strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</li>
+<li>Tīkls </br><strong>Piezīme.</strong> Ja naudas kastei ir konfigurēta opcija <strong>Lietot koplietoto maiņu</strong>, katrā aparatūras profilā var iestatīt tikai vienu naudas kasti.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -476,8 +481,12 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 
 1.  Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.
 2.  Kartējiet aparatūras profilu ar POS kases sistēmu.
-3.  Izveidojiet veida **Atvēlēts** aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma. Pēc izvēles ievadiet aprakstu. **Piezīme.** Nav nepieciešams iestatīt nekādus citus aparatūras stacijas rekvizītus. Visa pārējā nepieciešama informācija, piemēram, aparatūras profils, tiks saņemta no kases sistēmas.
-4.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail IT** &gt; **Sadales grafiks**.
+3.  Izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietots POS reģistrs. Pēc izvēles ievadiet aprakstu. 
+
+    > [!NOTE]
+    > Nav nepieciešams iestatīt nekādus citus aparatūras stacijas rekvizītus. Visa pārējā nepieciešama informācija, piemēram, aparatūras profils, tiks saņemta no kases sistēmas.
+
+4.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail un Commerce IT** &gt; **Sadales grafiks**.
 5.  Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 6.  Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 7.  Instalējiet un aktivizējiet programmu Modern POS operētājsistēmai Windows.
@@ -485,29 +494,30 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS operētājsistēmai Android ar IPC (iebūvētu) aparatūras staciju
 
-**Jauni 10.0.8** - Epson tīkla printeri un naudas kastes, kas savienotas ar šiem printeriem, izmantojot DK, tagad ir atbalstīti Modern POS operētājsistēmai Android programmai. Lai iegūtu sīkāku informāciju, apmeklējiet rakstu (Iestatīt POS hibrīda programmu operētājsistēmām Android un iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+**Jauni 10.0.8** - Epson tīkla printeri un naudas kastes, kas savienotas ar šiem printeriem, izmantojot DK, tagad ir atbalstīti Modern POS operētājsistēmai Android programmai. Papildu informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmās Android un iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi Modern POS klienti, kam ir saistīta koplietotā IIS aparatūras stacija
 
 Šo konfigurāciju var lietot visiem Modern POS klientiem, kam ir aparatūras stacija, kura tiek lietota tikai vienā POS kases sistēmā. Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.
 
 1.  Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.
-2.  Izveidojiet veida **Atvēlēts** aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.
+2.  Izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietots POS reģistrs.
 3.  Atvēlētajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.
     -   **Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija. 
     
-    **Piezīme.** Programma Cloud POS var atrisināt **localhost**, lai noteiktu lokālo datoru, kurā tiek darbināta programma Cloud POS. Taču arī sertifikātā, kas ir nepieciešams, lai programmu Cloud POS savienotu pārī ar aparatūras staciju, ir jābūt norādītam datora nosaukumam “Localhost”. Lai nepieļautu problēmas, ir ieteicams veikalam norādīt katras atvēlētās aparatūras stacijas instanci, ja tas ir nepieciešams. Katras aparatūras stacijas resursdatora nosaukumam ir jābūt vienādam ar tā konkrētā datora nosaukumu, kurā tiks izvietota aparatūras stacija.
+        > [!NOTE]
+        > Programma Cloud POS var atrisināt **localhost**, lai noteiktu lokālo datoru, kurā tiek darbināta programma Cloud POS. Taču arī sertifikātā, kas ir nepieciešams, lai programmu Cloud POS savienotu pārī ar aparatūras staciju, ir jābūt norādītam datora nosaukumam “Localhost”. Lai nepieļautu problēmas, ir ieteicams veikalam norādīt katras atvēlētās aparatūras stacijas instanci, ja tas ir nepieciešams. Katras aparatūras stacijas resursdatora nosaukumam ir jābūt vienādam ar tā konkrētā datora nosaukumu, kurā tiks izvietota aparatūras stacija.
     
     -   **Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.
     -   **Aparatūras profils** — ja aparatūras stacijā nav nodrošināts aparatūras profils, tiek lietots kases sistēmai piešķirtais aparatūras profils.
     -   **EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus. Šo ID nodrošina kredītkaršu procesors.
     -   **Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.
 
-4.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail IT** &gt; **Sadales grafiks**.
+4.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail un Commerce IT** &gt; **Sadales grafiks**.
 5.  Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 6.  Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 7.  Instalējiet aparatūras staciju. Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
-8.  Instalējiet un aktivizējiet programmu Modern POS. Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet [Retail Modern POS (MPOS) konfigurēšana, instalācija un aktivizēšana](retail-modern-pos-device-activation.md).
+8.  Instalējiet un aktivizējiet programmu Modern POS. Papildinformāciju par to, kā instalēt programmu Modern POS, skatiet [Rtail Modern POS (MPOS) konfigurēšana, instalācija un aktivizēšana](retail-modern-pos-device-activation.md).
 9.  Pierakstieties programmā Modern POS un atlasiet vienumu **Veikt operācijas bez naudas kastes**.
 10. Sāciet operāciju **Pārvaldīt aparatūras stacijas**.
 11. Noklikšķiniet uz **Pārvaldīt**.
@@ -521,7 +531,7 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 Šo konfigurāciju var lietot visiem Modern POS klientiem, kuros aparatūras stacijas tiek koplietotas ar citām ierīcēm. Lai iestatītu šo konfigurāciju, veiciet tālāk norādītās darbības.
 
 1.  Izveidojiet aparatūras profilu, kurā ir konfigurētas nepieciešamās perifērās ierīces.
-2.  Izveidojiet veida **Koplietots** aparatūras staciju mazumtirdzniecības veikalam, kurā tiks lietota šī POS kases sistēma.
+2.  Izveidojiet veida **Koplietots** aparatūras staciju veikalam, kurā tiks lietots POS reģistrs.
 3.  Koplietotajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.
     -   **Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.
     -   **Apraksts** — teksts, kas palīdz identificēt aparatūras staciju, piemēram, **Atgriešanas darbības** vai **Veikala lete**.
@@ -531,7 +541,7 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
     -   **Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.
 
 4.  Atkārtojiet 2. un 3. darbību ar katru papildu aparatūras staciju, kas ir nepieciešama veikalā.
-5.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail IT** &gt; **Sadales grafiks**.
+5.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail un Commerce IT** &gt; **Sadales grafiks**.
 6.  Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 7.  Atlasiet sadales grafiku **1040**, lai jauno aparatūras staciju sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
 8.  Instalējiet aparatūras staciju katrā resursdatorā, ko iestatījāt, veicot 2. un 3. darbību. Papildinformāciju par to, kā instalēt aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md).
@@ -546,7 +556,8 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 16. Kad visas nepieciešamās aparatūras stacijas ir savienotas pārī, noklikšķiniet uz **Aizvērt**.
 17. Aparatūras stacijas atlases lapā noklikšķiniet uz nesen atlasītās aparatūras stacijas, lai to aktivizētu. 
 
-**Piezīme.** Ja ierīcēs bieži tiek lietotas dažādas aparatūras stacijas, ir ieteicams konfigurēt programmu Modern POS tā, lai, sākot norēķinu procesu, kasierim tiktu prasīts atlasīt aparatūras staciju. Noklikšķiniet uz **Mazumtirdzniecība** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Atlasiet kases sistēmu un pēc tam iestatiet opcijas **Atlasīt norēķinu brīdī** vērtību **Jā**. Izmantojiet sadales grafiku **1090**, lai sinhronizētu izmaiņas ar kanālu datu bāzi.
+> [!NOTE]
+> Ja ierīcēs bieži tiek lietotas dažādas aparatūras stacijas, ir ieteicams konfigurēt programmu Modern POS tā, lai, sākot norēķinu procesu, kasierim tiktu prasīts atlasīt aparatūras staciju. Noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Atlasiet kases sistēmu un pēc tam iestatiet opcijas **Atlasīt norēķinu brīdī** vērtību **Jā**. Izmantojiet sadales grafiku **1090**, lai sinhronizētu izmaiņas ar kanālu datu bāzi.
 
 ## <a name="extensibility"></a>Paplašināmība
 Informāciju par aparatūras stacijas paplašināmības scenārijiem skatiet tēmā [Aparatūras stacijas paplašināmība](dev-itpro/hardware-station-extensibility.md).
@@ -554,12 +565,14 @@ Informāciju par aparatūras stacijas paplašināmības scenārijiem skatiet tē
 ## <a name="security"></a>Drošība
 Saskaņā ar pašreizējiem drošības standartiem, ražošanas vidē ir jāizmanto tālāk norādītie iestatījumi. 
 
-**Piezīme:** Aparatūras stacijas instalēšanas programma automātiski veic šos reģistra labojumus instalācijas pašapkalpošanās ietvaros.
-
+### <a name="hardware-station-installer"></a>Aparatūras stacijas instalētājs
+Aparatūras stacijas instalēšanas programma automātiski veic šos reģistra labojumus instalācijas pašapkalpošanās ietvaros.
+ 
 -   Ir jāatspējo drošligzdu slāņa (SSL) protokols.
 -   Drīkst būt iespējota un tikt lietota tikai transporta slāņa drošības (TLS) protokola versija 1.2 (vai jaunākā pašlaik pieejamā versija). 
 
-**Piezīme.** Pēc noklusējuma ir atspējots SSL protokols un visas TLS protokola versijas, izņemot TLS 1.2. Lai rediģētu vai iespējotu šīs vērtības, veiciet tālāk norādītās darbības.
+### <a name="ssl-and-tls"></a>SSL un TLS
+Pēc noklusējuma ir atspējots SSL protokols un visas TLS protokola versijas, izņemot TLS 1.2. Lai rediģētu vai iespējotu šīs vērtības, veiciet tālāk norādītās darbības.
     1.  Nospiediet taustiņu kombināciju Windows logotipa taustiņš+R, lai atvērtu logu **Izpildīt**.
     2.  Laukā **Atvērt** ievadiet **Regedit** un pēc tam noklikšķiniet uz **Labi**.
     3.  Ja tiek parādīts ziņojuma lodziņš **Lietotāja konta kontrole** noklikšķiniet uz **Jā**.
@@ -580,10 +593,11 @@ Saskaņā ar pašreizējiem drošības standartiem, ražošanas vidē ir jāizma
 -   Ir jāatspējo krusteniskās izcelsmes resursu koplietošana, un ir jānorāda atļautās izcelsmes, kas tiek pieņemtas.
 -   Lai iegūtu sertifikātus, kas tiks izmantoti datoros, kuros tiek darbināta aparatūras stacija, drīkst izmantot tikai uzticamas sertificēšanas iestādes.
 
-**Piezīme.** Ir ļoti svarīgi pārskatīt IIS drošības vadlīnijas un maksājumu karšu industrijas (PCI) prasības.
+> [!NOTE]
+> Ir ļoti svarīgi pārskatīt IIS drošības vadlīnijas un maksājumu karšu nozares (PCI) prasības.
 
 ## <a name="peripheral-simulator"></a>Perifērijas simulators
-Informāciju skatiet [Retail perifēro ierīču simulators](dev-itpro/retail-peripheral-simulator.md).
+Informāciju skatiet [Commerce perifēro ierīču simulators](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Korporācijas Microsoft pārbaudītas perifērijas ierīces
 ### <a name="ipc-built-in-hardware-station"></a>IPC (iebūvētā) aparatūras stacija
@@ -736,7 +750,10 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot atvēlēt
 
 ### <a name="shared-iis-hardware-station"></a>Koplietota IIS aparatūras stacija
 
-Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietotu IIS aparatūras staciju kopā ar programmām Modern POS operētājsistēmai Windows un Cloud POS. **Piezīme.** Tiek atbalstīts tikai printeris, maksājumu terminālis un naudas kaste.
+Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietotu IIS aparatūras staciju kopā ar programmām Modern POS operētājsistēmai Windows un Cloud POS. 
+
+> [!NOTE]
+> Tiek atbalstīts tikai printeris, maksājumu terminālis un naudas kaste.
 
 #### <a name="printer"></a>Printeris
 
@@ -793,7 +810,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 **Risinājums:** tālāk ir norādīti daži izplatītākie gadījumi, kad rodas šī problēma.
 
 -   Pārliecinieties, ka ir aizvērtas citas ierīču draiveru konfigurēšanas utilītas. Ja šīs utilītas ir atvērtas, tās var traucēt ierīces pieprasīšanu programmā Modern POS vai aparatūras stacijā.
--   Ja mazumtirdzniecības perifērā ierīce tiek koplietota vairākās POS ierīcēs, pārliecinieties, ka tā ir ietverta vienā no tālāk norādītajām kategorijām.
+-   Ja perifērā ierīce tiek koplietota vairākās POS ierīcēs, pārliecinieties, ka tā ir ietverta vienā no tālāk norādītajām kategorijām.
     -   Naudas kaste
     -   Kvīšu printeris
     -   Maksājumu terminālis
@@ -817,6 +834,6 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Perifērijas simulators mazumtirdzniecībai](dev-itpro/retail-peripheral-simulator.md)
+[Perifērijas simulators programmai Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 

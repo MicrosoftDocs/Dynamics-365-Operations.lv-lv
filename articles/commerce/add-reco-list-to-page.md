@@ -1,9 +1,9 @@
 ---
-title: Preču ieteikumu sarakstu pievienošana lapām
+title: Preču ieteikumu sarakstu pievienošana e-komercijas vietnei
 description: Šajā tēmā ir paskaidrots, kā pievienot preču ieteikumu sarakstu E-komercijas lapai.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,24 +19,23 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8fa8ee7c97299dde6397f853a128c9aaa663584d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001304"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127656"
 ---
-# <a name="add-recommendation-lists-to-a-site"></a>Rekomendāciju sarakstu pievienošana vietnei
-
+# <a name="add-recommendation-lists-an-e-commerce-site"></a>Preču ieteikumu sarakstu pievienošana e-komercijas vietnei
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā pievienot preču ieteikumu sarakstu E-komercijas lapai.
 
 1. No esošas e-Commerce vietnes veidotāja lapas atlasiet **Pievienot moduli**.
-2. Meklēt **produktu kolekcijas** moduli.
-3. Moduļa vednī atlasiet sarakstu, ko pievienot lapai.
-4. Saglabājiet izmaiņas.
+1. Meklēt **produktu kolekcijas** moduli.
+1. Moduļa vednī atlasiet sarakstu, ko pievienot lapai.
+1. Saglabājiet izmaiņas.
 
 Lai uzzinātu vairāk par sarakstu tipiem, ko varat pievienot lapai, skatiet tēmu [Preču kolekcijas moduļa apskats](product-collection-module-overview.md).
 
@@ -45,10 +44,22 @@ Lai uzzinātu vairāk par sarakstu tipiem, ko varat pievienot lapai, skatiet tē
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Preču ieteikumu iespējošana](enable-product-recommendations.md)
+[ADLS iespējošana Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
-[Pārraudzītu preču ieteikumu sarakstu izveide](create-editorial-recommendation-lists.md)
+[Iespējot preču ieteikumus](enable-product-recommendations.md)
 
-[Uz AI-ML balstītu preču ieteikumu rezultātu pārvaldība](modify-product-recommendation-results.md)
+[Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
 
-[Preču kolekcijas moduļa apskats](product-collection-module-overview.md)
+[Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
+
+[Pievienot preču ieteikumus punktā POS](product.md)
+
+[Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
+
+[AI-ML ieteikumu rezultātu pielāgošana](modify-product-recommendation-results.md)
+
+[Manuāli izveidot pārraudzītus ieteikumus](create-editorial-recommendation-lists.md)
+
+[Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
+
+[Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)

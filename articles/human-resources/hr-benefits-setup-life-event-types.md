@@ -1,6 +1,6 @@
 ---
-title: Konfigurēt dzīves notikumu veidus
-description: ''
+title: Konfigurēt dzīves notikumu tipus
+description: Microsoft Dynamics 365 Human Resources izmanto dzīves notikumu veidus, lai definētu notikumus, kas ir atļauts atjaunināt darbinieku atvieglojumu reģistrāciju.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93c4285a1918cb625a01b4523195cacdee1170b4
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8b1d911fcd86b91b96edb1bdf42316c9097ea8bc
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009866"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092641"
 ---
-# <a name="configure-life-event-types"></a>Konfigurēt dzīves notikumu veidus
+# <a name="configure-life-event-types"></a>Konfigurēt dzīves notikumu tipus
 
 [!include [banner](includes/preview-feature.md)]
 

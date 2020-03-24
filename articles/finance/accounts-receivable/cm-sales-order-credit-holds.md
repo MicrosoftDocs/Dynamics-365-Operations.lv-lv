@@ -1,6 +1,6 @@
 ---
-title: Kredīta aizturēšana pārdošanas pasūtījumiem
-description: ''
+title: Pārdošanas pasūtījumu kredītu aizturēšana
+description: Šajā tēmā ir aprakstīti kārtulu iestatījumi, kas tiek izmantoti, lai nodotu pārdošanas pasūtījumu kredīta aizturēšanai.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057674"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124258"
 ---
-# <a name="credit-holds-for-sales-orders"></a>Kredīta aizturēšana pārdošanas pasūtījumiem
+# <a name="credit-holds-for-sales-orders"></a>Pārdošanas pasūtījumu kredītu aizturēšana
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Šajā tēmā ir aprakstīti kārtulu iestatījumi, kas tiek izmantoti, lai nodotu pārdošanas pasūtījumu kredīta aizturēšanai. Kredīta pārvaldības aizturēšanas kārtulas var tikt piemērotas atsevišķam debitoram vai debitoru grupai.  Aizturēšanas kārtulas nosaka atbildes uz tālāk norādītajiem apstākļiem.
+Šajā tēmā ir aprakstīti kārtulu iestatījumi, kas tiek izmantoti, lai nodotu pārdošanas pasūtījumu kredīta aizturēšanai. Kredīta pārvaldības aizturēšanas kārtulas var tikt piemērotas atsevišķam debitoram vai debitoru grupai. Aizturēšanas kārtulas nosaka atbildes uz tālāk norādītajiem apstākļiem.
 
 1. Kavēto dienu skaits
 2. Kontu statuss
@@ -87,9 +85,9 @@ Atveriet cilni **Ir beidzies kredīta limits**, ja aizturēšanas kārtula attie
    - Atlasiet **Visi**, ja kārtula attiecas uz visiem debitoriem. 
 3. Atlasiet **Riska grupa**, lai turpmāk ierobežotu to debitoru sarakstu, kuri tiks nodoti kredīta pārvaldības aizturēšanai. 
 4. Atlasiet kārtulas veidu, ko jūs iestatāt. 
-  - Atlasiet **Aizturēšana**, lai radītu kārtulu, kas aiztur pasūtījumu. 
-  - Atlasiet **Izslēgšana**, lai radītu kārtulu, kas izslēdz citu kārtulu no pasūtījuma aizturēšanas. 
-6. Ievadiet **Dienas, kopš kredīta limits ir sasniegts** atlasītajai aizturēšanas kārtulai, pirms pasūtījums tiek nodots kredīta pārvaldības aizturēšanai. Nokavēto dienu skaits nozīmē papildu pagarinājuma dienas, kas pievienotas dienu skaitam, kuras kredīta limits ir pārsniegts.
+   - Atlasiet **Aizturēšana**, lai radītu kārtulu, kas aiztur pasūtījumu. 
+   - Atlasiet **Izslēgšana**, lai radītu kārtulu, kas izslēdz citu kārtulu no pasūtījuma aizturēšanas. 
+5. Ievadiet **Dienas, kopš kredīta limits ir sasniegts** atlasītajai aizturēšanas kārtulai, pirms pasūtījums tiek nodots kredīta pārvaldības aizturēšanai. Nokavēto dienu skaits nozīmē papildu pagarinājuma dienas, kas pievienotas dienu skaitam, kuras kredīta limits ir pārsniegts.
 
 ### <a name="overdue-amount"></a>Nokavētā summa
 
@@ -104,11 +102,10 @@ Atveriet cilni **Nokavētā summa**, ja aizturēšanas kārtula attiecas uz debi
    - Atlasiet **Visi**, ja kārtula attiecas uz visiem debitoriem. 
 3. Atlasiet **Riska grupa**, ja vēlaties turpmāk ierobežot to debitoru sarakstu, kuri tiks nodoti kredīta pārvaldības aizturēšanai. 
 4. Atlasiet kārtulas veidu, ko jūs iestatāt. 
-  - Atlasiet **Aizturēšana**, lai radītu kārtulu, kas aiztur pasūtījumu. 
-  - Atlasiet **Izslēgšana**, lai radītu kārtulu, kas izslēdz citu kārtulu no pasūtījuma aizturēšanas. 
+   - Atlasiet **Aizturēšana**, lai radītu kārtulu, kas aiztur pasūtījumu. 
+   - Atlasiet **Izslēgšana**, lai radītu kārtulu, kas izslēdz citu kārtulu no pasūtījuma aizturēšanas. 
 5. Ievadiet **Nokavētā summa** atlasītajai aizturēšanas kārtulai, pirms pasūtījums tiek nodots kredīta pārvaldības aizturēšanas pārskatīšanai. 
-6. Atlasiet tādu vienuma **Vērtības veids** vērtību, kas nosaka vērtības veidu, kas tiks izmantots, lai pārbaudītu, cik daudz kredīta limita ir izmantots. Aizturēšanas kārtulās ir jānorāda procenti, bet izslēgšanai var būt norādīta fiksēta summa vai procenti.
-slieksnis. Slieksnis ir saistīts ar kredīta limitu.
+6. Atlasiet tādu vienuma **Vērtības veids** vērtību, kas nosaka vērtības veidu, kas tiks izmantots, lai pārbaudītu, cik daudz kredīta limita ir izmantots. Aizturēšanas kārtulās ir jānorāda procenti, bet izslēgšanai var būt norādīta fiksēta summa vai procenti. Slieksnis ir saistīts ar kredīta limitu.
 7. Ievadiet vērtību **Kredīta limita slieksnis** atlasītajai kārtulai, pirms debitors turpina kredīta pārvaldības aizturēšanu. Tā var būt summa vai procenti, kas balstīti uz vērtības tipu, kas atlasīts vērtības tipā.
 8. Kārtula pārbauda, vai ir pārsniegtas vērtības **Kavētā summa** un **Kredīta limita slieksnis**. 
 
@@ -125,9 +122,9 @@ Atlasiet **Pārdošanas pasūtījums**, ja bloķēšanas kārtula attiecas uz p�
    - Atlasiet **Visi**, ja kārtula attiecas uz visiem debitoriem. 
 3. Atlasiet **Riska grupa**, ja vēlaties turpmāk ierobežot to debitoru sarakstu, kuri tiks nodoti kredīta pārvaldības aizturēšanai. 
 4. Atlasiet kārtulas veidu, ko jūs iestatāt.  
-  - Atlasiet **Aizturēšana**, lai radītu kārtulu, kas aiztur pasūtījumu. 
-  - Atlasiet **Izslēgšana**, lai radītu kārtulu, kas izslēdz citu kārtulu no pasūtījuma aizturēšanas. 
-6. Ievadiet vienuma **Pārdošanas pasūtījuma summa** vērtību atlasītajai aizturēšanas kārtulai, pirms pasūtījums tiek nodots kredīta pārvaldības aizturēšanai. 
+   - Atlasiet **Aizturēšana**, lai radītu kārtulu, kas aiztur pasūtījumu. 
+   - Atlasiet **Izslēgšana**, lai radītu kārtulu, kas izslēdz citu kārtulu no pasūtījuma aizturēšanas. 
+5. Ievadiet vienuma **Pārdošanas pasūtījuma summa** vērtību atlasītajai aizturēšanas kārtulai, pirms pasūtījums tiek nodots kredīta pārvaldības aizturēšanai. 
 
 Pārdošanas pasūtījuma kārtulā ir ietverts papildu iestatījums, kas ignorē visas pārējās kārtulas. Lai izveidotu izņēmumu, kas izpildīs pārdošanas pasūtījumu, neņemot vērā nekādu citu kārtulu ietekmi, atzīmējiet izvēles rūtiņu **Izpildīt pārdošanas pasūtījumu**, kas atrodas izņēmumu rindā.
 
@@ -206,7 +203,7 @@ Pārdošanas pasūtījumu var ievietot aizturēšanas sarakstā tālāk norādī
 8. Apmaksas noteikumi atšķiras no debitora noklusējuma apmaksas noteikumiem.
 9. Norēķinu atlaides atšķiras no noklusējuma norēķinu atlaidēm, kas attiecas uz debitoru.
 
-Aizturēšanas sarakstā katram pārdošanas pasūtījumam tiek rādīts aizturēšanas iemesls. Ja aizturēšanai ir vairāk nekā viens iemesls, iemesls tiks rādīts kā **Vairāki**. Darbību rūtī varat izmantot izvēlni **Aizturēšanas iemesli**, lai skatītu visus iemeslus, kāpēc pārdošanas pasūtījums tika aizturēts. **Aizturēšanas iemeslus** varat skatīt arī papildinformācijā.
+Aizturēšanas sarakstā katram pārdošanas pasūtījumam tiek rādīts aizturēšanas iemesls. Ja aizturēšanai ir vairāk nekā viens iemesls, iemesls tiks rādīts kā **Vairāki**. Darbību rūtī varat izmantot izvēlni **Aizturēšanas iemesli**, lai skatītu visus iemeslus, kāpēc pārdošanas pasūtījums tika aizturēts. **Aizturēšanas iemeslus** varat skatīt arī Papildinformācijā.
 
 ### <a name="releasing-orders-from-the-hold-list-for-processing"></a>Tiek palaisti pasūtījumi no apstrādājamā aizturēšanas saraksta
 
@@ -216,8 +213,8 @@ Kad esat izskatījis aizturēšanas iemeslus un esat tos mazinājis, varat palai
 2) Atlasiet **Palaišanas iemeslu** pasūtījumam, kas ir atlasīts palaišanai.  
 3) Ievadiet **Palaišanas datumu** katram pasūtījumam, kas ir atlasīts palaišanai.  
 4) Atlasiet izvēlni **Palaist** darbību rūtī, lai palaistu pasūtījumu. Šī izvēlne būs pieejama tikai pēc transakciju atlases. Lietotājam tiek piedāvātas divas opcijas.
- - Atlasiet **Ar iegrāmatošanu**, lai noņemtu aizturēšanu, un grāmatojiet dokumentu, izmantojot to pašu grāmatošanas procesu, kas tika lietots, kad tas tika aizturēts. Piemēram, ja pārdošanas pasūtījuma apstiprinājums tika aizturēts, pārdošanas pasūtījuma apstiprinājums tiks pabeigts pēc palaišanas. Pārdošanas pasūtījuma grāmatošanas forma tiks parādīta, ļaujot lietotājam grāmatot apstiprinājumu.
- - Atlasiet **Bez grāmatošanas**, lai noņemtu aizturēšanu, neveicot turpmāku apstrādi. Tagad pārdošanas pasūtījumu var manuāli grāmatot.
+   - Atlasiet **Ar iegrāmatošanu**, lai noņemtu aizturēšanu, un grāmatojiet dokumentu, izmantojot to pašu grāmatošanas procesu, kas tika lietots, kad tas tika aizturēts. Piemēram, ja pārdošanas pasūtījuma apstiprinājums tika aizturēts, pārdošanas pasūtījuma apstiprinājums tiks pabeigts pēc palaišanas. Pārdošanas pasūtījuma grāmatošanas forma tiks parādīta, ļaujot lietotājam grāmatot apstiprinājumu.
+   - Atlasiet **Bez grāmatošanas**, lai noņemtu aizturēšanu, neveicot turpmāku apstrādi. Tagad pārdošanas pasūtījumu var manuāli grāmatot.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Pasūtījumu noraidīšana aizturēšanas sarakstā
 Varat izmantot **Atteikuma** izvēlni darbības rūtī, lai noraidītu pārdošanas pasūtījumu

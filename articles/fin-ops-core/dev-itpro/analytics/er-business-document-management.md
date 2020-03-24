@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957371"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117341"
 ---
 # <a name="business-document-management-overview"></a>Pārskats par biznesa dokumentu pārvaldību
+
+[!include [banner](../includes/banner.md)]
 
 Biznesa lietotāji izmanto [Elektronisko pārskatu (EP)](general-electronic-reporting.md) struktūru, lai konfigurētu izejošo dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Lietotāji var arī definēt datu plūsmu, lai norādītu, kādus lietojumprogrammas datus ievietot ģenerētajos dokumentos. EP struktūra ģenerē izejošos dokumentus Microsoft Office formātos (Excel darbgrāmatas vai Word dokumentus), izmantojot iepriekš definētas veidnes. Veidnes tiek aizpildītas ar nepieciešamajiem datiem saskaņā ar konfigurēto datu plūsmu, kamēr tiek ģenerēti nepieciešamie dokumenti. Katru konfigurētu formātu var publicēt kā EP risinājuma daļu noteiktu izejošo dokumentu ģenerēšanai. To pārstāv EP formāta konfigurācija, kas var ietvert veidnes, ko var izmantot dažādu izejošo dokumentu ģenerēšanai. Biznesa lietotāji var izmantot šo struktūru, lai pārvaldītu nepieciešamos biznesa dokumentus.
 
@@ -147,7 +149,7 @@ Lai iegūtu papildu informāciju, kā iestatīt nepieciešamos dokumentu pārval
 
 ![Iestatiet Dokumentu pārvaldības dokumentu tipu](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Iestatīšanas parametri</a>
+### <a name=""></a><a name="SetupBdmParameters">Iestatīšanas parametri</a>
 
 Pamata Biznesa dokumentu pārvaldības parametrus var iestatīt lapā **Biznesa dokumentu parametri**. Lapai var piekļūt tikai noteikti lietotāji. Tā ietver:
 
@@ -158,7 +160,7 @@ Izmantojiet šādu procedūru pamata parametru iestatīšanai visām juridiskām
 
 1. Pierakstieties kā lietotājs ar piekļuvi lapai **Biznesa dokumentu parametri**.
 2. Pārejiet uz sadaļu **Organizācijas administrēšana** \> **Elektroniskie pārskati** \> **Biznesa dokumentu pārvaldība** \> **Biznesa dokumentu parametri**.
-3.  Lapā **Biznesa dokumentu parametri** cilnē **Pielikumi**, laukā **SharePoint document tips** definējiet dokumenta tipu, ko izmantot veidņu pagaidu glabāšanai Office formātos, kamēr tiek rediģēti, izmantojot Office datora lietojumprogrammas. 
+3.    Lapā **Biznesa dokumentu parametri** cilnē **Pielikumi**, laukā **SharePoint document tips** definējiet dokumenta tipu, ko izmantot veidņu pagaidu glabāšanai Office formātos, kamēr tiek rediģēti, izmantojot Office datora lietojumprogrammas. 
 
 > [!NOTE]
 > Šim parametram ir pieejami tikai dokumentu tipi, kas konfigurēti, izmantojot SharePoint atrašanās vietu.
@@ -288,13 +290,13 @@ Opcija **Jauns dokuments** vienmēr ir pieejama veidnei ER formāta konfigurāci
 
 ![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Rediģēt veidni programmā Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Rediģēt veidni programmā Office 365</a>
 
-Veidni iespējams modificēt, izmantojot Office 365. Piemēram, programmā Office online izmaniet lauku uzvedņu fontu veidnes virsrakstā no **Parasts** uz **Treknraksts**. Šīs izmaiņas tiek automātiski saglabātas rediģējamajāi veidnē, kas tiek glabāta primārajā veidnes krātuvē (pēc noklusējuma Azure BLOB krātuvē). Tas ir konfigurēts ER struktūrai.
+Veidni iespējams modificēt, izmantojot Office 365. Piemēram, programmā Office online izmaniet lauku uzvedņu fontu veidnes virsrakstā no **Parasts** uz **Treknraksts**. Šīs izmaiņas tiek automātiski saglabātas rediģējamajā veidnē, kas tiek glabāta primārajā veidnes krātuvē (pēc noklusējuma Azure BLOB krātuvē). Tas ir konfigurēts ER struktūrai.
 
 ![Biznesa dokumentu pārvaldības veidņu rediģēšanas lapa](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Rediģējiet veidni datora lietojumprogrammā Office</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Rediģējiet veidni datora lietojumprogrammā Office</a>
 
 > [!NOTE]
 > Šī funkcija ir pieejama tikai tad, ja parametrs **SharePoint dokumenta tips** ir pareizi konfigurēts. Papildinformāciju skatiet sadaļā [Parametru konfigurēšana](#SetupBdmParameters).
@@ -398,7 +400,7 @@ Jā, varat. Pirmajā piemērošanas sesijā atlasiet **Atvērt datora lietojumpr
 3. Pirmās pielietošanas sesijas lapā **BDM veidnes redaktors** atlasiet **Sinhronizētā saglabātā kopija**.
 4. Izpildiet šo veidnes ER formātu otrās pielietošanās sesijā.
 
-#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Parādās kļūda “Vērtība nevar būt nulle. Parametra nosaukums: externalId”, izvēloties **Atvērt datora lietojumprogrammā**. Kā atrisināt šo problēmu? 
+#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Parādās kļūda ¨Vērtība nevar būt nulle¨. Parametra nosaukums: externalId', izvēloties **Atvērt datora lietojumprogrammā**. Kā atrisināt šo problēmu? 
 Visticamāk, esat pierakstījies pašreizējai Azure AD domēna lietojumprogrammas instancei, kas atšķiras no Azure AD domēna, kas tika izmantots šīs instances izvietošanai. Tā kā pakalpojums SharePoint, kas tiek izmantots veidņu glabāšanai, lai padarītu tās pieejamas rediģēšanai, izmantojot datora lietojumprogrammas Office, pieder pie tā paša domēna, mums nav atļauju piekļūt pakalpojumam SharePoint. Lai atrisinātu šo problēmu, pierakstieties pašreizējai instancei, izmantojot lietotāja ar pareizu Azure AD domēnu akreditācijas datus.
 
 ## <a name="additional-resources"></a>Papildu resursi

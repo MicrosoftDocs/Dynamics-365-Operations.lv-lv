@@ -3,7 +3,7 @@ title: Domēna nosaukuma konfigurēšana
 description: Šajā tēmā paskaidrots, kā konfigurēt domēna nosaukumu Microsoft Dynamics365 e-komercijas vietnei.
 author: psimolin
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4db774783dba4b1cea9552da3cff29a9528bd496
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2ad9ca3aee21301ef6d830d7b29982a45cd53f60
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002178"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096824"
 ---
 # <a name="configure-your-domain-name"></a>Domēna nosaukuma konfigurēšana
 
@@ -45,13 +45,21 @@ Lai saistītu jaunus domēnus ar savu E-komercijas vidi pēc E-komercijas inicia
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
+[Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
+
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
-[robots.txt failu pārvaldība](manage-robots-txt-files.md)
+[Failu robots.txt pārvaldība](manage-robots-txt-files.md)
+
+[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
 
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 

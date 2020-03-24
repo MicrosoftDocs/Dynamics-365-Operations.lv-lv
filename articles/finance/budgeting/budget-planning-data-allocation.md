@@ -3,7 +3,7 @@ title: Budžeta plānošanas datu sadalījums
 description: Šajā tēmā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmā Microsoft Dynamics 365 Finance, un to lietošana.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772080"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106886"
 ---
 # <a name="budget-planning-data-allocation"></a>Budžeta plānošanas datu sadalījums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmā Microsoft Dynamics 365 Finance, un to lietošana.  
+Šajā tēmā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmā Microsoft Dynamics 365 Finance, un to lietošana.  
 
 Varat sadalīt budžeta plāna datus vairākos veidos, lai precīzi attēlotu paredzamās summas.
 
 ## <a name="allocation-methods"></a>Sadalījuma metodes
 Trīs sadalījuma metodes (sadalīt periodos, sadalīt uz dimensijām un izmantot Virsgrāmatas sadalījuma kārtulas) var izveidot budžeta plāna rindas, kas balstās uz rindām vienā budžeta plānā. Trīs citas metodes (apkopot, izplatīt un kopēt no budžeta plāna) var izveidot budžeta plāna rindas citos budžeta plānos. Visām sešām sadalījuma metodēm jānorāda mērķa scenārijs. Mērķa scenārijs var būt vai nu tas pats avota scenārijs vai atšķirīgs no avota scenārija. Papildus varat norādīt, vai jaunas rindas tiek pievienotas budžeta plānam vai aizstās esošās budžeta plāna rindas.
+
+> [!NOTE] 
+> Summēšanai jāizmanto unikāls scenārijs, kas atšķiras no scenārija, kas tika izmantots sadalei vai citām modifikācijām, kas iepriekš tika veiktas pamatplānā.  
 
 [![Sadalīt pa periodiem piešķiršanas metode](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu pa mērķa scenārija periodiem, tiek izmantota periodu sadalījuma kategorija. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         

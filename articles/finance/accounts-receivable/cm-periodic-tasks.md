@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: df3b0b239fe542eab80fa92057248328d3f5188f
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 4ca9bb7f77283ec30d4648d6763f4156494050ac
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015313"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124166"
 ---
-# <a name="periodic-credit-management-tasks"></a>Kredīta pārvaldības periodiskie uzdevumi
+# <a name="periodic-credit-management-tasks"></a>Periodiski kredītu pārvaldības uzdevumi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā aprakstīti periodiskie uzdevumi, kas ir nepieciešami kā debitoru kredīta limitu pārvaldības procesa daļa.
 

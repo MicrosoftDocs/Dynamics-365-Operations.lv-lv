@@ -3,7 +3,7 @@ title: Saglabātie skati
 description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017708"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100312"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -71,7 +71,7 @@ Ja vēlaties saglabāt šīs izmaiņas, rīkojieties šādi.
 2.  Lai modificētu esošo skatu:
      1. Atlasiet **Saglabāt**. Ņemiet vērā, ka šī darbība netiks iespējota bloķētiem skatiem. 
 3.  Lai izveidotu jaunu skatu:
-     1.    Atlasiet **Saglabāt kā...**. 
+     1.    Atlasiet **Saglabāt kā**. 
      2.    Ievadiet skata nosaukumu un (pēc izvēles) aprakstu.
      3.    Atlasiet **Saglabāt**.
 
@@ -83,9 +83,9 @@ Lai mainītu lapas noklusējuma skatu, izpildiet šīs darbības.
 2.  Atlasiet skata nosaukumu, lai atvērtu skata atlasītāju. 
 3.  Atlasiet **Vairāk** un pēc tam **Piespraust kā noklusējumu**.  
 
-Vai arī, veidojot jaunu skatu (izmantojot darbību **Saglabāt kā...**), varat padarīt šo jauno skatu par noklusējuma skatu, iestatot opciju **Piespraust kā noklusējumu**, pirms saglabājat skatu.
+Vai arī, veidojot jaunu skatu (izmantojot darbību **Saglabāt kopiju**), varat padarīt šo jauno skatu par noklusējuma skatu, iestatot opciju **Piespraust kā noklusējumu**, pirms saglabājat skatu.
 
-Ņemiet vērā, ka dažos gadījumos ar noklusējuma skatu saistītais vaicājums netiek izpildīts, kad pirmo reizi pārejat uz lapu. Piemēram, pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Turklāt, ja pārejat uz lapu, kuras klasiskajam skatam jau ir definēts vaicājums, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Šādā gadījumā tiks parādīts informatīvs ziņojums, kad skats tiek ielādēts. Skatu pārslēgšanai pēc lapas ielādes būtu jānodrošina pareiza skata vaicājuma izpilde.
+Ņemiet vērā, ka dažos gadījumos ar noklusējuma skatu saistītais vaicājums netiek izpildīts, kad pirmo reizi pārejat uz lapu. Piemēram, pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Turklāt, ja pārejat uz lapu, kuras standarta skatam jau ir definēts vaicājums, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Šādā gadījumā tiks parādīts informatīvs ziņojums, kad skats tiek ielādēts. Skatu pārslēgšanai pēc lapas ielādes būtu jānodrošina pareiza skata vaicājuma izpilde. Sākot ar versijas 10.0.10 platformas atjauninājumu 34, informatīvajam ziņojumam būs iegulta darbība, kas ļauj tieši ielādēt noklusējuma skata vaicājumu.
 
 ## <a name="managing-personal-views"></a>Personisko skatu pārvaldība 
 Dialoglodziņš **Pārvaldīt manus skatus** nodrošina pamata uzturēšanas iespējas attiecībā uz personiskajiem skatiem un skatu secību skata atlasītājā. Lai atvērtu šo lapu, noklikšķiniet uz skata nosaukuma, lai atvērtu skata atlasītāja nolaižamo izvēlni, atlasiet **Vairāk** un pēc tam atlasiet **Pārvaldīt manus skatus**.  
@@ -119,7 +119,7 @@ Lai publicētu skatu, veiciet šādas darbības.
 4.  Ievadiet skata nosaukumu un (pēc izvēles) aprakstu. Jūsu ievadītais nosaukums ir tas, ko lietotāji, kuriem tiks piešķirts šis skats, redzēs skata atlasītājā. Lapas publicēto skatu nosaukumiem ir jābūt unikāliem. Nav atļauti publicēto skatu nosaukuma dublikāti pat tad, ja atšķiras lomas vai juridiskās personas, kurām tie ir lietoti.
 5.  Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats.
 6. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
-7. [10.0.9/Platform update 33 vai jaunāka] Nosaka, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Skata padarīšana par noklusējuma nozīmē, ka šis ir skats, ko lietotāji redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tādējādi šiem lietotājiem tiks modificēts noklusējuma skats. Tomēr lietotāji joprojām var mainīt noklusēto skatu pēc publicēšanas.    
+7. [10.0.9/platformas atjauninājums 33 vai jaunāks] nosaka, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Skata padarīšana par noklusējuma nozīmē, ka šis ir skats, ko lietotāji redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tādējādi šiem lietotājiem tiks modificēts noklusējuma skats. Tomēr lietotāji joprojām var mainīt noklusēto skatu pēc publicēšanas.    
 8.  Atlasiet **Publicēt**.
 
 Ņemiet vērā, ka dažās vidēs var būt nepieciešams ilgāks laiks (līdz pat stundai), pirms lietotāji redz publicēto skatu.
@@ -133,8 +133,8 @@ Ja izmaiņas, kuras vēlaties veikt publicētajā skatā, ietver tikai publicē�
 3.  Atlasiet **Jā**, ja vēlaties atjaunināt esošo skatu (vai **Nē**, ja vēlaties to publicēt ar citu nosaukumu).
 4.  Atjauniniet skata nosaukumu, aprakstu un/vai drošības lomas. 
 5.  Atlasiet **Publicēt**. 
-6.  [10.0.8/Platform update 32 vai vecāka] Ja esat atjauninājis publicētā skata nosaukumu, jums būs jādzēš arī publicētais skats ar veco nosaukumu (papildinformāciju skatiet sadaļā **Publicēto skatu pārvaldīšana**). 
-7. [10.0.9/Platform update 33 vai jaunāka versija] Ja sākotnēji esat izvēlējies šo publicēto skatu kā noklusējuma skatu, pēc atkārtotas publicēšanas tas būs noklusējuma skats šiem lietotājiem.  
+6.  [10.0.8/platformas atjauninājums 32 vai vecāks] ja esat atjauninājis publicētā skata nosaukumu, jums būs jādzēš arī publicētais skats ar veco nosaukumu (papildinformāciju skatiet sadaļā **Publicēto skatu pārvaldīšana**). 
+7. [10.0.9/platformas atjauninājums 33 vai jaunāks] ja sākotnēji esat izvēlējies šo publicēto skatu kā noklusējuma skatu, pēc atkārtotas publicēšanas tas būs noklusējuma skats šiem lietotājiem.  
 
 Ja publicētajā skatā veiktās izmaiņas ietver ar skatu saistīto personalizāciju vai filtru modificēšanu, rīkojieties šādi. 
 1.  Pārslēdzieties uz publicēto skatu, kuru vēlaties modificēt. 

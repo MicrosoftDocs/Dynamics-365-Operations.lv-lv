@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178884"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106863"
 ---
 # <a name="process-collection-letters"></a>Atgādinājuma vēstuļu apstrāde
 
@@ -70,7 +70,11 @@ ms.locfileid: "2178884"
     1. Laukā **Drukāts** atlasiet opciju.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Atgādinājuma vēstuļu pārvaldība debitora līmenī
-Varat arī iestatīt atgādinājuma vēstules debitora līmenī, un tādējādi tiks izsekots katras transakcijas atgādinājuma vēstules kods, bet atgādinājuma vēstuļu apstrādes pamatā būs viens atgādinājuma vēstuļu līmenis, kas saglabāts par debitoru. Viena atgādinājuma vēstule ietvers visas debitora nokavētās transakcijas. Tā kā pagarinājuma dienas tagad tiek izsekotas debitora līmenī, nākamā atgādinājuma vēstule netiek nosūtīta, līdz nav pagājis nākamās atgādinājuma vēstules nosūtīšanai noteiktais pagarinājuma dienu skaits, pat ja transakcijas tiek nokavētas pēc pēdējās atgādinājuma vēstules nosūtīšanas. Šī iespēja samazina katram klientam nosūtāmo atgādinājuma vēstuļu skaitu. 
+Ja transakciju līmenī ir iestatītas atgādinājuma vēstules, klientam var tikt izveidotas vairākas vēstules, kas balstītas uz transakciju vecumstruktūru. Ja transkacijas parādās dažādās vēstules virknēs, katrai nokavēto traksakciju grupai tiks ģenerētas atsevišķas atgādinājuma vēstules klientam. Tādēļ atsevišķs klients var saņemt, piemēram, vienu atgādinājuma vēstuli par transakcijām, kuru termiņš ir pārsniedzis 60 dienas, un citas atgādinājuma vēstules, kuru termiņš ir pārsniedzis 90 dienas. 
+
+Katra atgādinājuma vēstule arī ir saistīta ar atgādinājuma vēstules kodu. Atgādinājuma vēstules kods ir saistīts ar atsevišķām darbībām un tiek izmantots, lai noteiktu, kad katrai transakcijai ir jāģenerē nākamā atgādinājuma vēstule. Piemēram, ja darbība pārsniedz 30 nokavēto dienu, atgādinājuma vēstules kods nosaka, ka nākamā atgādinājuma vēstule tiks nosūtīta, kad darbība pārsniegs 60 dienas, ja tā pirms tam nav apmaksāta. 
+
+Atgādinājuma vēstules var iestatīt arī klientu līmenī. Šajā gadījumā tiks izsekots katras transakcijas atgādinājuma vēstules kods, bet atgādinājuma vēstuļu apstrādes pamatā būs viens atgādinājuma vēstuļu līmenis, kas saglabāts klientam. Viena atgādinājuma vēstule ietvers visas klienta nokavētās transakcijas. Tā kā pagarinājuma dienas tagad tiek izsekotas klienta līmenī, nākamā atgādinājuma vēstule netiek nosūtīta, līdz nav pagājis nākamās atgādinājuma vēstules nosūtīšanai noteiktais pagarinājuma dienu skaits, pat ja transakcijas tiek nokavētas pēc pēdējās atgādinājuma vēstules nosūtīšanas. Šī iespēja palīdz samazināt katram klientam nosūtāmo atgādinājuma vēstuļu skaitu.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Debitora iestatīšana atgādinājuma vēstuļu pārvaldībai debitora līmenī
 1.  Ejiet uz **Navigācijas rūts > Moduļi > Kredīts un atgūšana > Iestatīšana > Kreditoru parametri** un atlasiet cilni **Atgūšana**. 

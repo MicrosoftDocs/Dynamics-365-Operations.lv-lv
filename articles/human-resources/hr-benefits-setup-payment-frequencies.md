@@ -1,6 +1,6 @@
 ---
-title: Maksājumu biežuma iestatīšana
-description: ''
+title: Iestatīt maksājumu biežumu
+description: Microsoft Dynamics 365 Human Resources izmanto maksājuma biežumu, lai aprēķinātu gada atvieglojumu algu, noteiktu atvieglojumu piemaksas summu, ko nodarbinātais maksā katram apmaksas periodam, un nosaka biežuma maksājumus, kas tiek veikti pakalpojumu sniedzējiem.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5fe0a16c4abbb9241fcdac88fd56e92bf04788c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b786485ab53dcdb3b7e5ff02562f674a7f8e6eae
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009865"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092595"
 ---
-# <a name="set-up-payment-frequencies"></a>Maksājumu biežuma iestatīšana
+# <a name="set-up-payment-frequencies"></a>Iestatīt maksājumu biežumu
 
 [!include [banner](includes/preview-feature.md)]
 

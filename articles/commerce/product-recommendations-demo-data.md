@@ -1,9 +1,9 @@
 ---
-title: Preču ieteikumu iegūšana, izmantojot demonstrācijas datus
+title: Izveidot ieteikumus ar demo datiem
 description: Šis dokuments sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042784"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127840"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Preču ieteikumu iegūšana, izmantojot demonstrācijas datus
+# <a name="create-recommendations-with-demo-data"></a>Izveidot ieteikumus ar demo datiem
+
+[!include [banner](includes/banner.md)]
+
 Šis dokuments sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 
 Daudzkanālu preces ieteikumi sniedz redakcionāli pārraudzītu vai programmiski ģenerētu preču sarakstu kopu. Šos sarakstus var izmantot vairākos scenārijos atkarībā no biznesa vajadzībām. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, skatiet [Preču ieteikumu pārskats](product-recommendations.md).
@@ -49,7 +52,7 @@ Dati ir strukturēti tālāk redzamajās kolonnās.
 | PārvaldībasStruktūrvienībuNumurs | :heavy_check_mark: | Konkrētais pārvaldības struktūrvienības numurs, kurā ir paredzēts uzrasties preču ieteikumiem.                                        |                                                                              |
 | Kategorija            |                    |    Kategorija, kurai jāatgriež konkrētais saraksts. Ja kategorija nav norādīta, saraksts ir paredzēts tikai augšējai navigācijas hierarhijai.    |                                                                              |
 | AtlasesPrecesId          |                    |    Sarakstiem, kam ir nepieciešams sākums (RecoPeopleAlsoBuy un RecoCart), preces, kurām šiem sarakstiem jāparāda papildu preces.            |                                                                              |
-| PrecesId             | :heavy_check_mark: | Viena vai vairākas preces, kas jāatgriež kā rezultāts, kas atdalīts ar ";".                                                                  |                                                                              |
+| PrecesId             | :heavy_check_mark: | Viena vai vairākas preces, kas jāatgriež kā rezultāts, kas atdalīts ar ';'.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Pielāgot demonstrācijas datus
 Varat rediģēt noklusējuma demonstrācijas datus ar jebkuru preču un kategoriju informāciju, kas ir konfigurēta HQ. Kad atjaunināt .csv, preču ieteikumi, kas tiek sniegti klientiem, nekavējoties atspoguļos izmaiņas.
@@ -67,4 +70,22 @@ Paplašinājums ietver datu faila ar nosaukumu 'RecoMockDataset.csv', kas ļauj 
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Vides plānošana](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[ADLS iespējošana Dynamics 365 Commerce vidē](enable-adls-environment.md)
+
+[Iespējot preču ieteikumus](enable-product-recommendations.md)
+
+[Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
+
+[Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
+
+[Preču ieteikumu sarakstu pievienošana e-komercijas vietnei](add-reco-list-to-page.md)
+
+[Pievienot preču ieteikumus punktā POS](product.md)
+
+[Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
+
+[AI-ML ieteikumu rezultātu pielāgošana](modify-product-recommendation-results.md)
+
+[Manuāli izveidot pārraudzītus ieteikumus](create-editorial-recommendation-lists.md)
+
+[Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)

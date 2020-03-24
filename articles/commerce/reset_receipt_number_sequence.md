@@ -3,7 +3,7 @@ title: Kvīts numuru atiestatīšana
 description: Šajā tēmā aprakstīts, kā atiestatīt kvīts numurus, kas tiek izmantoti dažādām darbībām vēlamajā datumā (piemēram, finanšu gadā vai kalendārajā gadā).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020082"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123950"
 ---
 # <a name="reset-receipt-numbers"></a>Kvīts numuru atiestatīšana 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Mazumtirgotāji ģenerē kvīšu numurus dažādām darbībām veikalā, piemēram, pārdošanas skaidrā naudā bez piegādes transakcijām, atgriešanas transakcijām, klientu pasūtījumiem, piedāvājumiem un maksājumiem. Lai gan mazumtirgotāji definē savus kvīšu formātus, dažām valstīm vai reģioniem ir noteikumi, kas ierobežo šos kvīšu formātus. Piemēram, šie noteikumi var ierobežot kvīts rakstzīmju skaitu, pieprasīt secīgus saņemšanas numurus, ierobežot dažas speciālās rakstzīmes vai pieprasīt atgriezt saņemšanas numurus gada sākumā. Microsoft Dynamics 365 Commerce padara kvīšu numuru pārvaldību ļoti elastīgu, lai palīdzētu tirgotājiem atbilst normatīvajām prasībām. Šajā tēmā skaidrots, kā izmantot funkcionalitāti kvīšu numuru atiestatīšanai.
 

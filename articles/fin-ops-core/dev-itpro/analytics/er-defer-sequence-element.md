@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015304"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124547"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Secības elementu izpildes atlikšana ER formātos
 
@@ -45,7 +45,7 @@ Opcija **Atliktā izpilde** tiek atbalstīta tikai tiem secības elementiem, kas
 
 Opcija **Atliktā izpilde** nav attiecināma uz secībām, kas ir konfigurētas kā apcirstas secības, kur maksimālais garums ir ierobežots.
 
-## <a name="Example"></a>Piemērs: Secības elementa izpildes atlikšana ER formātā
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Piemērs: Secības elementa izpildes atlikšana ER formātā
 
 Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu konsultanta [lomā](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) var konfigurēt ER formātu, kas satur tādu secības elementu, kur izpildes secība formāta hierarhijā atšķiras no pasūtījuma.
 

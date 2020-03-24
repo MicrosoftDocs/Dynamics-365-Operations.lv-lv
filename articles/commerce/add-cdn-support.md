@@ -3,7 +3,7 @@ title: Atbalsta pievienošana satura piegādes tīklam (CDN)
 description: Šajā tēmā ir aprakstīts, kā pievienot satura piegādes tīklu (CDN) jūsu Microsoft Dynamics 365 Commerce videi.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf5a0da2803f985e6c0c04dd9916977397173d11
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001626"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096729"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
@@ -144,12 +144,20 @@ Tagad jūsu CDN ir jābūt pareizi konfigurētam, lai to varētu izmantot kopā 
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
+[Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
+
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
 [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 
+[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
+
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)

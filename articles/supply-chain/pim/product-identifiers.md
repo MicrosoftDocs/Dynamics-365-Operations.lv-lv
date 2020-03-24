@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004023"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095621"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori 
 
@@ -43,9 +43,6 @@ Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supp
 Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
 
 Izmantojot Common Data Service, preču numurs Supply Chain Management ir arī preces numurs Common Data Service. Preču varianti tiek sinhronizēti ar pakalpojumu Common Data Service kā atšķirīgas preces.
-
-> [!NOTE]
-> Preces numuru nevar sākt ar "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Krājuma numurs un preces dimensijas
 

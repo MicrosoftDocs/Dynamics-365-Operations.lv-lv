@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890331"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133900"
 ---
 # <a name="vendor-invoices-overview"></a>Kreditoru rēķinu pārskats
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem.
 
@@ -66,6 +67,16 @@ Varat pievienot kreditora rēķinam rindu, kas netika iekļauta pirkšanas pasū
 
 Lai pārvaldītu kreditoru rēķinu pārskatīšanas procesu, organizācijā var tikt izmantotas darbplūsmas. Pārskatīšanu darbplūsmā var pieprasīt rēķina virsrakstam, rēķina rindai vai abiem vienumiem. Darbplūsmas vadīklas tiek piemērotas virsrakstam vai rindai atkarībā no tā, kurš apgabals bija fokusā, kad atlasījāt vadīklu. Pogas **Grāmatot** vietā ir redzama poga **Iesniegt**, kuru varat lietot, lai kreditora rēķinu sūtītu caur pārskatīšanas procesu.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Novērst rēķina iesniegšanu darbplūsmā 
+
+Tālāk ir sniegti vairāki veidi, kā var novērst rēķina iesniegšanu darbplūsmā.
+
+- **Rēķina kopsumma un reģistrētā kopsumma nav vienādas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka kopsummas nav vienādas, tāpēc ir iespējams labot bilances, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja rēķina kopsumma un reģistrētā rēķina kopsumma nav vienādas** lapā **Līdzekļu pārvaldība**. 
+
+- **Rēķinā ir nepiešķirtas izmaksas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka rēķinā ir nepiešķirtas izmaksas, tāpēc ir iespējams labot bilances, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja kreditora rēķinā nepiešķirtas izmaksas** lapā **Līdzekļu pārvaldība**.
+
+- **Rēķinā ir tāds pats rēķina numurs kā citam iegrāmatotam rēķinam.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka tika atrasts rēķins ar numura dublikātu, tāpēc to ir iespējams labot, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis brīdinājums tiks parādīts, kad kreditoru parametrs ar nosaukumu **Pārbaudiet izmantoto rēķina numuru** ir iestatīts uz **Noraidīt dublikātu**. Šis līdzeklis ir pieejams, ja parametrs **Aizliegt iesniegšanu darbplūsmā, ja rēķina numurs jau pastāv izliktā rēķinā, un jūsu sistēma nav iestatīta pieņemt rēķinu dublikātu numurus** ir ieslēgts lapā **Līdzekļu pārvaldība**.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Kreditoru rēķinu salīdzināšana ar produktu ieejas plūsmām
 
 Jūs varat ievadīt un saglabāt informāciju par kreditora rēķiniem, kā arī saskaņot rēķina rindas ar produktu ieejas plūsmu rindām. Turklāt rindai varat salīdzināt arī daļējus daudzumus.
@@ -78,9 +89,19 @@ Kad grāmatojat rēķinu, katra krājuma daudzums laukā **Rēķina atlikums** t
 
 Plašāku informāciju skatiet šeit: [Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Konfigurējiet automatizētu uzdevumu kreditora rēķina darbplūsmai, lai grāmatotu kreditora rēķinu, izmantojot pakešuzdevumu
+
+Kreditora rēķina darbplūsmai var pievienot automatizētu grāmatošanas uzdevumu, lai rēķini tiktu apstrādāti partijā. Rēķinu grāmatošana partijā ļauj turpināt darbplūsmas procesu, negaidot, kamēr tiek pabeigta grāmatošana, kas uzlabo visu darbplūsmai iesniegto uzdevumu vispārējo veiktspēju.
+
+Lai iegrāmatotu kreditora rēķinu partijā, lapā **Līdzekļu pārvaldība**, ieslēdziet parametru **Kreditora rēķina partijas grāmatošana**. Kreditoru rēķinu darbplūsmas tiek konfigurētas, atverot **Kreditori > Uzstādīšana > Kreditoru darbplūsmas**.
+
+Varat skatīt uzdevumu **Grāmatot kreditora rēķinu, izmantojot partiju** darbplūsmas redaktorā, neskatoties uz to, vai ir aktivizēts līdzekļa parametrs **Kreditora rēķina partijas grāmatošana**. Kad līdzekļa parametrs nav aktivizēts, rēķins, kas ietver parametru **Grāmatot kreditora rēķinu, izmantojot pakešuzdevumu** netiks apstrādāts darbplūsmā, kamēr parametrs nebūs iespējots. Uzdevumu **Grāmatot kreditora rēķinu, izmantojot partiju** nedrīkst izmantot tajā pašā darbplūsmā, kurā automatizēto uzdevumu **Grāmatot kreditora rēķinus**. Turklāt uzdevumam **Grāmatot kreditora rēķinu, izmantojot partiju** ir jābūt pēdējam elementam darbplūsmas konfigurācijā.
+
+Varat norādīt rēķinu numuru, ko iekļaut partijā, un stundu skaitu, kas jāgaida pirms partijas pārveidošanas, dodoties uz **Kreditori > Uzstādīšana > Kreditoru parametri > Rēķins > Rēķinu darbplūsma**. 
+
 ## <a name="working-with-multiple-invoices"></a>Darbs ar vairākiem rēķiniem
 
-Jūs varat vienlaikus strādāt ar vairākiem rēķiniem un grāmatot tos. Ja ir jāizveido vairāki rēķini, izmantojiet lapu **Gaidošie kreditoru rēķini**. Ja ir nepieciešams grāmatot un drukāt vairākus kreditoru rēķinus, izmantojiet rēķinu apstiprināšanas žurnālu. Ja lietojat rēķinu apstiprināšanas žurnālu, pirkšanas pasūtījumam ir jābūt grāmatotai vismaz vienai produktu ieejas plūsmai, un rēķinam par pirkšanas pasūtījumu ir jābūt grāmatotam rēķinu reģistrā. Rēķina finanšu informācija tiek ņemta no rēķina, kas ir grāmatots reģistrā.
+Jūs varat vienlaikus strādāt ar vairākiem rēķiniem un grāmatot tos visus vienlaicīgi. Ja ir jāizveido vairāki rēķini, izmantojiet lapu **Gaidošie kreditoru rēķini**. Ja ir nepieciešams grāmatot un drukāt vairākus kreditoru rēķinus, izmantojiet rēķinu apstiprināšanas žurnālu. Ja lietojat rēķinu apstiprināšanas žurnālu, pirkšanas pasūtījumam ir jābūt grāmatotai vismaz vienai produktu ieejas plūsmai, un rēķinam par pirkšanas pasūtījumu ir jābūt grāmatotam rēķinu reģistrā. Rēķina finanšu informācija tiek ņemta no rēķina, kas ir grāmatots reģistrā.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Lietošanā esošu kreditoru rēķinu atkopšana
 

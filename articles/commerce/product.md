@@ -1,9 +1,9 @@
 ---
-title: Preču ieteikumi POS
+title: Pievienot preču ieteikumi punktā POS
 description: Šajā tēmā ir aprakstīts, kā lietot preču ieteikumus pārdošanas punkta (POS) ierīcē.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 48533596c5bdc73dd8c815166e7dde0ca2f3cb4d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057445"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127817"
 ---
-# <a name="product-recommendations-on-pos"></a>Preču ieteikumi punktā POS
+# <a name="add-product-recommendations-on-pos"></a>Pievienot preču ieteikumi punktā POS
 
 [!include [banner](includes/banner.md)]
 
@@ -71,8 +71,24 @@ Lai iestatītu preču ieteikumus, rīkojieties šādi:
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam](add-recommendations-control-pos-screen.md)
+[Preču ieteikumu apskats](product-recommendations.md)
 
-[Preču ieteikumu apskats](../commerce/product-recommendations.md)
+[ADLS iespējošana Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
-[Preču ieteikumu iespējošana](../commerce/enable-product-recommendations.md) 
+[Iespējot preču ieteikumus](enable-product-recommendations.md)
+
+[Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
+
+[Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
+
+[Preču ieteikumu sarakstu pievienošana e-komercijas vietnei](add-reco-list-to-page.md)
+
+[Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
+
+[AI-ML ieteikumu rezultātu pielāgošana](modify-product-recommendation-results.md)
+
+[Manuāli izveidot pārraudzītus ieteikumus](create-editorial-recommendation-lists.md)
+
+[Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
+
+[Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
