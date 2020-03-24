@@ -1,6 +1,6 @@
 ---
 title: MyLeaveRequests pārskats
-description: ''
+description: MyLeaveRequests elements programmā Microsoft Dynamics 365 Human Resources sniedz atvaļinājumu pieprasījumu sarakstu sistēmā, atlasītus (ierobežotus) līdz pieprasījumiem, kas pieejami pašreizējam lietotājam, kurš veic vaicājumus par elementu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66f161d6736b1bb544d02871d9d51b2949b1cfa0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4bf3b298af9eb39e03514a4005afb43a42908e47
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009803"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092041"
 ---
-# <a name="myleaverequests-overview"></a><span data-ttu-id="8f752-102">MyLeaveRequests pārskats</span><span class="sxs-lookup"><span data-stu-id="8f752-102">MyLeaveRequests overview</span></span>
+# <a name="myleaverequests-overview"></a><span data-ttu-id="2c13a-103">MyLeaveRequests pārskats</span><span class="sxs-lookup"><span data-stu-id="2c13a-103">MyLeaveRequests overview</span></span>
 
-<span data-ttu-id="8f752-103">MyLeaveRequests elements programmā Microsoft Dynamics 365 Human Resources sniedz atvaļinājumu pieprasījumu sarakstu sistēmā, atlasītus (ierobežotus) līdz pieprasījumiem, kas pieejami pašreizējam lietotājam, kurš veic vaicājumus par elementu.</span><span class="sxs-lookup"><span data-stu-id="8f752-103">The MyLeaveRequests entity in Microsoft Dynamics 365 Human Resources provides the list of Leave Requests in the system, scoped (limited) to the requests accessible to the current user querying the entity.</span></span>
+<span data-ttu-id="2c13a-104">MyLeaveRequests elements programmā Microsoft Dynamics 365 Human Resources sniedz atvaļinājumu pieprasījumu sarakstu sistēmā, atlasītus (ierobežotus) līdz pieprasījumiem, kas pieejami pašreizējam lietotājam, kurš veic vaicājumus par elementu.</span><span class="sxs-lookup"><span data-stu-id="2c13a-104">The MyLeaveRequests entity in Microsoft Dynamics 365 Human Resources provides the list of Leave Requests in the system, scoped (limited) to the requests accessible to the current user querying the entity.</span></span>
 
-## <a name="key"></a><span data-ttu-id="8f752-104">Taustiņš</span><span class="sxs-lookup"><span data-stu-id="8f752-104">Key</span></span>
+## <a name="key"></a><span data-ttu-id="2c13a-105">Taustiņš</span><span class="sxs-lookup"><span data-stu-id="2c13a-105">Key</span></span>
 
-  | <span data-ttu-id="8f752-105">Rekvizīta nosaukums</span><span class="sxs-lookup"><span data-stu-id="8f752-105">Property Name</span></span> | <span data-ttu-id="8f752-106">Datu veids</span><span class="sxs-lookup"><span data-stu-id="8f752-106">Data Type</span></span> |
+  | <span data-ttu-id="2c13a-106">Rekvizīta nosaukums</span><span class="sxs-lookup"><span data-stu-id="2c13a-106">Property Name</span></span> | <span data-ttu-id="2c13a-107">Datu veids</span><span class="sxs-lookup"><span data-stu-id="2c13a-107">Data Type</span></span> |
   |---------------|-----------|
-  | <span data-ttu-id="8f752-107">dataAreaId</span><span class="sxs-lookup"><span data-stu-id="8f752-107">dataAreaId</span></span>    | <span data-ttu-id="8f752-108">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-108">String</span></span>    |
-  | <span data-ttu-id="8f752-109">RequestId</span><span class="sxs-lookup"><span data-stu-id="8f752-109">RequestId</span></span>     | <span data-ttu-id="8f752-110">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-110">String</span></span>    |
-  | <span data-ttu-id="8f752-111">LeaveType</span><span class="sxs-lookup"><span data-stu-id="8f752-111">LeaveType</span></span>     | <span data-ttu-id="8f752-112">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-112">String</span></span>    |
-  | <span data-ttu-id="8f752-113">LeaveDate</span><span class="sxs-lookup"><span data-stu-id="8f752-113">LeaveDate</span></span>     | <span data-ttu-id="8f752-114">Datums</span><span class="sxs-lookup"><span data-stu-id="8f752-114">Date</span></span>      |
+  | <span data-ttu-id="2c13a-108">dataAreaId</span><span class="sxs-lookup"><span data-stu-id="2c13a-108">dataAreaId</span></span>    | <span data-ttu-id="2c13a-109">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-109">String</span></span>    |
+  | <span data-ttu-id="2c13a-110">RequestId</span><span class="sxs-lookup"><span data-stu-id="2c13a-110">RequestId</span></span>     | <span data-ttu-id="2c13a-111">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-111">String</span></span>    |
+  | <span data-ttu-id="2c13a-112">LeaveType</span><span class="sxs-lookup"><span data-stu-id="2c13a-112">LeaveType</span></span>     | <span data-ttu-id="2c13a-113">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-113">String</span></span>    |
+  | <span data-ttu-id="2c13a-114">LeaveDate</span><span class="sxs-lookup"><span data-stu-id="2c13a-114">LeaveDate</span></span>     | <span data-ttu-id="2c13a-115">Datums</span><span class="sxs-lookup"><span data-stu-id="2c13a-115">Date</span></span>      |
   
-## <a name="properties"></a><span data-ttu-id="8f752-115">Rekvizīti</span><span class="sxs-lookup"><span data-stu-id="8f752-115">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="2c13a-116">Rekvizīti</span><span class="sxs-lookup"><span data-stu-id="2c13a-116">Properties</span></span>
 
-  | <span data-ttu-id="8f752-116">Rekvizīta nosaukums</span><span class="sxs-lookup"><span data-stu-id="8f752-116">Property Name</span></span>     | <span data-ttu-id="8f752-117">Datu veids</span><span class="sxs-lookup"><span data-stu-id="8f752-117">Data Type</span></span> | <span data-ttu-id="8f752-118">Pieprasīts</span><span class="sxs-lookup"><span data-stu-id="8f752-118">Required</span></span> |
+  | <span data-ttu-id="2c13a-117">Rekvizīta nosaukums</span><span class="sxs-lookup"><span data-stu-id="2c13a-117">Property Name</span></span>     | <span data-ttu-id="2c13a-118">Datu veids</span><span class="sxs-lookup"><span data-stu-id="2c13a-118">Data Type</span></span> | <span data-ttu-id="2c13a-119">Pieprasīts</span><span class="sxs-lookup"><span data-stu-id="2c13a-119">Required</span></span> |
   |-------------------|-----------|----------|
-  | <span data-ttu-id="8f752-119">dataAreaId</span><span class="sxs-lookup"><span data-stu-id="8f752-119">dataAreaId</span></span>        | <span data-ttu-id="8f752-120">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-120">String</span></span>    | <span data-ttu-id="8f752-121">X</span><span class="sxs-lookup"><span data-stu-id="8f752-121">X</span></span>        |
-  | <span data-ttu-id="8f752-122">RequestId</span><span class="sxs-lookup"><span data-stu-id="8f752-122">RequestId</span></span>         | <span data-ttu-id="8f752-123">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-123">String</span></span>    | <span data-ttu-id="8f752-124">X</span><span class="sxs-lookup"><span data-stu-id="8f752-124">X</span></span>        |
-  | <span data-ttu-id="8f752-125">LeaveType</span><span class="sxs-lookup"><span data-stu-id="8f752-125">LeaveType</span></span>         | <span data-ttu-id="8f752-126">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-126">String</span></span>    | <span data-ttu-id="8f752-127">X</span><span class="sxs-lookup"><span data-stu-id="8f752-127">X</span></span>        |
-  | <span data-ttu-id="8f752-128">LeaveDate</span><span class="sxs-lookup"><span data-stu-id="8f752-128">LeaveDate</span></span>         | <span data-ttu-id="8f752-129">Datums</span><span class="sxs-lookup"><span data-stu-id="8f752-129">Date</span></span>      | <span data-ttu-id="8f752-130">X</span><span class="sxs-lookup"><span data-stu-id="8f752-130">X</span></span>        |
-  | <span data-ttu-id="8f752-131">ReasonCodeId</span><span class="sxs-lookup"><span data-stu-id="8f752-131">ReasonCodeId</span></span>      | <span data-ttu-id="8f752-132">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-132">String</span></span>    |          |
-  | <span data-ttu-id="8f752-133">PersonnelNumber</span><span class="sxs-lookup"><span data-stu-id="8f752-133">PersonnelNumber</span></span>   | <span data-ttu-id="8f752-134">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-134">String</span></span>    | <span data-ttu-id="8f752-135">X</span><span class="sxs-lookup"><span data-stu-id="8f752-135">X</span></span>        |
-  | <span data-ttu-id="8f752-136">RequestDate</span><span class="sxs-lookup"><span data-stu-id="8f752-136">RequestDate</span></span>       | <span data-ttu-id="8f752-137">Datums</span><span class="sxs-lookup"><span data-stu-id="8f752-137">Date</span></span>      | <span data-ttu-id="8f752-138">X</span><span class="sxs-lookup"><span data-stu-id="8f752-138">X</span></span>        |
-  | <span data-ttu-id="8f752-139">Komentārs</span><span class="sxs-lookup"><span data-stu-id="8f752-139">Comment</span></span>           | <span data-ttu-id="8f752-140">Virkne</span><span class="sxs-lookup"><span data-stu-id="8f752-140">String</span></span>    |          |
-  | <span data-ttu-id="8f752-141">Statuss</span><span class="sxs-lookup"><span data-stu-id="8f752-141">Status</span></span>            | <span data-ttu-id="8f752-142">Uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="8f752-142">Enum</span></span>      | <span data-ttu-id="8f752-143">X</span><span class="sxs-lookup"><span data-stu-id="8f752-143">X</span></span>        |
-  | <span data-ttu-id="8f752-144">Apjoms</span><span class="sxs-lookup"><span data-stu-id="8f752-144">Amount</span></span>            | <span data-ttu-id="8f752-145">Reāls</span><span class="sxs-lookup"><span data-stu-id="8f752-145">Real</span></span>      |          |
-  | <span data-ttu-id="8f752-146">HalfDayDefinition</span><span class="sxs-lookup"><span data-stu-id="8f752-146">HalfDayDefinition</span></span> | <span data-ttu-id="8f752-147">Uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="8f752-147">Enum</span></span>      |          |
+  | <span data-ttu-id="2c13a-120">dataAreaId</span><span class="sxs-lookup"><span data-stu-id="2c13a-120">dataAreaId</span></span>        | <span data-ttu-id="2c13a-121">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-121">String</span></span>    | <span data-ttu-id="2c13a-122">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-122">X</span></span>        |
+  | <span data-ttu-id="2c13a-123">RequestId</span><span class="sxs-lookup"><span data-stu-id="2c13a-123">RequestId</span></span>         | <span data-ttu-id="2c13a-124">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-124">String</span></span>    | <span data-ttu-id="2c13a-125">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-125">X</span></span>        |
+  | <span data-ttu-id="2c13a-126">LeaveType</span><span class="sxs-lookup"><span data-stu-id="2c13a-126">LeaveType</span></span>         | <span data-ttu-id="2c13a-127">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-127">String</span></span>    | <span data-ttu-id="2c13a-128">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-128">X</span></span>        |
+  | <span data-ttu-id="2c13a-129">LeaveDate</span><span class="sxs-lookup"><span data-stu-id="2c13a-129">LeaveDate</span></span>         | <span data-ttu-id="2c13a-130">Datums</span><span class="sxs-lookup"><span data-stu-id="2c13a-130">Date</span></span>      | <span data-ttu-id="2c13a-131">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-131">X</span></span>        |
+  | <span data-ttu-id="2c13a-132">ReasonCodeId</span><span class="sxs-lookup"><span data-stu-id="2c13a-132">ReasonCodeId</span></span>      | <span data-ttu-id="2c13a-133">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-133">String</span></span>    |          |
+  | <span data-ttu-id="2c13a-134">PersonnelNumber</span><span class="sxs-lookup"><span data-stu-id="2c13a-134">PersonnelNumber</span></span>   | <span data-ttu-id="2c13a-135">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-135">String</span></span>    | <span data-ttu-id="2c13a-136">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-136">X</span></span>        |
+  | <span data-ttu-id="2c13a-137">RequestDate</span><span class="sxs-lookup"><span data-stu-id="2c13a-137">RequestDate</span></span>       | <span data-ttu-id="2c13a-138">Datums</span><span class="sxs-lookup"><span data-stu-id="2c13a-138">Date</span></span>      | <span data-ttu-id="2c13a-139">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-139">X</span></span>        |
+  | <span data-ttu-id="2c13a-140">Komentārs</span><span class="sxs-lookup"><span data-stu-id="2c13a-140">Comment</span></span>           | <span data-ttu-id="2c13a-141">Virkne</span><span class="sxs-lookup"><span data-stu-id="2c13a-141">String</span></span>    |          |
+  | <span data-ttu-id="2c13a-142">Statuss</span><span class="sxs-lookup"><span data-stu-id="2c13a-142">Status</span></span>            | <span data-ttu-id="2c13a-143">Uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="2c13a-143">Enum</span></span>      | <span data-ttu-id="2c13a-144">X</span><span class="sxs-lookup"><span data-stu-id="2c13a-144">X</span></span>        |
+  | <span data-ttu-id="2c13a-145">Apjoms</span><span class="sxs-lookup"><span data-stu-id="2c13a-145">Amount</span></span>            | <span data-ttu-id="2c13a-146">Reāls</span><span class="sxs-lookup"><span data-stu-id="2c13a-146">Real</span></span>      |          |
+  | <span data-ttu-id="2c13a-147">HalfDayDefinition</span><span class="sxs-lookup"><span data-stu-id="2c13a-147">HalfDayDefinition</span></span> | <span data-ttu-id="2c13a-148">Uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="2c13a-148">Enum</span></span>      |          |
 
-## <a name="actions"></a><span data-ttu-id="8f752-148">Darbības</span><span class="sxs-lookup"><span data-stu-id="8f752-148">Actions</span></span>
+## <a name="actions"></a><span data-ttu-id="2c13a-149">Darbības</span><span class="sxs-lookup"><span data-stu-id="2c13a-149">Actions</span></span>
 
- | <span data-ttu-id="8f752-149">Darbības nosaukums</span><span class="sxs-lookup"><span data-stu-id="8f752-149">Action Name</span></span>                               | <span data-ttu-id="8f752-150">Apraksts</span><span class="sxs-lookup"><span data-stu-id="8f752-150">Description</span></span>                                     |
+ | <span data-ttu-id="2c13a-150">Darbības nosaukums</span><span class="sxs-lookup"><span data-stu-id="2c13a-150">Action Name</span></span>                               | <span data-ttu-id="2c13a-151">Apraksts</span><span class="sxs-lookup"><span data-stu-id="2c13a-151">Description</span></span>                                     |
  |-------------------------------------------|-------------------------------------------------|
- | [<span data-ttu-id="8f752-151">iesniegt</span><span class="sxs-lookup"><span data-stu-id="8f752-151">submit</span></span>](hr-developer-api-myleaverequests-submit.md)   | <span data-ttu-id="8f752-152">Iesniedziet darbplūsmā apstrādājamo pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="8f752-152">Submit the request to be processed by workflow.</span></span> |
+ | [<span data-ttu-id="2c13a-152">iesniegt</span><span class="sxs-lookup"><span data-stu-id="2c13a-152">submit</span></span>](hr-developer-api-myleaverequests-submit.md)   | <span data-ttu-id="2c13a-153">Iesniedziet darbplūsmā apstrādājamo pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="2c13a-153">Submit the request to be processed by workflow.</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="8f752-153">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="8f752-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2c13a-154">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="2c13a-154">See also</span></span>
 
-- [<span data-ttu-id="8f752-154">Atvaļinājuma pieprasījuma iesniegšana darbplūsmai</span><span class="sxs-lookup"><span data-stu-id="8f752-154">Submit a leave request to workflow</span></span>](hr-developer-api-myleaverequests-submit.md)
-- [<span data-ttu-id="8f752-155">Autentifikācija</span><span class="sxs-lookup"><span data-stu-id="8f752-155">Authentication</span></span>](hr-developer-api-authentication.md)
+- [<span data-ttu-id="2c13a-155">Atvaļinājuma pieprasījuma iesniegšana darbplūsmai</span><span class="sxs-lookup"><span data-stu-id="2c13a-155">Submit a leave request to workflow</span></span>](hr-developer-api-myleaverequests-submit.md)
+- [<span data-ttu-id="2c13a-156">Autentifikācija</span><span class="sxs-lookup"><span data-stu-id="2c13a-156">Authentication</span></span>](hr-developer-api-authentication.md)

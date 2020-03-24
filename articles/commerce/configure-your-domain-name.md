@@ -3,7 +3,7 @@ title: Domēna nosaukuma konfigurēšana
 description: Šajā tēmā paskaidrots, kā konfigurēt domēna nosaukumu Microsoft Dynamics365 e-komercijas vietnei.
 author: psimolin
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,40 +19,48 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4db774783dba4b1cea9552da3cff29a9528bd496
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2ad9ca3aee21301ef6d830d7b29982a45cd53f60
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002178"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096824"
 ---
-# <a name="configure-your-domain-name"></a><span data-ttu-id="9fe90-103">Domēna nosaukuma konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="9fe90-103">Configure your domain name</span></span>
+# <a name="configure-your-domain-name"></a><span data-ttu-id="d5344-103">Domēna nosaukuma konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="d5344-103">Configure your domain name</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="9fe90-104">Šajā tēmā paskaidrots, kā konfigurēt domēna nosaukumu Microsoft Dynamics365 e-komercijas vietnei.</span><span class="sxs-lookup"><span data-stu-id="9fe90-104">This topic explains how to configure a domain name for a Microsoft Dynamics 365 e-commerce site.</span></span> 
+<span data-ttu-id="d5344-104">Šajā tēmā paskaidrots, kā konfigurēt domēna nosaukumu Microsoft Dynamics365 e-komercijas vietnei.</span><span class="sxs-lookup"><span data-stu-id="d5344-104">This topic explains how to configure a domain name for a Microsoft Dynamics 365 e-commerce site.</span></span> 
 
-## <a name="add-domains-during-e-commerce-initialization"></a><span data-ttu-id="9fe90-105">Domēnu pievienošana E-komercijas inicializēšanas laikā</span><span class="sxs-lookup"><span data-stu-id="9fe90-105">Add domains during e-Commerce initialization</span></span>
+## <a name="add-domains-during-e-commerce-initialization"></a><span data-ttu-id="d5344-105">Domēnu pievienošana E-komercijas inicializēšanas laikā</span><span class="sxs-lookup"><span data-stu-id="d5344-105">Add domains during e-Commerce initialization</span></span>
 
-<span data-ttu-id="9fe90-106">Lai saistītu domēnus ar savu e-komercijas vidi, inicializējiet E-komerciju, kā aprakstīts tēmā [Jaunas E-komercijas vietnes izvietošana](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="9fe90-106">To associate domains with your e-commerce environment, initialize e-Commerce as described in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span> <span data-ttu-id="9fe90-107">Inicializēšanas laikā jums tiek lūgts sniegt informāciju, kas tiks izmantota jūsu E-komercijas vides nodrošināšanai.</span><span class="sxs-lookup"><span data-stu-id="9fe90-107">During initialization, you're asked to provide information that will be used to provision your e-Commerce environment.</span></span> <span data-ttu-id="9fe90-108">Laukā **Atbalstītie resursdatora nosaukumi** pievienojiet visus domēnus, kurus plānojat izmantot šajā vidē.</span><span class="sxs-lookup"><span data-stu-id="9fe90-108">In the **Supported host names** field, add all the domains that you plan to use with this environment.</span></span> <span data-ttu-id="9fe90-109">Vairāki domēni jāatdala ar semikolu.</span><span class="sxs-lookup"><span data-stu-id="9fe90-109">Multiple domains should be separated with semi-colon.</span></span> <span data-ttu-id="9fe90-110">Šādā veidā domēni tiek konfigurēti visos nepieciešamajos E-komercijas komponentos, un tie ir gatavi izmantošanai, kad pārslēdzat datplūsmu no sava satura piegādes tīkla (CDN) vai tīmekļa servera un novirziet to uz E-komercijas priekšgalu.</span><span class="sxs-lookup"><span data-stu-id="9fe90-110">In this way, the domains are configured in all the required e-Commerce components, and they are ready to be used when you switch traffic from your content delivery network (CDN) or web server and point it to the e-Commerce front ends.</span></span>
+<span data-ttu-id="d5344-106">Lai saistītu domēnus ar savu e-komercijas vidi, inicializējiet E-komerciju, kā aprakstīts tēmā [Jaunas E-komercijas vietnes izvietošana](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="d5344-106">To associate domains with your e-commerce environment, initialize e-Commerce as described in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span> <span data-ttu-id="d5344-107">Inicializēšanas laikā jums tiek lūgts sniegt informāciju, kas tiks izmantota jūsu E-komercijas vides nodrošināšanai.</span><span class="sxs-lookup"><span data-stu-id="d5344-107">During initialization, you're asked to provide information that will be used to provision your e-Commerce environment.</span></span> <span data-ttu-id="d5344-108">Laukā **Atbalstītie resursdatora nosaukumi** pievienojiet visus domēnus, kurus plānojat izmantot šajā vidē.</span><span class="sxs-lookup"><span data-stu-id="d5344-108">In the **Supported host names** field, add all the domains that you plan to use with this environment.</span></span> <span data-ttu-id="d5344-109">Vairāki domēni jāatdala ar semikolu.</span><span class="sxs-lookup"><span data-stu-id="d5344-109">Multiple domains should be separated with semi-colon.</span></span> <span data-ttu-id="d5344-110">Šādā veidā domēni tiek konfigurēti visos nepieciešamajos E-komercijas komponentos, un tie ir gatavi izmantošanai, kad pārslēdzat datplūsmu no sava satura piegādes tīkla (CDN) vai tīmekļa servera un novirziet to uz E-komercijas priekšgalu.</span><span class="sxs-lookup"><span data-stu-id="d5344-110">In this way, the domains are configured in all the required e-Commerce components, and they are ready to be used when you switch traffic from your content delivery network (CDN) or web server and point it to the e-Commerce front ends.</span></span>
 
-## <a name="add-domains-after-e-commerce-initialization"></a><span data-ttu-id="9fe90-111">Domēnu pievienošana pēc E-komercijas inicializēšanas</span><span class="sxs-lookup"><span data-stu-id="9fe90-111">Add domains after e-Commerce initialization</span></span>
+## <a name="add-domains-after-e-commerce-initialization"></a><span data-ttu-id="d5344-111">Domēnu pievienošana pēc E-komercijas inicializēšanas</span><span class="sxs-lookup"><span data-stu-id="d5344-111">Add domains after e-Commerce initialization</span></span>
 
-<span data-ttu-id="9fe90-112">Lai saistītu jaunus domēnus ar savu E-komercijas vidi pēc E-komercijas inicializēšanas, ir jāiesniedz pakalpojuma pieprasījums.</span><span class="sxs-lookup"><span data-stu-id="9fe90-112">To associate new domains with your e-Commerce environment after e-Commerce initialization, you must submit a service request.</span></span>
+<span data-ttu-id="d5344-112">Lai saistītu jaunus domēnus ar savu E-komercijas vidi pēc E-komercijas inicializēšanas, ir jāiesniedz pakalpojuma pieprasījums.</span><span class="sxs-lookup"><span data-stu-id="d5344-112">To associate new domains with your e-Commerce environment after e-Commerce initialization, you must submit a service request.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="9fe90-113">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="9fe90-113">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d5344-113">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="d5344-113">Additional resources</span></span>
 
-[<span data-ttu-id="9fe90-114">Jaunas e-komercijas vietnes izvietošana</span><span class="sxs-lookup"><span data-stu-id="9fe90-114">Deploy a new e-Commerce site</span></span>](deploy-ecommerce-site.md)
+[<span data-ttu-id="d5344-114">Jaunas e-komercijas vietnes izvietošana</span><span class="sxs-lookup"><span data-stu-id="d5344-114">Deploy a new e-Commerce site</span></span>](deploy-ecommerce-site.md)
 
-[<span data-ttu-id="9fe90-115">E-komercijas vietnes izveide</span><span class="sxs-lookup"><span data-stu-id="9fe90-115">Create an e-Commerce site</span></span>](create-ecommerce-site.md)
+[<span data-ttu-id="d5344-115">Tiešsaistes veikala kanāla iestatīšana</span><span class="sxs-lookup"><span data-stu-id="d5344-115">Set up an online store channel</span></span>](online-stores.md)
 
-[<span data-ttu-id="9fe90-116">Tiešsaistes vietnes saistīšana ar kanālu</span><span class="sxs-lookup"><span data-stu-id="9fe90-116">Associate an online site with a channel</span></span>](associate-site-online-store.md)
+[<span data-ttu-id="d5344-116">E-komercijas vietnes izveide</span><span class="sxs-lookup"><span data-stu-id="d5344-116">Create an e-Commerce site</span></span>](create-ecommerce-site.md)
 
-[<span data-ttu-id="9fe90-117">robots.txt failu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="9fe90-117">Manage robots.txt files</span></span>](manage-robots-txt-files.md)
+[<span data-ttu-id="d5344-117">Tiešsaistes vietnes saistīšana ar kanālu</span><span class="sxs-lookup"><span data-stu-id="d5344-117">Associate an online site with a channel</span></span>](associate-site-online-store.md)
 
-[<span data-ttu-id="9fe90-118">Pielāgotu lapu iestatīšana lietotāja pieteikumiem</span><span class="sxs-lookup"><span data-stu-id="9fe90-118">Set up custom pages for user logins</span></span>](custom-pages-user-logins.md)
+[<span data-ttu-id="d5344-118">Failu robots.txt pārvaldība</span><span class="sxs-lookup"><span data-stu-id="d5344-118">Manage robots.txt files</span></span>](manage-robots-txt-files.md)
 
-[<span data-ttu-id="9fe90-119">Atbalsta pievienošana satura piegādes tīklam (CDN)</span><span class="sxs-lookup"><span data-stu-id="9fe90-119">Add support for a content delivery network (CDN)</span></span>](add-cdn-support.md)
+[<span data-ttu-id="d5344-119">Novirzīšanas URL lielapjoma augšupielāde</span><span class="sxs-lookup"><span data-stu-id="d5344-119">Upload URL redirects in bulk</span></span>](upload-bulk-redirects.md)
 
-[<span data-ttu-id="9fe90-120">Veikala noteikšanas iespējošana pēc atrašanās vietas</span><span class="sxs-lookup"><span data-stu-id="9fe90-120">Enable location-based store detection</span></span>](enable-store-detection.md)
+[<span data-ttu-id="d5344-120">B2C nomnieka iestatīšana programmā Commerce</span><span class="sxs-lookup"><span data-stu-id="d5344-120">Set up a B2C tenant in Commerce</span></span>](set-up-B2C-tenant.md)
+
+[<span data-ttu-id="d5344-121">Pielāgotu lapu iestatīšana lietotāja pieteikumiem</span><span class="sxs-lookup"><span data-stu-id="d5344-121">Set up custom pages for user logins</span></span>](custom-pages-user-logins.md)
+
+[<span data-ttu-id="d5344-122">Vairāku B2C nomnieku konfigurēšana Commerce vidē</span><span class="sxs-lookup"><span data-stu-id="d5344-122">Configure multiple B2C tenants in a Commerce environment</span></span>](configure-multi-B2C-tenants.md)
+
+[<span data-ttu-id="d5344-123">Atbalsta pievienošana satura piegādes tīklam (CDN)</span><span class="sxs-lookup"><span data-stu-id="d5344-123">Add support for a content delivery network (CDN)</span></span>](add-cdn-support.md)
+
+[<span data-ttu-id="d5344-124">Veikala noteikšanas iespējošana pēc atrašanās vietas</span><span class="sxs-lookup"><span data-stu-id="d5344-124">Enable location-based store detection</span></span>](enable-store-detection.md)
