@@ -3,7 +3,7 @@ title: Failu robots.txt pārvaldība
 description: Šajā tēmā aprakstīts, kā pārvaldīt Microsoft Dynamics 365 Commerce robots.txt failus.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0ce49f2968030ca4656a01c7646819c01635e12
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d248dae36e6e038749ee17a5a6ccb32f1dde0aed
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003491"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096848"
 ---
 # <a name="manage-robotstxt-files"></a>Failu robots.txt pārvaldība
 
@@ -92,11 +92,19 @@ Lai Commerce vietnē dzēstu robots.txt failu, veiciet tālāk norādītās darb
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
+[Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
+
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
+[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
+
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 

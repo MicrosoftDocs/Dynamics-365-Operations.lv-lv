@@ -1,9 +1,9 @@
 ---
-title: Pārraudzītu preču ieteikumu sarakstu izveide
-description: Šajā tēmā izskaidrots, kā prečzinis var izveidot un pārvaldīt manuālus preču sarakstus Microsoft Dynamics 365 Commerce klientiem.
+title: Manuāli izveidot pārraudzītus ieteikumus
+description: Šajā tēmā izskaidrots, kā prečzinis var manuāli izveidot un pārvaldīt preču sarakstus Microsoft Dynamics 365 Commerce klientiem.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024937"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127725"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Pārraudzītu preču ieteikumu sarakstu izveide
+# <a name="manually-create-curated-recommendations"></a>Manuāli izveidot pārraudzītus ieteikumus
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā prečzinis var izveidot un pārvaldīt manuālus preču sarakstus Microsoft Dynamics 365 Commerce klientiem.
+Šajā tēmā izskaidrots, kā prečzinis var manuāli izveidot un pārvaldīt preču ieteikumu sarakstus Microsoft Dynamics 365 Commerce klientiem.
 
 Pārraudzīti saraksti ir atsevišķa satura kolekcijas, ko veido un pārrauga cilvēki.  
 
@@ -56,8 +56,22 @@ Lai izveidotu pārvaldītu preču rekomendāciju sarakstu, veiciet šādas darb�
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Preču ieteikumu iespējošana](enable-product-recommendations.md)
+[ADLS iespējošana Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
-[Preču ieteikumu sarakstu pievienošana lapām](add-reco-list-to-page.md)
+[Iespējot preču ieteikumus](enable-product-recommendations.md)
 
-[Preču kolekcijas moduļa apskats](product-collection-module-overview.md)
+[Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
+
+[Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
+
+[Preču ieteikumu sarakstu pievienošana e-komercijas vietnei](add-reco-list-to-page.md)
+
+[Pievienot preču ieteikumus punktā POS](product.md)
+
+[Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
+
+[AI-ML ieteikumu rezultātu pielāgošana](modify-product-recommendation-results.md)
+
+[Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
+
+[Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)

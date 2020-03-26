@@ -3,7 +3,7 @@ title: Tiešsaistes veikala kanāla iestatīšana
 description: Šajā rakstā ir sniegta informācija par tiešsaistes veikalu kanāliem un to iestatīšanu programmā Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023348"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096898"
 ---
 # <a name="set-up-an-online-store-channel"></a>Tiešsaistes veikala kanāla iestatīšana
 
@@ -71,3 +71,27 @@ Organizāciju hierarhijas tiek izmantotas, lai strukturizētu komercijas kanālu
 Kad veidojat organizāciju hierarhiju, jūs tai piešķirat nolūku. Nolūks norāda, kā šī hierarhija tiek izmantota uzņēmumu struktūrā. Varat izveidot vienu organizāciju hierarhiju sava veikala operācijām, un varat šo hierarhiju izmantot preču klāstiem, papildināšanai un pārskatu veidošanai. 
 
 Varat arī katram nolūkam izveidot atsevišķu organizācijas hierarhiju. Tāpat varat izveidot vairākas hierarhijas ar vienādu nolūku un katrai no tām piešķirt atsevišķu kanālu. Ja preču katalogus plānojat publicēt tiešsaistes veikalā, tiešsaistes veikali ir jāpievieno organizāciju hierarhijai vismaz attiecībā uz preču sortimentiem. Katalogā iekļautās preces tiek atlasītas no preču sortimentiem, kas ir piešķirti šim tiešsaistes veikalam. Pēc kataloga publicēšanas šis publicēšanas process salīdzina tiešsaistes veikalam piešķirtā preču klāsta spēkā stāšanās datumus un preces, kas ir iekļautas šajā katalogā, lai noteiktu, kurām precēm ir jābūt pieejamām tiešsaistes veikalā.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
+
+[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+
+[E-komercijas vietnes izveide](create-ecommerce-site.md)
+
+[Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+
+[Failu robots.txt pārvaldība](manage-robots-txt-files.md)
+
+[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
+
+[Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
+
+[Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
+
+[Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)

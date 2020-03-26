@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057860"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113763"
 ---
 # <a name="warehouse-set-up"></a>Noliktavas iestatīšana
 
@@ -33,7 +33,7 @@ ms.locfileid: "3057860"
 
 ## <a name="overview"></a>Pārskats
 
-Katram Commerce kanālam ir nepieciešama konfigurēta noliktava, kas saistīta ar to. Šīs procedūras nodrošina minimālo konfigurāciju, kas nepieciešama, lai iestatītu noliktavu Commerce kanālam. Lai iegūtu vairāk informācijas par noliktavas iestatījumiem, lūdzu, skatiet sadaļu [Noliktavas pārvaldības pārskats](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview).
+Katram Commerce kanālam ir nepieciešama konfigurēta noliktava, kas saistīta ar to. Šīs procedūras nodrošina minimālo konfigurāciju, kas nepieciešama, lai iestatītu noliktavu Commerce kanālam. Lai iegūtu vairāk informācijas par noliktavas iestatījumiem, lūdzu, skatiet sadaļu [Noliktavas pārvaldības pārskats](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="configure-a-warehouse-site"></a>Noliktavas vietas konfigurācija
 
@@ -131,7 +131,7 @@ Tālāk esošajā attēlā ir parādīta detalizēta informācija par konfigurē
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Noliktavas pārvaldības pārskats](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[Noliktavas pārvaldības pārskats](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [Kanālu apskats](channels-overview.md)
 

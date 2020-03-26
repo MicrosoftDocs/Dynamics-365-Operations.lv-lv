@@ -3,7 +3,7 @@ title: Mākoņa un lokālās versijas līdzekļu salīdzinājums
 description: Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā.
 author: sericks007
 manager: AnnBe
-ms.date: 02/24/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
-ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
+ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081974"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100286"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
@@ -97,7 +97,7 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 | Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             |
 |                                      | Konfigurācijas vadīts paplašinājums                                                            | Jā       | Nav              |
 |                                      | Eksportēt datus uz jūsu pašu datu noliktavu                                                    | Jā       | Jā             |
-|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Nē              |
+|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā              |
 |                                      | Datu integrācijas                                                                         | Jā       | Jā             |
 | Dokumentu vadība                  |                                                                                           | Jā       | Jā             |
 | Palīdzība                                 |                                                                                           | Jā       | Nē              |

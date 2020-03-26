@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769951"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117429"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Failu importēšana XML formātā ar neobligātiem atribūtiem
+
+[!include [banner](../includes/banner.md)]
 
 Varat veidot elektronisko pārskatu (Electronic Reporting — ER) formātus ienākošo dokumentu parsēšanai XML formātā. Izveidotajā ER formātā noteiktus XML elementu atribūtus var norādīts kā neobligātus. Tādējādi jūs varat pareizi apstrādāt ienākošos failus gan ar šādiem XML atribūtiem, gan bez tiem. Pēc tam saturu no šiem failiem varat izmantot, lai atjauninātu programmas datus.
 
@@ -52,17 +54,17 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 7. Noklikšķiniet uz **Pievienot**.
 8. Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
 9. Laukā **Nosaukums** ierakstiet “Saraksts”.
-10. Laukā **Vienuma veids** atlasiet **Ierakstu saraksts**.
-11. Noklikšķiniet uz **Pievienot**.
-12. Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
-13. Laukā **Nosaukums** ierakstiet “Kods”.
-14. Laukā **Vienuma veids** atlasiet **Virkne**.
-15. Noklikšķiniet uz **Pievienot**.
-16. Noklikšķiniet uz **Saglabāt**.
-17. Aizvērt lapu.
-18. Noklikšķiniet uz **Mainīt statusu**.
-19. Noklikšķiniet uz **Pabeigt**.
-20. Noklikšķiniet uz **Labi**.
+10.    Laukā **Vienuma veids** atlasiet **Ierakstu saraksts**.
+11.    Noklikšķiniet uz **Pievienot**.
+12.    Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
+13.    Laukā **Nosaukums** ierakstiet “Kods”.
+14.    Laukā **Vienuma veids** atlasiet **Virkne**.
+15.    Noklikšķiniet uz **Pievienot**.
+16.    Noklikšķiniet uz **Saglabāt**.
+17.    Aizvērt lapu.
+18.    Noklikšķiniet uz **Mainīt statusu**.
+19.    Noklikšķiniet uz **Pabeigt**.
+20.    Noklikšķiniet uz **Labi**.
 
 ## <a name="create-a-format-for-data-import"></a>Formāta izveidošana datu importēšanai
 1. Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
@@ -81,32 +83,32 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 7. Kokā atlasiet **XML\Elements**.
 8. Laukā **Nosaukums** ierakstiet “document”.
 9. Laukā **Daudzkārtīgums** atlasiet **One many**.
-10. Noklikšķiniet uz **Labi**.
-11. Koka struktūrā atlasiet **root\document**.
-12. Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
-13. Kokā atlasiet **XML\Atribūts**.
-14. Laukā **Nosaukums** ierakstiet “id”.
-15. Noklikšķiniet uz **Labi**.
-16. Noklikšķiniet uz **Saglabāt**.
+10.    Noklikšķiniet uz **Labi**.
+11.    Koka struktūrā atlasiet **root\document**.
+12.    Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+13.    Kokā atlasiet **XML\Atribūts**.
+14.    Laukā **Nosaukums** ierakstiet “id”.
+15.    Noklikšķiniet uz **Labi**.
+16.    Noklikšķiniet uz **Saglabāt**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Formāta kartējuma veidošana parsētās informācijas saglabāšanai datu modelī
-1.  Noklikšķiniet uz **Kartēt formātu uz modeli**.
-2.  Noklikšķiniet uz **Jauns**.
-3.  Laukā **Definīcija** ievadiet vai atlasiet kādu vērtību.
-4.  Laukā **Nosaukums** ierakstiet “Kartēšana”.
-5.  Noklikšķiniet uz **Saglabāt**.
-6.  Noklikšķiniet uz **Noformētājs**.
-7.  Koka struktūrā izvērsiet zaru **format**.
-8.  Koka struktūrā izvērsiet zaru **format\root: XML Element(root)**.
-9.  Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
-10. Noklikšķiniet uz **Saistīt**.
-11. Koka struktūrā izvērsiet zaru **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
-12. Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)\id**.
-13. Koka struktūrā izvērsiet zaru **List = format.root.document**.
-14. Koka struktūrā atlasiet zaru **List = format.root.document\Code**.
-15. Noklikšķiniet uz **Saistīt**.
-16. Noklikšķiniet uz **Saglabāt**.
-17. Aizveriet lapu.
+1.    Noklikšķiniet uz **Kartēt formātu uz modeli**.
+2.    Noklikšķiniet uz **Jauns**.
+3.    Laukā **Definīcija** ievadiet vai atlasiet kādu vērtību.
+4.    Laukā **Nosaukums** ierakstiet “Kartēšana”.
+5.    Noklikšķiniet uz **Saglabāt**.
+6.    Noklikšķiniet uz **Noformētājs**.
+7.    Koka struktūrā izvērsiet zaru **format**.
+8.    Koka struktūrā izvērsiet zaru **format\root: XML Element(root)**.
+9.    Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
+10.    Noklikšķiniet uz **Saistīt**.
+11.    Koka struktūrā izvērsiet zaru **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
+12.    Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)\id**.
+13.    Koka struktūrā izvērsiet zaru **List = format.root.document**.
+14.    Koka struktūrā atlasiet zaru **List = format.root.document\Code**.
+15.    Noklikšķiniet uz **Saistīt**.
+16.    Noklikšķiniet uz **Saglabāt**.
+17.    Aizveriet lapu.
 
 ## <a name="run-format-mapping"></a>Formāta kartēšanas darbināšana
 1. Noklikšķiniet uz **Palaist**.

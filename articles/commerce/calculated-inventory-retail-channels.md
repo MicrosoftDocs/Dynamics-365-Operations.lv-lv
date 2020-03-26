@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083022"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113924"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
 
@@ -41,7 +41,7 @@ Commerce izmanto vairākus serverus un datu bāzes, lai nodrošinātu mērogojam
 Varat izmantot šādu API, lai parādītu krājuma pieejamību produktam, kad jūsu debitori tiek iepirkti e-komercijas vietnē.
 
 - **GetEstimatedAvailability** — Izmantojiet šo API, lai iegūtu krājumu pieejamību vienumam e-komercijas kanāla noliktavā vai visās noliktavās, kas ir saistītas ar e-komercijas kanāla izpildes grupas konfigurāciju. Šo API var izmantot arī noliktavām noteiktā meklēšanas zonā vai rādiusā, pamatojoties uz garuma un platuma datiem.
-- **ProductWarehouseInventoryAvailabilities** — Izmantojiet šo API, lai pieprasītu krājumu vienumam no konkrētas noliktavas. Piemēram, varat to izmantot, lai rādītu krājumu pieejamību scenārijos, kas ietver pasūtījuma savākšanu.
+- **GetEstimatedProductWarehouseAvailability** — Izmantojiet šo API, lai pieprasītu krājumu vienumam no konkrētas noliktavas. Piemēram, varat to izmantot, lai rādītu krājumu pieejamību scenārijos, kas ietver pasūtījuma savākšanu.
 
 > [!NOTE]
 > Šie API aizvieto API **GetProductAvailabilities** un **GetAvailableInventoryNearby** programmas Dynamics 365 Retail 10.0.7 versijā un vecākās versijās.

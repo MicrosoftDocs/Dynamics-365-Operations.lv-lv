@@ -1,6 +1,6 @@
 ---
 title: Instances kopēšana
-description: ''
+description: Varat izmantot Microsoft Dynamics Lifecycle Services (LCS), lai kopētu Microsoft Dynamics 365 Human Resources datu bāzi uz smilškastes vidi.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bbe325edb65cad0c1912e0a6ade559e5675dc58
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: bb363369994d99f358be0c23cdaf1dbc80b644e5
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009760"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092296"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
@@ -68,11 +68,11 @@ Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstietie
 
 4. Uzdevumrūtī **Kopēt instanci** atlasiet instanci, kuru pārrakstīt, un pēc tam atlasiet **Kopēt**. Uzgaidiet, līdz lauka **Kopēšanas statuss** vērtība tiek atjaunināta uz **Pabeigts**.
 
-   ![[Instances atlasīšana pārrakstīšanai](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Atlasīt instanci, lai pārrakstītu](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Atlasiet **Power Platform** un pierakstieties Microsoft Power Platform administrēšanas centrā.
 
-   ![[Atlasiet Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Atlasīt Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Atlasiet PowerApps vidi, kas jākopē, un pēc atlasiet **Kopēt**.
 

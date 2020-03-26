@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015305"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120882"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>XML elementu izpildes atlikšana ER formātos
 
@@ -47,7 +47,7 @@ Opcija **Atliktā izpilde** tiek atbalstīta tikai tiem XML elementiem, kas atro
 
 Opcija **Atliktā izpilde** netiek atbalstīta tiem XML elementiem, kas atrodas formāta elementā **Standarta\\Fails**, ja opcijai **Sadalīt failu** atlasīts iestatījums **Jā**. Plašāku informāciju par to, kā sadalīt XML failus, skatiet [Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu](er-split-files.md).
 
-## <a name="Example"></a>Piemērs: XML elementa izpildes atlikšana ER formātā
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Piemērs: XML elementa izpildes atlikšana ER formātā
 
 Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu konsultanta [lomā](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) var konfigurēt ER formātu, kas satur tādu XML elementu, kur izpildes secība formāta hierarhijā atšķiras no pasūtījuma.
 

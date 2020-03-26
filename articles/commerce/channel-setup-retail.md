@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac01f36912fa5e8a09bb4f324ef272cec737aa1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002385"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113832"
 ---
 # <a name="set-up-a-retail-channel"></a>Mazumtirdzniecības kanāla iestatīšana
 
@@ -66,7 +66,7 @@ Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla piemērs.
 
 Pastāv vairāki citi neobligāti iestatījumi, ko var iestatīt sadaļās **Izraksts/slēgšana** un **Dažādi** , pamatojoties uz mazumtirdzniecības veikala vajadzībām.
 
-Turklāt skatiet sadaļu [Pārdošanas punkta (POS) ekrāna izkārtojumi](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json), lai iegūtu informāciju par noklusētā ekrāna izkārtojuma iestatīšanu sadaļā **Ekrāna izkārtojums**, un sadaļu [Retail Hardware Station konfigurēšana un instalēšana](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation), lai iegūtu informāciju par sadaļu **Aparatūras stacijas**.
+Turklāt skatiet sadaļu [Pārdošanas punkta (POS) ekrāna izkārtojumi](pos-screen-layouts.md), lai iegūtu informāciju par noklusētā ekrāna izkārtojuma iestatīšanu sadaļā **Ekrāna izkārtojums**, un sadaļu [Retail Hardware Station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md), lai iegūtu informāciju par sadaļu **Aparatūras stacijas**.
 
 Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla iestatījumu konfigurācijas piemērs.
 

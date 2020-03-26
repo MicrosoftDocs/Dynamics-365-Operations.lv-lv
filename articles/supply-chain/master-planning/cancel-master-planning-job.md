@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947484"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117452"
 ---
 # <a name="cancel-a-master-planning-job"></a>Vispārējās plānošanas darba atcelšana
+
+[!include [banner](../includes/banner.md)]
 
 Pakalpojumā Microsoft Dynamics 365 Supply Chain Management ir vairākas opcijas, kā atcelt vispārējās plānošanas darbu. Piemēram, iespējams, jūs vēlēsities atcelt vispārējās plānošanas darbu, ja tas tika sākts kļūdas dēļ vai darbojas ilgāk, nekā paredzēts, un jūs vēlaties to beigt. Labākais veids, kā atcelt plānošanas darbu, ir no lapas **Nepabeigtie plānošanas procesi**. Alternatīvās opcijas no lapām **Pakešuzdevumi** un **Uzlabotie pakešuzdevumi** var izmantot tikai tad, ja, atceļot vispārējās plānošanas darbu no lapas **Nepabeigtie plānošanas procesi**, tas dažu minūšu laikā netika izpildīts.
 

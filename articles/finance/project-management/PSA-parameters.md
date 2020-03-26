@@ -3,7 +3,7 @@ title: Project Service Automation integrācijas parametri
 description: Šajā tēmā ir paskaidrots, kā konfigurēt noklusējuma datu ievades viedu, integrējot Microsoft Dynamics 365 for Project Service Automation programmā Microsoft Dynamics 365 Finance.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174948"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096255"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation integrācijas parametri
 
 [!include[banner](../includes/banner.md)]
 
 Lapā **Project Service Automation integrācijas parametri** varat konfigurēt noklusējuma datu ievades veidu, integrējot Dynamics 365 Project Service Automation programmā Dynamics 365 Finance. Lai projektus no Project Service Automation sekmīgi sinhronizētu uz Finance, ir jāiestata tālāk noradītie lauki.
+
+Lai atvērtu lapu **Projekta pakalpojuma automatizācijas integrācijas parametri**, dodieties uz **Projektu pārvaldības un uzskaite**\>**Iestatījumi**\>**Dynamics 365 for Project Service Automation integrācijas parametri**. 
 
 > [!NOTE]
 > - Versijā 8.0 ir pieejama projekta uzdevumu integrācija, izdevumu transakciju kategorijas, stundu novērtējumi, izdevumu novērtējumi un funkcionalitātes bloķēšana.

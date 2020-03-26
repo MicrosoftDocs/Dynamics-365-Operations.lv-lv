@@ -3,7 +3,7 @@ title: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce izveidot pielāgotas lapas, kas apstrādā Azure Active Directory (Azure AD) bizness–patērētājs (B2C) nomnieku lietotāju pielāgotas pierakstīšanās gadījumus.
 author: brianshook
 manager: annbe
-ms.date: 12/05/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe2a716d370c350c0c7e034835ff755f1ec9c6a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 210a7d1c2b0a9a9606723b48681cca3a50fcc05b
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001949"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096801"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Pielāgotu lapu iestatīšana lietotāja pieteikšanās gadījumiem
 
@@ -199,11 +199,19 @@ Pēc global.json faila atjaunināšanas un savu izmaiņu publicēšanas jaunais 
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
 
+[Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
+
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
 [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
 
-[robots.txt failu pārvaldība](manage-robots-txt-files.md)
+[Failu robots.txt pārvaldība](manage-robots-txt-files.md)
+
+[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
+
+[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 

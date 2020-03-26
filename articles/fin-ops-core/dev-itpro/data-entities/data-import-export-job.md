@@ -3,7 +3,7 @@ title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184558"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124616"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -191,8 +191,11 @@ Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai
 
 -   **Vēstures saglabāšanas dienu skaits**  — šis iestatījums tiek izmantots, lai kontrolētu izpildes vēstures apjomu, kas jāsaglabā. Tas tiek norādīts kā dienu skaits. Kad tīrīšanas darbs ir ieplānots kā periodisks pakešuzdevums, šis iestatījums darbosies kā pastāvīgi kustīgs logs, tādējādi vienmēr atstājot norādītā dienu skaita vēsturi neskartu un dzēšot pārējo. Noklusējums ir 7 dienas.
 
--   **Darba izpildes stundu skaits** — atkarībā no notīrāmā vēstures apjoma kopējais tīrīšanas darba izpildes laiks var būt robežās no dažām minūtēm līdz dažām stundām. Tā kā minēto tabulu tīrīšana ir jāveic, kad sistēmā nav citu datu pārvaldības aktivitāšu, ir svarīgi pārliecināties, ka tīrīšanas darbs tiek izpildīts un pabeigts pirms biznesa aktivitātes sākuma.
+-   **Darba izpildes stundu skaits** — atkarībā no notīrāmā vēstures apjoma kopējais tīrīšanas darba izpildes laiks var būt robežās no dažām minūtēm līdz dažām stundām. Šim parametram ir jābūt iestatītam uz to stundu skaitu, cik ilgā darbs tiks izpildīts. Kad tīrīšanas darbs ir izpildīts noteiktam stundu skaitam, darbs tiks aizvērts un atsāks tīrīšanu nākamreiz, kad tas tiks palaists, pamatojoties uz atkārtošanās grafiku.
 
     Maksimālo izpildes laiku var norādīt, iestatot maksimālo ierobežojumu stundu skaitam, kad darbs ir jāpalaiž, izmantojot šo iestatījumu. Tīrīšanas loģika izpaužas kā viena darba izpildes ID vienā laikā hronoloģiski sakārtotā secībā, saistītās izpildes vēstures tīrīšanā pirmo notīrot vecāko. Tas pārtrauks jauna izpildes ID pieņemšanu, ja atlikušais izpildes ilgums ir pēdējo 10 % robežās no norādītā ilguma. Dažos gadījumos tiks prognozēts, ka tīrīšanas darbs turpināsies pēc norādītā maksimālā laika. Tas lielā mērā būs atkarīgs no to ierakstu skaita, kuri tiks dzēsti pašreizējam izpildes ID, kas tika sākts pirms 10 % sliekšņa sasniegšanas. Sāktā tīrīšana ir jāpabeidz, lai nodrošinātu datu integritāti, kas nozīmē, ka tīrīšana turpināsies, neraugoties uz noteiktā ierobežojuma pārsniegšanu. Kad tas ir pabeigts, jauni izpildes ID netiek pieņemti, un tīrīšanas darbs tiek pabeigts. Atlikusī izpildes vēsture, kas netika iztīrīta pietiekama izpildes laika trūkuma dēļ, tiks izvēlēta nākamajā reizē, kad ieplānots tīrīšanas darbs. Noklusējuma un minimālā vērtība šim iestatījumam ir iestatīta uz 2 stundām.
 
 -   **Periodiska partija** — tīrīšanas darbu var palaist kā vienreizēju, manuālu izpildi vai arī to var plānot periodiskai izpildei partijā. Partiju var ieplānot, izmantojot iestatījumus **Palaist fonā**, kas ir partijas standarta iestatījums.
+
+> [!NOTE]
+> Ja sagatavošanas posmu tabulas ieraksti nav pilnībā notīrīti, pārliecinieties, ka ir ieplānota tīrīšanas darba atkārtota izpilde. Kā paskaidrots iepriekš, jebkurā tīrīšanas izpildē darbs attīrīs tikai tik daudz izpildes ID, cik tas ir iespējams norādītā maksimālo stundu laikā. Lai turpinātu atlikušo sagatavošanas posmu ierakstu tīrīšanu, ir jāieplāno darba periodiska izpilde.

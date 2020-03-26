@@ -3,7 +3,7 @@ title: Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 description: Šajā tēmā ir aprakstīts, kā izmantot darba veidnes un vietas direktīvas, lai noteiktu noliktavā veikta darba veidu un vietu.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004115"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095801"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004115"
 
 ## <a name="feature-exposure"></a>Līdzekļa pieejamība
 
-Lai izmantotu noliktavas pārvaldības procesus pieļaujamā svara preču apstrādei, šī funkcionalitāte ir jāieslēdz, izmantojot licences konfigurācijas atslēgu. (Pārdejiet uz sadaļu **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**. Pēc tam cilnē **Konfigurācijas atslēgas** izvērsiet sadaļu **Tirdzniecība \> Noliktavas un transportēšanas pārvaldība** un atzīmējiet izvēles rūtiņu **Pieļaujamais svars noliktavā**).
+Lai izmantotu noliktavas pārvaldības procesus pieļaujamā svara preču apstrādei, šī funkcionalitāte ir jāieslēdz, izmantojot licences konfigurācijas atslēgu. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**. Pēc tam cilnē **Konfigurācijas atslēgas** izvērsiet sadaļu **Tirdzniecība \> Noliktavas un transportēšanas pārvaldība** un atzīmējiet izvēles rūtiņu **Pieļaujamais svars noliktavā**.
 
 > [!NOTE]
-> Ir jāieslēdz arī licences konfigurācijas atslēgas **Noliktavas un transportēšanas pārvaldība** un **Procesa sadale \> Pieļaujamais svars**. Lai iestatītu konfigurācijas atslēgas pieļaujamajam svaram, ir jāieslēdz arī līdzeklis, izmantojot darbvietu **Funkciju pārvaldība**. Galvenais līdzeklis, kas ir jāieslēdz, ir **Pieļaujamā preces svara apstrāde ar noliktavas pārvaldību**. Cits saistīts, bet neobligāts līdzeklis, kuru var ieslēgt, ir **Krājumu statusa izmaiņas pieļaujamā svara precēm**. Šis līdzeklis pievieno atbalstu izmaiņām krājumu statusā precēm, kas ir iespējotas pieļaujamajam svaram.
+> Ir jāieslēdz arī licences konfigurācijas atslēgas **Noliktavas un transportēšanas pārvaldība** un **Procesa sadale \> Pieļaujamais svars**. Lai iestatītu konfigurācijas atslēgas pieļaujamajam svaram, ir jāieslēdz arī līdzeklis, izmantojot darbvietu **Funkciju pārvaldība**. Galvenais līdzeklis, kas ir jāieslēdz, ir **Pieļaujamā preces svara apstrāde ar noliktavas pārvaldību**. Divas saistītas, bet neobligātās funkcijas, kuras varētu vēlēties ieslēgt, ir **Krājumu statusa izmaiņas pieļaujamā svara precēm** un **Izmantot esošās pieļaujamā svara birkas, ziņojot atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**.
 
 Pēc licences konfigurācijas atslēgas ieslēgšanas, kad izveidojat izlaistu preci, varat atlasīt vienumu **Pieļaujamais svars**. Varat arī saistīt izlaisto preci ar noliktavas dimensiju grupu, kam ir atlasīts parametrs **Izmantot noliktavas vadības procesus**.
 
@@ -107,6 +107,7 @@ Turklāt, ja prece tiek izsekota ar etiķeti, pastāv parametrs **Izejošo etiķ
 **Ja tiek izmantota pieļaujamā svara etiķetes izsekošanas metode**, katrai saņemtajai pieļaujamā svara vienībai vienmēr ir jāizveido etiķete un katrai etiķetei vienmēr ir jābūt saistītai ar svaru.
 
 Piemēram, tiek izmantota pieļaujamā svara vienība **Kaste** un jūs saņemat vienu paleti ar astoņām kastēm. Šādā gadījumā ir jāizveido astoņas unikālas pieļaujamā svara etiķetes un ar katru etiķeti ir jāsaista svars. Atkarībā no ienākošās plūsmas pieļaujamā svara etiķetes var noteikt visu astoņu kastu svaru un pēc tam ar katru kasti saistīt vidējo svaru vai arī katrai kastei var noteikt unikālu svaru.
+Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**, ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc noliktavas lietojumprogramma neprasa, lai tiktu tvertas pieļaujamā svara birkas kā daļa no ražošanas pārskata kā pabeigtas darbības.
 
 **Ja netiek izmantota pieļaujamā svara etiķešu izsekošanas metode**, var noteikt katras dimensiju kopas (piemēram, katras noliktavas vienības un izsekošanas dimensijas) svaru. Svaru var arī noteikt apkopotajā līmenī, piemēram, piecām noliktavas vienībām (paletēm).
 

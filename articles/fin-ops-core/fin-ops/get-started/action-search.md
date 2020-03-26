@@ -3,7 +3,7 @@ title: Darbību meklēšana
 description: Šajā rakstā ir aprakstīta darbības meklēšanas funkcionalitāte. Darbību meklēšana jums palīdz lapā atrast un izpildīt darbības.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191320"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112172"
 ---
 # <a name="action-search"></a>Darbību meklēšana
 
@@ -69,6 +69,9 @@ Piemēram, jūs ievadījāt **kop** **darbību meklēšanas** laukā un tagad iz
 Iepriekšējā piemērā darbību meklēšana parādīja rezultātus no standarta darbību rūts lapas augšdaļā. Tomēr, darbību meklēšana rāda rezultātus arī no redzamas rīkjoslas, kas atrodas citās vietās lapā. Jūs meklējat, piemēram, pogu **Rīcībā esošie krājumi**, kura atrodas kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Šajā gadījumā pogas ceļš rezultātu sarakstā (**Pārdošanas pasūtījuma rindas** &gt; **Krājumi** &gt; **Skatīt**) jūs informē, ka šī poga atrodas zem kopsavilkuma cilnes **Pārdošanas pasūtījuma rindas** izvēlnes pogas **Krājumi** virsraksta **Skatīt**.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> Ir dažas pogas, kas netiek rādītas darbību meklēšanā. Tās ietver nomešanas dialoga pogas un pogas no apakšveidlapām. 
 
 ## <a name="action-search-vs-navigation-search"></a>Darbību meklēšana un Navigācijas meklēšana
 

@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023251"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127702"
 ---
 # <a name="cash-management-improvements"></a>Kases pārvaldības uzlabojumi
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Kases pārvaldība ir būtiska funkcija mazumtirgotājiem fiziskajos veikalos. Mazumtirgotāji vēlas savos veikalos izmantot sistēmas, kas var palīdzēt šiem tirgotājiem nodrošināt pilnīgu izsekojamību un uzskaitāmību par skaidru naudu un tās kustību pa dažādajām veikalā esošajām kases sistēmām un kasieriem. Šīm sistēmām ir jābūt spējīgām saskaņot visas atšķirības un noteikt uzskaitāmību.
 

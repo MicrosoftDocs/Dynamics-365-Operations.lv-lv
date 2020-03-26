@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015310"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124212"
 ---
 # <a name="credit-limit-adjustments"></a>Kredītlimita korekcijas 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kredīta limita korekcijas ļauj kredīta pārvaldniekiem atjaunināt viena debitora, debitoru grupas vai visu debitoru kredīta limitus un beigu datumus grāmatošanas procesā. Varat pievienot kredīta limita korekcijas ierakstus, lai atjauninātu debitorus un debitoru kredīta grupas, vai arī tos var izmantot, lai aprēķinātu automātiskos kredīta limitus. Pēc tam ierakstus var pārskatīt, nosūtīt apstiprināšanai, izmantojot darbplūsmu, un grāmatot debitora kontos.
 

@@ -1,9 +1,9 @@
 ---
 title: Pielāgotie lauki
-description: ''
+description: Jūs varat pievienot pielāgotus laukus lapām programmā Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,27 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6de1bcc6df5f8e4ab1ebbccb4b9a56f6f019c37f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7348fb9d3457da23fc4e250a1fd3f6cac82bdb5e
+ms.sourcegitcommit: 8493593e1405cde8cde23a3d9eb90385136088e1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009801"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3116003"
 ---
 # <a name="custom-fields"></a>Pielāgotie lauki
 
-Jūs varat pievienot pielāgotus laukus lapām programmā Dynamics 365 Human Resources. Plašāku informāciju par to, kā izveidot pielāgotus laukus lapā, skatiet rakstā [Darbs ar pielāgotiem laukiem un to izveide](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+Jūs varat pievienot pielāgotus laukus lapām programmā Dynamics 365 Human Resources. Plašāku informāciju par to, kā izveidot pielāgotus laukus, skatiet rakstā [Darbs ar pielāgotiem laukiem un to izveide](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-Tālāk norādītie Common Data Service elementi tagad atbalsta pielāgotus laukus, kas ir izveidoti programmā Human Resources:
-
-- Nodarbinātais
-- Etniskā izcelsme
-- Veterāna statuss
-- Valodas kods
-- Darbs
-- Darba tips
-- Darba funkcija
-- Ieņemamais amats
-- Amata veids
+Lielākā daļa Common Data Service entītiju, kas atbalsta pielāgotos laukus. Pilnam entītiju sarakstam Common Data Service skatiet [Common Data Service entītijas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
 
 Noteikti iespējojiet visus pielāgotos laukus, ko izveidojat, lai tos varētu izmantot sistēmā Common Data Service. Papildinformāciju skatiet rakstā [Pielāgotu lauku rādīšana datu elementos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+
+## <a name="see-also"></a>Skatiet arī
+
+[Common Data Service entītijas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[Pielāgotu lauku izveide un darbs ar tiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[Pielāgoto lauku sniegšana datu elementos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
