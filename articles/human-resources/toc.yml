@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 19.\_marts"
+          href: hr-whats-new-2020-03-19.md
         - name: "2020.\_gada 10.\_marts"
           href: hr-whats-new-2020-03-10.md
         - name: "2020.\_gada 3.\_marts"
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Izveidot pakārtotu jautājumu
               href: hr-learning-depending-question.md
+        - name: Darbinieka un vadītāja pašapkalpošanās iestatīšana
+          items:
+            - name: Darbinieka un vadītāja pašapkalpošanās pārskats
+              href: hr-employee-manager-self-service-overview.md
+            - name: Rediģēt personisko informāciju
+              href: hr-employee-manager-self-service-edit-personal-information.md
