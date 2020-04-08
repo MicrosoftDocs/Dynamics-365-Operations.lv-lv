@@ -454,6 +454,8 @@
                   items:
                     - name: Papildu automātisko maksu konfigurēšana un lietošana
                       href: omni-auto-charges.md
+                    - name: Automātisko maksu iespējošana un konfigurēšana katram kanālam
+                      href: auto-charges-by-channel.md
                     - name: Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
                       href: pro-rate-charges-matching-lines.md
                 - name: Nepārtrauktības programmu pārvaldība
@@ -525,7 +527,7 @@
                 - name: Jaunas preces izveide
                   items:
                     - name: Jaunas preces izveide programmā Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Preču kategoriju un preču pārvaldība
                       href: category-management-product-creation.md
                 - name: Preces īpašības
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Atteikšanās no personalizētiem ieteikumiem
                       href: personalization-gdpr.md
-                - name: Ieteikumu sarakstu pievienošana e-komercijas vietnei
-                  href: add-reco-list-to-page.md
                 - name: POS pieredze
                   items:
                     - name: Preču ieteikumu pievienošana punktā POS
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Pasūtījuma apstiprinājuma modulis
                       href: order-confirmation-module.md
+                    - name: Veikalu atlasītāja modulis
+                      href: store-selector.md
                 - name: Konta pārvaldības moduļi
                   items:
                     - name: Konta pārvaldības lapas un moduļi
@@ -2115,7 +2117,7 @@
                 - name: Maksājuma datu izmantošana
                   href: payment-connector-data-fields.md
                 - name: Maksājumu dublikātu aizsardzības iespējošana maksājumu savienotājam
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Maksājumu pakotnes izveidošana programmu pārlūkam Service Fabric izvietojumos
                   href: dev-itpro/payment-connector-package.md
             - name: Trešās puses e-komercijas paplašināmība

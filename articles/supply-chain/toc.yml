@@ -70,6 +70,8 @@
                   items:
                     - name: Jaunumi un izmaiņas Supply Chain Management mājas lapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management versija\_10.0.10 (2020.\_gada maijs)"
+                      href: get-started/whats-new-scm-10-0-10.md
                     - name: "Supply Chain Management versija\_10.0.9 (2020.\_gada aprīlis)"
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: "Supply Chain Management versija\_10.0.8 (2020.\_gada februāris)"
