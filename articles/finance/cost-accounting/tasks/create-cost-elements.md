@@ -16,45 +16,45 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cceec1d52e1b5b2a05525c8d96f46dece17363b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 14f3cbde07fab291a3a3bf05441a87e97a54a7b2
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187801"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161619"
 ---
-# <a name="create-cost-elements"></a><span data-ttu-id="f0cc0-103">Izmaksu elementu izveide  </span><span class="sxs-lookup"><span data-stu-id="f0cc0-103">Create cost elements</span></span> 
+# <a name="create-cost-elements"></a><span data-ttu-id="a4eb8-103">Izmaksu elementu izveide  </span><span class="sxs-lookup"><span data-stu-id="a4eb8-103">Create cost elements</span></span> 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f0cc0-104">Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-104">There are several ways to create cost elements in Cost accounting.</span></span> <span data-ttu-id="f0cc0-105">Šajā procedūrā ir izskaidrots, kā izveidot izmaksu elementu, importējot galvenos kontus un izmantojot datu savienojumu.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-105">This procedure shows how to create cost elements by importing main accounts via a data connector.</span></span> <span data-ttu-id="f0cc0-106">Lai izveidotu šo procedūru, tika izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-106">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="f0cc0-107">Šī procedūra ir paredzēta kā izmaksu uzskaites līdzeklis, kas tika pievienots Dynamics 365 for Operations versijai 1611.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-107">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="a4eb8-104">Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-104">There are several ways to create cost elements in Cost accounting.</span></span> <span data-ttu-id="a4eb8-105">Šajā procedūrā ir izskaidrots, kā izveidot izmaksu elementu, importējot galvenos kontus un izmantojot datu savienojumu.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-105">This procedure shows how to create cost elements by importing main accounts via a data connector.</span></span> <span data-ttu-id="a4eb8-106">Lai izveidotu šo procedūru, tika izmantots demonstrācijas uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-106">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="a4eb8-107">Šī procedūra ir paredzēta kā izmaksu uzskaites līdzeklis, kas tika pievienots Dynamics 365 for Operations versijai 1611.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-107">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-new-cost-elements"></a><span data-ttu-id="f0cc0-108">Izveidot jaunus izmaksu elementus</span><span class="sxs-lookup"><span data-stu-id="f0cc0-108">Create new cost elements</span></span>
-1. <span data-ttu-id="f0cc0-109">Dodieties uz sadaļu Izmaksu uzskaite > Dimensijas > Izmaksu elementa dimensijas.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-109">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
-2. <span data-ttu-id="f0cc0-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-110">Click New.</span></span>
-3. <span data-ttu-id="f0cc0-111">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-111">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="f0cc0-112">Ievadiet vai atlasiet vērtību laukā Dimensiju elementu datu savienotājs.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-112">In the Data connector for dimension members field, enter or select a value.</span></span>
-5. <span data-ttu-id="f0cc0-113">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-113">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="f0cc0-114">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-114">Click Save.</span></span>
+## <a name="create-new-cost-elements"></a><span data-ttu-id="a4eb8-108">Izveidot jaunus izmaksu elementus</span><span class="sxs-lookup"><span data-stu-id="a4eb8-108">Create new cost elements</span></span>
+1. <span data-ttu-id="a4eb8-109">Dodieties uz sadaļu Izmaksu uzskaite > Dimensijas > Izmaksu elementa dimensijas.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-109">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="a4eb8-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-110">Click New.</span></span>
+3. <span data-ttu-id="a4eb8-111">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-111">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="a4eb8-112">Ievadiet vai atlasiet vērtību laukā Dimensiju elementu datu savienotājs.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-112">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="a4eb8-113">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-113">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="a4eb8-114">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-114">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a><span data-ttu-id="f0cc0-115">Konfigurēt datu savienotāju</span><span class="sxs-lookup"><span data-stu-id="f0cc0-115">Configure the data connector</span></span>
-1. <span data-ttu-id="f0cc0-116">Noklikšķiniet uz Konfigurēt dimensiju elementa nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-116">Click Configure dimension member provider.</span></span>
-2. <span data-ttu-id="f0cc0-117">Ievadiet vai atlasiet vērtību laukā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-117">In the Chart of accounts field, enter or select a value.</span></span>
-    * <span data-ttu-id="f0cc0-118">Atlasiet Koplietots, lai izmantotu koplietojamo kontu plānu.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-118">Select Shared to use the shared chart of accounts.</span></span>  
-3. <span data-ttu-id="f0cc0-119">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-119">Click New.</span></span>
-4. <span data-ttu-id="f0cc0-120">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="f0cc0-121">Varat izmantot filtrus, lai atlasītu kontus, kas atbilst jūsu kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-121">You can apply filters to accounts to meet your criteria.</span></span>  
-5. <span data-ttu-id="f0cc0-122">Ievadiet vai atlasiet vērtību laukā No galvenā konta.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-122">In the From main account field, enter or select a value.</span></span>
-6. <span data-ttu-id="f0cc0-123">Ievadiet vai atlasiet vērtību laukā Uz galveno kontu.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-123">In the To main account field, enter or select a value.</span></span>
-7. <span data-ttu-id="f0cc0-124">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-124">Click OK.</span></span>
+## <a name="configure-the-data-connector"></a><span data-ttu-id="a4eb8-115">Konfigurēt datu savienotāju</span><span class="sxs-lookup"><span data-stu-id="a4eb8-115">Configure the data connector</span></span>
+1. <span data-ttu-id="a4eb8-116">Noklikšķiniet uz Konfigurēt dimensiju elementa nodrošinātāju.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-116">Click Configure dimension member provider.</span></span>
+2. <span data-ttu-id="a4eb8-117">Ievadiet vai atlasiet vērtību laukā Kontu plāns.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-117">In the Chart of accounts field, enter or select a value.</span></span>
+    * <span data-ttu-id="a4eb8-118">Atlasiet Koplietots, lai izmantotu koplietojamo kontu plānu.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-118">Select Shared to use the shared chart of accounts.</span></span>  
+3. <span data-ttu-id="a4eb8-119">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-119">Click New.</span></span>
+4. <span data-ttu-id="a4eb8-120">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="a4eb8-121">Varat izmantot filtrus, lai atlasītu kontus, kas atbilst jūsu kritērijiem.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-121">You can apply filters to accounts to meet your criteria.</span></span>  
+5. <span data-ttu-id="a4eb8-122">Ievadiet vai atlasiet vērtību laukā No galvenā konta.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-122">In the From main account field, enter or select a value.</span></span>
+6. <span data-ttu-id="a4eb8-123">Ievadiet vai atlasiet vērtību laukā Uz galveno kontu.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-123">In the To main account field, enter or select a value.</span></span>
+7. <span data-ttu-id="a4eb8-124">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-124">Click OK.</span></span>
 
-## <a name="import-main-accounts"></a><span data-ttu-id="f0cc0-125">Importēt galvenos kontus</span><span class="sxs-lookup"><span data-stu-id="f0cc0-125">Import main accounts</span></span>
-1. <span data-ttu-id="f0cc0-126">Noklikšķiniet uz Importēt dimensiju elementus.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-126">Click Import dimension members.</span></span>
-    * <span data-ttu-id="f0cc0-127">Galvenie konti tiks importēti izmaksu uzskaitē un izmantoti kā izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-127">Main accounts will be imported into Cost accounting and used as cost elements.</span></span>  
-2. <span data-ttu-id="f0cc0-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-128">Click OK.</span></span>
+## <a name="import-main-accounts"></a><span data-ttu-id="a4eb8-125">Importēt galvenos kontus</span><span class="sxs-lookup"><span data-stu-id="a4eb8-125">Import main accounts</span></span>
+1. <span data-ttu-id="a4eb8-126">Noklikšķiniet uz Importēt dimensiju elementus.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-126">Click Import dimension members.</span></span>
+    * <span data-ttu-id="a4eb8-127">Galvenie konti tiks importēti izmaksu uzskaitē un izmantoti kā izmaksu elementi.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-127">Main accounts will be imported into Cost accounting and used as cost elements.</span></span>  
+2. <span data-ttu-id="a4eb8-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-128">Click OK.</span></span>
 
-## <a name="view-the-imported-accounts-as-cost-elements"></a><span data-ttu-id="f0cc0-129">Skatīt importētos kontus kā izmaksu elementus</span><span class="sxs-lookup"><span data-stu-id="f0cc0-129">View the imported accounts as cost elements</span></span>
-1. <span data-ttu-id="f0cc0-130">Noklikšķiniet uz Skatīt dimensijas elementus.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-130">Click View dimension members.</span></span>
-    * <span data-ttu-id="f0cc0-131">Skatiet importētos virsgrāmatas kontus kā izmaksu elementus, uz kuriem var aizplūst izmaksas jūsu uzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="f0cc0-131">View the imported ledger accounts as cost elements in your business that costs can flow to.</span></span>  
+## <a name="view-the-imported-accounts-as-cost-elements"></a><span data-ttu-id="a4eb8-129">Skatīt importētos kontus kā izmaksu elementus</span><span class="sxs-lookup"><span data-stu-id="a4eb8-129">View the imported accounts as cost elements</span></span>
+1. <span data-ttu-id="a4eb8-130">Noklikšķiniet uz Skatīt dimensijas elementus.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-130">Click View dimension members.</span></span>
+    * <span data-ttu-id="a4eb8-131">Skatiet importētos virsgrāmatas kontus kā izmaksu elementus, uz kuriem var aizplūst izmaksas jūsu uzņēmumā.</span><span class="sxs-lookup"><span data-stu-id="a4eb8-131">View the imported ledger accounts as cost elements in your business that costs can flow to.</span></span>  
 

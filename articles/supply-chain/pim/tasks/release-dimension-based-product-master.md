@@ -16,28 +16,28 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 57526fccd1e997acde570e712d64caf4df728318
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9bf9f4725120a7b893bf113a50d208ae27755d56
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844229"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149853"
 ---
-# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="c6740-103">Uz dimensijas balstītas preces šablona izlaišana</span><span class="sxs-lookup"><span data-stu-id="c6740-103">Release a dimension-based product master</span></span>
+# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="5ed97-103">Uz dimensijas balstītas preces šablona izlaišana</span><span class="sxs-lookup"><span data-stu-id="5ed97-103">Release a dimension-based product master</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c6740-104">Šajā procedūrā tiek parādīts, kā izlaist preces šablonu, kurš tiks izmantots konfigurācijām atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="c6740-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="c6740-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="c6740-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c6740-106">Tas ir priekšnoteikums, ka esat izveidojis preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="c6740-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="c6740-107">Šī ir otrā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="c6740-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="5ed97-104">Šajā procedūrā tiek parādīts, kā izlaist preces šablonu, kurš tiks izmantots konfigurācijām atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="5ed97-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="5ed97-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="5ed97-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5ed97-106">Tas ir priekšnoteikums, ka esat izveidojis preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="5ed97-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="5ed97-107">Šī ir otrā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="5ed97-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="c6740-108">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Preces šabloni.</span><span class="sxs-lookup"><span data-stu-id="c6740-108">Go to Product information management > Products > Product masters.</span></span>
-    * <span data-ttu-id="c6740-109">Filtrējiet kolonnu Konfigurēšanas tehnoloģija tā, lai tiktu parādīta tikai konfigurācija atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="c6740-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="c6740-110">Piemēram, varat filtrēt kolonnu, ierakstot Dimensija.</span><span class="sxs-lookup"><span data-stu-id="c6740-110">For example, you can filter the column by typing Dimension.</span></span>    
-2. <span data-ttu-id="c6740-111">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="c6740-111">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="c6740-112">Noklikšķiniet uz Izlaist preces.</span><span class="sxs-lookup"><span data-stu-id="c6740-112">Click Release products.</span></span>
-4. <span data-ttu-id="c6740-113">Noklikšķiniet uz Tālāk.</span><span class="sxs-lookup"><span data-stu-id="c6740-113">Click Next.</span></span>
-    * <span data-ttu-id="c6740-114">Precēm, kas ir izveidotas ar konfigurācijas atbilstoši dimensijām tehnoloģiju, preces varianti ir jāizveido uzņēmumā, kurā tiks izveidots materiālu komplekts.</span><span class="sxs-lookup"><span data-stu-id="c6740-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
-5. <span data-ttu-id="c6740-115">Noklikšķiniet uz Tālāk.</span><span class="sxs-lookup"><span data-stu-id="c6740-115">Click Next.</span></span>
-6. <span data-ttu-id="c6740-116">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="c6740-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="c6740-117">Šai procedūrai atlasiet uzņēmumu USMF.</span><span class="sxs-lookup"><span data-stu-id="c6740-117">Select the company USMF for this procedure.</span></span>  
-7. <span data-ttu-id="c6740-118">Noklikšķiniet uz Tālāk.</span><span class="sxs-lookup"><span data-stu-id="c6740-118">Click Next.</span></span>
-8. <span data-ttu-id="c6740-119">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="c6740-119">Click Finish.</span></span>
+1. <span data-ttu-id="5ed97-108">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Preces šabloni.</span><span class="sxs-lookup"><span data-stu-id="5ed97-108">Go to Product information management > Products > Product masters.</span></span>
+    * <span data-ttu-id="5ed97-109">Filtrējiet kolonnu Konfigurēšanas tehnoloģija tā, lai tiktu parādīta tikai konfigurācija atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="5ed97-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="5ed97-110">Piemēram, varat filtrēt kolonnu, ierakstot Dimensija.</span><span class="sxs-lookup"><span data-stu-id="5ed97-110">For example, you can filter the column by typing Dimension.</span></span>    
+2. <span data-ttu-id="5ed97-111">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="5ed97-111">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="5ed97-112">Noklikšķiniet uz Izlaist preces.</span><span class="sxs-lookup"><span data-stu-id="5ed97-112">Click Release products.</span></span>
+4. <span data-ttu-id="5ed97-113">Noklikšķiniet uz Tālāk.</span><span class="sxs-lookup"><span data-stu-id="5ed97-113">Click Next.</span></span>
+    * <span data-ttu-id="5ed97-114">Precēm, kas ir izveidotas ar konfigurācijas atbilstoši dimensijām tehnoloģiju, preces varianti ir jāizveido uzņēmumā, kurā tiks izveidots materiālu komplekts.</span><span class="sxs-lookup"><span data-stu-id="5ed97-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
+5. <span data-ttu-id="5ed97-115">Noklikšķiniet uz Tālāk.</span><span class="sxs-lookup"><span data-stu-id="5ed97-115">Click Next.</span></span>
+6. <span data-ttu-id="5ed97-116">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="5ed97-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="5ed97-117">Šai procedūrai atlasiet uzņēmumu USMF.</span><span class="sxs-lookup"><span data-stu-id="5ed97-117">Select the company USMF for this procedure.</span></span>  
+7. <span data-ttu-id="5ed97-118">Noklikšķiniet uz Tālāk.</span><span class="sxs-lookup"><span data-stu-id="5ed97-118">Click Next.</span></span>
+8. <span data-ttu-id="5ed97-119">Noklikšķiniet uz Pabeigt.</span><span class="sxs-lookup"><span data-stu-id="5ed97-119">Click Finish.</span></span>
 

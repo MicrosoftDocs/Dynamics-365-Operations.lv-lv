@@ -16,52 +16,52 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9c5d8dbc5204464b2265029b6a11fcac7b79b464
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558777"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147162"
 ---
-# <a name="copy-a-formula"></a><span data-ttu-id="027ed-103">Formulas kopēšana</span><span class="sxs-lookup"><span data-stu-id="027ed-103">Copy a formula</span></span>
+# <a name="copy-a-formula"></a><span data-ttu-id="f93de-103">Formulas kopēšana</span><span class="sxs-lookup"><span data-stu-id="f93de-103">Copy a formula</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="027ed-104">Šajā procedūrā uzsvars tiek likts uz to, lai izveidotu formulu, kura iekļauj tādus pašus komponentus, kā esošā formula, bet ar nelielām atšķirībām.</span><span class="sxs-lookup"><span data-stu-id="027ed-104">This procedure focuses on creating a formula that includes the same ingredients as an existing formula, but with minor differences.</span></span> <span data-ttu-id="027ed-105">Formulas rindu izveidei var izmantot funkciju Kopēt, lai kopētu esošo formulu, kurai ir visvairāk jums nepieciešamo komponentu.</span><span class="sxs-lookup"><span data-stu-id="027ed-105">To create the formula lines, you can use the Copy function to copy an existing formula that has most of the ingredients that you need.</span></span> <span data-ttu-id="027ed-106">Pēc tam var veikt nepieciešamās izmaiņas atsevišķās rindās jaunajā versijā.</span><span class="sxs-lookup"><span data-stu-id="027ed-106">You can then make any necessary changes to the individual lines in the new version.</span></span> <span data-ttu-id="027ed-107">Izmantojot funkciju Kopēt, nav jāizveido vairākas gandrīz identiskas formulas.</span><span class="sxs-lookup"><span data-stu-id="027ed-107">By using the Copy function, you do not have to create multiple formulas that are almost identical.</span></span> <span data-ttu-id="027ed-108">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USP2.</span><span class="sxs-lookup"><span data-stu-id="027ed-108">The demo data company used to create this task is USP2.</span></span>
+<span data-ttu-id="f93de-104">Šajā procedūrā uzsvars tiek likts uz to, lai izveidotu formulu, kura iekļauj tādus pašus komponentus, kā esošā formula, bet ar nelielām atšķirībām.</span><span class="sxs-lookup"><span data-stu-id="f93de-104">This procedure focuses on creating a formula that includes the same ingredients as an existing formula, but with minor differences.</span></span> <span data-ttu-id="f93de-105">Formulas rindu izveidei var izmantot funkciju Kopēt, lai kopētu esošo formulu, kurai ir visvairāk jums nepieciešamo komponentu.</span><span class="sxs-lookup"><span data-stu-id="f93de-105">To create the formula lines, you can use the Copy function to copy an existing formula that has most of the ingredients that you need.</span></span> <span data-ttu-id="f93de-106">Pēc tam var veikt nepieciešamās izmaiņas atsevišķās rindās jaunajā versijā.</span><span class="sxs-lookup"><span data-stu-id="f93de-106">You can then make any necessary changes to the individual lines in the new version.</span></span> <span data-ttu-id="f93de-107">Izmantojot funkciju Kopēt, nav jāizveido vairākas gandrīz identiskas formulas.</span><span class="sxs-lookup"><span data-stu-id="f93de-107">By using the Copy function, you do not have to create multiple formulas that are almost identical.</span></span> <span data-ttu-id="f93de-108">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USP2.</span><span class="sxs-lookup"><span data-stu-id="f93de-108">The demo data company used to create this task is USP2.</span></span>
 
 
-## <a name="create-a-formula"></a><span data-ttu-id="027ed-109">Formulas izveide</span><span class="sxs-lookup"><span data-stu-id="027ed-109">Create a formula</span></span>
-1. <span data-ttu-id="027ed-110">Pārejiet uz sadaļu Preču informācijas pārvaldība > Materiālu komplekti un formulas > Formulas.</span><span class="sxs-lookup"><span data-stu-id="027ed-110">Go to Product information management > Bills of materials and formulas > Formulas.</span></span>
-2. <span data-ttu-id="027ed-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="027ed-111">Click New.</span></span>
-3. <span data-ttu-id="027ed-112">Laukā Formula ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="027ed-112">In the Formula field, type a value.</span></span>
-4. <span data-ttu-id="027ed-113">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="027ed-113">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="027ed-114">Ierakstiet atpazīstamu formulas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="027ed-114">Type a meaningful name for the formula.</span></span>  
-5. <span data-ttu-id="027ed-115">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="027ed-115">In the Site field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="027ed-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="027ed-116">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="027ed-117">Laukā Krājumu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="027ed-117">In the Item group field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="027ed-118">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="027ed-118">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="027ed-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="027ed-119">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="027ed-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="027ed-120">Click Save.</span></span>
+## <a name="create-a-formula"></a><span data-ttu-id="f93de-109">Formulas izveide</span><span class="sxs-lookup"><span data-stu-id="f93de-109">Create a formula</span></span>
+1. <span data-ttu-id="f93de-110">Pārejiet uz sadaļu Preču informācijas pārvaldība > Materiālu komplekti un formulas > Formulas.</span><span class="sxs-lookup"><span data-stu-id="f93de-110">Go to Product information management > Bills of materials and formulas > Formulas.</span></span>
+2. <span data-ttu-id="f93de-111">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f93de-111">Click New.</span></span>
+3. <span data-ttu-id="f93de-112">Laukā Formula ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="f93de-112">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="f93de-113">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f93de-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f93de-114">Ierakstiet atpazīstamu formulas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="f93de-114">Type a meaningful name for the formula.</span></span>  
+5. <span data-ttu-id="f93de-115">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f93de-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="f93de-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f93de-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="f93de-117">Laukā Krājumu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f93de-117">In the Item group field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="f93de-118">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="f93de-118">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="f93de-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f93de-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="f93de-120">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f93de-120">Click Save.</span></span>
 
-## <a name="copy-formula-lines"></a><span data-ttu-id="027ed-121">Formulas rindu kopēšana</span><span class="sxs-lookup"><span data-stu-id="027ed-121">Copy formula lines</span></span>
-1. <span data-ttu-id="027ed-122">Darbību rūtī noklikšķiniet uz Formula.</span><span class="sxs-lookup"><span data-stu-id="027ed-122">On the Action Pane, click Formula.</span></span>
-2. <span data-ttu-id="027ed-123">Noklikšķiniet uz Kopēt.</span><span class="sxs-lookup"><span data-stu-id="027ed-123">Click Copy.</span></span>
-3. <span data-ttu-id="027ed-124">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="027ed-124">In the Item number field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="027ed-125">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="027ed-125">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="027ed-126">Laukā Formulas versija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="027ed-126">In the Formula version field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="027ed-127">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="027ed-127">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="027ed-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="027ed-128">Click OK.</span></span>
+## <a name="copy-formula-lines"></a><span data-ttu-id="f93de-121">Formulas rindu kopēšana</span><span class="sxs-lookup"><span data-stu-id="f93de-121">Copy formula lines</span></span>
+1. <span data-ttu-id="f93de-122">Darbību rūtī noklikšķiniet uz Formula.</span><span class="sxs-lookup"><span data-stu-id="f93de-122">On the Action Pane, click Formula.</span></span>
+2. <span data-ttu-id="f93de-123">Noklikšķiniet uz Kopēt.</span><span class="sxs-lookup"><span data-stu-id="f93de-123">Click Copy.</span></span>
+3. <span data-ttu-id="f93de-124">Laukā Krājuma kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f93de-124">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="f93de-125">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f93de-125">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="f93de-126">Laukā Formulas versija noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f93de-126">In the Formula version field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="f93de-127">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f93de-127">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="f93de-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f93de-128">Click OK.</span></span>
 
-## <a name="adjust-copied-formula-lines"></a><span data-ttu-id="027ed-129">Kopēto formulas rindu pielāgošana</span><span class="sxs-lookup"><span data-stu-id="027ed-129">Adjust copied formula lines</span></span>
-1. <span data-ttu-id="027ed-130">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="027ed-130">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="027ed-131">Noklikšķiniet uz Dzēst.</span><span class="sxs-lookup"><span data-stu-id="027ed-131">Click Delete.</span></span>
-3. <span data-ttu-id="027ed-132">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="027ed-132">Click Yes.</span></span>
+## <a name="adjust-copied-formula-lines"></a><span data-ttu-id="f93de-129">Kopēto formulas rindu pielāgošana</span><span class="sxs-lookup"><span data-stu-id="f93de-129">Adjust copied formula lines</span></span>
+1. <span data-ttu-id="f93de-130">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="f93de-130">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="f93de-131">Noklikšķiniet uz Dzēst.</span><span class="sxs-lookup"><span data-stu-id="f93de-131">Click Delete.</span></span>
+3. <span data-ttu-id="f93de-132">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="f93de-132">Click Yes.</span></span>
 
-## <a name="approve-formula"></a><span data-ttu-id="027ed-133">Apstiprināt formulu</span><span class="sxs-lookup"><span data-stu-id="027ed-133">Approve formula</span></span>
-1. <span data-ttu-id="027ed-134">Darbību rūtī noklikšķiniet uz Formula.</span><span class="sxs-lookup"><span data-stu-id="027ed-134">On the Action Pane, click Formula.</span></span>
-2. <span data-ttu-id="027ed-135">Noklikšķiniet uz Apstiprināt formulu.</span><span class="sxs-lookup"><span data-stu-id="027ed-135">Click Approve formula.</span></span>
-3. <span data-ttu-id="027ed-136">Laukā Apstiprināja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="027ed-136">In the Approved by field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="027ed-137">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="027ed-137">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="027ed-138">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="027ed-138">Click Select.</span></span>
-6. <span data-ttu-id="027ed-139">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="027ed-139">Click OK.</span></span>
+## <a name="approve-formula"></a><span data-ttu-id="f93de-133">Apstiprināt formulu</span><span class="sxs-lookup"><span data-stu-id="f93de-133">Approve formula</span></span>
+1. <span data-ttu-id="f93de-134">Darbību rūtī noklikšķiniet uz Formula.</span><span class="sxs-lookup"><span data-stu-id="f93de-134">On the Action Pane, click Formula.</span></span>
+2. <span data-ttu-id="f93de-135">Noklikšķiniet uz Apstiprināt formulu.</span><span class="sxs-lookup"><span data-stu-id="f93de-135">Click Approve formula.</span></span>
+3. <span data-ttu-id="f93de-136">Laukā Apstiprināja noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f93de-136">In the Approved by field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="f93de-137">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f93de-137">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="f93de-138">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="f93de-138">Click Select.</span></span>
+6. <span data-ttu-id="f93de-139">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f93de-139">Click OK.</span></span>
 
