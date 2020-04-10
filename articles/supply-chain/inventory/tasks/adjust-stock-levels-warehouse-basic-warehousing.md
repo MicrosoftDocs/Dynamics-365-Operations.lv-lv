@@ -17,46 +17,46 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 450e95d8a4d5a216b84a3c944c6c63b4a8ad10c5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c617517109146b96075d03b6f3549639a99d7d1c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838827"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146081"
 ---
-# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="84638-103">Krājumu līmeņu korekcija noliktavā (pamata noliktava)</span><span class="sxs-lookup"><span data-stu-id="84638-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="ee904-103">Krājumu līmeņu korekcija noliktavā (pamata noliktava)</span><span class="sxs-lookup"><span data-stu-id="ee904-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="84638-104">Šajā procedūrā parādīts krājumu korekcijas žurnāla izveides un grāmatošanas process, lai koriģētu noteiktu preču krājumu līmeņus noliktavā.</span><span class="sxs-lookup"><span data-stu-id="84638-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="84638-105">Pirms procesa sākšanas ir jābūt izveidotam krājumu žurnāla nosaukumam krājumu korekcijām.</span><span class="sxs-lookup"><span data-stu-id="84638-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="84638-106">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="84638-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="84638-107">Šos uzdevumus parasti veic noliktavas darbinieks.</span><span class="sxs-lookup"><span data-stu-id="84638-107">These tasks would normally be carried out by a warehouse employee.</span></span>
+<span data-ttu-id="ee904-104">Šajā procedūrā parādīts krājumu korekcijas žurnāla izveides un grāmatošanas process, lai koriģētu noteiktu preču krājumu līmeņus noliktavā.</span><span class="sxs-lookup"><span data-stu-id="ee904-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="ee904-105">Pirms procesa sākšanas ir jābūt izveidotam krājumu žurnāla nosaukumam krājumu korekcijām.</span><span class="sxs-lookup"><span data-stu-id="ee904-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="ee904-106">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="ee904-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="ee904-107">Šos uzdevumus parasti veic noliktavas darbinieks.</span><span class="sxs-lookup"><span data-stu-id="ee904-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-adjustment-journal"></a><span data-ttu-id="84638-108">Krājumu korekcijas žurnāla izveide</span><span class="sxs-lookup"><span data-stu-id="84638-108">Create an inventory adjustment journal</span></span>
-1. <span data-ttu-id="84638-109">Dodieties uz Krājumu vadība > Žurnāla ieraksti > Krājumi > Krājumu korekcija.</span><span class="sxs-lookup"><span data-stu-id="84638-109">Go to Inventory management > Journal entries > Items > Inventory adjustment.</span></span>
-2. <span data-ttu-id="84638-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="84638-110">Click New.</span></span>
-3. <span data-ttu-id="84638-111">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="84638-111">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="84638-112">Sarakstā noklikšķiniet uz krājumu korekcijas žurnāla nosaukuma, kuru vēlaties izmantot.</span><span class="sxs-lookup"><span data-stu-id="84638-112">In the list, click on the inventory adjustment journal name you want to use.</span></span>
-    * <span data-ttu-id="84638-113">Daži citi lauki tiks aizpildīti, pamatojoties uz atlasītajiem krājumu korekcijas žurnāla nosaukuma iestatījumiem.</span><span class="sxs-lookup"><span data-stu-id="84638-113">Some other fields will be populated based on the setup of the inventory adjustment journal name you select.</span></span>  
-5. <span data-ttu-id="84638-114">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="84638-114">Click OK.</span></span>
+## <a name="create-an-inventory-adjustment-journal"></a><span data-ttu-id="ee904-108">Krājumu korekcijas žurnāla izveide</span><span class="sxs-lookup"><span data-stu-id="ee904-108">Create an inventory adjustment journal</span></span>
+1. <span data-ttu-id="ee904-109">Dodieties uz Krājumu vadība > Žurnāla ieraksti > Krājumi > Krājumu korekcija.</span><span class="sxs-lookup"><span data-stu-id="ee904-109">Go to Inventory management > Journal entries > Items > Inventory adjustment.</span></span>
+2. <span data-ttu-id="ee904-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="ee904-110">Click New.</span></span>
+3. <span data-ttu-id="ee904-111">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="ee904-111">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="ee904-112">Sarakstā noklikšķiniet uz krājumu korekcijas žurnāla nosaukuma, kuru vēlaties izmantot.</span><span class="sxs-lookup"><span data-stu-id="ee904-112">In the list, click on the inventory adjustment journal name you want to use.</span></span>
+    * <span data-ttu-id="ee904-113">Daži citi lauki tiks aizpildīti, pamatojoties uz atlasītajiem krājumu korekcijas žurnāla nosaukuma iestatījumiem.</span><span class="sxs-lookup"><span data-stu-id="ee904-113">Some other fields will be populated based on the setup of the inventory adjustment journal name you select.</span></span>  
+5. <span data-ttu-id="ee904-114">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="ee904-114">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a><span data-ttu-id="84638-115">Žurnāla rindu izveide</span><span class="sxs-lookup"><span data-stu-id="84638-115">Create journal lines</span></span>
-1. <span data-ttu-id="84638-116">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="84638-116">Click New.</span></span>
-2. <span data-ttu-id="84638-117">Sarakstā atzīmējiet krājuma koda lauku.</span><span class="sxs-lookup"><span data-stu-id="84638-117">In the list, mark the item number field.</span></span>
-3. <span data-ttu-id="84638-118">Laukā Krājuma kods atlasiet krājumu.</span><span class="sxs-lookup"><span data-stu-id="84638-118">In the Item number field, Select an item.</span></span> <span data-ttu-id="84638-119">Ja izmantojat demonstrācijas datu uzņēmumu USMF atlasiet "D0001".</span><span class="sxs-lookup"><span data-stu-id="84638-119">If you are using demo data company USMF, type 'D0001'.</span></span>
-4. <span data-ttu-id="84638-120">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="84638-120">In the Site field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="84638-121">Sarakstā atlasiet vietu.</span><span class="sxs-lookup"><span data-stu-id="84638-121">In the list, select a site.</span></span>
-6. <span data-ttu-id="84638-122">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="84638-122">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="84638-123">Sarakstā atlasiet noliktavu.</span><span class="sxs-lookup"><span data-stu-id="84638-123">In the list, select a warehouse.</span></span>
-    * <span data-ttu-id="84638-124">Ja esat atlasījis krājumu ar Novietojumu kā obligāto dimensiju, jums būs jānorāda novietojums šeit.</span><span class="sxs-lookup"><span data-stu-id="84638-124">If you have selected an item with Location as a mandatory dimension, you would have to specify the location here.</span></span>  
-8. <span data-ttu-id="84638-125">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="84638-125">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="84638-126">Izmaksu cenas laukā norādītas krājumu saņemšanas izmaksas uz vienību.</span><span class="sxs-lookup"><span data-stu-id="84638-126">The cost price field specifies the cost per unit for inventory receipts.</span></span> <span data-ttu-id="84638-127">Ja krājuma kodam izmaksa nav norādīta vai vēlaties to mainīt manuāli, tad tas ir jādara šeit.</span><span class="sxs-lookup"><span data-stu-id="84638-127">If the cost is not specified for the item number or if you wanted to change it manually, you would do this here.</span></span>  
+## <a name="create-journal-lines"></a><span data-ttu-id="ee904-115">Žurnāla rindu izveide</span><span class="sxs-lookup"><span data-stu-id="ee904-115">Create journal lines</span></span>
+1. <span data-ttu-id="ee904-116">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="ee904-116">Click New.</span></span>
+2. <span data-ttu-id="ee904-117">Sarakstā atzīmējiet krājuma koda lauku.</span><span class="sxs-lookup"><span data-stu-id="ee904-117">In the list, mark the item number field.</span></span>
+3. <span data-ttu-id="ee904-118">Laukā Krājuma kods atlasiet krājumu.</span><span class="sxs-lookup"><span data-stu-id="ee904-118">In the Item number field, Select an item.</span></span> <span data-ttu-id="ee904-119">Ja izmantojat demonstrācijas datu uzņēmumu USMF atlasiet "D0001".</span><span class="sxs-lookup"><span data-stu-id="ee904-119">If you are using demo data company USMF, type 'D0001'.</span></span>
+4. <span data-ttu-id="ee904-120">Laukā Vieta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="ee904-120">In the Site field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="ee904-121">Sarakstā atlasiet vietu.</span><span class="sxs-lookup"><span data-stu-id="ee904-121">In the list, select a site.</span></span>
+6. <span data-ttu-id="ee904-122">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="ee904-122">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="ee904-123">Sarakstā atlasiet noliktavu.</span><span class="sxs-lookup"><span data-stu-id="ee904-123">In the list, select a warehouse.</span></span>
+    * <span data-ttu-id="ee904-124">Ja esat atlasījis krājumu ar Novietojumu kā obligāto dimensiju, jums būs jānorāda novietojums šeit.</span><span class="sxs-lookup"><span data-stu-id="ee904-124">If you have selected an item with Location as a mandatory dimension, you would have to specify the location here.</span></span>  
+8. <span data-ttu-id="ee904-125">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="ee904-125">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="ee904-126">Izmaksu cenas laukā norādītas krājumu saņemšanas izmaksas uz vienību.</span><span class="sxs-lookup"><span data-stu-id="ee904-126">The cost price field specifies the cost per unit for inventory receipts.</span></span> <span data-ttu-id="ee904-127">Ja krājuma kodam izmaksa nav norādīta vai vēlaties to mainīt manuāli, tad tas ir jādara šeit.</span><span class="sxs-lookup"><span data-stu-id="ee904-127">If the cost is not specified for the item number or if you wanted to change it manually, you would do this here.</span></span>  
 
-## <a name="validate-and-post-the-inventory-adjustment-journal"></a><span data-ttu-id="84638-128">Krājumu korekcijas žurnāla apstiprināšana un grāmatošana</span><span class="sxs-lookup"><span data-stu-id="84638-128">Validate and post the inventory adjustment journal</span></span>
-1. <span data-ttu-id="84638-129">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="84638-129">Click Validate.</span></span>
-2. <span data-ttu-id="84638-130">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="84638-130">Click OK.</span></span>
-3. <span data-ttu-id="84638-131">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="84638-131">Click Post.</span></span>
-    * <span data-ttu-id="84638-132">Grāmatojot šāda veida žurnālus, krājumu ieejas plūsma vai izejas plūsma tiek iegrāmatota, krājuma līmenis un vērtība tiek mainīta un Virsgrāmatas darbības tiek ģenerētas.</span><span class="sxs-lookup"><span data-stu-id="84638-132">When you post this kind of journal, an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
-4. <span data-ttu-id="84638-133">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="84638-133">Click OK.</span></span>
-5. <span data-ttu-id="84638-134">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="84638-134">Close the form.</span></span>
-6. <span data-ttu-id="84638-135">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="84638-135">Close the page.</span></span>
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a><span data-ttu-id="ee904-128">Krājumu korekcijas žurnāla apstiprināšana un grāmatošana</span><span class="sxs-lookup"><span data-stu-id="ee904-128">Validate and post the inventory adjustment journal</span></span>
+1. <span data-ttu-id="ee904-129">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="ee904-129">Click Validate.</span></span>
+2. <span data-ttu-id="ee904-130">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="ee904-130">Click OK.</span></span>
+3. <span data-ttu-id="ee904-131">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="ee904-131">Click Post.</span></span>
+    * <span data-ttu-id="ee904-132">Grāmatojot šāda veida žurnālus, krājumu ieejas plūsma vai izejas plūsma tiek iegrāmatota, krājuma līmenis un vērtība tiek mainīta un Virsgrāmatas darbības tiek ģenerētas.</span><span class="sxs-lookup"><span data-stu-id="ee904-132">When you post this kind of journal, an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
+4. <span data-ttu-id="ee904-133">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="ee904-133">Click OK.</span></span>
+5. <span data-ttu-id="ee904-134">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="ee904-134">Close the form.</span></span>
+6. <span data-ttu-id="ee904-135">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="ee904-135">Close the page.</span></span>
 
