@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: db662eb407fbcf3587f3fcb03347a3f14e83b879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189871"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140511"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Atsevišķu numuru sēriju iestatīšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā iestatīt atsevišķu numuru sēriju. Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami. Pamatdati vai darījumu ieraksts, kam nepieciešams identifikators, tiek saukts par atsauci. Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci. Varat iestatīt visas nepieciešamās numuru sērijas vienlaicīgi, izmantojot vedni **Numuru sēriju iestatīšana** vai arī varat izveidot vai modificēt atsevišķas numuru sērijas, izmantojot lapu **Numuru sērijas**.
 

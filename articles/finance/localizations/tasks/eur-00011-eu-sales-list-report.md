@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7038af3977797a0be2523f2414800400757b7007
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 37f1a6e3bf39e16702d1367a325134ec84369945
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183785"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144382"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Ģenerēt ES pārdošanas saraksta atskaiti
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā tiek izklāstīta ES pārdošanas saraksta pārskata izveide. Tā ietver EK iekšējo tirdzniecības transakciju pārsūtīšanu uz ES pārdošanas sarakstu un pārskata izveidi. Šī procedūra ietver arī kopienas iekšējo tirdzniecības transakciju izveidošanu demonstrācijas nolūkiem. Lai iegūtu plašāku informāciju par ES pārdošanas saraksta pārskatu, tai skaitā nepieciešamajiem priekšnoteikumiem, skatiet sadaļu Palīdzība.
 
@@ -96,7 +96,7 @@ ms.locfileid: "2183785"
 3. Sarakstā atzīmējiet rindu laukam Rēķina datums.
 4. Laukā Kritēriji ierakstiet "01.01.2016.–31.01.2016.".
 5. Sarakstā atzīmējiet rindu laukam Pārskata statuss.
-6. Laukā Kritēriji atlasiet vienumu Iekļauti pārskatā.
+6. Laukā Kritēriji atlasiet vienumu ' Iekļauti pārskatā'.
     * Varat arī norādīt papildu filtrus attiecībā uz EK iekšējām tirdzniecības transakcijām, kas jāatzīmē kā slēgtas.  
 7. Noklikšķiniet uz OK.
 8. Laukā Atlase izvēlieties vienumu Slēgts.

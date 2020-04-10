@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190469"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144045"
 ---
 # <a name="develop-and-open-job-requisition"></a>Darba pieprasījuma izstrāde un atvēršana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Personāla atlases projekti palīdz pārvaldīt personāla atlases procesu. Katram personāla atlases projektam varat iestatīt informāciju, piemēram, darbu, kuram tiek veikta šī personāla atlase, personāla atlases darbinieka vārdu, projekta statusu un nodaļu, kurā šis darbs atradīsies. Pēc personāla atlases projekta izveidošanas varat šim projektam rakstīt darba sludinājumu, publicēt reklāmu darbinieku pašapkalpošanās lapās, saistīt nodarbinātības pieteikumus ar projektu un izsekot šī projekta aktivitātes. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai sāktu procedūru, dodieties uz Personāla vadība > Personāla atlase > Personāla atlases projekti > Personāla atlases projekti
 

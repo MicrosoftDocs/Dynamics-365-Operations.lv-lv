@@ -3,7 +3,7 @@ title: Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju
 description: Šajā tēmā ir aprakstīts, kā pievienot klienta puses skripta kodu jūsu vietnes lapām, lai atbalstītu klienta puses telemetrijas vākšanu.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 03/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001281"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154090"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju
-
 
 [!include [banner](includes/banner.md)]
 
@@ -38,25 +37,72 @@ Tīmekļa analīze ir svarīgs rīks, lai izprastu, kā jūsu klienti mijiedarbo
 > [!NOTE]
 > Šajā tēmā instrukcijas attiecas arī uz citu pielāgotu klienta puses funkcionalitāti, ko programma Microsoft Dynamics 365 Commerce vispārēji nepiedāvā.
 
-## <a name="create-a-reusable-fragment-for-your-script-code"></a>Atkārtoti izmantojama fragmenta izveide jūsu skripta kodam
+## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Atkārtoti izmantojama lapas fragmenta izveide jūsu skripta kodam
 
-Pēc tam, kad esat izveidojis fragmentu savam skripta kodam, to var atkārtoti izmantot visās vietnes lapās.
+Lapas fragments ļauj atkārtoti izmantot iekļautos vai ārējos skripta kodus visās jūsu vietnes lapās neatkarīgi no veidnes, ko tās izmanto.
 
-1. Dodieties uz **Fragmenti \>Jaunas lapas fragments**.
-2. Atlasiet **Ārējais skripts**, ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
-3. Fragmentu hierarhijā atlasiet **skripta ievadītājs**, kas ir jūsu tikko izveidotā fragmenta moduļa apakšelements.
-4. Labajā pusē rekvizītu rūtī pievienojiet jūsu klienta puses skriptu un iestatiet citas konfigurācijas opcijas pēc nepieciešamības.
+### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Atkārtoti izmantojama lapas fragmenta izveide jūsu iekļautā skripta kodam
 
-## <a name="add-the-fragment-to-templates"></a>Fragmenta pievienošana veidnēm
+Lai izveidotu atkārtoti izmantojamu lapas fragmentu jūsu iekļautajam skripta kodam vietnes veidotājā, veiciet tālāk norādītās darbības.
+
+1. Dodieties uz **Lapas fragmenti** un pēc tam atlasiet **Jauns**.
+1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Iekļauts skripts**.
+1. Sadaļā **Lapas fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
+1. Jūsu izveidotajā lapas fragmentā atlasiet moduli **Noklusējuma iekļautais skripts**.
+1. Rekvizītu rūtī labajā pusē zem **iekļautā skripta**ievadiet savu klienta puses skriptu. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
+1. Atlasiet **Publicēt**.
+
+### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Atkārtoti izmantojama lapas fragmenta izveide jūsu ārējā skripta kodam
+
+Lai izveidotu atkārtoti izmantojamu lapas fragmentu jūsu ārējam skripta kodam vietnes veidotājā, veiciet tālāk norādītās darbības.
+
+1. Dodieties uz **Lapas fragmenti** un pēc tam atlasiet **Jauns**.
+1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Ārējs skripts**.
+1. Sadaļā **Lapas fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
+1. Jūsu izveidotajā lapas fragmentā atlasiet moduli **Noklusējuma ārējais skripts**.
+1. Rekvizītu rūtī labajā pusē zem **skripta avots**pievienojiet ārēju vai relatīvu vietrādi URL ārējam skripta avotam. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
+1. Atlasiet **Publicēt**.
+
+## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Pievienot veidnei lapas fragmentu, kas ietver skripta kodu
+
+Lai veidnei vietnes veidotājā pievienotu lapas fragmentu, kas ietver skripta kodu, izpildiet tālāk noradītās darbības.
 
 1. Dodieties uz **Veidnes** un atveriet veidni lapām, kurām vēlaties pievienot skripta kodu.
-2. Kreisajā rūtī izvērsiet veidnes hierarhiju, lai parādītu **HTML galveno** slotu.
-3. Atlasiet daudzpunktes pogu (**...**) **HTML galvenajam** slotam un pēc tam atlasiet **Pievienot moduli**.
-4. Atlasiet fragmentu, ko izveidojāt savam skripta kodam.
-5. Saglabājiet veidni un pārbaudiet to.
+1. Kreisajā rūtī izvērsiet veidnes hierarhiju, lai parādītu **HTML galveno** slotu.
+1. **HTML galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot lapas fragmentu**.
+1. Atlasiet fragmentu, ko izveidojāt savam skripta kodam.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
+1. Atlasiet **Publicēt**.
 
-> [!NOTE]
-> Pēc pabeigšanas jums ir jāpublicē fragments un pamata veidne. 
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Pievienot ārēju skriptu vai iekļautu skriptu tieši veidnei
+
+Ja vēlaties ievietot iekļauto vai ārējo skriptu tieši lapu kopā, kas tiek kontrolēta ar vienu veidni, vispirms nav jāizveido lapas fragments.
+
+### <a name="add-an-inline-script-directly-to-a-template"></a>Pievienot iekļautu skriptu tieši veidnei
+
+Lai pievienotu iekļauto skriptu tieši veidnes vietnes veidotājā, veiciet tālāk aprakstītās darbības.
+
+1. Dodieties uz **Veidnes** un atveriet veidni lapām, kurām vēlaties pievienot skripta kodu.
+1. Kreisajā rūtī izvērsiet veidnes hierarhiju, lai parādītu **HTML galveno** slotu.
+1. **HTML galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet **Iekļauts skripts**.
+1. Rekvizītu rūtī labajā pusē zem **iekļautā skripta**ievadiet savu klienta puses skriptu. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
+1. Atlasiet **Publicēt**.
+
+### <a name="add-an-external-script-directly-to-a-template"></a>Pievienot ārēju skriptu tieši veidnei
+
+Lai pievienotu ārējo skriptu tieši veidnes vietnes veidotājā, veiciet tālāk aprakstītās darbības.
+
+1. Dodieties uz **Veidnes** un atveriet veidni lapām, kurām vēlaties pievienot skripta kodu.
+1. Kreisajā rūtī izvērsiet veidnes hierarhiju, lai parādītu **HTML galveno** slotu.
+1. **HTML galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet **Ārējs skripts**.
+1. Rekvizītu rūtī labajā pusē zem **skripta avots**pievienojiet ārēju vai relatīvu vietrādi URL ārējam skripta avotam. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
+1. Atlasiet **Publicēt**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -73,4 +119,3 @@ Pēc tam, kad esat izveidojis fragmentu savam skripta kodam, to var atkārtoti i
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
-

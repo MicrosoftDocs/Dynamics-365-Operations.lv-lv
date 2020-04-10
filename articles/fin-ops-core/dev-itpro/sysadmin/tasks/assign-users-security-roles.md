@@ -1,6 +1,6 @@
 ---
 title: Drošības lomu piešķiršana lietotājiem
-description: Lai piekļūtu Finance and Operations programmām, lietotājiem jābūt piešķirtai drošības lomai.
+description: Lai piekļūtu Finance and Operations programmām, lietotājiem jābūt piešķirtām drošības lomām.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 11/14/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
-ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
+ms.openlocfilehash: 0744f45ac91dfb9b5aae35091e3675202c9144f9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808000"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143557"
 ---
 # <a name="assign-users-to-security-roles"></a>Drošības lomu piešķiršana lietotājiem
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lai izmantotu citas iespējas, kas nav kopīgas iespējas, lietotājiem jābūt piešķirtiem drošības lomām. Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem. 
 

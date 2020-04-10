@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856476"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149715"
 ---
 # <a name="create-purchasing-policies"></a>Pirkšanas ierobežojumu izveide
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem. Lai varētu izveidot pirkšanas politikas, ir jāiestata pirkšanas politikas parametri. Pirkšanas politiku var izveidot, modificēt un noņemt, bet pirkšanas politiku nevar dzēst. Šo procedūru parasti veic pirkšanas vadītājs. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

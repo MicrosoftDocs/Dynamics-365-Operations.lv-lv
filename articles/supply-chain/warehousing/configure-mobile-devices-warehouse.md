@@ -3,7 +3,7 @@ title: Mobilo ierīču iestatīšana darbam noliktavā
 description: Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813045"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161832"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -95,11 +95,11 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 </tr>
 <tr>
 <td>Noliktavas vienības saņemšana</td>
-<td>Saņemiet ienākošo kravu, izmantojot noliktavas vienības ID.</td>
+<td>Saņemiet iepriekšēju paziņojumu par nosūtīšanu (ASN), izmantojot noliktavas vienības ID.</td>
 </tr>
 <tr>
 <td>Numura zīmes saņemšana un izvietošana</td>
-<td>Saņemiet un izvietojiet ienākošo kravu, izmantojot noliktavas vienības ID.</td>
+<td>Saņemiet un nolieciet malā iepriekšēju paziņojumu par nosūtīšanu (ASN), izmantojot noliktavas vienības ID.</td>
 </tr>
 <tr>
 <td>Kravas krājuma saņemšana</td>
@@ -119,7 +119,7 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 <td>Reģistrējiet noteikta krājumu daudzuma saņemšanu, reģistrējot AKA kodu, un izvietojiet krājumus. Tas pats darbinieks veic abas darbības.</td>
 </tr>
 <tr>
-<td rowspan="4">Pārsūtīšanas pasūtījums</td>
+<td rowspan="6">Pārsūtīšanas pasūtījums</td>
 <td>Pārsūtīšanas pasūtījuma krājumu saņemšana</td>
 <td>Reģistrējiet noteikta krājuma daudzuma saņemšanu un izveidojiet izvietošanas darbu citam darbiniekam.
 
@@ -140,8 +140,16 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 <td>Reģistrējiet noteikta krājumu daudzuma saņemšanu un izvietojiet krājumus. Tas pats darbinieks veic abas darbības.</td>
 </tr>
 <tr>
+<td>Noliktavas vienības saņemšana</td>
+<td>Saņemiet iepriekšēju paziņojumu par nosūtīšanu (ASN), izmantojot noliktavas vienības ID.</td>
+</tr>
+<tr>
+<td>Numura zīmes saņemšana un izvietošana</td>
+<td>Saņemiet un nolieciet malā iepriekšēju paziņojumu par nosūtīšanu (ASN), izmantojot noliktavas vienības ID.</td>
+</tr>
+<tr>
 <td rowspan="4">Ražošana</td>
-<td>Reģistrēt pabeigšanu</td>
+<td>Ziņot kā pabeigtu</td>
 <td>Reģistrējiet noteiktu saražotā krājuma daudzumu, kura ražošana ir pabeigta, un izvietojiet izvietošanas darbu citam darbiniekam. Šis daudzums varētu būt daļa vai viss ražošanai paredzētais daudzums.</td>
 </tr>
 <tr>

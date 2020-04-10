@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188100"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141745"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas.   Pirms no debitora saņemt ar iepriekšēju datumu datēta čeka reģistrēšanas un grāmatošanas veiciet tālāk norādītos uzdevumus. • Iestatiet ar iepriekšējo datumu datētos čekus lapā Kases un bankas pārvaldība. • Iestatīt ar iepriekšējo datumu datēto čeku maksāšanas metodi. Šīs procedūras izpildei ir nepieciešama loma Kasieris. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
+Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas.   Pirms no debitora saņemt ar iepriekšēju datumu datēta čeka reģistrēšanas un grāmatošanas veiciet tālāk norādītos uzdevumus. * Iestatiet ar iepriekšējo datumu datētos čekus lapā Kases un bankas pārvaldība * Iestatīt ar iepriekšējo datumu datēto čeku maksāšanas metodi. Šīs procedūras izpildei ir nepieciešama loma Kasieris. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
 1. Pārejiet uz sadaļu Debitori > Maksājumi > Maksājumu žurnāls.
 2. Noklikšķiniet uz Jauns.

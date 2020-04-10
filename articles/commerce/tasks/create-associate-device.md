@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e9151adbadffa54633cb10a37522c065e86dd5c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bb201dac1cbfa59f1a46ef42da3822040f74e620
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023292"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141480"
 ---
 # <a name="create-and-associate-a-device"></a> Ierīces izveide un sasaiste
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā izveidot jaunu ierīci un piesaistīt to reģistram. Tiek pieņemts, ka reģistrs ir jau izveidots.  Šajā uzdevumā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati. Šis uzdevums ir paredzēts lomām Administrators, IT speciālists vai tirdzniecības IT, un Veikala vadītājs.
 

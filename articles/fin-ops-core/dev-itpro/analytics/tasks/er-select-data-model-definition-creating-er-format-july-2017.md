@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66b9636f6d9da06f0ea65ab311dd9308ff6ae020
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 374c31b5ea9160fba773e82f658e8de05c67cab4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184719"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143250"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Datu modeļu definīciju atlase, veidojot formātus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”. 
 
@@ -80,7 +80,7 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER
 1. Noklikšķiniet uz Veidotājs.
     * Izmantojiet ER izstrādes rīku, lai norādītu nepieciešamo saknes vienumu modeļa kartējumus.  
 2. Noklikšķiniet uz Veidotājs.
-    * Simulējiet atlasītā modeļa kartējums iestatīšanu atlasītajam modeļa saknes vienumam.  
+    * Simulējiet atlasītā modeļa kartējums iestatīšanu atlasītājam modeļa saknes vienumam.  
 3. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 4. Noklikšķiniet uz Pievienot sakni.
 5. Laukā Nosaukums ierakstiet “Virsgrāmata”.

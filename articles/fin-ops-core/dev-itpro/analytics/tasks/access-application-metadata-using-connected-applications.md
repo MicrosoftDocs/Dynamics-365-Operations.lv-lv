@@ -1,6 +1,6 @@
 ---
 title: Piekļuve programmas metadatiem, izmantojot saistītās programmas
-description: Šajā tēmā ietvertajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs var noformēt jauna elektronisko pārskatu (Electronic Reporting — ER) modeļa kartēšanu, izmantojot Finance and Operations metadatus.
+description: Šajā tēmā izklāstītās darbības skaidro, ka Regulējošā konfigurēšanas pakalpojuma (RCS) lietotājs var izveidot jaunu elektroniskā pārskata (ER) kartēšanu, izmantojot metadatus programmā Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769882"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142205"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Piekļuve programmas metadatiem, izmantojot saistītās programmas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var noformēt jauna elektronisko pārskatu (Electronic reporting — ER) modeļa kartēšanu, izmantojot metadatus programmā Finance and Operations. Programmas metadatiem jāpiekļūst tiešsaistē, izmantojot ar RCS saistīto programmu. Parauga ER modeļa kartēšana jākonfigurē piekļuvei ārējās tirdzniecības transakcijām. Lai izpildītu tālāk norādītās darbības, pakalpojumā RCS vispirms izpildiet darbības, kas ir aprakstītas tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Ja neesat izpildījis tēmā [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](access-application-metadata-er-configuration.md) norādītās darbības, dodieties uz [Elektronisko pārskatu piemēru lapu](https://go.microsoft.com/fwlink/?linkid=862266), lai lejupielādētu un saglabātu šādas ER konfigurācijas: Ārējās tirdzniecības metadati.xml; Ārējās tirdzniecības modelis.xml; Ārējās tirdzniecības kartēšana.xml. Pēc tam izpildiet procedūras darbības.
+Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var noformēt jauna elektronisko pārskatu (Electronic reporting — ER) modeļa kartēšanu, izmantojot Finance and Operations metadatus. Programmas metadatiem jāpiekļūst tiešsaistē, izmantojot ar RCS saistīto programmu. Parauga ER modeļa kartēšana jākonfigurē piekļuvei ārējās tirdzniecības transakcijām. Lai izpildītu tālāk norādītās darbības, pakalpojumā RCS vispirms izpildiet darbības, kas ir aprakstītas tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Ja neesat izpildījis tēmā [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](access-application-metadata-er-configuration.md) norādītās darbības, dodieties uz [Elektronisko pārskatu piemēru lapu](https://go.microsoft.com/fwlink/?linkid=862266), lai lejupielādētu un saglabātu šādas ER konfigurācijas: Ārējās tirdzniecības metadati.xml; Ārējās tirdzniecības modelis.xml; Ārējās tirdzniecības kartēšana.xml. Pēc tam izpildiet procedūras darbības.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 1. Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**. 
@@ -54,11 +54,11 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 2. Aizvērt lapu. 
 3. Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**. 
 4. Noklikšķiniet uz **Savienotās programmas**. 
-5. Pārliecinieties, vai konfigurētā programma ir Azure programma un ir pieejama pašreizējam RCS lietotājam. Turklāt pašreizējam RCS lietotājam ir arī jābūt piekļuvei atlasītajai programmai un ir jābūt reģistrētam kā šīs programmas lietotājam ar lomu, kas dod viņam privilēģijas piekļūt programmas metadatiem. 
+5. Pārliecinieties, vai konfigurētā programma ir Azure programma un ir pieejama pašreizējam RCS lietotājam. Turklāt pašreizējam RCS lietotājam ir arī jābūt piekļuvei atlasītājai programmai un ir jābūt reģistrētam kā šīs programmas lietotājam ar lomu, kas dod viņam privilēģijas piekļūt programmas metadatiem. 
 6. Klikšķiniet **Jauns**. 
 7. Laukā **Nosaukums** ierakstiet “MyConnectedApp”. 
 8. Laukā **Programma** ievadiet “https:// mycompany.operations.dynamics.com”. 
-9. Laukā **Nomnieks** ievadiet “mycompany.onmicrosoft.com”. 
+9. Laukā **Nomnieks** ievadiet 'mycompany.onmicrosoft.com'. 
 10. Noklikšķiniet uz **Saglabāt**. 
 11. Kad tiek pārbaudīts savienojums ar konfigurēto programmu, lapā **Savienojuma izveide ar attālo programmu** noklikšķiniet uz saites **Noklikšķināt šeit, lai izveidotu savienojumu ar atlasīto attālo programmu**. 
 12. Noklikšķiniet uz **Pārbaudīt savienojumu**. 

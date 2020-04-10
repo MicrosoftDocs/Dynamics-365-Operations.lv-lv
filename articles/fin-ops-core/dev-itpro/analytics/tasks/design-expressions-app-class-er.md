@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249231"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142689"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs. Izsaukšanas klašu argumentu vērtības var definēt dinamiski izpildlaikā: piemēram, pamatojoties uz informāciju parsēšanas dokumentā, lai nodrošinātu tās pareizību. Šajā rokasgrāmatā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. 
 
 Šīs darbības var veikt, izmantojot jebkuru datu kopu. Ir jāveic arī tālāk norādītā faila lokāla lejupielāde un saglabāšana: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
-Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “ER Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu”.
+Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas procedūrā "ER Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu".
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Pārliecinieties, ka konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.   
+    * Pārliecinieties, ka konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā "Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".   
     * Jūs veidojat procesu ienākošo bankas izrakstu parsēšanai pieteikumu datu atjaunināšanai. Jūs saņemsit ienākošos bankas izrakstus kā TXT failus, kas satur IBAN kodus. Bankas izrakstu importēšanas procesa ietvaros ir jāpārbauda šo IBAN kodu pareizība, izmantojot loģiku, kas jau ir pieejama.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importēt jaunu ER modeļa konfigurāciju
@@ -41,10 +41,10 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
     * Atlasiet elementu Microsoft nodrošinātājs.  
 2. Noklikšķiniet uz Repozitoriji.
 3. Noklikšķiniet uz Rādīt filtrus.
-4. Pievienojiet filtra lauku “Tipa nosaukums”. Laukā Nosaukums ievadiet vērtību “resursi”, atlasiet filtra operatoru “satur” un pēc tam noklikšķiniet uz Lietot.
+4. Pievienojiet filtra lauku 'Veida nosaukums'. Laukā Nosaukums ievadiet vērtību "resursi", atlasiet filtra operatoru "satur" un pēc tam noklikšķiniet uz Lietot.
 5. Noklikšķiniet uz Atvērt.
 6. Koka struktūrā atlasiet “Maksājuma modelis”.
-    * Ja poga Importēt kopsavilkuma cilnē Versijas nav iespējota, ER konfigurācijas “Maksājuma modelis” 1. versija jau ir importēta. Pārējās šī apakšuzdevuma darbības var izlaist.   
+    * Ja poga Importēt kopsavilkuma cilnē Versijas nav iespējota, ER konfigurācijas 'Maksājuma modelis' 1. versija jau ir importēta. Pārējās šī apakšuzdevuma darbības var izlaist.   
 7. Noklikšķiniet uz Importēt.
 8. Noklikšķiniet uz Jā.
 9. Aizvērt lapu.
@@ -69,14 +69,14 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
 4. Laukā Nosaukums ierakstiet 'Sakne'.
     * Sakne  
 5. Laukā Īpašas rakstzīmes atlasiet 'New line - Windows (CR LF)'.
-    * Laukā “Īpašas rakstzīmes” ir atlasīta opcija “Jauna rinda — Windows (CR LF)”. Pamatojoties uz šo iestatījumu, katra rinda parsēšanas failā tiek uzskatīta par atsevišķu ierakstu.  
+    * Laukā 'Īpašas rakstzīmes' ir atlasīta opcija 'Jauna rinda — Windows (CR LF)'. Pamatojoties uz šo iestatījumu, katra rinda parsēšanas failā tiek uzskatīta par atsevišķu ierakstu.  
 6. Noklikšķiniet uz OK.
 7. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
 8. Koka struktūrā atlasiet 'Text\Sequence'.
 9. Laukā Nosaukums ierakstiet “Rindas”.
     * Rindas  
 10. Laukā Daudzkārtīgums atlasiet "One many".
-    * Laukā “Daudzkārtīgums” ir atlasīta opcija “Viens — daudzi”. Pamatojoties uz šo iestatījumu, ir paredzams, ka parsēšanas failā būs norādīta vismaz viena rinda.  
+    * Laukā 'Daudzkārtīgums' ir atlasīta opcija 'Viens — daudzi'. Pamatojoties uz šo iestatījumu, ir paredzams, ka parsēšanas failā būs norādīta vismaz viena rinda.  
 11. Noklikšķiniet uz OK.
 12. Kokā atlasiet “Sakne\Rindas”.
 13. Noklikšķiniet uz Pievienot secību.
@@ -142,7 +142,7 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
     * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
 39. Noklikšķiniet uz Saglabāt.
 40. Aizvērt lapu.
-    * Pārbaudes nosacījums ir konfigurēts, lai atgrieztu vērtību FALSE jebkuram nederīgam IBAN kodam, izsaucot programmas klases “ISO7064” esošo metodi “verifyMOD1271_36”. Ņemiet vērā, ka IBAN koda vērtība tiek definēta dinamiski izpildlaikā kā izsaukšanas metodes arguments, pamatojoties uz parsēšanas TXT faila saturu.   
+    * Pārbaudes nosacījums ir konfigurēts, lai atgrieztu vērtību FALSE jebkuram nederīgam IBAN kodam, izsaucot programmas klases 'ISO7064' esošo metodi 'verifyMOD1271_36'. Ņemiet vērā, ka IBAN koda vērtība tiek definēta dinamiski izpildlaikā kā izsaukšanas metodes arguments, pamatojoties uz parsēšanas TXT faila saturu.   
 41. Noklikšķiniet uz Rediģēt ziņojumu.
 42. Laukā Formula ievadiet “CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)”.
     * CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)”.  

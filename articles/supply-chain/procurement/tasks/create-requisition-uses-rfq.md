@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914958"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149633"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Tāda pieprasījuma izveide, kas lieto PP
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā paskaidrots, kā pievienot cenas un piegādātāja informāciju pirkšanas pieprasījumam no piedāvājuma pieprasījuma procesa. Šajā ceļvedī parādīto piemēru var izmantot ar uzņēmuma USMF demonstrācijas datiem, un jums ir jāpiesakās kā administratoram, lai izpildītu visas darbības. Šajā ceļvedī aprakstītos uzdevumus parasti veiktu sagādes speciālisti.
 
@@ -56,7 +56,7 @@ Nākamais uzdevums ir izveidot IP, lai no kreditoriem saņemtu piedāvājumus pa
 2. Atlasiet **Skatīt vēsturi**.
 3. Atsvaidziniet lapu.
 4. Izvērsiet **Izsekošanas detaļas** sadaļu
-5. Kokā atlasiet rindu, kas sākas ar „Rindas darbplūsma aktivizēta”.
+5. Kokā atlasiet rindu, kas sākas ar "Rindas darbplūsma aktivizēta".
 6. Atlasiet **Skatīt darbplūsmas detaļas**.
 7. Izvērsiet sadaļu **Darba vienumi**.
 8. Atlasiet **Atkārtoti piešķirt**.

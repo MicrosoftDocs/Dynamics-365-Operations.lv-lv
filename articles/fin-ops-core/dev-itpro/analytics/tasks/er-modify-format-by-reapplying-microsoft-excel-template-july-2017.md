@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73f2c10d7462c4b52a2b36dd5f221593707d2f4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5408fd883e91bbff465434ab23974f22bb0f07da
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184673"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143007"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Formātu modificēšana, atkārtoti lietojot Excel veidnes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra “ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML”.
 
@@ -49,7 +49,7 @@ Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra �
     * Atveriet atlasītā ER formāta melnraksta versiju rediģēšanai.  
 2. Darbību rūtī noklikšķiniet uz Importēt.
 3. Noklikšķiniet uz Atjaunināt no Excel.
-    * Noklikšķiniet uz Atjaunināt veidni un pēc tam atlasiet failu SampleVendPaymWsReport2.xlsx.  
+    * Noklikšķiniet uz 'Atjaunināt veidni' un pēc tam atlasiet failu SampleVendPaymWsReport2.xlsx.  
     * Noklikšķiniet uz Atjaunināt veidni un pārlūkojiet līdz iepriekš lejupielādētajam failam SampleVendPaymWsReport2.xlsx.  
 4. Noklikšķiniet uz OK.
     * Tiek lietota veidne SampleVendPaymWsReport2.xlsx. ER formāta struktūra ir sinhronizēta ar tās veidnes saturu, kuras elementi tiek pievienoti ER formātam. Visi esošie ER formāta elementi, kas nav iekļauti veidnē, tiek noņemti no formāta definīcijas.  
