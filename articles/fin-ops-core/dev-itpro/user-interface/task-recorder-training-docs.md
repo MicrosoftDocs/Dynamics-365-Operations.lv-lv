@@ -3,7 +3,7 @@ title: Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 description: Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006199"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164562"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
@@ -40,8 +40,6 @@ ms.locfileid: "3006199"
 Uzdevuma reģistrētājs ir rīks, ko varat lietot, lai reģistrētu darbības, kuras veicat preces lietotāja interfeisā (UI). Kad izmantojat uzdevumu ierakstītāju, tiek uzņemti visi notikumi, ko veicat UI un kas tiek izpildīti attiecībā pret serveri — tostarp vērtību pievienošana, iestatījumu mainīšana, datu noņemšana. Ierakstītās darbības kopā tiek sauktas par *uzdevuma ierakstu*. Uzdevumu ierakstus var izmantot daudzos veidos:
 
 -   **Uzdevumu ierakstus var atskaņot kā uzdevumu ceļvežus.** Uzdevumu ceļveži ir neatņemama palīdzības funkcionalitātes sastāvdaļa. Uzdevuma ceļvedis ir kontrolēts, strukturēts, interaktīvs līdzeklis, kas palīdz veikt biznesa procesa darbības. Lietotājs tiek instruēts izpildīt katru darbību, izmantojot uznirstošas uzvednes (jeb “burbuļus”), kas kā animācija tiek parādītas lietotāja interfeisā un norāda uz UI elementiem, ar kuriem lietotājam ir nepieciešams mijiedarboties. “Burbulis” arī sniedz informāciju par to, kā mijiedarboties ar attiecīgo elementu, piemēram, “Noklikšķiniet šeit” vai “Ievadiet vērtību šajā laukā”. Uzdevuma ceļvedis darbojas ar lietotāja pašreizējo datu kopu, un ievadītie dati tiek saglabāti lietotāja vidē.
--   **Uzdevumu ierakstus var rādīt kā procedurālas darbības palīdzības rūtī.** Lai meklētu un parādītu uzdevumu ierakstus, varat izmantot palīdzības rūti. Jūs varat piekļūt palīdzības rūtij, noklikšķinot uz **?** ikonas augšējā navigācijas joslā, vai arī varat izmantot īsinājumtaustiņu kombināciju  **Ctrl+Shift+?**. Palīdzības rūtī varat lasīt uzdevumu ieraksta darbības, vai varat izvēlēties ierakstu atskaņot kā uzdevuma ceļvedi, lai tas jūs vadītu pa UI.
--   **Uzdevumu ierakstus var saglabāt uz BPM.** Savu uzdevuma ierakstu varat saglabāt kādā BPM bibliotēkas hierarhijas rindā pakalpojumā Lifecycle Services (LCS). No ieraksta tiks ģenerēts darbību saraksts un biznesa procesu plūsmas diagramma. Uzdevumu ierakstus, kas ir saglabāti BPM bibliotēkā, var rādīt kā palīdzības saturu.
 -   **Uzdevumu ierakstus var saglabāt kā Word dokumentus.** Tādējādi varat ērti veidot drukājamus apmācību ceļvežus.
 
 Varat izveidot pats savus uzdevumu ierakstus, atskaņot Microsoft nodrošinātos uzdevumu ierakstus vai modificēt Microsoft nodrošinātos uzdevumu ierakstus, lai atspoguļotu jūsu konfigurāciju. Plašāku informāciju par uzdevuma reģistrētāju skatiet rakstā [Uzdevuma reģistrētājs](task-recorder.md).
@@ -114,8 +112,7 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 10. Kad ierakstu esat atskaņojis līdz galam, uzdevumu ierakstītāja joslā ekrāna augšpusē noklikšķiniet uz **Apturēt**.
 11. Izvēlieties, kā vēlaties saglabāt šo uzdevuma ierakstu.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Savu uzdevumu ierakstu iekļaušana palīdzības rūtī
-Lai savus pielāgotos uzdevumu ierakstus parādītu palīdzības rūtī un tos varētu atskaņot kā uzdevumu ceļvežus vai skatīt kā tekstu, jums šie uzdevumu ieraksti ir jāsaglabā savā BPM bibliotēkā un pēc tam jāatjaunina savas palīdzības sistēmas parametri, lai tie norādītu uz BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveide ar palīdzības sistēmu.](../../fin-ops/get-started/help-connect.md)
+
 
 <a name="additional-resources"></a>Papildu resursi
 --------

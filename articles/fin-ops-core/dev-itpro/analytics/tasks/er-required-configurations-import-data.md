@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042877"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143319"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu” aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt failus, kuri norādīti tālāk tēmā Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu" aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt failus, kuri norādīti tālāk tēmā Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 ER biznesa lietotājiem sniedz iespēju konfigurēt procesu, kādā ārējo datu faili tabulās tiek importēti formātā .XML vai formātā .TXT. Vispirms ir jāizveido abstrakts datu modelis un ER datu modeļa konfigurācija, kas pārstāv importējamos datus. Pēc tam ir jādefinē importējamā faila struktūra un metode, ko izmantosiet, lai datus no faila pārnestu uz abstrakto datu modeli. Abstraktajam datu modelim ir jāizveido ER formāta konfigurācija, kas kartē uz izveidoto datu modeli. Pēc tam datu modeļa konfigurācija ir jāpaplašina ar kartējumu, kas apraksta veidu, kādā importētie dati tiek saglabāti kā abstrakta datu modeļa dati un kā tie tiek lietoti, lai atjauninātu tabulas .  ER datu modeļa konfigurācijai ir jāpievieno jauns modeļa kartējums, kas apraksta datu modeļa saistījumu ar programmas galamērķiem.  
 
@@ -36,7 +36,7 @@ Nākamajā scenārijā ir parādītas ER datu importēšanas iespējas. Tostarp 
 ## <a name="add-a-new-er-model-configuration"></a>Pievienot jaunu ER modeļa konfigurāciju
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
 
-    Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.   
+    Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam 'Litware, Inc.' ir pieejams un atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā "Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".   
 
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
 
@@ -84,12 +84,12 @@ Ar šajā apakšuzdevumā iekļautajām darbībām jums tiek parādīts, kā var
 3. Noklikšķiniet uz Izvērst/sakļaut.
 4. Noklikšķiniet uz Izvērst/sakļaut.
 
-    Izveidotais formāts pārstāv paredzamo ārējā faila struktūru. Šim failam ir jābūt formātā XML, un tam ir nepieciešams nosegšanas saknes elements. Katra kreditora transakcija tiek attēlota ar transakcijas elementu, kas ir definēts ar kardinalitāti “nulle pret daudziem”. Tas nozīmē, ka ienākošajā failā esošo transakciju skaits var būt no nulles līdz vairākām transakcijām. Šāda “transakcijas” elementa ligzdotie elementi pārstāv vienas transakcijas atribūtus. Ņemiet vērā, ka visi atribūti, izņemot valsti, ir atzīmēti kā obligāti; tas nozīmē, ka tiem ir jābūt importējamajā failā.   
+    Izveidotais formāts pārstāv paredzamo ārējā faila struktūru. Šim failam ir jābūt formātā XML, un tam ir nepieciešams nosegšanas saknes elements. Katra kreditora transakcija tiek attēlota ar transakcijas elementu, kas ir definēts ar kardinalitāti “nulle pret daudziem”. Tas nozīmē, ka ienākošajā failā esošo transakciju skaits var būt no nulles līdz vairākām transakcijām. Šāda 'transakcijas' elementa ligzdotie elementi pārstāv vienas transakcijas atribūtus. Ņemiet vērā, ka visi atribūti, izņemot valsti, ir atzīmēti kā obligāti; tas nozīmē, ka tiem ir jābūt importējamajā failā.   
 
 ## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>Pārskatīt iestatījumus formāta kartējumam uz datu modeli
 1. Noklikšķiniet uz Kartēt formātu uz modeli.
 
-    Kartējums “Kreditoru transakciju importēšanai” satur datu pārsūtīšanas kārtulas no ienākošā XML faila uz atlasīto daļu pielāgotajam datu modelim, kurš tiek definēts, atlasot the1099-MISC definīciju.  
+    Kartējums 'Kreditoru transakciju importēšanai' satur datu pārsūtīšanas kārtulas no ienākošā XML faila uz atlasīto daļu pielāgotajam datu modelim, kurš tiek definēts, atlasot the1099-MISC definīciju.  
 
 2. Noklikšķiniet uz Veidotājs.
 3. Ieslēdziet opciju “Rādīt detalizēti”.
@@ -104,10 +104,10 @@ Ar šajā apakšuzdevumā iekļautajām darbībām jums tiek parādīts, kā var
 9. Koka struktūrā izvērsiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record'.
 10. Koka struktūrā atlasiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record'.
 
-    Ņemiet vērā, ka sākotnēji definētajā “formāta” datu avota komponentā obligāto un neobligāto formāta elementu rādīšana atšķiras.  
+    Ņemiet vērā, ka sākotnēji definētajā 'formāta' datu avota komponentā obligāto un neobligāto formāta elementu rādīšana atšķiras.  
 11. Koka struktūrā izvērsiet zaru “Transakcijas: Ierakstu saraksts = format.settlement.'$enumerated'”.
 
-    Ņemiet vērā, ka elementi formātā, kas definē importētā faila struktūru, ir saistīti ar pielāgotā datu modeļa elementiem. Atkarībā no šīm saistībām importētā XML faila saturs izpildlaikā tiks saglabāts esošajā datu modelī. Pievērsiet uzmanību valsts elementa saistījumam. Ienākošajos failos, kam nav šāda elementa, datu modelī visiem transakcijas elementiem valsts kods pēc noklusējuma tiks aizpildīts kā “ASV”.  
+    Ņemiet vērā, ka elementi formātā, kas definē importētā faila struktūru, ir saistīti ar pielāgotā datu modeļa elementiem. Atkarībā no šīm saistībām importētā XML faila saturs izpildlaikā tiks saglabāts esošajā datu modelī. Pievērsiet uzmanību valsts elementa saistījumam. Ienākošajos failos, kam nav šāda elementa, datu modelī visiem transakcijas elementiem valsts kods pēc noklusējuma tiks aizpildīts kā 'ASV'.  
 
 12. Noklikšķiniet uz cilnes Validācijas.
 
@@ -148,7 +148,7 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 8. Noklikšķiniet uz Rediģēt.
 9. Noklikšķiniet uz Rediģēt formulu.
 
-    Ja kādai importētajai transakcijai vismaz viena validācija ir nesekmīga, tad datu avota atribūts “$failed” šo transakciju atzīmēs kā nesekmīgu.  
+    Ja kādai importētajai transakcijai vismaz viena validācija ir nesekmīga, tad datu avota atribūts '$failed' šo transakciju atzīmēs kā nesekmīgu.  
 
 10. Aizvērt lapu.
 11. Noklikšķiniet uz Atcelt.
@@ -237,7 +237,7 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 19. Aizvērt lapu.
 20. Noklikšķiniet uz Rediģēt.
 
-    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās programmas Dynamics 365 Finance” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
+    Ja ir instalēts labojumfails "KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās programmas Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), izpildiet nākamo darbību "Karodziņa Noklusējums modeļu kartēšanai ieslēgšana" ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
 
 21. Modeļa kartējuma noklusējums atlasiet vērtību Jā.
 22. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.

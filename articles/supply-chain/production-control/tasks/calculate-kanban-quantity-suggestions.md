@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b6769eb1c971b4641aee7cae9dd710a856b3c8fb
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149370"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Kanban daudzuma ieteikumu aprēķins
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā optimizēt Kanban lielumu un daudzumu konkrētam Kanban nosacījumam, izmantojot Kanban daudzuma aprēķinus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta vērtību plūsmas pārvaldniekam. Šīs procedūras priekšnosacījums ir paveikta procedūra Jaunas Kanban daudzuma aprēķināšanas politikas pievienošana Kanban nosacījumam.
 

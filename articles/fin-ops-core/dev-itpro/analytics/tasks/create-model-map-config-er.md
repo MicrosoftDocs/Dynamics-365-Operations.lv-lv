@@ -15,29 +15,29 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182696"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142172"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Elektronisko pārskatu veidošanas (ER) modeļu kartēšanas konfigurāciju izveide
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Izmantojiet šo procedūru, lai izveidotu jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantotu iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti. Šajā procedūrā izveidosit konfigurāciju parauga uzņēmumam Litware, Inc. 
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.
 
-Šīs darbības var veikt, izmantojot jebkuru datu kopu. Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu”.
+Šīs darbības var veikt, izmantojot jebkuru datu kopu. Lai izpildītu tālāk norādītās darbības, vispirms izpildiet procedūras darbības “Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu”.
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  
 2. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
 3. Noklikšķiniet uz Rādīt filtrus.
 4. Laukā “Nosaukums” ievadiet filtra vērtību “Intrastat” un izmantojiet filtra operatoru “sākas ar”.
-    * Lietojiet šo filtru, lai atrastu “Intrastat” datu modeļa konfigurāciju. Šis modelis jau var būt konfigurāciju kokā. Šādā gadījumā, izlaidiet nākamo apakšuzdevumu.   
+    * Lietojiet šo filtru, lai atrastu 'Intrastat' datu modeļa konfigurāciju. Šis modelis jau var būt konfigurāciju kokā. Šādā gadījumā, izlaidiet nākamo apakšuzdevumu.   
 
 ## <a name="get-the-intrastat-model-configuration-provided-by-microsoft"></a>Iegūt piekļuvi korporācijas Microsoft nodrošinātajai Intrastat modeļa konfigurācijai
 1. Aizvērt lapu.

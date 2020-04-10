@@ -16,69 +16,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: fc28e9a2170929c6cd8daafd7eae54713cec36ff
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769789"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143204"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Failu importēšana XML formātā ar neobligātiem atribūtiem
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var izveidot ER formāta konfigurāciju, lai importētu XML formātā tādus failus, kuros ir neobligāti atribūti. Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu" procedūras darbības. Pirms sākšanas lejupielādējiet un lokāli saglabājiet failu IncomingDocumentToLearnHowToHandleOptionalAttributes.xml no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684).
+Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var izveidot ER formāta konfigurāciju, lai importētu XML formātā tādus failus, kuros ir neobligāti atribūti. Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas aprakstītas procedūrā "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu". Pirms sākšanas lejupielādējiet un lokāli saglabājiet failu IncomingDocumentToLearnHowToHandleOptionalAttributes.xml no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684).
 
-1.  Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**.
-2.  Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un ir atzīmēts kā **Aktīvs**. Ja neredzat šo konfigurācijas nodrošinātāju, izpildiet darbības, kas ir aprakstītas procedūrā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md).
-3.  Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**.
+1.    Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**.
+2.    Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un ir atzīmēts kā **Aktīvs**. Ja neredzat šo konfigurācijas nodrošinātāju, izpildiet darbības, kas ir aprakstītas procedūrā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md).
+3.    Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Jaunas datu modeļa konfigurācijas izveide
-1.  Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
-2.  Laukā **Nosaukums** ierakstiet “Modelis XML faila importēšanai”.
-3.  Klikšķiniet **Izveidot konfigurāciju**.
-4.  Noklikšķiniet uz **Veidotājs**.
-5.  Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
-6.  Laukā **Nosaukums** ierakstiet “Sakne”.
-7.  Noklikšķiniet uz **Pievienot**.
-8.  Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
-9.  Laukā **Nosaukums** ierakstiet “Saraksts”.
-10. Laukā **Vienuma veids** atlasiet **Ierakstu saraksts**.
-11. Noklikšķiniet uz **Pievienot**.
-12. Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
-13. Laukā **Nosaukums** ierakstiet “Kods”.
-14. Laukā **Vienuma veids** atlasiet **Virkne**.
-15. Noklikšķiniet uz **Pievienot**.
-16. Noklikšķiniet uz **Saglabāt**.
-17. Aizvērt lapu.
-18. Noklikšķiniet uz **Mainīt statusu**.
-19. Noklikšķiniet uz **Pabeigt**.
-20. Noklikšķiniet uz **Labi**.
+1.    Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+2.    Laukā **Nosaukums** ierakstiet “Modelis XML faila importēšanai”.
+3.    Klikšķiniet **Izveidot konfigurāciju**.
+4.    Noklikšķiniet uz **Veidotājs**.
+5.    Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
+6.    Laukā **Nosaukums** ierakstiet “Sakne”.
+7.    Noklikšķiniet uz **Pievienot**.
+8.    Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
+9.    Laukā **Nosaukums** ierakstiet “Saraksts”.
+10.    Laukā **Vienuma veids** atlasiet **Ierakstu saraksts**.
+11.    Noklikšķiniet uz **Pievienot**.
+12.    Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
+13.    Laukā **Nosaukums** ierakstiet “Kods”.
+14.    Laukā **Vienuma veids** atlasiet **Virkne**.
+15.    Noklikšķiniet uz **Pievienot**.
+16.    Noklikšķiniet uz **Saglabāt**.
+17.    Aizvērt lapu.
+18.    Noklikšķiniet uz **Mainīt statusu**.
+19.    Noklikšķiniet uz **Pabeigt**.
+20.    Noklikšķiniet uz **Labi**.
 
 ## <a name="create-a-format-for-data-import"></a>Formāta izveidošana datu importēšanai
-1.  Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
-2.  Laukā **Jauns** ierakstiet “Formāts balstīts uz datu modeli Modelis XML faila importēšanai”.
-3.  Laukā **Nosaukums** ierakstiet “Formāts XML faila importēšanai”.
-4.  Laukā **Atbalsta datu importēšanu** atlasiet **Jā**.
-5.  Klikšķiniet **Izveidot konfigurāciju**.
+1.    Noklikšķiniet uz **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+2.    Laukā **Jauns** ierakstiet “Formāts balstīts uz datu modeli Modelis XML faila importēšanai”.
+3.    Laukā **Nosaukums** ierakstiet “Formāts XML faila importēšanai”.
+4.    Laukā **Atbalsta datu importēšanu** atlasiet **Jā**.
+5.    Klikšķiniet **Izveidot konfigurāciju**.
 
 ## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a>Formāta veidošana ienākoša faila parsēšanai XML formātā
-1.  Noklikšķiniet uz **Veidotājs**.
-2.  Noklikšķiniet uz **Pievienot sakni**, lai atvērtu nolaižamo dialoglodziņu.
-3.  Kokā atlasiet **XML\Elements**.
-4.  Laukā **Nosaukums** ierakstiet “root”.
-5.  Noklikšķiniet uz **Labi**.
-6.  Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
-7.  Kokā atlasiet **XML\Elements**.
-8.  Laukā **Nosaukums** ierakstiet “document”.
-9.  Laukā **Daudzkārtīgums** atlasiet **One many**.
-10. Noklikšķiniet uz **Labi**.
-11. Koka struktūrā atlasiet **root\document**.
-12. Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
-13. Kokā atlasiet **XML\Atribūts**.
-14. Laukā **Nosaukums** ierakstiet “ID”.
-15. Noklikšķiniet uz **Labi**.
-16. Noklikšķiniet uz **Saglabāt**.
+1.    Noklikšķiniet uz **Veidotājs**.
+2.    Noklikšķiniet uz **Pievienot sakni**, lai atvērtu nolaižamo dialoglodziņu.
+3.    Kokā atlasiet **XML\Elements**.
+4.    Laukā **Nosaukums** ierakstiet “root”.
+5.    Noklikšķiniet uz **Labi**.
+6.    Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+7.    Kokā atlasiet **XML\Elements**.
+8.    Laukā **Nosaukums** ierakstiet “document”.
+9.    Laukā **Daudzkārtīgums** atlasiet **One many**.
+10.    Noklikšķiniet uz **Labi**.
+11.    Koka struktūrā atlasiet **root\document**.
+12.    Noklikšķiniet uz **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+13.    Kokā atlasiet **XML\Atribūts**.
+14.    Laukā **Nosaukums** ierakstiet “ID”.
+15.    Noklikšķiniet uz **Labi**.
+16.    Noklikšķiniet uz **Saglabāt**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Formāta kartējuma veidošana parsētās informācijas saglabāšanai datu modelī
 1. Noklikšķiniet uz **Kartēt formātu uz modeli**.
@@ -90,15 +90,15 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 7. Noklikšķiniet uz **Noformētājs**.
 8. Koka struktūrā izvērsiet zaru **format**.
 9. Koka struktūrā izvērsiet zaru **format\root: XML Element(root)**.
-10. Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
-11. Noklikšķiniet uz **Saistīt**.
-12. Koka struktūrā izvērsiet zaru **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
-13. Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)\id**.
-14. Koka struktūrā izvērsiet zaru **List = format.root.document**.
-15. Koka struktūrā atlasiet zaru **List = format.root.document\Code**.
-16. Noklikšķiniet uz **Saistīt**.
-17. Noklikšķiniet uz **Saglabāt**.
-18. Aizvērt lapu.
+10.    Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
+11.    Noklikšķiniet uz **Saistīt**.
+12.    Koka struktūrā izvērsiet zaru **format\root: XML Element(root)\document: XML Element 1..* (dokuments)**.
+13.    Koka struktūrā atlasiet **format\root: XML Element(root)\document: XML Element 1..* (dokuments)\id**.
+14.    Koka struktūrā izvērsiet zaru **List = format.root.document**.
+15.    Koka struktūrā atlasiet zaru **List = format.root.document\Code**.
+16.    Noklikšķiniet uz **Saistīt**.
+17.    Noklikšķiniet uz **Saglabāt**.
+18.    Aizvērt lapu.
  
 ## <a name="run-format-mapping"></a>Formāta kartēšanas darbināšana
 1. Noklikšķiniet uz **Palaist**.
@@ -123,4 +123,4 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 5. Pārskatiet ģenerēto failu. 
 
 > [!NOTE]
-> Tiek importēts tas pats fails, jo formāta dizainā tiek pieņemts, ka elementam “document” atribūts “id” ir neobligāts.
+> Tiek importēts tas pats fails, jo formāta dizainā tiek pieņemts, ka elementam 'document' atribūts 'id' ir neobligāts.

@@ -17,20 +17,20 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec15a5d35c360ed8f8eddffc44d303df193ce3e7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2550e32db8b0d769f62c13654aa1dc1d201388ff
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847271"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148335"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā reģistrēt krājumus, izmantojot krājumu saņemšanas žurnālu, ja izmantojat papildu noliktavas vadības procesus. Tas parasti būtu jāveic saņemšanas darbiniekam. 
 
-Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Tad pirms šī ceļveža uzsākšanas pārliecinieties, ka jums ir apstiprināts pirkšanas pasūtījums ar atvērtu pirkšanas pasūtījuma rindu. Rindas vienībai ir jābūt esošai krājumā, tā nedrīkst lietot preču variantus, un tai nedrīkst būt izsekošanas dimensiju. Krājuma vienībai jābūt saistītai ar papildu noliktavas vadības procesu, kurš ir aktīvs noliktavas dimensijas grupai. Izmantojamajai noliktavai ir jābūt iespējotiem noliktavas vadības procesiem un saņemšanai izmantojamajam novietojumam jānotiek numuru zīmju pārbaudei. Ja jūs izmantojat USMF, varat izmantot uzņēmuma kontu 1001, noliktavu 51 un krājumu M9200, lai izveidotu savu PP. 
+Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Tad pirms šī ceļveža uzsākšanas pārliecinieties, ka jums ir apstiprināts pirkšanas pasūtījums ar atvērtu pirkšanas pasūtījuma rindu. Rindas vienībai ir jābūt esošai krājumā, tā nedrīkst lietot preču variantus, un tai nedrīkst būt izsekošanas dimensiju. Krājuma vienībai jābūt saistītai ar papildu noliktavas vadības procesu, kurš ir aktīvs noliktavas dimensijas grupai. Izmantojamajai noliktavai ir jābūt iespējotiem noliktavas vadības procesiem un saņemšanai izmantojamajam novietojumam jānotiek numuru zīmju pārbaudei. Ja izmantojat USMF, varat izmantot uzņēmuma kontu 1001, noliktavu 51 un krājumu M9200, lai izveidotu savu PP. 
 
 Pierakstiet izveidotā pirkšanas pasūtījuma numuru, un atzīmējiet arī krājuma kodu un vietu, kas izmantoti pirkšanas pasūtījuma rindai.
 
@@ -44,9 +44,9 @@ Pierakstiet izveidotā pirkšanas pasūtījuma numuru, un atzīmējiet arī krā
 5. Laukā Vieta ierakstiet kādu vērtību.
     * Atlasiet vietu, ko izmantojat pirkšanas pasūtījuma rindai. Tā kalpos kā noklusējuma vērtība, kas pēc noklusējuma tiks lietota visām žurnāla rindām. Ja izmantojāt USMF noliktavu 51, izvēlieties vietu 5.  
 6. Laukā Noliktava ierakstiet kādu vērtību.
-    * Atlasiet derīgu noliktavu atlasītajai vietai. Tā kalpos kā noklusējuma vērtība, kas pēc noklusējuma tiks lietota visām žurnāla rindām. Ja jūs izmantojat parauga vērtības no USMF, atlasiet 51.  
+    * Atlasiet derīgu noliktavu atlasītājai vietai. Tā kalpos kā noklusējuma vērtība, kas pēc noklusējuma tiks lietota visām žurnāla rindām. Ja izmantojat parauga vērtības no USMF, atlasiet 51.  
 7. Ierakstiet vērtību laukā Vieta.
-    * Atlasiet derīgu novietojumu atlasītajā noliktavā. Novietojums ir jāsasaista ar novietojuma profilu, ko kontrolē numura zīmes. Tā kalpos kā noklusējuma vērtība, kas pēc noklusējuma tiks lietota visām žurnāla rindām. Ja jūs izmantojat parauga vērtības no USMF, atlasiet Bulk-008.  
+    * Atlasiet derīgu novietojumu atlasītajā noliktavā. Novietojums ir jāsasaista ar novietojuma profilu, ko kontrolē numura zīmes. Tā kalpos kā noklusējuma vērtība, kas pēc noklusējuma tiks lietota visām žurnāla rindām. Ja izmantojat parauga vērtības no USMF, atlasiet Bulk-008.  
 8. Ar peles labo pogu noklikšķiniet uz nolaižamās bultiņas laukā Numura zīme un pēc tam atlasiet Skatīt detalizētu informāciju.
 9. Noklikšķiniet uz Jauns.
 10. Laukā Numura zīme ierakstiet vērtību.

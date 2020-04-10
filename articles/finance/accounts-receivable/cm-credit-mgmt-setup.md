@@ -3,7 +3,7 @@ title: Kredīta pārvaldības parametru iestatīšana
 description: Šajā tēmā aprakstītas opcijas, kuras var izmantot, lai konfigurētu kredīta pārvaldību atbilstoši jūsu biznesa vajadzībām.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124189"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154532"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredīta pārvaldības parametru iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas opcijas, kuras var izmantot, lai konfigurētu kredīta pārvaldību atbilstoši jūsu biznesa vajadzībām. Lai sāktu izmantot kredīta pārvaldības līdzekļus, iestatiet parametrus lapā **Kredīta pārvaldības parametri** (**Kredīta pārvaldība \> Iestatījumi \> Kredīta pārvaldības parametri**).
+Šajā tēmā aprakstītas opcijas, kuras var izmantot, lai konfigurētu kredīta pārvaldību atbilstoši jūsu biznesa vajadzībām. Lai sāktu izmantot kredīta pārvaldības līdzekļus, iestatiet parametrus lapā **Kredīta un iekasēšanas parametri** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta un iekasēšanas parametri**).
 
 ## <a name="credit-parameters"></a>Kredīta parametri
 
-Ir četras kopsavilkuma cilnes, kurās varat mainīt parametrus, kas kontrolē kredīta pārvaldību: **kredīt aizturēšanas gadījumi**, **Kredīta pārvaldības kontrolpunkts**, **Kredīta pārvaldības statistikas** un **Kredīta limiti**. Tālāk esošajās sadaļās aprakstīti iestatījumi, kas ir pieejami katrā kopsavilkuma cilnē.
+Sadaļā **Kredīts** ir četras kopsavilkuma cilnes, kurās varat mainīt parametrus, kas kontrolē kredīta pārvaldību: **Kredīta aizturēšanas gadījumi**, **Kredīta pārvaldības kontrolpunkts**, **Kredīta pārvaldības statistika** un **Kredīta limiti**. Tālāk esošajās sadaļās aprakstīti iestatījumi, kas ir pieejami katrā kopsavilkuma cilnē.
 
 ### <a name="credit-holds"></a>Kredītu aiztures
 

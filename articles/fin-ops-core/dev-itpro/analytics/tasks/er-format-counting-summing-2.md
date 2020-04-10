@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550606"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142482"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER formāta konfigurēšana, lai veiktu uzskaiti un summēšanu (2. daļa. Aprēķinu konfigurēšana)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus. Šīs darbības var veikt jebkurā uzņēmumā.
 
-Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras “ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (1. daļa: Izveidot formātu)” darbības.
+Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras "ER konfigurēt formātu, lai veiktu uzskaiti un summēšanu (1. daļa: Izveidot formātu)" darbības.
 
 Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
@@ -82,37 +82,37 @@ Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras “ER konfigurēt
 31. Aizvērt lapu.
 32. Noklikšķiniet uz OK.
 33. Koka struktūrā atlasiet 'Intrastat\Data'.
-34. Noklikšķiniet uz lauka Apkopoto datu atslēgas nosaukums pogas Rediģēt
+34. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas nosaukums' pogas Rediģēt
 35. Noklikšķiniet uz Pievienot datu avotu.
     * $BlockName  
-36. Noklikšķiniet uz Saglabāt.
+36. Klikšķiniet Saglabāt.
 37. Aizvērt lapu.
 38. Noklikšķiniet uz lauka Apkopoto datu atslēgas vērtība pogas Rediģēt.
 39. Laukā Formula ievadiet “IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")”.
     * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
 40. Noklikšķiniet uz Saglabāt.
 41. Aizvērt lapu.
-    * Saskaitiet šīs secības līnijas. Rezultāti tiks izmantoti ar nosaukumu “bloķēt” atsevišķi dažādiem virzieniem. Vērtība “Importēt” tiks izmantota visām ienākošajām Intrastat transakcijām. Vērtība “Eksportēt” tiks izmantota visām Intrastat nosūtītajām transakcijām. Uzskatiet to par virtuālu Excel izklājlapu. Katra transakcijas rindas, kur pirmā kolonna ir “bloķēt”, tiek aizpildīta ar attiecīgi ar vērtību “Importēt” un “Eksportēt”.  
+    * Saskaitiet šīs secības līnijas. Rezultāti tiks izmantoti ar nosaukumu "bloķēt" atsevišķi dažādiem virzieniem. Vērtība "Importēt" tiks izmantota visām ienākošajām Intrastat transakcijām. Vērtība "Eksportēt" tiks izmantota visām Intrastat nosūtītajām transakcijām. Uzskatiet to par virtuālu Excel izklājlapu. Katra transakcijas rindas, kur pirmā kolonna ir "bloķēt", tiek aizpildīta ar attiecīgi ar vērtību "Importēt" un "Eksportēt".  
 42. Kokā struktūrā izvērsiet Intrastat\Data: Sequence'.
 43. Koka struktūrā atlasiet 'Intrastat\Data: Sequence\Arrivals?'.
-44. Noklikšķiniet uz lauka Apkopoto datu atslēgas nosaukums pogas Rediģēt.
-    * Saskaitiet šīs secības līnijas. Rezultāti tiks saglabāti atmiņā ar vārdu “ierakstīt”.  
+44. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas nosaukums' pogas Rediģēt.
+    * Saskaitiet šīs secības līnijas. Rezultāti tiks saglabāti atmiņā ar vārdu "ierakstīt".  
 45. Koka struktūrā atlasiet '$RecName'.
 46. Noklikšķiniet uz Pievienot datu avotu.
-47. Noklikšķiniet uz Saglabāt.
+47. Klikšķiniet Saglabāt.
 48. Aizvērt lapu.
-49. Noklikšķiniet uz lauka Apkopoto datu atslēgas vērtība pogas Rediģēt.
+49. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas vērtība' pogas Rediģēt.
 50. Laukā Formula ievadiet “Intrastat.CommodityRecord.CommodityCode”.
 51. Noklikšķiniet uz Saglabāt.
 52. Aizvērt lapu.
-    * Saskaitiet šīs secības līnijas. Rezultāti tiks izmantoti ar nosaukumu “ierakstīt” atsevišķi dažādiem preces kodiem. Uzskatiet to par virtuālu Excel izklājlapu. Katra transakcijas rinda, kur pirmā kolonna ir “bloķēt”, tiek aizpildīta ar attiecīgi ar vērtību “Importēt” un “Eksportēt” un otrais bloks “ierakstīt” tiek aizpildīts ar preces koda vērtību.  
+    * Saskaitiet šīs secības līnijas. Rezultāti tiks izmantoti ar nosaukumu "ierakstīt" atsevišķi dažādiem preces kodiem. Uzskatiet to par virtuālu Excel izklājlapu. Katra transakcijas rinda, kur pirmā kolonna ir "bloķēt", tiek aizpildīta ar attiecīgi ar vērtību "Importēt" un "Eksportēt" un otrais bloks "ierakstīt" tiek aizpildīts ar preces koda vērtību.  
 53. Koka struktūrā atlasiet 'Intrastat\Data: Sequence\Dispatches?'.
-54. Noklikšķiniet uz lauka Apkopoto datu atslēgas nosaukums pogas Rediģēt
+54. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas nosaukums' pogas Rediģēt
 55. Koka struktūrā atlasiet '$RecName'.
 56. Noklikšķiniet uz Pievienot datu avotu.
-57. Noklikšķiniet uz Saglabāt.
+57. Klikšķiniet Saglabāt.
 58. Aizvērt lapu.
-59. Noklikšķiniet uz lauka Apkopoto datu atslēgas vērtība pogas Rediģēt.
+59. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas vērtība' pogas Rediģēt.
 60. Laukā Formula ievadiet “Intrastat.CommodityRecord.CommodityCode”.
 61. Klikšķiniet Saglabāt.
 62. Aizvērt lapu.
@@ -121,18 +121,18 @@ Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras “ER konfigurēt
 65. Noklikšķiniet uz cilnes Formāts.
 66. Koka struktūrā atlasiet 'Intrastat\Data\Dispatches\Record\Invoice amount EUR'.
 67. Noklikšķiniet uz cilnes Kartēšana.
-68. Noklikšķiniet uz lauka Apkopoto datu atslēgas nosaukums pogas Rediģēt.
+68. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas nosaukums' pogas Rediģēt.
 69. Koka struktūrā atlasiet '$InvName'.
 70. Noklikšķiniet uz Pievienot datu avotu.
 71. Noklikšķiniet uz Saglabāt.
 72. Aizvērt lapu.
-    * Aprēķiniet šīs secības rindas rēķinā iekļauto summu vērtību. Rezultāti tiks izmantoti ar nosaukumu “InvoicedAmountEUR” atsevišķi dažādiem Intrastat virzieniem un preces kodiem. Uzskatiet to par virtuālu Excel izklājlapas izveidi. Katra transakcijas rindas, kur pirmā kolonna ir “bloķēt”, tiek aizpildīta ar attiecīgi ar vērtību “Importēt” un “Eksportēt”. Otrs bloks “ierakstīt” tiek aizpildīts ar preces koda vērtību un trešā kolonna “InvoicedAmountEUR” tiek aizpildīta ar rēķina summas vērtību.  
+    * Aprēķiniet šīs secības rindas rēķinā iekļauto summu vērtību. Rezultāti tiks izmantoti ar nosaukumu "InvoicedAmountEUR" atsevišķi dažādiem Intrastat virzieniem un preces kodiem. Uzskatiet to par virtuālu Excel izklājlapas izveidi. Katra transakcijas rindas, kur pirmā kolonna ir "bloķēt", tiek aizpildīta ar attiecīgi ar vērtību "Importēt" un "Eksportēt". Otrs bloks "ierakstīt" tiek aizpildīts ar preces koda vērtību un trešā kolonna "InvoicedAmountEUR" tiek aizpildīta ar rēķina summas vērtību.  
 73. Kokā struktūrā izvērsiet 'Intrastat\Data\Arrivals?'.
 74. Koka struktūrā izvērsiet 'Intrastat\Data\Arrivals?\Record =  Intrastat.CommodityRecord'.
 75. Noklikšķiniet uz cilnes Formāts.
 76. Koka struktūrā atlasiet 'Intrastat\Data\Arrivals\Record\Invoice amount EUR'.
 77. Noklikšķiniet uz cilnes Kartēšana.
-78. Noklikšķiniet uz lauka Apkopoto datu atslēgas nosaukums pogas Rediģēt.
+78. Noklikšķiniet uz lauka 'Apkopoto datu atslēgas nosaukums' pogas Rediģēt.
 79. Koka struktūrā atlasiet '$InvName'.
 80. Noklikšķiniet uz Pievienot datu avotu.
 81. Noklikšķiniet uz Saglabāt.

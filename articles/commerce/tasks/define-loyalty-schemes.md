@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a681a369a55a45692979e8e6f24f9c4018e00677
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023277"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141295"
 ---
 # <a name="define-loyalty-schemes"></a> Lojalitātes programmas shēmu definēšana
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā procedūrā ir aprakstīts, kā definēt lojalitātes programmas shēmu. Lojalitātes programmas shēmas ir atlīdzības peļņas un izpirkšanas kārtulas lojalitātes programmai. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 

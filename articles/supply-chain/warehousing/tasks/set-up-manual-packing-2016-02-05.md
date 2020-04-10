@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec4d86673555f594bb2f81010235fd7eb6e83f27
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847187"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148289"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Manuālas iepakošanas iestatīšana (2016. gada februāris un 2016. gada maijs)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Iepakošanas procesu ļauj jums pārbaudīt un iepakot preces konteineros. Šajā procesā, noliktavas darbinieki izdod preces no uzglabāšanas vietām un pārvieto tās uz iepakojuma staciju, kur tie pārbauda krājumu daudzumus un veidus, un piešķir tiem atbilstošus konteinerus. Kad konteiners ir pilns, to var aizvērt un pārvietot to uz nosūtīšanas doku, un preces ir gatavas nosūtīšanai. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Šī procedūra ir paredzēta tikai Dynamics 365 for Operations 2016. gada februāra un 2016. gada maija versijām.
 

@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769859"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142136"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektronisko pārskatu (EK) konfigurāciju, kas ietver veidni elektronisko dokumentu ģenerēšanai OPENXML formātā. Šī konfigurācija tiks izmantota kreditoru maksājumu apstrādei.
 
 Šajā piemērā tiek izveidota parauga uzņēmuma Litware, Inc. konfigurācija. Šīs darbības var veikt jebkurā GBSI uzņēmumā.
 
-Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu" procedūras darbības. Jums ir nepieciešams arī Excel fails, kas tiks importēts, veidojot veidni. Lai piekļūtu šim failam, izmantojiet opciju [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266).
+Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas aprakstītas procedūrā "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu". Jums ir nepieciešams arī Excel fails, kas tiks importēts, veidojot veidni. Lai piekļūtu šim failam, izmantojiet opciju [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Augšupielādēt maksājumu datu modeļa konfigurāciju
@@ -55,7 +55,7 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja i
 3. Atlasiet **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
 4. Laukā **Jauns** ievadiet `Format based on data model PaymentModel`. Izveidojiet formātu, kas ir balstīts uz datu modeli PaymentModel.
 5. Laukā **Nosaukums** ievadiet `Sample worksheet report`. Parauga darblapas atskaite  
-6. Laukā **Apraksts** ievadiet `Sample worksheet report for vendors’ payments`. Parauga darblapas atskaite kreditoru maksājumiem.  
+6. Laukā **Apraksts** ievadiet `Sample worksheet report for vendors' payments`. Parauga darblapas atskaite kreditoru maksājumiem.  
 7. Ievadiet vai atlasiet kādu vērtību laukā **Datu modeļa definīcija**. Atlasiet definīciju **CustomerCreditTransferInitiation**.  
 8. Atlasiet **Izveidot konfigurāciju**.
 

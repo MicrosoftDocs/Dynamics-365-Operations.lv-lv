@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd154aeb037be5ac1062cc12a5911638db5a8239
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 299256dd3eca0488865f42caf31c78cda4328bfb
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003931"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150006"
 ---
 # <a name="create-a-product"></a>Preces izveide
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā tirdzniecības preču hierarhijā izveidot jaunu preci. Šī uzdevuma izveidē tika izmantoti demonstrācijas uzņēmuma “USRT” dati, un uzdevums ir paredzēts preču pārvaldniekam un preces noformētājam.
 

@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a543d9091ffecbb0cdd52acb527de971ee768823
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b0391cd71b43138982ae6e9616027f1695d7d0da
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843941"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149485"
 ---
 # <a name="set-up-project-resource-information"></a>Projekta resursu informācijas iestatīšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā ir parādīts, kā iestatīt projekta resursu. Šajā uzdevumā tiek izmantota USMF datu kopa.
 

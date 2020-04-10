@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eee00021f49ac0110d7bde07faba8095348e1b4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e5d4256b155d3e06d63e425fab63b4025ef2577f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185754"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140022"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>ISO20022 tiešā debeta konfigurācijas importēšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šī procedūra parāda, kā importēt debitora maksājuma elektronisko pārskatu veidošanas konfigurāciju. Šī procedūra izmanto ISO 20022 tiešā debeta formātu kā piemēru. 
 

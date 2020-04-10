@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 867bfd2f2d1ff486e683cb11c38906dd0efe8c14
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c46d77a632b0d2939d9a9f561e7c761845169629
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187870"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144477"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Izmaksu kontroles darbvietas parametru konfigurēšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Izmantojiet šo procedūru, lai konfigurētu izmaksu kontroles darbvietu, lai dažādu līmeņu vadītāji organizācijā var gūt ieskatu par to izmaksu objektiem, piemēram, izmaksu centriem un preču grupām. USP2 demonstrācijas uzņēmums tika izmantots, lai izveidotu šo ierakstu.
 

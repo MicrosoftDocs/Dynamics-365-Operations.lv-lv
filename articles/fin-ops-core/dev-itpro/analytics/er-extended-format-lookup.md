@@ -3,7 +3,7 @@ title: Elektronisko pārskatu (ER) paplašinātā formāta uzmeklēšana
 description: Šajā tēmā aprakstīts, kā  ER formāta uzmeklēšanā var iestatīt ER formāta atsauci, ja nepieciešamais formāts tiek glabāts globālajā repozitorijā.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/24/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c72335d7d83934146f827ef0bb568b79a585a7a5
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015306"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138864"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Ļaut lietotājiem iestatīt ER formāta atsauci, pieprasot formātu no globālās krātuves
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Varat izmantot struktūru [Elektroniskie pārskati](general-electronic-reporting.md) (ER), lai konfigurētu izejošajiem dokumentiem paredzētos [formātus](general-electronic-reporting.md#FormatComponentOutbound) saskaņā ar dažādu valstu/reģionu likumu prasībām. Varat arī izmantot ER struktūru, lai konfigurētu [formātus](general-electronic-reporting.md#FormatComponentInbound) ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 Finance instancē, lai apstrādātu ienākošos vai izejošos biznesa dokumentus kā daļu no noteikta biznesa procesa. 
 

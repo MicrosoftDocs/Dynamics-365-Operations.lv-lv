@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042923"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142257"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigurāciju atkarības no citiem komponentiem definēšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļa kartēšanas konfigurāciju pārvaldība” norādītās darbības un jums ir jābūt piešķirtai piekļuvei portālam Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -33,23 +33,23 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. 
 
 1. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
-    * Pārliecinieties, vai konfigurācijas koks satur konfigurāciju "Sample data model" un pakārtojiet vienumus. Pretējā gadījumā veiciet darbības, kas norādītas uzdevuma ceļvedī "ER: pārvaldīt modeļa kartēšanas konfigurācijas", un pēc tam vēlreiz startējiet šo ceļvedi.   
+    * Pārliecinieties, vai konfigurācijas koks satur konfigurāciju 'Parauga datu modelis' un pakārtojiet vienumus. Pretējā gadījumā veiciet darbības, kas norādītas uzdevuma ceļvedī "ER: pārvaldīt modeļa kartēšanas konfigurācijas", un pēc tam vēlreiz startējiet šo ceļvedi.   
 
 ## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>ER konfigurāciju atkarības no citiem komponentiem definēšana
 1. Kokā izvērsiet "Sample data model".
 2. Kokā atlasiet "Sample data modelSample mapping".
     * Mēs atlasījām modeļa kartējuma konfigurācijas "Sample mapping" melnraksta versiju. Tagad definēsim tā atkarību no citiem programmatūras komponentiem. Šis solis tiek uzskatīts par priekšnoteikumu, lai kontrolētu šīs konfigurācijas versijas lejupielādi no ER repozitorija un jebkādu turpmāku šīs versijas izmantošanu.   
 3. Izvērsiet priekšnoteikumu sadaļu.
-    * Ievērojiet, ka šajā posmā priekšnoteikumu grupa “Implementations” ir pievienota automātiski. Šī grupa satur nepieciešamo komponentu, kas attiecas uz datu modeļa konfigurāciju un kuram ir ieslēgts ieviešanas karodziņš. Šis karodziņš norāda, ka kartējuma konfigurācija "Sample mapping" tiek uzskatīta par datu modeļa "Sample data model" ieviešanu. Šis komponents liks ER lejupielādēt kartējuma konfigurāciju "Sample mapping" no ER repozitorija vienmēr, kad tiks lejupielādēta modeļa konfigurācija "Sample data model".   
+    * Ievērojiet, ka šajā posmā priekšnoteikumu grupa 'Implementations' ir pievienota automātiski. Šī grupa satur nepieciešamo komponentu, kas attiecas uz datu modeļa konfigurāciju un kuram ir ieslēgts ieviešanas karodziņš. Šis karodziņš norāda, ka kartējuma konfigurācija "Sample mapping" tiek uzskatīta par datu modeļa "Sample data model" ieviešanu. Šis komponents liks ER lejupielādēt kartējuma konfigurāciju 'Parauga kartēšana' no ER repozitorija vienmēr, kad tiks lejupielādēta modeļa konfigurācija 'Parauga datu modelis'.   
 4. Noklikšķiniet uz Rediģēt.
     * Konfigurācijas pašreizējās versijas atsevišķu atkarību no programmatūras komponenta var norādīt, izmantojot komponenta veida definīciju un vai nu komponenta versiju vai komponenta versiju diapazonu.  
-    * Vēlamās atkarības var sagrupēt. Kad ir atlasīts grupēšanas veids "All of", šīs grupas atkarības nosacījums tiek uzskatīts par izpildītu, ja ir izpildīts katrs šīs grupas un pakārtotās grupas atkarības nosacījums. Kad ir atlasīts grupēšanas veids "One of", šīs grupas atkarības nosacījums tiek uzskatīts par izpildītu, ja ir izpildīts vismaz viens šīs grupas atkarības nosacījums.   
+    * Vēlamās atkarības var sagrupēt. Kad ir atlasīts grupēšanas veids 'Visi no', šīs grupas atkarības nosacījums tiek uzskatīts par izpildītu, ja ir izpildīts katrs šīs grupas un pakārtotās grupas atkarības nosacījums. Kad ir atlasīts grupēšanas veids 'Viens no', šīs grupas atkarības nosacījums tiek uzskatīts par izpildītu, ja ir izpildīts vismaz viens šīs grupas atkarības nosacījums.   
 5. Noklikšķiniet uz Jauns.
 6. Atlasiet komponentu Preces priekšnosacījums.
 7. Atlasiet Microsoft Dynamics 365 for Operations (1611).
 8. Laukā Versija ierakstiet "[7.1.1541.3036,8)".
     * [7.1.1541.3036,8)  
-    * Ievadītās atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad parauga datu modeļa konfigurācijas 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tai ir jābūt pabeigtai Finance and Operations versijā ne vecākā par 7.1.1541.3036 vai jaunākā, bet ne jaunākā par galveno versiju 8.   
+    * Ievadītās atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad konfigurācijas 'Parauga datu modelis' 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tai ir jābūt pabeigtai Finance and Operations versijā ne vecākā par 7.1.1541.3036 vai jaunākā, bet ne jaunākā par galveno versiju 8.   
 9. Noklikšķiniet uz Saglabāt.
 10. Aizvērt lapu.
 11. Noklikšķiniet uz Mainīt statusu.
@@ -62,7 +62,7 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 18. Atlasiet vienumu Microsoft Dynamics AX 7.0 RTW.
 19. Laukā Versija ierakstiet "[7.0.1265.3015,7.1)".
     * [7.0.1265.3015,7.1)  
-    * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad parauga datu modeļa konfigurācijas 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tā ir jāizpilda programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, kuras versija ir 7.0.1265.3015 vai jaunāka, taču nav jaunāka par papildversiju 1.   
+    * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad konfigurācijas 'Parauga datu modelis' 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tā ir jāizpilda programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, kuras versija ir 7.0.1265.3015 vai jaunāka, taču nav jaunāka par papildversiju 1.   
 20. Noklikšķiniet uz Saglabāt.
 21. Aizvērt lapu.
 22. Noklikšķiniet uz Mainīt statusu.
@@ -82,8 +82,8 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 8. Laukā Konfigurācijas repozitorija veids ievadiet "LCS".
 9. Noklikšķiniet uz Izveidot repozitoriju.
 10. Laukā Projekts ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet vēlamo LCS projektu no meklēšanas lauka "Project".  
-11. Noklikšķiniet uz OK.
+    * Atlasiet vēlamo LCS projektu no meklēšanas lauka 'Projekts'.  
+11. Noklikšķiniet uz Labi.
 12. Aizvērt lapu.
 
 ## <a name="upload-configurations-to-lcs"></a>Konfigurāciju augšupielāde pakalpojumā LCS
@@ -138,5 +138,5 @@ Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tā
 24. Aizvērt lapu.
 25. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
 26. Kokā izvērsiet "Sample data model".
-    * Ņemiet vērā, ka kartējuma konfigurācija "Sample mapping" tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo "Sample mapping" ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija "Sample mapping (alternative)" netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
-    * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija "Sample mapping (alternative)" tiks lejupielādēta, savukārt konfigurācija "Sample mapping" tiks izlaista.  
+    * Ņemiet vērā, ka kartējuma konfigurācija 'Parauga kartēšana' tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo 'Parauga kartēšana' ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija 'Parauga kartēšana (alternatīvi)' netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
+    * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija 'Parauga kartēšana (alternatīvi)' tiks lejupielādēta, savukārt konfigurācija 'Parauga kartēšana' tiks izlaista.  

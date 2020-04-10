@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de075899547d194fb9eb0e68947efd005c101851
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 1a52a7dd3b31c0189577422a79d47b318aae4a05
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550698"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142010"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (5. daļa. Formāta modificēšana un darbināšana)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē. Šīs darbības var veikt uzņēmumā DEMF.
 
-Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmantot dokumentu pārvaldības failus formāta izvadēs (4. daļa: Formatēšanas izpilde).
+Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmantot dokumentu pārvaldības failus formāta izvadēs (4. daļa: Formatēšanas izpilde)".
 
 Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
@@ -91,9 +91,9 @@ Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmant
 2. Izvērsiet sadaļu Iekļaujamie ieraksti.
 3. Noklikšķiniet uz Filtrēt.
 4. Atlasiet rindu no debitora rēķinu žurnāla un pārdošanas pasūtījuma lauka.
-5. Laukā Kritēriji, kritērija “pārdošanas pasūtījums' laukā ierakstiet pasūtījuma numuru 000148.
+5. Laukā Kritēriji, kritērija laukā "Pārdošanas pasūtījums" laukā ierakstiet pasūtījuma numuru 000148.
     * 000148  
-6. Noklikšķiniet uz OK.
-7. Noklikšķiniet uz OK.
+6. Noklikšķiniet uz Labi.
+7. Noklikšķiniet uz Labi.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka papildus rēķina ziņojumam XML formātā, viens fails tika izveidots katram pielikumam. Pielikumu faili tiek aizpildīti ar arhivētu izvadi binārā formātā.  
 

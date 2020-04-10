@@ -3,7 +3,7 @@ title: Procesa atjaunināšana
 description: Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus lietojumprogrammu un platformu izmaiņām.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,14 +16,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092205"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154509"
 ---
 # <a name="update-process"></a>Procesa atjaunināšana
 
@@ -37,52 +37,39 @@ Atjauninājumi tiek izlaisti ar regulāru kadenci visām vidēm. Human Resources
 
 Human Resources atjauninājumi tiek automātiski piemēroti visām vidēm. Human Resources nodrošina divu veidu laidienus.
 
-- **Pakalpojuma atjauninājumi**: iknedēļas atjauninājumi, kas ietver kļūdu labojumus un jaunus līdzekļus. Pakalpojuma atjauninājumi iekļauj arī noderīgus platformas atjauninājumus, kad tie tiek izlaisti. Lai iegūtu priekšstatu par to, kad tiek izlaisti platformas atjauninājumi, skatiet [3. tabula: platformas laidieni](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Iknedēļas atjauninājumi parasti tiek izlaisti trešdienās. Papildinformāciju par iknedēļas atjauninājumiem skatiet [Jaunumi un izmaiņas Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/talent/whats-new).
+- **Pakalpojuma atjauninājumi**: Atjauninājumi tiek veikti reizi divās nedēļās un ietver kļūdu labojumus un jaunus līdzekļus. Pakalpojuma atjauninājumi iekļauj arī noderīgus platformas atjauninājumus, kad tie tiek izlaisti. Lai iegūtu priekšstatu par to, kad tiek izlaisti platformas atjauninājumi, skatiet [3. tabula: platformas laidieni](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Atjauninājumiem, kas tiek veikti reizi divās nedēļās, ir pakāpeniska globāla izlaišana reģionos. Papildinformāciju par atjauninājumiem reizi divās nedēļās skatiet [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
-    Visi atbalstītie datu centri tiek atjaunināti katru nedēļu, ja vien nav norādīts citādi. Iknedēļas atjauninājumi parasti sākas trešdien un tiek pabeigti līdz svētdienai. Iknedēļas atjauninājumos ir ietverti ASV, Austrālijas, Eiropas, Apvienotās Karalistes, Āzijas un Kanādas reģioni. 
+    Visi atbalstītie datu centri tiek atjaunināti ik pēc divām nedēļām, ja vien nav norādīts citādi. Atjauninājumos, kas notiek reizi divās nedēļās, ir ietverti ASV, Austrālijas, Eiropas, Apvienotās Karalistes, Āzijas un Kanādas reģioni. 
 
-- **Common Data Service risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Common Data Service. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā iknedēļas atjauninājumi, un paiet aptuveni sešas nedēļas līdz tie tiek kopēti visos datu centros. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar iknedēļas pakalpojumu atjauninājumiem.
-
-Tālāk redzamajā tabulā ir parādīts grafika paraugs.
-
-| Nedēļa | Labošanas tips |
-| --- | --- |
-| 1. | Pakalpojuma atjauninājums (visi reģioni) |
-| 2. | Pakalpojuma atjauninājums (visi reģioni) + risinājuma atjauninājums (1. nedēļas reģioni) |
-| 3 | Pakalpojuma atjauninājums (visi reģioni) + risinājuma atjauninājums (2. nedēļas reģioni) |
-| 4. | Pakalpojuma atjauninājums (visi reģioni) + risinājuma atjauninājums (3. nedēļas reģioni) |
-| 5 | Pakalpojuma atjauninājums (visi reģioni) + risinājuma atjauninājums (4. nedēļas reģioni) |
-| 6 | Pakalpojuma atjauninājums (visi reģioni) + risinājuma atjauninājums (5. nedēļas reģioni) |
-| 7 | Pakalpojuma atjauninājums (visi reģioni) + risinājuma atjauninājums (6. nedēļas reģioni) |
-| 8 | Pakalpojuma atjauninājums (visi reģioni) |
+- **Common Data Service risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Common Data Service. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā atjauninājumi reizi divās nedēļās, un paiet aptuveni sešas nedēļas līdz tie tiek kopēti visos datu centros. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar pakalpojumu atjauninājumiem reizi divās nedēļās.
 
 > [!NOTE]
 > Kad tie tiek izlaisti, risinājuma atjauninājumi ir pieejami visiem datu centriem. Ja nevēlaties gaidīt, kamēr atjauninājumi tiek kopēti automātiski, varat lietot šos atjauninājumus manuāli jebkurā vidē jebkurā datu centrā.
 
 Ja nepieciešams, Human Resources nodrošina arī tālāk minētos labojumu veidus.
 
-- **Pārstrādātais izdevums (labojumfails**): kļūdu labojumi, kas var būt vai nu kopā ar iknedēļas pakalpojuma atjaunināšanas laidienu, vai atsevišķi no tā
+- **Pārstrādātais izdevums (labojumfails**): Kļūdu labojumi, kas var būt vai nu kopā ar pakalpojuma atjaunināšanas, kas notiek reizi divās nedēļās, laidienu, vai atsevišķi no tā
 
-- **Ārkārtas labojums**: proaktīvi un reaktīvi labojumfaili, kas ir pēc būtības ir paši par sevi, var ietvert tikai konfigurācijas vai koda izmaiņas, lai atrisinātu tiešsaistes vietnes problēmas, un tie var būt atsevišķi no iknedēļas pakalpojuma atjaunināšanas laidiena
+- **Ārkārtas labojums**: Proaktīvi un reaktīvi labojumfaili, kas ir pēc būtības ir paši par sevi, var ietvert tikai konfigurācijas vai koda izmaiņas, lai atrisinātu tiešsaistes vietnes problēmas, un tie var būt atsevišķi no iknedēļas pakalpojuma atjaunināšanas, kas notiek reizi divās nedēļās, laidiena
 
 Laidieni tiek pārbaudīti, testēti un apstiprināti iekšējā vidē. Pēc izveidotā ir izrakstīšanas, tas tiek izvietots ražošanā.
 
-## <a name="exceptions-in-2019"></a>Izņēmumi 2019. gadā
+## <a name="release-cadence-exceptions-in-2020"></a>Laidienu ritma izņēmumi 2020. gadā
 
 Tālāk minētie datumi ir izņēmumi no regulāro laidienu grafika.
 
-| Datums | Apraksts |
+| Datums | apraksts |
 | --- | --- |
-| 25. novembra nedēļa | Nav atjauninājumu |
-| 16. decembra nedēļa | Tikai mazsvarīgi atjauninājumi |
-| 23. decembra nedēļa | Nav atjauninājumu |
-| 30. decembra nedēļa | Nav atjauninājumu |
+| 23. novembra nedēļa | Nav atjauninājumu |
+| 14. decembra nedēļa | Tikai mazsvarīgi atjauninājumi |
+| 21. decembra nedēļa | Nav atjauninājumu |
+| 28. decembra nedēļa | Nav atjauninājumu |
 
 ## <a name="communications"></a>Komunikācija
 
 Tālāk minētajās vietās varat uzzināt, kas ietverts Human Resources darbībā un kādi bijuši laidieni.
 
-- [Dynamics 365 Human Resources rīcības plāns](https://dynamics.microsoft.com/roadmap/talent/)
+- [Dynamics 365 Human Resources rīcības plāns](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [Dynamics 365 laidiena plāni](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Testējot priekšskatījuma līdzekļus vai izmēģinot jaunas iespējas, iespē
 
 ## <a name="see-also"></a>Skatiet arī
 
-- [Dynamics 365 un Power Platform laidiena plāni](https://docs.microsoft.com/dynamics365/release-plans)
-- [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md)
-- [Programmatūras dzīves cikla politika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Dynamics 365 un Power Platform laidiena plāni](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
+[Programmatūras dzīves cikla politika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

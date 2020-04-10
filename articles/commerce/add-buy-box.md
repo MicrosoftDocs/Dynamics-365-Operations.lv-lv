@@ -3,7 +3,7 @@ title: Iegādes lodziņa modulis
 description: Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025463"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154067"
 ---
 # <a name="buy-box-module"></a>Iegādes lodziņa modulis
 
@@ -58,7 +58,7 @@ Tēmas var izmantot, lai noņemtu vai mainītu iegādes loga produktu rekvizītu
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduļi, ko var izmantot iegādes lodziņa modulī
 
 - **Multivides galerija** — šis modulis tiek izmantots, lai parādītu preču attēlus preču informācijas lapā. Tas var atbalstīt no viena līdz vairākiem attēliem. Tā atbalsta arī sīktēlu attēlus. Sīktēlu attēlus var sakārtot vai nu horizontāli (kā rindu zem attēla), vai vertikāli (kā kolonnu blakus attēlam). Multivides galerijas modulis var tikt pievienots **Multivides** slotam iegādes lodziņa modulī. Tas pašlaik atbalsta tikai attēlus. 
-- **Veikala atlasītājs** — šis modulis rāda tuvumā esošo veikalu sarakstu, kur var saņemt preci. Tas ļauj lietotājiem ievadīt atrašanās vietu, lai atrastu tuvuma esošos veikalus. Veikalu atlasīšanas modulis ir integrēts ar Bing karšu ģeokodēšanas lietojumprogrammas programmēšanas interfeisu (API), lai atrašanās vietu pārveidotu platumā un garumā. Nepieciešama Bing karšu API atslēga, un tā ir jāpievieno lapā Mazumtirdzniecības kopīgie parametri pakalpojumā Dynamics 365 Retail. Šis modulis atbalsta divus rekvizītus — **Meklēšanas rādiuss** un **Pakalpojuma noteikumu saite**. Rekvizīts **Meklēšanas rādiuss** nosaka meklēšanas rādiusu veikaliem jūdzēs. Ja nav norādīta vērtība, tiek izmantots noklusētais meklēšanas rādiuss, kas ir 50 km. Ja tiek izmantotas Bing kartes vai jebkurš ārējs pakalpojums, rekvizīts **Pakalpojuma noteikumu saite** var tikt izmantots, lai nodrošinātu saiti uz pakalpojuma noteikumiem. Bing karšu pakalpojumam ir nepieciešama saite uz pakalpojuma noteikumiem. 
+- **Veikala atlasītājs** — šis modulis rāda tuvumā esošo veikalu sarakstu, kur var saņemt preci. Tas ļauj lietotājiem ievadīt atrašanās vietu, lai atrastu tuvuma esošos veikalus. Plašāku informāciju par šo moduli skatiet [Store Selector modulī.](store-selector.md)
 
 ## <a name="buy-box-module-settings"></a>Iegādes lodziņa moduļa iestatījumi
 
@@ -93,13 +93,15 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
-[Container modulis](add-container-module.md)
+[Veikala atlasītāja modulis](store-selector.md)
+
+[Konteinera modulis](add-container-module.md)
 
 [Groza modulis](add-cart-module.md)
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Pasūtījuma apstiprinājuma modelis](order-confirmation-module.md)
+[Pasūtījuma apstiprinājuma modulis](order-confirmation-module.md)
 
 [Galvenes modulis](author-header-module.md)
 

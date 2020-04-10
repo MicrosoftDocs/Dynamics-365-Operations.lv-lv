@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124143"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151301"
 ---
 # <a name="credit-management-setup"></a>Kredīta pārvaldības iestatīšana 
 
@@ -40,13 +40,17 @@ Dodieties uz **Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldība
 
 Varat aizturēt pārdošanas pasūtījumu, ja pasūtījumā norādītie apmaksas nosacījumi neatbilst debitora noklusējuma apmaksas nosacījumiem. Tomēr dažreiz apmaksas nosacījumi atšķiras, bet ir pietiekami līdzīgi, ka nevēlaties aizturēt pasūtījumu. Varat kārtot apmaksas nosacījumus tā, ka dažiem no tiem ir viens rangs, bet citiem ir augstāks vai zemāks rangs.
 
-Ja apmaksas nosacījumu rangs ir aktīvs, pārdošanas pasūtījumi tiks aizturēti, ja maksājuma nosacījumam pasūtījumā ir augstāks rangs nekā debitora noklusējuma apmaksas nosacījumiem.
+Ja apmaksas nosacījumu rangs ir aktīvs un pasūtījuma maksājuma nosacījumiem ir augstāks rangs nekā noklusējuma maksājuma nosacījumiem, pārdošanas pasūtījums tiks aizturēts.
+
+Lai iestatītu maksājuma nosacījumu rangus, dodieties uz lapu **Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatīšana \> Kārtot apmaksas nosacījumus**  
 
 ### <a name="ranking-settlement-discounts"></a>Norēķinu atlaižu kārtošanas pēc ranga
 
 Varat aizturēt pārdošanas pasūtījumu, ja pasūtījumā norādītās norēķinu atlaides neatbilst debitora noklusējuma norēķinu atlaidēm. Tomēr dažreiz norēķinu atlaides atšķiras, bet ir pietiekami līdzīgas, ka nevēlaties aizturēt pasūtījumu. Varat kārtot norēķinu atlaides tā, ka dažām no tām ir viens rangs, bet citām ir augstāks vai zemāks rangs.
 
-Ja norēķinu atlaižu rangs ir aktīvs, pārdošanas pasūtījumi tiks aizturēti, ja norēķinu atlaidēm pasūtījumā ir augstāks rangs nekā debitora noklusējuma norēķinu atlaidēm.
+Ja norēķinu atlaižu rangs ir aktīvs un ja norēķinu atlaidēm pasūtījumā ir augstāks rangs nekā debitora noklusējuma norēķinu atlaidēm, pārdošanas pasūtījums tiks aizturēts.
+
+Lai iestatītu maksājuma nosacījumu rangus, dodieties uz lapu **Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatīšana \> Kārtot apmaksas nosacījumus**  
 
 ## <a name="reasons"></a>Iemesli
 
@@ -56,7 +60,7 @@ Kredīta pārvaldībā tiek izmantoti vairāki iemeslu tipi.
 - Palaišanas iemesli tiek piešķirti pasūtījumam, kad tas tiek palaists no aizturēšanas.
 - Statusa iemesli norāda, kāpēc konta statuss tika piešķirts debitoram.
 
-Varat iestatīt iemeslus lapā **Kredīta pārvaldības iemesli** (**Kredīta pārvaldība \> Iestatījumi \> Kredīta pārvaldība \> Kredīta pārvaldības iemesli**).
+Varat iestatīt iemeslus lapā **Kredīta pārvaldības iemesli** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldība \> Kredīta pārvaldības iestatīšana**).
 
 1. Laukā **Iemesla veids** atlasiet iemesla veidu: **Aizturēšana**, **Palaišana** vai **Statuss**.
 2. Laukā **iemesls** ievadiet iemesla nosaukumu.
@@ -66,7 +70,7 @@ Varat iestatīt iemeslus lapā **Kredīta pārvaldības iemesli** (**Kredīta p�
 
 Kredīta pārvaldības grupas tiek izmantotas, lai identificētu debitorus vai debitoru grupas, kurām ir tie paši kredīta pārvaldības rekvizīti. Piemēram, kredītu pārvaldības grupas var izmantot, lai noteiktu aizturēšanas un izslēgšanas kredīta pārvaldības kārtulas debitoriem.
 
-Varat izveidot kredīta pārvaldības grupas lapā **Kredīta pārvaldības grupas** (**kredīta pārvaldība \> Iestatījumi> Grupu iestatījumi \> Kredīta pārvaldības grupas**).
+Varat izveidot kredīta pārvaldības grupas lapā **Kredīta pārvaldības grupas** (**Kredīts un iekasēšana\> Iestatījumi> Kredīta pārvaldības iestatīšana \> Kredīta pārvaldības grupas**).
 
 1. Atlasiet **Jauns**, lai izveidotu rindu.
 2. Ievadiet grupas ID. ID var ietvert līdz 10 rakstzīmēm.
@@ -78,7 +82,7 @@ Kredītu pārvaldības grupa ir piešķirta debitoram kopsavilkuma cilnē **Kred
 
 Varat izveidot konta statusus, lai identificētu debitora konta kredīta stāvokli. Varat noteikt statusu un tā ietekmi uz rēķinu izrakstīšanas un nosūtīšanas aizturēšanas procesiem. Konta statusus var izmantot arī, lai noteiktu debitora aizturēšanas kārtulas.
 
-Jūs varat izveidot konta statusus lapā **Konta statusi** (**Kredīta pārvaldība \> Iestatījumi> Grupas iestatījumi \> Konta statusi**).
+Jūs varat izveidot konta statusus lapā **Konta statusi** (**Kredīts un iekasēšana \> Iestatījumi> Kredīta pārvaldības iestatījumi \> Konta statusi**).
 
 1. Pievienojiet konta statusu un ievadiet aprakstu, kas atspoguļo debitora kredīta stāvokli. Piemēram, izmantojiet **Parasts**, lai norādītu, ka debitors ir uzticams un atvērtajos pasūtījumos tiek piemērota standarta kredīta pārvaldības apstrāde.
 2. Laukos **Rēķinu izrakstīšana** un **Nodošana aizturēšanai** atlasiet aizturēšanas tipu, kas jāizpilda debitoriem, kuriem ir šis konta statuss. Varat aizturēt visu apstrādi, aizturēt tikai rēķina apstrādi vai aizturēt apstrādi, kad tiek piemērotas kredīta limita kārtulas.
@@ -87,7 +91,7 @@ Jūs varat izveidot konta statusus lapā **Konta statusi** (**Kredīta pārvald�
 
 Varat iestatīt punktu skaitīšanas grupas, lai definētu riska faktorus un kritērijus, kas tiek izmantoti to novērtēšanai. Kad informācija par debitoru tiek piemērota punktu skaitīšanas grupai, katram riska faktoram tiek aprēķināts rezultāts, un tas tiek izmantots, lai debitors tiktu pakļauts riska grupai. Riska grupu var izmantot, lai identificētu kredītspēju un automātiski aprēķinātu kredīta limitus.
 
-Punktu skaitīšanas grupas varat izveidot lapā **Punktu skaitīšanas grupas** (**Kredīta pārvaldība \> iestatījumi \> Riska iestatījumi \> Punktu skaitīšanas grupas**).
+Punktu skaitīšanas grupas varat izveidot lapā **Punktu skaitīšanas grupas** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatījumi \> Risks \> Punktu skaitīšanas grupas**).
 
 1. Izveidojiet punktu skaitīšanas grupu un piešķiriet tai nosaukumu.
 2. Ievadiet aprakstu, lai aprakstītu punktu skaitīšanas grupu.
@@ -108,11 +112,11 @@ Punktu skaitīšanas grupas varat izveidot lapā **Punktu skaitīšanas grupas**
     1. Laukā **Vērtība** ievadiet lietotāja definēto vērtību, kas jāsniedz no debitora informācijas.
     2. Laukā **Rezultāts** ievadiet punktu skaitu, kas jāpiešķir, ja vērtība, kas tiek sniegta, ir “No”/“Līdz” diapazonā.
 
-## <a name="risk-assessments"></a>Riska novērtējumi
+## <a name="risk-classification"></a>Risku klasifikācija
 
 Varat definēt riska novērtējumus, kurus var piešķirt debitoriem, pamatojoties uz to riska punktu skaitu. Riska punktu skaits tiek aprēķināts, salīdzinot debitoru informāciju katrai punktu skaitīšanas grupai. Punktu skaits tiek summēts, un kopējais rezultāts tiek salīdzināts ar vērtībām riska grupas iestatījumos, lai identificētu riska grupu, kurai pieder debitors. Tad riska grupas punktu skaits tiek izmantots, lai klientam definētu kredīta pārvaldības aizturēšanas un izslēgšanas kārtulas.
 
-Jūs varat iestatīt riska grupas lapā **Riska novērtējumi** (**Kredīta pārvaldība \> Iestatījumi \> Riska iestatījumi \> Riska novērtējumi**).
+Jūs varat iestatīt riska grupas lapā **Riska novērtējumu** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatījumi \> Risks \> Risku klasifikācija**).
 
 1. Ievadiet riska grupas ID.
 2. Ievadiet aprakstu, lai sīkāk paskaidrotu riska grupu.
@@ -121,7 +125,7 @@ Jūs varat iestatīt riska grupas lapā **Riska novērtējumi** (**Kredīta pār
 
 ## <a name="guaranteeinsurance-types"></a>Garantijas/apdrošināšanas veidi
 
-Varat iestatīt garantijas/apdrošināšanas veidus lapā **Garantijas/apdrošināšanas veidi** (**Kredīta pārvaldība \> Iestatījumi \> Garantijas/apdrošināšanas iestatījumi \> Garantijas/apdrošināšanas veidi**).
+Varat iestatīt garantijas/apdrošināšanas veidus lapā **Garantijas/apdrošināšanas veidi** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatījumi \> Apdrošināšana un garantijas \> Apdrošināšanas un garantiju veidi**).
 
 1. Ievadiet garantijas vai apdrošināšanas veidu, kas identificē garantētāja vai apdrošināšanas starpnieka nosaukumu.
 2. Ievadiet aprakstu, lai aprakstītu garantētāja/apdrošināšanas starpnieku.
@@ -130,14 +134,14 @@ Varat iestatīt garantijas/apdrošināšanas veidus lapā **Garantijas/apdrošin
 
 Vajadzību veidus var izmantot, lai klasificētu apdrošināšanas polises. Tās nevar izmantot kopā ar garantijām.
 
-Varat pievienot vajadzību veidus lapā **Vajadzību veidi** (**kredīta pārvaldība \> Iestatījumi \> Garantijas/apdrošināšanas iestatījumi \> Vajadzību veidi**).
+Varat pievienot vajadzību veidus lapā **Vajadzību veidi** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatījumi \> Apdrošināšana un garantijas \> Vajadzību veidi**).
 
 1. Ievadiet vajadzības veidu, lai identificētu vajadzības veidu, kas jāpievieno kā apdrošināšana vai garantija.
 2. Ievadiet aprakstu, lai aprakstītu vajadzības veidu.
 
 ## <a name="automatic-credit-limits"></a>Automātiski kredītlimiti
 
-Varat izveidot kritērijus, lai automātiski noteiktu kredīta limitus, lapā **Automātiski kredīta limiti** (**Kredīta pārvaldība \> Iestatījumi \> Riska iestatījumi \> Automātiski kredīta limiti**).
+Varat izveidot kritērijus, lai automātiski noteiktu kredīta limitus, lapā **Automātiski kredīta limiti** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatījumi \> Risks \> Automātiski kredīta limiti**).
 
 1. Atlasiet riska grupu, kurai piešķirt automātisko kredīta limitu.
 2. Atlasiet valūtu automātiskajam kredīta limitam. Vienai riska grupai var izveidot vairākus automātiskus kredīta limitus dažādās valūtās.

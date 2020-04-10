@@ -3,7 +3,7 @@ title: Preču identifikatori
 description: Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095621"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172029"
 ---
-# <a name="product-identifiers"></a>Preču identifikatori 
+# <a name="product-identifiers"></a>Preču identifikatori
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,6 +53,9 @@ Turklāt preces variantu nevar unikāli identificēt, izmantojot krājuma numuru
 Daudzās lapās galvenie identifikatori joprojām ir krājumu numurs un preču dimensijas. Taču meklēšanai var izmantot preču numurus. Sadaļā **Pārdošana un mārketings** &gt; **Iestatījumi** &gt; **Meklēšana** &gt; **Meklēšanas parametri** varat mainīt meklēšanas uzmeklēšanas veidu tā, lai galvenās meklēšanas metodes ietvaros krājumu numuru vietā tiktu izmantoti preču numuri. Ja iestatāt opcijas **Iespējot uzmeklēšanu preču meklēšanā** vērtību **Jā**, uzmeklēšanas rezultātos tiek rādīti ne tikai preču šabloni, bet arī preču varianti. Papildinformāciju skatiet tēmā [Preču un preču variantu meklēšana pasūtījuma izveides laikā](search-products-product-variants.md).
 
 Turklāt varat meklēt un filtrēt pēc preces numura, preces nosaukuma un apraksta, kā arī preces varianta preces dimensiju ID. Kad atlasāt variantu, tiek atlasīts saistītais krājuma numurs un visi preces dimensiju ID. Tādējādi varat vieglāk atrast un atlasīt vajadzīgo variantu. Šo iestatījumu ir ļoti ieteicams izmantot, ja lietojat preču variantus un kā galveno preču identifikatoru izmantojat unikālo preces numuru. Vienīgais izņēmums, iespējams, ir modes nozare, kuras biznesa procesu ietvaros bieži vien pirms varianta atlases ir jāatlasa šablons. Pirms numurēšanas sistēmas ieviešanas ir rūpīgi jānovērtē šīs opcijas izmantošana.
+
+> [!NOTE]
+> Preces numuru precei nevar mainīt, ja šai precei pastāv viena vai vairākas transakcijas.
 
 ## <a name="product-name-and-description"></a>Preces nosaukums un apraksts
 
@@ -123,7 +126,7 @@ Diemžēl nepastāv standarta funkcijas, kas sniedz iespēju meklēt preces pēc
 | Preces V2 | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Atkarībā no elementa iestatījumiem un preces numura numuru sērijas importēšanas laikā var tikt automātiski izveidots preces numurs. |
 | Preces varianti | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Atkarībā no preču nomenklatūras veidnes importēšanas laikā var tikt automātiski izveidots preces numurs. Taču varat importēt jebkuru unikālo preces numuru, un šim preces numuram nav jāatbilst preču nomenklatūras veidnes struktūrai. |
 | Preces pārrēķini | Preces nosaukums, preces apraksts | Preces nosaukums, preces apraksts | Šis elements izraisa jebkuras valodas pārrakstīšanu. Ņemiet vērā, ka, pārrakstot juridiskās personas primārās valodas nosaukumu vai aprakstu, tiek mainīts arī preces nosaukums un apraksts. |
-| Izlaistās preces V2 | Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums| Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums, preces saīsinātais nosaukums, preces nosaukums | Šis elements var radīt sarežģījumus, ja jaunu izlaisto preču izveides laikā tiek izmantotas numuru sērijas. Tiek ņemta vērā gan numuru sērija **Krājuma numurs** , gan numuru sērija **Preces numurs**. Taču numuru sērija **Krājuma numurs** atbilst noteiktai juridiskajai personai, bet numuru sērija **Preces numurs** ir globāla. Tāpēc, izvietojot jaunas izlaistās preces, nav ieteicams izmantot numuru sēriju **Krājuma numurs**. Protams, ka gadījuma, ja elements tiek izmantots esošas preces izlaišanai, elementā ir jānorāda preces numurs. Papildinformāciju skatiet šīs tēmas sadaļā “Preču un krājumu numuru sērijas”. |
+| Izlaisto preču izveide V2 | Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums| Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums, preces saīsinātais nosaukums, preces nosaukums | Šis elements var radīt sarežģījumus, ja jaunu izlaisto preču izveides laikā tiek izmantotas numuru sērijas. Tiek ņemta vērā gan numuru sērija **Krājuma numurs** , gan numuru sērija **Preces numurs**. Taču numuru sērija **Krājuma numurs** atbilst noteiktai juridiskajai personai, bet numuru sērija **Preces numurs** ir globāla. Tāpēc, izvietojot jaunas izlaistās preces, nav ieteicams izmantot numuru sēriju **Krājuma numurs**. Protams, ka gadījuma, ja elements tiek izmantots esošas preces izlaišanai, elementā ir jānorāda preces numurs. Papildinformāciju skatiet šīs tēmas sadaļā “Preču un krājumu numuru sērijas”. |
 | Izlaistie preces varianti | Krājuma numurs, preces dimensijas, preces numurs | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts, preces dimensijas | Līdzīgi kā elementu **Preces varianti**, arī šo elementu var izmantot, lai izveidotu jaunas preces, kuru variantiem tiek izmantota preču nomenklatūras veidne vai precei specifiski preču numuri. |
 | Ārējs krājuma apraksts debitoriem | Debitora krājuma numurs, debitora krājuma nosaukums, debitora apraksts, debitora konts | Debitora krājuma numurs, debitora krājuma nosaukums, debitora apraksts, debitora konts | Izmantojot elementu **Ārējā krājumu apraksta debitoru grupas**, debitoru grupu (piemēram, pircēju apvienību) var apvienot vienā grupā. |
 | Ārējs krājuma apraksts kreditoriem | Kreditora krājuma numurs, kreditora krājuma nosaukums, kreditora apraksts, kreditora konts | Kreditora krājuma numurs, kreditora krājuma nosaukums, kreditora apraksts, kreditora konts | Izmantojot elementu **Ārējā krājumu apraksta kreditoru grupas**, kreditoru grupu (piemēram, pārdevēju apvienību vai nozares organizāciju) var apvienot vienā grupā. |
@@ -144,7 +147,7 @@ Varat definēt divas dažādas numuru secības:
 > [!NOTE]
 > Izmantojiet krājuma numuru kā atsevišķu identifikatoru tikai tad, ja migrējat dažādas juridiskās personas no dažādiem avotiem ar dažādām numurēšanas sistēmām. Vienmēr centieties izmantot preces identifikatoru, kas ir unikāls visām juridiskajām personām. Tāpēc iestatiet opcijas **Manuāli** vērtība **Jā** numuru sērijai **Krājuma numurs**. Tādējādi izveides laikā krājuma numurs seko preces numuram. Ja Supply Chain Management nav galvenā jaunā preču numuru sistēma, iestatiet opcijas **Manuāli** vērtību **Jā** gan numuru sērijai **Krājuma numurs**, gan numuru sērijai **Preces numurs**.
 
-Ja preču izveidei izmantojat elementu **Izlaistā prece V2**, to, kā numuru sērijas tiek izmantotas preces numura un krājuma numura izveidei, var ietekmēt vairāki tālāk norādītie iestatījumi.
+Ja preču izveidei izmantojat elementu **Izlaistās preces izveide V2**, to, kā numuru sērijas tiek izmantotas preces numura un krājuma numura izveidei, var ietekmēt vairāki tālāk norādītie iestatījumi.
 
 - Numuru sērijas **Preces numurs** iestatījumi
 - Numuru sērijas **Krājuma numurs** iestatījumi
@@ -155,9 +158,9 @@ Tālāk esošajā tabulā ir sniegts pārskats par importēšanas un manuālas i
 
 | Numuru sērija Preces numurs | Numuru sērija Krājuma numurs | Krājuma numura kartēšana | Preces numura kartēšana | Elementa importēšanas rezultāts | Manuālas izveides rezultāts | Nobeigums |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Manuāli = Nē | Manuāli = Nē | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Preču numuriem tiek izmantota numuru sērija **Preces numurs**. Krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Preču numuriem tiek izmantota numuru sērija **Preces numurs**. Krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Šos iestatījumus var izmantot, ja ir nepieciešami atšķirīgi preču un krājumu numuri. Taču nav ieteicams izmantot atšķirīgus preču un krājumu numurus. |
-| Manuāli = Nē | Manuāli = Jā | Automātiski ģenerēt | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Šos iestatījumus nav ieteicams izmantot. Importēšanas un manuālās izveides procesi atšķiras. |
-| Manuāli = Nē | Manuāli = Jā | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Šos iestatījumus ir ieteicams izmantot, ja precēm ir jāizmanto saskaņota automātiska numerācija neatkarīgi no tā, vai tiek izmantota importēšana vai manuālā izveide. |
+| Manuāli = Nē | Manuāli = Nē | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Preču numuriem tiek izmantota numuru sērija **Preces numurs**. Krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Preču numuriem tiek izmantota numuru sērija **Preces numurs**. Krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Izmantojot šo konfigurāciju, preču numuri sekos preces numuru sērijai un krājumu numuri sekos krājuma numuru sērijai. Tomēr šī konfigurācija nedarbojas, ja ir vairāk nekā viens importējams krājums (rinda). |
+| Manuāli = Nē | Manuāli = Jā | Automātiski ģenerēt | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuri, gan krājumu numuri sekos preču numuru sērijai. Šī ir ieteicamā metode, kā importēt lielapjoma preces ar izlaisto preču izveides v2 datu elementu. |
+| Manuāli = Nē | Manuāli = Jā | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuri, gan krājumu numuri izmantos preču numuru sēriju. Tomēr šī konfigurācija nedarbojas, ja ir vairāk nekā viens importējams krājums (rinda). |
 | Manuāli = Jā | Nav attiecināms | Nav attiecināms | Automātiski ģenerēt | Tiek parādīts šāds kļūdas ziņojums: “Nevar noteikt numuru sēriju”. | Atbilstoši numuru sērijai **Krājuma numurs** | Importēšanai netiek atbalstīts šis iestatījums. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Preces elementa identifikators (visu preces identifikatoru eksportēšana)

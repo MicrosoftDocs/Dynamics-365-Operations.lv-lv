@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35c85e6e3bbdc913e9cd7aefdf6b143f3f03496f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023295"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141087"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā procedūra ir aprakstīts, kā izveidot pārdošanas cenas tirdzniecības līgumus, izmantojot kategorijas cenu noteikšanas kārtulu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts lomai Commerce preču pārvaldnieks.
 

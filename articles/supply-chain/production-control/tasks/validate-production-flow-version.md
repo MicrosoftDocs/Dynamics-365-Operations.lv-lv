@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836158"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146511"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Ražošanas plūsmas un versijas pārbaude
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā tiek parādīts, kā izveidot lean manufacturing jaunu ražošanas plūsmu un pirmo versiju. Priekšnosacījumi: ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt Vērtību plūsmu un Ražošanas uzdevumu grupu. Skatiet tehniskos dokumentus par Lean manufacturing, lai iepazītos ar ražošanas plūsmu un aktivitāšu koncepciju. Šī procedūra attiecas uz juridisko personu USMF demonstrācijas datos. Tomēr, pieņemot, ka juridiskā persona ir konfigurēta lean manufacturing, var izmantot citas juridiskas personas.
 

@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550536"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142367"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER horizontāli paplašināmi diapazoni, ko izmanto dinamiskai kolonnu pievienošanai programmas Excel pārskatos (1. daļa. Formāta noformēšana)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk norādītās darbības izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izveidotu pārskatus kā OPENXML darblapas (Excel) failus, kuros var dinamiski izveidot nepieciešamās kolonnas kā horizontāli izvēršamas virknes. Šīs darbības var veikt jebkurā uzņēmumā.
 
 Lai veiktu šīs darbības, vispirms veiciet tālāk aprakstītās trīs norādes par uzdevumu: 
 
-"ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu"
+"ER: Konfigurācijas nodrošinātāja izveide un atzīmēšana kā aktīvu"
 
-"ER Lietot finanšu dimensijas kā datu avotu (1. daļa. Noformēt datu modeli)"
+"ER finanšu dimensijas, kuras izmanto kā datu avotu (1. daļa: Datu modeļa noformēšana)"
 
-"ER Lietot finanšu dimensijas kā datu avotu (2. daļa. Modeļa kartēšana)"
+"ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa: Modeļa kartēšana)"
 
 Ir nepieciešams arī lejupielādēt un saglabāt veidnes ar pārskata paraugu lokālu kopiju, kas pieejama šeit: [Finanšu dimensijas parauga tīmekļa pakalpojuma pārskats](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,12 +57,12 @@ Ir nepieciešams arī lejupielādēt un saglabāt veidnes ar pārskata paraugu l
 
 ## <a name="design-the-report-format"></a>Izstrādāt pārskata formātu
 1. Noklikšķiniet uz Veidotājs.
-2. Ieslēdziet pārslēgšanas pogu ‘Show details’.
+2. Ieslēdziet pārslēgšanas pogu ‘Rādīt detalizēti'.
 3. Darbību rūtī noklikšķiniet uz Importēt.
 4. Noklikšķiniet uz Importēt no Excel.
 5. Noklikšķiniet uz Pielikumi.
     * Importējiet pārskata veidni. Šajā nolūka izmantojiet lejupielādēto Excel failu.  
-6. Noklikšķiniet uz Jauns.
+6. Klikšķiniet Jauns.
 7. Noklikšķiniet uz Fails.
 8. Aizvērt lapu.
 9. Ievadiet vai atlasiet kādu vērtību laukā Veidne.

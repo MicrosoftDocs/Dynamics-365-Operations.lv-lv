@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995217"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146426"
 ---
 # <a name="set-up-sales-commission-rules"></a>Pārdošanas komisijas kārtulu iestatīšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu. Procedūrā parādīts, kā izveidot debitora un krājuma komisijas grupas un pēc tam, kā atlasīto debitoru un preci saistīt ar attiecīgo grupu. Pēc tam šīs grupas tiek lietotas komisijas aprēķina iestatīšanā, lai izveidotu debitora, krājuma un pārdošanas pārstāvja kombināciju, kam jāatbilst pārdošanas pasūtījumam, lai piešķirtu pārdevējiem tiesības uz komisiju. Izveidot debitora un krājuma komisijas grupas nav obligāti, jo komisijas naudas aprēķinu var veikt arī atsevišķam debitoram un/vai krājumam. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

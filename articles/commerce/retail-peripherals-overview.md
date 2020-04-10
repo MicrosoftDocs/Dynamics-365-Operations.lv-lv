@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124409"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154184"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -158,7 +158,7 @@ Tīklā tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras stac
 
 ### <a name="dedicated"></a>Atvēlēts
 
-Mūsdienīgie POS klienti operētājsistēmai Windows un Android ietver **Speciālās** vai iebūvētās aparatūras stacijas. Šie klienti var tieši komunicēt ar perifērijas ierīcēm, izmantojot biznesa loģiku, kas ir iebūvēta lietojumprogrammās. Android programma atbalsta tikai tīkla ierīces. Lai iegūtu vairāk informācijas par perifēro atbalstu Android, apmeklējiet rakstu [Iestatīt POS hibrīda programmu Android un iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Mūsdienīgie POS klienti operētājsistēmai Windows un Android ietver **Speciālās** vai iebūvētās aparatūras stacijas. Šie klienti var tieši komunicēt ar perifērijas ierīcēm, izmantojot biznesa loģiku, kas ir iebūvēta lietojumprogrammās. Android programma atbalsta tikai tīkla ierīces. Lai iegūtu vairāk informācijas par perifēro atbalstu Android, apmeklējiet rakstu [Iestatīt POS hibrīda programmu Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Lai lietotu speciālo aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows vai Android programmām. Pēc tam izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma. Startējiet modernās POS neizmantošanas režīmā un izmantojiet opciju **pārvaldīt aparatūras stacijas**, lai ieslēgtu aparatūras stacijas iespējas, atvēlētā aparatūras stacija būs aktīva pēc noklusējuma. Pēc tam izrakstieties no Modern POS, tad atkal piesakieties un atveriet maiņu un aparatūras profilā konfigurētās perifērās ierīces būs lietojamas. 
 
@@ -199,7 +199,7 @@ Informāciju skatiet [Modern POS (MPOS) konfigurēšana, instalēšana un aktivi
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS operētājsistēmai Android un iOS iestatīšana un konfigurēšana
 
-Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā Android un iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS ierīces iestatīšana un konfigurēšana
 
@@ -494,7 +494,7 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS operētājsistēmai Android ar IPC (iebūvētu) aparatūras staciju
 
-**Jauni 10.0.8** - Epson tīkla printeri un naudas kastes, kas savienotas ar šiem printeriem, izmantojot DK, tagad ir atbalstīti Modern POS operētājsistēmai Android programmai. Papildu informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmās Android un iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**Jauni 10.0.8** - Epson tīkla printeri un naudas kastes, kas savienotas ar šiem printeriem, izmantojot DK, tagad ir atbalstīti Modern POS operētājsistēmai Android programmai. Papildu informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmās Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi Modern POS klienti, kam ir saistīta koplietotā IIS aparatūras stacija
 

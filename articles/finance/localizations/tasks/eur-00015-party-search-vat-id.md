@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0427b6e961173543f860ef6e098fc6248afd3aa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 401971b6f146f1df028291ba0f691ccac5f1966d
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183783"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139001"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Pušu meklēšana pēc PVN ID
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā ir parādīts, kā pabeigt puses meklēšanu, izmantojot reģistrācijas ID. Lai varētu veikt šo procedūru, jums ir jāiestata PVN ID un jāievada PVN ID kreditoriem, debitoriem vai juridiskajām personām.
 
