@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182236"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142998"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER datu modeļa kartēšana ar izvēlētajiem datu avotiem
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko pārskatu izstrādātājs datu modeli Elektronisko pārskatu veidošana (Electronic reporting — ER) var kartēt uz izvēlētajiem datu avotiem. Šis modeļa kartējums vēlāk tiks izmantots kā datu avots formāta konfigurācijā, kas tiks izmantota, lai pārvaldītu elektroniskos maksājuma dokumentus. Šajā piemērā parauga uzņēmuma Litware, Inc. datu modelis tiek kartēts par datu avotiem. Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras "Datu avotu atlasīšana modeļa kartēšanai" darbības.
 
@@ -36,7 +36,7 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu Sistēmas administ
 
 ## <a name="select-created-model-mapping"></a>Izveidotās modeļa kartēšanas atlasīšana
 1. Kokā atlasiet “Maksājumi (vienkāršotais modelis)”.
-    * Pārliecinieties, ka modeļa konfigurācija "Maksājumi (vienkāršotas modelis)" tika izveidota iepriekš. Pretējā gadījumā beidziet šeit sniegto norādījumu izpildi un atgriezties pēc tam, kad ir izpildīts uzdevuma ceļvedis “Izveidot jaunu konfigurāciju ar izvēlēta domēna datu modeli”.  
+    * Pārliecinieties, ka modeļa konfigurācija "Maksājumi (vienkāršotas modelis)" tika izveidota iepriekš. Pretējā gadījumā beidziet šeit sniegto norādījumu izpildi un atgriezties pēc tam, kad ir izpildīts uzdevuma ceļvedis 'Izveidot jaunu konfigurāciju ar izvēlēta domēna datu modeli'.  
 2. Noklikšķiniet uz Modeļa veidotājs.
 3. Noklikšķiniet uz Kartēšanas modelis datu avotam.
 4. Atlasiet ierakstu "CT kartēšana".

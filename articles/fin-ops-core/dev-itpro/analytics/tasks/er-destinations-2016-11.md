@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbef5410d0e6f15fbb5025f3831486d55cd06216
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185064"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142643"
 ---
 # <a name="er-configure-destinations"></a>ER Konfigurēt adresātus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DEMF. Juridiskas personas primārās adreses valsts/reģions ir Vācija, tomēr šai procedūrai var izmantot jebkuru juridisko personu. 
 

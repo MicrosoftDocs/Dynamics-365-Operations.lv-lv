@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184926"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142459"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formātu modificēšana, lai ģenerētu dokumentus ar programmas datiem
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (3. daļa — modeļa un kartējuma modificēšana)".
 
@@ -96,13 +96,13 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificējiet formātu, lai saglabātu atmiņā detalizētu informāciju par pārskatu veidošanu
 1. Noklikšķiniet uz Kartēt formātu uz modeli.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Definīcija ievadiet vai atlasiet saknes vienumu "For application data update".
+2. Klikšķiniet Jauns.
+3. Laukā Definīcija ievadiet vai atlasiet saknes vienumu 'Programmas datu atjauninājumam'.
     * Pieteikumu datu atjaunināšanai  
 4. Laukā Nosaukums ierakstiet "Mapping to update data".
     * Kartēšana datu atjaunināšanai  
 5. Noklikšķiniet uz Saglabāt.
-    * Šis kartējums definē to, kā detalizēta informācija par Intrastat pārskatu tiek apkopota datu modelī, kura struktūru nosaka atlasītais saknes vienums "For application data update". Šī detalizētā informācija, modeļa kartējums ar to pašu saknes vienumu "For application data update" un virziens "To destination" tiks izmantots pieteikumu datu atjaunināšanai. Pieteikumu datu atjaunināšana sākas tūlīt pēc tam, kad tiek ģenerēts izejošais Intrastat pārskats. Ņemiet vērā, ka izpildes laikā pieteikumu datu atjaunināšanu var izlaist, bet datu modelim ir jābūt tukšam (ar tukšu ierakstu sarakstu).   
+    * Šis kartējums definē to, kā detalizēta informācija par Intrastat pārskatu tiek apkopota datu modelī, kura struktūru nosaka atlasītais saknes vienums 'Programmas datu atjauninājumam'. Šī detalizētā informācija, modeļa kartējums ar to pašu saknes vienumu 'Programmas datu atjauninājumam' un virziens 'Uz galamērķi' tiks izmantots pieteikumu datu atjaunināšanai. Pieteikumu datu atjaunināšana sākas tūlīt pēc tam, kad tiek ģenerēts izejošais Intrastat pārskats. Ņemiet vērā, ka izpildes laikā pieteikumu datu atjaunināšanu var izlaist, bet datu modelim ir jābūt tukšam (ar tukšu ierakstu sarakstu).   
 6. Noklikšķiniet uz Veidotājs.
     * Ņemiet vērā, ka pēc noklusējuma izejošais Intrastat pārskata formāts tiek pievienots kā datu avots šī modeļa kartēšanai.  
     * Saistiet noformētā pārskata elementus (izmantoti kā datu avots) ar datu modeļa elementiem, kas ir filtrēts, pamatojoties uz atlasīto modeļa saknes vienumu.  

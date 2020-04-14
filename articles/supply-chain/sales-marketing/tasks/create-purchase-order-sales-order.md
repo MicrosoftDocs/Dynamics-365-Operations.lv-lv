@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b346731ec80d08afabe648e1b47b30b53b29e744
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 30ffb34e2aee984d29bedb47d6bfc9cb6173470a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924409"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148680"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot pirkšanas pasūtījumu, pamatojoties uz pārdošanas pasūtījumu. Pēc tam preces daudzums pirkšanas pasūtījumā tiek noteikts, lai nodrošinātu sākotnējā pārdošanas pasūtījuma pieprasījumu. Pārdošanas pieprasījuma nodrošināšana šādā veidā ir alternatīvs risinājums aptverošākai un optimizētākai izplatīšanas prasību plānošanas metodei. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 

@@ -3,7 +3,7 @@ title: Uz AI-ML balstītu preču ieteikumu rezultātu pielāgošana
 description: Šajā tēmā izskaidrots, kā jūsu biznesam pielāgot preces ieteikumu rezultātus, kas balstīti uz mākslīgo intelektu – mašīnmācību (AI-ML).
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127932"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154345"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Uz AI-ML balstītu preču ieteikumu rezultātu pielāgošana
 
@@ -110,9 +110,7 @@ Veiciet tālāk minētās darbības, lai manuāli pievienotu vai noņemtu rezult
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
 
-[Preču ieteikumu sarakstu pievienošana e-komercijas vietnei](add-reco-list-to-page.md)
-
-[Pievienot preču ieteikumus punktā POS](product.md)
+[Preču ieteikumu pievienošana punktā POS](product.md)
 
 [Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
 

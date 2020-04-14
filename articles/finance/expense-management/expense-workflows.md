@@ -1,5 +1,5 @@
 ---
-title: Darbplūsmu iestatīšana izdevumiem
+title: Darbplūsmu iestatīšana izdevumu pārvaldībai
 description: Varat iestatīt darbplūsmas procesu, kas tiek izmantots komandējumu un izdevumu dokumentu pārskatīšanai un apstiprināšanai.
 author: ShylaThompson
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178840"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153998"
 ---
-# <a name="set-up-workflows-for-expense"></a>Darbplūsmu iestatīšana izdevumiem
+# <a name="set-up-workflows-for-expense-management"></a>Darbplūsmu iestatīšana izdevumu pārvaldībai
 
 [!include [banner](../includes/banner.md)]
 
- Varat iestatīt darbplūsmas procesu, kas tiek izmantots komandējumu un izdevumu dokumentu pārskatīšanai un apstiprināšanai. Dokumenti, kuriem var definēt darbplūsmas, ietver izdevumu pārskatus, komandējumu pieprasījumus un skaidras naudas avansa pieprasījumus.
+Varat iestatīt darbplūsmas procesu, kas tiek izmantots komandējumu un izdevumu dokumentu pārskatīšanai un apstiprināšanai. Dokumenti, kuriem var definēt darbplūsmas, ietver izdevumu pārskatus, komandējumu pieprasījumus un skaidras naudas avansa pieprasījumus.
 
 Darbplūsma attēlo biznesa procesu. Izmantojot darbplūsmu, tiek noteikta dokumenta plūsma caur sistēmu un norādīts, kuram ir jāpabeidz uzdevums vai jāapstiprina dokuments. Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 51b6f3737627fe27b15e7fa231397bfdecbdab2f
-ms.sourcegitcommit: 74d05a3a3de2e421eeab7117f2fd1fdaeb23f083
+ms.openlocfilehash: ccfc0ea30360676d840f113615e9f5066fb088e4
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117146"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164749"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 
 
@@ -34,17 +34,19 @@ Lai redzētu, kas jauns vai mainīts katrā Dynamics 365 Supply Chain Management
 
 | Versija | Procesa numurs | Automātiskā atjauninājuma pieejamība | Papildinformācija |
 |---|---|---|---|
+| 10.0.10 | 10.0.420 | 2020. maijs | [Jaunumi un izmaiņas risinājuma Dynamics 365 Supply Chain Management versijā 10.0.10](whats-new-scm-10-0-10.md) |
 | 10.0.9 | 10.0.383 | 2020. aprīlis | [Jaunumi un izmaiņas risinājuma Dynamics 365 Supply Chain Management versijā 10.0.9](whats-new-scm-10-0-9.md) |
 | 10.0.8 | 10.0.319 | 2020. februāris | [Jaunumi un izmaiņas risinājuma Dynamics 365 Supply Chain Management versijā 10.0.8](whats-new-scm-10-0-8.md) |
-| 10.0.7  | 10.0.283   | 2020. janvāris | [Jaunumi un izmaiņas risinājuma Dynamics 365 Supply Chain Management versijā 10.0.7](whats-new-scm-10-0-7.md) |
-| 10.0.6 |   10.0.234   | 2019. gada novembris  | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 
-## <a name="releases-before-november-2019"></a>Izlaidumi līdz 2019. gada novembrim
+
+## <a name="releases-before-february-2020"></a>Laidieni pirms 2020. gada februāra
 
 Lai redzētu, kas jauns vai mainīts katrā programmas laidienā līdz 2019. gada novembrim, skatiet šādas tēmas.
 
 | Nodot izpildei | Versija | Procesa numurs | Pieejamība | Papildinformācija |
 |---|---|---|---|---|
+| Dynamics 365 Supply Chain Management | 10.0.7  | 10.0.283   | 2020. janvāris | [Jaunumi un izmaiņas risinājuma Dynamics 365 Supply Chain Management versijā 10.0.7](whats-new-scm-10-0-7.md) |
+| Dynamics 365 Supply Chain Management | 10.0.6 |   10.0.234   | 2019. gada novembris  | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019. oktobris     | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 10.0.5 (2019. gada oktobris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | 2019. gada jūlijs        | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 10.0.4 (2019. gada jūlijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019. jūnijs        | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |

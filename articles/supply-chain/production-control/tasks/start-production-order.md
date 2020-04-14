@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83091a9f3e96a9176860bd16fa5969507488a25
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5e770c905079461c1f4f0117f61f6c10b86ddaf6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547472"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146610"
 ---
 # <a name="start-a-production-order"></a>Ražošanas pasūtījuma sākšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, ka sākt ražošanas pasūtījumu ražotnē. Šajā procesā tiek ziņots par laika un materiālu patēriņu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī ir piektā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.
 

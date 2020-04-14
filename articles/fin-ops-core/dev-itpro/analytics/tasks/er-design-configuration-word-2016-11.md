@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182604"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142090"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigurāciju noformēšana pārskatu ģenerēšanai Word formātā
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs, kam piešķirta loma Sistēmas administrators vai Elektronisko pārskatu izstrādātājs, var konfigurēt elektronisko pārskatu izveides (Electronic reporting — ER) formātus, lai ģenerētu pārskatus Microsoft Word failu formātā. Šīs darbības var veikt uzņēmumā GBSI.
 
-Lai veiktu šīs darbības, jums vispirms ir jāizpilda uzdevuma ceļvedī “Izveidot ER konfigurāciju pārskatu ģenerēšanai formātā OPENXML” norādītās darbības. Turklāt jums ir nepieciešams šim pašam pārskatam jau iepriekš lejupielādēt un lokāli saglabāt šādas veidnes:
+Lai veiktu šīs darbības, jums vispirms ir jāizpilda uzdevuma ceļvedī "Izveidot ER konfigurāciju pārskatu ģenerēšanai formātā OPENXML" norādītās darbības. Turklāt jums ir nepieciešams šim pašam pārskatam jau iepriekš lejupielādēt un lokāli saglabāt šādas veidnes:
 
 - [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266)
 - [Maksājumu pārskata saistītā veidne](https://go.microsoft.com/fwlink/?linkid=862266)
@@ -39,7 +39,7 @@ Lai veiktu šīs darbības, jums vispirms ir jāizpilda uzdevuma ceļvedī “Iz
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Atlasiet esošo ER pārskatu konfigurāciju
-1. **Navigācijas rūtī pārejiet uz sadaļu Moduļi > Organizācijas administrēšana > Darbvietas > Elektroniskie pārskati**. Pārliecinieties, vai konfigurācijas nodrošinātājs “Litware, Inc.“ ir atlasīts kā aktīvs.  
+1. **Navigācijas rūtī pārejiet uz sadaļu Moduļi > Organizācijas administrēšana > Darbvietas > Elektroniskie pārskati**. Pārliecinieties, vai konfigurācijas nodrošinātājs 'Litware, Inc.' ir atlasīts kā aktīvs.  
 2. Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**. Mēs atkārtoti izmantosim esošo ER konfigurācija, kas sākotnēji tika veidota tā, lai pārskata izvadi ģenerētu formātā OPENXML.  
 3. Koka struktūrā izvērsiet sadaļu “Maksājuma modelis”.
 4. Koka struktūrā atlasiet “Maksājuma modelis\Parauga darblapas atskaite”.
@@ -58,9 +58,9 @@ Pašlaik Excel dokuments tiek izmantots kā veidne, lai ģenerētu izvadi formā
 7. Laukā **Veidne** ievadiet vai atlasiet vērtību.
 
 ## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a>Paplašināt Word veidni, pievienojot pielāgotu XML daļu
-1. Noklikšķiniet uz **Saglabāt**. Papildus konfigurācijas izmaiņu uzglabāšanai darbība Saglabāt arī atjaunina pievienoto Word veidni. Izstrādātā formāta struktūra tiek pārnesta uz pievienoto Word dokumentu kā jauna pielāgota XML daļa ar nosaukumu “Pārskats”. Ņemiet vērā, ka pievienotajā Word veidnē ir ne tikai dokumenta izkārtojums, kādā vēlamies ģenerēt ER izvadi, bet tajā ir arī datu struktūra, ar ko ER izpildlaikā aizpildīs šo veidni.  
+1. Noklikšķiniet uz **Saglabāt**. Papildus konfigurācijas izmaiņu uzglabāšanai darbība Saglabāt arī atjaunina pievienoto Word veidni. Izstrādātā formāta struktūra tiek pārnesta uz pievienoto Word dokumentu kā jauna pielāgota XML daļa ar nosaukumu 'Pārskats'. Ņemiet vērā, ka pievienotajā Word veidnē ir ne tikai dokumenta izkārtojums, kādā vēlamies ģenerēt ER izvadi, bet tajā ir arī datu struktūra, ar ko ER izpildlaikā aizpildīs šo veidni.  
 2. Noklikšķiniet uz **Pielikumi**.
-    + Tagad pielāgotās XML daļas “Pārskats” elementi ir jāsaista ar Word dokumenta daļām.  
+    + Tagad pielāgotās XML daļas 'Pārskats' elementi ir jāsaista ar Word dokumenta daļām.  
     + Ja pārzināt Word dokumentus, ko var noformēt kā veidlapas, kurās atrodas ar pielāgotām XML daļām saistītas satura vadīklas — atskaņojiet visas nākamā apakšuzdevuma darbības, lai izveidotu šādu dokumentu. Papildinformāciju skatiet rakstā [Veidlapu izveide, kuras lietotāji var aizpildīt un izdrukāt Word formātā](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US). Pretējā gadījumā izlaidiet visas nākamā apakšuzdevuma darbības.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Panākt, ka Word un pielāgotai XML daļai tiek veikti datu saistījumi
@@ -68,7 +68,7 @@ Pašlaik Excel dokuments tiek izmantots kā veidne, lai ģenerētu izvadi formā
 Atveriet šo dokumentu programmā Word un veiciet tālāk norādītās darbības:  
 1. Atveriet Word cilni Izstrādātājs (pielāgojiet lenti, ja tā vēl nav iespējota).
 2. Atlasiet XML kartēšanas rūti.
-3. Uzmeklēšanā atlasiet pielāgotu XML daļu “Pārskats”.
+3. Uzmeklēšanā atlasiet pielāgotu XML daļu 'Pārskats'.
 4. Veiciet kartēšanu elementiem no atlasītās pielāgotās XML daļas un Word dokumenta satura vadīklām.  5. Saglabājiet atjaunināto Word dokumentu lokālajā diskā.  
 
 ## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>Augšupielādēt Word veidni, kur ar satura vadīklām ir saistīta pielāgota XML daļa

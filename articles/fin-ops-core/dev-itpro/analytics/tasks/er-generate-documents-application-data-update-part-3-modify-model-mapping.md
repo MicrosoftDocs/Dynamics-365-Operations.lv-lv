@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182305"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141883"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modeļu un kartējumu modificēšana, lai ģenerētu dokumentus ar programmas datiem
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (2. daļa — ģenerēt dokumentus)". 
+Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (2. daļa: Ģenerēt dokumentus)". 
 
 Šajā procedūrā skaidrots, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu un atjauninātu pieteikuma datus. Šajā procedūrā jūs modificēsit ER konfigurācijas, lai sāktu tās lietot elektronisku dokumentu ģenerēšanai un pieteikumu datu atjaunināšanai. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot DEMF datu kopu.
 
@@ -101,9 +101,9 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 10. Noklikšķiniet uz Pievienot sakni.
 11. Laukā Nosaukums ierakstiet "model".
     * modelis  
-12. Laukā Definīcija ievadiet vai atlasiet vērtību "For application data update".
+12. Laukā Definīcija ievadiet vai atlasiet vērtību 'Programmas datu atjauninājumam'.
     * Pieteikumu datu atjaunināšanai  
-13. Noklikšķiniet uz OK.
+13. Noklikšķiniet uz Labi.
 14. Koka struktūrā izvērsiet elementu “modelis”.
 15. Kokā atlasiet Funkcijas\Aprēķinātais lauks.
 16. Kokā atlasiet "model\Archive header".
@@ -129,11 +129,11 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
     * Arhivēt  
 32. Laukā Tabulas nosaukums ierakstiet "IntrastatArchiveGeneral".
     * IntrastatArchiveGeneral  
-    * Saglabājiet ieraksta darbību 'Insert', lai varētu pievienot ierakstus katra Intrastat pārskatu veidošanas procesa detalizētas informācijas arhivēšanas laikā.  
+    * Saglabājiet ieraksta darbību 'Ievietot', lai varētu pievienot ierakstus katra Intrastat pārskatu veidošanas procesa detalizētas informācijas arhivēšanas laikā.  
 33. Laukā Reģistrēt informācijas žurnālu atlasiet Jā.
     * Atlasiet Jā, lai iegūtu informāciju par problēmām, kas saistītas ar pieteikumu datu atjaunināšanu.  
 34. Laukā Izlaist ieraksta darbības validēšanu atlasiet Jā.
-    * Atlasiet Jā, lai likvidētu pārbaudes kļūdas par tukšu lauku "Intrastat archive ID". Tas tiks veikts pēc ierakstu pievienošanas, pamatojoties uz sērijas numuru iestatījumiem, kas konfigurēti šai tabulai formā Ārējās tirdzniecības parametri.  
+    * Atlasiet Jā, lai likvidētu pārbaudes kļūdas par tukšu lauku 'Intrastat arhīva ID'. Tas tiks veikts pēc ierakstu pievienošanas, pamatojoties uz sērijas numuru iestatījumiem, kas konfigurēti šai tabulai formā Ārējās tirdzniecības parametri.  
 35. Noklikšķiniet uz OK.
     * Saistiet pievienoto datu avotu (filtrētais modelis, pamatojoties uz atlasīto saknes vienumu) elementus ar elementiem no pievienotā galamērķa.  
 36. Kokā izvērsiet "Archive".

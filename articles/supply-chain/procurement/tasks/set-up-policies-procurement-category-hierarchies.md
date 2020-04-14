@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8d8c259ad081d02395c6ae3c3b7cf66b89933fdf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844181"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149508"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Ierobežojumu iestatīšana sagādes kategoriju hierarhijai
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Izmantojiet šo procedūru, lai iestatītu nosacījumus preču pasūtīšanai kategorijā. Kārtulas ir definētas noteiktai pirkšanas politikai. Kategorijas piekļuves kārtulas kontrolē to, kurām sagādes kategorijām darbinieki var piekļūt, kad viņi veido pieprasījumu. Kad tiek veidots pieprasījums, piemērojamo pirkšanas politiku un kategoriju piekļuves kārtulu nosaka juridiskā persona un darbības struktūrvienība, kurai šis darbinieks pieder. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Šo uzdevumu parasti veic pirkšanas vadītājs.
 
@@ -50,5 +50,5 @@ Izmantojiet šo procedūru, lai iestatītu nosacījumus preču pasūtīšanai ka
 4. Noklikšķiniet uz **Pievienot**.
 5. Laukā **Kategorija** atlasiet to pašu kategoriju, ko lietojāt iestatījumam **Kategorijas piekļuves kārtula**.
 6. Laukā **Kreditora atlase** atlasiet kādu opciju. Atlasiet kārtulu, lai kontrolētu, kāda veida kreditorus var atlasīt kategorijai, kad tiek veidoti pieprasījumi.  
-7. Noklikšķiniet uz **Aizvērt**. Jūsu definētās politikas kārtulas bija paredzētas pieprasījumiem ar tipu Patēriņš. Ja vēlaties definēt politikas pieprasījumiem ar tipu Papildināšana, jums būtu jāizveido kārtula politikas kārtulas tipam ar nosaukumu “Papildināšanas kategorijas piekļuves politikas kārtula”.  
+7. Noklikšķiniet uz **Aizvērt**. Jūsu definētās politikas kārtulas bija paredzētas pieprasījumiem ar tipu Patēriņš. Ja vēlaties definēt politikas pieprasījumiem ar tipu Papildināšana, jums būtu jāizveido kārtula politikas kārtulas tipam ar nosaukumu "Papildināšanas kategorijas piekļuves politikas kārtula".  
 

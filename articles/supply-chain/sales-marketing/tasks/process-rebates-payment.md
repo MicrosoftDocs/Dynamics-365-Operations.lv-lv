@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a05565d220c53d0f860a2c0569622b55c4021d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 412e7df299a419642018a62e6e8febd5d59c65e1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833883"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148461"
 ---
 # <a name="process-rebates-for-payment"></a>Maksājuma atlaižu apstrāde
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā pārvērst apstiprinātas un apstrādātas debitora atlaides par kredīta notām. Šo ceļvedi var lietot ar demonstrācijas uzņēmumu USMF. Šajā ceļvedī priekšnoteikums ir viena vai vairākas atlaides prasības ar statusu Atzīmēt. Ja jūs izmantojat USMF, pirms šī ceļveža izpildes ieteicams palaist ceļvedi "Debitora atlaižu ģenerēšana un apstrāde".
+Šajā procedūrā parādīts, kā pārvērst apstiprinātas un apstrādātas debitora atlaides par kredīta notām. Šo ceļvedi var lietot ar demonstrācijas uzņēmumu USMF. Šajā ceļvedī priekšnoteikums ir viena vai vairākas atlaides prasības ar statusu Atzīmēt. Ja izmantojat USMF, pirms šī ceļveža izpildes ieteicams palaist ceļvedi "Debitora atlaižu ģenerēšana un apstrāde".
 
 
 ## <a name="convert-rebate-claims-to-credit-note"></a>Atlaides prasības pārveidošana kredīta notā
@@ -42,7 +42,7 @@ ms.locfileid: "1833883"
     * Iestatiet atzīmes laukā Atzīmēt prasībām, ko vēlaties iekļaut kredīta notā.   
 9. Noklikšķiniet uz Funkcijas.
 10. Noklikšķiniet uz Izveidot kredīta notu.
-    * Tiek parādīts ziņojums, lai paziņotu, ka žurnāls ir iegrāmatots (tas ir Debitoru parādu patēriņa žurnāls, kā norādīts lapā Debitoru moduļa parametri. Šī iemesla dēļ reāla pasīvu (kredīta) summa tiek pārvietota uz debitora bilanci. Tas nozīmē, ka debitora konts tika debetēts un Atlaižu uzkrājumu konts tiek kreditēts.  
+    * Tiek parādīts ziņojums, lai paziņotu, ka žurnāls ir iegrāmatots (tas ir Debitoru parādu patēriņa žurnāls, kā norādīts lapā Debitoru moduļa parametri. Šī iemesla dēļ reāla pasīvu (kredīta) summa tiek pārvietota uz debitora bilanci. Tas nozīmē, ka klients konts tika debetēts un Atlaižu uzkrājumu konts tiek kreditēts.  
 11. Aizvērt lapu.
 12. Noklikšķiniet uz Atcelt.
     * Tas atsvaidzina lapu, lai varētu redzēt atjauninājumus.  

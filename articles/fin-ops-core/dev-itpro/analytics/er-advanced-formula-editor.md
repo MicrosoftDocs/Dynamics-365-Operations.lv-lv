@@ -3,7 +3,7 @@ title: Elektronisko pārskatu uzlabotās formulas redaktors
 description: Šajā tēmā aprakstīts, kā uzlabotās formulas redaktoru var izmantot, lai konfigurētu elektronisko pārskatu (ER) modeļu kartēšanas izteiksmes un formāta komponentus.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/22/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d183f77da1dda0c4f04e4e48ab3db0133f494a55
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015303"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138902"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronisko pārskatu uzlabotās formulas redaktors
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Papildus [Elektronisko pārskatu](general-electronic-reporting.md) [formulas redaktoram](general-electronic-reporting-formula-designer.md) varat izmantot uzlaboto elektronisko pārskatu formulas redaktoru, lai uzlabotu elektronisko pārskatu (ER) izteiksmju konfigurēšanas pieredzi. Uzlabotais redaktors ir pieejams pārlūkprogrammā, un to nodrošina [Monako redaktors](https://microsoft.github.io/monaco-editor). Tālāk apskatītajā tēmā ir aprakstītas visbiežāk izmantotās uzlabota redaktora funkcijas.
 
@@ -42,7 +40,7 @@ Papildus [Elektronisko pārskatu](general-electronic-reporting.md) [formulas red
 - [Datu ielīmēšana](#DataPasting)
 - [Sintakses iekrāsošana](#SyntaxColorization)
 
-## <a name="ActivateAdvEditor">Uzlabotās formulas redaktora aktivizēšana</a>
+## <a name=""></a><a name="ActivateAdvEditor">Uzlabotās formulas redaktora aktivizēšana</a>
 
 Veiciet tālāk norādītās darbības, lai sāktu izmantot uzlabotās formulas redaktoru savā Microsoft Dynamics 365 Finance instancē.
 
@@ -55,7 +53,7 @@ Veiciet tālāk norādītās darbības, lai sāktu izmantot uzlabotās formulas 
 > [!NOTE]
 > Ņemiet vērā, ka šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
 
-## <a name="Autoformatting">Kodu autoformatējums</a>
+## <a name=""></a><a name="Autoformatting">Kodu autoformatējums</a>
 
 Kad rakstāt kompleksu izteiksmi, kas sastāv no vairākām koda rindām, jaunas ievadītas rindas atkāpe būs atbilstoša iepriekšējās rindas atkāpei. Varat atlasīt rindas un mainīt to atkāpes, ierakstot **Cilne** vai **Shift+Tab**.
 
@@ -63,13 +61,13 @@ Kad rakstāt kompleksu izteiksmi, kas sastāv no vairākām koda rindām, jaunas
 
 Izmantojot autoformatēšanu, varat saglabāt visu izteiksmi labi formatētu, kas atvieglos turpmāku uzturēšanu un vienkāršos konfigurētās loģikas izpratni.
 
-## <a name="IntelliSense">IntelliSense</a>
+## <a name=""></a><a name="IntelliSense">IntelliSense</a>
 
 Redaktors nodrošina vārdu pabeigšanu, kas palīdz ātrāk uzrakstīt izteiksmi un izvairīties no iespiedkļūdām. Kad sākat pievienot jaunu tekstu, redaktors automātiski piedāvā to funkciju sarakstu, kas tiek atbalstītas ER funkcijās, kuras satur ievadītās rakstzīmes. Varat arī jebkurā konfigurētās izteiksmes vietā aktivizēt IntelliSense, ievadot **Ctrl+Atstarpe**.
 
 [![ER formulas redaktors](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
-## <a name="CodeCompletion">Kodu pabeigšana</a>
+## <a name=""></a><a name="CodeCompletion">Kodu pabeigšana</a>
 
 Redaktors automātiski nodrošina koda pabeigšanu, veicot tālāk minētās darbības.
 
@@ -81,7 +79,7 @@ Redaktors automātiski nodrošina koda pabeigšanu, veicot tālāk minētās dar
 
 Kad norādāt uz ierakstītajam pēdiņām, šī pāra otrā iekava tiek automātiski iezīmēta, lai parādītu konstrukciju, ko tās atbalsta.
 
-## <a name="CodeNavigation">Kodu navigācija</a>
+## <a name=""></a><a name="CodeNavigation">Kodu navigācija</a>
 
 Izteiksmē nepieciešmos simbolus vai rindas var sameklēt, ievadot komandu **Doties uz**, izmantojot komandu paleti vai konteksta izvēlni.
 
@@ -95,7 +93,7 @@ Piemēram, lai pārlēktu uz **8**. rindu, veiciet tālak norādītās darbības
 
 [![ER formulas redaktors](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
-## <a name="CodeStructuring">Kodu strukturēšana</a>
+## <a name=""></a><a name="CodeStructuring">Kodu strukturēšana</a>
 
 Dažu funkciju kods, piemēram [IF](er-functions-logical-if.md) vai [CASE](er-functions-logical-case.md), ir automātiski strukturēts. Varat izvērst un sakļaut jebkuru vai visus šī koda saliekamos reģionus, lai samazinātu izteiksmes rediģējamo daļu un koncentrētos tikai uz to koda daļu, kam jāpievērš uzmanība. Šim nolūkam var izmantot pārslēgšanas komandas salocīt/atlocīt.
 
@@ -117,7 +115,7 @@ Lai salocītu visus reģionus, veiciet tālāk norādītās darbības.
 
 [![ER formulas redaktors](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
-## <a name="FindAndReplace">Meklēt un aizvietot</a>
+## <a name=""></a><a name="FindAndReplace">Meklēt un aizvietot</a>
 
 Lai atrastu konkrēta teksta gadījumus, atlasiet izteiksmē tekstu un veiciet tālāk norādītās darbības.
 
@@ -145,13 +143,13 @@ Lai izmainītu visus konkrēta teksta gadījumus, atlasiet izteiksmē tekstu un 
 
 [![ER formulas redaktors](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
-## <a name="DataPasting">Datu avoti un funkciju ielīmēšana</a>
+## <a name=""></a><a name="DataPasting">Datu avoti un funkciju ielīmēšana</a>
 
 Varat atlasīt **Pievienot datu avotu**, kas Ielīmē pašreizējā izteiksmē datu avotu, kas pašlaik ir atlasīts **Datu avota** kreisajā panelī. Līdzīgi varat atlasīt **Pievienot funkciju**, kas ielīmē pašreizējā izteiksmē funkciju, kura pašlaik ir atlasīta **Funkciju** labajā panelī. Ja izmantojat ER formulas redaktoru, atlasītā funkcija vai atlasītais datu avots vienmēr tiks ielīmēts konfigurētās izteiksmes beigās. Ja izmantojat uzlabotās ER formulas redaktoru, atlasītā funkcija vai atlasītais datu avots var tikt ielīmēts jebkurā konfigurētās izteiksmes daļā. Lai norādītu, kur vēlaties ielīmēt datus, būs jāizmanto kursors.
 
 [![ER formulas redaktors](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
-## <a name="SyntaxColorization">Sintakses iekrāsošana</a>
+## <a name=""></a><a name="SyntaxColorization">Sintakses iekrāsošana</a>
 
 Pašlaik tiek lietotas dažādas krāsas, lai iezīmētu tālāk norādītās izteiksmes daļas.
 

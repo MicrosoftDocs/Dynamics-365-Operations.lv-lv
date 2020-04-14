@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b70ad94014587ba8e55735192dbe0ab2e4adf4ee
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ff8a2858bfa96eb1d4b0afa1e48ebd1b578a4431
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185823"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143128"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā izveidot maksājumu rindas kreditora maksājumu žurnālā un ģenerēt kreditora maksājuma failu, izmantojot ISO2022 kredīta pārskaitījuma piemēru.
 
@@ -33,20 +33,20 @@ ms.locfileid: "2185823"
 
 ## <a name="example"></a>Paraugs
 
-1.  Pārejiet uz sadaļu **Kreditori > Maksājumi > Maksājumu žurnāls**.
-2.  Klikšķiniet **Jauns**.
-3.  Ievadiet vai atlasiet vērtību laukā **Nosaukums**.
-4.  Noklikšķiniet uz **Rindas >Maksājuma priekšlikums > Izveidot maksājuma priekšlikumu**.
-5.  Izvērsiet sadaļu **Iekļaujamie ieraksti**.
-6.  Noklikšķiniet uz **Filtrēt**.
-7.  Sarakstā atlasiet vienumam **Kreditoru tabula** un **Kreditora konta lauks** atbilstošo rindu.
-8.  Ievadiet vai atlasiet vērtību laukā **Kritēriji**. Apmaksājamo kreditoru transakciju atlasei varat izmantot jebkuru kritēriju, šī piemēra ietvaros izmantojiet kreditora kontu DE-001.
-12. Noklikšķiniet uz **Labi**.
-13. Noklikšķiniet uz **Labi**.
-14. Noklikšķiniet uz **Izveidot maksājumus**.
+1.    Pārejiet uz sadaļu **Kreditori > Maksājumi > Maksājumu žurnāls**.
+2.    Klikšķiniet **Jauns**.
+3.    Ievadiet vai atlasiet vērtību laukā **Nosaukums**.
+4.    Noklikšķiniet uz **Rindas >Maksājuma priekšlikums > Izveidot maksājuma priekšlikumu**.
+5.    Izvērsiet sadaļu **Iekļaujamie ieraksti**.
+6.    Noklikšķiniet uz **Filtrēt**.
+7.    Sarakstā atlasiet vienumam **Kreditoru tabula** un **Kreditora konta lauks** atbilstošo rindu.
+8.    Ievadiet vai atlasiet vērtību laukā **Kritēriji**. Apmaksājamo kreditoru transakciju atlasei varat izmantot jebkuru kritēriju, šī piemēra ietvaros izmantojiet kreditora kontu DE-001.
+12.    Noklikšķiniet uz **Labi**.
+13.    Noklikšķiniet uz **Labi**.
+14.    Noklikšķiniet uz **Izveidot maksājumus**.
 15. Ģenerējiet ISO20022 maksājuma failu.
-    1.  Noklikšķiniet uz **Ģenerēt maksājumus**.
-    2.  Ievadiet vai atlasiet vērtību laukā **Maksājuma metode**.
-    3.  Ievadiet vērtību laukā **Faila nosaukums**. Šī piemēra ietvaros ģenerētas fails būs saderīgs ar SEPA, jo maksājuma valūta ir EUR. Lai ģenerētu maksājumus citās valūtās, var izmantot arī ISO20022 kredīta pārskaitījumu, kā arī citus kreditora maksājumu formātus
-    4.  Ievadiet vai atlasiet vērtību laukā **Bankas konts**.
+    1.    Noklikšķiniet uz **Ģenerēt maksājumus**.
+    2.    Ievadiet vai atlasiet vērtību laukā **Maksājuma metode**.
+    3.    Ievadiet vērtību laukā **Faila nosaukums**. Šī piemēra ietvaros ģenerētas fails būs saderīgs ar SEPA, jo maksājuma valūta ir EUR. Lai ģenerētu maksājumus citās valūtās, var izmantot arī ISO20022 kredīta pārskaitījumu, kā arī citus kreditora maksājumu formātus
+    4.    Ievadiet vai atlasiet vērtību laukā **Bankas konts**.
 

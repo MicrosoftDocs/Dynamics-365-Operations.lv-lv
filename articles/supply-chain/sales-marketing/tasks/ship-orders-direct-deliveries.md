@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bce2674b321475bc516724f74bac2d3a648e257
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 81ebd845d9900d891b17618b3719d45060a1968f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843365"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148428"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Pasūtījumu sūtīšana kā tiešās piegādes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir parādīts, kā pārdošanas pasūtījumam izveidot tiešu piegādi. Izmantojiet tiešo piegādi, ja vēlaties nosūtīt preces debitoram tieši no kreditora, nevis vispirms nosūtīt tās uz savu noliktavu. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Lai sekmīgi pabeigtu otro apakšuzdevumu "Tiešo piegāžu izveidošana, izmantojot rīku", pārliecinieties, ka krājumam, ko izvēlaties pārdošanas pasūtījumā, ir norādīts noklusējuma kreditors Izlaisto preču šablona kopsavilkuma cilnē Pirkšana.
 

@@ -3,7 +3,7 @@ title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030777"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150819"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronisko pārskatu (ER) galamērķi
 
@@ -114,7 +114,7 @@ Pēc šīs iestatīšanas pabeigšanas opcija **Palaist melnrakstu** kļūst pie
 
 [![Palaist melnraksta opciju](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Galamērķa kļūmes apstrāde
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Galamērķa kļūmes apstrāde
 
 Parasti ER formāts tiek palaists noteiktā biznesa procesa tvērumā. Tomēr, tāda izejoša dokumenta nosūtīšana, kas tiek radīts ER formāta izpildes laikā, dažreiz ir jāuzskata par šī biznesa procesa daļu. Šādā gadījumā, ja ģenerētā izejošā dokumenta nosūtīšana uz konfigurēto galamērķi ir neveiksmīga, biznesa procesa izpilde jāatceļ. Lai konfigurētu atbilstošo ER galamērķi, atlasiet opciju **Pārtraukt apstrādi kļūmes gadījumā**.
 
@@ -124,7 +124,7 @@ Piemēram, jūs konfigurējiet kreditora maksājumu apstrādi tā, lai tiktu pal
 
 Notīrot izvēles rūtiņu **Pārtraukt apstrādi kļūmes gadījumā** galamērķa komponentam **Pavadvēstule**, maksājums tiks uzskatīts par sekmīgu apstrādātu arī tad, ja pavadvēstule nav veiksmīgi piegādāta pa e-pastu. Maksājuma statuss tiks mainīts no **Nav** uz **Nosūtīts** pat tad, ja pavadvēstuli nevar nosūtīt, jo, piemēram, trūkst adresāta vai sūtītāja e-pasta adreses vai tā nav pareiza.
 
-## <a name="OutputConversionToPDF"></a>Izvades pārveide PDF formātā
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Izvades pārveide PDF formātā
 
 Varat izmantot PDF pārveides opciju, lai pārveidotu izvadi no Microsoft Office formāta (Excel/Word) PDF formātā.
 
@@ -157,6 +157,19 @@ PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izman
 Lai ieslēgtu faila galamērķa pārveidi PDF formātā, atzīmējiet izvēles rūtiņu **Pārveidot PDF formātā**.
 
 [![Pārveides PDF formātā ieslēgšana faila galamērķim](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">Lappuses orientācijas atlasīšana konvertēšanai PDF formātā</a>
+
+Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF formātā varat norādīt PDF faila lappuses orientāciju. Ja atzīmējat izvēles rūtiņu **Konvertēt PDF formātā**, lai ieslēgtu PDF konvertēšanu faila galamērķim, kas ģenerē izvades failu Excel formātā, lauks **Lappuses orientācija** kļūst pieejams kopsavilkuma cilnē **PDF konvertēšanas iestatījumi**. Laukā **Lapas orientācija** var atlasīt vēlamo lapas orientāciju.
+
+[![Lappuses orientācijas atlasīšana konvertēšanai PDF formātā](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Lai būtu iespēja atlasīt PDF lappuses orientāciju, ir jāinstalē Microsoft Dynamics 365 Finance versija 10.0.10 (2020. gada maijs) vai jaunāka versija.
+>
+> Atlasītā lappuses orientācija tiek lietota visām ER konfigurācijām, kas tiek ģenerētas Excel formātā un pēc tam konvertētas PDF formātā.
+>
+> Ja konvertētais PDF tiek izveidots no ER konfigurācijas programmas Word formātā, PDF lappuses orientācija tiek ņemta no Word dokumenta.
 
 ## <a name="security-considerations"></a>Drošības apsvērumi
 

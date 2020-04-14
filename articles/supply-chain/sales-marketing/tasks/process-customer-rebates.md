@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994938"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148588"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Debitora atlaižu ģenerēšana un apstrāde
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā apstrādāt debitora atlaides no prasību ģenerēšanas līdz brīdim, kad tās tiek nodotas kā uzkrājumi Debitoru parādos. Šeit ir izklāstīts konkrēts piemērs, kurā izskaidrots, kā dažādi nosacījumi atlaides rindās ietekmē gala summas, kas tiks kreditētas debitoram. Pirms iziet ceļvedi, jums jāizmanto USMF demonstrācijas datu uzņēmums un jāveic šādus uzdevumus. (1) Dodieties uz lapu Debitoru moduļa parametri un izvērst cilni Cenas un pēc tam cilni Detalizēta informācija par cenu un pārbaudiet, vai opcija Iespējot detalizētu informāciju par cenu ir iestatīta uz Jā. (2) Dodieties uz lapu Atlaižu līgumi un atlasiet debitora atlaides līgumu: USMF-000001. Ja lauks Darbplūsmas apstiprinājuma statuss nav iestatīts uz Apstiprināts, darbību rūtī jānoklikšķina uz Apstiprināšana, lai to apstiprinātu.
 

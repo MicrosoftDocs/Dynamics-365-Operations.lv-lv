@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ec21415158ad611d0ad55778e76aa128f53561bd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181937"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143388"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Ieraksta veidnes izveide, lai atvieglotu datu ievadi
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā parādīts, kā izveidot ieraksta veidni, lai lauka vērtības, ko bieži izmanto, nav atsevišķi jāievada katram jaunam ierakstam. Šajā procedūrā jūs izveidosiet jaunu ierakstu par jauniem klēpjdatoriem, kas ir jāpievieno jūsu pamatlīdzekļiem. Šajā procedūrā tiek izmantoti parauga uzņēmuma USMF dati.
 

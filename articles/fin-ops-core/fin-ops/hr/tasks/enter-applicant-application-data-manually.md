@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea61e3c1d76ade6e0d694b4b521e4be76fc8799d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a897fc64ccd125263b30993c1e24a3c6c67bd63
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178947"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144022"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Kandidāta un pieteikuma datu manuāla ievade
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā manuāli uzturēt informāciju par kandidātiem un viņu pieteikumiem.   Varat ievadīt un uzturēt kandidātu personisko informāciju, interviju datumus un laikus, atsauksmes, zināšanas un naktsmītnes pieprasījumus. Varat arī atjaunināt kandidātu darba pieteikumu statusu un izveidot vēstules vai e-pasta ziņojumus, lai sazinātos ar kandidātiem. Kad izveidojat kandidāta ierakstu, globālajā adrešu grāmatā tiek izveidots šī kandidāta personas ieraksts.       Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

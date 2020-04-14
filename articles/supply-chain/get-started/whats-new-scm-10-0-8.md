@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097494"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164539"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.8. (2020. gada februāris)
 
@@ -32,13 +32,14 @@ ms.locfileid: "3097494"
 
 - **Priekšskatījuma laidiens:** 2019. gada decembris
 - **Vispārējā pieejamība (self-update):** 2020. gada janvāris
-- **Automātisks atjauninājums:** 2020 februāris 
+- **Automātisks atjauninājums:** 2020 februāris
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
 Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Daži no šiem līdzekļiem arī ir iekļauti iepriekšējā inkrementālajā laidienā, bet netika paziņoti iepriekšējā tēmā *Kas jauns*, tāpēc mēs tos pievienojam šeit. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 - [Papildu atrašanās vietas zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Līdzekļu pārvaldība](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Plašāku informāciju skatiet [Līdzekļu pārvaldības pārskatā](../asset-management/index.md).
 - [Atcelt darbu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) — Papildus informāciju skatiet [Noliktavas darba atcelšana izņēmuma apstrādei](../warehousing/cancel-warehouse-work.md).
 - [Mainīt darba pūlu darbam](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Klastera pozīcija pilna](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

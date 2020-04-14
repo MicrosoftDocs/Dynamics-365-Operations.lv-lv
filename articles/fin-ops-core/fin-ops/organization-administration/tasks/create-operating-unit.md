@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 38db4a5f93f4b755cfd6fee43eaef27672551077
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189894"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143839"
 ---
 # <a name="create-an-operating-unit"></a>Pārvaldības struktūrvienības izveide
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā. Cilvēkiem pārvaldības struktūrvienībā ir pienākums maksimāli izmantot ierobežotos resursus, uzlabot procesus un atskaitīties par savu sniegumu. Pārvaldības struktūrvienību veidi ietver izmaksu centrus, biznesa vienības, nodaļas un vērtību plūsmas. Lai izveidotu pārvaldības struktūrvienību, veiciet tālākminētās darbības. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

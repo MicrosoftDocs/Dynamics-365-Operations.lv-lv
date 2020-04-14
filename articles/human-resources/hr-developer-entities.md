@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087350"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166502"
 ---
 # <a name="common-data-service-entities"></a>Common Data Service elementi
 
@@ -87,14 +87,19 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Amats | cdm_jobposition |
 | Amata veids | cdm_positiontype |
 | Amatā nodarbinātā piešķire | cdm_positionworkerassignmentmap |
+| Amata dimensija | cdm_jobpositiondimension|
 | Darba tips | cdm_jobtype |
 | Valoda | cdm_language |
+| Nosaukums | cdm_title |
+
+> [!NOTE]
+> Finanšu dimensijas **Amata veidam**, **Amata darbinieka piešķirei**un **Nodarbinātībai** pakalpojumam Common Data Service nodrošina vienvirziena integrāciju. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Common Data Service uz personāla vadības resursiem. 
 
 ## <a name="leave-and-absence-entities"></a>Atvaļinājumu un kavējumu elementi
 
 | Vārds/nosaukums | Elements |
 | --- | --- |
-| Transakcija Atstāt tukšu | cdm_leavebanktransaction |
+| Atvaļinājuma bankas transakcija | cdm_leavebanktransaction |
 | Atvaļinājuma reģistrācija | cdm_leaveenrollment |
 | Atvaļinājumu plāns | cdm_leaveplan |
 | Atvaļinājuma pieprasījums | cdm_leaverequest |

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1fabdcd61c60e630e3f32bc4f0c13c44f50259a6
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 9e0a015283064af2287013bccc065b4467a308c5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091926"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144793"
 ---
 # <a name="set-up-main-account-categories"></a>Galvenā konta kategoriju iestatīšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir izskaidrots, kā iestatīt galvenā uzņēmuma kategorijas. Galveno kontu kategorijas tiek izmantotas noklusējuma pārskatiem modulī Finanšu pārskatu izveidei un pakalpojumā Power BI. Galveno kontu kategorijas, kas tiek izveidotas pēc noklusējuma, var pārdēvēt, bet nevar dzēst. Papildu kontu kategorijas var izveidot un izmantot pārskata un analīzes nolūkiem. Šajā tēmā tiek izmantots USMF demonstrācijas uzņēmums.
 

@@ -1,9 +1,9 @@
 ---
-title: Datu integrācijas problēmu novēršanas rokasgrāmata
-description: Šajā rakstā ir sniegta informācija par problēmu novēršanu datu integrācijai starp Finance and Operations programmām un Common Data Service.
+title: Vispārējā problēmu novēršana
+description: Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,57 +18,98 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 87bdb72024c1c3844ff61e832a92f7edcc77c5d6
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019901"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172695"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a>Datu integrācijas problēmu novēršanas rokasgrāmata
+# <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Iespējojiet spraudņu izsekošanas žurnālus programmā Common Data Service un pārbaudiet informāciju par duālās rakstīšanas spraudņu kļūdām.
 
-Ja duālās rakstīšanas sinhronizācijas laikā radīsies problēma vai kļūda, veiciet šīs darbības kļūdu pārbaudei izsekošanas žurnālā.
+Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Common Data Service.
 
-1. Lai varētu pārbaudīt kļūdas, vispirms ir jāiespējo spraudņu izsekošanas žurnāli. Lai iegūtu norādījumus, atveriet “Skatīt izsekošanas žurnālus” [Pamācība: uzrakstiet un reģistrējiet spraudni](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
+> [!IMPORTANT]
+> Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
-    Tagad varat pārbaudīt kļūdas.
+## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Mēģinot instalēt duālā ieraksta pakotni, izmantojot pakotnes izvietošanas rīku, netiek rādīti pieejami risinājumi
 
-2. Pierakstieties programmā Microsoft Dynamics 365 Sales.
-3. Atlasiet pogu **Iestatījumi** (zobrata simbols), pēc tam atlasiet **Papildu iestatījumi**.
-4. Izvēlnē **Iestatījumi** atlasiet **Pielāgošana \> Spraudņu izsekošanas žurnāls**.
-5. Atlasiet tipa nosaukumu **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**, lai parādītu informāciju par kļūdu.
+Dažas pakotnes izvietošanas rīka versijas nav saderīgas ar duālā ieraksta risinājuma pakotni. Lai veiksmīgi instalētu pakotni, pārliecinieties, vai izmantojat pakotnes izvietošanas rīka [versiju 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) vai jaunāku.
 
-## <a name="inspect-dual-write-synchronization-errors"></a>Pārbaudīt duālās rakstīšanas sinhronizācijas kļūdas
+Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakotni, izpildot šīs darbības.
 
-Veiciet šīs darbības, lai pārbaudītu kļūdas testēšanas laikā.
+1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt**, ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
+
+    ![Rekvizītu dialoglodziņš](media/unblock_option.png)
+
+2. Izvelciet pakotnes ZIP failu un iekopējiet visus failus mapē **Dynamics365FinanceAndOperationsCommon. ackageDeployer. 2.0.438**.
+
+    ![Mapes Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 saturs](media/extract_package.png)
+
+3. Ielīmējiet visus kopētos failus pakotnes izvietošanas rīka mapē **Rīki**. 
+4. Palaidiet **PackageDeployer.exe**, lai atlasītu Common Data Service vidi un instalētu risinājumus.
+
+    ![Rīku mapes saturs](media/paste_copied_files.png)
+
+## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana sistēmā Common Data Service, lai skatītu kļūdas informāciju
+
+**Nepieciešamā loma, lai ieslēgtu trasēšanas žurnālu un skatītu kļūdas:** sistēmas administrators
+
+Lai aktivizētu trasēšanas žurnālu, veiciet tālāk minētās darbības.
+
+1. Piesakieties Finance and Operations programmā, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Sistēma**atlasiet **Administrēšana**.
+2. Lapā **Administrēšana** atlasiet opciju **Sistēmas iestatījumi**.
+3. Cilnes **Pielāgošana** laukā **Spraudņa un pielāgotās darbplūsmas aktivitātes izsekošana** atlasiet **Visi**, lai iespējotu spraudņa izsekošanas žurnālu. Ja vēlaties izsekot trasēšanas žurnāliem tikai tad, ja rodas izņēmumi, varat tā vietā izvēlēties opciju **Izņēmums**.
+
+
+Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
+
+1. Piesakieties Finance and Operations programmā, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Pielāgošana**atlasiet **Spraudņa trasēšanas žurnāls**.
+2. Atrodiet trasēšanas žurnālus, kur lauks **Veida nosaukums** ir iestatīts uz **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+3. Veiciet dubultklikšķi uz elementa, lai apskatītu pilno žurnālu, un pēc tam kopsavilkuma cilnē **Izpilde** pārskatiet **Ziņojuma bloka** tekstu.
+
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Atkļūdošanas režīma iespējošana, lai novērstu tiešsaistes sinhronizācijas problēmas Finance and Operations programmās
+
+**Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
+
+Common Data Service radušās duālā ieraksta kļūdas var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
+
+1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
+
+    > [!TIP]
+    > Vienkāršs veids, kā atvērt entītiju, ir ieslēgt režīmu **Noformēšana** Excel pievienojumprogrammā un pēc tam darblapai pievienot **DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet rakstā [Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu](../../office-integration/use-excel-add-in.md).
+
+2. Iestatiet rekvizītu **IsDebugMode** projektam uz **Jā**.
+3. Palaidiet scenāriju, kas ģenerē kļūdas.
+4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX**):
+
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Sinhronizācijas kļūdu pārbaude Finance and Operations programmas virtuālajā mašīnā
+
+**Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
 
 1. Pierakstieties portālā Microsoft Dynamics Lifecycle Services (LCS).
-2. Atveriet LCS projektu, kuram ir jāveic testēšana.
-3. Atlasiet **Mākoņvides**.
-4. Izveidojiet Attālās darbvirsmas savienojumu ar programmas virtuālo mašīnu (VM), izmantojot vietējo kontu, kas parādīts portālā LCS.
-5. Atveriet komponentu Notikumu skatītājs. 
-6. Pārejiet uz sadaļu **Lietojumprogrammu un pakalpojumu žurnāli \> Microsoft \> Dynamics \> AX-DualWriteSync \> Darbību**. Tiek parādītas kļūdas un detalizēta informācija.
+2. Atveriet LCS projektu, kuram izvēlējāties veikt duālā ieraksta pārbaudi.
+3. Atlasiet elementu **Mākoņvides**.
+4. Izmantojiet attālo darbvirsmu, lai pieteiktos Finance and Operations programmas virtuālajā mašīnā (VM). Izmantojiet lokālo kontu, kas tiek parādīts LCS.
+5. Atveriet Notikumu skatītāju,
+6. Atlasiet **Lietojumprogrammu un pakalpojumu žurnāli \> Microsoft \> Dynamics \> AX-DualWriteSync \> Darbību**.
+7. Pārskatiet neseno kļūdu sarakstu.
 
-## <a name="unlink-one-common-data-service-environment-from-the-application-and-link-another-environment"></a>Atsaistiet vienu Common Data Service vidi no programmas un saistiet ar citu vidi
+## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Common Data Service vidi no Finance and Operations programmas
 
-Veiciet šīs darbības, lai atjauninātu saites.
+**Vides atsaistīšanai nepieciešamie akreditācijas dati:** Azure AD nomnieka administrators
 
-1. Dodieties uz programmas vidi.
-2. Atveriet Datu pārvaldība.
-3. Atlasiet **Saistiet ar CDS lietojumprogrammām**.
-4. Atlasiet visus darbojošos kartējumus un pēc tam atlasiet **Apturēt**.
-5. Atlasiet visus kartējumus un pēc tam atlasiet **Dzēst**.
+1. Piesakieties Finance and Operations programmā.
+2. Dodieties uz **Darbvietas \>Datu pārvaldība**un atlasiet elementu **Duālais ieraksts**.
+3. Atlasiet visus darbojošos kartējumus, pēc tam atlasiet **Apturēt**.
+4. Atlasiet **Atsaistīt vidi**.
+5. Atlasiet **Jā**, lai apstiprinātu darbību.
 
-    > [!NOTE]
-    > Opcija **Dzēst** nav pieejama, ja ir atlasīta veidne **CustomerV3-Account**. Notīriet šīs veidnes atlasi, ja nepieciešams. **CustomerV3-Account** ir vecāka nodrošināta veidne un darbojas ar risinājumu No potenciālā klienta līdz skaidrai naudai. Tā parādās zem visām veidnēm, jo ir izlaista visā pasaulē.
-
-6. Atlasiet **Atsaistīt vidi**.
-7. Atlasiet **Jā**, lai apstiprinātu darbību.
-8. Lai piesaistītu jauno vidi, izpildiet [instalēšanas rokasgrāmatā](https://aka.ms/dualwrite-docs) aprakstītās darbības.
+Tagad varat saistīt jaunu vidi.

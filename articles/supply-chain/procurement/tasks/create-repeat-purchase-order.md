@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0abbce32e2fabe860077502875b92f93ea0ea95c
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 488fb1bea2d2ae06c92c20afdd98735928eee3b8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867081"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147300"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Atkārtota pirkšanas pasūtījuma izveide
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu, kopējot rindas no iepriekšēja pirkšanas pasūtījuma dokumenta jaunā vai esošā pirkšanas pasūtījumā. Atkārtotu pasūtījumu izveidošanai pastāv divas metodes. Varat izmantot darbības, kas no darbību rūts ir pieejamas dokumenta līmenī, vai varat izmantot rindas detaļu darbības. Dokumenta līmeņa darbības galvenokārt ir paredzētas jaunu pirkšanas pasūtījumu izveidošanai, pievienojot rindas un virsraksta informāciju no cita pasūtījuma, kamēr rindas detaļu darbība galvenokārt ir paredzēta rindu pievienošanai jau esošam pasūtījumam. Šajā ceļvedī rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
 
@@ -39,7 +39,7 @@ ms.locfileid: "1867081"
 6. Atlasiet **No visiem**. Šī ir lapa, kurā no esošajiem pasūtījumiem varat kopēt uz savu pasūtījumu. Veidam, kādā rindas tiek kopētas, pastāv dažādas opcijas, un pastāv dažādi dokumentu veidi, no kuriem varat kopēt. Vispirms mēs apskatīsim opcijas tam, kā rindas tiek kopētas. 
 7. Izvērsiet sadaļu **Parametri**.
 
-    - Lauks **Daudzuma koeficients** ir noderīgs, ja vēlaties izmantot daudzumu, kas atšķiras no tā, kas ir pasūtījumā, no kura kopējat. Piemēram, ja vēlaties pasūtīt divreiz lielāku daudzumu, nekā norādīts rindās, no kurām kopējat, tad šajā laukā būtu jāievada “2”, un pēc tam sistēma pievienotu rindas, kur sākotnējais daudzums ir dublēts.  
+    - Lauks **Daudzuma koeficients** ir noderīgs, ja vēlaties izmantot daudzumu, kas atšķiras no tā, kas ir pasūtījumā, no kura kopējat. Piemēram, ja vēlaties pasūtīt divreiz lielāku daudzumu, nekā norādīts rindās, no kurām kopējat, tad šajā laukā būtu jāievada '2', un pēc tam sistēma pievienotu rindas, kur sākotnējais daudzums ir dublēts.  
     - Lauks **Apgriešanas zīme** arī atbalsta pasūtītā daudzuma maiņu, mainot daudzuma zīmi pasūtījuma rindām, kas tiek pievienotas. Tas var būt noderīgi, ja ir nepieciešams atsaukt kādu transakciju, izveidojot pasūtījuma rindas, kuras anulē šo transakciju. Šī iespēja tiek atlasīta automātiski, kad lapa tiek atvērta no darbības **Izveidot kredītnotu**.  
     - Opcija **Kopēt maksas** ļauj kopēt maksas uz jauno pasūtījumu no dokumenta, no kura kopējat pasūtījuma rindas.  
     - Opcija **Pārrēķināt cenas** izmanto esošās cenas un atlaides, nevis kopē tās no dokumenta, no kura kopējat citu informāciju.  

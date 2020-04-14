@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85109cd0448383ba231cbec1bdeeb9dcd2db805
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a7a2559bdadbfc74a14bd0e7add9c2f794226e0b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550790"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141929"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER formāta konfigurēšana, lai veiktu uzskaiti un summēšanu (1. daļa. Formāta izveide)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk aprakstītajos soļos ir izskaidrots, kā sistēmas lietotājs, kam ir piešķirta administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektronisko pārskatu sagatavošanas (ER) formātu, lai veiktu uzskaiti un summēšanu, izmantojot jau izveidotās teksta izvades datus. Šīs darbības var veikt jebkurā uzņēmumā.
 
-Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu" procedūras darbības.
+Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas aprakstītas procedūrā "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu".
 
 Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
@@ -37,7 +37,7 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas nodrošinātāja i
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Iegūt piekļuvi korporācijas Microsoft nodrošināto konfigurāciju sarakstam
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai "Litware, Inc." ir pieejams un atzīmēts kā aktīvs.  
-2. Atlasiet Litware, Inc. nodrošinātāju.
+2. Atlasiet "Litware, Inc." nodrošinātāju.
 3. Noklikšķiniet uz Repozitoriji.
     * Ja tipa “Operācijas resursi” repozitorijs jau pastāv, izlaidiet pašreizējā apakšuzdevuma pārējos soļus.  
 4. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.

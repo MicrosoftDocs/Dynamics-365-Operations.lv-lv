@@ -1,6 +1,6 @@
 ---
 title: Pārskatu ģenerēšana Office formātā, kurā ir iegultie attēli
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word).
+description: Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'Elektronisko atskaišu izstrādātājs' var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184765"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143103"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Pārskatu ģenerēšana Office formātā, kurā ir iegultie attēli
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word).
+Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'Elektronisko atskaišu izstrādātājs' var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word).
 
-Šajā piemērā jūs izmantosit parauga uzņēmumam “Litware, Inc.” izveidotās ER konfigurācijas.  Lai veiktu šīs darbības, vispirms jāveic darbības, kas aprakstītas uzdevuma ceļvedī “ER: veikt pārskatus MS Office formātos ar iegultiem attēliem (2. daļa: pārskatīt konfigurācijas)”. Šīs darbības var veikt uzņēmumā USMF.
+Šajā piemērā jūs izmantosit parauga uzņēmumam 'Litware, Inc.' izveidotās ER konfigurācijas.  Lai veiktu šīs darbības, vispirms jāveic darbības, kas aprakstītas uzdevuma ceļvedī "ER: veikt pārskatus MS Office formātos ar iegultiem attēliem (2. daļa: pārskatīt konfigurācijas)". Šīs darbības var veikt uzņēmumā 'USMF'.
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Formāta palaišana ar sākotnējo modeļa kartējumu
@@ -40,7 +40,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
     * Palaidiet formātu testēšanas nolūkā.  
 6. Laukā Maksājumu čeka formāts atlasiet Jā.
 7. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no čeka izkārtojuma ieraksta lauka ar datu tipu "Konteiners", kas ir saistīts ar atlasīto bankas kontu.  
+    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no čeka izkārtojuma ieraksta lauka ar datu tipu 'Konteiners', kas ir saistīts ar atlasīto bankas kontu.  
 8. Izvērsiet sadaļu Kopijas.
 9. Noklikšķiniet uz Rediģēt.
 10. Laukā Ūdenszīme ievadiet “Drukāt ūdenszīmi kā Anulēts”.
@@ -105,7 +105,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 9. Noklikšķiniet uz Jā.
 10. Noklikšķiniet uz Jauns.
 11. Noklikšķiniet uz Fails.
-    * Noklikšķiniet uz Pārlūkot un atlasiet iepriekš lejupielādēto failu “Čeku veidne Word.docx”.  
+    * Noklikšķiniet uz Pārlūkot un atlasiet iepriekš lejupielādēto failu 'Čeku veidne Word.docx'.  
 12. Aizvērt lapu.
 13. Ievadiet vai atlasiet kādu vērtību laukā Veidne.
 14. Noklikšķiniet uz Saglabāt.

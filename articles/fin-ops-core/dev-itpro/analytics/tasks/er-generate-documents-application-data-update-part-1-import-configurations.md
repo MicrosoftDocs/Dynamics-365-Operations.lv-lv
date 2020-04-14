@@ -1,6 +1,6 @@
 ---
 title: Konfigurāciju importēšana, lai ģenerētu dokumentus ar programmas datiem
-description: Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.
+description: Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182351"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141906"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigurāciju importēšana, lai ģenerētu dokumentus ar programmas datiem
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru “ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.
+Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".
 
 daļa: konfigurāciju importēšana)". Šajā procedūrā importēsiet nepieciešamo Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam, izmantojot tās, ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot DEMF datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failus, kas norādīti palīdzības tēmā “Elektronisko dokumentu ģenerēšana un pieteikumu datu atjaunināšana, izmantojot ER rīku" (generate-electronic-documents-update-application-data/). Faili ir Intrastat (model).xml, Intrastat (mapping).xml un Intrastat (format).xml.
 
@@ -45,7 +45,7 @@ daļa: konfigurāciju importēšana)". Šajā procedūrā importēsiet nepiecie�
 6. Noklikšķiniet uz Veidotājs.
 7. Kokā izvērsiet "For outgoing document".
 8. Kokā izvērsiet "For outgoing document\Transactions".
-    * Pārskatiet importētā datu modeļa struktūru. Ievērojiet, ka saknes vienums "For outgoing document" ir definēts datu plūsmas norādīšanai, lai iegūtu datus no pieteikuma un izmantotu to kā datu avotu Intrastat pārskata ģenerēšanai. Vienums "Transactions (Record list)" tiek izmantots, lai attēlotu sarakstu ar Intrastat darbībām, par kurām jāatskaitās. Arhivējot pārskatos iekļauto preču kodus, šajā datu plūsmā ir nepieciešams atsevišķa preču koda "Commodity rec id (Int64)" unikālais identifikators.   
+    * Pārskatiet importētā datu modeļa struktūru. Ievērojiet, ka saknes vienums 'Izejošajam dokumentam' ir definēts datu plūsmas norādīšanai, lai iegūtu datus no pieteikuma un izmantotu to kā datu avotu Intrastat pārskata ģenerēšanai. Vienums 'Transakcijas (ierakstu saraksts)' tiek izmantots, lai attēlotu sarakstu ar Intrastat darbībām, par kurām jāatskaitās. Arhivējot pārskatos iekļauto preču kodus, šajā datu plūsmā ir nepieciešams atsevišķa preču koda 'Commodity rec id (Int64)' unikālais identifikators.   
 9. Aizvērt lapu.
 10. Noklikšķiniet uz Mainīt.
 11. Noklikšķiniet uz Ielādēt no XML faila.
@@ -55,11 +55,11 @@ daļa: konfigurāciju importēšana)". Šajā procedūrā importēsiet nepiecie�
 13. Kokā izvērsiet "Intrastat (model)".
 14. Kokā atlasiet "Intrastat (model)\Intrastat (mapping)".
 15. Noklikšķiniet uz Veidotājs.
-    * Ievērojiet, ka pašreizējais modeļa kartējums laukā Virziens satur vērtību "To model". Tas nozīmē, ka šī modeļa kartējums ir izstrādāts, lai iegūtu datus no programmas un glabātu tos datu modelī.  
+    * Ievērojiet, ka pašreizējais modeļa kartējums laukā Virziens satur vērtību 'Uz modeli'. Tas nozīmē, ka šī modeļa kartējums ir izstrādāts, lai iegūtu datus no programmas un glabātu tos datu modelī.  
 16. Noklikšķiniet uz Veidotājs.
 17. Kokā izvērsiet "List".
 18. Kokā izvērsiet "Transactions= List".
-    * Pārskatiet modeļa kartējuma struktūru, kas izmanto datu modeli, kurš ir filtrēts, pamatojoties uz saknes vienumu "For outgoing document". Ņemiet vērā, ka pievienotais datu avots "List" nodrošina piekļuvi nepieciešamajiem pieteikumu datiem, kurus veido Intrastat tabulas ierakstu saraksts.  
+    * Pārskatiet modeļa kartējuma struktūru, kas izmanto datu modeli, kurš ir filtrēts, pamatojoties uz saknes vienumu 'Izejošajam dokumentam.' Ņemiet vērā, ka pievienotais datu avots 'List' nodrošina piekļuvi nepieciešamajiem pieteikumu datiem, kurus veido Intrastat tabulas ierakstu saraksts.  
 19. Aizvērt lapu.
 20. Aizvērt lapu.
 21. Noklikšķiniet uz Mainīt.
@@ -73,6 +73,6 @@ daļa: konfigurāciju importēšana)". Šajā procedūrā importēsiet nepiecie�
 27. Kokā atlasiet "File\Declaration".
 28. Noklikšķiniet uz cilnes Kartēšana.
 29. Kokā atlasiet "File".
-    * Pārskatiet formāta struktūru, kas tiek izmantota, lai ģenerētu Intrastat pārskatu. Ņemiet vērā, ka tā ir paredzēta, lai ģenerētu XML failu, aizpildot datus no datu modeļa, kas balstīts uz saknes vienumu "For outgoing document". Pārbaudiet, vai lietotāja dialoglodziņa veidlapā ir definēts ģenerētā faila nosaukums (šim mērķim tiek izmantots 'fn' datu avots).   
+    * Pārskatiet formāta struktūru, kas tiek izmantota, lai ģenerētu Intrastat pārskatu. Ņemiet vērā, ka tā ir paredzēta, lai ģenerētu XML failu, aizpildot datus no datu modeļa, kas balstīts uz saknes vienumu 'Izejošajam dokumentam'. Pārbaudiet, vai lietotāja dialoglodziņa veidlapā ir definēts ģenerētā faila nosaukums (šim mērķim tiek izmantots 'fn' datu avots).   
 30. Aizvērt lapu.
 

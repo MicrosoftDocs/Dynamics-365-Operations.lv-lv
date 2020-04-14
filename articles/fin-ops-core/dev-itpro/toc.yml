@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Duālā ieraksta iestatīšana no Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Sākotnējā sinhronizācija
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Iespējot duālo ierakstu esošajām Finance and Operations programmām
+                              items:
+                                - name: Iespējot duālo ierakstu esošajām Finance and Operations programmām
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Sistēmas prasības un priekšnosacījumi
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: 'Kā izmantot duālā ieraksta vedni, lai savienotu vides'
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Iespējot duālā ieraksta elementa karti
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Duālā ieraksta pārvaldība
+                          items:
+                            - name: Pielāgot elementa un lauka kartējumus
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Programmas dzīves cikla pārvaldība
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Koncepciju kartēšana starp programmām
                           items:
-                            - name: Organizācijas hierarhija pakalpojumā Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Uzņēmuma integrācija
-                              items:
-                                - name: Uzņēmuma koncepcija pakalpojumā Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Palaišana ar uzņēmuma datiem
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Integrētie debitoru pamatdati
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Kreditora integrācija
+                              items:
+                                - name: Integrētie kreditoru pamatdati
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Pārslēgšanās starp kreditoru noformējumiem
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Debitoru lojalitātes programmas kartes un atlīdzības punkti
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Preču integrācija
                               items:
                                 - name: Vienotā preču pieredze
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Integrētās vietas un noliktavas
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Uzņēmuma integrācija
+                              items:
+                                - name: Uzņēmuma koncepcija pakalpojumā Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Palaišana ar uzņēmuma datiem
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Organizācijas hierarhija pakalpojumā Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Finanšu un nodokļu dati
                               items:
                                 - name: Piekļuve finanšu un nodokļu atsauces datiem
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Integrētie nodokļu pamatdati
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Kreditora integrācija
-                              items:
-                                - name: Integrētie kreditoru pamatdati
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Pārslēgšanās starp kreditoru noformējumiem
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Sinhronizēt ar Dynamics 365 Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: No potenciālā klienta līdz skaidrai naudai duālajā ierakstā
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Iekšējie līdzekļi apkalpošanai
@@ -204,11 +228,25 @@
                           items:
                             - name: Atbalsts Field Service risinājumiem un Project Service Automation risinājumiem
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Sākotnējā sinhronizācija
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Datu integrācijas problēmu novēršana
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integrācija ar Power Platform datu integrētāju
+                            - name: Problēmu novēršana
+                              items:
+                                - name: 'Pārbaudiet, vai duālais ieraksts ir konfigurēts Finance and Operations programmās un pakalpojumā Common Data Service'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Problēmu novēršana sākotnējās iestatīšanas laikā
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Problēmu novēršana sākotnējās sinhronizācijas laikā
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations programmās
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Tiešās sinhronizācijas problēmu novēršana
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Problēmu novēršana saistībā ar risinājumu apzināšanu
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Problēmu novēršana saistībā ar Finance and Operations programmu jaunināšanu
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Vispārīgā problēmu novēršana
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integrācija ar Power Platform
                       items:
                         - name: Scenārija “No potenciālā klienta līdz skaidrai naudai” konfigurēšana
                           items:
@@ -392,11 +430,13 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Datu bāzu atsvaidzināšanas izveide
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Datu bāzu eksportēšanas izveide
+                      href: database/api/v1/reference-create-export.md
                     - name: Operācijas aktivitātes statusa iegūšana
                       href: database/api/v1/reference-get-status.md
         - name: Demonstrācijas dati
           items:
-            - name: Demonstrācijas datu apskats
+            - name: Demonstrācijas datu pārskats
               href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
             - name: 'Demonstrācijas datu ģenerēšana, izmantojot pakotnes'
               href: data-entities/generate-demo-data-packages.md
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Pārraudzība un diagnostika
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Ietekmes analīzes pārskats
+              href: lifecycle-services/impact-analysis-report.md
             - name: Vides pakalpojumu restartēšana
               href: lifecycle-services/restart-environment-services.md
             - name: Ziņošana par ražošanas pārtraukumu
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Ziņošana par ražošanas pārtraukumu
               href: lifecycle-services/report-production-outage.md
+            - name: Datu bāzu reģistrācijas konfigurēšana un pārvaldība
+              href: sysadmin/configure-manage-database-log.md
+            - name: 'OData metadatu kešatmiņas izveide, kad sāk darbu AOS'
+              href: sysadmin/odata-warmup.md
         - name: 'Jauninājumi, atjauninājumi un labojumfaili'
           items:
             - name: 'Jauninājumu, atjauninājumu un labojumfailu resursi'

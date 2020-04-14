@@ -3,7 +3,7 @@ title: Izveidot ieteikumus ar demo datiem
 description: Šis dokuments sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/20
+ms.date: 03/19/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127840"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154253"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Izveidot ieteikumus ar demo datiem
 
@@ -77,8 +77,6 @@ Paplašinājums ietver datu faila ar nosaukumu 'RecoMockDataset.csv', kas ļauj 
 [Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
-
-[Preču ieteikumu sarakstu pievienošana e-komercijas vietnei](add-reco-list-to-page.md)
 
 [Pievienot preču ieteikumus punktā POS](product.md)
 

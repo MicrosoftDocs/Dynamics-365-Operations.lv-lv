@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 544c298f83c4b1838a94aee95ed6038fcc1f4e4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c1886413ba7eabc60f902c0183b443d63a579d7b
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178960"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161688"
 ---
 # <a name="employment-verification-i9-verification"></a>Nodarbinātības pārbaudes i9 pārbaude
 
-[!include [task guide banner](../../../includes/task-guide-banner.md)]
+[!include [banner](../../../includes/banner.md)]
 
 Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu. Šajā procedūrā aprakstīts, kā pierakstīt nepieciešamos dokumentus I-9 pārbaudei. Šai procedūrai izmantojiet USMF uzņēmumu.
 

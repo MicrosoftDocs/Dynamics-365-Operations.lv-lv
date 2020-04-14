@@ -3,7 +3,7 @@ title: Preču ieteikumu iespējošana
 description: Šajā tēmā izskaidrots, kā sniegt preces ieteikumus, kas balstīti uz mākslīgo intelektu – mašīnmācību (AI-ML), kas pieejama Microsoft Dynamics 365 Commerce klientiem.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127886"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154417"
 ---
 # <a name="enable-product-recommendations"></a>Preču ieteikumu iespējošana
 
@@ -75,8 +75,6 @@ Papildinformāciju par personalizēto ieteikumu saņemšanu skatiet sadaļā [Pe
 [Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
-
-[Preču ieteikumu sarakstu pievienošana e-komercijas vietnei](add-reco-list-to-page.md)
 
 [Pievienot preču ieteikumus punktā POS](product.md)
 

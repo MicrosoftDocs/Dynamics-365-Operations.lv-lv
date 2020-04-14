@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 545f1c15888bcd0b46e1028f58cbe3a274846c92
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866830"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146035"
 ---
 # <a name="enable-license-plate-label-printing"></a>Numura zīmes uzlīmes drukāšanas iespējošana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā parādīts, kā iespējot seriālā pārvadāšanas konteinera koda (SSCC) marķējuma drukāšanu pēc tam, kad pēdējais vienums ir izņemts no inventāra pārdošanas pavadzīmju darba procesā. Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF. Ja to palaižat, izmantojot pats savus datus, jums numura zīmei ir nepieciešama iestatīta numuru sērija. Pirms sākat šo uzdevumu, ir jāiestata etiķešu printeris. Dodieties uz Organizācijas administrēšana > Iestatīšana > Tīkla printeri. Darbību rūtī noklikšķiniet uz Opcijas un pēc tam noklikšķiniet uz pogas Lejupielādēt dokumentu maršrutēšanas aģenta instalētāju. Pirms turpiniet šīs procedūras izpildi, palaidiet instalētāju un pārliecinieties, ka strādājošs tīkla printeris ir iestatīts kā Aktīvs.
 

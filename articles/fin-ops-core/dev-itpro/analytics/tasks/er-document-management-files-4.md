@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550813"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142620"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER izmantot dokumentu pārvaldības failus formātu izvades datos (4. daļa - Palaist formātu)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē. Šīs darbības var veikt uzņēmumā DEMF.
 
-Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti procedūrā “ER Izmantot dokumentu pārvaldības failus formāta izvadē (3. daļa: Izveidot formātu)”.
+Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti procedūrā "ER Izmantot dokumentu pārvaldības failus formāta izvadē (3. daļa: Izveidot formātu)".
 
 Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.
 
@@ -65,8 +65,8 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 7. Noklikšķiniet uz Filtrēt.
 8. Atlasiet rindu no debitora rēķinu žurnāla un pārdošanas pasūtījuma lauka.
 9. Laukā Kritēriji ierakstiet '000148'.
-    * Kritērija laukā “Pārdošanas pasūtījums” ierakstiet pasūtījuma numuru 000148.  
-10. Noklikšķiniet uz OK.
-11. Noklikšķiniet uz OK.
+    * Kritērija laukā "Pārdošanas pasūtījums" ierakstiet pasūtījuma numuru 000148.  
+10. Noklikšķiniet uz Labi.
+11. Noklikšķiniet uz Labi.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka katram pielikumam ir izveidots atsevišķs XML mezgls. Pielikuma saturs tiek aizpildīts XML izvadē MIME (base64) teksta formātā.  
 

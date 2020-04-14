@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019893"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173043"
 ---
 # <a name="switch-between-vendor-designs"></a>Pārslēgšanās starp kreditoru noformējumiem
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>Kreditora datu plūsma 
 
-Ja izmantojat citas Dynamics 365 programmas kreditora pamatdatu apgūšanai un vēlaties nošķirt kreditora informāciju no debitoriem, izmantojiet šo pamata kreditora modeli.  
+Ja izvēlaties izmantot elementu **Konts** elementu, lai uzglabātu veidu **Organizācija** un elementu **Kontaktpersona** veida **Persona** tipa kreditoriem, konfigurējiet šādas darbplūsmas. Pretējā gadījumā šī konfigurācija nav obligāta.
 
-![Pamata kreditora plūsma](media/dual-write-vendor-data-flow.png)
- 
-Ja izmantojat citas Dynamics 365 programmas kreditora pamatdatu apgūšanai un vēlaties arī turpmāk izmantot elementu **Konts** kreditora informācijas glabāšanai, izmantojiet šo paplašināto kreditora modeli. Šajā modelī paplašināta kreditora informācija, piemēram, kreditora aizturēšanas statuss un kreditora profils, tiek glabāts elementā **kreditori** pakalpojumā Common Data Service. 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Izmantot paplašināto kreditoru noformējumu Organizācijas veida kreditoriem
 
-![Kreditora paplašinātā plūsma](media/dual-write-vendor-detail.jpg)
- 
-Izpildiet tālāk norādītās darbības, lai izmantotu paplašināto kreditora modeli. 
- 
-1. **SupplyChainCommon** risinājuma pakotnē ir iekļautas darbplūsmas procesa veidnes, kā redzams nākamajā attēlā.
-    > [!div class="mx-imgBorder"]
-    > ![Darbplūsmas procesa veidnes](media/dual-write-switch-3.png)
-2. Izveidojiet jaunus darbplūsmas procesus, izmantojot darbplūsmas procesa veidnes: 
-    1. Izveidojiet jaunu darbplūsmas procesu elementā **Kreditors**, izmantojot darbplūsmas procesa veidni **Izveidot kreditorus konta elementā** un noklikšķiniet uz **Labi**. Šī darbplūsma apstrādā kreditora izveides scenāriju elementam **Konts**.
-        > [!div class="mx-imgBorder"]
-        > ![Izveidot kreditorus konta elementā](media/dual-write-switch-4.png)
-    2. Izveidojiet jaunu darbplūsmas procesu elementā **Kreditors**, izmantojot darbplūsmas procesa veidni **Atjaunināt kontu elementu** un noklikšķiniet uz **Labi**. Šī darbplūsma apstrādā kreditora atjaunināšanas scenāriju elementam **Konts**. 
-        > [!div class="mx-imgBorder"]
-        > ![Atjaunināt kontu elementu](media/dual-write-switch-5.png)
-    3. Izveidojiet jaunus darbplūsmas procesus no veidnēm, kas izveidotas elementā **Konti**. 
-        > [!div class="mx-imgBorder"]
-        > ![Izveidot kreditorus kreditoru elementā](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![Atjaunināt kreditoru elementu](media/dual-write-switch-7.png)
-    4. Darbplūsmas var konfigurēt kā reāllaika vai fona darbplūsmas, pamatojoties uz jūsu prasībām. 
-        > [!div class="mx-imgBorder"]
-        > ![Konvertēt uz fona darbplūsmu](media/dual-write-switch-8.png)
-    5. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Konts** un **Kreditors**, lai sāktu izmantot elementu **Konts** kreditora informācijas glabāšanai. 
- 
+**Dynamics365FinanceExtended** risinājuma pakotnē ir šādas darbplūsmas procesa veidnes. Katrai veidnei tiks izveidota darbplūsma.
+
++ Izveidot kreditorus konta elementā
++ Izveidot kreditorus kreditoru elementā
++ Atjaunināt kreditorus konta elementā
++ Atjaunināt kreditorus kreditoru elementā
+
+Lai izveidotu jaunus darbplūsmas procesus, izmantojot darbplūsmas procesa veidnes, veiciet šādas darbības.
+
+1. Izveidojiet darbplūsmas procesu elementam **Kreditors** un atlasiet darbplūsmas procesa veidni **Izveidot kreditorus konta elementā**. Tad atl. **Labi**. Šī darbplūsma apstrādā kreditora izveides scenāriju elementam **Konts**.
+
+    ![Izveidot kreditorus konta elementa darbplūsmas procesā](media/create_process.png)
+
+2. Izveidojiet darbplūsmas procesu elementam **Kreditors** un atlasiet darbplūsmas procesa veidni **Atjaunināt kreditorus konta elementā**. Tad atl. **Labi**. Šī darbplūsma apstrādā kreditora atjaunināšanas scenāriju elementam **Konts**.
+3. Izveidojiet darbplūsmas procesu elementam **Konts** un atlasiet darbplūsmas procesa veidni **Izveidot kreditorus kreditoru elementā**.
+4. Izveidojiet darbplūsmas procesu elementam **Konts** un atlasiet darbplūsmas procesa veidni **Atjaunināt kreditorus kreditoru elementā**.
+5. Darbplūsmas var konfigurēt vai nu kā reāllaika vai fona darbplūsmas, atkarībā no jūsu prasībām. Lai konfigurētu darbplūsmu kā fona darbplūsmu, atlasiet **Pārvērst par fona darbplūsmu.**
+
+    ![Poga Konvertēt uz fona darbplūsmu](media/background_workflow.png)
+
+6. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Konts** un **Kreditors**, lai sāktu izmantot elementu **Konts**, lai glabātu informāciju kreditoriem no veida **Organizācija**.
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Izmantot paplašināto kreditoru noformējumu Personas veida kreditoriem
+
+**Dynamics365FinanceExtended** risinājuma pakotnē ir šādas darbplūsmas procesa veidnes. Katrai veidnei tiks izveidota darbplūsma.
+
++ Izveidot kreditorus ar veidu Persona kreditoru elementā
++ Izveidot kreditorus ar veidu Persona kontaktpersonu elementā
++ Atjaunināt kreditorus ar veidu Persona kontaktpersonu elementā
++ Atjaunināt kreditorus ar veidu Persona kreditoru elementā
+
+Lai izveidotu jaunus darbplūsmas procesus, izmantojot darbplūsmas procesa veidnes, veiciet šādas darbības.
+
+1. Izveidojiet darbplūsmas procesu elementam **Kreditors** un atlasiet darbplūsmas procesa veidni **Izveidot kreditorus ar veidu Persona kontaktpersonu elementā**. Tad atl. **Labi**. Šī darbplūsma apstrādā kreditora izveides scenāriju elementam **Kontaktpersona**.
+2. Izveidojiet darbplūsmas procesu elementam **Kreditors** un atlasiet darbplūsmas procesa veidni **Atjaunināt kreditorus ar veidu Persona kontaktpersonu elementā**. Tad atl. **Labi**. Šī darbplūsma apstrādā kreditora atjaunināšanas scenāriju elementam **Kontaktpersona**.
+3. Izveidojiet darbplūsmas procesu elementam **Kontaktpersona** un atlasiet darbplūsmas procesa veidni **Izveidot kreditorus ar veidu Persona kreditoru elementā**.
+4. Izveidojiet darbplūsmas procesu elementam **Kontaktpersona** un atlasiet darbplūsmas procesa veidni **Atjaunināt kreditorus ar veidu Persona kreditoru elementā**.
+5. Darbplūsmas var konfigurēt vai nu kā reāllaika vai fona darbplūsmas, atkarībā no jūsu prasībām. Lai konfigurētu darbplūsmu kā fona darbplūsmu, atlasiet **Pārvērst par fona darbplūsmu.**
+6. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Kontaktpersona** un **Kreditors**, lai sāktu izmantot elementu **Kontaktpersona**, lai glabātu informāciju kreditoriem no veida **Persona**.

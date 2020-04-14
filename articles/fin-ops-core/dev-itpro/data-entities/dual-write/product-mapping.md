@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081155"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173204"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Ja biznesa ekosistēma ir izveidota no Dynamics 365 lietojumprogrammām, piemēram, Finance, Supply Chain Management un Sales, uzņēmumi bieži lieto šīs programmas, lai iegūtu preču datus. Tas ir tāpēc, ka šīs programmas nodrošina stabilu preču infrastruktūru, kas papildināta ar sarežģītākām cenu noteikšanas koncepcijām un precīziem rīcībā esošajiem krājumu datiem. Uzņēmumi, kuri izmanto ārējo Product Lifecycle Management (PLM) sistēmu, lai iegūtu produktu datus, var novirzīt produktus no Finance and Operations programmām uz citām Dynamics 365 programmām. Vienotā preču pieredze nodrošina integrētu preču datu modeli Common Data Service , lai visi programmas lietotāji, ieskaitot Power Platform lietotājus, var izmantot bagātīgo preču datu priekšrocības, ko sniedz Finance and Operations programmas.
 
@@ -52,7 +52,7 @@ Duālā ieraksta elementa kartes precēm ir izveidotas, lai virzītu datus tikai
 
 Preces informācijā ir ietverts viss nepieciešamais, kas saistīts ar preci un tās definīciju, piemēram, preces dimensijas vai izsekošana un noliktavas dimensijas. Kā redzams šajā tabulā, tiek izveidota elementa karšu kolekcija, lai sinhronizētu preces un saistīto informāciju.
 
-Finance and Operations | Citas Dynamics 365 programmas | Apraksts
+Finance and Operations programmas | Citas Dynamics 365 programmas | apraksts
 -----------------------|--------------------------------|---
 Izlaistās preces V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** elements satur laukus no Finance and Operations lietojumprogrammām, kas nosaka preci, un kurās ir ietverta preces finanšu un pārvaldības informācija. 
 Common Data Service izlaistās atšķirīgās preces | Prece | **Preces** elements satur laukus, kas definē preci. Tā ietver atsevišķas preces (preces ar apakštipa preci) un preces variantus. Tālāk esošajā tabulā parādīta kartēšana.
@@ -75,8 +75,8 @@ Vienība | uoms
 Mērvienību pārveidošana | msdyn_ unitofmeasureconversions
 Īpaša preces mērvienības konversija | msdyn_productspecificunitofmeasureconversion
 Preces kategorijas | msdyn_productcategories | Katra no preču kategorijām un informācija par tās struktūru un raksturlielumiem ir ietverta preču kategorijas elementā. 
-Preču kategoriju hierarhijas | msdyn_productcategoryhierarhies | Preču hierarhijas izmanto, lai kategorizētu vai grupētu preces. Kategoriju hierarhijas ir pieejamas, Common Data Service, izmantojot preču kategoriju hierarhijas elementu. 
-Preču kategoriju hierarhijas lomas | msdyn_productcategoryhierarchies | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Norādiet, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomas elements tiek lietots. 
+Preču kategoriju hierarhijas | msdyn_productcategoryhierarhies | Varat izmantot preču hierarhijas, lai dalītu preces kategorijās vai grupās. Kategoriju hierarhijas ir pieejamas pakalpojumā Common Data Service, izmantojot preču kategoriju hierarhijas elementu. 
+Preču kategoriju hierarhijas lomas | msdyn_productcategoryhierarchies | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Tās norāda, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomas elements tiek lietots. 
 Preču kategoriju piešķires | msdyn_productcategoryassignments | Lai piešķirtu preci kategorijai, var izmantot preču kategorijas piešķires elementu.
 
 ## <a name="integration-of-products"></a>Preču integrēšana
@@ -143,7 +143,7 @@ Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi 
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Mērvienība un mērvienību pārvēršana
 
-Mērvienības un tās atbilstošie pārveidojumi ir pieejami Common Data Service sekojošajā datu modelī, kas redzams diagrammā.
+Mērvienības un to atbilstošais pārveidojums ir pieejami Common Data Service sekojošajā datu modelī, kas redzams diagrammā.
 
 ![Preču datu modelis](media/dual-write-product-three.png)
 
@@ -153,7 +153,7 @@ Mērvienības koncepcija ir integrēta starp Finance and Operations un citām Dy
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Sākotnējā atbilstošo datu vienību sinhronizēšana starp programmu Finance and Operations un Common Data Service
 
@@ -203,7 +203,7 @@ Preces politikas ir politiku kopas, ko izmanto preču definēšanai un to rakstu
 
 Lai unikāli identificētu preces starp Dynamics 365 for Finance and Operations un precēm pakalpojumā Common Data Service, tiek izmantotas integrācijas atslēgas. Precēm **(productnumber)** ir unikāla atslēga, kas identificē preci pakalpojumā Common Data Service. To veido šāda konkatenācija: **(uzņēmums, msdyn_productnumber)**. **Uzņēmums** norāda juridisko personu Finance and Operations, un **msdyn_productnumber** norāda preces numuru konkrētai precei Finance and Operations. 
 
-Citam Dynamics 365 programmu lietotājam prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka lauka etiķete ir **Preces numurs**). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr lauks (productnumber) — unikālā preces atslēga — netiek rādīts. 
+Citu Dynamics 365 programmu lietotājiem prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka lauka etiķete ir **Preces numurs**). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr lauks (productnumber) — unikālā preces atslēga — netiek rādīts. 
 
 Ja izveidojat programmas pakalpojumā Common Data Service, ir jāpievērš uzmanība tam, kā izmantojat **productnumber** (unikālo produkta ID) kā integrācijas atslēgu. Nelietojiet **msdyn_productnumber**, jo tā nav unikāla. 
 

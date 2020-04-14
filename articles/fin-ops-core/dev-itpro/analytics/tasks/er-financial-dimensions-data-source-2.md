@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788564bfd7c3df146266976d8eef6621ff37ca2a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 48ce4942f8407242013df45f533390784694d4e6
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550629"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142551"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem. Šīs darbības var veikt jebkurā uzņēmumā.
 
-Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti procedūrā "ER Finanšu dimensijas, ko izmanto kā datu avotu" (1. daļa: datu modeļa izveide).
+Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti procedūrā "ER Finanšu dimensijas, ko izmanto kā datu avotu (1. daļa: datu modeļa izveide)".
 
 
 ## <a name="add-required-data-sources-to-model-mapping"></a>Pievienot nepieciešamos datu avotus modeļa kartēšanai
@@ -57,8 +57,8 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 20. Finanšu dimensiju atlases laukā atlasiet 'Juridiska persona'.
     * Atlasiet Visu, lai lietotājs varētu atlasīt vēlamo dimensiju pašreizējai instancei laukā Uzmeklēšana.  Atlasiet juridisko personu, lai lietotājs varētu atlasīt dimensijas uzņēmumam laukā Uzmeklēšana.  Atlasīt Dimensiju, lai lietotājs varētu atlasīt dimensijas, izmantojot vienu dimensiju kopu.  
 21. Atlasiet Jā laukā Jautāt galveno kontu.
-    * Iestatiet “Jautāt galveno kontu” uz Jā, lai atļautu lietotājiem atlasīt galveno kontu kā daļu no dimensiju saraksta.   Ja ir iestatīts uz Nē, galvenais konts netiks iekļauts dimensiju sarakstā, un opcija “Vai galvenais konts ir obligāts” ir iespējota. Ja opcija “Vai galvenais konts ir obligāts” ir iestatīta uz Jā, iekļaujiet galveno kontu dimensiju sarakstā, neatkarīgi no lietotāja veiktās atlases.  
-22. Noklikšķiniet uz OK.
+    * Iestatiet 'Jautāt galveno kontu' uz Jā, lai atļautu lietotājiem atlasīt galveno kontu kā daļu no dimensiju saraksta.   Ja ir iestatīts uz Nē, galvenais konts netiks iekļauts dimensiju sarakstā, un opcija 'Vai galvenais konts ir obligāts' ir iespējota. Ja opcija 'Vai galvenais konts ir obligāts' ir iestatīta uz Jā, iekļaujiet galveno kontu dimensiju sarakstā, neatkarīgi no lietotāja veiktās atlases.  
+22. Noklikšķiniet uz Labi.
 23. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 24. Noklikšķiniet uz Pievienot sakni.
 25. Laukā Nosaukums ierakstiet 'LedgerJournal'.
@@ -134,7 +134,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
     * Uzņēmums.'atrast()'.'nosaukums()'  
 64. Noklikšķiniet uz Saglabāt.
 65. Aizvērt lapu.
-66. Noklikšķiniet uz Saglabāt.
+66. Klikšķiniet Saglabāt.
 67. Aizvērt lapu.
 
 ## <a name="complete-this-draft-models-version"></a>Pabeigt šo modeļa melnraksta versiju

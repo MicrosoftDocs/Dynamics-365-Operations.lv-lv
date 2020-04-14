@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd606461b9d7198bda12e297598fae0cbf8b39a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188721"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143342"
 ---
 # <a name="review-collections-information"></a>Iekasēšanas informācijas pārskatīšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā pārskatīt iekasēšanas informāciju, kā arī aprakstītas dažādas iestatīšanas opcijas un iekasēšanas transakcijas. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
@@ -108,9 +108,9 @@ ms.locfileid: "2188721"
 - Atlasiet vecumstruktūras perioda definīciju. Pēc noklusējuma tiek rādīta tā vecumstruktūras perioda definīcija, kas ir saistīta ar parādītā debitora vecumstruktūras momentuzņēmumu. Vecumstruktūras perioda definīcija kontrolē vecumstruktūras periodus un summas, kas tiek rādītas papildinformācijas logā **Vecas bilances** un **Kredīta informācija**.  
 - Atveriet izvēlni, kurā ir ietverti tālāk norādītie vienumi.    
   - Uzņēmums — parāda summas juridiskās personas uzskaites valūtā papildinformācijas logā Vecas bilances un Kredīta informācija.  
-  - Debitors — parāda summas debitora uzskaites valūtā papildinformācijas logā Vecas bilances un Kredīta informācija  
+  - Debitors — parāda summas debitora uzskaites valūtā papildinformācijas logā Vecas bilances un Kredīta informācija.  
 - Debitora vecumstruktūras momentuzņēmumā atlasiet vienu vai vairākas juridiskās personas, kuru informāciju vēlaties skatīt. Juridiskās personas, kas tiek parādītas sarakstā, tika atlasītas vecumstruktūras momentuzņēmuma izveides laikā.  
-- Skatiet debitora pārskatu Microsoft Excel formātā. Var atlasīt, lai pārskatā iekļautu transakciju diapazons sākuma datumu un izlemt, vai ietvert tikai atvērtās transakcijas vai gan atvērtās, gan segtās transakcijas. Ja vecumstruktūras momentuzņēmumā ir iekļauta vairāku juridisko personu informācija, tiek iekļautas visu juridisko personu transakcijas.  
+- Skatiet klienta pārskatu Microsoft Excel formātā. Var atlasīt, lai pārskatā iekļautu transakciju diapazons sākuma datumu un izlemt, vai ietvert tikai atvērtās transakcijas vai gan atvērtās, gan segtās transakcijas. Ja vecumstruktūras momentuzņēmumā ir iekļauta vairāku juridisko personu informācija, tiek iekļautas visu juridisko personu transakcijas.  
 - Atveriet formu **Dokumenti**, kurā var izveidot vai rediģēt dokumentus vai piezīmes.  
 4. Darbību rūtī atlasiet **Sazināties**.  
 - Atveriet programmu Outlook, no kuras var nosūtīt e-pasta ziņojumu kontaktpersonai, kas tika norādīta laukā Kontaktpersona. Ja iekasēšanas kontaktpersona nav norādīta, tiek izmantota debitora konta primārā adrese. Ja nav norādīta primārā kontaktpersona, e-pasta ziņojumi tiks nosūtīti uz pirmo adresi, kas norādīta formā **Kontaktpersonas**. Atlasītas transakcijas tiek iekļautas kā pielikums. Pielikums ir Excel formātā un satur trīs darblapas. E-pasta ziņojumu veidni debitora kontaktpersonām var norādīt formā **Debitoru parametri**.  
@@ -119,7 +119,7 @@ ms.locfileid: "2188721"
 - Šī poga nav pieejama, ja kontaktpersonai, kas atlasīta šajā formā, nav iestatīta e-pasta adrese.  
 - Atveriet programmu Outlook, no kuras var nosūtīt e-pasta ziņojumu darbiniekam, kurš ir norādīts kā debitoram piešķirtās pārdošanas grupas tirdzniecības pārstāvis. Ja transakcijas ir atlasītas, tās tiek iekļautas kā pielikums. Pielikums ir Excel formātā un satur divas darblapas. E-pasta ziņojumu veidni pārdevējiem var norādīt formā **Debitoru parametri**.  
 - Šī poga nav pieejama, ja pārdevējam, kas tiek rādīts šajā formā, nav iestatīta e-pasta adrese.  
-- Skatiet un izpildiet darbības ar debitoru transakcijām. Ja izmantojat centralizētus norēķinus, tiek iekļauta informācija par visām juridiskajām personām, kas ir iekļautas debitora vecumstruktūras momentuzņēmumā. Varat ierobežot informāciju par juridisko personu, atlasot **Uzņēmums** darbību rūts grupā **Atlasīt**.  
+- Skatiet un izpildiet darbības ar debitoru transakcijām. Ja izmantojat centralizētus norēķinus, tiek iekļauta informācija par visām juridiskajām personām, kas ir iekļautas klienta vecumstruktūras momentuzņēmumā. Varat ierobežot informāciju par juridisko personu, atlasot **Uzņēmums** darbību rūts grupā **Atlasīt**.  
 - Mainiet atlasīto transakciju iekasēšanas statusu.    
   - Nav apstrīdēts — saistībā ar darījumu nav notikusi neviena iekasēšanas transakcija.    
   - Apstrīdēts — debitors jums ir paziņojis, ka ar darījumu ir saistīta problēma.    

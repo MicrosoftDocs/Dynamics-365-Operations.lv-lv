@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dcc00bba4aa92ad089bcab83ee22f79c21ccc252
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042854"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141860"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Dokumentu ar programmas datiem ģenerēšana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (4. daļa — modificēt formātu)".
+Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (4. daļa: Modificēt formātu)".
 
 
 
@@ -43,13 +43,13 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 
     Arhivējot detalizētu informāciju par Intrastat pārskatu veidošanas procesu, mums ir nepieciešams noteikt katra izveidotā arhīva ierakstus. Šajā nolūkā ir jākonfigurē īpaša numuru sērija.  
 
-3. Atlasiet atsauci "Intrastat archive ID".
+3. Atlasiet atsauci 'Intrastat arhīva ID'.
 4. Laukā Numuru sērijas kods, ierakstiet kādu vērtību.
 
-    Laukā Numuru sērijas kods ievadiet vai atlasiet vērtību "Fore_2".  
+    Laukā 'Numuru sērijas kods' ievadiet vai atlasiet vērtību 'Fore_2'.  
 
 5. ResolveChanges Numuru sērijas kods.
-6. Noklikšķiniet uz Saglabāt.
+6. Klikšķiniet Saglabāt.
 7. Aizvērt lapu.
 
 ## <a name="run-modified-er-format"></a>Modificētā ER formāta palaišana

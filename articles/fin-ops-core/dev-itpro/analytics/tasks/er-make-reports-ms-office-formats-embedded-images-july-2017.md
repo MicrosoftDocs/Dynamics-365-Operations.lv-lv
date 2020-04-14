@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143782413359d87f3d4c46940f9a699fbf0e8f90
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6d292d028ebc87892760524dbd7709e8f181fc5d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769813"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141814"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Konfigurāciju noformēšana pārskatu ģenerēšanai Office formātā, kurā ir iegultie attēli
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru ER konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu. Šīs procedūrās aprakstā ir paskaidrots, kā izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai ģenerētu iegultus attēlus saturošus Microsoft Excel vai Word dokumentus. Šajā procedūrā izveidosit nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Šīs darbības var izpildīt, izmantojot USMF datu kopu. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Pirms sākat, lejupielādējiet un saglabājiet failus, kas uzskaitīti palīdzības tēmā [Attēlu un formu iegulšana dokumentos, kuri tiek ģenerēti, izmantojot EP](../electronic-reporting-embed-images-shapes.md). Šie faili ir: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png un Cheque template Word.docx.
+Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru "ER konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu." Šīs procedūrās aprakstā ir paskaidrots, kā izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai ģenerētu iegultus attēlus saturošus Microsoft Excel vai Word dokumentus. Šajā procedūrā izveidosit nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. Šīs darbības var izpildīt, izmantojot USMF datu kopu. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Pirms sākat, lejupielādējiet un saglabājiet failus, kas uzskaitīti palīdzības tēmā [Attēlu un formu iegulšana dokumentos, kuri tiek ģenerēti, izmantojot EP](../electronic-reporting-embed-images-shapes.md). Šie faili ir: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png un Cheque template Word.docx.
 
 ## <a name="verify-prerequisites"></a>pārbaudiet priekšnoteikumus;  
  1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.  
- 2. Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, izpildiet darbības, kas aprakstītas procedūrā Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu.   
+ 2. Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā "Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".   
  3. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.  
  
 ## <a name="add-a-new-er-model-configuration"></a>Pievienot jaunu ER modeļa konfigurāciju  
@@ -42,7 +42,7 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru ER kon
  6. Ielādētais modelis tiks izmantots kā datu avots informācijai, lai ģenerētu dokumentus, kuros ir attēli, programmā Excel un Word.  
 
 ## <a name="add-a-new-er-format-configuration"></a>Jaunas ER formāta konfigurācijas pievienošana  
- 1. Tā vietā, lai izveidotu jaunu formātu, varat ielādēt ER formāta konfigurācijas failu (Cheques printing format.xml), kuru saglabājāt iepriekš. Šis fails satur formāta parauga izkārtojumu, lai izdrukātu čekus, izmantojot iepriekš izdrukātu formu un šī formāta kartējumu uz datu modeli “Čeku modelis”.   
+ 1. Tā vietā, lai izveidotu jaunu formātu, varat ielādēt ER formāta konfigurācijas failu (Cheques printing format.xml), kuru saglabājāt iepriekš. Šis fails satur formāta parauga izkārtojumu, lai izdrukātu čekus, izmantojot iepriekš izdrukātu formu un šī formāta kartējumu uz datu modeli 'Čeku modelis'.   
  2. Noklikšķiniet uz Mainīt.  
  3. Noklikšķiniet uz Ielādēt no XML faila.  
  4. Noklikšķiniet uz Pārlūkot un atlasiet failu Cheques printing format.xml.   
@@ -55,7 +55,7 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru ER kon
  1. Darbību rūtī noklikšķiniet uz Konfigurācijas.  
  2. Noklikšķiniet uz Lietotāja parametri.  
  3. Laukā Palaist iestatījumus atlasiet Jā.  
-  Ieslēdziet karodziņu “Palaist melnrakstu”, lai startētu atlasītā formāta melnraksta versiju, nevis pabeigto.  
+  Ieslēdziet karodziņu 'Palaist melnrakstu', lai startētu atlasītā formāta melnraksta versiju, nevis pabeigto.  
  4. Noklikšķiniet uz OK.  
 
 ## <a name="configure-cash--bank-management-parameters"></a>Kases un bankas vadības parametru konfigurēšana  

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924428"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149600"
 ---
 # <a name="create-a-vendor-account"></a>Piegādātāja konta izveidošana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā izveidot kreditora kontu un pievienot adresi un kontaktinformāciju. Procedūrā netiek parādīts, kā aizpildīt visus laukus iepirkuma un finanšu mērķiem. Lai uzzinātu vairāk par šiem laukiem, lūdzu, izlasiet lauku aprakstus. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Kreditoru kontus parasti izveido sagādes speciālists vai debitoru parādu personāls.
 
@@ -44,7 +44,7 @@ ms.locfileid: "1924428"
 ## <a name="add-an-address"></a>Adreses pievienošana
 1. Izvērsiet sadaļu **Adreses**.
 2. Noklikšķiniet uz **Pievienot**.
-3. Laukā **Nolūks** ievadiet vai atlasiet kādu vērtību. Varat atzīmēt vienu vai vairākus nolūkus. Tie tiek izmantoti, lai atlasītu pareizo adresi konkrētam nolūkam. Piemēram, ja nolūks ir “Rēķins”, šī adrese tiks izmantota, sūtot rēķinus.
+3. Laukā **Nolūks** ievadiet vai atlasiet kādu vērtību. Varat atzīmēt vienu vai vairākus nolūkus. Tie tiek izmantoti, lai atlasītu pareizo adresi konkrētam nolūkam. Piemēram, ja nolūks ir "Rēķins", šī adrese tiks izmantota, sūtot rēķinus.
 4. Laukā **Nosaukums vai apraksts** ierakstiet vērtību.
 5. Laukā **Valsts/reģions** ievadiet vai atlasiet kādu vērtību. Ievadiet adreses detaļas. Atlasītā valsts/reģions noteiks laukus, kuri tiks piedāvāti, atbilstoši valsts/reģiona adreses formātam. 
 6. Noklikšķiniet uz **Labi**.

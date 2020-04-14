@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557b25af0fba6429d34564e1a3e158b6258698a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023276"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140880"
 ---
 # <a name="define-loyalty-reward-points"></a> Lojalitātes programmas atlīdzības punktu definēšana
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šajā procedūrā parādīts, kā definēt lojalitātes programmas atlīdzības punktus. Pirms iestatāt lojalitātes programmu, jāiestata lojalitātes programmas atlīdzības punkti. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
@@ -42,7 +42,7 @@ ms.locfileid: "3023276"
 8. Laukā Izpirkšanas rangi ievadiet skaitli.
     * Izpirkšanas rangi tiek izmantoti, ja divus vai vairāk izpērkamus atlīdzības punktus var izmantot, lai maksātu par precēm. Ja diviem atlīdzības punktiem ir vienāds izpirkšanas rangs, tad tiks izmantots tas, kuram nepieciešams mazāks punktu skaits.  
 9. Laukā Termiņa beigu laika vērtība ievadiet skaitli.
-    * Piešķirtajiem atlīdzības punktiem ir konkrēts derīguma termiņš dienās, mēnešos vai gados. Vērtība 0 nozīmē to, ka lojalitātes programmas atlīdzības punktiem nav derīguma termiņa.  
+    * Piešķirtajiem atlīdzības punktiem ir konkrēts derīguma termiņš dienās, mēnešos vai gados. Vērtība '0' nozīmē to, ka lojalitātes programmas atlīdzības punktiem nav derīguma termiņa.  
 10. Laukā Termiņa beigu laika vienība atlasiet opciju.
 11. Noklikšķiniet uz Saglabāt.
 

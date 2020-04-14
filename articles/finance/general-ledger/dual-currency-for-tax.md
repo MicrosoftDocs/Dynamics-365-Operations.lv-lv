@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124097"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161596"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Divkāršās valūtas atbalsts PVN
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ Divkāršās valūtas līdzeklis programmai Dynamics 365 Finance tika ieviests v
 
 Iepriekšējās versijās transakcijas tika konvertētas pārskata valūtā šādā secībā: 
 
-Transakcijas kopsumma tika aprēķināta transakcijas valūtā > Transakcijas summa tika konvertēta uzskaites valūtā > Uzskaites valūtas summa tika konvertēta pārskata valūtā
+- Transakcijas kopsumma tika aprēķināta transakcijas valūtā > Transakcijas summa tika konvertēta uzskaites valūtā > Uzskaites valūtas summa tika konvertēta pārskata valūtā
 
 Pēc divkāršās valūtas funkcijas iespējošanas transakcijas tika konvertētas pārskata valūtā šādā secībā:
 
@@ -48,8 +48,6 @@ Divkāršu valūtu atbalsta rezultātā ir pieejami divi jauni līdzekļi līdze
 - Nodokļu apmaksas automātiskā bilance pārskata valūtā (laidiens versijā 10.0.11)
 
 Divkāršu valūtu atbalsts PVN nodrošina, ka nodokļi tiek aprēķināti precīzi nodokļu valūtā un ka PVN apmaksas bilance tiek aprēķināta precīzi gan uzskaites valūtā, gan pārskata valūtā. 
-
-Jaunie līdzekļi pašlaik ir iespējoti privātā priekšskatījuma debitoriem. Lai iespējotu līdzekļus, izceliet pakalpojuma pieprasījumu, izmantojot atbilstošos kanālus uz Microsoft.
 
 ## <a name="sales-tax-conversion"></a>PVN konvertēšana
 
