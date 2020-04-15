@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a317fba4f30ab9fefe6b12637d53fda141d354bf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f76f6539e8f318b75c8ec8f53020eb7052ec45
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188882"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137926"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Atgādinājuma vēstules secības izveide
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Izmantojiet šo uzdevumu ceļvedi, lai izveidotu atgādinājuma vēstuļu sēriju. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
@@ -42,7 +42,7 @@ Izmantojiet šo uzdevumu ceļvedi, lai izveidotu atgādinājuma vēstuļu sērij
 11. Ievadiet papildmaksu, kas jāattiecina, grāmatojot šo atgādinājuma vēstuli.
 12. Laukā **Krājumu PVN grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. Atlasiet krājuma PVN grupu, ja papildmaksai jāaprēķina PVN.  
 13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-14. Laukā **Minimālā nokavētā bilance** ievadiet minimālo nokavēto bilanci, kas nepieciešama pirms atgādinājuma vēstules nosūtīšanas.
+14. Laukā **Minimālais nokavētais atlikums** ievadiet minimālo nokavējuma bilanci, kas nepieciešama pirms inkasācijas vēstules nosūtīšanas.
 15. Laukā **Dienas** ievadiet pieļaujamo pagarinājuma dienu skaitu. Šis ir dienu skaits pēc apmaksas datuma, pēc kuru paiešanas var tikt ģenerēta atgādinājuma vēstule. Termiņš, kas tiek izmantots aprēķinam, ir atkarīgs no atgādinājuma vēstules pozīcijas atgādinājuma vēstuļu sērijā:
     - Pagarinājuma periods 1. atgādinājuma vēstulē tiek noteikts pēc rēķina apmaksas datuma.
     - Pagarinājuma periods 2. atgādinājuma vēstulei un turpmākām vēstulēm tiek noteikts pēc datuma, kad iepriekšējā atgādinājuma vēstule tikusi iegrāmatota vai izdrukāta, atkarībā no atlases laukā Atjaunināt atgādinājuma vēstules kodu lapā Debitoru parādu parametri.  

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc3e1ce842e8d3b693b5e81ed665e9f3c00bfb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9bccd92946783628dce37c3fd018e4dd927efd49
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023265"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141137"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Kārtulu un parametru iestatīšana pārkraušanai sadales centrā un sagādes sadalē
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šī procedūra parāda, kā izveidot papildināšanas kārtulas. Papildināšanas kārtulas var lietot, lai kontrolētu to, kā preces tiek sadalītas veikalos, izmantojot pārkraušanu sadales centrā un sagādes sadali. Papildināšanas kārtulas var iestatīt veikaliem vai veikalu grupām. Katrā kārtulas rindā definētā svara vērtība kontrolēs to, kā preču daudzumi tiks sadalīti starp veikaliem, ja pārkraušanai sadales centrā vai sagādes sadalēm kā sadales metode tiks izmantotas papildināšanas kārtulas. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
