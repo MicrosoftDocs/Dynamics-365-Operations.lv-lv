@@ -5,6 +5,12 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 13.\_aprīlis"
+          href: hr-whats-new-2020-04-13.md
+        - name: "2020.\_gada 3.\_aprīlis"
+          href: hr-whats-new-2020-04-03.md
+        - name: "2020.\_gada 24.\_marts"
+          href: hr-whats-new-2020-03-24.md
         - name: "2020.\_gada 19.\_marts"
           href: hr-whats-new-2020-03-19.md
         - name: "2020.\_gada 10.\_marts"
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Pārvaldīt atvieglojumus
           items:
-            - name: 'Priekšskatījuma līdzeklis: priekšrocību pārvaldība'
+            - name: Atvieglojumu pārvaldība
               items:
                 - name: Atvieglojumu pārvaldības pārskats
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Iestatīt atvieglojumu plānus
                       href: hr-benefits-plans-setup.md
-                    - name: Izveidot darbinieku atvieglojumu plānus
-                      href: hr-benefits-plans-worker.md
                     - name: Iestatīt brīvā režīma kredīta programmas
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Konfigurēt nākotnes dzīves notikumus
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Apstrādāt atvieglojumu plānus
                   items:
                     - name: Procesa reģistrācijas piemērojamība
@@ -499,6 +501,8 @@
               href: hr-leave-and-absence-enroll.md
             - name: Uzkrāt atvaļinājumu un kavējumu plānus
               href: hr-leave-and-absence-accrue.md
+            - name: Pārtraukt atvaļinājumu
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Skatīt analīzi par atvaļinājumu un kavējumu
               href: hr-leave-and-absence-analytics.md
             - name: Atvaļinājumu un kavējumu pieprasījumu pārvaldība

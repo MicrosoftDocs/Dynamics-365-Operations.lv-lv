@@ -1,5 +1,5 @@
 ---
-title: Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa
+title: Pārskatu veidošana un analīze, izmantojot Power BI sākumlapu
 description: Šajā tēmā ir norādīti resursi, kurus varat izmantot, lai uzzinātu vairāk par pieejamajiem biznesa informācijas un atskaišu veidošanas rīkiem.
 author: sericks007
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771568"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258584"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Biznesa informācijas (BI) un atskaišu veidošanas sākumlapa
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>Pārskatu veidošana un analīze, izmantojot Power BI sākumlapu
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "2771568"
 ## <a name="get-started"></a>Darba sākšana
 - [Piekļuve informācijai un atskaišu veidošana](information-access-reporting.md)
 - [Tehniskas sarunas: Atskaišu veidošanas opcijas](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Power BI Analīzes un Reporting Services emuārs](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (emuārs)
+- [Finance and Operations: Power BI Analīzes un atskaišu veidošanas pakalpojumu emuārs](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (emuārs)
 
 ## <a name="analytical-workspaces"></a>Analītiskās darbvietas
 Darbvietās var izmantot bagātīgas infografikas un vizuālos līdzekļus, ko atbalsta Microsoft Power BI. Šīs infografikas un vizuālie līdzekļi ietver daudzas trešo pušu nodrošinātās vadīklas. Tādējādi darbvietas lietotājiem var sniegt izteikti vizuālu un interaktīvu pieredzi.
