@@ -3,7 +3,7 @@ title: Reģistrācijas piemērotības apstrāde
 description: Šajā rakstā ir paskaidrots, kā izpildīt reģistrācijas piemērotības apstrādi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0344c48460a7d1540481e09ba106526e119de72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009753"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230020"
 ---
 # <a name="process-enrollment-eligibility"></a>Reģistrācijas piemērotības apstrāde
-
-[!include [banner](includes/preview-feature.md)]
 
 Šajā rakstā ir paskaidrots, kā izpildīt reģistrācijas piemērotības apstrādi.
 
@@ -37,10 +35,10 @@ ms.locfileid: "3009753"
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Reģistrācijas periods | Reģistrācijas periods, kuram apstrādāt reģistrācijas piemērotību. |
-   | Juridiska persona | Juridiskā persona, kam apstrādāt reģistrācijas piemērotību. |
-   | Nodarbinātais | Nodarbinātais, kuram apstrādāt reģistrācijas piemērotību. Ja šo lauku atstāsiet tukšu, reģistrācijas piemērotība tiks apstrādāta visiem nodarbinātajiem. |
-   | Atvieglojumu plāns | Atvieglojumu plāns, kam apstrādāt reģistrācijas piemērotību.
+   | **Reģistrācijas periods** | Reģistrācijas periods, kuram apstrādāt reģistrācijas piemērotību. |
+   | **Juridiska persona** | Juridiskā persona, kam apstrādāt reģistrācijas piemērotību. |
+   | **Nodarbinātais** | Nodarbinātais, kuram apstrādāt reģistrācijas piemērotību. Ja šo lauku atstāsiet tukšu, reģistrācijas piemērotība tiks apstrādāta visiem nodarbinātajiem. |
+   | **Atvieglojumu plāns** | Atvieglojumu plāns, kam apstrādāt reģistrācijas piemērotību.
 
 3. Ja vēlaties izpildīt apstrādi fonā, atlasiet **Izpildīt fonā** un veiciet tālāk minētos uzdevumus.
 
@@ -53,3 +51,24 @@ ms.locfileid: "3009753"
    4. Atlasiet **Labi**. Apstrāde tiks izpildīta ar iestatītajiem parametriem.
 
 4. Atlasiet **Labi**.
+
+## <a name="view-process-results"></a>Skatīt procesa rezultātus
+
+Šajā rakstā ir paskaidrots, kā skatīt reģistrācijas piemērotības rezultātus.
+
+1.  Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Procesa rezultāti**.
+
+2.  Veidlapā **Procesa rezultāti** ir norādīti šādi lauki:
+
+   | Lauks | apraksts |
+   | --- | --- |
+   | **Procesa ID** | Unikālais ID darbinieku, juridisko personu un procesa izpildes kombinācijai. |
+   | **Procesu tips** | Tas identificē procesu, kas tika palaists. Piemēram: Uzņemšana. |
+   | **Laikspiedols** | Laiks, kad tika palaists atbilstības process. |
+   | **Juridiska persona** | Juridiskā persona, kas norādīta uzņemšanas procesa laikā. |
+   | **Darbinieks** | Darbinieks, kurš tika apstrādāts. |
+   | **Plāns | Atvieglojumu plāns, kuram tika mēģināts veikt uzņemšanu. |
+   | **Piemērojamības kārtula** | Piemērojamības kārtula, kas tika apstrādāta. Ja radās kļūda, pirms tika palaista piemērojamība, šis lauks būs tukšs. Piemēram, ja darbiniekam nav noteikta kompensācija, piemērojamības process netiks izpildīts, un šis lauks tiks atstāts tukšs. |
+   | **Rezultāta statuss** | Tas būs atbilstīgs vai neatbilstīgs. Rezultāta statuss būs neatbilstīgs, ja darbinieks neatbilst piemērojamības nosacījumu kritērijam, ja darbiniekam trūkst nepieciešamās informācijas, piemēram, atalgojuma biežums vai fiksēta kompensācija, vai ja atvieglojumu plānā trūkst informācijas, kas liedz darbiniekiem tikt iesaistītam. |
+   | **Rezultāta ziņojums** | Norāda, kāpēc darbiniekam nav tiesību saņemt atvieglojumu plānu vai ja piemērojamības kārtula ir pieņemta. |
+

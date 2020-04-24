@@ -1,7 +1,7 @@
 ---
 title: Regression Suite Automation Tool apmācības izmantošana
 description: Šajā tēmā ir parādīts, kā izmantot Regression Suite Automation Tool (RSAT). Tajā ir aprakstīti dažādi līdzekļi un sniegti piemēri, kuros izmantota papildu skriptēšana.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070824"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248740"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool lietošanas apmācība
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070824"
 > [!NOTE]
 > Izmantojiet interneta pārlūka rīkus, lai lejupielādētu un saglabātu šo lapu PDF formātā. 
 
-Šajā apmācībā ir aprakstīti daži Regression Suite Automation Tool (RSAT) papildu līdzekļi, ietverta demonstrācijas piešķire un aprakstīta stratēģija un galvenās mācību tēmas.
+Šajā apmācībā ir aprakstīti daži Regression Suite Automation Tool (RSAT) papildu līdzekļi, ietverta demonstrācijas piešķire un aprakstīta stratēģija un galvenās mācību tēmas. 
 
-## <a name="features-of-rsattask-recorder"></a>RSAT/uzdevumu reģistrētāja līdzekļi
+## <a name="notable-features-of-rsat-and-task-recorder"></a>Ievērojami RSAT un uzdevumu reģistrētāja līdzekļi
 
 ### <a name="validate-a-field-value"></a>Lauka vērtības validēšana
 
-Informāciju par šo līdzekli skatiet tēmā [Jauna uzdevuma ieraksta izveide ar validēšanas funkciju](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Saglabāts mainīgais
-
-Informāciju par šo līdzekli skatiet tēmā [Esoša uzdevuma ieraksta modificēšana, lai izveidotu saglabātu mainīgo](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Atvasināts testa gadījums
-
-1. Atveriet Regression Suite Automation Tool (RSAT) un atlasiet abus testa gadījumus, ko izveidojāt, izpildot tēmā [Regression Suite Automation Tool iestatīšanas un instalēšanas pamācība](./hol-set-up-regression-suite-automation-tool.md) norādītās darbības.
-2. Atlasiet **Jauns \> Izveidot atvasināto testa gadījumu**.
-
-    ![Jauna atvasinātā testa gadījuma komandas izveide izvēlnē Jauns](./media/use_rsa_tool_01.png)
-
-3. Tiek parādīts ziņojums, ka atvasinātais testa gadījums tiks izveidots katram pašreizējā testu kopā atlasītajam testa gadījumam un ka katram atvasinātajam testa gadījumam tiks izveidota sava Excel parametru faila kopija. Atlasiet **Labi**.
-
-    > [!NOTE]
-    > Palaižot atvasināto testa gadījumu, tiek izmantots tā pamata testa gadījuma uzdevuma ieraksts un atvasinātā testa gadījuma Excel parametru faila kopija. Šādā veidā varat palaist vienu un to pašu testu ar dažādiem parametriem bez nepieciešamības uzturēt vairāk par vienu uzdevuma ierakstu. Atvasinātajam testa gadījumam nav jāietilpst tajā pašā testu kopā, kurā ietilpst tā pamata testa gadījums.
-
-    ![Ziņojuma lodziņš](./media/use_rsa_tool_02.png)
-
-    Tiek izveidoti divi papildu atvasinātie testa gadījumi, un tiek atlasīta šo atvasināto testa gadījumu izvēles rūtiņa **Atvasināts?**.
-
-    ![Izveidotie atvasinātie testa gadījumi](./media/use_rsa_tool_03.png)
-
-    Pakalpojumā Azure DevOps tiek automātiski izveidots atvasinātais testa gadījums. Tas ir testa gadījuma **Izveidot jaunu preci** pakārtotais vienums un ir atzīmēts ar īpašu atslēgvārdu: **RSAT:DerivedTestSteps**. Šie testa gadījumi arī tiek automātiski pievienoti testa plānam pakalpojumā Azure DevOps.
-
-    ![RSAT:DerivedTestSteps atslēgvārds](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Ja kāda iemesla dēļ izveidotie atvasinātie testa gadījumi nav pareizā secībā, dodieties uz Azure DevOps un pārkārtojiet testa gadījumus testu komplektā, lai RSAT varētu tos palaist pareizā secībā.
-
-4. Atlasiet atvasinātos testa gadījumus un pēc tam atlasiet **Rediģēt**, lai atvērtu atbilstošos Excel parametru failus.
-5. Rediģējiet šos Excel parametru failus tādā pašā veidā, kā rediģējāt pamata failus. Citiem vārdiem sakot, pārliecinieties, ka preces ID ir iestatīts tā, lai tas tiktu ģenerēts automātiski. Turklāt pārliecinieties, ka saglabātais mainīgais tiek kopēts atbilstošajos laukos.
-6. Abu Excel parametru failu cilnē **Vispārīgi** atjauniniet lauka **Uzņēmums** vērtību uz **USSI**, lai atvasinātie testa gadījumi tiktu izpildīti attiecībā pret citu juridisko personu, nevis to, kas norādīta pamata testa gadījumam. Lai palaistu testa gadījumus attiecībā pret noteiktu lietotāju (vai lomu, kas saistīta ar noteiktu lietotāju), varat atjaunināt lauka **Testa lietotājs** vērtību.
-7. Atlasiet **Palaist**un pārliecinieties, ka prece ir izveidota gan USMF juridiskajai personai, gan USSI juridiskajai personai.
-
-### <a name="validate-notifications"></a>Paziņojumu validēšana
-
-Šo funkciju var izmantot, lai pārbaudītu, vai darbība ir notikusi. Piemēram, kad tiek izveidots un pēc tam sākts ražošanas pasūtījums, programma parāda ziņojumu “Ražošana — Sākums”, lai informētu, ka ražošanas pasūtījums ir sākts.
-
-![Paziņojums Ražošana — Sākums](./media/use_rsa_tool_05.png)
-
-Šo ziņojumu varat validēt ar RSAT, ievadot ziņojuma tekstu atbilstošā ieraksta Excel parametru faila cilnē **MessageValidation**.
-
-![Ziņojuma validēšanas cilne](./media/use_rsa_tool_06.png)
-
-Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzināts ar ziņojumu, kas tiek parādīts programmā. Ja ziņojumi nesakrīt, testa gadījums ir nesekmīgs.
-
-> [!NOTE]
-> Excel parametru faila cilnē **MessageValidation** varat ievadīt vairāk nekā vienu ziņojumu. Ziņojumi var būt arī kļūdu vai brīdinājuma ziņojumi, nevis informācijas ziņojumi.
-
-### <a name="validate-values-by-using-operators"></a>Vērtību validēšana, izmantojot operatorus
-
-Iepriekšējās RSAT versijās bija iespējams validēt vērtības tikai tad, ja kontroles vērtība bija vienāda ar paredzēto vērtību. Jaunais līdzeklis ļauj validēt mainīgo, kas nav vienāds ar, ir mazāks par vai ir lielāks par norādīto vērtību.
-
-- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **false** uz **true**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    Excel parametru failā tiek parādīts jauns laiks **Operators**.
-
-    > [!NOTE]
-    > Ja izmantojat vecāku RSAT versiju, ir jāģenerē jauni Excel parametru faili.
-
-    ![Lauks Operators](./media/use_rsa_tool_07.png)
+RSAT ļauj iekļaut pārbaudes soļus jūsu pārbaudes gadījumā, lai validētu paredzētās vērtības. Lai iegūtu vairāk informācijas par šo līdzekli, skatiet rakstu [Pārbaudīt paredzētās vērtības](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 Tālāk norādītajā piemērā ir parādīts, kā varat izmantot šo līdzekli, lai pārbaudītu, vai rīcībā esošo krājumu daudzums ir vairāk nekā 0 (nulle).
 
@@ -115,7 +49,7 @@ Tālāk norādītajā piemērā ir parādīts, kā varat izmantot šo līdzekli,
     5. Sarakstā atzīmējiet atlasīto rindu.
     6. Pārbaudiet, vai lauka **Pieejamā kopsumma** vērtība ir **411.0000000000000000**.
 
-2. Saglabājiet uzdevuma ierakstu BPM bibliotēkā pakalpojumā LCS un sinhronizējiet ar Azure DevOps.
+2. Saglabājiet uzdevuma reģistrēšanu un pievienojiet to testa gadījumam Azure Devops.
 3. Pievienojiet testa gadījumu testa plānam un ielādējiet testa gadījumu RSAT.
 4. Atveriet Excel parametru failu. Cilnē **InventOnhandItem** ir redzama sadaļa **Validēt InventOnhandItem**, kurā ietverts lauks **Operators**.
 
@@ -130,28 +64,32 @@ Tālāk norādītajā piemērā ir parādīts, kā varat izmantot šo līdzekli,
 
 Ja tagad lauka **Pieejamā kopsumma** vērtība norādītajam vienumam krājumā ir lielāka par 0 (nulli), testi būs sekmīgi neatkarīgi no faktiskās rīcībā esošo krājumu vērtības.
 
-### <a name="generator-logs"></a>Ģeneratora žurnāli
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Saglabātie mainīgie un testa gadījumu ķēde
 
-Šis līdzeklis izveido mapi, kurā atrodas palaisto testa gadījumu žurnāli.
+Viens no RSAT svarīgākajiem līdzekļiem ir testa gadījumu savienošana ķēdē, tas ir, iespēja nodot testa mainīgos citiem testiem. Lai iegūtu papildinformāciju, skatiet rakstu [Mainīgo kopēšana uz ķēdes testa gadījumiem](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
-- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **false** uz **true**.
+### <a name="derived-test-case"></a>Atvasināts testa gadījums
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT ļauj izmantot vienu un to pašu uzdevuma reģistrēšanu ar vairākiem pārbaudes gadījumiem, iespējojot uzdevumu darbināt ar atšķirīgām datu konfigurācijām. Papildinformācijai skatiet rakstu [Iegūtie testa gadījumi](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md).
 
-Kad testa gadījumi ir izpildīti, žurnāla failus varat atrast sadaļā **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Pārbaudīt paziņojumus un ziņas
 
-![Mape GeneratorLogs](./media/use_rsa_tool_10.png)
+Šo funkciju var izmantot, lai pārbaudītu, vai darbība ir notikusi. Piemēram, kad tiek izveidots un pēc tam sākts ražošanas pasūtījums, programma parāda ziņojumu “Ražošana — Sākums”, lai informētu, ka ražošanas pasūtījums ir sākts.
+
+![Paziņojums Ražošana — Sākums](./media/use_rsa_tool_05.png)
+
+Šo ziņojumu varat validēt ar RSAT, ievadot ziņojuma tekstu atbilstošā ieraksta Excel parametru faila cilnē **MessageValidation**.
+
+![Ziņojuma validēšanas cilne](./media/use_rsa_tool_06.png)
+
+Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzināts ar ziņojumu, kas tiek parādīts programmā. Ja ziņojumi nesakrīt, testa gadījums ir nesekmīgs.
 
 > [!NOTE]
-> Ja testa gadījumi pastāvēja, pirms mainījāt vērtību failā .config, šiem testa gadījumiem žurnāli netiks ģenerēti, kamēr netiks ģenerēti jauni testa izpildes faili.
-> 
-> ![Komanda Izveidot tikai teksta izpildes failus izvēlnē Jauns](./media/use_rsa_tool_11.png)
+> Excel parametru faila cilnē **MessageValidation** varat ievadīt vairāk nekā vienu ziņojumu. Ziņojumi var būt arī kļūdu vai brīdinājuma ziņojumi, nevis informācijas ziņojumi.
 
 ### <a name="snapshot"></a>Momentuzņēmums
 
-Šis līdzeklis uzņem to darbību ekrānuzņēmumus, kas tika izpildītas uzdevuma reģistrēšanas laikā.
+Šis līdzeklis uzņem to darbību ekrānuzņēmumus, kas tika izpildītas uzdevuma reģistrēšanas laikā. Tas ir noderīgs audita vai atkļūdošanas nolūkiem.
 
 - Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **false** uz **true**.
 
@@ -159,13 +97,7 @@ Kad testa gadījumi ir izpildīti, žurnāla failus varat atrast sadaļā **C:\\
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Sadaļā **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** tiek izveidota atsevišķa mape katram izpildītajam testa gadījumam.
-
-![Testa gadījuma momentuzņēmuma mape](./media/use_rsa_tool_12.png)
-
-Katrā no šīm mapēm varat atrast to darbību momentuzņēmumus, kas tika veiktas, kamēr tika izpildīti testa gadījumi.
-
-![Momentuzņēmumu faili](./media/use_rsa_tool_13.png)
+Kad tiek palaists testa gadījums, RSAT ģenerēs soļu momentuzņēmumus (attēlus) pārbaudes gadījumu atskaņošanas mapē darba direktorijā. Ja tiek izmantota vecāka RSAT versija, attēli tiek saglabāti uz **C:\\Lietotāji\\\<Lietotājvārds\>\\AppData\\Viesabonēšana\\regressionTool\\Atskaņošana**, tiek izveidota atsevišķa mape katram testa gadījumam, kas tiek palaists.
 
 ## <a name="assignment"></a>Piešķire
 
@@ -183,7 +115,7 @@ Tālāk redzamajā attēlā ir parādīta šī scenārija plūsma.
 
 ![Demonstrācijas scenārija plūsma](./media/use_rsa_tool_14.png)
 
-Tālāk redzamajā attēlā ir parādīti šī scenārija biznesa procesi RSAT.
+Sekojošajā attēlā redzama biznesa procesu hierarhija šim scenārijam LCS biznesa procesu modelētājā.
 
 ![Demonstrācijas scenārija biznesa procesi](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārb
 
 
 #### <a name="help"></a>palīdzība
-Identisks ar [?](####?) komanda
+Identisks ar [?](#section) komanda
 
 
 #### <a name="list"></a>sarakstā
@@ -512,6 +444,8 @@ Tiek rādīti divi veidi, kā izsaukt šo programmu: viens izmanto noklusējuma 
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell piemēri
 
+[!IMPORTANT] Zemāk norādītie skriptu piemēri ir sniegti, kādi tie ir ilustratīviem nolūkiem, un Microsoft tos neatbalsta.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Testa gadījuma palaišana ciklā
 
 Jums ir testa skripts, ar kuru tiek izveidots jauns debitors. Izmantojot skriptēšanu, šo testa gadījumu var palaist ciklā, pirms katra atkārtojuma izpildes randomizējot tālāk norādītos datus.
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

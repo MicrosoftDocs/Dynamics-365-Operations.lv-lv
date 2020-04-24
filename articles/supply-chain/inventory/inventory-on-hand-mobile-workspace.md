@@ -2,14 +2,14 @@
 title: Mobilā darbvieta Rīcībā esošie krājumi
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Rīcībā esošie krājumi. Šī darbvieta palīdz mobilajā ierīcē gūt ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
-ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
+ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2574803"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212737"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobilā darbvieta Rīcībā esošie krājumi
 
@@ -33,7 +33,7 @@ ms.locfileid: "2574803"
 
 Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 Parasti uzņēmumos katru dienu tiek veiktas vairākas krājumu nosūtīšanas un saņemšanas darbības. Šīs krājumu kustības dēļ nepārtraukti mainās rīcībā esošo krājumu statuss. Mobilā darbvieta **Rīcībā esošie krājumi** sniedz iespēju skatīt starpuzņēmumu rīcībā esošo krājumu statusu, lai varētu gūt visjaunākos ieskatus par krājumu datiem jebkurā mobilajā ierīcē. Neatkarīgi no tā, vai strādājat noliktavā vai iepirkumu, pārdošanas, ražošanas vai vadības nodaļā vai ieņemat citu amatu, varat piekļūt rīcībā esošo krājumu datiem jebkurā laikā un vietā. 
 
 Mobilā darbvieta nodrošina tūlītēju informāciju par rīcībā esošo krājumu statusu dažādās vietās. Tā arī sniedz iespēju skatīt rīcībā esošos krājumus dažādās vietās, pašreizējās materiālu rezervācijas un nerezervētos rīcībā esošos krājumus. Varat arī ievadīt krājumu numurus, lai izveidotu rīcībā esošo krājumu vaicājumu, un veikt rīcībā esošo krājumu preču vai variantu meklēšanu, izmantojot filtrus. 
@@ -96,9 +96,9 @@ Ja jūsu organizācijai ir izvietots 3. platformas atjauninājums vai jaunāka 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādēt un instalēt Finance and Operations mobilo programmu:
+Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
--   [Tālruņiem Android .](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
