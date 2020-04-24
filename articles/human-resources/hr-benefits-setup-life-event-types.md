@@ -3,7 +3,7 @@ title: Konfigurēt dzīves notikumu tipus
 description: Microsoft Dynamics 365 Human Resources izmanto dzīves notikumu veidus, lai definētu notikumus, kas ir atļauts atjaunināt darbinieku atvieglojumu reģistrāciju.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b1d911fcd86b91b96edb1bdf42316c9097ea8bc
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 404979c210993857e35485020d090814b45cc800
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092641"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229859"
 ---
 # <a name="configure-life-event-types"></a>Konfigurēt dzīves notikumu tipus
-
-[!include [banner](includes/preview-feature.md)]
 
 Microsoft Dynamics 365 Human Resources izmanto dzīves notikumu veidus, lai definētu notikumus, kas ir atļauts atjaunināt darbinieku atvieglojumu reģistrāciju. Piemēram, darbinieks apprecas vai ģimenē ir pieaugums. Katru dzīves notikuma veida ID var saistīt tikai ar vienu dzīves notikuma veidu. Piemēram, ja izveidojat dzīves notikuma ID, sauktu par adreses maiņu, kas saistīts ar dzīves notikuma veidu Darbinieka adreses maiņa, nevar izveidot citu ID ar nosaukumu Darbinieka adreses maiņa un saistīt to ar dzīves notikuma veidu Darbinieka adreses maiņa. 
 
@@ -46,9 +44,9 @@ Kad dzīves notikumu veidi ir izveidoti, tie ir jāsaista ar plānu veidiem. Pap
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Dzīves notikuma veida ID | Dzīves notikuma veida unikālais identifikators. |
-   | Apraksts | Dzīves notikuma veida apraksts. |
-   | Dzīves notikuma veids | Katalizators, lai atjauninātu darbinieka atvieglojumu reģistrāciju. Lai skatītu dzīves notikumu sarakstu, skatiet zemāk esošo sadaļu [Dzīves notikumi](hr-benefits-setup-payment-frequencies.md?life-events). |
+   | **Dzīves notikuma veida ID** | Dzīves notikuma veida unikālais identifikators. |
+   | **Apraksts** | Dzīves notikuma veida apraksts. |
+   | **Dzīves notikuma veids** | Katalizators, lai atjauninātu darbinieka atvieglojumu reģistrāciju. Lai skatītu dzīves notikumu sarakstu, skatiet zemāk esošo sadaļu [Dzīves notikumi](hr-benefits-setup-payment-frequencies.md?life-events). |
 
 4. Atlasiet **Saglabāt**.
 
@@ -68,26 +66,25 @@ Kad izveidojat dzīves notikuma veidu, varat izvēlēties kādu no tālāk norā
 
 | Dzīves notikums | Vieta | Trigeris |
 | --- | --- | --- |
-| Ģimenes stāvokļa maiņa | Darbinieks > Profils > Personiskā informācija > Ģimenes stāvoklis| Ģimenes stāvokļa maiņa |
-| Nodarbinātības statusa maiņa | <ul><li>Nodarbinātais > Nodarbinātība</li><li>Nodarbinātības vēstures lapa</li></ul> | Nodarbinātības statusa maiņa |
-| Darbinieka adreses maiņa | <ul><li>Nodarbinātais > Profils > Adreses </li><li>Nodarbinātais > Personiskā informācija > Personiskie kontakti > Adrese</li></ul> Pievienota, rediģēta vai dzēsta adrese |
-| Pakārtotā maiņa | <ul><li>Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Pievienot vai dzēst pakārtoto</li><li>Darbinieku patstāvīgi izmantojamais pakalpojums</li></ul> | Pievienots vai dzēsts pakārtotais. Personisko kontaktpersonu attiecībām ir jābūt bērnam, dzīvesbiedram, dzīvesbiedram vai bijušajam dzīvesbiedram. Datuma **Derīgs no** atjaunošana aktivizē dzīves notikumu. Ja neatjaunināsit šo datumu, netiks aktivizēts dzīves notikums. |
-| Dzimšana vai adopcija (pakārtotais) | <ul><li>Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Informācija par pakārtoto</li><li>Darbinieku patstāvīgi izmantojamais pakalpojums</li></ul> | Ir aizpildīts lauks**Pieņemšanas datums**. Ir jānorāda bērna dzimšanas datums. |
-| Vajadzības zaudēšana (laulātais/dzīvesbiedrs) | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Vajadzības zudums | **Vajadzības zudums** atlasīts personiskajai kontaktpersonai kopā ar **Spēkā stāšanās datumu** |
+| **Ģimenes stāvokļa maiņa** | Darbinieks > Profils > Personiskā informācija > Ģimenes stāvoklis| Ģimenes stāvokļa maiņa |
+| **Nodarbinātības statusa maiņa** | <ul><li>Nodarbinātais > Nodarbinātība</li><li>Nodarbinātības vēstures lapa</li></ul> | Nodarbinātības statusa maiņa |
+| **Darbinieka adreses maiņa** | <ul><li>Nodarbinātais > Profils > Adreses </li><li>Nodarbinātais > Personiskā informācija > Personiskie kontakti > Adrese</li></ul> Pievienota, rediģēta vai dzēsta adrese |
+| **Pakārtotā maiņa** | <ul><li>Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Pievienot vai dzēst pakārtoto</li><li>Darbinieku patstāvīgi izmantojamais pakalpojums</li></ul> | Pievienots vai dzēsts pakārtotais. Personisko kontaktpersonu attiecībām ir jābūt bērnam, dzīvesbiedram, dzīvesbiedram vai bijušajam dzīvesbiedram. Datuma **Derīgs no** atjaunošana aktivizē dzīves notikumu. Ja neatjaunināsit šo datumu, netiks aktivizēts dzīves notikums. |
+| **Dzimšana vai adopcija (pakārtotais)** | <ul><li>Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Informācija par pakārtoto</li><li>Darbinieku patstāvīgi izmantojamais pakalpojums</li></ul> | Ir aizpildīts lauks**Pieņemšanas datums**. Ir jānorāda bērna dzimšanas datums. |
+| **Vajadzības zaudēšana (laulātais/dzīvesbiedrs)** | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Vajadzības zudums | **Vajadzības zudums** atlasīts personiskajai kontaktpersonai kopā ar **Spēkā stāšanās datumu** |
 | Dzīvesbiedra nodarbinātības izmaiņas | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Informācija par pakārtoto > Nodarbināts. | <ul><li>Izveidota pakārtotā informācija un lauks **Personiskā kontaktpersona nodarbināta** = Jā</li><li>**Personiskā kontaktpersona** lauks ir nomainīts (Jā vai Nē)</li></ul> |
-| Atvaļinājums (laulātais/dzīvesbiedrs) | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Pakārtotā informācija > Atvaļinājums | <ul><li>Ir izveidots pakārtotā informācijas ieraksts un aizpildīts **EhrLOAEffectiveDate**</li><li>**personPrivateDetails.EhrIsLOA** ir mainīts (Jā vai nē)</li><li>**personPrivateDetails.EhrLOAEffectiveDate** ir mainīts</li></ul> |
-| Vajadzības izmaiņas (amats) | <ul><li>Nodarbinātais > Amata piešķire > Nodarbinātā amata piešķires</li><li>Amati > Amati</li></ul> | <ul><li>Mainīt uz pozīciju darbinieka amata piešķires ierakstos</li><li>Nodarbinātā amata piešķires maiņa</li></ul> |
-| Vajadzības izmaiņas (alga) | Nodarbinātais > Atlīdzība > Fiksētais plāns | Gada atvieglojumu alga tiek automātiski pārrēķināta, kad maināt atlīdzību |
-| Medicīniskā aprūpe (darbinieks/pakārtotais) | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Pakārtotā informācija > Medicīniskās aprūpes spēkā stāšanās datums | Netiek aktivizēts automātiski, kad personiskā kontaktpersona ievada spēkā stāšanās datumu. |
-| Ar tiesu piespriests atbalsts | Nodarbinātais > Profils > Personiskā informācija > Personiskie Kontakti > Pakārtotie > Atbalsts pēc tiesas prasības (QMSCO/QDRO un spēkā stāšanās datumi | Neaktivizē nevienu automātisko atjauninājumu. Tas neietekmē piemērojamību; tas ieraksta dzīves notikumu. |
-| Miris | Nodarbinātais > Profils > Personiskā informācija > Miršanas datums | Ir ievadīts miršanas datums |
-| Apliecinājums par apdrošināšanu | <ul><li>Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture > Datumu pārvaldnieka > Informācija par atvieglojumiem</li><li> Nodarbinātais > Nodarbinātība > Informācija par atvieglojumiem > Pārbaudes datums</li></ul> | <ul><li>Nodarbinātais ievada pārbaudes datumu</li><li>Nodarbinātais iestata EvidenceOfInsurability lauku uz **Jā**</li></ul> |
-| Saņēmējs | Nodarbinātais >Profils > Personiskā informācija > Personiskie kontakti | Tiek pievienota personīgā kontaktpersona un ir aizpildīts lauks **Saņēmējs** un **Spēkā stāšanās datums**. Personiskajai kontaktpersonai ir jābūt ar veidu **Bērns**, **Laulātais**, **Dzīvesbiedrs**, **Atvase**, **Ģimenes kontaktpersona**, **Cita kontaktpersona**, **Vecāks**,**Saņēmēja īpašums**,**Saņēmēja organizācija** vai **Saņēmēja trests**. |
-| Darbinieka medicīniskā aprūpe | Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture > Datumu pārvaldnieka > Informācija par atvieglojumiem | <ul><li>**EhrMedicareEligibilityDate** ir mainīts</li><li>**MedicareEligibile** ir iestatīts uz **Jā**</li></ul> |
-| Dzimšanas diena | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Informācija par pakārtoto > Informācija par dzimšanu | Tiek pievienots vai atjaunināts dzimšanas datums (ne pēc dzīves notikuma izmaiņu apstrādes). Piemērs: Ja bērna **Personīgā kontakta piemērojamības opcijas** ir iestatītas uz Vecums: 26 sadaļā Iestatījumi > Atvieglojumi > Personiskās kontaktpersonas piemērojamības opcijas un, ja cilvēkresursu personāls veic dzīves notikuma izmaiņas jebkurā dienā pēc tam, kad pakārtotais kļuvis 26 gadu vecs, parādās ziņojums, ka uz pakārtoto vairs neattiecas nodrošinājums. |
-| Nodarbinātā piemērojamības izmaiņas (nav noteiktas ASV) | <ul><li>Nodarbinātais > Nodarbinātība</li><li>Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture</li></ul> | <ul><li>Nodarbinātā veida, nodarbinātības kategorijas vai piecu lietotājam definējamu piemērojamības lauku maiņa</li><li>**HcmEmploymentDetail.EhrEmploymentType** izmaiņas (tiek apstrādātas tikai *mainītiem* nodarbinātības informācijas ierakstiem, bet ne *jauniem* nodarbinātības ierakstiem, piemēram, atkārtotai līgšanai vai pārtraukšanai).</li></ul> |
-| Jaunas piemērojamības labošana (ne ASV) | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu apstrādes lietošana | EhrBenefitEligibilityRuleOverride.ValidFrom |
-| Piemērojamības kārtulas labošanas maiņa (ne ASV) | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu apstrādes lietošana (tver tikai izmaiņas laukos**ValidFrom** un **ValidTo** Piemērojamības kārtulas labošanā) |
-| Piemērojamības kārtulas labošanas termiņa beigas (ne ASV) | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu izmaiņu apstrādes izmantošana. Piemēram, ja rediģējat plāna piemērojamības kārtulas labošanas beigu datumu, lai tas būtu šodien, plkst. 17:00, jebkurā laikā pēc 17:00 vai nākamajās dienās un pēc tam palaižat dzīves notikuma izmaiņu apstrādi, parādās ziņojums, kas apgalvo, ka piemērojamības kārtulas labošanai ir beidzies derīgums. |
-| Jauns atvieglojumu plāns (nav ASV) | Papildu cilvēkresursi > Atvieglojumi > Plāni > Jauns | <ul><li>Piemērojamības opcijas tiek pievienotas pašreizējam plānam</li><li>Ir pievienots jauns plāns ar pievienotām piemērojamības opcijām</li></ul></br></br>Cilvēkresursu personālam vajadzētu šajā instancē palaist dzīves notikuma piemērojamības apstrādi |
-| Piemērojamības kārtulas maiņa (ne ASV) | Papildu cilvēkresursi > Atvieglojumi > Noteikumi/opcija > Piemērojamības noteikumi | Dzīves notikumu piemērojamības apstrādes izmantošana. Reģistrēti, ja**EhrBenefitEligibilityRule** ierakstiem ir mainītas šādas vērtības: **UseEmplCategory**, **UseEmplStatus** vai **UseEmplType**. Atjaunina tikai dzīves notikuma darbības, kas jau pastāv mainītai kārtulai vai piemērojamības kritērijam. |
+| **Atvaļinājums (laulātais/dzīvesbiedrs)** | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Pakārtotā informācija > Atvaļinājums | <ul><li>Ir izveidots pakārtotā informācijas ieraksts un aizpildīts **EhrLOAEffectiveDate**</li><li>**personPrivateDetails.EhrIsLOA** ir mainīts (Jā vai nē)</li><li>**personPrivateDetails.EhrLOAEffectiveDate** ir mainīts</li></ul> |
+| **Vajadzības izmaiņas (amats)** | <ul><li>Nodarbinātais > Amata piešķire > Nodarbinātā amata piešķires</li><li>Amati > Amati</li></ul> | <ul><li>Mainīt uz pozīciju darbinieka amata piešķires ierakstos</li><li>Nodarbinātā amata piešķires maiņa</li></ul> |
+| **Medicīniskā aprūpe (darbinieks/pakārtotais)** | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Pakārtotā informācija > Medicīniskās aprūpes spēkā stāšanās datums | Netiek aktivizēts automātiski, kad personiskā kontaktpersona ievada spēkā stāšanās datumu. |
+| **Ar tiesu piespriests atbalsts** | Nodarbinātais > Profils > Personiskā informācija > Personiskie Kontakti > Pakārtotie > Atbalsts pēc tiesas prasības (QMSCO/QDRO un spēkā stāšanās datumi | Neaktivizē nevienu automātisko atjauninājumu. Tas neietekmē piemērojamību; tas ieraksta dzīves notikumu. |
+| **Miris** | Nodarbinātais > Profils > Personiskā informācija > Miršanas datums | Ir ievadīts miršanas datums |
+| **Apliecinājums par apdrošināšanu** | <ul><li>Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture > Datumu pārvaldnieka > Informācija par atvieglojumiem</li><li> Nodarbinātais > Nodarbinātība > Informācija par atvieglojumiem > Pārbaudes datums</li></ul> | <ul><li>Nodarbinātais ievada pārbaudes datumu</li><li>Nodarbinātais iestata EvidenceOfInsurability lauku uz **Jā**</li></ul> |
+| **Saņēmējs** | Nodarbinātais >Profils > Personiskā informācija > Personiskie kontakti | Tiek pievienota personīgā kontaktpersona un ir aizpildīts lauks **Saņēmējs** un **Spēkā stāšanās datums**. Personiskajai kontaktpersonai ir jābūt ar veidu **Bērns**, **Laulātais**, **Dzīvesbiedrs**, **Atvase**, **Ģimenes kontaktpersona**, **Cita kontaktpersona**, **Vecāks**,**Saņēmēja īpašums**,**Saņēmēja organizācija** vai **Saņēmēja trests**. |
+| **Darbinieka medicīniskā aprūpe** | Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture > Datumu pārvaldnieka > Informācija par atvieglojumiem | <ul><li>**EhrMedicareEligibilityDate** ir mainīts</li><li>**MedicareEligibile** ir iestatīts uz **Jā**</li></ul> |
+| **Dzimšanas diena** | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Informācija par pakārtoto > Informācija par dzimšanu | Tiek pievienots vai atjaunināts dzimšanas datums (ne pēc dzīves notikuma izmaiņu apstrādes). Piemērs: Ja bērna **Personīgā kontakta piemērojamības opcijas** ir iestatītas uz Vecums: 26 sadaļā Iestatījumi > Atvieglojumi > Personiskās kontaktpersonas piemērojamības opcijas un, ja cilvēkresursu personāls veic dzīves notikuma izmaiņas jebkurā dienā pēc tam, kad pakārtotais kļuvis 26 gadu vecs, parādās ziņojums, ka uz pakārtoto vairs neattiecas nodrošinājums. |
+| **Nodarbinātā piemērojamības izmaiņas (nav noteiktas ASV)** | <ul><li>Nodarbinātais > Nodarbinātība</li><li>Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture</li></ul> | <ul><li>Nodarbinātā veida, nodarbinātības kategorijas vai piecu lietotājam definējamu piemērojamības lauku maiņa</li><li>**HcmEmploymentDetail.EhrEmploymentType** izmaiņas (tiek apstrādātas tikai *mainītiem* nodarbinātības informācijas ierakstiem, bet ne *jauniem* nodarbinātības ierakstiem, piemēram, atkārtotai līgšanai vai pārtraukšanai).</li></ul> |
+| **Jaunas piemērojamības labošana (ne ASV)** | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu apstrādes lietošana | EhrBenefitEligibilityRuleOverride.ValidFrom |
+| **Piemērojamības kārtulas labošanas maiņa (ne ASV)** | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu apstrādes lietošana (tver tikai izmaiņas laukos**ValidFrom** un **ValidTo** Piemērojamības kārtulas labošanā) |
+| **Piemērojamības kārtulas labošanas termiņa beigas (ne ASV)** | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu izmaiņu apstrādes izmantošana. Piemēram, ja rediģējat plāna piemērojamības kārtulas labošanas beigu datumu, lai tas būtu šodien, plkst. 17:00, jebkurā laikā pēc 17:00 vai nākamajās dienās un pēc tam palaižat dzīves notikuma izmaiņu apstrādi, parādās ziņojums, kas apgalvo, ka piemērojamības kārtulas labošanai ir beidzies derīgums. |
+| **Jauns atvieglojumu plāns (nav ASV)** | Papildu cilvēkresursi > Atvieglojumi > Plāni > Jauns | <ul><li>Piemērojamības opcijas tiek pievienotas pašreizējam plānam</li><li>Ir pievienots jauns plāns ar pievienotām piemērojamības opcijām</li></ul></br></br>Cilvēkresursu personālam vajadzētu šajā instancē palaist dzīves notikuma piemērojamības apstrādi |
+| **Piemērojamības kārtulas maiņa (ne ASV)** | Papildu cilvēkresursi > Atvieglojumi > Noteikumi/opcija > Piemērojamības noteikumi | Dzīves notikumu piemērojamības apstrādes izmantošana. Reģistrēti, ja**EhrBenefitEligibilityRule** ierakstiem ir mainītas šādas vērtības: **UseEmplCategory**, **UseEmplStatus** vai **UseEmplType**. Atjaunina tikai dzīves notikuma darbības, kas jau pastāv mainītai kārtulai vai piemērojamības kritērijam. |

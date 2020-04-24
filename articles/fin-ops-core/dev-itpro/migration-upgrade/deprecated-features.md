@@ -3,7 +3,7 @@ title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124570"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225132"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -263,11 +263,11 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 
 |   |  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums*, nevis *kļūda*, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās.  |
-| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki. |
-| **Izvietošanas iespēja**              | Visi. |
-| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās. Paredzams, ka tas tiks veikts atjauninājumā Platform update 30. |
+| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums*, nevis *kļūda*, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās. |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās. Šīs izmaiņas ir mērķētas ar platformas atjauninājumiem Finance and Operations programmu 10.0.11 versijā. |
 
 #### <a name="complete-list"></a>Pilnīgs saraksts
 Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).

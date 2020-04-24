@@ -2,7 +2,7 @@
 title: Iepakojuma materiāli un maksas
 description: Šajā tēmā sniegta informācija par iepakojuma materiālu maksām, kas tiek maksātas pārstrādes uzņēmumiem noteiktos intervālos.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076251"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215704"
 ---
 # <a name="packing-materials-and-fees"></a>Iepakojuma materiāli un maksas
 
@@ -39,7 +39,7 @@ Vienu vai vairākas iepakojuma vienības varat definēt vienam krājumam, krāju
 > [!NOTE]
 > Pat ja uzņēmumam nav jāsedz iepakojuma materiālu maksas, šo funkcionalitāti varat izmantot, lai aprēķinātu iepakojuma materiālu svara statistisko informāciju.
 
-## <a name="allocations"></a>Iepakojuma materiālu sadalījuma iestatīšana
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Iepakojuma materiālu sadalījuma iestatīšana
 
 Pirms varat aprēķināt iepakojuma materiālu svaru, iepakojuma materiālu maksas vai abus, ir jāieslēdz aprēķins un jānosaka, kuri materiāli un maksas attiecas uz kurām precēm.
 

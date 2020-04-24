@@ -3,7 +3,7 @@ title: Konfigurēt darbplūsmas rekvizītus
 description: Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190124"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199440"
 ---
 # <a name="configure-workflow-properties"></a>Konfigurēt darbplūsmas rekvizītus
 
@@ -75,9 +75,11 @@ Varat sniegt informāciju lietotājiem, kuri iesniedz dokumentus apstrādei un a
     5. Lai personalizētu tekstu, var ievadīt vietturus. Instrukcijas par to, kā ievadīt vietturi, skatiet 3. darbībā.
     6. Noklikšķiniet uz **Aizvērt**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Norādiet, kad tiek izmantota šī darbplūsma
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Norādiet, kad šī darbplūsma tiek izmantota aktivizēšanas nosacījumos
 
-Varat izveidot vairākas darbplūsmas, kuru pamatā ir tas pats tips. Piemēram, varat izveidot pirkuma pieprasījuma darbplūsmu katrai valstij/reģionam, kurā strādājat, piemēram, Pirkuma pieprasījumi Dānija un Pirkuma pieprasījumi Spānija. Ja vairāku darbplūsmu pamatā ir tas pats tips, nepieciešams norādīt, kad katra darbplūsma tiek izmantota. Iepriekšējā piemērā norādiet šādus nosacījumus:
+Varat izveidot vairākas darbplūsmas, kuru pamatā ir tas pats darbplūsmas tips. Ja vairāku darbplūsmu pamatā ir tas pats tips, nepieciešams norādīt, kad katra darbplūsma tiek izmantota, izmantojot aktivizēšanas nosacījumus. Ja aktivizēšanas nosacījumi nav izpildīti, tiek izmantota noklusējuma darbplūsma. Tāpat, ja darbplūsmas tipam ir definēta tikai viena darbplūsmas konfigurācija, šī darbplūsmas konfigurācija tiks izmantota neatkarīgi no aktivizēšanas nosacījumiem.
+
+Piemēram, varat izveidot pirkuma pieprasījuma darbplūsmu katrai valstij/reģionam, kurā strādājat, piemēram, Pirkuma pieprasījumi Dānija un Pirkuma pieprasījumi Spānija ar sekojošajiem nosacījumiem:
 
 - Pirkuma pieprasījumi Dānija — tiek izmantota, ja: valsts/reģions = DK
 - Pirkuma pieprasījumi Spānija — tiek izmantota, ja: valsts/reģions = ES

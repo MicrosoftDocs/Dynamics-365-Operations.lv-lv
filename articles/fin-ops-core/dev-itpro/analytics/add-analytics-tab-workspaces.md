@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025858"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259636"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 
@@ -84,7 +84,7 @@ Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju dar
 8. Noklikšķiniet ar peles labo pogu un atlasiet vienumu **Jauna cilnes lapa**.
 9. Pārdēvējiet cilnes lapu uz kaut ko atpazīstamu, piemēram, **Analīze**.
 10. Formu noformētājā atlasiet vienumu **Analīze (cilnes lapa)**.
-11. Rekvizītu **Paraksts** iestatiet uz **Analīze**.
+11. Iestatiet **Paraksta** rekvizītu uz **Analīzi** un iestatiet **Automātiskās deklarācijas** rekvizītu uz **Jā**.
 12. Noklikšķiniet ar peles labo pogu uz vadīklas un atlasiet **Jauns** \> **Grupa**, lai pievienoju jaunu formu grupas vadīklu.
 13. Pārdēvējiet formu grupu uz kaut ko atpazīstamu, piemēram, **powerBIReportGroup**.
 14. Formu noformētājā atlasiet vienumu **PanoramaBody (cilne)** un pēc tam velciet vadīklu uz cilni **Darbvieta**.

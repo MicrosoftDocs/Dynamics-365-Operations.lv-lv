@@ -3,7 +3,7 @@ title: Kreditoru maksājumu darbvieta
 description: Šajā tēmā ir sniegta informācija par darbvietu Kreditoru maksājumi. Darbvietā Kreditoru maksājumi tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi.
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178922"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225017"
 ---
 # <a name="vendor-payments-workspace"></a>Kreditoru maksājumu darbvieta
 
@@ -36,7 +36,7 @@ Lai datus varētu parādīt sadaļas **Kreditoru maksājumi** Power BI vizuālaj
 1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
 2. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**. 
 2. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
-3. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve**, lai atsvaidzinātu apkopošanas mērījumu **VendPaymentBIMeasure**. 
+3. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve**, lai atsvaidzinātu apkopošanas mērījumu **VendPaymentBIMeasureV2**. 
 
 ## <a name="my-work-view"></a>Skats Mans darbs
 

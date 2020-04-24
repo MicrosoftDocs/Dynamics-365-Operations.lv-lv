@@ -3,7 +3,7 @@ title: Uzkrāt atvaļinājumu un kavējumu plānus
 description: Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairākiem nodarbinātajiem vai indivīdam.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092342"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197317"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uzkrāt atvaļinājumu un kavējumu plānus
 
@@ -35,7 +35,7 @@ Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairāki
 
 2. Sadaļā **Pārvaldīt atvaļinājumu**atlasiet **Uzkrāt atvaļinājumu un prombūtnes plānus**.
 
-3. Dialoglodziņā **Uzkrāt atvaļinājumu un prombūtnes plānus** sadaļā **Uzkrāt no** vai nu atlasiet **Šodienas datums** vai atlasiet **Pielāgots datums** un ievadiet pielāgotu datumu.
+3. Tiek atvērts dialoglodziņš **Uzkrāt atvaļinājumu un prombūtnes plānus**. Sadaļā **Uzkrāt no** atlasiet vai nu **Šodienas datumu**, vai nu **Pielāgotu datumu** un ievadiet pielāgotu datumu.
 
 4. Ja vēlaties palaist uzkrāšanas procesu fonā, atlasiet **Palaist fonā** un veiciet šādus uzdevumus:
 
@@ -53,7 +53,7 @@ Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairāki
 
 2. Atlasiet **Uzkrāt atvaļinājumu un prombūtni**.
 
-3. Dialoglodziņā **Uzkrāt atvaļinājumu un prombūtnes plānus** sadaļā **Uzkrāt no** vai nu atlasiet **Šodienas datums** vai atlasiet **Pielāgots datums** un ievadiet pielāgotu datumu.
+3. Tiek atvērts dialoglodziņš **Uzkrāt atvaļinājumu un prombūtnes plānus**. Sadaļā **Uzkrāt no** atlasiet vai nu **Šodienas datumu**, vai nu **Pielāgotu datumu** un ievadiet pielāgotu datumu.
 
 4. Ja vēlaties palaist uzkrāšanas procesu fonā, atlasiet **Palaist fonā** un veiciet šādus uzdevumus:
 
@@ -65,17 +65,45 @@ Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairāki
 
    4. Atlasiet **Labi**. Uzkrāšanas process tiks izpildīts kopā ar iestatītajiem parametriem.
 
-## <a name="preview-features-for-leave-and-absence"></a>Priekšskatījuma līdzekļi Atvaļinājumam un prombūtnei
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Dzēst atvaļinājuma un kavējumu uzkrājumus vairākiem darbiniekiem
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu datumiem jābūt datētiem šodien vai nākotnē.
 
-Var iespējot šādus priekšskatījuma līdzekļus Atvaļinājumam un prombūtnei:
+1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-- **Dzēst atvaļinājuma un prombūtnes uzkrājumus**. Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu datumiem jābūt datētiem šodien vai nākotnē.
+2. Sadaļā **Pārvaldīt atvaļinājumu**atlasiet **Dzēst atvaļinājumu un prombūtnes plānu uzkrājumus**.
 
-- **Atvaļinājuma uzkrājumu audits**. Parādās katru reizi, kad kāds palaiž vai dzēš uzkrājumu vienam vai visiem nodarbinātajiem kopā ar datumu un kurš veica darbību.
+3. Dialoglodziņā **Dzēst atvaļinājumu un prombūtnes plānu uzkrājumus** atlasiet **Atvaļinājumu plāns**. 
+
+4. Ja piemērojams, izvēlieties **Dzēst bilances korekcijas**.
+
+5. Ievadiet vai atlasiet **Atvaļinājumu uzkrāšanas datumu**. Šim datumam ir jābūt vai nu šodien, vai nākotnē. 
+
+6. Atlasiet **Labi**. Uzkrāšanas process dzēsīs uzkrājumus kopā ar iestatītajiem parametriem. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Dzēst atvaļinājuma un prombūtnes uzkrājumus vienam darbiniekam
+
+1. Darbinieka ierakstā atlasiet **Atvaļinājums**.
+
+2. Atlasiet **Dzēst atvaļinājuma un prombūtnes uzkrājumus**.
+
+3. Dialoglodziņā **Dzēst atvaļinājumu un prombūtnes plānu uzkrājumus** atlasiet **Atvaļinājumu plāns**. 
+
+4. Ja piemērojams, izvēlieties **Dzēst bilances korekcijas**.
+
+5. Ievadiet vai atlasiet **Atvaļinājumu uzkrāšanas datumu**. Šim datumam ir jābūt vai nu šodien, vai nākotnē. 
+
+6. Atlasiet **Labi**. Uzkrāšanas process dzēsīs uzkrājumus kopā ar iestatītajiem parametriem. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Pārskatiet atvaļinājuma uzkrājumu un dzēšanas procesus
+
+**Atvaļinājuma uzkrājuma audits** katru reizi parāda, kad tiek palaists vai dzēsts uzkrājums vienam vai visiem darbiniekiem. Tiek parādīts arī datums un persona, kas veica darbību.
+
+1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
+
+2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Dzēst atvaļinājumu uzkrājumu auditu**.
 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
-- [Izveidot atvaļinājumu un prombūtnes plānu](hr-leave-and-absence-plans.md)
+- [Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)

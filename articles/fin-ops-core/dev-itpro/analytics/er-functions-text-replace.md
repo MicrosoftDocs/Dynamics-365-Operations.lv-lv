@@ -3,7 +3,7 @@ title: REPLACE ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota REPLACE elektroniskā pārskata (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040990"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201070"
 ---
-# <a name="REPLACE">REPLACE ER funkcija</a>
+# <a name=""></a><a name="REPLACE">REPLACE ER funkcija</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ Iegūtā teksta vērtība.
 
 Ja `regular expression flag`arguments ir **patiess**, šī funkcija atgriež norādīto virkni pēc tam, kad tā ir mainīta, lietojot `pattern` argumenta norādīto regulāro izteiksmi. Regulārā izteiksme tiek izmantota, lai atrastu rakstzīmes, kas ir jāaizstāj.
 
-Ja `regular expression flag` arguments ir **FALSE**, šī funkcija uzvedas kā [TRANSLATE](er-functions-text-translate.md). `replacement` argumenta norādītās rakstzīmes tiek izmantotas, lai aizstātu atrastās rakstzīmes. 
+Ja `regular expression flag` arguments ir **APLAMS**, šī funkcija atgriež norādīto virkni pēc tam, kad rakstzīmju kopa, kas definēta `pattern` argumentā, ir aizstāta ar `replacement` argumenta rakstzīmēm. 
 
 ## <a name="example-1"></a>1. piemērs
 

@@ -3,7 +3,7 @@ title: Līdzekļu pārvaldība
 description: Uzziniet, kā Dynamics 365 Human Resources ieslēgt vai izslēgt jaunos līdzekļus.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84ff11e8237ce0669f7f6ac70c5b4411c5d4b466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009777"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230204"
 ---
 # <a name="manage-features"></a>Līdzekļu pārvaldība
 
@@ -50,9 +50,14 @@ Lai piekļūtu priekšskatījuma līdzekļiem, jums vispirms tie ir jāiespējo 
 
 3. Lai iespējotu priekšskatījuma līdzekli, atlasiet to no saraksta un pēc tam atlasiet **Iespējot**. Lai atspējotu priekšskatījuma līdzekli, atlasiet to no saraksta un pēc tam atlasiet **Atspējot**.
 
-## <a name="preview-feature-benefits-management"></a>Priekšskatījuma līdzeklis: atvieglojumu pārvaldība
+## <a name="enable-or-disable-benefits-management"></a>Atvieglojumu pārvaldības iespējošana vai atspējošana
 
-Atvieglojumu pārvaldība nodrošina elastīgu risinājumu, kas atbalsta plašas atvieglojumu iespējas, kopā ar viegli lietojamu darbinieku pieredzi, kas demonstrē jūsu piedāvājumus. Papildinformāciju par atvieglojumu pārvaldības konfigurāciju un izmantošanu skatiet [Atvieglojumu pārvaldības pārskats](hr-benefits-management-overview.md).
+Lai iespējotu Atvieglojumu pārvaldību, izmantojiet to pašu procedūru sadaļā [Iespējot vai atspējot priekšskatījuma līdzekļus](hr-admin-manage-features.md?enable-or-disable-preview-features).
+
+> [!IMPORTANT]
+> Jūs nevarat atspējot Atvieglojumu pārvaldību **Ražošanas** vidē pēc tās iespējošanas. Tomēr varat atspējot Atvieglojumu pārvaldību **Smilškastes** vidē.
+
+Papildinformāciju par atvieglojumu pārvaldības konfigurāciju un izmantošanu skatiet [Atvieglojumu pārvaldības pārskats](hr-benefits-management-overview.md).
 
 Atvieglojumu pārvaldība aizvieto funkcionalitāti darbvietā **Atvieglojumi**. Iespējojot atvieglojumu pārvaldības priekšskatījuma līdzekli, vairs nevarēsiet piekļūt tālāk minētajām veidlapām darbvietā **Atvieglojumi**.
 
@@ -65,62 +70,23 @@ Atvieglojumu pārvaldība aizvieto funkcionalitāti darbvietā **Atvieglojumi**.
 - **Atvieglojumu piemērojamības politikas**
 - **Piemērojamības notikumi**
 
-Informāciju šajās veidlapās varat skatīt tikai lasīšanas režīmā. Ja vēlaties rediģēt informāciju, vispirms ir jāatspējo atvieglojumu pārvaldības priekšskatījuma līdzeklis.
+Informāciju šajās veidlapās varat skatīt tikai lasīšanas režīmā. Ja vēlaties rediģēt informāciju, vispirms ir jāatspējo Atvieglojumu pārvaldība (piemērojams tikai **Smilškastes** vidēm).
 
-### <a name="benefits-management-known-issues"></a>Zināmās atvieglojumu pārvaldības problēmas
+## <a name="enable-or-disable-leave-and-absence"></a>Iespējot vai atspējot Atvaļinājumu un prombūtni
 
-#### <a name="life-events"></a>Dzīves notikumi
+Lai iespējotu Atvaļinājumu vai prombūtni, izmantojiet to pašu procedūru sadaļā [Iespējot vai atspējot priekšskatījuma līdzekļus](hr-admin-manage-features.md?enable-or-disable-preview-features).
 
-Apstrādājot dzīves notikumus, lietotājs saņems tālāk minēto kļūdas paziņojumu.
+> [!IMPORTANT]
+> Jūs nevarat deaktivizēt **Vairāku atvaļinājumu tipu** funkciju Atvaļinājumā un prombūtnē pēc tā iespējošanas. Tas attiecas gan uz **Smilškastes**, gan **Ražošanas** vidēm.
 
-Seguma sākuma datumam jābūt laikposmā no *plāna perioda sākuma datums* līdz *plāna perioda beigu datums*. 
+Papildinformāciju par priekšskatījuma līdzekļiem Atvaļinājumā un prombūtnē skatiet [Atvaļinājuma un prombūtnes priekšskatījuma līdzekļi](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-Dzīves notikums turpinās apstrādi, kā paredzēts.
-
-#### <a name="eligibility-processing"></a>Apstrādes piemērotība
-
-Apstrādājot piemērotību atvieglojumiem, kas izmanto 1-5X algu, % no algas un fiksētās summas seguma summu, atvieglojuma detalizētas informācijas datums **Nodarbinātības vēsture** ir jāiestata uz darbinieka pieņemšanas datumu ar nostrādātām stundām, maksājumu biežumu un gada atvieglojumu algas summu. Ja nodarbinātajam noteikta fiksēta atlīdzība, ievadiet nostrādātās stundas kopā ar maksājuma biežumu, un tiks aprēķināta gada algas summa. Ja darbinieks ir algots, nostrādātās stundas nav nepieciešamas. Mēs iesakām, veidojot jaunus nodarbinātos, vispirms ievadīt fiksēto atlīdzību. Lai atjauninātu atvieglojumu detalizētas informācijas ierakstu: pārejiet uz **Nodarbinātais > Nodarbinātā vēsture > Detalizēta informācija par nodarbinātību**. Pielāgojiet datumu nodarbinātā pieņemšanas datumam.
-
-#### <a name="employee-self-service"></a>Darbinieka patstāvīgi izmantojamais pakalpojums
-
-Darbinieki var atlasīt plānu, kam tie nav kvalificēti, un izrakstīt to. Piemēram: nodarbinātajam nav neviena apgādājamā, bet ir atļauts atlasīt ārstniecības plānu ar ģimenes seguma opciju.
-
-Darbinieka summa netiek aprēķināta, kad tiek atjaunināta seguma summa dzīvības apdrošināšanai. Piemēram, ja darbiniekam tiek piedāvāts dzīvības apdrošināšanas plāns, tas var atlasīt līdz $ 50 000 lielu segumu, kas izmaksās $ 0,36 par katriem seguma $ 1000.  Kad darbinieks atjaunina seguma summu, darbinieka saistītās izmaksas paliek nulle.
-
-Atvieglojumu plānam, kas atļauj tikai vienu šī plāna veida atlasi, lietotājs saņems kļūdas paziņojumu, ja mēģinās atmest plānu pēc tā atlasīšanas. Piemēram, lietotājs atlasa ārstniecības plānu un ievieto to grozā. Pēc tam lietotājs citam ārstniecības plānam izvēlas **Atmest**. Lietotājs saņems kļūdas paziņojumu.
-
-## <a name="preview-features-in-leave-and-absence"></a>Priekšskatījuma līdzekļi sadaļā Atvaļinājumi un kavējumi
-
-Atvaļinājumu un kavējumu priekšskatījuma līdzekļi ietver tālāk minēto.
-
-- **Atvaļinājumu un kavējumu kalendārs** — atvaļinājumu un kavējumu parametri pārvietosies no **Personāla vadības parametriem** uz jaunu ekrānu ar nosaukumu **Atvaļinājumu un kavējumu parametri**. Jaunais ekrāns ietver jaunu cilni **Kalendārs**. Šis priekšskatījums iespējo tikai parametru apakškopu. Varat piekļūt jaunajam ekrānam no cilnes **Saites** darbvietā **Atvaļinājumi un kavējumi**. Kalendāri ietver tālāk minēto saturu.
-  - **Uzņēmuma kalendārs** — parāda visus darbinieku atpūtas laika pieprasījumus. Personas ar lomu **Personāla vadība** var piekļūt šim kalendāram no cilnes **Saites** darbvietā **Atvaļinājumi un kavējumi**.
-  - **Pārvaldnieka grupas kalendārs** — parāda visu tiešo pārskatu atpūtas laika pieprasījumus. Pārvaldnieki var piekļūt kalendāram no cilnes **Mana grupa** darbinieku patstāvīgi izmantojamajā pakalpojumā **Atvaļinājumi un kavējumi**. 
-
-- **Atvaļinājumu un kavējumu brīvdienu kalendāri** — atvaļinājumu veidi ietver jaunu opciju **Brīvdiena**, ko izmanto savienojumā ar darba laika kalendāru. Dienas, ko definē brīvdienas un slēgšanas, ģenerējot darba dienas, tagad noteiktas kā **Brīvdiena**. Kad tiek apstrādāti uzkrājumi, tiek veiktas korekcijas par darbiniekiem, kuri ir piešķirti kalendāram, lai uzskaitītu brīvdienas, kas iekrīt darba dienā.
-
-- **Atvaļinājumu uzkrājumu audits** — jaunais ekrāns ļauj pārskatīt, kad uzkrājumi ir apstrādāti un dzēsti gan visu darbinieku griezumā, gan arī par atsevišķiem darbiniekiem. Varat piekļūt šim jaunajam ekrānam no cilnes **Saites** darbvietā **Atvaļinājumi un kavējumi**.
-
-- **Atvaļinājumu uzkrājumu dzēšana** — tagad varat dzēst uzkrājumu ierakstus konkrētiem atvaļinājumu plāniem. Varat piekļūt šai jaunajai opcijai no cilnes **Saites** darbvietā **Atvaļinājumi un kavējumi**. Atsevišķiem darbiniekiem šī opcija tiek parādīta darbinieka profila grupējumā **Atvaļinājumi un kavējumi**. 
-
-- **Atvaļinājumu uzkrājumu noapaļošana** — jaunas opcijas **Atvaļinājuma veids** nosaka, kāda veida noapaļošanu jāizmanto uzkrājumiem, kā arī noapaļošanas decimālo precizitāti uzkrājumu apstrādes laikā. Kad tiek apstrādāti uzkrājumi, noapaļošana un precizitāte tiek pielietota uzkrājumu ierakstiem. 
-
-- **Vairāku atvaļinājuma veidu konfigurēšana vienā atvaļinājuma plānā** — jauna atvaļinājumu veidiem paredzēta kolonna atvaļinājumu uzkrājumu grafikā ļauj atvaļinājumam noteikt vairākus atvaļinājuma veidus un kavējumu plānus ar dažādiem uzkrāšanas grafikiem. Iepriekšējais lauks **Atvaļinājuma veids** ir noņemts. Darbinieka reģistrācijas gadījumā atvaļinājuma veidu atlikums tagad tiek parādīti tabulā, nevis ekrāna augšdaļā.
-
-  > [!IMPORTANT]
-  > Šo funkciju pēc tās iespējošanas nevar atspējot.
-
-- **Izmantot uzkrājumam darbinieka pilnas laika ekvivalenci (full-time equivalency — FTE)** — jauna kolonna atvaļinājumu uzkrāšanas grafikā ļauj uzkrājumam izmantot FTE. Apstrādājot uzkrājumus, programma izmanto darbinieka primāro amatu un FTE, kas definēts, lai noteiktu uzkrājumu lieluma proporcionālo sadalījumu.
-
-  > [!NOTE]
-  > Šis līdzeklis ir pieejams tikai tad, ja iespējojat **Konfigurēt vairākus atvaļinājuma veidus katrā atvaļinājumu plānā**. 
-
-## <a name="feedback"></a>Dati
+## <a name="send-us-feedback"></a>Nosūtiet mums atsauksmes
 
 Mēs vēlamies uzzināt par jūsu pieredzi ar priekšskatījuma līdzekļiem. Lietojot šos vai citus līdzekļus, laipni lūdzam regulāri sniegt atsauksmes tālāk norādītajās vietnēs.
 
 - [Kopiena](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) — šī vieta ir lielisks resurss, kur lietotāji var apspriest lietošanas gadījumos, uzdot jautājumus un saņemt kopienas palīdzību.
-- Pastāstiet mums par līdzekļiem, kurus vēlaties redzēt produktā, vai informējiet par visām izmaiņām, kuras pēc jūsu domām mums vajadzētu ieviest esošajos līdzekļos. Iesakiet risinājuma idejas, izmantojot [Human Resources idejas](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+- Pastāstiet mums par līdzekļiem, kurus vēlaties redzēt produktā, vai informējiet par visām izmaiņām, kuras pēc jūsu domām mums vajadzētu ieviest esošajos līdzekļos. Iesakiet preces idejas sadaļā [Personāla vadības idejas](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources).
     
 Iesniegtajās atsauksmēs vai produkta apskatos, lūdzu, neiekļaujiet personas datus (jebkāda informācija, kas ļauj jūs identificēt). Ievāktā informācija varētu tikt analizēta tālāk, un tā netiek izmantota, lai atbildētu uz pieprasījumiem saskaņā ar piemērojamajiem privātuma likumiem. Uz personas datiem, kas tiek ievākti atsevišķi saskaņā ar šīm programmām, attiecas [Microsoft privātuma paziņojums](https://privacy.microsoft.com/privacystatement).
 

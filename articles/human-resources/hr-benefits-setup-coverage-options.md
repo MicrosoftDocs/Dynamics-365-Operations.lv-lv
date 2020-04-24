@@ -1,9 +1,9 @@
 ---
 title: Izveidot seguma opcijas
-description: Seguma opcijas Microsoft Dynamics 365 Human Resources ir seguma līmeņi dalībnieka izvēlei atvieglojumu plānā vai programmā, piemēram, tikai darbinieki ārstniecības plānam vai 2x alga dzīvības apdrošināšanas plānam.
+description: Vajadzību opcijas programmā Microsoft Dynamics 365 Human Resources ir nodrošinājuma līmeņi dalībnieka vēlēšanām atvieglojumu plānā vai programmā.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092710"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230181"
 ---
 # <a name="create-coverage-options"></a>Izveidot seguma opcijas
 
-[!include [banner](includes/preview-feature.md)]
+Vajadzību opcijas programmā Microsoft Dynamics 365 Human Resources ir nodrošinājuma līmeņi dalībnieka vēlēšanām atvieglojumu plānā vai programmā. Piemēram, vajadzības opcijas var iekļaut **Tikai darbinieks** medicīniskajam plānam vai **Atalgojums x2** dzīvības apdrošināšanas plānam. Pēc definēšanas varat atkārtoti izmantot atvieglojumu vajadzību opcijas. Varat saistīt opciju ar vienu vai vairākiem plāniem.
 
-Seguma opcijas Microsoft Dynamics 365 Human Resources ir seguma līmeņi dalībnieka izvēlei atvieglojumu plānā vai programmā, piemēram, tikai darbinieki ārstniecības plānam vai 2x alga dzīvības apdrošināšanas plānam. Kad tās definētas, atvieglojumu seguma opcijas ir izmantojamas atkārtoti, un varat saistīt opciju ar vienu vai vairākiem plāniem.
-
-Kad seguma opcijas ir definētas, pievienojiet seguma opcijas atvieglojumu plāna veidam. Pēc tam plāna veids tiek saistīts ar atvieglojumu plānu vai programmu. Seguma opcijas, kas saistītas ar plāna veidu, būs pieejamas visiem plāniem, kas izveidoti ar šo plāna veidu. 
+Kad seguma opcijas ir definētas, pievienojiet seguma opcijas atvieglojumu plāna veidam. Pēc tam plāna veids tiek saistīts ar atvieglojumu plānu vai programmu. Seguma opcijas, kas saistītas ar plāna veidu, ir pieejamas visiem plāniem, kas izveidoti ar šo plāna veidu. 
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Seguma opcijas**.
 

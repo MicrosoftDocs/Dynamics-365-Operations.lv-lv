@@ -3,7 +3,7 @@ title: Izveidot atvaļinājumu un prombūtnes plānu
 description: Izveidojiet atvaļinājumu plānus Dynamics 365 Human Resources dažādiem atvaļinājumu veidiem.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087304"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197363"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Izveidot atvaļinājumu un prombūtnes plānu
 
@@ -42,6 +42,11 @@ Varat arī veidot amatā balstītus atvieglojumus, piemēram, vienīgi vadībai 
 1. Lapā **Atvaļinājumu un prombūtnes plāni** atlasiet **Izveidot jaunu plānu**.
 
 2. Sadaļā **Detalizēta informācija** ievadiet **Nosaukumu**, **Sākuma datumu**, **Aprakstu**un **Atvaļinājuma veidu** savam plānam.
+
+Ja ir iespējots līdzeklis **Vairāku atvaļinājumu veidu konfigurēšana vienam atvaļinājuma un prombūtnes plānam** atvaļinājumu veidi tiek konfigurēti **Uzkrāšanas grafikā**, nevis zem **Detalizētas informācijas**. Katram ierakstam uzkrāšanas grafika tabulā varat definēt atvaļinājuma tipu.
+
+ > [!IMPORTANT]
+   > Šo funkciju pēc tās iespējošanas nevar atspējot.
 
 3. Definējiet uzkrājumus cilnē **Uzkrājumi**. Uzkrājumi nosaka, kad un cik bieži darbiniekam tiek piešķirts brīvais laiks. Šajā darbībā ir jādefinē politika par to, kad ir jāpiešķir uzkrājumi, un politika par atvaļinājumu atvieglojumu likmēm.
 
@@ -95,8 +100,8 @@ Varat arī veidot amatā balstītus atvieglojumus, piemēram, vienīgi vadībai 
    Varat izveidot pakāpes, lai piešķirtu brīvo laiku, pamatojoties uz dažādiem līmeņiem.
 
    Ja jums ir darbinieki ar stundu likmi, jūs varat piešķirt laika uzkrāšanu pēc jūsu organizācijā nostrādātajam stundām, nevis pēc darba stāža. Dati par nostrādātajām stundām tiek glabāti laika un apmeklētības sistēmā. Varat importēt regulārās un virsstundas, kas nostrādātas no laika un apmeklētības sistēmas un izmantot tās kā pamatu darbinieka piešķīrumam.
-
-   1. Atlasiet opciju nolaižamajā lodziņā **Uzkrājuma veids**:
+   
+    1. Atlasiet opciju nolaižamajā lodziņā **Uzkrājuma veids**:
 
       - **Pakalpojumu mēneši** mēneši – Uzkrāšanas grafiks balstās pakalpojumu sniegšanas mēnešos.
 
@@ -117,6 +122,13 @@ Varat arī veidot amatā balstītus atvieglojumus, piemēram, vienīgi vadībai 
       - **Maksimālā pārnešana** - uzkrājumu process pielāgo atvaļinājumu bilanci, kas pārsniedz maksimālo pārnešanas bilanci sākuma datuma gadadienā.
 
       - **Garantētā summa** – Sākotnējais stundu vai dienu skaits, kas darbiniekiem tiek piešķirts, kad viņi pirmo reizi reģistrējas atvaļinājuma plānā. Summa netiek uzkrāta katram uzkrāšanas periodam.
+      
+Ja līdzeklis **Konfigurēt vairāku atvaļinājumu veidus vienam atvaļinājumam un prombūtnes plānam** ir iespējots, atlasiet opciju no **Atvaļinājuma veida**. 
+
+   > [!IMPORTANT]
+   > Šo funkciju pēc tās iespējošanas nevar atspējot.
+
+Ja līdzeklis **Izmantojiet pilna laika ekvivalenci** ir iespējots, Personāla vadība izmanto pilna laika ekvivalentu (FTE), kas noteikts amatam, lai proporcionāli noteiktu darbinieka uzkrājumu. Piemēram, ja FTE ir 0,5 un uzkrājumu summa ir10, darbiniekam tiks uzkrāti 5. Šo funkciju var izmantot tikai tad, ja iespējosit vairākus atvaļinājumu veidus.  
 
 5. Atlasiet **Saglabāt**.
 
@@ -358,21 +370,8 @@ Prognozētā bilance (30) = uzkrājumu summa (10 x 1) + pašreizējā bilanc
 | Žanete Nikolsone | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Džejs Normans          | 0.00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
 
-## <a name="configure-preview-features"></a>Priekšskatījuma līdzekļu konfigurēšana
-
-Ja esat iespējojis priekšskatījuma līdzekļus atvaļinājumiem un prombūtnei, arī tiem ir jākonfigurē iestatījumi.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Priekšskatījuma līdzeklis: vairāku atvaļinājumu tipu konfigurēšana vienam atvaļinājumu un prombūtnes plānam**. Katram ierakstam uzkrāšanas grafika tabulā varat definēt atvaļinājuma tipu.
-
-   > [!IMPORTANT]
-   > Šo funkciju pēc tās iespējošanas nevar atspējot.
-
-2. **Priekšskatījuma līdzeklis: Lietojiet pilnas slodzes ekvivalentu**. Iespējojot šo priekšskatījuma līdzekli, Human Resources izmanto pilna laika ekvivalentu (FTE), kas noteikts amatam, lai proporcionāli noteiktu darbinieka uzkrājumu. Piemēram, ja FTE ir 0,5 un uzkrājumu summa ir10, darbiniekam tiks uzkrāti 5. Šo funkciju var izmantot tikai tad, ja iespējosit vairākus atvaļinājumu veidus.
-
 ## <a name="see-also"></a>Skatiet arī
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
-- [Atvaļinājumu un prombūtnes veidu konfigurēšana](hr-leave-and-absence-types.md)
+- [Konfigurēt atvaļinājumu un kavējumu veidus](hr-leave-and-absence-types.md)
 - [Atvaļinājumu un prombūtnes plānu uzkrāšana](hr-leave-and-absence-accrue.md)
