@@ -2,7 +2,7 @@
 title: No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējamām precēm
 description: Šajā tēmā ir izskaidrots, kā iestatīt uz atribūtiem balstītu cenu noteikšanu.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,45 +10,45 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d23030b79670e31cc237b9ca53b0b3881678786f
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 7382cdfa11e89896bba9518f36eb6caab56b98f6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149830"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213059"
 ---
-# <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="77198-103">No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējamām precēm</span><span class="sxs-lookup"><span data-stu-id="77198-103">Set up attribute-based pricing for configurable products</span></span>
+# <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="c5591-103">No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējamām precēm</span><span class="sxs-lookup"><span data-stu-id="c5591-103">Set up attribute-based pricing for configurable products</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="77198-104">Šajā tēmā ir izskaidrots, kā iestatīt uz atribūtiem balstītu cenu noteikšanu.</span><span class="sxs-lookup"><span data-stu-id="77198-104">This topic explains how to set up attribute-based pricing.</span></span> <span data-ttu-id="77198-105">Kā priekšnosacījumam, jums jābūt preces konfigurācijas modelim, kam ir viens vai vairāki komponenti un atribūti.</span><span class="sxs-lookup"><span data-stu-id="77198-105">As a prerequisite, you must have a product configuration model that has one or more components and attributes.</span></span> <span data-ttu-id="77198-106">Šajā piemērā tiek izmantots augstas kvalitātes skaļruņa preces modelis demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="77198-106">This example uses the High End Speaker product model in the USMF demo data company.</span></span> <span data-ttu-id="77198-107">Parasti produktu menedžeris izmanto šo procedūru.</span><span class="sxs-lookup"><span data-stu-id="77198-107">Typically, a product manager uses this procedure.</span></span>
+<span data-ttu-id="c5591-104">Šajā tēmā ir izskaidrots, kā iestatīt uz atribūtiem balstītu cenu noteikšanu.</span><span class="sxs-lookup"><span data-stu-id="c5591-104">This topic explains how to set up attribute-based pricing.</span></span> <span data-ttu-id="c5591-105">Kā priekšnosacījumam, jums jābūt preces konfigurācijas modelim, kam ir viens vai vairāki komponenti un atribūti.</span><span class="sxs-lookup"><span data-stu-id="c5591-105">As a prerequisite, you must have a product configuration model that has one or more components and attributes.</span></span> <span data-ttu-id="c5591-106">Šajā piemērā tiek izmantots augstas kvalitātes skaļruņa preces modelis demonstrācijas datu uzņēmumā USMF.</span><span class="sxs-lookup"><span data-stu-id="c5591-106">This example uses the High End Speaker product model in the USMF demo data company.</span></span> <span data-ttu-id="c5591-107">Parasti produktu menedžeris izmanto šo procedūru.</span><span class="sxs-lookup"><span data-stu-id="c5591-107">Typically, a product manager uses this procedure.</span></span>
 
 
-## <a name="create-a-new-price-model"></a><span data-ttu-id="77198-108">Izveidot jaunu cenas modeli</span><span class="sxs-lookup"><span data-stu-id="77198-108">Create a new price model</span></span>
-1. <span data-ttu-id="77198-109">Sākumlapā atlasiet **Produkta varianta modeļa definīcija**.</span><span class="sxs-lookup"><span data-stu-id="77198-109">Select **Product variant model definition** on the home page.</span></span>
-2. <span data-ttu-id="77198-110">Atlasiet krājumu **produkta konfigurācijas modeļi** sadaļā **saites**.</span><span class="sxs-lookup"><span data-stu-id="77198-110">Select **Product configuration models** in the **links** section.</span></span>
-3. <span data-ttu-id="77198-111">Sarakstā atlasiet rindu **Augstākās klases runātājs**, bet neatlasiet saiti nosaukumam.</span><span class="sxs-lookup"><span data-stu-id="77198-111">In the list, select the **High End Speaker** line, but don't select the link for the name.</span></span>
-4. <span data-ttu-id="77198-112">Darbību rūtī atlasiet **Modelis**.</span><span class="sxs-lookup"><span data-stu-id="77198-112">On the Action Pane, select **Model**.</span></span>
-5. <span data-ttu-id="77198-113">Atlasiet **Cenu modeļi**.</span><span class="sxs-lookup"><span data-stu-id="77198-113">Select **Price models**.</span></span>
-6. <span data-ttu-id="77198-114">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="77198-114">Select **New**.</span></span>
-7. <span data-ttu-id="77198-115">Laukā **Cenu modeļa nosaukums** ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="77198-115">In the **Price model name** field, type a value.</span></span> <span data-ttu-id="77198-116">Izmantojiet nosaukumu, kas ļauj viegli identificēt modeli.</span><span class="sxs-lookup"><span data-stu-id="77198-116">Use a name that makes the model easy to identify.</span></span>  
-8. <span data-ttu-id="77198-117">Laukā **Apraksts** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="77198-117">In the **Description** field, type a value.</span></span>
-9. <span data-ttu-id="77198-118">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="77198-118">Select **Save**.</span></span>
+## <a name="create-a-new-price-model"></a><span data-ttu-id="c5591-108">Izveidot jaunu cenas modeli</span><span class="sxs-lookup"><span data-stu-id="c5591-108">Create a new price model</span></span>
+1. <span data-ttu-id="c5591-109">Sākumlapā atlasiet **Produkta varianta modeļa definīcija**.</span><span class="sxs-lookup"><span data-stu-id="c5591-109">Select **Product variant model definition** on the home page.</span></span>
+2. <span data-ttu-id="c5591-110">Atlasiet krājumu **produkta konfigurācijas modeļi** sadaļā **saites**.</span><span class="sxs-lookup"><span data-stu-id="c5591-110">Select **Product configuration models** in the **links** section.</span></span>
+3. <span data-ttu-id="c5591-111">Sarakstā atlasiet rindu **Augstākās klases runātājs**, bet neatlasiet saiti nosaukumam.</span><span class="sxs-lookup"><span data-stu-id="c5591-111">In the list, select the **High End Speaker** line, but don't select the link for the name.</span></span>
+4. <span data-ttu-id="c5591-112">Darbību rūtī atlasiet **Modelis**.</span><span class="sxs-lookup"><span data-stu-id="c5591-112">On the Action Pane, select **Model**.</span></span>
+5. <span data-ttu-id="c5591-113">Atlasiet **Cenu modeļi**.</span><span class="sxs-lookup"><span data-stu-id="c5591-113">Select **Price models**.</span></span>
+6. <span data-ttu-id="c5591-114">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="c5591-114">Select **New**.</span></span>
+7. <span data-ttu-id="c5591-115">Laukā **Cenu modeļa nosaukums** ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c5591-115">In the **Price model name** field, type a value.</span></span> <span data-ttu-id="c5591-116">Izmantojiet nosaukumu, kas ļauj viegli identificēt modeli.</span><span class="sxs-lookup"><span data-stu-id="c5591-116">Use a name that makes the model easy to identify.</span></span>  
+8. <span data-ttu-id="c5591-117">Laukā **Apraksts** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c5591-117">In the **Description** field, type a value.</span></span>
+9. <span data-ttu-id="c5591-118">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="c5591-118">Select **Save**.</span></span>
 
-## <a name="add-price-elements"></a><span data-ttu-id="77198-119">Pievienot cenas elementus</span><span class="sxs-lookup"><span data-stu-id="77198-119">Add price elements</span></span>
-1. <span data-ttu-id="77198-120">Atlasiet **Rediģēt**.</span><span class="sxs-lookup"><span data-stu-id="77198-120">Select **Edit**.</span></span> <span data-ttu-id="77198-121">Katrs komponents preces modelī var saturēt pamatcenas elementu un jebkādu cenas izteiksmes kārtulu skaitu.</span><span class="sxs-lookup"><span data-stu-id="77198-121">Each component in a product model can have a base price element and any number of price expression rules.</span></span> <span data-ttu-id="77198-122">Jūs varat arī pievienot cenas dažādās valūtās.</span><span class="sxs-lookup"><span data-stu-id="77198-122">You can also add prices in different currencies.</span></span>  
-2. <span data-ttu-id="77198-123">Laukā **Bāzes cenas izteiksme** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="77198-123">In the **Base price expression** field, type a value.</span></span> <span data-ttu-id="77198-124">Piemēram, ievadiet 100.</span><span class="sxs-lookup"><span data-stu-id="77198-124">For example, type 100.</span></span> <span data-ttu-id="77198-125">Pamatcenas izteiksme var būt skaitliska vērtība, vai tā var sastāvēt no aritmētiska aprēķina, kas ietver vienu vai vairākus atribūtus.</span><span class="sxs-lookup"><span data-stu-id="77198-125">A base price expression can be a numerical value, or it can consist of an arithmetic calculation that involves one or more attributes.</span></span>  
-3. <span data-ttu-id="77198-126">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="77198-126">Select **Add**.</span></span>
-4. <span data-ttu-id="77198-127">Laukā **Nosaukums** ievadiet `Rosewood`.</span><span class="sxs-lookup"><span data-stu-id="77198-127">In the **Name** field, type `Rosewood`.</span></span> <span data-ttu-id="77198-128">Cenas izteiksmes nosaukums palīdz noteikt, ko atspoguļo cenas elements.</span><span class="sxs-lookup"><span data-stu-id="77198-128">The price expression name helps identify what the price element represents.</span></span> <span data-ttu-id="77198-129">Šajā piemērā tiek izveidots cenas elements Rosewood skaļruņa korpusa apdares opcijai.</span><span class="sxs-lookup"><span data-stu-id="77198-129">In this example, we are creating a price element for the Rosewood speaker cabinet finish option.</span></span>  
-5. <span data-ttu-id="77198-130">Atlasīt **Rediģēt nosacījumu**.</span><span class="sxs-lookup"><span data-stu-id="77198-130">Select **Edit condition**.</span></span> <span data-ttu-id="77198-131">Cenas nosacījumu palīdz nodrošināt to, ka cenas izteiksmes elements tiek iekļauts pārdošanas cenā tikai tad, ja ir noteiktu atribūtu kombinācija.</span><span class="sxs-lookup"><span data-stu-id="77198-131">A price condition helps guarantee that a price expression element is included in the sales price only if a specific combination of attributes is present.</span></span>  
-6. <span data-ttu-id="77198-132">Laukā **ConstraintBody** ievadiet `CabinetFinish=="Rosewood"`.</span><span class="sxs-lookup"><span data-stu-id="77198-132">In the **ConstraintBody** field, enter `CabinetFinish=="Rosewood"`.</span></span>
-7. <span data-ttu-id="77198-133">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="77198-133">Select **OK**.</span></span>
-8. <span data-ttu-id="77198-134">Laukā **Izteiksme** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="77198-134">In the **Expression** field, type a value.</span></span> <span data-ttu-id="77198-135">Piemēram, ievadiet `50`.</span><span class="sxs-lookup"><span data-stu-id="77198-135">For example, type `50`.</span></span> 
-9. <span data-ttu-id="77198-136">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="77198-136">Close the page.</span></span>
+## <a name="add-price-elements"></a><span data-ttu-id="c5591-119">Pievienot cenas elementus</span><span class="sxs-lookup"><span data-stu-id="c5591-119">Add price elements</span></span>
+1. <span data-ttu-id="c5591-120">Atlasiet **Rediģēt**.</span><span class="sxs-lookup"><span data-stu-id="c5591-120">Select **Edit**.</span></span> <span data-ttu-id="c5591-121">Katrs komponents preces modelī var saturēt pamatcenas elementu un jebkādu cenas izteiksmes kārtulu skaitu.</span><span class="sxs-lookup"><span data-stu-id="c5591-121">Each component in a product model can have a base price element and any number of price expression rules.</span></span> <span data-ttu-id="c5591-122">Jūs varat arī pievienot cenas dažādās valūtās.</span><span class="sxs-lookup"><span data-stu-id="c5591-122">You can also add prices in different currencies.</span></span>  
+2. <span data-ttu-id="c5591-123">Laukā **Bāzes cenas izteiksme** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c5591-123">In the **Base price expression** field, type a value.</span></span> <span data-ttu-id="c5591-124">Piemēram, ievadiet 100.</span><span class="sxs-lookup"><span data-stu-id="c5591-124">For example, type 100.</span></span> <span data-ttu-id="c5591-125">Pamatcenas izteiksme var būt skaitliska vērtība, vai tā var sastāvēt no aritmētiska aprēķina, kas ietver vienu vai vairākus atribūtus.</span><span class="sxs-lookup"><span data-stu-id="c5591-125">A base price expression can be a numerical value, or it can consist of an arithmetic calculation that involves one or more attributes.</span></span>  
+3. <span data-ttu-id="c5591-126">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="c5591-126">Select **Add**.</span></span>
+4. <span data-ttu-id="c5591-127">Laukā **Nosaukums** ievadiet `Rosewood`.</span><span class="sxs-lookup"><span data-stu-id="c5591-127">In the **Name** field, type `Rosewood`.</span></span> <span data-ttu-id="c5591-128">Cenas izteiksmes nosaukums palīdz noteikt, ko atspoguļo cenas elements.</span><span class="sxs-lookup"><span data-stu-id="c5591-128">The price expression name helps identify what the price element represents.</span></span> <span data-ttu-id="c5591-129">Šajā piemērā tiek izveidots cenas elements Rosewood skaļruņa korpusa apdares opcijai.</span><span class="sxs-lookup"><span data-stu-id="c5591-129">In this example, we are creating a price element for the Rosewood speaker cabinet finish option.</span></span>  
+5. <span data-ttu-id="c5591-130">Atlasīt **Rediģēt nosacījumu**.</span><span class="sxs-lookup"><span data-stu-id="c5591-130">Select **Edit condition**.</span></span> <span data-ttu-id="c5591-131">Cenas nosacījumu palīdz nodrošināt to, ka cenas izteiksmes elements tiek iekļauts pārdošanas cenā tikai tad, ja ir noteiktu atribūtu kombinācija.</span><span class="sxs-lookup"><span data-stu-id="c5591-131">A price condition helps guarantee that a price expression element is included in the sales price only if a specific combination of attributes is present.</span></span>  
+6. <span data-ttu-id="c5591-132">Laukā **ConstraintBody** ievadiet `CabinetFinish=="Rosewood"`.</span><span class="sxs-lookup"><span data-stu-id="c5591-132">In the **ConstraintBody** field, enter `CabinetFinish=="Rosewood"`.</span></span>
+7. <span data-ttu-id="c5591-133">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="c5591-133">Select **OK**.</span></span>
+8. <span data-ttu-id="c5591-134">Laukā **Izteiksme** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c5591-134">In the **Expression** field, type a value.</span></span> <span data-ttu-id="c5591-135">Piemēram, ievadiet `50`.</span><span class="sxs-lookup"><span data-stu-id="c5591-135">For example, type `50`.</span></span> 
+9. <span data-ttu-id="c5591-136">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c5591-136">Close the page.</span></span>
 
