@@ -3,7 +3,7 @@ title: TRANSLATE ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota TRANSLATE elektroniskā pārskata (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040921"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201116"
 ---
-# <a name="TRANSLATE">TRANSLATE ER funkcija</a>
+# <a name=""></a><a name="TRANSLATE">TRANSLATE ER funkcija</a>
 
 [!include [banner](../includes/banner.md)]
 
-`TRANSLATE` funkcija atgriež norādīto teksta virkni kā *Virknes* vērtību, ja visa vai daļa no tās ir aizstāta ar citu virkni.
+`TRANSLATE` funkcija atgriež *Virknes* vērtību, kas satur noteiktā teksta rakstzīmju aizstāšanas rezultātu citas nodrošinātās kopas rakstzīmēs.
 
 ## <a name="syntax"></a>Sintakse
 
@@ -57,9 +57,23 @@ Teksts, ko izmantot kā aizvietotāju.
 
 Iegūtā teksta vērtība.
 
-## <a name="example"></a>Paraugs
+## <a name="usage-notes"></a>Lietošanas piezīmes
 
-`TRANSLATE ("abcdef", "cd", "GH")` aizstāj burtus **"cd"** ar virkni **"GH"**  un atgriež **"abGHef"**.
+`TRANSLATE` funkcija aizstāj pa vienai rakstzīmei reizē. Funkcija aizvieto pirmo `text` argumenta rakstzīmi ar `pattern` argumenta pirmo rakstzīmi un pēc tam otro rakstzīmi un seko tai pašai plūsmai līdz beigām. Kad rakstzīme no `text` un `pattern` argumentiem atbilst, tā tiek aizstāta ar rakstzīmi no `replacement` argumenta, kas atrodas tādā pašā pozīcijā kā rakstzīme no `pattern` argumenta. Ja rakstzīme tiek parādīta vairākas reizes `pattern` argumentā, tiek izmantota `replacement` argumenta kartēšana, kas atbilst šīs rakstzīmes pirmajam parādīšanās gadījumam.
+
+## <a name="example-1"></a>1. piemērs
+
+`TRANSLATE ("abcdef", "cd", "GH")` aizvieto norādītā **"abcdef"** teksta **"c"** rakstzīmi ar  `replacement` teksta **"G"** rakstzīmi sakarā ar:
+-   Rakstzīme **"c"** tiek parādīta `pattern` teksta pirmajā pozīcijā.
+-   `replacement` teksta pirmajā pozīcijā ir ietverta rakstzīme **"G"**.
+
+## <a name="example-2"></a>2. piemērs
+
+`TRANSLATE ("abcdef", "ccd", "GH")` atgriež **"abGdef"**.
+
+## <a name="example-3"></a>3. piemērs
+
+`TRANSLATE ("abccba", "abc", "123")` atgriež **"123321"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

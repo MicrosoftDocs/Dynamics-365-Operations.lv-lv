@@ -3,7 +3,7 @@ title: Jaunumi un izmaiņas programmā Human Resources
 description: Katru nedēļu mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas rakstos ir detalizēta informācija par katru nedēļu izdarītajām izmaiņām.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ba311a3ab6ac482821e485186d81a5bcb91ab38
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 25a70b812af76fa420de69ed9b4e718991a21e43
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154463"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259613"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
-Katru nedēļu mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas rakstos ir detalizēta informācija par katru nedēļu izdarītajām izmaiņām.
+Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas rakstos ir detalizēta informācija par katrā laidienā izdarītajām izmaiņām.
 
 Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšanas procesu Human Resources, skatiet tālāk minētos rakstus:
 
@@ -39,8 +39,12 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 ## <a name="human-resources-weekly-releases"></a>Human Resources nedēļas laidieni
 
-Lai redzētu, kas jauns vai mainīts katrā Human Resources nedēļas laidienā, skatiet šādus rakstus:
+Lai redzētu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
+[2020. gada 13. aprīlis](hr-whats-new-2020-04-13.md)</br>
+[2020. gada 3. aprīlis](hr-whats-new-2020-04-03.md)</br>
+[2020. gada 24. marts](hr-whats-new-2020-03-24.md)</br>
+[2020. gada 19. marts](hr-whats-new-2020-03-19.md)</br>
 [2020. gada 10. marts](hr-whats-new-2020-03-10.md)</br>
 [2020. gada 3. marts](hr-whats-new-2020-03-03.md)</br>
 [2020. gada 25. februāris](hr-whats-new-2020-02-25.md)</br>

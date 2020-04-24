@@ -3,7 +3,7 @@ title: Gada beigu slēgšana
 description: Šajā tēmā ir aprakstīti nepieciešamie iestatījumi un darbības, kas ir jāveic, lai izpildītu Virsgrāmatas gada slēgšanas procesu.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175520"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259775"
 ---
 # <a name="year-end-close"></a>Gada beigu slēgšana
 
@@ -74,7 +74,7 @@ Opcija **Pārsūtīt bilances dimensijas** tiek izmantota, lai definētu, vai s�
 Gada beigu slēgšanas process nav atkarīgs no kontu struktūrām. Tā ir tāpēc, ka kontu struktūras var tikt mainītas finanšu gada laikā un šo izmaiņu dēļ dažreiz nevar identificēt saistīto konta struktūru.  Izveidojot sākuma transakcijas, turpmākai lietošanai tiek pārvietotas bilances ar finanšu dimensijām, kas ir definētas gada beigu slēgšanas veidnē. Sākuma bilanču ierakstos var būt iekļautas finanšu dimensijas, kas vairs nav ietvertas pašreizējā konta struktūrā, un segmentu kombinācijas, kas vairs nav derīgas pašreizējā konta struktūrā. Ja organizācija vēlas izslēgt finanšu dimensiju no nesadalītās peļņas sākuma bilances, iestatiet finanšu dimensijai opciju **Slēgt vienu** un atstājiet dimensijas vērtību tukšu.
 
 ## <a name="run-the-year-end-close-process"></a>Gada beigu slēgšanas procesa izpilde
-Pēc gada beigu slēgšanas veidņu izveides gada beigu slēgšanas procesu var aktivizēt, darbību rūtī izvēloties opciju **Izpildīt finanšu gadu**. Atlasiet visas juridiskās personas vai juridisko personu apakškopu no veidnes, kurai ir jāizpilda gada beigu slēgšana. Pirmo reizi finanšu gada laikā izpildot gada beigu slēgšanu, iespējams, izvēlēsities visas juridiskās personas, lai izveidotu visu juridisko personu sākuma bilances. Atkārtoti izpildot gada beigu slēgšanu, varat izvēlēties izpildīt procesu tikai tām juridiskajām personām, kam ir grāmatoti koriģējošie ieraksti. 
+Pēc gada beigu slēgšanas veidņu izveides gada beigu slēgšanas procesu var aktivizēt, darbību rūtī izvēloties opciju **Izpildīt finanšu slēgšanu**. Atlasiet visas juridiskās personas vai juridisko personu apakškopu no veidnes, kurai ir jāizpilda gada beigu slēgšana. Pirmo reizi finanšu gada laikā izpildot gada beigu slēgšanu, iespējams, izvēlēsities visas juridiskās personas, lai izveidotu visu juridisko personu sākuma bilances. Atkārtoti izpildot gada beigu slēgšanu, varat izvēlēties izpildīt procesu tikai tām juridiskajām personām, kam ir grāmatoti koriģējošie ieraksti. 
 
 Atlasiet finanšu gadu, kam vēlaties izpildīt gada beigu slēgšanu. Ja finanšu gada pēdējam periodam ir vairāki slēgšanas periodi, kļūst pieejams lauks **Perioda nosaukums**, lai varētu atlasīt, kurā slēgšanas periodā grāmatot slēgšanas transakciju gadījumā, ja ir iestatīta slēgšanas transakcijas izveide. 
 

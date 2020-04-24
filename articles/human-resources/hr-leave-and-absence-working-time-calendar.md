@@ -3,7 +3,7 @@ title: Darba laika kalendāra izveide
 description: Definējiet darba laika kalendāru, brīvdienas un ārpusdarba laikus pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009845"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198031"
 ---
 # <a name="create-a-working-time-calendar"></a>Darba laika kalendāra izveide
 
@@ -68,10 +68,6 @@ Nestrādājamo laiku var pievienot vai mainīt atsevišķi no darba laika kalend
 1. Lapā **Organizācijas administrēšana** atlasiet **Nestrādājamais laiks**.
 
 2. Atlasiet **Jauns** un ievadiet nestrādājamā laika nosaukumu un laika diapazonu.
-
-## <a name="leave-and-absence-preview-feature"></a>Atvaļinājumu un prombūtnes priekšskatījuma līdzeklis
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 Ja esat iespējojis atvaļinājumu un prombūtnes bankas brīvdienu labošanas priekšskatījuma līdzekli, Human Resources izmanto brīvdienas un slēgšanas datumus, lai noteiktu dienu skaitu, kas jāpielāgo darbiniekiem, kas reģistrēti kalendārā.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897929"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197271"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 16. aprīlis)
 
@@ -46,10 +46,6 @@ Tagad varat izsekot izmaiņām, kas veiktas attiecībā uz kandidātiem, vakanc�
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Elementi Atlīdzības reģions, Atlīdzības līmenis, Atvieglojumu opcijas un Prasmju tips pakalpojumā Common Data Service ir atjaunināti, lai iekļautu debitoru lauku atbalstu.
 
 Šajā laidienā šie pakalpojuma Common Data Service elementi ir atjaunināti, lai iekļautu iespēju iekļaut pielāgotu lauku, kas pievienots, izmantojot pakalpojumu Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Jauns pakalpojuma Common Data Service elementu atbalsts šādiem elementiem: Atlīdzības izmaksas noteikumi, Mainīgās atlīdzības plāns, Mainīgā atlīdzība
-
-Ar šo laidienu pakalpojumam Common Data Service ir pievienoti elementi Atlīdzības izmaksas noteikumi, Mainīgās atlīdzības plāns un Mainīgā atlīdzība. Šie elementi atbalsta arī pielāgotus laukus, kas pievienoti, izmantojot pakalpojumu Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI atsvaidzināšanas problēmas (314342)
 
@@ -93,6 +89,6 @@ Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vā
 
 ### <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
 
-Līdz ar Finance and Operations atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
+Līdz ar platformas atjauninājumu 25 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
 
 

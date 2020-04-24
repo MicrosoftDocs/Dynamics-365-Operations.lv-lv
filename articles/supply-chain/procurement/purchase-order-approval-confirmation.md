@@ -1,30 +1,30 @@
 ---
 title: Pirkšanas pasūtījumu apstiprināšana un ratificēšana
-description: Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813435"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207998"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -69,9 +69,10 @@ Reizēm jums var rasties nepieciešamība mainīt pirkšanas pasūtījumu pēc t
 
 Ja pirkšanas pasūtījums tika izveidots, izmantojot izmaiņu pārvaldības procesu, tad izmaiņas varat veikt, atsaucot pasūtījumu vai — ja pasūtījums jau ir apstiprināts — izmantojot darbību **Pieprasīt izmaiņas**. Šādā gadījumā apstiprinājuma statuss tiek mainīts atpakaļ uz **Melnraksts**, un pēc tam šo pasūtījumu varat modificēt. Kad esat beidzis izmaiņu veikšanu, iespējams, pirkšanas pasūtījums ir jāiesniedz atkārtotai apstiprināšanai. Varat konfigurēt, kāda tipa izmaiņām ir nepieciešama atkārtota apstiprināšana, izmantojot ierobežojuma nosacījumu **Atkārtotas apstiprināšanas kārtula pirkšanas pasūtījumiem** lapā **Pirkšanas ierobežojumi**.
 
-Ja daļa no pasūtītā daudzuma kādai pirkšanas pasūtījuma rindai ir piegādāta, tad pasūtīto daudzumu mainīt nevar. Taču varat mainīt daudzumu **Atlicis piegādāt** šajā rindā. Pēc tam varat izmantot darbību **Pabeigt**, lai atceltu rindas un novērstu turpmāku apstrādāšanu. 
+Ja daļa no pasūtītā daudzuma kādai pirkšanas pasūtījuma rindai ir piegādāta, tad pasūtīto daudzumu mainīt nevar, kad pirkšanas pasūtījums ir **Melnrakstā**. Tomēr jūs varat mainīt **Piegādātā atlikuma** daudzumu rindas pirkšanas pasūtījumam, kas ir **Melnraksta** statusā.
 
-Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kopējo daudzumu vai jebkuru atlikušo daudzumu pasūtījumā, ja vien šis daudzums vēl nav saņemts vai iekļauts rēķinā.
+Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kopējo daudzumu vai jebkuru atlikušo daudzumu pasūtījumā, ja vien šis daudzums vēl nav saņemts vai iekļauts rēķinā. Pēc tam varat izmantot darbību **Pabeigt**, lai novērstu turpmāku apstrādāšanu. 
+
 
 ## <a name="canceling-purchase-orders"></a>Pirkšanas pasūtījumu atcelšana
 
