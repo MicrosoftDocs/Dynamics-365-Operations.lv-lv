@@ -2,7 +2,7 @@
 title: Bāzlīnijas prognozes izveide
 description: Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,75 +10,75 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85d687c0c21112f815bb5cf28b0af5501d299c12
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 3ea5e269f9216fa1dfcaa4377beb7ef52ef153b5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148128"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209724"
 ---
-# <a name="create-a-baseline-forecast"></a><span data-ttu-id="f25bc-103">Bāzlīnijas prognozes izveide</span><span class="sxs-lookup"><span data-stu-id="f25bc-103">Create a baseline forecast</span></span>
+# <a name="create-a-baseline-forecast"></a><span data-ttu-id="8610b-103">Bāzlīnijas prognozes izveide</span><span class="sxs-lookup"><span data-stu-id="8610b-103">Create a baseline forecast</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f25bc-104">Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="f25bc-105">Šajā procedūrā ir parādīts, kā kopēt vēsturisko pieprasījumu, lai izveidotu bāzlīnijas prognozi visām precēm, izmantojot vienu krājumu sadalījuma principu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
+<span data-ttu-id="8610b-104">Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="8610b-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="8610b-105">Šajā procedūrā ir parādīts, kā kopēt vēsturisko pieprasījumu, lai izveidotu bāzlīnijas prognozi visām precēm, izmantojot vienu krājumu sadalījuma principu.</span><span class="sxs-lookup"><span data-stu-id="8610b-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
 
 
-## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="f25bc-106">Krājumu sadalījuma principa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="f25bc-106">Set up an item allocation key</span></span>
-1. <span data-ttu-id="f25bc-107">Pārejiet uz sadaļu Vispārējā plānošana > Iestatījumi > Starpuzņēmumu plānošanas grupas.</span><span class="sxs-lookup"><span data-stu-id="f25bc-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
-2. <span data-ttu-id="f25bc-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="f25bc-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="f25bc-109">Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "10".</span><span class="sxs-lookup"><span data-stu-id="f25bc-109">For example, filter on the Name field with a value of '10'.</span></span>
-    * <span data-ttu-id="f25bc-110">Pieprasījuma prognozēšana darbojas visām juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="f25bc-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="f25bc-111">Tāpēc nepieciešams iestatīt visus uzņēmumus, kuriem vēlaties ģenerēt prognozes vienā starpuzņēmumu plānošanas grupā.</span><span class="sxs-lookup"><span data-stu-id="f25bc-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
-3. <span data-ttu-id="f25bc-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-112">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="f25bc-113">Noklikšķiniet uz Krājumu sadalījuma principi.</span><span class="sxs-lookup"><span data-stu-id="f25bc-113">Click Item allocation keys.</span></span>
-    * <span data-ttu-id="f25bc-114">Atlasiet visus krājumu sadalījuma principus, kuriem vēlaties izveidot prognozes.</span><span class="sxs-lookup"><span data-stu-id="f25bc-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
-5. <span data-ttu-id="f25bc-115">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-115">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="f25bc-116">Atlasiet D_Aloc krājumu sadalījuma principu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-116">Select D_Aloc item allocation key.</span></span>  
-6. <span data-ttu-id="f25bc-117">Noklikšķiniet uz >.</span><span class="sxs-lookup"><span data-stu-id="f25bc-117">Click >.</span></span>
-7. <span data-ttu-id="f25bc-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-118">Close the page.</span></span>
-8. <span data-ttu-id="f25bc-119">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-119">Close the page.</span></span>
+## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="8610b-106">Krājumu sadalījuma principa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="8610b-106">Set up an item allocation key</span></span>
+1. <span data-ttu-id="8610b-107">Pārejiet uz sadaļu Vispārējā plānošana > Iestatījumi > Starpuzņēmumu plānošanas grupas.</span><span class="sxs-lookup"><span data-stu-id="8610b-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
+2. <span data-ttu-id="8610b-108">Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus.</span><span class="sxs-lookup"><span data-stu-id="8610b-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="8610b-109">Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "10".</span><span class="sxs-lookup"><span data-stu-id="8610b-109">For example, filter on the Name field with a value of '10'.</span></span>
+    * <span data-ttu-id="8610b-110">Pieprasījuma prognozēšana darbojas visām juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="8610b-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="8610b-111">Tāpēc nepieciešams iestatīt visus uzņēmumus, kuriem vēlaties ģenerēt prognozes vienā starpuzņēmumu plānošanas grupā.</span><span class="sxs-lookup"><span data-stu-id="8610b-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
+3. <span data-ttu-id="8610b-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8610b-112">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="8610b-113">Noklikšķiniet uz Krājumu sadalījuma principi.</span><span class="sxs-lookup"><span data-stu-id="8610b-113">Click Item allocation keys.</span></span>
+    * <span data-ttu-id="8610b-114">Atlasiet visus krājumu sadalījuma principus, kuriem vēlaties izveidot prognozes.</span><span class="sxs-lookup"><span data-stu-id="8610b-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
+5. <span data-ttu-id="8610b-115">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="8610b-115">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="8610b-116">Atlasiet D_Aloc krājumu sadalījuma principu.</span><span class="sxs-lookup"><span data-stu-id="8610b-116">Select D_Aloc item allocation key.</span></span>  
+6. <span data-ttu-id="8610b-117">Noklikšķiniet uz >.</span><span class="sxs-lookup"><span data-stu-id="8610b-117">Click >.</span></span>
+7. <span data-ttu-id="8610b-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8610b-118">Close the page.</span></span>
+8. <span data-ttu-id="8610b-119">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8610b-119">Close the page.</span></span>
 
-## <a name="set-up-the-demand-forecasting-paramters"></a><span data-ttu-id="f25bc-120">Pieprasījuma prognozēšanas parametru iestatīšana</span><span class="sxs-lookup"><span data-stu-id="f25bc-120">Set up the demand forecasting paramters</span></span>
-1. <span data-ttu-id="f25bc-121">Pārejiet uz sadaļu Vispārējā plānošana > Iestatījumi > Pieprasījuma prognozēšana > Pieprasījuma prognozēšanas parametri.</span><span class="sxs-lookup"><span data-stu-id="f25bc-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
-2. <span data-ttu-id="f25bc-122">Izvērsiet prognozes algoritma parametru sadaļu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-122">Expand the Forecast algorithm parameters section.</span></span>
-3. <span data-ttu-id="f25bc-123">Laukā Prognozes ģenerēšanas stratēģija atlasiet Kopēt vēsturiskā pieprasījuma vietā.</span><span class="sxs-lookup"><span data-stu-id="f25bc-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
-4. <span data-ttu-id="f25bc-124">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f25bc-124">Click Save.</span></span>
+## <a name="set-up-the-demand-forecasting-paramters"></a><span data-ttu-id="8610b-120">Pieprasījuma prognozēšanas parametru iestatīšana</span><span class="sxs-lookup"><span data-stu-id="8610b-120">Set up the demand forecasting paramters</span></span>
+1. <span data-ttu-id="8610b-121">Pārejiet uz sadaļu Vispārējā plānošana > Iestatījumi > Pieprasījuma prognozēšana > Pieprasījuma prognozēšanas parametri.</span><span class="sxs-lookup"><span data-stu-id="8610b-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
+2. <span data-ttu-id="8610b-122">Izvērsiet prognozes algoritma parametru sadaļu.</span><span class="sxs-lookup"><span data-stu-id="8610b-122">Expand the Forecast algorithm parameters section.</span></span>
+3. <span data-ttu-id="8610b-123">Laukā Prognozes ģenerēšanas stratēģija atlasiet Kopēt vēsturiskā pieprasījuma vietā.</span><span class="sxs-lookup"><span data-stu-id="8610b-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
+4. <span data-ttu-id="8610b-124">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="8610b-124">Click Save.</span></span>
 
-## <a name="create-a-baseline-forecast"></a><span data-ttu-id="f25bc-125">Bāzlīnijas prognozes izveide</span><span class="sxs-lookup"><span data-stu-id="f25bc-125">Create a baseline forecast</span></span>
-1. <span data-ttu-id="f25bc-126">Pārejiet uz sadaļu Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Ģenerēt statistisko bāzlīnijas prognozi.</span><span class="sxs-lookup"><span data-stu-id="f25bc-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
-2. <span data-ttu-id="f25bc-127">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="f25bc-127">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="f25bc-128">Ja jums ir pārdošanas pasūtījumi, sākot ar 2015. gada 1. janvāri, ievadiet šo datumu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="f25bc-129">Ja tā nav, ievadiet agrāko datumu no saviem pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="f25bc-129">If you don't, enter the earliest date of your sales orders.</span></span>  
-3. <span data-ttu-id="f25bc-130">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-130">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="f25bc-131">Ievadiet jaunāko savu pārdošanas pasūtījumu datumu, piemēram, “2015-03-31”.</span><span class="sxs-lookup"><span data-stu-id="f25bc-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
-4. <span data-ttu-id="f25bc-132">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="f25bc-132">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="f25bc-133">Ievadiet “2015-04-01”.</span><span class="sxs-lookup"><span data-stu-id="f25bc-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="f25bc-134">Šis datums tiks automātiski aprēķināts, lai izmantotu par nākamā prognozēšanas intervāla sākuma datumu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
-5. <span data-ttu-id="f25bc-135">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="f25bc-135">Expand the Records to include section.</span></span>
-6. <span data-ttu-id="f25bc-136">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="f25bc-136">Click Filter.</span></span>
-7. <span data-ttu-id="f25bc-137">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-137">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="f25bc-138">Iezīmējiet rindu, kur lauka vērtība ir starpuzņēmumu plānošanas grupa.</span><span class="sxs-lookup"><span data-stu-id="f25bc-138">Mark the row where Field = Intercompany planning group.</span></span>  
-8. <span data-ttu-id="f25bc-139">Laukā Kritēriji ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f25bc-139">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="f25bc-140">Ierakstiet starpuzņēmumu plānošanas grupu, piemēram, 10, kuru izmantojāt pirmajā uzdevumā.</span><span class="sxs-lookup"><span data-stu-id="f25bc-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
-9. <span data-ttu-id="f25bc-141">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-141">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f25bc-142">Atlasiet rindu, kurā lauka vērtība ir krājumu sadalījuma princips.</span><span class="sxs-lookup"><span data-stu-id="f25bc-142">Select the row where Field = Item allocation key.</span></span>  
-10. <span data-ttu-id="f25bc-143">Laukā Kritēriji ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="f25bc-143">In the Criteria field, type a value.</span></span>
-11. <span data-ttu-id="f25bc-144">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f25bc-144">Click OK.</span></span>
-12. <span data-ttu-id="f25bc-145">Izvērsiet sadaļu Papildu parametri.</span><span class="sxs-lookup"><span data-stu-id="f25bc-145">Expand the Advanced parameters section.</span></span>
-13. <span data-ttu-id="f25bc-146">Laukā Prognozes intervāls atlasiet "Mēnesis".</span><span class="sxs-lookup"><span data-stu-id="f25bc-146">In the Forecast bucket field, select 'Month'.</span></span>
-14. <span data-ttu-id="f25bc-147">Laukā Prognozes periods ievadiet "3".</span><span class="sxs-lookup"><span data-stu-id="f25bc-147">In the Forecast horizon field, enter '3'.</span></span>
-15. <span data-ttu-id="f25bc-148">Laukā Periods bez izmaiņām ievadiet “1”.</span><span class="sxs-lookup"><span data-stu-id="f25bc-148">In the Freeze time fence field, enter '1'.</span></span>
-16. <span data-ttu-id="f25bc-149">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="f25bc-149">Click OK.</span></span>
+## <a name="create-a-baseline-forecast"></a><span data-ttu-id="8610b-125">Bāzlīnijas prognozes izveide</span><span class="sxs-lookup"><span data-stu-id="8610b-125">Create a baseline forecast</span></span>
+1. <span data-ttu-id="8610b-126">Pārejiet uz sadaļu Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Ģenerēt statistisko bāzlīnijas prognozi.</span><span class="sxs-lookup"><span data-stu-id="8610b-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
+2. <span data-ttu-id="8610b-127">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="8610b-127">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="8610b-128">Ja jums ir pārdošanas pasūtījumi, sākot ar 2015. gada 1. janvāri, ievadiet šo datumu.</span><span class="sxs-lookup"><span data-stu-id="8610b-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="8610b-129">Ja tā nav, ievadiet agrāko datumu no saviem pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="8610b-129">If you don't, enter the earliest date of your sales orders.</span></span>  
+3. <span data-ttu-id="8610b-130">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="8610b-130">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="8610b-131">Ievadiet jaunāko savu pārdošanas pasūtījumu datumu, piemēram, “2015-03-31”.</span><span class="sxs-lookup"><span data-stu-id="8610b-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
+4. <span data-ttu-id="8610b-132">Ievadiet datumu laukā No datuma.</span><span class="sxs-lookup"><span data-stu-id="8610b-132">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="8610b-133">Ievadiet “2015-04-01”.</span><span class="sxs-lookup"><span data-stu-id="8610b-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="8610b-134">Šis datums tiks automātiski aprēķināts, lai izmantotu par nākamā prognozēšanas intervāla sākuma datumu.</span><span class="sxs-lookup"><span data-stu-id="8610b-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
+5. <span data-ttu-id="8610b-135">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="8610b-135">Expand the Records to include section.</span></span>
+6. <span data-ttu-id="8610b-136">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="8610b-136">Click Filter.</span></span>
+7. <span data-ttu-id="8610b-137">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="8610b-137">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="8610b-138">Iezīmējiet rindu, kur lauka vērtība ir starpuzņēmumu plānošanas grupa.</span><span class="sxs-lookup"><span data-stu-id="8610b-138">Mark the row where Field = Intercompany planning group.</span></span>  
+8. <span data-ttu-id="8610b-139">Laukā Kritēriji ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="8610b-139">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="8610b-140">Ierakstiet starpuzņēmumu plānošanas grupu, piemēram, 10, kuru izmantojāt pirmajā uzdevumā.</span><span class="sxs-lookup"><span data-stu-id="8610b-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
+9. <span data-ttu-id="8610b-141">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8610b-141">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8610b-142">Atlasiet rindu, kurā lauka vērtība ir krājumu sadalījuma princips.</span><span class="sxs-lookup"><span data-stu-id="8610b-142">Select the row where Field = Item allocation key.</span></span>  
+10. <span data-ttu-id="8610b-143">Laukā Kritēriji ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="8610b-143">In the Criteria field, type a value.</span></span>
+11. <span data-ttu-id="8610b-144">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="8610b-144">Click OK.</span></span>
+12. <span data-ttu-id="8610b-145">Izvērsiet sadaļu Papildu parametri.</span><span class="sxs-lookup"><span data-stu-id="8610b-145">Expand the Advanced parameters section.</span></span>
+13. <span data-ttu-id="8610b-146">Laukā Prognozes intervāls atlasiet "Mēnesis".</span><span class="sxs-lookup"><span data-stu-id="8610b-146">In the Forecast bucket field, select 'Month'.</span></span>
+14. <span data-ttu-id="8610b-147">Laukā Prognozes periods ievadiet "3".</span><span class="sxs-lookup"><span data-stu-id="8610b-147">In the Forecast horizon field, enter '3'.</span></span>
+15. <span data-ttu-id="8610b-148">Laukā Periods bez izmaiņām ievadiet “1”.</span><span class="sxs-lookup"><span data-stu-id="8610b-148">In the Freeze time fence field, enter '1'.</span></span>
+16. <span data-ttu-id="8610b-149">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="8610b-149">Click OK.</span></span>
 
-## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="f25bc-150">Pieprasījuma prognozes vizualizēšana</span><span class="sxs-lookup"><span data-stu-id="f25bc-150">Visualize the demand forecast</span></span>
-1. <span data-ttu-id="f25bc-151">Pārejiet uz sadaļu Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Pielāgotā pieprasījuma prognoze.</span><span class="sxs-lookup"><span data-stu-id="f25bc-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
-2. <span data-ttu-id="f25bc-152">Apkoptā skatījuma tabulā atlasiet šūnu 1. rindas 2. kolonnā.</span><span class="sxs-lookup"><span data-stu-id="f25bc-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="f25bc-153">Šis ir otrais mēnesis, kuram esat izveidojis prognozi.</span><span class="sxs-lookup"><span data-stu-id="f25bc-153">This is the second month for which you have created forecast.</span></span>
-3. <span data-ttu-id="f25bc-154">Iestatiet QtyCell vērtību "400".</span><span class="sxs-lookup"><span data-stu-id="f25bc-154">Set QtyCell to '400'.</span></span>
-    * <span data-ttu-id="f25bc-155">Šūnā ievadiet citu numuru, nevis prognozēto, piemēram, 400.</span><span class="sxs-lookup"><span data-stu-id="f25bc-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
-4. <span data-ttu-id="f25bc-156">Esat veicis manuālās prognozes korekcijas.</span><span class="sxs-lookup"><span data-stu-id="f25bc-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="f25bc-157">Ievērojiet grafisko norādi nākamajā darbībā.</span><span class="sxs-lookup"><span data-stu-id="f25bc-157">Notice the graphical indication in the next step.</span></span>
-5. <span data-ttu-id="f25bc-158">Noklikšķiniet uz Detalizēta informācija par prognozes rindu.</span><span class="sxs-lookup"><span data-stu-id="f25bc-158">Click Forecast line details.</span></span>
-    * <span data-ttu-id="f25bc-159">Šajā lapā varat apskatīt precizitātes vērtības, vēsturisko pieprasījumu un prognozi.</span><span class="sxs-lookup"><span data-stu-id="f25bc-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="f25bc-160">Varat arī veikt prognožu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="f25bc-160">You can make changes to the forecast as well.</span></span>  
+## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="8610b-150">Pieprasījuma prognozes vizualizēšana</span><span class="sxs-lookup"><span data-stu-id="8610b-150">Visualize the demand forecast</span></span>
+1. <span data-ttu-id="8610b-151">Pārejiet uz sadaļu Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Pielāgotā pieprasījuma prognoze.</span><span class="sxs-lookup"><span data-stu-id="8610b-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
+2. <span data-ttu-id="8610b-152">Apkoptā skatījuma tabulā atlasiet šūnu 1. rindas 2. kolonnā.</span><span class="sxs-lookup"><span data-stu-id="8610b-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="8610b-153">Šis ir otrais mēnesis, kuram esat izveidojis prognozi.</span><span class="sxs-lookup"><span data-stu-id="8610b-153">This is the second month for which you have created forecast.</span></span>
+3. <span data-ttu-id="8610b-154">Iestatiet QtyCell vērtību "400".</span><span class="sxs-lookup"><span data-stu-id="8610b-154">Set QtyCell to '400'.</span></span>
+    * <span data-ttu-id="8610b-155">Šūnā ievadiet citu numuru, nevis prognozēto, piemēram, 400.</span><span class="sxs-lookup"><span data-stu-id="8610b-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
+4. <span data-ttu-id="8610b-156">Esat veicis manuālās prognozes korekcijas.</span><span class="sxs-lookup"><span data-stu-id="8610b-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="8610b-157">Ievērojiet grafisko norādi nākamajā darbībā.</span><span class="sxs-lookup"><span data-stu-id="8610b-157">Notice the graphical indication in the next step.</span></span>
+5. <span data-ttu-id="8610b-158">Noklikšķiniet uz Detalizēta informācija par prognozes rindu.</span><span class="sxs-lookup"><span data-stu-id="8610b-158">Click Forecast line details.</span></span>
+    * <span data-ttu-id="8610b-159">Šajā lapā varat apskatīt precizitātes vērtības, vēsturisko pieprasījumu un prognozi.</span><span class="sxs-lookup"><span data-stu-id="8610b-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="8610b-160">Varat arī veikt prognožu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="8610b-160">You can make changes to the forecast as well.</span></span>  
 

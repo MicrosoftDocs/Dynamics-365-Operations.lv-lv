@@ -2,7 +2,7 @@
 title: Darba pasūtījumu izveide no uzturēšanas pieprasījumiem
 description: Šajā tēmā izskaidrots, kā izveidot darba pasūtījumu Līdzekļu pārvaldībā.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,40 +18,40 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571695"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205211"
 ---
-# <a name="create-work-orders-from-maintenance-requests"></a><span data-ttu-id="b93f2-103">Darba pasūtījumu izveide no uzturēšanas pieprasījumiem</span><span class="sxs-lookup"><span data-stu-id="b93f2-103">Create work orders from maintenance requests</span></span>
+# <a name="create-work-orders-from-maintenance-requests"></a><span data-ttu-id="bd02e-103">Darba pasūtījumu izveide no uzturēšanas pieprasījumiem</span><span class="sxs-lookup"><span data-stu-id="bd02e-103">Create work orders from maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
 
-<span data-ttu-id="b93f2-104">Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="b93f2-104">After you've created maintenance requests, you can easily convert them to work orders.</span></span> <span data-ttu-id="b93f2-105">Šajā tēmā aprakstīts ātrākais veids, kā strādāt ar uzturēšanas pieprasījumiem, vienlaicīgi atjaunināt vairākus uzturēšanas pieprasījumus un pēc tam vienlaicīgi izveidot darba pasūtījumu vairākiem uzturēšanas pieprasījumiem.</span><span class="sxs-lookup"><span data-stu-id="b93f2-105">This topic describes the quickest way to work with maintenance requests, update several maintenance requests at the same time, and then create a work order for several maintenance requests at the same time.</span></span> <span data-ttu-id="b93f2-106">Lapā **Aktīvie uzturēšanas pieprasījumi** vai **Mania funkcionālā novietojuma uzturēšanas pieprasījumi** varat vienlaikus strādāt ar vienu uzturēšanas pieprasījumu un pārveidot vienu uzturēšanas pieprasījumu par darba pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="b93f2-106">On the **Active maintenance requests** or **My functional location maintenance requests** page, you can also work with one maintenance request at a time and convert one maintenance request to a work order.</span></span>
+<span data-ttu-id="bd02e-104">Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="bd02e-104">After you've created maintenance requests, you can easily convert them to work orders.</span></span> <span data-ttu-id="bd02e-105">Šajā tēmā aprakstīts ātrākais veids, kā strādāt ar uzturēšanas pieprasījumiem, vienlaicīgi atjaunināt vairākus uzturēšanas pieprasījumus un pēc tam vienlaicīgi izveidot darba pasūtījumu vairākiem uzturēšanas pieprasījumiem.</span><span class="sxs-lookup"><span data-stu-id="bd02e-105">This topic describes the quickest way to work with maintenance requests, update several maintenance requests at the same time, and then create a work order for several maintenance requests at the same time.</span></span> <span data-ttu-id="bd02e-106">Lapā **Aktīvie uzturēšanas pieprasījumi** vai **Mania funkcionālā novietojuma uzturēšanas pieprasījumi** varat vienlaikus strādāt ar vienu uzturēšanas pieprasījumu un pārveidot vienu uzturēšanas pieprasījumu par darba pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="bd02e-106">On the **Active maintenance requests** or **My functional location maintenance requests** page, you can also work with one maintenance request at a time and convert one maintenance request to a work order.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b93f2-107">Katru uzturēšanas pieprasījumu var saistīt tikai ar vienu darba pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="b93f2-107">Every maintenance request can be related to only one work order.</span></span> <span data-ttu-id="b93f2-108">Taču vienā darba pasūtījumā var iekļaut vairākus uzturēšanas pieprasījumus pat tad, ja uzturēšanas pieprasījumiem ir dažādi līdzekļi.</span><span class="sxs-lookup"><span data-stu-id="b93f2-108">However, multiple maintenance requests can be included in one work order, even if the maintenance requests have different assets.</span></span>
+> <span data-ttu-id="bd02e-107">Katru uzturēšanas pieprasījumu var saistīt tikai ar vienu darba pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="bd02e-107">Every maintenance request can be related to only one work order.</span></span> <span data-ttu-id="bd02e-108">Taču vienā darba pasūtījumā var iekļaut vairākus uzturēšanas pieprasījumus pat tad, ja uzturēšanas pieprasījumiem ir dažādi līdzekļi.</span><span class="sxs-lookup"><span data-stu-id="bd02e-108">However, multiple maintenance requests can be included in one work order, even if the maintenance requests have different assets.</span></span>
 
-1. <span data-ttu-id="b93f2-109">Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **uzturēšanas pieprasījumi** \> **Visi uzturēšanas pieprasījumi**.</span><span class="sxs-lookup"><span data-stu-id="b93f2-109">Select **Asset management** \> **Common** \> **maintenance requests** \> **All maintenance requests**.</span></span>
-2. <span data-ttu-id="b93f2-110">Pirms jūs varat izveidot darba pasūtījumu no uzturēšanas pieprasījumiem, ir jāatlasa vismaz uzturēšanas darba veids uzturēšanas pieprasījumiem, kā arī uzturēšanas darba veida variants un tirdzniecība, ja šī informācija ir svarīga.</span><span class="sxs-lookup"><span data-stu-id="b93f2-110">Before you can create a work order from maintenance requests, you must select, at a minimum, a maintenance job type for the maintenance requests, and also a maintenance job type variant and trade, if this information is relevant.</span></span> <span data-ttu-id="b93f2-111">Režģa skatā varat viegli atjaunināt informāciju par uzturēšanas pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="b93f2-111">In the grid view, you can easily update information for a maintenance request.</span></span>
-3. <span data-ttu-id="b93f2-112">Kad esat gatavs izveidot darba pasūtījumu, atlasiet uzturēšanas pieprasījumus, ko tajā iekļaut.</span><span class="sxs-lookup"><span data-stu-id="b93f2-112">When you're ready to create a work order, select the maintenance requests to include in it.</span></span>
+1. <span data-ttu-id="bd02e-109">Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **uzturēšanas pieprasījumi** \> **Visi uzturēšanas pieprasījumi**.</span><span class="sxs-lookup"><span data-stu-id="bd02e-109">Select **Asset management** \> **Common** \> **maintenance requests** \> **All maintenance requests**.</span></span>
+2. <span data-ttu-id="bd02e-110">Pirms jūs varat izveidot darba pasūtījumu no uzturēšanas pieprasījumiem, ir jāatlasa vismaz uzturēšanas darba veids uzturēšanas pieprasījumiem, kā arī uzturēšanas darba veida variants un tirdzniecība, ja šī informācija ir svarīga.</span><span class="sxs-lookup"><span data-stu-id="bd02e-110">Before you can create a work order from maintenance requests, you must select, at a minimum, a maintenance job type for the maintenance requests, and also a maintenance job type variant and trade, if this information is relevant.</span></span> <span data-ttu-id="bd02e-111">Režģa skatā varat viegli atjaunināt informāciju par uzturēšanas pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="bd02e-111">In the grid view, you can easily update information for a maintenance request.</span></span>
+3. <span data-ttu-id="bd02e-112">Kad esat gatavs izveidot darba pasūtījumu, atlasiet uzturēšanas pieprasījumus, ko tajā iekļaut.</span><span class="sxs-lookup"><span data-stu-id="bd02e-112">When you're ready to create a work order, select the maintenance requests to include in it.</span></span>
 
-    - <span data-ttu-id="b93f2-113">Ja atlasāt vairākus uzturēšanas pieprasījumus, kas ir jāpārvērš par darba pasūtījumu, tad gan lauks **Līdzeklis**, gan lauks **Uzturēšanas darba veids** ir jāiestata pirms darba pasūtījuma izveides.</span><span class="sxs-lookup"><span data-stu-id="b93f2-113">If you select several maintenance requests to convert to a work order, both the **Asset** field and the **Maintenance job type** field must be set before you create the work order.</span></span>
-    - <span data-ttu-id="b93f2-114">Ja atlasāt vienu uzturēšanas pieprasījumu, kas jāpārvērš par darba pasūtījumu, pirms darba pasūtījuma izveides ir jāiestata tikai lauks **Līdzeklis**.</span><span class="sxs-lookup"><span data-stu-id="b93f2-114">If you select one maintenance request to convert to a work order, only the **Asset** field must be set before you create the work order.</span></span> <span data-ttu-id="b93f2-115">Tomēr, izveidojot darba pasūtījumu, varat atlasīt uzturēšanas darba veidu (un saistīto uzturēšanas darba veida variantu un tirdzniecību, ja šī informācija ir svarīga) dialoglodziņā **Izveidot darba pasūtījumu**.</span><span class="sxs-lookup"><span data-stu-id="b93f2-115">However, when you create the work order, you can select a maintenance job type (and a related maintenance job type variant and trade, if this information is relevant) in the **Create work order** dialog box.</span></span>
+    - <span data-ttu-id="bd02e-113">Ja atlasāt vairākus uzturēšanas pieprasījumus, kas ir jāpārvērš par darba pasūtījumu, tad gan lauks **Līdzeklis**, gan lauks **Uzturēšanas darba veids** ir jāiestata pirms darba pasūtījuma izveides.</span><span class="sxs-lookup"><span data-stu-id="bd02e-113">If you select several maintenance requests to convert to a work order, both the **Asset** field and the **Maintenance job type** field must be set before you create the work order.</span></span>
+    - <span data-ttu-id="bd02e-114">Ja atlasāt vienu uzturēšanas pieprasījumu, kas jāpārvērš par darba pasūtījumu, pirms darba pasūtījuma izveides ir jāiestata tikai lauks **Līdzeklis**.</span><span class="sxs-lookup"><span data-stu-id="bd02e-114">If you select one maintenance request to convert to a work order, only the **Asset** field must be set before you create the work order.</span></span> <span data-ttu-id="bd02e-115">Tomēr, izveidojot darba pasūtījumu, varat atlasīt uzturēšanas darba veidu (un saistīto uzturēšanas darba veida variantu un tirdzniecību, ja šī informācija ir svarīga) dialoglodziņā **Izveidot darba pasūtījumu**.</span><span class="sxs-lookup"><span data-stu-id="bd02e-115">However, when you create the work order, you can select a maintenance job type (and a related maintenance job type variant and trade, if this information is relevant) in the **Create work order** dialog box.</span></span>
 
-4. <span data-ttu-id="b93f2-116">Atlasiet **Darba pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="b93f2-116">Select **Work order**.</span></span>
-5. <span data-ttu-id="b93f2-117">Dialoglodziņā **Izveidot darba pasūtījumu** iestatiet laukus un pēc tam atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b93f2-117">In the **Create work order** dialog box, set the fields, and then select **OK**.</span></span>
+4. <span data-ttu-id="bd02e-116">Atlasiet **Darba pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="bd02e-116">Select **Work order**.</span></span>
+5. <span data-ttu-id="bd02e-117">Dialoglodziņā **Izveidot darba pasūtījumu** iestatiet laukus un pēc tam atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="bd02e-117">In the **Create work order** dialog box, set the fields, and then select **OK**.</span></span>
 
-    <span data-ttu-id="b93f2-118">Ziņojumu josla var paziņot, ka ir izveidots jauns darba pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="b93f2-118">A message bar might notify you that a new work order has been created.</span></span>
+    <span data-ttu-id="bd02e-118">Ziņojumu josla var paziņot, ka ir izveidots jauns darba pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="bd02e-118">A message bar might notify you that a new work order has been created.</span></span>
 
-    <span data-ttu-id="b93f2-119">Turklāt, izveidojot darba pasūtījumu, kas ir balstīts uz uzturēšanas pieprasījumu, ja ar uzturēšanas pieprasījumu saistītais līdzeklis ir ietverts garantijas līgumā, ziņojumu josla paziņo par garantijas līgumu.</span><span class="sxs-lookup"><span data-stu-id="b93f2-119">Additionally, when you create a work order that is based on a maintenance request, if the asset that is related to the maintenance request is included in a warranty agreement, a message bar notifies you about the warranty agreement.</span></span>
+    <span data-ttu-id="bd02e-119">Turklāt, izveidojot darba pasūtījumu, kas ir balstīts uz uzturēšanas pieprasījumu, ja ar uzturēšanas pieprasījumu saistītais līdzeklis ir ietverts garantijas līgumā, ziņojumu josla paziņo par garantijas līgumu.</span><span class="sxs-lookup"><span data-stu-id="bd02e-119">Additionally, when you create a work order that is based on a maintenance request, if the asset that is related to the maintenance request is included in a warranty agreement, a message bar notifies you about the warranty agreement.</span></span>
 
-6. <span data-ttu-id="b93f2-120">Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi** un atveriet jauno darba pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="b93f2-120">Select **Asset management** \> **Common** \> **Work orders** \> **All work orders**, and open the new work order.</span></span>
+6. <span data-ttu-id="bd02e-120">Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi** un atveriet jauno darba pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="bd02e-120">Select **Asset management** \> **Common** \> **Work orders** \> **All work orders**, and open the new work order.</span></span>
 
     ![Atvērt jaunu darba pasūtījumu](media/05-manage-maintenance-requests.png)
 

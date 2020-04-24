@@ -2,7 +2,7 @@
 title: Atcelt plānošanas darbu
 description: Šajā tēmā izskaidrots, kā atcelt aktīvu plānošanas darbu, kas izmanto funkcionalitāti Plānošanas optimizācija.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,45 +19,45 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: b731aa4573b438e594ede702e6556c1be2daa549
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076352"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213475"
 ---
-# <a name="cancel-a-planning-job"></a><span data-ttu-id="5aa23-103">Plānošanas darba atcelšana</span><span class="sxs-lookup"><span data-stu-id="5aa23-103">Cancel a planning job</span></span>
+# <a name="cancel-a-planning-job"></a><span data-ttu-id="b23f2-103">Plānošanas darba atcelšana</span><span class="sxs-lookup"><span data-stu-id="b23f2-103">Cancel a planning job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="5aa23-104">Programmā Microsoft Dynamics 365 Supply Chain Management varat atcelt aktīvu plānošanas darbu, kas izmanto funkcionalitāti Plānošanas optimizācija.</span><span class="sxs-lookup"><span data-stu-id="5aa23-104">In Microsoft Dynamics 365 Supply Chain Management, you can cancel an active planning job that uses the Planning optimization functionality.</span></span> <span data-ttu-id="5aa23-105">Atlasot opciju **Atcelt** dialoglodziņā, kad plānošanas optimizācijas darbs tiek parādīts tieši no lietotāja interfeisa (nevis fonā), tas neatcels plānošanas optimizācijas darbu.</span><span class="sxs-lookup"><span data-stu-id="5aa23-105">When you select **Cancel** in the dialog box when a Planning optimization job is triggered directly from the user interface (not in the background), this will not cancel the Planning optimization job.</span></span> <span data-ttu-id="5aa23-106">Pat ja saņemat brīdinājumu, piemēram, "Operācija atcelta", jums joprojām būs jāveic šīs darbības, lai atceltu plānošanas darbu ar plānošanas optimizāciju.</span><span class="sxs-lookup"><span data-stu-id="5aa23-106">Even if you receive a warning such as “Operation canceled”, you will still need to use the following steps to cancel a planning job with Planning optimization.</span></span>
+<span data-ttu-id="b23f2-104">Programmā Microsoft Dynamics 365 Supply Chain Management varat atcelt aktīvu plānošanas darbu, kas izmanto funkcionalitāti Plānošanas optimizācija.</span><span class="sxs-lookup"><span data-stu-id="b23f2-104">In Microsoft Dynamics 365 Supply Chain Management, you can cancel an active planning job that uses the Planning optimization functionality.</span></span> <span data-ttu-id="b23f2-105">Atlasot opciju **Atcelt** dialoglodziņā, kad plānošanas optimizācijas darbs tiek parādīts tieši no lietotāja interfeisa (nevis fonā), tas neatcels plānošanas optimizācijas darbu.</span><span class="sxs-lookup"><span data-stu-id="b23f2-105">When you select **Cancel** in the dialog box when a Planning optimization job is triggered directly from the user interface (not in the background), this will not cancel the Planning optimization job.</span></span> <span data-ttu-id="b23f2-106">Pat ja saņemat brīdinājumu, piemēram, "Operācija atcelta", jums joprojām būs jāveic šīs darbības, lai atceltu plānošanas darbu ar plānošanas optimizāciju.</span><span class="sxs-lookup"><span data-stu-id="b23f2-106">Even if you receive a warning such as “Operation canceled”, you will still need to use the following steps to cancel a planning job with Planning optimization.</span></span>
 
 
-<span data-ttu-id="5aa23-107">Lai atceltu aktīvu plānošanas darbu, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="5aa23-107">To cancel an active planning job, follow these steps.</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="5aa23-108">Atcelt var tikai aktīvus darbus.</span><span class="sxs-lookup"><span data-stu-id="5aa23-108">Only active jobs can be canceled.</span></span>
-
-1. <span data-ttu-id="5aa23-109">Pārejiet uz **Vispārējā plānošana \> Iestatīšana \> Plāni**.</span><span class="sxs-lookup"><span data-stu-id="5aa23-109">Go to **Master planning \> Setup \> Plans**.</span></span>
-2. <span data-ttu-id="5aa23-110">Atlasiet atbilstošu plānu izpildes plānošanai.</span><span class="sxs-lookup"><span data-stu-id="5aa23-110">Select an appropriate plan for the planning run.</span></span>
-3. <span data-ttu-id="5aa23-111">Atlasiet **Vēsture**.</span><span class="sxs-lookup"><span data-stu-id="5aa23-111">Select **History**.</span></span>
-4. <span data-ttu-id="5aa23-112">Atlasīt plānošanas darbu, kuru atcelt.</span><span class="sxs-lookup"><span data-stu-id="5aa23-112">Select the planning job to cancel.</span></span>
-5. <span data-ttu-id="5aa23-113">Atlasiet **Atcelt**.</span><span class="sxs-lookup"><span data-stu-id="5aa23-113">Select **Cancel**.</span></span>
-
-<span data-ttu-id="5aa23-114">Darba statuss būs **Atcelšana**, līdz pakalpojums Plānošanas optimizācija apstiprinās, ka darbs ir atcelts.</span><span class="sxs-lookup"><span data-stu-id="5aa23-114">The job status will be **Canceling** until the Planning Optimization service confirms that the job has been canceled.</span></span> <span data-ttu-id="5aa23-115">Pēc tam statuss tiks mainīts uz **Atcelts**.</span><span class="sxs-lookup"><span data-stu-id="5aa23-115">The status will then be changed to **Canceled**.</span></span>
+<span data-ttu-id="b23f2-107">Lai atceltu aktīvu plānošanas darbu, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="b23f2-107">To cancel an active planning job, follow these steps.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="5aa23-116">Lai skatītu statusa izmaiņas, ir jāatsvaidzina lapa, atlasot pogu **Atsvaidzināt**.</span><span class="sxs-lookup"><span data-stu-id="5aa23-116">To see status changes, you must refresh the page by selecting the **Refresh** button.</span></span>
+> <span data-ttu-id="b23f2-108">Atcelt var tikai aktīvus darbus.</span><span class="sxs-lookup"><span data-stu-id="b23f2-108">Only active jobs can be canceled.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="5aa23-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="5aa23-117">Additional resources</span></span>
+1. <span data-ttu-id="b23f2-109">Pārejiet uz **Vispārējā plānošana \> Iestatīšana \> Plāni**.</span><span class="sxs-lookup"><span data-stu-id="b23f2-109">Go to **Master planning \> Setup \> Plans**.</span></span>
+2. <span data-ttu-id="b23f2-110">Atlasiet atbilstošu plānu izpildes plānošanai.</span><span class="sxs-lookup"><span data-stu-id="b23f2-110">Select an appropriate plan for the planning run.</span></span>
+3. <span data-ttu-id="b23f2-111">Atlasiet **Vēsture**.</span><span class="sxs-lookup"><span data-stu-id="b23f2-111">Select **History**.</span></span>
+4. <span data-ttu-id="b23f2-112">Atlasīt plānošanas darbu, kuru atcelt.</span><span class="sxs-lookup"><span data-stu-id="b23f2-112">Select the planning job to cancel.</span></span>
+5. <span data-ttu-id="b23f2-113">Atlasiet **Atcelt**.</span><span class="sxs-lookup"><span data-stu-id="b23f2-113">Select **Cancel**.</span></span>
 
-[<span data-ttu-id="5aa23-118">Plānošanas optimizācijas apskats</span><span class="sxs-lookup"><span data-stu-id="5aa23-118">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+<span data-ttu-id="b23f2-114">Darba statuss būs **Atcelšana**, līdz pakalpojums Plānošanas optimizācija apstiprinās, ka darbs ir atcelts.</span><span class="sxs-lookup"><span data-stu-id="b23f2-114">The job status will be **Canceling** until the Planning Optimization service confirms that the job has been canceled.</span></span> <span data-ttu-id="b23f2-115">Pēc tam statuss tiks mainīts uz **Atcelts**.</span><span class="sxs-lookup"><span data-stu-id="b23f2-115">The status will then be changed to **Canceled**.</span></span>
 
-[<span data-ttu-id="5aa23-119">Darba sākšana ar plānošanas optimizāciju</span><span class="sxs-lookup"><span data-stu-id="5aa23-119">Get started with Planning Optimization</span></span>](get-started.md)
+> [!NOTE]
+> <span data-ttu-id="b23f2-116">Lai skatītu statusa izmaiņas, ir jāatsvaidzina lapa, atlasot pogu **Atsvaidzināt**.</span><span class="sxs-lookup"><span data-stu-id="b23f2-116">To see status changes, you must refresh the page by selecting the **Refresh** button.</span></span>
 
-[<span data-ttu-id="5aa23-120">Plānošanas optimizācijas atbilstības analīze</span><span class="sxs-lookup"><span data-stu-id="5aa23-120">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+## <a name="additional-resources"></a><span data-ttu-id="b23f2-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="b23f2-117">Additional resources</span></span>
 
-[<span data-ttu-id="5aa23-121">Plāna vēstures un plānošanas žurnālu skatīšana</span><span class="sxs-lookup"><span data-stu-id="5aa23-121">View plan history and planning logs</span></span>](plan-history-logs.md)
+[<span data-ttu-id="b23f2-118">Plānošanas optimizācijas apskats</span><span class="sxs-lookup"><span data-stu-id="b23f2-118">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="5aa23-122">Filtru lietošana plānam</span><span class="sxs-lookup"><span data-stu-id="5aa23-122">Apply filters to a plan</span></span>](plan-filters.md)
+[<span data-ttu-id="b23f2-119">Darba sākšana ar plānošanas optimizāciju</span><span class="sxs-lookup"><span data-stu-id="b23f2-119">Get started with Planning Optimization</span></span>](get-started.md)
+
+[<span data-ttu-id="b23f2-120">Plānošanas optimizācijas atbilstības analīze</span><span class="sxs-lookup"><span data-stu-id="b23f2-120">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+
+[<span data-ttu-id="b23f2-121">Plāna vēstures un plānošanas žurnālu skatīšana</span><span class="sxs-lookup"><span data-stu-id="b23f2-121">View plan history and planning logs</span></span>](plan-history-logs.md)
+
+[<span data-ttu-id="b23f2-122">Filtru lietošana plānam</span><span class="sxs-lookup"><span data-stu-id="b23f2-122">Apply filters to a plan</span></span>](plan-filters.md)

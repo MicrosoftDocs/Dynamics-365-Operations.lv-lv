@@ -2,7 +2,7 @@
 title: Uzkrāt abonementa ieņēmumus
 description: uzkrāt abonementa ieņēmumus.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionAccrueDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,27 +18,27 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a6b5b71d8ff1e0f300e7b5f03987942bf2b8ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe535f9646600ce60a5cfc39c11777a712175531
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559098"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203139"
 ---
-# <a name="accrue-subscription-revenue"></a><span data-ttu-id="21dd9-103">Uzkrāt abonementa ieņēmumus</span><span class="sxs-lookup"><span data-stu-id="21dd9-103">Accrue subscription revenue</span></span> 
+# <a name="accrue-subscription-revenue"></a><span data-ttu-id="6c0fa-103">Uzkrāt abonementa ieņēmumus</span><span class="sxs-lookup"><span data-stu-id="6c0fa-103">Accrue subscription revenue</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="21dd9-104">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiski** \> **Pakalpojumu abonementi** \> **Uzkrāt abonementu ieņēmumus**.</span><span class="sxs-lookup"><span data-stu-id="21dd9-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
+1.  <span data-ttu-id="6c0fa-104">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiski** \> **Pakalpojumu abonementi** \> **Uzkrāt abonementu ieņēmumus**.</span><span class="sxs-lookup"><span data-stu-id="6c0fa-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
 
-2.  <span data-ttu-id="21dd9-105">Laukā **Perioda kods** atlasiet perioda kodu.</span><span class="sxs-lookup"><span data-stu-id="21dd9-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="21dd9-106">Ienākums tiek iegrāmatots visiem abonementa maksas darījumiem ar izvēlēto perioda kodu.</span><span class="sxs-lookup"><span data-stu-id="21dd9-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
+2.  <span data-ttu-id="6c0fa-105">Laukā **Perioda kods** atlasiet perioda kodu.</span><span class="sxs-lookup"><span data-stu-id="6c0fa-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="6c0fa-106">Ienākums tiek iegrāmatots visiem abonementa maksas darījumiem ar izvēlēto perioda kodu.</span><span class="sxs-lookup"><span data-stu-id="6c0fa-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
 
-3.  <span data-ttu-id="21dd9-107">Laukā **Grāmatošanas datums** ievadiet iegrāmatošanas datumu un klikšķiniet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="21dd9-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
+3.  <span data-ttu-id="6c0fa-107">Laukā **Grāmatošanas datums** ievadiet iegrāmatošanas datumu un klikšķiniet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="6c0fa-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="21dd9-108">Maksas darījumiem jābūt ierakstītiem rēķinā pirms uzkrāto ieņēmumu grāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="21dd9-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
+> <P><span data-ttu-id="6c0fa-108">Maksas darījumiem jābūt ierakstītiem rēķinā pirms uzkrāto ieņēmumu grāmatošanas.</span><span class="sxs-lookup"><span data-stu-id="6c0fa-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
 
 
   
