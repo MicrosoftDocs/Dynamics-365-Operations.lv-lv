@@ -3,7 +3,7 @@ title: Konfigurēt gaidīšanas dienas
 description: Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido ikmēneša atskaites punktu, ko izmantot atvieglojumu plāniem.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a46f296722317f4815bf6b2cb8960455cecee110
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: d85dafefb3b71c368dc3114bbf2524aee6196634
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092449"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229620"
 ---
 # <a name="configure-waiting-days"></a>Konfigurēt gaidīšanas dienas
-
-[!include [banner](includes/preview-feature.md)]
 
 Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido ikmēneša atskaites punktu, ko izmantot atvieglojumu plāniem. Piemēram, gaidīšanas diena 15 atbilst katra mēneša 15. datumam. 
 
@@ -39,8 +37,8 @@ Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido 
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Gaidīšanas diena | Unikāls gaidīšanas dienas identifikators. |
-   | Apraksts | Gaidīšanas dienas apraksts. |
-   | diena; | Mēneša diena, kurā sistēmai jāiestata gaidīšanas perioda datums. |
+   | **Gaidīšanas diena** | Unikāls gaidīšanas dienas identifikators. |
+   | **Apraksts** | Gaidīšanas dienas apraksts. |
+   | **diena;** | Mēneša diena, kurā sistēmai jāiestata gaidīšanas perioda datums. |
    
 4. Atlasiet **Saglabāt**.

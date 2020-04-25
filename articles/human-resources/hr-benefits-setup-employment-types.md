@@ -3,7 +3,7 @@ title: Iestatīt nodarbinātības tipus
 description: Nodarbinātības veidi var tikt iestatītas Dynamics 365 Human Resources, lai tās saskaņotu ar saviem nodarbinātajiem.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89a6045bebbb67251ee4a65dab71ce5771acc2af
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: dc9e9c2c948d654904041faa72110cc245308e64
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092618"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229721"
 ---
 # <a name="set-up-employment-types"></a>Iestatīt nodarbinātības tipus
 
-[!include [banner](includes/preview-feature.md)]
-
 Iestatiet nodarbinātības veidus Dynamics 365 Human Resources, lai tās saskaņotu ar saviem nodarbinātajiem.
 
-1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Nodarbinātības veidi**.
+1. Darbvietā **Personāla pārvaldība**, sadaļā **Iestatījumi** atlasiet **Nodarbinātības veidi**.
 
 2. Atlasiet **Jauns**.
 
@@ -39,7 +37,7 @@ Iestatiet nodarbinātības veidus Dynamics 365 Human Resources, lai tās saskaņ
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Nodarbinātības veids | Nodarbinātības veida unikālais identifikators |
-   | Apraksts | Nodarbinātības veida apraksts. |
+   | **Nodarbinātības veids** | Nodarbinātības veida unikālais identifikators |
+   | **Apraksts** | Nodarbinātības veida apraksts. |
 
 4. Atlasiet **Saglabāt**. 

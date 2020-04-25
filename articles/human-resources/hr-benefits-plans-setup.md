@@ -3,7 +3,7 @@ title: Atvieglojumu plāna izveide
 description: Iestatiet atvieglojumu plānus Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009822"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230112"
 ---
 # <a name="create-a-benefits-plan"></a>Atvieglojumu plāna izveide
-
-[!include [banner](includes/preview-feature.md)]
 
 Šajā rakstā ir parādīts, kā iestatīt atvieglojumu plānus Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ ms.locfileid: "3009822"
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Plāns | Plāna unikālais identifikators. |
-   | Apraksts | Plāna apraksts. |
-   | Plāna tips | Veidojot jaunu plānu, ir jānorāda plāna veids. Plāna veids ir noteikta veida atvieglojumu augsta līmeņa grupēšana. Katrs plāna veids norāda, vai darbinieks var pieteikties vairākos šī veida plānos, vai kontaktpersonas ir saņēmēji vai apgādājamie, un definē seguma opcijas. Varat izveidot jaunus pielāgotus plānu veidus, lai atbilstu jūsu atvieglojumu piedāvājumu vajadzībām. Galvenie atvieglojumu plāna veidi minēti zemāk. <ul><li>401K</li><li>ADD</li><li>Zobārstniecība</li><li>Fitness</li><li>FSA</li><li>Dzīvības</li><li>LTD</li><li>Medicīniskā</li><li>PTO</li><li>STD</li><li>Redze</li></ul> |
-   | Plāna veida kods | Plāna veida kods. |
-   | Programma | Norāda programmu, kam pēc izvēles piešķirt plānu. |
-   | Komplekts | Norāda komplektu, kam pēc izvēles piešķirt plānu. |
-   | Šablons | Norāda, vai plāns ir vispārējais plāns komplektā, kuram tas ir piešķirts. |
-   | Statuss | Norāda atvieglojumu plāna pašreizējo statusu. Noklusējuma vērtība ir Aktīvs. Ja maināt statusu uz Neaktīvs, plāns nebūs pieejams kā atlase reģistrācijas laikā. |
-   | Derīguma sākuma datums un laiks | Datums un laiks, kurā plāns tik uzsākts. Noklusējuma vērtība ir pašreizējais sistēmas datums. |
-   | Derīguma beigu datums un laiks | Datums un laiks, kad plāns beidzas (statuss ir iestatīts uz Neaktīvs). Noklusējuma vērtība ir 12/31/2154, kas nozīmē nekad. |
+   | **Plāns** | Plāna unikālais identifikators. |
+   | **Apraksts** | Plāna apraksts. |
+   | **Plāna tips** | Veidojot jaunu plānu, ir jānorāda plāna veids. Plāna veids ir noteikta veida atvieglojumu augsta līmeņa grupēšana. Katrs plāna veids norāda, vai darbinieks var pieteikties vairākos šī veida plānos, vai kontaktpersonas ir saņēmēji vai apgādājamie, un definē seguma opcijas. Varat izveidot jaunus pielāgotus plānu veidus, lai atbilstu jūsu atvieglojumu piedāvājumu vajadzībām. Galvenie atvieglojumu plāna veidi minēti zemāk. <ul><li>401K</li><li>ADD</li><li>Zobārstniecība</li><li>Fitness</li><li>FSA</li><li>Dzīvības</li><li>LTD</li><li>Medicīniskā</li><li>PTO</li><li>STD</li><li>Redze</li></ul> |
+   | **Plāna veida kods** | Plāna veida kods. |
+   | **Programma** | Norāda programmu, kam pēc izvēles piešķirt plānu. |
+   | **Komplekts** | Norāda komplektu, kam pēc izvēles piešķirt plānu. |
+   | **Šablons** | Norāda, vai plāns ir vispārējais plāns komplektā, kuram tas ir piešķirts. |
+   | **Statuss** | Norāda atvieglojumu plāna pašreizējo statusu. Noklusējuma vērtība ir Aktīvs. Ja maināt statusu uz Neaktīvs, plāns nebūs pieejams kā atlase reģistrācijas laikā. |
+   | **Derīguma sākuma datums un laiks** | Datums un laiks, kurā plāns tik uzsākts. Noklusējuma vērtība ir pašreizējais sistēmas datums. |
+   | **Derīguma beigu datums un laiks** | Datums un laiks, kad plāns beidzas (statuss ir iestatīts uz Neaktīvs). Noklusējuma vērtība ir 12/31/2154, kas nozīmē nekad. |
 
 4. Atkarībā no izveidojamā plāna veida cilnē **Konfigurācija** nosakiet vērtības tālāk minētajiem laukiem.
 
@@ -77,42 +75,42 @@ ms.locfileid: "3009822"
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Atļaut/turpināt reģistrāciju | Norāda, vai darbinieki var pieteikties plānā, ja tie atbilst piemērotības prasībām.</br></br>Ja tas ir iestatīts uz Nē, plāns nebūs pieejams darbiniekiem, kad apstrādāsiet atbilstību. |
-   | Automātiska reģistrēšana no iepriekšējā gada | Norāda, vai automātiski reģistrēt plānā piemērotu darbinieku, ja viņš tika reģistrēts iepriekšējā gadā. |
-   | Automātiska reģistrācija pēc noklusējuma | Norāda, vai atlasīt plānu reģistrācijai pēc noklusējuma. Plāns nav obligāts, tāpēc darbinieks var mainīt noklusējuma atlasi. |
-   | Slēgts jaunai reģistrācijai | Norāda, vai ierobežot plānu, ka tas ir piemērots tikai darbiniekiem, kas tika reģistrēti plānā iepriekšējā gadā. |
-   | Obligāts plāns | Norāda, vai automātiski reģistrēt darbiniekus plānā. Darbinieki nevar mainīt reģistrācijas atlasi. |
-   | Sākuma datums | Datums, kad uzņēmumā tika izveidots plāns. |
-   | Kreditora konts (atvieglojumu sniedzējs) | Kreditors, kuram uzņēmums maksā prēmijas par plānu. |
-   | Nosaukums (atvieglojumu sniedzējs) | Kreditora nosaukums. |
-   | Kreditora raksturojums (atvieglojumu sniedzējs) | Kreditora raksturojums plānam. Piemēram, uzņēmuma grupas plāna numurs. |
-   | Rezerves raksturojums (atvieglojumu sniedzējs) | Kreditora rezerves raksturojums plānam. Piemēram, uzņēmuma konta numurs. |
-   | Valūta (atvieglojumu sniedzējs) | Valūta, kas tiek izmantota, lai maksātu prēmijas sniedzējam. |
-   | Izdevumu konts (atvieglojumu sniedzējs) | Virsgrāmatas konts, kas tiek izmantots kā izdevumu konts plāna prēmijām. |
-   | Kreditora konts (atvieglojumu administrators) | Kreditors, kuram uzņēmums maksā par plāna administrēšanu. Ja plāns administrē pats sevi, atstājiet šo lauku tukšu. |
-   | Nosaukums (atvieglojumu administrators) | Atvieglojumu administrēšanas kreditora nosaukums. |
-   | Kreditora raksturojums (atvieglojumu administrators) | Administrēšanas kreditora raksturojums plānam. |
-   | Rezerves raksturojums (atvieglojumu administrators) | Administrēšanas kreditora rezerves raksturojums plānam. |
-   | Valūta (atvieglojumu administrators) | Valūta, kas tiek izmantota, lai maksātu prēmijas atvieglojumu administratoram. |
-   | Izdevumu konts (atvieglojumu administrators) | Virsgrāmatas konts, kas tiek izmantots kā izdevumu konts izmaksām, kas saistītas ar plāna administrēšanu. |
+   | **Atļaut/turpināt reģistrāciju** | Norāda, vai darbinieki var pieteikties plānā, ja tie atbilst piemērotības prasībām.</br></br>Ja tas ir iestatīts uz Nē, plāns nebūs pieejams darbiniekiem, kad apstrādāsiet atbilstību. |
+   | **Automātiska reģistrēšana no iepriekšējā gada** | Norāda, vai automātiski reģistrēt plānā piemērotu darbinieku, ja viņš tika reģistrēts iepriekšējā gadā. |
+   | **Automātiska reģistrācija pēc noklusējuma** | Norāda, vai atlasīt plānu reģistrācijai pēc noklusējuma. Plāns nav obligāts, tāpēc darbinieks var mainīt noklusējuma atlasi. |
+   | **Slēgts jaunai reģistrācijai** | Norāda, vai ierobežot plānu, ka tas ir piemērots tikai darbiniekiem, kas tika reģistrēti plānā iepriekšējā gadā. |
+   | **Obligāts plāns** | Norāda, vai automātiski reģistrēt darbiniekus plānā. Darbinieki nevar mainīt reģistrācijas atlasi. |
+   | **Sākuma datums** | Datums, kad uzņēmumā tika izveidots plāns. |
+   | **Kreditora konts** (Atvieglojumu sniedzējs) | Kreditors, kuram uzņēmums maksā prēmijas par plānu. |
+   | **Nosaukums** (Atvieglojumu sniedzējs) | Kreditora nosaukums. |
+   | **Kreditora raksturojums** (Atvieglojumu sniedzējs) | Kreditora raksturojums plānam. Piemēram, uzņēmuma grupas plāna numurs. |
+   | **Rezerves raksturojums** (Atvieglojumu sniedzējs) | Kreditora rezerves raksturojums plānam. Piemēram, uzņēmuma konta numurs. |
+   | **Valūta** (Atvieglojumu sniedzējs) | Valūta, kas tiek izmantota, lai maksātu prēmijas sniedzējam. |
+   | **Izdevumu konts** (Atvieglojumu sniedzējs) | Virsgrāmatas konts, kas tiek izmantots kā izdevumu konts plāna prēmijām. |
+   | **Kreditora konts** (Atvieglojumu administrators) | Kreditors, kuram uzņēmums maksā par plāna administrēšanu. Ja plāns administrē pats sevi, atstājiet šo lauku tukšu. |
+   | **Nosaukums** (Atvieglojumu administrators) | Atvieglojumu administrēšanas kreditora nosaukums. |
+   | **Kreditora raksturojums** (Atvieglojumu administrators) | Administrēšanas kreditora raksturojums plānam. |
+   | **Rezerves raksturojums** (Atvieglojumu administrators) | Administrēšanas kreditora rezerves raksturojums plānam. |
+   | **Valūta** (Atvieglojumu administrators) | Valūta, kas tiek izmantota, lai maksātu prēmijas atvieglojumu administratoram. |
+   | **Izdevumu konts** (Atvieglojumu administrators) | Virsgrāmatas konts, kas tiek izmantots kā izdevumu konts izmaksām, kas saistītas ar plāna administrēšanu. |
 
 6. Pēc nepieciešamības filtrējiet cilnē **Filtri**. Varat filtrēt pēc tālāk minētajiem laukiem.
 
-   - Biznesa vienība
-   - Nodaļa
-   - Juridiska persona
-   - Vieta
-   - Ieņemamais amats
+   - **Biznesa vienība**
+   - **Nodaļa**
+   - **Juridiska persona**
+   - **Vieta**
+   - **Ieņemamais amats**
 
 7. Cilnē **Piemērotības kārtulas** norādiet vērtības tālāk minētajiem laukiem.
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Rindas numurs | Piemērotības kārtulas rindas numurs. |
-   | Piemērojamības kārtula | Piemērotības kārtula, ko piemērot atvieglojumu plānam. Šī piemērotības kārtula tiks piemērota attiecīgajam darbības veidam un saistīta ar norādīto seguma gaidīšanas periodu un ieturējumiem. |
-   | Darbības tips | Darbība, kam pielietot piemērotības kārtulu: atvieglojumu reģistrācija vai atvieglojumu beigu termiņš. |
-   | Vajadzības gaidīšanas periods | Vērtība no Gaidīšanas perioda veidlapas. Seguma gaidīšanas periods nosaka dienu vai mēnešu skaits, ko darbinieks gaida līdz atvieglojumu segumam vai atvieglojumu beigu termiņam, pamatojoties uz piemērotības kārtulas un darbības veida kritērijiem. |
-   | Ieturējumu gaidīšanas periods | Vērtība no Gaidīšanas perioda veidlapas. Ieturējumu gaidīšanas periods nosaka dienu vai mēnešu skaits, ko darbinieks gaida līdz atvieglojumu ieturējumiem no algas, pamatojoties uz piemērotības kārtulas un darbības veida kritērijiem. |
+   | **Rindas numurs** | Piemērotības kārtulas rindas numurs. |
+   | **Piemērojamības kārtula** | Piemērotības kārtula, ko piemērot atvieglojumu plānam. Šī piemērotības kārtula tiks piemērota attiecīgajam darbības veidam un saistīta ar norādīto seguma gaidīšanas periodu un ieturējumiem. |
+   | **Darbības tips** | Darbība, kam pielietot piemērotības kārtulu: atvieglojumu reģistrācija vai atvieglojumu beigu termiņš. |
+   | **Vajadzības gaidīšanas periods** | Vērtība no Gaidīšanas perioda veidlapas. Seguma gaidīšanas periods nosaka dienu vai mēnešu skaits, ko darbinieks gaida līdz atvieglojumu segumam vai atvieglojumu beigu termiņam, pamatojoties uz piemērotības kārtulas un darbības veida kritērijiem. |
+   | **Ieturējumu gaidīšanas periods** | Vērtība no Gaidīšanas perioda veidlapas. Ieturējumu gaidīšanas periods nosaka dienu vai mēnešu skaits, ko darbinieks gaida līdz atvieglojumu ieturējumiem no algas, pamatojoties uz piemērotības kārtulas un darbības veida kritērijiem. |
 
 8. Atlasiet **Saglabāt**.
 

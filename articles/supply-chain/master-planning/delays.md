@@ -2,15 +2,15 @@
 title: Aizkaves
 description: Šajā tēmā ir sniegta informācija par aizkavēšanās datumiem vispārējā plānošanā. Aizkavēšanās datums ir reālistisks izpildes datums, kuru transakcija saņem, ja vispārējās plānošanas aprēķinātais drīzākais izpildes datums ir vēlāks par pieprasīto datumu.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522293"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203852"
 ---
 # <a name="delays"></a>Aizkaves
 
@@ -44,6 +44,12 @@ Lapā **Vispārējās plānošanas parametri** var iestatīt sākuma laiku aprē
 
 > [!NOTE]
 > Iepriekšējās versijās aprēķinātās aizkaves tika sauktas par *aizkavēšanās paziņojumiem*, aizkaves datums tika saukts par *aizkavēšanās datumu* un aizkavētā transakcija tika saukta par *transakciju, kas tika aizkavēta*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Ierobežota ražošanas iestatījuma aizkave ar vairākiem MK līmeņiem
+Strādājot ar kavēšanos ražošanas iestatījumā, kam ir vairāki MK līmeņi, ir svarīgi atzīmēt, ka tikai tie krājumi, kas atrodas tieši virs krājuma (MK struktūrā), kas izraisa kavēšanos, tiks atjaunināti ar kavēšanos kā daļa no vispārējās plānošanas izpildes. Citi krājumi MK struktūrā netiks lietoti līdz pirmajai vispārējai plānošanai, kad plānotais pasūtījums augstākajam līmenim ir apstiprināts. 
+
+Lai apietu šo zināmo ierobežojumu, ražošanas pasūtījumus MK struktūras virspusē ar kavējumiem var apstiprināt pirms nākamās vispārējās plānošanas izpildes. Šādā veidā aizkave no aizkavētā, apstiprinātā, plānotā ražošanas pasūtījuma tiks paturēta, un visi pakārtotie komponenti tiks attiecīgi atjaunināti.
+Darbības ziņojumus var arī izmantot, lai noteiktu plānotos pasūtījumus, ko var pārlikt uz vēlāku datumu citu kavējumu MK struktūrā dēļ.
 
 ## <a name="desired-date"></a>Vēlamais datums
 

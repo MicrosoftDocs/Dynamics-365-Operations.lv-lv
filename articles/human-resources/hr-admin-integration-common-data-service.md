@@ -1,9 +1,9 @@
 ---
 title: Common Data Service integrācijas konfigurēšana
-description: Varat ieslēgt vai izslēgt integrāciju starp Common Data Service un Microsoft Dynamics 365 Human Resources instanci. Varat arī skatīt detalizētu informāciju par sinhronizāciju, dzēst izsekošanas datus un vēlreiz sinhronizēt elementu, lai palīdzētu novērst ar datiem saistītās problēmas starp abām vidēm.
+description: Varat ieslēgt vai izslēgt integrāciju starp Common Data Service un Microsoft Dynamics 365 Human Resources. Varat arī skatīt detalizētu informāciju par sinhronizāciju, dzēst izsekošanas datus un vēlreiz sinhronizēt elementu, lai palīdzētu novērst ar datiem saistītās problēmas starp abām vidēm.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,31 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009780"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198426"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service integrācijas konfigurēšana
 
-Varat ieslēgt vai izslēgt integrāciju starp Common Data Service un Microsoft Dynamics 365 Human Resources instanci. Varat arī skatīt detalizētu informāciju par sinhronizāciju, dzēst izsekošanas datus un vēlreiz sinhronizēt elementu, lai palīdzētu novērst ar datiem saistītās problēmas starp abām vidēm.
+Varat ieslēgt vai izslēgt integrāciju starp Common Data Service un Microsoft Dynamics 365 Human Resources. Varat arī skatīt detalizētu informāciju par sinhronizāciju, dzēst izsekošanas datus un vēlreiz sinhronizēt elementu, lai palīdzētu novērst ar datiem saistītās problēmas starp abām vidēm.
 
 Izslēdzot integrāciju, lietotāji var veikt izmaiņas Human Resources vai Common Data Service, bet šīs izmaiņas netiek sinhronizētas starp abām vidēm.
 
-Pēc noklusējuma integrācija starp Human Resources un Common Data Service ir vai nu izslēgta, vai ieslēgta atkarībā no demonstrāciju datu klātbūtnes vidēs.
-
-- **Izslēgta** jaunām vidēm, kurās nav iekļauti demonstrāciju dati
-- **Ieslēgta** jaunām vidēm, kurās iekļauti demonstrāciju dati
-
-Jaunas vides, kurās iekļauti demonstrāciju dati, sāks sinhronizēt datus, kad tie tiek nodrošināti.
+Pēc noklusējuma datu integrācijas starp Personāla vadību un Common Data Service ir izslēgta.
 
 Iespējamas, velēsieties izslēgt integrāciju tālāk minētajās situācijās.
 
 - Ja aizpildāt datus, izmantojot datu pārvaldības struktūru, un dati ir jāimportē vairākas reizes, lai tie būtu pareizā stāvoklī.
 
-- Pastāv problēmas ar datiem vai nu Human Resources, vai Common Data Service. Izslēdzot integrāciju, varat dzēst ierakstu vienā vidē, nedzēšot to otrā. Atkal ieslēdzot integrāciju, ieraksts vidē, kurā tas netika dzēsts, tiks sinhronizēts ar vidi, kurā tas tika dzēsts. Sinhronizācija sākas nākamajā reizē, kad tiek izpildīts pakešuzdevums **Common Data Service integrācijas neatbildētā pieprasījuma sinhronizācija**.
+- Pastāv problēmas ar datiem vai nu Human Resources, vai Common Data Service. Izslēdzot integrāciju, varat dzēst ierakstu vienā vidē, nedzēšot to otrā. Atkal ieslēdzot integrāciju, ieraksts vidē, kurā tas netika dzēsts, tiek sinhronizēts ar vidi, kurā tas tika dzēsts. Sinhronizācija sākas nākamajā reizē, kad tiek izpildīts pakešuzdevums **Common Data Service integrācijas neatbildētā pieprasījuma sinhronizācija**.
 
 > [!WARNING]
 > Izslēdzot datu integrāciju, pārliecinieties, vai nerediģējat vienu un to pašu ierakstu abās vidēs. Atkal ieslēdzot integrāciju, tiks sinhronizēts pēdējais rediģētais ieraksts. Tāpēc, ja abās vidēs neveicat vienādas izmaiņas ierakstā, dati var tikt zaudēti.
@@ -103,9 +98,17 @@ Lai elementā izpildītu pilnu sinhronizāciju pēc izsekošanas dzēšanas, ska
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Elementa sinhronizācija starp Human Resources un Common Data Service
 
-Izmantojiet šo procedūru, ja izmaiņas Common Data Service aizņem pārāk ilgu laiku, lai tās parādītos Human Resources, vai ja pēc izsekošanas dzēšanas ir jāatsvaidzina izsekošanas tabula.
+Izmantojiet šo procedūru, ja:
 
-- Lai izpildītu pilnu elementa sinhronizāciju starp Human Resources un Common Data Service, atlasiet elementu laukā **CDS elementa nosaukums** un pēc tam atlasiet **Sinhronizēt tūlīt**.
+- Izmaiņas no Common Data Service aizņem pārāk daudz laika, lai parādītos Personāla vadībā.
+
+- Pēc izsekošanas notīrīšanas ir jāatsvaidzina izsekošanas tabula.
+
+Lai veiktu pilnu sinhronizāciju elementā starp Personāla vadību un Common Data Service:
+
+1. Laukā **CDS entītijas nosaukums** atlasiet entītiju.
+
+2. Atlasiet **Sinhronizēt tagad**.
 
 [![Pilnīgas sinhronizācijas izpilde](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42fcbeaadf0e8156cd72bee4328ca612c1abbaff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009861"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198770"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Atlīdzības procesa definēšana un rezultātu aprēķināšana
-
-
 
 Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas un piemaksas darbiniekiem, kas reģistrēti fiksētās un mainīgās atlīdzības plānos. Kompensācijas procesus var izmantot vairākas reizes, lai veiktu iespēju analīzi, lai pārbaudītu, vai visas izmaiņas un iestatījumi ir pareizi. Šīs procedūras ietvaros tiks izveidots atlīdzības process, tiks palaists process un skatīti rezultāti. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

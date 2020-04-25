@@ -3,7 +3,7 @@ title: ER funkciju saraksts saraksta kategorijā
 description: Šajā tēmā ir sniegta informācija par saraksta funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917768"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201047"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>ER funkciju saraksts saraksta kategorijā
 
@@ -46,6 +46,7 @@ Elektronisko pārskatu (ER) sarakstu funkcijas var izmantot, lai izgūtu inform�
 | [Indekss](er-functions-list-index.md)                       | Šī funkcija atgriež *Konteinera (ieraksta)* vērtību, kas ir atlasīta, izmantojot norādītajā sarakstā norādīto skaitlisko indeksu. Šī funkcija parāda izņēmumu, ja indekss neietilpst norādītajā sarakstā esošo ierakstu diapazonā. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Šī funkcija atgriež *Būla* vērtību **TRUE**, ja norādītajā sarakstā nav ierakstu. Pretējā gadījumā tā atgriež *Būla* vērtību **FALSE**. |
 | [Saraksts](er-functions-list-list.md)                         | Šī funkcija atgriež jaunu *Ierakstu saraksta* vērtību, kas sastāv no jauna saraksta, kas ir izveidots no norādītiem argumentiem.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Šī funkcija atgriež *Ierakstu saraksta* vērtību, kas pārstāv jaunu savienotu sarakstu, kas ir izveidots no norādītiem argumentiem.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Šī funkcija atgriež *Ierakstu saraksta* vērtību, kas tiek izveidota, pamatojoties uz norādītā *Uzskaitījuma* vai *Konteinera (ieraksta)* veida argumenta struktūru. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Šī funkcija atgriež jaunu *Ierakstu saraksta* vērtību, kas sastāv vienīgi no norādītā saraksta pirmā ieraksta.|
 | [OrderBy](er-functions-list-orderby.md)                   | Šī funkcija atgriež norādīto sarakstu kā *Ierakstu saraksta* vērtību pēc tam, kad tas ir sakārtots atbilstoši norādītajiem argumentiem. Šos argumentus var definēt kā izteiksmes. |

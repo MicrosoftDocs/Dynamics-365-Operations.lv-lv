@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092250"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138363"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -53,10 +53,10 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
 
 1. Savā LCS projektā atlasiet elementu **Human Resources programmas pārvaldība**.
 
-2. Norāda, vai šī ir Human Resource ražošanas vai smilškastes instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes.
+2. Norāda, vai šī ir Human Resources ražošanas vai smilškastes instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes.
    
     > [!NOTE]
-    > Talanta instances tipu nevar mainīt pēc iestatīšanas. Pirms turpināt, pārbaudiet, vai ir atlasīts pareizais instances tips.</br></br>
+    > Human Resources instances tipu nevar mainīt pēc iestatīšanas. Pirms turpināt, pārbaudiet, vai ir atlasīts pareizais instances tips.</br></br>
     > Human Resources instances veids ir neatkarīgs no Microsoft Power Apps vides instances veida, kuru iestatāt Power Apps administrēšanas centrā.
     
 3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Human Resources izmēģinājuma vides ietvaros. Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
@@ -74,7 +74,7 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
     > [!NOTE]
     > Ja vēl neesat izrakstījies no gala prasībām, projektā varat izvietot Human Resources testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
 
-    > Tā kā Human Resources abonementa ietvaros ir atļautas tikai divas LCS vides, varat apsvērt iespēju izmantot bezmaksas 60 dienu [Human Resources izmēģinājuma vidi](https://dynamics.microsoft.com/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+    > Jūs varētu apsvērt iespēju izmantot bezmaksas 60 dienu [Human Resources izmēģinājuma vidi](https://dynamics.microsoft.com/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 ## <a name="select-a-power-apps-environment"></a>Atlasiet Power Apps vidi
 
@@ -97,7 +97,10 @@ Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tāl
     - **Izmēģinājuma vides** — šīs vides ir izveidotas ar beigu datumu, un beigsies pēc tā, kā rezultātā jūsu vide un tajā ietvertās jebkuras Human Resources instances tiks automātiski noņemtas.
    
     - **Neatbalstītie reģioni** – pašlaik Human Resources tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienotā Karaliste, Austrālija, Kanāda un Āzija.
-  
+
+    > [!NOTE]
+    > Human Resources vide ir nodrošināta tajā pašā reģionā, kurā ir nodrošināta Power Apps vide. Human Resources vides migrācija uz citu reģionu netiek atbalstīta.
+
 6. Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa. 
  
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi

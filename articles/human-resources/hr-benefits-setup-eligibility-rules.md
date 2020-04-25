@@ -3,7 +3,7 @@ title: Piemērotības kārtulu un opciju konfigurēšana
 description: Iestatiet piemērotības kārtulas un opcijas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009869"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229905"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana
-
-[!include [banner](includes/preview-feature.md)]
 
 Pēc nepieciešamo parametrus konfigurēšanas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources varat izveidot piemērotības noteikumus, komplektus, periodus un programmas, ko saistīsiet ar saviem atvieglojumu plāniem.
 
@@ -57,6 +55,7 @@ Atvērtās reģistrācijas laikā darbinieki var atlasīt atvieglojumu plānus. 
    | **Nodarbinātības kategorija** | Darbinieka nodarbinātības kategorija, ja **Izmantot nodarbinātības kategoriju** ir pārslēgts uz **Jā**. |
    | **Izmantot jauno pieņemšanas darbā kārtulu** | Norāda, vai izmantot jauna darba pieņemtā jauno darbā pieņemšanas perioda vērtību kā daļu no atvieglojumu piemērotības kārtulas. |
    | **Reģistrācijas periods** | Laika periods, kurā atļauta jauna darba pieņemtā reģistrācija. Ja to iestatīsiet arī parametros, parametru iestatījumam būs prioritāte pār šo. |
+   | **Izmantot iepriekšējo nodarbinātības statusu** | Norāda, vai izmantot darbinieka iepriekšējo nodarbinātības statusu kā daļu no atvieglojumu piemērojamības kārtulas. Piemēram, varat norādīt piemērojamības kārtulu, kas atsakās no seguma gaidīšanas perioda visiem darbiniekiem, kas ir pārnesti no statusa **Atlaists** uz statusu **Nodarbināts** 90 dienu laikā no viņa iepriekšējās nodarbinātības. |
 
 4. Sadaļā **Papildu kritēriji** atlasiet tālāk minētās opcijas un pievienojiet informāciju pēc nepieciešamības.
 

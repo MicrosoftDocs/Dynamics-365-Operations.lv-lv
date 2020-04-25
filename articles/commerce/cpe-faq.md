@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce priekšskatījuma vides BUJ
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024756"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254728"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce priekšskatījuma vides BUJ
 
@@ -77,8 +77,6 @@ Katram apstiprinātajam pieprasījumam mēs piešķiram vienas Commerce priekšs
 ## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce priekšskatījuma vides kontaktinformāciju
 
 Ja jums ir jautājumi vai pieprasījumi, kas saistīti ar Commerce priekšskatījuma vidi, sazinieties ar Microsoft, apmeklējot [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupu](https://aka.ms/Dynamics365CommercePreviewYammer), lai saņemtu palīdzību.
-
-Ja rodas problēmas, mēģinot piekļūt Yammer grupai, varat sazināties ar Microsoft, izmantojot e-pastu <Dynamics365Commerce@microsoft.com>. Šī e-pasta adrese netiek aktīvi uzraudzīta. Tādēļ rēķinieties ar novēlotu atbildi.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

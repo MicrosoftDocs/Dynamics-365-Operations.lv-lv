@@ -3,7 +3,7 @@ title: Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas
 description: Šajā tēmā ir aprakstītas papildu iespējas automātisko maksu aprēķināšanai un piesaistīšanai Commerce kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekli.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023332"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175135"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
 
@@ -169,3 +169,9 @@ Līdz ar to šajā piemērā krājums 81334 tiks saistīts ar kravas maksu $5,62
 ![Proporcionāli sadalītas maksas pārdošanas rindā krājumam 81334](media/proratedlinecharge.png)
 
 Ja šī aprēķināšanas metode tiek izmantota daļējas atgriešanas gadījumā un ja maksas kods atbilst atgriešanai, tikai maksas daļa, kas ir piešķirta šai rindai, tiks atgriezta krājuma atgriešanas gadījumā.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Omni kanāla papildu automātiskās maksas](omni-auto-charges.md)
+
+[Automātisko maksu iespējošana un konfigurēšana katram kanālam](auto-charges-by-channel.md)

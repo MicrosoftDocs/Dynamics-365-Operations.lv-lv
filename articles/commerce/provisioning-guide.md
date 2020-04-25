@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce priekšskatījuma vides nodrošināšana
 description: Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024640"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254752"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce priekšskatījuma vides nodrošināšana
 
@@ -235,9 +235,7 @@ Lai inicializētu e-tirdzniecību, veiciet tālāk norādītās darbības.
 
 Ja rodas problēmas, pabeidzot nodrošināšanas darbības, lūdzu, apmeklējiet [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupu](https://aka.ms/Dynamics365CommercePreviewYammer), lai saņemtu palīdzību.
 
-Ja rodas problēmas, mēģinot piekļūt Yammer grupai, varat sazināties ar Microsoft, izmantojot e-pastu <Dynamics365Commerce@microsoft.com>. Šī e-pasta adrese netiek aktīvi uzraudzīta. Tādēļ rēķinieties ar novēlotu atbildi.
-
-## <a name="next-steps"></a>Nākamās darbības
+## <a name="next-steps"></a>Turpmākās darbības
 
 Lai turpinātu nodrošināšanas procesu un konfigurētu Commerce priekšskatījuma vidi, skatiet [Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md).
 

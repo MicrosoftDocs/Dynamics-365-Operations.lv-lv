@@ -2,14 +2,14 @@
 title: Pārdošanas pasūtījumu mobilā darbvieta
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Pārdošanas pasūtījumi. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251625"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212944"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Pārdošanas pasūtījumu mobilā darbvieta
 
@@ -33,7 +33,7 @@ ms.locfileid: "2251625"
 
 Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 Mobilajā darbvietā **Pārdošanas pasūtījumi** var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu. Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju. Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu. 
 
 Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pārdošanas pasūtījumus.
@@ -120,7 +120,7 @@ Ja jūsu organizācijai ir izvietota Dynamics 365 for Operations versija 1611 a
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
-Lejupielādēt un instalēt Finance and Operations mobilo programmu:
+Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
 -   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

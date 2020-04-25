@@ -3,7 +3,7 @@ title: Dzīves notikumu piemērotības apstrāde
 description: Šajā rakstā ir parādīts, kā izpildīt dzīves notikumu piemērotības apstrādi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 899c49fd2946fbadf4264e9178a57fb28598c0de
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: de4c5b951f9d4b07f457ce392c310fb96ba34947
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009766"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229974"
 ---
 # <a name="process-life-event-eligibility"></a>Dzīves notikumu piemērotības apstrāde
-
-[!include [banner](includes/preview-feature.md)]
 
 Šajā rakstā ir parādīts, kā izpildīt dzīves notikumu piemērotības apstrādi.
 
@@ -37,7 +35,7 @@ ms.locfileid: "3009766"
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Reģistrācijas periods | Reģistrācijas periods, kuram apstrādāt dzīves notikumu piemērotību. |
+   | **Reģistrācijas periods** | Reģistrācijas periods, kuram apstrādāt dzīves notikumu piemērotību. |
 
 3. Ja vēlaties izpildīt apstrādi fonā, atlasiet **Izpildīt fonā** un veiciet tālāk minētos uzdevumus.
 

@@ -3,7 +3,7 @@ title: Pārskats par biznesa dokumentu pārvaldību
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot biznesa dokumentu pārvaldības līdzekli elektroniskā pārskata struktūrā.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117341"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258561"
 ---
 # <a name="business-document-management-overview"></a>Pārskats par biznesa dokumentu pārvaldību
 
@@ -248,9 +248,18 @@ Izmantojiet šādu procedūru, lai rediģētu brīva teksta rēķinu veidnes Biz
 1. Pierakstieties kā lietotājs ar piekļuvi Biznesa dokumentu pārvaldības darbvietai.
 2. Atveriet Biznesa dokumentu pārvaldības darbvietu
 
+Ja **Office līdzīga interfeisa pieredze biznesa dokumentu pārvaldības** līdzeklis ir izslēgts **Funkciju pārvaldības** darbvietā, galvenais režģis **Biznesa dokumentu pārvaldības** darbvietā rāda šādas veidnes:
+
+- Veidnes, kas pieder jūsu ER konfigurācijas nodrošinātājam (t.i., sniedzējam, kas pašlaik ir atzīmēts kā aktīvs **Elektroniskā pārskata** darbvietā). Kad esat atlasījis vienu no šīm veidnēm, varat atlasīt **Rediģēt veidni**, lai sāktu vai turpinātu tās rediģēšanu.
+- Citu ER konfigurācijas nodrošinātājiem piederošas veidnes. Pēc tam, kad esat atlasījis vienu no šīm veidnēm, jūs varat atlasīt **Jaunu dokumentu**, lai izveidotu tā kopiju, kas pieder jūsu ER konfigurācijas nodrošinātājam, un tad sākt rediģēt kopiju.
+
 ![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingTemplate1.png)
 
 Cilnē **Veidne** redzams atlasītās veidnes saturs. Atlasiet cilni **Detalizēti**, lai pārskatītu atlasītās veidnes papildinformāciju, kā arī papildinformāciju ER formāta konfigurācijai, kurā šī veidne atrodas. Ievērojiet, ka visām veidnēm ir statuss **Publicēts** un tajās nav papildinformācijas kolonnā **Pārskatījums**. Tas nozīmē, ka šīs veidnes šobrīd netiek rediģētas.
+
+Ja **Office līdzīga lietotāja interfeisa pieredze biznesa dokumentu pārvaldības** līdzeklim ir ieslēgts **Funkciju pārvaldības** darbvietā, galvenais režģis **Biznesa dokumentu pārvaldības** darbvietā parāda veidnes, kas pieder jūsu ER konfigurācijas nodrošinātājam (tas ir, nodrošinātājs, kas pašlaik ir atzīmēts kā aktīvs **Elektroniskā pārskata** darbvietā). Kad esat atlasījis vienu no šīm veidnēm, varat atlasīt **Rediģēt veidni**, lai sāktu vai turpinātu tās rediģēšanu.
+
+Lai strādātu ar veidnēm, kas pieder citiem ER konfigurācijas nodrošinātājiem, atlasiet **Jauns dokuments**, lai izveidotu veidnes kopiju, kas pieder jūsu ER nodrošinātājam. Pēc tam varat sākt rediģēt kopiju. Papildinformācijai skatiet [Jauna dokumenta lietotāja interfeiss Biznesa dokumentu pārvaldībā](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Sāciet rediģēt veidnes, kas pieder jūsu konfigurācijas sniedzējam
 
@@ -259,7 +268,7 @@ Cilnē **Veidne** redzams atlasītās veidnes saturs. Atlasiet cilni **Detalizē
 
 ![Biznesa dokumentu pārvaldības darbvietas lapa](./media/BDM-Overview-EditingTemplate2.png)
 
-Atlasītajai veidnei ir pieejama opcija **Rediģēt veidni**. Šī opcija vienmēr ir pieejama veidnei ER formāta konfigurācijā, kas pieder aktīvajam ER konfigurācijas sniedzējam (šajā piemērā **“Litware, Inc.”** ). Kad ir atlasīta opcija **Rediģēt veidni**, esošā veidne no pamatā esošās ER formāta konfigurācijas melnraksta versijas būs pieejama rediģēšanai.
+Atlasītajai veidnei ir pieejama opcija **Rediģēt veidni**. Šī opcija vienmēr ir pieejama veidnei ER formāta konfigurācijā, kas pieder aktīvajam ER konfigurācijas sniedzējam (šajā piemērā**Litware, Inc.** ). Kad ir atlasīta opcija **Rediģēt veidni**, esošā veidne no pamatā esošās ER formāta konfigurācijas melnraksta versijas būs pieejama rediģēšanai.
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Sāciet rediģēt veidnes, kas pieder citiem nodrošinātājiem
 

@@ -3,7 +3,7 @@ title: Dokumenta stāvokļi un dzīves cikls
 description: Šajā tēmā ir ietverti dažādi Microsoft Dynamics 365 Commerce lapas elementu dokumenta stāvokļi.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002985"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261517"
 ---
 # <a name="document-states-and-lifecycle"></a>Dokumenta stāvokļi un dzīves cikls
 
@@ -37,13 +37,13 @@ Tēmā [Lapas elementi](page-elements-overview.md) uzskaitīti dažādi dokument
 
 Tālāk redzamā tabula parāda Commerce iespējamos lapas elementu dokumenta stāvokļus.
 
-| Dokumenta stāvoklis | Apraksts |
-|---|---|
-| Izrakstījies | Kad CMS elements ir izrakstīts jums, citi autentificēti sistēmas lietotāji to nevar rediģēt. Visas izmaiņas, ko veicat elementā, redzamas tikai jums. |
-| Reģistrējies | Kad CMS elements ir reģistrēts, visas izmaiņas ir redzamas citiem autentificētiem sistēmas lietotājiem, un šie lietotāji var izrakstīt elementu un to rediģēt. Katra reģistrācija izveido dokumenta versijas ierakstu elementa vēsturē. |
-| Publicēts | Kad CMS elements ir publicēts, tas tiek iestumts jūsu aktuālajā vietnē un internetā kļūst pamanāms ieautentificētiem ārējiem lietotājiem. Elementus var publicēt tikai tad, ja tie ir reģistrēti. |
-| Saglabāts | Izmaiņas, kas veiktas izrakstītam CMS elementam, var tikt saglabātas CMS pirms elements ir reģistrēts vai publicēts. Šīs saglabātās izmaiņas nav redzamas citiem autentificētiem sistēmas lietotājiem, kamēr elements nav reģistrēts. Tie nav redzami ārējiem lietotājiem, kamēr elements nav publicēts. |
-| Atmestā izrakstīšana | Kad izrakstītais CMS elements tiek atmests, visas saglabātās izmaiņas tiek dzēstas, un elements atgriežas pēdējā reģistrētajā versijā. |
+| Dokumenta stāvoklis      | Vietnes veidotāja darbība        | apraksts                                                  |
+| ------------------- | -------------------------- | ------------------------------------------------------------ |
+| Izrakstīts         | Atlasiet **Rediģēt**.           | Piemērotais dokuments tiek paņemts jums. Kamēr dokuments ir šajā stāvoklī, to nevar mainīt citi autentificēti sistēmas lietotāji, un visas dokumentā veiktās izmaiņas ir redzamas tikai jums. |
+| Saglabāts               | Atlasiet **Saglabāt**.           | Paņemtā dokumentā veiktās izmaiņas tiek saglabātas datu bāzē, bet dokuments vēl nav atdots vai publicēts. Saglabātās izmaiņas nav redzamas citiem autentificētiem sistēmas lietotājiem, kamēr autors atlasa **Beigt rediģēšanu**. Tie nav redzami ārējiem lietotājiem, kamēr elements nav publicēts. |
+| Atmestā izrakstīšana | Atlasiet **Atmest labojumus**.  | Visas izmaiņas paņemtajā dokumentā tiek atmestas, un krājums tiek atgriezts pēdējā versijā, kas tika pārbaudīta. |
+| Reģistrējies          | Atlasiet **Beigt rediģēšanu**. | Rediģētais dokuments ir atdots. Visas izmaiņas ir redzamas citiem autentificētiem sistēmas lietotājiem, un šie lietotāji pēc tam var rediģēt dokumentu. Katra reģistrācija izveido dokumenta versijas ierakstu elementa vēsturē. |
+| Publicēts           | Atlasiet **Publicēt**.        | Dokuments tiek publicēts, un izmaiņas tiek atstumtas uz jūsu Live vietni un kļūst atklājamas ārējiem lietotājiem. Krājumus var publicēt tikai tad, ja tie vispirms ir pārbaudīti, atlasot **Beigt rediģēšanu**. |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190377"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143953"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidātu izvēles rīku noteikšana un ieviešana
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.  Taču iespējams, ka kandidāti ar jums nepieciešamajam prasmēm jau strādā jūsu organizācijā. Noteiktu prasmju kopu varat meklēt starp esošajiem darbiniekiem vai jauniem kandidātiem. Šādi personāla atlases darbinieks var ātri apkopot un izskatīt datus par kandidātiem, kas vakantam amatam ir pieteikušies tagad vai iepriekš, vai atrastu potenciālos kandidātus starp jau esošajiem darbiniekiem. Izmantojiet šo uzdevuma ierakstu, lai uzzinātu, kā prasmju kartēšanas funkcionalitāte jums var palīdzēt atrast vakantajam amatam vispiemērotāko personu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

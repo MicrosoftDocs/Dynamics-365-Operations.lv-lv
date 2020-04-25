@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036269"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260464"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -90,4 +90,23 @@ Lai režģī atceltu grupēšanu, ar peles labo pogu noklikšķiniet uz grupēš
 ## <a name="evaluating-math-expressions"></a>Matemātisko izteiksmju novērtēšana
 Produktivitātes veicināšanai lietotāji režģa ciparu šūnās var ievadīt matemātiskas formulas. Viņiem nav jāveic aprēķini programmā ārpus sistēmas. Piemēram, ja ievadāt **15\*4** un pēc tam nospiežat taustiņu **TAB**, lai izietu no lauka, sistēma novērtēs izteiksmi un saglabās vērtību **60** laukam.
 
-Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Plašāku informāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Papildinformāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kā iespējot jauno režģa kontroli manā vidē? 
+
+**10.0.9/Platform update 33 vai jaunāka** **Jauno režģu kontroles** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi publiskie priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platform update 32 vai 10.0.7/Platform update 31** Līdzekli **Jaunā režģa kontrole** var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
+
+1.  **Iespējot būvējumu izsniegšanu**: izpildīt šādu SQL priekšrakstu: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Atiestatiet IIS**, lai notīrītu statisko būvējuma kešatmiņu. 
+
+3.  **Atrast funkciju**: atveriet darbvietu **Funkciju pārvaldība**. Ja **Jaunā režģa kontrole** nav redzama visu funkciju sarakstā, atlasiet **Pārbaudīt, vai nav atjauninājumu**.   
+
+4.  **Iespējot funkciju**: atrodiet funkciju **Jaunā režģa kontrole** funkciju sarakstā un detalizētās informācijas rūtī atlasiet **Iespējot tūlīt**. Ņemiet vērā, ka ir nepieciešama pārlūkprogrammas atsvaidzināšana. 
+
+Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontroli.

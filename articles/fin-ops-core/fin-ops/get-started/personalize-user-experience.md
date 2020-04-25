@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029366"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260510"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -80,7 +80,7 @@ Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir t
 
 Turklāt visparastākie tiešās personalizēšanas tipi ir pieejami, noklikšķinot ar peles labo pogu uz kāda elementa un pēc tam atlasot **Personalizēt**. (Ņemiet vērā, ka ne visus lapā esošos elementus var personalizēt.) Izmantojot šo personalizēšanas metodi, tiek parādīts elementa rekvizītu logs.
 
-![Elementa rekvizītu personalizēšana](./media/personalization-element-properties.png)
+![Elementa rekvizītu personalizēšana](./media/cli-element-property-window.png)
 
 Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norādītajos veidos.
 
@@ -89,6 +89,7 @@ Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norād
 - Ietvert informāciju kopsavilkuma cilnes kopsavilkuma sadaļā (ja elements atrodas kopsavilkuma cilnē).
 - Izlaist lauku, lai tas nekad nebūtu fokusā, kad tiek ritināta lapa.
 - Novērst šajā laukā esošo datu rediģēšanu (jebkuram ierakstam)
+- Norādiet lauku, kas nepieciešams datu ievadei. Ja šajā laukā nav ievadīta neviena vērtība, tā tiek parādīta ar sarkanu apmali un zvaigznīti, lai norādītu šo stāvokli. Šī opcija ir pieejama tikai tad, ja ir aktivizēta versija 10.0.11, kad līdzekļi [Saglabātie skati](saved-views.md) un **Norādīt laukus kā obligātus, izmantojot personalizāciju** ir iespējoti.
 
 Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespējas. Piemēram, elementa rekvizītu logā jums varētu būt iespējams attiecīgo elementu paaugstināt uz informācijas paneli, un šis rekvizītu logs informācijas panelim varētu ļaut jums izveidot jaunu darbvietu attiecīgajā informācijas panelī.
 
@@ -116,6 +117,7 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 - Izmantojiet rīku **Pārvietot**, lai pārvietotu kādu elementu uz citu atrašanās vietu pašreizējā elementu grupā. Ņemiet vērā, ka jūs nevarat pārvietot elementu ārpus tā pamata grupas. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Pārvietot** un pēc tam atlasiet elementu, kuru vēlāties pārvietot. Kad atlasāt kādu elementu, programma nosaka novietojumus, kur šo elementu var pārvietot. Šie novietojumi ir zināmi kā *nomešanas zonas*. Kad šo elementu velkat pa pašreizējo grupu, katra nomešanas zona tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
 - Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad uzdevumu joslā atlasāt pogu **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Varat interaktīvi noņemt vai pievienot laukus ciļņu secībai.
 - Izmantojiet rīku **Rādīt galvenē**, kad vēlaties, lai lauks tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kad uzdevumu joslā atlasāt pogu **Rādīt galvenē**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no tā.
+- Izmantojiet rīku **Pieprasīt**, lai norādītu elementu, kas nepieciešams datu ievadei. Kad uzdevumu joslā atlasāt pogu **Pieprasīt**, visi elementi, kas ir personalizēti, lai būtu nepieciešami, tiek rādīti ēnotā konteinerā. Pēc tam tie vairs nav nepieciešami. Šī opcija ir pieejama tikai līdzekļu laidienā, kad līdzekļi [Saglabātie skati](saved-views.md) un **Norādīt laukus kā obligātus, izmantojot personalizāciju** ir iespējoti.
 - Izmantojiet rīku **Bloķēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad uzdevumu joslā atlasāt pogu **Bloķēt**, visi pašlaik nerediģējami elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
 - Izmantojiet pogu **Pievienot programmu no Power Apps** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft Power Apps. Plašāku informāciju par to, kā lapā iegult programmu no Power Apps, skatiet tēmā [Iegult programmas no Power Apps](embed-power-apps.md). Šī opcija ir pieejama tikai tad, ja ir atspējots līdzeklis [Saglabātie skati](saved-views.md).  
 - Izmantojiet pogu**Pievienot programmu**, lai lapā iegultu programmu – vai nu to, kas izveidota no Microsoft Power Apps vai trešās puses. Šī opcija ir pieejama tikai tad, ja ir iespējots līdzeklis [Saglabātie skati](saved-views.md). 

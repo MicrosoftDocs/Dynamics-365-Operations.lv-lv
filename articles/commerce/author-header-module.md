@@ -3,7 +3,7 @@ title: Galvenes modulis
 description: Šajā tēmā ir apskatīti galvenes moduļi un aprakstīts, kā izveidot lapas galvenes programmā Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: cec138ebefbd2beb2f1cf6302ce58d8bbc5c4bbd
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3025677"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261448"
 ---
 # <a name="header-module"></a>Galvenes modulis
 
@@ -51,6 +51,7 @@ Rekvizīts **Mana konta saites** var tikt izmantots, lai definētu konta lapas, 
 
 - **Navigācijas izvēlne** – navigācijas izvēlnē ir atspoguļota kanāla navigācijas hierarhija un citas statiskās navigācijas saites. Kanāla navigācijas hierarhiju var konfigurēt programmā Dynamics 365 Commerce. Navigācijas izvēlnē ir rekvizīts **Navigācijas avots**, kas tiek izmantots, lai norādītu Retail Server navigācijas izvēlnes vienumus un statiskos izvēlnes elementus kā avotu. Ja statiskie izvēlnes elementi ir norādīti kā avots, var tikt nodrošinātas relatīvas saites ar citām lapām vietnē. Konfigurētie elementi tiek parādīti kā galvenes navigācija. 
 - **Meklēšana** — meklēšanas modulis ļauj lietotājiem ievadīt meklēšanas nosacījumus preču meklēšanai. Noklusējuma meklēšanas lapas URL un meklēšanas vaicājuma parametri ir jānorāda sadaļā **Vietnes iestatījumi \> Paplašinājumi**. Meklēšanas modulim ir rekvizīti, kas ļauj izlaist meklēšanas pogu vai etiķeti pēc nepieciešamības. Meklēšanas modulis atbalsta arī automātiskās ieteikšanas opcijas, piemēram, preci, atslēgvārdu un kategoriju meklēšanas rezultātus.
+- **Groza ikona** — groza ikonu modulis attēlo groza ikonu, kas parāda preču skaitu grozā jebkurā laikā. Plašāku informāciju skatiet [Groza ikonas modulis](cart-icon-module.md).
 
 ## <a name="create-a-header-module-for-a-page"></a>Lapas galvenes moduļa izveide
 
@@ -65,7 +66,10 @@ Lai izveidotu galvenes moduli, veiciet šādas darbības.
 1. Navigācijas izvēlnes moduļa rekvizītu rūtī konfigurējiet navigācijas izvēlnes moduļa rekvizītus.
 1. Galvenes moduļa slotā **Meklēšana** pievienojiet meklēšanas moduli. 
 1. Meklēšanas moduļa rekvizītu rūtī konfigurējiet meklēšanas moduļa rekvizītus. 
+1. Galvenes moduļa **Groza ikonas** slotā pievienojiet groza ikonu moduli. 
+1. Groza ikonas moduļa rekvizītu rūtī konfigurējiet groza ikonas moduļa rekvizītus. Ja vēlaties, lai groza ikona rādītu mini grozu, kad atrodaties virs tā, atlasiet **Patiess** opcijai **Parādīt mini grozu**.
 1. Saglabājiet lapas fragmentu, pabeidziet to rediģēt un publicējiet to. 
+
 
 Lai palīdzētu nodrošināt, ka galvene parādās katrā lapā, veiciet šīs darbības katrā lapas veidnē, kas tiek izveidota šai vietnei.
 
@@ -76,15 +80,17 @@ Lai palīdzētu nodrošināt, ka galvene parādās katrā lapā, veiciet šīs d
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
-[Container modulis](add-container-module.md)
+[Konteinera modulis](add-container-module.md)
 
-[Iegādes lodziņa modulis](add-buy-box.md)
+[Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [Groza modulis](add-cart-module.md)
 
+[Groza ikonas modulis](cart-icon-module.md)
+
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Pasūtījuma apstiprinājuma modelis](order-confirmation-module.md)
+[Pasūtījuma apstiprinājuma modulis](order-confirmation-module.md)
 
 [Galvenes modulis](author-header-module.md)
 

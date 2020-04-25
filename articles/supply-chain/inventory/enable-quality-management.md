@@ -2,7 +2,7 @@
 title: Kvalitātes pārvaldības apskats
 description: Šajā tēmā ir aprakstīts, kā varat izmantot kvalitātes pārvaldību programmā Dynamics 365 Supply Chain Management, lai palīdzētu uzlabot preču kvalitāti savā piegādes ķēdē.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814402"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224913"
 ---
 # <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
 
@@ -302,122 +302,6 @@ Pirkšanā, ja iestatāt lauku **Notikuma veids** uz **Produktu ieejas plūsma**
 
 - Ja opcija **Pēc atjauninātā daudzuma** ir iestatīta uz **Jā**, katrai saņemšanai atbilstoši pirkšanas pasūtījumam tiek ģenerēts kvalitātes pārbaudes pasūtījums, pamatojoties uz saņemto daudzumu un iestatījumiem krājumu iztveršanā. Katru reizi, kad tiek saņemts daudzums atbilstoši pirkšanas pasūtījumam, tiek ģenerēti jauni kvalitātes pārbaudes pasūtījumi, pamatojoties uz tikko saņemto daudzumu.
 - Ja opcija **Pēc atjauninātā daudzuma** ir iestatīta uz **Nē**, pirmajai saņemšanai atbilstoši pirkšanas pasūtījumam tiek ģenerēts kvalitātes pārbaudes pasūtījums, pamatojoties uz saņemto daudzumu. Turklāt viens vai vairāki kvalitātes pārbaudes pasūtījumi tiek izveidoti, pamatojoties uz atlikušo daudzumu atkarībā no izsekošanas dimensijām. Kvalitātes pārbaudes pasūtījumi netiek ģenerēti turpmākām ieejas plūsmām atbilstoši pirkšanas pasūtījumam.
-
-<table>
-<tbody>
-<tr>
-<th>Kvalitātes specifikācija</th>
-<th>Pēc atjauninātā daudzuma</th>
-<th>Pēc izsekošanas dimensijas</th>
-<th>Rezultāts</th>
-</tr>
-<tr>
-<td>Procentuālā attiecība: 10 %</td>
-<td>Jā</td>
-<td>
-<p>Paketes numurs: Nr.</p>
-<p>Sērijas numurs: Nr.</p>
-</td>
-<td>
-<p>Pasūtījuma daudzums: 100</p>
-<ol>
-<li>Pabeigto krājumu daudzums 30
-<ul>
-<li>Kvalitātes pārbaudes pasūtījums #1 3 vienumiem (10 % no 30)</li>
-</ul>
-</li>
-<li>Pabeigto krājumu daudzums 70
-<ul>
-<li>Kvalitātes pārbaudes pasūtījums #2 7 vienumiem (10 % no atlikušā pasūtījuma daudzuma, kas šajā gadījumā ir vienāds ar 70)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fiksēts daudzums: 1</td>
-<td>Nē</td>
-<td>
-<p>Paketes numurs: Nr.</p>
-<p>Sērijas numurs: Nr.</p>
-</td>
-<td>Pasūtījuma daudzums: 100
-<ol>
-<li>Pabeigto krājumu daudzums 30
-<ul>
-<li>Kvalitātes pārbaudes pasūtījums #1 tiek izveidots vienumam 1 (pirmajam daudzumam, kas ir norādīts kā pabeigts, kura fiksētā vērtība ir 1).</li>
-<li>Saskaņā ar atlikušo daudzumu nav izveidoti citi kvalitātes pārbaudes pasūtījumi.</li>
-</ul>
-</li>
-<li>Pabeigto krājumu daudzums 10
-<ul>
-<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
-</ul>
-</li>
-<li>Pabeigto krājumu daudzums 60
-<ul>
-<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fiksēts daudzums: 1</td>
-<td>Jā</td>
-<td>
-<p>Partijas numurs: Jā</p>
-<p>Sērijas numurs: Jā</p>
-</td>
-<td>
-<p>Pasūtījuma daudzums: 10</p>
-<ol>
-<li>Pabeigto krājumu daudzums 3
-<ul>
-<li>Kvalitātes pārbaudes pasūtījums #1 1 vienumam no partijas #b1, sērijas #s1</li>
-<li>Kvalitātes pārbaudes pasūtījums #2 1 vienumam no partijas #b2, sērijas #s2</li>
-<li>Kvalitātes pārbaudes pasūtījums #3 1 vienumam no partijas #b3, sērijas #s3</li>
-</ul>
-</li>
-<li>Pabeigto krājumu daudzums 2
-<ul>
-<li>Kvalitātes pārbaudes pasūtījums #4 1 vienumam no partijas #b4, sērijas #s4</li>
-<li>Kvalitātes pārbaudes pasūtījums #5 1 vienumam no partijas #b5, sērijas #s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Piezīme:</strong> partiju var izmantot atkārtoti.</p>
-</td>
-</tr>
-<tr>
-<td>Fiksēts daudzums: 2</td>
-<td>Nē</td>
-<td>
-<p>Partijas numurs: Jā</p>
-<p>Sērijas numurs: Jā</p>
-</td>
-<td>
-<p>Pasūtījuma daudzums: 10</p>
-<ol>
-<li>Pabeigto krājumu daudzums 4
-<ul>
-<li>Kvalitātes pārbaudes pasūtījums #1 1 vienumam no partijas #b1, sērijas #s1.</li>
-<li>Kvalitātes pārbaudes pasūtījums #2 1 vienumam no partijas #b2, sērijas #s2.</li>
-<li>Kvalitātes pārbaudes pasūtījums #3 1 vienumam no partijas #b3, sērijas #s3.</li>
-<li>Kvalitātes pārbaudes pasūtījums #4 1 vienumam no partijas #b4, sērijas #s4.</li>
-<li>Saskaņā ar atlikušo daudzumu nav izveidoti citi kvalitātes pārbaudes pasūtījumi.</li>
-</ul>
-</li>
-<li>Pabeigto krājumu daudzums 6
-<ul>
-<li>Nav izveidoti kvalitātes pārbaudes pasūtījumi.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Ražošana
 

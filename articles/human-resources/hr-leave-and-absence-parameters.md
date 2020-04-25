@@ -3,7 +3,7 @@ title: Atvaļinājumu un prombūtnes parametru konfigurēšana
 description: Definējiet cilvēkresursu parametrus atvaļinājumam un prombūtnei pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009789"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197985"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atvaļinājumu un prombūtnes parametru konfigurēšana
 
@@ -50,18 +50,25 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
 
 7. Atlasiet **Saglabāt**.
 
-## <a name="configure-calendar-parameters"></a>Konfigurējiet kalendāra parametrus
-
-Ja esat iespējojis atvaļinājumu un prombūtnes kalendāra priekšskatījuma funkciju, ir jākonfigurē papildu parametri. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Priekšskatījuma laidienam 2020. gada 3. februārī tiek iespējoti tikai **Gaidoši atvaļinājumu pieprasījumi**.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Skatīt un mainīt atvaļinājumu un prombūtnes parametrus
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības parametri**.
+2. Sadaļā **Iestatīšana**atlasiet **Atvaļinājumu un prombūtnes parametri**.
+
+3. Cilnē **Vispārīgi** iestatiet šādus parametrus:
+ 
+    - Iestatiet **Vienību atvaļinājumam un prombūtni** vai nu stundām, vai dienām. Ja dienas, jūs varat atlasīt **Iespējot pusi dienas definīciju**, lai ļautu darbiniekiem izvēlēties vai nu pirmo, vai otro pusi no dienas , kad tiek veikti prombūtnes pieprasījumi. 
+
+    - Atlasiet **Darba mēnešu spēkā stāšanās datums**, lai iestatītu, kad uzkrāšanas likmes stājas spēkā atvaļinājumu plāniem, izmantojot darba mēnešus.
+
+    - Atlasiet **Bilances aprēķinu**, lai parādītu bilances, kas tiek rādītas no šodienas vai no uzkrāšanas perioda. Ja atlasāt **Bilanci no šodienas**, bilance parāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no šodienas. Ja atlasāt **Bilance no uzkrāšanas perioda**, bilance rāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no uzkrājumu perioda, kas definēts, izmantojot atvaļinājumu plāna biežumu. 
+
+## <a name="configure-calendar-parameters"></a>Konfigurējiet kalendāra parametrus
+
+1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
+
+2. Sadaļā **Iestatīšana**atlasiet **Atvaļinājumu un prombūtnes parametri**.
 
 3. Cilnē **Kalendārs** pēc nepieciešamības mainiet kalendāra iestatījumus.
 

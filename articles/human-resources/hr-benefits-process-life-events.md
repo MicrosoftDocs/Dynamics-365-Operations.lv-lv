@@ -3,7 +3,7 @@ title: Dzīves notikumu apstrāde
 description: Darbinieku dzīves cikla laikā Microsoft Dynamics 365 Human Resources katrs darbinieks var sastapties ar dažādām dzīves notikumu izmaiņām.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91812432ead4b0afccfba30f8023f014e216236a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009818"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229937"
 ---
 # <a name="process-life-events"></a>Dzīves notikumu apstrāde
-
-[!include [banner](includes/preview-feature.md)]
 
 Darbinieku dzīves cikla laikā Microsoft Dynamics 365 Human Resources katrs darbinieks var sastapties ar dažādām dzīves notikumu izmaiņām. Piemēram, laulība, izmaiņas nodarbinātībā vai apgādājamā/saņēmēja maiņa. Lai izmantotu dzīves notikumus, atvieglojumu parametru veidlapā ir jāiespējo dzīves notikumi, jāiestata dzīves notikumu veidi un dzīves notikumu opcijas plānu veidiem.
 
@@ -43,10 +41,10 @@ Piemēram, ja šodien ir 1. februāris un 14. februārī nodarbinātajam Jānim 
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Reģistrācijas periods | Reģistrācijas periods, kuram apstrādāt dzīves notikumus. |
-   | Juridiska persona | Juridiskā persona, kam apstrādāt dzīves notikumus. |
-   | Dzīves notikuma datums | Sistēma apstrādā visus notikumus reģistrācijas periodā, kas notiek līdz šim datumam. |
-   | Nodarbinātais | Nodarbinātais, kuram apstrādāt dzīves notikumus. Ja šo lauku atstāsiet tukšu, dzīves notikumi tiks apstrādāti visiem nodarbinātajiem. |
+   | **Reģistrācijas periods** | Reģistrācijas periods, kuram apstrādāt dzīves notikumus. |
+   | **Juridiska persona** | Juridiskā persona, kam apstrādāt dzīves notikumus. |
+   | **Dzīves notikuma datums** | Sistēma apstrādā visus notikumus reģistrācijas periodā, kas notiek līdz šim datumam. |
+   | **Nodarbinātais** | Nodarbinātais, kuram apstrādāt dzīves notikumus. Ja šo lauku atstāsiet tukšu, dzīves notikumi tiks apstrādāti visiem nodarbinātajiem. |
 
 3. Ja vēlaties izpildīt apstrādi fonā, atlasiet **Izpildīt fonā** un veiciet tālāk minētos uzdevumus.
 

@@ -3,7 +3,7 @@ title: Konfigurēt likmes
 description: Likmes programmā Microsoft Dynamics 365 Human Resources definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f846dcd0a15424ac681dd7e6a229d9da445a54e1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 26b1e0e5f259e012cfb9079eb75898a9337a300d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092411"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229836"
 ---
 # <a name="configure-rates"></a>Konfigurēt likmes
-
-[!include [banner](includes/preview-feature.md)]
 
 Likmes programmā Microsoft Dynamics 365 Human Resources definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā. Vērtība var būt summa vai elastīgie kredīti atkarībā no jūsu konfigurācijas.
 
@@ -43,22 +41,21 @@ Izmantojiet likmes, lai noteiktu, cik daudz darbinieku un darba devēju maksā p
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Norma | Unikāls nosaukums, kas identificē atvieglojuma likmi. |
-   | Apraksts | Atvieglojumu likmes apraksts. |
-   | Ir spēkā | Datums, kad likme ir spēkā. Noklusējuma vērtība ir pašreizējais sistēmas datums. 
-   | Termiņa beigas | Likmes beigu datums. 12/31/2154 (kas apzīmē "nekad") ir noklusētā vērtība. |
-   | Izmantot pakāpes | Līmenis, ko izmantot atvieglojumu likmes aprēķinam. Vienkāršais līmenis viena līmeņa atvieglojuma likmei vai divkāršais līmenis divu līmeņu atvieglojuma likmei. Divkārša līmeņa piemērs ir līmenis, kas balstīts dzimumā un vecumā. |
-   | Maksājumu biežums | Maksājumu biežums, kas nosaka to, cik bieži atvieglojuma prēmijas likme tiek izmaksāta atvieglojuma nodrošinātājam. Piemēram, ja maksājuma biežums ir reizi mēnesī, tad atvieglojumu likme apzīmē ikmēneša maksājuma summu. |
-   | Maksājumu biežuma likmes aprēķins | Metode algas biežuma likmes aprēķinam: standarta vai gada. |
-   | Maksājumu biežuma likmes noapaļošana | Likmes noapaļošanas metode: standarta vai saīsinātā. |
-   | Nesmēķētāja darbinieka summa | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Nesmēķētāja darba devēja summa | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Smēķētāja darbinieka summa | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Smēķētāja darba devēja summa | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Administratīvā summa | Administratīvā summa, ko ietur trešās puses administrators. Šī ir summa, ko darba devējs maksā trešās puses administratoram, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Brīvā režīma kredīta likme | Atvieglojuma izmaksu elastīgo kredītu skaits. Tas attiecas tikai uz likmēm, kas ir paredzētas atvieglojumu plāniem, kas saistīti ar elastīgo kredīta programmām. Ja izmantojat līmeņa likmes, elastīgā kredīta likme tiek definēta opcijās Darbības > Līmeņu likmes. |
-   | Izmaiņu spēkā stāšanās datums | Datums, kad stājas spēkā atvieglojuma izmaiņas. Sistēma automātiski mainīs atvieglojumu likmi un atjauninās visus atvieglojumu plānus, kas saistīti ar šo likmi, kamēr vien palaižat likmes izmaiņu atjaunināšanas apstrādi. Šis datums nav jāiestata, ja vēlaties, lai sistēma automātiski atjauninātu nodarbināto atvieglojumu plānus, pamatojoties uz šo likmi. Tas parasti tiek rezervēts automātiskai turpmākai likmes izmaiņu apstrādei. Izmaiņu spēkā stāšanās datumam jāatbilst atvieglojumu likmes stāšanās spēkā un beigu datumam. |
-   | Likmes izmaiņas pabeigtas | Pēc tam, kad funkcija Likmju maiņas atjaunināšanas apstrāde mainīs atvieglojumu likmi, izvēles rūtiņa Likmes maiņa pabeigta tiks atlasīta automātiski. |
+   | **Norma** | Unikāls nosaukums, kas identificē atvieglojuma likmi. |
+   | **Apraksts** | Atvieglojumu likmes apraksts. |
+   | **Ir spēkā** | Datums, kad likme ir spēkā. Noklusējuma vērtība ir pašreizējais sistēmas datums. 
+   | **Termiņa beigas** | Likmes beigu datums. 12/31/2154 (kas apzīmē "nekad") ir noklusētā vērtība. |
+   | **Izmantot pakāpes** | Līmenis, ko izmantot atvieglojumu likmes aprēķinam. Vienkāršais līmenis viena līmeņa atvieglojuma likmei vai divkāršais līmenis divu līmeņu atvieglojuma likmei. Divkārša līmeņa piemērs ir līmenis, kas balstīts dzimumā un vecumā. |
+   | **Maksājumu biežums** | Maksājumu biežums, kas nosaka to, cik bieži atvieglojuma prēmijas likme tiek izmaksāta atvieglojuma nodrošinātājam. Piemēram, ja maksājuma biežums ir reizi mēnesī, tad atvieglojumu likme apzīmē ikmēneša maksājuma summu. |
+   | **Maksājumu biežuma likmes noapaļošana** | Likmes noapaļošanas metode: standarta vai saīsinātā. |
+   | **Nesmēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Nesmēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Smēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Smēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Administratīvā summa** | Administratīvā summa, ko ietur trešās puses administrators. Šī ir summa, ko darba devējs maksā trešās puses administratoram, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Brīvā režīma kredīta likme** | Atvieglojuma izmaksu elastīgo kredītu skaits. Tas attiecas tikai uz likmēm, kas ir paredzētas atvieglojumu plāniem, kas saistīti ar elastīgo kredīta programmām. Ja izmantojat līmeņa likmes, elastīgā kredīta likme tiek definēta opcijās Darbības > Līmeņu likmes. |
+   | **Izmaiņu spēkā stāšanās datums** | Datums, kad stājas spēkā atvieglojuma izmaiņas. Sistēma automātiski mainīs atvieglojumu likmi un atjauninās visus atvieglojumu plānus, kas saistīti ar šo likmi, kamēr vien palaižat likmes izmaiņu atjaunināšanas apstrādi. Neiestatiet šo datumu, ja vēlaties, lai sistēma automātiski atjauninātu nodarbināto atvieglojumu plānus, pamatojoties uz šo likmi. Tas parasti tiek rezervēts automātiskai turpmākai likmes izmaiņu apstrādei. Izmaiņu spēkā stāšanās datumam jāatbilst atvieglojumu likmes stāšanās spēkā un beigu datumam. |
+   | **Likmes izmaiņas pabeigtas** | Pēc tam, kad funkcija Likmju maiņas atjaunināšanas apstrāde mainīs atvieglojumu likmi, izvēles rūtiņa **Likmes maiņa pabeigta** tiks atlasīta automātiski. |
 
 4. Lai izsekotu un uzturētu izmaiņas atvieglojumu likmes iestatījumā, atlasiet **Darbības** un pēc tam atlasiet **Uzturēt versijas**.
 
@@ -80,19 +77,19 @@ Varat arī izmantot divkāršos līmeņus. Ja atlasāt **Divkāršais līmenis**
 
    | Lauks | Apraksts |
    | --- | --- | 
-   | Apraksts | Apraksta lauka vērtība tiks piemērota no apraksta, kas atrodas likmes iestatīšanas ierakstā. Tas palīdz noteikt, kuram likmes iestatījumam ir piesaistītas līmeņu likmes. |
-   | Pakāpes kods | Atlasiet līmeņa kodu. Līmeņu kodi tiek definēti Līmeņu kodu veidlapā. Sistēma automātiski parādīs līmeņu koda aprakstu režģī pa kreisi. |
-   | Pakāpes veids | Norāda, kurš lauks jālieto kā līmeņa likmes aprēķina procesa atlases kritērijs. Piemēram:</br></br><ul><li>Ja lieto vecumu, sistēma atvieglojumu likmes aprēķina procesā izmantos darbinieka dzimšanas datumu.</li><li>Ja lieto atalgojumu, sistēma atvieglojumu likmes aprēķina procesā izmantos nodarbinātā gada atvieglojuma algu.</li><li>Ja tiek izmantots darba tips, sistēma izmanto darbinieka pašreizējo aktīvās pozīcijas ierakstu, lai noteiktu darba tipu pēc darba ieraksta, kas saistīts ar amatu.</li></ul></br></br>Līmeņa veidi ir vecums, alga, fiziskais, dzimums, pilna laika ekvivalents, darba veids, atlīdzības reģions un līmenis. | 
-   | Līmenis | Vērtība, kas jāizmanto ar līmeņa veidu atvieglojumu likmes aprēķina procesa laikā. Piemēram:</br></br><ul><li>Ja līmeņa tips ir vecums, tā būtu vecuma vērtība.</li><li>Ja līmeņa tips ir atalgojums, tā būtu algas summa.</li><li> Ja līmeņa tips ir darba veids, tas būtu darba veids.</li></ul></br></br>Ar vecuma vai atalgojuma līmeņa veidu sistēma izmanto augošu pieeju līmeņa likmes atlasē, kas nozīmē ka vērtība laukā Līmenis apzīmē līmeņa zemāko robežu. Ar darba veida līmeņa veidu sistēma izmanto precīzas atbilstības pieeju līmeņa likmes atlases laikā. |
-   | Aprēķina tips | Norāda, kā izmantot summu aprēķina summas laukā un kuru matemātisko aprēķinu veikt, ja nepieciešams. Ja aprēķina tips ir fiksēta summa, sistēma izmanto summas laukus, kā tas ir. Ja aprēķina tips ir USD par algu vai nodrošinājumu, sistēma izmanto aprēķina summu un aprēķina virzienu savā matemātiskajā aprēķinā.</br></br>Ja aprēķina tips ir USD par algu, sistēma izmantos šādu matemātisku vienādojumu:</br></br>Ikgadējās atvieglojumu algas, kas dalītas ar aprēķina summu (noapaļota uz augšu vai uz leju), sareizināta ar smēķētāja vai nesmēķētāja summu darbiniekam vai darba devējam.</br></br>Ja aprēķina tips ir USD par nodrošinājuma summu, sistēma izmantos šādu matemātisku vienādojumu:</br></br>Nodrošinājuma summa, kas dalīta ar aprēķina summu (noapaļota uz augšu vai uz leju), sareizināta ar smēķētāja vai nesmēķētāja summu darbiniekam vai darba devējam.</br></br>Abos aprēķinos aprēķina virziens tiek izmantots, lai noteiktu, vai noapaļot gada atvieglojumu algu vai nodrošinājuma summu, kas dalīta ar aprēķina summu uz augšu vai uz leju. |
-   | Aprēķinātā summa | Summa, ko izmantot atvieglojuma likmes aprēķina procesā. Šī summa būs dalītājs līmeņa likmes matemātiskā aprēķina laikā. |
-   | Aprēķina virziens | Virziens (pieaugums vai samazinājums), kurā būtu jānoapaļo rezultāta summa. Sistēma atbalsta trīs aprēķina virzienus: tukšs (precīzā metode), palielināt un samazināt.</br></br><ul><li>Ja lauks ir tukšs, sistēma izmantos precīzu algas/nodrošinājuma summas aprēķinu, kas dalīts ar aprēķina summu. Ja šai vērtībai ir daļskaitlis, sistēma to izmantos aprēķinos.</li><li>Palielināšanas gadījumā sistēma palielinās algas/nodrošinājuma summas matemātisko aprēķinu, kas dalīta ar aprēķina summu, līdz nākošajam veselajam skaitlim, kas nozīmē, ka 12,25 palielinātu līdz 13.</li><li>Samazināšanas gadījumā sistēma samazinās algas/nodrošinājuma summas matemātisko aprēķinu, kas dalīta ar aprēķina summu, līdz pašreizējam veselajam skaitlim, kas nozīmē, ka 12,25 samazinātu līdz 12.</li></ul> |
-   | Nesmēķētāja darbinieka summa | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Nesmēķētāja darba devēja summa | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Smēķētāja darbinieka summa | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Smēķētāja darba devēja summa | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Administratīvā summa | Administratīvā summa, ko ietur trešās puses administrators. Šī ir summa, ko darba devējs maksā trešās puses administratoram, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
-   | Elastīgā kredīta nesmēķētāju likme | Atvieglojuma izmaksu elastīgo kredītu skaits, pamatojoties uz aprēķiniem, kas noteikti nesmēķētāju līmenim. Piemēram, ja aprēķina tips ir "par $ nodrošinājuma summu", aprēķina summa ir 10 000 un elastīgā kredīta nesmēķētāju likme ir 6, tas nozīmē, ka, ja nesmēķētājs darbinieks izvēlas $10 000 nodrošinājumu, tas izmaksās sešus elastīgos kredītus. Ja tiek izvēlēta $20 000, tas izmaksās 12 elastīgos kredītus un tā tālāk. |
-   | Elastīgā kredīta smēķētāju likme | Atvieglojuma izmaksu elastīgo kredītu skaits, pamatojoties uz aprēķiniem, kas noteikti smēķētāju līmenim. |
+   | **Apraksts** | Apraksta lauka vērtība tiks piemērota no apraksta, kas atrodas likmes iestatīšanas ierakstā. Tas palīdz noteikt, kuram likmes iestatījumam ir piesaistītas līmeņu likmes. |
+   | **Pakāpes kods** | Atlasiet līmeņa kodu. Līmeņu kodi tiek definēti Līmeņu kodu veidlapā. Sistēma automātiski parādīs līmeņu koda aprakstu režģī pa kreisi. |
+   | **Pakāpes veids** | Norāda, kurš lauks jālieto kā līmeņa likmes aprēķina procesa atlases kritērijs. Piemēram:</br></br><ul><li>Ja lieto vecumu, sistēma atvieglojumu likmes aprēķina procesā izmantos darbinieka dzimšanas datumu.</li><li>Ja lieto atalgojumu, sistēma atvieglojumu likmes aprēķina procesā izmantos nodarbinātā gada atvieglojuma algu.</li><li>Ja tiek izmantots darba tips, sistēma izmanto darbinieka pašreizējo aktīvās pozīcijas ierakstu, lai noteiktu darba tipu pēc darba ieraksta, kas saistīts ar amatu.</li></ul></br></br>Līmeņa veidi ir vecums, alga, fiziskais, dzimums, pilna laika ekvivalents, darba veids, atlīdzības reģions un līmenis. | 
+   | **Līmenis** | Vērtība, kas jāizmanto ar līmeņa veidu atvieglojumu likmes aprēķina procesa laikā. Piemēram:</br></br><ul><li>Ja līmeņa tips ir vecums, tā būtu vecuma vērtība.</li><li>Ja līmeņa tips ir atalgojums, tā būtu algas summa.</li><li> Ja līmeņa tips ir darba veids, tas būtu darba veids.</li></ul></br></br>Ar vecuma vai atalgojuma līmeņa veidu sistēma izmanto augošu pieeju līmeņa likmes atlasē, kas nozīmē ka vērtība laukā Līmenis apzīmē līmeņa zemāko robežu. Ar darba veida līmeņa veidu sistēma izmanto precīzas atbilstības pieeju līmeņa likmes atlases laikā. |
+   | **Aprēķina tips** | Norāda, kā izmantot summu aprēķina summas laukā un kuru matemātisko aprēķinu veikt, ja nepieciešams. Ja aprēķina tips ir fiksēta summa, sistēma izmanto summas laukus, kā tas ir. Ja aprēķina tips ir USD par algu vai nodrošinājumu, sistēma izmanto aprēķina summu un aprēķina virzienu savā matemātiskajā aprēķinā.</br></br>Ja aprēķina tips ir USD par algu, sistēma izmantos šādu matemātisku vienādojumu:</br></br>Ikgadējās atvieglojumu algas, kas dalītas ar aprēķina summu (noapaļota uz augšu vai uz leju), sareizināta ar smēķētāja vai nesmēķētāja summu darbiniekam vai darba devējam.</br></br>Ja aprēķina tips ir USD par nodrošinājuma summu, sistēma izmantos šādu matemātisku vienādojumu:</br></br>Nodrošinājuma summa, kas dalīta ar aprēķina summu (noapaļota uz augšu vai uz leju), sareizināta ar smēķētāja vai nesmēķētāja summu darbiniekam vai darba devējam.</br></br>Abos aprēķinos aprēķina virziens tiek izmantots, lai noteiktu, vai noapaļot gada atvieglojumu algu vai nodrošinājuma summu, kas dalīta ar aprēķina summu uz augšu vai uz leju. |
+   | **Aprēķinātā summa** | Summa, ko izmantot atvieglojuma likmes aprēķina procesā. Šī summa būs dalītājs līmeņa likmes matemātiskā aprēķina laikā. |
+   | **Aprēķina virziens** | Virziens (pieaugums vai samazinājums), kurā būtu jānoapaļo rezultāta summa. Sistēma atbalsta trīs aprēķina virzienus: tukšs (precīzā metode), palielināt un samazināt.</br></br><ul><li>Ja lauks ir tukšs, sistēma izmantos precīzu algas/nodrošinājuma summas aprēķinu, kas dalīts ar aprēķina summu. Ja šai vērtībai ir daļskaitlis, sistēma to izmantos aprēķinos.</li><li>Palielināšanas gadījumā sistēma palielinās algas/nodrošinājuma summas matemātisko aprēķinu, kas dalīta ar aprēķina summu, līdz nākošajam veselajam skaitlim, kas nozīmē, ka 12,25 palielinātu līdz 13.</li><li>Samazināšanas gadījumā sistēma samazinās algas/nodrošinājuma summas matemātisko aprēķinu, kas dalīta ar aprēķina summu, līdz pašreizējam veselajam skaitlim, kas nozīmē, ka 12,25 samazinātu līdz 12.</li></ul> |
+   | **Nesmēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Nesmēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Smēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Smēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Administratīvā summa** | Administratīvā summa, ko ietur trešās puses administrators. Šī ir summa, ko darba devējs maksā trešās puses administratoram, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
+   | **Elastīgā kredīta nesmēķētāju likme** | Atvieglojuma izmaksu elastīgo kredītu skaits, pamatojoties uz aprēķiniem, kas noteikti nesmēķētāju līmenim. Piemēram, ja aprēķina tips ir **Par $ nodrošinājuma summu**, aprēķina summa ir 10 000 un elastīgā kredīta nesmēķētāju likme ir 6, tas nozīmē, ka, ja nesmēķētājs darbinieks izvēlas $10 000 nodrošinājumu, tas izmaksās sešus elastīgos kredītus. Ja tiek izvēlēta $20 000, tas izmaksās 12 elastīgos kredītus un tā tālāk. |
+   | **Elastīgā kredīta smēķētāju likme** | Atvieglojuma izmaksu elastīgo kredītu skaits, pamatojoties uz aprēķiniem, kas noteikti smēķētāju līmenim. |
 
 5. Atlasiet **Saglabāt**. 

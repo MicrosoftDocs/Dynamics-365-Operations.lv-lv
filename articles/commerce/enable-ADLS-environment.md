@@ -3,7 +3,7 @@ title: ADLS iespējošana Dynamics 365 Commerce vidē
 description: Šajā tēmā paskaidrots, kā iespējot un pārbaudīt Azure Data Lake Storage (ADLS) Dynamics 365 Commerce videi, kas ir priekšnosacījums preču ieteikumu iespējošanai.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154440"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259752"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS iespējošana Dynamics 365 Commerce vidē
 
@@ -48,7 +48,8 @@ Papildinformāciju par ADLS skatiet [ADLS oficiālajos dokumentos](https://azure
   
 ## <a name="configuration-steps"></a>Konfigurācijas darbības
 
-Šajā sadaļā ir izskaidrotas konfigurācijas darbības, kas nepieciešamas ADLS iespējošanai vidē.
+Šajā sadaļā ir aprakstītas konfigurācijas darbības, kas nepieciešamas, lai nodrošinātu ADLS vidē, kas saistīta ar preces ieteikumiem.
+Lai iegūtu padziļinātu pārskatu par darbībām, kas nepieciešamas ADLS iespējošanai, skatiet [Elementu krātuves pārvēršana par Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>ADLS iespējošana vidē
 
@@ -91,6 +92,8 @@ Ja tas vēl nav pabeigts, sekojiet norādījumiem par [preču ieteikumu iespējo
 
 ## <a name="additional-resources"></a>Papildu resursi
 
+[Elementu krātuves pārvēršana par Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Preču ieteikumu apskats](product-recommendations.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Ja tas vēl nav pabeigts, sekojiet norādījumiem par [preču ieteikumu iespējo
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
-
-

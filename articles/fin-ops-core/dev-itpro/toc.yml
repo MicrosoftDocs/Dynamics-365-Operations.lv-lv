@@ -14,7 +14,9 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu mājas lapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform update\_34 (2020.\_gada maijs)"
+                - name: "Platformas atjauninājumi versijai\_10.0.11 (2020.\_gada jūlijs)"
+                  href: get-started/whats-new-platform-update-35.md
+                - name: "Platformas atjauninājumi versijai\_10.0.10 (2020.\_gada maijs)"
                   href: get-started/whats-new-platform-update-34.md
                 - name: "Platform update\_33 (2020.\_gada aprīlis)"
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
                       href: data-entities/configuration-data-packages.md
-                    - name: Elementu krātuves pārvēršana par datu ezeru
-                      href: data-entities/entity-store-data-lake.md
                 - name: Konfigurācijas datu veidnes
                   href: data-entities/configuration-data-templates.md
                 - name: Elementa izmaiņu izsekošana
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: Datu pārvaldības kļūdu apraksti
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Azure Data Lake pārskats
+              href: data-entities/azure-data-lake-overview.md
+            - name: Finance and Operations programmas pakalpojumā Azure Data Lake
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Elementu krātuves pārvēršana par Data Lake
+              href: data-entities/entity-store-data-lake.md
         - name: Datu bāzes pārvietošanas operācijas
           items:
             - name: Pārskats
@@ -482,38 +490,46 @@
               items:
                 - name: Lokālā izvietojuma sākumlapa
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Lokāla izvietojuma pārskats
-                  href: deployment/on-premises-overview.md
-                - name: Plānošana un sagatavošanās lokāliem izvietojumiem
-                  href: deployment/plan-onprem-deployment.md
-                - name: Aparatūras izmēru prasības
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Lokālo projektu iestatīšana
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Sagatavošanās lokāliem izvietojumiem
+                  items:
+                    - name: Lokāla izvietojuma pārskats
+                      href: deployment/on-premises-overview.md
+                    - name: Plānošana un sagatavošanās lokāliem izvietojumiem
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Aparatūras izmēru prasības
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Lokālas vides iestatīšana un izvietošana
                   items:
-                    - name: Lokālas vides iestatīšanas un izvietošanas sākumlapa
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: Lokālas vides izvietošana (Platform update 12 un jaunākas versijas)
+                    - name: Lokālo projektu iestatīšana LCS
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Lokālas vides iestatīšana un izvietošana
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: "Lokālas vides izvietošana (Platform update 8\_un 11)"
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                       href: deployment/deploy-retail-onprem.md
+                    - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Vides uzturēšana
+                  items:
+                    - name: Atjauninājumu lietošana lokālā izvietojumā
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Sertifikāta rotācija
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: Klienta interneta savienojamība
+                      href: user-interface/client-disconnected.md
+                    - name: Starpniekserveru konfigurēšana lokālās vidēs
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Lokālā diagnostika
+                      href: deployment/on-premises-diagnostics.md
+                    - name: PowerBI.com integrācija ar lokālajām vidēm
+                      href: analytics/entity-store-on-prem.md
+                    - name: Vides pārkonfigurēšana
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Lokālo izvietojumu atkārtota izvietošana
+                      href: deployment/redeploy-on-prem.md
+                    - name: AOS mezgla noņemšana un atkārtota instalēšana
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
                       href: deployment/onprem-reuseadfs.md
-                - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: PowerBI.com integrācija ar lokālajām vidēm
-                  href: analytics/entity-store-on-prem.md
-                - name: Starpniekserveru konfigurēšana lokālās vidēs
-                  href: deployment/onprem-reverseproxy.md
-                - name: Atjauninājumu lietošana lokālā izvietojumā
-                  href: deployment/apply-updates-on-premises.md
-                - name: Lokālā diagnostika
-                  href: deployment/on-premises-diagnostics.md
-                - name: Lokālo izvietojumu atkārtota izvietošana
-                  href: deployment/redeploy-on-prem.md
                 - name: Vietējais aģents
                   items:
                     - name: AD FS Office 365 saderība
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Lokālā aģenta atjaunināšana
                       href: lifecycle-services/update-local-agent.md
-                - name: Vides pārkonfigurēšana
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: Klienta interneta savienojamība
-                  href: user-interface/client-disconnected.md
-                - name: Lokālu izvietojumu problēmu novēršana
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Skripti problēmu risināšanai lokālā vidē
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Sertifikāta rotācija
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Problēmu novēršana
+                  items:
+                    - name: Lokālu izvietojumu problēmu novēršana
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Skripti problēmu risināšanai lokālā vidē
+                      href: deployment/onprem-tsg-implementations.md
             - name: Pielāgota koda izvietošana
               items:
                 - name: Izvietojamu modeļu pakotņu izveide
@@ -928,6 +940,8 @@
                       href: extensibility/extensibility-attributes.md
                     - name: Traucējumus radošas izmaiņas
                       href: extensibility/breaking-changes.md
+                    - name: Saderības pārbaudes rīks
+                      href: extensibility/compatibility-checker-tool.md
             - name: Veiktspēja
               items:
                 - name: 'Darbību izsekošana, izmantojot Trace Parser'
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: 'OData metadatu kešatmiņas izveide, kad sāk darbu AOS'
               href: sysadmin/odata-warmup.md
+            - name: Azure Key Vault klienta iestatīšana
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Jauninājumi, atjauninājumi un labojumfaili'
           items:
             - name: 'Jauninājumu, atjauninājumu un labojumfailu resursi'
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: Lokāla izvietojuma atkārtota izvietošana
                   href: deployment/redeploy-on-prem.md
-                - name: "Jaunināšana uz vietas no lokālās versijas\_7.x uz 8.1"
+                - name: Jaunināšanas uz vietas process lokālām vidēm
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Labojumfaili
               items:

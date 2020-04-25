@@ -3,7 +3,7 @@ title: Apjoma izmaiņu apstrāde
 description: Apstrādājiet atvieglojumu likmju izmaiņas Microsoft Dynamics 365 Human Resources, kad jaunam vai esošam atvieglojumu plānam ir izmaiņas piemērotības kārtulas iestatījumos.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ebe5cfc2bdf7790770d27ece2dc67f7677db593
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 850709480326f6a0871f19ea1bb287631cd58b42
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009765"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229948"
 ---
 # <a name="process-rate-changes"></a>Apjoma izmaiņu apstrāde
-
-[!include [banner](includes/preview-feature.md)]
 
 Apstrādājiet atvieglojumu likmju izmaiņas Microsoft Dynamics 365 Human Resources, kad jaunam vai esošam atvieglojumu plānam ir izmaiņas piemērotības kārtulas iestatījumos. Ja plānam tiek izveidota un piešķirta jauna piemērotības kārtula, tas uzvedina sistēmu atkārtoti izpildīt nodarbinātā piemērotību, lai pārbaudītu, vai nodarbinātais tagad ir piemērots plānam, pamatojoties uz jaunajām piemērotības opcijām. 
 
@@ -37,7 +35,7 @@ Apstrādājiet atvieglojumu likmju izmaiņas Microsoft Dynamics 365 Human Resour
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Reģistrācijas periods | Reģistrācijas periods, kuram apstrādāt likmju izmaiņas. |
+   | **Reģistrācijas periods** | Reģistrācijas periods, kuram apstrādāt likmju izmaiņas. |
 
 3. Ja vēlaties izpildīt apstrādi fonā, atlasiet **Izpildīt fonā** un veiciet tālāk minētos uzdevumus.
 

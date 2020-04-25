@@ -1,9 +1,9 @@
 ---
 title: Izveidot ieteikumus ar demo datiem
-description: Šis dokuments sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
+description: Šī tēma sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154253"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175553"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Izveidot ieteikumus ar demo datiem
 
 [!include [banner](includes/banner.md)]
 
-Šis dokuments sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
+Šī tēma sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 
 Daudzkanālu preces ieteikumi sniedz redakcionāli pārraudzītu vai programmiski ģenerētu preču sarakstu kopu. Šos sarakstus var izmantot vairākos scenārijos atkarībā no biznesa vajadzībām. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, skatiet [Preču ieteikumu pārskats](product-recommendations.md).
 
@@ -46,12 +46,13 @@ Katrai Onebox veida videi komplektā ir ietverts iepriekš ielādēts preces iet
 
 Dati ir strukturēti tālāk redzamajās kolonnās.
 
-| Kolonnas nosaukums         | Obligāts          | Apraksts                                                                                                                                 | Iespējamās vērtības                                                              |
+| Kolonnas nosaukums         | Obligāts          | apraksts                                                                                                                                 | Iespējamās vērtības                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | IeteikumuSaraksts            | :heavy_check_mark: | Īpašais preču ieteikumu saraksta veids, kas ir jāģenerē demonstrācijas datu punktam.                                                    | <ul><li>IeteikumiVislabākPārdotais</li><li>IeteikumiJauns</li><li>IeteikumiTendences</li><li>IeteikumiGrozs</li><li>IeteikumiCilvēkiArīPērk</li></ul> |
 | PārvaldībasStruktūrvienībuNumurs | :heavy_check_mark: | Konkrētais pārvaldības struktūrvienības numurs, kurā ir paredzēts uzrasties preču ieteikumiem.                                        |                                                                              |
 | Kategorija            |                    |    Kategorija, kurai jāatgriež konkrētais saraksts. Ja kategorija nav norādīta, saraksts ir paredzēts tikai augšējai navigācijas hierarhijai.    |                                                                              |
 | AtlasesPrecesId          |                    |    Sarakstiem, kam ir nepieciešams sākums (RecoPeopleAlsoBuy un RecoCart), preces, kurām šiem sarakstiem jāparāda papildu preces.            |                                                                              |
+| CustomerId          |                    |    Sarakstiem, kam nepieciešams debitora identifikators (RecoPicks).  Noklusētā vērtība "0" attiecas uz visiem debitoriem.          |                                                                              |
 | PrecesId             | :heavy_check_mark: | Viena vai vairākas preces, kas jāatgriež kā rezultāts, kas atdalīts ar ';'.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Pielāgot demonstrācijas datus

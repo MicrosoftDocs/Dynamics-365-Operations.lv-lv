@@ -3,7 +3,7 @@ title: Multikanālu papildu automātiskās maksas
 description: Šajā tēmā ir aprakstītas iespējas pārvaldīt pasūtījuma papildu maksas Commerce kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekļus.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023350"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175158"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omni kanāla papildu automātiskās maksas
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā konfigurēt un izvietot papildu automātisko maksu līdzekli, kas ir pieejams Dynamics 365 for Retail versijā 10.0.
+Šajā tēmā ir sniegta informācija par to, kā konfigurēt un izvietot papildu automātisko maksu līdzekļus, kas ir pieejams Dynamics 365 for Retail versijā 10.0.
 
 Ja ir iespējoti papildu automātisko maksu līdzekļi, jebkurā atbalstītajā Commerce kanālā (pārdošanas punktā (POS), zvanu centrā un tiešsaistē) izveidotajiem pasūtījumiem var izmantot ERP lietojumprogrammā definētās [automātisko maksu](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigurācijas gan galvas, gan rindas līmeņa saistītajām maksām.
 
@@ -77,13 +77,13 @@ Ir svarīgi atzīmēt, ka iepriekš uzskaitītās POS operācijas var pievienot 
 
 #### <a name="use-case-scenario"></a>Lietošanas gadījuma scenārijs
 
-Mazumtirgotājs vēlas automātiski pievienot transportēšanas maksas, kad jebkurā Commerce kanālā tiek izveidotas transakcijas, kurām ir nepieciešama preču piegāde debitoram. Mazumtirgotājs piedāvā 2 piegādes metodes: pa zemi un pa gaisu. Ja debitors izvēlas piegādi pa zemi un pasūtījuma vērtība ir mazāka nekā 100 USD, mazumtirgotājs vēlas iekasēt no debitora transportēšanas maksu 10,00 USD apmērā. Ja pasūtījuma vērtība ir lielāka nekā 100 USD un debitors izvēlas piegādi pa zemi, debitoram nav jāmaksā nekādas papildu transportēšanas maksas. Ja debitors izvēlas piegādi pa gaisu visiem pasūtījumiem neatkarīgi no to kopējās vērtības, tiek iekasēta transportēšanas maksa 20,00 USD apmērā.
+Mazumtirgotājs vēlas automātiski pievienot transportēšanas maksas, kad jebkurā Commerce kanālā tiek izveidotas transakcijas, kurām ir nepieciešama preču piegāde debitoram. Mazumtirgotājs piedāvā divas piegādes metodes: pa zemi un pa gaisu. Ja debitors izvēlas piegādi pa zemi un pasūtījuma vērtība ir mazāka nekā 100 USD, mazumtirgotājs vēlas iekasēt no debitora transportēšanas maksu 10,00 USD apmērā. Ja pasūtījuma vērtība ir lielāka nekā 100 USD un debitors izvēlas piegādi pa zemi, debitoram nav jāmaksā nekādas papildu transportēšanas maksas. Ja debitors izvēlas piegādi pa gaisu visiem pasūtījumiem neatkarīgi no to kopējās vērtības, tiek iekasēta transportēšanas maksa 20,00 USD apmērā.
 
 #### <a name="setup-and-configuration"></a>Iestatīšana un konfigurēšana
 
 Šī scenārija ietvaros ir jākonfigurē divas automātisko maksu tabulas.
 
-Pārejiet uz sadaļu **Kreditori \> Maksu iestatīšana \> Automātiskās maksas**.
+Pārejiet uz sadaļu **Kreditori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 
 Konfigurējiet divas dažādas galvas līmeņa automātiskās maksas. Konfigurēt vienu maksu piegādes pa zemi režīmam un vienu maksu piegādes pa gaisu režīmam. Šī scenārija ietvaros konfigurējiet tās lietošanai visiem debitoriem.
 
@@ -115,7 +115,7 @@ Mazumtirgotājs vēlas no debitora iekasēt papildu maksu par iestatīšanu gad�
 
 Šī scenārija ietvaros ir jākonfigurē viena rindas līmeņa automātisko maksu tabula.
 
-Pārejiet uz sadaļu **Kreditori \> Maksu iestatīšana \> Automātiskās maksas**.
+Pārejiet uz sadaļu **Kreditori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 
 Nolaižamajā izvēlnē **Līmenis** iestatiet vērtību **Rinda** un izveidojiet jaunu automātisko maksājumu ierakstu visiem debitoriem un konkrētajai precei vai preču grupai, par kuru tiks iekasēta iestatīšanas maksa.
 
@@ -157,7 +157,7 @@ Lai izpildītu scenāriju POS lietojumprogramma, POS lietotājs izveido pārdo
 
 #### <a name="use-case-scenario"></a>Lietošanas gadījuma scenārijs
 
-Debitors ir pieprasījis, lai 2 no 5 pārdošanas pasūtījumā ietvertajiem krājumiem tiktu iesaiņoti kā dāvanas. Mazumtirgotājs piedāvā šo papildu pakalpojumu, iekasējot maksu 2,00 USD apmērā par katru krājumu. Pasūtījuma pieņēmējam ir jāpievieno šīs maksas konkrētajiem krājumiem, kas ir jāiesaiņo kā dāvanas.
+Debitors ir pieprasījis, lai divi no pieciem pārdošanas pasūtījumā ietvertajiem krājumiem tiktu iesaiņoti kā dāvanas. Mazumtirgotājs piedāvā šo papildu pakalpojumu, iekasējot maksu 2,00 USD apmērā par katru krājumu. Pasūtījuma pieņēmējam ir jāpievieno šīs maksas konkrētajiem krājumiem, kas ir jāiesaiņo kā dāvanas.
 
 #### <a name="setup-and-configuration"></a>Iestatīšana un konfigurēšana
 
@@ -215,3 +215,10 @@ Dažas organizācijas var izvēlēties pirms maksu parēķināšanas uzgaidīt, 
 ### <a name="charges-override-reports"></a>Maksu ignorēšanas pārskati
 
 Ja lietotāji manuāli ignorē aprēķinātās maksas vai pievieno transakcijai manuālas maksas, šie dati būs pieejami auditēšanai pārskatā **Maksu ignorēšanas vēsture**. Pārskats ir pieejams sadaļā **Retail un Commerce \> Pieprasījumi un pārskati \> Maksu pārlabošanas vēsture**. Ir svarīgi atzīmēt, ka šim pārskatam nepieciešamie dati tiek importēti no kanāla datu bāzes uz HQ, izmantojot "P" sadales grafika darbus. Tāpēc informācija par POS veiktajām ignorēšanas darbībām tūlītēji var nebūt pieejama šajā pārskatā, bet tikai tad, kad ar šo darbu HQ ir augšupielādēti saglabātie darbību dati.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Automātisko maksu iespējošana un konfigurēšana katram kanālam](auto-charges-by-channel.md)
+
+[Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
+

@@ -1,9 +1,9 @@
 ---
-title: Pārdošanas punkta (POS) ekrāna izkārtojumi
+title: POS lietotāja interfeisa vizuālās konfigurācijas
 description: Šajā tēmā ir sniegta informācija par Dynamics 365 Commerce pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023337"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261471"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) ekrāna izkārtojumi
+# <a name="pos-user-interface-visual-configurations"></a>POS lietotāja interfeisa vizuālās konfigurācijas
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā ir sniegta informācija par Dynamics 365 Commerce pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
-
-POS lietotāja interfeisu (User Interface — UI) var konfigurēt, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un/vai lietotājiem.
+Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) lietotāja interfeiss (UI) var tikt konfigurēts, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un lietotājiem. Šajā tēmā ir norādīta informācija par šo konfigurāciju opcijām.
 
 Šajā attēlā ir parādīta arī saistības starp dažādām entītijām, kas veido konfigurējamus POS UI aspektus.
 
@@ -40,7 +39,7 @@ POS lietotāja interfeisu (User Interface — UI) var konfigurēt, izmantojot g
 
 ## <a name="visual-profile"></a>Vizuālais profils
 
-Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norādītu vizuālos elementus, kas ir raksturīgas konkrētai kases sistēmai un tiek lietoti visiem lietotājiem. Jebkuram lietotājam, kurš piesakās kases sistēmā, tiek rādīts viens un tas pats dizains, krāsas un attēli.
+Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norādītu vizuālos elementus, kas ir raksturīgas konkrētai kases sistēmai un tiek lietoti visiem lietotājiem. Jebkuram lietotājam, kurš piesakās kases sistēmā, tiek rādīts viens un tas pats dizains, izkārtojums, krāsas un attēli.
 
 ![POS sveiciena ekrāns ar dizainu Gaišs](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norā
 
 - **Profila numurs** — profila numurs ir unikāls vizuālā profila identifikators.
 - **Apraksts** — varat norādīt jēgpilnu nosaukumu, kas palīdzēs noteikt konkrētajai situācijai piemērotāko profilu.
-- **Dizains** — varat atlasīt dizainu Gaišs vai Tumšs. Dizains ietekmē fontu un fona krāsas visā programmā.
+- **Dizains** — varat atlasīt programmas dizainu **Gaišs** vai **Tumšs**. Dizains ietekmē fontu un fona krāsas visā programmā.
 - **Izcēluma krāsa** — izcēluma krāsa tiek izmantota visā POS interfeisā, lai izceltu vai iezīmētu noteiktus vizuālos elementus, piemēram elementus, komandpogas vai hipersaites. Parasti šos elementus var izmantot, lai veiktu kādu darbību.
-- **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām. Šis līdzeklis ir pieejams tikai Retail versijā 1611.
-- **Rādīt datumu/laiku** — ja šī opcija ir iespējota, POS galvenē tiek rādīts pašreizējais datums un laiks.
-- **Pieteikšanās foni** — varat norādīt pierakstīšanās ekrāna fona attēlu. Fona attēla faila lielumam ir jābūt pēc iespējas mazākam, jo lielu failu uzglabāšana un ielāde var ietekmēt lietojumprogrammas darbību un veiktspēju.
-- **Lietojumprogrammas fons** — varat norādīt fona attēlu, kas visā programmā jāizmanto tīrtoņa fona krāsas vietā. Pieteikšanās ekrāna fona faila lielumam jābūt pēc iespējas mazākam.
+- **Virsraksta krāsa** — varat konfigurēt lapas virsraksta krāsu atbilstoši mazumtirgotāja zīmola prasībām.
+- **Fontu shēma** — varat izvēlēties starp **Standarta** un **Lielām** fontu shēmām. Fontu shēma ietekmē fonta lielumu visā lietojumprogrammā. Noklusējuma atlase ir **Standarts**.
+- **Vienmēr rādīt programmu joslas etiķetes** — ja šī opcija ir ieslēgta, etiķetes teksts vienmēr ir redzams zem programmas joslas pogām.
+- **Izkārtojums** — jūs varat izvēlēties starp **Centrētu** un **Labo** izkārtojumu. Izkārtojumā tiek ietekmēta pierakstīšanās lodziņa līdzinājums pierakstīšanās ekrānā. Noklusējuma atlase ir **Centrēts**.
+- **Rādīt datumu/laiku** — ja šī opcija ir ieslēgta, pašreizējais datums un laiks tiek rādīti POS galvenē un pierakstīšanās ekrānā.
+- **Tastatūra** — lai norādītu noklusējuma tastatūru, kas tiek lietota ievadei pierakstīšanās ekrānā, varat izvēlēties starp **Noklusējumu uz OS tastatūru** un **Parādīt ciparu bloku**. Ciparu bloks ir virtuāla tastatūra, ko galvenokārt izmanto skārienvadībai paredzētām ierīcēm. Noklusējuma izvēle ir **Noklusējums uz OS tastatūru**.
+- **Logotipa attēls** — jūs varat norādīt logotipa attēlu, kas ir redzams pierakstīšanās ekrānā. Ieteicams izmantot attēlu, kam ir caurspīdīgs fons. Faila lielumam ir jābūt pēc iespējas mazākam, jo programmu uzvedība un veiktspēja var tikt ietekmēta, kad lieli faili tiek uzglabāti un ielādēti.
+- **Pieteikšanās fons** — jūs varat norādīt pierakstīšanās ekrāna fona attēlu. Fona attēlu failu izmēram vajadzētu būt pēc iespējas mazākam.
+- **Fons** — jūs varat norādīt fona attēlu, kas visā programmā jāizmanto tīrtoņa fona krāsas vietā. Kā pierakstīšanās ekrāna fona attēlu faila lielumu vajadzētu saglabāt pēc iespējas mazāku.
+
+> [!NOTE]
+> **Pareizais** izkārtojums un datuma/laika rādīšana netiek attiecināta uz pierakstīšanās ekrānu kompaktajā skatā.
 
 ## <a name="screen-layouts"></a>Ekrāna izkārtojumi
 
-Izmantojot ekrāna izkārtojuma konfigurācijas, tiek noteiktas darbības, saturs un UI vadīklu novietojums POS sveiciena ekrānā un ekrānā **Transakcija**.
+Izmantojot ekrāna izkārtojuma konfigurācijas, tiek noteiktas darbības, saturs un UI vadīklu novietojums POS ekrānos **Sveiciens** un **Transakcija**.
 
 ![POS ekrāna izkārtojuma skats](../commerce/media/POS-Screen-Layout-View.png)
 
