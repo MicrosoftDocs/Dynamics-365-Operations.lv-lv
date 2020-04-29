@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: "Platform update\_32 (2020.\_gada februāris)"
                   href: get-started/whats-new-platform-update-32.md
-                - name: "Platform update\_31 (2020.\_gada janvāris)"
-                  href: get-started/whats-new-platform-update-31.md
-                - name: "Platform update\_30 (2019.\_gada novembris)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: "Platform update\_29 (2019.\_gada oktobris)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: "Platform update\_28 (2019.\_gada jūlijs)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: "Platform update\_27 (2019.\_gada jūnijs)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: "Platform update\_26 (2019.\_gada maijs)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: "Platform update\_25 (2019.\_gada aprīlis)"
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: "Platform update\_24 (2019.\_gada marts)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: "Platform update\_23 (2019.\_gada janvāris)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: "Platform update\_22 (2018.\_gada decembris)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: "Platform update\_21 (2018.\_gada novembris)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: "Platform update\_20 (2018.\_gada septembris)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: "Platform update\_15 (2018.\_gada marts)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie Platform līdzekļi
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: 'Trešo pušu modeļu un izpildlaika pakotņu pārvaldība, izmantojot avota kontroli'
               href: dev-tools/manage-runtime-packages.md
+            - name: Universālas izvietojamās pakotnes
+              href: dev-tools/aio-deployable-packages.md
             - name: Modeļa versiju atjaunināšana automatizētā būvējumā
               href: dev-tools/version-models-build.md
         - name: Datu integrācija
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Lokālo izvietojumu atkārtota izvietošana
                       href: deployment/redeploy-on-prem.md
-                    - name: AOS mezgla noņemšana un atkārtota instalēšana
+                    - name: 'AOS mezgla noņemšana, atkārtota instalēšana vai pievienošana'
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
                       href: deployment/onprem-reuseadfs.md
