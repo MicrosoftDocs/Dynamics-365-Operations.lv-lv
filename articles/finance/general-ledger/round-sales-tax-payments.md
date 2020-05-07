@@ -3,7 +3,7 @@ title: PVN maksājumi un noapaļošanas kārtulas
 description: Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771756"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275678"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVN maksājumi un noapaļošanas kārtulas
 
@@ -43,26 +43,26 @@ Kopējā PVN summa par periodu atbilst kredīta bilancei –98 765,43. Juridisk�
 
 Juridiskā persona vēlas izmantot noapaļošanas metodi, kas noapaļo bilanci līdz tuvākajam veselam skaitlim (1,00). Lietotājs, kurš ir atbildīgs par PVN uzskaiti, veic tālāk norādītās darbības.
 
-1.  Noklikšķiniet uz Nodokļi &gt; Netiešie nodokļi &gt; PVN &gt; Nodokļu iestādes.
-2.  Kopsavilkuma cilnes Vispārīgi laukā Noapaļošanas veids atlasiet opciju Parastais.
-3.  Laukā Noapaļošana ievadiet vērtību 1,00.
-4.  Kad ir pienācis laiks maksāt PVN nodokļu iestādei, atveriet lapu Nosegt un grāmatot PVN. (Noklikšķiniet uz Nodokļi &gt; Deklarācijas &gt; PVN &gt; Nosegt un grāmatot PVN.)
-5.  PVN apmaksas kontā nodokļu parāda suma 98 765,43 tiek noapaļota līdz 98 765.
+1. Noklikšķiniet uz  **Nodokļi** > **Netiešie nodokļi** > **PVN** > **Nodokļu iestādes**.
+2. Kopsavilkuma cilnes **Vispārīgi** laukā **Noapaļošanas veids** atlasiet opciju **Parastais**.
+3. Laukā **Noapaļošana** ievadiet vērtību 1,00.
+4. Kad ir pienācis laiks maksāt PVN nodokļu iestādei, dodieties uz **Nodokļi** > **Deklarācijas** > **PVN** > **Nosegt un grāmatot PVN**. PVN apmaksas kontā jūs redzēsiet nodokļu parāda summa **98 765,43** tiek noapaļota līdz **98 765**.
 
-Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, izmantojot katru noapaļošanas metodi, kas ir pieejama lapas Nodokļu iestādes laukā Noapaļošanas veids.
+Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, izmantojot katru noapaļošanas metodi, kas ir pieejama lapas **Nodokļu iestādes** laukā **Noapaļošanas veids**.
 
-| Noapaļošanas veida opcija                | Noapaļošanas vērtība = 0,01 | Noapaļošanas vērtība = 0,10 | Noapaļošanas vērtība = 1,00 | Noapaļošanas vērtība = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Parastais                              | 98 765,43              | 98 765,40              | 98 765,00              | 98 800,00                |
-| Uz zemāku                            | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Noapaļošana                         | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
-| Pašu priekšrocība kredīta bilancei | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Pašu priekšrocība debeta bilancei  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Ja noapaļošanas vērtība ir iestatīta kā 0,00, tad:
+>
+> - Normālai noapaļošanai uzvedība ir tāda pati kā **Noapaļošana = 0,01**.
+> - Opcijām **Noapaļošanas veida opcijas**, **Uz zemāku**, **Noapaļošana**un **Pašu priekšrocība** uzvedība ir tāda pati kā **Noapaļošana = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Noapaļošana netiek veikta, jo noapaļošanai ir 0,00
-
-noapaļošana (1,0151, 0,00) = 1,0151 noapaļošana (1,0149, 0,0) = 1,0149
+| Noapaļošanas veida opcija                | Noapaļošanas vērtība = 0,01 | Noapaļošanas vērtība = 0,10 | Noapaļošanas vērtība = 1,00 | Noapaļošanas vērtība = 100,00 | Noapaļošanas vērtība = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Parasta                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Uz zemāku                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Noapaļošana                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Pašu priekšrocība kredīta bilancei | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Pašu priekšrocība debeta bilancei  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Normāla noapaļošana, un noapaļošanas precizitāte ir 0,01
 

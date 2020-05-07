@@ -3,7 +3,7 @@ title: Autortiesību paziņojuma pievienošana
 description: Šajā tēmā ir aprakstīts, kā pievienot autortiesību paziņojumu jūsu E-komercijas vietnei.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025486"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269594"
 ---
 # <a name="add-a-copyright-notice"></a>Autortiesību paziņojuma pievienošana
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Lai pievienotu autortiesību paziņojumu katras lapas apakšdaļā, kurā tiek i
 1. Dialoglodziņā atlasiet **Teksta bloks** un pēc tam atlasiet **Labi**.
 1. Navigācijas rūtī atlasiet **Teksta bloks**.
 1. Rekvizītu rūts labajā pusē laukā **Rindkopa** pievienojiet savu autortiesību ziņojumu. Piemēram, ievadiet **(C) Fabrikam 2019**.
-1. Atlasiet **Saglabāt**, atlasiet **Pārbaudīt** un pēc tam atlasiet **Publicēt**.
-1. Dodieties uz **Veidnes**, atlasiet veidni un pēc tam atlasiet **Norēķināties**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**.
+1. Dodieties uz **Veidnes**, atlasiet veidni un pēc tam atlasiet **Rediģēt**.
 1. Sadaļā **Lapas strukturējums** izvērsiet **Pamatteksts** un pēc tam izvērsiet **Noklusējuma lapa**.
 1. Atlasiet daudzpunktes pogu blakus **Kājenes slots** un pēc tam atlasiet **Pievienot fragmentu**.
 1. Atlasiet iepriekš izveidoto fragmentu un pēc tam izvēlieties **Atlasīt**.
-1. Pārbaudiet veidni un publicējiet to.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 Kājene, kas satur autortiesību paziņojumu, automātiski tiek parādīta visu to lapu apakšā, kuras izmanto atlasīto veidni.
 

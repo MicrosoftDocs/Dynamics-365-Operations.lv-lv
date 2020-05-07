@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224913"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268820"
 ---
 # <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
 
@@ -43,7 +43,11 @@ Kvalitātes pārvaldība ir elastīga, un to var ieviest dažādos veidos, lai a
 
 -   Automātiski uzsākt kvalitātes kontroles procesu, pamatojoties uz iepriekš definētiem kritērijiem (noliktavā reģistrējot kādu pirkšanas pasūtījumu no specifiska kreditora).
 -   Bloķēt krājumus pārbaudes laikā, lai nepieļautu, ka tiek lietoti neapstiprināti krājumi (pirkšanas pasūtījuma daudzumu pilnīga bloķēšana).
--   Kā daļu no kvalitātes saistības lietot krājuma iztveršanu, lai definētu pašreizējo fizisko krājumu daudzumu, kas ir jāpārbauda. Iztveršana var būt balstīta uz fiksētiem daudzumiem vai procentiem.
+-   Kā daļu no kvalitātes saistības lietot krājuma iztveršanu, lai definētu pašreizējo fizisko krājumu daudzumu, kas ir jāpārbauda. Paraugu nodošana var būt balstīta uz fiksētiem daudzumiem, procentiem vai pilnu numura zīmi.
+
+> [!NOTE]
+> _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis paplašina kvalitātes pārvaldības iespējas. Ja lietojat šo līdzekli, skatiet sadaļu [Noliktavas procesu kvalitātes pārvaldība](quality-management-for-warehouses-processes.md)kā piemēu, kā kvalitātes pārvaldība darbojas, kad tā ir iespējota.
+
 -   Izveidot kvalitātes pārbaudes pasūtījumus daļējām ieejas plūsmām. Lai izveidotu kvalitātes pārbaudes pasūtījumu, kura pamatā ir daudzums, kas ir fiziski saņemts ar pasūtījumu, formā **Krājumu iztveršana** ir jāatzīmē izvēles rūtiņa **Pēc atjauninātā daudzuma**.
 -   Izveidot testa tipus, kas ietver minimālās, maksimālās un mērķa testa vērtības, un veikt testēšanu kvalitātei pret kvantitāti, kur ir iepriekš definēti validēšanas rezultāti.
 -   Norādīt pieņemamu kvalitātes līmeni (Acceptable Quality Level — AQL), lai kontrolētu kvalitātes mērījumu tolerances.
@@ -428,6 +432,9 @@ Ražošanā, ja iestatāt lauku **Notikuma veids** uz **Norādīts kā pabeigts*
 </tbody>
 </table>
 
+> [!NOTE]
+> *Noliktavas procesu kvalitātes pārvaldības* līdzeklis pievieno iespējas kvalitātes pārbaudes pasūtījumu apstrādei ražošanai ar **Notikuma veidu**, kas iestatīts uz *Ziņot, kad pabeigts* un **Izpilde** iestatīts uz *Pēc*, un pirkšanai ar **Notikuma veidu**, kas iestatīts uz *Reģistrāciju*. Detalizētu informāciju skatiet [Noliktavas procesu kvalitātes pārvaldība](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Kvalitātes pārvaldības lapas
 <table>
 <colgroup>
@@ -438,7 +445,7 @@ Ražošanā, ja iestatāt lauku **Notikuma veids** uz **Norādīts kā pabeigts*
 <thead>
 <tr class="header">
 <th>Lapa</th>
-<th>Apraksts</th>
+<th>apraksts</th>
 <th>Paraugs</th>
 </tr>
 </thead>
@@ -495,3 +502,5 @@ Ir jādefinē kvalitātes piesaiste katrai biznesa procesā ietvertajai variāci
 [Kvalitātes pārvaldības procesi](quality-management-processes.md)
 
 [Neatbilstības pārvaldība](enable-nonconformance-management.md)
+
+[Kvalitātes pārvaldība noliktavas procesiem](quality-management-for-warehouses-processes.md)

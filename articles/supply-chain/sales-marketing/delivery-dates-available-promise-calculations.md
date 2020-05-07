@@ -1,9 +1,9 @@
 ---
 title: Pasūtījumu solīšana
-description: Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
+description: Šī tēma sniedz informāciju par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210062"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270031"
 ---
 # <a name="order-promising"></a>Pasūtījumu solīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
+Šī tēma sniedz informāciju par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
 
 Pasūtījumu solīšana aprēķina agrākos nosūtīšanas un saņemšanas datumus, un tā ir balstīta uz piegādes datuma kontroles metodi un transportēšanas dienām. Varat izvēlēties no četrām piegādes datuma kontroles metodēm:
 
@@ -47,13 +47,15 @@ ATP tiek aprēķināts, izmantojot šādu formulu:
 
 ATP = ATP iepriekšējam periodam + Ieejas plūsmas pašreizējam periodam - Izejas plūsmas pašreizējam periodam - Neto izejas plūsmu daudzums katram turpmākajam periodam, līdz periodam, kad ieejas plūsmu summa visiem turpmākajiem periodiem, līdz nākotnes periodam un ietverot nākotnes periodu, pārsniedz izejas plūsmu summu līdz nākotnes periodam un ietverot nākotnes periodu.  
 
+Ievērojiet, ka ATP aprēķinā nav ietverta informācija par termiņa beigu datumu, un pēc ATP laika perioda, ko sistēma sagaida, kad var tikt solīts jebkurš daudzums.
+
 Kad vairāk nav izdošanu un saņemšanu apsvēršanai, ATP daudzums sekojošajiem datumiem ir tāds pats, kā pēdējais aprēķinātais ATP daudzums.  
 
 Ja nav norādītas visas dimensijas, kas tiek izmantotas krājumam, kad tiek pabeigta ATP pārbaude, tās joprojām var norādīt izejas plūsmā un ieejas plūsmā. Šajā gadījumā ATP aprēķinā ieejas un izejas plūsmas ir jāapkopo esošajām dimensijām, lai samazinātu ieejas un izejas plūsmu rindu skaitu, kas izmantots ATP aprēķinā.  
 
-ATP daudzums, kas tiek rādīts, vienmēr ir lielāks par vai vienāds ar 0 (nulle). Ja aprēķins atgriež negatīvu ATP daudzumu (piemēram, ja iepriekš apsolītais daudzums pārsniedz pieejamo daudzumu), programma daudzumu automātiski iestata uz **0**.
+ATP daudzums, kas tiek rādīts, vienmēr ir lielāks par vai vienāds ar 0 (nulle). Ja aprēķins atgriež negatīvu ATP daudzumu (piemēram, ja iepriekš apsolītais daudzums pārsniedz pieejamo daudzumu), daudzums tiek automātiski iestatīts uz 0.
 
-### <a name="example"></a>Piemērs
+### <a name="example"></a>Paraugs
 
 Lauks **ATP atpakaļejošā pieprasījuma laika periods** kontrolē, cik tālu iepriekš jāmeklē aizkavēti pieprasījuma pasūtījumi vai krājumu izejas plūsmas. Lauks **ATP atpakaļejošā piedāvājuma laika periods** kontrolē, cik tālu iepriekš jāmeklē aizkavēti piedāvājuma pasūtījumi vai krājumu ieejas plūsmas. Piemēram, ja pasūtījumi, kas aizkavējušies tikai par septiņām dienām, ir jāņem vērā ATP aprēķinā, tad abi lauki ir jāiestata uz **7**.  
 

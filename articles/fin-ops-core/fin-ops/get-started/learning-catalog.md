@@ -3,20 +3,20 @@ title: Apmācību katalogs Finance and Operations
 description: Atrast visas apmācības opcijas Finance and Operations.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077997"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279037"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Apmācību katalogs Finance and Operations
 
@@ -33,6 +33,10 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
     Vai jūs izlemjat, vai ieguldīt jaunās tehnoloģijās? 
 
     [Biznesa un tehnisko lēmumu pieņēmēju apmācības katalogs](learning-catalog-bdm.md#)
+
+    [Sākt darbu](learning-catalog-bdm.md#get-started)
+
+    [Eksāmens](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
 
     [Finanšu pārvaldība](learning-catalog-business-user.md#financial-management)
 
+    [Eksāmens](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Ieviešanas projektu vadītāji
+    ### <a name="implementation-project-managers"></a>Ieviešanas projektu vadītāji
 
     Vai atbildat par to, ka jūsu uzņēmuma ieviešana norit raiti?
 
@@ -73,6 +79,9 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
     [Ražošana](learning-catalog-project-manager.md#manufacturing)
 
     [Piegādes ķēdes pārvaldība](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Eksāmeni](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -86,11 +95,15 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
 
     [Zināšanas par galveno platformu](learning-catalog-administrator.md#core-platform-knowledge)
 
+    [Galvenā izstrāde](learning-catalog-administrator.md#core-development)
+
     [Migrācija un jaunināšana](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Apkalpošana](learning-catalog-administrator.md#servicing)
 
     [Notiek testēšana](learning-catalog-administrator.md#testing)
+
+    [Eksāmens](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
 
     [Piegādes ķēdes pārvaldība](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Eksāmeni](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
     Vai esat atbildīgs par to, lai palīdzētu jūsu klientiem iegādāties pareizo risinājumu? 
 
     [Microsoft partneru pārdošanas un mārketinga apmācības katalogs](learning-catalog-partner-sales.md)
+
+    [Sākt darbu](learning-catalog-partner-sales.md#get-started)
+
+    [Eksāmens](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

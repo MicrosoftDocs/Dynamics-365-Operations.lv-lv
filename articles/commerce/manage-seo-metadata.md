@@ -3,7 +3,7 @@ title: SEO metadatu pārvaldība
 description: Šajā tēmā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (SEO) metadatus Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003468"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270054"
 ---
 # <a name="manage-seo-metadata"></a>SEO metadatu pārvaldība
 
@@ -72,13 +72,10 @@ Lai modificētu lapas metadatus, veiciet tālāk minētās darbības.
 1. Sadaļā **Vietnes** atlasiet **Fabrikam** (vai savas vietnes nosaukumu).
 1. Navigācijas rūtī kreisajā pusē atlasiet **Lapas**.
 1. Atlasiet sākumlapu, lai to atvērtu to lapas redaktorā.
-1. Darbību rūtī atlasiet **Izrakstīt**.
+1. Komandjoslā atlasiet **Rediģēt**.
 1. Rekvizītu rūts labajā pusē izvērsiet **Noklusējuma metaetiķetes**.
-1. Lai pievienotu jaunu metaetiķeti, atlasiet **Pievienot** un pēc tam laukā ievadiet etiķeti.
-
-    Lai noņemtu esošu metaetiķeti, atlasiet miskastes simbolu pa labi no tās.
-
-1. Atlasiet **Saglabāt** un pēc tam **Pārbaudīt**.
+1. Lai pievienotu jaunu metaetiķeti, atlasiet **Pievienot** un pēc tam laukā ievadiet etiķeti. Lai noņemtu esošu metaetiķeti, atlasiet miskastes simbolu pa labi no tās.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Laukā **Komentāri** ievadiet **Atjauninātas metaetiķetes** un pēc tam atlasiet **Labi**,
 1. Atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Kad esat pabeidzis, aizveriet priekšskatījuma cilni, lai atgrieztos autorēšanas rīkā.
 1. Atlasiet **Publicēt**.

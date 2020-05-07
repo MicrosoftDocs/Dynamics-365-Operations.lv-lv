@@ -3,7 +3,7 @@ title: Pieejamības līdzekļi un iespējas
 description: Šajā tēmā ir sniegta informācija par pieejamības funkcijām un iespējām pakalpojumā Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001764"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274192"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Pieejamības līdzekļi un iespējas
 
@@ -49,7 +49,7 @@ Dynamics 365 Commerce digitālo līdzekļu pārvaldības sistēma atbalsta vair�
 
 | Video funkcija               | Apraksts |
 |-----------------------------|-------------|
-| Slēgta parakstīšana (CC)      | Teksts, ko var parādīt videoklipa audio un audio aprakstošiem elementiem, lai palīdzētu lietotājiem ar dzirdes traucējumiem |
+| Slēgta parakstīšana (CC)      | Teksts, ko var parādīt videoklipa audio un audio aprakstošiem elementiem, lai palīdzētu lietotājiem, kuri ir nedzirdīgi vai vājdzirdīgi |
 | Titri                   | Parakstiet failus, kas parāda konteksta norāžu tekstu vai dialogu ekrānā |
 | Audio atšifrējumi           | Runāto vārdu tekstuālais atšifrējums, kas tiek ģenerēts no videoklipa līdzekļa audio |
 | Aprakstošais audio           | Sekundārais audio kanāls, kas apraksta saturu vai kontekstu, kas norisinās ekrānā |
@@ -57,7 +57,7 @@ Dynamics 365 Commerce digitālo līdzekļu pārvaldības sistēma atbalsta vair�
 
 ### <a name="configure-video-accessibility-elements"></a>Video pieejamības elementu konfigurēšana
 
-Dynamics 365 Commerce jūsu vietnes sadaļā **Līdzekļi** varat augšupielādēt video līdzekļus, kuriem ir atsevišķi faili slēgtiem parakstiem, parastiem audio un aprakstošiem audio. Slēgtie paraksti var arī tikt ģenerēti automātiski, augšupielādējot video līdzekli.
+Risinājumā Commerce jūsu vietnes **Multivides bibliotēka** sadaļā varat augšupielādēt video līdzekļus, kuriem ir atsevišķi faili slēgtiem parakstiem, parastiem audio un aprakstošiem audio. Slēgtie paraksti var arī tikt ģenerēti automātiski, augšupielādējot video līdzekli.
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>Video līdzekļa augšupielādes laikā ģenerējiet vai augšupielādējiet parakstus
 
@@ -72,7 +72,7 @@ Lai manuāli augšupielādētu slēgto parakstu failu, kad augšupielādējat vi
 Lai videoklipam augšupielādētu parastus audio vai aprakstošus audio failus, izmantojiet failu atlasītāju dialoglodziņā **Līdzekļa augšupielāde**.
 
 > [!NOTE]
-> Pēc videoklipa līdzekļa augšupielādes var pievienot arī slēgto parakstu, parastus audio un aprakstošus audio līdzekļus. Pārejiet uz sadaļu **Līdzekļi**, atlasiet videoklipa līdzekli un pārbaudiet to, pēc tam video līdzekļa rekvizītu rūtī augšupielādējiet papildu līdzekļus.
+> Pēc videoklipa līdzekļa augšupielādes var pievienot arī slēgto parakstu, parastus audio un aprakstošus audio līdzekļus. Pārejiet uz sadaļu **Multivides bibliotēka**, atlasiet videoklipa līdzekli un **Rediģēt**, lai to pārbaudītu. Pēc tam video līdzekļa rekvizītu rūtī augšupielādējiet papildu līdzekļus.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Rediģēt CC un audio atšifrējuma failus
 
@@ -80,10 +80,10 @@ CC un audio atšifrējuma failus var rediģēt tieši autorēšanas rīkā. Vide
 
 Lai rediģētu CC un audio atšifrējuma failus, rīkojieties, kā norādīts tālāk.
 
-1. Pārejiet uz sadaļu **Līdzekļi**, atlasiet video līdzekli un pēc tam atlasiet **Rediģēt CC/atšifrējumu**. Tiek parādīts slēgto parakstu un atšifrējuma satura redaktors.
-1. Atlasiet **Izrakstīt**.
+1. Dodieties uz **Multivides bibliotēku** un atlasiet video līdzekļa faila nosaukumu. Tiek parādīts slēgto parakstu un atšifrējuma satura redaktors.
+1. Atlasiet **Rediģēt**.
 1. Rediģējiet slēgto parakstu vai atšifrējuma tekstu.
-1. Kad esat pabeidzis, atlasiet **Saglabāt** un pēc tam atlasiet **Atdot**.
+1. Kad esat pabeidzis, atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Kad esat gatavs publicēt, atlasiet **Publicēt**.
 
 #### <a name="set-the-minimum-age-attribute"></a>Iestatiet minimālā vecuma atribūtu
@@ -92,8 +92,8 @@ Metadatu atribūts **Minimālais vecums** var būt saistīts ar video līdzekļi
 
 Lai uzstādītu atribūtu **Minimālais vecums** video līdzeklim, veiciet tālāk norādītās darbības.
 
-1. Pārejiet uz sadaļu **Līdzekļi** un atlasiet video līdzekli.
-1. Atlasiet **Izrakstīt**.
+1. Pārejiet uz sadaļu **Multivides bibliotēka** un atlasiet video līdzekli.
+1. Atlasiet **Rediģēt**.
 1. Video līdzekļa rekvizītu rūtī iestatiet atribūtu **Minimālais vecums**.
 
 > [!NOTE]
@@ -112,3 +112,5 @@ Lai uzstādītu atribūtu **Minimālais vecums** video līdzeklim, veiciet tāl�
 [Sīkfailu atbilstība](cookie-compliance.md)
 
 [Konfidencialitātes politikas lapas pievienošana](add-privacy-page.md)
+
+[Aizstāt lietotāja ID, kas saistīti ar izsekotām satura izmaiņām](replace-IDs-tracked-changes.md)

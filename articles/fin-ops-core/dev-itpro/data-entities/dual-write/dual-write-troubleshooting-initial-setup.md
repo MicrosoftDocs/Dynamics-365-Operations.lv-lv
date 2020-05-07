@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172672"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275445"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
@@ -39,7 +39,7 @@ ms.locfileid: "3172672"
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Finance and Operations programmu nevar saistīt ar Common Data Service
 
-**Nepieciešamie akreditācijas dati, lai iestatītu duālo ierakstu:** Azure AD nomnieka administrators
+**Nepieciešamās lomas, lai iestatītu duālo rakstīšanu:** sistēmas administrators abās Finance and Operations lietojumprogrammās un Common Data Service.
 
 Kļūdas lapā **Iestatīt saiti uz Common Data Service** parasti izraisa nepilnīgas iestatīšanas vai atļauju problēmas. Pārliecinieties, ka visa darbspējas pārbaude iet uz lapu **Iestatīt saiti uz Common Data Service**, kā parādīts nākamajā attēlā. Nevarat saistīt duālo ierakstu, ja vien nav izieta pilnīga darbspējas pārbaude.
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173181"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270340"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sinhronizēt ar Dynamics 365 Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
 
@@ -50,6 +50,12 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
     + Piegādes summa
     + Nodokļu kopsumma
     + Kopsumma
+    
+5. Lai nodrošinātu, ka sistēma ņem vērā tirdzniecības un pārdošanas līgumus, lai aprēķinātu cenu:
+    1. Dodieties uz Supply Chain Management vidi.
+    2. Navigējiet uz **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
+    3. Atlasiet cilni **Cenas** sānu navigācijas joslā.
+    4. Saskaņā ar **Tirdzniecības līguma vērtēšanas** kopsavilkuma cilni, noņemiet atzīmi no **Manuālas ievades** opcijas.
 
 ## <a name="how-it-works"></a>Kā tas darbojas
 

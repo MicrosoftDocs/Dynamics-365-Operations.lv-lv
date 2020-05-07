@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207837"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281513"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkšanas pieprasījuma darbplūsma
 
@@ -85,6 +85,9 @@ Nākamajā attēlā ir parādīts, kā cauri darbplūsmai var maršrutēt atsevi
 3.  Pieprasītāja rindas vadītājs pārskata un apstiprina pirkšanas pieprasījuma rindas. Apstiprinājumu var maršrutēt pieprasītāja vadītājam, ja, piemēram, pirkšanas pieprasījuma rindas summa pārsniedz pieprasītāja izdevumu ierobežojumu pirkšanas pieprasījumu rindām. Vadītājs var apstiprināt vai noraidīt vienu vai abas no pirkšanas pieprasījuma rindām.
 4.  Mārketinga nodaļas vadītājs pārskata pirkšanas pieprasījuma rindas gan plakātiem, gan T-krekliem. Pārdošanas nodaļas vadītājs pārskata pirkšanas pieprasījuma rindu tikai plakātiem, jo pārdošanas nodaļai ir jāsedz tikai tās izmaksas.
 5.  Grupas vadītājs pārskata un apstiprina pirkšanas pieprasījuma rindu T-krekliem tikai tad, ja ir nepieciešams grupas vadītāja apstiprinājums, ja, piemēram, summa pirkšanas pieprasījuma rindā pārsniedz nodaļas vadītāja apstiprināto ierobežojumu. Grupas vadītājam nav jāapstiprina pirkšanas pieprasījuma rinda plakātiem.
+
+> [!NOTE]
+> Ja pirkšanas pieprasījuma galvenes darbplūsmai nepieciešami apstiprinājumi, kas saistīti ar parakstīšanas ierobežojumiem, ir jāiestata sistēmas valūta.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Darbplūsmas konfigurēšana pirkšanas pieprasījumiem
 Lai pirkšanas pieprasījumu maršrutētu pārskatīšanai, jums ir jākonfigurē pirkšanas pieprasījuma darbplūsmas procesi. Jūsu definētais darbplūsmas process kontrolē mijiedarbību starp lietotāju, kas pieprasīja krājumus (pieprasītāju), un darbplūsmas pārskatītāju un apstiprinātāju. Pirkšanas pieprasījuma maršrutēšana ir atkarīga no nosacījumiem, kas norādīti darbplūsmas konfigurācijā. Piemēram: šie nosacījumi nosaka, kad pirkšanas pieprasījums jāmaršrutē, kuram lietotājam vai lomai pirkšanas pieprasījums jāmaršrutē, un darbības, kādas lietotāji var veikt.  

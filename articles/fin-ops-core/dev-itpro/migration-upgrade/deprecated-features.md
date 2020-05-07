@@ -3,7 +3,7 @@ title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225132"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284018"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -230,7 +230,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība |
 | **Izvietošanas iespēja**              | Visu  |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 10.0.0 ar 24. platformas atjauninājumu. (Ja un tikai tad, ja ir nepieciešams labot datu bojājumus, ko radījusi iepriekšēja izlaistās preces primārā atslēga, lūdzu, sazinieties ar Microsoft atbalsta personālu, lai pieprasītu šī ierobežojuma pagaidu noņemšanu.) |
+| **Statuss**                         | Noņemts, sākot ar Finance and Operations 10.0.0 ar 24. platformas atjauninājumu.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
@@ -267,7 +267,7 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas laika kļūdu turpmākajās versijās. Šīs izmaiņas ir mērķētas ar platformas atjauninājumiem Finance and Operations programmu 10.0.11 versijā. |
+| **Statuss**                         | Novecojis: brīdinājums ir kompilācijas laika kļūda ar platformas atjauninājumiem Finance and Operations programmu 10.0.11 versijā. |
 
 #### <a name="complete-list"></a>Pilnīgs saraksts
 Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).

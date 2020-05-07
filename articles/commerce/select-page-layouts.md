@@ -3,7 +3,7 @@ title: Lapas izkārtojumu atlase
 description: Šajā tēmā ir paskaidrots, kā izveidot un atlasīt lapas izkārtojumus programmā Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002778"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269916"
 ---
 # <a name="select-page-layouts"></a>Lapas izkārtojumu atlase
 
@@ -39,7 +39,7 @@ ms.locfileid: "3002778"
 Lai izveidotu izkārtojumus esošai lapai, rīkojieties, kā norādīts tālāk.
 
 1. Dodieties uz sadaļu **Lapas**un sarakstā meklējiet esošo lapu. Izmantojiet meklēšanas līdzekli, ja nepieciešams.
-1. Atlasiet lapu, izrakstiet to un pēc tam atlasiet, lai to atvērtu. Pierakstiet moduļu secību.
+1. Atlasiet lapu, atlasiet **Rediģēt**, lai to pārbaudītu, un pēc tam atlasiet lapas nosaukumu, lai to atvērtu. Pierakstiet moduļu secību.
 1. Atlasiet **Saglabāt kā jaunu izkārtojumu**.
 1. Ievadiet izkārtojuma nosaukumu un pēc tam atlasiet **Labi**.
 1. Atlasiet **Pārvērst par iegulto izkārtojumu**.
@@ -47,6 +47,7 @@ Lai izveidotu izkārtojumus esošai lapai, rīkojieties, kā norādīts tālāk.
 1. Atlasiet **Saglabāt kā jaunu izkārtojumu**.
 1. Ievadiet izkārtojuma nosaukumu un pēc tam atlasiet **Labi**.
 1. Atlasiet **Mainīt izkārtojumu**, atlasiet pirmo izveidoto izkārtojumu un pēc tam atlasiet **Labi**. Pierakstiet moduļu secību. Mainiet to, lai tas atbilstu moduļu secībai, kas tika saglabāta ar izkārtojumu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Cita izkārtojuma atlasīšana esošajai lapai
 
@@ -56,9 +57,10 @@ Lai izveidotu izkārtojumus esošai lapai, rīkojieties, kā norādīts tālāk.
 Lai atlasītu citu izkārtojumu esošai lapai, rīkojieties, kā norādīts tālāk.
 
 1. Dodieties uz sadaļu **Lapas**un sarakstā meklējiet esošo lapu. Izmantojiet meklēšanas līdzekli, ja nepieciešams.
-1. Atlasiet lapu, izrakstiet to un pēc tam atlasiet, lai to atvērtu.
+1. Atlasiet lapu, atlasiet **Rediģēt**, lai to pārbaudītu, un pēc tam atlasiet lapas nosaukumu, lai to atvērtu.
 1. Atlasiet **Mainīt izkārtojumu**.
 1. Atlasiet lapas jauno izkārtojumu un pēc tam atlasiet **Labi**. Lapas redaktors tiek atsvaidzināts, lai parādītu jauno izkārtojumu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

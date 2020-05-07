@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173135"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275491"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Elementu atkarības ķēde (sinhronizācijas secība)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-Nākamajās astoņās tabulās entītijas ir uzskaitītas tādā secībā, kādā jums tās ir jāaktivizē. Aktivizējot karti sākotnējai sinhronizācijai, duālās rakstīšanas sistēma automātiski atpazīst citas kartes, kas ir jāaktivizē. Varat izmantot lapu **Duālā rakstīšana** programmā Finance and Operations, lai atlasītu vai atceltu entītiju atlasi sākotnējās sinhronizācijas laikā.
-
-Jaunākajā duālajā rakstīšanas versijā var iespējot tikai dažas entītijas, un atkarības tiek apstrādātas jūsu vietā.
+Šī tēma norāda sinhronizācijas kārtību, kas jāievēro, lai izveidotu sākotnējos datus, ja neizmantojat elementa atkarības, ko nodrošina **sākotnējais sinhronizācijas** līdzeklis. Ja neizmantojat **sākotnējo sinhronizāciju**, jums ir jāpalaiž katra elementa karte atsevišķi.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Dynamics 365 Supply Chain Management entītijas
 

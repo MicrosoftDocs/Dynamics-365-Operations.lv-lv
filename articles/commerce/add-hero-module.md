@@ -3,7 +3,7 @@ title: Satura bloka modulis
 description: Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025762"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269686"
 ---
 # <a name="content-block-module"></a>Satura bloka modulis
 
@@ -79,10 +79,10 @@ Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar funkcijas iz
 
 Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Veidnes**un izveidojiet lapas veidni ar nosaukumu **satura bloka veidne**.
+1. Dodieties uz **Veidnes**un izveidojiet lapas veidni ar nosaukumu **Satura bloka veidne**.
 1. Noklusētās lapas **Galvenajā** slotā pievienojiet centrālo moduli.
-1. Pārbaudiet veidni un publicējiet to.
-1. Izmantojiet jūsu tikko izveidoto konteinera varoņa veidni, lai izveidotu lapu ar nosaukumu **satura bloka lapa**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Izmantojiet jūsu tikko izveidoto konteinera varoņa veidni, lai izveidotu lapu ar nosaukumu **Satura bloka lapa**.
 1. Noklusējuma lapas **Galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** zem **Atlasīt moduļus** izvēlieties centrālio moduli un pēc tam atlasiet **Labi**.
 1. Strukturējuma kokā pa kreisi atlasiet satura bloka moduli.
@@ -93,14 +93,14 @@ Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekviz
 1. Atlasiet **Pievienot saiti**.
 1. Dialoglodziņā **Saite** pievienojiet saites tekstu, saites vietrādi URL un ARIA etiķeti saitei un pēc tam atlasiet **Labi**.
 1. Atlasiet **Varonis** izkārtojumu.
-1. Lapas saglabāšana un savu izmaiņu priekšskatīšana
-1. Pārbaudiet lapu un publicējiet to.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
-[Veicināšanas reklāmkarogu modulis](add-alert.md)
+[Akcijas reklāmkaroga modulis](add-alert.md)
 
 [Karuseļa modulis](add-carousel.md)
 
