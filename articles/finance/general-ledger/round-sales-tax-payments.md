@@ -3,7 +3,7 @@ title: PVN maksājumi un noapaļošanas kārtulas
 description: Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,102 +18,102 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771756"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275678"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="9084b-103">PVN maksājumi un noapaļošanas kārtulas</span><span class="sxs-lookup"><span data-stu-id="9084b-103">Sales tax payments and rounding rules</span></span>
+# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="97660-103">PVN maksājumi un noapaļošanas kārtulas</span><span class="sxs-lookup"><span data-stu-id="97660-103">Sales tax payments and rounding rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9084b-104">Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.</span><span class="sxs-lookup"><span data-stu-id="9084b-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
+<span data-ttu-id="97660-104">Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.</span><span class="sxs-lookup"><span data-stu-id="97660-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
 
-<span data-ttu-id="9084b-105">Periodiski ir jāziņo par PVN un tas ir jāsamaksā nodokļu iestādēm.</span><span class="sxs-lookup"><span data-stu-id="9084b-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="9084b-106">To var izdarīt, lapa PVN palaižot procesu Nosegt un grāmatot PVN.</span><span class="sxs-lookup"><span data-stu-id="9084b-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="9084b-107">Noteikta perioda PVN tiek nosegts no PVN kontiem, un PVN apmaksas kontā tiek grāmatota PVN bilance.</span><span class="sxs-lookup"><span data-stu-id="9084b-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="9084b-108">PVN apmaksas kontā grāmatoto PVN bilanci var noapaļot atbilstoši nodokļu iestāžu prasībām, iestatot noapaļošanas kārtulu lapā PVN.</span><span class="sxs-lookup"><span data-stu-id="9084b-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
+<span data-ttu-id="97660-105">Periodiski ir jāziņo par PVN un tas ir jāsamaksā nodokļu iestādēm.</span><span class="sxs-lookup"><span data-stu-id="97660-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="97660-106">To var izdarīt, lapa PVN palaižot procesu Nosegt un grāmatot PVN.</span><span class="sxs-lookup"><span data-stu-id="97660-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="97660-107">Noteikta perioda PVN tiek nosegts no PVN kontiem, un PVN apmaksas kontā tiek grāmatota PVN bilance.</span><span class="sxs-lookup"><span data-stu-id="97660-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="97660-108">PVN apmaksas kontā grāmatoto PVN bilanci var noapaļot atbilstoši nodokļu iestāžu prasībām, iestatot noapaļošanas kārtulu lapā PVN.</span><span class="sxs-lookup"><span data-stu-id="97660-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
 
-<span data-ttu-id="9084b-109">Noapaļošanas starpība tiek grāmatota PVN noapaļošanas kontā, kas ir atlasīts virsgrāmatas laukā Automātisko darījumu konti.</span><span class="sxs-lookup"><span data-stu-id="9084b-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
+<span data-ttu-id="97660-109">Noapaļošanas starpība tiek grāmatota PVN noapaļošanas kontā, kas ir atlasīts virsgrāmatas laukā Automātisko darījumu konti.</span><span class="sxs-lookup"><span data-stu-id="97660-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
 
-<span data-ttu-id="9084b-110">Tālāk sniegtajā piemērā ir attēlots, kā darbojas noapaļošanas kārtula nodokļu iestādei.</span><span class="sxs-lookup"><span data-stu-id="9084b-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
+<span data-ttu-id="97660-110">Tālāk sniegtajā piemērā ir attēlots, kā darbojas noapaļošanas kārtula nodokļu iestādei.</span><span class="sxs-lookup"><span data-stu-id="97660-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="9084b-111">Piemēri</span><span class="sxs-lookup"><span data-stu-id="9084b-111">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="97660-111">Piemēri</span><span class="sxs-lookup"><span data-stu-id="97660-111">Examples</span></span>
 
-<span data-ttu-id="9084b-112">Kopējā PVN summa par periodu atbilst kredīta bilancei –98 765,43.</span><span class="sxs-lookup"><span data-stu-id="9084b-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="9084b-113">Juridiskā persona ir saņēmusi lielāku PVN summu, nekā tā ir samaksājusi.</span><span class="sxs-lookup"><span data-stu-id="9084b-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="9084b-114">Tāpēc juridiskā persona ir parādā nodokļu iestādei.</span><span class="sxs-lookup"><span data-stu-id="9084b-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
+<span data-ttu-id="97660-112">Kopējā PVN summa par periodu atbilst kredīta bilancei –98 765,43.</span><span class="sxs-lookup"><span data-stu-id="97660-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="97660-113">Juridiskā persona ir saņēmusi lielāku PVN summu, nekā tā ir samaksājusi.</span><span class="sxs-lookup"><span data-stu-id="97660-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="97660-114">Tāpēc juridiskā persona ir parādā nodokļu iestādei.</span><span class="sxs-lookup"><span data-stu-id="97660-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
 
-<span data-ttu-id="9084b-115">Juridiskā persona vēlas izmantot noapaļošanas metodi, kas noapaļo bilanci līdz tuvākajam veselam skaitlim (1,00).</span><span class="sxs-lookup"><span data-stu-id="9084b-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="9084b-116">Lietotājs, kurš ir atbildīgs par PVN uzskaiti, veic tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="9084b-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
+<span data-ttu-id="97660-115">Juridiskā persona vēlas izmantot noapaļošanas metodi, kas noapaļo bilanci līdz tuvākajam veselam skaitlim (1,00).</span><span class="sxs-lookup"><span data-stu-id="97660-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="97660-116">Lietotājs, kurš ir atbildīgs par PVN uzskaiti, veic tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="97660-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
 
-1.  <span data-ttu-id="9084b-117">Noklikšķiniet uz Nodokļi &gt; Netiešie nodokļi &gt; PVN &gt; Nodokļu iestādes.</span><span class="sxs-lookup"><span data-stu-id="9084b-117">Click Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax authorities</span></span>
-2.  <span data-ttu-id="9084b-118">Kopsavilkuma cilnes Vispārīgi laukā Noapaļošanas veids atlasiet opciju Parastais.</span><span class="sxs-lookup"><span data-stu-id="9084b-118">On the General FastTab, select Normal in the Rounding form field.</span></span>
-3.  <span data-ttu-id="9084b-119">Laukā Noapaļošana ievadiet vērtību 1,00.</span><span class="sxs-lookup"><span data-stu-id="9084b-119">In the Round-off field, enter 1.00.</span></span>
-4.  <span data-ttu-id="9084b-120">Kad ir pienācis laiks maksāt PVN nodokļu iestādei, atveriet lapu Nosegt un grāmatot PVN.</span><span class="sxs-lookup"><span data-stu-id="9084b-120">When it is time to pay the sales taxes to the tax authority, open the Settle and post sales tax page.</span></span> <span data-ttu-id="9084b-121">(Noklikšķiniet uz Nodokļi &gt; Deklarācijas &gt; PVN &gt; Nosegt un grāmatot PVN.)</span><span class="sxs-lookup"><span data-stu-id="9084b-121">(Click Tax &gt; Declarations &gt; Sales tax &gt; Settle and post sales tax.)</span></span>
-5.  <span data-ttu-id="9084b-122">PVN apmaksas kontā nodokļu parāda suma 98 765,43 tiek noapaļota līdz 98 765.</span><span class="sxs-lookup"><span data-stu-id="9084b-122">On the sales tax settlement account, the tax liability amount of 98,765.43 is rounded to 98,765.</span></span>
+1. <span data-ttu-id="97660-117">Noklikšķiniet uz  **Nodokļi** > **Netiešie nodokļi** > **PVN** > **Nodokļu iestādes**.</span><span class="sxs-lookup"><span data-stu-id="97660-117">Click **Tax** > **Indirect taxes** > **Sales tax** > **Sales tax authorities**.</span></span>
+2. <span data-ttu-id="97660-118">Kopsavilkuma cilnes **Vispārīgi** laukā **Noapaļošanas veids** atlasiet opciju **Parastais**.</span><span class="sxs-lookup"><span data-stu-id="97660-118">On the **General** FastTab, in the **Rounding form** field, select **Normal**.</span></span>
+3. <span data-ttu-id="97660-119">Laukā **Noapaļošana** ievadiet vērtību 1,00.</span><span class="sxs-lookup"><span data-stu-id="97660-119">In the **Round-off** field, enter 1.00.</span></span>
+4. <span data-ttu-id="97660-120">Kad ir pienācis laiks maksāt PVN nodokļu iestādei, dodieties uz **Nodokļi** > **Deklarācijas** > **PVN** > **Nosegt un grāmatot PVN**.</span><span class="sxs-lookup"><span data-stu-id="97660-120">When it is time to pay the sales taxes to the tax authority, go to **Tax** > **Declarations** > **Sales tax** > **Settle and post sale tax**.</span></span> <span data-ttu-id="97660-121">PVN apmaksas kontā jūs redzēsiet nodokļu parāda summa **98 765,43** tiek noapaļota līdz **98 765**.</span><span class="sxs-lookup"><span data-stu-id="97660-121">On the sales tax settlement account, you can see that the tax liability amount of **98,765.43** is rounded to **98,765**.</span></span>
 
-<span data-ttu-id="9084b-123">Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, izmantojot katru noapaļošanas metodi, kas ir pieejama lapas Nodokļu iestādes laukā Noapaļošanas veids.</span><span class="sxs-lookup"><span data-stu-id="9084b-123">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the Rounding form field in the Sales tax authorities page.</span></span>
+<span data-ttu-id="97660-122">Tālāk esošajā tabulā ir parādīts, kā summa 98 765,43 tiek noapaļota, izmantojot katru noapaļošanas metodi, kas ir pieejama lapas **Nodokļu iestādes** laukā **Noapaļošanas veids**.</span><span class="sxs-lookup"><span data-stu-id="97660-122">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the **Rounding form** field in the **Sales tax authorities** page.</span></span>
 
-| <span data-ttu-id="9084b-124">Noapaļošanas veida opcija</span><span class="sxs-lookup"><span data-stu-id="9084b-124">Rounding form option</span></span>                | <span data-ttu-id="9084b-125">Noapaļošanas vērtība = 0,01</span><span class="sxs-lookup"><span data-stu-id="9084b-125">Round-off value = 0.01</span></span> | <span data-ttu-id="9084b-126">Noapaļošanas vērtība = 0,10</span><span class="sxs-lookup"><span data-stu-id="9084b-126">Round-off value = 0.10</span></span> | <span data-ttu-id="9084b-127">Noapaļošanas vērtība = 1,00</span><span class="sxs-lookup"><span data-stu-id="9084b-127">Round-off value = 1.00</span></span> | <span data-ttu-id="9084b-128">Noapaļošanas vērtība = 100,00</span><span class="sxs-lookup"><span data-stu-id="9084b-128">Round-off value = 100.00</span></span> |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| <span data-ttu-id="9084b-129">Parastais</span><span class="sxs-lookup"><span data-stu-id="9084b-129">Normal</span></span>                              | <span data-ttu-id="9084b-130">98 765,43</span><span class="sxs-lookup"><span data-stu-id="9084b-130">98,765.43</span></span>              | <span data-ttu-id="9084b-131">98 765,40</span><span class="sxs-lookup"><span data-stu-id="9084b-131">98,765.40</span></span>              | <span data-ttu-id="9084b-132">98 765,00</span><span class="sxs-lookup"><span data-stu-id="9084b-132">98,765.00</span></span>              | <span data-ttu-id="9084b-133">98 800,00</span><span class="sxs-lookup"><span data-stu-id="9084b-133">98,800.00</span></span>                |
-| <span data-ttu-id="9084b-134">Uz zemāku</span><span class="sxs-lookup"><span data-stu-id="9084b-134">Downward</span></span>                            | <span data-ttu-id="9084b-135">98 765,43</span><span class="sxs-lookup"><span data-stu-id="9084b-135">98,765.43</span></span>              | <span data-ttu-id="9084b-136">98 765,40</span><span class="sxs-lookup"><span data-stu-id="9084b-136">98,765.40</span></span>              | <span data-ttu-id="9084b-137">98 765,00</span><span class="sxs-lookup"><span data-stu-id="9084b-137">98,765.00</span></span>              | <span data-ttu-id="9084b-138">98 700,00</span><span class="sxs-lookup"><span data-stu-id="9084b-138">98,700.00</span></span>                |
-| <span data-ttu-id="9084b-139">Noapaļošana</span><span class="sxs-lookup"><span data-stu-id="9084b-139">Rounding-up</span></span>                         | <span data-ttu-id="9084b-140">98 765,43</span><span class="sxs-lookup"><span data-stu-id="9084b-140">98,765.43</span></span>              | <span data-ttu-id="9084b-141">98 765,50</span><span class="sxs-lookup"><span data-stu-id="9084b-141">98,765.50</span></span>              | <span data-ttu-id="9084b-142">98 766,00</span><span class="sxs-lookup"><span data-stu-id="9084b-142">98,766.00</span></span>              | <span data-ttu-id="9084b-143">98 800,00</span><span class="sxs-lookup"><span data-stu-id="9084b-143">98,800.00</span></span>                |
-| <span data-ttu-id="9084b-144">Pašu priekšrocība kredīta bilancei</span><span class="sxs-lookup"><span data-stu-id="9084b-144">Own advantage, for a credit balance</span></span> | <span data-ttu-id="9084b-145">98 765,43</span><span class="sxs-lookup"><span data-stu-id="9084b-145">98,765.43</span></span>              | <span data-ttu-id="9084b-146">98 765,40</span><span class="sxs-lookup"><span data-stu-id="9084b-146">98,765.40</span></span>              | <span data-ttu-id="9084b-147">98 765,00</span><span class="sxs-lookup"><span data-stu-id="9084b-147">98,765.00</span></span>              | <span data-ttu-id="9084b-148">98 700,00</span><span class="sxs-lookup"><span data-stu-id="9084b-148">98,700.00</span></span>                |
-| <span data-ttu-id="9084b-149">Pašu priekšrocība debeta bilancei</span><span class="sxs-lookup"><span data-stu-id="9084b-149">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="9084b-150">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9084b-150">98,765.43</span></span>              | <span data-ttu-id="9084b-151">98,765.50</span><span class="sxs-lookup"><span data-stu-id="9084b-151">98,765.50</span></span>              | <span data-ttu-id="9084b-152">98,766.00</span><span class="sxs-lookup"><span data-stu-id="9084b-152">98,766.00</span></span>              | <span data-ttu-id="9084b-153">98,800.00</span><span class="sxs-lookup"><span data-stu-id="9084b-153">98,800.00</span></span>                |
+> [!NOTE]                                                                                  
+> <span data-ttu-id="97660-123">Ja noapaļošanas vērtība ir iestatīta kā 0,00, tad:</span><span class="sxs-lookup"><span data-stu-id="97660-123">If the round-off value is set as 0.00, then:</span></span>
+>
+> - <span data-ttu-id="97660-124">Normālai noapaļošanai uzvedība ir tāda pati kā **Noapaļošana = 0,01**.</span><span class="sxs-lookup"><span data-stu-id="97660-124">For normal rounding, the rounding behavior is the same as for **Round-off = 0.01**.</span></span>
+> - <span data-ttu-id="97660-125">Opcijām **Noapaļošanas veida opcijas**, **Uz zemāku**, **Noapaļošana**un **Pašu priekšrocība** uzvedība ir tāda pati kā **Noapaļošana = 1,00**.</span><span class="sxs-lookup"><span data-stu-id="97660-125">For the **Rounding form options**, **Downward**, **Rounding-up**, and **Own advantage**, the behavior is the same as for **Round-off = 1.00**.</span></span>
 
+| <span data-ttu-id="97660-126">Noapaļošanas veida opcija</span><span class="sxs-lookup"><span data-stu-id="97660-126">Rounding form option</span></span>                | <span data-ttu-id="97660-127">Noapaļošanas vērtība = 0,01</span><span class="sxs-lookup"><span data-stu-id="97660-127">Round-off value = 0.01</span></span> | <span data-ttu-id="97660-128">Noapaļošanas vērtība = 0,10</span><span class="sxs-lookup"><span data-stu-id="97660-128">Round-off value = 0.10</span></span> | <span data-ttu-id="97660-129">Noapaļošanas vērtība = 1,00</span><span class="sxs-lookup"><span data-stu-id="97660-129">Round-off value = 1.00</span></span> | <span data-ttu-id="97660-130">Noapaļošanas vērtība = 100,00</span><span class="sxs-lookup"><span data-stu-id="97660-130">Round-off value = 100.00</span></span> | <span data-ttu-id="97660-131">Noapaļošanas vērtība = 0,00</span><span class="sxs-lookup"><span data-stu-id="97660-131">Round-off value = 0.00</span></span>   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| <span data-ttu-id="97660-132">Parasta</span><span class="sxs-lookup"><span data-stu-id="97660-132">Normal</span></span>                              | <span data-ttu-id="97660-133">98,765.43</span><span class="sxs-lookup"><span data-stu-id="97660-133">98,765.43</span></span>              | <span data-ttu-id="97660-134">98,765.40</span><span class="sxs-lookup"><span data-stu-id="97660-134">98,765.40</span></span>              | <span data-ttu-id="97660-135">98,765.00</span><span class="sxs-lookup"><span data-stu-id="97660-135">98,765.00</span></span>              | <span data-ttu-id="97660-136">98,800.00</span><span class="sxs-lookup"><span data-stu-id="97660-136">98,800.00</span></span>                | <span data-ttu-id="97660-137">98,765.43</span><span class="sxs-lookup"><span data-stu-id="97660-137">98,765.43</span></span>                |
+| <span data-ttu-id="97660-138">Uz zemāku</span><span class="sxs-lookup"><span data-stu-id="97660-138">Downward</span></span>                            | <span data-ttu-id="97660-139">98,765.43</span><span class="sxs-lookup"><span data-stu-id="97660-139">98,765.43</span></span>              | <span data-ttu-id="97660-140">98,765.40</span><span class="sxs-lookup"><span data-stu-id="97660-140">98,765.40</span></span>              | <span data-ttu-id="97660-141">98,765.00</span><span class="sxs-lookup"><span data-stu-id="97660-141">98,765.00</span></span>              | <span data-ttu-id="97660-142">98,700.00</span><span class="sxs-lookup"><span data-stu-id="97660-142">98,700.00</span></span>                | <span data-ttu-id="97660-143">98,765.00</span><span class="sxs-lookup"><span data-stu-id="97660-143">98,765.00</span></span>                |
+| <span data-ttu-id="97660-144">Noapaļošana</span><span class="sxs-lookup"><span data-stu-id="97660-144">Rounding-up</span></span>                         | <span data-ttu-id="97660-145">98,765.43</span><span class="sxs-lookup"><span data-stu-id="97660-145">98,765.43</span></span>              | <span data-ttu-id="97660-146">98,765.50</span><span class="sxs-lookup"><span data-stu-id="97660-146">98,765.50</span></span>              | <span data-ttu-id="97660-147">98,766.00</span><span class="sxs-lookup"><span data-stu-id="97660-147">98,766.00</span></span>              | <span data-ttu-id="97660-148">98,800.00</span><span class="sxs-lookup"><span data-stu-id="97660-148">98,800.00</span></span>                | <span data-ttu-id="97660-149">98,766.00</span><span class="sxs-lookup"><span data-stu-id="97660-149">98,766.00</span></span>                |
+| <span data-ttu-id="97660-150">Pašu priekšrocība kredīta bilancei</span><span class="sxs-lookup"><span data-stu-id="97660-150">Own advantage, for a credit balance</span></span> | <span data-ttu-id="97660-151">98,765.43</span><span class="sxs-lookup"><span data-stu-id="97660-151">98,765.43</span></span>              | <span data-ttu-id="97660-152">98,765.40</span><span class="sxs-lookup"><span data-stu-id="97660-152">98,765.40</span></span>              | <span data-ttu-id="97660-153">98,765.00</span><span class="sxs-lookup"><span data-stu-id="97660-153">98,765.00</span></span>              | <span data-ttu-id="97660-154">98,700.00</span><span class="sxs-lookup"><span data-stu-id="97660-154">98,700.00</span></span>                | <span data-ttu-id="97660-155">98,765.00</span><span class="sxs-lookup"><span data-stu-id="97660-155">98,765.00</span></span>                |
+| <span data-ttu-id="97660-156">Pašu priekšrocība debeta bilancei</span><span class="sxs-lookup"><span data-stu-id="97660-156">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="97660-157">98,765.43</span><span class="sxs-lookup"><span data-stu-id="97660-157">98,765.43</span></span>              | <span data-ttu-id="97660-158">98,765.50</span><span class="sxs-lookup"><span data-stu-id="97660-158">98,765.50</span></span>              | <span data-ttu-id="97660-159">98,766.00</span><span class="sxs-lookup"><span data-stu-id="97660-159">98,766.00</span></span>              | <span data-ttu-id="97660-160">98,800.00</span><span class="sxs-lookup"><span data-stu-id="97660-160">98,800.00</span></span>                | <span data-ttu-id="97660-161">98,766.00</span><span class="sxs-lookup"><span data-stu-id="97660-161">98,766.00</span></span>                |
 
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a><span data-ttu-id="9084b-154">Noapaļošana netiek veikta, jo noapaļošanai ir 0,00</span><span class="sxs-lookup"><span data-stu-id="9084b-154">No rounding at all, since the round-off is 0.00</span></span>
-
-<span data-ttu-id="9084b-155">noapaļošana (1,0151, 0,00) = 1,0151 noapaļošana (1,0149, 0,0) = 1,0149</span><span class="sxs-lookup"><span data-stu-id="9084b-155">round(1.0151, 0.00) = 1.0151 round(1.0149, 0.00) = 1.0149</span></span>
-
-### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="9084b-156">Normāla noapaļošana, un noapaļošanas precizitāte ir 0,01</span><span class="sxs-lookup"><span data-stu-id="9084b-156">Normal round, and round precision is 0.01</span></span>
+### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="97660-162">Normāla noapaļošana, un noapaļošanas precizitāte ir 0,01</span><span class="sxs-lookup"><span data-stu-id="97660-162">Normal round, and round precision is 0.01</span></span>
 
 <table>
   <tr>
-    <td><span data-ttu-id="9084b-157">Noapaļošana</span><span class="sxs-lookup"><span data-stu-id="9084b-157">Rounding</span></span>
+    <td><span data-ttu-id="97660-163">Noapaļošana</span><span class="sxs-lookup"><span data-stu-id="97660-163">Rounding</span></span>
     </td>
-    <td><span data-ttu-id="9084b-158">Aprēķina process</span><span class="sxs-lookup"><span data-stu-id="9084b-158">Calculation process</span></span>
+    <td><span data-ttu-id="97660-164">Aprēķina process</span><span class="sxs-lookup"><span data-stu-id="97660-164">Calculation process</span></span>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="9084b-159">noapaļošana (1,015, 0,01) = 1,02</span><span class="sxs-lookup"><span data-stu-id="9084b-159">round(1.015, 0.01) = 1.02</span></span>
+    <td><span data-ttu-id="97660-165">noapaļošana (1,015, 0,01) = 1,02</span><span class="sxs-lookup"><span data-stu-id="97660-165">round(1.015, 0.01) = 1.02</span></span>
     </td>
     <td>
       <ol>
-        <li><span data-ttu-id="9084b-160">noapaļošana (1,015 / 0,01, 0) = noapaļošana (101,5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="9084b-160">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
+        <li><span data-ttu-id="97660-166">noapaļošana (1,015 / 0,01, 0) = noapaļošana (101,5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="97660-166">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
         </li>
-        <li><span data-ttu-id="9084b-161">102 \* 0,01 = 1,02</span><span class="sxs-lookup"><span data-stu-id="9084b-161">102 \* 0.01 = 1.02</span></span>
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td><span data-ttu-id="9084b-162">noapaļošana (1,014, 0,01) = 1,01</span><span class="sxs-lookup"><span data-stu-id="9084b-162">round(1.014, 0.01) = 1.01</span></span>
-    </td>
-    <td> <ol>
-        <li><span data-ttu-id="9084b-163">noapaļošana (1,014 / 0,01, 0) = noapaļošana (101,4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="9084b-163">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
-        </li>
-        <li><span data-ttu-id="9084b-164">101 \* 0,01 = 1,01</span><span class="sxs-lookup"><span data-stu-id="9084b-164">101 \* 0.01 = 1.01</span></span>
+        <li><span data-ttu-id="97660-167">102 \* 0,01 = 1,02</span><span class="sxs-lookup"><span data-stu-id="97660-167">102 \* 0.01 = 1.02</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="9084b-165">noapaļošana (1,011, 0,02) = 1,02</span><span class="sxs-lookup"><span data-stu-id="9084b-165">round(1.011, 0.02) = 1.02</span></span>
+    <td><span data-ttu-id="97660-168">noapaļošana (1,014, 0,01) = 1,01</span><span class="sxs-lookup"><span data-stu-id="97660-168">round(1.014, 0.01) = 1.01</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="9084b-166">noapaļošana (1,011 / 0,02, 0) = noapaļošana (50,55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="9084b-166">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
+        <li><span data-ttu-id="97660-169">noapaļošana (1,014 / 0,01, 0) = noapaļošana (101,4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="97660-169">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
         </li>
-        <li><span data-ttu-id="9084b-167">51 \* 0,02 = 1,02</span><span class="sxs-lookup"><span data-stu-id="9084b-167">51 \* 0.02 = 1.02</span></span>
+        <li><span data-ttu-id="97660-170">101 \* 0,01 = 1,01</span><span class="sxs-lookup"><span data-stu-id="97660-170">101 \* 0.01 = 1.01</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="9084b-168">noapaļošana (1,009, 0,02) = 1,00</span><span class="sxs-lookup"><span data-stu-id="9084b-168">round(1.009, 0.02) = 1.00</span></span>
+    <td><span data-ttu-id="97660-171">noapaļošana (1,011, 0,02) = 1,02</span><span class="sxs-lookup"><span data-stu-id="97660-171">round(1.011, 0.02) = 1.02</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="9084b-169">noapaļošana (1,009 / 0,02, 0) = noapaļošana (50,45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="9084b-169">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        <li><span data-ttu-id="97660-172">noapaļošana (1,011 / 0,02, 0) = noapaļošana (50,55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="97660-172">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
         </li>
-        <li><span data-ttu-id="9084b-170">50 \* 0,02 = 1,00</span><span class="sxs-lookup"><span data-stu-id="9084b-170">50 \* 0.02 = 1.00</span></span>
+        <li><span data-ttu-id="97660-173">51 \* 0,02 = 1,02</span><span class="sxs-lookup"><span data-stu-id="97660-173">51 \* 0.02 = 1.02</span></span>
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td><span data-ttu-id="97660-174">noapaļošana (1,009, 0,02) = 1,00</span><span class="sxs-lookup"><span data-stu-id="97660-174">round(1.009, 0.02) = 1.00</span></span>
+    </td>
+    <td> <ol>
+        <li><span data-ttu-id="97660-175">noapaļošana (1,009 / 0,02, 0) = noapaļošana (50,45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="97660-175">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        </li>
+        <li><span data-ttu-id="97660-176">50 \* 0,02 = 1,00</span><span class="sxs-lookup"><span data-stu-id="97660-176">50 \* 0.02 = 1.00</span></span>
         </li>
       </ol>
     </td>
@@ -121,13 +121,13 @@ ms.locfileid: "2771756"
 </table>
 
 > [!NOTE]                                                                                  
-> <span data-ttu-id="9084b-171">Ja atlasāt opciju Pašu priekšrocība, noapaļošana vienmēr tiek veikta atbilstoši juridiskās personas interesēm.</span><span class="sxs-lookup"><span data-stu-id="9084b-171">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
+> <span data-ttu-id="97660-177">Ja atlasāt opciju Pašu priekšrocība, noapaļošana vienmēr tiek veikta atbilstoši juridiskās personas interesēm.</span><span class="sxs-lookup"><span data-stu-id="97660-177">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
 
-<span data-ttu-id="9084b-172">Lai iegūtu papildu informāciju, skatiet šādas tēmas:</span><span class="sxs-lookup"><span data-stu-id="9084b-172">For more information, see the following topics:</span></span>
-- [<span data-ttu-id="9084b-173">PVN apskats</span><span class="sxs-lookup"><span data-stu-id="9084b-173">Sales tax overview</span></span>](indirect-taxes-overview.md)
-- [<span data-ttu-id="9084b-174">PVN maksājuma izveide</span><span class="sxs-lookup"><span data-stu-id="9084b-174">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
-- [<span data-ttu-id="9084b-175">PVN transakciju izveide dokumentos</span><span class="sxs-lookup"><span data-stu-id="9084b-175">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
-- [<span data-ttu-id="9084b-176">Grāmatoto PVN transakciju skatīšana</span><span class="sxs-lookup"><span data-stu-id="9084b-176">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
-- [<span data-ttu-id="9084b-177">noapaļošanas funkcija</span><span class="sxs-lookup"><span data-stu-id="9084b-177">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
+<span data-ttu-id="97660-178">Lai iegūtu papildu informāciju, skatiet šādas tēmas:</span><span class="sxs-lookup"><span data-stu-id="97660-178">For more information, see the following topics:</span></span>
+- [<span data-ttu-id="97660-179">PVN apskats</span><span class="sxs-lookup"><span data-stu-id="97660-179">Sales tax overview</span></span>](indirect-taxes-overview.md)
+- [<span data-ttu-id="97660-180">PVN maksājuma izveide</span><span class="sxs-lookup"><span data-stu-id="97660-180">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
+- [<span data-ttu-id="97660-181">PVN transakciju izveide dokumentos</span><span class="sxs-lookup"><span data-stu-id="97660-181">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
+- [<span data-ttu-id="97660-182">Grāmatoto PVN transakciju skatīšana</span><span class="sxs-lookup"><span data-stu-id="97660-182">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
+- [<span data-ttu-id="97660-183">noapaļošanas funkcija</span><span class="sxs-lookup"><span data-stu-id="97660-183">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
